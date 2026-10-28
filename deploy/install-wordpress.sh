@@ -22,8 +22,14 @@ if ! wp core is-installed --path=/var/www/html --quiet; then
     --admin_email=admin@moevec.org \
     --skip-email \
     --quiet
+  sample_ids=$(wp post list --post_type=post,page --format=ids --path=/var/www/html)
+  if [ -n "$sample_ids" ]; then
+    # The installer creates sample content. Remove it before the site opens.
+    wp post delete $sample_ids --force --path=/var/www/html --quiet
+  fi
 fi
 
 wp theme activate mee-child --path=/var/www/html --quiet
 wp plugin activate mee-editorial --path=/var/www/html --quiet
 wp rewrite structure '/%postname%/' --hard --path=/var/www/html --quiet
+wp option update blogdescription 'Movimiento de Evolución Económica' --path=/var/www/html --quiet
