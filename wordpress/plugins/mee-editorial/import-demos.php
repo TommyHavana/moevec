@@ -12,7 +12,7 @@ foreach($topics as$index=>$topic){
  $ids[$slug]=$term->term_id;
  $post_slug='muestra-'.$topic['area'].'-'.$slug;
  $found=get_page_by_path($post_slug,OBJECT,'post');
- if($found){$existing++;continue;}
+ if($found&&(!get_post_meta($found->ID,'_mee_demo',true)||($found->post_status==='publish'&&has_post_thumbnail($found->ID)))){$existing++;continue;}
  $image='https://moevec.org'.$topic['image'];$name=esc_html($topic['name']);$benefit=esc_html(ucfirst($topic['benefit']));$area=esc_html($topic['areaName']);
  $prompts=[
  '¿Qué decisión puedes tomar por ti y qué información te falta para tomarla con criterio?',
@@ -33,7 +33,7 @@ foreach($topics as$index=>$topic){
  $body.='<!-- wp:heading {"anchor":"ejemplo"} --><h2 class="wp-block-heading" id="ejemplo">Un caso hipotético, para conversar</h2><!-- /wp:heading --><!-- wp:paragraph --><p>Imagina que un pequeño grupo quiere aplicar esta idea a una actividad compartida. Antes de actuar, cada participante explica qué puede aportar, qué necesita y qué espera. El grupo acuerda una prueba limitada y un momento para revisar lo aprendido. Este ejemplo no describe una experiencia real ni demuestra un resultado.</p><!-- /wp:paragraph -->';
  $body.='<!-- wp:heading {"anchor":"preguntas"} --><h2 class="wp-block-heading" id="preguntas">Preguntas que quedan abiertas</h2><!-- /wp:heading --><!-- wp:list --><ul class="wp-block-list"><!-- wp:list-item --><li>¿Qué cambiaría si los recursos o las condiciones fueran distintos?</li><!-- /wp:list-item --><!-- wp:list-item --><li>¿Quién podría aportar otra perspectiva y qué evidencia permitiría contrastarla?</li><!-- /wp:list-item --><!-- wp:list-item --><li>¿Cómo sabríamos si el siguiente paso ha sido útil?</li><!-- /wp:list-item --></ul><!-- /wp:list -->';
  $body.='<!-- wp:paragraph --><p>Esta muestra no presenta datos empíricos ni sustituye una investigación sobre el tema. La versión editorial deberá incorporar contexto, referencias primarias y una revisión de sus afirmaciones antes de dejar de ser una maqueta.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p><a href="https://moevec.org/areas/'.esc_attr($topic['area']).'/#'.esc_attr($topic['slug']).'">Volver al mapa de '.$area.'</a> o <a href="https://moevec.org/contacto/">proponer una perspectiva a MEE</a>.</p><!-- /wp:paragraph -->';
- $post_id=wp_insert_post(['post_type'=>'post','post_status'=>'draft','post_title'=>$topic['name'],'post_name'=>$post_slug,'post_excerpt'=>ucfirst($topic['benefit']),'post_content'=>$body,'post_category'=>array_values(array_unique([$ids[$topic['area']],$term->term_id])),'meta_input'=>['_mee_demo'=>'1','_mee_area'=>$topic['area'],'_mee_topic'=>$slug]],true);
+ $post_id=$found ? $found->ID : wp_insert_post(['post_type'=>'post','post_status'=>'draft','post_title'=>$topic['name'],'post_name'=>$post_slug,'post_excerpt'=>ucfirst($topic['benefit']),'post_content'=>$body,'post_category'=>array_values(array_unique([$ids[$topic['area']],$term->term_id])),'meta_input'=>['_mee_demo'=>'1','_mee_area'=>$topic['area'],'_mee_topic'=>$slug]],true);
  if(is_wp_error($post_id))WP_CLI::error($post_id->get_error_message());
  $source='/opt/mee/topic-images/'.$topic['area'].'/'.$slug.'-1200.webp';
  if(!is_readable($source))WP_CLI::error('Missing image '.$source);

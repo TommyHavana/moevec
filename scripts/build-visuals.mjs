@@ -34,8 +34,8 @@ function art(area,index,depth=0){
 }
 for (const [ai,c] of categories.entries()) {
  const source=`inventario/originales/areas/${c.slug}.jpg`;
- for(const width of [680,1254]) {
-  const dest=`public/images/areas/${c.slug}${width===680?'-680':''}.webp`;
+ for(const width of [480,680,1254]) {
+  const dest=`public/images/areas/${c.slug}${width===1254?'':`-${width}`}.webp`;
   await sharp(source).resize(width).webp({quality:80,effort:6}).toFile(dest);
  }
  const list=c.number===7?c.groups:c.topics;
