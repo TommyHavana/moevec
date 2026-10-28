@@ -1,8 +1,9 @@
 <?php
 defined('ABSPATH') || exit;
 add_action('wp_enqueue_scripts',function(){
- wp_enqueue_style('mee-editorial',get_stylesheet_uri(),[],wp_get_theme()->get('Version'));
- wp_enqueue_script('mee-motion',get_stylesheet_directory_uri().'/assets/mee-motion.js',[],wp_get_theme()->get('Version'),['in_footer'=>true,'strategy'=>'defer']);
+ $version=(string)filemtime(get_stylesheet_directory().'/style.css');
+ wp_enqueue_style('mee-editorial',get_stylesheet_uri(),[],$version);
+ wp_enqueue_script('mee-motion',get_stylesheet_directory_uri().'/assets/mee-motion.js',[],$version,['in_footer'=>true,'strategy'=>'defer']);
  wp_add_inline_script('mee-motion','window.addEventListener("DOMContentLoaded",function(){if(window.MEEMotion)window.MEEMotion.mountMotion(document.body);});','after');
 });
 add_action('after_setup_theme',function(){add_theme_support('title-tag');add_theme_support('post-thumbnails');add_theme_support('html5',['search-form','gallery','caption','style','script']);add_image_size('mee-card',800,600,true);add_image_size('mee-social',1200,630,true);});
