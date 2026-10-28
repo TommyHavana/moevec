@@ -30,6 +30,7 @@ if ! wp core is-installed --path=/var/www/html --quiet; then
   fi
 fi
 
+chmod 640 /var/www/html/wp-config.php
 wp theme activate mee-child --path=/var/www/html --quiet
 wp plugin activate two-factor --path=/var/www/html --quiet
 wp plugin activate mee-editorial --path=/var/www/html --quiet
