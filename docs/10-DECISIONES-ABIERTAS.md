@@ -153,3 +153,9 @@ Publicadas y verificadas 73–75: 75/840, con 225 imágenes propias. Monopolios 
 78/840 verificadas y 234 imágenes públicas, directamente en Capitalismo Consciente / Historia (3/15), con las etiquetas del plan. Editorial no es una categoría. Los datos históricos conservan método y periodo; fuentes y revisión por ID.
 
 Bloque 79–81 iniciado, con nueve WebP propios revisados, fuentes iniciales y pendientes precisos; todavía sin textos finales. Respaldo SQL y medios 76–78 verificado; sin nueva restauración completa. Para 81 se consultó la fuente primaria BM2026 sobre política industrial, evitando presentar el informe de 1993 como postura inmutable. Sin cambios de arquitectura o taxonomía; autorización y automatización continuas vigentes.
+
+## Producción 79–84 y continuación 85–87 · 28/10/2026
+
+Dos bloques consecutivos completados sin pedir confirmación: 84/840 y 252 imágenes públicas. Historia queda en 9/15; jerarquía y etiquetas exactas. WordPress sincronizado después de cada publicación, verificación pública y antiduplicados cerrados.
+
+85–87 iniciadas con nueve imágenes propias terminadas e inspeccionadas, briefs, metadatos y pendientes por ID. Fuentes y textos sin completar: no cuentan como terminadas. CASEN2024 incorpora nueva metodología; comparar solo series coherentes. Respaldo VPS de ambos incrementos verificado por hashes/miembros, sin nueva restauración completa. Sin cambios de arquitectura, taxonomía o infraestructura; autorización y automatización continuas vigentes.

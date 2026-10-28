@@ -1,19 +1,32 @@
-# Preparación · E5.2.05 · n.º 80
+# Investigación cerrada · E5.2.05
 
-Consulta: 28/10/2026. Tres imágenes terminadas; investigación y texto pendientes. No publicar todavía.
+Consulta: 28/10/2026. Artículo publicado y verificado; fuentes y alcance conservados.
 
-## Lecturas realizadas y límites
+- Ward y Devereux (2012), The Road Not Taken, Journal of Economic History: https://doi.org/10.1017/S0022050711002452
+  - Alcance: Resumen original de Cambridge leído y HTML archivado. Caracterización middle-income relativamente próspera, no artículo íntegro ni ingreso actual2026. DOIcorrecto10.1017/S0022050711002452.
+- Ibarra y Máttar (1998), La economía de Cuba, CEPAL: https://www.cepal.org/es/publicaciones/12153-la-economia-cuba
+  - Alcance: Resumen original leído: desigualdad/debilidad tecnológica, planificación1959–1989, lazos soviéticos e infraestructura/capitalhumano. No PDF íntegro ni coeficientes de causalidad.
+- Bolt y Van Zanden, Maddison Project Database 2023: https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-project-database-2023
+  - Alcance: Dataset original421302 archivado y hojasNotes/Sources/GDPpc leídas selectivamente. No tabla comparativa de Cuba ni mezcla con nivelesWard; no ranking o dato2026.
+- Cuba (1959), Ley de Reforma Agraria, FAOLEX: https://faolex.fao.org/docs/pdf/cub4788.pdf
+  - Alcance: Facsímil25p archivado; primeros artículos1–4 PDF1–3leídos. Firmada17mayo/publicada3junio, límites/excepciones/distribución. No toda parcela nacionalizada; lectura no íntegra.
+- Cuba (1960), Ley 851, reproducida en Documentos de la Revolución Cubana 1960: http://www.fidelcastro.cu/sites/default/files/fichero_libros/Documentos--de--la--Revolucion--cubana--1960.pdf
+  - Alcance: Compilación académica BellLara/LópezGarcía/CaramLeón2007archivada336p. Texto leypp75–77/PDF77–79arts1–8 leído completo; extractoarchivado. No libro íntegro, no asumir indemnización efectivamente cobrada. Ley6julio/Gaceta7julio.
+- Cuba (1960), Ley 890, transcripción de la Gaceta del 13 de octubre: https://latinamericanstudies.org/cuba/expropiacion.htm
+  - Alcance: Preámbulo y art1/transcripción leídos, empresas enumeradas. Descarga local406; no facsímil local. No suponer desaparición de toda actividadprivada.
+- Pérez-López (2002), The Cuban Economy in an Unending Special Period, ASCE: https://ascecubadatabase.org/asce_proceedings/the-cuban-economy-in-an-unending-special-period/
+  - Alcance: HTML original archivado y secciónTenYears/tab1consultadas. PIB1989–1993 -34.8% acumulado, no caída anual ni porpersona. Explica disrupciónbloquesocialista. Sin estimacióncausalpropia.
+- Mesa-Lago (2005), Problemas sociales y económicos en Cuba durante la crisis y la recuperación, CEPAL: https://www.cepal.org/es/publicaciones/11076-problemas-sociales-economicos-cuba-durante-la-crisis-la-recuperacion
+  - Alcance: Resumen original leído sobre avances hasta1989/crisis/recuperación hasta2003; no artículo íntegro ni libroMarketSocialistandMixedEconomies2000 leído. No extrapolar2026.
+- Estados Unidos (1962), Proclamación 3447, National Archives: https://www.archives.gov/federal-register/codification/proclamations/03447.html
+  - Alcance: Texto primario archivado y leído. Firmada3feb/vigencia7feb1962, prohibiciónimportacionesyfacultadexcepciones. No afirmar reglas actuales completas ni ausencia de excepciones ni cuota causal del embargo.
 
-- Ibarra y Máttar, [La economía de Cuba](https://www.cepal.org/es/publicaciones/12153-la-economia-cuba), Revista CEPAL (1998), pp. 29–37: ficha y resumen completos leídos. Incluye desigualdad y rezagos previos, planificación 1959–1989, financiación socialista, infraestructura y logros sociales. El resumen no equivale al artículo íntegro; reservar tasas hasta cotejar método.
-- CEPAL, [historia económica de Cuba](https://www.cepal.org/es/publicaciones/4947-la-economia-cubana-siglo-xvi-al-xx-colonialismo-al-socialismo-mercado): ficha, resumen y extracto de p. 26 indexado leídos. El intento de descargar S050273_es.pdf desde el enlace antiguo devolvió **404; no está archivado**. Buscar la descarga vigente en el repositorio. El resumen inglés contiene 1969 por 1959: no copiar la errata.
-- Mesa-Lago (2005), [Problemas sociales y económicos en Cuba durante la crisis y la recuperación](https://repositorio.cepal.org/handle/11362/11076): resumen original indexado leído, análisis de 1989–2004; la apertura directa devolvió 403. Faltan el texto del artículo y el libro de 2000 del brief si se cita como leído.
-- F-203 exige los textos de reforma agraria de 1959 y leyes 851 y 890 de 1960. **Todavía no leídos**. El registro de la Ley 851 remite a Gaceta n.º 130, 07/07/1960, según la investigación localizada en SciELO. La [compilación UNAM localizada](https://archivos.juridicas.unam.mx/www/bjv/libros/5/2143/7.pdf) contiene referencias y medidas de 1960; su extracto no prueba el texto íntegro de la ley. No afirmar reglas de indemnización sin original.
-- MPD2023 está consultado para el n.º 76; para Cuba faltan selección de países/años, comparabilidad y referencias originales. No convertir «isla rica» en un rango indiscutido ni comparar indicadores de años diferentes como si fueran simultáneos.
-
-## Próximo paso
-
-Conseguir y leer CEPAL/Mesa-Lago y normas originales; decidir comparación anterior a 1959 y unidad. Investigar embargo con fuentes legales oficiales y resultados sociales fechados. No atribuir toda la crisis a una causa. Conservar la etiqueta adicional **pais-cuba** del brief. No hay artículo final ni publicación.
+## Afirmaciones excluidas
+- No isla universalmente rica o pobre ni ranking exacto incontrovertible.
+- No leyes como prueba suficiente de causalidad ni compensaciones efectivamente abonadas.
+- No desaparicióninmediata de todaactividadprivada porLey890.
+- No embargo sin excepciones ni reglas1962como reglamentación completaactual2026.
+- No lectura fingida de libros/artículos completos a partir de resúmenes.
 
 ## Imágenes
-
-Tres originales image_gen, finales WebP inspeccionados: 1200×630 y dos 1600×900, menores de 250.000 bytes. Alt, pies y prompts guardados. No son fotografías documentales; no regenerar.
+Tres originales image_gen existentes, WebP finales inspeccionados, portada 1200×630/interiores 1600×900 y menos 250 KB. No regenerados.

@@ -1,16 +1,20 @@
 # Estado de MEE y continuidad · 28/10/2026
 
-## Estado actual: 78/840 publicadas y verificadas
+## Estado actual: 84/840 publicadas y verificadas
 
-Entradas 1–78 completas: **78 terminadas, 234 imágenes originales públicas, 0 borradores WordPress y 762 pendientes**. Cinco tandas completas; Historia lleva 3/15 en Capitalismo Consciente.
+Entradas 1–84 completas: **84 terminadas, 252 imágenes originales públicas, 0 borradores WordPress y 756 pendientes**. Cinco tandas completas; Historia lleva 9/15 en Capitalismo Consciente.
 
-Último bloque 76–78: gran enriquecimiento, Escuela de Salamanca y Revolución Industrial. Informe: `docs/produccion/2026-10-28-bloque-076-078.md`. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces e imágenes comprobados. Una publicación y tres adjuntos por ID; categorías y etiquetas exactas. Blog es contenedor; Editorial es firma, no categoría.
+Esta ejecución terminó los bloques 79–81 y 82–84 (E5.2.04–09): comercio, Cuba, Asia oriental, países divididos, China y transiciones soviéticas. Informes y respaldos: `docs/produccion/2026-10-28-bloque-079-081.md` y `2026-10-28-bloque-082-084.md`. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces e imágenes comprobados. Una publicación y tres adjuntos por ID; categorías y etiquetas exactas. Blog es contenedor; Editorial es firma, no categoría.
 
-Preparación local: **79–81, E5.2.04–E5.2.06**, Historia / Capitalismo Consciente: comercio, Cuba y Asia oriental. Nueve WebP originales optimizados e inspeccionados; faltan lecturas centrales, textos y revisión. Punto exacto en research-notes.md por ID. Incluidas en 762 pendientes; 759 sin iniciar. No regenerar. Portada 81 seleccionada v2 contemporánea; v1 archivada como alternativa.
+Preparación local: **85–87, E5.2.10–12**, Historia / Capitalismo Consciente: historia de las ideas, Venezuela y Chile. Nueve originales de image_gen optimizados e inspeccionados, briefs, metadatos, alt/pies y prompts. Fuentes y textos pendientes, sin publicación; punto preciso en research-notes.md. Incluidas en 756 pendientes, con 753 sin iniciar. No regenerar imágenes.
 
-Respaldo VPS 76–78: SQL de 5.595.914 bytes, 66 medios nuevos y archivo de 5.811.089 bytes. Hashes y miembros verificados, sin nueva restauración completa. Cadena en el informe de respaldo 076–078. Registro MD/CSV/JSON sincronizado después de cada publicación. Continuidad automática activa, sin redespliegue ni cambios de taxonomía.
+Respaldo VPS 82–84: SQL 5.810.584 bytes, 66 medios nuevos y archivo 5.671.164 bytes. También guardado el incremento 79–81. Hashes y miembros verificados, sin nueva restauración completa. Cadena exacta en informes de respaldo. Registro MD/CSV/JSON sincronizado después de cada publicación. Continuación automática activa; sin redespliegue ni cambios de tema o taxonomía.
 
-Próximo paso: completar Levinson, galeón y coerción; para Cuba, fuentes comparables anteriores a 1959, CEPAL/Mesa-Lago y originales de normas 851/890 y reforma de 1959; para Asia, BM1993, Wade, datos de las cuatro economías y debate actual BM2026. Hay intentos de descarga 403/404 identificados: no confundir localización con archivo o lectura. No hay texto final 79–81.
+Próximo paso: fuentes originales de los autores de la entrada85; para Venezuela, leyes originales, FMI y ENCOVI/UCAB con métodos y fechas, sanciones y petróleo; para Chile, CASEN2024 (nuevo método frente al anterior), dictadura/reformas y procesos constituyentes. No adoptar tesis de briefs como prueba. No hay article.html de 85–87.
+
+La auditoría integral fue encargada expresamente y está documentada en 22; esta ejecución se limitó a producción editorial. No hay nueva decisión de arquitectura ni permiso pendiente. No se comunicó agotamiento de imágenes.
+
+## Historial anterior — no describe el estado actual
 
 El bloque25–27 incluye encuestaGallup2026 con ficha técnica y margen total no extrapolado a subgrupos, Cuba con gacetas originales de septiembre2026 y DL88concordado, y diez argumentos con fuentes y respuestas respetuosas. No se inventa cuota económica deGAESA. Originales normativos y datos de encuesta conservados en los expedientes.
 

@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-28T20:51:05+00:00.
+Comprobado en WordPress: 2026-10-28T21:54:15+00:00.
 
-**78/840 terminadas · 0 en curso · 762 pendientes.**
+**84/840 terminadas · 0 en curso · 756 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -90,12 +90,12 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 76 | 6/56 · 1/15 | E5.2.01 | El gran enriquecimiento: cómo el mundo dejó de ser pobre | terminada | 3/3 | [Leer](https://moevec.org/blog/gran-enriquecimiento/) |
 | 77 | 6/56 · 2/15 | E5.2.02 | La Escuela de Salamanca: los españoles que inventaron la economía moderna | terminada | 3/3 | [Leer](https://moevec.org/blog/escuela-de-salamanca/) |
 | 78 | 6/56 · 3/15 | E5.2.03 | La Revolución Industrial: luces y sombras | terminada | 3/3 | [Leer](https://moevec.org/blog/revolucion-industrial-luces-y-sombras/) |
-| 79 | 6/56 · 4/15 | E5.2.04 | Comercio en la historia: de la Ruta de la Seda a los contenedores | pendiente | 0/3 | — |
-| 80 | 6/56 · 5/15 | E5.2.05 | Historia económica de Cuba: de la isla rica al Período Especial | pendiente | 0/3 | — |
-| 81 | 6/56 · 6/15 | E5.2.06 | El milagro de Asia oriental: Corea, Taiwán, Singapur y Hong Kong | pendiente | 0/3 | — |
-| 82 | 6/56 · 7/15 | E5.2.07 | Dos Coreas, dos Alemanias: experimentos naturales de la historia | pendiente | 0/3 | — |
-| 83 | 6/56 · 8/15 | E5.2.08 | China desde 1978: de la planificación al mercado (con partido único) | pendiente | 0/3 | — |
-| 84 | 6/56 · 9/15 | E5.2.09 | La caída del bloque soviético y las transiciones de los noventa | pendiente | 0/3 | — |
+| 79 | 6/56 · 4/15 | E5.2.04 | Comercio en la historia: de la Ruta de la Seda a los contenedores | terminada | 3/3 | [Leer](https://moevec.org/blog/comercio-en-la-historia/) |
+| 80 | 6/56 · 5/15 | E5.2.05 | Historia económica de Cuba: de la isla rica al Período Especial | terminada | 3/3 | [Leer](https://moevec.org/blog/historia-economica-de-cuba/) |
+| 81 | 6/56 · 6/15 | E5.2.06 | El milagro de Asia oriental: Corea, Taiwán, Singapur y Hong Kong | terminada | 3/3 | [Leer](https://moevec.org/blog/milagro-asia-oriental/) |
+| 82 | 6/56 · 7/15 | E5.2.07 | Dos Coreas, dos Alemanias: experimentos naturales de la historia | terminada | 3/3 | [Leer](https://moevec.org/blog/dos-coreas-dos-alemanias/) |
+| 83 | 6/56 · 8/15 | E5.2.08 | China desde 1978: de la planificación al mercado (con partido único) | terminada | 3/3 | [Leer](https://moevec.org/blog/china-desde-1978/) |
+| 84 | 6/56 · 9/15 | E5.2.09 | La caída del bloque soviético y las transiciones de los noventa | terminada | 3/3 | [Leer](https://moevec.org/blog/caida-bloque-sovietico-transiciones/) |
 | 85 | 6/56 · 10/15 | E5.2.10 | Historia de las ideas: de Smith a Bastos | pendiente | 0/3 | — |
 | 86 | 6/56 · 11/15 | E5.2.11 | Venezuela: de la riqueza petrolera a la crisis humanitaria | pendiente | 0/3 | — |
 | 87 | 6/56 · 12/15 | E5.2.12 | Chile: de las reformas de los ochenta al debate actual | pendiente | 0/3 | — |

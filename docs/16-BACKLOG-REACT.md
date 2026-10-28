@@ -1,9 +1,9 @@
 # Backlog de MEE
 
-Último estado: **78/840 publicadas, verificadas y agrupadas**, con **234 imágenes propias públicas**. Historia 3/15 en Capitalismo Consciente; 0 borradores WordPress y 762 pendientes. 79–81 (E5.2.04–06) en preparación local con nueve WebP originales optimizados e inspeccionados y fuentes iniciales; faltan lecturas, textos y revisión; 759 sin iniciar. Estado y research-notes.md precisos, informe y respaldo 076–078 verificados. Categorías, subcategorías y etiquetas conservadas. Continuación automática activa.
+Último estado: **84/840 publicadas, verificadas y agrupadas**, con **252 imágenes propias públicas**. Historia 9/15 en Capitalismo Consciente; 0 borradores WordPress y 756 pendientes. 79–84 terminadas en dos bloques consecutivos. 85–87 en preparación local con nueve originales optimizados e inspeccionados; fuentes y textos pendientes, con 753 sin iniciar. Registro, pruebas y respaldos 079–081/082–084 guardados. Categorías, subcategorías y etiquetas del plan conservadas. Continuación automática activa.
 
 
-Producción comprobada tras el bloque 4–6: 6/840 terminadas. En elaboración local: 7–9 con nueve imágenes propias; todavía no cuentan como publicadas. Consultar siempre WordPress y el registro 24 para el estado más reciente.
+Historial anterior: producción comprobada tras el bloque 4–6: 6/840 terminadas. En elaboración local: 7–9 con nueve imágenes propias; todavía no cuentan como publicadas. Consultar siempre WordPress y el registro 24 para el estado más reciente.
 
 Actualizado el 28/10/2026 tras el encargo integral de UI/UX, WPO, SEO/GEO, blog y contacto. La autorización de ejecución de esta sesión está registrada en el estado y en el informe 22.
 
