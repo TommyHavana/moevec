@@ -1,16 +1,16 @@
-# Estado de MEE y continuidad ·28/10/2026
+# Estado de MEE y continuidad · 28/10/2026
 
-## Estado actual:66/840 publicadas y verificadas
+## Estado actual: 69/840 publicadas y verificadas
 
-Las entradas1–66 están publicadas y verificadas: **66 terminadas, 198 imágenes originales, 0 borradores WordPress y 774 pendientes**. Primeras cuatro tandas15/15; Monopolios Estatales vs. Competencia6/15 en Política y Economía.
+Las entradas 1–69 están publicadas y verificadas: **69 terminadas, 207 imágenes originales, 0 borradores WordPress y 771 pendientes**. Primeras cuatro tandas 15/15; Monopolios Estatales vs. Competencia 9/15 en Política y Economía.
 
-Último bloque64–66: controles de precios, Venezuela y ETECSA. Informe `docs/produccion/2026-10-28-bloque-064-066.md`. Fuentes, límites de indicadores y marcos normativos revisados. HTTP200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces e imágenes comprobados. Una publicación y tres adjuntos únicos por ID; categorías y etiquetas exactas. Blog es contenedor; Editorial es firma, no categoría.
+Último bloque 67–69: tren en España, taxis/licencias/plataformas y farmacias. Informe `docs/produccion/2026-10-28-bloque-067-069.md`. Fuentes pertinentes y límites revisados. HTTP 200, H 1, canonical, indexabilidad, Article, índice, sitemap, enlaces e imágenes comprobados. Una publicación y tres adjuntos únicos por ID; categorías y etiquetas exactas. Blog es contenedor; Editorial es firma, no categoría.
 
-En preparación local: **67–69, E7.5.07–E7.5.09**, sobre tren español, taxis/plataformas y farmacias. Nueve WebP originales optimizados e inspeccionados, alt/pies/prompts y fuentes iniciales guardados. Se archivaron nueve PDF originales o reproducciones identificadas; metodología ferroviaria, universos y alcance condicionado del fallo farmacéutico anotados. Faltan lecturas centrales, textos y revisión; punto exacto en research-notes.md de cada ID. Estas tres están incluidas en las774 pendientes;771 sin iniciar. No regenerar imágenes ni contarlas como completas.
+En preparación local: **70–72, E7.5.10–E7.5.12**, sobre conexiones políticas, contratación pública y liberalización aérea. Nueve WebP originales optimizados e inspeccionados, metadatos/prompts y fuentes iniciales guardados. IAS 2026 módulosI/IV y evaluación aérea 2019 archivados, con alcance de lectura indicado. Faltan textos y lecturas centrales; punto exacto en research-notes.md por ID. Estas tres están incluidas en las 771 pendientes;768 sin iniciar. No regenerar imágenes ni contarlas como completas.
 
-Respaldo posterior a66: `/data/mee-backups/produccion-840-incremento-64-66-20261028/`, SQL de5.184.257bytes y66 archivos nuevos de Medios,4.817.772bytes comprimidos. Hashes y miembros comprobados; sin nueva restauración completa. Cadena en `docs/produccion/2026-10-28-respaldo-064-066.md`. Registros sincronizados después de cada publicación, sin redespliegue ni cambios de arquitectura o taxonomía.
+Respaldo posterior a 69: `/data/mee-backups/produccion-840-incremento-67-69-20261028/`, SQL de 5.284.442 bytes y 66 archivos nuevos de Medios,4.574.604 bytes comprimidos. Hashes y miembros comprobados; sin nueva restauración completa. Cadena en `docs/produccion/2026-10-28-respaldo-067-069.md`. Registros sincronizados después de cada publicación, sin redespliegue ni cambios de arquitectura o taxonomía.
 
-Próximo paso: completar originales CNMC y calendario ferroviario, TLC/legislación VTC y sentencia/estudio farmacéutico. No convertir convocatoria de votación en norma vigente, datos posteriores a2022 en estimación anterior a2021 ni escenas conceptuales en evidencia. La continuidad automática de este chat sigue activa.
+Próximo paso: obtener originales de los estudios de Faccio sin mezclar muestras/versiones, leer ley y método OIReScon actuales, y contexto/método de la evaluación aérea con marco normativo actual. No convertir asociación en corrupción acreditada, denuncias en condenas ni UE 28 histórica en composición vigente. La continuidad automática de este chat sigue activa.
 
 El bloque25–27 incluye encuestaGallup2026 con ficha técnica y margen total no extrapolado a subgrupos, Cuba con gacetas originales de septiembre2026 y DL88concordado, y diez argumentos con fuentes y respuestas respetuosas. No se inventa cuota económica deGAESA. Originales normativos y datos de encuesta conservados en los expedientes.
 

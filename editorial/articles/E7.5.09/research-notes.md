@@ -24,3 +24,11 @@ Tres imágenes originales generadas con image_gen, optimizadas a WebP e inspecci
 - BOE consolidado de Ley 16/1997 también archivado; lectura anterior de artículos y finales conservada. Informe CNMC 15/10/2025 sobre proyecto madrileño localizado: https://www.cnmc.es/sites/default/files/6191764.pdf . No confundir proyecto analizado con decreto vigente.
 
 **Siguiente paso exacto:** completar razonamiento del TJUE, pasajes Navarra 2015 y evaluación 2026; contrastar cada dato/regla autonómica que se decida usar. No hay texto final ni publicación.
+
+## Revisión final del bloque · 28/10/2026
+
+Texto completo y revisión editorial guardados en article.html, article.json, review.md y source-review.json. Este último sustituye los pendientes históricos: detalla los originales consultados, límites de lectura y afirmaciones omitidas. Las tres imágenes originales y metadatos están listos. Pendiente publicación única y verificación pública.
+
+## Cierre verificado
+
+Publicación única y comprobaciones públicas completadas: HTTP200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces internos, tres WebP coincidentes y organización exacta. Evidencias en publication.json, verification.json e inventario del bloque67–69. Los pendientes de preparación anteriores son históricos.

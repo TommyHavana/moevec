@@ -25,3 +25,11 @@ Tres imágenes originales generadas con image_gen, optimizadas a WebP e inspecci
 - La nota de prensa CNMC 29/06/2026 advierte cambio de presentación frente a capturas web con IVA usadas en informes anteriores: https://cnmc.es/prensa/informe-trimestral-transporte-ferroviario-20260629?back=news&page=1 . Actualización 22/09/2026: https://cnmc.es/prensa/informe-trimestral-transporte-ferroviario-20260922?page=1 . No concatenar las dos medidas como serie homogénea.
 
 **Siguiente paso exacto:** revisar cuadros/fuentes de calendario europeo, oferta y resultados; seleccionar cifras comparables y redactar. No hay texto final ni publicación.
+
+## Revisión final del bloque · 28/10/2026
+
+Texto completo y revisión editorial guardados en article.html, article.json, review.md y source-review.json. Este último sustituye los pendientes históricos: detalla los originales consultados, límites de lectura y afirmaciones omitidas. Las tres imágenes originales y metadatos están listos. Pendiente publicación única y verificación pública.
+
+## Cierre verificado
+
+Publicación única y comprobaciones públicas completadas: HTTP200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces internos, tres WebP coincidentes y organización exacta. Evidencias en publication.json, verification.json e inventario del bloque67–69. Los pendientes de preparación anteriores son históricos.

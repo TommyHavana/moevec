@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-28T19:01:12+00:00.
+Comprobado en WordPress: 2026-10-28T19:29:01+00:00.
 
-**66/840 terminadas · 0 en curso · 774 pendientes.**
+**69/840 terminadas · 0 en curso · 771 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -78,9 +78,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 64 | 5/56 · 4/15 | E7.5.04 | Fijar precios por decreto: de Diocleciano a hoy | terminada | 3/3 | [Leer](https://moevec.org/blog/fijar-precios-por-decreto/) |
 | 65 | 5/56 · 5/15 | E7.5.05 | Venezuela: Ley de Precios Justos y estanterías vacías | terminada | 3/3 | [Leer](https://moevec.org/blog/venezuela-precios-justos/) |
 | 66 | 5/56 · 6/15 | E7.5.06 | Cuba y ETECSA: el monopolio de las telecomunicaciones | terminada | 3/3 | [Leer](https://moevec.org/blog/cuba-etecsa-monopolio/) |
-| 67 | 5/56 · 7/15 | E7.5.07 | El tren en España: lo que pasó al llegar la competencia | pendiente | 0/3 | — |
-| 68 | 5/56 · 8/15 | E7.5.08 | Taxis, licencias y plataformas: la batalla regulatoria | pendiente | 0/3 | — |
-| 69 | 5/56 · 9/15 | E7.5.09 | Farmacias en España: planificación y barreras de entrada | pendiente | 0/3 | — |
+| 67 | 5/56 · 7/15 | E7.5.07 | El tren en España: lo que pasó al llegar la competencia | terminada | 3/3 | [Leer](https://moevec.org/blog/tren-espana-liberalizacion/) |
+| 68 | 5/56 · 8/15 | E7.5.08 | Taxis, licencias y plataformas: la batalla regulatoria | terminada | 3/3 | [Leer](https://moevec.org/blog/taxis-licencias-plataformas/) |
+| 69 | 5/56 · 9/15 | E7.5.09 | Farmacias en España: planificación y barreras de entrada | terminada | 3/3 | [Leer](https://moevec.org/blog/farmacias-espana-barreras/) |
 | 70 | 5/56 · 10/15 | E7.5.10 | Empresas conectadas políticamente: qué dice la evidencia | pendiente | 0/3 | — |
 | 71 | 5/56 · 11/15 | E7.5.11 | Contratación pública: dónde se cuela el favoritismo | pendiente | 0/3 | — |
 | 72 | 5/56 · 12/15 | E7.5.12 | Liberalización aérea: cómo nació el vuelo barato en Europa | pendiente | 0/3 | — |

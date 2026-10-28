@@ -24,3 +24,11 @@ Tres imágenes originales generadas con image_gen, optimizadas a WebP e inspecci
 - EUR-Lex identifica sentencia C-50/21 de 08/06/2023 y posterior sentencia nacional de 27/11/2024. Barrera técnica a lectura completa de EUR-Lex persiste; **metadatos no sustituyen leer fallo y condiciones**. No se ha verificado norma nueva de octubre 2026 ni resultado de votación MRP.
 
 **Siguiente paso exacto:** obtener sentencia original C-50/21 y legislación vigente; leer medidas TLC si se incluyen como actuales. Redactar evitando porcentajes entre categorías no comparables y sin inventar titulares endeudados. No hay texto final ni publicación.
+
+## Revisión final del bloque · 28/10/2026
+
+Texto completo y revisión editorial guardados en article.html, article.json, review.md y source-review.json. Este último sustituye los pendientes históricos: detalla los originales consultados, límites de lectura y afirmaciones omitidas. Las tres imágenes originales y metadatos están listos. Pendiente publicación única y verificación pública.
+
+## Cierre verificado
+
+Publicación única y comprobaciones públicas completadas: HTTP200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces internos, tres WebP coincidentes y organización exacta. Evidencias en publication.json, verification.json e inventario del bloque67–69. Los pendientes de preparación anteriores son históricos.

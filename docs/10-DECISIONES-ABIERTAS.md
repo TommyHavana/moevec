@@ -129,3 +129,9 @@ Continuación 64–66 con nueve WebP nuevos, revisados y optimizados, y fuentes 
 Publicadas y verificadas64–66: total66/840,198 imágenes originales. Agrupación en Política y Economía → Monopolios Estatales vs. Competencia, sin duplicados. Se precisaron topes vinculantes, normas venezolanas y universos ENCOVI, y alcance de exclusividad ETECSA2025/recargas/tarifas frente a salario estatal civil2025. Fuentes y límites conservados por artículo.
 
 67–69 tienen nueve imágenes originales optimizadas e inspeccionadas, alt/pies y fuentes iniciales; todavía sin textos completos ni publicación. Pendientes metodología/datosCNMC, TLC/VTC y sentencia/estudio farmacéutico. Respaldo64–66 comprobado por hashes y miembros, sin nueva restauración completa. Continúa autorización existente; sin cambios de infraestructura, tema o taxonomía.
+
+## Producción 67–69 y continuación 70–72 · 28/10/2026
+
+Publicadas y verificadas 67–69: total 69/840,207 imágenes originales. Organización exacta en Política y Economía → Monopolios Estatales vs. Competencia. Medidas de precios ferroviarios y fiabilidad separadas; texto LOTT frente a jurisprudencia y cestas de medallones diferenciados; fallo farmacéutico condicionado y evaluación CNMC 2026 con universos y límites.
+
+70–72 iniciadas sin esperar otro mensaje, con nueve escenas originales optimizadas e inspeccionadas. Fuentes iniciales y pendientes centrales por ID; todavía no hay textos finales ni publicación. Respaldo 67–69 verificado por hashes y miembros, sin nueva restauración completa. Continúa autorización existente, sin cambios de infraestructura, tema o taxonomía.
