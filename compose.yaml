@@ -1,0 +1,48 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    depends_on:
+      - wordpress
+    restart: unless-stopped
+
+  wordpress:
+    build:
+      context: .
+      dockerfile: deploy/wordpress.Dockerfile
+    environment:
+      WORDPRESS_DB_HOST: database:3306
+      WORDPRESS_DB_NAME: mee_wordpress
+      WORDPRESS_DB_USER: mee_wordpress
+      WORDPRESS_DB_PASSWORD: ${SERVICE_PASSWORD_MEE_DATABASE}
+      WORDPRESS_CONFIG_EXTRA: |
+        define('WP_HOME', 'https://moevec.org/blog');
+        define('WP_SITEURL', 'https://moevec.org/blog');
+        define('FORCE_SSL_ADMIN', true);
+    volumes:
+      - wordpress-files:/var/www/html
+    depends_on:
+      database:
+        condition: service_healthy
+    restart: unless-stopped
+
+  database:
+    image: mariadb:11.4
+    environment:
+      MARIADB_DATABASE: mee_wordpress
+      MARIADB_USER: mee_wordpress
+      MARIADB_PASSWORD: ${SERVICE_PASSWORD_MEE_DATABASE}
+      MARIADB_ROOT_PASSWORD: ${SERVICE_PASSWORD_MEE_ROOT}
+    volumes:
+      - database-files:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    restart: unless-stopped
+
+volumes:
+  wordpress-files:
+  database-files:

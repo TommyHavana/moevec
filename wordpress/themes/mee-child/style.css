@@ -1,0 +1,26 @@
+/*
+Theme Name: MEE Editorial
+Description: Tema hijo editorial para MEE, compatible con páginas editadas con Elementor.
+Template: hello-elementor
+Version: 0.2.0
+Text Domain: mee-editorial
+*/
+:root{--paper:#f7f6f2;--ink:#15171b;--blue:#1547bb;--red:#ef383e;--rule:#d0d0ce;color-scheme:light}
+@font-face{font-family:Manrope;src:url('assets/Manrope-Latin-Variable.woff2') format('woff2');font-style:normal;font-weight:200 800;font-display:swap}@font-face{font-family:Archivo;src:url('assets/Archivo-Black-Latin.woff2') format('woff2');font-style:normal;font-weight:900;font-display:swap}@font-face{font-family:Archivo;src:url('assets/Archivo-BlackItalic-Latin.woff2') format('woff2');font-style:italic;font-weight:900;font-display:swap}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.45}a{color:inherit}a:focus-visible{outline:3px solid var(--red);outline-offset:3px}.mee-skip{position:absolute;left:16px;top:-100px;padding:10px;background:#fff;z-index:99}.mee-skip:focus{top:16px}.mee-header{min-height:78px;padding:16px clamp(20px,3vw,48px);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--ink);background:var(--paper)}.mee-header a{text-decoration:none}.mee-brand{font-size:2.1rem;font-weight:900;font-style:italic;letter-spacing:-.1em}.mee-brand span{font-size:.6em;color:var(--red);vertical-align:top}.mee-header nav{display:flex;gap:25px;font-size:.85rem;font-weight:800;text-transform:uppercase}.mee-wrap{max-width:1440px;margin:auto;padding:clamp(40px,7vw,105px) clamp(20px,5vw,75px)}.mee-kicker{font-weight:800;text-transform:uppercase;font-size:.78rem;letter-spacing:.09em;margin:0 0 18px}.mee-title{font-size:clamp(3.2rem,7.5vw,8rem);line-height:.9;letter-spacing:-.08em;margin:0 0 35px;max-width:1050px}.mee-intro{font-size:clamp(1.2rem,2vw,1.8rem);max-width:760px}.mee-termnav{display:flex;gap:22px;overflow:auto;white-space:nowrap;border-block:1px solid var(--ink);padding:18px 5vw;background:var(--paper);position:sticky;top:0;z-index:8}.mee-termnav a{font-size:.8rem;font-weight:800;text-decoration:none}.mee-termnav a:hover{text-decoration:underline}.mee-post-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:3px;background:var(--ink);border-top:3px solid var(--ink)}.mee-post-card{display:flex;flex-direction:column;background:var(--paper);text-decoration:none;min-height:400px}.mee-post-card img{width:100%;aspect-ratio:1;object-fit:cover}.mee-post-card .mee-fallback{aspect-ratio:1;background:var(--blue);display:grid;place-items:center;color:#fff;font-size:4rem}.mee-post-card-body{padding:24px;display:flex;flex:1;flex-direction:column;justify-content:space-between;gap:30px}.mee-post-card h2{font-size:clamp(1.6rem,2.5vw,3rem);letter-spacing:-.05em;line-height:1.05;margin:0}.mee-post-card small{font-weight:700}.mee-article{max-width:900px;margin:auto;padding:clamp(50px,8vw,120px) 20px}.mee-article h1{font-size:clamp(3rem,8vw,7rem);line-height:.96;letter-spacing:-.08em;margin:15px 0 35px}.mee-article .mee-standfirst{font-size:clamp(1.3rem,2vw,1.9rem);font-weight:700}.mee-article .entry-content{font-size:1.16rem;line-height:1.7}.mee-article .entry-content h2{font-size:clamp(2rem,3vw,3.2rem);line-height:1.08;letter-spacing:-.04em;margin-top:2.5em}.mee-article img{max-width:100%;height:auto}.mee-feature{width:100%;height:auto;margin:45px 0}.mee-pagination{padding:35px 5vw;display:flex;justify-content:space-between}.mee-footer{background:var(--ink);color:#fff;padding:35px clamp(20px,3vw,48px);display:flex;justify-content:space-between;gap:20px}.mee-footer a{color:#fff}.mee-empty{padding:30px 5vw}.mee-page-content{min-height:55vh}
+@media(max-width:900px){.mee-post-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:620px){.mee-header{min-height:65px}.mee-header nav{gap:14px;font-size:.72rem}.mee-post-grid{grid-template-columns:1fr}.mee-footer{flex-direction:column}.mee-post-card{min-height:0}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Shared screen identity with the React site. */
+body{font-family:Manrope,Arial,sans-serif}
+.mee-brand{display:inline-flex;align-items:center;letter-spacing:normal}
+.mee-brand img{display:block;width:clamp(130px,14vw,200px);height:auto}
+.mee-title,.mee-article h1,.mee-post-card h2,.mee-article .entry-content h2{font-family:Archivo,Arial,sans-serif;font-weight:900}
+.mee-title,.mee-article h1{letter-spacing:-.055em}
+.mee-header nav,.mee-termnav,.mee-kicker{font-family:Manrope,Arial,sans-serif}
+.mee-header nav a:hover,.mee-termnav a:hover{color:var(--blue)}
+.mee-post-card{transition:background-color .22s ease,color .22s ease}
+.mee-post-card:hover,.mee-post-card:focus-visible{background:var(--blue);color:#fff}
+.mee-post-card:hover .mee-fallback,.mee-post-card:focus-visible .mee-fallback{background:var(--red)}
+.mee-post-card:focus-visible{outline:4px solid var(--red);outline-offset:-4px}
+.mee-article .entry-content a{text-decoration-thickness:2px;text-underline-offset:.16em}
+@media(prefers-reduced-motion:reduce){.mee-post-card{transition:none}}

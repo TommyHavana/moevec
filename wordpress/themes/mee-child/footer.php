@@ -1,0 +1,1 @@
+<footer class="mee-footer"><span>MEE · Movimiento de Evolución Económica</span><a href="<?php echo esc_url(mee_frontend_url()); ?>">Volver a las áreas ↗</a></footer><?php wp_footer(); ?></body></html>

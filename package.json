@@ -1,0 +1,24 @@
+{
+  "name": "mee-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "content:sync": "node scripts/sync-taxonomy.mjs && node scripts/sync-editorial.mjs",
+    "prebuild": "npm run content:sync",
+    "build": "next build",
+    "start": "next start",
+    "backup": "python3 scripts/crear-respaldo.py"
+  },
+  "dependencies": {
+    "next": "^16.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.1.0"
+  }
+}
