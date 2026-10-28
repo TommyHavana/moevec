@@ -147,3 +147,9 @@ Publicadas y verificadas 70–72: 72/840, con 216 imágenes propias. Jerarquía 
 Publicadas y verificadas 73–75: 75/840, con 225 imágenes propias. Monopolios Estatales vs. Competencia queda completa, 15/15; cinco tandas terminadas. CANTV se evalúa con datos por tecnología y periodo; Precios Cuidados distingue IPC de efecto causal; guía de denuncias actualiza CNA/ANC con fuentes oficiales y separa vías.
 
 76–78 iniciadas directamente en Historia, Capitalismo Consciente. Nueve originales de image_gen optimizados e inspeccionados, briefs, metadatos y fuentes iniciales guardados. Faltan investigación central y textos. Respaldo VPS 73–75 verificado por hashes y miembros, sin nueva restauración completa. Sin cambios de arquitectura o taxonomía; automatización y autorización continua vigentes.
+
+## Producción 76–78 y continuación 79–81 · 28/10/2026
+
+78/840 verificadas y 234 imágenes públicas, directamente en Capitalismo Consciente / Historia (3/15), con las etiquetas del plan. Editorial no es una categoría. Los datos históricos conservan método y periodo; fuentes y revisión por ID.
+
+Bloque 79–81 iniciado, con nueve WebP propios revisados, fuentes iniciales y pendientes precisos; todavía sin textos finales. Respaldo SQL y medios 76–78 verificado; sin nueva restauración completa. Para 81 se consultó la fuente primaria BM2026 sobre política industrial, evitando presentar el informe de 1993 como postura inmutable. Sin cambios de arquitectura o taxonomía; autorización y automatización continuas vigentes.

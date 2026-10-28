@@ -1,0 +1,92 @@
+{
+  "checked_on": "2026-10-28",
+  "sources": [
+    {
+      "name": "Bolt y Van Zanden, Maddison Project Database 2023 y documentación (2024)",
+      "url": "https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-project-database-2023",
+      "scope": "Ficha primaria leída:169países hasta2022; DOI10.1111/joes.12618. No lectura íntegra del paper ni agregación propia de países. Se cita MPD global; no gráfico de países."
+    },
+    {
+      "name": "Our World in Data, distribución de MPD2023: PIB per cápita",
+      "url": "https://ourworldindata.org/grapher/gdp-per-capita-maddison-project-database",
+      "scope": "CSV y metadata archivados. World1820=1127.73;2022=16676.75; cociente14.787877... redondeado14.8, unidades intl$2011. Documentación de benchmarks y exterritorios leída. No interpretación salario ni suma panel con solapamientos."
+    },
+    {
+      "name": "Moatsos (2021), Global extreme poverty: Present and past since 1820, OCDE, capítulo9",
+      "url": "https://www.oecd.org/en/publications/how-was-life-volume-ii_3d96efc5-en/full-report/component-14.html",
+      "scope": "Original PDF267p archivado; ppimpresas186–198 pertinentes consultadas, especialmente192–196. CBN76%1820→10%2018, distinto USD1.90. Imputaciones y tabla9.1calidadbaja1820, cantidadpersonasparecida. No estimaciónactual2026."
+    },
+    {
+      "name": "Our World in Data, serie histórica de pobreza y definiciones",
+      "url": "https://ourworldindata.org/grapher/share-of-population-living-in-extreme-poverty",
+      "scope": "Metadatos leídos en preparación, distingue1.90USD2011 yCBN; cifras76/10 tomadas del originalMoatsosCBN, no de columnas1.90. No empalme."
+    },
+    {
+      "name": "Banco Mundial, Global Poverty Monitoring Technical Note44, junio2025",
+      "url": "https://documents1.worldbank.org/curated/en/099510306052516849/pdf/IDU-eb272b02-ecd1-4633-9e37-9297e20a711c.pdf",
+      "scope": "PDF50p archivado; portada, abstract,introducción ppimpresas2–3 y sección2pp5–6 consultadas. Cambio2.15PPP2017→3PPP2021. No nowcast2025 como encuesta ni cifraactual2026."
+    },
+    {
+      "name": "McCloskey (2016), Bourgeois Equality, exordio de la autora",
+      "url": "https://www.deirdremccloskey.com/docs/pdf/BourgeoisEquality_FFFFrontMatter.pdf",
+      "scope": "PDF33p frontmatter archivado y exordio pp9–12 leído. Tesis ideas/libertad/dignidad identificada como explicación autoral; no adoptar multiplicadores30–100 como promedio mundial."
+    },
+    {
+      "name": "Allen (2011), Why the industrial revolution was British",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1468-0289.2010.00532.x",
+      "scope": "Resumen original del artículo leído:salarios/energía/comercio/invención. DOI10.1111/j.1468-0289.2010.00532.x. No paper íntegro ni coeficientes."
+    }
+  ],
+  "archived_files": [
+    {
+      "file": "sources/mccloskey2016-frontmatter.pdf",
+      "bytes": 273237,
+      "sha256": "04ca34f9bcc67e251ce617288c7de47ee1ad1d9f7c00cc5bee362a286e376581"
+    },
+    {
+      "file": "sources/mccloskey2016-frontmatter.txt",
+      "bytes": 89667,
+      "sha256": "32c72daec686c4d2d2ffdda0e0474b9112328e9ae80a2928f6473b95f41f6ec1"
+    },
+    {
+      "file": "sources/mpd2023-owid.csv",
+      "bytes": 567430,
+      "sha256": "0545ad6ca37529206af49f9f964f17af927e8c154c1fe8d3813c523e0d2f43f8"
+    },
+    {
+      "file": "sources/mpd2023-owid.metadata.json",
+      "bytes": 4385,
+      "sha256": "7b100d8eae14b136ec5807de3bd14c7bd713084e2e2782ebc457554a3ea459e9"
+    },
+    {
+      "file": "sources/oecd-how-was-life2021.pdf",
+      "bytes": 7074914,
+      "sha256": "cbd3981067b94453167456e135994a00cef075e4a649da73f227cfe352e2262a"
+    },
+    {
+      "file": "sources/oecd-how-was-life2021.txt",
+      "bytes": 758926,
+      "sha256": "e41f0be52e54899b6de4b4499252e800350fa790f8979ce74a00c47bc6672a63"
+    },
+    {
+      "file": "sources/worldbank-poverty-june2025.pdf",
+      "bytes": 2325252,
+      "sha256": "064197da3935f6f773af6df7df834f5e6147a8dab7df160830b902ead951a526"
+    },
+    {
+      "file": "sources/worldbank-poverty-june2025.txt",
+      "bytes": 97079,
+      "sha256": "71a672866e2ac60d6ba6bb0d30282b533ed1d06525383683b773c1c2f2f4a003"
+    }
+  ],
+  "omitted_claims": [
+    "No pobreza desaparecida ni todas las personas enriquecidas.",
+    "No empalme de umbrales PPP o series de ediciones diferentes.",
+    "No causalidad institucional probada por una curva ni datos2022/2018 como actuales2026."
+  ],
+  "scope": "Lectura pertinente especificada; archivo completo no implica lectura íntegra. Resúmenes, traducciones y problemas de acceso identificados.",
+  "access_notes": [
+    "OECD HTML403 en descarga local: PDFprimario267p sí descargado y pasajes pertinentes leídos.",
+    "Nardinelli Econlib403endescargalocal: contenido leído a través de navegador web; sin archivoHTMLlocal ni libro1990íntegroleído."
+  ]
+}

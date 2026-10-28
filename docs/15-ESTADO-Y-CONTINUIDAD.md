@@ -1,16 +1,16 @@
 # Estado de MEE y continuidad · 28/10/2026
 
-## Estado actual: 75/840 publicadas y verificadas
+## Estado actual: 78/840 publicadas y verificadas
 
-Entradas 1–75 completas: **75 terminadas, 225 imágenes originales públicas, 0 borradores WordPress y 765 pendientes**. Primeras cinco tandas: 15/15, incluida Monopolios Estatales vs. Competencia en Política y Economía.
+Entradas 1–78 completas: **78 terminadas, 234 imágenes originales públicas, 0 borradores WordPress y 762 pendientes**. Cinco tandas completas; Historia lleva 3/15 en Capitalismo Consciente.
 
-Último bloque 73–75: CANTV, Precios Cuidados y denuncia de barreras. Informe: `docs/produccion/2026-10-28-bloque-073-075.md`. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces e imágenes comprobados. Una publicación y tres adjuntos por ID; categorías, etiquetas y navegación exactas. Blog es contenedor; Editorial es firma, no categoría.
+Último bloque 76–78: gran enriquecimiento, Escuela de Salamanca y Revolución Industrial. Informe: `docs/produccion/2026-10-28-bloque-076-078.md`. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces e imágenes comprobados. Una publicación y tres adjuntos por ID; categorías y etiquetas exactas. Blog es contenedor; Editorial es firma, no categoría.
 
-Preparación local: **76–78, E5.2.01–E5.2.03**, nueva tanda de **Historia**, en **Capitalismo Consciente**. Gran enriquecimiento, Escuela de Salamanca y Revolución Industrial. Nueve WebP originales optimizados e inspeccionados, con prompts y metadatos guardados. Faltan lecturas centrales, textos y revisión: punto exacto en research-notes.md por ID. Incluidas en 765 pendientes; 762 sin iniciar. No regenerar imágenes ni contarlas como completas.
+Preparación local: **79–81, E5.2.04–E5.2.06**, Historia / Capitalismo Consciente: comercio, Cuba y Asia oriental. Nueve WebP originales optimizados e inspeccionados; faltan lecturas centrales, textos y revisión. Punto exacto en research-notes.md por ID. Incluidas en 762 pendientes; 759 sin iniciar. No regenerar. Portada 81 seleccionada v2 contemporánea; v1 archivada como alternativa.
 
-Respaldo VPS 73–75 comprobado: SQL de 5.489.510 bytes, 66 medios nuevos y archivo de 4.387.482 bytes. Hashes y miembros verificados; sin nueva restauración completa. Cadena en `docs/produccion/2026-10-28-respaldo-073-075.md`. Registro sincronizado desde WordPress después de cada publicación. Continuidad automática activa, sin redespliegue ni cambios de arquitectura o taxonomía.
+Respaldo VPS 76–78: SQL de 5.595.914 bytes, 66 medios nuevos y archivo de 5.811.089 bytes. Hashes y miembros verificados, sin nueva restauración completa. Cadena en el informe de respaldo 076–078. Registro MD/CSV/JSON sincronizado después de cada publicación. Continuidad automática activa, sin redespliegue ni cambios de taxonomía.
 
-Próximo paso: leer datos y unidades de Maddison, método histórico de Moatsos y actualización del umbral de pobreza; no empalmar 1,90 dólares de 2011 con 3 dólares de 2021. Para Salamanca, originales y alcance de influencia, sin prioridad absoluta inventada. Para Revolución Industrial, distinguir Engels 1845 del prólogo de 1892, completar Allen y fuentes sobre trabajo infantil/reformas. No publicar afirmaciones centrales sin cotejarlas.
+Próximo paso: completar Levinson, galeón y coerción; para Cuba, fuentes comparables anteriores a 1959, CEPAL/Mesa-Lago y originales de normas 851/890 y reforma de 1959; para Asia, BM1993, Wade, datos de las cuatro economías y debate actual BM2026. Hay intentos de descarga 403/404 identificados: no confundir localización con archivo o lectura. No hay texto final 79–81.
 
 El bloque25–27 incluye encuestaGallup2026 con ficha técnica y margen total no extrapolado a subgrupos, Cuba con gacetas originales de septiembre2026 y DL88concordado, y diez argumentos con fuentes y respuestas respetuosas. No se inventa cuota económica deGAESA. Originales normativos y datos de encuesta conservados en los expedientes.
 

@@ -1,6 +1,6 @@
 # Backlog de MEE
 
-Último estado: **75/840 publicadas, verificadas y agrupadas**, con **225 imágenes propias públicas**. Primeras cinco tandas completas, incluida Monopolios Estatales vs. Competencia 15/15. **0 borradores WordPress y 765 pendientes**: 76–78 en preparación local, nueva tanda Historia en Capitalismo Consciente, con nueve WebP originales optimizados e inspeccionados. Faltan lecturas, textos y revisión; 762 sin iniciar. Punto exacto en `editorial/production-state.json` y research-notes.md por ID. Informe y respaldo 073–075 verificados. Categorías, subcategorías y etiquetas conservadas.
+Último estado: **78/840 publicadas, verificadas y agrupadas**, con **234 imágenes propias públicas**. Historia 3/15 en Capitalismo Consciente; 0 borradores WordPress y 762 pendientes. 79–81 (E5.2.04–06) en preparación local con nueve WebP originales optimizados e inspeccionados y fuentes iniciales; faltan lecturas, textos y revisión; 759 sin iniciar. Estado y research-notes.md precisos, informe y respaldo 076–078 verificados. Categorías, subcategorías y etiquetas conservadas. Continuación automática activa.
 
 
 Producción comprobada tras el bloque 4–6: 6/840 terminadas. En elaboración local: 7–9 con nueve imágenes propias; todavía no cuentan como publicadas. Consultar siempre WordPress y el registro 24 para el estado más reciente.

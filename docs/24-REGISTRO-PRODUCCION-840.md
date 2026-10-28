@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-28T20:23:24+00:00.
+Comprobado en WordPress: 2026-10-28T20:51:05+00:00.
 
-**75/840 terminadas · 0 en curso · 765 pendientes.**
+**78/840 terminadas · 0 en curso · 762 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -87,9 +87,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 73 | 5/56 · 13/15 | E7.5.13 | Venezuela: la nacionalización de CANTV y la calidad del servicio | terminada | 3/3 | [Leer](https://moevec.org/blog/venezuela-cantv/) |
 | 74 | 5/56 · 14/15 | E7.5.14 | Precios cuidados y acuerdos de precios: la experiencia argentina | terminada | 3/3 | [Leer](https://moevec.org/blog/argentina-precios-cuidados/) |
 | 75 | 5/56 · 15/15 | E7.5.15 | Cómo denunciar una barrera a la competencia | terminada | 3/3 | [Leer](https://moevec.org/blog/denunciar-barrera-competencia/) |
-| 76 | 6/56 · 1/15 | E5.2.01 | El gran enriquecimiento: cómo el mundo dejó de ser pobre | pendiente | 0/3 | — |
-| 77 | 6/56 · 2/15 | E5.2.02 | La Escuela de Salamanca: los españoles que inventaron la economía moderna | pendiente | 0/3 | — |
-| 78 | 6/56 · 3/15 | E5.2.03 | La Revolución Industrial: luces y sombras | pendiente | 0/3 | — |
+| 76 | 6/56 · 1/15 | E5.2.01 | El gran enriquecimiento: cómo el mundo dejó de ser pobre | terminada | 3/3 | [Leer](https://moevec.org/blog/gran-enriquecimiento/) |
+| 77 | 6/56 · 2/15 | E5.2.02 | La Escuela de Salamanca: los españoles que inventaron la economía moderna | terminada | 3/3 | [Leer](https://moevec.org/blog/escuela-de-salamanca/) |
+| 78 | 6/56 · 3/15 | E5.2.03 | La Revolución Industrial: luces y sombras | terminada | 3/3 | [Leer](https://moevec.org/blog/revolucion-industrial-luces-y-sombras/) |
 | 79 | 6/56 · 4/15 | E5.2.04 | Comercio en la historia: de la Ruta de la Seda a los contenedores | pendiente | 0/3 | — |
 | 80 | 6/56 · 5/15 | E5.2.05 | Historia económica de Cuba: de la isla rica al Período Especial | pendiente | 0/3 | — |
 | 81 | 6/56 · 6/15 | E5.2.06 | El milagro de Asia oriental: Corea, Taiwán, Singapur y Hong Kong | pendiente | 0/3 | — |
