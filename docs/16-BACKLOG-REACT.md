@@ -1,6 +1,6 @@
 # Backlog de MEE
 
-Ultimo estado: 12/840 publicadas, verificadas y correctamente agrupadas. Bloque 13-15 en investigacion local. Jerarquia visual y schema corregidos a Blog > area > subcategoria; taxonomia exacta de 122 nodos y siete areas.
+Último estado: 15/840 publicadas, verificadas y agrupadas. Definición Esencial completa15/15; bloque16–18 en investigación local en Capitalismo vs. Socialismo. Blog → área → subcategoría; taxonomía exacta de122nodos y siete áreas.
 
 Producción comprobada tras el bloque 4–6: 6/840 terminadas. En elaboración local: 7–9 con nueve imágenes propias; todavía no cuentan como publicadas. Consultar siempre WordPress y el registro 24 para el estado más reciente.
 
