@@ -1,16 +1,16 @@
-# Estado de MEE y continuidad · 28/10/2026
+# Estado de MEE y continuidad ·28/10/2026
 
-## Estado actual: 63/840 publicadas y verificadas
+## Estado actual:66/840 publicadas y verificadas
 
-Las entradas 1–63 están publicadas y verificadas: **63 terminadas, 189 imágenes originales, 0 borradores WordPress y 777 pendientes**. Primeras cuatro tandas completas 15/15; Monopolios Estatales vs. Competencia inicia con 3/15 en Política y Economía.
+Las entradas1–66 están publicadas y verificadas: **66 terminadas, 198 imágenes originales, 0 borradores WordPress y 774 pendientes**. Primeras cuatro tandas15/15; Monopolios Estatales vs. Competencia6/15 en Política y Economía.
 
-Último bloque 61–63: tipos de monopolio, apertura de Costa Rica y reforma mexicana de 2013. Informe `docs/produccion/2026-10-28-bloque-061-063.md`. Fuentes originales y límites, contexto institucional vigente y medidas estadísticas revisados. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces e imágenes comprobados. Una publicación y tres adjuntos únicos por ID; categorías y etiquetas exactas. Blog es contenedor; Editorial es firma, no categoría.
+Último bloque64–66: controles de precios, Venezuela y ETECSA. Informe `docs/produccion/2026-10-28-bloque-064-066.md`. Fuentes, límites de indicadores y marcos normativos revisados. HTTP200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces e imágenes comprobados. Una publicación y tres adjuntos únicos por ID; categorías y etiquetas exactas. Blog es contenedor; Editorial es firma, no categoría.
 
-En preparación local: **64–66, E7.5.04–E7.5.06**, sobre controles de precios, Venezuela y ETECSA. Nueve WebP originales optimizados e inspeccionados, alt/pies/prompts y fuentes iniciales guardados. Faltan lecturas centrales, textos y revisión; punto exacto en research-notes.md de cada ID. Estas tres están incluidas en las 777 pendientes; 774 sin iniciar. No regenerar imágenes ni contarlas como completas.
+En preparación local: **67–69, E7.5.07–E7.5.09**, sobre tren español, taxis/plataformas y farmacias. Nueve WebP originales optimizados e inspeccionados, alt/pies/prompts y fuentes iniciales guardados. Faltan lecturas centrales, textos y revisión; punto exacto en research-notes.md de cada ID. Estas tres están incluidas en las774 pendientes;771 sin iniciar. No regenerar imágenes ni contarlas como completas.
 
-Respaldo posterior a las 63: `/data/mee-backups/produccion-840-incremento-61-63-20261028/`, SQL de 5.083.245 bytes y 66 archivos nuevos de Medios, 4.438.120 bytes comprimidos. Hashes y miembros comprobados; sin nueva prueba de restauración completa. Cadena en `docs/produccion/2026-10-28-respaldo-061-063.md`. Registros sincronizados después de cada publicación, sin redespliegue ni cambios de arquitectura o taxonomía.
+Respaldo posterior a66: `/data/mee-backups/produccion-840-incremento-64-66-20261028/`, SQL de5.184.257bytes y66 archivos nuevos de Medios,4.817.772bytes comprimidos. Hashes y miembros comprobados; sin nueva restauración completa. Cadena en `docs/produccion/2026-10-28-respaldo-064-066.md`. Registros sincronizados después de cada publicación, sin redespliegue ni cambios de arquitectura o taxonomía.
 
-Próximo paso: reanudar 64–66 con los originales ya localizados; completar ley venezolana/BCV/ENCOVI y marco cubano/salarios/medidas ETECSA antes de redactar. No convertir búsqueda fallida en ausencia de datos ni escenas conceptuales en pruebas. La continuidad automática de este chat sigue activa.
+Próximo paso: completar originales CNMC y calendario ferroviario, TLC/legislación VTC y sentencia/estudio farmacéutico. No convertir convocatoria de votación en norma vigente, datos posteriores a2022 en estimación anterior a2021 ni escenas conceptuales en evidencia. La continuidad automática de este chat sigue activa.
 
 El bloque25–27 incluye encuestaGallup2026 con ficha técnica y margen total no extrapolado a subgrupos, Cuba con gacetas originales de septiembre2026 y DL88concordado, y diez argumentos con fuentes y respuestas respetuosas. No se inventa cuota económica deGAESA. Originales normativos y datos de encuesta conservados en los expedientes.
 

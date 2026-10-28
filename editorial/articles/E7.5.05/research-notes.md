@@ -1,19 +1,31 @@
-# Preparación · E7.5.05
+# Investigación revisada · E7.5.05
 
-Consulta: 28/10/2026. **Investigación en curso; no listo para publicar.**
+Consulta: 28/10/2026. Fuentes centrales y límites revisados; sustituye las carencias de la preparación inicial.
 
-## Fuentes localizadas y límites
+- https://digital-collections.princeton.edu/i/ley-org%C3%A1nica-precios-justos/item/54eb0ab6-d68c-433c-92c7-8cdc902038b8/metadata
+  - Reproducción publicada por República Bolivariana de Venezuela, Gaceta40340/23ene2014, archivo Princeton. Metadatos y escaneos pp2 y5 leídos visualmente: art1,27–32, criterio de costes; 30 puntos sobre estructura de costes, no ventas. No confundir folleto de reproducción con escaneo directo del fascículo de Gaceta.
+- https://faolex.fao.org/docs/pdf/ven151805.pdf
+  - Gaceta original6.202extraordinaria/8nov2015 descargada,16p. Exposición de motivos y arts1–7 leídos. No presentar versión2014 como texto actual íntegro.
+- https://lisboa.consulado.gob.ve/2026/01/23/asamblea-nacional-impulsa-nueva-ley-para-proteger-derechos-socioeconomicos/
+  - Prensa MPPRE/23ene2026 leída: proyecto y segunda discusión prevista. Se relata el estado de la noticia en esa fecha, no ratificación o vigencia consolidada a octubre2026.
+- https://growthlab.hks.harvard.edu/wp-content/uploads/2016/10/microconstraints_venezuela.pdf
+  - Investigación original Obuchi/Lira/Raguá, octubre2016,57p. Ficha, pp32–36/Box6 y gráficoB6.1 leídos en PDF primario indexado. Entrevistas y series históricas atribuidasBCV, límite observadoabril2014 según autores. No afirmar descarga local ni acceso al archivo originalBCV; no publicar28%deenero2014 tomado de prensa.
+- https://www.refworld.org/sites/default/files/legacy-pdf/es/2020-2/5e56e2d34.pdf
+  - Original PMA,3p, enero2020, leído completo en visor primario: campo jul–sep2019,8375cuestionarios, CARI32,3%población moderada/severa,70%percepción disponibilidad. No comparar directamente índice de escasez, pobreza e inseguridad alimentaria. Descarga local403, lectura web sí disponible.
+- https://www.iesa.edu.pa/wp-content/uploads/2020/04/WEBINAR-Monteferrante-Chu-y-De-Freitas.pdf
+  - PDF28p descargado; portada/autores y diapositiva12 leídos. Diagnóstico de relajación de controles en abril2020; sin adoptar cifras no contrastadas del resto de la diapositiva. Se conserva extracto.
+- https://cdn.prod.website-files.com/5d14c6a5c4ad42a4e794d0f7/69fcb4f2d5587c07273d00e2_ENCOVI%202025_presentacio%CC%81n_UCAB-07%2005%202026.pdf
+  - PDF original49p descargado. Ficha p2 y p36 leídas; gráfico p36 inspeccionado: hogares68,5%pobreza/31,7%extrema; personas76,5/38,5 no usadas. Referencia mayo2025, campo marzo–junio2025. Interpretación de autores sobre desmontaje controles atribuida, no efecto causal exclusivo. Ficha declara muestra ampliada11352hogares, no se confunde con entrevistas completadas ni9%con margen global de error.
+- https://2017-2021.state.gov/u-s-and-international-community-actions-on-venezuela/
+  - Cronología oficial histórica leída: EO13808/24ago2017, restricciones de ciertas operaciones financieras; no todas las sanciones comenzaron ese año.
+- https://home.treasury.gov/news/press-releases/sm594
+  - Comunicado original28ene2019 leído: designaciónPDVSA por OFAC. Se fecha la acción histórica; no resumen del régimen de sanciones vigente2026.
 
-- Original de Ley Orgánica de Precios Justos 2014, Gaceta 40.340, 23 enero 2014, colección digital Princeton: https://digital-collections.princeton.edu/i/ley-org%C3%A1nica-precios-justos/item/54eb0ab6-d68c-433c-92c7-8cdc902038b8/metadata . Metadatos y manifiesto IIIF consultados; **todavía no se han leído los escaneos originales**. Manifiesto guardado con 12 imágenes/11 páginas declaradas. Lectura de reproducción privada localizada no sustituye cotejar original ni revisar reformas posteriores.
-- BCV: las búsquedas devuelven28 % de enero de 2014 con reproducciones secundarias y diferencias sobre la última observación. **No se ha obtenido aún el comunicado o serie original**; no publicar esa cifra ni fecha de suspensión como verificada. Artículos académicos localizados en Redalyc también citan BCV, sin equivaler a descarga del original.
-- ENCOVI 2024, fuente del proyecto: https://www.proyectoencovi.com/encovi-2024 . Ficha leída: campo junio–julio de 2024, 2.490 hogares efectivamente encuestados sobre 2.500 previstos, agenda reducida. Presentación primaria enlazada localizada, **aún sin descarga/lectura**. URL en research.json. No equiparar inseguridad alimentaria o pobreza con un índice de existencias comerciales.
-- Hay indicios de ENCOVI 2025 presentada7 mayo 2026, incluida copia en Scribd y publicación de departamento de UCAB. **Falta localizar y leer publicación original** antes de presentarla como dato más reciente. La portada web del proyecto consultada aún destaca 2024; no inferir inexistencia de 2025.
-- Pendientes: documentación primaria de relajación de controles desde 2019, cronología y alcance de sanciones, explicación oficial de guerra económica y contrastes. No atribuir toda la crisis a una sola norma ni afirmar vigencia en 2026 del texto de 2014 sin comprobar reformas.
+## Omisiones
 
-## Próximo paso exacto
+- No porcentaje BCV sin cotejo del comunicado original ni fecha propia de suspensión de toda publicación.
+- No tratar pobreza de hogares como porcentaje de personas ni inseguridad alimentaria como productos ausentes.
+- No presentar relajación práctica como derogación universal desde2019 ni proyecto2026 como norma promulgada.
+- No atribuir toda la crisis a una sola ley o todas las sanciones a2017/2019.
 
-Leer Gaceta 2014 en IIIF y cambios posteriores; obtener BCV o eliminar cifras no verificadas; descargar ENCOVI del proyecto, fijar muestra/periodo/pregunta. Contrastar política desde 2019 y sanciones con documentos primarios. Redactar después. No hay texto final ni publicación.
-
-## Recursos preparados
-
-Tres imágenes originales generadas con image_gen, optimizadas a WebP e inspeccionadas individualmente. Portada 1200×630 e interiores 1600×900, cada una menor de 250.000 bytes. Alt/pies y registros conservados. No regenerar ni duplicar.
+Originales/extractos y hashes en source-review.json. Tres WebP originales optimizados e inspeccionados en la ejecución anterior; no regenerados.

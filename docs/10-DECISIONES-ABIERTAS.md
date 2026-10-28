@@ -123,3 +123,9 @@ Tanda 5 iniciada con nueve imágenes propias de E7.5.01–E7.5.03, inspeccionada
 Publicadas y verificadas 61–63: total 63/840, con 189 imágenes originales. Agrupación explícita en Política y Economía → Monopolios Estatales vs. Competencia, sin duplicados. Se precisaron disputabilidad teórica, cronología comercial costarricense, unidades SUTEL y transición IFT/CRT mexicana. Textos, fuentes con alcances y originales conservados.
 
 Continuación 64–66 con nueve WebP nuevos, revisados y optimizados, y fuentes iniciales. No hay texto final ni publicación de estas tres; faltan comprobaciones centrales documentadas. Respaldo SQL y Medios 61–63 verificado por hashes y miembros, sin nueva restauración completa. Sin cambios de infraestructura, tema o taxonomía. La producción continua autorizada sigue activa.
+
+## Producción64–66 y continuación67–69 ·28/10/2026
+
+Publicadas y verificadas64–66: total66/840,198 imágenes originales. Agrupación en Política y Economía → Monopolios Estatales vs. Competencia, sin duplicados. Se precisaron topes vinculantes, normas venezolanas y universos ENCOVI, y alcance de exclusividad ETECSA2025/recargas/tarifas frente a salario estatal civil2025. Fuentes y límites conservados por artículo.
+
+67–69 tienen nueve imágenes originales optimizadas e inspeccionadas, alt/pies y fuentes iniciales; todavía sin textos completos ni publicación. Pendientes metodología/datosCNMC, TLC/VTC y sentencia/estudio farmacéutico. Respaldo64–66 comprobado por hashes y miembros, sin nueva restauración completa. Continúa autorización existente; sin cambios de infraestructura, tema o taxonomía.

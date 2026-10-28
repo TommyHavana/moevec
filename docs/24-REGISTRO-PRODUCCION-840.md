@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-28T18:32:46+00:00.
+Comprobado en WordPress: 2026-10-28T19:01:12+00:00.
 
-**63/840 terminadas · 0 en curso · 777 pendientes.**
+**66/840 terminadas · 0 en curso · 774 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -75,9 +75,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 61 | 5/56 · 1/15 | E7.5.01 | Monopolio natural, legal y de facto: no es lo mismo | terminada | 3/3 | [Leer](https://moevec.org/blog/tipos-de-monopolio/) |
 | 62 | 5/56 · 2/15 | E7.5.02 | Costa Rica: la apertura de las telecomunicaciones | terminada | 3/3 | [Leer](https://moevec.org/blog/costa-rica-apertura-telecom/) |
 | 63 | 5/56 · 3/15 | E7.5.03 | México: la reforma de telecomunicaciones de 2013 | terminada | 3/3 | [Leer](https://moevec.org/blog/mexico-reforma-telecom-2013/) |
-| 64 | 5/56 · 4/15 | E7.5.04 | Fijar precios por decreto: de Diocleciano a hoy | pendiente | 0/3 | — |
-| 65 | 5/56 · 5/15 | E7.5.05 | Venezuela: Ley de Precios Justos y estanterías vacías | pendiente | 0/3 | — |
-| 66 | 5/56 · 6/15 | E7.5.06 | Cuba y ETECSA: el monopolio de las telecomunicaciones | pendiente | 0/3 | — |
+| 64 | 5/56 · 4/15 | E7.5.04 | Fijar precios por decreto: de Diocleciano a hoy | terminada | 3/3 | [Leer](https://moevec.org/blog/fijar-precios-por-decreto/) |
+| 65 | 5/56 · 5/15 | E7.5.05 | Venezuela: Ley de Precios Justos y estanterías vacías | terminada | 3/3 | [Leer](https://moevec.org/blog/venezuela-precios-justos/) |
+| 66 | 5/56 · 6/15 | E7.5.06 | Cuba y ETECSA: el monopolio de las telecomunicaciones | terminada | 3/3 | [Leer](https://moevec.org/blog/cuba-etecsa-monopolio/) |
 | 67 | 5/56 · 7/15 | E7.5.07 | El tren en España: lo que pasó al llegar la competencia | pendiente | 0/3 | — |
 | 68 | 5/56 · 8/15 | E7.5.08 | Taxis, licencias y plataformas: la batalla regulatoria | pendiente | 0/3 | — |
 | 69 | 5/56 · 9/15 | E7.5.09 | Farmacias en España: planificación y barreras de entrada | pendiente | 0/3 | — |
