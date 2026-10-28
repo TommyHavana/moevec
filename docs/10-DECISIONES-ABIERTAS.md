@@ -94,3 +94,7 @@ Bloque31–33 publicado y comprobado en Política y Economía → Corrupción Si
 ## Continuidad editorial ·36/840 ·28/10/2026
 
 Bloque34–36publicado y verificado. LavaJato distingue fondos históricos MPF2017/panelSTF2025sin sumarlos y procesos de competencia/imparcialidad2021con alcance delimitado. Enriquecimiento ilícito diferencia InteramericanaIX/UNCAC20, artículo224mexicano y438bisespañol. Nepotismo utiliza2011como workingpaperhistórico y apellidos como indicador indirecto; selecciónabierta se propone sin efecto cuantificado inventado. Las normas españolas conservan ámbitos propios. Próximo37–39en preparación local, sin contar como completado.
+
+## Continuidad editorial · 42/840 · 28/10/2026
+
+Bloques 37–42 publicados y verificados, con 18 imágenes nuevas. Se mantuvo el área y la subcategoría del manifiesto. ENCIG distingue experiencia y desembolso; CICIG separa investigaciones de condenas; independencia judicial incorpora fuentes de 2026 y reformas mexicanas posteriores a 2024. Yukos diferencia resultados TEDH/arbitraje y recurso de 2025. Puertas giratorias respeta ámbitos y cambios de septiembre de 2026. ProZorro conserva límites del estudio original, sin presentar mejoras uniformes ni causalidad automática. Próximo bloque 43–45 iniciado; no hay cambio de arquitectura ni de autorización.

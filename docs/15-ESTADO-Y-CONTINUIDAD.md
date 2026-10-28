@@ -1,8 +1,13 @@
 # Estado de MEE y continuidad · 28/10/2026
 
-## Estado actual: 36/840 publicadas y verificadas
+## Estado actual: 42/840 publicadas y verificadas
 
-Las entradas1–36 están publicadas y verificadas, con108imágenes originales:36terminadas,0borradoresWordPress y804pendientes. Definición Esencial15/15, Capitalismo vs. Socialismo15/15 y Corrupción Sistémica6/15. Bloque37–39 en preparación local: nueve imágenes originales optimizadas e inspeccionadas, fuentes iniciales y comprobaciones pendientes guardadas; textos aún pendientes. Informes recientes: docs/produccion/2026-10-28-bloque-028-030.md,2026-10-28-bloque-031-033.md y2026-10-28-bloque-034-036.md.
+Las entradas 1–42 están publicadas y verificadas, con 126 imágenes originales: **42 terminadas, 0 borradores WordPress y 798 pendientes**. Definición Esencial 15/15, Capitalismo vs. Socialismo 15/15 y Corrupción Sistémica 12/15. Las 43–45 tienen sus nueve imágenes WebP originales optimizadas e inspeccionadas, metadatos y fuentes iniciales; su estado preciso está en `editorial/production-state.json` y los expedientes. No contarlas como completas.
+
+Últimos informes: `docs/produccion/2026-10-28-bloque-037-039.md` y `docs/produccion/2026-10-28-bloque-040-042.md`. Se comprobaron jerarquía, etiquetas, tres adjuntos únicos por artículo, SEO técnico público, sitemap, enlaces e imágenes originales. Blog es el contenedor; Editorial sigue siendo firma, no categoría añadida.
+
+Respaldo consistente posterior a las 42: `/data/mee-backups/produccion-840-incremento-37-42-20261028/`, SQL de 4.418.962 bytes y 132 archivos de Medios nuevos con variantes, 7.160.474 bytes comprimidos. Hashes y miembros de archivo comprobados; sin nueva prueba de restauración completa. La cadena de restauración figura en el informe de respaldo y en el VPS.
+
 
 El bloque25–27 incluye encuestaGallup2026 con ficha técnica y margen total no extrapolado a subgrupos, Cuba con gacetas originales de septiembre2026 y DL88concordado, y diez argumentos con fuentes y respuestas respetuosas. No se inventa cuota económica deGAESA. Originales normativos y datos de encuesta conservados en los expedientes.
 

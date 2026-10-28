@@ -1,6 +1,6 @@
 # Backlog de MEE
 
-Último estado:36/840 publicadas, verificadas y agrupadas;108imágenes propias. Tandas1y2completas15/15;Corrupción Sistémica6/15. Bloque37–39con nueve imágenes listas/inspeccionadas y fuentes iniciales; textos pendientes. Blog → área → subcategoría;122nodos y sieteáreas conservados.
+Último estado: **42/840 publicadas, verificadas y agrupadas**, con **126 imágenes propias**. Tandas 1 y 2 completas 15/15; Corrupción Sistémica 12/15. **0 borradores WordPress, 798 pendientes**. Bloque 43–45 con nueve imágenes listas e inspeccionadas, metadatos y fuentes iniciales; consultar su punto exacto en `editorial/production-state.json`. Jerarquía Blog → área → subcategoría; 122 nodos y siete áreas conservados.
 
 Producción comprobada tras el bloque 4–6: 6/840 terminadas. En elaboración local: 7–9 con nueve imágenes propias; todavía no cuentan como publicadas. Consultar siempre WordPress y el registro 24 para el estado más reciente.
 

@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-28T15:08:26+00:00.
+Comprobado en WordPress: 2026-10-28T15:46:24+00:00.
 
-**36/840 terminadas · 0 en curso · 804 pendientes.**
+**42/840 terminadas · 0 en curso · 798 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -48,12 +48,12 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 34 | 3/56 · 4/15 | E7.10.04 | Lava Jato: logros, excesos y anulaciones | terminada | 3/3 | [Leer](https://moevec.org/blog/lava-jato-logros-anulaciones/) |
 | 35 | 3/56 · 5/15 | E7.10.05 | Enriquecimiento ilícito: qué dicen las convenciones internacionales | terminada | 3/3 | [Leer](https://moevec.org/blog/enriquecimiento-ilicito-convenciones/) |
 | 36 | 3/56 · 6/15 | E7.10.06 | Nepotismo: evidencia y remedios | terminada | 3/3 | [Leer](https://moevec.org/blog/nepotismo-evidencia/) |
-| 37 | 3/56 · 7/15 | E7.10.07 | Sobornos cotidianos: lo que dicen las encuestas | pendiente | 0/3 | — |
-| 38 | 3/56 · 8/15 | E7.10.08 | La CICIG en Guatemala: auge y cierre | pendiente | 0/3 | — |
-| 39 | 3/56 · 9/15 | E7.10.09 | Independencia judicial: cómo se mide y qué la amenaza | pendiente | 0/3 | — |
-| 40 | 3/56 · 10/15 | E7.10.10 | Persecución regulatoria selectiva: el caso Yukos | pendiente | 0/3 | — |
-| 41 | 3/56 · 11/15 | E7.10.11 | Puertas giratorias: de cargo público a consejo de administración | pendiente | 0/3 | — |
-| 42 | 3/56 · 12/15 | E7.10.12 | Datos abiertos contra la corrupción: el caso ProZorro | pendiente | 0/3 | — |
+| 37 | 3/56 · 7/15 | E7.10.07 | Sobornos cotidianos: lo que dicen las encuestas | terminada | 3/3 | [Leer](https://moevec.org/blog/sobornos-cotidianos-encuestas/) |
+| 38 | 3/56 · 8/15 | E7.10.08 | La CICIG en Guatemala: auge y cierre | terminada | 3/3 | [Leer](https://moevec.org/blog/cicig-guatemala/) |
+| 39 | 3/56 · 9/15 | E7.10.09 | Independencia judicial: cómo se mide y qué la amenaza | terminada | 3/3 | [Leer](https://moevec.org/blog/independencia-judicial/) |
+| 40 | 3/56 · 10/15 | E7.10.10 | Persecución regulatoria selectiva: el caso Yukos | terminada | 3/3 | [Leer](https://moevec.org/blog/persecucion-regulatoria-yukos/) |
+| 41 | 3/56 · 11/15 | E7.10.11 | Puertas giratorias: de cargo público a consejo de administración | terminada | 3/3 | [Leer](https://moevec.org/blog/puertas-giratorias/) |
+| 42 | 3/56 · 12/15 | E7.10.12 | Datos abiertos contra la corrupción: el caso ProZorro | terminada | 3/3 | [Leer](https://moevec.org/blog/datos-abiertos-prozorro/) |
 | 43 | 3/56 · 13/15 | E7.10.13 | Corrupción y regulación: por qué más normas pueden traer más sobornos | pendiente | 0/3 | — |
 | 44 | 3/56 · 14/15 | E7.10.14 | Cómo denunciar la corrupción con protección legal | pendiente | 0/3 | — |
 | 45 | 3/56 · 15/15 | E7.10.15 | Cómo pedir información pública: guía de acceso | pendiente | 0/3 | — |
