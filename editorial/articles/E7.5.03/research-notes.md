@@ -1,18 +1,28 @@
-# Preparación · E7.5.03
+# Investigación revisada · E7.5.03
 
-Consulta inicial: 28/10/2026. **No listo para publicar.**
+Consulta: 28/10/2026. Fuentes centrales completadas; sustituye las limitaciones de la preparación inicial.
 
-## Fuentes iniciales y lectura pendiente
+- https://www.oecd.org/content/dam/oecd/en/publications/reports/2012/01/oecd-review-of-telecommunication-policy-and-regulation-in-mexico_g1g17f98/9789264060111-en.pdf
+  - PDF144p descargado: prólogo/ficha y anexoC impresas137–138/PDF139–140 leídos. Estimación3SLSOCDEsinMéxico, contrafactual alcanzable, pérdida excedente promedio anual2005–2009USD25835millonesPPA/1,8%PIB. No gasto fiscal ni resultado actual.
+- https://www.scielo.org.mx/scielo.php?pid=S2448-718X2014000401016&script=sci_arttext
+  - Artículo original2014 leído en texto primario indexado, seccionesI/III/IV/V y nota autor en PDFprimario indexado: crítica de residuales/counterfactual/PPA; consultor externoTelmex, iniciativa propia no encargo. No declarar refutación definitiva deOCDE.
+- https://www.dof.gob.mx/nota_detalle.php?codigo=5301941&fecha=11/06/2013
+  - Texto originalDOF11jun2013 leído indexado: arts6/28 y transitorios. Fecha, creaciónIFTautónomo y regulación asimétrica. Apertura directa posterior502 no invalida lectura indexada; no presentar como constitución vigente2026.
+- https://www.oecd.org/content/dam/oecd/en/publications/reports/2017/08/oecd-telecommunication-and-broadcasting-review-of-mexico-2017_g1g7c20d/9789264278011-en.pdf
+  - PDF270p descargado: portada/ficha, pp82–83/PDF84–85, figura2.3 visual, p96/PDF98. Cesta100llamadas500MB44,05→15,39USD PPA mayo2013/mayo2016,65%. TelefoníafijaTelmex-Telnor69,1%2012→63,2%2016, no móvilni2026. No causalidad exclusiva demostrada.
+- https://www.diputados.gob.mx/LeyesBiblio/ref/lmtr/LMTR_orig_16jul25.pdf
+  - PDF92p original16jul2025 descargado; art7/8p8 y transitorios2/3/4/6/8p89 y18p91 leídos. CRTdesconcentradoATDT; extinciónIFTdía posteriorintegraciónPleno, actospreviossubsisten segúncompetencia. No fecha18jul para promulgación.
+- https://www.gob.mx/crt/prensa/comunicados-de-prensa-411100
+  - Boletín001/2025,21oct2025 leído primario indexado: constitución17oct, primera sesión21oct. No confundir con integración16oct.
+- https://www.gob.mx/crt/es/que-hacemos
+  - Perfil institucional actual leído primario indexado; confirma CRTcomoórgano desconcentradoATDT. No afirmar identidad institucionalconIFTconstitucionalautónomo.
 
-- OCDE, Review of Telecommunication Policy and Regulation in Mexico (2012), original144p: https://www.oecd.org/content/dam/oecd/en/publications/reports/2012/01/oecd-review-of-telecommunication-policy-and-regulation-in-mexico_g1g17f98/9789264060111-en.pdf . Se leyeron portada, ficha y prólogo: estudio solicitado por Gobierno mexicano, finalizado noviembre2011, revisión enero2012. Pasaje primario indexado del anexo estima pérdida media anual de excedente de consumidores2005–2009 USD25.835millones PPA,1,8%PIB; **no es una transferencia fiscal observada ni coste actual**. Falta leer método del anexo antes de usar cifras. No confundir 140p impresas con144pPDF.
-- OCDE, Telecommunication and Broadcasting Review of Mexico 2017, original270p: https://www.oecd.org/content/dam/oecd/en/publications/reports/2017/08/oecd-telecommunication-and-broadcasting-review-of-mexico-2017_g1g7c20d/9789264278011-en.pdf . Prólogo y ficha leídos. Texto primario indexado p83: canasta móvil100llamadas+500MB cae44,05→15,39USD PPA entre2013y2016 (65%); **faltan comprobar figura/notas/método y concentración persistente**. El estudio no prueba causalidad exclusiva ni tarifas2026.
-- Crítica original de Adriaan ten Kate (2014): https://www.scielo.org.mx/scielo.php?pid=S2448-718X2014000401016&script=sci_arttext . Resumen e introducción leídos: cuestiona consistencia de estimaciónOCDE2012 y explica debate previo. **Falta lectura del argumento empírico**; no descartar ni adoptar por mera mención. Si se usa la cifra de perjuicio debe contextualizarse la controversia metodológica.
-- Estado institucional: comunicado primario CRT Bol001/2025 de21/10/2025: https://www.gob.mx/crt/prensa/comunicados-de-prensa-411100 . Texto leído: primera sesión de instalación21oct, constitución deCRT17oct2025. Resolución primaria21/05/2026 confirma integración del Pleno16oct2025 y abrogación deLFTR al día siguiente: https://portal.crt.gob.mx/BuscadorSesionesPleno/DescargarArchivo?nombreArchivo=ffe4f90ac54e47209884d7bff748ec12_P_CRT_ORD_21052026_086.pdf&tipo=liga . **No presentar al IFT de2013 como regulador vigente**. Falta leer LMTR16jul2025 y transitorios de extinción (reproducciónDOF18jul2025 localizada, aún sin lectura íntegra de la norma original).
+## Límites y omisiones
 
-## Próximos pasos
+- No presentar cifra2012como transferencia fiscal, importe corriente2026 o perjuicio causal observado.
+- No trasladar65%de cesta móvil a todas las facturas.
+- No confundir cuota fija con móvil ni dato2016con2026.
+- No presentarIFTcomoautoridadvigente ni extinción inmediata16jul2025.
+- No suponer desaparición automática de medidas previas delIFT.
 
-Leer reforma constitucional2013 y LMTR2025/transitorios; revisar páginas y figura de ambos informes y alcance de crítica. Redactar historia fechada, mejoras de precios atribuidas con método y límites, concentración y cobertura sin inferir cifras actuales. Conservar enlaces y no reutilizar el IFT como institución vigente.
-
-## Imágenes listas
-
-Tres WebP originales generados con la herramienta integrada image_gen, optimizados e inspeccionados individualmente: portada1200×630, interiores1600×900, todas<250.000bytes. Prompts, originales de generación, alt y pies guardados. No regenerar ni subir duplicados. Las imágenes no son mediciones ni pruebas documentales.
+Originales o extractos locales con páginas y hashes en source-review.json. Tres imágenes originales optimizadas e inspeccionadas en la ejecución anterior; no regeneradas.

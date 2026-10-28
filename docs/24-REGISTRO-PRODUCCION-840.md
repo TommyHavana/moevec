@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-28T18:03:24+00:00.
+Comprobado en WordPress: 2026-10-28T18:32:46+00:00.
 
-**60/840 terminadas · 0 en curso · 780 pendientes.**
+**63/840 terminadas · 0 en curso · 777 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -72,9 +72,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 58 | 4/56 · 13/15 | E7.6.13 | Ayudas de Estado en la UE: cómo se controla el favoritismo | terminada | 3/3 | [Leer](https://moevec.org/blog/ayudas-de-estado-ue/) |
 | 59 | 4/56 · 14/15 | E7.6.14 | Subsidios a industrias verdes: el debate tras la Ley de Reducción de la Inflación | terminada | 3/3 | [Leer](https://moevec.org/blog/subsidios-industrias-verdes-ira/) |
 | 60 | 4/56 · 15/15 | E7.6.15 | Cómo averiguar quién recibe subvenciones públicas | terminada | 3/3 | [Leer](https://moevec.org/blog/averiguar-quien-recibe-subvenciones/) |
-| 61 | 5/56 · 1/15 | E7.5.01 | Monopolio natural, legal y de facto: no es lo mismo | pendiente | 0/3 | — |
-| 62 | 5/56 · 2/15 | E7.5.02 | Costa Rica: la apertura de las telecomunicaciones | pendiente | 0/3 | — |
-| 63 | 5/56 · 3/15 | E7.5.03 | México: la reforma de telecomunicaciones de 2013 | pendiente | 0/3 | — |
+| 61 | 5/56 · 1/15 | E7.5.01 | Monopolio natural, legal y de facto: no es lo mismo | terminada | 3/3 | [Leer](https://moevec.org/blog/tipos-de-monopolio/) |
+| 62 | 5/56 · 2/15 | E7.5.02 | Costa Rica: la apertura de las telecomunicaciones | terminada | 3/3 | [Leer](https://moevec.org/blog/costa-rica-apertura-telecom/) |
+| 63 | 5/56 · 3/15 | E7.5.03 | México: la reforma de telecomunicaciones de 2013 | terminada | 3/3 | [Leer](https://moevec.org/blog/mexico-reforma-telecom-2013/) |
 | 64 | 5/56 · 4/15 | E7.5.04 | Fijar precios por decreto: de Diocleciano a hoy | pendiente | 0/3 | — |
 | 65 | 5/56 · 5/15 | E7.5.05 | Venezuela: Ley de Precios Justos y estanterías vacías | pendiente | 0/3 | — |
 | 66 | 5/56 · 6/15 | E7.5.06 | Cuba y ETECSA: el monopolio de las telecomunicaciones | pendiente | 0/3 | — |

@@ -1,19 +1,29 @@
-# Preparación · E7.5.02
+# Investigación revisada · E7.5.02
 
-Consulta inicial: 28/10/2026. **No listo para publicar.**
+Consulta: 28/10/2026. Fuentes centrales completadas; sustituye las limitaciones de la preparación inicial.
 
-## Fuentes iniciales y lectura pendiente
+- https://tse.go.cr/juris/electorales/2944-E-2007.htm
+  - Resolución2944-E-2007 completa consultada: votación7oct2007, declaración22oct,805658sí/756814no,59,2%participación. Consulta sobre TLC completo, no privatización específica.
+- https://www.sutel.go.cr/sites/default/files/licitaciones/2016li-000002-sutel_precartel.pdf
+  - PDF144p escaneado descargado. Página6 leída visualmente: leyes8642/8660; concesionesinicio2011, Claro/MovistarQ42011, virtualesQ32011. Se conserva extracto p6; no afirmar lectura144p.
+- https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=63431&param2=138897&param3=1
+  - Texto consolidado oficial versión6/6, norma63431/version138897, obtenido desde visor público SINALEVI. Leídos arts1–3,34,35,45. Guardado HTML original íntegro; no lectura completa de todos los artículos. No atribuir creación administrativa de SUTEL a8642 sola.
+- https://www.sutel.go.cr/pagina/que-hacemos-0
+  - Página institucional actual leída indexada: regulación, competencia, interconexión, calidad, usuarios y Fonatel. Sin atribuir todos los resultados a la institución.
+- https://sutel.go.cr/sites/default/files/informe-estadisticas-telecomunicaciones-2025.pdf
+  - PDF66p descargado. Leídos portada/metodología p1–8, tabla1p15–16, móvil p21–24,27–28,32; derechos p53/Fonatel55–56. Tabla p15 y notas contrastadas, p8 revisión22jul2026. Series exactas tabla1, no redondeo discordante gráfico12. ARPU nominal pospago10993→8849no índice de precios. No ingreso agregado de noticia anterior ni errata de hogares.
+- https://sutel.go.cr/informes-indicadores
+  - Catálogo actual leído y HTML guardado; enlace real al informe2025 identificado. No extracción de PowerBI ni afirmación de corte trimestral posterior.
+- https://micomparador.sutel.go.cr/
+  - Enlace oficial a herramienta contrastado en materiales primarios SUTEL; no se simula contratación ni comparación exhaustiva de planes actuales.
 
-- Catálogo oficial actual de SUTEL: https://sutel.go.cr/informes-indicadores . Contenido primario indexado leído: plataforma Power BI trimestral y publicaciones anuales, con aviso de usar la última publicación. Localizado Informe Estadísticas del Sector de Telecomunicaciones 2025. Aperturas devolvieron timeout; una ficha directa devolvió 404, sin que eso demuestre ausencia del informe.
-- Comunicado primario SUTEL de 13/05/2026: https://sutel.go.cr/noticias/comunicados-de-prensa/7-de-cada-10-hogares-cuentan-con-conexion-propia-internet . Tabla leída: penetración 2021/2025, telefonía móvil 138%/137%, Internet móvil 95%/106%, Internet fijo 64%/71%. **No afirmar subida continua de líneas móviles** por la imagen ascendente. **Falta comprobar unidades, denominadores y serie en el PDF más reciente**. Se detecta una expresión ambigua/posible errata de «546 247 mil hogares» en el comunicado; no usarla sin contrastar.
-- Informe 2024 previo: https://www.sutel.go.cr/sites/default/files/estadisticas-sector-telecomunicaciones-2024.pdf . Introducción indexada leída: 6.977.935 líneas activas en 2024, +2,4% frente a 2023; no tratarlo como último dato de 2026 ni atribuir toda evolución a una sola reforma.
-- Ley 8642 (4/06/2008), régimen de apertura, competencias de SUTEL y FONATEL: pendientes de leer texto consolidado oficial de PGR/SINALEVI. No confundir apertura con privatización del ICE.
-- Referéndum TLC 2007: pendiente resultado y fecha en fuente original TSE y cronología de entrada de operadores, sin asumir inicio comercial en la fecha de la ley.
+## Límites y omisiones
 
-## Próximos pasos
+- No adelantar inicio comercial de nuevas redes a2008.
+- No equiparar apertura con privatización delICE.
+- No inferir personas, cobertura geográfica ni universalidad a partir de suscripciones.
+- No usar curva conceptual como serie real.
+- No tratar ARPU como tarifa comparable ni comparar precios actuales con serie nominal sin método.
+- No emplear ingresos de comunicado anterior a revisión2026 ni cifra ambigua de hogares.
 
-Leer norma y resultados oficiales, descargar informe 2025 desde enlace real del catálogo y comprobar tablas de líneas/precios/cobertura. Distinguir suscripciones, personas, cobertura geográfica, población y hogares. Plantear universalidad del servicio y evaluación de FONATEL sin cifras no verificadas.
-
-## Imágenes listas
-
-Tres WebP originales generados con la herramienta integrada image_gen, optimizados e inspeccionados individualmente: portada1200×630, interiores1600×900, todas<250.000bytes. Prompts, originales de generación, alt y pies guardados. No regenerar ni subir duplicados. Las imágenes no son mediciones ni pruebas documentales.
+Originales o extractos locales con páginas y hashes en source-review.json. Tres imágenes originales optimizadas e inspeccionadas en la ejecución anterior; no regeneradas.

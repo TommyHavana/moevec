@@ -1,17 +1,20 @@
-# Preparación · E7.5.01
+# Investigación revisada · E7.5.01
 
-Consulta inicial: 28/10/2026. **No listo para publicar.**
+Consulta: 28/10/2026. Fuentes centrales completadas; sustituye las limitaciones de la preparación inicial.
 
-## Fuentes iniciales y lectura pendiente
+- https://www.oecd.org/content/dam/oecd/en/publications/reports/2008/09/oecd-glossary-of-statistical-terms_g1gh9ad7/9789264055087-en.pdf
+  - Entrada Natural monopoly p351 leída en índice primario. Coste total de abastecer una demanda definida, tecnología y demanda. No lectura íntegra del glosario.
+- https://gamef21.classes.ryansafner.com/readings/Baumol-1982.pdf
+  - Original AER 72(1), marzo 1982, pp1–15, PDF18 páginas descargado. Leídos PDF5–7 y17–18: modelo ideal, libre entrada no gratuita, salida recuperable, restricciones y límites; no lectura completa de demostraciones. Identidad JSTOR1808571 contrastada. El antiguo espejo SFU403 fue sustituido por copia académica accesible.
+- https://scholar.harvard.edu/files/weitzman/files/contestablemarkets.pdf
+  - Comentario original AER73(3), junio1983, pp486–487 leído en texto indexado: objeción sobre costes decrecientes/salida sin costes en modelo particular. No declarar refutación universal.
+- https://www.hacer.org/pdf/Hazlitt00.pdf
+  - Original 1946, portada/copyright y capítulo I pp3–5 leídos (PDF15–17). Se conserva extracto identificado, no se atribuye una teoría específica del monopolio a todo el libro.
 
-- Original de William J. Baumol, «Contestable Markets: An Uprising in the Theory of Industry Structure», American Economic Review 72(1), marzo de 1982, pp. 1–15: https://www.sfu.ca/~wainwrig/Econ400/Baumol-contestableMkts.pdf . Se leyó la primera página indexada: identifica discurso presidencial de 29/12/1981, autor y colaboración con Panzar/Willig. La apertura del PDF devolvió 403. **Falta leer los pasajes teóricos centrales** antes de afirmar las condiciones de disputabilidad, entrada y salida, costes hundidos y sus límites. No confundir metadatos y lectura completa.
-- F-040 del plan es Henry Hazlitt, La economía en una lección (1946). Pendiente localizar y leer pasaje pertinente del original; no atribuir una teoría del monopolio a una referencia genérica sin comprobarla.
-- Preparar distinción entre monopolio natural (estructura de costes para demanda definida), legal y de facto, sin tratarlos como categorías mutuamente excluyentes. La tesis de MEE debe identificarse como evaluación, no resultado universal demostrado.
+## Límites y omisiones
 
-## Próximos pasos
+- La tesis de que el monopolio legal es siempre el más dañino se presenta como preocupación de MEE, no clasificación empírica universal.
+- No prometer precios de competencia perfecta en cualquier monopolio disputable.
+- No presentar tecnología inalámbrica como ausencia de infraestructura o demostración empírica sin país/fecha.
 
-Completar lectura de originales y contraste de límites del modelo. Redactar ejemplo identificado, mejor argumento sobre redes compartidas, lectura MEE, FAQ y enlaces a publicaciones existentes. No presentar gráficos ni afirmaciones empíricas sin fuente.
-
-## Imágenes listas
-
-Tres WebP originales generados con la herramienta integrada image_gen, optimizados e inspeccionados individualmente: portada1200×630, interiores1600×900, todas<250.000bytes. Prompts, originales de generación, alt y pies guardados. No regenerar ni subir duplicados. Las imágenes no son mediciones ni pruebas documentales.
+Originales o extractos locales con páginas y hashes en source-review.json. Tres imágenes originales optimizadas e inspeccionadas en la ejecución anterior; no regeneradas.

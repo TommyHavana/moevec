@@ -117,3 +117,9 @@ Las nueve imágenes de las 55–57 están guardadas, sin texto completo ni publi
 Publicados y verificados dos bloques consecutivos: total 60/840, con 180 imágenes originales. Subsidios y Favoritismo Político completa 15/15. Se mantuvieron categorías, etiquetas y slugs del plan; sin duplicados. Los cambios normativos de 2025 y 2026 y las diferencias entre previsión, dato y pago se documentaron por entrada.
 
 Tanda 5 iniciada con nueve imágenes propias de E7.5.01–E7.5.03, inspeccionadas y guardadas con metadatos y fuentes iniciales. No hay textos completos ni borradores WordPress; las preparaciones siguen incluidas en pendientes. Reanudar lectura original antes de redactar. Respaldos consistentes de 55–57 y 58–60 con hashes y miembros comprobados; sin nueva prueba de restauración completa. La autorización continua sigue vigente; no se modificó infraestructura ni taxonomía.
+
+## Producción 61–63 y continuación 64–66 · 28/10/2026
+
+Publicadas y verificadas 61–63: total 63/840, con 189 imágenes originales. Agrupación explícita en Política y Economía → Monopolios Estatales vs. Competencia, sin duplicados. Se precisaron disputabilidad teórica, cronología comercial costarricense, unidades SUTEL y transición IFT/CRT mexicana. Textos, fuentes con alcances y originales conservados.
+
+Continuación 64–66 con nueve WebP nuevos, revisados y optimizados, y fuentes iniciales. No hay texto final ni publicación de estas tres; faltan comprobaciones centrales documentadas. Respaldo SQL y Medios 61–63 verificado por hashes y miembros, sin nueva restauración completa. Sin cambios de infraestructura, tema o taxonomía. La producción continua autorizada sigue activa.

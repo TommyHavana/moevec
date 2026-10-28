@@ -1,16 +1,16 @@
 # Estado de MEE y continuidad · 28/10/2026
 
-## Estado actual: 60/840 publicadas y verificadas
+## Estado actual: 63/840 publicadas y verificadas
 
-Las entradas 1–60 están publicadas y verificadas, con **180 imágenes originales: 60 terminadas, 0 borradores WordPress y 780 pendientes**. Cuatro tandas completas, 15/15 cada una: Definición Esencial, Capitalismo vs. Socialismo, Corrupción Sistémica y Subsidios y Favoritismo Político.
+Las entradas 1–63 están publicadas y verificadas: **63 terminadas, 189 imágenes originales, 0 borradores WordPress y 777 pendientes**. Primeras cuatro tandas completas 15/15; Monopolios Estatales vs. Competencia inicia con 3/15 en Política y Economía.
 
-El bloque 61–63 inicia la tanda 5, **Monopolios Estatales vs. Competencia**, en Política y Economía. E7.5.01, E7.5.02 y E7.5.03 tienen nueve WebP originales optimizados e inspeccionados, alt, pies y prompts. Fuentes iniciales y límites en research-notes.md por ID; faltan lectura central, textos y revisión. Estas tres preparaciones están incluidas en las 780 pendientes; las otras 777 no se han iniciado. No regenerar recursos ni contarlas como completas.
+Último bloque 61–63: tipos de monopolio, apertura de Costa Rica y reforma mexicana de 2013. Informe `docs/produccion/2026-10-28-bloque-061-063.md`. Fuentes originales y límites, contexto institucional vigente y medidas estadísticas revisados. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces e imágenes comprobados. Una publicación y tres adjuntos únicos por ID; categorías y etiquetas exactas. Blog es contenedor; Editorial es firma, no categoría.
 
-Últimos informes: `docs/produccion/2026-10-28-bloque-055-057.md` y `2026-10-28-bloque-058-060.md`. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces e imágenes comprobados. Una publicación y tres adjuntos únicos por ID, con raíz/subcategoría y etiquetas originales. Blog es contenedor; Editorial es firma, no categoría. Registro MD/CSV/JSON sincronizado desde WordPress tras cada publicación.
+En preparación local: **64–66, E7.5.04–E7.5.06**, sobre controles de precios, Venezuela y ETECSA. Nueve WebP originales optimizados e inspeccionados, alt/pies/prompts y fuentes iniciales guardados. Faltan lecturas centrales, textos y revisión; punto exacto en research-notes.md de cada ID. Estas tres están incluidas en las 777 pendientes; 774 sin iniciar. No regenerar imágenes ni contarlas como completas.
 
-Respaldo posterior a las 60: `/data/mee-backups/produccion-840-incremento-58-60-20261028/`, SQL de 4.986.065 bytes y 66 archivos nuevos de Medios, 4.134.329 bytes comprimidos. También se conserva incremento 55–57. Hashes y miembros comprobados; sin nueva prueba de restauración completa. Cadena en `docs/produccion/2026-10-28-respaldo-058-060.md`. Sin cambios de arquitectura, permisos, tema o taxonomía.
+Respaldo posterior a las 63: `/data/mee-backups/produccion-840-incremento-61-63-20261028/`, SQL de 5.083.245 bytes y 66 archivos nuevos de Medios, 4.438.120 bytes comprimidos. Hashes y miembros comprobados; sin nueva prueba de restauración completa. Cadena en `docs/produccion/2026-10-28-respaldo-061-063.md`. Registros sincronizados después de cada publicación, sin redespliegue ni cambios de arquitectura o taxonomía.
 
-Próximo paso: reanudar las 61–63. Leer Baumol/Hazlitt, norma y estadísticas SUTEL, evaluaciones OCDE y cambio institucional mexicano. No tratar al IFT histórico como regulador vigente ni una curva conceptual como datos reales. El seguimiento automático de este mismo chat continúa activo.
+Próximo paso: reanudar 64–66 con los originales ya localizados; completar ley venezolana/BCV/ENCOVI y marco cubano/salarios/medidas ETECSA antes de redactar. No convertir búsqueda fallida en ausencia de datos ni escenas conceptuales en pruebas. La continuidad automática de este chat sigue activa.
 
 El bloque25–27 incluye encuestaGallup2026 con ficha técnica y margen total no extrapolado a subgrupos, Cuba con gacetas originales de septiembre2026 y DL88concordado, y diez argumentos con fuentes y respuestas respetuosas. No se inventa cuota económica deGAESA. Originales normativos y datos de encuesta conservados en los expedientes.
 
