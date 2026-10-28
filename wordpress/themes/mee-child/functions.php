@@ -15,3 +15,5 @@ function mee_category_nav(){
  if(is_category()){$term=get_queried_object();$parent=$term->parent?$term->parent:$term->term_id;$children=get_categories(['parent'=>$parent,'hide_empty'=>false]);if($children){echo '<nav class="mee-topicnav" aria-label="Temas de esta área">';foreach($children as$child)echo '<a href="'.esc_url(get_category_link($child)).'"'.(is_category($child->term_id)?' aria-current="page"':'').'>'.esc_html($child->name).'</a>';echo '</nav>';}}
 }
 function mee_article_term(){foreach(get_the_category()as$term)if($term->parent)return $term;return null;}
+
+add_action('wp_enqueue_scripts',function(){foreach(['hello-elementor','hello-elementor-theme-style','hello-elementor-header-footer'] as $handle)wp_dequeue_style($handle);},20);
