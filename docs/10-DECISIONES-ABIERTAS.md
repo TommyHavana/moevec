@@ -111,3 +111,9 @@ Bloques 37–42 publicados y verificados, con 18 imágenes nuevas. Se mantuvo el
 Se publicaron y verificaron dos bloques consecutivos, según la autorización de producción continua. Total: 54/840 y 162 imágenes; Subsidios y Favoritismo Político, 9/15. Categoría raíz y subcategoría explícitas, etiquetas del brief y tres adjuntos por ID comprobados. Blog es contenedor; Editorial es firma.
 
 Las nueve imágenes de las 55–57 están guardadas, sin texto completo ni publicación. Reanudar investigación original, especialmente Graham/OSC, INDEC y multas a consultoras, y catálogo estadístico de la ONEI. El brief orienta la investigación y no demuestra sus afirmaciones. Copias SQL y Medios tras las 51 y 54 verificadas mediante hashes y miembros de archivo; sin nueva restauración completa. Sin cambios de DNS, correo, autenticación, tema o taxonomía.
+
+## Producción 55–60 y continuación 61–63 · 28/10/2026
+
+Publicados y verificados dos bloques consecutivos: total 60/840, con 180 imágenes originales. Subsidios y Favoritismo Político completa 15/15. Se mantuvieron categorías, etiquetas y slugs del plan; sin duplicados. Los cambios normativos de 2025 y 2026 y las diferencias entre previsión, dato y pago se documentaron por entrada.
+
+Tanda 5 iniciada con nueve imágenes propias de E7.5.01–E7.5.03, inspeccionadas y guardadas con metadatos y fuentes iniciales. No hay textos completos ni borradores WordPress; las preparaciones siguen incluidas en pendientes. Reanudar lectura original antes de redactar. Respaldos consistentes de 55–57 y 58–60 con hashes y miembros comprobados; sin nueva prueba de restauración completa. La autorización continua sigue vigente; no se modificó infraestructura ni taxonomía.

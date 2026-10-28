@@ -1,6 +1,6 @@
 # Backlog de MEE
 
-Último estado: **54/840 publicadas, verificadas y agrupadas**, con **162 imágenes propias**. Primeras tres tandas 15/15; Subsidios y Favoritismo Político 9/15. **0 borradores WordPress, 786 pendientes**. Bloque 55–57: nueve imágenes listas e inspeccionadas, metadatos y fuentes iniciales; faltan lectura central, textos y revisión. Las tres preparaciones locales están incluidas en pendientes; 783 sin iniciar. Punto exacto en `editorial/production-state.json`. Jerarquía Blog → área → subcategoría; nodos del manifiesto conservados. Informes 049–051 y 052–054 y respaldo SQL/Medios posterior a las 54 guardados.
+Último estado: **60/840 publicadas, verificadas y agrupadas**, con **180 imágenes propias**. Primeras cuatro tandas 15/15. **0 borradores WordPress, 780 pendientes**: 61–63 en preparación local con nueve imágenes listas, alt/pies y notas iniciales; faltan lecturas, textos y revisión. 777 sin iniciar. Tanda 5: Política y Economía → Monopolios Estatales vs. Competencia. Punto exacto en `editorial/production-state.json`; informes 055–057 y 058–060 y respaldo SQL/Medios tras las 60 verificados. Blog es contenedor y Editorial es firma; raíz, subcategoría y etiquetas del plan conservadas.
 
 
 Producción comprobada tras el bloque 4–6: 6/840 terminadas. En elaboración local: 7–9 con nueve imágenes propias; todavía no cuentan como publicadas. Consultar siempre WordPress y el registro 24 para el estado más reciente.

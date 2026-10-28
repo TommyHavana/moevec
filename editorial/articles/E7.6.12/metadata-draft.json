@@ -12,9 +12,9 @@
     "desinformacion-estatal-y-control-narrativo",
     "pais-cuba"
   ],
-  "status": "LOCAL_PREPARATION_NOT_PUBLISHED",
+  "status": "PUBLISHED_VERIFIED",
   "images_reviewed": true,
-  "text_review_complete": false,
+  "text_review_complete": true,
   "images": {
     "featured": {
       "file": "e7-6-12-cuba-datos-oficiales-destacada.webp",
@@ -34,5 +34,54 @@
       "alt": "Una lupa atraviesa tres hojas con celdas vacías, puntos rojos y columnas azules sin cifras.",
       "caption": "Ilustración conceptual sin datos medidos; no reproduce series de la ONEI o CEPAL."
     }
-  }
+  },
+  "seo_title": "Cuba: datos oficiales, vacíos y contraste de fuentes | MEE",
+  "description": "Cómo leer los datos oficiales de Cuba: publicaciones de la ONEI, cobertura, año base, vacíos documentados y contraste con CEPAL y estudios académicos.",
+  "keyword": "Cuba datos oficiales",
+  "standfirst": "Una cifra sirve mejor cuando se conoce qué mide, cuándo se publicó y cómo contrastarla.",
+  "review": {
+    "sources_verified": true,
+    "editorial_checked": true,
+    "checked_on": "2026-10-28",
+    "original_images": true,
+    "images_visually_checked": true,
+    "illustrative_examples": true,
+    "sources": [
+      {
+        "url": "http://onei.gob.cu/sites/default/files/publicaciones/2026-10/13-transporte-y-seguridad-vial_aec2025.pdf",
+        "scope": "PDF primario15p descargado porHTTP desde URL publicada porONEI. Leídas visualmente PDFp4(introducción/cobertura) yp8(tablas13.1/13.2,p7impresa):880.9 y781.1millones pasajeros en2024/2025,empresasespecializadas,viajes no personasúnicas; fuenteONEI/MITRANS según tabla,navieras cubanas y exclusiones aclaradas. HTTPS certificado caducado, no desactivar TLS; descarga públicaHTTP sin credenciales. Copia íntegra y extracción defectuosa por fuenteCMap: se revisó render, no deducir de texto corrupto."
+      },
+      {
+        "url": "https://t.me/CubaONEI/1561",
+        "scope": "Canal institucional enlazawebONEI y PDFdelcapítulo; post1561 confecha19oct2026 leído del HTML público, data-post ydatetime comprobados. Se usa como fecha constatada de difusión, no fecha de primera publicación delPDF o prueba de incumplir calendario."
+      },
+      {
+        "url": "https://t.me/CubaONEI/1578",
+        "scope": "Texto primario del canal, post1578 datetime26oct2026, leído completo y conservado conreferencia. Declara precios1997/SCN1993 y trabajo haciaSCN2008. No afirmar ya implementado ni que actualización metodológica signifique por sí sola fraude. URLwebtoolnoaccesible, contenido obtenido dehttps://t.me/s/CubaONEI porurllib."
+      },
+      {
+        "url": "https://thecubaneconomy.com/wp-content/uploads/2020/09/Foro-Cubano-Indicadores.pdf",
+        "scope": "Artículo original en reproducción de revista57p consultado medianteweb. Leídos pp6–10intro/salario/desigualdad yp17sobrepobreza cuando pertinente. Se conserva nota de lectura, no copiaPDF íntegra no descargable403. AusenciaGini atribuida explícitamente a estudio2020, no afirmación exhaustiva de situación2026; datos2018noactuales. No usar errata inferencialIPC/salario de reproducción."
+      },
+      {
+        "url": "https://repositorio.cepal.org/server/api/core/bitstreams/cc6082da-1651-4123-b7ac-6181cc2d8b78/content",
+        "scope": "Pasaje primario indexado leído:proyección contracción1.5%en2025 ydato2024–1.1%. No PDFcompleto descargado403; se usa solo ejemplo fechado de previsión, no resultado2025definitivo. No atribuir a todas sus cifras independencia respecto deONEI."
+      },
+      {
+        "url": "https://www.cepal.org/es/publicaciones/90285-evolucion-macroeconomica-cuba-2025-perspectivas-2026",
+        "scope": "Ficha y resumen primarios consultados en buscador:LC/MEX/TS.2026/15,17p,1sep2026. Publicación más reciente localizada; no acceso aPDF ni cifras actuales del cuerpo, no usar valores de2025forecastcomo latestactuals. Sirve de referencia para consultar actualización; alcance explícito."
+      },
+      {
+        "url": "https://rsf.org/en/country/cuba",
+        "scope": "Perfil primario2026 leído secciónMedia landscape/Politicalcontext ylegal/safety. Solo contexto atribuido de restricciones al periodismo independiente; no usar clasificación como auditoría de cada serieeconómica ni prueba causal de todos los vacíos."
+      }
+    ],
+    "omitted_claims": [
+      "No declarar que toda la estadística cubana es falsa ni inventar cuotaGAESA o cifra actual de pobreza.",
+      "No convertir desfase entre referencia y edición en incumplimiento: no se verificó calendario prometido.",
+      "Gini ausente en estudio2020 no demuestra búsqueda exhaustiva en2026.",
+      "Una previsión de2025 no es resultado definitivo; la fichaCEPAL2026 no implica lectura de su informe completo."
+    ]
+  },
+  "publication_verified": true
 }

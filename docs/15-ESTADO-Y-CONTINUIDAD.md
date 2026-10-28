@@ -1,15 +1,16 @@
 # Estado de MEE y continuidad · 28/10/2026
 
-## Estado actual: 54/840 publicadas y verificadas
+## Estado actual: 60/840 publicadas y verificadas
 
-Las entradas 1–54 están publicadas y verificadas, con 162 imágenes originales: **54 terminadas, 0 borradores WordPress y 786 pendientes**. Definición Esencial 15/15, Capitalismo vs. Socialismo 15/15, Corrupción Sistémica 15/15 y Subsidios y Favoritismo Político 9/15.
+Las entradas 1–60 están publicadas y verificadas, con **180 imágenes originales: 60 terminadas, 0 borradores WordPress y 780 pendientes**. Cuatro tandas completas, 15/15 cada una: Definición Esencial, Capitalismo vs. Socialismo, Corrupción Sistémica y Subsidios y Favoritismo Político.
 
-Las 55–57 están en preparación local: nueve WebP originales optimizados e inspeccionados, alt, pies, prompts y fuentes iniciales guardados. Faltan lectura central, textos y revisión; no contarlas como completas. Son 3 de las 786 pendientes; las otras 783 aún no se han iniciado. Reanudar E7.6.10, E7.6.11 y E7.6.12 sin regenerar imágenes. Un fallo de acceso a la ONEI desde una herramienta no demuestra que falten estadísticas.
+El bloque 61–63 inicia la tanda 5, **Monopolios Estatales vs. Competencia**, en Política y Economía. E7.5.01, E7.5.02 y E7.5.03 tienen nueve WebP originales optimizados e inspeccionados, alt, pies y prompts. Fuentes iniciales y límites en research-notes.md por ID; faltan lectura central, textos y revisión. Estas tres preparaciones están incluidas en las 780 pendientes; las otras 777 no se han iniciado. No regenerar recursos ni contarlas como completas.
 
-Últimos informes: `docs/produccion/2026-10-28-bloque-049-051.md` y `2026-10-28-bloque-052-054.md`. Comprobados jerarquía, etiquetas, tres adjuntos únicos por artículo, SEO técnico público, sitemap, enlaces e imágenes. Blog es el contenedor; Editorial es firma, no categoría añadida. Registro MD/CSV/JSON sincronizado desde WordPress después de cada publicación.
+Últimos informes: `docs/produccion/2026-10-28-bloque-055-057.md` y `2026-10-28-bloque-058-060.md`. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces e imágenes comprobados. Una publicación y tres adjuntos únicos por ID, con raíz/subcategoría y etiquetas originales. Blog es contenedor; Editorial es firma, no categoría. Registro MD/CSV/JSON sincronizado desde WordPress tras cada publicación.
 
-Respaldo consistente posterior a las 54: `/data/mee-backups/produccion-840-incremento-52-54-20261028/`, SQL de 4.784.525 bytes y 66 archivos de Medios nuevos con variantes, 4.243.316 bytes comprimidos. También se conserva el incremento 49–51. Hashes y miembros comprobados; sin nueva prueba de restauración completa. Cadena en `docs/produccion/2026-10-28-respaldo-052-054.md` y en el VPS. Sin cambios de arquitectura o permisos.
+Respaldo posterior a las 60: `/data/mee-backups/produccion-840-incremento-58-60-20261028/`, SQL de 4.986.065 bytes y 66 archivos nuevos de Medios, 4.134.329 bytes comprimidos. También se conserva incremento 55–57. Hashes y miembros comprobados; sin nueva prueba de restauración completa. Cadena en `docs/produccion/2026-10-28-respaldo-058-060.md`. Sin cambios de arquitectura, permisos, tema o taxonomía.
 
+Próximo paso: reanudar las 61–63. Leer Baumol/Hazlitt, norma y estadísticas SUTEL, evaluaciones OCDE y cambio institucional mexicano. No tratar al IFT histórico como regulador vigente ni una curva conceptual como datos reales. El seguimiento automático de este mismo chat continúa activo.
 
 El bloque25–27 incluye encuestaGallup2026 con ficha técnica y margen total no extrapolado a subgrupos, Cuba con gacetas originales de septiembre2026 y DL88concordado, y diez argumentos con fuentes y respuestas respetuosas. No se inventa cuota económica deGAESA. Originales normativos y datos de encuesta conservados en los expedientes.
 

@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-28T17:13:43+00:00.
+Comprobado en WordPress: 2026-10-28T18:03:24+00:00.
 
-**54/840 terminadas · 0 en curso · 786 pendientes.**
+**60/840 terminadas · 0 en curso · 780 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -66,12 +66,12 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 52 | 4/56 · 7/15 | E7.6.07 | Publicidad institucional: el subsidio invisible a los medios | terminada | 3/3 | [Leer](https://moevec.org/blog/publicidad-institucional/) |
 | 53 | 4/56 · 8/15 | E7.6.08 | Libertad académica: quién decide qué se enseña | terminada | 3/3 | [Leer](https://moevec.org/blog/libertad-academica-financiacion-publica/) |
 | 54 | 4/56 · 9/15 | E7.6.09 | Financiación de ONG: transparencia sin persecución | terminada | 3/3 | [Leer](https://moevec.org/blog/financiacion-ong-transparencia/) |
-| 55 | 4/56 · 10/15 | E7.6.10 | Ciencia y poder: de Lysenko a la crisis de replicación | pendiente | 0/3 | — |
-| 56 | 4/56 · 11/15 | E7.6.11 | Argentina e INDEC: cuando el Estado manipuló sus estadísticas | pendiente | 0/3 | — |
-| 57 | 4/56 · 12/15 | E7.6.12 | Cuba: datos oficiales y control de la información económica | pendiente | 0/3 | — |
-| 58 | 4/56 · 13/15 | E7.6.13 | Ayudas de Estado en la UE: cómo se controla el favoritismo | pendiente | 0/3 | — |
-| 59 | 4/56 · 14/15 | E7.6.14 | Subsidios a industrias verdes: el debate tras la Ley de Reducción de la Inflación | pendiente | 0/3 | — |
-| 60 | 4/56 · 15/15 | E7.6.15 | Cómo averiguar quién recibe subvenciones públicas | pendiente | 0/3 | — |
+| 55 | 4/56 · 10/15 | E7.6.10 | Ciencia y poder: de Lysenko a la crisis de replicación | terminada | 3/3 | [Leer](https://moevec.org/blog/ciencia-y-poder-lysenko/) |
+| 56 | 4/56 · 11/15 | E7.6.11 | Argentina e INDEC: cuando el Estado manipuló sus estadísticas | terminada | 3/3 | [Leer](https://moevec.org/blog/argentina-indec-manipulacion/) |
+| 57 | 4/56 · 12/15 | E7.6.12 | Cuba: datos oficiales y control de la información económica | terminada | 3/3 | [Leer](https://moevec.org/blog/cuba-datos-oficiales/) |
+| 58 | 4/56 · 13/15 | E7.6.13 | Ayudas de Estado en la UE: cómo se controla el favoritismo | terminada | 3/3 | [Leer](https://moevec.org/blog/ayudas-de-estado-ue/) |
+| 59 | 4/56 · 14/15 | E7.6.14 | Subsidios a industrias verdes: el debate tras la Ley de Reducción de la Inflación | terminada | 3/3 | [Leer](https://moevec.org/blog/subsidios-industrias-verdes-ira/) |
+| 60 | 4/56 · 15/15 | E7.6.15 | Cómo averiguar quién recibe subvenciones públicas | terminada | 3/3 | [Leer](https://moevec.org/blog/averiguar-quien-recibe-subvenciones/) |
 | 61 | 5/56 · 1/15 | E7.5.01 | Monopolio natural, legal y de facto: no es lo mismo | pendiente | 0/3 | — |
 | 62 | 5/56 · 2/15 | E7.5.02 | Costa Rica: la apertura de las telecomunicaciones | pendiente | 0/3 | — |
 | 63 | 5/56 · 3/15 | E7.5.03 | México: la reforma de telecomunicaciones de 2013 | pendiente | 0/3 | — |

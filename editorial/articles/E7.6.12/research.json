@@ -10,35 +10,51 @@
   "topic": "subsidios-y-favoritismo-politico",
   "area": "politica-y-economia",
   "number": 57,
-  "phase": "images_ready_research_in_progress",
+  "phase": "published_verified",
   "images_complete": true,
-  "article_complete": false,
-  "claims_checked": false,
+  "article_complete": true,
+  "claims_checked": true,
   "pending": [
-    "Acceder catálogo/PDFoficialesONEI,seleccionar2–3series con fechaesperada/efectiva, cobertura y notas.",
-    "Comprobar vacíos concretos con tablas; no usar fallo de acceso como prueba de ausencia o manipulación.",
-    "Buscar CEPAL y trabajo originalMesa-Lago con edición/pasaje, distinguir estimación de dato oficial y dependencia de fuentes; contrastar recursos y causas alternativas.",
-    "Verificar F-107 pertinente a acceso informativo, redactar y revisar texto completo."
+    "Revisión final, publicación y verificación pública."
   ],
-  "updated_at": "2026-10-28T17:21:28.782659+00:00",
+  "updated_at": "2026-10-28T17:43:40.715390+00:00",
   "images_visually_checked": true,
-  "article_text_complete": false,
+  "article_text_complete": true,
   "sources": [
     {
-      "url": "https://onei.gob.cu/",
-      "scope": "Fuente primaria central intentada conweb:502. Un fallo de acceso de herramienta no demuestra ausencia de datos o manipulación. Pendiente consultar catálogo vigente,fecha/cobertura/metodología de cada tabla."
-    },
-    {
-      "url": "https://t.me/s/CubaONEI",
-      "scope": "Canal que se identifica comoONEI,enlazaweboficial yredes; publicaciones primarias indexadas consultadas28oct2026. Anuncia capítulosAEC2025enago/sept2026ytransporteoct2026; pendiente validar fechas/posts ydescargarPDFoficial. No afirmaranuario2025ausente íntegramente."
-    },
-    {
       "url": "http://onei.gob.cu/sites/default/files/publicaciones/2026-10/13-transporte-y-seguridad-vial_aec2025.pdf",
-      "scope": "PDFoficialenlazadoporelcanalONEI localizado; aúnnoabierto, noatribuircifrasconcreteas. Mantenerenlaceexactosinadivinarotroscapítulos."
+      "title": "ONEI: Anuario Estadístico de Cuba 2025, capítulo 13, edición 2026",
+      "scope": "PDF primario15p descargado porHTTP desde URL publicada porONEI. Leídas visualmente PDFp4(introducción/cobertura) yp8(tablas13.1/13.2,p7impresa):880.9 y781.1millones pasajeros en2024/2025,empresasespecializadas,viajes no personasúnicas; fuenteONEI/MITRANS según tabla,navieras cubanas y exclusiones aclaradas. HTTPS certificado caducado, no desactivar TLS; descarga públicaHTTP sin credenciales. Copia íntegra y extracción defectuosa por fuenteCMap: se revisó render, no deducir de texto corrupto."
     },
     {
-      "url": "https://statistics.cepal.org/",
-      "scope": "PortalprimarioCEPALSTAT consultado:vistasdemográficas/económicas,Anuario2025,enlacesmetadatosAPI. Pendiente serieCuba específica,unidad,fechaactualización yfuente original;no tratar valorCEPALcomomediciónindependientecuandousaONEI."
+      "url": "https://t.me/CubaONEI/1561",
+      "title": "ONEI: publicación del 19 de octubre de 2026 sobre el capítulo de transporte de 2025",
+      "scope": "Canal institucional enlazawebONEI y PDFdelcapítulo; post1561 confecha19oct2026 leído del HTML público, data-post ydatetime comprobados. Se usa como fecha constatada de difusión, no fecha de primera publicación delPDF o prueba de incumplir calendario."
+    },
+    {
+      "url": "https://t.me/CubaONEI/1578",
+      "title": "ONEI: explicación del cambio de año base, 26 de octubre de 2026",
+      "scope": "Texto primario del canal, post1578 datetime26oct2026, leído completo y conservado conreferencia. Declara precios1997/SCN1993 y trabajo haciaSCN2008. No afirmar ya implementado ni que actualización metodológica signifique por sí sola fraude. URLwebtoolnoaccesible, contenido obtenido dehttps://t.me/s/CubaONEI porurllib."
+    },
+    {
+      "url": "https://thecubaneconomy.com/wp-content/uploads/2020/09/Foro-Cubano-Indicadores.pdf",
+      "title": "Carmelo Mesa-Lago: Los indicadores sociales en Cuba socialista, Foro Cubano 21 (2020)",
+      "scope": "Artículo original en reproducción de revista57p consultado medianteweb. Leídos pp6–10intro/salario/desigualdad yp17sobrepobreza cuando pertinente. Se conserva nota de lectura, no copiaPDF íntegra no descargable403. AusenciaGini atribuida explícitamente a estudio2020, no afirmación exhaustiva de situación2026; datos2018noactuales. No usar errata inferencialIPC/salario de reproducción."
+    },
+    {
+      "url": "https://repositorio.cepal.org/server/api/core/bitstreams/cc6082da-1651-4123-b7ac-6181cc2d8b78/content",
+      "title": "CEPAL: Balance preliminar de las economías de América Latina y el Caribe 2025, nota de Cuba",
+      "scope": "Pasaje primario indexado leído:proyección contracción1.5%en2025 ydato2024–1.1%. No PDFcompleto descargado403; se usa solo ejemplo fechado de previsión, no resultado2025definitivo. No atribuir a todas sus cifras independencia respecto deONEI."
+    },
+    {
+      "url": "https://www.cepal.org/es/publicaciones/90285-evolucion-macroeconomica-cuba-2025-perspectivas-2026",
+      "title": "CEPAL: Evolución macroeconómica de Cuba en 2025 y perspectivas para 2026, Indira Romero, septiembre de 2026",
+      "scope": "Ficha y resumen primarios consultados en buscador:LC/MEX/TS.2026/15,17p,1sep2026. Publicación más reciente localizada; no acceso aPDF ni cifras actuales del cuerpo, no usar valores de2025forecastcomo latestactuals. Sirve de referencia para consultar actualización; alcance explícito."
+    },
+    {
+      "url": "https://rsf.org/en/country/cuba",
+      "title": "Reporteros Sin Fronteras: perfil de Cuba, edición 2026",
+      "scope": "Perfil primario2026 leído secciónMedia landscape/Politicalcontext ylegal/safety. Solo contexto atribuido de restricciones al periodismo independiente; no usar clasificación como auditoría de cada serieeconómica ni prueba causal de todos los vacíos."
     }
   ]
 }
