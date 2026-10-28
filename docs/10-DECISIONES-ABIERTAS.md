@@ -82,3 +82,15 @@ Blog es el contenedor general, no una categoria adicional. El inventario coincid
 ## Continuidad editorial ·27/840 ·28/10/2026
 
 Bloques22–27 publicados y verificados sin cambiar categorías ni tema. Se mantiene la jerarquía del plan y se añade la etiqueta pais-cuba prevista paraE5.3.11. Los datos históricos y jurídicos conservan fecha y versión: Gallup2026, Cuba con gacetas de septiembre2026 y DL88concordado. No atribuir cuotas económicas deGAESA sin cuentas y perímetro verificables. Bloque28–30 en investigación local con nueve imágenes listas; no contarlo como completo. Respaldo completo tras27 entradas documentado en docs/produccion/2026-10-28-respaldo-veintisiete-entradas.md.
+
+## Continuidad editorial ·30/840 ·28/10/2026
+
+Bloque28–30 publicado y verificado. Capitalismo vs. Socialismo alcanza15/15. La tesis de Niemietz se atribuye y contrasta con una crítica contemporánea de1936. La pobreza histórica conserva método CBN y las líneas actuales del Banco Mundial su PPA2021; las correlaciones no se presentan como causalidad. Heritage2026 se identifica con sus fechas de observación, sin convertir índices económicos en juicios democráticos. Siguiente31–33: Política y Economía → Corrupción Sistémica.
+
+## Continuidad editorial ·33/840 ·28/10/2026
+
+Bloque31–33 publicado y comprobado en Política y Economía → Corrupción Sistémica, con etiquetas de tema/nivel y las específicas de los briefs. La fórmula de Klitgaard se trata como heurística. WGI2026 absoluta0–100 no se confunde con percentil; ENCIG2025 mantiene población urbana18+ y denominadores distintos. Odebrecht se limita al acuerdo corporativo2016 y contextualiza el superlativo del título; no se infieren condenas individuales ni sanciones cobradas. Se corrigieron tres enlaces internos antes de cerrar la verificación.
+
+## Continuidad editorial ·36/840 ·28/10/2026
+
+Bloque34–36publicado y verificado. LavaJato distingue fondos históricos MPF2017/panelSTF2025sin sumarlos y procesos de competencia/imparcialidad2021con alcance delimitado. Enriquecimiento ilícito diferencia InteramericanaIX/UNCAC20, artículo224mexicano y438bisespañol. Nepotismo utiliza2011como workingpaperhistórico y apellidos como indicador indirecto; selecciónabierta se propone sin efecto cuantificado inventado. Las normas españolas conservan ámbitos propios. Próximo37–39en preparación local, sin contar como completado.

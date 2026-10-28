@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-28T13:53:21+00:00.
+Comprobado en WordPress: 2026-10-28T15:08:26+00:00.
 
-**27/840 terminadas · 0 en curso · 813 pendientes.**
+**36/840 terminadas · 0 en curso · 804 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -39,15 +39,15 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 25 | 2/56 · 10/15 | E5.3.10 | Por qué el socialismo sigue atrayendo: psicología de una idea | terminada | 3/3 | [Leer](https://moevec.org/blog/por-que-atrae-el-socialismo/) |
 | 26 | 2/56 · 11/15 | E5.3.11 | Cuba hoy: ¿socialismo, capitalismo de Estado o economía mixta? | terminada | 3/3 | [Leer](https://moevec.org/blog/cuba-hoy-que-sistema/) |
 | 27 | 2/56 · 12/15 | E5.3.12 | Debatir con un socialista: diez argumentos y diez respuestas | terminada | 3/3 | [Leer](https://moevec.org/blog/debatir-con-un-socialista/) |
-| 28 | 2/56 · 13/15 | E5.3.13 | «Eso no era verdadero socialismo»: análisis de un argumento | pendiente | 0/3 | — |
-| 29 | 2/56 · 14/15 | E5.3.14 | Capitalismo y pobreza: lo que muestran 200 años de datos | pendiente | 0/3 | — |
-| 30 | 2/56 · 15/15 | E5.3.15 | Mapa de sistemas económicos del mundo hoy | pendiente | 0/3 | — |
-| 31 | 3/56 · 1/15 | E7.10.01 | La fórmula de la corrupción: monopolio más discrecionalidad menos rendición de cuentas | pendiente | 0/3 | — |
-| 32 | 3/56 · 2/15 | E7.10.02 | Cómo se mide la corrupción | pendiente | 0/3 | — |
-| 33 | 3/56 · 3/15 | E7.10.03 | Odebrecht: el mayor caso de sobornos documentado de América Latina | pendiente | 0/3 | — |
-| 34 | 3/56 · 4/15 | E7.10.04 | Lava Jato: logros, excesos y anulaciones | pendiente | 0/3 | — |
-| 35 | 3/56 · 5/15 | E7.10.05 | Enriquecimiento ilícito: qué dicen las convenciones internacionales | pendiente | 0/3 | — |
-| 36 | 3/56 · 6/15 | E7.10.06 | Nepotismo: evidencia y remedios | pendiente | 0/3 | — |
+| 28 | 2/56 · 13/15 | E5.3.13 | «Eso no era verdadero socialismo»: análisis de un argumento | terminada | 3/3 | [Leer](https://moevec.org/blog/no-era-verdadero-socialismo/) |
+| 29 | 2/56 · 14/15 | E5.3.14 | Capitalismo y pobreza: lo que muestran 200 años de datos | terminada | 3/3 | [Leer](https://moevec.org/blog/capitalismo-y-pobreza-datos/) |
+| 30 | 2/56 · 15/15 | E5.3.15 | Mapa de sistemas económicos del mundo hoy | terminada | 3/3 | [Leer](https://moevec.org/blog/mapa-de-sistemas-economicos/) |
+| 31 | 3/56 · 1/15 | E7.10.01 | La fórmula de la corrupción: monopolio más discrecionalidad menos rendición de cuentas | terminada | 3/3 | [Leer](https://moevec.org/blog/formula-de-la-corrupcion/) |
+| 32 | 3/56 · 2/15 | E7.10.02 | Cómo se mide la corrupción | terminada | 3/3 | [Leer](https://moevec.org/blog/como-se-mide-la-corrupcion/) |
+| 33 | 3/56 · 3/15 | E7.10.03 | Odebrecht: el mayor caso de sobornos documentado de América Latina | terminada | 3/3 | [Leer](https://moevec.org/blog/odebrecht-caso/) |
+| 34 | 3/56 · 4/15 | E7.10.04 | Lava Jato: logros, excesos y anulaciones | terminada | 3/3 | [Leer](https://moevec.org/blog/lava-jato-logros-anulaciones/) |
+| 35 | 3/56 · 5/15 | E7.10.05 | Enriquecimiento ilícito: qué dicen las convenciones internacionales | terminada | 3/3 | [Leer](https://moevec.org/blog/enriquecimiento-ilicito-convenciones/) |
+| 36 | 3/56 · 6/15 | E7.10.06 | Nepotismo: evidencia y remedios | terminada | 3/3 | [Leer](https://moevec.org/blog/nepotismo-evidencia/) |
 | 37 | 3/56 · 7/15 | E7.10.07 | Sobornos cotidianos: lo que dicen las encuestas | pendiente | 0/3 | — |
 | 38 | 3/56 · 8/15 | E7.10.08 | La CICIG en Guatemala: auge y cierre | pendiente | 0/3 | — |
 | 39 | 3/56 · 9/15 | E7.10.09 | Independencia judicial: cómo se mide y qué la amenaza | pendiente | 0/3 | — |

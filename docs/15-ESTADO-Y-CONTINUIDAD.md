@@ -1,8 +1,8 @@
 # Estado de MEE y continuidad · 28/10/2026
 
-## Estado actual: 27/840 publicadas y verificadas
+## Estado actual: 36/840 publicadas y verificadas
 
-Los bloques1–27 están publicados y verificados, con tres imágenes originales por artículo. WordPress confirma27 terminadas,0 borradores en curso y813 pendientes. Definición Esencial15/15; Capitalismo vs.Socialismo12/15. Bloque28–30 en preparación local: nueve imágenes originales optimizadas e inspeccionadas y fuentes en investigación; no cuenta como terminado. Las81 imágenes públicas son propias y diferentes porSHA256. Entregas recientes: docs/produccion/2026-10-28-bloque-022-024.md y2026-10-28-bloque-025-027.md.
+Las entradas1–36 están publicadas y verificadas, con108imágenes originales:36terminadas,0borradoresWordPress y804pendientes. Definición Esencial15/15, Capitalismo vs. Socialismo15/15 y Corrupción Sistémica6/15. Bloque37–39 en preparación local: nueve imágenes originales optimizadas e inspeccionadas, fuentes iniciales y comprobaciones pendientes guardadas; textos aún pendientes. Informes recientes: docs/produccion/2026-10-28-bloque-028-030.md,2026-10-28-bloque-031-033.md y2026-10-28-bloque-034-036.md.
 
 El bloque25–27 incluye encuestaGallup2026 con ficha técnica y margen total no extrapolado a subgrupos, Cuba con gacetas originales de septiembre2026 y DL88concordado, y diez argumentos con fuentes y respuestas respetuosas. No se inventa cuota económica deGAESA. Originales normativos y datos de encuesta conservados en los expedientes.
 

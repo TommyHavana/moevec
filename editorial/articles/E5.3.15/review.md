@@ -1,9 +1,19 @@
-# Preparación · E5.3.15
+# Revisión editorial · E5.3.15
 
-Tres imágenes originales generadas conimage_gen, optimizadas aWebP e inspeccionadas individualmente el28/10/2026. Portada1200×630 y dos interiores1600×900, todas<250KB. Prompts y procedencia conservados.
+Revisado el28/10/2026. Fuentes comprobadas en el alcance dearticle.json; no significa lectura íntegra de libros ni de trabajos consultados por extractos. Imágenes originales optimizadas e inspeccionadas.
 
-El texto completo y las fuentes centrales aún están pendientes. No publicar ni contar como terminada. Reanudar estas fuentes sin regenerar imágenes.
+## Controles
 
-- Usar edición2026/datos2024;2025/datos2023 solo si se identifica como histórica.
-- Leer metodología y datos homogéneos antes de calcular subidas/bajadas. Heritage yFraser tienen escalas/componentes distintos.
-- El mapa decorativo no codifica países ni puntuaciones; termómetro/flechas no son datos.
+- ID, título y slug exactos del plan.
+- Respuesta inicial, argumento contrario, lecturaMEE, ejemplo identificado, FAQ y fuentes.
+- TresWebPpropios,alt,portada1200×630 y dos interiores1600×900,<250KB.
+- Enlaces internos a páginas existentes.
+- Publicación y verificación pública completadas: HTTP200, H1, canonical, indexabilidad, Article, índice e imágenes; jerarquía y ausencia de duplicados comprobadas.
+
+## Límites
+
+- No se identifica porcentaje delibertad conpuntuación, niindíceeconómico condemocracia.
+- No se comparan puntos o puestos entreFraser/Heritagecomosihubieramétodo común.
+- No se atribuye cambio de nota a reforma concreta, gobernante o bienestar.
+- No se presentan portada/termómetro/flechas como visualizacionesdedatos.
+- No se usan2025como2026 ni reformasposteriores como ya medidas.

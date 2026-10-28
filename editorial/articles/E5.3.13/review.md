@@ -1,9 +1,18 @@
-# Preparación · E5.3.13
+# Revisión editorial · E5.3.13
 
-Tres imágenes originales generadas conimage_gen, optimizadas aWebP e inspeccionadas individualmente el28/10/2026. Portada1200×630 y dos interiores1600×900, todas<250KB. Prompts y procedencia conservados.
+Revisado el28/10/2026. Fuentes comprobadas en el alcance dearticle.json; no significa lectura íntegra de libros ni de trabajos consultados por extractos. Imágenes originales optimizadas e inspeccionadas.
 
-El texto completo y las fuentes centrales aún están pendientes. No publicar ni contar como terminada. Reanudar estas fuentes sin regenerar imágenes.
+## Controles
 
-- Revisar pasaje primario deFlew sin atribuirle ejemplo secundario como lectura original.
-- Verificar casosURSS,Cuba,Venezuela y distinguir autodenominación de resultados o definición analítica.
-- No convertir tesis universal del brief en hecho: una definición consistente puede excluir legítimamente un caso.
+- ID, título y slug exactos del plan.
+- Respuesta inicial, argumento contrario, lecturaMEE, ejemplo identificado, FAQ y fuentes.
+- TresWebPpropios,alt,portada1200×630 y dos interiores1600×900,<250KB.
+- Enlaces internos a páginas existentes.
+- Publicación y verificación pública completadas: HTTP200, H1, canonical, indexabilidad, Article, índice e imágenes; jerarquía y ausencia de duplicados comprobadas.
+
+## Límites
+
+- No se universaliza la tesis del brief de que toda crítica sea retrospectiva.
+- No se atribuye cambio de postura a cualquier socialista actual.
+- No se confunden autodenominación, ideal, instituciones y resultados.
+- No se atribuye lectura del pasaje original completo deFlew; alcance bibliográfico declarado.
