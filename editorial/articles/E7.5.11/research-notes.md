@@ -1,3 +1,9 @@
+# Cierre · E7.5.11
+
+Publicada y verificada el28/10/2026. Los pendientes de preparación que siguen son históricos; el alcance final de las fuentes y las afirmaciones retiradas están en source-review.json y artículo revisado. No se declara lectura íntegra de fuentes inaccesibles. HTTP200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces y tres imágenes comprobados. Organización exacta y sin duplicados.
+
+## Preparación histórica
+
 # Preparación · E7.5.11
 
 Consulta: 28/10/2026. **Investigación en curso; no listo para publicar.**

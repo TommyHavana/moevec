@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-28T19:29:01+00:00.
+Comprobado en WordPress: 2026-10-28T19:54:09+00:00.
 
-**69/840 terminadas · 0 en curso · 771 pendientes.**
+**72/840 terminadas · 0 en curso · 768 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -81,9 +81,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 67 | 5/56 · 7/15 | E7.5.07 | El tren en España: lo que pasó al llegar la competencia | terminada | 3/3 | [Leer](https://moevec.org/blog/tren-espana-liberalizacion/) |
 | 68 | 5/56 · 8/15 | E7.5.08 | Taxis, licencias y plataformas: la batalla regulatoria | terminada | 3/3 | [Leer](https://moevec.org/blog/taxis-licencias-plataformas/) |
 | 69 | 5/56 · 9/15 | E7.5.09 | Farmacias en España: planificación y barreras de entrada | terminada | 3/3 | [Leer](https://moevec.org/blog/farmacias-espana-barreras/) |
-| 70 | 5/56 · 10/15 | E7.5.10 | Empresas conectadas políticamente: qué dice la evidencia | pendiente | 0/3 | — |
-| 71 | 5/56 · 11/15 | E7.5.11 | Contratación pública: dónde se cuela el favoritismo | pendiente | 0/3 | — |
-| 72 | 5/56 · 12/15 | E7.5.12 | Liberalización aérea: cómo nació el vuelo barato en Europa | pendiente | 0/3 | — |
+| 70 | 5/56 · 10/15 | E7.5.10 | Empresas conectadas políticamente: qué dice la evidencia | terminada | 3/3 | [Leer](https://moevec.org/blog/empresas-conectadas-politicamente/) |
+| 71 | 5/56 · 11/15 | E7.5.11 | Contratación pública: dónde se cuela el favoritismo | terminada | 3/3 | [Leer](https://moevec.org/blog/contratacion-publica-favoritismo/) |
+| 72 | 5/56 · 12/15 | E7.5.12 | Liberalización aérea: cómo nació el vuelo barato en Europa | terminada | 3/3 | [Leer](https://moevec.org/blog/liberalizacion-aerea-europa/) |
 | 73 | 5/56 · 13/15 | E7.5.13 | Venezuela: la nacionalización de CANTV y la calidad del servicio | pendiente | 0/3 | — |
 | 74 | 5/56 · 14/15 | E7.5.14 | Precios cuidados y acuerdos de precios: la experiencia argentina | pendiente | 0/3 | — |
 | 75 | 5/56 · 15/15 | E7.5.15 | Cómo denunciar una barrera a la competencia | pendiente | 0/3 | — |

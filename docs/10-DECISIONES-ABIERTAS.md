@@ -135,3 +135,9 @@ Publicadas y verificadas64–66: total66/840,198 imágenes originales. Agrupaci�
 Publicadas y verificadas 67–69: total 69/840,207 imágenes originales. Organización exacta en Política y Economía → Monopolios Estatales vs. Competencia. Medidas de precios ferroviarios y fiabilidad separadas; texto LOTT frente a jurisprudencia y cestas de medallones diferenciados; fallo farmacéutico condicionado y evaluación CNMC 2026 con universos y límites.
 
 70–72 iniciadas sin esperar otro mensaje, con nueve escenas originales optimizadas e inspeccionadas. Fuentes iniciales y pendientes centrales por ID; todavía no hay textos finales ni publicación. Respaldo 67–69 verificado por hashes y miembros, sin nueva restauración completa. Continúa autorización existente, sin cambios de infraestructura, tema o taxonomía.
+
+## Producción 70–72 y continuación 73–75 · 28/10/2026
+
+Publicadas y verificadas 70–72: 72/840, con 216 imágenes propias. Jerarquía y etiquetas del plan conservadas; una publicación y tres adjuntos por ID. Alcances de fuentes explícitos: resúmenes originales de Faccio, sin coeficientes no leídos; riesgos de contratación distintos de corrupción acreditada; tarifas aéreas comparables sin rebaja universal.
+
+73–75 iniciadas directamente: nueve originales de image_gen optimizados e inspeccionados, briefs, metadatos y fuentes iniciales guardados. Faltan investigación y texto; no están publicadas. Respaldo VPS 70–72 verificado por hashes y miembros, sin nueva restauración completa. Sin cambios de arquitectura o taxonomía. La producción continua autorizada y la automatización siguen activas.
