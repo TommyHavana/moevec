@@ -165,3 +165,9 @@ Dos bloques consecutivos completados sin pedir confirmación: 84/840 y 252 imág
 Dos bloques consecutivos terminados sin solicitar confirmación:90/840 y270 imágenes públicas. Historia15/15; categorías/subcategorías y etiquetas exactas, una publicación/tres adjuntos por ID. Registro sincronizado después de cada publicación; verificaciones públicas y de organización completas.
 
 91–93 iniciadas en Ética en el Intercambio, tanda7: briefs y fuentes iniciales, con cuerpos por revisar, textos e imágenes pendientes. No cuentan como terminadas. Mantener rigor: Smith/Sandel, Rothbard/Bastos y cooperación/limones con hipótesis y límites. No deriva de una ficha la lectura de un libro. Backups VPS85–87/88–90 verificados por hashes y miembros, sin nueva restauración completa. Sin cambios de arquitectura ni nuevas aprobaciones; autorización continua vigente.
+
+## Producción91–96 y continuación97–99 · 29/10/2026
+
+96/840 completas y288imágenes públicas. Dos bloques consecutivosenÉticapublicados/revisados; categorías/tags del manifiesto y taxonomía122/7 comprobadas,sinEditorial. Registro actualizado después de cada publicación. No se cambió infraestructura ni arquitectura.
+
+97–99 iniciadas localmente con briefs y fuentesiniciales;0/3imágenescadauna,texto/revisiónpendientes.No cuentan como terminadas. Respaldos proporcionales91–93/94–96 verificados por hashes y miembros,sin nueva restauracióncompleta. Autorización continua vigente y automatización activa; sin nuevas aprobaciones ni agotamiento de herramientas comunicado.

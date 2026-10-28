@@ -1,9 +1,24 @@
-# Preparación · 91 · Ética en el Intercambio
+# Investigación y revisión · 91 · E5.7.01
 
-Brief original leído. Pendientes tres imágenes originales, texto y revisión. No hay article.html, medios subidos ni publicación.
+Consulta: 28/10/2026. Brief y pasajes pertinentes leídos. No se afirma lectura íntegra de los libros.
 
-- Smith, [The Theory of Moral Sentiments](https://www.econlib.org/library/Smith/smMS.html): página primaria localizada; falta seleccionar y leer simpatía, justicia, prudencia y espectador imparcial. No afirmar lectura íntegra. Contrastar con La riqueza de las naciones y distinguir interpretaciones del llamado problema de Adam Smith.
-- Sandel, [página del autor sobre What Money Can't Buy (2012)](https://sandel.scholars.harvard.edu/publications/what-money-cant-buy-moral-limits-markets): ficha y presentación originales leídas vía web. Argumento sobre desplazamiento de normas por valores de mercado identificado; no libro íntegro. Descarga HTML local403 registrada, no archivo inventado.
-- Mantener etica-en-el-intercambio/fundamentos y categoría capitalismo-consciente. Crear portada de mercado/balanzas con figuras atentas, espejo/espectador y dos libros sin títulos ficticios; 1200×630 y dos1600×900, WebP<250000B.
+- [Adam Smith, The Theory of Moral Sentiments, sexta edición (1790; primera de 1759)](https://www.econlib.org/library/Smith/smMS.html): Advertencia autor/fecha edición; partes I simpatía, II justicia/beneficencia y sociedad sinamor, III espectador leídas. Derivación distribuida por capítulos, sin lectura íntegra; VI añadido1790 explícito.
+- [Smith, parte I: simpatía](https://www.econlib.org/library/Smith/smMS.html?chapter_num=2): Párrafos iniciales sobre interés por fortuna ajena e imaginación leídos; no empatía omnisciente.
+- [Smith, parte II: justicia y beneficencia](https://www.econlib.org/library/Smith/smMS.html?chapter_num=3): Secciones II/III: justicia más exigible y sociedad comerciantes sinamor mutuo, pasajes207–229/253–262. No benevolencia condición necesaria cadaoperación.
+- [Smith, parte III: examen de la propia conducta](https://www.econlib.org/library/Smith/smMS.html?chapter_num=4): Pasajes125/278/341–344 agente/juez, corregir amorpropio y autodominio. No juez infalible.
+- [Smith, parte VI: prudencia, texto primario en Adam Smith Works](https://www.adamsmithworks.org/documents/section-i-of-the-character-of-the-individual-so-far-as-it-affects-his-own-happiness-or-of-prudence): Sección I texto consultado salud/fortuna/reputación/previsión. Edición final1790, no1759. InterpretaciónaplicadaMEE.
+- [Smith, Wealth of Nations, libro I, capítulo II](https://www.econlib.org/library/Smith/smWN.html?chapter_num=5): Pasaje cooperación apelando ventajapropia leído. No toda motivación egoísta ni permiso fraude.
+- [Michael Sandel, presentación de What Money Can’t Buy (2012)](https://sandel.scholars.harvard.edu/publications/what-money-cant-buy-moral-limits-markets): Presentación autor/metadata2012 leída sobre límites mercados/desplazamiento valores. No lectura íntegra libro ni casos empíricos; descarga local403 registrada.
 
-Siguiente paso: leer pasajes de Smith, reconstruir la crítica de Sandel con alcance explícito, redactar dos ejemplos hipotéticos, lectura MEE, tres FAQ y cinco enlaces existentes. La tesis del brief no es evidencia.
+## Límites conservados
+
+- No toda virtud de edición1790 atribuida1759.
+- No afecto mutuo obligatorio para todo mercado.
+- No problemaSmith resuelto por consenso académico.
+- No casos o mediciones Sandel no leídos.
+
+Tres imágenes originales revisadas individualmente y en mosaico, sin duplicados. Portada1200×630, dos1600×900, WebP<250000B. Dos ejemplos hipotéticos, argumento contrario, lectura MEE, tres FAQ y cinco enlaces existentes. Texto, metadatos, publicación y verificación pública completados.
+
+## Cierre de publicación
+
+https://moevec.org/blog/mercado-necesita-virtudes-smith/ · 1243 palabras del publicador · imágenes3/3. HTTP200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales/variantes y agrupación verificados. Una publicación/tres adjuntos por ID. No duplicar. Evidencia:verification.json y los informes de navegación/organización del bloque.

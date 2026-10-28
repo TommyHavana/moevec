@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-28T22:35:36+00:00.
+Comprobado en WordPress: 2026-10-28T23:11:24+00:00.
 
-**90/840 terminadas · 0 en curso · 750 pendientes.**
+**96/840 terminadas · 0 en curso · 744 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -102,12 +102,12 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 88 | 6/56 · 13/15 | E5.2.13 | Argentina: un siglo de declive relativo | terminada | 3/3 | [Leer](https://moevec.org/blog/argentina-siglo-declive-relativo/) |
 | 89 | 6/56 · 14/15 | E5.2.14 | España: del aislamiento a la apertura (1959–hoy) | terminada | 3/3 | [Leer](https://moevec.org/blog/espana-del-aislamiento-a-la-apertura/) |
 | 90 | 6/56 · 15/15 | E5.2.15 | Lecciones de la historia para Cuba: qué funcionó en otras transiciones | terminada | 3/3 | [Leer](https://moevec.org/blog/lecciones-historia-para-cuba/) |
-| 91 | 7/56 · 1/15 | E5.7.01 | El mercado necesita virtudes: la tesis de Adam Smith | pendiente | 0/3 | — |
-| 92 | 7/56 · 2/15 | E5.7.02 | No agresión y propiedad: el fundamento ético del libre intercambio | pendiente | 0/3 | — |
-| 93 | 7/56 · 3/15 | E5.7.03 | Honradez comercial: por qué compensa no engañar | pendiente | 0/3 | — |
-| 94 | 7/56 · 4/15 | E5.7.04 | Moral burguesa: las siete virtudes de McCloskey | pendiente | 0/3 | — |
-| 95 | 7/56 · 5/15 | E5.7.05 | Ética del beneficio: ¿es inmoral ganar dinero? | pendiente | 0/3 | — |
-| 96 | 7/56 · 6/15 | E5.7.06 | Precios en emergencias: ¿especulación o señal necesaria? | pendiente | 0/3 | — |
+| 91 | 7/56 · 1/15 | E5.7.01 | El mercado necesita virtudes: la tesis de Adam Smith | terminada | 3/3 | [Leer](https://moevec.org/blog/mercado-necesita-virtudes-smith/) |
+| 92 | 7/56 · 2/15 | E5.7.02 | No agresión y propiedad: el fundamento ético del libre intercambio | terminada | 3/3 | [Leer](https://moevec.org/blog/no-agresion-y-propiedad/) |
+| 93 | 7/56 · 3/15 | E5.7.03 | Honradez comercial: por qué compensa no engañar | terminada | 3/3 | [Leer](https://moevec.org/blog/honradez-comercial/) |
+| 94 | 7/56 · 4/15 | E5.7.04 | Moral burguesa: las siete virtudes de McCloskey | terminada | 3/3 | [Leer](https://moevec.org/blog/siete-virtudes-burguesas/) |
+| 95 | 7/56 · 5/15 | E5.7.05 | Ética del beneficio: ¿es inmoral ganar dinero? | terminada | 3/3 | [Leer](https://moevec.org/blog/etica-del-beneficio/) |
+| 96 | 7/56 · 6/15 | E5.7.06 | Precios en emergencias: ¿especulación o señal necesaria? | terminada | 3/3 | [Leer](https://moevec.org/blog/precios-en-emergencias/) |
 | 97 | 7/56 · 7/15 | E5.7.07 | Trabajo infantil y cadenas de suministro: el debate honesto | pendiente | 0/3 | — |
 | 98 | 7/56 · 8/15 | E5.7.08 | Ética y tecnología: privacidad, datos y consentimiento | pendiente | 0/3 | — |
 | 99 | 7/56 · 9/15 | E5.7.09 | Usura y crédito: un debate de dos mil años | pendiente | 0/3 | — |

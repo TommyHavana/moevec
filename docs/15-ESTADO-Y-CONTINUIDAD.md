@@ -1,20 +1,20 @@
-# Estado de MEE y continuidad · 28/10/2026
+# Estado de MEE y continuidad · 29/10/2026 · Europe/Madrid
 
-## Estado actual: 90/840 publicadas y verificadas
+## Estado actual: 96/840 publicadas y verificadas
 
-WordPress: **90 terminadas, 270 imágenes originales públicas, 0 borradores y 750 pendientes**. Seis tandas completas; Historia15/15 en Capitalismo Consciente.
+WordPress confirma **96 terminadas,288 imágenes originales públicas,0 borradores y744 pendientes**. Ética en el Intercambio6/15, tanda7/56; seis tandas anteriores completas. Fuente activa:/Users/nerea/Documents/Proyectos/MEE/mee-web.
 
-Esta ejecución completó **85–87 y 88–90, E5.2.10–15**: ideas económicas, Venezuela, Chile, Argentina, España y lecciones para Cuba. Texto, fuentes/revisión, prompts y dieciocho WebP propios conservados por ID. Informes de bloques y respaldos en docs/produccion/2026-10-28-{bloque,respaldo}-085-087.md y -088-090.md. Una publicación y tres adjuntos por ID, categorías y etiquetas exactas. Blog es contenedor; Editorial es firma, no categoría.
+Esta ejecución completó dos bloques consecutivos:**91–93/E5.7.01–03 y94–96/E5.7.04–06**. Textos, fuentes/revisión,prompts y dieciochoWebP propios guardados porID. Informes docs/produccion/2026-10-28-{bloque,respaldo}-091-093.md y2026-10-29-{bloque,respaldo}-094-096.md. Una publicación y tres adjuntos porID; categorías capitalismo-consciente/etica-en-el-intercambio y etiquetas tema/nivel exactas. Blog es contenedor; Editorial es firma. Taxonomía comprobada:122nodos y7raíces,sin Editorial/Uncategorized.
 
-Comprobaciones públicas: HTTP200, H1, canonical, indexabilidad, Article, índice, sitemap, jerarquía/BreadcrumbList y cinco enlaces internos por artículo; tres imágenes con alt, dimensiones, variantes y hashes. Registro MD/CSV/JSON sincronizado tras cada publicación. No se redesplegó React ni se modificaron tema, taxonomía, DNS, correo o autenticación.
+Verificación pública de cada entrada:HTTP200,H1,canonical,indexabilidad,Article,índice,sitemap,jerarquía visible yBreadcrumbList,cinco enlaces internos; tresWebP con alt,dimensiones,variantes yhashes coincidentes. RegistroMD/CSV/JSON sincronizado tras cada publicación. Evidencia porID y en inventario/auditoria-2026-10-28/editorial-91-93/94-96-{organization,navigation}.json yeditorial-91-96-taxonomy.json. No hubo despliegue React ni cambios de tema,taxonomía,DNS,correo oautenticación.
 
-Preparación local: **91–93 / E5.7.01–03**, nueva tanda7/56, Ética en el Intercambio / Capitalismo Consciente. Briefs y fuentes iniciales; Sandel presentación autoral leída, Smith localizado, Rothbard compartido, originales Akerlof1970 y Axelrod/Hamilton1981 archivados. Cuerpos pendientes de revisión, textos y nueve imágenes sin crear. Tres preparaciones locales incluidas en750 pendientes;747 sin iniciar. No hay publicaciones ni imágenes completas de91–93.
+Preparación local siguiente:**97–99/E5.7.07–09**, en la misma subcategoría, nivelDesarrollo:trabajo infantil/cadenas de suministro; privacidad/datos/consentimiento; usura/crédito. Briefs y fuentes iniciales guardados,0/3imágenes cada una, texto yrevisiónpendientes. Estas tres están incluidas en744pendientes;741sin iniciar. No contarlas como terminadas ni como borradores WordPress.
 
-Siguiente paso: leer research-notes.md de91–93; seleccionar pasajes de Smith/simpatía/espectador y crítica Sandel, texto de Rothbard/no agresión y fuente Bastos verificable, modelos originales de cooperación/limones sin prometer que honestidad siempre gana. Generar tres imágenes por entrada, redactar/revisar y publicar/verificar en orden. Mantener etica-en-el-intercambio/fundamentos y resolver categorías por slug del plan.
+Siguiente paso:leer research-notes.md porID.97:OIT/UNICEF2024(publicadas2025),metodología yEdmonds/Pavcnik2005; comprobar efectos de boicots,sin tesiscausal universal.98:RGPD vigente,EDPB08/2024/corrigendum y novedades,fuente primariaZuboff/paradojaprivacidad; consentimiento es una base entreotras,opinión noley.99:Bentham primera1787/texto1818 yGrice-Hutchinson compartida,Aristótelesprimario; no consejoscrediticios ni normas sin jurisdicción. Completar investigación,crear tres originales porentrada,redactar/revisar,publicar/verificar en orden. No duplicar artículos/medios.
 
-Respaldo VPS88–90: SQL6.042.031 bytes,66 medios y archivo3.218.776 bytes; también incremento85–87 con SQL5.930.393/medios3.830.384 bytes. Hashes y miembros comprobados, sin nueva restauración completa. Cadena exacta en informes. Copia local y fuente privada se guardan al cierre.
+Respaldos VPS:91–93 SQL6.144.767bytes/66medios/archivo4.413.340bytes;94–96 SQL6.245.766bytes/66medios/archivo4.422.562bytes. Hashes y miembros comprobados,sin nueva restauracióncompleta. Copia local y fuente privada guardadas al cierre; referencias en production-state.json y los informes de respaldo.
 
-La auditoría integral fue encargada expresamente el28/10/2026 y está en22. Esta ejecución fue producción editorial autorizada. No hay nuevas decisiones de arquitectura, propuestas pendientes de aprobación ni bloqueo técnico; no se comunicó agotamiento de imágenes. La automatización de este chat sigue activa hasta840.
+La auditoría integral fue encargada expresamente el28/10/2026 y está en22. Esta ejecución fue producción editorial ya autorizada. Sin cambios de requisitos/arquitectura,nuevas decisiones del fundador o propuestas poraprobar. No se comunicó agotamiento de imágenes. Los accesos fallidos a ciertos PDFs se documentaron y se utilizaron fuentes primarias accesibles con alcance explícito. La automatización de este chat sigue activa hasta840.
 
 ## Historial anterior — no describe el estado actual
 

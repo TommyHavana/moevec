@@ -1,6 +1,6 @@
 # Backlog de MEE
 
-Último estado: **90/840 publicadas, verificadas y agrupadas**, con **270 imágenes propias públicas**. Historia15/15, seis tandas completas.0 borradores WordPress y750 pendientes. Dos bloques85–87/88–90 terminados en esta ejecución.91–93 / E5.7.01–03, Ética en el Intercambio, iniciadas con briefs y fuentes; textos y nueve imágenes pendientes (747 sin iniciar además de estas tres). Registro y verificaciones por ID guardados; respaldo VPS de ambos incrementos comprobado. Fuente privada y copia local de cierre. Continuación automática activa.
+Último estado: **96/840 publicadas,verificadas y agrupadas,288 imágenes propias públicas,0 borradores WordPress y744pendientes**. Ética en el Intercambio6/15; seis tandas anteriores completas. Bloques91–93/94–96 cerrados en esta ejecución.97–99/E5.7.07–09 en preparaciónlocal con briefs y fuentesiniciales; texto/revisión y nueveimágenes pendientes(741sin iniciar además de estas3). Registro sincronizado porpublicación,verificación pública y organizaciónexactas; respaldos VPScomprobados,fuenteprivada y copia localde cierre. Continuaciónautomática activa sin nuevasconfirmaciones.
 
 
 Historial anterior: producción comprobada tras el bloque 4–6: 6/840 terminadas. En elaboración local: 7–9 con nueve imágenes propias; todavía no cuentan como publicadas. Consultar siempre WordPress y el registro 24 para el estado más reciente.

@@ -1,9 +1,21 @@
-# Preparación · 92 · Ética en el Intercambio
+# Investigación y revisión · 92 · E5.7.02
 
-Brief original leído. Texto e imágenes pendientes; sin publicación ni medios duplicados.
+Consulta: 28/10/2026. Brief y pasajes pertinentes leídos. No se afirma lectura íntegra de los libros.
 
-- Rothbard, The Ethics of Liberty: original archivado en ../E5.2.10/sources/rothbard.pdf. En esa producción se leyeron cuerpo del autor capítulos7–8, PDF83–87 (impresas40–44), propiedad, voluntariedad y agresión. Introducción de Hoppe no atribuible a Rothbard. Releer el pasaje pertinente para esta entrada; distinguir argumento normativo de resultado empírico y legitimidad del título de propiedad de mera posesión.
-- Bastos: F-002 y F-004 del original requieren una fuente primaria efectiva sobre anarcocapitalismo. No afirmar lectura de un libro a partir de la ficha; si se usa vídeo, identificar título, fecha y minuto real. El ensayo del ahorro2017 de la entrada85 no verifica por sí solo cualquier tesis sobre no agresión.
-- Casos límite: externalidades y emergencias necesitan definiciones y argumentos fieles; no dar una propuesta ética como ley vigente o consejo jurídico.
+- [Murray Rothbard, The Ethics of Liberty (1982), capítulos sobre propiedad, agresión y situaciones extremas](https://cdn.mises.org/The%20Ethics%20of%20Liberty%2020191108.pdf): PDF compartido E5.2.10/sources/rothbard.pdf: créditos original1982; autor cuerpo PDF83/87 y187–188, impresas40/44/149–150 leídas. No prólogoHoppe comoRothbard, no tesisnormativa comoleyvigente; ~190palabrasderivadas.
+- [Miguel Anxo Bastos, Anarquía capitalista, fragmento de Arpa (2026)](https://cdn.shopify.com/s/files/1/1242/3326/files/ANARQUIA_CAPITALISTA_prensa.pdf?v=1792148177): 20p383961B, introducción PDF7–10 leída; doctrina posible/deseablesinEstado, mercadoydefiniciónpoder. No libroíntegro ni hechos de comunas/tesisviabilidad comoevidenciaempírica.
+- [Arpa, ficha de preventa de Anarquía capitalista](https://arpaeditores.com/products/anarquia-capitalista): Ficha consultada28oct2026: preventa/envío noviembre2026, ISBN979-13-88182-45-7. No libro yaeditadoy leído completo ni DanielCarreiro2017atribuidоBastos.
 
-Mantener capitalismo-consciente/etica-en-el-intercambio y fundamentos. Preparar manos abiertas, cerca respetada y balanza; tres originales image_gen con alt y pies, dimensiones/peso del protocolo. Después texto completo, FAQ, fuentes, dos ejemplos y lectura MEE.
+## Límites conservados
+
+- No teoría como derecho vigente ni consejo defensa propia.
+- No posesión actual prueba título legítimo.
+- No consenso de todo liberalismo/anarcocapitalismo.
+- No datos empíricos de externalidades o doctrinaviabilidad demostrada.
+- No vídeos no vistos ni libro Bastosíntegro.
+
+Tres imágenes originales revisadas individualmente y en mosaico, sin duplicados. Portada1200×630, dos1600×900, WebP<250000B. Dos ejemplos hipotéticos, argumento contrario, lectura MEE, tres FAQ y cinco enlaces existentes. Texto, metadatos, publicación y verificación pública completados.
+
+## Cierre de publicación
+
+https://moevec.org/blog/no-agresion-y-propiedad/ · 1213 palabras del publicador · imágenes3/3. HTTP200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales/variantes y agrupación verificados. Una publicación/tres adjuntos por ID. No duplicar. Evidencia:verification.json y los informes de navegación/organización del bloque.
