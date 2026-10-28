@@ -162,3 +162,7 @@ El texto siguiente conserva el documento editorial de trabajo. Sus nombres canó
 - La frase **«En el cuadro»** cabe sobre la imagen de cada categoría y puede servir también de texto de apoyo accesible.
 - La **presentación** puede ir debajo del título en la página interior. Cada frase de subcategoría funciona como entrada breve junto al índice y permite enlazar futuras piezas editoriales.
 - El texto es una propuesta: no implica que haya ya artículos, comunidad, ofertas de inversión, análisis de leyes ni tienda publicados.
+
+## Actualización · producción editorial de 840 entradas
+
+El fundador ordenó retirar las 115 maquetas e iniciar el plan de 840 briefs (56 subcategorías × 15). Su importador está desactivado y fuera del arranque. La numeración global sigue el orden de tandas del documento original, no el orden taxonómico: n.º 1 = E5.1.01. Las primeras tres están publicadas con nueve imágenes originales en total; n.º 4–840 pendientes en esta entrega. Cada artículo requiere fuentes abiertas y contrastadas, portada y dos interiores propios, WebP inferiores a 250 KB y verificación. `docs/24-REGISTRO-PRODUCCION-840.md` y WordPress → Herramientas → Plan editorial · 840 contienen el estado individual. `scripts/sync-production-status.py` vuelve a leer WordPress y actualiza MD/CSV/JSON. No contar maquetas ni borradores vacíos como producción. Siguiente: E5.1.04.

@@ -65,3 +65,7 @@ El fundador autorizó ejecutar la auditoría adjunta y todos los cambios recomen
 Decisiones aplicadas: 115 maquetas identificadas y excluidas del índice/webhook; ilustraciones abstractas propias en WebP; movimiento de siete familias y pausa compartida; formulario del mismo origen usando SMTP privado; segundo factor por correo; Search Console y sitemap público. Las entradas pueden pasar a contenido editorial mediante el control de maqueta tras su revisión.
 
 No se han inventado datos jurídicos del titular, una aplicación Phoenix accesible, actividad social, autores reales ni resultados de investigación. Siguen pendientes esos datos legales, el despliegue real de la red y la revisión editorial definitiva. La tienda y la licencia abierta general no se activan por este encargo.
+
+## Decisión del fundador · inicio de las 840, 28/10/2026
+
+Retirar las 115 maquetas e iniciar la producción editorial real, con numeración individual persistente. Cada artículo debe llevar portada y dos imágenes interiores propias. Se conserva el orden de las 56 tandas del documento de producción. Se mantienen el SEO y el schema del plugin MEE existente para evitar salidas duplicadas. Anacleto se presenta como firma editorial, sin currículum ni identidad personal inventados. El registro distingue terminadas, en curso y pendientes; consulta el documento 24 para el conteo vivo.

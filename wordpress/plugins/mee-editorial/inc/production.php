@@ -15,7 +15,7 @@ function mee_production_snapshot() {
     foreach (mee_production_plan() as $entry) {
         $post = $by_id[$entry['id']] ?? null;
         $images = $post ? array_unique(array_filter(array_map('intval', (array)get_post_meta($post->ID, '_mee_editorial_images', true)))) : [];
-        $valid_images = array_filter($images, function($id) { return get_post_mime_type($id)==='image/webp' && is_file(get_attached_file($id)) && get_post_meta($id,'_wp_attachment_image_alt',true); });
+        $valid_images = array_filter($images, function($id) use ($entry) { return get_post_mime_type($id)==='image/webp' && is_file(get_attached_file($id)) && get_post_meta($id,'_wp_attachment_image_alt',true) && get_post_meta($id,'_mee_plan_id',true)===$entry['id']; });
         $words = $post ? preg_match_all('/[\p{L}\p{N}]+(?:[’\x{0027}-][\p{L}\p{N}]+)*/u', wp_strip_all_tags(strip_shortcodes($post->post_content))) : 0;
         $done = $post && $post->post_status==='publish' && count($valid_images)===3 && $words>=600 && get_post_meta($post->ID, '_mee_reviewed', true)==='1';
         $rows[] = array_merge($entry, ['status'=>$done?'terminada':($post?'en curso':'pendiente'), 'wp_status'=>$post?$post->post_status:null, 'post_id'=>$post?$post->ID:null, 'url'=>$post&&$post->post_status==='publish'?get_permalink($post):'', 'words'=>$words, 'images'=>count($valid_images)]);

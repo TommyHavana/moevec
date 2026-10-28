@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Focused acceptance checks for the routes and demo content created by this task."""
+"""Focused acceptance checks for public routes and the completed numbered editorial entries."""
 import concurrent.futures,json,urllib.request,urllib.error
 from html.parser import HTMLParser
 from pathlib import Path
@@ -15,7 +15,9 @@ class Page(HTMLParser):
 origin='https://moevec.org'
 topics=json.loads(Path('content/visuals.json').read_text())
 public=['/','/contacto/','/sobre-mee/','/privacidad/','/aviso-legal/']+list(dict.fromkeys('/areas/'+t['area']+'/'for t in topics))
-paths=public+['/blog/muestra-'+t['area']+'-'+t['slug']+'/'for t in topics]
+snapshot=json.loads(Path('inventario/plan-editorial-840-status.json').read_text())
+articles=[r['url'].removeprefix(origin)for r in snapshot['entries']if r['status']=='terminada']
+paths=public+['/blog/']+articles
 def check(path):
  try:
   r=urllib.request.urlopen(origin+path,timeout=20);page=Page();page.feed(r.read().decode());issues=[]
@@ -23,7 +25,7 @@ def check(path):
   if page.canonical!=[origin+path]:issues.append('canonical '+str(page.canonical))
   for meta in ['description','og:title','og:description','og:image','og:url','twitter:card']:
    if not page.meta.get(meta):issues.append('missing '+meta)
-  if path.startswith('/blog/muestra-')and'noindex'not in page.meta.get('robots',''):issues.append('demo indexable')
+  if path in articles and'noindex'in page.meta.get('robots',''):issues.append('completed article noindex')
   if path in public and'noindex'in page.meta.get('robots',''):issues.append('public page noindex')
   if path.startswith('/areas/'):
    area=path.split('/')[2]
@@ -32,6 +34,6 @@ def check(path):
   return {'path':path,'status':r.status,'h1':page.h1,'issues':issues}
  except Exception as e:return {'path':path,'issues':[str(e)]}
 with concurrent.futures.ThreadPoolExecutor(max_workers=6)as pool:results=list(pool.map(check,paths))
-report={'routes':len(paths),'public_routes':len(public),'demo_articles':len(topics),'failures':[r for r in results if r['issues']],'results':results}
-Path('inventario/auditoria-2026-10-28/public-route-checks.json').write_text(json.dumps(report,ensure_ascii=False,indent=2))
+report={'routes':len(paths),'public_routes':len(public),'completed_articles':len(articles),'failures':[r for r in results if r['issues']],'results':results}
+Path('inventario/auditoria-2026-10-28/editorial-route-checks.json').write_text(json.dumps(report,ensure_ascii=False,indent=2))
 print(json.dumps({k:v for k,v in report.items()if k!='results'},ensure_ascii=False,indent=2))
