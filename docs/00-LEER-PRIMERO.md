@@ -27,7 +27,7 @@ Los nombres y jerarquía de categorías proceden del material del fundador. Los 
 
 ## Requisitos añadidos el 28/10/2026
 
-Cada categoría y subcategoría tendrá imagen y movimiento que evoque su valor. Hay 63 nodos visuales principales y 59 internos políticos; ver inventario 19. Se recomendó React + WordPress + WooCommerce, pero falta decisión final. La auditoría total está expresamente diferida. Las rutas del ordenador son `~/Documents/Proyectos/mee/mee-web`; la documentación portable no traslada ni duplica el código.
+Cada categoría y subcategoría tendrá imagen y movimiento que evoque su valor. Hay 63 nodos visuales principales y 59 internos políticos; ver inventario 19. Se recomendó React + WordPress + WooCommerce, pero falta decisión final. La auditoría integral ya fue encargada y ejecutada; consulta el informe 22. Las rutas del ordenador son `~/Documents/Proyectos/mee/mee-web`; la documentación portable no traslada ni duplica el código.
 
 ## Actualización de despliegue del 28/10/2026
 

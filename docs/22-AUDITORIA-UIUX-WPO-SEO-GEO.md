@@ -204,3 +204,10 @@ Carpeta: `inventario/auditoria-2026-10-28/`.
 Las evidencias locales pueden contener datos operativos del titular. No se sirven desde `public/`. Las contraseñas, claves SMTP, códigos de autenticación y copias SQL no se adjuntan a este informe.
 
 **Pendientes concretos:** completar la identidad y el expediente legal del responsable; desplegar/verificar la aplicación Phoenix para activar el puente; desarrollar y revisar contenido editorial definitivo antes de indexarlo; configurar Bing si se desea ese panel; valorar copia externa cifrada y una restauración completa en otro entorno. La ejecución técnica y gráfica descrita queda entregada sin atribuir premios, posición en buscadores ni cumplimiento legal no demostrado.
+
+
+## Registro final de versión y respaldos
+
+Producto publicado y comprobado: commit `4b90ce989daa7d8d47d2af20d07b773a68bd960a`. Web y WordPress arrancados, importador terminado correctamente, 115 maquetas conservadas, segundo factor activo y rutas principales con HTTP 200. La portada queda con movimiento normal y el panel de transición oculto tras navegar. Un tema interno se abrió mediante su control accesible: imagen cargada y animación en ejecución únicamente al quedar visible. La portada editorial comienza con una muestra de cada una de las siete áreas.
+
+Copia de fuente: `/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Codex_2026-10-28_060357.zip` (653 archivos). Copia de producción posterior: `/data/mee-backups/post-auditoria-20261028/`, SQL de 2,7 MB y archivos de aproximadamente 33 MB, con directorio privado. Evidencia: `deployment-check.json`, `security-check.json`, `motion-checks.json` y `tema-interno-check.json`. Se retiró la copia temporal local de la credencial SMTP y se detuvo el servidor de revisión; la configuración operativa permanece en el volumen privado del servidor.
