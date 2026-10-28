@@ -12,6 +12,11 @@ foreach($topics as$index=>$topic){
  $ids[$slug]=$term->term_id;
  $post_slug='muestra-'.$topic['area'].'-'.$slug;
  $found=get_page_by_path($post_slug,OBJECT,'post');
+ if($found&&get_post_meta($found->ID,'_mee_demo',true)){
+  $repaired_content=str_replace(['Examiner ','dans le contexte de'],['Examinar ','en el contexto de'],$found->post_content);
+  $repaired_excerpt=str_replace(['Examiner ','dans le contexte de'],['Examinar ','en el contexto de'],$found->post_excerpt);
+  if($repaired_content!==$found->post_content||$repaired_excerpt!==$found->post_excerpt)wp_update_post(['ID'=>$found->ID,'post_content'=>$repaired_content,'post_excerpt'=>$repaired_excerpt]);
+ }
  if($found&&(!get_post_meta($found->ID,'_mee_demo',true)||($found->post_status==='publish'&&has_post_thumbnail($found->ID)))){$existing++;continue;}
  $image='https://moevec.org'.$topic['image'];$name=esc_html($topic['name']);$benefit=esc_html(ucfirst($topic['benefit']));$area=esc_html($topic['areaName']);
  $prompts=[

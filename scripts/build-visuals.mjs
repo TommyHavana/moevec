@@ -43,7 +43,7 @@ for (const [ai,c] of categories.entries()) {
  async function walk(topics,parent=null,depth=0){
   for(const [i,t] of topics.entries()){
    const ix=counter++, visual=metaphors.get(t.slug)||{concept:`Arquitectura abierta para ${t.name}`,action:'Las relaciones entre los elementos se hacen visibles.'};
-   const benefit=depth===0?copy[ai].benefits[i].benefit:`Examiner ${t.name.toLowerCase()} dans le contexte de ${c.name.toLowerCase()}.`;
+   const benefit=depth===0?copy[ai].benefits[i].benefit:`Examinar ${t.name.toLowerCase()} en el contexto de ${c.name.toLowerCase()}.`;
    const file=`${c.slug}/${t.slug}`; await fs.mkdir(path.dirname(`public/images/topics/${file}`),{recursive:true});
    const svg=Buffer.from(art(ai,ix,depth));
    for(const width of [480,800,1200]) await sharp(svg).resize(width).webp({quality:80,effort:6}).toFile(`public/images/topics/${file}-${width}.webp`);
