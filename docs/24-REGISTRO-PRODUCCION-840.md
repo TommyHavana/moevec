@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-28T12:33:58+00:00.
+Comprobado en WordPress: 2026-10-28T13:02:17+00:00.
 
-**18/840 terminadas · 0 en curso · 822 pendientes.**
+**21/840 terminadas · 0 en curso · 819 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -30,9 +30,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 16 | 2/56 · 1/15 | E5.3.01 | Qué es el socialismo: definiciones precisas para un debate honesto | terminada | 3/3 | [Leer](https://moevec.org/blog/que-es-el-socialismo-definiciones/) |
 | 17 | 2/56 · 2/15 | E5.3.02 | El problema del cálculo: por qué la planificación central falla | terminada | 3/3 | [Leer](https://moevec.org/blog/problema-del-calculo-planificacion/) |
 | 18 | 2/56 · 3/15 | E5.3.03 | Incentivos: por qué importa quién se queda con el fruto del trabajo | terminada | 3/3 | [Leer](https://moevec.org/blog/incentivos-fruto-del-trabajo/) |
-| 19 | 2/56 · 4/15 | E5.3.04 | Libertad política y libertad económica: ¿van juntas? | pendiente | 0/3 | — |
-| 20 | 2/56 · 5/15 | E5.3.05 | Los resultados del socialismo real: datos del siglo XX | pendiente | 0/3 | — |
-| 21 | 2/56 · 6/15 | E5.3.06 | Socialismo de mercado: Yugoslavia, Hungría y otras terceras vías | pendiente | 0/3 | — |
+| 19 | 2/56 · 4/15 | E5.3.04 | Libertad política y libertad económica: ¿van juntas? | terminada | 3/3 | [Leer](https://moevec.org/blog/libertad-politica-y-economica/) |
+| 20 | 2/56 · 5/15 | E5.3.05 | Los resultados del socialismo real: datos del siglo XX | terminada | 3/3 | [Leer](https://moevec.org/blog/resultados-socialismo-real/) |
+| 21 | 2/56 · 6/15 | E5.3.06 | Socialismo de mercado: Yugoslavia, Hungría y otras terceras vías | terminada | 3/3 | [Leer](https://moevec.org/blog/socialismo-de-mercado-terceras-vias/) |
 | 22 | 2/56 · 7/15 | E5.3.07 | Socialismo del siglo XXI: Venezuela, Bolivia, Ecuador y Nicaragua | pendiente | 0/3 | — |
 | 23 | 2/56 · 8/15 | E5.3.08 | Igualdad en el socialismo: ¿fueron sociedades más igualitarias? | pendiente | 0/3 | — |
 | 24 | 2/56 · 9/15 | E5.3.09 | Socialismo y medio ambiente: el caso del mar de Aral y Chernóbil | pendiente | 0/3 | — |

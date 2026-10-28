@@ -5,18 +5,40 @@
   "slug": "resultados-socialismo-real",
   "area": "capitalismo-consciente",
   "topic": "capitalismo-vs-socialismo",
-  "phase": "research",
-  "article_complete": false,
-  "images_complete": false,
-  "sources_fully_reviewed": false,
+  "phase": "published_and_verified",
+  "article_complete": true,
+  "images_complete": true,
+  "sources_fully_reviewed": true,
   "sources_opened": [
     {
       "url": "https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-project-database-2023?lang=en",
-      "scope": "Página primaria abierta:169países,hasta2022, licenciaCCBY4.0. Requiere citar los estudios originales de la hojaSources si se usan menos de12países o gráficas. Aún no se descargó ni analizó la serie."
+      "scope": "MPD2023 descargado4.903.804bytes. Notes/Sources/Full data revisadas; China/España1952,1978,1989, unidadPIBreal2011$. Extracción y hash en data-analysis.json. Sources atribuye China1952–2008 aWu2014 yEspaña1850–2011 aPrados2017; se citan sin atribuir lectura íntegra de esas obras."
+    },
+    {
+      "url": "https://www.kornai-janos.hu/media/konyvek_cikkek/w20825/Kornai1979_Resource-constrained_vs._demand-constrained_systems_-_Econometrica.pdf",
+      "scope": "pp801–802 leídas en extracción web primaria: escasez y mecanismo institucional enHungría; sin generalizar a todo periodo o país."
+    },
+    {
+      "url": "https://mvs.gov.ua/en/golodomor-1932-1933",
+      "scope": "Archivo institucional abierto, descripción del fondo y su interpretación atribuida; sin revisión completa de expedientes ni cifras de víctimas."
+    },
+    {
+      "url": "https://business.columbia.edu/faculty/research/institutional-causes-chinas-great-famine-1959-1961",
+      "scope": "Resumen original deMeng,Qian,Yared2015 leído; aprovisionamiento rígido y mortalidad, sin nueva estimación de víctimas."
+    },
+    {
+      "url": "https://dmo.econ.msu.ru/Biblio/Data/Books/F.Lorimer%20Population%20of%20the%20Sviet%20Union.pdf",
+      "scope": "Libro1946 descargado; pp198–199/tabla75 y notas inspeccionadas visualmente en hoja146/193. 9años+,51,1en1926/81,2en1939; 1926leer/1939leeroescribir,excluyeUcraniaoccidental/Bielorrusiaoccidental. Ruptura metodológica explícita."
     }
   ],
   "notes": [
-    "Investigar fuentes primarias y series con versión y año explícitos. No presentar gráficos conceptuales de imagegen como datos reales."
+    "La comparación China/España es descriptiva, sin experimento ni atribución causal.",
+    "Se excluyó Polonia por insuficiente detalle en la cadena de atribución para el periodo.",
+    "No se sustituye la URSS por Rusia actual ni se agregan instituciones diferentes.",
+    "La definición censal de alfabetización cambia entre 1926 y 1939; no se estima una diferencia homogénea.",
+    "Sin cifras de víctimas ni pasajes no leídos de Dikötter. Sin balance sanitario completo inventado.",
+    "Las imágenes son metáforas sin datos."
   ],
-  "updated_at": "2026-10-28T12:36:46.064989+00:00"
+  "updated_at": "2026-10-28T13:04:33.346438+00:00",
+  "images_visually_checked": true
 }
