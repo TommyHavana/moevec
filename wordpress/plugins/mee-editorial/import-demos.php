@@ -1,6 +1,9 @@
 <?php
 /** Run explicitly with WP-CLI eval-file. Idempotent: never edits existing articles. */
 if(!defined('ABSPATH') || !defined('WP_CLI'))exit;
+// Samples were retired by the founder on 28/10/2026. Never recreate them.
+WP_CLI::success('El importador de maquetas está retirado. Usa el plan editorial de 840 entradas.');
+return;
 require_once ABSPATH.'wp-admin/includes/image.php';
 $topics=json_decode(file_get_contents(__DIR__.'/data/topics.json'),true);
 $ids=[];$created=0;$existing=0;$area_positions=[];

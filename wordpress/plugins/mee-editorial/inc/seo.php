@@ -2,7 +2,7 @@
 defined('ABSPATH') || exit;
 function mee_seo_data(){
  $description=get_bloginfo('description');$image='https://moevec.org/brand/mee-social-1200x630.webp';$url=home_url('/');
- if(is_singular()){$url=get_permalink();$description=wp_strip_all_tags(get_the_excerpt());$cover=get_the_post_thumbnail_url(null,'mee-social');if($cover)$image=$cover;}
+ if(is_singular()){$url=get_permalink();$description=wp_strip_all_tags(get_post_meta(get_the_ID(),'_mee_seo_description',true) ?: get_the_excerpt());$cover=get_the_post_thumbnail_url(null,'mee-social');if($cover)$image=$cover;}
  elseif(is_category()){$term=get_queried_object();$url=get_category_link($term);$description=wp_strip_all_tags(term_description($term));if(!$description)$description='Explora las ideas de '.$term->name.' en el editorial del Movimiento de Evolución Económica.';}
  elseif(is_home()){$description='Ideas y perspectivas sobre educación, comunidad, trabajo y economía. Explora el editorial del Movimiento de Evolución Económica.';}
  elseif(is_search()){$url=home_url('/?s='.rawurlencode(get_search_query()));$description='Resultados de búsqueda en el editorial MEE.';}

@@ -84,3 +84,11 @@ No borrar el historial útil. Sustituir las casillas vacías por evidencia al ce
 - **Continuación:** partir de esta entrega y del encargo nuevo, sin repetir la auditoría inicial ni recrear maquetas. Para activar la red hacen falta su aplicación completa y un despliegue HTTPS verificado; para cerrar legal faltan datos del titular. Los informes anteriores de este archivo son historia.
 
 - **Versión final de producto comprobada:** `4b90ce9`, aplicación ejecutándose, importador final con 115 existentes y cero duplicados. Respaldo local `MEE_Codex_2026-10-28_060357.zip` y copia posterior de SQL/archivos en `/data/mee-backups/post-auditoria-20261028/`. Control de tema interno comprobado abierto, imagen disponible y animación en ejecución por visibilidad. Las actualizaciones de documentación posteriores no cambian el producto desplegado.
+
+## Corrección del alcance editorial · 28/10/2026
+
+El fundador recordó el plan de 840 entradas. Se recuperaron los dos documentos originales en la carpeta contenedora MEE y se verificaron 840 briefs únicos, distribuidos en 56 subcategorías de 15 artículos. La consulta de WordPress a las 09:32 UTC encontró 115 maquetas y **cero artículos del plan**, comparando slugs e identificadores. No existe aún el registro privado de producción. Las maquetas no cuentan dentro de las 840 y la entrega técnica no cierra este trabajo. Se creó `inventario/plan-editorial-840.csv`, con el orden exacto de las 56 tandas, y el informe `docs/23-ESTADO-PLAN-EDITORIAL-840.md`. Primer punto pendiente: Tanda 1/56, entrada 1/15, E5.1.01. No se han creado ni publicado artículos nuevos en esta comprobación.
+
+## Inicio de producción editorial · 28/10/2026
+
+El fundador ordenó eliminar las maquetas y comenzar las 840, con numeración individual y tres imágenes propias por artículo. Se retiraron las 115 publicaciones a la papelera tras copia SQL y archivos en `/data/mee-backups/antes-produccion-840-20261028/`. El importador queda desactivado y se elimina del arranque. E5.1.01, n.º 1/840, está publicada con portada y dos interiores originales generados con imagegen, WebP inferiores a 250 KB, fuentes y revisión. El registro completo y actualizable está en `docs/24-REGISTRO-PRODUCCION-840.md` y en WordPress → Herramientas → Plan editorial · 840. La producción continúa por E5.1.02. Los conteos anteriores son históricos.
