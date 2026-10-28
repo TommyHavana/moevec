@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-28T13:02:17+00:00.
+Comprobado en WordPress: 2026-10-28T13:53:21+00:00.
 
-**21/840 terminadas · 0 en curso · 819 pendientes.**
+**27/840 terminadas · 0 en curso · 813 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -33,12 +33,12 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 19 | 2/56 · 4/15 | E5.3.04 | Libertad política y libertad económica: ¿van juntas? | terminada | 3/3 | [Leer](https://moevec.org/blog/libertad-politica-y-economica/) |
 | 20 | 2/56 · 5/15 | E5.3.05 | Los resultados del socialismo real: datos del siglo XX | terminada | 3/3 | [Leer](https://moevec.org/blog/resultados-socialismo-real/) |
 | 21 | 2/56 · 6/15 | E5.3.06 | Socialismo de mercado: Yugoslavia, Hungría y otras terceras vías | terminada | 3/3 | [Leer](https://moevec.org/blog/socialismo-de-mercado-terceras-vias/) |
-| 22 | 2/56 · 7/15 | E5.3.07 | Socialismo del siglo XXI: Venezuela, Bolivia, Ecuador y Nicaragua | pendiente | 0/3 | — |
-| 23 | 2/56 · 8/15 | E5.3.08 | Igualdad en el socialismo: ¿fueron sociedades más igualitarias? | pendiente | 0/3 | — |
-| 24 | 2/56 · 9/15 | E5.3.09 | Socialismo y medio ambiente: el caso del mar de Aral y Chernóbil | pendiente | 0/3 | — |
-| 25 | 2/56 · 10/15 | E5.3.10 | Por qué el socialismo sigue atrayendo: psicología de una idea | pendiente | 0/3 | — |
-| 26 | 2/56 · 11/15 | E5.3.11 | Cuba hoy: ¿socialismo, capitalismo de Estado o economía mixta? | pendiente | 0/3 | — |
-| 27 | 2/56 · 12/15 | E5.3.12 | Debatir con un socialista: diez argumentos y diez respuestas | pendiente | 0/3 | — |
+| 22 | 2/56 · 7/15 | E5.3.07 | Socialismo del siglo XXI: Venezuela, Bolivia, Ecuador y Nicaragua | terminada | 3/3 | [Leer](https://moevec.org/blog/socialismo-siglo-xxi/) |
+| 23 | 2/56 · 8/15 | E5.3.08 | Igualdad en el socialismo: ¿fueron sociedades más igualitarias? | terminada | 3/3 | [Leer](https://moevec.org/blog/igualdad-en-el-socialismo/) |
+| 24 | 2/56 · 9/15 | E5.3.09 | Socialismo y medio ambiente: el caso del mar de Aral y Chernóbil | terminada | 3/3 | [Leer](https://moevec.org/blog/socialismo-y-medio-ambiente/) |
+| 25 | 2/56 · 10/15 | E5.3.10 | Por qué el socialismo sigue atrayendo: psicología de una idea | terminada | 3/3 | [Leer](https://moevec.org/blog/por-que-atrae-el-socialismo/) |
+| 26 | 2/56 · 11/15 | E5.3.11 | Cuba hoy: ¿socialismo, capitalismo de Estado o economía mixta? | terminada | 3/3 | [Leer](https://moevec.org/blog/cuba-hoy-que-sistema/) |
+| 27 | 2/56 · 12/15 | E5.3.12 | Debatir con un socialista: diez argumentos y diez respuestas | terminada | 3/3 | [Leer](https://moevec.org/blog/debatir-con-un-socialista/) |
 | 28 | 2/56 · 13/15 | E5.3.13 | «Eso no era verdadero socialismo»: análisis de un argumento | pendiente | 0/3 | — |
 | 29 | 2/56 · 14/15 | E5.3.14 | Capitalismo y pobreza: lo que muestran 200 años de datos | pendiente | 0/3 | — |
 | 30 | 2/56 · 15/15 | E5.3.15 | Mapa de sistemas económicos del mundo hoy | pendiente | 0/3 | — |

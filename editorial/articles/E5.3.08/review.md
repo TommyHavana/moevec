@@ -1,11 +1,18 @@
-# Preparación editorial · E5.3.08
+# Revisión editorial · E5.3.08
 
-- Tres imágenes originales generadas con imagegen integrado, comprimidas e inspeccionadas individualmente.
-- Portada1200×630; dos interiores1600×900; todas por debajo de250KB.
-- Fuentes y texto pendientes: esta entrada no está terminada ni publicada.
+Revisado el 28/10/2026. Texto completo; fuentes verificadas en el alcance exacto de article.json, sin atribuir lectura íntegra de fuentes consultadas por extractos. Tres imágenes originales distintas, comprimidas e inspeccionadas. Categorías resueltas por el publicador según manifiesto.
 
-## Reanudación
+## Controles
 
-- Consultar pasajes originales deDjilas1957, sin asumir iguales privilegios para todo miembro de un partido.
-- Verificar tablas deGini con país,año,unidad,ingreso/consumo,bruto/neto y cambio de encuesta.
-- Distinguir acceso a bienes de ingreso medido; las escenas de vivienda y colas son hipotéticas.
+- ID, título, slug y número conservados.
+- Respuesta inicial, argumento contrario, lectura de MEE, ejemplos identificados, FAQ y fuentes.
+- Enlaces internos a entradas ya publicadas.
+- Imágenes 1200×630 y dos1600×900, WebP<250KB, alt y captions conceptuales.
+- Publicación y verificación pública completadas: HTTP200, H1, canonical, indexabilidad, Article, índice e imágenes; jerarquía y ausencia de duplicados comprobadas.
+
+## Límites
+
+- No se atribuye un mismo privilegio a todo miembro del partido.
+- No se inventa un Gini ajustado por acceso ni se estima tamaño de la nueva clase.
+- No se generalizan los dos casos a Cuba o al conjunto del socialismo.
+- No se identifica desigualdad monetaria con pobreza, riqueza o libertad.

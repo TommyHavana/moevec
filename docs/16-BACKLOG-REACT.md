@@ -1,6 +1,6 @@
 # Backlog de MEE
 
-Último estado: 21/840 publicadas, verificadas y agrupadas; 63 imágenes propias. Definición Esencial 15/15 y Capitalismo vs. Socialismo 6/15. Bloque 22–24 en investigación local, con nueve imágenes ya optimizadas e inspeccionadas. Blog → área → subcategoría; taxonomía exacta de 122 nodos y siete áreas.
+Último estado:27/840 publicadas, verificadas y agrupadas;81 imágenes propias. Definición Esencial15/15 y Capitalismo vs.Socialismo12/15. Bloque28–30 en investigación local, con nueve imágenes optimizadas e inspeccionadas. Blog → área → subcategoría;122 nodos y siete áreas conservados.
 
 Producción comprobada tras el bloque 4–6: 6/840 terminadas. En elaboración local: 7–9 con nueve imágenes propias; todavía no cuentan como publicadas. Consultar siempre WordPress y el registro 24 para el estado más reciente.
 

@@ -1,12 +1,12 @@
 # Estado de MEE y continuidad · 28/10/2026
 
-## Estado actual: 21/840 publicadas y jerarquía corregida
+## Estado actual: 27/840 publicadas y verificadas
 
-Los bloques 1–21 están publicados y verificados, con tres imágenes originales por artículo. WordPress confirma 21 terminadas, 0 borradores en curso y 819 pendientes. Definición Esencial está completa (15/15); Capitalismo vs. Socialismo tiene 6/15. Bloque 22–24 en investigación local: nueve imágenes originales optimizadas e inspeccionadas, sin texto completo ni fuentes centrales terminadas; no cuenta como publicado. Las 63 imágenes públicas son distintas por SHA-256 y las 21 entradas están en el sitemap. Entrega del bloque más reciente en docs/produccion/2026-10-28-bloque-019-021.md.
+Los bloques1–27 están publicados y verificados, con tres imágenes originales por artículo. WordPress confirma27 terminadas,0 borradores en curso y813 pendientes. Definición Esencial15/15; Capitalismo vs.Socialismo12/15. Bloque28–30 en preparación local: nueve imágenes originales optimizadas e inspeccionadas y fuentes en investigación; no cuenta como terminado. Las81 imágenes públicas son propias y diferentes porSHA256. Entregas recientes: docs/produccion/2026-10-28-bloque-022-024.md y2026-10-28-bloque-025-027.md.
 
-La comparación histórica de E5.3.05 utiliza una extracción de MPD2023 con atribución de las series y conserva sus límites. La tabla75 deLorimer1946 se revisó visualmente: cambia la definición censal, circunstancia indicada en el texto. No se inventan comparaciones causales. Las fuentes consultadas mediante extractos o resúmenes están identificadas en los expedientes.
+El bloque25–27 incluye encuestaGallup2026 con ficha técnica y margen total no extrapolado a subgrupos, Cuba con gacetas originales de septiembre2026 y DL88concordado, y diez argumentos con fuentes y respuestas respetuosas. No se inventa cuota económica deGAESA. Originales normativos y datos de encuesta conservados en los expedientes.
 
-Por la correccion expresa del fundador se aclaro que Blog es el contenedor general, se incorporaron area y subcategoria a las rutas visuales y schema y se elimino la categoria tecnica vacia Uncategorized. Los 122 nodos coinciden exactamente en nombre, slug y padre con el manifiesto: siete raices. Doce rutas visuales y schemas correctos. Detalle en docs/produccion/2026-10-28-jerarquia-blog.md y registros por bloque. No se cambiaron DNS, correo ni autenticacion.
+Blog es el contenedor general; «Editorial» es una firma/denominación de sección, no una categoría. Las entradas usan el área y la subcategoría previstas. Los122 nodos y las siete raíces se conservan; las etiquetas siguen el brief, incluido pais-cuba paraE5.3.11. Sin cambios de tema, DNS, correo o autenticación en esta producción.
 
 
 ## Último avance: bloque editorial 4–6

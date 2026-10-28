@@ -1,12 +1,19 @@
-# Preparación editorial · E5.3.09
+# Revisión editorial · E5.3.09
 
-- Tres imágenes originales generadas con imagegen integrado, comprimidas e inspeccionadas individualmente.
-- Portada1200×630; dos interiores1600×900; todas por debajo de250KB.
-- Fuentes y texto pendientes: esta entrada no está terminada ni publicada.
+Revisado el 28/10/2026. Texto completo; fuentes verificadas en el alcance exacto de article.json, sin atribuir lectura íntegra de fuentes consultadas por extractos. Tres imágenes originales distintas, comprimidas e inspeccionadas. Categorías resueltas por el publicador según manifiesto.
 
-## Reanudación
+## Controles
 
-- Leer fuente primaria sobre desvío de ríos y evolución delAral; distinguir partesNorte/Sur y no decir que todo desapareció.
-- Revisar INSAG7 sobre diseño,operación y cultura de seguridad. No deducir causalidad exclusiva de la propiedad.
-- Consultar serie primaria de contaminación deEuropaOriental pos1989 si se incluye una cifra.
-- No usar ilustraciones como reconstrucción técnica ni como datos sanitarios o antes/después de un río real.
+- ID, título, slug y número conservados.
+- Respuesta inicial, argumento contrario, lectura de MEE, ejemplos identificados, FAQ y fuentes.
+- Enlaces internos a entradas ya publicadas.
+- Imágenes 1200×630 y dos1600×900, WebP<250KB, alt y captions conceptuales.
+- Publicación y verificación pública completadas: HTTP200, H1, canonical, indexabilidad, Article, índice e imágenes; jerarquía y ausencia de duplicados comprobadas.
+
+## Límites
+
+- No se afirma que todo el Aral desapareciera ni se presenta el paisaje como dato real.
+- No se reduce Chernóbil a propiedad estatal, operadores o ausencia de precios.
+- No se ofrecen víctimas, dosis, predicciones de salud ni una explicación médica.
+- No se atribuye toda reducción de emisiones a privatización, transición o una causa única.
+- Se omiteEcocide1992 al no disponer de pasaje primario revisado.

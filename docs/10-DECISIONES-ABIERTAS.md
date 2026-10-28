@@ -78,3 +78,7 @@ Autorizó completar bloques de tres y pasar a los siguientes sin confirmaciones,
 ## Jerarquia del blog confirmada por el fundador
 
 Blog es el contenedor general, no una categoria adicional. El inventario coincide con los 122 nodos y siete areas previstos. Se corrigieron las rutas visuales y schema para incluir area y subcategoria, y se elimino la categoria tecnica vacia Uncategorized. Detalle y evidencia en docs/produccion/2026-10-28-jerarquia-blog.md. El publicador asigna siempre por el manifiesto; la produccion continua.
+
+## Continuidad editorial ·27/840 ·28/10/2026
+
+Bloques22–27 publicados y verificados sin cambiar categorías ni tema. Se mantiene la jerarquía del plan y se añade la etiqueta pais-cuba prevista paraE5.3.11. Los datos históricos y jurídicos conservan fecha y versión: Gallup2026, Cuba con gacetas de septiembre2026 y DL88concordado. No atribuir cuotas económicas deGAESA sin cuentas y perímetro verificables. Bloque28–30 en investigación local con nueve imágenes listas; no contarlo como completo. Respaldo completo tras27 entradas documentado en docs/produccion/2026-10-28-respaldo-veintisiete-entradas.md.
