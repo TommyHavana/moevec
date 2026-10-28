@@ -1,5 +1,12 @@
 # Estado de MEE y continuidad · 28/10/2026
 
+## Estado actual: 12/840 publicadas y jerarquia corregida
+
+Los bloques 7-9 y 10-12 estan publicados y verificados, con tres imagenes originales por articulo. WordPress confirma 12 terminadas, 0 borradores en curso y 828 pendientes. El bloque 13-15 esta iniciado en investigacion local, sin texto completo ni imagenes; no cuenta como terminado. Las 36 imagenes publicadas son distintas por SHA-256. Las doce entradas aparecen en el sitemap.
+
+Por la correccion expresa del fundador se aclaro que Blog es el contenedor general, se incorporaron area y subcategoria a las rutas visuales y schema y se elimino la categoria tecnica vacia Uncategorized. Los 122 nodos coinciden exactamente en nombre, slug y padre con el manifiesto: siete raices. Doce rutas visuales y schemas correctos. Detalle en docs/produccion/2026-10-28-jerarquia-blog.md y registros por bloque. No se cambiaron DNS, correo ni autenticacion.
+
+
 ## Último avance: bloque editorial 4–6
 
 Publicadas E5.1.04 (post 541), E5.1.05 (546) y E5.1.06 (551), cada una con tres imágenes originales WebP. WordPress confirma 6/840 terminadas, 0 borradores en curso y 834 pendientes, sin maquetas públicas. Categoría Capitalismo Consciente, subcategoría Definición Esencial y etiquetas de tema y nivel comprobadas; una publicación y tres adjuntos por ID, sin duplicados.

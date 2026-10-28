@@ -29,6 +29,8 @@ El plan editorial completo está en `../MEE_Plan_Editorial_840_entradas.md`, con
 
 ## Implementación
 
+La agrupación se hace directamente en WordPress con las categorías y subcategorías del manifiesto. «Blog» es el contenedor general; «Editorial» no es una categoría. Deben existir exactamente los 122 nodos previstos, incluidas las siete áreas principales. La categoría técnica vacía Uncategorized se retiró por la corrección expresa del fundador. La navegación y el BreadcrumbList muestran Blog, área y subcategoría; el publicador resuelve siempre la asignación explícita por slug del plan.
+
 El fundador autorizó la producción continua por bloques de tres, sin pedir confirmación entre bloques. Sigue `docs/26-PRODUCCION-CONTINUA.md`, reanuda con WordPress y `editorial/production-state.json`, y mantén cada artículo en su categoría y subcategoría. El seguimiento automático de este hilo ya está creado; no crear otra automatización duplicada.
 
 Contenido legible en HTML; movimiento progresivo, variante con movimiento reducido, teclado y móvil. Activar los recursos al acercarse al viewport y detener animación fuera de él. No depender del hover para funciones esenciales ni descargar todos los vídeos al abrir la portada. Los perfiles de movimiento y presupuestos son propuestas: medir antes de declararlos cumplidos.

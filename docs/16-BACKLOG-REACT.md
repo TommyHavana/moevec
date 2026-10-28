@@ -1,5 +1,7 @@
 # Backlog de MEE
 
+Ultimo estado: 12/840 publicadas, verificadas y correctamente agrupadas. Bloque 13-15 en investigacion local. Jerarquia visual y schema corregidos a Blog > area > subcategoria; taxonomia exacta de 122 nodos y siete areas.
+
 Producción comprobada tras el bloque 4–6: 6/840 terminadas. En elaboración local: 7–9 con nueve imágenes propias; todavía no cuentan como publicadas. Consultar siempre WordPress y el registro 24 para el estado más reciente.
 
 Actualizado el 28/10/2026 tras el encargo integral de UI/UX, WPO, SEO/GEO, blog y contacto. La autorización de ejecución de esta sesión está registrada en el estado y en el informe 22.

@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-28T11:17:15+00:00.
+Comprobado en WordPress: 2026-10-28T11:52:55+00:00.
 
-**6/840 terminadas · 0 en curso · 834 pendientes.**
+**12/840 terminadas · 0 en curso · 828 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -18,12 +18,12 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 4 | 1/56 · 4/15 | E5.1.04 | Capitalismo de mercado y capitalismo de amiguetes | terminada | 3/3 | [Leer](https://moevec.org/blog/capitalismo-de-mercado-y-de-amiguetes/) |
 | 5 | 1/56 · 5/15 | E5.1.05 | Economía mixta: el sistema real de casi todos los países | terminada | 3/3 | [Leer](https://moevec.org/blog/economia-mixta/) |
 | 6 | 1/56 · 6/15 | E5.1.06 | La función empresarial: el motor del capitalismo | terminada | 3/3 | [Leer](https://moevec.org/blog/funcion-empresarial-motor/) |
-| 7 | 1/56 · 7/15 | E5.1.07 | Capital: qué es y por qué hace más productivo el trabajo | pendiente | 0/3 | — |
-| 8 | 1/56 · 8/15 | E5.1.08 | Beneficio y pérdida: el sistema de señales que corrige errores | pendiente | 0/3 | — |
-| 9 | 1/56 · 9/15 | E5.1.09 | Orden espontáneo: lo que nadie diseñó y funciona | pendiente | 0/3 | — |
-| 10 | 1/56 · 10/15 | E5.1.10 | Las críticas más serias al capitalismo, en su mejor versión | pendiente | 0/3 | — |
-| 11 | 1/56 · 11/15 | E5.1.11 | Glosario MEE: 30 conceptos económicos explicados en una línea | pendiente | 0/3 | — |
-| 12 | 1/56 · 12/15 | E5.1.12 | Cómo explicar el capitalismo a alguien que lo odia | pendiente | 0/3 | — |
+| 7 | 1/56 · 7/15 | E5.1.07 | Capital: qué es y por qué hace más productivo el trabajo | terminada | 3/3 | [Leer](https://moevec.org/blog/capital-que-es-productividad/) |
+| 8 | 1/56 · 8/15 | E5.1.08 | Beneficio y pérdida: el sistema de señales que corrige errores | terminada | 3/3 | [Leer](https://moevec.org/blog/beneficio-y-perdida-senales/) |
+| 9 | 1/56 · 9/15 | E5.1.09 | Orden espontáneo: lo que nadie diseñó y funciona | terminada | 3/3 | [Leer](https://moevec.org/blog/orden-espontaneo/) |
+| 10 | 1/56 · 10/15 | E5.1.10 | Las críticas más serias al capitalismo, en su mejor versión | terminada | 3/3 | [Leer](https://moevec.org/blog/criticas-serias-al-capitalismo/) |
+| 11 | 1/56 · 11/15 | E5.1.11 | Glosario MEE: 30 conceptos económicos explicados en una línea | terminada | 3/3 | [Leer](https://moevec.org/blog/glosario-mee-30-conceptos/) |
+| 12 | 1/56 · 12/15 | E5.1.12 | Cómo explicar el capitalismo a alguien que lo odia | terminada | 3/3 | [Leer](https://moevec.org/blog/explicar-capitalismo-a-quien-lo-odia/) |
 | 13 | 1/56 · 13/15 | E5.1.13 | El capitalismo en una tienda de barrio: ejemplo completo | pendiente | 0/3 | — |
 | 14 | 1/56 · 14/15 | E5.1.14 | Preguntas frecuentes sobre el capitalismo | pendiente | 0/3 | — |
 | 15 | 1/56 · 15/15 | E5.1.15 | Test: ¿sabes cómo funciona una economía de mercado? | pendiente | 0/3 | — |

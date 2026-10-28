@@ -170,3 +170,8 @@ El fundador ordenó retirar las 115 maquetas e iniciar el plan de 840 briefs (56
 ## Continuidad automática
 
 El fundador autorizó avanzar continuamente en bloques de tres hasta completar las 840. La automatización de este hilo ya existe y está ACTIVE: `producci-n-editorial-mee-840`; comprueba la continuación cada cinco minutos y cada ejecución puede seguir al bloque siguiente. No duplicarla. Leer `docs/26-PRODUCCION-CONTINUA.md`, WordPress y `editorial/production-state.json`. El ordenador debe estar encendido y la app abierta para los accesos locales. Primer bloque en investigación: n.º 4–6, E5.1.04–06, Capitalismo Consciente → Definición Esencial; no confundir sus notas de investigación con artículos completos.
+
+
+## Jerarquia del blog confirmada por el fundador
+
+Blog es el contenedor general, no una categoria adicional. El inventario coincide con los 122 nodos y siete areas previstos. Se corrigieron las rutas visuales y schema para incluir area y subcategoria, y se elimino la categoria tecnica vacia Uncategorized. Detalle y evidencia en docs/produccion/2026-10-28-jerarquia-blog.md. El publicador asigna siempre por el manifiesto; la produccion continua.

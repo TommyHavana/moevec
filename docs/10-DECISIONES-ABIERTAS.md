@@ -73,3 +73,8 @@ Retirar las 115 maquetas e iniciar la producción editorial real, con numeració
 ## Decisión del fundador · continuidad automática, 28/10/2026
 
 Autorizó completar bloques de tres y pasar a los siguientes sin confirmaciones, manteniendo organización por categoría y subcategoría, imágenes propias y numeración individual. El seguimiento se configuró en el mismo chat, sin abrir tareas paralelas. No implica que tres artículos estén terminados por cada intervalo de comprobación.
+
+
+## Jerarquia del blog confirmada por el fundador
+
+Blog es el contenedor general, no una categoria adicional. El inventario coincide con los 122 nodos y siete areas previstos. Se corrigieron las rutas visuales y schema para incluir area y subcategoria, y se elimino la categoria tecnica vacia Uncategorized. Detalle y evidencia en docs/produccion/2026-10-28-jerarquia-blog.md. El publicador asigna siempre por el manifiesto; la produccion continua.
