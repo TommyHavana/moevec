@@ -15,3 +15,12 @@ Leer documentos TLC y normativa/jurisprudencia española. Mantener distinción e
 ## Recursos preparados
 
 Tres imágenes originales generadas con image_gen, optimizadas a WebP e inspeccionadas individualmente. Portada 1200×630 e interiores 1600×900, cada una menor de 250.000 bytes. Alt, pies, prompts y registros conservados. No regenerar ni duplicar.
+
+## Avance posterior: originales históricos descargados
+
+- **NYC Taxi Medallion Task Force Report, enero 2020**, 77 páginas archivadas. Leídas páginas PDF 14–15, impresas 13–14. El documento separa subastas 2013–2014 y mercado secundario 2018–2019, licencias independientes/corporativas y accesibilidad; no construir una caída porcentual con cestas distintas. La proporción de ejecuciones cambia el significado del promedio. El informe menciona competencia de plataformas y posible burbuja como factores, sin determinación definitiva de sobrevaloración por el grupo.
+- Atención: el texto de la subasta contiene una división por dos aparentemente inconsistente en una cifra máxima. **No usarla ni corregirla atribuyéndole otra cifra sin volver a la tabla original de la subasta**. Para el artículo bastan promedios con universo identificado o relato histórico sin porcentaje sintético.
+- **RDL 13/2018 original BOE**, 8 páginas, descargado. Preámbulo consultado en BOE: autorizaciones nacionales orientadas a servicios interurbanos y competencia de administraciones urbanas; **faltan lectura íntegra del articulado/transitorio y concordancia actual de LOTT/regulación territorial**.
+- EUR-Lex identifica sentencia C-50/21 de 08/06/2023 y posterior sentencia nacional de 27/11/2024. Barrera técnica a lectura completa de EUR-Lex persiste; **metadatos no sustituyen leer fallo y condiciones**. No se ha verificado norma nueva de octubre 2026 ni resultado de votación MRP.
+
+**Siguiente paso exacto:** obtener sentencia original C-50/21 y legislación vigente; leer medidas TLC si se incluyen como actuales. Redactar evitando porcentajes entre categorías no comparables y sin inventar titulares endeudados. No hay texto final ni publicación.

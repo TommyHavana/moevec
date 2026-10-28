@@ -15,3 +15,12 @@ Obtener y leer sentencia central y estudio CNMC; contrastar regulación territor
 ## Recursos preparados
 
 Tres imágenes originales generadas con image_gen, optimizadas a WebP e inspeccionadas individualmente. Portada 1200×630 e interiores 1600×900, cada una menor de 250.000 bytes. Alt, pies, prompts y registros conservados. No regenerar ni duplicar.
+
+## Avance posterior: sentencia y estudios archivados
+
+- **Sentencia de 01/06/2010, reproducción documental en FEDIFAR**, 25 páginas archivadas. Leídas páginas PDF 24–25, apartados 121–125 y fallo. Permite en principio módulos/distancias, pero no cuando impiden suficientes farmacias para atención adecuada en zonas demográficas particulares; verificación del juez nacional. Rechaza baremo que privilegia ejercicio profesional en Asturias. No describe aprobación incondicional del sistema ni exige un modelo único de competencia. Referencia oficial EUR-Lex identificada; acceso al texto completo oficial bloqueado por comprobación JS. Falta lectura de razonamiento anterior sobre necesidad y proporcionalidad.
+- **CNMC E/CNMC/003/15, 15/10/2015**, original de 152 páginas archivado. Resumen ejecutivo pp. 3–6 consultado: recomienda retirar módulos/distancias y otras restricciones; son recomendaciones, no reformas ya aprobadas. Falta leer evaluación Navarra y límites antes de usar efectos cuantificados.
+- **Actualización CNMC EI/02/2025 de 07/04/2026**, original de 139 páginas archivado. Portada, resumen e índice leídos: https://www.cnmc.es/sites/default/files/6595060.pdf . A pesar del código /2025, fecha de publicación del estudio es 2026. Cifras de nuevas farmacias/empleos son estimaciones potenciales bajo supuestos, no resultados observados; no trasladar estimación mayorista de ahorro a apertura minorista. Falta leer sección 3.4.1 pp. 94–103 y condiciones antes de incluir cifras.
+- BOE consolidado de Ley 16/1997 también archivado; lectura anterior de artículos y finales conservada. Informe CNMC 15/10/2025 sobre proyecto madrileño localizado: https://www.cnmc.es/sites/default/files/6191764.pdf . No confundir proyecto analizado con decreto vigente.
+
+**Siguiente paso exacto:** completar razonamiento del TJUE, pasajes Navarra 2015 y evaluación 2026; contrastar cada dato/regla autonómica que se decida usar. No hay texto final ni publicación.
