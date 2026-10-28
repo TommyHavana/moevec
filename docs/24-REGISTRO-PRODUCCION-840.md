@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-28T12:15:42+00:00.
+Comprobado en WordPress: 2026-10-28T12:33:58+00:00.
 
-**15/840 terminadas · 0 en curso · 825 pendientes.**
+**18/840 terminadas · 0 en curso · 822 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -27,9 +27,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 13 | 1/56 · 13/15 | E5.1.13 | El capitalismo en una tienda de barrio: ejemplo completo | terminada | 3/3 | [Leer](https://moevec.org/blog/capitalismo-en-una-tienda-de-barrio/) |
 | 14 | 1/56 · 14/15 | E5.1.14 | Preguntas frecuentes sobre el capitalismo | terminada | 3/3 | [Leer](https://moevec.org/blog/preguntas-frecuentes-capitalismo/) |
 | 15 | 1/56 · 15/15 | E5.1.15 | Test: ¿sabes cómo funciona una economía de mercado? | terminada | 3/3 | [Leer](https://moevec.org/blog/test-economia-de-mercado/) |
-| 16 | 2/56 · 1/15 | E5.3.01 | Qué es el socialismo: definiciones precisas para un debate honesto | pendiente | 0/3 | — |
-| 17 | 2/56 · 2/15 | E5.3.02 | El problema del cálculo: por qué la planificación central falla | pendiente | 0/3 | — |
-| 18 | 2/56 · 3/15 | E5.3.03 | Incentivos: por qué importa quién se queda con el fruto del trabajo | pendiente | 0/3 | — |
+| 16 | 2/56 · 1/15 | E5.3.01 | Qué es el socialismo: definiciones precisas para un debate honesto | terminada | 3/3 | [Leer](https://moevec.org/blog/que-es-el-socialismo-definiciones/) |
+| 17 | 2/56 · 2/15 | E5.3.02 | El problema del cálculo: por qué la planificación central falla | terminada | 3/3 | [Leer](https://moevec.org/blog/problema-del-calculo-planificacion/) |
+| 18 | 2/56 · 3/15 | E5.3.03 | Incentivos: por qué importa quién se queda con el fruto del trabajo | terminada | 3/3 | [Leer](https://moevec.org/blog/incentivos-fruto-del-trabajo/) |
 | 19 | 2/56 · 4/15 | E5.3.04 | Libertad política y libertad económica: ¿van juntas? | pendiente | 0/3 | — |
 | 20 | 2/56 · 5/15 | E5.3.05 | Los resultados del socialismo real: datos del siglo XX | pendiente | 0/3 | — |
 | 21 | 2/56 · 6/15 | E5.3.06 | Socialismo de mercado: Yugoslavia, Hungría y otras terceras vías | pendiente | 0/3 | — |

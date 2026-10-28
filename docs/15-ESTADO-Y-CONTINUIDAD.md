@@ -1,8 +1,8 @@
 # Estado de MEE y continuidad · 28/10/2026
 
-## Estado actual: 15/840 publicadas y jerarquía corregida
+## Estado actual: 18/840 publicadas y jerarquía corregida
 
-Los bloques 1–15 están publicados y verificados, con tres imágenes originales por artículo. WordPress confirma 15 terminadas, 0 borradores en curso y 825 pendientes. La subcategoría Definición Esencial está completa (15/15). Bloque16–18 iniciado en investigación local, Capitalismo vs. Socialismo; no cuenta como terminado. Las últimas nueve imágenes se inspeccionaron individualmente y todas pesan menos de175KB. Las quince entradas aparecen en el sitemap. Entrega detallada en docs/produccion/2026-10-28-bloque-013-015.md.
+Los bloques1–18 están publicados y verificados, con tres imágenes originales por artículo. WordPress confirma18terminadas,0borradores en curso y822pendientes. Definición Esencial completa15/15; Capitalismo vs. Socialismo,3/15. Bloque19–21 iniciado en investigación local, sin contar como terminado. Las54imágenes publicadas son distintas porSHA-256 y las18entradas están en el sitemap. Entregas en docs/produccion/2026-10-28-bloque-013-015.md y bloque-016-018.md.
 
 Por la correccion expresa del fundador se aclaro que Blog es el contenedor general, se incorporaron area y subcategoria a las rutas visuales y schema y se elimino la categoria tecnica vacia Uncategorized. Los 122 nodos coinciden exactamente en nombre, slug y padre con el manifiesto: siete raices. Doce rutas visuales y schemas correctos. Detalle en docs/produccion/2026-10-28-jerarquia-blog.md y registros por bloque. No se cambiaron DNS, correo ni autenticacion.
 
