@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-28T10:37:13+00:00.
+Comprobado en WordPress: 2026-10-28T11:17:15+00:00.
 
-**3/840 terminadas · 0 en curso · 837 pendientes.**
+**6/840 terminadas · 0 en curso · 834 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -15,9 +15,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 1 | 1/56 · 1/15 | E5.1.01 | Qué es el capitalismo (y qué no es) | terminada | 3/3 | [Leer](https://moevec.org/blog/que-es-el-capitalismo/) |
 | 2 | 1/56 · 2/15 | E5.1.02 | Capitalismo no es consumismo: la tesis de Bastos | terminada | 3/3 | [Leer](https://moevec.org/blog/capitalismo-no-es-consumismo/) |
 | 3 | 1/56 · 3/15 | E5.1.03 | El sistema de precios: cómo se coordinan millones de personas sin un plan | terminada | 3/3 | [Leer](https://moevec.org/blog/sistema-de-precios-coordinacion/) |
-| 4 | 1/56 · 4/15 | E5.1.04 | Capitalismo de mercado y capitalismo de amiguetes | pendiente | 0/3 | — |
-| 5 | 1/56 · 5/15 | E5.1.05 | Economía mixta: el sistema real de casi todos los países | pendiente | 0/3 | — |
-| 6 | 1/56 · 6/15 | E5.1.06 | La función empresarial: el motor del capitalismo | pendiente | 0/3 | — |
+| 4 | 1/56 · 4/15 | E5.1.04 | Capitalismo de mercado y capitalismo de amiguetes | terminada | 3/3 | [Leer](https://moevec.org/blog/capitalismo-de-mercado-y-de-amiguetes/) |
+| 5 | 1/56 · 5/15 | E5.1.05 | Economía mixta: el sistema real de casi todos los países | terminada | 3/3 | [Leer](https://moevec.org/blog/economia-mixta/) |
+| 6 | 1/56 · 6/15 | E5.1.06 | La función empresarial: el motor del capitalismo | terminada | 3/3 | [Leer](https://moevec.org/blog/funcion-empresarial-motor/) |
 | 7 | 1/56 · 7/15 | E5.1.07 | Capital: qué es y por qué hace más productivo el trabajo | pendiente | 0/3 | — |
 | 8 | 1/56 · 8/15 | E5.1.08 | Beneficio y pérdida: el sistema de señales que corrige errores | pendiente | 0/3 | — |
 | 9 | 1/56 · 9/15 | E5.1.09 | Orden espontáneo: lo que nadie diseñó y funciona | pendiente | 0/3 | — |

@@ -1,5 +1,11 @@
 # Estado de MEE y continuidad · 28/10/2026
 
+## Último avance: bloque editorial 4–6
+
+Publicadas E5.1.04 (post 541), E5.1.05 (546) y E5.1.06 (551), cada una con tres imágenes originales WebP. WordPress confirma 6/840 terminadas, 0 borradores en curso y 834 pendientes, sin maquetas públicas. Categoría Capitalismo Consciente, subcategoría Definición Esencial y etiquetas de tema y nivel comprobadas; una publicación y tres adjuntos por ID, sin duplicados.
+
+Verificación pública: HTTP 200, título H1 y punto ornamental de la plantilla existente, canonical, indexabilidad, schema Article, ocho enlaces de índice por artículo y nueve imágenes cuyo SHA-256 coincide con el archivo revisado. Evidencias por artículo en verification.json y en inventario/auditoria-2026-10-28/editorial-4-6-organization.json. El bloque 7–9 ya tiene nueve imágenes originales comprimidas e inspeccionadas; investigación y redacción en curso local, todavía fuera del total terminado. No se ha cambiado el tema ni redesplegado React.
+
 ## Ubicación
 
 Proyecto usado en esta sesión: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
