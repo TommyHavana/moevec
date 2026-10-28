@@ -18,7 +18,11 @@ add_filter('login_errors',function(){return 'No se ha podido iniciar sesión. Re
 add_filter('wp_sitemaps_users_pre_url_list','__return_empty_array');
 add_filter('wp_sitemaps_add_provider',function($provider,$name){return $name==='users'?false:$provider;},10,2);
 add_filter('wp_sitemaps_posts_query_args',function($args){$args['meta_query']=[['key'=>'_mee_demo','compare'=>'NOT EXISTS']];return $args;});
-add_filter('wp_sitemaps_taxonomies_query_args',function($args){$args['meta_query']=[['key'=>'_mee_demo_only','compare'=>'NOT EXISTS']];return $args;});
+add_filter('wp_sitemaps_taxonomies_query_args',function($args,$taxonomy){
+ $args['meta_query']=[['key'=>'_mee_demo_only','compare'=>'NOT EXISTS']];
+ if($taxonomy==='post_tag'){$levels=get_terms(['taxonomy'=>'post_tag','slug'=>['fundamentos','desarrollo','aplicacion'],'hide_empty'=>false,'fields'=>'ids']);if(!is_wp_error($levels))$args['exclude']=array_unique(array_merge($args['exclude']??[],$levels));}
+ return $args;
+},10,2);
 add_filter('wp_robots',function($robots){if(is_search() || is_attachment() || is_author() || is_singular('post')&&get_post_meta(get_the_ID(),'_mee_demo',true) || (is_category()&&get_term_meta(get_queried_object_id(),'_mee_demo_only',true)) || (is_home()&&!get_option('mee_has_real_articles'))){$robots['noindex']=true;unset($robots['index']);}$robots['max-image-preview']='large';return $robots;});
 add_action('save_post_post',function(){
  $q=new WP_Query(['post_type'=>'post','post_status'=>'publish','posts_per_page'=>1,'fields'=>'ids','meta_query'=>[['key'=>'_mee_demo','compare'=>'NOT EXISTS']]]);
