@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-28T16:36:41+00:00.
+Comprobado en WordPress: 2026-10-28T17:13:43+00:00.
 
-**48/840 terminadas · 0 en curso · 792 pendientes.**
+**54/840 terminadas · 0 en curso · 786 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -60,12 +60,12 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 46 | 4/56 · 1/15 | E7.6.01 | La búsqueda de rentas: competir por favores en lugar de clientes | terminada | 3/3 | [Leer](https://moevec.org/blog/busqueda-de-rentas/) |
 | 47 | 4/56 · 2/15 | E7.6.02 | Beneficios concentrados, costes dispersos: por qué sobreviven los subsidios | terminada | 3/3 | [Leer](https://moevec.org/blog/beneficios-concentrados-costes-dispersos/) |
 | 48 | 4/56 · 3/15 | E7.6.03 | Subsidios a los combustibles: caros y regresivos | terminada | 3/3 | [Leer](https://moevec.org/blog/subsidios-combustibles/) |
-| 49 | 4/56 · 4/15 | E7.6.04 | Las autopistas radiales: el rescate que pagaron todos | pendiente | 0/3 | — |
-| 50 | 4/56 · 5/15 | E7.6.05 | La PAC: el mayor programa de subsidios de Europa | pendiente | 0/3 | — |
-| 51 | 4/56 · 6/15 | E7.6.06 | Medios públicos: financiación, independencia y control | pendiente | 0/3 | — |
-| 52 | 4/56 · 7/15 | E7.6.07 | Publicidad institucional: el subsidio invisible a los medios | pendiente | 0/3 | — |
-| 53 | 4/56 · 8/15 | E7.6.08 | Libertad académica: quién decide qué se enseña | pendiente | 0/3 | — |
-| 54 | 4/56 · 9/15 | E7.6.09 | Financiación de ONG: transparencia sin persecución | pendiente | 0/3 | — |
+| 49 | 4/56 · 4/15 | E7.6.04 | Las autopistas radiales: el rescate que pagaron todos | terminada | 3/3 | [Leer](https://moevec.org/blog/autopistas-radiales-rescate/) |
+| 50 | 4/56 · 5/15 | E7.6.05 | La PAC: el mayor programa de subsidios de Europa | terminada | 3/3 | [Leer](https://moevec.org/blog/pac-subsidios-europa/) |
+| 51 | 4/56 · 6/15 | E7.6.06 | Medios públicos: financiación, independencia y control | terminada | 3/3 | [Leer](https://moevec.org/blog/medios-publicos-financiacion/) |
+| 52 | 4/56 · 7/15 | E7.6.07 | Publicidad institucional: el subsidio invisible a los medios | terminada | 3/3 | [Leer](https://moevec.org/blog/publicidad-institucional/) |
+| 53 | 4/56 · 8/15 | E7.6.08 | Libertad académica: quién decide qué se enseña | terminada | 3/3 | [Leer](https://moevec.org/blog/libertad-academica-financiacion-publica/) |
+| 54 | 4/56 · 9/15 | E7.6.09 | Financiación de ONG: transparencia sin persecución | terminada | 3/3 | [Leer](https://moevec.org/blog/financiacion-ong-transparencia/) |
 | 55 | 4/56 · 10/15 | E7.6.10 | Ciencia y poder: de Lysenko a la crisis de replicación | pendiente | 0/3 | — |
 | 56 | 4/56 · 11/15 | E7.6.11 | Argentina e INDEC: cuando el Estado manipuló sus estadísticas | pendiente | 0/3 | — |
 | 57 | 4/56 · 12/15 | E7.6.12 | Cuba: datos oficiales y control de la información económica | pendiente | 0/3 | — |

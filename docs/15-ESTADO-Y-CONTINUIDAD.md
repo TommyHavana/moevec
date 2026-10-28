@@ -1,12 +1,14 @@
 # Estado de MEE y continuidad · 28/10/2026
 
-## Estado actual: 48/840 publicadas y verificadas
+## Estado actual: 54/840 publicadas y verificadas
 
-Las entradas 1–48 están publicadas y verificadas, con 144 imágenes originales: **48 terminadas, 0 borradores WordPress y 792 pendientes**. Definición Esencial 15/15, Capitalismo vs. Socialismo 15/15, Corrupción Sistémica 15/15 y Subsidios y Favoritismo Político 3/15. Las 49–51 están en preparación local con nueve WebP propios optimizados e inspeccionados, alt, pies, prompts y fuentes iniciales. Faltan investigación central, textos y revisión; no contarlas como completas. Son 3 de las 792 pendientes; las otras 789 aún no iniciadas.
+Las entradas 1–54 están publicadas y verificadas, con 162 imágenes originales: **54 terminadas, 0 borradores WordPress y 786 pendientes**. Definición Esencial 15/15, Capitalismo vs. Socialismo 15/15, Corrupción Sistémica 15/15 y Subsidios y Favoritismo Político 9/15.
 
-Últimos informes: `docs/produccion/2026-10-28-bloque-043-045.md` y `2026-10-28-bloque-046-048.md`. Comprobados jerarquía, etiquetas, tres adjuntos únicos por artículo, SEO técnico público, sitemap, enlaces e imágenes. Blog es el contenedor; Editorial es firma, no categoría añadida. Registro MD/CSV/JSON sincronizado desde WordPress después de cada publicación.
+Las 55–57 están en preparación local: nueve WebP originales optimizados e inspeccionados, alt, pies, prompts y fuentes iniciales guardados. Faltan lectura central, textos y revisión; no contarlas como completas. Son 3 de las 786 pendientes; las otras 783 aún no se han iniciado. Reanudar E7.6.10, E7.6.11 y E7.6.12 sin regenerar imágenes. Un fallo de acceso a la ONEI desde una herramienta no demuestra que falten estadísticas.
 
-Respaldo consistente posterior a las 48: `/data/mee-backups/produccion-840-incremento-43-48-20261028/`, SQL de 4.600.716 bytes y 132 archivos de Medios nuevos con variantes, 8.960.347 bytes comprimidos. Hashes y miembros comprobados; sin nueva prueba de restauración completa. Cadena de restauración en `docs/produccion/2026-10-28-respaldo-043-048.md` y VPS. Sin cambios de arquitectura o permisos.
+Últimos informes: `docs/produccion/2026-10-28-bloque-049-051.md` y `2026-10-28-bloque-052-054.md`. Comprobados jerarquía, etiquetas, tres adjuntos únicos por artículo, SEO técnico público, sitemap, enlaces e imágenes. Blog es el contenedor; Editorial es firma, no categoría añadida. Registro MD/CSV/JSON sincronizado desde WordPress después de cada publicación.
+
+Respaldo consistente posterior a las 54: `/data/mee-backups/produccion-840-incremento-52-54-20261028/`, SQL de 4.784.525 bytes y 66 archivos de Medios nuevos con variantes, 4.243.316 bytes comprimidos. También se conserva el incremento 49–51. Hashes y miembros comprobados; sin nueva prueba de restauración completa. Cadena en `docs/produccion/2026-10-28-respaldo-052-054.md` y en el VPS. Sin cambios de arquitectura o permisos.
 
 
 El bloque25–27 incluye encuestaGallup2026 con ficha técnica y margen total no extrapolado a subgrupos, Cuba con gacetas originales de septiembre2026 y DL88concordado, y diez argumentos con fuentes y respuestas respetuosas. No se inventa cuota económica deGAESA. Originales normativos y datos de encuesta conservados en los expedientes.

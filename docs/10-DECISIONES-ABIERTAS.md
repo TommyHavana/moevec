@@ -105,3 +105,9 @@ Bloques 37–42 publicados y verificados, con 18 imágenes nuevas. Se mantuvo el
 -49–51 preparadas con nueve imágenes propias, sin texto final ni publicación; la preparación no incrementa el total terminado.
 - Criterios aplicados: canales y normas vigentes por país; rentas históricas≠pérdida social;FMI fiscal≠coste ambiental y distribución con muestra identificada. Fuentes y límites por expediente.
 - Respaldo incremental43–48 comprobado. Sin nueva decisión requerida, cambio de infraestructura ni modificación de la autorización de producción.
+
+## Producción 49–54 y continuación 55–57 · 28/10/2026
+
+Se publicaron y verificaron dos bloques consecutivos, según la autorización de producción continua. Total: 54/840 y 162 imágenes; Subsidios y Favoritismo Político, 9/15. Categoría raíz y subcategoría explícitas, etiquetas del brief y tres adjuntos por ID comprobados. Blog es contenedor; Editorial es firma.
+
+Las nueve imágenes de las 55–57 están guardadas, sin texto completo ni publicación. Reanudar investigación original, especialmente Graham/OSC, INDEC y multas a consultoras, y catálogo estadístico de la ONEI. El brief orienta la investigación y no demuestra sus afirmaciones. Copias SQL y Medios tras las 51 y 54 verificadas mediante hashes y miembros de archivo; sin nueva restauración completa. Sin cambios de DNS, correo, autenticación, tema o taxonomía.
