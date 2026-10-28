@@ -4,7 +4,8 @@ services:
       context: .
       dockerfile: Dockerfile
     depends_on:
-      - wordpress
+      wordpress-init:
+        condition: service_completed_successfully
     restart: unless-stopped
 
   wordpress:
@@ -26,6 +27,31 @@ services:
       database:
         condition: service_healthy
     restart: unless-stopped
+
+  wordpress-init:
+    build:
+      context: .
+      dockerfile: deploy/wordpress-cli.Dockerfile
+    entrypoint: ["/bin/sh"]
+    command: ["/opt/mee/install-wordpress.sh"]
+    environment:
+      WORDPRESS_DB_HOST: database:3306
+      WORDPRESS_DB_NAME: mee_wordpress
+      WORDPRESS_DB_USER: mee_wordpress
+      WORDPRESS_DB_PASSWORD: ${SERVICE_PASSWORD_MEE_DATABASE}
+      WORDPRESS_CONFIG_EXTRA: |
+        define('WP_HOME', 'https://moevec.org/blog');
+        define('WP_SITEURL', 'https://moevec.org/blog');
+        define('FORCE_SSL_ADMIN', true);
+      WORDPRESS_ADMIN_PASSWORD: ${SERVICE_PASSWORD_MEE_ADMIN}
+    volumes:
+      - wordpress-files:/var/www/html
+    depends_on:
+      wordpress:
+        condition: service_started
+      database:
+        condition: service_healthy
+    restart: "no"
 
   database:
     image: mariadb:11.4
