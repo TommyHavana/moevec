@@ -12,6 +12,6 @@ export default function HomePage() {
     </div><div className="area-grid">{areas.map((area, index) => <a className="area-card" data-reveal href={`/areas/${area.slug}/`} key={area.slug} aria-label={`Explorar ${area.name}`}>
       <picture><source media="(max-width: 720px)" srcSet={`/images/areas/${area.slug}-680.jpg`} /><img src={`/images/areas/${area.slug}.jpg`} alt="" width="1254" height="1254" loading={index < 3 ? "eager" : "lazy"} /></picture>
       <span className="area-card-shade" aria-hidden="true"/><span className="area-card-top"><span>{String(index + 1).padStart(2, "0")} / 07</span><span aria-hidden="true">↗</span></span><span className="area-card-title">{area.name}</span>
-    </a>)}<div className="grid-outro" data-reveal><img className="asterisk" src="/brand/mee-estrella-blanca-256.webp" alt="" width="256" height="256" /><p>Una conversación puede ser el principio de algo mucho más grande.</p><span>Espacio editorial · próxima fase</span></div></div></section>
+    </a>)}<div className="grid-outro" data-reveal><img className="asterisk" src="/brand/mee-estrella-blanca-256.webp" alt="" width="256" height="256" /><p>Una conversación puede ser el principio de algo mucho más grande.</p><a href="/blog/">Explorar el blog ↗</a></div></div></section>
   </main>;
 }

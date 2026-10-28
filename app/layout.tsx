@@ -11,9 +11,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return <html lang="es"><body>
     <a className="skip-link" href="#contenido">Saltar al contenido</a>
-    <header className="site-header"><a className="brand" href="/" aria-label="MEE, volver al inicio"><img src="/brand/mee-logo-tinta-rojo-640.webp" width="640" height="244" alt="" /></a><nav aria-label="Navegación principal"><a href="/#areas">Áreas</a></nav></header>
+    <header className="site-header"><a className="brand" href="/" aria-label="MEE, volver al inicio"><img src="/brand/mee-logo-tinta-rojo-640.webp" width="640" height="244" alt="" /></a><nav aria-label="Navegación principal"><a href="/#areas">Áreas</a><a href="/blog/">Blog</a></nav></header>
     {children}
-    <footer className="site-footer"><span>MEE · Movimiento de Evolución Económica</span><span>Espacio editorial en preparación</span></footer>
+    <footer className="site-footer"><span>MEE · Movimiento de Evolución Económica</span><a href="/blog/">Ir al blog ↗</a></footer>
     <MotionLayer />
   </body></html>;
 }

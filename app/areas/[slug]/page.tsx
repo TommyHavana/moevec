@@ -21,7 +21,7 @@ export default async function AreaPage({ params }: Props) {
     <AreaNavigation areaName={area.name} sections={area.sections} />
     <div className="story-content"><section className="story-thesis" data-reveal><p className="eyebrow">Lo que podemos crear</p><h2>{area.lead}</h2><p>{area.intro}</p><p className="story-detail">{area.detail}</p></section>
       <div className="chapter-list">{area.sections.map((s, i) => <section className="chapter" data-reveal id={s.slug} key={s.slug} aria-labelledby={`${s.slug}-title`}><p className="chapter-index">{String(i + 1).padStart(2, "0")} / {String(area.sections.length).padStart(2, "0")}</p><div><h2 id={`${s.slug}-title`}>{s.name}</h2><p className="chapter-benefit">{s.benefit}</p>{s.children.length > 0 && <ul className="chapter-topics">{s.children.map((child) => <li key={child.slug}>{child.name}{child.children?.length ? <ul>{child.children.map((nested) => <li key={nested.slug}>{nested.name}</li>)}</ul> : null}</li>)}</ul>}</div></section>)}</div>
-      <div className="editorial-link"><span className="eyebrow">Siguiente fase</span><p>Las ideas viven en la conversación.</p><span>El espacio editorial está en preparación.</span></div></div>
+      <div className="editorial-link"><span className="eyebrow">Blog MEE</span><p>Las ideas viven en la conversación.</p><a href="/blog/">Explorar el blog ↗</a></div></div>
     <a className="next-area" href={`/areas/${next.slug}/`}><span>Siguiente área <span aria-hidden="true">↗</span></span><strong>{next.name}</strong></a>
   </main>;
 }
