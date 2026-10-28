@@ -1,18 +1,20 @@
 # Estado de MEE y continuidad · 28/10/2026
 
-## Estado actual: 84/840 publicadas y verificadas
+## Estado actual: 90/840 publicadas y verificadas
 
-Entradas 1–84 completas: **84 terminadas, 252 imágenes originales públicas, 0 borradores WordPress y 756 pendientes**. Cinco tandas completas; Historia lleva 9/15 en Capitalismo Consciente.
+WordPress: **90 terminadas, 270 imágenes originales públicas, 0 borradores y 750 pendientes**. Seis tandas completas; Historia15/15 en Capitalismo Consciente.
 
-Esta ejecución terminó los bloques 79–81 y 82–84 (E5.2.04–09): comercio, Cuba, Asia oriental, países divididos, China y transiciones soviéticas. Informes y respaldos: `docs/produccion/2026-10-28-bloque-079-081.md` y `2026-10-28-bloque-082-084.md`. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces e imágenes comprobados. Una publicación y tres adjuntos por ID; categorías y etiquetas exactas. Blog es contenedor; Editorial es firma, no categoría.
+Esta ejecución completó **85–87 y 88–90, E5.2.10–15**: ideas económicas, Venezuela, Chile, Argentina, España y lecciones para Cuba. Texto, fuentes/revisión, prompts y dieciocho WebP propios conservados por ID. Informes de bloques y respaldos en docs/produccion/2026-10-28-{bloque,respaldo}-085-087.md y -088-090.md. Una publicación y tres adjuntos por ID, categorías y etiquetas exactas. Blog es contenedor; Editorial es firma, no categoría.
 
-Preparación local: **85–87, E5.2.10–12**, Historia / Capitalismo Consciente: historia de las ideas, Venezuela y Chile. Nueve originales de image_gen optimizados e inspeccionados, briefs, metadatos, alt/pies y prompts. Fuentes y textos pendientes, sin publicación; punto preciso en research-notes.md. Incluidas en 756 pendientes, con 753 sin iniciar. No regenerar imágenes.
+Comprobaciones públicas: HTTP200, H1, canonical, indexabilidad, Article, índice, sitemap, jerarquía/BreadcrumbList y cinco enlaces internos por artículo; tres imágenes con alt, dimensiones, variantes y hashes. Registro MD/CSV/JSON sincronizado tras cada publicación. No se redesplegó React ni se modificaron tema, taxonomía, DNS, correo o autenticación.
 
-Respaldo VPS 82–84: SQL 5.810.584 bytes, 66 medios nuevos y archivo 5.671.164 bytes. También guardado el incremento 79–81. Hashes y miembros verificados, sin nueva restauración completa. Cadena exacta en informes de respaldo. Registro MD/CSV/JSON sincronizado después de cada publicación. Continuación automática activa; sin redespliegue ni cambios de tema o taxonomía.
+Preparación local: **91–93 / E5.7.01–03**, nueva tanda7/56, Ética en el Intercambio / Capitalismo Consciente. Briefs y fuentes iniciales; Sandel presentación autoral leída, Smith localizado, Rothbard compartido, originales Akerlof1970 y Axelrod/Hamilton1981 archivados. Cuerpos pendientes de revisión, textos y nueve imágenes sin crear. Tres preparaciones locales incluidas en750 pendientes;747 sin iniciar. No hay publicaciones ni imágenes completas de91–93.
 
-Próximo paso: fuentes originales de los autores de la entrada85; para Venezuela, leyes originales, FMI y ENCOVI/UCAB con métodos y fechas, sanciones y petróleo; para Chile, CASEN2024 (nuevo método frente al anterior), dictadura/reformas y procesos constituyentes. No adoptar tesis de briefs como prueba. No hay article.html de 85–87.
+Siguiente paso: leer research-notes.md de91–93; seleccionar pasajes de Smith/simpatía/espectador y crítica Sandel, texto de Rothbard/no agresión y fuente Bastos verificable, modelos originales de cooperación/limones sin prometer que honestidad siempre gana. Generar tres imágenes por entrada, redactar/revisar y publicar/verificar en orden. Mantener etica-en-el-intercambio/fundamentos y resolver categorías por slug del plan.
 
-La auditoría integral fue encargada expresamente y está documentada en 22; esta ejecución se limitó a producción editorial. No hay nueva decisión de arquitectura ni permiso pendiente. No se comunicó agotamiento de imágenes.
+Respaldo VPS88–90: SQL6.042.031 bytes,66 medios y archivo3.218.776 bytes; también incremento85–87 con SQL5.930.393/medios3.830.384 bytes. Hashes y miembros comprobados, sin nueva restauración completa. Cadena exacta en informes. Copia local y fuente privada se guardan al cierre.
+
+La auditoría integral fue encargada expresamente el28/10/2026 y está en22. Esta ejecución fue producción editorial autorizada. No hay nuevas decisiones de arquitectura, propuestas pendientes de aprobación ni bloqueo técnico; no se comunicó agotamiento de imágenes. La automatización de este chat sigue activa hasta840.
 
 ## Historial anterior — no describe el estado actual
 

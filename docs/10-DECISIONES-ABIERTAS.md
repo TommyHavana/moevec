@@ -159,3 +159,9 @@ Bloque 79–81 iniciado, con nueve WebP propios revisados, fuentes iniciales y p
 Dos bloques consecutivos completados sin pedir confirmación: 84/840 y 252 imágenes públicas. Historia queda en 9/15; jerarquía y etiquetas exactas. WordPress sincronizado después de cada publicación, verificación pública y antiduplicados cerrados.
 
 85–87 iniciadas con nueve imágenes propias terminadas e inspeccionadas, briefs, metadatos y pendientes por ID. Fuentes y textos sin completar: no cuentan como terminadas. CASEN2024 incorpora nueva metodología; comparar solo series coherentes. Respaldo VPS de ambos incrementos verificado por hashes/miembros, sin nueva restauración completa. Sin cambios de arquitectura, taxonomía o infraestructura; autorización y automatización continuas vigentes.
+
+## Producción85–90 y continuación91–93 · 28/10/2026
+
+Dos bloques consecutivos terminados sin solicitar confirmación:90/840 y270 imágenes públicas. Historia15/15; categorías/subcategorías y etiquetas exactas, una publicación/tres adjuntos por ID. Registro sincronizado después de cada publicación; verificaciones públicas y de organización completas.
+
+91–93 iniciadas en Ética en el Intercambio, tanda7: briefs y fuentes iniciales, con cuerpos por revisar, textos e imágenes pendientes. No cuentan como terminadas. Mantener rigor: Smith/Sandel, Rothbard/Bastos y cooperación/limones con hipótesis y límites. No deriva de una ficha la lectura de un libro. Backups VPS85–87/88–90 verificados por hashes y miembros, sin nueva restauración completa. Sin cambios de arquitectura ni nuevas aprobaciones; autorización continua vigente.

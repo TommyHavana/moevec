@@ -1,7 +1,9 @@
-# Preparación · n.º 86 · E5.2.11
+# Publicada y verificada · 86 · E5.2.11
 
-Tres originales de image_gen terminados, WebP optimizados e inspeccionados: portada 1200×630 e interiores 1600×900, menos de 250.000 bytes cada uno. Bomba, papeles y maleta son metáforas, no fotografías de episodios, una moneda real ni una persona migrante. No regenerar.
+Venezuela: de la riqueza petrolera a la crisis humanitaria
 
-Investigación y texto pendientes. Consultar F-204, F-205 y F-108 completos; localizar Gacetas y alcance de controles/expropiaciones antes de describir normas. Buscar la edición más reciente de ENCOVI/UCAB, metodología, muestra y población; distinguir mediciones de ingresos y multidimensionales. FMI: separar dato observado, estimación y proyección. Leer los estudios originales de sanciones y petróleo, con fechas; no asignar toda la crisis a una sola causa ni adoptar la tesis del brief como prueba. No se ha leído para esta entrada Venezuela Before Chávez (2014).
+https://moevec.org/blog/venezuela-de-la-riqueza-a-la-crisis/
 
-Mantener historia/aplicacion/pais-venezuela. Preparar cronología fechada, dos ejemplos hipotéticos, mejor argumento contrario, lectura MEE, tres FAQ y enlaces existentes. No hay texto final ni publicación.
+Texto, metadatos, fuentes y alcance exacto en article.html, article.json y source-review.json. Revisión completa; tres originales image_gen en WebP con prompts, alt y pies, dimensiones y peso comprobados. Verificación pública sin incidencias en verification.json; navegación y organización comprobadas en el informe del bloque. Una publicación y tres adjuntos por ID. No regenerar ni duplicar.
+
+Los archivos de fuentes no implican lectura íntegra. Las descargas fallidas y las lecturas compartidas están identificadas en source-review.json y retrieval.json cuando existe. Las interpretaciones de MEE y ejemplos hipotéticos están señalados. No quedan tareas pendientes para contar esta entrada como terminada.

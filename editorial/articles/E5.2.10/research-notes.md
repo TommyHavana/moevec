@@ -1,7 +1,9 @@
-# Preparación · n.º 85 · E5.2.10
+# Publicada y verificada · 85 · E5.2.10
 
-Tres imágenes originales de image_gen listas: portada 1200×630 y dos interiores 1600×900, WebP menores de 250.000 bytes e inspeccionados individualmente. Prompts, alt y pies guardados. Galería anónima y árbol conceptual: no identifican retratos ni documentan genealogías. No regenerar.
+Historia de las ideas: de Smith a Bastos
 
-Investigación y artículo pendientes. Leer las fuentes F-001–F-011 del plan y localizar los originales pertinentes de Smith, Ricardo, Say, Marx, Menger, Mises, Hayek, Keynes, Rothbard, Huerta de Soto y Bastos. Verificar obras y fechas; distinguir resumen, interpretación e influencia documentada. No se ha leído aún el libro de Heilbroner de 1953 para esta entrada. No atribuirle afirmaciones desde el título.
+https://moevec.org/blog/historia-de-las-ideas-economicas/
 
-Siguiente paso: seleccionar pasajes originales verificables, ofrecer un recorrido equilibrado, dos ejemplos hipotéticos y argumento contrario fiel sin convertir diversidad de autores en un solo bloque. Añadir lectura de MEE, tres FAQ y cinco enlaces existentes. Todavía no hay article.html ni publicación.
+Texto, metadatos, fuentes y alcance exacto en article.html, article.json y source-review.json. Revisión completa; tres originales image_gen en WebP con prompts, alt y pies, dimensiones y peso comprobados. Verificación pública sin incidencias en verification.json; navegación y organización comprobadas en el informe del bloque. Una publicación y tres adjuntos por ID. No regenerar ni duplicar.
+
+Los archivos de fuentes no implican lectura íntegra. Las descargas fallidas y las lecturas compartidas están identificadas en source-review.json y retrieval.json cuando existe. Las interpretaciones de MEE y ejemplos hipotéticos están señalados. No quedan tareas pendientes para contar esta entrada como terminada.

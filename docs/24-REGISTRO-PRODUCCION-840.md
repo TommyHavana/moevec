@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-28T21:54:15+00:00.
+Comprobado en WordPress: 2026-10-28T22:35:36+00:00.
 
-**84/840 terminadas · 0 en curso · 756 pendientes.**
+**90/840 terminadas · 0 en curso · 750 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -96,12 +96,12 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 82 | 6/56 · 7/15 | E5.2.07 | Dos Coreas, dos Alemanias: experimentos naturales de la historia | terminada | 3/3 | [Leer](https://moevec.org/blog/dos-coreas-dos-alemanias/) |
 | 83 | 6/56 · 8/15 | E5.2.08 | China desde 1978: de la planificación al mercado (con partido único) | terminada | 3/3 | [Leer](https://moevec.org/blog/china-desde-1978/) |
 | 84 | 6/56 · 9/15 | E5.2.09 | La caída del bloque soviético y las transiciones de los noventa | terminada | 3/3 | [Leer](https://moevec.org/blog/caida-bloque-sovietico-transiciones/) |
-| 85 | 6/56 · 10/15 | E5.2.10 | Historia de las ideas: de Smith a Bastos | pendiente | 0/3 | — |
-| 86 | 6/56 · 11/15 | E5.2.11 | Venezuela: de la riqueza petrolera a la crisis humanitaria | pendiente | 0/3 | — |
-| 87 | 6/56 · 12/15 | E5.2.12 | Chile: de las reformas de los ochenta al debate actual | pendiente | 0/3 | — |
-| 88 | 6/56 · 13/15 | E5.2.13 | Argentina: un siglo de declive relativo | pendiente | 0/3 | — |
-| 89 | 6/56 · 14/15 | E5.2.14 | España: del aislamiento a la apertura (1959–hoy) | pendiente | 0/3 | — |
-| 90 | 6/56 · 15/15 | E5.2.15 | Lecciones de la historia para Cuba: qué funcionó en otras transiciones | pendiente | 0/3 | — |
+| 85 | 6/56 · 10/15 | E5.2.10 | Historia de las ideas: de Smith a Bastos | terminada | 3/3 | [Leer](https://moevec.org/blog/historia-de-las-ideas-economicas/) |
+| 86 | 6/56 · 11/15 | E5.2.11 | Venezuela: de la riqueza petrolera a la crisis humanitaria | terminada | 3/3 | [Leer](https://moevec.org/blog/venezuela-de-la-riqueza-a-la-crisis/) |
+| 87 | 6/56 · 12/15 | E5.2.12 | Chile: de las reformas de los ochenta al debate actual | terminada | 3/3 | [Leer](https://moevec.org/blog/chile-reformas-y-debate/) |
+| 88 | 6/56 · 13/15 | E5.2.13 | Argentina: un siglo de declive relativo | terminada | 3/3 | [Leer](https://moevec.org/blog/argentina-siglo-declive-relativo/) |
+| 89 | 6/56 · 14/15 | E5.2.14 | España: del aislamiento a la apertura (1959–hoy) | terminada | 3/3 | [Leer](https://moevec.org/blog/espana-del-aislamiento-a-la-apertura/) |
+| 90 | 6/56 · 15/15 | E5.2.15 | Lecciones de la historia para Cuba: qué funcionó en otras transiciones | terminada | 3/3 | [Leer](https://moevec.org/blog/lecciones-historia-para-cuba/) |
 | 91 | 7/56 · 1/15 | E5.7.01 | El mercado necesita virtudes: la tesis de Adam Smith | pendiente | 0/3 | — |
 | 92 | 7/56 · 2/15 | E5.7.02 | No agresión y propiedad: el fundamento ético del libre intercambio | pendiente | 0/3 | — |
 | 93 | 7/56 · 3/15 | E5.7.03 | Honradez comercial: por qué compensa no engañar | pendiente | 0/3 | — |
