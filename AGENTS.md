@@ -29,6 +29,8 @@ El plan editorial completo está en `../MEE_Plan_Editorial_840_entradas.md`, con
 
 ## Implementación
 
+El fundador autorizó la producción continua por bloques de tres, sin pedir confirmación entre bloques. Sigue `docs/26-PRODUCCION-CONTINUA.md`, reanuda con WordPress y `editorial/production-state.json`, y mantén cada artículo en su categoría y subcategoría. El seguimiento automático de este hilo ya está creado; no crear otra automatización duplicada.
+
 Contenido legible en HTML; movimiento progresivo, variante con movimiento reducido, teclado y móvil. Activar los recursos al acercarse al viewport y detener animación fuera de él. No depender del hover para funciones esenciales ni descargar todos los vídeos al abrir la portada. Los perfiles de movimiento y presupuestos son propuestas: medir antes de declararlos cumplidos.
 
 React y WordPress editorial están desplegados por encargo del fundador. `docs/14-ARQUITECTURA-EDITORIAL-Y-TIENDA.md` conserva la propuesta anterior; WooCommerce sigue para una fase futura. No construir checkout, cuentas, pagos o sincronización de CMS por anticipado. El fundador ordenó retirar las 115 maquetas y comenzar la producción del plan de 840 entradas. Las maquetas se enviaron a la papelera, su importador está retirado y no debe recrearlas ningún despliegue. Cada artículo terminado requiere fuentes revisadas, portada y dos apoyos interiores propios. Mantener siempre la numeración global 1–840 y los ID del plan, y diferenciar terminadas, en curso y pendientes. No inventar catálogo, testimonios, estadísticas, autores, negocios ni promesas de inversión. La presentación pública de MEE no cuenta historias personales de fundadores.

@@ -166,3 +166,7 @@ El texto siguiente conserva el documento editorial de trabajo. Sus nombres canó
 ## Actualización · producción editorial de 840 entradas
 
 El fundador ordenó retirar las 115 maquetas e iniciar el plan de 840 briefs (56 subcategorías × 15). Su importador está desactivado y fuera del arranque. La numeración global sigue el orden de tandas del documento original, no el orden taxonómico: n.º 1 = E5.1.01. Las primeras tres están publicadas con nueve imágenes originales en total; n.º 4–840 pendientes en esta entrega. Cada artículo requiere fuentes abiertas y contrastadas, portada y dos interiores propios, WebP inferiores a 250 KB y verificación. `docs/24-REGISTRO-PRODUCCION-840.md` y WordPress → Herramientas → Plan editorial · 840 contienen el estado individual. `scripts/sync-production-status.py` vuelve a leer WordPress y actualiza MD/CSV/JSON. No contar maquetas ni borradores vacíos como producción. Siguiente: E5.1.04.
+
+## Continuidad automática
+
+El fundador autorizó avanzar continuamente en bloques de tres hasta completar las 840. La automatización de este hilo ya existe y está ACTIVE: `producci-n-editorial-mee-840`; comprueba la continuación cada cinco minutos y cada ejecución puede seguir al bloque siguiente. No duplicarla. Leer `docs/26-PRODUCCION-CONTINUA.md`, WordPress y `editorial/production-state.json`. El ordenador debe estar encendido y la app abierta para los accesos locales. Primer bloque en investigación: n.º 4–6, E5.1.04–06, Capitalismo Consciente → Definición Esencial; no confundir sus notas de investigación con artículos completos.

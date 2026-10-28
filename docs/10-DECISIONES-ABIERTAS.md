@@ -69,3 +69,7 @@ No se han inventado datos jurídicos del titular, una aplicación Phoenix accesi
 ## Decisión del fundador · inicio de las 840, 28/10/2026
 
 Retirar las 115 maquetas e iniciar la producción editorial real, con numeración individual persistente. Cada artículo debe llevar portada y dos imágenes interiores propias. Se conserva el orden de las 56 tandas del documento de producción. Se mantienen el SEO y el schema del plugin MEE existente para evitar salidas duplicadas. Anacleto se presenta como firma editorial, sin currículum ni identidad personal inventados. El registro distingue terminadas, en curso y pendientes; consulta el documento 24 para el conteo vivo.
+
+## Decisión del fundador · continuidad automática, 28/10/2026
+
+Autorizó completar bloques de tres y pasar a los siguientes sin confirmaciones, manteniendo organización por categoría y subcategoría, imágenes propias y numeración individual. El seguimiento se configuró en el mismo chat, sin abrir tareas paralelas. No implica que tres artículos estén terminados por cada intervalo de comprobación.
