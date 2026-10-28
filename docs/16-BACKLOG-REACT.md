@@ -25,4 +25,4 @@ Actualizado el 28/10/2026 tras el encargo integral de UI/UX, WPO, SEO/GEO, blog 
 | MEE-19 | Respaldo externo | Valorar copia cifrada fuera del VPS y prueba de arranque de una restauración completa en otro entorno |
 | MEE-20 | Producción del plan de 840 artículos | En producción: consultar conteo e inventario individual en `24-REGISTRO-PRODUCCION-840.md` y WordPress → Herramientas → Plan editorial · 840 |
 
-Los nuevos ajustes parten de esta entrega. Las tablas de metáforas anteriores son guiones propuestos; el manifiesto visual registra lo realmente integrado. La revisión editorial de una entrada permite desmarcar «Maqueta editorial» en WordPress y recalcula su elegibilidad de indexación.
+Los nuevos ajustes parten de esta entrega. Las tablas de metáforas anteriores son guiones propuestos; el manifiesto visual registra lo realmente integrado. El estado individual de las 840 se consulta en el registro. El editor permite marcar la revisión de texto, fuentes e imágenes; el registro comprueba también publicación, extensión y archivos propios.
