@@ -15,13 +15,14 @@ function mee_post_area($id){
  }return null;
 }
 function mee_network_queue($event,WP_Post $post){
- if(!mee_network_enabled()||get_post_meta($post->ID,'_mee_demo',true))return;
+ if(!mee_network_enabled()||($event!=='post.withdrawn'&&get_post_meta($post->ID,'_mee_demo',true)))return;
  $payload=['event'=>$event,'post'=>['id'=>$post->ID,'url'=>get_permalink($post),'title'=>html_entity_decode(get_the_title($post),ENT_QUOTES,'UTF-8'),'excerpt'=>mb_substr(wp_strip_all_tags(get_the_excerpt($post)),0,2000),'area_slug'=>mee_post_area($post->ID),'published_at'=>get_post_time('c',true,$post)]];
  update_option('mee_red_queue_'.$post->ID,['payload'=>$payload,'attempt'=>0],false);
  if(!wp_next_scheduled('mee_network_dispatch',[$post->ID]))wp_schedule_single_event(time()+2,'mee_network_dispatch',[$post->ID]);
 }
 add_action('wp_after_insert_post',function($id,$post,$update,$before){
  if($post->post_type!=='post'||wp_is_post_revision($id)||wp_is_post_autosave($id))return;
+ if(get_post_meta($id,'_mee_demo',true)){if(get_post_meta($id,'_mee_network_synced',true))mee_network_queue('post.withdrawn',$post);return;}
  if($post->post_status==='publish')mee_network_queue($before&&$before->post_status==='publish'?'post.updated':'post.published',$post);
  elseif($before&&$before->post_status==='publish')mee_network_queue('post.withdrawn',$post);
 },10,4);
@@ -29,9 +30,10 @@ add_action('before_delete_post',function($id,$post){if($post->post_type==='post'
 add_action('mee_network_dispatch',function($id){
  if(!mee_network_enabled())return;
  $entry=get_option('mee_red_queue_'.$id);if(!$entry)return;
+ if($entry['payload']['event']!=='post.withdrawn'&&get_post_meta($id,'_mee_demo',true)){if(get_post_meta($id,'_mee_network_synced',true))$entry['payload']['event']='post.withdrawn';else{delete_option('mee_red_queue_'.$id);return;}}
  $config=mee_network_config();$body=wp_json_encode($entry['payload'],JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES);$timestamp=(string)time();
  $response=wp_remote_post($config['url'].'/api/webhooks/moevec',['timeout'=>8,'redirection'=>0,'headers'=>['Content-Type'=>'application/json','X-Mee-Timestamp'=>$timestamp,'X-Mee-Signature'=>'sha256='.hash_hmac('sha256',$timestamp.'.'.$body,$config['secret'])],'body'=>$body]);
- if(!is_wp_error($response)&&wp_remote_retrieve_response_code($response)>=200&&wp_remote_retrieve_response_code($response)<300){delete_option('mee_red_queue_'.$id);delete_option('mee_red_error_'.$id);return;}
+ if(!is_wp_error($response)&&wp_remote_retrieve_response_code($response)>=200&&wp_remote_retrieve_response_code($response)<300){if($entry['payload']['event']==='post.withdrawn')delete_post_meta($id,'_mee_network_synced');else update_post_meta($id,'_mee_network_synced','1');delete_option('mee_red_queue_'.$id);delete_option('mee_red_error_'.$id);return;}
  $delays=[60,300,1800,7200,21600];$attempt=(int)$entry['attempt'];
  update_option('mee_red_error_'.$id,['time'=>time(),'status'=>is_wp_error($response)?'connection_error':wp_remote_retrieve_response_code($response),'attempt'=>$attempt+1],false);
  if(isset($delays[$attempt])){$entry['attempt']=$attempt+1;update_option('mee_red_queue_'.$id,$entry,false);wp_schedule_single_event(time()+$delays[$attempt],'mee_network_dispatch',[$id]);}
