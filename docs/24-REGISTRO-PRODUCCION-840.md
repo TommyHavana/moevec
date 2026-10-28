@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-28T15:46:24+00:00.
+Comprobado en WordPress: 2026-10-28T16:36:41+00:00.
 
-**42/840 terminadas · 0 en curso · 798 pendientes.**
+**48/840 terminadas · 0 en curso · 792 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -54,12 +54,12 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 40 | 3/56 · 10/15 | E7.10.10 | Persecución regulatoria selectiva: el caso Yukos | terminada | 3/3 | [Leer](https://moevec.org/blog/persecucion-regulatoria-yukos/) |
 | 41 | 3/56 · 11/15 | E7.10.11 | Puertas giratorias: de cargo público a consejo de administración | terminada | 3/3 | [Leer](https://moevec.org/blog/puertas-giratorias/) |
 | 42 | 3/56 · 12/15 | E7.10.12 | Datos abiertos contra la corrupción: el caso ProZorro | terminada | 3/3 | [Leer](https://moevec.org/blog/datos-abiertos-prozorro/) |
-| 43 | 3/56 · 13/15 | E7.10.13 | Corrupción y regulación: por qué más normas pueden traer más sobornos | pendiente | 0/3 | — |
-| 44 | 3/56 · 14/15 | E7.10.14 | Cómo denunciar la corrupción con protección legal | pendiente | 0/3 | — |
-| 45 | 3/56 · 15/15 | E7.10.15 | Cómo pedir información pública: guía de acceso | pendiente | 0/3 | — |
-| 46 | 4/56 · 1/15 | E7.6.01 | La búsqueda de rentas: competir por favores en lugar de clientes | pendiente | 0/3 | — |
-| 47 | 4/56 · 2/15 | E7.6.02 | Beneficios concentrados, costes dispersos: por qué sobreviven los subsidios | pendiente | 0/3 | — |
-| 48 | 4/56 · 3/15 | E7.6.03 | Subsidios a los combustibles: caros y regresivos | pendiente | 0/3 | — |
+| 43 | 3/56 · 13/15 | E7.10.13 | Corrupción y regulación: por qué más normas pueden traer más sobornos | terminada | 3/3 | [Leer](https://moevec.org/blog/corrupcion-y-regulacion/) |
+| 44 | 3/56 · 14/15 | E7.10.14 | Cómo denunciar la corrupción con protección legal | terminada | 3/3 | [Leer](https://moevec.org/blog/denunciar-corrupcion-proteccion/) |
+| 45 | 3/56 · 15/15 | E7.10.15 | Cómo pedir información pública: guía de acceso | terminada | 3/3 | [Leer](https://moevec.org/blog/como-pedir-informacion-publica/) |
+| 46 | 4/56 · 1/15 | E7.6.01 | La búsqueda de rentas: competir por favores en lugar de clientes | terminada | 3/3 | [Leer](https://moevec.org/blog/busqueda-de-rentas/) |
+| 47 | 4/56 · 2/15 | E7.6.02 | Beneficios concentrados, costes dispersos: por qué sobreviven los subsidios | terminada | 3/3 | [Leer](https://moevec.org/blog/beneficios-concentrados-costes-dispersos/) |
+| 48 | 4/56 · 3/15 | E7.6.03 | Subsidios a los combustibles: caros y regresivos | terminada | 3/3 | [Leer](https://moevec.org/blog/subsidios-combustibles/) |
 | 49 | 4/56 · 4/15 | E7.6.04 | Las autopistas radiales: el rescate que pagaron todos | pendiente | 0/3 | — |
 | 50 | 4/56 · 5/15 | E7.6.05 | La PAC: el mayor programa de subsidios de Europa | pendiente | 0/3 | — |
 | 51 | 4/56 · 6/15 | E7.6.06 | Medios públicos: financiación, independencia y control | pendiente | 0/3 | — |

@@ -98,3 +98,10 @@ Bloque34–36publicado y verificado. LavaJato distingue fondos históricos MPF20
 ## Continuidad editorial · 42/840 · 28/10/2026
 
 Bloques 37–42 publicados y verificados, con 18 imágenes nuevas. Se mantuvo el área y la subcategoría del manifiesto. ENCIG distingue experiencia y desembolso; CICIG separa investigaciones de condenas; independencia judicial incorpora fuentes de 2026 y reformas mexicanas posteriores a 2024. Yukos diferencia resultados TEDH/arbitraje y recurso de 2025. Puertas giratorias respeta ámbitos y cambios de septiembre de 2026. ProZorro conserva límites del estudio original, sin presentar mejoras uniformes ni causalidad automática. Próximo bloque 43–45 iniciado; no hay cambio de arquitectura ni de autorización.
+
+## Continuidad editorial · bloques43–48 · 28/10/2026
+
+- Ejecutada la autorización continua existente: seis nuevas publicaciones completas y verificadas; total48/840. Corrupción Sistémica cierra15/15 y comienza Subsidios y Favoritismo Político3/15, conservando categorías del plan.
+-49–51 preparadas con nueve imágenes propias, sin texto final ni publicación; la preparación no incrementa el total terminado.
+- Criterios aplicados: canales y normas vigentes por país; rentas históricas≠pérdida social;FMI fiscal≠coste ambiental y distribución con muestra identificada. Fuentes y límites por expediente.
+- Respaldo incremental43–48 comprobado. Sin nueva decisión requerida, cambio de infraestructura ni modificación de la autorización de producción.
