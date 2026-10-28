@@ -9,6 +9,7 @@ const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'
 await fs.mkdir('public/images/topics',{recursive:true});
 await fs.mkdir('wordpress/plugins/mee-editorial/data',{recursive:true});
 const manifest=[];
+const actualDescriptions=['Hojas abiertas y suspendidas','Arcos enlazados que representan vínculos y generaciones','Anillos entrelazados como imagen del intercambio','Módulos en ascenso y una ruta de avance','Hojas y un tronco sobre un recipiente abierto','Nodos distribuidos alrededor de un recurso común','Marcos abiertos y una trayectoria que cruza sus límites'];
 const palette=[['#1649c3','#fa494b','#abc7ff'],['#e73543','#1547bb','#ffbdac'],['#1255ae','#ff8b51','#acd6e8'],['#ff642e','#193e94','#ffd082'],['#0a6158','#ef554b','#b3dac7'],['#2355d5','#ed4443','#b9cdfa'],['#192e69','#ef4547','#c1bfd8']];
 function art(area,index,depth=0){
  const [base,accent,light]=palette[area], p=index%6, n=4+index%4;
@@ -47,7 +48,7 @@ for (const [ai,c] of categories.entries()) {
    const file=`${c.slug}/${t.slug}`; await fs.mkdir(path.dirname(`public/images/topics/${file}`),{recursive:true});
    const svg=Buffer.from(art(ai,ix,depth));
    for(const width of [480,800,1200]) await sharp(svg).resize(width).webp({quality:80,effort:6}).toFile(`public/images/topics/${file}-${width}.webp`);
-   manifest.push({area:c.slug,areaName:c.name,slug:t.slug,name:t.name,parent,depth,benefit,concept:metaphors.get(t.slug)?.concept||`Composición sobre ${t.name}`,action:metaphors.get(t.slug)?.action||'Los elementos conectan las reglas, las decisiones y sus efectos.',image:`/images/topics/${file}-1200.webp`,motion:['unfold','inherit','exchange','build','grow','connect','inspect'][ai]});
+   manifest.push({area:c.slug,areaName:c.name,slug:t.slug,name:t.name,parent,depth,benefit,concept:`${actualDescriptions[ai]}: ${t.name}`,proposalConcept:metaphors.get(t.slug)?.concept||`Composición sobre ${t.name}`,action:metaphors.get(t.slug)?.action||'Los elementos conectan las reglas, las decisiones y sus efectos.',image:`/images/topics/${file}-1200.webp`,motion:['unfold','inherit','exchange','build','grow','connect','inspect'][ai]});
    const children=c.number===7&&depth===0?t.topics:t.children;
    if(children?.length) await walk(children,t.slug,depth+1);
   }

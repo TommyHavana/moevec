@@ -57,3 +57,11 @@ El fundador ha comprado `moevec.org` y ha encargado expresamente configurar DNS,
 - **Arquitectura adoptada en la fase actual:** Next/React para experiencia y WordPress para editorial en `/blog/`. WooCommerce para tienda/checkout sigue como recomendación futura, pendiente de decisión y encargo; no está instalado.
 - **Límite expreso del fundador:** no ejecutar todavía la auditoría total. El documento 18 es solamente el brief. Esto prevalece sobre prompts antiguos de revisión global automática.
 - **Entrega actual:** paquete portable de documentos y traspaso entre chats. No se cambió el código local; la incorporación se hace con el instalador y copia previa.
+
+## Decisiones expresas del 28/10/2026 · auditoría integral
+
+El fundador autorizó ejecutar la auditoría adjunta y todos los cambios recomendados en UI/UX, gráficos, WPO y SEO/GEO, con contacto React y correo DonDominio, coherencia de blog y una entrada de prueba por subcategoría. Esta autorización sustituye la espera anterior de auditoría y piloto en este encargo. Se conserva el modelo React + WordPress y se prepara el puente social sin migrar las áreas a WordPress.
+
+Decisiones aplicadas: 115 maquetas identificadas y excluidas del índice/webhook; ilustraciones abstractas propias en WebP; movimiento de siete familias y pausa compartida; formulario del mismo origen usando SMTP privado; segundo factor por correo; Search Console y sitemap público. Las entradas pueden pasar a contenido editorial mediante el control de maqueta tras su revisión.
+
+No se han inventado datos jurídicos del titular, una aplicación Phoenix accesible, actividad social, autores reales ni resultados de investigación. Siguen pendientes esos datos legales, el despliegue real de la red y la revisión editorial definitiva. La tienda y la licencia abierta general no se activan por este encargo.

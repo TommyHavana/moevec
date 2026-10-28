@@ -33,7 +33,7 @@ Referencia: [Turner Duckworth](https://turnerduckworth.com/), estudiada para esc
 | P1 | JPEG en áreas y falta de imágenes por tema | WebP con tamaños responsive y dimensiones. Primera imagen crítica priorizada; el resto diferido. Una composición visual diferenciada por subcategoría y nodo interno. Conservar fuentes fuera de la carga pública. |
 | P1 | Movimiento escaso y repetitivo | Hero y anillo con relieve, fondos activos solo visibles, movimientos por familia conceptual, cursor progresivo y estrella entre rutas. Pausa global accesible, reducción de movimiento, teclado, tacto y restauración desde historial comprobados. |
 | P1 | Blog sin jerarquía temática completa | Categorías padre y subcategorías sincronizadas desde la taxonomía existente; navegación por área y tema, búsqueda, migas, índice de lectura y tarjetas relacionadas. |
-| P1 | Posible enumeración de usuarios tras publicar | Restringir REST de usuarios y archivo de autor público; desactivar XML-RPC y edición de archivos; limitar intentos de acceso. 2FA requiere enrolamiento de un dispositivo del titular, no simularlo. |
+| P1 | Posible enumeración de usuarios tras publicar | Restringir REST de usuarios y archivo de autor público; desactivar XML-RPC y edición de archivos; limitar intentos de acceso. Activar un segundo factor disponible y comprobar el canal. TOTP exige enrolar el dispositivo del titular; el código por correo puede usar el buzón verificado. |
 | P1 | Legal y privacidad sin datos de titular comprobados | Publicar información veraz sobre contacto, tratamiento y cookies. Identificar explícitamente los datos de responsable que falten; no inventar nombre, NIF, domicilio, registro o base jurídica. La identidad completa es requisito externo pendiente. |
 | P1 | Ausencia de medición de accesibilidad | Comprobar foco, teclado, menú móvil, contraste, estructura, formularios y movimiento reducido. Eliminar ocultación de contenido si falla JavaScript. Corregir errores detectados por herramientas y revisión visual. |
 | P2 | Copias existentes sin restauración demostrada | Copia de fuente, volumen y base de datos antes de cambios. Probar extracción y restauración en base aislada cuando sea posible sin tocar producción. |
@@ -67,4 +67,140 @@ Fuentes técnicas consultadas: [Google: funciones de IA y sitios web](https://de
 
 Se registrarán comandos, resultados, rutas públicas, capturas de escritorio/móvil, auditorías de laboratorio, prueba SMTP y estado de la integración. Se marcará cada punto como aplicado, verificado, parcial o bloqueado por un dato/acceso externo. No se considerará creada una cuenta, recibido un correo, restaurada una copia o desplegado un cambio sin evidencia.
 
-Estado inicial: diagnóstico guardado; ejecución autorizada en curso.
+Estado inicial: diagnóstico guardado antes de modificar el producto. Resultados de la ejecución a continuación.
+
+## Resultados de la ejecución
+
+Se han aplicado y publicado los cambios de React, WordPress, correo e infraestructura en `https://moevec.org/`. Las credenciales se mantienen en el volumen privado del servidor; no se incluyen en este documento. Los commits de producto se conservan en el repositorio privado `TommyHavana/moevec`.
+
+### UI/UX, diseño y movimiento
+
+- Hero con anillo de relieve, surcos y luz en movimiento, respuesta de perspectiva al puntero, tipografía de entrada y deriva continua, y trayectorias de fondo.
+- Siete áreas con imágenes propias y acciones gráficas distintas: desplegar, transmitir, intercambiar, construir, crecer, conectar e inspeccionar. Las 56 secciones principales tienen ilustración propia y efecto por familia conceptual; los 59 temas internos tienen ilustración y efecto de inspección al desplegarse.
+- Cursor progresivo compartido con WordPress, sin ocultar el puntero nativo. Transición de estrella entre documentos del mismo origen, con salida alternativa por temporizador para conservar la navegación.
+- Pausa accesible que persiste entre React y WordPress, respeto a `prefers-reduced-motion`, pausa por visibilidad del documento y por intersección. El control aparece cuando su manejador está preparado. El contenido principal permanece legible sin JavaScript.
+- Blog con la misma cabecera, fuentes, paleta, pie, cursor y transición; navegación por las 7 áreas y sus temas en orden canónico, búsqueda, paginación, migas, índice de artículo y relacionados. La portada de maquetas alterna áreas para facilitar el descubrimiento.
+- Se han comprobado escritorio y viewport móvil de 390 px, incluido un título largo («Empoderamiento de Microemprendedores»), sin desbordamiento horizontal del documento. Se han revisado los mensajes de error del formulario, su foco y la confirmación de envío.
+
+Las ilustraciones de tema son composiciones gráficas propias creadas mediante SVG y rasterizadas a WebP. No se presentan como fotografías ni como representaciones documentales de hechos. El movimiento de familia no equivale a una película individual de cada objeto; este tratamiento gráfico es el entregado en esta versión.
+
+### Contenido de prueba
+
+**115 artículos de muestra publicados**, distribuidos en **122 categorías**: 7 áreas, 56 temas principales y 59 temas internos. Cada artículo tiene una imagen destacada real y disponible, entradilla, estructura de lectura, preguntas, ejercicio hipotético y relación con su área. La importación es reanudable e idempotente: los últimos arranques informan `created: 0, existing: 115`.
+
+Todas las muestras llevan señalización visible y `noindex`, se excluyen del sitemap y del webhook. La portada editorial y los archivos que solo contienen muestras también quedan fuera del índice. Esta decisión cumple el encargo de maquetación sin presentar texto de prueba como investigación editorial terminada. El editor incluye un control «Maqueta editorial». Al terminar la revisión y desmarcarlo, se retira `_mee_demo`; el plugin recalcula la elegibilidad de sus categorías y habilita el comportamiento editorial normal.
+
+Las 127 rutas comprobadas —12 páginas React y 115 artículos— responden correctamente, tienen un H1, canonical único y metadatos esenciales. Se verificaron las 115 anclas de temas principales e internos y las 345 variantes de ilustración. En WordPress hay 115 imágenes destacadas, ninguna ausente y ningún fragmento de idioma incorrecto en las entradas publicadas. No se borraron revisiones históricas al corregir las muestras.
+
+### WPO y mediciones
+
+Mediciones de Lighthouse en modo móvil, con Chrome headless y simulación de red/CPU de la herramienta. No son datos de usuarios reales, ni certifican INP de campo. Los JSON incluyen versión, hora y parámetros de cada ejecución.
+
+| Plantilla | Rendimiento | Accesibilidad | Buenas prácticas | SEO | LCP | CLS | TBT |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Portada inicial, antes | 83 | 100 | 100 | 100 | 1,2 s | 0 | 660 ms |
+| Portada actual | 98 | 100 | 100 | 100 | 1,0 s | 0 | 160 ms |
+| Área Trabajo | 98 | 100 | 100 | 100 | 2,1 s | 0 | 100 ms |
+| Contacto | 97 | 100 | 100 | 100 | 1,3 s | 0 | 200 ms |
+| Índice del blog | 97 | 100 | 100 | 69* | 1,5 s | 0 | 200 ms |
+| Artículo de muestra | 98 | 100 | 100 | 69* | 1,6 s | 0 | 150 ms |
+
+\* La reducción de la puntuación SEO del blog y la muestra corresponde a su exclusión deliberada de indexación. No debe retirarse `noindex` para obtener una puntuación de herramienta: primero debe existir contenido editorial definitivo. Una de las mediciones intermedias de área coincidió con un reinicio y registró 503 al solicitar robots; se repitió tras estabilizar el servicio y se conserva la evidencia intermedia.
+
+Las imágenes de categoría equivalentes bajaron de **3.661.698 a 1.286.236 bytes (64,9 % menos)**. Se añadieron variantes para móvil y vistas sociales. Las 345 imágenes de temas ocupan aproximadamente 3,9 MB en el repositorio; se solicitan según tamaño y proximidad, no como una descarga inicial de toda la colección. Los maestros JPEG quedaron fuera de `public/`. Los recursos gráficos públicos nuevos son WebP; favicon y archivos técnicos de WordPress conservan el formato que requiere su función.
+
+Nginx aplica gzip, caché de recursos, protección de rutas y caché breve de páginas WordPress anónimas. Las sesiones de edición, REST, formularios, búsquedas y escrituras evitan esa caché. Apache aplica expiración a imágenes y recursos editoriales; los CSS llevan versión derivada del archivo para que los cambios se actualicen. Se eliminaron CSS redundantes del tema padre que alteraban colores y contraste. Las fuentes son locales y usan `font-display: swap`.
+
+No había vídeos publicados que comprimir. Las animaciones nuevas se resuelven con gráficos, CSS y GSAP; no se añade una descarga de vídeo para producir estos efectos. Los criterios de vídeo descritos antes quedan como contrato para recursos futuros, sin afirmar una compresión que no se haya hecho.
+
+### Contacto y entregabilidad
+
+El formulario React usa `POST /blog/wp-json/mee/v1/contact`, con validación en servidor, token HMAC ligado al cliente, caducidad de 30 minutos, un mínimo de tiempo, campo trampa, control de origen y límites de frecuencia. Los datos se escapan antes de componer HTML. Se valida el destino de respuesta y el remitente SMTP es siempre `contacto@moevec.org`.
+
+Límites actuales: 3 envíos por IP y 2 por correo en una ventana de 15 minutos; límite global de 30 en 15 minutos. El token aceptado se recuerda para evitar duplicados al reintentar. La confirmación fallida se programa para reenvío sin perder la solicitud ya entregada.
+
+Pruebas realizadas:
+
+| Prueba | Resultado |
+|---|---|
+| Formulario vacío | Errores asociados a campos y foco en el primer error |
+| Solicitud válida al buzón del proyecto | Recibida, referencia `MEE-20261028-AD6779FA` |
+| Acuse HTML al mismo buzón de prueba | Recibido con la misma referencia |
+| Acuse externo a la cuenta Gmail del titular | Recibido en INBOX, referencia `MEE-20261028-F3C5A7C6` |
+| Autenticación en Gmail | SPF **pass**, DKIM **pass**, DMARC **pass**, TLS 1.3 |
+| Origen externo | 403 |
+| Token incorrecto | 403 |
+| Campos inválidos | 400 |
+| Campo trampa completo | 200 sin enviar correo |
+
+DNS comprobado tras guardar: MX de DonDominio, SPF `v=spf1 include:spf.dondominio.com ~all`, DKIM con selector `dddk` y DMARC `v=DMARC1; p=quarantine; adkim=r; aspf=r; pct=100`. La prueba externa confirma el funcionamiento conjunto; los mensajes internos de un mismo servidor no tenían esos sellos y no se usaron como prueba de autenticación externa.
+
+### Seguridad y continuidad
+
+- WordPress 7.1.3 y PHP 8.3.36 comprobados. Plugins activos: MEE Editorial y Two-Factor 0.17.0 procedente del repositorio oficial de WordPress.
+- Se activó el segundo factor **por correo** para `mee_admin`. Los códigos y la recuperación usan el buzón operativo `contacto@moevec.org`, corrigiendo la dirección inicial `admin@moevec.org`. La contraseña no se cambió. TOTP y códigos de respaldo adicionales pueden configurarse en el perfil; no se inventó un dispositivo del titular.
+- REST de usuarios y XML-RPC responden 404. Los directorios y archivos sensibles probados devuelven 403 o 404. Edición de archivos desactivada, limitación de intentos de acceso y respuesta de error genérica.
+- Cabeceras de protección presentes, versiones de Nginx/PHP retiradas de las respuestas, CSP en modo de observación con los recursos propios necesarios. `wp-config.php` con permisos 640. Ocho claves/sales diferentes, longitud mínima comprobada de 40 caracteres, sin mostrar sus valores.
+- Cron real del sistema cada minuto, compatible con nombres cambiantes de contenedores; WP-Cron de visitas desactivado.
+- `npm audit`: **0 vulnerabilidades conocidas** en el grafo analizado. Esto no equivale a una certificación de ausencia de vulnerabilidades de toda la infraestructura.
+- Copia previa SQL y volumen WordPress guardada en `/data/mee-backups/pre-auditoria-20261028`, con directorios privados. Restauración SQL en una base aislada: 12 tablas coincidentes; extracción de archivos y presencia de configuración/tema comprobadas. No se declara probado un arranque completo de una web restaurada en otro servidor. Continúan las copias diarias existentes de Coolify.
+
+El primer arranque del importador reveló la diferencia entre UID de Alpine y Debian. Se corrigió `wordpress-init` a `33:33`, se reparó la primera entrada incompleta y se verificaron arranques sucesivos sin duplicación. Los reinicios de Compose causan una breve interrupción de servicio; el registro de despliegue conserva ese comportamiento.
+
+### SEO, GEO e indexación ejecutada
+
+Canonical, Open Graph, Twitter Card, migas y JSON-LD se incorporaron en React y WordPress. La información estructurada describe contenido visible; las muestras no se marcan como artículos definitivos con autoría inventada. Existen páginas de presentación del movimiento, contacto, privacidad e información del sitio.
+
+Se verificó **la propiedad de dominio en Google Search Console mediante DNS** y se envió `https://moevec.org/sitemap.xml`. Google muestra **«Correcto» y 12 páginas descubiertas**. Descubrir páginas no equivale a que estén indexadas o posicionadas. El sitemap WordPress excluye las maquetas y podrá incorporar artículos reales cuando existan.
+
+Bing Webmaster Tools se abrió para comprobar disponibilidad: mostró la página de acceso sin sesión activa. No se creó una cuenta adicional ni se afirmó un envío inexistente. Como siguiente canal opcional, el titular puede autenticar su cuenta, añadir `moevec.org`, verificarla y enviar el mismo sitemap. La base técnica de rastreo ya está publicada.
+
+Para GEO se han aplicado las prácticas comprobables: HTML legible, organización clara, resúmenes, jerarquía y enlaces internos, vocabulario consistente y datos estructurados fieles. No se crean promesas de aparición en respuestas de IA ni contenido masivo indexable de prueba. No se añade `llms.txt` como supuesto requisito de Google.
+
+### Red social: preparado y límite real
+
+El puente está implementado en `mee-editorial/inc/network.php`, con webhook firmado, marcas de tiempo, cola y reintentos; respuesta pública cacheada y consumo desde React por el mismo origen. Las muestras se excluyen de la sincronización. El archivo `integrations/README.md` documenta la configuración privada y el contrato; `integrations/phoenix/` conserva los módulos recibidos del usuario.
+
+La API `https://red.moevec.org/api/v1/areas` **no está operativa con TLS válido**: el certificado observado no corresponde a `red.moevec.org`, y el DNS apunta al servicio de hosting de DonDominio. No se dispone aquí del proyecto Phoenix completo ni de una instancia de Kali accesible. Por eso no se activó el puente hacia un destino incorrecto. El sitio sigue funcionando y ofrece contacto.
+
+Para completar la integración de producción faltan la aplicación Phoenix completa, su despliegue, el DNS/TLS de `red.moevec.org`, el secreto compartido privado y las pruebas de publicación/retirada/firmas contra esa instancia. Los ensayos de Elixir descritos por la auditoría adjunta no se presentan como ejecutados de nuevo en esta sesión.
+
+## Correspondencia con la auditoría adjunta
+
+| IDs | Estado al cierre | Evidencia / límite |
+|---|---|---|
+| A-01, A-05 | Aplicados | React estático y WordPress separados; código y despliegue versionados |
+| A-02 | Verificado con alcance | PHP y copias; restauración SQL aislada y extracción, sin arranque completo de otro sitio |
+| A-03, A-04 | Verificados | HTTPS saliente 200 y cron del sistema |
+| A-06 | Verificado | Dos plugins activos e inventariados |
+| A-07 | Parcial por servicio externo | 7/56/59 preservados localmente; comparación con API Phoenix pendiente de su despliegue |
+| S-01, S-02 | Aplicados y comprobados | HTTPS, redirecciones y cabeceras; sin escaneo exhaustivo de todas las suites TLS |
+| S-03 a S-09 | Aplicados y comprobados | Generador, usuarios, acceso con segundo factor, edición, XML-RPC, rutas sensibles y directorios |
+| S-10 | Alcance explícito | Auditoría npm sin vulnerabilidades conocidas; no se ejecutó WPScan con base de pago ni se certifica un pentest |
+| S-11 a S-14 | Aplicados / comprobados según evidencia | Configuración 640, sales, cabeceras y correo autenticado |
+| P-01 a P-05 | Aplicados y medidos | Tabla Lighthouse, WebP, caché, gzip y fuentes locales; INP de campo pendiente de usuarios reales |
+| E-01 a E-06 | Aplicados | Metadatos, HTML, sitemap y Search Console; exclusiones intencionales de maquetas |
+| E-07 | Preparado | Enlaces de participación se activarán con la red válida |
+| X-01 a X-05 | Comprobaciones realizadas | Alternativas, foco, contraste, movimiento y H1; Lighthouse 100 no certifica por sí solo toda WCAG 2.2 AA |
+| L-01, L-02 | Parciales: dato del titular | Falta identidad jurídica, datos fiscales/domicilio aplicable y política definitiva de conservación |
+| L-03 | Descrito conforme a la instalación actual | Sin seguimiento no esencial; preferencias locales y cookies técnicas de editores documentadas |
+| L-04 | Preparado para la futura red | Criterios editoriales publicados; reglas definitivas de comunidad pendientes de la aplicación social |
+| L-05 | Sin licencia abierta general | No se asignaron derechos de terceros ni una licencia que el titular no había definido |
+| C-01 | Encargo de maquetación cumplido | 115 muestras; la publicación editorial definitiva queda diferenciada |
+| C-02 | Parcial por servicio externo | Fuente original preservada; no se pudo comparar textos de una API Phoenix activa |
+
+## Evidencias y entrega
+
+Carpeta: `inventario/auditoria-2026-10-28/`.
+
+- `baseline-http.json`, `final-http.json`: antes/después de rutas y cabeceras.
+- `public-route-checks.json`: 127 rutas comprobadas sin fallos estructurales detectados.
+- `taxonomy-assets-check.json`, `visuals-build.json`: taxonomía y recursos.
+- `lighthouse-before.json`, `lighthouse-final-home.json`, `lighthouse-final-area.json`, `lighthouse-contact.json`, `lighthouse-final-blog.json`, `lighthouse-final-article.json`: mediciones conservadas.
+- `contact-boundaries.json`, `mail-receipt-check.json`, `mail-authentication.json`: contacto y entregabilidad.
+- `security-check.json`, `npm-audit.json`: comprobaciones técnicas.
+- Capturas de portada en escritorio/móvil, blog, artículo móvil, contacto enviado, dominio verificado y sitemap con 12 páginas.
+
+Las evidencias locales pueden contener datos operativos del titular. No se sirven desde `public/`. Las contraseñas, claves SMTP, códigos de autenticación y copias SQL no se adjuntan a este informe.
+
+**Pendientes concretos:** completar la identidad y el expediente legal del responsable; desplegar/verificar la aplicación Phoenix para activar el puente; desarrollar y revisar contenido editorial definitivo antes de indexarlo; configurar Bing si se desea ese panel; valorar copia externa cifrada y una restauración completa en otro entorno. La ejecución técnica y gráfica descrita queda entregada sin atribuir premios, posición en buscadores ni cumplimiento legal no demostrado.

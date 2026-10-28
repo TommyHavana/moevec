@@ -24,3 +24,10 @@ add_action('save_post_post',function(){
  $q=new WP_Query(['post_type'=>'post','post_status'=>'publish','posts_per_page'=>1,'fields'=>'ids','meta_query'=>[['key'=>'_mee_demo','compare'=>'NOT EXISTS']]]);
  update_option('mee_has_real_articles',(bool)$q->posts,false);
 });
+
+// Recalculate archive eligibility when an editor finishes or withdraws an article.
+add_action('wp_after_insert_post',function($id,$post){
+ if($post->post_type!=='post'||wp_is_post_revision($id)||wp_is_post_autosave($id))return;
+ $terms=wp_get_post_categories($id);foreach($terms as$term)$terms=array_merge($terms,get_ancestors($term,'category','taxonomy'));
+ foreach(array_unique($terms)as$term){$q=new WP_Query(['post_type'=>'post','post_status'=>'publish','posts_per_page'=>1,'fields'=>'ids','no_found_rows'=>true,'cat'=>$term,'meta_query'=>[['key'=>'_mee_demo','compare'=>'NOT EXISTS']]]);if($q->posts)delete_term_meta($term,'_mee_demo_only');else update_term_meta($term,'_mee_demo_only','1');}
+},20,2);

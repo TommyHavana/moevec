@@ -102,3 +102,9 @@ body{font-family:"MEE Manrope",Arial,Helvetica,sans-serif}
 .grid-outro a,.next-area>span{color:var(--ink)}
 /* A motion control is offered only after its handler is ready. */
 .footer-bottom [data-motion-toggle]{display:none}.motion-ready .footer-bottom [data-motion-toggle]{display:inline-flex}
+/* Each area has a different graphic action: opening, inheritance, exchange,
+   construction, growth, connection and inspection. */
+.area-card .card-orbit{opacity:.22;inset:22%;animation:concept-orbit 16s ease-in-out infinite paused}
+.area-card.motion-playing .card-orbit{animation-play-state:running}.area-card-0 .card-orbit{border-radius:0 40% 0 0;animation-name:concept-unfold}.area-card-1 .card-orbit{border-radius:50% 50% 0 0;animation-name:concept-rise}.area-card-2 .card-orbit{box-shadow:35px 0 0 -1px #ffffff22;animation-name:concept-exchange}.area-card-3 .card-orbit{border-radius:8%;inset:32%;animation-name:concept-build}.area-card-4 .card-orbit{border-radius:0 80%;animation-name:concept-grow}.area-card-5 .card-orbit{border-style:dashed;animation-name:concept-orbit}.area-card-6 .card-orbit{border-radius:0;border-style:dotted;animation-name:concept-scan}
+.nested-visual{position:relative;margin:0;align-self:start;overflow:hidden;border-radius:3px}.nested-visual img{aspect-ratio:4/3;object-fit:cover}.nested-visual .visual-kinetic{inset:0}.nested-visual .visual-kinetic i{width:24%;border-width:1px}.nested-topic-body .nested-topic-body>.nested-visual{max-width:190px}
+@media(prefers-reduced-motion:reduce){.area-card .card-orbit{opacity:0}}

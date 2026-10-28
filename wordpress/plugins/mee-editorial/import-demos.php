@@ -15,7 +15,9 @@ foreach($topics as$index=>$topic){
  $found=get_page_by_path($post_slug,OBJECT,'post');
  if($found&&get_post_meta($found->ID,'_mee_demo',true)){
   update_post_meta($found->ID,'_mee_demo_order',$display_order);
+  $featured=get_post_thumbnail_id($found->ID);if($featured)update_post_meta($featured,'_wp_attachment_image_alt',$topic['concept']);
   $repaired_content=str_replace(['Examiner ','dans le contexte de'],['Examinar ','en el contexto de'],$found->post_content);
+  $repaired_content=str_replace(esc_html($topic['proposalConcept']??('Composición sobre '.$topic['name'])),esc_html($topic['concept']),$repaired_content);
   $repaired_excerpt=str_replace(['Examiner ','dans le contexte de'],['Examinar ','en el contexto de'],$found->post_excerpt);
   if($repaired_content!==$found->post_content||$repaired_excerpt!==$found->post_excerpt)wp_update_post(['ID'=>$found->ID,'post_content'=>$repaired_content,'post_excerpt'=>$repaired_excerpt]);
  }

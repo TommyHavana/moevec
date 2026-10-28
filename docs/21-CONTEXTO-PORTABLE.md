@@ -1,44 +1,24 @@
-# MEE · contexto portable para un nuevo chat
+# MEE · contexto portable
 
-Fecha: 28/10/2026, Europe/Madrid. Lee este documento antes de continuar. Es una fotografía del estado y las decisiones: contrasta cualquier cambio posterior con los archivos actuales. No da acceso al código de otro chat ni reemplaza una instrucción reciente del fundador.
+Actualizado el 28/10/2026 (Europe/Madrid). Estado actual, no una orden de volver a ejecutar trabajos terminados.
 
-## Proyecto
+MEE significa Movimiento de Evolución Económica. Fuente local: `/Users/nerea/Documents/Proyectos/MEE/mee-web`. Fuente privada de despliegue: `../mee-deploy-source`, repositorio `TommyHavana/moevec`. Next.js/React/TypeScript exportado a estático, Nginx, WordPress en `/blog/`, MariaDB y Coolify. React está publicado en `https://moevec.org/`; blog, contacto y correo funcionan. No reconstruir desde cero.
 
-MEE, Movimiento de Evolución Económica. Web de capacidades, educación y reflexión económica organizada en siete áreas. Identidad propia distinta de Calicata. Presentación pública sin historias personales de fundadores. Referencia de escala, ritmo gráfico y experiencia: https://turnerduckworth.com/; crear contenido, escenas y código propios. Aspiración a calidad de una candidatura Awwwards, sin prometer premio.
+El fundador encargó expresamente y autorizó ejecutar una auditoría integral de UI/UX, gráficos, WPO y SEO/GEO, contacto con `contacto@moevec.org`, una maqueta por subcategoría y preparación de la integración social. Se guardó primero el diagnóstico y se aplicaron cambios. Informe y pruebas: `docs/22-AUDITORIA-UIUX-WPO-SEO-GEO.md` e `inventario/auditoria-2026-10-28/`.
 
-## Carpeta y tecnología
+Se conservan siete áreas, 56 temas principales y 59 internos políticos. Hay 115 ilustraciones propias en WebP y 115 maquetas de artículo distribuidas en 122 categorías. Manifiesto generado: `content/visuals.json`; fuente canónica original en `fuentes/claude/docs/02-taxonomia.md`. No editar JSON generado a mano. Los textos y ejercicios de muestra están identificados como tales y no son estudios ni casos reales.
 
-`/Users/nerea/Documents/Proyectos/MEE/mee-web` es la carpeta local usada en esta sesión. Abrir esa carpeta en Codex. Existe una base Next.js/React/TypeScript, App Router, `output: "export"`, siete rutas de área y portada. `npm ci`; `npm run dev`; localhost:3000; `npm run content:sync`; `npm run build`; `npm run backup`. No reconstruir el proyecto. El fundador ha encargado desplegar con Coolify y avanzar WordPress; el estado exacto está en `docs/15-ESTADO-Y-CONTINUIDAD.md`.
+La portada tiene anillo con relieve, luz y surcos móviles, tipografía animada y fondo; React y WordPress comparten cursor, estrella de transición, identidad, pausa y reducción de movimiento. Cada familia visual tiene su acción; los temas internos se despliegan con imagen propia. Los guiones originales del inventario son propuestas: el manifiesto describe los recursos realmente integrados. Referencia de ritmo/escala: Turner Duckworth. No copiar sus recursos ni prometer Awwwards.
 
-## Decisiones y requisitos
+Contacto React usa una ruta WordPress del mismo origen. SMTP de DonDominio, solicitud al buzón y acuse HTML al remitente probados, incluso recepción externa con SPF/DKIM/DMARC pass. La configuración privada vive en el volumen de secretos; nunca copiar contraseñas a Git o documentos. WordPress `mee_admin` tiene segundo factor por correo al buzón operativo. No se cambió su contraseña.
 
-- React sigue en desarrollo. El 28/10/2026 el fundador compró `moevec.org` y encargó expresamente DNS, Coolify y WordPress editorial con tema hijo de Hello Elementor. La publicación y la instalación se verifican por separado; no declarar el blog operativo antes de comprobarlo.
-- Portada y mosaico de siete categorías; interior con índice superior sticky por subcategoría. Conservar nombres, orden y slugs originales.
-- Cada categoría y subcategoría tendrá imagen propia y movimiento que evoque su valor. Un zoom común no cumple por sí solo la intención semántica.
-- Hay siete categorías y 56 secciones principales (9/6/4/12/8/7/10). La séptima área añade 48 temas y once subtemas internos: 122 nodos contando categorías. Los 63 principales tienen propuestas visuales; el tratamiento de los otros 59 necesita definición y no se omite.
-- Todas las escenas deben conservar una composición quieta legible, alternativa de movimiento reducido y carga responsable. No reproducir 63 vídeos simultáneamente.
-- Tienda futura de arte digital. Confirmar si además venderá impresiones físicas y cómo se autorizan obras y licencias.
-- **No ejecutar la auditoría total todavía.** El fundador pidió primero la recomendación arquitectónica, ya respondida. Preparar documentos no equivale a encargar la auditoría.
+Search Console tiene la propiedad de dominio verificada por DNS y un sitemap correcto con 12 páginas descubiertas. Maquetas y archivos que solo contienen muestras llevan noindex y se excluyen de sitemap/webhook. En el editor existe el control «Maqueta editorial»; al retirarlo tras revisión se recalculan las categorías. Las puntuaciones de laboratorio son 97–98 de rendimiento y 100 de accesibilidad/buenas prácticas; las muestras penalizan la puntuación SEO por su noindex intencionado. No hay todavía INP de campo ni garantía de indexación.
 
-## Arquitectura recomendada, aún no decidida definitivamente
+Red social: el puente WordPress/React está preparado, con HMAC, cola, reintentos y caché. `integrations/phoenix/` conserva los módulos del usuario. `red.moevec.org` no tiene API operativa con TLS válido y falta el proyecto Phoenix completo/acceso a su entorno. Mantener el puente desactivado; no fingir conversación ni cuentas. Guía: `integrations/README.md`.
 
-Next.js para la experiencia visual, WordPress para gestión editorial y WooCommerce para productos, compra y descargas. El fundador ya ha elegido avanzar WordPress editorial con Hello Elementor como padre y tema hijo propio. React se prepara en `moevec.org/` y el blog en `moevec.org/blog/`, mediante una aplicación Compose en Coolify y repositorio privado de solo código. La tienda sigue sin encargo de implementación. El modo estático de Next necesita recompilar para publicar cambios de contenido; valorar servidor/revalidación cuando se defina edición real.
+Pendientes externos: identidad jurídica y expediente legal del responsable; despliegue completo de Phoenix; revisión y desarrollo editorial definitivo; Bing sin sesión; valorar copia externa cifrada y arranque de una restauración completa en otro entorno. Ya se restauró la SQL en base aislada (12 tablas) y se extrajeron los archivos del respaldo. WooCommerce y pagos siguen fuera de alcance.
 
-## Marca
-
-Paleta de trabajo: azul #1547BB, rojo #EF383E, papel #F7F6F2, tinta #15171B y blanco. Kit en `brand-kit/`: MEE compacto e inclinado, Archivo Black Italic y estrella roja de ocho rayos; PNG/WebP comprimidos, SVG y fuentes con licencias. Archivo para display y Manrope para lectura; WOFF2 locales. Logo reconstruido a partir de la cabecera preferida; falta comparación final para usos fuera de pantalla. No sustituirlo por el logo de Calicata ni afirmar una aprobación gráfica inexistente.
-
-## Estado comprobado y pendientes
-
-Existe la maqueta, siete imágenes de categoría y variantes, resúmenes, índice sticky, efectos iniciales, logo y favicon. La plantilla de secciones examinada no tiene imagen por subcategoría. No hay movimiento específico terminado para cada concepto. No hay WordPress ni WooCommerce funcionales comprobados. Un build satisfactorio está documentado el 28/10/2026; no se ha repetido al crear este paquete documental. Las capturas históricas de portada no validan los interiores ni la tipografía más reciente. No se hizo auditoría total.
-
-Los textos editoriales de presentación y beneficios son propuestas para revisión; no transformarlos en afirmaciones históricas o estadísticas demostradas. No inventar testimonios, autores, inversiones recomendadas, productos o permisos de artistas.
-
-## Fuentes y continuidad
-
-`AGENTS.md` es la guía de Codex; `fuentes/claude/docs/02-taxonomia.md` es la fuente original preservada. `content/*.json` se genera mediante scripts; no editarlo a mano. Los archivos históricos de Claude no prevalecen sobre instrucciones recientes. Estado en `docs/15-ESTADO-Y-CONTINUIDAD.md`; backlog en 16; requisitos visuales en 13; arquitectura propuesta en 14; brief futuro de auditoría en 18; inventario en 19; protocolo de chats en 20.
-
-Tarea siguiente propuesta: piloto de una categoría y dos subcategorías, con metáfora, guion, imagen quieta, capas y movimiento. El encargo concreto del usuario determina qué ejecutar. No fabricar la colección completa sin revisar el lenguaje visual del piloto. Al cerrar, dejar tarea, archivos, evidencia, decisiones, pendientes y siguiente paso en un traspaso; pedir solo archivos realmente imprescindibles si no se tiene acceso al proyecto.
+Comandos: `npm run content:sync`, `npm run assets:build` (desde la fuente local con maestros), `npm run build`, `npm run backup`. Antes de continuar, leer AGENTS, estado 15, backlog 16 e informe 22. La petición nueva fija el alcance.
 
 ## Presentación editorial completa de categorías y subcategorías
 

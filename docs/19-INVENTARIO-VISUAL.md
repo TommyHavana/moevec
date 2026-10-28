@@ -113,66 +113,71 @@ Todas las categorías ya tienen una primera imagen; no se ha verificado aquí su
 
 ## Niveles internos de Política y Economía
 
-Estos nombres proceden de la taxonomía; se preservan sus ejes y padres. Falta proponer el tratamiento visual de cada nodo. No se marcan como resueltos por compartir la imagen del eje.
+Estos nombres proceden de la taxonomía; se preservan sus ejes y padres. La entrega del 28/10/2026 incorpora una imagen individual y un efecto de inspección para cada nodo. El registro de archivos efectivos es `content/visuals.json`.
 
 | Eje | Tema o subtema | Nivel | Estado visual |
 | --- | --- | --- | --- |
-| Regulación y Emprendimiento | Trámites y Permisos para Abrir Negocio | 2 | Por desarrollar |
-| Regulación y Emprendimiento | Impuestos al Iniciar (Cargas Fiscales) | 2 | Por desarrollar |
-| Regulación y Emprendimiento | Regulaciones que Frenan Específicamente | 2 | Por desarrollar |
-| Impuestos y Redistribución | Impuestos Progresivos vs. Confiscación | 2 | Por desarrollar |
-| Impuestos y Redistribución | Impuestos Heredados (Sucesiones) | 2 | Por desarrollar |
-| Impuestos y Redistribución | Redistribución Estatal (Dónde Va Tu Dinero) | 2 | Por desarrollar |
-| Propiedad Privada y Expropiación | Nacionalizaciones y Confiscaciones Estatales | 2 | Por desarrollar |
-| Propiedad Privada y Expropiación | Regulaciones que Limitan el Uso de la Propiedad | 2 | Por desarrollar |
-| Propiedad Privada y Expropiación | Control de Alquileres y Restricciones de Vivienda | 3 | Por desarrollar |
-| Propiedad Privada y Expropiación | Zonificación y Restricciones de Uso de Tierra | 3 | Por desarrollar |
-| Propiedad Privada y Expropiación | Prohibiciones de Venta o Transferencia | 3 | Por desarrollar |
-| Propiedad Privada y Expropiación | Nacionalismo Económico y Restricciones a Extranjeros | 3 | Por desarrollar |
-| Propiedad Privada y Expropiación | Inseguridad Jurídica (Cambios de Leyes Retroactivos) | 2 | Por desarrollar |
-| Propiedad Privada y Expropiación | Leyes Retroactivas que Criminalizan lo Pasado | 3 | Por desarrollar |
-| Propiedad Privada y Expropiación | Cambios de Impuestos sin Transición (Sorpresa Fiscal) | 3 | Por desarrollar |
-| Propiedad Privada y Expropiación | Cambios en Derechos de Propiedad (Lo Que Era Tuyo, Ya No Lo Es) | 3 | Por desarrollar |
-| Propiedad Privada y Expropiación | Volatilidad Regulatoria (Leyes que Cambian Constantemente) | 3 | Por desarrollar |
-| Propiedad Privada y Expropiación | Interpretación Arbitraria de Leyes Existentes | 3 | Por desarrollar |
-| Propiedad Privada y Expropiación | Persecución Selectiva (Leyes Aplicadas Solo a Enemigos Políticos) | 3 | Por desarrollar |
-| Propiedad Privada y Expropiación | Cambios en Moneda/Sistema Financiero | 3 | Por desarrollar |
-| Inversión y Capital | Restricciones a Criptomonedas y Dinero Digital | 2 | Por desarrollar |
-| Inversión y Capital | Control de Inversión Extranjera | 2 | Por desarrollar |
-| Inversión y Capital | Regulación de Bolsa y Mercados de Valores | 2 | Por desarrollar |
-| Inversión y Capital | Control de Fondos de Pensión (Privados vs. Estatales) | 2 | Por desarrollar |
-| Inversión y Capital | Prohibiciones de Invertir en Ciertos Sectores | 2 | Por desarrollar |
-| Monopolios Estatales vs. Competencia | Monopolios Estatales (Servicios que Solo el Estado Puede Dar) | 2 | Por desarrollar |
-| Monopolios Estatales vs. Competencia | Barreras de Entrada Artificiales (Licencias, Permisos Selectivos) | 2 | Por desarrollar |
-| Monopolios Estatales vs. Competencia | Fijación de Precios por el Estado | 2 | Por desarrollar |
-| Monopolios Estatales vs. Competencia | Favoritismo a Empresas Conectadas Políticamente | 2 | Por desarrollar |
-| Monopolios Estatales vs. Competencia | Prohibición de Competencia en Sectores Específicos | 2 | Por desarrollar |
-| Monopolios Estatales vs. Competencia | Debilidades Regulatorias (Favoritismo en Contratación Pública, Vacíos que Empresas Explotan) | 2 | Por desarrollar |
-| Subsidios y Favoritismo Político | Financiamiento Estatal de Universidades (Qué Se Enseña, Qué No) | 2 | Por desarrollar |
-| Subsidios y Favoritismo Político | Subsidios a Medios de Comunicación Estatales | 2 | Por desarrollar |
-| Subsidios y Favoritismo Político | Financiamiento de ONG Alineadas Políticamente | 2 | Por desarrollar |
-| Subsidios y Favoritismo Político | Subsidios Directos a Empresas Selectas | 2 | Por desarrollar |
-| Subsidios y Favoritismo Político | Control de Investigación Científica (Qué Se Financia, Qué Se Silencia) | 2 | Por desarrollar |
-| Subsidios y Favoritismo Político | Desinformación Estatal y Control Narrativo | 2 | Por desarrollar |
-| Libertad de Expresión Económica | Censura de Contenido Financiero (Criptomonedas, Inversión) | 2 | Por desarrollar |
-| Libertad de Expresión Económica | Persecución a Creadores de Contenido Económico | 2 | Por desarrollar |
-| Libertad de Expresión Económica | Bloqueo de Información sobre Alternativas Financieras | 2 | Por desarrollar |
-| Libertad de Expresión Económica | Criminalización de Hablar Contra Políticas Económicas | 2 | Por desarrollar |
-| Libertad de Expresión Económica | Control de Redes Sociales y Plataformas (Moderación Política) | 2 | Por desarrollar |
-| Migración de Capital | Impuestos a Salida de Capital (Impuesto a la Fuga) | 2 | Por desarrollar |
-| Migración de Capital | Control de Cambio (Restricciones de Divisas) | 2 | Por desarrollar |
-| Migración de Capital | Congelamiento de Cuentas y Activos | 2 | Por desarrollar |
-| Migración de Capital | Restricciones en Transferencias Internacionales | 2 | Por desarrollar |
-| Migración de Capital | Nacionalidad Fiscal (Impuestos sobre Ciudadanos en el Exterior) | 2 | Por desarrollar |
-| Regulación Financiera | Regulación Bancaria que Favorece a Grandes Bancos | 2 | Por desarrollar |
-| Regulación Financiera | Restricciones a Fintech y Startups Financieras | 2 | Por desarrollar |
-| Regulación Financiera | Control de Tasas de Interés (Techo de Usura) | 2 | Por desarrollar |
-| Regulación Financiera | Requisitos de Capital que Excluyen a Pequeños Actores | 2 | Por desarrollar |
-| Regulación Financiera | Regulación de Crédito y Préstamos (Quién Puede Prestar) | 2 | Por desarrollar |
-| Regulación Financiera | Supervisión Excesiva y Compliance Costoso | 2 | Por desarrollar |
-| Corrupción Sistémica | Nepotismo en Contratación Pública y Privada | 2 | Por desarrollar |
-| Corrupción Sistémica | Sobornos y Extorsión Oficial | 2 | Por desarrollar |
-| Corrupción Sistémica | Impunidad Selectiva (Ricos/Conectados No Van a Prisión) | 2 | Por desarrollar |
-| Corrupción Sistémica | Jueces Politizados (Justicia Según Quién Seas) | 2 | Por desarrollar |
-| Corrupción Sistémica | Persecución Regulatoria Selectiva de Competidores | 2 | Por desarrollar |
-| Corrupción Sistémica | Enriquecimiento Ilícito de Funcionarios (Sin Consecuencias) | 2 | Por desarrollar |
+| Regulación y Emprendimiento | Trámites y Permisos para Abrir Negocio | 2 | WebP individual y efecto de inspección integrados |
+| Regulación y Emprendimiento | Impuestos al Iniciar (Cargas Fiscales) | 2 | WebP individual y efecto de inspección integrados |
+| Regulación y Emprendimiento | Regulaciones que Frenan Específicamente | 2 | WebP individual y efecto de inspección integrados |
+| Impuestos y Redistribución | Impuestos Progresivos vs. Confiscación | 2 | WebP individual y efecto de inspección integrados |
+| Impuestos y Redistribución | Impuestos Heredados (Sucesiones) | 2 | WebP individual y efecto de inspección integrados |
+| Impuestos y Redistribución | Redistribución Estatal (Dónde Va Tu Dinero) | 2 | WebP individual y efecto de inspección integrados |
+| Propiedad Privada y Expropiación | Nacionalizaciones y Confiscaciones Estatales | 2 | WebP individual y efecto de inspección integrados |
+| Propiedad Privada y Expropiación | Regulaciones que Limitan el Uso de la Propiedad | 2 | WebP individual y efecto de inspección integrados |
+| Propiedad Privada y Expropiación | Control de Alquileres y Restricciones de Vivienda | 3 | WebP individual y efecto de inspección integrados |
+| Propiedad Privada y Expropiación | Zonificación y Restricciones de Uso de Tierra | 3 | WebP individual y efecto de inspección integrados |
+| Propiedad Privada y Expropiación | Prohibiciones de Venta o Transferencia | 3 | WebP individual y efecto de inspección integrados |
+| Propiedad Privada y Expropiación | Nacionalismo Económico y Restricciones a Extranjeros | 3 | WebP individual y efecto de inspección integrados |
+| Propiedad Privada y Expropiación | Inseguridad Jurídica (Cambios de Leyes Retroactivos) | 2 | WebP individual y efecto de inspección integrados |
+| Propiedad Privada y Expropiación | Leyes Retroactivas que Criminalizan lo Pasado | 3 | WebP individual y efecto de inspección integrados |
+| Propiedad Privada y Expropiación | Cambios de Impuestos sin Transición (Sorpresa Fiscal) | 3 | WebP individual y efecto de inspección integrados |
+| Propiedad Privada y Expropiación | Cambios en Derechos de Propiedad (Lo Que Era Tuyo, Ya No Lo Es) | 3 | WebP individual y efecto de inspección integrados |
+| Propiedad Privada y Expropiación | Volatilidad Regulatoria (Leyes que Cambian Constantemente) | 3 | WebP individual y efecto de inspección integrados |
+| Propiedad Privada y Expropiación | Interpretación Arbitraria de Leyes Existentes | 3 | WebP individual y efecto de inspección integrados |
+| Propiedad Privada y Expropiación | Persecución Selectiva (Leyes Aplicadas Solo a Enemigos Políticos) | 3 | WebP individual y efecto de inspección integrados |
+| Propiedad Privada y Expropiación | Cambios en Moneda/Sistema Financiero | 3 | WebP individual y efecto de inspección integrados |
+| Inversión y Capital | Restricciones a Criptomonedas y Dinero Digital | 2 | WebP individual y efecto de inspección integrados |
+| Inversión y Capital | Control de Inversión Extranjera | 2 | WebP individual y efecto de inspección integrados |
+| Inversión y Capital | Regulación de Bolsa y Mercados de Valores | 2 | WebP individual y efecto de inspección integrados |
+| Inversión y Capital | Control de Fondos de Pensión (Privados vs. Estatales) | 2 | WebP individual y efecto de inspección integrados |
+| Inversión y Capital | Prohibiciones de Invertir en Ciertos Sectores | 2 | WebP individual y efecto de inspección integrados |
+| Monopolios Estatales vs. Competencia | Monopolios Estatales (Servicios que Solo el Estado Puede Dar) | 2 | WebP individual y efecto de inspección integrados |
+| Monopolios Estatales vs. Competencia | Barreras de Entrada Artificiales (Licencias, Permisos Selectivos) | 2 | WebP individual y efecto de inspección integrados |
+| Monopolios Estatales vs. Competencia | Fijación de Precios por el Estado | 2 | WebP individual y efecto de inspección integrados |
+| Monopolios Estatales vs. Competencia | Favoritismo a Empresas Conectadas Políticamente | 2 | WebP individual y efecto de inspección integrados |
+| Monopolios Estatales vs. Competencia | Prohibición de Competencia en Sectores Específicos | 2 | WebP individual y efecto de inspección integrados |
+| Monopolios Estatales vs. Competencia | Debilidades Regulatorias (Favoritismo en Contratación Pública, Vacíos que Empresas Explotan) | 2 | WebP individual y efecto de inspección integrados |
+| Subsidios y Favoritismo Político | Financiamiento Estatal de Universidades (Qué Se Enseña, Qué No) | 2 | WebP individual y efecto de inspección integrados |
+| Subsidios y Favoritismo Político | Subsidios a Medios de Comunicación Estatales | 2 | WebP individual y efecto de inspección integrados |
+| Subsidios y Favoritismo Político | Financiamiento de ONG Alineadas Políticamente | 2 | WebP individual y efecto de inspección integrados |
+| Subsidios y Favoritismo Político | Subsidios Directos a Empresas Selectas | 2 | WebP individual y efecto de inspección integrados |
+| Subsidios y Favoritismo Político | Control de Investigación Científica (Qué Se Financia, Qué Se Silencia) | 2 | WebP individual y efecto de inspección integrados |
+| Subsidios y Favoritismo Político | Desinformación Estatal y Control Narrativo | 2 | WebP individual y efecto de inspección integrados |
+| Libertad de Expresión Económica | Censura de Contenido Financiero (Criptomonedas, Inversión) | 2 | WebP individual y efecto de inspección integrados |
+| Libertad de Expresión Económica | Persecución a Creadores de Contenido Económico | 2 | WebP individual y efecto de inspección integrados |
+| Libertad de Expresión Económica | Bloqueo de Información sobre Alternativas Financieras | 2 | WebP individual y efecto de inspección integrados |
+| Libertad de Expresión Económica | Criminalización de Hablar Contra Políticas Económicas | 2 | WebP individual y efecto de inspección integrados |
+| Libertad de Expresión Económica | Control de Redes Sociales y Plataformas (Moderación Política) | 2 | WebP individual y efecto de inspección integrados |
+| Migración de Capital | Impuestos a Salida de Capital (Impuesto a la Fuga) | 2 | WebP individual y efecto de inspección integrados |
+| Migración de Capital | Control de Cambio (Restricciones de Divisas) | 2 | WebP individual y efecto de inspección integrados |
+| Migración de Capital | Congelamiento de Cuentas y Activos | 2 | WebP individual y efecto de inspección integrados |
+| Migración de Capital | Restricciones en Transferencias Internacionales | 2 | WebP individual y efecto de inspección integrados |
+| Migración de Capital | Nacionalidad Fiscal (Impuestos sobre Ciudadanos en el Exterior) | 2 | WebP individual y efecto de inspección integrados |
+| Regulación Financiera | Regulación Bancaria que Favorece a Grandes Bancos | 2 | WebP individual y efecto de inspección integrados |
+| Regulación Financiera | Restricciones a Fintech y Startups Financieras | 2 | WebP individual y efecto de inspección integrados |
+| Regulación Financiera | Control de Tasas de Interés (Techo de Usura) | 2 | WebP individual y efecto de inspección integrados |
+| Regulación Financiera | Requisitos de Capital que Excluyen a Pequeños Actores | 2 | WebP individual y efecto de inspección integrados |
+| Regulación Financiera | Regulación de Crédito y Préstamos (Quién Puede Prestar) | 2 | WebP individual y efecto de inspección integrados |
+| Regulación Financiera | Supervisión Excesiva y Compliance Costoso | 2 | WebP individual y efecto de inspección integrados |
+| Corrupción Sistémica | Nepotismo en Contratación Pública y Privada | 2 | WebP individual y efecto de inspección integrados |
+| Corrupción Sistémica | Sobornos y Extorsión Oficial | 2 | WebP individual y efecto de inspección integrados |
+| Corrupción Sistémica | Impunidad Selectiva (Ricos/Conectados No Van a Prisión) | 2 | WebP individual y efecto de inspección integrados |
+| Corrupción Sistémica | Jueces Politizados (Justicia Según Quién Seas) | 2 | WebP individual y efecto de inspección integrados |
+| Corrupción Sistémica | Persecución Regulatoria Selectiva de Competidores | 2 | WebP individual y efecto de inspección integrados |
+| Corrupción Sistémica | Enriquecimiento Ilícito de Funcionarios (Sin Consecuencias) | 2 | WebP individual y efecto de inspección integrados |
+
+
+## Entrega integrada el 28/10/2026
+
+La colección consta de siete imágenes de categoría y 115 ilustraciones temáticas individuales (56 principales y 59 internas), con variantes de 480, 800 y 1200 px. Los archivos efectivos, textos alternativos, familia y relación jerárquica están en `content/visuals.json`, generado por `scripts/build-visuals.mjs`. Las tablas anteriores preservan el guion metafórico propuesto; las ilustraciones entregadas son composiciones abstractas por familia, no una afirmación de haber representado literalmente cada guion original. `concept` describe la imagen real y `proposalConcept` conserva la propuesta. Los nodos internos se muestran en acordeones con efecto de inspección al abrirse. Las escenas se pausan por visibilidad y preferencia. Véase el informe 22 para capturas, bytes y pruebas.

@@ -8,7 +8,7 @@ La fuente editorial primaria es `fuentes/claude/docs/02-taxonomia.md`. La repres
 
 ## Qué decidió el fundador después de aquel ZIP
 
-1. La fase activa es **React local, completa y revisable**, seguida de WordPress cuando toque. No adelantar comunidad, debates, tienda ni publicación.
+1. React y WordPress están publicados. El fundador autorizó la auditoría integral, contacto y maquetas el 28/10/2026. Consulta el informe 22 y el último estado; la tienda sigue fuera de este encargo.
 2. Portada de alto impacto y mosaico gráfico de las siete categorías; interiores narrativos con navegación superior fija por subcategorías. Referencia visual: https://turnerduckworth.com/; imágenes y textos originales.
 3. Paleta viva de azul y rojo inspirada en Cuba sin reproducir literalmente su bandera. La versión de marca para pantallas vive en `brand-kit/` (SVG, PNG, WebP, tipografía y guía). Es una reconstrucción de la variante preferida que todavía se revisará con el fundador para usos fuera de pantalla.
 4. Sin Git, sin GitHub Actions y sin despliegue. Todo vive en esta carpeta del ordenador.
@@ -31,4 +31,4 @@ Cada categoría y subcategoría tendrá imagen y movimiento que evoque su valor.
 
 ## Actualización de despliegue del 28/10/2026
 
-Las decisiones antiguas de esta guía sobre no usar Git, no publicar y aplazar WordPress fueron sustituidas por la petición posterior del fundador. React está publicado en `moevec.org/` y WordPress editorial en `moevec.org/blog/`, con Hello Elementor, tema hijo MEE y una fuente privada de despliegue en `../mee-deploy-source/`. La carpeta de trabajo sigue siendo `mee-web/`. GitHub Actions no está disponible durante tres días y no es necesario para construir desde Coolify. El estado exacto se registra en `15-ESTADO-Y-CONTINUIDAD.md`; la auditoría total y WooCommerce siguen pendientes de encargo.
+Las decisiones antiguas de esta guía sobre no usar Git, no publicar y aplazar WordPress fueron sustituidas por la petición posterior del fundador. React está publicado en `moevec.org/` y WordPress editorial en `moevec.org/blog/`, con Hello Elementor, tema hijo MEE y una fuente privada de despliegue en `../mee-deploy-source/`. La carpeta de trabajo sigue siendo `mee-web/`. GitHub Actions no está disponible durante tres días y no es necesario para construir desde Coolify. El estado exacto se registra en `15-ESTADO-Y-CONTINUIDAD.md`; la auditoría integral ya se encargó y se documentó en el informe 22; WooCommerce sigue pendiente de encargo.
