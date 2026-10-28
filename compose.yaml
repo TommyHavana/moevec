@@ -1,4 +1,12 @@
 services:
+  secrets-init:
+    build:
+      context: .
+      dockerfile: deploy/secrets.Dockerfile
+    volumes:
+      - secret-files:/run/mee-secrets
+    restart: "no"
+
   web:
     build:
       context: .
@@ -16,13 +24,14 @@ services:
       WORDPRESS_DB_HOST: database:3306
       WORDPRESS_DB_NAME: mee_wordpress
       WORDPRESS_DB_USER: mee_wordpress
-      WORDPRESS_DB_PASSWORD: ${SERVICE_PASSWORD_MEE_DATABASE}
+      WORDPRESS_DB_PASSWORD_FILE: /run/mee-secrets/database_password
       WORDPRESS_CONFIG_EXTRA: |
         define('WP_HOME', 'https://moevec.org/blog');
         define('WP_SITEURL', 'https://moevec.org/blog');
         define('FORCE_SSL_ADMIN', true);
     volumes:
       - wordpress-files:/var/www/html
+      - secret-files:/run/mee-secrets:ro
     depends_on:
       database:
         condition: service_healthy
@@ -38,14 +47,14 @@ services:
       WORDPRESS_DB_HOST: database:3306
       WORDPRESS_DB_NAME: mee_wordpress
       WORDPRESS_DB_USER: mee_wordpress
-      WORDPRESS_DB_PASSWORD: ${SERVICE_PASSWORD_MEE_DATABASE}
+      WORDPRESS_DB_PASSWORD_FILE: /run/mee-secrets/database_password
       WORDPRESS_CONFIG_EXTRA: |
         define('WP_HOME', 'https://moevec.org/blog');
         define('WP_SITEURL', 'https://moevec.org/blog');
         define('FORCE_SSL_ADMIN', true);
-      WORDPRESS_ADMIN_PASSWORD: ${SERVICE_PASSWORD_MEE_ADMIN}
     volumes:
       - wordpress-files:/var/www/html
+      - secret-files:/run/mee-secrets:ro
     depends_on:
       wordpress:
         condition: service_started
@@ -58,10 +67,14 @@ services:
     environment:
       MARIADB_DATABASE: mee_wordpress
       MARIADB_USER: mee_wordpress
-      MARIADB_PASSWORD: ${SERVICE_PASSWORD_MEE_DATABASE}
-      MARIADB_ROOT_PASSWORD: ${SERVICE_PASSWORD_MEE_ROOT}
+      MARIADB_PASSWORD_FILE: /run/mee-secrets/database_password
+      MARIADB_ROOT_PASSWORD_FILE: /run/mee-secrets/root_password
     volumes:
       - database-files:/var/lib/mysql
+      - secret-files:/run/mee-secrets:ro
+    depends_on:
+      secrets-init:
+        condition: service_completed_successfully
     healthcheck:
       test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
       interval: 10s
@@ -70,5 +83,6 @@ services:
     restart: unless-stopped
 
 volumes:
+  secret-files:
   wordpress-files:
   database-files:

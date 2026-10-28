@@ -13,6 +13,7 @@ until test -f wp-config.php && test -f wp-includes/version.php; do
 done
 
 if ! wp core is-installed --path=/var/www/html --quiet; then
+  WORDPRESS_ADMIN_PASSWORD=$(cat /run/mee-secrets/admin_password)
   wp core install \
     --path=/var/www/html \
     --url=https://moevec.org/blog \
