@@ -3,9 +3,10 @@
 if(!defined('ABSPATH') || !defined('WP_CLI'))exit;
 require_once ABSPATH.'wp-admin/includes/image.php';
 $topics=json_decode(file_get_contents(__DIR__.'/data/topics.json'),true);
-$ids=[];$created=0;$existing=0;
+$ids=[];$created=0;$existing=0;$area_positions=[];
 foreach(mee_editorial_categories()as$slug=>$name){$term=get_term_by('slug',$slug,'category');if(!$term){$new=wp_insert_term($name,'category',['slug'=>$slug]);if(is_wp_error($new))WP_CLI::error($new->get_error_message());$term=get_term($new['term_id'],'category');}wp_update_term($term->term_id,'category',['name'=>$name]);$ids[$slug]=$term->term_id;}
 foreach($topics as$index=>$topic){
+ $area_position=$area_positions[$topic['area']]??0;$area_positions[$topic['area']]=$area_position+1;$area_index=array_search($topic['area'],array_keys(mee_editorial_categories()),true);$display_order=(int)$topic['depth']*10000+$area_position*7+$area_index;
  $slug=$topic['slug'];$parent=$ids[$topic['parent']??$topic['area']];$term=get_term_by('slug',$slug,'category');
  if(!$term){$insert=wp_insert_term($topic['name'],'category',['slug'=>$slug,'parent'=>$parent,'description'=>$topic['benefit']]);if(is_wp_error($insert))WP_CLI::error($insert->get_error_message());$term=get_term($insert['term_id'],'category');}
  elseif((int)$term->parent!==$parent){WP_CLI::warning('Existing taxonomy parent differs for '.$slug.'; preserved.');}
@@ -13,6 +14,7 @@ foreach($topics as$index=>$topic){
  $post_slug='muestra-'.$topic['area'].'-'.$slug;
  $found=get_page_by_path($post_slug,OBJECT,'post');
  if($found&&get_post_meta($found->ID,'_mee_demo',true)){
+  update_post_meta($found->ID,'_mee_demo_order',$display_order);
   $repaired_content=str_replace(['Examiner ','dans le contexte de'],['Examinar ','en el contexto de'],$found->post_content);
   $repaired_excerpt=str_replace(['Examiner ','dans le contexte de'],['Examinar ','en el contexto de'],$found->post_excerpt);
   if($repaired_content!==$found->post_content||$repaired_excerpt!==$found->post_excerpt)wp_update_post(['ID'=>$found->ID,'post_content'=>$repaired_content,'post_excerpt'=>$repaired_excerpt]);
@@ -38,7 +40,7 @@ foreach($topics as$index=>$topic){
  $body.='<!-- wp:heading {"anchor":"ejemplo"} --><h2 class="wp-block-heading" id="ejemplo">Un caso hipotético, para conversar</h2><!-- /wp:heading --><!-- wp:paragraph --><p>Imagina que un pequeño grupo quiere aplicar esta idea a una actividad compartida. Antes de actuar, cada participante explica qué puede aportar, qué necesita y qué espera. El grupo acuerda una prueba limitada y un momento para revisar lo aprendido. Este ejemplo no describe una experiencia real ni demuestra un resultado.</p><!-- /wp:paragraph -->';
  $body.='<!-- wp:heading {"anchor":"preguntas"} --><h2 class="wp-block-heading" id="preguntas">Preguntas que quedan abiertas</h2><!-- /wp:heading --><!-- wp:list --><ul class="wp-block-list"><!-- wp:list-item --><li>¿Qué cambiaría si los recursos o las condiciones fueran distintos?</li><!-- /wp:list-item --><!-- wp:list-item --><li>¿Quién podría aportar otra perspectiva y qué evidencia permitiría contrastarla?</li><!-- /wp:list-item --><!-- wp:list-item --><li>¿Cómo sabríamos si el siguiente paso ha sido útil?</li><!-- /wp:list-item --></ul><!-- /wp:list -->';
  $body.='<!-- wp:paragraph --><p>Esta muestra no presenta datos empíricos ni sustituye una investigación sobre el tema. La versión editorial deberá incorporar contexto, referencias primarias y una revisión de sus afirmaciones antes de dejar de ser una maqueta.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p><a href="https://moevec.org/areas/'.esc_attr($topic['area']).'/#'.esc_attr($topic['slug']).'">Volver al mapa de '.$area.'</a> o <a href="https://moevec.org/contacto/">proponer una perspectiva a MEE</a>.</p><!-- /wp:paragraph -->';
- $post_id=$found ? $found->ID : wp_insert_post(['post_type'=>'post','post_status'=>'draft','post_title'=>$topic['name'],'post_name'=>$post_slug,'post_excerpt'=>ucfirst($topic['benefit']),'post_content'=>$body,'post_category'=>array_values(array_unique([$ids[$topic['area']],$term->term_id])),'meta_input'=>['_mee_demo'=>'1','_mee_area'=>$topic['area'],'_mee_topic'=>$slug]],true);
+ $post_id=$found ? $found->ID : wp_insert_post(['post_type'=>'post','post_status'=>'draft','post_title'=>$topic['name'],'post_name'=>$post_slug,'post_excerpt'=>ucfirst($topic['benefit']),'post_content'=>$body,'post_category'=>array_values(array_unique([$ids[$topic['area']],$term->term_id])),'meta_input'=>['_mee_demo'=>'1','_mee_demo_order'=>$display_order,'_mee_area'=>$topic['area'],'_mee_topic'=>$slug]],true);
  if(is_wp_error($post_id))WP_CLI::error($post_id->get_error_message());
  $source='/opt/mee/topic-images/'.$topic['area'].'/'.$slug.'-1200.webp';
  if(!is_readable($source))WP_CLI::error('Missing image '.$source);

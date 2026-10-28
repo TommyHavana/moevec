@@ -12,7 +12,7 @@ function mee_category_nav(){
  echo '<nav class="mee-termnav" aria-label="Áreas editoriales"><a href="'.esc_url(home_url('/')).'"'.(is_home()?' aria-current="page"':'').'>Todas las áreas</a>';
  foreach(mee_editorial_categories()as$slug=>$name){$term=get_term_by('slug',$slug,'category');if($term)echo '<a href="'.esc_url(get_category_link($term)).'"'.(is_category($term->term_id)?' aria-current="page"':'').'>'.esc_html($name).'</a>';}
  echo '</nav>';
- if(is_category()){$term=get_queried_object();$parent=$term->parent?$term->parent:$term->term_id;$children=get_categories(['parent'=>$parent,'hide_empty'=>false]);if($children){echo '<nav class="mee-topicnav" aria-label="Temas de esta área">';foreach($children as$child)echo '<a href="'.esc_url(get_category_link($child)).'"'.(is_category($child->term_id)?' aria-current="page"':'').'>'.esc_html($child->name).'</a>';echo '</nav>';}}
+ if(is_category()){$term=get_queried_object();$parent=$term->parent?$term->parent:$term->term_id;$children=get_categories(['parent'=>$parent,'hide_empty'=>false]);if($children){$source=json_decode(file_get_contents(WP_PLUGIN_DIR.'/mee-editorial/data/topics.json'),true);$positions=array_flip(array_column($source?:[],'slug'));usort($children,fn($a,$b)=>($positions[$a->slug]??PHP_INT_MAX)<=>($positions[$b->slug]??PHP_INT_MAX));echo '<nav class="mee-topicnav" aria-label="Temas de esta área">';foreach($children as$child)echo '<a href="'.esc_url(get_category_link($child)).'"'.(is_category($child->term_id)?' aria-current="page"':'').'>'.esc_html($child->name).'</a>';echo '</nav>';}}
 }
 function mee_article_term(){foreach(get_the_category()as$term)if($term->parent)return $term;return null;}
 

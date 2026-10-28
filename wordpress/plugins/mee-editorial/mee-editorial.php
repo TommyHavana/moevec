@@ -44,3 +44,6 @@ add_action('acf/init', function () {
 });
 
 foreach (["contact", "security", "seo", "network"] as $module) require_once __DIR__ . "/inc/" . $module . ".php";
+
+// Keep the demo landing balanced across areas; real editorial keeps normal dates.
+add_action('pre_get_posts',function($query){if(!is_admin()&&$query->is_main_query()&&$query->is_home()&&!get_option('mee_has_real_articles')){$query->set('meta_key','_mee_demo_order');$query->set('orderby','meta_value_num');$query->set('order','ASC');}});
