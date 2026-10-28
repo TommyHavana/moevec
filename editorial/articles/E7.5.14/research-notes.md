@@ -1,3 +1,9 @@
+# Cierre verificado · E7.5.14
+
+Publicada y verificada el28/10/2026. El alcance final de las fuentes y las afirmaciones omitidas están en source-review.json. Los pendientes de preparación que siguen son históricos; no implican trabajo central sin revisar en el texto final. Evidencias en publication.json y verification.json, más organización/navegación del bloque73–75.
+
+## Preparación histórica
+
 # Preparación · E7.5.14
 
 28/10/2026. Investigación en curso; no listo para publicar.

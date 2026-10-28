@@ -1,0 +1,34 @@
+{
+  "checked_on": "2026-10-28",
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1025862/000119312508066591/d6k.htm",
+      "scope": "Fuente empresarial original. Nota1 control21/05/2007y86,2%, anuncio/acuerdo distintos. Apartados regulación pp27–29 leídos: topes/congelaciones telefonía previos2007. No tarifa2026 ni monopolio legal actual de internet. Descarga local403; lectura web pertinente, no contabilidad íntegra."
+    },
+    {
+      "url": "https://media.nperf.com/files/publications/VE/VE-Barometer-fixe-connections-nPerf-2025_7868.pdf",
+      "scope": "Original17p consultado en lector web. pp4/6 tabla general35,58CANTV/152,93Inter yFTTH264,19CANTV; pp7–8 método/crecimiento/mejora. Población de pruebas y umbral>5%, no cuota de mercado. No usar606612solo secundaria ni medias como garantía. Descarga local403; números leídos en texto original y referencias de tablas, sin afirmar lectura íntegra de gráficos."
+    },
+    {
+      "url": "https://www.speedgeo.net/statistics/venezuela",
+      "scope": "Tabla original periodo01/10/2025–30/09/2026 leída: CANTV27,0/total102,0Mb/s. Método original https://www.speedgeo.net/wiki/how-do-we-create-the-statistics leído completo: datosusuariosV-SPEED, umbral3%, filtrado/agregación/IP,categoríabroadbandincluyerouter/módem. No aleatoriedad ni comparabilidad directa con nPerf."
+    },
+    {
+      "url": "https://data.worldbank.org/indicator/IT.NET.USER.ZS?locations=VE",
+      "scope": "Metadatos UIT en WDI y JSON oficial archivado desde api.worldbank.org/v2/country/VE/indicator/IT.NET.USER.ZS?format=json&per_page=5. Valor2024=76.67890167, redondeo76,7%;2025null no0. Dato de personas de todos operadores/medios, no coberturaCANTV ni prueba de calidad."
+    }
+  ],
+  "archived_files": [
+    {
+      "file": "sources/itu-wdi-internet-usuarios-consulta.json",
+      "bytes": 1279,
+      "sha256": "7148999e4a19940c96691700ea9b75d751def260df3f8ef957c5bc9846cf182b"
+    }
+  ],
+  "omitted_claims": [
+    "No inversión nula ni causalidad automática de nacionalización.",
+    "No velocidad nacional atribuida a CANTV ni comparación ADSL agregado vs FTTH como mismos usuarios.",
+    "No cifras de espejo sslip.io ni ranking actual no cotejado."
+  ],
+  "scope": "Lectura pertinente especificada; archivo completo no implica lectura íntegra. Extractos, resúmenes y problemas de acceso identificados."
+}

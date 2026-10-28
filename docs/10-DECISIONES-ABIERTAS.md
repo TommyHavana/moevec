@@ -141,3 +141,9 @@ Publicadas y verificadas 67–69: total 69/840,207 imágenes originales. Organiz
 Publicadas y verificadas 70–72: 72/840, con 216 imágenes propias. Jerarquía y etiquetas del plan conservadas; una publicación y tres adjuntos por ID. Alcances de fuentes explícitos: resúmenes originales de Faccio, sin coeficientes no leídos; riesgos de contratación distintos de corrupción acreditada; tarifas aéreas comparables sin rebaja universal.
 
 73–75 iniciadas directamente: nueve originales de image_gen optimizados e inspeccionados, briefs, metadatos y fuentes iniciales guardados. Faltan investigación y texto; no están publicadas. Respaldo VPS 70–72 verificado por hashes y miembros, sin nueva restauración completa. Sin cambios de arquitectura o taxonomía. La producción continua autorizada y la automatización siguen activas.
+
+## Producción 73–75 y continuación 76–78 · 28/10/2026
+
+Publicadas y verificadas 73–75: 75/840, con 225 imágenes propias. Monopolios Estatales vs. Competencia queda completa, 15/15; cinco tandas terminadas. CANTV se evalúa con datos por tecnología y periodo; Precios Cuidados distingue IPC de efecto causal; guía de denuncias actualiza CNA/ANC con fuentes oficiales y separa vías.
+
+76–78 iniciadas directamente en Historia, Capitalismo Consciente. Nueve originales de image_gen optimizados e inspeccionados, briefs, metadatos y fuentes iniciales guardados. Faltan investigación central y textos. Respaldo VPS 73–75 verificado por hashes y miembros, sin nueva restauración completa. Sin cambios de arquitectura o taxonomía; automatización y autorización continua vigentes.

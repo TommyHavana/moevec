@@ -1,0 +1,73 @@
+{
+  "number": 73,
+  "id": "E7.5.13",
+  "title": "Venezuela: la nacionalización de CANTV y la calidad del servicio",
+  "slug": "venezuela-cantv",
+  "seo_title": "Venezuela y CANTV: nacionalización y calidad de red | MEE",
+  "description": "CANTV fue nacionalizada en 2007. Comparamos mediciones de calidad, distinguimos fibra y red agregada, y explicamos qué no prueba la evidencia disponible.",
+  "keyword": "CANTV",
+  "secondary_keywords": [
+    "nacionalización de CANTV",
+    "internet en Venezuela",
+    "calidad del servicio",
+    "fibra óptica"
+  ],
+  "standfirst": "El cambio de propiedad de CANTV tiene una fecha comprobable. Evaluar su servicio exige distinguir tecnologías, acceso y experiencia real, con datos que permitan comparar.",
+  "tags": [
+    "monopolios-estatales-vs-competencia",
+    "aplicacion",
+    "monopolios-estatales-servicios-que-solo-el-estado-puede-dar",
+    "pais-venezuela"
+  ],
+  "images": {
+    "featured": {
+      "file": "e7-5-13-venezuela-cantv-destacada.webp",
+      "title": "Cable y acceso",
+      "alt": "Ilustración conceptual sobre CANTV: un cable azul forma un bucle junto a una caja roja en una calle de fachadas claras inspirada libremente en Caracas.",
+      "caption": "Calle imaginaria; no documenta una avería, instalación ni estado actual de CANTV."
+    },
+    "interior-1": {
+      "file": "e7-5-13-venezuela-cantv-interior-1.webp",
+      "title": "Medir la conexión",
+      "alt": "Un indicador semicircular sin números tiene una aguja roja hacia la izquierda y un cable azul junto a su base clara.",
+      "caption": "Metáfora sin escala; no representa una medición de velocidad ni un resultado de un operador."
+    },
+    "interior-2": {
+      "file": "e7-5-13-venezuela-cantv-interior-2.webp",
+      "title": "Infraestructura y mantenimiento",
+      "alt": "Armarios técnicos claros de aspecto antiguo con conexiones rojas y azules ocupan una sala iluminada lateralmente.",
+      "caption": "Central ficticia; no es una fotografía de equipos de CANTV ni prueba de su antigüedad."
+    }
+  },
+  "review": {
+    "sources_verified": true,
+    "editorial_checked": true,
+    "checked_on": "2026-10-28",
+    "original_images": true,
+    "images_visually_checked": true,
+    "illustrative_examples": true,
+    "sources": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1025862/000119312508066591/d6k.htm",
+        "scope": "Fuente empresarial original. Nota1 control21/05/2007y86,2%, anuncio/acuerdo distintos. Apartados regulación pp27–29 leídos: topes/congelaciones telefonía previos2007. No tarifa2026 ni monopolio legal actual de internet. Descarga local403; lectura web pertinente, no contabilidad íntegra."
+      },
+      {
+        "url": "https://media.nperf.com/files/publications/VE/VE-Barometer-fixe-connections-nPerf-2025_7868.pdf",
+        "scope": "Original17p consultado en lector web. pp4/6 tabla general35,58CANTV/152,93Inter yFTTH264,19CANTV; pp7–8 método/crecimiento/mejora. Población de pruebas y umbral>5%, no cuota de mercado. No usar606612solo secundaria ni medias como garantía. Descarga local403; números leídos en texto original y referencias de tablas, sin afirmar lectura íntegra de gráficos."
+      },
+      {
+        "url": "https://www.speedgeo.net/statistics/venezuela",
+        "scope": "Tabla original periodo01/10/2025–30/09/2026 leída: CANTV27,0/total102,0Mb/s. Método original https://www.speedgeo.net/wiki/how-do-we-create-the-statistics leído completo: datosusuariosV-SPEED, umbral3%, filtrado/agregación/IP,categoríabroadbandincluyerouter/módem. No aleatoriedad ni comparabilidad directa con nPerf."
+      },
+      {
+        "url": "https://data.worldbank.org/indicator/IT.NET.USER.ZS?locations=VE",
+        "scope": "Metadatos UIT en WDI y JSON oficial archivado desde api.worldbank.org/v2/country/VE/indicator/IT.NET.USER.ZS?format=json&per_page=5. Valor2024=76.67890167, redondeo76,7%;2025null no0. Dato de personas de todos operadores/medios, no coberturaCANTV ni prueba de calidad."
+      }
+    ],
+    "omitted_claims": [
+      "No inversión nula ni causalidad automática de nacionalización.",
+      "No velocidad nacional atribuida a CANTV ni comparación ADSL agregado vs FTTH como mismos usuarios.",
+      "No cifras de espejo sslip.io ni ranking actual no cotejado."
+    ]
+  }
+}

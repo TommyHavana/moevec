@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-28T19:54:09+00:00.
+Comprobado en WordPress: 2026-10-28T20:23:24+00:00.
 
-**72/840 terminadas · 0 en curso · 768 pendientes.**
+**75/840 terminadas · 0 en curso · 765 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -84,9 +84,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 70 | 5/56 · 10/15 | E7.5.10 | Empresas conectadas políticamente: qué dice la evidencia | terminada | 3/3 | [Leer](https://moevec.org/blog/empresas-conectadas-politicamente/) |
 | 71 | 5/56 · 11/15 | E7.5.11 | Contratación pública: dónde se cuela el favoritismo | terminada | 3/3 | [Leer](https://moevec.org/blog/contratacion-publica-favoritismo/) |
 | 72 | 5/56 · 12/15 | E7.5.12 | Liberalización aérea: cómo nació el vuelo barato en Europa | terminada | 3/3 | [Leer](https://moevec.org/blog/liberalizacion-aerea-europa/) |
-| 73 | 5/56 · 13/15 | E7.5.13 | Venezuela: la nacionalización de CANTV y la calidad del servicio | pendiente | 0/3 | — |
-| 74 | 5/56 · 14/15 | E7.5.14 | Precios cuidados y acuerdos de precios: la experiencia argentina | pendiente | 0/3 | — |
-| 75 | 5/56 · 15/15 | E7.5.15 | Cómo denunciar una barrera a la competencia | pendiente | 0/3 | — |
+| 73 | 5/56 · 13/15 | E7.5.13 | Venezuela: la nacionalización de CANTV y la calidad del servicio | terminada | 3/3 | [Leer](https://moevec.org/blog/venezuela-cantv/) |
+| 74 | 5/56 · 14/15 | E7.5.14 | Precios cuidados y acuerdos de precios: la experiencia argentina | terminada | 3/3 | [Leer](https://moevec.org/blog/argentina-precios-cuidados/) |
+| 75 | 5/56 · 15/15 | E7.5.15 | Cómo denunciar una barrera a la competencia | terminada | 3/3 | [Leer](https://moevec.org/blog/denunciar-barrera-competencia/) |
 | 76 | 6/56 · 1/15 | E5.2.01 | El gran enriquecimiento: cómo el mundo dejó de ser pobre | pendiente | 0/3 | — |
 | 77 | 6/56 · 2/15 | E5.2.02 | La Escuela de Salamanca: los españoles que inventaron la economía moderna | pendiente | 0/3 | — |
 | 78 | 6/56 · 3/15 | E5.2.03 | La Revolución Industrial: luces y sombras | pendiente | 0/3 | — |

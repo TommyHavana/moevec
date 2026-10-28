@@ -1,16 +1,16 @@
 # Estado de MEE y continuidad · 28/10/2026
 
-## Estado actual: 72/840 publicadas y verificadas
+## Estado actual: 75/840 publicadas y verificadas
 
-Entradas 1–72 completas: **72 terminadas, 216 imágenes originales públicas, 0 borradores WordPress y 768 pendientes**. Primeras cuatro tandas: 15/15. Monopolios Estatales vs. Competencia: 12/15, en Política y Economía.
+Entradas 1–75 completas: **75 terminadas, 225 imágenes originales públicas, 0 borradores WordPress y 765 pendientes**. Primeras cinco tandas: 15/15, incluida Monopolios Estatales vs. Competencia en Política y Economía.
 
-Último bloque 70–72: conexiones políticas, contratación pública y liberalización aérea. Informe: `docs/produccion/2026-10-28-bloque-070-072.md`. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces e imágenes comprobados. Una publicación y tres adjuntos por ID; categorías, etiquetas y navegación exactas. Blog es contenedor; Editorial es firma, no categoría.
+Último bloque 73–75: CANTV, Precios Cuidados y denuncia de barreras. Informe: `docs/produccion/2026-10-28-bloque-073-075.md`. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces e imágenes comprobados. Una publicación y tres adjuntos por ID; categorías, etiquetas y navegación exactas. Blog es contenedor; Editorial es firma, no categoría.
 
-Preparación local: **73–75, E7.5.13–E7.5.15**, sobre CANTV, Precios Cuidados y denuncia de barreras. Nueve WebP originales optimizados e inspeccionados, con prompts y metadatos guardados. Fuentes iniciales y pendientes por ID en research-notes.md; faltan investigaciones centrales, textos y revisión. Incluidas en las 768 pendientes; 765 sin iniciar. No regenerar imágenes ni contar estas preparaciones como completas.
+Preparación local: **76–78, E5.2.01–E5.2.03**, nueva tanda de **Historia**, en **Capitalismo Consciente**. Gran enriquecimiento, Escuela de Salamanca y Revolución Industrial. Nueve WebP originales optimizados e inspeccionados, con prompts y metadatos guardados. Faltan lecturas centrales, textos y revisión: punto exacto en research-notes.md por ID. Incluidas en 765 pendientes; 762 sin iniciar. No regenerar imágenes ni contarlas como completas.
 
-Respaldo VPS 70–72 comprobado: SQL de 5.384.250 bytes, 66 medios nuevos y archivo de 4.573.923 bytes. Hashes y miembros verificados; sin nueva restauración completa. Cadena en `docs/produccion/2026-10-28-respaldo-070-072.md`. Registro sincronizado desde WordPress después de cada publicación. Continuidad automática activa, sin redespliegue ni cambios de arquitectura o taxonomía.
+Respaldo VPS 73–75 comprobado: SQL de 5.489.510 bytes, 66 medios nuevos y archivo de 4.387.482 bytes. Hashes y miembros verificados; sin nueva restauración completa. Cadena en `docs/produccion/2026-10-28-respaldo-073-075.md`. Registro sincronizado desde WordPress después de cada publicación. Continuidad automática activa, sin redespliegue ni cambios de arquitectura o taxonomía.
 
-Próximo paso: obtener mediciones originales de calidad, cobertura e inversión de CANTV sin atribuir datos nacionales a un operador; normas y series INDEC comparables para Precios Cuidados; organismos y canales actuales en España, México, Colombia y Argentina. Verificar sustitución COFECE/CNA sin inventar plazos ni resultados. El índice de The Economist del artículo 70 es histórico, de 2016; las lecturas parciales de fuentes originales de Faccio se declaran y no sustentan afirmaciones más amplias.
+Próximo paso: leer datos y unidades de Maddison, método histórico de Moatsos y actualización del umbral de pobreza; no empalmar 1,90 dólares de 2011 con 3 dólares de 2021. Para Salamanca, originales y alcance de influencia, sin prioridad absoluta inventada. Para Revolución Industrial, distinguir Engels 1845 del prólogo de 1892, completar Allen y fuentes sobre trabajo infantil/reformas. No publicar afirmaciones centrales sin cotejarlas.
 
 El bloque25–27 incluye encuestaGallup2026 con ficha técnica y margen total no extrapolado a subgrupos, Cuba con gacetas originales de septiembre2026 y DL88concordado, y diez argumentos con fuentes y respuestas respetuosas. No se inventa cuota económica deGAESA. Originales normativos y datos de encuesta conservados en los expedientes.
 
