@@ -29,6 +29,8 @@ services:
         define('WP_HOME', 'https://moevec.org/blog');
         define('WP_SITEURL', 'https://moevec.org/blog');
         define('FORCE_SSL_ADMIN', true);
+        define('DISALLOW_FILE_EDIT', true);
+        define('DISABLE_WP_CRON', true);
     volumes:
       - wordpress-files:/var/www/html
       - secret-files:/run/mee-secrets:ro
@@ -52,6 +54,8 @@ services:
         define('WP_HOME', 'https://moevec.org/blog');
         define('WP_SITEURL', 'https://moevec.org/blog');
         define('FORCE_SSL_ADMIN', true);
+        define('DISALLOW_FILE_EDIT', true);
+        define('DISABLE_WP_CRON', true);
     volumes:
       - wordpress-files:/var/www/html
       - secret-files:/run/mee-secrets:ro

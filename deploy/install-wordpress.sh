@@ -31,6 +31,9 @@ if ! wp core is-installed --path=/var/www/html --quiet; then
 fi
 
 wp theme activate mee-child --path=/var/www/html --quiet
+wp plugin activate two-factor --path=/var/www/html --quiet
 wp plugin activate mee-editorial --path=/var/www/html --quiet
 wp rewrite structure '/%postname%/' --hard --path=/var/www/html --quiet
 wp option update blogdescription 'Movimiento de Evolución Económica' --path=/var/www/html --quiet
+
+wp eval-file /var/www/html/wp-content/plugins/mee-editorial/import-demos.php --path=/var/www/html

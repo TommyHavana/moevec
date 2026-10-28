@@ -2,7 +2,7 @@
 /**
  * Plugin Name: MEE Editorial
  * Description: Categorías y campos del blog editorial de MEE.
- * Version: 0.1.0
+ * Version: 1.0.0
  * Requires PHP: 8.0
  * Text Domain: mee-editorial
  */
@@ -11,13 +11,13 @@ defined('ABSPATH') || exit;
 
 function mee_editorial_categories() {
     return [
-        'educacion-y-valores' => 'Educación y valores',
+        'educacion-y-valores' => 'Educación y Valores',
         'tribu' => 'Tribu',
         'comunidad' => 'Comunidad',
         'trabajo' => 'Trabajo',
-        'capitalismo-consciente' => 'Capitalismo consciente',
-        'economia-compartida' => 'Economía compartida',
-        'politica-y-economia' => 'Política y economía',
+        'capitalismo-consciente' => 'Capitalismo Consciente',
+        'economia-compartida' => 'Economía Compartida',
+        'politica-y-economia' => 'Política y Economía',
     ];
 }
 
@@ -42,3 +42,5 @@ add_action('acf/init', function () {
         'location' => [[['param' => 'post_type', 'operator' => '==', 'value' => 'post']]],
     ]);
 });
+
+foreach (["contact", "security", "seo", "network"] as $module) require_once __DIR__ . "/inc/" . $module . ".php";

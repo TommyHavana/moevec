@@ -1,0 +1,1 @@
+<?php get_header(); ?><main id="contenido" class="info-page"><h1>Esta idea aún no está aquí.</h1><p>La página que buscas no existe o ha cambiado de dirección.</p><a class="pill-link" href="<?php echo esc_url(home_url('/')); ?>">Explorar el editorial</a></main><?php get_footer(); ?>
