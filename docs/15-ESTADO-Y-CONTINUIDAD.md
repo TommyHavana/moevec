@@ -2,27 +2,27 @@
 
 ## Estado actual
 
-**261/840 terminadas, 783 imágenes originales públicas, 0 en curso o borradores WordPress y 579 pendientes**. Migración de Capital 6/15; 17 tandas completas y tanda 18 en curso.
+**267/840 terminadas, 801 imágenes originales públicas, 0 en curso o borradores WordPress y 573 pendientes**. Migración de Capital 12/15; 17 tandas completas y tanda 18 en curso.
 
 Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Desde 255: entradas 256–261, 18 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
+Desde 261: entradas 262–267, 18 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
 
 Una publicación y tres adjuntos por ID; categorías Política y Economía y Migración de Capital, etiquetas exactas. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales y variantes comprobados. Navegación y BreadcrumbList: Blog → área → subcategoría. Taxonomía: 122 nodos, siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva o posicionamiento.
 
 ## Revisión del último bloque
 
-259: convenio de 2003, CENCOEX/DICOM y cambio de 2018 con versiones diferenciadas; auditoría oficial 2016 sobre 2014–2015 y hallazgos concretos sin convertirlos en condenas. 260: cuentas en divisas autorizadas en 2019 antes de la unificación de 2021; CUC, CUP y saldos MLC diferenciados; segmentos de diciembre de 2025 y TRMI de anuncios con método de febrero de 2026. 261: acuerdo final del Eurogrupo, protección de asegurados y distinto tratamiento de Laiki y Bank of Cyprus; conversión del 47,5% de depósitos elegibles, controles hasta abril de 2015, sin confundir disponibilidad con pérdida.
+265: suspensión de Western Union de 2020, licencia ORBIT de 2022, normas OFAC actualizadas en septiembre de 2026 y desriesgo GAFI; no se promete disponibilidad operativa actual. 266: IRS distingue renta mundial, declaración, cuota, FATCA y FBAR; gravamen eritreo explicado por su embajada y contrastado con el informe del relator especial de 2025. 267: artículo 93 y manual AEAT de octubre de 2026; transición RNH e IFICI; cuota italiana de 300.000 euros para la cohorte de nuevos traslados definida por la ley de presupuesto 2026, sin universalizarla.
 
 ## Continuación exacta
 
-Siguiente **262–264 / E7.8.07–E7.8.09**, Política y Economía → Migración de Capital. Preparaciones incluidas en las 579 pendientes. E7.8.07: 3/3 imágenes locales; sin texto final, sin publicación; E7.8.08: 3/3 imágenes locales; sin texto final, sin publicación; E7.8.09: 3/3 imágenes locales; sin texto final, sin publicación. Después 265–267. Automatización activa, sin agotamiento comunicado.
+Siguiente **268–270 / E7.8.13–E7.8.15**, Política y Economía → Migración de Capital. Preparaciones incluidas en las 573 pendientes. E7.8.13: 3/3 imágenes locales; sin texto final, sin publicación; E7.8.14: 3/3 imágenes locales; sin texto final, sin publicación; E7.8.15: 3/3 imágenes locales; sin texto final, sin publicación. Después 271–273. Automatización activa, sin agotamiento comunicado.
 
 ## Copias y límites
 
-Respaldo VPS hasta 261: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
+Respaldo VPS hasta 267: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
 
 ## Traspaso
 
@@ -43,6 +43,8 @@ Verificación: `npm run build` con sincronización y TypeScript correctos; PHP l
 Publicación: fuente privada sincronizada y subida, commit de producto `1d84a45`. Actualización de la exportación estática en el contenedor Nginx activo y de los dos archivos WordPress, tanto en la ruta operativa como en `/opt/mee/`. No se reconstruyeron imágenes Docker ni se reiniciaron servicios; un siguiente build del repositorio incluye los cambios. Respaldo previo local completo: `../mee-backups/MEE_Codex_2026-10-29_183813.zip` (7657 archivos, integridad comprobada). Copia previa de React y de los archivos WordPress en `/data/mee-backups/apoyo-20261029T184226/`, gzip comprobado. No se ha probado una restauración arrancada de esta copia.
 
 Siguiente paso de esta petición: concretar el medio de donación y sus datos oficiales para activar pago directo. La producción editorial mantiene su continuidad independiente; esta tarea no modifica sus conteos, artículos, imágenes ni taxonomía.
+
+
 
 
 

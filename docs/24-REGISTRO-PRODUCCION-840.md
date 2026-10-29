@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-29T19:39:56+00:00.
+Comprobado en WordPress: 2026-10-29T20:13:11+00:00.
 
-**261/840 terminadas · 0 en curso · 579 pendientes.**
+**267/840 terminadas · 0 en curso · 573 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -273,12 +273,12 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 259 | 18/56 · 4/15 | E7.8.04 | Venezuela: CADIVI y veinte años de control de cambios | terminada | 3/3 | [Leer](https://moevec.org/blog/venezuela-cadivi/) |
 | 260 | 18/56 · 5/15 | E7.8.05 | Cuba: dualidad monetaria, unificación y mercado informal | terminada | 3/3 | [Leer](https://moevec.org/blog/cuba-dualidad-unificacion/) |
 | 261 | 18/56 · 6/15 | E7.8.06 | Chipre 2013: cuando los depósitos pagaron el rescate | terminada | 3/3 | [Leer](https://moevec.org/blog/chipre-2013-depositos/) |
-| 262 | 18/56 · 7/15 | E7.8.07 | El rescate interno en Europa: la directiva BRRD | pendiente | 0/3 | — |
-| 263 | 18/56 · 8/15 | E7.8.08 | Canadá 2022: congelación de cuentas por motivos políticos | pendiente | 0/3 | — |
-| 264 | 18/56 · 9/15 | E7.8.09 | India 2016: la desmonetización | pendiente | 0/3 | — |
-| 265 | 18/56 · 10/15 | E7.8.10 | Remesas bloqueadas: sanciones, cumplimiento y familias | pendiente | 0/3 | — |
-| 266 | 18/56 · 11/15 | E7.8.11 | Tributación por ciudadanía: EE. UU. y Eritrea | pendiente | 0/3 | — |
-| 267 | 18/56 · 12/15 | E7.8.12 | Competir por el talento: Ley Beckham, Portugal e Italia | pendiente | 0/3 | — |
+| 262 | 18/56 · 7/15 | E7.8.07 | El rescate interno en Europa: la directiva BRRD | terminada | 3/3 | [Leer](https://moevec.org/blog/rescate-interno-brrd/) |
+| 263 | 18/56 · 8/15 | E7.8.08 | Canadá 2022: congelación de cuentas por motivos políticos | terminada | 3/3 | [Leer](https://moevec.org/blog/canada-2022-congelacion-cuentas/) |
+| 264 | 18/56 · 9/15 | E7.8.09 | India 2016: la desmonetización | terminada | 3/3 | [Leer](https://moevec.org/blog/india-desmonetizacion/) |
+| 265 | 18/56 · 10/15 | E7.8.10 | Remesas bloqueadas: sanciones, cumplimiento y familias | terminada | 3/3 | [Leer](https://moevec.org/blog/remesas-bloqueadas/) |
+| 266 | 18/56 · 11/15 | E7.8.11 | Tributación por ciudadanía: EE. UU. y Eritrea | terminada | 3/3 | [Leer](https://moevec.org/blog/tributacion-por-ciudadania/) |
+| 267 | 18/56 · 12/15 | E7.8.12 | Competir por el talento: Ley Beckham, Portugal e Italia | terminada | 3/3 | [Leer](https://moevec.org/blog/competir-por-el-talento-fiscal/) |
 | 268 | 18/56 · 13/15 | E7.8.13 | Intercambio automático de información fiscal: el CRS | pendiente | 0/3 | — |
 | 269 | 18/56 · 14/15 | E7.8.14 | Controles de capital: qué dice hoy el FMI | pendiente | 0/3 | — |
 | 270 | 18/56 · 15/15 | E7.8.15 | Mudarte de país: obligaciones fiscales que no puedes olvidar | pendiente | 0/3 | — |

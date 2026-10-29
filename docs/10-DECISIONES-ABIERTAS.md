@@ -553,3 +553,23 @@ Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobad
 Siguiente **262–264 / E7.8.07–E7.8.09**, Política y Economía → Migración de Capital. Preparaciones incluidas en las 579 pendientes. E7.8.07: 3/3 imágenes locales; sin texto final, sin publicación; E7.8.08: 3/3 imágenes locales; sin texto final, sin publicación; E7.8.09: 3/3 imágenes locales; sin texto final, sin publicación. Después 265–267. Automatización activa, sin agotamiento comunicado.
 
 Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 262–264 · 29/10/2026
+
+264/840 terminadas, 792 imágenes originales públicas, 0 en curso o borradores WordPress y 576 pendientes.
+
+262: BRRD original y consolidación11/05/2026 con alcance de acceso identificado; decisiónSRB2017 páginas20–23 leídas, Popular sin quita de depósitos y FGD por titular/entidad. 263: orden excepcional2022, Rouleau2023, resumen oficialFCA6/2026; recurso y recursoscruzadosadmitidos22/10/2026, calendario28/10, sin falloSupremosobrefondo. 264: respuestas parlamentarias2018/2019 escaneadas, leídas visualmente;99.3%del valor devuelto, no piezasni legitimaciónfiscal. EstudioNBER2019 con ámbito y límites.
+
+Siguiente **265–267 / E7.8.10–E7.8.12**, Política y Economía → Migración de Capital. Preparaciones incluidas en las 576 pendientes. E7.8.10: 1/3 imágenes locales; sin texto final, sin publicación; E7.8.11: 1/3 imágenes locales; sin texto final, sin publicación; E7.8.12: 1/3 imágenes locales; sin texto final, sin publicación. Después 268–270. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 265–267 · 29/10/2026
+
+267/840 terminadas, 801 imágenes originales públicas, 0 en curso o borradores WordPress y 573 pendientes.
+
+265: suspensión de Western Union de 2020, licencia ORBIT de 2022, normas OFAC actualizadas en septiembre de 2026 y desriesgo GAFI; no se promete disponibilidad operativa actual. 266: IRS distingue renta mundial, declaración, cuota, FATCA y FBAR; gravamen eritreo explicado por su embajada y contrastado con el informe del relator especial de 2025. 267: artículo 93 y manual AEAT de octubre de 2026; transición RNH e IFICI; cuota italiana de 300.000 euros para la cohorte de nuevos traslados definida por la ley de presupuesto 2026, sin universalizarla.
+
+Siguiente **268–270 / E7.8.13–E7.8.15**, Política y Economía → Migración de Capital. Preparaciones incluidas en las 573 pendientes. E7.8.13: 3/3 imágenes locales; sin texto final, sin publicación; E7.8.14: 3/3 imágenes locales; sin texto final, sin publicación; E7.8.15: 3/3 imágenes locales; sin texto final, sin publicación. Después 271–273. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.

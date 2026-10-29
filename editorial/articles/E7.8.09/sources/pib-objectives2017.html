@@ -1,0 +1,1108 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head id="Head1"><title>
+	Press Release Page | Press Information Bureau
+</title><link href="css/style.css?v=1" rel="stylesheet" type="text/css" /><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="alternate stylesheet" href="css/change.css?v=1" media="screen" title="change" /><link rel="alternate stylesheet" href="css/green.css?v=1" media="screen" title="green" /><link rel="alternate stylesheet" href="css/yellow.css" media="screen" title="yellow" /><link rel="stylesheet" type="text/css" href="css/prtint.css" media="print" /><link rel="stylesheet" href="css/style3.1.css" type="text/css" /><link id="pibA11yCss" rel="stylesheet" href="/css/accessibility.css?v=7" type="text/css" />
+    <script type="text/javascript">
+        (function (d) {
+            var t = "";
+            try {
+                t = window.localStorage.getItem("pibStyle") || "";
+            } catch (e) {
+                t = "";
+            }
+            if (t === "orange") {
+                t = "yellow";
+            }
+            var c = t === "change" ? " pib-hc"
+                : t === "green" ? " pib-theme-green"
+                : t === "yellow" ? " pib-theme-yellow" : "";
+            d.documentElement.className += c + " pib-a11y-content";
+        }(document));
+    </script>
+
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/js/accessibility.js?v=7"></script>
+
+    <script type="text/javascript">
+            $(document).ready(function () {
+                  function getParameterByName(name) {
+                        var url = window.location.href;
+                        name = name.replace(/[\[\]]/g, '\\$&');
+                        var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                              results = regex.exec(url);
+                        if (!results) return null;
+                        if (!results[2]) return '';
+                        return decodeURIComponent(results[2].replace(/\+/g, ' '));
+                  }
+                  let prid = parseInt(getParameterByName('PRID'), 10);
+
+                  if (!isNaN(prid) && prid > 0) {
+                        $.ajax({
+                              type: "POST",
+                              url: "AjaxMethod.aspx/UpdatePRHitCount",
+                              async: false,
+                              data: JSON.stringify({ 'PermId': prid }),
+                              contentType: "application/json; charset=utf-8",
+                              dataType: "json",
+                              success: function (response) {
+                                    console.log(response);
+                              },
+                              error: function (error) {
+                                    console.log("Error in AJAX request", error);
+                              }
+                        });
+                  } else {
+                        console.log("Invalid parameters:", prid);
+                  }
+            });
+    </script>
+    <style type="text/css">
+        .table-responsive {
+            width: 100%;
+            overflow-x: auto;
+        }
+
+        .banner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+        }
+
+        full-width {
+            width: 100%;
+        }
+
+        .logo-left, .logo-center, .countdown {
+            display: flex;
+            align-items: center;
+        }
+
+            .logo-left img, .logo-center img {
+                height: 70px;
+            }
+
+        .countdown {
+            text-align: center;
+            background-color: var(--dbim-text, #150202);
+            border-radius: 10px;
+            padding: 10px;
+            border: 2px solid grey;
+        }
+
+        .firstnumber {
+            color: #000000;
+            position: absolute;
+            top: 50px;
+            right: 90px;
+            font-size: 30px;
+        }
+
+        .secondnumber {
+            position: absolute;
+            color: #000000;
+            right: 45px;
+            top: 50px;
+            font-size: 30px;
+        }
+
+        .countdown .days {
+            font-size: 35px;
+            color: gold;
+        }
+
+        .countdown p {
+            margin: 0;
+        }
+
+        .countdown .text {
+            font-size: 16px;
+        }
+
+        a {
+            word-break: break-all;
+        }
+
+        iframe, img {
+            max-width: 100%;
+        }
+
+        /* === DBIM 3.0 Option 4 Separator Line & Reading Meta Styling === */
+        .pr-share--footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+            border-top: 1px solid var(--dbim-border, #d1d5db);
+            padding-top: 16px;
+            margin-top: 24px;
+        }
+
+        .pr-share__left {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .pr-reading-meta {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 0.95rem;
+            color: var(--dbim-text-secondary, #475569);
+            font-weight: 500;
+            white-space: nowrap;
+            margin-left: auto;
+        }
+
+        .pr-reading-meta__item {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .pr-reading-meta__divider {
+            color: var(--dbim-border, #cbd5e1);
+            font-weight: 300;
+        }
+
+        .pib-hc .pr-reading-meta,
+        .pib-hc .pr-reading-meta svg {
+            color: currentColor !important;
+        }
+
+        @media (max-width: 680px) {
+            .pr-share--footer {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .pr-reading-meta {
+                margin-left: 0;
+                width: 100%;
+                justify-content: flex-start;
+            }
+        }
+
+        @media(max-width:1199px) {
+            .firstnumber {
+                top: 40px;
+                right: 72px;
+                font-size: 30px;
+            }
+
+            .secondnumber {
+                right: 35px;
+                top: 40px;
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:990px) {
+            .firstnumber {
+                top: 25px;
+                right: 54px;
+                font-size: 30px;
+            }
+
+            .secondnumber {
+                right: 25px;
+                top: 25px;
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:768px) {
+            .countdown, .days {
+                font-size: 12px !important;
+            }
+
+            .firstnumber {
+                top: 25%;
+                right: 8%;
+                font-size: 30px;
+            }
+
+            .secondnumber {
+                right: 4.5%;
+                top: 25%;
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:475px) {
+            .countdown, .days {
+                font-size: 10px !important;
+                top: 20%;
+            }
+
+            .bannerimgdiv {
+                padding: 0 !important;
+            }
+
+            .bannerimg {
+                width: 108% !important;
+            }
+        }
+    </style>
+    <script type="text/javascript">
+            $(function () {
+                  $("[id*=printPDF]").click(function () {
+                        $("[id*=hfGridHtml]").val($("#PdfDiv").html());
+                  });
+            });
+            $(function () {
+                  $("[id*=printPDFEvent]").click(function () {
+                        $("[id*=hfGridHtml]").val($("#PdfDiv").html());
+                  });
+            });
+    </script>
+
+    <link id="pibConsentCss" href="/css/consent.css?v=8" rel="stylesheet" type="text/css" /><link id="pibFontsCss" href="/css/fonts-noto.css?v=6" rel="stylesheet" type="text/css" /><link id="pibDbimCss" href="/css/dbim.css?v=1120" rel="stylesheet" type="text/css" /><meta property="og:title" content="Recovery of undisclosed income post demonitization " /><meta property="og:url" content="www.pib.gov.in/Pressreleaseshare.aspx?PRID=1498045" /><meta property="og:description" content="
+ 
+
+With a view to curbing financing of terrorism through the proceeds of Fake Indian Currency No" /><meta property="og:image" content="https:/pib.gov.in/images/indian-emblem.png" />
+                                <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="C4E7H-KSCMC-422L4-W3EM5-U36MF",function(){function e(){if(!i){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,o.parentNode.appendChild(e),i=!0}}function t(e){i=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(o.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",o.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"C4E7H-KSCMC-422L4-W3EM5-U36MF";var o=document.currentScript||document.getElementsByTagName("script")[0],i=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!i)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),o.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="k7oaduqccaeje2xdupua-f-b1b578853-clientnsv4-s.akamaihd.net",o="false"=="true"?2:1,i={"ak.v":"41","ak.cp":"1825201","ak.ai":parseInt("1215205",10),"ak.ol":"0","ak.cr":23,"ak.ipv":4,"ak.proto":"http/1.1","ak.rid":"5988ccb","ak.r":23757,"ak.a2":n,"ak.m":"dscb","ak.n":"ff","ak.cport":51316,"ak.gh":"2.16.8.135","ak.quicv":"","ak.tlsv":"tls1.2","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"bbr","ak.t":"1793303528","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==13eEmQvI+skxUMh4OJ46lnj9UmQvnj4f61AWg9HDd4u9HSHZ+stcbCOhfaIIkDY73h7be+tTkyw72TgQjc8SoktQVh4wmdqqE1c+oyFpD5f01+MB5nDZYNKl9bOk3qb36u1DsXM3lxo2Jh1330B8e3tiQKmO9KZ+gbtF0Ektui2nnHjyAByXySyOTZbbbZxca/NRVt8YSyp1yUZ740UgJ025oPKq/4g6zDg6qtrq7/+Da8jWP0RU3ccQSHx9jFLeUmKDSETqBS3D4bXrYFGEmQv7S+9Izh/VkaKZR6K8SgPe+8owwfI5jXpZYu51MqF9lJ9o9iNyvqfJEVRHu2CPVg9TBhPGg7EqnDEtoTCnS4SY0MNQrDe3W96f2iSIPfJQIL1HChaPE4yjXBUfkkvLESKdxBHAm++WMG8FwhgUfbg=","ak.pv":"9","ak.dpoabenc":"","ak.tf":o};if(""!==t)i["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))i["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var e=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+<body>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
+     style="position:absolute;width:0;height:0;overflow:hidden" id="dbim-icon-sprite">
+    <defs>
+        <symbol id="icon-angle-double-left" viewBox="0 0 24 24"><path d="M11.6 4.6 4.2 12l7.4 7.4 2.2-2.2L8.6 12l5.2-5.2z"/><path d="M19 4.6 11.6 12 19 19.4l2.2-2.2L16 12l5.2-5.2z"/></symbol>
+        <symbol id="icon-angle-double-right" viewBox="0 0 24 24"><path d="M12.4 4.6 10.2 6.8 15.4 12l-5.2 5.2 2.2 2.2L19.8 12z"/><path d="M5 4.6 2.8 6.8 8 12l-5.2 5.2L5 19.4 12.4 12z"/></symbol>
+        <symbol id="icon-arrow-left" viewBox="0 0 24 24"><path d="M20.8 10.6H9.6v2.8h11.2z"/><path d="M10.8 5.6 3.2 12l7.6 6.4z"/></symbol>
+        <symbol id="icon-arrow-right" viewBox="0 0 24 24"><path d="M3.2 10.6h11.2v2.8H3.2z"/><path d="M13.2 5.6 20.8 12l-7.6 6.4z"/></symbol>
+        <symbol id="icon-blogger" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M6.4 2.4h11.2a4 4 0 0 1 4 4v11.2a4 4 0 0 1-4 4H6.4a4 4 0 0 1-4-4V6.4a4 4 0 0 1 4-4zm2.8 5.2a2 2 0 0 0 0 4h2.4a2 2 0 0 0 0-4zm0 5.6a2 2 0 0 0 0 4h5.6a2 2 0 0 0 0-4z"/></symbol>
+        <symbol id="icon-calendar" viewBox="0 0 24 24"><path d="M7.6 2.4H10v2.4H7.6z"/><path d="M14 2.4h2.4v2.4H14z"/><path fill-rule="evenodd" d="M4 4.8h16a1.6 1.6 0 0 1 1.6 1.6v13.2a1.6 1.6 0 0 1-1.6 1.6H4a1.6 1.6 0 0 1-1.6-1.6V6.4A1.6 1.6 0 0 1 4 4.8zm.4 5.6v8.4h15.2v-8.4z"/><path d="M6.4 12.4h3.2v3.2H6.4z"/></symbol>
+        <symbol id="icon-chevron-left" viewBox="0 0 24 24"><path d="M15.4 4.6 8 12l7.4 7.4 2.2-2.2L12.4 12l5.2-5.2z"/></symbol>
+        <symbol id="icon-chevron-right" viewBox="0 0 24 24"><path d="M8.6 4.6 6.4 6.8 11.6 12l-5.2 5.2 2.2 2.2L16 12z"/></symbol>
+        <symbol id="icon-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/></symbol>
+        <symbol id="icon-download" viewBox="0 0 24 24"><path d="M10.8 3h2.4v7.6h3.4L12 16.6l-4.6-6h3.4z"/><path d="M4 17.2h2.4v2.4h11.2v-2.4H20v3.2a1.4 1.4 0 0 1-1.4 1.4H5.4A1.4 1.4 0 0 1 4 20.4z"/></symbol>
+        <symbol id="icon-facebook" viewBox="0 0 24 24"><path d="M13.6 21.6v-8.4h2.8l.42-3.3h-3.22V7.8c0-.95.27-1.6 1.64-1.6h1.74V3.26a23 23 0 0 0-2.54-.13c-2.5 0-4.22 1.53-4.22 4.34v2.43H7.4v3.3h2.82v8.4z"/></symbol>
+        <symbol id="icon-fact-check" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4 3.6 5.6v6.2c0 4.6 3.4 8.6 8.4 9.8 5-1.2 8.4-5.2 8.4-9.8V5.6zm-1 13.2-3.6-3.6 1.7-1.7 1.9 1.9 4.5-4.5 1.7 1.7z"/></symbol>
+        <symbol id="icon-hashtag" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M8.8 3h2.4l-1 6h3.2l1-6h2.4l-1 6h3.4v2.4h-3.8l-.6 3.2h3.6V17h-4l-1 5h-2.4l1-5h-3.2l-1 5H5.4l1-5H3V14.6h3.8l.6-3.2H3.8V9h4zm.6 8.4-.6 3.2h3.2l.6-3.2z"/></symbol>
+        <symbol id="icon-home" viewBox="0 0 24 24"><path d="M12 3.4 2.8 11.6h2.4v8.4a1 1 0 0 0 1 1h3.3v-5.4h5v5.4h3.3a1 1 0 0 0 1-1v-8.4h2.4z"/></symbol>
+        <symbol id="icon-instagram" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M7.6 2.4h8.8a5.2 5.2 0 0 1 5.2 5.2v8.8a5.2 5.2 0 0 1-5.2 5.2H7.6a5.2 5.2 0 0 1-5.2-5.2V7.6a5.2 5.2 0 0 1 5.2-5.2zm0 2.4a2.8 2.8 0 0 0-2.8 2.8v8.8a2.8 2.8 0 0 0 2.8 2.8h8.8a2.8 2.8 0 0 0 2.8-2.8V7.6a2.8 2.8 0 0 0-2.8-2.8z"/><path fill-rule="evenodd" d="M12 6.8a5.2 5.2 0 1 0 0 10.4 5.2 5.2 0 0 0 0-10.4zm0 2.4a2.8 2.8 0 1 1 0 5.6 2.8 2.8 0 0 1 0-5.6z"/><circle cx="17.3" cy="6.7" r="1.3"/></symbol>
+        <symbol id="icon-linkedin" viewBox="0 0 24 24"><path d="M4.8 8.8h3.6v12H4.8z"/><circle cx="6.6" cy="5.4" r="2.1"/><path d="M10.8 8.8h3.45v1.65h.05c.48-.9 1.65-1.85 3.4-1.85 3.63 0 4.3 2.35 4.3 5.4v6.6h-3.6v-5.85c0-1.4-.03-3.2-1.95-3.2-1.95 0-2.25 1.52-2.25 3.1v5.95h-3.6z"/></symbol>
+        <symbol id="icon-mail" viewBox="0 0 24 24"><path d="M2.4 7.6v9.2a1.6 1.6 0 0 0 1.6 1.6h16a1.6 1.6 0 0 0 1.6-1.6V7.6L12 14z"/><path d="M21.2 5.4H2.8L12 11.8z"/></symbol>
+        <symbol id="icon-mail-open" viewBox="0 0 24 24"><path d="M2.4 9.8h19.2v9.6A1.6 1.6 0 0 1 20 21H4a1.6 1.6 0 0 1-1.6-1.6z"/><path d="M12 2.6 21.6 9.2h-3.8L12 5.3 6.2 9.2H2.4z"/><path d="m3.9 11.2 8.1 5.4 8.1-5.4 1.5 1.3-9.6 6.4-9.6-6.4z"/></symbol>
+        <symbol id="icon-map-marker" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4a7 7 0 0 0-7 7c0 5.2 7 12.2 7 12.2s7-7 7-12.2a7 7 0 0 0-7-7zm0 9.6a2.6 2.6 0 1 1 0-5.2 2.6 2.6 0 0 1 0 5.2z"/></symbol>
+        <symbol id="icon-newspaper" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M2.8 4.4h14.8v15.2H2.8zm2 2v11.2h10.8V6.4z"/><path d="M6 7.6h8.4v1.6H6z"/><path d="M6 10.8h8.4v1.6H6z"/><path d="M6 14h5.2v1.6H6z"/><path d="M18.4 8.4h2.8v9.6a1.4 1.4 0 0 1-2.8 0z"/></symbol>
+        <symbol id="icon-pause" viewBox="0 0 24 24"><rect x="7.4" y="4" width="3.6" height="16" rx="0.9"/><rect x="13" y="4" width="3.6" height="16" rx="0.9"/></symbol>
+    <symbol id="icon-play" viewBox="0 0 24 24"><path d="M8 4.5v15l12-7.5z"/></symbol>
+        <symbol id="icon-picture" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M2.4 5.2h19.2v13.6H2.4zm2 2v9.6h15.2V7.2z"/><path d="M5.6 16.4 10 11l2.6 3 2-2.2 4 4.6z"/><circle cx="8" cy="10.4" r="1.5"/></symbol>
+        <symbol id="icon-press-conference" viewBox="0 0 24 24"><circle cx="12" cy="5.2" r="2.6"/><path d="M7.6 12.2a4.4 4.4 0 0 1 8.8 0z"/><circle cx="4.9" cy="9.6" r="2.2"/><path d="M1.8 15.2a3.1 3.1 0 0 1 6.2 0z"/><circle cx="19.1" cy="9.6" r="2.2"/><path d="M16 15.2a3.1 3.1 0 0 1 6.2 0z"/><path d="M6.6 13.6h10.8l2.2 7.8H4.4z"/></symbol>
+        <symbol id="icon-print" viewBox="0 0 24 24"><path d="M6.4 2.8h11.2v4.4H6.4z"/><path d="M4 8.4h16a1.6 1.6 0 0 1 1.6 1.6v5.6a1.6 1.6 0 0 1-1.6 1.6h-1.6v-2.8H6v2.8H4a1.6 1.6 0 0 1-1.6-1.6V10A1.6 1.6 0 0 1 4 8.4z"/><path d="M7.2 15.6h9.6v5.6H7.2z"/></symbol>
+        <symbol id="icon-rss" viewBox="0 0 24 24"><circle cx="4.8" cy="19.2" r="2.4"/><path d="M2.4 11.2v3.2a6.4 6.4 0 0 1 6.4 6.4H12A9.6 9.6 0 0 0 2.4 11.2z"/><path d="M2.4 4.8V8A13.6 13.6 0 0 1 16 21.6h3.2A16.8 16.8 0 0 0 2.4 4.8z"/></symbol>
+        <symbol id="icon-search-plus" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M10 2.8a7.2 7.2 0 1 0 0 14.4 7.2 7.2 0 0 0 0-14.4zm0 2.4a4.8 4.8 0 1 1 0 9.6 4.8 4.8 0 0 1 0-9.6z"/><path d="M15.3 14.6 21.2 20.5l-1.5 1.5-5.9-5.9z"/><path d="M9.2 6.8h1.6v2.4h2.4v1.6h-2.4v2.4H9.2v-2.4H6.8V9.2h2.4z"/></symbol>
+        <symbol id="icon-share" viewBox="0 0 24 24"><circle cx="18" cy="5.6" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="18.4" r="3"/><path d="M8.3 10.9 15.7 7.2l.9 1.8-7.4 3.7z"/><path d="M9.2 13.1 16.6 16.8l-.9 1.8-7.4-3.7z"/></symbol>
+        <symbol id="icon-twitter" viewBox="0 0 24 24"><path d="M4.2 3h4.3l11.3 18h-4.3z"/><path d="M19.3 3h-2.6L4.2 21h2.6z"/></symbol>
+        <symbol id="icon-university" viewBox="0 0 24 24"><path d="M12 2.4 21.6 7.2v1.6H2.4V7.2z"/><path d="M4.8 10.4h2.4v8H4.8z"/><path d="M9.2 10.4h2.4v8H9.2z"/><path d="M13.4 10.4h2.4v8h-2.4z"/><path d="M17.6 10.4H20v8h-2.4z"/><path d="M3.2 19.8h17.6v1.8H3.2z"/></symbol>
+        <symbol id="icon-volume-up" viewBox="0 0 24 24"><path d="M3.2 9.2h3.3l5-4.2v14l-5-4.2H3.2z"/><path d="M14.6 8.4a5 5 0 0 1 0 7.2l1.6 1.6a7.2 7.2 0 0 0 0-10.4z"/><path d="M17.4 5.6a8.8 8.8 0 0 1 0 12.8l1.5 1.5a10.9 10.9 0 0 0 0-15.8z"/></symbol>
+        <symbol id="icon-whatsapp" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4a9.5 9.5 0 0 0-8.1 14.5L2.4 21.6l4.8-1.4A9.5 9.5 0 1 0 12 2.4zm0 2.2a7.3 7.3 0 1 1-3.8 13.5l-.4-.2-2.6.7.7-2.5-.3-.4A7.3 7.3 0 0 1 12 4.6z"/><path d="M9.4 7.8c-.2-.5-.4-.5-.6-.5h-.5a1 1 0 0 0-.7.3c-.3.3-.9.9-.9 2.1s.9 2.4 1 2.6c.1.2 1.7 2.8 4.3 3.8 2.1.8 2.6.7 3 .6.5 0 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.5-.3-1.6-.8c-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6 6 0 0 1-1.8-1.1 6.6 6.6 0 0 1-1.2-1.6c-.1-.2 0-.4.1-.5l.4-.5.3-.5v-.5z"/></symbol>
+        <symbol id="icon-youtube" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M21.6 7.2a2.8 2.8 0 0 0-2-2C17.9 4.8 12 4.8 12 4.8s-5.9 0-7.6.4a2.8 2.8 0 0 0-2 2A29 29 0 0 0 2 12a29 29 0 0 0 .4 4.8 2.8 2.8 0 0 0 2 2c1.7.4 7.6.4 7.6.4s5.9 0 7.6-.4a2.8 2.8 0 0 0 2-2A29 29 0 0 0 22 12a29 29 0 0 0-.4-4.8zM10.2 15.1V8.9l5.1 3.1z"/></symbol>
+    </defs>
+</svg>
+
+    <form method="post" action="./PressReleasePage.aspx?PRID=1498045&amp;lang=2&amp;reg=3" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="sc_HiddenField" id="sc_HiddenField" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZPQet1wIx1Q48y3xJY2k25Y7qxH5RrQ9qQcN-OiTC9guZtri9w2&amp;t=639191042600000000" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=x6wALODbMJK5e0eRC_p1LdIxBJXt0U_WW5GWfJqHAqo6frgCmGRfEywglicTersO2OKrFhK1gAIp0Wk2al2YrpdR3uWqH6f4nfjBsCyRUfTUUVmb0&amp;t=ffffffffecf8d3f2" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=P5lTttoqSeZXoYRLQMIScH645UK3RD852IErF2548Wz9Ssv0rLjB4fhVKnHcMpqkaMHpNAGOeWY02Lf4aBYN9-dVBme_SNK5KJwmFQNpMixYDZ7M0&amp;t=ffffffffecf8d3f2" type="text/javascript"></script>
+<script src="/PressReleasePage.aspx?_TSM_HiddenField_=sc_HiddenField&amp;_TSM_CombinedScripts_=%3b%3bAjaxControlToolkit%2c+Version%3d3.5.7.123%2c+Culture%3dneutral%2c+PublicKeyToken%3d28f01b0e84b6d53e%3aen-US%3a5a4df314-b4a2-4da2-a207-9284f1b1e96c%3ade1feab2%3af2c8e708%3a8613aea7%3af9cec9bc%3a3202a5a2%3aab09e3fe%3a87104b7c%3a720a52bf%3a589eaa30%3aa67c2700%3abe6fb298" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="59B53027" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="Q/9Q5/H8MlX3DfKcAMpn+b4fZdDdjF1XhN5Dxvvm4JZotUhdSmqr2EwbKJszJqhiyN3ldHKMN6blGYHNrxhd4K/La7+GJIYK+mXzw3FQbNd9tpRmvgYQAH234dd0pJtsU8+DXPFOd/Y420PuFh5uJtBWmYBXLqlDLvgcU1FDOkSWjirz8ejaVOFBXBPaCNB6iC5KV7zLPIBywM3gLgMzDHc1LCm/15DNSksnCMoEXBDr1xImrTV8ky7xZ97dt4yWMV0PMygXainuv4IEznWrJGU2UlY=" />
+</div>
+        
+        <div id="templateCss"></div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('sc', 'form1', ['tupdate12','update12'], [], [], 90, '');
+//]]>
+</script>
+
+        <input type="hidden" name="hfGridHtml" id="hfGridHtml" />
+        <div class="container" style='margin-bottom: 50px;'>
+            <div id="accessories">
+                
+                <div class="pull-right" style="display: flex">
+                    <div id="voll"></div>
+                    <div id="vollDT"></div>
+                    
+
+<span class="print-icons">
+<input type="image" name="Print1$print" id="Print1_print" aria-label="Print" src="images/printer_icon.png" alt="print page button" style="padding: 5px 10px 5px 10px;" />
+</span>
+                </div>
+            </div>
+            <input type="hidden" name="hydpermid" id="hydpermid" value="1498045" />
+            
+
+            <div class="innner-page-main-about-us-content-right-part">
+                <div id="MinistryName" class="MinistryNameSubhead text-center">
+                    Ministry of Finance
+                </div>
+                <div id="lg_g">
+                </div>
+
+                <div class="text-center event-heading-background">
+                    
+                    <h1 id="Titleh2">
+                        Recovery of undisclosed income post demonitization 
+                    </h1>
+                    <h3 id="Subtitleh3">
+                        <span id="ltrSubtitle"></span>
+                    </h3>
+                </div>
+
+                <div id="PrDateTime" class="ReleaseDateSubHeaddateTime text-center pt20">
+                    Posted On:
+                              01 AUG 2017 7:08PM by PIB Delhi
+                </div>
+                
+                <div class='pt20'>
+                </div>
+                <input type="hidden" name="hydphotoUrl" id="hydphotoUrl" />
+                
+
+                <!-- Release content wrapper for client-side zero-reflow word count -->
+                <div id="pibReleaseBody">
+                    <p><br />
+&nbsp;</p>
+
+<p>With a view to curbing financing of terrorism through the proceeds of Fake Indian Currency Notes (FICN) and use of such funds for subversive activities such as espionage, smuggling of arms, drugs and other contrabands into India, and for eliminating black money which casts a long shadow of parallel economy on the real economy, the Government decided to cancel the legal tender character of the high denomination bank notes of Rs. 500 and Rs. 1000 issued by the Reserve Bank of India on 8th November 2016.&nbsp;<br />
+<br />
+There was no official estimation of quantum of black money in India. However, post demonetization, the Income Tax Department (ITD) conducted searches in 900 groups of persons during November 2016 to March, 2017 leading to seizure of Rs 900 crores and admission of undisclosed income of Rs 7961 crores. During the same period, 8239 surveys were conducted leading to detection of undisclosed income of Rs 6745 crores. Information of various kinds of wrong-doings by about 400 persons was also shared with other law enforcement agencies such as Enforcement Directorate and Central Bureau of Investigation for appropriate action.<br />
+<br />
+Further, during the current Financial year (01.04.2017 to 30.06.2017) the ITD has conducted searches in 102 groups, seizing assets worth Rs. 103 crore. The persons searched have admitted undisclosed income of Rs. 2670 crore. During the same period surveys conducted in 202 cases (01.04.2017 to 31.05.2017) led to detection of Rs. 150 crore as undisclosed income.&nbsp;<br />
+<br />
+The Department has also launched &lsquo;Operation Clean Money&rsquo; on 31st January 2017 with the mission to &ldquo;create a tax compliant society through a fair, transparent and non-intrusive tax administration where every Indian takes pride in paying taxes&rdquo;. Broad outcome of the operation so far is as under:<br />
+<br />
+i. About 18 lakh persons whose cash transactions did not appear in line with their tax profile were identified and approached through email/sms.&nbsp;<br />
+<br />
+ii. More than 9.27 lakh responses were received giving information on 13.33 lakh accounts involving cash deposits of around Rs.2.89 lakh crore. Out of this record number of 5.27 lakh responses were received in the first 12 days of the operation.<br />
+<br />
+iii. Advance data analytics tools were deployed which further identified 5.56 lakhs new cases and about 1 lakh those cases in which either partial or no response was received in the earlier phase. Besides, about 200 high risk clusters of persons were identified for appropriate action.<br />
+<br />
+This was stated by Shri Santosh Kumar Gangwar, Minister of State for Finance in written reply to a question in Rajya Sabha today.<br />
+&nbsp;</p>
+
+<p style="text-align:center">****</p>
+
+<p><br />
+<br />
+<strong>DSM/SBS/KA</strong>&nbsp;</p>
+
+                </div>
+
+                <div id="reel_pic">
+                </div>
+
+                <br />
+                <span id="ReleaseId">(Release ID: 1498045)</span>
+                <span id="lblViews">Visitor Counter : 396</span>
+                <div>
+                    
+                </div>
+                
+
+                <span id="lblRefPhoto"></span>
+
+                <div class="BackgroundRelease">
+                    
+                </div>
+                <div>
+                    
+                </div>
+                <div class="ReleaseLang">Read this release in: 
+                
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=1499587' target="_blank">
+                            Tamil </a>
+                    
+                </div>
+
+                <div class="RelTag">
+                    <ul>
+                        
+                    </ul>
+                </div>
+                <div class="clear">
+                </div>
+
+                <!-- DBIM 3.0 Option 4: Separator Line with Left Share Rail & Right Reading Metrics -->
+                <div class="pr-share pr-share--footer" role="region" aria-label="Share and reading details">
+                    <div class="pr-share__left">
+                        <span class="pr-share__label" aria-hidden="true">Share</span>
+                        <ul class="pr-share__list">
+                            <li><a class="pr-share__btn pr-share__btn--facebook"
+                                href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d1498045"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on Facebook">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-facebook" xlink:href="#icon-facebook"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--twitter"
+                                href="https://twitter.com/intent/tweet?url=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d1498045"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on X">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-twitter" xlink:href="#icon-twitter"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--whatsapp"
+                                href="https://api.whatsapp.com/send?text=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d1498045"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on WhatsApp">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-whatsapp" xlink:href="#icon-whatsapp"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--linkedin"
+                                href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d1498045"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on LinkedIn">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-linkedin" xlink:href="#icon-linkedin"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--mail"
+                                href="mailto:?subject=Press+release+from+PIB&amp;body=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d1498045"
+                                aria-label="Share by email">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-mail" xlink:href="#icon-mail"></use>
+                                </svg>
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div class="pr-reading-meta" id="prReadingMeta" aria-label="Reading statistics">
+                        <span class="pr-reading-meta__item">
+                            <!-- Modern Document / Word Count Icon -->
+                            <svg class="pr-reading-meta__icon" width="18" height="18" viewbox="0 0 16 16" fill="currentColor" aria-hidden="true" focusable="false">
+                                <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5" />
+                                <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z" />
+                            </svg>
+                            <span id="prWordCount">-- words</span>
+                        </span>
+
+                        <span class="pr-reading-meta__divider" aria-hidden="true">|</span>
+
+                        <span class="pr-reading-meta__item">
+                            <!-- Modern Precision Clock / Read Time Icon -->
+                            <svg class="pr-reading-meta__icon" width="18" height="18" viewbox="0 0 16 16" fill="currentColor" aria-hidden="true" focusable="false">
+                                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                            </svg>
+                            <span id="prReadTime">-- min read</span>
+                        </span>
+                    </div>
+                </div>
+
+                <div id="RelLink" class="RelLink">
+                    <ul>
+                        
+                    </ul>
+                </div>
+                <center>
+                    
+                </center>
+            </div>
+
+            <div id="update12">
+	
+                    
+                    <input type="hidden" name="Hidden" id="Hidden" />
+                    <div id="P_CategoryManagement" class="ModalWindow" style="border-width:0px;height:60%;width:60%;overflow:auto;display: none">
+		
+                        <div>
+                            <input type="image" name="btnClose" id="btnClose" src="images/close_flat_icon.png" />
+                        </div>
+                        <div id="description">
+                        </div>
+                        <div class="text-center">
+                            <h2>
+                                
+                                <br>
+                                
+                            </h2>
+                        </div>
+                        <br />
+                        <div class="clear">
+                        </div>
+                        
+                    
+	</div>
+                
+</div>
+        </div>
+
+        <div id="PdfDiv" style="display: none;">
+            <table width="100%">
+                <tr>
+                    <td style="font-weight: 200; text-align: center">
+                        Ministry of Finance
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 200; text-align: center; font-size: 30px;">
+                            Recovery of undisclosed income post demonitization 
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 200; text-align: center; font-size: 30px;">
+                            
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="text-align: center; font-size: 14px;">
+                            Posted On:
+                                          01 AUG 2017 7:08PM by PIB Delhi
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 200; text-align: left; font-size: 16px;">
+                            <p><br />
+&nbsp;</p>
+
+<p>With a view to curbing financing of terrorism through the proceeds of Fake Indian Currency Notes (FICN) and use of such funds for subversive activities such as espionage, smuggling of arms, drugs and other contrabands into India, and for eliminating black money which casts a long shadow of parallel economy on the real economy, the Government decided to cancel the legal tender character of the high denomination bank notes of Rs. 500 and Rs. 1000 issued by the Reserve Bank of India on 8th November 2016.&nbsp;<br />
+<br />
+There was no official estimation of quantum of black money in India. However, post demonetization, the Income Tax Department (ITD) conducted searches in 900 groups of persons during November 2016 to March, 2017 leading to seizure of Rs 900 crores and admission of undisclosed income of Rs 7961 crores. During the same period, 8239 surveys were conducted leading to detection of undisclosed income of Rs 6745 crores. Information of various kinds of wrong-doings by about 400 persons was also shared with other law enforcement agencies such as Enforcement Directorate and Central Bureau of Investigation for appropriate action.<br />
+<br />
+Further, during the current Financial year (01.04.2017 to 30.06.2017) the ITD has conducted searches in 102 groups, seizing assets worth Rs. 103 crore. The persons searched have admitted undisclosed income of Rs. 2670 crore. During the same period surveys conducted in 202 cases (01.04.2017 to 31.05.2017) led to detection of Rs. 150 crore as undisclosed income.&nbsp;<br />
+<br />
+The Department has also launched &lsquo;Operation Clean Money&rsquo; on 31st January 2017 with the mission to &ldquo;create a tax compliant society through a fair, transparent and non-intrusive tax administration where every Indian takes pride in paying taxes&rdquo;. Broad outcome of the operation so far is as under:<br />
+<br />
+i. About 18 lakh persons whose cash transactions did not appear in line with their tax profile were identified and approached through email/sms.&nbsp;<br />
+<br />
+ii. More than 9.27 lakh responses were received giving information on 13.33 lakh accounts involving cash deposits of around Rs.2.89 lakh crore. Out of this record number of 5.27 lakh responses were received in the first 12 days of the operation.<br />
+<br />
+iii. Advance data analytics tools were deployed which further identified 5.56 lakhs new cases and about 1 lakh those cases in which either partial or no response was received in the earlier phase. Besides, about 200 high risk clusters of persons were identified for appropriate action.<br />
+<br />
+This was stated by Shri Santosh Kumar Gangwar, Minister of State for Finance in written reply to a question in Rajya Sabha today.<br />
+&nbsp;</p>
+
+<p style="text-align:center">****</p>
+
+<p><br />
+<br />
+<strong>DSM/SBS/KA</strong>&nbsp;</p>
+
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 100; text-align: left; font-size: 16px;">
+                            (Release ID: 1498045)
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="font-weight: 200; text-align: center; font-size: 24px;"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="clearfix">
+        </div>
+
+        <div class="section1">
+            <div id="frst_t">
+                <div id="arr_rm"><div class='sticky-social_mb'><ul class='social_mb'><a href='http://www.facebook.com/share.php?u=https://pib.gov.in/PressReleasePage.aspx?PRID=1498045' target='_blank'><li class='fb_b'   ></li></a><a href='https://twitter.com/intent/tweet?url=https://pib.gov.in/PressReleasePage.aspx?PRID=1498045&text=Recovery of undisclosed income post demonitization ' target='_blank'><li class='twitter_r'  > </li></a><a href='https://api.whatsapp.com/send?text=https://pib.gov.in/PressReleasePage.aspx?PRID=1498045' target='_blank'><li class='whatsapp_r'  ></li></a><a href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=&su=Recovery of undisclosed income post demonitization &body=https://pib.gov.in/PressReleasePage.aspx?PRID=1498045&ui=2&tf=1&pli=1' title='Share by Email' target='_blank'><li class='fa-envelope_r' ></li></a><a href='https://www.linkedin.com/shareArticle?mini=true&url=https://pib.gov.in/PressReleasePage.aspx?PRID=1498045&title=Recovery of undisclosed income post demonitization &summary=My%20favorite%20developer%20program&source=LinkedIn' target='_blank'><li class='fa-linkedin_r'  ></li></a></ul></div></div>
+            </div>
+            <div id="second_t">
+                <div id="sndr_rm"><div class='sticky-social'><ul class='social'><a href='http://www.facebook.com/share.php?u=https://pib.gov.in/PressReleasePage.aspx?PRID=1498045' target='_blank'><li class='fb_b'   ></li></a><a href='https://twitter.com/intent/tweet?url=https://pib.gov.in/PressReleasePage.aspx?PRID=1498045&text=Recovery of undisclosed income post demonitization ' target='_blank'><li class='twitter_r'  > </li></a><a href='https://api.whatsapp.com/send?text=https://pib.gov.in/PressReleasePage.aspx?PRID=1498045' target='_blank'><li class='whatsapp_r'  ></li></a><a href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=&su=Recovery of undisclosed income post demonitization &body=https://pib.gov.in/PressReleasePage.aspx?PRID=1498045&ui=2&tf=1&pli=1' title='Share by Email' target='_blank'><li class='fa-envelope_r' ></li></a><a href='https://www.linkedin.com/shareArticle?mini=true&url=https://pib.gov.in/PressReleasePage.aspx?PRID=1498045&title=Recovery of undisclosed income post demonitization &summary=My%20favorite%20developer%20program&source=LinkedIn' target='_blank'><li class='fa-linkedin_r'  ></li></a></ul></div></div>
+            </div>
+        </div>
+        <input type="hidden" name="ltrTitlee" id="ltrTitlee" value="Recovery of undisclosed income post demonitization " />
+        <input type="hidden" name="ltrSubtitlee" id="ltrSubtitlee" />
+        <input type="hidden" name="ltrDescriptionn" id="ltrDescriptionn" value="&lt;p>&lt;br />
+&amp;nbsp;&lt;/p>
+
+&lt;p>With a view to curbing financing of terrorism through the proceeds of Fake Indian Currency Notes (FICN) and use of such funds for subversive activities such as espionage, smuggling of arms, drugs and other contrabands into India, and for eliminating black money which casts a long shadow of parallel economy on the real economy, the Government decided to cancel the legal tender character of the high denomination bank notes of Rs. 500 and Rs. 1000 issued by the Reserve Bank of India on 8th November 2016.&amp;nbsp;&lt;br />
+&lt;br />
+There was no official estimation of quantum of black money in India. However, post demonetization, the Income Tax Department (ITD) conducted searches in 900 groups of persons during November 2016 to March, 2017 leading to seizure of Rs 900 crores and admission of undisclosed income of Rs 7961 crores. During the same period, 8239 surveys were conducted leading to detection of undisclosed income of Rs 6745 crores. Information of various kinds of wrong-doings by about 400 persons was also shared with other law enforcement agencies such as Enforcement Directorate and Central Bureau of Investigation for appropriate action.&lt;br />
+&lt;br />
+Further, during the current Financial year (01.04.2017 to 30.06.2017) the ITD has conducted searches in 102 groups, seizing assets worth Rs. 103 crore. The persons searched have admitted undisclosed income of Rs. 2670 crore. During the same period surveys conducted in 202 cases (01.04.2017 to 31.05.2017) led to detection of Rs. 150 crore as undisclosed income.&amp;nbsp;&lt;br />
+&lt;br />
+The Department has also launched &amp;lsquo;Operation Clean Money&amp;rsquo; on 31st January 2017 with the mission to &amp;ldquo;create a tax compliant society through a fair, transparent and non-intrusive tax administration where every Indian takes pride in paying taxes&amp;rdquo;. Broad outcome of the operation so far is as under:&lt;br />
+&lt;br />
+i. About 18 lakh persons whose cash transactions did not appear in line with their tax profile were identified and approached through email/sms.&amp;nbsp;&lt;br />
+&lt;br />
+ii. More than 9.27 lakh responses were received giving information on 13.33 lakh accounts involving cash deposits of around Rs.2.89 lakh crore. Out of this record number of 5.27 lakh responses were received in the first 12 days of the operation.&lt;br />
+&lt;br />
+iii. Advance data analytics tools were deployed which further identified 5.56 lakhs new cases and about 1 lakh those cases in which either partial or no response was received in the earlier phase. Besides, about 200 high risk clusters of persons were identified for appropriate action.&lt;br />
+&lt;br />
+This was stated by Shri Santosh Kumar Gangwar, Minister of State for Finance in written reply to a question in Rajya Sabha today.&lt;br />
+&amp;nbsp;&lt;/p>
+
+&lt;p style=&quot;text-align:center&quot;>****&lt;/p>
+
+&lt;p>&lt;br />
+&lt;br />
+&lt;strong>DSM/SBS/KA&lt;/strong>&amp;nbsp;&lt;/p>
+" />
+        <script type="text/javascript">
+                  var mPlayer = document.getElementById("background_music");
+                  var mPlayAction = document.getElementById("playbutton");
+                  var isPlaying = false;
+
+                  function playAudio() {
+                        mPlayer.play();
+                        isPlaying = true;
+                        document.getElementById('stopA').style.display = "block";
+                        document.getElementById('playA').style.display = "none";
+                  }
+
+                  function pauseAudio() {
+                        mPlayer.pause();
+                        isPlaying = false;
+                        document.getElementById('playA').style.display = "block";
+                        document.getElementById('stopA').style.display = "none";
+                  }
+        </script>
+        <script type="text/javascript">
+                  var synth = window.speechSynthesis;
+
+                  function CleanHtml(html) {
+                        html = html.replace(/<script[\s\S]*?<\/script>/gi, '');
+                        return html;
+                  }
+                  function stripHtml(html) {
+                        let tmp = document.createElement("DIV");
+                        tmp.innerHTML = CleanHtml(html);
+                        return tmp.textContent || tmp.innerText || "";
+                  }
+        </script>
+        <script type="text/javascript">
+                  $(document).ready(function () {
+                        $("table").each(function () {
+                              if (!$(this).closest(".table-responsive").length) {
+                                    $(this).wrap("<div class='table-responsive'></div>");
+                              }
+                        });
+
+                        var width = $(window).width();
+                        if (width < 768) {
+                              document.getElementById('frst_t').style.display = "block";
+                              document.getElementById('second_t').style.display = "none";
+                        } else if (width < 991) {
+                              document.getElementById('frst_t').style.display = "block";
+                              document.getElementById('second_t').style.display = "none";
+                        } else if (width < 1199) {
+                              document.getElementById('frst_t').style.display = "none";
+                              document.getElementById('second_t').style.display = "block";
+                        } else {
+                              document.getElementById('frst_t').style.display = "none";
+                              document.getElementById('second_t').style.display = "block";
+                        }
+                  });
+        </script>
+        <style type="text/css">
+            @media print {
+                .sticky-social, .sticky-social_mb, .pull-right, #printPDF {
+                    display: none !important;
+                }
+            }
+
+            .f_vl {
+                padding-right: 30px;
+                font-size: 17px;
+                cursor: pointer;
+            }
+
+            .log_oo {
+                display: flex;
+                justify-content: space-between;
+            }
+
+                .log_oo img {
+                    width: 150px;
+                }
+
+            .sticky-social_mb {
+                position: fixed;
+                bottom: 0px;
+                padding: 0px;
+                margin: 0px;
+                width: 100%;
+            }
+
+            .social_mb {
+                list-style: none;
+                display: flex;
+                width: 100%;
+                margin-bottom: -8px;
+            }
+
+                .social_mb a {
+                    padding: 8px 0px;
+                    font-size: 30px;
+                    transition: all 0.8s ease-in-out;
+                    width: 20% !important;
+                    text-align: center;
+                }
+        </style>
+        <style type="text/css">
+            .section1 {
+                position: relative;
+                padding: 10px 0px;
+                width: 100%;
+            }
+
+            .sticky-social {
+                position: fixed;
+                top: 20px;
+                left: 0px;
+                padding: 0px;
+                margin: 0px;
+            }
+
+            .social {
+                list-style: none;
+            }
+
+                .social a li {
+                    padding: 8px 12px;
+                    font-size: 25px;
+                    transition: all 0.8s ease-in-out;
+                }
+
+                    .social a li:hover {
+                        margin-right: -30px;
+                        box-shadow: 2px 5px 10px grey;
+                    }
+
+                        .social a li:hover .fa {
+                            margin-left: 20px;
+                        }
+
+            .fb_b {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .twitter_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .whatsapp_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .fa-envelope_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .fa-linkedin_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+        </style>
+        <style type="text/css">
+            @media only screen and (max-device-width: 767px) {
+                p span img {
+                    max-width: 90% !important;
+                    height: auto !important;
+                }
+
+                p img {
+                    max-width: 90% !important;
+                    height: auto !important;
+                }
+
+                h2 {
+                    font-size: var(--dbim-h2, 20px);
+                    font-weight: 600 !important;
+                }
+
+                h3 {
+                    font-size: var(--dbim-h3, 16px);
+                    font-weight: 600 !important;
+                }
+            }
+        </style>
+        <style type="text/css">
+            .film-roll-badge {
+                position: absolute;
+                top: 82%;
+                right: 20px;
+                width: 230px;
+                height: 70px;
+                background: repeating-linear-gradient( to right, var(--dbim-green-key, #0F5757) 0px, var(--dbim-green-key, #0F5757) 18px, var(--dbim-text, #150202) 18px, var(--dbim-text, #150202) 36px );
+                border-top: 8px solid var(--dbim-green-key, #0F5757);
+                border-bottom: 8px solid var(--dbim-green-key, #0F5757);
+                border-radius: 8px;
+                overflow: hidden;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+                animation: moveFilm 8s linear infinite;
+                z-index: 10;
+            }
+
+                .film-roll-badge::before,
+                .film-roll-badge::after {
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 10px;
+                    background: repeating-linear-gradient( to right, var(--dbim-green-key, #0F5757) 0px, var(--dbim-green-key, #0F5757) 10px, #fff 10px, #fff 20px );
+                    left: 0;
+                    z-index: 2;
+                }
+
+                .film-roll-badge::before {
+                    top: -4px;
+                }
+
+                .film-roll-badge::after {
+                    bottom: -4px;
+                }
+
+            .film-roll-inner {
+                position: relative;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                animation: flicker 2s infinite ease-in-out;
+            }
+
+            .countdown-text {
+                font-size: 1.3rem;
+                font-weight: 700;
+                color: #fff;
+                text-shadow: 0 0 6px rgba(255, 255, 255, 0.4), 0 0 10px #000;
+                white-space: nowrap;
+            }
+
+            @keyframes moveFilm {
+                0% {
+                    background-position: 0 0;
+                }
+
+                100% {
+                    background-position: 120px 0;
+                }
+            }
+
+            @keyframes flicker {
+                0%, 100% {
+                    opacity: 1;
+                }
+
+                50% {
+                    opacity: 0.9;
+                }
+
+                25% {
+                    opacity: 0.95;
+                }
+
+                75% {
+                    opacity: 0.85;
+                }
+            }
+
+            @media (max-width: 1500px) {
+                .film-roll-badge {
+                    top: 68%;
+                    right: 18px;
+                    height: 65px;
+                    font-size: 0.85rem;
+                }
+
+                .press-section {
+                    margin-top: 35px;
+                }
+            }
+
+            @media (max-width: 992px) {
+                .film-roll-badge {
+                    top: 52%;
+                    right: 10px;
+                    width: 200px;
+                    height: 60px;
+                }
+            }
+
+            @media (max-width: 768px) {
+                .film-roll-badge {
+                    top: 56%;
+                    right: 10px;
+                    width: 124px;
+                    height: 55px;
+                }
+
+                .countdown-text {
+                    font-size: 0.9rem;
+                }
+            }
+
+            @media (max-width: 576px) {
+                .film-roll-badge {
+                    top: 59%;
+                    right: 5px;
+                    height: 50px;
+                }
+
+                .countdown-text {
+                    font-size: 0.85rem;
+                }
+            }
+        </style>
+        <script type="text/javascript">
+                  const festivalStart = new Date("2025-11-20T00:00:00").getTime();
+                  const festivalEnd = new Date("2025-11-28T23:59:59").getTime();
+                  const countdownElement = document.getElementById("countdown");
+
+                  if (countdownElement) {
+                        const interval = setInterval(() => {
+                              const now = new Date().getTime();
+
+                              if (now < festivalStart) {
+                                    const diff = festivalStart - now;
+                                    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                                    const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+
+                                    countdownElement.innerHTML = `${days} Day${days !== 1 ? 's' : ''} ${hours} Hour${hours !== 1 ? 's' : ''} to go`;
+                              } else if (now >= festivalStart && now <= festivalEnd) {
+                                    const dayNumber = Math.floor((now - festivalStart) / (1000 * 60 * 60 * 24)) + 1;
+                                    countdownElement.innerHTML = `56th IFFI - Day ${dayNumber}`;
+                              } else {
+                                    countdownElement.innerHTML = `✨ IFFI closes but never ends…`;
+                                    const elements = document.querySelectorAll('.film-roll-badge');
+                                    elements.forEach(el => el.style.width = "350px");
+                                    clearInterval(interval);
+                              }
+                        }, 1000);
+                  }
+        </script>
+        <script type="text/javascript">
+                  const miffStart = new Date("2026-06-15T00:00:00").getTime();
+                  const miffEnd = new Date("2026-06-15T23:59:59").getTime();
+                  const miffElement = document.getElementById("miff");
+
+                  if (miffElement) {
+                        const miffInterval = setInterval(() => {
+                              const now = new Date().getTime();
+
+                              if (now < miffStart) {
+                                    const diff = miffStart - now;
+                                    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                                    miffElement.innerHTML = `${days} Day${days === 1 ? '' : 's'} to MIFF ...`;
+                              } else if (now >= miffStart && now <= miffEnd) {
+                                    const dayNumber = Math.floor((now - miffStart) / (1000 * 60 * 60 * 24)) + 1;
+                                    miffElement.innerHTML = `19th MIFF - Day ${dayNumber}`;
+                              } else {
+                                    miffElement.innerHTML = `✨ MIFF concludes, cinema lives on...`;
+                                    document.querySelectorAll('.film-roll-badge').forEach(el => el.style.width = "350px");
+                                    clearInterval(miffInterval);
+                              }
+                        }, 1000);
+                  }
+        </script>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("sc_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.ModalPopupBehavior, {"BackgroundCssClass":"modalBackground","PopupControlID":"P_CategoryManagement","dynamicServicePath":"/PressReleasePage.aspx","id":"mpe"}, null, null, $get("Hidden"));
+});
+//]]>
+</script>
+<input type="hidden" name="__ncforminfo" value="1dRSCMtczomTmk58EOO_xvLkVYnmY4cNhbNOZA9aOUhgWs59VtgJQHkHgzb6gVQlLfMH9IBHv1P2Cj4NQsui5wsSHKG7PJUV3XLFi7JtVbZwvQM5lX3ktw=="/></form>
+    
+
+<script type="application/json" id="pibConsentConfig">{"ga4Id":"G-Q414Y0X6EE,G-QJJ6LZ8LHV","policyUrl":"/CookiePolicy.aspx","text":{"bannerLabel":"Cookie consent","title":"Cookies on this website","body":"We use essential cookies to make this website work. We also set analytics cookies when you arrive, so we can see how the site is used and improve it - you can switch these off below or at any time from the Cookie Policy page. Cookies from embedded social media content are set only if you allow them.","policyLink":"Read our Cookie Policy","accept":"Accept all","reject":"Reject optional","customize":"Customise","prefsTitle":"Cookie preferences","prefsIntro":"Choose which cookies this website may set. Essential cookies cannot be switched off because the site does not work without them. Analytics cookies are on unless you turn them off. Social media cookies stay off until you allow them. You can change these choices at any time from the Cookie Policy page.","essentialName":"Essential cookies","essentialDesc":"Needed for the site to function. These remember your session, your language and region, your text size and colour theme, and verify the security check on forms. They are always on.","analyticsName":"Analytics cookies","analyticsDesc":"Help us understand how visitors use the site - which pages are read and how long people stay - so it can be improved. The information is collected in a form that does not directly identify you. These are on when you arrive; switching them off here stops them and deletes the ones already set.","socialName":"Social media cookies","socialDesc":"Set by content embedded from X, Facebook and YouTube, such as timelines and videos. These platforms may use them to track you across websites. They stay off until you allow them.","save":"Save preferences","cancel":"Cancel"}}</script>
+<script type="text/javascript" src='/js/consent.js?v=10'></script>
+
+<script type="text/javascript" src='/js/consent-embeds.js?v=10'></script>
+
+
+    <!-- Minimal O(N) Time and O(1) Auxiliary Space Word Count & Read Time Calculation -->
+    <script type="text/javascript">
+            (function () {
+                  function calculateReadingStats() {
+                        var bodyEl = document.getElementById("pibReleaseBody");
+                        if (!bodyEl) return;
+
+                        // textContent extracts text without triggering expensive layout/reflow computations
+                        var text = bodyEl.textContent || "";
+                        var words = 0;
+                        var inWord = false;
+
+                        // O(N) single pass character code scan: achieves O(1) space with zero array allocations
+                        for (var i = 0, len = text.length; i < len; i++) {
+                              var code = text.charCodeAt(i);
+                              // Delimits on ASCII whitespace, control characters, tabs, newlines, and non-breaking spaces (160)
+                              if (code <= 32 || code === 160) {
+                                    inWord = false;
+                              } else if (!inWord) {
+                                    inWord = true;
+                                    words++;
+                              }
+                        }
+
+                        // Standard 250 WPM reading speed (e.g., 612 words yields 2 min read)
+                        var minutes = Math.max(1, Math.round(words / 250));
+
+                        var elWords = document.getElementById("prWordCount");
+                        var elTime = document.getElementById("prReadTime");
+
+                        if (elWords) elWords.textContent = words + (words === 1 ? " word" : " words");
+                        if (elTime) elTime.textContent = minutes + " min read";
+                  }
+
+                  if (document.readyState === "loading") {
+                        document.addEventListener("DOMContentLoaded", calculateReadingStats);
+                  } else {
+                        calculateReadingStats();
+                  }
+            })();
+    </script>
+
+    <script type="text/javascript">
+            (function () {
+                  try {
+                        if (window.self === window.top) { return; }
+                  } catch (e) { return; }
+                  var s = document.createElement("style");
+                  s.textContent = ".sticky-social, .sticky-social_mb { display: none !important; }";
+                  (document.head || document.documentElement).appendChild(s);
+            }());
+    </script>
+</body>
+</html>
