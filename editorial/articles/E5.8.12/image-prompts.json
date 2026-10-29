@@ -1,0 +1,26 @@
+{
+  "id": "E5.8.12",
+  "prompts": {
+    "featured": "Use case: stylized-concept. Original MEE editorial illustration. Premium crafted miniature, tactile paper, limestone and ceramic, cobalt blue, vermilion red and warm ivory palette. Refined directional light, subtle texture, controlled shadows. Wide landscape, essential objects within central safe crop. No text, numbers, labels, logos, watermark, flags or statistical chart. An original conceptual repaired tabletop fan sculpture with cobalt circular protective grille, ivory blades, mismatched plain vermilion motor housing and a carefully joined ivory base, safe enclosed wiring with no exposed electrical contacts, tactile crafted gallery display, wide margins, no exact replica of archived object, inventor attribution, brand, real working device or DIY electrical instructions.",
+    "interior-1": "Use case: stylized-concept. Original MEE editorial illustration. Premium crafted miniature, tactile paper, limestone and ceramic, cobalt blue, vermilion red and warm ivory palette. Refined directional light, subtle texture, controlled shadows. Wide landscape, essential objects within central safe crop. No text, numbers, labels, logos, watermark, flags or statistical chart. A generic older warm ivory car miniature with cobalt hood open to show a compact plain vermilion engine-like sculpture, on limestone workshop floor, broad safe crop, no brand, model, real vehicle claim, visible fuel, technical conversion diagram or implication every adapted car is safe.",
+    "interior-2": "Use case: stylized-concept. Original MEE editorial illustration. Premium crafted miniature, tactile paper, limestone and ceramic, cobalt blue, vermilion red and warm ivory palette. Refined directional light, subtle texture, controlled shadows. Wide landscape, essential objects within central safe crop. No text, numbers, labels, logos, watermark, flags or statistical chart. A dignified small conceptual repair workshop with anonymous cobalt ceramic repairer at an ivory bench, two calm clients nearby and a plain vermilion enclosed appliance on the bench, full heads and hands within central crop and broad margins, no money exchanged, actual business, logo, promised income, unsafe exposed wiring or testimonial."
+  },
+  "sources": {
+    "featured": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-46dac422-93f8-41b1-bded-f197e1490bf8.png",
+    "interior-1": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-915126e0-85eb-4285-83ad-415f3ef64d3e.png",
+    "interior-2": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-76bc0906-6985-4964-8f55-74f051cc0a59.png"
+  },
+  "tool": "builtin_image_gen",
+  "sources_are_conceptual": true,
+  "edits": [
+    {
+      "role": "featured",
+      "tool": "builtin_image_gen",
+      "reference_image_paths": [
+        "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-4059be2d-da3d-49e0-bc3e-7262ce80b74d.png"
+      ],
+      "prompt": "Edit this original MEE illustration. Zoom out substantially so the ENTIRE fan, including its circular grille and base, occupies no more than 65 percent of the canvas height and sits within the central safe landscape crop. Leave at least 18 percent generous uninterrupted architectural background above and below the fan. Preserve the tactile cobalt blue, vermilion and warm ivory materials, repair concept, enclosed wiring and lighting. Wide landscape camera view with more limestone room around the object. Do not crop any part of the fan. No text, logo or technical instructions.",
+      "reason": "Preserve full fan grille and base in1200x630 cover crop."
+    }
+  ]
+}

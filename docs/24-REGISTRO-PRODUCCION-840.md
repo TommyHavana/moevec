@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-29T11:36:54+00:00.
+Comprobado en WordPress: 2026-10-29T12:09:41+00:00.
 
-**204/840 terminadas · 0 en curso · 636 pendientes.**
+**207/840 terminadas · 0 en curso · 633 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -216,9 +216,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 202 | 14/56 · 7/15 | E5.8.07 | Inflación y ahorro: cómo proteger lo guardado | terminada | 3/3 | [Leer](https://moevec.org/blog/inflacion-y-ahorro/) |
 | 203 | 14/56 · 8/15 | E5.8.08 | Deuda de consumo: el enemigo del ahorro | terminada | 3/3 | [Leer](https://moevec.org/blog/deuda-de-consumo/) |
 | 204 | 14/56 · 9/15 | E5.8.09 | La cultura del despilfarro: obsolescencia, modas y presión social | terminada | 3/3 | [Leer](https://moevec.org/blog/cultura-del-despilfarro/) |
-| 205 | 14/56 · 10/15 | E5.8.10 | Ahorro y libertad: el colchón que te permite decir no | pendiente | 0/3 | — |
-| 206 | 14/56 · 11/15 | E5.8.11 | Reto de 30 días de frugalidad | pendiente | 0/3 | — |
-| 207 | 14/56 · 12/15 | E5.8.12 | Frugalidad cubana: el ingenio de la escasez y sus límites | pendiente | 0/3 | — |
+| 205 | 14/56 · 10/15 | E5.8.10 | Ahorro y libertad: el colchón que te permite decir no | terminada | 3/3 | [Leer](https://moevec.org/blog/ahorro-y-libertad/) |
+| 206 | 14/56 · 11/15 | E5.8.11 | Reto de 30 días de frugalidad | terminada | 3/3 | [Leer](https://moevec.org/blog/reto-30-dias-frugalidad/) |
+| 207 | 14/56 · 12/15 | E5.8.12 | Frugalidad cubana: el ingenio de la escasez y sus límites | terminada | 3/3 | [Leer](https://moevec.org/blog/frugalidad-cubana-ingenio/) |
 | 208 | 14/56 · 13/15 | E5.8.13 | Dónde guardar el ahorro: guía básica de opciones | pendiente | 0/3 | — |
 | 209 | 14/56 · 14/15 | E5.8.14 | Frugalidad empresarial: crecer sin despilfarrar | pendiente | 0/3 | — |
 | 210 | 14/56 · 15/15 | E5.8.15 | Tu plan de ahorro personal en una página | pendiente | 0/3 | — |
