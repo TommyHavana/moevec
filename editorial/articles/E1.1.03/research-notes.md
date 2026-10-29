@@ -1,0 +1,19 @@
+# Investigación y publicación · E1.1.03
+
+Consulta:29/10/2026. Lectura pertinente y límites, sin fingir lectura íntegra.
+
+- [Frédéric Bastiat, That Which Is Seen, and That Which Is Not Seen, 1850](https://en.wikisource.org/wiki/That_Which_Is_Seen,_and_That_Which_Is_Not_Seen): Obra primaria en traducción inglesa de Patrick James Stirling. Leídos introducción y apartado I sobre la ventana rota; nota local y HTML de archivo. Ejemplo de renuncia, sin medición actual ni afirmación universal sobre todo gasto.
+- [Daniel Kahneman y Amos Tversky, Prospect Theory: An Analysis of Decision under Risk, 1979](https://web.mit.edu/curhan/www/docs/Articles/15341_Readings/Behavioral_Decision_Theory/Kahneman_Tversky_1979_Prospect_theory.pdf): PDF primario archivado. Consultados resumen, introducción y pasajes sobre certeza y aislamiento. Experimentos de elecciones bajo riesgo con probabilidades objetivas; no diagnóstico individual, proporción universal ni lectura del libro de 2011.
+- [Richard Thaler y Cass Sunstein, Nudge, introducción y capítulo I, 2008](https://pages.ucsd.edu/~mckenzie/Nudge%20Intro%20Ch1.pdf): Extracto primario archivado. Leídos pasajes de introducción, páginas 5–6: orientación, opciones y salida fácil. No obra íntegra ni prueba de eficacia universal. La historia inicial de la cafetería no se presenta como caso empírico real.
+
+## Límites
+
+- Efectos experimentales como diagnóstico de cualquier persona.
+- Razón universal de aversión a pérdidas o porcentajes no verificados.
+- Arquitectura de decisión como garantía de resultados o justificación para ocultar la salida.
+- Citas atribuidas al libro de Kahneman de 2011 o a Hazlitt sin lectura directa.
+- Todas las posibilidades imaginables como alternativas realmente disponibles.
+
+## Resultado
+
+https://moevec.org/blog/decidir-con-informacion/ · 1250 palabras del registro WordPress. Una publicación y tres adjuntos, sin duplicados.

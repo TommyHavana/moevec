@@ -1,0 +1,92 @@
+{
+  "checked_on": "2026-10-29",
+  "sources": [
+    {
+      "name": "OCDE, Financial disincentive to return to work",
+      "url": "https://www.oecd.org/en/data/indicators/financial-disincentive-to-return-to-work.html",
+      "scope": "Definición primaria leída por web. Escenario exacto: dos hijos, dos meses de desempleo y pareja al 67% del salario medio. No se extrajeron tasas nacionales. Descarga 403 registrada."
+    },
+    {
+      "name": "OCDE, TaxBEN y calculadora de impuestos y prestaciones",
+      "url": "https://www.oecd.org/en/data/tools/oecd-calculator-of-taxes-and-benefits.html",
+      "scope": "Página oficial leída por web, taxben.oecd.org archivado. Se distingue entrar al empleo de aumentar ingresos u horas, y se identifican parámetros. No simulación ejecutada ni manual íntegro leído."
+    },
+    {
+      "name": "Comisión Europea, Tax and benefit indicators, metadatos de 2023",
+      "url": "https://economy-finance.ec.europa.eu/system/files/2023-11/Reference-metadata-Tax-and-Benefit-Indicators-06112023.pdf",
+      "scope": "PDF oficial archivado, apartados sobre hogares hipotéticos, PTR y METR leídos. Documento histórico de 2023 empleado para definiciones; no estadística vigente ni descripción de la base europea actual."
+    },
+    {
+      "name": "OCDE, Income support, redistribution and work incentives",
+      "url": "https://www.oecd.org/en/topics/income-support-redistribution-and-work-incentives.html",
+      "scope": "Leídos por web apartados sobre cobertura e incentivos. Apoyo a colectivos de riesgo y mecanismos de ayuda al empleo; sin usar promedios sin corte detallado ni inferir efectos causales. Descarga 403 registrada."
+    }
+  ],
+  "archived_files": [
+    {
+      "file": "sources/download-log.json",
+      "bytes": 1574,
+      "sha256": "f84cc98b46a0d864e48f4dd521f74a96be658ba2ba441c1824c29aa288f1016b"
+    },
+    {
+      "file": "sources/ec-metadata2023.pdf",
+      "bytes": 181768,
+      "sha256": "d259f6c9a130da575adbb0955ce5c7255f90b612ad666efe366e23949ceb5723"
+    },
+    {
+      "file": "sources/ec-metadata2023.txt",
+      "bytes": 9587,
+      "sha256": "7a7fa9606f627c676b516f2cc39a22242ae99ecabe9366ce60538e77a8798b1b"
+    },
+    {
+      "file": "sources/oecd-calculator-access-error.json",
+      "bytes": 185,
+      "sha256": "e759db13eaaac623d3c2958a55bfb7356da22090d81e0aaa717cf6b5e1214d7c"
+    },
+    {
+      "file": "sources/oecd-return-work-access-error.json",
+      "bytes": 194,
+      "sha256": "cb1a3bb41f4783d90b0ef2719c58416f904403114aaee66b37999624f1f22493"
+    },
+    {
+      "file": "sources/oecd-support-access-error.json",
+      "bytes": 190,
+      "sha256": "6bffeb1a1a99c8ab3bb24b4dc1ad383c86ee34c52126d76c41333d529ba8a672"
+    },
+    {
+      "file": "sources/oecd-taxben.html",
+      "bytes": 57312,
+      "sha256": "8ce62298a71cd12966aedcded425dcbd2acf86d67d21d5d4fca88c6212a6b254"
+    },
+    {
+      "file": "sources/oecd-taxben.visible.txt",
+      "bytes": 8962,
+      "sha256": "4513ad11e1ce93e1e7595b1cf10b69e4c3550807a2b820022307d86e6d33178d"
+    },
+    {
+      "file": "sources/oecd-web-reading.md",
+      "bytes": 1073,
+      "sha256": "82a923e1187a4ab4e9e16f05ef0bca7cf915f7a680434a10bfb09930d1effba4"
+    },
+    {
+      "file": "sources/reading-scope.json",
+      "bytes": 2590,
+      "sha256": "7d0ebbbd004ae020f2325b63f6bf3adfdd16f2e54f901bf76b1b4fa7788ee66e"
+    }
+  ],
+  "omitted_claims": [
+    "Toda ayuda como causa inevitable de dependencia o necesidad duradera como fallo moral.",
+    "Tasas hipotéticas como datos de España, Cuba, otro país o promedio OCDE.",
+    "PTR igualada al impuesto sobre la renta o a METR de horas adicionales.",
+    "Indicadores de reglas como causalidad probada del empleo o motivación de beneficiarios.",
+    "Recomendar renunciar a ayudas sin revisar las reglas vigentes y el caso individual.",
+    "Argumentos de Hayek o Rawls no consultados directamente para esta entrada."
+  ],
+  "scope": "Lectura pertinente especificada; archivo completo no implica lectura íntegra. Problemas de acceso y fuentes compartidas identificados.",
+  "final_verification": {
+    "checked_at": "2026-10-29T07:53:57.670147+00:00",
+    "published_url": "https://moevec.org/blog/autonomia-y-estado-dependencia/",
+    "public_checks": "verification.json",
+    "wordpress_registry_words": 1317
+  }
+}

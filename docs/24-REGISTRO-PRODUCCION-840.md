@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-29T07:08:38+00:00.
+Comprobado en WordPress: 2026-10-29T07:51:48+00:00.
 
-**165/840 terminadas · 0 en curso · 675 pendientes.**
+**171/840 terminadas · 0 en curso · 669 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -177,12 +177,12 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 163 | 11/56 · 13/15 | E1.5.13 | Comprar vivienda o alquilar: un análisis sin dogmas | terminada | 3/3 | [Leer](https://moevec.org/blog/comprar-o-alquilar-vivienda/) |
 | 164 | 11/56 · 14/15 | E1.5.14 | La propiedad en las constituciones latinoamericanas: función social y sus límites | terminada | 3/3 | [Leer](https://moevec.org/blog/propiedad-constituciones-funcion-social/) |
 | 165 | 11/56 · 15/15 | E1.5.15 | Propiedad digital: ¿son tuyos tus datos, tus monedas y tus compras en línea? | terminada | 3/3 | [Leer](https://moevec.org/blog/propiedad-digital-datos-monedas/) |
-| 166 | 12/56 · 1/15 | E1.1.01 | Qué es la autonomía y por qué no significa hacer lo que quieras | pendiente | 0/3 | — |
-| 167 | 12/56 · 2/15 | E1.1.02 | Autonomía económica: el primer paso es saber cuánto dependes | pendiente | 0/3 | — |
-| 168 | 12/56 · 3/15 | E1.1.03 | Decidir con información: cómo distinguir una opción real de una aparente | pendiente | 0/3 | — |
-| 169 | 12/56 · 4/15 | E1.1.04 | Libertad negativa y positiva: la discusión que explica medio debate político | pendiente | 0/3 | — |
-| 170 | 12/56 · 5/15 | E1.1.05 | La autonomía también se aprende: hábitos de decisión para jóvenes | pendiente | 0/3 | — |
-| 171 | 12/56 · 6/15 | E1.1.06 | Autonomía y Estado: cuándo ayudar se convierte en dependencia | pendiente | 0/3 | — |
+| 166 | 12/56 · 1/15 | E1.1.01 | Qué es la autonomía y por qué no significa hacer lo que quieras | terminada | 3/3 | [Leer](https://moevec.org/blog/que-es-la-autonomia/) |
+| 167 | 12/56 · 2/15 | E1.1.02 | Autonomía económica: el primer paso es saber cuánto dependes | terminada | 3/3 | [Leer](https://moevec.org/blog/autonomia-economica-medir-dependencia/) |
+| 168 | 12/56 · 3/15 | E1.1.03 | Decidir con información: cómo distinguir una opción real de una aparente | terminada | 3/3 | [Leer](https://moevec.org/blog/decidir-con-informacion/) |
+| 169 | 12/56 · 4/15 | E1.1.04 | Libertad negativa y positiva: la discusión que explica medio debate político | terminada | 3/3 | [Leer](https://moevec.org/blog/libertad-negativa-y-positiva/) |
+| 170 | 12/56 · 5/15 | E1.1.05 | La autonomía también se aprende: hábitos de decisión para jóvenes | terminada | 3/3 | [Leer](https://moevec.org/blog/autonomia-se-aprende-jovenes/) |
+| 171 | 12/56 · 6/15 | E1.1.06 | Autonomía y Estado: cuándo ayudar se convierte en dependencia | terminada | 3/3 | [Leer](https://moevec.org/blog/autonomia-y-estado-dependencia/) |
 | 172 | 12/56 · 7/15 | E1.1.07 | Autonomía bajo un sistema que decide por ti: el caso cubano | pendiente | 0/3 | — |
 | 173 | 12/56 · 8/15 | E1.1.08 | Autonomía y deuda: cuándo el crédito libera y cuándo encadena | pendiente | 0/3 | — |
 | 174 | 12/56 · 9/15 | E1.1.09 | Autonomía digital: datos, algoritmos y quién decide lo que ves | pendiente | 0/3 | — |

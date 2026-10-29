@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="css/jquery-ui.new.css?ver=26_10_2026" rel="stylesheet" />
+    <link href="css/highcharts.css?ver=26_10_2026" rel="stylesheet" />
+    <link href="css/taxben.css?ver=26_10_2026" rel="stylesheet" />
+    <link href="css/info.css?ver=26_10_2026" rel="stylesheet" />
+    <link href="css/wizard.css?ver=26_10_2026" rel="stylesheet" />
+    <link href="css/flexgrid.css?ver=26_10_2026" rel="stylesheet" />
+    <link href="css/ispinner.css" rel="stylesheet" />
+    <script src="js/lib/jquery-1.10.2.js?ver=26_10_2026"></script>
+    <script src="js/lib/jquery-ui.min.js?ver=26_10_2026"></script>
+    <script src="js/lib/highcharts.js?ver=26_10_2026"></script>
+    <script src="js/lib/exporting.js?ver=26_10_2026"></script>
+    <script src="js/lib/offline-exporting.js?ver=26_10_2026"></script>
+    <script src="js/config.js?ver=26_10_2026"></script>
+    <script src="js/highlightPlugin.js?ver=26_10_2026"></script>
+    <script src="js/utils.js?ver=26_10_2026"></script>
+    <script src="js/output-type-wizard.js?ver=26_10_2026"></script>
+    <script src="js/countries-years-wizard.js?ver=26_10_2026"></script>
+    <script src="js/family-wizard.js?ver=26_10_2026"></script>
+    <script src="js/wizard.js?ver=26_10_2026"></script>
+    <script src="js/info.js?ver=26_10_2026"></script>
+    <script src="js/taxben-form.js?ver=26_10_2026"></script>
+    <script src="js/taxben-chart.js?ver=26_10_2026"></script>
+    <script src="js/taxben-chart-by-webparam.js?ver=26_10_2026"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" integrity="sha512-BNaRQnYJYiPSqHHDb58B0yaPfCu+Wgds8Gp/gU33kqBtgNS4tSPHuGibyoeqMV/TJlSKda6FXzoEyYGjTe+vXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/app-init.js?ver=26_10_2026"></script>
+</head>
+<body>
+    <div id="root" style="display: none;">
+
+        <ul id="taxben-wizard" class="taxben-form">
+            <li data-wizard-step="Intro">
+                <div class="step-0" id="wizard-step-intro">
+                    <div style="display: flex; flex-direction: column; align-items: center;">
+                        <h2 style="text-align: center;margin-top: 50px; margin-bottom: 5px;">
+                            Please choose one of the following types of calculation
+                        </h2>
+                        <i id="currentIndicatorSelectionInfo"></i>
+                    </div>
+                    <div class="taxb-intro-container" style="margin-top: 50px;">
+                        <div class="taxb-intro-item taxb-intro-item--selected" data-taxben-value="taxben" style="background-color: #FFC000; color: #333;">
+                            Tax liabilities and benefit entitlements(TB)
+                        </div>
+                    </div>
+                    <div class="taxb-intro-container">
+                        <div class="taxb-intro-item" data-taxben-value="nrr" style="background-color: #00B0F0; width: 20%;">
+                            Net replacement rates in unemployment(NRR)
+                        </div>
+                        <div class="taxb-intro-item" data-taxben-value="wi" style="background-color: #0070C0; width: 20%;">
+                            Financial incentives to take up employment(PTR)
+                        </div>
+                        <div class="taxb-intro-item" data-taxben-value="metr" style="background-color: #002060; width: 20%;">
+                            Marginal effective tax rates
+                        </div>
+                        <div class="taxb-intro-item" data-taxben-value="ncc" style="background-color: #7030A0; width: 20%;">
+                            Net childcare costs
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li data-wizard-step="Output type">
+                <div class="step-1" id="taxb-output-type-wizard">
+                    <div class="taxb-flex-container">
+                        <div class="taxb-flex-row">
+                            <div class="taxb-flex-column taxb-flex-col-5" data-taxb-placeholder-L1="">
+                            </div>
+                            <div class="taxb-flex-column" data-taxb-placeholder-L2="">
+                            </div>
+                        </div>
+                        <div class="taxb-flex-row">
+                            <div class="taxb-flex-column" data-taxb-placeholder-L3="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li data-wizard-step="Countries and years">
+                <div class="step-2" id="taxb-countries-years-wizard">
+                    <div class="output-info">
+                        Your selection: <span class="output"></span>
+                    </div>
+                    <h3 style="margin-top:12px; margin-bottom: 12px;">
+                        Countries:&nbsp;&nbsp;<span id="hint-countries" class="obs"></span>
+                    </h3>
+                    <div class="country-list inline-list" data-taxb-placeholder-memberCountries=""></div>
+
+                    <br />
+
+                    <h4 style="margin-top:12px; margin-bottom: 12px;">Additional non-OECD countries</h4>
+                    <div class="country-list inline-list" data-taxb-placeholder-additionalCountries=""></div>
+
+                    <br />
+
+                    <div class="country-list-commands list-commands">
+                        <br />
+                        <a href="#" id="ctryAll" class="country-year-select-button">Select All</a>
+                        <a href="#" id="ctryOECD" class="country-year-select-button">Select OECD</a>
+                        <a href="#" id="ctryEU27" class="country-year-select-button">Select EU27</a>
+                        <a href="#" id="ctryNone" class="country-year-select-button">Deselect All</a>
+                    </div>
+
+                    <br />
+
+                    <h3 style="margin-top:12px; margin-bottom: 12px;">
+                        Years:&nbsp;&nbsp;<span id="hint-years" class="obs"></span>
+                    </h3>
+                    <div class="year-list inline-list" data-taxb-placeholder-years=""></div>
+
+                    <br/>
+
+                    <div class="year-list-commands list-commands">
+                        <a href="#" id="yearAll" class="country-year-select-button">Select All</a>
+                        <a href="#" id="yearNone" class="country-year-select-button">Deselect All</a>
+                        <a href="#" id="yearLatest5" class="country-year-select-button">Select latest 5 years</a>
+                    </div>
+                    <p id="methodologyWarningPlaceholder" style="color:red; min-height:14px; margin-top:8px; margin-bottom: 8px;"></p>
+                    <p>
+                        <font size="1.8">
+                            *<a href="https://oecdcode.org/disclaimers/israel.html"target="_blank">Information on the statistical data for Israel</a><br />
+                            *  Note by Turkey: The information in this document with reference to « Cyprus » relates to the southern part of the Island. There is no single authority representing both Turkish and Greek Cypriot people on the Island. Turkey recognizes the Turkish Republic of Northern Cyprus (TRNC). Until a lasting and equitable solution is found within the context of United Nations, Turkey shall preserve its position concerning the “Cyprus issue”.<br />
+                            *  Note by all the European Union Member States of the OECD and the European Union: The Republic of Cyprus is recognized by all members of the United Nations with the exception of Turkey. The information in this document relates to the area under the effective control of the Government of the Republic of Cyprus.
+                        </font>
+                    </p>
+                </div>
+            </li>
+
+            <li data-wizard-step="Family">
+                <div class="step-3" id="taxb-family-wizard">
+                    <div class="output-info">
+                        Your selection: <span class="output"></span>
+                    </div>
+                    <p id="hint-family" class="obs" style="color: rgb(87, 87, 87); padding: 6px;"></p>
+                    <h3 id="familyTypeLabel">Family type:</h3>
+                    <div data-taxb-placeholder-familyType=""></div>
+                    <br />
+                    <br />
+                    <h3>Age of adults (in years):</h3>
+                    <div data-taxb-placeholder-adultsAge=""></div>
+                    <br />
+                    <br />
+                    <h3 id="numberOfChildrenLabel">Number of children:</h3>
+                    <div data-taxb-placeholder-childrenCount=""></div>
+                    <br />
+                    <br />
+                    <div class="children-ages" data-taxb-placeholder-childrenAges=""></div>
+                </div>
+            </li>
+
+            <li data-wizard-step="Labour market">
+                <div class="step-4">
+                    <div class="output-info">
+                        Your selection: <span class="output"></span>
+                    </div>
+                    <h3 class="part when-couple">First adult</h3>
+                    <table class="struct">
+                        <tr>
+                            <td class="title" style="padding: 10px;">
+                                <div id="adult1SingleActivityColumnTitle">
+                                    <h3>Activity status:</h3>
+                                    <br />
+                                    <input type="radio" id="adult1Employed" name="activityadult1" />
+                                    <label for="adult1Employed">Employed</label>
+                                    <div class="info" id="info-adult1Employed">When the first adult is employed, the calculations assume that they are working and paying social security contributions since the age of 19 without interruptions.  </div>
+                                    <div class="info" id="info-outofwork">Output is "by unemployment duration": you cannot select "Employed" for this output type.</div>
+                                    <br />
+                                    <input type="radio" id="adult1OutOfWork" name="activityadult1" />
+                                    <label for="adult1OutOfWork">Without a job</label>
+                                    <div class="info" id="info-employed">Output is "by hours of work": you cannot select "Without a job" for this output type.</div>
+                                </div>
+                            </td>
+                            <td style="height: 200px; padding-bottom: 0; padding-left: 30px">
+
+                                <div class="taxb-flex-container labourMarket-tabsWrapper" id="adult1ActivityTabsWrapper">
+                                    <div class="taxb-flex-row" style="flex-wrap: nowrap;">
+                                        <div class="taxb-flex-column taxb-flex-col-6 labourMarket-tab labourMarket-tab--selected" data-taxben-value="employed">
+                                            In work scenario: Characteristics of the new employment contract
+                                        </div>
+                                        <div class="taxb-flex-column taxb-flex-col-6 labourMarket-tab" data-taxben-value="outofwork">
+                                            Out of work scenario: Characteristics of the jobseeker before taking up employment
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div  class="when-employed wage-data" data-taxben-output-view="workdayp">
+                                  <div id="adult1WhenEmployedWrapper">
+                                    <!-- Adult 1 Employed Wage options -->
+
+                                    <h3>Select the hourly wage:</h3>
+
+                                    <div id="adult1WhenEmployedRadioBtns">
+                                      <input type="radio" id="adult1_gross_wage_1" name="adult1_gross_wage" value="Percent" checked="checked" />
+                                      <label for="adult1_gross_wage_1">% of country's <a href="../docs/TaxBen_wages.xlsx">average wage</a></label>
+
+                                      <div id="adult1_gross_wage_2-wrapper" style="display: inline">
+                                        <input type="radio" id="adult1_gross_wage_2" name="adult1_gross_wage" value="Minimum" />
+                                        <label for="adult1_gross_wage_2">Statutory minimum wage</label>
+                                      </div>
+
+                                      <div id="adult1_gross_wage_3-wrapper" style="display: inline">
+                                        <input type="radio" id="adult1_gross_wage_3" name="adult1_gross_wage" value="Amount" />
+                                        <label for="adult1_gross_wage_3">Annual amount in national currency </label>
+                                      </div>
+                                    </div>
+
+                                    <br />
+
+                                    <div data-taxben-value="Percent" id="adult1Earnings">
+                                      <div class="ui-slider-handle"></div>
+                                    </div>
+
+                                    <div data-taxben-value="Amount" style="display: none">
+                                      <div>
+                                        <input type="text" id="adult1_Amount" maxlength="14" />
+                                        <label>Annual amount in national currency (full time equivalent)</label>
+                                      </div>
+                                      <div>
+                                        <select id="adult1_CountryIsoCode"></select>
+                                        <label for="adult1_CountryIsoCode">Select the country to which the amount above refers</label>
+                                      </div>
+                                    </div>
+
+                                    <br />
+                                    <br />
+                                  </div>
+                                </div>
+                                <div class="when-employed" data-taxben-output-view="earnings">
+                                    <div id="adult1WorkingTimeWrapper">
+                                        <h3 class="title" id="adult1WorkingTime-title">Select the hours of work per week (% of full-time work):</h3>
+                                        <div id="adult1WorkingTime">
+                                          <div id="adult1WorkingTime-handle" class="ui-slider-handle"></div>
+                                        </div>
+                                        <br />
+                                        <br />
+                                    </div>
+                                </div>
+
+                                <div class="when-employed">
+                                    <div id="referenceWageOptionSelectorWrapper">
+                                        <h3 class="title">Select the reference wage rate:</h3>
+                                        <div id="adult1_referenceWage-avg_wrapper" style="display: inline">
+                                            <input type="radio" id="adult1_referenceWage-avg_radio" name="adult1_referenceWage" value="AW" />
+                                            <label for="adult1_referenceWage-avg_radio">Average wage</label>
+                                        </div>
+
+                                        <div id="adult1_referenceWage-min_wrapper" style="display: inline">
+                                            <input type="radio" id="adult1_referenceWage-min_radio" name="adult1_referenceWage" value="MIN" />
+                                            <label for="adult1_referenceWage-min_radio">Minimum wage</label>
+                                        </div>
+                                        <br />
+                                        <br />
+                                    </div>
+                                </div>
+
+                                <div class="metr-only">
+                                    <div class="hr-divider-with-label" role="separator">
+                                        <span class="label">
+                                            Customise the range of the METR indicator
+                                        </span>
+                                    </div>
+                                    <br/>
+                                </div>
+
+                                <div class="when-employed">
+                                    <div id="adult1WagesRangeWrapper" style="padding: 8px;">
+                                        <h3 class="title" id="adult1_referenceWage-avg-title">
+                                            Select the desired range of wages (% of Average Wage):
+                                        </h3>
+                                        <h3 class="title" id="adult1_referenceWage-min-title">
+                                            Select the desired range of wages (% of Minimum  Wage):
+                                        </h3>
+                                        <div id="adult1WagesRange">
+                                          <div id="adult1WagesRange-handle1" class="ui-slider-handle"></div>
+                                          <div id="adult1WagesRange-handle2" class="ui-slider-handle"></div>
+                                        </div>
+                                        <br />
+                                    </div>
+                                </div>
+                                <div class="when-employed">
+                                    <div id="adult1HoursRangeWrapper" style="padding: 8px;">
+                                        <h3 class="title">Select the range of hours of work (% of full-time work):</h3>
+                                        <div id="adult1HoursRange">
+                                          <div id="adult1HoursRange-handle1" class="ui-slider-handle"></div>
+                                          <div id="adult1HoursRange-handle2" class="ui-slider-handle"></div>
+                                        </div>
+                                        <br />
+                                    </div>
+                                </div>
+                                <div class="when-employed">
+                                    <div id="marginalIncreaseInWageLevelsWrapper" style="padding: 8px;">
+                                        <h3 class="title">Select the marginal increase in the wage levels (% points):</h3>
+                                        <div id="marginalIncreaseInWageLevelsSlider">
+                                            <div id="marginalIncreaseInWageLevelsSlider-handle1" class="ui-slider-handle"></div>
+                                        </div>
+                                        <br />
+                                    </div>
+                                </div>
+                                <div class="when-employed">
+                                    <div id="marginalIncreaseInWorkingHoursWrapper" style="padding: 8px;">
+                                        <h3 class="title">Select the marginal increase in the working hours (% points):</h3>
+                                        <div id="marginalIncreaseInWorkingHoursSlider">
+                                            <div id="marginalIncreaseInWorkingHoursSlider-handle1" class="ui-slider-handle"></div>
+                                        </div>
+                                        <br />
+                                    </div>
+                                </div>
+                                <div class="when-unemployed">
+                                    <div id="monthsOutOfWork-container" style="padding: 8px;">
+                                        <h3>Months out of work:</h3>
+                                        <div class="info" id="info-outofwork-range">
+                                            Output is "by Unemployment duration": you can specify a range of months (from 1 to 60)
+                                        </div>
+                                        <div id="monthsOutOfWork" data-taxben-value="MonthsOutOfWork">
+                                            <div id="monthsOutOfWork-handle" class="ui-slider-handle"></div>
+                                        </div>
+                                        <table class="range" id="monthsOutOfWork-range-cont">
+                                            <tr>
+                                                <td class="obs">&nbsp;from</td>
+                                                <td></td>
+                                                <td class="obs">to</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="3">
+                                                    <div id="monthsOutOfWork-range" data-taxben-value="MonthsOutOfWork">
+                                                        <div id="monthsOutOfWork-range-handle1" class="ui-slider-handle"></div>
+                                                        <div id="monthsOutOfWork-range-handle2" class="ui-slider-handle"></div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                        <br />
+                                    </div>
+                                    <div id="adult1SocialContributionWrapper" style="padding: 8px;">
+                                        <h3 style="margin-top: 0" id="adult1SocialContributionHeader">Select the social contribution period (in months – over the entire career):</h3>
+                                        <div id="adult1SocialContribution">
+                                            <div id="adult1SocialContribution-handle" class="ui-slider-handle"></div>
+                                        </div>
+                                        <div class="obs m2y" id="social-contribution-months-to-years"></div>
+                                      
+                                        <div id="adult1SocialContributionRange" style="display: none">
+                                            <div id="adult1SocialContributionRange-handle1" class="ui-slider-handle"></div>
+                                            <div id="adult1SocialContributionRange-handle2" class="ui-slider-handle"></div>
+                                        </div>
+                                        <div class="obs m2y" id="social-contribution-range-months-to-years"></div>
+                                      
+                                        <div id="alert-age2" class="alert-age">
+                                            This value is inconsistent with first adult's age (<span class="age"></span>), the calculations will assume that the person started working at the age of 18.
+                                        </div>
+                                    </div>
+
+                                    <div id="benefit-unemployment-original-view_nrr" class="benefit-options nrr-only" style="margin-bottom: 10px;">
+                                        <h3>Select the previous full-time earnings:</h3>
+                                        <div class="info">Select the full-time earnings that enters the calculation of contributory unemployment benefits.</div>
+                                        <ul style="display: flex;">
+                                            <li>
+                                                <input type="radio" id="bu-option-1_nrr" name="benefit-unemployment-options_nrr" value="Percent" checked="checked" />
+                                                <label for="bu-option-1_nrr">% of country's <a href="../docs/TaxBen_wages.xlsx">average wage</a></label>
+                                            </li>
+                                            <li id="benefitUnemploymentStatutoryMinimumWage_nrr">
+                                                <input type="radio" id="bu-option-2_nrr" name="benefit-unemployment-options_nrr" value="Minimum" />
+                                                <label for="bu-option-2_nrr">Statutory minimum wage</label>
+                                            </li>
+                                        </ul>
+                                        <div data-taxben-value="Percent" id="benefit-unemployment-earnings_nrr">
+                                            <div class="ui-slider-handle"></div>
+                                        </div>
+                                    </div>
+
+                                    <div id="benefit-unemployment-percentOfAWSliderWrapper_nrr" class="nrr-only" style="padding-left: 8px;">
+                                        <label>Select the desired range of Previous annual earnings (in % of country's <a href="../docs/TaxBen_wages.xlsx">average wage</a>)</label>
+                                        <br/><br />
+                                        <div data-taxben-value="Percent" id="benefit-unemployment-percentOfAWSlider_nrr" style="margin-top:6px;">
+                                            <div id="benefit-unemployment-percentOfAWSlider-handle1_nrr" class="ui-slider-handle"></div>
+                                            <div id="benefit-unemployment-percentOfAWSlider-handle2_nrr" class="ui-slider-handle"></div>
+                                        </div>
+                                        <br />
+                                    </div>
+
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <h3 class="part when-couple" style="margin-top: -8px">Second adult</h3>
+                    <table class="struct when-couple">
+                        <tr>
+                            <td class="title" style="padding: 10px;">
+                                <h3>Activity status:</h3>
+                                <br />
+                                <input type="radio" id="adult2Employed" name="activityadult2" />
+                                <label for="adult2Employed">Employed</label>
+                                <div class="info" id="info-adult2Employed">When the second adult is employed, the calculations assume that they are working without interruptions since the age of 19.  </div>
+                                <br />
+                                <input type="radio" id="adult2OutOfWork" name="activityadult2" />
+                                <label for="adult2OutOfWork">Without a job</label>
+                                <div class="info" id="info-adult2OutOfWork">When the second adult is without a job, the calculations assume that 1) they are not eligible for any contributory benefits (e.g. because they have expired) and 2) they meet any relevant behavioural requirement needed for eligiblity to other social benefits (e.g. active job-search or being available for work).</div>
+                                <br />
+                                <br />
+                            </td>
+                            <td style="padding-left: 30px">
+                                <div class="when-partneremployed">
+                                    <h3>Select the hourly wage:</h3>
+
+                                    <div id="adult2WhenEmployedRadioBtns">
+                                        <input type="radio" id="adult2_gross_wage_1" name="adult2_gross_wage" value="Percent" checked="checked"/>
+                                        <label for="adult2_gross_wage_1">% of country's <a href="../docs/TaxBen_wages.xlsx">average wage</a></label>
+                                        <input type="radio" id="adult2_gross_wage_2" name="adult2_gross_wage" value="Minimum" />
+                                        <label for="adult2_gross_wage_2">Statutory minimum wage</label>
+                                        <div id="adult2_gross_wage_3-wrapper" style="display: inline">
+                                            <input type="radio" id="adult2_gross_wage_3" name="adult2_gross_wage" value="Amount" />
+                                            <label for="adult2_gross_wage_3">Annual amount in national currency </label>
+                                        </div>
+                                    </div>
+
+                                    <br />
+
+                                    <div data-taxben-value="Percent" id="adult2Earnings">
+                                        <div class="ui-slider-handle"></div>
+                                    </div>
+
+                                    <div data-taxben-value="Amount" style="display: none">
+                                        <div>
+                                            <input type="text" id="adult2_Amount" maxlength="14" />
+                                            <label>Annual amount in national currency (full time equivalent)</label>
+                                        </div>
+                                        <div>
+                                            <select id="adult2_CountryIsoCode"></select>
+                                            <label for="adult2_CountryIsoCode">Select the country to which the amount above refers</label>
+                                        </div>
+                                    </div>
+
+                                    <br />
+                                    <br />
+
+                                    <h3 id="adult2WorkingTime-title">Hours of work per week (% of full-time work):</h3>
+                                    <div id="adult2WorkingTime">
+                                        <div id="adult2WorkingTime-handle" class="ui-slider-handle"></div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </li>
+
+            <li data-wizard-step="Benefits">
+                <div class="step-5">
+                    <div class="output-info">
+                        Your selection: <span class="output"></span>
+                    </div>
+                    <div style="overflow-y: auto; overflow-x:hidden; max-height: 545px; padding-right: 18px;">
+                        <table class="struct">
+                            <tr>
+                                <td class="title">
+                                    <h3>Claim the following optional benefits:</h3>
+                                    <div class="info last-2000" id="info-benefits">
+                                        A full description of the policies included in the calculator is available
+                                        <a href="http://www.oecd.org/els/soc/benefits-and-wages-country-specific-information.htm" target="_blank">here</a>.
+                                        Please read <a href="https://www.oecd.org/social/benefits-and-wages/OECD-TaxBEN-methodology-and-manual.pdf" target="_blank">this document</a> for a description of the methodology.
+                                    </div>
+                                </td>
+                                <td class="title"></td>
+                            </tr>
+                            <tr>
+                                <td style="height: 15px"></td>
+                                <td style="height: 15px"></td>
+                            </tr>
+                            <tr id="unemploymentBenefitWrapper">
+                                <td style="text-align: left;">
+                                    <div>
+                                        <input type="checkbox" id="unemploymentBenefit" data-taxben-value="UnemploymentBenefit" />
+                                        <label for="unemploymentBenefit">Unemployment benefits</label>
+                                        <div class="info" id="info-unemploymentBenefit">Unemployment benefit may include both Unemployment Insurance and Unemployment Assistance benefits. Insurance benefits are typically linked to previous earnings and require previous employment record and social contribution payments. This distinguishes them from unemployment assistance benefits, which are usually means tested and either provide a second-tier safety net for those who have exhausted their rights to unemployment insurance, or serve as a principal form of income support for jobseekers who were not entitled to unemployment insurance benefits in the first place </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div id="benefit-unemployment-form" class="benefit-options">
+                                        <div id="benefit-unemployment-original-view">
+                                            <h3>Select the previous annual earnings:</h3>
+                                            <ul>
+                                                <li>
+                                                    <input type="radio" id="bu-option-1" name="benefit-unemployment-options" value="Percent" checked="checked" />
+                                                    <label for="bu-option-1">% of country's <a href="../docs/TaxBen_wages.xlsx">average wage</a></label>
+                                                </li>
+                                                <li id="benefitUnemploymentStatutoryMinimumWage">
+                                                    <input type="radio" id="bu-option-2" name="benefit-unemployment-options" value="Minimum" />
+                                                    <label for="bu-option-2">Statutory minimum wage</label>
+                                                </li>
+                                                <li id="benefitUnemploymentAnnualAmountInNationalCurrency">
+                                                    <input type="radio" id="bu-option-3" name="benefit-unemployment-options" value="Amount" />
+                                                    <label for="bu-option-3">Annual amount in national currency</label>
+                                                </li>
+                                                <li id="benefitUnemploymentAnnualAmountSameAsInWork">
+                                                    <input type="radio" id="bu-option-4" name="benefit-unemployment-options" value="SameAsInWork" />
+                                                    <label for="bu-option-4">same earnings as the in-work scenario</label>
+                                                </li>
+                                            </ul>
+                                            <div data-taxben-value="Percent" id="benefit-unemployment-earnings">
+                                                <div class="ui-slider-handle"></div>
+                                            </div>
+                                        </div>
+
+                                        <div id="benefit-unemployment-socialContributionWrapper" style="display: none;">
+                                            <h3 style="margin-top: 15px">
+                                                Months of social contributions (over the entire career):
+                                            </h3>
+                                            <div id="benefit-unemployment-socialContributionSlider">
+                                                <div id="benefit-unemployment-socialContributionSlider-handle" class="ui-slider-handle"></div>
+                                            </div>
+                                            <div class="obs m2y" id="benefit-unemployment-socialContributionSlider-info"></div>
+                                            <div id="benefit-unemployment-socialContributionSlider-ageAlert" class="alert-age">
+                                                This value is inconsistent with first adult's age (<span class="age"></span>), the calculations will assume that the person started working at the age of 18.
+                                            </div>
+                                        </div>
+
+                                        <div id="benefit-unemployment-percentOfAWSliderWrapper">
+                                            <label>Select the desired range of Previous annual earnings (in % of country's <a href="../docs/TaxBen_wages.xlsx">average wage</a>)</label>
+                                            <br/><br />
+                                            <div data-taxben-value="Percent" id="benefit-unemployment-percentOfAWSlider" style="margin-top:6px;">
+                                              <div id="benefit-unemployment-percentOfAWSlider-handle1" class="ui-slider-handle"></div>
+                                              <div id="benefit-unemployment-percentOfAWSlider-handle2" class="ui-slider-handle"></div>
+                                            </div>
+                                            <br />
+                                        </div>
+
+
+                                        <div data-taxben-value="Amount" style="display: none">
+                                            <div>
+                                                <input type="text" id="benefit-unemployment-amount" maxlength="14" />
+                                                <label>Amount in full time equivalent unit</label>
+                                            </div>
+                                            <div>
+                                                <select id="benefit-unemployment-country"></select>
+                                                <label for="benefit-unemployment-country">Select the country for the national currency unit</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr id="socialAssistanceWrapper">
+                                <td style="text-align: left;">
+                                    <div>
+                                        <input type="checkbox" id="socialAssistance" data-taxben-value="SocialAssistance" />
+                                        <label for="socialAssistance">Social assistance / Guaranteed minimum income</label>
+                                        <div class="info" id="info-socialAssistance"> The primary goal of Social Assistance benefits is to reduce the risks of income poverty and social exclusion. This differenciate SA/GMI benefits from Unemployment Assistance benefits, whose main aim is to encourage the labour market reintegration of jobseekers who have exhausted or are uneligible to Unemployment Insurance benefit. The list of benefits and their classification as Social Assistance or Unemployment Assistance is available
+                                            <a href="http://www.oecd.org/els/soc/benefits-and-wages-country-specific-information.htm" target="_blank">here</a>.</div>
+                                       </div>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left;">
+                                    <div id="housingBenefitWrapper">
+                                        <input type="checkbox" id="housingBenefit" data-taxben-value="HousingBenefit" />
+                                        <label for="housingBenefit">Cash housing benefits for rented accommodations</label>
+                                        <div class="info" id="info-housingBenefit">Income support programmes for people living in privately
+                                            rented accommodation. Specific cash support for housing-related expenditures other than rent,
+                                            e.g. heating and water bills, are outside the scope of the TaxBEN model. However, if part of housing
+                                            benefits aim to cover utility costs, and cannot be identified separately, calculated housing
+                                            benefits include these components as well.</div>
+                                   </div>
+                                  <div id="benefitCombinationSelectWrapper" style="padding: 6px;">
+                                      <div style="padding-bottom:6px"><label>Select the desired combination of outputs from the list:</label></div>
+                                      <select id="benefitCombinationSelect" style="width:350px">
+                                            <option value="withWithoutHousingBenefit">
+                                                With/without housing benefit
+                                            </option>
+                                            <option value="withWithoutSocialAssistance">
+                                                With/without social assistance
+                                            </option>
+                                            <option value="withWithoutSocialAssistanceAndHousingBenefit">
+                                                With/without social assistance + with/without housing benefits
+                                            </option>
+                                        </select>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div id="benefit-housing-form" class="benefit-options">
+                                        <ul>
+                                            <li>
+                                                <input type="radio" id="bh-option-1" name="benefit-housing-options" value="Percent" checked="checked" />
+                                                <label for="bh-option-1">Annual housing costs (% of <a href="../docs/TaxBen_wages.xlsx">average wage</a>)</label>
+                                            </li>
+                                            <li id="benAnnualHousingInNatCurrency">
+                                                <input type="radio" id="bh-option-2" name="benefit-housing-options" value="Amount" />
+                                                <label for="bh-option-2">Annual housing costs in national currency</label>
+                                            </li>
+                                        </ul>
+
+                                        <div id="housingCosts" data-taxben-value="Percent">
+                                            <div id="housingCosts-handle" class="ui-slider-handle"></div>
+                                        </div>
+
+                                        <div style="display: none" data-taxben-value="Amount">
+                                            <div>
+                                                <input type="text" id="benefit-housing-amount" maxlength="14" />
+                                                <label>Amount in full time equivalent unit</label>
+                                            </div>
+                                            <div>
+                                                <select id="benefit-housing-country"></select>
+                                                <label for="benefit-housing-country">Select the country for the national currency unit</label>
+                                            </div>
+                                        </div>
+
+                                        <br/>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr id="newJobBenefitWrapper">
+                                <td style="text-align: left;">
+                                    <div>
+                                        <input type="checkbox" id="newJobBenefit" data-taxben-value="NewJobBenefit" />
+                                        <label for="newJobBenefit">Temporary 'into-work' benefits when starting a new job</label>
+                                        <div class="info" id="info-newJobBenefit">One-off or temporary benefits that are available following
+                                            a recent transition into work, e.g., during a predefined period after taking up new employment</div>
+                                       </div>
+                                </td>
+                                <td>
+                                    <div class="when-jobbenefit">
+                                        <h3>Months in the new job:</h3>
+                                        <div id="monthsOfNewJob" data-taxben-value="MonthsOfNewJob">
+                                            <div id="monthsOfNewJob-handle" class="ui-slider-handle"></div>
+                                        </div>
+                                        <div class="obs m2y" id="months-to-years1"></div>
+                                        <div id="alert-age1" class="alert-age">This value is inconsistent with first adult's age (<span class="age"></span>), the calculations will assume that the<br />person started working at the age of 18.</div>
+                                    </div>
+                                    <br/>
+                                    <div class="when-jobbenefit" id="benefitsMonthsOutOfWorkWrapper">
+                                        <h3>Months out of work:</h3>
+                                        <div id="monthsOutOfWork2" data-taxben-value="MonthsOutOfWork">
+                                            <div id="monthsOutOfWork2-handle" class="ui-slider-handle"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left;">
+                                    <div>
+                                        <input type="checkbox" id="inWorkBenefit" data-taxben-value="InWorkBenefit" />
+                                        <label for="inWorkBenefit">In-Work benefits</label>
+                                        <div class="info" id="info-inWorkBenefit">Benefits provided on a regular basis, typically as a supplement to the regular monthly/weekly earnings, to those working a certain number of hours and/or earning more than a certain minimum.</div>
+                                    </div>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left;">
+                                    <div>
+                                        <input type="checkbox" id="familyBenefit" data-taxben-value="FamilyBenefit" />
+                                        <label for="familyBenefit">Family benefits</label>
+                                        <div class="info" id="info-familyBenefit">Benefits that are conditional on
+                                            having dependent familiy members. Benefits that are conditional on using centre-based childcare for parents of
+                                            pre-school children are classified as 'childcare benefits' (the last option of the list below, currently available only when all children are under 4 years and both parents work full time)</div>
+                                       </div>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left;">
+                                    <div>
+                                        <input type="checkbox" id="homecareBenefit" data-taxben-value="HomecareBenefit" />
+                                        <label for="homecareBenefit">Homecare allowances</label>
+                                        <div class="info" id="info-homecareBenefit">Homecare benefits (or 'child-rising' allowances) are programmes designed to support parents who look
+                                            after their children at home and are conditional on NOT using centre-based childcare.</div>
+                                       </div>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left;">
+                                    <div>
+                                        <input type="checkbox" id="aloneParentBenefit" data-taxben-value="AloneParentBenefit" />
+                                        <label for="aloneParentBenefit">Lone parent maintenance benefits</label>
+                                        <div class="info" id="info-aloneParentBenefit">Benefit programmes for lone parents whose aim is to provide a certain
+                                            amounts of alimony child support payments when the absent parent does not or cannot provide such support.</div>
+                                       </div>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left;">
+                                    <div title="Option available only when all children are below four and all parents work full time" id="childcareBenefitWrapper">
+                                        <input type="checkbox" id="childcareBenefit" data-taxben-value="ChildcareBenefit" />
+                                        <label for="childcareBenefit">Benefits and costs related to the use of centre-based childcare</label>
+                                        <div></div>
+                                        <div class="info" id="info-childcareBenefit"> Childcare costs are a measure of the gross childcare fees that providers
+                                            charge to parents whereas childcare benefits can take the form of fee rebates, allowances
+                                            or tax concessions related to the use of centre-based childcare. This <a href="https://taxben.oecd.org/tax-ben-resources/Calculating-Net-Childcare-Costs-Guidelines-for-Experts.pdf" target="_blank">guidelines for country experts</a> describe in detail the methodology for calculating childcare costs and associated benefits.</div>
+                                       </div>
+                                </td>
+                                <td>
+                                    <div id="hoursOfChildcarePerWeekSliderWrapper">
+                                        <h3 class="disabled-label">
+                                            Hours of childcare per week
+                                        </h3>
+                                        <div id="hoursOfChildcarePerWeekSlider">
+                                            <div id="hoursOfChildcarePerWeekSlider-handle" class="ui-slider-handle"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+        </li>
+
+            <li data-wizard-step="Run">
+                <div class="step-6" style="margin-top: -10px">
+                    <h3>Your selection:</h3>
+                    <div id="form-summary-container">
+                        <div id="form-summary">
+                        </div>
+                    </div>
+                    <div class="instep-buttons-container">
+                        <input type="button" id="summary-reset-button" class="reset" value="Reset" />
+                        <input type="button" id="summary-run-button" class="run" value="Run" />
+                    </div>
+                </div>
+            </li>
+
+            <li class="wizard-buttons-container">
+                <table>
+                    <tr>
+                        <td width="50px">
+                            <div>
+                                <input type="button" id="wizard-prev-button" value="◄ Previous" />
+                                <input type="button" id="wizard-reset-button" class="reset" value="Reset" />
+                            </div>
+                        </td>
+                        <td id="warning"></td>
+                        <td width="50px">
+                            <div>
+                                <input type="button" id="wizard-next-button" value="Next ►" />
+                                <input type="button" id="wizard-run-button" class="run" value="Run" />
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </li>
+        </ul>
+
+        <div class="taxben-result">
+            <div class="taxben-result-button-container-top top-buttons"></div>
+            <div id="taxben-chart" class="taxben-chart"></div>
+            <div id="taxben-chart-nrr" class="taxben-chart" style="display: none;">
+                <button type="button" id="nrr-charts-download-btn" style="position:relative; float: right; top: 5px; right: 5px; z-index: 999; cursor: pointer;">
+                    <span class="ui-icon ui-icon-image"></span>
+                </button>
+                <div class="taxb-flex-container" style="height:100%; background-color: #fff">
+                    <div class="taxb-flex-row" style="height:50%;">
+                        <div class="taxb-flex-column" data-nrr-chart-1 style="background-color: #fff; border:none; margin: 0; padding: 0;">
+                        </div>
+                    </div>
+                    <div class="taxb-flex-row" style="height:49%;">
+                        <div class="taxb-flex-column" data-nrr-chart-2 style="width: 320px; background-color: #fff; border:none; margin: 0; padding: 0;">
+                        </div>
+                        <div class="taxb-flex-column" data-nrr-chart-3 style="width: 320px; background-color: #fff; border:none; margin: 0; padding: 0;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="taxben-result-footnote">
+                Source: OECD tax-benefit model, TaxBEN <span></span>
+            </div>
+            <div class="taxben-result-button-container">
+                <a href="#" target="_blank" download="log_session.log" class="log-link">View log</a>
+                <input type="button" id="return-button" class="reset" value="◄ Back to parameters" />
+                <a id="download-button" class="taxben-result-button" title="Right-click to choose the file's name">
+                    Download data (xlsx) <span style="font-size: 9px; display: block;clear:both">(Right-click to choose the file's name)</span>
+                </a>
+                <a download href="../docs/TaxBEN_benefit_classification_table.xlsx" class="taxben-result-button" style="background-color:#6b993f; border-color:#6b993f; color:#fff;">Benefit classification table</a>
+            </div>
+            <div id="result-info-buttons" class="readme"></div>
+        </div>
+        <div id="dialog" style="display: none"></div>
+    </div>
+<!--
+    <div id="testcommandline" style="display: none; position: absolute; top: 35px; right: 8px; padding: 4px; background-color: #fff; border: 3px double black; width: 440px; height: 180px; color: black; font-size: 14px; font-family: 'Courier New'; white-space: pre-wrap"></div>
+-->
+</body>
+</html>
