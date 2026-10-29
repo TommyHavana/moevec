@@ -513,3 +513,23 @@ Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobad
 Siguiente **250–252 / E7.4.10–E7.4.12**, Política y Economía → Inversión y Capital. Preparaciones incluidas en las 591 pendientes. E7.4.10: 3/3 imágenes locales; sin texto final, sin publicación; E7.4.11: 3/3 imágenes locales; sin texto final, sin publicación; E7.4.12: 3/3 imágenes locales; sin texto final, sin publicación. Después 253–255. Automatización activa, sin agotamiento comunicado.
 
 Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 250–252 · 29/10/2026
+
+252/840 terminadas, 756 imágenes originales públicas, 0 en curso o borradores WordPress y 588 pendientes.
+
+250: financiación y administración separadas; Suecia pública con capitalización, transición neerlandesa hasta2028, índiceMarshCFA2026 y Argentina2008 con excepciones. 251: Ley118 anotada oficial04/09/2026, Mariel2013y cambiofiscal2025, declaraciones64/44de2023 sin balance2026inventado; OFACseptiembre2026sinatribucióncausal. 252: prórroga enley2024hasta01/01/2027; no canadiense legal distinto de no residente estadístico, propietarios distintos de compradores y límitesCHSP2024 explícitos.
+
+Siguiente **253–255 / E7.4.13–E7.4.15**, Política y Economía → Inversión y Capital. Preparaciones incluidas en las 588 pendientes. E7.4.13: 1/3 imágenes locales; sin texto final, sin publicación; E7.4.14: 2/3 imágenes locales; sin texto final, sin publicación; E7.4.15: 1/3 imágenes locales; sin texto final, sin publicación. Después 256–258. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 253–255 · 29/10/2026
+
+255/840 terminadas, 765 imágenes originales públicas, 0 en curso o borradores WordPress y 585 pendientes.
+
+253: FinanceAct2022distinguida de ley2025 vigenteabril2026;30%sobreingresoy1%retenciónsobrecontraprestación, Esya2023/2024conmuestras/periodos/supuestos; avisosFIU2023y2026sincondenasfingidas. 254: FDIRRIconreferenciadiciembre2025publicado2026yexclusiones, México2013/2025, CubaLey118art11yVenezuelaenero2026art23concontratosprivados, sinvetouniversal. 255: cinco comprobaciones, WJP2026/Fraserreferencia2024, AREAERcontrolesdejure, tratadosfirmadosyvigor separados; CIADIconsentimientoyejecuciónsin cobrogarantizado.
+
+Siguiente **256–258 / E7.8.01–E7.8.03**, Política y Economía → Migración de Capital. Preparaciones incluidas en las 585 pendientes. E7.8.01: 3/3 imágenes locales; sin texto final, sin publicación; E7.8.02: 3/3 imágenes locales; sin texto final, sin publicación; E7.8.03: 3/3 imágenes locales; sin texto final, sin publicación. Después 259–261. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.

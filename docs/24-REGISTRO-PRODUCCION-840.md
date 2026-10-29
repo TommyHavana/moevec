@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-29T18:16:17+00:00.
+Comprobado en WordPress: 2026-10-29T19:02:12+00:00.
 
-**249/840 terminadas · 0 en curso · 591 pendientes.**
+**255/840 terminadas · 0 en curso · 585 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -261,12 +261,12 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 247 | 17/56 · 7/15 | E7.4.07 | Por qué cada vez menos empresas salen a bolsa | terminada | 3/3 | [Leer](https://moevec.org/blog/menos-empresas-en-bolsa/) |
 | 248 | 17/56 · 8/15 | E7.4.08 | Bolsas latinoamericanas: pequeñas y poco líquidas | terminada | 3/3 | [Leer](https://moevec.org/blog/bolsas-latinoamericanas/) |
 | 249 | 17/56 · 9/15 | E7.4.09 | Chile: las AFP, los retiros de 2020–2021 y la reforma de 2025 | terminada | 3/3 | [Leer](https://moevec.org/blog/chile-afp-retiros-reforma/) |
-| 250 | 17/56 · 10/15 | E7.4.10 | Pensiones privadas frente a estatales: comparación honesta | pendiente | 0/3 | — |
-| 251 | 17/56 · 11/15 | E7.4.11 | Cuba: Ley 118 y la Zona Especial de Desarrollo Mariel | pendiente | 0/3 | — |
-| 252 | 17/56 · 12/15 | E7.4.12 | Canadá prohíbe a extranjeros comprar vivienda: evaluación | pendiente | 0/3 | — |
-| 253 | 17/56 · 13/15 | E7.4.13 | India: impuestos a las criptomonedas y efecto en el mercado | pendiente | 0/3 | — |
-| 254 | 17/56 · 14/15 | E7.4.14 | Sectores vetados a la inversión privada: un mapa comparado | pendiente | 0/3 | — |
-| 255 | 17/56 · 15/15 | E7.4.15 | Seguridad jurídica para invertir: lista de comprobación por país | pendiente | 0/3 | — |
+| 250 | 17/56 · 10/15 | E7.4.10 | Pensiones privadas frente a estatales: comparación honesta | terminada | 3/3 | [Leer](https://moevec.org/blog/pensiones-privadas-vs-estatales/) |
+| 251 | 17/56 · 11/15 | E7.4.11 | Cuba: Ley 118 y la Zona Especial de Desarrollo Mariel | terminada | 3/3 | [Leer](https://moevec.org/blog/cuba-ley-118-mariel/) |
+| 252 | 17/56 · 12/15 | E7.4.12 | Canadá prohíbe a extranjeros comprar vivienda: evaluación | terminada | 3/3 | [Leer](https://moevec.org/blog/canada-prohibicion-vivienda-extranjeros/) |
+| 253 | 17/56 · 13/15 | E7.4.13 | India: impuestos a las criptomonedas y efecto en el mercado | terminada | 3/3 | [Leer](https://moevec.org/blog/india-impuestos-criptomonedas/) |
+| 254 | 17/56 · 14/15 | E7.4.14 | Sectores vetados a la inversión privada: un mapa comparado | terminada | 3/3 | [Leer](https://moevec.org/blog/sectores-vetados-inversion-privada/) |
+| 255 | 17/56 · 15/15 | E7.4.15 | Seguridad jurídica para invertir: lista de comprobación por país | terminada | 3/3 | [Leer](https://moevec.org/blog/seguridad-juridica-invertir-lista/) |
 | 256 | 18/56 · 1/15 | E7.8.01 | Por qué el capital huye: salida y voz | pendiente | 0/3 | — |
 | 257 | 18/56 · 2/15 | E7.8.02 | Impuestos de salida: España, EE. UU. y Noruega | pendiente | 0/3 | — |
 | 258 | 18/56 · 3/15 | E7.8.03 | El cepo argentino: historia de un control de cambios | pendiente | 0/3 | — |

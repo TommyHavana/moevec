@@ -1,0 +1,1261 @@
+VIRTUAL DIGITAL ASSET TAX 
+ARCHITECTURE IN INDIA:
+A CRITICAL EXAMINATION
+JANUARY 2023 | SPECIAL ISSUE NO. 208
+SPECIAL ISSUE
+
+Attribution: Dr. Vikash Gautam. Virtual Digital Asset Tax Architecture in 
+India: A Critical Examination. Special Issue No. 208, January 2023, Esya 
+Centre. 
+Esya Centre 
+B-40 First Floor
+Soami Nagar South, 
+New Delhi - 110017, India
+The Esya Centre is a New Delhi based technology policy think tank. The 
+Centre’s mission is to generate empirical research and inform thought 
+leadership to catalyse new policy constructs for the future. More details can 
+be found at www.esyacentre.org. 
+Author: Dr. Vikash Gautam is an Adjunct Fellow at the Esya Centre.
+Acknowledgement: This report was prepared with knowledge support from 
+Taxsutra
+Layout & Design: Khalid Jaleel
+© 2023 Esya Centre. All rights reserved. 
+
+CONTENTS
+HIGHLIGHTS
+4
+1.	
+INTRODUCTION
+6
+2.	
+DATA AND METHODOLOGY
+9
+3.	
+INDIAN VDA TAX COMPETITIVENESS VIS-À-VIS 
+OTHER COUNTRIES
+10
+4.	
+CENTRALISED VDA EXCHANGE VOLUMES 
+14
+5.	
+IMPACT OF TAX ARCHITECTURE ON CENTRALISED 
+VDA EXCHANGE VOLUMES
+16
+6.	
+TRACTION OF INDIAN USERS ON INDIAN AND 
+FOREIGN VDA EXCHANGES
+18
+7.	
+VOLUME SHIFT FROM INDIAN TO FOREIGN 
+CENTRALISED VDA EXCHANGES
+21
+8.	
+SCENARIO-BASED FUTURE PROJECTIONS
+23
+9.	
+CONCLUSION AND RECOMMENDATIONS
+25
+ANNEXURE: METHODS, ASSUMPTIONS AND ALGORITHMS 27
+REFERENCES 
+30
+
+HIGHLIGHTS
+i . Exchange rates as applicable on 31st October 2022
+1.	 This is the first empirical exercise to estimate the impact of India’s 
+tax policy on centralised Virtual Digital Asset (VDA) exchanges, 
+that are similar to stock exchanges for digital assets. We find that the 
+main (unintended) impact of the policy is the offshoring of domestic 
+business and liquidity to foreign exchanges. Therefore, we anticipate 
+a commensurately large negative impact on tax revenues, as well as a 
+decrease in transaction traceability – which defeats the two central goals 
+of the extant policy architecture.  
+2.	 To wit, there was a shift of cumulative trade volume of around USD 
+3,852 million (~INR 32 thousand crores) from domestic centralised 
+VDA exchanges to foreign ones, during Feb-Oct 2022, following the 
+announcement of a new tax regime in India.i Of this, cumulative volume 
+of USD 3,055 million (~INR 25.3 thousand crores) was offshored within 
+six months of the current financial year. 
+3.	 Additionally, according to a sample of 5436 peer to peer traders and 
+industry estimates, the total trade volume contributed by Indians on 
+foreign centralised VDA exchanges was to the tune of USD 9,670 million 
+(INR 80 thousand crores) between Jul and Oct 2022. This unique channel 
+of trade and method of estimation is discussed in more depth later in this 
+report.  
+4.	 Domestic centralised VDA exchanges lost 15 percent of their trading 
+volumes in the two months (i.e. Feb-Mar 2022), following the Union Budget 
+2022 announcement of a levy of 30 percent tax on gains, no provision 
+to write-off losses and one percent TDS. They lost another 14 percent 
+of their trading volumes in three months (i.e. Apr-Jun 2022), since the 
+implementation of the flat 30 percent tax. And finally, the implementation 
+of the one percent TDS has had the most distortionary impact out of the 
+three tax measures/events, as Indian VDA exchanges lost up to 81 percent 
+of their trading volumes in four months (i.e. Jul-Oct 2022) following the 
+levy. 
+5.	 Many Indian VDA users seem to be switching from domestic centralised 
+VDA exchanges to foreign counterparts (an estimated 17 lakh users switched 
+in the period analysed), a trend visible starting Feb 2022 (i.e. following 
+VIRTUAL DIGITAL ASSET (VDA) TAX ARCHITECTURE IN INDIA
+4
+
+from the Union Budget announcement). Alternatively, VDA adoption by 
+Indians as measured by mobile app downloads fell by a sizable 16 percent 
+on month-on-month basis for domestic exchanges, while increasing by  the 
+same amount for foreign exchanges, during Jul-Sep 2022. 
+6.	 India’s tax treatment of VDAs is regressive in comparison to other 
+countries with high VDA adoption rates, such as the USA, UK, South 
+Africa, Vietnam, Philippines and Brazil.  We recommend the following 
+design changes, in order to mitigate the ill-effects of the current VDA tax 
+architecture:
+ Given that the TDS mandate is also meant to enhance transaction 
+tracking, lower its rate, akin to the securities transaction tax (STT). 
+This will help curb the distortionary effect of TDS on the industry;
+ The government should reconcile tax rates vis-a-vis revenue 
+maximization by ascertaining the optimal taxation point(s) through 
+Laffer-Curve analysis; 
+ Therefore, the government should adopt a progressive tax structure 
+with differentiated rates for short term and long-term gains, in line 
+with international best-practice;
+ In addition to tax measures, the high volumes of P2P trade suggest 
+that India will also need to enhance international coordination as 
+well as institutional oversight on VDA exchanges, such as a licensing 
+scheme. 
+7. Finally, the current tax architecture may lead to a loss of approximately 
+USD 1.2 trillion (INR 99.3 lakh crores) of local exchange trade volume in 
+the next four years, relative to a pro-market scenario where (a) TDS on 
+VDAs is at par with that on securities; (b) tax policy allows the provision to 
+setoff losses; (c) taxation of gains from VDAs is internationally competitive. 
+﻿HIGHLIGHTS
+5
+
+1.	 INTRODUCTION
+ii . Binance, CoinBase and Kraken are three largest global centralised VDA exchanges, 
+which do not have operations in India. CoinDCX, WazirX and Zebpay three largest Indian 
+centralised VDA exchanges. 
+We examine the impact of three events on the centralised virtual digital 
+asset (VDA) industry in India, announced on 1st February 2022 during the 
+Union Budget 2022-23: (a) a levy of a flat 30 percent tax on gains from VDA 
+trade applicable from 1st April 2022; (b) a levy of 1 percent tax deducted at 
+source (TDS) on transactions above INR 10,000 from 1st July 2022; and (c) the 
+provision disallowing the offsetting of losses applicable from 1st April 2022s. 
+This policy stance is intended to achieve a threefold objective: tracking VDA 
+transactions by resident Indians and the corresponding sources of income; 
+discouraging speculation and trading on VDAs; and building guard rails for 
+financial stability (ToI, 2022; Economic Times, 2022). 
+While the government’s intention to improve VDA transparency and 
+consequent macroeconomic stability is an optimistic move, many experts 
+argue that extant VDA taxation architecture defeats this purpose (Economic 
+Times, 2022). The TDS rate disincentivizes Indian market participants 
+to operate through centralised domestic exchanges, in favour of foreign 
+counterparts (Indian Express, 2022). Figure 1 presents this case, and depicts 
+the volumes of three leading centralised Indian VDA exchanges vis-à-vis those 
+of centralised foreign exchanges that don’t have local operations.ii There is a 
+notable fall in the volumes of each of the three Indian VDA exchanges at the 
+relevant regulatory inflexion points/events. There is also a secular fall from 
+the Budget announcement (i.e., 1 Feb 2022) to the levy of one percent TDS on 
+VDAs (1 Jul 2022).
+VIRTUAL DIGITAL ASSET (VDA) TAX ARCHITECTURE IN INDIA
+6
+
+Figure 1: Centralised VDA Exchange Volumes
+Notes: The sample includes data on three Indian centralised VDA exchanges - WazirX, CoinDCX 
+and Zebpay, and three foreign centralised VDA exchanges – Binance, Coinbase and Kraken. 
+The sample period is between 16 Nov 2021 and 15 Oct 2022. This figure presents natural log 
+transformed volumes of the exchanges. 
+Source: CoinGecko.
+Therefore, we assess the impact of the current tax architecture on the VDA 
+market and suggest ways to attain welfare-improving scenarios. We adopt a 
+four-pronged approach. First, we examine the competitiveness of Indian VDA 
+tax architecture with that of several other countries. In this regard, we focus 
+on three parameters, viz. tax rate on short-term and long-term gains, TDS, and 
+provisions to setoff losses. Second, we estimate the impact of the regulatory 
+events (i.e. Budget announcement, levy of 30 percent tax on gains and levy of 
+one percent TDS) on volumes of Indian centralised VDA exchanges, using a 
+causal estimation method a. la. Athey and Imbens (2006). Third, we examine 
+monthly data on Indian users’ traction on domestic and foreign exchanges 
+to gather additional evidence on the impact of the regulatory events on the 
+VDA market. Finally, we estimate the quantum of volume  that has shifted 
+flow from Indian centralised VDA exchanges to their foreign counterparts as 
+a consequence of the regulatory events. 
+There is no empirical evidence on the impact of Indian VDA tax architecture 
+on the market in the existing literature. Our research aims to fill this gap in 
+policy research. We highlight five key results: (a) India’s tax-policy on VDAs 
+is the most regressive in comparison to the other countries that have high 
+levels of VDA adoption; (b) Implementation of the TDS has had the most 
+INTRODUCTION
+7
+
+distortionary impact of all, with Indian centralised VDA exchanges losing 
+nearly 81 percent of their trading volumes in four months (i.e. Jul-Oct 2022) 
+following the levy; (c) Indian investors switched from Indian centralised 
+VDA exchanges to foreign counterparts on a large scale (in excess of 17 lakhs 
+during Feb-Oct 2022) following from these regulatory events; (d) nearly USD 
+3,852 million worth of cumulative volume moved from Indian centralised 
+VDA exchanges to foreign ones during Feb-Oct 2022, Of this, USD 3,055 
+million was offshored within six months of the current financial year; and 
+(e) the current tax architecture will result in lost cumulative trade volumes 
+of USD 1.2 trillion in the next four years. We recommend strategies to offset 
+these unintended ill-effects. 
+VIRTUAL DIGITAL ASSET (VDA) TAX ARCHITECTURE IN INDIA
+8
+
+2.	 DATA AND METHODOLOGY
+iii . CoinGecko is frequently cited by Forbes, the Wall Street Journal and the CNBC, and 
+others. Binance, CoinBase and Kraken are the leading three global VDA exchange platforms 
+in terms of trading volume (CoinGecko, n.d.) – and while CoinBase has an Indian office, it 
+does not yet have local operations. CoinDCX is India’s first cryptocurrency unicorn with a 
+valuation of over USD 2.15 billion and over 10 million users (ForbesIndia, 2022; TechCrunch, 
+2022). WazirX and Zebpay are other prominent Indian VDA exchanges with user bases of 
+over 10 million and over 4 million, respectively (WazirX, n.d.; Business Standard, 2022).
+We use public and private sector reports for tax rate data on short-term (i.e., 
+less than a year) and long-term (i.e., more than a year) gains, the applicability 
+of TDS, and provision to setoff losses for deriving taxable income. We compare 
+India with countries that have high VDA adoption rates along these three 
+parameters. These include the US, UK, Canada, Ukraine, Brazil, Thailand, 
+Japan, Austria, Singapore, Malaysia, South Africa, Netherlands, Switzerland, 
+Vietnam and Philippines (Chainalysis, 2022). We use data on three Indian 
+exchanges and three foreign exchanges from CoinGecko, to estimate the 
+impact of regulatory events (i.e., Budget announcement, levy of 30 percent 
+tax on gains and levy of one percent TDS) on market volumes of VDA 
+exchanges.iii We employ the change-in-change (CIC) estimation method a. al. 
+Athey and Imbens (2006) to assess the impact of the VDA taxation events on 
+exchange volumes. We look at Indian users’ online traffic on centralised VDA 
+exchanges from the ‘SE Ranking’ database. The Annexure provides a brief on 
+the methods used on this report. 
+We use two manoeuvres on data. First, exchange volume data is available at 
+a daily frequency till 15 Oct 2022, while users’ online traffic data is available 
+at a monthly frequency. We multiply the former with 31/15 in order to derive 
+consistent monthly estimates. Second, volume data at VDA exchanges, 
+intelligence platforms and media reports suggest that the three domestic 
+exchanges in the sample (WazirX, CoinDCX and Zebpay) account for two-
+third of the total volume of Indian centralised VDA exchanges. On the other 
+hand, the three foreign exchanges in the sample (Binance, Coinbase and 
+Kraken) account for 80 percent of the total volume of foreign centralised 
+VDA exchanges. We use these weights to derive market-wide statistics.
+DATA AND METHODOLOGY
+9
+
+3.	 INDIAN VDA TAX 
+COMPETITIVENESS VIS-À-VIS 
+OTHER COUNTRIES
+Table 1 presents a comparative picture of the regulatory stance on VDA 
+taxation in India vis-à-vis that in other countries.  The following inferences 
+emerge:
+A.	 Tax on gains from VDA trading – Most countries have a progressive 
+tax structure either on trade gains or on the value held at the end of 
+the financial year. For example, the US taxes short-term and long-
+term gains from VDA at separate rates. While short-term gains are 
+taxed at a rate between 10-37 percent, long-term gains attract a lower 
+tax rate of 10-20 percent. On the contrary, India’s flat tax approach 
+which is akin to its taxation on winnings from gambling and betting, 
+is a disincentive for VDA traders, especially small investors (Financial 
+Express, 2022). 
+Importantly, even though the tax rate ceiling of 37 percent in case of the US 
+is higher than that in India, tax burden of a rate higher than 24 percent falls 
+only on short-term traders with gains above USD 170,050, which impacts 
+the wealthiest four percent population in the country (World Inequality 
+Database, n.d.). Similarly, in case of the UK, Canada, Japan, South Africa and 
+Philippines, the tax rate above 30 percent impacts only on a small fraction of 
+high-income traders (World Inequality Database, n.d.).
+B.	 One percent TDS on VDA transactions – None of the countries, 
+except India, impose a TDS on VDA transactions. A TDS of one 
+percent (on transactions above INR 10,000) is quite high for an 
+industry characterised by high-frequency transactions akin to 
+securities markets. In contrast to the Indian case, several countries 
+have internal mechanisms to track VDA transactions to ensure tax 
+compliance. For example, the Canada Revenue Agency (CRA), USA 
+and UK have collaborated with centralized VDA exchanges to obtain 
+investor information for VDA investment tracking without impacting 
+market liquidity. 
+C.	 Provision for offsetting losses – India does not allow offsetting of 
+losses which acts as a disincentive as trading risks cannot be hedged 
+VIRTUAL DIGITAL ASSET (VDA) TAX ARCHITECTURE IN INDIA
+10
+
+against profits. Most other countries analysed here allow offsetting 
+of losses except Brazil and Japan. While Brazil offers gains up to USD 
+7,300 per month as tax free and has a lower tax rate, Japan includes 
+gains from VDA as taxable income. 
+Overall, India’s VDA tax architecture is the most stringent across countries 
+covered in Table 1. This leads to several unfavourable implications:
+	
+◼
+The tax regime creates a binding disincentive for Indian VDA traders, 
+more so for the small traders, forcing them to offshore their liquidity. This 
+renders the tax stance counterproductive. 
+	
+◼
+Regulatory uncertainty in the fledgling VDA industry also has the poten­
+tial to lead to capital outflow, deter international investors, or streamline 
+investments towards vertical markets. This reduces the competitiveness of 
+Indian VDA exchanges relative to their international counterparts to at­
+tract investments in this space. 
+	
+◼
+A flat high tax rate may not be optimal to maximize tax revenues from the 
+industry as it indirectly prompts investors to evade tax through increased 
+peer to peer (P2P) and grey market trading. This reduces the transparency 
+of VDA transactions and poses greater risks to financial stability. 
+iv . Top 4 percent of individuals earn above USD 170,050 annually in the United States.
+Table 1: VDA Tax Structure across Countries
+COUN­
+TRIES
+ASSET CLAS­
+SIFICATION 
+FOR TAXA­
+TION
+TAX RATE/ BRACKET, PERCENT
+TDS 
+APPLI­
+CA-BIL­
+ITY
+PROVI­
+SION TO 
+SET-OFF 
+LOSSES
+LONG TERM 
+GAINS/ IN­
+COME 
+SHORT TERM 
+GAINS
+India
+Capital 
+Asset
+30
+30
+Yes (1%)
+No
+USA
+Property
+0-20
+10-37; gains 
+over USD 
+170,050 taxed 
+above 24 
+percent.iv 
+No
+Yes 
+INDIAN VDA TAX COMPETITIVENESS VIS-À-VIS OTHER COUNTRIES
+11
+
+COUN­
+TRIES
+ASSET CLAS­
+SIFICATION 
+FOR TAXA­
+TION
+TAX RATE/ BRACKET, PERCENT
+TDS 
+APPLI­
+CA-BIL­
+ITY
+PROVI­
+SION TO 
+SET-OFF 
+LOSSES
+LONG TERM 
+GAINS/ IN­
+COME 
+SHORT TERM 
+GAINS
+UK
+Virtual 
+Asset
+0-20, on capital gains above 
+GBP 12,300 Tax free allowance; 
+0-45 income tax; For taxable 
+income up to GBP 50,000, 20 
+percent tax levied.v 
+No
+Yes
+Switzer­
+land
+Asset/Prop­
+erty
+0.3-1% (wealth 
+tax on capital 
+gains)
+No tax, 
+gifting tax- 
+(2-36)
+No
+Yesvi 
+Canada
+Commodity
+15-33 (based on classification 
+as income or capital gain); For 
+taxable income up to $155,625, 
+rate below 30 vii 
+No
+Yes
+Ukraine 
+Business 
+Activity
+5
+5
+No
+-
+Brazil
+Securities 
+15-22.5 taxed 
+as capital 
+gains
+0 under USD 
+7300 p.m., 
+otherwise 
+taxed under 
+capital gains
+No
+No
+Thailand
+Digital Asset
+8 
+8
+No
+Yes
+Japan
+Miscellaneous 
+Income
+0-55 under income tax brack­
+ets; For taxable income up to 
+¥9,000,000, rate is below 33.viii 
+No
+No
+v . Top 10 percent earn above GBP 50,270 annually in the United Kingdom.
+vi . Because VDA gains are tax exempt for private investors, one cannot deduct VDA capital 
+losses. However, if one qualifies as a self-employed trader or a business, they may be able to 
+deduct VDA capital losses to reduce their tax bill.
+vii . Less than top 5 percent of income earners in Canada fall in brackets above the 30 
+percent tax rate.
+viii . Top 10 percent of the income earners fall under the tax slab above 33 percent, subject 
+to deductions on taxable income.
+VIRTUAL DIGITAL ASSET (VDA) TAX ARCHITECTURE IN INDIA
+12
+
+COUN­
+TRIES
+ASSET CLAS­
+SIFICATION 
+FOR TAXA­
+TION
+TAX RATE/ BRACKET, PERCENT
+TDS 
+APPLI­
+CA-BIL­
+ITY
+PROVI­
+SION TO 
+SET-OFF 
+LOSSES
+LONG TERM 
+GAINS/ IN­
+COME 
+SHORT TERM 
+GAINS
+Austria
+Capital As­
+sets
+27.5
+27.5
+No
+Yes
+Singa­
+pore
+Property
+Tax free (non-business use)
+No
+Yes
+Malaysia 
+Securities 
+Tax free
+Active trad­
+ing subject to 
+tax similar to 
+stocks; 0-24
+No
+Yes
+South 
+Africa
+Financial 
+Product
+18 percent on capital gains, 
+18-45 percent on income tax 
+brackets; For taxable income 
+up to R 488,700 rate is below 
+30 percent.ix 
+No
+Yes
+Nether­
+lands
+Asset
+1.9 -5.7 (Net worth tax- taxed 
+on asset value)
+No
+Yes
+Vietnam
+Payment 
+means/
+goods/secu­
+rities
+0-5
+5-10
+No
+Yes
+Philip­
+pines
+Virtual 
+Asset/ Legal 
+Tender
+0-35 under income tax brack­
+ets, For taxable income up to 
+PHP 2,000,000, rate is below 
+30 percent.x 
+No
+Yes
+ix . Less than top ten percent of income earners in South Africa fall in brackets above the 
+31 percent income tax rate.
+x . Less than top two percent of income earners in Philippines fall in brackets above the 30 
+percent income tax rate.
+INDIAN VDA TAX COMPETITIVENESS VIS-À-VIS OTHER COUNTRIES
+13
+
+4.	CENTRALISED VDA EXCHANGE 
+VOLUMES 
+Table 2 presents a comparative picture of Indian centralised VDA exchanges 
+with that of comparable foreign VDA exchanges.  Two key observations 
+emerge:
+	
+◼
+Volumes of Indian VDA exchanges were 0.57 percent of that of the foreign 
+VDA exchanges in Jan 2022. They fell to a stark 0.03 percent in Oct 2022.
+	
+◼
+Indian VDA exchanges lost 97.1 percent of their volume in Oct 2022 when 
+compared to the corresponding volumes in Jan 2022. In this period, foreign 
+exchanges lost only 36.3 percent. 
+Table 2: Centralised VDA Exchange Volumes
+VARIABLE
+PERIOD
+INDIAN EX­
+CHANGES
+FOREIGN EX­
+CHANGES
+INDIAN 
+EXCHANGES 
+AS PERCENT 
+OF FOREIGN 
+EXCHANGES
+Exchange 
+volume, USD 
+million
+Jan 2022
+4736.7
+834,603.1
+0.57
+Exchange 
+volume, USD 
+million
+Oct 2022 
+137.6
+531,553.4
+0.03
+Exchange 
+volume loss, 
+percent
+Jan-Oct 2022
+97.1
+36.3
+Source: Author calculation based on CoinGecko data.
+VIRTUAL DIGITAL ASSET (VDA) TAX ARCHITECTURE IN INDIA
+14
+
+This suggests that 60.8 percent of the fall in the volumes of Indian 
+centralised VDA exchanges are due to domestic market conditions (i.e. VDA 
+tax architecture in India during Feb-Oct 2022) and the conditions intrinsic 
+to these exchanges. We turn to estimating the causal impact of these tax 
+announcements/levies on exchange volume in the following section, given that 
+there is a fall in volumes of both domestic and foreign centralised exchanges, 
+with the former fall of a much higher magnitude.
+CENTRALISED VDA EXCHANGE VOLUMES 
+15
+
+5.	 IMPACT OF TAX ARCHITECTURE 
+ON CENTRALISED VDA EXCHANGE 
+VOLUMES
+Table 3 presents the estimates of the impact of the three events – Budget 
+announcement, levy of 30 percent tax on gains, one percent TDS and provision 
+disallowing offsetting of losses – on market volumes. Three observations 
+emerge:
+	
+◼
+Centralised Indian VDA exchanges lost 15 percent of their trading volumes 
+in two months (i.e. Feb-Mar 2022) after Budget announcement on levy of 
+30 percent tax on gains and one percent TDS; 
+	
+◼
+These exchanges lost another 14 percent of their trading volumes in three 
+months (i.e. Apr-Jun 2022) after 30 percent tax on gains was levied;
+	
+◼
+They lost 81 percent of their trading volumes in four months (i.e. Jul-Oct 
+2022) after one percent TDS was levied.
+Table 3: Impact of Tax Events on Indian 
+Centralised VDA Exchange Volumes
+PERIOD
+FEB-MAR 2022
+APR-JUN 2022
+JUL-OCT 2022
+Exchange volume, USD 
+million
+9126
+5991
+1221
+Loss by exchanges 
+in the sample, USD 
+million
+1374
+824
+988
+Loss as a percentage of 
+exchange volume
+15
+14
+81
+Source: Author calculation based on CoinGecko data.
+It is important to highlight two issues at this stage. First, many Indian VDA 
+investors are likely to adjust their market behaviour right after the Union 
+Budget announcement, anticipating the effect of the levies (i.e., 30 percent tax 
+on gains and one percent TDS). Thus, this announcement effect is a part of 
+VIRTUAL DIGITAL ASSET (VDA) TAX ARCHITECTURE IN INDIA
+16
+
+the overall impact of these levies. Second, to the extent Indian VDA investors 
+are adaptive or/and their expectations do not fully account for the effect of 
+future developments, the market will reveal corrections on days succeeding 
+these events as well. We notice spikes in the impacts in the periods post these 
+levies.
+A significant negative impact of the current tax architecture on the 
+centralised VDA exchanges prompts a pertinent policy question. That is, 
+where does the crowded-out liquidity from the Indian VDA exchanges, due 
+to the current tax architecture, end up? If investors channel their activities 
+offshore, the Indian VDA tax design is counterproductive. Ready evidence 
+on this is elusive, as it is almost impossible to track such an information. A 
+feasible solution is to find a proxy for investors’ engagements with foreign 
+centralised VDA exchanges relative to the Indian ones. We discuss this in the 
+following section.
+IMPACT OF TAX ARCHITECTURE ON CENTRALISED VDA EXCHANGE VOLUMES
+17
+
+6.	 TRACTION OF INDIAN USERS 
+ON INDIAN AND FOREIGN VDA 
+EXCHANGES
+We look at online traffic from India towards the same six centralized 
+exchanges. We use six-month moving-average for extracting trends from this 
+data. Chatfield and Xing (2019) discuss the use of moving-average smoothers 
+for extracting trends in detail. 
+Figure 2/ Table 4 shows the smoothed online traffic from India to foreign and 
+domestic centralised VDA exchanges, at a monthly frequency. Starting Feb 
+2022, there is clear evidence of foreign centralised VDA exchanges gaining 
+traction, at the cost of Indian centralised VDA exchanges. That is, there 
+is robust evidence that many Indian investors switched (approximately 17 
+lakhs if share of Indian users on Indian exchange remain as before Feb 2022), 
+as a result of the domestic VDA tax architecture. Using an alternate data on 
+VDA adoption rate, proxied by number of app instals of domestic centralised 
+VDA exchanges by Indians, we notice a month-on-month fall of 16 percent 
+during Jul-Sep 2022, while downloads of foreign counterparts increased by a 
+commensurate amount (source: Appannie, n.d.).
+Figure 2: Online Traffic from India into Foreign and 
+Domestic Centralised VDA Exchanges
+VIRTUAL DIGITAL ASSET (VDA) TAX ARCHITECTURE IN INDIA
+18
+
+Table 4: Online Traffic from India into Foreign and 
+Domestic Centralised VDA Exchanges
+PERIOD
+FOREIGN EXCHANGES
+INDIAN EXCHANGES
+INDIAN EXCHANG­
+ES MINUS FOR­
+EIGN EXCHANGES
+NUMBER, IN LAKHS
+GROWTH IN NUMBER, PERCENT
+SHARE IN TOTAL, PERCENT
+CHANGE IN SHARE
+NUMBER, IN LAKHS
+GROWTH IN NUMBER, PERCENT
+SHARE IN TOTAL, PERCENT
+CHANGE IN SHARE
+GROWTH IN NUMBER, PERCENT
+CHANGE IN SHARE
+Nov-21
+2.48
+26.1
+50.0
+-3.2
+2.47
+43.5
+50.0
+3.2
+17.4
+6.4
+Dec-21
+3.32
+34.0
+48.9
+-1.1
+3.47
+40.1
+51.1
+1.1
+6.1
+2.2
+Jan-22
+4.24
+27.8
+49.5
+0.6
+4.33
+24.8
+50.5
+-0.6
+-3
+-1.2
+Feb-22
+5.24
+23.5
+51.8
+2.3
+4.88
+12.7
+48.2
+-2.3
+-10.8
+-4.6
+Mar-22
+6.26
+19.6
+52.8
+1.0
+5.59
+14.7
+47.2
+-1.0
+-4.9
+-2.0
+Apr-22
+7.64
+22.0
+55.0
+2.2
+6.25
+11.8
+45.0
+-2.2
+-10.2
+-4.4
+May-22
+8.91
+16.7
+57.9
+2.9
+6.48
+3.6
+42.1
+-2.9
+-13.1
+-5.8
+Jun-22
+9.82
+10.2
+60.3
+2.4
+6.47
+-0.1
+39.7
+-2.4
+-10.3
+-4.8
+Jul-22
+10.94
+11.5
+62.8
+2.5
+6.49
+0.3
+37.2
+-2.5
+-11.2
+-5.0
+Aug-22
+11.95
+9.2
+64.9
+2.1
+6.46
+-0.5
+35.1
+-2.1
+-9.7
+-4.2
+Sep-22
+12.90
+8.0
+66.4
+1.5
+6.54
+1.3
+33.6
+-1.5
+-6.7
+-3.0
+Oct-22
+14.12
+9.4
+67.6
+1.2
+6.76
+3.4
+32.4
+-1.2
+-6.0
+-2.4
+Source: SE Ranking.
+TRACTION OF INDIAN USERS ON INDIAN AND FOREIGN VDA EXCHANGES
+19
+
+How Offshoring Happens: Case Study on P2P Transactions
+Peer-to-Peer trades mediated by offshore VDA platforms have emerged as a 
+convenient and difficult-to-trace option for VDA traders, including in In­
+dia. Specifically, they can transact INR directly between each other’s bank 
+accounts, while a third party VDA exchange facilitates the transfer of VDA 
+between internal wallets. We use a sample of 5436 P2P traders posting P2P 
+advertisements on prominent offshore exchanges covering 10 VDAs, to assess 
+the P2P INR volumes on offshore exchanges.xi These were collected in Novem­
+ber 2022. 
+In summary: 
+	
+◼
+Average 30-day volume: USD 366mn
+	
+◼
+Average completion rate across sample: 92 percent
+	
+◼
+Average 30-day orders: 1,416,392
+	
+◼
+Average trade size: USD 254
+	
+◼
+Total number of advertisers active during the period: 5436
+Clearly, some Indian users entered and exited the VDA market through cash 
+transactions while using offshore platforms to trade and store their funds. As 
+a result, they traded an average USD 366 mn on average per day. We surveyed 
+industry experts in two leading domestic exchanges with these summary 
+results based on P2P volumes, who subsequently pegged the total trade volume 
+loss at USD 9,670 million from July till October 2022. 
+xi . Data was scraped from the p2p product offerings of offshore exchange platforms; it was 
+collected for 10 assets – ADA, BNB, BTC, BUSD, SHIB, ETH, MATIC, TRX, USDT & WRX
+VIRTUAL DIGITAL ASSET (VDA) TAX ARCHITECTURE IN INDIA
+20
+
+7.	 VOLUME SHIFT FROM INDIAN 
+TO FOREIGN CENTRALISED VDA 
+EXCHANGES
+The assessment of online traffic and volume data in the previous sections 
+indicates that there are two effects in play for liquidity flows from Indian to 
+foreign centralised VDA exchanges: (a) substitution effect: there is a shift in 
+traffic from Indian to foreign centralised VDA exchanges, out of the total 
+number of Indians who traded through either of these kinds of exchanges; 
+(b) growth effect: the total traffic from India to VDA exchanges, domestic 
+or foreign, would have grown differently had there been no change in the tax 
+policy stance. Foreign centralised VDA exchanges account for part of this 
+growth in traffic.
+Table 5 presents estimates of trade volume flight from from Indian to foreign 
+centralised VDA exchanges. Algorithm for these estimates is in the Annexure. 
+Three key inferences emerge.
+	
+◼
+Cumulative trade volume amounting to USD 797.2 million moved from 
+Indian to foreign centralised VDA exchanges during Feb-Mar 2022. It ac­
+counts for 8.7 percent of the volume of the Indian centralised VDA ex­
+changes in this period; 
+	
+◼
+Additional cumulative trade volume worth USD 2206.4 million shifted 
+from Indian to foreign centralised VDA exchanges during Apr-Jun 2022, 
+accounting for 36.8 percent of the volume of the Indian centralised VDA 
+exchanges in this period;
+	
+◼
+In the next four months during, Jul-Oct 2022, cumulative trade volume 
+worth USD 848.6 million shifted from Indian to foreign centralised VDA 
+exchanges. It accounts for 69.5 percent of the volume of the Indian cen­
+tralised VDA exchanges in this period.
+VOLUME SHIFT FROM INDIAN TO FOREIGN CENTRALISED VDA EXCHANGES
+21
+
+Table 5: Shift in Trade Volume from Indian to 
+foreign centralised VDA exchanges
+PERIOD
+FEB-MAR 
+2022
+APR-JUN 
+2022
+ JUL-OCT 
+2022
+Exchange volume, USD million
+9126.0
+5991.0
+1220.6
+Indian online traffic to 
+domestic centralised VDA 
+exchanges, million
+1.05
+1.3
+2.6
+Indian online traffic to 
+foreign centralised VDA 
+exchanges, million
+1.1
+2.6
+3.8
+Substitution effect: 
+Cumulative trade volume 
+flight from Indian to foreign 
+centralised VDA exchanges, 
+USD million
+543.9
+1792.2
+568.0
+Growth effect: cumulative 
+trade volume flight from 
+Indian to foreign centralised 
+VDA exchanges, USD million
+253.3
+414.2
+280.5
+Total: Shift of cumulative 
+trade volume from Indian 
+to foreign centralised VDA 
+exchanges, USD million
+797.2
+2206.4
+848.6
+Trade volume going to foreign 
+exchanges, as a percent of 
+total trade volume
+8.7
+36.8
+69.5
+Source: Author calculation based on CoinGecko and SE ranking data.
+Overall, around USD 3,852 million worth of cumulative trade volume that 
+would have taken place on domestic centralised VDA exchanges shifted to 
+foreign ones due to the slanting tax policy in the country. Of this, USD 3,055 
+million was offshored within six months of the current financial year. 
+VIRTUAL DIGITAL ASSET (VDA) TAX ARCHITECTURE IN INDIA
+22
+
+8.	SCENARIO-BASED FUTURE 
+PROJECTIONS
+The Indian VDA industry is crippled under the current tax architecture. It is 
+imperative to assess future prospects with current baseline scenario vis-à-vis 
+a more pro-market scenario. Based on the discussion so far, we lay out these 
+two scenarios below: 
+	
+◼
+Baseline Scenario: (a) Almost all Indian centralised VDA users move to for­
+eign exchanges; (B) Local exchanges continue to lose volume and user trac­
+tion, in the same way as they have Feb ’22 onwards. 
+The result of this scenario is that centralised exchange businesses 
+become unviable in India.
+	
+◼
+Pro-market scenario: (a) TDS on VDAs is at par with that on securities (as­
+suming the maximum rate of 0.1 percent TDS); (b) tax regulations allow the 
+setoff of losses; (c) taxes on gains are internationally competitive (i.e. it is 
+progressive). 
+The result of this scenario is that volumes and growth of Indian 
+centralised VDA exchanges return to pre-Budget 2022 levels in two 
+quarters; and domestic centralised exchanges receive 50.5 percent of 
+traction from Indian users on an average (as was the case before the 
+Budget announcement).
+Table 5 presents the baseline and pro-market scenarios for centralised 
+VDA exchange volumes. The current tax architecture may lead to a loss 
+of approximately USD 1.2 trillion of local exchange trade volume in the 
+next four years, relative to a pro-market scenario. The methods for these 
+estimates is in the Annexure.
+SCENARIO-BASED FUTURE PROJECTIONS
+23
+
+Table 6: Baseline and Pro-Market Scenarios for Centralised VDA Market
+TIME
+CURRENT/PRO-MARKET 
+SCENARIO
+VOLUME, USD MN
+RELATIVE TO NOV 
+2021
+Nov-21
+Current market scenario – 
+actual exchange volume
+7781.2
+X
+Feb-22
+2800.1
+0.41X
+Mar-22
+3288.7
+0.36X
+Apr-22
+1862.2
+0.42X
+May-22
+1348.5
+0.24X
+Jun-22
+795.8
+0.17X
+Jul-22
+286.6
+0.1X
+Aug-22
+242.0
+0.04X
+Sep-22
+131.8
+0.03X
+Oct-22
+91.8
+0.02X
+Nov-22
+Pro-market scenario – po­
+tential exchange volume
+4455.1
+0.57X
+Nov-23
+10542.7
+1.35X
+Nov-24
+16630.3
+2.14X
+Nov-25
+22717.9
+2.92X
+Nov-26
+28805.5
+3.70X
+Notes: The sample for this projection includes data on three Indian VDA exchanges - WazirX, 
+CoinDCX and Zebpay, and three foreign exchanges – Binance, Coinbase and Kraken. The 
+algorithm and assumptions for the future projections are in the Annexure.
+VIRTUAL DIGITAL ASSET (VDA) TAX ARCHITECTURE IN INDIA
+24
+
+9.	 CONCLUSION AND 
+RECOMMENDATIONS
+xii . With a rise in tax rates, tax revenue rises only to a point, after which it falls which might 
+happen due to offshoring of exchanges and investors shifting to decentralized/P2P foreign 
+exchanges.
+On one hand, the tax on gains from VDA transactions is high (at flat 30 
+percent) without the provision of loss-offsetting and there is a levy on one 
+percent TDS unlike in most other countries; and on the other. there is a clear 
+indication of VDA investors offshoring their liquidity. These imply that India 
+is not only losing out on international competitiveness in the VDA ecosystem, 
+which is closely linked to several emerging technologies, but also on scarce 
+liquidity which is important for concurrent economic value creation in the 
+country. Importantly, the implications of the current VDA architecture on 
+the government’s tax revenue are also unclear. Against this backdrop and the 
+initial industry response, we recommend:
+1.	 The government should consider lowering the TDS rate to curb its 
+distortionary effect, particularly since any rate of TDS can meet the 
+transaction tracking purpose. For instance, TDS levels can be analogous 
+to those of the securities transaction tax (STT). The STT is levied at 
+0.01 percent, 0.1 percent or 0.05 percent depending on the nature of 
+the instrument. The STT has set a successful precedent as it has been 
+generating about INR 22,000 crore in tax revenues every year. 
+2.	 It is important for the government to gather hard evidence on the optimal 
+tax rate for the VDA market, to balance buoyant tax revenues and improve 
+the overall contribution of the VDA ecosystem in the economy. The 
+Laffer- curve depicts the relationship between rates of taxation and the 
+resulting levels of the government’s tax revenue which typically follows an 
+inverted U-shaped or bell-shaped curvexii. It is important to conduct pilots 
+to ascertain this optimal tax structure on the Laffer Curve for the market.
+3.	 The government should resort to a progressive tax structure with 
+differentiated rates for short term and long-term gains akin to 
+international best practices documented in this report. This will likely 
+lead to increased tax collection from frequent and higher speculative gains 
+without crowding-out the liquidity from the market.
+CONCLUSION AND RECOMMENDATIONS
+25
+
+4.	 In addition to tax measures, the high volumes of P2P trade suggest 
+that India will also need to enhance international coordination as well 
+as institutional oversight on VDA exchanges such as an appropriate 
+licencing scheme. The G20 platform offers an opportunity to learn from 
+international best-practices towards both. 
+VIRTUAL DIGITAL ASSET (VDA) TAX ARCHITECTURE IN INDIA
+26
+
+ANNEXURE: METHODS, 
+ASSUMPTIONS AND ALGORITHMS
+Change-in-change (CIC) Method
+The CIC model is a generalization of the oft quoted difference-in-difference 
+(DID) model. It relaxes several assumptions of the DID model, including the 
+parallel trends assumption between the treatment and the control groups. 
+See Imbens and Wooldridge (2009) for a detailed discussion.
+Two principal assumptions for the change-in-change model are: (A) VDA 
+market will follow its past trajectory in the absence of a new policy shock; 
+(B) Purely market specific disturbances (and not those pertaining to national 
+policies) will play out alike in domestic and foreign exchanges. With these 
+assumptions, the basic algorithm of the CIC model is as follows:
+	
+◼
+Calculate the before-after difference in the outcome (VDA volume) for the 
+treatment group (i.e., Indian centralised VDA exchanges, ICVE).
+	
+◼
+Calculate the before-after difference in the outcome (VDA volume) for the 
+comparison group (i.e., foreign centralised VDA exchanges, FCVE)
+	
+◼
+Calculate the difference between the difference in outcomes for the treat­
+ment group and the comparison group. Then, the CIC can be represented 
+as:
+Liquidity Flight from Indian Centralised VDA 
+exchanges to Foreign Centralised VDA Exchanges
+Liquidity flight on account of the substitution effect 
+	
+◼
+Derive the weightage Indian users give to Foreign Centralised VDA Ex­
+changes (FCVE), prior to Feb-22 (during Nov-21 and Jan-22). 
+	
+◼
+Construct the potential Indian user traction on FCVE by multiplying the 
+total Indian user traction with the weight constructed in the previous step. 
+	
+◼
+Construct excess user traction on FCVE by subtracting the potential trac­
+CONCLUSION AND RECOMMENDATIONS
+27
+
+tion from the actual traction on FCVE.
+	
+◼
+Liquidity flight on account of the substitution effect is product of this ex­
+cess user traction to FCVE with average exchange volume per Indian user.  
+Liquidity flight on account of the growth effect 
+	
+◼
+User traction portray persistence in level and growth. Therefore, the coun­
+terfactual path of the total Indian user traction, post Feb-22, can be con­
+structed as:
+	
+◼
+Derive unaccounted user traction growth as the difference between the 
+counterfactual obtained in the previous step and the actual path of user 
+traction.
+	
+◼
+Construct excess user traction on FCVE by multiplying the unaccounted 
+user traction growth, derived in the previous step, with 0.495. The latter sta­
+tistic is the share of user traction on FCVE prior to Feb 2022. 
+	
+◼
+Volume shift on account of the growth effect is the product of this excess 
+user traction on FCVE and average exchange volume per Indian user. 
+Future Projections for Volumes of Indian Centralised 
+VDA exchanges
+	
+◼
+Assuming that volumes of Indian centralised VDA exchanges (ICVE) fol­
+low a similar trajectory as after the tax announcement/regulations, as be­
+fore them. Therefore, Feb 2022 onwards, the counterfactual volume of ICVE 
+(i.e. potential volume) can be computed as:
+VIRTUAL DIGITAL ASSET (VDA) TAX ARCHITECTURE IN INDIA
+28
+
+	
+◼
+Assuming that the future trend of ICVE volume to portray persistence in 
+level and growth, as has been the case before Feb 2022. Therefore, starting 
+Nov 2022, we project the trend volumes of ICVE using the potential volume 
+data in the previous step, using the following method:
+where t represents Nov 2022 or months thereafter.xiii 
+xiii . There exist several methods for future trend projections, but most of them have 
+stringent temporal data requirements. The used method offers a balance between parsimony 
+and limited availability of data.
+CONCLUSION AND RECOMMENDATIONS
+29
+
+REFERENCES 
+AK, Q. (2022). Crypto Regulations In Ukraine: How is the Government Responding 
+to Cryptocurrencies.  CoinPedia
+Athey, S., & Imbens, G. (2006). Identification and Inference in Nonlinear Difference-
+in-Differences Models. Econometrica, pp. 431-497.
+BBCIncorp. (2022). Is Cryptocurrency Legal In The UK? All You Need To Know. 
+BBCIncorp
+Bhardwaj, S. (2022). CoinDCX’s India entity FY21 profit jumps nine-fold to Rs 4.36 
+crore, revenue rises to Rs 38.91 crore.  Forbes India
+Bhasin, S., & Rastogi, A. (2022). Has govt gone too far by slapping a 1% TDS on 
+transfers of virtual digital assets?  The Economic Times
+Chainalysis (2022, Sep 14). The 2022 Global Crypto Adoption Index. Chainalysis
+Chadha, Sunainaa (2022, Jul 4). Explained: What the 1% TDS on crypto assets means 
+for you. Times of India
+Chatfield, , C., & Xing, H. (2019). The Analysis of Time Series, An Introduction 
+with R. Routledge, pp. 85.
+CoinGecko. (n.d.). Cryptocurrency Prices by Market Cap.  CoinGecko
+CoinText. (2022). International Tax Data 2022.  CoinText
+Comply Advantage. (2022). Malaysia Cryptocurrency Regulation - Is it Legal? 
+Comply Advantage
+Daly, L. (2022, Nov 4). How Is Cryptocurrency Taxed? (2022 and 2023 IRS Rules). 
+The Motely
+Duggan, C. (2022). Crypto Taxes in Vietnam 2022: All You Need to Know!.  CoinText
+Dwyer, K. (2022, Nov). Cryptocurrency in Singapore.  CoinMarketCap
+FM RoA. (2022). Tax treatment of cryptocurrencies.  Federal Ministry of Austria
+Ghosh, S. (2021).  ZebPay expects $2 bn-worth trades per month as crypto fever 
+grips India.  Business Standard
+Global Legal Insights. (2022). Blockchain and Cryptocurrency Laws and Regulations 
+2023.  Global Legal Insights
+Gupta, S. (2022, July 1). How the 1 Percent TDS Provision Will Affect the Growth 
+of the Crypto Industry.  Gadgets 360
+Imbens, G., & Wooldridge, J. (2009). Recent Developments in the Econometrics of 
+Program Evaluation. American Economic Association, pp. 5-86.
+VIRTUAL DIGITAL ASSET (VDA) TAX ARCHITECTURE IN INDIA
+30
+
+IRS. (2022). Digital Assets.  Internal Revenue Services 
+Jha, P. (2022, Mar 8). Thailand reportedly exempts 7% crypto tax for traders on 
+authorized exchanges.  Coin Telegraph
+Kietduriyakul, K., Phongsathaporn, K., Thorroong , P., & Asawachinda , B. (2021). 
+A Complete Guide to the Regulations on Cryptocurrency and Digital Token 
+Offerings.  Baker McKenzie
+Koinly. (2022). Cryptocurrency Tax Guides.  Koinly
+Kulkarni Sneha (2022, Feb 3) Budget 2022 levies 30% tax and TDS on cryptocurrency 
+assets. Economic Times
+Kumar, R. (2022, Feb 22). 30% Tax on Crypto Income: Should small investors move 
+their money to mutual funds and stocks? Experts speak.  Financial Express
+Kuzmenko, M., & Nykytiuk, B. (2021, Nov 9). Ukraine: Everything You Need To 
+Know About Legalization Of Crypto Assets In Ukraine.  Mondaq
+Magazine, A. (2022, Sep 2). Buoyancy in direct tax collections … if it continues, 
+could cross Budget targets: Chairman, CBDT.  Indian Express
+McClure, Z. (2022, Oct 31). Guide to Crypto Taxes in the Netherlands.  TokenTax
+Pamela Fabe, A. (2022, Jun 8). Optimism Tempered with Reasonable Caution: The 
+State of Philippine Cryptocurrency Regulations.  Stratsea.
+Quang, T., Thu Hang, N., & Duy Duong, N. (2022.). How to Classify and Regulate 
+Crypto in Vietnam?. YKVN Law 
+Reuters. (2022, Oct 20). South Africa moves to regulate crypto assets.  Reuters
+RUE. (2022). Crypto Regulations in Switzerland.  Regulated United Europe
+SE Ranking. (2022).  SE Ranking
+Shashank. (2022, Jan 4). Top 6 Crypto Exchanges in India in 2022.  Wazirx
+Singh, M. (2022, Apr 19). Indian crypto exchange CoinDCX tops $2 billion valuation 
+in new $135 million funding.  Tech Crunch
+SuperCryptoNews. (2022, Oct 14). Brazilian Securities & Exchange Commission 
+Defines Classification of Crypto Assets as Securities.  SuperCryptoNews
+WID. (n.d.). Income Comparator.  World Inequality Database
+ZenLedger. (2022, March 25). Can the IRS Track Crypto? How Do They Do It? 
+ZenLedger
+31
+
+B-40 First Floor
+Soami Nagar South
+New Delhi - 110017
+contact@esyacentre.org
+www.esyacentre.org

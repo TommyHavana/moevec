@@ -1,0 +1,1664 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head id="Head1"><title>
+	Press Release Page | Press Information Bureau
+</title><link href="css/style.css?v=1" rel="stylesheet" type="text/css" /><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="alternate stylesheet" href="css/change.css?v=1" media="screen" title="change" /><link rel="alternate stylesheet" href="css/green.css?v=1" media="screen" title="green" /><link rel="alternate stylesheet" href="css/yellow.css" media="screen" title="yellow" /><link rel="stylesheet" type="text/css" href="css/prtint.css" media="print" /><link rel="stylesheet" href="css/style3.1.css" type="text/css" /><link id="pibA11yCss" rel="stylesheet" href="/css/accessibility.css?v=7" type="text/css" />
+    <script type="text/javascript">
+        (function (d) {
+            var t = "";
+            try {
+                t = window.localStorage.getItem("pibStyle") || "";
+            } catch (e) {
+                t = "";
+            }
+            if (t === "orange") {
+                t = "yellow";
+            }
+            var c = t === "change" ? " pib-hc"
+                : t === "green" ? " pib-theme-green"
+                : t === "yellow" ? " pib-theme-yellow" : "";
+            d.documentElement.className += c + " pib-a11y-content";
+        }(document));
+    </script>
+
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/js/accessibility.js?v=7"></script>
+
+    <script type="text/javascript">
+            $(document).ready(function () {
+                  function getParameterByName(name) {
+                        var url = window.location.href;
+                        name = name.replace(/[\[\]]/g, '\\$&');
+                        var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                              results = regex.exec(url);
+                        if (!results) return null;
+                        if (!results[2]) return '';
+                        return decodeURIComponent(results[2].replace(/\+/g, ' '));
+                  }
+                  let prid = parseInt(getParameterByName('PRID'), 10);
+
+                  if (!isNaN(prid) && prid > 0) {
+                        $.ajax({
+                              type: "POST",
+                              url: "AjaxMethod.aspx/UpdatePRHitCount",
+                              async: false,
+                              data: JSON.stringify({ 'PermId': prid }),
+                              contentType: "application/json; charset=utf-8",
+                              dataType: "json",
+                              success: function (response) {
+                                    console.log(response);
+                              },
+                              error: function (error) {
+                                    console.log("Error in AJAX request", error);
+                              }
+                        });
+                  } else {
+                        console.log("Invalid parameters:", prid);
+                  }
+            });
+    </script>
+    <style type="text/css">
+        .table-responsive {
+            width: 100%;
+            overflow-x: auto;
+        }
+
+        .banner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+        }
+
+        full-width {
+            width: 100%;
+        }
+
+        .logo-left, .logo-center, .countdown {
+            display: flex;
+            align-items: center;
+        }
+
+            .logo-left img, .logo-center img {
+                height: 70px;
+            }
+
+        .countdown {
+            text-align: center;
+            background-color: var(--dbim-text, #150202);
+            border-radius: 10px;
+            padding: 10px;
+            border: 2px solid grey;
+        }
+
+        .firstnumber {
+            color: #000000;
+            position: absolute;
+            top: 50px;
+            right: 90px;
+            font-size: 30px;
+        }
+
+        .secondnumber {
+            position: absolute;
+            color: #000000;
+            right: 45px;
+            top: 50px;
+            font-size: 30px;
+        }
+
+        .countdown .days {
+            font-size: 35px;
+            color: gold;
+        }
+
+        .countdown p {
+            margin: 0;
+        }
+
+        .countdown .text {
+            font-size: 16px;
+        }
+
+        a {
+            word-break: break-all;
+        }
+
+        iframe, img {
+            max-width: 100%;
+        }
+
+        /* === DBIM 3.0 Option 4 Separator Line & Reading Meta Styling === */
+        .pr-share--footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+            border-top: 1px solid var(--dbim-border, #d1d5db);
+            padding-top: 16px;
+            margin-top: 24px;
+        }
+
+        .pr-share__left {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .pr-reading-meta {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 0.95rem;
+            color: var(--dbim-text-secondary, #475569);
+            font-weight: 500;
+            white-space: nowrap;
+            margin-left: auto;
+        }
+
+        .pr-reading-meta__item {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .pr-reading-meta__divider {
+            color: var(--dbim-border, #cbd5e1);
+            font-weight: 300;
+        }
+
+        .pib-hc .pr-reading-meta,
+        .pib-hc .pr-reading-meta svg {
+            color: currentColor !important;
+        }
+
+        @media (max-width: 680px) {
+            .pr-share--footer {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .pr-reading-meta {
+                margin-left: 0;
+                width: 100%;
+                justify-content: flex-start;
+            }
+        }
+
+        @media(max-width:1199px) {
+            .firstnumber {
+                top: 40px;
+                right: 72px;
+                font-size: 30px;
+            }
+
+            .secondnumber {
+                right: 35px;
+                top: 40px;
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:990px) {
+            .firstnumber {
+                top: 25px;
+                right: 54px;
+                font-size: 30px;
+            }
+
+            .secondnumber {
+                right: 25px;
+                top: 25px;
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:768px) {
+            .countdown, .days {
+                font-size: 12px !important;
+            }
+
+            .firstnumber {
+                top: 25%;
+                right: 8%;
+                font-size: 30px;
+            }
+
+            .secondnumber {
+                right: 4.5%;
+                top: 25%;
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:475px) {
+            .countdown, .days {
+                font-size: 10px !important;
+                top: 20%;
+            }
+
+            .bannerimgdiv {
+                padding: 0 !important;
+            }
+
+            .bannerimg {
+                width: 108% !important;
+            }
+        }
+    </style>
+    <script type="text/javascript">
+            $(function () {
+                  $("[id*=printPDF]").click(function () {
+                        $("[id*=hfGridHtml]").val($("#PdfDiv").html());
+                  });
+            });
+            $(function () {
+                  $("[id*=printPDFEvent]").click(function () {
+                        $("[id*=hfGridHtml]").val($("#PdfDiv").html());
+                  });
+            });
+    </script>
+
+    <link id="pibConsentCss" href="/css/consent.css?v=8" rel="stylesheet" type="text/css" /><link id="pibFontsCss" href="/css/fonts-noto.css?v=6" rel="stylesheet" type="text/css" /><link id="pibDbimCss" href="/css/dbim.css?v=1120" rel="stylesheet" type="text/css" /><meta property="og:title" content="Financial Intelligence Unit- India (FIU-IND) issues notices for non-compliance to 15 Virtual Digital Assets Service providers (VDA SPs) under Section 13 of the Prevention of Money Laundering Act (PML) Act, 2002" /><meta property="og:url" content="www.pib.gov.in/Pressreleaseshare.aspx?PRID=2308131" /><meta property="og:description" content="As part of compliance action against non-compliant entities, the Director, Financial Intelligence Un" /><meta property="og:image" content="https:/pib.gov.in/images/indian-emblem.png" />
+                                <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="C4E7H-KSCMC-422L4-W3EM5-U36MF",function(){function e(){if(!i){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,o.parentNode.appendChild(e),i=!0}}function t(e){i=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(o.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",o.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"C4E7H-KSCMC-422L4-W3EM5-U36MF";var o=document.currentScript||document.getElementsByTagName("script")[0],i=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!i)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),o.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="k7oaduqccrdzg2xdsvrq-f-3c692109c-clientnsv4-s.akamaihd.net",o="false"=="true"?2:1,i={"ak.v":"41","ak.cp":"1825201","ak.ai":parseInt("1215205",10),"ak.ol":"0","ak.cr":57,"ak.ipv":4,"ak.proto":"http/1.1","ak.rid":"58c1e70","ak.r":47254,"ak.a2":n,"ak.m":"dscb","ak.n":"ff","ak.cport":59186,"ak.gh":"2.19.99.135","ak.quicv":"","ak.tlsv":"tls1.2","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"bbr","ak.t":"1793299811","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==dl9W0zTGGxYPDWj2/MUvbn3WOc5jHJy1WyZH4QamV6GLzBi0lANsFiuaTy4/ZhLMbxgDny2lUoGVtcJvf1DLtfxjF/WRFm7pgGtN8Kx6oCqUM5bhmc7Vpa0a9WBznPdmNlmLJiM3mRVqYpDDbBKY/T5maFIhVVQW259XbdEK1Paj9XB8cAj9B4KIVeqmdrlJ1l+xAauxyrtI1mnsXszAcCB99DoA5lyo1rAJjDl4ImKLHnN990Qy8SRfGQaSK2Mw9krewHY51TgVutP8Flqt/uXrb/0i8XeEwYkd35/9h1e7hCff2gz+cJmbswkmhCteiO5OjupfGljASm1YT/GP11gPU1BefwrV3Eim35UBux6b9IdwLc/Qqx551GqydwMflrNAu9h7yFQcyRq8UtlzDpV96Q/FB9UdSZGCjiTmZF0=","ak.pv":"9","ak.dpoabenc":"","ak.tf":o};if(""!==t)i["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))i["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var e=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+<body>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
+     style="position:absolute;width:0;height:0;overflow:hidden" id="dbim-icon-sprite">
+    <defs>
+        <symbol id="icon-angle-double-left" viewBox="0 0 24 24"><path d="M11.6 4.6 4.2 12l7.4 7.4 2.2-2.2L8.6 12l5.2-5.2z"/><path d="M19 4.6 11.6 12 19 19.4l2.2-2.2L16 12l5.2-5.2z"/></symbol>
+        <symbol id="icon-angle-double-right" viewBox="0 0 24 24"><path d="M12.4 4.6 10.2 6.8 15.4 12l-5.2 5.2 2.2 2.2L19.8 12z"/><path d="M5 4.6 2.8 6.8 8 12l-5.2 5.2L5 19.4 12.4 12z"/></symbol>
+        <symbol id="icon-arrow-left" viewBox="0 0 24 24"><path d="M20.8 10.6H9.6v2.8h11.2z"/><path d="M10.8 5.6 3.2 12l7.6 6.4z"/></symbol>
+        <symbol id="icon-arrow-right" viewBox="0 0 24 24"><path d="M3.2 10.6h11.2v2.8H3.2z"/><path d="M13.2 5.6 20.8 12l-7.6 6.4z"/></symbol>
+        <symbol id="icon-blogger" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M6.4 2.4h11.2a4 4 0 0 1 4 4v11.2a4 4 0 0 1-4 4H6.4a4 4 0 0 1-4-4V6.4a4 4 0 0 1 4-4zm2.8 5.2a2 2 0 0 0 0 4h2.4a2 2 0 0 0 0-4zm0 5.6a2 2 0 0 0 0 4h5.6a2 2 0 0 0 0-4z"/></symbol>
+        <symbol id="icon-calendar" viewBox="0 0 24 24"><path d="M7.6 2.4H10v2.4H7.6z"/><path d="M14 2.4h2.4v2.4H14z"/><path fill-rule="evenodd" d="M4 4.8h16a1.6 1.6 0 0 1 1.6 1.6v13.2a1.6 1.6 0 0 1-1.6 1.6H4a1.6 1.6 0 0 1-1.6-1.6V6.4A1.6 1.6 0 0 1 4 4.8zm.4 5.6v8.4h15.2v-8.4z"/><path d="M6.4 12.4h3.2v3.2H6.4z"/></symbol>
+        <symbol id="icon-chevron-left" viewBox="0 0 24 24"><path d="M15.4 4.6 8 12l7.4 7.4 2.2-2.2L12.4 12l5.2-5.2z"/></symbol>
+        <symbol id="icon-chevron-right" viewBox="0 0 24 24"><path d="M8.6 4.6 6.4 6.8 11.6 12l-5.2 5.2 2.2 2.2L16 12z"/></symbol>
+        <symbol id="icon-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/></symbol>
+        <symbol id="icon-download" viewBox="0 0 24 24"><path d="M10.8 3h2.4v7.6h3.4L12 16.6l-4.6-6h3.4z"/><path d="M4 17.2h2.4v2.4h11.2v-2.4H20v3.2a1.4 1.4 0 0 1-1.4 1.4H5.4A1.4 1.4 0 0 1 4 20.4z"/></symbol>
+        <symbol id="icon-facebook" viewBox="0 0 24 24"><path d="M13.6 21.6v-8.4h2.8l.42-3.3h-3.22V7.8c0-.95.27-1.6 1.64-1.6h1.74V3.26a23 23 0 0 0-2.54-.13c-2.5 0-4.22 1.53-4.22 4.34v2.43H7.4v3.3h2.82v8.4z"/></symbol>
+        <symbol id="icon-fact-check" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4 3.6 5.6v6.2c0 4.6 3.4 8.6 8.4 9.8 5-1.2 8.4-5.2 8.4-9.8V5.6zm-1 13.2-3.6-3.6 1.7-1.7 1.9 1.9 4.5-4.5 1.7 1.7z"/></symbol>
+        <symbol id="icon-hashtag" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M8.8 3h2.4l-1 6h3.2l1-6h2.4l-1 6h3.4v2.4h-3.8l-.6 3.2h3.6V17h-4l-1 5h-2.4l1-5h-3.2l-1 5H5.4l1-5H3V14.6h3.8l.6-3.2H3.8V9h4zm.6 8.4-.6 3.2h3.2l.6-3.2z"/></symbol>
+        <symbol id="icon-home" viewBox="0 0 24 24"><path d="M12 3.4 2.8 11.6h2.4v8.4a1 1 0 0 0 1 1h3.3v-5.4h5v5.4h3.3a1 1 0 0 0 1-1v-8.4h2.4z"/></symbol>
+        <symbol id="icon-instagram" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M7.6 2.4h8.8a5.2 5.2 0 0 1 5.2 5.2v8.8a5.2 5.2 0 0 1-5.2 5.2H7.6a5.2 5.2 0 0 1-5.2-5.2V7.6a5.2 5.2 0 0 1 5.2-5.2zm0 2.4a2.8 2.8 0 0 0-2.8 2.8v8.8a2.8 2.8 0 0 0 2.8 2.8h8.8a2.8 2.8 0 0 0 2.8-2.8V7.6a2.8 2.8 0 0 0-2.8-2.8z"/><path fill-rule="evenodd" d="M12 6.8a5.2 5.2 0 1 0 0 10.4 5.2 5.2 0 0 0 0-10.4zm0 2.4a2.8 2.8 0 1 1 0 5.6 2.8 2.8 0 0 1 0-5.6z"/><circle cx="17.3" cy="6.7" r="1.3"/></symbol>
+        <symbol id="icon-linkedin" viewBox="0 0 24 24"><path d="M4.8 8.8h3.6v12H4.8z"/><circle cx="6.6" cy="5.4" r="2.1"/><path d="M10.8 8.8h3.45v1.65h.05c.48-.9 1.65-1.85 3.4-1.85 3.63 0 4.3 2.35 4.3 5.4v6.6h-3.6v-5.85c0-1.4-.03-3.2-1.95-3.2-1.95 0-2.25 1.52-2.25 3.1v5.95h-3.6z"/></symbol>
+        <symbol id="icon-mail" viewBox="0 0 24 24"><path d="M2.4 7.6v9.2a1.6 1.6 0 0 0 1.6 1.6h16a1.6 1.6 0 0 0 1.6-1.6V7.6L12 14z"/><path d="M21.2 5.4H2.8L12 11.8z"/></symbol>
+        <symbol id="icon-mail-open" viewBox="0 0 24 24"><path d="M2.4 9.8h19.2v9.6A1.6 1.6 0 0 1 20 21H4a1.6 1.6 0 0 1-1.6-1.6z"/><path d="M12 2.6 21.6 9.2h-3.8L12 5.3 6.2 9.2H2.4z"/><path d="m3.9 11.2 8.1 5.4 8.1-5.4 1.5 1.3-9.6 6.4-9.6-6.4z"/></symbol>
+        <symbol id="icon-map-marker" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4a7 7 0 0 0-7 7c0 5.2 7 12.2 7 12.2s7-7 7-12.2a7 7 0 0 0-7-7zm0 9.6a2.6 2.6 0 1 1 0-5.2 2.6 2.6 0 0 1 0 5.2z"/></symbol>
+        <symbol id="icon-newspaper" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M2.8 4.4h14.8v15.2H2.8zm2 2v11.2h10.8V6.4z"/><path d="M6 7.6h8.4v1.6H6z"/><path d="M6 10.8h8.4v1.6H6z"/><path d="M6 14h5.2v1.6H6z"/><path d="M18.4 8.4h2.8v9.6a1.4 1.4 0 0 1-2.8 0z"/></symbol>
+        <symbol id="icon-pause" viewBox="0 0 24 24"><rect x="7.4" y="4" width="3.6" height="16" rx="0.9"/><rect x="13" y="4" width="3.6" height="16" rx="0.9"/></symbol>
+    <symbol id="icon-play" viewBox="0 0 24 24"><path d="M8 4.5v15l12-7.5z"/></symbol>
+        <symbol id="icon-picture" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M2.4 5.2h19.2v13.6H2.4zm2 2v9.6h15.2V7.2z"/><path d="M5.6 16.4 10 11l2.6 3 2-2.2 4 4.6z"/><circle cx="8" cy="10.4" r="1.5"/></symbol>
+        <symbol id="icon-press-conference" viewBox="0 0 24 24"><circle cx="12" cy="5.2" r="2.6"/><path d="M7.6 12.2a4.4 4.4 0 0 1 8.8 0z"/><circle cx="4.9" cy="9.6" r="2.2"/><path d="M1.8 15.2a3.1 3.1 0 0 1 6.2 0z"/><circle cx="19.1" cy="9.6" r="2.2"/><path d="M16 15.2a3.1 3.1 0 0 1 6.2 0z"/><path d="M6.6 13.6h10.8l2.2 7.8H4.4z"/></symbol>
+        <symbol id="icon-print" viewBox="0 0 24 24"><path d="M6.4 2.8h11.2v4.4H6.4z"/><path d="M4 8.4h16a1.6 1.6 0 0 1 1.6 1.6v5.6a1.6 1.6 0 0 1-1.6 1.6h-1.6v-2.8H6v2.8H4a1.6 1.6 0 0 1-1.6-1.6V10A1.6 1.6 0 0 1 4 8.4z"/><path d="M7.2 15.6h9.6v5.6H7.2z"/></symbol>
+        <symbol id="icon-rss" viewBox="0 0 24 24"><circle cx="4.8" cy="19.2" r="2.4"/><path d="M2.4 11.2v3.2a6.4 6.4 0 0 1 6.4 6.4H12A9.6 9.6 0 0 0 2.4 11.2z"/><path d="M2.4 4.8V8A13.6 13.6 0 0 1 16 21.6h3.2A16.8 16.8 0 0 0 2.4 4.8z"/></symbol>
+        <symbol id="icon-search-plus" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M10 2.8a7.2 7.2 0 1 0 0 14.4 7.2 7.2 0 0 0 0-14.4zm0 2.4a4.8 4.8 0 1 1 0 9.6 4.8 4.8 0 0 1 0-9.6z"/><path d="M15.3 14.6 21.2 20.5l-1.5 1.5-5.9-5.9z"/><path d="M9.2 6.8h1.6v2.4h2.4v1.6h-2.4v2.4H9.2v-2.4H6.8V9.2h2.4z"/></symbol>
+        <symbol id="icon-share" viewBox="0 0 24 24"><circle cx="18" cy="5.6" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="18.4" r="3"/><path d="M8.3 10.9 15.7 7.2l.9 1.8-7.4 3.7z"/><path d="M9.2 13.1 16.6 16.8l-.9 1.8-7.4-3.7z"/></symbol>
+        <symbol id="icon-twitter" viewBox="0 0 24 24"><path d="M4.2 3h4.3l11.3 18h-4.3z"/><path d="M19.3 3h-2.6L4.2 21h2.6z"/></symbol>
+        <symbol id="icon-university" viewBox="0 0 24 24"><path d="M12 2.4 21.6 7.2v1.6H2.4V7.2z"/><path d="M4.8 10.4h2.4v8H4.8z"/><path d="M9.2 10.4h2.4v8H9.2z"/><path d="M13.4 10.4h2.4v8h-2.4z"/><path d="M17.6 10.4H20v8h-2.4z"/><path d="M3.2 19.8h17.6v1.8H3.2z"/></symbol>
+        <symbol id="icon-volume-up" viewBox="0 0 24 24"><path d="M3.2 9.2h3.3l5-4.2v14l-5-4.2H3.2z"/><path d="M14.6 8.4a5 5 0 0 1 0 7.2l1.6 1.6a7.2 7.2 0 0 0 0-10.4z"/><path d="M17.4 5.6a8.8 8.8 0 0 1 0 12.8l1.5 1.5a10.9 10.9 0 0 0 0-15.8z"/></symbol>
+        <symbol id="icon-whatsapp" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4a9.5 9.5 0 0 0-8.1 14.5L2.4 21.6l4.8-1.4A9.5 9.5 0 1 0 12 2.4zm0 2.2a7.3 7.3 0 1 1-3.8 13.5l-.4-.2-2.6.7.7-2.5-.3-.4A7.3 7.3 0 0 1 12 4.6z"/><path d="M9.4 7.8c-.2-.5-.4-.5-.6-.5h-.5a1 1 0 0 0-.7.3c-.3.3-.9.9-.9 2.1s.9 2.4 1 2.6c.1.2 1.7 2.8 4.3 3.8 2.1.8 2.6.7 3 .6.5 0 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.5-.3-1.6-.8c-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6 6 0 0 1-1.8-1.1 6.6 6.6 0 0 1-1.2-1.6c-.1-.2 0-.4.1-.5l.4-.5.3-.5v-.5z"/></symbol>
+        <symbol id="icon-youtube" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M21.6 7.2a2.8 2.8 0 0 0-2-2C17.9 4.8 12 4.8 12 4.8s-5.9 0-7.6.4a2.8 2.8 0 0 0-2 2A29 29 0 0 0 2 12a29 29 0 0 0 .4 4.8 2.8 2.8 0 0 0 2 2c1.7.4 7.6.4 7.6.4s5.9 0 7.6-.4a2.8 2.8 0 0 0 2-2A29 29 0 0 0 22 12a29 29 0 0 0-.4-4.8zM10.2 15.1V8.9l5.1 3.1z"/></symbol>
+    </defs>
+</svg>
+
+    <form method="post" action="./PressReleasePage.aspx?PRID=2308131&amp;lang=2&amp;reg=48" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="sc_HiddenField" id="sc_HiddenField" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZPQet1wIx1Q48y3xJY2k25Y7qxH5RrQ9qQcN-OiTC9guZtri9w2&amp;t=639246315009809930" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=x6wALODbMJK5e0eRC_p1LdIxBJXt0U_WW5GWfJqHAqo6frgCmGRfEywglicTersO2OKrFhK1gAIp0Wk2al2YrpdR3uWqH6f4nfjBsCyRUfTUUVmb0&amp;t=ffffffffecf8d3f2" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=P5lTttoqSeZXoYRLQMIScH645UK3RD852IErF2548Wz9Ssv0rLjB4fhVKnHcMpqkaMHpNAGOeWY02Lf4aBYN9-dVBme_SNK5KJwmFQNpMixYDZ7M0&amp;t=ffffffffecf8d3f2" type="text/javascript"></script>
+<script src="/PressReleasePage.aspx?_TSM_HiddenField_=sc_HiddenField&amp;_TSM_CombinedScripts_=%3b%3bAjaxControlToolkit%2c+Version%3d3.5.7.123%2c+Culture%3dneutral%2c+PublicKeyToken%3d28f01b0e84b6d53e%3aen-US%3a5a4df314-b4a2-4da2-a207-9284f1b1e96c%3ade1feab2%3af2c8e708%3a8613aea7%3af9cec9bc%3a3202a5a2%3aab09e3fe%3a87104b7c%3a720a52bf%3a589eaa30%3aa67c2700%3abe6fb298" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="59B53027" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="I7r8VxH142ZpOh3F2v0uCLpAQJTVIGSTN60EUyKDIxNNFoOs65DZiK3iOG/VkKQTOPtblpgkvyteLAjTxsu2nTY6vNSeCIyyGXfc9KB/rkcLWzMtKoKnxXPCdiARjPUGnYQj0GDdm1wHXLTwm+n1w1PzdUPJWn1hZgy5wnfx/yzvxldI1K0SMCvotrcqdrxwjzfQ1sKnD+tbTDcOzHyEk/w37SFABxUMnOq79fQ36oWWYDUMHzc+Elh7ZiMCEMShMRHZub2hrH4CDUAvOKfGqchXrFY=" />
+</div>
+        
+        <div id="templateCss"></div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('sc', 'form1', ['tupdate12','update12'], [], [], 90, '');
+//]]>
+</script>
+
+        <input type="hidden" name="hfGridHtml" id="hfGridHtml" />
+        <div class="container" style='margin-bottom: 50px;'>
+            <div id="accessories">
+                
+                <div class="pull-right" style="display: flex">
+                    <div id="voll"></div>
+                    <div id="vollDT"></div>
+                    
+
+<span class="print-icons">
+<input type="image" name="Print1$print" id="Print1_print" aria-label="Print" src="images/printer_icon.png" alt="print page button" style="padding: 5px 10px 5px 10px;" />
+</span>
+                </div>
+            </div>
+            <input type="hidden" name="hydpermid" id="hydpermid" value="2308131" />
+            
+
+            <div class="innner-page-main-about-us-content-right-part">
+                <div id="MinistryName" class="MinistryNameSubhead text-center">
+                    Ministry of Finance
+                </div>
+                <div id="lg_g"><div class='log_oo'>  <img src='https://static.pib.gov.in/WriteReadData/specificdocs/photo/2026/sep/ph_9768_20260902_10000501.png' alt='azadi ka amrit mahotsav' /> </div></div>
+
+                <div class="text-center event-heading-background">
+                    
+                    <h1 id="Titleh2">
+                        Financial Intelligence Unit- India (FIU-IND) issues notices for non-compliance to 15 Virtual Digital Assets Service providers (VDA SPs) under Section 13 of the Prevention of Money Laundering Act (PML) Act, 2002
+                    </h1>
+                    <h3 id="Subtitleh3">
+                        <span id="ltrSubtitle"></span>
+                    </h3>
+                </div>
+
+                <div id="PrDateTime" class="ReleaseDateSubHeaddateTime text-center pt20">
+                    Posted On:
+                              09 SEP 2026 11:12AM by PIB Delhi
+                </div>
+                
+                <div class='pt20'>
+                </div>
+                <input type="hidden" name="hydphotoUrl" id="hydphotoUrl" />
+                
+
+                <!-- Release content wrapper for client-side zero-reflow word count -->
+                <div id="pibReleaseBody">
+                    <p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">As part of compliance action against non-compliant entities, the Director, Financial Intelligence Unit-India (FIU-IND) has issued notices for non-compliance to following fifteen (15) Virtual Digital Assets Service Providers (VDA SPs) under Section 13 of the Prevention of Money Laundering Act, 2002(PMLA) as under:- </span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<div>
+<table border="1" bordercolor="#ccc" cellpadding="5" cellspacing="0" class="Table" style="border-collapse:collapse">
+	<tbody>
+		<tr>
+			<td style="width:49.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">S. No</span></strong></span></span></p>
+			</td>
+			<td style="width:90.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">Trade Name</span></strong></span></span></p>
+			</td>
+			<td style="width:225.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">Entity Name</span></strong></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:49.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">1</span></span></span></p>
+			</td>
+			<td style="width:90.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Weex</span></span></span></p>
+			</td>
+			<td style="width:225.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Weex International Exchange LTD</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:49.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">2</span></span></span></p>
+			</td>
+			<td style="width:90.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:#434343">Blofin</span></span></span></p>
+			</td>
+			<td style="width:225.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">BLF Global Limited</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:49.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">3</span></span></span></p>
+			</td>
+			<td style="width:90.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:#434343">Rezorex</span></span></span></p>
+			</td>
+			<td style="width:225.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">RezorEx</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:49.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">4</span></span></span></p>
+			</td>
+			<td style="width:90.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:#434343">Bitunix</span></span></span></p>
+			</td>
+			<td style="width:225.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Bitunix LLC</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:49.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">5</span></span></span></p>
+			</td>
+			<td style="width:90.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">DigiFinex</span></span></span></p>
+			</td>
+			<td style="width:225.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">DigiFinex Ltd</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:49.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">6</span></span></span></p>
+			</td>
+			<td style="width:90.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Toobit</span></span></span></p>
+			</td>
+			<td style="width:225.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Hopeful Technology Co. Ltd.</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:49.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">7</span></span></span></p>
+			</td>
+			<td style="width:90.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">XT.com</span></span></span></p>
+			</td>
+			<td style="width:225.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Fibtc Ltd/ XT TECHNICAL PTE. LTD.</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:49.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">8</span></span></span></p>
+			</td>
+			<td style="width:90.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Latoken</span></span></span></p>
+			</td>
+			<td style="width:225.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">LAtrade Ltd</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:49.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">9</span></span></span></p>
+			</td>
+			<td style="width:90.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">WOO X</span></span></span></p>
+			</td>
+			<td style="width:225.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Wootech Limited</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:49.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">10</span></span></span></p>
+			</td>
+			<td style="width:90.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Pionex</span></span></span></p>
+			</td>
+			<td style="width:225.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Marketa Trading Inc.</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:49.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">11</span></span></span></p>
+			</td>
+			<td style="width:90.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">ChangeNow</span></span></span></p>
+			</td>
+			<td style="width:225.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">CHN Group LLC</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:49.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">12</span></span></span></p>
+			</td>
+			<td style="width:90.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">SimpleSwap</span></span></span></p>
+			</td>
+			<td style="width:225.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">SimpleSwap LTD</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:49.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">13</span></span></span></p>
+			</td>
+			<td style="width:90.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Fixedfloat</span></span></span></p>
+			</td>
+			<td style="width:225.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">FFGX Group LLC</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:49.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">14</span></span></span></p>
+			</td>
+			<td style="width:90.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">WhiteBIT</span></span></span></p>
+			</td>
+			<td style="width:225.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">UAB Clear White Technologies</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:49.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">15</span></span></span></p>
+			</td>
+			<td style="width:90.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Guardarian</span></span></span></p>
+			</td>
+			<td style="width:225.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">FinSeven CZ</span></span></span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Further, the Director, FIU-IND, being the nodal officer in pursuance of Section 79(3)(b) of the Information Technology Act, 2000 read with rule 3(1)(d) of the Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Amendment Rules, 2025, has also issued notices with respect to the aforesaid entities to takedown the application/URLs for public access which have been found to be operating illegally without complying with the relevant provisions of the PMLA in India.</span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Virtual Digital Assets Service Providers (VDA SPs) were brought into the ambit of Anti Money Laundering/Counter Financing of Terrorism (AML/CFT) framework under the provisions of the Prevention of Money Laundering Act, 2002 in March 2023. </span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The VDA SPs operating in India (whether offshore or onshore) and engaged in activities like exchange between virtual digital assets and fiat currencies, transfer of virtual digital assets, safekeeping or administration of virtual digital assets or instruments enabling control over virtual digital assets etc. are required to be registered with FIU-IND as Reporting Entity and comply with the set of obligations as mandated under Prevention of Money Laundering Act, 2002(PMLA) and Rules framed there under. These obligations are activity-based and are not contingent on physical presence of the entity in India. The regulation casts reporting, record keeping, and other obligations on the VDA SPs under the PML Act which also includes registration with the FIU-IND.</span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">It is pertinent to mention for the safety and awareness of general public that the Crypto products and NFTs are unregulated and can be highly risky. There may be no regulatory recourse for any loss from such transactions.</span></span></p>
+
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">****</span></span></p>
+
+<p style="text-align:justify"><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">SR/KMN</span></span></strong></p>
+
+                </div>
+
+                <div id="reel_pic">
+                </div>
+
+                <br />
+                <span id="ReleaseId">(Release ID: 2308131)</span>
+                <span id="lblViews">Visitor Counter : 6328</span>
+                <div>
+                    
+                </div>
+                
+
+                <span id="lblRefPhoto"></span>
+
+                <div class="BackgroundRelease">
+                    
+                </div>
+                <div>
+                    
+                </div>
+                <div class="ReleaseLang">Read this release in: 
+                
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2308200' target="_blank">
+                            Urdu </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2308263' target="_blank">
+                            Marathi </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2308158' target="_blank">
+                            हिन्दी </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2308231' target="_blank">
+                            Bengali </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2308340' target="_blank">
+                            Bengali-TR </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2308152' target="_blank">
+                            Gujarati </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2308171' target="_blank">
+                            Tamil </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2308252' target="_blank">
+                            Telugu </a>
+                    
+                </div>
+
+                <div class="RelTag">
+                    <ul>
+                        
+                    </ul>
+                </div>
+                <div class="clear">
+                </div>
+
+                <!-- DBIM 3.0 Option 4: Separator Line with Left Share Rail & Right Reading Metrics -->
+                <div class="pr-share pr-share--footer" role="region" aria-label="Share and reading details">
+                    <div class="pr-share__left">
+                        <span class="pr-share__label" aria-hidden="true">Share</span>
+                        <ul class="pr-share__list">
+                            <li><a class="pr-share__btn pr-share__btn--facebook"
+                                href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2308131"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on Facebook">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-facebook" xlink:href="#icon-facebook"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--twitter"
+                                href="https://twitter.com/intent/tweet?url=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2308131"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on X">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-twitter" xlink:href="#icon-twitter"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--whatsapp"
+                                href="https://api.whatsapp.com/send?text=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2308131"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on WhatsApp">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-whatsapp" xlink:href="#icon-whatsapp"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--linkedin"
+                                href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2308131"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on LinkedIn">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-linkedin" xlink:href="#icon-linkedin"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--mail"
+                                href="mailto:?subject=Press+release+from+PIB&amp;body=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2308131"
+                                aria-label="Share by email">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-mail" xlink:href="#icon-mail"></use>
+                                </svg>
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div class="pr-reading-meta" id="prReadingMeta" aria-label="Reading statistics">
+                        <span class="pr-reading-meta__item">
+                            <!-- Modern Document / Word Count Icon -->
+                            <svg class="pr-reading-meta__icon" width="18" height="18" viewbox="0 0 16 16" fill="currentColor" aria-hidden="true" focusable="false">
+                                <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5" />
+                                <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z" />
+                            </svg>
+                            <span id="prWordCount">-- words</span>
+                        </span>
+
+                        <span class="pr-reading-meta__divider" aria-hidden="true">|</span>
+
+                        <span class="pr-reading-meta__item">
+                            <!-- Modern Precision Clock / Read Time Icon -->
+                            <svg class="pr-reading-meta__icon" width="18" height="18" viewbox="0 0 16 16" fill="currentColor" aria-hidden="true" focusable="false">
+                                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                            </svg>
+                            <span id="prReadTime">-- min read</span>
+                        </span>
+                    </div>
+                </div>
+
+                <div id="RelLink" class="RelLink">
+                    <ul>
+                        
+                    </ul>
+                </div>
+                <center>
+                    
+                </center>
+            </div>
+
+            <div id="update12">
+	
+                    
+                    <input type="hidden" name="Hidden" id="Hidden" />
+                    <div id="P_CategoryManagement" class="ModalWindow" style="border-width:0px;height:60%;width:60%;overflow:auto;display: none">
+		
+                        <div>
+                            <input type="image" name="btnClose" id="btnClose" src="images/close_flat_icon.png" />
+                        </div>
+                        <div id="description">
+                        </div>
+                        <div class="text-center">
+                            <h2>
+                                
+                                <br>
+                                
+                            </h2>
+                        </div>
+                        <br />
+                        <div class="clear">
+                        </div>
+                        
+                    
+	</div>
+                
+</div>
+        </div>
+
+        <div id="PdfDiv" style="display: none;">
+            <table width="100%">
+                <tr>
+                    <td style="font-weight: 200; text-align: center">
+                        Ministry of Finance
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 200; text-align: center; font-size: 30px;">
+                            Financial Intelligence Unit- India (FIU-IND) issues notices for non-compliance to 15 Virtual Digital Assets Service providers (VDA SPs) under Section 13 of the Prevention of Money Laundering Act (PML) Act, 2002
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 200; text-align: center; font-size: 30px;">
+                            
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="text-align: center; font-size: 14px;">
+                            Posted On:
+                                          09 SEP 2026 11:12AM by PIB Delhi
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 200; text-align: left; font-size: 16px;">
+                            <p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">As part of compliance action against non-compliant entities, the Director, Financial Intelligence Unit-India (FIU-IND) has issued notices for non-compliance to following fifteen (15) Virtual Digital Assets Service Providers (VDA SPs) under Section 13 of the Prevention of Money Laundering Act, 2002(PMLA) as under:- </span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<div>
+<table border="1" bordercolor="#ccc" cellpadding="5" cellspacing="0" class="Table" style="border-collapse:collapse">
+	<tbody>
+		<tr>
+			<td style="width:49.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">S. No</span></strong></span></span></p>
+			</td>
+			<td style="width:90.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">Trade Name</span></strong></span></span></p>
+			</td>
+			<td style="width:225.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">Entity Name</span></strong></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:49.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">1</span></span></span></p>
+			</td>
+			<td style="width:90.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Weex</span></span></span></p>
+			</td>
+			<td style="width:225.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Weex International Exchange LTD</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:49.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">2</span></span></span></p>
+			</td>
+			<td style="width:90.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:#434343">Blofin</span></span></span></p>
+			</td>
+			<td style="width:225.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">BLF Global Limited</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:49.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">3</span></span></span></p>
+			</td>
+			<td style="width:90.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:#434343">Rezorex</span></span></span></p>
+			</td>
+			<td style="width:225.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">RezorEx</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:49.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">4</span></span></span></p>
+			</td>
+			<td style="width:90.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:#434343">Bitunix</span></span></span></p>
+			</td>
+			<td style="width:225.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Bitunix LLC</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:49.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">5</span></span></span></p>
+			</td>
+			<td style="width:90.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">DigiFinex</span></span></span></p>
+			</td>
+			<td style="width:225.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">DigiFinex Ltd</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:49.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">6</span></span></span></p>
+			</td>
+			<td style="width:90.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Toobit</span></span></span></p>
+			</td>
+			<td style="width:225.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Hopeful Technology Co. Ltd.</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:49.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">7</span></span></span></p>
+			</td>
+			<td style="width:90.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">XT.com</span></span></span></p>
+			</td>
+			<td style="width:225.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Fibtc Ltd/ XT TECHNICAL PTE. LTD.</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:49.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">8</span></span></span></p>
+			</td>
+			<td style="width:90.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Latoken</span></span></span></p>
+			</td>
+			<td style="width:225.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">LAtrade Ltd</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:49.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">9</span></span></span></p>
+			</td>
+			<td style="width:90.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">WOO X</span></span></span></p>
+			</td>
+			<td style="width:225.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Wootech Limited</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:49.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">10</span></span></span></p>
+			</td>
+			<td style="width:90.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Pionex</span></span></span></p>
+			</td>
+			<td style="width:225.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Marketa Trading Inc.</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:49.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">11</span></span></span></p>
+			</td>
+			<td style="width:90.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">ChangeNow</span></span></span></p>
+			</td>
+			<td style="width:225.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">CHN Group LLC</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:49.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">12</span></span></span></p>
+			</td>
+			<td style="width:90.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">SimpleSwap</span></span></span></p>
+			</td>
+			<td style="width:225.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">SimpleSwap LTD</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:49.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">13</span></span></span></p>
+			</td>
+			<td style="width:90.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Fixedfloat</span></span></span></p>
+			</td>
+			<td style="width:225.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">FFGX Group LLC</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:49.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">14</span></span></span></p>
+			</td>
+			<td style="width:90.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">WhiteBIT</span></span></span></p>
+			</td>
+			<td style="width:225.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">UAB Clear White Technologies</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:49.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">15</span></span></span></p>
+			</td>
+			<td style="width:90.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Guardarian</span></span></span></p>
+			</td>
+			<td style="width:225.0pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">FinSeven CZ</span></span></span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Further, the Director, FIU-IND, being the nodal officer in pursuance of Section 79(3)(b) of the Information Technology Act, 2000 read with rule 3(1)(d) of the Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Amendment Rules, 2025, has also issued notices with respect to the aforesaid entities to takedown the application/URLs for public access which have been found to be operating illegally without complying with the relevant provisions of the PMLA in India.</span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Virtual Digital Assets Service Providers (VDA SPs) were brought into the ambit of Anti Money Laundering/Counter Financing of Terrorism (AML/CFT) framework under the provisions of the Prevention of Money Laundering Act, 2002 in March 2023. </span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The VDA SPs operating in India (whether offshore or onshore) and engaged in activities like exchange between virtual digital assets and fiat currencies, transfer of virtual digital assets, safekeeping or administration of virtual digital assets or instruments enabling control over virtual digital assets etc. are required to be registered with FIU-IND as Reporting Entity and comply with the set of obligations as mandated under Prevention of Money Laundering Act, 2002(PMLA) and Rules framed there under. These obligations are activity-based and are not contingent on physical presence of the entity in India. The regulation casts reporting, record keeping, and other obligations on the VDA SPs under the PML Act which also includes registration with the FIU-IND.</span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">It is pertinent to mention for the safety and awareness of general public that the Crypto products and NFTs are unregulated and can be highly risky. There may be no regulatory recourse for any loss from such transactions.</span></span></p>
+
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">****</span></span></p>
+
+<p style="text-align:justify"><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">SR/KMN</span></span></strong></p>
+
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 100; text-align: left; font-size: 16px;">
+                            (Release ID: 2308131)
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="font-weight: 200; text-align: center; font-size: 24px;"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="clearfix">
+        </div>
+
+        <div class="section1">
+            <div id="frst_t">
+                <div id="arr_rm"><div class='sticky-social_mb'><ul class='social_mb'><a href='http://www.facebook.com/share.php?u=https://pib.gov.in/PressReleasePage.aspx?PRID=2308131' target='_blank'><li class='fb_b'   ></li></a><a href='https://twitter.com/intent/tweet?url=https://pib.gov.in/PressReleasePage.aspx?PRID=2308131&text=Financial Intelligence Unit- India (FIU-IND) issues notices for non-compliance to 15 Virtual Digital Assets Service providers (VDA SPs) under Section 13 of the Prevention of Money Laundering Act (PML) Act, 2002' target='_blank'><li class='twitter_r'  > </li></a><a href='https://api.whatsapp.com/send?text=https://pib.gov.in/PressReleasePage.aspx?PRID=2308131' target='_blank'><li class='whatsapp_r'  ></li></a><a href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=&su=Financial Intelligence Unit- India (FIU-IND) issues notices for non-compliance to 15 Virtual Digital Assets Service providers (VDA SPs) under Section 13 of the Prevention of Money Laundering Act (PML) Act, 2002&body=https://pib.gov.in/PressReleasePage.aspx?PRID=2308131&ui=2&tf=1&pli=1' title='Share by Email' target='_blank'><li class='fa-envelope_r' ></li></a><a href='https://www.linkedin.com/shareArticle?mini=true&url=https://pib.gov.in/PressReleasePage.aspx?PRID=2308131&title=Financial Intelligence Unit- India (FIU-IND) issues notices for non-compliance to 15 Virtual Digital Assets Service providers (VDA SPs) under Section 13 of the Prevention of Money Laundering Act (PML) Act, 2002&summary=My%20favorite%20developer%20program&source=LinkedIn' target='_blank'><li class='fa-linkedin_r'  ></li></a></ul></div></div>
+            </div>
+            <div id="second_t">
+                <div id="sndr_rm"><div class='sticky-social'><ul class='social'><a href='http://www.facebook.com/share.php?u=https://pib.gov.in/PressReleasePage.aspx?PRID=2308131' target='_blank'><li class='fb_b'   ></li></a><a href='https://twitter.com/intent/tweet?url=https://pib.gov.in/PressReleasePage.aspx?PRID=2308131&text=Financial Intelligence Unit- India (FIU-IND) issues notices for non-compliance to 15 Virtual Digital Assets Service providers (VDA SPs) under Section 13 of the Prevention of Money Laundering Act (PML) Act, 2002' target='_blank'><li class='twitter_r'  > </li></a><a href='https://api.whatsapp.com/send?text=https://pib.gov.in/PressReleasePage.aspx?PRID=2308131' target='_blank'><li class='whatsapp_r'  ></li></a><a href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=&su=Financial Intelligence Unit- India (FIU-IND) issues notices for non-compliance to 15 Virtual Digital Assets Service providers (VDA SPs) under Section 13 of the Prevention of Money Laundering Act (PML) Act, 2002&body=https://pib.gov.in/PressReleasePage.aspx?PRID=2308131&ui=2&tf=1&pli=1' title='Share by Email' target='_blank'><li class='fa-envelope_r' ></li></a><a href='https://www.linkedin.com/shareArticle?mini=true&url=https://pib.gov.in/PressReleasePage.aspx?PRID=2308131&title=Financial Intelligence Unit- India (FIU-IND) issues notices for non-compliance to 15 Virtual Digital Assets Service providers (VDA SPs) under Section 13 of the Prevention of Money Laundering Act (PML) Act, 2002&summary=My%20favorite%20developer%20program&source=LinkedIn' target='_blank'><li class='fa-linkedin_r'  ></li></a></ul></div></div>
+            </div>
+        </div>
+        <input type="hidden" name="ltrTitlee" id="ltrTitlee" value="Financial Intelligence Unit- India (FIU-IND) issues notices for non-compliance to 15 Virtual Digital Assets Service providers (VDA SPs) under Section 13 of the Prevention of Money Laundering Act (PML) Act, 2002" />
+        <input type="hidden" name="ltrSubtitlee" id="ltrSubtitlee" />
+        <input type="hidden" name="ltrDescriptionn" id="ltrDescriptionn" value="&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>As part of compliance action against non-compliant entities, the Director, Financial Intelligence Unit-India (FIU-IND) has issued notices for non-compliance to following fifteen (15) Virtual Digital Assets Service Providers (VDA SPs) under Section 13 of the Prevention of Money Laundering Act, 2002(PMLA) as under:- &lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&amp;nbsp;&lt;/p>
+
+&lt;div>
+&lt;table border=&quot;1&quot; bordercolor=&quot;#ccc&quot; cellpadding=&quot;5&quot; cellspacing=&quot;0&quot; class=&quot;Table&quot; style=&quot;border-collapse:collapse&quot;>
+	&lt;tbody>
+		&lt;tr>
+			&lt;td style=&quot;width:49.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;strong>&lt;span style=&quot;color:black&quot;>S. No&lt;/span>&lt;/strong>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:90.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;strong>&lt;span style=&quot;color:black&quot;>Trade Name&lt;/span>&lt;/strong>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:225.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;strong>&lt;span style=&quot;color:black&quot;>Entity Name&lt;/span>&lt;/strong>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;width:49.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>1&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:90.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>Weex&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:225.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>Weex International Exchange LTD&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;width:49.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>2&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:90.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:#434343&quot;>Blofin&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:225.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>BLF Global Limited&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;width:49.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>3&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:90.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:#434343&quot;>Rezorex&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:225.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>RezorEx&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;width:49.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>4&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:90.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:#434343&quot;>Bitunix&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:225.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>Bitunix LLC&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;width:49.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>5&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:90.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>DigiFinex&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:225.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>DigiFinex Ltd&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;width:49.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>6&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:90.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>Toobit&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:225.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>Hopeful Technology Co. Ltd.&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;width:49.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>7&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:90.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>XT.com&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:225.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>Fibtc Ltd/ XT TECHNICAL PTE. LTD.&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;width:49.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>8&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:90.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>Latoken&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:225.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>LAtrade Ltd&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;width:49.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>9&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:90.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>WOO X&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:225.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>Wootech Limited&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;width:49.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>10&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:90.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>Pionex&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:225.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>Marketa Trading Inc.&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;width:49.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>11&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:90.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>ChangeNow&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:225.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>CHN Group LLC&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;width:49.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>12&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:90.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>SimpleSwap&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:225.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>SimpleSwap LTD&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;width:49.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>13&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:90.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>Fixedfloat&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:225.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>FFGX Group LLC&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;width:49.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>14&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:90.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>WhiteBIT&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:225.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>UAB Clear White Technologies&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;width:49.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>15&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:90.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>Guardarian&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:225.0pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>FinSeven CZ&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+	&lt;/tbody>
+&lt;/table>
+&lt;/div>
+
+&lt;p style=&quot;text-align:justify&quot;>&amp;nbsp;&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>Further, the Director, FIU-IND, being the nodal officer in pursuance of Section 79(3)(b) of the Information Technology Act, 2000 read with rule 3(1)(d) of the Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Amendment Rules, 2025, has also issued notices with respect to the aforesaid entities to takedown the application/URLs for public access which have been found to be operating illegally without complying with the relevant provisions of the PMLA in India.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>Virtual Digital Assets Service Providers (VDA SPs) were brought into the ambit of Anti Money Laundering/Counter Financing of Terrorism (AML/CFT) framework under the provisions of the Prevention of Money Laundering Act, 2002 in March 2023. &lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>The VDA SPs operating in India (whether offshore or onshore) and engaged in activities like exchange between virtual digital assets and fiat currencies, transfer of virtual digital assets, safekeeping or administration of virtual digital assets or instruments enabling control over virtual digital assets etc. are required to be registered with FIU-IND as Reporting Entity and comply with the set of obligations as mandated under Prevention of Money Laundering Act, 2002(PMLA) and Rules framed there under. These obligations are activity-based and are not contingent on physical presence of the entity in India. The regulation casts reporting, record keeping, and other obligations on the VDA SPs under the PML Act which also includes registration with the FIU-IND.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>It is pertinent to mention for the safety and awareness of general public that the Crypto products and NFTs are unregulated and can be highly risky. There may be no regulatory recourse for any loss from such transactions.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:center&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>****&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;strong>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>SR/KMN&lt;/span>&lt;/span>&lt;/strong>&lt;/p>
+" />
+        <script type="text/javascript">
+                  var mPlayer = document.getElementById("background_music");
+                  var mPlayAction = document.getElementById("playbutton");
+                  var isPlaying = false;
+
+                  function playAudio() {
+                        mPlayer.play();
+                        isPlaying = true;
+                        document.getElementById('stopA').style.display = "block";
+                        document.getElementById('playA').style.display = "none";
+                  }
+
+                  function pauseAudio() {
+                        mPlayer.pause();
+                        isPlaying = false;
+                        document.getElementById('playA').style.display = "block";
+                        document.getElementById('stopA').style.display = "none";
+                  }
+        </script>
+        <script type="text/javascript">
+                  var synth = window.speechSynthesis;
+
+                  function CleanHtml(html) {
+                        html = html.replace(/<script[\s\S]*?<\/script>/gi, '');
+                        return html;
+                  }
+                  function stripHtml(html) {
+                        let tmp = document.createElement("DIV");
+                        tmp.innerHTML = CleanHtml(html);
+                        return tmp.textContent || tmp.innerText || "";
+                  }
+        </script>
+        <script type="text/javascript">
+                  $(document).ready(function () {
+                        $("table").each(function () {
+                              if (!$(this).closest(".table-responsive").length) {
+                                    $(this).wrap("<div class='table-responsive'></div>");
+                              }
+                        });
+
+                        var width = $(window).width();
+                        if (width < 768) {
+                              document.getElementById('frst_t').style.display = "block";
+                              document.getElementById('second_t').style.display = "none";
+                        } else if (width < 991) {
+                              document.getElementById('frst_t').style.display = "block";
+                              document.getElementById('second_t').style.display = "none";
+                        } else if (width < 1199) {
+                              document.getElementById('frst_t').style.display = "none";
+                              document.getElementById('second_t').style.display = "block";
+                        } else {
+                              document.getElementById('frst_t').style.display = "none";
+                              document.getElementById('second_t').style.display = "block";
+                        }
+                  });
+        </script>
+        <style type="text/css">
+            @media print {
+                .sticky-social, .sticky-social_mb, .pull-right, #printPDF {
+                    display: none !important;
+                }
+            }
+
+            .f_vl {
+                padding-right: 30px;
+                font-size: 17px;
+                cursor: pointer;
+            }
+
+            .log_oo {
+                display: flex;
+                justify-content: space-between;
+            }
+
+                .log_oo img {
+                    width: 150px;
+                }
+
+            .sticky-social_mb {
+                position: fixed;
+                bottom: 0px;
+                padding: 0px;
+                margin: 0px;
+                width: 100%;
+            }
+
+            .social_mb {
+                list-style: none;
+                display: flex;
+                width: 100%;
+                margin-bottom: -8px;
+            }
+
+                .social_mb a {
+                    padding: 8px 0px;
+                    font-size: 30px;
+                    transition: all 0.8s ease-in-out;
+                    width: 20% !important;
+                    text-align: center;
+                }
+        </style>
+        <style type="text/css">
+            .section1 {
+                position: relative;
+                padding: 10px 0px;
+                width: 100%;
+            }
+
+            .sticky-social {
+                position: fixed;
+                top: 20px;
+                left: 0px;
+                padding: 0px;
+                margin: 0px;
+            }
+
+            .social {
+                list-style: none;
+            }
+
+                .social a li {
+                    padding: 8px 12px;
+                    font-size: 25px;
+                    transition: all 0.8s ease-in-out;
+                }
+
+                    .social a li:hover {
+                        margin-right: -30px;
+                        box-shadow: 2px 5px 10px grey;
+                    }
+
+                        .social a li:hover .fa {
+                            margin-left: 20px;
+                        }
+
+            .fb_b {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .twitter_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .whatsapp_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .fa-envelope_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .fa-linkedin_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+        </style>
+        <style type="text/css">
+            @media only screen and (max-device-width: 767px) {
+                p span img {
+                    max-width: 90% !important;
+                    height: auto !important;
+                }
+
+                p img {
+                    max-width: 90% !important;
+                    height: auto !important;
+                }
+
+                h2 {
+                    font-size: var(--dbim-h2, 20px);
+                    font-weight: 600 !important;
+                }
+
+                h3 {
+                    font-size: var(--dbim-h3, 16px);
+                    font-weight: 600 !important;
+                }
+            }
+        </style>
+        <style type="text/css">
+            .film-roll-badge {
+                position: absolute;
+                top: 82%;
+                right: 20px;
+                width: 230px;
+                height: 70px;
+                background: repeating-linear-gradient( to right, var(--dbim-green-key, #0F5757) 0px, var(--dbim-green-key, #0F5757) 18px, var(--dbim-text, #150202) 18px, var(--dbim-text, #150202) 36px );
+                border-top: 8px solid var(--dbim-green-key, #0F5757);
+                border-bottom: 8px solid var(--dbim-green-key, #0F5757);
+                border-radius: 8px;
+                overflow: hidden;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+                animation: moveFilm 8s linear infinite;
+                z-index: 10;
+            }
+
+                .film-roll-badge::before,
+                .film-roll-badge::after {
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 10px;
+                    background: repeating-linear-gradient( to right, var(--dbim-green-key, #0F5757) 0px, var(--dbim-green-key, #0F5757) 10px, #fff 10px, #fff 20px );
+                    left: 0;
+                    z-index: 2;
+                }
+
+                .film-roll-badge::before {
+                    top: -4px;
+                }
+
+                .film-roll-badge::after {
+                    bottom: -4px;
+                }
+
+            .film-roll-inner {
+                position: relative;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                animation: flicker 2s infinite ease-in-out;
+            }
+
+            .countdown-text {
+                font-size: 1.3rem;
+                font-weight: 700;
+                color: #fff;
+                text-shadow: 0 0 6px rgba(255, 255, 255, 0.4), 0 0 10px #000;
+                white-space: nowrap;
+            }
+
+            @keyframes moveFilm {
+                0% {
+                    background-position: 0 0;
+                }
+
+                100% {
+                    background-position: 120px 0;
+                }
+            }
+
+            @keyframes flicker {
+                0%, 100% {
+                    opacity: 1;
+                }
+
+                50% {
+                    opacity: 0.9;
+                }
+
+                25% {
+                    opacity: 0.95;
+                }
+
+                75% {
+                    opacity: 0.85;
+                }
+            }
+
+            @media (max-width: 1500px) {
+                .film-roll-badge {
+                    top: 68%;
+                    right: 18px;
+                    height: 65px;
+                    font-size: 0.85rem;
+                }
+
+                .press-section {
+                    margin-top: 35px;
+                }
+            }
+
+            @media (max-width: 992px) {
+                .film-roll-badge {
+                    top: 52%;
+                    right: 10px;
+                    width: 200px;
+                    height: 60px;
+                }
+            }
+
+            @media (max-width: 768px) {
+                .film-roll-badge {
+                    top: 56%;
+                    right: 10px;
+                    width: 124px;
+                    height: 55px;
+                }
+
+                .countdown-text {
+                    font-size: 0.9rem;
+                }
+            }
+
+            @media (max-width: 576px) {
+                .film-roll-badge {
+                    top: 59%;
+                    right: 5px;
+                    height: 50px;
+                }
+
+                .countdown-text {
+                    font-size: 0.85rem;
+                }
+            }
+        </style>
+        <script type="text/javascript">
+                  const festivalStart = new Date("2025-11-20T00:00:00").getTime();
+                  const festivalEnd = new Date("2025-11-28T23:59:59").getTime();
+                  const countdownElement = document.getElementById("countdown");
+
+                  if (countdownElement) {
+                        const interval = setInterval(() => {
+                              const now = new Date().getTime();
+
+                              if (now < festivalStart) {
+                                    const diff = festivalStart - now;
+                                    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                                    const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+
+                                    countdownElement.innerHTML = `${days} Day${days !== 1 ? 's' : ''} ${hours} Hour${hours !== 1 ? 's' : ''} to go`;
+                              } else if (now >= festivalStart && now <= festivalEnd) {
+                                    const dayNumber = Math.floor((now - festivalStart) / (1000 * 60 * 60 * 24)) + 1;
+                                    countdownElement.innerHTML = `56th IFFI - Day ${dayNumber}`;
+                              } else {
+                                    countdownElement.innerHTML = `✨ IFFI closes but never ends…`;
+                                    const elements = document.querySelectorAll('.film-roll-badge');
+                                    elements.forEach(el => el.style.width = "350px");
+                                    clearInterval(interval);
+                              }
+                        }, 1000);
+                  }
+        </script>
+        <script type="text/javascript">
+                  const miffStart = new Date("2026-06-15T00:00:00").getTime();
+                  const miffEnd = new Date("2026-06-15T23:59:59").getTime();
+                  const miffElement = document.getElementById("miff");
+
+                  if (miffElement) {
+                        const miffInterval = setInterval(() => {
+                              const now = new Date().getTime();
+
+                              if (now < miffStart) {
+                                    const diff = miffStart - now;
+                                    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                                    miffElement.innerHTML = `${days} Day${days === 1 ? '' : 's'} to MIFF ...`;
+                              } else if (now >= miffStart && now <= miffEnd) {
+                                    const dayNumber = Math.floor((now - miffStart) / (1000 * 60 * 60 * 24)) + 1;
+                                    miffElement.innerHTML = `19th MIFF - Day ${dayNumber}`;
+                              } else {
+                                    miffElement.innerHTML = `✨ MIFF concludes, cinema lives on...`;
+                                    document.querySelectorAll('.film-roll-badge').forEach(el => el.style.width = "350px");
+                                    clearInterval(miffInterval);
+                              }
+                        }, 1000);
+                  }
+        </script>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("sc_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.ModalPopupBehavior, {"BackgroundCssClass":"modalBackground","PopupControlID":"P_CategoryManagement","dynamicServicePath":"/PressReleasePage.aspx","id":"mpe"}, null, null, $get("Hidden"));
+});
+//]]>
+</script>
+<input type="hidden" name="__ncforminfo" value="9lXPaZyg6VXvCAzcGRr1Ia3oYdvGtmB-nEycNQNli-AtwwXS_oeG-eRtloobTNipfsOPwnrhvcjOK59W0BrdZzX2Aul2gTuLmJ3RNv1zMIlejSfo4c6CyA=="/></form>
+    
+
+<script type="application/json" id="pibConsentConfig">{"ga4Id":"G-Q414Y0X6EE,G-QJJ6LZ8LHV","policyUrl":"/CookiePolicy.aspx","text":{"bannerLabel":"Cookie consent","title":"Cookies on this website","body":"We use essential cookies to make this website work. We also set analytics cookies when you arrive, so we can see how the site is used and improve it - you can switch these off below or at any time from the Cookie Policy page. Cookies from embedded social media content are set only if you allow them.","policyLink":"Read our Cookie Policy","accept":"Accept all","reject":"Reject optional","customize":"Customise","prefsTitle":"Cookie preferences","prefsIntro":"Choose which cookies this website may set. Essential cookies cannot be switched off because the site does not work without them. Analytics cookies are on unless you turn them off. Social media cookies stay off until you allow them. You can change these choices at any time from the Cookie Policy page.","essentialName":"Essential cookies","essentialDesc":"Needed for the site to function. These remember your session, your language and region, your text size and colour theme, and verify the security check on forms. They are always on.","analyticsName":"Analytics cookies","analyticsDesc":"Help us understand how visitors use the site - which pages are read and how long people stay - so it can be improved. The information is collected in a form that does not directly identify you. These are on when you arrive; switching them off here stops them and deletes the ones already set.","socialName":"Social media cookies","socialDesc":"Set by content embedded from X, Facebook and YouTube, such as timelines and videos. These platforms may use them to track you across websites. They stay off until you allow them.","save":"Save preferences","cancel":"Cancel"}}</script>
+<script type="text/javascript" src='/js/consent.js?v=10'></script>
+
+<script type="text/javascript" src='/js/consent-embeds.js?v=10'></script>
+
+
+    <!-- Minimal O(N) Time and O(1) Auxiliary Space Word Count & Read Time Calculation -->
+    <script type="text/javascript">
+            (function () {
+                  function calculateReadingStats() {
+                        var bodyEl = document.getElementById("pibReleaseBody");
+                        if (!bodyEl) return;
+
+                        // textContent extracts text without triggering expensive layout/reflow computations
+                        var text = bodyEl.textContent || "";
+                        var words = 0;
+                        var inWord = false;
+
+                        // O(N) single pass character code scan: achieves O(1) space with zero array allocations
+                        for (var i = 0, len = text.length; i < len; i++) {
+                              var code = text.charCodeAt(i);
+                              // Delimits on ASCII whitespace, control characters, tabs, newlines, and non-breaking spaces (160)
+                              if (code <= 32 || code === 160) {
+                                    inWord = false;
+                              } else if (!inWord) {
+                                    inWord = true;
+                                    words++;
+                              }
+                        }
+
+                        // Standard 250 WPM reading speed (e.g., 612 words yields 2 min read)
+                        var minutes = Math.max(1, Math.round(words / 250));
+
+                        var elWords = document.getElementById("prWordCount");
+                        var elTime = document.getElementById("prReadTime");
+
+                        if (elWords) elWords.textContent = words + (words === 1 ? " word" : " words");
+                        if (elTime) elTime.textContent = minutes + " min read";
+                  }
+
+                  if (document.readyState === "loading") {
+                        document.addEventListener("DOMContentLoaded", calculateReadingStats);
+                  } else {
+                        calculateReadingStats();
+                  }
+            })();
+    </script>
+
+    <script type="text/javascript">
+            (function () {
+                  try {
+                        if (window.self === window.top) { return; }
+                  } catch (e) { return; }
+                  var s = document.createElement("style");
+                  s.textContent = ".sticky-social, .sticky-social_mb { display: none !important; }";
+                  (document.head || document.documentElement).appendChild(s);
+            }());
+    </script>
+</body>
+</html>
