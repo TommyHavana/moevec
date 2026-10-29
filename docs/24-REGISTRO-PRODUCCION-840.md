@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-29T20:59:15+00:00.
+Comprobado en WordPress: 2026-10-29T21:38:23+00:00.
 
-**276/840 terminadas · 0 en curso · 564 pendientes.**
+**285/840 terminadas · 0 en curso · 555 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -288,15 +288,15 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 274 | 19/56 · 4/15 | E7.9.04 | El coste del cumplimiento normativo | terminada | 3/3 | [Leer](https://moevec.org/blog/coste-cumplimiento-normativo/) |
 | 275 | 19/56 · 5/15 | E7.9.05 | Techos de usura: protección o exclusión del crédito | terminada | 3/3 | [Leer](https://moevec.org/blog/techos-de-usura/) |
 | 276 | 19/56 · 6/15 | E7.9.06 | Kenia 2016–2019: el tope de intereses que se derogó | terminada | 3/3 | [Leer](https://moevec.org/blog/kenia-tope-intereses/) |
-| 277 | 19/56 · 7/15 | E7.9.07 | Colombia: la tasa de usura certificada | pendiente | 0/3 | — |
-| 278 | 19/56 · 8/15 | E7.9.08 | España y las tarjetas *revolving*: lo que dijo el Supremo | pendiente | 0/3 | — |
-| 279 | 19/56 · 9/15 | E7.9.09 | Sandbox financiero: probar innovación con permiso | pendiente | 0/3 | — |
-| 280 | 19/56 · 10/15 | E7.9.10 | México: la Ley Fintech de 2018 | pendiente | 0/3 | — |
-| 281 | 19/56 · 11/15 | E7.9.11 | Banca abierta: tus datos financieros son tuyos | pendiente | 0/3 | — |
-| 282 | 19/56 · 12/15 | E7.9.12 | Monedas digitales de bancos centrales: ¿herramienta o control? | pendiente | 0/3 | — |
-| 283 | 19/56 · 13/15 | E7.9.13 | Cuba: la bancarización forzosa de 2023 | pendiente | 0/3 | — |
-| 284 | 19/56 · 14/15 | E7.9.14 | Cómo comprobar si una entidad financiera está autorizada | pendiente | 0/3 | — |
-| 285 | 19/56 · 15/15 | E7.9.15 | Cómo reclamar a tu banco | pendiente | 0/3 | — |
+| 277 | 19/56 · 7/15 | E7.9.07 | Colombia: la tasa de usura certificada | terminada | 3/3 | [Leer](https://moevec.org/blog/colombia-tasa-de-usura/) |
+| 278 | 19/56 · 8/15 | E7.9.08 | España y las tarjetas *revolving*: lo que dijo el Supremo | terminada | 3/3 | [Leer](https://moevec.org/blog/espana-tarjetas-revolving/) |
+| 279 | 19/56 · 9/15 | E7.9.09 | Sandbox financiero: probar innovación con permiso | terminada | 3/3 | [Leer](https://moevec.org/blog/sandbox-financiero/) |
+| 280 | 19/56 · 10/15 | E7.9.10 | México: la Ley Fintech de 2018 | terminada | 3/3 | [Leer](https://moevec.org/blog/mexico-ley-fintech/) |
+| 281 | 19/56 · 11/15 | E7.9.11 | Banca abierta: tus datos financieros son tuyos | terminada | 3/3 | [Leer](https://moevec.org/blog/banca-abierta/) |
+| 282 | 19/56 · 12/15 | E7.9.12 | Monedas digitales de bancos centrales: ¿herramienta o control? | terminada | 3/3 | [Leer](https://moevec.org/blog/monedas-digitales-bancos-centrales/) |
+| 283 | 19/56 · 13/15 | E7.9.13 | Cuba: la bancarización forzosa de 2023 | terminada | 3/3 | [Leer](https://moevec.org/blog/cuba-bancarizacion-2023/) |
+| 284 | 19/56 · 14/15 | E7.9.14 | Cómo comprobar si una entidad financiera está autorizada | terminada | 3/3 | [Leer](https://moevec.org/blog/comprobar-entidad-autorizada/) |
+| 285 | 19/56 · 15/15 | E7.9.15 | Cómo reclamar a tu banco | terminada | 3/3 | [Leer](https://moevec.org/blog/como-reclamar-a-tu-banco/) |
 | 286 | 20/56 · 1/15 | E7.7.01 | Por qué la información económica debe circular | pendiente | 0/3 | — |
 | 287 | 20/56 · 2/15 | E7.7.02 | Medir la libertad de expresión: Freedom House y RSF | pendiente | 0/3 | — |
 | 288 | 20/56 · 3/15 | E7.7.03 | Publicar el tipo de cambio: un delito en algunos países | pendiente | 0/3 | — |

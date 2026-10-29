@@ -603,3 +603,33 @@ Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobad
 Siguiente **277–279 / E7.9.07–E7.9.09**, Política y Economía → Regulación Financiera. Preparaciones incluidas en las 564 pendientes. E7.9.07: 3/3 imágenes locales; sin texto final, sin publicación; E7.9.08: 3/3 imágenes locales; sin texto final, sin publicación; E7.9.09: 3/3 imágenes locales; sin texto final, sin publicación. Después 280–282. Automatización activa, sin agotamiento comunicado.
 
 Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 277–279 · 29/10/2026
+
+279/840 terminadas, 837 imágenes originales públicas, 0 en curso o borradores WordPress y 561 pendientes.
+
+277: IBC certificado frente a límite derivado, Resolución 1472 y vigencia 1–31/10/2026; ELCA 2013 y resumen de investigación 2026 con ámbito, sin causalidad única del gota a gota. 278: resúmenes judiciales oficiales identificados, STS 149/2020 y 258/2023; seis puntos porcentuales y transparencia 154–155/2025 diferenciados. 279: FCA 2017 con denominadores y limitaciones, Ley 7/2020, evaluaciones distintas de pruebas; expediente XV 121/000105 caducado desde 06/10/2026 según descarga primaria actual, frente a índice obsoleto.
+
+Siguiente **280–282 / E7.9.10–E7.9.12**, Política y Economía → Regulación Financiera. Preparaciones incluidas en las 561 pendientes. E7.9.10: 0/3 imágenes locales; sin texto final, sin publicación; E7.9.11: 0/3 imágenes locales; sin texto final, sin publicación; E7.9.12: 0/3 imágenes locales; sin texto final, sin publicación. Después 283–285. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 280–282 · 29/10/2026
+
+282/840 terminadas, 846 imágenes originales públicas, 0 en curso o borradores WordPress y 558 pendientes.
+
+280: Ley Fintech y Circular 4/2019 compiladas, plazos normativos distintos de espera real; CNBV 2024 separa 64 operativas y 20 por iniciar. Recuento propio PES 29/10/2026: 51 IFPE y 26 IFC operativas, no total acumulado de permisos. 281: PSD2 sobre cuentas de pago, Open Finance brasileño y revocación por funciones; nota del Consejo 23/10/2026 como etapa, no norma aplicada. 282: euro digital propuesto y calendario condicionado, piloto 2027; e-CNY 2026 distingue pasivos bancarios minoristas y liquidación de banco central según encuentro oficial de octubre. Bank of China solo sus monederos identificados; EO 14178 con salvedad legal.
+
+Siguiente **283–285 / E7.9.13–E7.9.15**, Política y Economía → Regulación Financiera. Preparaciones incluidas en las 558 pendientes. E7.9.13: 0/3 imágenes locales; sin texto final, sin publicación; E7.9.14: 0/3 imágenes locales; sin texto final, sin publicación; E7.9.15: 0/3 imágenes locales; sin texto final, sin publicación. Después 286–288. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 283–285 · 29/10/2026
+
+285/840 terminadas, 855 imágenes originales públicas, 0 en curso o borradores WordPress y 555 pendientes.
+
+283: Resolución 111/2023, sujetos y operaciones definidos, 5.000 CUP sin universalizar retiradas; documento primario oficial conservado en espejo por fallos de acceso BCC/Gaceta. Reportajes situados de 2023, sin extrapolar causalidad ni condiciones a 2026. 284: ocho fuentes oficiales de registros, actividad/identidad/estado/contactos; inscripción institucional distinta de autorización de todo producto y ausencia de advertencia sin aval. 285: SAC y competencia BdE, plazos por producto/usuario y novinculación; UNE distinta de CONDUSEF, consultas/reclamaciones/aclaraciones separadas. DCF puede vincular por acuerdo o reglamento; conciliación con efectos propios. Modelo educativo, sin reclamación real enviada.
+
+Siguiente **286–288 / E7.7.01–E7.7.03**, Política y Economía → Libertad de Expresión Económica. Preparaciones incluidas en las 555 pendientes. E7.7.01: 0/3 imágenes locales; sin texto final, sin publicación; E7.7.02: 0/3 imágenes locales; sin texto final, sin publicación; E7.7.03: 0/3 imágenes locales; sin texto final, sin publicación. Después 289–291. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.

@@ -1,0 +1,744 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="https://code.jquery.com/ui/1.12.0/themes/smoothness/jquery-ui.css" rel="stylesheet">
+<link rel="shortcut icon" href="https://framework-gb.cdn.gob.mx/favicon.ico">
+<link href="https://framework-gb.cdn.gob.mx/assets/styles/main.css" rel="stylesheet">
+<link href="./css/style.css" rel="stylesheet">
+<link href="./css/styleMenuImg.css" rel="stylesheet">
+<link href="./css/styleBuscadorI.css" rel="stylesheet">
+<link rel="stylesheet" href="cssTimeLine/reset.css"> <!-- CSS reset -->
+<link rel="stylesheet" href="cssTimeLine/style.css"> <!-- Resource style -->
+<link rel="stylesheet" href="cssTimeLine/demo.css"> <!-- Demo style -->
+<link href="./css/smartW/smart_wizard.css" rel="stylesheet" type="text/css" /> <!--Wizard code-->
+<link href="./css/smartW/smart_wizard_theme_circles.css" rel="stylesheet" type="text/css" /> <!--Wizard code-->
+<!--link rel="stylesheet" href="css/treeStyle.css"-->
+<link rel="stylesheet" href="css/reglasStyle.css">
+<link rel="stylesheet" href="css/processStyle.css">
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="./js/globalize.js"></script>
+<script src="./js/md5.js"></script>
+<script src="js/canvas.js"></script>
+<script src="https://framework-gb.cdn.gob.mx/data/encuesta_v1.0/qa/encuestas.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110411915-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-110411915-3');
+</script>
+<title>RL - CONDUSEF</title>
+<style>
+.modal-dialog {
+    width: 0px !important;
+    margin: 30px auto;
+    display: table !important;
+}
+.breadcrumb{
+    margin: 0px !important;
+    }
+h2{
+    margin-top: 2px;
+}    
+li{
+    margin: 5px
+    }
+.mensaje-aviso{
+    width: 85% !important;
+    border: 1px solid #eee;
+    margin: auto;
+    border-radius: 4px;
+    color: #666;
+    padding: 20px 10px;
+    font-weight: 400
+    }
+.processLine{
+    position: relative;
+    }
+.red{
+    margin: 0px !important
+    }
+.viewFile{
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    }
+.viewFile:hover{
+    color:#3EB259;
+    text-decoration: underline;
+    }
+.delFile{
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    }
+.delFile:hover{
+    color:#D30E1A;
+    text-decoration: underline;
+    }        
+h3{
+    margin: 0px !important
+    }
+ /*Estilos slider*/
+ .montoSlider .ui-slider-range { background: #59BEDC; }
+ .montoSlider .ui-slider-handle { border-color: #729fcf; }
+ /*Estilos slider*/   
+/*Etilos DatePiker*/
+
+.ui-datepicker-header{
+    background:#333 !important;
+    }
+a.ui-state-hover{
+    background:#333 !important;
+    }
+.ui-state-disabled span{
+    background:#ccc !important;
+    }       
+a.ui-state-active{
+    background:#0CF
+    }
+.ui-datepicker .ui-datepicker-title select {
+    color:#000 !important;
+    }
+/*Estilos DatePiker*/
+#issues{
+    padding:0px !important
+    }
+.ui-spinner {
+    border:0px !important;
+    }
+.ui-spinner-input {
+    margin:0px !important;
+    }
+.rowDocSop{
+    display:none;
+    }
+span.deleting{
+    cursor:pointer;
+    font-size:10px;
+    color:#D30E1A;
+    display: none;
+    font-weight: bold;
+    height: 80px;
+    padding-top: 40px;
+    }   
+.rowProdCaus{
+    border-top: 1px dotted #ddd;
+    padding: 5px;
+    }   
+.rowProdCaus div{ 
+    vertical-align:middle
+    }   
+.colProd{
+    display:inline-block;
+    }
+.colCau{
+    display:inline-block;
+    padding:5px
+    }
+.colCau span{
+    display:block;
+    cursor:pointer;
+    font-weight:400;
+    padding:0 5px 0 5px;
+    font-size:15px
+    }
+.colCau span:hover{
+    background-color:#5bc0de;
+    color:#fff;
+    }
+.colCau span.selected{
+    background-color:#5bc0de;
+    color:#fff;
+    }       
+.colSeparador{
+    display:inline-block;
+    background:#888;
+    width:5px;
+    height:80px
+    }   
+.colProd span{
+    display: block;
+    width: 80px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    }
+.colProd img{
+    display: block;
+    width: 80px;
+    padding:0 15px 0 15px;
+    margin: 0px !important
+    }   
+.justify-content-end{
+    -webkit-box-pack: end !important; 
+    -ms-flex-pack: end !important;
+    justify-content: flex-end !important;
+    text-align:right !important
+    }
+.tab-pane{
+    visibility:visible !important;
+    }
+.divRegistro{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    }   
+/*#divRegistro{
+    display:none
+    }   
+#divConsulta{
+    display:none
+    }*/
+#regStep2{
+    display:none
+    }
+#imgInsChange{
+    cursor:pointer;
+    }   
+hr{
+    margin-top: 0px !important
+    }
+.InfoBackGround{
+    color:#999999;
+    font-size:20px;
+    font-weight:400 !important ;
+    text-align:justify; 
+    } 
+.InfoBackGroundE{
+    color:#666;
+    font-size: 15px
+    }      
+/*Fixer*/
+.fixFilter{height:145px;width:240px;position:fixed;right:0; z-index:9; text-align:center}
+.fixed{position:fixed;top:50px}     
+.stopFixed{position:absolute;width:30%}
+.chatCitas img{
+    width:25px;
+    }
+.headElements{
+    display:inline-block;
+    margin-right:2px
+    }
+.chatPrin{
+    background:#176BB9;
+    color:#fff;
+    font-size:12px;
+    font-weight:bold;
+    height:35px;
+    padding-left:5px;
+    padding-right:5px;
+    vertical-align:top;
+    border-radius:2px;
+    box-shadow:#ccc 0 1px 1px 1px;
+    width:200px;
+    text-align:right;
+    }   
+.chatPrin div{
+    top: 7px;
+    position: relative;
+    } 
+li{
+	margin:0px !important
+	}  	  
+/*Fixer*/       
+</style>
+</head>
+<body>
+<nav class="navbar navbar-inverse sub-navbar navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#subenlaces">
+        <span class="sr-only">Interruptor de Navegación</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://www.gob.mx/condusef">CONDUSEF</a>
+    </div>
+    <div class="collapse navbar-collapse" id="subenlaces">
+      <ul class="nav navbar-nav navbar-right">
+        <!--li><a href="./regReclamacion.php">Registra tu queja</a></li-->
+        <!--li><a href="./regConsulta.php">Consulta el Estado de tu queja</a></li-->
+        <li><a href="#" onclick="$('#myModal2').modal('show');">Proceso Presencial</a></li>
+         <li><a href="#" onclick="$('#myModal3').modal('show');">Preguntas Frecuentes</a></li>
+        <!--$('#myModal1').modal('show');-->
+        <!--li><a href="http://www.condusef.gob.mx/gbmx/?p=contacto">Contacto</a></li-->
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="row top-buffer-submenu"> 
+</div>
+<div class="col-md-8">
+</div>
+<div class="container bottom-buffer">
+<br />
+<ol class="breadcrumb">
+  <li><a href="http://www.gob.mx/"><i class="icon icon-home"></i></a></li>
+  <li><a href="https://www.gob.mx/condusef">Comisi&oacute;n Nacional para la Protecci&oacute;n y Defensa de los Usuarios de Servicios Financieros</a></li>
+  <li><a href="./index.php">Queja Electrónica</a></li>
+  <li class="active">Consulta tu Folio</li>
+</ol>
+<div class="row" id="divPresentacion">
+    <div class="col-sm-8" style="width:100%; text-align: justify;">
+        <h2>Consulta el estatus de tu queja</h2>    
+        <hr class="red" />        
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+        <h5 class="InfoBackGround">
+           Consulta el estatus de tu reclamación, sólo necesitas el número de <strong style="font-size: 23px">FOLIO</strong> para conocer el proceso en el que se encuentra tu asunto.<br><br>
+           <div class="mensaje-aviso"> 
+            Si necesitas ayuda comunícate al <strong style="font-size: 30px; color: #C42018">55 53 400 999</strong>  de lunes a viernes de 8:30 a 18:00 hrs, en donde un asesor de CONDUSEF te asistirá.<br><br>
+            <p style="padding: 10px; font-size: 16px">
+            Antes de realizar tu consulta es importante que cuentes con:
+            <ol value="1" style="list-style-type: lower-alpha;font-size: 16px">
+                <li>Correo Electrónico <span class="glyphicon glyphicon-question-sign" aria-hidden="true" data-toggle="tooltip" data-html="true" data-placement="right" title="La cuenta de correo con la que registraste tu reclamación " ></span></li>
+                <li>Número de folio <span class="glyphicon glyphicon-question-sign" aria-hidden="true" data-toggle="tooltip" data-html="true" data-placement="right" title="Folio que se te proporcionó al momento del registro de tu reclamación" ></span></li>
+            </ol>
+        </p>
+            </div>
+        </h5>
+    </div>
+</div>
+<hr>
+<div id="reclamacionForm">
+    <div class="row">
+    <div class="col-sm-8" style="width:100%">
+        <!--div id="imagenes">
+            <img idElement="divRegistro" src="./img/registro.png" id="img2" htitle="Registra tu reclamación, de alguno de los Bancos registrados en Gestión Electrónica" title="Resgistro"/>
+            <img idElement="divConsulta" src="./img/consulta.png" id="img1" htitle="Podrás consultar en qué etapa del proceso de atención al usuario se encuentra tu asunto" title="Consulta"/>
+        </div-->
+        <div class="contenedorForm">
+        <div id="divConsulta">
+            <div class="row">
+                <div class="col-md-4">
+                </div>
+                <div class="col-md-4">
+                    <label for="selectIns">Folio</label>
+                    <input type="text" id="campoFolio" placeholder="Captura tu folio" class="vObligatorio form-control" >
+                    <button type="button" class="btn btn-primary pull-right" id="btnConsulta">Enviar</button>
+                </div>
+            </div>
+            <div id="timeLineCons" class="row" style="display:none">
+                <section class="cd-timeline js-cd-timeline">
+                        <div class="cd-timeline__container" id="timeLineConsulta">
+
+                            <div class="cd-timeline__block js-cd-block">
+                                <div class="cd-timeline__img cd-timeline__img--di js-cd-img">
+                                    <span>DI</span>
+                                </div> <!-- cd-timeline__img -->
+                                <div class="cd-timeline__content js-cd-content">
+                                    <h2>Solicitud de Dictamen</h2>
+                                    <p>Solicitaste tu dictamen, a más tardar en 60 días hábiles recibirás una respuesta a tu solicitud</p>
+                                    <a href="#0" class="cd-timeline__read-more">Leer más</a>
+                                    <span class="cd-timeline__date">12/04/2018</span>
+                                </div> <!-- cd-timeline__content -->
+                            </div> <!-- cd-timeline__block -->
+                                                                                    
+                            <div class="cd-timeline__block js-cd-block">
+                                <div class="cd-timeline__img cd-timeline__img--co js-cd-img">
+                                    <span>CO</span>
+                                </div> <!-- cd-timeline__img -->
+                                <div class="cd-timeline__content js-cd-content">
+                                    <h2>Conclusión de Conciliación</h2>
+                                    <p>Durante la audiencia de conciliación se determinó que tu asunto <strong>No era procedente</strong>, no te preocupes CONDUSEF te ofrece un dictamen a fin de que lo hagas valido ante tribunales.<br />Acércate a alguna de nuestras oficinas a tramitarlos</p>
+                                    <a href="#0" class="cd-timeline__read-more">Leer más</a>
+                                    <span class="cd-timeline__date">05/04/2018</span>
+                                </div> <!-- cd-timeline__content -->
+                            </div> <!-- cd-timeline__block -->
+
+                            <div class="cd-timeline__block js-cd-block">
+                                <div class="cd-timeline__img cd-timeline__img--co js-cd-img">
+                                    <span>CO</span>
+                                </div> <!-- cd-timeline__img -->
+                                <div class="cd-timeline__content js-cd-content">
+                                    <h2>Inicio del proceso conciliatorio</h2>
+                                    <p>Recuerda que tienes una audiencia el día 5 de abril de 2018, no se te olvide acudir.</p>
+                                    <!--a href="#0" class="cd-timeline__read-more">Read more</a-->
+                                    <span class="cd-timeline__date">02/03/2018</span>
+                                </div> <!-- cd-timeline__content -->
+                            </div> <!-- cd-timeline__block -->
+                                
+                            <div class="cd-timeline__block js-cd-block">
+                                <div class="cd-timeline__img cd-timeline__img--ge js-cd-img">
+                                    <span>GE</span>
+                                </div> <!-- cd-timeline__img -->
+                                <div class="cd-timeline__content js-cd-content">
+                                    <h2>Respuesta de la Institución</h2>
+                                    <p>La institución financiera ha contestado <strong>No Favorable</strong> tu reclamación, recuerda que puedes ratificar tu reclamación en alguna de nuestras Unidades de Atención a Usuarios e iniciar el proceso de <strong>Conciliación</strong></p>
+                                    <a href="#0" class="cd-timeline__read-more">Ver respuesta</a>
+                                    <span class="cd-timeline__date">22/01/2018</span>
+                                </div> <!-- cd-timeline__content -->
+                            </div> <!-- cd-timeline__block -->
+                                                            
+                            <div class="cd-timeline__block js-cd-block">
+                                <div class="cd-timeline__img cd-timeline__img--ge js-cd-img">
+                                    <span>GE</span>
+                                </div> <!-- cd-timeline__img -->
+                                <div class="cd-timeline__content js-cd-content">
+                                    <h2>¡Inicio de gestión Electrónica!</h2>
+                                    <p>Tu reclamación es procedente, en <strong>20 días hábiles</strong> recibirás una repuesta</p>
+                                    <!--a href="#0" class="cd-timeline__read-more">Ver respuesta</a-->
+                                    <span class="cd-timeline__date">12/01/2018</span>
+                                </div> <!-- cd-timeline__content -->
+                            </div> <!-- cd-timeline__block -->
+                            
+                            <div class="cd-timeline__block js-cd-block">
+                                <div class="cd-timeline__img cd-timeline__img--vu js-cd-img">
+                                    <span>VU</span>
+                                </div> <!-- cd-timeline__img -->
+                                <div class="cd-timeline__content js-cd-content">
+                                    <h2>Registro de reclamación</h2>
+                                    <p>Tu reclamación ha sido recibida exitosamente, en breve te notificaremos la procedencia de la misma.</p>
+                                    <!--a href="#0" class="cd-timeline__read-more">Ver respuesta</a-->
+                                    <span class="cd-timeline__date">01/01/2018</span>
+                                </div> <!-- cd-timeline__content -->
+                            </div>
+                        </div>
+            </section>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>    
+</div>
+<div class="row">
+    <div class="divContenInput col-sm-4">         
+    <div class="form-group"> 
+    </div>
+    </div>
+</div>
+<div class="row">
+    <div class="divContenInput col-sm-4">         
+    <div class="form-group"> 
+    </div>
+    </div>
+</div>
+</div>
+<div class="modal fade bs-example-modal-lg in" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Clave de Seguridad</h4>
+              </div>
+              <div class="modal-body" style="text-align:justify; width:500px">
+                Enviamos al correo electrónico <strong><span style="font-size:20px" id="correoUsuenv">-</span></strong>, una CLAVE de 6 dígitos para tener acceso a esta sección, por favor ingresala a continuación:
+                <br />
+                <br />
+                <center>
+                <div style="width:60%; text-align:center">
+                    <input type="password" id="claveAcceso" placeholder="Clave de acceso" class="vObligatorio form-control">
+                </div>
+                <div id="divRespuConsult">
+
+                </div>
+                </center>
+                <br />
+              </div>
+              <div class="modal-footer">
+                <!--button type="button" class="btn btn-default" data-dismiss="modal" onclick="location.reload();';">Cerrar Ventana</button-->
+              </div>
+            </div>
+          </div>
+        </div>
+<div class="modal fade bs-example-modal-lg in" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Preguntas Frecuentes</h4>
+            </div>
+            <div class="modal-body contentIns" style="text-align:justify" id="insList">
+            <!--Código Modal-->
+            <div id="divPreguntasFrec">
+            <p><strong>Si soy personal moral ¿Puedo presentar mi inconformidad por esta vía?</strong><br />R.- No. Te informamos que deberás acudir a la Unidades de Atención a Usuarios más cercana a tu domicilio a presentar tu inconformidad, un Asesor deberá validar la personalidad jurídica.</p>
+            <p><strong>¿Cuáles son las causas por las que mi asunto no puede ser turnado a la Institución Financiera?</strong><br />R.- La documentación soporte no es legible,el asunto corresponde a otra causa, la información y datos que proporcionaste no son congruentes, presentaste el mismo asunto en alguna Unidades de Atención a Usuarios.</p>
+            <p><strong>Ingrese previamente mi queja en línea y la Institución Financiera me respondió que no es favorable, sin embargo, no estoy de acuerdo con su respuesta, ¿puede seguir ayudándome la CONDUSEF con mi queja?</strong><br />La Gestión que se realiza en este micrositio está  encaminada a obtener un alto porcentaje de asuntos favorables para el Usuario, en caso de que la Institución Financiera no te resuelva favorable, te apoyamos en el siguiente proceso de atención, que es agotar el Procedimiento Conciliatorio, para lo cual te pedimos presentes un escrito Formar de Reclamación fundamentándolo en los Artículos 59 Bis 1, 60, 63 y 68 de la Ley de Protección y Defensa al Usuario de Servicios Financieros y que contenga Tu Nombre completo y tu Domicilio; Nombre de la Institución Financiera contra la que se formula la Reclamación; Descripción del producto o servicio que se reclama, así como de los hechos que motivaron la Reclamación. Puedes pedir ayuda a nuestro Centro de Atención Telefónica al 55 53 400 999</p>
+            <p><strong>¿Qué puedo hacer cuando no encuentro la Institución, el producto y/o la causa para presentar mi queja?</strong><br />R.- Actualmente, solamente se presenta para los principales quejas y productos de las instituciones Financieras que tienen convenio de Gestión Electrónica, en caso de que tu problema no se relaciones con la Institución, el producto y/o causa existentes en el presente sitio, te pedimos acudas a presentar tu queja personalmente en una de nuestras Unidades de Atención a Usuarios (<span style="cursor: pointer; color:#12C; text-decoration: underline;" onclick="window.open('https://www.condusef.gob.mx/gbmx/?p=mapa-delegacionesbd')">Ver ubicación</span>).</p>
+            <p><strong>¿Cuál es el tiempo para que se resuelva mi queja?</strong><br />La respuesta a tu queja será resuelta dentro de los 25 días siguientes a su presentación. Te será entregada a la cuenta de correo que registraste, adicionalmente, puedes consultarla en el presente sitio con el Folio que se te proporciono (<span style="cursor: pointer; color:#12C; text-decoration: underline;" onclick="window.open('./regConsulta.php')">Consulta tu queja</span>)</p>
+            </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal" onclick="$(this).modal('hide')">Cerrar Ventana</button>
+            </div>
+        </div>
+    </div>
+</div>        
+<div class="modal fade bs-example-modal-lg in" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Proceso presencial de la CONDUSEF</h4>
+          </div>
+          <div class="modal-body" style="text-align:justify">
+            <!--codigo modal-->
+            <div class="col-sm-8" style="width:100%">
+        <div class="timeLine">
+        <div id="timeline">
+<ul id="dates">
+<li><a href="#1900">VU</a></li>
+<li><a href="#1944">GE</a></li>
+<li><a href="#1950">CO</a></li>
+<li><a href="#1971">DI</a></li>
+<li><a href="#1999">AR</a></li>
+<li><a href="#2001">DL</a></li>
+</ul>
+<ul id="issues">
+<li id="1900">
+<img src="images/1.png" width="256" height="256" />
+<h1>Ventanilla Única</h1>
+<p>La CONDUSEF a través de sus oficinas y su centro de atención telefónica (CAT), recibe las dudas y quejas, en materia financiera, de los usuarios que lo necesiten.</p>
+</li>
+<li id="1944">
+<img src="images/3.png" width="256" height="256" />
+<h1>Gestión</h1>
+<p>En aras de apoyar a los ciudadanos con esquemas de atención eficientes, Condusef implementó un proceso de gestión, que de manera electrónica te permite tramitar ante la Institución Financiera tu inconformidad o queja, para que de igual forma, a través de esta Comisión recibas una respuesta de tu asunto.
+<br />
+Este proceso tiene estipulado un tiempo de resolución de <strong>20 días hábiles</strong>.</p>
+</li>
+<li id="1950">
+<img src="images/4.png" width="256" height="256" />
+<h1>Conciliación</h1>
+<p>Convoca al usuario y a la IF a Audiencia; en donde se debe presentar informe detallado sobre los hechos que motivan la reclamación.<br />En caso de no haber arreglo, el reclamante podrá solicitar a la CONDUSEF, dictamen al respecto de su asunto, con el fin de hacerlo valer ante los tribunales competentes.
+</p>
+</li>
+<li id="1971">
+<img src="images/5.png" width="256" height="256" />
+<h1>Dictamen</h1>
+<p>Si en el proceso conciliatorio el usuario solicita se dejen a salvo sus derechos, la CONDUSEF le Ofrece la emisión de un Acuerdo de Trámite, conforme a una valoración del asunto, en caso de que esta valoración sea favorable esta Comisión emitirá un Dictamen que consiste en una opinión especializada con la intención de que la pueda hacer valer ante los tribunales competentes, en caso contrario de emite un acuerdo de improcedencia.</p>
+</li>
+<li id="1999">
+<img src="images/8.png" width="256" height="256" />
+<h1>Árbitraje</h1>
+<p>Con los elementos aportados por ambas partes, se emite el “Proyecto de Laudo”, que es la resolución que pone fin al asunto y en la cual se señala a quién le asiste la razón.
+<br />
+Para que las partes se sometan al proceso arbitral, previamente la Entidad Financiera debió de haber ofertado el producto o servicio  financiero, para que en caso de controversia se resuelva por éste procedimiento.
+</p>
+</li>
+<li id="2001">
+<img src="images/9.png" width="256" height="256" />
+<h1>Defensoría Legal</h1>
+<p>Proporciona al Usuario un Abogado de manera gratuita para que tramite su asunto ante tribunales, siempre y cuando acredite: 
+<br />
+<br />
+1. Elementos legales suficientes para una defensa adecuada.
+<br />
+2. No contar con los medios económicos suficientes para contratar los servicios de un abogado particular.
+</p>
+</li>
+</ul>
+<div id="prev"></div>
+<div id="next"></div>
+</div>
+        </div>
+    </div>
+
+          </div>
+            <div class="modal-footer">
+                <!--button type="button" class="btn btn-default" data-dismiss="modal" onclick="location.reload();';">Cerrar Ventana</button-->
+            </div>
+        </div>
+    </div>
+</div>        
+          
+
+<script src="https://framework-gb.cdn.gob.mx/gobmx.js"></script>
+<script src="https://framework-gb.cdn.gob.mx/assets/scripts/jquery-ui-datepicker.js"></script>
+<script src="./js/smartW/jquery.smartWizard.js"></script>
+<script src="js/menuImg.js"></script><!--Code de menú principal de las imagenes-->
+<script src="js/buscadorI.js"></script><!--COde de imagenes de las Instituciones-->
+<script src="js/verticalTimeLineFunctions.js"></script><!--COde de imagenes de las Instituciones-->
+<script src="jsTimeLine/main.js"></script>
+<script>
+function valida(){
+	var parametros = [1]; 
+	parametros[0] = [2];
+	parametros[0][0] = "-";
+	parametros[0][1] = "-";
+var columns = [1];
+	columns[0] = [2];
+	columns[0][0] = "column1";
+	columns[0][1] = "f_controlmaestro_FINAL()";
+	jsonparam = JSON.stringify(parametros);
+	jsoncolumn = JSON.stringify(columns);	
+	var element = $.ajax({
+		url:"./lib/generaJsonQuery.php",
+		data:{p:"dual",pr:jsonparam,o:1,cl:jsoncolumn},
+		method:"POST",
+		dataType:"html",
+		success: function(result){
+			//alert(result);
+			var json = jQuery.parseJSON(result);
+			$.each(json, function (index, value) {
+				//bandera = parseInt(value["0"]);		
+				bandera = value["0"].split("_")[0];
+				//tiempo(value["0"].split("_")[1],value["0"].split("_")[2],value["0"].split("_")[3],value["0"].split("_")[4],value["0"].split("_")[5],value["0"].split("_")[6],value["0"].split("_")[7])
+				});
+			if(bandera != 1){
+				window.location.href="./enC.php";
+				}	
+		}
+	});
+	}
+function validaExplorador(){
+	var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+	var badExpPerm = true;
+	if (/android/i.test(userAgent)) {
+	badExpPerm = false;
+	}
+	if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+	badExpPerm = false;
+	}
+	if (/windows phone/i.test(userAgent)) {
+	badExpPerm = false;
+	}
+if(!badExpPerm){
+	alert("Lo sentimos el dispositivo por el que quieres ingresar no está soportado por esta plataforma realiza tu tramite desde una computadora");
+	window.location.href="https://www.gob.mx/condusef";
+	}
+	}
+$gmx(document).ready(function() {
+valida();	
+	$("#divPreguntasFrec").css("width",parseInt($(window).width()*0.7)+"px");
+$( window ).resize(function() {
+	$("#divPreguntasFrec").css("width",parseInt($(window).width()*0.7)+"px");
+	}); 
+validaExplorador();
+$("#btnConsulta").click(function(){
+    $("#timeLineCons").hide("slow",function(){});
+    $("#claveAcceso").val("");
+    $("#divRespuConsult").html("");
+    if($("#campoFolio").val() == ""){
+        alert("Captura el Folio");
+        return false;
+    }
+    var parametros = [2]; 
+    parametros[0] = [2];
+    parametros[1] = [2];
+    parametros[0][0] = "pFOLIO";
+    parametros[0][1] = $("#campoFolio").val();
+    parametros[1][0] = "pIDSESSION";
+    parametros[1][1] = "3aj86bsletsru2b61dovn4lh2s";
+    var mensaje = "";
+    for(i=0;i<2;i++){
+        //alert(parametros[i][0]+" - "+parametros[i][1]);
+    }
+    jsonparam = JSON.stringify(parametros);
+    //constCargaFile
+    $.ajax({
+        url:"./lib/lanzaMailConsulta.php",
+        data:{p:"P_TOKENS",pr:jsonparam},
+        method:"POST",
+        dataType:"html",
+        success: function(result){
+            var json = jQuery.parseJSON(result);
+             $.each(json, function (index, value) {
+             $("#correoUsuenv").html(value["0"]);
+                });
+             $('#myModal1').modal('show');
+        }});
+});    
+$("html").animate({ scrollTop: 0}, 1000);    
+$(".vObligatorio").each(function(index, element) {
+$(this).parent("div").children("label").append("<span>*</span>:");
+});
+$('[data-toggle="tooltip"]').tooltip();
+$.getScript( "./js/jquery.timelinr-0.9.7.js", function( data, textStatus, jqxhr ) {
+        $().timelinr({
+            autoPlay: 'true',
+            autoPlayDirection: 'forward',
+            startAt: 1,
+            issuesSpeed: "fast",
+            datesSpeed: "slow"
+            });
+        }); 
+
+$("#claveAcceso").keyup(function (){
+    var textClave=$(this).val();
+    if(textClave.length == 6){
+        /*beforeSend:function(){
+            $("#divRespuConsult").html(constCargaFile);
+        },*/
+        var parametros = [3]; 
+        parametros[0] = [2];
+        parametros[1] = [2];
+        parametros[2] = [2];
+        parametros[0][0] = "pFOLIO";
+        parametros[0][1] = $("#campoFolio").val();
+        parametros[1][0] = "pIDSESSION";
+        parametros[1][1] = "3aj86bsletsru2b61dovn4lh2s";
+        parametros[2][0] = "pTOKEN";
+        parametros[2][1] = $(this).val();
+        for(i=0;i<3;i++){
+        //alert(parametros[i][0]+" - "+parametros[i][1]);
+        }
+        jsonparam = JSON.stringify(parametros);
+        $.ajax({
+        url:"./lib/generaJsonProcedure.php",
+        data:{p:"P_INFO_FOLIO",pr:jsonparam},
+        method:"POST",
+        dataType:"html",
+        beforeSend: function() {
+            $("#divRespuConsult").html(constCargaFile);
+            },
+        success: function(result){
+            //alert(result);
+        var mesaje = "";
+        var json = jQuery.parseJSON(result);
+        var banLanzaConsulta = false;
+                $.each(json, function (index, value) {
+                    if(value["0"] != "-"){
+                      //timeLineConsulta
+                      banLanzaConsulta = true;
+                      mesaje = mesaje +'<div class="cd-timeline__block js-cd-block">'+
+                                '<div class="cd-timeline__img cd-timeline__img--'+value["6"]+' js-cd-img">'+
+                                    '<span>'+value["6"]+'</span>'+
+                                '</div> <!-- cd-timeline__img -->'+
+                                '<div class="cd-timeline__content js-cd-content">'+
+                                    '<h2>'+value["3"]+'</h2>'+
+                                    '<p>'+value["5"]+'</p>'+
+                                    '<span class="cd-timeline__date">'+value["0"]+'</span>'+
+                                '</div> '+
+                            '</div> <!-- cd-timeline__block -->';  
+                    }
+                });
+                if(banLanzaConsulta){
+                    $("#timeLineConsulta").html(mesaje);
+                    $("#timeLineCons").show("slow",function(){
+                    canvasTimeLine();
+                    $("#campoFolio").val("");
+                    $('#myModal1').modal('hide');
+                    });
+                }else{
+                         $("#divRespuConsult").html("<strong style='color:red'>Datos no Válidos</strong>");
+                         return false;
+                    }
+            }});
+    /*$("#timeLineCons").show("slow",function(){
+            canvasTimeLine();
+            //$('#myModal1').modal('hide');
+            });*/
+        }
+    });
+    });
+</script>
+
+<!-- The following code snippet should be place directly (or as close as possible) before the closing </body> tag.
+Please replace the ns_site with your assigned ns_site. -->
+
+<!-- Begin DAx cs.js import -->
+<!--script type="text/javascript" src="https://sb.scorecardresearch.com/c2/17183199/ct.js"></script-->
+<!-- End DAx cs.js import -->
+</body>
+<script src="./js/variables.js"></script>
+</html>
