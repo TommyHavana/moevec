@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <!--<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />-->
+    <link rel="stylesheet" href="/vendor/almasaeed2010/adminlte/dist/css/AdminLTE.min.css">
+    <link rel="preload" as="style" href="https://26.internationalpropertyrightsindex.org/build/assets/flags-BtSICri1.css" /><link rel="stylesheet" href="https://26.internationalpropertyrightsindex.org/build/assets/flags-BtSICri1.css" />    <link rel="preload" as="style" href="https://26.internationalpropertyrightsindex.org/build/assets/jquery-jvectormap-1.2-C5eBs6vd.css" /><link rel="stylesheet" href="https://26.internationalpropertyrightsindex.org/build/assets/jquery-jvectormap-1.2-C5eBs6vd.css" />    <link rel="preload" as="style" href="https://26.internationalpropertyrightsindex.org/build/assets/jquery-jvectormap-2.0-C2vt1Ziz.css" /><link rel="stylesheet" href="https://26.internationalpropertyrightsindex.org/build/assets/jquery-jvectormap-2.0-C2vt1Ziz.css" />    <link rel="stylesheet" href="/vendor/almasaeed2010/adminlte/bower_components/jquery-ui/themes/base/jquery-ui.min.css">
+
+    <!--<link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/rowreorder/1.2.6/css/rowReorder.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css">-->
+
+    <style>
+        #custom-handle {
+            width: 3em;
+            height: 1.6em;
+            top: 50%;
+            margin-top: -.8em;
+            text-align: center;
+            line-height: 1.6em;
+            margin-left: -25px;
+        }
+        #stat-update-button {
+            width: 100%!important;
+        }
+    </style>
+        <title>International Property Rights Index</title>
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<meta name="description" content="In the current global environment, where countries are facing economic recessions and instability, intellectual property emerges as a solution.">
+<meta title="International Property Rights Index">
+
+<meta name="csrf-token" content="" >
+
+<link rel="canonical" href="https://26.internationalpropertyrightsindex.org">
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-PV7BKB6');</script>
+<!-- End Google Tag Manager -->
+
+        <link rel="icon" href="https://www.propertyrightsalliance.org/wp-content/uploads/2017/02/cropped-logo-1-32x32.png" sizes="32x32">
+        <link rel="icon" href="https://www.propertyrightsalliance.org/wp-content/uploads/2017/02/cropped-logo-1-192x192.png" sizes="192x192">
+        <link rel="apple-touch-icon-precomposed" href="https://www.propertyrightsalliance.org/wp-content/uploads/2017/02/cropped-logo-1-180x180.png">
+        <meta name="msapplication-TileImage" content="http://www.propertyrightsalliance.org/wp-content/uploads/2017/02/cropped-logo-1-270x270.png">
+
+        
+        <script src="/vendor/jquery/jquery.min.js"></script>
+        <link rel="preload" as="style" href="https://26.internationalpropertyrightsindex.org/build/assets/app-C1QZrCSW.css" /><link rel="modulepreload" as="script" href="https://26.internationalpropertyrightsindex.org/build/assets/app-bCUBfkKQ.js" /><link rel="stylesheet" href="https://26.internationalpropertyrightsindex.org/build/assets/app-C1QZrCSW.css" /><script type="module" src="https://26.internationalpropertyrightsindex.org/build/assets/app-bCUBfkKQ.js"></script>        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <link rel="stylesheet" href="https://use.typekit.net/zxl5hjj.css">
+        <meta property="og:url" content="https://26.internationalpropertyrightsindex.org" />
+    <meta property="og:title" content="2026 International Property Rights Index" />
+    <meta property="og:description" content="In the current global environment, where countries are facing economic recessions and instability, intellectual property emerges as a solution." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://26.internationalpropertyrightsindex.org/images/ipri_2025_social.jpg">
+    <meta property="og:image:type" content="image/jpg">
+    <meta name="twitter:image" content="https://26.internationalpropertyrightsindex.org/images/ipri_2025_social.jpg">
+    <meta name="twitter:image:src" content="https://26.internationalpropertyrightsindex.org/images/ipri_2025_social.jpg">
+    <meta name="twitter:card" content="summary_large_image" />
+</head>
+    <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PV7BKB6"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+        <!-- Navigation -->
+        <nav id="main-nav" class="navbar navbar-fixed-top" style="z-index:2;">
+            <div class="container-fluid main-container">
+                <ul class="nav navbar-nav">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="/" data-ajax="false" class="navbar-brand"><img src="/images/ipri_logo.png" alt="IPRI 2019"></a>
+                </ul>
+            <div id="navbar" class="collapse navbar-collapse">
+    <ul class="nav navbar-nav navbar-right" style="margin-right: -16px !important;">
+                                                                                <li class="navitem  fistitem ">
+                            <a data-ajax="false" href="https://26.internationalpropertyrightsindex.org/about">About</a>
+                        </li>
+                                                                                                            <li class="navitem  ">
+                            <a data-ajax="false" href="https://26.internationalpropertyrightsindex.org/partners">Partners</a>
+                        </li>
+                                                                                                            <li class="navitem  ">
+                            <a data-ajax="false" href="https://26.internationalpropertyrightsindex.org/full-report">Report</a>
+                        </li>
+                                                                                                            <li class="navitem  ">
+                            <a data-ajax="false" href="https://26.internationalpropertyrightsindex.org/countries">Countries</a>
+                        </li>
+                                                                <!--<li class="navitem">
+            <a href="/previous-reports">Previous Reports</a>
+        </li>-->
+        <div class="social-icons mobile-only">
+            <a href="" class="ssk ssk-linkedin"></a>
+            <a href="" class="ssk ssk-twitter"></a>
+            <a href="" class="ssk ssk-facebook"></a>
+            <!--<a href="" class="ssk ssk-email"></a>-->
+        </div>
+    </ul>
+</div>
+
+
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/brands.min.css" integrity="sha512-W/zrbCncQnky/EzL+/AYwTtosvrM+YG/V6piQLSe2HuKS6cmbw89kjYkp3tWFn1dkWV7L1ruvJyKbLz73Vlgfg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+    .ssk-facebook::before {
+        font-family: "Font Awesome 6 Brands";
+        content: "\f39e";
+        color: #fff;
+    }
+    .ssk-facebook:hover {
+        background-color: #2d4373;
+    }
+    .ssk-linkedin::before {
+        font-family: "Font Awesome 6 Brands";
+        content: "\f0e1";
+        color: #fff;
+    }
+    .ssk-linkedin:hover {
+      background-color: #156791;
+    }
+    .ssk-twitter::before {
+        font-family: "Font Awesome 6 Brands";
+        content: "\f099";
+        color: #fff;
+    }
+    .ssk-twitter:hover {
+        background-color: #0c85d0;
+    }
+    .social-icons .ssk {
+        padding: 6px;
+    }
+</style>
+<div class="social-icons desktop-only">
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.internationalpropertyrightsindex.org%2F" onclick="window.open(this.href, 'linkedinwindow','left=20,top=20,width=600,height=700,toolbar=0,resizable=1'); return false;" class="ssk ssk-linkedin"></a>
+    <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.internationalpropertyrightsindex.org" onclick="window.open(this.href, 'twitterwindow','left=20,top=20,width=600,height=700,toolbar=0,resizable=1'); return false;" class="ssk ssk-twitter"></a>
+    <a href="https://www.facebook.com/share.php?u=https%3A%2F%2Fwww.internationalpropertyrightsindex.org%2F" onclick="window.open(this.href, 'facebookwindow','left=20,top=20,width=600,height=700,toolbar=0,resizable=1'); return false;" class="ssk ssk-facebook"></a>
+    <!--<a href="" class="ssk ssk-email"></a>-->
+</div>            </div>
+        </nav>
+        <!-- Page Header -->
+        <header>
+            <div class="container-fluid">
+                <div class="row">
+                        <div class="header-image home">
+        <div class="hero-wrapper">
+            <h1 id="header-text">International <br>Property Rights <br>Index 2026</h1>
+            <div class="hero-button-wrapper">
+                <a class="hero-button primary-button" href="https://lp.constantcontactpages.com/su/x76xXEv">Read The Executive Summary</a>
+                <a class="hero-button" href="https://lp.constantcontactpages.com/su/x76xXEv">Read The Report</a>
+                <a class="hero-button desktop-only" href="#world-map">See The Map</a>
+            </div>
+        </div>
+    </div>
+                </div>
+
+                <!--<div class="row">
+                    <div class="google-stripe"></div>
+                </div>-->
+            </div>
+        </header>
+        <!-- Main Content -->
+        <main>
+            <div class="container">
+                
+    <div class="col-md-5 col-lg-5" style="text-align:center;">
+        <img alt="" src="https://atr-ipri.s3.amazonaws.com/desoto.jpg" style="width:75%;">
+    </div>
+
+    
+    <div class="col-md-7 col-lg-7 section-title">
+        <span>A Letter From</span>
+        <h2 class="text-center text-capitalize">Hernando de Soto</h2>
+        <p>In 2026, we commemorate the 250th anniversary of the pivotal milestones of 1776, Thomas Paine’s <em>Common Sense</em>, the <em>American Declaration of Independence</em>, and Adam Smith’s <em>Wealth of Nations</em>. Together, they established that human progress, dignity, and prosperity depend on individual autonomy and strong property rights. As Smith noted, liberty flourishes only when ind
+        <div class="fade-out"></div>
+        <a class="read-more" href="/about/#hernando-letter">Read The Full Letter</a>
+    </div>
+
+    <div class="col-md-12 col-lg-12 home-stat-summary">
+        <div class="home-stat-item">
+            <img src="/images/ipri2026_population.png" alt="">
+            <div class="home-stat-text mobile-only" style="width:100%;margin-top: 30px;">
+                <p>2026 IPRI includes <span class="highlighted">121 countries, accounting for 93% of the world population and 97% of the global GDP.</span></p>
+            </div>
+        </div>
+        <div class="home-stat-item">
+            <img src="/images/ipri2026_quintiles.png" alt="">
+            <div class="home-stat-text mobile-only" style="width:100%;margin-top: 30px;">
+                <p><span class="highlighted">The Average <em>per capita</em> income disparity</span> between 2026 IPRI’s top quintile and bottom quintile countries is <span class="highlighted">17x.</span></p>
+            </div>
+        </div>
+        <div class="home-stat-item">
+            <img src="/images/ipri2026_norway.png" alt="">
+            <div class="home-stat-text mobile-only" style="width:100%;margin-top: 30px;">
+                <p><span class="highlighted">Norway</span> <span class="highlighted">leads the overall 2026 IPRI score with 7.98, as well as the PPR component with a score of 9.21.</span></p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-12 col-lg-12 home-stat-summary desktop-only">
+        <div class="home-stat-text">
+            <p>2026 IPRI includes <span class="highlighted">121 countries, accounting for 93% of the world population and 97% of the global GDP.</span></p>
+        </div>
+        <div class="home-stat-text">
+            <p><span class="highlighted">The Average <em>per capita</em> income disparity</span> between 2026 IPRI’s top quintile and bottom quintile countries is <span class="highlighted">17x.</span></p>
+        </div>
+        <div class="home-stat-text">
+            <p><span class="highlighted">Norway</span> <span class="highlighted">leads the overall 2026 IPRI score with 7.98, as well as the PPR component with a score of 9.21.</span></p>
+        </div>
+    </div>
+
+    <div class="col-md-12 col-lg-12 section-title" style="margin-bottom: 60px;">
+        <span style="text-align:center;">Correlations with the International Property Rights Index reveal crucial relationships between property rights and thriving societies.</span>
+    </div>
+
+    <div class="col-md-12 col-lg-12 home-stat-summary">
+        <div class="home-stat-item small-item">
+            <img src="/images/ipri2026_enterprise.png" alt="">
+            <div class="home-stat-text mobile-only" style="width:100%;margin-top: 30px;">
+                <p>2026 IPRI exhibits a very strong correlation with the Global Social Progress Index (0.90) and with the Prosperity Index (0.84), <span class="highlighted">showing that property rights play a crucial role not only in driving free enterprise, but also as the bedrock for a virtuous ecosystem for human development.</span></p>
+            </div>
+        </div>
+        <div class="home-stat-item small-item">
+            <img src="/images/ipri2026_usa.png" alt="">
+            <div class="home-stat-text mobile-only" style="width:100%;margin-top: 30px;">
+                <p>The USA is <span class="highlighted">leading the world in terms of Intellectual Property Rights protection (IPR=8.07)</span>, followed by France, Germany, Sweden, and the United Kingdom.</p>
+            </div>
+        </div>
+        <div class="home-stat-item small-item">
+            <img src="/images/ipri2026_nri_gii.png" alt="">
+            <div class="home-stat-text mobile-only" style="width:100%;margin-top: 30px;">
+                <p>2026 IPRI shows a very strong correlation with the Network Readiness Index (0.87) and the Global Innovation Index (0.86), <span class="highlighted">emphasizing the appropriateness of a robust property rights system for the emerging society.</span></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-12 col-lg-12 home-stat-summary desktop-only">
+        <div class="home-stat-text">
+            <p>2026 IPRI exhibits a very strong correlation with the Global Social Progress Index (0.90) and with the Prosperity Index (0.84), <span class="highlighted">showing that property rights play a crucial role not only in driving free enterprise, but also as the bedrock for a virtuous ecosystem for human development.</span></p>
+        </div>
+        <div class="home-stat-text">
+            <p>The USA is <span class="highlighted">leading the world in terms of Intellectual Property Rights protection (IPR=8.07)</span>, followed by France, Germany, Sweden, and the United Kingdom.</p>
+        </div>
+        <div class="home-stat-text">
+            <p>2026 IPRI shows a very strong correlation with the Network Readiness Index (0.87) and the Global Innovation Index (0.86), <span class="highlighted">emphasizing the appropriateness of a robust property rights system for the emerging society.</span></p>
+        </div>
+    </div>
+    <style>
+      .f-c {
+        background-size: cover!important;
+        background-position: center!important;
+        height: 60px;
+        width: 90px;
+        padding: 0!important;
+      }
+    </style>
+    <div class="col-md-12 col-lg-12 desktop-only" style="z-index:1;">
+        <div class="old-box old-box-success">
+            <div class="old-box-header with-border">
+                <div class="box-tools pull-right">
+                </div>
+                <div class="box-body">
+                    <div id="world-map" style="height: 600px; width: 100%"></div>
+                </div>
+                <div class="box-footer">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="shadow-box">
+                            <div class="scale-key">
+                                <span><i class="arrow left worse"></i>Worse Score</span>
+                                <span>Better Score<i class="arrow right better"></i></span>
+                            </div>
+                            <div class="gradient" style="width: 100%;background: rgb(16, 21, 21);background: linear-gradient(90deg, rgba(16, 21, 21, 1) 0%, rgba(37, 184, 143, 1) 100%);height:10px;"></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <div class="shadow-box">
+                            <div class="form-group">
+                                <label>Select Statistic To View</label>
+                                <select id="stat-update" class="form-control" onchange="updateStat()">
+                                                                            <option value="ipri">IPRI</option>
+                                                                            <option value="legal_and_political">Legal &amp; Political Environment (LP)</option>
+                                                                            <option value="judicial_independence">Judicial Independence</option>
+                                                                            <option value="rule_of_law">Rule of Law</option>
+                                                                            <option value="corruption">Control of Corruption</option>
+                                                                            <option value="political_stability">Political Stability</option>
+                                                                            <option value="protection_of_physical_property">Physical Property Rights (PPR)</option>
+                                                                            <option value="property_rights_protection">Physical Property Protection</option>
+                                                                            <option value="registering_property">Registering Process</option>
+                                                                            <option value="ease_of_access_to_loans">Access to Financing</option>
+                                                                            <option value="protection_of_Intellectual_property_rights">Intellectual Property Rights (IPR)</option>
+                                                                            <option value="intellectual_property_rights_protection">Perception of Intellectual Property Protection</option>
+                                                                            <option value="patent_protection">Patent Protection</option>
+                                                                            <option value="copyright_piracy">Copyrights Protection</option>
+                                                                            <option value="trademark_protection">Trademark Protection</option>
+                                                                    </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Select Year To View</label>
+                                
+                                <div id="slider" style="margin: 10px">
+                                    <div id="custom-handle" class="ui-slider-handle"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="single-country-row">
+                        <table id="single-country" class="table table-bordered table-hover dataTable no-footer" style="" role="grid">
+                            <tbody>
+                                <tr role="row" class="odd"></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <!-- /.box-body -->
+        </div>
+    </div>
+
+    <div class="col-md-12 col-lg-12" id="compare-container" style="display:none;">
+        <div class="row">
+            <div class="old-box">
+                <div class="old-box-header">
+                    <h3 class="old-box-title">All Countries - Click on a country's name to see its individual profile page. </h3>
+                </div>
+
+                <!-- /.box-header -->
+                <div class="box-body" id="country-table-wrapper">
+
+                </div>
+                <!-- /.box-body -->
+            </div>
+        </div>
+    </div><!-- /.container -->
+
+    <div data-role="panel" id="comp" data-position="right" data-display="overlay" data-position-fixed="true" style="display:none;">
+        <div class="compare-header">
+            <h3>Compare Countries</h3>
+            <p>Select Up To 5 Countries</p>
+        </div>
+
+        <ul data-role="listview" id="listview">
+        </ul>
+        <div class="close-panel">
+            <a onclick="compareCountry()" class="compare-button primary-compare-button ui-btn ui-shadow ui-corner-all ui-btn-inline ui-btn-icon-left ui-icon-action" data-ajax="false" data-rel="">Compare</a>
+            <a onclick="$('#comp').removeClass('active');" class="compare-button ui-btn ui-shadow ui-corner-all ui-btn-inline ui-btn-icon-left ui-icon-bars" data-rel="close">Close</a>
+        </div>
+    </div><!-- /panel -->
+            </div>
+
+        </main>
+        <!-- Footer -->
+        <footer>
+            <div class="footer container-fluid" style="">
+    <ul class="nav navbar-nav" style="margin:0;">
+        <button style="float: left" type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a href="/" data-ajax="false" class="navbar-brand"><img src="/images/ipri_logo.png" alt="IPRI 2019"></a>
+    </ul>
+    <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right" style="margin-right: -16px !important;">
+                                                                                                    <li class="navitem  fistitem ">
+                                <a data-ajax="false" href="https://26.internationalpropertyrightsindex.org/about">About</a>
+                            </li>
+                                                                                                                                    <li class="navitem  ">
+                                <a data-ajax="false" href="https://26.internationalpropertyrightsindex.org/partners">Partners</a>
+                            </li>
+                                                                                                                                    <li class="navitem  ">
+                                <a data-ajax="false" href="https://26.internationalpropertyrightsindex.org/full-report">Report</a>
+                            </li>
+                                                                                                                                    <li class="navitem  ">
+                                <a data-ajax="false" href="https://26.internationalpropertyrightsindex.org/countries">Countries</a>
+                            </li>
+                                                                                <!--<li class="navitem">
+                <a href="/previous-reports">Previous Reports</a>
+            </li>-->
+        </ul>
+    </div>
+    <div class="legal-links">
+        <a href="/privacy-policy" class="legal-link">Privacy Policy</a><span>&nbsp;   |&nbsp;&nbsp;&nbsp;&nbsp;</span><a href="/terms" class="legal-link">Terms of Use</a><span>&nbsp;   |&nbsp;&nbsp;&nbsp;&nbsp;</span><a href="/copyright" class="legal-link">Copyright</a>
+    </div>
+</div>
+
+
+
+                <script src="/datajs?v=2026"></script>
+
+            <script>
+                $(function () {
+                    $(document).scroll(function () {
+                        var $nav = $("#main-nav");
+                        $nav.toggleClass('fill', $(this).scrollTop() > $nav.height());
+                    });
+                });
+            </script>
+            <!--
+            <script>
+                $(document).ready(function() {
+                    SocialShareKit.init({
+                        
+                                            });
+                });
+            </script>
+            -->
+            <!-- AFTER SCRIPTS -->
+            
+
+    <script src="/vendor/almasaeed2010/adminlte/bower_components/datatables.net/js/jquery.dataTables.js"></script>
+    <script src="/vendor/almasaeed2010/adminlte/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+    <script src="/vendor/almasaeed2010/adminlte/dist/js/adminlte.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.0.0.js"></script>
+    <script src="/vendor/almasaeed2010/adminlte/bower_components/jquery-ui/jquery-ui.min.js"></script>
+
+
+
+    <style>
+    .country-table-loading {
+        padding: 40px 20px;
+        text-align: center;
+        color: #888;
+        font-size: 16px;
+    }
+    .country-table-loading .spinner {
+        display: inline-block;
+        width: 22px;
+        height: 22px;
+        border: 3px solid #ccc;
+        border-top-color: #25b88f;
+        border-radius: 50%;
+        animation: ctspin .8s linear infinite;
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+    @keyframes ctspin { to { transform: rotate(360deg); } }
+</style>
+
+<script>
+    var ipriYear = 2026;
+    var ipriFirstYear = 2007;
+    var currentTableYear = ipriYear;
+
+    // Build the region (col 2) and year filters, then wire the year filter to a
+    // server-side reload so only one year's rows are ever in the DOM.
+    function buildCountriesDataTable(displayYear) {
+        var table = $('#countries').DataTable({
+            "pageLength": 10,
+            "order": [[ 1, "asc" ]],
+            columnDefs: [
+                { type: 'num', targets: [5, 6] }
+            ],
+            initComplete: function () {
+                // Region filter (client-side, single year so all regions are present)
+                this.api().columns(2).every( function () {
+                    var column = this;
+                    var select = $('<select id="country-filter" class="pull-left"><option value="">All Regions</option></select><br class="mobile-only">')
+                        .insertAfter('#countries_length')
+                        .on( 'change', function () {
+                            var val = $.fn.dataTable.util.escapeRegex( $(this).val() );
+                            column.search( val ? '^'+val+'$' : '', true, false ).draw();
+                        } );
+
+                    column.data().unique().sort().each( function ( d, j ) {
+                        select.append( '<option value="'+d+'">'+d+'</option>' )
+                    } );
+                } );
+
+                // Year filter: full published range, reloads the table from the server
+                var yearSelect = $('<select id="year-filter" class="pull-left"></select><br class="mobile-only"><br class="mobile-only">')
+                    .insertAfter('#countries_length')
+                    .on( 'change', function () {
+                        loadCountryTable( $(this).val() );
+                    } );
+                for (var y = ipriYear; y >= ipriFirstYear; y--) {
+                    yearSelect.append('<option value="'+y+'"'+(y === displayYear ? ' selected' : '')+'>'+y+'</option>');
+                }
+
+                $('<label class="pull-left" for="country-filter" style="margin-left:5%;">').text('Region Filter').insertBefore('#country-filter');
+                $('<label class="pull-left" for="year-filter" style="margin-left:5%;">').text('Select Year').insertBefore('#year-filter');
+
+                $.fn.DataTable.ext.pager.numbers_length = 5;
+            }
+        } );
+
+        $('#countries_length').parent().addClass('col-sm-9').removeClass('col-sm-6');
+        $('#countries_filter').parent().addClass('col-sm-3').removeClass('col-sm-6');
+        $('#countries_paginate').parent().removeClass('col-sm-7').addClass('col-sm-12');
+
+        return table;
+    }
+
+    // Fetch a single year's rows and (re)initialise the DataTable.
+    function loadCountryTable(year) {
+        year = parseInt(year, 10) || ipriYear;
+        if (year < ipriFirstYear || year > ipriYear) {
+            year = ipriYear;
+        }
+        currentTableYear = year;
+
+        var $wrapper = $('#country-table-wrapper');
+
+        if ($.fn.dataTable && $.fn.dataTable.isDataTable('#countries')) {
+            $('#countries').DataTable().destroy();
+        }
+        $wrapper.html('<div class="country-table-loading"><span class="spinner"></span>Loading ' + year + ' data&hellip;</div>');
+
+        $.ajax({
+            url: '/country-table?year=' + year + '&v=' + ipriYear,
+            type: 'GET',
+            success: function(data) {
+                $wrapper.html(data);
+                buildCountriesDataTable(year);
+                $('#countries').show();
+                $('#compare-container').show();
+                $('#comp').show();
+            },
+            error: function(xhr, status, error) {
+                $wrapper.html('<div class="country-table-loading">Sorry, the country table could not be loaded. Please try again.</div>');
+                console.error("Error loading table:", error);
+            }
+        });
+    }
+
+    function findWithAttr(array, value) {
+        for(var i = 0; i < array.length; i += 1) {
+            if(array[i]['country']['code'] === value) {
+                return i;
+            }
+        }
+        return -1;
+    }
+    function findRankWithAttr(array, attr, value) {
+        for(var i = 0; i < array.length; i += 1) {
+            if(array[i][attr] === value) {
+                return i;
+            }
+        }
+        return -1;
+    }
+    function findCurrentWithAttr(array, value, year) {
+        for(var i = 0; i < array.length; i += 1) {
+            if(array[i]['country']['code'] === value && array[i]['year'] === year) {
+                return i;
+            }
+        }
+        return -1;
+    }
+    function reindex_array_keys(array, start){
+        var temp = [];
+        start = typeof start == 'undefined' ? 0 : start;
+        start = typeof start != 'number' ? 0 : start;
+        for(var i in array){
+            temp[start++] = array[i];
+        }
+        return temp;
+    }
+
+    // The world map + year slider draw from the /datajs payload and are independent
+    // of the country table, so they initialise once on page load.
+    function initWorldMap() {
+        $.each(["ipri","legal_and_political","judicial_independence","rule_of_law","corruption","political_stability","protection_of_physical_property","property_rights_protection","registering_property","ease_of_access_to_loans","protection_of_Intellectual_property_rights","intellectual_property_rights_protection","patent_protection","copyright_piracy", "trademark_protection"], function( index, value ) {
+            // Null values are stripped server-side, so a stat/country pair can be absent.
+            var yearData = countryData['2026'][value];
+            if (yearData && yearData['DK'] !== undefined) {
+                yearData['GL'] = yearData['DK'];
+            }
+        });
+
+        $('#world-map').vectorMap({
+            map: 'world_mill',
+            backgroundColor  : 'transparent',
+            hoverOpacity     : 0.7,
+            hoverColor       : false,
+            regionStyle: {
+                hover: {
+                    cursor: 'pointer'
+                },
+                initial      : {
+                    fill            : 'rgba(210, 214, 222, 1)',
+                    'fill-opacity'  : 1,
+                    stroke          : 'none',
+                    'stroke-width'  : 0,
+                    'stroke-opacity': 1
+                }
+            },
+            series: {
+                regions: [{
+                    values: countryData['2026']['ipri'],
+                    scale: ['#101515', '#25b88f'],
+                    attribute: 'fill',
+                    min: 1,
+                    max: 9
+                }]
+            },
+            onRegionLabelShow: function(e, el, code){
+                var value = document.getElementById('stat-update').value;
+                var year = $("#slider").slider("value");
+                var score = (countryData[year] && countryData[year][value]) ? countryData[year][value][code] : undefined;
+                el.html(el.html()+' (' + value + ' - '+(score !== undefined ? score : 'No data')+')');
+            },
+            onRegionClick: function (event, code) {
+
+                var year = $("#slider").slider("value");
+                var countrycode = chartLinks[code];
+                var index = findWithAttr(globalData, code);
+                var currentIndex = findCurrentWithAttr(globalData, code, year);
+                var reindexedGlobalRank2019 = reindex_array_keys(globalRank['ipri'][year]);
+                var globalRankIndex = findRankWithAttr(reindexedGlobalRank2019, 'country_id', globalData[index]['country']['id']);
+                var regionRankIndex;
+                var regionRankArray;
+
+                for (var a in regionRank['ipri'][year]) {
+                    var result = findRankWithAttr(reindex_array_keys(regionRank['ipri'][year][a]), 'id', globalData[index]['country']['id']);
+                    if (result != -1) {
+                        regionRankIndex = result;
+                        regionRankArray = reindex_array_keys(regionRank['ipri'][year][a]);
+                        break;
+                    }
+                }
+
+                $('#single-country tbody tr').html("<td class='f-c sorting_1' style=\"background-image:url('/images/flags/" + code.toLowerCase() + ".png');background-size:cover;background-position:center;height:60px;width:90px;padding:0;\"></td>");
+                $('#single-country tbody tr').append("");
+                $('#single-country tbody tr').append("<td class='c-cell'><a href='/country/" + chartLinks[code] + "' data-ajax=\"false\" class=\"ui-link\">" + globalData[index]['country']['name'] + "</a></td>");
+                $('#single-country tbody tr').append("<td class='s-c'>" + countryData[year]['ipri'][code] + "</td>");
+                if (globalData[currentIndex]['deltacode'].includes('UP')) {
+                    $('#single-country tbody tr').append("<td class='c-cell dt-c'><i class='arrow up better'></i> " + globalData[currentIndex]['delta'] + " </td>");
+                } else if (globalData[currentIndex]['deltacode'].includes('DOWN')) {
+                    $('#single-country tbody tr').append("<td class='c-cell dt-c'><i class='arrow down worse'></i> " + globalData[currentIndex]['delta'] + " </td>");
+                } else {
+                    $('#single-country tbody tr').append("<td class='c-cell dt-c'><i class='dot'></i> " + globalData[currentIndex]['delta'] + " </td>");
+                }
+                $('#single-country tbody tr').append("<td class='gr-c'>" + reindexedGlobalRank2019[globalRankIndex]['rank'] + "</td>");
+                $('#single-country tbody tr').append("<td class='rr-c dt-c'>" + regionRankArray[regionRankIndex]['rank'] + "</td>");
+                $('#single-country tbody tr').append("<td class='y-cell dt-c'>" + year + "</td>");
+                $('#single-country tbody tr').append("<td class='cmp-cell dt-c'><a onclick='addCountry(this)' href='#comp' data-country='" + globalData[index]['country']['name'] + "' data-country-id=" + globalData[index]['country']['id'] + " data-country-code=" + code.toLowerCase() + " class='ui-link'> Compare</a></td>");
+
+                $([document.documentElement, document.body]).animate({
+                    scrollTop: $("#single-country-row").offset().top
+                }, 500);
+            }
+        });
+
+        var mapObject = $('#world-map').vectorMap('get', 'mapObject');
+        var handle = $( "#custom-handle" );
+
+        $("#slider").slider({
+            value: 2026,
+            min: 2007,
+            max: 2026,
+            step: 1,
+            create: function() {
+                handle.text( $( this ).slider( "value" ) );
+            },
+            slide: function( event, ui ) {
+                handle.text( ui.value );
+                var value = document.getElementById('stat-update').value;
+                var year = $("#slider").slider("value");
+                mapObject.series.regions[0].clear();
+                mapObject.series.regions[0].setValues((countryData[year] && countryData[year][value]) || {});
+            }
+        });
+    }
+
+    $(document).ready(function() {
+        loadCountryTable(ipriYear);
+        initWorldMap();
+    });
+
+    function addCountry(data)
+    {
+        var country = data.dataset.country;
+        var code = data.dataset.countryCode;
+        var id = data.dataset.countryId;
+
+        var dataList = $("#listview li").map(function() {
+            return $(this).data("id");
+        }).get();
+
+        if (dataList.length < 5)
+        {
+            if (dataList.includes(parseInt(id)))
+            {
+                swal('Oops...', "You Can't Select The Same Country Twice", 'error');
+            }
+            else
+            {
+                var listItem = '<li data-icon="delete" data-id="'+id+'" id="' + id + '"><a onclick="removeCountry(this)" href="#compare-container"><div class="flag" style="background-image:url(\'/images/flags/' + code.toLowerCase() + '.png\');background-size:cover;background-position:center;height:60px;width:90px;min-width:90px;min-height:60px;padding:0;"></div><span>' + country + '</span></a></li>'
+                $('#listview').append(listItem);
+            }
+        }
+        else
+        {
+            swal('Oops...', 'Please Select No More Than 5 Countries', 'error');
+        }
+
+        $('#comp').addClass('active');
+    }
+
+    function removeCountry(data)
+    {
+        $(data.parentElement).remove();
+    }
+
+    function compareCountry()
+    {
+        var dataList = $("#listview li").map(function() {
+            return $(this).data("id");
+        }).get();
+
+        if (dataList.length < 6)
+        {
+            var urlstring = '/compare/country?id=' + dataList.join(",");
+            window.open(urlstring, '_blank');
+        }
+        else
+        {
+            swal('Oops...', 'Please Select No More Than 5 Countries', 'error');
+        }
+    }
+</script>
+    <script src="/vendor/almasaeed2010/adminlte/dist/js/adminlte.min.js"></script>
+
+    <script src="/vendor/jvector/jquery-jvectormap-1.2.2.min.js"></script>
+    
+
+    <script src="/vendor/jvector/jquery-jvectormap-world-mill.js"></script>
+    <script src="/vendor/jvector/jquery-jvectormap-world-mill-en.js"></script>
+    <script src="/vendor/almasaeed2010/adminlte/bower_components/jquery-ui/jquery-ui.min.js"></script>
+        </footer>
+    <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"36cd028d634441e8b4146fca10fca0eb","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

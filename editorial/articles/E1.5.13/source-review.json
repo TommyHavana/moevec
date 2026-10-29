@@ -1,0 +1,60 @@
+{
+  "checked_on": "2026-10-29",
+  "sources": [
+    {
+      "name": "OCDE, Housing prices",
+      "url": "https://www.oecd.org/en/data/indicators/housing-prices.html",
+      "scope": "Definición primaria leída por web; price-to-rent es cociente de índices, no años de renta de un inmueble. Acceso directo403; no comparación de niveles absolutos ni rentabilidad pronosticada."
+    },
+    {
+      "name": "Eurostat, precios de vivienda y alquiler, segundo trimestre de 2026",
+      "url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20261001-3",
+      "scope": "Nota1/10/2026 archivada y leída:UEcompra4.7%alquiler3.0%interanualQ2vsQ2. No UEigualEspaña/LatAm ni proyección individual."
+    }
+  ],
+  "archived_files": [
+    {
+      "file": "sources/download-log.json",
+      "bytes": 706,
+      "sha256": "1d337fd3310be3be793099667f93a7c23058b36b1232ba2dcdd7f9aece9a4805"
+    },
+    {
+      "file": "sources/eurostat2026.html",
+      "bytes": 187729,
+      "sha256": "b9dd1edf4d3a71ac6df5a5624249cb14f13cb62ac52bb65172386eac38e64b52"
+    },
+    {
+      "file": "sources/eurostat2026.visible.txt",
+      "bytes": 5785,
+      "sha256": "5203e8cddaa36365f1e0fbbffc6d7dcf0fb3fb3fc4c67a49916f63b199c7ee76"
+    },
+    {
+      "file": "sources/oecd-housing-access-error.json",
+      "bytes": 164,
+      "sha256": "6f15b3de68cdf6300ec6efb529c105a00c58fccef4a0f167cdf797606320adfe"
+    },
+    {
+      "file": "sources/reading-scope.json",
+      "bytes": 1443,
+      "sha256": "608c39f7cbe8f6b4719f4cb2ecde9a21c9a7cc21fecbc615d14bd1f3847e613f"
+    },
+    {
+      "file": "sources/web-reading-notes.json",
+      "bytes": 710,
+      "sha256": "573b34e35ff3a26b46a5f6ce3cffaa67f9d209df1a3c6e4c086c0f69c101b884"
+    }
+  ],
+  "omitted_claims": [
+    "Comprar siempre superior, alquiler como despilfarro o revalorización garantizada.",
+    "Índice OCDE como años de alquiler o precio absoluto comparable.",
+    "Tributos, tipos de interés o comisiones actuales sin país y oferta verificados.",
+    "Ejercicios hipotéticos como oferta hipotecaria, regla de ahorro o rendimiento disponible."
+  ],
+  "scope": "Lectura pertinente especificada; archivo completo no implica lectura íntegra. Problemas de acceso y fuentes compartidas identificados.",
+  "final_verification": {
+    "checked_at": "2026-10-29T07:12:12.552061+00:00",
+    "published_url": "https://moevec.org/blog/comprar-o-alquilar-vivienda/",
+    "public_checks": "verification.json",
+    "wordpress_registry_words": 1243
+  }
+}

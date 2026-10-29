@@ -1,0 +1,37 @@
+{
+  "checked_at": "2026-10-29T06:44:08.165132+00:00",
+  "items": [
+    {
+      "name": "bid2026",
+      "url": "https://www.iadb.org/es/blog/migracion/las-remesas-hacia-america-latina-y-el-caribe-se-moderan-tras-el-fuerte-aumento-de-2025",
+      "error": "HTTP Error 403: Forbidden",
+      "downloaded": false
+    },
+    {
+      "name": "cemla2025-13",
+      "url": "https://clon.cemla.org/foroderemesas/notas/2025-13-notas-de-remesas.pdf",
+      "error": "<urlopen error timed out>",
+      "downloaded": false
+    },
+    {
+      "name": "wb-remittances",
+      "url": "https://api.worldbank.org/v2/country/LCN/indicator/BX.TRF.PWKR.CD.DT?date=2025&format=json",
+      "final_url": "https://api.worldbank.org/v2/country/LCN/indicator/BX.TRF.PWKR.CD.DT?date=2025&format=json",
+      "file": "wb-remittances.html",
+      "bytes": 345,
+      "sha256": "08b21eedccf745d922fb3c63cf275890950d75082ebe0ce6f222d10147999790",
+      "content_type": "application/json;charset=utf-8",
+      "downloaded": true
+    },
+    {
+      "name": "wb-remittance-meta",
+      "url": "https://api.worldbank.org/v2/indicator/BX.TRF.PWKR.CD.DT?format=json",
+      "final_url": "https://api.worldbank.org/v2/indicator/BX.TRF.PWKR.CD.DT?format=json",
+      "file": "wb-remittance-meta.html",
+      "bytes": 1182,
+      "sha256": "dd7daecc5045a6398e6f6cd98aead6c7a44475c565a599a7427cf7bb4582d881",
+      "content_type": "application/json;charset=utf-8",
+      "downloaded": true
+    }
+  ]
+}

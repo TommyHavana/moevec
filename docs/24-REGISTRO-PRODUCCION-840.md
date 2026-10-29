@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-29T06:26:26+00:00.
+Comprobado en WordPress: 2026-10-29T07:08:38+00:00.
 
-**159/840 terminadas · 0 en curso · 681 pendientes.**
+**165/840 terminadas · 0 en curso · 675 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -171,12 +171,12 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 157 | 11/56 · 7/15 | E1.5.07 | La vivienda en Cuba: de la Ley de Reforma Urbana a la compraventa de 2011 | terminada | 3/3 | [Leer](https://moevec.org/blog/vivienda-cuba-reforma-urbana-compraventa/) |
 | 158 | 11/56 · 8/15 | E1.5.08 | Okupación y seguridad jurídica de la propiedad: el debate en España | terminada | 3/3 | [Leer](https://moevec.org/blog/okupacion-seguridad-juridica-espana/) |
 | 159 | 11/56 · 9/15 | E1.5.09 | Propiedad comunal indígena y titulación individual: un debate abierto | terminada | 3/3 | [Leer](https://moevec.org/blog/propiedad-comunal-indigena/) |
-| 160 | 11/56 · 10/15 | E1.5.10 | La propiedad del dinero: inflación como impuesto silencioso | pendiente | 0/3 | — |
-| 161 | 11/56 · 11/15 | E1.5.11 | Qué protege mejor tu propiedad: un ranking explicado | pendiente | 0/3 | — |
-| 162 | 11/56 · 12/15 | E1.5.12 | Remesas y propiedad: cómo convertir ayuda familiar en patrimonio | pendiente | 0/3 | — |
-| 163 | 11/56 · 13/15 | E1.5.13 | Comprar vivienda o alquilar: un análisis sin dogmas | pendiente | 0/3 | — |
-| 164 | 11/56 · 14/15 | E1.5.14 | La propiedad en las constituciones latinoamericanas: función social y sus límites | pendiente | 0/3 | — |
-| 165 | 11/56 · 15/15 | E1.5.15 | Propiedad digital: ¿son tuyos tus datos, tus monedas y tus compras en línea? | pendiente | 0/3 | — |
+| 160 | 11/56 · 10/15 | E1.5.10 | La propiedad del dinero: inflación como impuesto silencioso | terminada | 3/3 | [Leer](https://moevec.org/blog/inflacion-impuesto-silencioso/) |
+| 161 | 11/56 · 11/15 | E1.5.11 | Qué protege mejor tu propiedad: un ranking explicado | terminada | 3/3 | [Leer](https://moevec.org/blog/ranking-proteccion-propiedad/) |
+| 162 | 11/56 · 12/15 | E1.5.12 | Remesas y propiedad: cómo convertir ayuda familiar en patrimonio | terminada | 3/3 | [Leer](https://moevec.org/blog/remesas-en-patrimonio/) |
+| 163 | 11/56 · 13/15 | E1.5.13 | Comprar vivienda o alquilar: un análisis sin dogmas | terminada | 3/3 | [Leer](https://moevec.org/blog/comprar-o-alquilar-vivienda/) |
+| 164 | 11/56 · 14/15 | E1.5.14 | La propiedad en las constituciones latinoamericanas: función social y sus límites | terminada | 3/3 | [Leer](https://moevec.org/blog/propiedad-constituciones-funcion-social/) |
+| 165 | 11/56 · 15/15 | E1.5.15 | Propiedad digital: ¿son tuyos tus datos, tus monedas y tus compras en línea? | terminada | 3/3 | [Leer](https://moevec.org/blog/propiedad-digital-datos-monedas/) |
 | 166 | 12/56 · 1/15 | E1.1.01 | Qué es la autonomía y por qué no significa hacer lo que quieras | pendiente | 0/3 | — |
 | 167 | 12/56 · 2/15 | E1.1.02 | Autonomía económica: el primer paso es saber cuánto dependes | pendiente | 0/3 | — |
 | 168 | 12/56 · 3/15 | E1.1.03 | Decidir con información: cómo distinguir una opción real de una aparente | pendiente | 0/3 | — |
