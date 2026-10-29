@@ -223,3 +223,11 @@ La nota anterior confundía151–153 con Inversión y Capital. El manifiesto y e
 Decisiones de precisión: corralito/pesificación/AFJP separados; cartera FGS solo extracto primario con periodo. CIADI nuevos/acumulados/administrados y consentimiento distintos; CETA como ejemplo de texto,sin vigencia arbitral presupuesta. Registro/seguro sin garantía universal. Locke con condiciones; Hardin página original escaneada leída visualmente; comunes distintos de acceso abierto. De Soto simulación industrial,no registro de casa; estudios titulación con resultados distintos de crédito. Pesca: cuotas reguladas,no propiedad del mar; estudios históricos sin estado2026 extrapolado. Alcances por ID.
 
 154–156/E1.5.04–06: briefs,etiquetas,preguntas,0/3imágenes cada una,sin texto final ni publicación. Automatización/autorización activas,sin nuevas aprobaciones ni arquitectura modificada. Ningún agotamiento de herramientas comunicado.
+
+## Producción 154–159 y continuación 160–162 · 29/10/2026
+
+159/840 completas, 477 imágenes públicas, 0 en curso/borradores WordPress, 681 pendientes. Dos bloques, seis artículos 18 originales; Propiedad Privada9/15,tanda11/56.122nodos/siete raíces, sin categoríaEditorial, taxonomía intacta. Respaldos proporcionales, hashes y miembros verificados, sin nueva prueba de arranque completa.
+
+Decisiones: propiedad intelectual descriptiva/normativa/empírica diferenciadas, libros consultados por pasajes sin lectura íntegra fingida. Autopropiedad filosofía, no estatus jurídico absoluto; analogía fiscal de Nozick distinta de OIT. Findex2025/encuestas2024/24%adultos ingresos bajos-medios, no hipotecas ni causalidad de registro. B-READY 2026 metodología, no resultados. Cuba 1960 y 2011 con documentos primarios y ámbito histórico, investigación cualitativa acotada; descripciónSEO 157 corregida públicamente. España cinco días de requerimiento no duración total, datos regionales/históricos delimitados y sin causalidad de oferta inventada. Ejidos no todo pueblo indígena; certificación distinta de dominio pleno y 28%relativo migración, no 28 puntos. Fuentes y límites por ID.
+
+160–162/E1.5.10–12 preparados con briefs, etiquetas, preguntas,0/3imágenes cada uno, sin texto final ni publicación. Autorización/automatización activas; ningún agotamiento de herramientas comunicado.

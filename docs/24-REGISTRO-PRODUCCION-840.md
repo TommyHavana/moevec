@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-29T05:49:04+00:00.
+Comprobado en WordPress: 2026-10-29T06:26:26+00:00.
 
-**153/840 terminadas · 0 en curso · 687 pendientes.**
+**159/840 terminadas · 0 en curso · 681 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -165,12 +165,12 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 151 | 11/56 · 1/15 | E1.5.01 | Qué es la propiedad privada y por qué es la base de la prosperidad | terminada | 3/3 | [Leer](https://moevec.org/blog/que-es-la-propiedad-privada/) |
 | 152 | 11/56 · 2/15 | E1.5.02 | Capital muerto: por qué millones de pobres tienen activos que no pueden usar | terminada | 3/3 | [Leer](https://moevec.org/blog/capital-muerto-de-soto/) |
 | 153 | 11/56 · 3/15 | E1.5.03 | Propiedad y medio ambiente: quién cuida lo que no es de nadie | terminada | 3/3 | [Leer](https://moevec.org/blog/propiedad-y-medio-ambiente/) |
-| 154 | 11/56 · 4/15 | E1.5.04 | Propiedad intelectual: el debate dentro del liberalismo | pendiente | 0/3 | — |
-| 155 | 11/56 · 5/15 | E1.5.05 | Tu cuerpo, tu trabajo, tu tiempo: la propiedad de uno mismo | pendiente | 0/3 | — |
-| 156 | 11/56 · 6/15 | E1.5.06 | Propiedad y crédito: cómo una casa puede convertirse en un negocio | pendiente | 0/3 | — |
-| 157 | 11/56 · 7/15 | E1.5.07 | La vivienda en Cuba: de la Ley de Reforma Urbana a la compraventa de 2011 | pendiente | 0/3 | — |
-| 158 | 11/56 · 8/15 | E1.5.08 | Okupación y seguridad jurídica de la propiedad: el debate en España | pendiente | 0/3 | — |
-| 159 | 11/56 · 9/15 | E1.5.09 | Propiedad comunal indígena y titulación individual: un debate abierto | pendiente | 0/3 | — |
+| 154 | 11/56 · 4/15 | E1.5.04 | Propiedad intelectual: el debate dentro del liberalismo | terminada | 3/3 | [Leer](https://moevec.org/blog/propiedad-intelectual-debate-liberal/) |
+| 155 | 11/56 · 5/15 | E1.5.05 | Tu cuerpo, tu trabajo, tu tiempo: la propiedad de uno mismo | terminada | 3/3 | [Leer](https://moevec.org/blog/propiedad-de-uno-mismo/) |
+| 156 | 11/56 · 6/15 | E1.5.06 | Propiedad y crédito: cómo una casa puede convertirse en un negocio | terminada | 3/3 | [Leer](https://moevec.org/blog/propiedad-y-credito-hipoteca-negocio/) |
+| 157 | 11/56 · 7/15 | E1.5.07 | La vivienda en Cuba: de la Ley de Reforma Urbana a la compraventa de 2011 | terminada | 3/3 | [Leer](https://moevec.org/blog/vivienda-cuba-reforma-urbana-compraventa/) |
+| 158 | 11/56 · 8/15 | E1.5.08 | Okupación y seguridad jurídica de la propiedad: el debate en España | terminada | 3/3 | [Leer](https://moevec.org/blog/okupacion-seguridad-juridica-espana/) |
+| 159 | 11/56 · 9/15 | E1.5.09 | Propiedad comunal indígena y titulación individual: un debate abierto | terminada | 3/3 | [Leer](https://moevec.org/blog/propiedad-comunal-indigena/) |
 | 160 | 11/56 · 10/15 | E1.5.10 | La propiedad del dinero: inflación como impuesto silencioso | pendiente | 0/3 | — |
 | 161 | 11/56 · 11/15 | E1.5.11 | Qué protege mejor tu propiedad: un ranking explicado | pendiente | 0/3 | — |
 | 162 | 11/56 · 12/15 | E1.5.12 | Remesas y propiedad: cómo convertir ayuda familiar en patrimonio | pendiente | 0/3 | — |

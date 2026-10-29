@@ -1,38 +1,36 @@
-# Estado de MEE y continuidad ·29/10/2026 ·Europe/Madrid
+# Estado de MEE y continuidad · 29/10/2026 · Europe/Madrid
 
-## Estado actual:153/840 publicadas y verificadas
+## Estado actual: 159/840 publicadas y verificadas
 
-WordPress confirma **153 terminadas, 459 imágenes originales públicas, 0 en curso/borradores y 687 pendientes**. Diez tandas completas. Propiedad Privada y Expropiación15/15; Propiedad Privada3/15, tanda11/56.
+WordPress confirma **159 terminadas, 477 imágenes originales públicas, 0 en curso/borradores y 681 pendientes**. Diez tandas completas. Propiedad Privada 9/15, tanda 11/56; Propiedad Privada y Expropiación está completa, 15/15.
 
 Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Dos bloques consecutivos: **148–150/E7.3.13–15 y 151–153/E1.5.01–03**. Seis artículos y 18 WebP originales. Expedientes por ID con texto, fuentes, alcance de lectura, revisión, prompts, imágenes y evidencias. Informes y respaldos en docs/produccion/.
+Dos bloques consecutivos: **154–156 / E1.5.04–06 y 157–159 / E1.5.07–09**. Seis artículos, 18 WebP originales, expedientes con texto, fuentes, alcance de lectura, revisión, prompts, imágenes y evidencias. Informes y respaldos en docs/produccion/.
 
-Una publicación y tres adjuntos por ID; categorías y etiquetas exactas. Jerarquía/BreadcrumbList: Blog → Política y Economía → Propiedad Privada y Expropiación para 148–150; Blog → Educación y Valores → Propiedad Privada para 151–153. Editorial es firma, no categoría. 122 nodos, siete raíces, sin Editorial ni Uncategorized; taxonomía intacta.
+Una publicación y tres adjuntos por ID. Área, subcategoría y etiquetas exactas del manifiesto. Jerarquía visible y BreadcrumbList: Blog → Educación y Valores → Propiedad Privada. Editorial es firma, no categoría. Taxonomía intacta: 122 nodos y siete raíces, sin Editorial ni Uncategorized.
 
-HTTP 200, H 1, canonical, indexabilidad, Article, índice, sitemap, enlaces internos, originales y variantes con dimensiones, alt y hashes comprobados. Registro MD/CSV/JSON desde WordPress tras cada publicación. No prueba indexación efectiva ni posicionamiento.
+HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces internos, originales y variantes con dimensiones, alt y hashes comprobados. Descripción SEO 157 corregida y comprobada públicamente. Registros MD/CSV/JSON desde WordPress tras cada publicación. No prueba indexación efectiva ni posicionamiento.
 
 ## Decisiones de revisión
 
-- 148: acceso al efectivo 2001, conversión de depósitos 2002 y reforma previsional 2008 diferenciados. Ley 26. 425 reconoce servicios/prestaciones y preserva tratamiento particular de rentas vitalicias; garantía normativa no prueba de cumplimiento universal. FGS: solo extracto primario indexado de cartera a diciembre 2025; PDF 403 y alcance identificados. 149: Convenio/consentimiento/tratado separados. Estadísticas CIADI 2026-2 con corte30/06/2026: nuevos, acumulados y administrados no son el mismo universo; gráfico 11 inspeccionado, máximos del ejercicio no ranking histórico. Bolivia/Ecuador/Venezuela: fechas de denuncia y efectos; Ecuador retornó 2021. CETA anexo 8 A es ejemplo de redacción, sin disponibilidad arbitral automática. 150: nota simple/certificación españolas y CTL colombiano diferenciados; seguro dentro de cobertura, sin inmunidad frente a expropiación ni plazo universal de recurso.
+- 154: patentes y autor diferenciados; OMPI para descripción legal, Kinsella para crítica normativa. Boldrin/Levine solo presentación y extracto primario farmacéutico, no libro íntegro ni costes actuales derivados de cifras históricas. Moser documento 2003: exposiciones1851/1876, nivel y dirección de innovación, sin extrapolación universal. 155: Locke con condiciones; Nozick original escaneado en reproducción universitaria, páginas 150–151 y 168–169 leídas visualmente. Analogía filosófica sobre ingresos no definición OIT. Cohen extractos primarios de capítulos 3 y 10; desigualdad y suerte de nacimiento sin caricatura. Pacto art 12 solo extracto primario por falloTLS, sin país actual inventado. 156: Findex 2025, encuestas 2024;24%adultos ingresos bajos/medios y crédito formal, no hipotecas, rechazos o causalidad del registro. B-READY 2026 es descripción de cuestionarios, no ranking de resultados; Banco de España separa tasación y capacidad de pago.
 
-- 151: Locke en modernización inglesa con condiciones de apropiación; Hardin original escaneado en reproducción universitaria, página 1244 leída visualmente. Ostrom: gestión comunal distinta de acceso abierto; Proudhon y Marx/Engels presentados con sus distinciones. Prosperidad no garantizada por cualquier distribución o título. 152: De Soto y simulación industrial de1983/Ate/289días/11requisitos, no inscripción de casa ni plazo vigente. Field 2007 solo resumen primario; Galiani/Schargrodsky2010: inversión/educación y crédito hipotecario modesto, no expansión general del crédito. 153: cuotas de extracción no propiedad del océano ni capturas ilimitadas. MPI: extracto primario indexado por 403 y HTML sin cuerpo útil. Islandia fuente administrativa. Costello 2008: resumen primario, 11135 pesquerías 1950–2003; sin estado mundial 2026 ni éxito universal. Ostrom y externalidades diferenciados.
-
-## Corrección del orden
-
-La nota de cierre anterior situaba por error Inversión y Capital en 151–153. Se corrigió al cotejar el manifiesto antes de producir esas imágenes o publicaciones. **151–165 son Propiedad Privada/E1.5.01–15; Inversión y Capital es 241–255**. No se alteró el plan ni la taxonomía. Los artículos se producen en el orden global original.
+- 157: Reforma Urbana 1960 en reproducción UNAM, páginas 397–399 escaneadas y leídas visualmente; otra fuente solo página 8 no ley completa. DL288/2011 con sujetos, permutas, compraventa y límites históricos, no lista de trámites 2026. Wijburg/Aalbers/Bono publicación inicial2020/volumen2021: resumen institucional y extractos primarios, entrevistas 2018–2019 y mercado activo habanero, no encuesta nacional ni precios actuales. Descripción SEO 157 corregida y comprobada públicamente. 158: CP202/245,LEC250/441 y Circular1/2025 diferenciados;245.2 delito leve. Cinco días no duración total. Datos de Murcia 1 T 2025 y respuestaInterior 2023 identificados; CGPJ nacional bucle, sin cifra comercial presentada como original. Sin efecto causal nacional sobre alquiler ni convalidaciónRDL 29 no comprobados. 159: ejido no equivale a todo pueblo indígena; certificación y dominio pleno con artículos 74 y 81–83, sin salida o venta unilateral automática. Estudio 2015, implementación 1993–2006, 28%relativo de migración no 28 puntos ni bienestar universal. Ostrom sin receta universal.
 
 ## Continuación exacta
 
-**154–156/E1.5.04–06**: propiedad intelectual, autopropiedad, propiedad y crédito. Briefs, etiquetas, preguntas guardados. **0/3 imágenes cada una, sin texto final ni publicación**; tres preparaciones incluidas en 687 pendientes, 684 sin iniciar. Después 157–159/E1.5.07–09.
+**160–162 / E1.5.10–12**: inflación y propiedad del dinero; ranking de protección; remesas y patrimonio. Briefs, etiquetas y preguntas guardados. **0/3 imágenes cada una, sin texto final ni publicación**; tres preparaciones incluidas en las 681 pendientes, 678 sin iniciar. Después 163–165 / E1.5.13–15.
 
-154: Kinsella/Boldrin-Levine/OMPI con pasajes primarios; separar tesis normativa de evidencia sobre innovación. 155: Locke/Nozick/Cohen y OIT; filosofía distinta de estatus jurídico absoluto del cuerpo; casos de restricciones con fecha y ámbito. 156: última edición Findex y B-READY con indicador/país/año; registro distinto de crédito, capacidad de pago y conveniencia de comprometer vivienda.
+160: Mariana con pasaje primario y contexto de vellón; metáfora de impuesto distinta de cualquier subida de precios. FMI con edición, año, estimación y cambios monetarios separados.161: edición IPRI más reciente y tabla primaria reproducible, metodología y sesgos; Fraser y WGI no intercambiables.162: remesas Banco Mundial/KNOMAD con periodo y revisión, estudio BID/CEMLA de usos con muestra; consumo necesario no despilfarro, activos sin rentabilidad garantizada y acuerdos voluntarios.
+
+El orden del manifiesto prevalece: Propiedad Privada ocupa 151–165; Inversión y Capital empieza en 241. La confusión de la nota histórica se corrigió antes de publicar 151–153. No modificar el plan.
 
 ## Copias y límites
 
-Respaldos VPS hasta 150 y 153: cada uno con SQL completo y 66 medios nuevos, hashes y miembros comprobados. Restaurar base 27 entradas 20261028 y toda la cadena de superposiciones; importar el SQL más reciente al final. Sin nueva prueba de arranque de restauración completa. Copia local y fuente privada en production-state. json e informes de respaldo.
+Respaldos VPS hasta 156 y 159: SQL completo y 66 medios nuevos por bloque, hashes y miembros comprobados. Restaurar base de 27 entradas 20261028 y toda la cadena de superposiciones; importar el SQL más reciente al final. Sin nueva prueba de arranque de restauración completa. Copia local y fuente privada en editorial/production-state.json e informes de respaldo.
 
 Original Civismo 2026 mayor de 100 MiB conservado aparte en mee-backups/research-originals; ubicación y SHA en E7.2.04/sources/original-source-location.json. No reincorporar a Git.
 
@@ -40,11 +38,11 @@ No se ha comunicado agotamiento de imágenes ni bloqueo que requiera intervenci�
 
 ## Autorización y traspaso
 
-PETICIÓN ACTIVA: producción continua hasta 840, sin confirmaciones entre bloques. TERMINADO: 148–153, 18 imágenes, verificación, registros, respaldos. PENDIENTE: 687 entradas desde 154. DECISIONES NUEVAS: corrección del punto de continuación y límites de fuentes, sin cambio de arquitectura. PROPUESTAS SIN APROBAR: ninguna nueva. BLOQUEO REAL: ninguno que requiera al fundador. AUDITORÍA: integral encargada28/10/2026, documentada en 22; esta ejecución editorial.
+PETICIÓN ACTIVA: producción continua hasta 840, sin confirmaciones entre bloques. TERMINADO:154–159, 18 imágenes, verificación, registros y respaldos. PENDIENTE:681 entradas desde 160. DECISIONES NUEVAS: precisión y límites anteriores, sin cambio de requisitos o arquitectura. PROPUESTAS SIN APROBAR: ninguna nueva. BLOQUEO REAL: ninguno que requiera al fundador. AUDITORÍA: integral encargada28/10/2026 y documentada en 22; esta ejecución es editorial.
 
-SIGUIENTE PASO: consultar WordPress y reanudar 154–156 sin duplicar artículos ni medios. ARCHIVOS: AGENTS. md, docs/26-PRODUCCION-CONTINUA.md, estado 15, backlog 16, registro 24, editorial/production-state.json, manifiesto y briefs originales. Fuente privada sin secretos. No hace falta otro chat ni automatización.
+SIGUIENTE PASO: consultar WordPress y reanudar 160–162 sin duplicar artículos o medios. ARCHIVOS: AGENTS.md, docs/26-PRODUCCION-CONTINUA.md, estado 15, backlog 16, registro 24, editorial/production-state.json, manifiesto y briefs originales. Fuente privada sin secretos. No hace falta otro chat ni automatización.
 
-Sin cambios de DNS, correo, autenticación, tema o taxonomía, ni despliegue React por contenido.
+Sin cambios de DNS, correo, autenticación, tema o taxonomía; sin despliegue React por contenido.
 
 ## Historial anterior — no describe el estado actual
 
