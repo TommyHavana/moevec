@@ -1,28 +1,28 @@
-# Estado de MEE y continuidad · 29/10/2026 · Europe/Madrid
+# Estado de MEE y continuidad · 30/10/2026 · Europe/Madrid
 
 ## Estado actual
 
-**300/840 terminadas, 900 imágenes originales públicas, 0 en curso o borradores WordPress y 540 pendientes**. Libertad de Expresión Económica 15/15; 20 tandas completas y tanda 20 completa.
+**309/840 terminadas, 927 imágenes originales públicas, 0 en curso o borradores WordPress y 531 pendientes**. Definición de Economía Compartida 9/15; 20 tandas completas y tanda 21 en curso.
 
 Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Desde 294: entradas 295–300, 18 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
+Desde 300: entradas 301–309, 27 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
 
-Una publicación y tres adjuntos por ID; categorías Política y Economía y Libertad de Expresión Económica, etiquetas exactas. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales y variantes comprobados. Navegación y BreadcrumbList: Blog → área → subcategoría. Taxonomía: 122 nodos, siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva o posicionamiento.
+Una publicación y tres adjuntos por ID; categorías Economía Compartida y Definición de Economía Compartida, etiquetas exactas. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales y variantes comprobados. Navegación y BreadcrumbList: Blog → área → subcategoría. Taxonomía: 122 nodos, siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva o posicionamiento.
 
 ## Revisión del último bloque
 
-298: caso Hong Hao2022 contrastado con CNA ySCMP originales, sin atribuir causa individual no probada; normas CAC2021/2023 ymarketing financiero2026 con ámbitos separados. 299: EFF/Tor explican capacidades distintas ylímites, sin anonimato o legalidad universal; FreedomHouse2026 no es dictamen porpaís. 300: CNMV25may2026/ESMA distinguen recomendaciónpública yasesoramientoindividual; transparencia y corrección como prácticas propuestas sin garantía jurídica.
+307: Benkler2004 y ficha Sundararajan2016; capacidad no equivale a demanda o beneficio, Agenda2016 orientativa sin permisos universales. 308: Akerlof1970 y Resnick/Zeckhauser2002 con datos1999, versión de trabajo separada, asociación predictiva sin causalidad o garantía2026. 309: ACI1995, Mondragón2013/2025 y textos normativos Cuba2024/Venezuela2001; asociación voluntaria formal diferenciada de práctica, no cooperativas nacionales universalmente impuestas.
 
 ## Continuación exacta
 
-Siguiente **301–303 / E6.1.01–E6.1.03**, Economía Compartida → Definición de Economía Compartida. Preparaciones incluidas en las 540 pendientes. E6.1.01: 3/3 imágenes locales; sin texto final, sin publicación; E6.1.02: 3/3 imágenes locales; sin texto final, sin publicación; E6.1.03: 3/3 imágenes locales; sin texto final, sin publicación. Después 304–306. Automatización activa, sin agotamiento comunicado.
+Siguiente **310–312 / E6.1.10–E6.1.12**, Economía Compartida → Definición de Economía Compartida. Preparaciones incluidas en las 531 pendientes. E6.1.10: 3/3 imágenes locales; sin texto final, sin publicación; E6.1.11: 3/3 imágenes locales; sin texto final, sin publicación; E6.1.12: 3/3 imágenes locales; sin texto final, sin publicación. Después 313–315. Automatización activa, sin agotamiento comunicado.
 
 ## Copias y límites
 
-Respaldo VPS hasta 300: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
+Respaldo VPS hasta 309: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
 
 ## Traspaso
 
@@ -43,6 +43,9 @@ Verificación: `npm run build` con sincronización y TypeScript correctos; PHP l
 Publicación: fuente privada sincronizada y subida, commit de producto `1d84a45`. Actualización de la exportación estática en el contenedor Nginx activo y de los dos archivos WordPress, tanto en la ruta operativa como en `/opt/mee/`. No se reconstruyeron imágenes Docker ni se reiniciaron servicios; un siguiente build del repositorio incluye los cambios. Respaldo previo local completo: `../mee-backups/MEE_Codex_2026-10-29_183813.zip` (7657 archivos, integridad comprobada). Copia previa de React y de los archivos WordPress en `/data/mee-backups/apoyo-20261029T184226/`, gzip comprobado. No se ha probado una restauración arrancada de esta copia.
 
 Siguiente paso de esta petición: concretar el medio de donación y sus datos oficiales para activar pago directo. La producción editorial mantiene su continuidad independiente; esta tarea no modifica sus conteos, artículos, imágenes ni taxonomía.
+
+
+
 
 
 

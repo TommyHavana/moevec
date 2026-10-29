@@ -1,22 +1,10 @@
-# Preparación · E6.1.03
+# Revisión final · E6.1.03
 
-Sin texto final ni publicación. No cuenta como terminada.
-
-## Investigación inicial
-
-- F-026: János Kornai, The Socialist System1992 y Economics of Shortage1980.
-- F-203: Cuba, Ley de Reforma Agraria1959 yLeyes851/890de1960; cotejar textos originales.
-- Library of Congress, exposición de archivos soviéticos, sección de colectivización recuperada; falta estudiar documentos asociados.
-- Conquest1986: no obra íntegra leída.
-
-## Pendiente
-
-- Consultar documentos primarios de colectivización soviética y normativa agraria cubana, con fechas/alcance.
-- Evitar tesis universal causal a partir de casos concretos, y no confundir toda propiedad común con imposición.
-- Argumento contrario sobre presiones sociales y salida costosa con ejemplos identificados.
-
-Imágenes originales en preparación; estado exacto en assets.json y metadata-draft.json.
-
-## Imágenes preparadas
-
-3/3 originales de image_gen, inspeccionados individualmente y en mosaico final. Portada1200×630, dosinteriores1600×900, WebPmenoresde250000bytes, alt/piesyhashesdistintos. Prompts y rutas de generación conservados. Sin texto final ni publicación; no cuenta como terminada.
+- Título, slug, número y etiquetas originales conservados.
+- Fuentes y alcance en source-review.json; versiones, limitaciones y problemas de acceso identificados. No lectura íntegra de libros fingida.
+- Apertura de 40–60 palabras, ficha de nueve campos, dos ejemplos hipotéticos, argumento contrario, lectura MEE, tres FAQ de 40–70 palabras y cinco enlaces internos existentes.
+- Título SEO de 50–60 caracteres, descripción de 140–155; foco en apertura, H2, entradilla, descripción y alt de portada.
+- Tres originales con image_gen integrado: 1200×630 y dos 1600×900; WebP menores de 250.000 bytes. Inspección individual y mosaico, hashes distintos.
+- HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales y variantes con dimensiones, alt y hashes comprobados.
+- Blog → Economía Compartida → Definición de Economía Compartida; ambas categorías y etiquetas, una publicación y tres adjuntos por ID. Taxonomía de 122 nodos y siete raíces; Editorial es firma, no categoría.
+- Publicada y comprobada: https://moevec.org/blog/compartir-no-es-colectivizar/. No acredita indexación efectiva ni posicionamiento.

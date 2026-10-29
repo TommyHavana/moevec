@@ -1,22 +1,10 @@
-# Preparación · E6.1.01
+# Revisión final · E6.1.01
 
-Sin texto final ni publicación. No cuenta como terminada.
-
-## Investigación inicial
-
-- F-005: Adam Smith, La riqueza de las naciones,1776.
-- F-034: Elinor Ostrom, El gobierno de los bienes comunes,1990.
-- Definición de MEE: propuesta normativa del brief; no atribuirla como definición académica universal.
-- Botsman y Rogers,2010: falta recuperar material primario pertinente; acceso inicial308 registrado.
-
-## Pendiente
-
-- Leer fuente original de MEE y pasajes pertinentes de Smith/Ostrom.
-- Distinguir propiedad, consentimiento, acuerdo y salida con sus costes reales.
-- Redactar y revisar; no afirmar lectura completa de libros no recuperados.
-
-Imágenes originales en preparación; estado exacto en assets.json y metadata-draft.json.
-
-## Imágenes preparadas
-
-3/3 originales de image_gen, inspeccionados individualmente y en mosaico final. Portada1200×630, dosinteriores1600×900, WebPmenoresde250000bytes, alt/piesyhashesdistintos. Prompts y rutas de generación conservados. Sin texto final ni publicación; no cuenta como terminada.
+- Título, slug, número y etiquetas originales conservados.
+- Fuentes y alcance en source-review.json; versiones, limitaciones y problemas de acceso identificados. No lectura íntegra de libros fingida.
+- Apertura de 40–60 palabras, ficha de nueve campos, dos ejemplos hipotéticos, argumento contrario, lectura MEE, tres FAQ de 40–70 palabras y cinco enlaces internos existentes.
+- Título SEO de 50–60 caracteres, descripción de 140–155; foco en apertura, H2, entradilla, descripción y alt de portada.
+- Tres originales con image_gen integrado: 1200×630 y dos 1600×900; WebP menores de 250.000 bytes. Inspección individual y mosaico, hashes distintos.
+- HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales y variantes con dimensiones, alt y hashes comprobados.
+- Blog → Economía Compartida → Definición de Economía Compartida; ambas categorías y etiquetas, una publicación y tres adjuntos por ID. Taxonomía de 122 nodos y siete raíces; Editorial es firma, no categoría.
+- Publicada y comprobada: https://moevec.org/blog/que-es-economia-compartida-mee/. No acredita indexación efectiva ni posicionamiento.

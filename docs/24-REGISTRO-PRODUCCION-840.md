@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-29T22:54:28+00:00.
+Comprobado en WordPress: 2026-10-29T23:36:56+00:00.
 
-**300/840 terminadas · 0 en curso · 540 pendientes.**
+**309/840 terminadas · 0 en curso · 531 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -312,15 +312,15 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 298 | 20/56 · 13/15 | E7.7.13 | China: comentaristas financieros y límites al pesimismo | terminada | 3/3 | [Leer](https://moevec.org/blog/china-comentaristas-financieros/) |
 | 299 | 20/56 · 14/15 | E7.7.14 | Proteger tu derecho a informarte: herramientas y límites legales | terminada | 3/3 | [Leer](https://moevec.org/blog/proteger-derecho-a-informarte/) |
 | 300 | 20/56 · 15/15 | E7.7.15 | Guía para crear contenido económico sin problemas legales | terminada | 3/3 | [Leer](https://moevec.org/blog/guia-contenido-economico-legal/) |
-| 301 | 21/56 · 1/15 | E6.1.01 | Qué es la economía compartida según MEE | pendiente | 0/3 | — |
-| 302 | 21/56 · 2/15 | E6.1.02 | Economía compartida, colaborativa y de plataformas: diferencias | pendiente | 0/3 | — |
-| 303 | 21/56 · 3/15 | E6.1.03 | Compartir no es colectivizar: la línea roja | pendiente | 0/3 | — |
-| 304 | 21/56 · 4/15 | E6.1.04 | Por qué existen las empresas: Coase y los costes de transacción | pendiente | 0/3 | — |
-| 305 | 21/56 · 5/15 | E6.1.05 | Ostrom y los bienes comunes gestionados sin Estado ni colectivización | pendiente | 0/3 | — |
-| 306 | 21/56 · 6/15 | E6.1.06 | El derecho de salida: la cláusula más importante de cualquier red | pendiente | 0/3 | — |
-| 307 | 21/56 · 7/15 | E6.1.07 | Activos ociosos: el valor que tienes guardado sin saberlo | pendiente | 0/3 | — |
-| 308 | 21/56 · 8/15 | E6.1.08 | Reputación: la moneda de la economía compartida | pendiente | 0/3 | — |
-| 309 | 21/56 · 9/15 | E6.1.09 | Cooperativas y economía compartida: compatibles si son voluntarias | pendiente | 0/3 | — |
+| 301 | 21/56 · 1/15 | E6.1.01 | Qué es la economía compartida según MEE | terminada | 3/3 | [Leer](https://moevec.org/blog/que-es-economia-compartida-mee/) |
+| 302 | 21/56 · 2/15 | E6.1.02 | Economía compartida, colaborativa y de plataformas: diferencias | terminada | 3/3 | [Leer](https://moevec.org/blog/compartida-colaborativa-plataformas/) |
+| 303 | 21/56 · 3/15 | E6.1.03 | Compartir no es colectivizar: la línea roja | terminada | 3/3 | [Leer](https://moevec.org/blog/compartir-no-es-colectivizar/) |
+| 304 | 21/56 · 4/15 | E6.1.04 | Por qué existen las empresas: Coase y los costes de transacción | terminada | 3/3 | [Leer](https://moevec.org/blog/coase-costes-de-transaccion/) |
+| 305 | 21/56 · 5/15 | E6.1.05 | Ostrom y los bienes comunes gestionados sin Estado ni colectivización | terminada | 3/3 | [Leer](https://moevec.org/blog/ostrom-bienes-comunes/) |
+| 306 | 21/56 · 6/15 | E6.1.06 | El derecho de salida: la cláusula más importante de cualquier red | terminada | 3/3 | [Leer](https://moevec.org/blog/derecho-de-salida-red/) |
+| 307 | 21/56 · 7/15 | E6.1.07 | Activos ociosos: el valor que tienes guardado sin saberlo | terminada | 3/3 | [Leer](https://moevec.org/blog/activos-ociosos/) |
+| 308 | 21/56 · 8/15 | E6.1.08 | Reputación: la moneda de la economía compartida | terminada | 3/3 | [Leer](https://moevec.org/blog/reputacion-moneda-economia-compartida/) |
+| 309 | 21/56 · 9/15 | E6.1.09 | Cooperativas y economía compartida: compatibles si son voluntarias | terminada | 3/3 | [Leer](https://moevec.org/blog/cooperativas-compatibles-voluntarias/) |
 | 310 | 21/56 · 10/15 | E6.1.10 | Código abierto: compartir conocimiento y aun así ganar dinero | pendiente | 0/3 | — |
 | 311 | 21/56 · 11/15 | E6.1.11 | Mapa de tu red: con quién ya compartes sin saberlo | pendiente | 0/3 | — |
 | 312 | 21/56 · 12/15 | E6.1.12 | Plataformas digitales para pequeños negocios: cómo usarlas sin depender de ellas | pendiente | 0/3 | — |

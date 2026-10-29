@@ -683,3 +683,33 @@ Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobad
 Siguiente **301–303 / E6.1.01–E6.1.03**, Economía Compartida → Definición de Economía Compartida. Preparaciones incluidas en las 540 pendientes. E6.1.01: 3/3 imágenes locales; sin texto final, sin publicación; E6.1.02: 3/3 imágenes locales; sin texto final, sin publicación; E6.1.03: 3/3 imágenes locales; sin texto final, sin publicación. Después 304–306. Automatización activa, sin agotamiento comunicado.
 
 Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 301–303 · 30/10/2026
+
+303/840 terminadas, 909 imágenes originales públicas, 0 en curso o borradores WordPress y 537 pendientes.
+
+301: definición propia MEE distinta de consenso académico; Smith libroIcapI, Ostrom2009 y ficha Botsman/Rogers2010 con alcances. 302: testimonio original de Sundararajan2017 y Schor2014/2020, categorías e intermediación sin activosociososuniversales ni resultados actuales extrapolados. 303: acta y carta soviéticas1932 con contexto local, leyagraria1959arts1/2/17 distingue expropiación y modalidades de adjudicación; sin causalidad universal ni libros íntegros fingidos.
+
+Siguiente **304–306 / E6.1.04–E6.1.06**, Economía Compartida → Definición de Economía Compartida. Preparaciones incluidas en las 537 pendientes. E6.1.04: 3/3 imágenes locales; sin texto final, sin publicación; E6.1.05: 3/3 imágenes locales; sin texto final, sin publicación; E6.1.06: 3/3 imágenes locales; sin texto final, sin publicación. Después 307–309. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 304–306 · 30/10/2026
+
+306/840 terminadas, 918 imágenes originales públicas, 0 en curso o borradores WordPress y 534 pendientes.
+
+304: Coase1937 leído visualmente, Nobel1991 y Williamson2009; comparación de costes sin predicción sobre internet ni red siempre superior. 305: Hardin1968, Ostrom1990/2009, casos históricos Törbel y regadíos; autogobierno compatible con reconocimiento público, UNESCO desafío no leído. 306: Hirschman1970pp4–5/78–79 y extracto autorizado cap8; guía MEE diferenciada, sin salida inmediata o validez jurídica universal.
+
+Siguiente **307–309 / E6.1.07–E6.1.09**, Economía Compartida → Definición de Economía Compartida. Preparaciones incluidas en las 534 pendientes. E6.1.07: 3/3 imágenes locales; sin texto final, sin publicación; E6.1.08: 3/3 imágenes locales; sin texto final, sin publicación; E6.1.09: 3/3 imágenes locales; sin texto final, sin publicación. Después 310–312. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 307–309 · 30/10/2026
+
+309/840 terminadas, 927 imágenes originales públicas, 0 en curso o borradores WordPress y 531 pendientes.
+
+307: Benkler2004 y ficha Sundararajan2016; capacidad no equivale a demanda o beneficio, Agenda2016 orientativa sin permisos universales. 308: Akerlof1970 y Resnick/Zeckhauser2002 con datos1999, versión de trabajo separada, asociación predictiva sin causalidad o garantía2026. 309: ACI1995, Mondragón2013/2025 y textos normativos Cuba2024/Venezuela2001; asociación voluntaria formal diferenciada de práctica, no cooperativas nacionales universalmente impuestas.
+
+Siguiente **310–312 / E6.1.10–E6.1.12**, Economía Compartida → Definición de Economía Compartida. Preparaciones incluidas en las 531 pendientes. E6.1.10: 3/3 imágenes locales; sin texto final, sin publicación; E6.1.11: 3/3 imágenes locales; sin texto final, sin publicación; E6.1.12: 3/3 imágenes locales; sin texto final, sin publicación. Después 313–315. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
