@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-29T01:16:58+00:00.
+Comprobado en WordPress: 2026-10-29T02:23:50+00:00.
 
-**114/840 terminadas · 0 en curso · 726 pendientes.**
+**123/840 terminadas · 0 en curso · 717 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -126,15 +126,15 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 112 | 8/56 · 7/15 | E7.1.07 | Regímenes simplificados: monotributo, RESICO y Régimen Simple | terminada | 3/3 | [Leer](https://moevec.org/blog/regimenes-simplificados-latam/) |
 | 113 | 8/56 · 8/15 | E7.1.08 | Licencia exprés y declaración responsable en España | terminada | 3/3 | [Leer](https://moevec.org/blog/licencia-expres-declaracion-responsable/) |
 | 114 | 8/56 · 9/15 | E7.1.09 | El umbral de los 50 empleados: cuando crecer sale caro | terminada | 3/3 | [Leer](https://moevec.org/blog/umbral-50-empleados/) |
-| 115 | 8/56 · 10/15 | E7.1.10 | Licencias profesionales: protección o barrera | pendiente | 0/3 | — |
-| 116 | 8/56 · 11/15 | E7.1.11 | Ley Crea y Crece: sociedades con un euro de capital | pendiente | 0/3 | — |
-| 117 | 8/56 · 12/15 | E7.1.12 | Cuba: actividades no permitidas y trámites de las mipymes | pendiente | 0/3 | — |
-| 118 | 8/56 · 13/15 | E7.1.13 | Argentina: el DNU 70/2023 y la Ley Bases | pendiente | 0/3 | — |
-| 119 | 8/56 · 14/15 | E7.1.14 | Estonia: una empresa en línea desde cualquier lugar | pendiente | 0/3 | — |
-| 120 | 8/56 · 15/15 | E7.1.15 | Lista de comprobación: trámites para empezar en tu país | pendiente | 0/3 | — |
-| 121 | 9/56 · 1/15 | E7.2.01 | La curva de Laffer: qué dice y qué no dice | pendiente | 0/3 | — |
-| 122 | 9/56 · 2/15 | E7.2.02 | Progresividad y confiscación: dónde está el límite | pendiente | 0/3 | — |
-| 123 | 9/56 · 3/15 | E7.2.03 | La cuña fiscal: lo que cuesta tu salario y lo que recibes | pendiente | 0/3 | — |
+| 115 | 8/56 · 10/15 | E7.1.10 | Licencias profesionales: protección o barrera | terminada | 3/3 | [Leer](https://moevec.org/blog/licencias-profesionales-barrera/) |
+| 116 | 8/56 · 11/15 | E7.1.11 | Ley Crea y Crece: sociedades con un euro de capital | terminada | 3/3 | [Leer](https://moevec.org/blog/ley-crea-y-crece/) |
+| 117 | 8/56 · 12/15 | E7.1.12 | Cuba: actividades no permitidas y trámites de las mipymes | terminada | 3/3 | [Leer](https://moevec.org/blog/cuba-actividades-no-permitidas/) |
+| 118 | 8/56 · 13/15 | E7.1.13 | Argentina: el DNU 70/2023 y la Ley Bases | terminada | 3/3 | [Leer](https://moevec.org/blog/argentina-dnu-70-ley-bases/) |
+| 119 | 8/56 · 14/15 | E7.1.14 | Estonia: una empresa en línea desde cualquier lugar | terminada | 3/3 | [Leer](https://moevec.org/blog/estonia-e-residency/) |
+| 120 | 8/56 · 15/15 | E7.1.15 | Lista de comprobación: trámites para empezar en tu país | terminada | 3/3 | [Leer](https://moevec.org/blog/lista-comprobacion-tramites/) |
+| 121 | 9/56 · 1/15 | E7.2.01 | La curva de Laffer: qué dice y qué no dice | terminada | 3/3 | [Leer](https://moevec.org/blog/curva-de-laffer/) |
+| 122 | 9/56 · 2/15 | E7.2.02 | Progresividad y confiscación: dónde está el límite | terminada | 3/3 | [Leer](https://moevec.org/blog/progresividad-y-confiscacion/) |
+| 123 | 9/56 · 3/15 | E7.2.03 | La cuña fiscal: lo que cuesta tu salario y lo que recibes | terminada | 3/3 | [Leer](https://moevec.org/blog/cuna-fiscal-salario/) |
 | 124 | 9/56 · 4/15 | E7.2.04 | El día de la liberación fiscal | pendiente | 0/3 | — |
 | 125 | 9/56 · 5/15 | E7.2.05 | El impuesto de sucesiones en el mundo | pendiente | 0/3 | — |
 | 126 | 9/56 · 6/15 | E7.2.06 | Sucesiones en España: diecisiete impuestos distintos | pendiente | 0/3 | — |

@@ -183,3 +183,9 @@ Dos bloques consecutivos terminados sin solicitar confirmación:90/840 y270 imá
 114/840 completas, con 342 imágenes públicas;0 en curso/borradores WordPress y 726 pendientes. Tres bloques publicados y verificados, con categorías y etiquetas exactas. Regulación y Emprendimiento tiene 9/15 entradas de la tanda 8/56. Taxonomía de 122 nodos y 7 raíces, sin categoría Editorial y sin cambios de organización.
 
 115–117 están en preparación local, con 0/3 imágenes cada una; no cuentan como terminadas. Respaldos 106–108,109–111 y 112–114 verificados, sin una nueva restauración completa. La autorización continua y su automatización siguen vigentes. No hay nuevas aprobaciones, cambios de arquitectura ni agotamiento comunicado. Las revisiones por ID conservan los límites de evidencia; verificar especialmente la Gaceta actual antes de 117.
+
+## Producción 115–123 y continuación 124–126 · 29/10/2026
+
+123/840 completas y 369 imágenes públicas; 0 en curso/borradores WordPress y 717 pendientes. Regulación y Emprendimiento 15/15 e Impuestos y Redistribución 3/15. Taxonomía exacta, sin categorías añadidas. La entrada 120 incorpora una plantilla CSV orientativa pública, con contenido y hash comprobados; incluida en el respaldo 120. Respaldos de los tres bloques verificados, sin nueva prueba de arranque de restauración completa.
+
+124–126 preparadas localmente con briefs y notas, sin imágenes ni texto final. Autorización continua y automatización activas. Sin nuevas aprobaciones, cambios de arquitectura ni agotamiento de herramientas comunicado. Límites jurídicos y de lectura documentados por ID; no se certifica vigencia integral de todos los litigios argentinos ni lecturas completas de libros no realizadas.

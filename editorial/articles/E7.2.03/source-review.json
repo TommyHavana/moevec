@@ -1,0 +1,61 @@
+{
+  "checked_on": "2026-10-29",
+  "sources": [
+    {
+      "name": "OCDE, indicador Tax wedge",
+      "url": "https://www.oecd.org/en/data/indicators/tax-wedge.html",
+      "scope": "Definición primaria leída: cociente sobre coste laboral, perfil persona soltera salario100%medio sin hijos. No indicador como prueba causal de desempleo ni bienestar neto."
+    },
+    {
+      "name": "OCDE, Taxing Wages 2026, overview, tablas 1.1/1.2",
+      "url": "https://www.oecd.org/en/publications/taxing-wages-2026_3a5169ef-en/full-report/overview_d93131c3.html",
+      "scope": "Fuente primaria accesible en investigación; definición de componentes/media/marginal, tabla1.1datos2025:BE52.5,DE49.3,FR47.2,ES41.4,OCDE35.1. NotasNTCP y cobertura. HTMLdirecto403guardado; no datos de2026 como año de renta."
+    },
+    {
+      "name": "OCDE, Taxing Wages 2026:Spain, nota de país",
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/04/taxing-wages-2026-country-notes_491a0e97/spain_20d4847c/a9a524da-en.pdf",
+      "scope": "Fuente primaria PDF5p, pasajes perfil/single41.4/OCDE35.1 yserie2000–2025:38.6→41.4/2.8pp. Dos perfiles diferenciados. No imputación de toda la cuña a IRPF ni cálculo individual."
+    }
+  ],
+  "archived_files": [
+    {
+      "file": "sources/reading-scope.json",
+      "bytes": 2037,
+      "sha256": "28f685cd92f54bf803590c23cedcb180d34ba6ffb1a63f999cec5017e4cedc78"
+    },
+    {
+      "file": "sources/spain-note.html.error.json",
+      "bytes": 139,
+      "sha256": "3e322497b7964c2d69a9381f1fb74cfac00fb52c2a7226589af3a2da79f0c347"
+    },
+    {
+      "file": "sources/spain2026.error.txt",
+      "bytes": 25,
+      "sha256": "2fbdaaa36a31ec4853f2062504fc20ecfc24512cfe648271bc840f246a542911"
+    },
+    {
+      "file": "sources/taxing-wages2026.html.error.json",
+      "bytes": 151,
+      "sha256": "5c1a4a1174dd2ab6d92bc1299635a833a078b9bc3e40007a7657e840130d6183"
+    },
+    {
+      "file": "sources/web-primary-reading.json",
+      "bytes": 235185,
+      "sha256": "da794a3cd2eade9491bd9698943730fdb93720fa817acd4ebf7089be63c97994"
+    }
+  ],
+  "omitted_claims": [
+    "Año de edición2026 como año de ingresos del indicador.",
+    "41.4% como retención sobre bruto para toda nómina, 2.8puntos como2.8% relativo.",
+    "Cuña como pérdida social neta o prueba automática de despilfarro.",
+    "Cifras de hogares distintos comparadas sin perfiles; pagosNTCP ignorados como ausencia de obligaciones.",
+    "Ejercicio100/80/70 como caso real o asesoramiento tributario personal."
+  ],
+  "scope": "Lectura pertinente especificada; archivo completo no implica lectura íntegra. Problemas de acceso y fuentes compartidas identificados.",
+  "final_verification": {
+    "checked_at": "2026-10-29T02:26:41.119259+00:00",
+    "published_url": "https://moevec.org/blog/cuna-fiscal-salario/",
+    "public_checks": "verification.json",
+    "wordpress_registry_words": 1266
+  }
+}
