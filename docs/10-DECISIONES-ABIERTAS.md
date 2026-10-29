@@ -361,3 +361,13 @@ Sin cambios de alcance o arquitectura.
 Después: **211–213 / E5.5.01–03**, Capitalismo Consciente → Modelos Nórdicos, tanda 15/56. Ahorro y Frugalidad queda **12/15**, tanda 14/56 en curso; trece tandas completas. Orden original conservado; Inversión y Capital empieza en 241. Automatización y autorización activas, sin agotamiento de herramientas comunicado. Reanudar desde WordPress y expedientes, sin duplicar.
 
 Sin cambio de alcance, arquitectura o taxonomía. Respaldos proporcionales comprobados, sin nueva prueba de arranque de restauración.
+
+## Producción208–210 y continuación211–213 · 29/10/2026
+
+210/840 terminadas, 630 imágenes originales públicas, 0 en curso o borradores WordPress y 630 pendientes.
+
+208: FGD e IPAB por país, titular, entidad y cobertura; riesgo de mercado separado de no devolución. Chipre 25/03/2013 contrastado con Eurogrupo y CBC, sin confundir propuesta inicial. 209: prefacio ix–xv de Bhidé 2000 y resumen original 1992, no libro íntegro; Zoho autodescripción 2010/2017, sin estado actual o causalidad inventada. URL antiguas del autor e Intuit devolvieron HTML genérico: excluidas como evidencia. 210: plantilla HTML propia y versión imprimible local, cantidades/automatización adaptables; revisión trimestral propuesta MEE. E4.3.14 y E2.3.04 pendientes no enlazadas. Tres composiciones corregidas con image_gen; intentos descartados guardados localmente, solo nueve originales seleccionados publicados.
+
+211–213 / E5.5.01–03: Capitalismo Consciente → Modelos Nórdicos, tanda 15/56, entradas 1–3/15. Briefs y etiquetas exactos guardados; investigación inicial en curso, sin imágenes ni texto final todavía. Incluidas en las 630 pendientes. Después 214–216 / E5.5.04–06. Ahorro y Frugalidad 15/15; catorce tandas completas. Continuar durante esta ejecución sin pedir confirmación.
+
+Sin cambio de arquitectura o taxonomía.

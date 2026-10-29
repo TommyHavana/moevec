@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-29T12:09:41+00:00.
+Comprobado en WordPress: 2026-10-29T12:44:16+00:00.
 
-**207/840 terminadas · 0 en curso · 633 pendientes.**
+**210/840 terminadas · 0 en curso · 630 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -219,9 +219,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 205 | 14/56 · 10/15 | E5.8.10 | Ahorro y libertad: el colchón que te permite decir no | terminada | 3/3 | [Leer](https://moevec.org/blog/ahorro-y-libertad/) |
 | 206 | 14/56 · 11/15 | E5.8.11 | Reto de 30 días de frugalidad | terminada | 3/3 | [Leer](https://moevec.org/blog/reto-30-dias-frugalidad/) |
 | 207 | 14/56 · 12/15 | E5.8.12 | Frugalidad cubana: el ingenio de la escasez y sus límites | terminada | 3/3 | [Leer](https://moevec.org/blog/frugalidad-cubana-ingenio/) |
-| 208 | 14/56 · 13/15 | E5.8.13 | Dónde guardar el ahorro: guía básica de opciones | pendiente | 0/3 | — |
-| 209 | 14/56 · 14/15 | E5.8.14 | Frugalidad empresarial: crecer sin despilfarrar | pendiente | 0/3 | — |
-| 210 | 14/56 · 15/15 | E5.8.15 | Tu plan de ahorro personal en una página | pendiente | 0/3 | — |
+| 208 | 14/56 · 13/15 | E5.8.13 | Dónde guardar el ahorro: guía básica de opciones | terminada | 3/3 | [Leer](https://moevec.org/blog/donde-guardar-el-ahorro/) |
+| 209 | 14/56 · 14/15 | E5.8.14 | Frugalidad empresarial: crecer sin despilfarrar | terminada | 3/3 | [Leer](https://moevec.org/blog/frugalidad-empresarial/) |
+| 210 | 14/56 · 15/15 | E5.8.15 | Tu plan de ahorro personal en una página | terminada | 3/3 | [Leer](https://moevec.org/blog/plan-de-ahorro-una-pagina/) |
 | 211 | 15/56 · 1/15 | E5.5.01 | ¿Son socialistas los países nórdicos? Lo que dijo el primer ministro danés | pendiente | 0/3 | — |
 | 212 | 15/56 · 2/15 | E5.5.02 | Libertad económica en los países nórdicos: los datos | pendiente | 0/3 | — |
 | 213 | 15/56 · 3/15 | E5.5.03 | Antes del Estado de bienestar: cómo se enriqueció Suecia | pendiente | 0/3 | — |

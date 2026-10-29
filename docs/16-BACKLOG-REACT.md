@@ -1,6 +1,6 @@
 # Backlog de MEE
 
-Último estado: **207/840 terminadas, 621 imágenes originales públicas, 0 en curso o borradores WordPress y 633 pendientes**. Cuatro bloques consecutivos 196–207: doce artículos y 36 originales. 196–204 guardadas en a7f8e2a antes de continuar. Ahorro y Frugalidad 12/15; tanda 14/56 en curso, trece tandas completas. Categorías y etiquetas exactas, 122 nodos y siete raíces, sin Editorial. Siguiente 208–210 / E5.8.13–15: briefs y preguntas, 0/3 imágenes, sin texto final ni publicación; incluidas en 633 pendientes, 630 aún sin iniciar. Después 211–213, Modelos Nórdicos. Respaldos VPS 198/201/204/207 comprobados; copia local y fuente privada en estado. Automatización activa, sin despliegue React por contenido.
+Último estado: **210/840 terminadas, 630 imágenes originales públicas, 0 en curso o borradores WordPress y 630 pendientes**. 208–210 publicadas con nueve originales; Ahorro y Frugalidad15/15 y catorce tandas completas. Siguiente211–213 Modelos Nórdicos, investigación inicial sin texto final; imágenes en preparación. Después214–216. Categorías y etiquetas exactas,122nodos, siete raíces, sin Editorial. Respaldos VPS verificados; automatización activa, sin despliegue React por contenido.
 
 
 Historial anterior: producción comprobada tras el bloque 4–6: 6/840 terminadas. En elaboración local: 7–9 con nueve imágenes propias; todavía no cuentan como publicadas. Consultar siempre WordPress y el registro 24 para el estado más reciente.

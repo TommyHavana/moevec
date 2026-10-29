@@ -1,0 +1,35 @@
+{
+  "id": "E5.8.13",
+  "prompts": {
+    "featured": "Use case: stylized-concept. Original MEE editorial illustration. Premium crafted miniature, tactile paper, limestone and ceramic, cobalt blue, vermilion red and warm ivory palette. Refined directional light, subtle texture, controlled shadows. Wide landscape, essential objects within central safe crop. No text, numbers, labels, logos, watermark, flags or statistical chart. A broad low triangular ivory ceramic platform with three distinct small sculptural corner objects: a cobalt ripple bowl, a warm ivory closed cube and a vermilion polished sphere. Each corner lit with subtly different soft light, ample central safe crop, no arrows, mathematical diagram, equal return or perfect product claim.",
+    "interior-1": "Use case: stylized-concept. Original MEE editorial illustration. Premium crafted miniature, tactile paper, limestone and ceramic, cobalt blue, vermilion red and warm ivory palette. Refined directional light, subtle texture, controlled shadows. Wide landscape, essential objects within central safe crop. No text, numbers, labels, logos, watermark, flags or statistical chart. Three separate shallow ivory storage boxes arranged along a cobalt tabletop, one open, one with a removable vermilion lid beside it and one closed with a plain blue lid. A few abstract ceramic discs nearby, spacious central composition. No locks, money denomination, dates, guaranteed return or actual bank product.",
+    "interior-2": "Use case: stylized-concept. Original MEE editorial illustration. Premium crafted miniature, tactile paper, limestone and ceramic, cobalt blue, vermilion red and warm ivory palette. Refined directional light, subtle texture, controlled shadows. Wide landscape, essential objects within central safe crop. No text, numbers, labels, logos, watermark, flags or statistical chart. A modest cobalt ceramic shield standing beside a plain ivory account booklet with completely blank pages, a small vermilion disc beside it, warm limestone gallery setting with broad margins. No seal, logo, readable writing, certification or absolute protection imagery."
+  },
+  "sources": {
+    "featured": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-38e5986f-dd77-47fc-8e2f-0d78d9ad7fb3.png",
+    "interior-1": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-00011096-382e-4d3a-9e65-0a0924a68f6f.png",
+    "interior-2": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-63ab05db-f8cb-48c2-856e-1cd4b67553a0.png"
+  },
+  "tool": "builtin_image_gen",
+  "sources_are_conceptual": true,
+  "edits": [
+    {
+      "role": "featured",
+      "prompt": "Edit this original MEE editorial illustration. Keep the cobalt bowl, ivory cube, vermilion sphere, tactile material, palette and directional light. Change the four-corner platform into a clearly triangular platform with EXACTLY THREE corners and THREE straight sides, one object at each corner. Camera higher, nearly overhead, to show the whole triangular perimeter unambiguously. Spacious landscape framing: platform and objects fit within central 65 percent height with ample margins. No writing, numbers, labels, logos or chart.",
+      "referenced_image_paths": [
+        "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-4066543a-abef-4da0-986b-a7bc3b6685c0.png"
+      ],
+      "output": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-38e5986f-dd77-47fc-8e2f-0d78d9ad7fb3.png",
+      "reason": "Ajustar la geometría y el número de objetos al brief original."
+    },
+    {
+      "role": "interior-1",
+      "prompt": "Edit this original MEE illustration to show EXACTLY THREE distinct ivory storage boxes of different sizes on the cobalt table. A small open box at left, a medium open box in the middle with vermilion lid beside it, a larger closed box at right with cobalt lid. Remove the extra discs and bowls. Keep tactile paper/ceramic palette and warm directional light. Entire boxes and lids fit within central 70 percent height and 85 percent width, generous empty margins for a 16:9 crop. No text, numbers, logos, locks or financial promise.",
+      "referenced_image_paths": [
+        "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-ae934688-c1d6-4d5c-be19-3fb127bd2baf.png"
+      ],
+      "output": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-00011096-382e-4d3a-9e65-0a0924a68f6f.png",
+      "reason": "Ajustar la geometría y el número de objetos al brief original."
+    }
+  ]
+}

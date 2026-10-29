@@ -1,48 +1,28 @@
 # Estado de MEE y continuidad · 29/10/2026 · Europe/Madrid
 
-## Estado actual: 207/840 publicadas y verificadas
+## Estado actual
 
-WordPress confirma **207/840 terminadas, 621 imágenes originales públicas, 0 en curso o borradores WordPress y 633 pendientes**. Ahorro y Frugalidad **12/15**, tanda 14/56 en curso; trece tandas completas.
-
-Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
+210/840 terminadas, 630 imágenes originales públicas, 0 en curso o borradores WordPress y 630 pendientes. Ahorro y Frugalidad15/15; catorce tandas completas. Fuente activa: /Users/nerea/Documents/Proyectos/MEE/mee-web.
 
 ## Trabajo de esta ejecución
 
-Cuatro bloques consecutivos: **196–198 / E5.8.01–03, 199–201 / E5.8.04–06, 202–204 / E5.8.07–09 y 205–207 / E5.8.10–12**. Doce artículos y 36 originales públicos, con texto, fuentes, revisión, prompts y evidencias. Los tres primeros bloques se guardaron en a7f8e2a antes de continuar; informes y decisiones de revisión conservados en docs/produccion/.
+208–210 / E5.8.13–15 publicadas y verificadas: tres artículos y nueve originales seleccionados.
 
-Una publicación y tres adjuntos propios por ID; categorías Capitalismo Consciente y Ahorro y Frugalidad, etiquetas exactas del manifiesto, incluida pais-cuba en 207. Blog es contenedor y Editorial es firma, no categoría. Navegación y BreadcrumbList incluyen área y subcategoría. Taxonomía: 122 nodos y siete raíces, sin Editorial ni Uncategorized.
+Una publicación y tres adjuntos por ID; categorías Capitalismo Consciente y Ahorro y Frugalidad y etiquetas exactas. HTTP200, H1 único, canonical, indexabilidad, Article, índice, sitemap, enlaces internos, originales y variantes, alt y hashes comprobados. Navegación y BreadcrumbList muestran Blog, área y subcategoría. 122 nodos y siete raíces; Editorial es firma, no categoría. Sin acreditar indexación efectiva o posicionamiento.
 
-HTTP 200, H1 único, canonical, indexabilidad, Article, índice, sitemap, enlaces internos y tres originales/variantes con dimensiones, alt y hashes comprobados. No acredita indexación efectiva ni posicionamiento. MD/CSV/JSON regenerados desde WordPress después de cada publicación. Texto, fuentes, límites de lectura, revisión, prompts y tres WebP por ID. Portada 1200×630 e interiores 1600×900, menos de 250.000 bytes; revisión individual y mosaico.
-
-## Revisión del último bloque
-
-205: guía primaria de emergencia del CFPB y definición de bienestar financiero leídas por web; descargas 403 conservadas. Reserva, acceso, calendario y factores fuera del control individual. Relación con negociación laboral como argumento MEE, sin efecto causal estimado o salida de abuso garantizada. Ejemplo de 400 unidades y gastos 200 al mes: dos meses solo bajo exclusiones explícitas, sin meta universal. E1.1.02 publicada enlazada; E1.7.02, número 827, pendiente y sin enlace. 206: página primaria Your Money, Your Goals y dos páginas MEE existentes; no los 43 PDF completos ni programa experimental leído. Programa editorial propio con treinta acciones comprobadas (7+7+7+7+2), adaptable, sin hábito garantizado en un mes, privación o transferencia automática obligatoria. Dos casos hipotéticos sin ahorro inventado. 207: texto de Oroza sobre acumulación, reparación y contexto del Período Especial; caso del ventilador con base de teléfono, sin libro íntegro fingido o ley histórica tratada como vigente. Archivo Cargador criollo, publicado el 07/02/2026, identifica carcasa/chasis de licuadora y crédito de Diego Martínez, Pinar del Río, 2026. La leyenda menciona 2000: no se resuelve ni atribuye una fecha de construcción. Inicio y primeras notas de la pieza de transmisión del rikimbili, 12/07/2025, sin inspección técnica ni instrucciones. Transcripción oficial del 13/03/2026 publicada en Granma: postura de Díaz-Canel sobre soluciones populares, unidad y resistencia creativa; no explicación causal o cifras oficiales validadas como evidencia propia. Negocio de reparación como preguntas MEE, sin permisos, clientes, seguridad o rentabilidad garantizados. E1.6.09, número 369, pendiente y sin enlace. Portada del ventilador ampliada mediante edición nativa image_gen para conservar el objeto completo; prompt y referencia exactos guardados. Taller con encuadre norte para conservar las cabezas. Ilustraciones propias identificadas, sin presentarlas como piezas documentales de Oroza.
+208: FGD e IPAB por país, titular, entidad y cobertura; riesgo de mercado separado de no devolución. Chipre 25/03/2013 contrastado con Eurogrupo y CBC, sin confundir propuesta inicial. 209: prefacio ix–xv de Bhidé 2000 y resumen original 1992, no libro íntegro; Zoho autodescripción 2010/2017, sin estado actual o causalidad inventada. URL antiguas del autor e Intuit devolvieron HTML genérico: excluidas como evidencia. 210: plantilla HTML propia y versión imprimible local, cantidades/automatización adaptables; revisión trimestral propuesta MEE. E4.3.14 y E2.3.04 pendientes no enlazadas. Tres composiciones corregidas con image_gen; intentos descartados guardados localmente, solo nueve originales seleccionados publicados.
 
 ## Continuación exacta
 
-**208–210 / E5.8.13–15**, Capitalismo Consciente → Ahorro y Frugalidad, **tanda 14/56 · entradas 13–15/15**. Briefs originales, etiquetas y preguntas guardados: **0/3 imágenes por entrada, sin texto final ni publicación**. Son tres preparaciones incluidas en las 633 pendientes; 630 aún sin iniciar.
-
-- **208:** garantías de depósitos con fondos y supervisores primarios por país, fecha, ámbito, exclusiones y agregación de límites. No cobertura universal de 100.000 euros ni garantías de instrumentos que no estén incluidos. Liquidez, seguridad y rentabilidad con condiciones, sin recomendación de productos.
-- **209:** Bhidé 2000 solo según pasajes o resúmenes primarios efectivamente leídos. Casos de empresas con fuentes primarias y fechas; sesgo de supervivencia y coste de oportunidad. No crecimiento garantizado por recortar ni capital propio confundido con flujo de caja.
-- **210:** comprobar publicaciones E4.3.14 y E2.3.04 antes de enlazar; E1.2.06 existente. Plantilla clara de una página, porcentaje y automatización adaptables al margen, necesidades y liquidez. Revisión trimestral propuesta, con cambios antes si son necesarios, sin jubilación o suficiencia garantizadas.
-
-Después: **211–213 / E5.5.01–03**, Capitalismo Consciente → Modelos Nórdicos, tanda 15/56. Ahorro y Frugalidad queda **12/15**, tanda 14/56 en curso; trece tandas completas. Orden original conservado; Inversión y Capital empieza en 241. Automatización y autorización activas, sin agotamiento de herramientas comunicado. Reanudar desde WordPress y expedientes, sin duplicar.
+211–213 / E5.5.01–03: Capitalismo Consciente → Modelos Nórdicos, tanda 15/56, entradas 1–3/15. Briefs y etiquetas exactos guardados; investigación inicial en curso, imágenes en preparación y sin texto final. Incluidas en las 630 pendientes. Después 214–216 / E5.5.04–06. Ahorro y Frugalidad 15/15; catorce tandas completas. Continuar durante esta ejecución sin pedir confirmación.
 
 ## Copias y límites
 
-Respaldos VPS hasta 198, 201, 204 y 207: SQL completo y medios nuevos por bloque, hashes y miembros comprobados. Base de 27 entradas de 20261028 y cadena completa, SQL más reciente al final. Sin nueva prueba de arranque de restauración completa. Copia local y fuente privada referenciadas en estado e informe de respaldo.
-
-Original Civismo 2026 mayor de 100 MiB fuera de Git en mee-backups/research-originals; ubicación y SHA en E7.2.04/sources/original-source-location.json. Sin bloqueo que requiera al fundador y sin agotamiento de herramientas comunicado.
+Respaldo VPS hasta210 con66medios, SQL completo, hashes y miembros comprobados. Captura anticipada separada e identificada; usar copia canónica sin sufijo. Sin nueva prueba de arranque de restauración. Original Civismo2026 >100MiB fuera deGit; referencia y SHA conservados. No bloqueo que requiera al fundador, automatización activa.
 
 ## Traspaso
 
-PROYECTO: MEE. FECHA/ZONA: 29/10/2026, Europe/Madrid.
-
-PETICIÓN ACTIVA: producir 840 en bloques consecutivos sin confirmación. TERMINADO: 196–207, 36 originales y comprobación pública. EVIDENCIA: registros WordPress, verificación, organización, navegación y taxonomía. PENDIENTE: 633 desde 208. DECISIONES NUEVAS: precisión y límites anteriores; arquitectura sin cambios. PROPUESTAS SIN APROBAR: ninguna nueva. BLOQUEO REAL: ninguno que requiera al fundador. AUDITORÍA: integral encargada el 28/10/2026 y documentada en 22; esta ejecución es editorial.
-
-SIGUIENTE PASO: consultar WordPress y reanudar 208–210 sin duplicar. ARCHIVOS: AGENTS.md, docs/26-PRODUCCION-CONTINUA.md, estado 15, backlog 16, registro 24, editorial/production-state.json, manifiesto y briefs originales. Fuente privada sin secretos; mismo chat y automatización.
-
-No se modificaron DNS, correo, autenticación, tema o taxonomía; sin despliegue React por contenido.
+PETICIÓN: producción840continua. TERMINADO:208–210. SIGUIENTE:211–213 Modelos Nórdicos, investigación inicial, sin texto final; imágenes en preparación. Consultar WordPress y expedientes sin duplicar. Sin cambios de DNS/correo/autenticación/tema/taxonomía.
 
 ## Historial anterior — no describe el estado actual
 
