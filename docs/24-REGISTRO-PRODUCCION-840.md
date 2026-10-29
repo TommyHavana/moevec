@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-29T08:29:56+00:00.
+Comprobado en WordPress: 2026-10-29T09:07:24+00:00.
 
-**177/840 terminadas · 0 en curso · 663 pendientes.**
+**183/840 terminadas · 0 en curso · 657 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -189,12 +189,12 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 175 | 12/56 · 10/15 | E1.1.10 | El argumento de Hayek: por qué nadie sabe lo suficiente para decidir por todos | terminada | 3/3 | [Leer](https://moevec.org/blog/hayek-conocimiento-disperso/) |
 | 176 | 12/56 · 11/15 | E1.1.11 | Autonomía de los jóvenes cubanos y latinoamericanos: emigrar o emprender | terminada | 3/3 | [Leer](https://moevec.org/blog/autonomia-jovenes-emigrar-o-emprender/) |
 | 177 | 12/56 · 12/15 | E1.1.12 | Teletrabajo y plataformas: una vía real de autonomía para el talento latinoamericano | terminada | 3/3 | [Leer](https://moevec.org/blog/teletrabajo-plataformas-autonomia/) |
-| 178 | 12/56 · 13/15 | E1.1.13 | ¿Autonomía o rebeldía? Cómo decir no sin perder oportunidades | pendiente | 0/3 | — |
-| 179 | 12/56 · 14/15 | E1.1.14 | Las instituciones que amplían la autonomía: derecho, mercado y sociedad civil | pendiente | 0/3 | — |
-| 180 | 12/56 · 15/15 | E1.1.15 | Test: ¿cuánta autonomía tienes realmente? Diez preguntas para medirla | pendiente | 0/3 | — |
-| 181 | 13/56 · 1/15 | E1.2.01 | Responsabilidad personal: lo que depende de ti y lo que no | pendiente | 0/3 | — |
-| 182 | 13/56 · 2/15 | E1.2.02 | Por qué la responsabilidad es un valor económico (y no solo moral) | pendiente | 0/3 | — |
-| 183 | 13/56 · 3/15 | E1.2.03 | Culpa, excusa y responsabilidad: tres formas de reaccionar a un fracaso | pendiente | 0/3 | — |
+| 178 | 12/56 · 13/15 | E1.1.13 | ¿Autonomía o rebeldía? Cómo decir no sin perder oportunidades | terminada | 3/3 | [Leer](https://moevec.org/blog/autonomia-o-rebeldia-decir-no/) |
+| 179 | 12/56 · 14/15 | E1.1.14 | Las instituciones que amplían la autonomía: derecho, mercado y sociedad civil | terminada | 3/3 | [Leer](https://moevec.org/blog/instituciones-que-amplian-autonomia/) |
+| 180 | 12/56 · 15/15 | E1.1.15 | Test: ¿cuánta autonomía tienes realmente? Diez preguntas para medirla | terminada | 3/3 | [Leer](https://moevec.org/blog/test-cuanta-autonomia-tienes/) |
+| 181 | 13/56 · 1/15 | E1.2.01 | Responsabilidad personal: lo que depende de ti y lo que no | terminada | 3/3 | [Leer](https://moevec.org/blog/responsabilidad-lo-que-depende-de-ti/) |
+| 182 | 13/56 · 2/15 | E1.2.02 | Por qué la responsabilidad es un valor económico (y no solo moral) | terminada | 3/3 | [Leer](https://moevec.org/blog/responsabilidad-valor-economico/) |
+| 183 | 13/56 · 3/15 | E1.2.03 | Culpa, excusa y responsabilidad: tres formas de reaccionar a un fracaso | terminada | 3/3 | [Leer](https://moevec.org/blog/culpa-excusa-responsabilidad/) |
 | 184 | 13/56 · 4/15 | E1.2.04 | Responsabilidad y libertad: por qué no puede existir una sin la otra | pendiente | 0/3 | — |
 | 185 | 13/56 · 5/15 | E1.2.05 | Cumplir lo que prometes: la reputación como capital invisible | pendiente | 0/3 | — |
 | 186 | 13/56 · 6/15 | E1.2.06 | Responsabilidad financiera: el presupuesto como acto de libertad | pendiente | 0/3 | — |

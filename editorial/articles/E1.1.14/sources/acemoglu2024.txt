@@ -1,0 +1,889 @@
+Institutions, Technology and Prosperity
+Daron Acemoglu
+Nobel Lecture, Stockholm
+December 8, 2024
+
+What Drew Me to Economics
+GDP per capita 
+ (in thousands)
+< 2
+2 − 4
+4 − 6
+6 − 10
+10 − 15
+15 − 20
+20 − 35
+35 − 50
+50 − 70
+> 70
+no data
+The world distribution of income (GDP per capita, PPP, 2019-2023)
+
+Institutions and Prosperity
+▶Institutions: property rights, laws,
+regulations, political arrangements
+that inﬂuence the distribution of
+political power and the constraints
+on that power, the distribution of
+economic resources.
+▶Institutions shape the incentives
+and opportunities.
+▶Polar opposites: extractive and
+inclusive institutions.
+▶Proxy these with a broad index:
+World Bank’s rule of law index.
+USA
+SGP
+HKG
+SOM
+BDI
+AUS
+CAN
+NZL
+NIC
+SDN
+HTI
+COD
+R2 = 0.56
+R2 = 0.56
+Slope: 
+ 0.92 (0.05)
+6
+8
+10
+12
+−2
+−1
+0
+1
+2
+rule of law index, 2019−2022
+log GDP per capita, 2019−2023
+Correlation between institutions and GDP
+
+Institutions Are Endogenous
+▶Correlation between institutions and prosperity does not imply a causal eﬀect from
+institutions.
+▶Perhaps rich countries can “aﬀord” better institutions, or their populations
+“demand” such institutions.
+▶Or omitted factors inﬂuence both institutions and prosperity.
+▶One such factor may be “geography” as long ago anticipated by Montesquieu:
+The heat of the climate may be so excessive as to deprive the body
+of all vigour and strength. Then the faintness is communicated to the
+mind; there is no curiosity, no enterprise, no generosity of sentiment; the
+inclinations are all passive; indolence constitutes the utmost happiness; scarcely
+any punishment is so severe as mental employment; and slavery is more
+supportable than the force and vigour of mind necessary for human
+conduct.
+(The Spirit of the Laws, 1748)
+▶Then, how do we determine the eﬀects of institutions?
+
+European Colonial History
+▶Colonialism is one of the most formative institutional events of the millennium.
+▶It also provides a laboratory for understanding the eﬀects of institutions.
+▶Europeans set up—and led to the development of—very diﬀerent sets of institutions
+across the colonial empire.
+▶We see in the colonial world the whole range of institutions, from highly extractive
+to broadly inclusive ones. But why?
+▶We need a theory.
+▶A theory plus the right kind of data can also enable us to develop an
+instrumental-variables (IV) strategy—to exploit the exogenous source of variation
+in colonial history and estimate the eﬀects of institutions.
+▶This is what we attempted to do in AJR (2001).
+
+How Institutions Matter
+political
+institutionst
+distribution
+of resourcest
+=⇒
+=⇒
+de jure
+political
+powert
+&
+de facto
+political
+powert
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=⇒
+=⇒
+economic
+institutionst
+political
+institutionst+1
+=⇒
+
+
+
+
+
+
+
+
+
+
+
+economic
+performancet
+&
+distribution
+of resourcest+1
+▶Political institutions and the distribution of resources (capital, land, human capital)
+as state variables.
+▶Economic institutions shape incentives for investment, innovation and economic
+participation.
+▶Institutional persistence and institutional change caused by the interplay of
+these dynamics.
+
+Theory of Institutional Divergence among Colonies
+(potential) settler
+mortality
+(A)
+⇒settlements
+(B)
+⇒
+early
+institutions
+(C)
+⇒
+current
+institutions
+(D)
+⇒
+current
+performance
+A Huge mortality rates discourage settlements.
+B European settlers resisted colonial designs for extractive institutions, making the
+emergence of inclusive institutions more likely.
+C Institutions persisted through the channels highlighted above.
+D Exploit this source of variation to estimate the causal eﬀects of current institutions
+on development, under the exclusion restriction that potential settler mortality has
+no direct eﬀect on current performance (“IV strategy”).
+▶Compile data on potential settler mortality rates from historical sources.
+▶Use potential settler mortality directly as an instrument for current institutions.
+
+Settler Mortality and Institutions
+AGO
+ARG
+AUS
+BFA
+BGD
+BHS
+BOL
+BRA
+CAN
+CHL
+CIV
+CMR
+COD
+COG
+COL
+CRI
+DOM
+DZA
+ECU
+EGY
+ETH
+GAB
+GHA
+GIN
+GMB
+GTM
+GUY
+HKG
+HND
+HTI
+IDN
+IND
+JAM
+KEN
+LKA
+MAR
+MDG
+MEX
+MLI
+MLT
+MYS
+NER
+NGA
+NIC
+NZL
+PAK
+PAN
+PER
+PRY
+SDN
+SEN
+SGP
+SLE
+SLV
+TGO
+TTO
+TUN
+TZA
+UGA
+URY
+USA
+VNM
+ZAF
+Slope: −0.41 (0.08)
+R2 = 0.41
+R2 = 0.41
+−1
+0
+1
+2
+4
+6
+8
+log potential settler mortality
+rule of law index, 2019−2022
+First stage: potential settler mortality and institutions today
+
+The Reduced Form
+AGO
+ARG
+AUS
+BFA
+BGD
+BHS
+BOL
+BRA
+CAN
+CHL
+CIV
+CMR
+COD
+COG
+COL
+CRI
+DOM
+DZA
+ECU
+EGY
+ETH
+GAB
+GHA
+GIN
+GMB
+GTM
+GUY
+HKG
+HND
+HTI
+IDN
+IND
+JAM
+KEN
+LKA
+MAR
+MDG
+MEX
+MLI
+MLT
+MYS
+NER
+NGA
+NIC
+NZL
+PAK
+PAN
+PER
+PRY
+SDN
+SEN
+SGP
+SLE
+SLV
+TGO
+TTO
+TUN
+TZA
+UGA
+URY
+USA
+VNM
+ZAF
+R2 = 0.51
+R2 = 0.51
+Slope: −0.61 (0.08)
+7
+8
+9
+10
+11
+2
+4
+6
+8
+log potential settler mortality
+log GDP per capita, 2019−2023
+Reduced form: potential settler mortality and GDP per capita today
+
+The Two-Stage Least Squares Estimates: GDP per capita
+AGO
+ARG
+AUS
+BFA
+BGD
+BHS
+BOL
+BRA
+CAN
+CHL
+CIV
+CMR
+COD
+COG
+COL
+CRI
+DOM
+DZA
+ECU
+EGY
+ETH
+GAB
+GHA
+GIN
+GMB
+GTM
+GUY
+HKG
+HND
+HTI
+IDN
+IND
+JAM
+KEN
+LKA
+MAR
+MDG
+MEX
+MLI
+MLT
+MYS
+NER
+NGA
+NIC
+NZL
+PAK
+PAN
+PER
+PRY
+SDN
+SEN
+SGP
+SLE
+SLV
+TGO
+TTO
+TUN
+TZA
+UGA
+URY
+USA
+VNM
+ZAF
+R2 = 0.42
+R2 = 0.42
+Slope: 1.50 (0.22)
+7
+8
+9
+10
+11
+−1
+0
+rule of law index, 2019−2022
+log GDP per capita, 2019−2023
+▶This relationship is robust and quantitatively sizable.
+
+Institutions and Technology: 2SLS Estimates
+▶Key channels: eﬃciency of economic arrangements and technology.
+▶Proxy: total factor productivity, TFP and technology composition of exports.
+ARG
+AUS
+BGD
+BOL
+BRA
+CAN
+CHL
+CIV
+CMR
+COG
+COL
+CRI
+DOM
+DZA
+ECU
+EGY
+GAB
+GHA
+GMB
+GTM
+HKG
+HND
+HTI
+IDN
+IND
+JAM
+KEN
+LKA
+MAR
+MEX
+MLI
+MYS
+NER
+NIC
+NZL
+PAK
+PAN
+PER
+PRY
+SEN
+SGP
+SLE
+SLV
+TGO
+TTO
+TUN
+TZA
+UGA
+URY
+USA
+VEN
+ZAF
+R2 = 0.13
+R2 = 0.13
+Slope: 0.63 (0.11)
+3.0
+3.5
+4.0
+4.5
+−1
+0
+rule of law index, 2008−2011
+log TFP, 2010
+AGO
+ARG
+AUS
+BFA
+BOL
+BRA
+CAN
+CHL
+CIV
+CMR
+COD
+COG
+COL
+CRI
+DOM
+ECU
+EGY
+ETH
+GAB
+GHA
+GMB
+GTM
+HKG
+HND
+IDN
+IND
+JAM
+KEN
+LKA
+MAR
+MDG
+MEX
+MLI
+MYS
+NER
+NGA
+NIC
+NZL
+PAK
+PAN
+PER
+PRY
+SEN
+SGP
+SLV
+TGO
+TTO
+TUN
+TZA
+UGA
+URY
+USA
+VNM
+ZAF
+R2 = 0.35
+R2 = 0.35
+Slope: 0.84 (0.17)
+−1
+0
+1
+2
+−1
+0
+rule of law index, 2019−2022
+log advanced tech. index, 2019−2022
+2SLS relationships between institutions and technology
+
+A Framework
+▶Technological choices are both critical for prosperity and the distribution of that
+prosperity, and are intertwined with institutional trajectories.
+▶A new framework for a more holistic account of how institutions evolve and impact
+technology and prosperity.
+▶The centerpiece is the utility-technology possibilities frontier—UTPF, which
+informs us about the levels of utility/prosperity/welfare that diﬀerent groups can
+achieve given institutions and technology choices.
+▶Given this framework, study:
+▶factors that shift the frontier.
+▶factors that induce moves along the frontier given technology.
+▶role of technological choices.
+▶causes of institutional persistence and change.
+
+UTPF
+▶Focus on a world with just two groups, the rich and the poor, with the assumption
+that the rich are initially politically more powerful/dominant.
+up
+ur
+▶Ex: rich=colonialists or landowners; and poor=indigenous population or peasants.
+
+Moves and Shifts
+moves along
+the frontier
+shifts of
+the frontier
+uB
+p
+uB
+r
+uA
+r
+uA
+p
+A
+B
+uC
+p
+uC
+r
+C
+up
+ur
+▶Moves along the blue frontier driven by
+diﬀerent balances of power.
+▶Such moves result when society can use
+“eﬃcient” tools.
+▶Ineﬃcient economic arrangements (e.g.,
+monopoly power to extract rents) and
+technology distortions (including blocking of
+beneﬁcial technologies) cause shifts—the move
+from blue frontier to the red frontier.
+
+How Institutions Shift the Frontier
+▶Holdup: the politically powerful cannot refrain from using their power to extract
+income and resources, discouraging investment, innovation and economic
+participation by other groups.
+▶Collapse of state capacity: extractive institutions also intensify conﬂict (e.g. to
+take control of those institutions), potentially leading to the erosion of state
+capacity, and consequently to distorted economic incentives.
+▶Discouraging experimentation and collective knowledge building: even when
+the elites wish to encourage innovation, extractive institutions may discourage
+experimentation and thus innovation.
+▶Economic losers.
+▶Political losers.
+
+Economic Losers
+uB
+p
+uB
+r
+uA
+r
+uA
+p
+A
+B
+uC
+p
+uC
+r
+C
+economic
+losers
+up
+ur
+▶Distribution and eﬃciency may be inseparable.
+▶Without tools to eﬃciently extract resources
+from the rest of the population, the elite may be
+faced with a choice between point B (better
+technology and better institutional
+arrangements, but low share for them) and
+point C (bigger share of a smaller pie due to
+worse technology and worse institutions).
+▶Point C on the red frontier is preferable to
+point B on the blue frontier for the elite.
+▶The choice of point C here signiﬁes the
+economic losers mechanism: block beneﬁcial
+institutional changes and adoption of superior
+technologies.
+
+Political Losers and Institutional Persistence
+political
+losers
+uB
+p
+uB
+r
+uA
+r
+uA
+p
+A
+B
+uC
+p
+uC
+r
+C
+up
+ur
+▶Even with tools to redistribute resources given
+technology and institutional arrangements, the
+rich elite may still stay away from the eﬃcient
+arrangement.
+▶Suppose point A feasible when elite is in power.
+▶But better technology or institutional reform
+taking us to the higher frontier may destabilize
+their power—political creative destruction.
+▶Hence the eﬀective choice may be between
+C all the time versus
+A today but B from tomorrow onwards.
+▶This political losers mechanism can keep
+society with worse institutions/technology
+and thus on the lower frontier.
+
+Institutional Persistence and Institutional Change
+uB
+p
+uB
+r
+B
+uC
+p
+uC
+r
+C
+institutional
+change
+up
+ur
+▶Tensions for change as in Economic Origins of
+Dictatorship and Democracy.
+▶Suppose B is feasible, but the elite prefer C.
+▶Now the citizens gain temporary de facto power
+and demand concessions—“threat of revolution”.
+▶Promises from the elite under the existing
+institutional arrangement are non-credible,
+because they prefer to revert to C when the
+temporary threat evaporates.
+▶Lord Grey in 1831:“the principle of my reform is
+to prevent the necessity of revolution”
+▶Demand for institutional change—to transfer
+power to citizens.
+
+Applications of the Framework
+▶Understanding extractive colonial institutions:
+▶Huge power imbalance between colonial authorities and native populations.
+▶Limited ﬁscal tools, encouraging the use of monopoly, extraction and coercion.
+▶Political losers mechanism is critical in encouraging choice of institutions for
+political control.
+▶Why diﬀerent in settler colonies?
+▶Colonial powers had the same incentives.
+▶Yet, ideological factors and possible mobility of settlers created a more balanced
+distribution of political power between them and European settlers.
+▶Attempts to impose extractive institutions similar to those in South America failed
+for this reason—e.g., Jamestown colony in Virginia or Pennsylvania.
+▶This paved the way to economic institutions providing greater security to settlers as
+well as arrangements for self-governance (especially in Australia and North America).
+
+Critical Junctures and Institutional Change
+better institutions
+during critical junctures
+better institutions
+during normal times
+frontier 1
+frontier 2
+frontier 3
+frontier 4
+shift to worse
+institutions
+uA1
+p
+uA1
+r
+uA2
+p
+uA2
+r
+uA3
+p
+uA3
+r
+A1
+A2
+A3
+up
+ur
+▶During critical junctures, the eﬀects of
+institutional changes are ampliﬁed.
+▶Instead of a shift from the red to the blue,
+we get a shift to the green frontier.
+▶Or, remaining on red frontier becomes
+more costly to some groups, who may
+mobilize and force institutional change.
+▶But if elite increase repression in response to
+the critical juncture and succeed in staying
+in power, then worse institutions.
+▶Path-dependent change: even if a society
+does not stay on the red frontier after a
+critical juncture, its path of change is
+inﬂuenced by initial conditions.
+
+Colonialism and Industrialization as Critical Junctures
+▶Reinterpreting the colonial divergence.
+▶Small diﬀerences now matter more.
+▶Ex: disease environments that mattered little before Europeans arrived became more
+consequential once European colonialists arrived.
+▶Ex: Costa Rica vs. Guatemala—diﬀerences in indigenous population and labor relations.
+▶Reinterpreting the spread of industrialization.
+▶Institutional diﬀerences that did not cause big divergence before (e.g., between
+Mexico and the United States or between France and the Habsburg Empire) start
+mattering more in the context of whether to encourage industrial technology and
+relevant investments (such as in railways).
+▶von Gentz: “We do not desire at all that the great masses shall become well-oﬀand
+independent. . . How could we otherwise rule over them?”
+▶Institutional responses during critical junctures.
+▶The progressive era as a response to rising inequality and concentration of power
+during the critical juncture created by the rapid adoption of new technologies in
+many industries.
+
+The Age of Digital Technologies and AI
+automation
+frontier 1
+uB0
+p
+uB0
+r
+B0
+B1
+uB1
+p
+uB1
+r
+frontier 2
+uB2
+p
+uB2
+r
+B2
+up
+ur
+▶Change in balance of power between
+capital-labor (and professional-manual
+labor) moving society from point B0 to
+point B0 due to how rents are shared.
+▶Equilibrium eﬀects through technology
+choices, causing a tilt from the red
+frontier to the blue frontier via the
+development and adoption of
+automation technologies.
+
+The Age of Digital Technologies and AI
+frontier 1
+uB0
+p
+uB0
+r
+B0
+frontier 3
+frontier 4
+uC4
+p
+uC4
+r
+C 
+B1
+uB1
+p
+uB1
+r
+uB3
+p
+uB3
+r
+B3
+frontier 2
+uB2
+p
+uB2
+r
+B2
+excessi e
+automation
+pro-worker AI
+up
+ur
+▶Change in balance of power between
+capital-labor (and professional-manual
+labor) moving society from point B0 to
+point B0 due to how rents are shared.
+▶Equilibrium eﬀects through technology
+choices, causing a tilt from the red
+frontier to the blue frontier via the
+development and adoption of
+automation technologies.
+▶AI intensifying these trends.
+▶If AI can be developed in a pro-worker
+way, then shift to the black frontier.
+▶If excessive automation using AI, then
+perhaps shift to green frontier.
+
+Concluding Thoughts and Areas for Future Research
+▶Political economy and institutional economics are very active areas of research, with
+exciting contributions from many scholars, including many PhD students.
+▶The intersection of these issues with technology choices can help us:
+▶unify questions of between-country inequality with those of within-country inequality;
+▶understand how institutions inﬂuence technology and its direction;
+▶uncover new commonalities between disparate episodes such as colonialism,
+industrialization and the age of AI.
+▶Several areas for exciting future research:
+▶How monopoly power is exercised and determined with institutions in the age of AI.
+▶Path dependence.
+▶How culture, norms and ideology are co-determined with institutions and
+technology.
+▶Understanding agency in technology and institutions.
+▶More on AI as a critical juncture.

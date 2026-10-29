@@ -35,7 +35,7 @@ El 28/10/2026 se aclaró que React se eligió para obtener una experiencia de mo
 
 ## Marca en pantalla · 28/10/2026
 
-El fundador prefirió el MEE inclinado y compacto con estrella roja de la cabecera frente al logo anterior y pidió usarlo directamente en el kit de marca para pantallas. Se dibujó el símbolo de ocho rayos y se convirtió a contornos el lettering Archivo Black Italic. Se entregan variantes tinta, blanco y azul con acento rojo, isotipos, favicons, SVG maestros, PNG/WebP optimizados, paleta, Archivo/Manrope OFL, WOFF2 latinos y guía en `brand-kit/`. La cabecera React, la estrella del cierre, el favicon y la navegación usan esos activos. Falta la confirmación visual de que la reconstrucción reproduce exactamente la versión preferida para otros usos. El ZIP original con la flecha y `fuentes/claude/brand/` se conserva como historia de diseño.
+El fundador prefirió el MEE inclinado y compacto con estrella roja de la cabecera frente al logo anterior y pidió usarlo directamente en el kit de marca para pantallas. Se dibujó el símbolo de ocho rayos y se convirtió a contornos el lettering Archivo Black Italic. Se entregan variantes tinta, blanco y azul con acento rojo, isotipos, favicons, SVG maestros, PNG/WebP optimizados, paleta, Archivo/Manrope OFL, WOFF 2 latinos y guía en `brand-kit/`. La cabecera React, la estrella del cierre, el favicon y la navegación usan esos activos. Falta la confirmación visual de que la reconstrucción reproduce exactamente la versión preferida para otros usos. El ZIP original con la flecha y `fuentes/claude/brand/` se conserva como historia de diseño.
 
 ## Proyecto Codex autocontenido · 28/10/2026
 
@@ -81,30 +81,30 @@ Blog es el contenedor general, no una categoria adicional. El inventario coincid
 
 ## Continuidad editorial ·27/840 ·28/10/2026
 
-Bloques22–27 publicados y verificados sin cambiar categorías ni tema. Se mantiene la jerarquía del plan y se añade la etiqueta pais-cuba prevista paraE5.3.11. Los datos históricos y jurídicos conservan fecha y versión: Gallup2026, Cuba con gacetas de septiembre2026 y DL88concordado. No atribuir cuotas económicas deGAESA sin cuentas y perímetro verificables. Bloque28–30 en investigación local con nueve imágenes listas; no contarlo como completo. Respaldo completo tras27 entradas documentado en docs/produccion/2026-10-28-respaldo-veintisiete-entradas.md.
+Bloques 22–27 publicados y verificados sin cambiar categorías ni tema. Se mantiene la jerarquía del plan y se añade la etiqueta pais-cuba prevista paraE5.3.11. Los datos históricos y jurídicos conservan fecha y versión: Gallup 2026, Cuba con gacetas de septiembre 2026 y DL 88 concordado. No atribuir cuotas económicas deGAESA sin cuentas y perímetro verificables. Bloque 28–30 en investigación local con nueve imágenes listas; no contarlo como completo. Respaldo completo tras 27 entradas documentado en docs/produccion/2026-10-28-respaldo-veintisiete-entradas.md.
 
 ## Continuidad editorial ·30/840 ·28/10/2026
 
-Bloque28–30 publicado y verificado. Capitalismo vs. Socialismo alcanza15/15. La tesis de Niemietz se atribuye y contrasta con una crítica contemporánea de1936. La pobreza histórica conserva método CBN y las líneas actuales del Banco Mundial su PPA2021; las correlaciones no se presentan como causalidad. Heritage2026 se identifica con sus fechas de observación, sin convertir índices económicos en juicios democráticos. Siguiente31–33: Política y Economía → Corrupción Sistémica.
+Bloque 28–30 publicado y verificado. Capitalismo vs. Socialismo alcanza 15/15. La tesis de Niemietz se atribuye y contrasta con una crítica contemporánea de 1936. La pobreza histórica conserva método CBN y las líneas actuales del Banco Mundial su PPA 2021; las correlaciones no se presentan como causalidad. Heritage 2026 se identifica con sus fechas de observación, sin convertir índices económicos en juicios democráticos. Siguiente 31–33: Política y Economía → Corrupción Sistémica.
 
 ## Continuidad editorial ·33/840 ·28/10/2026
 
-Bloque31–33 publicado y comprobado en Política y Economía → Corrupción Sistémica, con etiquetas de tema/nivel y las específicas de los briefs. La fórmula de Klitgaard se trata como heurística. WGI2026 absoluta0–100 no se confunde con percentil; ENCIG2025 mantiene población urbana18+ y denominadores distintos. Odebrecht se limita al acuerdo corporativo2016 y contextualiza el superlativo del título; no se infieren condenas individuales ni sanciones cobradas. Se corrigieron tres enlaces internos antes de cerrar la verificación.
+Bloque 31–33 publicado y comprobado en Política y Economía → Corrupción Sistémica, con etiquetas de tema/nivel y las específicas de los briefs. La fórmula de Klitgaard se trata como heurística. WGI 2026 absoluta 0–100 no se confunde con percentil; ENCIG 2025 mantiene población urbana 18+ y denominadores distintos. Odebrecht se limita al acuerdo corporativo 2016 y contextualiza el superlativo del título; no se infieren condenas individuales ni sanciones cobradas. Se corrigieron tres enlaces internos antes de cerrar la verificación.
 
 ## Continuidad editorial ·36/840 ·28/10/2026
 
-Bloque34–36publicado y verificado. LavaJato distingue fondos históricos MPF2017/panelSTF2025sin sumarlos y procesos de competencia/imparcialidad2021con alcance delimitado. Enriquecimiento ilícito diferencia InteramericanaIX/UNCAC20, artículo224mexicano y438bisespañol. Nepotismo utiliza2011como workingpaperhistórico y apellidos como indicador indirecto; selecciónabierta se propone sin efecto cuantificado inventado. Las normas españolas conservan ámbitos propios. Próximo37–39en preparación local, sin contar como completado.
+Bloque 34–36 publicado y verificado. LavaJato distingue fondos históricos MPF 2017/panelSTF 2025 sin sumarlos y procesos de competencia/imparcialidad 2021 con alcance delimitado. Enriquecimiento ilícito diferencia InteramericanaIX/UNCAC 20, artículo 224 mexicano y 438 bisespañol. Nepotismo utiliza 2011 como workingpaperhistórico y apellidos como indicador indirecto; selecciónabierta se propone sin efecto cuantificado inventado. Las normas españolas conservan ámbitos propios. Próximo 37–39 en preparación local, sin contar como completado.
 
 ## Continuidad editorial · 42/840 · 28/10/2026
 
 Bloques 37–42 publicados y verificados, con 18 imágenes nuevas. Se mantuvo el área y la subcategoría del manifiesto. ENCIG distingue experiencia y desembolso; CICIG separa investigaciones de condenas; independencia judicial incorpora fuentes de 2026 y reformas mexicanas posteriores a 2024. Yukos diferencia resultados TEDH/arbitraje y recurso de 2025. Puertas giratorias respeta ámbitos y cambios de septiembre de 2026. ProZorro conserva límites del estudio original, sin presentar mejoras uniformes ni causalidad automática. Próximo bloque 43–45 iniciado; no hay cambio de arquitectura ni de autorización.
 
-## Continuidad editorial · bloques43–48 · 28/10/2026
+## Continuidad editorial · bloques 43–48 · 28/10/2026
 
-- Ejecutada la autorización continua existente: seis nuevas publicaciones completas y verificadas; total48/840. Corrupción Sistémica cierra15/15 y comienza Subsidios y Favoritismo Político3/15, conservando categorías del plan.
+- Ejecutada la autorización continua existente: seis nuevas publicaciones completas y verificadas; total 48/840. Corrupción Sistémica cierra 15/15 y comienza Subsidios y Favoritismo Político 3/15, conservando categorías del plan.
 -49–51 preparadas con nueve imágenes propias, sin texto final ni publicación; la preparación no incrementa el total terminado.
 - Criterios aplicados: canales y normas vigentes por país; rentas históricas≠pérdida social;FMI fiscal≠coste ambiental y distribución con muestra identificada. Fuentes y límites por expediente.
-- Respaldo incremental43–48 comprobado. Sin nueva decisión requerida, cambio de infraestructura ni modificación de la autorización de producción.
+- Respaldo incremental 43–48 comprobado. Sin nueva decisión requerida, cambio de infraestructura ni modificación de la autorización de producción.
 
 ## Producción 49–54 y continuación 55–57 · 28/10/2026
 
@@ -124,11 +124,11 @@ Publicadas y verificadas 61–63: total 63/840, con 189 imágenes originales. Ag
 
 Continuación 64–66 con nueve WebP nuevos, revisados y optimizados, y fuentes iniciales. No hay texto final ni publicación de estas tres; faltan comprobaciones centrales documentadas. Respaldo SQL y Medios 61–63 verificado por hashes y miembros, sin nueva restauración completa. Sin cambios de infraestructura, tema o taxonomía. La producción continua autorizada sigue activa.
 
-## Producción64–66 y continuación67–69 ·28/10/2026
+## Producción 64–66 y continuación 67–69 ·28/10/2026
 
-Publicadas y verificadas64–66: total66/840,198 imágenes originales. Agrupación en Política y Economía → Monopolios Estatales vs. Competencia, sin duplicados. Se precisaron topes vinculantes, normas venezolanas y universos ENCOVI, y alcance de exclusividad ETECSA2025/recargas/tarifas frente a salario estatal civil2025. Fuentes y límites conservados por artículo.
+Publicadas y verificadas 64–66: total 66/840,198 imágenes originales. Agrupación en Política y Economía → Monopolios Estatales vs. Competencia, sin duplicados. Se precisaron topes vinculantes, normas venezolanas y universos ENCOVI, y alcance de exclusividad ETECSA 2025/recargas/tarifas frente a salario estatal civil 2025. Fuentes y límites conservados por artículo.
 
-67–69 tienen nueve imágenes originales optimizadas e inspeccionadas, alt/pies y fuentes iniciales; todavía sin textos completos ni publicación. Pendientes metodología/datosCNMC, TLC/VTC y sentencia/estudio farmacéutico. Respaldo64–66 comprobado por hashes y miembros, sin nueva restauración completa. Continúa autorización existente; sin cambios de infraestructura, tema o taxonomía.
+67–69 tienen nueve imágenes originales optimizadas e inspeccionadas, alt/pies y fuentes iniciales; todavía sin textos completos ni publicación. Pendientes metodología/datosCNMC, TLC/VTC y sentencia/estudio farmacéutico. Respaldo 64–66 comprobado por hashes y miembros, sin nueva restauración completa. Continúa autorización existente; sin cambios de infraestructura, tema o taxonomía.
 
 ## Producción 67–69 y continuación 70–72 · 28/10/2026
 
@@ -152,31 +152,31 @@ Publicadas y verificadas 73–75: 75/840, con 225 imágenes propias. Monopolios 
 
 78/840 verificadas y 234 imágenes públicas, directamente en Capitalismo Consciente / Historia (3/15), con las etiquetas del plan. Editorial no es una categoría. Los datos históricos conservan método y periodo; fuentes y revisión por ID.
 
-Bloque 79–81 iniciado, con nueve WebP propios revisados, fuentes iniciales y pendientes precisos; todavía sin textos finales. Respaldo SQL y medios 76–78 verificado; sin nueva restauración completa. Para 81 se consultó la fuente primaria BM2026 sobre política industrial, evitando presentar el informe de 1993 como postura inmutable. Sin cambios de arquitectura o taxonomía; autorización y automatización continuas vigentes.
+Bloque 79–81 iniciado, con nueve WebP propios revisados, fuentes iniciales y pendientes precisos; todavía sin textos finales. Respaldo SQL y medios 76–78 verificado; sin nueva restauración completa. Para 81 se consultó la fuente primaria BM 2026 sobre política industrial, evitando presentar el informe de 1993 como postura inmutable. Sin cambios de arquitectura o taxonomía; autorización y automatización continuas vigentes.
 
 ## Producción 79–84 y continuación 85–87 · 28/10/2026
 
 Dos bloques consecutivos completados sin pedir confirmación: 84/840 y 252 imágenes públicas. Historia queda en 9/15; jerarquía y etiquetas exactas. WordPress sincronizado después de cada publicación, verificación pública y antiduplicados cerrados.
 
-85–87 iniciadas con nueve imágenes propias terminadas e inspeccionadas, briefs, metadatos y pendientes por ID. Fuentes y textos sin completar: no cuentan como terminadas. CASEN2024 incorpora nueva metodología; comparar solo series coherentes. Respaldo VPS de ambos incrementos verificado por hashes/miembros, sin nueva restauración completa. Sin cambios de arquitectura, taxonomía o infraestructura; autorización y automatización continuas vigentes.
+85–87 iniciadas con nueve imágenes propias terminadas e inspeccionadas, briefs, metadatos y pendientes por ID. Fuentes y textos sin completar: no cuentan como terminadas. CASEN 2024 incorpora nueva metodología; comparar solo series coherentes. Respaldo VPS de ambos incrementos verificado por hashes/miembros, sin nueva restauración completa. Sin cambios de arquitectura, taxonomía o infraestructura; autorización y automatización continuas vigentes.
 
-## Producción85–90 y continuación91–93 · 28/10/2026
+## Producción 85–90 y continuación 91–93 · 28/10/2026
 
-Dos bloques consecutivos terminados sin solicitar confirmación:90/840 y270 imágenes públicas. Historia15/15; categorías/subcategorías y etiquetas exactas, una publicación/tres adjuntos por ID. Registro sincronizado después de cada publicación; verificaciones públicas y de organización completas.
+Dos bloques consecutivos terminados sin solicitar confirmación:90/840 y 270 imágenes públicas. Historia 15/15; categorías/subcategorías y etiquetas exactas, una publicación/tres adjuntos por ID. Registro sincronizado después de cada publicación; verificaciones públicas y de organización completas.
 
-91–93 iniciadas en Ética en el Intercambio, tanda7: briefs y fuentes iniciales, con cuerpos por revisar, textos e imágenes pendientes. No cuentan como terminadas. Mantener rigor: Smith/Sandel, Rothbard/Bastos y cooperación/limones con hipótesis y límites. No deriva de una ficha la lectura de un libro. Backups VPS85–87/88–90 verificados por hashes y miembros, sin nueva restauración completa. Sin cambios de arquitectura ni nuevas aprobaciones; autorización continua vigente.
+91–93 iniciadas en Ética en el Intercambio, tanda 7: briefs y fuentes iniciales, con cuerpos por revisar, textos e imágenes pendientes. No cuentan como terminadas. Mantener rigor: Smith/Sandel, Rothbard/Bastos y cooperación/limones con hipótesis y límites. No deriva de una ficha la lectura de un libro. Backups VPS 85–87/88–90 verificados por hashes y miembros, sin nueva restauración completa. Sin cambios de arquitectura ni nuevas aprobaciones; autorización continua vigente.
 
-## Producción91–96 y continuación97–99 · 29/10/2026
+## Producción 91–96 y continuación 97–99 · 29/10/2026
 
-96/840 completas y288imágenes públicas. Dos bloques consecutivosenÉticapublicados/revisados; categorías/tags del manifiesto y taxonomía122/7 comprobadas,sinEditorial. Registro actualizado después de cada publicación. No se cambió infraestructura ni arquitectura.
+96/840 completas y 288 imágenes públicas. Dos bloques consecutivosenÉticapublicados/revisados; categorías/tags del manifiesto y taxonomía 122/7 comprobadas,sinEditorial. Registro actualizado después de cada publicación. No se cambió infraestructura ni arquitectura.
 
-97–99 iniciadas localmente con briefs y fuentesiniciales;0/3imágenescadauna,texto/revisiónpendientes.No cuentan como terminadas. Respaldos proporcionales91–93/94–96 verificados por hashes y miembros,sin nueva restauracióncompleta. Autorización continua vigente y automatización activa; sin nuevas aprobaciones ni agotamiento de herramientas comunicado.
+97–99 iniciadas localmente con briefs y fuentesiniciales;0/3 imágenescadauna,texto/revisiónpendientes.No cuentan como terminadas. Respaldos proporcionales 91–93/94–96 verificados por hashes y miembros,sin nueva restauracióncompleta. Autorización continua vigente y automatización activa; sin nuevas aprobaciones ni agotamiento de herramientas comunicado.
 
-## Producción97–105 y continuación106–108 · 29/10/2026
+## Producción 97–105 y continuación 106–108 · 29/10/2026
 
-105/840 completas y315imágenes públicas. Tres bloques consecutivos publicados y verificados, cada entrada en su categoría/subcategoría y con etiquetas del plan. Ética en el Intercambio15/15; siete tandas completas. Taxonomía122nodos/7raíces comprobada,sinEditorial. Registro sincronizado después de cada publicación.
+105/840 completas y 315 imágenes públicas. Tres bloques consecutivos publicados y verificados, cada entrada en su categoría/subcategoría y con etiquetas del plan. Ética en el Intercambio 15/15; siete tandas completas. Taxonomía 122 nodos/7 raíces comprobada,sinEditorial. Registro sincronizado después de cada publicación.
 
-106–108 iniciadas localmente con briefs y fuentes iniciales;0/3imágenes cada una,texto/revisión pendientes. No cuentan como terminadas. Respaldos proporcionales97–99,100–102 y103–105 verificados por hashes y miembros,sin nueva restauración completa. Autorización continua y automatización vigentes. Sin cambios de arquitectura, nuevas aprobaciones o agotamiento de herramientas comunicado.
+106–108 iniciadas localmente con briefs y fuentes iniciales;0/3 imágenes cada una,texto/revisión pendientes. No cuentan como terminadas. Respaldos proporcionales 97–99,100–102 y 103–105 verificados por hashes y miembros,sin nueva restauración completa. Autorización continua y automatización vigentes. Sin cambios de arquitectura, nuevas aprobaciones o agotamiento de herramientas comunicado.
 
 ## Producción 106–114 y continuación 115–117 ·29/10/2026
 
@@ -194,7 +194,7 @@ Dos bloques consecutivos terminados sin solicitar confirmación:90/840 y270 imá
 
 132/840 completas, 396 imágenes públicas, 0 en curso/borradores y 708 pendientes. Categorías y etiquetas exactas, taxonomía intacta de 122 nodos/siete raíces, sin Editorial. Tres respaldos proporcionales verificados; no nueva prueba de arranque de restauración completa.
 
-Original público Civismo 2026 >100MiB conservado fuera de Git en mee-backups/research-originals, con ruta/hash en E7.2.04/sources/original-source-location.json; páginas completas pertinentes y texto completo dentro del expediente. Evita superar el límite de archivo del repositorio y conserva trazabilidad. Descargar no implica lectura íntegra; alcances por fuente documentados.
+Original público Civismo 2026 >100 MiB conservado fuera de Git en mee-backups/research-originals, con ruta/hash en E7.2.04/sources/original-source-location.json; páginas completas pertinentes y texto completo dentro del expediente. Evita superar el límite de archivo del repositorio y conserva trazabilidad. Descargar no implica lectura íntegra; alcances por fuente documentados.
 
 133–135: briefs y preguntas preparados, sin imágenes ni texto final. Autorización continua y automatización activas. Sin cambios de arquitectura ni nuevas aprobaciones, ni agotamiento de herramientas comunicado.
 
@@ -214,23 +214,23 @@ Decisiones: grupos y anuncios distintos de parque total; Japón trece zonas y Ho
 
 148–150 preparados con briefs y preguntas, 0/3 imágenes cada una, sin texto final ni publicación. Autorización y automatización vigentes; sin nuevas aprobaciones ni cambios de arquitectura. Sin agotamiento de herramientas comunicado.
 
-## Producción148–153 y corrección del punto de continuación ·29/10/2026
+## Producción 148–153 y corrección del punto de continuación ·29/10/2026
 
-153/840completas,459imágenes públicas,0en curso/borradores WordPress,687pendientes. Dos bloques,seis artículos18originales;122nodos/siete raíces,sin Editorial,taxonomía intacta. Respaldos proporcionales,hashes y miembros verificados,sin nueva prueba de arranque completa.
+153/840 completas,459 imágenes públicas,0 en curso/borradores WordPress,687 pendientes. Dos bloques,seis artículos 18 originales; 122 nodos/siete raíces,sin Editorial,taxonomía intacta. Respaldos proporcionales,hashes y miembros verificados,sin nueva prueba de arranque completa.
 
-La nota anterior confundía151–153 con Inversión y Capital. El manifiesto y el orden original sitúan E1.5.01–03 en151–153; se corrigió antes de generar esas imágenes o publicar. Inversión y Capital empieza241. No se modificó el plan.
+La nota anterior confundía 151–153 con Inversión y Capital. El manifiesto y el orden original sitúan E1.5.01–03 en 151–153; se corrigió antes de generar esas imágenes o publicar. Inversión y Capital empieza 241. No se modificó el plan.
 
-Decisiones de precisión: corralito/pesificación/AFJP separados; cartera FGS solo extracto primario con periodo. CIADI nuevos/acumulados/administrados y consentimiento distintos; CETA como ejemplo de texto,sin vigencia arbitral presupuesta. Registro/seguro sin garantía universal. Locke con condiciones; Hardin página original escaneada leída visualmente; comunes distintos de acceso abierto. De Soto simulación industrial,no registro de casa; estudios titulación con resultados distintos de crédito. Pesca: cuotas reguladas,no propiedad del mar; estudios históricos sin estado2026 extrapolado. Alcances por ID.
+Decisiones de precisión: corralito/pesificación/AFJP separados; cartera FGS solo extracto primario con periodo. CIADI nuevos/acumulados/administrados y consentimiento distintos; CETA como ejemplo de texto,sin vigencia arbitral presupuesta. Registro/seguro sin garantía universal. Locke con condiciones; Hardin página original escaneada leída visualmente; comunes distintos de acceso abierto. De Soto simulación industrial,no registro de casa; estudios titulación con resultados distintos de crédito. Pesca: cuotas reguladas,no propiedad del mar; estudios históricos sin estado 2026 extrapolado. Alcances por ID.
 
-154–156/E1.5.04–06: briefs,etiquetas,preguntas,0/3imágenes cada una,sin texto final ni publicación. Automatización/autorización activas,sin nuevas aprobaciones ni arquitectura modificada. Ningún agotamiento de herramientas comunicado.
+154–156/E1.5.04–06: briefs,etiquetas,preguntas, 0/3 imágenes cada una,sin texto final ni publicación. Automatización/autorización activas,sin nuevas aprobaciones ni arquitectura modificada. Ningún agotamiento de herramientas comunicado.
 
 ## Producción 154–159 y continuación 160–162 · 29/10/2026
 
-159/840 completas, 477 imágenes públicas, 0 en curso/borradores WordPress, 681 pendientes. Dos bloques, seis artículos 18 originales; Propiedad Privada9/15,tanda11/56.122nodos/siete raíces, sin categoríaEditorial, taxonomía intacta. Respaldos proporcionales, hashes y miembros verificados, sin nueva prueba de arranque completa.
+159/840 completas, 477 imágenes públicas, 0 en curso/borradores WordPress, 681 pendientes. Dos bloques, seis artículos 18 originales; Propiedad Privada 9/15,tanda 11/56.122 nodos/siete raíces, sin categoríaEditorial, taxonomía intacta. Respaldos proporcionales, hashes y miembros verificados, sin nueva prueba de arranque completa.
 
-Decisiones: propiedad intelectual descriptiva/normativa/empírica diferenciadas, libros consultados por pasajes sin lectura íntegra fingida. Autopropiedad filosofía, no estatus jurídico absoluto; analogía fiscal de Nozick distinta de OIT. Findex2025/encuestas2024/24%adultos ingresos bajos-medios, no hipotecas ni causalidad de registro. B-READY 2026 metodología, no resultados. Cuba 1960 y 2011 con documentos primarios y ámbito histórico, investigación cualitativa acotada; descripciónSEO 157 corregida públicamente. España cinco días de requerimiento no duración total, datos regionales/históricos delimitados y sin causalidad de oferta inventada. Ejidos no todo pueblo indígena; certificación distinta de dominio pleno y 28%relativo migración, no 28 puntos. Fuentes y límites por ID.
+Decisiones: propiedad intelectual descriptiva/normativa/empírica diferenciadas, libros consultados por pasajes sin lectura íntegra fingida. Autopropiedad filosofía, no estatus jurídico absoluto; analogía fiscal de Nozick distinta de OIT. Findex 2025/encuestas 2024/24%adultos ingresos bajos-medios, no hipotecas ni causalidad de registro. B-READY 2026 metodología, no resultados. Cuba 1960 y 2011 con documentos primarios y ámbito histórico, investigación cualitativa acotada; descripciónSEO 157 corregida públicamente. España cinco días de requerimiento no duración total, datos regionales/históricos delimitados y sin causalidad de oferta inventada. Ejidos no todo pueblo indígena; certificación distinta de dominio pleno y 28%relativo migración, no 28 puntos. Fuentes y límites por ID.
 
-160–162/E1.5.10–12 preparados con briefs, etiquetas, preguntas,0/3imágenes cada uno, sin texto final ni publicación. Autorización/automatización activas; ningún agotamiento de herramientas comunicado.
+160–162/E1.5.10–12 preparados con briefs, etiquetas, preguntas, 0/3 imágenes cada uno, sin texto final ni publicación. Autorización/automatización activas; ningún agotamiento de herramientas comunicado.
 
 ## Producción 160–165 y continuación 166–168 · 29/10/2026
 
@@ -238,7 +238,7 @@ Decisiones: propiedad intelectual descriptiva/normativa/empírica diferenciadas,
 
 160: moneda nominal y poder de compra diferenciados; señoreaje no siempre inflacionario, pérdida privada no equivale a ingreso público. Mariana 1609 con pasajes primarios y excepción temporal; traducción castellana de autoría discutida. WEO octubre 2026, Venezuela 2018 y Argentina 2024 como promedios anuales, no datos actuales o máximos. Zimbabue con comunicado 2009 sin mezclar tasas. BCE para el mejor argumento contrario. 161: portada 2026 anunciada y tabla oficial 2025 separadas de forma visible; no se inventaron posiciones 2026. Comparación 2025 de ocho países, Cuba ausente no equivale a cero. Fraser 2026 mide 2024; WGI con incertidumbre, índices no intercambiables ni causalidad de renta. 162: WDI 2025 en dólares corrientes, definición y agregado identificados. BID primer trimestre 2026 con 14 países observados y nueve estimados, sin extrapolar al año ni a Cuba. CEMLA/ENIF 2024 describe asociación con vivienda, no causalidad; destinos múltiples no cuotas de dólares. Consumo esencial y acuerdos familiares respetados.
 
-163: índices OCDE distintos del número de años de renta de un inmueble. Eurostat UE segundo trimestre 2026 frente al mismo trimestre de 2025, sin proyección local. Ejercicios numéricos solo hipotéticos; intereses, principal, liquidez, oportunidad y patrimonio final diferenciados. 164: Duguit leído mediante traducción académica de la primera conferencia, pasaje C16, no libro completo ni origen único. Colombia artículo 58 con reforma 1999; Venezuela 115 y Cuba 2019 artículos 22/58/59 con sus formulaciones, sin igualar garantías ni afirmar que todos dicen literalmente función social. Chiriboga: resumen oficial completo, sentencias 2008/2011, finalidad ambiental legítima con garantías incumplidas. 165: Steam revisión 10/9/2026; licencia no elimina derechos imperativos del consumidor. RGPD con ámbito y condiciones de supresión/portabilidad, no propiedad universal de datos. Claves dan control técnico, no acreditan titularidad legítima. Aviso chino de 6/2/2026 reemplaza expresamente 2021; texto oficial verificado, no toda posesión como delito. Reforma salvadoreña 2025 establece aceptación privada voluntaria y conserva formulación legal de curso legal; no repetir titulares secundarios contrarios al texto.
+163: índices OCDE distintos del número de años de renta de un inmueble. Eurostat UE segundo trimestre 2026 frente al mismo trimestre de 2025, sin proyección local. Ejercicios numéricos solo hipotéticos; intereses, principal, liquidez, oportunidad y patrimonio final diferenciados. 164: Duguit leído mediante traducción académica de la primera conferencia, pasaje C 16, no libro completo ni origen único. Colombia artículo 58 con reforma 1999; Venezuela 115 y Cuba 2019 artículos 22/58/59 con sus formulaciones, sin igualar garantías ni afirmar que todos dicen literalmente función social. Chiriboga: resumen oficial completo, sentencias 2008/2011, finalidad ambiental legítima con garantías incumplidas. 165: Steam revisión 10/9/2026; licencia no elimina derechos imperativos del consumidor. RGPD con ámbito y condiciones de supresión/portabilidad, no propiedad universal de datos. Claves dan control técnico, no acreditan titularidad legítima. Aviso chino de 6/2/2026 reemplaza expresamente 2021; texto oficial verificado, no toda posesión como delito. Reforma salvadoreña 2025 establece aceptación privada voluntaria y conserva formulación legal de curso legal; no repetir titulares secundarios contrarios al texto.
 
 166–168 / E1.1.01–03, Autonomía, preparados con briefs, etiquetas y preguntas. 0/3 imágenes cada uno, sin texto final ni publicación. Autorización y automatización activas; ningún agotamiento comunicado. No cambios de alcance o arquitectura.
 
@@ -271,5 +271,21 @@ Sin cambios de alcance o arquitectura.
 178: leer Hirschman sobre salida, voz y lealtad en fuente primaria; no tres opciones simétricas para todo contexto. Conflicto legítimo y limitaciones de salida o negociación. 179: instituciones con fuentes primarias e índices de edición y periodo explícitos; correlación no prueba causalidad, contraparte de cultura y geografía sin determinismo. 180: instrumento editorial propio basado en los catorce artículos previos, diez preguntas y cuatro áreas. No baremos inventados, diagnóstico, validación clínica ni juicio de valor personal; permitir no aplica y distinguir barreras externas.
 
 Autonomía lleva 12/15, tanda 12/56; once tandas anteriores completas. El orden original se conserva, Inversión y Capital empieza en 241. Automatización y autorización activas, sin agotamiento de herramientas comunicado. Reanudar desde WordPress y expedientes sin duplicar artículos ni medios.
+
+Sin cambios de alcance o arquitectura.
+
+## Producción 178–183 y continuación 184–186 ·29/10/2026
+
+183/840 terminadas, 549 imágenes originales públicas, 0 en curso/borradores WordPress y 657 pendientes. Autonomía 15/15 cerrada, Responsabilidad Personal 3/15; doce tandas completas. Taxonomía intacta y agrupación directa. Respaldos proporcionales comprobados sin nueva prueba de arranque de restauración.
+
+178: Hirschman 1970, lectura visual de páginas 4–5 y 78–79: salida y voz, lealtad como influencia sobre su interacción, no tres conductas simétricas. Mill capítulo I, sin consejo jurídico universal. Matriz editorial y ejemplos hipotéticos, negociación o salida no seguras por definición. 179: conferencias Nobel 2024 de Acemoglu/Robinson, pasajes sobre instituciones, endogeneidad y órdenes normativos. Heritage 2026 doce componentes, periodo general 2024–2025; Fraser 2026 datos 2024; WJP 2026 ocho factores/143 jurisdicciones; WGI 2026 seis dimensiones/datos hasta 2025. Sin ranking propio o causalidad desde correlación. Fukuyama 1999 definición recuperada en índice, fallos locales conservados; no Trust 1995 leído íntegro. 180: herramienta editorial basada en E1.1.01–14, diez preguntas en cuatro áreas, no aplica y apoyos. Sin nota total, baremos, validación clínica ni captura de respuestas.
+
+181: Epicteto capítulo I como filosofía, no control inmediato universal de emociones. Rawls extractos sobre instituciones, posición al nacer y velo de ignorancia; objeción de lotería natural/social sin política causal única. Presentación de Frankl por Alexander Batthyány con límites y sin terapia prescrita; procedencia incierta de cita popular aclarada por el instituto, no atribuida como auténtica. 182: Smith parte VI prudencia/sinceridad, solvencia separada de disposición a pagar y Banco de España 10/03/2026 con ámbito español. Bernanke 02/09/2010: riesgo moral y contraparte de daño sistémico; AIG/Lehman como exposición del testimonio, no costes netos estimados o rescate igual a corrupción. Bastos en fragmento de preventa Arpa, no libro íntegro ni Trabajo ahorro y capitalismo fingido leído. 183: resumen original de Weiner 1985 y ficha bibliográfica, tres dimensiones de causas percibidas; PDF 403/copia 404 documentados. No cuerpo completo fingido, causa objetiva inferida de una atribución, diagnóstico o culpa siempre paralizante. Cuatro preguntas editoriales sin validación clínica, con barreras externas, Rawls y apoyo.
+
+**184–186 / E1.2.04–06**, Educación y Valores → Responsabilidad Personal. Briefs originales, etiquetas y preguntas guardados: **0/3 imágenes cada una, sin artículo final ni publicación**. Tres preparaciones incluidas en las 657 pendientes; 654 sin iniciar. Después, 187–189 / E1.2.07–09.
+
+184: leer capítulo 5 de Hayek en fuente primaria; tesis normativa separada de efectos y contraparte de información desigual, sin afirmar que toda ayuda causa paternalismo. 185: Axelrod con condiciones de juegos repetidos y fuentes actuales de valoraciones, sin honradez siempre rentable ni aval principal universal no verificado; sesgos contra recién llegados. 186: presupuesto flexible con fuentes primarias, sin fingir lecturas de Stanley/Danko/Bastos, ratios universales o ahorro posible para todo ingreso. Tres bolsas como propuesta educativa, reconociendo recursos insuficientes.
+
+Autonomía cerrada 15/15, tanda 12/56 terminada. Responsabilidad Personal 3/15, tanda 13/56 en marcha; doce tandas completas. El orden original se conserva, Inversión y Capital empieza en 241. Automatización y autorización activas; sin agotamiento de herramientas comunicado. Reanudar consultando WordPress y expedientes, sin duplicar artículos ni medios.
 
 Sin cambios de alcance o arquitectura.
