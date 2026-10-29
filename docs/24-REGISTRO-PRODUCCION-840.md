@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-29T16:49:10+00:00.
+Comprobado en WordPress: 2026-10-29T17:32:57+00:00.
 
-**237/840 terminadas · 0 en curso · 603 pendientes.**
+**243/840 terminadas · 0 en curso · 597 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -249,12 +249,12 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 235 | 16/56 · 10/15 | E5.6.10 | Caridad, filantropía y Estado: ¿quién ayuda mejor? | terminada | 3/3 | [Leer](https://moevec.org/blog/caridad-filantropia-estado/) |
 | 236 | 16/56 · 11/15 | E5.6.11 | Sanidad en Cuba: logros, datos y realidad cotidiana | terminada | 3/3 | [Leer](https://moevec.org/blog/sanidad-en-cuba/) |
 | 237 | 16/56 · 12/15 | E5.6.12 | Seguros de salud privados en América Latina: guía para entenderlos | terminada | 3/3 | [Leer](https://moevec.org/blog/seguros-salud-privados-latam/) |
-| 238 | 16/56 · 13/15 | E5.6.13 | Cooperativas de servicios y mutuas hoy: alternativas comunitarias | pendiente | 0/3 | — |
-| 239 | 16/56 · 14/15 | E5.6.14 | Cuánto cuestan de verdad los servicios «gratuitos» | pendiente | 0/3 | — |
-| 240 | 16/56 · 15/15 | E5.6.15 | Una propuesta MEE de red de protección: principios | pendiente | 0/3 | — |
-| 241 | 17/56 · 1/15 | E7.4.01 | Libertad para invertir: por qué importa a quien no es rico | pendiente | 0/3 | — |
-| 242 | 17/56 · 2/15 | E7.4.02 | China y la prohibición de las criptomonedas (2021) | pendiente | 0/3 | — |
-| 243 | 17/56 · 3/15 | E7.4.03 | El Salvador y el bitcóin: de moneda de curso legal a la reforma de 2025 | pendiente | 0/3 | — |
+| 238 | 16/56 · 13/15 | E5.6.13 | Cooperativas de servicios y mutuas hoy: alternativas comunitarias | terminada | 3/3 | [Leer](https://moevec.org/blog/cooperativas-y-mutuas-hoy/) |
+| 239 | 16/56 · 14/15 | E5.6.14 | Cuánto cuestan de verdad los servicios «gratuitos» | terminada | 3/3 | [Leer](https://moevec.org/blog/cuanto-cuestan-servicios-gratuitos/) |
+| 240 | 16/56 · 15/15 | E5.6.15 | Una propuesta MEE de red de protección: principios | terminada | 3/3 | [Leer](https://moevec.org/blog/propuesta-mee-red-de-proteccion/) |
+| 241 | 17/56 · 1/15 | E7.4.01 | Libertad para invertir: por qué importa a quien no es rico | terminada | 3/3 | [Leer](https://moevec.org/blog/libertad-para-invertir/) |
+| 242 | 17/56 · 2/15 | E7.4.02 | China y la prohibición de las criptomonedas (2021) | terminada | 3/3 | [Leer](https://moevec.org/blog/china-prohibicion-criptomonedas/) |
+| 243 | 17/56 · 3/15 | E7.4.03 | El Salvador y el bitcóin: de moneda de curso legal a la reforma de 2025 | terminada | 3/3 | [Leer](https://moevec.org/blog/el-salvador-bitcoin/) |
 | 244 | 17/56 · 4/15 | E7.4.04 | MiCA: la regulación europea de los criptoactivos | pendiente | 0/3 | — |
 | 245 | 17/56 · 5/15 | E7.4.05 | Control de inversiones extranjeras: el «escudo» europeo | pendiente | 0/3 | — |
 | 246 | 17/56 · 6/15 | E7.4.06 | CFIUS: cómo revisa EE. UU. la inversión extranjera | pendiente | 0/3 | — |

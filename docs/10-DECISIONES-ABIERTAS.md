@@ -469,3 +469,23 @@ Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobad
 Siguiente **238–240 / E5.6.13–E5.6.15**, Capitalismo Consciente → Servicios Sociales. Preparaciones incluidas en las 603 pendientes. E5.6.13: 3/3 imágenes locales; sin texto final, sin publicación; E5.6.14: 3/3 imágenes locales; sin texto final, sin publicación; E5.6.15: 3/3 imágenes locales; sin texto final, sin publicación. Después 241–243. Automatización activa, sin agotamiento comunicado.
 
 Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 238–240 · 29/10/2026
+
+240/840 terminadas, 720 imágenes originales públicas, 0 en curso o borradores WordPress y 600 pendientes.
+
+238: identidad cooperativa ACI y AIM con seguros obligatorios/complementarios diferenciados, caso danés con requisitos y WOCCU2025 con fuentes y cobertura distintas. 239: sanidad2024 corriente total por habitante y educación2023 pública por alumno FTE en edición2026, sin sumar unidades ni factura individual; estudio de eficiencia2010 con límites y coste de oportunidad de Bastiat. 240: síntesis de catorce entradas, cinco principios normativos, continuidad para necesidades permanentes, casos con alcance e invitación sin consulta o presupuesto inventados.
+
+Siguiente **241–243 / E7.4.01–E7.4.03**, Política y Economía → Inversión y Capital. Preparaciones incluidas en las 600 pendientes. E7.4.01: 0/3 imágenes locales; sin texto final, sin publicación; E7.4.02: 0/3 imágenes locales; sin texto final, sin publicación; E7.4.03: 0/3 imágenes locales; sin texto final, sin publicación. Después 244–246. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 241–243 · 29/10/2026
+
+243/840 terminadas, 729 imágenes originales públicas, 0 en curso o borradores WordPress y 597 pendientes.
+
+241: ahorro y capital con vínculos condicionados, Fraser2026 con referencia2024 y método, protección CNMV y sin recomendaciones. 242: aviso2021 firmado15/9/publicado24/9; minería diferenciada; derogación por aviso42/2026 y e-CNY2021 separado de intereses de carteras identificadas Bank of China2026. 243: Decreto199 y consolidado conservan curso legal con aceptación voluntaria, vigencia30/4/2025, NBERrevisado2023/encuesta2022 y FMI1/10/2026 sin medir usoactual o rentabilidadestatal.
+
+Siguiente **244–246 / E7.4.04–E7.4.06**, Política y Economía → Inversión y Capital. Preparaciones incluidas en las 597 pendientes. E7.4.04: 3/3 imágenes locales; sin texto final, sin publicación; E7.4.05: 3/3 imágenes locales; sin texto final, sin publicación; E7.4.06: 3/3 imágenes locales; sin texto final, sin publicación. Después 247–249. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.

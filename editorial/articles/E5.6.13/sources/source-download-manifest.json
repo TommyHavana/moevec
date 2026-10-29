@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-29T16:56:34.494228+00:00",
+  "checked_at": "2026-10-29T17:15:48.937637+00:00",
   "items": [
     {
       "name": "ica-identity",
@@ -51,7 +51,41 @@
         }
       ],
       "errors": []
+    },
+    {
+      "name": "danmark-about",
+      "url": "https://www.sygeforsikring.dk/om-danmark",
+      "files": [
+        {
+          "file": "danmark-about.html",
+          "bytes": 240285,
+          "sha256": "6cc289bcbaa7bec2c733847eb762010d9d37b3ec575174e3122fb21d4d5e1050"
+        },
+        {
+          "file": "danmark-about.visible.txt",
+          "bytes": 7548,
+          "sha256": "ec95376f60c8067e2f59daa020115b1ebdcb26aba7ca933ed523ee65f34623c9"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "aim-spanish",
+      "url": "https://www.aim-mutual.org/quienes-somos/?lang=es",
+      "files": [
+        {
+          "file": "aim-spanish.html",
+          "bytes": 164323,
+          "sha256": "39328fcf97b166310c2100191edc577c451f77234d7a040af4bea4e49ae6fb96"
+        },
+        {
+          "file": "aim-spanish.visible.txt",
+          "bytes": 5033,
+          "sha256": "a5b5b1e6b0185b2eb8a7c3d3333716e891a63e09eb98b3d04b9fef0fca8ef1a3"
+        }
+      ],
+      "errors": []
     }
   ],
-  "warning": "Preparación, no revisión final. Lectura parcial explícita,403conservados, archivos íntegros no equivalen a lectura completa."
+  "scope": "Solo se atribuyen las secciones leídas en reading-scope.json. Errores de acceso conservados; lectura web primaria y copias compartidas identificadas."
 }

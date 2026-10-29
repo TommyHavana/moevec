@@ -1,0 +1,716 @@
+ 
+ 
+ 
+Progress of Research & Development 
+of E-CNY in China 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Working Group on E-CNY Research and Development of the 
+People's Bank of China 
+July, 2021
+
+1 
+ 
+ 
+Progress on Research and Development of E-CNY in China 
+ 
+Introduction 
+The robust development of network technology and digital economy call for retail 
+payment services that are more convenient, safe, inclusive and privacy-friendly. In 
+many countries and regions, central banks or monetary authorities have kept a close 
+eye on Fintech development and sought to digitalize fiat currency, putting theory into 
+practice.  
+ 
+The People’s Bank of China (PBOC) attaches great importance to the research and 
+development of digital fiat currency. In 2014, it set up a task force to study digital fiat 
+currency, and its scope of research covered the issuance framework, key technologies, 
+issuance and circulation environment, and international experience. In 2016, the 
+PBOC established its Digital Currency Institute, which developed a Proof of Concept 
+(PoC) of digital fiat currency. At end-2017, upon the approval of the State Council, 
+the PBOC began to work with commercial institutions in developing and testing 
+digital fiat currency (hereinafter referred to as e-CNY, a provisional abbreviation 
+following international practices). So far, as the top-level design, function 
+development, and system testing has been basically completed, the PBOC has 
+initiated pilot programs in some representative regions, while making sure the pilots 
+run in a steady, safe, managed, innovative and practical manner.  
+ 
+The PBOC working group on e-CNY research and development hereby releases this 
+white paper to clarify the PBOC’s position, to explain the background, objectives and 
+visions, design framework and policy considerations for the e-CNY system, to seek 
+public comments, as well as to deepen communication with all those concerned and 
+join hands with them in building an open, inclusive, inter-operable and innovative 
+currency service system for the era of digital economy.  
+ 
+1. Background of research and development 
+1.1 The development of digital economy calls for new retail payment 
+infrastructures that are safe, inclusive and adaptive to the digital era. 
+Currently, as the Chinese economy is shifting from high-speed growth to high-quality 
+development, technological innovation represented by the digital economy has 
+become an important driver of development. With the rapid development of digital 
+technologies such as big data, cloud computing, artificial intelligence, blockchain and 
+the Internet of Things, the digital economy has witnessed various new models and 
+new businesses. Covid-19 has sped up digital transformation of people’s work and life, 
+and online shopping, remote working and e-learning have become more active. The 
+digital economy has expanded in its geographic coverage, and the less developed and 
+remote areas have witnessed a rising demand for online financial services.  
+ 
+In recent years, the rapid development of electronic payment, especially mobile 
+
+2 
+ 
+ 
+payment in China has provided the public with convenient and efficient retail 
+payment services, which boosted development of the digital economy, helped the 
+public get used to digital payment, and created higher demand for technology and new 
+services. Meanwhile, a safer, more inter-operable and more inclusive retail payment 
+infrastructure which meets diversified payment needs is an important public good for 
+higher quality growth. Such infrastructure will deliver better and more efficient basic 
+financial services, ensure smooth domestic circulations, and support the building of a 
+new development paradigm.  
+ 
+1.2 The functions of cash and the environment of using cash are changing 
+profoundly.  
+As the digital economy develops, the share of transactions using cash is declining in 
+China. According to a survey conducted by the PBOC in 2019, the number and value 
+of transactions via mobile payment accounted for 66 percent and 59 percent of the 
+total, while those paid in cash accounted for 23 percent and 16 percent, and those paid 
+by card 7 percent and 23 percent, respectively. Among those surveyed, 46 percent 
+used no cash in any transaction during the survey period. It should be noted, however, 
+from end-2016 to end-2020, cash in circulation (M0) registered RMB6.83 trillion, 
+RMB7.06 trillion, RMB7.32 trillion, RMB7.72 trillion and RMB8.43 trillion, 
+respectively, representing a small rise. In the areas where financial services are less 
+available, in particular, cash usage is still quite common. Meanwhile, the cost of cash 
+management is quite high. Every element in the cash cycle consumes much human, 
+physical and financial resource. Such elements include banknote design, minting and 
+printing, transportation, deposit and withdrawal, identification, processing, reflow, 
+destruction, counterfeit prevention and etc.  
+ 
+1.3 Cryptocurrencies, especially global stablecoins (GSC), have developed 
+rapidly.  
+Since the creation of Bitcoin, the private sector has launched a variety of so-called 
+cryptocurrencies. According to incomplete statistics, there are over 10,000 kinds of 
+cryptocurrencies which have gained some influence, whose total value exceeds 
+USD1.3 trillion.1 Adopting blockchain and encryption technology, cryptocurrencies 
+such as Bitcoin are claimed to be decentralized and entirely anonymous. However, 
+given their lack of intrinsic value, acute price fluctuations, low scalability and huge 
+energy consumption, they can hardly serve as currencies used in daily economic 
+activities. In addition, cryptocurrencies are mostly speculative instruments, and 
+therefore pose potential risks to financial security and social stability. Moreover, they 
+have been employed as payment instruments for money-laundering and other illegal 
+economic activities. To tackle the relatively big price fluctuation concern of 
+cryptocurrencies, some commercial institutions launched so-called “stablecoins”, and 
+tried to stabilize their values by pegging them to sovereign currencies or related assets. 
+Some commercial institutions even plan to launch global stablecoins, which will bring 
+                                                        
+1 Source: the website of CoinMarketCap, as of July 15th, 2021. 
+
+3 
+ 
+ 
+risks and challenges to the international monetary system, payment and clearing 
+system, monetary policies, cross-border capital flow management and etc.  
+ 
+1.4 The international community pays close attention to central bank digital 
+currency (CBDC) and is exploring CBDC options.  
+At the moment, many major economies are actively considering or advancing 
+research and development of CBDC. According to the latest survey conducted by the 
+Bank for International Settlements (BIS) on central banks in 65 countries or 
+economies, about 86 percent have carried out researches on digital currencies. 
+Meanwhile, the proportion of central banks that were performing experiments or 
+developing a proof-of-concept prototype increased from 42 percent in 2019 to 60 
+percent in 2020. Publicly available information shows that, in recent years, central 
+banks of the US, the UK, France, Canada, Sweden, Japan, Russia, Korea and 
+Singapore as well as the European Central Bank have all disclosed their 
+considerations and plans regarding CBDC in various ways. Some central banks have 
+initiated or even completed preliminary trials.  
+ 
+2. Definition, objectives and visions 
+2.1 Definition of e-CNY 
+E-CNY is the digital version of fiat currency issued by the PBOC and operated by 
+authorized operators. It is a value-based, quasi-account-based and account-based 
+hybrid payment instrument, with legal tender status and loosely-coupled account 
+linkage. It has the following connotations:  
+ 
+First, e-CNY is the fiat currency issued by the central bank. Firstly, e-CNY has all 
+the basic functions of money, i.e., unit of account, medium of exchange and store of 
+value. Same as the physical form of RMB, e-CNY is China’s legal tender. Secondly, 
+e-CNY is the digital version of China’s fiat currency. Throughout history, the form of 
+currency has evolved from objects, metal coins to banknotes. Such evolution of 
+currency is a result of progress made in science and technology as well as evolution of 
+economic activities. The issuance and circulation of e-CNY is basically identical with 
+physical RMB, while the value of the former is transferred in a digital form. Thirdly, 
+e-CNY is claim on the central bank. Backed by sovereign credit, e-CNY has the status 
+of legal tender.  
+ 
+Second, e-CNY adopts a centralized management model and a two-tier system. 
+The right to issue e-CNY belongs to the state. The PBOC lies at the center of the 
+e-CNY operation system. It issues e-CNY to authorized operators which are 
+commercial banks, and manages e-CNY through its whole lifecycle. Meanwhile, it is 
+the authorized operators and other commercial institutions that provide exchange and 
+circulation services to the public.  
+ 
+Third, e-CNY is mainly positioned as M0, and will coexist with physical RMB. 
+Both e-CNY and physical RMB are the PBOC’s liabilities to the public, with the same 
+
+4 
+ 
+ 
+legal status and economic value. The PBOC will issue e-CNY and physical RMB in 
+parallel, and will take account of both during daily data collection, analysis and 
+management. International experience shows that, as an economy matures, there 
+naturally arises the need for more diversified means of payment. China is a large 
+country with vast territory, large population, multiple ethnic groups and wide 
+differences in regional development. In such a society, people’s payment habits, age 
+and security needs vary. Therefore, physical RMB enjoys advantages that could not be 
+replaced by other means of payment. As long as there is demand for the physical 
+RMB, the PBOC will neither stop supplying it, nor replace it mandatorily. 
+ 
+Fourth, as retail CBDC, e-CNY mainly serves domestic retail payment demands. 
+Categorized by user and purpose, there are two kinds of CBDC, wholesale and retail. 
+Wholesale CBDC is mainly issued to institutions such as commercial banks and 
+mostly serves inter-bank settlement. Retail CBDC is issued to the public for daily 
+transactions. Major countries and economies vary in their priorities of developing 
+CBDC, with some focusing on wholesale transactions and some dedicated to 
+improving the efficiency of the retail system. E-CNY is a retail CBDC issued to the 
+public. With a modern domestic payment system in China, the issuance of e-CNY will 
+fully meet the public’s daily payment needs, further improve the efficiency of the 
+retail payment system and reduce the cost of retail payment. 
+ 
+Fifth, in the future digital retail payment system, e-CNY and funds in the 
+electronic account of authorized operators are inter-operable, and both 
+constitute cash in circulation. Commercial banks and licensed non-bank payment 
+institutions that meet compliance requirements (including anti-money laundering and 
+countering terrorist financing requirements) and regulatory requirements regarding 
+risk management on a comprehensive and on-going basis may participate in the 
+e-CNY payment system as per recognition and support of the central bank. The 
+interoperability could be achieved in close collaborations with existing payment 
+infrastructures to provide digital retail payment services for customers. 
+ 
+2.2 Objectives and visions 
+The development of China’s e-CNY system aims to create a new form of RMB that 
+meets the public’s demand for cash in the era of digital economy. Supported by a 
+retail payment infrastructure that is reliable, efficient, adaptive and open, the e-CNY 
+system will bolster China’s digital economy, enhance financial inclusion, and make 
+the monetary and payment systems more efficient.  
+ 
+The first objective is to diversify the forms of cash provided to the public by the 
+central bank, satisfy the public’s demand for digital cash and support financial 
+inclusion. As digital technology and electronic payment develop, the use of cash in 
+retail payments has been on a decline. However, it’s the mandate of the central bank 
+to ensure the public’s direct access to central bank money, and make sure the unit of 
+account is consistent in the era of digital economy by digitalizing cash. An e-CNY 
+
+5 
+ 
+ 
+system will make financial services more accessible, providing fiat money for a large 
+population in various scenarios. Those without bank accounts can enjoy basic 
+financial services provided via e-CNY wallet, and foreign residents temporarily 
+travelling in China can open an e-CNY wallet to meet daily payment needs without 
+opening a domestic bank account. In addition, as e-CNY is settled upon payment, 
+businesses and related parties can improve liquidity management while enjoying more 
+convenient payment services. 
+ 
+The second objective is to support fair competition, efficiency and safety of retail 
+payment services. E-CNY will provide the public with a new interoperable way of 
+payment, which will further diversify payment instruments and make the payment 
+system more efficient and safer. The Chinese authorities support coordinated 
+development of various payment methods. E-CNY and existing electronic payment 
+tools are on different dimensions. They complement each other, and also differ. 
+Mainly positioned as M0, e-CNY mainly serves retail payment. Its issuance aims at 
+enhancing financial inclusion. It draws on existing electronic payment technologies 
+and supplements the existing system. While sharing similar payment functions, 
+e-CNY and existing electronic payment instruments differ in many aspects. First, 
+e-CNY is China’s legal tender, which is the safest asset in China. Second, e-CNY 
+enables value transferred without relying on bank accounts. In addition, it supports 
+offline transactions and is settled upon payment. Third, e-CNY supports managed 
+anonymity, which helps protect privacy and personal information. 
+ 
+The third objective is to echo the international initiative and explore the 
+improvement of cross-border payments. Whether e-CNY will be used in 
+cross-border payments, and to promote RMB internationalization draws much 
+attention. First of all, cross-border payment involves various complicated issues such 
+as monetary sovereignty, foreign exchange policies and arrangements, as well as 
+regulatory and compliance requirements. It is also a challenge that the international 
+community is committed to address. The internationalization of a currency is a natural 
+result of market selection. The international status of a country’s currency depends on 
+its economic fundamentals and the depth, efficiency and openness of its financial 
+markets. Therefore, though technically ready for cross-border use, e-CNY is still 
+designed mainly for domestic retail payments at present. Looking ahead, the PBOC 
+will actively respond to initiatives of G20 and other international organizations on 
+improving cross-border payments, and explore the applicability of CBDC in 
+cross-border use cases. Based on experiences of domestic trials and international 
+demand, and preconditioned on mutual respect to monetary sovereignty and 
+compliance, the PBOC will explore pilot cross-border payment programs and will 
+work with relevant central banks and monetary authorities to set up exchange 
+arrangements and regulatory cooperation mechanisms on digital fiat currency in line 
+with the principles of “no disruption,” “compliance,” and “interoperability”. 2 
+                                                        
+2 First, no disruption. CBDC supplied by one central bank should continue to support the healthy evolution of the 
+
+6 
+ 
+ 
+Meanwhile, the PBOC will uphold the principle of having a two-tier system in order 
+to meet regulatory and compliance requirements of various countries. 
+ 
+3. Framework of design 
+The design of e-CNY system follows the concept of “safe and inclusive, innovative 
+and user-friendly, and time-evolving.” The principles for design are based on a 
+holistic consideration of monetary functions, market demand, supply model, 
+technological support, and cost-benefit. Studies are conducted and revised on 
+currency properties, operating model, digital wallet ecosystem building, compliance 
+and responsibilities, technical path, and regulatory system. This aims to deliver an 
+open, inclusive, sound, and reliable e-CNY system design plan that suits China. 
+ 
+3.1 Principles for design 
+Compliance with laws and regulations. The institutional design of e-CNY system 
+strictly complies with regulations on the administration of RMB, anti-money 
+laundering and countering the financing of terrorism (AML/CFT), the administration 
+of foreign exchange, and data and privacy protection. The operation of e-CNY should 
+be included in the regulatory framework. 
+ 
+Safety and Convenience. The e-CNY system is based on broad accounts system, 
+loosely coupled with bank accounts and value-based characteristic. This makes it 
+adaptive to various online and offline payments. Difficulties resulting from limited 
+digital literacy and telecommunications coverage are minimized to meet people’s 
+demand for safe and convenient payment instruments. The e-CNY operation system is 
+highly secure, highly usable, and highly scalable and concurrent, which can ensure 
+business continuity. 
+ 
+Openness and Compatibility. The PBOC leverages on the advantage and 
+professional experience of authorized operators and aspires to keep technology 
+up-to-date by promoting technological competition and upgrading in line with the 
+principle of long-term evolution so as to avoid the excessive concentration of system 
+operational risk. The e-CNY system supports interoperability with traditional 
+electronic payment systems. It makes full use of existing financial infrastructures to 
+achieve interoperability among digital wallets of different operators as well as e-CNY 
+                                                                                                                                                              
+international monetary system. CBDC supplied by one central bank should not disrupt other central bank’s 
+currency sovereignty and their ability to fulfill its mandate for monetary and financial stability, and meanwhile 
+should protect the legitimate rights of consumers and boost fair competition. 
+ 
+Second, compliance. Cross-border payments arrangements with CBDC should have a sound legal system and a 
+stable operation system, comply with the regulations and laws of the jurisdictions concerned, such as capital 
+management and foreign exchange mechanism. Information flow and fund flow could be synchronized, so as to 
+facilitate the advancement of cross-border trade, bolster the development of real economy and meet the regulatory 
+requirements for anti-money laundering and countering terrorist financing.  
+ 
+Third, interoperability. The development of CBDC should fully tap the role of the existing infrastructures and 
+leverage Fintech so as to enable interoperability between CBDC systems of different jurisdictions as well as 
+between CBDC systems and incumbent payment systems. In the meanwhile, its development should contribute to 
+the orderly development of the payment system and guard against market fragmentation. 
+
+7 
+ 
+ 
+wallet with bank accounts, thus improving the interoperability of payment 
+instruments. 
+ 
+3.2 Features of e-CNY design 
+The design of e-CNY takes account of the advantages of both physical RMB and 
+electronic payment instruments. Therefore, it shares both the features of physical 
+RMB, such as settlement upon payment and anonymity, and the features of electronic 
+payment instruments, which are less costly, highly portable, highly efficient and 
+hard-to-counterfeit. The design of e-CNY mainly considers the following features: 
+ 
+3.2.1 Identifiable both as an account-based and a value-based system 
+E-CNY is an account-based, quasi-account-based and value-based hybrid payment 
+instrument. It has a variable face value and it enables value transfer via token. 
+ 
+3.2.2 Non-interest accrual 
+The e-CNY is mainly positioned as M0. Thus, it is treated the same as the physical 
+RMB under M0, which carries and pays no interest. 
+ 
+3.2.3 Low costs 
+Consistent with the management of physical RMB, the PBOC does not charge 
+authorized operators for exchange and circulation services, and the operators do not 
+charge individual users for the e-CNY related services either. 
+ 
+3.2.4 Settlement upon payment 
+According to settlement finality, the e-CNY is loosely coupled with bank accounts, 
+and thus payments through e-CNY wallets are settled upon payment. 
+ 
+3.2.5 Anonymity (managed anonymity) 
+E-CNY follows the principle of “anonymity for small value and traceable for high 
+value,” and attaches great importance to protecting personal information and privacy. 
+It aims to meet the public demand for anonymity in making small value payments on 
+a risk-based approach. Meanwhile, it is necessary to guard against the misuse of 
+e-CNY in illegal and criminal activities, such as tele-fraud, Internet gambling, money 
+laundering, and tax evasion by making sure that transactions comply with AML/CFT 
+requirements. The e-CNY system collects less transaction information than traditional 
+electronic payment system and does not provide information to third parties or other 
+government agencies unless stipulated otherwise in laws and regulations. Internally, 
+the PBOC sets up an information firewall, and strictly implements information 
+security and privacy protocols, such as appointing responsible persons for 
+maintenance, establishing business China wall, applying a tiered authorization system, 
+putting in place checks and balances, and conducting internal audits. Any arbitrary 
+information requests or use are prohibited. 
+ 
+3.2.6 Safety 
+
+8 
+ 
+ 
+E-CNY adopts a variety of technologies, including digital certificate system, digital 
+signature, and encrypted storage to prevent double-spending, illegal duplication and 
+counterfeit, and to achieve irreversible transactions. A multi-layer security system has 
+been initially established to mitigate the potential risks. 
+ 
+3.2.7 Programmability 
+The programmability of e-CNY could be realized by deploying smart contracts 
+without impeding its legal tender functions. Under the premise of security and 
+compliance, this feature enables self-executing payments according to predefined 
+conditions or terms agreed between two parties, so as to facilitate business model 
+innovation. 
+ 
+3.3 Design of e-CNY operation system 
+In line with the central bank’s mandates, there are two options to operate digital fiat 
+currency. One is single-tier system under which the central bank directly provides 
+issuance, circulation, and maintenance services for the general public. The other is 
+two-tier system under which central bank issues digital fiat currency to authorized 
+operators and then these operators take charge of exchange and circulation.  
+ 
+E-CNY adopts two-tier system whereby the PBOC is responsible for issuance and 
+burning, interoperability and wallet ecosystem management. Additionally, it prudently 
+selects commercial banks which meets criteria of capital and technology as authorized 
+operators. The authorized operators are responsible for taking the lead in providing 
+e-CNY exchange services. Other commercial banks and institutions, under the 
+PBOC’s centralized management, give full play to their creativity, and collectively 
+provide services for e-CNY circulation. Specifically, under the quota management of 
+the PBOC, the authorized operators open different types of digital wallets for 
+customers based on the strength of KYC (Know Your Customer), and provide e-CNY 
+exchange services. In the meantime, to enable secure and effective operation, 
+authorized operators and related commercial institutions jointly provide e-CNY 
+circulation services and retail payment services, including payment product design, 
+system development, use cases exploration, marketing, business processing as well as 
+operation and maintenance. The PBOC will try to keep a level-playing field and 
+ensure that the market plays a decisive role in resource allocation. This will 
+incentivize all participants and unleash their creativity, and maintain financial stability. 
+The two-tier system can fully tap authorized operators’ advantage in resources, talents, 
+and technology to build a market-driven system that promotes innovation and 
+competition. On top of that, since the public is used to accessing financial services via 
+commercial banks, the two-tier system can increase the public acceptance of e-CNY. 
+ 
+3.4 Design of e-CNY wallet 
+Digital wallets are the vehicle of e-CNY that reaches out to users. Based on 
+centralized management, unified UI (User Interface) standard and anti-counterfeiting, 
+the PBOC makes the rules, while the authorized operators jointly develop a mobile 
+
+9 
+ 
+ 
+wallet application by the operators, of the operators and for the operators. They 
+manage wallets, authenticate e-CNY, and develop wallet ecosystem to enable 
+operator-specific UI system and special functions as well as online and offline 
+applications in all use cases. This aims to satisfy the different types of demands of 
+different users in different use cases. Digital wallets must be inclusive to close the 
+“digital gap”. 
+ 
+3.4.1 Different categories of digital wallets are opened based on the strength of 
+KYC.  
+Authorized operators open different types of digital wallets for their customers based 
+on the strength of KYC, and set per-transaction and daily limits as well as balance 
+limits according to the strength of KYC. The least-privileged wallets can be opened 
+without providing identities to achieve anonymity. The least-privileged anonymous 
+wallets opened by default could be upgraded to higher-level with real-name KYC as 
+needed. 
+ 
+3.4.2 Personal or corporate wallets are opened based on the type of holder.  
+Natural persons and self-employed individuals can open individual wallets, on which 
+category of transaction and balance limits are placed according to the strength of 
+KYC; legal persons and non-legal-person organizations can open corporate wallets. 
+Transaction and balance limits are determined depending on whether the wallet is 
+opened remotely. The functions of corporate wallets can be customized. 
+ 
+3.4.3 Software or hardware wallets are opened depending on the carrier.  
+A software wallet provides services through mobile payment apps, Software 
+Development Kit (SDK), and Application Programming Interface (API). A hardware 
+wallet uses security chips and other technologies to enable the functions of e-CNY. It 
+is supported by IC card, mobile phones, wearable objects, and the Internet of Things 
+devices. Combining these two types of wallets can enrich the wallet ecosystem and 
+meet the needs of different groups of people. 
+ 
+3.4.4 Parent wallets or sub-wallets are opened depending on the authorization. 
+The wallet holder can set the main wallet as parent wallet and open several 
+sub-wallets under it. Individuals are able to set payment caps, conditional payment, 
+privacy protection and other functions through sub-wallets; enterprises and 
+institutions are able to pool and distribute funds and manage finance through 
+sub-wallets. 
+ 
+3.4.5 The PBOC together with authorized operators and organizations jointly 
+build a e-CNY wallet ecosystem by themselves, for themselves and of themselves.  
+A matrix of e-CNY wallets will be developed from the above dimensions. Based on 
+this, the PBOC makes the rules, while authorized operators provide the basic 
+functions and cooperate with relevant market players to further develop various 
+payment and financial products. This will help build a wallet ecosystem that can meet 
+
+10 
+ 
+ 
+the needs in multiple use cases and enable their respective special functions. 
+ 
+3.5 Compliance 
+3.5.1 Compliance in AML/CFT  
+As e-CNY is China’s fiat currency, existing international standards and Chinese laws 
+on AML/CFT apply. Authorized operators and other commercial institutions 
+providing e-CNY exchange and circulation services are entities to comply with 
+AML/CFT regulations, including customer due diligence, keeping customers’ identity 
+data and records of transactions, and reporting large-value and suspicious transactions. 
+While performing AML duties, authorized operators and other commercial institutions 
+should protect business secrets, individual privacy and personal information in line 
+with laws, and should not divulge customers’ identity data or transaction records. The 
+PBOC, as the competent administrative authority for AML, conducts AML regulation 
+by urging all parties concerned to fulfill their AML obligations and supervising the 
+compliance accordingly. 
+ 
+3.5.2 Protection of consumers’ rights and interests 
+The responsibility division of protecting consumers’ rights and interests in the e-CNY 
+system are the same as that of cash. The PBOC and authorized operators are 
+responsible for authenticating e-CNY via its certificate and serial number. Authorized 
+operators properly handle possible disputes and customer’s loss according to relevant 
+dispute settlement mechanisms. The PBOC protects the rights and interests of 
+consumers in e-CNY exchange and circulation through regulatory review. 
+ 
+3.6 Technical Path 
+The technical path of e-CNY features long-term evolution, continuous iteration and 
+agile upgrading. Regular market-oriented reviews are carried out for continuous 
+improvements. Authorized operators may select their own technical path based on 
+their system requirements and technological advantages, so as to maintain the insight 
+and foresight into future technology. 
+ 
+The e-CNY system adopts a distributed and platform-based design, which enhances 
+the resilience and scalability of the system and supports the rapid growth in the 
+volume of e-CNY transactions. To ensure the reliability and robustness of the system, 
+the PBOC uses a mix of technologies such as trust-computing and specialized 
+integrated encryption in hardware and software. The PBOC also builds up multi-layer 
+security systems and design a data center solution featuring multi-site high 
+availability and 24/7 services, thus guaranteeing city-level disaster tolerance and 
+business continuity.  
+ 
+The e-CNY system combines centralized architecture with distributed architecture, 
+forming a hybrid technical framework featuring the co-existence of dual states, 
+namely, steady state and agile state, as well as the integrated architecture of 
+centralized and distributed architectures. 
+
+11 
+ 
+ 
+ 
+3.7 Regulatory framework 
+The research and development of e-CNY is in line with the legal framework of China. 
+Authorized by the Law of the People’s Bank of China, the PBOC performs the 
+responsibility of issuing RMB and supervising its circulation. The right to issue RMB 
+is held exclusively by the PBOC. The newly released Law of the People’s Bank of 
+China (Revised Draft for Comments) further stipulates that “RMB includes both 
+physical and digital forms.” 
+ 
+However, regulatory measures and requirements for e-CNY need to be tailor-made. 
+Regulation of e-CNY should be based on the principle of ensuring its property as a 
+fiat currency, holding up to the bottom line of risk prevention and supporting 
+innovative developments. The regulatory goals are to establish the management rules 
+for e-CNY business, make clear regulatory requirements for authorized operators, 
+implement laws and rules on AML/CFT, strengthen the protection of user’s personal 
+information to improve safety, user experience and integrity of the e-CNY system. 
+ 
+4. Implications of CBDC and risk mitigation strategy of the e-CNY system 
+There is a divergent view about the implications of retail CBDC. Debates mainly 
+focus on whether it could trigger financial disintermediation, impede monetary policy 
+and exacerbate bank runs. As different architecture may have different implications 
+for monetary policy and financial stability, the PBOC attaches great importance to 
+mitigating risks and preventing potential impact of retail CBDC through top-level 
+designs.  
+ 
+4.1 International debate on the implications of retail CBDC 
+4.1.1 Implications for monetary policy 
+Some believe that retail CBDC is more attractive than deposits and may lead to 
+financial disintermediation, narrow banking, and credit squeeze, while others argue 
+that easy access to CBDC can enhance the transmission of policy rates to the money 
+and credit markets. If CBDC bears interest at a relatively attractive level, institutional 
+investors might move from low-risk assets such as short-term government securities 
+to CBDC, which will have an impact on the price of these assets. Therefore, central 
+banks should take into account the formulation and implementation of monetary 
+policy in CBDC roadmap. However, some also argue that if CBDC bears no interest 
+at all, the risk of CBDC competing with low-risk assets such as commercial bank 
+deposits will be lower, and the potential impact on monetary policy will be mitigated.  
+ 
+4.1.2 Implications for financial stability 
+Some point out that CBDC, as the safest asset, could exacerbate bank runs in times of 
+crisis. Residents and companies can easily convert bank deposits into CBDC, causing 
+financial disintermediation and amplifying financial volatility. In particular, when 
+systemic risks emerge, CBDC will serve as a channel for the public to quickly flee to 
+safe assets. However, there are voices that CBDC will not have significant impact 
+
+12 
+ 
+ 
+because quick interbank transfers have already been made possible under the current 
+e-payment systems. In times of bank crisis or even economic crisis, e.g. currency 
+crisis or sovereign debt crisis, funds will be withdrawn from all domestic assets, 
+including CBDC, instead of merely shifting from bank deposits to CBDC. 
+ 
+4.2 Design of the e-CNY system to mitigate negative impact 
+Since the start of research on e-CNY, the PBOC has been paying close attention to the 
+implications of retail CBDC for monetary system, monetary policy, financial markets, 
+and financial stability, among others. The PBOC leverages on operation, technology 
+and policy designs to minimize negative impact of e-CNY system on existing 
+monetary system, financial system, and the real economy. 
+ 
+To reduce competition with bank deposits, e-CNY is mainly positioned as M0 and 
+pays no interest. It circulates in the same way as the physical RMB in a two-tier 
+system under which commercial banks process e-CNY transactions for the public. 
+Meanwhile, the PBOC has put in place system frictions as appropriate to prevent the 
+rapid spread of bank runs. To promote the use of e-CNY in retail payment use cases, 
+ease the crowding-out of bank deposits, and prevent arbitrage as well as procyclical 
+effects under stressful conditions, the PBOC has come up with a tiered design of 
+e-CNY wallet with different caps on transaction and balance for different categories 
+of e-CNY wallets. Additionally, the PBOC has set up a framework of big data analysis, 
+risk monitoring and early warning for e-CNY to enhance the foresightedness, 
+accuracy and effectiveness of e-CNY management. 
+ 
+Digital fiat currency is new to the economy. Its impact on the economy and the 
+financial sector can be assessed through pilots and trials. The PBOC is carrying out 
+e-CNY pilot programs with the focus on the implications of e-CNY for monetary 
+policy, financial markets and financial stability in the pilot regions. Based on the 
+findings of the pilot programs, the PBOC will iterate and improve the e-CNY design 
+accordingly. 
+ 
+5. Progress in work 
+The PBOC has made sustained efforts to explore, update and improve the relevant 
+theories and technologies on digital fiat currency, which has brought into shape the 
+current e-CNY model and business framework. Going forward, the PBOC will build 
+upon pilot results and further improve technological, business and policy frameworks. 
+ 
+5.1 Previous work 
+From 2014 to 2016, the PBOC established the digital fiat currency research group, 
+and kicked off research in this field. The research group conducted in-depth studies in 
+issuance and business operation framework, key technologies, circulation 
+environment and international practices on digital fiat currency. As a result, the theory 
+of digital fiat currency for the initial stage took shape. In 2016, the PBOC built the 
+first PoC prototype of China’s digital fiat currency, established the Digital Currency 
+
+13 
+ 
+ 
+Institute (DCI), and proposed the top-level designs and fundamental features of 
+e-CNY, including the two-tier system, mainly positioned as M0, loosely coupled with 
+bank accounts, and managed anonymity. 
+ 
+Under this framework and approved by the State Council, the PBOC started the 
+e-CNY R&D project at the end of 2017. Large commercial banks, telecom operators 
+and Internet companies with high rankings in asset size, market share and capacity in 
+technology were selected to participate in this project. With long-term evolution 
+ideology embedded in the process of top-level designs and R&D, the PBOC and 
+participating institutions developed and improved e-CNY apps through three phases, 
+i.e., development, PoC, and pilot. The PBOC has developed three main functions of 
+e-CNY, which are exchange and circulation management, interoperability and wallet 
+ecosystem. In the meantime, based on the e-CNY R&D framework, the PBOC has 
+built a relatively complete standards system, covering architecture, business operation, 
+interoperability, wallet, security and regulation. 
+ 
+Following the principle of being prudent, secure, managed, innovative and practical, 
+the PBOC has launched e-CNY pilots in Shenzhen, Suzhou, Xiong’an, Chengdu and 
+areas of the 2022 Beijing Winter Olympics since the end of 2019. The pilots were 
+designed to test the soundness of theories, the robustness of systems, the stability of 
+functions, the efficiency of business model, the applicability of use cases and the 
+controllability of risks. Starting from November 2020, Shanghai, Hainan, Changsha, 
+Xi’an, Qingdao and Dalian joined in the pilot. The selection of pilot areas for e-CNY 
+R&D project takes into account factors such as major national development strategies, 
+coordinated regional development strategies, as well as city-specific industrial and 
+economic features. The pilot program now spans the Yangtze River Delta, the Pearl 
+River Delta, the Beijing-Tianjin-Hebei region, and China’s central, western, 
+northeastern and northwestern regions. A wide range of pilot places is conducive to 
+testing and assessing the application of e-CNY in different parts of China. 
+ 
+As of June 30, 2021, e-CNY has been applied in over 1.32 million scenarios, covering 
+utility payment, catering service, transportation, shopping, and government services. 
+More than 20.87 million personal wallets and over 3.51 million corporate wallets had 
+been opened, with transaction volume totaling 70.75 million and transaction value 
+approximating RMB34.5 billion. Supported by local governments budget, some cities 
+distributed red packets of e-CNY to consumers. While some pilots involved users 
+under different real-life use cases, large-scale tests were also arranged. The pilot 
+program tested the business and technological designs as well as robustness of the 
+e-CNY system, user experience of the product and the applicability of use cases. It 
+also raised the public awareness of the e-CNY. 
+ 
+During the pilot, the PBOC focused on exploring the innovation of e-CNY application. 
+Smart contracts were used to make the e-CNY programmable, and better integrated 
+into various use cases. Through collaboration with selected mobile phone producers, 
+
+14 
+ 
+ 
+the PBOC studied dual offline payment and other innovations on mobile devices. 
+Smartphone-free hardware wallets based on smart e-ink cards were tested in an effort 
+to bridge the “digital gap”. To make Winter Olympic Games technology savvy, 
+innovative use cases were deployed in the premises of the Beijing Organizing 
+Committee for the 2022 Olympic and Paralympic Winter Games, such as unmanned 
+vending carts, automatic vending machines and unattended supermarkets. Wearable 
+devices were developed, such as gloves, badges and Olympic uniforms with payment 
+functions. Most users participating in the pilot tests agree that e-CNY can help 
+improve payment efficiency and reduce costs. The general public, small vendors and 
+enterprises acknowledge the convenience and inclusiveness of e-CNY. 
+ 
+During the R&D and pilot, the PBOC extensively exchanged views with international 
+organizations (IOs) such as the Financial Stability Board, the Bank for International 
+Settlements (BIS), the International Monetary Fund and the World Bank. The PBOC 
+discussed cutting-edge issues on digital fiat currency with monetary and fiscal 
+authorities and regulators in various jurisdictions, multinational financial institutions, 
+and academia. It actively participated in setting standards for digital fiat currency and 
+building an international standard system under the framework of international 
+standard setting bodies. The PBOC DCI has signed an MOU with the Hong Kong 
+Monetary Authority. It has also joined the Multiple CBDC Bridge (m-CBDC Bridge) 
+led by the BIS Innovation Hub (BISIH), where it explores CBDC initiatives in joint 
+efforts with BIS innovation hub centers in Hong Kong Special Administrative Region 
+and Singapore, as well as relevant central banks. 
+ 
+5.2 Outlook 
+The PBOC will continue to prudently advance the pilot e-CNY project in line with 
+China’s 14th Five-Year Plan, with no preset timetable for the final launch. Efforts will 
+focus on the following areas. 
+ 
+First, the PBOC will forge ahead with the e-CNY project in a prudent and 
+orderly manner. Building on the experience from the previous pilots and taking into 
+account the development plans and local circumstances of pilot places, the PBOC will 
+further expand to cover all possible use cases in pilot regions. The PBOC will 
+improve the e-CNY ecosystem, and continue to explore new application models in 
+line with economic and social development. In the meantime, the PBOC will join 
+hands with and tap the strengths of all relevant parties, including authorized operators, 
+to improve pilot schemes based on practices and continuously optimize the design of 
+the e-CNY system.  
+ 
+Second, the PBOC will improve relevant institutional arrangements and rules. 
+We will actively advance the revision of laws and regulations, such as the Law on the 
+People’s Bank of China, and explore to formulate administrative measures on e-CNY 
+to enhance protection of personal information. The PBOC will improve the rulebook 
+and technical codes. Additionally, we will improve security management for the 
+
+15 
+ 
+ 
+e-CNY operation system throughout the entire lifecycle of e-CNY, covering 
+encryption security, financial information security, data security and business 
+continuity, so as to ensure safety and stability of the system. 
+ 
+Third, the PBOC will strengthen R&D on major issues. We will deepen our 
+analysis of e-CNY’s potential impact on monetary policy, financial system and 
+financial stability, in an effort to lay a solid theoretical and policy foundation for the 
+R&D and potential application of e-CNY. Meanwhile, the PBOC is willing to 
+participate actively in international exchanges of views on digital fiat currency and 
+discuss standards setting in an open and inclusive manner, in order to jointly advance 
+the development of the international monetary system. 
+ 

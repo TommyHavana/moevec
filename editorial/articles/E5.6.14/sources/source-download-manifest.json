@@ -1,10 +1,16 @@
 {
-  "checked_at": "2026-10-29T16:56:34.494228+00:00",
+  "checked_at": "2026-10-29T17:15:48.937637+00:00",
   "items": [
     {
       "name": "oecd-eag2026-finance",
       "url": "https://www.oecd.org/en/publications/education-at-a-glance-2026_b4968bbc-en/full-report/key-system-level-indicators-of-education-finance_d143f855.html",
-      "files": [],
+      "files": [
+        {
+          "file": "oecd-eag2026-finance.xlsx",
+          "bytes": 457414,
+          "sha256": "5c772a73eb41bc6a18d213137328f3a2c62a473486315b8f721e088775a5fd09"
+        }
+      ],
       "errors": [
         {
           "name": "oecd-eag2026-finance",
@@ -43,7 +49,60 @@
           "downloaded": false
         }
       ]
+    },
+    {
+      "name": "oecd-efficiency2010",
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2010/05/health-care-systems_g17a1e60/5kmfp51f5f9t-en.pdf",
+      "files": [
+        {
+          "file": "oecd-efficiency2010.txt",
+          "bytes": 373698,
+          "sha256": "2293d5f94d548f5240554e524cbb608d2a4dfc3f4c541fa7a590009c6e4741a7"
+        },
+        {
+          "file": "oecd-efficiency2010.pdf",
+          "bytes": 4684913,
+          "sha256": "2f12493683814043bf5492baf172431228015f4c4c078c3fa345778bf65ac0cd"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "oecd-efficiency2010-page",
+      "url": "https://www.oecd.org/en/publications/health-care-systems_5kmfp51f5f9t-en.html",
+      "files": [],
+      "errors": [
+        {
+          "name": "oecd-efficiency2010-page",
+          "url": "https://www.oecd.org/en/publications/health-care-systems_5kmfp51f5f9t-en.html",
+          "error": "HTTP Error 403: Forbidden",
+          "downloaded": false
+        }
+      ]
+    },
+    {
+      "name": "bastiat-copy",
+      "url": "https://bastiat.org/en/twisatwins.html",
+      "files": [
+        {
+          "file": "bastiat-copy.visible.txt",
+          "bytes": 100934,
+          "sha256": "3b691728978bf329e67b5a8bb665393eb27f4900f019085c296f60543f139edf"
+        },
+        {
+          "file": "bastiat-copy.html",
+          "bytes": 115929,
+          "sha256": "8a7933a9b0086f07ed14f1547d036058a56bb99c1c6a22035a0f20f68e54457b"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "oecd-eag2026-finance-xlsx",
+      "url": "https://stat.link/ax7gjn",
+      "files": [],
+      "errors": []
     }
   ],
-  "warning": "Preparación, no revisión final. Lectura parcial explícita,403conservados, archivos íntegros no equivalen a lectura completa."
+  "scope": "Solo se atribuyen las secciones leídas en reading-scope.json. Errores de acceso conservados; lectura web primaria y copias compartidas identificadas."
 }

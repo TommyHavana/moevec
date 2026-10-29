@@ -1,15 +1,19 @@
-# Preparación · E5.6.13
+# Investigación y publicación · E5.6.13
 
-No publicada ni terminada. Tres originales completos; texto y revisión pendientes.
+Consulta: 29/10/2026. Alcance específico; descargar una obra no implica lectura íntegra.
 
-## Lectura realizada
+- [Alianza Cooperativa Internacional, identidad cooperativa](https://www.ica.coop/en/cooperatives/cooperative-identity/): Definición, valores y siete principios leídos: asociación voluntaria, propiedad conjunta, control democrático, participación económica, autonomía; no garantía de solvencia por forma jurídica.
+- [AIM, Quiénes somos](https://www.aim-mutual.org/quienes-somos/?lang=es): Página primaria leída: entidades mutuales/solidarias, ausencia de accionistas y cobertura obligatoria y/o complementaria. No afirmar voluntariedad de toda afiliación sanitaria ni identidad jurídica uniforme.
+- [Sygeforsikringen danmark, Om danmark](https://www.sygeforsikring.dk/om-danmark): Descripción primaria de propiedad de miembros, ayudas dentales, medicamentos, gafas y fisioterapia, grupos y requisitos de admisión. No cobertura universal, recomendación de contratación ni evaluación independiente de eficiencia.
+- [WOCCU, Statistical Report 2025](https://www.woccu.org/documents/2025_Statistical_Report_EN): Informe13p, pp1–3,5–6 leídas: cierre2025, tablaLatinoamérica Colombia175entidades/México395; fuentesFECOLFINyDGRV respectivamente. Revisión de cobertura/clasificación impide interpretar cambios agregados como crecimiento. No censos homogéneos ni garantías de depósitos.
 
-- Brief original y etiquetas. ICA identidad y afiliación voluntaria/abierta leídos en página primaria.
-- AIMWhoWeAre leído: miembros sinaccionistas, sectores de seguro obligatorio y/o suplementario; no afirmar toda mutualidad implica afiliación sanitaria voluntaria.
-- WOCCU2025PDF13p descargado: pp1–3y5leídas. Cambios de método/cobertura corrigen series: no interpretar variación de totales como crecimiento sin armonizar. TablaLatinoamérica localizada, notas por país pendientes.
+## Límites
 
-## Siguiente trabajo
+- No confundir AIM europea con A.I.M. Mutual estadounidense.
+- La propiedad mutual no prueba afiliación voluntaria de todos los seguros que gestionan sus miembros.
+- No garantía financiera ni rendimiento, no cifras monetarias o recomendación de entidad.
+- WOCCU2025 fuentes distintas por país; no comparación de crecimiento ni miembros como personas únicas.
 
-- Leer notas país WOCCU p13 y seleccionar dos ejemplos latinoamericanos con ámbito y año, verificar régimen y supervisor si se describe garantía.
-- Elegir caso mutual europeo primario; separar titularidad, afiliación voluntaria y participación en seguro obligatorio.
-- No ofrecer solvencia, rendimiento o cobertura universal por rótulo cooperativa. Explicar gobernanza y escala; dos ejemplos hipotéticos, contraargumento, lecturaMEE yFAQ.
+## Resultado
+
+https://moevec.org/blog/cooperativas-y-mutuas-hoy/ · 1208 palabras en WordPress. Tres imágenes propias, una publicación y tres adjuntos, sin duplicados.

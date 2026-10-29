@@ -1,19 +1,45 @@
 {
-  "checked_at": "2026-10-29T16:56:34.494228+00:00",
-  "full_sources_review_complete": false,
+  "checked_at": "2026-10-29T17:15:48.937637+00:00",
+  "full_sources_review_complete": true,
+  "whole_books_read": false,
   "read": [
-    "Brief y referencias F114/F117/F039 identificados.",
-    "EurostatPDF08/09/2026, extracción20/8/2026, p1leída: COFOGgasto administraciones públicas salud2024; no gasto sanitario total ni cifra per cápita sin denominador.",
-    "OCDEEducationatGlance2026capítulofinanzas consultado vía búsqueda: datos2023yprimeros2024, USD PPP por alumnoFTE. Descarga403: tablas pertinentes todavía por revisar.",
-    "BastiatsecciónPublicWorks extracto primario enEconlib localizado/leído porweb, descarga403; no obra íntegra leída. Recursos destinados a un uso tienen alternativas; no argumento de inutilidad de toda obra pública.",
-    "Copias primarias HAG2025 y RevenueStatistics2025 desde investigaciones propias, hashes conservados. No nuevas imágenes reutilizadas."
+    {
+      "name": "OCDE, Health at a Glance 2025",
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/11/health-at-a-glance-2025_a894f72e/8f9e3f98-en.pdf",
+      "scope": "Tabla1.6 y capítulo7 gasto por habitante/definiciones leídos:5967USDPPP por persona2024 provisional/estimado, gasto corriente total con varias fuentes, excluye formación capital del indicadorcorriente. No factura familiar ni gasto exclusivamente público."
+    },
+    {
+      "name": "OCDE, Education at a Glance 2026, capítulo C 1",
+      "url": "https://www.oecd.org/en/publications/education-at-a-glance-2026_b4968bbc-en/full-report/key-system-level-indicators-of-education-finance_d143f855.html",
+      "scope": "ApartadofiguraC1.3 y metodología leídos porweb. XLSXprimario stat.link/ax7gjn: hojaFigureC1.3 celdaE54=13859.0095, gasto gubernamental institucionespúblicas por alumnoFTE2023, primaria/secundaria/postsecundaria no terciaria,USDPPPPIB. No todaeducación, coste por hogar ni rankingeficiencia."
+    },
+    {
+      "name": "Eurostat, Government expenditure on health, 2026",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/SEPDF/cache/42733.pdf?v=3705319269968816",
+      "scope": "PDFp1 y definiciónCOFOGleídos: gasto administraciones públicas funciónsalud2024; cobertura diferente de gasto sanitario total. No reproducir cifra sin denominador per cápita."
+    },
+    {
+      "name": "OCDE, Revenue Statistics 2025",
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/12/revenue-statistics-2025_07ca0a8e/3a264267-en.pdf",
+      "scope": "Copia primaria de investigaciónE5.5.05 conhash: resumenp9, clasificaciónimpuestos y cotizacionesobligatorias administracionespúblicas. No composiciónrecaudatoria como carga fiscalefectiva de hogar."
+    },
+    {
+      "name": "Joumard, André y Nicq, Health Care Systems: Efficiency and Institutions, 2010",
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2010/05/health-care-systems_g17a1e60/5kmfp51f5f9t-en.pdf",
+      "scope": "Documento769del19/5/2010,PDF132p: ppPDF6–9/impresas5–8 leídas, vidaesperanza parcial, métodos macro y ausencia de tipo sistemáticamentesuperior. No rankingactual2026ni conclusióngastar menos=eficiencia."
+    },
+    {
+      "name": "Frédéric Bastiat, Lo que se ve y lo que no se ve, Obras públicas, 1850",
+      "url": "https://bastiat.org/en/twisatwins.html",
+      "scope": "SecciónVPublicWorks traducción primaria leída; coste de oportunidad y utilidad de obra diferenciados. No libro íntegro leído ni pruebaempírica de inutilidad del gasto público."
+    }
   ],
-  "pending": [
-    "Definir país, año y comparador antes de fijar cifras; sanidad por habitante y educación por alumno tienen denominadores distintos, no sumarlos.",
-    "Leer tablas de financiación sanitaria, gasto2024/corriente vs capital y fuente pública/privada. Comprobar si actualización primaria posterior cambia dato.",
-    "Leer tabla de educación2026y su método; PPAUSD, año2023, alumnoFTE, etapas y fuente de financiación explícitos.",
-    "Impuestos, cotizaciones y otras fuentes diferenciadas; no composición recaudatoria como carga efectiva por hogar ni causalidad de eficiencia por gastar menos.",
-    "Redactar lecturaBastiat con alcance y contrapartida acceso gratuito en punto deuso, dos ejemplos hipotéticos,FAQ,fuentes y revisión."
+  "pending": [],
+  "limits": [
+    "No sumar denominadores o años distintos ni convertir promedioOCDE en impuestoindividual.",
+    "No confundir gasto sanitario total conCOFOGgasto gubernamental, ni financiaciónobligatoria con públicoexclusivo.",
+    "No convertir estudio2010enranking2026, bajo gasto o más partidas no prueban eficiencia.",
+    "Coste de oportunidad no demuestra que cualquier servicio debacobrarse en punto deuso."
   ],
-  "images": "3/3originales image_gen integrado, revisión individual y mosaico238–240, sin publicación"
+  "correction": "WOCCU notas de países en p6, no p13. EAG2026 XLSX y figuraC1.3 revisados. Revisión final sustituye preparación parcial anterior."
 }

@@ -1,0 +1,34 @@
+{
+  "id": "E7.4.04",
+  "prompts": {
+    "featured": "Use case: stylized-concept. Original MEE editorial illustration. Premium crafted miniature, tactile paper, limestone and ceramic, cobalt blue, vermilion red and warm ivory palette. Refined directional light, subtle texture, controlled shadows. Wide landscape, essential objects within central safe crop. No text, numbers, labels, logos, watermark, flags or statistical chart. An imagined ivory monumental doorway with a clean cobalt surround and a sophisticated vermilion digital lock floating precisely at its center. Door is partially open with a narrow warm light beyond. Subtle European institutional architecture without flags, stars or emblems. Restrained paper and ceramic editorial miniature about entry conditions for digital assets. Entire doorway and lock visible, generous safe margins.",
+    "interior-1": "Use case: stylized-concept. Original MEE editorial illustration. Premium crafted miniature, tactile paper, limestone and ceramic, cobalt blue, vermilion red and warm ivory palette. Refined directional light, subtle texture, controlled shadows. Wide landscape, essential objects within central safe crop. No text, numbers, labels, logos, watermark, flags or statistical chart. A blank cobalt digital token lying on an ivory desk next to a vermilion rubber-stamp tool. Stamp is raised directly above an empty circular indentation on a plain ivory card. No ink letters, checkmarks, official seals or currency symbols. Refined tactile miniature, regulated issuance concept, all objects fully visible with large margins.",
+    "interior-2": "Use case: stylized-concept. Original MEE editorial illustration. Premium crafted miniature, tactile paper, limestone and ceramic, cobalt blue, vermilion red and warm ivory palette. Refined directional light, subtle texture, controlled shadows. Wide landscape, essential objects within central safe crop. No text, numbers, labels, logos, watermark, flags or statistical chart. A sculptural equal-arm cobalt balance on an ivory plinth. One pan supports a small red translucent protective dome over a blank token; the other pan supports a modest vermilion gate. Balanced contemplative composition about protection and entry costs, no labels, numbers or arrows. Whole balance and both objects completely visible wide margins."
+  },
+  "sources": {
+    "featured": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-79772a35-2996-4989-82d5-b1810f151fc4.png",
+    "interior-1": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-9d0f447b-dd01-4d51-b7ad-80d971ccf843.png",
+    "interior-2": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-0953e334-10a7-401b-8056-bd105b8dee41.png"
+  },
+  "tool": "builtin_image_gen",
+  "sources_are_conceptual": true,
+  "framing_edits": {
+    "tool": "builtin_image_gen",
+    "edits": [
+      {
+        "role": "featured",
+        "original": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-7b3ded43-fbae-4e1b-92ee-4ad63e4c61ef.png",
+        "selected": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-79772a35-2996-4989-82d5-b1810f151fc4.png",
+        "prompt": "Edit this MEE editorial illustration. Change only camera framing: zoom out about 25 percent so the entire central doorway including the complete upper arch has generous ivory/cobalt architectural space above it and stays within the central safe crop. Preserve the door slightly open, floating red digital lock, tactile materials, blue-red-ivory palette, lighting and balanced wide composition. No text or symbols. Deliver a wide landscape cover intended final crop 1200x630.",
+        "reason": "Arco completo con margen"
+      },
+      {
+        "role": "interior-1",
+        "original": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-263e772a-e12b-4e3b-85e8-bfead243a1ed.png",
+        "selected": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-9d0f447b-dd01-4d51-b7ad-80d971ccf843.png",
+        "prompt": "Edit this MEE editorial miniature. Change only camera framing, zooming out about 25 percent so the ENTIRE red stamp tool including the rounded top of its handle has clear empty ivory margin above it. Keep the blank blue token, unlettered card and circular impression, tactile ceramic/paper materials, shadows and ivory-red-blue palette unchanged. Wide 16:9 supporting illustration. No text, logos or checkmarks.",
+        "reason": "Herramienta completa con margen"
+      }
+    ]
+  }
+}

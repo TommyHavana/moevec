@@ -2,27 +2,27 @@
 
 ## Estado actual
 
-**237/840 terminadas, 711 imágenes originales públicas, 0 en curso o borradores WordPress y 603 pendientes**. Servicios Sociales 12/15; 15 tandas completas y tanda 16 en curso.
+**243/840 terminadas, 729 imágenes originales públicas, 0 en curso o borradores WordPress y 597 pendientes**. Inversión y Capital 3/15; 16 tandas completas y tanda 17 en curso.
 
 Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Desde 231: entradas 232–237, 18 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
+Desde 237: entradas 238–243, 18 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
 
-Una publicación y tres adjuntos por ID; categorías Capitalismo Consciente y Servicios Sociales, etiquetas exactas. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales y variantes comprobados. Navegación y BreadcrumbList: Blog → área → subcategoría. Taxonomía: 122 nodos, siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva o posicionamiento.
+Una publicación y tres adjuntos por ID; categorías Política y Economía y Inversión y Capital, etiquetas exactas. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales y variantes comprobados. Navegación y BreadcrumbList: Blog → área → subcategoría. Taxonomía: 122 nodos, siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva o posicionamiento.
 
 ## Revisión del último bloque
 
-235: panel estadounidense de donaciones y captación con periodo y método; GiveWell como evaluación con estimaciones, Cáritas como relato atribuido del ejecutor. 236: dotación médica2021 de la tabla OCDE2026, mortalidad2024 y2025, OPSmarzo2026 y comentario crítico2018 con alcance histórico. Sin cifras de éxodo no verificadas. 237: modalidades nacionales y conceptos diferenciados, información educativa sin recomendación de póliza o cambios de cobertura.
+241: ahorro y capital con vínculos condicionados, Fraser2026 con referencia2024 y método, protección CNMV y sin recomendaciones. 242: aviso2021 firmado15/9/publicado24/9; minería diferenciada; derogación por aviso42/2026 y e-CNY2021 separado de intereses de carteras identificadas Bank of China2026. 243: Decreto199 y consolidado conservan curso legal con aceptación voluntaria, vigencia30/4/2025, NBERrevisado2023/encuesta2022 y FMI1/10/2026 sin medir usoactual o rentabilidadestatal.
 
 ## Continuación exacta
 
-Siguiente **238–240 / E5.6.13–E5.6.15**, Capitalismo Consciente → Servicios Sociales. Preparaciones incluidas en las 603 pendientes. E5.6.13: 3/3 imágenes locales; sin texto final, sin publicación; E5.6.14: 3/3 imágenes locales; sin texto final, sin publicación; E5.6.15: 3/3 imágenes locales; sin texto final, sin publicación. Después 241–243. Automatización activa, sin agotamiento comunicado.
+Siguiente **244–246 / E7.4.04–E7.4.06**, Política y Economía → Inversión y Capital. Preparaciones incluidas en las 597 pendientes. E7.4.04: 3/3 imágenes locales; sin texto final, sin publicación; E7.4.05: 3/3 imágenes locales; sin texto final, sin publicación; E7.4.06: 3/3 imágenes locales; sin texto final, sin publicación. Después 247–249. Automatización activa, sin agotamiento comunicado.
 
 ## Copias y límites
 
-Respaldo VPS hasta 237: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
+Respaldo VPS hasta 243: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
 
 ## Traspaso
 
