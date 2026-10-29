@@ -189,3 +189,11 @@ Dos bloques consecutivos terminados sin solicitar confirmación:90/840 y270 imá
 123/840 completas y 369 imágenes públicas; 0 en curso/borradores WordPress y 717 pendientes. Regulación y Emprendimiento 15/15 e Impuestos y Redistribución 3/15. Taxonomía exacta, sin categorías añadidas. La entrada 120 incorpora una plantilla CSV orientativa pública, con contenido y hash comprobados; incluida en el respaldo 120. Respaldos de los tres bloques verificados, sin nueva prueba de arranque de restauración completa.
 
 124–126 preparadas localmente con briefs y notas, sin imágenes ni texto final. Autorización continua y automatización activas. Sin nuevas aprobaciones, cambios de arquitectura ni agotamiento de herramientas comunicado. Límites jurídicos y de lectura documentados por ID; no se certifica vigencia integral de todos los litigios argentinos ni lecturas completas de libros no realizadas.
+
+## Producción 124–132 y continuación 133–135 · 29/10/2026
+
+132/840 completas, 396 imágenes públicas, 0 en curso/borradores y 708 pendientes. Categorías y etiquetas exactas, taxonomía intacta de 122 nodos/siete raíces, sin Editorial. Tres respaldos proporcionales verificados; no nueva prueba de arranque de restauración completa.
+
+Original público Civismo 2026 >100MiB conservado fuera de Git en mee-backups/research-originals, con ruta/hash en E7.2.04/sources/original-source-location.json; páginas completas pertinentes y texto completo dentro del expediente. Evita superar el límite de archivo del repositorio y conserva trazabilidad. Descargar no implica lectura íntegra; alcances por fuente documentados.
+
+133–135: briefs y preguntas preparados, sin imágenes ni texto final. Autorización continua y automatización activas. Sin cambios de arquitectura ni nuevas aprobaciones, ni agotamiento de herramientas comunicado.

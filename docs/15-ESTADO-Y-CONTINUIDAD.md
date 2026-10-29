@@ -1,46 +1,48 @@
 # Estado de MEE y continuidad · 29/10/2026 · Europe/Madrid
 
-## Estado actual: 123/840 publicadas y verificadas
+## Estado actual: 132/840 publicadas y verificadas
 
-WordPress confirma **123 terminadas, 369 imágenes originales públicas, 0 en curso/borradores y 717 pendientes**. Ocho tandas completas. Regulación y Emprendimiento tiene 15/15 entradas; Impuestos y Redistribución, 3/15, en la tanda 9/56.
+WordPress confirma **132 terminadas, 396 imágenes originales públicas, 0 en curso/borradores y 708 pendientes**. Impuestos y Redistribución tiene 12/15, tanda 9/56. Ocho tandas completas.
 
 Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Tres bloques consecutivos: **115–117 / E7.1.10–12, 118–120 / E7.1.13–15 y 121–123 / E7.2.01–03**. Se conservan textos, fuentes, revisión, prompts y 27 WebP originales en editorial/articles/. Informes y respaldos en docs/produccion/2026-10-29-*.md.
+Tres bloques consecutivos: **124–126 / E7.2.04–06, 127–129 / E7.2.07–09 y 130–132 / E7.2.10–12**. Textos, fuentes, revisión, prompts y 27 WebP originales en editorial/articles/. Informes y respaldos en docs/produccion/2026-10-29-*.md.
 
-Una publicación y tres adjuntos por ID, con categorías y etiquetas exactas. Blog es el contenedor y Editorial es firma. Auditoría de taxonomía: 122 nodos, siete raíces, sin Editorial ni Uncategorized. Navegación y BreadcrumbList muestran el área y subcategoría correspondientes.
+Una publicación y tres adjuntos por ID. Categorías y etiquetas exactas: Blog → Política y Economía → Impuestos y Redistribución. Blog es contenedor y Editorial es firma. Auditoría actual: 122 nodos, siete raíces, sin Editorial ni Uncategorized. Ningún cambio de taxonomía realizado.
 
-HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces internos e imágenes originales/variantes con hashes comprobados. Registro MD/CSV/JSON sincronizado después de cada publicación. Estas comprobaciones no prueban indexación efectiva ni posicionamiento. La entrada 120 añade una plantilla CSV pública comprobada, conservada en el respaldo 120.
+HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces internos, jerarquía/BreadcrumbList e imágenes originales/variantes con hashes comprobados. Registro MD/CSV/JSON sincronizado después de cada publicación. Esto no prueba indexación efectiva ni posicionamiento.
 
 ## Decisiones de revisión
 
-Licencias: encuesta histórica y asociación salarial, sin causalidad ni precios inferidos; recurso CNMC, sin sentencia firme. Crea y Crece: capital mínimo separado de coste total, reserva sobre beneficio y alcance de responsabilidad en liquidación. Cuba: fuentes oficiales de julio/septiembre de 2026, con prohibiciones, reservas y condiciones distintas; decisión municipal separada del circuito completo.
+Liberación fiscal: Civismo 2026 estimado desde 2025, sin cierre anual completo ni calendario individual; Tax Foundation 2019 con otra base, sin ranking directo. OCDE de sucesiones de 2021 con alcance histórico. España: competencias y bonificaciones por supuesto, sin atribuir todas las renuncias al impuesto; dato notarial catalán de 2025 identificado.
 
-Argentina: instrumentos de 2023/2024 separados de modificaciones de 2026; fallo CNAT identificado y eficacia temporal, sin certificación integral de vigencia ni firmeza de todos los litigios. INDEC sin atribución causal. Estonia: identidad digital separada de residencia física/fiscal y banca; tasas separadas de costes totales. Guía de cinco países con sujetos y alcance de procedimientos explícitos.
+Grandes fortunas: prórroga condicionada, sentencia con alcance del recurso y recaudación estatal separada de cuota conjunta con Patrimonio. Europa: recuento OCDE de 1990/2017 separado de diseños actuales; argumento Saez/Zucman desde trabajo primario público, sin fingir libro íntegro leído. COFOG: datos 2024 y coberturas distintas de Eurostat/CEPAL, provisionalidad y denominador explícitos; las facturas personales son ilustrativas.
 
-Laffer: resultados de modelo y versiones diferenciadas, sin autofinanciación universal. Doctrina alemana de 1995 explicada desde decisión de 2006, sin tope general del 50%. Constitución española, medidas marginales/efectivas y argumentos distributivos diferenciados. Cuña fiscal: edición 2026 con datos de 2025 y perfil explícito, sin aplicar medias a cualquier nómina.
+Pensiones: nómina oficial de octubre de 2026 separada de total anual; proyección AIReF 2050 separada de promedio y certeza. MEI por componente. Argentina: Ley 27.605 histórica, recaudación comunicada al 20/12/2021, sentencia de cámara Panagopulo sin firmeza ni fallo CSJN acreditados; no efecto causal de movilidad inventado. Colombia: proyecto retirado de 2021, Ley 2155 posterior y Ley 2277 de 2022 diferenciados; propuestas Fedesarrollo con su estado.
 
-Alcance de lectura y accesos fallidos por ID. Algunas páginas rechazaron descarga directa; se conservan los errores y la evidencia primaria accesible en investigación. No se afirman lecturas íntegras a partir de extractos o portadas.
+Alcance de lectura y accesos fallidos por ID. Algunos servidores rechazaron el acceso directo; se conserva la evidencia accesible y se identifica el fallo. El supuesto PDF Fedesarrollo de 2021 es un reto de acceso, no el informe leído. No se atribuyen lecturas completas de libros a sus apéndices o extractos.
 
 ## Continuación exacta
 
-**124–126 / E7.2.04–06**: El día de la liberación fiscal; El impuesto de sucesiones en el mundo; Sucesiones en España: diecisiete impuestos distintos. Briefs y etiquetas exactos, notas y fuentes iniciales guardados. **0/3 imágenes por entrada; sin texto final ni publicación**. Son tres preparaciones incluidas en las 717 pendientes; 714 sin iniciar. Después, 127–129.
+**133–135 / E7.2.13–15**: La inflación es un impuesto: el caso venezolano; Cómo leer tu nómina y tu declaración de la renta; Presupuestos públicos: cómo consultarlos tú mismo. Briefs y etiquetas exactos y preguntas de investigación guardados. **0/3 imágenes cada una; sin texto final ni publicación**. Incluidas en las 708 pendientes; 705 sin iniciar. Después, 136–138.
 
-124: localizar informes originales con metodología y año, sin inventar una fecha de 2026 ni equiparar hogares y agregados. 125: informe OCDE de 2021 como fuente histórica, no catálogo actual; comprobar tributación vigente de Suecia, Australia y Canadá y ganancias al fallecer. 126: normas estatales, autonómicas y forales vigentes; bonificaciones según supuesto y estadísticas notariales con periodo. No atribuir todas las renuncias al impuesto.
+133: F-204 contiene una cifra de fuente secundaria no verificada aquí. Localizar series BCV/FMI con periodo y carácter estimado, distinguir señoreaje e impuesto inflacionario y examinar petróleo/sanciones sin causalidad automática. 134: guías actuales de AEAT/SS, SAT y DIAN con país/año; bruto, cotización, retención y cuota distintos. 135: comprobar portales oficiales de España, México, Colombia y Argentina e IBP; separar aprobado, modificado y ejecutado.
 
 ## Copias y límites
 
-Respaldos VPS consistentes, con hashes y miembros comprobados: 115–117, 118–120 y 121–123. El incremento 120 incluye la plantilla CSV. Restaurar la base de 27 entradas del 20261028 y todas las superposiciones hasta 123; importar el SQL más reciente al final. Cifras y cadena exacta en los informes y RESTORE-NOTES.txt. No se ha realizado una nueva prueba de arranque de una restauración completa. Copia local y fuente privada referenciadas en production-state.json e informes.
+Respaldos VPS consistentes de 124–126, 127–129 y 130–132, con hashes y miembros comprobados. Restaurar la base de 27 entradas del 20261028 y todas las superposiciones hasta 132; importar el SQL más reciente al final. Cifras y cadena en informes y RESTORE-NOTES.txt. No nueva prueba de arranque de restauración completa. Copia local y fuente privada referenciadas en production-state.json.
 
-No se ha comunicado agotamiento de imágenes ni existe un bloqueo que requiera al fundador. La automatización sigue activa y la producción continúa desde el punto guardado.
+Original Civismo 2026 de 128.168.610 bytes conservado fuera de Git en mee-backups/research-originals. E7.2.04/sources/original-source-location.json contiene ruta y SHA; el expediente incluye páginas pertinentes completas y texto completo. Conservar el original aparte de la copia de código.
+
+No se ha comunicado agotamiento de imágenes ni un bloqueo que requiera al fundador. La automatización permanece activa para retomar el punto guardado.
 
 ## Autorización y traspaso
 
-Producción continua autorizada hasta 840, sin nuevas confirmaciones. No hubo cambios de DNS, correo, autenticación, tema o taxonomía, ni despliegue React por artículos. Sin nuevos requisitos o arquitectura ni recomendaciones pendientes de aprobación. La auditoría integral fue encargada el 28/10/2026 y está documentada en 22; este trabajo corresponde a producción editorial.
+Producción continua autorizada hasta 840, sin confirmaciones entre bloques. Sin cambios de DNS, correo, autenticación, tema o taxonomía, ni despliegue React por artículos. Sin nuevos requisitos, arquitectura o recomendaciones pendientes de aprobación. La auditoría integral fue encargada el 28/10/2026 y está documentada en 22; esta ejecución corresponde a producción editorial.
 
-Para retomar: leer AGENTS.md, docs/26-PRODUCCION-CONTINUA.md, este estado, el backlog 16, el registro 24 y production-state.json; consultar WordPress y retomar 124–126. No recrear artículos ni medios. Secretos y dependencias excluidos de las copias de código.
+Para retomar: AGENTS.md, docs/26-PRODUCCION-CONTINUA.md, este estado, backlog 16, registro 24 y production-state.json; consultar WordPress y reanudar 133–135. No recrear artículos ni medios. Secretos y dependencias excluidos de copias de código.
 
 ## Historial anterior — no describe el estado actual
 

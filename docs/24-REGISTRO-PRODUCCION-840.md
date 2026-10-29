@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-29T02:23:50+00:00.
+Comprobado en WordPress: 2026-10-29T03:29:17+00:00.
 
-**123/840 terminadas · 0 en curso · 717 pendientes.**
+**132/840 terminadas · 0 en curso · 708 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -135,15 +135,15 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 121 | 9/56 · 1/15 | E7.2.01 | La curva de Laffer: qué dice y qué no dice | terminada | 3/3 | [Leer](https://moevec.org/blog/curva-de-laffer/) |
 | 122 | 9/56 · 2/15 | E7.2.02 | Progresividad y confiscación: dónde está el límite | terminada | 3/3 | [Leer](https://moevec.org/blog/progresividad-y-confiscacion/) |
 | 123 | 9/56 · 3/15 | E7.2.03 | La cuña fiscal: lo que cuesta tu salario y lo que recibes | terminada | 3/3 | [Leer](https://moevec.org/blog/cuna-fiscal-salario/) |
-| 124 | 9/56 · 4/15 | E7.2.04 | El día de la liberación fiscal | pendiente | 0/3 | — |
-| 125 | 9/56 · 5/15 | E7.2.05 | El impuesto de sucesiones en el mundo | pendiente | 0/3 | — |
-| 126 | 9/56 · 6/15 | E7.2.06 | Sucesiones en España: diecisiete impuestos distintos | pendiente | 0/3 | — |
-| 127 | 9/56 · 7/15 | E7.2.07 | Patrimonio y grandes fortunas en España: el impuesto temporal | pendiente | 0/3 | — |
-| 128 | 9/56 · 8/15 | E7.2.08 | Impuestos a la riqueza en Europa: por qué casi todos los quitaron | pendiente | 0/3 | — |
-| 129 | 9/56 · 9/15 | E7.2.09 | Dónde va tu dinero: el gasto público por funciones | pendiente | 0/3 | — |
-| 130 | 9/56 · 10/15 | E7.2.10 | Pensiones: el mayor gasto del Estado | pendiente | 0/3 | — |
-| 131 | 9/56 · 11/15 | E7.2.11 | Argentina: el aporte solidario de las grandes fortunas (2020) | pendiente | 0/3 | — |
-| 132 | 9/56 · 12/15 | E7.2.12 | Colombia: reformas tributarias y protestas | pendiente | 0/3 | — |
+| 124 | 9/56 · 4/15 | E7.2.04 | El día de la liberación fiscal | terminada | 3/3 | [Leer](https://moevec.org/blog/dia-de-la-liberacion-fiscal/) |
+| 125 | 9/56 · 5/15 | E7.2.05 | El impuesto de sucesiones en el mundo | terminada | 3/3 | [Leer](https://moevec.org/blog/impuesto-sucesiones-en-el-mundo/) |
+| 126 | 9/56 · 6/15 | E7.2.06 | Sucesiones en España: diecisiete impuestos distintos | terminada | 3/3 | [Leer](https://moevec.org/blog/sucesiones-espana-comunidades/) |
+| 127 | 9/56 · 7/15 | E7.2.07 | Patrimonio y grandes fortunas en España: el impuesto temporal | terminada | 3/3 | [Leer](https://moevec.org/blog/impuesto-grandes-fortunas-espana/) |
+| 128 | 9/56 · 8/15 | E7.2.08 | Impuestos a la riqueza en Europa: por qué casi todos los quitaron | terminada | 3/3 | [Leer](https://moevec.org/blog/impuestos-riqueza-europa/) |
+| 129 | 9/56 · 9/15 | E7.2.09 | Dónde va tu dinero: el gasto público por funciones | terminada | 3/3 | [Leer](https://moevec.org/blog/donde-va-tu-dinero-cofog/) |
+| 130 | 9/56 · 10/15 | E7.2.10 | Pensiones: el mayor gasto del Estado | terminada | 3/3 | [Leer](https://moevec.org/blog/pensiones-mayor-gasto/) |
+| 131 | 9/56 · 11/15 | E7.2.11 | Argentina: el aporte solidario de las grandes fortunas (2020) | terminada | 3/3 | [Leer](https://moevec.org/blog/argentina-aporte-solidario/) |
+| 132 | 9/56 · 12/15 | E7.2.12 | Colombia: reformas tributarias y protestas | terminada | 3/3 | [Leer](https://moevec.org/blog/colombia-reformas-tributarias/) |
 | 133 | 9/56 · 13/15 | E7.2.13 | La inflación es un impuesto: el caso venezolano | pendiente | 0/3 | — |
 | 134 | 9/56 · 14/15 | E7.2.14 | Cómo leer tu nómina y tu declaración de la renta | pendiente | 0/3 | — |
 | 135 | 9/56 · 15/15 | E7.2.15 | Presupuestos públicos: cómo consultarlos tú mismo | pendiente | 0/3 | — |
