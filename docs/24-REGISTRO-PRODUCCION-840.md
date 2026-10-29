@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-29T12:44:16+00:00.
+Comprobado en WordPress: 2026-10-29T13:19:11+00:00.
 
-**210/840 terminadas · 0 en curso · 630 pendientes.**
+**213/840 terminadas · 0 en curso · 627 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -222,9 +222,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 208 | 14/56 · 13/15 | E5.8.13 | Dónde guardar el ahorro: guía básica de opciones | terminada | 3/3 | [Leer](https://moevec.org/blog/donde-guardar-el-ahorro/) |
 | 209 | 14/56 · 14/15 | E5.8.14 | Frugalidad empresarial: crecer sin despilfarrar | terminada | 3/3 | [Leer](https://moevec.org/blog/frugalidad-empresarial/) |
 | 210 | 14/56 · 15/15 | E5.8.15 | Tu plan de ahorro personal en una página | terminada | 3/3 | [Leer](https://moevec.org/blog/plan-de-ahorro-una-pagina/) |
-| 211 | 15/56 · 1/15 | E5.5.01 | ¿Son socialistas los países nórdicos? Lo que dijo el primer ministro danés | pendiente | 0/3 | — |
-| 212 | 15/56 · 2/15 | E5.5.02 | Libertad económica en los países nórdicos: los datos | pendiente | 0/3 | — |
-| 213 | 15/56 · 3/15 | E5.5.03 | Antes del Estado de bienestar: cómo se enriqueció Suecia | pendiente | 0/3 | — |
+| 211 | 15/56 · 1/15 | E5.5.01 | ¿Son socialistas los países nórdicos? Lo que dijo el primer ministro danés | terminada | 3/3 | [Leer](https://moevec.org/blog/son-socialistas-los-nordicos/) |
+| 212 | 15/56 · 2/15 | E5.5.02 | Libertad económica en los países nórdicos: los datos | terminada | 3/3 | [Leer](https://moevec.org/blog/libertad-economica-nordicos-datos/) |
+| 213 | 15/56 · 3/15 | E5.5.03 | Antes del Estado de bienestar: cómo se enriqueció Suecia | terminada | 3/3 | [Leer](https://moevec.org/blog/como-se-enriquecio-suecia/) |
 | 214 | 15/56 · 4/15 | E5.5.04 | Confianza social: el ingrediente nórdico que no se puede copiar por ley | pendiente | 0/3 | — |
 | 215 | 15/56 · 5/15 | E5.5.05 | Impuestos nórdicos: altos, pero ¿sobre quién? | pendiente | 0/3 | — |
 | 216 | 15/56 · 6/15 | E5.5.06 | La crisis sueca de los noventa y las reformas de mercado | pendiente | 0/3 | — |

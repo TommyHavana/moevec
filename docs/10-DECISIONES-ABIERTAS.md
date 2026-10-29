@@ -371,3 +371,21 @@ Sin cambio de alcance, arquitectura o taxonomía. Respaldos proporcionales compr
 211–213 / E5.5.01–03: Capitalismo Consciente → Modelos Nórdicos, tanda 15/56, entradas 1–3/15. Briefs y etiquetas exactos guardados; investigación inicial en curso, sin imágenes ni texto final todavía. Incluidas en las 630 pendientes. Después 214–216 / E5.5.04–06. Ahorro y Frugalidad 15/15; catorce tandas completas. Continuar durante esta ejecución sin pedir confirmación.
 
 Sin cambio de arquitectura o taxonomía.
+
+## Producción 211–213 y continuación 214–216 · 29/10/2026
+
+213/840 terminadas, 639 imágenes originales públicas, 0 en curso o borradores WordPress y 627 pendientes. Dos bloques consecutivos desde 207: seis artículos y 18 originales públicos.
+
+- **211:** registro primario de Harvard: jueves 29/10/2015, ponente y moderador. La cita de siete palabras se atribuye expresamente a la crónica contemporánea de The Copenhagen Post; no se finge transcripción oficial ni audición íntegra del vídeo. Se conserva la fecha del organizador ante la discrepancia de día de la semana del reportaje. Constitución § 73, discurso oficial de 2017, Statistics Denmark 2025 y OCDE 2024 mantienen ámbito y periodo. Una declaración política no se usa como prueba suficiente de una clasificación.
+- **212:** Fraser 2026 con datos de 2024, figuras y tabla por áreas leídas por web; descargas locales que devolvieron HTML identificadas. Heritage 2026: tabla oficial descargada, puestos impresos, escalas distintas. Noruega 47 y Suecia 33 en Fraser; no se homogeneizan como un solo resultado nórdico. Las notas de gasto/carga fiscal no se presentan como porcentajes del PIB. Ilustraciones conceptuales, tablas legibles con los datos. Sin causalidad o medida global del bienestar atribuida al ranking.
+- **213:** MPD 2023, Notes/Sources/GDPpc, cuatro valores suecos 1870/1913/1938/1950 y cálculo 10.742/2.144 ≈ 5,01. Fuente histórica original Schön y Krantz 2015 citada. Pasajes pertinentes de IUI 1972, Sanandaji 2015 y documento oficial de 2004, sin lecturas íntegras fingidas. Antecedentes de pensiones de 1913, prestación infantil de 1948 y acuerdo LO–SAF de 1938 incluidos. Cronología e hipótesis causal separadas; no Suecia sin instituciones sociales antes de 1960.
+
+**214–216 / E5.5.04–06**, Capitalismo Consciente → Modelos Nórdicos, **tanda 15/56 · entradas 4–6/15**. Briefs, etiquetas, preguntas y primeras comprobaciones de fuentes guardados. **0/3 imágenes por entrada; sin texto final ni publicación.** Son tres preparaciones incluidas en las 627 pendientes; 624 aún sin iniciar.
+
+- **214:** WVS: documentación de ola y país contrastada; no microdatos descargados, cuenta creada ni licencia aceptada. Revisar agregado legítimo, pregunta, periodo y pesos. Ficha primaria de Bjørnskov localizada: fecha 2017 en el registro, frente a 2018 del brief; comprobar edición antes de citar. No capítulo completo leído ni causalidad exacta estimada.
+- **215:** OCDE Revenue Statistics 2025, con datos 2024 y provisionalidad; web leída y error 403 local guardado. Extraer cinco países y denominadores comparables. IVA, IRPF y sociedades actuales aún pendientes de contraste con autoridades nacionales; distinguir tipos, composición de recaudación e incidencia.
+- **216:** resumen primario de Lindbeck 1997 localizado, PDF de la monografía y referencia al artículo JEL separados. No páginas intercambiadas ni lectura completa fingida. Verificar crisis, orden de reformas, resultados y estudios sobre segregación/desigualdad con fuentes primarias.
+
+Después: **217–219 / E5.5.07–09**. Ahorro y Frugalidad queda 15/15; Modelos Nórdicos 3/15. Catorce tandas completas y tanda 15 en curso. Continuación autorizada y automatización activas. No hay agotamiento de herramientas comunicado; reanudar desde WordPress y expedientes sin duplicar.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldos proporcionales comprobados, sin nueva prueba de arranque de restauración.

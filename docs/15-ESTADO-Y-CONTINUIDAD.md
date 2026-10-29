@@ -2,27 +2,41 @@
 
 ## Estado actual
 
-210/840 terminadas, 630 imágenes originales públicas, 0 en curso o borradores WordPress y 630 pendientes. Ahorro y Frugalidad15/15; catorce tandas completas. Fuente activa: /Users/nerea/Documents/Proyectos/MEE/mee-web.
+**213/840 terminadas, 639 imágenes originales públicas, 0 en curso o borradores WordPress y 627 pendientes**. Ahorro y Frugalidad 15/15; Modelos Nórdicos 3/15. Catorce tandas completas; tanda 15 en curso.
+
+Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-208–210 / E5.8.13–15 publicadas y verificadas: tres artículos y nueve originales seleccionados.
+Dos bloques consecutivos: **208–210 / E5.8.13–15 y 211–213 / E5.5.01–03**. Seis artículos y 18 originales públicos. El primero se guardó en 24ab13b antes de continuar. Informes y decisiones de revisión conservados.
 
-Una publicación y tres adjuntos por ID; categorías Capitalismo Consciente y Ahorro y Frugalidad y etiquetas exactas. HTTP200, H1 único, canonical, indexabilidad, Article, índice, sitemap, enlaces internos, originales y variantes, alt y hashes comprobados. Navegación y BreadcrumbList muestran Blog, área y subcategoría. 122 nodos y siete raíces; Editorial es firma, no categoría. Sin acreditar indexación efectiva o posicionamiento.
+Una publicación y tres adjuntos propios por ID; categorías Capitalismo Consciente y Modelos Nórdicos, etiquetas del tema y nivel exactas. HTTP 200, H1 único, canonical, indexabilidad, Article, índice, sitemap, enlaces internos, originales y variantes con dimensiones, alt y hashes comprobados. Navegación y BreadcrumbList muestran Blog, área y subcategoría. Taxonomía: 122 nodos y siete raíces, sin Editorial ni Uncategorized. Editorial es firma, no categoría. No acredita indexación efectiva ni posicionamiento.
 
-208: FGD e IPAB por país, titular, entidad y cobertura; riesgo de mercado separado de no devolución. Chipre 25/03/2013 contrastado con Eurogrupo y CBC, sin confundir propuesta inicial. 209: prefacio ix–xv de Bhidé 2000 y resumen original 1992, no libro íntegro; Zoho autodescripción 2010/2017, sin estado actual o causalidad inventada. URL antiguas del autor e Intuit devolvieron HTML genérico: excluidas como evidencia. 210: plantilla HTML propia y versión imprimible local, cantidades/automatización adaptables; revisión trimestral propuesta MEE. E4.3.14 y E2.3.04 pendientes no enlazadas. Tres composiciones corregidas con image_gen; intentos descartados guardados localmente, solo nueve originales seleccionados publicados.
+## Revisión del último bloque
+
+- **211:** registro primario de Harvard: jueves 29/10/2015, ponente y moderador. La cita de siete palabras se atribuye expresamente a la crónica contemporánea de The Copenhagen Post; no se finge transcripción oficial ni audición íntegra del vídeo. Se conserva la fecha del organizador ante la discrepancia de día de la semana del reportaje. Constitución § 73, discurso oficial de 2017, Statistics Denmark 2025 y OCDE 2024 mantienen ámbito y periodo. Una declaración política no se usa como prueba suficiente de una clasificación.
+- **212:** Fraser 2026 con datos de 2024, figuras y tabla por áreas leídas por web; descargas locales que devolvieron HTML identificadas. Heritage 2026: tabla oficial descargada, puestos impresos, escalas distintas. Noruega 47 y Suecia 33 en Fraser; no se homogeneizan como un solo resultado nórdico. Las notas de gasto/carga fiscal no se presentan como porcentajes del PIB. Ilustraciones conceptuales, tablas legibles con los datos. Sin causalidad o medida global del bienestar atribuida al ranking.
+- **213:** MPD 2023, Notes/Sources/GDPpc, cuatro valores suecos 1870/1913/1938/1950 y cálculo 10.742/2.144 ≈ 5,01. Fuente histórica original Schön y Krantz 2015 citada. Pasajes pertinentes de IUI 1972, Sanandaji 2015 y documento oficial de 2004, sin lecturas íntegras fingidas. Antecedentes de pensiones de 1913, prestación infantil de 1948 y acuerdo LO–SAF de 1938 incluidos. Cronología e hipótesis causal separadas; no Suecia sin instituciones sociales antes de 1960.
 
 ## Continuación exacta
 
-211–213 / E5.5.01–03: Capitalismo Consciente → Modelos Nórdicos, tanda 15/56, entradas 1–3/15. Briefs y etiquetas exactos guardados; investigación inicial en curso, imágenes en preparación y sin texto final. Incluidas en las 630 pendientes. Después 214–216 / E5.5.04–06. Ahorro y Frugalidad 15/15; catorce tandas completas. Continuar durante esta ejecución sin pedir confirmación.
+**214–216 / E5.5.04–06**, Capitalismo Consciente → Modelos Nórdicos, **tanda 15/56 · entradas 4–6/15**. Briefs, etiquetas, preguntas y primeras comprobaciones de fuentes guardados. **0/3 imágenes por entrada; sin texto final ni publicación.** Son tres preparaciones incluidas en las 627 pendientes; 624 aún sin iniciar.
+
+- **214:** WVS: documentación de ola y país contrastada; no microdatos descargados, cuenta creada ni licencia aceptada. Revisar agregado legítimo, pregunta, periodo y pesos. Ficha primaria de Bjørnskov localizada: fecha 2017 en el registro, frente a 2018 del brief; comprobar edición antes de citar. No capítulo completo leído ni causalidad exacta estimada.
+- **215:** OCDE Revenue Statistics 2025, con datos 2024 y provisionalidad; web leída y error 403 local guardado. Extraer cinco países y denominadores comparables. IVA, IRPF y sociedades actuales aún pendientes de contraste con autoridades nacionales; distinguir tipos, composición de recaudación e incidencia.
+- **216:** resumen primario de Lindbeck 1997 localizado, PDF de la monografía y referencia al artículo JEL separados. No páginas intercambiadas ni lectura completa fingida. Verificar crisis, orden de reformas, resultados y estudios sobre segregación/desigualdad con fuentes primarias.
+
+Después: **217–219 / E5.5.07–09**. Ahorro y Frugalidad queda 15/15; Modelos Nórdicos 3/15. Catorce tandas completas y tanda 15 en curso. Continuación autorizada y automatización activas. No hay agotamiento de herramientas comunicado; reanudar desde WordPress y expedientes sin duplicar.
 
 ## Copias y límites
 
-Respaldo VPS hasta210 con66medios, SQL completo, hashes y miembros comprobados. Captura anticipada separada e identificada; usar copia canónica sin sufijo. Sin nueva prueba de arranque de restauración. Original Civismo2026 >100MiB fuera deGit; referencia y SHA conservados. No bloqueo que requiera al fundador, automatización activa.
+Respaldos VPS hasta 210 y 213: SQL completo y 66 medios nuevos por bloque, hashes y miembros comprobados. Cadena canónica conservada; sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas en estado e informe de respaldo.
+
+Original Civismo 2026 mayor de 100 MiB fuera de Git en mee-backups/research-originals; ubicación y SHA en E7.2.04/sources/original-source-location.json. No bloqueo que requiera al fundador.
 
 ## Traspaso
 
-PETICIÓN: producción840continua. TERMINADO:208–210. SIGUIENTE:211–213 Modelos Nórdicos, investigación inicial, sin texto final; imágenes en preparación. Consultar WordPress y expedientes sin duplicar. Sin cambios de DNS/correo/autenticación/tema/taxonomía.
+PROYECTO: MEE. FECHA/ZONA: 29/10/2026, Europe/Madrid. PETICIÓN: producción continua de 840, sin confirmación entre bloques. TERMINADO: 208–213, 18 originales y comprobación pública. PENDIENTE: 627, incluidas tres preparaciones 214–216. SIGUIENTE: consultar WordPress y reanudar esos expedientes. No fuentes completas o imágenes fingidas. AUTORIZACIÓN Y AUTOMATIZACIÓN: activas. Sin cambios de arquitectura ni DNS/correo/autenticación/tema/taxonomía; sin despliegue React por contenido.
 
 ## Historial anterior — no describe el estado actual
 
