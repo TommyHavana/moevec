@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-29T07:51:48+00:00.
+Comprobado en WordPress: 2026-10-29T08:29:56+00:00.
 
-**171/840 terminadas · 0 en curso · 669 pendientes.**
+**177/840 terminadas · 0 en curso · 663 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -183,12 +183,12 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 169 | 12/56 · 4/15 | E1.1.04 | Libertad negativa y positiva: la discusión que explica medio debate político | terminada | 3/3 | [Leer](https://moevec.org/blog/libertad-negativa-y-positiva/) |
 | 170 | 12/56 · 5/15 | E1.1.05 | La autonomía también se aprende: hábitos de decisión para jóvenes | terminada | 3/3 | [Leer](https://moevec.org/blog/autonomia-se-aprende-jovenes/) |
 | 171 | 12/56 · 6/15 | E1.1.06 | Autonomía y Estado: cuándo ayudar se convierte en dependencia | terminada | 3/3 | [Leer](https://moevec.org/blog/autonomia-y-estado-dependencia/) |
-| 172 | 12/56 · 7/15 | E1.1.07 | Autonomía bajo un sistema que decide por ti: el caso cubano | pendiente | 0/3 | — |
-| 173 | 12/56 · 8/15 | E1.1.08 | Autonomía y deuda: cuándo el crédito libera y cuándo encadena | pendiente | 0/3 | — |
-| 174 | 12/56 · 9/15 | E1.1.09 | Autonomía digital: datos, algoritmos y quién decide lo que ves | pendiente | 0/3 | — |
-| 175 | 12/56 · 10/15 | E1.1.10 | El argumento de Hayek: por qué nadie sabe lo suficiente para decidir por todos | pendiente | 0/3 | — |
-| 176 | 12/56 · 11/15 | E1.1.11 | Autonomía de los jóvenes cubanos y latinoamericanos: emigrar o emprender | pendiente | 0/3 | — |
-| 177 | 12/56 · 12/15 | E1.1.12 | Teletrabajo y plataformas: una vía real de autonomía para el talento latinoamericano | pendiente | 0/3 | — |
+| 172 | 12/56 · 7/15 | E1.1.07 | Autonomía bajo un sistema que decide por ti: el caso cubano | terminada | 3/3 | [Leer](https://moevec.org/blog/autonomia-sistema-que-decide-por-ti-cuba/) |
+| 173 | 12/56 · 8/15 | E1.1.08 | Autonomía y deuda: cuándo el crédito libera y cuándo encadena | terminada | 3/3 | [Leer](https://moevec.org/blog/autonomia-y-deuda/) |
+| 174 | 12/56 · 9/15 | E1.1.09 | Autonomía digital: datos, algoritmos y quién decide lo que ves | terminada | 3/3 | [Leer](https://moevec.org/blog/autonomia-digital-algoritmos/) |
+| 175 | 12/56 · 10/15 | E1.1.10 | El argumento de Hayek: por qué nadie sabe lo suficiente para decidir por todos | terminada | 3/3 | [Leer](https://moevec.org/blog/hayek-conocimiento-disperso/) |
+| 176 | 12/56 · 11/15 | E1.1.11 | Autonomía de los jóvenes cubanos y latinoamericanos: emigrar o emprender | terminada | 3/3 | [Leer](https://moevec.org/blog/autonomia-jovenes-emigrar-o-emprender/) |
+| 177 | 12/56 · 12/15 | E1.1.12 | Teletrabajo y plataformas: una vía real de autonomía para el talento latinoamericano | terminada | 3/3 | [Leer](https://moevec.org/blog/teletrabajo-plataformas-autonomia/) |
 | 178 | 12/56 · 13/15 | E1.1.13 | ¿Autonomía o rebeldía? Cómo decir no sin perder oportunidades | pendiente | 0/3 | — |
 | 179 | 12/56 · 14/15 | E1.1.14 | Las instituciones que amplían la autonomía: derecho, mercado y sociedad civil | pendiente | 0/3 | — |
 | 180 | 12/56 · 15/15 | E1.1.15 | Test: ¿cuánta autonomía tienes realmente? Diez preguntas para medirla | pendiente | 0/3 | — |

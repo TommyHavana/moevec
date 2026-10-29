@@ -1,46 +1,46 @@
 # Estado de MEE y continuidad · 29/10/2026 · Europe/Madrid
 
-## Estado actual: 171/840 publicadas y verificadas
+## Estado actual: 177/840 publicadas y verificadas
 
-WordPress confirma **171 terminadas, 513 imágenes originales públicas, 0 en curso/borradores y 669 pendientes**. Autonomía 6/15, tanda 12/56; once tandas anteriores completas.
+WordPress confirma **177 terminadas, 531 imágenes originales públicas, 0 en curso/borradores y 663 pendientes**. Autonomía 12/15, tanda 12/56; once tandas anteriores completas.
 
 Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Dos bloques consecutivos: **166–168 / E1.1.01–03 y 169–171 / E1.1.04–06**. Seis artículos y 18 originales, textos, fuentes, alcance de lectura, revisión, prompts y evidencias en los expedientes. Informes y respaldos en docs/produccion/.
+Dos bloques consecutivos: **172–174 / E1.1.07–09 y 175–177 / E1.1.10–12**. Seis artículos y 18 originales, con texto, fuentes, alcance de lectura, revisión, prompts y evidencias. Informes y respaldos en docs/produccion/.
 
-Una publicación y tres adjuntos por ID, área, subcategoría y etiquetas exactas. Jerarquía visible y BreadcrumbList: Blog → Educación y Valores → Autonomía. Editorial es firma, no categoría. Taxonomía intacta: 122 nodos, siete raíces, sin Editorial ni Uncategorized.
+Una publicación y tres adjuntos por ID, categorías y etiquetas exactas; pais-cuba para 172 y 176. Blog → Educación y Valores → Autonomía en jerarquía visible y BreadcrumbList. Editorial es firma, no categoría. Taxonomía intacta: 122 nodos, siete raíces, sin Editorial ni Uncategorized.
 
-HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces internos y tres imágenes con originales/variantes, dimensiones, alt y hashes comprobados. Registros MD/CSV/JSON desde WordPress después de cada publicación. No acredita indexación efectiva ni posicionamiento.
+HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces internos y tres originales/variantes con dimensiones, alt y hashes comprobados. Registros MD/CSV/JSON desde WordPress tras cada publicación. No acredita indexación efectiva ni posicionamiento.
 
 ## Decisiones de revisión
 
-- 166: Berlin se cita mediante el borrador E de 1958 y su nota editorial, sin confundirlo con la revisión final de Liberty. Mill se usa para la pregunta por intervención y daño, sin extrapolar reglas jurídicas universales. Sen: páginas impresas 17 y 39 leídas visualmente en reproducción académica; PDF completo no implica libro íntegro leído. 167: mapa de ingresos, obligaciones, cuidados y apoyos; ejemplos 75% y 200/150/50 expresamente hipotéticos. CFPB en su contexto estadounidense, sin trasplantar derechos ni recomendar productos. Rawls y Sen como contraparte institucional, sin atribuir apoyo a un programa concreto. 168: Bastiat, ventana rota y alternativa descartada; Kahneman y Tversky 1979 para decisiones bajo riesgo, sin diagnósticos ni proporciones universales. Nudge 2008, introducción, para orientación y salida fácil; sin presentar el relato inicial de la cafetería como caso real.
+- 172: Constitución 18/19/22/55 y gacetas originales. Decreto-Ley 46/2021 como antecedente; Decreto 160/2026 deroga el 107/2024 y distingue actividades y actores, con permisos sectoriales que subsisten. Decreto-Ley 88 concordado de septiembre de 2026 incluye empresas privadas con más de cien trabajadores. No Estado como único empleador o dueño de toda vivienda, ni cuotas de concentración inventadas. 173: interés compuesto y TAE con fuentes del Banco de España y supuestos identificados; ejercicio al 1% mensual sin pagos ni costes. No toda deuda productiva rentable ni todo consumo superfluo. Findex 2025 sobre encuestas de 2024, sin acceso o movilidad garantizados. 174: autodescripción de TikTok separada de auditoría; descarga local es una cubierta y lectura pertinente por índice documentada. Nyhan 2023 sobre Facebook y Estados Unidos en 2020: exposición distinta de actitudes, sin efectos universales. Corrección de noviembre de 2023 revisada, sin inventar retractación. DSA 27/38 con ámbito diferenciado; opción sin perfiles no equivale a cronología o verdad.
 
-- 169: libertad negativa y positiva como preguntas distintas; ninguna se identifica automáticamente con un partido. Prioridad de MEE frente a coacción identificada como posición editorial, con Sen y Rawls como contraparte. No toda dificultad material equivale a interferencia humana ni toda ayuda a tiranía. 170: práctica deliberada de Ericsson inspira tareas concretas, sin validar un programa general de autonomía. Sisk 2018: efectos globales débiles y posibles subgrupos, sin cero universal ni garantía. Dweck y Yeager 2019 leídos como perspectiva de autores. Mischel 1972, Shoda 1990 y Watts 2018 separados: atención experimental, asociaciones posteriores y réplica conceptual sensible a controles, sin causalidad del éxito adulto. Diario de treinta días propuesto por MEE, no intervención validada. 171: PTR al entrar al empleo distinta de METR por más ingresos u horas; no es el tipo del IRPF. Escenarios, parámetros y fecha identificados, sin simulación nacional ejecutada ni promedios inventados. Ejemplos hipotéticos verificados; indicadores de reglas no demuestran causalidad de empleo. Ayudas necesarias y apoyos duraderos respetados.
+- 175: artículo completo de Hayek de 1945, secciones I–VII y nota, leído en reproducción textual OLL; PDF escaneado de Mercatus solo entrega portada al extraer texto. Cottrell/Cockshott 1993, resumen y sección 4.2.1 leídos para la contraparte computacional; no IA actual ensayada ni lectura íntegra de ese artículo. Precios no perfectos o siempre justos, colas sin causa única inferida. 176: INE EMCR 2024, nota de 11/12/2025: 15.107 inmigraciones a España de personas de nacionalidad española nacidas en Cuba; no total cubano, jóvenes ni necesariamente salidas directas de Cuba. Artículo 13 DUDH no equivale a permiso de entrada o trabajo en cualquier destino. Argumento de válvula migratoria como objeción, sin causalidad de supervivencia del régimen. 177: empleo remoto, servicios independientes y plataformas diferenciados. WEF 2025: encuesta y expectativas a 2030, no vacantes actuales. OIT: 52% en la muestra regional publicada en 2025 no usa plataformas como ingreso principal, sin generalizar a todo teletrabajo. UIT sobre calidad y asequibilidad, Findex sobre uso financiero; ninguna cuenta garantiza pagos internacionales. Plan de noventa días propuesto, sin cliente ni ingresos garantizados.
 
 ## Continuación exacta
 
-**172–174 / E1.1.07–09**, Educación y Valores → Autonomía. Briefs originales, etiquetas y preguntas de investigación guardados: **0/3 imágenes cada una, sin artículo final ni publicación**. Son tres preparaciones incluidas en las 669 pendientes; 666 sin iniciar. Después, 175–177 / E1.1.10–12.
+**178–180 / E1.1.13–15**, Educación y Valores → Autonomía. Briefs originales, etiquetas y preguntas de investigación guardados: **0/3 imágenes cada una, sin artículo final ni publicación**. Tres preparaciones incluidas en las 663 pendientes; 660 sin iniciar. Después, 181–183, comienzo de Responsabilidad Personal según el manifiesto.
 
-172: comprobar normativa cubana vigente y cambios posteriores a 2021; no presentar un listado histórico como actual. Contrastar concentración económica e informativa y defensa oficial de planificación, sin universales ni consejos para evadir restricciones. 173: coste total y capitalización del crédito, ejercicios verificables e hipotéticos; no toda deuda de consumo es inútil ni todo préstamo empresarial rentable. 174: documentación primaria de recomendación, evidencia y críticas de burbujas, regulación vigente y protección del usuario; no algoritmo como destino inevitable ni toda moderación como censura.
+178: leer Hirschman sobre salida, voz y lealtad en fuente primaria; no tres opciones simétricas para todo contexto. Conflicto legítimo y limitaciones de salida o negociación. 179: instituciones con fuentes primarias e índices de edición y periodo explícitos; correlación no prueba causalidad, contraparte de cultura y geografía sin determinismo. 180: instrumento editorial propio basado en los catorce artículos previos, diez preguntas y cuatro áreas. No baremos inventados, diagnóstico, validación clínica ni juicio de valor personal; permitir no aplica y distinguir barreras externas.
 
-El manifiesto conserva el orden original: Autonomía es tanda 12/56 y lleva 6/15. Once tandas anteriores completas; Inversión y Capital empieza en 241. Automatización y autorización activas, sin agotamiento de herramientas comunicado. Reanudar desde WordPress y los expedientes sin duplicar artículos ni medios.
+Autonomía lleva 12/15, tanda 12/56; once tandas anteriores completas. El orden original se conserva, Inversión y Capital empieza en 241. Automatización y autorización activas, sin agotamiento de herramientas comunicado. Reanudar desde WordPress y expedientes sin duplicar artículos ni medios.
 
 ## Copias y límites
 
-Respaldos VPS hasta 168 y 171: SQL completo y 66 medios nuevos por bloque, hashes y miembros comprobados. Restaurar base de 27 entradas de 20261028 y toda la cadena de superposiciones; importar al final el SQL más reciente. Sin nueva prueba de arranque de restauración completa. Referencias a copia local y fuente privada en estado e informes de respaldo.
+Respaldos VPS hasta 174 y 177: SQL completo y 66 medios nuevos por bloque, hashes y miembros comprobados. Restaurar base de 27 entradas de 20261028 y toda la cadena de superposiciones; importar al final el SQL más reciente. Sin nueva prueba de arranque de restauración completa. Copia local y fuente privada referenciadas en estado e informes de respaldo.
 
-Original Civismo 2026 mayor de 100 MiB fuera de Git, en mee-backups/research-originals; ubicación y SHA en E7.2.04/sources/original-source-location.json. Ningún bloqueo requiere intervención del fundador. Sin agotamiento comunicado. El plan sigue en producción.
+Original Civismo 2026 mayor de 100 MiB fuera de Git en mee-backups/research-originals; ubicación y SHA en E7.2.04/sources/original-source-location.json. Sin bloqueo que requiera intervención del fundador y sin agotamiento comunicado. Plan en producción.
 
 ## Traspaso
 
 PROYECTO: MEE. FECHA/ZONA: 29/10/2026, Europe/Madrid.
 
-PETICIÓN ACTIVA: producir 840 en bloques consecutivos sin confirmación. TERMINADO: 166–171, 18 originales y verificación pública. EVIDENCIA: registros desde WordPress, comprobación pública, organización, navegación y taxonomía. PENDIENTE: 669 entradas desde 172. DECISIONES NUEVAS: precisión y límites anteriores, sin cambio de arquitectura. PROPUESTAS SIN APROBAR: ninguna nueva. BLOQUEO REAL: ninguno que requiera al fundador. AUDITORÍA: integral encargada expresamente el 28/10/2026 y documentada en 22; esta ejecución es editorial.
+PETICIÓN ACTIVA: producir 840 en bloques consecutivos sin confirmación. TERMINADO: 172–177, 18 originales y comprobación pública. EVIDENCIA: registros WordPress, verificación pública, organización, navegación y taxonomía. PENDIENTE: 663 desde 178. DECISIONES NUEVAS: precisión y límites anteriores, sin cambio de arquitectura. PROPUESTAS SIN APROBAR: ninguna nueva. BLOQUEO REAL: ninguno que requiera al fundador. AUDITORÍA: integral encargada el 28/10/2026 y documentada en 22; esta ejecución es editorial.
 
-SIGUIENTE PASO: consultar WordPress y reanudar 172–174 sin duplicar. ARCHIVOS: AGENTS.md, docs/26-PRODUCCION-CONTINUA.md, estado 15, backlog 16, registro 24, editorial/production-state.json, manifiesto y briefs originales. Fuente privada sin secretos; no hace falta otro chat ni otra automatización.
+SIGUIENTE PASO: consultar WordPress y reanudar 178–180 sin duplicar. ARCHIVOS: AGENTS.md, docs/26-PRODUCCION-CONTINUA.md, estado 15, backlog 16, registro 24, editorial/production-state.json, manifiesto y briefs originales. Fuente privada sin secretos. No hace falta otro chat ni otra automatización.
 
 Sin cambios de DNS, correo, autenticación, tema o taxonomía; sin despliegue React por contenido.
 
