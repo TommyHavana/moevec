@@ -573,3 +573,33 @@ Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobad
 Siguiente **268–270 / E7.8.13–E7.8.15**, Política y Economía → Migración de Capital. Preparaciones incluidas en las 573 pendientes. E7.8.13: 3/3 imágenes locales; sin texto final, sin publicación; E7.8.14: 3/3 imágenes locales; sin texto final, sin publicación; E7.8.15: 3/3 imágenes locales; sin texto final, sin publicación. Después 271–273. Automatización activa, sin agotamiento comunicado.
 
 Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 268–270 · 29/10/2026
+
+270/840 terminadas, 810 imágenes originales públicas, 0 en curso o borradores WordPress y 570 pendientes.
+
+268: CRS anual, saldo e ingreso distintos,116jurisdicciones como dato2025;modelo720 y fallo2022 con adaptación posterior, no obligación suprimida. 269: revisiónFMI2022 preventiva sobre entradas con vulnerabilidades, casosMalasia/Islandia/Grecia con calendarios y excepciones, sin causalidad inferida. 270: LIRPF8/9 consolidada03/10/2026, convenioEspañaPortugalart4, listaespañola distintaUE y plazo030 con ámbito censal y excepciónRenta.
+
+Siguiente **271–273 / E7.9.01–E7.9.03**, Política y Economía → Regulación Financiera. Preparaciones incluidas en las 570 pendientes. E7.9.01: 3/3 imágenes locales; sin texto final, sin publicación; E7.9.02: 3/3 imágenes locales; sin texto final, sin publicación; E7.9.03: 3/3 imágenes locales; sin texto final, sin publicación. Después 274–276. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 271–273 · 29/10/2026
+
+273/840 terminadas, 819 imágenes originales públicas, 0 en curso o borradores WordPress y 567 pendientes.
+
+271: DiamondDybvig1983 y Nobel2022 con alcance del modelo y propuestaHuerta deSoto atribuida; protección, liquidez y solvencia diferenciadas. 272: FMI2014 con métodos/periodos ysin importe2026; DoddFrank2010, SVB2023 y revisión preliminar2026 con desacuerdo identificado. 273: Basilea marco internacional y aplicación nacional, método estándar/modelos/output floor, proporcionalidad sin inmunidad y CBLR actualizado01/07/2026.
+
+Siguiente **274–276 / E7.9.04–E7.9.06**, Política y Economía → Regulación Financiera. Preparaciones incluidas en las 567 pendientes. E7.9.04: 0/3 imágenes locales; sin texto final, sin publicación; E7.9.05: 0/3 imágenes locales; sin texto final, sin publicación; E7.9.06: 0/3 imágenes locales; sin texto final, sin publicación. Después 277–279. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 274–276 · 29/10/2026
+
+276/840 terminadas, 828 imágenes originales públicas, 0 en curso o borradores WordPress y 564 pendientes.
+
+274: estudios de la Reserva Federal de 2018 y CSBS de 2025 con periodos y métodos; la relación entre tamaño y carga no atribuye causalmente todas las fusiones a las normas. La encuesta CSBS de 2026 tiene 330 respuestas y participación voluntaria. 275: trabajos firmados del Banco Mundial de 2014 y 2018, diseños y efectos heterogéneos; sin inventario vigente de 2026 ni desplazamiento automático al crédito informal. 276: borrador y resumen del CBK de 2018, cuatro puntos porcentuales y dificultades crediticias previas. El informe del CBK de 2019 registra la derogación en noviembre; no se inventa el día ni se presenta una recuperación automática.
+
+Siguiente **277–279 / E7.9.07–E7.9.09**, Política y Economía → Regulación Financiera. Preparaciones incluidas en las 564 pendientes. E7.9.07: 3/3 imágenes locales; sin texto final, sin publicación; E7.9.08: 3/3 imágenes locales; sin texto final, sin publicación; E7.9.09: 3/3 imágenes locales; sin texto final, sin publicación. Después 280–282. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.

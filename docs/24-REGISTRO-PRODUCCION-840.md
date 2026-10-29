@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-29T20:13:11+00:00.
+Comprobado en WordPress: 2026-10-29T20:59:15+00:00.
 
-**267/840 terminadas · 0 en curso · 573 pendientes.**
+**276/840 terminadas · 0 en curso · 564 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -279,15 +279,15 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 265 | 18/56 · 10/15 | E7.8.10 | Remesas bloqueadas: sanciones, cumplimiento y familias | terminada | 3/3 | [Leer](https://moevec.org/blog/remesas-bloqueadas/) |
 | 266 | 18/56 · 11/15 | E7.8.11 | Tributación por ciudadanía: EE. UU. y Eritrea | terminada | 3/3 | [Leer](https://moevec.org/blog/tributacion-por-ciudadania/) |
 | 267 | 18/56 · 12/15 | E7.8.12 | Competir por el talento: Ley Beckham, Portugal e Italia | terminada | 3/3 | [Leer](https://moevec.org/blog/competir-por-el-talento-fiscal/) |
-| 268 | 18/56 · 13/15 | E7.8.13 | Intercambio automático de información fiscal: el CRS | pendiente | 0/3 | — |
-| 269 | 18/56 · 14/15 | E7.8.14 | Controles de capital: qué dice hoy el FMI | pendiente | 0/3 | — |
-| 270 | 18/56 · 15/15 | E7.8.15 | Mudarte de país: obligaciones fiscales que no puedes olvidar | pendiente | 0/3 | — |
-| 271 | 19/56 · 1/15 | E7.9.01 | Por qué se regula la banca: corridas y confianza | pendiente | 0/3 | — |
-| 272 | 19/56 · 2/15 | E7.9.02 | Demasiado grandes para caer | pendiente | 0/3 | — |
-| 273 | 19/56 · 3/15 | E7.9.03 | Basilea III y los bancos pequeños | pendiente | 0/3 | — |
-| 274 | 19/56 · 4/15 | E7.9.04 | El coste del cumplimiento normativo | pendiente | 0/3 | — |
-| 275 | 19/56 · 5/15 | E7.9.05 | Techos de usura: protección o exclusión del crédito | pendiente | 0/3 | — |
-| 276 | 19/56 · 6/15 | E7.9.06 | Kenia 2016–2019: el tope de intereses que se derogó | pendiente | 0/3 | — |
+| 268 | 18/56 · 13/15 | E7.8.13 | Intercambio automático de información fiscal: el CRS | terminada | 3/3 | [Leer](https://moevec.org/blog/intercambio-informacion-fiscal-crs/) |
+| 269 | 18/56 · 14/15 | E7.8.14 | Controles de capital: qué dice hoy el FMI | terminada | 3/3 | [Leer](https://moevec.org/blog/controles-de-capital-fmi/) |
+| 270 | 18/56 · 15/15 | E7.8.15 | Mudarte de país: obligaciones fiscales que no puedes olvidar | terminada | 3/3 | [Leer](https://moevec.org/blog/mudarte-de-pais-obligaciones-fiscales/) |
+| 271 | 19/56 · 1/15 | E7.9.01 | Por qué se regula la banca: corridas y confianza | terminada | 3/3 | [Leer](https://moevec.org/blog/por-que-se-regula-la-banca/) |
+| 272 | 19/56 · 2/15 | E7.9.02 | Demasiado grandes para caer | terminada | 3/3 | [Leer](https://moevec.org/blog/demasiado-grandes-para-caer/) |
+| 273 | 19/56 · 3/15 | E7.9.03 | Basilea III y los bancos pequeños | terminada | 3/3 | [Leer](https://moevec.org/blog/basilea-bancos-pequenos/) |
+| 274 | 19/56 · 4/15 | E7.9.04 | El coste del cumplimiento normativo | terminada | 3/3 | [Leer](https://moevec.org/blog/coste-cumplimiento-normativo/) |
+| 275 | 19/56 · 5/15 | E7.9.05 | Techos de usura: protección o exclusión del crédito | terminada | 3/3 | [Leer](https://moevec.org/blog/techos-de-usura/) |
+| 276 | 19/56 · 6/15 | E7.9.06 | Kenia 2016–2019: el tope de intereses que se derogó | terminada | 3/3 | [Leer](https://moevec.org/blog/kenia-tope-intereses/) |
 | 277 | 19/56 · 7/15 | E7.9.07 | Colombia: la tasa de usura certificada | pendiente | 0/3 | — |
 | 278 | 19/56 · 8/15 | E7.9.08 | España y las tarjetas *revolving*: lo que dijo el Supremo | pendiente | 0/3 | — |
 | 279 | 19/56 · 9/15 | E7.9.09 | Sandbox financiero: probar innovación con permiso | pendiente | 0/3 | — |

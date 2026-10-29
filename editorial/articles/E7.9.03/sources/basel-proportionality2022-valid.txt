@@ -1,0 +1,1885 @@
+ 
+ 
+ 
+ 
+Basel Committee 
+on Banking Supervision 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+High-level 
+considerations on 
+proportionality  
+ 
+ 
+ 
+ 
+ 
+July 2022 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This publication is available on the BIS website (www.bis.org). 
+ 
+ 
+© Bank for International Settlements 2022. All rights reserved. Brief excerpts may be reproduced or 
+translated provided the source is stated. 
+ 
+ 
+ISBN 978-92-9259-585-2 (online) 
+ 
+
+ 
+ 
+High-level considerations on proportionality 
+iii
+ 
+ 
+Contents 
+High-level considerations on proportionality ........................................................................................................................ 1 
+Introduction ......................................................................................................................................................................................... 1 
+High-level considerations .............................................................................................................................................................. 2 
+Illustrative technical annexes ........................................................................................................................................................ 4 
+1. 
+Segmentation ............................................................................................................................................................................ 4 
+1.1 Introduction ...................................................................................................................................................................... 4 
+1.2 Number of segments .................................................................................................................................................... 4 
+1.3 Metrics for segmentation ............................................................................................................................................ 4 
+1.4 Setting the threshold values ....................................................................................................................................... 5 
+1.5 Migration between segments .................................................................................................................................... 6 
+1.6 Role of supervisory judgment .................................................................................................................................... 7 
+2. 
+Definition of capital ................................................................................................................................................................. 7 
+2.1 Introduction ...................................................................................................................................................................... 7 
+2.2 Considerations for the definition of capital .......................................................................................................... 7 
+2.3 Conservative calibration ............................................................................................................................................... 8 
+2.4 Self-guided itinerary ........................................................................................................................................................ 9 
+3. 
+Calculation of risk-weighted assets ................................................................................................................................ 11 
+3.1 Introduction .................................................................................................................................................................... 11 
+3.2 Calculation of risk-weighted assets ....................................................................................................................... 11 
+3.2.1 
+Credit risk ....................................................................................................................................................... 11 
+3.2.2 
+Market risk ..................................................................................................................................................... 12 
+3.2.3 
+Operational risk ........................................................................................................................................... 13 
+3.3 Self-guided itinerary .................................................................................................................................................... 14 
+4. 
+Leverage ratio .......................................................................................................................................................................... 16 
+4.1 Introduction .................................................................................................................................................................... 16 
+4.2 Calculation of the leverage ratio exposure measure ...................................................................................... 16 
+4.3 Capital used in the leverage ratio........................................................................................................................... 17 
+4.4 Self-guided itinerary .................................................................................................................................................... 17 
+5. 
+Liquidity requirements ......................................................................................................................................................... 17 
+5.1 Introduction .................................................................................................................................................................... 17 
+5.2 Definitions ........................................................................................................................................................................ 18 
+
+ 
+ 
+iv 
+High-level considerations on proportionality
+ 
+ 
+5.3 Conservative calibration ............................................................................................................................................. 18 
+5.4 Self-guided itinerary .................................................................................................................................................... 19 
+6. 
+Large exposures ...................................................................................................................................................................... 21 
+6.1 Introduction ..................................................................................................................................................................... 21 
+6.2 Definition of connected counterparties ............................................................................................................... 21 
+6.3 Conservative calibration ............................................................................................................................................. 21 
+6.4 Self-guided itinerary .................................................................................................................................................... 22 
+7. 
+Pillar 2 ......................................................................................................................................................................................... 22 
+7.1 Introduction ..................................................................................................................................................................... 22 
+7.2 Considerations in relation to Pillar 2 ..................................................................................................................... 23 
+7.3 Self-guided itinerary .................................................................................................................................................... 24 
+8. 
+Disclosure requirements ...................................................................................................................................................... 25 
+8.1 Introduction ..................................................................................................................................................................... 25 
+8.2 Provision of information ............................................................................................................................................. 25 
+8.3 Self-guided itinerary .................................................................................................................................................... 26 
+9. 
+Corporate governance and risk management ............................................................................................................ 27 
+9.1 Introduction ..................................................................................................................................................................... 27 
+9.2 Corporate governance requirements .................................................................................................................... 27 
+9.3 Risk management ......................................................................................................................................................... 28 
+9.4 Self-guided itinerary .................................................................................................................................................... 29 
+  
+ 
+
+ 
+ 
+High-level considerations on proportionality 
+1
+ 
+ 
+High-level considerations on proportionality 
+Note: this document is for informational purposes only and does not constitute new standards, 
+guidelines or sound practices, nor does it endorse specific approaches. This document is not 
+intended to be used in formal assessments of regulation or supervisory practices, but rather to 
+assist authorities in their own internal discussions on proportionality. 
+Introduction 
+Proportionality in financial system regulation and supervision may ensure that the applicable rules and 
+supervision practices are consistent with banks’ systemic importance and risk profile, and are appropriate 
+for the broader characteristics of a particular financial system. The Core principles for effective banking 
+supervision (BCPs), 1 which are applicable to all banks in all jurisdictions, embed proportionality as a 
+principle. The Basel Framework,2 which sets minimum requirements for internationally active banks in 
+Committee member jurisdictions, also allows for a degree of proportionality by providing options to 
+implement simpler standardised approaches. While the simpler standardised approaches in the Basel 
+Framework may also be suitable for banks that are not internationally active, in some cases regulation 
+might require even further adaptation. These high-level considerations and the accompanying technical 
+annexes aim to provide practical support to authorities seeking to implement proportionality in these 
+situations in their domestic frameworks. 
+In line with its mandate to strengthen the regulation, supervision and practices of banks 
+worldwide to enhance financial stability, the Committee has conducted work on proportionality over a 
+number of years. In November 2019, the Committee and the Basel Consultative Group (BCG)3 issued a 
+statement clarifying that proportionality can take different forms, which for non-Committee member 
+jurisdictions may include the implementation of requirements that are broadly consistent with the Basel 
+Framework and compliant with the BCPs.4 The Committee has discussed proportionality extensively with 
+the broader banking supervisory community, including BCG members and non-members. The Committee 
+also published two global surveys on proportionality, one of them jointly with the World Bank.5 These 
+surveys demonstrated that proportionality has been widely adopted and implemented in different ways. 
+The surveys and discussions also highlighted that proportionality raises many practical policy challenges, 
+as authorities seek to balance the regulatory requirements in a way that supports financial stability.  
+ 
+1  
+The BCPs are available at www.bis.org/basel_framework/standard/BCP.htm. 
+2  
+The Committee expects full implementation of its standards by Committee members for their internationally active banks, with 
+jurisdictions being free to apply more conservative requirements if deemed necessary. The BCPs are also a Basel standard and 
+form part of the Basel Framework, but are applicable to all jurisdictions and all banks. For simplicity, throughout this document 
+the term Basel Framework is used to refer to those standards applicable only to internationally active banks and does not 
+include the BCPs.  
+3  
+The BCG provides a forum for deepening the Committee's engagement with supervisors around the world on banking 
+supervision issues. BCG membership comprises central banks and supervisory authorities from 28 jurisdictions, as well as 
+supervisory groups, international agencies and other bodies. It facilitates broad supervisory dialogue with non-member 
+jurisdictions by gathering senior representatives from various jurisdictions, international institutions and regional groups of 
+banking supervisors.  
+4  
+Available at www.bis.org/publ/bcbs_nl23.htm. 
+5  
+Available at www.bis.org/bcbs/publ/d460.htm and www.bis.org/bcbs/publ/d523.htm. 
+
+ 
+ 
+ 
+2 
+High-level considerations on proportionality
+ 
+ 
+In response to these findings, these voluntary high-level considerations have been developed by 
+the BCG. They aim to support the decision-making process of proportionality in a broad variety of 
+jurisdictions, in a way that would not undermine financial stability and/or the safety of financial institutions. 
+The accompanying technical annexes offer illustrative elements that authorities may wish to consider as 
+they address the specific policy challenges related to proportionality in their jurisdiction. These 
+considerations and the technical annexes build upon the Committee’s work on proportionality, domestic 
+experiences from across the world, international discussions and academic work, and the broad exchange 
+of views across the supervisory community.  
+Importantly, these high-level considerations and technical annexes are not a standard and do not 
+contain any prescriptive requirements. They should not be understood as a modification to the Basel 
+Framework, the BCPs or any of the Committee’s standards, guidelines or sound practices. Neither these 
+considerations nor the accompanying technical annexes will be used by the Committee to assess 
+proportionality in member or non-member jurisdictions and will not be used in the Committee’s 
+Regulatory Consistency Assessment Programme (RCAP). 
+High-level considerations 
+Financial systems are heterogeneous. Characteristics that tend to vary across financial systems include the 
+distribution of banks’ size, international activity, level of sophistication and predominance of domestically 
+owned (including government-owned) versus foreign-owned banks. Some financial systems include both 
+large internationally active banks and small banks serving local communities. Other financial systems 
+consist primarily of small local institutions, some of which might undertake bank-like activities without 
+themselves being banks.  
+The distribution of banks within a financial system may influence the approach to proportionality. 
+In a number of jurisdictions, simpler rules are implemented for less complex banks in banking systems that 
+also include large, internationally active banks subject to the Basel Framework. For some non-Committee 
+members with simple and homogenous banking systems, it might be appropriate to apply simpler rules 
+to all banks. However, simplifications that might be appropriate for small banks in jurisdictions with less 
+complex banking systems are not necessarily appropriate for small banks in more complex financial 
+markets. 
+Like financial institutions, supervisory authorities also differ across jurisdictions. For example, 
+supervisory authorities may have different legal powers, organisational arrangements, availability of 
+resources and levels of independence. In general, these factors tend to influence the design and 
+implementation of proportionate regulation and supervision frameworks.  
+In addition to these overarching issues, authorities are invited to bear in mind the following 
+considerations to help ensure the proportionality approach being considered is consistent with financial 
+system robustness, safeguards financial stability and limits regulatory arbitrage opportunities across and 
+within jurisdictions. 
+• 
+Proportionality approaches that are consistent with the BCPs preserve financial stability. 
+The BCPs were designed to be applicable globally, across a range of jurisdictions, financial 
+systems and banking institutions. The BCPs establish the minimum criteria for an effective 
+regulatory and supervisory framework and underpin any proportionate approach. Regardless of 
+the proportionality approach adopted, the BCPs require that all banks have prudent policies and 
+processes to identify, measure, evaluate, monitor, report and control or mitigate risk on a timely 
+basis. 
+• 
+The Basel Framework is the standard for internationally active banks. The Framework already 
+embeds a menu of options with various elements of proportionality and flexibility that could be 
+
+ 
+ 
+High-level considerations on proportionality 
+3
+ 
+ 
+authorities’ first choice whenever appropriate and possible. Alignment with international 
+standards promotes trust in the financial system and prevents regulatory arbitrage and 
+fragmentation. It also streamlines cross-border supervision and facilitates transparency, 
+comparability and understanding of the regulatory framework by international stakeholders. 
+• 
+Depending on local circumstances, it might be appropriate to tailor regulation for non-
+internationally active banks. This includes potentially applying the Basel Framework in its 
+current form (ie Basel III), or earlier or modified forms, for jurisdictions that have simpler banking 
+systems, implemented in a way that is consistent with the underlying objective of the 
+international standard. Such proportionate approaches preserve financial stability through bank 
+safety and soundness. For some banks and banking systems, this might be achieved with rules 
+that are even simpler than the Basel Framework while remaining broadly aligned with the 
+international standards. 
+• 
+Effective proportionate approaches strive to be both conservative and simple to 
+understand and implement. The objective of proportionality is to reflect jurisdictions’ 
+circumstances and supervisory capacity, not to dilute the robustness of the standards. This means 
+that any simpler proportionate approaches would be more conservative to compensate for their 
+lower risk sensitivity. As the Basel Framework establishes minimum requirements, more 
+conservative requirements and thresholds may be more suitable in some cases.  
+• 
+Proportionality can help authorities achieve an appropriate intensity of supervision for all 
+banks. As per the BCPs, all banks should be subject to supervision commensurate to their risk 
+profile and systemic importance. This is achieved when supervisors maintain sufficient awareness 
+and surveillance of the overall risk profiles, risk management and governance practices of banks, 
+including those that are under simpler proportionate regulatory requirements.  
+• 
+Proportionate approaches provide regulatory certainty, without being overly static. 
+Regulatory stability and predictability tend to create favourable operating environments for both 
+banks and supervisors. As with any other regulation, it may be necessary for authorities to revise 
+the scope and range of proportionate approaches as the financial system evolves, banks’ business 
+models change and supervisors’ powers, skills and capabilities improve. In any case, it is important 
+that proportionality is seen as a stepping stone in the implementation of international standards, 
+and that the design of a proportionate approach can facilitate potential future implementation 
+of the Basel Framework, where appropriate.  
+• 
+Proportionality approaches that include supervisory discretion allow supervisors to 
+respond to bank behaviours and financial system developments. Supervisors are encouraged 
+to ensure that proportionality approaches do not create opportunities for regulatory arbitrage or 
+particular (dis)incentives for any group of banks. In general, simple segmentation rules work well 
+for most, but not necessarily all, banks. In addition, financial systems may evolve in ways that are 
+not foreseen when a proportionality approach is first designed. These situations can generally be 
+addressed by supervisors if they retain discretions under the proportionality approach. 
+ 
+ 
+
+ 
+ 
+ 
+4 
+High-level considerations on proportionality
+ 
+ 
+Illustrative technical annexes 
+1. 
+Segmentation 
+1.1 
+Introduction 
+Authorities that apply proportionality may choose to define groups of banks subject to different elements 
+of regulation. For example, a jurisdiction might consider a proportionality arrangement where all banks 
+are subject to the same set of rules, or one in which different regulations apply to different sets of banks. 
+In jurisdictions where supervisory authorities apply different rules to different sets of banks, key 
+considerations include the definition of segmentation metrics and thresholds, and the role of supervisory 
+judgment. This section outlines operational considerations that may assist authorities which choose to 
+differentiate among banks for proportionality purposes. 
+1.2 
+Number of segments 
+Categorising banks into different segments may help to properly differentiate them when a financial 
+system exhibits significant heterogeneity. This could help authorities that are responsible for supervising 
+a variety of different financial institutions. For example, a regulatory framework with two segments might 
+be suitable for a banking system where a few banks are internationally active or domestic systemically 
+important banks (D-SIBs), while all other banks are smaller, simpler and have a roughly similar business 
+model. In other cases, it may be more appropriate to implement additional segments. In fact, surveys show 
+that jurisdictions with very heterogeneous financial systems have established up to five different segments.  
+Introducing different segments entails some trade-offs. The benefits of a higher number of 
+segments include allowing supervisory authorities to better match the level of regulatory and supervisory 
+requirements with different types of banks, supporting risk-based supervision and reducing potential cliff 
+effects. Some of the potential disadvantages include reduced comparability between banks of different 
+segments and the practical challenges associated with maintaining multiple approaches. The appropriate 
+number of segments will be jurisdiction-specific, and may also depend on the dispersion of bank sizes and 
+business models. 
+1.3 
+Metrics for segmentation  
+Most jurisdictions using proportionality define the different segments with quantitative and qualitative 
+criteria. These criteria generally reflect the nature and magnitude of the risks inherent to different groups 
+of banks and the risks that they can pose to the financial system. Authorities assess banks against these 
+criteria, and allocate banks into one of the segments. Jurisdictions often supplement these metrics with 
+supervisory judgment. 
+As the segmentation criteria determine the regulatory requirements applicable to each group of 
+banks, alignment with the fundamentals of prudential supervision is advisable. Conceptually, prudential 
+regulation and supervision exist to address the negative externalities that arise from banks’ financial 
+intermediation activities. Ideally, the criteria used would be consistent with the scale of these negative 
+externalities, eg according to banks’ size, international activity and risk profile. 
+When the criteria used to categorise banks are simple to understand and to calculate based on 
+audited or publicly available information, segmentation is more effective, robust, transparent and 
+predictable. This allows banks and other stakeholders to better foresee and plan for transition through 
+
+ 
+ 
+High-level considerations on proportionality 
+5
+ 
+ 
+segments. Conversely, complex criteria may result in less transparency, increase the potential for arbitrage 
+by banks and lead to distortions.  
+Authorities in each jurisdiction are likely to consider factors including the size (in absolute terms 
+or as a share of the jurisdiction’s GDP) and the diversity of the banking system in setting segmentation 
+criteria. In some cases, it might make sense to determine one or more specific size thresholds, alongside 
+other qualitative criteria that consider banks’ business models, risk profiles and any activities that may 
+have implications for financial stability. Small banks that rely on complex products and sophisticated 
+business models might be better regulated with a framework that is able to address the related risks. For 
+example, banks whose business models are focused on trading activities may be better allocated to 
+segments that apply commensurate prudential requirements. Over time, as the financial system evolves, 
+authorities may need to re-evaluate which activities should bring banks under a more risk-sensitive regime. 
+Specifically, the qualitative criteria that help distinguish complex banks might need to be adjusted 
+occasionally to consider future innovations, including new financial instruments and business models.  
+International activity is likely to be an important factor when designing segmentation criteria. For 
+some authorities, indicators such as cross-jurisdictional exposures or foreign consolidated assets directly 
+measure a bank’s exposure to international markets. Depending on the volatility of the domestic currency 
+compared with the main international currencies used by the jurisdiction’s banks, it might make sense to 
+measure the international activity in one of those international currencies. Such an approach could avoid 
+large swings in the international activity metric that would be attributable to exchange rate volatility rather 
+than changes in banks’ actual cross-border exposures. 
+Some examples of metrics used by different jurisdictions are listed in Table A.1 below. 
+Segmentation metrics 
+Non-exhaustive list of metrics used in practice to define proportionality segments 
+Table A.1 
+Size / systemic importance 
+International activity 
+Risk profile / business model 
+• 
+G-SIB or D-SIB status (yes/no) 
+• 
+Total leverage ratio exposure 
+measure (as a percentage of 
+GDP) 
+• 
+Total assets (in monetary 
+amounts) 
+• 
+Total loans (in monetary 
+amounts) 
+• 
+Cross-jurisdiction activity (in 
+monetary amounts) 
+• 
+Foreign consolidated assets (in 
+monetary amounts) 
+• 
+Existence of foreign subsidiaries 
+(Boolean indicator) 
+• 
+Off-balance sheet exposure (in 
+monetary amounts) 
+• 
+Exposure to derivatives (yes/no) 
+• 
+Exposure to stocks (yes/no) 
+• 
+Exposure to securitisation 
+positions (yes/no) 
+• 
+Assets under management (in 
+monetary amounts) 
+• 
+Specific types of deposits (in 
+monetary amounts) 
+Metrics used by Committee member and non-member jurisdictions, according to the Committee’s Proportionality in bank regulation and 
+supervision – a survey on current practices (2019), the Committee and World Bank’s Proportionality in bank regulation and supervision – a 
+joint global survey (2021) and national proportionality rules. 
+1.4 
+Setting the threshold values 
+Authorities that choose to use segmentation will also need to consider the relevant thresholds, ie the 
+specific variable values that will separate banks in each segment. A first step to define these values could 
+be to compile the distribution of the variables of interest over a period sufficient to estimate whether 
+potential thresholds are likely to result in frequent back-and-forth movement of banks, which is generally 
+undesirable. For example, if the size metric is total assets, analyses of the distribution of total assets of 
+each bank might reveal thresholds that separate natural clusters. For some variables, it may be that firms 
+with the highest values are few and dispersed and lower values occur more frequently. If needed, 
+
+ 
+ 
+ 
+6 
+High-level considerations on proportionality
+ 
+ 
+identification of the threshold values can be complemented by statistical analyses that cluster banks along 
+this dimension. These two steps might inform authorities as to what natural thresholds could be.  
+For qualitative requirements, authorities could list the main activities and associated risks for 
+banks and check whether the riskiness of a bank matches the ranking according to the main metric. 
+Conversely, authorities could impose restrictions on the activities of those banks allocated to a particular 
+segment – for example, banks in the segment with the simplest requirements could be prohibited from 
+engaging in higher-risk activities. 
+Effective thresholds would separate different groups of banks, often with a distance between 
+them. Thresholds around which a group of banks tend to cluster may not be ideal, due to the potentially 
+artificial differentiation between banks that would result. In cases where there are multiple segments, 
+having a consistent distance between them may make more sense in terms of risk sensitivity. It may be 
+the case that, depending on whether the metric distribution is log-normal, the distance between 
+thresholds needs to be multiplicative rather than additive. As an example, if size is measured in the local 
+currency and the distribution of bank size appears to be log-normal, possible thresholds could be set to 
+1 billion, 10 billion and 100 billion in assets – ie each threshold is larger or smaller than the neighbouring 
+ones by the same multiple (in this case, 10). 
+In cases where the metric is expressed as an absolute monetary value, and not as a percentage 
+of GDP or other relative measure, authorities might have to reassess over time if the thresholds still 
+adequately distribute banks in each segment. Over time, factors like inflation and overall financial system 
+growth might affect the adequacy of thresholds calculated with absolute values. 
+1.5 
+Migration between segments 
+Whenever a proportionality framework divides banks into two or more segments, establishing rules 
+governing the migration between segments provides regulatory certainty for changes in size, risk profiles 
+and activities. Migration rules can also be effective backstops against regulatory arbitrage.  
+Supervisors might find it desirable that requirements applicable to individual banks change only 
+gradually. This helps prevent unnecessary adjustment costs and uncertainty for banks and supervisors, 
+while ensuring that firms are subject to adequate regulation and supervision regardless of where they are 
+in their growth cycle. In practice, supervisors normally define a minimum fixed time (often one year) when 
+a bank must stay in a segment before being eligible to change. Additionally, as migration between 
+segments might affect banks significantly, authorities may consider phasing in requirements when a bank 
+changes tiers, for example by providing a reasonable adaption time between confirmation of the migration 
+and the actual change in requirements. This could be especially helpful for both banks and supervisors in 
+cases where the bank is migrating to a segment with more risk-sensitive regulation. 
+Occasionally, newly authorised banks, or banks formed via significant mergers or acquisitions, 
+have not yet generated sufficient data to determine their segment. In practice, the best information that 
+supervisors have to determine the initial allocation of a newcomer bank is that submitted as part of its 
+licensing application. In these cases, supervisors might use the planned size, and other planned variables 
+consistent with the business plan, to establish what the appropriate allocation might be from the first day 
+of operations. Similarly, other changes in a bank’s life cycle, such as mergers, acquisitions and spin-offs, 
+might have a significant impact on a bank’s segmentation metrics. Where such changes would reasonably 
+lead the pro forma resulting bank(s) to cross thresholds into a different segment, supervisors might 
+consider establishing the destination segment sooner rather than later, to provide regulatory certainty to 
+the new bank(s) and its other stakeholders, including competitors. 
+
+ 
+ 
+High-level considerations on proportionality 
+7
+ 
+ 
+1.6 
+Role of supervisory judgment 
+As outlined above, categories based on size and other quantitative metrics may not be sufficient to capture 
+different risk profiles and different business models at all times. Even in cases where qualitative 
+characteristics are also considered, the supervisory perspective is probably better able to reflect the 
+particularities of banks within each tier. Therefore, it is advisable that supervisors have sufficient powers 
+to move institutions between tiers, beyond the quantitative criteria. 
+Supervisory judgment is based on the risk-based assessment framework, considering both 
+quantitative and qualitative information. In some jurisdictions, it may be challenging for supervisors to 
+disclose the supervisory judgment aspects considered in classification, given that some of the qualitative 
+information may be confidential. 
+Some qualitative factors that authorities might consider are activities that are not captured by 
+the simpler metrics listed above. Relevant cross-border activity, interconnections with other institutions, 
+and capacity for complying with new requirements are some examples. Smaller banks whose trading 
+activity and sophisticated risk-taking ability need more intense supervisory scrutiny might be allocated, by 
+supervisory discretion, to a corresponding segment. A well grounded perception by the supervisor that a 
+particular bank is substantially more similar in terms of its risk profile and systemic importance compared 
+with banks in another segment might also trigger the exercise of supervisory judgment. Authorities might 
+consider disclosing publicly, at a high level, a non-exhaustive list of the factors that may inform supervisory 
+judgment, with the goal of managing stakeholders’ expectations and facilitating banks’ planning process. 
+Ideally, application of supervisory judgment is subject to a high bar, and only used to override 
+the segmentation rules in limited circumstances. In any case, it is advisable that these segment moves be 
+based on well documented and verifiable quantitative and qualitative information. Over time, the 
+frequency of cases that require supervisory judgment could indicate to authorities whether the definition 
+of segments, the metrics and their thresholds continue or not to be adequate for that particular financial 
+system. 
+2. 
+Definition of capital 
+Core Principle 16 (BCP01.100-102) establishes global requirements on this topic and the 
+corresponding standard in the Basel Framework is CAP.  
+2.1 
+Introduction 
+The definition of capital underpins the quality and availability of capital to absorb losses. As the Basel 
+Framework recognises different capital instruments, each with varying degrees of complexity and different 
+loss-absorbency features, there is the potential for individual jurisdictions to introduce proportionality in 
+the definition of capital. 
+2.2 
+Considerations for the definition of capital 
+The following elements are important considerations when determining the quality of capital adequacy to 
+be maintained by small and simple banks:  
+• 
+whether the capital instruments meet the eligibility criteria as set out in the Basel Framework; 
+
+ 
+ 
+ 
+8 
+High-level considerations on proportionality
+ 
+ 
+• 
+whether and how the eligible components of regulatory capital are available to absorb losses on 
+a going-concern basis (for example, common equity and disclosed reserves) and/or on a gone-
+concern basis; 
+• 
+whether the capital base includes going- and gone-concern capital, considering also the tiers in 
+the Basel Framework as a guidance; and 
+• 
+whether the capital has permanency and certainty. 
+In small and simple financial systems, where the variety of capital instruments may be limited, it 
+could be appropriate to adopt a simpler definition of capital. For example, in such jurisdictions it may be 
+more practical for both supervisors and banks if the regulatory framework defines a simpler capital 
+structure comprising fewer tiers or capital elements, or simpler eligibility criteria for those tiers of capital, 
+provided these do not undermine the quality of bank capital. In jurisdictions with a limited variety of capital 
+instruments, a capital regime that has an enhanced focus on CET1 could also help compensate for any 
+risks arising from other, unrelated adjustments made to simplify the regime for smaller and simpler banks, 
+since the average quality of capital would be higher. 
+The capital definition could also be simplified by, for example: 
+• 
+Setting simpler approaches for including retained earnings and unrealised gains and losses in 
+CET1 capital. 
+• 
+Setting simpler approaches for making regulatory adjustments, since these adjustments, 
+thresholds and waivers for deductions have detailed rules that may not be relevant in simpler 
+financial systems. For example, adjustments could be made to only one level of capital, or those 
+items that are subject to a deduction threshold approach could be fully deducted from capital. 
+• 
+Reducing the scope of regulatory adjustments and deductions to exposures that are more 
+material to the particular banking system or group of banks within that jurisdiction. 
+• 
+When the denominator in risk-based capital ratios or the leverage ratio is simplified, the 
+exposures that are typically risk weighted at 1,250% but are not captured in the denominator 
+could be deducted from capital instead. 
+• 
+Setting simpler rules for determining non-viability in the context of conversion of Tier 2 
+instruments into common equity or writedown. 
+2.3 Conservative calibration 
+Authorities might use historical experience to assess whether the minimum capital levels in the Basel 
+Framework are sufficient for small and simple banks given the characteristics of their economies and 
+banking systems. Historical experience includes both the loss history of banks and general macroeconomic 
+developments. The larger the historical losses and the more volatile the macroeconomy, the higher the 
+capital requirements. 
+More conservative capital requirements could also reflect domestic regulation and the capacity 
+of supervisors. If authorities implement a simple framework, capital requirements may need to be higher 
+to mitigate the risk of the framework having lower risk sensitivities or not covering specific risks. However, 
+this may not be the case if the simplification is accompanied by, for example, higher risk weights, 
+conservative regulatory adjustments or deductions, and/or limits on certain activities. 
+The Basel Framework also includes a number of regulatory capital buffers that authorities could 
+choose to replace with higher capital requirements. Such an approach may be particularly useful in 
+jurisdictions that lack the legal or regulatory capacity to activate and/or release capital buffers and 
+constraints on the distribution of earnings. Given that some of the regulatory capital buffers, such as the 
+
+ 
+ 
+High-level considerations on proportionality 
+9
+ 
+ 
+countercyclical capital buffer (CCyB), are also important macroprudential policy tools, jurisdictions may 
+choose to implement buffers adjusted as appropriate for the particular circumstances of the jurisdiction.  
+2.4 Self-guided itinerary 
+Table A.2 contains questions that authorities might discuss internally when considering how to implement 
+proportionality in the definition of capital and its calibration. 
+Definition of capital 
+Questions guiding a proportional approach 
+Table A.2 
+Components of capital (CAP10) 
+• 
+What types of capital instruments are used by the banks in your jurisdiction? To what extent and by which types of 
+banks? 
+• 
+What do you see as the respective qualities of the different capital instruments and other risks posed by the 
+instruments? What impediments to conversion or writedown may exist in the broader legal and investor protection 
+framework? 
+• 
+Are the components of capital (CET1, AT1 and Tier 2) allowed in your local regulatory framework aligned with or 
+more conservative than the applicable Basel capital framework? 
+• 
+Does the added complexity of using AT1 instruments compared with CET1 justify their use? 
+• 
+Does the added complexity of using Tier 2 instruments justify their use? 
+• 
+What is the nature (eg maturity, depth, liquidity) of capital markets in your jurisdiction? Are certain capital 
+instruments more conducive to banks achieving deep and reliable access to capital in good times and in stressed 
+times? 
+Eligibility criteria (CAP10) 
+• 
+Do local rules explicitly prescribe the eligibility criteria for each type of regulatory capital category (ie CET1, AT1 
+and Tier 2 capital)?  
+• 
+If yes, what are the permitted forms or components for each tier of capital? 
+• 
+Also, if yes, do these criteria deviate from the applicable Basel capital framework(s)? How and why? 
+• 
+Does the deviation improve the quality and availability of capital to absorb losses on a going- and/or gone-
+concern basis? 
+• 
+Do local rules, laws or regulations explicitly allow certain legal forms of regulatory capital instruments or elements 
+for eligible capital components without providing detailed eligibility criteria? If yes, what are the permitted 
+components for each capital component (ie CET1, AT1 and Tier 2)?  
+• 
+What is the historical experience in the enforcement of creditors’ rights and dispute resolution in the event of 
+default? 
+• 
+Are there any components that need prior supervisory approval before inclusion in regulatory capital?  
+• 
+Are there any components that do not need prior supervisory approval when the bank repays the investors before 
+maturity or purchases the instruments from the investors? If yes, how are these components seen as available to 
+absorb losses on a going- and/or gone-concern basis? 
+Deductions / regulatory adjustments (CAP 30) 
+• 
+What are the major deductions and adjustments to capital in your jurisdiction? For which types of banks are they 
+material?  
+• 
+Are the deductions adequate and the adjustments justified? Why? Are all regulatory adjustments in the applicable 
+Basel capital framework(s) applied? If not, why not?  
+• 
+How are regulatory adjustments applied? Are regulatory adjustments applied to each capital category or are 
+deductions made from a particular tier or level of capital or specific CET1 capital only? 
+• 
+Do these deviations improve the quality and availability of capital for absorbing losses on a going- and/or gone-
+concern basis? 
+• 
+Does the added complexity justify the deductions and adjustments? For all banks? 
+
+ 
+ 
+ 
+10 
+High-level considerations on proportionality
+ 
+ 
+Prudent valuation guidance (CAP50) 
+• 
+What risks do you see in relation to the valuation framework in your jurisdiction? What implications does the 
+valuation framework have for the supervisory assessment of banks and the components of eligible capital?  
+• 
+What valuation practices are applied in your jurisdiction? What positions cannot be valued by using market values 
+due to the absence of market(s) or absence of liquid markets? What inputs are used in valuing these positions? Are 
+there any less liquid positions for which the market values used may not be representative? Do you establish and 
+maintain procedures for considering valuation adjustments, including for less liquid positions, in accordance with 
+the Basel Framework? 
+• 
+Do you have the systems and controls prescribed by the Basel Framework? Do you apply the valuation 
+methodologies prescribed by the Basel Framework?  
+• 
+Would prohibiting certain positions or valuation practices make it possible to have simpler regulations? 
+• 
+Would disallowing some or all of such revaluation gains from inclusion in eligible components of capital improve 
+the availability and loss-absorbing capacity and simplify regulations? 
+• 
+Does your jurisdiction currently prescribe or limit valuation practices? If so, why? 
+Levels of capital requirements (RBC20) 
+• 
+What are the minimum levels for CET1, Tier 1 and total capital (as a percentage of risk-weighted assets)? Are these 
+levels aligned with the requirements in the applicable Basel capital framework(s)? Do different levels apply to 
+different banks? If so, why? Are capital floors used? Are they more conservative than the Basel Framework? 
+• 
+What is the proportion of total regulatory capital maintained as Pillar 2 capital and in what form of capital 
+instrument? 
+• 
+Is there any historical experience on what level of capital is required to absorb losses when a bank fails? What do 
+stress tests suggest? 
+• 
+Are the limits (ie caps) on the permitted components share in regulatory capital aligned with or more conservative 
+than the relevant Basel capital framework(s)? 
+Buffers (RBC30) 
+• 
+If you are implementing Basel III in your jurisdiction, what are the existing regulatory buffers in your capital 
+framework? Are the types and sizes aligned with or more conservative than the Basel Framework? 
+• 
+Can you impose limits on profit distributions if banks make use of buffers? Are the restrictions on distributions in 
+case of buffer breach automatic, or discretionary for the supervisory authority? And are the restrictions gradual (eg 
+a percentage increasing with the size of the breach) or non-gradual (eg outright restriction/prohibition in case of 
+breach regardless of the size of the breach)? 
+• 
+If you are implementing countercyclical buffers, what would you consider to be excessive aggregate credit growth? 
+What would be the impact of downturns after such periods of excessive credit growth on bank earnings and 
+solvency?  
+• 
+For simplification, can an increase in minimum capital requirements for the simplest and smallest banks be an 
+alternative to buffers? 
+Exemptions, deviations and disclosures 
+• 
+Are the deviations, if any, from the applicable Basel capital framework available to all banks? 
+• 
+If they are available only to select banks, what factors support such selective deviation? 
+• 
+Are there any exemptions from local requirements? 
+• 
+In case of exemptions or selective deviations, are these disclosed publicly by either the bank or the supervisor? If 
+not, what factors are preventing public disclosures? 
+• 
+Are banks required to make periodic (at least annual) public disclosures of the key terms and conditions of the 
+components of capital? If not, what factors prevent requiring such disclosures?  
+Reporting requirements 
+• 
+Are banks required to submit any ad hoc (not periodic) reports to the supervisor on: (i) changes to CET1, T1 and 
+total capital adequacy ratios; (ii) changes to the components of capital; (iii) issuances of new eligible capital 
+instruments; or (iv) repayment or buyback of issued eligible capital instruments? Are these reports required to be 
+submitted before the event or after? 
+• 
+How frequently are the banks required to report their capital requirements? 
+
+ 
+ 
+High-level considerations on proportionality 
+11
+ 
+ 
+3. 
+Calculation of risk-weighted assets 
+Core Principles 16, 17, 22 and 25 (BCP01.100–104; 114; 122–124) establish global requirements on 
+this topic, and the corresponding standards in the Basel Framework are RBC, CRE, MAR and OPE. 
+3.1 
+Introduction 
+Risk-weighted assets (RWA) are a key input in determining banks’ capital adequacy ratios. This technical 
+annex outlines considerations to support the use of proportionality for the calculation of RWA in a manner 
+that comprehends all material risks. 
+3.2 
+Calculation of risk-weighted assets 
+The Basel Framework contains different approaches for calculating RWA, including both standardised 
+approaches and internal model-based approaches for some risk categories. To promote international 
+comparability and consistency, jurisdictions with simpler financial systems and smaller and simpler banks 
+might consider implementing the simplest approaches available for each risk category. 
+However, even the simplest approaches may be too detailed for some banks or, in the case of 
+non-Committee member jurisdictions, for some banking systems. In these circumstances, simplifications 
+beyond the simplest version of the international rules may be warranted, to help lower costs for banks and 
+supervisors while still maintaining sufficient risk sensitivity and an adequate amount of capital in each bank 
+and across the banking system. To achieve a balance between simplicity and prudence, some jurisdictions 
+may deem it necessary to include a degree of conservativism in the proportionate rules, eg by requiring 
+an overall higher amount of capital for Pillar 1 or by adopting more conservative risk weight calibrations.  
+This annex illustrates situations where the calculation of RWA components might be made 
+simpler than the existing Basel Framework.  
+3.2.1 
+Credit risk 
+The Basel III framework for credit risk includes two main approaches for calculating credit risk RWA: a 
+standardised approach and an internal ratings-based approach. Within the standardised approach, there 
+are further options for calculating RWA for specific asset classes (eg for bank and corporate exposures, 
+RWA may be calculated based on whether or not the use of external ratings is permitted). To increase 
+comparability and reduce variability across banks’ RWAs, the Basel III framework limits the scope of internal 
+models, while deliberately increasing the risk sensitivity of the standardised approach. 
+Simpler rules might be considered, particularly for jurisdictions with smaller and simpler banking 
+systems. The calculation of credit risk RWA under the standardised approach could be simplified by 
+establishing less granular definitions of (sub)asset classes and exposures compared with the Basel 
+Framework. For example, a conservative uniform risk weight could be applied to all corporate exposures 
+instead of distinguishing between small and medium-sized enterprises (SMEs), externally rated corporates 
+or specialised lending, with a conservatively higher uniform risk weight also applicable to defaulted 
+exposures. Similarly, for retail exposures a conservative uniform risk weight could be applied to all 
+unsecured loans and loans secured by assets other than real estate. For exposures secured by real estate, 
+one possibility in the absence of further data could be to differentiate at least between loans secured by 
+residential vs commercial real estate, with a more conservative prudential treatment applied to the latter. 
+Where data are available, jurisdictions could consider using objective drivers of risk to 
+differentiate exposures in the retail (eg characteristics of the borrowers, or characteristics of certain types 
+of collateral), corporate (eg revenues and leverage) and bank (eg CET1 ratio and non-performing loan 
+
+ 
+ 
+ 
+12 
+High-level considerations on proportionality
+ 
+ 
+ratio) asset classes. Where such data are not available, it may be more prudent to adopt more conservative 
+uniform risk weights. Further, where external ratings are not available (or limited) for exposures to banks 
+and corporates, authorities could, for example, instead require that the risk weight for unrated exposures 
+be assigned to the entire asset class. For the smallest and simplest banks, particularly those in less 
+developed financial systems, it might make sense to consider the granularity required for the compilation 
+of financial statements as a guidepost − supervisors could take advantage of banks’ bookkeeping 
+processes and require the application of risk weights at the balance sheet item level, with a sufficiently 
+conservative risk weight to compensate for the coarser risk sensitivity.  
+For some smaller jurisdictions, a proportionate calculation of credit risk RWA might focus only on 
+those exposures that are material for banks operating in that jurisdiction. Provided all material risks are 
+covered, and the resulting capital framework is sufficiently conservative, this could be a viable option for 
+implementing proportionality. For example, in jurisdictions where banks do not have exposures to 
+securitisation or equity-like financial instruments, authorities could consider not implementing specific 
+RWA calculations for these exposures. However, authorities might consider monitoring financial 
+innovations and introducing requirements for these specific exposures as the structure and sophistication 
+of local financial markets evolve. Where banks do have material exposure to equity instruments, a 
+differentiation could be made between unlisted companies and all other equity holdings if the risk profile 
+of these companies justifies this differentiation, since information on listing status is publicly available. In 
+some cases, exposures of simple and small banks to these and other more complex credit instruments 
+may be prohibited, or a conservative capital requirement such as a deduction from capital (or a risk weight 
+treatment equivalent to deduction) could apply. Similarly, if exposures to derivatives are immaterial, banks 
+could, for example, be allowed to use the current exposure method (CEM, which was used in the context 
+of counterparty credit risk within the Basel II framework) to calculate capital requirements for derivative 
+exposures.  
+For off-balance sheet exposures, authorities may also choose to focus only on those exposures 
+that are material for banks operating in that jurisdiction and limit the granularity of exposure categories. 
+Such an approach could be supported by a more conservative off-balance sheet capital requirement. Other 
+aspects of the Basel III framework may be appropriate for many non-member jurisdictions and could be 
+considered even for simpler banking systems, such as higher credit conversion factors for some off-
+balance sheet exposures. For example, where there is uncertainty as to banks’ ability to control drawdown 
+or cancel commitments in practice (eg for unconditionally cancellable exposures) supervisors may consider 
+applying higher credit conversion factors.  
+Authorities could also simplify the recognition of eligible credit risk mitigation techniques by 
+considering for lower capital requirements only those techniques that are most relevant and can be legally 
+enforced. For many smaller and simpler banks, deposits and government bonds are likely to be a common 
+form of financial collateral. Where authorities allow banks to recognise other types of more volatile 
+collateral such as equities, consideration could be given to requiring the application of conservative 
+supervisory haircuts. Authorities may also elect to only permit banks to use a simple approach to the 
+recognition of eligible financial collateral, rather than the more detailed comprehensive approach.  
+3.2.2 
+Market risk 
+The Basel III Framework for market risk includes a menu of approaches: simplified standardised, 
+standardised and internal models.6 The simplified standardised approach was specifically created as an 
+option for banks with smaller or less complex trading portfolios. The internal models, and to some extent 
+the standardised, approaches are more detailed and may require significant human and technical 
+resources including specialised training of personnel, sophisticated IT systems, and internal and external 
+ 
+6  
+Simplified approaches were also designed by the Committee to determine the exposure amount of derivatives under the 
+counterparty credit risk (CCR) and under the credit valuation adjustment (CVA) frameworks. 
+
+ 
+ 
+High-level considerations on proportionality 
+13
+ 
+ 
+information databases. The implementation of the market risk framework may be challenging for banks in 
+jurisdictions with simpler financial systems.  
+In these jurisdictions, trading activity can be minimal: the number of issuers of stocks or fixed-
+income instruments may be limited, and securities markets may be incipient or in some cases non-existent. 
+Derivative instruments might also be absent or immaterial. In such cases, even the simplified standardised 
+approach may be challenging for some jurisdictions to implement, and authorities might seek further 
+paths for simplification. For example, one alternative is to implement a flat surcharge that increases capital 
+requirements by a fixed amount relative to the bank’s RWA for other risks or total assets. Such a 
+simplification could be replaced by a market risk RWA calculation if the trading books of these smaller 
+banks begin to grow in size and complexity. A flat surcharge approach may be appropriate if the materiality 
+of market risk inherent within the jurisdiction’s banking system or banks’ activities and business models is 
+small, and the supervisors and banks still have sufficient information and processes to identify and monitor 
+market risk. For small banks where exposure to market risk is not immaterial, supervisors could also 
+consider treating this risk on a Pillar 2 basis in addition to a Pillar 1 flat surcharge. 
+For most emerging and developing economies, FX risk might be the predominant source of 
+market risk under Pillar 1. In these cases, it could be advisable to establish a more risk-sensitive approach 
+to FX risk, such as by applying only the FX component of the simplified standardised approach or taking 
+advantage of data already produced by banks (eg for accounting statements). One example would be to 
+use relevant balance sheet lines to calculate a measure of banks’ open FX position, and apply risk weights 
+to that amount. 
+In some cases, it may be appropriate to combine the simplified standardised approach under 
+Basel III for less material portfolios with the standardised approach for relevant risks such as FX. Regardless 
+of the implementation of the simplified standardised approach, jurisdictions could choose to still apply to 
+small and simpler banks some, or all, of the new definitions for the trading and banking books, which are 
+more helpful in risk identification and management, and limit opportunities for regulatory arbitrage.  
+3.2.3 
+Operational risk 
+The Basel framework for operational risk takes into account each bank’s business volume and unique 
+operational risk profile. Under the Basel III standard, banks are required to use the standardised approach 
+to calculate operational risk RWA. The most significant elements driving this calculation that introduce a 
+degree of differentiation are the business indicator component’s (BIC) application of multipliers (marginal 
+coefficients) based on business volume, and the use of the internal loss multiplier (ILM) that may reduce 
+or increase capital requirements for operational risk. The use of the ILM by banks in bucket 1 (generally 
+smaller banks) is subject to national discretion. While the use of the ILM – which requires 10 years of high-
+quality annual loss data – is not mandatory for banks in bucket 1, jurisdictions may benefit from banks’ 
+development of internal operational loss databases, which is an important step towards robust and sound 
+operational risk management regardless of whether the full Basel Framework is adopted.  
+When implementing Basel III, jurisdictions with smaller and less complex banking systems may 
+find it appropriate to recalibrate the business indicator (BI) buckets so that thresholds reflect domestic 
+conditions. The thresholds in the Basel III standard may be too large for application for jurisdictions with 
+smaller banking systems. If recalibration is not feasible, smaller jurisdictions could set a single marginal 
+coefficient for all banks in a conservative manner. A simpler approach would be to set a flat surcharge for 
+operational risk based on the bank’s RWA for other risks or total assets. 
+
+ 
+ 
+ 
+14 
+High-level considerations on proportionality
+ 
+ 
+Jurisdictions with smaller and simpler banking systems may also benefit from encouraging their 
+banks to improve their operational risk management frameworks, in line with the Committee’s revised 
+Principles for the sound management of operational risk7 and the Principles for operational resilience8. 
+3.3 
+Self-guided itinerary  
+Table A.3 below contains a set of questions that may be useful as a starting point for internal discussion 
+in individual authorities when considering proportionality in relation to the calculation of RWA. 
+Credit risk, market risk and operational risk 
+Questions guiding a proportional approach 
+Table A.3 
+Credit risk (CRE20) 
+• 
+What type of credit exposures do smaller banks tend to have? 
+• 
+What is your experience with credit risk? What is the level of past due loans? What exposures have historically 
+given rise to the biggest losses? What exposures have a particularly volatile history in terms of default rates or 
+asset valuation? What does your domestic experience suggest regarding the correlation of losses between 
+borrowers in the same asset class and across asset classes? How strong is creditor protection in your domestic 
+legislation and in practice? Do you have a history of your sovereign defaulting, on foreign currency debt, on 
+domestic currency debt? Do you have a history of regional governments or public sector entities defaulting? Are 
+credit commitments substantial?  
+• 
+What proportion of banks and bank assets in your jurisdiction follow the standardised approach for credit risk or 
+some simpler approach? 
+• 
+Do you have data on probability of default, loss given default and conversion factors for particular kinds of 
+exposures? If yes, what do they suggest? What is your experience with realising collateral, and does it justify having 
+lower loss given default for secured exposures?  
+• 
+Are some exposures not risk-weighted in proportion to their inherent risk as prescribed by the Basel Framework? If 
+not, could these alternative approaches provide wrong incentives to the banks, leading to underpricing of risks and 
+higher risk-profiles? What other risks could arise to individual banks or to the banking system from applying a 
+different treatment?  
+• 
+Do you apply different risk weights to some or all exposures in your jurisdiction when compared with the Basel 
+Framework? If so, what is the underlying reason? What options do you use for non-central public sector entities, 
+banks and corporates? Do you base any risk weights on external credit ratings? Which items are presently subject 
+to a risk weight above 100%? How do you define and treat past due loans? 
+• 
+Have you considered treating credit commitments as fully drawn facilities, avoiding the use of credit conversion 
+factors? 
+Use of external ratings (CRE21) 
+• 
+What external credit assessment institutions (ECAIs) are active in your jurisdiction? What is their track record? 
+• 
+What risks do you see in relying on ratings by ECAIs? Are you comfortable with their assessments? 
+• 
+What criteria do you use to assess ECAIs? How do you map their assessments into risk weights? Do you use issue-
+specific ratings, or only issuer-specific ratings? Do you distinguish between ratings on local currency exposures and 
+foreign currency exposures? Do you distinguish between short-term and long-term claims? Do you distinguish 
+between international and national rating scales? What risk weights are used for domestic exposures without an 
+international rating? 
+• 
+Have you considered not using ECAIs? What would be an adequately conservative risk weight for these exposures? 
+Are there data available to identify objective drivers of risk? 
+ 
+7  
+www.bis.org/bcbs/publ/d515.htm. 
+8  
+www.bis.org/bcbs/publ/d516.htm. 
+
+ 
+ 
+High-level considerations on proportionality 
+15
+ 
+ 
+Credit risk mitigation (CRE22) 
+• 
+To what extent are credit risk mitigation techniques used by different banks within your jurisdiction? What 
+techniques are used? Do your banks actively manage the techniques they use, eg by monitoring margins? 
+• 
+What valuation methods are used for real estate collateral, and do they sufficiently distinguish between residential 
+and commercial property collateral? 
+• 
+What risks do you see in relation to the use of credit risk mitigation techniques? What residual risks could the 
+instruments create? What degree of legal certainty applies? 
+• 
+Are the simple and/or the comprehensive approaches for the recognition of eligible collateral implemented in your 
+jurisdiction? What haircuts are required? Is the use of credit derivatives allowed? What collateral is accepted? 
+• 
+Are all of the Basel Framework credit risk mitigation techniques relevant in your jurisdiction? Do you recognise all 
+credit mitigation techniques, or can you limit the recognition to a few (or none), as relevant for your jurisdiction? 
+• 
+When the use of credit mitigation techniques is directly embedded in lower risk weights (eg for residential 
+mortgages secured by collateral), does the experience in your jurisdiction with realising collateral and foreclosing 
+on residential real estate justify that? 
+Market risk (MAR40) 
+• 
+What types of market risks are banks materially exposed to in your jurisdiction? What are the most relevant types 
+of market risk, eg interest rate risk, equity price risk, foreign exchange risk and commodity price risk? What type(s) 
+of market risk(s) have historically given rise to the biggest losses? How volatile are these risks? Which instruments 
+subject to market risk are materially relevant in your jurisdiction? Are your banks exposed to price risks on options 
+or other more complicated instruments? Are banks predominantly subject to long risks? Do they use derivatives? 
+Do they have securitisation positions? What risks do you see in relation to commodity positions? Are they overly 
+exposed to a single asset-type? 
+• 
+How large a proportion of banks and bank assets in your jurisdiction follow the simplified standardised approach 
+for market risk or some simpler approach? Would a higher proportion enhance the soundness of the banking 
+system? How do you distinguish between the banking book and the trading book? If you apply a version of the 
+simplified approach, which scaling factors do you use? Do you distinguish between specific risk and general market 
+risk? How do you net positions? Do you include vertical and horizontal disallowance? Do you use the maturity or 
+duration method? What maturity ladders do you use? Do you allow offsetting? How do you treat futures and swap 
+positions? How do you calculate net open currency positions? What method do you use for measuring 
+commodities position risk? Do you include in the simplified approach for commodity price risk an additional 
+requirement linked to the gross position? What approach do you use for options? 
+• 
+Are some exposures not weighted according to the risk capital requirements as prescribed by the Basel 
+Framework? What risks could arise from a different treatment? How do you treat banks’ position in their own 
+capital instruments? How do you calculate the overall net position?  
+• 
+Do you apply lower or higher risk capital requirements and time bands than prescribed by the simplified standard 
+method to some or all market risk exposures in your jurisdiction?  
+• 
+Are options treated according to the simplified approach? Are there banks in your jurisdiction that write options? 
+Would the simplified approach be adequate for those banks? Can you limit exposure to certain market risks and 
+thereby also use a simpler regulatory framework? Can you simplify the split between the banking book and the 
+trading book, eg limiting the banking book to assets where market prices truly do not exist? Can higher scaling 
+factors substitute for simplifications?  
+Banking book and trading book (RBC25) 
+• 
+Are holdings of financial instruments in your banks split into a trading book and a banking book? How do you 
+distinguish between the banking book and the trading book? What are the respective sizes in different banks? 
+• 
+What risks or problems does any split give rise to? What do you see as the advantages/disadvantages of the two 
+approaches? 
+• 
+Can you clearly determine which exposures to include in and to exclude from the trading book? How do you do it? 
+• 
+Could you decide that allocation in either book is determined by the position purpose, in a way that does not allow 
+positions with the same purpose of positions to be split between the banking and trading book? 
+
+ 
+ 
+ 
+16 
+High-level considerations on proportionality
+ 
+ 
+Operational risk (OPE10 and 20) 
+• 
+How do you define operational losses? What specific categories do you include? What operational risks have your 
+banks been exposed to historically? Do banks maintain a log of operational incidents, and does it include near 
+misses? What information, communication and technology risks, including cyber risks, are your banks exposed to? 
+What legal risks, both domestic and international, are your banks exposed to? Do banks in your jurisdiction have 
+good operational loss collection practices? 
+• 
+Do you apply higher or lower coefficients in your jurisdiction than those prescribed by the Basel Framework? Do 
+you apply lower or higher risk weights for operational risk? Are different values justified? What risks could arise 
+from a different treatment? How do you define gross income? 
+• 
+Are the elements of the standardised approach’s business indicator (BI) generally reflected in banks’ financial 
+statements in your jurisdiction? 
+• 
+If the elements to calculate the Basel III standardised approach are available to banks in your jurisdiction 
+(ie elements of the BI calculation and historical operational losses), how do estimated capital requirements under 
+the Basel III standardised approach compare with those under the existing approaches for operational risk capital? 
+Are any increases or reductions in capital requirements justified given what you know about your banks’ 
+operational risk exposures? 
+• 
+Are banks’ practices consistent with the Committee’s Principles for the sound management of operational risk and 
+the Principles for operational resilience? 
+4. 
+Leverage ratio 
+The corresponding standard in the Basel Framework is LEV.  
+4.1 
+Introduction 
+The Basel III leverage ratio complements risk-based capital requirements by providing a safeguard against 
+excessive leverage and model risk. The leverage ratio is calculated as a measure of Tier 1 capital over a 
+bank’s total exposures. In some cases, jurisdictions might choose to implement a simpler version of the 
+leverage ratio for banks.  
+The implementation of a simpler version of the leverage ratio can help preserve the safety and 
+soundness of small and simple banks, while limiting the operational burden of calculating the exposure 
+measure. It can also be beneficial in situations that are not addressed by the calculation of RWA, such as 
+concentrated exposures to assets with low risk weights. Before implementing a leverage ratio as a Pillar 1 
+requirement, some jurisdictions might instead choose to introduce this measure as a means to monitor 
+leverage in small and simple banks. 
+4.2 
+Calculation of the leverage ratio exposure measure 
+Authorities may choose to adopt a simplified calculation for the leverage ratio exposure measure. This 
+could be achieved by simplifying the calculation of individual components of the measure, particularly 
+those that are not material for small and simple banks. It can be done by, for example: replacing the 
+calculation of derivatives or securities financing transaction exposures with the values already calculated 
+for credit risk RWA purposes or using a more simplified approach; adopting simplifications for other off-
+balance sheet exposures (including higher credit conversion factors for some exposures) that are applied 
+for the purpose of calculating credit RWA; or relying as much as possible on values used by banks for their 
+usual financial statements or other regulatory reporting. When identifying potential areas for 
+simplification, authorities may consider assessing which simplifications would lead to an undesirable level 
+of risk sensitivity, which by itself could undermine the leverage ratio’s role as a backstop to risk-weighted 
+
+ 
+ 
+High-level considerations on proportionality 
+17
+ 
+ 
+capital requirements. Supervisors might decide to adjust for any material level of risk sensitivity in this 
+adjusted leverage ratio by, for example, setting a more conservative calibration. 
+4.3 
+Capital used in the leverage ratio 
+Authorities that choose to implement simpler definitions of capital (see Annex Section 2) might decide to 
+use the same definition in the calculation of the leverage ratio, including all regulatory adjustments. If 
+appropriate, jurisdictions adopting a simpler method for calculating the leverage ratio may also choose to 
+apply a higher minimum requirement than the 3% required under the Basel Framework. 
+4.4 
+Self-guided itinerary 
+Table A.4 below contains a set of questions that may be useful as a starting point for internal discussion 
+in individual authorities when considering proportionality in relation to the leverage ratio. 
+Leverage ratio 
+Questions guiding a proportional approach 
+Table A.4 
+Definition and application (LEV10) 
+• 
+What is the leverage ratio of banks in your jurisdiction? Is there a minimum requirement in place? 
+• 
+Do you have the legal authority to develop and to implement a leverage ratio requirement in your jurisdiction? Is 
+the definition of the leverage ratio clear, comprehensive, meaningful to users, consistent over time and comparable 
+across banks? 
+• 
+Are risk weights and associated capital requirements calibrated such that a leverage ratio will mostly never be 
+relevant as a backstop? If it is not serving as a backstop, what is the purpose of implementing the calibrated 
+leverage ratio? 
+Exposure measurement (LEV30) 
+• 
+Do your banks use: (i) securitisations; (ii) derivatives; (iii) netting; (iv) eligible financial collateral; (v) clearing 
+arrangements; (vi) securities financing transactions; and (vii) other off-balance sheet items? If yes, what are the 
+amounts? 
+• 
+When calculating the leverage ratio, how do you treat: (i) securitisations; (ii) derivatives; (iii) netting; (iv) eligible 
+financial collateral; (v) clearing arrangements; (vi) securities financing transactions; and (vii) other off-balance sheet 
+items? 
+• 
+Are some of these aspects not relevant for your banks, eg because they are prohibited from having derivative 
+exposures, securities financing transaction exposures or other off-balance sheet exposures? 
+5. 
+Liquidity requirements 
+Core Principle 24 (BCP01.119-121) establishes global requirements on this topic, and the 
+corresponding standards in the Basel Framework are LCR and NSF. 
+5.1 
+Introduction 
+The Basel Framework includes two liquidity requirements: the Liquidity Coverage Ratio (LCR), a measure 
+which promotes short-term resilience, and the Net Stable Funding Ratio (NSFR), which requires banks to 
+maintain a stable funding profile in relation to the composition of their assets and off-balance sheet 
+activities. Implementation of the LCR and NSFR requirements are not a prerequisite for compliance with 
+the BCPs for jurisdictions that are not Committee members. However, some jurisdictions have introduced 
+
+ 
+ 
+ 
+18 
+High-level considerations on proportionality
+ 
+ 
+domestic liquidity rules requiring banks to hold a baseline level of liquid assets to cover potential short-
+term funding outflows. 
+Some jurisdictions that have adopted the LCR and NSFR took a proportionate approach to the 
+calculation methodology, while others have adopted an alternative domestic rule, such as liquid assets 
+ratios (stock measure), gap ratios (flow measure) and concentration ratios. Considering that the LCR and 
+NSFR are likely to be more risk-sensitive than other simpler ratios, proportionate domestic liquidity 
+requirements could be set more conservatively to compensate for lesser accuracy.  
+5.2 
+Definitions 
+The Basel Framework itself presents some possibilities for a proportionate approach. For example, in some 
+small and simple financial systems, the most challenging issue might be the limited range of high-quality 
+liquid assets (HQLA) available in local markets. To qualify as HQLA, assets must meet liquidity 
+characteristics and operational requirements. Some potential options for simplifying HQLA requirements 
+include: 
+• 
+Simplifying the definition of HQLA by, for example, recognising only level 1 assets – although 
+that might have limited practical impact if the jurisdiction does not have an active market for 
+level 2 assets.  
+• 
+Aligning, to the extent possible, the HQLA definitions with balance sheet statement lines or other 
+supervisory reporting requirements while keeping the same level of conservativeness. 
+Other definitions could also be simplified when applied to small and simpler institutions, and 
+categories can be merged. For example, stable and less stable deposits could be considered as a single 
+category; and the same with level 2a and 2b assets or with operational and non-operational deposits. 
+Another potential simplification could be limiting the NSFR time horizon to two buckets, such as “less than 
+one year” and “one year or longer”. The supervisor might also consider establishing a lower reporting 
+frequency for these banks. 
+5.3 
+Conservative calibration 
+Another issue for consideration during a proportional implementation of the LCR and NSFR could be the 
+calibration of runoff rates and availability factors. Individual banks may experience different flows during 
+times of stress, and smaller banks could in some cases have different stressed flows compared with larger 
+banks. For this reason, the cash inflow/outflow and the available and required stable funding (ASF and 
+RSF, respectively) assumptions might be adjusted in a conservative manner by supervisory authorities 
+based on jurisdiction-specific circumstances, as well as historical and behavioural analyses. For example, 
+authorities could use more conservative outflow rates for retail deposits in the LCR and lower stability 
+factors for the NSFR calculations. This could be combined with a less detailed classification of inflow and 
+outflow components. 
+The Basel Framework assumes that retail deposits are a stable source of funding even in stressed 
+conditions, which might not be the case in all jurisdictions. In jurisdictions without deposit protection 
+schemes, outflows of retail deposits could be significant in times of crisis. Bank exposures may also be 
+more concentrated and banks more dependent on large depositors, which could call for more conservative 
+outflow rates for large deposits. 
+Further, if banks are more dependent on cross-border funding and it is likely that non-residents 
+would withdraw funding during periods of financial stress, authorities could consider applying more 
+conservative outflow rates when the funds are provided by non-residents. Similar considerations may be 
+relevant for wholesale funding. Authorities could also consider simplifying the treatment of off-balance 
+
+ 
+ 
+High-level considerations on proportionality 
+19
+ 
+ 
+sheet items for banks that have insignificant off-balance sheet operations; or merging categories of assets 
+and liabilities in the NSFR that have similar funding characteristics, to simplify compliance. 
+5.4 
+Self-guided itinerary 
+Table A.5 below contains a set of questions that may be useful as a starting point for internal discussion 
+in individual authorities when considering proportionality in relation to the liquidity standards. 
+Liquidity standards 
+Questions guiding a proportional approach 
+Table A.5 
+Liquidity requirements (LCR10 and NSF10) 
+• 
+How are banks in your jurisdiction funded? What liquid assets do they rely on? What is the balance between long-
+term assets and long-term funding? 
+• 
+What short-term risks exist in relation to funding? What more structural funding risks are banks exposed to? What 
+experience have you had in relation to bank runs? What liabilities were most subject to runs? 
+• 
+Are the liquidity requirements applicable to the banks operating in your jurisdiction aligned with or more 
+conservative than the Basel liquidity framework? 
+• 
+Are both LCR and NSFR ratios implemented? If either ratio is not implemented, do you have clear timeline for their 
+implementation? 
+• 
+If the LCR and NSFR are not implemented, do you have alternative liquidity requirements to cover liquidity risk? 
+Are these requirements in line with the Basel Core Principles?  
+• 
+Is there a need to consider liquidity needs per currency? 
+• 
+Should currency play a significant role, how will transferability (across jurisdictions) and convertibility (between 
+currencies) be assessed/addressed? 
+Calculation of LCR (LCR20) 
+• 
+What knowledge do you have of idiosyncratic as well as market-wide liquidity shocks?  
+• 
+What on- and off-balance sheet items impose the largest liquidity risks? 
+• 
+What time horizon do you use for the calculation of your short-term liquidity requirement? What are the 
+components in the calculation? What are the numeric requirements? Under what conditions do you allow banks to 
+use their short-term liquidity buffer? 
+• 
+What is the simplest relevant indicator of short-term liquidity risks that would provide value in assessing your 
+banks? 
+• 
+Are the correct data feeds available to banks (eg typically data feeds have not been set up to map to the way the 
+LCR and NSFR evaluate funding)? Are off-balance sheet commitments tracked regularly? 
+Calculation of NSFR (NSF20) 
+• 
+How stable are the various funding sources used by banks? 
+• 
+How easy is it to terminate or exit the various commitments the banks have funded? 
+
+ 
+ 
+ 
+20 
+High-level considerations on proportionality
+ 
+ 
+HQLA in LCR (LCR30 and LCR31) 
+• 
+What assets on their balance sheets do banks consider to be highly liquid? How much of these assets do the banks 
+hold? How much of these assets are available for banks to hold in your jurisdiction? How do these numbers move 
+over time, eg as a result of developments on the balance sheet of the central bank or the government? How do 
+these numbers compare with the possible stressed outflow of banks? 
+• 
+What risks do you see in relation to the assets that are considered highly liquid? What do previous periods of stress 
+in financial markets suggest in terms of the possibility to convert these assets into cash? What alternative assets 
+could be considered liquid assets?  
+• 
+Do laws or regulations explicitly lay down the criteria for HQLA components? Do you have different levels of liquid 
+assets, and are there rules on the composition of the pool of liquid assets? Is there a need to address issues such 
+as encumbered assets? Do you apply any of the alternative liquidity approaches? If yes, how? 
+• 
+Is your jurisdiction in the position that claims on central banks and available government bonds are more than 
+sufficient to cover all needs for HQLA? 
+• 
+Is there a standard formula in your jurisdiction to value HQLA? 
+• 
+If the HQLA market is highly concentrated, what mitigating factor could be put in place should there be large 
+HQLA sell-offs? 
+Outflow/inflow rates in LCR and ASF/RSF rates in NSFR (LCR40 and NSF30) 
+• 
+How do banks forecast their liquidity positions? What is the experience in your jurisdiction with idiosyncratic 
+liquidity shocks, and market-wide liquidity shocks? What has been the impact on the most important assets, 
+liabilities and off-balance sheet items? Do you have a well functioning deposit insurance system that would ensure 
+stable retail deposits? 
+• 
+What do you see as the major risks to outflows and inflows, if banks are hit by idiosyncratic or market-wide shocks? 
+What is the possibility for the central bank to counter such shocks?  
+• 
+What is considered stable retail deposits? What runoff rates do you apply to different liabilities? What do you 
+assume in relation to derivatives, requirements to post collateral, drawdowns on credit facilities and other more 
+specific items? What do you assume in relation to inflows? Do you have a cap on inflows relative to outflows? 
+Would banks be able to identify operational deposits and the related excess amounts? How are SMEs defined and 
+identified in your jurisdiction? 
+• 
+What assumptions do you use for calculating ASF and RSF? How do you treat encumbered assets? How do you 
+treat off-balance sheet exposures? Do you have interdependent assets and liabilities, and how do you treat them?  
+• 
+Are there any elements in the standards that are not relevant in your jurisdiction, eg because banks are not allowed 
+to use the related instruments? 
+Reporting requirements (DIS85) 
+• 
+What is the capacity of banks to calculate liquidity ratios? Are they calculated on a daily, weekly or monthly basis?  
+• 
+Do you feel comfortable that the banks can calculate the LCR and the NSFR in a way that provides them with 
+adequate time to react? Do you feel comfortable that you receive the information on a timely enough basis for you 
+to react?  
+• 
+What are the reporting requirements?  
+• 
+Are LCR reports submitted on a daily, weekly or monthly basis?  
+• 
+Are NSFR reports submitted on a monthly or quarterly basis? 
+• 
+Are banks required to submit any ad hoc (not periodic) reports to the supervisor on the major changes to the 
+components of HQLA or composition/structure of assets, liabilities? Are these reports required to be submitted 
+before the event or after? 
+• 
+Are there any data points that could be left out, either because they are not relevant in your jurisdiction, eg 
+because banks are not allowed to use the related instruments, or because they are quantitatively insignificant? 
+
+ 
+ 
+High-level considerations on proportionality 
+21
+ 
+ 
+6. 
+Large exposures 
+Core Principle 19 (BCP01.107–121) establishes global requirements on this topic; and the 
+corresponding standard in the Basel Framework is LEX. 
+6.1 
+Introduction 
+Large exposures regulation limits the maximum loss that a bank could face in the event of a sudden 
+counterparty failure. This standard requires banks to measure their exposures to a single counterparty, or 
+a group of connected counterparties, and limit the size of large exposures as a proportion of their capital, 
+based on definitions that follow, where practical, existing concepts in the Basel Framework. 
+Large exposures are an important risk particularly in less diversified economies. Historically, many 
+banks have failed because of excessive exposure to a single counterparty, or a few counterparties exposed 
+to the same underlying risk. As a consequence, the scope for a proportional approach which leads to a 
+less comprehensive view of total exposure is likely to be limited. 
+The Basel Framework requires that the sum of all the exposure values of a bank to a single 
+counterparty, or to a group of connected counterparties, must not be higher than 25% of the bank’s Tier 1 
+capital at all times. The BCPs require that off-balance sheet and contingent liabilities be captured, and that 
+the supervisor have the power to define a group of connected counterparties. The additional criteria 
+include the same limits and quantitative definitions as the Basel Framework.  
+6.2 
+Definition of connected counterparties 
+The importance of identifying connected counterparties cannot be underestimated. Identifying groups of 
+connected counterparties is a crucial part of managing concentration risk, but it can be a challenge for 
+simpler and smaller banks due to the lack of information and data. In jurisdictions where concentration 
+risk is particularly relevant, supervisors could consider establishing more prescriptive guidelines on the 
+identification of control relationships and economic interdependencies. This could simplify compliance for 
+small and simpler banks, by facilitating the task of analysing these complex organisational structures to 
+identify connected entities. 
+Another challenge for small and simpler banks that could be addressed by proportionality is the 
+measurement of exposures, including those exposures that are not typically observed in these banks, such 
+as: counterparty credit risk from derivatives transactions, indirect exposures to underlying of derivatives 
+transactions, trading book exposures and the treatment of specific exposure types such as underlying 
+exposures to structures (eg securitisation vehicles). An additional challenge is the consideration of credit 
+risk mitigation techniques in the definition of connected counterparties, due to the need to also recognise 
+an exposure to the credit risk mitigation provider. One possibility could be to allow small and simple banks 
+to consider gross exposure, ie without recognising the mitigation. Where authorities apply simpler 
+requirements to the measurement and calculation of risk-weighted assets (see Annex Section 3), the same 
+approach could be applied to large exposure calculations. Potential simplifications across both frameworks 
+could relate to the measurement of certain off-balance sheet exposures and the recognition of credit risk 
+mitigation techniques.  
+6.3 
+Conservative calibration 
+Due to their more limited size or market reach, smaller banks may be more vulnerable to large exposures. 
+Authorities might consider setting a more conservative limit to identify large exposures. 
+
+ 
+ 
+ 
+22 
+High-level considerations on proportionality
+ 
+ 
+6.4 
+Self-guided itinerary 
+Table A.6 below contains a set of questions that may be useful as a starting point for internal discussion 
+in individual authorities when considering proportionality in relation to large exposure limits. 
+Large exposures 
+Questions guiding a proportional approach 
+Table A.6 
+Definition and application (LEX10) 
+• 
+How material are large exposures in your jurisdiction? What are their characteristics, eg in terms of credit risk and 
+credit risk correlation? What is your experience with losses coming from large exposures? 
+• 
+What risks do you see in relation to large exposures? Is there a risk that large counterparties to banks are 
+economically interdependent? 
+• 
+What is the scope of the organisation that you apply the large exposure framework to? How do you assess whether 
+counterparties are economically interdependent?  
+• 
+Can you limit the investigation of economic interdependence to a limited set of significant exposures? 
+Requirements (LEX20) 
+• 
+What is the consequence for banks in your jurisdiction if their largest counterparty fails? If, say, the five largest 
+counterparties fail? 
+• 
+How do you assess the risk that this will happen? Are there underlying economic factors, eg the price of one or 
+more commodities, that could drive failures? 
+• 
+What limits do you apply to single large exposures? To the sum of a certain number of exposures?  
+• 
+Can you ease reporting requirements for institutions that have historically operated well below legal requirements? 
+Exposure measurement (LEX30) 
+• 
+What kind of exposures, in addition to normal credits, do your banks have to counterparties?  
+• 
+Are there any kinds of exposures that you consider particularly risky? Are there any kinds of exposures that in 
+particular situations could suddenly become much larger? 
+• 
+Do you include both on- and off-balance sheet exposures? How do you define an exposure? What credit risk 
+mitigation techniques do you recognise? How do you include trading book exposures, including offsetting long 
+and short positions? How do you treat covered bonds, collective investment vehicles and other structures? Are any 
+exposures exempted? What credit conversion factors are used? 
+• 
+Are some of these aspects less relevant for your banks, eg because they are prohibited from having these 
+exposures? 
+7. 
+Pillar 2 
+Core Principles 1, 2, 8, 11 and 16 (BCP01.64–67, 86–88, 100–102, 105–106) establish global 
+requirements on this topic, and the corresponding standard in the Basel Framework is SRP. 
+7.1 
+Introduction 
+The Pillar 2 supervisory review process ensures that banks have adequate capital and liquidity to support 
+all material risks in their business, especially with respect to risks not fully captured by the Pillar 1 process. 
+It also encourages sound risk management and a holistic risk-based perspective by both banks and 
+supervisors.  
+While implementation of the Basel three-pillar framework is not mandatory for compliance with 
+the BCPs for non-Committee members, the BCPs comprise several essential criteria that are significant and 
+equivalent to essential elements of Pillar 2. For example, Core Principles 2 and 16 concern supervisors’ 
+independence and ability to impose capital on individual banks according to their risk profile and that all 
+
+ 
+ 
+High-level considerations on proportionality 
+23
+ 
+ 
+material risks are covered by capital or mitigated accordingly; Core Principle 8 mentions that supervisors’ 
+methodology for assessing bank risk should address, among other things, the business focus, group 
+structure, risk profile and other qualitative aspects; Core Principle 11 concerns forward-looking corrective 
+actions by supervisors. Other principles lay out other elements of Pillar 2, such as (but not limited to) 
+interest rate risk in the banking book, concentration risk, and governance and risk management 
+requirements, as described below. 
+7.2 
+Considerations in relation to Pillar 2 
+The Pillar 2 principles in SRP can be met in several ways. Authorities can use a proportional approach that 
+reflects their assessment of relevant risks, provided it meets the requirements under the BCP. Most 
+supervisors will consider how to apply proportionality in the SRP, when they decide on the level of 
+granularity of requirements. Authorities can also consider proportionality, when they decide on the 
+breadth of coverage of the specific Pillar 2 components. In addition, Pillar 2 is a possible place to address 
+risks which are only relevant for specific institutions in the jurisdiction. 
+When implemented by authorities, internal capital adequacy assessment process (ICAAP) 
+requirements could be met by simple and small banks with simpler methodologies. For example, these 
+banks could conduct sensitivity analyses to harness the value of a forward-looking risk management tool, 
+without incurring disproportionate costs by running a fully fledged suite of stress tests (see Annex 
+Section 8). Further simplification could be achieved by requiring ICAAP reports to cover only the key risks 
+for small and simple banks and banking systems. For example, for banks that are not active in 
+securitisations and only have limited market operations, the ICAAP reports would not need to consider 
+these areas. In some cases, banks may provide reports endorsed by its Board describing risk management 
+and internal control frameworks in place as well as a description of measurement and assessment of risks. 
+Small banks could assess the impact of external conditions, including business cycle effects and the 
+macroeconomic environment, on their business and future capital adequacy using methodologies that are 
+not necessarily sophisticated. 
+Authorities with small banks and non-complex banking systems may wish to focus on aspects of 
+Pillar 2 that are particularly relevant for their banks and banking systems. It is important to note that Pillar 2 
+actions may include not only higher capital requirements, but also timely actions to reduce risk or restore 
+capital. Further, strengthening risk management, internal limits, provisions and reserves, and better 
+internal controls, are other tools that address bank risks. 
+While there are some risks covered under Pillar 2 that are likely to be relevant in most banking 
+systems, some risks are likely to be particularly relevant for smaller banks and less diversified financial 
+systems, such as: 
+• 
+Interest rate risk in the banking book (IRRBB): the use of sophisticated models is not a 
+requirement. If the exposure to IRRBB is material, supervisors might choose to address these 
+using the appropriate choices from the options articulated above (eg higher capital requirements 
+or de-risking). If the banks and banking system are not sophisticated, it may be simpler to require 
+a standardised risk charge. 
+• 
+Concentration risk: concentration risk could include not only credit concentration (direct and 
+indirect) to the same counterparties but also to counterparties whose financial performance is 
+dependent on the same activity or commodity. If relevant, supervisors could also consider other 
+risk concentrations to asset classes, products, collateral or currencies. Concentration risk may be 
+difficult to avoid in some economies, and Pillar 2 actions are therefore key in addressing it. 
+• 
+Exposures to related parties: in some jurisdictions, diversification of counterparties may be 
+challenging, and exposures to related parties – including through service contracts, asset 
+purchases and sales – may be a source of risk. Pillar 2 actions would therefore be proportionately 
+
+ 
+ 
+ 
+24 
+High-level considerations on proportionality
+ 
+ 
+more relevant to these jurisdictions. Pillar 2 actions could include, for instance, limits for 
+exposures that are more conservative than the limits for a single counterparty or group of 
+connected counterparties, deduction from capital, requiring collateralisation of such exposures, 
+or higher capital requirements. 
+There are several means available to supervisors for ensuring that individual banks are operating 
+with adequate levels of capital. Among other methods, the supervisor may set trigger and target capital 
+ratios or define categories above minimum ratios (eg well capitalised and adequately capitalised) for 
+identifying the capitalisation level of the bank. Consideration could be given by authorities implementing 
+Pillar 2 add-ons to small and simple banks as to the hierarchy of loss absorbency of this add-on. Regardless 
+of the approach, authorities should have and retain the means to set minimum prudential requirements 
+for individual banks based on their risk profile and systemic importance. 
+7.3 
+Self-guided itinerary 
+Table A.7 below contains a set of questions that may be useful as a starting point for internal discussion 
+in individual authorities when considering proportionality in relation to the Pillar 2 supervisory review 
+process. 
+Pillar 2 – supervisory review process 
+Questions guiding a proportional approach 
+Table A.7 
+Objectives and four key principles (SRP10 and SRP20) 
+• 
+What risks are banks in your jurisdiction exposed to that may not be adequately covered in Pillar 1 capital 
+requirements? Are there relevant external factors in your jurisdiction that you should take into account? Are there 
+issues of insufficient compliance or disclosure that you should take into account? Is bank management effective in 
+identifying, measuring and evaluating risks and clarifying them in the bank’s ICAAP (or other equivalent 
+document)? Is this supported by effective corporate governance and risk management standards? 
+• 
+How is the SRP carried out in your jurisdiction? Do the banks cover the five main features in their processes for 
+assessing capital adequacy stipulated in the Basel standards? What levels of additional capital do banks consider 
+that they need in your jurisdiction? Do you have the power and skills to require banks to hold excess capital, and 
+do you use them? Do you have the powers to intervene early, and do you use them? Could the SRP be simplified if 
+there were a standard requirement for additional capital? What risks and benefits might that bring? 
+• 
+Is it necessary for all banks in your jurisdiction to do complete ICAAP reports? Could they be simplified? Are there 
+other ways to address risks than through extra capital? 
+• 
+Are there any red lines (eg around topics such as cyber security, AML/CFT), and how would you avoid diminishing 
+the capabilities for prudential supervision associated with granting waivers of simplifying reporting requirements? 
+
+ 
+ 
+High-level considerations on proportionality 
+25
+ 
+ 
+Risk management (SRP30 to SRP36) 
+• 
+What are the most likely deficiencies in the risk management approach by banks in your jurisdiction? Do your 
+banks have complex on-balance sheet or off-balance sheet exposures? What interaction of risks could occur under 
+stressed conditions? What are the most likely reputational risks, and what are their potential impact? Are your 
+banks exposed to difficult valuation issues? Are your banks exposed to IRRBB? What is the capacity of capital 
+instruments in your jurisdiction to absorb risks? Are there differences between the conclusions of SRP and the 
+ICAAP? Do banks build capital buffers during good times, and are they sufficient to absorb losses during a 
+prolonged downturn? 
+• 
+Do you assess banks’ risk management frameworks? How? Do you ensure that there is adequate firm-wide risk 
+oversight? How? What standards and features do you require for the risk management system? Does your review 
+of risk management in banks in your jurisdiction adhere to the Basel Framework? Is it comprehensive and suitable 
+to cover all the relevant risks to which firms are exposed? Do you and your banks use stress tests? How are they 
+designed? What kind of stress tests would balance the costs and benefits for the smallest and simplest banks? How 
+do you address difficult valuation issues, if any? 
+• 
+Is IRRBB managed as prescribed in the 12 principles in SRP31 of the Basel Framework? If not, what risk might that 
+imply? Could you consider mandating banks to follow the standardised Basel rules for IRRBB? Is there a more 
+proportional approach to manage these risks? 
+• 
+Do banks in your jurisdiction have sufficient and clear policies in place to manage residual, credit concentration 
+and counterparty credit risk? Could the requirements be introduced in a more proportional manner?  
+• 
+Is your review of market and operational risk as well as compensation practices in your jurisdiction as prescribed in 
+standard SRP of the Basel Framework? Could they be simplified? 
+• 
+Do banks in your jurisdiction follow the Committee’s Principles for effective risk data aggregation and risk reporting? 
+If not, what risk might that imply? Could some of the current requirements be simplified? 
+Liquidity monitoring metrics (SRP50) 
+• 
+What liquidity risks are particularly relevant to monitor in your jurisdiction? Which types of tools for monitoring 
+purposes do you apply to banks in your jurisdiction?   
+• 
+Are some types of liquidity reporting less relevant in your jurisdiction? Should this specific reporting be limited? 
+What risk might that bring? 
+8. 
+Disclosure requirements 
+Core Principle 28 (BCP01.130–132) establishes global requirements on this topic, and the 
+corresponding standard in the Basel Framework is DIS. 
+8.1 
+Introduction 
+The scope and content of information disclosed publicly, and the level of disaggregation and detail, is 
+commensurate with the risk profile and systemic importance of the bank. Disclosure is therefore 
+proportional by design. 
+8.2 
+Provision of information 
+The provision of meaningful information about common key risk metrics to market participants is a 
+fundamental principle of a sound banking system. Pillar 3 disclosures serve the objective of promoting 
+market discipline, reducing information asymmetry and helping to promote comparability of banks’ risk 
+profiles within and across jurisdictions. While markets are likely to have less capacity to exert market 
+discipline on smaller banks or banks in simpler banking systems, disclosure is still important to reduce 
+information asymmetry and promote comparability.  
+Pillar 3 requires firms to disclose publicly information related to their risks, capital adequacy and 
+policies for managing risk. Disclosure requirements apply to internationally active banks at the top 
+
+ 
+ 
+ 
+26 
+High-level considerations on proportionality
+ 
+ 
+consolidated level. The frequency of disclosure varies between quarterly, semiannual and annual reporting, 
+including quantitative and qualitative information. While not all Pillar 3 templates will be applicable to all 
+banks, the five guiding principles for disclosures are generally applicable: disclosures should be clear, 
+comprehensive, meaningful to users, consistent over time and comparable across banks. 
+For small banks or banks in less complex financial systems, the full set of Pillar 3 disclosures may 
+require excessive resources. Although implementation of Pillar 3 requirements is not mandatory for non-
+BCBS jurisdictions, disclosure of information by banks is a requirement under the BCPs. Proportionality 
+can play a role in ensuring that the rules and regulations meant to strengthen market discipline are 
+adapted to different jurisdictions with different institutional environments. To the extent that supervisors 
+apply proportionality to the other Pillars, Pillar 3 disclosure templates applicable to banks could 
+consequently be simplified. Supervisors may still need to clarify how banks can apply proportionality to 
+disclosure requirements. 
+Strategies to adopt proportional disclosure requirements include adopting less detailed 
+requirements in terms of required templates and data points, provided that the disclosures mentioned by 
+Core Principle 18 are included and reducing submission frequencies according to the size, risk profile, 
+nature and complexity of the institution. It would likely be advisable to maintain to the extent possible the 
+definitions used in the Basel Framework to allow comparison with international and domestic peers. 
+Other ways for authorities to apply a proportional approach include: 
+• 
+The smallest and simplest institutions could be required to disclose only a very limited set of 
+templates at a lower frequency (eg only to disclose the KM1 – Key metrics and OV1 – Overview 
+templates annually), with progressively more disclosure (ie more templates and at a higher 
+frequency) as banks increase in size and risk profile. 
+• 
+Authorities could consider which data systems for reporting quantitative information are already 
+in place. It is likely to be less costly for banks to comply with the disclosure requirements if they 
+can use existing reporting systems. For qualitative information, reducing the frequency may save 
+costs. Supervisors may wish to combine this approach with a safeguard that allows the supervisor 
+to require additional disclosures as part of ongoing supervision as needed. 
+Another option is for the supervisor to disclose, on behalf of the bank, some of the bank-level 
+information obtained through supervisory reporting, while recognising that responsibility for data 
+accuracy remains with the institution. Authorities may consider maximising the integration with 
+supervisory reporting requirements, given the commonalities of the information that institutions may have 
+to report to their supervisors and to disclose publicly. This could include a mapping between the 
+quantitative disclosure templates and supervisory reporting. This may be an option only for the smallest 
+and simplest segment of institutions, as the governance of data and the quality of reporting is ultimately 
+the responsibility of bank management, not supervisors. 
+8.3 
+Self-guided itinerary  
+Table A.8 below contains a set of questions that may be useful as a starting point for internal discussion 
+in individual authorities when considering proportionality in relation to Pillar 3 disclosures. 
+
+ 
+ 
+High-level considerations on proportionality 
+27
+ 
+ 
+Disclosure requirements 
+Questions guiding a proportional approach 
+Table A.8 
+Definitions and applications (DIS10) 
+• 
+How and which information do banks disclose in your jurisdiction? 
+• 
+Can the financial market exert and promote discipline over banks? Could it be improved? 
+• 
+Should banks publish disclosure information in a standalone document that is easily identifiable to users? Can you 
+make available on your website an archive of individual banks’ disclosure reports relating to prior reporting 
+periods? 
+Disclosure templates (DIS20 to DIS85) 
+• 
+Does an institution’s size, risk profile and complexity create the conditions for it to be exempted from, or subject to 
+minimal, specific disclosure requirements? 
+• 
+How frequent should disclosures be (quarterly, semiannual or annual)? Which disclosure requirements require 
+different frequencies? If there is one standalone report document for the Pillar 3 report, should it be published 
+concurrently with the bank´s financial report for the corresponding period? 
+• 
+Do banks have an effective internal control structure over the disclosure of financial information? 
+• 
+Are disclosures clear, comprehensive, meaningful to users, consistent over time and comparable across banks? Do 
+they follow the five guiding Basel principles? 
+• 
+Should templates be used and completed with quantitative data in accordance with the definitions provided in the 
+Basel DIS standard templates? Is there a common electronic format that can be used to facilitate the use of the 
+data? Should tables be used and completed with mainly qualitative information? 
+• 
+Could some disclosure templates be simplified? Is some information of lesser importance? 
+• 
+Is there any content analogous to Pillar 3 disclosures that is already disclosed by banks as per other existing 
+requirements in your jurisdictions? 
+9. 
+Corporate governance and risk management 
+Core Principles 14, 15 and 26 (BCP01.94–99 and BCP01.125–126) establish global requirements on 
+these topics, and the corresponding Committee guidance is the Corporate governance principles for 
+banks (CGPB) (BCBS, 2015)  
+9.1 
+Introduction 
+Banks and banking groups are required by the supervisor to have robust corporate governance policies 
+and processes covering, for example, strategic direction, group and organisational structure, control 
+environment, responsibilities of the banks’ boards and senior management, and compensation. 
+Supervisors may need to consider proportionality for differentiating qualitative requirements applicable 
+across a range of banks, particularly those related to corporate governance and risk management.  
+9.2 
+Corporate governance requirements 
+In some cases, supervisors may find it difficult to address specific governance challenges arising from 
+various ownership structures in smaller banks with a “one size fits all” regulatory guidance. 
+The number and nature of the board-level committees recommended by the corporate 
+governance principles depend on the size of the bank, the size of the board, the business areas, the risk 
+profile and the systemic importance. Consistent with the proportionality principle, authorities may require 
+complex or systemically important banks to constitute, at a minimum: (i) an audit; (ii) risk oversight; and 
+(iii) remuneration committees with experienced non-executive members. For example, though the option 
+
+ 
+ 
+ 
+28 
+High-level considerations on proportionality
+ 
+ 
+of a remuneration committee may depend on the size, complexities and nature of the bank, supervisory 
+authorities might ensure that banks have in place appropriate remuneration systems that are aligned with 
+prudent risk-taking. Supervisors might prescribe the creation of other board committees depending on 
+the assessment of the risk exposures of potential vulnerabilities of the bank. 
+Authorities might begin by defining prudential objectives governing corporate governance and 
+risk management requirements/expectations that they will apply across banks. Authorities could translate 
+these prudential objectives to differentiated requirements that are suited to banks in each segment 
+(see Annex Section 1). The differentiated requirements could include setting out expectations for the board 
+of directors related to their responsibility to establish the bank’s objectives and strategies and promote a 
+culture of good governance. This could serve as the foundation for implementing differentiated corporate 
+governance and risk management requirements across segments.  
+One example where proportionality is frequently used is the assessment of board members’ 
+suitability. There may be benefits in tailoring guidance on fitness and propriety and on board composition 
+requirements to banks with varying ownership structures. However, this tailored guidance would still need 
+to be consistent with the Committee guidelines for a clear and rigorous process in identifying, assessing 
+and selecting board candidates, with criteria on integrity and reputation, in particular, being preserved. 
+Expertise and time needed to serve on bank boards may vary according to the bank’s risk profile, size, 
+complexity and systemic importance. The suitability criteria used to determine a candidate’s fitness 
+generally relate to time commitment, practical experience and expertise.  
+Authorities might apply proportionality to their expectations of banks’ board and committees in 
+various areas of regulatory requirements, eg in relation to board composition, disclosure of information 
+and remuneration. In applying proportionality, authorities would normally place responsibility on the 
+financial institution’s board to ensure that there are governance policies and mechanisms appropriate to 
+the structure, business and risk of the group and its affiliates. For instance, in jurisdictions where banks are 
+part of a conglomerate, authorities might consider requiring the creation of a related party transactions 
+committee. Simple and small banks may be required to constitute only the audit committee, highlighting 
+the importance of checks and balances system and controls. 
+Sometimes these simple banks are family-owned or are family corporations, and possibly with 
+only a small personnel count. In these cases, the governing boards and management team comprise 
+closely related individuals, which may weaken corporate governance due to conflicts of interest. Thus, even 
+here supervisors may wish to require creation of other board-level committees with independent 
+members, based on the assessment of risk areas requiring deeper focus from the board.  
+9.3 
+Risk management 
+While board responsibility to establish comprehensive risk management strategies, policies and 
+procedures, identify the material risks facing the bank and set appropriate risk tolerance and risk appetite 
+exists regardless of the size of the bank, there are potential ways they can be adjusted to smaller and 
+simpler banks. 
+The risk management function is a key element of the second line of defence of banks. While 
+larger and more complex banks are required to appoint a Chief Risk Officer (CRO) with sufficient stature, 
+independence, resources and access to the board, in the case of some simple and small banks, authorities 
+might allow the bank to either not appoint a CRO or assign the same responsibilities to another officer. In 
+any case, the CRO or the person responsible for the CRO’s tasks would be expected to have adequate 
+stature and authority, as well as direct access to the board.  
+While all banks need an internal audit function as well as other key internal control functions, for 
+smaller banks the committees relating to areas of audit and risk (among others) could be tailored to the 
+circumstances of the firm. For example, the number of committees and members could be smaller. 
+
+ 
+ 
+High-level considerations on proportionality 
+29
+ 
+ 
+Appointing a Chief Audit Executive (CAE), CRO and Chief Compliance Officer (CCO) may increase the cost 
+of compliance to a level that may not be commensurate with the bank’s scale and complexity of activities 
+and level of risk exposures, though authorities might consider retaining the CRO appointment requirement 
+for all banks. In addition, in some small banks the governance structure may not have enough executives 
+to populate these roles individually. In such cases, the bank may assign more than one function to the 
+same individual. For example, a bank may designate the CCO and the CRO in a concurrent capacity. It 
+would then be the delegator’s responsibility to ensure that the delegatee possess all the qualifications 
+necessary to handle the roles. Similarly, some authorities may allow small banks to implement a system of 
+independent reviews, eg conducted by external experts, of key internal controls as an alternative to 
+establishing a dedicated internal audit organisation unit. 
+Expectations about bank-run internal stress tests, which form an integral part of their risk 
+management process, might also be adjusted by authorities. Since stress tests are expected to capture 
+material sources of risk to the bank, in the case of small and simple banks authorities might clarify that 
+their expectation is for stress tests to cover only one or two main risks. That count could increase 
+progressively for banks in segments higher up in the size or complexity scales. In terms of methodology, 
+supervisors might also clarify that for the small and simple banks stress tests could comprise techniques 
+as simple as sensitivity analyses with a sufficiently conservative adverse scenario, which also enables the 
+results to be used in decision-making, risk management processes and the assessment of capital and 
+liquidity levels. 
+9.4 
+Self-guided itinerary  
+Table A.9 below contains a set of questions that may be useful as a starting point for internal discussion 
+in individual authorities when considering approaches to proportionality in relation to corporate 
+governance and risk management matters. 
+Corporate governance and risk management 
+Questions guiding a proportional approach 
+Table A.9 
+Governance (CGDB principles 1–5) 
+• 
+What risks have historically been associated with governance structures in your jurisdiction? Have boards of 
+directors (BODs) taken sufficient responsibility to address these risks? Have BODs been adequately qualified and 
+organised to address these risks? How and which information about BOD governance do banks disclose in your 
+jurisdiction? Does the BOD and senior management understand the risks posed by the bank group’s organisational 
+structure? 
+• 
+What are the responsibilities of the BOD in your jurisdiction? How do they set corporate culture and values? How 
+do they implement risk management and oversight of senior management? How is the quality of the BOD 
+ensured? 
+• 
+What are the responsibilities of senior management? How is the quality of senior management ensured?  
+• 
+How are group structures managed? 
+• 
+What level of simplification of governance structures is reasonable in smaller organisations? How would you 
+address the risks that simplification entail?  
+
+ 
+ 
+ 
+30 
+High-level considerations on proportionality
+ 
+ 
+Risk management (CGDB principles 6–12) 
+• 
+Historically, what have been the deficiencies in risk management practices of banks in your jurisdiction? Do banks 
+in your jurisdiction have effective independent risk management functions? Have banks’ risks been identified, 
+monitored and controlled adequately? Have risks been adequately communicated to the relevant stakeholders? 
+Have compliance risks been adequately addressed? Has the internal audit function performed as required? Have 
+banks’ compensation policies resulted in unsound governance and risk management? 
+• 
+What are the key activities of sound risk management functions? How is the independence of the chief risk officer 
+(CRO) ensured? How are risks identified, monitored and controlled by the CRO? How are risks communicated by 
+the CRO to the BOD and other relevant stakeholders? 
+• 
+Is there an independent compliance function requirement in your jurisdiction? What are the roles of this 
+compliance function? How are compliance issues identified, monitored and controlled by this function? How are 
+compliance issues communicated, including to the BOD by this function?   
+• 
+Is there an independent audit function requirement? What is the mandate of the audit function? How is its 
+independence ensured?  
+• 
+How do banks ensure that remuneration structures are consistent with sound governance and risk management 
+practices? How is the appropriate level of transparency of bank governance matters ensured for stakeholders to 
+effectively monitor the bank?  
+• 
+What level of risk management simplification is reasonable for smaller organisations, eg integrating lines of 
+defence? How would you address the risks that simplification entail?  
+ 
