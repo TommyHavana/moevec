@@ -1,0 +1,81 @@
+Bloqueos de internet en Venezuela - VE sin Filtro
+FAQ
+EN
+Aviso sobre los
+desbloqueos
+desde el 16 de septiembre
+Más información
+Bloqueos de internet
+en
+Venezuela
+Lista de sitios web bloqueados en Venezuela por orden de CONATEL, incluyendo páginas de noticias, herramientas anticensura y redes sociales.
+Explorar
+...
+dominios
+bloqueados
+...
+sitios
+bloqueados
+...
+sitios de noticias
+activos bloqueados
+...
+dominios desbloqueados
+en todos los ISP que medimos
+...
+dominios desbloqueados
+en al menos un ISP
+Actualización:
+2026-10-06
+Sobre estos datos
+DNS
+HTTP
+IP
+bloqueado con estas técnicas
+bloqueado
+OK
+sin bloqueo
+desbloq.
+desbloqueado
+*desbloq.
+desbloqueado desde 2026-09-25
+†
+abandonado
+Metodología y leyenda completa
+Metodología
+Consideramos bloqueo de internet a una medida técnica implementada para impedir el acceso a un servicio, sitio o página web mediante interferencia en el tráfico de internet. Siempre que cumpla los criterios de VE sin Filtro:
+Es observable y medible técnicamente
+Es consistente en el tiempo y en distintos puntos de acceso a la red
+Se pueda descartar otras explicaciones, como una falla técnica
+Para documentar los bloqueos se utiliza una mezcla de mediciones de red realizadas mediante
+OONI Probe
+, junto con otras pruebas para fortalecer la validación de hallazgos.
+Ver preguntas frecuentes →
+Leyenda
+DNS
+El servidor DNS del proveedor de internet devuelve una respuesta falsa o vacía para el dominio.
+HTTP
+Bloqueo HTTP o HTTPS usando inspección de paquetes, por ejemplo por el contenido de una página HTTP o el identificador del servidor al iniciar conexiones HTTPS (SNI).
+IP
+No es posible establecer conexión con la dirección IP del servidor.
+OK
+Sin bloqueo detectado, el sitio es accesible desde este proveedor.
+desbloq.
+Sitio desbloqueado después de septiembre de 2026.
+*desbloq.
+Desbloqueado desde el 25 de septiembre de 2026: el dominio estaba bloqueado y volvió a responder en la medición de ese día.
+-
+Sin datos de prueba disponibles para este proveedor y dominio.
+†
+(Abandonado) El dominio ya no está registrado, quedó estacionado o dejó de responder. El bloqueo puede seguir vigente, pero el sitio ya no existe.
+Cerrar
+Filtrar dominios
+Categoría
+Sitio
+Categoría
+Dominio
+Cargando datos...
+Descargar .csv
+Dominios bloqueados por ISP
+Método de bloqueo por ISP
+Creative Commons BY-NC-SA 4.0

@@ -633,3 +633,33 @@ Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobad
 Siguiente **286–288 / E7.7.01–E7.7.03**, Política y Economía → Libertad de Expresión Económica. Preparaciones incluidas en las 555 pendientes. E7.7.01: 0/3 imágenes locales; sin texto final, sin publicación; E7.7.02: 0/3 imágenes locales; sin texto final, sin publicación; E7.7.03: 0/3 imágenes locales; sin texto final, sin publicación. Después 289–291. Automatización activa, sin agotamiento comunicado.
 
 Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 286–288 · 29/10/2026
+
+288/840 terminadas, 864 imágenes originales públicas, 0 en curso o borradores WordPress y 552 pendientes.
+
+286: Hayek1945 y Sen1999 con mecanismos y límites históricos; sin afirmar eliminación del hambre ni lectura íntegra fingida de Desarrollo y libertad. 287: Freedom on the Net2026 con38países y proceso modificado; RSF2026 con180países/territorios, España29/75,42, Venezuela159/30,48, Cuba160/29,22; sin promedio de índices distintos. 288: art17de2008multa1000UT, derogación2018concláusulas y medicionesOONI2018/VE Sin Filtro06Oct2026; distingue.orgactivo/.comabandonado, sin ley antigua presentada como vigente.
+
+Siguiente **289–291 / E7.7.04–E7.7.06**, Política y Economía → Libertad de Expresión Económica. Preparaciones incluidas en las 552 pendientes. E7.7.04: 3/3 imágenes locales; sin texto final, sin publicación; E7.7.05: 3/3 imágenes locales; sin texto final, sin publicación; E7.7.06: 3/3 imágenes locales; sin texto final, sin publicación. Después 292–294. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 289–291 · 29/10/2026
+
+291/840 terminadas, 873 imágenes originales públicas, 0 en curso o borradores WordPress y 549 pendientes.
+
+289: casos administrativos distintos, Finsoportart21/DNCI116yrevocación30abr2013; CIDH2013tresinadmisionesCorte, con accesolimitado identificado, sin condena personal firme. 290: DL370fechado2018/publicado2019, art68i/70multas ysinprisiónautomática; DL35arts15/69 yResolución105separada, casoHRW2020atribuido. 291: CNMV1/2022derogada28dic2024, MiCAarts7/66/149, FCA2023con24horassoloDOFPnuevosclientes, régimen25oct2027futuro yFTXsentencia2024sin estadoactualrecursos.
+
+Siguiente **292–294 / E7.7.07–E7.7.09**, Política y Economía → Libertad de Expresión Económica. Preparaciones incluidas en las 549 pendientes. E7.7.07: 0/3 imágenes locales; sin texto final, sin publicación; E7.7.08: 0/3 imágenes locales; sin texto final, sin publicación; E7.7.09: 0/3 imágenes locales; sin texto final, sin publicación. Después 295–297. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 292–294 · 29/10/2026
+
+294/840 terminadas, 882 imágenes originales públicas, 0 en curso o borradores WordPress y 546 pendientes.
+
+292: leyfrancesaconsolidadaactualizada1jul2026, art4excepcionesMiCA/5-2intencióncomercial; ESMA2024yCNMV25may2026 distinguenrecomendaciónpública/asesoramientopersonalizado, sin licenciaparacualquieropinión. 293: DSAobligacionesporcategoría,art8sindebegeneralmonitorización/19exenciones,34–35muygrandes; procedimientoBooking21oct2026noprejuzgaresultado yODSart21. 294: CBN2021segúnboletínprimario, circular22dic2023sustituyereglaanterioryconservaprohibiciónbancosporcuentapropia; actividadChainalysis2023nopoblaciónP2P, análisisFMI2025sincausalidadcambiariavalidada ycategoríaARIPSEC29oct2026.
+
+Siguiente **295–297 / E7.7.10–E7.7.12**, Política y Economía → Libertad de Expresión Económica. Preparaciones incluidas en las 546 pendientes. E7.7.10: 0/3 imágenes locales; sin texto final, sin publicación; E7.7.11: 0/3 imágenes locales; sin texto final, sin publicación; E7.7.12: 0/3 imágenes locales; sin texto final, sin publicación. Después 298–300. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.

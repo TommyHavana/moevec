@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-29T21:38:23+00:00.
+Comprobado en WordPress: 2026-10-29T22:21:59+00:00.
 
-**285/840 terminadas · 0 en curso · 555 pendientes.**
+**294/840 terminadas · 0 en curso · 546 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -297,15 +297,15 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 283 | 19/56 · 13/15 | E7.9.13 | Cuba: la bancarización forzosa de 2023 | terminada | 3/3 | [Leer](https://moevec.org/blog/cuba-bancarizacion-2023/) |
 | 284 | 19/56 · 14/15 | E7.9.14 | Cómo comprobar si una entidad financiera está autorizada | terminada | 3/3 | [Leer](https://moevec.org/blog/comprobar-entidad-autorizada/) |
 | 285 | 19/56 · 15/15 | E7.9.15 | Cómo reclamar a tu banco | terminada | 3/3 | [Leer](https://moevec.org/blog/como-reclamar-a-tu-banco/) |
-| 286 | 20/56 · 1/15 | E7.7.01 | Por qué la información económica debe circular | pendiente | 0/3 | — |
-| 287 | 20/56 · 2/15 | E7.7.02 | Medir la libertad de expresión: Freedom House y RSF | pendiente | 0/3 | — |
-| 288 | 20/56 · 3/15 | E7.7.03 | Publicar el tipo de cambio: un delito en algunos países | pendiente | 0/3 | — |
-| 289 | 20/56 · 4/15 | E7.7.04 | Argentina: multas a quienes medían la inflación | pendiente | 0/3 | — |
-| 290 | 20/56 · 5/15 | E7.7.05 | Cuba: decretos-leyes 35/2021 y 370/2018 | pendiente | 0/3 | — |
-| 291 | 20/56 · 6/15 | E7.7.06 | Publicidad de criptomonedas: protección o censura | pendiente | 0/3 | — |
-| 292 | 20/56 · 7/15 | E7.7.07 | Los «finfluencers» y la ley | pendiente | 0/3 | — |
-| 293 | 20/56 · 8/15 | E7.7.08 | Ley de Servicios Digitales: moderación y libertad | pendiente | 0/3 | — |
-| 294 | 20/56 · 9/15 | E7.7.09 | Nigeria y las criptomonedas: prohibición bancaria y marcha atrás | pendiente | 0/3 | — |
+| 286 | 20/56 · 1/15 | E7.7.01 | Por qué la información económica debe circular | terminada | 3/3 | [Leer](https://moevec.org/blog/informacion-economica-debe-circular/) |
+| 287 | 20/56 · 2/15 | E7.7.02 | Medir la libertad de expresión: Freedom House y RSF | terminada | 3/3 | [Leer](https://moevec.org/blog/medir-libertad-de-expresion/) |
+| 288 | 20/56 · 3/15 | E7.7.03 | Publicar el tipo de cambio: un delito en algunos países | terminada | 3/3 | [Leer](https://moevec.org/blog/publicar-tipo-de-cambio-delito/) |
+| 289 | 20/56 · 4/15 | E7.7.04 | Argentina: multas a quienes medían la inflación | terminada | 3/3 | [Leer](https://moevec.org/blog/argentina-multas-consultoras/) |
+| 290 | 20/56 · 5/15 | E7.7.05 | Cuba: decretos-leyes 35/2021 y 370/2018 | terminada | 3/3 | [Leer](https://moevec.org/blog/cuba-decretos-35-370/) |
+| 291 | 20/56 · 6/15 | E7.7.06 | Publicidad de criptomonedas: protección o censura | terminada | 3/3 | [Leer](https://moevec.org/blog/publicidad-criptomonedas/) |
+| 292 | 20/56 · 7/15 | E7.7.07 | Los «finfluencers» y la ley | terminada | 3/3 | [Leer](https://moevec.org/blog/finfluencers-y-la-ley/) |
+| 293 | 20/56 · 8/15 | E7.7.08 | Ley de Servicios Digitales: moderación y libertad | terminada | 3/3 | [Leer](https://moevec.org/blog/ley-servicios-digitales-ue/) |
+| 294 | 20/56 · 9/15 | E7.7.09 | Nigeria y las criptomonedas: prohibición bancaria y marcha atrás | terminada | 3/3 | [Leer](https://moevec.org/blog/nigeria-criptomonedas/) |
 | 295 | 20/56 · 10/15 | E7.7.10 | Código abierto sancionado: el caso Tornado Cash | pendiente | 0/3 | — |
 | 296 | 20/56 · 11/15 | E7.7.11 | Difundir rumores financieros: dónde está el delito | pendiente | 0/3 | — |
 | 297 | 20/56 · 12/15 | E7.7.12 | Leyes contra el «odio» y la «desestabilización»: riesgos para la crítica económica | pendiente | 0/3 | — |

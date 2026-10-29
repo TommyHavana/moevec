@@ -2,27 +2,27 @@
 
 ## Estado actual
 
-**285/840 terminadas, 855 imágenes originales públicas, 0 en curso o borradores WordPress y 555 pendientes**. Regulación Financiera 15/15; 19 tandas completas y tanda 19 completa.
+**294/840 terminadas, 882 imágenes originales públicas, 0 en curso o borradores WordPress y 546 pendientes**. Libertad de Expresión Económica 9/15; 19 tandas completas y tanda 20 en curso.
 
 Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Desde 276: entradas 277–285, 27 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
+Desde 285: entradas 286–294, 27 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
 
-Una publicación y tres adjuntos por ID; categorías Política y Economía y Regulación Financiera, etiquetas exactas. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales y variantes comprobados. Navegación y BreadcrumbList: Blog → área → subcategoría. Taxonomía: 122 nodos, siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva o posicionamiento.
+Una publicación y tres adjuntos por ID; categorías Política y Economía y Libertad de Expresión Económica, etiquetas exactas. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales y variantes comprobados. Navegación y BreadcrumbList: Blog → área → subcategoría. Taxonomía: 122 nodos, siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva o posicionamiento.
 
 ## Revisión del último bloque
 
-283: Resolución 111/2023, sujetos y operaciones definidos, 5.000 CUP sin universalizar retiradas; documento primario oficial conservado en espejo por fallos de acceso BCC/Gaceta. Reportajes situados de 2023, sin extrapolar causalidad ni condiciones a 2026. 284: ocho fuentes oficiales de registros, actividad/identidad/estado/contactos; inscripción institucional distinta de autorización de todo producto y ausencia de advertencia sin aval. 285: SAC y competencia BdE, plazos por producto/usuario y novinculación; UNE distinta de CONDUSEF, consultas/reclamaciones/aclaraciones separadas. DCF puede vincular por acuerdo o reglamento; conciliación con efectos propios. Modelo educativo, sin reclamación real enviada.
+292: leyfrancesaconsolidadaactualizada1jul2026, art4excepcionesMiCA/5-2intencióncomercial; ESMA2024yCNMV25may2026 distinguenrecomendaciónpública/asesoramientopersonalizado, sin licenciaparacualquieropinión. 293: DSAobligacionesporcategoría,art8sindebegeneralmonitorización/19exenciones,34–35muygrandes; procedimientoBooking21oct2026noprejuzgaresultado yODSart21. 294: CBN2021segúnboletínprimario, circular22dic2023sustituyereglaanterioryconservaprohibiciónbancosporcuentapropia; actividadChainalysis2023nopoblaciónP2P, análisisFMI2025sincausalidadcambiariavalidada ycategoríaARIPSEC29oct2026.
 
 ## Continuación exacta
 
-Siguiente **286–288 / E7.7.01–E7.7.03**, Política y Economía → Libertad de Expresión Económica. Preparaciones incluidas en las 555 pendientes. E7.7.01: 0/3 imágenes locales; sin texto final, sin publicación; E7.7.02: 0/3 imágenes locales; sin texto final, sin publicación; E7.7.03: 0/3 imágenes locales; sin texto final, sin publicación. Después 289–291. Automatización activa, sin agotamiento comunicado.
+Siguiente **295–297 / E7.7.10–E7.7.12**, Política y Economía → Libertad de Expresión Económica. Preparaciones incluidas en las 546 pendientes. E7.7.10: 0/3 imágenes locales; sin texto final, sin publicación; E7.7.11: 0/3 imágenes locales; sin texto final, sin publicación; E7.7.12: 0/3 imágenes locales; sin texto final, sin publicación. Después 298–300. Automatización activa, sin agotamiento comunicado.
 
 ## Copias y límites
 
-Respaldo VPS hasta 285: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
+Respaldo VPS hasta 294: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
 
 ## Traspaso
 
@@ -43,6 +43,9 @@ Verificación: `npm run build` con sincronización y TypeScript correctos; PHP l
 Publicación: fuente privada sincronizada y subida, commit de producto `1d84a45`. Actualización de la exportación estática en el contenedor Nginx activo y de los dos archivos WordPress, tanto en la ruta operativa como en `/opt/mee/`. No se reconstruyeron imágenes Docker ni se reiniciaron servicios; un siguiente build del repositorio incluye los cambios. Respaldo previo local completo: `../mee-backups/MEE_Codex_2026-10-29_183813.zip` (7657 archivos, integridad comprobada). Copia previa de React y de los archivos WordPress en `/data/mee-backups/apoyo-20261029T184226/`, gzip comprobado. No se ha probado una restauración arrancada de esta copia.
 
 Siguiente paso de esta petición: concretar el medio de donación y sus datos oficiales para activar pago directo. La producción editorial mantiene su continuidad independiente; esta tarea no modifica sus conteos, artículos, imágenes ni taxonomía.
+
+
+
 
 
 
