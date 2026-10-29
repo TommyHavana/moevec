@@ -1,0 +1,43 @@
+{
+  "initial": 1000,
+  "annual_effective_rate": 0.05,
+  "capitalization": "annual",
+  "fees": 0,
+  "taxes": 0,
+  "contributions": 0,
+  "withdrawals": 0,
+  "rows": [
+    {
+      "year": 0,
+      "balance": 1000.0
+    },
+    {
+      "year": 1,
+      "balance": 1050.0
+    },
+    {
+      "year": 2,
+      "balance": 1102.5
+    },
+    {
+      "year": 10,
+      "balance": 1628.89
+    }
+  ],
+  "rule72_years": 14.4,
+  "annual_8pct_nine_years": 1999.0,
+  "debt": {
+    "initial": 1000,
+    "annual_rate": 0.1,
+    "no_payments": true,
+    "no_fees": true,
+    "balance_after_two_years": 1210.0
+  },
+  "real": {
+    "nominal": 0.05,
+    "inflation": 0.03,
+    "exact": 0.01941747572815533,
+    "approx": 0.020000000000000004
+  },
+  "scope": "Ejemplos hipotéticos, sin producto financiero ni rentabilidad prometida."
+}

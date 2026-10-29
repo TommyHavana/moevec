@@ -1,0 +1,116 @@
+{
+  "checked_on": "2026-10-29",
+  "sources": [
+    {
+      "name": "OCDE, Household savings",
+      "url": "https://www.oecd.org/en/data/indicators/household-savings.html",
+      "scope": "Definición primaria leída por web/índice: ahorro neto de hogares e instituciones sin fines de lucro a su servicio, ajuste de pensiones, porcentaje de renta disponible neta. Descarga403; no tasas nacionales OCDE obtenidas."
+    },
+    {
+      "name": "Eurostat, Household saving rate, tec 00131",
+      "url": "https://ec.europa.eu/eurostat/databrowser/view/tec00131/default/table?lang=en",
+      "scope": "API oficial2024 archivada: DE19,59 provisional,ES12,75,FR18,04 provisional; actualización28/10/2026. Hogares+ISFLSH, ahorro bruto/renta disponible bruta ajustada por derechos de pensiones. No serie OCDE neta."
+    },
+    {
+      "name": "Banco Mundial, Gross savings (% of GDP), NY.GNS.ICTR.ZS",
+      "url": "https://data.worldbank.org/indicator/NY.GNS.ICTR.ZS",
+      "scope": "API oficial WDI2024 CHN42,7150,JPN32,0592,ESP24,3518; actualización08/10/2026. Ahorro nacional bruto como porcentajePIB; definición y datos archivados, no ahorro de hogares."
+    },
+    {
+      "name": "FMI, How China’s Economy Can Pivot to Consumption-led Growth, 18/02/2026",
+      "url": "https://www.imf.org/en/news/articles/2026/02/18/cf-how-chinas-economy-can-pivot-to-consumption-led-growth",
+      "scope": "Lectura primaria web: análisis de protección social/ahorro precautorio, incertidumbre inmobiliaria y consumo/demanda externa. Descarga403; se identifica como análisis FMI, no causalidad universal ni pronósticos reproducidos."
+    }
+  ],
+  "archived_files": [
+    {
+      "file": "sources/data-extract.json",
+      "bytes": 909,
+      "sha256": "a5f2a369b33dec8d5f09ea57b7cf4b563386a9db8c4ac74bb4251855cab26638"
+    },
+    {
+      "file": "sources/download-log.json",
+      "bytes": 739,
+      "sha256": "4ea519dc5bcded9b82a1fb488a02baab50f60f2bb32e04c0a4b97d157f92b7f6"
+    },
+    {
+      "file": "sources/eurostat-2024.html",
+      "bytes": 4671,
+      "sha256": "e12a2bff417f8b6a1968854dd676396e4ca3facc0a7488e54a53a98c7db9dea0"
+    },
+    {
+      "file": "sources/eurostat-2024.visible.txt",
+      "bytes": 4094,
+      "sha256": "b58c40625a21e7e73e294adad408ef58a5aaf58674591bc01fe15a82721d07da"
+    },
+    {
+      "file": "sources/eurostat-metadata.html",
+      "bytes": 137299,
+      "sha256": "95f2d52d7bb7febf5c908fbfc2a2b1110ca42ed32ae45f24ee6ea3f7fcb4072e"
+    },
+    {
+      "file": "sources/eurostat-metadata.visible.txt",
+      "bytes": 8302,
+      "sha256": "964ac29e872f9dfc7fa5f8f874ed3538a9a693af3749679a49a5945e025e79d3"
+    },
+    {
+      "file": "sources/imf-china2026-access-error.json",
+      "bytes": 211,
+      "sha256": "b5974788853edb257fcfe4af59fc7a30797ad7511d0c918a807dfb1ceeafb38a"
+    },
+    {
+      "file": "sources/oecd-household-access-error.json",
+      "bytes": 169,
+      "sha256": "62d0d464a0feecbcddce886a6f54e37dec7ade7afbf581fbf2a301dd908fa6b3"
+    },
+    {
+      "file": "sources/reading-scope.json",
+      "bytes": 2453,
+      "sha256": "0872493cb5957c7d493f033c08e0c0ec9de44126645dbac05295c067ec31bc3b"
+    },
+    {
+      "file": "sources/source-download-manifest.json",
+      "bytes": 1855,
+      "sha256": "2184c218b1478acd5a29ae30bb978dc44c28bf448c7a51cd362c4db509cc4086"
+    },
+    {
+      "file": "sources/wb-2024.html",
+      "bytes": 726,
+      "sha256": "ada61abf23937f3dafb5279364d20f739b63c87cdeda86389ec97cfd085995bd"
+    },
+    {
+      "file": "sources/wb-2024.visible.txt",
+      "bytes": 727,
+      "sha256": "ae59ed8a78220125d613cebd63756df6a2c531f8f5cffbc2ef8ad6e86d6d064c"
+    },
+    {
+      "file": "sources/wb-definition.html",
+      "bytes": 934,
+      "sha256": "411bfde8124e2ea43836ffbdb34890efcc198317b925f308b49bd974c954fc0a"
+    },
+    {
+      "file": "sources/wb-definition.visible.txt",
+      "bytes": 935,
+      "sha256": "06b3843e5c40a9258e16e08ae51dcc081d934cab8fc2e726ec0829a9c58e30ba"
+    },
+    {
+      "file": "sources/web-reading-notes.json",
+      "bytes": 1003,
+      "sha256": "614736e2a2d47ce9a8d153ef569387281e945bceb9b309a43716f2f19ec3c28d"
+    }
+  ],
+  "omitted_claims": [
+    "No ranking mezclando ahorro neto/bruto o hogares/nación.",
+    "No año2024 presentado como último disponible en todos los países.",
+    "No cifra nacional como cuota recomendada para una familia ni conducta de todos los hogares.",
+    "No cultura o etnia como causalidad probada; China/Japón no representan toda Asia.",
+    "No coeficientes causales, previsiones FMI o equivalencia automática ahorro nacional/inversión interna."
+  ],
+  "scope": "Lectura pertinente especificada; archivo completo no implica lectura íntegra. Problemas de acceso y fuentes compartidas identificados.",
+  "final_verification": {
+    "checked_at": "2026-10-29T11:40:17.104008+00:00",
+    "published_url": "https://moevec.org/blog/tasas-de-ahorro-en-el-mundo/",
+    "public_checks": "verification.json",
+    "wordpress_registry_words": 1216
+  }
+}

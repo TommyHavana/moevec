@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-29T10:27:04+00:00.
+Comprobado en WordPress: 2026-10-29T11:36:54+00:00.
 
-**195/840 terminadas · 0 en curso · 645 pendientes.**
+**204/840 terminadas · 0 en curso · 636 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -207,15 +207,15 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 193 | 13/56 · 13/15 | E1.2.13 | La generación que pagará la deuda: responsabilidad fiscal entre generaciones | terminada | 3/3 | [Leer](https://moevec.org/blog/deuda-publica-responsabilidad-generaciones/) |
 | 194 | 13/56 · 14/15 | E1.2.14 | Responsabilidad personal y salud: hábitos, sistema y libertad | terminada | 3/3 | [Leer](https://moevec.org/blog/responsabilidad-personal-y-salud/) |
 | 195 | 13/56 · 15/15 | E1.2.15 | Cómo enseñar responsabilidad a los hijos sin sermones | terminada | 3/3 | [Leer](https://moevec.org/blog/ensenar-responsabilidad-hijos/) |
-| 196 | 14/56 · 1/15 | E5.8.01 | Ahorrar es el origen del capital: la idea central de Bastos | pendiente | 0/3 | — |
-| 197 | 14/56 · 2/15 | E5.8.02 | Frugalidad no es tacañería | pendiente | 0/3 | — |
-| 198 | 14/56 · 3/15 | E5.8.03 | Interés compuesto: la fuerza que trabaja mientras duermes | pendiente | 0/3 | — |
-| 199 | 14/56 · 4/15 | E5.8.04 | Tasas de ahorro en el mundo: quién ahorra y por qué | pendiente | 0/3 | — |
-| 200 | 14/56 · 5/15 | E5.8.05 | Necesidades y deseos: el método para distinguirlos | pendiente | 0/3 | — |
-| 201 | 14/56 · 6/15 | E5.8.06 | Ahorro en hogares de bajos ingresos: lo que funciona | pendiente | 0/3 | — |
-| 202 | 14/56 · 7/15 | E5.8.07 | Inflación y ahorro: cómo proteger lo guardado | pendiente | 0/3 | — |
-| 203 | 14/56 · 8/15 | E5.8.08 | Deuda de consumo: el enemigo del ahorro | pendiente | 0/3 | — |
-| 204 | 14/56 · 9/15 | E5.8.09 | La cultura del despilfarro: obsolescencia, modas y presión social | pendiente | 0/3 | — |
+| 196 | 14/56 · 1/15 | E5.8.01 | Ahorrar es el origen del capital: la idea central de Bastos | terminada | 3/3 | [Leer](https://moevec.org/blog/ahorrar-origen-del-capital/) |
+| 197 | 14/56 · 2/15 | E5.8.02 | Frugalidad no es tacañería | terminada | 3/3 | [Leer](https://moevec.org/blog/frugalidad-no-es-tacaneria/) |
+| 198 | 14/56 · 3/15 | E5.8.03 | Interés compuesto: la fuerza que trabaja mientras duermes | terminada | 3/3 | [Leer](https://moevec.org/blog/interes-compuesto/) |
+| 199 | 14/56 · 4/15 | E5.8.04 | Tasas de ahorro en el mundo: quién ahorra y por qué | terminada | 3/3 | [Leer](https://moevec.org/blog/tasas-de-ahorro-en-el-mundo/) |
+| 200 | 14/56 · 5/15 | E5.8.05 | Necesidades y deseos: el método para distinguirlos | terminada | 3/3 | [Leer](https://moevec.org/blog/necesidades-y-deseos/) |
+| 201 | 14/56 · 6/15 | E5.8.06 | Ahorro en hogares de bajos ingresos: lo que funciona | terminada | 3/3 | [Leer](https://moevec.org/blog/ahorro-hogares-bajos-ingresos/) |
+| 202 | 14/56 · 7/15 | E5.8.07 | Inflación y ahorro: cómo proteger lo guardado | terminada | 3/3 | [Leer](https://moevec.org/blog/inflacion-y-ahorro/) |
+| 203 | 14/56 · 8/15 | E5.8.08 | Deuda de consumo: el enemigo del ahorro | terminada | 3/3 | [Leer](https://moevec.org/blog/deuda-de-consumo/) |
+| 204 | 14/56 · 9/15 | E5.8.09 | La cultura del despilfarro: obsolescencia, modas y presión social | terminada | 3/3 | [Leer](https://moevec.org/blog/cultura-del-despilfarro/) |
 | 205 | 14/56 · 10/15 | E5.8.10 | Ahorro y libertad: el colchón que te permite decir no | pendiente | 0/3 | — |
 | 206 | 14/56 · 11/15 | E5.8.11 | Reto de 30 días de frugalidad | pendiente | 0/3 | — |
 | 207 | 14/56 · 12/15 | E5.8.12 | Frugalidad cubana: el ingenio de la escasez y sus límites | pendiente | 0/3 | — |

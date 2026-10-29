@@ -1,0 +1,81 @@
+{
+  "checked_on": "2026-10-29",
+  "sources": [
+    {
+      "name": "SEC, Investor.gov, What is compound interest?",
+      "url": "https://www.investor.gov/additional-resources/information/youth/teachers-classroom-resources/what-compound-interest",
+      "scope": "Texto primario sobre interés sobre interés y regla72 aproximada. Ejemplos nuevos propios comprobados en calculations.json; no tasas de mercado o producto recomendado."
+    },
+    {
+      "name": "Canadian Investment Regulatory Organization, Compound Interest",
+      "url": "https://www.ciro.ca/office-investor/investing-basics/compound-interest",
+      "scope": "Página primaria leída por web/índice: reinversión, capitalización y posible aplicación a deudas. Descarga403. No toda deuda capitaliza igual ni condiciones jurídicas específicas atribuidas."
+    },
+    {
+      "name": "Banco de España, Tipos de interés nominales y reales",
+      "url": "https://www.bde.es/wbe/es/areas-actuacion/politica-monetaria/preguntas-frecuentes/papel-tipos-interes/tipos-de-interes-nominales-y-reales.html",
+      "scope": "Nominal frente a poder adquisitivo e inflación. Resta descrita como aproximación; cálculo exacto propio (1,05/1,03)-1, no tasa actual o consejo de producto."
+    }
+  ],
+  "archived_files": [
+    {
+      "file": "sources/bde-nominal-real.html",
+      "bytes": 370151,
+      "sha256": "8fc698e9f2554d1d14fb605acb2154555fe5cf114bdca5683c704bc8d98d072b"
+    },
+    {
+      "file": "sources/bde-nominal-real.visible.txt",
+      "bytes": 15750,
+      "sha256": "b4425d52d2899102d7d9a6125d21da54105118f9649d0196d3e28a18308cf15f"
+    },
+    {
+      "file": "sources/ciro-compound-access-error.json",
+      "bytes": 176,
+      "sha256": "9acccd2ab213076560ed626b5ab70b9b22932cf23a1c5db126fa9b78f35e5084"
+    },
+    {
+      "file": "sources/download-log-extra.json",
+      "bytes": 664,
+      "sha256": "0b7b69fdb22dd613d3c96f888393ee00f6a026ceb30bef944c40a9f5f143aaab"
+    },
+    {
+      "file": "sources/download-log.json",
+      "bytes": 802,
+      "sha256": "855d2c0b44ebb869ecb2354a25d87ea6400e56b9963537f161da09171e8d6790"
+    },
+    {
+      "file": "sources/reading-scope.json",
+      "bytes": 2080,
+      "sha256": "854d3f6b2bbf8450cb5845ef42241558e3ad5cf74a9e63faa775969781af232a"
+    },
+    {
+      "file": "sources/sec-compound.html",
+      "bytes": 46092,
+      "sha256": "92ea969f2b28802065b2ca96793b9bb4be93fc76d54637383f0ec1023bb85180"
+    },
+    {
+      "file": "sources/sec-compound.visible.txt",
+      "bytes": 5038,
+      "sha256": "a3ddf3ac0177793677e26c1a13c3398b227ebc010590c4a9d26fb7ea2a135c77"
+    },
+    {
+      "file": "sources/web-reading-notes.json",
+      "bytes": 880,
+      "sha256": "f3ba99752b26c693b3da96e1f9e99d6169aa76bc70cef1696ca21a8c351189f0"
+    }
+  ],
+  "omitted_claims": [
+    "No rentabilidad garantizada, tasa actual, producto o recomendación personal.",
+    "No regla72 como plazo exacto o válida con pérdidas/tasas variables sin supuestos.",
+    "No toda deuda capitaliza igual: pagos, contrato, costes y régimen aplicable importan.",
+    "No curva escultórica como gráfico de datos. E2.3.04 pendiente no enlazada.",
+    "No interés nominal menos inflación como identidad matemática exacta para toda tasa."
+  ],
+  "scope": "Lectura pertinente especificada; archivo completo no implica lectura íntegra. Problemas de acceso y fuentes compartidas identificados.",
+  "final_verification": {
+    "checked_at": "2026-10-29T11:40:17.104008+00:00",
+    "published_url": "https://moevec.org/blog/interes-compuesto/",
+    "public_checks": "verification.json",
+    "wordpress_registry_words": 1217
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "illustrative_only": true,
+  "not_market_rates": true,
+  "assumptions": {
+    "initial": {
+      "A": 100,
+      "B": 300
+    },
+    "monthly_rates": {
+      "A": 0.01,
+      "B": 0.03
+    },
+    "fixed_monthly_budget": 100,
+    "minimum_per_active_debt": 20,
+    "interest_before_payments": true,
+    "rounding": "monthly cents half up",
+    "fees": 0,
+    "new_borrowing": 0,
+    "early_payment_penalties": 0,
+    "unused_budget": "transferred to other debt same month; capped at remaining due"
+  },
+  "results": {
+    "snowball": {
+      "months": 5,
+      "total_paid": "430.09",
+      "total_interest": "30.09",
+      "rows": [
+        {
+          "month": 1,
+          "interest": {
+            "A": "1.00",
+            "B": "9.00"
+          },
+          "paid": {
+            "A": "80",
+            "B": "20"
+          },
+          "closing": {
+            "A": "21.00",
+            "B": "289.00"
+          },
+          "unspent": "0"
+        },
+        {
+          "month": 2,
+          "interest": {
+            "A": "0.21",
+            "B": "8.67"
+          },
+          "paid": {
+            "A": "21.21",
+            "B": "78.79"
+          },
+          "closing": {
+            "A": "0.00",
+            "B": "218.88"
+          },
+          "unspent": "0.00"
+        },
+        {
+          "month": 3,
+          "interest": {
+            "A": "0.00",
+            "B": "6.57"
+          },
+          "paid": {
+            "A": "0.00",
+            "B": "100.00"
+          },
+          "closing": {
+            "A": "0.00",
+            "B": "125.45"
+          },
+          "unspent": "0.00"
+        },
+        {
+          "month": 4,
+          "interest": {
+            "A": "0.00",
+            "B": "3.76"
+          },
+          "paid": {
+            "A": "0.00",
+            "B": "100.00"
+          },
+          "closing": {
+            "A": "0.00",
+            "B": "29.21"
+          },
+          "unspent": "0.00"
+        },
+        {
+          "month": 5,
+          "interest": {
+            "A": "0.00",
+            "B": "0.88"
+          },
+          "paid": {
+            "A": "0.00",
+            "B": "30.09"
+          },
+          "closing": {
+            "A": "0.00",
+            "B": "0.00"
+          },
+          "unspent": "69.91"
+        }
+      ]
+    },
+    "avalanche": {
+      "months": 5,
+      "total_paid": "426.14",
+      "total_interest": "26.14",
+      "rows": [
+        {
+          "month": 1,
+          "interest": {
+            "A": "1.00",
+            "B": "9.00"
+          },
+          "paid": {
+            "A": "20",
+            "B": "80"
+          },
+          "closing": {
+            "A": "81.00",
+            "B": "229.00"
+          },
+          "unspent": "0"
+        },
+        {
+          "month": 2,
+          "interest": {
+            "A": "0.81",
+            "B": "6.87"
+          },
+          "paid": {
+            "A": "20",
+            "B": "80"
+          },
+          "closing": {
+            "A": "61.81",
+            "B": "155.87"
+          },
+          "unspent": "0"
+        },
+        {
+          "month": 3,
+          "interest": {
+            "A": "0.62",
+            "B": "4.68"
+          },
+          "paid": {
+            "A": "20",
+            "B": "80"
+          },
+          "closing": {
+            "A": "42.43",
+            "B": "80.55"
+          },
+          "unspent": "0"
+        },
+        {
+          "month": 4,
+          "interest": {
+            "A": "0.42",
+            "B": "2.42"
+          },
+          "paid": {
+            "A": "20",
+            "B": "80"
+          },
+          "closing": {
+            "A": "22.85",
+            "B": "2.97"
+          },
+          "unspent": "0"
+        },
+        {
+          "month": 5,
+          "interest": {
+            "A": "0.23",
+            "B": "0.09"
+          },
+          "paid": {
+            "A": "23.08",
+            "B": "3.06"
+          },
+          "closing": {
+            "A": "0.00",
+            "B": "0.00"
+          },
+          "unspent": "73.86"
+        }
+      ]
+    }
+  }
+}
