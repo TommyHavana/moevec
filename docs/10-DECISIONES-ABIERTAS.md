@@ -177,3 +177,9 @@ Dos bloques consecutivos terminados sin solicitar confirmación:90/840 y270 imá
 105/840 completas y315imágenes públicas. Tres bloques consecutivos publicados y verificados, cada entrada en su categoría/subcategoría y con etiquetas del plan. Ética en el Intercambio15/15; siete tandas completas. Taxonomía122nodos/7raíces comprobada,sinEditorial. Registro sincronizado después de cada publicación.
 
 106–108 iniciadas localmente con briefs y fuentes iniciales;0/3imágenes cada una,texto/revisión pendientes. No cuentan como terminadas. Respaldos proporcionales97–99,100–102 y103–105 verificados por hashes y miembros,sin nueva restauración completa. Autorización continua y automatización vigentes. Sin cambios de arquitectura, nuevas aprobaciones o agotamiento de herramientas comunicado.
+
+## Producción 106–114 y continuación 115–117 ·29/10/2026
+
+114/840 completas, con 342 imágenes públicas;0 en curso/borradores WordPress y 726 pendientes. Tres bloques publicados y verificados, con categorías y etiquetas exactas. Regulación y Emprendimiento tiene 9/15 entradas de la tanda 8/56. Taxonomía de 122 nodos y 7 raíces, sin categoría Editorial y sin cambios de organización.
+
+115–117 están en preparación local, con 0/3 imágenes cada una; no cuentan como terminadas. Respaldos 106–108,109–111 y 112–114 verificados, sin una nueva restauración completa. La autorización continua y su automatización siguen vigentes. No hay nuevas aprobaciones, cambios de arquitectura ni agotamiento comunicado. Las revisiones por ID conservan los límites de evidencia; verificar especialmente la Gaceta actual antes de 117.

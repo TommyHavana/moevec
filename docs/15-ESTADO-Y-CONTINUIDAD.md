@@ -1,34 +1,56 @@
 # Estado de MEE y continuidad · 29/10/2026 · Europe/Madrid
 
-## Estado actual: 105/840 publicadas y verificadas
+## Estado actual: 114/840 publicadas y verificadas
 
-WordPress confirma **105 terminadas, 315 imágenes originales públicas, 0 borradores y 735 pendientes**. Ética en el Intercambio está completa,15/15, y quedan cerradas siete tandas. Fuente activa: /Users/nerea/Documents/Proyectos/MEE/mee-web.
+WordPress confirma **114 terminadas, 342 imágenes originales públicas, 0 en curso/borradores y 726 pendientes**. Regulación y Emprendimiento tiene 9/15 entradas de la tanda 8/56. Las siete tandas anteriores están completas.
+
+Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo realizado y evidencia
 
-Esta ejecución completó tres bloques consecutivos: **97–99/E5.7.07–09,100–102/E5.7.10–12 y103–105/E5.7.13–15**. Textos, fuentes/revisión, prompts y27 WebP originales guardados por ID. Informes en docs/produccion/2026-10-29-{bloque,respaldo}-097-099.md,100-102.md y103-105.md.
+Esta ejecución completó tres bloques consecutivos: **106–108/E7.1.01–03, 109–111/E7.1.04–06 y 112–114/E7.1.07–09**. Se conservan los textos, fuentes, revisiones, prompts y 27 WebP originales en editorial/articles/. Los informes de bloque y respaldo están en docs/produccion/2026-10-29-*.md.
 
-Una publicación y tres adjuntos por ID. Categorías capitalismo-consciente/etica-en-el-intercambio y etiquetas tema/nivel exactas; país-cuba adicional en103. Blog es contenedor y Editorial es firma. Taxonomía comprobada en esta ejecución:122 nodos y7 raíces, sin Editorial/Uncategorized. No se cambió la taxonomía.
+Cada ID tiene una publicación y tres adjuntos. Las categorías son politica-y-economia/regulacion-y-emprendimiento y las etiquetas coinciden con el brief. Blog es el contenedor; Editorial es la firma. La taxonomía conserva 122 nodos y 7 raíces, sin categorías Editorial ni Uncategorized.
 
-Verificación pública por entrada: HTTP200,H1,canonical,indexabilidad,Article,índice,sitemap,jerarquía visible/BreadcrumbList y cinco enlaces internos. Tres WebP con alt,dimensiones,variantes y hashes coincidentes. RegistroMD/CSV/JSON sincronizado tras cada publicación. Evidencia en verification.json por ID e inventario/auditoria-2026-10-28/editorial-97-99,100-102,103-105-{organization,navigation}.json yeditorial-97-105-taxonomy.json. Sin despliegue React ni cambios de tema,DNS,correo oautenticación.
+Se verificaron HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, jerarquía visible/BreadcrumbList y cinco enlaces internos por artículo. Las imágenes tienen alt, dimensiones, variantes y hashes coincidentes. El registro MD/CSV/JSON se sincronizó desde WordPress después de cada publicación. Evidencia en verification.json por ID y en los informes editorial-106-108,109-111,112-114-{organization,navigation}.json y editorial-106-114-taxonomy.json.
 
-## Continuación exacta
+No hizo falta desplegar React. No hubo cambios de DNS, correo, autenticación, tema ni taxonomía.
 
-**106–108/E7.1.01–03**, tanda8/56: Política y Economía → Regulación y Emprendimiento. Títulos: Cómo leer una ley antes de opinar; Ficha de análisis de una medida pública; Cuánto cuesta abrir un negocio: de Doing Business a B-READY. Briefs, etiquetas y fuentes iniciales guardados.0/3 imágenes cada una; texto/revisión pendientes. Estas tres están incluidas en735 pendientes;732 sin iniciar. No contarlas como terminadas ni como borradores WordPress.
+## Revisión y límites relevantes
 
-Leer research-notes.md por ID.106:BOE consolidación informativa y versiones; verificar DOF/México,gacetas Cuba/Venezuela y DiarioOficial/Colombia.107:comunicado28/2021 del tribunal alemán y resolución25/03/2021/anuncio15/04/2021; nulidad por competencias, no prueba causal económica; completar F-039/F-209 y Bastiat.108:BancoMundial discontinuó DoingBusiness16/09/2021; metodologíaB-READY describe2025 y enlaza manual2026, lo cual no demuestra resultados2026. Consultar edición más reciente, manual, Djankov2002 y comparabilidad antes de usar cifras. Completar investigación,crear originales,redactar/revisar,publicar/verificar en orden. Siguiente bloque109–111.
+Las revisiones por ID distinguen hechos, interpretación, ejemplos hipotéticos y alcance de lectura. La resolución sustantiva berlinesa se separó del auto de acumulación; la nulidad por competencias no demuestra un efecto económico. B-READY 2025 se cita como informe provisional; el manual 2026 no se presenta como resultados 2026. La cabecera de 108 se corrigió en el mismo post antes del respaldo, sin duplicar medios.
 
-## Copias y límites
+Los 289 días de Lima se verificaron en el pasaje original sobre la simulación de 1983, con costes separados. Captura regulatoria no se utiliza como prueba de delito. En autónomos se cotejaron las bases 2026 con BOE; la discrepancia del porcentaje de la guía TGSS quedó documentada y no se reprodujo como tipo universal. La cuota reducida se atribuye a la guía operativa fechada, distinguiendo el alcance temporal de la norma y el reconocimiento individual.
 
-Respaldos VPS verificados por SQL consistente, hashes y miembros:97–99 SQL6.349.947bytes/66medios/archivo4.387.454bytes;100–102 SQL6.448.445bytes/66medios/archivo4.150.208bytes;103–105 SQL6.545.630bytes/66medios/archivo3.883.309bytes. Cadena completa en RESTORE-NOTES.txt; base27 de20261028 y superposiciones hasta105. Sin nueva prueba de arranque de restauración completa. Copia local de cierre y fuente privada: referencias en production-state.json e informes de respaldo.
+Los regímenes latinoamericanos conservan sus unidades y límites. La declaración responsable incluye ámbito, exclusiones y control posterior. El estudio francés utiliza datos 1995–2007 y un modelo; sus costes equivalentes no son un impuesto real ni un efecto español demostrado. No se afirma lectura íntegra de libros o artículos a partir de pasajes.
 
-Sin agotamiento de imágenes comunicado. Algunos PDF/sitios rechazaron acceso directo; se conservaron los errores y se usaron pasajes primarios accesibles con alcance explícito. No se afirma lectura íntegra de libros a partir de resúmenes o fragmentos. No hay bloqueo que requiera al fundador.
+## Continuación exacta: 115–117 / E7.1.10–12
 
-## Decisiones y traspaso
+Misma categoría y subcategoría, con briefs y etiquetas exactos:
 
-Producción continua ya autorizada y automatización de este chat activa hasta840. Sin nuevos requisitos, cambios de arquitectura o propuestas pendientes de aprobación. La auditoría integral fue encargada expresamente el28/10/2026 y está en22; esta ejecución fue producción editorial.
+- 115/E7.1.10: Licencias profesionales: protección o barrera. Consultar Kleiner/Krueger 2013, Kleiner 2006 y fuentes primarias sobre licencias y colegios, con población, método y límites.
+- 116/E7.1.11: Ley Crea y Crece: sociedades con un euro de capital. Verificar LSC 4 vigente, CIRCE, reservas y responsabilidad; un euro de capital no equivale al coste total de abrir.
+- 117/E7.1.12: Cuba: actividades no permitidas y trámites de las mipymes. Consultar Gaceta y normas posteriores a 49/2021; 107/2024 y DL 88/2024 son pistas por verificar, no un catálogo vigente certificado.
 
-Para continuar: abrir la carpeta activa, leer AGENTS.md,docs/26-PRODUCCION-CONTINUA.md,este estado,16,registro24 y production-state.json; consultar WordPress y retomar106–108 con sus expedientes. No recrear artículos ni medios. Los informes de esta ejecución distinguen el estado actual de verificaciones históricas.
+Cada preparación tiene **0/3 imágenes**, sin texto final ni publicación. Estas tres están incluidas en las 726 pendientes; quedan 723 sin iniciar. No contarlas como terminadas ni como borradores WordPress. Continuar con fuentes, originales, texto, revisión, publicación única y verificación. El bloque posterior será 118–120.
+
+## Copias de seguridad
+
+Respaldos VPS con SQL consistente, hashes y miembros verificados:
+
+- 106–108: SQL 6.662.144 bytes; 66 medios; archivo 3.737.090 bytes.
+- 109–111: SQL 6.765.012 bytes; 66 medios; archivo 3.515.128 bytes.
+- 112–114: SQL 6.871.981 bytes; 66 medios; archivo 4.353.332 bytes.
+
+La restauración requiere la base 27 de 20261028 y las superposiciones hasta 114, con el último SQL al final. La cadena exacta está en RESTORE-NOTES.txt. No se ha realizado una nueva prueba de arranque de restauración completa. La copia local y la fuente privada se referencian en production-state.json y en los informes.
+
+## Autorización y traspaso
+
+La producción continua y la automatización de este chat siguen activas hasta 840. No hay nuevas aprobaciones, cambios de arquitectura ni propuestas pendientes de decisión. La auditoría integral fue encargada el 28/10/2026 y está en el documento 22; esta ejecución corresponde a producción editorial.
+
+No se ha comunicado agotamiento de imágenes. Algunos accesos directos rechazaron la descarga; los errores y los pasajes primarios utilizados quedan documentados. No hay un bloqueo que requiera al fundador.
+
+Para retomar: abrir la fuente activa, leer AGENTS.md, docs/26-PRODUCCION-CONTINUA.md, este estado, 16, el registro 24 y production-state.json. Consultar WordPress y continuar 115–117 desde sus expedientes, sin recrear artículos ni medios. Mantener dependencias y secretos fuera de las copias de código.
 
 ## Historial anterior — no describe el estado actual
 

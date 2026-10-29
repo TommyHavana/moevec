@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-29T00:12:19+00:00.
+Comprobado en WordPress: 2026-10-29T01:16:58+00:00.
 
-**105/840 terminadas · 0 en curso · 735 pendientes.**
+**114/840 terminadas · 0 en curso · 726 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -117,15 +117,15 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 103 | 7/56 · 13/15 | E5.7.13 | Ética en el mercado informal cubano: «resolver» y sus dilemas | terminada | 3/3 | [Leer](https://moevec.org/blog/etica-mercado-informal-cuba-resolver/) |
 | 104 | 7/56 · 14/15 | E5.7.14 | Publicidad honesta: cómo vender sin manipular | terminada | 3/3 | [Leer](https://moevec.org/blog/publicidad-honesta/) |
 | 105 | 7/56 · 15/15 | E5.7.15 | Dilemas éticos del emprendedor: diez casos para pensar | terminada | 3/3 | [Leer](https://moevec.org/blog/dilemas-eticos-del-emprendedor/) |
-| 106 | 8/56 · 1/15 | E7.1.01 | Cómo leer una ley antes de opinar | pendiente | 0/3 | — |
-| 107 | 8/56 · 2/15 | E7.1.02 | Ficha de análisis de una medida pública | pendiente | 0/3 | — |
-| 108 | 8/56 · 3/15 | E7.1.03 | Cuánto cuesta abrir un negocio: de Doing Business a B-READY | pendiente | 0/3 | — |
-| 109 | 8/56 · 4/15 | E7.1.04 | El experimento de Lima: 289 días para registrar un taller | pendiente | 0/3 | — |
-| 110 | 8/56 · 5/15 | E7.1.05 | La teoría de la captura: cuando el regulador protege al regulado | pendiente | 0/3 | — |
-| 111 | 8/56 · 6/15 | E7.1.06 | Cuota de autónomos en España: el sistema por ingresos reales | pendiente | 0/3 | — |
-| 112 | 8/56 · 7/15 | E7.1.07 | Regímenes simplificados: monotributo, RESICO y Régimen Simple | pendiente | 0/3 | — |
-| 113 | 8/56 · 8/15 | E7.1.08 | Licencia exprés y declaración responsable en España | pendiente | 0/3 | — |
-| 114 | 8/56 · 9/15 | E7.1.09 | El umbral de los 50 empleados: cuando crecer sale caro | pendiente | 0/3 | — |
+| 106 | 8/56 · 1/15 | E7.1.01 | Cómo leer una ley antes de opinar | terminada | 3/3 | [Leer](https://moevec.org/blog/como-leer-una-ley/) |
+| 107 | 8/56 · 2/15 | E7.1.02 | Ficha de análisis de una medida pública | terminada | 3/3 | [Leer](https://moevec.org/blog/ficha-analisis-medida-publica/) |
+| 108 | 8/56 · 3/15 | E7.1.03 | Cuánto cuesta abrir un negocio: de Doing Business a B-READY | terminada | 3/3 | [Leer](https://moevec.org/blog/cuanto-cuesta-abrir-negocio/) |
+| 109 | 8/56 · 4/15 | E7.1.04 | El experimento de Lima: 289 días para registrar un taller | terminada | 3/3 | [Leer](https://moevec.org/blog/experimento-lima-de-soto/) |
+| 110 | 8/56 · 5/15 | E7.1.05 | La teoría de la captura: cuando el regulador protege al regulado | terminada | 3/3 | [Leer](https://moevec.org/blog/teoria-de-la-captura/) |
+| 111 | 8/56 · 6/15 | E7.1.06 | Cuota de autónomos en España: el sistema por ingresos reales | terminada | 3/3 | [Leer](https://moevec.org/blog/cuota-autonomos-espana-ingresos-reales/) |
+| 112 | 8/56 · 7/15 | E7.1.07 | Regímenes simplificados: monotributo, RESICO y Régimen Simple | terminada | 3/3 | [Leer](https://moevec.org/blog/regimenes-simplificados-latam/) |
+| 113 | 8/56 · 8/15 | E7.1.08 | Licencia exprés y declaración responsable en España | terminada | 3/3 | [Leer](https://moevec.org/blog/licencia-expres-declaracion-responsable/) |
+| 114 | 8/56 · 9/15 | E7.1.09 | El umbral de los 50 empleados: cuando crecer sale caro | terminada | 3/3 | [Leer](https://moevec.org/blog/umbral-50-empleados/) |
 | 115 | 8/56 · 10/15 | E7.1.10 | Licencias profesionales: protección o barrera | pendiente | 0/3 | — |
 | 116 | 8/56 · 11/15 | E7.1.11 | Ley Crea y Crece: sociedades con un euro de capital | pendiente | 0/3 | — |
 | 117 | 8/56 · 12/15 | E7.1.12 | Cuba: actividades no permitidas y trámites de las mipymes | pendiente | 0/3 | — |
