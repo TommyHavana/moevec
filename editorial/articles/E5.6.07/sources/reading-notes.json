@@ -1,18 +1,59 @@
 {
-  "checked_at": "2026-10-29T16:08:39.672000+00:00",
-  "id": "E5.6.07",
-  "full_sources_review_complete": false,
-  "read": [
-    "Brief original y etiquetas exactas.",
-    "LODE consolidada: ficha BOE, publicación4/7/1985 y última actualización7/9/2022; articulado completo aún pendiente.",
-    "Índice ministerial descargado: edición Datos y cifras2026–2027 ubicada, enlace a Librería de Educación localizado. Nota oficial17/9/2026 leída sobre previsiones, no tabla de concertada.",
-    "Esade2024 localizado en editor; PDF local403 y consulta web no dio archivo íntegro. No publicar sus cifras sin revisar tabla, año, encuesta y definiciones."
+  "checked_at": "2026-10-29T16:30:24.224084+00:00",
+  "primary_source_scope": [
+    {
+      "name": "BOE, Ley Orgánica 8/1985, reguladora del Derecho a la Educación",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-12978",
+      "scope": "Publicación y entrada en vigor4/7/1985; texto consolidado actualizado7/9/2022, art51 leído. Art47–49 derogados no utilizados como derecho vigente."
+    },
+    {
+      "name": "BOE, Ley Orgánica 2/2006 de Educación, texto consolidado",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-7899",
+      "scope": "Actualización8/6/2024; artículos88,108 y116.1–2 leídos: gratuidad, titularidad y conciertos. Sin asesoramiento individual ni equiparar todo servicio pagado a infracción."
+    },
+    {
+      "name": "Ministerio de Educación, Datos y cifras. Curso escolar 2026–2027",
+      "url": "https://www.libreria.educacion.gob.es/libro/datos-y-cifras-curso-escolar-2026-2027_187162/",
+      "scope": "Publicación17/9/2026,86p; tabla p12: distribución alumnado enseñanzas de régimen general no universitarias2024–2025,66.8%/24.5%/8.7%. p20: gasto en instituciones públicas2023, no coste completo homogéneo de ambas redes."
+    },
+    {
+      "name": "Gortazar, Martínez Jorge y Bonal i Sarró, El coste de acceso a la escuela concertada en España, EsadeEcPol, 2024",
+      "url": "https://www.esade.edu/ecpol/es/publicaciones/cuotas-escuela-concertada/",
+      "scope": "Informe24/4/2024. Página editorial consultada web y PDF íntegro de74p archivado desde espejo de Magisnet; lectura seleccionada pp2–3,9–11,15–21,69–70. EGHE2019/20 y EFGEP2020/21. En p21 rango80–95% alumnado con cuotas según etapa y definición, no81–95 generalizado ni %centros. No lectura íntegra de74p."
+    },
+    {
+      "name": "EsadeEcPol, copia del documento de investigación de los autores",
+      "url": "https://www.magisnet.com/wp-content/uploads/2024/04/informe.pdf",
+      "scope": "Mismo informe primario, no resumen de prensa; método, definiciones y conclusiones consultados. La definición amplia incorpora diferencia de comedor; recodificación de algunos alumnos declarados en pública. No censo ni resolución de ilegalidad por centro."
+    }
   ],
-  "pending": [
-    "Leer artículos relevantes LODE y LOE88 vigentes con fuentes BOE; distinguir gratuito de servicios adicionales voluntarios.",
-    "Descargar publicación2026–27 desde https://www.libreria.educacion.gob.es/libro/datos-y-cifras-curso-escolar-2026-2027_187162/ y leer tabla/nota por financiación; no tabla2024–25 como dato2026.",
-    "Comparar gasto público por alumno con ámbito/etapa y gasto familiar; no concluir eficiencia por menor transferencia.",
-    "Completar fuente primaria Esade/FEDEA, composición social y resultados ajustados; redactar dos casos hipotéticos, FAQ, contraargumento y revisión."
+  "full_books_read": false,
+  "omitted": [
+    "No comparar gasto público por alumno de todas las enseñanzas con transferencia del concierto y llamarlo eficiencia causal.",
+    "No presentar matrícula2024–2025 como observación2026–2027 ni cuotas2019/20 como cobros actuales.",
+    "No convertir diferencias brutas de resultados en efecto causal de titularidad; omitidos ratios PISA sin diseño identificado.",
+    "No identificar todo gasto de comedor/extraescolar como cuota ilegal; las estimaciones estadísticas no resuelven cada caso.",
+    "No homogeneizar centros ni comunidades; rango de alumnado80–95% según p21, distinto de proporción de centros.",
+    "No afirmar lectura íntegra de informes o artículos jurídicos no revisados."
   ],
-  "images": "3/3originales; revisión individual y mosaico232–234; no publicación"
+  "selected_checks": {
+    "law": "LODE1985origen yart51actual, LOEarts88/108/116.1–2 actuales. Arts47–49LODEderogados no se usan como vigentes. Gratuidad y voluntariedad; no valoración jurídica individual.",
+    "ministry": "Edición17/9/2026,PDF86p. p12tabla2024–2025:66.8pública/24.5concertada/8.7privada no concertada. p20gasto instituciones públicas2023 no comparador completo de redes.",
+    "fees": "Esade2024, versión74p en espejo del documento primario, pp15–21método y69–70conclusiones;EGHE2019/20,EFGEP2020/21. p21rango80–95%ALUMNADO, dependeetapa y definición con margen comedor; no81–95ni%centros, no cuotas2026.",
+    "method": "Recodificación de alumnos, datos de familias y centros; diversidad de financiación y servicios, no ilegalidad resuelta por centro. Coste por alumno homogéneo no disponible; ratios omitidos."
+  },
+  "image_review": {
+    "tool": "builtin_image_gen",
+    "individual": true,
+    "mosaic": "/tmp/mee232-234-mosaic.png",
+    "cover": [
+      1200,
+      630
+    ],
+    "interiors": [
+      1600,
+      900
+    ],
+    "max_bytes": 250000
+  }
 }

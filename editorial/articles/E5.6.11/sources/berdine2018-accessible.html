@@ -1,0 +1,461 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Georgia, "Times New Roman", serif;
+            line-height: 1.6;
+            color: #333;
+            background: #fff;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 1.8em;
+            margin-bottom: 0.5em;
+            color: #000;
+        }
+
+        h2 {
+            font-size: 1.4em;
+            margin: 1.5em 0 0.5em 0;
+            color: #222;
+        }
+
+        h3 {
+            font-size: 1.2em;
+            margin: 1.2em 0 0.5em 0;
+            color: #333;
+        }
+
+        p {
+            margin-bottom: 1em;
+        }
+
+        a {
+            color: #0066cc;
+            text-decoration: underline;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 1em 0;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f5f5f5;
+            font-weight: bold;
+        }
+
+        .wi-authors {
+            margin: 1em 0 1.5em 0;
+        }
+
+        .al-authors-list {
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+        }
+
+        .al-author-name {
+            display: block;
+        }
+
+        .al-author-name > .linked-name {
+            display: none;
+        }
+
+        .al-author-info-wrap {
+            display: block !important;
+            position: static !important;
+            background: none;
+            border: none;
+            box-shadow: none;
+            padding: 0;
+        }
+
+        .info-card-author {
+            padding: 0.75em 1em;
+            background: #f8f8f8;
+            border-left: 3px solid #0066cc;
+            margin: 0;
+        }
+
+        .info-card-name {
+            font-weight: bold;
+            font-size: 1.05em;
+            color: #222;
+            margin-bottom: 0.25em;
+        }
+
+        .info-card-footnote {
+            font-weight: normal;
+            font-size: 0.9em;
+        }
+
+        .info-card-affilitation {
+            font-size: 0.95em;
+            color: #555;
+            margin: 0.25em 0;
+        }
+
+        .info-card-affilitation .aff {
+            margin: 0.15em 0;
+        }
+
+        .info-card-affilitation .aff * {
+            display: inline;
+            white-space: normal;
+        }
+
+        .info-card-affilitation .label {
+            display: none;
+        }
+
+        .info-author-correspondence {
+            font-size: 0.9em;
+            color: #555;
+            margin: 0.25em 0;
+        }
+
+        .info-author-correspondence .label {
+            display: none;
+        }
+
+        .info-card-search-label {
+            font-size: 0.85em;
+            color: #666;
+            margin-top: 0.5em;
+            margin-bottom: 0.25em;
+        }
+        
+        .delimiter-margin-left {
+            display: none;
+        }
+
+        .info-card-search {
+            display: inline-block;
+            font-size: 0.85em;
+            margin-right: 0.75em;
+        }
+
+        .info-card-search a {
+            color: #0066cc;
+        }
+
+        .ref-list {
+            margin-top: 1em;
+        }
+
+        .js-splitview-ref-item {
+            margin-bottom: 1em;
+            padding-left: 2em;
+            text-indent: -2em;
+        }
+
+        .ref-content {
+            line-height: 1.5;
+        }
+
+        .mixed-citation,
+        .mixed-citation p,
+        .mixed-citation .person-group,
+        .mixed-citation .name,
+        .mixed-citation .string-name,
+        .mixed-citation .surname,
+        .mixed-citation .given-names,
+        .mixed-citation .year,
+        .mixed-citation .article-title,
+        .mixed-citation .source,
+        .mixed-citation .volume,
+        .mixed-citation .fpage,
+        .mixed-citation .lpage,
+        .mixed-citation .publisher-name,
+        .mixed-citation .publisher-loc,
+        .mixed-citation .collab,
+        .mixed-citation .comment {
+            display: inline;
+            margin: 0;
+            padding: 0;
+        }
+
+        .citation-links {
+            display: block;
+            margin-top: 0.25em;
+            font-size: 0.85em;
+        }
+
+        .citation-links > div,
+        .citation-links > p {
+            display: inline;
+            margin-right: 0.5em;
+        }
+    </style>
+</head>
+<body>
+<div class="minimal-article-container">
+    <div class="article-header">
+    <div class="widget widget-ArticleTopInfo widget-instance-articleTopInfo_Minimal">
+        <div class="module-widget article-top-widget">
+
+    
+
+    
+        <div class="access-state-logos all-viewports">
+    <span class="journal-info__format-label">Journal Article</span>
+    <span class="article-flag"><a href="https://academic.oup.com/heapol/search-results?f_OUPSeries=Editor's+Choice">Editor's Choice</a></span>        </div>
+
+
+    <div class="widget-items">
+                <div class="title-wrap">
+                    <h1 class="wi-article-title article-title-main accessible-content-title at-articleTitle">
+                        Cuban infant mortality and longevity: health care or repression?
+<i class='icon-availability_free' title='Free'><span class='screenreader-text'>Free</span></i>                    </h1>
+
+                </div>
+                <div class="wi-authors at-ArticleAuthors">
+                    <div class="al-authors-list">
+        <div class="al-author-name js-flyout-wrap" style="display:inline">
+            <a href="javascript:;" class="linked-name js-linked-name-trigger btn-as-link"
+               aria-controls="author-flyout-18139468" aria-expanded="false">Gilbert Berdine</a>
+                <span class="delimiter-margin-left">, </span>
+            <span id="author-flyout-18139468" class="al-author-info-wrap arrow-up">
+<div class="info-card-author authorInfo_articleTopInfo_Minimal">
+    <div class="name-role-wrap">
+        <div class="info-card-name">
+    Gilbert Berdine
+</div>
+
+    </div>
+
+    <div class="info-card-affilitation">
+        <div class="aff">Texas Tech University Health Sciences Center, 3601 4th St Stop 9410, Lubbock, TX 79430-9410, USA</div>
+    </div>
+
+    <div class="info-card-search-label">
+        Search for other works by this author on:
+    </div>
+
+<div class="info-card-search info-card-search-internal">
+    <a href="/heapol/search-results?f_Authors=Gilbert+Berdine" rel="nofollow">Oxford Academic</a>
+</div>
+
+    <div class="info-card-search info-card-search-pubmed">
+        <a href="http://www.ncbi.nlm.nih.gov/pubmed?cmd=search&amp;term=Berdine G">PubMed</a>
+    </div>
+    <div class="info-card-search info-card-search-google">
+        <a href="http://scholar.google.com/scholar?q=author:%22Berdine Gilbert%22">Google Scholar</a>
+    </div>
+</div>            </span>
+
+        </div>
+        <div class="al-author-name js-flyout-wrap" style="display:inline">
+            <a href="javascript:;" class="linked-name js-linked-name-trigger btn-as-link"
+               aria-controls="author-flyout-18139469" aria-expanded="false">Vincent Geloso</a>
+                <span class="delimiter-margin-left">, </span>
+            <span id="author-flyout-18139469" class="al-author-info-wrap arrow-up">
+<div class="info-card-author authorInfo_articleTopInfo_Minimal">
+    <div class="name-role-wrap">
+        <div class="info-card-name">
+    Vincent Geloso
+            <span class="info-card-footnote"><span class="xrefLink" id="jumplink-czy033-cor1"></span><a href="javascript:;" reveal-id="czy033-cor1" data-open="czy033-cor1" class="link link-ref link-reveal xref-default"><!----></a></span>
+</div>
+
+    </div>
+
+    <div class="info-card-affilitation">
+        <div class="aff">FMI at Texas Tech University, Box 45059, Lubbock, TX 79409-5059, USA</div>
+    </div>
+
+    <div class="info-author-correspondence">
+        <div content-id="czy033-cor1">Corresponding author. FMI at Texas Tech University, Box 45059, Lubbock, TX 79409-5059, USA. E-mail: <a href="mailto:vincentgeloso@hotmail.com" target="_blank">vincentgeloso@hotmail.com</a></div>
+    </div>
+    <div class="info-card-search-label">
+        Search for other works by this author on:
+    </div>
+
+<div class="info-card-search info-card-search-internal">
+    <a href="/heapol/search-results?f_Authors=Vincent+Geloso" rel="nofollow">Oxford Academic</a>
+</div>
+
+    <div class="info-card-search info-card-search-pubmed">
+        <a href="http://www.ncbi.nlm.nih.gov/pubmed?cmd=search&amp;term=Geloso V">PubMed</a>
+    </div>
+    <div class="info-card-search info-card-search-google">
+        <a href="http://scholar.google.com/scholar?q=author:%22Geloso Vincent%22">Google Scholar</a>
+    </div>
+</div>            </span>
+
+        </div>
+        <div class="al-author-name js-flyout-wrap" style="display:inline">
+            <a href="javascript:;" class="linked-name js-linked-name-trigger btn-as-link"
+               aria-controls="author-flyout-18139470" aria-expanded="false">Benjamin Powell</a>
+            <span id="author-flyout-18139470" class="al-author-info-wrap arrow-up">
+<div class="info-card-author authorInfo_articleTopInfo_Minimal">
+    <div class="name-role-wrap">
+        <div class="info-card-name">
+    Benjamin Powell
+</div>
+
+    </div>
+
+    <div class="info-card-affilitation">
+        <div class="aff">Texas Tech University’s Rawls School of Business, FMI at Texas Tech University, Box 45059, Lubbock, TX 79409-5059, USA</div>
+    </div>
+
+    <div class="info-card-search-label">
+        Search for other works by this author on:
+    </div>
+
+<div class="info-card-search info-card-search-internal">
+    <a href="/heapol/search-results?f_Authors=Benjamin+Powell" rel="nofollow">Oxford Academic</a>
+</div>
+
+    <div class="info-card-search info-card-search-pubmed">
+        <a href="http://www.ncbi.nlm.nih.gov/pubmed?cmd=search&amp;term=Powell B">PubMed</a>
+    </div>
+    <div class="info-card-search info-card-search-google">
+        <a href="http://scholar.google.com/scholar?q=author:%22Powell Benjamin%22">Google Scholar</a>
+    </div>
+</div>            </span>
+
+        </div>
+
+
+                    </div>
+                </div>
+<div class="pub-history-wrap clearfix js-history-dropdown-wrap">
+
+        <div class="pub-history-row clearfix">
+            <div class="ww-citation-primary"><em>Health Policy and Planning</em>, Volume 33, Issue 6, July 2018, Pages 755–757, <a href='https://doi.org/10.1093/heapol/czy033'>https://doi.org/10.1093/heapol/czy033</a></div>
+        </div>
+        <div class="pub-history-row clearfix">
+            <div class="ww-citation-date-wrap">
+                <div class="citation-label">Published:</div>
+                <div class="citation-date">08 June 2018</div>
+            </div>
+                <a href="javascript:;" class="history-label js-history-dropdown-trigger st-article-history at-ArticleHistory">
+                    <span>Article history</span><i class="icon-general-arrow-filled-down arrow-icon"></i>
+                </a>
+                    </div>
+            <div class="ww-history js-history-entries-wrap at-history-entries-wrap">
+                <div class="history-entry at-history-entry">
+                    <div class="wi-state">Accepted:</div>
+                    <div class="wi-date">21 March 2018</div>
+                </div>
+                <div class="history-entry at-history-entry">
+                    <div class="wi-state">Published:</div>
+                    <div class="wi-date">08 June 2018</div>
+                </div>
+        </div>
+        </div>
+    </div>
+</div>
+
+
+
+ 
+    </div>
+
+    </div>
+
+    <div class="article-content">
+    <div class="widget widget-ArticleFulltext widget-instance-articleFulltext_Minimal">
+        <div class="module-widget">
+    <div class="widget-items" data-widgetname="ArticleFulltext">
+
+
+
+
+
+<p class="chapter-para"><div id="czy033-BOX1" class="boxed-text boxed-text-emphasized"><div class=" sec"><div class="title">Highlights</div><ul class="bullet"><li><p class="chapter-para">Cuban healthcare statistics are flawed.</p></li><li><p class="chapter-para">The health achievements are in part the result of repressive methods.</p></li><li><p class="chapter-para">The health achievements are in part the result of policies that are unrelated to health care provision.</p></li></ul></div></div></p><p class="chapter-para">Ongoing political changes in Cuba following Fidel Castro’s death offer an opportunity to evaluate his regime’s legacy with regards to health outcomes. The common assessment is that Cuba’s achievements in lowering infant mortality and increasing longevity are among the praiseworthy outcomes of the regime—a viewpoint reinforced by studies published in US medical journals (<span class="xrefLink" id="jumplink-czy033-B2"></span><a href="javascript:;" reveal-id="czy033-B2" data-open="czy033-B2" class="link link-ref link-reveal xref-bibr">Campion and Morrissey 1993</a>; Cooper and Kennelly, 2006)<span class="xrefLink" id="jumplink-czy033-en1"></span><a href="javascript:;" reveal-id="czy033-en1" data-open="czy033-en1" class="link link-ref link-reveal xref-fn js-xref-fn"><sup>1</sup></a> We argue that some of the praise is unjustified. Although Cuban health statistics appear strong, they overstate the achievements because of data manipulation. Moreover, their strength is not derived from the successful delivery of health care but rather from the particular repressive nature of the regime which comes at the expense of other populations.</p><p class="chapter-para">Cuban health statistics appear to be a paradox. Wealth and health are correlated because greater wealth can buy better health care. Yet, Cuba remains desperately poor and appears to be healthy. Cuban life expectancies of 79.5 years and infant mortality rates of 4.3 per 1000 live births (2015) compare well with rich nations like the USA (78.7 years and 5.7 per 1, 000 live births) yet its per capita income of 7602.3$ make it one of the poorest economies in the hemisphere (<em>World Development Indicators DataBank</em>, <em>2017</em>).</p><p class="chapter-para">How is Cuba healthy while poor? Most attribute the fact to Cuba’s zero monetary cost health care system. There is some truth to that attribution. With 11.1% of GDP dedicated to health care and 0.8% of the population working as physicians, a substantial amount of resources is directed towards reducing infant mortality and increasing longevity. An economy with centralized economic planning by government like that of Cuba can force more resources into an industry than its population might desire in order to achieve improved outcomes in that industry at the expense of other goods and services the population might more highly desire.</p><p class="chapter-para">Centralized planning has disadvantages. Physicians are given health outcome targets to meet or face penalties. This provides incentives to manipulate data. Take Cuba’s much praised infant mortality rate for example. In most countries, the ratio of the numbers of neonatal deaths and late fetal deaths stay within a certain range of each other as they have many common causes and determinants. One study found that that while the ratio of late fetal deaths to early neonatal deaths in countries with available data stood between 1.04 and 3.03 (<span class="xrefLink" id="jumplink-czy033-B9"></span><a href="javascript:;" reveal-id="czy033-B9" data-open="czy033-B9" class="link link-ref link-reveal xref-bibr">Gonzalez, 2015</a>)—a ratio which is representative of Latin American countries as well (<span class="xrefLink" id="jumplink-czy033-B10"></span><a href="javascript:;" reveal-id="czy033-B10" data-open="czy033-B10" class="link link-ref link-reveal xref-bibr">Gonzalez and Gilleskie, 2017</a>).<span class="xrefLink" id="jumplink-czy033-en2"></span><a href="javascript:;" reveal-id="czy033-en2" data-open="czy033-en2" class="link link-ref link-reveal xref-fn js-xref-fn"><sup>2</sup></a> Cuba, with a ratio of 6, was a clear outlier. This skewed ratio is evidence that physicians likely reclassified early neonatal deaths as late fetal deaths, thus deflating the infant mortality statistics and propping up life expectancy.<span class="xrefLink" id="jumplink-czy033-en3"></span><a href="javascript:;" reveal-id="czy033-en3" data-open="czy033-en3" class="link link-ref link-reveal xref-fn js-xref-fn"><sup>3</sup></a> Cuban doctors were re-categorizing neonatal deaths as late fetal deaths in order for doctors to meet government targets for infant mortality.</p><p class="chapter-para">Using the ratios found for other countries, corrections were proposed to the statistics published by the Cuban government: instead of 5.79 per 1000 births, the rate stands between 7.45 and 11.16 per 1000 births. Recalculating life expectancy at birth to account for these corrections (using WHO life tables and assuming that they are accurate depictions of reality), the life expectancy at birth of men by between 0.22 and 0.55 years (<span class="xrefLink" id="jumplink-czy033-B9"></span><a href="javascript:;" reveal-id="czy033-B9" data-open="czy033-B9" class="link link-ref link-reveal xref-bibr">Gonzalez, 2015</a>).</p><p class="chapter-para">Misreporting to meet fixed targets is not the only reason for the low infant mortality rate. An ethnographic study of the Cuban health system showed that physicians who worried that a mother’s behavior might lead to missing the centrally established targets will prescribe the forceful internment in a state clinic (<em>casa de maternidad</em>) so that they may regulate her behavior.<span class="xrefLink" id="jumplink-czy033-en4"></span><a href="javascript:;" reveal-id="czy033-en4" data-open="czy033-en4" class="link link-ref link-reveal xref-fn js-xref-fn"><sup>4</sup></a> Physicians often perform abortions without clear consent of the mother, raising serious issues of medical ethics, when ultrasound reveals fetal abnormalities because ‘otherwise it might raise the infant mortality rate’ (<span class="xrefLink" id="jumplink-czy033-B12"></span><a href="javascript:;" reveal-id="czy033-B12" data-open="czy033-B12" class="link link-ref link-reveal xref-bibr">Hirschfeld 2007b</a>:12).<span class="xrefLink" id="jumplink-czy033-en5"></span><a href="javascript:;" reveal-id="czy033-en5" data-open="czy033-en5" class="link link-ref link-reveal xref-fn js-xref-fn"><sup>5</sup></a></p><p class="chapter-para">Coercing or pressuring patients into having abortions artificially improve infant mortality by preventing marginally riskier births from occurring help doctors meet their centrally fixed targets. At 72.8 abortions per 100 births, Cuba has one of the highest abortion rates in the world.<span class="xrefLink" id="jumplink-czy033-en6"></span><a href="javascript:;" reveal-id="czy033-en6" data-open="czy033-en6" class="link link-ref link-reveal xref-fn js-xref-fn"><sup>6</sup></a> If only 5% of the abortions are actually pressured abortions meant to keep health statistics up, life expectancy at birth must be lowered by a sizeable amount. If we combine the misreporting of late fetal deaths and pressured abortions, life expectancy would drop by between 1.46 and 1.79 years for men. In <span class="xrefLink" id="jumplink-czy033-F1"></span><a href="javascript:;" data-modal-source-id="czy033-F1" class="link xref-fig">Figure 1</a> below, we show that that with this adjustment alone, instead of being first in the ranking of life expectancy at birth for men in Latin America and the Caribbean, Cuba falls either to the third or fourth place depending on the range.<span class="xrefLink" id="jumplink-czy033-en7"></span><a href="javascript:;" reveal-id="czy033-en7" data-open="czy033-en7" class="link link-ref link-reveal xref-fn js-xref-fn"><sup>7</sup></a></p>                    <a id="117913534" scrollto-destination="117913534"></a>
+<div data-id="czy033-f1" data-content-id="czy033-f1" class="fig fig-section js-fig-section" swap-content-for-modal="true"><div class="graphic-wrap"><img class="content-image" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/heapol/33/6/10.1093_heapol_czy033/1/m_czy033f1.jpeg?Expires=2147483647&amp;Signature=rMTzfDSd1cguB2u3Fnf~kvN1m7wwbjNZTqTdasXACyagwpaGUT74InhafMWunHx70Kw2G1LbWZbiftC-8RxJrKkpHHS7gbmxy6m~pj4LHLOn-gC2YCHNocCrAKJ45g~bwQ~ZfdP8QWY-yW9IdEukWf~kCBzyaH2IVc~tniAYlU3tRrvGrbUNhrfmBQyQ5wS-GNYkLpbAVUp6PvSUYlbv8EZsuoj4Bd~MrrhbbZgvnIe-NCqmsT06-9tCOZu~~W0PPw1EzV40kd5Y-Pf6b4LBzLbHWoCnFfmsQ8W~ZfOPlak0CFg1py4EFMKvW2r-pC7aRmPML8DnL66z3wgwQT6bKg__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="Male life expectancy at birth at latin America and Carribean, 2004 with corrections to life tables. Source: see text, footnotes 6 and 7 (more exhaustive)." data-path-from-xml="czy033f1.tif" /><div class="graphic-bottom"><div class="label fig-label" id="label-117913534">Figure 1.</div><div class="caption fig-caption"><p class="chapter-para">Male life expectancy at birth at latin America and Carribean, 2004 with corrections to life tables. <em>Source:</em> see text, footnotes 6 and 7 (more exhaustive).</p></div><div class="ajax-articleAbstract-exclude-regex fig-orig original-slide figure-button-wrap"><a class="fig-view-orig js-view-large at-figureViewLarge openInAnotherWindow" role="button" aria-describedby="label-117913534" href="/view-large/figure/117913534/czy033f1.tif" data-path-from-xml="czy033f1.tif" target="_blank">Open in new tab</a><a class="download-slide" role="button" aria-describedby="label-117913534" data-section="117913534" href="/DownloadFile/DownloadImage.aspx?image=https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/heapol/33/6/10.1093_heapol_czy033/1/czy033f1.jpeg?Expires=2147483647&Signature=dXly6twr8PuFh2n41eTadGS51ghRJb7-WAyrfb~quGRmfDUmv8FBYSuJYkkbGp-iixLFoVL9WHfXYmJiLdWcj~4~WiIvol3kpw0raRfAchR4WRZYJtGe6jkibvW6TLCh8EKlIIJi6tRYQiatuCuvKEiW~bROV-pZGWSJ-pp5erkww7~Wf0J1RWPfKuqaRrK7URd2Kghkj1DilUjdY8baSQrsH1pYjIa96Y3SPxRcx-yaGDsdZCbBJIq2B7y56sgByk5lMXI3wbppWREtGcA~W7OylbtCkjU-QX-bid5vUnGujcCMh77eTmAGa9b2Ita8hJ~TxcfgjQJf8XN1Pi7F4Q__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&sec=117913534&ar=5035051&xsltPath=~/UI/app/XSLT&imagename=&siteId=5165" data-path-from-xml="czy033f1.tif">Download slide</a></div></div></div></div><p class="chapter-para">Other repressive policies, unrelated to health care, contribute to Cuba’s health outcomes. For example, car ownership is heavily restricted in Cuba and as a result the country’s car ownership rate is far below the Latin American average (55.8 per 1000 persons as opposed to 267 per 1000) (<em>Road Safety</em>, 2016). A low rate of automobile ownership results in little traffic congestion and few auto fatalities. In Brazil, where the car ownership rate is 7.3 times above that of Cuba, road fatalities reduce male and female life expectancy at birth by 0.8 and 0.2 years (<span class="xrefLink" id="jumplink-czy033-B3"></span><a href="javascript:;" reveal-id="czy033-B3" data-open="czy033-B3" class="link link-ref link-reveal xref-bibr">Chandran <em>et al.</em> 2013</a>). All else being equal, government restrictions of automobile ownership improves Cuban life expectancy by reducing accidents but also by forcing the population to increase their reliance on more physically demanding forms of transportation (e.g. cycling and walking) (<span class="xrefLink" id="jumplink-czy033-B1"></span><a href="javascript:;" reveal-id="czy033-B1" data-open="czy033-B1" class="link link-ref link-reveal xref-bibr">Borowy, 2013</a>). In fact, local physicians attribute a strong role to the massive introduction of bicycles in order to explain the decrease in traffic accidents mortality (<span class="xrefLink" id="jumplink-czy033-B7"></span><a href="javascript:;" reveal-id="czy033-B7" data-open="czy033-B7" class="link link-ref link-reveal xref-bibr">Garcell and Quesada, 2011</a>). Another example is the rationing books entitling Cubans to limited quantities of goods priced well-below market-clearing levels. This implies that there is a need to ration quantities consumed. One good illustration is that during the ‘Special Period’ (the prolonged economic crisis caused by the collapse of the Soviet Union), there were ‘sustained shortages in the food-rationing system’ that led to reductions in per capita daily energy intake (<span class="xrefLink" id="jumplink-czy033-B5"></span><a href="javascript:;" reveal-id="czy033-B5" data-open="czy033-B5" class="link link-ref link-reveal xref-bibr">Franco <em>et al.</em> 2007</a>). Combined with the increase in the levels of energy expenditures due to the reliance on physically demanding forms of transportation, this led to a reduction in net nutrition. Accidently, this crisis led to the halving of obesity rates and, although one has to be careful in causal terms, this likely contributed to important reductions of deaths attributed to diabetes, coronary heart diseases and strokes (there were also increases in the number of cases of neuropathy).<span class="xrefLink" id="jumplink-czy033-en8"></span><a href="javascript:;" reveal-id="czy033-en8" data-open="czy033-en8" class="link link-ref link-reveal xref-fn js-xref-fn"><sup>8</sup></a></p><p class="chapter-para">Finally, these outcomes come at cost to other population segments. The maternal mortality ratio of Cuba in 2015 was higher than in Latin American countries like Barbados, Belize, Chile, Costa Rica, Mexico and Uruguay (<em>Trends in Maternal Mortality 1990 to 2015</em>, 2015). In terms of healthy life expectancy, Cuba ranked behind Costa Rica, Chile, Peru and Bermuda and marginally surpassed Uruguay, Puerto Rica, Panama, Nicaragua and Colombia (<em>Global Burden of Disease</em>, 2017). This is despite the aforementioned data manipulation on top of having a greater physician density and share of national resources allocated to health than these countries.</p><p class="chapter-para">Cuban mortality and longevity statistics appear impressive. They are a result of some combination of the government’s choice to allocate more resources into the health care industry (at the expense of other industries that could produce needed goods) and from coercive measures through both health delivery and economic planning that improve health statistics at the expense of other spheres of life.</p><p class="chapter-para">Although the USA and other countries re-examine how to design health care delivery they should not uncritically accept the myth that the Cuban health care system has been the sole, or even the most important, cause of Cuba’s abnormally high longevity statistics. The role of Cuban economic and political oppression in coercing ‘good’ health outcomes merits further study.</p><p class="chapter-para"><em>Conflict of interest statement</em>. None declared.</p>                    <h2 scrollto-destination=117913541 id="117913541" class="backreferences-title js-splitscreen-backreferences-title" >References</h2>
+<div class="ref-list js-splitview-ref-list"><div content-id="czy033-B1" class="js-splitview-ref-item" data-legacy-id="czy033-B1"><div class="refLink-parent"><span class="refLink"><a name="jumplink-czy033-B1" href="javascript:;" aria-label="jumplink-czy033-B1" data-id=""></a></span></div><div class="ref false"><div id="ref-auto-czy033-B1" class="ref-content " data-id="czy033-B1"><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><span class="name string-name"><div class="surname">Borowy</div> <div class="given-names">I.</div></span></span> <div class="year">2013</div>. 
+<div class="article-title">Degrowth and public health in Cuba: lessons from the past</div>. <div class="source ">J Cleaner Prod</div> <div class="volume">38</div>: <div class="fpage">17</div>–<div class="lpage">26</div>.</p><!--citationLinks: case 1--><div class="citation-links"></div><div class="citation-links"><p class="citation-links-compatibility"><span class="google-scholar-ref-link"><a class="openInAnotherWindow" href="https://scholar.google.com/scholar_lookup?title=Degrowth%20and%20public%20health%20in%20Cuba%3A%20lessons%20from%20the%20past&amp;author=I.%20Borowy&amp;publication_year=2013&amp;journal=J%20Cleaner%20Prod&amp;volume=38&amp;pages=17-26" target="_blank">Google Scholar</a></span></p><div class="crossref-doi js-ref-link"><a class="openInAnotherWindow" href="http://dx.doi.org/10.1016/j.jclepro.2011.11.057" target="_blank">Crossref</a></div><div class="adsDoiReference hide"><a class="openInAnotherWindow" href="http://adsabs.harvard.edu/cgi-bin/basic_connect?qsearch=10.1016%2Fj.jclepro.2011.11.057" target="_blank">Search ADS</a></div><div class="xslopenurl empty-target"><span class="inst-open-url-holders" data-targetId="10.1016%2Fj.jclepro.2011.11.057"> </span></div><p class="citation-links-compatibility"><span class="worldcat-reference-ref-link js-worldcat-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.worldcat.org/search?q=ti:Degrowth%20and%20public%20health%20in%20Cuba%3A%20lessons%20from%20the%20past&amp;qt=advanced&amp;dblist=638" target="_blank">WorldCat</a></span></p> </div></div></div></div></div><div content-id="czy033-B2" class="js-splitview-ref-item" data-legacy-id="czy033-B2"><div class="refLink-parent"><span class="refLink"><a name="jumplink-czy033-B2" href="javascript:;" aria-label="jumplink-czy033-B2" data-id=""></a></span></div><div class="ref false"><div id="ref-auto-czy033-B2" class="ref-content " data-id="czy033-B2"><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><span class="name string-name"><div class="surname">Campion</div> <div class="given-names">EW</div></span>, <span class="name string-name"><div class="surname">Morrissey</div> <div class="given-names">S.</div></span></span> <div class="year">1993</div>. 
+<div class="article-title">A different model—medical care in Cuba</div>. <div class="source ">N Engl J Med</div> <div class="volume">368</div>: <div class="fpage">297</div>–<div class="lpage">99</div>.</p><!--citationLinks: case 1--><div class="citation-links"></div><div class="citation-links"><p class="citation-links-compatibility"><span class="google-scholar-ref-link"><a class="openInAnotherWindow" href="https://scholar.google.com/scholar_lookup?title=A%20different%20model%E2%80%94medical%20care%20in%20Cuba&amp;author=EW%20Campion&amp;author=S.%20Morrissey&amp;publication_year=1993&amp;journal=N%20Engl%20J%20Med&amp;volume=368&amp;pages=297-99" target="_blank">Google Scholar</a></span></p><div class="crossref-doi js-ref-link"><a class="openInAnotherWindow" href="http://dx.doi.org/10.1056/NEJMp1215226" target="_blank">Crossref</a></div><div class="adsDoiReference hide"><a class="openInAnotherWindow" href="http://adsabs.harvard.edu/cgi-bin/basic_connect?qsearch=10.1056%2FNEJMp1215226" target="_blank">Search ADS</a></div><div class="xslopenurl empty-target"><span class="inst-open-url-holders" data-targetId="10.1056%2FNEJMp1215226"> </span></div><p class="citation-links-compatibility"><span class="worldcat-reference-ref-link js-worldcat-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.worldcat.org/search?q=ti:A%20different%20model%E2%80%94medical%20care%20in%20Cuba&amp;qt=advanced&amp;dblist=638" target="_blank">WorldCat</a></span></p> </div></div></div></div></div><div content-id="czy033-B3" class="js-splitview-ref-item" data-legacy-id="czy033-B3"><div class="refLink-parent"><span class="refLink"><a name="jumplink-czy033-B3" href="javascript:;" aria-label="jumplink-czy033-B3" data-id=""></a></span></div><div class="ref false"><div id="ref-auto-czy033-B3" class="ref-content " data-id="czy033-B3"><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><span class="name string-name"><div class="surname">Chandran</div> <div class="given-names">A</div></span>, <span class="name string-name"><div class="surname">Kahn</div> <div class="given-names">G</div></span>, <span class="name string-name"><div class="surname">Sousa</div> <div class="given-names">T.</div></span></span> et al.  <div class="year">2013</div>. 
+<div class="article-title">Impact of road traffic deaths on expected years of life lost and reduction in life expectancy in Brazil</div>. <div class="source ">Demography</div> <div class="volume">50</div>: <div class="fpage">229</div>–<div class="lpage">36</div>.</p><!--citationLinks: case 1--><div class="citation-links"></div><div class="citation-links"><p class="citation-links-compatibility"><span class="google-scholar-ref-link"><a class="openInAnotherWindow" href="https://scholar.google.com/scholar_lookup?title=Impact%20of%20road%20traffic%20deaths%20on%20expected%20years%20of%20life%20lost%20and%20reduction%20in%20life%20expectancy%20in%20Brazil&amp;author=A%20Chandran&amp;author=G%20Kahn&amp;author=T.%20Sousa&amp;publication_year=2013&amp;journal=Demography&amp;volume=50&amp;pages=229-36" target="_blank">Google Scholar</a></span></p><div class="crossref-doi js-ref-link"><a class="openInAnotherWindow" href="http://dx.doi.org/10.1007/s13524-012-0135-7" target="_blank">Crossref</a></div><div class="adsDoiReference hide"><a class="openInAnotherWindow" href="http://adsabs.harvard.edu/cgi-bin/basic_connect?qsearch=10.1007%2Fs13524-012-0135-7" target="_blank">Search ADS</a></div><div class="xslopenurl empty-target"><span class="inst-open-url-holders" data-targetId="10.1007%2Fs13524-012-0135-7"> </span></div><div class="pub-id"><a href="http://www.ncbi.nlm.nih.gov/pubmed/23011943" class="link link-pub-id openInAnotherWindow" target="_blank">PubMed</a></div><p class="citation-links-compatibility"><span class="worldcat-reference-ref-link js-worldcat-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.worldcat.org/search?q=ti:Impact%20of%20road%20traffic%20deaths%20on%20expected%20years%20of%20life%20lost%20and%20reduction%20in%20life%20expectancy%20in%20Brazil&amp;qt=advanced&amp;dblist=638" target="_blank">WorldCat</a></span></p> </div></div></div></div></div><div content-id="czy033-B4" class="js-splitview-ref-item" data-legacy-id="czy033-B4"><div class="refLink-parent"><span class="refLink"><a name="jumplink-czy033-B4" href="javascript:;" aria-label="jumplink-czy033-B4" data-id=""></a></span></div><div class="ref false"><div id="ref-auto-czy033-B4" class="ref-content " data-id="czy033-B4"><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><span class="name string-name"><div class="surname">Cooper</div> <div class="given-names">RS</div></span>, <span class="name string-name"><div class="surname">Kennelly</div> <div class="given-names">JF</div></span>, <span class="name string-name"><div class="surname">Ordunez-Garcia</div> <div class="given-names">P.</div></span></span> <div class="year">2006</div>. 
+<div class="article-title">Health in Cuba</div>. <div class="source ">Int J Epi</div> <div class="volume">35</div>: <div class="fpage">817</div>–<div class="lpage">24</div>.</p><!--citationLinks: case 1--><div class="citation-links"></div><div class="citation-links"><p class="citation-links-compatibility"><span class="google-scholar-ref-link"><a class="openInAnotherWindow" href="https://scholar.google.com/scholar_lookup?title=Health%20in%20Cuba&amp;author=RS%20Cooper&amp;author=JF%20Kennelly&amp;author=P.%20Ordunez-Garcia&amp;publication_year=2006&amp;journal=Int%20J%20Epi&amp;volume=35&amp;pages=817-24" target="_blank">Google Scholar</a></span></p><div class="crossref-doi js-ref-link"><a class="openInAnotherWindow" href="http://dx.doi.org/10.1093/ije/dyl175" target="_blank">Crossref</a></div><div class="adsDoiReference hide"><a class="openInAnotherWindow" href="http://adsabs.harvard.edu/cgi-bin/basic_connect?qsearch=10.1093%2Fije%2Fdyl175" target="_blank">Search ADS</a></div><div class="xslopenurl empty-target"><span class="inst-open-url-holders" data-targetId="10.1093%2Fije%2Fdyl175"> </span></div><p class="citation-links-compatibility"><span class="worldcat-reference-ref-link js-worldcat-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.worldcat.org/search?q=ti:Health%20in%20Cuba&amp;qt=advanced&amp;dblist=638" target="_blank">WorldCat</a></span></p> </div></div></div></div></div><div content-id="czy033-B5" class="js-splitview-ref-item" data-legacy-id="czy033-B5"><div class="refLink-parent"><span class="refLink"><a name="jumplink-czy033-B5" href="javascript:;" aria-label="jumplink-czy033-B5" data-id=""></a></span></div><div class="ref false"><div id="ref-auto-czy033-B5" class="ref-content " data-id="czy033-B5"><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><span class="name string-name"><div class="surname">Franco</div> <div class="given-names">M</div></span>, <span class="name string-name"><div class="surname">Orduñez</div> <div class="given-names">P</div></span>, <span class="name string-name"><div class="surname">Caballero</div> <div class="given-names">B.</div></span></span> et al.  <div class="year">2007</div>. 
+<div class="article-title">Impact of energy intake, physical activity, and population-wide weight loss on cardiovascular disease and diabetes mortality in Cuba, 1980-2005</div>. <div class="source ">Am J Epidemiol</div> <div class="volume">166</div>: <div class="fpage">1375</div>.</p><!--citationLinks: case 1--><div class="citation-links"></div><div class="citation-links"><p class="citation-links-compatibility"><span class="google-scholar-ref-link"><a class="openInAnotherWindow" href="https://scholar.google.com/scholar_lookup?title=Impact%20of%20energy%20intake%2C%20physical%20activity%2C%20and%20population-wide%20weight%20loss%20on%20cardiovascular%20disease%20and%20diabetes%20mortality%20in%20Cuba%2C%201980-2005&amp;author=M%20Franco&amp;author=P%20Ordu%C3%B1ez&amp;author=B.%20Caballero&amp;publication_year=2007&amp;journal=Am%20J%20Epidemiol&amp;volume=166&amp;pages=1375" target="_blank">Google Scholar</a></span></p><div class="crossref-doi js-ref-link"><a class="openInAnotherWindow" href="http://dx.doi.org/10.1093/aje/kwm226" target="_blank">Crossref</a></div><div class="adsDoiReference hide"><a class="openInAnotherWindow" href="http://adsabs.harvard.edu/cgi-bin/basic_connect?qsearch=10.1093%2Faje%2Fkwm226" target="_blank">Search ADS</a></div><div class="xslopenurl empty-target"><span class="inst-open-url-holders" data-targetId="10.1093%2Faje%2Fkwm226"> </span></div><p class="citation-links-compatibility"><span class="worldcat-reference-ref-link js-worldcat-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.worldcat.org/search?q=ti:Impact%20of%20energy%20intake%2C%20physical%20activity%2C%20and%20population-wide%20weight%20loss%20on%20cardiovascular%20disease%20and%20diabetes%20mortality%20in%20Cuba%2C%201980-2005&amp;qt=advanced&amp;dblist=638" target="_blank">WorldCat</a></span></p> </div></div></div></div></div><div content-id="czy033-B6" class="js-splitview-ref-item" data-legacy-id="czy033-B6"><div class="refLink-parent"><span class="refLink"><a name="jumplink-czy033-B6" href="javascript:;" aria-label="jumplink-czy033-B6" data-id=""></a></span></div><div class="ref false"><div id="ref-auto-czy033-B6" class="ref-content " data-id="czy033-B6"><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><span class="name string-name"><div class="surname">Franco</div> <div class="given-names">M</div></span>, <span class="name string-name"><div class="surname">Bilal</div> <div class="given-names">U</div></span>, <span class="name string-name"><div class="surname">Orduñez</div> <div class="given-names">P.</div></span></span> et al.  <div class="year">2013</div>. 
+<div class="article-title">Population-wide weight loss and regain in relation to diabetes burden and cardiovascular mortality in Cuba 1980-2010: repeated cross-sectional surveys and ecological comparison of secular trends</div>. <div class="source ">BMJ</div> <div class="volume">346</div>: <div class="fpage">f1515</div>.</p><!--citationLinks: case 1--><div class="citation-links"></div><div class="citation-links"><p class="citation-links-compatibility"><span class="google-scholar-ref-link"><a class="openInAnotherWindow" href="https://scholar.google.com/scholar_lookup?title=Population-wide%20weight%20loss%20and%20regain%20in%20relation%20to%20diabetes%20burden%20and%20cardiovascular%20mortality%20in%20Cuba%201980-2010%3A%20repeated%20cross-sectional%20surveys%20and%20ecological%20comparison%20of%20secular%20trends&amp;author=M%20Franco&amp;author=U%20Bilal&amp;author=P.%20Ordu%C3%B1ez&amp;publication_year=2013&amp;journal=BMJ&amp;volume=346&amp;pages=f1515" target="_blank">Google Scholar</a></span></p><div class="crossref-doi js-ref-link"><a class="openInAnotherWindow" href="http://dx.doi.org/10.1136/bmj.f1515" target="_blank">Crossref</a></div><div class="adsDoiReference hide"><a class="openInAnotherWindow" href="http://adsabs.harvard.edu/cgi-bin/basic_connect?qsearch=10.1136%2Fbmj.f1515" target="_blank">Search ADS</a></div><div class="xslopenurl empty-target"><span class="inst-open-url-holders" data-targetId="10.1136%2Fbmj.f1515"> </span></div><div class="pub-id"><a href="http://www.ncbi.nlm.nih.gov/pubmed/23571838" class="link link-pub-id openInAnotherWindow" target="_blank">PubMed</a></div><p class="citation-links-compatibility"><span class="worldcat-reference-ref-link js-worldcat-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.worldcat.org/search?q=ti:Population-wide%20weight%20loss%20and%20regain%20in%20relation%20to%20diabetes%20burden%20and%20cardiovascular%20mortality%20in%20Cuba%201980-2010%3A%20repeated%20cross-sectional%20surveys%20and%20ecological%20comparison%20of%20secular%20trends&amp;qt=advanced&amp;dblist=638" target="_blank">WorldCat</a></span></p> </div></div></div></div></div><div content-id="czy033-B7" class="js-splitview-ref-item" data-legacy-id="czy033-B7"><div class="refLink-parent"><span class="refLink"><a name="jumplink-czy033-B7" href="javascript:;" aria-label="jumplink-czy033-B7" data-id=""></a></span></div><div class="ref false"><div id="ref-auto-czy033-B7" class="ref-content " data-id="czy033-B7"><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><span class="name string-name"><div class="surname">Garcell</div> <div class="given-names">HG</div></span>, <span class="name string-name"><div class="surname">Quesada</div> <div class="given-names">CM.</div></span></span> <div class="year">2011</div>. Epidemiology and prevention of traffic accidents in Cuba. In: Krzysztof Ś. (ed), <div class="source ">Health Management – Different Approaches and Solutions</div>, 
+<div class="publisher-name">InTech</div>, <div class="fpage">181</div>–<div class="lpage">194</div>.</p><!--citationLinks: case 2--><div class="citation-links"><p class="citation-links-compatibility"><span class="google-scholar-ref-link"><a class="openInAnotherWindow" href="https://scholar.google.com/scholar_lookup?title=Health%20Management%20%E2%80%93%20Different%20Approaches%20and%20Solutions&amp;author=HG%20Garcell&amp;author=CM.%20Quesada&amp;publication_year=2011&amp;book=Health%20Management%20%E2%80%93%20Different%20Approaches%20and%20Solutions" target="_blank">Google Scholar</a></span></p><p class="citation-links-compatibility"><span class="google-preview-ref-link js-google-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.google.com/search?q=Health%20Management%20%E2%80%93%20Different%20Approaches%20and%20Solutions&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1" target="_blank">Google Preview</a></span></p><div class="xslopenurl empty-target"><span class="js-inst-open-url-holders-nodoi"><a class="js-open-url-link" data-href-template="{targetURL}?sid=oup:orr&amp;genre=book&amp;title=Health+Management+%e2%80%93+Different+Approaches+and+Solutions&amp;aulast=Garcell&amp;date=2011&amp;spage=181&amp;epage=194" href="javascript:;"><span class="screenreader-text">OpenURL Placeholder Text</span></a></span></div><p class="citation-links-compatibility"><span class="worldcat-reference-ref-link js-worldcat-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.worldcat.org/search?q=ti:Health%20Management%20%E2%80%93%20Different%20Approaches%20and%20Solutions&amp;qt=advanced&amp;dblist=638" target="_blank">WorldCat</a></span></p><div class="copac-reference-ref-link js-copac-preview-ref-link" style="display:none" data-pubtype="book"><span class="inst-copac"><a class="openInAnotherWindow" target="_blank" href="http://copac.ac.uk/search?ti=Health%20Management%20%E2%80%93%20Different%20Approaches%20and%20Solutions">COPAC</a></span></div> </div></div></div></div></div><div content-id="czy033-B8" class="js-splitview-ref-item" data-legacy-id="czy033-B8"><div class="refLink-parent"><span class="refLink"><a name="jumplink-czy033-B8" href="javascript:;" aria-label="jumplink-czy033-B8" data-id=""></a></span></div><div class="ref false"><div id="ref-auto-czy033-B8" class="ref-content " data-id="czy033-B8"><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><div class="source ">Global Burden of Disease</div>. 
+<div class="publisher-loc">Seattle, WA</div>: 
+<div class="publisher-name">Institute for Health Metrics and Evaluation</div>. <a class="link link-uri openInAnotherWindow" href="http://ghdx.healthdata.org/gbd-results-tool" target="_blank">http://ghdx.healthdata.org/gbd-results-tool</a>, accessed 27 September 2017.</p><!--citationLinks: case 3--><div class="citation-links"><p class="citation-links-compatibility"><span class="google-scholar-ref-link"><a class="openInAnotherWindow" href="https://scholar.google.com/scholar_lookup?title=Global%20Burden%20of%20Disease&amp;book=Global%20Burden%20of%20Disease" target="_blank">Google Scholar</a></span></p><p class="citation-links-compatibility"><span class="google-preview-ref-link js-google-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.google.com/search?q=Global%20Burden%20of%20Disease&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1" target="_blank">Google Preview</a></span></p><div class="xslopenurl empty-target"><span class="js-inst-open-url-holders-nodoi"><a class="js-open-url-link" data-href-template="{targetURL}?sid=oup:orr&amp;genre=book&amp;title=Global+Burden+of+Disease" href="javascript:;"><span class="screenreader-text">OpenURL Placeholder Text</span></a></span></div><p class="citation-links-compatibility"><span class="worldcat-reference-ref-link js-worldcat-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.worldcat.org/search?q=ti:Global%20Burden%20of%20Disease&amp;qt=advanced&amp;dblist=638" target="_blank">WorldCat</a></span></p><div class="copac-reference-ref-link js-copac-preview-ref-link" style="display:none" data-pubtype="book"><span class="inst-copac"><a class="openInAnotherWindow" target="_blank" href="http://copac.ac.uk/search?ti=Global%20Burden%20of%20Disease">COPAC</a></span></div></div></div></div></div></div><div content-id="czy033-B9" class="js-splitview-ref-item" data-legacy-id="czy033-B9"><div class="refLink-parent"><span class="refLink"><a name="jumplink-czy033-B9" href="javascript:;" aria-label="jumplink-czy033-B9" data-id=""></a></span></div><div class="ref false"><div id="ref-auto-czy033-B9" class="ref-content " data-id="czy033-B9"><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><span class="name string-name"><div class="surname">Gonzalez</div> <div class="given-names">RM.</div></span></span> <div class="year">2015</div>. 
+<div class="article-title">Infant mortality in Cuba: myth and reality</div>. <div class="source ">Cuban Stud</div> <div class="volume">42</div>: <div class="fpage">19</div>–<div class="lpage">40</div>.</p><!--citationLinks: case 1--><div class="citation-links"></div><div class="citation-links"><p class="citation-links-compatibility"><span class="google-scholar-ref-link"><a class="openInAnotherWindow" href="https://scholar.google.com/scholar_lookup?title=Infant%20mortality%20in%20Cuba%3A%20myth%20and%20reality&amp;author=RM.%20Gonzalez&amp;publication_year=2015&amp;journal=Cuban%20Stud&amp;volume=42&amp;pages=19-40" target="_blank">Google Scholar</a></span></p><div class="crossref-doi js-ref-link"><a class="openInAnotherWindow" href="http://dx.doi.org/10.1353/cub.2015.0005" target="_blank">Crossref</a></div><div class="adsDoiReference hide"><a class="openInAnotherWindow" href="http://adsabs.harvard.edu/cgi-bin/basic_connect?qsearch=10.1353%2Fcub.2015.0005" target="_blank">Search ADS</a></div><div class="xslopenurl empty-target"><span class="inst-open-url-holders" data-targetId="10.1353%2Fcub.2015.0005"> </span></div><p class="citation-links-compatibility"><span class="worldcat-reference-ref-link js-worldcat-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.worldcat.org/search?q=ti:Infant%20mortality%20in%20Cuba%3A%20myth%20and%20reality&amp;qt=advanced&amp;dblist=638" target="_blank">WorldCat</a></span></p> </div></div></div></div></div><div content-id="czy033-B10" class="js-splitview-ref-item" data-legacy-id="czy033-B10"><div class="refLink-parent"><span class="refLink"><a name="jumplink-czy033-B10" href="javascript:;" aria-label="jumplink-czy033-B10" data-id=""></a></span></div><div class="ref false"><div id="ref-auto-czy033-B10" class="ref-content " data-id="czy033-B10"><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><span class="name string-name"><div class="surname">Gonzalez</div> <div class="given-names">RM</div></span>, <span class="name string-name"><div class="surname">Gilleskie</div> <div class="given-names">D.</div></span></span> <div class="year">2017</div>. 
+<div class="article-title">Infant mortality rate as a measure of a country’s health: a robust method to improve reliability and comparability</div>. <div class="source ">Demography</div> <div class="volume">54</div>: <div class="fpage">701</div>–<div class="lpage">20</div>.</p><!--citationLinks: case 1--><div class="citation-links"></div><div class="citation-links"><p class="citation-links-compatibility"><span class="google-scholar-ref-link"><a class="openInAnotherWindow" href="https://scholar.google.com/scholar_lookup?title=Infant%20mortality%20rate%20as%20a%20measure%20of%20a%20country%E2%80%99s%20health%3A%20a%20robust%20method%20to%20improve%20reliability%20and%20comparability&amp;author=RM%20Gonzalez&amp;author=D.%20Gilleskie&amp;publication_year=2017&amp;journal=Demography&amp;volume=54&amp;pages=701-20" target="_blank">Google Scholar</a></span></p><div class="crossref-doi js-ref-link"><a class="openInAnotherWindow" href="http://dx.doi.org/10.1007/s13524-017-0553-7" target="_blank">Crossref</a></div><div class="adsDoiReference hide"><a class="openInAnotherWindow" href="http://adsabs.harvard.edu/cgi-bin/basic_connect?qsearch=10.1007%2Fs13524-017-0553-7" target="_blank">Search ADS</a></div><div class="xslopenurl empty-target"><span class="inst-open-url-holders" data-targetId="10.1007%2Fs13524-017-0553-7"> </span></div><div class="pub-id"><a href="http://www.ncbi.nlm.nih.gov/pubmed/28233234" class="link link-pub-id openInAnotherWindow" target="_blank">PubMed</a></div><p class="citation-links-compatibility"><span class="worldcat-reference-ref-link js-worldcat-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.worldcat.org/search?q=ti:Infant%20mortality%20rate%20as%20a%20measure%20of%20a%20country%E2%80%99s%20health%3A%20a%20robust%20method%20to%20improve%20reliability%20and%20comparability&amp;qt=advanced&amp;dblist=638" target="_blank">WorldCat</a></span></p> </div></div></div></div></div><div content-id="czy033-B11" class="js-splitview-ref-item" data-legacy-id="czy033-B11"><div class="refLink-parent"><span class="refLink"><a name="jumplink-czy033-B11" href="javascript:;" aria-label="jumplink-czy033-B11" data-id=""></a></span></div><div class="ref false"><div id="ref-auto-czy033-B11" class="ref-content " data-id="czy033-B11"><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><span class="name string-name"><div class="surname">Hirschfeld</div> <div class="given-names">K.</div></span></span> <div class="year">2007a</div>. <div class="source ">Health, Politics, and Revolution in Cuba: 1898-2005</div>. 
+<div class="publisher-loc">New Brunswick, NJ</div>: 
+<div class="publisher-name">Transaction Publishers</div>.</p><!--citationLinks: case 2--><div class="citation-links"><p class="citation-links-compatibility"><span class="google-scholar-ref-link"><a class="openInAnotherWindow" href="https://scholar.google.com/scholar_lookup?title=Health%2C%20Politics%2C%20and%20Revolution%20in%20Cuba%3A%201898-2005&amp;author=K.%20Hirschfeld&amp;publication_year=2007a&amp;book=Health%2C%20Politics%2C%20and%20Revolution%20in%20Cuba%3A%201898-2005" target="_blank">Google Scholar</a></span></p><p class="citation-links-compatibility"><span class="google-preview-ref-link js-google-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.google.com/search?q=Health%2C%20Politics%2C%20and%20Revolution%20in%20Cuba%3A%201898-2005&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1" target="_blank">Google Preview</a></span></p><div class="xslopenurl empty-target"><span class="js-inst-open-url-holders-nodoi"><a class="js-open-url-link" data-href-template="{targetURL}?sid=oup:orr&amp;genre=book&amp;title=Health%2c+Politics%2c+and+Revolution+in+Cuba%3a+1898-2005&amp;aulast=Hirschfeld&amp;date=2007a" href="javascript:;"><span class="screenreader-text">OpenURL Placeholder Text</span></a></span></div><p class="citation-links-compatibility"><span class="worldcat-reference-ref-link js-worldcat-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.worldcat.org/search?q=ti:Health%2C%20Politics%2C%20and%20Revolution%20in%20Cuba%3A%201898-2005&amp;qt=advanced&amp;dblist=638" target="_blank">WorldCat</a></span></p><div class="copac-reference-ref-link js-copac-preview-ref-link" style="display:none" data-pubtype="book"><span class="inst-copac"><a class="openInAnotherWindow" target="_blank" href="http://copac.ac.uk/search?ti=Health%2C%20Politics%2C%20and%20Revolution%20in%20Cuba%3A%201898-2005">COPAC</a></span></div> </div></div></div></div></div><div content-id="czy033-B12" class="js-splitview-ref-item" data-legacy-id="czy033-B12"><div class="refLink-parent"><span class="refLink"><a name="jumplink-czy033-B12" href="javascript:;" aria-label="jumplink-czy033-B12" data-id=""></a></span></div><div class="ref false"><div id="ref-auto-czy033-B12" class="ref-content " data-id="czy033-B12"><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><span class="name string-name"><div class="surname">Hirschfeld</div> <div class="given-names">K.</div></span></span> <div class="year">2007b</div>. 
+<div class="article-title">Re-examining the Cuban health care system: towards a qualitative critique</div>. <div class="source ">Cuban Affairs</div> <div class="volume">2</div>: <div class="fpage">12</div>.</p><!--citationLinks: case 2--><div class="citation-links"><p class="citation-links-compatibility"><span class="google-scholar-ref-link"><a class="openInAnotherWindow" href="https://scholar.google.com/scholar_lookup?title=Re-examining%20the%20Cuban%20health%20care%20system%3A%20towards%20a%20qualitative%20critique&amp;author=K.%20Hirschfeld&amp;publication_year=2007b&amp;journal=Cuban%20Affairs&amp;volume=2&amp;pages=12" target="_blank">Google Scholar</a></span></p><div class="xslopenurl empty-target"><span class="js-inst-open-url-holders-nodoi"><a class="js-open-url-link" data-href-template="{targetURL}?sid=oup:orr&amp;genre=article&amp;atitle=Re-examining+the+Cuban+health+care+system%3a+towards+a+qualitative+critique&amp;aulast=Hirschfeld&amp;title=Cuban+Affairs&amp;date=2007b&amp;spage=12&amp;volume=2" href="javascript:;"><span class="screenreader-text">OpenURL Placeholder Text</span></a></span></div><p class="citation-links-compatibility"><span class="worldcat-reference-ref-link js-worldcat-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.worldcat.org/search?q=ti:Re-examining%20the%20Cuban%20health%20care%20system%3A%20towards%20a%20qualitative%20critique&amp;qt=advanced&amp;dblist=638" target="_blank">WorldCat</a></span></p> </div></div></div></div></div><div content-id="czy033-B13" class="js-splitview-ref-item" data-legacy-id="czy033-B13"><div class="refLink-parent"><span class="refLink"><a name="jumplink-czy033-B13" href="javascript:;" aria-label="jumplink-czy033-B13" data-id=""></a></span></div><div class="ref false"><div id="ref-auto-czy033-B13" class="ref-content " data-id="czy033-B13"><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><span class="name string-name"><div class="surname">Hirschfeld</div> <div class="given-names">K.</div></span></span> <div class="year">2009</div>. 
+<div class="article-title">Linda Whiteford and Laurence Branch, primary health care in Cuba: the other revolution</div>. <div class="source ">Society</div> <div class="volume">46</div>: <div class="fpage">293</div>–<div class="lpage">6</div>.</p><!--citationLinks: case 1--><div class="citation-links"></div><div class="citation-links"><p class="citation-links-compatibility"><span class="google-scholar-ref-link"><a class="openInAnotherWindow" href="https://scholar.google.com/scholar_lookup?title=Linda%20Whiteford%20and%20Laurence%20Branch%2C%20primary%20health%20care%20in%20Cuba%3A%20the%20other%20revolution&amp;author=K.%20Hirschfeld&amp;publication_year=2009&amp;journal=Society&amp;volume=46&amp;pages=293-6" target="_blank">Google Scholar</a></span></p><div class="crossref-doi js-ref-link"><a class="openInAnotherWindow" href="http://dx.doi.org/10.1007/s12115-009-9198-5" target="_blank">Crossref</a></div><div class="adsDoiReference hide"><a class="openInAnotherWindow" href="http://adsabs.harvard.edu/cgi-bin/basic_connect?qsearch=10.1007%2Fs12115-009-9198-5" target="_blank">Search ADS</a></div><div class="xslopenurl empty-target"><span class="inst-open-url-holders" data-targetId="10.1007%2Fs12115-009-9198-5"> </span></div><p class="citation-links-compatibility"><span class="worldcat-reference-ref-link js-worldcat-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.worldcat.org/search?q=ti:Linda%20Whiteford%20and%20Laurence%20Branch%2C%20primary%20health%20care%20in%20Cuba%3A%20the%20other%20revolution&amp;qt=advanced&amp;dblist=638" target="_blank">WorldCat</a></span></p> </div></div></div></div></div><div content-id="czy033-B14" class="js-splitview-ref-item" data-legacy-id="czy033-B14"><div class="refLink-parent"><span class="refLink"><a name="jumplink-czy033-B14" href="javascript:;" aria-label="jumplink-czy033-B14" data-id=""></a></span></div><div class="ref false"><div id="ref-auto-czy033-B14" class="ref-content " data-id="czy033-B14"><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><div class="source ">Mortality and Global Health Estimates</div>. 
+<div class="publisher-loc">Geneva</div>: 
+<div class="publisher-name">World Health Organization</div>. <a class="link link-uri openInAnotherWindow" href="http://apps.who.int/gho/data/node.home" target="_blank">http://apps.who.int/gho/data/node.home</a>, accessed 15 December 2016.</p><!--citationLinks: case 3--><div class="citation-links"><p class="citation-links-compatibility"><span class="google-scholar-ref-link"><a class="openInAnotherWindow" href="https://scholar.google.com/scholar_lookup?title=Mortality%20and%20Global%20Health%20Estimates&amp;book=Mortality%20and%20Global%20Health%20Estimates" target="_blank">Google Scholar</a></span></p><p class="citation-links-compatibility"><span class="google-preview-ref-link js-google-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.google.com/search?q=Mortality%20and%20Global%20Health%20Estimates&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1" target="_blank">Google Preview</a></span></p><div class="xslopenurl empty-target"><span class="js-inst-open-url-holders-nodoi"><a class="js-open-url-link" data-href-template="{targetURL}?sid=oup:orr&amp;genre=book&amp;title=Mortality+and+Global+Health+Estimates" href="javascript:;"><span class="screenreader-text">OpenURL Placeholder Text</span></a></span></div><p class="citation-links-compatibility"><span class="worldcat-reference-ref-link js-worldcat-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.worldcat.org/search?q=ti:Mortality%20and%20Global%20Health%20Estimates&amp;qt=advanced&amp;dblist=638" target="_blank">WorldCat</a></span></p><div class="copac-reference-ref-link js-copac-preview-ref-link" style="display:none" data-pubtype="book"><span class="inst-copac"><a class="openInAnotherWindow" target="_blank" href="http://copac.ac.uk/search?ti=Mortality%20and%20Global%20Health%20Estimates">COPAC</a></span></div></div></div></div></div></div><div content-id="czy033-B15" class="js-splitview-ref-item" data-legacy-id="czy033-B15"><div class="refLink-parent"><span class="refLink"><a name="jumplink-czy033-B15" href="javascript:;" aria-label="jumplink-czy033-B15" data-id=""></a></span></div><div class="ref false"><div id="ref-auto-czy033-B15" class="ref-content " data-id="czy033-B15"><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><div class="source ">Road Safety</div>. 
+<div class="publisher-loc">Geneva</div>: 
+<div class="publisher-name">World Health Organization</div>. <a class="link link-uri openInAnotherWindow" href="http://apps.who.int/gho/data/node.home" target="_blank">http://apps.who.int/gho/data/node.home</a>, accessed 15 December 2016.</p><!--citationLinks: case 3--><div class="citation-links"><p class="citation-links-compatibility"><span class="google-scholar-ref-link"><a class="openInAnotherWindow" href="https://scholar.google.com/scholar_lookup?title=Road%20Safety&amp;book=Road%20Safety" target="_blank">Google Scholar</a></span></p><p class="citation-links-compatibility"><span class="google-preview-ref-link js-google-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.google.com/search?q=Road%20Safety&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1" target="_blank">Google Preview</a></span></p><div class="xslopenurl empty-target"><span class="js-inst-open-url-holders-nodoi"><a class="js-open-url-link" data-href-template="{targetURL}?sid=oup:orr&amp;genre=book&amp;title=Road+Safety" href="javascript:;"><span class="screenreader-text">OpenURL Placeholder Text</span></a></span></div><p class="citation-links-compatibility"><span class="worldcat-reference-ref-link js-worldcat-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.worldcat.org/search?q=ti:Road%20Safety&amp;qt=advanced&amp;dblist=638" target="_blank">WorldCat</a></span></p><div class="copac-reference-ref-link js-copac-preview-ref-link" style="display:none" data-pubtype="book"><span class="inst-copac"><a class="openInAnotherWindow" target="_blank" href="http://copac.ac.uk/search?ti=Road%20Safety">COPAC</a></span></div></div></div></div></div></div><div content-id="czy033-B16" class="js-splitview-ref-item" data-legacy-id="czy033-B16"><div class="refLink-parent"><span class="refLink"><a name="jumplink-czy033-B16" href="javascript:;" aria-label="jumplink-czy033-B16" data-id=""></a></span></div><div class="ref false"><div id="ref-auto-czy033-B16" class="ref-content " data-id="czy033-B16"><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><div class="source ">Trends in Maternal Mortality 1990 to 2015</div>. <div class="year">2015</div>. 
+<div class="publisher-loc">Geneva</div>: 
+<div class="publisher-name">World Health Organization, UNICEF, UNFPA, World Bank Group and the United Nations Population Division</div>.</p><!--citationLinks: case 3--><div class="citation-links"><p class="citation-links-compatibility"><span class="google-scholar-ref-link"><a class="openInAnotherWindow" href="https://scholar.google.com/scholar_lookup?title=Trends%20in%20Maternal%20Mortality%201990%20to%202015&amp;publication_year=2015&amp;book=Trends%20in%20Maternal%20Mortality%201990%20to%202015" target="_blank">Google Scholar</a></span></p><p class="citation-links-compatibility"><span class="google-preview-ref-link js-google-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.google.com/search?q=Trends%20in%20Maternal%20Mortality%201990%20to%202015&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1" target="_blank">Google Preview</a></span></p><div class="xslopenurl empty-target"><span class="js-inst-open-url-holders-nodoi"><a class="js-open-url-link" data-href-template="{targetURL}?sid=oup:orr&amp;genre=book&amp;title=Trends+in+Maternal+Mortality+1990+to+2015&amp;date=2015" href="javascript:;"><span class="screenreader-text">OpenURL Placeholder Text</span></a></span></div><p class="citation-links-compatibility"><span class="worldcat-reference-ref-link js-worldcat-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.worldcat.org/search?q=ti:Trends%20in%20Maternal%20Mortality%201990%20to%202015&amp;qt=advanced&amp;dblist=638" target="_blank">WorldCat</a></span></p><div class="copac-reference-ref-link js-copac-preview-ref-link" style="display:none" data-pubtype="book"><span class="inst-copac"><a class="openInAnotherWindow" target="_blank" href="http://copac.ac.uk/search?ti=Trends%20in%20Maternal%20Mortality%201990%20to%202015">COPAC</a></span></div></div></div></div></div></div><div content-id="czy033-B17" class="js-splitview-ref-item" data-legacy-id="czy033-B17"><div class="refLink-parent"><span class="refLink"><a name="jumplink-czy033-B17" href="javascript:;" aria-label="jumplink-czy033-B17" data-id=""></a></span></div><div class="ref false"><div id="ref-auto-czy033-B17" class="ref-content " data-id="czy033-B17"><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><span class="name string-name"><div class="surname">Velkoff</div> <div class="given-names">VA</div></span>, <span class="name string-name"><div class="surname">Miller</div> <div class="given-names">JE.</div></span></span> <div class="year">1995</div>. 
+<div class="article-title">Trends and differentials in infant mortality in the Soviet Union, 1970-90: how much is due to misreporting</div>. <div class="source ">Population Studies</div>: <div class="volume">49</div>: <div class="fpage">241</div>–<div class="lpage">58</div>.</p><!--citationLinks: case 1--><div class="citation-links"></div><div class="citation-links"><p class="citation-links-compatibility"><span class="google-scholar-ref-link"><a class="openInAnotherWindow" href="https://scholar.google.com/scholar_lookup?title=Trends%20and%20differentials%20in%20infant%20mortality%20in%20the%20Soviet%20Union%2C%201970-90%3A%20how%20much%20is%20due%20to%20misreporting&amp;author=VA%20Velkoff&amp;author=JE.%20Miller&amp;publication_year=1995&amp;journal=Population%20Studies&amp;volume=49&amp;pages=241-58" target="_blank">Google Scholar</a></span></p><div class="crossref-doi js-ref-link"><a class="openInAnotherWindow" href="http://dx.doi.org/10.1080/0032472031000148496" target="_blank">Crossref</a></div><div class="adsDoiReference hide"><a class="openInAnotherWindow" href="http://adsabs.harvard.edu/cgi-bin/basic_connect?qsearch=10.1080%2F0032472031000148496" target="_blank">Search ADS</a></div><div class="xslopenurl empty-target"><span class="inst-open-url-holders" data-targetId="10.1080%2F0032472031000148496"> </span></div><div class="pub-id"><a href="http://www.ncbi.nlm.nih.gov/pubmed/11639795" class="link link-pub-id openInAnotherWindow" target="_blank">PubMed</a></div><p class="citation-links-compatibility"><span class="worldcat-reference-ref-link js-worldcat-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.worldcat.org/search?q=ti:Trends%20and%20differentials%20in%20infant%20mortality%20in%20the%20Soviet%20Union%2C%201970-90%3A%20how%20much%20is%20due%20to%20misreporting&amp;qt=advanced&amp;dblist=638" target="_blank">WorldCat</a></span></p> </div></div></div></div></div><div content-id="czy033-B18" class="js-splitview-ref-item" data-legacy-id="czy033-B18"><div class="refLink-parent"><span class="refLink"><a name="jumplink-czy033-B18" href="javascript:;" aria-label="jumplink-czy033-B18" data-id=""></a></span></div><div class="ref false"><div id="ref-auto-czy033-B18" class="ref-content " data-id="czy033-B18"><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><div class="source ">World Development Indicators DataBank</div>. 
+<div class="publisher-loc">Washington, DC</div>: 
+<div class="publisher-name">World Bank Group</div>. <a class="link link-uri openInAnotherWindow" href="http://databank.worldbank.org/data/reports.aspx?source=world-development-indicators, a" target="_blank">http://databank.worldbank.org/data/reports.aspx?source=world-development-indicators, a</a>ccessed 27 September 2017.</p><!--citationLinks: case 3--><div class="citation-links"><p class="citation-links-compatibility"><span class="google-scholar-ref-link"><a class="openInAnotherWindow" href="https://scholar.google.com/scholar_lookup?title=World%20Development%20Indicators%20DataBank&amp;book=World%20Development%20Indicators%20DataBank" target="_blank">Google Scholar</a></span></p><p class="citation-links-compatibility"><span class="google-preview-ref-link js-google-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.google.com/search?q=World%20Development%20Indicators%20DataBank&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1" target="_blank">Google Preview</a></span></p><div class="xslopenurl empty-target"><span class="js-inst-open-url-holders-nodoi"><a class="js-open-url-link" data-href-template="{targetURL}?sid=oup:orr&amp;genre=book&amp;title=World+Development+Indicators+DataBank" href="javascript:;"><span class="screenreader-text">OpenURL Placeholder Text</span></a></span></div><p class="citation-links-compatibility"><span class="worldcat-reference-ref-link js-worldcat-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.worldcat.org/search?q=ti:World%20Development%20Indicators%20DataBank&amp;qt=advanced&amp;dblist=638" target="_blank">WorldCat</a></span></p><div class="copac-reference-ref-link js-copac-preview-ref-link" style="display:none" data-pubtype="book"><span class="inst-copac"><a class="openInAnotherWindow" target="_blank" href="http://copac.ac.uk/search?ti=World%20Development%20Indicators%20DataBank">COPAC</a></span></div></div></div></div></div></div></div>                    <h3 scrollto-destination=117913543 id="117913543" class="footnotegroup-title js-splitscreen-footnotegroup-title" >Footnotes</h3>
+<div content-id="czy033-en1" class="footnote"><span class="fn"><span class="label fn-label"><span rel="nofollow" data-fn-id="czy033-en1" class="end-note-link">1</span></span><div class="footnote-content"><p class="footnote-compatibility">Cooper <em>et al.</em> (2013, p. 819) point out that vital registration rates are very high in Cuba (well above other Latin American countries) which suggests that problems of data reliability do not emanate from this issue. However, we contend that this is not sufficient evidence to rule out problems of data reliability.</p></div></span></div><div content-id="czy033-en2" class="footnote"><span class="fn"><span class="label fn-label"><span rel="nofollow" data-fn-id="czy033-en2" class="end-note-link">2</span></span><div class="footnote-content"><p class="footnote-compatibility">Gonzalez and Gilleskie (p. 706) point to a World Health Organization study that show close similarities between early neonatal mortality and late fetal mortality for most regions. For ‘Latin America and the Carribean’ in 2004, the rates (per 1000 live births) these rates were respectively at 8 and 10 while Cuba’s rates were wider apart at 2 and 13.</p></div></span></div><div content-id="czy033-en3" class="footnote"><span class="fn"><span class="label fn-label"><span rel="nofollow" data-fn-id="czy033-en3" class="end-note-link">3</span></span><div class="footnote-content"><p class="footnote-compatibility">There are other cases where discrepancies between early neonatal and late fetal mortalities were used by demographers as a sign of data manipulation—see notably <span class="xrefLink" id="jumplink-czy033-B17"></span><a href="javascript:;" reveal-id="czy033-B17" data-open="czy033-B17" class="link link-ref link-reveal xref-bibr">Velkoff and Miller (1995)</a>.</p></div></span></div><div content-id="czy033-en4" class="footnote"><span class="fn"><span class="label fn-label"><span rel="nofollow" data-fn-id="czy033-en4" class="end-note-link">4</span></span><div class="footnote-content"><p class="footnote-compatibility">Patients have no right to privacy in Cuba nor do they have the right to refuse treatment— see <span class="xrefLink" id="jumplink-czy033-B11"></span><a href="javascript:;" reveal-id="czy033-B11" data-open="czy033-B11" class="link link-ref link-reveal xref-bibr">Hirschfeld, (2007a</a>,<span class="xrefLink" id="jumplink-czy033-B12"></span><a href="javascript:;" reveal-id="czy033-B12" data-open="czy033-B12" class="link link-ref link-reveal xref-bibr">b</a>, <span class="xrefLink" id="jumplink-czy033-B13"></span><a href="javascript:;" reveal-id="czy033-B13" data-open="czy033-B13" class="link link-ref link-reveal xref-bibr">2009</a>).</p></div></span></div><div content-id="czy033-en5" class="footnote"><span class="fn"><span class="label fn-label"><span rel="nofollow" data-fn-id="czy033-en5" class="end-note-link">5</span></span><div class="footnote-content"><p class="footnote-compatibility">There is also substantial evidence of women being pressured by physicians on top of instances of the lack of informed consent (<span class="xrefLink" id="jumplink-czy033-B12"></span><a href="javascript:;" reveal-id="czy033-B12" data-open="czy033-B12" class="link link-ref link-reveal xref-bibr">Hirschfeld 2007b</a>).</p></div></span></div><div content-id="czy033-en6" class="footnote"><span class="fn"><span class="label fn-label"><span rel="nofollow" data-fn-id="czy033-en6" class="end-note-link">6</span></span><div class="footnote-content"><p class="footnote-compatibility">All statistics regarding Cuban health care and abortions are derived from Anuario Estadístico de Salud 2015. Havana: Ministerio de Salud Pública, 2016. We use these figures not because we believe them to be perfectly accurate, but because there are no alternatives. This plays to our advantage as we can state that we are using numbers that tend to downplay our arguments. The figure of 72.8 abortions per 100 live births means that 41.9% of pregnancies are terminated.</p></div></span></div><div content-id="czy033-en7" class="footnote"><span class="fn"><span class="label fn-label"><span rel="nofollow" data-fn-id="czy033-en7" class="end-note-link">7</span></span><div class="footnote-content"><p class="footnote-compatibility">The 2004 data were used because the corrections to infant mortality related to that year (<em>Mortality and Global Health Estimates</em>, 2016).</p></div></span></div><div content-id="czy033-en8" class="footnote"><span class="fn"><span class="label fn-label"><span rel="nofollow" data-fn-id="czy033-en8" class="end-note-link">8</span></span><div class="footnote-content"><p class="footnote-compatibility">A later study expanded on this point and confirmed these findings—see <span class="xrefLink" id="jumplink-czy033-B5"></span><a href="javascript:;" reveal-id="czy033-B5" data-open="czy033-B5" class="link link-ref link-reveal xref-bibr">Franco <em>et al.</em> (2007</a>, <span class="xrefLink" id="jumplink-czy033-B6"></span><a href="javascript:;" reveal-id="czy033-B6" data-open="czy033-B6" class="link link-ref link-reveal xref-bibr">2013</a>).</p></div></span></div>    <!-- /foreach in Model.Sections -->
+    <div class="widget widget-ArticlePubStateInfo widget-instance-OUP_ArticlePubStateInfo">
+         
+    </div>
+
+
+
+        <div class="article-metadata-standalone-panel clearfix"></div>
+
+        
+<div class="copyright copyright-statement">© The Author(s) 2018. Published by Oxford University Press in association with The London School of Hygiene and Tropical Medicine. All rights reserved. For permissions, please e-mail: journals.permissions@oup.com</div><div class="license"><div class="license-p">This article is published and distributed under the terms of the Oxford University Press, Standard Journals Publication Model (<a class="link link-uri openInAnotherWindow" href="https://academic.oup.com/journals/pages/about_us/legal/notices" target="_blank">https://academic.oup.com/journals/pages/about_us/legal/notices</a>)</div></div><!-- /foreach -->
+
+        <span id="UserHasAccess" data-userHasAccess="True"></span>
+
+    </div><!-- /.widget-items -->
+</div><!-- /.module-widget -->
+
+
+
+
+
+ 
+    </div>
+
+    </div>
+</div>
+
+
+
+
+<script type="text/javascript">
+    MathJax = {
+        tex: {
+            inlineMath: [['|$', '$|'], ['\\(', '\\)']]
+        }    };
+</script>
+<script id="MathJax-script" async src="//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+</body>
+</html>

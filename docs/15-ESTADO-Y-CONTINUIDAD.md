@@ -2,27 +2,27 @@
 
 ## Estado actual
 
-**231/840 terminadas, 693 imágenes originales públicas, 0 en curso o borradores WordPress y 609 pendientes**. Servicios Sociales 6/15; 15 tandas completas y tanda 16 en curso.
+**237/840 terminadas, 711 imágenes originales públicas, 0 en curso o borradores WordPress y 603 pendientes**. Servicios Sociales 12/15; 15 tandas completas y tanda 16 en curso.
 
 Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Desde 225: entradas 226–231, 18 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
+Desde 231: entradas 232–237, 18 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
 
 Una publicación y tres adjuntos por ID; categorías Capitalismo Consciente y Servicios Sociales, etiquetas exactas. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales y variantes comprobados. Navegación y BreadcrumbList: Blog → área → subcategoría. Taxonomía: 122 nodos, siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva o posicionamiento.
 
 ## Revisión del último bloque
 
-229: LAMal 1996, seguro básico y suplementario diferenciados, subsidios cantonales y comparaciones OCDE con fecha de referencia. 230: CPF y propiedad HDB con reglas y población estadística definidas, derechos temporales y coste de oportunidad del ahorro. 231: edición Marsh CFA 2026, marco multipilar y reformas nacionales con fechas; puntuaciones agregadas sin promesas individuales.
+235: panel estadounidense de donaciones y captación con periodo y método; GiveWell como evaluación con estimaciones, Cáritas como relato atribuido del ejecutor. 236: dotación médica2021 de la tabla OCDE2026, mortalidad2024 y2025, OPSmarzo2026 y comentario crítico2018 con alcance histórico. Sin cifras de éxodo no verificadas. 237: modalidades nacionales y conceptos diferenciados, información educativa sin recomendación de póliza o cambios de cobertura.
 
 ## Continuación exacta
 
-Siguiente **232–234 / E5.6.07–E5.6.09**, Capitalismo Consciente → Servicios Sociales. Preparaciones incluidas en las 609 pendientes. E5.6.07: 3/3 imágenes locales; sin texto final, sin publicación; E5.6.08: 3/3 imágenes locales; sin texto final, sin publicación; E5.6.09: 3/3 imágenes locales; sin texto final, sin publicación. Después 235–237. Automatización activa, sin agotamiento comunicado.
+Siguiente **238–240 / E5.6.13–E5.6.15**, Capitalismo Consciente → Servicios Sociales. Preparaciones incluidas en las 603 pendientes. E5.6.13: 3/3 imágenes locales; sin texto final, sin publicación; E5.6.14: 3/3 imágenes locales; sin texto final, sin publicación; E5.6.15: 3/3 imágenes locales; sin texto final, sin publicación. Después 241–243. Automatización activa, sin agotamiento comunicado.
 
 ## Copias y límites
 
-Respaldo VPS hasta 231: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
+Respaldo VPS hasta 237: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
 
 ## Traspaso
 

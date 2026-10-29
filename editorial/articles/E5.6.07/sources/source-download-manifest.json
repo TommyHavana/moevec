@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-29T16:08:39.672000+00:00",
+  "checked_at": "2026-10-29T16:30:24.224084+00:00",
   "items": [
     {
       "name": "lode-consolidada",
@@ -81,7 +81,101 @@
           "downloaded": false
         }
       ]
+    },
+    {
+      "name": "loe-consolidada",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-7899",
+      "files": [
+        {
+          "file": "loe-consolidada.html",
+          "bytes": 1023851,
+          "sha256": "a6a93065f583f4d2b07eca4f8cee1d361138509f43466ed0d96bc364a7310a50"
+        },
+        {
+          "file": "loe-consolidada.visible.txt",
+          "bytes": 524873,
+          "sha256": "81b429f72542b2df18d1094dda01eba51fede3370c19eec191e891d281e59be1"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "ministerio2026-catalogue",
+      "url": "https://www.libreria.educacion.gob.es/libro/datos-y-cifras-curso-escolar-2026-2027_187162/",
+      "files": [
+        {
+          "file": "ministerio2026-catalogue.html",
+          "bytes": 20808,
+          "sha256": "37f6eb207141849d47939a286e083fbab7471f4bf9e346f552d89bb57b8427d3"
+        },
+        {
+          "file": "ministerio2026-catalogue.visible.txt",
+          "bytes": 2148,
+          "sha256": "a8c3d1dd93011ccb584e814dac3b3307468f046508600e21b56f2d0394ce0cf6"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "ministerio2026-data-pdf",
+      "url": "https://www.libreria.educacion.gob.es/ebook/186985/free_download/",
+      "files": [
+        {
+          "file": "ministerio2026-data-pdf.txt",
+          "bytes": 91122,
+          "sha256": "858096bbb0d1f4a45d71c7ad0f882272ec2d35ddb565be6bed1022053b975874"
+        },
+        {
+          "file": "ministerio2026-data-pdf.pdf",
+          "bytes": 2245826,
+          "sha256": "dd8286bf29ada7f507c19d94101da0f1e00821e9228031aed1250494cf550865"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "esade2024-page",
+      "url": "https://www.esade.edu/ecpol/es/publicaciones/cuotas-escuela-concertada/",
+      "files": [],
+      "errors": [
+        {
+          "name": "esade2024-page",
+          "url": "https://www.esade.edu/ecpol/es/publicaciones/cuotas-escuela-concertada/",
+          "error": "HTTP Error 403: Forbidden",
+          "downloaded": false
+        }
+      ]
+    },
+    {
+      "name": "esade2024-final",
+      "url": "https://www.esade.edu/ecpol/wp-content/uploads/2024/04/Paper_El-coste-de-acceso-a-la-escuela-concertada-en-Espana_vf.pdf",
+      "files": [],
+      "errors": [
+        {
+          "name": "esade2024-final",
+          "url": "https://www.esade.edu/ecpol/wp-content/uploads/2024/04/Paper_El-coste-de-acceso-a-la-escuela-concertada-en-Espana_vf.pdf",
+          "error": "HTTP Error 403: Forbidden",
+          "downloaded": false
+        }
+      ]
+    },
+    {
+      "name": "esade2024-mirror",
+      "url": "https://www.magisnet.com/wp-content/uploads/2024/04/informe.pdf",
+      "files": [
+        {
+          "file": "esade2024-mirror.txt",
+          "bytes": 195110,
+          "sha256": "6e71bf0ff5bfbfadf1786cf2bd9f764761023c6fe3c5a02ccec196ba6d4469e4"
+        },
+        {
+          "file": "esade2024-mirror.pdf",
+          "bytes": 1450476,
+          "sha256": "1a7e0ac58d62b016b54772f2653fba673c28fc5b2eba6ad2c24548ffc4fb25d2"
+        }
+      ],
+      "errors": []
     }
   ],
-  "warning": "Preparación en curso, no revisión completa. Archivo íntegro no implica lectura íntegra;403 y páginas soloaplicación conservados."
+  "warning": "Archivo completo no implica lectura íntegra. Fallos403yapps sin texto conservados. EsadePDFprimario obtenido del espejo; Finlandia texto oficial mediante búsqueda web, sin informe final íntegro. Alcance lectura explícito."
 }

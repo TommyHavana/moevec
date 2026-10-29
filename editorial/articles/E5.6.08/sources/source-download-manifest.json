@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-29T16:08:39.672000+00:00",
+  "checked_at": "2026-10-29T16:30:24.224084+00:00",
   "items": [
     {
       "name": "vienna-flat-types",
@@ -115,7 +115,54 @@
         }
       ],
       "errors": []
+    },
+    {
+      "name": "oecd-ahd-directory",
+      "url": "https://webfs.oecd.org/Els-com/Affordable_Housing_Database/",
+      "files": [
+        {
+          "file": "oecd-ahd-directory.visible.txt",
+          "bytes": 4507,
+          "sha256": "4f39a2ba756d6d8520cfa35d86565271e25818ab485e50ca121490e3d76b85de"
+        },
+        {
+          "file": "oecd-ahd-directory.html",
+          "bytes": 10378,
+          "sha256": "f3203fb042fae2ae6b7eb177d0621e362f6f2678e8ccdb4b8f451eb7c7013ad7"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "oecd-affordable2026",
+      "url": "https://www.oecd.org/en/publications/tackling-the-affordability-gap-through-increased-supply-of-affordable-and-social-housing_60b5a398-en/full-report.html",
+      "files": [],
+      "errors": [
+        {
+          "name": "oecd-affordable2026",
+          "url": "https://www.oecd.org/en/publications/tackling-the-affordability-gap-through-increased-supply-of-affordable-and-social-housing_60b5a398-en/full-report.html",
+          "error": "HTTP Error 403: Forbidden",
+          "downloaded": false
+        }
+      ]
+    },
+    {
+      "name": "oecd-ph3-2",
+      "url": "https://webfs.oecd.org/Els-com/Affordable_Housing_Database/PH3-2-Key-characteristics-of-housing-allowances.pdf",
+      "files": [
+        {
+          "file": "oecd-ph3-2.pdf",
+          "bytes": 1109006,
+          "sha256": "3f48d846f52ef1d614af1c42a1f63453933d917511048035b5faa446d2fb243f"
+        },
+        {
+          "file": "oecd-ph3-2.txt",
+          "bytes": 84231,
+          "sha256": "d07433fde55119a90fc7f286e34e55900148261fa326dd89a1867b5a133867e3"
+        }
+      ],
+      "errors": []
     }
   ],
-  "warning": "Preparación en curso, no revisión completa. Archivo íntegro no implica lectura íntegra;403 y páginas soloaplicación conservados."
+  "warning": "Archivo completo no implica lectura íntegra. Fallos403yapps sin texto conservados. EsadePDFprimario obtenido del espejo; Finlandia texto oficial mediante búsqueda web, sin informe final íntegro. Alcance lectura explícito."
 }

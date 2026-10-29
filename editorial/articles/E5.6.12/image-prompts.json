@@ -1,0 +1,23 @@
+{
+  "id": "E5.6.12",
+  "prompts": {
+    "featured": "Use case: stylized-concept. Original MEE editorial illustration. Premium crafted miniature, tactile paper, limestone and ceramic, cobalt blue, vermilion red and warm ivory palette. Refined directional light, subtle texture, controlled shadows. Wide landscape, essential objects within central safe crop. No text, numbers, labels, logos, watermark, flags or statistical chart. A complete wide cobalt umbrella protecting one small faceless ivory figure seated in a miniature consultation space with a vermilion chair and ivory desk, tactile ceramic editorial sculpture. The umbrella canopy, handle and full scene all fit within central65percent height with ample panorama crop margin. No medicine claims, logos, flags, symbols or real clinic.",
+    "interior-1": "Use case: stylized-concept. Original MEE editorial illustration. Premium crafted miniature, tactile paper, limestone and ceramic, cobalt blue, vermilion red and warm ivory palette. Refined directional light, subtle texture, controlled shadows. Wide landscape, essential objects within central safe crop. No text, numbers, labels, logos, watermark, flags or statistical chart. Exactly four separate ivory tactile cards laid in a clean horizontal row on warm limestone; each contains one simple different sculptural miniature: cobalt umbrella, vermilion open gate, cobalt coin split into two plain pieces, and vermilion blank clock face with two simple hands. No text, numbers, logos, labels or policy amounts. Entire row visible, generous wide landscape framing.",
+    "interior-2": "Use case: stylized-concept. Original MEE editorial illustration. Premium crafted miniature, tactile paper, limestone and ceramic, cobalt blue, vermilion red and warm ivory palette. Refined directional light, subtle texture, controlled shadows. Wide landscape, essential objects within central safe crop. No text, numbers, labels, logos, watermark, flags or statistical chart. A complete vermilion magnifying glass hovering over one open ivory insurance-style document with lines made of indistinct raised paper fibers, no legible or pseudo legible writing, cobalt folder underneath and soft directional shadows. A single cobalt paper tab marks a page edge. Entire magnifier, document and folder visible, generous safe crop margins."
+  },
+  "sources": {
+    "featured": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-143ea6e4-0337-4e72-9b01-a14e4aa64135.png",
+    "interior-1": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-ebec2542-5926-461e-9de1-b10fe1e938ba.png",
+    "interior-2": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-64838d92-43d3-4505-8576-3d8ff14b6cb6.png"
+  },
+  "tool": "builtin_image_gen",
+  "sources_are_conceptual": true,
+  "edits": [
+    {
+      "role": "interior-1",
+      "source": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-892150cd-f7d0-44aa-a1fe-63cab9ef6882.png",
+      "selected": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-ebec2542-5926-461e-9de1-b10fe1e938ba.png",
+      "prompt": "Edit only framing of this four-card editorial illustration. Zoom out by 25 percent and extend the same warm ivory limestone background around the entire row, preserving exactly the same four complete ivory cards and their cobalt umbrella, vermilion gate, split cobalt disc and vermilion clock. All four cards including outer edges must remain well inside the central 75 percent of width and central 65 percent of height for a safe 1600x900 landscape crop. Preserve materials, lighting, colors and order. No text, digits, logos or extra cards."
+    }
+  ]
+}

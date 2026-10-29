@@ -1,0 +1,29 @@
+{
+  "id": "E5.6.13",
+  "prompts": {
+    "featured": "Use case: stylized-concept. Original MEE editorial illustration. Premium crafted miniature, tactile paper, limestone and ceramic, cobalt blue, vermilion red and warm ivory palette. Refined directional light, subtle texture, controlled shadows. Wide landscape, essential objects within central safe crop. No text, numbers, labels, logos, watermark, flags or statistical chart. A complete invented warm ivory neighborhood service building with cobalt balconies and vermilion doors around a small courtyard; a simple circular ceramic emblem of two joined abstract hands above the entrance, no text or real brand. Several small faceless figures approach along open paths. All rooftops and emblem within central65percent height with ample panoramic margins.",
+    "interior-1": "Use case: stylized-concept. Original MEE editorial illustration. Premium crafted miniature, tactile paper, limestone and ceramic, cobalt blue, vermilion red and warm ivory palette. Refined directional light, subtle texture, controlled shadows. Wide landscape, essential objects within central safe crop. No text, numbers, labels, logos, watermark, flags or statistical chart. One large complete open cobalt community storage box on a warm limestone table, several large simple ivory and vermilion keys attached to separate blank loops arranged in a ring around it. No locks imprisoning anyone, money values, writing or logos. All box corners, lid and keys safely in central crop, wide editorial still life.",
+    "interior-2": "Use case: stylized-concept. Original MEE editorial illustration. Premium crafted miniature, tactile paper, limestone and ceramic, cobalt blue, vermilion red and warm ivory palette. Refined directional light, subtle texture, controlled shadows. Wide landscape, essential objects within central safe crop. No text, numbers, labels, logos, watermark, flags or statistical chart. One complete sculptural freestanding ivory doorway with both cobalt door panels wide open, a broad vermilion path passing through in both directions with two small faceless ceramic figures at opposite ends. Warm daylight and visible unobstructed passage. Full lintel and ground with ample landscape safe margins, no text or arrows."
+  },
+  "sources": {
+    "featured": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-b8542065-e4b0-47dc-a05e-0ee41c24f6d8.png",
+    "interior-1": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-db594a73-2ece-476e-862c-38b91e8cf6ea.png",
+    "interior-2": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-54badb3a-cac6-437a-bd0c-d2f7e95a73d4.png"
+  },
+  "tool": "builtin_image_gen",
+  "sources_are_conceptual": true,
+  "edits": [
+    {
+      "role": "interior-1",
+      "source": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-e0f90575-0827-4235-9503-b83ba9bf0321.png",
+      "selected": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-db594a73-2ece-476e-862c-38b91e8cf6ea.png",
+      "prompt": "Change only framing. Zoom out this open blue community box and six ivory and red keys by 30 percent, extending the same warm limestone table around them. Preserve the exact existing box, complete open lid, all six keys, materials, colors and lighting. Every key tip, all box corners and the entire lid must fit comfortably within the central 65 percent of height and central 75 percent of width, safe for a wide 1600x900 crop. No new objects, no text or labels."
+    },
+    {
+      "role": "interior-2",
+      "source": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-428ee139-8ead-43ac-84f2-2f80d2fde239.png",
+      "selected": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-54badb3a-cac6-437a-bd0c-d2f7e95a73d4.png",
+      "prompt": "Change only framing. Zoom out the open cobalt double door and ivory stone doorway by 25 percent, extending the existing coastal landscape around it. Preserve the doorway architecture, both open blue panels, red path and two small faceless figures. Include the entire upper lintel with clear sky margin and the full doorway ground inside the central 65 percent of image height, safe for a wide 1600x900 crop. Same materials, colors and light. No new people, no words or labels."
+    }
+  ]
+}

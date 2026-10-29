@@ -449,3 +449,23 @@ Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobad
 Siguiente **232–234 / E5.6.07–E5.6.09**, Capitalismo Consciente → Servicios Sociales. Preparaciones incluidas en las 609 pendientes. E5.6.07: 3/3 imágenes locales; sin texto final, sin publicación; E5.6.08: 3/3 imágenes locales; sin texto final, sin publicación; E5.6.09: 3/3 imágenes locales; sin texto final, sin publicación. Después 235–237. Automatización activa, sin agotamiento comunicado.
 
 Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 232–234 · 29/10/2026
+
+234/840 terminadas, 702 imágenes originales públicas, 0 en curso o borradores WordPress y 606 pendientes.
+
+232: LODE y LOE vigentes, matrícula 2024–2025 en publicación 2026 y estudio de cuotas de 2019/20 con método explícito, sin ratio de coste no comparable. 233: Viena municipal y cooperativa diferenciadas, ayudas OCDE con fecha y reforma de San Francisco 1994 con beneficios y respuesta de propietarios afectados. 234: impuesto negativo, UBI y ensayos distintos; Finlandia 2017–2018 y Kenia con resultados a dos años, sin fingir doce años observados o financiación nacional probada.
+
+Siguiente **235–237 / E5.6.10–E5.6.12**, Capitalismo Consciente → Servicios Sociales. Preparaciones incluidas en las 606 pendientes. E5.6.10: 2/3 imágenes locales; sin texto final, sin publicación; E5.6.11: 2/3 imágenes locales; sin texto final, sin publicación; E5.6.12: 1/3 imágenes locales; sin texto final, sin publicación. Después 238–240. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 235–237 · 29/10/2026
+
+237/840 terminadas, 711 imágenes originales públicas, 0 en curso o borradores WordPress y 603 pendientes.
+
+235: panel estadounidense de donaciones y captación con periodo y método; GiveWell como evaluación con estimaciones, Cáritas como relato atribuido del ejecutor. 236: dotación médica2021 de la tabla OCDE2026, mortalidad2024 y2025, OPSmarzo2026 y comentario crítico2018 con alcance histórico. Sin cifras de éxodo no verificadas. 237: modalidades nacionales y conceptos diferenciados, información educativa sin recomendación de póliza o cambios de cobertura.
+
+Siguiente **238–240 / E5.6.13–E5.6.15**, Capitalismo Consciente → Servicios Sociales. Preparaciones incluidas en las 603 pendientes. E5.6.13: 3/3 imágenes locales; sin texto final, sin publicación; E5.6.14: 3/3 imágenes locales; sin texto final, sin publicación; E5.6.15: 3/3 imágenes locales; sin texto final, sin publicación. Después 241–243. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.

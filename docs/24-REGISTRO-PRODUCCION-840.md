@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-29T16:00:57+00:00.
+Comprobado en WordPress: 2026-10-29T16:49:10+00:00.
 
-**231/840 terminadas · 0 en curso · 609 pendientes.**
+**237/840 terminadas · 0 en curso · 603 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -243,12 +243,12 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 229 | 16/56 · 4/15 | E5.6.04 | Sanidad en Suiza: seguro obligatorio y aseguradoras privadas | terminada | 3/3 | [Leer](https://moevec.org/blog/sanidad-en-suiza/) |
 | 230 | 16/56 · 5/15 | E5.6.05 | Singapur: vivienda propia y ahorro obligatorio | terminada | 3/3 | [Leer](https://moevec.org/blog/singapur-vivienda-y-ahorro/) |
 | 231 | 16/56 · 6/15 | E5.6.06 | Pensiones: modelos comparados en el mundo | terminada | 3/3 | [Leer](https://moevec.org/blog/pensiones-modelos-comparados/) |
-| 232 | 16/56 · 7/15 | E5.6.07 | Educación concertada en España: un modelo mixto | pendiente | 0/3 | — |
-| 233 | 16/56 · 8/15 | E5.6.08 | Vivienda social: modelos que funcionan y modelos que fracasan | pendiente | 0/3 | — |
-| 234 | 16/56 · 9/15 | E5.6.09 | Renta básica universal: el debate desde la libertad | pendiente | 0/3 | — |
-| 235 | 16/56 · 10/15 | E5.6.10 | Caridad, filantropía y Estado: ¿quién ayuda mejor? | pendiente | 0/3 | — |
-| 236 | 16/56 · 11/15 | E5.6.11 | Sanidad en Cuba: logros, datos y realidad cotidiana | pendiente | 0/3 | — |
-| 237 | 16/56 · 12/15 | E5.6.12 | Seguros de salud privados en América Latina: guía para entenderlos | pendiente | 0/3 | — |
+| 232 | 16/56 · 7/15 | E5.6.07 | Educación concertada en España: un modelo mixto | terminada | 3/3 | [Leer](https://moevec.org/blog/educacion-concertada-espana/) |
+| 233 | 16/56 · 8/15 | E5.6.08 | Vivienda social: modelos que funcionan y modelos que fracasan | terminada | 3/3 | [Leer](https://moevec.org/blog/vivienda-social-modelos/) |
+| 234 | 16/56 · 9/15 | E5.6.09 | Renta básica universal: el debate desde la libertad | terminada | 3/3 | [Leer](https://moevec.org/blog/renta-basica-universal-debate/) |
+| 235 | 16/56 · 10/15 | E5.6.10 | Caridad, filantropía y Estado: ¿quién ayuda mejor? | terminada | 3/3 | [Leer](https://moevec.org/blog/caridad-filantropia-estado/) |
+| 236 | 16/56 · 11/15 | E5.6.11 | Sanidad en Cuba: logros, datos y realidad cotidiana | terminada | 3/3 | [Leer](https://moevec.org/blog/sanidad-en-cuba/) |
+| 237 | 16/56 · 12/15 | E5.6.12 | Seguros de salud privados en América Latina: guía para entenderlos | terminada | 3/3 | [Leer](https://moevec.org/blog/seguros-salud-privados-latam/) |
 | 238 | 16/56 · 13/15 | E5.6.13 | Cooperativas de servicios y mutuas hoy: alternativas comunitarias | pendiente | 0/3 | — |
 | 239 | 16/56 · 14/15 | E5.6.14 | Cuánto cuestan de verdad los servicios «gratuitos» | pendiente | 0/3 | — |
 | 240 | 16/56 · 15/15 | E5.6.15 | Una propuesta MEE de red de protección: principios | pendiente | 0/3 | — |

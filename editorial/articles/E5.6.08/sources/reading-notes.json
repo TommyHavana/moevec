@@ -1,18 +1,63 @@
 {
-  "checked_at": "2026-10-29T16:08:39.672000+00:00",
-  "id": "E5.6.08",
-  "full_sources_review_complete": false,
-  "read": [
-    "Brief original y diseño de nueve recursos del bloque.",
-    "AER2019 ficha y resumen final leídos; autorPDF4/3/2019 archivado y resumen leído. Cambio de ley1994 en SanFrancisco, beneficios a inquilinos protegidos y reducción15%oferta de propietarios tratados, no todo mercado universal.",
-    "OCDE PH4.2 p1: vivienda de alquiler bajo precio de mercado con reglas específicas; seis páginas archivadas, no lectura íntegra.",
-    "Ciudad de Viena y Socialhousing: aproximadamente220000municipales y200000subvencionadas. Páginas municipales difieren50%/60%y definiciones; no elegir un porcentaje ni tratar pisos subvencionados históricos como stock social idéntico."
+  "checked_at": "2026-10-29T16:30:24.224084+00:00",
+  "primary_source_scope": [
+    {
+      "name": "OCDE, Affordable Housing Database, PH 4.2, Social rental housing stock",
+      "url": "https://webfs.oecd.org/Els-com/Affordable_Housing_Database/PH4-2-Social-rental-housing-stock.pdf",
+      "scope": "Definición y advertencias de comparabilidad p1; alquiler social con rentas inferiores a mercado y asignación no mercantil. Sin rankings ni proporciones nacionales de fechas heterogéneas."
+    },
+    {
+      "name": "OCDE, PH 3.2, Key characteristics of housing allowances, actualización 26/6/2024",
+      "url": "https://webfs.oecd.org/Els-com/Affordable_Housing_Database/PH3-2-Key-characteristics-of-housing-allowances.pdf",
+      "scope": "p1 definición y método; QuASH2023, ayuda ligada a renta/medios, composición del hogar y costes. No importes o elegibilidad individual2026. No estimación causal de traslación a precios."
+    },
+    {
+      "name": "Ciudad de Viena, Rented flat types",
+      "url": "https://www.wien.gv.at/en/housing/flat-types",
+      "scope": "Página institucional actual consultada29/10/2026: aproximadamente220000municipales y200000cooperativas; propiedad, gestión y requisitos distintos. Sin reproducir umbrales o criterios específicos como asesoramiento vigente."
+    },
+    {
+      "name": "Ciudad de Viena, The Vienna model",
+      "url": "https://socialhousing.wien/policy/the-vienna-model",
+      "scope": "Descripción institucional de oferta municipal y subvencionada. Beneficios atribuidos por administración, no evaluación causal independiente. Se omiten porcentajes de residentes incompatibles con otras páginas y definiciones."
+    },
+    {
+      "name": "Diamond, McQuade y Qian, American Economic Review 109(9),2019",
+      "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20181289",
+      "scope": "Resumen de publicación leída: extensión SanFrancisco1994, protección de residentes y reducción15%oferta de propietarios afectados. Sin confundir con15%del parque total de ciudad ni todos los controles."
+    },
+    {
+      "name": "Diamond, McQuade y Qian, versión de autores de 4/3/2019",
+      "url": "https://web.stanford.edu/~diamondr/DMQ.pdf",
+      "scope": "PDF46p archivado; resumen, diseño y datos pp7–8 y conclusión pp24–25 leídos. No lectura íntegra ni cifras de aumentos de renta de otras versiones/modelos."
+    }
   ],
-  "pending": [
-    "Leer método, resultados y conclusiones del autor2019; separar manuscritoMarzo y artículoSeptiembre. No mezclar7%preprint2017con5.1%2018y final2019.",
-    "Revisar OCDE PH4.2 completa y fuente sobre ayudasalquiler con fecha y comparabilidad; no ayuda o regla de alquiler siempre superior.",
-    "Mantener Viena como mezcla de oferta pública/subvencionada y criterios, sin causalidad de precios extraída de texto institucional.",
-    "Cruce eje7.3 solo si URL existente; redactar y revisar alcance de tesis original."
+  "full_books_read": false,
+  "omitted": [
+    "No afirmar que toda ayuda a demanda supera toda vivienda pública; oferta rígida y financiación importan.",
+    "No convertir220000municipales+200000cooperativas en420000municipales o acceso automático; no porcentajes50/60 de residentes con definiciones no conciliadas.",
+    "No llamar fracaso a todo control ni ignorar protección de inquilinos actuales observada en SanFrancisco.",
+    "15%corresponde oferta de propietarios afectados por reforma1994, no parque total ni resultado universal.",
+    "No trasladar coeficientes de modelos2017/2018 a publicación2019 ni usar aumento de alquiler agregado sin contexto.",
+    "No considerar ayudas2024 o normas de Viena asesoramiento individual vigente; informeOCDE2026con403 no leído ni citado."
   ],
-  "images": "3/3originales; revisión individual y mosaico232–234; no publicación"
+  "selected_checks": {
+    "oecd": "PH4.2p1definición y comparabilidad; PH3.2p1método/QuASH2023 actualización26/6/2024. Sin datos actuales de ayudas individuales o causalidad universal.",
+    "vienna": "PáginaCiudadactual consultada29/10/2026, aproximadamente220000municipales y200000cooperativas, propiedad y condiciones diferentes. Porcentajes50/60en páginas no conciliados se omiten; promoción institucional no estudio causal.",
+    "sanfrancisco": "AER2019resumen y autor4/3/2019PDF46p; diseño1994pp7–8, conclusión24–25. Protección de inquilinos y reducción15%oferta de PROPIETARIOS AFECTADOS, no total ciudad ni universal. No efectos sobre renta agregada de otros modelos."
+  },
+  "image_review": {
+    "tool": "builtin_image_gen",
+    "individual": true,
+    "mosaic": "/tmp/mee232-234-mosaic.png",
+    "cover": [
+      1200,
+      630
+    ],
+    "interiors": [
+      1600,
+      900
+    ],
+    "max_bytes": 250000
+  }
 }
