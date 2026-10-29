@@ -663,3 +663,23 @@ Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobad
 Siguiente **295–297 / E7.7.10–E7.7.12**, Política y Economía → Libertad de Expresión Económica. Preparaciones incluidas en las 546 pendientes. E7.7.10: 0/3 imágenes locales; sin texto final, sin publicación; E7.7.11: 0/3 imágenes locales; sin texto final, sin publicación; E7.7.12: 0/3 imágenes locales; sin texto final, sin publicación. Después 298–300. Automatización activa, sin agotamiento comunicado.
 
 Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 295–297 · 29/10/2026
+
+297/840 terminadas, 891 imágenes originales públicas, 0 en curso o borradores WordPress y 543 pendientes.
+
+295: alcance de Van Loon limitado a contratos inmutables bajo IEEPA, retirada administrativa de 2025 separada del proceso penal; órdenes primarias de agosto y septiembre de 2026, sin desenlace penal definitivo afirmado. 296: art284.1.2 con beneficio y condiciones alternativas, MAR consolidado junio2026; sin franquicia bajo umbrales ni equivalencia administrativa/penal. 297: Gacetas Venezuela2017/Nicaragua1219de2024, CIDH28oct2026 informa reforma venezolana en trámite; casos RELE2023/ACNUDH2018 con periodo y alcance, sin inventar crítica económica exclusiva.
+
+Siguiente **298–300 / E7.7.13–E7.7.15**, Política y Economía → Libertad de Expresión Económica. Preparaciones incluidas en las 543 pendientes. E7.7.13: 3/3 imágenes locales; sin texto final, sin publicación; E7.7.14: 3/3 imágenes locales; sin texto final, sin publicación; E7.7.15: 3/3 imágenes locales; sin texto final, sin publicación. Después 301–303. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 298–300 · 29/10/2026
+
+300/840 terminadas, 900 imágenes originales públicas, 0 en curso o borradores WordPress y 540 pendientes.
+
+298: caso Hong Hao2022 contrastado con CNA ySCMP originales, sin atribuir causa individual no probada; normas CAC2021/2023 ymarketing financiero2026 con ámbitos separados. 299: EFF/Tor explican capacidades distintas ylímites, sin anonimato o legalidad universal; FreedomHouse2026 no es dictamen porpaís. 300: CNMV25may2026/ESMA distinguen recomendaciónpública yasesoramientoindividual; transparencia y corrección como prácticas propuestas sin garantía jurídica.
+
+Siguiente **301–303 / E6.1.01–E6.1.03**, Economía Compartida → Definición de Economía Compartida. Preparaciones incluidas en las 540 pendientes. E6.1.01: 3/3 imágenes locales; sin texto final, sin publicación; E6.1.02: 3/3 imágenes locales; sin texto final, sin publicación; E6.1.03: 3/3 imágenes locales; sin texto final, sin publicación. Después 304–306. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.

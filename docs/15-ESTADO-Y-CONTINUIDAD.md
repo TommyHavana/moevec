@@ -2,27 +2,27 @@
 
 ## Estado actual
 
-**294/840 terminadas, 882 imágenes originales públicas, 0 en curso o borradores WordPress y 546 pendientes**. Libertad de Expresión Económica 9/15; 19 tandas completas y tanda 20 en curso.
+**300/840 terminadas, 900 imágenes originales públicas, 0 en curso o borradores WordPress y 540 pendientes**. Libertad de Expresión Económica 15/15; 20 tandas completas y tanda 20 completa.
 
 Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Desde 285: entradas 286–294, 27 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
+Desde 294: entradas 295–300, 18 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
 
 Una publicación y tres adjuntos por ID; categorías Política y Economía y Libertad de Expresión Económica, etiquetas exactas. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales y variantes comprobados. Navegación y BreadcrumbList: Blog → área → subcategoría. Taxonomía: 122 nodos, siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva o posicionamiento.
 
 ## Revisión del último bloque
 
-292: leyfrancesaconsolidadaactualizada1jul2026, art4excepcionesMiCA/5-2intencióncomercial; ESMA2024yCNMV25may2026 distinguenrecomendaciónpública/asesoramientopersonalizado, sin licenciaparacualquieropinión. 293: DSAobligacionesporcategoría,art8sindebegeneralmonitorización/19exenciones,34–35muygrandes; procedimientoBooking21oct2026noprejuzgaresultado yODSart21. 294: CBN2021segúnboletínprimario, circular22dic2023sustituyereglaanterioryconservaprohibiciónbancosporcuentapropia; actividadChainalysis2023nopoblaciónP2P, análisisFMI2025sincausalidadcambiariavalidada ycategoríaARIPSEC29oct2026.
+298: caso Hong Hao2022 contrastado con CNA ySCMP originales, sin atribuir causa individual no probada; normas CAC2021/2023 ymarketing financiero2026 con ámbitos separados. 299: EFF/Tor explican capacidades distintas ylímites, sin anonimato o legalidad universal; FreedomHouse2026 no es dictamen porpaís. 300: CNMV25may2026/ESMA distinguen recomendaciónpública yasesoramientoindividual; transparencia y corrección como prácticas propuestas sin garantía jurídica.
 
 ## Continuación exacta
 
-Siguiente **295–297 / E7.7.10–E7.7.12**, Política y Economía → Libertad de Expresión Económica. Preparaciones incluidas en las 546 pendientes. E7.7.10: 0/3 imágenes locales; sin texto final, sin publicación; E7.7.11: 0/3 imágenes locales; sin texto final, sin publicación; E7.7.12: 0/3 imágenes locales; sin texto final, sin publicación. Después 298–300. Automatización activa, sin agotamiento comunicado.
+Siguiente **301–303 / E6.1.01–E6.1.03**, Economía Compartida → Definición de Economía Compartida. Preparaciones incluidas en las 540 pendientes. E6.1.01: 3/3 imágenes locales; sin texto final, sin publicación; E6.1.02: 3/3 imágenes locales; sin texto final, sin publicación; E6.1.03: 3/3 imágenes locales; sin texto final, sin publicación. Después 304–306. Automatización activa, sin agotamiento comunicado.
 
 ## Copias y límites
 
-Respaldo VPS hasta 294: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
+Respaldo VPS hasta 300: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
 
 ## Traspaso
 
@@ -43,6 +43,8 @@ Verificación: `npm run build` con sincronización y TypeScript correctos; PHP l
 Publicación: fuente privada sincronizada y subida, commit de producto `1d84a45`. Actualización de la exportación estática en el contenedor Nginx activo y de los dos archivos WordPress, tanto en la ruta operativa como en `/opt/mee/`. No se reconstruyeron imágenes Docker ni se reiniciaron servicios; un siguiente build del repositorio incluye los cambios. Respaldo previo local completo: `../mee-backups/MEE_Codex_2026-10-29_183813.zip` (7657 archivos, integridad comprobada). Copia previa de React y de los archivos WordPress en `/data/mee-backups/apoyo-20261029T184226/`, gzip comprobado. No se ha probado una restauración arrancada de esta copia.
 
 Siguiente paso de esta petición: concretar el medio de donación y sus datos oficiales para activar pago directo. La producción editorial mantiene su continuidad independiente; esta tarea no modifica sus conteos, artículos, imágenes ni taxonomía.
+
+
 
 
 

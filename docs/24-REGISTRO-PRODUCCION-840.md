@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-29T22:21:59+00:00.
+Comprobado en WordPress: 2026-10-29T22:54:28+00:00.
 
-**294/840 terminadas · 0 en curso · 546 pendientes.**
+**300/840 terminadas · 0 en curso · 540 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -306,12 +306,12 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 292 | 20/56 · 7/15 | E7.7.07 | Los «finfluencers» y la ley | terminada | 3/3 | [Leer](https://moevec.org/blog/finfluencers-y-la-ley/) |
 | 293 | 20/56 · 8/15 | E7.7.08 | Ley de Servicios Digitales: moderación y libertad | terminada | 3/3 | [Leer](https://moevec.org/blog/ley-servicios-digitales-ue/) |
 | 294 | 20/56 · 9/15 | E7.7.09 | Nigeria y las criptomonedas: prohibición bancaria y marcha atrás | terminada | 3/3 | [Leer](https://moevec.org/blog/nigeria-criptomonedas/) |
-| 295 | 20/56 · 10/15 | E7.7.10 | Código abierto sancionado: el caso Tornado Cash | pendiente | 0/3 | — |
-| 296 | 20/56 · 11/15 | E7.7.11 | Difundir rumores financieros: dónde está el delito | pendiente | 0/3 | — |
-| 297 | 20/56 · 12/15 | E7.7.12 | Leyes contra el «odio» y la «desestabilización»: riesgos para la crítica económica | pendiente | 0/3 | — |
-| 298 | 20/56 · 13/15 | E7.7.13 | China: comentaristas financieros y límites al pesimismo | pendiente | 0/3 | — |
-| 299 | 20/56 · 14/15 | E7.7.14 | Proteger tu derecho a informarte: herramientas y límites legales | pendiente | 0/3 | — |
-| 300 | 20/56 · 15/15 | E7.7.15 | Guía para crear contenido económico sin problemas legales | pendiente | 0/3 | — |
+| 295 | 20/56 · 10/15 | E7.7.10 | Código abierto sancionado: el caso Tornado Cash | terminada | 3/3 | [Leer](https://moevec.org/blog/tornado-cash-sanciones/) |
+| 296 | 20/56 · 11/15 | E7.7.11 | Difundir rumores financieros: dónde está el delito | terminada | 3/3 | [Leer](https://moevec.org/blog/rumores-financieros-delito/) |
+| 297 | 20/56 · 12/15 | E7.7.12 | Leyes contra el «odio» y la «desestabilización»: riesgos para la crítica económica | terminada | 3/3 | [Leer](https://moevec.org/blog/leyes-odio-desestabilizacion/) |
+| 298 | 20/56 · 13/15 | E7.7.13 | China: comentaristas financieros y límites al pesimismo | terminada | 3/3 | [Leer](https://moevec.org/blog/china-comentaristas-financieros/) |
+| 299 | 20/56 · 14/15 | E7.7.14 | Proteger tu derecho a informarte: herramientas y límites legales | terminada | 3/3 | [Leer](https://moevec.org/blog/proteger-derecho-a-informarte/) |
+| 300 | 20/56 · 15/15 | E7.7.15 | Guía para crear contenido económico sin problemas legales | terminada | 3/3 | [Leer](https://moevec.org/blog/guia-contenido-economico-legal/) |
 | 301 | 21/56 · 1/15 | E6.1.01 | Qué es la economía compartida según MEE | pendiente | 0/3 | — |
 | 302 | 21/56 · 2/15 | E6.1.02 | Economía compartida, colaborativa y de plataformas: diferencias | pendiente | 0/3 | — |
 | 303 | 21/56 · 3/15 | E6.1.03 | Compartir no es colectivizar: la línea roja | pendiente | 0/3 | — |
