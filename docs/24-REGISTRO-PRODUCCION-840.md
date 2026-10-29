@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-29T09:07:24+00:00.
+Comprobado en WordPress: 2026-10-29T09:48:28+00:00.
 
-**183/840 terminadas · 0 en curso · 657 pendientes.**
+**189/840 terminadas · 0 en curso · 651 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -195,12 +195,12 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 181 | 13/56 · 1/15 | E1.2.01 | Responsabilidad personal: lo que depende de ti y lo que no | terminada | 3/3 | [Leer](https://moevec.org/blog/responsabilidad-lo-que-depende-de-ti/) |
 | 182 | 13/56 · 2/15 | E1.2.02 | Por qué la responsabilidad es un valor económico (y no solo moral) | terminada | 3/3 | [Leer](https://moevec.org/blog/responsabilidad-valor-economico/) |
 | 183 | 13/56 · 3/15 | E1.2.03 | Culpa, excusa y responsabilidad: tres formas de reaccionar a un fracaso | terminada | 3/3 | [Leer](https://moevec.org/blog/culpa-excusa-responsabilidad/) |
-| 184 | 13/56 · 4/15 | E1.2.04 | Responsabilidad y libertad: por qué no puede existir una sin la otra | pendiente | 0/3 | — |
-| 185 | 13/56 · 5/15 | E1.2.05 | Cumplir lo que prometes: la reputación como capital invisible | pendiente | 0/3 | — |
-| 186 | 13/56 · 6/15 | E1.2.06 | Responsabilidad financiera: el presupuesto como acto de libertad | pendiente | 0/3 | — |
-| 187 | 13/56 · 7/15 | E1.2.07 | Riesgo moral: qué pasa cuando otros pagan tus errores | pendiente | 0/3 | — |
-| 188 | 13/56 · 8/15 | E1.2.08 | «Jugarse la piel»: por qué debe decidir quien asume las consecuencias | pendiente | 0/3 | — |
-| 189 | 13/56 · 9/15 | E1.2.09 | Victimismo y agencia: cómo cambia una sociedad según la historia que se cuenta | pendiente | 0/3 | — |
+| 184 | 13/56 · 4/15 | E1.2.04 | Responsabilidad y libertad: por qué no puede existir una sin la otra | terminada | 3/3 | [Leer](https://moevec.org/blog/responsabilidad-y-libertad/) |
+| 185 | 13/56 · 5/15 | E1.2.05 | Cumplir lo que prometes: la reputación como capital invisible | terminada | 3/3 | [Leer](https://moevec.org/blog/reputacion-capital-invisible/) |
+| 186 | 13/56 · 6/15 | E1.2.06 | Responsabilidad financiera: el presupuesto como acto de libertad | terminada | 3/3 | [Leer](https://moevec.org/blog/responsabilidad-financiera-presupuesto/) |
+| 187 | 13/56 · 7/15 | E1.2.07 | Riesgo moral: qué pasa cuando otros pagan tus errores | terminada | 3/3 | [Leer](https://moevec.org/blog/riesgo-moral-otros-pagan-tus-errores/) |
+| 188 | 13/56 · 8/15 | E1.2.08 | «Jugarse la piel»: por qué debe decidir quien asume las consecuencias | terminada | 3/3 | [Leer](https://moevec.org/blog/jugarse-la-piel/) |
+| 189 | 13/56 · 9/15 | E1.2.09 | Victimismo y agencia: cómo cambia una sociedad según la historia que se cuenta | terminada | 3/3 | [Leer](https://moevec.org/blog/victimismo-y-agencia/) |
 | 190 | 13/56 · 10/15 | E1.2.10 | Responsabilidad en la empresa: dueños, gerentes y la tentación de no responder | pendiente | 0/3 | — |
 | 191 | 13/56 · 11/15 | E1.2.11 | Responsabilidad y Estado de bienestar: el debate en España | pendiente | 0/3 | — |
 | 192 | 13/56 · 12/15 | E1.2.12 | Pequeños negocios en Cuba: responsabilidad sin red | pendiente | 0/3 | — |
