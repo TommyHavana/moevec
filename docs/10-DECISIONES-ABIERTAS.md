@@ -205,3 +205,11 @@ Original público Civismo 2026 >100MiB conservado fuera de Git en mee-backups/re
 Se conservaron las distinciones entre indicadores de inflación; retención y cuota; presupuesto y ejecución; privación singular y cambio de dueño; reclamación certificada y pago; sentencia, apelación y petición de revisión; renta, producción y reservas. Fuentes y límites documentados en estado 15 y expedientes. Sin totales nacionales ni causalidad exclusiva inventados.
 
 142–144: briefs y preguntas preparados, 0/3 imágenes cada una, sin texto final ni publicación. Autorización y automatización continuas, sin nuevas aprobaciones ni cambios de arquitectura. No se ha comunicado agotamiento de herramientas.
+
+## Producción 142–147 y continuación 148–150 · 29/10/2026
+
+147/840 completas, 441 imágenes públicas, 0 en curso/borradores WordPress y 693 pendientes. Dos bloques, seis artículos y 18 originales; taxonomía intacta de 122 nodos y siete raíces, sin Editorial. Respaldos proporcionales con hashes y miembros verificados, sin nueva prueba de arranque de restauración completa.
+
+Decisiones: grupos y anuncios distintos de parque total; Japón trece zonas y Houston con normas; LEC cinco días de requerimiento no duración total; CP 245.2 con delitos leves. Normas cubanas de 2011 históricas y rangos diferenciados. México: dominio directo distinto de derechos de fideicomiso, sin promesas de canal o plazo ante aviso SRE ambiguo. Renovables: fallo STC distinto del voto particular; primer Eiser anulado, nuevo laudo de 2025 y segunda anulación pendiente en 2026; registro UKSC no equivale a cobro. Alcances y fuentes en expedientes y estado 15.
+
+148–150 preparados con briefs y preguntas, 0/3 imágenes cada una, sin texto final ni publicación. Autorización y automatización vigentes; sin nuevas aprobaciones ni cambios de arquitectura. Sin agotamiento de herramientas comunicado.

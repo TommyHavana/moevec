@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-29T04:34:49+00:00.
+Comprobado en WordPress: 2026-10-29T05:13:39+00:00.
 
-**141/840 terminadas · 0 en curso · 699 pendientes.**
+**147/840 terminadas · 0 en curso · 693 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -153,12 +153,12 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 139 | 10/56 · 4/15 | E7.3.04 | Bolivia: la nacionalización de los hidrocarburos (2006) | terminada | 3/3 | [Leer](https://moevec.org/blog/bolivia-nacionalizacion-hidrocarburos/) |
 | 140 | 10/56 · 5/15 | E7.3.05 | Venezuela: expropiaciones y arbitrajes internacionales | terminada | 3/3 | [Leer](https://moevec.org/blog/venezuela-expropiaciones-arbitrajes/) |
 | 141 | 10/56 · 6/15 | E7.3.06 | Zimbabue: reforma agraria e hiperinflación | terminada | 3/3 | [Leer](https://moevec.org/blog/zimbabue-reforma-agraria/) |
-| 142 | 10/56 · 7/15 | E7.3.07 | Control de alquileres: Berlín, San Francisco y España | pendiente | 0/3 | — |
-| 143 | 10/56 · 8/15 | E7.3.08 | Zonificación: por qué Tokio construye y otras ciudades no | pendiente | 0/3 | — |
-| 144 | 10/56 · 9/15 | E7.3.09 | Ocupación ilegal de viviendas: qué dice la ley en España | pendiente | 0/3 | — |
-| 145 | 10/56 · 10/15 | E7.3.10 | Cuba: cuando vender tu casa o tu coche estaba prohibido | pendiente | 0/3 | — |
-| 146 | 10/56 · 11/15 | E7.3.11 | México: la zona restringida para extranjeros | pendiente | 0/3 | — |
-| 147 | 10/56 · 12/15 | E7.3.12 | España y las renovables: cuando la ley cambió con efectos hacia atrás | pendiente | 0/3 | — |
+| 142 | 10/56 · 7/15 | E7.3.07 | Control de alquileres: Berlín, San Francisco y España | terminada | 3/3 | [Leer](https://moevec.org/blog/control-de-alquileres-evidencia/) |
+| 143 | 10/56 · 8/15 | E7.3.08 | Zonificación: por qué Tokio construye y otras ciudades no | terminada | 3/3 | [Leer](https://moevec.org/blog/zonificacion-tokio/) |
+| 144 | 10/56 · 9/15 | E7.3.09 | Ocupación ilegal de viviendas: qué dice la ley en España | terminada | 3/3 | [Leer](https://moevec.org/blog/ocupacion-ilegal-espana/) |
+| 145 | 10/56 · 10/15 | E7.3.10 | Cuba: cuando vender tu casa o tu coche estaba prohibido | terminada | 3/3 | [Leer](https://moevec.org/blog/cuba-prohibicion-compraventa/) |
+| 146 | 10/56 · 11/15 | E7.3.11 | México: la zona restringida para extranjeros | terminada | 3/3 | [Leer](https://moevec.org/blog/mexico-zona-restringida/) |
+| 147 | 10/56 · 12/15 | E7.3.12 | España y las renovables: cuando la ley cambió con efectos hacia atrás | terminada | 3/3 | [Leer](https://moevec.org/blog/espana-renovables-retroactividad/) |
 | 148 | 10/56 · 13/15 | E7.3.13 | Corralito y estatización de las AFJP: el ahorro que cambió de dueño | pendiente | 0/3 | — |
 | 149 | 10/56 · 14/15 | E7.3.14 | Expropiación indirecta y arbitraje internacional: qué protege a un inversor | pendiente | 0/3 | — |
 | 150 | 10/56 · 15/15 | E7.3.15 | Cómo proteger tu propiedad: títulos, registro y seguros | pendiente | 0/3 | — |

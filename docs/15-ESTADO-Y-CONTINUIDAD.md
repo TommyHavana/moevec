@@ -1,51 +1,46 @@
 # Estado de MEE y continuidad · 29/10/2026 · Europe/Madrid
 
-## Estado actual: 141/840 publicadas y verificadas
+## Estado actual: 147/840 publicadas y verificadas
 
-WordPress confirma **141 terminadas, 423 imágenes originales públicas, 0 en curso/borradores y 699 pendientes**. Nueve tandas completas. Impuestos y Redistribución tiene 15/15 y Propiedad Privada y Expropiación 6/15, tanda 10/56.
+WordPress confirma **147 terminadas, 441 imágenes originales públicas, 0 en curso/borradores y 693 pendientes**. Nueve tandas completas. Impuestos y Redistribución 15/15; Propiedad Privada y Expropiación 12/15, tanda 10/56.
 
 Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Tres bloques consecutivos: **133–135 / E7.2.13–15, 136–138 / E7.3.01–03 y 139–141 / E7.3.04–06**. Nueve artículos y 27 WebP originales. Texto, fuentes, alcance de lectura, revisión, prompts, imágenes y evidencias por ID en editorial/articles/. Informes y respaldos en docs/produccion/2026-10-29-*.md.
+Dos bloques consecutivos: **142–144 / E7.3.07–09 y 145–147 / E7.3.10–12**. Seis artículos y 18 WebP originales. Expedientes con texto, fuentes, alcance de lectura, revisión, prompts, imágenes y evidencias por ID en editorial/articles/. Informes y respaldos fechados en docs/produccion/.
 
-Una publicación y tres adjuntos por ID. Categorías y etiquetas exactas: Blog → Política y Economía → Impuestos y Redistribución para 133–135; → Propiedad Privada y Expropiación para 136–141. Blog es contenedor y Editorial es firma. Auditoría actual: 122 nodos y siete raíces, sin Editorial ni Uncategorized. La taxonomía permanece intacta.
+Una publicación y tres adjuntos por ID, categorías y etiquetas exactas. Jerarquía visible y BreadcrumbList: Blog → Política y Economía → Propiedad Privada y Expropiación. Blog es contenedor y Editorial es firma. Auditoría actual: 122 nodos y siete raíces, sin Editorial ni Uncategorized. La taxonomía permanece intacta.
 
-HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces internos, navegación/BreadcrumbList, imágenes originales/variantes y hashes comprobados. Registro MD/CSV/JSON sincronizado desde WordPress tras cada publicación. Esto no prueba indexación efectiva ni posición en buscadores.
+HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces internos, originales/variantes con dimensiones, alt y hashes comprobados. Registro MD/CSV/JSON desde WordPress tras cada publicación. No prueba indexación efectiva ni posición en buscadores.
 
 ## Decisiones de revisión
 
-- Inflación: WEO de octubre de 2026, promedio anual de 2018 separado de fin de año y previsiones. Señoreaje e impuesto inflacionario distintos; petróleo y sanciones sin causalidad exclusiva. Cagan mediante pasajes originales, sin fingir libro completo.
-- Nómina: retención como anticipo, países y ejercicios diferenciados, tipos hipotéticos identificados. Presupuestos: aprobado, modificado y ejecutado separados; PTE en pte.gov.co. OBS 2025 publicado en junio de 2026.
-- Propiedad: la LEF comprende privación singular más amplia que transmisión dominical y una secuencia específica de ocupación urgente. Mahon de 1922 es un antecedente estadounidense.
-- Cuba: FCSC reconoce 5.911 reclamaciones en el primer programa y dos en el segundo; 5.913 en conjunto. Certificar no equivale a pagar. La carta cubana A/50/211 expresa una posición de parte, no un fallo de la ONU.
-- YPF: compensación a Repsol distinta del pleito Petersen/Eton Park. Apelación de 27/03/2026 revoca la condena contractual y confirma decisiones favorables a YPF. Expediente 26-442: petición de 30/09, plazo de respuesta ampliado el 22/10 hasta 02/12/2026; sin admisión del fondo. Orden de Preska de 19/10 omitida al no localizar un documento primario.
-- Bolivia: decreto original escaneado leído visualmente. El 82% es transitorio y para determinados campos. YPFB 2025, páginas 6 y 10 inspeccionadas: gas de 51,54 MMmcd en 2018 y 27,34 en 2025. Renta, producción, reservas y recursos distintos; 3,7 TCF ajustados por consumo no son una certificación nueva terminada. TCF significa 10¹² pies cúbicos.
-- Venezuela: CANTV mediante ofertas; ConocoPhillips, 8.700 millones corregidos a 8.500 millones de dólares, más intereses. Anulación concluida el 22/01/2025; informe empresarial hasta junio de 2026. CIADI, CCI y cobro separados. Agroinsumos con decisión de anulación de 09/04/2025, sin fundamentos publicados suficientes para cuantificar. Sin total nacional de empresas inventado.
-- Zimbabue: Hanke/Kwok estiman 79.600 millones por ciento mensual en noviembre de 2008; no es tasa anual u oficial. Masvingo conserva alcance local. El sistema monetario de 2009 no describe el régimen de 2026.
+- 142: San Francisco, 15 % de oferta del grupo tratado, no de toda la ciudad; beneficios de permanencia incluidos. Berlín, anuncios y corto plazo; nulidad por competencia, no prueba económica. España: Ley 12/2023, LAU y RDL 29/2026 con fechas; no convalidación no acreditada. 143: Japón tiene trece categorías según MLIT; el folleto histórico de 2014 enumera doce y no se usa como dato actual. Houston mantiene normas sin zonificación formal. Glaeser/Gyourko estudian Estados Unidos; Koizumi, Shimizu y Okata mediante resumen identificado, sin fingir artículo completo. Sin clasificación mundial ni cifras comparativas no verificadas. 144: CP 202/245, LEC 250/441 y Circular 1/2025; 245.2 conserva delitos leves. Cinco días de requerimiento no son duración total. RDL 29/2026 con condiciones; datos de Murcia identificados como regionales y de Interior de 2023 como respuesta histórica. Sin totales nacionales actuales no verificados.
 
-Alcance y problemas de acceso por ID. Descargar no implica lectura íntegra. YPFB se recuperó tras el primer timeout y quedó archivado. Algunos textos se leyeron mediante pasajes primarios indexados; esos límites se conservan. Dos ejemplos hipotéticos por artículo, argumento contrario, lectura de MEE, tres FAQ y enlaces existentes.
+- 145: originales de Gaceta 31 y 35 de 2011, en reproducciones de documentos primarios con alojamiento identificado. DL 288 y Decreto 292, rangos distintos; vivienda personal, permutas y excepciones diferenciadas. No reglas históricas como vigentes en 2026 ni cifras informales inventadas. 146: Constitución mexicana art. 27, franjas de 100 km de frontera y 50 km de playas; LIE 10–14, dominio directo distinto de uso y aprovechamiento vía fideicomiso; máximo de 50 años prorrogable a solicitud. Aviso SRE mezclado con instrucciones electrónicas: no canal ni plazo operativo prometido. Canadá con excepciones, no franja equivalente. 147: STC 270/2015 no declaró retroactividad constitucional prohibida; voto particular separado. Antin: laudo de 2018, anulación rechazada en 2021 y decisión europea de ayudas en 2025. Eiser: laudo de 2017 anulado, nuevo laudo de 16/10/2025 y segunda anulación registrada en febrero de 2026, pendiente con última actuación 16/10/2026. UKSC 9 de 04/03/2026 sobre registro e inmunidad jurisdiccional, sin probar cobro ni eliminar inmunidad de ejecución. No agregado de condenas o intereses inventado.
+
+Alcance y problemas de acceso documentados por ID. Un PDF descargado no implica lectura íntegra. Los resúmenes o pasajes consultados se identifican; no hay afirmaciones apoyadas en documentos vacíos. Dos ejemplos hipotéticos, argumento contrario, lectura de MEE, tres FAQ y cinco enlaces internos existentes por artículo.
 
 ## Continuación exacta
 
-**142–144 / E7.3.07–09**: control de alquileres; zonificación; ocupación ilegal de viviendas en España. Briefs, etiquetas y preguntas preparados. **0/3 imágenes cada una, sin texto final ni publicación**. Son tres preparaciones locales incluidas en las 699 pendientes; 696 sin iniciar. Después, 145–147.
+**148–150 / E7.3.13–15**: corralito y AFJP; expropiación indirecta y arbitraje; cómo proteger la propiedad. Briefs, etiquetas y preguntas preparados. **0/3 imágenes cada una, sin texto final ni publicación**. Son tres preparaciones incluidas en las 693 pendientes; 690 sin iniciar. Después, 151–153 / E7.4.01–03, Inversión y Capital.
 
-142: Berlín, Diamond/McQuade/Qian y legislación/zonas españolas vigentes, sin extrapolar la población estudiada. 143: Glaeser/Gyourko y fuente japonesa atribuida; Houston sin zonificación convencional no implica ausencia de regulación. 144: Código Penal 202/245, Ley 5/2018 y reformas posteriores; datos Interior/CGPJ con cobertura, sin plazos universales ni desalojo por cuenta propia.
+148: separar corralito de 2001, pesificación de 2002 y AFJP de 2008; normas originales, BCRA y ANSES/FGS, sin pérdidas universales inventadas. 149: última estadística CIADI con universo, consentimiento y estándares diferenciados; verificar retiros y retornos, no lista histórica como estado actual. 150: registros y documentos por jurisdicción, seguros con exclusiones y expropiación sin plazos universales.
 
 ## Copias y límites
 
-Tres respaldos VPS proporcionales hasta 135, 138 y 141, con SQL completo y 66 archivos nuevos cada uno. Hashes y miembros comprobados. Restaurar la base de 27 entradas del 20261028 y todas las superposiciones hasta 141; importar el SQL más reciente al final. No nueva prueba de arranque de restauración completa. Copia local y fuente privada en production-state.json e informes de respaldo.
+Dos respaldos VPS consistentes hasta 144 y 147, cada uno con SQL completo y 66 archivos nuevos. Hashes y miembros verificados. Restaurar base de 27 entradas del 20261028 y todas las superposiciones hasta 147; importar el SQL más reciente al final. Sin nueva prueba de arranque de restauración completa. Copia local y fuente privada en production-state.json e informes de respaldo.
 
-Original Civismo 2026 mayor de 100 MiB conservado aparte en mee-backups/research-originals. Ubicación/SHA en E7.2.04/sources/original-source-location.json; páginas pertinentes completas y texto en expediente. No se modifica ni se incorpora a Git en esta ejecución.
+Original Civismo 2026 mayor de 100 MiB conservado aparte en mee-backups/research-originals. Ubicación y SHA en E7.2.04/sources/original-source-location.json; páginas pertinentes y texto en expediente. Conservar ese original junto a las copias de código.
 
-No se ha comunicado agotamiento de imágenes ni un bloqueo que requiera intervención. La automatización permanece activa; el plan de 840 sigue en producción.
+No se ha comunicado agotamiento de imágenes ni bloqueo que requiera intervención. La automatización permanece activa para retomar el punto guardado; el plan de 840 continúa en producción.
 
 ## Autorización y traspaso
 
-PETICIÓN ACTIVA: producción continua hasta 840, sin confirmaciones entre bloques. TERMINADO: 133–141 y 27 imágenes con verificación pública, registros y respaldos. PENDIENTE: 699 entradas, empezando 142–144. DECISIONES NUEVAS: límites y precisión de las fuentes anteriores; sin cambios de requisitos o arquitectura. PROPUESTAS SIN APROBAR: ninguna nueva. BLOQUEO REAL: ninguno que requiera al fundador. AUDITORÍA: encargada el 28/10/2026 y documentada en 22; esta ejecución corresponde a producción editorial.
+PETICIÓN ACTIVA: producción continua hasta 840, sin confirmación entre bloques. TERMINADO: 142–147 y 18 imágenes, verificación pública, registros y respaldos. PENDIENTE: 693 entradas desde 148. DECISIONES NUEVAS: precisión y límites de fuentes anteriores, sin cambios de requisitos o arquitectura. PROPUESTAS SIN APROBAR: ninguna nueva. BLOQUEO REAL: ninguno que requiera al fundador. AUDITORÍA: integral encargada el 28/10/2026 y documentada en 22; esta ejecución es editorial.
 
-SIGUIENTE PASO: consultar WordPress y reanudar 142–144 sin duplicar artículos ni medios. ARCHIVOS PARA RETOMAR: AGENTS.md, docs/26-PRODUCCION-CONTINUA.md, este estado, backlog 16, registro 24, editorial/production-state.json, plan original y briefs del bloque. La fuente privada conserva expedientes y registros, sin secretos. No hace falta nuevo chat ni otra automatización.
+SIGUIENTE PASO: consultar WordPress y reanudar 148–150 sin duplicar artículos ni medios. ARCHIVOS: AGENTS.md, docs/26-PRODUCCION-CONTINUA.md, estado 15, backlog 16, registro 24, editorial/production-state.json, plan original y briefs. La fuente privada guarda expedientes y registros sin secretos. No hace falta otro chat ni automatización.
 
 Sin cambios de DNS, correo, autenticación, tema o taxonomía, ni despliegue React por contenido.
 

@@ -1,0 +1,4768 @@
+NBER WORKING PAPER SERIES
+THE EFFECTS OF RENT CONTROL EXPANSION ON TENANTS, LANDLORDS, AND INEQUALITY:
+EVIDENCE FROM SAN FRANCISCO
+Rebecca Diamond
+Timothy McQuade
+Franklin Qian
+Working Paper 24181
+http://www.nber.org/papers/w24181
+NATIONAL BUREAU OF ECONOMIC RESEARCH
+1050 Massachusetts Avenue
+Cambridge, MA 02138
+January 2018
+We are grateful for comments from Ed Glaeser, Christopher Palmer, Paul Scott, and seminar 
+participants at The Conference on Urban and Regional Economics, the Fall HULM Conference, 
+NTA Annual Meeting, NBER Real Estate Summer Institute, NBER Fall Public and Labor Studies 
+Meetings, NYU Stern, the Stanford Finance Faculty Lunch, UC Berkeley, and the University of 
+Illinois. The views expressed herein are those of the authors and do not necessarily reflect the 
+views of the National Bureau of Economic Research.
+NBER working papers are circulated for discussion and comment purposes. They have not been 
+peer-reviewed or been subject to the review by the NBER Board of Directors that accompanies 
+official NBER publications.
+© 2018 by Rebecca Diamond, Timothy McQuade, and Franklin Qian. All rights reserved. Short 
+sections of text, not to exceed two paragraphs, may be quoted without explicit permission 
+provided that full credit, including © notice, is given to the source.
+
+The Effects of Rent Control Expansion on Tenants, Landlords, and Inequality: Evidence from
+San Francisco
+Rebecca Diamond, Timothy McQuade, and Franklin Qian
+NBER Working Paper No. 24181
+January 2018
+JEL No. H0,R0
+ABSTRACT
+We exploit quasi-experimental variation in assignment of rent control to study its impacts on 
+tenants, landlords, and the overall rental market. Leveraging new data tracking individuals’ 
+migration, we find rent control increased renters’ probabilities of staying at their addresses by 
+nearly 20%. Landlords treated by rent control reduced rental housing supply by 15%, causing a 
+5.1% city-wide rent increase. Using a dynamic, neighborhood choice model, we find rent control 
+offered large benefits to covered tenants. Welfare losses from decreased housing supply could be 
+mitigated if insurance against rent increases were provided as government social insurance, 
+instead of a regulated landlord mandate.
+Rebecca Diamond
+Graduate School of Business
+Stanford University
+655 Knight Way
+Stanford, CA 94305
+and NBER
+diamondr@stanford.edu
+Timothy McQuade
+Stanford Graduate School of Business School
+655 Knight Way
+Stanford, CA 94305
+tmcquade@stanford.edu
+Franklin Qian
+Landau Economics Building
+579 Serra Mall
+Stanford, CA 94305
+zqian1@stanford.edu
+
+The Eﬀects of Rent Control Expansion on Tenants,
+Landlords, and Inequality: Evidence from San Francisco∗
+Rebecca Diamond†, Tim McQuade‡, & Franklin Qian§
+December 27, 2017
+Abstract
+We exploit quasi-experimental variation in assignment of rent control to study its im-
+pacts on tenants, landlords, and the overall rental market. Leveraging new data tracking
+individuals’ migration, we ﬁnd rent control increased renters’ probabilities of staying at their
+addresses by nearly 20%. Landlords treated by rent control reduced rental housing supply by
+15%, causing a 5.1% city-wide rent increase. Using a dynamic, neighborhood choice model, we
+ﬁnd rent control oﬀered large beneﬁts to covered tenants. Welfare losses from decreased hous-
+ing supply could be mitigated if insurance against rent increases were provided as government
+social insurance, instead of a regulated landlord mandate.
+1
+Introduction
+Steadily rising housing rents in many of the US’s large, productive cities has brought the issue
+of aﬀordable housing to the forefront of the policy debate and reignited the discussion over ex-
+panding or enacting rent control provisions. State lawmakers in Illinois, Oregon, and California
+are considering repealing laws that limit cities’ ability to pass or expand rent control. Already
+extremely popular around the San Francisco Bay Area, with seven cities having imposed rent
+control regulations, ﬁve additional Bay Area cities placed rent control measures on the November
+2016 ballot, with two passing. Rent control in the Bay Area consists of regulated price increases
+within the duration of a tenancy, but no price restrictions between tenants. Rent control also
+places restrictions on evictions.
+∗We are grateful for comments from Ed Glaeser, Christopher Palmer, Paul Scott, and seminar participants at
+The Conference on Urban and Regional Economics, the Fall HULM Conference, NTA Annual Meeting, NBER
+Real Estate Summer Institute, NBER Fall Public and Labor Studies Meetings, NYU Stern, the Stanford Finance
+Faculty Lunch, UC Berkeley, and the University of Illinois.
+†Stanford University & NBER. Email: diamondr@stanford.edu.
+‡Stanford University. Email: tmcquade@stanford.edu .
+§Stanford University. Email: zqian1@stanford.edu .
+1
+
+A substantial body of economic research has warned about potential negative eﬃciency con-
+sequences to limiting rent increases below market rates, including over-consumption of housing
+by tenants of rent controlled apartments (Olsen (1972), Gyourko and Linneman (1989)), mis-
+allocation of heterogeneous housing to heterogeneous tenants (Glaeser and Luttmer (2003), Sims
+(2011)), negative spillovers onto neighboring housing (Sims (2007), Autor et al. (2014)) and ne-
+glect of required maintenance (Downs (1988)). Yet, due to incomplete markets, in the absence
+of rent control many tenants are unable to insure themselves against rent increases. A variety
+of aﬀordable housing advocates have argued that tenants greatly value these insurance beneﬁts,
+allowing them to stay in neighborhoods in which they have spent many years and feel invested in.
+Due to a lack of detailed data and natural experiments, we have little well-identiﬁed empirical
+evidence evaluating the relative importance of these competing eﬀects.1 In this paper, we bring
+to bear new micro data, exploit quasi-experimental variation in the assignment of rent control
+provided by unique 1994 local San Francisco ballot initiative, and employ structural modeling to
+ﬁll this gap. We ﬁnd tenants covered by rent control do place a substantial value on the beneﬁt,
+as revealed by their migration patterns. However, landlords of properties impacted by the law
+change respond over the long term by substituting to other types of real estate, in particular by
+converting to condos and redeveloping buildings so as to exempt them from rent control. This
+substitution toward owner occupied and high-end new construction rental housing likely fueled
+the gentriﬁcation of San Francisco, as these types of properties cater to higher income individuals.
+Indeed, the combination of more gentriﬁcation and helping rent controlled tenants remain in San
+Francisco has led to a higher level of income inequality in the city overall.
+The 1994 San Francisco ballot initiative created rent control protections for small multifamily
+housing built prior to 1980. This led to quasi-experimental rent control expansion in 1994 based on
+whether the multifamily housing was built prior to or post 1980. To examine rent control’s eﬀects
+on tenant migration and neighborhood choices, we make use of new panel data which provides
+address-level migration decisions and housing characteristics for close to the universe of adults
+living in San Francisco in the early 1990s. This allows us to deﬁne our treatment group as renters
+who lived in small apartment buildings built prior to 1980 and our control group as renters living
+in small multifamily housing built between 1980 and 1990. Using our data, we can follow each of
+these groups over time up until the present, regardless of where they migrate to.
+On average, we ﬁnd that in the medium to long term, the beneﬁciaries of rent control are
+between 10 and 20% more likely to remain at their 1994 address relative to the control group.
+These eﬀects are signiﬁcantly stronger among older households and among households that have
+already spent a number of years at their treated address. This is consistent with the fact that
+both of these populations are less mobile in general, allowing them to accrue greater insurance
+beneﬁts.
+1A notable exception to this is Sims (2007) and Autor et al. (2014) which use the repeal of rent control in
+Cambridge, MA to study it’s spillover eﬀects onto nearby property values and building maintenance.
+2
+
+On the other hand, for households with only a few years at their treated address, the impact
+of rent control can be negative. Perhaps even more surprisingly, the impact is only negative in
+census tracts which had the highest rate of ex-post rent appreciation. This evidence suggests
+that landlords actively try to remove their tenants in those areas where the reward for resetting to
+market rents is greatest. In practice, landlords have a few possible ways of removing tenants. First,
+landlords could move into the property themselves, known as move-in eviction. The Ellis Act also
+allow landlords to evict tenants if they intend to remove the property from the rental market - for
+instance, in order to convert the units to condos. Finally, landlords are legally allowed to oﬀer their
+tenants monetary compensation for leaving. In practice, these transfer payments from landlords
+are quite common and can be quite large. Moreover, consistent with the empirical evidence, it
+seems likely that landlords would be most successful at removing tenants with the least built-up
+neighborhood capital, i.e. those tenants who have not lived in the neighborhood for long.
+To understand the reduced form impact of rent control on rental supply, we merge in historical
+parcel history data from the SF Assessor’s Oﬃce, which allows us to observe parcel splits and
+condo conversions. We ﬁnd that rent-controlled buildings were almost 10% more likely to convert
+to a condo or a Tenancy in Common (TIC) than buildings in the control group, representing a
+substantial reduction in the supply of rental housing. Consistent with these ﬁndings, we moreover
+ﬁnd that, compared to the control group, there is a 15% decline in the number of renters living
+in these buildings and a 25% reduction in the number of renters living in rent-controlled units,
+relative to 1994 levels. This gap is driven by landlords demolishing their old housing and building
+new rental housing. New construction is exempt from rent control.
+In order to evaluate the welfare impacts of these reduced form eﬀects, we construct and estimate
+a dynamic discrete choice model of neighborhood choice. Motivated by our reduced form evidence,
+we allow for household preferences to depend on neighborhood tenure and age, and allow for
+monetary "buyouts" where landlords of rent-controlled properties can pay their tenants to move
+out.
+The model features ﬁxed moving costs and moving costs variable with distance.
+A key
+contribution of the paper, relative to the existing dynamic discrete choice literature, is that we
+develop methods which harness the quasi-experimental setting such that no assumptions about how
+agents form beliefs about expected future states of the world are required.2 To our knowledge, all
+previous dynamic discrete choice models required either explicit modeling of how beliefs are formed
+or assuming that beliefs are on average rational. Dropping this assumption is very useful as one
+might expect households to have bias in their beliefs about future housing costs. We also show how
+to do general equilibrium welfare analysis in a dynamic model without making any assumptions
+about how agents form beliefs using a ﬁrst-order approximation to welfare. Speciﬁcally, we show
+how changes in the value function can be solved for using a system of linear equations and no
+information on how beliefs are formed. These welfare methods could be used in other settings,
+2The only assumption is that average treatment and control households do not use diﬀerent methods to form
+beliefs, an assumption one would expect to hold if treatment is indeed randomly assigned.
+3
+
+even if one does not have a quasi-experiment available.
+We ﬁnd that rent control oﬀered large beneﬁts to impacted tenants during the 1995-2012
+period, averaging between $2300 and $6600 per person each year, with aggregate beneﬁts totaling
+over $214 million annually and $2.9 billion present discounted value terms.
+These eﬀects are
+counterbalanced by landlords reducing supply in response to the introduction of the law. We
+conclude that this led to a city-wide rent increase of 5.1%. This has a present discounted cost of
+$2.9 billion dollars to tenants. Further, we ﬁnd 42% of these losses are paid by future residents of
+San Francisco, while incumbent SF residents at the time of the law change bear the other 58%. On
+net, incumbent SF residents appear to come out ahead, but this is at the great expense of welfare
+losses from future inhabitants. We discuss how the substantial welfare losses due to decreased
+housing supply could be mitigated if insurance against large rent increases was provided as a form
+of government social insurance, instead of a regulated mandate on landlords.
+Our paper is most related to the literature on rent control. Recent work by Autor et al. (2014)
+and Sims (2007) leverages policy variation in rent control laws in Cambridge, Massachusetts to
+study the property and neighborhood eﬀects of removing rent control regulations. Our paper
+studies the eﬀects of enacting rent control laws, which could have very diﬀerent eﬀects than
+decontrol.
+De-control studies the eﬀects of removing rent control on buildings which remain
+covered. Indeed, we ﬁnd a large share of landlords substitute away from supply of rent controlled
+housing, making those properties which remain subject to rent-control a selected set. Further,
+we are able to quantify how tenants use and beneﬁt from rent control, a previously unstudied
+topic due to the lack of the combination of appropriate data, natural experiments and estimation
+methods.
+There also exists an older literature on rent control combining applied theory with cross-
+sectional empirical methods. These papers test whether the data are consistent with the theory
+being studied, but usually cannot quantify causal eﬀects of rent control. (Early (2000), Glaeser
+and Luttmer (2003), Gyourko and Linneman (1989), Gyourko and Linneman (1990), Moon and
+Stotsky (1993), Olsen (1972)).
+Our estimation methods build on the dynamic discrete choice literature. Previous work using
+dynamic demand for housing and neighborhoods has required strong assumptions about how
+agents form expectations and how all neighborhood characteristics evolve over time (Bishop and
+Murphy (2011), Kennan and Walker (2011), Bayer et al. (2016), Davis et al. (2017), Murphy
+(2017)). We relax these assumptions by building on Scott (2013). His key insight is to use realized
+values of agents’ future expected utility as a noisy measure of agents’ expectations. This method,
+extended to a quasi-experimental setting, allows us to avoid making explicit assumptions about
+how agents form expectations. Further, we do not need to assume how all state variables transition
+over time. Both of these assumptions are typically needed to estimate dynamic discrete choice
+models. Scott leverages “renewal” actions in tenants’ choice sets, whereby the estimation focuses on
+speciﬁc actions in agents’ choice sets which exhibit ﬁnite dynamic dependence, greatly simplifying
+4
+
+the dynamic problem (Arcidiacono and Miller (2011), Arcidiacono and Ellickson (2011)). Our
+contribution is to show how Scott’s method can be extended to a set of diﬀerence-in-diﬀerence
+style linear and instrumental variable regressions that can be used in combination with a natural
+experiment to identify the model parameters.
+Finally, our paper is related to a separate strand of literature on community attachment in
+sociology. Kasarda and Janowitz (1974) provide survey evidence that length of residence is corre-
+lated with various self-reported indicators of neighborhood attachment. We estimate households’
+attachments to their neighborhoods, as revealed by their migration decisions. Consistent with sur-
+vey evidence, we ﬁnd community attachment grows with years living in one’s neighborhood, but
+it accumulates quite slowly over time. One additional year of residence increases one’s community
+attachment by the equivalent of $300.
+The remainder of the paper proceeds as follows. Section 2 discusses the history of rent control
+in San Francisco. Section 3 discusses the data used for the analysis. Section 4 presents our reduced
+form results. Section 5 develops and estimates a dynamic discrete choice structural model. Section
+6 discusses the welfare impacts of rent control. Section 7 concludes.
+2
+A History of Rent Control in San Francisco
+Rent Control in San Francisco began in 1979, when acting Mayor Dianne Feinstein signed San
+Francisco’s ﬁrst rent-control law. Pressure to pass rent control measures was mounting due to
+high inﬂation rates nationwide, strong housing demand in San Francisco, and recently passed
+Proposition 13.3 This law capped annual nominal rent increases to 7% and covered all rental
+units built before June 13th, 1979 with one key exemption: owner occupied buildings containing 4
+units or less.4 These “mom and pop” landlords were cast as less proﬁt driven than the large scale,
+corporate landlords, and more similar to the tenants being protected. These small multi-family
+structures made up about 44% of the rental housing stock in 1990, making this a large exemption
+to the rent control law.
+While this exemption was intended to target “mom and pop" landlords, in practice small multi-
+families were increasingly purchased by larger businesses who would then sell a small share of the
+building to a live-in owner so as to satisfy the rent control law exemption. This became fuel for a
+new ballot initiative in 1994 to remove the small multi-family rent control exemption. This ballot
+initiative barely passed in November 1994. Beginning in 1995, all multi-family structures with four
+units or less built in 1979 or earlier were now subject to rent control. These small multi-family
+structures built prior to 1980 remain rent controlled today, while all of those built from 1980 or
+3Proposition 13, passed in 1978, limited annual property tax increases for owners.
+Tenants felt they were
+entitled to similar beneﬁts in the form of capped annual rent increases.
+4The annual allowable rent increase was cut to 4% in 1984 and later to 60% of the CPI in 1992, where it remains
+today.
+5
+
+later are still not subject to rent control.
+3
+Data
+We bring together data from multiple sources to enable us to observe property characteristics,
+determine treatment and control groups, track migration decisions of tenants, and observe the
+property decisions of landlords. Our ﬁrst dataset is from Infutor, which provides the entire address
+history of individuals who resided in San Francisco at some point between the years of 1990 and
+2016.5 The data include not only individuals’ San Francisco addresses, but any other address
+within the United States at which that individual lived during the period of 1990-2016.
+The
+dataset provides the exact street address, the month and year at which the individual lived at
+that particular location, the name of the individual, and some demographic information including
+age and gender. We link these data to property records provided by DataQuick, which allow us
+to distinguish owners from renters by comparing last names in Infutor to the listed owners of
+the property in DataQuick. We also link in renovation permits, condo conversions data from San
+Francisco.
+To examine the representativeness of the Infutor data, we collapse the Infutor data to the
+census tract level in 1990 and 2000. We then compare census tract variation in data provided by
+Infutor to similar data reported by the census in 1990 and 2000. Our data closely match in terms
+of population counts, the age of the occupied housing stock, and the homeownership rates. Indeed,
+the Infutor data cover close to the universe of the San Francisco population. See Appendix A for
+more details. We use an imputation procedure to construct annual rents at the zipcode level,
+combining house price transaction data, census and ACS reported median rents, and the Fischer
+aggregate time series detailed in Appendix A.1.6
+Summary statistics are provided in Table 1. As shown in this table, without any controls, our
+covariates are quite balanced between treatment and control tenants and parcels.
+4
+Reduced Form Eﬀects
+Studying the eﬀects of rent control is challenged by the usual endogeneity issues. The tenants who
+choose to live in rent-controlled housing, for example, are likely a selected sample. To overcome
+these issues, we exploit the particular institutional history of the expansion of rent control in San
+Francisco. Speciﬁcally, we exploit the successful 1994 ballot initiative which removed the original
+1979 exemption for small multifamily housing of four units or less, as discussed in Section 2.
+5Infutor is a data aggregator of address data using many sources including phonebooks, magazine subscriptions,
+and credit header ﬁles.
+6Historical data on annual San Francisco wide market rents are from a dataset produced by Eric Fischer, who
+collected historical apartment advertisements dating back to the 1950s.
+6
+
+In 1994, as a result of the ballot initiative, tenants who happened to live in small multifamily
+housing built prior to 1980 were, all of a sudden, protected by statute against rent increases.
+Tenants who lived in small multifamily housing built 1980 and later continued to not receive rent
+control protections. We therefore use as our treatment group those renters who, as of December
+31, 1993, lived in multifamily buildings of less than or equal to 4 units, built between years 1900
+and 1979. We use as our control group those renters who, as of December 31, 1993, lived in
+multifamily buildings of less than or equal to 4 units, built between the years of 1980 and 1990.
+We exclude those renters who lived in small multifamily buildings constructed post 1990 since
+individuals who choose to live in new construction may constitute a selected sample and exhibit
+diﬀerential trends. We also exclude tenants who moved into their property prior to 1980, as none
+of the control group buildings would have been constructed at the time.
+When examining the impact of rent control on the parcels themselves, we use small multifamily
+buildings built between the years of 1900 and 1979 as our treatment group and buildings built
+between the years of 1980 and 1990 as our control group. We again exclude buildings constructed
+in the early 1990s to remove any diﬀerential eﬀects of new construction. Figure E.1 shows the
+geographic distribution of treated buildings and control buildings in San Francisco.
+4.1
+Tenant Eﬀects
+We begin our analysis by studying the impact of rent control provisions on its tenant beneﬁciaries.
+We use a diﬀerences-in-diﬀerences design described above, with the following exact speciﬁcation:
+Yit = δzt + αi + βtTi + γst + ϵit.
+(1)
+Here, Yit are outcome variables equal to one if, in year t, the tenant i is still living at either the
+same address, in the same zipcode z, or in San Francisco as they were at the end of 1993. The
+variables αi denote individual tenant ﬁxed eﬀects. The variable Ti denotes treatment, equal to
+one if, on December 31, 1993, the tenant is living in a multifamily building with less than or equal
+to four units built between the years 1900 and 1979.
+We include ﬁxed eﬀects γst denoting the interaction of dummies for the year s the tenant moved
+into the apartment with calendar year t time dummies. These additional controls are needed since
+older buildings are mechanically more likely to have long-term, low turnover tenants; not all of
+the control group buildings were built when some tenants in older buildings moved in. Finally,
+note we have included a full set of zipcode by year ﬁxed eﬀects, δzt. In this way, we control for
+any diﬀerences in the geographic distribution of treated buildings vs. control buildings, ensuring
+that our identiﬁcation is based oﬀof individuals who live in the same neighborhood, as measured
+by zipcode. Our coeﬃcient of interest, quantifying the eﬀect of rent control on future residency,
+is denoted by βt.
+Our estimated eﬀects are shown in Figure 1, along with 90% conﬁdence intervals. We can see
+7
+
+that tenants who receive rent control protections are persistently more likely to remain at their
+1993 address relative to the control group. Not only that, but they are also more likely to be living
+in San Francisco. This result indicates that the assignment of rent control not only impacts the
+type of property a tenant chooses to live in, but also their choice of location and neighborhood
+type.
+These ﬁgures also illustrate how the time pattern of our eﬀects correlates with rental rates in
+San Francisco. We would expect that our results would be particularly strong in those years when
+the outside option is worse due to quickly rising rents. Along with our yearly estimated eﬀect of
+rent control, we plot the yearly deviation from the log trend in rental rates against our estimated
+eﬀect of rent control in that given year. We indeed see that our eﬀects grew quite strongly in
+the mid to late 1990s in conjunction with quickly rising rents, relative to trend. Our eﬀects then
+stabilize and slightly decline in the early 2000s in the wake of the Dot-com bubble crash, which
+led to falling rental rates relative to trend. Overall, we measure a correlation of 49.4% between
+our estimated same address eﬀects and median rents, and a correlation of 78.4% between out
+estimated SF eﬀects and median rents.
+In Table 2, we collapse our estimated eﬀects into a short-term 1994-1999 eﬀect, a medium-
+term 2000-2004 eﬀect, and a long-term post-2005 eﬀect. We ﬁnd that in the short-run, tenants
+in rent-controlled housing are 2.18 percentage points more likely to remain at the same address.
+This estimate reﬂects a 4.03% increase relative to the 1994-1999 control group mean of 54.10%.
+In the medium term, rent-controlled tenants are 3.54 percentage points more likely to remain at
+the same address, reﬂecting a 19.38% increase over the 2000-2004 control group mean of 18.27%.
+Finally, in the long-term, rent-controlled tenants are 1.47 percentage points more likely to remain
+at the same address. This is a 12.95% increase over the control group mean of 11.35%. These
+eﬀects are intuitive since we expect the utility beneﬁts of staying in a rent controlled apartment
+to grow over time as the wedge between controlled and market rents widen.
+Tenants who beneﬁt from rent control are 2.00 percentage points more likely to remain in
+San Francisco in the short-term, 4.51 percentage points more likely in the medium-term, and
+3.66 percentage points more likely in the long-term. Relative to the control group means, these
+estimates reﬂect increases of 2.62%, 8.78%, and 8.42% respectively. Since these numbers are of
+the same magnitude as the treatment eﬀects of stay at one’s exact 1994 apartment, we ﬁnd that
+absent rent control essentially all of those incentivized to stay in their apartments would have
+otherwise moved out of San Francisco.
+While there may be some sorting into older buildings based on personal characteristics, it seems
+likely that once neighborhood characteristics have been controlled for, as well as the number of
+years lived in the apartment as of December 31, 1993, these characteristics would not lead to
+diﬀerential trends in migration decisions which could contaminate our estimates. As a robustness
+test, in Table E.1, we have restricted our treatment group to individuals who lived in structures
+built between 1960 and 1979, thereby comparing tenants in buildings built slightly before 1979 to
+8
+
+tenants in buildings built slightly after 1979. We ﬁnd very similar results.7
+These estimated overall eﬀects mask interesting heterogeneity. We begin by cutting the data
+on three dimensions. First, we cut the data by age, sorting individuals into two groups, a young
+group who were aged 20-39 in 1993 and an old group who were aged 40-65 in 1993. We also sort
+the data based on the number of years the individual has been living at their 1993 address. We
+create a “high turnover” group of individuals who had been living at their address for less than
+four years and a “low turnover” group of individuals who had been living at their address for
+between four and fourteen years. Finally, we cut the sample of zipcodes based on whether their
+rent change from 1990 to 2000 was above or below the median. We form eight subsamples by
+taking the 2 × 2 × 2 cross across each of these three dimensions and re-estimate our eﬀects for
+each subsample.
+The results are reported in Figures 2 and 3. We summarize the key implications. First, we ﬁnd
+that the eﬀects are weaker for younger individuals. We believe this is intuitive. Younger households
+are more likely to face larger idiosyncratic shocks to their neighborhood and housing preferences
+(such as changes in family structure and employment opportunities) which make staying in their
+current location particularly costly, relative to the types of shocks older households receive. Thus,
+younger households may feel more inclined to give up the beneﬁts aﬀorded by rent control to
+secure housing more appropriate for their circumstances.
+Moreover, among older individuals, there is a large gap between the estimated eﬀects based on
+turnover. Older, low turnover households have a strong, positive response to rent control. That
+is, they are more likely to remain at their 1993 address relative to the control group. In contrast,
+older, high turnover individuals are estimated to have a weaker response to rent control. They are
+less likely to remain at their 1993 address relative to the control group.
+To further explore the mechanism behind this result, we now investigate these eﬀects based on
+the 1990-2000 rent appreciation of their 1993 zipcodes. Among older, lower turnover individuals,
+we ﬁnd that the eﬀects are always positive and strongest in those areas which experienced the
+most rent appreciation between 1990 and 2000, as one might expect. For older, high turnover
+households, however, the results are quite diﬀerent. For this subgroup, the eﬀects are actually
+negative in the areas which experienced the highest rent appreciation. They are positive in the
+areas which experienced below median rent appreciation.8
+This result suggests that landlords are likely actively trying to remove tenants in those areas
+where rent control is aﬀording the most beneﬁts, i.e. high rent appreciation areas. There are
+a few ways a landlord could accomplish this.
+First, landlords could try to legally evict their
+tenants by, for example, moving into the properties themselves, known as owner move-in eviction.
+Alternatively, landlords could evict tenants according to the provisions of the Ellis Act, which
+7In Table E.1, we have also ran our regressions with census tract by year ﬁxed eﬀects and our results are robust
+to this even ﬁner neighborhood classiﬁcation. Dropping the zip-year ﬁxed eﬀects also produces similar results.
+8A similar pattern holds for younger individuals as well, although the results are weaker.
+9
+
+allows evictions when an owner wants to remove units from the rental market - for instance,
+in order to convert the units into condos or a tenancy in common. Finally, landlords are legally
+allowed to negotiate with tenants over a monetary transfer convincing them to leave. Such transfers
+are, in fact, quite prevalent in San Francisco. Moreover, it is likely that those individuals who have
+not lived in the neighborhood long, and thus not developed an attachment to the area, could be
+more readily convinced to accept such payments. Since the tenants who are most likely to leave
+rent control are those who likely value it the least (those who have not lived in the neighborhood
+for a long time), it appears that landlords are paying people to move out instead of evicting them.
+If landlords were mostly using evictions, we’d expect them to evict those whose evictions are most
+proﬁtable to the landlord: those who likely will stay a long time. Indeed, since landlord can pay
+tenants to move out, rent control need not ineﬃciently distort renters’ decisions to remain in their
+rent controlled apartments. Tenants may “bring their rent control with them” in the form of a
+lump sum tenant buyout. Of course, if landlords predominantly use evictions, tenants are not
+compensated for their loss of rent protection, weakening the insurance value of rent control.
+These considerations help to rationalize some additional, ﬁnal ﬁndings.
+In Figure 4a, we
+examine the impact that rent control has on the types of neighborhoods tenants live in in a given
+year. We ﬁnd that treated individuals, i.e. those who received rent control, ultimately live in
+census tracts with lower house prices, lower median incomes, lower college shares, and higher
+unemployment rates than the control group. As Figure 4b shows, this is not a function of the
+areas in which treated individuals lived in 1993. In this ﬁgure, we ﬁx the location of those treated
+by rent control at their 1993 locations, but allow the control group to migrate as seen in the
+data. If rent-controlled renters were equally likely to remain in their 1993 apartments across all
+locations in San Francisco, we would see the sign of the treatment eﬀects on each neighborhood
+characteristic to be the same as in the previous regression. Instead, we ﬁnd strong evidence that
+the out-migration of rent-controlled tenants came from very selected neighborhoods. Had treated
+individuals remained in their 1993 addresses, they would have lived in census tracts which had
+signiﬁcantly higher college shares, higher house prices, lower unemployment rates, and no eﬀect
+on household median income than the control group. This evidence is consistent with the idea
+that landlords undertake eﬀorts to remove their tenants or convince them to leave in improving,
+gentrifying areas.
+4.2
+Parcel and Landlord Eﬀects
+We continue our analysis by studying the impact of rent control on the structures themselves.
+In particular, we examine how rent control impacts the nature of the tenants who live in the
+buildings, as well as its impact on investments that landlords choose to make in the properties.
+10
+
+We run a similar speciﬁcation to that above:
+Ykt = δzt + λk + βtTk + ϵkt,
+(2)
+where k now denotes the individual parcel and λk represent parcel ﬁxed eﬀects. The variable Tk
+denotes treatment, equal to one if, on December 31, 1993, the parcel is a multifamily building with
+less than or equal to four units built between the years 1900 and 1979. The δzt variables once again
+reﬂect zipcode by year ﬁxed eﬀects. Our outcome variables Ykt now include the number of renters
+and owners living in the building, whether the building sits vacant, the number of renovation
+permits associated with the building, and whether the building is ever converted to a condo or
+TIC. The permits we look at speciﬁcally are addition/alteration permits, taken out when major
+work is done to a property.
+We begin by plotting in Figure 5a the eﬀects of rent control on the number of individuals
+living at a given parcel, calculated as percentage of the average number of individuals living at
+that parcel between the years 1990-1994. We estimate a decline of approximately 10% over the
+long-run, although this eﬀect is not statistically signiﬁcant.
+We next decompose this eﬀect into the impact on the number of renters and the number of
+owners living at the treated buildings. As shown in Figure 5b, we ﬁnd that there is a signiﬁcant
+decline in the number of renters living at a parcel, approximately equal to 20% in the late 2000s,
+relative to the 1990-1994 level. Figure 5c shows that the decline in renters was counterbalanced
+by an increase of approximately 10% in the number of owners in the late 2000s. This is our ﬁrst
+evidence suggestive of the idea that landlords redeveloped or converted their properties so as to
+exempt them from the new rent control regulations.
+We now look more closely at the decline in renters. In Figure 6b, we see that there is an
+eventual decline of almost 30% in the number of renters living in rent-controlled apartments,
+relative to the 1990-1994 average.9 This decline is signiﬁcantly larger than the overall decline in
+renters. This is because a number of buildings which were subject to rent control status in 1994
+were redeveloped in such way so as to no longer be subject to it. These redevelopment activities
+include tearing down the existing structure and putting up new single family, condominium, or
+multifamily housing or simply converting the existing structure to condos. These redeveloped
+buildings replaced about 10% of the initial rental housing stock treated by rent control, as shown
+in Figure 6a.
+A natural question is whether this redevelopment activity was a response of landlords to the
+imposition of rent control or, instead, if such activity was also taking place within the control
+group and thus reﬂected other trends. Since we have the entire parcel history for a property, we
+can check directly whether a multifamily property which fell under the rent control regulations in
+9Note here that we mean relative to the number of individuals who lived at parcels which received rent control
+status due to the 1994 law change.
+11
+
+1994 is more likely to have converted to condominium housing or a tenancy in common, relative
+to a multifamily property which did become subject to rent control. In Figure 6c, we show that
+treated buildings are 8 percentage points likely to convert to condo or TIC in response to the rent
+control law. This represents a signiﬁcant loss in the supply of rent controlled housing.
+As a ﬁnal test of whether landlords actively respond to the imposition of rent control, we ex-
+amine whether the landlords of rent-controlled properties disproportionately take out addition/al-
+teration (i.e. renovation) permits. We ﬁnd this to strongly be the case, as shown in Figure 6d. Of
+course, conversions of multifamily housing to condos undoubtedly require signiﬁcant alteration to
+the structural properties of the building and thus would require such a permit to be taken out.
+These results are thus consistent with our results regarding condo conversion.
+Taken together, we see rent control increased property investment, spurred the demolition and
+reconstruction of new buildings, generated conversion of rental units to owner occupied housing,
+and caused a decline of the number of renters per building. All of these responses lead to a housing
+stock which caters to higher income individuals. Rent control has actually fueled the gentriﬁcation
+of San Francisco, the exact opposite of the policy’s intended goal.
+5
+A Structural Spatial Equilibrium Model
+The reduced form shows that rent control can either increase or decreases tenancy durations
+depending on whether the tenant receives a buyout or eviction or instead remains at their residence
+at below market rents. To quantify how tenants trade oﬀthese decisions and to quantify the
+welfare impact of rent control to covered tenants, we estimate a dynamic discrete choice model of
+neighborhood choice.
+5.1
+Model Setup
+Each year t, a household decides whether to remain in its current home, a choice which we
+denote as S, or to move, in which case the household chooses a neighborhood j ∈J to live
+in.
+We denote the household’s choice as x ∈{S} ∪J .
+The relevant state variables for the
+household’s decision problem are the current neighborhood jt−1 ∈J , the number of years lived
+in the current neighborhood τ n,t−1 ∈N∪{0} , the number of years lived in the current house
+τ h,t−1 ∈N∪{0}, and whether the residence is rent-controlled dt−1 ∈{0, 1} . We also have a state
+variable at−1 ∈{Y, M} denoting whether the household is in a young (Y ) or mature (M) state
+of life. We let θt−1 = (jt−1, τ n,t−1, τ h,t−1, dt−1, at−1) denote the household’s current state variable.
+The transition dynamics of the state variable are straightforward. We have jt = j (xt), where:
+j (xt)
+=
+jt−1 if xt = S
+j (xt)
+=
+xt otherwise.
+12
+
+This equation simply says that the neighborhood remains the same if the household decides to
+remain in its current home. Otherwise, the new neighborhood is given by the household’s choice.
+The implications for years in the current neighborhood and years in the current house are clearly
+similar, with:
+τ n (xt)
+=
+τ n,t−1 + 1 if xt ∈{S, jt−1}
+τ n (xt)
+=
+0 otherwise.
+and
+τ h (xt)
+=
+τ h,t−1 + 1 if xt = S
+τ n (xt)
+=
+0 otherwise.
+Finally, we assume that each period young households transition to mature households with ex-
+ogenous probability κt. This is clearly a simpliﬁcation, made due to limitations of the data, but
+captures the idea that households experience certain life events such as marriage and having chil-
+dren at diﬀerent ages.10 Mature households do not transition back into young households. We
+denote the (probabilistic) transition function as θt = Θ (xt, θt−1) . We identify the set of neighbor-
+hood locations J as the San Francisco zipcodes, the combined counties (other than San Francisco
+County) in the Bay Area, and an outside option denoting any location outside of the Bay Area.
+We assume that a household i has the following per-period utility from their housing decision:
+u (x, ωt, εit, θt−1)
+=
+γa exp Rt (j, d, τ h) + αaτ n + ϕa (x, jt−1, τ n,t−1)
+(3)
++ Λa (x, θt−1) + ωjt + εixt,
+where Rt (j, d, τ h) denotes the rent paid at the chosen location, ϕa (x, jt−1, τ n,t−1) are moving costs,
+Λa (x, θt−1) are possible monetary transfers from landlords to tenants, ωjt is an unobservable
+neighborhood taste shock, and εixt is an idiosyncratic logit error taste shock over the possible
+choices which is speciﬁc to household i.11 Note that we are suppressing the dependence of (j, τ, d) on
+x. If a tenant does not live in a rent-controlled property, she pays market rents, given by Rt (j, 0) .
+Thus, there is no dependence on τ h. In contrast, the rent paid by tenants in rent-controlled
+properties Rt (j, 1, τ h) is a function of the number of years lived in the property. Crucially, note
+that the household has utility over exponential rents, with coeﬃcient γa. We, of course, expect
+this coeﬃcient to be negative. This assumption ensures, due to the eﬀects of Jensen’s inequality,
+that rent control oﬀers real insurance value to tenants. We moreover allow for utility to depend
+on how long a household has lived in the current neighborhood, as measured by parameter αa.
+10In principle, we could track the exact age as a stable variable, but this makes the state space very large.
+11We measure rents as monthly rents divided by 3000, measured in 2010 dollars. We divide by 3000 for compu-
+tational convenience.
+13
+
+Intuitively, households may build up neighborhood capital over time which makes that location
+more attractive. For instance, over time people form meaningful friendships with their neighbors
+and acquire valuable local knowledge, such as that regarding local amenities. We allow both the
+rent utility parameter and neighborhood capital parameter to depend on whether the household
+is in the young or mature stage of life.
+Households incur moving costs when they switch homes. We assume that there is a ﬁxed
+moving cost ϕ0,a > 0, as well as a cost ϕd,a > 0 that is variable with distance. We allow the variable
+moving cost parameter to depend on current neighborhood capital τ n,t−1, with the interaction eﬀect
+measured by ϕτ,a. This allows for the possibility that the desirability of nearby neighborhoods
+changes as one accrues neighborhood capital. In particular,
+ϕa (x, jt−1)
+=
+0 if xt = S
+ϕa (x, jt−1)
+=
+ϕ0,a + ϕd,ad (j (x) , jt−1) + ϕτ,a (d (j (x) , jt−1) × τ n,t−1) otherwise,
+where d (j (x) , jt−1) denotes the distance between the old and new neighborhoods. We allow the
+moving costs to vary with age. For example, it seems likely that households with children will
+ﬁnd moving more costly than households without children, since changing schools could prove
+disruptive.
+We also allow for possible monetary transfers from landlords of rent-controlled properties to
+tenants incentivizing them to move. These may represent true tenant buyouts or the amount of
+buyout that would have been required to rationalize the tenant out-migration, even if in reality the
+migration was due to eviction. In practice, the city of San Francisco allows for such negotiations
+and these payments are, in practice, quite prevalent. We do not explicitly model the bargaining
+game between landlords and tenants.
+Instead, we proceed in more reduced form fashion and
+parameterize the transfers as:
+Λa (x, θt−1)
+=
+0 if x = S or dt−1 = 0
+Λa (x, θt−1)
+=
+λ1 [lnRt (jt=1, 0) −lnRt (j5−1, 1, τ h,t−1)] + λ2τ n,t−1 + λY 1 [at−1 = Y ] otherwise.
+The ﬁrst equation simply says that, if the tenant does not move or does not live in rent-controlled
+housing, he receives no transfers. The ﬁrst term in the second equation denotes the diﬀerence
+between market rents and rent-controlled rents. We would expect the coeﬃcient on this term, λ1,
+to be weakly positive. Intuitively, the greater the current diﬀerence between market rents and
+rent-controlled rents, the greater the incentive for landlords to remove tenants and thus the more
+landlords should be willing to pay to convince tenants to leave. We also allow for the outcome of
+the bargaining to depend on neighborhood tenure τ n, with the impact measured by the coeﬃcient
+λ2. This allows for more invested tenants to receive a larger payment, since their outside option,
+i.e. choosing to stay, is likely better than that of a short term tenant who has not built up a large
+14
+
+stock of neighborhood capital. Finally, we allow the level diﬀerence in transfers to diﬀer between
+young and mature households, measured by λY .
+We decompose the unobservable neighborhood amenity value ωjt into
+ωjt = ωj + ˜ωjt,
+where ωj is a time-invariant ﬁxed eﬀect and ˜ωjt is a per-period neighborhood speciﬁc shock. We im-
+pose no structure on the distribution of ˜ωjt beyond requiring that F(˜ωj,t+1|˜ωjt, xit) = F(˜ωj,t+1|˜ωjt).
+That is, the decision of any individual agent has no impact on the distribution of the neighborhood
+amenity value next period.
+Letting β denote the common discount factor, the household’s dynamic optimization problem
+at time t is given by:
+V (θi,t−1, ωt, εit) = max
+x∗E
+ ∞
+X
+s≥t
+βs−tu (x∗, ωt, εit, θi,t−1) |θi,t−1, ωt, εit
+!
+.
+We next deﬁne the ex-ante value function V (θit, ωt) by integrating over the idiosyncratic errors:
+V t (θt−1) =
+Z
+· · ·
+Z
+V (θt−1, ωt, (ε1, ..., εJ+1)) dF (ε1) ...dF (εJ+1) ,
+where J is the number of neighborhoods and εJ+1 it the logit error associated with staying in the
+current home. From this we can deﬁne the value function conditional on actions:
+vt (x, θt−1) = ut (x, θt−1) + βEt
+
+V t+1 (Θ (x, θt−1))
+
+,
+where ut (x, θt−1) = u (x, ωt, 0, θt−1), Θ (x, θt−1) denotes the state transition function, and Et [·]
+denotes expectations conditional on time t information.
+Since the idiosyncratic taste shocks follow a logit speciﬁcation, we get the standard results (see
+e.g. Hotz and Miller (1993)) relating conditional value functions to conditional choice probabilities
+pt (x|θt−1):
+pt (x|θt−1) =
+exp (vt (x, θt−1))
+P
+x′ exp (vt (x′, θt−1)).
+(4)
+In what follows, we denote the log of the denominator of this expression as:
+It (θt−1) = ln
+ X
+x′
+exp (vt (x′, θt−1))
+!
+We also have that the ex-ante value function is given by:
+V t (θt−1, ωt) = It (θt−1) + Γ,
+(5)
+where Γ is Euler’s gamma.
+15
+
+5.2
+Renewal Actions
+The key challenge in identifying dynamic discrete choice models is dealing with the expected
+continuation values in the Bellman equation. To be able to calculate the expected continuation
+values, one generally must make assumptions about exactly how agents form expectations, in-
+cluding exactly what information is known to the agent and how they expect market-level state
+variables to evolve. This normally requires assuming all market state variables (e.g. rents and
+amenities) are observed and follow assumed transition dynamics. We build on Scott (2013) and
+make no assumptions about how amenities evolve. We also make no assumptions on how agents
+form expectations about future market states. Unlike previous work, we do not need to assume
+agents have rational expectations. Since we are comparing diﬀerences between treatment and
+control groups, we only need to assume that diﬀerences in expectations between treatment and
+control households in the same neighborhood in the same year are on average zero. This allows all
+agents to have arbitrarily biased beliefs about the future and we do not need to specify the biases.
+We view this is an important advance over previous methods, as rational expectations can be a
+very strong assumption. Following work by Arcidiacono and Ellickson (2011) and Arcidiacono and
+Miller (2011), we make extensive use of renewal actions, or action(s) which, given current states
+θt−1 and θ′
+t−1, lead to the same state in the next period. This will allow us to diﬀerence out much
+of the long-term continuation values in the Bellman equation, which are impossible to estimate
+without strong assumptions.
+5.2.1
+Immediate Renewals
+In what follows, we focus only on mature renters. A very similar analysis is conducted for young
+renters in Appendix B. Suppose we have two mature households in states θt−1 and θ′
+t−1. In period
+t, these two households take the actions x and x′ respectively. Using equation (4) and diﬀerencing
+we ﬁnd that:
+vt (x, θt−1) −vt
+ x′, θ′
+t−1
+
+= ln
+ 
+pt (x|θt−1)
+pt
+ x′|θ′
+t−1
+
+!
++ It (θt−1) −It
+ θ′
+t−1
+
+Substituting in for the conditional value functions, we get:
+ut (x, θt−1) −ut
+ x′, θ′
+t−1
+
++ βEt
+
+V t+1 (Θ (x, θt−1))
+
+−βEt
+
+V t+1
+ Θ
+ x′, θ′
+t−1
+
+(6)
+=
+ln
+ 
+pt (x|θt−1)
+pt
+ x′|θ′
+t−1
+
+!
++ It (θt−1) −It
+ θ′
+t−1
+
+.
+Now assume x and x′ are renewal actions in the sense that Θ (x, θt−1) = Θ
+ x′, θ′
+t−1
+
+. Note
+that we do not require x = x′, although this will often be the case. For example, if two households
+in non-rent controlled housing are living in the same neighborhood j and have the same level of
+16
+
+neighborhood tenure, then x = S and x′ = j, i.e. one household choosing to stay in the current
+home and the other moving to another house in the same neighborhood, constitute renewal actions.
+The key implication is that the future continuation values diﬀerence out, leaving:
+ut (x, θt−1) −ut
+ x′, θ′
+t−1
+
+= ln
+ 
+pt (x|θt−1)
+pt
+ x′|θ′
+t−1
+
+!
++ It (θt−1) −It
+ θ′
+t−1
+
+.
+(7)
+If θt−1 ̸= θ′
+t−1, we also need to remove the diﬀerence of log sums, which implicitly involves future
+continuation values as well.
+To do so, suppose the households move to some neighborhood j∗∈J , with j∗̸= x and j∗̸= x′.
+This always constitutes a renewal action, so we get equation (7) again with x and x′ replaced with
+j∗:
+ut (j∗, θt−1) −ut
+ j∗, θ′
+t−1
+
+= ln
+ 
+pt (j∗|θt−1)
+pt
+ j∗|θ′
+t−1
+
+!
++ It (θt−1) −It
+ θ′
+t−1
+
+.
+(8)
+Diﬀerencing equations (7) and (8) yields:
+ln
+ 
+pt (x|θt−1)
+pt
+ x′|θ′
+t−1
+
+!
+−ln
+ 
+pt (j∗|θt−1)
+pt
+ j∗|θ′
+t−1
+
+!
+=
+
+ut (x, θt−1) −ut
+ x′, θ′
+t−1
+
+(9)
+−
+
+ut (j∗, θt−1) −ut
+ j∗, θ′
+t−1
+
+,
+which removes the log sums. Intuitively, equation (9) compares the diﬀerence in utility between
+two diﬀerent actions a household in state θt−1 could take versus a household in state θ′
+t−1. This
+“diﬀerences-in-diﬀerences” approach removes all long-term utility diﬀerences since actions are se-
+lected to create renewals.
+5.2.2
+One Period Ahead Renewals
+Now suppose that x and x′ are not renewal actions in period t. Following Scott (2013), we substitute
+the expected diﬀerence in continuation values in equation (6) with its realization and expectational
+errors:
+ut (x, θt−1) −ut
+ x′, θ′
+t−1
+
+−ln
+ 
+pt (j|θt−1)
+pt
+ j′|θ′
+t−1
+
+!
+−
+
+It (θt−1) −It
+ θ′
+t−1
+
+=
+β
+ V t+1
+ Θ
+ x′, θ′
+t−1
+
+−V t+1 (Θ (x, θt−1))
+
++ ξV
+t
+ x′, θ′
+t−1
+
+−ξV
+t (x, θt−1)
+where
+ξV
+t (x, θt−1) = β
+ Et
+
+V t+1 (Θ (x, θt−1))
+
+−V t+1 (Θ (x, θt−1))
+
+is the expectational error.
+We now again make use of renewals. Suppose that at time t + 1, both households move to the
+same neighborhood, that is xt+1 = x′
+t+1 = j∗∈J . To see the eﬀects of this, ﬁrst substitute out
+17
+
+the realized ex-ante value functions using equations (4) and (5). We have:
+ut (x, θt−1) −ut
+ x′, θ′
+t−1
+
+−ln
+ 
+pt (j|θt−1)
+pt
+ j′|θ′
+t−1
+
+!
+−
+
+It (θt−1) −It
+ θ′
+t−1
+
+=
+β
+ vt+1
+ j∗, Θ
+ x′, θ′
+t−1
+
+−vt+1 (j∗, Θ (x, θt−1))
+
+−β ln
+ 
+pt+1
+ j∗, Θ
+ x′|θ′
+t−1
+
+pt+1 (j∗, Θ (x|θt−1))
+!
++ ∆ξV
+t ,
+where:
+∆ξV
+t = ξV
+t
+ x′, θ′
+t−1
+
+−ξV
+t (x, θt−1) .
+Since j∗is a renewal action, the time t+2 expected value functions diﬀerence out and this equation
+becomes:
+ut (x, θt−1) −ut
+ x′, θ′
+t−1
+
+−ln
+ 
+pt (j|θt−1)
+pt
+ j′|θ′
+t−1
+
+!
+−
+
+It (θt−1) −It
+ θ′
+t−1
+
+(10)
+=
+β
+ ut+1
+ j∗, Θ
+ x′, θ′
+t−1
+
+−ut+1 (j∗, Θ (x, θt−1))
+
+−β ln
+ 
+pt+1
+ j∗, Θ
+ x′|θ′
+t−1
+
+pt+1 (j∗, Θ (x|θt−1))
+!
++ ∆ξV
+t .
+To fully remove the conditional value functions, we once again must remove the diﬀerence in log
+sums It (θt−1) −It
+ θ′
+t−1
+
+.
+We follow the same procedure as previously, subtracting equation (8) from equation (10):
+ln
+ 
+pt (j|θt−1)
+pt
+ j′|θ′
+t−1
+
+!
+−ln
+ 
+pt (j∗|θt−1)
+pt
+ j∗|θ′
+t−1
+
+!
++ β ln
+ 
+pt+1 (j∗, Θ (x|θt−1))
+pt+1
+ j∗, Θ
+ x′|θ′
+t−1
+
+!
+(11)
+=
+
+ut (x, θt−1) −ut
+ x′, θ′
+t−1
+
+−
+
+ut (j∗, θt−1) −ut
+ j∗, θ′
+t−1
+
++β (ut+1 (j∗, Θ (x, θt−1)) −ut+1 (j∗, Θ (x, θt−1))) + ∆ξV
+t .
+Equations (9) and (11) provide a linear regression framework which we can use to fully identify
+and estimate the parameters of the model.
+5.3
+Empirical Framework
+We now discuss how to empirically operationalize the preceding considerations.
+5.3.1
+Constructing Conditional Choice Probabilities
+We ﬁrst need to construct empirical estimates of the conditional choice probabilities, pt (x|θt−1).
+In a given year t, we focus on those households who were part of the 1994 treatment and control
+groups described in the previous section and who have not moved away from their 1994 residence.
+18
+
+Given the latter restriction, we do not need to keep track of τ h and we therefore suppress the
+dependence of θt−1 on this state variable in what follows.
+With a large enough dataset, we could simply compute empirical frequencies for all conditional
+choice probabilities. However, since there are many states, not all CCPs in our data are measured
+precisely. We therefore use kernel smoothing on the empirical frequencies to improve the prediction
+error.
+We smooth over distance, neighborhood tenure, and age.
+We use a Gaussian kernel.
+Distance is measured between the midpoints of zipcodes. Neighborhood tenure equals the number
+of years the renter has lived in that zipcode. Young renters are those under the age of 40, while
+mature/old renters are those 40 and older.
+We use k-fold cross validation to set the optimal
+bandwidths with k=5. The young to mature transition probabilities κt are estimated each year
+from the Infutor data.
+5.3.2
+Identifying the Parameters of the Model
+We set β = .85.12
+We estimate the various parameters of the model by estimating equation
+(9) and (11) for appropriately chosen values of
+ θt−1, θ′
+t−1
+
+and (x, x′) . Intuitively, by examining
+the diﬀerential behavior of individuals in certain states of the world and following certain types
+of deviations, we can isolate the impact of the diﬀerent parameters of the model. We begin by
+constructing a regression equation for γM, λ1, and λ2. These are the (mature) rent utility parameter
+and the parameters of the transfer function. Normally, we would be confronted with a signiﬁcant
+endogeneity problem in estimating these parameters since market rents Rt (j, 0) in neighborhood
+j are likely correlated with the amenity value ωjt unobservable to the econometrician.
+We overcome this essential endogeneity problem by exploiting the quasi-experimental nature
+of the 1994 San Francisco rent control ballot measure. This law change quasi-randomly assigned
+renters within a given neighborhood j to rent control status. As mentioned, we focus exclusively
+on this population for our regressions.
+Now let θt−1 = (j, τ n, 1, M) and θ′
+t−1 = (j, τ n, 0, M) for some j ∈J not equal to j.
+We
+furthermore set x = x′ = S and let j∗be any element of J . In words, we consider two mature
+households who both lived in neighborhood j in 1994 and have not moved as of year t. The two
+households are of equal tenure τ n. One was assigned to rent control status in 1994 and the other
+was not. We examine the relative probabilities of these individuals staying in neighborhood j
+in year t, using neighborhood j∗as the renewal choice in the manner described in the previous
+12This choice is consistent with the evidence provided in De Groote and Verboven (2016), who estimate a
+household discount factor of .87.
+19
+
+section. Under these assumptions, equation (11) gives the regression:
+Y t
+j,j∗
+=
+γM [exp Rt (j, 1) −exp Rt (j, 0)]
++λ1 [(β ln Rt+1 (j, 0) −ln Rt (j, 0)) −(β ln Rt+1 (j, 1) −ln Rt (j, 1))]
++λ2 [β (t + τ n + 1) −(t + τ n)]
++∆ξV
+t + χt
+j,j∗
+Y t
+j,j∗
+=
+ln
+pt (S|j, 1, τ n)
+pt (S|j, 0, τ n)
+
+−ln
+pt (j∗|j, 1, τ n)
+pt (j∗|j, 0, τ n)
+
++ β ln
+pt+1 (j∗|j, 1, τ n)
+pt+1 (j∗|j, 0, τ n)
+
+Intuitively, this regression compares the probability of staying in the neighborhood for one more
+year and then moving to j∗versus moving to j∗this year. This diﬀerence in probabilities is then
+diﬀerenced between treatment and control, which diﬀerences out all the utility impacts of living
+in j vs j∗other than those which are impacted by rent control.
+Note that we have included an additional error term χt
+j,j∗, reﬂecting measurement error in
+our constructed conditional choice probabilities. The key for identiﬁcation is that the unobserved
+amenity value ωjt diﬀerences out. Since ωjt does not enter the estimating equation, these methods
+are robust to the possibility that tenants living in diﬀerent zipcodes have unobservably hetero-
+geneous preferences for the value of each zipcode’s unobserved amenities. Speciﬁcally, suppose
+tenants were of diﬀerent “types” in their valuation of neighborhood amenities and these types
+were perfectly sorted across zipcodes. Then, by comparing treatment and control tenants in the
+same zipcode, we always compare tenants of the same unobservable type, and diﬀerence out their
+type-speciﬁc valuation of neighborhood amenities.
+We furthermore know that:
+Et
+
+(exp Rt (j, 1) −exp Rt (j, 0))
+ ξV
+t
+ x′, θ′
+t−1
+
+−ξV
+t (x, θt−1)
+
+= 0
+due to treatment and control groups not having diﬀerentially biased expectations. That is, the
+diﬀerence in expectational errors between treatment and control is uncorrelated with any time t
+information. In general, however, we do not have:
+Et
+
+(β ln Rt+1 (j, 0) −ln Rt (j, 0)) −(β ln Rt+1 (j, 1) −ln Rt (j, 1))
+ ξV
+t
+ x′, θ′
+t−1
+
+−ξV
+t (x, θt−1)
+
+= 0.
+The time t + 1 rent diﬀerence may be correlated with the expectational error. This is intuitive.
+For instance, neighborhood j may be better at date t+1 than was expected since market rents are
+lower than anticipated. We, therefore, instrument for the time t + 1 rent diﬀerence ln Rt+1 (j, 1) −
+ln Rt (j, 1) with Zt, equal to the one-period lagged value ln Rt (j, 1) −ln Rt−1 (j, 1). Since Zt is in
+the time t information set, we have:
+Et
+
+Zt
+ ξV
+t
+ x′, θ′
+t−1
+
+−ξV
+t (x, θt−1)
+
+= 0.
+20
+
+Thus, our exclusion restrictions are satisﬁed and the parameters are identiﬁed.
+To estimate moving costs, we consider two households of equal tenure τ n living in non-rent
+controlled housing in neighborhood j. Suppose that one household immediately moves to another
+house in the same zipcode and one household stays in the same home. Formally, θt−1 = θ′
+t−1 =
+(j, τ n, 0, M), x = S, and x′ = j. As was discussed in Section 5.2.1, this constitutes an immediate
+renewal since rents do not change and neighborhood tenure does not change. Since one is only
+changing the house they live in due to the logit error and the moving costs, we can identify the
+ﬁxed cost of moving. If people move houses a lot within a zipcode, moving costs must be low. If
+they do it rarely, moving costs must be high. Equation (9) gives the regression:
+Y t
+j
+=
+−ϕ0,M +χt
+j
+Y t
+j
+=
+ln
+pt (S|j, 0, τ n)
+pt (j|j, 0, τ n)
+
+,
+which identiﬁes the ﬁxed moving cost parameter ϕ0,M . Note that there is only one log diﬀerence
+instead of two since the households begin in the same state.
+We also need the variable moving cost parameter, ϕd,M. Consider two mature households of
+equal tenure τ n, both living in non-rent controlled housing, one living in neighborhood j and the
+other in neighborhood j′. Suppose they immediately move to either neighborhood j∗or j∗∗. Both
+of these are choices constitute immediate renewals. Therefore, Equation (9) gives the speciﬁcation:
+Y t
+j,j′,j∗,j∗∗
+=
+ϕd,M (dj,j∗−dj′,j∗) −ϕd,M (dj,j∗∗−dj′,j∗∗)
++ϕτ,M τ n (dj,j∗−dj′,j∗) −ϕτ,M τ n (dj,j∗∗−dj′,j∗∗) + χt
+j,j′,j∗,j∗∗
+Y t
+j,j′,j∗,j∗∗
+=
+ln
+ pt (j∗|j, 0, τ n)
+pt (j∗|j′, 0, τ n)
+
+−ln
+ pt (j∗∗|j, 0, τ n)
+pt (j∗∗|j′, 0, τ n)
+
+.
+Intuitively, this compares the relative probabilities of moving to j∗vs j∗∗depending on whether
+one starts in j or j′. If j is very close to j∗, but far from j∗∗, then the diﬀerence in moving
+costs between the moves in large. However, if j′ is equidistant between the two, the moving costs
+between the two locations are the same. The relationship between these diﬀerences in distances
+and diﬀerences in migration probabilities identiﬁes the marginal cost of moving with respect to
+distance. As we vary τ n, we further identify the impact of initial tenure on this marginal cost.
+To identify the impact of tenure on utility αM, consider two mature households living in
+non-rent controlled housing in neighborhood j, with diﬀerent levels of initial tenure, τ n and τ ′
+n.
+Suppose both households move to j∗after one year.
+We thus have θt−1 = (j, τ n, 0, M) and
+θ′
+t−1 = (j, τ ′
+n, 0, M) for some j ∈J and x = x′ = S. Then equation (11) becomes:
+Y t
+j,j∗
+=
+αM (τ n −τ ′
+n) + (β −1)ϕτ,M(τ n −τ ′
+n)dj,j∗+ ∆ξV
+t + χt
+j,j∗
+Y t
+j,j∗
+=
+ln
+pt (S|j, 0, τ n)
+pt (S|j, 0, τ ′
+n)
+
+−ln
+pt (j∗|j, 0, τ n)
+pt (j∗|j, 0, τ ′
+n)
+
++ β ln
+pt+1 (j∗|j, 0, τ n)
+pt+1 (j∗|j, 0, τ ′
+n)
+
+21
+
+Since both households live in non-rent controlled housing in the same neighborhood, they pay
+the same rents and receive the same unobserved amenity value. Indeed, the only payoﬀ-relevant
+diﬀerence between the two populations is the number of years they have lived in the neighbor-
+hood. Thus, appropriately examining the relative probabilities of staying in the neighborhood is
+informative of the importance of tenure on utility or, in other words, of the magnitude of αM. In-
+tuitively, as one builds up more neighborhood capital, the beneﬁts of staying in the neighborhood
+an additional year. Thus, the relative probability of staying one more year versus moving away
+should grow if neighborhood capital is accruing.
+Note that one can use the treatment group as well as the control group to estimate the neigh-
+borhood tenure parameters and the variable moving cost parameters. The regression equations
+for the moving cost parameters are exactly the same when using the treatment group. However,
+since individuals with diﬀerent levels of tenure receive diﬀerent transfer payments, the equation
+identifying the utility impact of tenure needs to be modiﬁed to take this into account. The equa-
+tions for young households are very similar to the ones described above, but the probability of
+transitioning to a mature household must be taken into account. The regression equations for the
+young are detailed in Appendix B. The full model is then estimated via GMM.
+Finally, it remains to estimate the permanent component of amenities ωj.13 We do so after
+estimating the full GMM system detailed above.
+We once again consider two mature house-
+holds of equal tenure τ n, living in neighborhoods j and j′ respectively and suppose that both
+households move to some neighborhood j∗after one year. We thus have, θt−1 = (j, τ n, 0, M) ,
+θ′
+t−1 = (j′, τ n, 0, M) , and x = x′ = S. These choices yield the equation:
+Y t
+j,j′,j∗
+=
+ωj −ωj′ + ˜ωjt −˜ωj′t + ∆ξV
+t + χt
+j,j′,j∗
+Y t
+j,j′,j∗
+=
+ln
+ pt (S|j, 0, τ n)
+pt (S|j′, 0, τ n)
+
+−ln
+ pt (j∗|j, 0, τ n)
+pt (j∗|j′, 0, τ n)
+
++ β ln
+ pt+1 (j∗|j, 0, τ n)
+pt+1 (j∗|j′, 0, τ n)
+
+−(β −1) ϕd,M (dj,j∗−dj′,j∗) −(β −1) ϕτ,M τ n (dj,j∗−dj′,j∗)
++γM [exp Rt (j, 0) −exp Rt (j′, 0)] .
+Identiﬁcation comes from the fact that, averaging over time, we average out the per-period neigh-
+borhood amenity shocks and expectational error shocks. Moreover, note that we do not have
+an endogeneity problem since we have already estimated γM and can therefore move the utility
+impact of the rent diﬀerence to the left hand side of the equation. We also account for the diﬀer-
+ential moving costs related to distance on the left hand side of the equation. Finally, note that
+we can only identify ﬁxed amenity value diﬀerences between neighborhoods. We therefore choose
+a normalization, letting zipcode 94110, representing the Mission District and Bernal Heights, be
+our baseline zipcode. We set its amenity value ﬁxed eﬀect to zero.
+13We cannot identify amenities of the outside options, i.e. the rest of the Bay Area and the rest of the country,
+as no one in our 1994 cohorts started oﬀliving in those locations.
+22
+
+5.4
+Model Estimates
+Table 3 shows the parameter estimates of the model. Panel A reports the parameters measured
+in rent equivalent dollar units, with the exception of the transfer payments, which are measured
+assuming a constant marginal utility of a dollar,.14
+Panel B reports the estimates in units of
+migration elasticities. We will focus on the estimates in Panel A. Normalizing the coeﬃcient on
+exponential rents to 1, we identify the standard deviation of tenants’ idiosyncratic shocks to their
+location preferences. We ﬁnd that young renters have annual location taste shocks with a standard
+deviation equivalent to $7,411. Mature renters face location shocks with a 12.7% lower standard
+deviation. These estimates are consistent with our previously discussed hypothesis that young
+renters’ migration decisions are more driven by idiosyncratic shocks than mature households.
+Turning to the magnitudes of the tenant buyouts, we ﬁnd young renters receive $1.631 more
+dollars from their landlords for each additional $1 below market their rent is. Mature renters face
+similar impact of $1.404. We also ﬁnd buyout oﬀers are larger as tenants live in their zipcodes
+longer. For each additional year a young (mature) tenant lives in their zipcode, they receive $164
+($141) additional dollars in the buyout oﬀer from their landlord. Finally, we ﬁnd mature tenants
+receive larger buyout oﬀers overall by $70,702. This may reﬂect that landlords expect mature
+tenants to remain in their apartments for the very long term. Along the same lines, to the extent
+that these transfers reﬂect evictions, landlords would be more incentivized to evict mature renters.
+To get a better sense of the magnitudes of these buyout payments, Figure E.9 plots the average
+buyout to young tenants oﬀered in each year in the data, across all tenants and neighborhoods.
+By 2010, the average oﬀer to tenants who still remain at their 1994 address is just over $30,000.
+Figure E.10 plots the heterogeneity across zipcodes in mean buyout oﬀers, highlighting that some
+zipcodes experience much larger rent increases than others over this time period. In the most
+expensive zipcode, the average buyout in 2010 is just about $40,000, while in the cheapest zipcode
+the mean buyout oﬀer is around $25,000. These numbers seem very much in line with popular
+press anecdotes about tenant buyouts in San Francisco.
+Moving along to our estimates of moving costs, we ﬁnd the ﬁxed cost of moving is equivalent, in
+rent-equivalent dollars, to $42,626 for young renters and $38,988 for old renters. These estimates
+seem quite reasonable and actually quite below what is typically found in the literature. A main
+driver of the magnitude of this estimate are the short-run migration elasticities with respect to a
+one-year temporary change. It is often quite hard to ﬁnd a high quality instrument for rents that
+does not eﬀect other omitted variables such as amenities. Likely, many instruments for rent also
+impact the supply and quality of amenities, leading to rent elasticities being biased towards 0. Our
+rent control policy experiment only aﬀects rents and cannot aﬀect amenities in our regressions, as
+14These are measured at the mean rent paid by rent-controlled households, $2350. We ﬁx the marginal utility
+of a dollar for the tenant buyout parameters to account for the fact that the buyout need not be spent all in that
+period. Since the buyout amounts could easily be more than a year’s rent, it does not make sense to allow the MU
+of a dollar to go to zero as the model assumes if rent were zero.
+23
+
+we are comparing migration decisions between market rent and rent controlled households in the
+same neighborhood consuming the same amenities.
+In addition to the ﬁxed costs of moving, we ﬁnd that the moving costs increase with the
+distance of the move. A 1% increase in move distance is equivalent to $114 for the young and $101
+for the old. Finally, we also consider whether these variable moving costs change as households
+live in their zipcodes longer. One might think that the longer a household has lived in the area
+the more familiar they are with further and further away neighborhoods, lowering those marginal
+moving costs. Indeed, we ﬁnd this is the case, with each additional year a tenant has lived in their
+zipcode lowering the moving cost by $415 for the young and $357 for the old.
+Lastly, we turn to our neighborhood capital estimates. Proponents of rent control often argue
+that long-term residents are the ones in the most need of rent control as migrating away from their
+community forces them to lose many of the connections and investments they have been in the
+neighborhoods over time. We do ﬁnd very statistically signiﬁcant eﬀects of neighborhood capital
+accumulation, though the economic magnitude is small. Young (mature) households increasingly
+value living in their zipcode by $266 ($292) in dollar rent equivalent terms. However, these eﬀects
+can add up to a sizable eﬀect over a lifetime.
+6
+Welfare Eﬀects of Rent Control
+6.1
+Welfare Decomposition: 1994-2012
+We begin our investigation of the welfare eﬀects of rent control by decomposing the impacts of the
+1994 ballot initiative on its beneﬁciaries, relative to the control group. We discuss here mature
+households. The expressions for young households are exactly analogous.
+In any given year t between the years of 1994 and 2012, the average utility diﬀerence between
+the treatment group and the control group is given by:
+∆U M
+t
+=
+X
+θt−1
+X
+x
+(ut (x, θt−1) + Et [εixt|x, θt−1])
+ pT
+t (x, θt−1) −pC
+t (x, θt−1)
+
+(12)
+where recall ut (x, θt−1) = u (x, ωt, 0, θt−1) and the utility function is deﬁned in equation (3). The
+expressions pT
+t (x, θt−1) and pC
+t (x, θt−1) denote the fraction of the treatment and control groups
+respectively that are in state θt−1 and choose action x at time t. The conditional expectation
+Et [εit|x, θt−1] denotes the average logit error conditional on choosing x from state θt−1. Of course,
+equation (12) simply says that the average utility diﬀerence at time t is the weighted average
+utility received by the treatment group minus the weighted average utility received by the control
+group.
+We can decompose this average utility diﬀerence by substituting in for the utility function from
+24
+
+equation (3). We ﬁnd that:
+∆U M
+t
+=
+∆U M,Rent
+t
++ ∆U M,Payoff
+t
++ ∆U M,NC
+t
+(13)
++∆U M,MC
+t
++ ∆U M,Miles
+t
++ ∆U M,Amenity
+t
++ ∆U M,Logit
+t
+.
+That is, the average utility diﬀerence between the treatment group and the control arises from
+diﬀerences in average rent paid ∆U M,Re nt
+t
+, in transfers received from landlords ∆U M,Payoff
+t
+, in
+accumulated neighborhood capital ∆U M,NC
+t
+, in ﬁxed costs ∆U M,MC
+t
+, in variable moving costs
+∆U M,Miles
+t
+, in neighborhood amenity values ∆U M,Amenity
+t
+, and in idiosyncratic valuations ∆U M,Logit
+t
+.
+Using our structural estimates for each component of the utility function, each of these compo-
+nents can readily calculated through a standard diﬀerences-in-diﬀerences regression. The details
+are provided in Appendix C.15 To gain an understanding of the magnitudes of each of these com-
+ponent eﬀects, we convert our estimated utility diﬀerences into rent equivalent dollar amounts.
+That is, we determine what change in rent would to the same (incremental) utility diﬀerence as
+the eﬀect under consideration.
+6.1.1
+Results
+The results of this decomposition are reported in Table 4. We ﬁnd that the beneﬁciaries of the 1994
+rent control law received large welfare beneﬁts between the 1995-2012 period. Older households
+received a total rent-equivalent dollar beneﬁt of $119,837, reﬂecting an annual beneﬁt of $6,658.
+These beneﬁts were front loaded, with households earning a cumulative beneﬁt of $74,622 and
+average annual beneﬁt of $8,291 during the 1995-2003 period Cumulative beneﬁts equaled $45,216
+during the 2004-2012 period, reﬂecting an annual average of $5,024.
+In terms of decomposition, most of the beneﬁts from the rent control law came from protection
+against rent increases and transfers.16 Respectively, protection against rent increases constituted
+44.2% of the total beneﬁt and transfers constituted 30.1% of the total. Lower moving costs, both
+ﬁxed and variable, were 13.5% of the total. Increased neighborhood capital constituted only small
+fraction of the total beneﬁt at 1.2%. The welfare beneﬁts from increased amenity values were
+negligible.
+Interestingly, we ﬁnd increased utility from the utility value of one’s idiosyncratic
+preference equal to 11.3% of the welfare gain. This likely due to the fact that we found some low
+neighborhood capital households were more likely to move due to rent control, allowing them to
+15As shown in the appendix, calculating these expressions can actually be done with just a simple diﬀerence
+between treatment and control. We use the pre-post diﬀerence-in-diﬀerence to be consistent with our previous
+estimations.
+16The model assumes that all observed moves are rational choices. The transfers we estimate are those which
+rationalize the observed empirical frequencies. It is possible that some of the moves we see in the data are forced
+evictions, rather than the result of negotiations between landlords and tenants over monetary compensation. To
+the extent that this is the case, our welfare beneﬁts from transfer payments over overstated. However, even in the
+extreme case where the welfare beneﬁts from transfers are zero, the beneﬁts from protection against rent increases
+would still be large.
+25
+
+overcome moving costs and live in a location that best suits their idiosyncratic preference.
+The beneﬁts of the rent control expansion were smaller for younger households, although still
+large. That they are smaller is consistent with our estimate that younger households receive larger
+idiosyncratic shocks, which leads to more frequent moving and thus smaller beneﬁts from rent con-
+trol protections. Younger households are also estimated to receive smaller transfers. Cumulative
+welfare beneﬁts for these households totaled $41,121, reﬂecting an annual average of $2,285. Simi-
+lar to mature households, the beneﬁts were front loaded. Younger households received cumulative
+beneﬁts of $32,960 during the 1995-2003 period and cumulative beneﬁts of $8,162 during the
+2004-2012 period. Annual averages were $3,662 and $907 respectively.
+Also similar to mature households, most of the beneﬁts came from protection against rent
+increases and transfers, constituting 79.6% and 45.4% respectively over the total period. The
+fraction due to moving costs is much smaller for younger households, at only 6.8%. Note this
+reinforces the idea that, due to a higher variance if idiosyncratic shocks, younger households
+optimally choose to move more often. The fraction due to neighborhood capital is once again
+small, constituting just 2.9% for the average. Welfare beneﬁts due to increased amenity values
+now reﬂect a small, but non-negligible, fraction of the total beneﬁt at 2.6%. Finally, the young
+face a substantial welfare loss due to living in places that are worse matches to their idiosyncratic
+preference under rent control, equal to -37.2%. This reﬂects that to stay in one’s apartment to
+beneﬁt from below market rents, one must give up living in the best apartment and location that
+suits one’s preferences. Our estimates shows that idiosyncratic preference variance is higher for
+the young, making giving up the match value a larger sacriﬁce.
+We aggregate these numbers over the entire population of renters impacted by the rent control
+law.
+The aggregate welfare beneﬁts are very large.
+Older households received a cumulative
+(undiscounted) beneﬁt of $2.5 billion over the entire period, while younger households received a
+cumulative beneﬁt of $1.3 billion dollars. Across the entire population, the aggregate beneﬁt was
+$3.9 billion dollars, reﬂecting an annual average of $214 million dollars. To put this in present
+discount value using a discount rate of 0.95, this equates to a $2.9 billion dollar welfare gain to
+treated tenants. Note also that these welfare numbers are only for the 1994 population impacted
+by the rent control expansion. It does not take into account the welfare beneﬁts for renters who
+moved into the impacted properties in later years, which presumably were also quite large.
+6.2
+General Equilibrium Welfare Impact of Reduced Supply
+We ﬁnally turn to evaluating the GE welfare impact of the landlord supply response.
+Since
+small multifamily housing constituted 44% of 1994 non rent-controlled housing stock, our reduced
+form results indicate that rental supply in San Francisco decreased by 6% as a result of the rent
+control expansion. Given this reduction in supply, we would therefore expect that average San
+Francisco rents are higher than they otherwise would have been. Using our structural framework,
+26
+
+we quantify how large this long-run implied rent increase is and quantify the welfare impacts of
+the rent increase. Here, we show how to derive the implied rent increase in a world populated only
+with mature renters. Our numbers, however, are based on the full model in which there are both
+young renters and mature renters. The derivation of the implied rent increase in the full model is
+provided in Appendix D.
+To derive the rent increase, we assume that the world is initially in steady-state. Supposing
+that the world is populated by only old renters, steady-state requires that the ﬂow of renters
+into each neighborhood must equal the ﬂow of renters out of that neighborhood, where we again
+index neighborhoods by j.17 Recall that our set of possible locations are all the zipcodes in San
+Francisco, the larger Bay Area, and the rest of the United States.The steady-state condition takes
+the form:
+Nj (1 −p (j|j)) =
+X
+j′̸=j
+Nj′p (j|j′) ,
+(14)
+where Nj is the steady-state population living in neighborhood j and p (j|j′) is the steady-state
+probability of moving from state j′ to state j.18 Normalizing the size of the population to one, we
+require that:
+X
+j
+Nj = 1.
+(15)
+Equations (14) and (15) provide a linear system of equations which solves for the steady-state
+number of people Nj living in each location j.
+As discussed above, our reduced form results indicate that the 1994 rent control expansion led
+to a San Francisco-wide reduction in supply of 6%. We assume that this proportional decrease in
+supply was the same across all San Francisco zipcodes. That is, we suppose:
+d ln Nj
+dΦ
+= −.06
+for all zipcodes j in San Francisco. Here, Φ is simply a convenient notation indicating the impact
+of the supply shock. We further assume that supply is perfectly elastic in the Bay Area and the
+rest of the United States, so that there is no long-run change in rents in these areas. In particular:
+d ln Rj
+dΦ
+= 0
+for j not in San Francisco. Our unknowns are the proportional rent increases d ln Rj/dΦ for all
+j in San Francisco and the proportional population changes d ln Nj/dΦ in the areas j outside of
+San Francisco, i.e. the Bay Area and the rest of the United States.
+17Since the model estimates show that the utility value of neighborhood capital is economically small, we assume
+it to be zero for these calculations. This collapses the state-space dramatically and only requires us to track tenants
+ages (young/mature) and neighborhoods.
+18Note that p (j|j) reﬂects both the probability of staying at the current address and moving to another address
+within the same zipcode.
+27
+
+As rents change in response to the supply shock, so too will the equilibrium choice probabilities.
+Intuitively, all else equal, higher rents make an area less desirable and decrease the probability
+than an individual will choose to move there. Formally, recall that equilibrium choice probabilities
+are given by:
+p (x|j) =
+exp (v (x, j))
+P
+x′ exp (v (x′, j)),
+where x denotes the location of choice. Taking the derivative of this equation with respect to a
+rent change in location k, we ﬁnd that:
+∂p (x|j)
+∂ln Rk
+= p (x|j)
+ 
+∂v (x, j)
+∂ln Rk
+−
+X
+x′
+p (x′|j) ∂v (x′, j)
+∂ln Rk
+!
+.
+(16)
+Taking a total derivative of the equilibrium choice probability yields:
+dp (x|j)
+dΦ
+=
+X
+k
+∂p (x|j)
+∂ln Rk
+d ln Rk
+dΦ
+.
+(17)
+We now can see that the change in equilibrium choice probabilities depends in turn on how the
+equilibrium value functions change as a function of rent increases.
+In steady-state, the value of choosing location x conditional on being in location j is given by:
+v (x, j) = u (x, j) + β ln
+ X
+x′
+exp (v (x′, j (x)))
+!
++ βΓ,
+where we have applied equation (5) to replace the expected continuation value. The derivative of
+this conditional value function with respect to an increase in rents at location j is given by:
+∂v (x, j)
+∂ln Rk
+= γM exp (Rx) Rx1 [x = k] + β
+X
+x′
+p (x′|x) ∂v (x′, x)
+∂ln Rk
+.
+(18)
+There is a direct impact of the rent increase on the agent only if the she chooses to move to location
+k today. Otherwise, the eﬀect is an indirect one, arising from the possibility that the agent will
+move to location k and thus face the higher rents at some point in the future. Note also that the
+gradient of the conditional value function with respect to the rent increase is independent of the
+current location j. Equation (18) provides a linear system of equation which can be numerically
+solved to determine ∂v (x, j) /∂ln Rk for all possible x and k. These value function gradients can
+then be plugged into equation (16) to numerically determine the response of equilibrium choice
+probabilities to rent increases ∂p (x|j) /∂ln Rk.
+To ﬁnish the calculation, we take a total derivative of equation (14) with respect to Φ, since,
+naturally, the steady-state condition must continue to hold at the new long-run equilibrium. Per-
+28
+
+forming this calculation yields:
+d ln Nj
+dΦ
+Nj −
+X
+j′
+d ln Nj′
+dΦ
+Nj′p (j|j′) =
+X
+j′
+Nj′ dp (j|j′)
+dΦ
+.
+We then use equation (17) to rewrite the change in conditional choice probabilities as a linear
+function of the rent changes, which yields:
+d ln Nj
+dΦ
+Nj −
+X
+j′
+d ln Nj′
+dΦ
+Nj′p (j|j′) =
+X
+k
+X
+j′
+Nj′ ∂p (j|j)
+∂ln Rk
+d ln Rk
+dΦ
+(19)
+We know that d ln Nj/dΦ = −.06 for all zipcodes j in San Francisco and that d ln Nk/dΦ = 0 for
+k equal to either the Bay Area or the rest of the United States. Our ﬁnal equation is:
+X
+j /∈SF
+d ln Nj
+dΦ
+= .06NSF,
+(20)
+where NSF is the fraction of the total population which resides in San Francisco in the initial
+pre-law steady-state.
+Recall that we have normalized the total population size to one.
+This
+equation simply states that the total increase in population outside of San Francisco must equal
+the total population decrease in San Francisco. Equations (19) and (20) provide a linear system of
+equations which can be numerically solved to determine the proportional rent increases d ln Rj/dΦ
+for zipcodes in San Francisco and the proportional population changes d ln Nj/dΦ for the Bay Area
+and the rest of the United States.
+Finally, we can decompose the distribution of welfare eﬀects by measuring the changes in the
+value function of each state, multiplied by the number of tenants in that state at the time of the
+supply reduction. Summing up this across all states gives the aggregate welfare eﬀects.
+6.2.1
+Results
+We ﬁnd that 6% decrease in housing supply led to 5.1% increase in rental prices. We can calculate
+the change in households’ value functions. We next look at the distribution of changes in value
+functions across households living in SF versus outside. We ﬁnd that 42% of the welfare losses due
+to this rent increase fall on those not living in SF in 1993. These future residents bear the burden
+of rent control, while the incumbent residents are those who are able to reap rent control’s direct
+rewards. The change in the value function is challenging to put in dollar terms, since an upfront
+dollar value in units or rent would lead to dramatic increases in the marginal utility of a rental
+payment. Thus, we opt for an accounting metric to summarize the present discounted value of the
+5.1% rent increase. Using a typical account discount rate of 0.95, we ﬁnd this rent increases has
+a present discounted value of $2.9 billion. To compare this to the direct tenant beneﬁts of rent
+control, we must also discount those per period payoﬀs by the same accounting discount rate. The
+29
+
+tenant beneﬁts from 1995-2012 would be valued at $2.9 billion. This is (surprisingly) the same
+estimate we get for the GE losses due to the city-wide rent increase. These GE welfare losses only
+account for the increased rents due to the decreased supply of housing. We also found that rent
+control incentivized landlords to invest in their properties by renovating and building new housing,
+as well as converting to owner occupancy. These eﬀects likely attached higher income tenants to
+San Francisco and further raised rents. It appears that the GE losses from the landlords’ response
+to rent control essentially completely undoes the gains accrued to the households that were lucky
+enough to receive rent control in 1994.
+7
+Conclusion
+In this paper, we study the welfare impacts of rent control on its tenant beneﬁciaries as well as
+the welfare impacts of landlords’ responses. To answer this question, we exploit a unique rent
+control expansion in San Francisco in 1994 that suddenly provided rent control protections for
+small multifamily housing built prior to 1980. By combining new panel micro data on individual
+migration decisions with detailed assessor data on individual SF parcels we get quasi-experimental
+variation in the assignment of rent control at both the individual tenant level and at the parcel
+level.
+We ﬁnd that, on average, in the medium to long term the beneﬁciaries of rent control are
+between 10 and 20% more likely to remain at their 1994 address relative to the control group.
+These eﬀects are signiﬁcantly stronger among older households and among households that have
+already spent a number of years at their current address. On the other hand, individuals in areas
+with quickly rising rents and with few years at their 1994 address are less likely to remain at their
+current address, consistent with the idea that landlords try to remove tenants when the reward is
+high, through either eviction or negotiated payments.
+We ﬁnd that landlords actively respond to the imposition of rent control by converting their
+properties to condos and TICs or by redeveloping the building in such as a way as to exempt it
+from the regulations. In sum, we ﬁnd that impacted landlords reduced the supply the available
+rental housing by 15%. Consistent with this evidence, we ﬁnd that there was a 20% decline in the
+number of renters living in impacted buildings, relative to 1990-1994 levels, and a 30% decline in
+the number of renters living in units protected by rent control.
+We develop a dynamic, structural model of neighborhood choice to translate our reduced form
+impacts into welfare impacts. A key contribution of the paper is to show how quasi-experimental
+evidence can be leveraged to estimate a dynamic discrete choice model. We ﬁnd that rent control
+oﬀered large beneﬁts to impacted tenants during the 1995-2012 period, averaging between $2300
+and $6600 per person each year, with aggregate beneﬁts totaling over $214 million annually. Over
+the entire period, tenants received a discounted value of around $2.9 billion. We ﬁnd that most of
+30
+
+these beneﬁts came from protection against rent increases and transfer payments from landlords.
+However, we ﬁnd losses to all renters of $2.9 billion due to rent control’s eﬀect on decreasing the
+rental housing and raising market rents. Further, 42% of these losses are born by future residents
+of San Francisco, making them worse oﬀ, while incumbent residents beneﬁt on net.
+These results highlight that forcing landlords to provided insurance against rent increases leads
+to large losses to tenants. If society desires to provide social insurance against rent increases, it
+would less distortionary to oﬀer this subsidy in the form of a government subsidy or tax credit. This
+would remove landlords’ incentives to decrease the housing supply and could provide household
+with the insurance they desire. A point of future research would be to design an optimal social
+insurance program to insure renters against large rent increases.
+References
+Arcidiacono, Peter and Paul B. Ellickson, “Practical Methods for Estimation of Dynamic Discrete
+Choice Models,” Annual Review of Economics, 2011, 3 (1), 363–394.
+and Robert A. Miller, “Conditional Choice Probability Estimation of Dynamic Discrete Choice
+Models With Unobserved Heterogeneity,” Econometrica, November 2011, 79 (6), 1823–1867.
+Autor, David H, Christopher J Palmer, and Parag A Pathak, “Housing Market Spillovers: Evi-
+dence from the End of Rent Control in Cambridge, Massachusetts,” Journal of Political Economy, 2014,
+122 (3), 661–717.
+Bayer, Patrick, Robert McMillan, Alvin Murphy, and Christopher Timmins, “A Dynamic
+Model of Demand for Houses and Neighborhoods,” Econometrica, May 2016, 84 (3), 893–942.
+Bishop, Kelly C. and Alvin D. Murphy, “Estimating the Willingness to Pay to Avoid Violent Crime:
+A Dynamic Approach,” American Economic Review, May 2011, 101 (3), 625–629.
+Davis, Morris A., Jess Gregory, Daniel A. Hartley, and Kegon Teng Kok Tan, “Neighborhood
+Choices, Neighborhood Eﬀects and Housing Vouchers,” 2017.
+Downs, Anthony, “Residential Rent Controls,” Washington, DC: Urban Land Institute, 1988.
+Early, Dirk W., “Rent Control, Rental Housing Supply, and the Distribution of Tenant Beneﬁts,” Journal
+of Urban Economics, September 2000, 48 (2), 185–204.
+Glaeser, Edward L and Erzo FP Luttmer, “The Misallocation of Housing under Rent Control,” The
+American Economic Review, 2003, 93 (4), 1027–1046.
+Groote, Olivier De and Frank Verboven, “Subsidies and Myopia in Technology Adoption: Evidence
+from Solar Photovoltaic Systems,” SSRN Scholarly Paper ID 2827556, Social Science Research Network,
+Rochester, NY August 2016.
+Gyourko, Joseph and Peter Linneman, “Equity and Eﬃciency Aspects of Rent Control: An Empirical
+Study of New York City,” Journal of urban Economics, 1989, 26 (1), 54–74.
+and
+, “Rent Controls and Rental Housing Quality: A Note on the Eﬀects of New York City’s Old
+Controls,” Journal of Urban Economics, May 1990, 27 (3), 398–409.
+Hotz, V. Joseph and Robert A. Miller, “Conditional Choice Probabilities and the Estimation of
+Dynamic Models,” The Review of Economic Studies, 1993, 60 (3), 497–529.
+Kasarda, John D. and Morris Janowitz, “Community Attachment in Mass Society,” American Soci-
+ological Review, 1974, 39 (3), 328–339.
+31
+
+Kennan, John and James R. Walker, “The Eﬀect of Expected Income on Individual Migration
+Decisions,” Econometrica, January 2011, 79 (1), 211–251.
+Moon, Choon-Geol and Janet G. Stotsky, “The Eﬀect of Rent Control on Housing Quality Change:
+A Longitudinal Analysis,” Journal of Political Economy, December 1993, 101 (6), 1114–1148.
+Murphy, Alvin, “A Dynamic Model of Housing Supply,” SSRN Scholarly Paper ID 2200459, Social
+Science Research Network, Rochester, NY February 2017.
+Olsen, Edgar O, “An Econometric Analysis of Rent Control,” Journal of Political Economy, 1972, 80
+(6), 1081–1100.
+Scott, Paul T., “Dynamic Discrete Choice Estimation of Agricultural Land Use,” Toulouse School of
+Economics Working Paper, 2013, 526.
+Sims, David P, “Out of Control: What Can We Learn from the End of Massachusetts Rent Control?,”
+Journal of Urban Economics, 2007, 61 (1), 129–151.
+, “Rent Control Rationing and Community Composition: Evidence from Massachusetts,” The BE Jour-
+nal of Economic Analysis & Policy, 2011, 11 (1).
+32
+
+Table 1: Sample Characteristics of Multi-Family Properties (2-4 Units) and their Tenants
+A. Tenants Living in Multi-Family Residence (2-4 Units)
+1990-1993
+1994-2016
+Treat
+Control
+Treat
+Control
+A1. Demographics
+Age in 1993
+37.708
+37.120
+37.708
+37.120
+(10.438)
+(10.639)
+(10.438)
+(10.639)
+A2. Residency
+In SF
+0.954
+0.954
+0.569
+0.538
+(0.210)
+(0.210)
+(0.495)
+(0.499)
+Same Zipcode
+0.895
+0.890
+0.337
+0.308
+(0.307)
+(0.313)
+(0.473)
+(0.462)
+Same Address
+0.870
+0.867
+0.261
+0.240
+(0.336)
+(0.340)
+(0.439)
+(0.427)
+Years at Address
+6.015
+5.825
+6.590
+6.267
+(3.958)
+(3.927)
+(5.898)
+(5.530)
+No. Persons
+44502
+1861
+44502
+1861
+B. Multi-Family Properties (2-4 Units)
+B1. Residency
+Vacant
+0.123
+0.107
+0.099
+0.098
+(0.328)
+(0.309)
+(0.299)
+(0.297)
+B2. Population
+Population/Avg Pop 90-94
+0.898
+0.905
+2.282
+2.252
+(0.436)
+(0.426)
+(4.029)
+(2.998)
+Renters/Avg Pop 90-94
+0.741
+0.737
+1.680
+1.700
+(0.484)
+(0.482)
+(3.555)
+(2.517)
+Renters in Rent-Controlled
+0.741
+0.737
+1.404
+1.570
+Buildings/Avg Pop 90-94
+(0.484)
+(0.482)
+(1.927)
+(2.053)
+Renters in Redeveloped
+0
+0
+0.129
+0.060
+Buildings/Avg Pop 90-94
+(0)
+(0)
+(0.740)
+(0.541)
+Owners/Avg Pop 90-94
+0.157
+0.168
+0.602
+0.552
+(0.329)
+(0.335)
+(1.581)
+(1.348)
+B3. Permits
+Cumulative Add/Alter/Repair per Unit
+0.072
+0.088
+0.290
+0.254
+(0.231)
+(0.287)
+(0.511)
+(0.536)
+Ever Received Add/Alter/Repair
+0.127
+0.137
+0.375
+0.315
+(0.333)
+(0.344)
+(0.484)
+(0.464)
+No. Parcels
+25925
+892
+25925
+892
+Notes: Panel A reports the mean and standard deviation (in parentheses) of demographic characteristics and
+residency outcomes during 1990 −2016 of our tenant sample. The sample consists of all tenants between 20 and
+65 years old living in San Francisco as of December 31, 1993 and in multi-family residences with 2-4 units that
+were built during 1900 −1990. Panel B reports the mean and standard deviation (in parentheses) of outcomes
+variables related to residency, population changes and permit issuance during 1990 −2016 of our property sample.
+The sample consists of all parcels that are multi-family residence with 2-4 units in San Francisco that were built
+during 1900 −1990.
+33
+
+Table 2: Treatment Eﬀect for Tenants of Multi-Family Residence (2-4 Units)
+(1)
+(2)
+(3)
+In SF
+Same Zip
+Same Address
+Treat×Period
+1994-1999
+0.0200
+0.0226
+0.0218
+(0.0081)
+(0.0087)
+(0.0083)
+2000-2004
+0.0451
+0.0355
+0.0354
+(0.0115)
+(0.0104)
+(0.0088)
+Post 2005
+0.0366
+0.0302
+0.0147
+(0.0109)
+(0.0084)
+(0.0063)
+Control Mean 1994 −1999
+0.7641
+0.5971
+0.5410
+Control Mean 2000 −2004
+0.5138
+0.2672
+0.1827
+Control Mean Post 2005
+0.4346
+0.1801
+0.1135
+Adjusted R2
+0.600
+0.630
+0.655
+Observations
+1251747
+1251747
+1251747
+Notes: Sample consists of all tenants between 20 and 65 years old living in San Francisco as of December 31,
+1993 and in multi-family residences with 2-4 units that were built during 1900 −1990. Table reports the mean
+of dependent variables for the control group during 1990 −1994, 2000 −2004 and post-2005. Standard errors are
+clustered at the person level.
+34
+
+Table 3: Model Estimates
+A. Parameter Estimates in 2010 Dollars
+St Dev of Logit Shocks
+Tenant Buyouts
+Moving Costs
+Neighborhood Capital
+Young Renters
+7441.178
+ln Below Market Rent
+1.631
+Fixed Cost
+42626.11
+Young Renters
+265.795
+(1278.596)
+(Young Renters)
+(0.092)
+(Young Renters)
+(4776.017)
+(52.9889)
+Old Renters
+6496.264
+ln Below Market Rent
+1.404
+Fixed Cost
+38987.65
+Old Renters
+291.781
+(995.629)
+(Old Renters)
+(0.101)
+(Old Renters)
+(4005.167)
+(47.4294)
+Years in Zipcode
+164.222
+MC per ln Mile
+11426.11
+(Young Renters)
+(107.696)
+(Young Renters)
+(1816.79)
+Years in Zipcode
+141.439
+MC per ln Mile
+10066.49
+(Old Renters)
+(90.99)
+(Old Renters)
+(1437.622)
+Old Renter-Direct eﬀect
+70702.05
+∆MC wrt Yrs in Zip
+-415.607
+(12339.43)
+(Young Renters)
+(74.24046)
+∆MC wrt Yrs in Zip
+-357.6618
+(Old Renters)
+(57.12502)
+B. Demand Semi-Elasticities to Remain in Home with respect to 1 year Temporary Changes
+ln Rent
+Tenant Buyouts
+Moving Costs
+Neighborhood Capital
+Young Renters
+-0.210
+ln Below Market Rent
+-0.327
+Fixed Cost
+0.580
+Young Renters
+0.0019
+(0.040)
+(Young Renters)
+(0.068)
+(Young Renters)
+(0.003)
+(0.00007)
+Old Renters
+-0.244
+ln Below Market Rent
+-0.327
+Fixed Cost
+0.580
+Old Renters
+0.0024
+(0.041)
+(Old Renters)
+(0.068)
+(Old Renters)
+(0.003)
+(0.00008)
+Years in Zipcode
+-0.0012
+MC per Mile
+0.095
+(Young Renters)
+(0.0008)
+(Young Renters)
+(0.005)
+Years in Zipcode
+-0.0012
+MC per Mile
+0.096
+(Old Renters)
+(0.0008)
+(Old Renters)
+(0.005)
+Old Renter-Direct eﬀect
+-0.583
+∆MC wrt Yrs in Zip
+-0.003
+(0.0082)
+(Young Renters)
+(-0.0002)
+∆MC wrt Yrs in Zip
+-0.003
+(Old Renters)
+(-0.0002)
+Notes: Table reports the parameter estimates of the model. Panel A reports the parameters measured in rent equivalent dollar units, with the exception of
+the transfer payments, which are measured in actual dollars. Panel B reports the estimates in units of migration elasticities. Standard errors are clustered
+at zipcode level.
+35
+
+Table 4: Welfare Eﬀects of 1994 Rent-Controlled Cohort in 2010 Dollars
+A. Mature Residents (Age 40+)
+1995-2003
+2004-2012
+1995-2012
+Cumulative
+Per Year
+Share
+Cumulative
+Per Year
+Share
+Cumulative
+Per Year
+Share
+Rent
+30,285
+3,365
+40.6%
+22,644
+2,516
+50.1%
+52,929
+2,940
+44.2%
+Payoﬀ
+25,560
+2,840
+34.3%
+10,511
+1,168
+23.2%
+36,071
+2,004
+30.1%
+Neighborhood Capital
+812
+90
+1.1%
+583
+65
+1.3%
+1,395
+77
+1.2%
+Fixed Moving Cost
+8,125
+903
+10.9%
+1,352
+150
+3.0%
+9,477
+526
+7.9%
+Distance of Moves
+3,857
+429
+5.2%
+2,827
+314
+6.3%
+6,684
+371
+5.6%
+Amenity
+-42
+-5
+-0.1%
+-276
+-31
+-0.6%
+-318
+-18
+-0.3%
+Logit Shock
+6,026
+670
+8.1%
+7,575
+842
+16.8%
+13,600
+756
+11.3%
+Total per Person
+74,622
+8,291
+45,216
+5,024
+119,837
+6,658
+B. Young Residents (Age 20-39)
+1995-2003
+2004-2012
+1995-2012
+Cumulative
+Per Year
+Share
+Cumulative
+Per Year
+Share
+Cumulative
+Per Year
+Share
+Rent
+20,782
+2,309
+63.1%
+11,940
+1,327
+146.3%
+32,722
+1,818
+79.6%
+Payoﬀ
+12,537
+1,393
+38.0%
+6,113
+679
+74.9%
+18,650
+1,036
+45.4%
+Neighborhood Capital
+431
+48
+1.3%
+750
+83
+9.2%
+1,181
+66
+2.9%
+Fixed Moving Cost
+3,741
+416
+11.3%
+-1,643
+-183
+-20.1%
+2,098
+117
+5.1%
+Distance of Moves
+1,655
+184
+5.0%
+-949
+-105
+-11.6%
+706
+39
+1.7%
+Amenity
+243
+27
+0.7%
+829
+92
+10.2%
+1,073
+60
+2.6%
+Logit Shock
+-6,428
+-714
+-19.5%
+-8,879
+-987
+-108.8%
+-15,308
+-850
+-37.2%
+Total per Person
+32,960
+3,662
+8,162
+907
+41,121
+2,285
+C. SF Aggregate (Millions)
+1995-2003
+2004-2012
+1995-2012
+Cumulative
+Per Year
+Share
+Cumulative
+Per Year
+Share
+Cumulative
+Per Year
+Share
+Old
+1567
+174
+59.4%
+949
+105
+78.1%
+2516
+140
+65.3%
+Young
+1072
+119
+40.6%
+266
+30
+21.9%
+1338
+74
+34.7%
+All
+2639
+293
+1215
+135
+3854
+214
+Present Discounted Value
+2246
+611
+2857
+Notes: Table decomposes the welfare impacts of the 1994 rent control law change on the treatment group into diﬀerent channels, relative to the control
+group. Using the model, we ﬁnd a diﬀerence-in-diﬀerence treatment eﬀect in average rent paid, transfers received from landlords, accumulated neighborhood
+capital, ﬁxed moving costs, variable moving costs, and neighborhood amenity values. With the marginal utility of each of those characteristics, we convert
+treatment eﬀects into dollar units. For details on estimating the treatment eﬀect due to idiosyncratic match values, refer to equation (24). Cumulative
+sums represent undiscounted sums. Shares represent what share of welfare impacts is attributed to each characteristics of the utility function. SF aggregate
+numbers represent the welfare impact by aggregating over the 1994 households of renters impacted by the rent control expansion, which are calculated from
+the 1990 5% Census. Present discounted values of the aggregate beneﬁts are calculated using a discount factor of 0.95.
+36
+
+Figure 1: Treatment Eﬀect for Tenants in Multi-Family Residence (2-4 Units)
+(a) Staying at Same Address
+-.2
+-.1
+0
+.1
+.2
+.3
+.4
+.5
+ Log Median Rent (Detrended)
+-.02
+0
+.02
+.04
+.06
+Treatment Effect: Same Address
+1990
+1995
+2000
+2005
+2010
+2015
+Same Address
+Real Log Median Rent (Detrended)
+Corr = 0.494
+(b) Staying in San Francisco
+-.2
+-.1
+0
+.1
+.2
+.3
+.4
+.5
+ Log Median Rent (Detrended)
+-.02
+0
+.02
+.04
+.06
+Treatment Effect: In SF
+1990
+1995
+2000
+2005
+2010
+2015
+In SF
+Real Log Median Rent (Detrended)
+Corr = 0.784
+Notes: Sample consists of all tenants between 20 and 65 years old living in San Francisco as of December 31, 1993
+and in multi-family residences with 2-4 units that were built during 1900 −1990. Standard errors are clustered at
+the person level.
+37
+
+Figure 2: Heterogeneity by Age and Tenure in Treatment Eﬀect for Tenants of Multi-Family
+Residence (2-4 Units) with High Rent Appreciation
+(a) Young and High Turnover
+-.25
+-.15
+-.05
+.05
+.15
+Same Address
+1990
+1995
+2000
+2005
+2010
+2015
+β = -0.003 (0.032)
+(b) Young and Low Turnover
+-.25
+-.15
+-.05
+.05
+.15
+Same Address
+1990
+1995
+2000
+2005
+2010
+2015
+β = 0.018 (0.012)
+(c) Old and High Turnover
+-.25
+-.15
+-.05
+.05
+.15
+Same Address
+1990
+1995
+2000
+2005
+2010
+2015
+β = -0.107 (0.042)
+(d) Old and Low Turnover
+-.25
+-.15
+-.05
+.05
+.15
+Same Address
+1990
+1995
+2000
+2005
+2010
+2015
+β = 0.062 (0.019)
+Notes: Sample consists of all tenants between 20 and 65 years old living in San Francisco as of December 31,
+1993 and in multi-family residences with 2-4 units that were built during 1900 −1990. We ﬁrst divide individuals
+into two groups by whether their 1993 census tract experienced above or below median rent appreciation during
+1990-2000, and restrict our sample to individuals living in census tracts that experienced high rent appreciation.
+We further sort the sample by age group. The young group refers to residents who were aged 20-39 in 1993 and the
+old group are residents who were aged 40-65 in 1993. Finally, we cut the data by number of years the individual
+has been living at their 1993 address. We deﬁne a “low turnover” group of individuals who had been living at their
+1993 address for greater than or equal to four years and a “high turnover” group of individuals who had been living
+at their address for less than four years. The treatment eﬀects along with 90% CI are plotted. Standard errors are
+clustered at the person level. The average treatment eﬀects in the post-1994 period and their standard errors are
+reported in the upper-right corner.
+38
+
+Figure 3: Heterogeneity by Age and Tenure in Treatment Eﬀect for Tenants of Multi-Family
+Residence (2-4 Units) with Low Rent Appreciation
+(a) Young and High Turnover
+-.25
+-.15
+-.05
+.05
+.15
+Same Address
+1990
+1995
+2000
+2005
+2010
+2015
+β = 0.039 (0.018)
+(b) Young and Low Turnover
+-.25
+-.15
+-.05
+.05
+.15
+Same Address
+1990
+1995
+2000
+2005
+2010
+2015
+β = 0.007 (0.009)
+(c) Old and High Turnover
+-.25
+-.15
+-.05
+.05
+.15
+Same Address
+1990
+1995
+2000
+2005
+2010
+2015
+β = 0.010 (0.033)
+(d) Old and Low Turnover
+-.25
+-.15
+-.05
+.05
+.15
+Same Address
+1990
+1995
+2000
+2005
+2010
+2015
+β = 0.041 (0.015)
+Notes: Sample consists of all tenants between 20 and 65 years old living in San Francisco as of December 31, 1993
+and in multi-family residences with 2-4 units that were built during 1900−1990. We ﬁrst divide individuals into two
+groups by whether their 1993 census tract experienced above or below median rent appreciation during 1990-2000,
+and restrict our sample to individuals living in census tracts that experienced low rent appreciation. We further
+sort the sample by age group. The young group refers to residents who were aged 20-39 in 1993 and the old group
+are residents who were aged 40-65 in 1993. Finally, we cut the data by number of years the individual has been
+living at their 1993 address. We deﬁne a “low turnover” group of individuals who had been living at their 1993
+address for greater than or equal to four years and a “high turnover” group of individuals who had been living at
+their address for less than four years. The treatment eﬀects along with 90% CI are plotted. Standard errors are
+clustered at the person level. The average treatment eﬀects in the post-1994 period and their standard errors are
+reported in the upper-right corner.
+39
+
+Figure 4: Treatment Eﬀect on Neighborhood Quality for Tenants of Multi-Family Residence (2-4
+Units)
+(a) True Treatment Eﬀect
+-4000
+-3000
+-2000
+-1000
+0
+-.03
+-.02
+-.01
+0
+-30000
+-20000
+-10000
+0
+10000
+0
+.002
+.004
+.006
+1990
+2000
+2010
+2011
+2012
+2013
+Median Household Income
+Share College
+Median House Value
+Share Unemployed
+(b) Placebo Treatment Eﬀect
+-4000
+-2000
+0
+2000
+0
+.02
+.04
+.06
+0
+50000
+100000
+150000
+-.01
+-.005
+0
+.005
+1990
+2000
+2010
+2011
+2012
+2013
+Median Household Income
+Share College
+Median House Value
+Share Unemployed
+Notes: Sample consists of all tenants between 20 and 65 years old living in San Francisco as of December 31, 1993
+and in multi-family residences with 2-4 units that were built during 1900 −1990. Median household income, share
+of residents with college education and above, median house value, and share of unemployed are measured in the
+census tract that an individual is living in a given year. Panel (a) plots the true treatment eﬀects for various
+proxies of neighborhood quality. Panel (b) plots the placebo treatment eﬀects where we assume those treated
+by rent control remain at their 1993 addresses, but allow the control group to migrate as seen in the data. The
+treatment eﬀects along with 90% CI are plotted. Standard errors are clustered at the person level.
+40
+
+Figure 5: Treatment Eﬀect for Multi-Family Residence (2-4 Units)
+(a) Population/Average Population 1990-1994
+-.4
+-.3
+-.2
+-.1
+0
+.1
+Population/Avg Pop 90-94
+1990
+1995
+2000
+2005
+2010
+β = -0.064 (0.093)
+(b) Renters/Average Population 1990-1994
+-.4
+-.3
+-.2
+-.1
+0
+.1
+Renters/Avg Pop 90-94
+1990
+1995
+2000
+2005
+2010
+β = -0.145 (0.075)
+(c) Owners/Average Population 1990-1994
+-.4
+-.3
+-.2
+-.1
+0
+.1
+Owners/Avg Pop 90-94
+1990
+1995
+2000
+2005
+2010
+β = 0.081 (0.041)
+(d) Vacancy
+-.4
+-.3
+-.2
+-.1
+0
+.1
+Vacant
+1990
+1995
+2000
+2005
+2010
+2015
+β = -0.008 (0.012)
+Notes: Sample consists of all multi-family residences with 2-4 units in San Francisco that were built during 1900 −
+1990. The treatment eﬀects along with 90% CI are plotted. Standard errors are clustered at the parcel level. The
+average treatment eﬀects in the post-2006 period and their standard errors are reported in the upper-left corner.
+41
+
+Figure 6: Treatment Eﬀect for Multi-Family Residence (2-4 Units)
+(a) Renters in Rent-Controlled Buildings/Average
+Population 1990-1994
+-.4
+-.3
+-.2
+-.1
+0
+.1
+Renters in Rent-Controlled Buildings
+1990
+1995
+2000
+2005
+2010
+β = -0.246 (0.077)
+(b) Renters in Redeveloped Buildings/Average Population
+1990-1994
+-.4
+-.3
+-.2
+-.1
+0
+.1
+Renters in Redeveloped Buildings
+1990
+1995
+2000
+2005
+2010
+β = 0.072 (0.023)
+(c) Conversion
+0
+.02
+.04
+.06
+.08
+.1
+Conversion
+1990
+1995
+2000
+2005
+2010
+2015
+β = 0.079 (0.006)
+(d) Cumulative Add/Alter/Repair per Unit
+-.02
+0
+.02
+.04
+.06
+.08
+Cumulative Add/Alter/Repair per Unit
+1990
+1995
+2000
+2005
+2010
+2015
+β = 0.046 (0.014)
+Notes: Sample consists of all multi-family residences with 2-4 units in San Francisco that were built during 1900 −
+1990. The treatment eﬀects along with 90% CI are plotted. Standard errors are clustered at the parcel level. The
+average treatment eﬀects in the post-2006 period and their standard errors are reported in the upper-left corner.
+42
+
+Appendix for Online Publication
+A
+Data Appendix
+To examine the representativeness of the Infutor data, we link all individuals reported as living in San
+Francisco in 1990 to their census tract, to create census tract population counts as measured in Infutor.
+We make similar census tract population counts for the year 2000 and compare these San Francisco census
+tract population counts to those reported in the 1990 and 2000 census population counts for adults 18
+years old and above. A regression of the Infutor populations on census population are shown in Figures
+E.3 and E.419 Figure E.3 shows that for each additional person recorded in the 1990 Census, Infutor
+contains an additional 0.45 people, suggesting we have a 45% sample of the population. While we do
+not observe the universe of San Francisco residents in 1990, the data appear quite representative, as the
+census tract population in the 1990 Census can explain 70% of the census tract variation in population
+measured from Infutor. Our data is even better in the year 2000. Figure E.4 shows that we appear to have
+1.2 people in Infutor for each person observed in the 2000 US census. We likely over count the number of
+people in each tract in Infutor since we are not conditioning on year of death in the Infutor data, leading
+to over counting of alive people. However, the Infutor data still track population well, as the census tract
+population in the 2000 Census can explain 90% of the census tract variation in population measured from
+Infutor.
+We merge these data with public records information provided by DataQuick about the particular
+property located at a given address. These data provide us with a variety of property characteristics,
+such as the use-code (single-family, multi-family, commercial, etc.), the year the building was built, and
+the number of units in the structure. For each property, the data also details its transaction history since
+1988, including transaction prices, as well as the buyer and seller names. Again, we assess the quality
+of the matching procedure by comparing the distribution of the year buildings were built across census
+tracts among addresses listed as occupied in Infutor versus the 1990 and 2000 censuses. If a building is
+constructed post 1993 and we observe a person living there in 1993, we include it into the treatment group
+for rent control. Figures E.5 and E.6 show the age distribution of the occupied stock by census tract. In
+both of the years 1990 and 2000, our R-squareds are high and we often cannot reject a slope of one.20
+This highlights the extremely high quality of the linked Infutor-DataQuick data, as the addresses are clean
+enough to merge the outside data source DataQuick and still manage to recover the same distribution of
+building ages as reported in both 1990 and 2000 Censuses.
+To measure whether Infutor residents were owners or renters of their properties, we compare the last
+names of the property owners list in DataQuick to the last names of the residents listed in Infutor. Since
+property can be owned in trusts, under a business name, or by a partner or spouse with a diﬀerent last
+name, we expect to under-classify residents as owners. Figures E.7 and E.8 plot the Infutor measure of
+19We only can do data validation relative to the US Censuses for census tracts in San Francisco because we only
+have address histories for people that lived in San Francisco at some point in their life.
+20Since year built comes from the Census long form, these data are based only on a 20% sample of the true
+distribution of building ages in each tract, creating measurement error that is likely worse in the census than in
+the merged Infutor-DataQuick data.
+43
+
+ownership rates by census tract in 1990 and 2000, respectively, against measures constructed using the
+1990 and 2000 censuses. In 1990 (2000), a one percentage point increase in the owner-occupied rate leads
+to a 0.43 (0.56) percentage point increase in the ownership rate measured in Infutor. Despite the under
+counting, our cross-sectional variation across census tract matches the 1990 and 2000 censuses extremely
+well, with R-squareds over 90% in both decades. This further highlights the quality of the Infutor data.
+To perform the merge, we ﬁrst match each address from the Infutor data to the master San Francisco
+address ﬁle provided by the San Francisco City Assessor’s oﬃce. These data link addresses to parcels and
+provides the complete public tax records address of the parcel.21 We next match our data to DataQuick
+using the public tax records address according to street number and street name.
+Next we match each address to its oﬃcial parcel number from the San Francisco Assessor’s oﬃce.
+Using the parcel ID number from the Secured Roll data, we also merge with any building permits that
+have been associated with that property since 1980. These data come from the San Francisco Planning
+Oﬃce. This allows us to track large investments into renovations and changes in building use type over
+time based on the quantity and type of permit issued to each building over time.
+The parcel number also allows us to link to the parcel history ﬁle from the Assessor’s oﬃce. This
+allows us to observe changes in the parcel structure over time. In particular, this allows us to determine
+whether parcels were split oﬀover time, a common occurrence when a multi-family apartment building
+(one parcel) splits into separate parcels for each apartment during a condo conversion.
+A.1
+Rent Imputation
+To measure annual market rents for each zipcode in San Francisco in each year, we will combine data
+from three sources: Annual advertised rents from the San Francisco Chronicle and Craigslist collected by
+Fischer (https://github.com/ericﬁscher/housing-inventory/). Since we do not have the microdata, this
+gives us an aggregate San Francisco-wide annual time series of rents. This is likely the more accurate
+measure of market rate rents, among all of over data sources. Our second data source is median rents in
+each zipcode as reported in the Census and American Community Survey. These data are only available
+in certain years, and will combine rent controlled rents with market rate rents. An issue we will discuss
+more below. Finally, our last data source is all housing market transactions in San Francisco from 1988
+to 2012, which come from DataQuick. While these data should produce a very accurate measure of house
+price indices, they may not perfectly draft the rental market as well.
+Our ﬁrst step is the create an annual house price index for each San Francisco zipcode.
+We use
+a hedonic house price index where we regress transaction prices on house type dummies (single family,
+condo, small multi-family, large multi-family) interacted with log square feet, age and its square, a dummy
+for whether the property would be subject to rent control if it were rented, number of bedrooms, number
+of bathrooms, log lot size, and a dummy for no lot size (e.g. for condos). We also include dummies for
+indicators of distressed sales. Our house price index will be constructed from zipcode-year dummies in
+21In certain cases, multiple addresses correspond to the same parcel number. The SF master address ﬁle provides
+all addresses associated with a particular parcel as well as the parcel ID number. Using the parcel ID number, we
+can link to the San Francisco Assessor’s Secured Roll data, which provides the public tax records address for the
+parcel.
+44
+
+this above regression. This house price data is our only source of annual level prices at the zip code level.22
+The second step is to estimate the relationship between census reported median zipcode rents and
+our house price index. This will tell us how much we expect rents to move in response to house price
+movements. We estimate the relationship between census median rents and one year lagged house prices,
+as current rents were likely set during the previous years. Also, in the ACS year of our data, we have
+5-year pooled estimates of median rents. To make our house prices index comparable to the ACS data in
+those years, we also pool our house price index over the same 5 years. We then run the regression of the
+census median rents on year dummies, zipcode dummies and our lagged house price index. We ﬁnd that
+for a 1% increase in our house price index, census median rents go up by 0.34%. This regression has an
+R2 of 0.98, suggesting that our rent predictions are quite accurate. This estimate tells how much local
+rents would go up, over and beyond the aggregate SF-wide trend when local house prices have gone up,
+relative to their aggregate SF wide trend. The reason we want to compare deviations in house prices to
+deviations in census rents is because we know the SF-wide rent time series in rents from the Fischer data.
+We only need to use the local house price data to infer diﬀerential trends in house prices across zip codes.
+The third step is to estimate the relationship between census median rents and the SF-wide market
+rents. While the previous regression predicts the relationship between median rents and house prices,
+we want to estimate the relationship between market rents and house prices. Since a large share of San
+Francisco is subject to rent control, median rents need not perfectly reﬂect market rents. We now estimate
+the relationship between census median rents and the Fischer SF-wide asking market rents. We ﬁnd that
+a 1% increase in the SF market rents only leads to an 0.8% increase in census median rents. Thus, we
+will inﬂate the estimated eﬀects between house prices and census rents by 1/0.8=1.25. Combining steps
+2 and 3, we ﬁnd a 1% increase in house prices leads to a 0.425% increases in rents.
+Finally, we combine these zip-code speciﬁc rent predictions with the Fischer aggregate SF time series.
+Since these data are the closest to raw data on market rents, we will ensure the average across our zipcode
+speciﬁc rent predictions aggregate across zipcodes to match the SF overall time series. Thus, we assume
+the zipcode-year rent time series will equal the SF-wide time series plus our estimated eﬀect of house
+prices on rents (0.425) times the zipcode house price index, annually demeaned by its SF-wide average.
+B
+Estimation for Young Renters
+In this appendix, we ﬁrst describe how renewals work for young renters and then derive the equations
+which estimate the structural parameters for young renters.
+Let y superscripts denote young renters
+in what follows.
+So utility functions, conditional choice probabilities, and value functions without a y
+superscript denote mature renters.
+22We have also tried repeat sales methods and the results are similar, but noisier, so we opt for the hedonic
+index.
+45
+
+B.1
+Renewals for Young Renters
+B.1.1
+Immediate Renewals
+The logic of immediate renewals is exactly the same for young renters as it is for mature renters. Suppose
+we have two young households in states θt−1 and θ′
+t−1 and these two households take the actions x and
+x′ in period t. Using equation (4) and diﬀerencing we ﬁnd that:
+vy
+t (x, θt−1) −vy
+t
+ x′, θ′
+t−1
+
+= ln
+ 
+py
+t (x|θt−1)
+py
+t
+ x′|θ′
+t−1
+
+!
++ Iy
+t (θt−1) −Iy
+t
+ θ′
+t−1
+
+Substituting in the conditional value functions, we get:
+uy
+t (x, θt−1) −uy
+t
+ x′, θ′
+t−1
+
++ β (1 −κt)
+
+Et
+
+V
+y
+t+1 (Θ (x, θt−1))
+
+−Et
+
+V
+y
+t+1
+ Θ
+ x′, θ′
+t−1
+	
+(21)
++βκt
+
+Et
+
+V t+1 (Θ (x, θt−1))
+
+−Et
+
+V t+1
+ Θ
+ x′, θ′
+t−1
+	
+=
+ln
+ 
+py
+t (x|θt−1)
+py
+t
+ x′|θ′
+t−1
+
+!
++ Iy
+t (θt−1) −Iy
+t
+ θ′
+t−1
+
+.
+Now assume x and x′ are renewal actions in the sense that, conditional on the realization of the κt
+shock, Θ (x, θt−1) = Θ
+ x′, θ′
+t−1
+
+. This implies:
+uy
+t (x, θt−1) −uy
+t
+ x′, θ′
+t−1
+
+= ln
+ 
+py
+t (x|θt−1)
+py
+t
+ x′|θ′
+t−1
+
+!
++ Iy
+t (θt−1) −Iy
+t
+ θ′
+t−1
+
+.
+If θt−1 ̸= θ′
+t−1, we need to remove the diﬀerence of log sums. Suppose the households move to some
+neighborhood j∗∈J , with j∗̸= x and j∗̸= x′. As with mature renters, we ﬁnd:
+ln
+ 
+py
+t (x|θt−1)
+py
+t
+ x′|θ′
+t−1
+
+!
+−ln
+ 
+py
+t (j∗|θt−1)
+py
+t
+ j∗|θ′
+t−1
+
+!
+=
+
+uy
+t (x, θt−1) −uy
+t
+ x′, θ′
+t−1
+
+−
+
+uy
+t (j∗, θt−1) −uy
+t
+ j∗, θ′
+t−1
+
+,
+which removes the log sums.
+B.1.2
+One Period Ahead Renewals
+The diﬀerence between mature and young renters arises when considering one-period ahead renewals.
+Suppose x and x′ are not renewals. Substitute the expected diﬀerence in continuation values with its
+realization and expectational errors in equation(21):
+uy
+t (x, θt−1) −uy
+t
+ x′, θ′
+t−1
+
+−ln
+ 
+py
+t (j|θt−1)
+py
+t
+ j′|θ′
+t−1
+
+!
+−
+
+Iy
+t (θt−1) −Iy
+t
+ θ′
+t−1
+
+=
+β (1 −κt)
+ V
+y
+t+1
+ Θ
+ x′, θ′
+t−1
+
+−V
+y
+t+1 (Θ (x, θt−1))
+
++ (1 −κt)
+
+ξV,y
+t
+ x′, θ′
+t−1
+
+−ξV,y
+t
+(x, θt−1)
+
++βκt
+ V t+1
+ Θ
+ x′, θ′
+t−1
+
+−V t+1 (Θ (x, θt−1))
+
++ κt
+ ξV
+t
+ x′, θ′
+t−1
+
+−ξV
+t (x, θt−1)
+
+46
+
+where:
+ξV,y
+t
+(x, θt−1)
+=
+β
+ Et
+
+V
+y
+t+1 (Θ (x, θt−1))
+
+−V
+y
+t+1 (Θ (x, θt−1))
+
+ξV
+t (x, θt−1)
+=
+β
+ Et
+
+V t+1 (Θ (x, θt−1))
+
+−V t+1 (Θ (x, θt−1))
+
+are the expectational errors. We deﬁne:
+∆ξV,y
+t
+= (1 −κt)
+
+ξV,y
+t
+ x′, θ′
+t−1
+
+−ξV,y
+t
+(x, θt−1)
+
++ κt
+ ξV
+t
+ x′, θ′
+t−1
+
+−ξV
+t (x, θt−1)
+
+in what follows.
+As with older renters, we make use of renewals. Suppose that at time t + 1, both households move
+to the same neighborhood, that is xt+1 = x′
+t+1 = j∗∈J .
+Substituting out the realized ex-ante value
+functions yields:
+uy
+t (x, θt−1) −uy
+t
+ x′, θ′
+t−1
+
+−ln
+ 
+py
+t (j|θt−1)
+py
+t
+ j′|θ′
+t−1
+
+!
+−
+
+Iy
+t (θt−1) −Iy
+t
+ θ′
+t−1
+
+=
+β (1 −κt)
+ vy
+t+1
+ j∗, Θ
+ x′, θ′
+t−1
+
+−vy
+t+1 (j∗, Θ (x, θt−1))
+
++βκt
+ vt+1
+ j∗, Θ
+ x′, θ′
+t−1
+
+−vt+1 (j∗, Θ (x, θt−1))
+
+−β (1 −κt) ln
+ 
+py
+t+1
+ j∗, Θ
+ x′|θ′
+t−1
+
+py
+t+1 (j∗, Θ (x|θt−1))
+!
+−βκt ln
+ 
+pt+1
+ j∗, Θ
+ x′|θ′
+t−1
+
+pt+1 (j∗, Θ (x|θt−1))
+!
++ ∆ξV,y
+t
+Since j∗is a renewal action, the time t + 2 expected value functions diﬀerence out and this equation
+becomes:
+uy
+t (x, θt−1) −uy
+t
+ x′, θ′
+t−1
+
+−ln
+ 
+py
+t (j|θt−1)
+py
+t
+ j′|θ′
+t−1
+
+!
+−
+
+Iy
+t (θt−1) −Iy
+t
+ θ′
+t−1
+
+=
+β (1 −κt)
+ uy
+t+1
+ j∗, Θ
+ x′, θ′
+t−1
+
+−uy
+t+1 (j∗, Θ (x, θt−1))
+
++βκt
+ ut+1
+ j∗, Θ
+ x′, θ′
+t−1
+
+−ut+1 (j∗, Θ (x, θt−1))
+
+−β (1 −κt) ln
+ 
+py
+t+1
+ j∗, Θ
+ x′|θ′
+t−1
+
+py
+t+1 (j∗, Θ (x|θt−1))
+!
+−βκt ln
+ 
+pt+1
+ j∗, Θ
+ x′|θ′
+t−1
+
+pt+1 (j∗, Θ (x|θt−1))
+!
++ ∆ξV,y
+t
+47
+
+To remove the diﬀerence in log sums, we follow the same procedure as for older renters, which gives:
+ln
+ 
+py
+t (j|θt−1)
+py
+t
+ j′|θ′
+t−1
+
+!
+−ln
+ 
+py
+t (j∗|θt−1)
+py
+t
+ j∗|θ′
+t−1
+
+!
++β (1 −κt) ln
+ 
+py
+t+1 (j∗, Θ (x|θt−1))
+py
+t+1
+ j∗, Θ
+ x′|θ′
+t−1
+
+!
++ βξ ln
+ 
+pt+1 (j∗, Θ (x|θt−1))
+pt+1
+ j∗, Θ
+ x′|θ′
+t−1
+
+!
+=
+
+uy
+t (x, θt−1) −ut
+ x′, θ′
+t−1
+
+−
+
+uy
+t (j∗, θt−1) −ut
+ j∗, θ′
+t−1
+
++β (1 −κt)
+ uy
+t+1 (j∗, Θ (x, θt−1)) −uy
+t+1 (j∗, Θ (x, θt−1))
+
++βκt (ut+1 (j∗, Θ (x, θt−1)) −ut+1 (j∗, Θ (x, θt−1)))
++∆ξV,y
+t
+.
+We can use this framework to estimate the structural parameters of the young renters.
+B.2
+Regression Equations for Young Renters
+The equations are direct counterparts of those for older renters, following the exact same logic, but with
+the required adjustments to account for the possibility of transitioning to an older renter. To estimate the
+rent utility parameter and the transfer functions, we compare individuals from the treatment and control
+group living in the same neighborhood with the same tenure. We suppose that they move to neighborhood
+j∗after one year. We get the estimating equation.
+Y t
+j,j∗
+=
+γY [exp Rt (j, 1) −exp Rt (j, 0)] +
++λ1 [(β ln Rt+1 (j, 0) −ln Rt (j, 0)) −(β ln Rt+1 (j, 1) −ln Rt (j, 1))]
++λ2 [β (t + τ n + 1) −(t + τ n)] + κtλY
++∆ξV,y
+t
++ χt
+j,j∗
+Y t
+j,j∗
+=
+ln
+py
+t (S|j, 1, τ n)
+py
+t (S|j, 0, τ n)
+
+−ln
+py
+t (j∗|j, 1, τ n)
+py
+t (j∗|j, 0, τ n)
+
++β (1 −κt) ln
+py
+t+1 (j∗|j, 1, τ n)
+py
+t+1 (j∗|j, 0, τ n)
+
++ βκt ln
+pt+1 (j∗|j, 1, τ n)
+pt+1 (j∗|j, 0, τ n)
+
+where recall χt
+j,j∗denotes measurement error. To estimate ﬁxed moving costs, we consider two individuals
+in the control group of equal tenure living in the same neighborhood, one of which immediately moves to
+a new location in the same zipcode. This yields:
+Y t
+j
+=
+−ϕ0,Y
+Y t
+j
+=
+ln
+py
+t (S|j, 0, τ n)
+py
+t (j|j, 0, τ n)
+
+To estimate variable moving costs, we consider two individuals of equal tenure τ n, one of which lives in
+neighborhood j and the other in neighborhood j′. We suppose they immediately move to either j∗or j∗∗.
+48
+
+Similar to mature renters, we ﬁnd the regression:
+Y t
+j,j′,j∗,j∗∗
+=
+ϕd,Y
+ dj,j∗−dj′,j∗
+−ϕd,Y
+ dj,j∗∗−dj′,j∗∗
++ϕτ,Y τ n
+ dj,j∗−dj′,j∗
+−ϕτ,Y τ n
+ dj,j∗∗−dj′,j∗∗
++ χt
+j,j′,j∗,j∗∗
+Y t
+j,j′,j∗,j∗∗
+=
+ln
+ py
+t (j∗|j, 0, τ n)
+py
+t (j∗|j′, 0, τ n)
+
+−ln
+ py
+t (j∗∗|j, 0, τ n)
+py
+t (j∗∗|j′, 0, τ n)
+
+.
+We can use the same equations when considering two individuals from the treatment group.To identify
+the impact of tenure on utility αY , we consider two individuals from the control group living in the same
+neighborhood with diﬀerent levels of initial tenure, τ n and τ ′
+n. Assuming they move to j∗after one year,
+we arrive at the equation:
+Y t
+j,j∗
+=
+αY
+ τ n −τ ′
+n
+
++ (β −1) ((1 −κt) ϕτ,Y +κtϕτ,M )
+ τ n −τ ′
+n
+
+dj,j∗+ ∆ξV,y
+t
++ χt
+j,j∗
+Y t
+j,j∗
+=
+ln
+py
+t (S|j, 0, τ n)
+py
+t (S|j, 0, τ ′n)
+
+−ln
+py
+t (j∗|j, 0, τ n)
+py
+t (j∗|j, 0, τ ′n)
+
++β (1 −κt) ln
+py
+t+1 (j∗|j, 0, τ n)
+py
+t+1 (j∗|j, 0, τ ′n)
+
++ βκt ln
+pt+1 (j∗|j, 0, τ n)
+pt+1 (j∗|j, 0, τ ′n)
+
+.
+For two individuals from the treatment group, we must include the impact of the diﬀerence in transfers
+due to the diﬀerence in tenure. These equations, along with all of the mature renter equations, form our
+full GMM system.
+Finally, we estimate ﬁxed amenity values according to the regression equation:
+Y t
+j,j′,j∗
+=
+ωj −ωj′ + eωjt −eωj′t + ξV
+t
+ x′, θ′
+t−1
+
+−ξV
+t (x, θt−1)
+Y t
+j,j′,j∗,j∗∗
+=
+ln
+ py
+t (S|j, 0, τ n)
+py
+t (S|j′, 0, τ n)
+
+−ln
+ py
+t (j∗|j, 0, τ n)
+py
+t (j∗|j′, 0, τ n)
+
++
+β (1 −ξ) ln
+ py
+t+1 (j∗|j, 0, τ n)
+py
+t+1 (j∗|j′, 0, τ n)
+
++ β (1 −ξ) ln
+ pt+1 (j∗|j, 0, τ n)
+pt+1 (j∗|j′, 0, τ n)
+
+−(β −1) (1 −κt) ϕd,Y
+ dj,j∗−dj′,j∗
+−(β −1) (1 −κt) ϕτ,Y τ n
+ dj,j∗−dj′,j∗
+−(β −1) κtϕd,M
+ dj,j∗−dj′,j∗
+−(β −1) κtϕτ,Mτ n
+ dj,j∗−dj′,j∗
+−γY
+
+exp Rt (j, 0) −exp Rt
+ j′, 0
+
+,
+where the rent parameter and moving cost parameters are known.
+C
+Welfare Decomposition
+In this appendix, we describe formally how we do the welfare decomposition of Section 6.1. Recall from
+equation 22 that:
+∆UM
+t
+=
+∆UM,Rent
+t
++ ∆UM,Payoff
+t
++ ∆UM,NC
+t
+(22)
++∆UM,MC
+t
++ ∆UM,Miles
+t
++ ∆UM,Amenity
+t
++ ∆UM,Logit
+t
+.
+49
+
+Suppressing the dependence of j and τ on x, we can formally write these terms as:
+∆URe nt
+t
+=
+X
+θt−1
+X
+x
+γM exp (Rt (j, d, τ h))
+ pT
+t (x, θt−1) −pC
+t (x, θt−1)
+
+∆UPayoff
+t
+=
+X
+θt−1
+X
+x
+Λt (x, dt−1,M)
+ pT
+t (x, θt−1) −pC
+t (x, θt−1)
+
+∆UM,NC
+t
+=
+X
+θt−1
+X
+x
+αMτ n
+ pT
+t (x, θt−1) −pC
+t (x, θt−1)
+
+∆UM,MC
+t
+=
+X
+θt−1
+X
+x
+ϕ0,M1 [x ̸= S]
+ pT
+t (x, θt−1) −pC
+t (x, θt−1)
+
+∆UM,Miles
+t
+=
+X
+θt−1
+X
+x
+ϕd,Mdj,jt−11 [x ̸= S]
+ pT
+t (x, θt−1) −pC
+t (x, θt−1)
+
+∆UM,Amenity
+t
+=
+X
+θt−1
+X
+x
+ωjt
+ pT
+t (x, θt−1) −pC
+t (x, θt−1)
+
+.
+We can measure each of these terms.23 We recover estimates of γM, ΛM, αM, ϕ0,M, ϕd,M, and ωjt from
+our structural model.
+We can then recover the other needed quantities from standard reduced form
+diﬀerences-in-diﬀerences analysis. For example:
+X
+θt−1
+X
+x
+exp (Rt (j, d, τ h))
+ pT
+t (x, θt−1) −pC
+t (x, θt−1)
+
+is simply the average diﬀerence in rents paid between treatment and control in year t,
+X
+θt−1
+X
+x
+τ n
+ pT
+t (x, θt−1) −pC
+t (x, θt−1)
+
+is the average diﬀerence in accumulated neighborhood capital between treatment and control,
+X
+θt−1
+X
+x
+1 [x ̸= S]
+ pT
+t (x, θt−1) −pC
+t (x, θt−1)
+
+is the average diﬀerence in number of moves between treatment and control, and
+X
+θt−1
+X
+x
+dj,jt−11 [x ̸= S]
+ pT
+t (x, θt−1) −pC
+t (x, θt−1)
+
+is the average diﬀerence in distance moved between treatment and control. Each of these can be readily
+calculated using the reduced form methodology described in Section 4. The average utility diﬀerence due
+to transfers and the average utility diﬀerence due to amenities can be similarly calculated by combining
+our structural estimates with reduced form diﬀerences-in-diﬀerences analysis.
+Deriving an expression for the utility diﬀerence due to idiosyncratic valuations ∆UM,Logit
+t
+is a bit more
+23Since we measure rents as monthly rents/3000, we multiply by 36,000 to convert to an annual rent number.
+50
+
+complicated. We have that:
+∆UM,Logit
+t
+=
+X
+θt−1
+X
+x
+Et [εit|x, θt−1]
+ pT
+t (x, θt−1) −pC
+t (x, θt−1)
+
+.
+(23)
+We therefore need an expression for the conditional expectation Et [εixt|x, θt−1] . Using Bayes’ rule, we
+get:
+Et [εixt|x, θt−1]
+=
+R
+εixt
+Q
+x′̸=x e−e−(εixt+vt(x,θt−1)−vt(x′,θt−1))
+e−εixte−e−εixtdεixt
+pt (x|θt−1)
+=
+R
+εixt
+Q
+x′̸=x e−e−(εixt+ln pt(x|θt−1)−ln pt(x′|θt−1))
+e−εixte−e−εixtdεixt
+pt (x|θt−1)
+,
+where in the second equality we used the Hotz and Miller (1993) inversion vt (x, θt−1) −vt (x′, θt−1) =
+ln pt (x|θt−1) −ln pt (x′|θt−1) . Substituting into equation (23), we derive:
+∆UM,Logit
+t
+=
+X
+θt−1
+X
+x
+
+
+
+Z
+εixt
+
+Y
+x′̸=x
+e−e−(εixt+ln pt(x|θt−1)−ln pt(x′|θt−1))
+
+e−εixte−e−εixtdεixt
+
+
+×
+ pT
+t (θt−1) −pC
+t (θt−1)
+
+.
+(24)
+Since we have empirical estimates of each of the probabilities, we can estimate this utility diﬀerence.
+We ﬁnally convert our estimated utility diﬀerences into rent equivalent dollar amounts. Consider an
+individual in the control group who pays the average San Francisco rent in year t, which we denote as Rt.
+We now proceed iteratively. The dollar rent equivalent ∆W Re nt
+t
+of the utility diﬀerence ∆URe nt
+t
+in year
+t due to rent diﬀerences can be calculated as the solution to :
+γM exp
+ Rt + ∆W Re nt
+t
+
+−γM exp
+ Rt
+
+= ∆URe nt
+t
+,
+which gives:
+∆W Re nt
+t
+= ln
+∆URe nt
+t
+γM
++ exp
+ Rt
+
+−Rt.
+The dollar rent equivalent incremental impact of transfers can then be calculated as:
+∆W Payoff
+t
+= ln
+ 
+∆UPayoff
+t
+γM
++ exp
+ Rt + ∆W Re nt
+t
+
+!
+−
+ Rt + ∆W Re nt
+t
+
+.
+Now let ∆UM,ι
+t
+denote the utility diﬀerences, with ι ∈{1, ..., 7} corresponding to the ordering in equation
+(22). Iterating on our procedure gives the dollar rent equivalent incremental impacts of each element of
+the decomposition:
+∆W ι
+t = ln
+ 
+∆UPayoff
+t
+γM
++ exp
+ 
+Rt +
+X
+ι′<ι
+∆W ι′
+t
+!!
+−
+ 
+Rt +
+X
+ι′<ι
+∆W ι′
+t
+!
+.
+51
+
+D
+Welfare Impact of Reduced Supply
+In this appendix, we show how to calculate the GE rent increase caused by the reduction in supply in
+the full model with both young and old renters. We allow young renters to transition to old renters at
+the rate κ.
+We suppose that the birth rate in an area is proportional to the number of young renters
+living there. Steady-state therefore requires that the birth rate is also equal to κ. The rate at which old
+renters die oﬀmust be equal to φ = κ
+ N
+y/N
+
+, where N
+y and N are the total population of young and
+old renters, respectively.
+Steady-state requires that the ﬂow of young (old) renters into each neighborhood must equal the ﬂow
+of young (old) renters out of that neighborhood. We thus require for all j:
+φNj + (1 −φ) Nj (1 −p (j|j))
+=
+(1 −φ)
+X
+j′̸=j
+Nj′p
+ j|j′
++ κ
+X
+j′
+Nyp
+ j|j′
+Ny
+j (1 −py (j|j))
+=
+X
+j′̸=j
+Ny
+j′py  j|j′
+.
+The ﬁrst equation gives the steady-state condition across neighborhoods for old renters. The left hand
+side gives the outﬂows from neighborhood j, which arise from death and moving to other neighborhoods.
+Inﬂows come from existing old renters and new old renters deciding to locate in neighborhood j. The
+second equation gives the steady-state condition across neighborhoods for young renters, which simply
+says that young renters deciding to leave the neighborhood must be balanced by young renters moving
+into the neighborhood from elsewhere. Given our estimates of the 1993 moving probabilities p (·|·) and
+py (·|·) , these equations, along with the following adding up constraints:
+X
+j
+Nj
+=
+N
+X
+j
+Ny
+j
+=
+N
+y
+allow us to solve for the steady-state number of young and old renters
+
+Nj, Ny
+j
+
+in each neighborhood j.
+We consider the long-run response to a supply reduction in San Francisco of 6%. This implies that the
+total population in each zipcode in San Francisco must decline by 6%. We let d ln Nj/dΦ and d ln Ny
+j /dΦ
+denote the long-run changes in old and young populations, where Φ is simply a convenient notation
+indicating the impact of the law. We assume that, in the long-run, rents do not increase in either the Bay
+Area or the rest of the country as a result of the shock. We determine how much rents have to change
+by in each zipcode in San Francisco and how much the populations of the Bay Area and the rest of the
+country change by so as to achieve a new long-run steady state given the supply response.
+Taking a
+52
+
+derivative of the steady-state conditions above with respect to Φ, we ﬁnd that:
+d ln Nj
+dΦ
+Ny
+j −
+X
+j′
+p
+ j|j′
+"
+(1 −φ) d ln Nj′
+dΦ
+Nj′ + κ
+d ln Ny
+j′
+dΦ
+Ny
+j′
+#
+=
+X
+j′
+dp (j|j′)
+dΦ
+h
+(1 −φ) Nj′ + κNy
+j′
+i
+(25)
+d ln Ny
+j
+dΦ
+Ny
+j −
+X
+j′
+d ln Ny
+j′
+dΦ
+Ny
+j′py  j|j′
+=
+X
+j′
+Ny
+j′ dpy (j|j′)
+dΦ
+(26)
+for all j.
+To make progress, we must express the change in probabilities dp (x|j) /dΦ and dpy (x|j) /dΦ as
+functions of the change in rents dRj/dΦ, where x is the location choice. In steady state, the conditional
+probabilities are given by:
+p (x|j)
+=
+exp (v (x, j))
+P
+x′ exp (v (x′, j))
+py (x|j)
+=
+exp (vy (x, j))
+P
+x′ exp (vy (x′, j)).
+Taking the total derivative, we get:
+dp (x|j)
+dΦ
+=
+X
+k
+∂p (x|j)
+∂ln Rk
+d ln Rk
+dΦ
+(27)
+=
+X
+k
+p (x|j)
+ 
+∂v (x, j)
+∂ln Rk
+−
+X
+x′
+p
+ x′|j
+ ∂v (x′, j)
+∂ln Rk
+!
+d ln Rk
+dΦ
+.
+(28)
+The expression for the young is identical, of course substituting young value functions and young proba-
+bilities. To ﬁnish the calculation, we therefore need to determine ∂v (x, j) /∂ln Rk and ∂vy (x, j) /∂ln Rk.
+For the old renters, note that in steady-state:
+v (x, j) = u (x, j) + β ln
+ X
+x′
+exp
+ v
+ x′, j (x)
+
+!
++ βΓ
+Taking derivatives with respect to log rents, we get:
+∂v (x, j)
+∂ln Rk
+= γM exp (Rx) Rx1 [x = k] + β
+X
+x′
+p
+ x′|j (x)
+ ∂v (x′, j (x))
+∂ln Rk
+.
+This is a system of equations which can be numerically solved for the partial derivatives. Once this system
+is solved, we can solve for ∂vy (x, j) /∂ln Rk. In steady-state, the value function of the young renters is:
+vy (x, j) = uy (x, j) + β (1 −κ) ln
+ X
+x′
+exp
+ vy  x′, j (x)
+
+!
++ βκ ln
+ X
+x′
+exp
+ v
+ x′, j (x)
+
+!
++ βΓ.
+53
+
+Taking derivatives with respect to log rents, we get:
+∂vy (x, j)
+∂ln Rk
+=
+γY exp (Rx) Rx1 [x = k] + β (1 −κ)
+X
+x′
+py  x′|j (x)
+ ∂vy (x′, j (x))
+∂ln Rk
++βκ
+X
+x′
+p
+ x′|j (x)
+ ∂v (x′, j (x))
+∂ln Rk
+.
+Again this system of equations can be numerically solved to get the value function derivatives.
+With ∂v (x, j) /∂ln Rk and ∂vy (x, j) /∂ln Rk in place, we plug into equation (28), which gives ∂p (x|j) /∂ln Rk
+and ∂py (x|j) /∂ln Rk We then plug into equations (25) and (26), which gives:
+d ln Nj
+dΦ
+Ny
+j −
+X
+j′
+p
+ j|j′
+"
+(1 −φ) d ln Nj′
+dΦ
+Nj′ + κ
+d ln Ny
+j′
+dΦ
+Ny
+j′
+#
+=
+X
+k
+X
+j′
+∂p (j|j′)
+∂ln Rk
+h
+(1 −φ) Nj′ + κNy
+j′
+i d ln Rk
+dΦ
+(29)
+d ln Ny
+j
+dΦ
+Ny
+j −
+X
+j′
+d ln Ny
+j′
+dΦ
+Ny
+j′py  j|j′
+=
+X
+k
+X
+j′
+Ny
+j′ ∂py (j|j′)
+∂ln Rk
+d ln Rk
+dΦ
+.
+(30)
+We then combine these equations with:
+d ln Nj
+dΦ
++
+d ln Ny
+j
+dΦ
+=
+−.06 for all j in SF
+(31)
+X
+j /∈SF
+"
+d ln Nj
+dΦ
++
+d ln Ny
+j
+dΦ
+#
+=
+.06NSF
+(32)
+d ln Rj
+dΦ
+=
+0 for all j not in SF
+(33)
+The ﬁrst equation simply says that the total population must decline by 6% in each zipcode in San
+Francisco. The second equation says that the areas outside of San Francisco must absorb the population
+that leaves San Francisco. Note that NSF is the initial 1993 steady-state population in San Francisco.
+Finally, the third equation states our assumption that rents do not increase outside of San Francisco in
+response to the shock. Our unknowns are the rent increases d ln Rj/dΦ for all j in San Francisco and the
+population changes in the areas j outside of San Francisco, i.e. the Bay Area and the rest of the United
+States. Equations (29)-(33) provide a system of equations which can be numerically solved to determine
+these unknowns.
+54
+
+E
+Appendix Tables
+Table E.1: Robustness Check of Treatment Eﬀect for Tenants of Multi-Family Residence (2-4
+Units)
+A. Treatment Group Lives in Buildings Built between 1960 & 1979
+(1)
+(2)
+(3)
+In SF
+Same Zip
+Same Address
+Treat×Period
+1994-1999
+0.0326
+0.0331
+0.0289
+(0.0105)
+(0.0115)
+(0.011)
+2000-2004
+0.0642
+0.0368
+0.0370
+(0.0151)
+(0.0138)
+(0.0118)
+Post 2005
+0.0531
+0.0349
+0.0164
+(0.0145)
+(0.0113)
+(0.0084)
+Control Mean 1994 −1999
+0.7641
+0.5971
+0.541
+Control Mean 2000 −2004
+0.5138
+0.2672
+0.1827
+Control Mean Post 2005
+0.4346
+0.1801
+0.1135
+Adjusted R2
+0.584
+0.598
+0.609
+Observations
+135594
+135594
+135594
+B. Census Tract Fixed Eﬀects
+(1)
+(2)
+(3)
+In SF
+Same Zip
+Same Address
+Treat×Period
+1994-1999
+0.0175
+0.0153
+0.0157
+(0.0084)
+(0.0091)
+(0.0087)
+2000-2004
+0.0426
+0.0259
+0.0284
+(0.012)
+(0.0109)
+(0.0092)
+Post 2005
+0.0364
+0.0266
+0.0113
+(0.0114)
+(0.0088)
+(0.0066)
+Control Mean 1994 −1999
+0.7641
+0.5971
+0.541
+Control Mean 2000 −2004
+0.5138
+0.2672
+0.1827
+Control Mean Post 2005
+0.4346
+0.1801
+0.1135
+Adjusted R2
+0.588
+0.596
+0.609
+Observations
+1243242
+1243242
+1243242
+Notes: In Panel A, we change our tenant sample to all tenants between 20 and 65 years old living in San Francisco
+as of December 31, 1993 and in multi-family residences with 2-4 units that were built during 1960 −1990. Hence
+we have restricted our treatment group to individuals who lived in buildings built between 1960 and 1979. In Panel
+B, the sample of tenants is the same as in our baseline regressions. Instead of using zipcode by year ﬁxed eﬀects in
+our baseline regressions, we use census tract by year ﬁxed eﬀects. Table reports the mean of dependent variables
+for the control group during 1990 −1994, 2000 −2004 and post-2005. Standard errors are clustered at the person
+level.
+55
+
+Table E.2: Treatment Eﬀect for Multi-Family Residence (2-4 Units)
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+(7)
+(8)
+(9)
+Vacant
+Population/
+Avg Pop 90-94
+Renters/
+Avg Pop 90-94
+Renters in Rent-Controlled
+Buildings/Avg Pop 90-94
+Renters in Redeveloped
+Buildings/Avg Pop 90-94
+Owners/
+Avg Pop 90-94
+Conversion
+Cumulative
+Add/Alter/Repair per Unit
+Ever Received
+Add/Alter/Repair
+Treat×Period
+1994-1999
+-0.0085
+-0.0329
+-0.0342
+-0.0434
+0.0005
+0.0013
+0.0100
+-0.0043
+0.0140
+(0.0095)
+(0.0604)
+(0.0472)
+(0.0481)
+(0.0084)
+(0.0299)
+(0.0032)
+(0.0085)
+(0.0081)
+2000-2005
+-0.0064
+-0.0791
+-0.1059
+-0.1516
+0.0253
+0.0269
+0.0384
+0.0234
+0.0413
+(0.0114)
+(0.0814)
+(0.0638)
+(0.0654)
+(0.0176)
+(0.0394)
+(0.0045)
+(0.0123)
+(0.0111)
+Post 2006
+-0.0076
+-0.0642
+-0.1453
+-0.2457
+0.0717
+0.0811
+0.0793
+0.0459
+0.0552
+(0.0116)
+(0.0933)
+(0.0747)
+(0.0773)
+(0.0225)
+(0.0409)
+(0.0061)
+(0.0144)
+(0.0130)
+Control Mean 1994 −1999
+0.0800
+1.8291
+1.3540
+1.3395
+0.0232
+0.4752
+0.3360
+0.1825
+0.2352
+Control Mean 2000 −2005
+0.0968
+2.1917
+1.6278
+1.5978
+0.0502
+0.5639
+0.3460
+0.2473
+0.3066
+Control Mean Post 2006
+0.1137
+2.4287
+1.8338
+1.7659
+0.0965
+0.5949
+0.3667
+0.2976
+0.3624
+Adjusted R2
+0.354
+0.600
+0.569
+0.555
+0.404
+0.603
+0.747
+0.803
+0.763
+Observations
+724037
+643589
+643589
+643589
+643589
+643589
+769181
+706633
+724037
+Notes: Sample consists of all multi-family residences with 2-4 units in San Francisco that were built during 1900 −1990. If a building is constructed post
+1993 and we observe a tenant living there in 1993, we include it into the treatment group for rent control. Table reports the mean of dependent variables
+for the control group during 1994 −1999, 2000 −2005 and post-2006. Standard errors are clustered at the parcel level.
+56
+
+Figure E.1: Geographic Distribution of Treated and Control Buildings in San Francisco
+Notes: The purple dots represent parcels in the treatment group, which are parcels corresponding to multi-family
+residences with 2-4 units in San Francisco that were built between 1900-1979. The green dots represent parcels
+in the control group, which are parcels corresponding to multi-family residences with 2-4 units in San Francisco
+that were built between 1980-1990. The gray dots represent other types of housing stocks such as single-family
+residences and multi-family residences with 5 or more units.
+57
+
+Figure E.2: Historical Trend of Nominal Median Rent in San Francisco
+10
+100
+1000
+10000
+Nominal Median Rent
+1950
+1960
+1970
+1980
+1990
+2000
+2010
+Year
+Notes: Figure shows the time series of San Francisco rental rates generated from the dataset on annual San
+Francisco wide market rents produced by Eric Fisher, who collected historical apartment advertisements dating
+back to the 1950s. See https://experimental-geography.blogspot.ca/2016/05/employment-construction- and-cost-
+of-san.html for further details on the construction.
+58
+
+Figure E.3: Population Age 18 and above: 1990 Census
+0
+2000
+4000
+6000
+8000
+Infutor Population 18+
+0
+2000
+4000
+6000
+8000
+Census Population 18+
+95% CI
+Fitted values
+45 degree
+β = 0.442 (0.026)
+R
+2 = 0.692
+Obs = 127
+Notes: Plot shows the population of 18 and over in each census tract in 1990 from Infutor data against that from
+1990 Census.
+Figure E.4: Population Age 18 and above: 2000 Census
+0
+2000
+4000
+6000
+8000
+10000
+Infutor Population 18+
+0
+2000
+4000
+6000
+8000
+Census Population 18+
+95% CI
+Fitted values
+45 degree
+β = 1.145 (0.029)
+R
+2 = 0.898
+Obs = 175
+Notes: Plot shows the population of 18 and over in each census tract in 2000 from Infutor data against that from
+2000 Census.
+59
+
+Figure E.5: Age of Occupied Housing: 1990 Census
+(a) Built 1970 to 1990: 1990 Census
+0
+.2
+.4
+.6
+.8
+1
+Infutor Fraction Built 1970-1990
+0
+.2
+.4
+.6
+.8
+1
+Census Fraction Built 1970-1990
+95% CI
+Fitted values
+45 degree
+β = 0.639 (0.046)
+R
+2 = 0.667
+Obs = 100
+(b) Built 1950 to 1969: 1990 Census
+0
+.2
+.4
+.6
+.8
+1
+Infutor Fraction Built 1950-1969
+0
+.2
+.4
+.6
+.8
+Census Fraction Built 1950-1969
+95% CI
+Fitted values
+45 degree
+β = 0.928 (0.046)
+R
+2 = 0.807
+Obs = 100
+(c) Built 1940 to 1949: 1990 Census
+0
+.2
+.4
+.6
+.8
+Infutor Fraction Built 1940-1949
+0
+.2
+.4
+.6
+Census Fraction Built 1940-1949
+95% CI
+Fitted values
+45 degree
+β = 1.111 (0.035)
+R
+2 = 0.911
+Obs = 100
+(d) Built 1939 or earlier: 1990 Census
+0
+.2
+.4
+.6
+.8
+1
+Infutor Fraction Built 1939 and earlier
+0
+.2
+.4
+.6
+.8
+Census Fraction Built 1939 and earlier
+95% CI
+Fitted values
+45 degree
+β = 1.024 (0.040)
+R
+2 = 0.872
+Obs = 100
+Notes: Plot shows the fraction of buildings built in each time period in each census tract in 1990 from Infutor data
+against that from 1990 Census. The size of marker is proportional to the number of occupied housing units in each
+census tract. The ﬁtted line is by weighted least square using the number of occupied housing units as weights.
+60
+
+Figure E.6: Age of Occupied Housing: 2000 Census
+(a) Built 1980 to 2000: 2000 Census
+0
+.2
+.4
+.6
+.8
+1
+Infutor Fraction Built 1980-2000
+0
+.2
+.4
+.6
+.8
+Census Fraction Built 1980-2000
+95% CI
+Fitted values
+45 degree
+β = 0.813 (0.024)
+R
+2 = 0.876
+Obs = 159
+(b) Built 1960 to 1979: 2000 Census
+0
+.2
+.4
+.6
+.8
+1
+Infutor Fraction Built 1960-1979
+0
+.2
+.4
+.6
+.8
+1
+Census Fraction Built 1960-1979
+95% CI
+Fitted values
+45 degree
+β = 1.083 (0.036)
+R
+2 = 0.853
+Obs = 159
+(c) Built 1950 to 1959: 2000 Census
+0
+.2
+.4
+.6
+.8
+Infutor Fraction Built 1950-1959
+0
+.2
+.4
+.6
+Census Fraction Built 1950-1959
+95% CI
+Fitted values
+45 degree
+β = 0.955 (0.049)
+R
+2 = 0.711
+Obs = 159
+(d) Built 1940 to 1949: 2000 Census
+-.2
+0
+.2
+.4
+.6
+.8
+Infutor Fraction Built 1940-1949
+0
+.2
+.4
+.6
+Census Fraction Built 1940-1949
+95% CI
+Fitted values
+45 degree
+β = 1.323 (0.042)
+R
+2 = 0.863
+Obs = 159
+(e) Built 1930 or earlier: 2000 Census
+0
+.2
+.4
+.6
+.8
+1
+Infutor Fraction Built 1939 and earlier
+0
+.2
+.4
+.6
+.8
+Census Fraction Built 1939 and earlier
+95% CI
+Fitted values
+45 degree
+β = 1.144 (0.036)
+R
+2 = 0.863
+Obs = 159
+Notes: Plot shows the fraction of buildings built in each time period in each census tract in 2000 from Infutor data
+against that from 2000 Census. The size of marker is proportional to the number of occupied housing units in each
+census tract. The ﬁtted line is by weighted least square using the number of occupied housing units as weights.
+61
+
+Figure E.7: Ownership Rate at Individual Level: 1990 Census
+0
+.2
+.4
+.6
+.8
+1
+Infutor Ownership Rate
+0
+.2
+.4
+.6
+.8
+1
+Census Ownership Rate
+95% CI
+Fitted values
+45 degree
+β = 0.432 (0.014)
+R
+2 = 0.910
+Obs = 100
+Notes: Plot shows the ownership rate at the individual level in 1990 from Infutor data against the ownership rate
+of occupied housing units from 1990 Census. The size of marker is proportional to the number of occupied housing
+units in each census tract. The ﬁtted line is by weighted least square using the number of occupied housing units
+as weights.
+Figure E.8: Ownership Rate at Individual Level: 2000 Census
+0
+.2
+.4
+.6
+.8
+1
+Infutor Ownership Rate
+0
+.2
+.4
+.6
+.8
+1
+Census Ownership Rate
+95% CI
+Fitted values
+45 degree
+β = 0.562 (0.011)
+R
+2 = 0.939
+Obs = 159
+Notes: Plot shows the ownership rate at the individual level in 2000 from Infutor data against the ownership rate
+of occupied housing units from 2000 Census. The size of marker is proportional to the number of occupied housing
+units in each census tract. The ﬁtted line is by weighted least square using the number of occupied housing units
+as weights.
+62
+
+Figure E.9: Average Annual Tenant Buyouts
+Notes: Figure plots the average buyout to young tenants oﬀered in each year in the data, across all tenants and
+neighborhoods.
+63
+
+Figure E.10: Annual Tenant Buyouts by Zipcode
+Notes: Figure plots the average buyout oﬀers to young tenants in each year in the data, by zipcode in San Francisco.
+64
