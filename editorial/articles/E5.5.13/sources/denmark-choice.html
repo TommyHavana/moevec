@@ -1,0 +1,2470 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    
+    <link rel="apple-touch-icon" sizes="76x76" href="/dist/img/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/dist/img/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/dist/img/apple-touch-icon-152x152.png" />
+    <link rel="shortcut icon" href="/-/media/Borger/Favicon/b_fav.ico" type="image/vnd.microsoft.icon" />
+
+
+    
+    <link rel="stylesheet" href="/dist/style/app.css?e1b02699200f8710419d" />
+
+    
+<meta name="google-site-verification" content="1do5mR8Vi-7MB5aTVd0N3CuP4IiHw7SevSmKY_F0qso" />
+<style>
+/* CSS for handling Siteimprove feedback module */
+@media (max-width: 768px) {
+    .sz-feedback-toggle-button-container {
+        right: unset !important;
+        margin-right: unset !important;
+        left: 50%;
+        transform: translateX(-50%) !important;
+    }
+}
+.sz-feedback-toggle-button-icon {display: none !important;}
+.sz-feedback-toggle-button-text {padding: 6px !important; margin-left: 0px !important; padding: 0px !important;}
+.sz-feedback-toggle-button-text.sz-feedback-main-font-style {margin-left: 0px !important;}
+
+/* Bug 110891, Update to spot frame */
+@media (max-width: 575.98px) {
+    .hot-topics-frame__topics {
+        grid-template-columns: 1fr;
+    }
+}
+ 
+/* Bug 110893, Lifesituation frame edge to edge */
+.lifesituation-frame__buttons--contentpage {
+@media (max-width: 767.98px) {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+   }
+}
+
+/* Bug 110930, Elements missing max-width */
+.contentpage__title, .contentpage__manchet, .external-selfservice__title {
+    max-width: 42.89rem;
+}
+
+</style>
+ 
+    
+
+
+    
+
+    <meta property="og:description" content="Du kan v&#230;lge mellem alle offentlige sygehuse i Danmark, n&#229;r du skal unders&#248;ges eller behandles" />
+    <meta property="og:image" content="https://www.borger.dk/-/media/Billeder/Manchetter/mormedbabyNJ05685.jpg" />
+
+
+    
+    <!--#region Metadata-->
+    
+
+    <meta property="borgerdkform" content="Sygehusvalg, Behandlingsgaranti og ventetidsgaranti" />
+    <meta name="keywords" content="ventetid gr&#229; st&#230;r, privathospital, ventetid p&#229; hjerteoperation., valg af sygehus, udvidet frit sygehusvalg, sygehusvalg, frit sygehusvalg, ventetid, venteliste" />
+    <meta name="ROBOTS" content="INDEX, FOLLOW" />
+    <meta name="description" content="Du kan v&#230;lge mellem alle offentlige sygehuse i Danmark, n&#229;r du skal unders&#248;ges eller behandles" />
+    <link rel="canonical" href="https://www.borger.dk/sundhed-og-sygdom/dine-rettigheder-som-patient/Frit-og-udvidet-frit-valg-af-sygehus" />
+
+
+    <!--#endregion Metadata-->
+
+    <meta name="format-detection" content="telephone=no">
+
+    <title>
+
+Frit og udvidet frit valg af sygehus
+</title> 
+</head>
+<body >
+    <div id="modalboks" role="dialog" aria-modal="true" aria-label="modal dialog" class="dialog js-dialog"></div>
+    <script src="/borgerscripts/borger-top.js?371857150" defer=""></script> 
+
+    
+<!-- DisplayTime {2026-10-29 15:52:13} -->
+<!-- Destination {SCD12} -->
+<!-- CorrelationId {d26d81d2-2f47-51c7-a2c2-0e2aec69e497} -->
+    
+    
+
+
+<!-- #region Master.cshtml -->
+
+
+
+<div data-nosnippet class="cookiebanner js-cookiebanner" role="dialog" aria-modal="true" aria-labelledby="cookiebanner-title" tabindex="-1">
+    <div class="cookiebanner__content">
+        <div class="cookiebanner__header">
+            <img src="/-/media/Borger/Logo/2018/borger_dk_normal.svg" class="cookiebanner__logo" aria-hidden="true">
+            <h2 class="cookiebanner__title" id="cookiebanner-title">
+                Tag stilling til cookies p&#229; borger.dk
+            </h2>
+        </div>
+        <div class="cookiebanner__description">
+<p>Borger.dk s&aelig;tter tredjepartscookies til bes&oslash;gsstatistik og i forbindelse med sp&oslash;rgeskemaer p&aring; borger.dk.</p>
+<ul>
+    <li>"Nej til cookies" betyder, at der s&aelig;ttes de allermest n&oslash;dvendige tekniske cookies for, at hjemmesiden kan fungere.</li>
+    <li>"Ja til cookies" betyder, at der placeres cookies til brug for bes&oslash;gsstatistik.</li>
+</ul>
+<p>Du kan til enhver tid tr&aelig;kke dit samtykke tilbage via siden "Indstillinger og information om cookies".</p>            <div class="cookiebanner__links">
+<ul class="list--links">
+    <li><a href="/Om-borger-dk/Jura-cookies-og-tilgaengelighed/beskyttelse-af-personoplysninger/Cookies" title="Artikel på borger.dk om anvendelse af personoplysninger og cookies">Indstillinger og information om cookies</a></li>
+</ul>            </div>
+        </div>
+        <div class="cookiebanner__scroll-gradient"></div>
+    </div>
+    <div class="cookiebanner__bottom">
+        <div class="cookiebanner__buttons">
+<form action="/bdkRouting/CookieBanner/RejectCookies" class="cookiebanner__button-wrapper" method="post">                <button type="submit" class="btn btn-blue-dark cookiebanner__button" id="RejectCookieLawButton">
+                    Nej til cookies
+                </button>
+</form>            <form action="/bdkRouting/CookieBanner/AcceptCookies" class="cookiebanner__button-wrapper" method="post">                <button type="submit" class="btn btn-blue-dark cookiebanner__button" id="AcceptCookieLawButton">
+                    Ja til cookies
+                </button>
+</form>        </div>
+    </div>
+</div>
+<div class="dialog-backdrop"></div> 
+
+<!-- #region Borger.dk Banner -->
+
+
+
+
+<!-- headerNav -->
+<nav class="navbar js-header mainnavbarcontainer">
+    <div id="banner" tabindex="-1" class="navbar__container">
+        <!-- quickactions -->
+        
+
+
+<nav class="jump js-jump" aria-label="Indhold" title="Indhold">
+    <ul class="list-unstyled">
+
+
+<li>
+    <a href="#alertComponent" aria-label="G&#229; til driftsmeddelelse" title="G&#229; til driftsmeddelelse">
+        <span>G&#229; til driftsmeddelelse</span>
+    </a>
+</li>
+
+<li>
+    <a href="#main" aria-label="G&#229; til sidens indhold" title="G&#229; til sidens indhold">
+        <span>G&#229; til sidens indhold</span>
+    </a>
+</li>    </ul>
+</nav>
+        <!-- header-logo -->
+        
+
+
+<a class="navbar__brand " href="/">
+    <img src="/-/media/Borger/Logo/2018/borger_dk_normal.svg" class="navbar__brand-logo navbar__brand-logo--large navbar__brand-logo--print" alt="borger.dk logo">
+    <img src="/-/media/Borger/Logo/2018/borger_dk_mobillogo.svg" class="navbar__brand-logo navbar__brand-logo--small navbar__brand-logo--print-small" alt="borger.dk logo">
+    <img src="/-/media/Borger/Logo/2018/borger_dk_normal.svg" class="navbar__brand-logo navbar__brand-logo--large" alt="borger.dk logo">
+    <img src="/-/media/Borger/Logo/2018/borger_dk_mobillogo.svg" class="navbar__brand-logo navbar__brand-logo--small" alt="borger.dk logo">
+        <span class="navbar__brand-text">borger.dk</span>
+
+</a>
+
+
+        <!-- header-buttons -->
+            <ul class="navbar__items">
+                
+
+
+<!-- #region Button 1 -->
+    <li class="navbar__item js-topbar-button" data-method="post" data-tokenId="" data-apiurl="/api/tokenvalues/single" data-accessibilitytext="(u)l&#230;ste besked(er)" data-timeout="10000"   title="L&#230;s og send sikker Digital Post"   >
+        <a class="navbar__item-link" href="https://post.borger.dk">
+            <svg class="icon-svg navbar__item-icon "
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#envelope-light"></use>
+</svg>
+            Digital Post
+            <span class="js-topbar-button-serviceplaceholder"></span>
+        </a>
+    </li>
+<!-- #endregion -->
+<!-- #region Button 2-->
+    <li class="navbar__item js-topbar-button" data-method="post" data-tokenId="" data-apiurl="/api/tokenvalues/single" data-accessibilitytext="" data-timeout="10000" >
+        <a class="navbar__item-link" href="/mitoverblik">
+            <svg class="icon-svg navbar__item-icon "
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#user-circle-light"></use>
+</svg>
+            Mit Overblik
+            <span class="js-topbar-button-serviceplaceholder"></span>
+        </a>
+    </li>
+<!-- #endregion -->
+                <li class="navbar__item js-header-menu-open">
+                    <a class="navbar__item-link" href="#" aria-label="Menu med hovedemner p&#229; borger.dk">
+<svg class="icon-svg navbar__item-icon"
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#bgdk-menu-icon"></use>
+</svg>                        Menu
+                    </a>
+                </li>
+            </ul>
+    </div>
+</nav>
+
+<nav class="header-menu  js-header-menu" aria-labelledby="BannerMenuHeader">
+    <div class="header-menu__header">
+        <h2 tabindex="-1" id="BannerMenuHeader">Menu | borger.dk</h2>
+        <button class="btn-no-styling btn-close js-header-menu-close" data-dismiss="modal" aria-label="Luk menu" type="button">
+            <svg class="icon-svg icon-close"
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#close"></use>
+</svg>
+            Luk
+        </button>
+    </div>
+    <div class="header-menu__content">
+        
+
+
+
+<div class="header-menu__search">
+    
+
+
+
+<form class="search__form search-atom js-typeahead-search js-searchbox "
+      action="/Soeg?k="
+      data-endpoint="/api/search"
+      data-method="post"
+      data-timeout="3000"
+      data-debounce-time="300"
+      data-placeholder="Søg på borger.dk"
+      data-portal-id="ecfef56c-98e7-42f9-9e22-37d9268009ad"
+      data-keyword-query-param-name="k"
+      data-keyword=""
+      data-validation-text-required="Udfyld søgefeltet"
+      data-text-search-suggestion="Søg på {0}"
+      data-status-assistive-hint="N&#229;r autocomplete resultater er tilg&#230;ngelige kan op og ned knapper anvendes til at se og v&#230;lge."
+      data-status-search-results-many="{0} s&#248;geresultater"
+      data-status-search-results-one="{0} s&#248;geresultat"
+      data-status-search-results-none="Ingen s&#248;geresultater"
+      data-status-query-too-short="Indtast {0} eller flere tegn for at se resultater."
+      role="search"
+>
+    <label class="autocomplete-label" for="searchTextBox-1293632d-bd97-448a-ae5b-6a4fe37f25b7">
+        Søg på borger.dk
+        <input class="search-atom__input-area js-search-text-box" id="searchTextBox-1293632d-bd97-448a-ae5b-6a4fe37f25b7" placeholder="Søg på borger.dk">
+    </label>
+    <div class="search-atom__input-area js-search-autocomplete-container">
+    </div>
+    <button class="search-atom__btn" type="submit">
+        <svg class="icon-svg search-atom__btn-icon"
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#search-atom-icon"></use>
+</svg>
+        <span class="sr-only">Søg</span>
+    </button>
+</form>
+</div>
+<div class="row header-menu__topic-header">
+    <div class="col-12">
+        <h3>Alle emner</h3>
+    </div>
+</div>
+<ul class="row header-menu__link-list">
+            <li class="col-12 col-lg-4 col-sm-6 header-menu__link-list__item">
+                <a href="/familie-og-boern" class="header-menu__link">
+                        <svg class="header-menu__link-icon">
+                            <use href="/-/media/spritemaps/EmnerSpritemap.svg#Familie"></use>
+                        </svg>
+                    <span class="header-menu__link-text">
+                        Familie og b&#248;rn
+                    </span>
+                </a>
+            </li>
+            <li class="col-12 col-lg-4 col-sm-6 header-menu__link-list__item">
+                <a href="/skole-og-uddannelse" class="header-menu__link">
+                        <svg class="header-menu__link-icon">
+                            <use href="/-/media/spritemaps/EmnerSpritemap.svg#Skole"></use>
+                        </svg>
+                    <span class="header-menu__link-text">
+                        Skole og uddannelse
+                    </span>
+                </a>
+            </li>
+            <li class="col-12 col-lg-4 col-sm-6 header-menu__link-list__item">
+                <a href="/sundhed-og-sygdom" class="header-menu__link">
+                        <svg class="header-menu__link-icon">
+                            <use href="/-/media/spritemaps/EmnerSpritemap.svg#Sundhed"></use>
+                        </svg>
+                    <span class="header-menu__link-text">
+                        Sundhed og sygdom
+                    </span>
+                </a>
+            </li>
+            <li class="col-12 col-lg-4 col-sm-6 header-menu__link-list__item">
+                <a href="/internet-og-sikkerhed" class="header-menu__link">
+                        <svg class="header-menu__link-icon">
+                            <use href="/-/media/spritemaps/EmnerSpritemap.svg#Internet"></use>
+                        </svg>
+                    <span class="header-menu__link-text">
+                        Internet og sikkerhed
+                    </span>
+                </a>
+            </li>
+            <li class="col-12 col-lg-4 col-sm-6 header-menu__link-list__item">
+                <a href="/pension-og-efterloen" class="header-menu__link">
+                        <svg class="header-menu__link-icon">
+                            <use href="/-/media/spritemaps/EmnerSpritemap.svg#Pension_og_efterlon"></use>
+                        </svg>
+                    <span class="header-menu__link-text">
+                        Pension og efterl&#248;n
+                    </span>
+                </a>
+            </li>
+            <li class="col-12 col-lg-4 col-sm-6 header-menu__link-list__item">
+                <a href="/handicap" class="header-menu__link">
+                        <svg class="header-menu__link-icon">
+                            <use href="/-/media/spritemaps/EmnerSpritemap.svg#Handicap"></use>
+                        </svg>
+                    <span class="header-menu__link-text">
+                        Handicap
+                    </span>
+                </a>
+            </li>
+            <li class="col-12 col-lg-4 col-sm-6 header-menu__link-list__item">
+                <a href="/arbejde-dagpenge-ferie" class="header-menu__link">
+                        <svg class="header-menu__link-icon">
+                            <use href="/-/media/spritemaps/EmnerSpritemap.svg#Arbejde"></use>
+                        </svg>
+                    <span class="header-menu__link-text">
+                        Arbejde, dagpenge, ferie
+                    </span>
+                </a>
+            </li>
+            <li class="col-12 col-lg-4 col-sm-6 header-menu__link-list__item">
+                <a href="/oekonomi-skat-su" class="header-menu__link">
+                        <svg class="header-menu__link-icon">
+                            <use href="/-/media/spritemaps/EmnerSpritemap.svg#Okonomi"></use>
+                        </svg>
+                    <span class="header-menu__link-text">
+                        &#216;konomi, skat, SU
+                    </span>
+                </a>
+            </li>
+            <li class="col-12 col-lg-4 col-sm-6 header-menu__link-list__item">
+                <a href="/aeldre" class="header-menu__link">
+                        <svg class="header-menu__link-icon">
+                            <use href="/-/media/spritemaps/EmnerSpritemap.svg#Aeldre"></use>
+                        </svg>
+                    <span class="header-menu__link-text">
+                        &#198;ldre
+                    </span>
+                </a>
+            </li>
+            <li class="col-12 col-lg-4 col-sm-6 header-menu__link-list__item">
+                <a href="/bolig-og-flytning" class="header-menu__link">
+                        <svg class="header-menu__link-icon">
+                            <use href="/-/media/spritemaps/EmnerSpritemap.svg#Bolig_flytning"></use>
+                        </svg>
+                    <span class="header-menu__link-text">
+                        Bolig og flytning
+                    </span>
+                </a>
+            </li>
+            <li class="col-12 col-lg-4 col-sm-6 header-menu__link-list__item">
+                <a href="/miljoe-og-energi" class="header-menu__link">
+                        <svg class="header-menu__link-icon">
+                            <use href="/-/media/spritemaps/EmnerSpritemap.svg#Miljo_energi"></use>
+                        </svg>
+                    <span class="header-menu__link-text">
+                        Milj&#248; og energi
+                    </span>
+                </a>
+            </li>
+            <li class="col-12 col-lg-4 col-sm-6 header-menu__link-list__item">
+                <a href="/transport-trafik-rejser" class="header-menu__link">
+                        <svg class="header-menu__link-icon">
+                            <use href="/-/media/spritemaps/EmnerSpritemap.svg#Trafik"></use>
+                        </svg>
+                    <span class="header-menu__link-text">
+                        Transport, trafik, rejser
+                    </span>
+                </a>
+            </li>
+            <li class="col-12 col-lg-4 col-sm-6 header-menu__link-list__item">
+                <a href="/danskere-i-udlandet" class="header-menu__link">
+                        <svg class="header-menu__link-icon">
+                            <use href="/-/media/spritemaps/EmnerSpritemap.svg#Danskere_udlandet"></use>
+                        </svg>
+                    <span class="header-menu__link-text">
+                        Danskere i udlandet
+                    </span>
+                </a>
+            </li>
+            <li class="col-12 col-lg-4 col-sm-6 header-menu__link-list__item">
+                <a href="/udlaendinge-i-danmark" class="header-menu__link">
+                        <svg class="header-menu__link-icon">
+                            <use href="/-/media/spritemaps/EmnerSpritemap.svg#Udlaendige_i_danmark"></use>
+                        </svg>
+                    <span class="header-menu__link-text">
+                        Udl&#230;ndinge i Danmark
+                    </span>
+                </a>
+            </li>
+            <li class="col-12 col-lg-4 col-sm-6 header-menu__link-list__item">
+                <a href="/samfund-og-rettigheder" class="header-menu__link">
+                        <svg class="header-menu__link-icon">
+                            <use href="/-/media/spritemaps/EmnerSpritemap.svg#Samfund"></use>
+                        </svg>
+                    <span class="header-menu__link-text">
+                        Samfund og rettigheder
+                    </span>
+                </a>
+            </li>
+            <li class="col-12 col-lg-4 col-sm-6 header-menu__link-list__item">
+                <a href="/politi-retsvaesen-forsvar" class="header-menu__link">
+                        <svg class="header-menu__link-icon">
+                            <use href="/-/media/spritemaps/EmnerSpritemap.svg#Politi_retsvaesen_forsvar"></use>
+                        </svg>
+                    <span class="header-menu__link-text">
+                        Politi, retsv&#230;sen, forsvar
+                    </span>
+                </a>
+            </li>
+            <li class="col-12 col-lg-4 col-sm-6 header-menu__link-list__item">
+                <a href="/kultur-og-fritid" class="header-menu__link">
+                        <svg class="header-menu__link-icon">
+                            <use href="/-/media/spritemaps/EmnerSpritemap.svg#Kultur_fritid"></use>
+                        </svg>
+                    <span class="header-menu__link-text">
+                        Kultur og fritid
+                    </span>
+                </a>
+            </li>
+</ul>
+
+    </div>
+</nav>
+<div class="header-menu__overlay js-header-menu-overlay d-print-none">
+</div>
+<!-- #endregion Borger.dk Banner -->
+<!-- #region OperatingInformation content -->
+
+
+
+
+<!-- #endregion OperatingInformation content -->
+<!-- #region Borger.dk Body -->
+<div id="top-anchor"></div>
+
+
+<main class="contentpage contentpage--grey js-jumptarget" tabindex="-1">
+    <div class="contentpage__centered-content">
+        
+
+
+<div class="breadcrumb-container js-breadcrumb breadcrumb-container--truncate">
+    <ol class="breadcrumb__list">
+        <!-- Code intentionally lacks linebreaks to prevent white space insertion -->
+        <!-- &#8203; (zero-width space) is used after each item to prevent text selection bleeding between items -->
+        <li class="breadcrumb__list-item breadcrumb__truncate-button">
+            <button class="breadcrumb__truncate-button-element" type="button" aria-label="Flere emner">
+                <svg class="icon-svg breadcrumb__truncate-button-icon"
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#ellipses"></use>
+</svg>
+            </button>
+        </li>
+<li class="breadcrumb__list-item"><a href="/" class="breadcrumb__list-item-link">Forside</a>&#8203</li><li class="breadcrumb__list-item"><a href="/sundhed-og-sygdom" class="breadcrumb__list-item-link">Sundhed og sygdom</a>&#8203</li><li class="breadcrumb__list-item"><a href="/sundhed-og-sygdom/dine-rettigheder-som-patient" class="breadcrumb__list-item-link">Dine rettigheder som patient</a>&#8203</li><li class="breadcrumb__list-item"><span class="breadcrumb__list-item-current">Frit og udvidet frit valg af sygehus</span></li>    </ol>
+</div>
+
+        <div class="contentpage__grid-container js-contentpage-layout-manager">
+            <header class="contentpage__grid-item-header js-contentpage__grid-item-header">
+                
+
+
+<h1 id="main" class="contentpage__title">
+
+Frit og udvidet frit valg af sygehus
+</h1>
+
+                
+
+
+<span class="contentpage__manchet">
+Du kan v&#230;lge mellem alle offentlige sygehuse i Danmark, n&#229;r du skal unders&#248;ges eller behandles</span>
+
+            </header>
+            <div class="contentpage__grid-item-left js-contentpage__grid-item-left">
+                <div class="contentpage__component-container js-contentpage__grid-item-top-left">
+                    
+                    
+                    
+
+
+<div class="municipality-selector municipality-selector--contentpage js-contentpage municipality-selector--simple">
+    <div class="municipality-selector__text-col u-border-radius">
+
+        <label for="municipalitySelect" class="municipality-selector__dropdown-title municipality-selector__dropdown-title-color--blue-dark"> 
+            V&#230;lg kommune for at se selvbetjening og information, der g&#230;lder dig
+        </label>
+       
+        
+
+<form action="/bdkRouting/MunicipalitySelector/SetMunicipality" id="municipalitySelector" method="post">
+
+<div class="municipality-selector__dropdown-container ">
+    <div class="js-municipality-selector">
+        <div class="d-flex">
+            <select class="form-control" id="municipalitySelect" name="municipalitySelect">
+                    <option value="000"
+                            selected
+                            
+                            >
+                        V&#230;lg kommune
+                    </option>
+                    <option value="165"
+                            
+                            
+                            >
+                        Albertslund
+                    </option>
+                    <option value="201"
+                            
+                            
+                            >
+                        Aller&#248;d
+                    </option>
+                    <option value="420"
+                            
+                            
+                            >
+                        Assens
+                    </option>
+                    <option value="151"
+                            
+                            
+                            >
+                        Ballerup
+                    </option>
+                    <option value="530"
+                            
+                            
+                            >
+                        Billund
+                    </option>
+                    <option value="400"
+                            
+                            
+                            >
+                        Bornholm
+                    </option>
+                    <option value="153"
+                            
+                            
+                            >
+                        Br&#248;ndby
+                    </option>
+                    <option value="810"
+                            
+                            
+                            >
+                        Br&#248;nderslev
+                    </option>
+                    <option value="155"
+                            
+                            
+                            >
+                        Drag&#248;r
+                    </option>
+                    <option value="240"
+                            
+                            
+                            >
+                        Egedal
+                    </option>
+                    <option value="561"
+                            
+                            
+                            >
+                        Esbjerg
+                    </option>
+                    <option value="563"
+                            
+                            
+                            >
+                        Fan&#248;
+                    </option>
+                    <option value="710"
+                            
+                            
+                            >
+                        Favrskov
+                    </option>
+                    <option value="320"
+                            
+                            
+                            >
+                        Faxe
+                    </option>
+                    <option value="210"
+                            
+                            
+                            >
+                        Fredensborg
+                    </option>
+                    <option value="607"
+                            
+                            
+                            >
+                        Fredericia
+                    </option>
+                    <option value="147"
+                            
+                            
+                            >
+                        Frederiksberg
+                    </option>
+                    <option value="813"
+                            
+                            
+                            >
+                        Frederikshavn
+                    </option>
+                    <option value="250"
+                            
+                            
+                            >
+                        Frederikssund
+                    </option>
+                    <option value="190"
+                            
+                            
+                            >
+                        Fures&#248;
+                    </option>
+                    <option value="430"
+                            
+                            
+                            >
+                        Faaborg-Midtfyn
+                    </option>
+                    <option value="157"
+                            
+                            
+                            >
+                        Gentofte
+                    </option>
+                    <option value="159"
+                            
+                            
+                            >
+                        Gladsaxe
+                    </option>
+                    <option value="161"
+                            
+                            
+                            >
+                        Glostrup
+                    </option>
+                    <option value="253"
+                            
+                            
+                            >
+                        Greve
+                    </option>
+                    <option value="270"
+                            
+                            
+                            >
+                        Gribskov
+                    </option>
+                    <option value="376"
+                            
+                            
+                            >
+                        Guldborgsund
+                    </option>
+                    <option value="510"
+                            
+                            
+                            >
+                        Haderslev
+                    </option>
+                    <option value="260"
+                            
+                            
+                            >
+                        Halsn&#230;s
+                    </option>
+                    <option value="766"
+                            
+                            
+                            >
+                        Hedensted
+                    </option>
+                    <option value="217"
+                            
+                            
+                            >
+                        Helsing&#248;r
+                    </option>
+                    <option value="163"
+                            
+                            
+                            >
+                        Herlev
+                    </option>
+                    <option value="657"
+                            
+                            
+                            >
+                        Herning
+                    </option>
+                    <option value="219"
+                            
+                            
+                            >
+                        Hiller&#248;d
+                    </option>
+                    <option value="860"
+                            
+                            
+                            >
+                        Hj&#248;rring
+                    </option>
+                    <option value="316"
+                            
+                            
+                            >
+                        Holb&#230;k
+                    </option>
+                    <option value="661"
+                            
+                            
+                            >
+                        Holstebro
+                    </option>
+                    <option value="615"
+                            
+                            
+                            >
+                        Horsens
+                    </option>
+                    <option value="167"
+                            
+                            
+                            >
+                        Hvidovre
+                    </option>
+                    <option value="169"
+                            
+                            
+                            >
+                        H&#248;je-Taastrup
+                    </option>
+                    <option value="223"
+                            
+                            
+                            >
+                        H&#248;rsholm
+                    </option>
+                    <option value="756"
+                            
+                            
+                            >
+                        Ikast-Brande
+                    </option>
+                    <option value="183"
+                            
+                            
+                            >
+                        Ish&#248;j
+                    </option>
+                    <option value="849"
+                            
+                            
+                            >
+                        Jammerbugt
+                    </option>
+                    <option value="326"
+                            
+                            
+                            >
+                        Kalundborg
+                    </option>
+                    <option value="440"
+                            
+                            
+                            >
+                        Kerteminde
+                    </option>
+                    <option value="621"
+                            
+                            
+                            >
+                        Kolding
+                    </option>
+                    <option value="101"
+                            
+                            
+                            >
+                        K&#248;benhavn
+                    </option>
+                    <option value="259"
+                            
+                            
+                            >
+                        K&#248;ge
+                    </option>
+                    <option value="482"
+                            
+                            
+                            >
+                        Langeland
+                    </option>
+                    <option value="350"
+                            
+                            
+                            >
+                        Lejre
+                    </option>
+                    <option value="665"
+                            
+                            
+                            >
+                        Lemvig
+                    </option>
+                    <option value="360"
+                            
+                            
+                            >
+                        Lolland
+                    </option>
+                    <option value="173"
+                            
+                            
+                            >
+                        Lyngby-Taarb&#230;k
+                    </option>
+                    <option value="825"
+                            
+                            
+                            >
+                        L&#230;s&#248;
+                    </option>
+                    <option value="846"
+                            
+                            
+                            >
+                        Mariagerfjord
+                    </option>
+                    <option value="410"
+                            
+                            
+                            >
+                        Middelfart
+                    </option>
+                    <option value="773"
+                            
+                            
+                            >
+                        Mors&#248;
+                    </option>
+                    <option value="707"
+                            
+                            
+                            >
+                        Norddjurs
+                    </option>
+                    <option value="480"
+                            
+                            
+                            >
+                        Nordfyns
+                    </option>
+                    <option value="450"
+                            
+                            
+                            >
+                        Nyborg
+                    </option>
+                    <option value="370"
+                            
+                            
+                            >
+                        N&#230;stved
+                    </option>
+                    <option value="727"
+                            
+                            
+                            >
+                        Odder
+                    </option>
+                    <option value="461"
+                            
+                            
+                            >
+                        Odense
+                    </option>
+                    <option value="306"
+                            
+                            
+                            >
+                        Odsherred
+                    </option>
+                    <option value="730"
+                            
+                            
+                            >
+                        Randers
+                    </option>
+                    <option value="840"
+                            
+                            
+                            >
+                        Rebild
+                    </option>
+                    <option value="760"
+                            
+                            
+                            >
+                        Ringk&#248;bing-Skjern
+                    </option>
+                    <option value="329"
+                            
+                            
+                            >
+                        Ringsted
+                    </option>
+                    <option value="265"
+                            
+                            
+                            >
+                        Roskilde
+                    </option>
+                    <option value="230"
+                            
+                            
+                            >
+                        Rudersdal
+                    </option>
+                    <option value="175"
+                            
+                            
+                            >
+                        R&#248;dovre
+                    </option>
+                    <option value="741"
+                            
+                            
+                            >
+                        Sams&#248;
+                    </option>
+                    <option value="740"
+                            
+                            
+                            >
+                        Silkeborg
+                    </option>
+                    <option value="746"
+                            
+                            
+                            >
+                        Skanderborg
+                    </option>
+                    <option value="779"
+                            
+                            
+                            >
+                        Skive
+                    </option>
+                    <option value="330"
+                            
+                            
+                            >
+                        Slagelse
+                    </option>
+                    <option value="269"
+                            
+                            
+                            >
+                        Solr&#248;d
+                    </option>
+                    <option value="340"
+                            
+                            
+                            >
+                        Sor&#248;
+                    </option>
+                    <option value="336"
+                            
+                            
+                            >
+                        Stevns
+                    </option>
+                    <option value="671"
+                            
+                            
+                            >
+                        Struer
+                    </option>
+                    <option value="479"
+                            
+                            
+                            >
+                        Svendborg
+                    </option>
+                    <option value="706"
+                            
+                            
+                            >
+                        Syddjurs
+                    </option>
+                    <option value="540"
+                            
+                            
+                            >
+                        S&#248;nderborg
+                    </option>
+                    <option value="787"
+                            
+                            
+                            >
+                        Thisted
+                    </option>
+                    <option value="550"
+                            
+                            
+                            >
+                        T&#248;nder
+                    </option>
+                    <option value="185"
+                            
+                            
+                            >
+                        T&#229;rnby
+                    </option>
+                    <option value="187"
+                            
+                            
+                            >
+                        Vallensb&#230;k
+                    </option>
+                    <option value="573"
+                            
+                            
+                            >
+                        Varde
+                    </option>
+                    <option value="575"
+                            
+                            
+                            >
+                        Vejen
+                    </option>
+                    <option value="630"
+                            
+                            
+                            >
+                        Vejle
+                    </option>
+                    <option value="820"
+                            
+                            
+                            >
+                        Vesthimmerland
+                    </option>
+                    <option value="791"
+                            
+                            
+                            >
+                        Viborg
+                    </option>
+                    <option value="390"
+                            
+                            
+                            >
+                        Vordingborg
+                    </option>
+                    <option value="492"
+                            
+                            
+                            >
+                        &#198;r&#248;
+                    </option>
+                    <option value="580"
+                            
+                            
+                            >
+                        Aabenraa
+                    </option>
+                    <option value="851"
+                            
+                            
+                            >
+                        Aalborg
+                    </option>
+                    <option value="751"
+                            
+                            
+                            >
+                        Aarhus
+                    </option>
+            </select>
+            <button class="btn btn-blue-dark municipality-selector__dropdown-button js-idp-change-button invisible"
+                    tabindex="-1"
+                    type="submit">
+                OK
+            </button>
+        </div>
+    </div>
+</div></form>    </div>
+</div>
+
+
+                    
+                    
+
+    <div class="micro-articles-list " id="micro-articles-list-00000000-0000-0000-0000-000000000000" data-renderingtype="MicroArticleFrame"
+         data-filterknaptekst="" data-mikroartikelrammetitel="" data-filter="false">
+
+                <h2 class="sr-only">L&#230;s mere om emnet</h2>
+        <div class="micro-articles-list__selfservice-and-microarticle-container">
+            
+
+
+<article class="micro-article micro-article-js" id="micro-article-16544c58-26ae-4b9f-a29f-df8238d0137d" data-renderingtype="MicroArticle">
+    <header class="micro-article__header">
+    <a id="control-btn-16544c58-26ae-4b9f-a29f-df8238d0137d" class="micro-article__toggle micro-article__toggle-js" role="button" tabindex="0" aria-expanded="false" aria-controls="contentDiv-16544c58-26ae-4b9f-a29f-df8238d0137d">
+        <div class="micro-article__toggle-left-part">
+            <svg class="icon-svg micro-article__plus"
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#plus"></use>
+</svg>
+            <svg class="icon-svg micro-article__minus"
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#minus"></use>
+</svg>
+                <h3 id="article-16544c58-26ae-4b9f-a29f-df8238d0137d" class=" micro-article__title">
+Hvad betyder frit sygehusvalg?                </h3>
+        </div>
+    </a>
+
+        
+    
+
+    </header>
+
+
+    
+
+
+
+
+
+
+<section class="micro-article__content-container-js collapse" id="contentDiv-16544c58-26ae-4b9f-a29f-df8238d0137d">
+    <div class="micro-article__content">
+        
+
+        
+
+
+
+            <div class="content-text" id="16544c58-26ae-4b9f-a29f-df8238d0137d">
+<p>Som borger i Danmark har du ret til frit sygehusvalg. Det betyder, at du frit kan v&aelig;lge mellem offentlige sygehuse og afdelinger i landet, n&aring;r du skal unders&oslash;ges eller behandles.</p>
+<p>Det er din egen l&aelig;ge, der skal sende en henvisning til det offentlige sygehus, som du gerne vil henvises til. Du har ogs&aring; mulighed for at tage kontakt til en patientvejleder i din bop&aelig;lsregion for at f&aring; yderligere information om dine rettigheder.</p>
+<p>Du skal som hovedregel selv betale transporten, hvis du v&aelig;lger et andet sygehus.</p>
+<p>Retten til frit sygehusvalg g&aelig;lder ikke, hvis:</p>
+<ul class="">
+    <li>du bliver indlagt akut med en ambulance. Her vil du blive bragt til det n&aelig;rmeste sygehus, der tager imod akutte patienter.</li>
+    <li>du har en diagnose, der kr&aelig;ver et s&aelig;rligt specialiseret behandlingssted.</li>
+</ul>
+
+
+                
+            </div>
+
+        
+
+
+
+
+        
+
+
+        
+    
+
+    </div>
+</section>
+</article>
+
+
+
+<article class="micro-article micro-article-js" id="micro-article-721f58a8-8aa7-4298-a55a-2e5acdb56f7e" data-renderingtype="MicroArticle">
+    <header class="micro-article__header">
+    <a id="control-btn-721f58a8-8aa7-4298-a55a-2e5acdb56f7e" class="micro-article__toggle micro-article__toggle-js" role="button" tabindex="0" aria-expanded="false" aria-controls="contentDiv-721f58a8-8aa7-4298-a55a-2e5acdb56f7e">
+        <div class="micro-article__toggle-left-part">
+            <svg class="icon-svg micro-article__plus"
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#plus"></use>
+</svg>
+            <svg class="icon-svg micro-article__minus"
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#minus"></use>
+</svg>
+                <h3 id="article-721f58a8-8aa7-4298-a55a-2e5acdb56f7e" class=" micro-article__title">
+Hvorn&#229;r kan jeg ikke frit v&#230;lge sygehus?                </h3>
+        </div>
+    </a>
+
+        
+    
+
+    </header>
+
+
+    
+
+
+
+
+
+
+<section class="micro-article__content-container-js collapse" id="contentDiv-721f58a8-8aa7-4298-a55a-2e5acdb56f7e">
+    <div class="micro-article__content">
+        
+
+        
+
+
+
+            <div class="content-text" id="721f58a8-8aa7-4298-a55a-2e5acdb56f7e">
+<ul class=""><li>
+hvis sygehuset, du ønsker, har væsentligt længere ventetider end lignende afdelinger på andre sygehuse</li><li>
+hvis du bliver indlagt akut. Her vil du blive bragt til det nærmeste sygehus</li><li>
+nogle højt specialiserede afdelinger kræver, at du lider af en bestemt sygdom, fx på Rigshospitalet</li><li>
+retten til selv at vælge sygehus - ved psykiatrisk behandling - kan begrænses af hensyn til dig selv.</li></ul>
+
+
+                
+            </div>
+
+        
+
+
+
+
+        
+
+
+        
+    
+
+    </div>
+</section>
+</article>
+
+
+
+<article class="micro-article micro-article-js" id="micro-article-b8cbf8ae-09af-4f29-a4e7-75c968a4139f" data-renderingtype="MicroArticle">
+    <header class="micro-article__header">
+    <a id="control-btn-b8cbf8ae-09af-4f29-a4e7-75c968a4139f" class="micro-article__toggle micro-article__toggle-js" role="button" tabindex="0" aria-expanded="false" aria-controls="contentDiv-b8cbf8ae-09af-4f29-a4e7-75c968a4139f">
+        <div class="micro-article__toggle-left-part">
+            <svg class="icon-svg micro-article__plus"
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#plus"></use>
+</svg>
+            <svg class="icon-svg micro-article__minus"
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#minus"></use>
+</svg>
+                <h3 id="article-b8cbf8ae-09af-4f29-a4e7-75c968a4139f" class=" micro-article__title">
+Flere valgmuligheder ved ventetid (udvidet frit sygehusvalg)                </h3>
+        </div>
+    </a>
+
+        
+    
+
+    </header>
+
+
+    
+
+
+
+
+
+
+<section class="micro-article__content-container-js collapse" id="contentDiv-b8cbf8ae-09af-4f29-a4e7-75c968a4139f">
+    <div class="micro-article__content">
+        
+
+        
+
+
+
+            <div class="content-text" id="b8cbf8ae-09af-4f29-a4e7-75c968a4139f">
+<p>Hvis ventetiden til behandling p&aring; et offentligt sygehus overstiger 30 dage, har du ret til at v&aelig;lge behandling p&aring; et privathospital. I perioden 1. juni 2023 til og med 31. december 2024 er fristen for behandling dog 2 m&aring;neder. Det vil sige, at du frit kan v&aelig;lge at blive henvist til et af de privathospitaler, som har indg&aring;et aftale med Danske Regioner.</p>
+<p>P&aring; mitsygehusvalg.dk kan du se en oversigt over hvilke privathospitaler, du kan v&aelig;lge imellem.</p>
+<ul class="list--links">
+    <li><a title="mitsygehusvalg.dk" href="https://www.esundhed.dk/Emner/Patienter-og-sygehuse/MitSygehusvalg" target="_blank" aria-label="mitsygehusvalg.dk (nyt vindue) åbner i nyt vindue">mitsygehusvalg.dk</a></li>
+</ul>
+
+
+                
+            </div>
+
+        
+
+
+
+
+        
+
+
+        
+    
+
+    </div>
+</section>
+</article>
+
+
+
+<article class="micro-article micro-article-js" id="micro-article-f6603b3a-d00a-429b-b1f6-4500422192f2" data-renderingtype="MicroArticle">
+    <header class="micro-article__header">
+    <a id="control-btn-f6603b3a-d00a-429b-b1f6-4500422192f2" class="micro-article__toggle micro-article__toggle-js" role="button" tabindex="0" aria-expanded="false" aria-controls="contentDiv-f6603b3a-d00a-429b-b1f6-4500422192f2">
+        <div class="micro-article__toggle-left-part">
+            <svg class="icon-svg micro-article__plus"
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#plus"></use>
+</svg>
+            <svg class="icon-svg micro-article__minus"
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#minus"></use>
+</svg>
+                <h3 id="article-f6603b3a-d00a-429b-b1f6-4500422192f2" class=" micro-article__title">
+Hvorn&#229;r kan jeg ikke benytte det udvidede frie sygehusvalg?                </h3>
+        </div>
+    </a>
+
+        
+    
+
+    </header>
+
+
+    
+
+
+
+
+
+
+<section class="micro-article__content-container-js collapse" id="contentDiv-f6603b3a-d00a-429b-b1f6-4500422192f2">
+    <div class="micro-article__content">
+        
+
+        
+
+
+
+            <div class="content-text" id="f6603b3a-d00a-429b-b1f6-4500422192f2">
+<ul class=""><li>
+hvis privathospitalet, du ønsker, har væsentligt længere ventetider end lignende afdelinger på andre sygehuse</li><li>
+hvis privathospitalet ikke har en aftale med regionerne</li><li>
+hvis du skal have organtransplantation, sterilisation, fertilitetsbehandling, refertilisations- behandling, høreapparatbehandling, kosmetisk behandling, kønsskifteoperation eller ophold på rekonvalescenthjem.</li></ul>
+
+
+                
+            </div>
+
+        
+
+
+
+
+        
+
+
+        
+    
+
+    </div>
+</section>
+</article>
+
+
+
+<article class="micro-article micro-article-js" id="micro-article-1ccb4fba-9edf-414b-a04f-ffe67f3a0da5" data-renderingtype="MicroArticle">
+    <header class="micro-article__header">
+    <a id="control-btn-1ccb4fba-9edf-414b-a04f-ffe67f3a0da5" class="micro-article__toggle micro-article__toggle-js" role="button" tabindex="0" aria-expanded="false" aria-controls="contentDiv-1ccb4fba-9edf-414b-a04f-ffe67f3a0da5">
+        <div class="micro-article__toggle-left-part">
+            <svg class="icon-svg micro-article__plus"
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#plus"></use>
+</svg>
+            <svg class="icon-svg micro-article__minus"
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#minus"></use>
+</svg>
+                <h3 id="article-1ccb4fba-9edf-414b-a04f-ffe67f3a0da5" class=" micro-article__title">
+Find ventetider p&#229; behandling                </h3>
+        </div>
+    </a>
+
+        
+    
+
+
+<a href="/Handlingsside?selfserviceId=6d493a3c-57d0-4cbb-95ec-d4620955b021&amp;referringPageId=541a35a6-fe16-4879-941e-6325dba9c174&amp;type=DK"
+   title="Selvbetjening, Ventetider p&#229; behandling"
+   class="micro-article__btn-start"
+   data-default-button-text="">
+    <span aria-hidden="true" class="micro-article__btn-start__text">Selvbetjening</span>
+    <span class="sr-only">Selvbetjening, Ventetider p&#229; behandling</span>
+    <span class="circle-arrow"> <svg class="icon-svg icon-long-arrow-right-solid"
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#long-arrow-right-solid"></use>
+</svg> </span>
+    <svg class="icon-svg micro-article__btn-start__desktop-ikon"
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#arrow-right-medium"></use>
+</svg>
+</a>
+
+
+
+    </header>
+
+
+    
+
+
+
+
+
+
+<section class="micro-article__content-container-js collapse" id="contentDiv-1ccb4fba-9edf-414b-a04f-ffe67f3a0da5">
+    <div class="micro-article__content">
+        
+
+        
+
+
+
+            <div class="content-text" id="1ccb4fba-9edf-414b-a04f-ffe67f3a0da5">
+<p>P&aring; mitsygehusvalg.dk har du mulighed for at se ventetider p&aring; udvalgte behandlinger og operationer p&aring; landets offentlige sygehuse og privathospitaler.&nbsp;</p>
+<p>Den forventede ventetid er et udtryk for syghusenes aktuelle sk&oslash;n over den ventetid, den n&aelig;ste ukomplicerede patient kan forvente fra henvisning til udredning/behandling.</p>
+<p>De forventede ventetider p&aring;&nbsp;mitsygehusvalg.dk&nbsp;er lavet p&aring; baggrund af indberetninger fra sygehusene til Sundhedsdatastyrelsen.</p>
+
+
+                
+            </div>
+
+        
+
+
+
+
+        
+
+
+        
+    
+<a title="Selvbetjening, Ventetider p&#229; behandling"
+   href="/Handlingsside?selfserviceId=6d493a3c-57d0-4cbb-95ec-d4620955b021&amp;referringPageId=541a35a6-fe16-4879-941e-6325dba9c174&amp;type=DK"
+   class="selfservice-button-microarticle">
+    <div class="selfservice-button-microarticle__content">
+        <span aria-hidden="true" class="selfservice-button-microarticle__text">
+            Selvbetjening
+        </span>
+        <span class="sr-only">
+            Selvbetjening, Ventetider p&#229; behandling
+        </span>
+        <svg class="icon-svg selfservice-button-microarticle__right-icon"
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#arrow-right-regular"></use>
+</svg>
+    </div>
+</a>
+
+    </div>
+</section>
+</article>
+
+
+
+<article class="micro-article micro-article-js" id="micro-article-6e8f30d3-9f10-4d5b-8075-8671231eb287" data-renderingtype="MicroArticle">
+    <header class="micro-article__header">
+    <a id="control-btn-6e8f30d3-9f10-4d5b-8075-8671231eb287" class="micro-article__toggle micro-article__toggle-js" role="button" tabindex="0" aria-expanded="false" aria-controls="contentDiv-6e8f30d3-9f10-4d5b-8075-8671231eb287">
+        <div class="micro-article__toggle-left-part">
+            <svg class="icon-svg micro-article__plus"
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#plus"></use>
+</svg>
+            <svg class="icon-svg micro-article__minus"
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#minus"></use>
+</svg>
+                <h3 id="article-6e8f30d3-9f10-4d5b-8075-8671231eb287" class=" micro-article__title">
+Kortere ventetid ved livstruende sygdom                </h3>
+        </div>
+    </a>
+
+        
+    
+
+    </header>
+
+
+    
+
+
+
+
+
+
+<section class="micro-article__content-container-js collapse" id="contentDiv-6e8f30d3-9f10-4d5b-8075-8671231eb287">
+    <div class="micro-article__content">
+        
+
+        
+
+
+
+            <div class="content-text" id="6e8f30d3-9f10-4d5b-8075-8671231eb287">
+<p>Der er fastsat maksimale ventetider til behandling for visse kr&aelig;ft- og andre livstruende sygdomme.</p>
+<ul class="list--links">
+    <li>
+    <a href="https://www.sundhed.dk/borger/patientrettigheder/sygehusvalg-ventetider/maksimale-ventetider/" target="_blank" aria-label="Ventetider for forskellige kræftsygdomme (nyt vindue) åbner i nyt vindue" title="Ventetider for forskellige kræftsygdomme på sundhed.dk">Ventetider for forskellige kræftsygdomme</a></li>
+    <li><a href="https://sum.dk/sundhed/patientrettigheder/maksimale-ventetider" title="Sundheds- og Kirkeministeriet om maksimale ventetider" target="_blank" aria-label="Indenrigs- og Sundhedsministeriet om maksimale ventetider - åbner i nyt vindue">Sundheds- og Kirkeministeriet om maksimale ventetider</a></li>
+</ul>
+
+
+                
+            </div>
+
+        
+
+
+
+
+        
+
+
+        
+    
+
+    </div>
+</section>
+</article>
+
+
+
+<article class="micro-article micro-article-js" id="micro-article-56b53447-8fa7-4ab4-b853-481728063c56" data-renderingtype="MicroArticle">
+    <header class="micro-article__header">
+    <a id="control-btn-56b53447-8fa7-4ab4-b853-481728063c56" class="micro-article__toggle micro-article__toggle-js" role="button" tabindex="0" aria-expanded="false" aria-controls="contentDiv-56b53447-8fa7-4ab4-b853-481728063c56">
+        <div class="micro-article__toggle-left-part">
+            <svg class="icon-svg micro-article__plus"
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#plus"></use>
+</svg>
+            <svg class="icon-svg micro-article__minus"
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#minus"></use>
+</svg>
+                <h3 id="article-56b53447-8fa7-4ab4-b853-481728063c56" class=" micro-article__title">
+Hvilket sygehus kan jeg v&#230;lge?                </h3>
+        </div>
+    </a>
+
+        
+    
+
+
+<a href="/Handlingsside?selfserviceId=e2a6f8df-f1d2-4565-b8d3-95a2ba67fef8&amp;referringPageId=541a35a6-fe16-4879-941e-6325dba9c174&amp;type=DK"
+   title="Selvbetjening, V&#230;lg sygehus"
+   class="micro-article__btn-start"
+   data-default-button-text="">
+    <span aria-hidden="true" class="micro-article__btn-start__text">Selvbetjening</span>
+    <span class="sr-only">Selvbetjening, V&#230;lg sygehus</span>
+    <span class="circle-arrow"> <svg class="icon-svg icon-long-arrow-right-solid"
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#long-arrow-right-solid"></use>
+</svg> </span>
+    <svg class="icon-svg micro-article__btn-start__desktop-ikon"
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#arrow-right-medium"></use>
+</svg>
+</a>
+
+
+
+    </header>
+
+
+    
+
+
+
+
+
+
+<section class="micro-article__content-container-js collapse" id="contentDiv-56b53447-8fa7-4ab4-b853-481728063c56">
+    <div class="micro-article__content">
+        
+
+        
+
+
+
+            <div class="content-text" id="56b53447-8fa7-4ab4-b853-481728063c56">
+<p>Hvis ventetiden til behandling p&aring; et offentligt sygehus overstiger 30 dage, har du ret til at v&aelig;lge behandling p&aring; et privathospital. I perioden 1. juni til og med 31. december 2024 er fristen for behandling dog 2 m&aring;neder. Det vil sige, at du frit kan v&aelig;lge at blive henvist til et af de privathospitaler, som har indg&aring;et aftale med Danske Regioner. </p>
+<p>Retten til udvidet frit sygehusvalg g&aelig;lder ikke, hvis:</p>
+<ul>
+    <li>det p&aring;g&aelig;ldende privathospital ikke besidder den forn&oslash;dne ekspertise i forhold til den behandling, som du skal have foretaget.</li>
+    <li>behandlingen er en af de f&oslash;lgende behandlinger, som ikke er omfattet af det udvidede frie sygehusvalg: organtransplantation, sterilisation, fertilitetsbehandling, refertilisationsbehandling, h&oslash;reapparatbehandling, kosmetisk behandling, k&oslash;nsskifteoperation eller ophold p&aring; rekonvalescenthjem.</li>
+    <li>behandlingen er forskningsm&aelig;ssig, eksperimentel eller alternativ.</li>
+    <li>det p&aring;g&aelig;ldende privathospital ikke har indg&aring;et aftale med Danske Regioner om behandlingen.</li>
+</ul>
+
+
+                
+            </div>
+
+        
+
+
+
+
+        
+
+
+        
+    
+<a title="Selvbetjening, V&#230;lg sygehus"
+   href="/Handlingsside?selfserviceId=e2a6f8df-f1d2-4565-b8d3-95a2ba67fef8&amp;referringPageId=541a35a6-fe16-4879-941e-6325dba9c174&amp;type=DK"
+   class="selfservice-button-microarticle">
+    <div class="selfservice-button-microarticle__content">
+        <span aria-hidden="true" class="selfservice-button-microarticle__text">
+            Selvbetjening
+        </span>
+        <span class="sr-only">
+            Selvbetjening, V&#230;lg sygehus
+        </span>
+        <svg class="icon-svg selfservice-button-microarticle__right-icon"
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#arrow-right-regular"></use>
+</svg>
+    </div>
+</a>
+
+    </div>
+</section>
+</article>
+
+
+
+<article class="micro-article micro-article-js" id="micro-article-295765de-404c-4191-9dca-66aa271460fd" data-renderingtype="MicroArticle">
+    <header class="micro-article__header">
+    <a id="control-btn-295765de-404c-4191-9dca-66aa271460fd" class="micro-article__toggle micro-article__toggle-js" role="button" tabindex="0" aria-expanded="false" aria-controls="contentDiv-295765de-404c-4191-9dca-66aa271460fd">
+        <div class="micro-article__toggle-left-part">
+            <svg class="icon-svg micro-article__plus"
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#plus"></use>
+</svg>
+            <svg class="icon-svg micro-article__minus"
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#minus"></use>
+</svg>
+                <h3 id="article-295765de-404c-4191-9dca-66aa271460fd" class=" micro-article__title">
+Find information om kvalitet i sundhedsv&#230;senet                </h3>
+        </div>
+    </a>
+
+        
+    
+
+
+<a href="/Handlingsside?selfserviceId=48f3341b-6370-4f0c-90fb-9369ed19cc3b&amp;referringPageId=541a35a6-fe16-4879-941e-6325dba9c174&amp;type=DK"
+   title="Selvbetjening, Sammenlign sygehuse og klinikker"
+   class="micro-article__btn-start"
+   data-default-button-text="">
+    <span aria-hidden="true" class="micro-article__btn-start__text">Selvbetjening</span>
+    <span class="sr-only">Selvbetjening, Sammenlign sygehuse og klinikker</span>
+    <span class="circle-arrow"> <svg class="icon-svg icon-long-arrow-right-solid"
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#long-arrow-right-solid"></use>
+</svg> </span>
+    <svg class="icon-svg micro-article__btn-start__desktop-ikon"
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#arrow-right-medium"></use>
+</svg>
+</a>
+
+
+
+    </header>
+
+
+    
+
+
+
+
+
+
+<section class="micro-article__content-container-js collapse" id="contentDiv-295765de-404c-4191-9dca-66aa271460fd">
+    <div class="micro-article__content">
+        
+
+        
+
+
+
+            <div class="content-text" id="295765de-404c-4191-9dca-66aa271460fd">
+<p>P&aring; internettet kan du finde oplysninger om de forskellige sygehuse og om sundhedspersoner, der har v&aelig;ret kritik af:</p>
+<h4>Sammenlign sygehuse og klinikker p&aring; sundhedskvalitet.dk</h4>
+<p>Sundhedskvalitet er et redskab til dig, n&aring;r du skal v&aelig;lge eller vil sammenligne sygehuse og klinikker. Sundhedskvalitet viser dig oplysninger om kvalitet og service p&aring; sygehuse og klinikker - b&aring;de offentlige og private. </p>
+<h4>Patientoplevelser</h4>
+<p>Den Landsd&aelig;kkende Unders&oslash;gelse af Patientoplevelser (LUP) bliver gennemf&oslash;rt p&aring; landets sygehuse hvert &aring;r. L&aelig;s om unders&oslash;gelsen og unders&oslash;gelsens resultater her.</p>
+<h4>Tilsynslisten</h4>
+<p>Sundhedsstyrelsen har lavet en liste over sundhedspersoner, der har p&aring;bud, er i sk&aelig;rpet tilsyn eller har f&aring;et foretaget hel eller delvis indskr&aelig;nkning af deres autorisation.</p>
+<h4>Kritik af sundhedsfaglige</h4>
+<p>Styrelsen for Patientsikkerhed har en liste med afg&oslash;relser om alvorlig eller gentagen kritik truffet af Sundhedsv&aelig;senets Disciplin&aelig;rn&aelig;vn. Endvidere kan du finde afg&oslash;relser om kritik i forbindelse med kosmetiske indgreb. </p>
+<ul class="list--links">
+    <li><a href="https://www.sundhed.dk/borger/patientrettigheder/kvalitet-i-behandlingen/lup/" target="_blank" title="Læs om patienters oplevelser på sygehuse">Læs om patienters oplevelser på landets hospitaler og i psykiatrien</a></li>
+    <li><a href="https://stps.dk/sundhedsfaglig/tilsyn/tilsyn-med-sundhedspersoner" target="_blank" title="Se tilsynslisten på Styrelsen for Patientsikkerheds hjemmeside">Se tilsynslisten</a></li>
+    <li><a href="https://www.sundhed.dk/borger/patientrettigheder/klage-og-erstatning/afgoerelser-ved-klage-og-tilsynssager/afgoerelser-sundhedsvaesenets-disciplinaernaevn/" target="_blank" title="Offentliggjorte afgørelser fra Sundhedsvæsenets Disciplinærnævn">Offentliggjorte afgørelser fra Sundhedsvæsenets Disciplinærnævn</a></li>
+</ul>
+
+
+                
+            </div>
+
+        
+
+
+
+
+        
+
+
+        
+    
+<a title="Selvbetjening, Sammenlign sygehuse og klinikker"
+   href="/Handlingsside?selfserviceId=48f3341b-6370-4f0c-90fb-9369ed19cc3b&amp;referringPageId=541a35a6-fe16-4879-941e-6325dba9c174&amp;type=DK"
+   class="selfservice-button-microarticle">
+    <div class="selfservice-button-microarticle__content">
+        <span aria-hidden="true" class="selfservice-button-microarticle__text">
+            Selvbetjening
+        </span>
+        <span class="sr-only">
+            Selvbetjening, Sammenlign sygehuse og klinikker
+        </span>
+        <svg class="icon-svg selfservice-button-microarticle__right-icon"
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#arrow-right-regular"></use>
+</svg>
+    </div>
+</a>
+
+    </div>
+</section>
+</article>
+
+
+
+<article class="micro-article micro-article-js" id="micro-article-575669c1-3b6c-4204-8054-a6adb006d399" data-renderingtype="MicroArticle">
+    <header class="micro-article__header">
+    <a id="control-btn-575669c1-3b6c-4204-8054-a6adb006d399" class="micro-article__toggle micro-article__toggle-js" role="button" tabindex="0" aria-expanded="false" aria-controls="contentDiv-575669c1-3b6c-4204-8054-a6adb006d399">
+        <div class="micro-article__toggle-left-part">
+            <svg class="icon-svg micro-article__plus"
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#plus"></use>
+</svg>
+            <svg class="icon-svg micro-article__minus"
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#minus"></use>
+</svg>
+                <h3 id="article-575669c1-3b6c-4204-8054-a6adb006d399" class=" micro-article__title">
+Tilmeld dig NemSMS                </h3>
+        </div>
+    </a>
+
+        
+    
+
+
+<a href="/Handlingsside?selfserviceId=585f626e-a45a-4d3e-a425-c229f97f43df&amp;referringPageId=541a35a6-fe16-4879-941e-6325dba9c174&amp;type=DK"
+   title="Selvbetjening, Tilmeld dig NemSMS eller ret dit mobilnummer "
+   class="micro-article__btn-start"
+   data-default-button-text="">
+    <span aria-hidden="true" class="micro-article__btn-start__text">Selvbetjening</span>
+    <span class="sr-only">Selvbetjening, Tilmeld dig NemSMS eller ret dit mobilnummer </span>
+    <span class="circle-arrow"> <svg class="icon-svg icon-long-arrow-right-solid"
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#long-arrow-right-solid"></use>
+</svg> </span>
+    <svg class="icon-svg micro-article__btn-start__desktop-ikon"
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#arrow-right-medium"></use>
+</svg>
+</a>
+
+
+
+    </header>
+
+
+    
+
+
+
+
+
+
+<section class="micro-article__content-container-js collapse" id="contentDiv-575669c1-3b6c-4204-8054-a6adb006d399">
+    <div class="micro-article__content">
+        
+
+        
+
+
+
+            <div class="content-text" id="575669c1-3b6c-4204-8054-a6adb006d399">
+<p>NemSMS er en service til dig, så du ikke glemmer dine aftaler med det offentlige.</p>
+<h4>Tilmeld dig NemSMS</h4>
+
+<p>Det er gratis at tilmelde sig og modtage NemSMS. Du tilmelder dig ved at logge på Digital Post under Menu og Tilmelding. Her finder du NemSMS. Ved tilmeldingen skal du skrive dit mobiltelefonnummer og acceptere vilkårene. </p>
+<p>Når du accepterer vilkårene, giver du tilladelse til, at alle offentlige myndigheder, der anvender NemSMS, kan sende dig sms-påmindelser – fx forud for en undersøgelse på et hospital. Nogle hospitalsafdelinger kan desuden tilbyde at oprette dig som NemSMS-modtager. </p>
+<p>Læs mere om, hvordan du bruger NemSMS: </p>
+<ul class="list--links">
+    <li><a href="/hjaelp-og-vejledning/hvad-har-du-brug-for-hjaelp-til/nemsms" title="Artikel på borger.dk om NemSMS for borgere">NemSMS for borgere </a></li>
+</ul>
+
+
+                
+            </div>
+
+        
+
+
+
+
+        
+
+
+        
+    
+<a title="Selvbetjening, Tilmeld dig NemSMS eller ret dit mobilnummer "
+   href="/Handlingsside?selfserviceId=585f626e-a45a-4d3e-a425-c229f97f43df&amp;referringPageId=541a35a6-fe16-4879-941e-6325dba9c174&amp;type=DK"
+   class="selfservice-button-microarticle">
+    <div class="selfservice-button-microarticle__content">
+        <span aria-hidden="true" class="selfservice-button-microarticle__text">
+            Selvbetjening
+        </span>
+        <span class="sr-only">
+            Selvbetjening, Tilmeld dig NemSMS eller ret dit mobilnummer 
+        </span>
+        <svg class="icon-svg selfservice-button-microarticle__right-icon"
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#arrow-right-regular"></use>
+</svg>
+    </div>
+</a>
+
+    </div>
+</section>
+</article>
+
+
+
+<article class="micro-article micro-article-js" id="micro-article-c2df2624-f1e1-496b-ba1c-19773a0cb674" data-renderingtype="MicroArticle">
+    <header class="micro-article__header">
+    <a id="control-btn-c2df2624-f1e1-496b-ba1c-19773a0cb674" class="micro-article__toggle micro-article__toggle-js" role="button" tabindex="0" aria-expanded="false" aria-controls="contentDiv-c2df2624-f1e1-496b-ba1c-19773a0cb674">
+        <div class="micro-article__toggle-left-part">
+            <svg class="icon-svg micro-article__plus"
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#plus"></use>
+</svg>
+            <svg class="icon-svg micro-article__minus"
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#minus"></use>
+</svg>
+                <h3 id="article-c2df2624-f1e1-496b-ba1c-19773a0cb674" class=" micro-article__title">
+Hvis du vil klage                </h3>
+        </div>
+    </a>
+
+        
+    
+
+
+<a href="/Handlingsside?selfserviceId=2b21d9db-647b-4c12-9b57-524e9274f8f8&amp;referringPageId=541a35a6-fe16-4879-941e-6325dba9c174&amp;type=DK"
+   title="Selvbetjening, Klag over brud p&#229; patientrettigheder"
+   class="micro-article__btn-start"
+   data-default-button-text="">
+    <span aria-hidden="true" class="micro-article__btn-start__text">Selvbetjening</span>
+    <span class="sr-only">Selvbetjening, Klag over brud p&#229; patientrettigheder</span>
+    <span class="circle-arrow"> <svg class="icon-svg icon-long-arrow-right-solid"
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#long-arrow-right-solid"></use>
+</svg> </span>
+    <svg class="icon-svg micro-article__btn-start__desktop-ikon"
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#arrow-right-medium"></use>
+</svg>
+</a>
+
+
+
+    </header>
+
+
+    
+
+
+
+
+
+
+<section class="micro-article__content-container-js collapse" id="contentDiv-c2df2624-f1e1-496b-ba1c-19773a0cb674">
+    <div class="micro-article__content">
+        
+
+        
+
+
+
+            <div class="content-text" id="c2df2624-f1e1-496b-ba1c-19773a0cb674">
+<p>Du kan sende klager til Styrelsen for Patientsikkerhed eller til en patientvejleder i din region. En patientvejleder kan ogs&aring; hj&aelig;lpe dig med at lave klagen.</p>
+<p>Hvis du ikke har MitID:</p>
+<ul class="list--links">
+    <li><a href="https://www.borger.dk/internet-og-sikkerhed/Sikker-selvbetjening/Obligatorisk-selvbetjening#8234c946-4390-41eb-bf5b-dfb30edd0b93" title="Afsnit på borger.dk om, hvordan du kan få hjælp fra det offentlige uden MitID">Jeg har ikke MitID – hvad gør jeg?</a></li>
+</ul>
+<ul class="list--links">
+    <li><a href="https://stps.dk" target="_blank" title="Styrelsen for Patientsikkerheds hjemmeside" aria-label="Styrelsen for Patientsikkerheds hjemmeside (nyt vindue) åbner i nyt vindue">Styrelsen for Patientsikkerheds hjemmeside</a></li>
+</ul>
+
+
+                
+            </div>
+
+        
+
+
+
+
+        
+
+
+        
+    
+<a title="Selvbetjening, Klag over brud p&#229; patientrettigheder"
+   href="/Handlingsside?selfserviceId=2b21d9db-647b-4c12-9b57-524e9274f8f8&amp;referringPageId=541a35a6-fe16-4879-941e-6325dba9c174&amp;type=DK"
+   class="selfservice-button-microarticle">
+    <div class="selfservice-button-microarticle__content">
+        <span aria-hidden="true" class="selfservice-button-microarticle__text">
+            Selvbetjening
+        </span>
+        <span class="sr-only">
+            Selvbetjening, Klag over brud p&#229; patientrettigheder
+        </span>
+        <svg class="icon-svg selfservice-button-microarticle__right-icon"
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#arrow-right-regular"></use>
+</svg>
+    </div>
+</a>
+
+    </div>
+</section>
+</article>
+
+
+
+<article class="micro-article micro-article-js" id="micro-article-abb8e5e2-e4c1-4f9e-867d-f3b2bce2d78f" data-renderingtype="MicroArticle">
+    <header class="micro-article__header">
+    <a id="control-btn-abb8e5e2-e4c1-4f9e-867d-f3b2bce2d78f" class="micro-article__toggle micro-article__toggle-js" role="button" tabindex="0" aria-expanded="false" aria-controls="contentDiv-abb8e5e2-e4c1-4f9e-867d-f3b2bce2d78f">
+        <div class="micro-article__toggle-left-part">
+            <svg class="icon-svg micro-article__plus"
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#plus"></use>
+</svg>
+            <svg class="icon-svg micro-article__minus"
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#minus"></use>
+</svg>
+                <h3 id="article-abb8e5e2-e4c1-4f9e-867d-f3b2bce2d78f" class=" micro-article__title">
+Lovgivning                </h3>
+        </div>
+    </a>
+
+        
+    
+
+    </header>
+
+
+    
+
+
+
+
+
+
+<section class="micro-article__content-container-js collapse" id="contentDiv-abb8e5e2-e4c1-4f9e-867d-f3b2bce2d78f">
+    <div class="micro-article__content">
+        
+
+        
+
+
+
+            <div class="content-text" id="abb8e5e2-e4c1-4f9e-867d-f3b2bce2d78f">
+<p>Din ret til frit og udvidet frit sygehusvalg er beskrevet i Sundhedslovens afsnit VI om Sygehusydelser og i "Bekendtg&oslash;relse om ret til sygehusbehandling m.v.".</p>
+<ul class="list--links">
+    <li><a href="https://www.retsinformation.dk/eli/lta/2026/896" title="Bekendtgørelse af sundhedsloven på retsinformation.dk" target="_blank" aria-label="Sundhedsloven (nyt vindue) åbner i nyt vindue">Sundhedsloven</a></li>
+    <li><a href="https://www.retsinformation.dk/eli/lta/2026/188" title="Bekendtgørelse om ret til sygehusbehandling mv." target="_blank" aria-label="Bekendtgørelse om ret til sygehusbehandling m.v. (nyt vindue) åbner i nyt vindue">Bekendtgørelse om ret til sygehusbehandling mv. </a></li>
+    <li><a href="https://www.retsinformation.dk/eli/retsinfo/2023/10109" title="Vejledning om frit sygehusvalg på retsinformation.dk" target="_blank">Vejledning om frit sygehusvalg</a></li>
+</ul>
+
+
+                
+            </div>
+
+        
+
+
+
+
+        
+
+
+        
+    
+
+    </div>
+</section>
+</article>
+
+
+
+<article class="micro-article micro-article-js" id="micro-article-0562b2b6-b076-4c52-91df-b8eab3454757" data-renderingtype="MicroArticle">
+    <header class="micro-article__header">
+    <a id="control-btn-0562b2b6-b076-4c52-91df-b8eab3454757" class="micro-article__toggle micro-article__toggle-js" role="button" tabindex="0" aria-expanded="false" aria-controls="contentDiv-0562b2b6-b076-4c52-91df-b8eab3454757">
+        <div class="micro-article__toggle-left-part">
+            <svg class="icon-svg micro-article__plus"
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#plus"></use>
+</svg>
+            <svg class="icon-svg micro-article__minus"
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#minus"></use>
+</svg>
+                <h3 id="article-0562b2b6-b076-4c52-91df-b8eab3454757" class=" micro-article__title">
+L&#230;s ogs&#229;                </h3>
+        </div>
+    </a>
+
+        
+    
+
+    </header>
+
+
+    
+
+
+
+
+
+
+<section class="micro-article__content-container-js collapse" id="contentDiv-0562b2b6-b076-4c52-91df-b8eab3454757">
+    <div class="micro-article__content">
+        
+
+        
+
+
+
+            <div class="content-text" id="0562b2b6-b076-4c52-91df-b8eab3454757">
+<h4>Andre sider</h4>
+<ul class="list--links">
+    <li><a href="https://sum.dk/sundhed/patientrettigheder/maksimale-ventetider" title="Sundheds- og Kirkeministeriet om maksimale ventetider" target="_blank" aria-label="Indenrigs- og Sundhedsministeriet om maksimale ventetider åbner i nyt vindue">Sundheds- og Kirkeministeriet om maksimale ventetider</a></li>
+</ul>
+
+
+                
+            </div>
+
+        
+
+
+
+
+        
+
+
+        
+    
+
+    </div>
+</section>
+</article>
+
+        </div>
+        <div class="micro-articles-list__overlay"></div>
+    </div>
+
+                    
+                </div>
+                <div class="contentpage__component-container js-contentpage__grid-item-bottom-left">
+                    
+                                            <div class="contentpage__byline-last-updated">
+                            
+
+
+    <div class="byline">
+        <p>
+            Skrevet af redaktionen p&#229; sundhed.dk 
+        </p>
+    </div>
+
+
+                        </div>
+                </div>
+            </div>
+            <div class="contentpage__grid-item-right js-contentpage__grid-item-right">
+                
+
+    <div class="related-topics js-related-subjects-layout">
+        <div class="related-topics__header">
+            <h2 class="related-topics__title" id="related-topics">
+                Relaterede emner
+            </h2>
+            <svg class="icon-svg icon-related-topics-icon related-topics-icon--tablet"
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#related-topics-icon-large"></use>
+</svg>
+            <svg class="icon-svg icon-related-topics-icon related-topics-icon--mobile"
+     aria-hidden="true"
+     focusable="false"
+     
+     >
+        <use xlink:href="/dist/img/all-svg-icons.svg?0bc82885a346f860adff47840f16084b#related-topics-icon-small"></use>
+</svg>
+        </div>
+        <div class="related-topics__body">
+            <div class="related-topics__line"></div>
+            <ul class="related-topics__list" aria-labelledby="related-topics">
+                    <li class="related-topics__list-item">
+                        <a class="related-topics__list-item-link" href=/sundhed-og-sygdom/dine-rettigheder-som-patient/se-sundhedsoplysninger>Se sundhedsoplysninger</a>
+                    </li>
+                    <li class="related-topics__list-item">
+                        <a class="related-topics__list-item-link" href=/sundhed-og-sygdom/dine-rettigheder-som-patient/Patientvejledere>Hj&#230;lp fra patientvejledere</a>
+                    </li>
+                    <li class="related-topics__list-item">
+                        <a class="related-topics__list-item-link" href=/sundhed-og-sygdom/dine-rettigheder-som-patient/Tolkning-for-patienter>Tolkning for patienter</a>
+                    </li>
+                    <li class="related-topics__list-item">
+                        <a class="related-topics__list-item-link" href=/sundhed-og-sygdom/dine-rettigheder-som-patient/Transport-til-laegehjaelp>Transport til l&#230;gehj&#230;lp</a>
+                    </li>
+                    <li class="related-topics__list-item">
+                        <a class="related-topics__list-item-link" href=/sundhed-og-sygdom/dine-rettigheder-som-patient/Tilskud-til-behandling>Tilskud til behandling</a>
+                    </li>
+                    <li class="related-topics__list-item">
+                        <a class="related-topics__list-item-link" href=/sundhed-og-sygdom/dine-rettigheder-som-patient/Information-og-samtykke>Information og samtykke for patienter</a>
+                    </li>
+                    <li class="related-topics__list-item">
+                        <a class="related-topics__list-item-link" href=/sundhed-og-sygdom/dine-rettigheder-som-patient/behandlingstestamente>Behandlingstestamente</a>
+                    </li>
+                    <li class="related-topics__list-item">
+                        <a class="related-topics__list-item-link" href=/sundhed-og-sygdom/dine-rettigheder-som-patient/Livstestamente>Livstestamente</a>
+                    </li>
+                    <li class="related-topics__list-item">
+                        <a class="related-topics__list-item-link" href=/sundhed-og-sygdom/dine-rettigheder-som-patient/Patientrettigheder-i-psykiatrien>Patientrettigheder i psykiatrien</a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+
+                
+            </div>
+        </div>
+    </div>
+</main>
+<!-- #endregion Borger.dk Body -->
+<!-- #region Borger.dk Footer -->
+
+
+
+<footer class="footer">
+    <div class="container">
+            <div class="footer__logo mb-5 mb-lg-7">
+                <img aria-hidden="true" src="/-/media/Borger/Logo/2018/borger_dk_inverted.svg" alt="borger.dk logo">
+            </div>
+        <div class="row">
+            <div class="col-12 col-md-7 col-lg-8">
+                <div class="row">
+    <div class="col-12 col-lg-6">
+        <ul class="list--links mb-2">
+            <li class="footer__nav-item">
+                <a href="/hjaelp-og-vejledning/kontakt">Kontakt</a>
+            </li>
+            <li class="footer__nav-item">
+                <a href="/om-borger-dk/Find-en-myndighed">Find din kommune eller anden myndighed</a>
+            </li>
+           
+            <li class="footer__nav-item">
+                <a href="/hjaelp-og-vejledning">Hjælp og vejledning</a>
+            </li>
+            <li class="footer__nav-item">
+                <a href="/hjaelp-og-vejledning/skal-du-hjaelpe-en-anden">Skal du hjælpe en anden?</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-12 col-lg-6">
+        <ul class="list--links">
+            <li class="footer__nav-item">
+                <a href="/was" target="_blank">Tilgængelighedserklæring</a>
+            </li>
+            <li class="footer__nav-item">
+                <a href="/Om-borger-dk/Jura-cookies-og-tilgaengelighed/beskyttelse-af-personoplysninger">Cookies og privatlivspolitik</a>
+            </li>
+            <li class="footer__nav-item">
+                <a href="/om-borger-dk">Om borger.dk</a>
+            </li> 
+            <li class="footer__nav-item">
+                <a lang="en" href="https://lifeindenmark.borger.dk">Information in English: lifeindenmark.dk</a>
+            </li>
+         </ul>
+    </div>
+</div>
+            </div>
+
+                <div class="col-12 col-md-5 col-lg-4">
+                    
+
+<div class="border border-green-light rounded p-5 p-md-6 pt-md-7 mt-6 mt-md-0" id="accessibilityComponent" tabindex="-1">
+    <h3 class="h4 text-white mb-5">Webtilg&#230;ngelighed</h3>
+
+        <div class="footer__accessibility-item">
+
+
+
+<img src="/-/media/Borger/icons/tegn-white.svg" alt="" />
+<button class="toggle-switch js-accessibility-toggle"
+        type="button"
+        role="switch"
+        aria-checked="false">
+    <label class="footer__accessibility-item-interactive">
+        Adgang med tegn
+    </label>
+</button>
+
+<script src="/borgerscripts/borger-accessibilitytoggle-1d0549be-fdf6-4d89-a9c7-64905bdd99ef.js?-1546865226" defer=""></script>
+
+        </div>
+        <div class="footer__accessibility-item">
+
+    <img src="/-/media/Borger/icons/volume-up-light-white.svg" alt="" />
+
+
+<a href="https://www.borger.dk/hjaelp-og-vejledning/hvad-har-du-brug-for-hjaelp-til/borger-dk/teknisk-hjaelp/oplaesning-af-indhold">
+    Guide til opl&#230;sning af tekst
+</a>
+        </div>
+</div>
+
+
+                </div>
+        </div>
+    </div>
+</footer>
+
+
+<!-- #endregion Borger.dk Footer -->
+<!-- #region Borger.dk DeviceDetection -->
+
+
+
+
+<div class="js-device-detection" data-endpoint="/api/devicedetection" data-timeout="10000"></div>
+<!-- #endregion Borger.dk DeviceDetection -->
+<!-- #region Borger.dk IdpChangeModal -->
+
+<!-- #endregion Borger.dk IdpChangeModal -->
+<!-- #region Borger.dk BackEndModal -->
+
+<!-- #endregion Borger.dk BackEndModal -->
+<!-- #region Borger.dk LogoutWarning -->
+
+<!-- #endregion LogoutWarning -->
+<!-- #endregion Master.cshtml -->
+    
+    <script src="/dist/js/app.js?bb191118d1b81c0a7e8f"></script>
+    <script src="/dist/js/vendor.js?7cea924603eb85f0ed9b"></script>
+    <script src="/dist/js/shared.js?01479b517e4b2b7a0708"></script>
+
+    <script src="//ressourcer.borger.dk/cdhsign/cdh_player.js" defer=""></script>
+ 
+    <script src="/borgerscripts/borger-bottom.js?1097301769" defer=""></script> 
+     
+    
+
+</body>
+</html>

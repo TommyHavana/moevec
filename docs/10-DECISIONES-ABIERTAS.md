@@ -409,3 +409,23 @@ Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobad
 Siguiente **220–222 / E5.5.10–E5.5.12**, Capitalismo Consciente → Modelos Nórdicos. Preparaciones incluidas en las 621 pendientes. E5.5.10: 0/3 imágenes locales; sin texto final, sin publicación; E5.5.11: 0/3 imágenes locales; sin texto final, sin publicación; E5.5.12: 0/3 imágenes locales; sin texto final, sin publicación. Después 223–225. Automatización activa, sin agotamiento comunicado.
 
 Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 220–222 · 29/10/2026
+
+222/840 terminadas, 666 imágenes originales públicas, 0 en curso o borradores WordPress y 618 pendientes.
+
+220: cualificaciones y autonomía docente con fuentes finlandesas; PISA 2025 actualizado y límites de interpretación, Sahlberg solo adaptación autorizada. Venta Devices & Services de Nokia sin causalidad educativa inventada. 221: WJP 2026 y CPI 2025, heterogeneidad latinoamericana y relación recíproca entre instituciones, productividad y confianza. 222: corte API Eurostat de 2025, marcas d de España y versiones de confianza conservadas; regulación Fraser con referencia 2024, sin confundir gasto con eficiencia.
+
+Siguiente **223–225 / E5.5.13–E5.5.15**, Capitalismo Consciente → Modelos Nórdicos. Preparaciones incluidas en las 618 pendientes. E5.5.13: 0/3 imágenes locales; sin texto final, sin publicación; E5.5.14: 0/3 imágenes locales; sin texto final, sin publicación; E5.5.15: 0/3 imágenes locales; sin texto final, sin publicación. Después 226–228. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 223–225 · 29/10/2026
+
+225/840 terminadas, 675 imágenes originales públicas, 0 en curso o borradores WordPress y 615 pendientes.
+
+223: financiación y provisión sanitarias diferenciadas, topes de Halland y Helsinki con periodos y exclusiones, derechos suecos/daneses separados de cumplimiento real. 224: decisión sueca 2004, derogación 2005 y excepción 17–31/12/2004; Noruega mantiene patrimonio 2026 y abolió sucesiones desde 2014. Muestra de movilidad NOU2026 con cautela registral y sin pérdida fiscal neta inventada. 225: síntesis de catorce entradas con fuentes primarias, sin cuotas de carga por renta deducidas de composición, sin cifras o imágenes reutilizadas.
+
+Siguiente **226–228 / E5.6.01–E5.6.03**, Capitalismo Consciente → Servicios Sociales. Preparaciones incluidas en las 615 pendientes. E5.6.01: 0/3 imágenes locales; sin texto final, sin publicación; E5.6.02: 0/3 imágenes locales; sin texto final, sin publicación; E5.6.03: 0/3 imágenes locales; sin texto final, sin publicación. Después 229–231. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.

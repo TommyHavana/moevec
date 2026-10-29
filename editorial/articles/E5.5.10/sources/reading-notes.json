@@ -1,0 +1,83 @@
+{
+  "checked_at": "2026-10-29T14:47:25.308845+00:00",
+  "primary_source_scope": [
+    {
+      "name": "OCDE, PISA 2025, nota de Finlandia, 8/9/2026",
+      "url": "https://www.oecd.org/en/publications/pisa-2025-results-volume-i-country-notes_2d4ff9ea-en/finland_d436670f-en.html",
+      "scope": "Lectura web de tendencias, comparación OCDE y notas de incertidumbre, secciones de resultados. Alumnado de 15 años; no competencias adultas, salarios o efecto causal de una política. Descarga local bloqueada 403."
+    },
+    {
+      "name": "Finnish National Agency for Education, cualificaciones docentes",
+      "url": "https://www.oph.fi/en/services/working-teacher-finland-foreign-qualification",
+      "scope": "Apartados de reconocimiento de profesores de aula y asignatura: máster, estudios y pedagogía. No generalización a todo puesto, educación infantil o formación profesional."
+    },
+    {
+      "name": "Education Finland, The Finnish model",
+      "url": "https://www.educationfinland.fi/teachereducation/tt-finnish-model",
+      "scope": "Descripción de preparación y autonomía sobre métodos, materiales y evaluación. Presentación institucional del modelo; no estimación causal independiente."
+    },
+    {
+      "name": "Pasi Sahlberg, A Model Lesson, American Educator, primavera de 2012",
+      "url": "https://pasisahlberg.com/wp-content/uploads/2013/01/A-Model-Lesson-AE-2012.pdf",
+      "scope": "Adaptación autorizada de Finnish Lessons (2011), pp. 20–22 leídas. Argumento histórico sobre equidad, apoyos y contexto; no libro íntegro leído ni diagnóstico de 2026."
+    },
+    {
+      "name": "Nokia, cierre de venta de Devices & Services, 25/4/2014",
+      "url": "https://www.nokia.com/newsroom/nokia-completes-sale-of-substantially-all-of-its-devices--services-business-to-microsoft/",
+      "scope": "Comunicado de la propia empresa: venta de sustancialmente todo el negocio Devices & Services a Microsoft; no desaparición de Nokia ni explicación causal por PISA."
+    }
+  ],
+  "full_books_read": false,
+  "omitted": [
+    "No ranking mundial, porcentaje de selección docente o cifra PISA sin verificación.",
+    "No descenso en ciencias de 2022 a 2025 presentado como estadísticamente significativo.",
+    "No Finnish Lessons íntegro fingido: se leyó adaptación autorizada de 2012, pp. 20–22.",
+    "No PISA como indicador de toda la educación, competencias adultas, productividad o destino de Nokia.",
+    "No desaparición de Nokia ni todo profesor finlandés sin excepciones obligado al mismo título."
+  ],
+  "image_review": {
+    "tool": "builtin_image_gen",
+    "individual": true,
+    "mosaic": "/tmp/mee220-222-mosaic.png",
+    "cover": [
+      1200,
+      630
+    ],
+    "interiors": [
+      1600,
+      900
+    ],
+    "max_bytes": 250000
+  },
+  "web_checks": {
+    "pisa": {
+      "edition": 2025,
+      "published": "2026-09-08",
+      "oecd_above": [
+        "mathematics",
+        "reading",
+        "science"
+      ],
+      "change_from_2022": {
+        "math": "lower",
+        "reading": "lower",
+        "science": "about the same; no significant change"
+      },
+      "long_trend": "2006–2025 declines",
+      "population_age": 15,
+      "scope": "Nota primaria secciones tendencias y comparación, líneas web 3820–3845; no nota íntegra leída"
+    },
+    "sahlberg": {
+      "publication": 2012,
+      "adaptation_from": "Finnish Lessons 2011",
+      "pages": "20–22 impresas",
+      "authorized_adaptation": true,
+      "full_book_read": false
+    },
+    "nokia": {
+      "sale_completed": "2014-04-25",
+      "business": "substantially all Devices & Services",
+      "company_disappeared": false
+    }
+  }
+}

@@ -1,0 +1,764 @@
+LFS main indicators (lfsi)
+Go to top button
+Back to top
+Reference metadata describe statistical concepts and methodologies used for the collection and generation of data. They provide information on data quality and, since they are strongly content-oriented, assist users in interpreting the data. Reference metadata, unlike structural metadata, can be decoupled from the data.
+For more information, please consult our
+metadata website section
+.
+Close
+Reference metadata
+LFS main indicators (lfsi)
+Reference Metadata in Euro SDMX Metadata Structure (ESMS)
+Compiling agency: Eurostat, the statistical office of the European Union
+Need help? Contact the
+Eurostat user support
+Short metadata
+Check mark for short metadata
+Check mark for full metadata
+Full metadata
+Collapse all
+Expand all
+Contents
+1. Contact
+2. Metadata update
+3. Statistical presentation
+4. Unit of measure
+5. Reference Period
+6. Institutional Mandate
+7. Confidentiality
+8. Release policy
+9. Frequency of dissemination
+10. Accessibility and clarity
+11. Quality management
+12. Relevance
+13. Accuracy
+14. Timeliness and punctuality
+15. Coherence and comparability
+16. Cost and Burden
+17. Data revision
+18. Statistical processing
+19. Comment
+Related metadata
+Annexes
+Footnotes
+Data description
+Metadata last update
+Statistical concepts and definitions
+Statistical unit
+Statistical population
+Reference area
+Reference Period
+Accuracy - overall
+Unit of measure
+Data compilation
+Source data
+Frequency of dissemination
+Timeliness
+Comparability - geographical
+Comparability - over time
+1. Contact
+accordion arrow down
+accordion arrow up
+1.1. Contact organisation
+Eurostat, the statistical office of the European Union
+1.2. Contact organisation unit
+[4D1_F3] Eurostat - Labour market and skills
+1.3. Contact name
+Confidential because of GDPR
+1.4. Contact person function
+Confidential because of GDPR
+1.5. Contact mail address
+2920 Luxembourg LUXEMBOURG
+1.6. Contact email address
+Confidential because of GDPR
+1.7. Contact phone number
+Confidential because of GDPR
+1.8. Contact fax number
+Confidential because of GDPR
+2. Metadata update
+accordion arrow down
+accordion arrow up
+2.1. Metadata last certified
+11 September 2026
+2.2. Metadata last posted
+11 September 2026
+2.3. Metadata last update
+11 September 2026
+3. Statistical presentation
+accordion arrow down
+accordion arrow up
+3.1. Data description
+The 'LFS main indicators' section presents a selection of the main statistics on the labour market. They encompass indicators of activity, employment and unemployment. Those indicators are based on the results of the European Labour Force Survey (EU-LFS), in few cases integrated with data sources like national accounts employment or registered unemployment. As a result of the application of adjustments, corrections and reconciliation of EU Labour Force Survey (EU-LFS) data, the 'LFS main indicators' is the most complete and reliable collection of employment and unemployment data available in the sub-domain 'Employment and unemployment'.
+The EU-LFS data used for 'LFS main indicators' are, where necessary, adjusted and enriched in various ways, in accordance with the specificities of an indicator. The most common adjustments cover:
+estimation of missing values, i.e. in case of missing quarters, annual results and EU aggregates are estimated using interpolations of EU Labour Force Survey data with reference to the available quarter(s).
+for all quarterly indicators seasonally adjusted data are available.
+correction of the main breaks in the LFS series.
+Those adjustments may produce some differences between data published under 'LFS main indicators' and 'LFS series – detailed quarterly/annual survey results', particularly for back data. For the most recent years, the different series converge, due to the implementation of a continuous quarterly survey and the improved quality of the data.
+This page focuses on the 'LFS main indicators' in general. There are special pages for indicators that are listed below:
+Monthly Unemployment:
+une_rt_m
+.
+Quarterly and annual unemployment figures are derived in line with all other LFS Main Indciators, and no longer aggregated from monthly unemployment series.
+Duration of working life - annual data:
+lfsi_dwl_a
+;
+Population in jobless households - annual data:
+lfsi_jhh_a
+;
+Labour market transitions - LFS longitudinal data:
+lfsi_long
+.
+The entry of the new Framework regulation on Social Statistics (IESS) in 2021 created changes in the LFS Main Indicators. Most countries expected breaks for a number of series derived from LFS microdata, therefore Eurostat and participating countries launched a joint break correction exercise to produce comparable data before and under IESS. The 'LFS main indicators' section therefore contains two type of datasets depending on the underlying regulation. The first type of datasets are historical series under the pre-IESS regulation, and include the suffix ‘_h’ for historical series at the end of the table titles. Historical series will remain accessible and are continued until 2020Q4 LFS microdata revisions of previously released EU-LFS series. Reasons for revisions are for example weight revisions due to revised weighting routines, or census revisions. The second type of datasets are new tables that are filled with data under IESS from 2021Q1 on. These tables also include the break-corrected 2009Q1-2020Q4 data that are produced in the break correction exercise. If countries send longer complete time series than starting in 2009, that data will also be used and published. Until fully back-estimated series in line with IESS are available for all countries, EU and EA aggregates were based on the data that is available at the time and was flagged with a break flag. Fully break-free EU and EA aggregates were published for the first time in February 2022. More information can be found on the
+EU-LFS Breaks in Time Series (Statistics Explained) webpage.
+General information on the EU-LFS can be found in the ESMS page for 'Employment and unemployment (LFS)', see link in related metadata. Detailed information on the main features, the legal basis, the methodology and the data as well as on the historical development of the EU-LFS is available on the
+EU-LFS (Statistics Explained) webpage
+.
+3.2. Classification system
+The 'LFS main indicators' are produced in accordance with the relevant international classification systems. The main classifications used are ISCED 1997 and ISCED 2011 (from 2014) for educational attainment.
+For more details on classifications (including the comparability between the revised classifications), levels of aggregation and transition rules, please consult
+EU-LFS (Statistics Explained) - Methodology >> classification
+.
+3.3. Coverage - sector
+As a general rule the EU-LFS covers all economic sectors.
+3.4. Statistical concepts and definitions
+The definitions of employment and unemployment, as well as other survey characteristics follow the definitions and recommendations of the International Labour Organisation (ILO). The updated definitions of the labour status are part of the new
+Integrated European Social Statistics Framework Regulation (Regulation (EU) 2019/1700
+) and its
+Implementing Regulation (EU) 2019/2240
+for the labour market domain, which entered into force in 2021. The EU-LFS methodology before 2021 is described in the dedicated
+EU-LFS (Statistics explained) webpage on methodology
+, whereas updated definitions of the labour status under IESS are explained in the
+EU-LFS (Statistics explained) webpage on methodology from 2021 onwards
+. The main concepts and indicators related to the labour status are the following:
+Employed persons
+are all persons who worked at least one hour for pay or profit during the reference week or were temporarily absent from such work.
+The
+employment rate
+is the percentage of employed persons in relation to the total population.
+Unemployed persons
+are all persons 15 to 74 years of age (16 to 74 years in ES, IT, and the UK) who were not employed during the reference week but who had actively sought work during the past four weeks and were available to begin working immediately or within two weeks.
+The
+duration of unemployment
+is defined as the duration of a search for a job or as the length of the period since the last job was held (if this period is shorter than the duration of a search for a job).
+The
+unemployment rate
+is the number of unemployed persons as a percentage of the labour force. The labour force is the sum of the number of persons that are employed or unemployed.
+The
+unemployment ratio
+is the number of unemployed persons as a percentage of the total population.
+The
+long-term unemployment rate
+is the share of persons unemployed for 12 months or more in the total number of persons in the labour force.
+The long-term unemployment share
+is the share of the persons unemployed for 12 months or more in the total number of unemployed.
+The very long-term unemployment rate
+is the share of the persons unemployed for 24 months or more in the total number of persons in the labour market.
+The
+labour force
+is defined as the sum of employed and unemployed persons.
+The
+activity rate
+is the percentage of the labour force (being all employed and unemployed persons) in relation to the total population.
+The
+persons outside the labour force
+consist of all persons who are classified neither as employed nor as unemployed.
+Relevant breakdowns used are the following:
+Part-time workers
+are employed persons not working full time. The distinction between full-time and part-time work is generally based on a spontaneous response by the interviewee. The main exceptions are:
+the Netherlands and Iceland, where a 35-hour threshold is applied
+Sweden, where a threshold is applied to the self-employed
+and Norway, where persons working between 32 and 36 hours are asked whether this is a full-time or part-time position.
+Temporary contracts
+: employees with a limited duration job/contract are employees whose main job will terminate either after a period fixed in advance, or after a period not known in advance, but nevertheless defined by objective criteria, such as the completion of an assignment or the period of absence of an employee temporarily replaced. The concept of a fixed-term contract is only applicable to employees, not to the self-employed.
+The
+educational attainment level
+of an individual is the highest ISCED (International Standard Classification of Education) level successfully completed, the successful completion of an education programme being validated by a recognised qualification (i.e.: a qualification officially recognised by the relevant national education authorities or recognised as equivalent to another qualification of formal education). The ISCED levels are divided into ISCED 0-2 (‘less than primary’, ‘primary’, and ‘lower secondary education’), ISCED 3+4 (‘upper secondary’ and ‘post-secondary non-tertiary education’), and ISCED 5+ (‘tertiary education’).
+NEET - Young persons neither in employment nor in education and training
+corresponds to the percentage of the persons of a given age group and sex that is not employed and not involved in further (formal or non-formal) education or training. The numerator of the indicator refers to persons who meet the following two conditions:
+(a)
+they are not employed (i.e. they are unemployed or inactive according to the International Labour Organisation (ILO) definition) and
+(b)
+they have not received any education or training (i.e. neither formal nor non-formal) in the four weeks preceding the survey. The denominator in the total population consists of the same age group and sex. LFS adjusted series for NEET are provided for the age groups 15 to 24 and 15 to 29. Further information on the NEET can be found on this
+website
+.
+The
+usual weekly hours of work in the main and second job
+is the sum of all hours including extra hours, either paid or unpaid, which a person normally works in both the main and second job. To make the data more easily interpretable, the results are then divided into multiple intervals (e.g.: 1-19 hours worked per week, 20-29, et cetera).
+The
+actual hours worked in the main and second job during the reference week
+is the sum of the self-declared number of hours worked by the interviewee in the reference week of the interview. Actual hours count the hours spent in work activities, including unpaid overtime. Periods of absence from work, such as sick leave, holidays and commuting time, account for 0 hours of work. To make the data more easily interpretable, the results are then divided into multiple intervals (e.g.: 1-19 hours worked per week, 20-29, et cetera).
+The indicators to supplement the unemployment rate are defined as follows:
+Underemployed part-time workers
+are persons working part-time who wish to work additional hours and are available to do so. Part-time work is recorded as self-reported by individuals.
+Persons seeking work but not immediately available
+are the sum of persons neither employed nor unemployed who are
+(a)
+actively seeking work during the last 4 weeks but not available for work in the next 2 weeks; or
+(b)
+found a job to start within a period of at most 3 months and are not available for work in the next 2 weeks; or
+(c)
+found a job to start in more than 3 months but are not available for work in the next 2 weeks.
+Persons available to work but not seeking
+are the sum of persons neither employed nor unemployed who want to work and
+(a)
+are available for work in the next 2 weeks but are not seeking work, or
+(b)
+were passively seeking work during the last 4 weeks and are available for work in the next 2 weeks or
+(c)
+found a job to start in more than 3 months and are available to work in the next 2 weeks. Persons who fall within the three categories above fall outside the bandwidth of unemployment, as these persons are either employed with insufficient working time, not immediately available, or not seeking a job in a very specific time period. However, these persons may have an unmet need for employment and could represent a potential ‘extended labour force’.
+Labour Market Slack:
+the total sum of all unmet need for employment, including unemployment (according to the ILO definition), as well as the three supplementary indicators. In order to allow comparisons between these four groups, which do not all belong to the labour force, the concept of the
+extended labour force
+is used. It includes unemployment, employment and the two categories of inactive persons mentioned above (those available but not seeking, and those seeking but not available). The total labour market slack is expressed as a percent of this extended labour force, and the relative sizes of each component of labour market slack can be compared by using this denominator.
+Following developments on the labour market due to COVID-19 measures in the first quarter of 2020, additional indicators were introduced:
+Absences from work:
+persons absent from work are considered as employed if there is a formal attachment to the job. This can be for example the continued receival of wage or salary, AND an assurance of a return to work (or an agreement as to the date of return) following the end of the contingency. Persons can be absent from work due to a number of reasons, such as
+holidays
+,
+own illness
+, and
+temporary layoffs.
+The rules on formal job attachment have changed substantially with the new Regulations, leading to a break in the series in 2021.
+Total actual hours worked in the main job
+are the total actual hours worked by all employees and self-employed in their main occupation during the quarter. Data are indexed for reasons of comparability between countries.
+Recent job leavers
+are those persons who report to have left their job in the last 3 months before the interview.
+Recent job starters
+are those persons who have started their employment in the last 3 months before the interview.
+Please note that the EU aggregates in these new tables are directly seasonally adjusted.
+For more details, please consult the
+EU-LFS (Statistics Explained) - Methodology
+.
+3.5. Statistical unit
+Persons.
+3.6. Statistical population
+The EU-LFS results cover the total population usually residing in Member States, except for persons living in collective or institutional households. While demographic data are gathered for all age groups, questions relating to labour market status are restricted to persons in the age group of 15 years or older. In the EFTA countries participating in LFS, i.e. Iceland, Norway and Switzerland, population data are not provided for the age-groups outside the scope of labour market questions. The EU-LFS covers all industries and occupations.
+For more details and exceptions, please consult please consult the
+EU-LFS (Statistics Explained) - Methodology
+.
+3.7. Reference area
+European Union, Euro area, EU-Member States, Candidate Countries, EFTA Countries (except for Liechtenstein), USA and Japan. Data for Cyprus refer only to the areas of Cyprus controlled by the Government of the Republic of Cyprus. Since 2003, data for France include also the French overseas departments (Guadeloupe, Guyane, La Réunion, Martinique and Mayotte).
+EU and EA aggregates include metropolitan France in historical series, whereas aggregates under IESS include FR (incl. overseas departments) for aggregates. Employment data for USA and Japan are also disseminated for specific breakdowns before IESS entered into force (i.e., in the historical tables).
+3.8. Coverage - Time
+Available data ranges differ by country and indicator. Pre-IESS data for all Member States are mostly available in historical tables from 1998 onwards. Data relating to the former EU-15 and EU-28 are available in historical tables from 1992 onwards and stop in 2019. Data under IESS is available in new tables that are filled with microdata from 2021Q1 on. These tables will also include the break-corrected data (2009Q1-2020Q4) that are produced in the joint correction exercise between Member States and Eurostat, and mostly start in 2009. The UK has not delivered any data under the IESS definitions, and therefore no back-estimates for the UK or the EU28 aggregates can be produced.
+3.9. Base period
+Not applicable.
+4. Unit of measure
+accordion arrow down
+accordion arrow up
+Most results measure number of persons (thousands). Some indicators are reported as rates (employment, unemployment rates) or ratios (share of total population). Rates and ratios in the LFS Main Indicators do not correct the denominator for item non-response due to the additional seasonal adjustment step. This can lead to marginal differences in rates and ratios due to rounding in comparison with the same indicators published in the detailed tables section. Due to the continuous update of SA estimates, it has to be noted that SA estimates may slightly differ between historical and current main Indicators tables.
+5. Reference Period
+accordion arrow down
+accordion arrow up
+The reference periods are the calendar months, quarters or years, depending on the indicator. They are defined building up time periods based on the EU-LFS reference week. For details please refer to the ESMS page on 'Employment and unemployment (LFS)' (see link below in section 'related metadata').
+6. Institutional Mandate
+accordion arrow down
+accordion arrow up
+6.1. Institutional Mandate - legal acts and other agreements
+Please refer to the ESMS page on 'Employment and unemployment (LFS)' (see link below in section 'related metadata').
+6.2. Institutional Mandate - data sharing
+Not
+applicable.
+7. Confidentiality
+accordion arrow down
+accordion arrow up
+7.1. Confidentiality - policy
+Please refer to the ESMS page on 'Employment and unemployment (LFS)' (see link below in section 'related metadata').
+7.2. Confidentiality - data treatment
+EU-LFS microdata as received by Eurostat from the national statistical institutes does not contain any administrative information such as names or addresses that would allow direct identification. Access to this microdata is nevertheless strictly controlled and limited to specified Eurostat staff. After data treatment, records are aggregated for all further use. For further details, please refer to the ESMS page on 'Employment and unemployment (LFS)' (see link below in section 'related metadata').
+8. Release policy
+accordion arrow down
+accordion arrow up
+8.1. Release calendar
+The domain 'LFS main indicators' are bound by a release calendar. For further details, please
+refer to the ESMS page on 'Employment and unemployment (LFS)' (see link below in section
+'related metadata'
+).
+8.2. Release calendar access
+For the domain 'LFS main indicators', the precise date of data release is disseminated on
+Eurostat's website
+. For further details, please
+refer to the ESMS page on 'Employment and unemployment (LFS)' (see link below in section
+'related metadata'
+). For information on the dissemination of break-corrected data under IESS, please consult
+EU-LFS Breaks in Time Series (Statistics Explained) webpage.
+8.3. Release policy - user access
+In line with the Community legal framework and the
+European Statistics Code of Practice
+, Eurostat disseminates European statistics on Eurostat's website respecting professional independence and in an objective, professional and transparent manner in which all users are treated equitably. The detailed arrangements are governed by the
+Eurostat protocol on impartial access to Eurostat data for users
+. In line with this protocol and on a strictly regulated basis, data on unemployment are sent for information to the European Central Bank (ECB) under embargo the evening before official release of data. For further details, please refer to the ESMS page on 'Employment and unemployment (LFS)' (see link below in section 'related metadata').
+9. Frequency of dissemination
+accordion arrow down
+accordion arrow up
+Quarterly and Annual
+.
+10. Accessibility and clarity
+accordion arrow down
+accordion arrow up
+10.1. Dissemination format - News release
+Releases of quarterly and annual LFS main indicators follow the LFS Main Indicators release calendar (Available at this website
+Labour force survey release calendar 2024
+). Please refer to the ESMS page on 'Employment and unemployment (LFS)’ for further details (see link below in section 'related metadata').
+10.2. Dissemination format - Publications
+Please refer to the ESMS page on 'Employment and unemployment (LFS)' (see link below in section 'related metadata').
+10.3. Dissemination format - online database
+Please consult free data on-line or address to ESTAT-LFS-USER-SUPPORT@ec.europa.eu.
+10.4. Dissemination format - microdata access
+EU-LFS anonymised microdata are available for research purposes.
+Please refer to
+access to microdata
+.
+10.5. Dissemination format - other
+More information at this website (
+Eurostat
+).
+10.6. Documentation on methodology
+Information on the Labour Force Survey before IESS is available on the
+EU-LFS (Statistics explained) webpage on the methodology before 2021
+. Updated definitions of the labour status under IESS are described in the following
+EU-LFS (Statistics explained) webpage - new methodology from 2021 onwards
+.
+Please refer to the ESMS page on 'Employment and unemployment (LFS)' (see link below in section 'related metadata').
+For a detailed description of methods and concepts used, as well as for other documents related to the EU-LFS, please consult the
+EU-LFS (Statistics Explained) webpage
+.
+The EU-LFS disseminates also publications on the methodology of the survey. For more information please consult the
+Quality reports and methodological publications
+.
+For more information on the break correction exercise of historical data, please consult
+EU-LFS Breaks in Time Series (Statistics Explained) webpage.
+10.7. Quality management - documentation
+See section 11.1.
+11. Quality management
+accordion arrow down
+accordion arrow up
+11.1. Quality assurance
+Please refer to the ESMS page on 'Employment and unemployment (LFS)' (see link below in section 'related metadata').
+11.2. Quality management - assessment
+Please refer to the ESMS page on 'Employment and unemployment (LFS)' (see link below in section 'related metadata').
+12. Relevance
+accordion arrow down
+accordion arrow up
+12.1. Relevance - User Needs
+The 'LFS main indicators' stemming from the EU-LFS are used for monitoring and measurement of core employment policy objectives of the EU:
+Macroeceonomic Imbalance Procedure Indicators.
+Europe 2020 Indicators.
+Sustainable Development Indicators.
+Employment and Social Policy Indicators.
+European Pillar of Social Rights.
+European Statistical Recovery Dashboard.
+12.2. Relevance - User Satisfaction
+Please refer to the ESMS page on 'Employment and unemployment (LFS)' (see link below in section 'related metadata').
+12.3. Completeness
+Please refer to the ESMS page on 'Employment and unemployment (LFS)' (see link below in section 'related metadata').
+13. Accuracy
+accordion arrow down
+accordion arrow up
+13.1. Accuracy - overall
+Please refer to the ESMS page on 'Employment and unemployment (LFS)' (see link below in section 'related metadata').
+13.2. Sampling error
+Please refer to the ESMS page on 'Employment and unemployment (LFS)' (see link below in section 'related metadata').
+13.3. Non-sampling error
+Please refer to the ESMS page on 'Employment and unemployment (LFS)' (see link below in section 'related metadata').
+14. Timeliness and punctuality
+accordion arrow down
+accordion arrow up
+14.1. Timeliness
+The quarterly series are updated 4 times a year approximately 75 days after the end of the reference quarter. Annual averages are published along with quarter 4 data. Some indicators, like 'population in jobless households', may exceptionally have different publication dates.
+14.2. Punctuality
+Please refer to the ESMS page on 'Employment and unemployment (LFS)' (see link below in section 'related metadata').
+15. Coherence and comparability
+accordion arrow down
+accordion arrow up
+15.1. Comparability - geographical
+Geographical comparability of the EU-LFS has historically been very high, and has further improved with the implementation of IESS. However, some countries are still in the process of implementing the Regulation, or have other quality concerns that may impact geographical comparability. Please find details below:
+Spain
+: Pre-IESS, and after the outbreak of the COVID crisis, Spain was including in employment also persons on lay-off paid by a governmental scheme and not directly from the employer. Under IESS, due to the COVID crisis, Spain continues to test for job attachment of employed persons on temporary lay-off as implemented in the pre-IESS situation.
+France:
+Under IESS, and due to the COVID crisis, France continues to test for job attachment of employed persons on temporary lay-off as implemented in the pre-IESS situation.
+The Netherlands
+: Phase-in of data collection based on IESS principles consecutively over the year 2021. To ensure data quality and quality of back-calculations, they continue to publish
+monthly
+unemployment following the pre-IESS definitions during 2021. Data is collected using a rolling reference week instead of a fixed reference week, i.e. interviewed persons are asked about the situation of the week before the interview rather than a pre-selected week (irrespective of the interview time). Delays in interviews (due to re-attempts, drawing from a reserve sample list, etc.) can consequently have in this country a knock-on effect on the distribution of the reference weeks, leading to differences between the theoretical and actual final distribution of the sample over the weeks of the quarter.
+Germany:
+Due to technical issues with the introduction of the new German system of integrated household surveys, including the LFS, the figures for Germany in 2020 are not direct estimates from LFS micro-data, but based on a larger sample including additional data from other integrated household surveys.
+15.2. Comparability - over time
+From 2006 onwards, Commission Regulation (EC) No 430/2005 of 15 March 2005 regulates the codification to be used for data transmission and the use of a sub-sample for the collection of data on structural variables (OJ No L 71/36) until the year 2020.
+From 2021 onwards, the new IESS Framework regulation provides the foundation for LFS Main Indicators data. The updated definitions of the labour status are part of the new
+Integrated European Social Statistics Framework Regulation (Regulation (EU) 2019/1700
+) and its
+Implementing Regulation (EU) 2019/2240
+for the labour market domain entering into force in 2021. The changes in the derivation of the labour status can cause breaks in the time series of the quarterly and annual
+LFS main indicators
+as they derive from
+EU-LFS
+microdata. The
+LFS main indicators section
+comprises the main statistics on the
+labour market
+, and encompasses various breakdowns of labour market participation,
+employment
+and
+unemployment
+. In order to provide stakeholders with the most relevant labour market policy indicators, Member States and Eurostat produce and disseminate break-corrected series, thus ensuring data comparability over time. A large set of LFS Main Indicators data before and under IESS will be accessible on Eurobase. The following main indicators will be corrected and disseminated in the duplicated tables:
+Employment Indicator with the following breakdowns;
+Employment and activity by sex and age;
+Employment by educational attainment level;
+Part-time employment and temporary contracts.
+Unemployment Indicator with the following breakdowns;
+Unemployment by sex and age;
+Long-term unemployment by sex;
+Unemployment by sex, age and educational attainment;
+Supplementary indicators to unemployment;
+Young people neither in employment nor in education and training by sex.
+During the transition time for correcting the duplicated tables, the published EU and EA aggregates were based on the available information at each point in time. Fully break-free EU and EA aggregates were published for the first time in February 2022.
+Overall, comparability over time is considered as high. Methodological improvements in the underlying sampling design or changes in nomenclatura can lead to breaks in the time series. These are flagged in the database, and detailed information on each break can be found
+at this website
+. For some series, in particular employment and activity, estimates have been made for years in which not yet data for all quarters had been collected. These estimates are flagged accordingly. The estimates do not make use of other indicators, but are based on available quarterly data as well as the seasonal pattern of available years.
+15.3. Coherence - cross domain
+The ESMS page on 'Employment and unemployment (LFS)' provides general explanations of coherence between EU-LFS, population statistics, national accounts employment and business surveys employment (see link below in section 'related metadata').
+15.4. Coherence - internal
+'LFS main indicators' estimates have full internal coherence, as they are all based on the same corpus of microdata and they calculated using the same estimation methods. Arithmetic and accounting identities in the production of LFS datasets are observed.
+Breaks in series due to the regulatory change in 2021 are corrected over the year 2021/22 to provide internally consistent data. For details, please see the
+EU-LFS Breaks in Time Series (Statistics Explained) webpage.
+Annual results are calculated as average of quarterly results, and they are hence fully consistent.
+To further improve internal coherence of the ‘LFS main indicators’, Eurostat disseminates quarterly and annual unemployment figures directly derived from the LFS microdata from April 2020 on. Figures are no longer aggregated from monthly unemployment figures, which remain unchanged.
+16. Cost and Burden
+accordion arrow down
+accordion arrow up
+Not available.
+17. Data revision
+accordion arrow down
+accordion arrow up
+17.1. Data revision - policy
+To further specify the general Eurostat revision policy, the following revision policy has been established for EU-LFS revision policy. The policy is presented in EU-LFS data submission and validation manual, a document providing rules for data transmission to the data providers (the NSIs).
+17.2. Data revision - practice
+EU-LFS results are usually considered final with first dissemination. However, occasional revisions can occur if irregularities are discovered during in depth analysis or use or in case of change or improvements in the methodology. There are few exceptions to this: if new population estimates for past periods become available after a new census round, or in the context of back data revisions of regional coding. In such cases EU-LFS results are revised whenever revised quarterly or yearly LFS data become available, and main users informed accordingly.
+All reported errors (once validated) result in corrections of the disseminated data.
+Reported errors are carried out in connection with the regular scheduled data dissemination.
+Data may be published even if they are missing for certain countries or flagged as provisional or of low reliability for certain countries. They are replaced with revised data once transmitted and validated.
+Whenever new data are provided and validated, the already disseminated data are updated with next regular production cycle.
+1. Routine revisions:
+Revisions of seasonally adjusted data may occur due to changes in the adjustment models used. Seasonal adjustment is done by Eurostat for most Member States on a disaggregated level (country by gender by age group, indirect approach) using TRAMO/SEATS. Seasonally adjusted data are thus revised 4 times a year for quarterly and annual data. Parameters used in the ARIMA models and for seasonal adjustment are reviewed annually.
+2. Major revisions:
+The impact of major revisions is analysed.
+Major revisions are documented into the metadata and by means of Statistics Explained methodological articles available to all users.
+Time series breaks caused by major revisions are flagged. Whenever possible break-free data is provided by using break correction inputs related to LFS main indicators.
+Due to back series revisions it may happen that new estimates of population from a population census are incorporated into the data, or changes are necessary to overcome methodological breaks.
+The following major revisions have been observed recently.
+Bulgaria had a major revisions of Employment and Unemployment data (by sex and broad age class) as a part of the LFS main indicators. The time period under revision is 2019Q1 to 2020Q4. The reason for this particular revision is the introduction of the Census 2021 results into the break correction inputs related to LFS main indicators. The rest of the LFS main indicators are also subject to revisions at microdata level, encompassing the time period 2019Q1 to 2021Q4.
+Portugal had major revisions of all LFS Main indicators for the period up to 2020Q4. Complete microdata revision has been already published for the periods starting 2011Q1 and up to 2024Q1. This means that for the period from 2021Q1 to 2024Q1 all LFS main indicators for Portugal were revised too. All those revisions are due to introduction of Census 2021 results into the LFS data and into the break correction inputs related to LFS main indicators.
+Sweden had major revisions of all LFS Main indicators for the period from 2005Q1 to 2020Q4, while LFS microdata remained unchanged for that period. A complete microdata revision has been already published for the period starting 2021Q1. Both types of revisions are due to IESS recoding of the complete microdata at national level.
+On the occasion of the 2024Q3 data dissemination, LFS main indicators for Croatia (back to 2012), Cyprus (back to 2019), Hungary (back to 2018) and Serbia (back to 2012) were revised.  For those countries Census 2021 new population figures were received.
+Germany:
+Germany had a revision of all LFS main indicators for the period from 2009Q1 to 2020Q4, while LFS microdata remained unchanged for that period. A complete microdata revision has been published for the period 2021Q1 to 2024Q4. Both types of revisions are major and due to the recalculation of survey weights after incorporating Census data at national level. There is no break in time series related to the Census 2021 in the LFS main indicators datasets.
+Major revision of quarterly data for the period Q1 to Q4 2025 due to new weights and additional survey data. These changes have been added to the LFS Flows data in April 2026.
+Major revision for the period from 2024Q1 to 2024Q4. This is the result of the regular operation of completing the survey data. These changes were added to the EU-LFS dissemination round of June 2026.
+Malta: weight revisions for the period from 2024Q1 to 2024Q4. This is due to the inclusion of Census results into the microdata of the EU-LFS.
+Croatia: major revision for the quarterly data from Q1 2007 to Q4 2011 due to revised weights. Eurostat added this data to LFS Flows during the yearly revision update in April 2026.
+Cyprus: due to a planned survey weights revision, EU-LFS data has been updated for the period from 2023Q1 to 2024Q4. The resulting changes were added to the EU-LFS dissemination round of June 2026.
+France:
+Due to the inclusion of Mayotte (overseas French department) in the EU-LFS coverage, a data revision for the period from 2024Q1 to 2025Q4 took place, encompassing all main indicators. The resulting changes were added to the EU-LFS dissemination round of June 2026.
+Due to the same reason (inclusion of Mayotte), a data revision for the period from 2003Q1 to 2023Q4 took place in the main indicators related to Employment and Unemployment only. These changes were added to the EU-LFS dissemination round of September 2026, leading to break-free time series (no b-flag due to Mayotte).
+Where necessary, a break flag was introduced for countries and quarters as follows:
+BG: 2019 Q1;
+HR: 2012 Q1;
+HU: 2018 Q1;
+IT: 2018 Q1;
+PL: 2019 Q1.
+3. Unscheduled revisions:
+No unscheduled revisions were known for the reference period up to 2024 Q2.
+For information on EU-LFS data revisions, please consult EU-LFS (
+Statistics Explained
+) - Data and publication.
+18. Statistical processing
+accordion arrow down
+accordion arrow up
+18.1. Source data
+The quarterly EU-LFS is the main source of the data, for details see ESMS page on 'Employment and unemployment (LFS)' (see link below in section 'related metadata').
+In case of missing quarterly data, annual results and EU aggregates are estimated by using adjusted quarterly national labour force survey data or interpolations of the EU Labour Force Survey data with reference to the available quarter(s).
+For the break correction of pre-IESS data, Member States transmit either complete break-corrected series to Eurostat, or correction factors that will be applied on the pre-IESS series as a base. Complete break-corrected time series are directly usable and published on Eurobase. If Eurostat receives correction factors, they will in principle be applied on pre-IESS data (last regular update with 2020 annual results). For details please see the
+EU-LFS Breaks in Time Series (Statistics Explained) webpage.
+The data for US and Japan are produced by the
+U.S. Bureau of Labor Statistics
+and the Ministry of Internal Affairs and Communications Government of Japan, respectively. Eurostat obtains those data via OECD and disseminates them without any processing in historical series until 2020Q4.
+18.2. Frequency of data collection
+For EU-LFS: quarterly and annual.
+18.3. Data collection
+See ESMS page 'Employment and unemployment (LFS)' (see link below in section 'related metadata').
+18.4. Data validation
+Quarterly LFS data: Eurostat checks the quality and consistency of microdata data transmitted by National Statistical Institutes. Eurostat calculates aggregate LFS results which are then validated by the Member States.
+18.5. Data compilation
+While absolute values at aggregate level (e.g. EU-27_2020) are added up from the national estimates (i.e. number of persons), estimates of rates at aggregate level are calculated as the population-weighted arithmetic average of the national figures.
+18.6. Adjustment
+Annual results are derived from the populations obtained at the annual level. Annual averages of the quarterly data are produced as simple averages of the quarterly populations.
+For the period when the survey was run annually in spring, annual averages were calculated as follows: first, the spring quarter was used in combination with a simple regression model to estimate the missing quarters; then the annual averages were calculated from these quarterly estimates.
+Interpolations for quarterly missing country data are flagged accordingly and published, and used for the compilation of annual averages and European aggregates.
+Seasonal adjustment is performed indirectly, i.e. on the lowest available breakdown, and higher aggregates are derived from these series. This also applies to EU and EA aggregates. Models are estimated once a year, while parameters are re-estimated with the inclusion of each quarterly data point.
+For more information on the transition to a quarterly continuous survey, please consult
+EU-LFS (Statistics Explained) - Development and history
+.
+For more information on the break correction exercise of historical data, please consult the
+EU-LFS Breaks in Time Series (Statistics Explained) webpage.
+19. Comment
+accordion arrow down
+accordion arrow up
+Not applicable.
+Related metadata
+accordion arrow down
+accordion arrow up
+Employment and unemployment (Labour force survey) (employ) - employ_esms
+Duration of working life (lfsi_dwl_a) - lfsi_dwl_a_esms
+Population in jobless private households - % of persons living in private households where no-one is employed (lfsi_jhh_a) - lfsi_jhh_a_esms
+Unemployment by sex and age - monthly data (une_rt_m) - une_rt_m_esms
+Annexes
+accordion arrow down
+accordion arrow up
+EU-LFS (Statistics Explained) webpage (additional metadata information)
+Main Indicators Guide
+Footnotes
+accordion arrow down
+accordion arrow up
+Data description
+The 'LFS main indicators' section presents a selection of the main statistics on the labour market. They encompass indicators of activity, employment and unemployment. Those indicators are based on the results of the European Labour Force Survey (EU-LFS), in few cases integrated with data sources like national accounts employment or registered unemployment. As a result of the application of adjustments, corrections and reconciliation of EU Labour Force Survey (EU-LFS) data, the 'LFS main indicators' is the most complete and reliable collection of employment and unemployment data available in the sub-domain 'Employment and unemployment'.
+The EU-LFS data used for 'LFS main indicators' are, where necessary, adjusted and enriched in various ways, in accordance with the specificities of an indicator. The most common adjustments cover:
+estimation of missing values, i.e. in case of missing quarters, annual results and EU aggregates are estimated using interpolations of EU Labour Force Survey data with reference to the available quarter(s).
+for all quarterly indicators seasonally adjusted data are available.
+correction of the main breaks in the LFS series.
+Those adjustments may produce some differences between data published under 'LFS main indicators' and 'LFS series – detailed quarterly/annual survey results', particularly for back data. For the most recent years, the different series converge, due to the implementation of a continuous quarterly survey and the improved quality of the data.
+This page focuses on the 'LFS main indicators' in general. There are special pages for indicators that are listed below:
+Monthly Unemployment:
+une_rt_m
+.
+Quarterly and annual unemployment figures are derived in line with all other LFS Main Indciators, and no longer aggregated from monthly unemployment series.
+Duration of working life - annual data:
+lfsi_dwl_a
+;
+Population in jobless households - annual data:
+lfsi_jhh_a
+;
+Labour market transitions - LFS longitudinal data:
+lfsi_long
+.
+The entry of the new Framework regulation on Social Statistics (IESS) in 2021 created changes in the LFS Main Indicators. Most countries expected breaks for a number of series derived from LFS microdata, therefore Eurostat and participating countries launched a joint break correction exercise to produce comparable data before and under IESS. The 'LFS main indicators' section therefore contains two type of datasets depending on the underlying regulation. The first type of datasets are historical series under the pre-IESS regulation, and include the suffix ‘_h’ for historical series at the end of the table titles. Historical series will remain accessible and are continued until 2020Q4 LFS microdata revisions of previously released EU-LFS series. Reasons for revisions are for example weight revisions due to revised weighting routines, or census revisions. The second type of datasets are new tables that are filled with data under IESS from 2021Q1 on. These tables also include the break-corrected 2009Q1-2020Q4 data that are produced in the break correction exercise. If countries send longer complete time series than starting in 2009, that data will also be used and published. Until fully back-estimated series in line with IESS are available for all countries, EU and EA aggregates were based on the data that is available at the time and was flagged with a break flag. Fully break-free EU and EA aggregates were published for the first time in February 2022. More information can be found on the
+EU-LFS Breaks in Time Series (Statistics Explained) webpage.
+General information on the EU-LFS can be found in the ESMS page for 'Employment and unemployment (LFS)', see link in related metadata. Detailed information on the main features, the legal basis, the methodology and the data as well as on the historical development of the EU-LFS is available on the
+EU-LFS (Statistics Explained) webpage
+.
+Metadata last update
+11 September 2026
+Statistical concepts and definitions
+The definitions of employment and unemployment, as well as other survey characteristics follow the definitions and recommendations of the International Labour Organisation (ILO). The updated definitions of the labour status are part of the new
+Integrated European Social Statistics Framework Regulation (Regulation (EU) 2019/1700
+) and its
+Implementing Regulation (EU) 2019/2240
+for the labour market domain, which entered into force in 2021. The EU-LFS methodology before 2021 is described in the dedicated
+EU-LFS (Statistics explained) webpage on methodology
+, whereas updated definitions of the labour status under IESS are explained in the
+EU-LFS (Statistics explained) webpage on methodology from 2021 onwards
+. The main concepts and indicators related to the labour status are the following:
+Employed persons
+are all persons who worked at least one hour for pay or profit during the reference week or were temporarily absent from such work.
+The
+employment rate
+is the percentage of employed persons in relation to the total population.
+Unemployed persons
+are all persons 15 to 74 years of age (16 to 74 years in ES, IT, and the UK) who were not employed during the reference week but who had actively sought work during the past four weeks and were available to begin working immediately or within two weeks.
+The
+duration of unemployment
+is defined as the duration of a search for a job or as the length of the period since the last job was held (if this period is shorter than the duration of a search for a job).
+The
+unemployment rate
+is the number of unemployed persons as a percentage of the labour force. The labour force is the sum of the number of persons that are employed or unemployed.
+The
+unemployment ratio
+is the number of unemployed persons as a percentage of the total population.
+The
+long-term unemployment rate
+is the share of persons unemployed for 12 months or more in the total number of persons in the labour force.
+The long-term unemployment share
+is the share of the persons unemployed for 12 months or more in the total number of unemployed.
+The very long-term unemployment rate
+is the share of the persons unemployed for 24 months or more in the total number of persons in the labour market.
+The
+labour force
+is defined as the sum of employed and unemployed persons.
+The
+activity rate
+is the percentage of the labour force (being all employed and unemployed persons) in relation to the total population.
+The
+persons outside the labour force
+consist of all persons who are classified neither as employed nor as unemployed.
+Relevant breakdowns used are the following:
+Part-time workers
+are employed persons not working full time. The distinction between full-time and part-time work is generally based on a spontaneous response by the interviewee. The main exceptions are:
+the Netherlands and Iceland, where a 35-hour threshold is applied
+Sweden, where a threshold is applied to the self-employed
+and Norway, where persons working between 32 and 36 hours are asked whether this is a full-time or part-time position.
+Temporary contracts
+: employees with a limited duration job/contract are employees whose main job will terminate either after a period fixed in advance, or after a period not known in advance, but nevertheless defined by objective criteria, such as the completion of an assignment or the period of absence of an employee temporarily replaced. The concept of a fixed-term contract is only applicable to employees, not to the self-employed.
+The
+educational attainment level
+of an individual is the highest ISCED (International Standard Classification of Education) level successfully completed, the successful completion of an education programme being validated by a recognised qualification (i.e.: a qualification officially recognised by the relevant national education authorities or recognised as equivalent to another qualification of formal education). The ISCED levels are divided into ISCED 0-2 (‘less than primary’, ‘primary’, and ‘lower secondary education’), ISCED 3+4 (‘upper secondary’ and ‘post-secondary non-tertiary education’), and ISCED 5+ (‘tertiary education’).
+NEET - Young persons neither in employment nor in education and training
+corresponds to the percentage of the persons of a given age group and sex that is not employed and not involved in further (formal or non-formal) education or training. The numerator of the indicator refers to persons who meet the following two conditions:
+(a)
+they are not employed (i.e. they are unemployed or inactive according to the International Labour Organisation (ILO) definition) and
+(b)
+they have not received any education or training (i.e. neither formal nor non-formal) in the four weeks preceding the survey. The denominator in the total population consists of the same age group and sex. LFS adjusted series for NEET are provided for the age groups 15 to 24 and 15 to 29. Further information on the NEET can be found on this
+website
+.
+The
+usual weekly hours of work in the main and second job
+is the sum of all hours including extra hours, either paid or unpaid, which a person normally works in both the main and second job. To make the data more easily interpretable, the results are then divided into multiple intervals (e.g.: 1-19 hours worked per week, 20-29, et cetera).
+The
+actual hours worked in the main and second job during the reference week
+is the sum of the self-declared number of hours worked by the interviewee in the reference week of the interview. Actual hours count the hours spent in work activities, including unpaid overtime. Periods of absence from work, such as sick leave, holidays and commuting time, account for 0 hours of work. To make the data more easily interpretable, the results are then divided into multiple intervals (e.g.: 1-19 hours worked per week, 20-29, et cetera).
+The indicators to supplement the unemployment rate are defined as follows:
+Underemployed part-time workers
+are persons working part-time who wish to work additional hours and are available to do so. Part-time work is recorded as self-reported by individuals.
+Persons seeking work but not immediately available
+are the sum of persons neither employed nor unemployed who are
+(a)
+actively seeking work during the last 4 weeks but not available for work in the next 2 weeks; or
+(b)
+found a job to start within a period of at most 3 months and are not available for work in the next 2 weeks; or
+(c)
+found a job to start in more than 3 months but are not available for work in the next 2 weeks.
+Persons available to work but not seeking
+are the sum of persons neither employed nor unemployed who want to work and
+(a)
+are available for work in the next 2 weeks but are not seeking work, or
+(b)
+were passively seeking work during the last 4 weeks and are available for work in the next 2 weeks or
+(c)
+found a job to start in more than 3 months and are available to work in the next 2 weeks. Persons who fall within the three categories above fall outside the bandwidth of unemployment, as these persons are either employed with insufficient working time, not immediately available, or not seeking a job in a very specific time period. However, these persons may have an unmet need for employment and could represent a potential ‘extended labour force’.
+Labour Market Slack:
+the total sum of all unmet need for employment, including unemployment (according to the ILO definition), as well as the three supplementary indicators. In order to allow comparisons between these four groups, which do not all belong to the labour force, the concept of the
+extended labour force
+is used. It includes unemployment, employment and the two categories of inactive persons mentioned above (those available but not seeking, and those seeking but not available). The total labour market slack is expressed as a percent of this extended labour force, and the relative sizes of each component of labour market slack can be compared by using this denominator.
+Following developments on the labour market due to COVID-19 measures in the first quarter of 2020, additional indicators were introduced:
+Absences from work:
+persons absent from work are considered as employed if there is a formal attachment to the job. This can be for example the continued receival of wage or salary, AND an assurance of a return to work (or an agreement as to the date of return) following the end of the contingency. Persons can be absent from work due to a number of reasons, such as
+holidays
+,
+own illness
+, and
+temporary layoffs.
+The rules on formal job attachment have changed substantially with the new Regulations, leading to a break in the series in 2021.
+Total actual hours worked in the main job
+are the total actual hours worked by all employees and self-employed in their main occupation during the quarter. Data are indexed for reasons of comparability between countries.
+Recent job leavers
+are those persons who report to have left their job in the last 3 months before the interview.
+Recent job starters
+are those persons who have started their employment in the last 3 months before the interview.
+Please note that the EU aggregates in these new tables are directly seasonally adjusted.
+For more details, please consult the
+EU-LFS (Statistics Explained) - Methodology
+.
+Statistical unit
+Persons.
+Statistical population
+The EU-LFS results cover the total population usually residing in Member States, except for persons living in collective or institutional households. While demographic data are gathered for all age groups, questions relating to labour market status are restricted to persons in the age group of 15 years or older. In the EFTA countries participating in LFS, i.e. Iceland, Norway and Switzerland, population data are not provided for the age-groups outside the scope of labour market questions. The EU-LFS covers all industries and occupations.
+For more details and exceptions, please consult please consult the
+EU-LFS (Statistics Explained) - Methodology
+.
+Reference area
+European Union, Euro area, EU-Member States, Candidate Countries, EFTA Countries (except for Liechtenstein), USA and Japan. Data for Cyprus refer only to the areas of Cyprus controlled by the Government of the Republic of Cyprus. Since 2003, data for France include also the French overseas departments (Guadeloupe, Guyane, La Réunion, Martinique and Mayotte).
+EU and EA aggregates include metropolitan France in historical series, whereas aggregates under IESS include FR (incl. overseas departments) for aggregates. Employment data for USA and Japan are also disseminated for specific breakdowns before IESS entered into force (i.e., in the historical tables).
+Reference Period
+The reference periods are the calendar months, quarters or years, depending on the indicator. They are defined building up time periods based on the EU-LFS reference week. For details please refer to the ESMS page on 'Employment and unemployment (LFS)' (see link below in section 'related metadata').
+Accuracy - overall
+Please refer to the ESMS page on 'Employment and unemployment (LFS)' (see link below in section 'related metadata').
+Unit of measure
+Most results measure number of persons (thousands). Some indicators are reported as rates (employment, unemployment rates) or ratios (share of total population). Rates and ratios in the LFS Main Indicators do not correct the denominator for item non-response due to the additional seasonal adjustment step. This can lead to marginal differences in rates and ratios due to rounding in comparison with the same indicators published in the detailed tables section. Due to the continuous update of SA estimates, it has to be noted that SA estimates may slightly differ between historical and current main Indicators tables.
+Data compilation
+While absolute values at aggregate level (e.g. EU-27_2020) are added up from the national estimates (i.e. number of persons), estimates of rates at aggregate level are calculated as the population-weighted arithmetic average of the national figures.
+Source data
+The quarterly EU-LFS is the main source of the data, for details see ESMS page on 'Employment and unemployment (LFS)' (see link below in section 'related metadata').
+In case of missing quarterly data, annual results and EU aggregates are estimated by using adjusted quarterly national labour force survey data or interpolations of the EU Labour Force Survey data with reference to the available quarter(s).
+For the break correction of pre-IESS data, Member States transmit either complete break-corrected series to Eurostat, or correction factors that will be applied on the pre-IESS series as a base. Complete break-corrected time series are directly usable and published on Eurobase. If Eurostat receives correction factors, they will in principle be applied on pre-IESS data (last regular update with 2020 annual results). For details please see the
+EU-LFS Breaks in Time Series (Statistics Explained) webpage.
+The data for US and Japan are produced by the
+U.S. Bureau of Labor Statistics
+and the Ministry of Internal Affairs and Communications Government of Japan, respectively. Eurostat obtains those data via OECD and disseminates them without any processing in historical series until 2020Q4.
+Frequency of dissemination
+Quarterly and Annual
+.
+Timeliness
+The quarterly series are updated 4 times a year approximately 75 days after the end of the reference quarter. Annual averages are published along with quarter 4 data. Some indicators, like 'population in jobless households', may exceptionally have different publication dates.
+Comparability - geographical
+Geographical comparability of the EU-LFS has historically been very high, and has further improved with the implementation of IESS. However, some countries are still in the process of implementing the Regulation, or have other quality concerns that may impact geographical comparability. Please find details below:
+Spain
+: Pre-IESS, and after the outbreak of the COVID crisis, Spain was including in employment also persons on lay-off paid by a governmental scheme and not directly from the employer. Under IESS, due to the COVID crisis, Spain continues to test for job attachment of employed persons on temporary lay-off as implemented in the pre-IESS situation.
+France:
+Under IESS, and due to the COVID crisis, France continues to test for job attachment of employed persons on temporary lay-off as implemented in the pre-IESS situation.
+The Netherlands
+: Phase-in of data collection based on IESS principles consecutively over the year 2021. To ensure data quality and quality of back-calculations, they continue to publish
+monthly
+unemployment following the pre-IESS definitions during 2021. Data is collected using a rolling reference week instead of a fixed reference week, i.e. interviewed persons are asked about the situation of the week before the interview rather than a pre-selected week (irrespective of the interview time). Delays in interviews (due to re-attempts, drawing from a reserve sample list, etc.) can consequently have in this country a knock-on effect on the distribution of the reference weeks, leading to differences between the theoretical and actual final distribution of the sample over the weeks of the quarter.
+Germany:
+Due to technical issues with the introduction of the new German system of integrated household surveys, including the LFS, the figures for Germany in 2020 are not direct estimates from LFS micro-data, but based on a larger sample including additional data from other integrated household surveys.
+Comparability - over time
+From 2006 onwards, Commission Regulation (EC) No 430/2005 of 15 March 2005 regulates the codification to be used for data transmission and the use of a sub-sample for the collection of data on structural variables (OJ No L 71/36) until the year 2020.
+From 2021 onwards, the new IESS Framework regulation provides the foundation for LFS Main Indicators data. The updated definitions of the labour status are part of the new
+Integrated European Social Statistics Framework Regulation (Regulation (EU) 2019/1700
+) and its
+Implementing Regulation (EU) 2019/2240
+for the labour market domain entering into force in 2021. The changes in the derivation of the labour status can cause breaks in the time series of the quarterly and annual
+LFS main indicators
+as they derive from
+EU-LFS
+microdata. The
+LFS main indicators section
+comprises the main statistics on the
+labour market
+, and encompasses various breakdowns of labour market participation,
+employment
+and
+unemployment
+. In order to provide stakeholders with the most relevant labour market policy indicators, Member States and Eurostat produce and disseminate break-corrected series, thus ensuring data comparability over time. A large set of LFS Main Indicators data before and under IESS will be accessible on Eurobase. The following main indicators will be corrected and disseminated in the duplicated tables:
+Employment Indicator with the following breakdowns;
+Employment and activity by sex and age;
+Employment by educational attainment level;
+Part-time employment and temporary contracts.
+Unemployment Indicator with the following breakdowns;
+Unemployment by sex and age;
+Long-term unemployment by sex;
+Unemployment by sex, age and educational attainment;
+Supplementary indicators to unemployment;
+Young people neither in employment nor in education and training by sex.
+During the transition time for correcting the duplicated tables, the published EU and EA aggregates were based on the available information at each point in time. Fully break-free EU and EA aggregates were published for the first time in February 2022.
+Overall, comparability over time is considered as high. Methodological improvements in the underlying sampling design or changes in nomenclatura can lead to breaks in the time series. These are flagged in the database, and detailed information on each break can be found
+at this website
+. For some series, in particular employment and activity, estimates have been made for years in which not yet data for all quarters had been collected. These estimates are flagged accordingly. The estimates do not make use of other indicators, but are based on available quarterly data as well as the seasonal pattern of available years.
+This site is managed by
+Eurostat
+and is an official website of the European Union
+Accessibility
+Need help?
+Sitemap
+Contact us
+Follow us
+X
+Facebook
+Instagram
+LinkedIn
+Youtube
+RSS
+Discover more on europa.eu
+Contact the EU
+Call us 00 800 6 7 8 9 10 11
+Use other telephone options
+Write us via our contact form
+Meet us at one of the EU centres
+Social media
+Search for EU social media channels
+Legal
+Languages on our websites
+Privacy policy
+Legal notice
+Cookies
+EU institutions and bodies
+Search all EU institutions and bodies

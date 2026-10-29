@@ -1,0 +1,96 @@
+{
+  "checked_at": "2026-10-29T15:05:48.507141+00:00",
+  "primary_source_scope": [
+    {
+      "name": "Observatorio Europeo, Sweden: Health System Summary 2024",
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/publicationsnew/hit-summaries-no-flags/hit-summary-sweden-2024-3p.pdf",
+      "scope": "PDF archivado; introducción y p. 2 impresas leídas: financiación tributaria, responsabilidad regional, hospitales y mezcla de proveedores ambulatorios. Actualización a septiembre de 2024, no descripción de toda reforma 2026."
+    },
+    {
+      "name": "Observatorio Europeo, Denmark: Health System Review 2024",
+      "url": "https://eurohealthobservatory.who.int/publications/i/denmark-health-system-review-2024",
+      "scope": "Ficha y resumen originales del 28/2/2024, financiación tributaria, participación privada y retos de coordinación. No revisión íntegra leída; PDF WHO devolvió HTML de validación, no archivo válido."
+    },
+    {
+      "name": "Region Halland, tarifas de pacientes 2026",
+      "url": "https://vardgivare.regionhalland.se/app/uploads/2025/12/Patientavgift-och-ovriga-egenavgifter-Region-Halland-2026-ver-251203.pdf",
+      "scope": "PDF oficial 2026, tabla Högkostnadsskydd: 1450 SEK en atención ambulatoria, periodo de 12 meses; ingreso hospitalario fuera de ese límite. Ejemplo regional identificado, no todos los costes sanitarios suecos."
+    },
+    {
+      "name": "Ciudad de Helsinki, Maximum Payment Limit, 2026",
+      "url": "https://www.hel.fi/en/health-and-social-services/data-and-the-rights-of-the-client/fees/maximum-payment-limit",
+      "scope": "Límite 815 EUR/año desde 1/1/2026, servicios incluidos/excluidos; tasas de centros de salud no cobradas en Helsinki; medicamentos y viajes con límites Kela separados. No tope único de todo gasto médico."
+    },
+    {
+      "name": "1177, garantía asistencial, información accesible de Estocolmo",
+      "url": "https://www.1177.se/sv-se-x-ll/Stockholm/sa-fungerar-varden/lagar-och-bestammelser/vardgaranti/",
+      "scope": "Página completa leída y archivada: contacto mismo día, evaluación tres días, especialista 90 días y tratamiento 90 desde decisión, condiciones y alternativas. No medida de cumplimiento ni todos los actos cubiertos."
+    },
+    {
+      "name": "Borger.dk, libre elección y elección ampliada de hospital",
+      "url": "https://www.borger.dk/sundhed-og-sygdom/dine-rettigheder-som-patient/Frit-og-udvidet-frit-valg-af-sygehus",
+      "scope": "Información vigente, derivación, elección pública y acceso a privado concertado por espera superior a 30 días, con exclusiones. Periodo temporal de dos meses 2023–2024 no importado a 2026."
+    },
+    {
+      "name": "Sundhedsstyrelsen, elección de hospital y excepciones",
+      "url": "https://www.sst.dk/vidensbase/henvisning-til-hospitalet-og-patientrettigheder/patientrettigheder-og-henvisning/frit-sygehusvalg",
+      "scope": "Lectura web oficial actual: privado con acuerdo y nivel especializado requerido, límites clínicos y de disponibilidad. Descarga local 429; no archivo local fingido ni garantía universal de tratamiento."
+    }
+  ],
+  "full_books_read": false,
+  "omitted": [
+    "No un único sistema nórdico ni todo servicio gratis o gestionado por el Estado.",
+    "No garantía legal como prueba de espera real o cumplimiento, ni todos los procedimientos incluidos.",
+    "No tope Halland 1450 SEK comparado directamente con Helsinki 815 EUR sin periodo/cobertura; no medicamentos, viaje y hospital sumados en un tope universal.",
+    "No libre elección danesa como cheque automático para cualquier clínica privada; no plazo temporal 2023–2024 aplicado a 2026.",
+    "No consejo clínico, resultado sanitario o superioridad pública/privada inventados; casos e imágenes conceptuales."
+  ],
+  "image_review": {
+    "tool": "builtin_image_gen",
+    "individual": true,
+    "mosaic": "/tmp/mee223-225-mosaic.png",
+    "cover": [
+      1200,
+      630
+    ],
+    "interiors": [
+      1600,
+      900
+    ],
+    "max_bytes": 250000
+  },
+  "selected_checks": {
+    "sweden_summary": {
+      "edition": 2024,
+      "scope": "Introducción y p. 2 impresas",
+      "private_outpatient": true
+    },
+    "halland": {
+      "year": 2026,
+      "cap_sek": 1450,
+      "period": "12 meses",
+      "scope": "Atención ambulatoria cubierta; ingreso fuera del límite. Tabla p. 5 impresa."
+    },
+    "helsinki": {
+      "year": 2026,
+      "cap_eur": 815,
+      "period": "año natural",
+      "all_expenses": false,
+      "drugs_travel": "Kela, protecciones separadas",
+      "health_center_fee": "No cobrada en Helsinki"
+    },
+    "sweden_guarantee": {
+      "page_updated": "2025-07-31",
+      "contact_days": 0,
+      "assessment_days": 3,
+      "specialist_days": 90,
+      "treatment_days_from_decision": 90,
+      "conditions": "Región de residencia, necesidad valorada y alternativa ofrecida; no plazo universal ni cumplimiento medido."
+    },
+    "denmark": {
+      "days": 30,
+      "private": "solo proveedores con acuerdo y cobertura pertinente, con excepciones",
+      "exclude_old_temporary_rule": "2 meses en 2023–2024, no regla actual 2026"
+    }
+  }
+}

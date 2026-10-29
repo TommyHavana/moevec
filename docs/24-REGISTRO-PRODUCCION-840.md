@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-29T14:18:28+00:00.
+Comprobado en WordPress: 2026-10-29T15:08:32+00:00.
 
-**219/840 terminadas · 0 en curso · 621 pendientes.**
+**225/840 terminadas · 0 en curso · 615 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -231,12 +231,12 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 217 | 15/56 · 7/15 | E5.5.07 | Flexiseguridad danesa: despido fácil, protección alta | terminada | 3/3 | [Leer](https://moevec.org/blog/flexiseguridad-danesa/) |
 | 218 | 15/56 · 8/15 | E5.5.08 | Noruega y el petróleo: por qué no es un modelo replicable | terminada | 3/3 | [Leer](https://moevec.org/blog/noruega-petroleo-no-replicable/) |
 | 219 | 15/56 · 9/15 | E5.5.09 | Escuelas privadas con financiación pública: el modelo sueco | terminada | 3/3 | [Leer](https://moevec.org/blog/escuelas-privadas-financiacion-publica-suecia/) |
-| 220 | 15/56 · 10/15 | E5.5.10 | Finlandia: educación, competitividad y límites del modelo | pendiente | 0/3 | — |
-| 221 | 15/56 · 11/15 | E5.5.11 | ¿Se puede copiar el modelo nórdico en América Latina? | pendiente | 0/3 | — |
-| 222 | 15/56 · 12/15 | E5.5.12 | España frente a Dinamarca: comparación con datos | pendiente | 0/3 | — |
-| 223 | 15/56 · 13/15 | E5.5.13 | Sanidad nórdica: listas de espera, copagos y proveedores privados | pendiente | 0/3 | — |
-| 224 | 15/56 · 14/15 | E5.5.14 | Lo que los nórdicos hicieron con el impuesto de patrimonio y de sucesiones | pendiente | 0/3 | — |
-| 225 | 15/56 · 15/15 | E5.5.15 | El modelo nórdico explicado en cinco mitos | pendiente | 0/3 | — |
+| 220 | 15/56 · 10/15 | E5.5.10 | Finlandia: educación, competitividad y límites del modelo | terminada | 3/3 | [Leer](https://moevec.org/blog/finlandia-educacion-competitividad/) |
+| 221 | 15/56 · 11/15 | E5.5.11 | ¿Se puede copiar el modelo nórdico en América Latina? | terminada | 3/3 | [Leer](https://moevec.org/blog/copiar-modelo-nordico-latam/) |
+| 222 | 15/56 · 12/15 | E5.5.12 | España frente a Dinamarca: comparación con datos | terminada | 3/3 | [Leer](https://moevec.org/blog/espana-frente-a-dinamarca/) |
+| 223 | 15/56 · 13/15 | E5.5.13 | Sanidad nórdica: listas de espera, copagos y proveedores privados | terminada | 3/3 | [Leer](https://moevec.org/blog/sanidad-nordica/) |
+| 224 | 15/56 · 14/15 | E5.5.14 | Lo que los nórdicos hicieron con el impuesto de patrimonio y de sucesiones | terminada | 3/3 | [Leer](https://moevec.org/blog/nordicos-patrimonio-y-sucesiones/) |
+| 225 | 15/56 · 15/15 | E5.5.15 | El modelo nórdico explicado en cinco mitos | terminada | 3/3 | [Leer](https://moevec.org/blog/modelo-nordico-cinco-mitos/) |
 | 226 | 16/56 · 1/15 | E5.6.01 | Servicios sociales sin socialismo: modelos que funcionan | pendiente | 0/3 | — |
 | 227 | 16/56 · 2/15 | E5.6.02 | Ayuda mutua antes del Estado de bienestar: las sociedades de socorro | pendiente | 0/3 | — |
 | 228 | 16/56 · 3/15 | E5.6.03 | Libertad de elección en servicios públicos: qué dice la evidencia | pendiente | 0/3 | — |

@@ -1,0 +1,202 @@
+{
+  "checked_on": "2026-10-29",
+  "sources": [
+    {
+      "name": "Eurostat, gov_10a_main, gasto total, 2025",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/gov_10a_main?lang=EN&geo=DK&geo=ES&time=2025&unit=PC_GDP&sector=S13&na_item=TE",
+      "scope": "API primaria, consulta 29/10/2026, actualización 21/10/2026: PC_GDP, S13, TE, DK 47.2 y ES 45.3. No impuestos ni gasto por habitante."
+    },
+    {
+      "name": "Eurostat, lfsi_emp_a, tasa de empleo, 2025",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/lfsi_emp_a?lang=EN&geo=DK&geo=ES&time=2025&indic_em=EMP_LFS&sex=T&age=Y20-64&unit=PC_POP",
+      "scope": "API primaria, actualización 26/10/2026: EMP_LFS, total sexos, Y20-64, PC_POP, DK 79.8 y ES 72.4, marca d en ES."
+    },
+    {
+      "name": "Eurostat, une_rt_a, tasa de paro anual, 2025",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/une_rt_a?lang=EN&geo=DK&geo=ES&time=2025&unit=PC_ACT&sex=T&age=Y15-74",
+      "scope": "API primaria, actualización 26/10/2026: total sexos, Y15-74, PC_ACT, DK 6.4 y ES 10.5, marca d en ES. No previsión ni porcentaje de toda la población."
+    },
+    {
+      "name": "Eurostat, metadatos LFS y diferencias de definición",
+      "url": "https://ec.europa.eu/eurostat/cache/metadata/en/lfsi_esms.htm",
+      "scope": "Conceptos de empleo/paro, población y diferencias: paro 16–74 en España; sección 15.1 describe tratamiento español de suspensión temporal. No cuantificación del efecto de las diferencias."
+    },
+    {
+      "name": "Eionet/Eurostat, códigos de estado de observación",
+      "url": "https://dd.eionet.europa.eu/vocabulary/eurostat/obs_status/view?page=2",
+      "scope": "d significa definición diferente; se conserva la bandera en tabla y texto."
+    },
+    {
+      "name": "Eurostat, ilc_pw 03, confianza en otros, 2025",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ilc_pw03?lang=EN&geo=DK&geo=ES&time=2025&statinfo=AVG&unit=RTG&isced11=TOTAL&domain=OTH&sex=T&age=Y_GE16",
+      "scope": "API primaria actualizada 20/10/2026: AVG, RTG, TOTAL educación, OTH, T, Y_GE16, DK 5.7 y ES 6.2. Se conserva corte API del 29/10; difiere de valores del PDF de septiembre, no se mezclan versiones."
+    },
+    {
+      "name": "Eurostat, definición de confianza, noticia del 14/1/2025",
+      "url": "https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20250114-2",
+      "scope": "Nota metodológica EU-SILC, escala 0–10, personas desde 16 años. Sus cifras son de 2023 y no se importan como datos de 2025."
+    },
+    {
+      "name": "Fraser/Cato, Economic Freedom of the World 2026, capítulo 1",
+      "url": "https://www.cato.org/sites/cato.org/files/2026-10/EFW-2026-Chapter-1.pdf",
+      "scope": "Método y tabla 1.2, filas Dinamarca p. 10 PDF y España p. 13 PDF leídas vía web; datos 2024, área 5 regulación DK 7.76/ES 7.17, escala 0–10. No indicador exclusivo de legislación laboral ni saldo de bienestar. Referencia compartida E5.5.02."
+    },
+    {
+      "name": "Banco Mundial, metodología de Worldwide Governance Indicators",
+      "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators/documentation",
+      "scope": "Ficha y metodología de la actualización 2026 leídas. Estimación de gobernanza y percepciones; no datos propios extraídos de Excel ni ratio de eficiencia técnica calculado."
+    }
+  ],
+  "archived_files": [
+    {
+      "file": "sources/download-log.json",
+      "bytes": 921,
+      "sha256": "379ac5bd433adb59585f28ef606161d11546e506ccd9962f851c60d44bf3544b"
+    },
+    {
+      "file": "sources/efw-web-reading.json",
+      "bytes": 1868,
+      "sha256": "e691b50c1415ab8caafb852723283e4bd9535ac72f14235f46b7f1171bc96591"
+    },
+    {
+      "file": "sources/eurostat-employment-probe2025-url.txt",
+      "bytes": 111,
+      "sha256": "de4daf166dbc08639889ae6459e6bc633618fb019c4ff584875f21dfe9572256"
+    },
+    {
+      "file": "sources/eurostat-employment-probe2025.json",
+      "bytes": 9117,
+      "sha256": "69a31413bcdb683267f8bceebe20586bfcc8f592137017ebeca7a1b332d39de1"
+    },
+    {
+      "file": "sources/eurostat-employment2025-url.txt",
+      "bytes": 157,
+      "sha256": "59e174d2d1b1eac63daf640a06be8fdcb1561ff31c6b3595a49121633584dc38"
+    },
+    {
+      "file": "sources/eurostat-employment2025.json",
+      "bytes": 5188,
+      "sha256": "79d07e3064cb4d88ba93a846475261028bc9116c1ebcdd7b251eacab9e6043d1"
+    },
+    {
+      "file": "sources/eurostat-flags.html",
+      "bytes": 34777,
+      "sha256": "de94c9bcfcc4ff3d06c7fe8f5746114e0138fa021f1d9e7a6b55c23fabd400cf"
+    },
+    {
+      "file": "sources/eurostat-flags.visible.txt",
+      "bytes": 2653,
+      "sha256": "7e4ca96d8740ca2a64c27db00e41fb3341fcddb6ffad5df7ec6b8fedbdc5c83a"
+    },
+    {
+      "file": "sources/eurostat-spending2025-url.txt",
+      "bytes": 147,
+      "sha256": "25cc9dc1104dfee11c2c20d91ffb2b4b6af5b1b93ec5577888c3b345d9a40e90"
+    },
+    {
+      "file": "sources/eurostat-spending2025.json",
+      "bytes": 4150,
+      "sha256": "deb8f11d04c5b2cfe4eaf31c1808d4517e4e66245a39f7cd17948b843a9982ee"
+    },
+    {
+      "file": "sources/eurostat-trust-probe2025-url.txt",
+      "bytes": 109,
+      "sha256": "e9f9a7230187371d9d24d679aaded92854c4700519716e39fcd446fa14b1eb1b"
+    },
+    {
+      "file": "sources/eurostat-trust-probe2025.json",
+      "bytes": 11949,
+      "sha256": "e849c231d2854b541d6a98bc57fe49e1afc97947145977e328caefd9d7f37f02"
+    },
+    {
+      "file": "sources/eurostat-trust2025-url.txt",
+      "bytes": 173,
+      "sha256": "828026d3fe1b91e746437f94000e5c940e7133a8af7513bd1dda5ce636bc73c5"
+    },
+    {
+      "file": "sources/eurostat-trust2025.json",
+      "bytes": 5509,
+      "sha256": "2d835de51c154c3dbb0fde5ac67606a103fbcdeea32957ee98631bd91f7b2059"
+    },
+    {
+      "file": "sources/eurostat-unemployment2025-url.txt",
+      "bytes": 138,
+      "sha256": "cfce5cc700a6ebef90e57fe9163a4406775a770c95552b3877966a4524a4845a"
+    },
+    {
+      "file": "sources/eurostat-unemployment2025.json",
+      "bytes": 4883,
+      "sha256": "1a7536a6db28724281acc8869ea726eb531c9d1d715a8b54c43e45c6576a8f08"
+    },
+    {
+      "file": "sources/initial-source-check.json",
+      "bytes": 717,
+      "sha256": "ac7773965c7e795ceff058a289c9e18f29101309ed03c676c687c90cd2842345"
+    },
+    {
+      "file": "sources/lfs-metadata.html",
+      "bytes": 240043,
+      "sha256": "65cc6015af129092739a82e556bb1abd76b2fc494d4cacfad8f23819ceedc9a1"
+    },
+    {
+      "file": "sources/lfs-metadata.visible.txt",
+      "bytes": 65124,
+      "sha256": "f26b995937e979cbb69ddbe12372215c3460245ca6573d8b02f61c5628c93789"
+    },
+    {
+      "file": "sources/reading-notes.json",
+      "bytes": 7322,
+      "sha256": "a7273c6b16cb4a7be6e2854fdfa6c64cd0d7b5178a33235e321e15b6215f6a87"
+    },
+    {
+      "file": "sources/reading-scope.json",
+      "bytes": 4584,
+      "sha256": "affa4b45be87429c01787cee57973dd84bd0097a93638185e5f405d9c5e27af4"
+    },
+    {
+      "file": "sources/shared-source-reference.json",
+      "bytes": 264,
+      "sha256": "a7357d1104b4b3f1484d51ade22545d2f4fb2c4d067348da938f2ee09dda175d"
+    },
+    {
+      "file": "sources/source-download-manifest.json",
+      "bytes": 4906,
+      "sha256": "621863ff390fa578d400031f281bd9a0294fdcb748370a0df47fc28230ba3b3a"
+    },
+    {
+      "file": "sources/wgi2026-catalog.html",
+      "bytes": 198728,
+      "sha256": "4585e8927b36101ceddbcf767273215ca63df3641f81910924d37f4983f60659"
+    },
+    {
+      "file": "sources/wgi2026-catalog.visible.txt",
+      "bytes": 3692,
+      "sha256": "45558161acb5fdd3d66bd009545f191ac580afb2af420afda99a6bfc75e99c2e"
+    },
+    {
+      "file": "sources/wgi2026-methodology.html",
+      "bytes": 69420,
+      "sha256": "eeffa937496deb4a71726f2cbdc8e6d5bfbd26cac445c056453fda0dd9f1e643"
+    },
+    {
+      "file": "sources/wgi2026-methodology.visible.txt",
+      "bytes": 18390,
+      "sha256": "cd0b5b4f18d9a42c7599d4c0f9be34e67d59a2e78f63145644a9d7a353f8ce65"
+    }
+  ],
+  "omitted_claims": [
+    "No previsiones 2026 como tasas observadas; tabla laboral/gasto/confianza usa 2025 y regulación declara 2024.",
+    "No empleo y paro como complementos al 100: diferentes denominadores y edades, conserva d española.",
+    "No confianza interpersonal como confianza en Gobierno; no números WVS calculados ni superioridad danesa forzada contra Eurostat.",
+    "No gasto/PIB como recaudación, tipo tributario, gasto per cápita o calidad; no eficiencia administrativa deducida de gasto o WGI.",
+    "No índice Fraser como regulación exclusivamente laboral, balance neto de bienestar o prueba causal.",
+    "No mezcla de confianza del PDF septiembre (DK 5.9/ES 6.3) con API actualizada octubre (DK 5.7/ES 6.2)."
+  ],
+  "scope": "Lectura pertinente especificada; archivo completo no implica lectura íntegra. Problemas de acceso y fuentes compartidas identificados.",
+  "final_verification": {
+    "checked_at": "2026-10-29T14:51:45.708131+00:00",
+    "published_url": "https://moevec.org/blog/espana-frente-a-dinamarca/",
+    "public_checks": "verification.json",
+    "wordpress_registry_words": 1409
+  }
+}

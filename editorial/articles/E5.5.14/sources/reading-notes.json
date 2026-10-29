@@ -1,0 +1,114 @@
+{
+  "checked_at": "2026-10-29T15:05:48.507141+00:00",
+  "primary_source_scope": [
+    {
+      "name": "OCDE, The Role and Design of Net Wealth Taxes, 2018, tabla 4.1",
+      "url": "https://www.oecd.org/en/publications/the-role-and-design-of-net-wealth-taxes-in-the-oecd_9789264290303-en/full-report/component-7.html",
+      "scope": "Tabla histórica leída por web: Dinamarca hasta 1997, Finlandia hasta 2006, Suecia abolición 2007. Reglas del informe a 1/9/2017; no tipos o umbrales 2017 como vigentes en 2026. Descarga local 403."
+    },
+    {
+      "name": "Riksdag, decisión 2004/05:SkU 18 del 16/12/2004",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/slopad-arvsskatt-och-gavoskatt-prop-20040525_gs01sku18/",
+      "scope": "Resumen y decisión: abolición de sucesiones y donaciones desde 1/1/2005; argumento de facilitar relevo de empresas familiares, atribuido al legislador, no efecto causal medido."
+    },
+    {
+      "name": "Riksdag, Ley 2005:194, excepción de sucesiones y donaciones",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2005194-om-undantag-fran-arvsskatt-och_sfs-2005-194/",
+      "scope": "Texto breve íntegro: no cobrar obligaciones nacidas 17–31/12/2004 y devolver pagos; excepción posterior distinta de fecha formal de derogación."
+    },
+    {
+      "name": "Skatteetaten, patrimonio y descuentos de valoración, 2026",
+      "url": "https://www.skatteetaten.no/en/rates/wealth-tax/?year=2026",
+      "scope": "Tabla oficial 2026: impuesto estatal y municipal sobre riqueza neta fiscal, umbral individual 1.9 millones NOK, valoración y deuda. No cálculo personal ni tipo sobre valor bruto de mercado."
+    },
+    {
+      "name": "Skatteetaten, abolición del impuesto de sucesiones",
+      "url": "https://www.skatteetaten.no/en/person/taxes/get-the-taxes-right/gift-and-inheritance/inheritance-tax-is-abolished/",
+      "scope": "Regla desde 1/1/2014 y transiciones; continuidad fiscal y posibles efectos posteriores, no toda herencia exenta de cualquier tributo."
+    },
+    {
+      "name": "Vero, calculadora y tablas de sucesiones de 2026",
+      "url": "https://vero.fi/en/individuals/property/inheritance/inheritance-tax-calculator/",
+      "scope": "Reglas y selector de fecha desde 1/1/2026: impuesto finlandés existente. No liquidación personal ni umbral como deducción universal."
+    },
+    {
+      "name": "Skat, impuestos y tasas por fallecimiento",
+      "url": "https://skat.dk/borger/skatter-og-afgifter-ved-doedsfald",
+      "scope": "Apartado Boafgift con tabla 2026 y diferencias de parentesco. Impuesto danés sobre caudal hereditario; no todo heredero sujeto a mismo tipo ni desaparición de sucesiones."
+    },
+    {
+      "name": "Gobierno noruego, NOU 2026:9, apartado 3.7.3",
+      "url": "https://www.regjeringen.no/no/dokumenter/nou-2026-9/id3167167/?ch=4",
+      "scope": "Lectura web §3.7.2–3.7.3 y tablas 3.2–3.3, datos de Skatteetaten/Finanzas. Muestra 3565 personas, patrimonio >100 millones NOK o lista Kapital400 en algún año 2021–2025. Movimientos de registro civil, no emigración fiscal automática; impuestos previos no pérdida neta contrafactual. Descarga local 403."
+    },
+    {
+      "name": "Skatteetaten, emigración y cese de residencia fiscal",
+      "url": "https://www.skatteetaten.no/person/skatt/hjelp-til-riktig-skatt/utland/skattemessig-emigrasjon/",
+      "scope": "Guía oficial: traslado en registro no extingue automáticamente obligaciones; alcance global y limitado, sin asesoramiento individual."
+    },
+    {
+      "name": "OCDE, Inheritance Taxation in OECD Countries, 2021",
+      "url": "https://www.oecd.org/en/publications/inheritance-taxation-in-oecd-countries_e2879a7d-en.html",
+      "scope": "Resumen y executive summary leídos vía web: argumentos de equidad, diseño y liquidez. No 149 páginas íntegramente leídas ni estadísticas 2021 como datos actuales."
+    }
+  ],
+  "full_books_read": false,
+  "omitted": [
+    "No patrimonio y herencia como mismo tributo ni eliminación de uno como ausencia de toda imposición a riqueza/capital.",
+    "No abolición sueca fechada sin distinguir decisión 2004, derogación 1/1/2005 y excepción 17–31/12/2004.",
+    "No umbrales/tipos OCDE 2017 usados como 2026; estado noruego verificado en tabla anual oficial.",
+    "No emigrantes generales confundidos con muestra de altos patrimonios ni traslado registral con cese automático de residencia fiscal.",
+    "No 17 salidas/9 entradas de muestra 2025 convertidas en toda migración, causalidad individual o saldo fiscal; no impuesto del año anterior como pérdida neta.",
+    "No recomendación de traslado, optimización personal, promesa de recaudación o lectura íntegra de libros/informes fingida."
+  ],
+  "image_review": {
+    "tool": "builtin_image_gen",
+    "individual": true,
+    "mosaic": "/tmp/mee223-225-mosaic.png",
+    "cover": [
+      1200,
+      630
+    ],
+    "interiors": [
+      1600,
+      900
+    ],
+    "max_bytes": 250000
+  },
+  "web_checks": {
+    "wealth_history": {
+      "source": "OCDE2018 tabla4.1, reglas a1/9/2017",
+      "abolished": {
+        "DK": 1997,
+        "FI": 2006,
+        "SE": 2007
+      }
+    },
+    "sweden_inheritance": {
+      "decided": "2004-12-16",
+      "general_repeal": "2005-01-01",
+      "later_law": "2005:194",
+      "exception": "Obligaciones 17–31/12/2004 no se cobran y pagos se devuelven"
+    },
+    "norway": {
+      "wealth_year": 2026,
+      "single_threshold_nok": 1900000,
+      "inheritance_abolished": "2014-01-01",
+      "valuation_debt": true
+    },
+    "migration": {
+      "source": "NOU2026:9 §3.7.3, tablas3.2–3.3, lectura web",
+      "sample": 3565,
+      "sample_definition": "patrimonio neto >100m NOK o Kapital400 en algún año2021–2025",
+      "year": 2025,
+      "departures": 17,
+      "arrivals": 9,
+      "all_migration": false,
+      "civil_registration": true,
+      "tax_residence_automatic": false,
+      "prior_year_tax_is_net_loss": false,
+      "not_collected_for_statistical_purposes": true
+    },
+    "oecd2021": "Resumen y executive summary leídos, no149páginas íntegras"
+  }
+}

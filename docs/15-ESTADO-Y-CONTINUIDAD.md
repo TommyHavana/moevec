@@ -2,27 +2,27 @@
 
 ## Estado actual
 
-**219/840 terminadas, 657 imágenes originales públicas, 0 en curso o borradores WordPress y 621 pendientes**. Modelos Nórdicos 9/15; catorce tandas completas y tanda 15 en curso.
+**225/840 terminadas, 675 imágenes originales públicas, 0 en curso o borradores WordPress y 615 pendientes**. Modelos Nórdicos 15/15; 15 tandas completas y tanda 15 completa.
 
 Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Desde 213: entradas 214–219, 18 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
+Desde 219: entradas 220–225, 18 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
 
 Una publicación y tres adjuntos por ID; categorías Capitalismo Consciente y Modelos Nórdicos, etiquetas exactas. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales y variantes comprobados. Navegación y BreadcrumbList: Blog → área → subcategoría. Taxonomía: 122 nodos, siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva o posicionamiento.
 
 ## Revisión del último bloque
 
-217: tres pilares daneses y cuatro componentes de Comisión Europea 2007; EPL de publicación 2026 con fecha regulatoria 1/1/2025. Prestaciones 2026 con acceso, duración y topes, sin 90 % universal. 218: estudios de recursos e instituciones con versiones separadas; Noruega, fondo y regla fiscal con fechas. Propiedad estatal de Equinor contrastada con informe anual 2025, sin propagar el día imposible de su tabla web. 219: financiación y provisión escolares diferenciadas; artículo Economica 2015 y preprint 2012 identificados, mejora media municipal y tendencia nacional distintas. Segregación y beneficios debatidos sin convertir medias en garantías individuales.
+223: financiación y provisión sanitarias diferenciadas, topes de Halland y Helsinki con periodos y exclusiones, derechos suecos/daneses separados de cumplimiento real. 224: decisión sueca 2004, derogación 2005 y excepción 17–31/12/2004; Noruega mantiene patrimonio 2026 y abolió sucesiones desde 2014. Muestra de movilidad NOU2026 con cautela registral y sin pérdida fiscal neta inventada. 225: síntesis de catorce entradas con fuentes primarias, sin cuotas de carga por renta deducidas de composición, sin cifras o imágenes reutilizadas.
 
 ## Continuación exacta
 
-Siguiente **220–222 / E5.5.10–E5.5.12**, Capitalismo Consciente → Modelos Nórdicos. Preparaciones incluidas en las 621 pendientes. E5.5.10: 0/3 imágenes locales; sin texto final, sin publicación; E5.5.11: 0/3 imágenes locales; sin texto final, sin publicación; E5.5.12: 0/3 imágenes locales; sin texto final, sin publicación. Después 223–225. Automatización activa, sin agotamiento comunicado.
+Siguiente **226–228 / E5.6.01–E5.6.03**, Capitalismo Consciente → Servicios Sociales. Preparaciones incluidas en las 615 pendientes. E5.6.01: 0/3 imágenes locales; sin texto final, sin publicación; E5.6.02: 0/3 imágenes locales; sin texto final, sin publicación; E5.6.03: 0/3 imágenes locales; sin texto final, sin publicación. Después 229–231. Automatización activa, sin agotamiento comunicado.
 
 ## Copias y límites
 
-Respaldo VPS hasta 219: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
+Respaldo VPS hasta 225: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
 
 ## Traspaso
 
