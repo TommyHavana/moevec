@@ -1,9 +1,20 @@
-# Preparación · 97 · Trabajo infantil y cadenas de suministro
+# Investigación y revisión · 97 · E5.7.07
 
-Brief original leído. No texto terminado, imágenes ni publicación. Mantener etica-en-el-intercambio/desarrollo y capitalismo-consciente.
+Consulta:29/10/2026. Brief y fuentes pertinentes leídos; no lectura íntegra fingida.
 
-- [OIT, estimaciones globales2024 publicadas11junio2025](https://www.ilo.org/resource/other/2024-global-estimates-child-labour-figures): presentación primaria leída:aprox138millones,54millonespeligroso. Es población5–17 y periodo2024, no cifraobservada2026. Antes de redactar cifras revisar informe/metodología y definiciones; evitar mezclar empleo infantil permitido con trabajo infantil.
-- [Informe primario OIT/UNICEF](https://data.unicef.org/wp-content/uploads/2025/08/2024-Global-Estimates-of-Child-Labour-REPORT-EN_20250822.pdf) y [metodología](https://data.unicef.org/wp-content/uploads/2025/10/Methodology-of-the-2024-ILO-UNICEF-Global-Estimates-of-Child-Labour.pdf): localizados; cuerpo/metodología y gráficos por revisar. Algunas FAQ redondean tasas2020 de forma distinta a tabla; conservar edición y variable.
-- [Edmonds y Pavcnik2005, JEP19(1):199–220](https://pubs.aeaweb.org/doi/10.1257/0895330053147895): resumen primario leído, pobreza/instituciones y opcionespolítica. Falta cuerpo, casos y evidencia de efectos de comercio/boicots. No transformar tesis del brief en leycausal universal ni inventar resultado Bangladesh.
+- [OIT y UNICEF, estimaciones mundiales2024: preguntas frecuentes (publicadas2025)](https://www.ilo.org/resource/other/2024-global-estimates-child-labour-frequently-asked-questions): Fuente primaria leída definiciones/método107encuestas60%población5–17,138m7.8%54mpeligroso. No cifraobservada2026 ni todaayudamenor. PDFinforme/metodología403local: no archivo íntegro fingido ni gráfico reproducido. Derivación<200palabras.
+- [Edmonds y Pavcnik (2005), Child Labor in the Global Economy, JEP19(1):199–220](https://pubs.aeaweb.org/doi/10.1257/0895330053147895): OriginalPDF22p archivadoStanford, editorialAEA403local. LecturaPDF13–15imp211–213 comercio/ingresosVietnam y heterogeneidad productores/consumidores; PDF19–20imp217–218 Bangladesh/anécdotas y escasezevidenciaentonces/boicots. No efectorobustodeboicot inventado ni evidenciaactual ausente por estudio2005. Derivación~190palabras.
+- [Copia del artículo original en Stanford](https://cpi.stanford.edu/_media/pdf/Reference%20Media/Edmonds%20and%20Pavcnik_2005_Children.pdf): Mismoartículo primario de22p; fuente compartida con fichaAEA, no límite de derivación duplicado ni lectura de todosestudios citados.
 
-Próximo: leer informe/metodología y artículo; verificar estudios de boicots con alcance; objeción responsabilidad consumidor, propuestas MEE, dos ejemplos hipotéticos, FAQ y enlaces. Crear3originales: menor entraescuela dejandoherramienta sinmaltrato/identidades, cadena conceptual de manos y línea simbólica sinescala que no finja datos. 0/3; no reutilizar maquetas.
+## Límites
+
+- No todo comercio disminuye o aumenta trabajo infantil.
+- No anécdotasBangladesh como causalidadmedida.
+- No todo boicot adverso ni ausenciainvestigación2026porrevisión2005.
+- No precio barato pruebaexplotación deempresa.
+
+Tres originales image_gen con alt/pies, presupuestos cumplidos; texto y SEO revisados, dos ejemplos hipotéticos, argumento contrario, lectura MEE y tres FAQ. Publicación y verificación pública completadas.
+
+## Cierre de publicación
+
+https://moevec.org/blog/trabajo-infantil-cadenas-suministro/ · 1153 palabras del publicador · imágenes 3/3. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales/variantes y agrupación verificados. Una publicación y tres adjuntos por ID. No duplicar. Evidencia en verification.json y los informes de navegación/organización del bloque.

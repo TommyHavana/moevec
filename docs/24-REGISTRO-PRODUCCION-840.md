@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-28T23:11:24+00:00.
+Comprobado en WordPress: 2026-10-29T00:12:19+00:00.
 
-**96/840 terminadas · 0 en curso · 744 pendientes.**
+**105/840 terminadas · 0 en curso · 735 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -108,15 +108,15 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 94 | 7/56 · 4/15 | E5.7.04 | Moral burguesa: las siete virtudes de McCloskey | terminada | 3/3 | [Leer](https://moevec.org/blog/siete-virtudes-burguesas/) |
 | 95 | 7/56 · 5/15 | E5.7.05 | Ética del beneficio: ¿es inmoral ganar dinero? | terminada | 3/3 | [Leer](https://moevec.org/blog/etica-del-beneficio/) |
 | 96 | 7/56 · 6/15 | E5.7.06 | Precios en emergencias: ¿especulación o señal necesaria? | terminada | 3/3 | [Leer](https://moevec.org/blog/precios-en-emergencias/) |
-| 97 | 7/56 · 7/15 | E5.7.07 | Trabajo infantil y cadenas de suministro: el debate honesto | pendiente | 0/3 | — |
-| 98 | 7/56 · 8/15 | E5.7.08 | Ética y tecnología: privacidad, datos y consentimiento | pendiente | 0/3 | — |
-| 99 | 7/56 · 9/15 | E5.7.09 | Usura y crédito: un debate de dos mil años | pendiente | 0/3 | — |
-| 100 | 7/56 · 10/15 | E5.7.10 | Responsabilidad social empresarial: virtud, marketing o deber | pendiente | 0/3 | — |
-| 101 | 7/56 · 11/15 | E5.7.11 | Código ético para pequeños negocios: plantilla | pendiente | 0/3 | — |
-| 102 | 7/56 · 12/15 | E5.7.12 | Corrupción cotidiana: el soborno pequeño también empobrece | pendiente | 0/3 | — |
-| 103 | 7/56 · 13/15 | E5.7.13 | Ética en el mercado informal cubano: «resolver» y sus dilemas | pendiente | 0/3 | — |
-| 104 | 7/56 · 14/15 | E5.7.14 | Publicidad honesta: cómo vender sin manipular | pendiente | 0/3 | — |
-| 105 | 7/56 · 15/15 | E5.7.15 | Dilemas éticos del emprendedor: diez casos para pensar | pendiente | 0/3 | — |
+| 97 | 7/56 · 7/15 | E5.7.07 | Trabajo infantil y cadenas de suministro: el debate honesto | terminada | 3/3 | [Leer](https://moevec.org/blog/trabajo-infantil-cadenas-suministro/) |
+| 98 | 7/56 · 8/15 | E5.7.08 | Ética y tecnología: privacidad, datos y consentimiento | terminada | 3/3 | [Leer](https://moevec.org/blog/etica-tecnologia-privacidad-datos/) |
+| 99 | 7/56 · 9/15 | E5.7.09 | Usura y crédito: un debate de dos mil años | terminada | 3/3 | [Leer](https://moevec.org/blog/usura-y-credito-historia/) |
+| 100 | 7/56 · 10/15 | E5.7.10 | Responsabilidad social empresarial: virtud, marketing o deber | terminada | 3/3 | [Leer](https://moevec.org/blog/responsabilidad-social-empresarial/) |
+| 101 | 7/56 · 11/15 | E5.7.11 | Código ético para pequeños negocios: plantilla | terminada | 3/3 | [Leer](https://moevec.org/blog/codigo-etico-pequenos-negocios/) |
+| 102 | 7/56 · 12/15 | E5.7.12 | Corrupción cotidiana: el soborno pequeño también empobrece | terminada | 3/3 | [Leer](https://moevec.org/blog/corrupcion-cotidiana-soborno-pequeno/) |
+| 103 | 7/56 · 13/15 | E5.7.13 | Ética en el mercado informal cubano: «resolver» y sus dilemas | terminada | 3/3 | [Leer](https://moevec.org/blog/etica-mercado-informal-cuba-resolver/) |
+| 104 | 7/56 · 14/15 | E5.7.14 | Publicidad honesta: cómo vender sin manipular | terminada | 3/3 | [Leer](https://moevec.org/blog/publicidad-honesta/) |
+| 105 | 7/56 · 15/15 | E5.7.15 | Dilemas éticos del emprendedor: diez casos para pensar | terminada | 3/3 | [Leer](https://moevec.org/blog/dilemas-eticos-del-emprendedor/) |
 | 106 | 8/56 · 1/15 | E7.1.01 | Cómo leer una ley antes de opinar | pendiente | 0/3 | — |
 | 107 | 8/56 · 2/15 | E7.1.02 | Ficha de análisis de una medida pública | pendiente | 0/3 | — |
 | 108 | 8/56 · 3/15 | E7.1.03 | Cuánto cuesta abrir un negocio: de Doing Business a B-READY | pendiente | 0/3 | — |

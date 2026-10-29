@@ -1,20 +1,34 @@
 # Estado de MEE y continuidad · 29/10/2026 · Europe/Madrid
 
-## Estado actual: 96/840 publicadas y verificadas
+## Estado actual: 105/840 publicadas y verificadas
 
-WordPress confirma **96 terminadas,288 imágenes originales públicas,0 borradores y744 pendientes**. Ética en el Intercambio6/15, tanda7/56; seis tandas anteriores completas. Fuente activa:/Users/nerea/Documents/Proyectos/MEE/mee-web.
+WordPress confirma **105 terminadas, 315 imágenes originales públicas, 0 borradores y 735 pendientes**. Ética en el Intercambio está completa,15/15, y quedan cerradas siete tandas. Fuente activa: /Users/nerea/Documents/Proyectos/MEE/mee-web.
 
-Esta ejecución completó dos bloques consecutivos:**91–93/E5.7.01–03 y94–96/E5.7.04–06**. Textos, fuentes/revisión,prompts y dieciochoWebP propios guardados porID. Informes docs/produccion/2026-10-28-{bloque,respaldo}-091-093.md y2026-10-29-{bloque,respaldo}-094-096.md. Una publicación y tres adjuntos porID; categorías capitalismo-consciente/etica-en-el-intercambio y etiquetas tema/nivel exactas. Blog es contenedor; Editorial es firma. Taxonomía comprobada:122nodos y7raíces,sin Editorial/Uncategorized.
+## Trabajo realizado y evidencia
 
-Verificación pública de cada entrada:HTTP200,H1,canonical,indexabilidad,Article,índice,sitemap,jerarquía visible yBreadcrumbList,cinco enlaces internos; tresWebP con alt,dimensiones,variantes yhashes coincidentes. RegistroMD/CSV/JSON sincronizado tras cada publicación. Evidencia porID y en inventario/auditoria-2026-10-28/editorial-91-93/94-96-{organization,navigation}.json yeditorial-91-96-taxonomy.json. No hubo despliegue React ni cambios de tema,taxonomía,DNS,correo oautenticación.
+Esta ejecución completó tres bloques consecutivos: **97–99/E5.7.07–09,100–102/E5.7.10–12 y103–105/E5.7.13–15**. Textos, fuentes/revisión, prompts y27 WebP originales guardados por ID. Informes en docs/produccion/2026-10-29-{bloque,respaldo}-097-099.md,100-102.md y103-105.md.
 
-Preparación local siguiente:**97–99/E5.7.07–09**, en la misma subcategoría, nivelDesarrollo:trabajo infantil/cadenas de suministro; privacidad/datos/consentimiento; usura/crédito. Briefs y fuentes iniciales guardados,0/3imágenes cada una, texto yrevisiónpendientes. Estas tres están incluidas en744pendientes;741sin iniciar. No contarlas como terminadas ni como borradores WordPress.
+Una publicación y tres adjuntos por ID. Categorías capitalismo-consciente/etica-en-el-intercambio y etiquetas tema/nivel exactas; país-cuba adicional en103. Blog es contenedor y Editorial es firma. Taxonomía comprobada en esta ejecución:122 nodos y7 raíces, sin Editorial/Uncategorized. No se cambió la taxonomía.
 
-Siguiente paso:leer research-notes.md porID.97:OIT/UNICEF2024(publicadas2025),metodología yEdmonds/Pavcnik2005; comprobar efectos de boicots,sin tesiscausal universal.98:RGPD vigente,EDPB08/2024/corrigendum y novedades,fuente primariaZuboff/paradojaprivacidad; consentimiento es una base entreotras,opinión noley.99:Bentham primera1787/texto1818 yGrice-Hutchinson compartida,Aristótelesprimario; no consejoscrediticios ni normas sin jurisdicción. Completar investigación,crear tres originales porentrada,redactar/revisar,publicar/verificar en orden. No duplicar artículos/medios.
+Verificación pública por entrada: HTTP200,H1,canonical,indexabilidad,Article,índice,sitemap,jerarquía visible/BreadcrumbList y cinco enlaces internos. Tres WebP con alt,dimensiones,variantes y hashes coincidentes. RegistroMD/CSV/JSON sincronizado tras cada publicación. Evidencia en verification.json por ID e inventario/auditoria-2026-10-28/editorial-97-99,100-102,103-105-{organization,navigation}.json yeditorial-97-105-taxonomy.json. Sin despliegue React ni cambios de tema,DNS,correo oautenticación.
 
-Respaldos VPS:91–93 SQL6.144.767bytes/66medios/archivo4.413.340bytes;94–96 SQL6.245.766bytes/66medios/archivo4.422.562bytes. Hashes y miembros comprobados,sin nueva restauracióncompleta. Copia local y fuente privada guardadas al cierre; referencias en production-state.json y los informes de respaldo.
+## Continuación exacta
 
-La auditoría integral fue encargada expresamente el28/10/2026 y está en22. Esta ejecución fue producción editorial ya autorizada. Sin cambios de requisitos/arquitectura,nuevas decisiones del fundador o propuestas poraprobar. No se comunicó agotamiento de imágenes. Los accesos fallidos a ciertos PDFs se documentaron y se utilizaron fuentes primarias accesibles con alcance explícito. La automatización de este chat sigue activa hasta840.
+**106–108/E7.1.01–03**, tanda8/56: Política y Economía → Regulación y Emprendimiento. Títulos: Cómo leer una ley antes de opinar; Ficha de análisis de una medida pública; Cuánto cuesta abrir un negocio: de Doing Business a B-READY. Briefs, etiquetas y fuentes iniciales guardados.0/3 imágenes cada una; texto/revisión pendientes. Estas tres están incluidas en735 pendientes;732 sin iniciar. No contarlas como terminadas ni como borradores WordPress.
+
+Leer research-notes.md por ID.106:BOE consolidación informativa y versiones; verificar DOF/México,gacetas Cuba/Venezuela y DiarioOficial/Colombia.107:comunicado28/2021 del tribunal alemán y resolución25/03/2021/anuncio15/04/2021; nulidad por competencias, no prueba causal económica; completar F-039/F-209 y Bastiat.108:BancoMundial discontinuó DoingBusiness16/09/2021; metodologíaB-READY describe2025 y enlaza manual2026, lo cual no demuestra resultados2026. Consultar edición más reciente, manual, Djankov2002 y comparabilidad antes de usar cifras. Completar investigación,crear originales,redactar/revisar,publicar/verificar en orden. Siguiente bloque109–111.
+
+## Copias y límites
+
+Respaldos VPS verificados por SQL consistente, hashes y miembros:97–99 SQL6.349.947bytes/66medios/archivo4.387.454bytes;100–102 SQL6.448.445bytes/66medios/archivo4.150.208bytes;103–105 SQL6.545.630bytes/66medios/archivo3.883.309bytes. Cadena completa en RESTORE-NOTES.txt; base27 de20261028 y superposiciones hasta105. Sin nueva prueba de arranque de restauración completa. Copia local de cierre y fuente privada: referencias en production-state.json e informes de respaldo.
+
+Sin agotamiento de imágenes comunicado. Algunos PDF/sitios rechazaron acceso directo; se conservaron los errores y se usaron pasajes primarios accesibles con alcance explícito. No se afirma lectura íntegra de libros a partir de resúmenes o fragmentos. No hay bloqueo que requiera al fundador.
+
+## Decisiones y traspaso
+
+Producción continua ya autorizada y automatización de este chat activa hasta840. Sin nuevos requisitos, cambios de arquitectura o propuestas pendientes de aprobación. La auditoría integral fue encargada expresamente el28/10/2026 y está en22; esta ejecución fue producción editorial.
+
+Para continuar: abrir la carpeta activa, leer AGENTS.md,docs/26-PRODUCCION-CONTINUA.md,este estado,16,registro24 y production-state.json; consultar WordPress y retomar106–108 con sus expedientes. No recrear artículos ni medios. Los informes de esta ejecución distinguen el estado actual de verificaciones históricas.
 
 ## Historial anterior — no describe el estado actual
 

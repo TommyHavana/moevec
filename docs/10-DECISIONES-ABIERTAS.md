@@ -171,3 +171,9 @@ Dos bloques consecutivos terminados sin solicitar confirmación:90/840 y270 imá
 96/840 completas y288imágenes públicas. Dos bloques consecutivosenÉticapublicados/revisados; categorías/tags del manifiesto y taxonomía122/7 comprobadas,sinEditorial. Registro actualizado después de cada publicación. No se cambió infraestructura ni arquitectura.
 
 97–99 iniciadas localmente con briefs y fuentesiniciales;0/3imágenescadauna,texto/revisiónpendientes.No cuentan como terminadas. Respaldos proporcionales91–93/94–96 verificados por hashes y miembros,sin nueva restauracióncompleta. Autorización continua vigente y automatización activa; sin nuevas aprobaciones ni agotamiento de herramientas comunicado.
+
+## Producción97–105 y continuación106–108 · 29/10/2026
+
+105/840 completas y315imágenes públicas. Tres bloques consecutivos publicados y verificados, cada entrada en su categoría/subcategoría y con etiquetas del plan. Ética en el Intercambio15/15; siete tandas completas. Taxonomía122nodos/7raíces comprobada,sinEditorial. Registro sincronizado después de cada publicación.
+
+106–108 iniciadas localmente con briefs y fuentes iniciales;0/3imágenes cada una,texto/revisión pendientes. No cuentan como terminadas. Respaldos proporcionales97–99,100–102 y103–105 verificados por hashes y miembros,sin nueva restauración completa. Autorización continua y automatización vigentes. Sin cambios de arquitectura, nuevas aprobaciones o agotamiento de herramientas comunicado.
