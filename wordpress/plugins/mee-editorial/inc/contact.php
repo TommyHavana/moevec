@@ -52,7 +52,7 @@ function mee_contact_submit(WP_REST_Request $request) {
     if(!empty($p['website'])) return new WP_REST_Response(['ok'=>true,'message'=>'Mensaje recibido.'],200,['Cache-Control'=>'no-store']);
     $name=trim(sanitize_text_field($p['name']??''));$email=trim((string)($p['email']??''));$message=trim(sanitize_textarea_field($p['message']??''));$subject=sanitize_text_field($p['subject']??'Consulta general');
     if(mb_strlen($name)<2 || mb_strlen($name)>100 || !is_email($email) || strlen($email)>254 || preg_match('/[\r\n]/',$email) || mb_strlen($message)<30 || mb_strlen($message)>6000 || empty($p['privacy'])) return mee_contact_error('validation','Revisa el nombre, el correo, el mensaje y la información de privacidad.');
-    $allowed=['Participar en MEE','Proponer una colaboración','Consulta editorial','Otra consulta',''];
+    $allowed=['Donar a MEE','Publicidad en MEE','Participar en MEE','Proponer una colaboración','Consulta editorial','Otra consulta',''];
     if(!in_array($subject,$allowed,true))$subject='Consulta general';
     $keys=['mee_contact_ip_'.mee_client_hash()=>3,'mee_contact_email_'.hash_hmac('sha256',strtolower($email),wp_salt('auth'))=>2,'mee_contact_global'=>30];
     foreach($keys as $key=>$limit){if((int)get_transient($key)>=$limit)return mee_contact_error('rate','Has alcanzado el límite temporal de envíos. Espera 15 minutos o escribe a contacto@moevec.org.',429);}
