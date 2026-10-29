@@ -20,6 +20,10 @@ Pendientes externos: identidad jurídica y expediente legal del responsable; des
 
 Comandos: `npm run content:sync`, `npm run assets:build` (desde la fuente local con maestros), `npm run build`, `npm run backup`. Antes de continuar, leer AGENTS, estado 15, backlog 16 e informe 22. La petición nueva fija el alcance.
 
+## Apoyo económico · actualización del 29/10/2026
+
+El fundador encargó una página para donaciones y publicidad de empresas afines. Está publicada en `https://moevec.org/apoya/`, enlazada solo desde los footers de React y WordPress. El contacto selecciona donación o publicidad a través de `?tema=donacion` o `?tema=publicidad`. El medio de donación está pendiente; por ahora se acuerda la aportación por correo, sin cobro automático. Fuente de producto privada: commit `1d84a45`, con actualización de archivos en contenedores activos y sin reconstrucción de imágenes Docker. Verificación y límites en el estado 15 y `inventario/apoyo-2026-10-29/`. No cambia la producción editorial ni activa la tienda.
+
 ## Presentación editorial completa de categorías y subcategorías
 
 El texto siguiente conserva el documento editorial de trabajo. Sus nombres canónicos proceden de la fuente del proyecto; sus descripciones son propuestas, no una aprobación final del fundador.

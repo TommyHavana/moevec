@@ -6,6 +6,22 @@
 
 Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
+## Página de apoyo, donaciones y publicidad · 29/10/2026
+
+Petición del fundador: crear una página fuera del menú principal y enlazada desde el footer para donaciones y publicidad de empresas afines al Movimiento de Evolución Económica.
+
+**Publicada en https://moevec.org/apoya/**. Página React con presentación, dos vías de apoyo, explicación del trabajo que se puede sostener y propuesta de publicidad por contacto. Enlace «Apoya a MEE» en los footers de React y WordPress; navegación principal conservada. Los botones llevan a `/contacto/?tema=donacion` y `/contacto/?tema=publicidad`; el formulario selecciona el tema y adapta su título, instrucciones y acción. El endpoint WordPress admite ambos asuntos.
+
+Límite de producto: no hay medio de pago facilitado. Se preguntó por la preferencia y se mantuvo la vía de contacto anunciada mientras se concreta. Las donaciones se acuerdan por correo; no se procesa ningún cobro. Publicidad sujeta a propuesta y acuerdo de formato, ubicación, duración y precio; sin tarifas, audiencias o anunciantes inventados. La redacción propone publicidad identificada e independencia editorial, pendiente de revisión habitual del fundador.
+
+Archivos de producto: `app/apoya/page.tsx`, `app/apoya/support.module.css`, `app/contacto/ContactForm.tsx`, `app/layout.tsx`, `app/sitemap.ts`, `public/brand/mee-estrella-roja.svg`, `wordpress/themes/mee-child/footer.php` y `wordpress/plugins/mee-editorial/inc/contact.php`. Guías aplicadas: frontend-design, copywriting y vercel-react-best-practices. Se conservó el Next existente; no se creó un Site nuevo.
+
+Verificación: `npm run build` con sincronización y TypeScript correctos; PHP lint de los dos archivos modificado correcto en el contenedor. Revisión visual a 1280 y 390 px, sin desbordamiento horizontal; imagen de marca disponible; asuntos preseleccionados y validación de campos comprobados sin enviar correos de prueba. HTTP 200 público en apoyo, portada, ambos accesos a contacto y blog; enlace solo en footer; H1 y canonical correctos; sitemap incluye apoyo; endpoint de token de contacto operativo. No se realizó una nueva auditoría integral ni una transacción de prueba. Evidencia: `inventario/apoyo-2026-10-29/`.
+
+Publicación: fuente privada sincronizada y subida, commit de producto `1d84a45`. Actualización de la exportación estática en el contenedor Nginx activo y de los dos archivos WordPress, tanto en la ruta operativa como en `/opt/mee/`. No se reconstruyeron imágenes Docker ni se reiniciaron servicios; un siguiente build del repositorio incluye los cambios. Respaldo previo local completo: `../mee-backups/MEE_Codex_2026-10-29_183813.zip` (7657 archivos, integridad comprobada). Copia previa de React y de los archivos WordPress en `/data/mee-backups/apoyo-20261029T184226/`, gzip comprobado. No se ha probado una restauración arrancada de esta copia.
+
+Siguiente paso de esta petición: concretar el medio de donación y sus datos oficiales para activar pago directo. La producción editorial mantiene su continuidad independiente; esta tarea no modifica sus conteos, artículos, imágenes ni taxonomía.
+
 ## Trabajo de esta ejecución
 
 Desde 237: entradas 238–243, 18 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.

@@ -489,3 +489,7 @@ Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobad
 Siguiente **244–246 / E7.4.04–E7.4.06**, Política y Economía → Inversión y Capital. Preparaciones incluidas en las 597 pendientes. E7.4.04: 3/3 imágenes locales; sin texto final, sin publicación; E7.4.05: 3/3 imágenes locales; sin texto final, sin publicación; E7.4.06: 3/3 imágenes locales; sin texto final, sin publicación. Después 247–249. Automatización activa, sin agotamiento comunicado.
 
 Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Decisión del fundador · apoyo económico, 29/10/2026
+
+Encarga una página para donaciones y publicidad de empresas que compartan los valores del movimiento, fuera del menú principal y en el footer. Se publica `/apoya/` y se enlaza en React y WordPress. Se reutiliza el contacto existente para tramitar propuestas; no se contratan espacios automáticamente. El medio y los datos de donación siguen pendientes: no se inventan cuenta, Bizum, PayPal, tarifas, beneficios fiscales ni importes. La página indica expresamente que por ahora las aportaciones se acuerdan por correo. Se plantea identificar la publicidad y preservar el criterio editorial de MEE como texto público revisable. Esta tarea no activa WooCommerce ni la tienda de arte.
