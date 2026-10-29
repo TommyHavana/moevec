@@ -213,3 +213,13 @@ Se conservaron las distinciones entre indicadores de inflación; retención y cu
 Decisiones: grupos y anuncios distintos de parque total; Japón trece zonas y Houston con normas; LEC cinco días de requerimiento no duración total; CP 245.2 con delitos leves. Normas cubanas de 2011 históricas y rangos diferenciados. México: dominio directo distinto de derechos de fideicomiso, sin promesas de canal o plazo ante aviso SRE ambiguo. Renovables: fallo STC distinto del voto particular; primer Eiser anulado, nuevo laudo de 2025 y segunda anulación pendiente en 2026; registro UKSC no equivale a cobro. Alcances y fuentes en expedientes y estado 15.
 
 148–150 preparados con briefs y preguntas, 0/3 imágenes cada una, sin texto final ni publicación. Autorización y automatización vigentes; sin nuevas aprobaciones ni cambios de arquitectura. Sin agotamiento de herramientas comunicado.
+
+## Producción148–153 y corrección del punto de continuación ·29/10/2026
+
+153/840completas,459imágenes públicas,0en curso/borradores WordPress,687pendientes. Dos bloques,seis artículos18originales;122nodos/siete raíces,sin Editorial,taxonomía intacta. Respaldos proporcionales,hashes y miembros verificados,sin nueva prueba de arranque completa.
+
+La nota anterior confundía151–153 con Inversión y Capital. El manifiesto y el orden original sitúan E1.5.01–03 en151–153; se corrigió antes de generar esas imágenes o publicar. Inversión y Capital empieza241. No se modificó el plan.
+
+Decisiones de precisión: corralito/pesificación/AFJP separados; cartera FGS solo extracto primario con periodo. CIADI nuevos/acumulados/administrados y consentimiento distintos; CETA como ejemplo de texto,sin vigencia arbitral presupuesta. Registro/seguro sin garantía universal. Locke con condiciones; Hardin página original escaneada leída visualmente; comunes distintos de acceso abierto. De Soto simulación industrial,no registro de casa; estudios titulación con resultados distintos de crédito. Pesca: cuotas reguladas,no propiedad del mar; estudios históricos sin estado2026 extrapolado. Alcances por ID.
+
+154–156/E1.5.04–06: briefs,etiquetas,preguntas,0/3imágenes cada una,sin texto final ni publicación. Automatización/autorización activas,sin nuevas aprobaciones ni arquitectura modificada. Ningún agotamiento de herramientas comunicado.

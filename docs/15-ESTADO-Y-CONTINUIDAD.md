@@ -1,46 +1,48 @@
-# Estado de MEE y continuidad · 29/10/2026 · Europe/Madrid
+# Estado de MEE y continuidad ·29/10/2026 ·Europe/Madrid
 
-## Estado actual: 147/840 publicadas y verificadas
+## Estado actual:153/840 publicadas y verificadas
 
-WordPress confirma **147 terminadas, 441 imágenes originales públicas, 0 en curso/borradores y 693 pendientes**. Nueve tandas completas. Impuestos y Redistribución 15/15; Propiedad Privada y Expropiación 12/15, tanda 10/56.
+WordPress confirma **153 terminadas, 459 imágenes originales públicas, 0 en curso/borradores y 687 pendientes**. Diez tandas completas. Propiedad Privada y Expropiación15/15; Propiedad Privada3/15, tanda11/56.
 
 Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Dos bloques consecutivos: **142–144 / E7.3.07–09 y 145–147 / E7.3.10–12**. Seis artículos y 18 WebP originales. Expedientes con texto, fuentes, alcance de lectura, revisión, prompts, imágenes y evidencias por ID en editorial/articles/. Informes y respaldos fechados en docs/produccion/.
+Dos bloques consecutivos: **148–150/E7.3.13–15 y 151–153/E1.5.01–03**. Seis artículos y 18 WebP originales. Expedientes por ID con texto, fuentes, alcance de lectura, revisión, prompts, imágenes y evidencias. Informes y respaldos en docs/produccion/.
 
-Una publicación y tres adjuntos por ID, categorías y etiquetas exactas. Jerarquía visible y BreadcrumbList: Blog → Política y Economía → Propiedad Privada y Expropiación. Blog es contenedor y Editorial es firma. Auditoría actual: 122 nodos y siete raíces, sin Editorial ni Uncategorized. La taxonomía permanece intacta.
+Una publicación y tres adjuntos por ID; categorías y etiquetas exactas. Jerarquía/BreadcrumbList: Blog → Política y Economía → Propiedad Privada y Expropiación para 148–150; Blog → Educación y Valores → Propiedad Privada para 151–153. Editorial es firma, no categoría. 122 nodos, siete raíces, sin Editorial ni Uncategorized; taxonomía intacta.
 
-HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces internos, originales/variantes con dimensiones, alt y hashes comprobados. Registro MD/CSV/JSON desde WordPress tras cada publicación. No prueba indexación efectiva ni posición en buscadores.
+HTTP 200, H 1, canonical, indexabilidad, Article, índice, sitemap, enlaces internos, originales y variantes con dimensiones, alt y hashes comprobados. Registro MD/CSV/JSON desde WordPress tras cada publicación. No prueba indexación efectiva ni posicionamiento.
 
 ## Decisiones de revisión
 
-- 142: San Francisco, 15 % de oferta del grupo tratado, no de toda la ciudad; beneficios de permanencia incluidos. Berlín, anuncios y corto plazo; nulidad por competencia, no prueba económica. España: Ley 12/2023, LAU y RDL 29/2026 con fechas; no convalidación no acreditada. 143: Japón tiene trece categorías según MLIT; el folleto histórico de 2014 enumera doce y no se usa como dato actual. Houston mantiene normas sin zonificación formal. Glaeser/Gyourko estudian Estados Unidos; Koizumi, Shimizu y Okata mediante resumen identificado, sin fingir artículo completo. Sin clasificación mundial ni cifras comparativas no verificadas. 144: CP 202/245, LEC 250/441 y Circular 1/2025; 245.2 conserva delitos leves. Cinco días de requerimiento no son duración total. RDL 29/2026 con condiciones; datos de Murcia identificados como regionales y de Interior de 2023 como respuesta histórica. Sin totales nacionales actuales no verificados.
+- 148: acceso al efectivo 2001, conversión de depósitos 2002 y reforma previsional 2008 diferenciados. Ley 26. 425 reconoce servicios/prestaciones y preserva tratamiento particular de rentas vitalicias; garantía normativa no prueba de cumplimiento universal. FGS: solo extracto primario indexado de cartera a diciembre 2025; PDF 403 y alcance identificados. 149: Convenio/consentimiento/tratado separados. Estadísticas CIADI 2026-2 con corte30/06/2026: nuevos, acumulados y administrados no son el mismo universo; gráfico 11 inspeccionado, máximos del ejercicio no ranking histórico. Bolivia/Ecuador/Venezuela: fechas de denuncia y efectos; Ecuador retornó 2021. CETA anexo 8 A es ejemplo de redacción, sin disponibilidad arbitral automática. 150: nota simple/certificación españolas y CTL colombiano diferenciados; seguro dentro de cobertura, sin inmunidad frente a expropiación ni plazo universal de recurso.
 
-- 145: originales de Gaceta 31 y 35 de 2011, en reproducciones de documentos primarios con alojamiento identificado. DL 288 y Decreto 292, rangos distintos; vivienda personal, permutas y excepciones diferenciadas. No reglas históricas como vigentes en 2026 ni cifras informales inventadas. 146: Constitución mexicana art. 27, franjas de 100 km de frontera y 50 km de playas; LIE 10–14, dominio directo distinto de uso y aprovechamiento vía fideicomiso; máximo de 50 años prorrogable a solicitud. Aviso SRE mezclado con instrucciones electrónicas: no canal ni plazo operativo prometido. Canadá con excepciones, no franja equivalente. 147: STC 270/2015 no declaró retroactividad constitucional prohibida; voto particular separado. Antin: laudo de 2018, anulación rechazada en 2021 y decisión europea de ayudas en 2025. Eiser: laudo de 2017 anulado, nuevo laudo de 16/10/2025 y segunda anulación registrada en febrero de 2026, pendiente con última actuación 16/10/2026. UKSC 9 de 04/03/2026 sobre registro e inmunidad jurisdiccional, sin probar cobro ni eliminar inmunidad de ejecución. No agregado de condenas o intereses inventado.
+- 151: Locke en modernización inglesa con condiciones de apropiación; Hardin original escaneado en reproducción universitaria, página 1244 leída visualmente. Ostrom: gestión comunal distinta de acceso abierto; Proudhon y Marx/Engels presentados con sus distinciones. Prosperidad no garantizada por cualquier distribución o título. 152: De Soto y simulación industrial de1983/Ate/289días/11requisitos, no inscripción de casa ni plazo vigente. Field 2007 solo resumen primario; Galiani/Schargrodsky2010: inversión/educación y crédito hipotecario modesto, no expansión general del crédito. 153: cuotas de extracción no propiedad del océano ni capturas ilimitadas. MPI: extracto primario indexado por 403 y HTML sin cuerpo útil. Islandia fuente administrativa. Costello 2008: resumen primario, 11135 pesquerías 1950–2003; sin estado mundial 2026 ni éxito universal. Ostrom y externalidades diferenciados.
 
-Alcance y problemas de acceso documentados por ID. Un PDF descargado no implica lectura íntegra. Los resúmenes o pasajes consultados se identifican; no hay afirmaciones apoyadas en documentos vacíos. Dos ejemplos hipotéticos, argumento contrario, lectura de MEE, tres FAQ y cinco enlaces internos existentes por artículo.
+## Corrección del orden
+
+La nota de cierre anterior situaba por error Inversión y Capital en 151–153. Se corrigió al cotejar el manifiesto antes de producir esas imágenes o publicaciones. **151–165 son Propiedad Privada/E1.5.01–15; Inversión y Capital es 241–255**. No se alteró el plan ni la taxonomía. Los artículos se producen en el orden global original.
 
 ## Continuación exacta
 
-**148–150 / E7.3.13–15**: corralito y AFJP; expropiación indirecta y arbitraje; cómo proteger la propiedad. Briefs, etiquetas y preguntas preparados. **0/3 imágenes cada una, sin texto final ni publicación**. Son tres preparaciones incluidas en las 693 pendientes; 690 sin iniciar. Después, 151–153 / E7.4.01–03, Inversión y Capital.
+**154–156/E1.5.04–06**: propiedad intelectual, autopropiedad, propiedad y crédito. Briefs, etiquetas, preguntas guardados. **0/3 imágenes cada una, sin texto final ni publicación**; tres preparaciones incluidas en 687 pendientes, 684 sin iniciar. Después 157–159/E1.5.07–09.
 
-148: separar corralito de 2001, pesificación de 2002 y AFJP de 2008; normas originales, BCRA y ANSES/FGS, sin pérdidas universales inventadas. 149: última estadística CIADI con universo, consentimiento y estándares diferenciados; verificar retiros y retornos, no lista histórica como estado actual. 150: registros y documentos por jurisdicción, seguros con exclusiones y expropiación sin plazos universales.
+154: Kinsella/Boldrin-Levine/OMPI con pasajes primarios; separar tesis normativa de evidencia sobre innovación. 155: Locke/Nozick/Cohen y OIT; filosofía distinta de estatus jurídico absoluto del cuerpo; casos de restricciones con fecha y ámbito. 156: última edición Findex y B-READY con indicador/país/año; registro distinto de crédito, capacidad de pago y conveniencia de comprometer vivienda.
 
 ## Copias y límites
 
-Dos respaldos VPS consistentes hasta 144 y 147, cada uno con SQL completo y 66 archivos nuevos. Hashes y miembros verificados. Restaurar base de 27 entradas del 20261028 y todas las superposiciones hasta 147; importar el SQL más reciente al final. Sin nueva prueba de arranque de restauración completa. Copia local y fuente privada en production-state.json e informes de respaldo.
+Respaldos VPS hasta 150 y 153: cada uno con SQL completo y 66 medios nuevos, hashes y miembros comprobados. Restaurar base 27 entradas 20261028 y toda la cadena de superposiciones; importar el SQL más reciente al final. Sin nueva prueba de arranque de restauración completa. Copia local y fuente privada en production-state. json e informes de respaldo.
 
-Original Civismo 2026 mayor de 100 MiB conservado aparte en mee-backups/research-originals. Ubicación y SHA en E7.2.04/sources/original-source-location.json; páginas pertinentes y texto en expediente. Conservar ese original junto a las copias de código.
+Original Civismo 2026 mayor de 100 MiB conservado aparte en mee-backups/research-originals; ubicación y SHA en E7.2.04/sources/original-source-location.json. No reincorporar a Git.
 
-No se ha comunicado agotamiento de imágenes ni bloqueo que requiera intervención. La automatización permanece activa para retomar el punto guardado; el plan de 840 continúa en producción.
+No se ha comunicado agotamiento de imágenes ni bloqueo que requiera intervención. Automatización activa para retomar el punto guardado; el plan de 840 sigue en producción.
 
 ## Autorización y traspaso
 
-PETICIÓN ACTIVA: producción continua hasta 840, sin confirmación entre bloques. TERMINADO: 142–147 y 18 imágenes, verificación pública, registros y respaldos. PENDIENTE: 693 entradas desde 148. DECISIONES NUEVAS: precisión y límites de fuentes anteriores, sin cambios de requisitos o arquitectura. PROPUESTAS SIN APROBAR: ninguna nueva. BLOQUEO REAL: ninguno que requiera al fundador. AUDITORÍA: integral encargada el 28/10/2026 y documentada en 22; esta ejecución es editorial.
+PETICIÓN ACTIVA: producción continua hasta 840, sin confirmaciones entre bloques. TERMINADO: 148–153, 18 imágenes, verificación, registros, respaldos. PENDIENTE: 687 entradas desde 154. DECISIONES NUEVAS: corrección del punto de continuación y límites de fuentes, sin cambio de arquitectura. PROPUESTAS SIN APROBAR: ninguna nueva. BLOQUEO REAL: ninguno que requiera al fundador. AUDITORÍA: integral encargada28/10/2026, documentada en 22; esta ejecución editorial.
 
-SIGUIENTE PASO: consultar WordPress y reanudar 148–150 sin duplicar artículos ni medios. ARCHIVOS: AGENTS.md, docs/26-PRODUCCION-CONTINUA.md, estado 15, backlog 16, registro 24, editorial/production-state.json, plan original y briefs. La fuente privada guarda expedientes y registros sin secretos. No hace falta otro chat ni automatización.
+SIGUIENTE PASO: consultar WordPress y reanudar 154–156 sin duplicar artículos ni medios. ARCHIVOS: AGENTS. md, docs/26-PRODUCCION-CONTINUA.md, estado 15, backlog 16, registro 24, editorial/production-state.json, manifiesto y briefs originales. Fuente privada sin secretos. No hace falta otro chat ni automatización.
 
 Sin cambios de DNS, correo, autenticación, tema o taxonomía, ni despliegue React por contenido.
 

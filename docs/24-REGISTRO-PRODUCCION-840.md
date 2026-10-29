@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-29T05:13:39+00:00.
+Comprobado en WordPress: 2026-10-29T05:49:04+00:00.
 
-**147/840 terminadas · 0 en curso · 693 pendientes.**
+**153/840 terminadas · 0 en curso · 687 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -159,12 +159,12 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 145 | 10/56 · 10/15 | E7.3.10 | Cuba: cuando vender tu casa o tu coche estaba prohibido | terminada | 3/3 | [Leer](https://moevec.org/blog/cuba-prohibicion-compraventa/) |
 | 146 | 10/56 · 11/15 | E7.3.11 | México: la zona restringida para extranjeros | terminada | 3/3 | [Leer](https://moevec.org/blog/mexico-zona-restringida/) |
 | 147 | 10/56 · 12/15 | E7.3.12 | España y las renovables: cuando la ley cambió con efectos hacia atrás | terminada | 3/3 | [Leer](https://moevec.org/blog/espana-renovables-retroactividad/) |
-| 148 | 10/56 · 13/15 | E7.3.13 | Corralito y estatización de las AFJP: el ahorro que cambió de dueño | pendiente | 0/3 | — |
-| 149 | 10/56 · 14/15 | E7.3.14 | Expropiación indirecta y arbitraje internacional: qué protege a un inversor | pendiente | 0/3 | — |
-| 150 | 10/56 · 15/15 | E7.3.15 | Cómo proteger tu propiedad: títulos, registro y seguros | pendiente | 0/3 | — |
-| 151 | 11/56 · 1/15 | E1.5.01 | Qué es la propiedad privada y por qué es la base de la prosperidad | pendiente | 0/3 | — |
-| 152 | 11/56 · 2/15 | E1.5.02 | Capital muerto: por qué millones de pobres tienen activos que no pueden usar | pendiente | 0/3 | — |
-| 153 | 11/56 · 3/15 | E1.5.03 | Propiedad y medio ambiente: quién cuida lo que no es de nadie | pendiente | 0/3 | — |
+| 148 | 10/56 · 13/15 | E7.3.13 | Corralito y estatización de las AFJP: el ahorro que cambió de dueño | terminada | 3/3 | [Leer](https://moevec.org/blog/corralito-afjp-argentina/) |
+| 149 | 10/56 · 14/15 | E7.3.14 | Expropiación indirecta y arbitraje internacional: qué protege a un inversor | terminada | 3/3 | [Leer](https://moevec.org/blog/expropiacion-indirecta-arbitraje/) |
+| 150 | 10/56 · 15/15 | E7.3.15 | Cómo proteger tu propiedad: títulos, registro y seguros | terminada | 3/3 | [Leer](https://moevec.org/blog/proteger-tu-propiedad/) |
+| 151 | 11/56 · 1/15 | E1.5.01 | Qué es la propiedad privada y por qué es la base de la prosperidad | terminada | 3/3 | [Leer](https://moevec.org/blog/que-es-la-propiedad-privada/) |
+| 152 | 11/56 · 2/15 | E1.5.02 | Capital muerto: por qué millones de pobres tienen activos que no pueden usar | terminada | 3/3 | [Leer](https://moevec.org/blog/capital-muerto-de-soto/) |
+| 153 | 11/56 · 3/15 | E1.5.03 | Propiedad y medio ambiente: quién cuida lo que no es de nadie | terminada | 3/3 | [Leer](https://moevec.org/blog/propiedad-y-medio-ambiente/) |
 | 154 | 11/56 · 4/15 | E1.5.04 | Propiedad intelectual: el debate dentro del liberalismo | pendiente | 0/3 | — |
 | 155 | 11/56 · 5/15 | E1.5.05 | Tu cuerpo, tu trabajo, tu tiempo: la propiedad de uno mismo | pendiente | 0/3 | — |
 | 156 | 11/56 · 6/15 | E1.5.06 | Propiedad y crédito: cómo una casa puede convertirse en un negocio | pendiente | 0/3 | — |

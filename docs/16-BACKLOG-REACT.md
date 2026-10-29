@@ -1,6 +1,6 @@
 # Backlog de MEE
 
-Último estado: **147/840 publicadas y verificadas, 441 imágenes públicas, 0 en curso/borradores WordPress y 693 pendientes**. Completados 142–144 y 145–147; seis artículos y 18 originales. Nueve tandas completas. Propiedad Privada y Expropiación 12/15, tanda 10/56; Impuestos y Redistribución 15/15. Categorías y etiquetas exactas, 122 nodos y siete raíces, sin Editorial. 148–150 / E7.3.13–15: briefs y preguntas, 0/3 imágenes cada una, sin texto final ni publicación; incluidas en las 693 pendientes, 690 sin iniciar. Después 151–153 / E7.4.01–03. Respaldos VPS hasta 144 y 147 verificados; copia local y fuente privada en estado. Automatización activa; no despliegue React por contenido.
+Último estado: **153/840 publicadas y verificadas, 459 imágenes públicas, 0 en curso/borradores WordPress y 687 pendientes**. Completados 148–150 y 151–153, seis artículos 18 originales. Diez tandas completas; Propiedad Privada y Expropiación15/15; Propiedad Privada3/15, tanda11/56.122 nodos y siete raíces, sin categoríaEditorial. Corregida nota anterior: 151–153 son E1.5.01–03; Inversión y Capital comienza 241. Siguiente 154–156/E1.5.04–06: briefs, preguntas, 0/3 imágenes cada uno, sin texto final ni publicación; incluidos en 687 pendientes, 684 sin iniciar. Después 157–159/E1.5.07–09. Respaldos VPS150/153 verificados, copia local y fuente privada en estado. Automatización activa; no despliegue React por contenido.
 
 
 Historial anterior: producción comprobada tras el bloque 4–6: 6/840 terminadas. En elaboración local: 7–9 con nueve imágenes propias; todavía no cuentan como publicadas. Consultar siempre WordPress y el registro 24 para el estado más reciente.
@@ -17,7 +17,7 @@ Actualizado el 28/10/2026 tras el encargo integral de UI/UX, WPO, SEO/GEO, blog 
 | MEE-06 | 56 temas principales | Imagen propia, efecto por familia conceptual, alternativa textual y vínculo al archivo editorial de su tema |
 | MEE-07 | 59 nodos internos políticos | Imágenes individuales, acordeones y anclas; maquetas retiradas y navegación al archivo del tema |
 | MEE-08 | Responsive y accesibilidad | Revisión escritorio/móvil de 390 px, foco de formulario, pausa compartida, reducción de movimiento y lectura sin JS; Lighthouse 100 en las plantillas medidas, sin certificación global de WCAG |
-| MEE-09 | WPO | 97–98 en las mediciones móviles de las plantillas; LCP 1,0–2,1 s, CLS 0; datos de campo aún no disponibles |
+| MEE-09 | WPO | 97–98 en las mediciones móviles de las plantillas; LCP 1, 0–2, 1 s, CLS 0; datos de campo aún no disponibles |
 | MEE-10 | Revisión editorial y de marca | Producción del plan de 840 iniciada; maquetas retiradas. Los usos de marca fuera de pantalla siguen abiertos |
 | MEE-11 | Auditoría integral | Ejecutada y documentada en `22-AUDITORIA-UIUX-WPO-SEO-GEO.md`, con evidencias y límites |
 | MEE-12 | React publicado | Portada, siete áreas, contacto y páginas informativas; entrega técnica realizada, sin atribuir premios o aprobación estética del fundador |
