@@ -1,0 +1,718 @@
+ 
+ 
+ 
+ 
+The National Social Insurance Board 
+Working Papers in Social Insurance 2001:2 
+ 
+The Automatic Balance Mechanism  
+of the Swedish Pension System 
+ 
+ 
+ 
+ 
+Ole Settergren 
+ 
+ 
+
+The Automatic Balance Mechanism of the
+Swedish Pension System1
+– a non-technical introduction
+Ole Settergren*
+Riksförsäkringsverket
+(The National Social Insurance Board)
+August 20, 2001
+Abstract
+The new Swedish pay-as-you-go pension system has been designed to be financially stable, i.e. regardless of
+demographic or economic development it will be able to finance its obligations with a fixed contribution rate and
+fixed rules for calculating benefits. This type of financial stability inevitably entails a risk that the value of pensions
+will vary over time. To minimise this variability, while at the same time securing the financial stability of the system, it
+has indexing rules that are asymmetrically designed.
+The aim of a stable pension level is attempted by basing the indexing of the systems liability on the growth in average
+income. As the growth in average income normally will deviate from the systems internal rate of return this index
+implies that assets may grow faster than liabilities, or vice verca. If and when liabilities should exceed assets, the basis
+for indexation is automatically switched to an approximation of the system’s internal rate of return, thus
+automatically adjusting pension levels as well. The pension level is automatically re-established, as is growth in
+average income as the basis of indexation, as soon as this is possible without undermining the financial balance of
+the system. Only historic transactions are used to calculate the liability and the assets. The valuation of assets is
+performed by a new concept, expected turnover duration.
+_____________________________
+* Ole Settergren is a researcher at the Swedish National Social Insurance Board (NSIB). He has been responsible for
+developing the automatic-balance mechanism of the new Swedish old-age pension system.
+Acknowledgements
+Without the support, experience, and hard work of Hans Olsson at an early stage, my idea of using the pension
+liability in a virtual, financially stable pension system to govern the actual system would not have survived its infancy.
+Professor Edward Palmer has provided invaluable support and inspiration during the lengthy process of elaborating
+this idea. In addition, David Sundén contributed to its development while working at NSIB. The mathematical and
+modelling knowledge of Boguslaw D. Mikula, together with his extensive involvement in the work, has been
+indispensable in explaining and implementing the method used in the automatic balance mechanism.
+                                                          
+1 This is an edited version of an article published in Wirtschaftspolitische Blätter 2001/4.
+
+2
+Introduction
+Faced by largely the same demographic challenges as other OECD countries, Sweden opted in
+1992/94 for a radical reform of its national old-age pension system.2 Most of the legislation on
+the new system was passed in 1998. Parliament adopted the final legislation, providing for the
+automatic balance mechanism, in May 2001.3
+Financially, two key principles have guided the decade of research and decision-making on the
+reform:
+ 
+For every krona paid in contribution to the system by or for an individual, that individual
+should receive the exact same amount of pension credit – i.e., no pension credit without a
+corresponding contribution.
+ 
+The financing of pension payments should be guaranteed by a fixed contribution rate.
+This paper presents a non-technical explanation of the rules that are intended to ensure the
+financial stability of the system while also optimising its social-welfare effects. Section 2 provides
+an introduction to the basic forms of financing and calculating pensions. It also briefly describes
+the reform. Section 3 serves as a general background to the financial problems that the automatic
+balance mechanism manages. The main financial aspects of the new system are discussed in
+Sections 4–6.
+From Defined Benefit to Defined Contribution
+Traditionally pension systems are categorised into four generic types according to degree of
+funding and rules for accrual of pension credit. The four types are illustrated in Figure 1.
+Degree of Funding
+Systems with funded assets equal to or greater than the pension liability can be considered fully
+funded. Fully funded systems are represented by quadrants II and IV in Figure 1. Systems with
+zero or relatively limited funded assets in relation to pension liability are called pay-as-you-go
+systems; in Figure 1 these are represented by quadrants I and III.
+Several pension systems are treated as pay-as-you-go systems even though they possess a
+substantial fund. Such funds can be regarded as demographic and economic buffer funds. An
+example is the federal pension system in the United States – possibly the largest single economic
+transfer system in the world – which includes a substantial buffer fund. The Swedish pay-as-you-
+go systems, both the old and the new, also have a buffer fund.4
+                                                          
+2 The principal features of the new system were published in 1992. Parliament decided in 1994 that legislation should
+be drafted in accordance with the principles proposed in 1992. At about the same time, the Amato (1992) and Dini
+(1995) reforms of Italy were presented. The Italian reform is similar to the Swedish one.
+3 The process of pension reform has been consistently supported by some 85 % of the members of Parliament.
+4 Presently the Swedish buffer fund holds assets of roughly SEK 550 billion. This represents some 25 % of GDP, or
+four years of pension payments.
+
+3
+Figure 1. Four Generic Types of Pension Systems and the Direction of the Swedish Reform
+Degree of funding
+0 %
+100%
+Relationship between contrib. and pension credit*
+0 %
+100 %
+I
+II
+III
+IV
+Old
+PAYG system
+New PAYG
+system
+Premium pension
+ system
+Contribution 16 %
+100 %
+Contribution 2.5 % (of pensionable income)
+* Even if pension credit exactly equals contributions for every individual, contributions will only equal expected
+pension benefits (as distinct from pension credit), for individuals whose “time-preference rate” in substituting
+income for pension equals the rate of indexing (compounding) of his/her pension claim (capital).
+Relationship Between Contribution and Pension Credit
+Pension systems in which every contribution gives rise to corresponding pension credit are called
+defined-contribution systems.5 Private life insurance is normally of this type. Defined-contribution
+systems have traditionally been associated with fully funded schemes. In Figure 1 the defined-
+contribution schemes are represented by quadrants I and II. It may be argued that quadrant I
+does not really represent a genuine defined-contribution system, largely on the ground that the
+pension liability is not (fully) backed by funded assets and hence the return on contributions will
+normally differ from the market return on capital. To distinguish between defined-contribution
+systems that are fully funded and those that are financed on a pay-as-you-go basis, the latter are
+often called Notional Defined Contribution (NDC) systems.6
+                                                          
+5 The International Accounting Standards Committee, IAS 19 (revised 1998 ), states that under a defined
+contribution plan:
+(a) the enterprise’s legal or constructive obligation is limited to the amount that it agrees to contribute to the fund.
+Thus the amount of the post-employment benefits received by the employee is determined by the amount of
+contributions paid by an enterprise (and perhaps also the employee) to a post employment benefit plan or to an
+insurance company, together with investment returns arising from the contributions; and
+(b) in consequence, actuarial risk (that benefits will be less than expected) and the investment risk (that assets
+invested will be insufficient to meet expected benefits) fall on the employee.
+Recognising that governments normally can not be legally constrained in fulfilling “promises” made under a pay-as-
+you-go pension plan, the new largely unfunded Swedish pension system complies with the IAS definition,
+substituting investment returns arising from the contributions with ”indexation of the contributions” (and employer/enterprise
+with “government/taxpayers”, employee with “insured”)
+6 Since there is nothing notional about either the contribution or the pension credit resulting from it, the term
+“notional defined-contribution (NDC) system” is somewhat unfortunate.
+
+4
+Pension systems that allow discrepancies between the contribution paid by an individual and the
+pension credit that accrues in relation to that contribution are called defined-benefit systems.7
+Typically such systems define the benefit in terms of a percentage of final or late-career salary.
+Defined-benefit schemes may be either pay-as-you-go (III) or fully funded (IV). In a defined-
+benefit scheme, the relationship between contributions and pension credit can be zero, as in a
+flat-rate pension system, or 100 %. National pension schemes have universally been defined-
+benefit and financed more or less entirely on a pay-as-you-go basis. Schemes designed in this
+manner are found in quadrant III of Figure 1.
+Differences in the Dynamics of Defined Benefit and Defined Contribution Systems
+The demographic and economic developments that force changes in contribution rate or the
+value of pensions is here called uninsurable risks, it is more precisely defined in Section 3. A
+defined-contribution system (weather funded or pay-as-you-go) must assume uninsurable risk by
+adjusting the pension level. Increasing the contribution rate is not a viable response to a deficit.8
+A government run defined-benefit system can be designed to assume uninsurable risks by altering
+the contribution rate or by adjusting the value of pensions or by a combined adjustment of
+contribution rate and pension level.9
+Since financially warranted adjustments in a government run defined-benefit scheme can be made
+either by changing the contribution rate or by changing the value of pensions, it is more flexible
+than a defined-contribution scheme. There are both positive and negative aspects to this
+flexibility. In practise government run defined-benefit schemes have not specified in the rules of
+these schemes how it will accommodate for uninsurable risks.
+The Direction of Swedish Pension Reform
+As is clear from Figure 1, Sweden has moved from a defined-benefit system to two types of
+defined-contribution systems. In the new system, 14 % of contributions (2.5/18.5) will go into
+individual financial accounts (fully funded), while the remaining 86 % (16/18.5) will be
+channelled into the new pay-as-you-go system. This paper will only discuss financial aspects of
+the pay-as-you-go system. For a description of the old and new systems, including the fully
+funded portion of the new system, see Palmer (2000).
+The equivalent of 16 % of each individuals annual pensionable income,10 will be credited yearly
+his or hers notional account. The corresponding amount is transferred to the systems buffer
+fund, which finances pension payments. The “interest” earned on the notional account is either
+                                                          
+7 The IAS states that under a defined contribution plan:
+(a) the enterprise’s obligation is to provide the agreed benefits to current and former employees; and
+(b) actuarial risk (that benefits will cost more than expected) and the investment risk fall, in substance, on the
+enterprise. If actuarial or investment experience are worse than expected, the enterprise’s obligation may be
+increased.
+8 In an NDC system, a temporary deficit can be remedied by increasing the contribution rate, but it is risky to do so.
+If the cause of the deficit in the first place continues, the deficit may become even larger than at the outset. In both a
+fully funded DC system and a NDC system the long-term pension level can be increased or withheld by increasing
+contribution rates, but not the pension level in the short term.
+9 Some analysts have considered the NDC “formula” to be a redressing of a career average defined benefit formula,
+see for example Cichon (1999). This view fails to recognise that uninsurable risks in a defined contribution plan must
+be, and in the Swedish NDC system is, assumed by the pension level, rather than by the contribution rate.
+10 The pensionable income consists to about 80 % of wages and salaries; some 20 % is pensionable incomes from
+social insurance, for example unemployment or sickness insurance. Government annually finances pension credits
+on such non-wage pensionable income.
+
+5
+the increase in average income as measured by an income index or an approximation of the
+internal rate of return in the system, as measured by the balance index explained in Section 5.
+There is no formal retirement age in the new system. Pension credits will always be earned and
+added to the notional (as well as financial) accounts if the individual has pensionable income
+regardless of his or her age and irrespective of weather pension has begun to be drawn. Pension
+can be drawn from age 61 and upward, without upper age limit. Pension from the pay-as-you-go
+system is calculated at the duration of retirement by dividing the notional-account balance by a
+so-called annuity divisor.
+The annuity divisor reflects the average life expectancy at retirement, which is calculated in the
+year the individual reaches the age of 65. A specific annuity divisor is determined for each annual
+cohort. If life expectancy increases, this implies that the same notional capital will produce a
+successively lower yearly pension for younger cohorts if conversion to an annuity (pension) is
+made at the same age. To maintain a fixed pension level when life expectancy increases, the
+withdrawal of pensions must on average every year be made at a slightly higher age. Further the
+annuity from the notional account is calculated at an interest rate of 1.6 %. The pension is
+subsequently indexed with the growth in average income or with the internal rate of return minus
+1.6 %.
+One important reason for changing to defined contribution systems was to establish a closer link
+between contributions and expected benefits. Thereby the negative effects of marginal tax rates
+would be lessened, work incentives would improve, and hopefully the legitimacy and credibility
+of the public pension system would be enhanced.
+Uninsurable Risks and Financial Stability
+Pension systems are instituted to distribute risk. Basically the risk is that of prolonged old age: i.e.,
+of living longer than an average number of years with little or no income-generating capacity.
+However ingeniously pension insurance may be designed to accomplish its task of risk
+distribution, it will carry uninsurable risks at the aggregate level of all insured persons as a
+collective. The primary uninsurable risk arises from the fact that the payment of obligations
+incurred now and in the past will be made in the future; tomorrow’s income from today’s assets
+is always uncertain. 11 A second uninsurable risk of a pension system derives from its promise to
+pay a pension as long as the insured is alive. When the pension annuity is calculated, it is
+uncertain for how long it will have to be paid.
+The downside of these uninsurable risks is that the contribution rate may be increased while the
+same pension benefit is maintained, or that the value of pensions may be reduced while the
+contribution rate is left unchanged. The existence of uninsurable risks may lead to significant and
+unwarranted inter-generational transfers of income.
+A NDC system which index notional pension capital and pensions with the growth in average
+income produces a very stable ratio of average pension over average income. The average
+pension as a percentage of the average income of those working is referred to below as the pension
+level. Pensions will increase (decrease) at the same rate as average earnings.12 Replacements rates
+will be rather stable over time.
+                                                          
+11 Often the value of assets is subject both to market and political risks, i.e., risks of changes in legislation that have
+retroactive effects, see Diamond (1997). Another risk, which in some situations can be substantial, is that of fraud.
+12 In the new Swedish system, however, a “guarantee pension level” will protect pensioners with the lowest pensions
+from the loss of purchasing power that other pensioners will suffer if average income growth is less than 1.6 %. The
+
+6
+Mainly for this reason, Swedish reformers have decided, as a general rule, to index notional
+pension capital and pensions13 by the growth in average income, as measured by an income index.
+Certain courses of demographic and economic development may make it impossible to achieve
+the dual goal of indexing the pension liability by the growth in average income and maintaining a
+fixed contribution rate. The social and political objective of a stable relationship between the
+average pension and average income is the principal source of the financial-instability problem. In
+the Swedish discussion on pensions, “uninsurable risk” has thus come to mean the risk of being
+unable to index notional pension capital and pensions by the growth in average income while also
+maintaining a fixed contribution rate.
+Uninsurable risks are present whether a pension-insurance scheme is organised as a private or
+public system and whether it is funded or not.14 By definition, an uninsurable risk cannot be
+avoided. However, a public pension system can and arguably should be designed to minimise the
+potential impact of uninsurable risks on the contribution rate and/or the value of pensions. A
+financially stable pension system is a comprehensive contract. Its rules extend to the manner in
+which it will deal with uninsurable risks. These rules may define under what circumstances, when,
+and by how much either the contribution (tax) rate or pension level must be changed. The new
+Swedish pay-as-you-go pension system is financially stable in the sense that legislation specifies
+the circumstances under which pension levels must be decreased and the way in which this is to
+be accomplished.15 The legislation also provides for automatic re-establishment of the pension
+level after it has been decreased.16
+Assets and Liabilities
+The obvious way to secure the financial stability of any economic system is to make sure that its
+liabilities cannot exceed its assets. This is the way in which fully funded pension systems normally
+are designed. The problem with applying this simple principle to a pay-as-you-go pension system
+is the lack of an objective method of valuing its principal asset: that is, its assumed perpetual flow
+of contributions.
+The valuation of the pension liability in pay-as-you-go systems entails the same general difficulty
+in choosing the “right” discount factor as in the case of funded insurance. Since there has been
+no method of valuing assets for comparison with a pension liability which is also of uncertain
+value, generally this liability in pay-as-you-go systems has been of limited interest.
+                                                                                                                                                                                    
+guaranteed pension is indexed by the change in the consumer-price index and is financed by general tax revenue, not
+by the contributions to the income-related system. The potential cost of this safeguard is thus borne by the
+taxpayers.
+13 The interest rate of 1.6 % used in converting the notional capital to a pension is subtracted when indexing
+pensions. This implies that the pensions of each cohort will grow 1.6 % slower than average income. However, since
+new cohorts will enter the group of retirees each year, the average pension for all pensioners as a collective will grow
+at about the same rate as average income.
+14 The source, character and magnitud of these risks dependent on the rules of the insurance and on how the scheme
+is organised, whether it is private or public, funded or unfunded.
+15 A lively debate has been in progress at least since 1994 on the merits of so-called notional defined-contribution
+systems (NDC). A major criticism of NDC’s has been that they would not be financially stable (Valdés-Prieto 2000,
+Disney 1999), contrary to the more or less explicit claims of their advocates (Palmer 2000, Fox and Palmer 1999).
+This criticism of NDC’s is unjustified, at least in the special case of the Swedish system. The general outline of the
+balance mechanism was described in Settergren (1997, in Swedish).
+16 Possible effects of the rules have been described in Settergren (2000). Available at www.rfv.se/publi/alder.
+
+7
+The automatic-balance mechanism is essentially a method of valuing contributions to a pay-as-
+you-go system. It makes it possible to compare assets and liabilities of such systems. The
+determinants of assets and liabilities are briefly explained below.
+The Contribution Asset
+The value of contributions to a pay-as-you-go pension system depends on the degree to which
+the contributions can finance, or amortise, the pension liability. The capacity of a given amount
+of contribution to amortize the pension liability depends in turn on the age-related income and
+mortality patterns of those covered by the system.17 The age-related income and mortality pattern
+is referred to here as the expected turnover duration of the system.
+Figure 2 illustrates the age-related distribution of the pension liability in the Swedish system that
+would accrue with the income and mortality patterns of 1998, assuming zero population growth.
+The expected income-weighted average age at which pension credit is received is 43. The
+expected pension-weighted average age at which pensions are disbursed is 76. Turnover duration
+is then approximately 33 years (76 - 43). Turnover duration is thus the sum of the expected pay-in
+duration and the expected pay-out duration.18 In this particular case the turnover duration implies that
+contributions, in a steady state defined by the income and mortality patterns the year of
+measurement, would perfectly match pension payments while the pension liability is exactly 33
+times contributions.
+Figure 2. Illustration of the Turnover Duration Concept (Sweden 1998)
+0
+20
+40
+0
+5
+10 15 20 25 30 35
+43
+50 55 60
+65 70
+76
+85 90 95
+Steady state pension liability
+         (in years of contributions)
+= turnover  duration
+            33   years
+Age group
+Expected
+income-weighted
+age of income earners 
+Pay-in duration + Pay-out d.
+Expected 
+pension weighted
+ age of pensioners
+Expected pension-capital-weighted 
+average retirement age
+1
+0
+0
+5
+10 15 20 25 30 35
+43
+50 55 60
+65 70
+76
+85 90 95
+= turnover  duration
+            33   years
+Age group
+Expected
+income-weighted
+age of income earners 
+Pay-in duration + Pay-out d.
+Expected 
+pension weighted
+ age of pensioners
+Expected pension-capital-weighted 
+average retirement age
+* The accumulated steady state pension liability is synonymous to the contribution asset.
+Contributions multiplied by expected turnover duration indicate how large a pension liability can
+be financed by contributions given the income and mortality patterns prevailing in the period
+measured. Accordingly, the expected turnover duration can be used in determining the value of
+the contributions to a pay-as-you-go system, or contribution asset.
+                                                          
+17 This capacity is also influenced by the population growth rate (labour force growth rate). In the automatic balance
+mechanism, turnover duration will be calculated on the implicit assumption of zero population growth rate. This
+assumption simplifies the calculation and reduces the volatility of turnover duration and contribution assets. It
+implies, however, that assets will be (slightly) overestimated if population growth is negative, and vice versa. The
+interest rate of 1.6 % that is deducted when indexing pensions shortens the turnover duration.
+18 I am indebted to Eric Steedman, an actuary at Watson Wyatt in Stockholm, for the English translation of the
+expressions used in the Swedish legislation.
+
+8
+Contribution asset = contributions x expected turnover duration
+(1)
+The contribution asset can be defined as the present value of a perpetual annual fixed
+contribution discounted by the inverse of the expected turnover duration (referred to below as
+turnover duration). The turnover duration is a somewhat complex concept, but calculating it is
+simple. The method involved resembles that used in determining life expectancy.19 To my
+knowledge there has been no previous mention in actuarial or economic literature of either the
+existence or the importance of expected turnover duration in analysing the financing of pay-as-
+you-go systems.20
+It follows from Eq. 1 that the asset of the pay-as-you-go system will grow with the growth of the
+contribution base (the contribution rate is assumed to be fixed). It also follows from Eq. 1 that
+growth in the contribution base is not the only factor affecting the return on contributions,
+contrary to common assumption.21 Asset growth is also dependent on changes in the age-related
+income and mortality patterns that determine the capacity of contributions to amortise the
+pension liability, i.e. turnover duration. Further, the rate of return on the buffer fund, if there is
+one, should be taken into account in determining the growth in assets of a pay-as-you-go system.
+The capital market provides a valuation of the buffer fund on a daily basis. Thus, the assets of the
+pension system are defined and computable.
+Assets = contribution asset + buffer fund
+(2)
+The Pension Liability
+The present value of the pension liability is the discounted flow of expected future pension
+payments represented by the pension liability at the time of measurement. If the notional pension
+capital and pensions are indexed at the internal rate of return of the system, the present value of
+the liability will equal the nominal pension liability. In a defined-contribution pension system, the
+nominal pension liability is easy to calculate. The pension liability (PL) can be thought to consist
+of two parts, the liability to those who have not yet started to draw their pensions (PL ) and the
+liability to those who are already receiving pensions (PLr), thus
+w
+r
+PL
+PL
+PL
+=
++
+(3)
+where,
+,
+w
+i
+PL
+NPC
+for all individuals i
+=∑
+(4)
+12
+,
+r
+a
+a
+PL
+P
+G
+for all age groups a
+=
+×
+×
+∑
+(5)
+NPCi
+= notional pension capital of individual i, (closing balance at year end)
+                                                          
+19 The formula for calculating turnover duration in the Swedish system is found in Settergren (2000) pp. 93–96
+(www.rfv.se/publi/alder) and in the Swedish Government proposal Regeringens proposition 2000/01:70,
+pp. 73–75.
+20 The concept of turnover duration was presented in Settergren (1999). Valdés-Prieto (2000) lists most of the “risk”
+factors of a NDC, all of which either are captured by the turnover duration or the other components of the balance
+ratio defined by Eq. 6 in Section 5. The article by Valdés-Prieto offers a good background to the problems managed
+by the automatic balance mechanism.
+21 The standard reference in this context is Paul Samuelson (1958) “An Exact Consumption Loan Model of Interest,
+With or Without the Social Contrivance of Money”. In the pioneering work of Samuelson and those following him,
+for example Aaron (1966) and Buchanan (1968), a static demography and economy are assumed. Economists have
+not developed the framework needed to deal with divergence from a steady state in pay-as-you-go or partially funded
+systems.
+
+9
+Pa
+= pension payments (in December) to age group a
+Ga
+= life expectancy (in years) for individuals that have reached age a, measured yearly22
+Eq. 4 simply defines the pension liability to “workers” as the sum of the balance of each
+individual’s notional account. Eq. 5 defines the pension liability to retirees as the sum of the
+products of the pensions payable to each age group times the life expectancy of that age group.
+The need for projections in estimating the present value of the pension liability is eliminated if it
+is assumed that the indexing of the nominal liability is equal to the internal rate of return of the
+system. Before that assumption is discussed, the components of the internal rate of return will be
+summarised and commented.
+The Components of the Internal Rate of Return
+The internal rate of return is the rate at which the pension liability must be indexed to assure that
+liabilities grow at the same rate as assets. Allowing for some simplifications, the internal rate of
+return of the pension system is a function of the following four factors: 23
+(a) +
+growth of the contribution base
+(b) +
+change in age-related income and mortality patterns
+(c) +
+return on the buffer fund
+→
+
+return on assets
+(d) - 
+impact of changes in life expectancy on pension liability
+→
+
+internal rate of return
+(a) 
+growth of the contribution base
+The growth of the contribution base is the major determinant of the internal rate of return. This
+relationship is obvious, since disbursements in a pay-as-you-go system are entirely or largely
+financed directly by contribution revenue. If the labour force is reduced because of a decrease in
+the working-age population or a drop in labour-force participation, contributions will grow more
+slowly than average income. There will then be a danger that the indexation of the pension
+liability by growth in average income will exceed the internal rate of return of the system. If so,
+pension disbursements will sooner or later exceed the revenues of the system and the buffer fund
+will in time be depleted.
+(b) 
+change in age-related income and mortality patterns
+Changes in age-related income and mortality patterns affect the liquidity of the system. The
+relevant age-related income and mortality patterns are measured by the turnover duration. If
+turnover duration increases, so does liquidity, and vice versa. The isolated present value effect on
+liquidity from a turnover-duration-change is equal to the change multiplied by contributions.
+(c) 
+return on the buffer fund
+The return on the buffer fund naturally affects the internal rate of return.24 The higher the return
+on the buffer fund, the greater the growth in the assets of the system – and vice versa. In
+                                                          
+22 It is the “life expectancy” of an average pension amount that is relevant, not the life expectancy of individuals; this
+is acknowledged in the legislation on the automatic balance mechanism. The pension liability is measured yearly with
+a three-year moving average of economic “life expectancy”.
+23 The description disregards the effect that the population growth rate has on turnover duration, and it also ignores
+inheritance gains and administrative costs.
+
+10
+defined-benefit systems the return on buffer-fund assets may have implications for the
+contribution rate, but normally not for pension levels. In a defined-contribution pay-as-you-go
+system, the return on buffer fund assets may of course have an impact on the size of pensions,
+but normally not on the contribution rate. A low rate of return, mainly in relation to the growth
+in the contribution base, implies that the system may not be able to pay pensions that increase in
+step with the growth in average earnings. A high rate of return entails less such risk and may even
+provide coverage for “deficits” due to other uninsurable risks.
+(d) 
+impact of changes in life expectancy on pension liability
+With changes in life expectancy, the internal rate of return will differ from the return on assets.
+An increase in life expectancy increases the pension liability. In almost all existing public pension
+schemes, the persistent strong increase in life expectancy is claiming a large share of the return on
+assets. In defined-benefit schemes this has normally implied higher contribution rates.25 In a
+defined-contribution scheme the effect from an increase in life expectancy must in principle force
+a lower pension level – or a postponement of the retirement age.
+The cohort-specific annuity divisors described in Section 2 absorb about two-thirds26 of the risk
+that changes in life expectancy entail for the financial stability of the system. This effect is
+obtained by a successively higher divisor for every age, i.e. lower pensions if retirement age is not
+increased. Thus, one-third of the pension liability will still be affected by changes in life
+expectancy. The financial exposure to changes in life expectancy results from the fact that
+pensions already granted are not (directly) influenced by changes in life expectancy after an
+individual has reached 65.
+The Automatic Balance Mechanism
+As a rule, the pension liability of the Swedish pay-as-you-go pension system is not indexed by its
+internal rate of return. In response to this potential source of financial instability, the so-called
+automatic balance mechanism has been developed. The use of the balance mechanism implies
+that the assets and liabilities of the pay-as-you-go system are to be calculated and disclosed
+annually, thus providing the pay-as-you-go system with a balance sheet. The formula for calculating
+the assets and liabilities of the system is prescribed by legislation. Aside from the buffer fund,
+which is valued on the basis of capital-market transactions, the calculation is based exclusively on
+transactions which are recorded in the pension system. There is thus no element of forecasting in
+the calculation. The relationship between assets and liabilities is to be reported annually as a
+balance ratio:
+Contribution asset + Buffer fund
+Balance ratio27 =
+Pension liability
+(6)
+                                                                                                                                                                                    
+24 In a pay-as-you-go system, the return on the buffer fund normally has only a limited effect on the return on total
+assets, since the buffer fund will normally represent only a small share of total assets. In Sweden, the assets of the
+buffer fund are presently equivalent to somewhat more than 10 % of the value of the contribution asset.
+25 This feature of a public old-age pension system is highly irrational if some share of the years added to life
+expectancy is healthy and potentially productive ones.
+26 About two-thirds of the pension liability in a mature system in a OECD country relates to persons who have not
+yet retired, one-third relate to pensioners.
+27 For purposes of illustration, the following figures can be used. Contributions are approximately SEK 145 billion;
+turnover duration is roughly 33 years (of which 22 are pay-in duration and 11 are pay-our duration). The resulting
+contribution asset is SEK 4,785 billion (145 x 33). The buffer fund is assumed to be SEK 550 billion. The pension
+liability is approximately SEK 5,300 billion. The balance ratio is then (4,785 + 550)/5,300 = 1.0066. (The GDP of
+Sweden in the year 2000 was approximately SEK 2 100 billion).
+
+11
+The balance ratio summarises the effect of all risk factors (a)–(d). Note that fund will be increased
+(or decreased) by contributions net of pension payments, in a defined-contribution system this
+increase/decrease will be equal in amount to the increase/decrease in the pension liability from
+new pension credit net of amortised pension liability.
+When the balance ratio exceeds 1, the system has a surplus in the sense that it is expected to meet
+its obligation with a margin to spare. In that case the pension liability is less than the assets of the
+system. If the balance ratio is less than 1, the system is in a state of financial imbalance; the
+pension liability exceeds the assets which are to finance it. If this imbalance were allowed to
+persist, the buffer fund would be depleted.
+If the balance ratio falls below 1 the automatic balance mechanism is activated. It switches the
+indexation of pensions and notional pension capital to a new index series, called a balance index.
+The balance index is established by multiplying the income index by the balance ratio. The
+balance index henceforth increases with the growth in the income index times the balance ratio.
+When the balance ratio is below unity, pensions and notional pension capital will grow slower
+than average income. If the balance ratio exceeds 1 in a period when the balance mechanism is activated,
+the indexing of pensions and notional accounts will continue at the rate of growth in average
+income times the balance ratio. Then the pension liability (and pensions as well) will be indexed
+at a rate higher than the growth in average income. No further calculation of the balance index
+will be made after it re-attains the same level as the income index. The pension liability will then
+be indexed once again at a rate equal to the change in the income index (average income).
+When the balance mechanism is activated and the system starts to index its liability by the balance
+index, the liability will be “compounded” at an approximation of the internal rate of return of the
+system. The rate is only approximate, since turnover duration is calculated on the assumption of
+zero population growth. As long as indexing is done by the balance index, the buffer fund will
+tend towards zero.28 To prevent the liability from becoming more than insignificantly larger than
+assets, the system objective of keeping pensions increases in line with growth in average income
+is disregarded until the balance ratio permits it to be reinstated.
+Figure 3 illustrates how balancing works in a scenario where it is first activated and later
+discontinued.
+                                                          
+28 However, if there are long-term strains on the system, such as a long-term population decrease, long-term deficits
+in the buffer fund can arise. For simulations of effects on the buffer fund when the balance mechanism is activated,
+see Settergren (2000).
+
+12
+Figure 3.
+Income index and the balance index
+100
+105
+110
+115
+120
+125
+130
+135
+140
+145
+150
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10 11 12 13 14 15 16 17 18 19 20
+Income index
+Balance  index
+slower  indexation
+faster  indexation
+Year
+The Assumption Behind the Valuation of the Pension Liability
+In Section 4 it was explained that the nominal pension liability is used as an estimate of the
+present value of the pension liability. This gives a correct ex post valuation of the liability only if
+the rate at which the liability is indexed, including the effect of changes in life expectancy,
+coincides with the systems internal rate of return. If this condition could be assumed to prevail,
+the automatic balance mechanism would be superfluous. The nominal valuation of the pension
+liability is not made on an assumption that the growth in average income, including the effect of
+changes in life expectancy, will equal the internal rate of return. Rather, the nominal valuation is
+based on the view that the relationship of the long-term growth in average income to the long-
+term internal rate of return cannot be sufficiently known to permit a rational wager on this
+outcome.
+There are a number of good arguments for refraining from such a bet: a generally poor record of
+economic and demographic forecasts; the specific demographic situation of Sweden, with zero or
+slightly negative population growth; the possibility that political considerations may have an
+impact on the forecasts. Even if we thought that we could make good long-term forecasts, it
+might still be rational not to use them. There is a trade-off between a higher degree of
+sophistication in disclosing the financial position of the system and the real or perceived
+increased risks of manipulation that follow from it.29 In the lack of forecasts and low degree of
+sophistication the method used for valuing the pension liability and assets resembles traditional
+accounting, and it has similar strengths and weaknesses. Note also that the valuation of the
+pension liability will only have a direct effect on the value of pensions when the balance
+mechanism is activated.
+Risk Aversion and Asymmetric Financial Stability
+The design of the Swedish system does not allow for uninsurable risks to be indiscriminately
+reflected in the indexation or calculation of pensions. These risks can only affect pension levels
+through their impact on the balance sheet of the system. As the system will accumulate assets in
+some circumstances, it will be able to sustain indexation exceeding the internal rate of return for
+                                                          
+29 The disclosure and governing of a public pay-as-you-go system suffers from what economists refer to as an agency
+problem.
+
+13
+some time without endangering the financial stability of the system. Deviations from the
+objective of the system – a stable pension level – are thereby reduced.30
+The rules of the pension system allow for surpluses to accumulate, but exclude (substantial)
+deficits.31 In this sense the design is asymmetric. A symmetrically designed pension system, one
+that always ensures a zero net present value and a balance ratio of unity, is irrational if the insured
+have any degree of risk aversion as regards their pension level. The insured are risk avert if they
+assign a higher negative value to a decrease in the ratio of their average pension to the average
+income, than they would assign a positive value to a corresponding increase in this ratio. Risk
+aversion implies that the cost of maintaining a buffer fund potentially larger than the fund
+required for a balance ratio of unity could be justified if the larger fund reduces the risk of
+variations in the ratio of average pension to average income. If the insured are assumed to be risk
+avert in this sense, their economic well-being is enhanced by the asymmetric design that has been
+chosen. Considering that a large share of individuals’ total assets is invested in the national pay-
+as-you-go pension system, the value of the risk reduction produced by the combination of
+average-income indexing and automatic balancing may be considerable.
+The risk reduction achieved by the asymmetric design of the pay-as-you-go system has been
+made possible by determining the time preference of the system in regard to contributions, as
+measured by the expected turnover duration. It has thereby been possible to value contributions and
+to generate balance statements for the system. Balance statements are at least as crucial for
+judging the solvency and credibility of pay-as-you-go pension systems as they are for determining
+the financial position of a business or any other organisation. The balance mechanism provides
+for what might be called actuarial accounting, a form of double entry bookkeeping for a pay as-
+you-go pension system.
+                                                          
+30 There is however an important inefficiency in the system. Pension credits that are earned after the balance
+mechanism is triggered, and thereby entirely or partially unaffected by a slower indexation receives the same faster
+indexation as all other notional capital and pensions when the balance mechanism strives towards the level of the
+income index. Technically this inefficiency could have been avoided, at the possible cost of increased complexity of
+the design.
+31 The government bill 2000/01:70 suggests the possibility of imposing a ceiling on the balance ratio. An appropriate
+level of the balance ratio for initiating positive balancing has not yet been proposed, nor has the necessary analysis
+been performed. Since this kind of positive balancing would still allow a balance ratio above unity, it would not
+change the general asymmetric design of indexing in the system.
+
+14
+References
+Aaron, H.J. (1966) “The social insurance paradox”, Canadian Journal of Economics, 32, August, p. 371-374.
+“Automatisk balansering av ålderspensionssystemet, Regeringens proposition 2000/01:70” (2001).
+Riksdagen, Stockholm.
+Buchanan, J. (1968) “Social Insurance in a Growing Economy: a Proposal for Radical Reform”, National
+tax Journal, 21 December, p. 386-39.
+Cichon, M. “Notional defined-contribution schemes: Old wine in new bottles?”, International Social Security
+Review, vol 52 4/99, p. 87–105.
+Diamond, P.A. (1997) “Insulation of Pensions from Political Risks”, Chapter 2 in S. Valdes-Prieto,
+editor,The Economics of Pensions, Cambridge University Press.
+Disney, R. (1999) “Notional Accounts as a Pension reform strategy: An Evaluation”, Pension Reform
+Primer Nr. 1. World Bank Group, Washington D.C.
+Fox, L. and Palmer, E. (1999) “Latvian Pension Reform”, Social Protection Paper No. 9922. The World
+Bank, Washington, D.C.
+“Inkomstgrundad ålderspension, m.m.” (1998) Regeringens proposition 1997/98:151, Riksdagen,
+Stockholm.
+Palmer, E. (2000) “The Swedish Pension Reform Model – Framework and Issues”, World Bank’s Pension
+Reform Primer Social Protection Discussion Paper no. 0012. The World Bank, Washington, DC.
+(Available as a mimeograph since 1997)
+Palmer, E. (2001) “Swedish Pension Reform. How Did it Evolve and What Does It Mean for the
+Future?” in Coping with the Pension Crisis: Where Does Europe Stand? Feldstein, M. and Siebert, H. (eds.)
+University of Chicago Press.
+Samuelson, P. (1958) “An Exact Consumption-Loan Model of Interest With or Without the Social
+Contrivance of Money”, The Journal of Political Economy, 6 (December) p. 467-482.
+Settergren, O. (2000) “Automatisk balansering av ålderspensionssystemet – redovisning av regeringens
+beräkningsuppdrag”, RFV Analyserar 2000:1. National Social Insurance Board, Stockholm. (Actuarial
+modelling and calculations by Mikula, B. D., Holmgren N. and Leander J.). Available on
+www.rfv.se/publi/alder
+Settergren, O. with Olsson, H. and Sundén, D. (1999) “Automatisk balansering av ålderspensionssystemet
+– regler för avsteg från inkomstindexeringen inom ålderspensionssystemet”, Ds 1999:43.
+Socialdepartementet, Stockholm.
+Settergren, O. with Olsson, H. (1997) Kapitel 5 Inkomstindex “Inkomstgrundad ålderspension –
+finansiella frågor m.m.”, Ds 1997:67. Socialdepartementet, Stockholm.
+Valdés-Prieto, S. (2000) “The Financial Stability of Notional Accounts Pensions”, The Scandinavian Journal
+of Economics, Vol 102 2000, No. 3. p. 395-417.

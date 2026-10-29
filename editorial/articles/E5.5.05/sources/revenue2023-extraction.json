@@ -1,0 +1,40 @@
+{
+  "source": "oecd-revenue2025-full.pdf",
+  "source_sha256": "5e1b302b6921644f2b79d163f0afadb86b01527ac41979eb6c969492204401db",
+  "tables": {
+    "3.8": 64,
+    "3.9": 65,
+    "3.14": 70
+  },
+  "pdf_pages_one_based": true,
+  "denominator": "total_tax_revenue",
+  "year": 2023,
+  "rows": {
+    "Denmark": {
+      "personal_income": 57.2,
+      "corporate_income": 8.4,
+      "vat": 20.8
+    },
+    "Finland": {
+      "personal_income": 29.8,
+      "corporate_income": 6.7,
+      "vat": 21.5
+    },
+    "Iceland": {
+      "personal_income": 37.7,
+      "corporate_income": 9.3,
+      "vat": 24.0
+    },
+    "Norway": {
+      "personal_income": 23.0,
+      "corporate_income": 28.8,
+      "vat": 17.8
+    },
+    "Sweden": {
+      "personal_income": 26.9,
+      "corporate_income": 8.5,
+      "vat": 21.6
+    }
+  },
+  "not_household_incidence": true
+}

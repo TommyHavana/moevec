@@ -389,3 +389,23 @@ Sin cambio de arquitectura o taxonomía.
 Después: **217–219 / E5.5.07–09**. Ahorro y Frugalidad queda 15/15; Modelos Nórdicos 3/15. Catorce tandas completas y tanda 15 en curso. Continuación autorizada y automatización activas. No hay agotamiento de herramientas comunicado; reanudar desde WordPress y expedientes sin duplicar.
 
 Sin cambio de alcance, arquitectura o taxonomía. Respaldos proporcionales comprobados, sin nueva prueba de arranque de restauración.
+
+## Producción 214–216 · 29/10/2026
+
+216/840 terminadas, 648 imágenes originales públicas, 0 en curso o borradores WordPress y 624 pendientes.
+
+214: WVS e instrumentos diferenciados de confianza; ESS 2014 y percepción nórdica 2026 conservan ámbito y fecha. Fukuyama solo extracto; capítulo Bjørnskov solo metadatos/resumen y artículo 2022 con método y límites. 215: PDF OCDE 2025, tablas de composición final 2023 extraídas; tipos 2026 por administraciones nacionales, IVA sueco de alimentos actualizado al 1/4/2026. Sin cuota de rentas medias inventada ni tipos confundidos con carga efectiva. 216: desregulación anterior a la crisis, pensiones 1994–1999 y balance 2001, escuelas 1992, techo 1997. Contracción sin fijar una cifra única ante estimaciones históricas distintas; evidencia de segregación descriptiva y con ámbito identificado.
+
+Siguiente **217–219 / E5.5.07–E5.5.09**, Capitalismo Consciente → Modelos Nórdicos. Preparaciones incluidas en las 624 pendientes. E5.5.07: 2/3 imágenes locales; sin texto final, sin publicación; E5.5.08: 0/3 imágenes locales; sin texto final, sin publicación; E5.5.09: 0/3 imágenes locales; sin texto final, sin publicación. Después 220–222. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 217–219 · 29/10/2026
+
+219/840 terminadas, 657 imágenes originales públicas, 0 en curso o borradores WordPress y 621 pendientes.
+
+217: tres pilares daneses y cuatro componentes de Comisión Europea 2007; EPL de publicación 2026 con fecha regulatoria 1/1/2025. Prestaciones 2026 con acceso, duración y topes, sin 90 % universal. 218: estudios de recursos e instituciones con versiones separadas; Noruega, fondo y regla fiscal con fechas. Propiedad estatal de Equinor contrastada con informe anual 2025, sin propagar el día imposible de su tabla web. 219: financiación y provisión escolares diferenciadas; artículo Economica 2015 y preprint 2012 identificados, mejora media municipal y tendencia nacional distintas. Segregación y beneficios debatidos sin convertir medias en garantías individuales.
+
+Siguiente **220–222 / E5.5.10–E5.5.12**, Capitalismo Consciente → Modelos Nórdicos. Preparaciones incluidas en las 621 pendientes. E5.5.10: 0/3 imágenes locales; sin texto final, sin publicación; E5.5.11: 0/3 imágenes locales; sin texto final, sin publicación; E5.5.12: 0/3 imágenes locales; sin texto final, sin publicación. Después 223–225. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.

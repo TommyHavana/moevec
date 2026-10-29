@@ -1,0 +1,2665 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+School choice and segregation: 
+evidence from Sweden 
+ 
+ 
+ 
+Anders Böhlmark 
+Helena Holmlund 
+Mikael Lindahl 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+WORKING PAPER 2015:8 
+ 
+ 
+
+ 
+ 
+The Institute for Evaluation of Labour Market and Education Policy (IFAU) is a 
+research institute under the Swedish Ministry of Employment, situated in Uppsala. 
+IFAU’s objective is to promote, support and carry out scientific evaluations. The 
+assignment includes: the effects of labour market and educational policies, studies of the 
+functioning of the labour market and the labour market effects of social insurance 
+policies. IFAU shall also disseminate its results so that they become accessible to 
+different interested parties in Sweden and abroad. 
+ 
+IFAU also provides funding for research projects within its areas of interest. The 
+deadline for applications is October 1 each year. Since the researchers at IFAU are 
+mainly economists, researchers from other disciplines are encouraged to apply for 
+funding. 
+ 
+IFAU is run by a Director-General. The institute has a scientific council, consisting of a 
+chairman, the Director-General and five other members. Among other things, the 
+scientific council proposes a decision for the allocation of research grants. A reference 
+group including representatives for employer organizations and trade unions, as well as 
+the ministries and authorities concerned is also connected to the institute. 
+ 
+Postal address: P.O. Box 513, 751 20 Uppsala 
+Visiting address: Kyrkogårdsgatan 6, Uppsala 
+Phone: +46 18 471 70 70 
+Fax: +46 18 471 70 71 
+ifau@ifau.uu.se 
+www.ifau.se 
+ 
+ 
+Papers published in the Working Paper Series should, according to the IFAU policy, 
+have been discussed at seminars held at IFAU and at least one other academic forum, 
+and have been read by one external and one internal referee. They need not, however, 
+have undergone the standard scrutiny for publication in a scientific journal. The purpose 
+of the Working Paper Series is to provide a factual basis for public policy and the public 
+policy discussion. 
+ 
+ 
+ISSN 1651-1166 
+
+IFAU – School choice and segregation 
+1 
+School choice and segregation: evidence from Swedena 
+by 
+Anders Böhlmarkb, Helena Holmlundc and Mikael Lindahld 
+May 4, 2015 
+Abstract 
+This paper studies the evolution of school segregation in Sweden in the aftermath of the 
+1992 universal school voucher reform, which spurred the establishment of new 
+independent voucher schools and introduced parental choice. The empirical analysis 
+assesses the relative importance of neighbourhood sorting, parental choice and the 
+location of independent schools for school segregation. In particular, it exploits 
+variation in school choice opportunities across municipalities, and provides descriptive 
+evidence that in regions where school choice has become more prevalent, school 
+segregation between immigrants and natives, and between children of high/low 
+educated parents, has increased more than in regions where choice is limited. This result 
+also holds when we account for residential sorting and focus on excess school 
+segregation over and above the segregation that would occur if all pupils attended their 
+assigned schools. The estimates suggest that the increase in school segregation 15 years 
+after the voucher reform that can be attributed to choice is relatively small, and in an 
+international comparison Sweden still ranks as a country with a low-to-medium 
+segregated school system. Our findings are suggestive of the implications for student 
+sorting in other settings where similar voucher schemes are introduced. 
+Keywords: school segregation; school choice 
+JEL-codes: I20 
+ 
+                                                 
+a We are grateful to Magnus Bygren, Marcus Eliason and Oskar Nordström Skans for valuable comments and 
+suggestions. We would also like to thank seminar and conference participants at Uppsala (IFAU), VATT Helsinki, 
+SUDA Stockholm University, and EALE 2014 in Ljubliana. Financial support from the Swedish Research Council 
+for Health, Working Life and Welfare (FORTE) [grant no: 2013-0645], Jan Wallander and Tom Hedelius’ 
+Foundation, Granholms stiftelse, SCHOLAR, SUNSTRAT, and the Swedish Research Council (Vetenskapsrådet) is 
+gratefully acknowledged. Mikael Lindahl is a Royal Swedish Academy of Sciences Research Fellow supported by a 
+grant from the Torsten and Ragnar Söderberg Foundation, and also acknowledges financial support from the 
+Scientific Council of Sweden and the European Research Council [ERC starting grant 241161]. 
+b Swedish Institute for Social Research, Stockholm University, IFAU and CREAM, anders.bohlmark@sofi.su.se 
+c Institute for Evaluation of Labour Market and Education Policy (IFAU), helena.holmlund@ifau.uu.se 
+d Department of Economics, Uppsala University, CESifo, IFAU, IZA and UCLS, mikael.lindahl@nek.uu.se 
+ 
+
+2 
+IFAU - School choice and segregation 
+Table of contents 
+1 
+Introduction ......................................................................................................... 3 
+2 
+Background ......................................................................................................... 7 
+2.1 
+A short review of previous research on school choice and segregation .............. 7 
+2.2 
+Institutional background: Sweden’s compulsory school and the 1992 school 
+choice reform ....................................................................................................... 8 
+2.3 
+Theoretical background ..................................................................................... 10 
+3 
+Data and measurement of school choice and segregation ................................. 11 
+3.1 
+The data ............................................................................................................. 11 
+3.2 
+Measures of school choice ................................................................................ 12 
+3.3 
+Segregation indicators ....................................................................................... 12 
+3.4 
+The overexposure segregation index ................................................................. 13 
+4 
+School segregation and school choice in Sweden ............................................. 16 
+4.1 
+Trends in school segregation ............................................................................. 16 
+4.2 
+School segregation in regions with varying degrees of school choice .............. 18 
+5 
+Regressions of school segregation on school choice......................................... 22 
+5.1 
+Empirical framework ......................................................................................... 22 
+5.2 
+Descriptive statistics .......................................................................................... 23 
+5.3 
+Results ............................................................................................................... 26 
+5.4 
+Conditions for a causal interpretation ............................................................... 33 
+6 
+Concluding discussion ....................................................................................... 38 
+References ....................................................................................................................... 40 
+Appendix 1: School choice in Sweden ............................................................................ 45 
+Appendix 2: Segregation measured as overexposure ...................................................... 46 
+ 
+
+IFAU – School choice and segregation 
+3 
+1 
+Introduction 
+School segregation has received a lot of attention in the education debate because of a 
+perception that segregation is accompanied by unequal resources, and because publicly 
+funded education is one of few policy areas where society can act to level the playing 
+field and create equal opportunities for children with different family backgrounds. 
+There is also a general concern that social cohesion in society is adversely affected if 
+interactions between children from different backgrounds are limited (Levin, 1998). In 
+the academic context, education research takes a specific interest in sorting of students 
+by ability and background, because of its potential consequences for the education 
+production function. Sorting might imply negative effects on achievement for low-
+ability pupils through peer effects, but these may be offset by positive ‘tracking’ effects 
+if it is more efficient to teach a homogenous group rather than a mixed group (Duflo et 
+al., 2011). That said, segregation might still have consequences for other outcomes: 
+Billings et al. (2014) show that re-segregation policies in the U.S. have increased youth 
+crime, but that the negative effects on test scores were dampened by compensatory 
+resource allocation. 
+Despite the vast literature on segregation up to date, there is a limited understanding 
+of the mechanisms that give rise to school segregation. Various institutional features, 
+combined with neighbourhood sorting, contribute to the non-random allocation of 
+students across schools. Examples of institutional arrangements that affect the degree of 
+sorting at the school level include school size, catchment area boundaries, schools’ 
+possibilities to cream-skim the best students through selective admissions criteria or 
+through choice of location, and the procedure to assign students to schools through 
+catchment areas or through parental choice. 
+To address the question of which are the most important mechanisms behind school 
+segregation, this paper is the first to decompose school segregation into components 
+determined by neighbourhood sorting, parental choice and cream skimming. We are 
+able to assess these three components, exploiting a policy change that introduced 
+generalized school choice in Sweden, using excellent data on the full population of 16-
+year old students, including information on their socioeconomic background, migration 
+histories and the schools they attend, over a time period of more than 20 years.  
+
+4 
+IFAU - School choice and segregation 
+Our focus is on segregation with respect to pupils’ migration history and 
+socioeconomic background. The former dimension is particularly important in light of 
+Sweden’s large refugee immigrant population. The fraction of foreign-born 16-year olds 
+increased from 5 to 10 percent between the late 1980s and 2000, and an increasing share 
+of foreign-born students arrived after school-starting age. The fraction of students who 
+are either foreign-born, or born in Sweden to two foreign-born parents, has also 
+increased, and reached 17 percent in 2000 (Holmlund et al., 2014). This development 
+has raised concerns that schools with a high concentration of immigrant students will 
+fail to keep up with educational standards (Ministry of Education, 2011). 
+In the empirical analysis we exploit variation in the growth of school choice 
+opportunities across regions in the aftermath of the choice reform: publicly funded 
+voucher schools have opened up in some regions, but in others the choice opportunities 
+are limited. We thus relate the change in school segregation over time at the regional 
+level to corresponding changes in the degree of neighbourhood sorting, cream 
+skimming and parental choice. We adopt a segregation index measuring peer exposure, 
+which intuitively solves the ‘small unit bias’ problem of any segregation index 
+(Carrington and Troske, 1997; Åslund and Nordström Skans, 2010). While our purpose 
+is not to establish causal effects, this approach makes it possible to assess the relative 
+importance of the components of school segregation, and to empirically rule out 
+components that contribute very little. We further discuss under which assumptions our 
+findings can be given a causal interpretation, and whether the results can be generalized 
+to other settings of universal school choice. 
+Elements of choice have become prevalent in many education systems, motivated by 
+the idea that choice and competition should increase efficiency and boost educational 
+outcomes, while public funding should still guarantee equal access and quality for 
+students of different backgrounds. In the U.S., alternatives to traditional public schools 
+(e.g., Charter schools) are on the rising (NAPCS, 2014). The U.K. has a tradition of a 
+variety of school types, including ‘faith schools’, that are publicly funded, and parental 
+choice has been increasingly advocated (Gibbons et al., 2008).  Chile introduced a 
+universal school voucher scheme in 1981 which has lead to growing private enrolment 
+(MacLeod and Urquiola, 2012). Similarly, one of the most dramatic choice reforms took 
+place in the early 1990s in Sweden, which moved from a system with virtually no 
+
+IFAU – School choice and segregation 
+5 
+choice and no private alternatives, to a voucher-based system with choice between 
+public and so called ‘independent’, publicly funded, schools. As a consequence, a sector 
+of independent schools has emerged, and as of today about 12 percent of 16-year old 
+pupils attend an independent school. This school choice reform was very radical, also in 
+an international perspective, and many regarded it as being at odds with the traditional 
+role for education in Sweden. 
+The Swedish voucher system is based upon the idea to give equal opportunities to all 
+pupils:  the voucher follows the pupil to his/her school of choice. Schools are not 
+allowed to select pupils by ability, nor are they allowed to charge tuition fees on top of 
+the voucher. Despite the design of the voucher system, children with advantaged 
+backgrounds are more likely to attend independent schools. In Table A 1 in Appendix 1 
+we show that in 2009, pupils with highly educated parents were almost twice as likely 
+to attend an independent school compared to pupils whose parents had lower education. 
+On the contrary, immigrants and natives have similar probabilities of opting out to an 
+independent school, but the probability to attend independent schools appears to be 
+particularly large for children with Swedish origin who live in areas with a large 
+immigrant population (Andersson et al., 2012; Holmlund et al., 2014). These empirical 
+patterns correspond to the so called ‘white flight’ in the U.S., and have raised concerns 
+that school segregation is on the rising, and that schools in disadvantaged areas will be 
+drained of their best students. 
+Recent studies confirm that school segregation in Sweden has increased in some 
+dimensions (Fredriksson and Vlachos, 2011; National Agency for Education, 2012), and 
+the timing of this increase corresponds to an increased prevalence of school choice. 
+While recent research on the choice reform finds that choice and competition has had 
+small positive effects on test scores on average (Böhlmark and Lindahl, forthcoming; 
+Wondratschek et al., 2013), there is a perception that choice can explain rising school 
+segregation.1 Prominent education academics have argued that the main societal cost of 
+school choice is the adverse impact on school segregation which might lead to a 
+                                                 
+1 There are several other recent studies of school choice in Sweden. Hensvik (2012) finds that the establishment of 
+independent schools is associated with higher teacher salaries, and higher wage dispersion among teachers. Edmark et 
+al. (2014) find no evidence on heterogeneous impacts of school choice among students with varying demographics 
+and socioeconomic characteristics. Shafiq and Myers (2014) find no evidence of a decline in civic attitudes (toward 
+the rights of ethnic minorities and immigrants) between 1999 and 2009 among 14-year-old students, and that 
+independent schools have a small advantage in civic attitudes (controlling for student characteristics).   
+
+6 
+IFAU - School choice and segregation 
+balkanization of the Swedish society.2 There is, however, very limited evidence on the 
+actual mechanisms behind the increase in school segregation in Sweden. Although 
+school choice is one possible determinant, the evolution of school segregation may also 
+be explained by residential segregation. Furthermore, if school choice has contributed to 
+increased school segregation, it is central for policy purposes to understand whether it is 
+choice between public schools or the location and choice of independent schools that 
+give rise to segregation. 
+We are able to reveal a number of interesting findings. First, we find that overall, 
+school segregation has increased between pupils characterized by native/immigrant 
+background and by high/low education background. Neighbourhood segregation has 
+also increased in these dimensions, and is the most important factor in explaining school 
+segregation. Second, in regions where school choice has become more prevalent, school 
+segregation between immigrants and natives, and between pupils with high/low parental 
+education, has increased over and above what we should expect given neighbourhood 
+sorting. The estimates indicating a positive association between school choice and 
+segregation between immigrants and natives are robust throughout a number of 
+empirical specifications; also when applying instrumental variables to account for 
+potential sources of endogeneity. However, comparing the levels of school segregation 
+in Sweden to other countries, we conclude that the growth over time has not been 
+sufficiently large to significantly alter Sweden’s position as a low-to-medium 
+segregated country. 
+The remainder of the paper is organized as follows: Section 2 gives some 
+background to the analysis in this paper. We provide a short literature review, discuss 
+the school reforms that took place in Sweden in the early 1990s and provide a 
+theoretical discussion of how school segregation interrelates with the choice of school, 
+pupils’ residential neighbourhoods and schools’ locations. Section 3 describes the data 
+and presents the segregation measures that we adopt. Section 4 analyzes school 
+segregation over time in Sweden. We show national trends as well as trends across 
+regions with different degrees of parental choice. In Section 5 we take the analysis one 
+step further and estimate the association between school segregation and school choice 
+by using variation in the growth of choice between municipalities, controlling for the 
+                                                 
+2 Henry Levin, William H. Kilpatrick Professor of Economics & Education at Columbia University, in an interview 
+on the Swedish radio program Vetandets värld, March 19th, 2013. 
+
+IFAU – School choice and segregation 
+7 
+sorting of students across schools that is due to residential segregation and the location 
+of independent schools (a form of cream-skimming). Section 6 interprets our findings 
+and concludes. 
+2 
+Background 
+2.1 
+A short review of previous research on school choice and segregation 
+Several research topics related to school choice and student sorting are relevant for this 
+study, and have been explored in the previous literature. One strand of the literature 
+studies the decision to opt out from assigned schools. The focus is on describing the 
+characteristics of those who leave, and on how the composition of pupils in the old and 
+the new schools impacts the decision to leave or remain in the assigned school. There is 
+some evidence that those families who make the choice to opt out of the assigned 
+school, either to non-public schools or, when possible, to alternative public schools, are 
+more advantaged (see Levin, 1998, for a review), and that these families put higher 
+value on the academic achievement of schools (Hastings, Kane and Staiger, 2005). 
+There is also evidence of ‘white flight’ and of so called tipping points for schools, 
+meaning that whites opt out if the minority share increases above a certain threshold 
+(Card et al., 2008).3  Other studies specifically focus on how choice to private schools 
+impacts the composition between private and public schools, in environments where 
+private schools can select their students. Hsieh and Urquiola (2005) find that more 
+private school choice in Chile lead to a higher fraction of high SES students in the 
+private school sector. Ladd and Fiske (2001) compare segregation in three urban areas 
+in New Zealand over a period where a radical national school choice reform was 
+enacted. They find evidence of European families moving their children to higher 
+performing schools and to schools with less minority students. On the other hand, Figlio 
+and Stone (2001) find that fewer public school choice opportunities especially induce 
+students from high SES backgrounds to opt out to the private school sector. 
+Another strand of the literature studies the impact of choice on school segregation 
+directly, while controlling for residential segregation.  Burgess et al. (2004) use data 
+from three cities in the UK and analyze school segregation at the secondary school 
+level. They measure segregation with the dissimilarity index, and regress school 
+                                                 
+3 For a recent study using Swedish data, see Spaiser et al. (2014).  
+
+8 
+IFAU - School choice and segregation 
+segregation on the number of schools available within commuting distance. The 
+evidence points to increased school segregation by immigrant background and parental 
+income, as well as by ability. Söderström and Uusitalo (2005) study an admission 
+selection reform that increased school choice opportunities for students applying to 
+Stockholm high schools in 2000. They compare changes before and after the reform 
+using neighbouring municipalities as controls, and find that the reform implied 
+increased segregation by ability, family background and between natives and 
+immigrants.4  
+This is not a comprehensive review of the literature, but almost all of these studies 
+indicate that choice tends to increase segregation. The aim of this study is therefore to 
+understand whether a generalized school choice system with vouchers, designed to give 
+equal access to all children regardless of their family background, is associated with 
+increased school segregation, and if so, how large this association is. We believe that 
+there are some general insights to be learned about school choice and the mechanisms 
+that give rise to sorting, which can be generalized to other settings where universal 
+school vouchers are introduced. 
+2.2 
+Institutional background: Sweden’s compulsory school and the 1992 
+school choice reform 
+Before 1992, pupils were assigned to, and required to attend, the public school in their 
+local catchment area. Only under special circumstances, could a student attend another 
+public school. An alternative was to opt for one of the few private schools that existed. 
+However, these accounted for less than one percent of total enrolment, and these 
+schools attracted a rather special selection of pupils.5 Therefore, under the pre-reform 
+setting, the only way parents could influence which school their children attended was 
+through their residential choice. 
+In 1992, Sweden introduced a nation-wide voucher system. Non-public schools 
+could receive approval (by the Swedish National Agency of Education, NAE) to 
+become voucher schools. Students’ home municipalities had to provide voucher schools 
+with a grant, based on the average per-pupil expenditure in the public school system, for 
+                                                 
+4 Östh et al. (2013) study school choice in Sweden indirectly by a counterfactual approach, where students in the 
+post-reform period are assigned to the expected school in the pre-reform period. They find that ability sorting has 
+increased as a consequence of choice. 
+5 The non-public schools existing prior to 1992 were boarding schools (attracting a small selection of upper-class 
+children); schools for pupils with special needs; international schools (mainly for foreign pupils); Christian-
+community schools; and special pedagogy schools (e.g., Waldorf and Montessori). 
+
+IFAU – School choice and segregation 
+9 
+each pupil who chose to enrol in a voucher school. This new law gave rise to a new type 
+of non-public schools, ‘independent schools’, whose existence depended on funding 
+through vouchers.6 Even though new independent schools need approval by the NAE, 
+this does not seem to have been a great obstacle for market entry since the number of 
+rejected applications was small up to the year 2009.7 
+The independent schools are allowed to deviate from the national curriculum. In 
+addition, there are no restrictions on the ownership structure of independent schools 
+eligible for public funding – whether religious, non-profit cooperatives, or for-profit 
+corporations. The first wave of independent schools after 1992 was primarily made up 
+of special pedagogy schools, religious schools and parent cooperatives. After the early 
+reform years, most new independent schools have been of a more general profile. This 
+new type of independent schools, similar to the public schools in terms of educational 
+profile, has increasingly gained market share and is now the most common type. School 
+corporations started to establish themselves on the market in the late 1990s, and the 
+number of schools run by such corporations has grown rapidly since then. The number 
+of independent schools (with grade levels 7–9) has increased ten-fold since the reform, 
+from 38 registered independent schools in 1993 to 396 in 2009.8 
+Independent schools are required to be open to all students. They are not allowed to 
+charge tuition fees on top of the voucher, and they cannot select pupils by ability or 
+family background. If an independent school is oversubscribed, three selection criteria 
+for admission are allowed: proximity to the school; waiting list (by date of application); 
+and priority for children whose older siblings are already enrolled in the school.  
+The voucher reform also introduced choice between public schools, although 
+maintaining priority for pupils residing close to the public school. Slots are first 
+allocated to pupils within the public schools’ catchment areas, after which pupils from 
+other areas can be granted admission. Between 1992 and 2009, we approximate that the 
+                                                 
+6 Independent schools were initially allowed to charge moderate tuition fees, but the right to charge fees was 
+abolished in 1997. At the same time, the funding rule was changed so that the grant to independent schools was 
+determined on the same grounds as grants to public schools, i.e., 100 percent of the average per-pupil expenditure in 
+the municipality. In the early reform years the required voucher was 85 percent of the average per-pupil expenditure.  
+7  Since 1997, the NAE has to consider potential negative consequences for the public schools in the local authority 
+when deciding upon an application. 
+8 A small category of schools at the compulsory level is under a different regulation. These are three old boarding 
+schools (Gränna, Lundsberg and Sigtuna) that charge fees on top of the voucher. We exclude pupils in these schools 
+from our analysis. 
+
+10 
+IFAU - School choice and segregation 
+number of pupils opting out of their local school for a different public school has 
+increased by 12 percentage points.9  
+2.3 
+Theoretical background 
+What are the determinants of school segregation and how do they relate to school choice 
+as implemented in Sweden? Jenkins et al. (2008) propose three main channels which 
+give rise to sorting between schools: residential segregation, parental school choice and 
+schools’ selection of pupils.10  
+First, residential segregation gives rise to school segregation. In a school system 
+where catchment areas determine school attendance, residential and school segregation 
+will be closely interlinked. In a choice-based system, it also likely that residential 
+segregation plays a role: parents might have preferences for letting their child attend a 
+local school, and mobility costs might impede parents from choosing a school outside of 
+their local neighbourhood. 
+Second, conditional on the choice of residence, school choice opportunities can 
+affect school segregation through two different mechanisms, working in opposite 
+directions. Segregation is likely to increase because families differ in their abilities to 
+choose and in their preferences for what constitutes a good school. Parents that are 
+better informed and have the resources to act on their preferred choice of school for 
+their children, are likely to be found in schools of higher quality. Well-informed parents 
+may be more likely to place their children on the waiting list to popular schools at an 
+early stage, and this increases the chances of admission.11 Immigrant families might 
+lack the networks and language skills that facilitate making an informed choice. They 
+may also, for cultural or religious reasons, prefer independent schools with such profiles 
+or schools with a high fraction of peers from their own group. Natives might also want 
+to escape schools with a high fraction of immigrants. In fact, both theoretical and 
+empirical evidence point to the importance of peer group characteristics for parental 
+choice. MacLeod and Urquiola (2009) show theoretically that when parents value high 
+achievement per se, and not schools’ value added, peer group composition turns out to 
+                                                 
+9 See Section 3.2 and Appendix 1 for details on the approximation and on the evolution of public school choice over 
+time. 
+10 For a survey of the theoretical work on how the introduction of an overall voucher system impacts inequality and 
+sorting, see Nechyba (2006). For theoretical work on the impact of different choice models, see Epple and Romano 
+(2008), MacLeod and Urquiola (2009) and Barseghyan et al. (2014). 
+11 The waiting list for an independent school in Sweden is typically open for children from the day they are born, 
+which implies that small independent schools can be oversubscribed long before children start school. 
+
+IFAU – School choice and segregation 
+11 
+be crucial for parental choice. Evidence from Sweden indicates that parents’ motives for 
+choice of school are related to the demographic composition of their neighbourhood 
+(Malmberg et al., 2014). 
+In contrast, school choice can also imply lower school segregation: it increases the 
+possibility for students to opt out of low-performing schools in socially deprived 
+neighbourhoods. In a system with complete residential segregation, we expect 
+unrestricted choice to lower school segregation.  
+Third and finally, in a school system where schools can select their pupils, either 
+directly by cream-skimming (i.e., selecting students by ability or family background) or 
+indirectly by tuition fees, school segregation will increase. This is the case for some 
+types of non-public schools in school systems in many countries. In Sweden, neither 
+public nor independent schools at the compulsory level are allowed to directly cream-
+skim or to charge tuition fees. There is however scope for independent schools to 
+influence the pool of applicants indirectly; either by locating in areas with a 
+demographic profile that correlates with high pupil achievement, or by targeting 
+information to specific groups of parents. Anecdotal evidence also indicates that 
+independent schools do not always abide by the rules and reject low-performing 
+students with disruptive behaviour (SVT, 2013). 
+3 
+Data and measurement of school choice and segregation 
+3.1 
+The data 
+Our data set is based on registers administered by Statistics Sweden, and includes all 
+individuals who completed the 9th and final grade of compulsory school, normally at 
+age 16, during 1988–2009. These pupils are linked to their parents and the data are 
+merged with detailed demographic information and registers of completed education 
+and annual earnings. Importantly, the data set provides information on the school 
+attended and the residential neighbourhood of each student (at the time of 9th grade 
+attendance) as well as of the neighbourhood of the school. The school register contains 
+information on all Swedish schools, which allows us to identify whether a school is 
+public or independent. Henceforth, we use the term school cohort to denote the cohort 
+of students that leaves 9th grade in a certain year. 
+
+12 
+IFAU - School choice and segregation 
+The choice reform was implemented in 1992 and the first school cohort that in theory 
+was affected graduated from 9th grade in the spring of 1993. For data availability 
+reasons however, we use 1993 as the last pre-reform cohort instead of 1992: our data for 
+1992 do not cover all of the (few) private schools that existed, but for 1993 we can base 
+our segregation measures on all schools. Arguably, it is unlikely that pupils changed 
+school in the last year of compulsory education, and 1993 therefore serves as a good 
+observation for the pre-reform period.12  
+3.2 
+Measures of school choice 
+Since the reform in 1992, parents and their children can choose to apply to the local 
+public school, to another public school outside of the catchment area, or to an 
+independent school. We therefore construct two measures to capture the extent to which 
+families make the choice of opting out from the assigned local public school: i) the 
+fraction of students attending an independent school (‘independent choice’), and ii) the 
+fraction of students attending a different public school than the one typically attended 
+by pupils in the local catchment area (‘public choice’). The former measure is 
+straightforward to calculate, but the latter measure requires some elaboration. The data 
+do not identify catchment areas directly (i.e. the assigned school), and as an alternative 
+we use information on local residential areas, so called SAMS units (Small Areas for 
+Market Statistics), and define the most common public school attended by pupils in a 
+given SAMS.13 If a pupil attends a different school than the typical one in the 
+neighbourhood, we consider this choice to a public school.14 This measure of opting out 
+to a public school will likely contain some measurement error and be overstated, 
+because catchment areas of schools do not always overlap with SAMS-neighbourhoods. 
+For a description of the development of school choice in Sweden, we refer to Appendix 
+1, Figure A 1. 
+3.3 
+Segregation indicators 
+We study segregation in four dimensions, focusing on migration and socioeconomic 
+background. To measure migration background, we use indicators for whether the pupil 
+                                                 
+12 The results are robust also to using 1992 as the pre-reform observation. 
+13 A SAMS unit is a geographical neighbourhood, developed to correspond to “real” physical neighbourhoods. On 
+average, a SAMS unit has 1000 inhabitants, and there are around 9,200 units in total. 
+14 Arguably, for many families it is probably an active choice to stay in the assigned public school. For ease of 
+exposition, we still refer to choice to a non-assigned public school as ‘public choice’. 
+
+IFAU – School choice and segregation 
+13 
+is foreign-born or native; and whether the pupil has immigrant background (defined as 
+being foreign-born or born to two foreign-born parents) or not.15 To measure 
+socioeconomic segregation, we use indicators for whether parental earnings are above 
+or below the median and whether parents’ average years of schooling are above or 
+below the median, in each school cohort. We label these dimensions of segregation as 
+follows: Immigrant; Immigrant background; Parental income; and Parental education. 
+When we focus on the national trend in school segregation over time we use the 
+national median as a cut-off when constructing our measures of segregation. In the 
+regressions where we exploit between-municipality variation we use the municipality 
+median when constructing the corresponding measures.  
+3.4 
+The overexposure segregation index 
+There is a vast literature on the measurement of segregation and the desired properties 
+of a segregation index. Common indices of segregation are categorized into measures of 
+evenness and measures of exposure (see for example Massey and Denton, 1988, for a 
+survey). Our choice of segregation index, a measure of peer exposure, is very closely 
+related to the so called isolation index of segregation (Bell, 1957). An advantageous 
+feature of this measure is that we can easily, without simulations, account for the fact 
+that with small units (in our case schools), a random allocation of students to units can 
+imply a substantial amount of segregation, in particular if there is a minority group that 
+constitutes a small share of the population (Carrington and Troske, 1997).16 
+We use the measure of own-group overexposure and the technique to account for 
+segregation under random allocation presented in Åslund and Nordström Skans 
+(2009).17 Figure A 2 in Appendix 2 shows that the segregation trends using this measure 
+are similar to the trends using Carrington and Troske’s (1997) index of systematic 
+dissimilarity. The exposure measure is described in more detail in Appendix 2, while in 
+this section we present the intuition behind it. The starting point is that the population is 
+divided into two groups, for example immigrants and natives, and each individual is 
+                                                 
+15 We define foreign-born as being born outside of the Nordic countries.  
+16 Carrington and Troske (1997) suggest a simulation-based method to account for segregation under random 
+allocation. The method used in this paper offers a simple and straightforward solution to the same problem which 
+does not require simulations. This is particularly useful in our setting as the simulation-based approach is 
+computationally heavy when estimating segregation indices for 184 municipalities over several years.  
+17 Empirical applications of similar exposure measures can be found in for example Hellerstein and Neumark (2008) 
+and Åslund and Nordström Skans (2010). Nordström Skans and Åslund (2009) also apply the exposure measure to 
+school segregation. 
+
+14 
+IFAU - School choice and segregation 
+assigned a value equal to the fraction of school mates belonging to his/her own group. 
+These individual fractions are then averaged over all students, regardless of which 
+group they belong to, forming the average own-group exposure measure of school 
+segregation, or 𝑒̅, which is the average probability of a student being exposed to a 
+school mate from his/her own group. In contrast, if students were allocated randomly to 
+schools, the probability that a school mate belongs to a specific group is equal to the 
+group’s population share. An immigrant student’s share of immigrant school mates will 
+on average equal the fraction of immigrants in the population, and similarly, a native 
+student’s share of native school mates will on average equal the fraction of natives in 
+the population. These population shares are used to calculate 𝑒̅ 𝑟𝑎𝑛𝑑𝑜𝑚, which is the 
+average expected own-group exposure under random allocation, or the average 
+probability of a student being exposed to own-group school mates, if the students are 
+randomly allocated to schools. We relate actual own-group exposure to expected own-
+group exposure under random allocation in the following way: 
+𝑅=
+𝑒̅
+𝑒̅ 𝑟𝑎𝑛𝑑𝑜𝑚                                                                                                                    (1) 
+R is the own-group overexposure ratio (i.e., overexposure to own group relative to 
+random allocation). The own-group overexposure ratio is interpreted as the probability 
+of a student having a school-mate belonging to  his/her own group being R times what it 
+would have been had the allocation of students to schools been random. If there is no 
+segregation, i.e., the distribution of students from different groups across schools 
+corresponds to the groups’ population shares, R=1. If the average student has a 10 
+percent higher probability of having a school mate from the same group, compared to a 
+situation where students are randomly allocated, we have that R=1.10. 
+To account for neighbourhood segregation, or in other words the school segregation 
+we would observe if all pupils went to their assigned school, we adapt the measure of 
+own-group overexposure at the neighbourhood level and focus on exposure to 
+neighbours belonging to the same group. Neighbours are defined as other students in the 
+same school cohort, living in the same residential neighbourhood defined by catchment 
+areas. Catchment areas are formed by grouping all SAMS-neighbourhood units whose 
+pupils are assigned to the same public school (see Section 3.2 for more details on 
+SAMS-units). More specifically, for each SAMS-unit we define the most common 
+public school, and the units whose most common public school is the same form a 
+
+IFAU – School choice and segregation 
+15 
+catchment area. We have approximately 9,200 SAMS-areas and they are grouped to 
+form about 930 catchment areas (1992), which correspond approximately to the number 
+of public schools.18 
+Finally, we are interested in whether independent schools are located in more or less 
+advantaged areas, and whether we should expect their location patterns to affect school 
+segregation in the hypothetical case that the schools admitted only pupils from the local 
+neighbourhood. We estimate the expected exposure that we would observe if 
+independent school students had the average characteristics of the SAMS-
+neighbourhood in which the school is located, and relate this to exposure under random 
+allocation, i.e., the group share population mean.19 This is a hypothetical exercise where 
+we attribute neighbourhood characteristics to the independent school student 
+population, in order to understand whether it is schools’ choice of location that 
+potentially increases school segregation, as opposed to parental choice.  
+The exposure measure has the nice feature of having an intuitive meaning as it 
+measures the extent to which members of different groups meet each other and interact 
+in school. However, it does not fulfil all the desired properties of a segregation index 
+(see Hutchens, 2004 and Allen and Vignoles, 2007, for discussions). In particular, it 
+does not fulfil the property of scale invariance, which implies invariance to relative 
+changes in group proportions. For example, if the share of immigrant students increases 
+over time, exposure to immigrants will increase, while a segregation index based on the 
+concept of evenness, such as the dissimilarity index, will remain constant as long as the 
+inflow of immigrants does not alter each school’s share of the total immigrant student 
+population.  In our setting we study segregation over a period of 20 years and immigrant 
+shares vary over the time period, which is likely to affect the exposure measure. But 
+since we use R and relate peer exposure to expected exposure given group shares, we 
+are able to control for such variations. Thus, by using R, we overcome the potential 
+issue of scale invariance. 
+A final complication related to measures of segregation is that the level of 
+segregation depends on the size of the units over which we estimate segregation. School 
+                                                 
+18 For SAMS-units with less than 10 students, we use observations over three grade cohorts to determine the most 
+common public school. The number of catchment areas is determined separately by year and increases over time, as 
+the number of public schools increases. 
+19 Independent schools do not have catchment areas in the strict meaning, but we can assume that students living 
+close to the school are more likely to enrol. 
+
+16 
+IFAU - School choice and segregation 
+segregation is lower if a large school serves many neighbourhoods with varying 
+demographics, and higher if each neighbourhood has its own school with a local 
+catchment area.20 Over the time period that we study, the number of schools has 
+increased both because of the establishment of a new sector of independent schools 
+where the typical school is small, and because there has been a trend towards smaller 
+public schools with a closer attachment to the local community. For a given non-
+random allocation of families to residential areas, an increase in the number of schools 
+might therefore in itself raise school segregation. Our analysis accounts for this by 
+controlling for catchment area segregation in each year: when the number of public 
+schools increases, so does the number of catchment areas.21  
+4 
+School segregation and school choice in Sweden 
+4.1 
+Trends in school segregation 
+In Figure 1, we start by documenting the segregation between schools over time, by 
+pupils’ migration and socioeconomic background. The solid lines correspond to own-
+group overexposure relative to expected exposure under random allocation (R).  The y-
+axes show overexposure ratios, meaning that the scale is interpretable as the additional 
+probability for an average student of having a school mate belonging to the same group: 
+1.10 means that the likelihood is 10 percent higher compared to what would be the case 
+if the groups were allocated randomly. We note that two out of the four indicators show 
+increased school segregation throughout the period 1988–2009: parental education and 
+immigrant background. School segregation with respect to parental income and 
+immigrant status appear to fluctuate some over time: segregation by parental income 
+first decreases and then increases from the late 1990s and onward; and segregation by 
+immigrant status peaks around 2000. 
+Comparing the levels in the four figures, we find that segregation measured as own-
+group overexposure is initially highest with respect to parental income and education, 
+where the probability of a student having high/low income/education parents was 1.04 
+times the expected probability in 1988. For immigrant status and immigrant background 
+we see surprisingly little segregation in the beginning of the period. 
+                                                 
+20 This is the so called Modifiable Areal Unit Problem (MAUP). Its consequences for segregation indexes are 
+discussed in Wong (1997). 
+21 Our results are also robust to including a control for the change in number of schools over time. 
+
+IFAU – School choice and segregation 
+17 
+ 
+Figure 1. School and neighbourhood segregation 
+Notes: The solid lines show own-group overexposure relative to random allocation in schools. The dot-dashed lines 
+show own-group overexposure relative to random allocation in neighbourhoods, defined as catchment areas. The 
+dashed lines show expected overexposure due to independent schools’ locations. Calculations are based on the full 
+population of each school cohort completing compulsory school. 
+In Figure 1, we also document the development of neighbourhood own-group 
+overexposure over time for the various categories of segregation (dash-dotted line), and 
+the overexposure we should expect given independent schools’ location patterns 
+(dashed line). Neighbourhoods are here defined as catchment areas, and differences 
+between school and neighbourhood segregation most likely occur because pupils opt out 
+of the assigned school in their neighbourhood to attend a different school, either public 
+or independent. 
+First, we note that in the beginning of the period, before the school choice reform 
+was enacted, segregation between attended schools and segregation between assigned 
+schools (i.e., neighbourhoods defined by catchment areas) is identical. This is intuitive 
+since it was very rare that pupils opted out from the assigned school. From the mid 
+1990s and onwards, actual school segregation by parental education lies somewhat 
+higher than the segregation we should expect if all pupils attended the assigned school. 
+Similarly, from 2000 and onwards, school segregation by immigrant background is 
+1
+1.04
+1.08
+Overexposure
+1990
+1995
+2000
+2005
+2010
+Year
+Immigrant
+1
+1.04
+1.08
+Overexposure
+1990
+1995
+2000
+2005
+2010
+Year
+Immigrant background
+1
+1.04
+1.08
+Overexposure
+1990
+1995
+2000
+2005
+2010
+Year
+Parental income
+1
+1.04
+1.08
+Overexposure
+1990
+1995
+2000
+2005
+2010
+Year
+Parental education
+Overexposure - school
+Overexposure - catchment area
+Expected overexposure - schools' location
+
+18 
+IFAU - School choice and segregation 
+slightly higher than what we would expect given catchment areas. From Figure 1 it is 
+thus clear that neighbourhood sorting plays an important role for school segregation 
+throughout the period – but the figure also shows that after the option to opt out was 
+introduced, school segregation is in some dimensions slightly higher than 
+neighbourhood segregation. For example, in the 2009 grade cohort, students are 6 
+percent more likely to have a student from his/her own parental education group living 
+in the same catchment area, compared to a random allocation of students across 
+catchment areas, whereas they are 7 percent more likely to have a school-mate from the 
+same education group, compared to random allocation of students across schools. 
+Second, we focus on independent schools’ locations. Figure 1 reveals that if the 
+composition of pupils in independent schools would correspond to the composition in 
+the neighbourhood where the school is located, school segregation at the aggregate level 
+would not be affected by much. The expected exposure given by independent schools’ 
+locations is very close to the exposure under random allocation, and as such, the 
+overexposure ratio is close to one. At the end of the period, independent schools’ 
+locations would contribute marginally to lower segregation between immigrants and 
+natives, and between pupils of immigrant/Swedish background, if the pupils in the 
+neighbourhood were proportionally represented in the school. This result is expected, 
+given that independent schools have been established primarily in large cities and 
+suburban areas, where the immigrant population is larger than in the rest of the country. 
+It therefore seems unlikely that the overall trend in school segregation should be 
+attributed to endogenous location of independent schools.  
+4.2 
+School segregation in regions with varying degrees of school choice 
+Figure 2 presents the trends in school choice in four different groups of high to low-
+choice municipalities. School choice is here measured as the share of all pupils that opt 
+out from their assigned public school, whether to independent alternatives or to other 
+public schools. The municipalities are grouped in quartiles by the degree of school 
+choice in 2009. The vertical axis shows the proportion of pupils that chose to opt out in 
+a specific year. We note that manifested choice differs greatly across municipalities. 
+
+IFAU – School choice and segregation 
+19 
+The share has barely changed in some municipalities, whereas it has tripled (increased 
+from 20 percent to 60 percent) in the municipalities with most choice in 2009.22 
+ 
+Figure 2. School choice in high-to-low choice municipalities 
+Note: The figure is based on 184 municipalities, i.e., the estimation sample. School choice refers to the fraction of 
+pupils opting out from their assigned school to an independent or a non-assigned public school. The municipalities 
+are divided into four groups, ranging from the quartile of municipalities with most choice in 2009 (Q4) to the quarter 
+of municipalities with least choice in 2009, (Q1). 
+Some of this variation is likely due to demand for schools that are alternative to the 
+assigned public schools, but the variation also reflects that choice opportunities to a 
+great extent differ between municipalities even today. In many rural municipalities, 
+choice is in practice almost as restricted as before the reform, because they lack 
+independent schools (roughly half of the municipalities) and because the second closest 
+public school is located very far away. In other municipalities, mainly the larger cities 
+and their surroundings, there is basically unrestricted choice. 
+In Figure 3, we relate school segregation trends to the change in school choice, by 
+plotting overexposure in the four groups of municipalities characterized by different 
+degrees of choice in 2009 (see Figure 2). Not surprisingly, the levels of segregation 
+differed in the four municipality groups already in the pre-reform period (1988–1992). 
+                                                 
+22 Notably, around 50 percent of the population can be found in the top quartile of municipalities. 
+.1
+.2
+.3
+.4
+.5
+.6
+Fraction opting out
+1990
+1995
+2000
+2005
+2010
+Year
+Q1
+Q2
+Q3
+Q4
+
+20 
+IFAU - School choice and segregation 
+This reflects that segregation in general is higher in urban municipalities, and these are 
+also the municipalities where school choice has grown the most. Figure 3 also shows 
+that in some dimensions, we see diverging segregation trends between groups of 
+municipalities. This is most notably the case for segregation with respect to immigrant 
+background, where overexposure has increased at a much higher rate in high-choice 
+municipalities compared to low-choice municipalities. Overexposure with respect to 
+immigrant status and parental education has also increased slightly more in high-choice 
+municipalities, even though the pattern is much less clear. For all four segregation 
+indicators, school segregation has remained relatively constant in low-choice 
+municipalities. 
+ 
+Figure 3. School segregation in high-to-low choice municipalities 
+Note: The figures show own-group overexposure relative to random allocation. The figure is based on 184 
+municipalities, i.e., the estimation sample. The municipalities are divided into four groups, ranging from the quartile 
+of municipalities with most choice in 2009 (Q4) to the quarter of municipalities with least choice in 2009, (Q1). 
+As we have seen in Figure 1, actual school segregation closely follows the segregation 
+predicted by pupils’ assigned school. To what extent can neighbourhood sorting account 
+for the diverging trends for different municipality types, presented in Figure 3? To shed 
+light on this issue, Figure 4 plots the difference between actual school segregation and 
+1
+1.05
+1.1
+1.15
+Overexposure
+1990
+1995
+2000
+2005
+2010
+Year
+Immigrant
+1
+1.05
+1.1
+1.15
+Overexposure
+1990
+1995
+2000
+2005
+2010
+Year
+Immigrant background
+1
+1.05
+1.1
+1.15
+Overexposure
+1990
+1995
+2000
+2005
+2010
+Year
+Parental income
+1
+1.05
+1.1
+1.15
+Overexposure
+1990
+1995
+2000
+2005
+2010
+Year
+Parental education
+Q1
+Q2
+Q3
+Q4
+
+IFAU – School choice and segregation 
+21 
+assigned school segregation in the four groups of municipalities.23 We find that in 
+municipalities with little manifested school choice, there is virtually no difference 
+between segregation measured between actual schools and assigned schools (i.e., 
+catchment areas). It is notable, however, that in the two groups of municipalities where 
+choice has increased the most, school segregation has increased more than we should 
+expect given residential patterns in three out of four cases: between immigrants and 
+natives; between pupils with immigrant/Swedish background and between pupils with 
+high vs. low parental education. 
+ 
+Figure 4. Difference between school segregation and neighbourhood segregation in 
+high-to-low choice municipalities 
+Note: The figures show the differences between own-group overexposure relative to random allocation in schools and 
+in neighbourhoods (defined as catchment areas). The figure is based on 184 municipalities, i.e., the estimation 
+sample. The municipalities are divided into four groups, ranging from the quartile of municipalities with most choice 
+in 2009 (Q4) to the quarter of municipalities with least choice in 2009, (Q1). 
+This graphical evidence summarizes the main results of this study: after accounting for 
+residential sorting, school segregation has increased more in municipalities where 
+school choice has become more prevalent. To further check the robustness of this 
+                                                 
+23 This is equivalent to the difference between the solid and the dash-dotted line in Figure 1, but the differences in 
+Table 4 are calculated separately for each of the four groups of municipalities characterized by different levels of 
+choice. 
+-.005 0 .005.01.015.02
+Difference
+1990
+1995
+2000
+2005
+2010
+Year
+Immigrant
+-.005 0 .005.01.015.02
+Difference
+1990
+1995
+2000
+2005
+2010
+Year
+Immigrant background
+-.005 0 .005.01.015.02
+Difference
+1990
+1995
+2000
+2005
+2010
+Year
+Parental income
+-.005 0 .005.01.015.02
+Difference
+1990
+1995
+2000
+2005
+2010
+Year
+Parental education
+Q1
+Q2
+Q3
+Q4
+
+22 
+IFAU - School choice and segregation 
+empirical correlation, the next section presents a regression analysis at the municipality 
+level, in which school segregation is regressed on school choice, neighbourhood 
+‘catchment area’ segregation and expected segregation due to independent schools’ 
+locations, and where we account for time-invariant municipality specific characteristics, 
+as well as pre-reform demographics in the municipalities. 
+5 
+Regressions of school segregation on school choice 
+5.1 
+Empirical framework 
+We now extend the graphical analysis and run regressions at the municipality (i.e., 
+school district) level.24 We separate school choice into two measures; choice to 
+independent schools, and choice to non-assigned public schools, and run multivariate 
+linear regression models where we control for neighbourhood (‘catchment area’) 
+overexposure and expected exposure due to independent schools’ location decisions. 
+The purpose of the regression analysis is to shed light on the relative contributions of 
+the different underlying causes for school segregation, and in particular to establish 
+whether the correlation between school choice and school segregation remains after 
+conditioning on neighbourhood sorting. We limit the analysis to municipalities with at 
+least two schools throughout the period. This restriction implies that the number of 
+municipalities drops from 284 to 184, i.e., we drop 100 of Sweden’s municipalities. 
+Notably, these are very small and constitute only 10 percent of the population.25  
+Our empirical approach is to exploit the variation in the expansion of school choice 
+across municipalities since the reform in 1992. In order to control for unobserved 
+differences between municipalities and to capture long-term consequences of increased 
+choice we estimate the following model: 
+ 
+∆𝑅𝑚
+𝑠= 𝑐+ 𝛽1∆𝐼𝑛𝑑𝑒𝑝𝐶ℎ𝑜𝑖𝑐𝑒𝑚+ 𝛽2∆𝑃𝑢𝑏𝐶ℎ𝑜𝑖𝑐𝑒𝑚+ 𝛾1∆𝑅𝑚
+𝑛+ 𝛾2∆𝑅𝑚
+𝑖                     (2) 
+ 
+where ∆𝑅𝑚
+𝑠 denotes the change in school segregation relative to random allocation 
+(measured by the overexposure ratio) between 1993 and 2009 for 9th grade pupils 
+attending a school in municipality m in those years; ∆𝐼𝑛𝑑𝑒𝑝𝐶ℎ𝑜𝑖𝑐𝑒𝑚 denotes the 
+                                                 
+24 We use the pre-reform (1991) regional structure, implying 284 municipalities. 
+25 We also exclude very small schools, with less than 10 pupils. 
+
+IFAU – School choice and segregation 
+23 
+change in the share of independent school students in municipality m between 1993 and 
+2009; ∆𝑃𝑢𝑏𝐶ℎ𝑜𝑖𝑐𝑒𝑚 denotes the change in the share of students opting for a non-
+assigned public school in municipality m between 1993 and 2009; and ∆𝑅𝑚
+𝑛 and ∆𝑅𝑚
+𝑖 
+denote the changes in neighbourhood segregation and the segregation expected by 
+independent schools’ location, respectively.26 The parameters 𝛽1 and 𝛽2 capture how an 
+increase in choice from 0–100 percent is associated with school segregation, measured 
+as the own-group overexposure ratio (relative to random allocation). For now, we 
+abstract from causal interpretations of the parameters 𝛽1 and 𝛽2, and view these 
+parameters as providing conditional associations (see Section 5.4 for a discussion). 
+5.2 
+Descriptive statistics 
+Table 1 presents descriptive statistics of the municipality-level data used in the 
+regressions. While Figure 1 displays the national trends including all schools and 
+municipalities weighted by the number of students, the data in Table 1 present our 
+sample of 184 municipalities, where each municipality is given equal weight. For this 
+reason, the segregation averages in Figure 1 and Table 1 will not necessarily correspond 
+to each other. 
+Statistics for the two school choice variables are listed in the first panel of Table 1 
+and are shown for the school cohorts 1993 and 2009 and for the change between these 
+two years. As no independent voucher-type schools existed prior to the school choice 
+reforms, the share of independent school students was zero before 1993, and very small 
+the first year after the reform (1993). The average growth in the share of independent 
+school students has been about 5.7 percent up to 2009. This number is lower than the 
+national growth because each municipality is given equal weight and larger 
+municipalities have more independent school students. The ‘public choice’ variable is 
+an approximation of the share of pupils opting out from the assigned school to a 
+different public school. A fairly large fraction of students, 12.6 percent, opted out to 
+another public school before the reform. We see that the average growth in public 
+choice is about 8.6 percentage points, i.e. the share of students that opted out to a non-
+assigned public school almost doubled between 1993 and 2009.27 This variable is likely 
+                                                 
+26 Note that the index 𝑅𝑚 is based on a pupil-weighted mean, whereas we give equal weight to municipalities in the 
+regressions. 
+27 See Appendix 1 for a more detailed description of the evolution of school choice since the reform for the 
+population of students. 
+
+24 
+IFAU - School choice and segregation 
+estimated with error (see Section 3.2.) because we can only approximately define 
+catchment areas. However, if we make the assumption that measurement error is 
+constant over time within municipalities, the difference over time will not be measured 
+with error and is informative about the growth of public school choice. 
+ 
+ 
+
+IFAU – School choice and segregation 
+25 
+Table 1. Descriptive statistics 
+ 
+1993 
+2009 
+Diff 2009-1993 
+ 
+Mean (std. dev.) 
+Mean (std. dev.) 
+Mean (std. dev.) 
+School choice variables 
+ 
+ 
+ 
+Share indep. Choice 
+0.001 
+0.058 
+0.057 
+ 
+(0.006) 
+(0.083) 
+(0.082) 
+Share public choice 
+0.126 
+0.212 
+0.086 
+ 
+(0.072) 
+(0.105) 
+(0.080) 
+School overexposure 
+ 
+ 
+ 
+Parents’ income 
+1.016 
+1.022 
+0.006 
+ 
+(0.027) 
+(0.040) 
+(0.036) 
+Parents’ education 
+1.014 
+1.021 
+0.008 
+ 
+(0.027) 
+(0.030) 
+(0.025) 
+Foreign/native born 
+1.002 
+1.005 
+0.003 
+ 
+(0.006) 
+(0.011) 
+(0.009) 
+Immigrant background 
+1.005 
+1.026 
+0.022 
+ 
+(0.018) 
+(0.064) 
+(0.051) 
+Neighbourhood – catchment area -  overexposure 
+Parents’ education 
+1.021 
+1.019 
+-0.001 
+ 
+(0.023) 
+(0.027) 
+(0.027) 
+Parents’ income 
+1.019 
+1.018 
+-0.001 
+ 
+(0.021) 
+(0.019) 
+(0.018) 
+Foreign/native born 
+1.002 
+1.003 
+.001 
+ 
+(0.005) 
+(0.006) 
+(0.005) 
+Immigrant background 
+1.005 
+1.019 
+0.014 
+ 
+(0.015) 
+(0.047) 
+(0.035) 
+Expected overexposure by schools’ locations 
+Parents’ education 
+1.000 
+1.002 
+0.002 
+ 
+(0.001) 
+(0.007) 
+(0.008) 
+Parents’ income 
+1.000 
+1.002 
+0.002 
+ 
+(0.000) 
+(0.009) 
+(0.009) 
+Foreign/native born 
+1.000 
+0.999 
+-0.001 
+ 
+(0.001) 
+(0.007) 
+(0.007) 
+Immigrant background 
+1.000 
+0.999 
+-0.001 
+ 
+(0.001) 
+(0.011) 
+(0.011) 
+Municipality demographics 
+Number of students 
+456 
+565 
+109 
+ 
+(522) 
+(798) 
+(295) 
+Fathers’ schooling 
+11.15 
+11.62 
+0.47 
+ 
+(0.58) 
+(0.50) 
+(0.24) 
+Mothers’ schooling 
+11.31 
+12.19 
+0.88 
+ 
+(0.45) 
+(0.40) 
+(0.24) 
+Parents’ log income 
+11.85 
+12.21 
+0.36 
+ 
+(0.16) 
+(0.17) 
+(0.10) 
+Fraction immigrant background 
+0.06 
+0.10 
+0.04 
+ 
+(0.04) 
+(0.08) 
+(0.04) 
+Fraction immigrant 
+0.04 
+0.05 
+0.005 
+ 
+(0.03) 
+(0.03) 
+(0.02) 
+Nr of observations 
+184 
+184 
+184 
+ 
+
+26 
+IFAU - School choice and segregation 
+In the second to fourth panels of Table 1 we show summary statistics for the four 
+indicators of segregation. We confirm that school segregation has increased, and note 
+that there is considerable variation across municipalities in this regard.28 
+The last panel of Table 1 shows summary statistics for the municipality 
+characteristics that we use in our estimations to adjust for differences among 
+municipalities before the school choice reforms. All of the variables based on students’ 
+own or family characteristics are aggregated to the municipality-year level by school 
+cohort and are based on the same students that are used to calculate the school choice 
+and segregation measures.  
+5.3 
+Results 
+We now turn to estimation of Equation (2), i.e., we investigate whether increased school 
+segregation is associated with parental school choice, neighbourhood sorting and/or 
+sorting due to independent schools’ locations. For each outcome, we present 6 
+specifications. We start by showing results from simple specifications that exclude all 
+controls and as such report the unconditional association between a change in 
+segregation and a change in our measure of interest. We look at the association between 
+school segregation and total school choice (column 1), independent school choice and 
+public school choice (column 2), neighbourhood overexposure (column 3) and expected 
+overexposure given independent school location (column 4). In columns 5–6 we show 
+estimates from multivariate regressions where we include all four predictors 
+simultaneously, without other controls (column 5), and with controls for a number of 
+municipality characteristics (listed in Table 1) measured prior to the choice reforms 
+(column 6). 
+First, we focus on the results for immigrants versus natives (Table 2 a, for immigrant 
+status, and Table 2 b, for immigrant background). We see that in column 1, there is a 
+positive and statistically significant association between own-group overexposure, i.e. 
+school segregation, and school choice.  An increase in total choice with 10 percentage 
+points, is associated with an increase in own-group-overexposure in the 
+immigrant/native dimension with 0.002 (Table 2 a). As a point of comparison, the 
+average pre-reform own-group overexposure in the municipality sample was 1.002 (see 
+                                                 
+28 The sample used in analyzing immigrants-natives consists of 181 municipalities. The reason is that in three 
+municipalities we do not observe any immigrant students in the 9th grade in 1993. 
+
+IFAU – School choice and segregation 
+27 
+Table 1). This implies a shift from a 0.2 percent higher probability to meet a pupil from 
+one’s own group, compared to the population mean, to a 0.4 percent higher probability, 
+compared to the population mean. The corresponding estimate in Table 2 b implies a 
+much larger association: an increase by 10 percentage points in the share of students 
+opting out is related to an increase in the probability to meet a student from one’s own 
+group by 0.012.  In column 2 it becomes clear that these positive associations should be 
+attributed entirely to independent school choice. 
+Column 3 shows that neighbourhood (‘catchment area’) overexposure is strongly 
+associated with school segregation, in particular in terms of immigrant background for 
+which both the coefficient and the R-squared are high. In column 4 we find that there is 
+a positive association between school segregation and expected segregation given 
+independent schools’ locations. Expected overexposure due to schools’ locations has 
+decreased (see Table 1) because independent schools have been established in big cities 
+and suburban areas, where the immigrant population is larger compared to the rest of 
+the country. The estimated associations thus imply that in municipalities where 
+independent schools locate in areas with high proportions of immigrant students, school 
+segregation tend to be lower. However, the establishment patterns imply very small 
+changes in expected overexposure and contribute only to marginal changes in school 
+segregation.29 
+The next column includes the four variables simultaneously, and shows that the 
+association between independent school choice and segregation by immigrant 
+background is largely driven by residential sorting patterns: it drops from 0.20 to 0.05, 
+but remains statistically significant as precision is improved when adding covariates to 
+the model. The point estimate for school segregation between immigrants and natives is 
+not as sensitive and remains fairly constant after accounting for catchment area 
+segregation. The estimates are also largely unaffected when pre-reform levels of 
+municipality demographics are controlled for, as in column 6.30 
+ 
+                                                 
+29 The associations in Tables 2a and 2b, and the decline in expected overexposure given by schools’ locations in 
+Table 1,  indicate that we would expect own-group overexposure to decrease by 0.0004 and 0.0018, respectively. 
+30 In a sensitivity analysis we also include the number of schools as a control. The results are insensitive to including 
+controls for the number of public schools, but in some specifications sensitive to including the number of independent 
+schools. Arguably, the number of independent schools is highly correlated with the expansion of opting out to 
+independent schools. 
+
+28 
+IFAU - School choice and segregation 
+Table 2 
+Table 2 a. First difference model of change in school segregation between immigrants 
+and natives 
+ 
+ΔOwn-group overexposure: immigrant/native 
+ 
+(1) 
+(2) 
+(3) 
+(4) 
+(5) 
+(6) 
+ΔShare total choice  
+0.018 
+ 
+ 
+ 
+ 
+ 
+ 
+(0.006)** 
+ 
+ 
+ 
+ 
+ 
+ΔShare indep. school choice  
+ 
+0.030 
+ 
+ 
+0.033 
+0.034 
+ 
+ 
+(0.014)* 
+ 
+ 
+(0.013)** 
+(0.013)* 
+ΔShare public school choice  
+ 
+0.005 
+ 
+ 
+0.004 
+0.009 
+ 
+ 
+(0.009) 
+ 
+ 
+(0.008) 
+(0.008) 
+ΔNeighbourhood overexposure  
+ 
+ 
+0.214 
+ 
+0.173 
+0.157 
+ 
+ 
+ 
+(0.053)** 
+ 
+(0.041)** 
+(0.040)** 
+ΔExpected exposure by location  
+ 
+ 
+ 
+0.395 
+0.462 
+0.414 
+ 
+ 
+ 
+ 
+(0.196)* 
+(0.179)* 
+(0.168)* 
+Observations  
+181 
+181 
+181 
+181 
+181 
+181 
+R-squared  
+0.07 
+0.09 
+0.18 
+0.09 
+0.35 
+0.42 
+Demographic controls 1993 
+ 
+ 
+ 
+ 
+ 
+x 
+Note: First difference OLS regressions of the change (2009–1993) in own-group overexposure on the change in the 
+total fraction of pupils opting out (total choice) and the fractions opting out to independent and publics schools 
+(indep. choice and public choice), and on changes in neighbourhood overexposure and expected overexposure given 
+by schools’ locations. Demographic controls in 1993 are listed in Table 1. Robust standard errors in parentheses. + 
+significant at 10%; * significant at 5%; ** significant at 1%. 
+Table 2 b. First difference model of change in school segregation between pupils of 
+immigrant/Swedish background 
+ 
+ΔOwn-group overexposure: immigrant background/Swedish background 
+ 
+(1) 
+(2) 
+(3) 
+(4) 
+(5) 
+(6) 
+ΔShare total choice  
+0.118 
+ 
+ 
+ 
+ 
+ 
+ 
+(0.034)** 
+ 
+ 
+ 
+ 
+ 
+ΔShare indep. school choice  
+ 
+0.202 
+ 
+ 
+0.054 
+0.066 
+ 
+ 
+(0.078)* 
+ 
+ 
+(0.025)* 
+(0.030)* 
+ΔShare public school choice  
+ 
+0.031 
+ 
+ 
+-0.003 
+0.000 
+ 
+ 
+(0.039) 
+ 
+ 
+(0.017) 
+(0.017) 
+ΔNeighbourhood overexposure 
+ 
+ 
+0.945 
+ 
+0.872 
+0.765 
+ 
+ 
+ 
+(0.067)** 
+ 
+(0.050)** 
+(0.055)** 
+ΔExpected exposure by location 
+ 
+ 
+ 
+1.776 
+0.610 
+0.680 
+ 
+ 
+ 
+ 
+(0.756)* 
+(0.261)* 
+(0.292)* 
+Observations  
+181 
+181 
+181 
+181 
+181 
+181 
+R-squared  
+0.10 
+0.12 
+0.84 
+0.14 
+0.85 
+0.88 
+Demographic controls 1993  
+ 
+ 
+ 
+ 
+ 
+x 
+Note: See Table 2 a. 
+ 
+
+IFAU – School choice and segregation 
+29 
+The overall impression from the results presented in Table 2 a and Table 2 b is that the 
+associations between independent school choice and school segregation are robust 
+across specifications and that the estimates remain statistically significant also when 
+accounting for neighbourhood sorting. This result corresponds well to what we found in 
+Figure 4. The conditional OLS estimate in Table 2 a, column 6, is 0.034. To gain further 
+understanding of the magnitude of this estimate, we can scale it in terms of standard 
+deviations, and conclude that the predicted change given the average increase in 
+independent choice (0.034*0.057) corresponds to 0.32 of a standard deviation in the 
+1993 municipality distribution of school segregation. Alternatively, we can relate the 
+estimate to the overall growth in school segregation in our sample which amounts to 
+0.003 (see Table 1): the change predicted by independent choice is thus associated with 
+as much as 65 percent of the change in school segregation over time.31 The actual 
+increase in segregation between immigrants and natives is however small, compared to 
+the corresponding increase in the immigrant background dimension which is 0.02. 
+Independent choice is associated with 17 percent of this growth in school segregation. 
+These estimates imply that immigrant/native students have moved from being 0.2 to 0.4 
+percent more likely to meet a schoolmate of their own group, compared to what would 
+be the case if pupils were allocated randomly. Similarly, the students of 
+immigrant/Swedish background have moved from being 0.5 to 0.9 percent more likely 
+to have a schoolmate of their own group. The absolute increase in overexposure that can 
+potentially be attributed to school choice is therefore slightly higher for immigrant 
+background, compared to the immigrant/native dimension. 
+The results also lend further support to the graphical analysis which showed that 
+school segregation largely follows patterns of residential sorting, also in the post-reform 
+period when choice may be exercised. Unconditional associations (in our first 
+difference-model) indicate that residential segregation explains 18 percent of the 
+variation in school segregation between immigrants and natives, and 84 percent of the 
+variation in school segregation between pupils of immigrant/Swedish background.32 
+Changes in school choice, however, explain between 9–12 percent of the variation, 
+                                                 
+31 We arrive at this ratio with the following calculation: (0.057x0.034)/0.003=0.65. 
+32 R-sqaured is lower when we study immigrant status because we have fewer immigrants in the data (compared to 
+students with immigrtant background) and for small municipalities this introduces noise in the measurement of 
+school- and neighbourhood segregation. When we limit the sample to the 90 largest municipalities, R-sqared 
+increases to 0.55 and the point estimates remain unchanged.  
+
+30 
+IFAU - School choice and segregation 
+while the expected overexposure by independent schools’ location patterns explain 
+between 9–14 percent. 
+Next, we focus on the results for segregation by socioeconomic background (Table 3 
+a, for parental income, and Table 3 b, for parental education). Again, we see that in 
+column 1, there is a positive and statistically significant association between own-group 
+overexposure, i.e. school segregation, and school choice. From column 2 and onwards, 
+separating overall school choice into independent school choice and public school 
+choice, it is clear that results differ for parental income and education. For the former, 
+independent school choice is more important, whereas for parental education, public 
+school choice drives the association. Similar to the findings in the previous tables, 
+catchment area sorting is a strong predictor of school segregation with R-squared in the 
+range 0.45–0.55, but there is no association between school segregation and expected 
+segregation given independent schools’ locations. We can therefore rule out that 
+endogenous location of independent schools has contributed to increased school 
+segregation in Sweden. 
+The remaining columns in Table 3 a and Table 3 b (column 5 and onwards) show 
+that the associations between school choice and school segregation are robust both to 
+accounting for residential sorting, and to pre-reform municipality demographics. 
+Notably, in the conditional models, segregation by parental education is associated with 
+both public and private choice. The magnitude of the public choice estimate in column 
+6, Table 3 b, implies that the average (8.6 percentage point) increase in the fraction of 
+students opting out to an alternative public school is associated with an additional 
+probability to be exposed to a school-mate from one’s own group by 0.007 percent, 
+which corresponds to 25 percent of the standard deviation in the 1993 municipality 
+distribution. 
+ 
+ 
+
+IFAU – School choice and segregation 
+31 
+Table 3 
+Table 3 a. First difference model of change in school segregation between pupils of 
+high/low parental income 
+ 
+ΔOwn-group overexposure: high/low parental income 
+ 
+(1) 
+(2) 
+(3) 
+(4) 
+(5) 
+(6) 
+ΔShare total choice  
+0.053 
+ 
+ 
+ 
+ 
+ 
+ 
+(0.021)* 
+ 
+ 
+ 
+ 
+ 
+ΔShare indep. school choice  
+ 
+0.083 
+ 
+ 
+0.050 
+0.072 
+ 
+ 
+(0.031)** 
+ 
+ 
+(0.029)+ 
+(0.034)* 
+ΔShare public school choice  
+ 
+0.021 
+ 
+ 
+0.011 
+0.020 
+ 
+ 
+(0.034) 
+ 
+ 
+(0.026) 
+(0.028) 
+ΔNeighbourhood overexposure 
+ 
+ 
+0.608 
+ 
+0.600 
+0.612 
+ 
+ 
+ 
+(0.041)** 
+ 
+(0.040)** 
+(0.043)** 
+ΔExpected exposure by location 
+ 
+ 
+ 
+0.346 
+-0.326 
+-0.285 
+ 
+ 
+ 
+ 
+(0.238) 
+(0.237) 
+(0.279) 
+Observations 
+184 
+184 
+184 
+184 
+184 
+184 
+R-squared 
+0.05 
+0.05 
+0.55 
+0.01 
+0.56 
+0.58 
+Demographic controls 1993 
+ 
+ 
+ 
+ 
+ 
+x 
+Note: See Table 2 a. 
+ 
+Table 3 b. First difference model of change in school segregation between pupils of 
+high/low parental education 
+ 
+ΔOwn-group overexposure: high/low parental education 
+ 
+(1) 
+(2) 
+(3) 
+(4) 
+(5) 
+(6) 
+ΔShare total choice  
+0.046 
+ 
+ 
+ 
+ 
+ 
+ 
+(0.020)* 
+ 
+ 
+ 
+ 
+ 
+ΔShare indep. school choice  
+ 
+0.030 
+ 
+ 
+0.052 
+0.091 
+ 
+ 
+(0.036) 
+ 
+ 
+(0.031)+ 
+(0.032)** 
+ΔShare public school choice  
+ 
+0.063 
+ 
+ 
+0.059 
+0.081 
+ 
+ 
+(0.027)* 
+ 
+ 
+(0.023)* 
+(0.023)** 
+ΔNeighbourhood overexposure 
+ 
+ 
+0.532 
+ 
+0.529 
+0.543 
+ 
+ 
+ 
+(0.060)** 
+ 
+(0.057)** 
+(0.056)** 
+ΔExpected exposure by location 
+ 
+ 
+ 
+0.012 
+-0.262 
+-0.236 
+ 
+ 
+ 
+ 
+(0.145) 
+(0.167) 
+(0.129)+ 
+Observations  
+184 
+184 
+184 
+184 
+184 
+184 
+R-squared  
+0.04 
+0.04 
+0.45 
+0.00 
+0.49 
+0.53 
+Demographic controls 1993 
+ 
+ 
+ 
+ 
+ 
+x 
+Note: See Table 2 a. 
+ 
+
+32 
+IFAU - School choice and segregation 
+To sum up our key findings, we conclude that neighbourhood sorting is the most 
+important contributor to school segregation, also in the post-reform period when school 
+choice was in practice. However, parental school choice is associated with an increase 
+in school segregation over and above the segregation we should expect by residential 
+sorting patterns. 
+An important question is then whether the estimates are large or small in magnitude? 
+As we have described above, the estimates indicate that an average increase in parental 
+choice is related to 65 percent of the overall increase in segregation between immigrants 
+and natives, and 17 percent of the overall change between immigrant background and 
+Swedish background pupils, but it is unclear whether we should regard the overall 
+changes as large or small. To address this question, we turn to international evidence on 
+school segregation based on PISA data. Schnepf (2004) shows that in a sample of 10 
+western countries, school segregation between children of immigrant/native 
+background, measured with the dissimilarity index, ranges from 0.4 (Switzerland) to 
+above 0.6 (Canada, U.K. and the U.S.). In this sample Sweden lies somewhere in the 
+middle of the distribution at 0.5. As a comparison, we estimate school segregation in the 
+same dimension applying the dissimilarity index to our data, and find that school 
+segregation between immigrants and natives has increased from 0.36 to 0.41, and that 
+the corresponding change between students of immigrant/Swedish background is 0.41 
+to 0.47 between 1993 and 2009. Under the assumption that school choice can explain 65 
+and 17 percent of these changes respectively, the associations between school choice 
+and segregation would imply relatively small shifts in the international distribution. 
+Similarly, Sweden seems to still rank among the least segregated countries if we study 
+segregation by social background. Jenkins et al. (2008) find that in a sample of 27 
+industrialised countries, a large majority of the countries have a dissimilarity index of 
+school segregation between 0.3–0.4, when comparing children of high/low family 
+background.33 Although not fully comparable as we cannot define high/low family 
+background in the same way as Jenkins et al., we adopt the dissimilarity index to our 
+data and find that between 1993 and 2009 school segregation between high/low parental 
+education increased from 0.23 to 0.25. This is a relatively small change and Sweden 
+                                                 
+33 Jenkins et al. (2008) define high (low) family background by whether a parental occupation index is above (below) 
+the national median. 
+
+IFAU – School choice and segregation 
+33 
+would still rank among the least segregated countries in Jenkins et al.’s comparison.34 
+These international comparisons warrant some caution however: cross-country 
+variations in school segregation (both by ability and family background) at age 15 
+reflects institutional differences between school systems, such as early and late tracking, 
+and it is not clear-cut which school systems are to be considered comparable. We can 
+nevertheless conclude that the estimated associations between school choice and school 
+segregation in Sweden do not imply a shift to dramatically higher levels of 
+segregation.35 
+5.4 
+Conditions for a causal interpretation 
+So far we have emphasized that we should be very careful in interpreting our estimates 
+as anything other than showing associations between school segregation and school 
+choice. This is reasonable since the Swedish school choice reform was implemented 
+nationwide at a single point in time, and the development of school choice between 
+municipalities since choice was introduced (i.e., the variation that we exploit) is likely 
+related both to demand for alternative schools and to unobserved local trends. The 
+empirical model also includes control variables that are likely to be endogenous, most 
+notably the development of neighbourhood segregation that in itself might have been 
+affected by the introduction of school choice. In this section we discuss sensitivity 
+analyses that address these concerns. 
+First, our measures of choice capture the fractions of students that opt out from their 
+assigned schools. This is a measure that will reflect both supply and demand for 
+schooling alternatives. While the reform can be argued to constitute an exogenous shift 
+in the supply of independent schools and the possibility to opt out to a non-assigned 
+public school, the demand side is arguably endogenous and correlated with municipality 
+demographics. For a causal interpretation of our estimates, we need to exploit variation 
+that is due only to the supply of choice opportunities. In a sensitivity analysis, we 
+therefore make use of municipality variation in the fraction of independent schools (as 
+opposed to the fraction of independent school students), and in the Herfindahl index, as 
+                                                 
+34 Note that here we refer to the unadjusted dissimilarity index, while we in Appendix Figure A2 show the index of 
+systematic dissimilarity. 
+35 An alternative approach to interpreting the size of the estimates is to relate them to the maximum amount of 
+overexposure that would occur under complete isolation of the two groups. For example, overexposure under 
+complete isolation of pupils with Swedish/foreign background amounts to 1.17 (1.32) in 1993 (2009). As such, the 
+shift in segregation predicted by school choice, from an overexposure ratio of 1.0005 to 1.0085, is to be considered 
+small. 
+
+34 
+IFAU - School choice and segregation 
+alternative measures of choice.36 The fraction of independent schools is more likely to 
+reflect the supply-side driven variation as it captures the establishment of new schools 
+in the market, net of the actual enrolment of students. The Herfindahl index (here based 
+on public schools’ market shares only) is an index of the degree of competition in the 
+market, and captures whether there are only very few or many schools available to 
+choose among in a given municipality. We fix the Herfindahl index at 1 (i.e., no 
+competition and no choice) in the pre-reform period, and exploit the change over time in 
+the choice opportunities that relate to the number of public schools (and school sizes) in 
+each municipality. In Table 4, panel A, we show that the associations between school 
+choice and school segregation are robust also when we use the supply-side variation in 
+choice. In order to scale these associations by the fractions of pupils opting out, as in 
+previous tables, panel B presents IV estimates where independent and public school 
+choice have been instrumented with the supply-side measures of choice opportunities. 
+These coefficients should be compared to the corresponding OLS estimates presented in 
+column 6 of Tables 2–3. When it comes to independent school choice, we find that the 
+IV estimates are relatively close to the corresponding OLS estimates. Diversely, the IV 
+estimate of the association between public choice and segregation between pupils of 
+high/low parental education is more than twice as high as the corresponding OLS 
+estimate, and the public choice IV estimate concerning segregation by parental income 
+is much larger than the OLS estimate. The key message from this sensitivity analysis is 
+therefore that the associations between parental choice and school segregation are 
+robust also to using supply-driven variation in parental choice, and if anything the 
+associations are stronger. 
+Second, we address the concern that neighbourhood segregation is endogenous and 
+may have evolved differently because of the possibility to opt out of the assigned 
+school. We expand the IV model and in panel C show results from a specification where 
+neighbourhood segregation in 1993 is used as an instrument for the change in 
+neighbourhood segregation between 1993 and 2009. The purpose of this specification is 
+to use only the change in neighbourhood sorting that is induced by the pre-reform level 
+of the same variable, and to purge the estimates from endogenous neighbourhood 
+segregation that may be the result of changes in school segregation or of the choice 
+                                                 
+36 The Herfindahl index is given by 𝐻= ∑
+𝑠𝑖
+2
+𝑁
+𝑖=1
+, where s is the market share (i.e., share of pupils) of school i, and N 
+is the number of schools. The index ranges from 1/N to 1. The higher the value of the index, the lower is competition. 
+
+IFAU – School choice and segregation 
+35 
+reform per se (reverse causality). The identifying assumption is that neighbourhood 
+sorting in 1993 does not impact the change in school segregation, over and above the 
+impact on changes in neighbourhood sorting. The estimates in panels B and C are in 
+most cases very similar, which indicates that reverse causality is not a cause for 
+concern. The exception is column 2 where both estimates and standard errors are 
+affected. This is most likely because the predictive power of the instrument is very low 
+in this case (F-test 6. 58). 
+Finally, for a causal interpretation of the estimates, we also need to rule out that 
+unobserved factors, correlated with choice and school segregation, give rise to the 
+observed associations. The first difference specification and the inclusion of pre-reform 
+municipality demographics, imply that we should net out any time-invariant munici-
+pality traits that are correlated with the expansion of choice. It is also important to 
+emphasize that we are able to account for the segregation that would occur in the case 
+all students attended their assigned public schools. Other than the possibility to opt out, 
+it is difficult to come up with explanations for the excess segregation over and above the 
+assigned-school segregation. Despite this, for a causal interpretation we still need to 
+impose the strong assumption of no other confounders, i.e., neither unobserved regional 
+trends nor shocks that are correlated with choice.37  
+The assumption that high vs. low choice municipalities would follow parallel trends 
+had school choice not been introduced is untestable. However, we can investigate its 
+plausibility by looking at pre-reform trends in segregation and whether they are 
+correlated with future expansion of choice (i.e., parallel trends among high- and low-
+choice municipalities in the pre-reform period). Figure 3 indicates that for immigrant 
+background and parental education, high- and low-choice municipalities had different 
+(unconditional) trends also in the pre-reform period. In panel D of Table 4, we formalize 
+the analysis of parallel trends and present ‘placebo’ estimates, where we regress pre-
+reform changes in segregation (between 1988–1992) on post-reform changes in choice, 
+conditional on the covariates in previous models. Admittedly, the pre-reform period is 
+short compared to the long post-reform period, but still gives an indication whether 
+                                                 
+37 The key identifying assumption to arrive at consistent estimates of β1 and β2 using OLS to estimate Equation (2) is 
+that Cov(∆IndepChoicem, ∆εm) = 0 and Cov(∆PubChoicem, ∆εm) = 0, conditional on the other control variables 
+included in the regression. 
+
+36 
+IFAU - School choice and segregation 
+municipalities were on diverging segregation paths already before the choice reforms 
+were introduced. 
+We find evidence that the development of independent school choice is not related to 
+pre-reform trends in school segregation in three out of four cases: the placebo estimates 
+in columns 1–3 are small and statistically insignificant. The estimate in column 4 is not 
+statistically significant, but of the same magnitude as the corresponding post-reform 
+estimate (panel B), which indicates that pre-reform trends are not parallel. Moreover, 
+the table shows strong associations between public choice and pre-reform segregation 
+trends in two out of four cases, which are of the same magnitude as the baseline post-
+reform IV estimates in panel B. This robustness analysis thus highlights that the parallel 
+trends assumption is likely not to hold in all our specifications – in particular for 
+segregation by parental education and income. Instead, the placebo tests lend more 
+support to a causal interpretation of the estimates concerning segregation between 
+immigrants and natives, as well as between students of immigrant/Swedish background.  
+The sensitivity analyses provided in this section cannot fully replace an evaluation 
+design with treated and untreated regions, which would facilitate causal inference. But 
+taken together, the associations between school choice and school segregation are robust 
+to exploiting supply-side variation in choice opportunities and to controlling for 
+endogenous neighbourhood segregation, and in the case of segregation between 
+immigrants and natives, the pre-reform trends appear to be parallel. Our empirical 
+specification attempts to control for all the relevant factors that in theory determine 
+school segregation. We cannot fully rule out that confounders are driving our results, 
+but we believe that the evidence is in favour of a causal interpretation of the association 
+between parental choice and school segregation between immigrants and natives, as 
+well as between pupils of immigrant/Swedish background. 
+ 
+ 
+ 
+
+IFAU – School choice and segregation 
+37 
+Table 4. Sensitivity analyses: First difference models of changes in school segregation 
+ 
+ΔOwn-group overexposure 
+Immigrant 
+Immigrant 
+background 
+Parental 
+income 
+Parental 
+education 
+ 
+(1) 
+(2) 
+(3) 
+(4) 
+A. 
+Reduced form 
+ 
+ 
+ 
+ 
+ΔShare of independent schools 
+0.013 
+0.028 
+0.039 
+0.051 
+ 
+(0.005)* 
+(0.014)* 
+(0.013)** 
+(0.019)** 
+ΔHerfindahl indexa (based on public school pupils) 
+-0.005 
+0.006 
+-0.032 
+-0.043 
+ 
+(0.003) 
+(0.012) 
+(0.013)* 
+(0.018)* 
+B. 
+IV 
+ 
+ 
+ 
+ 
+ΔShare indep. school choice  
+0.027 
+0.077 
+0.066 
+0.086 
+ 
+(0.012)* 
+(0.034)* 
+(0.040) 
+(0.058) 
+ΔShare public school choice  
+0.012 
+-0.039 
+0.107 
+0.144 
+ 
+(0.013) 
+(0.045) 
+(0.056)+ 
+(0.071)* 
+C. 
+IV – instrumenting also neighbourhood overexposure 
+ΔShare indep. school choice  
+0.027 
+0.048b 
+0.067 
+0.088 
+ 
+(0.012)* 
+(0.044) 
+(0.041)+ 
+(0.058) 
+ΔShare public school choice  
+0.016 
+-0.030b 
+0.102 
+0.135 
+ 
+(0.013) 
+(0.150)* 
+(0.057)+ 
+(0.074)+ 
+ΔNeighbourhood overexposure  
+0.095 
+1.353b 
+0.691 
+0.619 
+ 
+(0.061) 
+(0.240)** 
+(0.082)** 
+(0.068)** 
+D. 
+IV – pre-reformc 
+ 
+ 
+ 
+ 
+ΔShare indep. school choice  
+-0.004 
+0.005 
+-0.005 
+0.060 
+ 
+(0.005) 
+(0.011) 
+(0.043) 
+(0.043) 
+ΔShare public school choice  
+0.002 
+-0.006 
+0.100 
+0.093 
+ 
+(0.006) 
+(0.010) 
+(0.044)* 
+(0.046)* 
+ 
+ 
+ 
+ 
+ 
+Observations 
+181 
+181 
+184 
+184 
+F-test on instrument 
+ 
+ 
+ 
+ 
+Share of independent schools 
+79.87 
+84.63 
+142.35 
+148.02 
+Herfindahl index (based on public school pupils) 
+18.71 
+18.46 
+22.67 
+22.31 
+Neighbourhood overexposure in 1993 
+42.55 
+6.58 
+64.27 
+123.48 
+ 
+ 
+ 
+ 
+ 
+Demographic controls 1993 
+x 
+x 
+x 
+x 
+Control for neighbourhood overexposure 
+Xd 
+Xd 
+Xd 
+Xd 
+Control for expected exposure by location 
+x 
+x 
+x 
+x 
+Notes: First difference regressions of the change (2009–1993) in own-group overexposure on measures of changes in 
+school choice. In panel B, the shares of pupils opting out to independent and public schools are instrumented using the 
+fraction of independent schools, and the Herfindahl index. The reduced forms are shown in panel A. In Panel C the 
+potentially endogenous control for the change in neighbourhood segregation is instrumented using the pre-reform (1993) 
+level of the same variable. For immigrant background (column 2) the instrument is very weak and results are not shown. 
+a) The Herfindahl index is set to 1 in all municipalities in the pre-reform period. b) These estimates come from a 
+specification without the 1993 demographic controls. The reason is that the instrument for the change in neighbourhood 
+segregation is too weak in a model with covariates. c) The change in pre-reform segregation (1992–1988) is regressed on 
+post-reform changes in choice. The number of observations is reduced to 174 in columns 1–2, panel D. d) Controls for 
+neighbourhood overexposure is included in all specifications. Note that the estimate for this variable is shown only in 
+panel C, i.e., for the specification where the change in neighbourhood overexposure is instrumented with the level of 
+neighbourhood overexposure in 1993. Demographic controls in 1993 are listed in Table 1. Robust standard errors in 
+parentheses. + significant at 10%; * significant at 5%; ** significant at 1%. 
+
+38 
+IFAU - School choice and segregation 
+6 
+Concluding discussion 
+We have conducted an exploratory study trying to gain a deeper understanding of the 
+potential sources behind the increased school segregation in Sweden since the 
+implementation of a school choice reform in the early 1990s. To address the question of 
+which are the most important mechanisms behind school segregation, we reason that the 
+three main determinants are neighbourhood sorting, parental choice and indirect cream 
+skimming through independent schools’ location choices. We are able to assess these 
+three components, exploiting a policy change that introduced generalized school choice 
+in Sweden: prior to the reform, students were assigned to their neighbourhood school 
+through catchment areas, whereas after the reform parental school choice and location 
+decisions by independent schools became factors that could influence school 
+segregation. Variation in these determinants is explored both over time (pre- and post 
+reform) and across space, since school choice opportunities have evolved very 
+differently across regions in Sweden. Despite the existence of this reform and the 
+regional variation in choice opportunities it created, it is very challenging to separately 
+identify the importance of each of these mechanisms. Does school choice generate 
+school segregation, or is demand for choice higher in highly segregated areas? Is the 
+evolution of neighbourhood segregation exogenous, or is it a reaction to increased 
+choice opportunities? We simply cannot say with certainty that school segregation in 
+regions with a lot of choice opportunities after the reform, would have evolved similarly 
+to segregation in the regions without choice opportunities, had the reform not been 
+implemented.  
+Despite these challenges we have been able to reveal a number of interesting 
+findings. Sorting to neighbourhoods is the strongest predictor for school segregation, 
+also in the post-reform period when families had the possibility to opt out of their 
+assigned schools. School segregation has increased more in regions where school choice 
+has become more prevalent and has stayed roughly constant in regions with very few 
+choice opportunities, and sorting at the residential level cannot fully explain the increase 
+in school segregation. In other words, school segregation has increased more than what 
+would be the case if all pupils attended their assigned schools. The key finding of the 
+study is that choice to independent voucher schools is positively associated with 
+increased school segregation between immigrants and natives, and between pupils of 
+
+IFAU – School choice and segregation 
+39 
+immigrant/Swedish background. This association is robust to a number of specifications 
+and to sensitivity analyses that test assumptions needed for a causal interpretation of the 
+estimates.  In order to understand the magnitudes of our estimates, we compare school 
+segregation in Sweden to that of other western countries, and conclude that the changes 
+in school segregation that can be attributed to choice are relatively small, at least in an 
+international perspective. 
+What is the significance of these results for the Swedish context? Even though 
+Sweden still ranks as a low-to-medium segregated country in an international 
+comparison, it is important to follow how school segregation evolves as the independent 
+school sector keeps growing. It is also clear that although independent schools are not 
+allowed to cream-skim or to charge tuition, other policies to limit tendencies towards 
+segregation and to make schools accessible to all are possible. One example is to tie the 
+voucher to the socioeconomic background of the pupil in order to introduce a 
+compensatory element in the choice program (as already in effect in Chile and the 
+Netherlands). Another example is to assign pupils by way of a lottery when an 
+independents school is oversubscribed (as is the case for Charter schools in the US), and 
+to provide information about school quality that is accessible to all parents. When it 
+comes to more strict regulations regarding where independent schools should locate 
+(such as for Charter schools), our results do not suggest that location patterns so far 
+have contributed to segregation in Sweden. 
+Our results are of great interest in an international context. Several countries are 
+observing an expanding sector of non-public schools and/or experimenting with school 
+choice policies. If these countries wish to introduce choice but limit pupil sorting, the 
+challenge lies in the design of the system and the various mechanisms that affect 
+parental choice and the allocation of pupils to schools. Our results suggest that also in a 
+voucher system without cream-skimming and tuition fees, school choice can result in 
+increased segregation. 
+ 
+ 
+
+40 
+IFAU - School choice and segregation 
+References 
+Andersson, E., B. Malmberg and J. Östh (2012), “Travel-to-school distances in Sweden 
+2000-2006: changing school geography with equality implications”, Journal of 
+Transport Geography, 23, pp. 35–43. 
+Åslund, O. and O. Nordström Skans (2009), “How to measure segregation conditional 
+on the distribution of covariates”, Journal of Population Economics, 22(4), pp. 971–
+981. 
+Åslund, O. and O. Nordström Skans (2009), “Will I See You at Work ? Ethnic Work-
+place Segregation in Sweden, 1985-2002”, Industrial and Labor Relations Review, 
+63(3), pp. 471–493. 
+Allen, R. and A. Vignoles (2007), “What should an index of school segregation 
+measure?”, Oxford Review of Education, 33(5), pp. 643–668. 
+Barseghyan, L., D. Clark and S. Coate (2014), “Public school choice: an economic 
+analysis”, NBER working paper 20701. 
+Bell, W. (1957), ”A probability model for the measurement of ecological segregation”, 
+Social Forces, 32(4), pp. 357–364. 
+Billings, S. B., D. J. Deming and J. E. Rockoff (2014), “School segregation, educational 
+attainment and crime: Evidence from the end of busing in Charlotte-Mecklenburg”, 
+The Quarterly Journal of Economics, 129(1), 435–476. 
+Böhlmark, A. and H. Holmlund (2012), “Lika möjligheter? Familjebakgrund och skol-
+prestationer 1988-2009”, IFAU report 2012:14. 
+Böhlmark, A. and M. Lindahl (forthcoming), ”Independent schools and long-run educa-
+tional outcomes – evidence from Sweden’s large scale voucher reform”, Economica. 
+Burgess, S., B. McConnell, C. Popper and D. Wilson (2007), “The impact of school 
+choice on sorting by ability and socio-economic factors in English secondary 
+education”, in Woessmann, L. and Peterson, P., (eds.): Schools and the equal 
+opportunity problem, pp. 273–292. MIT Press: Cambridge, US. 
+Card, D., A. Mas and J. Rothstein, “Tipping and the Dynamics of Segregation”, The 
+Quarterly Journal of Economics, 123(1), pp. 177–218. 
+
+IFAU – School choice and segregation 
+41 
+Carrington, W.J. and K. R. Troske (1997), “On measuring segregation in samples with 
+small units”, Journal of Business & Economic Statistics, 15 (4), pp. 402–409. 
+Duflo, E., P. Dupas and M. Kremer (2011), “Peer effects and the impacts of tracking: 
+evidence from a randomized evaluation in Kenya”, American Economic Review, 
+101(5), pp. 1739–1774. 
+Edmark, K., M. Frölich and V. Wondratschek (2014), “Sweden's school choice reforms 
+and equality of opportunity”, Labour Economics, 30, pp. 129-142. 
+Epple, D., and R. Romano (2008), “Educational vouchers and cream skimming”, Inter-
+national Economic Review, 49(4), pp. 1395–1435. 
+Figlio, D and J. Stone (2001), “Can Public Policy Affect Private School Cream 
+Skimming?”, Journal of Urban Economics, 49(2), pp. 240–266. 
+Fredriksson P. and J. Vlachos (2011), Reformer och resultat: Kommer regeringens 
+utbildningsreformer att ha någon betydelse? Finanspolitiska rådet. 
+Gibbons, S., S. Machin and O. Silva (2008), “Choice, Competition and Pupil Achieve-
+ment”, Journal of the European Economic Association, 6(4), pp. 912–947.  
+Grönqvist, E. and J. Vlachos (2008), “One size fits all? The effects of teacher cognitive 
+and non-cognitive abilities on student achievement”, IFAU working paper 2008:25. 
+Gustafsson, J-E. (2006), ”Barns utbildningssituation. Bidrag till ett kommunalt barn-
+index”, Stockholm. Rädda Barnen.  
+Hastings, J., T. Kane and D. Staiger “Parental Preferences and School Competition: 
+Evidence from a Public School Choice Program,” NBER Working Paper No. 11805, 
+November 2005. 
+Hellerstein, J. K. and D. Neumark (2008), “Workplace Segregation in the United States: 
+Race, Ethnicity, and Skill”, The Review of Economics and Statistics, 90(3), pp. 459–
+477. 
+Hensvik, L. (2012), “Competition, Wages and Teacher Sorting: Lessons Learned from a 
+Voucher Reform”, Economic Journal, 122(561), pp. 799–824. 
+
+42 
+IFAU - School choice and segregation 
+Holmlund, H. J. Häggblom, E. Lindahl, S. Martinson, A. Sjögren, U. Vikman och B. 
+Öckert (2014), ”Decentralisering, skolval och fristående skolor: resultat och 
+likvärdighet i svensk skola”, IFAU report 2014:25. 
+Hsieh, C.T. and M. Urquiola (2006), “The effects of generalized school choice on 
+achievement and stratification: Evidence from Chile’s voucher program”, Journal of 
+Public Economics, 90, pp.1477–1503. 
+Hutchens, R. (2004), “One Measure of Segregation”, International Economic Review, 
+45(2), pp. 555–578. 
+Jenkins, S.P., J. Micklewright and S. V. Schnepf (2008), “Social segregation in 
+secondary schools: How does England compare with other countries?”, Oxford 
+Review of Education, 34(1), pp. 21–37. 
+Ladd, H. and E. Fiske “The Uneven Playing Field of School Choice: Evidence from 
+New Zealand”, Journal of Policy Analysis and Management, 20(1), pp. 43–63. 
+Levin, H. (1998), “Educational Vouchers: Effectiveness, Choice, and Costs,” Journal of 
+Policy Analysis and Management, 17(3), pp. 373–392. 
+Lindbom, A. and Almgren, E. (2007), “Valfrihetens effekter på skolornas elevsamman-
+sättning: skolsegregationen i Sverige”, in A. Lindbom (ed.): Friskolorna och 
+framtiden – segregation, kostnader och effektivitet. 
+Malmberg, B.,E.  Andersson, and Z Bergsten (2014), “Composite geographical context 
+and school choice attitudes in Sweden: A study based on individually defined, 
+scalable neighborhoods”, Annals of the Association of American Geographers, 
+104(4), pp. 869–888. 
+Massey, D. S. and N. A. Denton (1988), ”The Dimensions of Residential Segregation”, 
+Social Forces, 67(2), pp. 281–315. 
+MacLeod and Urquiola (2009) “Anti-Lemons: School Reputation and Educational 
+Quality”, NBER Working Paper No. 15112. 
+MacLeod, B. and M. Urquiola (2012), “Competition and educational productivity: 
+Incentives writ large”, IZA Discussion paper 7063. 
+
+IFAU – School choice and segregation 
+43 
+Ministry of Education (2011), Uppdrag att stödja skolor i utanförskapsområden, 
+U2011/6863/S 
+National Agency for Education (2012), Likvärdig utbildning i svensk grundskola? En 
+kvantitativ analys av likvärdighet över tid, report 374. 
+National Alliance for Public Charter Schools (NAPCS, 2014). The Public Charter 
+Schools Dashboard. Downloaded from http://www.publiccharters.org/dashboard-
+/schools/year/2014. Downloaded 12 February 2015. 
+Nechyba, T. J. (2006), “Income and Peer Quality Sorting in Public and Private 
+Schools,”, in Hanushek, E. and F. Welch (eds.), Handbook of the Economics of 
+Education, North Holland. 
+Nordström Skans, O. and O. Åslund (2009), Segregationen in storstäderna, SNS 
+välfärdsrapport. 
+Östh, J., E. Andersson, and B. Malmberg (2013), “School choice and increasing perfor-
+mance difference: a counterfactual approach”, Urban Studies, 50(2), pp. 406–424. 
+Schnepf, S. V. (2004), “How different are immigrants? A cross-country and cross-
+survey analysis of educational achievement”, Southampton Statistical Sciences 
+Research Institute Applications & Policy Working Paper A04/15. 
+Shafiq, M. N. and J. P. Myers (2014), “Educational Vouchers and Social Cohesion: A 
+Statistical Analysis of Student Civic Attitudes in Sweden, 1999-2009”, American 
+Journal of Education, 121(1), pp. 111-136. 
+Spaiser, V., P. Hedström, K. Jansson, M. Nordvik and D Sumpter. ”Identifying complex 
+dynamics in social systems: The case of school segregation”, Mimeo, Uppsala 
+University. 
+SVT (2013), “Friskolor väljer bort besvärliga elever”. Downloaded from 
+http://www.svt.se/ug/friskolor-valjer-bort-besvarliga-elever. Published 28 oktober 
+2013. Downloaded 28 January 2013. 
+Söderström, M. and R. Uusitalo (2010), ”School choice and segregation: evidence from 
+an admission reform”, Scandinavian Journal of Economics, 122(1), pp. 55–76. 
+
+44 
+IFAU - School choice and segregation 
+Wondratschek, V., K. Edmark and M. Frölich (2013), “The short and long-term effects 
+of school choice on student outcomes – evidence from a school choice reform in 
+Sweden”, Annals of Economics and Statistics, 111-112, pp. 71–102. 
+Wong, D.W.S., (1997), “Spatial dependency of segregation indices”, The Canadian 
+Geographer, 41(2), pp. 128–136. 
+ 
+ 
+
+IFAU – School choice and segregation 
+45 
+Appendix 1: School choice in Sweden 
+Table A 1. Percent pupils in different groups 
+All 
+ 
+10.39 
+Immigrant 
+ 
+8.79 
+Native 
+ 
+10.49 
+Immigrant background 
+11.02 
+Swedish background 
+10.28 
+Parental income above median 
+ 
+12.25 
+Parental income below median 
+ 
+8.83 
+Parental years of schooling above median 
+ 
+13.73 
+Parental years of schooling below median 
+ 
+7.14 
+Figure A 1 shows the share of students opting out to independent schools and to non-
+assigned public in Sweden between 1988 and 2009.38 The share of students in private 
+non-voucher schools before the reform is approximated to zero.  
+ 
+Figure A 1. The fraction of pupils opting out to independent and non-assigned public 
+schools 
+                                                 
+38 The share of independent-school students includes students from all voucher-receiving schools (including 
+International schools and those special pedagogy schools for which we lack grades). 
+0
+.05
+.1
+.15
+.2
+Fraction opting out
+1990
+1995
+2000
+2005
+2010
+Year
+Independent school
+Non-assigned public school
+
+46 
+IFAU - School choice and segregation 
+Appendix 2: Segregation measured as overexposure 
+We use the measure of own-group overexposure presented in Åslund and Nordström 
+Skans (2009). We assume that the population consists of M students and is divided into 
+two groups g of size Ng, and define student i:s exposure to her own group g as follows: 
+𝑒𝑖𝑔𝑠=
+1
+𝑛𝑠−1 ∑
+𝐷𝑗𝑔
+𝑗∈𝑠
+𝑗≠𝑖
+                                                                                           A2.1 
+where D=1 for individuals belonging to group g, and n is the number of students in 
+school s. This is simply a measure of the number of school mates belonging to the same 
+group g, divided by the total number of school mates (i.e. school size minus one). 
+Average own-group exposure is given by: 
+𝑒̅ =
+1
+𝑀∑
+∑
+𝑒𝑖𝑔𝑠
+𝑖∈𝑔
+2
+𝑔=1
+                                                                                          A2:2 
+where student i:s exposure to her own group is summed over all individuals in group g, 
+and next summed over the two groups in the population, and divided with the size of the 
+population. Hence, eത measures own-group exposure for all students, regardless which 
+group they belong to. We next consider how these measures of exposure can be used to 
+account for segregation under random allocation. If we assume that students were 
+randomly allocated to schools, each school mate of a given student would belong to 
+group 1 with probability N1/M and to group 2 with probability N2/M. That is, under 
+random allocation, we would expect exposure to a specific group to be equal to the 
+fraction of students belonging to that group in the population as a whole. We can 
+therefore define average expected own-group exposure under random allocation as: 
+𝑒̅𝑟𝑎𝑛𝑑𝑜𝑚=
+1
+𝑀∑
+∑
+ቀ
+𝑁𝑔
+𝑀ቁ
+𝑖𝑔𝑠
+𝑖∈𝑔
+2
+𝑔=1
+                                                                       A2:3 
+Now we can relate actual own-group exposure to expected exposure under random 
+allocation, and we obtain the own-group overexposure ratio 𝑅=
+𝑒̅
+𝑒̅𝑟𝑎𝑛𝑑𝑜𝑚.  
+Maximum overexposure (𝑅𝑚𝑎𝑥) occurs under complete isolation of the two groups. 
+𝑅𝑚𝑎𝑥 depends on the group shares of the two groups, and reaches 2 for groups of equal 
+size. In our application 𝑅𝑚𝑎𝑥 is 2 for segregation by education and income background, 
+where the high/low education/income groups are defined by the median in each cohort’s 
+distribution. For segregation between immigrants and natives, and between pupils of 
+Swedish and foreign background, 𝑅𝑚𝑎𝑥 ranges between 1.13–1.20 and 1.17–1.30, 
+respectively, depending on the group proportions in different cohorts. 
+
+IFAU – School choice and segregation 
+47 
+We can also define expected own-group exposure, given independent schools’ 
+locations. The aim of this hypothetical exercise is to understand whether it is 
+independent schools’ locations, as opposed to parental choice, that give rise to 
+segregation trends. The independent school student population is assumed to have the 
+average characteristics of the neighbourhood (SAMS-unit) where the school is located. 
+In other words, we assign the expected values given by the neighbourhood where the 
+school is located, to the fractions of pupils of each group that should be expected to go 
+to the school given its location. Remaining students are assigned the population mean. 
+The intuition is that we want to estimate to what extent independent schools are located 
+in areas that deviate from the population average. 
+𝑒̅𝑖𝑛𝑑𝑒𝑝=
+1
+𝑀ቆ∑
+ቈ∑
+൬
+𝑁𝑔,𝑝,𝑛𝑏
+𝑀𝑝,𝑛𝑏൰
+𝑖𝑝𝑠
+𝑖∈𝑝
++ ∑
+ቀ
+𝑁𝑔
+𝑀ቁ
+𝑖𝑚𝑠
+𝑖∈𝑚
+቉
+2
+𝑔=1
+ቇ                                        A2:4 
+where p=expected private (independent) school students (i.e., the fraction of students of 
+each group that is expected to attend the school if it were to admit students that are 
+representative of the SAMS-unit); m=expected municipal (public school) students and 
+𝑁𝑔,𝑝,𝑛𝑏
+𝑀𝑝,𝑛𝑏 is the group share in the neighbourhood where the independent school is located, 
+and 
+𝑁𝑔
+𝑀 is the population average of group g. Not that we expect 𝑅=
+𝑒̅𝑖𝑛𝑑𝑒𝑝
+𝑒̅𝑟𝑎𝑛𝑑𝑜𝑚> 1 if 
+independent schools sort into neighbourhoods that imply higher own-group exposure 
+than the average, and 𝑅=
+𝑒̅𝑖𝑛𝑑𝑒𝑝
+𝑒̅𝑟𝑎𝑛𝑑𝑜𝑚< 1 if schools sort into neighbourhoods that imply 
+lower own-group exposure than the average.  
+Figure A 2 shows how the measure of own-group overexposure corresponds to 
+Carrington and Troske’s (1997) index of systematic dissimilarity. 
+
+48 
+IFAU - School choice and segregation 
+ 
+Figure A 2. A comparison of school segregation measured with the overexposure index 
+and the index of systematic dissimilarity 
+Note: The dissimilarity index uses Carrington and Troske’s (1997) adjustment for segregation under random 
+allocation. 
+ 
+.22 .24 .26 .28 .3 .32
+Dissimilarity index
+1 1.0051.011.0151.021.025
+Overexposure
+1990
+1995
+2000
+2005
+2010
+Year
+Immigrant
+.3 .32 .34 .36 .38 .4
+Dissimilarity index
+1
+1.02 1.04 1.06 1.08
+Overexposure
+1990
+1995
+2000
+2005
+2010
+Year
+Immigrant background
+.13
+.14
+.15
+.16
+Dissimilarity index
+1.01 1.02 1.03 1.04 1.05
+Overexposure
+1990
+1995
+2000
+2005
+2010
+Year
+Parental income
+.165 .17 .175 .18 .185
+Dissimilarity index
+1.03 1.04 1.05 1.06 1.07
+Overexposure
+1990
+1995
+2000
+2005
+2010
+Year
+Parental education
+Overexposure
+Dissimilarity index
+
+ 
+ 
+Publication series published by IFAU – latest issues 
+Rapporter/Reports 
+2015:1 
+Albrecht James, Peter Skogman Thoursie and Susan Vroman ”Glastaket och föräldraförsäk-
+ringen i Sverige” 
+2015:2 
+Persson Petra ” Socialförsäkringar och äktenskapsbeslut” 
+2015:3 
+Frostenson Magnus ”Organisatoriska åtgärder på skolnivå till följd av lärarlegitimations-
+reformen” 
+2015:4 
+Grönqvist Erik and Erik Lindqvist ”Kan man lära sig ledarskap? Befälsutbildning under 
+värnplikten och utfall på arbetsmarknaden” 
+2015:5 
+Böhlmark Anders, Helena Holmlund and Mikael Lindahl ”Skolsegregation och skolval” 
+Working papers 
+2015:1 
+Avdic Daniel “A matter of life and death? Hospital distance and quality of care: evidence from 
+emergency hospital closures and myocardial infarctions” 
+2015:2 
+Eliason Marcus “Alcohol-related morbidity and mortality following involuntary job loss” 
+2015:3 
+Pingel Ronnie and Ingeborg Waernbaum “Correlation and efficiency of propensity score-based 
+estimators for average causal effects” 
+2015:4 
+Albrecht James, Peter Skogman Thoursie and Susan Vroman “Parental leave and the glass 
+ceiling in Sweden” 
+2015:5 
+Vikström Johan “Evaluation of sequences of treatments with application to active labor market 
+policies” 
+2015:6 
+Persson Petra “Social insurance and the marriage market” 
+2015:7 
+Grönqvist Erik and Erik Lindqvist “The making of a manager: evidence from military officer 
+training” 
+2015:8 
+Böhlmark Anders, Helena Holmlund and Mikael Lindahl “School choice and segregation: 
+evidence from Sweden” 
+Dissertation series 
+2014:1 
+Avdic Daniel “Microeconometric analyses of individual behaviour in public welfare systems” 
+2014:2 
+Karimi Arizo “Impacts of policies, peers and parenthood on labor market outcomes” 
+2014:3 
+Eliasson Tove “Empirical essays on wage setting and immigrant labor market opportunities” 
+2014:4 
+Nilsson Martin “Essays on health shocks and social insurance” 
+2014:5 
+Pingel Ronnie “Some aspects of propensity score-based estimators for causal inference” 
+2014:6 
+Karbownik Krzysztof “Essays in education and family economics” 

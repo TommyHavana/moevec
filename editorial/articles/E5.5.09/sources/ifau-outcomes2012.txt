@@ -1,0 +1,3625 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Independent schools and  
+long-run educational outcomes 
+– evidence from Sweden´s large scale  
+voucher reform 
+ 
+Anders Böhlmark 
+Mikael Lindahl 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+WORKING PAPER 2012:19 
+ 
+ 
+
+ 
+ 
+The Institute for Evaluation of Labour Market and Education Policy (IFAU) is a 
+research institute under the Swedish Ministry of Employment, situated in Uppsala. 
+IFAU’s objective is to promote, support and carry out scientific evaluations. The 
+assignment includes: the effects of labour market and educational policies, studies of the 
+functioning of the labour market and the labour market effects of social insurance 
+policies. IFAU shall also disseminate its results so that they become accessible to 
+different interested parties in Sweden and abroad. 
+ 
+IFAU also provides funding for research projects within its areas of interest. The 
+deadline for applications is October 1 each year. Since the researchers at IFAU are 
+mainly economists, researchers from other disciplines are encouraged to apply for 
+funding. 
+ 
+IFAU is run by a Director-General. The institute has a scientific council, consisting of a 
+chairman, the Director-General and five other members. Among other things, the 
+scientific council proposes a decision for the allocation of research grants. A reference 
+group including representatives for employer organizations and trade unions, as well as 
+the ministries and authorities concerned is also connected to the institute. 
+ 
+Postal address: P.O. Box 513, 751 20 Uppsala 
+Visiting address: Kyrkogårdsgatan 6, Uppsala 
+Phone: +46 18 471 70 70 
+Fax: +46 18 471 70 71 
+ifau@ifau.uu.se 
+www.ifau.se 
+ 
+ 
+Papers published in the Working Paper Series should, according to the IFAU policy, 
+have been discussed at seminars held at IFAU and at least one other academic forum, 
+and have been read by one external and one internal referee. They need not, however, 
+have undergone the standard scrutiny for publication in a scientific journal. The purpose 
+of the Working Paper Series is to provide a factual basis for public policy and the public 
+policy discussion. 
+ 
+ 
+ISSN 1651-1166 
+
+IFAU - Independent schools and long-run educational outcomes 
+1 
+ 
+Independent schools and long-run educational outcomes  
+– evidence from Sweden´s large scale voucher reform* 
+by 
+Anders Böhlmark and Mikael Lindahl 
+October 22, 2012 
+Abstract 
+This paper evaluates average educational performance effects of an expanding 
+independent- school sector at the compulsory level by assessing a radical voucher 
+reform that was implemented in Sweden in 1992. Starting from a situation where all 
+public schools were essentially local monopolists, the degree of independent schools 
+has developed very differently across municipalities over time as a result of this reform. 
+We regress the change in educational performance outcomes on the increase in the share 
+of independent-school students between Swedish municipalities. We find that an 
+increase in the share of independent-school students improves average performance at 
+the end of compulsory school as well as long-run educational outcomes. We show that 
+these effects are very robust with respect to a number of potential issues, such as grade 
+inflation and pre-reform trends. However, for most outcomes, we do not detect positive 
+and statistically significant effects until approximately a decade after the reform. This is 
+notable, but not surprising given that it took time for independent schools to become 
+more than a marginal phenomenon in Sweden. We do not find positive effects on school 
+expenditures. Hence, the educational performance effects are interpretable as positive 
+effects on school productivity. We further find that the average effects primarily are due 
+to external effects (e.g., school competition), and not that independent-school students 
+gain significantly more than public-school students. 
+Keywords: school choice; independent schools; educational performance; external 
+effects 
+JEL-codes: I2, H4 
+ 
+* This is a substantially revised and updated version of the working paper “Does School Privatization Improve Educational 
+Achievement? Evidence from Sweden's Voucher Reform,” (IZA DP 3691). We are grateful to Anders Björklund, Peter Fredriksson, 
+Erik Grönqvist, Eric Hanushek, Lena Hensvik, Caroline Hoxby, Markus Jäntti, Matthew Lindquist, Dan-Olof Rooth and Jonas 
+Vlachos for valuable comments and suggestions. We thank Eskil Forsell and Arvid Olovsson for excellent research assistance. We 
+would also like to thank participants at the CESifo/PEPG economics of education conference in Munich, the IFN workshop on 
+privatization in Vaxholm, and at seminars in Gothenburg, Stockholm (SOFI) and Uppsala (IFAU). Financial support from the 
+Swedish Council for Working Life and Social Research (FAS), Jan Wallander and Tom Hedelius’ Foundation, Granholms stiftelse, 
+SCHOLAR, SUNSTRAT, and the Swedish Research Council (Vetenskapsrådet) is gratefully acknowledged. Mikael Lindahl is a 
+Royal Swedish Academy of Sciences Research Fellow supported by a grant from the Torsten and Ragnar Söderberg Foundation, 
+and also acknowledges financial support from the Scientific Council of Sweden and the European Research Council [ERC starting 
+grant 241161]. Contact: Anders Böhlmark, SOFI, Stockholm University, IFAU and CREAM. Mikael Lindahl, Department of 
+Economics, Uppsala University, CESifo, IFAU, IZA and UCLS. E-mails: anders.bohlmark@sofi.su.se, mikael.lindahl@nek.uu.se. 
+
+2 
+IFAU - Independent schools and long-run educational outcomes 
+Table of contents 
+1 
+Introduction ......................................................................................................... 3 
+2 
+Previous studies and the value added of the present study .................................. 5 
+3 
+Private schools, the voucher reform and the evolution of independent schools 
+in Sweden ............................................................................................................ 8 
+4 
+Data and variable construction .......................................................................... 14 
+5 
+The effect of the share of students attending independent schools on average 
+educational performance ................................................................................... 19 
+5.1 
+Empirical setup .................................................................................................. 19 
+5.2 
+Main Results ...................................................................................................... 21 
+6 
+Further analysis ................................................................................................. 23 
+6.1 
+Sensitivity analysis ............................................................................................ 23 
+6.2 
+Mechanisms ....................................................................................................... 36 
+6.3 
+School costs ....................................................................................................... 39 
+7 
+Conclusion and discussion ................................................................................ 42 
+References: ...................................................................................................................... 45 
+ 
+
+IFAU - Independent schools and long-run educational outcomes 
+3 
+ 
+1 
+Introduction 
+The theoretical arguments for why vouchers and school choice are expected to have 
+positive effects on overall educational performance are well known. The main argument 
+is that schools’ incentive to improve is enhanced when they must compete for students. 
+Because the money follows the student, the schools are expected to raise their quality in 
+order to attract students. By allowing for alternatives to the local public-school 
+monopoly one may also expect a better matching of students to schools and a greater 
+influx of new ideas on how to improve teaching. However, despite the theoretical 
+arguments that school choice should have a positive impact, the empirical evidence is 
+mixed.  
+One of the most interesting evaluation settings comes from the experience in 
+Sweden, which implemented a radical nation-wide voucher reform in the early 1990s. 
+The design of this reform essentially mimics the original idea proposed by Milton 
+Friedman in his classic article “The role of government in education” from 1955: it 
+introduced vouchers and free choice between public and independently run schools, 
+similar economic terms for both types of schools, and fairly few regulations restricting 
+new schools from entering the market. Before this reform, the public schools were local 
+monopolists and the few private schools that existed were not funded through vouchers 
+and therefore did not compete for students with public schools. Due to this reform, a 
+completely new sector of publicly funded but independently run schools was created, so 
+called “independent schools.”1 Importantly, the full financing of the independent 
+schools comes from the local government in the form of a voucher for each student they 
+attract. Hence, we expect a stronger economic pressure on the local public schools the 
+more students that chooses to opt out and attend independent schools. 
+Although the reform concerned the entire country, the establishment of independent 
+schools has differed widely across municipalities; indeed a sizeable fraction of the 
+municipalities still have no independent schools. Our basic evaluation strategy is to 
+relate this differential growth in the share of independent-school students to changes in 
+average educational outcomes across municipalities. We use high-quality administrative 
+data for the whole Swedish population of students born 1972-1993 who finished 
+                                                 
+1 We have decided to label these schools “independent schools” (in Swedish: “fristående skolor”) since they are 
+privately owned and operated, but publicly funded. Earlier papers by us and others sometimes instead call them 
+“private schools”, which we believe is a less apt term since it is associated with funding by student fees. 
+
+4 
+IFAU - Independent schools and long-run educational outcomes 
+compulsory school in Sweden between 1988 and 2009. We look at grades and test score 
+outcomes at the end of compulsory school.2 We are also able to follow the students as 
+they grow older and, hence, look at the effects on long-run outcomes such as high-
+school grades, university attendance and years of schooling.  
+We find that an increase in the share of independent-school students has caused an 
+increase in average educational performance. This increase is evident for both short- 
+and long-run measures and the estimates remain very similar if we control for changes 
+in a number of demographic, family background and municipality-level characteristics. 
+We also find that these positive effects are not driven by differential pre-reform trends 
+in educational outcomes and that they are very robust to a number of other issues that 
+might bias the estimates (such as grade inflation and the increased choice opportunities 
+between public schools). Interestingly, it appears that the positive effects are primarily 
+due to external effects (e.g., spill-over or competition effects) and not that independent-
+school students gain significantly more than public school students. We are also able to 
+show that a higher share of independent-school students in the municipality has not 
+generated increased school expenditures. Hence, our positive educational performance 
+effects are interpretable as positive effects on school productivity. However, for most 
+measures, we do not detect positive and statistically significant educational performance 
+effects until approximately a decade after the reform. This time lapse is notable, but not 
+surprising since it has taken time for independent schools to become more than a 
+marginal phenomenon in Sweden. 
+The paper is organized as follows. The next section provides a brief survey of the 
+previous literature as well as a discussion of our contributions in relation to existing 
+studies.  Section 3 describes the Swedish school system, the voucher reform and the 
+evolution of independent schools. Section 4 describes the data set and the variables used 
+in the estimations. Section 5 discusses the estimation strategy and reports the main 
+results for educational performance. Section 6 reports the results from a number of 
+sensitivity analyses as well as from the investigation of underlying mechanisms. Section 
+7 concludes the paper.  
+                                                 
+2 In Sweden, compulsory school means grade levels 1-9, which consists of stage 1 (grade levels 1-3), stage 2 (4-6) 
+and stage 3 (7-9). Stage 1-2 is sometimes labeled as primary school and stage 3 sometimes as lower secondary 
+school.  
+
+IFAU - Independent schools and long-run educational outcomes 
+5 
+ 
+2 
+Previous studies and the value added of the present study 
+There is an extensive literature that studies whether private (or other independent type) 
+schools are better than public schools, and a number of papers have turned to quasi-
+experiments (e.g., voucher lotteries) in order to estimate the effects of attending these 
+schools.3 However, students’ choices are likely to have external effects. School choice 
+might improve the quality of education for both private and public school students and 
+lead to improved overall educational outcomes even if the students in private schools 
+benefit no more than the students in public schools. Moreover, a reallocation of students 
+among schools can generate peer-effects that can have both positive and negative 
+effects. Only the private-school attendance effect can be estimated using small-scale 
+voucher lotteries. To estimate the overall effect, researchers typically instead need to 
+utilize large-scale school-choice reforms or peculiar institutional features of schooling 
+systems to find credible exogenous variation in the degree of choice and competition 
+across regions.  
+There is one strand of literature that evaluates choice between public schools or 
+school districts and another that focuses on choice between different types of schools. 
+We focus here on the latter literature.4 Hsieh and Urquiola (2006) estimate private 
+school-choice effects from a large-scale reform that dramatically increased school 
+choice in Chile during the 1980s. They found no impact on overall educational 
+performance. Clark (2009) evaluates a U.K. reform where high schools were allowed to 
+become autonomous (but still publicly funded) schools, the so called Grant-Maintained 
+(GM) schools. Whether a local public school became a GM school depended on 
+whether a majority of parents voted for the change. This rule in combination with vote 
+shares is used in a Regression-Discontinuity estimation framework to evaluate the 
+effects of GM schools. Clark finds large positive effects for these schools, but little 
+spillover effects on the neighborhood schools. Card, Dooley and Payne (2010) evaluate 
+whether competition between the publicly funded secular and Catholic primary schools 
+(where the former is open to all students and the latter only to students with Catholic 
+                                                 
+3 Some recent examples of such work are: Angrist et al. (2006); Hoxby and Murarka (2009); and Abdulkadiroglu et 
+al., (2011). For overviews of the literature, see Gill et al. (2007) and Bettinger (2011).  
+4 Findings from some selected studies which have estimated achievement effects of choice and competition among 
+public schools are: Positive effects are found for the U.S. (Hoxby, 2000) and for Israel (Lavy, 2008), whereas 
+Gibbons, Machin and Silva (2008) find no effect for the U.K. de Haan, Leuven and Oosterbeek (2011) investigate 
+competition effects in the Netherlands, where a universal voucher system exists. They find that fewer schools in an 
+area lead to higher pupil achievement, which they argue is because the effect of school size offsets competition 
+effects.  
+
+6 
+IFAU - Independent schools and long-run educational outcomes 
+backgrounds) lead to more efficient schools. The argument is that the more Catholic 
+families there are in an area, the more competitive pressure is put on the secular schools. 
+The authors find small positive effects from increased competition on test score gains. 
+There are also several studies of the effects of private school competition on the test 
+scores of public school students in the U.S. Hoxby (2003) and Chakrabarti (2008) study 
+the degree of vouchers offered to low-income students in the Milwaukee public schools 
+and compare, in a difference-in-differences setting, their test scores with those in similar 
+Wisconsin schools. They find positive effects on public school test scores. Figlio and 
+Hart (2010) study the effects of private school competition on the test scores of public 
+school students in Florida. Utilizing a scholarship program offered to low-income 
+students to attend private schools and variation across regions in access to private 
+schools, they find that greater degrees of competition are associated with greater 
+improvements in students’ test scores following the introduction of the program. Since 
+the estimates in these U.S. studies are for low-income students, their generalizability to 
+other groups is likely limited.5  
+Our empirical approach, to relate the differential growth in the share of independent-
+school students to changes in average educational outcomes across municipalities, is 
+similar to the approach used in Hsieh and Urquiola (2006) who utilize Chile’s voucher 
+reform and find no effect on educational outcomes. However, an advantage with our 
+study is that we do have access to outcome variables for several school cohorts leaving 
+compulsory school before the reform was implemented. We are therefore able to test for 
+the existence of differential pre-reform trends in outcome variables across 
+municipalities. If there was a higher demand for private voucher school slots in regions 
+where the quality of public schools was deteriorating, the “no-effect” estimates in Hsieh 
+and Urquiola (2006) would be expected to be downward biased. Although they 
+acknowledge and discuss this extensively, they are not able to directly test for this 
+because they lack outcome variables for the school cohorts finishing primary school 
+prior to the reform.  
+There are a few previous studies that have looked at the effects of Sweden’s 
+independent schools on grades and test scores at the end of compulsory school (Ahlin, 
+2003, Björklund et al., 2005, and Sandström and Bergström, 2005). The findings range 
+                                                 
+5 See Gill (2007) for a discussion of this literature. 
+
+IFAU - Independent schools and long-run educational outcomes 
+7 
+ 
+from statistically zero to very large effects. The first Swedish study was Sandström and 
+Bergström (2005), which used individual-level data from 30 municipalities and studied 
+the effects of the share of independent-school students on average grades and math test 
+scores for public school students in 1998. Estimating OLS and IV models they find very 
+large positive effects on math test scores. They also perform an analysis using 
+aggregated data and examine the effects of the private school share on average grades 
+for the years 1992 and 1994-1997. Using OLS they find significant positive effects, but 
+for a specification with municipality fixed effects they find insignificant effects. Ahlin 
+(2003) uses individual level data from 34 municipalities in 1998. Estimating value-
+added models she finds positive and significant effects of the share of independent-
+school students for tests scores in math but insignificant estimates for test scores in 
+English and Swedish. Björklund et al. (2005) use data on test scores for individuals 
+from 30 municipalities and on grades for the total population of pupils for the years 
+1998-2001. They estimate municipality FE models and find positive effects from the 
+share of independent-school students for English and Swedish, and mixed results for 
+math.  
+However, we believe that we can significantly extend and improve on the analysis in 
+previous papers in several important ways. First, we look at new and better outcomes. 
+Whereas previous papers have only looked at effects on grades and test scores at the end 
+of compulsory school, we are able to track the individuals over time and, hence, also 
+study medium and long-term effects (high school, university and years of schooling). In 
+fact, studying effects on long-run outcomes is an advantage compared to almost all 
+existing studies of overall effects of choice and competition.6 We also use improved 
+measures of achievement (covering almost 100% of the students) and of the share of 
+independent schooling (built on the actual cohorts graduating from compulsory school). 
+Second, we study a much longer time period, including 17 post-reform school cohorts 
+as well as 5 pre-reform school cohorts. We use a large administrative data set of the 
+whole Swedish population of individuals born 1972-1993 who finished compulsory 
+school in Sweden between 1988 and 2009. Previous papers have only looked at earlier 
+and fewer post-reform years. Because we aim to capture general equilibrium effects of 
+independent schooling, we need to allow enough time before evaluation. It takes time 
+                                                 
+6 Hsieh and Urquiola (2006) look at effects on years of schooling, but for 10-15 year old children. They do not argue 
+that this measure reflects long-term effects, but factors like age at entry, repetition, and dropout patterns.  
+
+8 
+IFAU - Independent schools and long-run educational outcomes 
+for independent schools to be established, for public schools to respond and become 
+more efficient and for students to be exposed to several years of education in 
+competitive schools (independent or public). The data also allow us to investigate 
+whether there are systematic differences in the trends in educational outcomes between 
+municipalities prior to the implementation of the reform, an important issue which is not 
+examined in the previous Swedish studies.  
+3 
+Private schools, the voucher reform and the evolution of 
+independent schools in Sweden 
+Before 1992, pupils were assigned to, and required to attend, the public school in their 
+local catchment area. The only alternative was to opt for one of the few private schools 
+that existed. However, these accounted for less than one percent of total enrollment.7 
+Most of these schools were privately funded but some received state funding. Most 
+importantly for this study, the funding of the public schools was always independent of 
+the number of pupils enrolled in the private schools. Hence, the few alternatives that 
+existed did not exert any competitive pressure on the public schools. Moreover, these 
+schools attracted a rather special selection of pupils: they were boarding schools 
+(attracting a small selection of upper-class children); schools for pupils with special 
+needs; international schools (mainly for foreign pupils); Christian-community schools; 
+special pedagogy schools (e.g., Waldorf and Montessori).  
+Through a parliamentary decision, a voucher reform was introduced in 1992. A non-
+public school that decided to apply (and all existing private schools did, except for a few 
+boarding schools) could receive approval (by the Swedish National Agency of 
+Education) to become a voucher school. As a voucher school, the students’ home 
+municipalities had to provide the school with a grant, equivalent to (most of) the 
+average per-student expenditure in the public school system for each student who 
+choose to enroll in the school.8 This new law gave rise to a new type of non-public 
+schools, “independent schools,” whose existence entirely depends on funding through 
+                                                 
+7 One has to go back to the 1920s, before the creation of folkskolan, to find a sizeable fraction of students in private 
+schools in Sweden at the compulsory level.  
+8 The minimum required funding percentage has changed over the years. The school year 1992/1993, it was 85 
+percent, and in 1995, 75 percent. It was less than 100 percent because of the extra costs involved for public schools 
+regarding special education. In 1997, the system changed yet again: the size of the voucher should basically be 
+equally large as the average cost per pupil in the respective municipality. Since 1992, however, the guiding principle 
+has always been that public and independent schools should compete on equal terms.     
+
+IFAU - Independent schools and long-run educational outcomes 
+9 
+ 
+vouchers. The law also meant that the resources devoted to a public school in the 
+student’s home municipality became strongly affected by the choices of the students, 
+since a student’s choice of a independent school meant that the budget in the student’s 
+home municipality decreased by an amount equivalent to the voucher.9 
+As mentioned above, to be eligible for public funding through vouchers, non-public 
+schools must be approved by the Swedish National Agency for Education (NAE) to 
+become independent schools. These schools are allowed to deviate from the national 
+curriculum, but they must be open to all students. These schools are not allowed to 
+select students by ability, socio-economic characteristics or ethnicity. If a school is 
+oversubscribed, three selection criteria for admittance are allowed: proximity to the 
+school; waiting list (where each child’s place in line is determined by the date of the 
+parents’ application) and priority to children who have siblings already enrolled in the 
+school. Independent schools are not allowed to charge any fees.10 Hence, top-up 
+funding by student fees over and above the voucher is not allowed. Local authorities can 
+appeal against the applications approved by the NAE, but the number of rejected 
+applications has been small.11 Additionally, there are no restrictions on the ownership 
+structure of the independent schools eligible for public funding – whether religious, 
+non-profit cooperatives, or for-profit corporations. Hence, the regulation does not 
+constitute a great obstacle for new schools to enter the market and receive public 
+funding.  
+The first wave of independent schools after 1992 was primarily made up of special 
+pedagogy schools and also some religious schools and parent cooperatives. Some of 
+these existed as private schools prior to the reform but converted to voucher-funded 
+independent schools after the reform. We may denote this initial wave of independent 
+schools as being founded by idealists, and a non-profit organization was the typical 
+                                                 
+9 Note though that the municipality budget includes other social services as well (the school budget contains about 40 
+% of the total municipality budget on average) which means that there is possible for municipalities to redistribute 
+resources to schools with low demand, either by taking resources from other municipal public schools or from the 
+budget for other social services. 
+10 A small category of schools at the compulsory level is under a different regulation. These are 3 old boarding 
+schools (Gränna, Lundsberg and Sigtuna) that exist outside of the voucher system and charge high fees. We exclude 
+students in these schools in all our analysis done in this paper. 
+11 For instance, in 2000, there were 153 applications to start an independent school at the compulsory level the 
+following school year. Of these, 13 were rejected for reasons such as: the application was incomplete, the school was 
+expected to not provide sufficient educational standard, or the owner was financially instable. Of these 13 
+applications, only 2 were denied because of an expectation that this independent school would lead to negative effects 
+for the public schools in the municipality (Swedish National Agency for Education, 2001). From 2010, i.e., after our 
+studied period, the number of rejections has increased significantly.  
+
+10 
+IFAU - Independent schools and long-run educational outcomes 
+owner at the time. After the early reform years, most new independent schools have 
+been of a more general profile. These new type of independent schools, similar to the 
+public schools in terms of their educational profile, have increasingly gained market 
+share and are now the most common type. Contrary to the first wave, they compete by 
+other means than offering something that is distinctly different from what is generally 
+available in public schools. These schools were typically opened up by principals or 
+teachers from the public school sector or by for-profit school corporations. School 
+corporations started to establish themselves on the market in the late 1990s, and the 
+number of schools run by such corporations has grown rapidly since then. Today, the 
+typical owner of an independent school is a joint-stock company. The number of 
+independent schools with a stage 3 level compulsory school has increased ten-fold since 
+the reform, from 38 registered independent schools in 1993 to 396 in 2009.  
+Let us briefly compare the Swedish school choice system with that in some other 
+countries. First, the full financing of independent schools comes from the local 
+government (the municipality) 12 in the form of a voucher for each student that they 
+attract, which means that the amount of resources available for public schools in the 
+municipality is negatively related to the number of students that choose to opt out and 
+attend independent schools. Hence, there are clear economic incentives for local public 
+schools to improve in Sweden.13 In this regard, Swedish independent schools share 
+some similarities with Chilean private voucher schools and those U.S. charter schools 
+that are funded by the local school districts. However, GM schools are different in that 
+they are funded directly by the central government (as well as through donations from 
+sponsors). Hence, we do not expect them to exert direct economic pressure on the 
+neighborhood public schools.  Second, independent schools are more autonomous than 
+public schools (with respect to their budgets and their chosen curriculum) just as is the 
+case for the U.S. Charter schools and the U.K. GM schools.14 A difference from the 
+latter schools is that the ownership structure of independents schools can be very 
+diverse (from for-profit companies to parent cooperatives). In this respect they are more 
+                                                 
+12 A Swedish municipality is similar to a school district in the U.S. or LEA in the U.K. in that it is the administrative 
+economic unit as regards to the schools located in the area. 
+13 Public schools will react to economic pressure if they care about revenues. For instance, since there are fixed costs 
+involved in running a school, less resources will be available for teaching if revenues decrease. This also means that 
+public teachers risk losing their job as the number of students decreases. 
+14 Accountability of charter schools are also stronger than for independent schools, since once they have received a 
+charter (which is a license to operate) they are contracted to follow their originally specified program and goals, and 
+face a real risk of being closed down by a school board. 
+
+IFAU - Independent schools and long-run educational outcomes 
+11 
+ 
+similar to the Chilean private schools. Third, independent schools are not allowed to 
+charge fees or to select students based on ability. Hence, we expect less impact on 
+school segregation than what has been found from the establishment of the Chilean 
+private-voucher schools.15 
+Figure 1 shows the evolution of the share of students in the independent schools at 
+the end of compulsory school in Sweden between 1993 and 2009.16 The share of 
+students in private non-voucher schools before the reform is represented by the dashed 
+line. Only a small fraction of students, below 1 percent, attended private schools before 
+the reform in 1992, and this fraction was fairly constant until the reform. After the 
+reform, not much happened during the first decade. However, beginning in the early 
+2000s there has been a sharp increase in the independent school share, and by 2009 it 
+had increased to approximately 11 percent. We also note that previous Swedish studies 
+used data for the school cohorts where only a few percent attended an independent 
+school. The fraction of ninth-grade students attending an independent school was 1.6 
+percent in 1998 (the school cohorts used in Sandström and Bergström, 2005; Ahlin, 
+2003) and 1.6-3.1 percent in 1998-2001 (Björklund et al, 2005). 
+ 
+ 
+                                                 
+15 There are some additional differences that are worth to notice when comparing the reforms in Sweden and Chile: 
+First, whereas Chile had a sizeable sector of private schools before the reform (the private enrollment rate was about 
+20%), the number of private schools in Sweden were negligible prior to the reform (the private enrollment rate was 
+below 1%). Second, most of the private schools in Chile were subsidized also prior to the reform, and the per-student 
+subsidy rose from an average of 50% to 80% following the reform. In Sweden, pre-reform private schools were only 
+eligible for subsidizes (from the central government) if they offered education that did not exist within the public 
+sector. The pre-reform private sector in Sweden was essentially a small complement to the public school sector, and 
+was never considered as an alternative to the great majority of students. As such, the potential competitive pressure 
+on the public school sector was very limited.  
+16 The share of independent-school students includes students from all voucher-receiving schools (including 
+International schools and those special pedagogy schools for which we lack grades). 
+
+12 
+IFAU - Independent schools and long-run educational outcomes 
+Figure 1 The share of private and independent school students 1988-2009 
+ 
+The establishment of independent schools has differed greatly across the 284 
+municipalities. In some municipalities it took much longer to open independent schools 
+than in others, and in a large number of municipalities they still do not exist. Yet, other 
+municipalities have faced substantial increases in independent-school enrollment. In the 
+128 municipalities where at least one independent school (with 9th grade students) 
+existed in 2009, the average independent school share was 14 percent; the municipality 
+with the largest share had 45 percent of its students in independent schools.  
+In Figure 2a and Figure 2b, we present the distribution of the municipality-specific 
+changes in the share of independent school students between 1992 and 2009. Figure 2a 
+shows the distribution for schools in all municipalities, whereas Figure 2b only shows 
+the distribution for the schools in the municipalities with at least one independent school 
+in 2009. The vertical axis shows the proportion of municipalities in 2009 with a certain 
+change. From Figure 2a, we see that the share has not changed at all in many 
+municipalities. The unaffected municipalities constitute almost half of all municipalities 
+but host less than 25 percent of the total student population. This is not surprising as the 
+reform has had a small impact in more rural areas of Sweden. However, within the other 
+half of the municipalities there are municipalities with both small and large changes 
+over time (as illustrated in Figure 2b). 
+year of voucher reform
+0
+.02
+.04
+.06
+.08
+.1
+share of students
+1988
+1991
+1994
+1997
+2000
+2003
+2006
+2009
+private schools
+independent schools
+
+IFAU - Independent schools and long-run educational outcomes 
+13 
+ 
+Figure 2a: Histogram of the change in the share of independent school students 1992-
+2009 across municipalities 
+ 
+Figure 2b: Histogram of the change in the share of independent school students 1992-
+2009 across municipalities that had at least one independent school in 2009 
+ 
+ 
+0
+10
+20
+30
+40
+Percent
+0
+.1
+.2
+.3
+.4
+.5
+change in the share of independent school students 1992-2009
+0
+2
+4
+6
+8
+10
+Percent
+0
+.1
+.2
+.3
+.4
+.5
+change in the share of independent school students 1992-2009
+
+14 
+IFAU - Independent schools and long-run educational outcomes 
+This differential increase in the share of independent-school students across 
+municipalities constitutes a useful source of variation that we can exploit to net out the 
+time-invariant factors that are related to both the key independent variable and the 
+outcome. Thus, if all of the determinants of independent-school enrollment are fixed 
+municipal effects, we are able to identify the effects of interest just by using the panel 
+dimension of the data to associate changes in the incidence of private schooling to 
+changes in educational achievement. However, there can also be relevant factors that 
+change over time, and failing to control for these can lead to both positive and negative 
+biases. For example, if the demand for independent-school slots is increasing in some 
+municipalities due to a trend of highly educated parents moving in, this would likely 
+lead to a positive bias. On the other hand, independent schools might tend to open up in 
+areas where the public-school quality is trending downwards, something which would 
+instead lead to a negative bias. The former (latter) issue would lead to an overestimate 
+(underestimate) of the true impact of the share of independent school students on 
+average student outcomes. Because of these issues, we later include controls for changes 
+in municipality-average characteristics as well as examine the importance of pre-reform 
+trends in outcomes. 
+4 
+Data and variable construction 
+Our data set consists of all individuals finishing the 9th grade of compulsory school 
+(normally at age 16) each year from 1988-2009 in Sweden. The information on school 
+grades and educational attainment is available for almost all pupils from the nationwide 
+registers. Test scores from achievement tests conducted at the end of compulsory school 
+are available for about 95% of the students for the years 2004-2009. We also have 
+access to detailed demographic information on the students and data on the educational 
+and economic outcomes of their parents. This data set provides information on the 
+school attended and the region of residence for each student (at the time of 9th grade 
+attendance) as well as for the regional location of the school.17 The school registers 
+contain information about all of the schools in Sweden, which allow us to identify 
+whether a school is a public or an independent school. Henceforth, we use the term 
+school cohort to denote the cohort of students who leave the 9th grade in a certain year.  
+                                                 
+17 Note that information about which school a pupil attended in grade 1-8 is not available from Swedish registers. 
+
+IFAU - Independent schools and long-run educational outcomes 
+15 
+ 
+We analyze the following outcome variables, all aggregated over the students in a 
+school cohort in a municipality: the average test scores in math and English at the end of 
+compulsory school; the average grade scores in math and English at the end of 
+compulsory school;18 the fraction of students choosing a science track in high school; 
+the average grade scores in math and English after one year in High school (when 
+courses in core subjects still are mandatory for all high school students); the fraction of 
+students completing at least 1 semester of university education (at age 22, i.e., within 6 
+years of leaving compulsory school); and the average years of schooling (at age 24). To 
+make the measures comparable, we standardize both test and grade scores to percentile 
+rank scores.19 
+In our main estimations, we use changes in these outcome variables over time as 
+dependent variables, where the changes are calculated from the last year before the 
+reform was implemented (school cohort 1992) to the last post-reform year available in 
+our data. Note that test score data are mostly unavailable for school cohorts prior to 
+2004.20 We therefore instead calculate the change in average achievement as the 
+difference between the average test scores in 2009 and the average grade scores in 1992. 
+Although the grade and test score measures are not exactly comparable, we believe that 
+it is much less of a problem to use grades prior to the reform compared to after the 
+reform. The reason is that grades were then standardized based on results on national 
+tests and that schools did then not face any competitive pressure and hence had little 
+incentives to inflate grades with respect to test results. In fact, the grade system before 
+1998 was a relative system, meaning that the grades at the time were directly connected 
+                                                 
+18 Math and English were taught at two levels prior to 1998. To make grades in these subjects comparable across 
+students we assume that the grade at the lower (1 to 5) level equals the grade at the higher (1 to 5) level minus one. 
+This appears to be a reasonable approximation if one compares the math and English grades to grades in natural and 
+social sciences, which were taught at only one level. Using alternative mappings do not alter the results. We do not 
+utilize the grades in Swedish as a measure of school performance since separate classes and grading scales are given 
+to natives and some in the immigrant population, and the fraction of immigrants taking special classes has changed a 
+great deal over the years.  
+19 We first convert the individual score to a percentile rank based on the distribution of scores in each subject for each 
+school cohort in the whole country. We then use the average percentile rank of each pupil as the main measure of 
+individual academic achievement. It is enough for a pupil to have grade in at least one of the core subjects to be 
+included in the calculations. The reason to use percentile rank instead of raw scores is that we are forced to use grades 
+from two different grading systems for the 9th grade (from a relative to an absolute system starting with the 1998 
+school cohort), where transformation of scores across systems not is straightforward. By using percentile ranks 
+conversion, we use the distribution of scores for each school cohort to combine the two. For high school grades, we 
+only use data from the same system. We can therefore compare standardized estimates from using raw scores and 
+percentile ranks. We find very similar effect sizes. 
+20 Standardized national tests were given to students during the whole period, but before 2004 data on test scores were 
+either only collected to national registers for a stratified sample of municipalities (and where the sampled 
+municipalities typically differed for each year) or not at all.  
+
+16 
+IFAU - Independent schools and long-run educational outcomes 
+to results on the standardized national tests (in each main subject) and that school-level 
+deviations were not allowed. Still, as a comparison and because high school track 
+admittance is entirely based on grades, we also report results using the change in the 
+average grade scores in English and math between 2009 and 1992 as the dependent 
+variable.21  
+The key independent variable is the share of 9th-grade students living in a 
+municipality who attend an independent school inside or outside the municipality’s 
+borders. Those students who choose to attend an independent school in another 
+municipality bring their voucher from the municipality of residence. We calculate this 
+measure for each year and municipality. All of the variables are aggregated up to the 
+municipality-year level by school cohort and are hence based on individuals residing in 
+a municipality at the time that they leave compulsory school no matter where they later 
+live. Thus, we can really look at the overall impact of the share of independent-school 
+students at the compulsory level for the very same individuals later in life. The key 
+independent and dependent variables are all listed in Table 1 along with sample 
+characteristics for the school cohorts 1992 and 2009 and for the change between these 
+two years. These variables are also shown at the student level in the table since this is 
+the unit used in some later estimation where we control for individual independent 
+school attendance effects. 
+The statistics for the change between 1992 and 2009 are based on unweighted 
+aggregated data for all municipalities, i.e., we treat each municipality as a “market” for 
+school slots. These figures are hence based on the individual characteristics aggregated 
+up to the municipality-year (school cohort) level. The first panel presents the 
+independent-school variables. We see that the share of independent-school students was 
+zero before the reform in 1992. The share of (non-voucher) private school students was 
+0.8 percent in 1992. Since these schools did not compete with the public schools in the 
+school districts (and because we lack grades for these students), we ignore this fraction 
+in our main estimations.22 Including them has no impact on our estimates (see results in 
+section 6.1). We see that the average growth in the share of independent-school students 
+is about 6 percent (keep in mind that the change is zero in more than half of the 
+                                                 
+21 The possibility that subjective grade setting by teachers and that differential grading standards might have 
+developed between municipalities with differential independent-school penetration are examined in section 5.1.  
+22 Hence the share in 2009 is the same as the change in this share between 1992 and 2009 since no voucher-funded 
+private schools existed before the reform.  
+
+IFAU - Independent schools and long-run educational outcomes 
+17 
+ 
+municipalities). This number is lower than the change in the share of independent 
+schools because the independent schools are, on average, smaller than the public 
+schools. The second and third panels present the statistics for the educational outcomes 
+and the family background and demographic control variables. In the last part of Table 
+1, we show the statistics for some variables that we later use in our sensitivity analysis 
+(section 6.1.).23 
+                                                 
+23 We thank Per Pettersson-Lidbom for providing us with data on political majorities in municipalities. The political 
+majority variables are lagged 3 years. 
+
+ 
+Table 1: Descriptive statistics 
+ 
+Graduation year  
+Student level 
+ 
+Municipality level 
+1992 
+2009 
+1992 
+2009 
+Diff: 2009-1992 
+ 
+Mean  
+St. dev. 
+Mean  
+St. dev. 
+ 
+Mean 
+St.dev. 
+Mean 
+St.dev. 
+Mean 
+St.dev. 
+INDEPENDENT SCHOOL VARIABLES 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Share of independent school students 
+0 
+0 
+.107 
+.309 
+ 
+0 
+0 
+.057 
+.076 
+.057 
+.076 
+Share of independent schools 
+0 
+0 
+.223 
+.17 
+ 
+0 
+0 
+.133 
+.173 
+.133 
+.173 
+Share of  non-voucher private school students (pre-reform) 
+.008 
+.02 
+ 
+ 
+ 
+.0016 
+.0092 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+EDUCATIONAL OUTCOMES 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Mean of  math & English test score in 9th grade 
+49.9 
+25 
+49.5 
+22.6 
+ 
+48.9 
+3.65 
+47.3 
+4.73 
+-1.6 
+4.06 
+Mean of  math & English grade at end of 9th grade 
+49.9 
+25 
+50.1 
+23.8 
+ 
+48.9 
+3.65 
+48.1 
+4.25 
+-.738 
+3.82 
+Academic track in high schoola 
+.53 
+.50 
+.50 
+.50 
+ 
+.48 
+.10 
+.44 
+.11 
+-.045 
+.092 
+GPA in high school, A-courses, all tracksa 
+49.7 
+20.8 
+50.0 
+21.6 
+ 
+48.7 
+3.57 
+48.0 
+3.91 
+-.645 
+4.05 
+At least 1 semester of university studies at age 22b 
+.212 
+.409 
+.235 
+.424 
+ 
+.193 
+.055 
+.209 
+.052 
+.016 
+.05 
+Years of schooling at age 24c 
+12.5 
+1.61 
+12.4 
+1.65 
+ 
+12.4 
+.228 
+12.4 
+.209 
+-.045 
+.21 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+FAMILY AND  DEMOGRAPHIC  VARS, POPULATION  SIZE† 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+At least one parent university educated 
+.314 
+.464 
+.397 
+.489 
+ 
+.272 
+.085 
+.341 
+.093 
+.069 
+.059 
+At least one parent high school educated 
+.783 
+.412 
+.903 
+.296 
+ 
+.766 
+.065 
+.911 
+.035 
+.145 
+.059 
+Log family earnings 
+11.9 
+.876 
+12.2 
+.937 
+ 
+11.8 
+.158 
+12.2 
+.164 
+.331 
+.114 
+Log family earnings is missing (unempl.proxy) 
+.018 
+.131 
+.009 
+.095 
+ 
+.016 
+.012 
+.0085 
+.0081 
+-.0075 
+.013 
+2nd generation immigrant 
+.046 
+.21 
+.089 
+.285 
+ 
+.034 
+.039 
+.052 
+.053 
+.018 
+.038 
+Immigrant 
+.063 
+.243 
+.067 
+.251 
+ 
+.048 
+.032 
+.052 
+.027 
+.0044 
+.028 
+No of  9th grade students in municipality 
+920 
+.0011 
+1500 
+2100 
+ 
+346 
+446 
+419 
+677 
+72.8 
+247 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PUBLIC SCHOOL CHOICE, SCHOOL RESOURCES, POLITICAL 
+VARS.  AND PRE-REFORM MARKET OPPORTUNITIES  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Share of students who choose another public school than the one that 
+students in the same neighborhood typically attend 
+.126 
+.075 
+.251 
+.122 
+ 
+.089 
+.075 
+.161 
+.118 
+.072 
+.09 
+Log school expenditures per pupil  
+10.9 
+.094 
+11.2 
+.076 
+ 
+10.9 
+.115 
+11.3 
+.103 
+.348 
+.103 
+Right-wing majority 
+.252 
+.434 
+.253 
+.435 
+ 
+.331 
+.471 
+.342 
+.475 
+.011 
+.38 
+Coalition 
+.35 
+.477 
+.434 
+.496 
+ 
+.229 
+.421 
+.282 
+.451 
+.053 
+.532 
+Pre-reform student base in 1992d 
+ 
+ 
+ 
+ 
+ 
+-.0001 
+.182 
+ 
+ 
+ 
+ 
+Private school in municipality in 1992 
+ 
+ 
+ 
+ 
+ 
+.067 
+.25 
+ 
+ 
+ 
+ 
+More than one public school in 1992 
+ 
+ 
+ 
+ 
+ 
+.673 
+.47 
+ 
+ 
+ 
+ 
+Notes: aThe high-school variables are available for students graduating from compulsory school 1994-2006. The statistics for these two variables are based on students graduating from compulsory school 1994 and 2006 and 
+who attend high school. bThe last cohort for which we observe university studies at age 22 is the one graduating from compulsory school in 2003. cThe last cohort for which we observe years of schooling at age 24 is the one 
+graduating from compulsory school in 2001.  †The following control variables are not listed in the table (but belong to this set, and are included in all estimations where this set is included): Gender of student, Parent’s average 
+age at birth of child, Mothers years of schooling; Fathers years of schooling; indicator variables for missing parental schooling; immigrants’ age at immigration. Earnings are coded missing if less than 20,000 SEK (about 2,500 
+USD in year 2000 prices). Family earnings are the average of the sum of the parents’ earnings when the child is 5 and 10 years old. Earnings and school expenditures are expressed in year 2002 money value. dPre-reform student 
+base in 1992 is a measure of the density of students in relation to density of schools in the area prior to the reform (defined in detail in section 6.1). 
+
+IFAU - Independent schools and long-run educational outcomes 
+19 
+ 
+5 
+The effect of the share of students attending independent 
+schools on average educational performance  
+5.1 
+Empirical setup  
+Our basic model expresses the relationship between average educational performance 
+and the share of students attending independent schools as  
+ 
+(1) 
+𝑌ത𝑚𝑡= γm+αt +β𝑃ത𝑚𝑡+λ𝑋ത𝑚𝑡+εmt 
+ 
+ 
+ 
+ 
+where γm represents unobservable municipality characteristics that are constant over 
+time; αt represents unobservable school-cohort characteristics that are constant across 
+municipalities; 𝑋ത𝑚𝑡 is a vector of municipality characteristics (average demographic and 
+family background characteristics, as listed in Table 1, and the number of students); and 
+𝑃ത𝑚𝑡 is the share of students attending independent schools in municipality m at time t. 
+Note that 𝑃ത𝑚𝑡= 0 for the school cohorts graduating before the reform because the 
+independent schools then did not exist.  
+To eliminate unobservable municipality specific characteristics, we take the 
+difference of (1) expressed for a post reform and the last pre-reform cohort. This 
+generates 
+ 
+(2) 
+∆𝑌ത𝑚=c+β∆𝑃ത𝑚+λ∆𝑋ത𝑚+Δ𝜀𝑚, 
+ 
+ 
+ 
+Focusing on the last post-reform cohort for which data are available, we have that ∆𝑌ത𝑚 
+denotes the change in the average educational outcome between the last pre-reform 
+school cohort in 1992 and the last available post-reform school cohort t’, which is 2009 
+for the compulsory school test and grade scores, 2006 for the academic track and high 
+school grades, 2003 for university attendance and 2001 for years of schooling for 
+students residing in municipality m in those years. ∆𝑃ത𝑚 denotes the change in the share 
+of independent-school students residing in municipality m between 1992 and the last 
+available post-reform school cohort; ∆𝑋ത𝑚 denotes the change in the vector of 
+municipality characteristics in municipality m between 1992 and the last available post 
+reform school cohort and is included to correct for changes in the composition of 
+students; and ∆𝜀𝑚  is a random error term.  
+
+20 
+IFAU - Independent schools and long-run educational outcomes 
+ 
+The key identifying assumption to arrive at an unbiased estimate of β using OLS on 
+(2) is that 𝐶𝑜𝑣(∆𝑃ത𝑚 , ∆εm) = 𝐶𝑜𝑣(𝑃ത𝑚𝑡′, ∆εm)=0.24 Hence, changes in the unobservable 
+factors (that impact ∆𝑌ത𝑚) between 0 and t’ should not be correlated with the share of 
+students in independent schools in t’. We investigate a number of threats to the 
+identification below. Since the treatment (the share of independent school students) is 
+defined at the municipality level and because we are interested in how the typical 
+student in each municipality is affected (and not the average student in the country) we 
+give each municipality equal weight in the estimations. As it turns out, weighting by the 
+number of students in each municipality has little impact on the estimates. 
+There are two main reasons why we have chosen to eliminate γm by taking first 
+differences over the entire period (instead of using all school cohorts and estimating 
+equation (1) directly). First, we want to use the variation over the entire period because 
+there has been a consistent growth in the share of independent school students over time 
+(see Figure 1). Second, because we aim to capture general equilibrium effects of 
+independent schooling we believe there it is necessary to allow as much time as possible 
+before evaluation.25 We also note that β in model (2) is the difference-in-differences 
+estimator (where we have allowed for variable treatment intensity as in Duflo, 2001), 
+comparing changes between municipalities over time from the last pre-reform year to 
+the last post-reform year t’. 26 
+Our main worry is that the pre-reform trends vary in a way that can bias our 
+estimates. For instance, if independent-schools were more likely to be established in 
+municipalities with failing public schools, the estimation of model (2) will lead to a 
+downward-biased estimate of β. Of course, one could think of alternative scenarios 
+where differential pre-reform trends lead to overestimates of β. We therefore perform 
+counterfactual estimations where we regress the change in our outcome variables before 
+                                                 
+24 Note that since 𝑃ത𝑚𝑡= 0 for pre-reform school cohorts, we get that Δ𝑃ത𝑚= 𝑃ത𝑚𝑡′, where t’ is the last post-reform 
+year 
+25 A potential drawback with estimating (2) instead of (1) is that we cannot control for post-reform municipality 
+specific trends. However, we test for, and reject, the importance of pre-reform municipality specific trends below 
+(i.e., we test if the key assumption in difference-in-differences models hold). We believe that it would be problematic 
+to control for post-reform municipality trends as we then would compare, not changes in levels over time, but instead 
+changes in slopes over time. It is unclear why this would be a more relevant source of variation. 
+26 In an earlier version of this paper (Böhlmark and Lindahl, 2008) we did use all school cohorts and estimated 
+equation (1) directly using individual level data (controlling for municipality fixed effects to take into account 
+unobservable fixed municipality characteristics). This approach is more efficient given that the assumption of strict 
+exogeneity for all t hold. However, as it uses year-to-year variation in the share of independent school students within 
+municipalities, it is also more sensitive to measurement error.  
+
+IFAU - Independent schools and long-run educational outcomes 
+21 
+ 
+the reform was implemented on the growth of independent-schooling after the reform 
+was implemented. If an association exists, we interpret it as evidence of pre-reform 
+trends varying systematically across municipalities, which would produce biased 
+estimates in our main regressions. We estimate:  
+ 
+(3) 
+∆𝑦ത𝑚,𝑝𝑟𝑒=c’+β’∆𝑃ത𝑚+λ’∆𝑋ത𝑚+∆𝜀𝑚,𝑝𝑟𝑒, 
+ 
+where ∆𝑌ത𝑚,𝑝𝑟𝑒 denotes the change in the average educational outcome between 1988 
+and 1992 for the students residing in municipality m during those years; ∆𝑃ത𝑚 and ∆𝑋ത𝑚 
+are the same variables as in equation (2); and ∆𝜀𝑚,𝑝𝑟𝑒  is a random error term.  
+5.2 
+Main results  
+We start by associating the change in our educational performance variables with the 
+growth in the share of independent-school students, i.e., we estimate equation (2). Table 
+2 reports the results from estimating two different versions of this model. We show 
+estimates from models without any controls in column 1 and with controls in column 2 
+The baseline results in column 1 provide consistently positive effects for the share of 
+independent-school students on the educational outcome variables. A 10 percentage 
+point increase in the share of independent-school students in compulsory school is 
+associated with 1.7 percentile rank higher achievement at the end of compulsory school. 
+Interestingly, the effects also remain positive and significant after compulsory school. A 
+10 percentage point increase in the share of independent-school students increase the 
+fraction with an academic track in high school by 2 percentage point, the mean high-
+school grades with 2 percentile rank, the fraction attending university by almost 2 
+percentage points and the average years of schooling by almost 4 weeks.27 These are not 
+enormous effects but not trivial either. In column 2 we extend the baseline specification 
+by adding changes in the municipality averages of demographic and family background  
+ 
+ 
+                                                 
+27 In Böhlmark and Lindahl (2008) we in addition used the outcomes “Observed with grade marks from 9th grade”, 
+“Observed with grade marks from high school” and “GPA at end of 3rd year in high school (if academic track=1)”. If 
+we use these outcomes in model (2) we get the following estimates, respectively: 0.005 (0.014); 0.016 (0.112); 13.70 
+(5.82). It is interesting to note that effect on “GPA at end of 3rd year in high school” for the selective group of 
+students who choose an academic high-school track is of similar size as for the other grade outcomes that are based 
+on (almost) all students at the compulsory level and the 1st year in high school, respectively. We also note that there 
+are no statistically significant effects on the probability of being observed with grades at the compulsory level or at 
+high school, respectively. 
+
+22 
+IFAU - Independent schools and long-run educational outcomes 
+ 
+Table 2: OLS Regressions of changes in the share of independent-school students on post- 
+and pre-reform changes in overall educational achievement 
+ 
+Main Estimations: 
+Post reform changes in outcomes 
+ 
+Counterfactual Estimations: 
+Pre-reform changes in outcomes 
+ 
+(1) 
+(2) 
+(3) 
+(4) 
+Educational performance outcomes 
+ 
+ 
+ 
+ 
+Test scores in English and math 
+16.95 
+17.93 
+NA 
+NA 
+ 
+(2.69)** 
+(2.69)** 
+ 
+ 
+R2 
+0.10 
+0.28 
+ 
+ 
+Grades in English and math 
+14.44 
+15.76 
+-2.60 
+-3.80 
+ 
+(2.60)** 
+(2.55)** 
+(1.98) 
+(2.38) 
+R2 
+0.08 
+0.28 
+0.00 
+0.06 
+Academic track in high school 
+0.25 
+0.19 
+0.11 
+0.10 
+ 
+(0.12)* 
+(0.13) 
+(0.06)+ 
+(0.07) 
+R2 
+0.02 
+0.07 
+0.01 
+0.05 
+Grades in 1st-year courses in  
+20.26 
+17.47 
+NA 
+NA 
+English and math in high school 
+(3.40)** 
+(3.83)** 
+ 
+ 
+R2 
+0.08 
+0.17 
+ 
+ 
+At least 1 semester of  university 
+0.16 
+0.19 
+0.03 
+-0.02 
+studies at age 22 
+(0.05)** 
+(0.06)** 
+(0.05) 
+(0.07) 
+R2 
+0.02 
+0.17 
+0.00 
+0.13 
+Years of schooling at age 24 
+0.73 
+0.64 
+-0.21 
+0.10 
+ 
+(0.33)* 
+(0.35)+ 
+(0.34) 
+(0.37) 
+R2 
+0.01 
+0.17 
+0.00 
+0.09 
+Controls 
+ 
+ 
+ 
+ 
+Changes in municipal controlsa 
+NO 
+YES 
+NO 
+YES  
+ 
+ 
+ 
+ 
+ 
+Notes: Number of municipalities in all regressions are 284. aChanges in municipality averages of the demographic and family 
+background variables listed in Table 1 (and specified in the note to Table 1) as well as changes in the size of the student 
+population. Post-reform changes in test scores and in all other variables are calculated for 1992-2009 when test scores and 
+grades are the dependent variables. Post-reform changes in the high-school variables and in all other variables are calculated for 
+1994-2006 when the high-school variables are the outcomes. Post-reform changes in “At least 1 semester of university studies at 
+age 22” and in all other variables are calculated for 1992-2003 when “At least 1 semester of university studies at age 22” is the 
+outcome. Post-reform changes in “Years of schooling at age 24” and in all other variables are calculated for 1992-2001 when 
+“Years of schooling at age 24” is the outcome. Pre-reform changes in the dependent variables are calculated for 1988-1992. 
+Robust standard errors are in parentheses. + significant at 10 percent; * significant at 5 percent; ** significant at 1 percent. 
+controls over time.28 We conclude that the estimates are barely affected by composition 
+bias.  
+We report estimates from model (3) in columns 3 and 4 of Table 2. Reassuringly, 
+these estimates are typically small and always statistically insignificant. Hence, we find 
+no evidence that independent-school enrolment has increased more in municipalities 
+where the educational performance of public school students changed a lot during the 
+                                                 
+28 The most important controls are typically the change in the fraction of students that are immigrants and the change 
+in the average years of schooling of fathers.  
+
+IFAU - Independent schools and long-run educational outcomes 
+23 
+ 
+last five pre-reform years. This result is very important because one might expect 
+independent schools to primarily be established in municipalities with failing public 
+schools. Reassuringly, nothing in these estimations supports this assertion. This finding 
+is also consistent with what we learned from our interviews with the four leading school 
+companies running independent schools in Sweden. The performance in public schools 
+was considered to be a criterion for opening up a new school by only one out of the four 
+school companies, and it was ranked as a less important one.29  
+6 
+Further analysis  
+6.1 
+Sensitivity analysis  
+Although we have already seen that our estimates are not driven by composition bias or 
+by differential pre-reform trends, we now investigate a number of other issues that 
+might affect the credibility of our estimates.  
+Differential grade inflation  
+In Sweden, the average grade scores determine admittance to specific high school 
+programs whenever there is an excess demand for slots. Although the scores on the 
+national standardized tests guide the teachers’ grade setting in some core subjects (math, 
+English and Swedish), the concern is that differential grading standards might have 
+developed in municipalities with more or fewer independent schools. We might expect 
+the schools to compete for students not only with high-quality education but also by 
+inflated grades. However, there are several reasons why we believe this is not important 
+for the interpretation of our estimates. First, if differential grade inflation is important, 
+we would expect to see larger estimates using grades than with test scores as the 
+outcome variables in our main estimations. It can be seen from Table 2 that the grade 
+and the test score estimates are very similar.30 Second, if differential grade inflation 
+drives our results at the end of compulsory school, they would be expected to fade in 
+                                                 
+29 We performed interviews with leading representatives for the 4 largest Swedish school corporations at the 
+compulsory level (Kunskapsskolan; Vittra; Pysslingen; Ultra). We asked what municipal characteristics are important 
+when they consider opening up a new independent school. The answers we got clearly point at two main factors. The 
+attitudes to independent schools among local politicians’ and voters’ are considered as most important. The second 
+main factor is the potential market share in the municipality, as determined by the size of existing public schools, 
+population density and the number and size of existing independent schools.  
+30 The National Agency for Education distribute national standardized tests as well as issue guidelines to teachers that 
+spell out the specific criteria a pupil must meet in order to qualify for a certain score. Even if one can argue that even 
+results on tests can be manipulated (as the tests are corrected locally), it is unreasonable to believe that it should be 
+equally easy for teachers to cheat when correcting tests as it would be for them to set inflated grades. 
+
+24 
+IFAU - Independent schools and long-run educational outcomes 
+ 
+importance when looking at post-compulsory school outcomes. However, as is evident 
+from Table 2, we find positive effects also for high school grades and university 
+attendance.31 Third, because the standardized national tests were only given in some 
+core subjects, we would expect grade inflation to be more severe for subjects without 
+these tests. This expectation is also supported by findings in Gustafsson and Yang-
+Hansen (2009), who show that grade scores have increased more over time in the 
+subjects without tests, compared to the subjects with tests. We therefore follow the same 
+approach as in Vlachos (2010) and construct a measure of the difference between 
+students’ grade scores in subjects without national tests and grade scores in subjects 
+with national tests, where the former are more sensitive to grade inflation. To examine 
+whether a higher incidence of independent schooling leads to a higher degree of grade 
+inflation, we use this measure as an outcome variable in model (2). The results are 
+shown in Table 3. We find a statistically insignificant association between the change in 
+average “grade inflation” in the municipality between 1992 and 2009 and the change in 
+the share of independent-school students between the same years. If anything, the 
+negative point estimates indicate that there is less grade inflation in areas with more 
+independent-school students.32 We therefore conclude that differential grade inflation 
+does not drive our positive results for educational achievement outcomes. 
+We now continue to investigate a number of other issues. We report the baseline 
+estimates in column 1 of Table 4 (identical to the estimates reported in column 2 of 
+Table 2) and then sequentially report the estimates from alternative specifications and 
+models. 
+ 
+ 
+                                                 
+31 One might argue that also these effects could be indirectly affected by grade inflation at the end of compulsory 
+school (as the prevalence of independent schools at the compulsory and high school level is positively correlated and 
+if there exist grade inflation at the high school level). However, if we include the share of independent-school 
+students at the high-school level as a control variable the estimates for post-compulsory school outcomes are 
+unaffected. 
+32 This analysis is inspired by Vlachos (2010). Besides this measure of grade inflation, he also uses the difference 
+between grades and test scores to analyze the issue whether school competition leads to grade inflation. He finds that 
+there is no difference in grading standards between public and independent schools and that effects of competition 
+from independent schools on grade inflation is positive but small. He concludes that this effect is so small that it can 
+almost seem trivial. He stresses, however, that there is uncertainty due to the fact that there is no perfectly objective 
+measure of knowledge to compare the grades with. The results in Vlachos (2010) are very much in line with what we 
+find. The small differences that we can observe are potentially due to the fact that 1998 is the first year that is 
+included in his analysis, whereas our analysis departures at 1992 which is the last pre-reform year. 
+
+IFAU - Independent schools and long-run educational outcomes 
+25 
+ 
+Table 3: OLS Regressions of changes in the share of independent-school students on 
+post-reform changes in overall grade inflation 
+ 
+(1) 
+(2) 
+ 
+ 
+ 
+Grade inflation outcome 
+ 
+ 
+ 
+ 
+ 
+Difference between grades in practical 
+subjects/arts and subjects with standardized 
+national tests (math and English) 
+-5.08 
+(2.90)+ 
+-4.90 
+(3.44) 
+ 
+ 
+ 
+R2 
+0.01 
+0.09 
+ 
+ 
+ 
+Controls 
+ 
+ 
+Changes in municipal controlsa 
+NO 
+YES 
+ 
+ 
+ 
+Notes: aSee note to Table 2. Robust standard errors are in parentheses. + significant at 10 percent; * significant 
+at 5 percent; ** significant at 1 percent. 
+Effects of other school variables 
+In the early 1990s, two other important changes took place in Swedish compulsory 
+education: the introduction of choice among public schools and decentralization of 
+school funding from the state to the municipalities. These changes were implemented 
+parallel to the voucher reform and are still in practice today. Since it is possible that our 
+estimated independent-school effects could be confused with effects from these reforms, 
+we constructed two variables that aim to capture the effects of these changes in the 
+school sector: the share of public school students who opt to attend another public 
+school than the students living in the same neighbourhood (SAMS) typically attend and 
+school expenditures per pupil. Both variables are defined at the municipality level. The 
+summary statistics for these variables are shown in the last panel of Table 1. The first 
+variable is “the share of students who opt out to another public school,” which is a 
+proxy for the share of students who choose a different public school than the one 
+assigned. Our measure indicates that as many as 13 percent opted for another public 
+school in 1992, a number that is most certainly overstated due to measurement error.33 
+However, we note that this fraction was constant during the pre-reform years and if the 
+                                                 
+33 We cannot perfectly observe the share of students who choose another public school than the assigned neighboring 
+school since we lack information about schools catchment areas. But we are able to construct a proxy variable based 
+on the information on which neighborhood (SAMS-area) a pupil lives, the school he or she attends and the typical 
+school attended among students who live in the same neighborhood. Admittedly, this variable is measured with error 
+since the catchment areas of schools do not always overlap with neighborhoods. This is underlined by the fact that the 
+share of students who attended another public school than the typical one before the reform (nearly 13 percent all 5 
+pre-reform years) is probably too high if the typical school always were the assigned school. However, we do expect 
+this share to be greater than zero since individuals with very special reasons could get permission to change school 
+also before the reform.  
+
+26 
+IFAU - Independent schools and long-run educational outcomes 
+ 
+measurement error remained constant in the post-reform period, it would be a 
+municipality fixed effect and hence netted out in our regressions. We can note in the 
+table that the share of students who opt out to another public school almost doubled 
+between 1992 and 2009. This large increase is somewhat surprising since the students 
+who live closest to the school have priority, and choice is restricted to empty slots. The 
+second variable is “school expenditure per pupil” (see note to Table 8 for a description 
+of this measure). It has increased quite a lot in real terms between 1992 and 2009, but 
+the dispersion between municipalities is, surprisingly, pretty much unchanged.  
+We start by looking at what happens if we add a control for changes in the degree of 
+choice among the public schools in the municipalities. The results are reported in 
+column 2 of Table 4. It is very comforting to see that the estimates are barely affected. 
+We also note that the coefficient estimate (standard error) for the change in public 
+school choice is 4.83 (2.57) for the test scores in column 2, indicating that an increase in 
+public school choice has an independent positive effect on test scores. The estimates are 
+all positive (and sometimes significant) for the other educational performance 
+outcomes. We then add a control for changes in the municipal school expenditures per 
+pupil in an effort to control for the consequences of the decentralization of school 
+financing. The latter control should also control for endogenous sorting of teachers due 
+to a differentiation of teacher wages following the independent school reform. This is 
+something that might be of importance since Hensvik (2012) finds that the share of 
+independent school students in high school has a positive effect on the wages of high-
+school teachers. It is also an important control because the municipalities might respond 
+to increased competition by spending more on public schools. However, the estimates, 
+shown in column 3, are basically unaffected.  
+  
+
+ 
+Table 4: Regressions of changes in the share of independent-school students on changes in overall educational achievement, robustness checks I 
+Number of municipalities: 284  
+ 
+ 
+ 
+(1) 
+(2) 
+(3) 
+(4) 
+(5) 
+(6) 
+(7)b 
+(8)c 
+ 
+Educational outcomes: 
+OLS 
+OLS 
+OLS 
+OLS 
+OLS 
+IV: Share of private 
+schools 
+IV: 1992 market 
+opportunities I 
+IV: 1992 market 
+opportunities II 
+Test scores in English and math 
+17.93 
+16.66 
+17.79 
+17.76 
+13.65 
+24.05 
+18.16    
+22.74   
+ 
+(2.69)** 
+(2.58)** 
+(2.70)** 
+(2.68)** 
+(3.07)** 
+(5.36)** 
+(12.65) 
+(11.07)* 
+R2 
+0.28 
+0.30 
+0.31 
+0.29 
+0.34 
+F first stage=145.99 
+F first stage=8.77 
+F first stage=4.94 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Grades in English and math 
+15.76 
+15.09 
+15.57 
+15.56 
+14.48 
+20.12 
+7.63    
+17.62 
+ 
+(2.55)** 
+(2.50)** 
+(2.58)** 
+(2.52)** 
+(2.89)** 
+(5.66)** 
+(15.63) 
+(10.30)+ 
+R2 
+0.28 
+0.28 
+0.30 
+0.30 
+0.33 
+F first stage=145.99 
+F first stage=8.77 
+F first stage=4.94 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Academic track in high school 
+0.19 
+0.20 
+0.17 
+0.19 
+0.11 
+0.22 
+0.04    
+0.29    
+ 
+(0.13) 
+(0.14) 
+(0.13) 
+(0.13) 
+(0.14) 
+(0.25) 
+(0.45) 
+(0.44) 
+R2 
+0.07 
+0.07 
+0.10 
+0.07 
+0.12 
+F first stage=130.35 
+F first stage=24.03 
+F first stage=10.89 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Grades in 1st-year courses in  
+17.47 
+16.87 
+17.07 
+17.45 
+14.84 
+23.44 
+22.37    
+25.12    
+English and math in high school 
+(3.83)** 
+(3.93)** 
+(3.81)** 
+(3.80)** 
+(3.97)** 
+(8.74)** 
+(12.47)+     
+(11.84)* 
+R2 
+0.17 
+0.17 
+0.17 
+0.18 
+0.24 
+F first stage=130.35 
+F first stage=24.03 
+F first stage=10.89 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+At least 1 semester of  university 
+0.19 
+0.20 
+0.19 
+0.20 
+0.18 
+0.11 
+0.12    
+0.22    
+studies at age 22 
+(0.06)** 
+(0.06)** 
+(0.06)** 
+(0.06)** 
+(0.06)** 
+(0.18) 
+(0.22) 
+(0.19) 
+R2 
+0.17 
+0.17 
+0.17 
+0.18 
+0.27 
+F first stage=50.15 
+F first stage=33.46 
+F first stage=14.60 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Years of schooling at age 24 
+0.64 
+0.67 
+0.63 
+0.65 
+0.82 
+0.95 
+-0.09    
+0.18 
+ 
+(0.35)+ 
+(0.36)+ 
+(0.34)+ 
+(0.35)+ 
+(0.42)* 
+(0.81) 
+(1.81) 
+(1.08) 
+R2 
+0.17 
+0.17 
+0.17 
+0.17 
+0.26 
+F first stage=86.40 
+F first stage=9.13 
+F first stage=10.77 
+Controls 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Changes in municipal controlsa 
+YES 
+YES 
+YES 
+YES 
+YES 
+YES 
+YES 
+YES 
+Changes in public school choice  
+NO 
+YES 
+NO 
+NO 
+NO 
+NO 
+NO 
+NO 
+Changes in school costs 
+NO 
+NO 
+YES 
+NO 
+NO 
+NO 
+NO 
+NO 
+Shifts in political majority. 
+NO 
+NO 
+NO 
+YES 
+NO 
+NO 
+NO 
+NO 
+1992 level of municipal controls  
+NO 
+NO 
+NO 
+NO 
+YES 
+NO 
+NO 
+NO 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Notes: aSee note to Table 2. bThe 1992 Market opportunities variable used as instruments in column (7) is: Pre-reform student base in 1992. cThe 1992 Market opportunities variables used as 
+instruments in column (8) are: Pre-reform student base in 1992; Private school in municipality in 1992; More than one public school in 1992. Robust standard errors are in parentheses. + 
+significant at 10 percent; * significant at 5 percent; ** significant at 1 percent. 
+ 
+ 
+
+ 
+Table 5: Regressions of changes in the share of independent-school students on changes in educational outcomes, robustness checks II 
+ 
+(1) 
+(2) 
+(3) 
+(4) 
+(5) 
+(6) 
+(7) 
+(8) 
+(9) 
+ 
+ 
+ 
+Educational outcomes: 
+OLS: 
+Baseline 
+ 
+OLS: 
+Baseline 
++additional 
+control 
+OLS: 
+Changes 
+1993-2009 
+OLS: Only 
+municipalities with 
+no private school 
+before the reform 
+OLS: Only 
+municipalities 
+with independent 
+schools in 2009 
+OLS: Local 
+labor-
+market 
+estimation 
+OLS: 
+County-level 
+estimation 
+OLS: 
+Weighted 
+estimatio
+n 
+OLS: 
+Changes 
+1992-2001 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Test scores in English and  
+17.93 
+17.33 
+17.28 
+17.90 
+14.28 
+16.50 
+21.93 
+14.47 
+NA 
+Math 
+(2.69)** 
+(2.76)** 
+(3.07)** 
+(2.99)** 
+(3.15)** 
+(6.09)** 
+(6.25)** 
+(2.17)** 
+ 
+R2 
+0.28 
+0.28 
+0.34 
+0.27 
+0.42 
+0.20 
+0.32 
+0.49 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Grades in English and math  
+15.76 
+14.94 
+16.99 
+16.03 
+14.37 
+14.34 
+18.52 
+12.96 
+10.01 
+ 
+(2.55)** 
+(2.54)** 
+(2.93)** 
+(2.90)** 
+(2.91)** 
+(5.32)** 
+(6.42)** 
+(2.02)** 
+(7.20) 
+R2 
+0.28 
+0.28 
+0.35 
+0.27 
+0.40 
+0.22 
+0.25 
+0.47 
+0.13 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Academic track in high school  
+0.19 
+0.18 
+0.19 
+0.12 
+0.17 
+0.09 
+0.80 
+0.14 
+0.09 
+ 
+(0.13) 
+(0.14) 
+(0.13) 
+(0.16) 
+(0.17) 
+(0.24) 
+(0.27)** 
+(0.16) 
+(0.18) 
+R2 
+0.07 
+0.07 
+0.07 
+0.06 
+0.14 
+0.14 
+0.27 
+0.17 
+0.08 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Grades in 1st-year courses in 
+17.47 
+17.16 
+17.51 
+16.68 
+16.12 
+0.90 
+28.73 
+17.22 
+26.55 
+English and math in high school 
+(3.83)** 
+(3.89)** 
+(3.86)** 
+(4.34)** 
+(4.40)** 
+(10.77) 
+(11.26)* 
+(3.55)** 
+(7.42)** 
+R2 
+0.17 
+0.18 
+0.16 
+0.17 
+0.30 
+0.29 
+0.17 
+0.29 
+0.12 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+At least 1 semester of   
+0.19 
+0.21 
+0.17 
+0.20 
+0.19 
+-0.12 
+0.35 
+0.20 
+-0.02 
+university studies at age 22 
+(0.06)** 
+(0.07)** 
+(0.07)* 
+(0.06)** 
+(0.06)** 
+(0.17) 
+(0.14)* 
+(0.05)** 
+(0.09) 
+R2 
+0.17 
+0.18 
+0.09 
+0.17 
+0.32 
+0.28 
+0.10 
+0.26 
+0.15 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Years of schooling at age 24 
+0.64 
+0.66 
+0.35 
+0.59 
+0.71 
+0.86 
+1.64 
+0.60 
+0.64 
+ 
+(0.35)+ 
+(0.43) 
+(0.64) 
+(0.40) 
+(0.39)+ 
+(0.93) 
+(0.77)* 
+(0.35)+ 
+(0.35)+ 
+R2 
+0.17 
+0.17 
+0.10 
+0.16 
+0.23 
+0.25 
+0.08 
+0.18 
+0.17 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Controls 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Changes in municipal controlsa 
+YES 
+YES 
+YES 
+YES 
+YES 
+YES (LLM) 
+NO 
+YES 
+YES 
+Share of independent school students in 1992  
+NO 
+YES 
+NO 
+NO 
+NO 
+NO 
+NO 
+NO 
+NO 
+Number of municipalities 
+284 
+284 
+284 
+265 
+127 
+109 LLM 
+24 counties 
+284 
+284 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Notes: aSee note to Table 2. Robust standard errors are in parentheses. + significant at 10 percent; * significant at 5 percent; ** significant at 1 percent.
+
+IFAU - Independent schools and long-run educational outcomes 
+29 
+ 
+Endogenous policy response  
+Non-socialist local governments are generally friendlier toward independent schools 
+than socialist local governments. This is a fixed effect in municipalities with stable 
+majorities, but possible changes in opinions can be proxied by controlling for changes in 
+the local political majority. As we found from interviews, the attitudes towards 
+independent schools among the local politicians and the voters are also considered the 
+most important factor for the school companies to consider when they decide whether to 
+start a new independent school. Note that political majority shifts are also potentially 
+endogenous since establishing independent schools might impact voting behaviour. In 
+column 4 we show what happens to the estimates if we add a control for changes in 
+political majority. We find that the baseline estimates remain unchanged.  
+Time-varying coefficients  
+To arrive at equation (2) we need to assume that the coefficients in equation (1) are 
+constant over time, which here means from the last pre-reform years in 1992 to the last 
+post-reform years for which data are available (from 2001 and up to 2009 depending on 
+the outcome analyzed). We might worry that the coefficients are not constant in (1) 
+because we base the first differences on a long time period. If coefficients are not 
+constant, we need to modify equation (2) to a model where we have added the control 
+variables measured at the start of the period (i.e., in 1992, the last pre-reform year), 
+generating the modified version of (2):34   
+ 
+(2’) 
+∆𝑌ത𝑚=θ+β∆𝑃ത𝑚+λ∆𝑋ത𝑚+𝜑𝑋ത𝑚,0+Δ𝜀𝑚, 
+ 
+where 𝑋ത𝑚,0 denotes the measures of the characteristics of students residing in 
+municipality m in 1992 and its inclusion follows from allowing λt to vary across 
+cohorts. It is straightforward to add 𝑋ത𝑚,0 to the model that we estimate. The estimates, 
+                                                 
+34 If we reformulate (1) with time-varying coefficients on the covariates, we get 𝑌ത𝑚𝑡= γm+αt+βt𝑃ത𝑚𝑡+λt𝑋ത𝑚𝑡+εmt. 
+Taking first differences then produce model (2‘) where θ is a constant and 𝜑=λt-λ0=∆λ, so that if the impact of the 
+covariates are unchanged over time we have that 𝜑= 0. Since, the share of independent school students is zero in 
+1992, we have that βt =β. Hence equation (2) is generated if 𝜑= 0. Note that 𝑋ത𝑚,0 is included in order to adjust for 
+differences in baseline municipality characteristics before the reform was implemented, just like would be done in a 
+difference-in-differences model where group characteristics differ before treatment. 
+
+30 
+IFAU - Independent schools and long-run educational outcomes 
+ 
+shown in column 5 of Table 4, are slightly smaller for most outcomes, but never 
+statistically different from the estimates reported in column 1.35  
+Measurement error in the independent-school variable  
+Even though we use register data of high quality, the fraction of students attending 
+independent-schools might not be completely free from measurement error. To take this 
+issue into account, we use the fraction of independent schools in a municipality (with 
+stage 3 level compulsory school) as an instrument for the share of independent school 
+students.  Hence, this IV-estimate makes use of the variation in the change in the share 
+of independent-school students that is due to changes in the share of independent 
+schools between 1992 and the latest available post-reform year.36 This alternative 
+measure of the size of the independent school sector in a municipality is more supply-
+side oriented and shifts only when new schools are opening up or old ones are closing 
+down (and, hence, it is not affected by an increased demand for independent-school 
+slots given the existing independent schools). The exclusion restriction is that new 
+independent schools should not affect educational performance over and above the 
+impact on the share of students attending the independent schools. The estimates are 
+shown in column 6 of Table 4. Although the size of the estimates mostly increases, they 
+become less precise and are never statistically different from the OLS estimates in 
+column 1. 
+Omitted variables  
+We have already shown that observable characteristics and differential pre-reform 
+trends in the outcome variables do not bias our estimates. However, there might be 
+time-varying unobserved factors that cause shocks to the demand for independent-
+school slots, and these factors might also be correlated with average educational 
+performance. However, if these factors are uncorrelated with historical supply 
+determinants, the latter are valid instruments for the growth in the share of independent-
+school students. We use the following pre-reform variables, all aimed at capturing the 
+                                                 
+35 The municipality characteristics in 1992 that are the best predictors of the growth in the share of independent-
+school students between 1992 and 2009 are the fraction of parents with university education, the mean family 
+income, the fraction of immigrants in the municipality and the size of municipality (all entering with positive sign). 
+Notably, if we further add the level and change of average pupil achievement in public schools in the municipality 
+prior to the reform among the X-variables, both are found to have no impact on the growth in the share of 
+independent-school students.  
+36 The share of independent schools is lagged three years in the estimations. Hence, we assume that students that leave 
+compulsory school in year t are affected by independent-school openings 3 years earlier. This is reasonable since if 
+students switch schools, they typically do so at the start of stage 3 (i.e., grade level 7).  
+
+IFAU - Independent schools and long-run educational outcomes 
+31 
+ 
+opportunity 
+to 
+establish 
+independent-schools 
+in 
+the 
+municipality 
+(“market 
+opportunities”), as instruments for the post-reform change in the share of independent-
+school students: 
+• 
+i) A measure of “the density of students in relation to the density of public schools” 
+in the municipality prior to the reform.37 The arguments for why this measure will 
+have a (positive) impact on the share of independent-school students are as follows: 
+First, the independent-school companies should be more interested in opening up 
+schools when the opportunity to attract students is higher, which is the case if the 
+public schools are less prevalent in relation to the density of students in the 
+municipality. This argument is supported from our interviews with the leading 
+school companies. These companies considered the potential market share in the 
+municipality to be one of two main factors that are important in the decision to open 
+up a new school. Second,  the Swedish National Agency for Education (NAE) 
+which determines whether to allow independent schools to be established, will be 
+more likely to allow a new school if there is a high density of students in relation to 
+the number of existing schools.  
+• 
+ii) An indicator for whether there existed a private school in the municipality prior 
+to the independent-school reform. The argument is that these schools could be (and 
+often were) converted to voucher schools and hence that in such a municipality, 
+independent schools are established much more quickly than in comparable 
+municipalities without existing private schools.  
+• 
+iii) An indicator for whether there existed “more than one public school” in the 
+municipality in 1992. The argument is that the NAE is instructed to not approve 
+applications if a new school is expected to “have considerable negative 
+consequences for the municipality.” This situation is more likely to occur if only one 
+public school exists, because these municipalities then would be at risk in terms of 
+having to continue to run a single public school at a very high per-pupil cost 
+                                                 
+37 Formally we calculate 𝑍𝑚,1992 = 𝜎ቀ
+𝑃𝑢𝑝𝑖𝑙𝑠
+𝐴𝑟𝑒𝑎ቁ−𝜎ቀ
+𝑆𝑐ℎ𝑜𝑜𝑙𝑠
+𝐴𝑟𝑒𝑎ቁ for each municipality, where Pupils is the number of 
+pupils in 9th grade in the municipality in 1992; Schools is the number of schools (with ninth grade level) in the 
+municipality in 1992, and; Area is the squared meter distance of the municipality. By 𝜎(. ) we indicate that both the 
+number of pupils per square meter and the number of schools per square meter is standardized with mean zero and 
+standard deviation one (so that both metrics are expressed in the same units). Hence, 𝑍𝑚,1992 measures the density of 
+pupils in relation to the density of schools in a municipality. 
+
+32 
+IFAU - Independent schools and long-run educational outcomes 
+ 
+(municipalities are obliged to provide public schooling so it is very unlikely that a 
+sole public school would be forced to close down).  
+We argue that these instruments do shift the supply of independent schools differently 
+across municipalities after the reform. First-stage estimates are shown in Table A 1 in 
+the appendix. 
+We then perform IV-regressions using only “the density of students in relation to the 
+density of public schools” variable as an instrument. The estimates are shown in column 
+7 of Table 4 We see that these estimates are always positive and always statistically 
+indistinguishable from the OLS estimates in column 1. The estimates from the IV-
+regressions using all three pre-reform variables as instruments for the change in the 
+share of independent-school students are reported in column 8 of Table 4. The estimates 
+remain very similar.38 
+The private schools that already existed prior to the reform  
+In our analysis, we associate the change in educational outcomes with the change in the 
+share of independent-school students across municipalities. A few things are worth 
+noting about the measures used: First, we have coded the share of independent-school 
+students to zero in 1992. This coding is correct because independent schools did not 
+then exist. However, biased estimates could arise from differential truncation of the 
+achievement distribution before and after the reform (leading to composition bias). As a 
+check for whether this bias is important, we included the share of private school 
+students in 1992 as a separate variable in equation (1) and, hence, estimated equation (2) 
+with an added variable “the share of private school students in 1992.” The resulting 
+estimate for the share of independent-school students is shown in column 2 of Table 5. 
+It can be seen that this estimate is unchanged compared to column 1. The result is the 
+same if we instead simply use the change in the share of all non-public school students 
+as the main independent variable. Hence, the prevalence of pre-reform private schooling 
+does not affect both the post-reform changes in private schooling and the change in the 
+outcomes. Second, grades were not collected for private schools before 1993. Hence, 
+the students in these schools (<1% in 1992) are not included in the municipality grade 
+averages in 1992 (but they are included in our other educational outcome measures.). 
+                                                 
+38 It is possible that these instruments are invalid because they also have an impact on public school openings. 
+However, when we as a control variable in the IV-regressions add a variable capturing the density of public schools 
+(the number of public schools divided by the number of students in the municipality) the estimates remain unaffected. 
+
+IFAU - Independent schools and long-run educational outcomes 
+33 
+ 
+This exclusion could give raise to composition bias. We therefore re-estimated model 
+(2) using the year 1993 instead of 1992. The estimates remain unchanged (column 3 in 
+Table 5). Lastly, we show results using only the sub-sample of municipalities where no 
+private school existed before the reform (column 4). Again, the estimates remain very 
+similar. 
+Only municipalities with independent-schools in 2009  
+One might argue that the municipalities without independent schools are fundamentally 
+different from the municipalities with independent schools, or that the first independent 
+school is what is important in generating competition effects. We therefore check the 
+sensitivity of our results using only municipalities that have at least one independent 
+school. As seen in column 5 of Table 5, the estimates remain very similar.  
+Effects across municipality borders  
+We might underestimate the effects if there are spill-over or competition effects across 
+municipality borders. We might also worry about endogenous teacher mobility across 
+borders (which might be expected as wages are found to be positively affected by the 
+share of independent school students at the high-school level in Hensvik, 2012). This 
+could have resulted in a change in the composition of teachers across municipalities 
+which possibly affect the interpretation of our estimates. Hence, we switch the unit of 
+analysis from the municipality to the local labor market (LLM) and county area levels. 
+Using LLM area levels in estimating model (2), we see that some of the estimates 
+decrease in magnitude (column 6 of Table 5). However, the standard errors double and 
+triple in magnitude, and only the grade and test score estimates are statistically 
+significant. Using county level instead gives somewhat bigger estimates (column 7 of 
+Table 5).39 Given the imprecision of these estimates we are not able to say much about 
+whether there exist spill-over effects across municipality borders.  
+Weighted estimations  
+So far we have given each municipality equal weight in our estimations. This is 
+reasonable if we think of each municipality as a separate school market. However, this 
+might also mean that our results could be driven by very small municipalities. We 
+                                                 
+39 There are 24 counties in Sweden. Because of the small number of observations, we do not control for any 
+covariates in the model underlying the estimates in column 7 of Table 4. If we add changes in the background 
+variables similar as in the other columns (but defined at the county level), most estimates are of similar size. 
+However, the standard error increases a lot, making most estimates statistically insignificant.  
+
+34 
+IFAU - Independent schools and long-run educational outcomes 
+ 
+therefore perform estimations where we instead weight each municipality using the 
+number of students as weights. We show these estimates in column 8 of Table 5. As can 
+be seen, estimates using WLS yield very similar results.  
+Peer-effects/Sorting  
+If students are influenced by the composition of their peer group, increased sorting of 
+students following the establishment of the independent-school sector can also impact 
+student outcomes. Hsieh and Urquiola (2006), who estimate private school-choice 
+effects in Chile, argue that peer-effects can lead to biased estimates of educational 
+performance effects. They make two points. First, in order to diminish this potential bias 
+it is important to include all students in the estimations, i.e., students in both public and 
+private schools. If peer-effects are linear (so that they have the same effect across the 
+whole distribution), sorting will then not lead to biased estimates. Second, if peer-
+effects are non-linear, one could get biased estimates even if one includes all students in 
+the estimation. Hsieh and Urquiola (2006) find that high-performing students are more 
+likely to leave public schools when the private school share increases. Sorting, hence, 
+turned out to be important in Chile, probably due to the fact that Chilean private schools 
+are allowed to select students based on ability and to charge fees. 
+There is some Swedish evidence that students who attend independent- and public 
+schools differ along demographic- and family background characteristics (Björklund et 
+al, 2005, Swedish National Agency for Education, 2003). However, we expect the 
+potential bias of the performance estimates to be less in Sweden than in the Chilean 
+setting since Swedish schools are not allowed to select students at the compulsory level. 
+We investigate the effect of the share of independent school students on sorting in 
+Böhlmark and Lindahl (2007), and we find that public schools lose students who are 
+second-generation immigrants and/or whose parents have high education. However, we 
+find no evidence of sorting of students by parental income and pupil’s first generation 
+immigrant status. Hence, sorting might have some impact on the interpretation on our 
+estimates, but it is likely a much smaller issue than what was the case for Chile.40 
+                                                 
+40 Sorting effects of school choice have also been found in other studies: Fiske and Ladd (2000) look at the impacts of 
+a large-scale voucher reform in New Zealand in the early 1990s. They find that there was an inflow of students with 
+high social background to independent schools. Urquiola (2005) estimates the effects of choice between school 
+districts in the US and finds that increases in the availability of school districts leads to increased sorting (by race and 
+parental education). Söderström and Uusitalo (2005) study the impact on segregation of the admission selection 
+reform increasing school choice opportunities for students applying to Stockholm high schools in 2000. The reform is 
+found to increase segregation by ability and family background, and between natives and immigrants. Bettinger, 
+
+IFAU - Independent schools and long-run educational outcomes 
+35 
+ 
+Heterogeneity  
+So far, we have chosen to report estimates from regressions using changes in variables 
+calculated for the longest post-reform period possible. This makes sense since the share 
+of independent-school students has increased throughout the whole period, giving rise to 
+increased variation across municipalities over time, and because it probably takes time 
+for establishment of independent schools to impact overall educational performance. 
+However, there might be reasons to expect that the effect of the share of independent-
+school students have changed over time. One reason is that the composition of 
+independent schools has changed, and different types of independent schools might 
+have different impact on overall educational performance (they might differ in their 
+efficiency as well as in the competitive pressure they put on public schools). Also, 
+independent schools was really a marginal phenomenon the first half-decade after the 
+reform, but in later years it has become a substantial fraction of the school sector in 
+many municipalities.  
+In column 9 of Table 5, we show estimates using school cohorts 1992-2001. The 
+2001 school cohort is the first one who has all nine years in compulsory school in a 
+school system with independent schools. It is also the latest school cohort for which we 
+can observe years of schooling at age 24 (we observe this in 2009). This also means that 
+the estimates for all outcomes are generated using the same school cohorts of students. 
+We see that most estimates are much less precise compared to the baseline estimates, 
+and they are never statistically different from the baseline estimates. We have repeated 
+this exercise for several school cohorts, and it becomes clear that we do not find 
+consistently positive estimates that are statistically different from zero until just after a 
+decade after the reform.41 
+                                                                                                                                               
+Kremer and Saavedra (2010) make an explicit test of whether peer-effects are an important part of the positive 
+private-school attendance effect found in Columbia. They find that students who received vouchers had better 
+outcomes than those who did not, despite that the voucher-lottery winners had peers who perform less well. Hence, 
+they reject the hypothesis that the positive private-school attendance effect would be fully explained by peer-effects. 
+See also McEwan (2000) for a survey of the earlier literature.  
+41 In an earlier version of this paper (Böhlmark and Lindahl, 2008), we instead use all school cohorts and estimate 
+equation (1) directly using individual level data (controlling for municipality fixed effects to take into account 
+unobservable fixed municipality characteristics). In that paper, we were only able to use school cohorts until 2003 
+(for grades at the end of compulsory school and in high school), 2000 (university attendance) and 1998 (years of 
+schooling). We then found positive effects only on short-run outcomes. If we use the same specification for the 
+longer data periods in the present paper, we find positive estimates for all outcomes, but they are only statistically 
+significantly different from zero for average test scores and grades at the end of compulsory school and for average 
+high school grades. 
+
+36 
+IFAU - Independent schools and long-run educational outcomes 
+ 
+6.2 
+Mechanisms 
+6.2.1 
+External effects 
+Are the positive educational performance effects that we find only due to private 
+benefits for students attending independent schools or are they also due to external 
+benefits for students attending any type of school? We expect the latter to be important 
+if, e.g., increased competition (and/or influx of new ideas) leads to improvements in the 
+quality of public schools. We study this question in two ways. First, we look at the 
+effects of an increase in the share of independent school students on the change in 
+educational performance for the students in public schools. Second, we utilize our 
+individual data to purge the overall effect from the average effect from attending an 
+independent school.  
+Effects on public school students’ performance  
+It is very important to know if more independent schooling leads to better performance 
+also in public schools or if the results are driven by improved performance for the 
+students in independent schools. We therefore perform regressions using municipality 
+level averages for educational performance calculated only for public school students. 
+The results are reported in column 2 of Table 6. The estimates decrease somewhat 
+compared with the baseline estimates in column 1, but they are still positive and 
+statistically significant. The problem with these estimations is that they are likely to be 
+tainted by sample selection bias because the share of public school students went from 
+over 99% in 1992 to 89% in 2009. If the independent-school students would tend to be 
+high performing students, we then expect the estimates to decrease if we only use public 
+school students.  
+External effects across school sectors  
+In essence, we can see β in our baseline model (2) to capture two effects: the effect for 
+the individual from attending an independent school and the external effect for the 
+individual from the other students’ independent-school attendance in the municipality. 
+To estimate the magnitude of the external effect, we need to control for the effect for the 
+individual from attending an independent school. To facilitate comparison with our 
+earlier unweighted estimates, we choose to regress out the importance of the individual 
+level variables in the following way: (1) using individual-level data, we separately 
+regress each individual-level outcome, the municipal independent-school share and each 
+
+IFAU - Independent schools and long-run educational outcomes 
+37 
+ 
+municipal-level control, on a dummy for independent-school attendance and all 
+individual-level controls for 2009 (or whatever the latest available school cohort is for 
+the outcome); (2) using individual-level data we separately regress each individual-level 
+outcome and each municipal-level control, on all individual-level controls for 1992 
+(recall that there were no independent schools in 1992); (3) we obtain the residuals from 
+these regressions and aggregate them to the municipality-year level; (4) We take the 
+difference between 2009 and 1992 for each municipality for all these residuals; (5) we 
+regress model (2) separately for each outcome, using these residual changes as main 
+variables. 
+The resulting estimates are shown in column 3 of Table 6. The estimates are only 
+somewhat smaller than the baseline estimates in column 1, but they are still mostly 
+statistically significant. We conclude that approximately 70-80% of the overall effects 
+of the share of independent school students on educational performance are due to 
+external effects.  
+Table 6: External effects from an increase in the share of independent-school students 
+ 
+(1) 
+(2) 
+(3) 
+ 
+ 
+Educational outcomes: 
+OLS: Baseline 
+ 
+OLS: Including only 
+public-school students 
+OLS: External effects 
+Test scores in English and  
+17.93 
+11.62 
+15.28 
+Math 
+(2.69)** 
+(2.97)** 
+(2.85)** 
+R2 
+0.28 
+0.23 
+0.18 
+ 
+ 
+ 
+Grades in English and math  
+15.76 
+9.53 
+11.99 
+ 
+(2.55)** 
+(2.82)** 
+(2.66)** 
+R2 
+0.28 
+0.22 
+0.18 
+ 
+ 
+ 
+Academic track in high school  
+0.19 
+0.12 
+0.11 
+ 
+(0.13) 
+(0.14) 
+(0.13) 
+R2 
+0.07 
+0.06 
+0.07 
+ 
+ 
+ 
+Grades in 1st-year courses in 
+17.47 
+13.18 
+12.51 
+English and math  in high 
+school 
+(3.83)** 
+(4.42)** 
+(3.53)** 
+R2 
+0.17 
+0.14 
+0.11 
+ 
+ 
+ 
+At least 1 semester of   
+0.19 
+0.17 
+0.16 
+university studies at age 22 
+(0.06)** 
+(0.06)** 
+(0.06)** 
+R2 
+0.17 
+0.16 
+0.10 
+ 
+ 
+ 
+Years of schooling at age 24 
+0.64 
+0.46 
+0.66 
+ 
+(0.35)+ 
+(0.37) 
+(0.35)+ 
+R2 
+0.17 
+0.15 
+0.11 
+ 
+Controls 
+ 
+ 
+ 
+Changes in municipal controlsa 
+YES 
+YES 
+YES 
+Number of municipalities 
+284 
+284 
+284 
+Notes: aSee note to Table 2. Robust standard errors are in parentheses. + significant at 10 percent; * significant 
+at 5 percent; ** significant at 1 percent. 
+
+38 
+IFAU - Independent schools and long-run educational outcomes 
+ 
+Although we realize the problem of estimating average effects of attending an 
+independent school, we are quite confident that omitted individual variables do not 
+seriously bias our estimates, and if they do, they are likely to make an estimate of the 
+external effect a lower bound. First, the independent-school attendance effects decrease 
+substantially when we add the demographic and family background variables to the 
+estimation. Second, in Böhlmark and Lindahl (2007), we further find that independent-
+attendance estimates become even lower if we add family fixed effects to the model 
+(hence only looking at the effects between siblings who differ in whether they attend an 
+independent school). Third, the magnitude of our independent-school attendance effects 
+are not very different from what was found in Ahlin (2005), who was able to estimate 
+value-added models (controlling for student achievement at the end of the sixth grade) 
+for students leaving compulsory school in 1998. Looking at the effects on math, English 
+and Swedish test scores for a random sample of approximately 6000 students, she found 
+effects ranging from insignificant zero or small positive effects up to 5 percentile ranks 
+from attending an independent school in 1998.  
+6.2.2 
+Type of independent school 
+One clear trend since the mid 1990s has been a strong growth in independent schools 
+with a general profile and, in particular in for-profit independent schools with a general 
+profile (especially during the 2000s). The independent schools that emerged in the early 
+reform years might be regarded primarily as complements to the public schools. 
+Because they attracted a rather special selection of students, the competitive pressure 
+that these schools exerted is likely to have been modest. General-profile independent 
+schools, however, are alternatives to the public schools and try to attract broad groups of 
+students. The ownership structure might also be important in itself. Forward-looking 
+owners of for-profit schools might develop successful and competitive schools to 
+maximize their long-term profits. However, they might also start schools that turn out to 
+be of low quality if their focus is on short-term profits. Non-profit schools led by 
+idealists do not have the same incentive to be cost efficient, but the idealistic nature of 
+their business might form a good base for a competitive school.  
+Table 7 shows the estimates from regressions corresponding to those in column 2 of 
+Table 2, but in Table 7 we have separated the share of independent-school students into 
+four variables depending on the school type and ownership. We see that the separate 
+
+IFAU - Independent schools and long-run educational outcomes 
+39 
+ 
+estimates are not statistically different from one another. The conclusion that can be 
+drawn from these estimates is that the independent school type and whether they are for 
+or non-profit does not appear to matter much for the overall effect on students in both 
+public and independent schools.42  
+Table 7: Regressions of changes in the share of students in for-profit, non-profit and general-profile 
+independent schools on changes in overall educational achievement 
+ 
+Test 
+scores 
+Grades 
+Academic 
+track in 
+high school 
+High 
+school 
+grades 
+University 
+Years of 
+schooling 
+ 
+OLS 
+OLS 
+OLS 
+OLS 
+OLS 
+OLS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Share of students in for-profit- 
+21.46 
+18.08 
+0.15 
+17.66 
+0.08 
+-0.16 
+general-profile private schoolsb 
+(4.19)** 
+(4.08)** 
+(0.20) 
+(5.49)** 
+(0.09) 
+(0.45) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Share of students in for-profit- 
+14.29 
+11.18 
+0.17 
+9.78 
+0.40 
+3.31 
+special-profile private schoolsc 
+(5.62)* 
+(5.61)* 
+(0.26) 
+(9.23) 
+(0.42) 
+(2.02) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Share of students in non-profit- 
+12.13 
+12.10 
+0.21 
+17.58 
+0.27 
+0.74 
+general-profile private schoolsd 
+(6.58)+ 
+(5.49)* 
+(0.12)+ 
+(7.76)* 
+(0.12)* 
+(0.68) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Share of students in non-profit- 
+23.35 
+23.56 
+0.40 
+29.61 
+0.26 
+0.92 
+special-profile private schoolse 
+(8.12)** 
+(6.83)** 
+(0.37) 
+(10.71)** 
+(0.12)* 
+(0.64) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Controls 
+ 
+ 
+ 
+ 
+ 
+ 
+Changes in municipal controlsa 
+YES 
+YES 
+YES 
+YES 
+YES 
+YES 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+R2 
+0.29 
+0.30 
+0.08 
+0.19 
+0.18 
+0.17 
+Number of municipalities 
+284 
+284 
+284 
+284 
+284 
+284 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Notes: aSee note to Table 2. Robust standard errors are in parentheses. + significant at 10 percent; * significant at 5 percent; ** 
+significant at 1 percent. In 2009, the total share of students in independent school is about 0.11. The shares for the respective 
+category in the table for 2009 are as follows: 0.036b; 0.034c; 0.010d; 0.027e. For 2001 (we observe years of schooling for this school 
+cohort), the corresponding shares are: 0.005b; 0.004c; 0.004d; 0.018e 
+6.3 
+School costs 
+We are ultimately interested in the effects on school productivity, i.e., output per unit 
+spent. So far we have only looked at output (the numerator). Now we look at costs (the 
+denominator in the school productivity measure). The sign of an estimate of the effect 
+of the share of independent-school students on school costs is ambiguous. On the one 
+hand, increased competition can force schools to operate more efficiently and thereby 
+lower their costs. For example, the fact that many independent schools (and school 
+                                                 
+42 There is one Swedish study that has attempted to estimate educational achievement effects of attending a for-profit 
+independent school. Sahlgren (2010) use Swedish school-level data for the years 2005-2009 and estimate OLS 
+models where average GPA is regressed on indicators for school type and demographic, family background and 
+school level variables. He finds a positive association between average GPA and being a for-profit and non-profit 
+independent school, where the latter coefficient estimates are of similar size. 
+
+40 
+IFAU - Independent schools and long-run educational outcomes 
+ 
+companies) are able to make profits year after year and still attract increasing numbers 
+of students might work as a signal to the public sector that it is possible to run schools 
+more efficiently (recall that the size of the voucher is determined by the costs in the 
+public sector). On the other hand, if the schools that lose many students do not close 
+down, the costs will increase because each school has fixed costs, e.g. for buildings, that 
+are independent of the number of students attending them. It is, for example, possible 
+that the local governments for various reasons (e.g., ideological) provide additional 
+resources to the threatened public schools, leading to an over-capacity in the school 
+sector. It is also possible that the local authorities who are in favor of school choice and 
+competition invest additional resources in all schools to stimulate fair competition 
+among them. The largest part of school expenditures are made up of personnel costs. 
+Hensvik (2012) examines how local school competition affects teacher wages at the 
+high-school level. She finds that the effect on average wages is modest, but that it leads 
+to a more differentiated wage setting for the teachers (in both independent and public 
+schools).   
+To examine the impact of the share of independent-school students on school costs, 
+we estimate the following model: 
+ 
+(4) 
+Δlog[Expenditures/student]m= κ0+ κ1Δ𝑃തm+ κ2Δ𝑋തm+𝜈m 
+ 
+where the outcome variable is the change in the logarithm of total school expenditures 
+per student (based on the students residing in the municipality but attending a school in 
+any municipality) between 1992 and 2009, and other notations are as before. 
+ 
+ 
+
+IFAU - Independent schools and long-run educational outcomes 
+41 
+ 
+Table 8: Regressions of changes in the share of independent-school students on changes 
+in log expenditures per student 
+ 
+(1) 
+(2) 
+(3) 
+(4) 
+ 
+OLS 
+OLS 
+OLS 
+OLS 
+ 
+ 
+ 
+ 
+ 
+The share of free-school students 
+-0.33 
+-0.25 
+-0.28 
+-0.12 
+ 
+(0.07)** 
+(0.09)** 
+(0.09)** 
+(0.10) 
+R2 
+0.06 
+0.17 
+0.19 
+0.27 
+ 
+ 
+ 
+ 
+ 
+Controls 
+ 
+ 
+ 
+ 
+Changes in municipal controlsa 
+NO 
+YES 
+YES 
+YES 
+1992 level of municipal controls 
+NO 
+NO 
+NO 
+YES 
+ 
+ 
+ 
+ 
+ 
+Key independent variable 
+ 
+ 
+ 
+ 
+Share of free-school students in: 
+grade 9 
+grade 9 
+grade 1-9 
+grade 9 
+ 
+ 
+ 
+ 
+ 
+Notes: aSee note to Table 2. Robust standard errors are in parentheses. + significant at 10 percent; * significant at 5 
+percent;  
+** significant at 1 percent. Expenditures per student are calculated for students residing in the municipality, but who 
+can attend a school in any municipality. Revenues from students living in another municipality but who attend a school 
+in the municipality are deducted. It is total school expenditures, hence including personnel costs, rent costs, teaching 
+materials, school meals, libraries, etc. The data on expenditures per student was downloaded from the Swedish 
+National Agency for Education’s homepage: http://www.skolverket.se/statistik-och-analys/2.1862/2.4290/2.4294. A detailed 
+documentation of this data is also available at their homepage. 
+The results are reported in Table 8 (see the table note for a description of the cost data). 
+We find statistically significant negative effects, regardless of whether we control or 
+changes in background variables.43 If the share of independent-school students increases 
+by 10 percentage points, overall school expenditures decreases by 3 percent. However, 
+the estimates are sensitive to controls for initial characteristics. As seen in column 4, the 
+estimate then becomes insignificant (although still negative). The data on school 
+expenditures are only available for grades 1-9 taken together. For this reason, in column 
+3, we use the alternative measure of the share of independent school students in grades 
+1-9. We note that this makes no difference.44   
+We conclude that there is no evidence that school expenditures increase as a result of 
+an increase in the share of independent-school students. Hence, our findings of positive 
+effects of the share of independent-school students on average educational performance 
+can also be interpreted as positive effects on average school productivity. We note that 
+this conclusion is in accordance with the findings in Hensvik (2012) for two important 
+reasons. First, she finds only modest effects on average wages. Second, her finding that 
+school competition brings schools to reward especially high-ability teachers is a 
+                                                 
+43 Björklund et al. (2005) estimate the relationship between the change in total school costs per student and the change 
+in private school share in grades 1-9 between the years 1992 and 2001, controlling for some covariates. They find a 
+positive but statistically insignificant effect. Their estimate is 0.14, with a standard error of 0.72.  
+44 If we chose to use student-population weights when estimating equation 4, results remain very similar. 
+
+42 
+IFAU - Independent schools and long-run educational outcomes 
+ 
+potential mechanism behind the positive effects on educational achievement that we 
+find.  
+7 
+Conclusion and discussion 
+We have estimated general educational performance effects of choice and competition 
+between public and independent schools in Sweden. For this purpose, we have used 
+administrative data on compulsory school graduates in 1988-2009 and exploited 
+between-municipality differences in the growth in the share of independent-school 
+students that developed as a consequence of the 1992 voucher reform. Our empirical 
+strategy was to regress the change in educational performance outcomes against the 
+increase in the share of independent-school students between Swedish municipalities. 
+We find that an increase in the share of independent-school students improves 
+average educational performance both at the end of compulsory school and in the long 
+run in terms of high school grades, university attendance and years of schooling. We 
+further show that these effects are very robust with respect to a number of potential 
+issues, such as grade inflation and pre-reform trends. Interestingly, it appears that these 
+positive effects are primarily due to spill-over or competition effects and not that 
+independent-school students gain significantly more than public school students. 
+Notably, because it has taken time for the independent schools to become more than a 
+marginal phenomenon in Sweden, we have only been able to detect statistically 
+significant positive effects for later years (about a decade after the reform). We are also 
+able to show that a higher share of independent-school students in the municipality has 
+not generated increased school expenditures. Hence, our positive educational 
+performance effects are interpretable as positive effects on school productivity. 
+The basic findings are that the impact of a 10 percentage point increase in the share 
+of independent-school students has resulted in close to a 2 percentile rank higher 
+educational achievement at the end of compulsory school and in high school, a 2 
+percentage point higher probability of choosing an academic high-school track, a 2 
+percentage point higher probability of attending university and almost 4 weeks more 
+schooling. 
+We can compare our findings for short-term outcomes with evidence from previous 
+Swedish studies (Ahlin, 2003; Björklund et al., 2005; Sandström and Bergström, 2005). 
+
+IFAU - Independent schools and long-run educational outcomes 
+43 
+ 
+These studies look at earlier and fewer post-reform years and the findings are mixed. If 
+we transform our estimates to standard deviation (S.D.) units (using the variation across 
+all individuals) we find that a 10 percentage point increase in the share of independent-
+school students has resulted in 0.07 S.D. higher average educational achievement at the 
+end of compulsory school. Compared to the statistically significant findings in earlier 
+studies, this result is roughly half the size of the estimates for math found in Ahlin 
+(2003) and Swedish and English found in Björklund et al. (2005) and much lower than 
+what was found for math in the IV-estimations in Sandström and Bergström (2005). 
+However, comparing the actual school cohorts that they use in their analyses, most of 
+our estimates for these years are insignificant (2001 and earlier).45  
+Our positive estimates might appear surprising given Sweden’s relative decline in 
+scores on international tests such as PISA since the mid 1990s. However, we do not find 
+significant positive effects for the earlier years, when Swedish relative test scores 
+declined most dramatically. Additionally, because we look at variation across 
+municipalities it can very well be the case that the municipalities with few or no 
+independent schools have contributed most to this decline. Either way, we do not find 
+any support for the belief that an increase in the share of independent school students 
+provides an explanation for Sweden’s relative decline. 
+If we compare our result with those of other countries, we find larger effects than 
+what has been found for Canada (Card, Dooley and Payne, 2010) and Chile (Hsieh and 
+Urquiola, 2006) but more consistent with what has been found for U.K. (Clark, 2009) 
+and U.S. (Figlio and Hart, 2010). However, a comparison with other school systems is 
+difficult both because the alternative school types differ and because the conditions 
+under which external effects work well are very different. The conditions for school 
+choice that are likely to generate the most positive effects on overall school productivity 
+are discussed in MacLeod and Urquiola (2009). Their framework is a reputation model 
+of learning. They argue that in the Chilean system (where schools can select students 
+based on ability), the schools are more likely to compete by selecting the best students 
+instead of with increasing productivity. In a system like the Swedish, where cream-
+skimming is not allowed, the schools are more likely to compete by improving 
+productivity. In fact, MacLeod and Urquiola (2009) state that if the reputation model 
+                                                 
+45 We discuss these earlier Swedish studies in more detail in Böhlmark and Lindahl, 2007.  
+
+44 
+IFAU - Independent schools and long-run educational outcomes 
+ 
+holds for a school market, then “if schools cannot select on ability, the introduction of 
+school choice will unambiguously raise school performance and student outcomes.”  
+The positive educational performance effects found in this paper and the absence of 
+effects found in Hsieh and Urquiola (2006) support their story. 
+ 
+ 
+
+IFAU - Independent schools and long-run educational outcomes 
+45 
+ 
+References 
+Abdulkadiroglu, A., J. Angrist, S. Dynarski, T. Kane and P. Pathak, (2011), 
+"Accountability and Flexibility in Public Schools: Evidence from Boston's Charters 
+and Pilots," Quarterly Journal of Economics 126(2), pages 699-748 
+Ahlin, Å (2003), “Does school competition matter? Effects of a Large-scale School 
+Choice Reform on Student Performance,” Working Paper 2003:2, Department of 
+Economics, Uppsala University. 
+Angrist, J., E. Bettinger, and M. Kremer (2006), “Long-Term Educational 
+Consequences of Secondary School Vouchers: Evidence from Administrative 
+Records in Columbia,” American Economic Review 96 (3), 847-862. 
+Bettinger, E. (2011) “Chapter 7 - Educational Vouchers in International Contexts,” 
+pages 551-572, in Handbook of the Economics of Education vol. 4, Edited by E. 
+Hanushek, S. Machin and L. Woessmann. 
+Bettinger, E., M. Kremer, and J.E. Saavedra (2010), Are Educational Vouchers Only 
+Redistributive? Economic Journal 120 (546), F204–F228. 
+Björklund, A, Clark, M, Edin, P-A, Fredriksson, P, and Krueger, A (2005), “The market 
+comes to education in Sweden: An evaluation of Sweden’s surprising school 
+reforms,” Russel Sage Foundation, New York.  
+Böhlmark, A and M. Lindahl (2007), “The Impact of School Choice on Pupil 
+Achievement,    Segregation and Costs: Swedish Evidence,” IZA Discussion Paper 
+No. 2786. 
+Böhlmark, A and M. Lindahl (2008), “Does School Privatization Improve Educational 
+Achievement? Evidence from Sweden's Voucher Reform.” IZA Discussion Paper 
+No. 3691. 
+Card, D., M. Dooley and A. Payne (2010) "School Competition and Efficiency with 
+Publicly Funded Catholic Schools," American Economic Journal: Applied 
+Economics, 2(4), pages 150-176. 
+Chakrabarti, R. (2008). Can increasing private school participation and monetary loss in 
+a Voucher program affect public school performance? Evidence from Milwaukee. 
+Journal of Public Economics, 92(5-6), pages 1371-1393. 
+
+46 
+IFAU - Independent schools and long-run educational outcomes 
+ 
+Clark, D. (2009), “Politics, Markets and Schools: Quasi-Experimental Estimates of the 
+Impact of Autonomy and Competition from a Truly Revolutionary U.K. Reform,” 
+Journal of Political Economy, 117(4), pages 745-783.  
+Duflo, E. (2001) “Schooling and Labor Market Consequences of School Construction in 
+Indonesia: Evidence from an Unusual Policy Experiment,” American Economic 
+Review 91(4): 795-813. 
+Figlio, D. and C. Hart (2010), “Competitive Effects of Means-Tested School Vouchers,” 
+NBER WP 16056. 
+Fiske, E and Ladd, H (2000), “When Schools Compete: A Cautionary Tale,” Brookings 
+Institution Press, Washington DC. 
+Gibbons, S., Machin, S. and Silva, O. (2008), “Choice, Competition and Pupil 
+Achievement,” Journal of the European Economic Association, vol. 6(4), pp. 912-
+947. 
+Gill, B., Timpane, M., Ross, K., Brewer, D., and Booker K. (2007). “Rhetoric versus 
+reality :what we know and what we need to know about vouchers and charter 
+schools,” the RAND Corporation. 
+Gustafsson, J.-E. och K. Yang-Hansen (2009), ”Resultatför-ändringar i svensk 
+grundskola”, i ”Vad påverkar resultaten i svensk grundskola? Kunskapsöversikt om 
+betydelsen av olika faktorer”, Stockholm: Statens Skolverk. 
+de Haan, M., E. Leuven and H. Oosterbeek (2011),  “Scale Economies Can Offset the 
+Benefits of Competition: Evidence from a School Consolidation Reform in a 
+Universal Voucher System," IZA Discussion Papers 5528. 
+Hensvik (2012), “Competition, Wages and Teacher Sorting: Lessons Learned from a 
+Voucher Reform,” Economic Journal, forthcoming.  
+Howell, W. G. and Peterson, P. E. (2006). “The Education Gap: Vouchers and Urban 
+Schools,” Brookings Institution Press, Washington DC. 
+Hoxby, C (2000), “Does competition among public schools benefit students and 
+taxpayers,” American Economic Review 90 (5), 1209-1238. 
+
+IFAU - Independent schools and long-run educational outcomes 
+47 
+ 
+Hoxby, C (2000), “Peer Effects in the Classroom: Learning from Gender and Race 
+Variation,” NBER WP 7867. 
+Hoxby, C. (2003). School choice and school competition: Evidence from the United 
+States. (Swedish Economic Policy Review) 10(2), pages: 9-65 
+Hoxby, C. and S. Murarka (2009), “Charter Schools in New York City: Who Enrolls 
+and How They Affect Their Students’ Achievement,” NBER WP 14852. 
+Hsieh, C-T and Urquiola, M (2006), “The effects of generalized school choice on 
+achievement and stratification: Evidence from Chile’s voucher program,” Journal of 
+Public Economics 90, 1477-1503. 
+Lavy, V. (2010). “Effects of Free Choice Among Public Schools,” Review of Economic 
+Studies 77, pages 1164–1191. 
+MacLeod, B and M. Urquiola (2009), "Anti-Lemons: School Reputation and 
+Educational Quality," NBER Working Papers 15112. 
+McEwan, P. J. (2000), “The Potential Impact of Large-Scale Voucher Programs.” 
+Review of Educational Research 70:103–149. 
+Sahlgren, G.H. (2010), “Schooling for Money: Swedish Education Reform and the Role 
+of the Profit Motive,” IEA Discussion Paper No. 33. 
+Sandström, M and Bergström, F (2005), “School Vouchers in Practice: Competition 
+Will Not Hurt You,” Journal of Public Economics 89, 351-380. 
+SOU (2008). ”Bidrag på lika villkor,” SOU 2008:8, Fritzes, Stockholm. 
+Swedish National Agency for Education (2001), “Fristående grundskolor – 2001,” 
+rapport Dnr 2001:3925, Skolverket. 
+Swedish National Agency for Education (2003), “Valfrihet och dess effekter inom 
+skolområdet,” rapport, Skolverket. 
+Swedish National Agency for Education (2004), “TIMSS 2003,” report 255.  
+Swedish National Agency for Education (2005), ”Skolor som alla andra? Med 
+fristående skolor i systemet 1991-2004,” Skolverket, rapport 271. 
+
+48 
+IFAU - Independent schools and long-run educational outcomes 
+ 
+Swedish National Agency for Education (2006), “Provbetyg-Slutbetyg-Likvärdig 
+bedömning?,” rapport 300.  
+Söderström, M and Uusitalo, R (2010), “School Choice and Segregation: Evidence from 
+an Admission Selection Reform,” Scandinavian Journal of Economics 112(1), pages 
+55-76. 
+Urquiola, M (2005), “Does School Choice Lead to Sorting? Evidence from Tiebout 
+Variation,” American Economic Review 95 (4), 1310-1326. 
+Vlachos (2010) "Betygets värde. En analys av hur konkurrens påverkar 
+betygssättningen vid svenska skolor", Konkurrensverket rapport 2010:6 
+ 
+
+ 
+Table A 1: Estimates from first stage regressions for the IV estimates in columns 6-8 in Table 4. Endogenous variable is the share of independent-
+school students 
+ 
+Grade and tests scores 
+Academic HS track and HS 
+grades 
+University attendance 
+Years of schooling 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The share of independent schools 
+0.27 
+ 
+ 
+0.20 
+ 
+ 
+0.16 
+ 
+ 
+0.12 
+ 
+ 
+ 
+(0.02)*** 
+ 
+ 
+(0.02)*** 
+ 
+ 
+(0.02)*** 
+ 
+ 
+(0.01)*** 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The density of students minus  
+ 
+0.065 
+0.064 
+ 
+0.080 
+0.079 
+ 
+0.076 
+0.076 
+ 
+0.027 
+0.023 
+density of schools in 1992 
+ 
+(0.022)*** 
+(0.022)*** 
+ 
+(0.016)*** 
+(0.016)*** 
+ 
+(0.013)*** 
+(0.013)*** 
+ 
+(0.009)*** 
+(0.009)*** 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Existing private school in the  
+ 
+ 
+0.029 
+ 
+ 
+0.008 
+ 
+ 
+0.015 
+ 
+ 
+0.028 
+municipality in 1992 
+ 
+ 
+(0.018) 
+ 
+ 
+(0.014) 
+ 
+ 
+(0.011) 
+ 
+ 
+(0.007)*** 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+More than one public school in the  
+ 
+ 
+0.016 
+ 
+ 
+0.018 
+ 
+ 
+0.014 
+ 
+ 
+0.007 
+municipality in 1992 
+ 
+ 
+(0.009)* 
+ 
+ 
+(0.007)*** 
+ 
+ 
+(0.005)*** 
+ 
+ 
+(0.003)* 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+R2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+F-statistic 
+145.50 
+8.77 
+4.94 
+130.35 
+24.03 
+10.89 
+50.15 
+33.46 
+14.60 
+86.40 
+9.13 
+10.77 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Controls 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Changes in municipal controlsa 
+Yes 
+Yes 
+Yes 
+Yes 
+Yes 
+Yes 
+Yes 
+Yes 
+Yes 
+Yes 
+Yes 
+Yes 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Number of municipalities 
+284 
+284 
+284 
+284 
+284 
+284 
+284 
+284 
+284 
+284 
+284 
+284 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Notes: aSee note to Table 2. Robust standard errors are in parentheses. + significant at 10 percent; * significant at 5 percent; ** significant at 1 percent. 
+
+ 
+ 
+Publication series published by IFAU – latest issues 
+Rapporter/Reports 
+2012:1 
+Lundin Martin and Jonas Thelander ”Ner och upp – decentralisering och centralisering inom 
+svensk arbetsmarknadspolitik 1995–2010” 
+2012:2 
+Edmark Karin, Che-Yuan Liang, Eva Mörk and Håkan Selin ”Jobbskatteavdraget” 
+2012:3 
+Jönsson Lisa and Peter Skogman Thoursie ”Kan privatisering av arbetslivsinriktad rehabili-
+tering öka återgång i arbete?” 
+2012:4 
+Lundin Martin and PerOla Öberg ”Politiska förhållanden och användningen av expert-
+kunskaper i kommunala beslutsprocesser” 
+2012:5 
+Fredriksson Peter, Hessel Oosterbeek and Björn Öckert ”Långsiktiga effekter av mindre 
+klasser” 
+2012:6 
+Liljeberg Linus, Anna Sjögren and Johan Vikström ”Leder nystartsjobben till högre syssel-
+sättning?” 
+2012:7 
+Bennmarker Helge, Oskar Nordström Skans and Ulrika Vikman ”Tidigarelagda obligatoriska 
+program för äldre långtidsarbetslösa – erfarenheter från 1990-talet” 
+2012:8 
+Lohela Karlsson Malin, Christina Björklund and Irene Jensen ”Sambandet mellan psykosociala 
+arbetsmiljöfaktorer, anställdas hälsa och organisationers produktion – en systematisk litteratur-
+genomgång” 
+2012:9 
+Johansson Per, Tuomas Pekkarinen and Jouko Verho ”Gränshandel med alkohol och dess 
+effekter på hälsa och produktivitet” 
+2012:10 Grönqvist Hans, Per Johansson and Susan Niknami ”Påverkar inkomstskillnader hälsan? 
+Lärdomar från den svenska flyktinplaceringspolitiken” 
+2012:11 von Greiff Camilo, Anna Sjögren and Ing-Marie Wieselgren ”En god start? En rapport om att 
+stötta barns utveckling” 
+2012:12 Lindahl Mikael, Mårten Palme, Sofia Sandgren Massih and Anna Sjögren ”Intergenerationell 
+rörlighet i inkomster och utbildning – en analys av fyra generationer” 
+2012:13 Eriksson Stefan, Per Johansson and Sophie Langenskiöld ”Vad är rätt profil för att få ett jobb? 
+En experimentell studie av rekryteringsprocessen” 
+2012:14 Böhlmark Anders and Helena Holmlund ”Lika möjligheter? Familjebakgrund och 
+skolprestationer 1988–2010” 
+2012:15 Böhlmark Anders, Erik Grönqvist and Jonas Vlachos ”Rektors betydelse för skola, elever och 
+lärare” 
+2012:16 Laun Lisa ”Om förhöjt jobbskatteavdrag and sänkta arbetsgivaravgifter för äldre” 
+2012:17 Böhlmark Anders and Mikael Lindahl ”Har den växande friskolesektorn varit bra för elevernas 
+utbildningsresultat på kort och lång sikt? 
+Working papers 
+2012:1 
+Edmark Karin, Che-Yuan Liang, Eva Mörk and Håkan Selin ”Evaluation of the Swedish 
+earned income tax credit” 
+2012:2 
+Jönsson Lisa and Peter Skogman Thoursie “Does privatisation of vocational rehabilitation 
+improve labour market opportunities? Evidence from a field experiment in Sweden” 
+2012:3 
+Johansson Per and Martin Nilsson “Should sickness insurance and health care be administrated 
+by the same jurisdiction? An empirical analysis 
+
+ 
+ 
+2012:4 
+Lundin Martin and PerOla Öberg “Towards reason: political disputes, public attention and the 
+use of expert knowledge in policymaking” 
+2012:5 
+Fredriksson Peter, Björn Öckert and Hessel Oosterbeek “Long-term effects of class size” 
+2012:6 
+van den Berg Gerard J, Pia R. Pinger and Johannes Schoch “Instrumental variable estimation 
+of the causal effect of hunger early in life on health later in life” 
+2012:7 
+Bennmarker Helge, Oskar Nordström Skans and Ulrika Vikman “Workfare for the old and 
+long-term unemployed” 
+2012:8 
+Lohela Karlsson Malin, Christina Björklund and Irene Jensen ”The relationship between 
+psychosocial work factors, employee health and organisational production – a systematic 
+review” 
+2012:9 
+Engström Per, Pathric Hägglund and Per Johansson ”Early interventions and disability 
+insurance: experience from a field experiment” 
+2012:10 Johansson Per, Tuomas Pekkarinen and Jouko Verho ”Cross-border health and productivity 
+effects of alcohol policies” 
+2012:11 Grönqvist Hans, Per Johansson and Susan Niknami ”Income inequality and health: lessons 
+from a refugee residential assignment program” 
+2012:12 Lindahl Mikael, Mårten Palme, Sofia Sandgren Massih and Anna Sjögren ”The inter-
+generational persistence of human capital: an empirical analysis of four generations” 
+2012:13 Eriksson Stefan, Per Johansson and Sophie Langenskiöld ”What is the right profile for getting 
+a job? A stated choice experiment of the recruitment process” 
+2012:14 de Luna Xavier and Per Johansson ”Testing for nonparametric identification of causal effects 
+in the presence of a quasi-instrument” 
+2012:15 Scholte Robert S., Gerard J. van den Berg and Maarten Lindeboom ”Long-run effects of 
+gestation during the Dutch hunger winter famine on labor market and hospitalization 
+outcomes” 
+2012:16 Böhlmark Anders, Erik Grönqvist and Jonas Vlachos ”The headmaster ritual: the importance 
+of management for school outcomes” 
+2012:17 Ødegaard Fredrik and Pontus Roos ”Measuring workers’ health and psychosocial work- 
+environment on firm productivity” 
+2012:18 Laun Lisa ”The effect of age-targeted tax credits on retirement behavior” 
+2012:19 Böhlmark Anders and Mikael Lindahl ”Independent schools and long-run educational 
+outcomes – evidence from Sweden’s large scale voucher reform” 
+Dissertation series 
+2011:1 
+Hensvik Lena “The effects of markets, managers and peers on worker outcomes” 

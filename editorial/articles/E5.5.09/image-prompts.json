@@ -1,0 +1,24 @@
+{
+  "id": "E5.5.09",
+  "prompts": {
+    "featured": "Use case: stylized-concept. Original MEE editorial illustration. Premium crafted miniature, tactile paper, limestone and ceramic, cobalt blue, vermilion red and warm ivory palette. Refined directional light, subtle texture, controlled shadows. Wide landscape, essential objects within central safe crop. No text, numbers, labels, logos, watermark, flags or statistical chart. A quiet miniature northern European street viewed diagonally from an elevated angle, three clearly separate modest school buildings in cobalt, vermilion and ivory along the same pale street, tactile paper windows and ceramic doorways, full roofs and buildings visible centrally with generous margins. Different composition from previous school illustrations. No children, flags, rankings, logos or text.",
+    "interior-1": "Use case: stylized-concept. Original MEE editorial illustration. Premium crafted miniature, tactile paper, limestone and ceramic, cobalt blue, vermilion red and warm ivory palette. Refined directional light, subtle texture, controlled shadows. Wide landscape, essential objects within central safe crop. No text, numbers, labels, logos, watermark, flags or statistical chart. A blank ivory rectangular paper voucher at left gradually folds through two sculptural paper folds into a cobalt miniature school backpack at right with vermilion straps, a single continuous crafted paper transformation, wide tabletop with generous margins. No money denomination, writing, signature, logos or claim that families receive a cash cheque.",
+    "interior-2": "Use case: stylized-concept. Original MEE editorial illustration. Premium crafted miniature, tactile paper, limestone and ceramic, cobalt blue, vermilion red and warm ivory palette. Refined directional light, subtle texture, controlled shadows. Wide landscape, essential objects within central safe crop. No text, numbers, labels, logos, watermark, flags or statistical chart. A tactile cobalt tabletop balance with two ivory pans: one holds a small vermilion open book, the other holds two separate clusters of ivory and cobalt wooden beads, full scale visible in a wide gallery composition with generous margins. No labels, calibrated equality, numbers, children, racial symbols or implication of a necessary trade-off."
+  },
+  "sources": {
+    "featured": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-8ace115e-925d-4eed-9bba-21bfed6246db.png",
+    "interior-1": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-c6437b29-94ec-4ba9-959d-698847b46999.png",
+    "interior-2": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-42b47b17-2f92-4784-bfd5-b5861a7a44fe.png"
+  },
+  "tool": "builtin_image_gen",
+  "sources_are_conceptual": true,
+  "edits": [
+    {
+      "role": "featured",
+      "reference": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-2a06876d-8dc4-47b2-baa9-eabaa1a5aab5.png",
+      "output": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-8ace115e-925d-4eed-9bba-21bfed6246db.png",
+      "purpose": "Ampliar encuadre para conservar edificios completos al recortar a 1200×630.",
+      "prompt": "Edit this MEE editorial miniature only to widen the framing: move the camera about 35 percent farther away so all three school buildings, roofs and chimneys are fully visible with large clear margins on every side. Keep the same three schools, colors, diagonal street, materials and lighting. All essential buildings must fit inside the central 65 percent of image height so the result can be cropped to a wide 1200 by 630 cover without cutting roofs or facades. No text, logos, people or new main buildings. Preserve the distinctive crafted scene."
+    }
+  ]
+}

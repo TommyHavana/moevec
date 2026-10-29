@@ -1,11 +1,65 @@
 {
-  "checked_at": "2026-10-29T13:18:58.552977+00:00",
+  "checked_at": "2026-10-29T13:38:42.279057+00:00",
   "items": [
     {
-      "name": "oecd-revenue2025",
-      "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en.html",
-      "error": "HTTP Error 403: Forbidden",
-      "downloaded": false
+      "name": "oecd-revenue2025-full",
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/12/revenue-statistics-2025_07ca0a8e/3a264267-en.pdf",
+      "final_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/12/revenue-statistics-2025_07ca0a8e/3a264267-en.pdf",
+      "file": "oecd-revenue2025-full.pdf",
+      "bytes": 13164493,
+      "sha256": "5e1b302b6921644f2b79d163f0afadb86b01527ac41979eb6c969492204401db",
+      "content_type": "application/pdf",
+      "downloaded": true
+    },
+    {
+      "name": "vat-dk",
+      "url": "https://skat.dk/en-us/erhverv/moms/i-gang-med-moms",
+      "final_url": "https://skat.dk/en-us/erhverv/moms/i-gang-med-moms",
+      "file": "vat-dk.html",
+      "bytes": 133406,
+      "sha256": "72a4da5521b8448f29acb4741f8baf980611f8d2548c54b398b312e6e5ccf103",
+      "content_type": "text/html; charset=utf-8",
+      "downloaded": true
+    },
+    {
+      "name": "vat-no2026",
+      "url": "https://www.skatteetaten.no/en/rates/value-added-tax/?year=2026",
+      "final_url": "https://www.skatteetaten.no/en/rates/value-added-tax/?year=2026",
+      "file": "vat-no2026.html",
+      "bytes": 73932,
+      "sha256": "855dbd79daa846663aa6c0200bb40fb1765827a4535d0b4b0a90e88618e909e3",
+      "content_type": "text/html; charset=utf-8",
+      "downloaded": true
+    },
+    {
+      "name": "vat-is",
+      "url": "https://www.skatturinn.is/english/companies/value-added-tax/nr/1968",
+      "final_url": "https://www.skatturinn.is/english/companies/value-added-tax/nr/1968",
+      "file": "vat-is.html",
+      "bytes": 69129,
+      "sha256": "c857e7abb9b72b762c46de0305fa190cc9d8c17ae21b3382932d3cfd21f7c971",
+      "content_type": "text/html;charset=UTF-8",
+      "downloaded": true
+    },
+    {
+      "name": "vat-fi",
+      "url": "https://www.vero.fi/en/businesses-and-corporations/taxes-and-charges/vat/rates-of-vat/",
+      "final_url": "https://www.vero.fi/en/businesses-and-corporations/taxes-and-charges/vat/rates-of-vat/",
+      "file": "vat-fi.html",
+      "bytes": 117476,
+      "sha256": "cd3e3d08863ee1b76bb352170bf4fc5b00456f8d418d3d10dd41a3f9974141e6",
+      "content_type": "text/html; charset=utf-8",
+      "downloaded": true
+    },
+    {
+      "name": "tax-competitiveness2026",
+      "url": "https://taxfoundation.org/research/all/global/2026-international-tax-competitiveness-index/",
+      "final_url": "https://taxfoundation.org/research/all/global/2026-international-tax-competitiveness-index/",
+      "file": "tax-competitiveness2026.html",
+      "bytes": 347092,
+      "sha256": "52f7faa216156d0b2ffebd5a965f05ba3d0a49a9d43ad92a3712c40df820013c",
+      "content_type": "text/html; charset=UTF-8",
+      "downloaded": true
     }
   ]
 }

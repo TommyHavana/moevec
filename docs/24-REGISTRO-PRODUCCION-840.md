@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-29T13:19:11+00:00.
+Comprobado en WordPress: 2026-10-29T14:18:28+00:00.
 
-**213/840 terminadas · 0 en curso · 627 pendientes.**
+**219/840 terminadas · 0 en curso · 621 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -225,12 +225,12 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 211 | 15/56 · 1/15 | E5.5.01 | ¿Son socialistas los países nórdicos? Lo que dijo el primer ministro danés | terminada | 3/3 | [Leer](https://moevec.org/blog/son-socialistas-los-nordicos/) |
 | 212 | 15/56 · 2/15 | E5.5.02 | Libertad económica en los países nórdicos: los datos | terminada | 3/3 | [Leer](https://moevec.org/blog/libertad-economica-nordicos-datos/) |
 | 213 | 15/56 · 3/15 | E5.5.03 | Antes del Estado de bienestar: cómo se enriqueció Suecia | terminada | 3/3 | [Leer](https://moevec.org/blog/como-se-enriquecio-suecia/) |
-| 214 | 15/56 · 4/15 | E5.5.04 | Confianza social: el ingrediente nórdico que no se puede copiar por ley | pendiente | 0/3 | — |
-| 215 | 15/56 · 5/15 | E5.5.05 | Impuestos nórdicos: altos, pero ¿sobre quién? | pendiente | 0/3 | — |
-| 216 | 15/56 · 6/15 | E5.5.06 | La crisis sueca de los noventa y las reformas de mercado | pendiente | 0/3 | — |
-| 217 | 15/56 · 7/15 | E5.5.07 | Flexiseguridad danesa: despido fácil, protección alta | pendiente | 0/3 | — |
-| 218 | 15/56 · 8/15 | E5.5.08 | Noruega y el petróleo: por qué no es un modelo replicable | pendiente | 0/3 | — |
-| 219 | 15/56 · 9/15 | E5.5.09 | Escuelas privadas con financiación pública: el modelo sueco | pendiente | 0/3 | — |
+| 214 | 15/56 · 4/15 | E5.5.04 | Confianza social: el ingrediente nórdico que no se puede copiar por ley | terminada | 3/3 | [Leer](https://moevec.org/blog/confianza-social-nordica/) |
+| 215 | 15/56 · 5/15 | E5.5.05 | Impuestos nórdicos: altos, pero ¿sobre quién? | terminada | 3/3 | [Leer](https://moevec.org/blog/impuestos-nordicos-sobre-quien/) |
+| 216 | 15/56 · 6/15 | E5.5.06 | La crisis sueca de los noventa y las reformas de mercado | terminada | 3/3 | [Leer](https://moevec.org/blog/crisis-sueca-noventa-reformas/) |
+| 217 | 15/56 · 7/15 | E5.5.07 | Flexiseguridad danesa: despido fácil, protección alta | terminada | 3/3 | [Leer](https://moevec.org/blog/flexiseguridad-danesa/) |
+| 218 | 15/56 · 8/15 | E5.5.08 | Noruega y el petróleo: por qué no es un modelo replicable | terminada | 3/3 | [Leer](https://moevec.org/blog/noruega-petroleo-no-replicable/) |
+| 219 | 15/56 · 9/15 | E5.5.09 | Escuelas privadas con financiación pública: el modelo sueco | terminada | 3/3 | [Leer](https://moevec.org/blog/escuelas-privadas-financiacion-publica-suecia/) |
 | 220 | 15/56 · 10/15 | E5.5.10 | Finlandia: educación, competitividad y límites del modelo | pendiente | 0/3 | — |
 | 221 | 15/56 · 11/15 | E5.5.11 | ¿Se puede copiar el modelo nórdico en América Latina? | pendiente | 0/3 | — |
 | 222 | 15/56 · 12/15 | E5.5.12 | España frente a Dinamarca: comparación con datos | pendiente | 0/3 | — |
