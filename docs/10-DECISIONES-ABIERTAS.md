@@ -429,3 +429,23 @@ Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobad
 Siguiente **226–228 / E5.6.01–E5.6.03**, Capitalismo Consciente → Servicios Sociales. Preparaciones incluidas en las 615 pendientes. E5.6.01: 0/3 imágenes locales; sin texto final, sin publicación; E5.6.02: 0/3 imágenes locales; sin texto final, sin publicación; E5.6.03: 0/3 imágenes locales; sin texto final, sin publicación. Después 229–231. Automatización activa, sin agotamiento comunicado.
 
 Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 226–228 · 29/10/2026
+
+228/840 terminadas, 684 imágenes originales públicas, 0 en curso o borradores WordPress y 612 pendientes.
+
+226: financiación, regulación y prestación diferenciadas; esperanza de vida OCDE 2023 sin inferencia causal, seguro suizo básico no lucrativo y S+3Ms con subsidios. Esping-Andersen por metadatos Princeton 1990 y exposición oficial noruega identificada como indirecta. 227: Hansard como testimonio atribuido, Beito solo ficha/descripción autorizada; Ruzafa 2023 y capítulo UNED 2005 con ámbito histórico concreto, sin explicación única del declive. 228: NHS inglés, reforma 2006 y mortalidad a 30 días por infarto con incentivos de elección en atención programada; límites causales y de acceso explícitos. IFAU con años y versiones, sin enlace a entrada398 todavía pendiente.
+
+Siguiente **229–231 / E5.6.04–E5.6.06**, Capitalismo Consciente → Servicios Sociales. Preparaciones incluidas en las 612 pendientes. E5.6.04: 0/3 imágenes locales; sin texto final, sin publicación; E5.6.05: 0/3 imágenes locales; sin texto final, sin publicación; E5.6.06: 0/3 imágenes locales; sin texto final, sin publicación. Después 232–234. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 229–231 · 29/10/2026
+
+231/840 terminadas, 693 imágenes originales públicas, 0 en curso o borradores WordPress y 609 pendientes.
+
+229: LAMal 1996, seguro básico y suplementario diferenciados, subsidios cantonales y comparaciones OCDE con fecha de referencia. 230: CPF y propiedad HDB con reglas y población estadística definidas, derechos temporales y coste de oportunidad del ahorro. 231: edición Marsh CFA 2026, marco multipilar y reformas nacionales con fechas; puntuaciones agregadas sin promesas individuales.
+
+Siguiente **232–234 / E5.6.07–E5.6.09**, Capitalismo Consciente → Servicios Sociales. Preparaciones incluidas en las 609 pendientes. E5.6.07: 3/3 imágenes locales; sin texto final, sin publicación; E5.6.08: 3/3 imágenes locales; sin texto final, sin publicación; E5.6.09: 3/3 imágenes locales; sin texto final, sin publicación. Después 235–237. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.

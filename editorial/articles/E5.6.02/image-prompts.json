@@ -1,0 +1,29 @@
+{
+  "id": "E5.6.02",
+  "prompts": {
+    "featured": "Use case: stylized-concept. Original MEE editorial illustration. Premium crafted miniature, tactile paper, limestone and ceramic, cobalt blue, vermilion red and warm ivory palette. Refined directional light, subtle texture, controlled shadows. Wide landscape, essential objects within central safe crop. No text, numbers, labels, logos, watermark, flags or statistical chart. Invented early twentieth century mutual aid society building, modest ivory stone facade with tall windows and cobalt doors, several small stylized adult figures in period coats and hats entering, one vermilion awning. Historical illustration, not a reconstruction of any real building, no signs or lettering, entire building with ample space above roof.",
+    "interior-1": "Use case: stylized-concept. Original MEE editorial illustration. Premium crafted miniature, tactile paper, limestone and ceramic, cobalt blue, vermilion red and warm ivory palette. Refined directional light, subtle texture, controlled shadows. Wide landscape, essential objects within central safe crop. No text, numbers, labels, logos, watermark, flags or statistical chart. A simple open cobalt communal contribution box with no lock and no writing, five anatomically simple ivory hands each contributing one blank vermilion ceramic coin. Clear separated gestures and generous spacing, all main objects fully visible.",
+    "interior-2": "Use case: stylized-concept. Original MEE editorial illustration. Premium crafted miniature, tactile paper, limestone and ceramic, cobalt blue, vermilion red and warm ivory palette. Refined directional light, subtle texture, controlled shadows. Wide landscape, essential objects within central safe crop. No text, numbers, labels, logos, watermark, flags or statistical chart. A stylized doctor in early twentieth century clothing holding a closed cobalt medical bag, standing respectfully at the doorway of a modest warm ivory home, a seated adult resident seen calmly inside, small vermilion chair, no examination, no medical instruments, no visible illness or distress."
+  },
+  "sources": {
+    "interior-1": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-21de54d7-f18a-4fef-ba10-d532aa9e79ad.png",
+    "featured": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-faf2bbc7-baa8-4679-86c1-a7cbfc352f35.png",
+    "interior-2": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-72f03be2-9c0d-4562-a5a0-e879bc242013.png"
+  },
+  "tool": "builtin_image_gen",
+  "sources_are_conceptual": true,
+  "edit_log": [
+    {
+      "role": "featured",
+      "input": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-2cc13524-d2f3-46b1-8587-43d17af38f4f.png",
+      "selected": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-faf2bbc7-baa8-4679-86c1-a7cbfc352f35.png",
+      "prompt": "Zoom out approximately25percent; preserve building, people, relief, doors, awning, light and palette. Entire roof/finials and all feet within central70percentheight; extend street and sky. No text."
+    },
+    {
+      "role": "interior-2",
+      "input": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-4b9680dd-22d1-45fa-92b2-cf64d677d0d5.png",
+      "selected": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-72f03be2-9c0d-4562-a5a0-e879bc242013.png",
+      "prompt": "Zoom out20percent, preserve doorway, doctor/hat/feet/bluebag, seated adult, palette and light, extend wall and ground; central70percentheight safe crop. No text or medical procedure."
+    }
+  ]
+}

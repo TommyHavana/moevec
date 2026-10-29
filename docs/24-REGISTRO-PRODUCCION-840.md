@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-29T15:08:32+00:00.
+Comprobado en WordPress: 2026-10-29T16:00:57+00:00.
 
-**225/840 terminadas · 0 en curso · 615 pendientes.**
+**231/840 terminadas · 0 en curso · 609 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -237,12 +237,12 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 223 | 15/56 · 13/15 | E5.5.13 | Sanidad nórdica: listas de espera, copagos y proveedores privados | terminada | 3/3 | [Leer](https://moevec.org/blog/sanidad-nordica/) |
 | 224 | 15/56 · 14/15 | E5.5.14 | Lo que los nórdicos hicieron con el impuesto de patrimonio y de sucesiones | terminada | 3/3 | [Leer](https://moevec.org/blog/nordicos-patrimonio-y-sucesiones/) |
 | 225 | 15/56 · 15/15 | E5.5.15 | El modelo nórdico explicado en cinco mitos | terminada | 3/3 | [Leer](https://moevec.org/blog/modelo-nordico-cinco-mitos/) |
-| 226 | 16/56 · 1/15 | E5.6.01 | Servicios sociales sin socialismo: modelos que funcionan | pendiente | 0/3 | — |
-| 227 | 16/56 · 2/15 | E5.6.02 | Ayuda mutua antes del Estado de bienestar: las sociedades de socorro | pendiente | 0/3 | — |
-| 228 | 16/56 · 3/15 | E5.6.03 | Libertad de elección en servicios públicos: qué dice la evidencia | pendiente | 0/3 | — |
-| 229 | 16/56 · 4/15 | E5.6.04 | Sanidad en Suiza: seguro obligatorio y aseguradoras privadas | pendiente | 0/3 | — |
-| 230 | 16/56 · 5/15 | E5.6.05 | Singapur: vivienda propia y ahorro obligatorio | pendiente | 0/3 | — |
-| 231 | 16/56 · 6/15 | E5.6.06 | Pensiones: modelos comparados en el mundo | pendiente | 0/3 | — |
+| 226 | 16/56 · 1/15 | E5.6.01 | Servicios sociales sin socialismo: modelos que funcionan | terminada | 3/3 | [Leer](https://moevec.org/blog/servicios-sociales-sin-socialismo/) |
+| 227 | 16/56 · 2/15 | E5.6.02 | Ayuda mutua antes del Estado de bienestar: las sociedades de socorro | terminada | 3/3 | [Leer](https://moevec.org/blog/ayuda-mutua-sociedades-de-socorro/) |
+| 228 | 16/56 · 3/15 | E5.6.03 | Libertad de elección en servicios públicos: qué dice la evidencia | terminada | 3/3 | [Leer](https://moevec.org/blog/libertad-de-eleccion-servicios-publicos/) |
+| 229 | 16/56 · 4/15 | E5.6.04 | Sanidad en Suiza: seguro obligatorio y aseguradoras privadas | terminada | 3/3 | [Leer](https://moevec.org/blog/sanidad-en-suiza/) |
+| 230 | 16/56 · 5/15 | E5.6.05 | Singapur: vivienda propia y ahorro obligatorio | terminada | 3/3 | [Leer](https://moevec.org/blog/singapur-vivienda-y-ahorro/) |
+| 231 | 16/56 · 6/15 | E5.6.06 | Pensiones: modelos comparados en el mundo | terminada | 3/3 | [Leer](https://moevec.org/blog/pensiones-modelos-comparados/) |
 | 232 | 16/56 · 7/15 | E5.6.07 | Educación concertada en España: un modelo mixto | pendiente | 0/3 | — |
 | 233 | 16/56 · 8/15 | E5.6.08 | Vivienda social: modelos que funcionan y modelos que fracasan | pendiente | 0/3 | — |
 | 234 | 16/56 · 9/15 | E5.6.09 | Renta básica universal: el debate desde la libertad | pendiente | 0/3 | — |

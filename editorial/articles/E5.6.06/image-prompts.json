@@ -1,0 +1,31 @@
+{
+  "id": "E5.6.06",
+  "prompts": {
+    "featured": "Use case: stylized-concept. Original MEE editorial illustration. Premium crafted miniature, tactile paper, limestone and ceramic, cobalt blue, vermilion red and warm ivory palette. Refined directional light, subtle texture, controlled shadows. Wide landscape, essential objects within central safe crop. No text, numbers, labels, logos, watermark, flags or statistical chart. A complete warm ivory lintel supported by exactly three equally tall columns of different tactile materials: cobalt ceramic, vermilion folded paper and pale stone. Stable ground, all capitals and bases visible with broad empty margins. Architectural editorial metaphor for complementary pension funding, not a scientific structural diagram. No words, numbers, logos or ranking.",
+    "interior-1": "Use case: stylized-concept. Original MEE editorial illustration. Premium crafted miniature, tactile paper, limestone and ceramic, cobalt blue, vermilion red and warm ivory palette. Refined directional light, subtle texture, controlled shadows. Wide landscape, essential objects within central safe crop. No text, numbers, labels, logos, watermark, flags or statistical chart. Four sets of miniature columns on a warm ivory ground, each set with one cobalt and one vermilion and one ivory column of varied heights, arranged as separate sculptural groups with no ordered podium. Abstract comparative pension models, no country flags, names, numbers, labels, chart axes or rankings. All groups fully visible, wide composition with generous safe margins.",
+    "interior-2": "Use case: stylized-concept. Original MEE editorial illustration. Premium crafted miniature, tactile paper, limestone and ceramic, cobalt blue, vermilion red and warm ivory palette. Refined directional light, subtle texture, controlled shadows. Wide landscape, essential objects within central safe crop. No text, numbers, labels, logos, watermark, flags or statistical chart. One dignified older adult sculptural figure seated calmly on a complete cobalt park bench, holding a closed transparent jar containing several blank vermilion tokens. Warm ivory clothing, relaxed posture, respectful non-caricature style, no identifiable person. Full head, bench and feet all visible within central safe area with broad margins. No wealth promise or financial advice."
+  },
+  "sources": {
+    "featured": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-f482101b-9e10-4dc0-b798-169e1502882e.png",
+    "interior-1": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-8207747b-8183-4797-90b0-f8fdf7555f69.png",
+    "interior-2": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-dd37d348-7ddf-434b-8e40-9ec6ffc0dd55.png"
+  },
+  "tool": "builtin_image_gen",
+  "sources_are_conceptual": true,
+  "edits": [
+    {
+      "role": "featured",
+      "original": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-9253fdd1-ec0f-4c27-aba7-1851752c91fd.png",
+      "prompt": "Zoom out35%, preserve lintel, columns and bases for1200x630.",
+      "selected": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-f482101b-9e10-4dc0-b798-169e1502882e.png",
+      "tool": "builtin_image_gen"
+    },
+    {
+      "role": "interior-2",
+      "original": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-c3edc8af-0527-4b2b-baf7-c42563793e97.png",
+      "prompt": "Zoom out20%, preserve whole invented older figure and bench for1600x900.",
+      "selected": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-dd37d348-7ddf-434b-8e40-9ec6ffc0dd55.png",
+      "tool": "builtin_image_gen"
+    }
+  ]
+}

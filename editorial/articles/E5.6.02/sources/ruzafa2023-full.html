@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es-ES">
+	<head>
+<link rel="stylesheet" href="https://www.revistasmarcialpons.es/index.php/revistaayer/$$$call$$$/page/page/css?name=htmlGalley" type="text/css" />
+<link rel="stylesheet" href="https://www.revistasmarcialpons.es/index.php/revistaayer/$$$call$$$/page/page/css?name=htmlFont" type="text/css" />
+
+		<meta charset="utf-8" />
+		<title>6_Ruzafa</title>
+		<style>
+			body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
+				margin: 0 auto;
+				padding: 0;
+				border-width: 0;
+			}
+			
+			body {
+				-webkit-hyphens: auto;
+				-ms-hyphens: auto;
+				hyphens: auto;
+				font-size: 15px;
+				line-height: 18px;
+				text-align: justify;
+				//font-family: 'EB Garamond', serif;
+				font-family: "Times", serif;
+				font-weight: 400;
+			}
+			
+			.creditos {
+				font-size: 12px;
+				line-height: 14px;
+				text-align: right;
+				margin-top: 20px;
+			}
+			
+			.titulo,
+			.capitulo {
+				font-family: 'EB Garamond', serif;
+				-webkit-hyphens: none;
+				-ms-hyphens: none;
+				hyphens: none;
+				text-align: right;
+				font-style: italic;
+				font-size: 50px;
+				line-height: 55px;
+				margin-top: 100px;
+				margin-bottom: 25px;
+			
+			}
+			
+			.autor {
+				font-family: 'EB Garamond', serif;
+				text-align: right;
+				font-style: italic;
+				font-size: 25px;
+				margin-bottom: 10px;
+			}
+			
+			.cargo,
+			.cita {
+				text-align: right;
+				margin-bottom: 50px;
+				margin-left: 100px;
+			}
+			
+			.resumen {
+				text-indent: -15px;
+				margin-left: 15px;
+			}
+			
+			.palabras_clave {
+				margin-left: 15px;
+				margin-bottom: 15px;
+				margin-top: 5px;
+			}
+			
+			h1.ladillo1 {
+				font-weight: bold;
+				font-size: 22px;
+				margin-top: 30px;
+				margin-bottom: 15px;
+				line-height: 28px;
+			}
+			
+			h2.ladillo2 {
+				font-weight: normal;
+				font-style: italic;
+				font-size: 22px;
+				margin-top: 30px;
+				margin-bottom: 15px;
+				line-height: 28px;
+			}
+			
+			.texto {
+				text-indent: 15px;
+				margin-bottom: 10px;
+			}
+			
+			.metido {
+				margin-left: 20px;
+				margin-bottom: 10px;
+			}
+			
+			.texto_centrado,
+			.asterisco {
+				text-align: center;
+				margin: 30px 0;
+			}
+			
+			.titulo_grafico {
+				text-align: center;
+				margin: 25px 10% 10px;
+			}
+			
+			.imagen {
+				text-align: center;
+			}
+			
+			.pie_foto,
+			.fuente_grafico {
+				text-align: center;
+				margin: 0 10% 25px;
+			}
+			
+			table {
+				margin: 25px auto 10px;
+				border-spacing: 0px;
+			}
+			
+			table tr {
+				margin: 0;
+				padding: 0;
+				border-spacing: 0;
+			}
+			
+			table tr td{
+				padding: 10px;
+				border-right: 1px solid #333;
+				border-bottom: 1px solid #333;
+				text-align: center;
+			}
+			
+			td.sinBorde {
+				border: none !important;
+			}
+			
+			td.bordeSup {
+				border-top: 1px solid #333;
+			}
+			
+			td.bordeIzq {
+				border-left: 1px solid #333;
+			}
+			
+			
+			.texto_nota {
+				font-size: 13px;
+				line-height: 16px;
+				margin-top: 10px;
+			}
+
+
+			.sinMargenSuperior {
+				margin-top: 0!important;
+			}
+			
+			.sinMargenInferior {
+				margin-bottom: 0!important;
+			}
+			
+			
+			.revista {
+				font-family: 'EB Garamond', serif;
+				font-style: italic;
+				font-size: 16px;
+			}
+			.cursiva {
+				font-style: italic;
+			}
+			
+			.nota {
+				font-size: 75%;
+				vertical-align: super;
+				line-height: 0;
+				margin-right: 5px;
+			}
+			
+			.centrado {
+				text-align: center;
+			}
+			
+			.izquierda {
+				text-align: left;
+			}
+			
+			.derecha {
+				text-align: right;
+			}
+			
+			.versalitas,
+			.versalita {
+				font-variant: small-caps;
+			}
+			
+			llamada_nota a, .llamada_nota a:link, .llamada_nota a:visited, .llamada_nota a:active, .llamada_nota a:hover, .nota a, .nota a:link, .nota a:visited, .nota a:active, .nota a:hover, a, a:link, a:visited, a:active, a:hover, a.Hyperlink, a.Hyperlink:link, a.Hyperlink:visited, a.Hyperlink:active, a.Hyperlink:hover {
+				color: #000;
+			}
+			
+			@media (min-width: 768px) {
+				body {
+					width: 70%;
+				}
+				.titulo {
+					margin-left: 35%;
+					color: #1sse35;
+				}
+			}
+			
+			@media (max-width: 768px) and (min-width: 576px ) {
+				body {
+					width: 90%;
+				}
+				.titulo {
+					margin-left: 15%;
+				}
+			}
+			
+			@media (max-width: 576px) {
+				body {
+					width: 90%;
+				}
+			}
+			
+		</style>
+	</head>
+	<body id="">
+		<div id="_idContainer001">
+			<p class="creditos">
+				<span class="revista">Ayer</span> 130/2023 (2): 165-191<br />
+				Marcial Pons Ediciones de Historia<br />
+				Asociación de Historia Contemporánea<br />
+				Madrid, 2023<br />
+				ISSN: 1134-2277<br />
+				DOI: 10.55509/ayer/1272<br />
+				© Rafael Ruzafa Ortega<br />
+				Recibido: 14-10-2019 | Aceptado: 09-07-2020 | Publicado <span class="cursiva">on-line: </span>10-04-2023<br />
+				Editado bajo licencia CC Attribution-NoDerivatives 4.0 License</p>
+			<p class="capitulo">Mutualismo perdurable. Las sociedades de socorros mutuos pioneras de cinco ciudades españolas, siglos&#160;<span class="versalita">xix-xx</span></p>
+			<p class="autor"><span class="cursiva">Rafael Ruzafa Ortega</span></p>
+			<p class="cargo">Universidad del País Vasco (UPV/EHU) <br />rafael.ruzafa@ehu.eus</p>
+			<p class="resumen"><span class="cursiva">Resumen:</span><span class="negrita"> </span>Insertado en las preocupaciones de la historiografía sobre previsión social, el artículo profundiza en los logros y características de cinco sociedades de socorros mutuos pioneras en cinco capitales de provincia del norte de España desde mediados del siglo&#160;<span class="versalita">xix</span> hasta mediados del siglo&#160;<span class="versalita">xx</span>. Se detiene en su tamaño, la tipología y extracción de sus afiliados, su organización, sus prestaciones, su vida societaria y su impacto en las respectivas vidas públicas locales.</p>
+			<p class="palabras_clave"><span class="cursiva">Palabras clave:</span> sociedades de socorros mutuos, norte de España, siglos&#160;<span class="versalita">xix-xx</span>, sociabilidad.</p>
+			<p class="resumen"><span class="cursiva" lang="en-GB">Abstract:</span><span lang="en-GB"> This article explores the achievements and characteristics of five pioneering mutual benefit societies </span><span class="cursiva" lang="en-GB">(sociedades de socorros mutuos)</span><span lang="en-GB"> in five provincial capitals in northern Spain from the middle of the nineteenth century to the middle of the twentieth. By so doing, it engages with the historical literature on social welfare. It develops a typology based upon size, relationships with affiliates, organization, benefits, internal associational dynamics and the impact on local public live.</span></p>
+			<p class="palabras_clave"><span class="cursiva" lang="en-GB">Keywords:</span><span lang="en-GB"> mutual benefit societies; northern Spain, nineteenth and twentieth centuries, sociability.</span></p>
+			<h1 class="ladillo1"><span class="negrita">Introducción</span></h1>
+			<p class="texto">La preocupación ante riesgos que condicionaban la vida social de la población occidental alentó fórmulas de previsión durante la época contemporánea. La historiografía de lo social viene investigándolas, distinguiendo entre actuaciones individuales y colectivas, voluntarias u obligatorias, promovidas por los Estados o por entidades particulares, de atención de riesgos personales o patrimoniales. Los Estados empezaron su lenta intervención en el campo de los seguros sociales en el cambio de los siglos&#160;<span class="versalita">xix</span> al <span class="versalita">xx</span>. El español acometió el de accidentes de trabajo en 1900. Progresivamente incorporó, casi en exclusiva para asalariados mediante cotizaciones a distintas cajas del Instituto Nacional de Previsión, los de retiro, invalidez y maternidad. El primer franquismo, superado el debate de la obligatoriedad e iniciado el de la unificación, instituyó el seguro obligatorio de enfermedad. El tardofranquismo incorporó el de desempleo, cuya implementación efectiva realizó el régimen democrático, que unificó y universalizó el programa de actuación público-estatal y acometió su descentralización parcial en las dos últimas décadas del siglo&#160;<span class="versalita">xx</span><span class="nota"><span id="footnote-030-backlink"><a class="_idFootnoteLink _idGenColorInherit" href="#footnote-030">  1</a></span></span>.</p>
+			<p class="texto">Antes y durante ese largo proceso de intervención estatal, con correlatos en materias de beneficencia, sanidad, educación o relaciones laborales, otros agentes atendieron parcial o complementariamente los campos de inquietud de sectores amplios de población ante los riesgos mencionados. Patronos, obra católica, sindicatos de oficio o de clase, filántropos o aseguradoras mercantiles compitieron entre sí. En España ha resultado fecundo el estudio del mutualismo obrero y popular, la principal forma societaria tras las sociedades recreativas y desde principios del siglo&#160;<span class="versalita">xx</span> tras las organizaciones sindicales. La exigente normatividad de las entidades mutualistas implicó dependencia de las autoridades locales o estatal-provinciales, y se vio agudizada en el franquismo. Este artículo, deudor de la línea de investigación abierta por <span class="cursiva">Solidaridad desde abajo</span> (1994) y continuada en <span class="cursiva">La previsión social en la historia</span> (2009), profundiza en el conocimiento sobre la previsión voluntaria del denominado mutualismo de socorros mutuos, centrado en los riesgos personales. Con profusión de fuentes y metodología de historia social, incide en el protagonismo de la sociedad civil y en su seno de las clases medias-bajas. Acomete la trayectoria histórica de cinco sociedades de socorros mutuos pioneras en cinco ciudades del norte de España<span class="nota"><span id="footnote-029-backlink"><a class="_idFootnoteLink _idGenColorInherit" href="#footnote-029">  2</a></span></span>.</p>
+			<p class="texto">El proceso arranca a mediados del siglo&#160;<span class="versalita">xix</span>, cuando el ordenamiento liberal en materia de asociación se dejó sentir en pequeñas ciudades todavía amuralladas. Con matices, se cierra en las décadas de 1930 y 1940, dependiendo de la suerte de adscripción general de las ciudades al comienzo de la guerra civil. Interesan en esta investigación el tamaño, la composición, las prestaciones, la vida interna y la presencia de las entidades en la vida pública. No fueron las únicas, pero las consideramos representativas de preocupaciones y soluciones. Sirvieron de modelo a las entidades que las siguieron, en un panorama de fragmentación. El acendrado localismo de las sociedades de socorros mutuos estudiadas, extensible al conjunto del mutualismo español con la salvedad del catalán, ya ha sido abordado en un estudio anterior. Las preocupaciones y actuaciones de las entidades desbordaron escasamente el ámbito local de actuación. Las sociedades de socorros mutuos no fueron concebidas como instancias nacionalizadoras ni durante el periodo liberal ni en la consolidada sociedad de masas de principios del siglo&#160;<span class="versalita">xx</span><span class="nota"><span id="footnote-028-backlink"><a class="_idFootnoteLink _idGenColorInherit" href="#footnote-028">  3</a></span></span>.</p>
+			<h1 class="ladillo1"><span class="negrita">Sociedades de socorros mutuos pioneras en cinco capitales</span></h1>
+			<p class="texto">Vamos a pulsar el proceso de fundación, consolidación y decadencia de un modelo de previsión social particular en el norte de España a través de cinco sociedades de socorros mutuos pioneras en cinco ciudades. Las cinco sociedades (seis por lo que se dirá) se corresponden con una tipología generalista, apenas conflictiva, definida como «de interior». Creadas en las décadas centrales del siglo&#160;<span class="versalita">xix</span> entre las clases medias de sus respectivas ciudades, contaron con importante participación de sectores populares y/o trabajadores, hasta el punto de que tres de ellas se denominaron sociedades de socorros mutuos de artesanos. Cuatro alcanzaron el siglo&#160;<span class="versalita">xx</span>. Dos de ellas desaparecieron durante la guerra civil, otra en la década de 1940 y la última en la década de 1980.</p>
+			<p class="texto">La de más temprana fundación, la sociedad de socorros mutuos de artesanos de Burgos, resultó también la de más temprana desaparición. Creada en 1841, sus últimos bienes se embargaron en 1893. No aparece en la relación de sociedades de toda índole en la provincia de Burgos fechada en mayo de 1901 (ni en las estadísticas de 1904 del Instituto de Reformas Sociales). La otra sociedad de socorros mutuos burgalesa creada a mediados del siglo&#160;<span class="versalita">xix</span>, La Amiga de la Humanidad, sí se mantuvo. La base social de la de artesanos se redujo, seguramente por envejecimiento, desde muy pronto. La sociedad se centró en los negocios inmobiliario y de crédito y se elitizó, con prolongados cargos vinculados a la gestión del ayuntamiento de la capital castellana. Su declive coincidió con el auge de otra forma societaria confesional y mixta, el del Círculo Católico de Obreros, que reservó un hueco a la previsión dentro de sus actividades<span class="nota"><span id="footnote-027-backlink"><a class="_idFootnoteLink _idGenColorInherit" href="#footnote-027">  4</a></span></span>.</p>
+			<p class="texto">En la ciudad de Vitoria convivieron y compitieron dos sociedades de socorros mutuos principales durante la segunda mitad del siglo&#160;<span class="versalita">xix</span>. La primera, llamada a perdurar, sociedad de socorros mutuos de artesanos, se creó en 1849. En 1858 se creó la denominada segunda sociedad de socorros mutuos de artesanos jornaleros vitorianos. Con graves dificultades financieras, esta segunda se integró en 1909 en la primera. Ese año la entidad resultante se adhirió simbólicamente al recién creado Instituto Nacional de Previsión, cuyo presidente, Eduardo Dato, estaba muy vinculado a Vitoria. Aún con problemas financieros y de masa social desde mediados de la década de 1920, la sociedad sobrevivió a la guerra civil. Pese a sus esfuerzos por mantenerse, finalmente se disolvió en 1948-1949<span class="nota"><span id="footnote-026-backlink"><a class="_idFootnoteLink _idGenColorInherit" href="#footnote-026">  5</a></span></span>.</p>
+			<p class="texto">La sociedad de socorros mutuos de artesanos de Pamplona, creada en 1858, apenas ha sido mencionada como pionera en los acercamientos a la historia de la previsión social en Navarra. Otra sociedad pamplonesa, confesional pero «inclasificable» según la Estadística de 1916 del Instituto de Reformas Sociales, La Conciliación (1902-1984), ha gozado de más dedicación. La de artesanos alcanzó sin excesivas dificultades la década de 1930 y sorteó exitosamente los requerimientos de la nueva administración franquista. Tuvo ocasión de celebrar su centenario. Por noticias de prensa conocemos su liquidación tan tarde como en la década de 1980<span class="nota"><span id="footnote-025-backlink"><a class="_idFootnoteLink _idGenColorInherit" href="#footnote-025">  6</a></span></span>.</p>
+			<p class="texto">Aunque en el tiempo se le adelantó la sociedad de socorros Santa Bárbara creada en 1854 para los trabajadores de la fábrica nacional de Trubia, la primera generalista en la capital asturiana fue la sociedad de socorros mutuos La Ovetense, creada en enero de 1859. Compitió con muchas sociedades de distinta índole organizativo-ideológica durante las décadas de su existencia, que se corta en los años de la guerra civil. Poco antes, en marzo de 1935, su secretario y su presidente habían comunicado al gobernador civil que «con motivo de los pasados sucesos revolucionarios han sido destruidos los libros de actas y documentación de Secretaría»<span class="nota"><span id="footnote-024-backlink"><a class="_idFootnoteLink _idGenColorInherit" href="#footnote-024">  7</a></span></span>.</p>
+			<p class="texto">También en enero de 1859 se creó, a caballo entre los entonces diferenciados municipios de Bilbao y Begoña, la sociedad de socorros mutuos La Fraternidad, promovida por un catedrático del Instituto de segunda enseñanza de Vergara, Antonio de Aguirrezábal, quien también promovió otra entidad homónima en la localidad guipuzcoana. Aunque desde los años del Sexenio se crearon nuevas sociedades mutualistas en Bilbao y alrededores (incluida otra homónima más desde 1905 en el colindante La Peña-Arrigorriaga), y la previsión social fue campo de debates y competencias en la Ría de Bilbao y la zona minera vizcaína, La Fraternidad se mantuvo operativa hasta la guerra civil<span class="nota"><span id="footnote-023-backlink"><a class="_idFootnoteLink _idGenColorInherit" href="#footnote-023">  8</a></span></span>.</p>
+			<h1 class="ladillo1"><span class="negrita">Objeto societario, tipos de socios, extracción social</span></h1>
+			<p class="texto">El momento de la fundación, con comisiones interinas organizadoras, perduró. Las actuaciones de las sociedades analizadas, como las de la mayor parte del mutualismo popular en España, tuvieron desde el principio como objeto la atención de necesidades básicas de sus asociados. La suspensión del trabajo era la principal. El artículo primero del reglamento de 1841 de la sociedad de socorros mutuos de artesanos de Burgos estipulaba como objeto «proporcionar medios de subsistencia a los Socios que se imposibiliten absoluta y perpetuamente para ejercer su oficio» y a sus viudas, y desde 1850 a sus huérfanos. La definición de los miembros de las familias resultó crucial, como veremos. El resto de las sociedades centró su objeto principal en la atención a contingencias temporales, singularmente la enfermedad y sus consecuencias inmediatas. «La Sociedad tiene por objeto aliviar la situación de sus individuos durante las enfermedades que les impidan dedicarse a sus trabajos», rezó el artículo primero de la sociedad de artesanos vitoriana desde 1855 en adelante. Las instituciones públicas aplaudieron sus motivaciones mientras no las desbordasen y el objeto societario apenas experimentó cambios.</p>
+			<p class="texto">Las denominaciones adelantan la extracción social prioritaria, de tipo artesano o menestral, generalizada a lo largo del siglo&#160;<span class="versalita">xix</span>. «Sociedad de socorros mutuos entre las clases trabajadoras de Oviedo» titulaba sus estatutos de 1859 La Ovetense. Según el artículo 1 de sus reglamentos de 1859, 1879 y 1904 era objeto de La Fraternidad «el socorro mutuo entre los artesanos honrados de Begoña y Bilbao». En las ciudades los artesanos disponían de tradiciones organizativas y de una posición social respetable. Ambos factores se basaban en la cualificación y en retribuciones estables e interesantes (duplicando al menos el coste de la subsistencia). Las sociedades de socorros mutuos fueron instrumento de preservación de aquellas condiciones que se degradaron a lo largo del siglo<span class="nota"><span id="footnote-022-backlink"><a class="_idFootnoteLink _idGenColorInherit" href="#footnote-022">  9</a></span></span>. «Pueden inscribirse en la sociedad los artesanos que no hubieran cumplido los cincuenta años, aunque no ejerzan el oficio», señalaba el artículo segundo del reglamento fundacional de la entidad burgalesa, que en el tercero abría la puerta a que se incorporasen «algunos que no sean artesanos». Su excepcional especialización en pensiones de vejez, a través de acciones que diferenciaban cuotas y prestaciones, la emparenta con sociedades de profesiones liberales coetáneas de pretensiones nacionales (sociedad médica general de socorros mutuos, sociedad de socorros mutuos de los jurisconsultos). También explica, cómo les ocurrió a estas, su relativamente temprana desaparición.</p>
+			<p class="texto">A las sociedades de socorros mutuos analizadas se incorporaron, por tanto, otros sectores. Entre sus requisitos para admitir socios, la sociedad de socorros mutuos de artesanos de Pamplona estipulaba en su reglamento de 1881 como necesario «ejercer un arte, oficio, profesión o empleo, o poseer bienes de fortuna que les proporcionen una subsistencia decorosa». Desde 1879 la bilbaína La Fraternidad requirió «ocuparse en un arte o profesión». En el siglo&#160;<span class="versalita">xx</span> la extracción artesana perdió importancia y el cuerpo social lo formó lo que podemos llamar clase media en función de ingresos, requerimientos, posición e imagen. En 1912 la misma sociedad bilbaína confiaba en que «los empleados de comercio y de oficinas se percatarán de la necesidad de estas Sociedades». Llamativamente, el Colegio Médico de Oviedo impuso desde 1920 a la Sociedad La Ovetense un límite de renta por arriba, según el cual «no podrá ingresar como socio el que disfrute un ingreso anual por todos conceptos mayor de 5.000&#160;pesetas». Recién acabada la guerra civil, la sociedad de socorros mutuos de artesanos de Vitoria «invita a la clase obrera a que engrose sus listas de afiliados, en las que tienen cobijo todos: los de fábrica, taller, obrador, escritorio y comercio»<span class="nota"><span id="footnote-021-backlink"><a class="_idFootnoteLink _idGenColorInherit" href="#footnote-021">  10</a></span></span>.</p>
+			<p class="texto">En el momento fundacional la primera hornada de socios muchas veces se dotó de una serie de condiciones ventajosas (arco de edad más amplio, exención de matrícula) que acompañó durante décadas a la entidad. El artículo&#160;2 del reglamento fundacional de la sociedad burgalesa mencionado arriba permitía inscribirse a artesanos de hasta cincuenta años, «pero una vez que se halle formada no se admitirán los que pasen de cuarenta», añadía, y podemos generalizarlo. En lo sucesivo, cuarenta años y salud contrastada fueron los requisitos básicos de acceso. Los socios fundadores de mediados del siglo&#160;<span class="versalita">xix</span> constituyeron una memoria de cada sociedad. De los 89&#160;fundadores de la primera sociedad vitoriana en 1849, en enero de 1899 solo quedaba vivo uno. En momentos posteriores las sociedades ofrecieron condiciones ventajosas de inscripción, pensando en el rejuvenecimiento. Asimismo, facilitaron la continuidad de padres a hijos, y el género no es inclusivo. La transmisión intergeneracional de los fundadores la recogieron los veteranos, que mantuvieron su compromiso con las entidades y a quienes estas rindieron homenajes<span class="nota"><span id="footnote-020-backlink"><a class="_idFootnoteLink _idGenColorInherit" href="#footnote-020">  11</a></span></span>.</p>
+			<p class="texto">El común de la masa social lo constituyeron los socios de número, entendidos como aseguradores y asegurados. La Ovetense utilizó otra nomenclatura (fundadores en vez de numerarios), pero remitía a la misma noción de igualdad de derechos y obligaciones. De tamaño pequeño, en la media española, en el cuadro 1 se aprecia su evolución. Cabe explicar el aumento de afiliación en Vitoria entre 1880 y 1904, momento de esplendor de los socorros mutuos en España, por la ausencia de más sociedades competidoras en la ciudad. Entre 1904 y 1920 se estancó la afiliación en las cuatro capitales coincidiendo con la explosión de creación de entidades de toda índole.</p>
+			<p class="titulo_grafico"><span class="versalita">Cuadro</span> 1<br />
+			<span class="cursiva">Evolución del número de socios de las 5-6 sociedades</span></p>
+			<table id="table001" class="">
+				<tbody>
+					<tr class="">
+						<td class="bordeSup bordeIzq">
+							<p class="tabla"><span class="cursiva">Sociedad</span></p>
+						</td>
+						<td class="bordeSup">
+							<p class="tabla"><span class="cursiva">1861-1862</span></p>
+						</td>
+						<td class="bordeSup">
+							<p class="tabla"><span class="cursiva">1867-1868</span></p>
+						</td>
+						<td class="bordeSup">
+							<p class="tabla"><span class="cursiva">1880-1881</span></p>
+						</td>
+						<td class="bordeSup">
+							<p class="tabla"><span class="cursiva">1904</span></p>
+						</td>
+						<td class="bordeSup">
+							<p class="tabla"><span class="cursiva">1920</span></p>
+						</td>
+						<td class="bordeSup">
+							<p class="tabla"><span class="cursiva">1930-1931</span></p>
+						</td>
+						<td class="bordeSup">
+							<p class="tabla"><span class="cursiva">1941</span></p>
+						</td>
+						<td class="bordeSup">
+							<p class="tabla"><span class="cursiva">1944</span></p>
+						</td>
+					</tr>
+					<tr class="">
+						<td class="bordeIzq">
+							<p class="tabla">Burgos</p>
+						</td>
+						<td class="">
+							<p class="tabla">230 (Madoz)</p>
+						</td>
+						<td class="" />
+						<td class="">
+							<p class="tabla">19</p>
+						</td>
+						<td class="" />
+						<td class="" />
+						<td class="" />
+						<td class="" />
+						<td class="" />
+					</tr>
+					<tr class="">
+						<td class="bordeIzq">
+							<p class="tabla">Vitoria</p>
+						</td>
+						<td class="">
+							<p class="tabla">375 (+126) *</p>
+						</td>
+						<td class="">
+							<p class="tabla"> (+144)*</p>
+						</td>
+						<td class="">
+							<p class="tabla">203 (+149) *</p>
+						</td>
+						<td class="">
+							<p class="tabla">1.575 (+487)*</p>
+						</td>
+						<td class="">
+							<p class="tabla">1.400</p>
+						</td>
+						<td class="">
+							<p class="tabla">900</p>
+						</td>
+						<td class="">
+							<p class="tabla">556</p>
+						</td>
+						<td class="">
+							<p class="tabla">489</p>
+						</td>
+					</tr>
+					<tr class="">
+						<td class="bordeIzq">
+							<p class="tabla">Pamplona</p>
+						</td>
+						<td class="" />
+						<td class="" />
+						<td class="">
+							<p class="tabla">808</p>
+						</td>
+						<td class="">
+							<p class="tabla">818</p>
+						</td>
+						<td class="">
+							<p class="tabla">773 <br />(en 1916)</p>
+						</td>
+						<td class="">
+							<p class="tabla">600</p>
+						</td>
+						<td class="" />
+						<td class="">
+							<p class="tabla">750</p>
+						</td>
+					</tr>
+					<tr class="">
+						<td class="bordeIzq">
+							<p class="tabla">La Ovetense</p>
+						</td>
+						<td class="">
+							<p class="tabla">237</p>
+						</td>
+						<td class="" />
+						<td class="">
+							<p class="tabla">236</p>
+						</td>
+						<td class="">
+							<p class="tabla">235</p>
+						</td>
+						<td class="">
+							<p class="tabla">208 <br />(en 1924)</p>
+						</td>
+						<td class="">
+							<p class="tabla">200</p>
+						</td>
+						<td class="" />
+						<td class="" />
+					</tr>
+					<tr class="">
+						<td class="bordeIzq">
+							<p class="tabla">Bilbao-Begoña</p>
+						</td>
+						<td class="">
+							<p class="tabla">400</p>
+						</td>
+						<td class="">
+							<p class="tabla">340</p>
+						</td>
+						<td class="">
+							<p class="tabla">220</p>
+						</td>
+						<td class="" />
+						<td class="">
+							<p class="tabla">171 </p>
+						</td>
+						<td class="" />
+						<td class="" />
+						<td class="" />
+					</tr>
+				</tbody>
+			</table>
+			<p class="fuente_grafico">* Datos de la 2.ª sociedad de socorros mutuos de artesanos de Vitoria.</p>
+			<p class="texto">Compatible con vigilar edad y salud de los nuevos socios, tanto las sociedades de artesanos primera de Vitoria y de Pamplona como La Ovetense quisieron desde sus orígenes que el número de socios fuese ilimitado (pero restringido al municipio). La segunda sociedad vitoriana estableció en cambio un máximo reglamentario de doscientos socios «sin que por ningún concepto pase de él, y han de ser meramente artesanos jornaleros» (artículo&#160;2 de sus reglamentos de 1859 y 1872). El artículo&#160;3 añadía, y nos introduce en el terreno de la fuerte competencia local, que «nunca serán recibidos los que pertenezcan a la primitiva Sociedad u otra cualquiera, pues se les excluye enteramente». Sabemos cómo acabó la rencilla vitoriana, y que la 2.ª&#160;sociedad rebasó aquel límite en el cambio de siglos&#160;<span class="versalita">xix-xx</span>. También la sociedad pamplonesa y la bilbaína La Fraternidad prohibieron desde 1879-1880 la doble asociación. Ni siquiera en caso de disolución se previó la fusión, salvo La Fraternidad, que en su reglamento de 1919 (artículo&#160;81, anteúltimo) contempló que «si por circunstancias especiales, conviniere a la Sociedad fusionarse con otras análogas» lo decidiría una junta general extraordinaria con un mínimo de dos tercios de asistencia. Era la asistencia estipulada por las demás para decidir la disolución con distribución de fondos.</p>
+			<p class="texto">Excepto la de artesanos de Burgos, las sociedades admitieron socios protectores, que contribuían al objeto societario pero no se beneficiaban de él. Las de Vitoria, Pamplona y Bilbao lo hicieron desde su fundación hasta su final. La vitoriana distinguió entre protectores y honorarios, que debían ser nombrados por la asamblea. En la memoria correspondiente a 1898 enumeró sus 80&#160;socios honorarios, 15&#160;de ellos mujeres. En su campaña para aumentar tanto socios de número como protectores tras la guerra civil enfatizaba que «hemos encontrado, siempre, en el vecindario pudiente de Vitoria, que forma un plantel de socios protectores al que encajaría, sin jactancia, el honroso título de cuadro de honor [...]. ¿Quisiera usted honrarnos siendo uno de ellos?»<span class="nota"><span id="footnote-019-backlink"><a class="_idFootnoteLink _idGenColorInherit" href="#footnote-019">  12</a></span></span>. La sociedad pamplonesa admitió «socios honorarios o protectores, todas las personas domiciliadas en esta capital que, con el laudable y único objeto de mejorar los fondos de la Sociedad, se suscriban por la cuota anual o mensual que tuvieran a bien» (reglamento de 1881, artículo&#160;9). En general, los socios protectores no participaron en el gobierno formal de las sociedades. La sociedad de socorros mutuos de artesanos de Pamplona incorporó en 1904 al mismo artículo&#160;9 de su reglamento que no tenían voz ni voto en las juntas generales de socios.</p>
+			<p class="texto">En su primer medio siglo, La Ovetense prefirió la extensión de los socios de número. En 1920 reglamentó la figura, estableciendo en su artículo&#160;4 como socios protectores a «cuantos se suscriban con una cuota mensual o anual voluntaria, como donativo a la Sociedad». La noción de donativo se amplió en esos años, incluyendo servicios o bienes en especie. En ese sentido la bilbaína La Fraternidad, que desde el principio entendió como protectores a «personas o Corporaciones», añadió en el artículo referente, el noveno, de su reglamento de 1919, que «alcanza también la designación de Socios protectores, a los Socios de número que espontáneamente hagan renuncia, en bien de la Sociedad, de los beneficios que pudieran corresponderles como tales». Tenemos constancia de abundantes cesiones de esta índole, y de algunos legados testamentarios de antiguos socios. Destacaremos el del escultor Bernabé Garamendi a La Fraternidad, 5.000&#160;pesetas en 1899, que suscitó que en 1918 se le erigiese un mausoleo con motivo del traslado de sus restos a otro cementerio<span class="nota"><span id="footnote-018-backlink"><a class="_idFootnoteLink _idGenColorInherit" href="#footnote-018">  13</a></span></span>.</p>
+			<p class="texto">Los cambios a lo largo de la existencia de las sociedades de socorros mutuos tienen que ver con cierto esfuerzo en la optimización de sus recursos. Desde 1928 la sociedad de socorros mutuos de artesanos de Pamplona incorporó dos nuevos tipos de socios además de los de número y de los protectores, con derechos y obligaciones específicas. Unos, denominados transitorios, hijos solteros de socio de número, mayores de 17&#160;años y que vivieran con sus padres. Otros, denominados accidentales, ingresados con edades entre 45&#160;y 50&#160;años sin gasto de matrícula, y cuyas viudas podían mantenerse en las mismas condiciones. En 1946 incorporó un nuevo tipo de socio, individual. También en los primeros años del franquismo la sociedad de socorros mutuos de artesanos de Vitoria, aceptando sugerencias de la Obra Sindical Previsión Social, creó dos nuevos tipos de socios, a superponer con los que pasaron a ser «antiguos». Se trató de los individuales y de los familiares<span class="nota"><span id="footnote-017-backlink"><a class="_idFootnoteLink _idGenColorInherit" href="#footnote-017">  14</a></span></span>.</p>
+			<p class="texto">Encabalgado con las diferencias internas en cuanto a prestaciones, pero todavía en el terreno de los principios societarios, planteamos el acceso de las mujeres a la condición de socia. Este es, sin margen para la sorpresa, un entorno de desigualdad. En sus estatutos fundacionales de 1859 la bilbaína La Fraternidad planteó que cinco años más tarde, en 1863, votaría que «se admitirán en la Sociedad las esposas de los socios», sobreentendiendo que solamente como beneficiarias. Nunca se recogió. A lo largo del siglo&#160;<span class="versalita">xix</span> solo al enviudar accedían a algunas de las prestaciones, no a todas, a las que tenían derecho sus maridos. Esa continuidad como cabeza de familia en absoluto implicaba condición de socia plena. Desde la tercera década del siglo&#160;<span class="versalita">xx</span> empezaron a suscitarse debates al respecto tanto en el seno de las sociedades mutualistas, como en el marco general. En el artículo&#160;4 del reglamento de 1928 (reimpreso en 1931 y mantenido en 1946) de la sociedad pamplonesa, sobre ingreso y separación de socios, se distingue entre varones de entre 17&#160;y 45&#160;años y «hembras: ser viudas, solteras mayores de edad o emancipadas que no excedan de 45&#160;años».</p>
+			<p class="texto">La Ovetense ofrecía en su reglamento de 1920 beneficios &#173;desiguales a las viudas y huérfanos con preferencia de varones. Añadía a continuación, en el artículo&#160;15, que «no tienen voz ni voto en las Juntas de la Sociedad las mujeres, como tampoco los varones menores de 16&#160;años». El reglamento de 1920 se saltaba el artículo&#160;16 y pasaba al&#160;17. Podría ser mera errata, pero en la reforma reglamentaria aprobada en junta general extraordinaria de 9&#160;de marzo de 1931 aparecía: «Art.&#160;16. Ingresarán como socios todas las mujeres solteras o viudas que hayan cumplido 18&#160;años y no excedan de los&#160;35, que no sean hijas o viudas de socios, percibiendo los beneficios de médico, practicante y medicinas [no subsidio de enfermedad], con solo pagar la cuota de 2,50&#160;pesetas. Iguales beneficios disfrutarán las hermanas que, teniendo menor edad que la socio, vivan en su compañía». Sin embargo, se mantenía el artículo&#160;15<span class="nota"><span id="footnote-016-backlink"><a class="_idFootnoteLink _idGenColorInherit" href="#footnote-016">  15</a></span></span>.</p>
+			<h1 class="ladillo1"><span class="negrita">Administración y organización interna</span></h1>
+			<p class="texto">El mutualismo resultó escuela de sociedad civil y laboratorio de prácticas ciudadanas<span class="nota"><span id="footnote-015-backlink"><a class="_idFootnoteLink _idGenColorInherit" href="#footnote-015">  16</a></span></span>. La administración y organización interna de las sociedades estudiadas bascula entre la formalidad reglamentaria y las inercias de funcionamiento. Los reglamentos instituyeron el control de los órganos de dirección por los socios. Juntas generales de socios y juntas directivas llevaron vidas paralelas. La sociedad vitoriana instituyó desde su fundación hasta su disolución una comisión especial para revisión de cuentas e incidentes no contemplados. Se reunía tras las juntas generales, que nombraban 5-6&#160;delegados que acompañaban a las juntas directivas entrante y saliente. La Ovetense se organizó en secciones urbanas durante toda su existencia. Cada sección tuvo a su frente un representante con abundantes obligaciones, que integraban la junta directiva como vocales. Entre 1859 y 1867 los eligieron los socios de las respectivas secciones, pero entre los reglamentos de 1867 y 1920, estos representantes los nombró la junta directiva. Desde 1920 volvieron a elegirlos las secciones.</p>
+			<p class="texto">Las juntas generales de socios ordinarias se reunieron semestral (Bilbao, Oviedo hasta 1867) o anualmente. Un número variable de socios, entre 10&#160;y&#160;25, podía reclamar la convocatoria de juntas extraordinarias, por problemas de confianza<span class="nota"><span id="footnote-014-backlink"><a class="_idFootnoteLink _idGenColorInherit" href="#footnote-014">  17</a></span></span> y más habitualmente ante situaciones críticas. La bilbaína La Fraternidad endureció desde 1904 esa opción, exigiendo la mitad más uno de los socios. Mientras en su reglamento de 1841 la sociedad de socorros mutuos de artesanos de Burgos establecía votaciones secretas, el de 1850 las permitía secretas o públicas «según acuerde la Junta». Aunque las juntas generales de socios nombraban estatutariamente a las juntas directivas, se percibe un deslizamiento progresivo del protagonismo de las primeras a las segundas, hasta el punto de que necesitaron dotarse de instancias de apoyo. La Fraternidad se dotó de una Junta de Vigilancia desde el principio hasta 1919 (desde entonces visitadora), integrada por un número variable de miembros, para «coadyuvar» a la junta directiva.</p>
+			<p class="texto">Las funciones principales de las juntas directivas eran la admisión y seguimiento de los socios y la gestión de los ingresos y gastos. Sus cargos no tenían carácter retribuido, con excepción de los secretarios. La renovación anual solía hacerse por mitades, de modo que permanecían dos años en el cargo. La obligatoriedad inicial de aceptar los nombramientos tendió a difuminarse entrado el siglo&#160;<span class="versalita">xx</span> (La Ovetense la mantuvo), tanto como se acentuaron las reelecciones. Era frecuente el ascenso desde los cargos bajos hacia los de mayor responsabilidad. Se componían de un presidente con bastante autoridad, un vicepresidente, un tesorero, un contador, un secretario que llevaba los libros y varios vocales. En 1904 La Fraternidad reglamentó que cada dos años el vicepresidente sucediera al presidente, y lo cumplió hasta 1936. Desde 1920 La Ovetense estableció que todos los miembros fuesen mayores de veinticinco&#160;años.</p>
+			<p class="texto">Muy acorde con su naturaleza crediticia, la sociedad burgalesa estableció en su reglamento de 1850 que la junta directiva debía «dar inversión a los fondos de la sociedad». Las funciones reglamentarias de la junta directiva de la primera sociedad de socorros mutuos de artesanos de Vitoria, extrapolables, eran la admisión y separación de socios, la vigilancia de abusos en los socorros, la tesorería y las medidas interinas junto con la mencionada comisión especial. Para 1931 cualquiera de sus miembros contaba con amplias facultades de inspección y ejecución, incluida la imposición de multas. En 1944 se dotaron de plenas atribuciones para la aplicación de las nuevas modalidades de socio y sus prestaciones.</p>
+			<p class="texto">Los reglamentos de la sociedad pamplonesa entre 1880 y 1946 estipularon que la junta directiva proponía a la general los nuevos miembros del órgano directivo. Desde 1928 se añadió que «la propuesta de candidatos por la Directiva no prejuzga el resultado que corresponde totalmente a la General». Esta entidad, La Ovetense y La Fraternidad insistieron en una función específica para sus juntas directivas, el nombramiento y separación de empleados. En 1885 la pamplonesa se dotó de una comisión auxiliar permanente, compuesta por los últimos nueve presidentes, para decidir sobre empleados y casos de gravedad. «Las resoluciones adoptadas por la Junta directiva en unión con la Comisión auxiliar tendrán aplicación inmediata, dándose de ellas conocimiento en la primera Junta general ordinaria», establecía. En el reglamento de 1928 no quedaba constancia de esa reforma reglamentaria. Desde 1904 la bilbaína La Fraternidad añadió a las mencionadas juntas directiva y de vigilancia otra junta consultiva, integrada por los miembros salientes de las otras dos<span class="nota"><span id="footnote-013-backlink"><a class="_idFootnoteLink _idGenColorInherit" href="#footnote-013">  18</a></span></span>.</p>
+			<p class="texto">No debe pasarse por alto que los miembros de las juntas directivas cumplían una función de acompañamiento del cuerpo social de sus entidades en tránsitos difíciles (enfermedad, funerales). Ahí ejercían una representación que también se desplegaba, de otra manera, hacia las autoridades. Que las sociedades analizadas se ubicaran en capitales las acercaba a la vida político-institucional general. En el seno de las sociedades de socorros mutuos, que la prensa trató siempre con respeto, se labraron prestigios personales desde abajo. No son fáciles de rastrear y exigen gran conocimiento del marco local. De la bilbaína La Fraternidad se decía en 1899 que «entre sus socios figuran personas que han ejercido o ejercen importantes cargos de elección popular en el municipio y en la provincia». Sobre la pamplonesa, en 1928, que «en esta clase de organismos, la más antigua de nuestra capital y por la que han pasado tantos prestigiosos y populares vecinos nuestros»<span class="nota"><span id="footnote-012-backlink"><a class="_idFootnoteLink _idGenColorInherit" href="#footnote-012">  19</a></span></span>.</p>
+			<p class="texto">Las sociedades de socorros mutuos no tuvieron apenas personal retribuido. Los médicos contratados a sueldo fijo o por servicio, fueron actores principales de este mutualismo popular. Reconocían a los aspirantes a socio, firmaban partes de baja y alta y hacían seguimiento de las dolencias. Sus retribuciones y condiciones implicaron conflictos. Las sociedades pamplonesa, bilbaína y ovetense también contrataron practicante. Por su gran actividad crediticia, constatada en 1844 y 1845 en el archivo municipal y después, cuando constituyó el monte de piedad, en los libros de escrituras del escribano Cayetano García Santos en el Archivo Histórico Provincial de Burgos, la sociedad de socorros mutuos de artesanos de Burgos debió de tener escribientes a su cargo. Las otras cuatro sociedades retribuyeron el incómodo puesto de avisador o recaudador, habitualmente a jornal. Con matices hasta entrado el siglo&#160;<span class="versalita">xx</span> en la vitoriana y La Ovetense, también retribuyeron al secretario. Hasta 1920 La Ovetense remuneró a un escribiente auxiliar. La primera sociedad de artesanos de Vitoria exceptuó en su reglamento de 1855 de los socorros a inválidos «[al] actual Secretario auxiliar, que seguirá cobrando 3 rs. mientras desempeñe este oficio y sin que sirva de ejemplo en lo sucesivo». Se trataba, según su necrológica en 1866, de un maestro de instrucción primaria que había perdido una pierna en su juventud y había quedado ciego en la madurez. Entre siglos ocupó el cargo otro maestro, Apolinar Fernández de Landa, vinculado al catolicismo social. Los secretarios retribuidos compaginaron más funciones y tuvieron que cumplir requisitos:</p>
+			<p class="metido">«Se anuncia vacante el cargo de Secretario y Tesorero Auxiliar de la Sociedad de Socorros Mutuos de Artesanos dotado con el sueldo de 2,50&#160;pesetas diarias. Serán requisitos imprescindibles los siguientes:</p>
+			<p class="metido">1.º Pertenecer a la Sociedad como socio.</p>
+			<p class="metido">2.º Ser mayor de edad.</p>
+			<p class="metido">3.º Tener intachable conducta.</p>
+			<p class="metido">4.º Estar empadronado en la ciudad.</p>
+			<p class="metido">5.º Conocer prácticamente la teneduría de libros.</p>
+			<p class="metido">6.º Depositar donde la Junta determine la cantidad de 3.000&#160;pesetas como fianza bien en metálico o su equivalente en valores del&#160;Estado»<span class="nota"><span id="footnote-011-backlink"><a class="_idFootnoteLink _idGenColorInherit" href="#footnote-011">  20</a></span></span>.</p>
+			<p class="texto">Un elemento crucial de la administración de las sociedades mutualistas, revelador de su sostenibilidad y de su inserción en sociedad, resultó ser el depósito y en caso de sobrantes la inversión de sus fondos. Salvo coyunturas, las entidades estudiadas tuvieron una buena posición económica hasta la gripe de 1918. La sociedad de artesanos de Burgos, en cuya especificidad hemos abundado, creó caja de ahorros y montepío propios. Su elitización la alejó de las preocupaciones de las demás entidades, aunque el modelo se mantuvo en la ciudad de Burgos. Sus promotores, vinculados a la clientela de la saga de los Arnáiz, también participaron en el efímero Banco de Burgos de la década de 1860<span class="nota"><span id="footnote-010-backlink"><a class="_idFootnoteLink _idGenColorInherit" href="#footnote-010">  21</a></span></span>.</p>
+			<p class="texto">La alternativa para las demás sociedades de socorros a mediados del siglo&#160;<span class="versalita">xix</span> fue el ingreso de cantidades en las cajas de los ayuntamientos, como hicieron las dos sociedades vitorianas. Este argumento no se utilizó cuando desde finales del siglo la segunda solicitó subvenciones. En su memoria del ejercicio de 1898 la primera sociedad contaba además con títulos de deuda del 4&#160;por&#160;100 interior, con láminas del empréstito del Ayuntamiento para la Sociedad de Aguas del Gorbea y con títulos hipotecarios de Cuba emitidos en 1890. En 1906 estos últimos habían sido sustituidos por títulos del 5&#160;por&#160;100 amortizable. En 1920 tuvo que enajenar esa reserva. En la memoria del ejercicio de 1936 solo quedaban las cuentas en las cajas de ahorros municipal y provincial. No tenemos tan buen conocimiento de la sociedad de socorros mutuos de artesanos de Pamplona. En su memoria del ejercicio de 1880 tenía 20.000&#160;reales depositados al 5&#160;por&#160;100 en aquella Diputación y 6.000&#160;al 4&#160;por&#160;100 en el Crédito Navarro. Tras la guerra civil mantenía obligaciones de Hidráulica Moncayo y cuentas importantes en las cajas de ahorros municipal y de Navarra y en el Crédito Navarro<span class="nota"><span id="footnote-009-backlink"><a class="_idFootnoteLink _idGenColorInherit" href="#footnote-009">  22</a></span></span>.</p>
+			<p class="texto">En sus primeros años La Ovetense acarició «la idea de constituir una caja de ahorros y Monte de piedad, como medios; la primera, de despertar y fortalecer los hábitos de economía entre los socios, y el segundo, de defenderlos contra los estragos de la usura», según su memoria anual de 1860. Entretanto depositó su capital sobrante en la caja de depósitos. Desaparecida esta, tras tenerlo «algún tiempo inactivo esperando colocación segura», encargó a su junta directiva su colocación con garantías. No tenemos conocimiento de en qué entidades bancarias, que mencionaba su reglamento desde 1931. Por el contrario, la bilbaína La Fraternidad depositó sus fondos sobrantes desde su fundación en el Banco de Bilbao (luego en la caja de ahorros de dicho banco) «en cuenta corriente con interés» y desde 1904 también en el Banco de Vizcaya. Su entonces creada junta consultiva velaría «especialmente por la buena inversión de los fondos». En 1916, con motivo de la quiebra de la entidad financiera, acordó «consignar en acta otro expresivo voto de gracias para la Junta Directiva y personas que intervinieron en la favorable solución del Crédito de la Unión Minera en cuyo establecimiento poseía La Fraternidad gran parte de&#160;su capital»<span class="nota"><span id="footnote-008-backlink"><a class="_idFootnoteLink _idGenColorInherit" href="#footnote-008">  23</a></span></span>.</p>
+			<h1 class="ladillo1"><span class="negrita">Cuotas, prestaciones, beneficiarios</span></h1>
+			<p class="texto">El grueso de los ingresos de las sociedades de socorros mutuos generales, y aún las de otra inspiración, los conformaron las cuotas de sus socios de número. El resto de las aportaciones (matrículas, donativos, subvenciones) apenas alteró sus presupuestos salvo en situaciones críticas. Por el lado de los gastos, los principales fueron los derivados de los socorros otorgados. Hablar de mutualismo es hacerlo de cuotas y prestaciones, y de las capacidades de sostener ambas. Modestas pero perdurables capacidades, puestas en solfa desde la década de 1920 por sus competidores de toda índole y por los técnicos del Instituto Nacional de Previsión.</p>
+			<p class="titulo_grafico"><span class="versalita">Cuadro</span> 2<br />
+			<span class="cursiva">Cuotas mensuales individuales por décadas</span></p>
+			<table id="table002" class="">
+				<tbody>
+					<tr class="">
+						<td class="bordeSup bordeIzq">
+							<p class="tabla"><span class="cursiva">Sociedad</span></p>
+						</td>
+						<td class="bordeSup">
+							<p class="tabla"><span class="cursiva">1860s * *</span></p>
+						</td>
+						<td class="bordeSup">
+							<p class="tabla"><span class="cursiva">1880s *</span></p>
+						</td>
+						<td class="bordeSup">
+							<p class="tabla"><span class="cursiva">1890s*</span></p>
+						</td>
+						<td class="bordeSup">
+							<p class="tabla"><span class="cursiva">1900s *</span></p>
+						</td>
+						<td class="bordeSup">
+							<p class="tabla"><span class="cursiva">1910s *</span></p>
+						</td>
+						<td class="bordeSup">
+							<p class="tabla"><span class="cursiva">1920s *</span></p>
+						</td>
+						<td class="bordeSup">
+							<p class="tabla"><span class="cursiva">1930s *</span></p>
+						</td>
+						<td class="bordeSup">
+							<p class="tabla"><span class="cursiva">1940s *</span></p>
+						</td>
+					</tr>
+					<tr class="">
+						<td class="bordeIzq">
+							<p class="tabla">Burgos</p>
+						</td>
+						<td class="">
+							<p class="tabla">5 + dividendo</p>
+						</td>
+						<td class="">
+							<p class="tabla">1,25</p>
+						</td>
+						<td class="" />
+						<td class="" />
+						<td class="" />
+						<td class="" />
+						<td class="" />
+						<td class="" />
+					</tr>
+					<tr class="">
+						<td class="bordeIzq">
+							<p class="tabla">Vitoria</p>
+						</td>
+						<td class="">
+							<p class="tabla">4</p>
+						</td>
+						<td class="">
+							<p class="tabla">1,00</p>
+						</td>
+						<td class="">
+							<p class="tabla">1,00</p>
+						</td>
+						<td class="">
+							<p class="tabla">1,00</p>
+						</td>
+						<td class="">
+							<p class="tabla">1,1</p>
+						</td>
+						<td class="">
+							<p class="tabla">1,5</p>
+						</td>
+						<td class="">
+							<p class="tabla">1,75</p>
+						</td>
+						<td class="">
+							<p class="tabla">1,75 + otros</p>
+						</td>
+					</tr>
+					<tr class="">
+						<td class="bordeIzq">
+							<p class="tabla">Pamplona</p>
+						</td>
+						<td class="" />
+						<td class="">
+							<p class="tabla">1,40</p>
+						</td>
+						<td class="" />
+						<td class="">
+							<p class="tabla">2,10</p>
+						</td>
+						<td class="" />
+						<td class="">
+							<p class="tabla">4 + otros</p>
+						</td>
+						<td class="">
+							<p class="tabla">5 + otros</p>
+						</td>
+						<td class="">
+							<p class="tabla">10 + otros</p>
+						</td>
+					</tr>
+					<tr class="">
+						<td class="bordeIzq">
+							<p class="tabla">La Ovetense</p>
+						</td>
+						<td class="">
+							<p class="tabla">4</p>
+						</td>
+						<td class="">
+							<p class="tabla">1,50</p>
+						</td>
+						<td class="">
+							<p class="tabla">1,75</p>
+						</td>
+						<td class="" />
+						<td class="" />
+						<td class="">
+							<p class="tabla">2,5 y 3</p>
+						</td>
+						<td class="">
+							<p class="tabla">3 y 3,5</p>
+						</td>
+						<td class="" />
+					</tr>
+					<tr class="">
+						<td class="bordeIzq">
+							<p class="tabla">Bilbao-Begoña</p>
+						</td>
+						<td class="">
+							<p class="tabla">5</p>
+						</td>
+						<td class="">
+							<p class="tabla">1,75</p>
+						</td>
+						<td class="">
+							<p class="tabla">1,75</p>
+						</td>
+						<td class="">
+							<p class="tabla">1,75</p>
+						</td>
+						<td class="" />
+						<td class="">
+							<p class="tabla">2</p>
+						</td>
+						<td class="" />
+						<td class="" />
+					</tr>
+				</tbody>
+			</table>
+			<p class="fuente_grafico">* En pesetas corrientes. ** En reales corrientes.</p>
+			<p class="texto">La sociedad de socorros mutuos de artesanos de Burgos requirió dividendos según el número de acciones. Desde 1850, añadió una cuota mensual que no varió hasta su extinción. Para las otras entidades la cuota mensual supuso un trámite ineludible. Osciló poco en reales y pesetas corrientes, como consta en el cuadro&#160;2. Recordaremos en este punto que la inflación subió poco en España desde mediados del siglo&#160;<span class="versalita">xix</span> hasta el salto de los años de la Primera Guerra Mundial y su desbocamiento tras la guerra civil. Sobre una base&#160;100 a la altura de 1913, Jordi Maluquer de Motes estableció en torno a 80&#160;puntos en la década de 1860, alrededor de 100 entre 1900 y 1913 y en torno a&#160;170 entre 1920 y 1936. Maluquer fijó un índice de precios de consumo de 178 en 1859, 221 en 1881, 240 en 1904, 237 en 1913, 450 en 1920, 418 en 1936 y 1.507 en 1946<span class="nota"><span id="footnote-007-backlink"><a class="_idFootnoteLink _idGenColorInherit" href="#footnote-007">  24</a></span></span>.</p>
+			<p class="texto">La sociedad vitoriana apenas cambió su cuota hasta los años de la gripe y la inflación, en que empezó a elevarla. Después, apenas hubo movimiento tentativo; en el primer franquismo reglamentó nuevos socios individuales y familiares con mejores prestaciones, por cuotas más elevadas (si los socios antiguos se mantenían en 1,75&#160;pesetas, los nuevos individuales subían a 4&#160;y los familiares a 8&#160;pesetas mensuales). Por el contrario, la sociedad de socorros mutuos de artesanos de Pamplona consolidó su situación financiera en el primer franquismo elevando de forma importante sus cuotas, que como dijimos afectaban desde 1928 a varios tipos de socios. Sin embargo, a finales de 1946 prefirió suspender provisionalmente sus principales prestaciones para no aumentarla más. La Ovetense y La Fraternidad aumentaron poco y lentamente sus cuotas. En la memoria para 1859-1860 de la asturiana se demuestra que este desembolso pudo ser insuperable para muchos interesados. De los 310&#160;inscritos en el bienio, 58&#160;abandonaron por no pagar dos meses consecutivos. Desde 1920 cobró media peseta más a los socios nuevos.</p>
+			<p class="texto">Como se dijo, la sociedad de socorros mutuos de artesanos de Burgos se centró en pensiones de incapacidad, viudedad y orfandad que peligraron desde la década de 1880. Las demás sociedades estudiadas atendieron con pequeñas variaciones la enfermedad durante un tiempo limitado (en torno a seis meses) y el fallecimiento. El post-mortem resultó el único gasto finalista, de pago de entierro o pequeña cantidad a herederos, bastante sometido a los vaivenes presupuestarios. En 1934 la sociedad de socorros mutuos de artesanos de Pamplona estableció, además del socorro de <span class="cursiva">post&#160;mortem </span>ordinario, uno suplementario con un fondo separado. Se mantenía en 1946. Las entidades no cubrieron en general los accidentes de trabajo desde la legislación de 1900, que obligaba a los patronos concernidos. Indudablemente la instauración del seguro obligatorio de enfermedad en la década de 1940 les arrebató su razón de ser. El sistema hospitalario español se mantuvo hasta tarde, con salvedades, en los esquemas de caridad para pobres<span class="nota"><span id="footnote-006-backlink"><a class="_idFootnoteLink _idGenColorInherit" href="#footnote-006">  25</a></span></span>. La sofisticación y encarecimiento de la atención sanitaria, en una carrera de los baños y las sanguijuelas a las especialidades y las clínicas en que no podemos detenernos, pesó sobre las sociedades de socorros mutuos.</p>
+			<p class="texto">La primera sociedad vitoriana prefirió abrir una sociedad separada, la Protección Mutua Artesana, desde 1904, para atender el retiro obrero con pensiones vitalicias, que integrar esa prestación entre las suyas. La sociedad de socorros propiamente dicha ofreció socorro en metálico a enfermos hasta seis meses (otros tantos en la década de 1880 con la mitad), y concedió un diminuto socorro a inválidos o imposibilitados. En 1909 implementó un socorro decreciente en el tiempo. En 1919 suprimió socorros acaecidos durante cuatro meses. Desde 1923 los redujo a dos meses anuales, aplicando una diferencia entre los primeros quince días de baja (2&#160;pesetas) y los cuarenta y cinco últimos (2,75&#160;pesetas). La Obra Sindical de Previsión Social franquista consideró bajas las cuotas y prestaciones, y la sociedad se propuso replantearlas en 1944 junto con las nuevas figuras de socios, a quienes se ofrecía derecho a estancias en clínica e intervenciones quirúrgicas<span class="nota"><span id="footnote-005-backlink"><a class="_idFootnoteLink _idGenColorInherit" href="#footnote-005">  26</a></span></span>.</p>
+			<p class="titulo_grafico"><span class="versalita">Cuadro</span> 3<br />
+			<span class="cursiva">Socorros diarios a enfermos por décadas</span></p>
+			<table id="table003" class="">
+				</colgroup>
+				<tbody>
+					<tr class="">
+						<td class="bordeSup bordeIzq">
+							<p class="tabla"><span class="cursiva">Sociedad</span></p>
+						</td>
+						<td class="bordeSup">
+							<p class="tabla"><span class="cursiva">1860s **</span></p>
+						</td>
+						<td class="bordeSup">
+							<p class="tabla"><span class="cursiva">1880s * </span></p>
+						</td>
+						<td class="bordeSup">
+							<p class="tabla"><span class="cursiva">1900s * </span></p>
+						</td>
+						<td class="bordeSup">
+							<p class="tabla"><span class="cursiva">1910s * </span></p>
+						</td>
+						<td class="bordeSup">
+							<p class="tabla"><span class="cursiva">1920s * </span></p>
+						</td>
+						<td class="bordeSup">
+							<p class="tabla"><span class="cursiva">1930s * </span></p>
+						</td>
+						<td class="bordeSup">
+							<p class="tabla"><span class="cursiva">1940s * </span></p>
+						</td>
+					</tr>
+					<tr class="">
+						<td class="bordeIzq">
+							<p class="tabla">Vitoria</p>
+						</td>
+						<td class="">
+							<p class="tabla">6 y 2 a imposib.</p>
+						</td>
+						<td class="">
+							<p class="tabla">1,75 y 0,85 después</p>
+						</td>
+						<td class="">
+							<p class="tabla">1,5 y 0,5 a imposib.</p>
+						</td>
+						<td class="">
+							<p class="tabla">1,75 decrecientes</p>
+						</td>
+						<td class="">
+							<p class="tabla">2-2,75 y 0,5 a imposib.</p>
+						</td>
+						<td class="">
+							<p class="tabla">2-2,75 y 0,5 a imposib.</p>
+						</td>
+						<td class="">
+							<p class="tabla">4 y 1,5 a imposib.</p>
+						</td>
+					</tr>
+					<tr class="">
+						<td class="bordeIzq">
+							<p class="tabla">Pamplona</p>
+						</td>
+						<td class="" />
+						<td class="">
+							<p class="tabla">1,75 y 1 crónicos</p>
+						</td>
+						<td class="">
+							<p class="tabla">1,5 y 1,5 crónicos</p>
+						</td>
+						<td class="">
+							<p class="tabla">1,5 y 1,5 crónicos</p>
+						</td>
+						<td class="" />
+						<td class="">
+							<p class="tabla">2</p>
+						</td>
+						<td class="">
+							<p class="tabla">2</p>
+						</td>
+					</tr>
+					<tr class="">
+						<td class="bordeIzq">
+							<p class="tabla">La Ovetense</p>
+						</td>
+						<td class="">
+							<p class="tabla">4 y 2,5 después</p>
+						</td>
+						<td class="">
+							<p class="tabla">1,25</p>
+						</td>
+						<td class="" />
+						<td class="" />
+						<td class="">
+							<p class="tabla"> 1,5</p>
+						</td>
+						<td class="">
+							<p class="tabla">1,5</p>
+						</td>
+						<td class="" />
+					</tr>
+					<tr class="">
+						<td class="bordeIzq">
+							<p class="tabla">Bilbao-Begoña</p>
+						</td>
+						<td class="">
+							<p class="tabla">8</p>
+						</td>
+						<td class="">
+							<p class="tabla">2 y 0,5 crónicos</p>
+						</td>
+						<td class="">
+							<p class="tabla">2 y 0,75 crónicos</p>
+						</td>
+						<td class="" />
+						<td class="">
+							<p class="tabla">2,5 y 0,75 crónicos</p>
+						</td>
+						<td class="" />
+						<td class="" />
+					</tr>
+				</tbody>
+			</table>
+			<p class="fuente_grafico">* En pesetas corrientes. ** En reales corrientes.</p>
+			<p class="texto">Las sociedades pamplonesa, bilbaína y ovetense ofrecieron socorro limitado por enfermedad (véase cuadro&#160;3) y asistencia médico-farmacéutica. Sabemos que en 1928 La Fraternidad se inscribió en la Comisaría Sanitaria Provincial, fiscalizadora de las sociedades que prestaban asistencia médica. En 1881 la pamplonesa proporcionaba botica por un extra en la cuota (50&#160;céntimos). Desde 1928 restringió los socorros por enfermedad a 365&#160;días en toda la vida social. Ella y la bilbaína La Fraternidad socorrieron a crónicos. Una guía provincial de 1929 la presentaba «para facilitar asistencia médico-farmacéutica y conceder socorros por enfermedad, imposibilitación para el trabajo y defunción». En 1946 pagaba todo el gasto farmacéutico recetado excepto apósitos y específicos, y también los accidentes de trabajo con un socorro de 2/3&#160;del ordinario. Para controlar los gastos de cada socio creó una tarjeta de prestaciones farmacéuticas y análisis clínicos<span class="nota"><span id="footnote-004-backlink"><a class="_idFootnoteLink _idGenColorInherit" href="#footnote-004">  27</a></span></span>.</p>
+			<p class="texto">Fueron beneficiarios de las prestaciones de las sociedades estudiadas, salvo excepciones, los socios individuales. Atrás apuntamos con qué retraso y desigualdad se incorporaron las mujeres a la condición de socia. Las sociedades pamplonesa y ovetense incorporaron a las familias de los socios como beneficiarios de la asistencia médico-farmacéutica. Con matices, la primera mantuvo hasta 1946 su reglamento de 1881:</p>
+			<p class="metido">«Individuos de la familia para los efectos que expresa el párrafo segundo de este artículo&#160;[18], se entenderán todos los que dependen del socio: respecto de padres á hijos, mientras estos permanezcan bajo la patria potestad; y de hijos á padres, siempre que la subsistencia de los segundos esté á cargo de los primeros, o se encuentren imposibilitados por cualquiera causa para ser admitidos en la Sociedad, y no perciban un sueldo fijo superior á mil pesetas [anuales, se sobreentiende]. Además se comprenderán en la familia las sirvientes sin distinción de edad, y los criados menores de diez y ocho años».</p>
+			<h1 class="ladillo1"><span class="negrita">Sociabilidad interna y presencia en la vida pública</span></h1>
+			<p class="texto">El mantenimiento de formas decorosas y respetuosas (cabe añadir respetables) fue una exigencia permanente. Las sociedades de socorros mutuos españolas excluyeron por requerimiento legal los debates sobre cuestiones políticas o religiosas. Hasta donde hemos pulsado, esto no varió durante toda su existencia, nunca fueron foro formal para este tipo de discusiones. En buena medida ese rasgo les permitió perdurar. Entrado el siglo&#160;<span class="versalita">xx</span> nombraron representantes en las juntas locales de reformas sociales y las juntas provinciales de censo electoral, y durante la Dictadura de Primo de Rivera participaron en la elección de concejales corporativos. Convendría tener más informaciones locales. La sociedad pamplonesa por ejemplo requirió en 1921 nombrar un vocal en la Junta Local de Subsistencias, como «otras entidades de carácter obrero» y en 1930 suscribió junto con otras entidades protestas por el cementerio y la contribución municipales<span class="nota"><span id="footnote-003-backlink"><a class="_idFootnoteLink _idGenColorInherit" href="#footnote-003">  28</a></span></span>.</p>
+			<p class="texto">La Ovetense y La Fraternidad se acercaron al republicanismo por la vía de algunos presidentes, aunque desde la década de 1920 se templaron. La bilbaína suprimió en 1879 el socorro de enfermedades contraídas «por haber tomado voluntariamente parte activa en luchas políticas». Calixto Leguina pasó en 1868-1869 de su presidencia al comité liberal y a una concejalía del ayuntamiento de Bilbao. Luis Rasines fue varias veces presidente de la entidad y concejal republicano. Ambos fueron presidentes honorarios de La Fraternidad hasta sus fallecimientos, en 1916 y 1924. Desconocemos si por causas políticas, al menos desde el reglamento de 1904, requirió a sus socios ser católicos. Sergio Sánchez Collantes ha destacado los vínculos entre las juntas directivas de La Ovetense y los comités republicanos de aquella capital<span class="nota"><span id="footnote-002-backlink"><a class="_idFootnoteLink _idGenColorInherit" href="#footnote-002">  29</a></span></span>.</p>
+			<p class="texto">La primera sociedad de socorros mutuos de artesanos de Vitoria destacó por su proximidad a prohombres del régimen de la Restauración (Segismundo Moret y sobre todo Eduardo Dato), de los que obtuvo favores. Los alcaldes de Vitoria acostumbraron a presidir sus juntas generales, situación que apenas experimentaron las otras entidades estudiadas. Desde la década de 1930 se acercó al tradicionalismo, y así <span class="cursiva">Pensamiento Alavés</span> se refirió al recién nombrado presidente como «nuestro buen amigo de siempre, el exconcejal don Isidro Cuesta». La sociedad pamplonesa tuvo presidentes carlistas desde el cambio de siglo, como el varias veces concejal Isaac Vidaurreta. Esas trayectorias facilitaron sus continuidades en el franquismo, superados los informes político-sociales de los miembros de sus juntas directivas. El jefe provincial de la Obra Sindical de Previsión Social afirmaba de la vitoriana en 1943 que «no ha surgido a la sombra de organizaciones políticas en sentido contrario al Movimiento nacional»<span class="nota"><span id="footnote-001-backlink"><a class="_idFootnoteLink _idGenColorInherit" href="#footnote-001">  30</a></span></span>.</p>
+			<p class="texto">Las entidades estudiadas no dispusieron de local propio. Se reunieron en ámbitos particulares o en recintos municipales o paramunicipales, como el Vínculo en Pamplona o la Escuela de Artes y Oficios en Bilbao. Todas rehuyeron los espacios religiosos para su vida societaria, a pesar de que algunas integraron cultos en su calendario. Desde su fundación, La Fraternidad se colocó «bajo la advocación de la Virgen de Begoña», y le dedicó una función anual. La sociedad pamplonesa reunió a sus socios desde los orígenes hasta la década de 1980 en una misa anual de homenaje a los fallecidos. Precisamente los funerales resultaron un momento cumbre de sociabilidad interna, como parte de las obligaciones morales de origen artesano de estas entidades. La Ovetense y La Fraternidad reglaron la asistencia hasta 1919-1920, en que se limitaron a recomendarla. La sociedad vitoriana lo estableció en 1889, pero nunca lo trasladó a su reglamento<span class="nota"><span id="footnote-000-backlink"><a class="_idFootnoteLink _idGenColorInherit" href="#footnote-000">  31</a></span></span>.</p>
+			<p class="texto">Generalizado y un tanto chocante desde las lógicas de los Estados de Derecho, las sociedades de socorros mutuos renunciaron reglamentariamente al «derecho de acción que pudieren alegar ante los Tribunales contra los miembros de la Junta, de cuyas disposiciones no tendrán otra apelación que a la Asamblea» (disposición final de los reglamentos de la de Pamplona de 1881, 1904 y 1928). Ese derecho privativo volcaba en el cuerpo social las diferencias que pudieron suscitarse, y solo el franquismo lo suprimió, también llamativamente. Por exigencia del director general de Previsión, en 1946 la entidad pamplonesa tuvo que adaptarlo a la reciente legislación de Montepíos y Mutualidades. En su nueva redacción, «corresponderá a la Magistratura del Trabajo el conocimiento de las cuestiones de carácter contencioso que surjan entre los asociados y la Sociedad, sobre cumplimiento y existencia o declaración de sus obligaciones y derechos respectivos de carácter patrimonial y cuando previamente se hayan agotado los procedimientos estatutarios, así como los de conciliación y arbitraje».</p>
+			<p class="texto">Una sociabilidad más festiva, la de los banquetes, de la que tenemos conocimiento disperso pero continuo, acompañó a las sociedades de socorros mutuos. Desde luego, sin cargar el coste a la entidad. Aunque terminó siendo un lastre para ella, la sociedad burgalesa adquirió la plaza de toros de aquella capital. En momentos de crisis sanitario-financiera las sociedades recibieron los beneficios de veladas, festejos taurinos o festivales. Todo ello remite a la integración urbana de que hemos hablado. En cualquier caso, las sociedades promovieron comportamientos ejemplarizantes. El reglamento de 1880 de la primera sociedad vitoriana podría trasladarse a las demás en todo el siglo estudiado:</p>
+			<p class="metido">«Se exceptúan del socorro las enfermedades siguientes: 1.ª&#160;Las venéreas; 2.ª&#160;Las provenientes de embriaguez; 3.ª&#160;Las originadas con motivo de festejos públicos, como son: corridas de toros, novilladas o carreras de caballos; y 4.ª&#160;Las ocasionadas de mano airada, en riña o tumultos públicos, cuando el interesado haya tomado parte directa en ellos».</p>
+			<h1 class="ladillo1"><span class="negrita">Conclusiones</span></h1>
+			<p class="texto">Entre las distintas fórmulas de previsión y asistencia social, este artículo se detiene en las cinco sociedades de socorros mutuos pioneras en cinco capitales del norte de España: Burgos, Vitoria, Pamplona, Oviedo y Bilbao. Constituidas entre 1841 y 1859, excepto la burgalesa, llegaron activas a 1936 y dos (Vitoria y Pamplona) sobrepasaron la guerra civil. De pequeñas dimensiones y actuación local, su pervivencia refleja la del fenómeno mutualista popular en el conjunto del país. El modelo de mutualismo popular que ellas inauguraron, el mismo que se ha registrado en la bibliografía citada, no varió. Sus cuotas y socorros variaron poco en el medio plazo, hasta que la inflación empezó a carcomerlos en los años de la Primera Guerra Mundial. Ofrecieron modestos servicios (atención a la enfermedad y post-mortem en cuatro casos, asistencia farmacéutica en dos de ellos) a las clases medias-bajas urbanas con ingresos estables integradas por artesanos, pequeños empresarios, empleados y profesionales. Los sectores sociales ubicados debajo en la jerarquía social no pudieron permitirse su pertenencia, o atendieron otros llamamientos.</p>
+			<p class="texto">Las cinco sociedades de socorros mutuos estudiadas convivieron y compitieron con otras entidades similares en sus respectivas ciudades. En el periodo liberal tuvieron vínculos con instituciones benéficas y de crédito, pero progresivamente se especializaron y distanciaron de la beneficencia. Las inversiones de sus fondos en las décadas de bonanza del cambio de siglo implican una cierta información financiera. Desde finales del siglo&#160;<span class="versalita">xix</span> convivieron y compitieron con la obra católica, las actuaciones patronales, los seguros mercantiles, las organizaciones sindicales y con la acción del Estado a través de los seguros sociales. Intuimos más que conocemos las tiranteces a lo largo del tiempo con un acompañante imprescindible de este mutualismo, la profesión médica. Pese a las críticas de &#173;inadaptación que recibieron, en las sociedades de socorros se aprecian esfuerzos de mejora de gestión en beneficio de sus socios como la incorporación de prestaciones también para familiares, con el talón de Aquiles de la sostenibilidad. Las instituciones públicas apenas les ofrecieron más que apoyo simbólico cuando entraron en crisis a partir de la pandemia de 1918-1919.</p>
+			<p class="texto">El mutualismo popular se incorporó hace tiempo a la investigación sobre asociacionismo. Su organización y su funcionamiento se han considerado laboratorio de aprendizaje de comportamientos societarios. La sociedad burgalesa, la de más temprana fundación, se elitizó y desapareció relativamente pronto. Las cinco sociedades pioneras promovieron actuaciones respetables acordes con los valores artesanos de sus orígenes, incluida la preminencia rotunda de los varones, y se alejaron de la imagen abigarrada de la muchedumbre. Poco conflictivas, con influencia de socios protectores, las entidades estudiadas fueron fuente de prestigio, con presencia en la vida pública local. Obligadas desde su fundación al apoliticismo, no participaron en el juego de partidos salvo en el caso de la de Vitoria, muy vinculada al dinastismo y especialmente al patronazgo de Eduardo Dato. Las sociedades de socorros mutuos constituyeron expositores para los sectores sociales medio-bajos no integrados en el movimiento obrero, de difícil aprehensión historiográfica. En su entorno se desarrolló una sociabilidad urbana cuyas redes e implicaciones merecen mejor conocimiento.</p>
+			<hr class="HorizontalRule-1" />
+			<div class="_idFootnotes">
+				<div id="footnote-030" class="_idFootnote">
+					<p class="texto_nota"><span class="nota"><a class="_idFootnoteAnchor _idGenColorInherit" href="#footnote-030-backlink">1</a></span> Feliciano <span class="versalita">Montero</span> <span class="versalita">García</span> (dir.): <span class="cursiva">Los seguros sociales en la España del siglo&#160;</span><span class="versalita">xx,</span> 3&#160;vols. (Feliciano Montero, Josefina Cuesta y Mercedes Samaniego), Madrid, Ministerio de Trabajo y Seguridad Social, 1988; Peter <span class="versalita">Baldwin</span>:<span class="cursiva"> La política de la seguridad social. Bases sociales del Estado de Bienestar europeo 1875-1975,</span> Madrid, Ministerio de Trabajo y Seguridad Social, 1992; Michel <span class="versalita">Dreyfus</span> (dir.): <span class="cursiva">Les assurances sociales en Europe,</span> Rennes, Presses Universitaires de Rennes, 2009; Santiago <span class="versalita">Castillo</span> y Rafael <span class="versalita">Ruzafa</span> (coords.): <span class="cursiva">La previsión social en la historia,</span> Madrid, Siglo&#160;XXI, 2009; Jerònia <span class="versalita">Pons</span> y Javier <span class="versalita">Silvestre</span> (eds.): <span class="cursiva">Los orígenes del Estado del Bienestar en España, 1900-1945: los seguros de accidentes, vejez, desempleo y enfermedad,</span> Zaragoza, Prensas Universitarias de Zaragoza, 2010; Jerònia <span class="versalita">Pons</span> y Margarita <span class="versalita">Vilar</span>: <span class="cursiva">El seguro de salud privado y público en España. Su análisis en perspectiva histórica,</span> Zaragoza, Prensas Universitarias de Zaragoza, 2014, y Julia <span class="versalita">Moses</span>: <span class="cursiva">The First Modern Risk. Workplace Accidents and the Origins of European Social States,</span> Cambridge, Cambridge University Press, 2018.</p>
+				</div>
+				<div id="footnote-029" class="_idFootnote">
+					<p class="texto_nota"><span class="nota"><a class="_idFootnoteAnchor _idGenColorInherit" href="#footnote-029-backlink">2</a></span> Santiago <span class="versalita">Castillo</span> (ed.): <span class="cursiva">Solidaridad desde abajo. Trabajadores y Socorros Mutuos en la España contemporánea,</span> Madrid, Unión General de Trabajadores, 1994; Marcel <span class="versalita">van</span> <span class="versalita">der</span> <span class="versalita">Linden</span> (ed.):<span class="cursiva"> Social security mutualism: the comparative history of mutual benefit societies,</span> Berna-Berlín-Nueva York, Peter Lang, 1996; los capítulos de Francesc-Andreu <span class="versalita">Martínez</span> y Rafael <span class="versalita">Ruzafa</span>, de Elena <span class="versalita">Maza</span> y de Cristobal <span class="versalita">Sarrias</span> en Santiago <span class="versalita">Castillo</span> y Rafael <span class="versalita">Ruzafa</span> (coords.): <span class="cursiva">La previsión social en la historia...;</span> Margarita <span class="versalita">Vilar</span> <span class="versalita">Rodríguez</span>: «La cobertura social a través de los socorros mutuos obreros, 1839-1935. ¿Una alternativa al Estado para afrontar los fallos del mercado?», en Jerònia <span class="versalita">Pons</span> y Javier <span class="versalita">Silvestre</span> (eds.): <span class="cursiva">Los orígenes del Estado del Bienestar en España, 1900-1945: los seguros de accidentes, vejez, desempleo y enfermedad,</span> Zaragoza, Prensas Universitarias de Zaragoza, 2010; Bernard <span class="versalita">Harris</span> (ed.): <span class="cursiva">Welfare and Old Age in Europe and North America,</span> Londres, Pickering &amp; Chatto, 2012, y Rafael <span class="versalita">Ruzafa</span> <span class="versalita">Ortega</span> (ed.): <span class="cursiva">De las hermandades a la Seguridad Social. Estudios sobre previsión social en el País Vasco, siglos&#160;</span><span class="versalita">xix-xxi,</span> Madrid, Catarata, 2018.</p>
+				</div>
+				<div id="footnote-028" class="_idFootnote">
+					<p class="texto_nota"><span class="nota"><a class="_idFootnoteAnchor _idGenColorInherit" href="#footnote-028-backlink">3</a></span> Guillermo <span class="versalita">Marín</span> <span class="versalita">Casado</span>: <span class="cursiva">Mutualismos. La previsión social en Álava durante el franquismo,</span> Bilbao, Universidad del País Vasco, 2017; Fernando <span class="versalita">Largo</span> <span class="versalita">Jiménez</span>: <span class="cursiva">Mutualismo y capital social. El papel de la Federación de Mutualidades de Cataluña, 1896-1936</span> tesis doctoral, Universidad Autónoma de Barcelona, 2017; Montserrat <span class="versalita">Duch</span> <span class="versalita">Plana</span>: «El mutualismo en Cataluña: la incipiente construcción desde debajo&#160;de la ciudadanía social (1890-1936)», <span class="cursiva">Historia Contemporánea,</span> 61 (2019), pp.&#160;797-833, y Rafael <span class="versalita">Ruzafa</span> <span class="versalita">Ortega</span>: «Localidad en lugar de nación. Cinco sociedades de socorros mutuos en el norte de España, siglos&#160;<span class="versalita">xix-xx</span>», en Justo <span class="versalita">Beramendi</span> <span class="cursiva">et al.</span> (eds.): <span class="cursiva">La nación omnipresente. Procesos de nacionalización en la España contemporánea,</span> Granada, Comares, 2020 (CD).</p>
+				</div>
+				<div id="footnote-027" class="_idFootnote">
+					<p class="texto_nota"><span class="nota"><a class="_idFootnoteAnchor _idGenColorInherit" href="#footnote-027-backlink">4</a></span> Información del Archivo General de la Administración, Gobernación, 1900-1901, caja&#160;44/247, leg.&#160;9, y del Archivo Municipal de Burgos, con otros apuntes archivísticos y con referencias publicísticas y hemerográficas. Hemos trabajado sus reglamentos de 1841 y 1850 (válido para el ministerio de Gobernación en 1868). Félix <span class="versalita">Castrillejo</span> <span class="versalita">Ibáñez</span>: «El Círculo Católico de Burgos como modelo de sociabilidad confesional (1883-1936)», en Elena <span class="versalita">Maza</span> <span class="versalita">Zorrilla</span> (coord.): <span class="cursiva">Asociacionismo en la España contemporánea. Vertientes y análisis interdisciplinar,</span> Valladolid, Universidad de Valladolid, 2003.</p>
+				</div>
+				<div id="footnote-026" class="_idFootnote">
+					<p class="texto_nota"><span class="nota"><a class="_idFootnoteAnchor _idGenColorInherit" href="#footnote-026-backlink">5</a></span> Sobre la sociedad de socorros mutuos de artesanos de Vitoria, y sobre la segunda que operó entre 1858 y 1909, contamos con información tomada del Archivo General de la Administración (Gobernación y Organización Sindical), del Archivo Municipal de Vitoria-Gasteiz y del Archivo Histórico Provincial de Álava (Registro de Asociaciones). Además, otros apuntes archivísticos y abundantes referencias publicísticas y hemerográficas. Referencia en <span class="cursiva">Anales del Instituto Nacional de Previsión,</span> 4 (1910), p.&#160;137. Ciñéndonos a la primera, hemos trabajado sus reglamentos de 1855 (anuncia otro <span class="cursiva">El Porvenir Alavés,</span> 11&#160;de julio de 1866) y 1880, y ya unificada los de 1931 y 1944. Véase también Guillermo <span class="versalita">Marín</span> <span class="versalita">Casado</span>: «Florecimiento y ocaso de una tipología asociativa: Socorros mutuos artesanos en Vitoria &#173;(1849-1949)», <span class="cursiva">Sancho El Sabio,</span> 38 (2015), pp.&#160;243-262.</p>
+				</div>
+				<div id="footnote-025" class="_idFootnote">
+					<p class="texto_nota"><span class="nota"><a class="_idFootnoteAnchor _idGenColorInherit" href="#footnote-025-backlink">6</a></span> Sobre la sociedad de socorros mutuos de artesanos de Pamplona contamos con documentación del Archivo General de la Administración (Organización Sindical) y con muy abundante información publicística y hemerográfica. Hemos trabajado sus reglamentos de 1881, 1904 y 1928, modificaciones de 1934 y 1946. Sobre su centenario y su disolución, <span class="cursiva">Diario de Navarra,</span> 11&#160;de febrero de 1958 y 1&#160;de febrero de 1988. Sobre La Conciliación, entre varios estudios, Pilar <span class="versalita">León</span> <span class="versalita">Sanz</span>: «Identidad e integración social: análisis de la sociabilidad en una sociedad de socorros mutuos (1902-1933)», <span class="cursiva">Dynamis,</span> 35-2 (2015), pp.&#160;409-431.</p>
+				</div>
+				<div id="footnote-024" class="_idFootnote">
+					<p class="texto_nota"><span class="nota"><a class="_idFootnoteAnchor _idGenColorInherit" href="#footnote-024-backlink">7</a></span> Sobre la sociedad de socorros mutuos La Ovetense contamos con información tomada del Archivo General de la Administración (Gobernación, de este fondo para 1900-1901 caja&#160;44/247, leg.&#160;9), del Archivo Histórico de Asturias (Gobierno Civil, de este fondo leg.&#160;20086/15, núm.&#160;38, la cita en subcarpeta&#160;7) y con muy abundante información publicística y hemerográfica. Hemos trabajado sus reglamentos de 1859, 1867, 1878, 1920 y 1931. También Jean-Louis <span class="versalita">Guereña</span>: «El espacio mutualista en la sociabilidad popular de la Restauración (1875-1900). El ejemplo asturiano» y Jorge <span class="versalita">Uría</span>: «Mutualismo y sociedades de socorros mutuos en Asturias. Una visión de conjunto (1898-1936)», ambos en Santiago <span class="versalita">Castillo</span> (ed.): <span class="cursiva">Solidaridad desde abajo. Trabajadores y Socorros Mutuos en la España contemporánea, </span>Madrid, Unión General de Trabajadores, 1994, pp.&#160;205-224 y 225-244, respectivamente.</p>
+				</div>
+				<div id="footnote-023" class="_idFootnote">
+					<p class="texto_nota"><span class="nota"><a class="_idFootnoteAnchor _idGenColorInherit" href="#footnote-023-backlink">8</a></span> Sobre la sociedad de socorros mutuos La Fraternidad contamos con información tomada del Archivo General de la Administración (Gobernación-Beneficencia Particular), del Archivo Foral de Bizkaia (Administrativo y Municipales de Bilbao y Begoña) y otros fondos archivísticos. También en este caso contamos con abundantísima información publicística y hemerográfica. Hemos trabajado sus reglamentos de 1859, 1879, 1904 y 1919.</p>
+				</div>
+				<div id="footnote-022" class="_idFootnote">
+					<p class="texto_nota"><span class="nota"><a class="_idFootnoteAnchor _idGenColorInherit" href="#footnote-022-backlink">9</a></span> Vicent <span class="versalita">Sanz</span> <span class="versalita">Rozalén</span> y José&#160;A. <span class="versalita">Piqueras</span> <span class="versalita">Arenas</span> (eds.): <span class="cursiva">En el nombre del oficio. El trabajador especializado: corporativismo, adaptación y protesta,</span> Madrid, Biblioteca Nueva, 2005, y Santiago <span class="versalita">Castillo</span> (coord.): <span class="cursiva">Mundo del trabajo y asociacionismo en España,</span> Madrid, Catarata, 2014.</p>
+				</div>
+				<div id="footnote-021" class="_idFootnote">
+					<p class="texto_nota"><span class="nota"><a class="_idFootnoteAnchor _idGenColorInherit" href="#footnote-021-backlink">10</a></span> <span class="cursiva">El Pueblo Vasco</span> (Bilbao), 9&#160;de enero de 1912; Archivo Histórico de Asturias, Fondo Gobierno Civil, leg.&#160;20086/15, núm.&#160;38, subcarpetas&#160;1 y&#160;2, y <span class="cursiva">Pensamiento Alavés</span> (Vitoria), 11&#160;de agosto de 1939.</p>
+				</div>
+				<div id="footnote-020" class="_idFootnote">
+					<p class="texto_nota"><span class="nota"><a class="_idFootnoteAnchor _idGenColorInherit" href="#footnote-020-backlink">11</a></span> Memoria de la sociedad de socorros mutuos de artesanos de Vitoria, «la 1.ª&#160;de esta ciudad», leída en la asamblea general de socios de 22&#160;de enero de 1899, p.&#160;5. En la junta de 31&#160;de marzo de 1946 de la sociedad de socorros mutuos de artesanos de Pamplona se nombró socio de mérito, categoría de antigüedad establecida aquel año, a Francisco Maisterrena, que ingresó en 1878 a los veintiún años «y lleva por lo tanto 67&#160;años de vida social», en Archivo General de la Administración, Organización Sindical, leg.&#160;2657.</p>
+				</div>
+				<div id="footnote-019" class="_idFootnote">
+					<p class="texto_nota"><span class="nota"><a class="_idFootnoteAnchor _idGenColorInherit" href="#footnote-019-backlink">12</a></span> <span class="cursiva">Pensamiento Alavés </span>(Vitoria), 10&#160;de agosto de 1939.</p>
+				</div>
+				<div id="footnote-018" class="_idFootnote">
+					<p class="texto_nota"><span class="nota"><a class="_idFootnoteAnchor _idGenColorInherit" href="#footnote-018-backlink">13</a></span> <span class="cursiva">El Noticiero Bilbaíno,</span> 5 y 7&#160;de septiembre de 1899, y Archivo Foral de &#173;Bizkaia, Municipal-Begoña, leg.&#160;262/052. Imagen del mausoleo en <span class="cursiva">La Tarde</span> (Bilbao), 26&#160;de agosto de 1936.</p>
+				</div>
+				<div id="footnote-017" class="_idFootnote">
+					<p class="texto_nota"><span class="nota"><a class="_idFootnoteAnchor _idGenColorInherit" href="#footnote-017-backlink">14</a></span> Archivo General de la Administración, Organización Sindical, legs.&#160;2657 (Pamplona) y 4153 (Vitoria).</p>
+				</div>
+				<div id="footnote-016" class="_idFootnote">
+					<p class="texto_nota"><span class="nota"><a class="_idFootnoteAnchor _idGenColorInherit" href="#footnote-016-backlink">15</a></span> Archivo Histórico de Asturias, Fondo Gobierno Civil, leg.&#160;20086/15, núm.&#160;38, subcarpetas&#160;2&#160;y&#160;6.</p>
+				</div>
+				<div id="footnote-015" class="_idFootnote">
+					<p class="texto_nota"><span class="nota"><a class="_idFootnoteAnchor _idGenColorInherit" href="#footnote-015-backlink">16</a></span> Elena <span class="versalita">Maza</span> <span class="versalita">Zorrilla</span>: <span class="cursiva">Discurrir asociativo en la España contemporánea (1839-1941),</span> Valladolid, Universidad de Valladolid, 2017, y Ramón <span class="versalita">Arnabat</span> <span class="versalita">Mata</span>: <span class="cursiva">Asociaos y seréis fuertes. Sociabilidades, modernización y ciudadanía en España, 1860-1930,</span> Zaragoza, Prensas Universitarias de Zaragoza, 2019.</p>
+				</div>
+				<div id="footnote-014" class="_idFootnote">
+					<p class="texto_nota"><span class="nota"><a class="_idFootnoteAnchor _idGenColorInherit" href="#footnote-014-backlink">17</a></span> Como ocurrió a la 2.ª&#160;sociedad vitoriana en 1893, solucionándose por 89&#160;votos contra&#160;37, en <span class="cursiva">El Alavés,</span> 6&#160;de mayo y 13 y 27&#160;de junio de 1893.</p>
+				</div>
+				<div id="footnote-013" class="_idFootnote">
+					<p class="texto_nota"><span class="nota"><a class="_idFootnoteAnchor _idGenColorInherit" href="#footnote-013-backlink">18</a></span> Además de los respectivos reglamentos, <span class="cursiva">Lau-Buru</span> (Pamplona), 25&#160;de enero de 1885.</p>
+				</div>
+				<div id="footnote-012" class="_idFootnote">
+					<p class="texto_nota"><span class="nota"><a class="_idFootnoteAnchor _idGenColorInherit" href="#footnote-012-backlink">19</a></span> <span class="cursiva">El Noticiero Bilbaíno,</span> 28&#160;de agosto de 1899, y <span class="cursiva">Diario de Navarra,</span> 29&#160;de marzo de 1928.</p>
+				</div>
+				<div id="footnote-011" class="_idFootnote">
+					<p class="texto_nota"><span class="nota"><a class="_idFootnoteAnchor _idGenColorInherit" href="#footnote-011-backlink">20</a></span> Archivo Municipal de Burgos, legs.&#160;9-258 y 9-259. Las citas en <span class="cursiva">El Porvenir Alavés,</span> 22&#160;de diciembre de 1866, y <span class="cursiva">Heraldo Alavés,</span> 1&#160;de abril de 1916.</p>
+				</div>
+				<div id="footnote-010" class="_idFootnote">
+					<p class="texto_nota"><span class="nota"><a class="_idFootnoteAnchor _idGenColorInherit" href="#footnote-010-backlink">21</a></span> Archivo Municipal de Burgos, legs.&#160;6-105, 20-107 y 20-216, y Félix <span class="versalita">Castrillejo</span> <span class="versalita">Ibáñez</span>: «La oligarquía económica en el Burgos decimonónico. La saga de los Arnáiz como ejemplo», en VVAA: <span class="cursiva">Estudios en homenaje al profesor Celso Almuiña Fernández. Historia, periodismo y comunicación,</span> Valladolid, Universidad de Valladolid, 2016, pp.&#160;261-278.</p>
+				</div>
+				<div id="footnote-009" class="_idFootnote">
+					<p class="texto_nota"><span class="nota"><a class="_idFootnoteAnchor _idGenColorInherit" href="#footnote-009-backlink">22</a></span> Archivo Municipal de Vitoria-Gasteiz, legs.&#160;11/003/045, 37/001/023 y 37/012/001; <span class="cursiva">Heraldo Alavés,</span> 20&#160;de febrero de 1906, y <span class="cursiva">La Libertad</span> (Vitoria), 30&#160;de enero de 1920. Sobre la entidad pamplonesa Archivo General de la Administración, Organización Sindical, leg.&#160;2657.</p>
+				</div>
+				<div id="footnote-008" class="_idFootnote">
+					<p class="texto_nota"><span class="nota"><a class="_idFootnoteAnchor _idGenColorInherit" href="#footnote-008-backlink">23</a></span> <span class="cursiva">El Carbayón</span> (Oviedo), 27&#160;de febrero de 1883, y <span class="cursiva">El Noticiero Bilbaíno,</span> 11&#160;de enero de 1916.</p>
+				</div>
+				<div id="footnote-007" class="_idFootnote">
+					<p class="texto_nota"><span class="nota"><a class="_idFootnoteAnchor _idGenColorInherit" href="#footnote-007-backlink">24</a></span> Jordi <span class="versalita">Maluquer</span> <span class="versalita">de</span> <span class="versalita">Motes</span>: <span class="cursiva">La inflación en España. Un índice de precios de consumo, 1830-2012,</span> Madrid, Banco de España, 2013, pp.&#160;102-103 (índice 1913=100) y 104 (índice por años).</p>
+				</div>
+				<div id="footnote-006" class="_idFootnote">
+					<p class="texto_nota"><span class="nota"><a class="_idFootnoteAnchor _idGenColorInherit" href="#footnote-006-backlink">25</a></span> Margarita <span class="versalita">Vilar</span> y Jerònia <span class="versalita">Pons</span>: «The long shadow of charity in the Spanish hospital system, c. 1870-1942», <span class="cursiva">Social History,</span> 44-3 (2019), pp.&#160;317-342.</p>
+				</div>
+				<div id="footnote-005" class="_idFootnote">
+					<p class="texto_nota"><span class="nota"><a class="_idFootnoteAnchor _idGenColorInherit" href="#footnote-005-backlink">26</a></span> <span class="cursiva">Heraldo Alavés,</span> 18&#160;de enero de 1909; <span class="cursiva">La Libertad</span> (Vitoria), 19&#160;de mayo de 1919 y 23&#160;de junio de 1923, y Archivo General de la Administración, Organización Sindical, leg.&#160;4153.</p>
+				</div>
+				<div id="footnote-004" class="_idFootnote">
+					<p class="texto_nota"><span class="nota"><a class="_idFootnoteAnchor _idGenColorInherit" href="#footnote-004-backlink">27</a></span> <span class="cursiva">El Nervión</span> (Bilbao), 4&#160;de febrero de 1928; Ángel <span class="versalita">Saiz</span>-<span class="versalita">Calderón</span>, <span class="cursiva">Guía de Navarra para 1929-30. Anuario administrativo, agrícola, bancario, comercial,</span> Pamplona, s.&#160;e., 1929, p.&#160;271, y Archivo General de la Administración, Organización Sindical, leg.&#160;2657.</p>
+				</div>
+				<div id="footnote-003" class="_idFootnote">
+					<p class="texto_nota"><span class="nota"><a class="_idFootnoteAnchor _idGenColorInherit" href="#footnote-003-backlink">28</a></span> <span class="cursiva">El Pueblo Navarro,</span> 25&#160;de enero de 1921, y <span class="cursiva">Diario de Navarra,</span> 29&#160;de mayo y 17&#160;de octubre de 1930.</p>
+				</div>
+				<div id="footnote-002" class="_idFootnote">
+					<p class="texto_nota"><span class="nota"><a class="_idFootnoteAnchor _idGenColorInherit" href="#footnote-002-backlink">29</a></span> <span class="cursiva">Irurac-Bat</span> (Bilbao), 3&#160;de julio y 27&#160;de noviembre de 1868 y 3&#160;y 12&#160;de enero de 1869; <span class="cursiva">El Noticiero Bilbaíno,</span> 29&#160;de octubre de 1916 y 6&#160;de febrero de 1924; Jon <span class="versalita">Penche</span> <span class="versalita">González</span>: <span class="cursiva">Republicanos en Bilbao (1868-1937),</span> Bilbao, Universidad del País Vasco, 2010, pp.&#160;235-236, y Sergio <span class="versalita">Sánchez</span> <span class="versalita">Collantes</span>: «La participación de los republicanos en el asociacionismo local de Oviedo desde el periodo isabelino a los comienzos del siglo&#160;<span class="versalita">xx</span>: mutuas, cooperativas, colegios profesionales y otras sociedades», en Santiago <span class="versalita">Castillo</span> (coord.): <span class="cursiva">Mundo del trabajo y asociacionismo</span> <span class="cursiva">en España, </span>Madrid, Catarata, 2014<span class="cursiva"> </span>(CD), pp.&#160;1-20.</p>
+				</div>
+				<div id="footnote-001" class="_idFootnote">
+					<p class="texto_nota"><span class="nota"><a class="_idFootnoteAnchor _idGenColorInherit" href="#footnote-001-backlink">30</a></span> <span class="cursiva">El Pueblo Vasco</span> (Bilbao) mencionó simpatías de Dato por la entidad vitoriana en 18&#160;de agosto de 1919 y 18&#160;de setiembre de 1920; <span class="cursiva">Pensamiento Alavés,</span> 19&#160;de febrero de 1935, y Archivo General de la Administración, Organización Sindical, leg.&#160;4153.</p>
+				</div>
+				<div id="footnote-000" class="_idFootnote">
+					<p class="texto_nota"><span class="nota"><a class="_idFootnoteAnchor _idGenColorInherit" href="#footnote-000-backlink">31</a></span> <span class="cursiva">El Anunciador Vitoriano,</span> 22&#160;de enero de 1889.</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -2,27 +2,27 @@
 
 ## Estado actual
 
-**225/840 terminadas, 675 imágenes originales públicas, 0 en curso o borradores WordPress y 615 pendientes**. Modelos Nórdicos 15/15; 15 tandas completas y tanda 15 completa.
+**231/840 terminadas, 693 imágenes originales públicas, 0 en curso o borradores WordPress y 609 pendientes**. Servicios Sociales 6/15; 15 tandas completas y tanda 16 en curso.
 
 Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Desde 219: entradas 220–225, 18 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
+Desde 225: entradas 226–231, 18 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
 
-Una publicación y tres adjuntos por ID; categorías Capitalismo Consciente y Modelos Nórdicos, etiquetas exactas. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales y variantes comprobados. Navegación y BreadcrumbList: Blog → área → subcategoría. Taxonomía: 122 nodos, siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva o posicionamiento.
+Una publicación y tres adjuntos por ID; categorías Capitalismo Consciente y Servicios Sociales, etiquetas exactas. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales y variantes comprobados. Navegación y BreadcrumbList: Blog → área → subcategoría. Taxonomía: 122 nodos, siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva o posicionamiento.
 
 ## Revisión del último bloque
 
-223: financiación y provisión sanitarias diferenciadas, topes de Halland y Helsinki con periodos y exclusiones, derechos suecos/daneses separados de cumplimiento real. 224: decisión sueca 2004, derogación 2005 y excepción 17–31/12/2004; Noruega mantiene patrimonio 2026 y abolió sucesiones desde 2014. Muestra de movilidad NOU2026 con cautela registral y sin pérdida fiscal neta inventada. 225: síntesis de catorce entradas con fuentes primarias, sin cuotas de carga por renta deducidas de composición, sin cifras o imágenes reutilizadas.
+229: LAMal 1996, seguro básico y suplementario diferenciados, subsidios cantonales y comparaciones OCDE con fecha de referencia. 230: CPF y propiedad HDB con reglas y población estadística definidas, derechos temporales y coste de oportunidad del ahorro. 231: edición Marsh CFA 2026, marco multipilar y reformas nacionales con fechas; puntuaciones agregadas sin promesas individuales.
 
 ## Continuación exacta
 
-Siguiente **226–228 / E5.6.01–E5.6.03**, Capitalismo Consciente → Servicios Sociales. Preparaciones incluidas en las 615 pendientes. E5.6.01: 0/3 imágenes locales; sin texto final, sin publicación; E5.6.02: 0/3 imágenes locales; sin texto final, sin publicación; E5.6.03: 0/3 imágenes locales; sin texto final, sin publicación. Después 229–231. Automatización activa, sin agotamiento comunicado.
+Siguiente **232–234 / E5.6.07–E5.6.09**, Capitalismo Consciente → Servicios Sociales. Preparaciones incluidas en las 609 pendientes. E5.6.07: 3/3 imágenes locales; sin texto final, sin publicación; E5.6.08: 3/3 imágenes locales; sin texto final, sin publicación; E5.6.09: 3/3 imágenes locales; sin texto final, sin publicación. Después 235–237. Automatización activa, sin agotamiento comunicado.
 
 ## Copias y límites
 
-Respaldo VPS hasta 225: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
+Respaldo VPS hasta 231: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
 
 ## Traspaso
 

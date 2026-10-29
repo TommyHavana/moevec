@@ -1,0 +1,31 @@
+{
+  "id": "E5.6.07",
+  "prompts": {
+    "featured": "Use case: stylized-concept. Original MEE editorial illustration. Premium crafted miniature, tactile paper, limestone and ceramic, cobalt blue, vermilion red and warm ivory palette. Refined directional light, subtle texture, controlled shadows. Wide landscape, essential objects within central safe crop. No text, numbers, labels, logos, watermark, flags or statistical chart. Two complete invented school buildings in ivory paper and cobalt ceramic sharing one broad central courtyard, one vermilion gate and several very small abstract faceless human figures moving freely between them. No signs, crosses, religious symbols or real school logos. Aerial architectural miniature, both roofs and entire courtyard safely in the central65percent of height, generous margins for panoramic cover.",
+    "interior-1": "Use case: stylized-concept. Original MEE editorial illustration. Premium crafted miniature, tactile paper, limestone and ceramic, cobalt blue, vermilion red and warm ivory palette. Refined directional light, subtle texture, controlled shadows. Wide landscape, essential objects within central safe crop. No text, numbers, labels, logos, watermark, flags or statistical chart. A complete cobalt fabric school backpack resting on a warm ivory bench, exactly two large blank keys attached to separate vermilion and ivory ribbons on its front pocket. No brands, writing, numbers or school insignia. Refined tactile miniature, full bag with straps visible, wide landscape with ample negative space.",
+    "interior-2": "Use case: stylized-concept. Original MEE editorial illustration. Premium crafted miniature, tactile paper, limestone and ceramic, cobalt blue, vermilion red and warm ivory palette. Refined directional light, subtle texture, controlled shadows. Wide landscape, essential objects within central safe crop. No text, numbers, labels, logos, watermark, flags or statistical chart. A complete vermilion sculptural balance with broad ivory trays, each tray supports one tiny distinct cobalt school model with ivory roofs. No ranking, no numbers and no real school, generous margins around the entire sculpture, all roofs and both trays visible, stylized paper miniature."
+  },
+  "sources": {
+    "featured": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-fc41e419-c13e-431f-8d8f-fb82011e8b0d.png",
+    "interior-1": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-2f2f1834-5b6b-48e8-a5a9-09124d492b99.png",
+    "interior-2": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-a0fadfc9-b07f-4254-82f0-13ddebdca79e.png"
+  },
+  "tool": "builtin_image_gen",
+  "sources_are_conceptual": true,
+  "edits": [
+    {
+      "role": "featured",
+      "original": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-6a4fb637-a320-4310-9e0e-9bd9a141c47c.png",
+      "prompt": "Edit this original MEE illustration. Zoom out the entire two-school courtyard scene by 25 percent, preserving both complete school buildings, courtyard, gate, people and original palette. Add generous sky, terrain and margins. Both entire school wings must remain inside central80percent width and central65percent height for a panoramic1200x630 crop. No text, logos or real-school details.",
+      "tool": "builtin_image_gen",
+      "selected": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-fc41e419-c13e-431f-8d8f-fb82011e8b0d.png"
+    },
+    {
+      "role": "interior-1",
+      "original": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-5d4ded58-efe8-49a0-a7e1-d2d654555a36.png",
+      "prompt": "Edit this original MEE backpack image. Zoom the entire blue backpack with two keys out by20percent while preserving its design, material and colors. Add generous space above the handle and below the bench; all of the handle, bag and keys must be inside the middle75percent height for a1600x900crop. No logos or text.",
+      "tool": "builtin_image_gen",
+      "selected": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-2f2f1834-5b6b-48e8-a5a9-09124d492b99.png"
+    }
+  ]
+}
