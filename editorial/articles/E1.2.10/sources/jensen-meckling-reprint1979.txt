@@ -1,0 +1,2987 @@
+Michael C. Jensen 
+and William H. Meckling ** 
+Theory of the Firm: 
+Managerial Behavior, Agency Costs, 
+and Ownership Structure* 
+The directors of such [joint-stock] companies, however, being 
+the managers rather of other people's money than of their 
+own, it cannot well be expected, that they should watch over it 
+with the same anxious vigilance with which the partners in a 
+private copartnery frequently watch over their own. Like the 
+stewards of a rich man, they are apt to consider attention to 
+small matters as not for their master's honour, and very easily 
+give themselves a dispensation from having it. Negligence and 
+profusion, therefore, must always prevail, more or less, in the 
+management of the affairs of such a company. 
+-Adam Smith, The Wealth of Nations 
+1. Introduction and Summary 
+Motivation of the Paper 
+In this paper we draw on recent progress in the theory of (1) 
+property rights, (2) agency, and (3) finance to develop a the-
+ory of ownership structure for the firm.l In addition to tying 
+* Reprinted, with some changes, by permission of the authors and North-Holland 
+Publishing Co., from thejoumal of Financial Economics 3 (1976): 305-60. An earlier 
+version of the paper was presented at the First Annual Interlaken Seminar on 
+Analysis and Ideology, Switzerland, June 1974. 
+** We are indebted to F. Black, E. Fama, R. Ibbotson, W. Klein, M. Rozeff, R. Weil, O. 
+Williamson, an anonymous referee, and our colleagues and members of the Finance 
+Workshop at the University of Rochester-in particular, G. Benston, M. Canes, D. 
+Henderson, K. Leffler, J. Long, C. Smith, R. Thompson, R. Watts, and J. Zimmer-
+man-for their comments and criticisms. 
+We do not use the term capital structure because that term usually denotes the 
+relative quantities of bonds, equity, warrants, trade credit, etc., that represent the 
+liabilities of a firm. Our theory implies that there is another important dimension 
+to this problem-namely, the relative amounts of ownership claims held by insiders 
+(management) and outsiders (investors with no direct role in the management of 
+the firm). 
+K. Brunner (ed.), Economics Social Institutions
+© University of Rochester Center for Research in Government Policy and Business 1979
+
+1641 ECONOMICS AND SOCIAL INSTITUTIONS 
+together elements of the theory of each of these three areas, 
+our analysis casts new light on and has implications for a 
+variety of issues in the professional and popular literature, 
+such as the definition of the firm, the "separation of owner-
+ship and control," the "social responsibility" of business, the 
+definition of a "corporate objective function," the determi-
+nation of an optimal capital structure, the specification of the 
+content of credit agreements, the theory of organizations, 
+and the supply side of the completeness-of-markets problem. 
+Our theory helps explain: 
+1. why an entrepreneur or manager in a firm that has a 
+mixed financial structure (containing both debt and out-
+side equity claims) will choose a set of activities for the 
+firm such that the total value of the firm is less than it 
+would be if he were the sole owner and why this result is 
+independent of whether the firm operates in monopolis-
+tic or competitive product or factor markets; 
+2. why his failure to maximize the value of the firm is per-
+fectly consistent with efficiency; 
+3. why the sale of common stock is a viable source of capital 
+even though managers do not literally maximize the 
+value of the firm; 
+4. why debt was relied upon as a source of capital before 
+debt financing offered any tax advantage relative to 
+equity; 
+5. why preferred stock would be issued; 
+6. why accounting reports would be provided voluntarily 
+to creditors and stockholders and why independent au-
+ditors would be engaged by management to testify to the 
+accuracy and correctness of such reports; 
+7. why lenders often place restrictions on the activities of 
+firms to whom they lend and why firms would them-
+selves be led to suggest the imposition of such restric-
+tions; 
+8. why some industries are characterized by owner-oper-
+ated firms whose sole outside source of capital is borrow-
+ing; 
+9. why highly regulated industries such as public utilities 
+or banks will have higher debt-equity ratios for equiva-
+lent levels of risk than the average nonregulated firm; 
+10. why security analysis can be socially productive even if it 
+does not increase portfolio returns to investors. 
+
+JENSEN I MECKLING I THEORY OF THE FIRM I 165 
+Theory of the Firm: An Empty Box? 
+While the literature of economics is replete with references 
+to the "theory of the firm," the material generally subsumed 
+under that heading is not a theory of the firm but actually a 
+theory of markets in which firms are important actors. The 
+firm is a "black box" operated so as to meet the relevant 
+marginal conditions with respect to inputs and outputs, 
+thereby maximizing profits or, more accurately, present 
+value. Except for a few recent and tentative steps, however, 
+we have no theory that explains how the conflicting objec-
+tives of the individual participants are brought into equilib-
+rium so as to yield this result. The limitations of this black-
+box view of the firm have been cited by Adam Smith and 
+Alfred Marshall, among others. More recently, popular and 
+professional debates over the "social responsibility" of cor-
+porations and the separation of ownership and control and 
+the rash of reviews of the literature on the "theory of the 
+firm" have evidenced continuing concern with these issues. 2 
+A number of major attempts have been made during re-
+cent years to construct a theory of the firm by substituting 
+other models for profit or value maximization, each attempt 
+motivated by a conviction that the latter is inadequate to 
+explain managerial behavior in large corporations.3 Some of 
+2 Reviews of this literature are given by S. Petersen, "Corporate Control and Capital-
+ism," Quarterly Journal of Economics 79 (1965): 1-24; A. A. Alchian, "The Basis of 
+Some Recent Advances in the Theory of Management of the Firm," Journal of 
+Industrial Economics 14 (1965): 30-44; idem, "Corporate Management and Property 
+Rights," in Economic Policy and the Regulation of Corporate Securities, ed. H. Manne 
+(Washington, D.C.: American Enterprise Institute, 1969); F. Machlup, "Theories 
+of the Firm: Marginalist, Behavioral, Managerial," American Economic Review 57 
+(1967): 1-33; M. Shubik, "A Curmudgeon's Guide to Microeconomics," Journal of 
+Economic Literature 8 (1970): 405-34; R. M. Cyert and C. L. Hedrick, "Theory of 
+the Firm: Past, Present and Future," ibid., 10 (1972): 398-412; B. Branch, "Cor-
+porate Objectives and Market Performance," Financial Management (1973): 24-29; 
+L. E. Preston, "Corporation and Society: The Search for a Paradigm," Journal of 
+Economic Literature 13 (1975): 434-53. 
+3 See O. E. Williamson, The Economics of Discretionary Behavior: Managerial Objectives in 
+a Theory of the Firm (Englewood Cliffs, N .J.: Prentice-Hall, 1964); idem, Corporate 
+Control and Business Behavior (Englewood Cliffs, N.J.: Prentice-Hall, 1970); idem, 
+Markets and Hierarchies: Analysis and Antitrust Implications (New York: Free Press, 
+1975); R. Marris, The Economic Theory of Managerial Capitalism (Glencoe, Ill.: Free 
+Press, 1964); W. J. Baumol, Business Behavior, Value and Growth (New York: Mac-
+millan, 1959); E. Penrose, The Theory of the Growth of the Firm (New York: Wiley, 
+1958); R. M. Cyert and J. G. March, A Behavioral Theory of the Firm (Englewood 
+Cliffs, N.J.: Prentice-Hall, 1963). Thorough reviews of these and other contribu-
+
+1661 ECONOMICS AND SOCIAL INSTITUTIONS 
+these reformulation attempts have rejected the fundamental 
+principle of maximizing behavior as well as the more specific 
+profit-maximizing model. In the analysis to follow, we retain 
+the notion of maximizing behavior on the part of all individ-
+uals.4 
+Property Rights 
+An independent stream of research with important implica-
+tions for the theory of the firm has been stimulated by the 
+pioneering work of Coase and has been extended by AI-
+chian, Demsetz, and others. 5 While the focus of this research 
+has been "property rights," the subject matter encompassed 
+tions are given by F. Machlup, "Theories of the Firm," and Alchian, "Recent Ad-
+vances." 
+H. A. Simon, "A Behavioral Model of Rational Choice," Quarterly Journal of Eco-
+nomics 69 (1955): 99-118, developed a model of human choice incorporating infor-
+mation (search) and computational costs and also having important implications for 
+the behavior of managers. Unfortunately, Simon's work has often been misinter-
+preted as a denial of maximizing behavior and has been misused, especially in the 
+marketing and behavioral science literature. His later use of the term satisficing has 
+undoubtedly contributed to this confusion because it suggests rejection of maximiz-
+ing behavior rather than maximization subject to costs of information and of deci-
+sion making. H. A. Simon, "Theories of Decision Making in Economics and Behav-
+ioral Science," American Economic Review 49 (1959): 253-83. 
+4 For the theoretical importance of the assumption of resourceful, evaluative, maxi-
+mizing behavior on the part of individuals, see W. H. Meckling, "Values and the 
+Choice of the Model of the Individual in the Social Sciences," Schweizerische Zeit-
+schrift fur Volkswirtschaft und Statistik, 1976, no. 4, pp. 545-59, reprinted in this 
+volume, pp. 00-00. An approach similar to the one embarked on in this paper is 
+taken by W. A. Klein, "Legal and Economic Perspectives on the Firm," unpublished 
+(Los Angeles: University of California, 1976). 
+5 See R. H. Coase, "The Nature of the Firm," Economica, n.s. 4 (1937): 386-405, 
+reprinted in Readings in Price Theory, ed. G. J. Stigler and K. Boulding (Homewood, 
+Ill.: Irwin, 1952); idem, "The Federal Communications Commission," Journal at 
+Law and Economics 2 (1959): 1-40; idem, "The Problem of Social Costs," ibid., 3 
+(1960): 1-44; Alchian, "Recent Advances"; idem, "Corporate Management"; A. A. 
+Alchian and R. A. Kessel, "Competition, Monopoly and the Pursuit of Pecuniary 
+Gain," in Aspects at Labor Economics, (Princeton, N.J.: Princeton University Press, for 
+the National Bureau of Economic Research, 1962); H. Demsetz, "Toward a Theory 
+of Property Rights," American Economic Review 57 (1967): 347-59; A. A. Alchian 
+and H. Demsetz, "Production, Information Costs, and Economic Organization," 
+ibid. 62 (1972): 777-95; K J. Monsen and A. Downs, "A Theory of Large Mana-
+gerial Firms," Journal of Political Economy 73 (1965): 221-36; M. Silver and R. Aus-
+ter, "Entrepreneurship, Profit and Limits on Firm Size," Journal of Business 42 
+(1969): 277-81; J. C. McManus, "The Costs of Alternative Economic Organiza-
+tions," Canadian Journal of Economics 8 (1975): 334-50. 
+A comprehensive survey of this literature is given by E. G. Furubotn and S. 
+Pejovich, "Property Rights and Economic Theory: A Survey of Recent Literature," 
+Journal at Economic Literature 10 (1972): 1137-62. 
+
+JENSEN I MECKLING I THEORY OF THE FIRM I 167 
+is far broader than that term suggests. 6 What is important 
+for the problems addressed here is that specification of indi-
+vidual rights determines how costs and rewards will be allo-
+cated among the participants in any organization. Since the 
+specification of rights is generally effected through contract-
+ing (implicit as well as explicit), individual behavior in orga-
+nizations, including the behavior of managers, will depend 
+upon the nature of these contracts. We focus in this paper 
+on the behavioral implications of the property rights speci-
+fied in the contracts between the owners and managers of 
+the firm. 
+Agency Costs 
+Many problems associated with the inadequacy of the cur-
+rent theory of the firm can also be viewed as special cases of 
+the theory of agency relationships, of which there is a grow-
+ing literature. 7 This literature has developed independently 
+of the property rights literature even though the problems 
+with which it is concerned are similar; the approaches are in 
+fact highly complementary to each other. 
+We define an agency relationship as a contract under 
+which one or more persons, the principal(s), engage another 
+person, the agent, to perform some service on their behalf 
+that involves delegating some decision-making authority to 
+the agent. If both parties to the relationship are utility max-
+imizers, there is good reason to believe that the agent will not 
+always act in the best interests of the principal. The principal 
+can limit divergences from his interest by establishing appro-
+priate incentives for the agent and by incurring monitoring 
+costs designed to limit the aberrant activities of the agent. In 
+6 Property rights are, of course, human rights, i.e., rights that are possessed by 
+human beings. The introduction of the wholly false distinction between property 
+rights and human rights in many policy discussions is surely one of the all-time 
+great semantic flimflams. 
+7 See M. Berhold, "A Theory of Linear Profit-Sharing Incentives," Quarterly Journal 
+of EconlYT1lics 85 (1971): 460-82; S. A. Ross, "The Economic Theory of Agency: The 
+Principals Problems," American Economic Review 63 (1973): 134-39; idem, "The 
+Economic Theory of Agency and the Principle of Similarity," in Essays on Economic 
+Behavior under Uncertainty, ed. M. D. Balch et al. (Amsterdam: North-Holland, 
+1974); R. Wilson, "On the Theory of Syndicates," Econometrica 36 (1968): 119-32; 
+idem, La decision: Agregation et dynamique des orders de preference (Paris: Edi-
+tions du Centre National de la Recherche Scientifique, 1969); D. G. Heckerman, 
+"Motivating Managers to Make Investment Decisions,"Journal of Finan'cial Economics 
+2 (1975): 273-92. 
+
+1681 ECONOMICS AND SOCIAL INSTITUTIONS 
+addition, in some situations it will pay the agent to expend 
+resources (bonding costs) to guarantee that he will not take 
+certain actions that would harm the principal or to ensure 
+that the principal will be compensated if he does take such 
+actions. However, it is generally impossible for the principal 
+or the agent at zero cost to ensure that the agent will make 
+optimal decisions from the principal's viewpoint. In most 
+agency relationships the principal and the agent will incur 
+positive monitoring and bonding costs (nonpecuniary as well 
+as pecuniary), and in addition there will be some divergence 
+between the agent's decisions8 and those decisions that would 
+maximize the welfare of the principal. The dollar equivalent 
+of the reduction in welfare experienced by the principal due 
+to this divergence is also a cost of the agency relationship, 
+and we refer to this latter cost as the residual loss. We define 
+agency costs as the sum of: 
+1. the monitoring expenditures by the principal,9 
+2. the bonding expenditures by the agent, and 
+3. the residual loss. 
+Note also that agency costs arise in any situation involving 
+cooperative effort (such as the coauthoring of this paper) by 
+two or more people even though there is no clear-cut prin-
+cipal-agent relationship. Viewed in this light it is clear that 
+our definition of agency costs and their importance to the 
+theory of the firm bears a close relationship to the problem 
+of shirking and monitoring of team production, which AI-
+chian and Demsetz raise in their paper on the theory of the 
+firm.tO 
+Since the relationship between the stockholders and man-
+ager of a corporation fits the definition of a pure agency 
+relationship, it should be no surprise to discover that the 
+issues associated with the "separation of ownership and con-
+trol" in the modern diffuse ownership corporation are inti-
+mately associated with the general problem of agency. We 
+8 Given the optimal monitoring and bonding activities by the principal and agent. 
+9 As it is used in this paper the term monitoring includes more than just measuring or 
+observing the behavior of the agent. It includes efforts on the part of the principal 
+to "control" the behavior of the agent through budget restrictions, compensation 
+policies, operating rules, etc. 
+10 Alchian and Demsetz, "Production." 
+
+JENSEN I MECKLING I THEORY OF THE FIRM I 169 
+show below that an explanation of why and how the agency 
+costs generated by the corporate form are borne leads to a 
+theory of the ownership (or capital) structure of the firm. 
+Before moving on, however, it is worthwhile to point out 
+the generality of the agency problem. The problem of induc-
+ing an "agent" to behave as if he were maximizing the "prin-
+cipal's" welfare is quite general. It exists in all organizations 
+and in all cooperative efforts-at every level of management 
+in firms,l1 in universities, in mutual companies, in coopera-
+tives, in governmental authorities and bureaus, in unions, 
+and in relationships normally classified as agency relation-
+ships such as are common in the performing arts and the 
+market for real estate. The development of theories to ex-
+plain the form that agency costs take in each of these situa-
+tions (where the contractual relations differ significantly), 
+and how and why they are borne, will lead to a rich theory of 
+organizations that is now lacking in economics and the social 
+sciences generally. We confine our attention in this paper to 
+only a small part of this general problem-the analysis of 
+agency costs generated by the contractual arrangements be-
+tween the owners and top management of the corporation. 
+Our approach to the agency problem here differs funda-
+mentally from most of the existing literature. That literature 
+focuses almost exclusively on the normative aspects of the 
+agency relationship-that is, how to structure the contrac-
+tual relation (including compensation incentives) between 
+the principal and agent to provide appropriate incentives for 
+the agent to make choices that will maximize the principal's 
+welfare given uncertainty and imperfect monitoring. We 
+focus almost entirely on the positive aspects of the theory. 
+11 As we show below, the existence of positive monitoring and bonding costs will result 
+in the manager of a corporation possessing control over some resources that he can 
+allocate (within certain constraints) to satisfy his own preferences. However, to the 
+extent that he must obtain the cooperation of others in order to carry out his tasks 
+(such as divisional vice-presidents) and to the extent that he cannot control their 
+behavior perfectly and costlessly, they will be able to appropriate some of these 
+resources for their own ends. In short, there are agency costs generated at every 
+level of the organization. Unfortunately, the analysis of these more general orga-
+nizational issues is even more difficult than that of the "ownership and control" 
+issue, because the contractual obligations and rights of the parties are much more 
+varied in nature and generally not as well specified in explicit contractual arrange-
+ments. Nevertheless, they exist, and we believe that extensions of our analysis in 
+these directions show promise of producing insights into a viable theory of organi-
+zation. 
+
+170 I ECONOMICS AND SOCIAL INSTITUTIONS 
+That is, we assume individuals solve these normative prob-
+lems, and given that only stocks and bonds can be issued as 
+claims, we investigate the incentives faced by each of the 
+parties and the elements entering into the determination of 
+the equilibrium contractual form characterizing the relation-
+ship between the manager (i.e., agent) of the firm and the 
+outside equity and debt holders (i.e., principals). 
+Some General Comments on the Definition of the Firm 
+Ronald Coase, in his seminal paper on the firm, pointed out 
+that economics had no positive theory to determine the 
+bounds of the firm. He characterized the bounds of the firm 
+as that range of exchanges over which the market system was 
+suppressed and resource allocation was accomplished in-
+stead by authority and direction. He focused on the cost of 
+using markets to effect contracts and exchanges and argued 
+that activities would be included within the firm whenever 
+the costs of using markets were greater than the costs of 
+using direct authorityP Alchian and Demsetz object to the 
+notion that activities within the firm are governed by author-
+ity, and they correctly emphasize the role of contracts as a 
+vehicle for voluntary exchange. They emphasize the role of 
+monitoring in situations in which there is joint input or team 
+productionP We sympathize with the importance they at-
+tach to monitoring, but we believe their emphasis on joint-
+input production is too narrow and therefore misleading. 
+Contractual relations are the essence of the firm, not only 
+with employees but with suppliers, customers, creditors, etc. 
+The problem of agency costs and monitoring exists for all of 
+these contracts, independent of whether there is joint pro-
+duction in their sense; that is, joint production can explain 
+only a small fraction of the behavior of individuals associated 
+with a firm. A detailed examination of these issues is left to 
+another paper. 
+It is important to recognize that most organizations are 
+12 Coase, "Nature of the Firm." 
+13 Aichian and Demsetz, "Production." They define the classical capitalist firm as a 
+contractual organization of inputs in which there is "(a) joint input production, (b) 
+several input owners, (c) one party who is common to all the contracts of the joint 
+inputs, (d) who has rights to renegotiate any input's contract independently of 
+contracts with other input owners, (e) who holds the residual claim, and (f) who has 
+the right to sell his contractual residual status" (p. 783). 
+
+JENSEN 1 MECKLING 1 THEORY OF THE FIRM 1171 
+simply legal fictions that serve as a nexus for a set of contracting 
+relationships among individuals.14 This includes firms; non-
+profit institutions such as universities, hospitals, and foun-
+dations; mutual organizations such as mutual savings banks 
+and insurance companies and cooperatives; some private 
+clubs; and even governmental bodies such as cities, states, 
+and the federal government and government enterprises 
+such as the TVA, the Post Office, and transit systems. 
+The private corporation or firm is simply one form of legal 
+fiction that serves as a nexus for contracting relationships and is also 
+characterized by the existence of divisible residual claims on the or-
+ganization's assets and cash flows, which can generally be sold with-
+out permission of the other contracting individuals. While this def-
+inition of the firm has little substantive content, emphasizing 
+the essential contractual nature of firms and other organiza-
+tions focuses attention on a crucial set of questions-why 
+particular sets of contractual relations arise for various types 
+of organizations, what the consequences of these contractual 
+relations are, and how they are affected by changes exoge-
+nous to the organization. Viewed this way, it makes little or 
+no sense to try to distinguish those things that are "inside" 
+the firm (or any other organization) from those things that 
+are "outside" of it. There is in a very real sense only a multi-
+tude of complex relationships (i.e., contracts) between the 
+legal fiction (the firm) and the owners of labor, material, and 
+capital inputs and the consumers of output. 15 
+Viewing the firm as the nexus of a set of contracting rela-
+tionships among individuals also serves to make it clear that 
+the personalization of the firm implied by asking questions 
+such as, What should be the objective function of the firm? 
+or, Does the firm have a social responsibility? is seriously 
+misleading. The firm is not an individual. It is a legal fiction 
+that serves as a focus for a complex process in which the 
+conflicting objectives of individuals (some of whom may 
+14 By legal fiction we mean the artificial construct under the law that allows certain 
+organizations to be treated as individuals. 
+15 For example, we ordinarily think of a product as leaving the firm at the time it is 
+sold, but implicitly or explicitly such sales generally carry with them continuing 
+contracts between the firm and the buyer. If the product does not perform as 
+expected, the buyer often has a right to and can obtain satisfaction. Explicit evi-
+dence that such implicit contracts do exist is the practice we occasionally observe of 
+specific provision that "all sales are final." 
+
+1721 ECONOMICS AND SOCIAL INSTITUTIONS 
+"represent" other organizations) are brought into equilib-
+rium within a framework of contractual relations. In this 
+sense the "behavior" of the firm is like the behavior of a 
+market, that is, the outcome of a complex equilibrium proc-
+ess. We seldom fall into the trap of characterizing the wheat 
+or stock market as an individual, but we often make this 
+error by thinking about organizations as if they were persons 
+with motivations and intentions. 16 
+An Overview of the Paper 
+We develop the theory in stages. Sections 2 and 4 provide 
+analyses of the agency costs of equity and debt, respectively. 
+These form the major foundation of the theory. Section 3 
+poses some unanswered questions regarding the existence of 
+the corporate form of organization and examines the role of 
+limited liability. In section 5, the basic concepts derived in 
+sections 2-4 are synthesized into a theory of the corporate 
+ownership structure that takes account of the trade-offs 
+available to the entrepreneur-manager between inside and 
+outside equity and debt. Some qualifications and extensions 
+of the analysis are discussed in section 6, and section 7 con-
+tains a brief summary and conclusions. 
+2. The Agency Costs of Outside Equity 
+Overview 
+In this section we analyze the effect of outside equity on 
+agency costs by comparing the behavior of a manager when 
+he owns 100 percent of the residual claims on a firm to his 
+16 This view of the firm points up the important role of the legal system and the law 
+in social organizations, especially the organization of economic activity. Statutory 
+law sets bounds on the kinds of contracts into which individuals and organizations 
+may enter without risking criminal prosecution. The police powers of the state are 
+available and used to enforce performance of contracts or to enforce the collection 
+of damages for nonperformance. The courts adjudicate conflicts between contract-
+ing parties and establish precedents that form the body of common law. All of these 
+government activities affect both the kinds of contracts executed and the extent to 
+which contracting is relied upon. This in turn determines the usefulness, produc-
+tivity, profitability, and viability of various forms of organization. Moreover, new 
+laws as well as court decisions often can and do change the rights of contracting 
+parties ex post, and they can and do serve as a vehicle for redistribution of wealth. 
+An analysis of some of the implications of these facts is contained in M. C. Jensen 
+and w. H. Meckling, "Can the Corporation Survive?" Center for Research in Gov-
+ernment Policy and Business Working Paper no. PPS 76-4 (Rochester, N.Y.: Uni-
+versity of Rochester, 1976), and we shall not pursue them here. 
+
+JENSEN I MECKLING I THEORY OF THE FIRM I 173 
+behavior when he sells off a portion of those claims to out-
+siders. If a wholly owned firm is managed by the owner, he 
+will make operating decisions that maximize his utility. 
+These decisions will involve not only the benefits he derives 
+from pecuniary returns but also the utility generated by var-
+ious nonpecuniary aspects of his entrepreneurial activities, 
+such as the physical appointments of the office, the attrac-
+tiveness of the secretarial staff, the level of employee disci-
+pline, the kind and amount of charitable contributions, per-
+sonal relations ("love," "respect," etc.) with employees, a 
+larger than optimal computer to play with, and purchase of 
+production inputs from -friends. The optimum mix (in the 
+absence of taxes) of the various pecuniary and nonpecuniary 
+benefits is achieved when the marginal utility derived from 
+an additional dollar of expenditure (measured net of any 
+productive effects) is equal for each nonpecuniary item and 
+equal to the marginal utility derived from an additional dol-
+lar of after-tax purchasing power (wealth). 
+If the owner-manager sells equity claims on the corpora-
+tion that are identical to his (i.e., share proportionately in the 
+profits of the firm and have limited liability), agency costs 
+will be generated by the divergence between his interests and 
+those of the outside shareholders, since he will then bear 
+only a fraction of the costs of any nonpecuniary benefits he 
+takes out in maximizing his own utility. If the manager owns 
+only 95 percent of the stock, he will expend resources to the 
+point where the marginal utility derived from a dollar's ex-
+penditure of the firm's resources on such items equals the 
+marginal utility of an additional 95 cents in general purchas-
+ing power (i.e., his share of the wealth reduction) and not 
+one dollar. Such activities on his part can be limited (but 
+probably not eliminated) by the expenditure of resources on 
+monitoring activities by the outside stockholders. But as we 
+show below, the owner will bear the entire wealth effects of 
+these expected costs as long as the equity market anticipates 
+these effects. Prospective minority shareholders will realize 
+that the owner-manager's interests will diverge somewhat 
+from theirs; hence the price they will pay for shares will 
+reflect the monitoring costs and the effect of the divergence 
+between the manager's interest and theirs. Nevertheless, ig-
+noring for the moment the possibility of borrowing against 
+
+1741 ECONOMICS AND SOCIAL INSTITUTIONS 
+his wealth, the owner will find it desirable to bear these costs 
+as long as the welfare increment he experiences from con-
+verting his claims on the firm into general purchasing 
+power17 is large enough to offset them. 
+As the owner-manager's fraction of the equity falls, his 
+fractional claim on the outcomes falls, and this will tend to 
+encourage him to appropriate larger amounts of the corpo-
+rate resources in the form of perquisites. This also makes it 
+desirable for the minority shareholders to expend more re-
+sources in monitoring his behavior. Thus, the wealth costs to 
+the owner of obtaining additional cash in the equity markets 
+rise as his fractional ownership falls. 
+We shall continue to characterize the agency conflict be-
+tween the owner-manager and outside shareholders as de-
+riving from the manager's tendency to appropriate perqui-
+sites out of the firm's resources for his own consumption. We 
+do not mean to leave the impression, however, that this is the 
+only or even the most important source of conflict. Indeed, 
+it is likely that the most important conflict arises from the 
+fact that as the manager's ownership claim falls, his incentive 
+to devote significant effort to creative activities, such as 
+searching out new profitable ventures, falls. He may in fact 
+avoid such ventures simply because it requires too much 
+trouble or effort on his part to manage or to learn about new 
+technologies. A voidance of these personal costs and of the 
+anxieties that go with them also represents a source of on-
+the-job utility to him, and it can result in the value of the 
+firm being substantially lower than it otherwise could be. 
+A Simple Formal Analysis of the Agency Costs of Equity 
+In order to develop some structure for the analysis to follow, 
+we make two sets of assumptions. The first set (permanent 
+assumptions) are those carried through almost all of the 
+analysis in sections 2-5. The effects of relaxing some of these 
+are discussed in section 6. The second set (temporary as-
+sumptions) are made only for expositional purposes and are 
+relaxed as soon as the basic points have been clarified. 
+17 For use in consumption, for the diversification of his wealth, or more importantly, 
+for the financing of "profitable" projects that he could not otherwise finance out of 
+his personal wealth. We deal with these issues below after having developed some 
+of the elementary analytical tools necessary to their solution. 
+
+JENSEN 1 MECKLING 1 THEORY OF THE FIRM 1175 
+Permanent Assumptions: 
+(P.I) All taxes are zero. 
+(P.2) No trade credit is available. 
+(P.3) All outside equity shares are nonvoting. 
+(P.4) No complex financial claims such as convertible bonds 
+or preferred stock or warrants can be issued. 
+(P.S) No outside owner gains utility from ownership in a 
+firm in any way other than through its effect on his 
+wealth or cash flows. 
+(P.6) All dynamic aspects of the multiperiod nature of the 
+problem are ignored by assuming that there is only 
+one production-financing decision to be made by the 
+entrepreneur. 
+(P.7) The entrepreneur-manager's money wages are held 
+constant throughout the analysis. 
+(P.8) There exists a single manager (the peak coordinator) 
+with ownership interest in the firm. 
+Temporary Assumptions: 
+(T.l) The size of the firm is fixed. 
+(T.2) No monitoring or bonding activities are possible. 
+(T.3) No debt financing through bonds, preferred stock, or 
+personal borrowing (secured or unsecured) is possible. 
+(T.4) All elements of the owner-manager's decision prob-
+lem involving portfolio considerations induced by the 
+presence of uncertainty and the existence of diversifi-
+able risk are ignored. 
+Define: 
+X 
+= {Xl' X2, •.. , Xn} = vector of quantities of all factors 
+and activities within the firm from which the man-
+ager derives nonpecuniary benefits; the Xi are de-
+fined such that his marginal utility is positive for each 
+of them; 
+C (X) = total dollar cost of providing any given amount of 
+these items; 
+P(X) = total dollar value to the firm of the productive bene-
+fits of X; 
+B(X) = P(X)-C(X) = net dollar benefit to the firm of X, ig-
+noring any effects of X on the equilibrium wage of 
+the manager. 
+
+1761 ECONOMICS AND SOCIAL INSTITUTIONS 
+When we ignore the effects of X on the manager's utility 
+and therefore on his equilibrium wage rate, the optimum 
+levels of the factors and activities X are defined by X* such 
+that 
+aB(X*) = ap(x*) _ ac(X*) = o. 
+ax* 
+ax* 
+ax* 
+Thus, for any vector X ~ x* (i.e., where at least one element 
+of X is greater than its corresponding element of X*), 
+F == B(X*)-B(X) > 0 measures the dollar cost to the firm (net 
+of any productive effects) of providing the increment X -X* 
+of the factors and activities that generate utility for the man-
+ager. We assume henceforth that, for any given level of cost, 
+F, to the firm, the vector of factors and activities on which F 
+is spent are those, X, which yield the manager maximum 
+utility. Thus F == B(X*)-B(X). 
+We have thus far ignored in our discussion the fact that 
+these expenditures on X occur through time and therefore 
+there are trade-offs to be made across time as well as among 
+alternative elements of X. Furthermore, we have ignored the 
+fact that the future expenditures are likely to involve uncer-
+tainty (i.e., they are subject to probability distributions), and 
+therefore some allowance must be made for their riskiness. 
+We resolve both of these issues by defining C, P, B, and F to 
+be the current market values of the sequence of probability 
+distributions on the period-by-period cash flows involved. 18 
+Given the definition of F as the current market value of 
+the stream of the manager's expenditures on nonpecuniary 
+benefits, we represent the constraint that a single owner-
+manager faces in deciding how much nOEpecuniary income 
+he will extract from the firm by the line VF in figure 1. This 
+is analogous to a budget constraint. The market value of the 
+firm is measured along the vertical axis, and the market 
+value of the manager's stream of expenditures on nonpecu-
+niary benefits, F, is measured along the horizontal axis. The 
+value of the firm is OV when the amount of nonpecuniary 
+income consumed is zero. By definition V is the maximum 
+18 And again we assume that, for any given market value of these costs, F, to the firm, 
+the allocation across time and across alternative probability distributions is such 
+that the manager's current expected utility is at a maximum. -
+
+JENSEN I MECKLING I THEORY OF THE FIRM 1177 
+market value of the cash flows generated by the firm for a 
+given money wage for the manager when the manager's con-
+sumption of nonpecuniary benefits is zero. At this point all 
+the factors and activities within the firm that generate utility 
+for the manager are at the level X* defined above. There is 
+a different budget constraint VF for each possible scale of 
+the firm (i.e., level of investment, J) and for alternative levels 
+of money wage, W, for the manager. For the moment we 
+pick an arbitrary level of investment (which we assume has 
+already been made) and hold the scale of the firm constant 
+at this level. We also assume that the manager's money wage 
+is fixed at the level W*, which represents the current market 
+value of his wage contract in the optimal compensation pack-
+age consisting of both wages, W*, and nonpecuniary bene-
+fits, F*. 19 Since $1 of current value of nonpecuniary benefits 
+withdrawn from the firm by the manager reduces th~ market 
+value of the firm by $1, by definition, the slope of VF is -1. 
+The owner-manager's tastes for wealth and nonpecuniary 
+benefits is represented in figure 1 by a system of indifference 
+curves, U b U 2, etc. 20 The indifference curves will be convex, 
+as drawn, as long as the owner-manager's marginal rate of 
+substitution between nonpecuniary benefits and wealth di-
+minishes with increasing levels of the benefits. For the 100 
+percent owner-manager, this presumes that perfect substi-
+tutes for these benefits are not available on the outside; that 
+19 At this stage, when we are considering a 100 ·percent owner-managed firm, the 
+notion of a "wage contract" with himself has no content. However, the 100 percent 
+owner-managed case is only an expositional device used in passing to illustrate a 
+number of points in the analysis, and we ask the reader to bear with us briefly while 
+we layout the structure for the more interesting partial ownership case, where such 
+a contract does have substance. 
+20 The manager's utility function is actually defined over wealth and the future time 
+sequence of vectors of quantities of nonpecuniary benefits, X t. Although the setting 
+of his problem is somewhat different, Fama analyzes the conditions under which 
+these preferences can be represented as a derived utility function defined as a 
+function of the money value of the expenditures (in our notation, FJ on these 
+goods, conditional on the prices of goods. E. F. Fama, "Multiperiod Consumption-
+Investment Decisions," American Economic Review 60 (1970): 163-74; idem, "Ordi-
+nal and Measurable Utility," in Studies in the Theory of Capital Markets, ed. M. C. 
+Jensen (New York: Praeger, 1972). Such a utilit), function incorporates the optim-
+ization going on in the background that defines X discussed above for a given F. In 
+the more general case in which we allow a time series of consumption, X to the 
+optimization is being carried out across both time and the components of X t for 
+fixedF. 
+
+1781 ECONOMICS AND SOCIAL INSTITUTIONS 
+is, to some extent they are job specific. For the fractional 
+owner-manager this presumes that the benefits cannot be 
+turned into general purchasing power at a constant price.21 
+V 
+V4 
+5 VI 
+~ v· 
+== c z < V2 
+w 
+:3 
+~ v' 
+;] vO 
+ii: 
+° 
+____ 1 ________ _ 
+I 
+1"1' __ 
+_ 
+----~---------~-
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+F 
+MARKET VALUE OF THE STREAM OF MANAGER'S EXPENDITURES 
+ON NONPECUNIARY BENEFITS 
+Figure 1. The value of the firm, V, and the level of nonpecuniary 
+benefits consumed, F, when the fraction of outside equity is 
+(l-a)V, and UjJ = 1,2,3) represents owner's indifference curves 
+between wealth and nonpecuniary benefits 
+When the owner has 100 percent of the equity, the value 
+of the firm will be V*, where indifference curve U 2 is tangent 
+to VF and the level of nonpecuniary benefits consumed is F*. 
+If the owner sells the entire equity but remains as manager 
+and if the equity buyer can, at zero cost, force the old owner 
+(as manager) to take the same level of nonpecuniary benefits 
+21 This excludes. for instance. (a) the case where the manager is allowed to expend 
+corporate resources on anything he pleases. in which case F would be a perfect 
+substitute for wealth. or (b) the case where he can "steal" cash (or other marketable 
+assets) with constant returns to scale-if he could. the indifference curves would be 
+straight lines with slope determined by the fence commission. 
+
+JENSEN I MECKLING I THEORY OF THE FIRM I 179 
+as he did as owner, then v* is the price the new owner will 
+be willing to pay for the entire equity. 22 
+In general, however, we would not expect the new owner 
+to be able to enforce identical behavior on the old owner at 
+zero costs. If the old owner sells a fraction of the firm to an 
+outsider, he, as manager, will no longer bear the full cost of 
+any nonpecuniary benefits he consumes. Suppose the owner 
+sells a share of the firm, I-a (0 < a < 1), and retains for 
+himself a share, a. If the prospective buyer believes that the 
+owner-manager will consume the same level of nonpecuni-
+ary benefits as he did as full owner, the buyer will be willing 
+to pay (I-a)V* for a fraction, I-a, of the equity. Given that 
+an outsider now holds a claim to I-a of the equity, however, 
+the cost to the owner-manager of consuming $1 of nonpe-
+cuniary benefits in the firm will no longer be $1. Instead, it 
+will be a X $1. If the prospective buyer actually paid (I-a)V* 
+for his share of the equity, and if thereafter the manager 
+could choose whatever level of nonpecuniary benefits he 
+liked, his budget constraint would be VIP 1 in figure 1, with a 
+slope equal to -a. Including the payment the owner receives 
+from the buyer as part of the owner's post-sale wealth, his 
+budget constraint, VIP 1, must pass through D, since he can if 
+he wishes have the same wealth and level of nonpecuniary 
+consumption he consumed as full owner. 
+But if the owner-manager is free to choose the level of 
+perquisites, F, subject only to the loss in wealth he incurs as 
+22 Point D defines the fringe benefits in the optimal pay package, since the value to 
+the manager of the fringe benefits F* is greater than the cost of providing them, as 
+is evidenced by the fact that U 2 is steeper to the left of D than the budget constraint 
+with slope equal to -1. 
+That D is indeed the optimal pay package can easily be seen in this situation, 
+since if the conditions of the sale to a new owner specified that the manager would 
+receive no fringe benefits after the sale, he would require a payment equal to Va to 
+compensate him for the sacrifice of his claims to V* and fringe benefits amounting 
+to F* (the latter with total value to him of Va-V*). But if F = 0, the value of the 
+firm is only V. Therefore, if monitoring costs were zero, the sale would take place 
+at V* with provision for a pay package that included fringe benefits of F* for the 
+manager. 
+This discussion seems to indicate there are two values for the "firm," Va and V*. 
+This is not the case if we realize that V* is the value of the ri'ght to be the residual 
+claimant to the cash flows of the firm, and Va-V* is the value of the managerial 
+rights, i.e., the right to make the operating decisions, which include access to F*. 
+There is at least one other right that has value but plays no formal role in the 
+analysis as yet-the value of the control right. By control right we mean the right to 
+hire and fire the manager, and we leave this issue to a future paper. 
+
+180 I ECONOMICS AND SOCIAL INSTITUTIONS 
+a part owner, his welfare will be maximized by increasing his 
+consumption of nonpecuniary benefits. He will move to 
+point A, where V -.P 1 is tangent to U 1, representing a higher 
+level of utility. The value of the firm falls from V* to Vo, that 
+is, by the amount of the cost to the firm of the increased 
+nonpecuniary expenditures, and the owner-manager's con-
+sumption of nonpecuniary benefits rises from F* to FO. 
+If the equity market is characterized by rational expecta-
+tions, the buyers will be aware that the owner will increase 
+his nonpecuniary consumption when his ownership share is 
+reduced. If the owner's response function is known or if the 
+equity market makes unbiased estimates of the owner's re-
+sponse to the changed incentives, the buyer will not pay 
+(I-a)V* for I-a of the equity. 
+Theorem. 
+For a claim on the firm of I-a, the outsider will pay 
+only (I-a) times the value he expects the firm to have, given the 
+induced change in the behavior of the owner-manager. 
+Proof 
+For simplicity we ignore any element of uncertainty intro-
+duced by the lack of perfect knowledge of the owner-man-
+ager's response function. Such uncertainty will not affect the 
+final solution if the equity market is large as long as the 
+estimates are rational (i.e., unbiased) and the errors are in-
+dependent across firms. The latter condition assures that this 
+risk is diversifiable, and therefore equilibrium prices will 
+equal the expected values. 
+Let W represent the owner's total wealth after he has sold 
+a claim equal to I-a of the equity to an outsider. W has two 
+components. One is the payment, So, made by the outsider 
+for I-a of the equity; the rest, S j, is the value of the owner's 
+(i.e., insider's) share of the firm, so that W, the owner's 
+wealth, is given by 
+W = So+Si = So+aV(F, a), 
+where V(F, a) represents the value of the firm given that the 
+manager's fractional ownership share is a and that he con-
+sumes perquisites with current market value of F. Let VzPz, 
+with a slope of -a, represent the trade-off the owner-man-
+ager faces between nonpecuniary benefits and his wealth 
+
+JENSEN I MECKLING I THEORY OF THE FIRM I 181 
+after the sale. Given that the owner has decided to sell a 
+claim to I-a of the firm, his welfare will be maximized when 
+V2P2 is tangent to some indifference curve such as U3 in fig-
+ure 1. A price for a claim to I-a of the firm that is satisfac-
+tory to both the buye£ and the seller will require that this 
+tangency occur along VF-that is, that the value of the firm 
+be V'. To show this, assume that such is not the case-that 
+the tangency occurs to the left of the point B on the line VF. 
+Then, since the slope of V2P 2 is negative, the value of the 
+firm will be larger than V'. The owner-manager's choice of 
+this lower level of consumption of nonpecuniary benefits will 
+imply a higher value both to the firm as a whole and to the 
+fraction of the firm I-a that the outsider has acquired; that 
+is, (I-a)V' > So. From the owner's viewpoint, he has sold 
+I-a of the firm for less than he could have, given the (as-
+sumed) lower level of nonpecuniary benefits he enjoys. On 
+the other hand, if the tangency point B is to the right of the 
+line VF, the owner-manager's higher consumption of non-
+pecuniary benefits means the value of the firm is less than V', 
+and hence (I-aW(F, a) < So = (I-a)V'. The outside owner 
+then has paid more for his share of the equity than it is 
+worth. So will be a mutually satisfactory price if and only if 
+(I-aW' = So. But this means that the owner's postsale 
+wealth is equal to the (reduced) value of the firm V', since 
+W = So+aV' = (I-aW' +aV' = V'. 
+Q.E.D. 
+The requirement that V' and F' fall on VF is thus equiva-
+lent to requiring that the value of the claim acquired by the 
+outside buyer be equal to the amount he pays for it, and 
+conversely for the owner. This means that the decline in the total 
+value of the firm (V*-V') is entirely imposed on the owner-man-
+ager. His total wealth after the sale of I-a of the equity is V', 
+and the decline in his wealth is V*-V'. 
+The distance V*-V' is the reduction in the market value 
+of the firm engendered by the agency relationship and is a 
+measure of the "residual loss" defined earlier. In this simple 
+example the residual loss represents the total agency costs 
+engendered by the sale of outside equity because monitoring 
+and bonding activities have not been allowed. The welfare 
+loss the owner incurs is less than the residual loss by the value 
+
+1821 ECONOMICS AND SOCIAL INSTITUTIONS 
+to him of the increase in nonpecuniary benefits (F' -F*). In 
+figure 1 the difference between the intercepts on the Y axis 
+of the two indifference curves U 2 and U 3 is a measure of the 
+owner-manager's welfare loss due to the incurrence of 
+agency costs,23 and he would sell such a claim only if the 
+increment in welfare he achieves by using the cash amount-
+ing to (I-a)V' for other things was worth more to him than 
+this amount of wealth. 
+Optimal Scale of the Firm with All-Equity Financing 
+Consider the problem faced by an entrepreneur with initial 
+pecuniary wealth, W, and monopoly access to a project re-
+quiring investment outlay, I, subject to diminishing returns 
+to scale in I. Figure 2 portrays the solution to the optimal 
+scale of the firm, taking into account the agency costs associ-
+ated with the existence of outside equity. The axes are as 
+defined in figure 1 except we now plot on the vertical axis 
+the total wealth of the owner, that is, his initial wealth, W, 
+plus V (I) -I, the net increment in wealth he obtains from 
+exploitation of his investment opportunities. The market 
+value of the firm, V = V(I, F), is now a function of the 
+level of investment, I, and the current market value of the 
+manager's expenditures of the firm's resources on non-
+pecuniary benefits, F. Let V (I) represent the value of the 
+firm as a function of the level of investment when the 
+manager's expenditures on nonpecuniary benefits, F, are 
+zero. The schedule in figure 2 with intercept labeled 
+W + [V(I*)-I*] and slope equal to -1 represents the locus of 
+combinations of postinvestment wealth and dollar cost to the 
+firm of nonpecuniary benefits that are available to the man-
+ager when investment is carried to the value-maximizing 
+point, 1*. At this point t:..V(I)-AI = O. If the manager's 
+wealth were large enough to cover the investment required 
+to reach this scale of operation, 1*, he would consume F* in 
+nonpecuniary benefits and have pecuniary wealth with the 
+value W +V*-I*. However, if outside financing is required 
+23 The distance V*-V' is a measure of what we will call gross agency costs. The 
+distance V 3 -V. is a measure of what we call net agency costs, and it is this measure 
+of agency costs that will be minimized by the manager in the general case in which 
+we allow investment to change. 
+
+CIl 
+II: 
+=s 
+..... 
+JENSEN I MECKLING I THEORY OF THE FIRM I 183 
+EXPANSION PATH WITH 100"1. OWNERSHIP BY MANAGER 
+g 
+W+V!I)-I 
+~ 
+W+Vo-Io 
+! A{ W+Y'-I' 
+WT=W+Y-I 
+o 
+EXPANSION PATH WITH 
+FRACTIONAL 
+OWNERSHIP 
+BY MANAGER 
+F 
+MARKET VALUE OF THE STREAM OF MANAGER'S EXPENDITURES 
+ON NONPECUNIARY BENEFITS 
+Figure 2. Determination of the optimal scale of the firm in the case 
+where no monitoring takes place. Point C denotes optimum invest-
+ment, 1*, and nonpecuniary benefits, F*, when investment is 100 
+percent financed by the entrepreneur. Point D denotes optimum 
+investment, I', and nonpecuniary benefits, F, when outside equity 
+financing is used to help finance the investment and the entrepre-
+neur owns a fraction, (x' , of the firm. The distance A measures the 
+gross agency costs. 
+to cover the investment, he will not reach this point if moni-
+toring costs are nonzero. 24 
+24 1* is the value-maximizing and Pareto-optimum investment level that results from 
+the traditional analysis of the corporate investment decision if the firm operates in 
+perfectly competitive capital and product markets and the agency cost problems 
+discussed here are ignored. See G. Debreu, Theory of Value (New York: Wiley, 
+1959), chap. 7; M. C. Jensen and J. B. Long, "Corporate Investment under Uncer-
+tainty and Pareto Optimality in the Capital Markets," Bell Journal of Ecorwmics and 
+Management Science 3 (1972): 151-74; J. B. Long, "Wealth, Welfare, and the Price 
+
+1841 ECONOMICS AND SOCIAL INSTITUTIONS 
+The expansion path OZBC represents the equilibrium 
+combinations of wealth and nonpecuniary benefits, F, that 
+the manager could obtain if he had enough personal wealth 
+to finance all levels of investment up to 1*. It is the locus of 
+points such as Z and C that represent the equilibrium posi-
+tion for the 100 percent owner-manager at each possible 
+level of investment, I. As I increases, we move up the expan-
+sion path to the point C, where V(l)-I is at a maximum. 
+Additional investment beyond this point reduces the net 
+value of the firm, and as it does, the equilibrium path of the 
+manager's wealth and nonpecuniary benefits retraces (in the 
+reverse direction) the curve OZBC. We draw the path as a 
+smooth concave function only as a matter of convenience. 
+If the manager obtained outside financing and if there 
+were zero costs to the agency relationship (perhaps because 
+monitoring costs were zero), the expansion path would also 
+be represented by OZBC. Therefore, this path represents 
+what we might call the "idealized" solutions, that is, those 
+which would occur in the absence of agency costs. 
+Assume the manager has sufficient personal wealth to 
+completely finance the firm only up to investment level II, 
+which puts him at pointZ. At this point W = II' To increase 
+the size of the firm beyond this point he must obtain outside 
+financing to cover the additional investment required, and 
+this means reducing his fractional ownership. When he does 
+this he incurs agency costs, and the lower is his ownership 
+fraction, the larger are the agency costs he incurs. However, 
+if the investments requiring outsi<;le financing are sufficiently 
+profitable, his welfare will continue to increase. 
+The expansion path ZEDHL in figure 2 portrays one pos-
+sible path of the equilibrium levels of the owner's nonpecu-
+niary benefits and wealth at each possible level of investment 
+higher than I l' This path is the locus of points such as E or D 
+where (1) the manager's indifference curve is tangent to a 
+line with slope equal to -a (his fractional claim on the firm 
+of Risk,"Journal oj Fznance 27 (1972): 485-88; R. C. Merton and M. C. Subrahman-
+yam, "The Optimality of a Competitive Stock Market," BeliJournal of Economics and 
+Management Science 5 (1974): 145-70; J. Hirschleifer, "On the Theory of Optimal 
+Investment Decisions," Journal of Political Economy 66 (1958): 329-52; idem, Invest-
+ment, Interest, and Capital (Englewood Cliffs, N .J.: Prentice-Hall, 1970); E. F. Fama 
+and M. Miller, The Theory of Finance (New York: Holt, Rinehart & Winston, 1972). 
+
+JENSEN I MECKLING I THEORY OF THE FIRM I 185 
+at that level of investment), and (2) the tangency occurs on 
+the "budget constraint" with slope = -1 for the firm value 
+and nonpecuniary benefit trade-off at the same level of in-
+vestment.25 As we move along ZEDHL, his fractional claim 
+on the firm continues to fall as he raises larger amounts of 
+outside capital. This expansion path represents his complete 
+opportunity set for combinations of wealth and nonpecuni-
+ary benefits given the existence of the costs of the agency 
+relationship with the outside equity holders. Point D, where 
+this opportunity set is tangent to an indifference curve, rep-
+resents the solution that maximizes his welfare. At this point, 
+the level of investment isI', his fractional ownership share in 
+the firm is ex', his wealth is W +V' -1', and he consumes a 
+stream of nonpecuniary benefits with current market value 
+of F'. The gross agency costs (denoted by A) are equal to 
+(V*-I*)-(V' -I'). Given that no monitoring is possible, I' is 
+the socially optimal level of investment as well as the privately 
+optimal level. 
+We can characterize the optimal level of investment as that 
+point, 1', which satisfies the following condition for small 
+changes: 
+!lV -flJ +ex' flF = O. 
+(1) 
+!lV -flJ is the change in the net market value of the firm, and 
+ex' flF is the dollar value to the manager of the incremental 
+25 Each equilibrium po in t such as that at E is characterized by (ii. ft, IV T), where W T is 
+the entrepreneur's postinvestment financing wealth. Such an equilibrium must sat-
+isfy each of the following four conditions: 
+(1) 
+WT+F = V(l)+W-I = V(/)-K, 
+whereK =1 -W is the amount of outside financing required to make the investment 
+I. If this condition is not satisfied, there is an uncompensated wealth transfer (in 
+one direction or the other) between the entrepreneur and outside equity buyers. 
+(2) 
+U .{W T, ft)IUw (W T. ft) = ii, 
+T 
+where U is the entrepreneur's utility function on wealth and perquisites, U F and 
+U ware marginal utilities, and ii is the manager's share of the firm. 
+(3/ 
+(1-ii)V(l) = (1-ii)[V(/)-ft] ~K, 
+which says the funds received from outsiders are at least equal to K. the minimum 
+required outside financing. 
+(4) 
+Among all points (ii, ft, J-tr T) satisfying conditions (1)-(3), (a, F, W~) gives the 
+manager highest utility. This implies that (ii, ft, W T) satisfy condition (3) as an 
+equality. 
+
+1861 ECONOMICS AND SOCIAL INSTITUTIONS 
+fringe benefits he consumes (which cost .!.he firm ~ 
+dollars).26 Furthermore, recognizing that V = V -F, where V 
+is the value of the firm at any level of investment whenF = 0, 
+we can substitute into the optimum condition to get 
+(AV -LV)-(l-a')AF = ° 
+(3) 
+as an alternative expression for determining the optimum 
+level of investment. 
+The idealized or zero agency cost solution, 1*, is given by 
+the condition AV -LV = 0; and since AF is positive, the actual 
+welfare-m~ximizing level of investment I I will be less than 1*, 
+because AV -AI must be positive at I' if (3) is to be satisfied. 
+Since -a' is the slope of the indifference curve at the opti-
+mum and therefore represents the manager's demand price 
+for incremental nonpecuniary benefits, AF, we know that 
+a ' AF is the dollar value to him of an increment of fringe 
+benefits costing the firm AF dollars. The term (l-a ' )AF thus 
+measures the dollar "loss" to the firm (and himself) of an 
+additional AF dollars spent on nonpecuniary benefits. The 
+term AV -LV is the gross increment in the value of the firm, 
+ignoring any changes in the consumption of nonpecuniary 
+benefits. Thus, the manager stops increasing the size of the 
+firm when the gross increment in value is just offset by the 
+incremental "loss" involved in the consumption of additional 
+fringe benefits due to his declining fractional interest in the 
+firm.27 
+26 Proof Note that the slope of the expansion path (or locus of equilibrium points) at 
+any point is (AV -t:1/)/AF, and at the optimum level of investment this must be equal 
+to the slope of the manager's indifference curve between wealth and the market 
+value of fringe benefits, F. Furthermore, in the absence of monitoring, the slope of 
+the indifference curve, AW/AF, at the equilibrium point, D, must be equal to -01'. 
+Thus, 
+(AV -A/)/AF = -01' 
+(2) 
+is the condition for the optimal scale of investment, and this implies that condition 
+(I) holds for small changes at the optimum level of investment,/'. 
+27 Since the manager's indifference curves are negatively sloped, we know that the 
+optimum scale of the firm, point D, will occur in the region where the expansion 
+path has negative slope; i.e., the market value of the firm will be declining and the 
+gross agency costs, A, will be increasing, and thus the manager will not minimize 
+them in making the investment decision (even though he will minimize them for 
+any given level of investment). However, we define the net agency cost as the dollar 
+equivalent of the welfare loss the manager experiences because of the agency rela· 
+
+JENSEN I MECKLING I THEORY OF THE FIRM I 187 
+The Role of Monitoring and Bonding Activities in 
+Reducing Agency Costs 
+In the above analysis we have ignored the potential for con-
+trolling the behavior of the owner-manager through moni-
+toring and other control activities. In practice, it is usually 
+possible by expending resources to alter the opportunity the 
+owner-manager has for capturing nonpecuniary benefits. 
+These methods include auditing, formal control systems, 
+budget restrictions, and the establishment of incentive com-
+pensation systems that serve to identify the manager's inter-
+ests more closely with those of the outside equity holders, 
+etc. Figure 3 portrays the effects of monitoring and other 
+control activities in the simple situation portrayed in figure 
+1. The two figures are identical except for the curve BeE in 
+figure 3, which depicts a "budget constraint" derived when 
+monitoring possibilities are taken into account. Without 
+monitoring, and with outside equity of I-a, the value of the 
+firm will be V' and nonpecuniary expenditures F'. By incur-
+ring monitoring costs, M, the equity holders can restrict the 
+manager's consumption of perquisites to amounts less than 
+F'. Let F(M, a) denote the maximum perquisites the man-
+ager can consume for alternative levels of monitoring expen-
+ditures, M, given his ownership share a. We assume that 
+increases in monitoring reduce F, and reduce it at a decreas-
+ing rate; that is, fJFI8M < 0 and fJ 2F1fJM 2 > O. 
+Since the current value of expected future monitoring ex-
+penditures by the outside equity holders reduces the value to 
+them, dollar for dollar, of any given claim on the firm, the 
+outside equity holders will take this into account in determin-
+tionship evaluated at F = 0 (the vertical distance between the intercepts on the Y 
+axis of the two indifference curves on which points C and D lie). The optimum 
+solution, J', does satisfy the condition that net agency costs are minimized. But this 
+simply amounts to a restatement of the assumption that the manager maximizes his 
+welfare. 
+Finally, it is possible for the solution point D to be a corner solution, and in this 
+case the value of the firm will not be declining. Such a corner solution can occur, 
+for instance, if the manager's marginal rate of substitution between F and wealth 
+falls to zero fast enough as we move up the expansion path or if the investment 
+projects are "sufficiently" profitable. In these cases the expansion path will have 
+a corner that lies on the maximum-value budget constraint with intercept 
+V(f*)-J*, and the level of investment will be equal to the idealized optimum, J*. 
+However, the market value of the residual claims will be less than V* because the 
+manager's consumption of perquisites will be larger than F*, the zero agency cost 
+level. 
+
+1881 ECONOMICS AND SOCIAL INSTITUTIONS 
+:I: 
+!:i « 
+w s: 
+c z « 
+w 
+:::l 
+..J « 
+> 
+::!; 
+0: 
+u:: 
+V 
+V" 
+V' 
+F* 
+F 
+MARKET VALUE OF MANAGER'S EXPENDITURES ON 
+NONPECUNIARY BENEFITS 
+Figure 3. The value of the firm, V, and level of nonpecuniary 
+benefits, F, when outside equity is I-a; U h U 2, U 3 represent 
+owner's indifference curves between wealth and nonpecuniary 
+benefits; and monitoring (or bonding) activities impose opportu-
+nity set BeE as the trade-off constraint facing the owner. 
+ing the maximum price they will pay for any given fraction 
+of the firm's equity. Therefore, given positive monitoring 
+activity, the value of the firm is given by V = V -F(M, a)-M, 
+and the locus of these points for various levels of M and for 
+a given level of a lie on the line BCE in figure 3. The vertical 
+difference between the VF and BCE curves is M, the current 
+market value of the future monitoring expenditures. 
+If it is possible for the outside equity holders to make these 
+monitoring expenditures and thereby to impose the reduc-
+tions in the owner-manager's consumption of F, he will vol-
+untarily enter into a contract with the outside equity holders 
+that gives them the rights to restrict his consumption of non-
+pecuniary items to F". He finds this desirable because it will 
+cause the value of the firm to rise to V". Given the contract, 
+the optimal monitoring expenditure on the part of the out-
+
+JENSEN I MECKLING I THEORY OF THE FIRM I 189 
+siders, M, is the amount D-C. The entire increase in. the 
+value of the firm that accrues will be reflected in the owner's 
+wealth, but his welfare will be increased by less than this 
+because he forgoes some nonpecuniary benefits he previ-
+ouslyenjoyed. 
+If the equity market is competitive and makes unbiased 
+estimates of the effects of the monitoring expenditures on F 
+and V, potential buyers will be indifferent between the fol-
+lowing two contracts: 
+(i) Purchase of a share I -a of the firm at a total price of 
+(l-a)V' and no rights to monitor or control the man-
+ager's consumption of perquisites 
+(ii) Purchase of a share I -a of the firm at a total price of 
+(l-a)V" and the right to expend resources up to an 
+amount equal to D -C that will limit the owner-man-
+ager's consumption of perquisites to F" 
+Given contract (ii) the outside shareholders would find it 
+desirable to monitor to the full rights of their contract be-
+cause it will pay them to do so. However, if the equity market 
+is competitive, the total benefits (net of the monitoring costs) 
+will be capitalized into the price of the claims. Thus, not 
+surprisingly, the owner-manager reaps all the benefits of the 
+opportunity to write and sell the monitoring contract. 28 
+An Analysis of Bonding Expenditures 
+We can also see from the analysis of figure 3 that it makes no 
+difference who actually makes the monitoring expend i-
+28 The careful reader will note that point C will be the equilibrium point only if the 
+contract between the manager and outside equityholders specifies with no ambi-
+guity that they have the right to monitor in order to limit his consumption of 
+perquisites to an amount no less than F". If there is any ambiguity in this contract 
+regarding these rights, then there arises another source of agency costs that is 
+symmetrical to our original problem. If they could do so, the outside equityholders 
+would monitor to the point where the net value of their holdings, (l-a)V -M, was 
+maximized, and this would occur when (aV/aM)(l-a)-l = 0, which would be at 
+some point between points C and E in fig. 3. Point E denotes the point where the 
+value of the firm net of the monitoring costs is at a maximum, i.e., where aV 10M - 1 
+= O. But the manager would be worse-off than in the zero-monitoring solution if 
+the maximum point for (l-a)V -M were to the left of the intersection between 
+BCE and the indifference curve Va passing through point B (which denotes the 
+zero-monitoring level of welfare). Thus, if the manager could not eliminate enough 
+of the ambiguity in the contract to push the equilibrium to the right of the intersec-
+tion of the curve BCE with indifference curve Va, he would not engage in any 
+contract that allowed monitoring. 
+
+190 I ECONOMICS AND SOCIAL INSTITUTIONS 
+tures-in all cases, the owner bears the full amount of these 
+costs as a wealth reduction. Suppose that the owner-man-
+ager could expend resources to guarantee to the outside eq-
+uity holders that he would limit his activities that cost the 
+firm F. We call these expenditures bonding costs, and they 
+would take such forms as contractual guarantees to have the 
+financial accounts audited by a public accountant, explicit 
+bonding against malfeasance on the part of the manager, 
+and contractual limitations on the manager's decision-mak-
+ing power (which limitations impose costs on the firm be-
+cause they reduce his ability to take full advantage of some 
+profitable opportunities, as well as limiting his ability to harm 
+the stockholders while making himself better-off). 
+If the incurrence of the bonding costs were entirely under 
+the control of the manager and if they yielded for him the 
+same opportunity set BCE in figure 3, he would incur them 
+in amount D -c. This would limit his consumption of per-
+quisites to F" from F', and the solution is exactly the same as 
+if the outside equity holders had performed the monitoring. 
+The manager finds it in his interest to incur these costs as 
+long as the net increments in his wealth that they generate 
+(by reducing the agency costs and therefore increasing the 
+value of the firm) are more valuable than the perquisites 
+given up. This optimum occurs at point C in both cases 
+under our assumption that the bonding expenditures yield 
+the same opportunity set as the monitoring expenditures. In 
+general, of course, it will pay the owner-manager to engage 
+in bonding activities and to write contracts that allow moni-
+toring as long as the marginal benefits of each are greater 
+than their marginal cost. 
+Optimal Scale of the Firm with Monitoring and Bonding Activities 
+If we allow the outside owners to engage in (costly) monitor-
+ing activities to limit the manager's expenditures on nonpe-
+cuniary benefits and we allow the manager to engage in 
+bonding activities to guarantee to the outside owners that he 
+will limit his consumption of F, we get an expansion path 
+such as that on which Z and G lie in figure 4. We have as-
+sumed in drawing figure 4 that the cost functions involved 
+in monitoring and bonding are such that some positive levels 
+of the activities are desirable-that is, yield benefits greater 
+than their cost. If this is not true, the expansion path gener-
+
+JENSEN I MECKLING I THEORY OF THE FIRM I 191 
+ated by the expenditure of resources on these activities 
+would lie below ZD, and no su.ch activity would take place at 
+any level of investment. Points Z, C, and D and the two ex-
+pansion paths on which they lie are identical to those por-
+trayed in figure 2. Points Z and C lie on the 100 percent 
+ownership expansion path, and points Z and D lie on the 
+fractional ownership, zero-monitoring and bonding activity 
+expansion path. 
+The path on which points Z and G lie is the one given by 
+the locus of equilibrium points for alternative levels of in-
+vestment characterized in figure 3 by the point labeled C, 
+which denotes the optimal level of monitoring and bonding 
+activity and the resulting values of the firm and nonpecuni-
+ary benefits to the manager given a fixed level of investment. 
+If any monitoring or bonding is cost effective, the expansion 
+path on which Z and G lie must over some range be above 
+the nonmonitoring expansion path. Furthermore, if it lies 
+anywhere to the right of the indifference curve passing 
+through point D (the zero monitoring-bonding solution), 
+the final solution to the problem will involve positive 
+amounts of monitoring or bonding activities. Based on the 
+discussion above, we know that as long as the contracts be-
+tween the manager and outsiders are unambiguous regard-
+ing the rights of the respective parties, the final solution will 
+be at that point where the new expansion path is just tangent 
+to the highest indifference curve. At this point the optimal 
+levels of monitoring and bonding expenditures are M" and 
+b"; the manager's postinvestment-financing wealth is given 
+by W +V"-I"-M"-b", and his nonpecuniary benefits are F". 
+The total gross agency costs, A, are given by A (M", b", a", 
+I") = (V*-I*)-(V"-I"-M"-b"). 
+Pareto Optimality and Agency Costs in 
+Manager-Operated Firms 
+In general we expect to observe both bonding and external 
+monitoring activities, and the incentives are such that the 
+levels of these activities will satisfy the conditions of effi-
+ciency. They will not, however, result in the firm being run 
+in a manner so as to maximize its value. The difference be-
+tween V*, the efficient solution under zero monitoring and 
+bonding costs (and therefore zero agency costs), and V", the 
+value of the firm given positive monitoring costs, is the total 
+
+1921 ECONOMICS AND SOCIAL INSTITUTIONS 
+gross agency costs defined earlier in the introduction. These 
+are the costs of the "separation of ownership and control," 
+which Adam Smith focused on in the passage quoted at the 
+beginning of this paper and which Berle and Means pop-
+ularized 157 years later.29 The solutions outlined above to 
+our highly simplified problem imply that agency costs will be 
+positive as long as monitoring costs are positive-which they 
+certainly are. 
+The reduced value of the firm caused by the manager's 
+consumption of perquisites outlined above is "nonoptimal" 
+or inefficient only in comparison to a world in which we 
+could obtain compliance of the agent to the principal's wishes 
+at zero cost or in comparison to a hypothetical world in which 
+the agency costs were lower. But these costs (monitoring and 
+bonding costs and "residual loss") are an unavoidable result 
+of the agency relationship. Furthermore, since they are 
+borne entirely by the decision maker (in this case, the origi-
+nal owner) responsible for creating the relationship, he has 
+the incentives to see that they are minimized (because he 
+captures the benefits from their reduction). In addition, 
+these agency costs will be incurred only if the benefits to the 
+owner-manager from their creation are great enough to 
+outweigh them. In our current example these benefits arise 
+from the availability of profitable investments requiring cap-
+ital investment in excess of the original owner's personal 
+wealth. 
+In conclusion, finding that agency costs are nonzero (i.e., 
+that there are costs associated with the separation of owner-
+ship and control in the corporation) and concluding there-
+from that the agency relationship is nonoptimal, wasteful, or 
+inefficient is equivalent in every sense to comparing a world 
+in which iron ore is a scarce commodity (and therefore 
+costly) to a world in which it is freely available at zero re-
+source cost and concluding that the first world is "nonopti-
+mal"-a perfect example of the fallacy criticized by Coase 
+and what Demsetz characterizes as the "Nirvana" form of 
+analysis. 30 
+29 A. A. Berle, Jr., and G. C. Means, The Modern Corporation and Private Property (New 
+York: Macmillan, 1932). 
+30 R. H. Coase, "Discussion," American Economic Review 54 (1964): 194-97; H. Dem-
+
+en 
+a: 
+~ 
+o 
+~ 
+z 
+W+[V(I"j-I"] 
+W+V"-I" 
+JENSEN I MECKLING I THEORY OF THE FIRM I 193 
+EXPANSION PATH WITH 100% OWNERSHIP BY MANAGER 
+EXPANSION PATH WITH FRACTIONAL MANAGERIAL 
+OWNERSHIP AND MONITORING AND BONDING 
+ACTIVITIES 
+~ W+Vtl-I"-M'I-b" 
+a: 
+EXPANSION PATH WITH 
+FRACTIONAL MANAGERIAL 
+OWNERSHIP BUT NO 
+MONITORING OR 
+BONDING ACTIVITIES 
+:::> 
+u 
+W+V'-I' 
+F" F" 
+MARKET VALUE OF THE STREAM OF MANAGER'S EXPENDITURES ON 
+NONPECUNIARY BENEFITS 
+Figure 4. Determination of optimal scale of the firm allowing for 
+monitoring and bonding activities. Optimal monitoring costs are 
+M"; bonding costs are b"; and the equilibrium scale of firm, man-
+ager's wealth, and consumption of nonpecuniary benefits are at 
+pointG. 
+Factors Affecting the Size of the Divergence from 
+Ideal Maximization 
+The magnitude of the agency costs discussed above will vary 
+from firm to firm. It will depend on the tastes of managers, 
+the ease with which they can exercise their own preferences 
+setz, "Information and Efficiency: Another Viewpoint," Journal of Law and Eco-
+nomics 12 (1969): 1-22. 
+If we could establish the existence of a feasible set of alternative institutional 
+arrangements that would yield net benefits from the reduction of these costs, we 
+could legitimately conclude that the agency relationship engendered by the corpo-
+ration was not Pareto-optimal. However, we would then be left with the problem of 
+explaining why these alternative institutional arrangements have not replaced the 
+corporate form of organization. 
+
+1941 ECONOMICS AND SOCIAL INSTITUTIONS 
+as opposed to value maximization in decision making, and 
+the costs of monitoring and bonding activities. 3 ! The agency 
+costs will also depend upon the cost of measuring the man-
+ager's (agent's) performance and evaluating it, the cost of 
+devising and applying an index for compensating the man-
+ager that correlates with the owner's (principal's) welfare, 
+and the cost of devising and enforcing specific behavioral 
+rules or policies. Where the manager has less than a control-
+ling interest in the firm, these costs will also depend upon 
+the market for managers. Competition from other potential 
+managers limits the costs of obtaining managerial services 
+(including the extent to which a given manager can diverge 
+from the idealized solution that would obtain if all monitor-
+ing and bonding costs were zero). The size of the divergence 
+(the agency costs) will be directly related to the cost of replac-
+ing the manager. If his responsibilities require very little 
+knowledge specialized to the firm, if it is easy to evaluate his 
+performance, and if replacement search costs are modest, 
+t~e divergence from the ideal will be relatively small, and 
+VIce versa. 
+The divergence will also be constrained by the market for 
+the firm itself, that is, by capital markets. Owners always have 
+the option of selling their firm, either as a unit or piecemeal. 
+Owners of manager-operated firms can and do sam pIe the 
+capital market from time to time. If they discover that the 
+value of the future earnings stream to others is higher than 
+the value of the firm to them given that it is to be manager-
+operated, they can exercise their right to sell. It is conceiv-
+able that other owners could be more efficient at monitoring 
+or even that a single individual with appropriate managerial 
+talents and with sufficiently large personal wealth would 
+elect to buy the firm. In this latter case the purchase by such 
+a single individual would completely eliminate the agency 
+costs. If there were a number of such potential owner-man-
+ager purchasers (all with talents and tastes identical to the 
+current manager), the owners would receive in the sale price 
+of the firm the full value of the residual claimant rights, 
+31 The monitoring and bonding costs will differ from firm to firm depending on such 
+things as the inherent complexity and geographical dispersion of operations, the 
+attractiveness of perquisites available in the firm (consider the mint), etc. 
+
+JENSEN I MECKLING I THEORY OF THE FIRM I 195 
+including the capital value of the eliminated agency costs 
+plus the value of the managerial rights. 
+It is frequently argued that the existence of competition in 
+product (and factor) markets will constrain the behavior of 
+managers to idealized value maximization, that is, that mo-
+nopoly in product (or monopsony in factor) markets will 
+permit larger divergences from value maximization. 32 Our 
+analysis does not support this hypothesis. The owners of a 
+firm with monopoly power have the same incentives to limit 
+divergences of the manager from value maximization (i.e., 
+the ability to increase their wealth) as do the owners of com-
+petitive firms. Furthermore, competition in the market for 
+managers will generally make it unnecessary for the owners 
+to share rents with the manager. The owners of a monopoly 
+firm need only pay the supply price for a manager. 
+Since the owner of a monopoly has the same wealth incen-
+tives to minimize managerial costs as would the owner of a 
+competitive firm, both will undertake that level of monitor-
+ing which equates the marginal cost of monitoring to the 
+marginal wealth increment from reduced consumption of 
+perquisites by the manager. Thus, the existence of monopoly 
+will not increase agency costs. 
+Furthermore, the existence of competition in product and 
+factor markets will not eliminate the agency costs due to 
+managerial control problems, as has often been asserted. 33 If 
+my competitors all incur agency costs equal to or greater 
+than mine, I will not be eliminated from the market by their 
+competition. 
+32 See, for example, Williamson, Discretionary Behavior: 
+"Where competitors are numerous and entry is easy, persistent departures from 
+profit maximizing behavior inexorably leads to extinction. Economic natural selec-
+tion holds the stage. In these circumstances, the behavior of the individual units 
+that constitute the supply side of the product market is essentially routine and 
+uninteresting and economists can confidently predict industry behavior without 
+being explicitly concerned with the behavior of these individual units. 
+"When the conditions of competition are relaxed, however, the opportunity set 
+of the firm is expanded. In this case, the behavior of the firm as a distinct operating 
+unit is of separate interest. Both for purposes of interpreting particular behavior 
+within the firm as well as for predicting responses of the industry aggregate, it may 
+be necessary to identify the factors that influence the firm's choices within this 
+expanded opportunity set and embed these in a formal model." [Po 2] 
+33 For example, M. Friedman, "The Social Responsibility of Business Is to Increase 
+Its Profits," New York Times Magazine, Sept. 13, 1970, pp. 32 ff. 
+
+196/ ECONOMICS AND SOCIAL INSTITUTIONS 
+The existence and size of the agency costs depend on the 
+nature of the monitoring costs, the tastes of managers for 
+nonpecuniary benefits, and the supply of potential managers 
+who are capable of financing the entire venture out of their 
+personal wealth. If monitoring costs are zero, agency costs 
+will be zero; or if there are enough 100 percent owner-man-
+agers available to own and run all the firms in an industry 
+(competitive or not), th.en agency costs in that industry will 
+also be zero.34 
+3. Some Unanswered Questions Regarding the Existence 
+of the Corporate Form 
+The Question 
+The analysis up to this point has left us with a basic puzzle: 
+Why, given the existence of positive costs of the agency rela-
+tionship, do we find so widely prevalent the usual corporate 
+form of organization with widely diffuse ownership? If one 
+takes seriously much of the literature regarding the "discre-
+tionary" power held by managers of large corporations, it is 
+difficult to understand the historical fact of enormous 
+growth in equity in such organizations, not only in the 
+United States, but throughout the world. Paraphrasing AI-
+chian: How does it happen that millions of individuals are 
+willing to turn over a significant fraction of their wealth to 
+organizations run by managers who have so little interest in 
+their welfare? What is even more remarkable, Why are they 
+willing to make these commitments purely as residual claim-
+ants, that is, on the anticipation that managers will operate 
+the firm so that earnings will accrue to the stockholders?35 
+There is certainly no lack of alternative ways that individ-
+uals might invest, including entirely different forms of or-
+ganizations. Even if consideration is limited to corporate or-
+ganizations, there are clearly alternative ways capital might 
+be raised-through fixed claims of various sorts, bonds, 
+notes, mortgages, etc. Moreover, the corporate income tax 
+34 Assuming there are no special tax benefits to ownership nor utility of ownership 
+other than that derived from the direct wealth effects of ownership, such as might 
+be true for professional sports teams, race horse stables, firms that carry the family 
+name, etc. 
+35 Alchian, "Corporate Management." 
+
+JENSEN I MECKLING I THEORY OF THE FIRM I 197 
+seems to favor the use of fixed claims since interest is treated 
+as a tax-deductible expense. Those who assert that managers 
+do not behave in the interest of stockholders have generally 
+not addressed a very important question: Why, if non-man-
+ager-owned shares have such a serious deficiency, have they 
+not long since been driven out by fixed claims?36 
+Some Alternative Explanations of the Ownership 
+Structure of the Firm 
+The Role of Limited Liability 
+Manne and Alchian and Demsetz argue that one of the at-
+tractive features of the corporate form vis-a-vis individual 
+proprietorships or partnerships is the limited liability of eq-
+uity claims in corporations. Without this provision, each and 
+every investor purchasing one or more shares of a corpora-
+tion would be potentially liable for the debts of the corpora-
+tion to the full extent of his personal wealth. Few individuals 
+would find this a desirable risk to accept, and the major 
+benefits to be obtained from risk reduction through diversi-
+fication would be to a large extent unobtainable. 37 This ar-
+gument, however, is incomplete, since limited liability does 
+not eliminate the basic risk-it merely shifts it. The argu-
+ment must rest ultimately on transactions costs. If all stock-
+holders of GM were liable for GM's debts, the maximum 
+liability for an individual shareholder would be greater than 
+if his shares had limited liability. However, given that many 
+other stockholders also existed and that each was liable for 
+the unpaid claims in proportion to his ownership, it is highly 
+unlikely that the maximum payment each would have to 
+make would be large in the event of GM's bankruptcy, since 
+the total wealth of those stockholders would also be large. 
+Nevertheless, the existence of unlimited liability would im-
+pose incentives for each shareholder to keep track of both 
+the liabilities of GM and the wealth of the other GM owners. 
+It is easily conceivable that the costs of so doing would, in the 
+aggregate, be much higher than simply paying a premium in 
+36 Marris, Managerial Capitalism, pp. 7-9, is the exception, although he argues that 
+there exists some "maximum leverage point" beyond which the chances of "insol-
+vency" are in some undefined sense too high. 
+37 H. G. Manne, "Our Two Corporate Systems: Law and Economics," Virginia Law 
+Review 53 (1967): 259-84; Alchian and Demsetz, "Production." 
+
+1981 ECONOMICS AND SOCIAL INSTITUTIONS 
+the form of higher interest rates to the creditors of GM in 
+return for their acceptance of a contract granting limited 
+liability to the shareholders. The creditors would then bear 
+the risk of any nonpayment of debts in the event of GM's 
+bankru ptcy. 
+It is also not generally recognized that limited liability is 
+merely a necessary condition, not a sufficient condition, for 
+explaining the magnitude of the reliance on equities. Ordi-
+nary debt also carries limited liability. 38 If limited liability is 
+all that is required, why don't we observe large corporations, 
+individually owned, with a tiny fraction of the capital sup-
+plied by the entrepreneur and the rest simply borrowed?39 
+At first this question seems silly to many people (as does the 
+question regarding why firms would ever issue debt or pre-
+ferred stock under conditions where there are no tax bene-
+fits obtained from the treatment of interest or preferred-
+dividend payments40). We have found that oftentimes this 
+question is misinterpreted to be one regarding why firms 
+obtain capital. The issue is not why they obtain capital but 
+why they obtain it through the particular forms we have 
+38 By limited liability we mean the same conditions that apply to common stock. Sub-
+ordinated debt or preferred stock could be constructed so as to carry with it liability 
+provisions; i.e., if the corporation's assets were insufficient at some point to payoff 
+all prior claims (trade credit, accrued wages, senior debt, etc.) and if the personal 
+resources of the "equityholders" were also insufficient to cover these claims, the 
+holders of this "debt" would be subject to assessments beyond the face value of 
+their claim (assessments that might be limited or unlimited in amount). 
+39 Alchian and Demsetz, "Production," p. 709, argue that one can explain the exis-
+tence of both bonds and stock in the ownership structure of firms as the result of 
+differing expectations regarding the outcomes for the firm. They argue that bonds 
+are created and sold to "pessimists" and stocks with a residual claim with no upper 
+bound are sold to "optimists." 
+As long as capital markets are perfect with no taxes or transactions costs and 
+individual investors can issue claims on distributions of outcomes on the same terms 
+as firms, such actions on the part of firms cannot affect their values. The reason is 
+simple. Suppose such "pessimists" did exist and yet the firm issues only equity 
+claims. The demand for those equity claims would reflect the fact that the individ-
+ual purchaser could on his own account issue "bonds" with a limited and prior 
+claim to the distribution of ontcomes on the equity that is exactly the same as that 
+which the firm could issue. Similarly, investors could easily un lever any position by 
+simply buying a proportional claim to both the bonds and stocks of a levered firm. 
+Therefore, a levered firm could not sell at a different price than an unlevered firm 
+solely because of the existence of such differential expectations. See Fama and 
+Miller, Theory of Finance, chap. 4, for an excellent exposition of these issues. 
+40 Corporations did use both prior to the institution of the corporate income tax in 
+the United States, and preferred dividends have never, with minor exceptions, 
+been tax-deductible. 
+
+JENSEN I MECKLING I THEORY OF THE FIRM I 199 
+observed for such long periods of time. The fact is that no 
+well-articulated answer to this question currently exists in the 
+literature of either finance or economics. 
+The "Irrelevance" of Capital Structure 
+In their pathbreaking 1958 article on the cost of capital, 
+Modigliani and Miller demonstrated that in the absence of 
+bankruptcy costs and tax subsidies on the payment of inter-
+est, the value of the firm is independent of the financial 
+structure. They later demonstrated that the existence of tax 
+subsidies on interest payments would cause the value of the 
+firm to rise with the amount of debt financing by the amount 
+of the capitalized value of the tax subsidy.41 But this line of 
+argument implies that the firm should be financed almost 
+entirely with debt. Realizing the inconsistency with observed 
+behavior, Modigliani and Miller commented: 
+It may be useful to remind readers once again that the exis-
+tence of a tax advantage for debt financing ... does not nec-
+essarily mean that corporations should at all times seek to use 
+the maximum amount of debt in their capital structures .... 
+there are as we pointed out, limitations imposed by lenders 
+... as well as many other dimensions (and kinds of costs) in 
+real-world problems of financial strategy which are not fully 
+comprehended within the framework of static equilibrium 
+models, either our own or those of the traditional variety. 
+These additional considerations, which are typically grouped 
+under the rubric of "the need for preserving flexibility," will 
+normally imply the maintenance by the corporation of a sub-
+stantial reserve of untapped borrowing power.42 
+Modigliani and Miller are essentially left without a theory of 
+the determination of the optimal capital structure, and Fama 
+and Miller, commenting on the same issue, reiterate this con-
+clusion: 
+And we must admit that at this point there is little in the way 
+of convincing research, either theoretical or empirical, that 
+explains the amounts of debt that firms do decide to have in 
+their capital structure.43 
+41 F. Modigliani and M. H. Miller, "The Costs of Capital, Corporation Finance, and 
+the Theory of Investment," American Economic Review 48 (1958): 261-97; idem, 
+"Corporate Income Taxes and the Cost of Capital," ibid., 53 (1963): 433-43. 
+42 Modigliani and Miller, "Corporate Income Taxes," p. 442. 
+43 Fama and Miller, Theory of Finance, p. 173. 
+
+200 I ECONOMICS AND SOCIAL INSTITUTIONS 
+The Modigliani-Miller theorem is based on the assump-
+tion that the probability distribution of the cash flows to the 
+firm is independent of the capital structure. It is now recog-
+nized that the existence of positive costs associated with 
+bankruptcy and the presence of tax subsidies on corporate 
+interest payments will invalidate this irrelevance theorem 
+precisely because the probability distribution of future cash 
+flows changes as the probability of the incurrence of the 
+bankruptcy costs changes, that is, as the ratio of debt to eq-
+uity rises. We believe the existence of agency costs provides 
+stronger reasons for arguing that the probability distribution 
+of future cash flows is not independent of the capital, or 
+ownership, structure. 
+While the introduction of bankruptcy costs in the presence 
+of tax subsidies leads to a theory that defines an optimal 
+capital structure,44 we argue that this theory is seriously in-
+complete since it implies that no debt should ever be used in 
+the absence of tax subsidies if bankruptcy costs are positive. 
+Since we know debt was commonly used prior to the exis-
+tence of the current tax subsidies on interest payments, this 
+theory does not capture what must be some important deter-
+minants of the corporate capital structure. 
+In addition, neither bankruptcy costs nor the existence of 
+tax subsidies can explain the use of preferred stock or war-
+rants that have no tax advantages, and there is no theory that 
+tells us anything about what determines the fraction of eq-
+uity claims held by insiders as opposed to outsiders, which 
+our analysis in section 2 indicates is so important. We return 
+to these issues later after analyzing in detail the factors af-
+fecting the agency costs associated with debt. 
+4. The Agency Costs of Debt 
+In general, if the agency costs engendered by the existence 
+of outside owners are positive, it will pay the absentee owner 
+(i.e., shareholders) to sell out to an owner-manager who can 
+avoid these costS.45 This could be accomplished in principle 
+44 See A. Kraus and R. Litzenberger, "A State Preference Model of Optimal Financial 
+Leverage," Journal of Finance 28 (1973): 911-22; P. Lloyd-Davies, "Risk and Opti-
+mal Leverage," unpublished (Rochester, N.Y.: University of Rochester, 1975). 
+45 And if there is competitive bidding for the firm from potential owner-managers, 
+the absentee owner will capture the capitalized value of these agency costs. 
+
+JENSEN I MECKLING I THEORY OF THE FIRM 1201 
+by having the manager become the sole equity holder by 
+repurchasing all of the outside equity claims with funds ob-
+tained through the issuance of limited liability debt claims 
+and through the use of his own personal wealth. This 
+single-owner corporation would not suffer the agency costs 
+associated with outside equity. Therefore, there must be 
+some compelling reasons why we find so prevalent as an 
+organizational form the diffuse-owner corporate firm fi-
+nanced by equity claims. 
+An ingenious entrepreneur, eager to expand, has the op-
+portunity to design a whole hierarchy of fixed claims on 
+assets and earnings, with premiums paid for different levels 
+of risk.46 Why don't we observe large corporations individ-
+ually owned, with a tiny fraction of the capital supplied by 
+the entrepreneur in return for 100 percent of the equity and 
+the rest simply borrowed? We believe there are a number of 
+reasons: (1) the incentive effects associated with highly lever-
+aged firms, (2) the monitoring costs these incentive effects 
+engender, and (3) bankruptcy costs. Furthermore, all of 
+these costs are simply particular aspects of the agency costs 
+associated with the existence of debt claims on the firm. 
+The Incentive Effects Associated with Debt 
+We don't find many large firms financed almost entirely with 
+debt-like claims (i.e., nonresidual claims) because of the ef-
+fect such a financial structure would have on the owner-
+manager's behavior. Potential creditors will not loan $100 
+million to a firm in which the entrepreneur has an invest-
+ment of $10,000. With that financial structure the owner-
+manager will have a strong incentive to engage in activities 
+(investments) that promise very high payoffs if successful 
+even if they have a very low probability of success. If they 
+46 The spectrum of claims that firms can issue is far more diverse than is suggested by 
+our two-way classification-fixed vs. residual. There are convertible bonds, equip-
+ment trust certificates, debentures, revenue bonds, warrants, etc. Different bond 
+issues can contain different subordination provisions with respect to assets and 
+interest. They can be callable or noncallable. Preferred stocks can be "preferred" in 
+a variety of dimensions and contain a variety of subordination stipulations. In the 
+abstract, we can imagine firms issuing claims contingent on a literally infinite variety 
+of states of the world such as those considered in the literature on the time-state 
+preference models. See K. J. Arrow, "The Role of Securities in the Optimal Allo-
+cation of Risk Bearing," Review cif Economic Studies 31 (1964): 91-96; Debreu, Theory 
+of Value; Hirschleifer, Investment, Interest, and Capital. 
+
+2021 ECONOMICS AND SOCIAL INSTITUTIONS 
+turn out well, he captures most of the gains; if they turn out 
+badly, the creditors bear most of the costS.47 
+To illustrate the incentive effects associated with the exis-
+tence of debt and to provide a framework within which we 
+can discuss the effects of monitoring and bonding costs, 
+wealth transfers, and the incidence of agency costs, we again 
+consider a simple situation. Assume we have a manager-
+owned firm with no debt outstanding, in a world in which 
+there are no taxes. The firm has the opportunity to take one 
+of two mutually exclusive equal-cost investm~nt opportuni-
+ties, each of which yields a random payoff, Xj, T periods in 
+the future (j = 1, 2). Production and monitoring activities 
+take place continuously between time 0 and time T, and mar-
+kets in which the claims on the firm can be traded are open 
+continuously over this period. After time T the firm has no 
+productive activities, so the payoff Xj includes the distribu-
+tion of all remaining assets. For simplicity, we assume that 
+the two distributions are log-norm,;!-lly distrib~ted and have 
+the same expected total payoff, E(X), where X is defined as 
+the logarithm of the final payoff. The distributions differ 
+only by their variances with (T~ < (T~. The systematic, or co-
+variance, risk of each of the distributions, Pj, in the Sharpe-
+Lintner capital asset-pricing model is assumed to be identi-
+ca1.48 Assuming that asset prices are determined according 
+to the capital asset-pricing model, the preceding assump-
+tions imply that the total market value of each of these dis-
+tributions is identical, and we represent this value by V. 
+If the owner-manager has the right to decide which in-
+vestment program to take, and if after he decides this he has 
+the opportunity to sell part or all of his claims on the out-
+comes in the form of either debt or equity, he will be indif-
+ferent between the two investments.49 However, if the owner 
+47 An apt analogy is the way one would play poker on money borrowed at a fixed 
+interest rate, with one's own liability limited to some very small stake. Fama and 
+Miller, Theory if Finance, pp. 179-80, also discuss and provide a numerical example 
+of an investment decision that illustrates very nicely the potential inconsistency 
+between the interests of bondholders and stockholders. 
+48 W. F. Sharpe, "Capital Asset Prices: A Theory of Market Equilibrium under Con-
+ditions of Risk," Journal of Finance 19 (1964): 425-42; J. Lintner, "Security Prices, 
+Risk, and Maximal Gains from Diversification," ibid., 20 (1965): 587-616. 
+49 The portfolio diversification issues facing the owner-manager are brought into the 
+analysis in sec. 5 below. 
+
+JENSEN I MECKLING I THEORY OF THE FIRM I 20~ 
+has the opportunity to first issue debt, then to decide which 
+of the investments to take, and then to sell all or part of his 
+remaining equity claim on the market, he will not be indif-
+ferent between the two investments. The reason is that by 
+promising to take the low-variance project, selling bonds, 
+and then taking the high-variance project he can transfer 
+wealth from the (naive) bondholders to himself as equity 
+holder. 
+Let X* be the amount of the "fixed" claim in the form of a 
+non-coupon-bearing bond sold to the bondholders such that 
+the total payoff to them,R j (j = 1,2, denotes the distribution 
+the manager chooses), is 
+R j
+::2 X*, 
+=Xj , 
+if Xj;:X*, 
+if 
+Xj~X*. 
+Let B 1 be the current market value of bondholder claims if 
+investment 1 is taken, and letB 2 be the current market value 
+of bondholder claims if investment 2 is taken. Since in this 
+example the total value of the firm, V, is independent of the 
+investment choice and also of the financing decision, we can 
+use the Black-Scholes option-pricing model to determine the 
+values of the debt, Bj, and equity, Sj, under each of the 
+choices. 50 
+Black and Scholes derive the solution for the value of a 
+European call option (one that can be ex~rcised ~::mly a~ ~he 
+maturity date) and argue that the resultmg optlon-pncmg 
+equation can be used to determine the value of the equity 
+claim on a levered firm. That is, the stockholders in such a 
+firm can be viewed as holding a European call option on the 
+total value of the firm with exercise price equal to X* (the 
+face value of the debt), exercisable at the maturity date of 
+the debt issue. More simply, the stockholders have the right 
+to buy the firm back from the bondholders for a price of X* 
+at time T. Merton shows that, as the variance of the outcome 
+50 F. Black and M. Scholes, "The Pricing of Options and Corporate Liabilities,"Journal 
+of Political Economy 81 (1973): 637-54. See C. Smith, "Option Pricing: A Review," 
+Journal of Financial Economics 3 (1976): 3-52, for a review of the option-pricing 
+literature and its applications; and see D. Galai and R. w. Masulis, "The Option 
+Pricing Model and the Risk Factor of Stock," ibid., pp. 53-82, for an application of 
+the model to mergers and corporate investment decisions. 
+
+2041 ECONOMICS AND SOCIAL INSTITUTIONS 
+distribution rises, the value of the stock (i.e., call option) 
+rises;51 since our two distributions differ only in their vari-
+ances, O"~ < O"t the equity valueSI is less thanS2. This implies 
+BI >B 2 , sinceB I = V-SI andB2 = V-S 2• 
+Now if the owner-manager could sell bonds with face 
+value X* under the conditions that the potential bondholders 
+believed this to be a claim on distribution 1, he would receive 
+a price of B I' After selling the bonds, his equity interest in 
+distribution 1 would have value S I' But we know S2 is greater 
+than S I, and thus the manager can make himself better-off 
+by changing the investment to take the higher-variance dis-
+tribution 2, thereby redistributing wealth from the bond-
+holders to himself. All this assumes, of course, that the 
+bondholders could not prevent him from changing the 
+investment program. If the bondholders cannot do so, and if they 
+perceive that the manager has the opportunity to take distribution 2, 
+they will pay the manager only B 2 for the claim X*, realizing that 
+his maximizing behavior will lead him to choose distribution 2. In 
+this event there is no redistribution of wealth between bond-
+holders and stockholders (and in general with rational ex-
+pectations there never will be) and no welfare loss. It is easy 
+to construct a case, however, in which these incentive effects 
+do generate real costs. 
+Let cash flow distribution 2 in the previous example have 
+an expected value, E(X2 ), which is lower than that of distri-
+bution 1. Then we know that VI> V2, and if ~V, which is 
+given by 
+~V = V I-V2 = (SI-S2)+(BI-B2), 
+is sufficiently small relative to the reduction in the value of 
+the bonds, the value of the stock will increase.52 If we re-
+51 R. C. Merton. "The Theory of Rational Option Pricing," Bell Journal of Economics 
+and Management Science 4 (1973): 141-83; idem, "On the Pricing of Corporate Debt: 
+The Risk Structure of Interest Rates ,"Journal of Finance 29 (1974): 449-70. 
+52 While we used the option-pricing model above to motivate the discussion and to 
+provide some intuitive understanding of the incentives facing the equityholders, 
+the solutions of Black and Scholes, "Pricing of Options," do not apply when incen· 
+tive effects cause V to be a function of the debt-equity ratio, as it is in general and 
+in this example. J. B. Long, "Discussion," Journal af Finance 27 (1974): 485-88, 
+points out this difficulty with respect to the usefulness of the model in the context 
+of tax subsidies on interest and of bankruptcy cost. The results of Merton, "Pricing 
+of Corporate Debt," and Galai and Masulis, "Option Pricing Model," must be inter-
+preted with care, since the solutions are strictly incorrect in the context of tax 
+subsidies or agency costs. 
+
+JENSEN I MECKLING I THEORY OF THE FIRM I 205 
+arrange the expression for av, the difference between the 
+equity values for the two investments is given by 
+and the term B I-B2 is the amount of wealth "transferred" 
+from the bondholders, and V I -V2 is the reduction in overall 
+firm value. Since we know Bl > B 2, 52-51 can be positive 
+even though the reduction in the value of the firm, VI -V 2, is 
+positive. 53 Again, the bondholders will not actually lose as 
+long as they accurately perceive the motivation of the eq-
+uity-owning manager and his opportunity to take project 2. 
+They will presume he will take investment 2 and hence will 
+pay no more thanB 2 for the bonds when they are issued. 
+In this simple example the reduced value of the firm, 
+V I-V2, is the agency cost engendered by the issuance of debt, 
+and it is borne by the owner-manager. 54 If he could finance 
+the project out of his personal wealth, he would clearly 
+choose project 1, since its investment outlay was assumed 
+equal to that of project 2 and its market value, Vb was 
+53 The numerical example of Fama and Miller, Theory of Finance, pp. 179-80, is a 
+close representation of this case in a two-period state model. However, they go on 
+to make the following statement on p. 180: 
+"From a practical viewpoint, however, situations of potential conflict between bond-
+holders and shareholders in the application of the market value rule are probably 
+unimportant. In general, investment opportunities that increase a firm's market 
+value by more than their cost both increase. the value of the firm's shares and 
+strengthen the firm's future ability to meet its current bond commitments." 
+This first issue regarding the importance of the conflict of interest between bond-
+holders and stockholders is an empirical one, and the last statement is incomplete-
+in some circumstances the equity holders could benefit from projects whose net 
+effect was to reduce the total value of the firm-as they and we have illustrated. 
+The issue cannot be brushed aside so easily. 
+54 Myers points out another serious incentive effect on managerial decisions of th~ 
+existence of debt that does not occur in our simple single-decision world. He shows 
+that if the firm has the option to take future investment opportunities, the existence 
+of debt that matures after the options must be taken will cause the firm (using an 
+equity-value-maximizing investment rule) to refuse to take some otherwise profit-
+able projects because they would benefit only the bondholders and not the equity-
+holders. This will (in the absence of tax subsidies to debt) cause the value of the 
+firm to fall. Thus (although he doesn't use the term) these incentive effects also 
+contribute to the agency costs of debt in a manner perfectly consistent with the 
+examples discussed in the text. S. C. Myers, "A Note on the Determinants of 
+Corporate Debt Capacity," unpublished (London: London Graduate School of 
+Business Studies, 1975). 
+
+2061 ECONOMICS AND SOCIAL INSTITUTIONS 
+greater. This wealth loss, V I-V 2> is the "residual loss" portion 
+of what we have defined as agency costs, and it is generated 
+by the cooperation required to raise the funds to make the 
+investment. Another important part of the agency costs is 
+monitoring and bonding costs, and we now consider their 
+role. 
+The Role of Monitoring and Bonding Costs 
+In principle it would be possible for the bondholders, by the 
+inclusion of various covenants in the indenture provisions, to 
+limit the managerial behavior that results in reductions in 
+the value of the bonds. Provisions imposing constraints on 
+management's decisions regarding such things as dividends, 
+future debt issues, and maintenance of working capital are 
+not uncommon in bond issues. 55 To completely protect the 
+bondholders from the incentive effects, these provisions 
+would have to be incredibly detailed and cover most operat-
+ing aspects of the enterprise, including limitations on the 
+riskiness of the projects undertaken. The costs involved in 
+writing such provisions, the costs of enforcing them, and the 
+reduced profitability of the firm (induced because the cove-
+nants occasionally limit management's ability to take optimal 
+actions on certain issues) would likely be nontrivial. In fact, 
+since management is a continuous decision-making process, 
+it will be almost impossible to completely specify such condi-
+tions without having the bondholders actually perform the 
+management function. All costs associated with such cove-
+nants are what we mean by monitoring costs. 
+The bondholders will have incentives to engage in the 
+writing of such covenants and in monitoring the actions of 
+the manager to the point where the "nominal" marginal cost 
+to them of such activities is just equal to the marginal benefits 
+they perceive from engaging in them. We use the word nom-
+inal here because debtholders will not in fact bear these costs. 
+As long as they recognize their existence, they will take them 
+into account in deciding the price they will pay for any given 
+55 Black and Scholes, "Pricing of Options," discuss the ways in which dividend and 
+future financing policy can redistribute wealth between classes of claimants on the 
+firm. F. Black, M. H. Miller, and R. A. Posner, "An Approach to the Regulation of 
+Bank Holding Companies," unpublished (Chicago: University of Chicago, 1974), 
+discuss many of these issues with particular reference to their topic. 
+
+JENSEN I MECKLING I THEORY OF THE FIRM 1207 
+debt claim, 56 and therefore the seller of the claim (the owner) 
+will bear the costs just as in the equity case discussed in sec-
+tion 2. 
+In addition, the manager has incentives to take into ac-
+count the costs imposed on the firm by covenants in the debt 
+agreement that directly affect the future cash flows of the 
+firm, since they reduce the market value of his claims. Be-
+cause both the external and internal monitoring costs are 
+imposed on the owner-manager, it is in his interest to see 
+that the monitoring is performed in the lowest-cost way. Sup-
+pose, for example, that the bondholders (or outside equity 
+holders) would find it worthwhile to produce detailed finan-
+cial statements such as those contained in the usual published 
+accounting reports as a means of monitoring the manager. 
+If the manager himself can produce such information at 
+lower costs than they (perhaps because for his own internal 
+decision-making purposes he is already collecting much of 
+the data they desire), it would pay him to agree in advance 
+to incur the cost of providing such reports and to have their 
+accuracy testified to by an independent outside auditor. This 
+is an example of what we refer to as bonding costS.57 
+56 In other words, these costs will be taken into account in determining the yield to 
+maturity on the issue. For an examination of the effects of such enforcement costs 
+on the nominal interest rates in the consumer small-loan market, see G. Benston, 
+"The Impact of Maturity Regulation on High Interest Rate Lenders and Borrow-
+ers," Journal of Financial Economics 4 (1977): 23-49. 
+57 To illustrate the fact that it will sometimes pay the manager to incur "bonding" 
+costs to guarantee the bondholders that he will not deviate from his promised 
+behavior, let us suppose that for an expenditure of $b of the firm's resources he 
+·can guarantee that project 1 will be chosen. If he spends these resources and takes 
+project 1, the value of the firm will be V, -b; and clearly, as long as (V ,-b) > V, or, 
+alternatively, (V,-V,) > b, he will be better-off, since his wealth will be equal to the 
+value of the firm minus the required investment, I (which we assumed for simplicity 
+to be identical for the two projects). 
+On the other hand, to prove that the owner-manager prefers the lowest-cost 
+solution to the conflict, let us assume he can write a covenant into the bond issue 
+that will allow the bondholders to prevent him from taking project 2 if they incur 
+monitoring costs of $m, where m < b. If he does this, his wealth will be higher by 
+the amountb-m. To see this, note that if the bond market is competitive and makes 
+unbiased estimates, potential bondholders will be indifferent between: 
+(i) a claim X* with no covenant (and no guarantees from management) at a price 
+ofB" 
+(ii) a claim x* with no covenant (and guarantees from management, through 
+bonding expenditures by the firm of $b, that project 1 will be taken) at a price 
+of B" and 
+
+2081 ECONOMICS AND SOCIAL INSTITUTIONS 
+Bankruptcy and Reorganization Costs 
+We argue in section 5 that, as the debt in the capital structure 
+increases beyond some point, the marginal agency costs of 
+debt begin to dominate the marginal agency costs of outside 
+equity; the result of this is the generally observed phenome-
+non of the simultaneous use of both debt and outside equity. 
+Before considering these issues, however, we consider here 
+the third major component of the agency costs of debt, which 
+helps to explain why debt doesn't completely dominate capi-
+tal structures-the existence of bankruptcy and reorganiza-
+tion costs. 
+It is important to emphasize that bankruptcy and liquida-
+(iii) a claim X*, with a covenant and the opportunity to spend m on monitoring (to 
+guarantee that project 1 will be taken) at a price of B 1 -m. 
+The bondholders will realize that (i) in fact represents a claim on project 2 and that 
+(ii) and (iii) represent a claim on project 1 and will thus be indifferent between the 
+three options at the specified prices. The owner-manager, however, will not be 
+indifferent between incurring the bonding costs, b, directly, or including the cove-
+nant in the bond indenture and letting the bondholders spend m to guarantee that 
+he take project 1. His wealth in the two cases will be given by the value of his equity 
+plus the proceeds of the bond issue less the required investment, and if m < b < 
+V,-V" then his post-investment-financing wealth, W, for the three options will be 
+such that W, < Wji < W",. Therefore, since it would increase his wealth, he would 
+voluntarily include the covenant in the bond issue and let the bondholders monitor. 
+Without going into the problem in detail, we mention another issue. Similar to 
+the case in which the outside equityholders are allowed to monitor the manager-
+owner, the agency relationship between the bondholders and stockholders has a 
+symmetry if the rights of the bondholders to limit actions of the manager are not 
+perfectly spelled out. Suppose the bondholders, by spending sufficiently large 
+amounts of resources, could force management to take actions that would transfer 
+wealth from the equityholders to the bondholders (by taking sufficiently less risky 
+projects). One can easily construct situations in which such actions could make the 
+bondholders better-off, hurt the equityholders, and actually lower the total value 
+of the firm. Given the nature of the debt contract, the original owner-manager 
+might maximize his wealth in such a situation by selling off the equity and keeping 
+the bonds as his "owner's" interest. If the nature of the bond contract is given, this 
+may well be an inefficient solution, since the total agency costs (i.e., the sum of 
+monitorin~ and value loss) could easily be higher than the alternative solution. 
+However, If the owner-manager could strictly limit the rights of the bondholders 
+(perhaps by inclusion of a provision that expressly reserves for the equityholder all 
+rights not specifically granted to the bondholder), he would find it in his interest to 
+establish the efficient contractual arrangement, since by minimizing the agency 
+costs he would be maximizing his wealth. These issues involve the fundamental 
+nature of contracts, and for now we simply assume that the "bondholders' " rights 
+are strictly limited and unambiguous and all rights not specifically granted them 
+are reserved for the "stockholders"-a situation descriptive of actual institutional 
+arrangements. This allows us to avoid the incentive effects associated with "bond-
+holders" potentially exploiting "stockholders." 
+
+JENSEN I MECKLING I THEORY OF THE FIRM 1209 
+tion are very different events. The legal definition of bank-
+ruptcy is difficult to specify precisely. In general, it occurs 
+when the firm cannot meet a current payment on a debt 
+obligation, 58 or one or more of the other indenture provi-
+sions providing for bankruptcy is violated by the firm. In this 
+event the stockholders have lost all claims on the firm,59 and 
+the remaining loss, the difference between the face value of 
+the fixed claims and the market value of the firm, is borne 
+by the debtholders. Liquidation of the firm's assets will occur 
+only if the market value of the future cash flows generated 
+by the firm is less than the opportunity cost of the assets, that 
+is, the sum of the values that could be realized if the assets 
+were sold piecemeal. 
+If there were no costs associated with the event called 
+bankruptcy, the total market value of the firm would not be 
+affected by increasing the probability of its incurrence. How-
+ever, it is costly, if not impossible, to write contracts repre-
+senting claims on a firm and clearly delineating the rights of 
+holders for all possible contingencies. Thus, even if there 
+were no adverse incentive effects in expanding fixed claims 
+relative to equity in a firm, the use of such fixed claims would 
+be constrained by the costs inherent in defining and enforc-
+ing those claims. Firms incur obligations daily to suppliers, 
+to employees, to different classes of investors, etc. So long as 
+the firm is prospering, the adjudication of claims is seldom a 
+problem. When the firm has difficulty meeting some of its 
+obligations, however, the issue of the priority of those claims 
+can pose serious problems. This is most obvious in the ex-
+treme case in which the firm is forced into bankruptcy. If 
+bankruptcy were costless, the reorganization would be ac-
+companied by an adjustment of the claims of various parties, 
+and the business could, if that proved to be in the interest of 
+58 If the firm were allowed to sell assets to meet a current debt obligation, bankruptcy 
+would occur when the total market value of the future cash flows expected to be 
+generated by the firm is less than the value of a current payment on a debt obliga-
+tion. Many bond indentures do not, however, allow for the sale of assets to meet 
+debt obligations. 
+59 We have been told that while this is true in principle, the actual behavior of the 
+courts frequently appears to involve the provision of some settlement to the com-
+mon stockholders even when the assets of the company are not sufficient to cover 
+the claims of the creditors. 
+
+210 I ECONOMICS AND SOCIAL INSTITUTIONS 
+the claimants, simply go on (although perhaps under new 
+management).60 
+In practice, bankruptcy is not costless but generally in-
+volves an adjudication process that itself consumes a fraction 
+of the remaining value of the assets of the firm. Thus the 
+cost of bankruptcy will be of concern to potential buyers of 
+fixed claims in the firm, since their existence will reduce the 
+payoffs to them in the event of bankruptcy. These are ex-
+amples of the agency costs of cooperative efforts among in-
+dividuals (although in this case, perhaps noncooperative would 
+be a better term). The price buyers will be willing to pay for 
+fixed claims will thus be inversely related to the probability 
+of the incurrence of these costs-that is, to the probability of 
+bankruptcy. Using a variant of the argument employed 
+above for monitoring costs, it can be shown that the total 
+value of the firm will fall and the owner-manager equity-
+holder will bear the entire wealth effect of the bankruptcy 
+costs as long as potential bondholders make unbiased esti-
+mates of their magnitude at the time they initially purchase 
+bonds.61 
+Empirical studies of the magnitude of bankruptcy costs 
+are almost nonexistent. Warner, in a study of 11 railroad 
+bankruptcies between 1930 and 1955, estimates the average 
+costs of bankruptcy as a fraction of the value of the firm 
+three years prior to bankruptcy to be 2.5 percent (with a 
+range of 0.4-5.9 percent). The average dollar costs were 
+$1.88 million.62 Both of these measures seem remarkably 
+60 If under bankruptcy the bondholders have the right to fire the management, the 
+management will have some incentives to avoid taking actions that increase the 
+probability of this event (even if it is in the best interest of the equityholders) if they 
+(the management) are earning rents or if they have human capital specialized to 
+this firm or if they face large adjustment costs in finding new employment. A 
+detailed examination of this issue involves the value of the control rights (the rights 
+to hire and fire the manager), and we leave it to a subsequent paper. 
+61 Kraus and Litzenberger, "Optimal Financial Leverage," and Uoyd-Davies, "Risk 
+and Optimal Leverage," demonstrate that the total value of the firm will be reduced 
+by these costs. 
+62 J. B. Warner, "Bankruptcy Costs, Absolute Priority, and the Pricing of Risky Debt 
+Claims," unpublished (Chicago: University of Chicago, 1975). Average costs of 
+bankruptcy included only payments to all parties for legal fees, professional ser-
+vices, trustees' fees, and filing fees. They did not include the costs of management 
+time or changes in cash flows due to shifts in the firm's demand or cost functions, 
+discussed below. 
+
+JENSEN I MECKLING I THEORY OF THE FIRM 1211 
+small and are consistent with our belief that bankruptcy costs 
+themselves are unlikely to be the major determinant of cor-
+porate capital structures. It is also interesting to note that the 
+annual amount of defaulted funds has fallen significantly 
+since 1940.63 One possible explanation for this phenomenon 
+is that firms are using mergers to avoid the costs of bank-
+ruptcy. This hypothesis seems even more reasonable if, as is 
+frequently the case, reorganization costs represent only a 
+fraction of the costs associated with bankruptcy. 
+In general, the revenues or the operating costs of the firm 
+are not independent of the probability of bankruptcy and 
+thus the capital structure of the firm. As the probability of 
+bankruptcy increases, both the operating costs and the reve-
+nues of the firm are adversely affected, and some of these 
+costs can be avoided by merger. For example, a firm with a 
+high probability of bankruptcy will also find that it must pay 
+higher salaries to induce executives to accept the higher risk 
+of unemployment. Furthermore, in certain kinds of dura-
+ble-goods industries the demand function for the firm's 
+product will not be independent of the probability of bank-
+ruptcy. The computer industry is a good example. There, 
+the buyer's welfare is dependent to a significant extent on 
+the ability to maintain the equipment and on continuous 
+hardware and software development. Furthermore, the 
+owner of a large computer often receives benefits from the 
+software developments of other users. Thus, if the manufac-
+turer leaves the business or loses his software support and 
+development experts because of financial difficulties, the 
+value of the equipment to his users will decline. The buyers 
+of such services have a continuing interest in the manufac-
+turer's viability not unlike that of a bondholder, except that 
+their benefits come in the form of continuing services at 
+lower cost rather than principal and interest payments. Ser-
+vice facilities and spare parts for automobiles and machinery 
+are other examples. 
+In summary, then, the agency costs associated with debt64 
+consist of: 
+63 T. R. Atkinson, Trends in Corporate Bond Quality, Studies in Corporate Bond Finance 
+4 (New York: National Bureau of Economic Research, 1967). 
+64 Which, incidentally, exist only when the debt has some probability of default. 
+
+2121 ECONOMICS AND SOCIAL INSTITUTIONS 
+1. the opportunity wealth loss caused by the impact of debt 
+on the investment decisions of the firm, 
+2. the monitoring and bonding expenditures by the bond-
+holders and the owner-manager (i.e., the firm), 
+3. the bankruptcy and reorganization costs. 
+Why Are the Agency Costs of Debt Incurred? 
+We have argued that the owner-manager bears the entire 
+wealth effects of the agency costs of debt and captures the 
+gains from reducing them. Thus, the agency costs associated 
+with debt, discussed above, will tend, in the absence of other 
+mitigating factors, to discourage the use of corporate debt. 
+What are the factors that encourage its use? 
+One factor is the tax subsidy on interest payments. (This 
+will not explain preferred stock where dividends are not 
+tax-deductible. 65 ) Modigliani and Miller originally demon-
+strated that the use of riskless perpetual debt will increase 
+the total value of the firm (ignoring the agency costs) by an 
+amount equal to 'TB, where 'T is the marginal and average 
+corporate tax rate and B is the market value of the debt. 
+Fama and Miller demonstrate that for the case of risky debt 
+the value of the firm will increase by the market value of the 
+(uncertain) tax subsidy on the interest payments. 66 Again, 
+these gains will accrue entirely to the equity and will provide 
+an incentive to utilize debt to the point where the marginal 
+65 Our theory is capable of explaining why, in the absence of the tax subsidy on 
+interest payments, we would expect to find firms using both debt and preferred 
+stocks-a problem that has long puzzled at least one of the authors. If preferred 
+stock has all the characteristics of debt except for the fact that its holders cannot 
+put the firm into bankruptcy in the event of nonpayment of the preferred divi-
+dends, then the agency costs associated with the issuance of preferred stock will be 
+lower than those associated with debt by the present value of the bankruptcy costs. 
+However, these lower agency costs of preferred stock exist only over some range 
+if, as the amount of such stock rises, the incentive effects caused by their existence 
+impose value reductions that are larger than those caused by debt (including the 
+bankruptcy costs of debt). There are two reasons for this. First, the equity holders' 
+claims can be eliminated by the debtholders in the event of bankruptcy, and second, 
+the debtholders have the right to fire the management in the event of bankruptcy. 
+Both of these will tend to become more important as an advantage to the issuance 
+of debt as we compare situations with large amounts of preferred stock to equiva-
+lent situations with large amounts of debt, because they will tend to reduce the 
+incentive effects of large amounts of preferred stock. 
+66 Modigliani and Miller, "Corporate Income Taxes"; Fama and Miller, Theory at 
+Finance, chap. 4. 
+
+JENSEN I MECKLING I THEORY OF THE FIRM 1213 
+wealth benefits of the tax subsidy are just equal to the mar-
+ginal wealth effects of the agency costs discussed above. 
+Even in the absence of these tax benefits, however, debt 
+would be utilized if the ability to exploit potentially profitable 
+investment opportunities were limited by the resources of 
+the owner. If the owner of a project cannot raise capital, he 
+will suffer an opportunity loss represented by the increment 
+in value offered to him by the additional investment oppor-
+tunities. Thus, even though he will bear the agency costs 
+from selling debt, he will find it desirable to incur them to 
+obtain additional capital as long as the marginal wealth incre-
+ments from the new investment projects are greater than the 
+marginal agency costs of debt and these agency costs are, in 
+turn, less than those caused by the sale of additional equity, 
+discussed in section 2. Furthermore, this solution is optimal 
+from the social viewpoint. However, in the absence of tax 
+subsidies on debt, these projects must be unique to this 
+firm,67 or they would be taken by other competitive entre-
+preneurs (perhaps new ones) who possessed the requisite 
+personal wealth to fully finance the projects68 and were 
+therefore able to avoid the existence of debt or outside 
+equity. 
+5. A Theory of the Corporate Ownership Structure 
+In the previous sections we discussed the nature of agency 
+costs associated with outside claims on the firm-both debt 
+67 One other condition also has to hold to justify the incurrence of the costs associated 
+with the use of debt or outside equity in our firm. If there are other individuals in 
+the economy who have sufficiently large amounts of personal capital to finance the 
+entire firm, our capital-constrained owner can realize the full capital value of his 
+current and prospective projects and avoid the agency costs by simply selling the 
+firm (i.e., the right to take these projects) to one of these individuals. He will then 
+avoid the wealth losses associated with the agency costs caused by the sale of debt 
+or outside equity. If no such individuals exist, it will pay him (and society) to obtain 
+the additional capital in the debt market. This implies, incidentally, that it is some-
+what misleading to speak of the owner-manager as the individual who bears the 
+agency costs. One could argue that it is the project that bears the costs, since if it is 
+not sufficiently profitable to cover all the costs (including the agency costs), it will 
+not be taken. We continue to speak of the owner-manager bearing these costs to 
+emphasize the more correct and important point that he has the incentive to reduce 
+them because, if he does, his wealth will be increased. 
+68 We continue to ignore for the moment the additional complicating factor involved 
+with the portfolio decisions of the owner and the implied acceptance of potentially 
+diversifiable risk by such 100 percent owners in this example. 
+
+2141 ECONOMICS AND SOCIAL INSTITUTIONS 
+and equity. Our purpose here is to integrate these concepts 
+into the beginnings of a theory of the corporate ownership 
+structure. We use the term ownership structure rather than 
+capital structure to highlight the fact that the crucial variables 
+to be determined are not just the relative amounts of debt 
+and equity but also the fraction of the equity held by the 
+manager. Thus, for a given size firm we want a theory to 
+determine three variables: 69 
+S1 : inside equity (held by the manager), 
+So : outside equity (held by anyone outside of the firm), 
+B : debt (held by anyone outside of the firm). 
+The total market value of the equity is S = Sj+So, and the 
+total market value of the firm is V = S +B. In addition, we 
+also wish to have a theory that determines the optimal size of 
+the firm, that is, its level of investment. 
+The Optimal Ratio of Outside Equity to Debt 
+Consider first the determination of the optimal ratio of out-
+side equity to debt, SJB. To do this, let us hold the size of 
+the firm constant. V, the actual value of the firm for a given 
+size, will depend on the agency costs incurred; hence, for 
+our index of size we use V*, the value of the firm at a given 
+scale when agency costs are zero. For the moment we also 
+hold the amount of outside financing, B +So, constant. Given 
+that a specified amount of financing, B +So, is to be obtained 
+externally, our problem is to determine the optimal fraction 
+E* == S,,[,1(B +So) to be financed with equity. 
+We argued above that, (1) as long as capital markets are 
+efficient (i.e., characterized by rational expectations), the 
+prices of assets such as debt and outside equity will reflect 
+unbiased estimates of the monitoring costs and redistribu-
+tions that the agency relationship will engender, and (2) the 
+selling owner-manager will bear these agency costs. Thus, 
+from the owner-manager's standpoint the optimal propor-
+tion of outside funds to be obtained from equity (versus 
+debt)for a given level of internal equity is thatE which results in 
+minimum total agency costs. 
+69 We continue to ignore such instruments as convertible bonds and warrants. 
+
+x 
+!:; « 
+w 
+== 
+..... z 
+w 
+a: 
+a: 
+::I 
+u 
+u. 
+0 
+en 
+!:: 
+z 
+::I 
+~ 
+C 
+w 
+a: 
+::I 
+en 
+~ 
+~ 
+en 
+..... 
+In 
+0 
+U 
+>-u z 
+w 
+Cl « 
+0 
+JENSEN I MECKLING I THEORY OF THE FIRM 1215 
+FRACTION OF OUTSIDE FINANCING OBTAINED 
+FROM EQUITY 
+Figure 5. Total agency costs, A T(E), as a function of the ratio of 
+outside equity to total outside financing, E == S,,/(B +So), for a given 
+firm size V* and given total amounts of outside financing, B +So' 
+A so(E) == agency costs associated with outside equity, A J..E) == agency 
+costs associated with debt, B. A T(E*) = minimum total agency costs 
+at optimal fraction of outside financing E*. 
+Figure 5 presents a breakdown of the agency costs into two 
+separate components: Define ASo(E) as the total agency costs 
+(a function of E) associated with the "exploitation" of the 
+outside equityholders by the owner-manager, and define 
+AJ..E) as the total agency costs associated with the presence of 
+debt in the ownership structure. AT(E) = A So(E )+A B(E) is the 
+total agency cost. 
+Consider the function A So(E). When E == Sol (B +S 0) is 
+zero-that is, when there is no outside equity-the man-
+ager's incentives to exploit the outside equity is at a minimum 
+(zero), since the changes in the value of the total equity are 
+equal to the changes in his equity. 70 As E increases to 100 
+70 Note, however, that even when outsiders own none of the equity, if there is any 
+risky debt outstanding, the stockholder-manager still has some incentives to engage 
+
+2161 ECONOMICS AND SOCIAL INSTITUTIONS 
+percent, his incentives to exploit the outside equityholders 
+increase, and hence the agency costs ASo(E) increase. 
+The agency costs associated with the existence of debt, 
+AJ..E), are composed mainly of the value reductions in the 
+firm and the monitoring costs caused by the manager's in-
+centive to reallocate wealth from the bondholders to himself 
+by increasing the value of his equity claim. They are at a 
+maximum where all outside funds are obtained from debt, 
+that is, where So = E = O. As the amount of debt declines to 
+zero, these costs also go to zero, because as E goes to 1, his 
+incentive to reallocate wealth from the bondholders to him-
+self falls. These incentives fall for two reasons: (1) the total 
+amount of debt falls, and therefore it is more difficult to 
+reallocate any given amount away from the debtholders; (2) 
+his share of any accomplished reallocation is falling, since So 
+is rising and therefore S/(SO+Si), his share of the total equity, 
+is falling. 
+The curve A T(E) represents the sum of the agency costs 
+from various combinations of outside equity and debt financ-
+ing, and as long as Aso(E) and A B(E) are as we have drawn 
+them, the minimum total agency cost for a given size firm 
+and outside financing will occur at some point such asAT(E*) 
+with a mixture of both debt and equity.71 
+Before proceeding further, we issue a caveat. The exact 
+shape of the functions drawn in figure 5 and several others 
+discussed below is essentially an open question at this time. 
+In the end, their shape is a question of fact and can only be 
+in activities yielding him nonpecuniary benefits but reducing the value of the firm 
+by more than he personally values the benefits. Any such actions that reduce the 
+value of the firm, V, tend to reduce the value of the bonds as well as the value of 
+the equity. Although the option-pricing model does not in general apply exactly to 
+the problem of valuing the debt and equity of the firm, it can be useful in obtaining 
+some qualitative insights into matters such as this. In that model, as/Ov indicates 
+the rate at which the stock value changes per dollar change in the value of the firm 
+(and similarly for aBlaV). Both of these terms are less than unity (see Black and 
+Scholes, "Pricing of Options"). Therefore, any action of the manager that reduces 
+the value of the firm, V, tends to reduce the value of both the stock and the bonds, 
+and the larger is the total debt-equity ratio, the smaller is the impact of any given 
+change in V on the value of the equity and, therefore, the lower is the cost to him 
+of consuming nonpecuniary benefits. 
+71 This occurs, of course, not at the intersection of A So(E) and A g(E), but at the point 
+where the absolute value of the slopes of the functions are equal, i.e., where A' 8o(E) 
++A'g(E) = O. 
+
+JENSEN I MECKLING I THEORY OF THE FIRM 1217 
+settled by empirical evidence. We outline some a priori ar-
+guments that we believe lead to some plausible hypotheses 
+about the behavior of the system, but confess that we are far 
+from understanding the many conceptual subtleties of the 
+problem. We are fairly confident of our arguments regard-
+ing the signs of the first derivatives of the functions, but the 
+second derivatives are also important to the final solution, 
+and much more work (both theoretical and empirical) is re-
+quired before we can have much confidence regarding these 
+parameters. We anticipate the work of others as well as our 
+own to cast more light on these issues. Moreover, we suspect 
+the results of such efforts will generate revisions of the de-
+tails of what follows. We believe it is worthwhile to delineate 
+the overall framework in order to demonstrate, if only in a 
+simplified fashion, how the major pieces of the puzzle fit 
+together into a cohesive structure. 
+Effects of the Scale of Outside Financing 
+In order to investigate the effects of increasing the amount 
+of outside financing, B +So, and therefore reducing the 
+amount of equity held by the manager, Sj, we continue to 
+hold the scale of the firm, V*, constant. Figure 6 presents a 
+plot of the agency cost functions, Aso(E), AB(E), and 
+AT(E) = A So(E)+A B(E), for two different levels of outside fi-
+nancing. Define an index of the amount of outside financing 
+to be 
+K = (B +So)/V*, 
+and consider two different possible levels of outside financ-
+ing Ko and Kl for a given scale of the firm such thatKo < K 1 • 
+As the amount of outside equity increases, the owner's 
+fractional claim on the firm, lX, falls. He will be induced 
+thereby to take additional nonpecuniary benefits out of the 
+firm because his share of the cost falls. This also increases 
+the marginal benefits from monitoring activities and there-
+fore will tend to increase the optimal level of monitoring. 
+Both of these factors will cause the locus of agency costs 
+ASo(E; K) to shift upward as the fraction of outside financing, 
+K, increases. This is depicted in figure 6 by the two curves 
+representing the agency costs of equity, one for the low level 
+
+2181 ECONOMICS AND SOCIAL INSTITUTIONS 
+ArIE; KJl 
+en 
+I-
+en 
+0 u 
+>-u z 
+w 
+C!) « 
+-' 
+« 
+I-
+0 I-
+AT IE; KO) 
+o 
+HIGH OUTSIDE 
+FINANCING 
+LOW OUTSIDE 
+FINANCING 
+1.0 
+E 
+FRACTION OF OUTSIDE FINANCING OBTAINED FROM EQUITY 
+Figure 6. Agency cost functions and optimal outside equity as a 
+fraction of total outside financing, E*(K), for two different levels 
+of outside financing, K, for a given size firm, V*: Kl > Ko. 
+of outside financing, Aso(E; K o), the other for the high level 
+of outside financing, ASo(E; K 1)' The locus of the latter lies 
+above the former everywhere except at the origin, where 
+both are O. 
+The agency cost of debt will similarly rise as the amount of 
+outside financing increases. This means that the locus of 
+AB(E; K 1) for high outside financing, Klo will lie above the 
+locus of AB(E; Ko) for low outside financing, K o, because the 
+total amount of resources that can be reallocated from bond-
+holders increases as the total amount of debt increases. How-
+ever, since these costs are zero when the debt is zero for both 
+Ko and K 1, the intercepts of the AB(E; K) curves coincide at 
+the right axis. 
+The net effect of the increased use of outside financing 
+given the cost functions assumed in figure 6 is to: (1) increase 
+
+~ 
+o 
+u 
+~ 
+z 
+w 
+~ 
+....I g 
+I-
+o 
+JENSEN I MECKLING I THEORY OF THE FIRM 1219 
+, 
+, 
+, 
+, , 
+I , 
+/ , 
+I 
+I , 
+, 
+, 
+.. " .. 
+"" 
+AT(K,Vjl 
+..... 
+.. --
+...... 
+K 
+FRACTION OF FIRM FINANCED BY OUTSIDE CLAIMS 
+Figure 7. Total agency costs as a function of the fraction of the 
+firm financed by outside claims for two firm sizes, Vl* > Vo* 
+the total agency costs from AT(E*; Ko) to AT(E*; K 1), and (2) 
+to increase the optimal fraction of outside funds obtained 
+from the sale of outside equity. We draw these functions for 
+illustration only and are unwilling to speculate at this time 
+on the exact form of E*(K) that gives the general effect of 
+increasing outside financing on the relative quantities of debt 
+and equity. 
+The locus of points, AT(E*; K), where agency costs are 
+minimized (not drawn in fig. 6) determines E*(K), the opti-
+mal proportions of equity and debt to be used in obtaining 
+outside funds as the fraction of outside funds, K, ranges 
+from 0 to 100 percent. The solid line in figure 7 is a plot of 
+the minimum total agency costs as a function of the amount 
+of outside financing for a firm with scale v~. The dotted line 
+shows the total agency costs for a larger firm with scale 
+vi > v:. That is, we hypothesize that the larger the firm 
+becomes, the larger are the total agency costs because it is 
+likely that the monitoring function is inherently more diffi-
+cult and expensive in a larger organization. 
+
+220 I ECONOMICS AND SOCIAL INSTITUTIONS 
+Risk and the Demand for Outside Financing 
+The model we have used to explain the existence of minority 
+shareholders and debt in the capital structure of corpora-
+tions implies that the owner-manager, if he resorts to any 
+outside funding, will have his entire wealth invested in the 
+firm. The reason is that he can thereby avoid the agency 
+costs imposed by additional outside funding. This suggests 
+that he would not resort to outside funding until he had 
+invested in the firm 100 percent of his personal wealth-an 
+implication that is not consistent with what we generally ob-
+serve. Most owner-managers hold personal wealth in a vari-
+ety of forms, and some have only a relatively small fraction 
+of their wealth in vested in the corporation they manage. 72 
+Diversification on the part of owner-managers can be ex-
+plained by risk aversion and optimal portfolio selection. 
+If the returns from assets are not perfectly correlated, an 
+individual can reduce the riskiness of the returns on his port-
+folio by dividing his wealth among many different assets. 
+that is, by diversifying. 73 Thus a manager who invests all of 
+his wealth in a single firm (his own) will generally bear a 
+welfare loss (if he is risk averse) because he is bearing more 
+risk than necessary. He will, of course, be willing to pay 
+something to avoid this risk, and the costs he must bear to 
+accomplish this diversification will be the agency costs out-
+lined above. He will suffer a wealth loss as he reduces his 
+fractional ownership because prospective shareholders and 
+bondholders will take into account the agency costs. Never-
+theless, the manager's desire to avoid risk will contribute to 
+his becoming a minority stockholder. 
+The Optimal Amount of Outside Financing, K* 
+Assume for the moment that the owner of a project (i.e., the 
+owner of a prospective firm) has enough wealth to finance 
+the entire project himself. The optimal scale of the corpora-
+72 On the average, however, top managers seem to have substantial holdings in abso-
+lute dollars. A survey by Wytmar (Wall Street Journal, August 13,1974, p. 1) found 
+that the median value of 826 chief executive officers' stock holdings in their com-
+panies at year end 1973 was $557,000 and $1.3 million at year end 1972. 
+73 These diversification effects can be substantial. It has been shown that on the 
+average, for New York Stock Exchange securities, approximately 55 percent of the 
+total risk (as measured by standard deviation of portfolio returns) can be eliminated 
+
+JENSEN I MECKLING I THEORY OF THE FIRM 1221 
+tion is then determined by the condition that ~V -M = O. In 
+general, if the returns to the firm are uncertain, the owner-
+manager can increase his welfare by selling off part of the 
+firm either as debt or equity and reinvesting the proceeds in 
+other assets. If he does this with the optimal combination of 
+debt and equity (as in fig. 6) the total wealth reduction he 
+will incur is given by the agency cost function, AT(E*, K; V*) 
+in figure 7. The functionsAT(E*, K; V*) will be S-shaped (as 
+drawn) if total agency costs for a given scale of firm increase 
+at an increasing rate at low levels of outside financing and at 
+a decreasing rate for high levels of outside financing as mon-
+itoring imposes more and more constraints on the manager's 
+actions. 
+Figure 8 shows marginal agency costs as a function of K, 
+the fraction of the firm financed with outside funds assum-
+ing the total agency cost function is as plotted in figure 7 and 
+assuming the scale of the firm is fixed. The demand by the 
+owner-manager for outside financing is shown by the re-
+maining curve in figure 8. This curve represents the mar-
+ginal value of the increased diversification that the manager 
+can obtain by reducing his ownership claims and optimally 
+constructing a diversified portfolio. It is measured by the 
+amount he would pay to be allowed to reduce his ownership 
+claims by a dollar in order to increase his diversification. If 
+the liquidation of some of his holdings also influences the 
+owner-manager's consumption set, the demand function 
+plotted in figure 8 also incorporates the marginal value of 
+these effects. The intersection of these two schedules deter-
+mines the optimal fraction of the firm to be held by out-
+siders, and this in turn determines the total agency costs 
+borne by the owner. This solution is Pareto-optimal; there is 
+no way to reduce the agency costs without making someone 
+worse-off. 
+The Optimal Scale of the Firm 
+While the details of the solution of the optimal scale of the 
+firm are complicated when we allow for the issuance of debt, 
+equity, and monitoring and bonding, the general structure 
+by following a naive strategy of dividing one's assets equally among 40 randomly 
+selected securities. J. L. Evans and S. H. Archer, "Diversification and the Reduction 
+of Dispersion: An Empirical Analysis," Journal of Finance 23 (1968): 761-768. 
+
+2221 ECONOMICS AND SOCIAL INSTITUTIONS 
+4- DEMAND FOR OUTSIDE FINANCING 
+MARGINAL AGENCY COST: 
+8 
+I 0 
+0) 
+8KA,E ,K;V 
+1.0 
+K 
+FRACTION OF FIRM FINANCED BY OUTSIDE CLAIMS 
+Figure 8. Determination of the optimal amount of outside financ-
+ing, K*, for a given scale of firm 
+of the solution is analogous to the case in which monitoring 
+and bonding are allowed for the outside equity example (see 
+fig. 4). 
+If it is optimal to issue any debt, the expansion path taking 
+full account of such opportunities must lie above the curve 
+ZG in figure 4. If this new expansion path lies anywhere to 
+the right of the indifference curve passing through point G, 
+debt will be used in the optimal financing package. Further-
+more, the optimal scale of the firm will be determined by the 
+point at which this new expansion path touches the highest 
+indifference curve. In this situation the resulting level of the 
+owner-manager's welfare must, therefore, be higher. 
+6. Qualifications and Extensions of the Analysis 
+Multiperiod Aspects of the Agency Problem 
+We have assumed throughout our analysis that we are deal-
+ing only with a single investment-financing decision by the 
+
+JENSEN I MECKLING I THEORY OF THE FIRM 1223 
+entrepreneur and have ignored the issues associated with the 
+incentives affecting future financing-investment decisions 
+that might arise after the initial set of contracts are consum-
+mated between the entrepreneur-manager, outside stock-
+holders, and bondholders. These are important issues left 
+for future analysis. 74 Their solution will undoubtedly intro-
+duce some changes in the conclusions of the single-decision 
+analysis. It seems clear, for instance, that the expectation of 
+future sales of outside equity and debt will change the costs 
+and benefits facing the manager in making decisions that 
+benefit himself at the (short-run) expense of the current 
+bondholders and stockholders. If he develops a reputation 
+for such dealings, he can expect this to influence unfavorably 
+the terms at which he can obtain future capital from outside 
+sources. This will tend to increase the benefits associated with 
+"sainthood" and will tend to reduce the size of the agency 
+costs. Given the finite life of any individual, however, such 
+an effect cannot reduce these costs to zero, because at some 
+point these future costs will begin to weigh more heavily on 
+his successors, and therefore the relative benefits to him of 
+acting in his own best interests will rise. 75 Furthermore, it 
+will generally be impossible for him to fully guarantee to the 
+outside interests that his successor will continue to follow his 
+policies. 
+The Control Problem and Outside Owner's Agency Costs 
+The careful reader will notice that nowhere in the analysis 
+thus far have we taken into account many of the details of 
+the relationship between the part owner-manager and the 
+outside stockholders and bondholders. In particular, we 
+have assumed that all outside equity is nonvoting. If such 
+equity does have voting rights, then the manager will be 
+74 The recent work of Myers, "Corporate Debt Capacity," which views future invest-
+ment opportunities as options and investigates the incentive effects of the existence 
+of debt in such a world where a sequence of investment decisions is made, is 
+another important step in the investigation of the multiperiod aspects of the agency 
+problem and the theory of the firm. 
+75 A special case of this problem, involving the use of nonvested pension rights to 
+help correct for this end-game play in the law enforcement area, is analyzed by G. 
+S. Becker and G. J. Stigler, "Law Enforcement, Corruption and Compensation of 
+Enforcers" (Paper presented at the Conference on Capitalism and Freedom, Char-
+lottesville, Va., Oct. 1972). 
+
+2241 ECONOMICS AND SOCIAL INSTITUTIONS 
+concerned about the effects on his long-run welfare of re-
+ducing his fractional ownership below the point at which he 
+loses effective control of the corporation-that is, below the 
+point at which it becomes possible for the outside equityhold-
+ers to fire him. A complete analysis of this issue will require 
+a careful specification of the contractual rights involved on 
+both sides, the role of the board of directors, and the coor-
+dination (agency) costs borne by the stockholders in imple-
+menting policy changes. This latter point involves consider-
+ation of the distribution of the outside ownership claims. 
+Simply put, forces exist to determine an equilibrium distri-
+bution of outside ownership. If the costs of reducing the 
+dispersion of ownership are lower than the benefits to be 
+obtained from reducing the agency costs, it will pay some 
+individual or group of individuals to buy shares in the mar-
+ket to reduce the dispersion of ownership. We occasionally 
+witness these conflicts for control, which involve outright 
+market purchases, tender offers, and proxy fights. Further 
+analysis of these issues is left to the future. 
+Inside Debt and the Use of Convertible Financial 
+Instruments 
+We have been asked why debt held by the manager (i.e., 
+"inside debt") plays no role in our analysis. 76 We have as yet 
+been unable to formally incorporate this dimension into our 
+analysis in a satisfactory way. The question is a good one and 
+suggests some potentially important extensions of the analy-
+sis. For instance, it suggests an inexpensive way for the 
+owner-manager with both equity and debt outstanding to 
+eliminate a large part (perhaps all) of the agency costs of 
+debt. If he binds himself contractually to hold a fraction of 
+the total debt equal to his fractional ownership of the total 
+equity, he would have no incentive whatsoever to reallocate 
+wealth from the debtholders to the stockholders. Consider 
+the case where 
+(4) 
+where S i and So are as defined earlier, B i is the dollar value 
+of the inside debt held by the owner-manager, and Bo is the 
+76 By our colleague David Henderson. 
+
+JENSEN I MECKLING I THEORY OF THE FIRM I 225 
+debt held by outsiders. In this case, if the manager changes 
+the investment policy of the firm to reallocate wealth be-
+tween the debt- and equityholders, the net effect on the total 
+value of his holdings in the firm will be zero. Therefore, his 
+incentives to perform such reallocations are zero. 77 
+Why, then, don't we observe practices or formal contracts 
+that accomplish this elimination or reduction of the agency 
+costs of debt? Maybe we do for smaller privately held firms 
+(we haven't attempted to obtain these data), but for large 
+diffuse owner corporations the practice does not seem to be 
+common. One reason for this, we believe, is that in some 
+respects the claim that the manager holds on the firm in the 
+form of his wage contract has some of the characteristics of 
+debt. 78 If true, this implies that, even with zero holdings of 
+formal debt claims, he still has positive holdings of a quasi-
+debt claim, and this may accomplish the satisfaction of con-
+dition (4). The problem here is that any formal analysis of 
+this issue requires a much deeper understanding of the re-
+lationship between formal debt holdings and the wage con-
+tract; that is, how much debt is it equivalent to? 
+This line of thought also suggests some other interesting 
+issues. Suppose the implicit debt characteristics of the man-
+ager's wage contract result in a situation equivalent to 
+Then he would have incentives to change the operating char-
+acteristics of the firm (i.e., reduce the variance of the out-
+come distribution) to transfer wealth from the stockholders 
+to the debtholders, which is the reverse of the situation we 
+examined in section 4. Furthermore, this seems to capture 
+some of the concern often expressed regarding the fact that 
+managers of large publicly held corporations seem to behave 
+77 This also suggests that some outside debtholders can protect themselves from "ex-
+ploitation" by the manager by purchasing a fraction of the total equity equal to 
+their fractional ownership of the debt. All debtholders, of course, cannot do this 
+unless the manager does so also. In addition, such an investment rule restricts the 
+portfolio choices of investors and therefore would impose costs if followed rigidly. 
+Thus, the agency costs will not be eliminated this way either. 
+78 Consider the stituation in which the bondholders have the right in the event of 
+bankruptcy to terminate his employment and therefore to terminate the future 
+returns to any specific human capital or rents he may be receiving. 
+
+2261 ECONOMICS AND SOCIAL INSTITUTIONS 
+in a risk-averse way, to the detriment of the equityholders. 
+One solution to this would be to establish incentive compen-
+sation systems for the manager or to give him stock options, 
+which in effect give him a claim on the upper tail of the 
+outcome distribution. This also seems to be a commonly ob-
+served phenomenon. 
+This analysis also suggests some additional issues regard-
+ing the costs and benefits associated with the use of more 
+complicated financial claims such as warrants, convertible 
+bonds, and convertible preferred stock, which we have not 
+formally analyzed as yet. These have some of the character-
+istics of nonvoting shares, although they can be converted 
+into voting shares under some terms. Alchian and Demsetz 
+provide an interesting analysis regarding the use of nonvot-
+ing shares. 79 They argue that some shareholders with strong 
+beliefs in the talents and the judgments of the manager will 
+want to be protected against the possibility that some other 
+shareholders will take over and limit the actions of the man-
+ager (or fire him). Given that the securities exchanges pro-
+hibit the use of nonvoting shares by listed firms, the use of 
+option-like securities might be a substitute for these claims. 
+In addition, warrants represent a claim on the upper tail 
+of the distribution of outcomes, and convertible securities 
+can be thought of as securities with nondetachable warrants. 
+It seems that the incentive effects of warrants would tend to 
+offset to some extent the incentive effects of the existence of 
+risky debt, because the owner-manager would be sharing 
+with the warrant holders part of the proceeds associated with 
+a shift in the distribution of returns. Thus, we conjecture 
+that potential bondholders will find it attractive to have war-
+rants attached to the risky debt of firms in which it is rela-
+tively easy to shift the distribution of outcomes to expand the 
+upper tail of the distribution and transfer wealth from bond-
+holders. It would then be attractive also to the owner-man-
+ager because of the reduction in the agency costs that he 
+would bear. This argument also implies that it would make 
+little difference if the warrants were detachable (and there-
+fore saleable separately from the bonds), since their mere 
+existence would reduce the incentives of the manager (or 
+stockholders) to increase the riskiness of the firm (and there-
+79 Alchian and Demsetz, "Production." 
+
+JENSEN I MECKLING I THEORY OF THE FIRM I 227 
+fore increase the probability of bankruptcy). Furthermore, 
+the addition of a conversion privilege to fixed claims such as 
+debt or preferred stock would also tend to reduce the incen-
+tive effects of the existence of such fixed claims and there-
+fore lower the agency costs associated with them. The theory 
+predicts that these phenomena should be more frequently 
+observed when the incentive effects of such fixed claims are 
+high than when they are low. 
+Monitoring and the Social Product of Security Analysts 
+One of the areas in which further analysis is likely to lead to 
+high payoffs is that of monitoring. We currently have little 
+that could be glorified by the title of a "theory of monitor-
+ing," and yet this is a crucial building block of the analysis. 
+We would expect monitoring activities to become specialized 
+to those institutions and individuals who possess comparative 
+advantages in these activities. A large role in these activities 
+seems to be played by the security analysts employed by in-
+stitutional investors, brokers, and investment advisory ser-
+vices, as well as by individual investors in the normal course 
+of investment decision making. 
+A large body of evidence indicates that security prices in-
+corporate in an unbiased manner all publicly available infor-
+mation and much of what might be called "private informa-
+tion."80 There is also a large body of evidence indicating that 
+the security-analysis activities of mutual funds and other in-
+stitutional investors are not reflected in portfolio returns; 
+that is, they do not increase risk-adjusted portfolio returns 
+over a naive random-selection, buy-and-hold strategy.S1 
+Therefore, some have been tempted to conclude that the 
+resources expended on such research activities to find 
+under- or overvalued securities is a social loss. Jensen argues, 
+however, that this conclusion cannot be unambiguously 
+drawn because there is a large consumption element in the 
+demand for these services. 82 
+80 See E. F. Fama, "Efficient Capital Markets: A Review of Theory and Empirical 
+Work,"Journal of Finance 25 (1970): 383-417. 
+81 For an example of this evidence and for references, see M. C. Jensen, "Risk, the 
+Pricing of Capital Assets, and the Evaluation of Investment Portfolios," Journal 0/ 
+Business 42 (1969): 167-247. 
+82 M. C. Jensen, "Tests of Capital Market Theory and Implications of the Evidence," 
+Graduate School of Management Working Paper Series no. 7414 (Rochester, N.Y.: 
+University of Rochester, 1974). 
+
+2281 ECONOMICS AND SOCIAL INSTITUTIONS 
+Furthermore, the analysis of this paper would seem to 
+indicate that, to the extent that security-analysis activities re-
+duce the agency costs associated with the separation of own-
+ership and control, they are indeed socially productive. 
+Moreover, if this is true, we expect the major benefits of 
+these activities to be reflected in the higher capitalized value 
+of the ownership claims to corporations and not in the pe-
+riod-to-period portfolio returns of the analyst. Equilibrium 
+in the security-analysis industry requires that the private re-
+turns to analysis (i.e., portfolio returns) must be just equal to 
+the private costs of such activity,83 and this will not reflect the 
+social product of this activity, which will consist of larger 
+output and higher levels of the capital value of ownership 
+claims. Therefore, the argument implies that if there is a 
+nonoptimal amount of security analysis being performed, it 
+is too much,84 not too little (since the shareholders would be 
+willing to pay directly to have the "optimal" monitoring per-
+formed, and we don't seem to observe such payments). 
+Specialization in the Use of Debt and Equity 
+Our previous analysis of agency costs suggests at least one 
+other testable hypothesis-that in those industries in which 
+the incentive effects of outside equity or debt are widely 
+different, we would see specialization in the use of the low-
+agency cost financing arrangement. In industries in which it 
+is relatively easy for managers to lower the mean value of the 
+outcomes of the enterprise by outright theft, special treat-
+ment of favored customers, consumption of leisure on the 
+job, etc. (for example, the bar and restaurant industry), we 
+would expect to see the ownership structure of firms char-
+acterized by relatively little outside equity (i.e., 100 percent 
+ownership of the equity by the manager), with almost all 
+outside capital obtained through the use of debt. 
+The theory predicts that the opposite would be true when 
+the incentive effects of debt are large relative to the incentive 
+effects of equity. Firms like conglomerates, in which it would 
+be easy to shift outcome distributions adversely for bond-
+holders (by changing the acquisition or divestiture policy), 
+83 Ignoring any pure consumption elements in the demand for security analysis. 
+84 Again ignoring the value of the pure consumption elements in the demand for 
+security analysis. 
+
+JENSEN I MECKLING I THEORY OF THE FIRM 1229 
+should be characterized by relatively lower utilization of 
+debt. Conversely, in industries in which the freedom of man-
+agement to take riskier projects is severely constrained (for 
+example, regulated industries such as public utilities) we 
+should find more intensive use of debt financing. 
+The analysis suggests that, in addition to the fairly well 
+understood role of uncertainty in the determination of the 
+quality of collateral, there is at least one other element of 
+great importance-the ability of the owner of the collateral 
+to change the distribution of outcomes by shifting either the 
+mean outcome or the variance of the outcomes. A study of 
+bank lending policies should reveal these to be important 
+aspects of the contractual practices observed there. 
+The Large Diffuse-Ownership Corporation 
+While we believe the structure outlined in the preceding 
+pages is applicable to a wide range of corporations, it is still 
+in an incomplete state. One of the most serious limitations of 
+the analysis as it stands is that we have not worked out in this 
+paper its application to the very large modern corporation 
+whose managers own little or no equity. We believe our ap-
+proach can be applied to this case, but space limitations pre-
+clude discussion of these issues here. They remain to be 
+worked out in detail and will be included in a future paper. 
+The Supply Side of the Incomplete Markets Question 
+The analysis of this paper is also relevant to the incomplete 
+market issue. 85 The problems addressed in this literature 
+derive from the fact that, whenever the available set of finan-
+cial claims on outcomes in a market fails to span the under-
+lying state space, the resulting allocation is Pareto-ineffi-
+cient.86 A disturbing element in this literature is that the 
+85 See, among others, K. J. Arrow, "Role of Securities"; P. A. Diamond, "The Role of 
+a Stock Market in a General Equilibrium Model with Technological Uncertainty," 
+American Economic Review 57 (1967): 759-76; N. H. Hakansson, "The Superfund: 
+Efficient Paths toward a Complete Financial Market," unpublished (University of 
+California, Berkeley, 1974); idem, "Ordering Markets and the Capital Structures 
+of Firms with Illustrations," Institute of Business and Economic Research Working 
+Paper no. 24 (Berkeley: University of California, 1974); M. Rubenstein, "A Dis-
+crete-Time Synthesis of Financial Theory," ibid., nos. 20, 21 (1974); S. A. Ross, 
+"Options and Efficiency," Rodney L. White Center for Financial Research Working 
+Paper no. 3-74 (Philadelphia: University of Pennsylvania, 1974). 
+86 See Arrow, "Role of Securities," and Debreu, Theory of Value. 
+
+230 I ECONOMICS AND SOCIAL INSTITUTIONS 
+inefficiency conclusion is generally drawn without explicit 
+attention in the analysis to the costs of creating new claims or 
+of maintaining the expanded set of markets called for to 
+bring about the welfare improvement. 
+The demonstration of a possible welfare improvement 
+from the expansion of the set of claims by the introduction 
+of new basic contingent claims or options can be thought of 
+as an analysis of the demand conditions for new markets. 
+Viewed from this perspective, what is missing in the litera-
+ture on this problem is the formulation of a positive analysis 
+of the supply of markets (or the supply of contingent claims). 
+That is, what is it in the maximizing behavior of individuals 
+in the economy that causes them to create and sell contingent 
+claims of various sorts? 
+The analysis in this paper can be viewed as a small first 
+step in the direction of formulating such an analysis based 
+on the self-interested maximizing behavior of individuals. 
+We have shown why it is in the interest of a wealth-maximiz-
+ing entrepreneur to create and sell claims such as debt and 
+equity. Furthermore, as we have indicated above, it appears 
+that extensions of these arguments will lead to a theory of 
+the supply of warrants, convertible bonds, and convertible 
+preferred stock. We are not suggesting that the specific anal-
+ysis offered above is likely to be sufficient to lead to a theory 
+of the supply of the wide range of contracts (both existing 
+and merely potential) in the world at large. However, we do 
+believe that framing the question of the completeness of 
+markets in terms of the joining of both the demand and 
+supply conditions, instead of implicitly assuming that new 
+claims spring forth from some (costless) wellhead of creativ-
+ity unaided or unsupported by human effort, will be very 
+fruitful. 
+7. Conclusions 
+The publicly held business corporation is an awesome social 
+invention. Millions of individuals voluntarily entrust billions 
+of dollars, francs, pesos, etc., of personal wealth to the care 
+of managers on the basis of a complex set of contracting 
+relationships that delineate the rights of the parties involved. 
+The growth in the use of the corporate form as well as the 
+
+JENSEN I MECKLING I THEORY OF THE FIRM 1231 
+growth in market value of established corporations suggest 
+that, at least up to the present, creditors and investors have 
+by and large not been disappointed with the results, despite 
+the agency costs inherent in the corporate form. 
+Agency costs are as real as any other costs. The level of 
+agency costs depends, among other things, on statutory and 
+common law and human ingenuity in devising contracts. 
+Both the law and the sophistication of contracts relevant to 
+the modern corporation are the products of a historical proc-
+ess in which there were strong incentives for individuals to 
+minimize agency costs. Moreover, there were alternative or-
+ganizational forms available and opportunities to invent new 
+ones. Whatever its shortcomings, the corporation has thus 
+far survived the market test against potential alternatives. 

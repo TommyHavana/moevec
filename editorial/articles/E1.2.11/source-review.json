@@ -1,0 +1,105 @@
+{
+  "checked_on": "2026-10-29",
+  "sources": [
+    {
+      "name": "Eurostat, gov_10a_exp, protección social COFOG, 2024",
+      "url": "https://ec.europa.eu/eurostat/databrowser/view/gov_10a_exp/default/table?lang=en",
+      "scope": "API primaria descargada el 29/10/2026, actualización 21/10/2026: S13/TE/GF10/PC_GDP, España 18,7, UE27 19,5, año 2024. España marcada p en respuesta; metadatos señalan provisionalidad de España y agregado UE. No ESSPROS o gasto total."
+    },
+    {
+      "name": "Eurostat, metadatos de gasto por funciones COFOG",
+      "url": "https://ec.europa.eu/eurostat/cache/metadata/en/gov_10a_exp_esms.htm",
+      "scope": "Definiciones, sector administraciones públicas y provisionalidad por países. No suma con series de otra definición ni clasificación de responsabilidad."
+    },
+    {
+      "name": "Ministerio de Empleo de Dinamarca, reforma de servicios de empleo",
+      "url": "https://bm.dk/arbejdsomraader/aktuelle-fokusomraader/reform-af-beskaeftigelsesindsatsen",
+      "scope": "Acuerdo político 09/04/2025 y objetivos de simplificación/apoyo adaptado, texto primario en danés. Objetivos y previsiones no tratados como evaluación causal cumplida."
+    },
+    {
+      "name": "OCDE, Economic Surveys: Denmark 2026, servicios públicos de empleo",
+      "url": "https://www.oecd.org/en/publications/oecd-economic-surveys-denmark-2026_3d6cb4b8-en/full-report/sustaining-growth-in-denmark-s-two-speed-economy_c22c05f5.html",
+      "scope": "Pasaje Achieving savings in public employment services: acuerdo abril 2025, simplificación y riesgos al preservar flexiguridad. Lectura web, descarga local 403; sin ahorros o empleo realizados inventados."
+    },
+    {
+      "name": "Nima Sanandaji, Scandinavian Unexceptionalism, 2015, resumen",
+      "url": "https://www.iea.org.uk/sites/default/files/publications/files/Sanandajinima-interactive.pdf",
+      "scope": "Resumen del autor, páginas xiii–xv, consultado por web. Crítica a explicación exclusiva por bienestar; sin reproducir sus cifras históricas ni convertir tesis en causalidad establecida. Prólogo de Palmer diferenciado; no libro íntegro leído, descarga 403."
+    }
+  ],
+  "archived_files": [
+    {
+      "file": "sources/denmark-reform.html",
+      "bytes": 27512,
+      "sha256": "42e8ff6ee109745d2cc6eaecae8ce46e6a9d8adf5e6e1f859a89a4f9373ae6a3"
+    },
+    {
+      "file": "sources/denmark-reform.visible.txt",
+      "bytes": 4271,
+      "sha256": "628f82b9e5616c92b9b58fb4d29f73c8a2b2b0185d148322867323090ac6e67d"
+    },
+    {
+      "file": "sources/download-log-extra.json",
+      "bytes": 507,
+      "sha256": "249da779956dbae39bcfedb4a1077bce299807b19ea9fcff580e0d0dbfae83de"
+    },
+    {
+      "file": "sources/download-log.json",
+      "bytes": 1723,
+      "sha256": "c84499d1ab437f2ff03a3d88e28f35b068fc12daf0f668ff3f396e2e04d8df32"
+    },
+    {
+      "file": "sources/eurostat-cofog-meta.html",
+      "bytes": 196645,
+      "sha256": "f8ffa881e0e51d1185da4b0e1be93b2f0d5103a05573d10976236a3625a78db5"
+    },
+    {
+      "file": "sources/eurostat-cofog-meta.visible.txt",
+      "bytes": 31583,
+      "sha256": "41a451b7d9362e2012509713f9c6aed84114b13372c266e184d7647e1ebb1f62"
+    },
+    {
+      "file": "sources/eurostat-cofog2024.html",
+      "bytes": 3102,
+      "sha256": "5e05ec32391470e9abf536741d3f76989fc31b4a2d9fb0c40c179a57d5201b45"
+    },
+    {
+      "file": "sources/eurostat-cofog2024.visible.txt",
+      "bytes": 2527,
+      "sha256": "06d80a8df5f31315d955048d7cf7abe08914446d2de3f20bc90f340355665218"
+    },
+    {
+      "file": "sources/oecd-denmark2026-access-error.json",
+      "bytes": 267,
+      "sha256": "7b1d288c40db276964480480605f3c3bbbbd12f3937217566941818197c4c6c7"
+    },
+    {
+      "file": "sources/reading-scope.json",
+      "bytes": 2941,
+      "sha256": "174756f714f1abcff6700fb13e38add9ac8f879ad55d5f40c4dee350f4407519"
+    },
+    {
+      "file": "sources/sanandaji2015-access-error.json",
+      "bytes": 197,
+      "sha256": "befff3dd15424efc7a2e9c190b03d6d77451ee280af4b1e0a49f3e58cc03f1e9"
+    },
+    {
+      "file": "sources/web-reading-notes.json",
+      "bytes": 1053,
+      "sha256": "2276da9510c7d889182c2bf380295d47bfa5d7e34be474954f921d9402e9f546"
+    }
+  ],
+  "omitted_claims": [
+    "No gasto social como medida de responsabilidad o abuso.",
+    "No mezclar COFOG con ESSPROS, impuestos o gasto público total.",
+    "No reforma danesa presentada como efecto causal ya obtenido ni todos los países nórdicos iguales.",
+    "No tasas individuales de sustitución, derechos a prestaciones, consejo fiscal o ratios de ahorro sin verificación específica."
+  ],
+  "scope": "Lectura pertinente especificada; archivo completo no implica lectura íntegra. Problemas de acceso y fuentes compartidas identificados.",
+  "final_verification": {
+    "checked_at": "2026-10-29T10:30:17.591647+00:00",
+    "published_url": "https://moevec.org/blog/responsabilidad-estado-bienestar-espana/",
+    "public_checks": "verification.json",
+    "wordpress_registry_words": 1276
+  }
+}

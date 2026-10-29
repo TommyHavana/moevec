@@ -1,0 +1,50 @@
+{
+  "checked_at": "2026-10-29T10:07:28.587229+00:00",
+  "id": "E1.2.11",
+  "primary_sources_read": true,
+  "full_books_read": false,
+  "scope": [
+    {
+      "name": "Eurostat, gov_10a_exp, protección social COFOG, 2024",
+      "url": "https://ec.europa.eu/eurostat/databrowser/view/gov_10a_exp/default/table?lang=en",
+      "scope": "API primaria descargada el 29/10/2026, actualización 21/10/2026: S13/TE/GF10/PC_GDP, España 18,7, UE27 19,5, año 2024. España marcada p en respuesta; metadatos señalan provisionalidad de España y agregado UE. No ESSPROS o gasto total."
+    },
+    {
+      "name": "Eurostat, metadatos de gasto por funciones COFOG",
+      "url": "https://ec.europa.eu/eurostat/cache/metadata/en/gov_10a_exp_esms.htm",
+      "scope": "Definiciones, sector administraciones públicas y provisionalidad por países. No suma con series de otra definición ni clasificación de responsabilidad."
+    },
+    {
+      "name": "Ministerio de Empleo de Dinamarca, reforma de servicios de empleo",
+      "url": "https://bm.dk/arbejdsomraader/aktuelle-fokusomraader/reform-af-beskaeftigelsesindsatsen",
+      "scope": "Acuerdo político 09/04/2025 y objetivos de simplificación/apoyo adaptado, texto primario en danés. Objetivos y previsiones no tratados como evaluación causal cumplida."
+    },
+    {
+      "name": "OCDE, Economic Surveys: Denmark 2026, servicios públicos de empleo",
+      "url": "https://www.oecd.org/en/publications/oecd-economic-surveys-denmark-2026_3d6cb4b8-en/full-report/sustaining-growth-in-denmark-s-two-speed-economy_c22c05f5.html",
+      "scope": "Pasaje Achieving savings in public employment services: acuerdo abril 2025, simplificación y riesgos al preservar flexiguridad. Lectura web, descarga local 403; sin ahorros o empleo realizados inventados."
+    },
+    {
+      "name": "Nima Sanandaji, Scandinavian Unexceptionalism, 2015, resumen",
+      "url": "https://www.iea.org.uk/sites/default/files/publications/files/Sanandajinima-interactive.pdf",
+      "scope": "Resumen del autor, páginas xiii–xv, consultado por web. Crítica a explicación exclusiva por bienestar; sin reproducir sus cifras históricas ni convertir tesis en causalidad establecida. Prólogo de Palmer diferenciado; no libro íntegro leído, descarga 403."
+    }
+  ],
+  "limits": [
+    "No gasto social como medida de responsabilidad o abuso.",
+    "No mezclar COFOG con ESSPROS, impuestos o gasto público total.",
+    "No reforma danesa presentada como efecto causal ya obtenido ni todos los países nórdicos iguales.",
+    "No tasas individuales de sustitución, derechos a prestaciones, consejo fiscal o ratios de ahorro sin verificación específica."
+  ],
+  "image_review": "individual tool images and /tmp/mee190-192-mosaic.png",
+  "text_checks": {
+    "keyword_h2": true,
+    "first_table_nine_fields": true,
+    "two_hypothetical_examples": true,
+    "faq_words": [
+      51,
+      53,
+      51
+    ]
+  }
+}

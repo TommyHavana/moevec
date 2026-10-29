@@ -1,0 +1,19 @@
+# Investigación y publicación · E1.2.12
+
+Consulta: 29/10/2026. Lectura pertinente y límites, sin fingir lectura íntegra.
+
+- [Gaceta Oficial de Cuba, edición ordinaria 78, 19/08/2024](https://www.gacetaoficial.gob.cu/sites/default/files/goc-2024-o78.pdf): DL88: preámbulo, disposiciones generales y final sexta que deroga DL46/2021. Lectura histórica, no marco de 2024 presentado sin cambios posteriores.
+- [Gaceta Oficial de Cuba, edición especial 12, 07/09/2026](https://www.gacetaoficial.gob.cu/sites/default/files/goc-2026-es12.pdf): Edición anotada/concordada: nota inicial, DL88 artículos 1–7,9 y cambios indicados del DL133 de 19/08/2026, publicado 02/09/2026. Más de cien trabajadores y alcance, patrimonio/obligaciones y permisos. PDF oficial descargado y reproducción cotejados por SHA256; no conjunto íntegro de legislación aplicado al lector.
+- [Gaceta Oficial de Cuba 24, 03/03/2026, DL 114/2025, reproducción del texto primario](https://www.cubanet.org/wp-content/uploads/2026/03/Gaceta-Oficial-Decreto-Ley-1142025.pdf): Sumario y preámbulo recuperados por índice primario. Solo publicación y objeto de asociaciones estatales/no estatales; descarga 403, sin afirmar lectura íntegra o resultado de implementación.
+
+## Límites
+
+- No afirmar reglas de 2021 vigentes sin reformas: DL88/2024 y texto actualizado septiembre 2026 identificados.
+- No tasa 24 CUP/USD de 2021 como actual ni cotizaciones o acceso a divisas afirmados. F-201 histórico no utilizado para describir mercado actual.
+- No todos los cambios sin aviso ni mayor responsabilidad que cualquier otro país sin comparación empírica.
+- No afirmar ausencia total de protección ni responsabilidad personal ilimitada de todo socio.
+- No testimonios, empresas reales, cifras de escasez o éxito, instrucciones de importación ni asesoramiento jurídico/contable personalizados.
+
+## Resultado
+
+https://moevec.org/blog/pequenos-negocios-cuba-responsabilidad/ · 1307 palabras del registro WordPress. Una publicación y tres adjuntos, sin duplicados.

@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-29T09:48:28+00:00.
+Comprobado en WordPress: 2026-10-29T10:27:04+00:00.
 
-**189/840 terminadas · 0 en curso · 651 pendientes.**
+**195/840 terminadas · 0 en curso · 645 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -201,12 +201,12 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 187 | 13/56 · 7/15 | E1.2.07 | Riesgo moral: qué pasa cuando otros pagan tus errores | terminada | 3/3 | [Leer](https://moevec.org/blog/riesgo-moral-otros-pagan-tus-errores/) |
 | 188 | 13/56 · 8/15 | E1.2.08 | «Jugarse la piel»: por qué debe decidir quien asume las consecuencias | terminada | 3/3 | [Leer](https://moevec.org/blog/jugarse-la-piel/) |
 | 189 | 13/56 · 9/15 | E1.2.09 | Victimismo y agencia: cómo cambia una sociedad según la historia que se cuenta | terminada | 3/3 | [Leer](https://moevec.org/blog/victimismo-y-agencia/) |
-| 190 | 13/56 · 10/15 | E1.2.10 | Responsabilidad en la empresa: dueños, gerentes y la tentación de no responder | pendiente | 0/3 | — |
-| 191 | 13/56 · 11/15 | E1.2.11 | Responsabilidad y Estado de bienestar: el debate en España | pendiente | 0/3 | — |
-| 192 | 13/56 · 12/15 | E1.2.12 | Pequeños negocios en Cuba: responsabilidad sin red | pendiente | 0/3 | — |
-| 193 | 13/56 · 13/15 | E1.2.13 | La generación que pagará la deuda: responsabilidad fiscal entre generaciones | pendiente | 0/3 | — |
-| 194 | 13/56 · 14/15 | E1.2.14 | Responsabilidad personal y salud: hábitos, sistema y libertad | pendiente | 0/3 | — |
-| 195 | 13/56 · 15/15 | E1.2.15 | Cómo enseñar responsabilidad a los hijos sin sermones | pendiente | 0/3 | — |
+| 190 | 13/56 · 10/15 | E1.2.10 | Responsabilidad en la empresa: dueños, gerentes y la tentación de no responder | terminada | 3/3 | [Leer](https://moevec.org/blog/responsabilidad-en-la-empresa/) |
+| 191 | 13/56 · 11/15 | E1.2.11 | Responsabilidad y Estado de bienestar: el debate en España | terminada | 3/3 | [Leer](https://moevec.org/blog/responsabilidad-estado-bienestar-espana/) |
+| 192 | 13/56 · 12/15 | E1.2.12 | Pequeños negocios en Cuba: responsabilidad sin red | terminada | 3/3 | [Leer](https://moevec.org/blog/pequenos-negocios-cuba-responsabilidad/) |
+| 193 | 13/56 · 13/15 | E1.2.13 | La generación que pagará la deuda: responsabilidad fiscal entre generaciones | terminada | 3/3 | [Leer](https://moevec.org/blog/deuda-publica-responsabilidad-generaciones/) |
+| 194 | 13/56 · 14/15 | E1.2.14 | Responsabilidad personal y salud: hábitos, sistema y libertad | terminada | 3/3 | [Leer](https://moevec.org/blog/responsabilidad-personal-y-salud/) |
+| 195 | 13/56 · 15/15 | E1.2.15 | Cómo enseñar responsabilidad a los hijos sin sermones | terminada | 3/3 | [Leer](https://moevec.org/blog/ensenar-responsabilidad-hijos/) |
 | 196 | 14/56 · 1/15 | E5.8.01 | Ahorrar es el origen del capital: la idea central de Bastos | pendiente | 0/3 | — |
 | 197 | 14/56 · 2/15 | E5.8.02 | Frugalidad no es tacañería | pendiente | 0/3 | — |
 | 198 | 14/56 · 3/15 | E5.8.03 | Interés compuesto: la fuerza que trabaja mientras duermes | pendiente | 0/3 | — |
