@@ -1,0 +1,107 @@
+{
+  "checked_on": "2026-10-29",
+  "sources": [
+    {
+      "name": "FMI, WEO de octubre de 2026: inflación media de Venezuela",
+      "url": "https://www.imf.org/external/datamapper/PCPIPCH@WEO/VEN",
+      "scope": "API PCPIPCH y metadatos archivados; Venezuela2018=65374.1, variación de CPI medio anual. La ruta API /VEN devuelve también otros países: extracción limitada a VEN. No tasa diciembre/diciembre ni previsión2026."
+    },
+    {
+      "name": "FMI, Guidelines for Fiscal Adjustment, capítulo I",
+      "url": "https://www.imf.org/external/pubs/ft/pam/pam49/pam4901.htm",
+      "scope": "Pasajes primarios consultados vía lectura web: emisión, demanda de dinero, señoreaje e impuesto inflacionario. Acceso directo403 conservado. No toda inflación equivale a ingreso fiscal ni lectura íntegra de todo el documento."
+    },
+    {
+      "name": "Phillip Cagan, The Monetary Dynamics of Hyperinflation, 1956",
+      "url": "https://www.scribd.com/document/563996258/Cagan-1956-The-monetary-dynamics-of-hyperinflation",
+      "scope": "Pasajes OCR identificados del capítulo original, incluidos p87–88 sobre demanda de saldos y expectativas, accesibles por índice web. Descarga local es reto de acceso: renombrada y documentada. No usar resúmenes IA del alojamiento ni fingir lectura íntegra, ni cita célebre atribuida a Friedman."
+    },
+    {
+      "name": "FMI, Regional Spillovers from the Venezuelan Crisis, 2022",
+      "url": "https://www.imf.org/-/media/files/publications/dp/2022/english/rsvcea.pdf",
+      "scope": "PDF61p abierto por web; pasajes pertinentes p9–11 sobre petróleo, monetización y cronología de sanciones. Directo403 y captura PDF fallida documentados. No lectura íntegra, inspección gráfica fingida ni estimación propia de causalidad. Opiniones de autores y límites de datos del estudio."
+    },
+    {
+      "name": "Valerie Cerra, Inflation and the Black Market Exchange Rate in a Repressed Market: A Model of Venezuela, 2016",
+      "url": "https://www.imf.org/external/pubs/ft/wp/2016/wp16159.pdf",
+      "scope": "Resumen primario del working paper16/159 consultado; modelo de ingresos petroleros y racionamiento cambiario. Descarga directa403; no lectura íntegra del PDF ni cuota causal empírica."
+    }
+  ],
+  "archived_files": [
+    {
+      "file": "sources/cagan-access-note.json",
+      "bytes": 539,
+      "sha256": "0a415690d9c118825bfdff87aafdace6f08113c698472d2e3429d58d24729a55"
+    },
+    {
+      "file": "sources/cagan1956-access-challenge.html",
+      "bytes": 1643782,
+      "sha256": "52665aacabefb4b3b2a4004823c60e71c914ee68d78761877685baca3077f866"
+    },
+    {
+      "file": "sources/cagan1956-access-challenge.txt",
+      "bytes": 1346257,
+      "sha256": "9ff4fb2d93b3d189cf140087f418489e7a82e9afe423f436013feec1a6060b57"
+    },
+    {
+      "file": "sources/cagan1956-access-challenge.visible.txt",
+      "bytes": 1716,
+      "sha256": "5b7841ee81b1ae529084ede7628413646eb4a961df0b68185d082fc824eb8b6b"
+    },
+    {
+      "file": "sources/cerra2016.pdf.error.json",
+      "bytes": 106,
+      "sha256": "579dc1ae115e43876a5a120c8e28c99f00042f57cdbf65539bc0aaf19982c250"
+    },
+    {
+      "file": "sources/imf-fiscal-guidelines.html.error.json",
+      "bytes": 108,
+      "sha256": "7212345b0bea0aed93e0a14cbeced2fd94c41ac3dd6937a93130b37891dd7474"
+    },
+    {
+      "file": "sources/imf-spillovers2022.pdf.error.json",
+      "bytes": 123,
+      "sha256": "00989296bcd010c83eaa81845232eb56fe67793542f0831ca3d7091ba52525e4"
+    },
+    {
+      "file": "sources/reading-scope.json",
+      "bytes": 3089,
+      "sha256": "94c00889a2d3f2fe790f77638c81cc570b187bb5fa40d415adf4166a80d47882"
+    },
+    {
+      "file": "sources/web-primary-reading.json",
+      "bytes": 208010,
+      "sha256": "cf9906286835ea32966aa4832ed1bd4bc6ca6e877f76caceef611a9e2be5b759"
+    },
+    {
+      "file": "sources/weo-download.json",
+      "bytes": 261,
+      "sha256": "d7032d4ba9dff39390255e5d7e5075afaca460e87e443520fe3996fe35fa5c89"
+    },
+    {
+      "file": "sources/weo-inflation-average.json",
+      "bytes": 121340,
+      "sha256": "e36fb78dc58c5b50df615add2656469d316fe0c11416559b473de78d56b9aa1d"
+    },
+    {
+      "file": "sources/weo-inflation-metadata.json",
+      "bytes": 48417,
+      "sha256": "30d77f9f74ca8c2777193db842876398688dad62f846e76fbdf4d49899e48d62"
+    }
+  ],
+  "omitted_claims": [
+    "686.4%2021 sin verificar en BCV y sin distinguir fin de año de promedio.",
+    "Previsión FMI2018 de un millón por ciento como observación realizada.",
+    "Todas las subidas de precios como dinero cobrado por el Estado.",
+    "Porcentaje causal propio de sanciones, petróleo o emisión.",
+    "Todos los pobres como mayores pagadores absolutos sin microdatos.",
+    "Cita de Friedman o lectura íntegra de Cagan no acreditadas."
+  ],
+  "scope": "Lectura pertinente especificada; archivo completo no implica lectura íntegra. Problemas de acceso y fuentes compartidas identificados.",
+  "final_verification": {
+    "checked_at": "2026-10-29T04:38:07.777248+00:00",
+    "published_url": "https://moevec.org/blog/inflacion-impuesto-venezuela/",
+    "public_checks": "verification.json",
+    "wordpress_registry_words": 1171
+  }
+}

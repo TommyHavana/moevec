@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-29T03:29:17+00:00.
+Comprobado en WordPress: 2026-10-29T04:34:49+00:00.
 
-**132/840 terminadas · 0 en curso · 708 pendientes.**
+**141/840 terminadas · 0 en curso · 699 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -144,15 +144,15 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 130 | 9/56 · 10/15 | E7.2.10 | Pensiones: el mayor gasto del Estado | terminada | 3/3 | [Leer](https://moevec.org/blog/pensiones-mayor-gasto/) |
 | 131 | 9/56 · 11/15 | E7.2.11 | Argentina: el aporte solidario de las grandes fortunas (2020) | terminada | 3/3 | [Leer](https://moevec.org/blog/argentina-aporte-solidario/) |
 | 132 | 9/56 · 12/15 | E7.2.12 | Colombia: reformas tributarias y protestas | terminada | 3/3 | [Leer](https://moevec.org/blog/colombia-reformas-tributarias/) |
-| 133 | 9/56 · 13/15 | E7.2.13 | La inflación es un impuesto: el caso venezolano | pendiente | 0/3 | — |
-| 134 | 9/56 · 14/15 | E7.2.14 | Cómo leer tu nómina y tu declaración de la renta | pendiente | 0/3 | — |
-| 135 | 9/56 · 15/15 | E7.2.15 | Presupuestos públicos: cómo consultarlos tú mismo | pendiente | 0/3 | — |
-| 136 | 10/56 · 1/15 | E7.3.01 | Permiso, límite de uso y expropiación: tres situaciones distintas | pendiente | 0/3 | — |
-| 137 | 10/56 · 2/15 | E7.3.02 | Las nacionalizaciones cubanas de 1959–1960 | pendiente | 0/3 | — |
-| 138 | 10/56 · 3/15 | E7.3.03 | YPF: de la expropiación a la sentencia anulada | pendiente | 0/3 | — |
-| 139 | 10/56 · 4/15 | E7.3.04 | Bolivia: la nacionalización de los hidrocarburos (2006) | pendiente | 0/3 | — |
-| 140 | 10/56 · 5/15 | E7.3.05 | Venezuela: expropiaciones y arbitrajes internacionales | pendiente | 0/3 | — |
-| 141 | 10/56 · 6/15 | E7.3.06 | Zimbabue: reforma agraria e hiperinflación | pendiente | 0/3 | — |
+| 133 | 9/56 · 13/15 | E7.2.13 | La inflación es un impuesto: el caso venezolano | terminada | 3/3 | [Leer](https://moevec.org/blog/inflacion-impuesto-venezuela/) |
+| 134 | 9/56 · 14/15 | E7.2.14 | Cómo leer tu nómina y tu declaración de la renta | terminada | 3/3 | [Leer](https://moevec.org/blog/como-leer-nomina-y-renta/) |
+| 135 | 9/56 · 15/15 | E7.2.15 | Presupuestos públicos: cómo consultarlos tú mismo | terminada | 3/3 | [Leer](https://moevec.org/blog/consultar-presupuestos-publicos/) |
+| 136 | 10/56 · 1/15 | E7.3.01 | Permiso, límite de uso y expropiación: tres situaciones distintas | terminada | 3/3 | [Leer](https://moevec.org/blog/permiso-limite-expropiacion/) |
+| 137 | 10/56 · 2/15 | E7.3.02 | Las nacionalizaciones cubanas de 1959–1960 | terminada | 3/3 | [Leer](https://moevec.org/blog/nacionalizaciones-cubanas-1959-1960/) |
+| 138 | 10/56 · 3/15 | E7.3.03 | YPF: de la expropiación a la sentencia anulada | terminada | 3/3 | [Leer](https://moevec.org/blog/ypf-expropiacion-sentencia/) |
+| 139 | 10/56 · 4/15 | E7.3.04 | Bolivia: la nacionalización de los hidrocarburos (2006) | terminada | 3/3 | [Leer](https://moevec.org/blog/bolivia-nacionalizacion-hidrocarburos/) |
+| 140 | 10/56 · 5/15 | E7.3.05 | Venezuela: expropiaciones y arbitrajes internacionales | terminada | 3/3 | [Leer](https://moevec.org/blog/venezuela-expropiaciones-arbitrajes/) |
+| 141 | 10/56 · 6/15 | E7.3.06 | Zimbabue: reforma agraria e hiperinflación | terminada | 3/3 | [Leer](https://moevec.org/blog/zimbabue-reforma-agraria/) |
 | 142 | 10/56 · 7/15 | E7.3.07 | Control de alquileres: Berlín, San Francisco y España | pendiente | 0/3 | — |
 | 143 | 10/56 · 8/15 | E7.3.08 | Zonificación: por qué Tokio construye y otras ciudades no | pendiente | 0/3 | — |
 | 144 | 10/56 · 9/15 | E7.3.09 | Ocupación ilegal de viviendas: qué dice la ley en España | pendiente | 0/3 | — |

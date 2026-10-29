@@ -1,0 +1,52 @@
+{
+  "checked_at": "2026-10-29T03:59:51.444919+00:00",
+  "id": "E7.2.13",
+  "primary_sources_read": true,
+  "full_books_read": false,
+  "scope": [
+    {
+      "name": "FMI, WEO de octubre de 2026: inflación media de Venezuela",
+      "url": "https://www.imf.org/external/datamapper/PCPIPCH@WEO/VEN",
+      "scope": "API PCPIPCH y metadatos archivados; Venezuela2018=65374.1, variación de CPI medio anual. La ruta API /VEN devuelve también otros países: extracción limitada a VEN. No tasa diciembre/diciembre ni previsión2026."
+    },
+    {
+      "name": "FMI, Guidelines for Fiscal Adjustment, capítulo I",
+      "url": "https://www.imf.org/external/pubs/ft/pam/pam49/pam4901.htm",
+      "scope": "Pasajes primarios consultados vía lectura web: emisión, demanda de dinero, señoreaje e impuesto inflacionario. Acceso directo403 conservado. No toda inflación equivale a ingreso fiscal ni lectura íntegra de todo el documento."
+    },
+    {
+      "name": "Phillip Cagan, The Monetary Dynamics of Hyperinflation, 1956",
+      "url": "https://www.scribd.com/document/563996258/Cagan-1956-The-monetary-dynamics-of-hyperinflation",
+      "scope": "Pasajes OCR identificados del capítulo original, incluidos p87–88 sobre demanda de saldos y expectativas, accesibles por índice web. Descarga local es reto de acceso: renombrada y documentada. No usar resúmenes IA del alojamiento ni fingir lectura íntegra, ni cita célebre atribuida a Friedman."
+    },
+    {
+      "name": "FMI, Regional Spillovers from the Venezuelan Crisis, 2022",
+      "url": "https://www.imf.org/-/media/files/publications/dp/2022/english/rsvcea.pdf",
+      "scope": "PDF61p abierto por web; pasajes pertinentes p9–11 sobre petróleo, monetización y cronología de sanciones. Directo403 y captura PDF fallida documentados. No lectura íntegra, inspección gráfica fingida ni estimación propia de causalidad. Opiniones de autores y límites de datos del estudio."
+    },
+    {
+      "name": "Valerie Cerra, Inflation and the Black Market Exchange Rate in a Repressed Market: A Model of Venezuela, 2016",
+      "url": "https://www.imf.org/external/pubs/ft/wp/2016/wp16159.pdf",
+      "scope": "Resumen primario del working paper16/159 consultado; modelo de ingresos petroleros y racionamiento cambiario. Descarga directa403; no lectura íntegra del PDF ni cuota causal empírica."
+    }
+  ],
+  "limits": [
+    "686.4%2021 sin verificar en BCV y sin distinguir fin de año de promedio.",
+    "Previsión FMI2018 de un millón por ciento como observación realizada.",
+    "Todas las subidas de precios como dinero cobrado por el Estado.",
+    "Porcentaje causal propio de sanciones, petróleo o emisión.",
+    "Todos los pobres como mayores pagadores absolutos sin microdatos.",
+    "Cita de Friedman o lectura íntegra de Cagan no acreditadas."
+  ],
+  "image_review": "individual tool images and /tmp/mee133-135-mosaic.png",
+  "text_checks": {
+    "keyword_h2": true,
+    "first_table_nine_fields": true,
+    "two_hypothetical_examples": true,
+    "faq_words": [
+      50,
+      49,
+      51
+    ]
+  }
+}

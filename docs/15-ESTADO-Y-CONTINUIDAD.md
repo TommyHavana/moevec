@@ -1,48 +1,53 @@
 # Estado de MEE y continuidad · 29/10/2026 · Europe/Madrid
 
-## Estado actual: 132/840 publicadas y verificadas
+## Estado actual: 141/840 publicadas y verificadas
 
-WordPress confirma **132 terminadas, 396 imágenes originales públicas, 0 en curso/borradores y 708 pendientes**. Impuestos y Redistribución tiene 12/15, tanda 9/56. Ocho tandas completas.
+WordPress confirma **141 terminadas, 423 imágenes originales públicas, 0 en curso/borradores y 699 pendientes**. Nueve tandas completas. Impuestos y Redistribución tiene 15/15 y Propiedad Privada y Expropiación 6/15, tanda 10/56.
 
 Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Tres bloques consecutivos: **124–126 / E7.2.04–06, 127–129 / E7.2.07–09 y 130–132 / E7.2.10–12**. Textos, fuentes, revisión, prompts y 27 WebP originales en editorial/articles/. Informes y respaldos en docs/produccion/2026-10-29-*.md.
+Tres bloques consecutivos: **133–135 / E7.2.13–15, 136–138 / E7.3.01–03 y 139–141 / E7.3.04–06**. Nueve artículos y 27 WebP originales. Texto, fuentes, alcance de lectura, revisión, prompts, imágenes y evidencias por ID en editorial/articles/. Informes y respaldos en docs/produccion/2026-10-29-*.md.
 
-Una publicación y tres adjuntos por ID. Categorías y etiquetas exactas: Blog → Política y Economía → Impuestos y Redistribución. Blog es contenedor y Editorial es firma. Auditoría actual: 122 nodos, siete raíces, sin Editorial ni Uncategorized. Ningún cambio de taxonomía realizado.
+Una publicación y tres adjuntos por ID. Categorías y etiquetas exactas: Blog → Política y Economía → Impuestos y Redistribución para 133–135; → Propiedad Privada y Expropiación para 136–141. Blog es contenedor y Editorial es firma. Auditoría actual: 122 nodos y siete raíces, sin Editorial ni Uncategorized. La taxonomía permanece intacta.
 
-HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces internos, jerarquía/BreadcrumbList e imágenes originales/variantes con hashes comprobados. Registro MD/CSV/JSON sincronizado después de cada publicación. Esto no prueba indexación efectiva ni posicionamiento.
+HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces internos, navegación/BreadcrumbList, imágenes originales/variantes y hashes comprobados. Registro MD/CSV/JSON sincronizado desde WordPress tras cada publicación. Esto no prueba indexación efectiva ni posición en buscadores.
 
 ## Decisiones de revisión
 
-Liberación fiscal: Civismo 2026 estimado desde 2025, sin cierre anual completo ni calendario individual; Tax Foundation 2019 con otra base, sin ranking directo. OCDE de sucesiones de 2021 con alcance histórico. España: competencias y bonificaciones por supuesto, sin atribuir todas las renuncias al impuesto; dato notarial catalán de 2025 identificado.
+- Inflación: WEO de octubre de 2026, promedio anual de 2018 separado de fin de año y previsiones. Señoreaje e impuesto inflacionario distintos; petróleo y sanciones sin causalidad exclusiva. Cagan mediante pasajes originales, sin fingir libro completo.
+- Nómina: retención como anticipo, países y ejercicios diferenciados, tipos hipotéticos identificados. Presupuestos: aprobado, modificado y ejecutado separados; PTE en pte.gov.co. OBS 2025 publicado en junio de 2026.
+- Propiedad: la LEF comprende privación singular más amplia que transmisión dominical y una secuencia específica de ocupación urgente. Mahon de 1922 es un antecedente estadounidense.
+- Cuba: FCSC reconoce 5.911 reclamaciones en el primer programa y dos en el segundo; 5.913 en conjunto. Certificar no equivale a pagar. La carta cubana A/50/211 expresa una posición de parte, no un fallo de la ONU.
+- YPF: compensación a Repsol distinta del pleito Petersen/Eton Park. Apelación de 27/03/2026 revoca la condena contractual y confirma decisiones favorables a YPF. Expediente 26-442: petición de 30/09, plazo de respuesta ampliado el 22/10 hasta 02/12/2026; sin admisión del fondo. Orden de Preska de 19/10 omitida al no localizar un documento primario.
+- Bolivia: decreto original escaneado leído visualmente. El 82% es transitorio y para determinados campos. YPFB 2025, páginas 6 y 10 inspeccionadas: gas de 51,54 MMmcd en 2018 y 27,34 en 2025. Renta, producción, reservas y recursos distintos; 3,7 TCF ajustados por consumo no son una certificación nueva terminada. TCF significa 10¹² pies cúbicos.
+- Venezuela: CANTV mediante ofertas; ConocoPhillips, 8.700 millones corregidos a 8.500 millones de dólares, más intereses. Anulación concluida el 22/01/2025; informe empresarial hasta junio de 2026. CIADI, CCI y cobro separados. Agroinsumos con decisión de anulación de 09/04/2025, sin fundamentos publicados suficientes para cuantificar. Sin total nacional de empresas inventado.
+- Zimbabue: Hanke/Kwok estiman 79.600 millones por ciento mensual en noviembre de 2008; no es tasa anual u oficial. Masvingo conserva alcance local. El sistema monetario de 2009 no describe el régimen de 2026.
 
-Grandes fortunas: prórroga condicionada, sentencia con alcance del recurso y recaudación estatal separada de cuota conjunta con Patrimonio. Europa: recuento OCDE de 1990/2017 separado de diseños actuales; argumento Saez/Zucman desde trabajo primario público, sin fingir libro íntegro leído. COFOG: datos 2024 y coberturas distintas de Eurostat/CEPAL, provisionalidad y denominador explícitos; las facturas personales son ilustrativas.
-
-Pensiones: nómina oficial de octubre de 2026 separada de total anual; proyección AIReF 2050 separada de promedio y certeza. MEI por componente. Argentina: Ley 27.605 histórica, recaudación comunicada al 20/12/2021, sentencia de cámara Panagopulo sin firmeza ni fallo CSJN acreditados; no efecto causal de movilidad inventado. Colombia: proyecto retirado de 2021, Ley 2155 posterior y Ley 2277 de 2022 diferenciados; propuestas Fedesarrollo con su estado.
-
-Alcance de lectura y accesos fallidos por ID. Algunos servidores rechazaron el acceso directo; se conserva la evidencia accesible y se identifica el fallo. El supuesto PDF Fedesarrollo de 2021 es un reto de acceso, no el informe leído. No se atribuyen lecturas completas de libros a sus apéndices o extractos.
+Alcance y problemas de acceso por ID. Descargar no implica lectura íntegra. YPFB se recuperó tras el primer timeout y quedó archivado. Algunos textos se leyeron mediante pasajes primarios indexados; esos límites se conservan. Dos ejemplos hipotéticos por artículo, argumento contrario, lectura de MEE, tres FAQ y enlaces existentes.
 
 ## Continuación exacta
 
-**133–135 / E7.2.13–15**: La inflación es un impuesto: el caso venezolano; Cómo leer tu nómina y tu declaración de la renta; Presupuestos públicos: cómo consultarlos tú mismo. Briefs y etiquetas exactos y preguntas de investigación guardados. **0/3 imágenes cada una; sin texto final ni publicación**. Incluidas en las 708 pendientes; 705 sin iniciar. Después, 136–138.
+**142–144 / E7.3.07–09**: control de alquileres; zonificación; ocupación ilegal de viviendas en España. Briefs, etiquetas y preguntas preparados. **0/3 imágenes cada una, sin texto final ni publicación**. Son tres preparaciones locales incluidas en las 699 pendientes; 696 sin iniciar. Después, 145–147.
 
-133: F-204 contiene una cifra de fuente secundaria no verificada aquí. Localizar series BCV/FMI con periodo y carácter estimado, distinguir señoreaje e impuesto inflacionario y examinar petróleo/sanciones sin causalidad automática. 134: guías actuales de AEAT/SS, SAT y DIAN con país/año; bruto, cotización, retención y cuota distintos. 135: comprobar portales oficiales de España, México, Colombia y Argentina e IBP; separar aprobado, modificado y ejecutado.
+142: Berlín, Diamond/McQuade/Qian y legislación/zonas españolas vigentes, sin extrapolar la población estudiada. 143: Glaeser/Gyourko y fuente japonesa atribuida; Houston sin zonificación convencional no implica ausencia de regulación. 144: Código Penal 202/245, Ley 5/2018 y reformas posteriores; datos Interior/CGPJ con cobertura, sin plazos universales ni desalojo por cuenta propia.
 
 ## Copias y límites
 
-Respaldos VPS consistentes de 124–126, 127–129 y 130–132, con hashes y miembros comprobados. Restaurar la base de 27 entradas del 20261028 y todas las superposiciones hasta 132; importar el SQL más reciente al final. Cifras y cadena en informes y RESTORE-NOTES.txt. No nueva prueba de arranque de restauración completa. Copia local y fuente privada referenciadas en production-state.json.
+Tres respaldos VPS proporcionales hasta 135, 138 y 141, con SQL completo y 66 archivos nuevos cada uno. Hashes y miembros comprobados. Restaurar la base de 27 entradas del 20261028 y todas las superposiciones hasta 141; importar el SQL más reciente al final. No nueva prueba de arranque de restauración completa. Copia local y fuente privada en production-state.json e informes de respaldo.
 
-Original Civismo 2026 de 128.168.610 bytes conservado fuera de Git en mee-backups/research-originals. E7.2.04/sources/original-source-location.json contiene ruta y SHA; el expediente incluye páginas pertinentes completas y texto completo. Conservar el original aparte de la copia de código.
+Original Civismo 2026 mayor de 100 MiB conservado aparte en mee-backups/research-originals. Ubicación/SHA en E7.2.04/sources/original-source-location.json; páginas pertinentes completas y texto en expediente. No se modifica ni se incorpora a Git en esta ejecución.
 
-No se ha comunicado agotamiento de imágenes ni un bloqueo que requiera al fundador. La automatización permanece activa para retomar el punto guardado.
+No se ha comunicado agotamiento de imágenes ni un bloqueo que requiera intervención. La automatización permanece activa; el plan de 840 sigue en producción.
 
 ## Autorización y traspaso
 
-Producción continua autorizada hasta 840, sin confirmaciones entre bloques. Sin cambios de DNS, correo, autenticación, tema o taxonomía, ni despliegue React por artículos. Sin nuevos requisitos, arquitectura o recomendaciones pendientes de aprobación. La auditoría integral fue encargada el 28/10/2026 y está documentada en 22; esta ejecución corresponde a producción editorial.
+PETICIÓN ACTIVA: producción continua hasta 840, sin confirmaciones entre bloques. TERMINADO: 133–141 y 27 imágenes con verificación pública, registros y respaldos. PENDIENTE: 699 entradas, empezando 142–144. DECISIONES NUEVAS: límites y precisión de las fuentes anteriores; sin cambios de requisitos o arquitectura. PROPUESTAS SIN APROBAR: ninguna nueva. BLOQUEO REAL: ninguno que requiera al fundador. AUDITORÍA: encargada el 28/10/2026 y documentada en 22; esta ejecución corresponde a producción editorial.
 
-Para retomar: AGENTS.md, docs/26-PRODUCCION-CONTINUA.md, este estado, backlog 16, registro 24 y production-state.json; consultar WordPress y reanudar 133–135. No recrear artículos ni medios. Secretos y dependencias excluidos de copias de código.
+SIGUIENTE PASO: consultar WordPress y reanudar 142–144 sin duplicar artículos ni medios. ARCHIVOS PARA RETOMAR: AGENTS.md, docs/26-PRODUCCION-CONTINUA.md, este estado, backlog 16, registro 24, editorial/production-state.json, plan original y briefs del bloque. La fuente privada conserva expedientes y registros, sin secretos. No hace falta nuevo chat ni otra automatización.
+
+Sin cambios de DNS, correo, autenticación, tema o taxonomía, ni despliegue React por contenido.
 
 ## Historial anterior — no describe el estado actual
 

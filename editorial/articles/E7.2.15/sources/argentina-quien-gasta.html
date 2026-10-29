@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+
+<head><head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="format-detection" content="telephone=no" />
+
+<title>Presupuesto Abierto - ¿Quién gasta?</title>
+
+<link rel="shortcut icon" href="images/favicon.ico?v=PYEbx0dw2z" />
+
+<!-- SEO (Search Engine Optimization) -->
+<meta name="description"
+	content="Gastos por jurisdicción" />
+<meta name="author" content="Ministerio de Hacienda de la Nación Argentina" />
+
+<meta name="web_author" content="DGSIAF" />
+
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://www.presupuestoabierto.gob.ar/sici/visualizacion-quien-gasta" />
+
+<!-- UI -->
+<meta name="theme-color" content="#0072b8" />
+<meta name="msapplication-navbutton-color" content="#0072b8" />
+<meta name="apple-mobile-web-app-status-bar-style" content="#0072b8" />
+
+<!-- OG (Open Graph) protocolo de redes sociales)-->
+<meta property="og:url" content="https://www.presupuestoabierto.gob.ar/sici/visualizacion-quien-gasta" />
+<meta property="og:type" content="website" />
+<meta property="og:title"
+	content="Presupuesto Abierto - ¿Quién gasta?" />
+<meta property="og:description"
+      content="Gastos por jurisdicción" />
+<meta property="og:site_name" content="Presupuesto Abierto" />
+<meta property="og:image" content="https://www.presupuestoabierto.gob.ar/sici/images/PA-logo.svg" />
+<meta property="og:locale" content="es_AR" />
+
+
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@MinEconomia_Ar" />
+<meta name="twitter:title"
+	content="Presupuesto Abierto - ¿Quién gasta?" />
+<meta name="twitter:description" content="Gastos por jurisdicción" />
+
+<!-- <meta name="twitter:image" content=""
+	th:attr="content=${page.site.publicURL}+'images/PA-logo.svg'" /> -->
+
+<meta name="twitter:image"
+	content="https://www.presupuestoabierto.gob.ar/sici/images/PA-logo.svg" />  
+
+<meta name="twitter:url" content="https://www.presupuestoabierto.gob.ar/sici/" />
+
+<meta http-equiv="content-language" content="es-AR" />
+
+
+<link type="text/css" rel="stylesheet"
+	href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+	media="all" />
+<link rel="stylesheet" href="css/font-awesome.min.css" />
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/poncho.min.css" />
+<link rel="stylesheet" href="css/icono-arg.css" />
+<link rel="stylesheet" href="css/sici.css" />
+
+
+<script src='https://www.google.com/recaptcha/api.js'></script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "GovernmentOrganization",
+  "name": "Presupuesto Abierto",
+  "url": "https://www.presupuestoabierto.gob.ar",
+  "description": "Detalles sobre el sitio de Presupuesto Abierto.",
+  "areaServed": "AR"
+}
+</script>
+
+
+</head></head>
+<link rel="stylesheet" href="javascript/bootstrapTable/bootstrap-table.css">
+<link rel="stylesheet" href="css/dragtable.css">
+<link rel="stylesheet" href="css/selectize.bootstrap3.css">
+<link rel="stylesheet" href="css/visualizacion.css" />
+<script type="text/javascript" src="javascript/third/d3.v7.min.js"></script>
+<script type="text/javascript" src="dist/js/Math-pa.DUdmTgy4.js"></script>
+
+
+<body>
+  <header>
+    <nav class="navbar navbar-top navbar-default border-bottom-amarillo">
+      <div id="header" class="container-fluid">
+        <div class="row align-items-center nomargin">
+          <div class="col-xs-12 col-xs-offset-0 col-sm-11 col-sm-offset-1 col-lg-offset-1 padding-xlg-1 nopadding">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                data-target="#main-navbar-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span
+                  class="icon-bar"></span> <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand nopaddinRight" 
+                href="home"
+                style="display: flex; align-items: center; overflow: hidden;">
+                  <img src="images/PA-logo.svg" 
+                    title="Presupuesto Abierto" 
+                    alt="Presupuesto Abierto"
+                    style="height: 100%; width: auto;"
+                    class="img-responsive" />
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="main-navbar-collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li>
+                  <a href="home">Inicio</a>
+                </li>
+                <li>
+                  <a href="datos-abiertos">Datos abiertos</a>
+                </li>
+                <li>
+                  <a href="visualizaciones">Visualizaciones</a>
+                </li>
+                <li>
+                  <a href="notificaciones">Notificaciones</a>
+                </li>
+                <li>
+                  <a href="pac">API</a>
+                </li>
+                <li>
+                  <a href="saber-mas">Saber más</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main role="main">
+    <div class="jumbotron"
+    style="background-image: url(images/PA-fondo.png);">
+    <div style="padding: 0 0 12px 0; background-color: rgba(0, 0, 0, 0.3);">
+      <div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-10 col-xs-offset-1 col-lg-10 col-lg-offset-1 padding-xlg-1">
+				<ol class="breadcrumb">
+					<li>
+            <a href="home">Inicio</a>
+          </li>
+					
+					<li class="active">¿Quién gasta?</li>
+				</ol>
+			</div>
+		</div>
+	</div>
+    </div>
+    <div class="container-fluid">
+      <div class="row" style="padding: 20px 0px;">
+        <div class="col-xs-10 col-xs-offset-1 col-lg-10 col-lg-offset-1 padding-xlg-1">
+          <p class="text-left" style="font-size: 25px; font-weight: normal">Gastos por jurisdicción</p>
+          <p class="text-left" style="font-size: 14px; font-weight: normal">La Administración Pública Nacional se divide en jurisdicciones, subjurisdicciones y entidades (Ministerios y Agencias Públicas), que son aquellas organizaciones públicas encargadas de llevar a cabo las funciones del Estado Nacional y por lo tanto de efectuar los gastos necesarios para ello.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <div class="col-xs-10 col-xs-offset-1 col-lg-10 col-lg-offset-1 padding-xlg-1" id="clientArea">
+        </div>
+      </div>
+
+      
+    </div>
+
+    <div class="container-fluid" style="margin-top: 0px">
+    <div class="row">
+      <div class="col-xs-10 col-xs-offset-1 col-lg-10 col-lg-offset-1 padding-xlg-1">
+        <span>
+    <div class="panel-pane pane-redes-sociales">
+      <div class="pane-content">
+        <div class="section-actions social-share">
+          <p>Compartir en <br>redes sociales&nbsp;&nbsp;&nbsp;</p>
+          <ul class="list-inline">
+            <li>
+              <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.presupuestoabierto.gob.ar/sici/visualizacion-quien-gasta" title="facebook" target="_blank"
+                rel="noopener noreferrer" style="font-size: 20px">
+                <i class="icono-arg-facebook-circular"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://x.com/intent/post?url=https://www.presupuestoabierto.gob.ar/sici/visualizacion-quien-gasta" title="x" target="_blank"
+                rel="noopener noreferrer" style="font-size: 20px">
+                <i class="icono-arg-twiter-circular"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://www.presupuestoabierto.gob.ar/sici/visualizacion-quien-gasta" title="linkedin" target="_blank"
+                rel="noopener noreferrer" style="font-size: 20px">
+                <i class="icono-arg-linkedin-in"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://wa.me/?text=https://www.presupuestoabierto.gob.ar/sici/visualizacion-quien-gasta" title="whatsapp" target="_blank"
+                rel="noopener noreferrer" style="font-size: 20px">
+                <i class="icono-arg-whatsapp-telefono"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://t.me/share/url?url=https://www.presupuestoabierto.gob.ar/sici/visualizacion-quien-gasta" title="telegram" target="_blank"
+                rel="noopener noreferrer" style="font-size: 20px">
+                <i class="icono-arg-telegram-avion"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </span>
+      </div>
+    </div>
+  </div>
+    <span >
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+	<script src="javascript/third/jquery.min.js"></script>
+  <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+	<script src="javascript/third/bootstrap.min.js"></script>
+
+</span>
+    <div class="container-fluid">
+		<div class="row align-items-center" style="margin-bottom: 40px;">
+			<!-- Modal -->
+			<div class="modal fade" id="myModal" role="dialog">
+				<div class="col-xs-10 col-sm-10 col-md-8 col-xs-offset-1 col-sm-offset-1 col-md-offset-2 col-lg-6 col-lg-offset-3 padding-xlg-1">
+
+					<!-- Modal content-->
+					<div class="modal-content">
+						<div class="modal-header">
+							<a href="#" type="button" class="close" data-dismiss="modal">&times;</a>
+							<h5 id="title" class="modal-title"></h5>
+						</div>
+						<div class="modal-body">
+							<p id="message"></p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-primary btn-sm"
+								data-dismiss="modal">Aceptar</button>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="col-xs-10 col-xs-offset-1 col-lg-10 col-lg-offset-1 padding-xlg-1">
+				<div class="row">
+					<div class="col-xs-12" style="padding-top: 5px;">
+						<h5>¿Te result&oacute; &uacute;til?</h5>
+
+						<form id="usefulContentForm" action="rest-api/usefulContent"
+							method="post">
+							<input id="usefulContent" type="checkbox" class="hidden"
+								name="usefulContent" checked value="true"> <input
+								type="hidden" name="page" value="https://www.presupuestoabierto.gob.ar/sici/visualizacion-quien-gasta">
+
+							<div class="row align-items-left" style="padding: 0 10px;">
+								<button id="util-si"
+									class="btn btn-primary col-xs-4 col-sm-3 col-md-2 btn-sm"
+									type="submit">Si</button>
+								<button type="button" id="util-no"
+									class="btn btn-primary col-xs-4 col-sm-3 col-md-2 btn-sm"
+									onclick="clickNo();">No</button>
+							</div>
+							
+						    <div id="comment-div" style="display: none; padding: 0 10px;">
+						      <div class="row align-items-left" id="comment-div-inner">
+						        <textarea class="form-control" id="comment" name="comment" maxlength="3800" placeholder="Dejanos tu sugerencia" style="height: 150px;"></textarea>
+						        <div id="chars" style="text-align: right; font-size:0.8em; font-weight:300; color: #777;"></div>
+						      </div>									
+						
+						      <div class="row align-items-left" style="margin-top: 10px;">
+						        <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4 nopadding">
+						          <div class="g-recaptcha" data-sitekey="6Ld2qaQpAAAAAO3UfU41jXImNWVQP3fQN2BIbovb"></div>
+						        </div>
+						      </div>
+						
+						      <div class="row">
+						          <button type="button" class="col-xs-4 col-sm-3 col-md-2 btn btn-primary btn-sm" onclick="resetForm();">Cancelar</button>
+						          <button type="submit" class="col-xs-4 col-sm-3 col-md-2 btn btn-primary btn-sm" id="enviar">Enviar</button>
+						      </div>
+						      
+						      
+						      
+						    </div>													
+													
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+
+
+			function recaptcha() {
+				grecaptcha.reset();
+			}
+
+			function clickNo() {
+				$('#comment-div').show();
+				$("#comment").prop('required', true);
+				$('#usefulContent').val('false');
+				$('#usefulContent').prop('checked', false);
+				$('#util-si').hide();
+				$('#util-no').hide();
+			}
+
+			function resetForm() {
+				$('#usefulContentForm')[0].reset();
+				$('#usefulContent').val('true');
+				$('#usefulContent').prop('checked', true);
+				$('#util-si').show();
+				$('#util-no').show();
+				$("#comment").prop('required', false);
+				$('#comment-div').hide();
+				recaptcha();
+			}
+
+			var frm = $('#usefulContentForm');
+			var error = false;
+			frm.submit(function(e) {
+				e.preventDefault();
+				
+				var submitButtonId = event.submitter.id;
+				console.log(submitButtonId);
+
+				if (submitButtonId == "enviar" && !grecaptcha.getResponse()) {
+					$("#title").html("Error");
+					$("#message").html("Debe pasar la prueba de Captcha");
+					$('#myModal').modal("show");
+					error = true;
+	
+					return;
+				}
+
+				$.ajax({
+							type : frm.attr('method'),
+							url : frm.attr('action'),
+							data : frm.serialize(),
+							success : function(data) {
+								$("#title").html("");
+								$("#message").html(
+										"¡Gracias por dejarnos tu opinión!");
+								$('#myModal').modal("show");
+								error = false;
+							},
+							error : function(data) {
+								$("#title").html("Error");
+								$("#message").html(
+										"Hubo un error al registrar la opinión: "
+												+ data.responseText);
+								$('#myModal').modal("show");
+								error = true;
+							},
+						});
+			});
+
+			$('#myModal').on('hidden.bs.modal', function() {
+				if (error === false) {
+					resetForm();
+				}
+
+			});
+
+			var tx=  $('#comment');
+			tx.on('change keyup paste', function() {
+				var length = $(this).val().length;
+				var maxLength = $(this).attr('maxlength');
+				var length = maxLength-length;
+				if(length != maxLength){
+					$('#chars').text('Quedan '+length+' caracteres');
+				}else{
+					$('#chars').text('');
+				}
+			});
+		</script>
+	</div>
+    <div class="container-fluid dark">
+		<div class="row align-items-center">
+			<div class="col-xs-10 col-xs-offset-1 col-lg-10 col-lg-offset-1 padding-xlg-1">
+				<div class="row">
+					<div class="col-xs-12 center-right">
+						<a class="btn btn-primary margin-0" href="dejanos-tu-comentario">
+							Dejanos tu comentario</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <script type="text/javascript" src="javascript/third/bootstrap-treeview-pa-version.js"></script>
+    <script type="text/javascript" src="javascript/third/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="javascript/third/jquery.dragtable.js"></script>
+    <script type="text/javascript" src="javascript/bootstrapTable/bootstrap-table.js"></script>
+    <script type="text/javascript" src="javascript/third/bootstrap-table-reorder-columns.js"></script>
+    <script type="text/javascript" src="javascript/bootstrapTable/locale/bootstrap-table-es-ES.min.js"></script>
+    <script type="text/javascript" src="javascript/bootstrapTable/extensions/export/bootstrap-table-export.js"></script>
+    <script type="text/javascript" src="javascript/bootstrapTable/tableExport/libs/FileSaver/FileSaver.min.js"></script>
+    <script type="text/javascript" src="javascript/bootstrapTable/tableExport/libs/jsxlsx/xlsx.core.min.js"></script>
+    <script type="text/javascript" src="javascript/bootstrapTable/tableExport/tableExport.min.js"></script>
+    <script type="text/javascript" src="javascript/third/selectize.js"></script>
+    <script type="module" src="dist/js/page-visualizacion-quien-gasta.BXx1gfpH.js"></script>
+
+  </main>
+  <footer class="main-footer">
+
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <div class="col-xs-10 col-xs-offset-1 col-lg-10 col-lg-offset-1 padding-xlg-1">
+          <div class="row" style="margin-top: 1.5em; margin-bottom: 1.5em;">
+
+            <div class="col-sm-6">
+              
+              <div class="row">
+                <div class="col-sm-5">
+                  <a href="home">
+                    <img src="images/PA-logo.svg" 
+                      title="Presupuesto Abierto" 
+                      alt="Presupuesto Abierto"
+                      style="max-height: 80px; width: auto;"
+                      class="img-responsive" />
+                  </a>
+                </div>
+              </div>
+
+              <div class="row" style="margin-top: 10px;">
+                <div class="col-sm-12">
+                  <address>
+                    <!-- Contacto:&nbsp;<a href="mailto:info@presupuestoabierto.gob.ar">info@presupuestoabierto.gob.ar</a> -->
+                    Contacto:&nbsp;<a href="mailto:info@presupuestoabierto.gob.ar"><span>info@presupuestoabierto.gob.ar</span></a>
+                  </address>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-sm-5 col-sm-offset-1 hidden-xs">
+              <div class="row">
+                <div class="col-sm-6">
+                  <a href="home" style="font-size: 0.8em;" class="no-wrap">Inicio</a>
+                </div>
+                <div class="col-sm-6">
+                  <a href="saber-mas" style="font-size: 0.8em;" class="no-wrap">Saber más</a>
+                </div>
+                <div class="col-sm-6">
+                  <a href="datos-abiertos" style="font-size: 0.8em;" class="no-wrap">Datos abiertos</a>
+                </div>
+                <div class="col-sm-6">
+                  <a href="mapa-del-sitio" style="font-size: 0.8em;" class="no-wrap">Mapa del Sitio</a>
+                </div>
+                <div class="col-sm-6">
+                  <a href="visualizaciones" style="font-size: 0.8em;" class="no-wrap">Visualizaciones</a>
+                </div>
+                <div class="col-sm-6">
+                  <a href="novedades" style="font-size: 0.8em;" class="no-wrap">Novedades</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container-fluid border-top-amarillo">
+      <section class="row sub-footer" style="padding: 15px 0; background-color: #232D4F; color: lightgray">
+        <div class="col-xs-12 text-center">
+          <!-- <address>
+            <strong>Contacto:</strong><a href="mailto:info@presupuestoabierto.gob.ar">info@presupuestoabierto.gob.ar
+            </a>
+          </address> -->
+          Los contenidos de Presupuesto Abierto est&aacute;n licenciados bajo
+          <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" style="color: lightgray">Creative
+            Commons 4.0</a>
+        </div>
+      </section>
+    </div>
+
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+      window.ga = window.ga || function () { (ga.q = ga.q || []).push(arguments) }; ga.l = +new Date;
+      ga('create', 'UA-104557672-3', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <script async src='https://www.google-analytics.com/analytics.js'></script>
+    <!-- End Google Analytics -->
+
+  </footer>
+</body>
+
+</html>

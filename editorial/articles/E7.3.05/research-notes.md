@@ -1,0 +1,22 @@
+# Investigación y publicación · E7.3.05
+
+Consulta: 29/10/2026.
+
+- [CANTV, información financiera de 2007 presentada ante la SEC](https://www.sec.gov/Archives/edgar/data/1025862/000119312508066591/d6k.htm): Pasajes primarios leídos porweb indexada:ofertas yadquisición decontrol21mayo2007, consideraciónestratégica. DescargaSEC403 registrada; no lecturaintegral ni porcentaje deproducción atribuida. Compra/nacionalización no ausenciaautomática decompensación.
+- [CIADI, caso ConocoPhillips contra Venezuela ARB/07/30](https://icsid.worldbank.org/cases/case-database/case-detail?CaseNo=ARB%2F07%2F30): HTMLdirecto200/150185B archivado ylecturapartes/fechas/estado; laudo8mar2019, rectificación29ago2019, anulación22ene2025concluida. Webopen403,indexacionesparcialesantiguas no prevalecensobre HTMLactual. No revisión íntegradellaudo.
+- [ConocoPhillips, formulario 10-Q, segundo trimestre de 2026](https://www.sec.gov/Archives/edgar/data/1163165/000116316526000032/cop-20260630.htm): Nota8 primaria leída enweb:8.7→8.5billionUSDmásintereses, rechazoanulación22ene2025, CCIseparado ycollectionongoingal30jun2026. Fuenteempresarialdeparte; descarga403. No 795MCCIcomocobroCIADI ni saldoactualal29oct.
+- [CIADI, Agroinsumos Ibero-Americanos y otras contra Venezuela ARB/16/23](https://icsid.worldbank.org/cases/case-database/case-detail?CaseNo=ARB%2F16%2F23): HTMLdirecto200/106715B archivado yleído:sectoragricultura,laudo23mar2022,decisiónanulación9abr2025concluida, sinreferenciaspublicadas delafundamentación. No inventar monto/sentidodelfallo ni efecto deproducción.
+
+## Límites de las afirmaciones
+
+- Cientos como totalnacional 2007–2012 sin basecomparableverificada.
+- Cuenta de arbitrajes como número de empresas.
+- 8.7billionoriginalsinrectificación a8.5.
+- 795millonesCCI como cobro delCIADI.
+- ProcedimientoanulaciónConoco todavía pendiente en2026 desde índiceviejo.
+- Cuantía o resultado Agroinsumos sin decisión publicada.
+- Caída productivanacional causalmenteatribuida a cadaexpropiación sin seriesmicro.
+
+## Resultado
+
+https://moevec.org/blog/venezuela-expropiaciones-arbitrajes/ · 1241 palabras del registro WordPress; el resultado inicial del publicador se conserva en publication.json. Tres imágenes propias verificadas, una publicación y tres adjuntos. No duplicar.

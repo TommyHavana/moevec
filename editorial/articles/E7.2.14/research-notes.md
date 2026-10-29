@@ -1,5 +1,20 @@
-# Preparación · E7.2.14
+# Investigación y publicación · E7.2.14
 
-Comprobar guías oficiales actuales AEAT/SeguridadSocial, SAT yDIAN, con país/año explícitos. Bruto, neto, cotizaciones, retención y cuota anual distintos; tipos medio y marginal con ejemplos hipotéticos, sin tipos universales ni asesoramiento. Enlazar entrada123 de cuña fiscal, evitar duplicación conceptual. Aviso fiscal exacto obligatorio.
+Consulta: 29/10/2026.
 
-Estado: brief exacto y etiquetas leídos; sin texto final, imágenes ni publicación. No contar como terminada.
+- [AEAT, qué son las retenciones e ingresos a cuenta](https://sede.agenciatributaria.gob.es/Sede/irpf/retenciones-ingresos-cuenta-pagos-fraccionados/retenciones-ingresos-cuenta/que-son-retenciones-ingresos-cuenta.html): Página primaria archivada y leída: retenciones como anticipo del IRPF, no cuota final. Sin liquidación personalizada.
+- [AEAT, servicios y documentación de retenciones](https://sede.agenciatributaria.gob.es/Sede/Retenciones.shtml): Página archivada y leída; versiones2026 de1enero–9septiembre ydesde10septiembre. No tipos numéricos personales ni umbrales de declarar.
+- [SAT, visor de comprobantes de nómina para el trabajador](https://wwwmat.sat.gob.mx/declaracion/97720/consulta-el-visor-de-comprobantes-de-nomina-para-el-trabajador): Guía pública primaria leída/archivada: ingresos/retenciones CFDI, vistasanual/patrón/mensual. Incluye avisos viejos/ejercicio2022: no afirmar sesión2026 operativa ni registros privados examinados.
+- [DIAN, certificado de ingresos y retenciones, formulario 220](https://www.dian.gov.co/atencionciudadano/formulariosinstructivos/Formularios/2025/Formulario_220_2025.pdf): PDF4p archivado y primera página leída: ingresos, aportes de salud/pensión y retenciones diferenciados. Certificado distinto de declaración. No generalizar año de ruta2025 a todos ejercicios ni condiciones legales de no declarar.
+
+## Límites de las afirmaciones
+
+- Tipos o umbrales fiscales universales o de2026 sin norma y supuesto.
+- Retención mensual como cuota anual o devolución garantizada.
+- Aportación empresarial restada íntegramente del bruto del trabajador.
+- Visor privado SAT consultado o disponibilidad autenticada2026 afirmada.
+- Certificado220 como declaración de renta o exención universal.
+
+## Resultado
+
+https://moevec.org/blog/como-leer-nomina-y-renta/ · 1202 palabras del registro WordPress; el resultado inicial del publicador se conserva en publication.json. Tres imágenes propias verificadas, una publicación y tres adjuntos. No duplicar.
