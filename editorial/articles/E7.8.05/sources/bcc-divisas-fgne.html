@@ -1,0 +1,491 @@
+<!DOCTYPE html><html lang="es-CU" class="scroll-smooth"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- Global CSS (Tailwind) --><!-- Render-blocking a propósito para evitar CLS por re-estilado tardío --><link rel="preload" as="style" href="/_astro/global.BHrk_xCG.css"><link rel="stylesheet" href="/_astro/global.BHrk_xCG.css"><link rel="stylesheet" href="/_astro/ui.BKmhPMtq.css"><!-- Accesibilidad: aplicar preferencias persistidas lo antes posible --><!-- Nota: se deja DESPUÉS del CSS para que el navegador descubra el stylesheet antes --><script>
+      (function () {
+        const FONT_KEY = 'accessibility-font-size';
+        const CONTRAST_KEY = 'accessibility-high-contrast';
+        const HIGH_CONTRAST_CSS_ID = 'bcc-high-contrast-css';
+        const HIGH_CONTRAST_CSS_HREF = '/css/high-contrast.css';
+
+        function clamp(n, min, max) {
+          return Math.min(Math.max(n, min), max);
+        }
+
+        function safeGetLocalStorage(key) {
+          try {
+            return window.localStorage.getItem(key);
+          } catch {
+            return null;
+          }
+        }
+
+        // Font size
+        const storedFont = safeGetLocalStorage(FONT_KEY);
+        if (storedFont) {
+          const parsed = parseFloat(storedFont);
+          if (!Number.isNaN(parsed)) {
+            const fontSize = clamp(parsed, 0.8, 1.5);
+            document.documentElement.style.fontSize = String(fontSize * 16) + 'px';
+          }
+        }
+
+        // High contrast
+        const highContrast = safeGetLocalStorage(CONTRAST_KEY) === 'true';
+        if (highContrast) {
+          document.documentElement.classList.add('high-contrast');
+          if (!document.getElementById(HIGH_CONTRAST_CSS_ID)) {
+            const link = document.createElement('link');
+            link.id = HIGH_CONTRAST_CSS_ID;
+            link.rel = 'stylesheet';
+            link.href = HIGH_CONTRAST_CSS_HREF;
+            link.media = 'all';
+            document.head.appendChild(link);
+          }
+        }
+      })();
+    </script><!-- Preload de imagen crítica del logo (responsive) --><link rel="preload" as="image" href="/images/bcc-logo-160.avif" type="image/avif" imagesrcset="/images/bcc-logo-160.avif 160w, /images/bcc-logo-200.avif 200w" imagesizes="123px" fetchpriority="high"><!-- Preload de las dos fuentes variables del primer render (cuerpo y titulares).
+         Sin esto el navegador descubre los woff2 solo tras descargar y parsear el CSS. --><link rel="preload" as="font" type="font/woff2" href="/fonts/public-sans/public-sans-latin-wght-normal.woff2" crossorigin="anonymous"><link rel="preload" as="font" type="font/woff2" href="/fonts/source-serif-4/source-serif-4-latin-wght-normal.woff2" crossorigin="anonymous"><!-- Prefetch desactivado para evitar cadenas críticas largas en PageSpeed --><link rel="preconnect" href="https://api.bc.gob.cu" crossorigin="anonymous"><link rel="dns-prefetch" href="https://api.bc.gob.cu"><meta name="theme-color" content="#0c2340"><meta name="color-scheme" content="light"><!-- API URL para scripts del cliente --><meta name="api-url" content="https://api.bc.gob.cu"><title>Habilitada la venta de divisas a Actores Económicos No Estatales | Banco Central de Cuba</title><meta name="description" content="Información oficial sobre la habilitación de la venta de divisas a CNA y MIPYME no estatales, con claves del proceso, fórmula de cálculo y canales por banco."><meta name="keywords" content="Banco Central de Cuba, Cuba, Política Monetaria, Sistema Bancario, Finanzas"><link rel="canonical" href="https://www.bc.gob.cu/divisas-actores-no-estatales"><meta property="og:type" content="website"><meta property="og:url" content="https://www.bc.gob.cu/divisas-actores-no-estatales"><meta property="og:title" content="Habilitada la venta de divisas a Actores Económicos No Estatales | Banco Central de Cuba"><meta property="og:description" content="Información oficial sobre la habilitación de la venta de divisas a CNA y MIPYME no estatales, con claves del proceso, fórmula de cálculo y canales por banco."><meta property="og:image" content="https://www.bc.gob.cu/images/og-default.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Habilitada la venta de divisas a Actores Económicos No Estatales | Banco Central de Cuba"><meta property="og:locale" content="es_CU"><meta property="og:site_name" content="Banco Central de Cuba"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@BancoCentralCub"><meta name="twitter:title" content="Habilitada la venta de divisas a Actores Económicos No Estatales | Banco Central de Cuba"><meta name="twitter:description" content="Información oficial sobre la habilitación de la venta de divisas a CNA y MIPYME no estatales, con claves del proceso, fórmula de cálculo y canales por banco."><meta name="twitter:image" content="https://www.bc.gob.cu/images/og-default.jpg"><!-- Favicon: Mejores prácticas 2024 --><!-- SVG para navegadores modernos (preferido) --><link rel="icon" type="image/svg+xml" href="/favicon.svg"><!-- PNG fallbacks para navegadores antiguos --><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><!-- ICO para máxima compatibilidad (navegadores muy antiguos) --><link rel="shortcut icon" href="/favicon.ico"><!-- Apple Touch Icon para iOS --><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><!-- Safari Pinned Tab --><link rel="mask-icon" href="/safari-pinned-tab.png" color="#0c2340"><link rel="manifest" href="/site.webmanifest"><script type="application/ld+json">{"@context":"https://schema.org","@type":"GovernmentOrganization","name":"Banco Central de Cuba","alternateName":"Banco Central de Cuba","url":"https://www.bc.gob.cu","logo":"https://www.bc.gob.cu/images/bcc-logo.png","description":"Banco Central de Cuba de la República de Cuba","address":{"@type":"PostalAddress","streetAddress":"Cuba #402 e/ Lamparilla y Amargura","addressLocality":"La Habana Vieja","addressRegion":"La Habana","addressCountry":"CU"},"contactPoint":{"@type":"ContactPoint","telephone":"+53-800-11011","contactType":"Atención Ciudadana","email":"atencionpoblacion@bc.gob.cu","availableLanguage":["es","en"]},"sameAs":["https://x.com/BancoCentralCub","https://www.facebook.com/bcc1997","https://t.me/bancocentral_1997","https://www.instagram.com/bancocentralcuba_oficial/","https://www.youtube.com/@bancocentraldecuba1703"]}</script><!-- Google Analytics (sin Partytown) --><!-- Optimizaciones:
+         - Stub temprano (cola en dataLayer)
+         - Carga diferida tras interacción del usuario (mejora PageSpeed)
+         - send_page_view manual para soportar View Transitions sin duplicar --><script>
+      (function () {
+        const GA_ID = 'G-82L08CGQQ6';
+
+        // Evitar doble init (Astro MPA / View Transitions)
+        if (window.__bccGtagInitialized) return;
+        window.__bccGtagInitialized = true;
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+          window.dataLayer.push(arguments);
+        }
+        window.gtag = window.gtag || gtag;
+
+        // Config estable y "lean" (menos señales => menos llamadas extra)
+        window.gtag('js', new Date());
+        window.gtag('config', GA_ID, {
+          send_page_view: false,
+          transport_type: 'beacon',
+          allow_google_signals: false,
+          allow_ad_personalization_signals: false,
+        });
+
+        let lastPath = '';
+        function sendPageView() {
+          const path = window.location.pathname + window.location.search + window.location.hash;
+          if (path === lastPath) return;
+          lastPath = path;
+          window.gtag('event', 'page_view', {
+            page_title: document.title,
+            page_location: window.location.href,
+            page_path: path,
+          });
+        }
+
+        // Enviar page_view en primera carga y en cada navegación (View Transitions)
+        document.addEventListener('astro:page-load', sendPageView);
+        if (document.readyState === 'complete') sendPageView();
+        else window.addEventListener('load', sendPageView, { once: true });
+
+        function injectGtagScript() {
+          if (document.querySelector('script[data-bcc-gtag]')) return;
+          const script = document.createElement('script');
+          script.async = true;
+          script.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(GA_ID);
+          script.setAttribute('data-bcc-gtag', 'true');
+          document.head.appendChild(script);
+        }
+
+        function schedule() {
+          let injected = false;
+          const run = () => {
+            if (injected) return;
+            injected = true;
+            try {
+              injectGtagScript();
+            } catch {
+              // ignore
+            }
+          };
+
+          // PageSpeed/Lighthouse: no hay interacción; esto evita penalizaciones de terceros en la carga inicial.
+          // En uso real, se activa con la primera interacción del usuario.
+          window.addEventListener('pointerdown', run, { once: true, passive: true });
+          window.addEventListener('keydown', run, { once: true });
+          window.addEventListener('scroll', run, { once: true, passive: true });
+
+          // Fallback: cargar si el usuario permanece en la página.
+          setTimeout(run, 15000);
+        }
+
+        schedule();
+      })();
+    </script><!-- ChatWidgetLauncher: script procesado por Astro (bundle Vite) --><!-- Nota: sin atributos extra para que Astro lo procese --><script type="module" src="/_astro/BaseLayout.astro_astro_type_script_index_0_lang.BrFfhA9R.js"></script><!-- CSP se maneja en middleware.ts --><style>.pie:where(.astro-jo6i4kqk){background:var(--ui-navy);color:var(--ui-on-navy-muted);margin-top:auto;font-size:.9rem}.pie-rejilla:where(.astro-jo6i4kqk){gap:2rem;padding-block:3rem 1.5rem;display:grid}@media (width>=860px){.pie-rejilla:where(.astro-jo6i4kqk){grid-template-columns:1.4fr repeat(3,1fr)}}.pie-logo:where(.astro-jo6i4kqk){line-height:0;display:inline-block}.pie-logo:where(.astro-jo6i4kqk) img:where(.astro-jo6i4kqk){width:auto;height:56px}.pie:where(.astro-jo6i4kqk) address:where(.astro-jo6i4kqk){margin-top:1rem;font-style:normal;line-height:1.75}.pie:where(.astro-jo6i4kqk) h2:where(.astro-jo6i4kqk){font:600 .75rem/1 var(--ui-f-body);letter-spacing:.12em;text-transform:uppercase;color:var(--ui-gold);margin:0 0 .9rem}.pie:where(.astro-jo6i4kqk) ul:where(.astro-jo6i4kqk){flex-direction:column;gap:.5rem;margin:0;padding:0;list-style:none;display:flex}.pie:where(.astro-jo6i4kqk) a:where(.astro-jo6i4kqk){color:var(--ui-on-navy);text-decoration:none}.pie:where(.astro-jo6i4kqk) a:where(.astro-jo6i4kqk):hover{text-decoration:underline;text-decoration-color:var(--ui-gold)}.pie:where(.astro-jo6i4kqk) a:where(.astro-jo6i4kqk):focus-visible{outline:3px solid var(--ui-gold);outline-offset:2px}.pie-legal:where(.astro-jo6i4kqk){border-top:1px solid var(--ui-navy-2);flex-wrap:wrap;grid-column:1/-1;justify-content:space-between;align-items:center;gap:1rem 2rem;padding-top:1.25rem;font-size:.82rem;display:flex}.pie-legal:where(.astro-jo6i4kqk) p:where(.astro-jo6i4kqk){max-width:none;margin:0}.pie-legal:where(.astro-jo6i4kqk) ul:where(.astro-jo6i4kqk){flex-flow:wrap;gap:.5rem 1.25rem}.pie-marca:where(.astro-jo6i4kqk){width:auto;height:40px}.bcc-chat-launcher{z-index:1050;right:max(1rem, env(safe-area-inset-right));bottom:calc(max(1rem, env(safe-area-inset-bottom)) + var(--bcc-chat-alza,0px));border:1px solid var(--ui-navy);background:var(--ui-navy);min-height:3rem;color:var(--ui-on-navy);font:600 .95rem/1 var(--ui-f-body);letter-spacing:.01em;cursor:pointer;box-shadow:0 10px 24px -8px color-mix(in srgb, var(--ui-navy) 55%, transparent), inset 0 -3px 0 var(--ui-gold);border-radius:999px;align-items:center;gap:.5rem;padding:.7rem 1.15rem .7rem .95rem;transition:background-color .15s,transform .15s;display:inline-flex;position:fixed}.bcc-chat-launcher:hover{background:var(--ui-navy-2);transform:translateY(-1px)}.bcc-chat-launcher:focus-visible{outline:3px solid var(--ui-gold);outline-offset:3px}.bcc-chat-launcher[aria-busy=true]{cursor:progress}.bcc-chat-launcher__icono{width:1.35rem;height:1.35rem;color:var(--ui-gold);flex-shrink:0}@media (prefers-reduced-motion:reduce){.bcc-chat-launcher{transition:none}.bcc-chat-launcher:hover{transform:none}}@media print{.bcc-chat-launcher{display:none}}
+.optimized-image:where(.astro-4nxy5lhk){max-width:100%;height:auto;image-rendering:-webkit-optimize-contrast;image-rendering:crisp-edges;opacity:1;display:block}.optimized-image:where(.astro-4nxy5lhk)[src="/images/placeholder-noticia.svg"]{-o-object-fit:contain;object-fit:contain;background-color:#f3f4f6}@media (prefers-reduced-motion:reduce){.optimized-image:where(.astro-4nxy5lhk){transition:none}}
+.dv-h2:where(.astro-yxqqy6i2){font-family:var(--ui-f-display);color:var(--ui-ink);margin:.5rem 0 0;font-size:clamp(1.5rem,1.2rem + 1.2vw,2rem);font-weight:600;line-height:1.2}.dv-h3:where(.astro-yxqqy6i2){font-family:var(--ui-f-display);color:var(--ui-ink);margin:.4rem 0 .75rem;font-size:1.25rem;font-weight:600;line-height:1.25}.dv-texto:where(.astro-yxqqy6i2){color:var(--ui-muted);max-width:62ch;margin:1rem 0 0;line-height:1.65}.dv-claves:where(.astro-yxqqy6i2){margin-top:3rem}.dv-fuente:where(.astro-yxqqy6i2),.dv-ayuda:where(.astro-yxqqy6i2),.dv-nota:where(.astro-yxqqy6i2){color:var(--ui-muted);margin:0;font-size:.88rem}.dv-form:where(.astro-yxqqy6i2){flex-direction:column;gap:1rem;display:flex}.dv-form:where(.astro-yxqqy6i2) .ui-field:where(.astro-yxqqy6i2){flex:none}.dv-resultado:where(.astro-yxqqy6i2){background:var(--ui-paper);border:1px solid var(--ui-line);border-left:3px solid var(--ui-gold);border-radius:4px;padding:.9rem 1rem}.dv-resultado:where(.astro-yxqqy6i2) p:where(.astro-yxqqy6i2){margin:0}.dv-resultado-label:where(.astro-yxqqy6i2){font:600 .7rem/1 var(--ui-f-body);letter-spacing:.1em;text-transform:uppercase;color:var(--ui-muted)}.dv-resultado:where(.astro-yxqqy6i2) .dv-resultado-valor:where(.astro-yxqqy6i2){font:500 1.1rem/1.4 var(--ui-f-data);font-variant-numeric:tabular-nums;color:var(--ui-ink);margin-top:.5rem}.dv-resultado:where(.astro-yxqqy6i2) .dv-formula:where(.astro-yxqqy6i2){font:500 .75rem/1.5 var(--ui-f-data);color:var(--ui-muted);margin-top:.5rem}.dv-botones:where(.astro-yxqqy6i2){flex-wrap:wrap;gap:.75rem;display:flex}.dv-docs:where(.astro-yxqqy6i2) a:where(.astro-yxqqy6i2){color:var(--ui-link);font-weight:600}.dv-docs:where(.astro-yxqqy6i2) a:where(.astro-yxqqy6i2):focus-visible,.dv-banco:where(.astro-yxqqy6i2) .ui-contact:where(.astro-yxqqy6i2) a:where(.astro-yxqqy6i2):focus-visible{outline:3px solid var(--ui-gold);outline-offset:2px}.dv-banco:where(.astro-yxqqy6i2){gap:1rem}.dv-banco-cab:where(.astro-yxqqy6i2){align-items:center;gap:.9rem;display:flex}.dv-banco-cab:where(.astro-yxqqy6i2) h3:where(.astro-yxqqy6i2){margin-bottom:.35rem}.dv-logo:where(.astro-yxqqy6i2){border:1px solid var(--ui-line);background:var(--ui-surface);border-radius:50%;flex-shrink:0;place-items:center;width:64px;height:64px;display:grid}.dv-banco:where(.astro-yxqqy6i2) .ui-contact:where(.astro-yxqqy6i2) a:where(.astro-yxqqy6i2){color:var(--ui-link);overflow-wrap:anywhere;font-weight:600}.dv-banco:where(.astro-yxqqy6i2) .ui-contact:where(.astro-yxqqy6i2) b:where(.astro-yxqqy6i2){color:var(--ui-ink)}.dv-banco-btn:where(.astro-yxqqy6i2){margin-top:auto}
+</style><script type="module" src="/_astro/page.woA9gVKD.js"></script></head> <body class="flex flex-col min-h-screen"> <a href="#main-content" class="skip-to-content focus:top-4">
+Saltar al contenido principal
+</a>  <div class="ui-utilbar"> <div class="ui-wrap ui-utilbar-fila"> <span>Sitio oficial del Banco Central de Cuba</span> <nav aria-label="Accesos rápidos"> <ul> <li><a href="/tasas-de-cambio" data-astro-prefetch="false">Tasas de cambio</a></li> <li><a href="/busqueda">Buscar</a></li> <li><a href="/mapa-sitio">Mapa del sitio</a></li> </ul> </nav> </div> </div> <header id="main-header" class="sticky top-0 z-50 bg-white border-b border-base-200"> <div class="ui-wrap"> <div class="flex items-center h-20 gap-4">  <a href="/" class="flex items-center hover:opacity-80 transition-opacity flex-shrink-0 rounded focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-500 focus-visible:ring-offset-2"> <picture class="h-14 flex items-center"> <source srcset="/images/bcc-logo-160.avif 160w, /images/bcc-logo-200.avif 200w" sizes="123px" type="image/avif"> <source srcset="/images/bcc-logo-160.webp 160w, /images/bcc-logo-200.webp 200w" sizes="123px" type="image/webp"> <img src="/images/bcc-logo-200.png" srcset="/images/bcc-logo-160.png 160w, /images/bcc-logo-200.png 200w" sizes="123px" alt="Banco Central de Cuba" width="200" height="91" loading="eager" decoding="sync" fetchpriority="high" class="h-14 w-auto"> </picture> </a>  <!-- Desktop Navigation - Horizontal. Patrón de navegación con desplegables (no un menú de
+     aplicación): lista normal; el submenú se abre con el ratón y con el foco del teclado (A1). --><nav class="hidden xl:block ml-auto" aria-label="Navegación principal"> <ul class="flex items-center gap-0.5 list-none m-0 p-0"> <li class="relative group" data-nav-item> <a href="/sobre-nosotros" class="
+              flex items-center gap-1.5 px-2.5 py-2 text-[0.875rem] font-medium whitespace-nowrap rounded no-underline
+              transition-colors duration-fast
+              text-base-800 hover:bg-base-50 hover:text-primary-700
+              
+              focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-500 focus-visible:ring-offset-2
+            "> <span>Sobre Nosotros</span> <!-- Indicador de submenu --> <svg class="w-2.5 h-2.5 transition-transform group-hover:rotate-180 group-focus-within:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </a> <!-- Submenu (desplegable) --> <div data-submenu class="absolute left-0 top-full mt-1 w-64 bg-white border border-base-200 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible group-focus-within:opacity-100 group-focus-within:visible group-data-[cerrado]:!invisible group-data-[cerrado]:!opacity-0 transition-all duration-base z-50"> <ul class="py-2 list-none" aria-label="Submenú de Sobre Nosotros"> <li> <a href="/sobre-nosotros/consejo-de-direccion" class="
+                        block px-4 py-2.5 text-sm
+                        text-base-700 hover:bg-base-50 hover:text-primary-600
+                        
+                        transition-colors duration-fast
+                        focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary-500
+                      "> Consejo de Dirección  </a> </li><li> <a href="/sobre-nosotros/organigrama" class="
+                        block px-4 py-2.5 text-sm
+                        text-base-700 hover:bg-base-50 hover:text-primary-600
+                        
+                        transition-colors duration-fast
+                        focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary-500
+                      "> Organigrama  </a> </li><li> <a href="/sobre-nosotros/mision" class="
+                        block px-4 py-2.5 text-sm
+                        text-base-700 hover:bg-base-50 hover:text-primary-600
+                        
+                        transition-colors duration-fast
+                        focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary-500
+                      "> Misión  </a> </li><li> <a href="/sobre-nosotros/etica-bancaria" class="
+                        block px-4 py-2.5 text-sm
+                        text-base-700 hover:bg-base-50 hover:text-primary-600
+                        
+                        transition-colors duration-fast
+                        focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary-500
+                      "> Ética Bancaria  </a> </li><li> <a href="/sobre-nosotros/historia" class="
+                        block px-4 py-2.5 text-sm
+                        text-base-700 hover:bg-base-50 hover:text-primary-600
+                        
+                        transition-colors duration-fast
+                        focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary-500
+                      "> Historia  </a> </li><li> <a href="/sobre-nosotros/sedes-y-edificios" class="
+                        block px-4 py-2.5 text-sm
+                        text-base-700 hover:bg-base-50 hover:text-primary-600
+                        
+                        transition-colors duration-fast
+                        focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary-500
+                      "> Sedes y edificios  </a> </li><li> <a href="/sobre-nosotros/museo-numismatico" class="
+                        block px-4 py-2.5 text-sm
+                        text-base-700 hover:bg-base-50 hover:text-primary-600
+                        
+                        transition-colors duration-fast
+                        focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary-500
+                      "> Museo Numismático  </a> </li><li> <a href="/sistema-bancario/mapa-bancario" class="
+                        block px-4 py-2.5 text-sm
+                        text-base-700 hover:bg-base-50 hover:text-primary-600
+                        
+                        transition-colors duration-fast
+                        focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary-500
+                      "> Mapa Bancario  </a> </li> </ul> </div> </li><li class="relative group" data-nav-item> <a href="/normas-y-regulaciones" class="
+              flex items-center gap-1.5 px-2.5 py-2 text-[0.875rem] font-medium whitespace-nowrap rounded no-underline
+              transition-colors duration-fast
+              text-base-800 hover:bg-base-50 hover:text-primary-700
+              
+              focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-500 focus-visible:ring-offset-2
+            "> <span>Marco Legal y Normativo</span> <!-- Indicador de submenu --> <svg class="w-2.5 h-2.5 transition-transform group-hover:rotate-180 group-focus-within:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </a> <!-- Submenu (desplegable) --> <div data-submenu class="absolute left-0 top-full mt-1 w-64 bg-white border border-base-200 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible group-focus-within:opacity-100 group-focus-within:visible group-data-[cerrado]:!invisible group-data-[cerrado]:!opacity-0 transition-all duration-base z-50"> <ul class="py-2 list-none" aria-label="Submenú de Marco Legal y Normativo"> <li> <a href="/normas-y-regulaciones/manual-de-regulaciones" class="
+                        block px-4 py-2.5 text-sm
+                        text-base-700 hover:bg-base-50 hover:text-primary-600
+                        
+                        transition-colors duration-fast
+                        focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary-500
+                      "> Manual de Regulaciones  </a> </li><li> <a href="/normas-y-regulaciones/regulaciones-de-supervision-bancaria" class="
+                        block px-4 py-2.5 text-sm
+                        text-base-700 hover:bg-base-50 hover:text-primary-600
+                        
+                        transition-colors duration-fast
+                        focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary-500
+                      "> Regulaciones de Supervisión Bancaria  </a> </li><li> <a href="/normas-y-regulaciones/regulaciones-de-politica-monetaria" class="
+                        block px-4 py-2.5 text-sm
+                        text-base-700 hover:bg-base-50 hover:text-primary-600
+                        
+                        transition-colors duration-fast
+                        focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary-500
+                      "> Regulaciones de Política Monetaria  </a> </li> </ul> </div> </li><li class="relative group" data-nav-item> <a href="/funciones-principales" class="
+              flex items-center gap-1.5 px-2.5 py-2 text-[0.875rem] font-medium whitespace-nowrap rounded no-underline
+              transition-colors duration-fast
+              text-base-800 hover:bg-base-50 hover:text-primary-700
+              
+              focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-500 focus-visible:ring-offset-2
+            "> <span>Funciones Principales</span> <!-- Indicador de submenu --> <svg class="w-2.5 h-2.5 transition-transform group-hover:rotate-180 group-focus-within:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </a> <!-- Submenu (desplegable) --> <div data-submenu class="absolute left-0 top-full mt-1 w-64 bg-white border border-base-200 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible group-focus-within:opacity-100 group-focus-within:visible group-data-[cerrado]:!invisible group-data-[cerrado]:!opacity-0 transition-all duration-base z-50"> <ul class="py-2 list-none" aria-label="Submenú de Funciones Principales"> <li> <a href="/funciones-principales/politica-monetaria" class="
+                        block px-4 py-2.5 text-sm
+                        text-base-700 hover:bg-base-50 hover:text-primary-600
+                        
+                        transition-colors duration-fast
+                        focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary-500
+                      "> Política Monetaria  </a> </li><li> <a href="/funciones-principales/sistema-de-pago" class="
+                        block px-4 py-2.5 text-sm
+                        text-base-700 hover:bg-base-50 hover:text-primary-600
+                        
+                        transition-colors duration-fast
+                        focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary-500
+                      "> Sistemas de Pago  </a> </li><li> <a href="/funciones-principales/supervision-bancaria" class="
+                        block px-4 py-2.5 text-sm
+                        text-base-700 hover:bg-base-50 hover:text-primary-600
+                        
+                        transition-colors duration-fast
+                        focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary-500
+                      "> Supervisión Bancaria  </a> </li><li> <a href="/normas-y-regulaciones/regulaciones-de-supervision-bancaria" class="
+                        block px-4 py-2.5 text-sm
+                        text-base-700 hover:bg-base-50 hover:text-primary-600
+                        
+                        transition-colors duration-fast
+                        focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary-500
+                      "> Regulaciones de Supervisión Bancaria  </a> </li> </ul> </div> </li><li class="relative group" data-nav-item> <a href="/centro-de-superacion" class="
+              flex items-center gap-1.5 px-2.5 py-2 text-[0.875rem] font-medium whitespace-nowrap rounded no-underline
+              transition-colors duration-fast
+              text-base-800 hover:bg-base-50 hover:text-primary-700
+              
+              focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-500 focus-visible:ring-offset-2
+            "> <span>Centro de superación</span> <!-- Indicador de submenu --> <svg class="w-2.5 h-2.5 transition-transform group-hover:rotate-180 group-focus-within:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </a> <!-- Submenu (desplegable) --> <div data-submenu class="absolute left-0 top-full mt-1 w-64 bg-white border border-base-200 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible group-focus-within:opacity-100 group-focus-within:visible group-data-[cerrado]:!invisible group-data-[cerrado]:!opacity-0 transition-all duration-base z-50"> <ul class="py-2 list-none" aria-label="Submenú de Centro de superación"> <li> <a href="/centro-de-superacion" class="
+                        block px-4 py-2.5 text-sm
+                        text-base-700 hover:bg-base-50 hover:text-primary-600
+                        
+                        transition-colors duration-fast
+                        focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary-500
+                      "> Sobre nosotros  </a> </li><li> <a href="/centro-de-superacion/cursos" class="
+                        block px-4 py-2.5 text-sm
+                        text-base-700 hover:bg-base-50 hover:text-primary-600
+                        
+                        transition-colors duration-fast
+                        focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary-500
+                      "> Cursos  </a> </li> </ul> </div> </li><li class="relative group" data-nav-item> <a href="/publicaciones" class="
+              flex items-center gap-1.5 px-2.5 py-2 text-[0.875rem] font-medium whitespace-nowrap rounded no-underline
+              transition-colors duration-fast
+              text-base-800 hover:bg-base-50 hover:text-primary-700
+              
+              focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-500 focus-visible:ring-offset-2
+            "> <span>Publicaciones</span> <!-- Indicador de submenu --> <svg class="w-2.5 h-2.5 transition-transform group-hover:rotate-180 group-focus-within:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </a> <!-- Submenu (desplegable) --> <div data-submenu class="absolute right-0 top-full mt-1 w-64 bg-white border border-base-200 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible group-focus-within:opacity-100 group-focus-within:visible group-data-[cerrado]:!invisible group-data-[cerrado]:!opacity-0 transition-all duration-base z-50"> <ul class="py-2 list-none" aria-label="Submenú de Publicaciones"> <li> <a href="/billetes" class="
+                        block px-4 py-2.5 text-sm
+                        text-base-700 hover:bg-base-50 hover:text-primary-600
+                        
+                        transition-colors duration-fast
+                        focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary-500
+                      "> Billetes en circulación  </a> </li><li> <a href="/publicaciones/revistas" class="
+                        block px-4 py-2.5 text-sm
+                        text-base-700 hover:bg-base-50 hover:text-primary-600
+                        
+                        transition-colors duration-fast
+                        focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary-500
+                      "> Revistas  </a> </li><li> <a href="/publicaciones/boletines" class="
+                        block px-4 py-2.5 text-sm
+                        text-base-700 hover:bg-base-50 hover:text-primary-600
+                        
+                        transition-colors duration-fast
+                        focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary-500
+                      "> Boletines  </a> </li><li> <a href="/media/noticias" class="
+                        block px-4 py-2.5 text-sm
+                        text-base-700 hover:bg-base-50 hover:text-primary-600
+                        
+                        transition-colors duration-fast
+                        focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary-500
+                      "> Noticias  </a> </li><li> <a href="/publicaciones/investigaciones" class="
+                        block px-4 py-2.5 text-sm
+                        text-base-700 hover:bg-base-50 hover:text-primary-600
+                        
+                        transition-colors duration-fast
+                        focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary-500
+                      "> Investigaciones  </a> </li> </ul> </div> </li><li class="relative group" data-nav-item> <a href="/atencion-ciudadana" class="
+              flex items-center gap-1.5 px-2.5 py-2 text-[0.875rem] font-medium whitespace-nowrap rounded no-underline
+              transition-colors duration-fast
+              text-base-800 hover:bg-base-50 hover:text-primary-700
+              
+              focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-500 focus-visible:ring-offset-2
+            "> <span>Atención Ciudadana</span> <!-- Indicador de submenu --> <svg class="w-2.5 h-2.5 transition-transform group-hover:rotate-180 group-focus-within:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </a> <!-- Submenu (desplegable) --> <div data-submenu class="absolute right-0 top-full mt-1 w-64 bg-white border border-base-200 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible group-focus-within:opacity-100 group-focus-within:visible group-data-[cerrado]:!invisible group-data-[cerrado]:!opacity-0 transition-all duration-base z-50"> <ul class="py-2 list-none" aria-label="Submenú de Atención Ciudadana"> <li> <a href="/atencion-ciudadana/preguntas-frecuentes" class="
+                        block px-4 py-2.5 text-sm
+                        text-base-700 hover:bg-base-50 hover:text-primary-600
+                        
+                        transition-colors duration-fast
+                        focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary-500
+                      "> Preguntas Frecuentes  </a> </li><li> <a href="/cobro-de-pensiones" class="
+                        block px-4 py-2.5 text-sm
+                        text-base-700 hover:bg-base-50 hover:text-primary-600
+                        
+                        transition-colors duration-fast
+                        focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary-500
+                      "> Cobro de pensiones  </a> </li><li> <a href="/cobro-de-pensiones/registro" class="
+                        block px-4 py-2.5 text-sm
+                        text-base-700 hover:bg-base-50 hover:text-primary-600
+                        font-semibold
+                        transition-colors duration-fast
+                        focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary-500
+                      "> Registrar mi negocio (Caja Extra)  </a> </li><li> <a href="/divisas-actores-no-estatales" aria-current="page" class="
+                        block px-4 py-2.5 text-sm
+                        bg-primary-50 text-primary-700 font-medium
+                        
+                        transition-colors duration-fast
+                        focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary-500
+                      "> Venta de divisas a FGNE  </a> </li><li> <a href="/turnobanc" class="
+                        block px-4 py-2.5 text-sm
+                        text-base-700 hover:bg-base-50 hover:text-primary-600
+                        
+                        transition-colors duration-fast
+                        focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary-500
+                      "> TurnoBanc  </a> </li><li> <a href="/licencias" class="
+                        block px-4 py-2.5 text-sm
+                        text-base-700 hover:bg-base-50 hover:text-primary-600
+                        
+                        transition-colors duration-fast
+                        focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary-500
+                      "> Licencias del BCC  </a> </li><li> <a href="/licencias/solicitud" class="
+                        block px-4 py-2.5 text-sm
+                        text-base-700 hover:bg-base-50 hover:text-primary-600
+                        font-semibold
+                        transition-colors duration-fast
+                        focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary-500
+                      "> Solicitar una licencia  </a> </li> </ul> </div> </li> </ul> </nav><script type="module">var e=Array.from(document.querySelectorAll("[data-nav-item]")).filter(e=>e.querySelector("[data-submenu]"));document.addEventListener("keydown",t=>{if("Escape"!==t.key)return;const a=e.find(e=>e.contains(document.activeElement)||e.matches(":hover"));a&&!a.hasAttribute("data-cerrado")&&(a.setAttribute("data-cerrado",""),a.contains(document.activeElement)&&a.querySelector("a")?.focus())});for(const t of e)t.addEventListener("mouseleave",()=>{t.contains(document.activeElement)||t.removeAttribute("data-cerrado")}),t.addEventListener("focusout",e=>{t.contains(e.relatedTarget)||t.matches(":hover")||t.removeAttribute("data-cerrado")});</script>  <div class="flex items-center gap-3 ml-auto xl:ml-0"> <div class="relative" data-bcc-a11y-controls> <button type="button" class="flex items-center justify-center w-10 h-10 p-2 text-primary-700 bg-primary-50 hover:bg-primary-100 rounded-lg transition-colors border border-transparent focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2" aria-label="Opciones de accesibilidad" aria-expanded="false" aria-controls="bcc-a11y-menu" data-bcc-a11y-toggle> <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path> </svg> </button> <div id="bcc-a11y-menu" class="absolute right-0 mt-2 w-64 bg-white border border-base-200 rounded-lg shadow-lg z-50" data-bcc-a11y-menu hidden> <div class="p-4 space-y-4"> <div class="border-b border-base-200 pb-2"> <h3 class="text-sm font-semibold text-base-900">Opciones de accesibilidad</h3> </div> <div class="space-y-2"> <p id="bcc-a11y-fuente" class="text-xs font-medium text-base-700 block">Tamaño de fuente</p> <div class="flex items-center gap-2" role="group" aria-labelledby="bcc-a11y-fuente"> <button type="button" class="flex-shrink-0 p-2 rounded hover:bg-base-100 transition-colors focus:outline-none focus:ring-2 focus:ring-primary-500" aria-label="Disminuir tamaño de letra" title="Disminuir tamaño de letra" data-bcc-font-dec> <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"></path> </svg> </button> <span class="flex-1 text-center text-sm font-medium min-w-[60px]" aria-live="polite" data-bcc-font-value>
+100%
+</span> <button type="button" class="flex-shrink-0 p-2 rounded hover:bg-base-100 transition-colors focus:outline-none focus:ring-2 focus:ring-primary-500" aria-label="Aumentar tamaño de letra" title="Aumentar tamaño de letra" data-bcc-font-inc> <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path> </svg> </button> <button type="button" class="flex-shrink-0 p-2 rounded hover:bg-base-100 transition-colors text-xs focus:outline-none focus:ring-2 focus:ring-primary-500" aria-label="Restablecer tamaño de letra" title="Restablecer" data-bcc-font-reset>
+↺
+</button> </div> </div> <div class="space-y-2">  <button type="button" class="w-full px-3 py-2 rounded text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-primary-500 bg-base-100 text-base-700 hover:bg-base-200 border border-base-300" aria-pressed="false" data-bcc-contrast-toggle> <span aria-hidden="true" data-bcc-contrast-check hidden>✓ </span>Alto contraste
+</button> </div> </div> </div> </div>   </div>  <button id="mobile-menu-btn" class="flex items-center gap-2 px-3 py-2 text-sm font-semibold text-base-800 border border-base-200 hover:border-accent-500 rounded ml-1 xl:hidden focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-500 focus-visible:ring-offset-2" aria-expanded="false" aria-controls="mobile-menu"> <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path> </svg>
+Menú
+</button> </div>  <div id="mobile-menu-overlay" class="hidden fixed inset-0 bg-black/50 z-30 xl:hidden" aria-hidden="true"></div>  <div id="mobile-menu" class="hidden fixed top-20 left-0 right-0 bottom-0 bg-white z-40 overflow-y-auto xl:hidden" role="dialog" aria-modal="true" aria-labelledby="mobile-menu-title"> <div class="px-4 md:px-6 lg:px-8 py-4 pb-8"> <div id="mobile-menu-title" class="sr-only">Menú de navegación</div> <div class="relative w-full" data-bcc-searchbar data-context="mobile"> <form role="search" action="/busqueda" method="get" data-bcc-search-form> <label for="search-mobile-input" class="sr-only">
+Buscar en el sitio
+</label> <div class="relative"> <input id="search-mobile-input" type="search" name="q" inputmode="search" autocomplete="off" placeholder="Buscar noticias, documentos..." class="w-full pl-10 pr-10 py-3 border border-base-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent text-base" role="combobox" aria-autocomplete="list" aria-controls="search-mobile-results" aria-expanded="false" aria-haspopup="listbox" aria-busy="false" data-bcc-search-input> <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-base-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path> </svg> <div class="absolute right-3 top-1/2 -translate-y-1/2" data-bcc-search-spinner hidden> <div class="w-5 h-5 border-2 border-primary-500 border-t-transparent rounded-full animate-spin" aria-hidden="true"></div> </div> </div> </form> <div id="search-mobile-results" class="absolute top-full left-0 right-0 mt-2 bg-white border border-base-200 rounded-lg shadow-lg max-h-96 overflow-y-auto z-50" role="listbox" data-bcc-search-results hidden></div> </div> <nav aria-label="Navegación móvil" class="mt-4"> <ul class="space-y-1"> <li>  <button class="mobile-menu-toggle w-full flex items-center justify-between px-4 py-3 text-base font-medium text-base-700 hover:bg-base-50 rounded-lg transition-colors" data-target="sobre-nosotros-submenu" aria-expanded="false" aria-controls="sobre-nosotros-submenu"> <div class="flex items-center gap-3"> <span class="flex items-center justify-center w-10 h-10 rounded-full bg-primary-50 text-primary-600" aria-hidden="true"> <span class="w-5 h-5"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18" /><path d="M6 21V4h12v17" /><path d="M9 21v-4h6v4" /><path d="M9 9h.01" /><path d="M12 9h.01" /><path d="M15 9h.01" /><path d="M9 13h.01" /><path d="M12 13h.01" /><path d="M15 13h.01" /></svg></span> </span> <span>Sobre Nosotros</span> </div> <svg class="w-4 h-4 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul id="sobre-nosotros-submenu" class="hidden ml-6 mt-2 space-y-1"> <li> <a href="/sobre-nosotros/consejo-de-direccion" class="block px-4 py-2 text-sm text-base-600 hover:bg-base-50 rounded-lg"> Consejo de Dirección  </a> </li><li> <a href="/sobre-nosotros/organigrama" class="block px-4 py-2 text-sm text-base-600 hover:bg-base-50 rounded-lg"> Organigrama  </a> </li><li> <a href="/sobre-nosotros/mision" class="block px-4 py-2 text-sm text-base-600 hover:bg-base-50 rounded-lg"> Misión  </a> </li><li> <a href="/sobre-nosotros/etica-bancaria" class="block px-4 py-2 text-sm text-base-600 hover:bg-base-50 rounded-lg"> Ética Bancaria  </a> </li><li> <a href="/sobre-nosotros/historia" class="block px-4 py-2 text-sm text-base-600 hover:bg-base-50 rounded-lg"> Historia  </a> </li><li> <a href="/sobre-nosotros/sedes-y-edificios" class="block px-4 py-2 text-sm text-base-600 hover:bg-base-50 rounded-lg"> Sedes y edificios  </a> </li><li> <a href="/sobre-nosotros/museo-numismatico" class="block px-4 py-2 text-sm text-base-600 hover:bg-base-50 rounded-lg"> Museo Numismático  </a> </li><li> <a href="/sistema-bancario/mapa-bancario" class="block px-4 py-2 text-sm text-base-600 hover:bg-base-50 rounded-lg"> Mapa Bancario  </a> </li> </ul>  </li><li>  <button class="mobile-menu-toggle w-full flex items-center justify-between px-4 py-3 text-base font-medium text-base-700 hover:bg-base-50 rounded-lg transition-colors" data-target="marco-legal-y-normativo-submenu" aria-expanded="false" aria-controls="marco-legal-y-normativo-submenu"> <div class="flex items-center gap-3"> <span class="flex items-center justify-center w-10 h-10 rounded-full bg-primary-50 text-primary-600" aria-hidden="true"> <span class="w-5 h-5"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v3" /><path d="M5 21h14" /><path d="M3 7l3 7 3-7" /><path d="M15 7l3 7 3-7" /><path d="M6 16h4" /><path d="M14 16h4" /></svg></span> </span> <span>Marco Legal y Normativo</span> </div> <svg class="w-4 h-4 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul id="marco-legal-y-normativo-submenu" class="hidden ml-6 mt-2 space-y-1"> <li> <a href="/normas-y-regulaciones/manual-de-regulaciones" class="block px-4 py-2 text-sm text-base-600 hover:bg-base-50 rounded-lg"> Manual de Regulaciones  </a> </li><li> <a href="/normas-y-regulaciones/regulaciones-de-supervision-bancaria" class="block px-4 py-2 text-sm text-base-600 hover:bg-base-50 rounded-lg"> Regulaciones de Supervisión Bancaria  </a> </li><li> <a href="/normas-y-regulaciones/regulaciones-de-politica-monetaria" class="block px-4 py-2 text-sm text-base-600 hover:bg-base-50 rounded-lg"> Regulaciones de Política Monetaria  </a> </li> </ul>  </li><li>  <button class="mobile-menu-toggle w-full flex items-center justify-between px-4 py-3 text-base font-medium text-base-700 hover:bg-base-50 rounded-lg transition-colors" data-target="funciones-principales-submenu" aria-expanded="false" aria-controls="funciones-principales-submenu"> <div class="flex items-center gap-3"> <span class="flex items-center justify-center w-10 h-10 rounded-full bg-primary-50 text-primary-600" aria-hidden="true"> <span class="w-5 h-5"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h18" /><rect x="3" y="7" width="18" height="13" rx="2" /><path d="M8 7V5a2 2 0 012-2h4a2 2 0 012 2v2" /><path d="M12 12v8" /></svg></span> </span> <span>Funciones Principales</span> </div> <svg class="w-4 h-4 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul id="funciones-principales-submenu" class="hidden ml-6 mt-2 space-y-1"> <li> <a href="/funciones-principales/politica-monetaria" class="block px-4 py-2 text-sm text-base-600 hover:bg-base-50 rounded-lg"> Política Monetaria  </a> </li><li> <a href="/funciones-principales/sistema-de-pago" class="block px-4 py-2 text-sm text-base-600 hover:bg-base-50 rounded-lg"> Sistemas de Pago  </a> </li><li> <a href="/funciones-principales/supervision-bancaria" class="block px-4 py-2 text-sm text-base-600 hover:bg-base-50 rounded-lg"> Supervisión Bancaria  </a> </li><li> <a href="/normas-y-regulaciones/regulaciones-de-supervision-bancaria" class="block px-4 py-2 text-sm text-base-600 hover:bg-base-50 rounded-lg"> Regulaciones de Supervisión Bancaria  </a> </li> </ul>  </li><li>  <button class="mobile-menu-toggle w-full flex items-center justify-between px-4 py-3 text-base font-medium text-base-700 hover:bg-base-50 rounded-lg transition-colors" data-target="centro-de-superacion-submenu" aria-expanded="false" aria-controls="centro-de-superacion-submenu"> <div class="flex items-center gap-3"> <span class="flex items-center justify-center w-10 h-10 rounded-full bg-primary-50 text-primary-600" aria-hidden="true"> <span class="w-5 h-5"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 016.5 17H20" /><path d="M4 4.5A2.5 2.5 0 016.5 7H20" /><path d="M6.5 7V17" /><path d="M20 3v18" /></svg></span> </span> <span>Centro de superación</span> </div> <svg class="w-4 h-4 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul id="centro-de-superacion-submenu" class="hidden ml-6 mt-2 space-y-1"> <li> <a href="/centro-de-superacion" class="block px-4 py-2 text-sm text-base-600 hover:bg-base-50 rounded-lg"> Sobre nosotros  </a> </li><li> <a href="/centro-de-superacion/cursos" class="block px-4 py-2 text-sm text-base-600 hover:bg-base-50 rounded-lg"> Cursos  </a> </li> </ul>  </li><li>  <button class="mobile-menu-toggle w-full flex items-center justify-between px-4 py-3 text-base font-medium text-base-700 hover:bg-base-50 rounded-lg transition-colors" data-target="publicaciones-submenu" aria-expanded="false" aria-controls="publicaciones-submenu"> <div class="flex items-center gap-3"> <span class="flex items-center justify-center w-10 h-10 rounded-full bg-primary-50 text-primary-600" aria-hidden="true"> <span class="w-5 h-5"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 016.5 17H20" /><path d="M4 4.5A2.5 2.5 0 016.5 7H20" /><path d="M6.5 7V17" /><path d="M20 3v18" /></svg></span> </span> <span>Publicaciones</span> </div> <svg class="w-4 h-4 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul id="publicaciones-submenu" class="hidden ml-6 mt-2 space-y-1"> <li> <a href="/billetes" class="block px-4 py-2 text-sm text-base-600 hover:bg-base-50 rounded-lg"> Billetes en circulación  </a> </li><li> <a href="/publicaciones/revistas" class="block px-4 py-2 text-sm text-base-600 hover:bg-base-50 rounded-lg"> Revistas  </a> </li><li> <a href="/publicaciones/boletines" class="block px-4 py-2 text-sm text-base-600 hover:bg-base-50 rounded-lg"> Boletines  </a> </li><li> <a href="/media/noticias" class="block px-4 py-2 text-sm text-base-600 hover:bg-base-50 rounded-lg"> Noticias  </a> </li><li> <a href="/publicaciones/investigaciones" class="block px-4 py-2 text-sm text-base-600 hover:bg-base-50 rounded-lg"> Investigaciones  </a> </li> </ul>  </li><li>  <button class="mobile-menu-toggle w-full flex items-center justify-between px-4 py-3 text-base font-medium text-base-700 hover:bg-base-50 rounded-lg transition-colors" data-target="atencion-ciudadana-submenu" aria-expanded="false" aria-controls="atencion-ciudadana-submenu"> <div class="flex items-center gap-3"> <span class="flex items-center justify-center w-10 h-10 rounded-full bg-primary-50 text-primary-600" aria-hidden="true"> <span class="w-5 h-5"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4" /><circle cx="12" cy="12" r="9" /><path d="M15.5 15.5l3 3" /><path d="M8.5 15.5l-3 3" /><path d="M8.5 8.5l-3-3" /><path d="M15.5 8.5l3-3" /></svg></span> </span> <span>Atención Ciudadana</span> </div> <svg class="w-4 h-4 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul id="atencion-ciudadana-submenu" class="hidden ml-6 mt-2 space-y-1"> <li> <a href="/atencion-ciudadana/preguntas-frecuentes" class="block px-4 py-2 text-sm text-base-600 hover:bg-base-50 rounded-lg"> Preguntas Frecuentes  </a> </li><li> <a href="/cobro-de-pensiones" class="block px-4 py-2 text-sm text-base-600 hover:bg-base-50 rounded-lg"> Cobro de pensiones  </a> </li><li> <a href="/cobro-de-pensiones/registro" class="block px-4 py-2 text-sm text-base-600 hover:bg-base-50 rounded-lg"> Registrar mi negocio (Caja Extra)  </a> </li><li> <a href="/divisas-actores-no-estatales" class="block px-4 py-2 text-sm text-base-600 hover:bg-base-50 rounded-lg"> Venta de divisas a FGNE  </a> </li><li> <a href="/turnobanc" class="block px-4 py-2 text-sm text-base-600 hover:bg-base-50 rounded-lg"> TurnoBanc  </a> </li><li> <a href="/licencias" class="block px-4 py-2 text-sm text-base-600 hover:bg-base-50 rounded-lg"> Licencias del BCC  </a> </li><li> <a href="/licencias/solicitud" class="block px-4 py-2 text-sm text-base-600 hover:bg-base-50 rounded-lg"> Solicitar una licencia  </a> </li> </ul>  </li> </ul> </nav> </div> </div> <div id="header-decoration-line" class="pointer-events-none absolute inset-x-0 -bottom-px h-1 bg-gradient-to-r from-transparent via-[#e2b44f]/70 to-transparent"></div> </div> </header><script type="module" src="/_astro/Header.astro_astro_type_script_index_0_lang.BCbTTcwb.js"></script> <main id="main-content" class="flex-1 w-full pb-12" tabindex="-1">  <div class="ui-page-head"> <div class="ui-wrap"> <!-- JSON-LD Schema --><script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.bc.gob.cu/"},{"@type":"ListItem","position":2,"name":"Venta de divisas a FGNE"}]}</script><!-- Breadcrumb Navigation --> <nav class="flex items-center gap-2 text-sm text-[#b4c1d4]" aria-label="Breadcrumb"> <ol class="flex flex-wrap items-center gap-2 leading-tight list-none p-0 m-0"> <li class="flex items-center gap-2"> <a href="/" class="inline-flex items-center gap-1.5 transition-colors no-underline text-white hover:underline focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-500 rounded-sm">  <span>Inicio</span> </a>  </li> <li class="flex items-center gap-2 text-[#e9eef6] font-semibold" aria-current="page"> <span aria-hidden="true" class="text-xs text-[#b4c1d4]"> <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path> </svg> </span> <span>Venta de divisas a FGNE</span> </li> </ol> </nav> <span class="ui-eyebrow">Aviso importante</span> <h1>Venta de divisas a Actores Económicos No Estatales</h1> <p class="ui-intro">En correspondencia con lo dispuesto en las Resoluciones No. 127 y 128 de 2025 del Banco Central de Cuba, se habilitan los canales bancarios para recibir solicitudes de compra de divisas por parte de cooperativas no agropecuarias (CNA) y micro, pequeñas y medianas empresas no estatales (MIPYME), como parte de la implementación del mercado cambiario oficial.</p> <div class="ui-actions">  <a class="ui-btn ui-btn-gold astro-yxqqy6i2" href="#normativa">Leer resolución oficial</a> <a class="ui-btn ui-btn-ghost astro-yxqqy6i2" href="#canales-solicitud">Ver canales por banco</a> <a class="ui-btn ui-btn-ghost astro-yxqqy6i2" href="#calculo">Calcular el monto máximo</a>   </div> <p class="ui-note astro-yxqqy6i2">
+Actualizado: <b class="astro-yxqqy6i2"><time datetime="2026-01-18" class="astro-yxqqy6i2">18 de enero de 2026</time></b> </p> </div> </div> <section class="ui-section astro-yxqqy6i2" aria-labelledby="claves-t"> <div class="ui-wrap astro-yxqqy6i2"> <div class="ui-head astro-yxqqy6i2"> <div class="astro-yxqqy6i2"> <span class="ui-eyebrow astro-yxqqy6i2">Lo esencial</span> <h2 id="claves-t" class="astro-yxqqy6i2">Claves del proceso</h2> <p class="astro-yxqqy6i2">
+Información resumida para comprender los requisitos principales de la compra de divisas.
+</p> </div> </div> <ul class="ui-grid c3 astro-yxqqy6i2"> <li class="astro-yxqqy6i2"> <div class="ui-card astro-yxqqy6i2"> <span class="ui-ico astro-yxqqy6i2" aria-hidden="true"> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="astro-yxqqy6i2"> <rect x="3" y="5" width="18" height="16" rx="2" class="astro-yxqqy6i2"></rect> <path d="M8 3v4M16 3v4M3 11h18" class="astro-yxqqy6i2"></path> </svg> </span> <h3 class="astro-yxqqy6i2">Frecuencia mensual</h3> <p class="astro-yxqqy6i2">Las solicitudes se procesan una vez al mes. Los actores económicos deben planificar sus demandas dentro de este ciclo.</p> </div> </li><li class="astro-yxqqy6i2"> <div class="ui-card astro-yxqqy6i2"> <span class="ui-ico astro-yxqqy6i2" aria-hidden="true"> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="astro-yxqqy6i2"> <path d="M12 3l7 3v6c0 4.2-2.7 7.9-7 9-4.3-1.1-7-4.8-7-9V6l7-3z" class="astro-yxqqy6i2"></path> <path d="M9 12l2 2 4-4" class="astro-yxqqy6i2"></path> </svg> </span> <h3 class="astro-yxqqy6i2">Proceso bancarizado</h3> <p class="astro-yxqqy6i2">Operación 100% digital y transparente. No se admite el uso de efectivo en ninguna etapa del proceso.</p> </div> </li><li class="astro-yxqqy6i2"> <div class="ui-card astro-yxqqy6i2"> <span class="ui-ico astro-yxqqy6i2" aria-hidden="true"> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="astro-yxqqy6i2"> <path d="M7 7h10M13 3l4 4-4 4" class="astro-yxqqy6i2"></path> <path d="M17 17H7M11 21l-4-4 4-4" class="astro-yxqqy6i2"></path> </svg> </span> <h3 class="astro-yxqqy6i2">Tasa de cambio oficial</h3> <p class="astro-yxqqy6i2">Se aplica la tasa de cambio vigente del Segmento III (Tasa Población y FGNE), incorporando los márgenes comerciales autorizados.</p> </div> </li> </ul> <div class="ui-split dv-claves astro-yxqqy6i2"> <div class="astro-yxqqy6i2"> <h3 class="dv-h3 astro-yxqqy6i2">Requisitos principales</h3> <ul class="ui-rules astro-yxqqy6i2"> <li class="astro-yxqqy6i2">La venta de divisas se realizará una vez al mes, por un monto máximo calculado según la regla establecida.</li><li class="astro-yxqqy6i2">La operación se ejecuta de forma bancarizada: los CUP se pagan desde la cuenta fiscal y las divisas se acreditan en la cuenta en divisas del actor económico no estatal.</li><li class="astro-yxqqy6i2">La tasa de cambio aplicable será la establecida por el BCC para el Segmento III, vigente el día de ejecución, incorporando los márgenes comerciales autorizados.</li><li class="astro-yxqqy6i2">Previo a la ejecución, el banco realizará verificaciones de identidad y de las cuentas involucradas, conforme a requisitos de diligencia, control y trazabilidad.</li> </ul> </div> <aside id="calculo" class="ui-panel dv-calculo astro-yxqqy6i2" aria-labelledby="calculo-t"> <div class="astro-yxqqy6i2"> <span class="ui-eyebrow astro-yxqqy6i2">Transparencia</span> <h3 id="calculo-t" class="dv-h3 astro-yxqqy6i2">Fórmula para el monto máximo mensual</h3> <p class="dv-fuente astro-yxqqy6i2">Según la Resolución 128 de 2025 del BCC y la Circular No. 3 de 2025.</p> </div> <form id="calculo-divisas" class="dv-form astro-yxqqy6i2"> <div class="ui-field astro-yxqqy6i2"> <label for="promedio-ingresos" class="astro-yxqqy6i2">Promedio de ingresos últimos 3 meses (CUP)</label> <input id="promedio-ingresos" name="promedio-ingresos" type="number" min="0" step="0.01" inputmode="decimal" placeholder="Ej: 150000" class="astro-yxqqy6i2"> </div> <div class="ui-field astro-yxqqy6i2"> <label for="tasa-cambio" class="astro-yxqqy6i2">Tasa de cambio Segmento III vigente (CUP)</label> <input id="tasa-cambio" name="tasa-cambio" type="number" min="0" step="0.0001" inputmode="decimal" placeholder="Ej: 120" aria-describedby="tasa-cambio-ayuda" value="758" class="astro-yxqqy6i2"> <p id="tasa-cambio-ayuda" class="dv-ayuda astro-yxqqy6i2">Segmento III · Tasa Población y FGNE.</p> </div> <div class="dv-resultado astro-yxqqy6i2"> <p class="dv-resultado-label astro-yxqqy6i2">Resultado estimado</p> <p id="resultado-divisas" class="dv-resultado-valor astro-yxqqy6i2" aria-live="polite">
+Ingresa los valores para calcular.
+</p> <p class="dv-formula astro-yxqqy6i2">
+Fórmula: ((Promedio de ingresos últimos 3 meses) × 50%) / (Tasa Segmento III vigente)
+</p> </div> <div class="dv-botones astro-yxqqy6i2"> <button type="button" id="btn-calcular" class="ui-btn ui-btn-navy astro-yxqqy6i2">Calcular</button> <button type="button" id="btn-limpiar" class="ui-btn ui-btn-line astro-yxqqy6i2">Limpiar</button> </div> </form> <p class="dv-ayuda astro-yxqqy6i2">
+Nota: si el importe solicitado excede el máximo resultante, el banco revisará y ajustará
+            según corresponda.
+</p> </aside> </div> </div> </section> <section id="normativa" class="ui-section alt astro-yxqqy6i2" aria-labelledby="normativa-t"> <div class="ui-wrap ui-split astro-yxqqy6i2"> <div class="astro-yxqqy6i2"> <span class="ui-eyebrow astro-yxqqy6i2">Base legal</span> <h2 id="normativa-t" class="dv-h2 astro-yxqqy6i2">Normativa aplicable</h2> <p class="dv-texto astro-yxqqy6i2">
+La habilitación se realiza en correspondencia con las Resoluciones No. 127 y 128 de 2025 del
+          Banco Central de Cuba, y el Reglamento del Mercado Cambiario oficial.
+</p> </div> <div class="ui-panel astro-yxqqy6i2"> <h3 class="dv-h3 astro-yxqqy6i2">Documentos clave</h3> <ul class="ui-plain dv-docs astro-yxqqy6i2"> <li class="astro-yxqqy6i2"> <a href="https://www.gacetaoficial.gob.cu/sites/default/files/goc-2025-o94_0.pdf" target="_blank" rel="noopener noreferrer" class="astro-yxqqy6i2">
+Resolución No. 127/2025<span class="ui-sr astro-yxqqy6i2"> (PDF, Gaceta Oficial, se abre en una pestaña nueva)</span> </a> </li> <li class="astro-yxqqy6i2"> <a href="https://www.gacetaoficial.gob.cu/sites/default/files/goc-2025-o94_0.pdf" target="_blank" rel="noopener noreferrer" class="astro-yxqqy6i2">
+Resolución No. 128/2025<span class="ui-sr astro-yxqqy6i2"> (PDF, Gaceta Oficial, se abre en una pestaña nueva)</span> </a> </li> <li class="astro-yxqqy6i2"> <a href="/CIRCULAR%203-2025.pdf" class="astro-yxqqy6i2">Circular No. 3/2025<span class="ui-sr astro-yxqqy6i2"> (PDF)</span></a> </li> </ul> </div> </div> </section> <section id="canales-solicitud" class="ui-section astro-yxqqy6i2" aria-labelledby="canales-t"> <div class="ui-wrap astro-yxqqy6i2"> <div class="ui-head astro-yxqqy6i2"> <div class="astro-yxqqy6i2"> <span class="ui-eyebrow astro-yxqqy6i2">Canales por banco</span> <h2 id="canales-t" class="astro-yxqqy6i2">Cómo solicitar la compra de divisas</h2> <p class="astro-yxqqy6i2">
+Usa siempre el canal del banco donde opera tu entidad. Si el banco actualiza sus vías,
+            prevalecerá la información oficial de esa institución.
+</p> </div> </div> <ul class="ui-grid c3 astro-yxqqy6i2"> <li class="astro-yxqqy6i2"> <article class="ui-card dv-banco astro-yxqqy6i2"> <div class="dv-banco-cab astro-yxqqy6i2"> <span class="dv-logo astro-yxqqy6i2"> <img src="/bpa.jpg" srcset="/bpa.jpg 1x, /bpa.jpg 1.5x, /bpa.jpg 2x, /bpa.jpg 3x" sizes="64px" alt="Logo del Banco Popular de Ahorro" width="64" height="64" loading="lazy" decoding="async" fetchpriority="auto" class="optimized-image h-12 w-12 rounded-full object-contain astro-yxqqy6i2 astro-4nxy5lhk" style="width: 64px; height: 64px; max-width: 100%; height: auto;" data-fallback="/images/placeholder-noticia.svg"><script type="module">!function(){const t=new WeakSet;function e(){document.querySelectorAll("img.optimized-image[data-fallback]").forEach(e=>{if(t.has(e))return;t.add(e);const n=e.getAttribute("data-fallback");if(!n)return;let a=0;e.addEventListener("error",function(){if(a++,a>=2||this.src===n)return this.removeAttribute("data-fallback"),void(this.src===n&&a>=2&&(this.style.display="none"));this.src!==n&&(this.src=n)},{once:!1})})}"loading"===document.readyState?document.addEventListener("DOMContentLoaded",e):e()}();</script> </span> <div class="astro-yxqqy6i2"> <h3 class="astro-yxqqy6i2">Banco Popular de Ahorro (BPA)</h3> <span class="ui-eyebrow astro-yxqqy6i2">Solicitud por correo electrónico</span> </div> </div> <ul class="ui-contact astro-yxqqy6i2"> <li class="astro-yxqqy6i2"> <span class="astro-yxqqy6i2">Correo de solicitud</span> <a href="mailto:solicitud@mail.bpa.cu" class="astro-yxqqy6i2"> solicitud@mail.bpa.cu  </a> </li><li class="astro-yxqqy6i2"> <span class="astro-yxqqy6i2">Debe incluir</span> <b class="astro-yxqqy6i2">Nombre de la MIPYME o CNA, NIT, cuenta en CUP e importe solicitado.</b> </li> </ul> <p class="dv-nota astro-yxqqy6i2">Próximamente esta solicitud estará disponible en la plataforma de Banca Remota de BPA.</p> <a href="https://bancaremota.bpa.cu/" target="_blank" rel="noopener noreferrer" class="ui-btn ui-btn-line dv-banco-btn astro-yxqqy6i2"> Banca Remota BPA <span class="ui-sr astro-yxqqy6i2"> de Banco Popular de Ahorro (BPA) (se abre en una pestaña nueva)</span> </a> </article> </li><li class="astro-yxqqy6i2"> <article class="ui-card dv-banco astro-yxqqy6i2"> <div class="dv-banco-cab astro-yxqqy6i2"> <span class="dv-logo astro-yxqqy6i2"> <img src="/metropolitano.png" srcset="/metropolitano.png 1x, /metropolitano.png 1.5x, /metropolitano.png 2x, /metropolitano.png 3x" sizes="64px" alt="Logo del Banco Metropolitano" width="64" height="64" loading="lazy" decoding="async" fetchpriority="auto" class="optimized-image h-12 w-12 rounded-full object-contain astro-yxqqy6i2 astro-4nxy5lhk" style="width: 64px; height: 64px; max-width: 100%; height: auto;" data-fallback="/images/placeholder-noticia.svg"> </span> <div class="astro-yxqqy6i2"> <h3 class="astro-yxqqy6i2">Banco Metropolitano (BANMET)</h3> <span class="ui-eyebrow astro-yxqqy6i2">Metropolitano en Línea (Banca Remota)</span> </div> </div> <ul class="ui-contact astro-yxqqy6i2"> <li class="astro-yxqqy6i2"> <span class="astro-yxqqy6i2">Acceso</span> <a href="https://www.banmet.enzona.net" target="_blank" rel="noopener noreferrer" class="astro-yxqqy6i2"> www.banmet.enzona.net <span class="ui-sr astro-yxqqy6i2"> (se abre en una pestaña nueva)</span> </a> </li><li class="astro-yxqqy6i2"> <span class="astro-yxqqy6i2">Canal</span> <b class="astro-yxqqy6i2">Habilitado para clientes de BANMET.</b> </li><li class="astro-yxqqy6i2"> <span class="astro-yxqqy6i2">Contacto</span> <a href="mailto:clientes@banmet.cu" class="astro-yxqqy6i2"> clientes@banmet.cu  </a> </li><li class="astro-yxqqy6i2"> <span class="astro-yxqqy6i2">Teléfonos</span> <a href="tel:+5378683535" class="astro-yxqqy6i2"> 7868-3535 y 7866-0606  </a> </li> </ul>  <a href="https://www.banmet.enzona.net" target="_blank" rel="noopener noreferrer" class="ui-btn ui-btn-line dv-banco-btn astro-yxqqy6i2"> Acceder al portal <span class="ui-sr astro-yxqqy6i2"> de Banco Metropolitano (BANMET) (se abre en una pestaña nueva)</span> </a> </article> </li><li class="astro-yxqqy6i2"> <article class="ui-card dv-banco astro-yxqqy6i2"> <div class="dv-banco-cab astro-yxqqy6i2"> <span class="dv-logo astro-yxqqy6i2"> <img src="/bandec.jpg" srcset="/bandec.jpg 1x, /bandec.jpg 1.5x, /bandec.jpg 2x, /bandec.jpg 3x" sizes="64px" alt="Logo de BANDEC" width="64" height="64" loading="lazy" decoding="async" fetchpriority="auto" class="optimized-image h-12 w-12 rounded-full object-contain astro-yxqqy6i2 astro-4nxy5lhk" style="width: 64px; height: 64px; max-width: 100%; height: auto;" data-fallback="/images/placeholder-noticia.svg"> </span> <div class="astro-yxqqy6i2"> <h3 class="astro-yxqqy6i2">BANDEC</h3> <span class="ui-eyebrow astro-yxqqy6i2">MiTurno</span> </div> </div> <ul class="ui-contact astro-yxqqy6i2"> <li class="astro-yxqqy6i2"> <span class="astro-yxqqy6i2">Acceso</span> <a href="https://miturno.bandec.cu" target="_blank" rel="noopener noreferrer" class="astro-yxqqy6i2"> miturno.bandec.cu <span class="ui-sr astro-yxqqy6i2"> (se abre en una pestaña nueva)</span> </a> </li><li class="astro-yxqqy6i2"> <span class="astro-yxqqy6i2">Nota</span> <b class="astro-yxqqy6i2">Consulta el canal y las indicaciones del banco.</b> </li> </ul>  <a href="https://miturno.bandec.cu" target="_blank" rel="noopener noreferrer" class="ui-btn ui-btn-line dv-banco-btn astro-yxqqy6i2"> Acceder al portal <span class="ui-sr astro-yxqqy6i2"> de BANDEC (se abre en una pestaña nueva)</span> </a> </article> </li> </ul> </div> </section> <section id="preguntas-frecuentes" class="ui-section alt astro-yxqqy6i2" aria-labelledby="faq-t"> <div class="ui-wrap astro-yxqqy6i2"> <div class="ui-head astro-yxqqy6i2"> <div class="astro-yxqqy6i2"> <span class="ui-eyebrow astro-yxqqy6i2">Dudas comunes</span> <h2 id="faq-t" class="astro-yxqqy6i2">Preguntas frecuentes</h2> <p class="astro-yxqqy6i2">
+Respuestas rápidas a las dudas más comunes sobre la venta de divisas para actores
+            económicos no estatales.
+</p> </div> </div> <div class="ui-faq astro-yxqqy6i2"> <details class="astro-yxqqy6i2"> <summary class="astro-yxqqy6i2">¿Quiénes pueden solicitar la compra de divisas?</summary> <p class="astro-yxqqy6i2">Pueden solicitarla cooperativas no agropecuarias (CNA) y MIPYME no estatales, de acuerdo con las disposiciones del BCC.</p> </details><details class="astro-yxqqy6i2"> <summary class="astro-yxqqy6i2">¿Con qué frecuencia se pueden comprar divisas?</summary> <p class="astro-yxqqy6i2">Una vez al mes, con un monto máximo determinado por la fórmula establecida.</p> </details><details class="astro-yxqqy6i2"> <summary class="astro-yxqqy6i2">¿Cómo se calcula el monto máximo permitido?</summary> <p class="astro-yxqqy6i2">Se calcula con la regla: ((Promedio de ingresos en la cuenta fiscal de los últimos 3 meses) × 50%) / (Tasa de Cambio del Segmento III vigente).</p> </details><details class="astro-yxqqy6i2"> <summary class="astro-yxqqy6i2">¿De qué cuenta se pagan los CUP y dónde se acreditan las divisas?</summary> <p class="astro-yxqqy6i2">Los CUP se pagan desde la cuenta fiscal y las divisas se acreditan en la cuenta en divisas del actor económico no estatal.</p> </details><details class="astro-yxqqy6i2"> <summary class="astro-yxqqy6i2">¿A qué “cuenta en divisas” se refiere? ¿Es MLC?</summary> <p class="astro-yxqqy6i2">La normativa habla de la cuenta en divisas que la entidad tenga habilitada en su banco para operar. No es la cuenta en MLC, es una nueva. Si aún no existe, es recomendable gestionarla con su banco para disponer de una cuenta válida. Próximamente se dará más información sobre este tema.</p> </details><details class="astro-yxqqy6i2"> <summary class="astro-yxqqy6i2">¿Puedo tramitarlo por el canal de otro banco?</summary> <p class="astro-yxqqy6i2">Cada banco habilita su propio canal para sus clientes. El acceso de BANMET en Enzona corresponde a la banca remota de BANMET y aplica para quienes operan con ese banco.</p> </details><details class="astro-yxqqy6i2"> <summary class="astro-yxqqy6i2">¿Qué pasa si solicito un importe mayor al permitido?</summary> <p class="astro-yxqqy6i2">El banco revisará el importe según el resultado del cálculo y aplicará el límite que corresponda.</p> </details><details class="astro-yxqqy6i2"> <summary class="astro-yxqqy6i2">¿Qué verificaciones realiza el banco antes de ejecutar la operación?</summary> <p class="astro-yxqqy6i2">Verificaciones de identidad del cliente y de las cuentas involucradas, conforme a requisitos de diligencia, control y trazabilidad.</p> </details><details class="astro-yxqqy6i2"> <summary class="astro-yxqqy6i2">¿Qué tasa de cambio se aplica?</summary> <p class="astro-yxqqy6i2">La tasa establecida por el BCC para el Segmento III, vigente el día de ejecución, incorporando los márgenes comerciales autorizados.</p> </details> </div> </div> </section>  </main> <footer class="pie astro-jo6i4kqk"> <div class="ui-wrap pie-rejilla astro-jo6i4kqk"> <div class="pie-contacto astro-jo6i4kqk"> <a href="/" class="pie-logo astro-jo6i4kqk"> <picture class="astro-jo6i4kqk"> <source srcset="/images/bcc-logo-200.avif" type="image/avif" class="astro-jo6i4kqk"> <source srcset="/images/bcc-logo-200.webp" type="image/webp" class="astro-jo6i4kqk"> <img src="/images/bcc-logo-200.png" alt="Banco Central de Cuba, inicio" width="200" height="91" loading="lazy" decoding="async" class="astro-jo6i4kqk"> </picture> </a> <address class="astro-jo6i4kqk">
+Cuba #402 e/ Lamparilla y Amargura<br class="astro-jo6i4kqk">
+Habana Vieja, La Habana, Cuba<br class="astro-jo6i4kqk"> <a href="tel:+5378634062" class="astro-jo6i4kqk">(+53) 7863 4062</a><br class="astro-jo6i4kqk"> <a href="mailto:atencionpoblacion@bc.gob.cu" class="astro-jo6i4kqk">atencionpoblacion@bc.gob.cu</a> </address> </div> <nav aria-label="El Banco Central" class="astro-jo6i4kqk"> <h2 class="astro-jo6i4kqk">El Banco Central</h2> <ul class="astro-jo6i4kqk"> <li class="astro-jo6i4kqk"> <a href="/sobre-nosotros/mision" class="astro-jo6i4kqk">Misión y funciones</a> </li><li class="astro-jo6i4kqk"> <a href="/sobre-nosotros/consejo-de-direccion" class="astro-jo6i4kqk">Consejo de Dirección</a> </li><li class="astro-jo6i4kqk"> <a href="/sobre-nosotros/organigrama" class="astro-jo6i4kqk">Organización y estructura</a> </li><li class="astro-jo6i4kqk"> <a href="/sobre-nosotros/etica-bancaria" class="astro-jo6i4kqk">Ética bancaria</a> </li><li class="astro-jo6i4kqk"> <a href="/sobre-nosotros/historia" class="astro-jo6i4kqk">Historia institucional</a> </li> </ul> </nav><nav aria-label="Para la ciudadanía" class="astro-jo6i4kqk"> <h2 class="astro-jo6i4kqk">Para la ciudadanía</h2> <ul class="astro-jo6i4kqk"> <li class="astro-jo6i4kqk"> <a href="/tasas-de-cambio" data-astro-prefetch="false" class="astro-jo6i4kqk">Tasas de cambio oficiales</a> </li><li class="astro-jo6i4kqk"> <a href="/cobro-de-pensiones" class="astro-jo6i4kqk">Cobro de pensiones</a> </li><li class="astro-jo6i4kqk"> <a href="/turnobanc" class="astro-jo6i4kqk">TurnoBanc</a> </li><li class="astro-jo6i4kqk"> <a href="/billetes" class="astro-jo6i4kqk">Billetes en circulación</a> </li><li class="astro-jo6i4kqk"> <a href="/funciones-principales/sistema-de-pago" class="astro-jo6i4kqk">Sistemas de pago</a> </li><li class="astro-jo6i4kqk"> <a href="/atencion-ciudadana/preguntas-frecuentes" class="astro-jo6i4kqk">Preguntas frecuentes</a> </li><li class="astro-jo6i4kqk"> <a href="/atencion-ciudadana" class="astro-jo6i4kqk">Atención a la población</a> </li> </ul> </nav><nav aria-label="Información económica" class="astro-jo6i4kqk"> <h2 class="astro-jo6i4kqk">Información económica</h2> <ul class="astro-jo6i4kqk"> <li class="astro-jo6i4kqk"> <a href="/media/noticias" class="astro-jo6i4kqk">Noticias</a> </li><li class="astro-jo6i4kqk"> <a href="/publicaciones/boletines" class="astro-jo6i4kqk">Boletines</a> </li><li class="astro-jo6i4kqk"> <a href="/publicaciones/revistas" class="astro-jo6i4kqk">Revistas</a> </li><li class="astro-jo6i4kqk"> <a href="/publicaciones/investigaciones" class="astro-jo6i4kqk">Investigaciones</a> </li><li class="astro-jo6i4kqk"> <a href="/indicadores" class="astro-jo6i4kqk">Estadísticas monetarias</a> </li><li class="astro-jo6i4kqk"> <a href="/marco-legal" class="astro-jo6i4kqk">Marco legal</a> </li> </ul> </nav> <div class="pie-legal astro-jo6i4kqk"> <p class="astro-jo6i4kqk">© 2026 Banco Central de Cuba. Todos los derechos reservados.</p> <ul class="astro-jo6i4kqk"> <li class="astro-jo6i4kqk"><a href="/mapa-sitio" class="astro-jo6i4kqk">Mapa del sitio</a></li> <li class="astro-jo6i4kqk"><a href="/terminos" class="astro-jo6i4kqk">Términos de uso</a></li> <li class="astro-jo6i4kqk"><a href="/privacidad" class="astro-jo6i4kqk">Privacidad</a></li> <li class="astro-jo6i4kqk"><a href="/accesibilidad" class="astro-jo6i4kqk">Accesibilidad</a></li> </ul> <img src="/images/marca_cuba.png" alt="Marca País Cuba" class="pie-marca astro-jo6i4kqk" width="996" height="460" loading="lazy" decoding="async"> </div> </div> </footer> <button id="bcc-chat-launcher" type="button" class="bcc-chat-launcher" aria-expanded="false" aria-controls="bcc-chat-panel"> <svg class="bcc-chat-launcher__icono" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" aria-hidden="true" focusable="false"> <path d="M21 12c0 4.4-4 8-9 8a9.9 9.9 0 0 1-4.3-.9L3 20l1.4-3.7A7.4 7.4 0 0 1 3 12c0-4.4 4-8 9-8s9 3.6 9 8Z"></path> <path d="M8 12h.01M12 12h.01M16 12h.01"></path> </svg> <span class="bcc-chat-launcher__texto">Asistente</span> </button> <!-- ========================================
+         ASISTENTE VIRTUAL (Oculto temporalmente)
+         ======================================== --> <!-- ========================================
+         SCRIPTS DIFERIDOS (No bloquean rendering)
+         ======================================== --> <!-- Performance Observer para Core Web Vitals (opcional, carga diferida) --> <!-- Solo se carga si el navegador soporta PerformanceObserver --> <script>
+      // Cargar performance-observer solo si es necesario (lazy loading)
+      // Nota: Este script es muy ligero (~1KB), pero lo cargamos lazy para no bloquear
+      if ('PerformanceObserver' in window) {
+        // Cargar después de que la página esté lista (no crítico)
+        if (document.readyState === 'complete') {
+          const script = document.createElement('script');
+          script.src = '/js/performance-observer.js';
+          script.defer = true;
+          document.body.appendChild(script);
+        } else {
+          window.addEventListener('load', () => {
+            const script = document.createElement('script');
+            script.src = '/js/performance-observer.js';
+            script.defer = true;
+            document.body.appendChild(script);
+          });
+        }
+      }
+    </script><!-- Share buttons handler (usa event delegation, disponible globalmente) --> <script src="/js/share-buttons.js" defer></script><!-- Enhancements del header (progressive enhancement, fuera de ruta crítica) --> <!-- Cargar bajo demanda para NO afectar PageSpeed (Lighthouse no interactúa). --> <script>(function(){const URL_A11Y = "/_astro/accessibility-controls.CtkkfirK.js";
+const URL_SEARCH = "/_astro/search-bar.DR_bh3mi.js";
+
+      (function () {
+        const global = window;
+        global.__bccEnhancements = global.__bccEnhancements || {
+          promises: Object.create(null),
+          loaded: Object.create(null),
+        };
+        const state = global.__bccEnhancements;
+
+        function loadModule(name, url) {
+          if (!url) return Promise.resolve(false);
+          if (state.loaded[name]) return Promise.resolve(true);
+          if (state.promises[name]) return state.promises[name];
+
+          state.promises[name] = new Promise((resolve) => {
+            const script = document.createElement('script');
+            script.type = 'module';
+            script.src = url;
+            script.async = true;
+            script.onload = () => {
+              state.loaded[name] = true;
+              resolve(true);
+            };
+            script.onerror = () => resolve(false);
+            document.head.appendChild(script);
+          });
+
+          return state.promises[name];
+        }
+
+        function wireSearchLazy() {
+          document.querySelectorAll('[data-bcc-searchbar]').forEach((root) => {
+            if (!(root instanceof HTMLElement)) return;
+            if (root.dataset.bccLazySearch === '1') return;
+            root.dataset.bccLazySearch = '1';
+
+            const input = root.querySelector('[data-bcc-search-input]');
+            if (!(input instanceof HTMLInputElement)) return;
+
+            const load = () => {
+              loadModule('search', URL_SEARCH);
+            };
+
+            // Cargar antes de que el usuario empiece a escribir.
+            input.addEventListener('pointerdown', load, { once: true, passive: true });
+            input.addEventListener('focus', load, { once: true });
+            input.addEventListener('keydown', load, { once: true });
+          });
+        }
+
+        function wireA11yLazy() {
+          document.querySelectorAll('[data-bcc-a11y-controls]').forEach((root) => {
+            if (!(root instanceof HTMLElement)) return;
+            const btn = root.querySelector('[data-bcc-a11y-toggle]');
+            if (!(btn instanceof HTMLButtonElement)) return;
+            if (btn.dataset.bccLazyA11y === '1') return;
+            btn.dataset.bccLazyA11y = '1';
+
+            const preload = () => {
+              loadModule('a11y', URL_A11Y);
+            };
+
+            // Preload temprano en pointerdown (mejora sensación de respuesta).
+            btn.addEventListener('pointerdown', preload, { once: true, passive: true });
+
+            // Primer click: cargar módulo y repetir click para abrir el menú sin "doble click".
+            btn.addEventListener(
+              'click',
+              (e) => {
+                e.preventDefault();
+                loadModule('a11y', URL_A11Y).then(() => {
+                  try {
+                    btn.click();
+                  } catch {
+                    // ignore
+                  }
+                });
+              },
+              { once: true, capture: true },
+            );
+          });
+        }
+
+        function boot() {
+          wireSearchLazy();
+          wireA11yLazy();
+        }
+
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', boot, { once: true });
+        } else {
+          boot();
+        }
+
+        // View Transitions / client router
+        document.addEventListener('astro:page-load', boot);
+      })();
+    })();</script></body> </html><script type="module">var e=document.getElementById("promedio-ingresos"),t=document.getElementById("tasa-cambio"),n=document.getElementById("resultado-divisas"),l=document.getElementById("btn-calcular"),i=document.getElementById("btn-limpiar"),a=e instanceof HTMLInputElement?e:null,o=t instanceof HTMLInputElement?t:null,u=n instanceof HTMLParagraphElement?n:null,r=l instanceof HTMLButtonElement?l:null,s=i instanceof HTMLButtonElement?i:null,m=e=>{if("string"!=typeof e)return null;const t=e.replace(",",".").trim(),n=Number(t);return Number.isFinite(n)?n:null},c=()=>{const e=m(a?.value??""),t=m(o?.value??"");if(!a||!o||!u)return;if(null===e||null===t||t<=0)return void(u.textContent="Completa los campos con valores válidos.");const n=.5*e/t;var l;u.textContent=`Monto máximo estimado (divisas): ${l=n,l.toLocaleString("es-CU",{minimumFractionDigits:2,maximumFractionDigits:2})}`};r?.addEventListener("click",c),s?.addEventListener("click",()=>{a&&o&&u&&(a.value="",o.value="",u.textContent="Ingresa los valores para calcular.")}),a?.addEventListener("input",c),o?.addEventListener("input",c);</script>

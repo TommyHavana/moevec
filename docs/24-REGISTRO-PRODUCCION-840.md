@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-29T19:02:12+00:00.
+Comprobado en WordPress: 2026-10-29T19:39:56+00:00.
 
-**255/840 terminadas · 0 en curso · 585 pendientes.**
+**261/840 terminadas · 0 en curso · 579 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -267,12 +267,12 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 253 | 17/56 · 13/15 | E7.4.13 | India: impuestos a las criptomonedas y efecto en el mercado | terminada | 3/3 | [Leer](https://moevec.org/blog/india-impuestos-criptomonedas/) |
 | 254 | 17/56 · 14/15 | E7.4.14 | Sectores vetados a la inversión privada: un mapa comparado | terminada | 3/3 | [Leer](https://moevec.org/blog/sectores-vetados-inversion-privada/) |
 | 255 | 17/56 · 15/15 | E7.4.15 | Seguridad jurídica para invertir: lista de comprobación por país | terminada | 3/3 | [Leer](https://moevec.org/blog/seguridad-juridica-invertir-lista/) |
-| 256 | 18/56 · 1/15 | E7.8.01 | Por qué el capital huye: salida y voz | pendiente | 0/3 | — |
-| 257 | 18/56 · 2/15 | E7.8.02 | Impuestos de salida: España, EE. UU. y Noruega | pendiente | 0/3 | — |
-| 258 | 18/56 · 3/15 | E7.8.03 | El cepo argentino: historia de un control de cambios | pendiente | 0/3 | — |
-| 259 | 18/56 · 4/15 | E7.8.04 | Venezuela: CADIVI y veinte años de control de cambios | pendiente | 0/3 | — |
-| 260 | 18/56 · 5/15 | E7.8.05 | Cuba: dualidad monetaria, unificación y mercado informal | pendiente | 0/3 | — |
-| 261 | 18/56 · 6/15 | E7.8.06 | Chipre 2013: cuando los depósitos pagaron el rescate | pendiente | 0/3 | — |
+| 256 | 18/56 · 1/15 | E7.8.01 | Por qué el capital huye: salida y voz | terminada | 3/3 | [Leer](https://moevec.org/blog/por-que-el-capital-huye/) |
+| 257 | 18/56 · 2/15 | E7.8.02 | Impuestos de salida: España, EE. UU. y Noruega | terminada | 3/3 | [Leer](https://moevec.org/blog/impuestos-de-salida/) |
+| 258 | 18/56 · 3/15 | E7.8.03 | El cepo argentino: historia de un control de cambios | terminada | 3/3 | [Leer](https://moevec.org/blog/cepo-argentino/) |
+| 259 | 18/56 · 4/15 | E7.8.04 | Venezuela: CADIVI y veinte años de control de cambios | terminada | 3/3 | [Leer](https://moevec.org/blog/venezuela-cadivi/) |
+| 260 | 18/56 · 5/15 | E7.8.05 | Cuba: dualidad monetaria, unificación y mercado informal | terminada | 3/3 | [Leer](https://moevec.org/blog/cuba-dualidad-unificacion/) |
+| 261 | 18/56 · 6/15 | E7.8.06 | Chipre 2013: cuando los depósitos pagaron el rescate | terminada | 3/3 | [Leer](https://moevec.org/blog/chipre-2013-depositos/) |
 | 262 | 18/56 · 7/15 | E7.8.07 | El rescate interno en Europa: la directiva BRRD | pendiente | 0/3 | — |
 | 263 | 18/56 · 8/15 | E7.8.08 | Canadá 2022: congelación de cuentas por motivos políticos | pendiente | 0/3 | — |
 | 264 | 18/56 · 9/15 | E7.8.09 | India 2016: la desmonetización | pendiente | 0/3 | — |

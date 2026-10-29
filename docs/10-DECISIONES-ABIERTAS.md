@@ -533,3 +533,23 @@ Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobad
 Siguiente **256–258 / E7.8.01–E7.8.03**, Política y Economía → Migración de Capital. Preparaciones incluidas en las 585 pendientes. E7.8.01: 3/3 imágenes locales; sin texto final, sin publicación; E7.8.02: 3/3 imágenes locales; sin texto final, sin publicación; E7.8.03: 3/3 imágenes locales; sin texto final, sin publicación. Después 259–261. Automatización activa, sin agotamiento comunicado.
 
 Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 256–258 · 29/10/2026
+
+258/840 terminadas, 774 imágenes originales públicas, 0 en curso o borradores WordPress y 582 pendientes.
+
+256: salida y voz mediante extracto autorizado de Hirschman; aplicación al capital identificada como interpretación, sin total latinoamericano inventado. BCRA julio de 2026 distingue compra, depósitos locales y activos externos. 257: España artículo 95 bis con umbrales y opción UE/EEE; IRS indexación de 2026 separada de 2025; Noruega por fecha y sin confundir traslado con transferencia. 258: AFIP 2011, apertura 2015 y dos umbrales de 2019; flexibilización de abril de 2025 diferenciada del texto ordenado de septiembre de 2026, incluida la condición de títulos durante 90 días para personas.
+
+Siguiente **259–261 / E7.8.04–E7.8.06**, Política y Economía → Migración de Capital. Preparaciones incluidas en las 582 pendientes. E7.8.04: 2/3 imágenes locales; sin texto final, sin publicación; E7.8.05: 2/3 imágenes locales; sin texto final, sin publicación; E7.8.06: 2/3 imágenes locales; sin texto final, sin publicación. Después 262–264. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 259–261 · 29/10/2026
+
+261/840 terminadas, 783 imágenes originales públicas, 0 en curso o borradores WordPress y 579 pendientes.
+
+259: convenio de 2003, CENCOEX/DICOM y cambio de 2018 con versiones diferenciadas; auditoría oficial 2016 sobre 2014–2015 y hallazgos concretos sin convertirlos en condenas. 260: cuentas en divisas autorizadas en 2019 antes de la unificación de 2021; CUC, CUP y saldos MLC diferenciados; segmentos de diciembre de 2025 y TRMI de anuncios con método de febrero de 2026. 261: acuerdo final del Eurogrupo, protección de asegurados y distinto tratamiento de Laiki y Bank of Cyprus; conversión del 47,5% de depósitos elegibles, controles hasta abril de 2015, sin confundir disponibilidad con pérdida.
+
+Siguiente **262–264 / E7.8.07–E7.8.09**, Política y Economía → Migración de Capital. Preparaciones incluidas en las 579 pendientes. E7.8.07: 3/3 imágenes locales; sin texto final, sin publicación; E7.8.08: 3/3 imágenes locales; sin texto final, sin publicación; E7.8.09: 3/3 imágenes locales; sin texto final, sin publicación. Después 265–267. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.

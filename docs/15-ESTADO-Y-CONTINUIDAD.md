@@ -2,27 +2,27 @@
 
 ## Estado actual
 
-**255/840 terminadas, 765 imágenes originales públicas, 0 en curso o borradores WordPress y 585 pendientes**. Inversión y Capital 15/15; 17 tandas completas y tanda 17 completa.
+**261/840 terminadas, 783 imágenes originales públicas, 0 en curso o borradores WordPress y 579 pendientes**. Migración de Capital 6/15; 17 tandas completas y tanda 18 en curso.
 
 Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Desde 249: entradas 250–255, 18 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
+Desde 255: entradas 256–261, 18 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
 
-Una publicación y tres adjuntos por ID; categorías Política y Economía y Inversión y Capital, etiquetas exactas. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales y variantes comprobados. Navegación y BreadcrumbList: Blog → área → subcategoría. Taxonomía: 122 nodos, siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva o posicionamiento.
+Una publicación y tres adjuntos por ID; categorías Política y Economía y Migración de Capital, etiquetas exactas. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales y variantes comprobados. Navegación y BreadcrumbList: Blog → área → subcategoría. Taxonomía: 122 nodos, siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva o posicionamiento.
 
 ## Revisión del último bloque
 
-253: FinanceAct2022distinguida de ley2025 vigenteabril2026;30%sobreingresoy1%retenciónsobrecontraprestación, Esya2023/2024conmuestras/periodos/supuestos; avisosFIU2023y2026sincondenasfingidas. 254: FDIRRIconreferenciadiciembre2025publicado2026yexclusiones, México2013/2025, CubaLey118art11yVenezuelaenero2026art23concontratosprivados, sinvetouniversal. 255: cinco comprobaciones, WJP2026/Fraserreferencia2024, AREAERcontrolesdejure, tratadosfirmadosyvigor separados; CIADIconsentimientoyejecuciónsin cobrogarantizado.
+259: convenio de 2003, CENCOEX/DICOM y cambio de 2018 con versiones diferenciadas; auditoría oficial 2016 sobre 2014–2015 y hallazgos concretos sin convertirlos en condenas. 260: cuentas en divisas autorizadas en 2019 antes de la unificación de 2021; CUC, CUP y saldos MLC diferenciados; segmentos de diciembre de 2025 y TRMI de anuncios con método de febrero de 2026. 261: acuerdo final del Eurogrupo, protección de asegurados y distinto tratamiento de Laiki y Bank of Cyprus; conversión del 47,5% de depósitos elegibles, controles hasta abril de 2015, sin confundir disponibilidad con pérdida.
 
 ## Continuación exacta
 
-Siguiente **256–258 / E7.8.01–E7.8.03**, Política y Economía → Migración de Capital. Preparaciones incluidas en las 585 pendientes. E7.8.01: 3/3 imágenes locales; sin texto final, sin publicación; E7.8.02: 3/3 imágenes locales; sin texto final, sin publicación; E7.8.03: 3/3 imágenes locales; sin texto final, sin publicación. Después 259–261. Automatización activa, sin agotamiento comunicado.
+Siguiente **262–264 / E7.8.07–E7.8.09**, Política y Economía → Migración de Capital. Preparaciones incluidas en las 579 pendientes. E7.8.07: 3/3 imágenes locales; sin texto final, sin publicación; E7.8.08: 3/3 imágenes locales; sin texto final, sin publicación; E7.8.09: 3/3 imágenes locales; sin texto final, sin publicación. Después 265–267. Automatización activa, sin agotamiento comunicado.
 
 ## Copias y límites
 
-Respaldo VPS hasta 255: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
+Respaldo VPS hasta 261: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
 
 ## Traspaso
 
@@ -43,6 +43,8 @@ Verificación: `npm run build` con sincronización y TypeScript correctos; PHP l
 Publicación: fuente privada sincronizada y subida, commit de producto `1d84a45`. Actualización de la exportación estática en el contenedor Nginx activo y de los dos archivos WordPress, tanto en la ruta operativa como en `/opt/mee/`. No se reconstruyeron imágenes Docker ni se reiniciaron servicios; un siguiente build del repositorio incluye los cambios. Respaldo previo local completo: `../mee-backups/MEE_Codex_2026-10-29_183813.zip` (7657 archivos, integridad comprobada). Copia previa de React y de los archivos WordPress en `/data/mee-backups/apoyo-20261029T184226/`, gzip comprobado. No se ha probado una restauración arrancada de esta copia.
 
 Siguiente paso de esta petición: concretar el medio de donación y sus datos oficiales para activar pago directo. La producción editorial mantiene su continuidad independiente; esta tarea no modifica sus conteos, artículos, imágenes ni taxonomía.
+
+
 
 
 
