@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-29T17:32:57+00:00.
+Comprobado en WordPress: 2026-10-29T18:16:17+00:00.
 
-**243/840 terminadas · 0 en curso · 597 pendientes.**
+**249/840 terminadas · 0 en curso · 591 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -255,12 +255,12 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 241 | 17/56 · 1/15 | E7.4.01 | Libertad para invertir: por qué importa a quien no es rico | terminada | 3/3 | [Leer](https://moevec.org/blog/libertad-para-invertir/) |
 | 242 | 17/56 · 2/15 | E7.4.02 | China y la prohibición de las criptomonedas (2021) | terminada | 3/3 | [Leer](https://moevec.org/blog/china-prohibicion-criptomonedas/) |
 | 243 | 17/56 · 3/15 | E7.4.03 | El Salvador y el bitcóin: de moneda de curso legal a la reforma de 2025 | terminada | 3/3 | [Leer](https://moevec.org/blog/el-salvador-bitcoin/) |
-| 244 | 17/56 · 4/15 | E7.4.04 | MiCA: la regulación europea de los criptoactivos | pendiente | 0/3 | — |
-| 245 | 17/56 · 5/15 | E7.4.05 | Control de inversiones extranjeras: el «escudo» europeo | pendiente | 0/3 | — |
-| 246 | 17/56 · 6/15 | E7.4.06 | CFIUS: cómo revisa EE. UU. la inversión extranjera | pendiente | 0/3 | — |
-| 247 | 17/56 · 7/15 | E7.4.07 | Por qué cada vez menos empresas salen a bolsa | pendiente | 0/3 | — |
-| 248 | 17/56 · 8/15 | E7.4.08 | Bolsas latinoamericanas: pequeñas y poco líquidas | pendiente | 0/3 | — |
-| 249 | 17/56 · 9/15 | E7.4.09 | Chile: las AFP, los retiros de 2020–2021 y la reforma de 2025 | pendiente | 0/3 | — |
+| 244 | 17/56 · 4/15 | E7.4.04 | MiCA: la regulación europea de los criptoactivos | terminada | 3/3 | [Leer](https://moevec.org/blog/mica-regulacion-europea/) |
+| 245 | 17/56 · 5/15 | E7.4.05 | Control de inversiones extranjeras: el «escudo» europeo | terminada | 3/3 | [Leer](https://moevec.org/blog/control-inversiones-extranjeras-europa/) |
+| 246 | 17/56 · 6/15 | E7.4.06 | CFIUS: cómo revisa EE. UU. la inversión extranjera | terminada | 3/3 | [Leer](https://moevec.org/blog/cfius-estados-unidos/) |
+| 247 | 17/56 · 7/15 | E7.4.07 | Por qué cada vez menos empresas salen a bolsa | terminada | 3/3 | [Leer](https://moevec.org/blog/menos-empresas-en-bolsa/) |
+| 248 | 17/56 · 8/15 | E7.4.08 | Bolsas latinoamericanas: pequeñas y poco líquidas | terminada | 3/3 | [Leer](https://moevec.org/blog/bolsas-latinoamericanas/) |
+| 249 | 17/56 · 9/15 | E7.4.09 | Chile: las AFP, los retiros de 2020–2021 y la reforma de 2025 | terminada | 3/3 | [Leer](https://moevec.org/blog/chile-afp-retiros-reforma/) |
 | 250 | 17/56 · 10/15 | E7.4.10 | Pensiones privadas frente a estatales: comparación honesta | pendiente | 0/3 | — |
 | 251 | 17/56 · 11/15 | E7.4.11 | Cuba: Ley 118 y la Zona Especial de Desarrollo Mariel | pendiente | 0/3 | — |
 | 252 | 17/56 · 12/15 | E7.4.12 | Canadá prohíbe a extranjeros comprar vivienda: evaluación | pendiente | 0/3 | — |

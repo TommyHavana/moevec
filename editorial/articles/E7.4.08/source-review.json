@@ -1,0 +1,212 @@
+{
+  "checked_on": "2026-10-29",
+  "sources": [
+    {
+      "name": "Banco Mundial, WDI: empresas nacionales cotizadas",
+      "url": "https://data.worldbank.org/indicator/CM.MKT.LDOM.NO",
+      "scope": "Serie API guardada2020–2026, actualización08/10/2026; último número no nulo México2023 y Chile/Colombia/Perú2025. Metadatos leídos: compañías al cierre, excepciones y comparabilidad limitada. Sin ranking con años mezclados ni resolver por intuición diferencias con coberturaOCDE."
+    },
+    {
+      "name": "Banco Mundial, WDI: capitalización como porcentaje del PIB",
+      "url": "https://data.worldbank.org/indicator/CM.MKT.LCAP.GD.ZS",
+      "scope": "API original guardada:2025Chile136.197165596414,Colombia28.969152421639,México30.5792121017984,Perú31.4051685160744. Redondeo a un decimal, no flujos nuevos de financiación."
+    },
+    {
+      "name": "Banco Mundial, WDI: rotación de acciones domésticas",
+      "url": "https://data.worldbank.org/indicator/CM.MKT.TRNR",
+      "scope": "API original guardada:2024Chile11.1857841,Colombia6.7934,México26.2205,Perú4.6531. Metadatos: valor de acciones domésticas negociadas/capitalización; promedio mensual anualizado multiplicando por12; concepto consultado; no diferencial comprador-vendedor ni liquidez de cada acción."
+    },
+    {
+      "name": "S&P Dow Jones Indices, relación con MILA",
+      "url": "https://www.spglobal.com/spdji/es/exchange-relationships/exchange/mercado-integrado-latinoamericano-mila/",
+      "scope": "Página del proveedor de índices consultada por web: inicio30/05/2011 y acceso por intermediario. No usar presentación actual de cuatro países para retrotraer México a2011."
+    },
+    {
+      "name": "CNBV, primera operación mexicana en MILA, 2014",
+      "url": "https://www.gob.mx/cnbv/prensa/comunicado-de-prensa-89-2014",
+      "scope": "Comunicado89/2014consultado porweb: primera operación mexicana en2014. Sin extrapolar volúmenes históricos al presente."
+    },
+    {
+      "name": "Bolsa de Santiago, comunicación interna 18.304, 13/07/2026",
+      "url": "https://cibe.bolsadesantiago.com/Documentos/Noticias/Novedades/CI%20D%C3%ADa%200%20Chile.pdf",
+      "scope": "PDF completo de una página leído: inicio20/07/2026nueva infraestructura tecnológica chilena, Colombia y Perú ya implementados, proceso gradual. No mercado único plenamente completado."
+    },
+    {
+      "name": "nuam, resultados y avances del primer semestre de 2026",
+      "url": "https://www.nuam.com/nuam-fortalece-resultados-financieros-y-desempeno-lineas-de-negocios-primer-semestre-2026",
+      "scope": "Comunicado del operador leído: plataforma común/rules y frentes de compensación, liquidación y acceso pendientes. Información atribuida al operador, no evaluación causal independiente de liquidez."
+    },
+    {
+      "name": "OCDE, Corporate Governance Factbook 2025, capítulo 1",
+      "url": "https://www.oecd.org/en/publications/oecd-corporate-governance-factbook-2025_f4f43735-en/full-report/global-public-markets-and-corporate-ownership_c5012184.html",
+      "scope": "Capítulo primario consultado porweb: tabla1.7y clasificación anexa de propietarios; categorías corporativas, públicas, institucionales y otros titulares. Índice no cuenta como lectura completa. Sin equiparar institucionales con AFP o todas las bolsas."
+    }
+  ],
+  "archived_files": [
+    {
+      "file": "sources/download-extra-log.json",
+      "bytes": 70,
+      "sha256": "250f74d3ceccf40712a21f8c611b2b70f1f7073d3e06b3999a4d01dcb23acd9d"
+    },
+    {
+      "file": "sources/download-extra2-log.json",
+      "bytes": 1965,
+      "sha256": "b48070f2285f1b4b75cb42038c650ba88b648bad8c5e9016a64c3070ecc344a7"
+    },
+    {
+      "file": "sources/download-log.json",
+      "bytes": 2130,
+      "sha256": "f42a0fcc39394309bc9eaaeaed4753b6ce7d60aa43cfd2f282a06c9740c375ee"
+    },
+    {
+      "file": "sources/mila-mexico2014.html",
+      "bytes": 56195,
+      "sha256": "06cc366c952f98a992357cde29adce77156f6b88769a5648905a4de1c6bf153a"
+    },
+    {
+      "file": "sources/mila-mexico2014.visible.txt",
+      "bytes": 5592,
+      "sha256": "a7a25f0f503330fe86b73da24a51c4ca37f1a534302a0a778f1b0cafa9f32171"
+    },
+    {
+      "file": "sources/mila-spglobal-access-error.json",
+      "bytes": 230,
+      "sha256": "dca4ddfb8702f66b7a29a15c04d3717bf2480ad46ecbc85167cbf64ff03a6e46"
+    },
+    {
+      "file": "sources/nuam-chile2026.original.bin",
+      "bytes": 108257,
+      "sha256": "3929a9c095757b5f1133bcfb57b705ded573c66a8dcbc0a07edd8d7da3e3c0fc"
+    },
+    {
+      "file": "sources/nuam-chile2026.pdf",
+      "bytes": 108257,
+      "sha256": "3929a9c095757b5f1133bcfb57b705ded573c66a8dcbc0a07edd8d7da3e3c0fc"
+    },
+    {
+      "file": "sources/nuam-chile2026.txt",
+      "bytes": 2013,
+      "sha256": "2fd3e01df373bd8b9d7b1b90f1423a45a5cac7a1f787405c3248eff12bc4ece1"
+    },
+    {
+      "file": "sources/nuam-h12026.html",
+      "bytes": 110060,
+      "sha256": "cb2c67cea2115319722feba736ba849c5ca996e1ec2b5ecc1231a38624a9b231"
+    },
+    {
+      "file": "sources/nuam-h12026.visible.txt",
+      "bytes": 7528,
+      "sha256": "31264344ab386a498349b179eae3e43684abadf77945129a885b5a696a9cf93e"
+    },
+    {
+      "file": "sources/oecd-chapter1-access-error.json",
+      "bytes": 285,
+      "sha256": "17b9aecefdede5ab5628e2f828a3c45362d3da9002f79aae2775684a19051894"
+    },
+    {
+      "file": "sources/oecd-governance2025-access-error.json",
+      "bytes": 236,
+      "sha256": "b2bc3cd5ccb402e83cd3c45a3a60d3e7fa4a3bef0b1a5efce2d244d81eac2bf4"
+    },
+    {
+      "file": "sources/reading-scope.json",
+      "bytes": 4470,
+      "sha256": "9095eb6fc13e9dd5a41d961a30c81b74299511a07f600ccbef9ad75f421f47a5"
+    },
+    {
+      "file": "sources/verification-notes.json",
+      "bytes": 936,
+      "sha256": "20999be8a41e9a9723e0edf9a77634127c9ce677beb6b026795fb0000f203290"
+    },
+    {
+      "file": "sources/wdi-CM.MKT.LCAP.GD.ZS.json",
+      "bytes": 6143,
+      "sha256": "4cb6785478117f9685cdf6f82fb189149a0e44c19b53457853ffab6f8a179f84"
+    },
+    {
+      "file": "sources/wdi-CM.MKT.LDOM.NO.json",
+      "bytes": 5074,
+      "sha256": "894d15f4f380feeba1a61444680f724f4d940ee9354cc636f84489243bd89b60"
+    },
+    {
+      "file": "sources/wdi-CM.MKT.TRNR.json",
+      "bytes": 5570,
+      "sha256": "dfa1564b859a66d080d39a6a3a61bbbd1a9b15337693717902441ea8878d924d"
+    },
+    {
+      "file": "sources/wdi-cap-metadata.original.bin",
+      "bytes": 49351,
+      "sha256": "9546884ad00bad825e276ee80f1952e50c51ff14c64028da30d5ee2cce9961ad"
+    },
+    {
+      "file": "sources/wdi-cap-metadata.pdf",
+      "bytes": 49351,
+      "sha256": "9546884ad00bad825e276ee80f1952e50c51ff14c64028da30d5ee2cce9961ad"
+    },
+    {
+      "file": "sources/wdi-cap-metadata.txt",
+      "bytes": 10819,
+      "sha256": "62a2bdc60e74f94d620f0f03752f913c2d0c4dee65e4aae1708a83b5d7f19c71"
+    },
+    {
+      "file": "sources/wdi-companies.html",
+      "bytes": 841538,
+      "sha256": "0663a9348b5646903307249ec004dbc80a99e427314face0ced9ecdff04acb6e"
+    },
+    {
+      "file": "sources/wdi-companies.visible.txt",
+      "bytes": 2430,
+      "sha256": "6b4ce8e95cc0b10c86c72839ba2f4d42b979b9c2ca6cd5c9627272eca9850b34"
+    },
+    {
+      "file": "sources/wdi-company-metadata.original.bin",
+      "bytes": 53399,
+      "sha256": "fd05e02da0620fa32951ca71e4733307202ab767f6ad744b9f942d4b19c4993e"
+    },
+    {
+      "file": "sources/wdi-company-metadata.pdf",
+      "bytes": 53399,
+      "sha256": "fd05e02da0620fa32951ca71e4733307202ab767f6ad744b9f942d4b19c4993e"
+    },
+    {
+      "file": "sources/wdi-company-metadata.txt",
+      "bytes": 10104,
+      "sha256": "2615b29f104af489b8191ce24bcad9f087db05c06a9a3ff2acccebb76194f4ff"
+    },
+    {
+      "file": "sources/wdi-extraction.json",
+      "bytes": 1156,
+      "sha256": "7bfcf853741902683695c5692d2189b92d229ca65e9b01b1dacfe7bdac2fe71a"
+    },
+    {
+      "file": "sources/wdi-turnover-metadata.original.bin",
+      "bytes": 49161,
+      "sha256": "20fb76ba3d9e4cc26642f8c0a06818493edff72477bdb0d949240db9593325dc"
+    },
+    {
+      "file": "sources/wdi-turnover-metadata.pdf",
+      "bytes": 49161,
+      "sha256": "20fb76ba3d9e4cc26642f8c0a06818493edff72477bdb0d949240db9593325dc"
+    },
+    {
+      "file": "sources/wdi-turnover-metadata.txt",
+      "bytes": 10121,
+      "sha256": "ae2459e9aee378803b65d4ab4e5921e55e6cd360c1ef84614db36a79f1c36575"
+    }
+  ],
+  "omitted_claims": [
+    "No afirmar que cuatro países comparten idéntica escasez o liquidez, ni que Chile sea pequeño por su capitalización/PIB.",
+    "No mezclar años2025/2024o último número de empresas con periodos distintos como fotografía única.",
+    "No interpretar capitalización como dinero captado o rotación agregada como coste de vender cada título.",
+    "No asignar el datoWDIdeChile a la bolsa deSantiago sola ni inventar reconciliación con universoOCDE.",
+    "No afirmar predominio uniforme de fondos de pensiones en las acciones de todos los países sin carteras y denominador comparables.",
+    "No confundir MILAconnuam ni infraestructura2026conintegración jurídica/operativa total; sin asesoramiento financiero."
+  ],
+  "scope": "Lectura pertinente especificada; archivo completo no implica lectura íntegra. Problemas de acceso y fuentes compartidas identificados.",
+  "final_verification": {
+    "checked_at": "2026-10-29T18:22:13.671906+00:00",
+    "published_url": "https://moevec.org/blog/bolsas-latinoamericanas/",
+    "public_checks": "verification.json",
+    "wordpress_registry_words": 1238
+  }
+}

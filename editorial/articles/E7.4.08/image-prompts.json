@@ -1,0 +1,24 @@
+{
+  "id": "E7.4.08",
+  "prompts": {
+    "featured": "Use case: stylized-concept. Original MEE editorial illustration. Premium crafted miniature, tactile paper, limestone and ceramic, cobalt blue, vermilion red and warm ivory palette. Refined directional light, subtle texture, controlled shadows. Wide landscape, essential objects within central safe crop. No text, numbers, labels, logos, watermark, flags or statistical chart. Four separate tiny ivory market plazas with cobalt roofs and vermilion kiosks, connected by delicate blue pedestrian bridges over an empty ivory terrain. Four plazas clearly distinct, no national flags, labels, text or maps. Premium tactile paper and ceramic editorial miniature. Landscape about connections among Latin American securities markets, not a geographic or scale accurate map. Whole four plazas and all bridge endpoints visible with wide margins.",
+    "interior-1": "Use case: stylized-concept. Original MEE editorial illustration. Premium crafted miniature, tactile paper, limestone and ceramic, cobalt blue, vermilion red and warm ivory palette. Refined directional light, subtle texture, controlled shadows. Wide landscape, essential objects within central safe crop. No text, numbers, labels, logos, watermark, flags or statistical chart. A low ivory display plinth holds three cobalt and vermilion simple building sculptures of differing heights, with large empty spaces between them. No axes, labels, numerical scale or data points. A single ivory magnifying glass rests in front. Crafted paper sculpture about examining market depth and listed companies. Entire plinth and glass visible wide landscape, refined directional light.",
+    "interior-2": "Use case: stylized-concept. Original MEE editorial illustration. Premium crafted miniature, tactile paper, limestone and ceramic, cobalt blue, vermilion red and warm ivory palette. Refined directional light, subtle texture, controlled shadows. Wide landscape, essential objects within central safe crop. No text, numbers, labels, logos, watermark, flags or statistical chart. A large cobalt abstract cargo ship with one vermilion container sits at the entrance of a small ivory harbor with two modest docks. Calm matte ceramic water with subtle sculpted ripples, no waves or drama. No flags, numbers or commercial logos. Scale contrast as an editorial metaphor of institutional investors and market depth. Entire ship, harbor and docks visible with wide margins."
+  },
+  "sources": {
+    "featured": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-e684c6fa-7ed6-4d3b-a272-3765c570707b.png",
+    "interior-1": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-df7eb341-9967-47d7-a1bf-34b9af2cc7c0.png",
+    "interior-2": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-fed112de-f7a2-46c6-a9d3-9fb8d7140feb.png"
+  },
+  "tool": "builtin_image_gen",
+  "sources_are_conceptual": true,
+  "framing_edits": [
+    {
+      "role": "featured",
+      "original": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-52b268f7-b497-4199-9722-527731e125d0.png",
+      "prompt": "Use case: precise-object-edit. Zoom OUT the scene about 30 percent to restore all object edges cut by this crop. Keep exactly four market plazas and all four connecting blue bridges, architecture, colors and materials. Reconstruct complete top and bottom of the scene. Final composition must show ALL principal objects completely, with at least 20 percent empty margin above and below, so a centered 1200x630 crop loses none of them. Maintain premium tactile MEE cobalt, vermilion and warm ivory palette, lighting and textures. No text, numbers, labels, logos or watermark. Do not change object count or invent additional objects.",
+      "selected": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-e684c6fa-7ed6-4d3b-a272-3765c570707b.png",
+      "reason": "Avoid cropping essential top and bottom of cover composition"
+    }
+  ]
+}

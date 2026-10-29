@@ -2,9 +2,31 @@
 
 ## Estado actual
 
-**243/840 terminadas, 729 imágenes originales públicas, 0 en curso o borradores WordPress y 597 pendientes**. Inversión y Capital 3/15; 16 tandas completas y tanda 17 en curso.
+**249/840 terminadas, 747 imágenes originales públicas, 0 en curso o borradores WordPress y 591 pendientes**. Inversión y Capital 9/15; 16 tandas completas y tanda 17 en curso.
 
 Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
+
+## Trabajo de esta ejecución
+
+Desde 243: entradas 244–249, 18 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
+
+Una publicación y tres adjuntos por ID; categorías Política y Economía y Inversión y Capital, etiquetas exactas. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales y variantes comprobados. Navegación y BreadcrumbList: Blog → área → subcategoría. Taxonomía: 122 nodos, siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva o posicionamiento.
+
+## Revisión del último bloque
+
+247: Doidge2017 identificado y preprint2015 leído con periodo hasta2012; declive anterior aSOX, costesGAO2025 con muestra no generalizable y financiaciónprivada como explicación parcial. 248: APIWDI actualizada08/10/2026, empresas con años distintos, capitalización2025 y rotación2024 separadas; MILA2011/México2014 y nuam2026, tecnología común no integración completa. 249: DL3500de1980/sistema1981, retiros2020–2021 con cortejunio2021 y comunicado2022; ley21735/calendario escalonado2025–2026,8.5%final no vigente íntegramente, OCDE2025 con proyecciones identificadas.
+
+## Continuación exacta
+
+Siguiente **250–252 / E7.4.10–E7.4.12**, Política y Economía → Inversión y Capital. Preparaciones incluidas en las 591 pendientes. E7.4.10: 3/3 imágenes locales; sin texto final, sin publicación; E7.4.11: 3/3 imágenes locales; sin texto final, sin publicación; E7.4.12: 3/3 imágenes locales; sin texto final, sin publicación. Después 253–255. Automatización activa, sin agotamiento comunicado.
+
+## Copias y límites
+
+Respaldo VPS hasta 249: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
+
+## Traspaso
+
+PETICIÓN: producción continua sin confirmaciones. SIGUIENTE: consultar WordPress y reanudar los expedientes indicados. No contar preparaciones ni imágenes incompletas como terminadas. Autorización y automatización activas. Sin cambios de arquitectura, DNS, correo, autenticación, tema o taxonomía. Sin despliegue React por contenido.
 
 ## Página de apoyo, donaciones y publicidad · 29/10/2026
 
@@ -22,27 +44,7 @@ Publicación: fuente privada sincronizada y subida, commit de producto `1d84a45`
 
 Siguiente paso de esta petición: concretar el medio de donación y sus datos oficiales para activar pago directo. La producción editorial mantiene su continuidad independiente; esta tarea no modifica sus conteos, artículos, imágenes ni taxonomía.
 
-## Trabajo de esta ejecución
 
-Desde 237: entradas 238–243, 18 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
-
-Una publicación y tres adjuntos por ID; categorías Política y Economía y Inversión y Capital, etiquetas exactas. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales y variantes comprobados. Navegación y BreadcrumbList: Blog → área → subcategoría. Taxonomía: 122 nodos, siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva o posicionamiento.
-
-## Revisión del último bloque
-
-241: ahorro y capital con vínculos condicionados, Fraser2026 con referencia2024 y método, protección CNMV y sin recomendaciones. 242: aviso2021 firmado15/9/publicado24/9; minería diferenciada; derogación por aviso42/2026 y e-CNY2021 separado de intereses de carteras identificadas Bank of China2026. 243: Decreto199 y consolidado conservan curso legal con aceptación voluntaria, vigencia30/4/2025, NBERrevisado2023/encuesta2022 y FMI1/10/2026 sin medir usoactual o rentabilidadestatal.
-
-## Continuación exacta
-
-Siguiente **244–246 / E7.4.04–E7.4.06**, Política y Economía → Inversión y Capital. Preparaciones incluidas en las 597 pendientes. E7.4.04: 3/3 imágenes locales; sin texto final, sin publicación; E7.4.05: 3/3 imágenes locales; sin texto final, sin publicación; E7.4.06: 3/3 imágenes locales; sin texto final, sin publicación. Después 247–249. Automatización activa, sin agotamiento comunicado.
-
-## Copias y límites
-
-Respaldo VPS hasta 243: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
-
-## Traspaso
-
-PETICIÓN: producción continua sin confirmaciones. SIGUIENTE: consultar WordPress y reanudar los expedientes indicados. No contar preparaciones ni imágenes incompletas como terminadas. Autorización y automatización activas. Sin cambios de arquitectura, DNS, correo, autenticación, tema o taxonomía. Sin despliegue React por contenido.
 
 ## Historial anterior — no describe el estado actual
 

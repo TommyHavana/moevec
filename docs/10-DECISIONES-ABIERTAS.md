@@ -493,3 +493,23 @@ Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobad
 ## Decisión del fundador · apoyo económico, 29/10/2026
 
 Encarga una página para donaciones y publicidad de empresas que compartan los valores del movimiento, fuera del menú principal y en el footer. Se publica `/apoya/` y se enlaza en React y WordPress. Se reutiliza el contacto existente para tramitar propuestas; no se contratan espacios automáticamente. El medio y los datos de donación siguen pendientes: no se inventan cuenta, Bizum, PayPal, tarifas, beneficios fiscales ni importes. La página indica expresamente que por ahora las aportaciones se acuerdan por correo. Se plantea identificar la publicidad y preservar el criterio editorial de MEE como texto público revisable. Esta tarea no activa WooCommerce ni la tienda de arte.
+
+## Producción 244–246 · 29/10/2026
+
+246/840 terminadas, 738 imágenes originales públicas, 0 en curso o borradores WordPress y 594 pendientes.
+
+244: MiCA con ámbito y vías de autorización diferenciadas, fechas30/06 y30/12/2024, transición máxima cerrada01/07/2026; autorización de entidad sin garantía de inversión. 245: marco2019 y reforma2026 con aplicación general17/01/2028, artículo7bis y DT hasta31/12/2026; informe español2025 con bases196/186/181+5, resultados116/14/51/0. 246: FIRRMAsección1703, MineOne como decisión13/05/2024 e informeCY2025 publicado2026;140declaraciones/207notificaciones/114investigaciones sin sumar operaciones únicas.
+
+Siguiente **247–249 / E7.4.07–E7.4.09**, Política y Economía → Inversión y Capital. Preparaciones incluidas en las 594 pendientes. E7.4.07: 3/3 imágenes locales; sin texto final, sin publicación; E7.4.08: 3/3 imágenes locales; sin texto final, sin publicación; E7.4.09: 3/3 imágenes locales; sin texto final, sin publicación. Después 250–252. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 247–249 · 29/10/2026
+
+249/840 terminadas, 747 imágenes originales públicas, 0 en curso o borradores WordPress y 591 pendientes.
+
+247: Doidge2017 identificado y preprint2015 leído con periodo hasta2012; declive anterior aSOX, costesGAO2025 con muestra no generalizable y financiaciónprivada como explicación parcial. 248: APIWDI actualizada08/10/2026, empresas con años distintos, capitalización2025 y rotación2024 separadas; MILA2011/México2014 y nuam2026, tecnología común no integración completa. 249: DL3500de1980/sistema1981, retiros2020–2021 con cortejunio2021 y comunicado2022; ley21735/calendario escalonado2025–2026,8.5%final no vigente íntegramente, OCDE2025 con proyecciones identificadas.
+
+Siguiente **250–252 / E7.4.10–E7.4.12**, Política y Economía → Inversión y Capital. Preparaciones incluidas en las 591 pendientes. E7.4.10: 3/3 imágenes locales; sin texto final, sin publicación; E7.4.11: 3/3 imágenes locales; sin texto final, sin publicación; E7.4.12: 3/3 imágenes locales; sin texto final, sin publicación. Después 253–255. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.

@@ -1,0 +1,24 @@
+# Investigación y publicación · E7.4.09
+
+Consulta: 29/10/2026. Alcance específico; descargar una obra no implica lectura íntegra.
+
+- [Superintendencia de Pensiones, texto del DL 3.500](https://www.spensiones.cl/portal/institucional/594/articles-14600_recurso_1.pdf): PDF oficial archivado; edición actualizada a septiembre2025según portal SP. Artículos1–2 y97leídos: capitalización en AFP, afiliación, aplicación del2desde01/05/1981. Publicación13/11/1980. No sustituye leyes posteriores ni asesoría actual de un caso.
+- [Superintendencia de Pensiones, resultados de retiros, 21/01/2022](https://www.spensiones.cl/portal/institucional/594/articles-15165_recurso_1.pdf): Comunicado de tres páginas leído con cortejunio2021:50.000millonesUSD/25%fondosjunio2020,34.5%solicitantes sin saldo. Efectos futuros son proyecciones, no resultados observados2026. Se omiten cifras discordantes de sexo dentro del documento y estimaciones por persona.
+- [BCN, Ley 21.735 de reforma previsional](https://www.bcn.cl/leychile/navegar?idNorma=1212060): Cabecera y artículos1 y4transitorio mediante texto primario web. Publicada26/03/2025, aplicación general01/04/2027con excepciones antes/después. Descarga local solo cascarón JavaScript, no texto normativo validado. No confundir meta final8.5%con tasa2026.
+- [Subsecretaría de Previsión Social, nueva cotización, fuente F-218](https://previsionsocial.gob.cl/empleadores-nueva-cotizacion-establecida-en-la-reforma-de-pensiones-rige-a-partir-de-la-remuneracion-de-agosto-de-2025/): Anuncio primario leído del primer aporte adicional1%desde remuneracionesagosto2025. No usar como calendario completo2026 ni como aumento total incluyendoSIS.
+- [Subsecretaría de Previsión Social, nota técnica de la reforma, julio de 2025](https://previsionsocial.gob.cl/wp-content/uploads/2025/08/Nota-Tecnica-Reforma-de-Pensiones-Ley-N%C2%B021.735.pdf): 44páginas numeradas, portada adicional. Lectura pertinente introducción, pp6–12 y tabla1p11: gradualidad,2025adicional1%separadoSIS,2026total3.5%incluyeSIS. No lectura íntegra ni tasas de reemplazo de terceros sin estudiooriginal.
+- [ChileAtiende/IPS, aportes del empleador al Sistema de Pensiones](https://www.chileatiende.gob.cl/fichas/130987-aportes-del-empleador-al-sistema-de-pensiones): Guía primaria consultada:agosto2026total3.5%=0.1%cuenta+0.9%CRP+2.5%SIS/compensación. Meta8.5%con gradualidad, no toda para cuenta. No copiar tasa2027deotroscomunicados discordantes; aquí no se publica.
+- [OCDE, Pensions at a Glance 2025: Chile](https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/11/pensions-at-a-glance-2025-country-notes_e320013d/chile_9c62d614/99e9160c-en.pdf): Nota de cuatro páginas leída, especialmente1–2. Reforma, brechas y proyecciones teóricas de carreras completas. Se usa explicación de ingresos y trayectorias, sin presentar modelo de futura tasa de reemplazo como pensión media actual.
+
+## Límites
+
+- No reducir sistema chileno actual a cuentas privadas puras o reparto puro.
+- No convertir comunicado2022/cortejunio2021en total actual de retiros ni dar porcentajes de caída futura como observados.
+- No atribuir toda inflación o evolución económica a los retiros.
+- No afirmar que8.5%rige íntegro en2026 o que todo va a la AFP;2025nuevo1%no equivale totalempleador conSIS.
+- No presentar guía de prestación como derecho universal sin condiciones; no cálculos de pensión personal ni recomendación de AFP, modalidad o retiro.
+- No repetir cifras internamente discordantes del comunicado sobre mujeres sin resolver su base.
+
+## Resultado
+
+https://moevec.org/blog/chile-afp-retiros-reforma/ · 1301 palabras en WordPress. Tres imágenes propias, una publicación y tres adjuntos, sin duplicados.

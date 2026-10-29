@@ -1,0 +1,24 @@
+{
+  "id": "E7.4.09",
+  "prompts": {
+    "featured": "Use case: stylized-concept. Original MEE editorial illustration. Premium crafted miniature, tactile paper, limestone and ceramic, cobalt blue, vermilion red and warm ivory palette. Refined directional light, subtle texture, controlled shadows. Wide landscape, essential objects within central safe crop. No text, numbers, labels, logos, watermark, flags or statistical chart. A wide clear frosted glass savings jar on an ivory plinth, partly filled with blank cobalt and vermilion tokens. Three small red taps mounted at different heights, each open with a short single stream of blank tokens collected in separate shallow ivory bowls. No currency signs, labels or numbers. Crafted tactile editorial miniature about three early pension withdrawal rounds, not actual flow quantities. Whole jar, all taps and bowls visible with generous margin.",
+    "interior-1": "Use case: stylized-concept. Original MEE editorial illustration. Premium crafted miniature, tactile paper, limestone and ceramic, cobalt blue, vermilion red and warm ivory palette. Refined directional light, subtle texture, controlled shadows. Wide landscape, essential objects within central safe crop. No text, numbers, labels, logos, watermark, flags or statistical chart. An open ivory personal account folder with a blank cobalt identity card in a transparent pocket, a red abstract person silhouette embossed without name, and a small neat row of blank blue savings tokens. No readable text, numbers, signatures or government emblems. Refined paper and ceramic editorial about individual pension records. Entire folder and tokens visible in a wide composition with generous margins.",
+    "interior-2": "Use case: stylized-concept. Original MEE editorial illustration. Premium crafted miniature, tactile paper, limestone and ceramic, cobalt blue, vermilion red and warm ivory palette. Refined directional light, subtle texture, controlled shadows. Wide landscape, essential objects within central safe crop. No text, numbers, labels, logos, watermark, flags or statistical chart. A miniature ivory workplace at left connects through a new cobalt pipe to two distinct ivory basins on the right, one with a plain blue personal savings jar and the other with several small vermilion human figurines standing together. Red valves visibly connect the pipe. No arrows, words, proportions or currency symbols. Tactile editorial about different destinations within pension reform, not a technical schematic. All parts fully visible, wide safe margins."
+  },
+  "sources": {
+    "featured": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-a319976c-da17-4a9f-9dd0-b8e9da7de597.png",
+    "interior-1": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-b38a1d74-fced-4937-8033-584b34f51dba.png",
+    "interior-2": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-486fa67e-676e-49aa-b164-6fb730d5e266.png"
+  },
+  "tool": "builtin_image_gen",
+  "sources_are_conceptual": true,
+  "framing_edits": [
+    {
+      "role": "featured",
+      "original": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-272d87b4-abda-42bf-ad55-a89a5333e012.png",
+      "prompt": "Use case: precise-object-edit. Zoom OUT the scene about 30 percent to restore all object edges cut by this crop. Keep the one glass savings jar with exactly three red taps, blue and red blank tokens, three bowls, and ivory plinths. Reconstruct complete top and bottom of the scene. Final composition must show ALL principal objects completely, with at least 20 percent empty margin above and below, so a centered 1200x630 crop loses none of them. Maintain premium tactile MEE cobalt, vermilion and warm ivory palette, lighting and textures. No text, numbers, labels, logos or watermark. Do not change object count or invent additional objects.",
+      "selected": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-a319976c-da17-4a9f-9dd0-b8e9da7de597.png",
+      "reason": "Avoid cropping essential top and bottom of cover composition"
+    }
+  ]
+}
