@@ -2,27 +2,27 @@
 
 ## Estado actual
 
-**309/840 terminadas, 927 imágenes originales públicas, 0 en curso o borradores WordPress y 531 pendientes**. Definición de Economía Compartida 9/15; 20 tandas completas y tanda 21 en curso.
+**315/840 terminadas, 945 imágenes originales públicas, 0 en curso o borradores WordPress y 525 pendientes**. Definición de Economía Compartida 15/15; 21 tandas completas y tanda 21 completa.
 
 Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Desde 300: entradas 301–309, 27 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
+Desde 309: entradas 310–315, 18 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
 
 Una publicación y tres adjuntos por ID; categorías Economía Compartida y Definición de Economía Compartida, etiquetas exactas. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales y variantes comprobados. Navegación y BreadcrumbList: Blog → área → subcategoría. Taxonomía: 122 nodos, siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva o posicionamiento.
 
 ## Revisión del último bloque
 
-307: Benkler2004 y ficha Sundararajan2016; capacidad no equivale a demanda o beneficio, Agenda2016 orientativa sin permisos universales. 308: Akerlof1970 y Resnick/Zeckhauser2002 con datos1999, versión de trabajo separada, asociación predictiva sin causalidad o garantía2026. 309: ACI1995, Mondragón2013/2025 y textos normativos Cuba2024/Venezuela2001; asociación voluntaria formal diferenciada de práctica, no cooperativas nacionales universalmente impuestas.
+313: ensayo de Duany de 2016 con periodo identificado; Decreto-Ley 133 de septiembre de 2026 y Ley 187 de octubre de 2026, con condiciones de OFAC y definición del Banco Mundial sin un total cubano inventado. 314: introducción de Olson leída visualmente; cinco preguntas de MEE y ejemplo del Código Civil español con ámbito expreso. 315: diez principios normativos y tres casos hipotéticos, como síntesis de las catorce entradas. Durante la comprobación de 310–312 hubo una parada y un arranque de la base de datos entre las 00:00:47 y las 00:02:38 UTC. Se repitieron correctamente sincronización y navegación tras la recuperación; no se modificó la configuración del servicio.
 
 ## Continuación exacta
 
-Siguiente **310–312 / E6.1.10–E6.1.12**, Economía Compartida → Definición de Economía Compartida. Preparaciones incluidas en las 531 pendientes. E6.1.10: 3/3 imágenes locales; sin texto final, sin publicación; E6.1.11: 3/3 imágenes locales; sin texto final, sin publicación; E6.1.12: 3/3 imágenes locales; sin texto final, sin publicación. Después 313–315. Automatización activa, sin agotamiento comunicado.
+Siguiente **316–318 / E6.2.01–E6.2.03**, Economía Compartida → Solidaridad Capitalista. Preparaciones incluidas en las 525 pendientes. E6.2.01: 3/3 imágenes locales; sin texto final, sin publicación; E6.2.02: 3/3 imágenes locales; sin texto final, sin publicación; E6.2.03: 3/3 imágenes locales; sin texto final, sin publicación. Después 319–321. Automatización activa, sin agotamiento comunicado.
 
 ## Copias y límites
 
-Respaldo VPS hasta 309: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
+Respaldo VPS hasta 315: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
 
 ## Traspaso
 
@@ -43,6 +43,8 @@ Verificación: `npm run build` con sincronización y TypeScript correctos; PHP l
 Publicación: fuente privada sincronizada y subida, commit de producto `1d84a45`. Actualización de la exportación estática en el contenedor Nginx activo y de los dos archivos WordPress, tanto en la ruta operativa como en `/opt/mee/`. No se reconstruyeron imágenes Docker ni se reiniciaron servicios; un siguiente build del repositorio incluye los cambios. Respaldo previo local completo: `../mee-backups/MEE_Codex_2026-10-29_183813.zip` (7657 archivos, integridad comprobada). Copia previa de React y de los archivos WordPress en `/data/mee-backups/apoyo-20261029T184226/`, gzip comprobado. No se ha probado una restauración arrancada de esta copia.
 
 Siguiente paso de esta petición: concretar el medio de donación y sus datos oficiales para activar pago directo. La producción editorial mantiene su continuidad independiente; esta tarea no modifica sus conteos, artículos, imágenes ni taxonomía.
+
+
 
 
 

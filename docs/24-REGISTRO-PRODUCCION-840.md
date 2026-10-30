@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-29T23:36:56+00:00.
+Comprobado en WordPress: 2026-10-30T00:17:33+00:00.
 
-**309/840 terminadas · 0 en curso · 531 pendientes.**
+**315/840 terminadas · 0 en curso · 525 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -321,12 +321,12 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 307 | 21/56 · 7/15 | E6.1.07 | Activos ociosos: el valor que tienes guardado sin saberlo | terminada | 3/3 | [Leer](https://moevec.org/blog/activos-ociosos/) |
 | 308 | 21/56 · 8/15 | E6.1.08 | Reputación: la moneda de la economía compartida | terminada | 3/3 | [Leer](https://moevec.org/blog/reputacion-moneda-economia-compartida/) |
 | 309 | 21/56 · 9/15 | E6.1.09 | Cooperativas y economía compartida: compatibles si son voluntarias | terminada | 3/3 | [Leer](https://moevec.org/blog/cooperativas-compatibles-voluntarias/) |
-| 310 | 21/56 · 10/15 | E6.1.10 | Código abierto: compartir conocimiento y aun así ganar dinero | pendiente | 0/3 | — |
-| 311 | 21/56 · 11/15 | E6.1.11 | Mapa de tu red: con quién ya compartes sin saberlo | pendiente | 0/3 | — |
-| 312 | 21/56 · 12/15 | E6.1.12 | Plataformas digitales para pequeños negocios: cómo usarlas sin depender de ellas | pendiente | 0/3 | — |
-| 313 | 21/56 · 13/15 | E6.1.13 | Economía compartida en Cuba: lo que ya existe de forma informal | pendiente | 0/3 | — |
-| 314 | 21/56 · 14/15 | E6.1.14 | Los riesgos de compartir: guía para no salir perjudicado | pendiente | 0/3 | — |
-| 315 | 21/56 · 15/15 | E6.1.15 | Manifiesto de la economía compartida de MEE | pendiente | 0/3 | — |
+| 310 | 21/56 · 10/15 | E6.1.10 | Código abierto: compartir conocimiento y aun así ganar dinero | terminada | 3/3 | [Leer](https://moevec.org/blog/codigo-abierto-compartir-y-ganar/) |
+| 311 | 21/56 · 11/15 | E6.1.11 | Mapa de tu red: con quién ya compartes sin saberlo | terminada | 3/3 | [Leer](https://moevec.org/blog/mapa-de-tu-red/) |
+| 312 | 21/56 · 12/15 | E6.1.12 | Plataformas digitales para pequeños negocios: cómo usarlas sin depender de ellas | terminada | 3/3 | [Leer](https://moevec.org/blog/plataformas-sin-depender/) |
+| 313 | 21/56 · 13/15 | E6.1.13 | Economía compartida en Cuba: lo que ya existe de forma informal | terminada | 3/3 | [Leer](https://moevec.org/blog/economia-compartida-cuba-informal/) |
+| 314 | 21/56 · 14/15 | E6.1.14 | Los riesgos de compartir: guía para no salir perjudicado | terminada | 3/3 | [Leer](https://moevec.org/blog/riesgos-de-compartir/) |
+| 315 | 21/56 · 15/15 | E6.1.15 | Manifiesto de la economía compartida de MEE | terminada | 3/3 | [Leer](https://moevec.org/blog/manifiesto-economia-compartida/) |
 | 316 | 22/56 · 1/15 | E6.2.01 | Solidaridad capitalista: ¿una contradicción? | pendiente | 0/3 | — |
 | 317 | 22/56 · 2/15 | E6.2.02 | El evangelio de la riqueza: Carnegie y la filantropía | pendiente | 0/3 | — |
 | 318 | 22/56 · 3/15 | E6.2.03 | Ayuda mutua: de las cofradías a las tandas | pendiente | 0/3 | — |

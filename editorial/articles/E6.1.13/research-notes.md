@@ -1,0 +1,23 @@
+# Investigación y publicación · E6.1.13
+
+Consulta: 30/10/2026. Alcance específico; descargar una obra no implica lectura íntegra.
+
+- [Jorge Duany, Recent Changes in U.S.-Cuba Relations, Romanische Studien 3, 2016](https://digitalcommons.fiu.edu/record/5421/files/FIDC001427.pdf): Ensayo original del autor conservado en FIU, 4 páginas de PDF con páginas impresas 85–90, leído. Alojamiento, taxis y vínculos transnacionales descritos con su periodo. Cifras citadas de encuestas ajenas no se reproducen ni extrapolan a 2026; no investigación original propia de esas encuestas.
+- [Cuba, Decreto-Ley 133/2026, Gaceta Oficial 71 de 02/09/2026](https://www.directoriocubano.com/wp-content/uploads/dc-gaceta/archive/pdf/2026/09/ordinaria/071/gaceta.pdf): Documento primario completo de 34 páginas en espejo, archivado. Leídos modificaciones a DL88: arts3/4/7/9/17/54 y disposiciones finales. Reforma norma2024, nuevas empresas de más de100 trabajadores, socios cubanos residentes en exterior con requisitos; no análisis de consolidación íntegra o permisos de cada actividad. Inspección visual de páginas2/6/18 preparada.
+- [Cuba, Ley 187/2026 de la vivienda, Gaceta Oficial 86 de 14/10/2026](https://www.cibercuba.com/s/gacetaoficial/pdf/goc-2026-o86.pdf): Facsímil primario de 202 páginas en espejo archivado. Leídos art72 y disposiciones finales quinta/sexta de Ley187, no todo el paquete ni todos los reglamentos. Derecho de arrendamiento, derechos de convivientes, contrato, derogación Ley65 y vigencia siete días tras publicación. No traslado de instrucciones administrativas de 2024 como completas en 2026.
+- [Banco Mundial, Remittances & Migration](https://www.worldbank.org/en/topic/migration/brief/remittances-knomad): Página institucional actual archivada y leída en definición y alcance. Remesas como transferencias desde país de trabajo al país de origen. KNOMAD activo2013–2024; sin serie cubana completa ni importe2026 atribuido.
+- [OFAC, pregunta 732 sobre remesas a Cuba](https://ofac.treasury.gov/faqs/732): Fuente primaria actual archivada y leída; categorías autorizadas y condiciones, personas sujetas a jurisdicción estadounidense y exclusión de entidades restringidas. Página marca actualización mayo2024; no afirmación de disponibilidad de canal ni asesoramiento de transferencia individual.
+- [OFAC, preguntas publicadas el 29/09/2026](https://ofac.treasury.gov/faqs/added/2026-09-29): Fuente primaria archivada y leída especialmente FAQ1271–1273: cambios efectivos30sept2026, transacciones directas/indirectas, autorizaciones bancarias específicas. No se generaliza prohibición de toda remesa familiar ni de toda relación con Cuba.
+
+## Límites
+
+- No llamar informal o ilegal a todo alojamiento, transporte privado o mipyme; distinguir cooperación cotidiana y actividad regulada.
+- No usar DL46/2021 como marco intacto: normas2024 y reforma133/2026 leídas.
+- No repetir prohibición antigua universal del subarrendamiento: Ley187/2026art72 cambia el marco.
+- No dar porcentaje de inversión procedente de remesas, total cubano2026 o número de negocios sin serie fiable.
+- No presentar toda remesa como capital social, deuda o inversión ni dar disponibilidad de WesternUnion u otro canal no comprobada.
+- No prometer autorización o éxito de una alianza ni extrapolar un ensayo2016 al tamaño actual del sector.
+
+## Resultado
+
+https://moevec.org/blog/economia-compartida-cuba-informal/ · 1367 palabras en WordPress. Tres imágenes propias, una publicación y tres adjuntos, sin duplicados.

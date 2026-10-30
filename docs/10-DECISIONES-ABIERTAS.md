@@ -713,3 +713,23 @@ Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobad
 Siguiente **310–312 / E6.1.10–E6.1.12**, Economía Compartida → Definición de Economía Compartida. Preparaciones incluidas en las 531 pendientes. E6.1.10: 3/3 imágenes locales; sin texto final, sin publicación; E6.1.11: 3/3 imágenes locales; sin texto final, sin publicación; E6.1.12: 3/3 imágenes locales; sin texto final, sin publicación. Después 313–315. Automatización activa, sin agotamiento comunicado.
 
 Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 310–312 · 30/10/2026
+
+312/840 terminadas, 936 imágenes originales públicas, 0 en curso o borradores WordPress y 528 pendientes.
+
+310: definición de la OSI; ensayo de Raymond de 1997 y libro de 1999 diferenciados de la versión leída; capítulo 3 de Benkler e informe de Linux Foundation de 2025 con alcance identificado. 311: páginas 1360–1361 de Granovetter, con cuatro anillos y plantilla propuestos por MEE. 312: ámbito europeo del P2B y límites sobre datos y clasificación; procedimiento 2025/0360(COD) pendiente de decisión de comisión en la consulta del 30/10/2026.
+
+Siguiente **313–315 / E6.1.13–E6.1.15**, Economía Compartida → Definición de Economía Compartida. Preparaciones incluidas en las 528 pendientes. E6.1.13: 3/3 imágenes locales; sin texto final, sin publicación; E6.1.14: 3/3 imágenes locales; sin texto final, sin publicación; E6.1.15: 0/3 imágenes locales; sin texto final, sin publicación. Después 316–318. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 313–315 · 30/10/2026
+
+315/840 terminadas, 945 imágenes originales públicas, 0 en curso o borradores WordPress y 525 pendientes.
+
+313: ensayo de Duany de 2016 con periodo identificado; Decreto-Ley 133 de septiembre de 2026 y Ley 187 de octubre de 2026, con condiciones de OFAC y definición del Banco Mundial sin un total cubano inventado. 314: introducción de Olson leída visualmente; cinco preguntas de MEE y ejemplo del Código Civil español con ámbito expreso. 315: diez principios normativos y tres casos hipotéticos, como síntesis de las catorce entradas. Durante la comprobación de 310–312 hubo una parada y un arranque de la base de datos entre las 00:00:47 y las 00:02:38 UTC. Se repitieron correctamente sincronización y navegación tras la recuperación; no se modificó la configuración del servicio.
+
+Siguiente **316–318 / E6.2.01–E6.2.03**, Economía Compartida → Solidaridad Capitalista. Preparaciones incluidas en las 525 pendientes. E6.2.01: 3/3 imágenes locales; sin texto final, sin publicación; E6.2.02: 3/3 imágenes locales; sin texto final, sin publicación; E6.2.03: 3/3 imágenes locales; sin texto final, sin publicación. Después 319–321. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.

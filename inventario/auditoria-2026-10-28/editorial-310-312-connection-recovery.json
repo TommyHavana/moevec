@@ -1,0 +1,26 @@
+{
+  "observed_at": "2026-10-30T00:23:51.060104+00:00",
+  "block": [
+    310,
+    311,
+    312
+  ],
+  "database_normal_shutdown_utc": "2026-10-30 00:00:47",
+  "database_ready_utc": "2026-10-30 00:02:38",
+  "cause": "No atribuida; registros muestran parada normal y nuevo arranque. Sin cambios de infraestructura realizados por esta producción.",
+  "effects": [
+    "Sincronización final de 312 devolvió página HTML de error de base de datos.",
+    "Consulta de navegación y primera consulta de organización fallaron durante el intervalo."
+  ],
+  "recovery": {
+    "sync_counts": {
+      "terminada": 315,
+      "en curso": 0,
+      "pendiente": 525
+    },
+    "organization_repeated": true,
+    "navigation_repeated": true,
+    "public_article_checks_clean": true
+  },
+  "all_posts_preserved": true
+}

@@ -1,11 +1,20 @@
-# Preparación · 312 · E6.1.12
+# Investigación y publicación · E6.1.12
 
-30/10/2026.
+Consulta: 30/10/2026. Alcance específico; descargar una obra no implica lectura íntegra.
 
-- Brief leído, referenciaP2B2019/1150 localizada para comprobar estado, consolidación, ámbito y cambios2026. No dar por vigente o aplicable un artículo sin esa revisión.
-- Pendiente distinguir alcance y tráfico de control del canal, tratamiento de datos y permisos; no prometer exportar libremente bases ajenas o que toda plataforma cubra seguros.
-- Tres imágenes originales inspeccionadas: mercado con puerta lateral, balanza conceptual y cuaderno sin datos. No contienen métricas reales o datos personales.
+- [Unión Europea, Reglamento (UE) 2019/1150, Diario Oficial de 11/07/2019](https://www.boe.es/doue/2019/186/L00057-00079.pdf): Texto primario de 23 páginas archivado en BOE. Leídos artículos 1, 3, 4, 5, 9, 11, 12 y 19; alcance UE, condiciones, motivos de restricciones, clasificación, acceso a datos, reclamaciones y excepciones para proveedores pequeños. No se afirma lectura de una consolidación integral de octubre 2026; texto original y procedimiento actual distinguidos.
+- [Parlamento Europeo, Observatorio Legislativo, procedimiento 2025/0360(COD), consulta 30/10/2026](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0360(COD)): Ficha primaria y PDF de información técnica archivados, leídos. Estado Awaiting committee decision, comprobado también en página 1 renderizada. La propuesta incluye derogación del Reglamento 2019/1150; no equivale a derogación aprobada ni se asigna fecha futura de efecto.
 
-Sin texto final, publicación ni fuentes completamente revisadas. No cuenta como terminada.
+## Límites
 
-Descarga de P2B vacía: revisar fuente, vigencia y texto antes de redactar.
+- No aplicar automáticamente P2B a negocios cubanos o latinoamericanos sin cumplir su ámbito territorial y material.
+- No asegurar que todo cierre exige 30 días: el texto distingue suspensión, restricción, terminación y excepciones; se omite ese número en el artículo.
+- No prometer conocer el algoritmo completo ni exportar todos los datos por el artículo 9.
+- No confundir pequeñas empresas proveedoras exentas de ciertas obligaciones con usuarios empresariales pequeños excluidos de toda protección.
+- No presentar propuesta Digital Omnibus como derogación en vigor.
+- No inventar comisiones, cambios de algoritmo, políticas o resultados actuales de plataformas concretas.
+- No tratar datos de clientes como propiedad disponible para cualquier reutilización ni garantizar tráfico de una web propia.
+
+## Resultado
+
+https://moevec.org/blog/plataformas-sin-depender/ · 1360 palabras en WordPress. Tres imágenes propias, una publicación y tres adjuntos, sin duplicados.

@@ -1,0 +1,31 @@
+{
+  "id": "E6.1.15",
+  "prompts": {
+    "featured": "Use case: stylized-concept. Original MEE editorial illustration. Premium crafted miniature, tactile paper, limestone and ceramic, cobalt blue, vermilion red and warm ivory palette. Refined directional light, subtle texture, controlled shadows. Wide landscape, essential objects within central safe crop. No text, numbers, labels, logos, watermark, flags or statistical chart. A complete gently arched ivory bridge between two modest miniature ivory houses with cobalt doors, exactly ten small vermilion lanterns arranged along the bridge in two rows of five, soft warm evening light. Lanterns are not a diagram or ranking. No people or real location. Whole bridge and houses central55percent wide16:9 generous margins.",
+    "interior-1": "Use case: stylized-concept. Original MEE editorial illustration. Premium crafted miniature, tactile paper, limestone and ceramic, cobalt blue, vermilion red and warm ivory palette. Refined directional light, subtle texture, controlled shadows. Wide landscape, essential objects within central safe crop. No text, numbers, labels, logos, watermark, flags or statistical chart. Three coherent complete miniature scenes on one long warm ivory plinth: an unbranded ivory technology worktable with a plain cobalt closed laptop; a small ivory bakery counter with tactile ivory loaves and one cobalt tray; a small circle of ivory chairs around one vermilion round table. No people, text, numbers, labels, logos or data. Whole triptych central55percent wide16:9 generous margins.",
+    "interior-2": "Use case: stylized-concept. Original MEE editorial illustration. Premium crafted miniature, tactile paper, limestone and ceramic, cobalt blue, vermilion red and warm ivory palette. Refined directional light, subtle texture, controlled shadows. Wide landscape, essential objects within central safe crop. No text, numbers, labels, logos, watermark, flags or statistical chart. A complete miniature warm ivory public plaza with seven simple anonymous ivory person figurines gathered in a loose open circle around one low vermilion round table, cobalt benches and two small ivory trees at the edges. Welcoming space for discussion, no stage, hierarchy, signs, political party symbols or real people. Entire scene central55percent wide16:9 broad margins."
+  },
+  "sources": {
+    "interior-1": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-c5dda998-e251-41e7-aba2-67ce51857f17.png",
+    "interior-2": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-ed2ff3b9-24b1-4e70-b848-c066c313ceda.png",
+    "featured": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-ea934df0-d84f-4bb5-9dd9-08330cfc1dac.png"
+  },
+  "tool": "builtin_image_gen",
+  "sources_are_conceptual": true,
+  "featured_refinements": [
+    {
+      "source": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-eb1b9ea8-1f5d-45b7-ba4f-a3007dd59235.png",
+      "reason": "Recuento visual de faroles insuficiente."
+    },
+    {
+      "source": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-3df267aa-d3af-46bb-8cb8-49ef9e0d944c.png",
+      "prompt": "Reordenar los faroles en una sola fila de diez, preservando escena.",
+      "reason": "Nueve visibles; se solicita añadir uno en poste vacío de la derecha."
+    },
+    {
+      "selected": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-ea934df0-d84f-4bb5-9dd9-08330cfc1dac.png",
+      "prompt": "Añadir un único farol rojo al poste vacío situado a la derecha del último; conservar nueve existentes y el resto de la escena.",
+      "visually_counted": 10
+    }
+  ]
+}
