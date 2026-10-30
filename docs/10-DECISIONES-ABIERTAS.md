@@ -1213,3 +1213,13 @@ Conexiones lentas: WebAlmanac2025fig14.3 y métodojulio2025, mediana distinta de
 Siguiente **460–462 / E3.3.10–E3.3.12**, Comunidad → Accesibilidad. Preparaciones incluidas en las 381 pendientes. E3.3.10: 3/3 imágenes locales; sin texto final, sin publicación; E3.3.11: 3/3 imágenes locales; sin texto final, sin publicación; E3.3.12: 3/3 imágenes locales; sin texto final, sin publicación. Después 463–465. Automatización activa, sin agotamiento comunicado.
 
 Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 460–462 · 30/10/2026
+
+462/840 terminadas, 1386 imágenes originales públicas, 0 en curso o borradores WordPress y 378 pendientes.
+
+Idioma: Cervantes nota24/10/2026 distingue algún dominio de nativos; Amano2023 encuesta ambiental2021 de908 participantes, no censo económico. Lectura: ChromeAndroid y SafariMac permiten preparar copias que deben comprobarse; FirefoxVistaLectura no garantiza ahorro ni offline. Audio: catálogos RNE, esRadio y ColectivoBurbuja con actividad deoctubre2026, sin escucha íntegra fingida; cálculo propio64kbit/s por20min igual9,6MB antes de sobrecarga. AudioMEE solo propuesta. Nueve originales nuevos inspeccionados.
+
+Siguiente **463–465 / E3.3.13–E3.3.15**, Comunidad → Accesibilidad. Preparaciones incluidas en las 378 pendientes. E3.3.13: 0/3 imágenes locales; sin texto final, sin publicación; E3.3.14: 0/3 imágenes locales; sin texto final, sin publicación; E3.3.15: 0/3 imágenes locales; sin texto final, sin publicación. Después 466–468. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.

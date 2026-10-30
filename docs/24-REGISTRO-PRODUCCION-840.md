@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-30T22:03:39+00:00.
+Comprobado en WordPress: 2026-10-30T22:19:12+00:00.
 
-**459/840 terminadas · 0 en curso · 381 pendientes.**
+**462/840 terminadas · 0 en curso · 378 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -471,9 +471,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 457 | 31/56 · 7/15 | E3.3.07 | Diseñar para conexiones lentas: lo que aprendió MEE | terminada | 3/3 | [Leer](https://moevec.org/blog/disenar-para-conexiones-lentas/) |
 | 458 | 31/56 · 8/15 | E3.3.08 | Discapacidad y empleo: barreras y soluciones de mercado | terminada | 3/3 | [Leer](https://moevec.org/blog/discapacidad-y-empleo/) |
 | 459 | 31/56 · 9/15 | E3.3.09 | Accesibilidad financiera: cuentas, pagos y exclusión bancaria | terminada | 3/3 | [Leer](https://moevec.org/blog/accesibilidad-financiera/) |
-| 460 | 31/56 · 10/15 | E3.3.10 | Barreras de idioma: inglés, jerga y acceso al conocimiento económico | pendiente | 0/3 | — |
-| 461 | 31/56 · 11/15 | E3.3.11 | Guía para leer MEE con pocos datos | pendiente | 0/3 | — |
-| 462 | 31/56 · 12/15 | E3.3.12 | Pódcast y audio: aprender economía mientras trabajas | pendiente | 0/3 | — |
+| 460 | 31/56 · 10/15 | E3.3.10 | Barreras de idioma: inglés, jerga y acceso al conocimiento económico | terminada | 3/3 | [Leer](https://moevec.org/blog/barreras-de-idioma/) |
+| 461 | 31/56 · 11/15 | E3.3.11 | Guía para leer MEE con pocos datos | terminada | 3/3 | [Leer](https://moevec.org/blog/leer-mee-con-pocos-datos/) |
+| 462 | 31/56 · 12/15 | E3.3.12 | Pódcast y audio: aprender economía mientras trabajas | terminada | 3/3 | [Leer](https://moevec.org/blog/podcast-aprender-economia/) |
 | 463 | 31/56 · 13/15 | E3.3.13 | Cómo organizar un grupo de lectura en tu barrio | pendiente | 0/3 | — |
 | 464 | 31/56 · 14/15 | E3.3.14 | Accesibilidad para personas mayores: tecnología sin miedo | pendiente | 0/3 | — |
 | 465 | 31/56 · 15/15 | E3.3.15 | Lista de comprobación de accesibilidad para emprendedores | pendiente | 0/3 | — |
