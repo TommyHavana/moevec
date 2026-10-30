@@ -1,0 +1,169 @@
+The Cathedral and the Bazaar
+The Cathedral and the Bazaar
+�
+�
+�
+Next
+The Cathedral and the Bazaar
+Eric Steven Raymond
+Thyrsus Enterprises
+<
+esr@thyrsus.com
+>
+This is version 3.0
+Copyright � 2000 Eric S. Raymond
+Copyright
+Permission is granted to copy, distribute and/or modify
+  this document under the terms of the Open Publication License,
+  version 2.0.
+$Date: 2002/08/02 09:02:14 $
+Revision History
+Revision 1.57
+11 September 2000
+esr
+New major section ``How Many Eyeballs Tame Complexity''.
+Revision 1.52
+28 August 2000
+esr
+MATLAB is a reinforcing parallel to Emacs.  Corbato�
+          & Vyssotsky got it in 1965.
+Revision 1.51
+24 August 2000
+esr
+First DocBook version. Minor updates to Fall 2000 on the 
+	 time-sensitive material.
+Revision 1.49
+5 May 2000
+esr
+Added the HBS note on deadlines and scheduling.
+Revision 1.51
+31 August 1999
+esr
+This the version that O'Reilly printed in the first edition
+         of the book.
+Revision 1.45
+8 August 1999
+esr
+Added the endnotes on the Snafu Principle, (pre)historical examples
+	of bazaar development, and originality in the bazaar.
+Revision 1.44
+29 July 1999
+esr
+Added the ``On Management and the Maginot Line'' section, some
+         insights about the usefulness of bazaars for exploring design space,
+         and substantially improved the Epilog.
+Revision 1.40
+20 Nov 1998
+esr
+Added a correction of Brooks based on the Halloween Documents.
+Revision 1.39
+28 July 1998
+esr
+I removed Paul Eggert's 'graph on GPL vs. bazaar in response
+	  to cogent aguments from RMS on
+Revision 1.31
+February 10 1998
+esr
+Added ``Epilog: Netscape Embraces the Bazaar!''
+Revision 1.29
+February 9 1998
+esr
+Changed ``free software'' to ``open source''.
+Revision 1.27
+18 November 1997
+esr
+Added the Perl Conference anecdote.
+Revision 1.20
+7 July 1997
+esr
+Added the bibliography.
+Revision 1.16
+21 May 1997
+esr
+First official presentation at the Linux Kongress.
+Abstract
+I anatomize a successful open-source project, fetchmail, that was
+run as a deliberate test of the surprising theories about software
+engineering suggested by the history of Linux.  I discuss these
+theories in terms of two fundamentally different development styles,
+the ``cathedral'' model of most of the commercial world versus the ``bazaar''
+model of the Linux world.  I show that these models derive from
+opposing assumptions about the nature of the software-debugging task.
+I then make a sustained argument from the Linux experience for the
+proposition that ``Given enough eyeballs, all bugs are shallow'',
+suggest productive analogies with other self-correcting systems of
+selfish agents, and conclude with some exploration of the implications
+of this insight for the future of software.
+Table of Contents
+The Cathedral and the Bazaar
+The Mail Must Get Through
+The Importance of Having Users
+Release Early, Release Often
+How Many Eyeballs Tame Complexity
+When Is a Rose Not a Rose?
+Popclient becomes Fetchmail
+Fetchmail Grows Up
+A Few More Lessons from Fetchmail
+Necessary Preconditions for the Bazaar Style
+The Social Context of Open-Source Software
+On Management and the Maginot Line
+Epilog: Netscape Embraces the Bazaar
+Notes
+Bibliography
+Acknowledgements
+The Cathedral and the Bazaar
+Linux is subversive.  Who would have thought even five years ago
+(1991) that a world-class operating system could coalesce as if by
+magic out of part-time hacking by several thousand developers
+scattered all over the planet, connected only by the tenuous strands
+of the Internet?
+Certainly not I. By the time Linux swam onto my radar screen in early
+1993, I had already been involved in Unix and open-source development
+for ten years.  I was one of the first GNU contributors in the
+mid-1980s.  I had released a good deal of open-source software onto
+the net, developing or co-developing several programs (nethack, Emacs's
+VC and GUD modes, xlife, and others) that are still in wide use today.
+I thought I knew how it was done.
+Linux overturned much of what I thought I knew.  I had been preaching
+the Unix gospel of small tools, rapid prototyping and evolutionary
+programming for years.  But I also believed there was a certain
+critical complexity above which a more centralized, a priori approach
+was required.  I believed that the most important software (operating
+systems and really large tools like the Emacs programming editor)
+needed to be built like cathedrals, carefully crafted by individual
+wizards or small bands of mages working in splendid isolation, with no
+beta to be released before its time.
+Linus Torvalds's style of development—release early and
+often, delegate everything you can, be open to the point of
+promiscuity—came as a surprise.  No quiet, reverent
+cathedral-building here—rather, the Linux community seemed to
+resemble a great babbling bazaar of differing agendas and approaches
+(aptly symbolized by the Linux archive sites, who'd take submissions
+from
+anyone
+) out of which a coherent and stable
+system could seemingly emerge only by a succession of miracles.
+The fact that this bazaar style seemed to work, and work well,
+came as a distinct shock.  As I learned my way around, I worked hard
+not just at individual projects, but also at trying to understand why
+the Linux world not only didn't fly apart in confusion but seemed to
+go from strength to strength at a speed barely imaginable to
+cathedral-builders.
+By mid-1996 I thought I was beginning to understand.  Chance
+handed me a perfect way to test my theory, in the form of an
+open-source project that I could consciously try to run in the bazaar
+style.  So I did—and it was a significant success.
+This is the story of that project.  I'll use it to propose some
+aphorisms about effective open-source development.  Not all of these
+are things I first learned in the Linux world, but we'll see how the
+Linux world gives them particular point.  If I'm correct, they'll help
+you understand exactly what it is that makes the Linux community such
+a fountain of good software—and, perhaps, they will help you become
+more productive yourself.
+�
+�
+�
+Next
+�
+�
+�The Mail Must Get Through

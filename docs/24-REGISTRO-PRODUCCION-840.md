@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-30T15:27:12+00:00.
+Comprobado en WordPress: 2026-10-30T15:49:52+00:00.
 
-**441/840 terminadas · 0 en curso · 399 pendientes.**
+**444/840 terminadas · 0 en curso · 396 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -453,9 +453,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 439 | 30/56 · 4/15 | E3.2.04 | Votar con nombre y apellidos: responsabilidad en las valoraciones | terminada | 3/3 | [Leer](https://moevec.org/blog/votar-con-nombre/) |
 | 440 | 30/56 · 5/15 | E3.2.05 | Mérito y punto de partida: la crítica más seria | terminada | 3/3 | [Leer](https://moevec.org/blog/merito-y-punto-de-partida/) |
 | 441 | 30/56 · 6/15 | E3.2.06 | Antigüedad frente a aporte: por qué los cargos no garantizan valor | terminada | 3/3 | [Leer](https://moevec.org/blog/antiguedad-frente-a-aporte/) |
-| 442 | 30/56 · 7/15 | E3.2.07 | Colaboración abierta: lo que enseñan Wikipedia y el software libre | pendiente | 0/3 | — |
-| 443 | 30/56 · 8/15 | E3.2.08 | Mérito en la economía informal: reputación sin títulos | pendiente | 0/3 | — |
-| 444 | 30/56 · 9/15 | E3.2.09 | Gamificación con sentido: cuándo los puntos ayudan y cuándo estropean | pendiente | 0/3 | — |
+| 442 | 30/56 · 7/15 | E3.2.07 | Colaboración abierta: lo que enseñan Wikipedia y el software libre | terminada | 3/3 | [Leer](https://moevec.org/blog/colaboracion-abierta-wikipedia-software-libre/) |
+| 443 | 30/56 · 8/15 | E3.2.08 | Mérito en la economía informal: reputación sin títulos | terminada | 3/3 | [Leer](https://moevec.org/blog/merito-economia-informal/) |
+| 444 | 30/56 · 9/15 | E3.2.09 | Gamificación con sentido: cuándo los puntos ayudan y cuándo estropean | terminada | 3/3 | [Leer](https://moevec.org/blog/gamificacion-con-sentido/) |
 | 445 | 30/56 · 10/15 | E3.2.10 | Del mérito a la inversión: cómo la reputación abre puertas al capital | pendiente | 0/3 | — |
 | 446 | 30/56 · 11/15 | E3.2.11 | Cómo construir tu historial de aportes en MEE | pendiente | 0/3 | — |
 | 447 | 30/56 · 12/15 | E3.2.12 | Reconocimiento sin dinero: insignias, menciones y confianza | pendiente | 0/3 | — |

@@ -2,29 +2,29 @@
 
 ## Estado actual
 
-**441/840 terminadas, 1323 imágenes originales públicas, 0 en curso o borradores WordPress y 399 pendientes**. Mérito por Aporte 6/15; 29 tandas completas y tanda 30 en curso.
+**444/840 terminadas, 1332 imágenes originales públicas, 0 en curso o borradores WordPress y 396 pendientes**. Mérito por Aporte 9/15; 29 tandas completas y tanda 30 en curso.
 
 Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Desde 435: entradas 436–441, 18 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
+Desde 435: entradas 436–444, 27 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
 
 Una publicación y tres adjuntos por ID; categorías Comunidad y Mérito por Aporte, etiquetas exactas. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales y variantes comprobados. Navegación y BreadcrumbList: Blog → área → subcategoría. Taxonomía: 122 nodos, siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva o posicionamiento.
 
 ## Revisión del último bloque
 
-Voto visible: propuesta histórica de MEE sin sistema operativo anunciado; Luca/Zervas2015 distinguido de publicación2016, proxy Yelp y riesgo de presión. Punto de partida: Chetty2017, cohortes estadounidenses y movilidad absoluta; Banco Mundial2018 y crítica de Sandel mediante ficha primaria TED2020, sin tasas2026 o igualdad de resultados prometida. Antigüedad: Peter/Hull1969 y prólogo de Sutton identificado; Benson/Li/Shue2019 mediante resumen final MIT y versión previa2018 diferenciadas, sin ley universal ni causalidad de antigüedad. Nueve originales inspeccionados.
+Colaboración: ensayo Raymond diferenciado del libro1999, Benklercap3, reglas propias Wikipedia y revisión Linux actuales; sin ausencia de autoridad. Reputación sin título: OIT/OCDE/PNUD2024 y distinción de informalidad, Caplan ficha editorial, WEF2025 excluye sector informal; Upwork como mecanismo propio sin promesas. Gamificación: Deci resumen escaneado y Koivisto/Hamari resumen primario autores2019, PDF bloqueado sin lectura fingida; Goodhart mediante discursoECB2023 y analogía limitada. Nueve originales nuevos inspeccionados. Catálogo Princeton completo conservado fuera deGit, página pertinente en expediente.
 
 ## Continuación exacta
 
-Siguiente **442–444 / E3.2.07–E3.2.09**, Comunidad → Mérito por Aporte, tanda 30/56, entradas 7–9/15. Briefs conservados y fuentes en localización/lectura parcial: colaboración abierta, reputación sin título y gamificación. Linux: documentación de revisión consultada; WEF 2025: apartado sobre evaluación de habilidades leído mediante web. Raymond, Benkler, Caplan, Goodhart y Koivisto/Hamari necesitan completar acceso y lectura pertinente. Fallos TLS/403 registrados, sin revisión final fingida. **0/3 imágenes por entrada**, sin texto final ni publicación, incluidas entre las 399 pendientes. Después 445–447. Autorización y automatización activas; sin agotamiento de generación comunicado.
+Siguiente **445–447 / E3.2.10–E3.2.12**, Comunidad → Mérito por Aporte, tanda 30/56, entradas 10–12/15. Briefs y preguntas conservados: reputación y financiación, historial de aportes y reconocimiento sin dinero. Fuentes por verificar, **0/3 imágenes por entrada**, sin texto final ni publicación; incluidas entre las 396 pendientes. En 445: Spence1973, F-215 y normas vigentes EUR-Lex/CNMV antes de cualquier cifra o regla, inversión MEE solo idea. En 446: normas y canales existentes, sin perfiles inventados. En 447: Amabile/Kramer y edición actual de Gallup, sin sustituir pago por reconocimiento. Después 448–450. Autorización y automatización activas; sin agotamiento de generación comunicado.
 
 ## Copias y límites
 
-Espacio local comprobado antes del cierre: 460,640,256 bytes libres. Conservar originales y respaldos existentes; usar copia incremental proporcional. Comprobar espacio antes del siguiente bloque de imágenes y reservar capacidad para fuentes, copia privada e incremento. No se han borrado originales ni copias.
+Espacio local antes de esta copia: 264,753,152 bytes. Incremento proporcional, originales y respaldos conservados. Catálogo Princeton completo en mee-backups/research-originals; página pertinente y ubicación/SHA en E3.2.08/sources/princeton-original-source-location.json. Comprobar capacidad antes del siguiente bloque y reservar espacio para fuentes, copia privada y respaldo; no borrar originales ni copias sin petición específica.
 
-Respaldo VPS hasta 441: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
+Respaldo VPS hasta 444: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
 
 ## Traspaso
 
@@ -45,6 +45,7 @@ Verificación: `npm run build` con sincronización y TypeScript correctos; PHP l
 Publicación: fuente privada sincronizada y subida, commit de producto `1d84a45`. Actualización de la exportación estática en el contenedor Nginx activo y de los dos archivos WordPress, tanto en la ruta operativa como en `/opt/mee/`. No se reconstruyeron imágenes Docker ni se reiniciaron servicios; un siguiente build del repositorio incluye los cambios. Respaldo previo local completo: `../mee-backups/MEE_Codex_2026-10-29_183813.zip` (7657 archivos, integridad comprobada). Copia previa de React y de los archivos WordPress en `/data/mee-backups/apoyo-20261029T184226/`, gzip comprobado. No se ha probado una restauración arrancada de esta copia.
 
 Siguiente paso de esta petición: concretar el medio de donación y sus datos oficiales para activar pago directo. La producción editorial mantiene su continuidad independiente; esta tarea no modifica sus conteos, artículos, imágenes ni taxonomía.
+
 
 
 

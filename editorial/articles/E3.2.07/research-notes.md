@@ -1,10 +1,20 @@
-# Preparación · 442 · E3.2.07
+# Investigación y publicación · E3.2.07
 
-Brief original conservado. Cero imágenes, sin texto final ni publicación. Fuentes en localización y lectura parcial, sin revisión final.
+Consulta: 30/10/2026. Alcance específico; descargar una obra no implica lectura íntegra.
 
-- Raymond: índice original y ensayo, fecha1997 frente al libro1999, sin afirmar ausencia de jefes o autoridad. Acceso local con fallo TLS y web502; buscar copia primaria válida sin desactivar TLS.
-- Benkler2006: localizar fuente de autor o editorial y pasajes pertinentes; no fingir lectura íntegra.
-- Wikipedia: consenso, administradores y participación en políticas propias actuales; Linux: revisión y mantenedores. Apertura no equivale a ausencia de reglas.
-- Objeción: barreras, sesgos y exclusión requieren evidencia concreta, no éxito universal de comunidades abiertas.
+- [Eric S. Raymond, The Cathedral and the Bazaar, ensayo iniciado 1997; versión 3.0 conservada en Stanford](https://web.stanford.edu/class/me228/pdf/cathedral-bazaar.pdf): PDF primario de34p compartido con procedencia desdeE6.1.10. Releídos historial, resumen y Necessary Preconditions, pp18–19. Ensayo distinto del libro1999; versión con revisión2002. Autor argumenta desde Linux/fetchmail, no ensayo causal universal. HTML de autorHTTP200 archivado, HTTPS con errorTLS.
+- [Yochai Benkler, The Wealth of Networks, 2006, capítulo 3](https://dlc.dlib.indiana.edu/dlc/bitstreams/258aea62-56a0-441c-8ea7-4492dee2a5a0/download): Texto original en repositorio universitario compartido con procedencia. Leído comienzo de Peer Production and Sharing, pp3–4 del capítulo. Cooperación descentralizada y reglas de comunes; no libro íntegro ni previsión histórica como dato2026.
+- [Wikipedia en inglés, Consensus](https://en.wikipedia.org/wiki/Wikipedia:Consensus): Política primaria propia, lectura de proceso, calidad de argumentos, mecanismos de desacuerdo y límites de autoridad sobre contenido. Consulta30/10/2026; no fuente enciclopédica sobre terceros ni medición de eficacia.
+- [Wikipedia en inglés, Administrators](https://en.wikipedia.org/wiki/Wikipedia:Administrators): Política primaria propia; leída descripción y alcance de herramientas, expectativas y diferencia con decisión de contenido. Sin contar administradores o elecciones actuales.
+- [Linux Kernel, Submitting patches](https://www.kernel.org/doc/html/latest/process/submitting-patches.html): Documentación propia actual archivada; leídas introducción, descripción de cambios, revisión y destinatarios/mantenedores. Proponer no implica integración. No afirmar reglas de IA o licencias individuales no examinadas.
 
-Respuestas y fallos de acceso conservados en sources/. No se cuentan como terminado ni se garantiza una fecha de publicación.
+## Límites
+
+- No se describe Wikipedia o Linux como proyectos sin autoridad, solo voluntarios o sin conflictos.
+- Sin garantizar que muchas personas encuentren cualquier error o que abrir participación elimine sesgos.
+- Sin censos actuales de editores/desarrolladores, índices de éxito o mecanismos MEE inventados.
+- Sin presentar la lectura parcial del ensayo de Raymond como lectura íntegra de libro1999 o Benkler2006.
+
+## Resultado
+
+https://moevec.org/blog/colaboracion-abierta-wikipedia-software-libre/ · 1638 palabras en WordPress. Tres imágenes propias, una publicación y tres adjuntos, sin duplicados.
