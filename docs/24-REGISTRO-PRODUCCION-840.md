@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-30T13:21:11+00:00.
+Comprobado en WordPress: 2026-10-30T13:50:28+00:00.
 
-**426/840 terminadas · 0 en curso · 414 pendientes.**
+**429/840 terminadas · 0 en curso · 411 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -438,9 +438,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 424 | 29/56 · 4/15 | E3.1.04 | Transparencia en organizaciones sin ánimo de lucro | terminada | 3/3 | [Leer](https://moevec.org/blog/transparencia-organizaciones-sin-animo-de-lucro/) |
 | 425 | 29/56 · 5/15 | E3.1.05 | El precio como mensaje honesto: lo que comunica un mercado libre | terminada | 3/3 | [Leer](https://moevec.org/blog/precio-como-mensaje-honesto/) |
 | 426 | 29/56 · 6/15 | E3.1.06 | Lobbies y grupos de interés: la cara oculta de la política | terminada | 3/3 | [Leer](https://moevec.org/blog/lobbies-y-grupos-de-interes/) |
-| 427 | 29/56 · 7/15 | E3.1.07 | Influencers y publicidad encubierta: interés no declarado | pendiente | 0/3 | — |
-| 428 | 29/56 · 8/15 | E3.1.08 | Cooperar con quien piensa distinto: intereses comunes | pendiente | 0/3 | — |
-| 429 | 29/56 · 9/15 | E3.1.09 | Transparencia pública: leyes de acceso a la información | pendiente | 0/3 | — |
+| 427 | 29/56 · 7/15 | E3.1.07 | Influencers y publicidad encubierta: interés no declarado | terminada | 3/3 | [Leer](https://moevec.org/blog/influencers-publicidad-encubierta/) |
+| 428 | 29/56 · 8/15 | E3.1.08 | Cooperar con quien piensa distinto: intereses comunes | terminada | 3/3 | [Leer](https://moevec.org/blog/cooperar-con-quien-piensa-distinto/) |
+| 429 | 29/56 · 9/15 | E3.1.09 | Transparencia pública: leyes de acceso a la información | terminada | 3/3 | [Leer](https://moevec.org/blog/leyes-acceso-a-la-informacion/) |
 | 430 | 29/56 · 10/15 | E3.1.10 | Intereses ocultos en el debate económico: ¿quién financia a quién? | pendiente | 0/3 | — |
 | 431 | 29/56 · 11/15 | E3.1.11 | Plantilla de acuerdo de colaboración: qué pongo, qué espero | pendiente | 0/3 | — |
 | 432 | 29/56 · 12/15 | E3.1.12 | Cómo presentarte en una comunidad: decir qué buscas sin vergüenza | pendiente | 0/3 | — |

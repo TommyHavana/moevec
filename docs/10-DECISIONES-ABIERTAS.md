@@ -1103,3 +1103,13 @@ Transparencia: documento primario de Transparify 2014, metodología de su inicia
 Siguiente **427–429 / E3.1.07–E3.1.09**, Comunidad → Interés Transparente. Preparaciones incluidas en las 414 pendientes. E3.1.07: 0/3 imágenes locales; sin texto final, sin publicación; E3.1.08: 0/3 imágenes locales; sin texto final, sin publicación; E3.1.09: 0/3 imágenes locales; sin texto final, sin publicación. Después 430–432. Automatización activa, sin agotamiento comunicado.
 
 Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 427–429 · 30/10/2026
+
+429/840 terminadas, 1287 imágenes originales públicas, 0 en curso o borradores WordPress y 411 pendientes.
+
+Influencers: FTC 2019 y guías revisadas 2023, código AUTOCONTROL/aea/IAB 2025, ESMA difundida enero 2026 (edición 2025) y CNMV abril 2026; publicidad, recomendación y asesoramiento diferenciados. Cooperación: Smith 1759 y lectura pertinente de Ostrom 2009, sin éxito universal o legitimación de todas las posiciones. Acceso: España Ley 19/2013, México nueva ley vigente 20/03/2025 y Chile Ley 20.285, límites y competencias propios; RTI mide marco jurídico, no implementación. Nueve originales propios, recortes, alt y pies inspeccionados.
+
+Siguiente **430–432 / E3.1.10–E3.1.12**, Comunidad → Interés Transparente. Preparaciones incluidas en las 411 pendientes. E3.1.10: 0/3 imágenes locales; sin texto final, sin publicación; E3.1.11: 0/3 imágenes locales; sin texto final, sin publicación; E3.1.12: 0/3 imágenes locales; sin texto final, sin publicación. Después 433–435. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
