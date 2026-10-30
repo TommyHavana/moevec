@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-30T01:43:01+00:00.
+Comprobado en WordPress: 2026-10-30T02:31:20+00:00.
 
-**327/840 terminadas · 0 en curso · 513 pendientes.**
+**333/840 terminadas · 0 en curso · 507 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -339,12 +339,12 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 325 | 22/56 · 10/15 | E6.2.10 | Solidaridad en crisis: cómo responden las comunidades libres | terminada | 3/3 | [Leer](https://moevec.org/blog/solidaridad-en-crisis/) |
 | 326 | 22/56 · 11/15 | E6.2.11 | Cómo montar un círculo de ayuda mutua con reglas claras | terminada | 3/3 | [Leer](https://moevec.org/blog/montar-circulo-ayuda-mutua/) |
 | 327 | 22/56 · 12/15 | E6.2.12 | Voluntariado profesional: donar lo que mejor sabes hacer | terminada | 3/3 | [Leer](https://moevec.org/blog/voluntariado-profesional/) |
-| 328 | 22/56 · 13/15 | E6.2.13 | La diáspora cubana como red de solidaridad y capital | pendiente | 0/3 | — |
-| 329 | 22/56 · 14/15 | E6.2.14 | Donar sin humillar: dignidad en la ayuda | pendiente | 0/3 | — |
-| 330 | 22/56 · 15/15 | E6.2.15 | Plan de solidaridad personal: un compromiso anual | pendiente | 0/3 | — |
-| 331 | 23/56 · 1/15 | E1.3.01 | Escepticismo constructivo: dudar para entender, no para destruir | pendiente | 0/3 | — |
-| 332 | 23/56 · 2/15 | E1.3.02 | Popper y la falsabilidad: cómo saber si una teoría dice algo | pendiente | 0/3 | — |
-| 333 | 23/56 · 3/15 | E1.3.03 | Los sesgos que nos hacen creer lo que queremos creer | pendiente | 0/3 | — |
+| 328 | 22/56 · 13/15 | E6.2.13 | La diáspora cubana como red de solidaridad y capital | terminada | 3/3 | [Leer](https://moevec.org/blog/diaspora-cubana-red/) |
+| 329 | 22/56 · 14/15 | E6.2.14 | Donar sin humillar: dignidad en la ayuda | terminada | 3/3 | [Leer](https://moevec.org/blog/donar-sin-humillar/) |
+| 330 | 22/56 · 15/15 | E6.2.15 | Plan de solidaridad personal: un compromiso anual | terminada | 3/3 | [Leer](https://moevec.org/blog/plan-solidaridad-personal/) |
+| 331 | 23/56 · 1/15 | E1.3.01 | Escepticismo constructivo: dudar para entender, no para destruir | terminada | 3/3 | [Leer](https://moevec.org/blog/escepticismo-constructivo-que-es/) |
+| 332 | 23/56 · 2/15 | E1.3.02 | Popper y la falsabilidad: cómo saber si una teoría dice algo | terminada | 3/3 | [Leer](https://moevec.org/blog/popper-falsabilidad/) |
+| 333 | 23/56 · 3/15 | E1.3.03 | Los sesgos que nos hacen creer lo que queremos creer | terminada | 3/3 | [Leer](https://moevec.org/blog/sesgos-cognitivos-basicos/) |
 | 334 | 23/56 · 4/15 | E1.3.04 | Cómo leer una estadística sin dejarte engañar | pendiente | 0/3 | — |
 | 335 | 23/56 · 5/15 | E1.3.05 | Pensamiento crítico frente a propaganda: las técnicas que se repiten | pendiente | 0/3 | — |
 | 336 | 23/56 · 6/15 | E1.3.06 | Promesas económicas imposibles: cómo detectar el almuerzo gratis | pendiente | 0/3 | — |

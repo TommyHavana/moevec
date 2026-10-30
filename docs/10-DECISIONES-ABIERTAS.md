@@ -773,3 +773,23 @@ Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobad
 Siguiente **328–330 / E6.2.13–E6.2.15**, Economía Compartida → Solidaridad Capitalista. Preparaciones incluidas en las 513 pendientes. E6.2.13: 3/3 imágenes locales; sin texto final, sin publicación; E6.2.14: 0/3 imágenes locales; sin texto final, sin publicación; E6.2.15: 0/3 imágenes locales; sin texto final, sin publicación. Después 331–333. Automatización activa, sin agotamiento comunicado.
 
 Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 328–330 · 30/10/2026
+
+330/840 terminadas, 990 imágenes originales públicas, 0 en curso o borradores WordPress y 510 pendientes.
+
+328: DL133/2026 admite socios cubanos residentes dentro o fuera; CACR septiembre2026 retira autorización específica de cuentas, remesas no equivalen a inversión y estudio2014 de muestra no aleatoria2012–2013. 329: Chalmers fragmentos y adaptación2025 con marco cristiano atribuido; dignidad independiente de productividad y ayuda permanente posible. 330: plantilla anual propia y GiveWell con límites de selección, sin porcentajes universales ni promesas.
+
+Siguiente **331–333 / E1.3.01–E1.3.03**, Educación y Valores → Escepticismo Constructivo. Preparaciones incluidas en las 510 pendientes. E1.3.01: 1/3 imágenes locales; sin texto final, sin publicación; E1.3.02: 0/3 imágenes locales; sin texto final, sin publicación; E1.3.03: 0/3 imágenes locales; sin texto final, sin publicación. Después 334–336. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 331–333 · 30/10/2026
+
+333/840 terminadas, 999 imágenes originales públicas, 0 en curso o borradores WordPress y 507 pendientes.
+
+331: Sagan, capítulo 12, herramientas y límite del uso mecánico; cinco preguntas y cierre propuestos por MEE, sin equivalencia entre evidencia y cualquier opinión. 332: Popper 1963 por extracto primario, crítica histórica delimitada y no científico distinto de falso o sin significado; Kuhn, ensayo de 1970, pp. 1–7, ciencia normal y pruebas extraordinarias, no libro de 1962 fingido. 333: Wason 1960 tarea/muestra concretas; Tversky y Kahneman 1974 anclaje/disponibilidad y resumen institucional Gigerenzer y Gaissmaier 2011, sin porcentajes electorales o hábitos garantizados.
+
+Siguiente **334–336 / E1.3.04–E1.3.06**, Educación y Valores → Escepticismo Constructivo. Preparaciones incluidas en las 507 pendientes. E1.3.04: 2/3 imágenes locales; sin texto final, sin publicación; E1.3.05: 0/3 imágenes locales; sin texto final, sin publicación; E1.3.06: 0/3 imágenes locales; sin texto final, sin publicación. Después 337–339. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.

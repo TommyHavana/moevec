@@ -1,6 +1,6 @@
 # Backlog de MEE
 
-Último estado: **327/840 terminadas, 981 imágenes originales públicas, 0 en curso o borradores WordPress y 513 pendientes**. Solidaridad Capitalista 12/15; 21 tandas completas. Producidas consecutivamente 322–327 desde 321. Siguiente **328–330 / E6.2.13–E6.2.15**, Economía Compartida → Solidaridad Capitalista. Preparaciones incluidas en las 513 pendientes. E6.2.13: 3/3 imágenes locales; sin texto final, sin publicación; E6.2.14: 3/3 imágenes locales; sin texto final, sin publicación; E6.2.15: 3/3 imágenes locales; sin texto final, sin publicación. Después 331–333. Automatización activa, sin agotamiento comunicado. Categorías exactas, 122 nodos y siete raíces. Respaldos comprobados y fuente privada al cierre; sin despliegue React por contenido.
+Último estado: **333/840 terminadas, 999 imágenes originales públicas, 0 en curso o borradores WordPress y 507 pendientes**. Escepticismo Constructivo 3/15; 22 tandas completas. Producidas consecutivamente 328–333 desde 327. Siguiente **334–336 / E1.3.04–E1.3.06**, Educación y Valores → Escepticismo Constructivo. Cada entrada tiene 3/3 imágenes locales revisadas y fuentes parcialmente preparadas; faltan lecturas específicas, texto final y publicación. Incluidas en las 507 pendientes. Después 337–339. Automatización activa, sin agotamiento comunicado.
 
 
 Historial anterior: producción comprobada tras el bloque 4–6: 6/840 terminadas. En elaboración local: 7–9 con nueve imágenes propias; todavía no cuentan como publicadas. Consultar siempre WordPress y el registro 24 para el estado más reciente.
