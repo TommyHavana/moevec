@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-30T12:33:39+00:00.
+Comprobado en WordPress: 2026-10-30T13:21:11+00:00.
 
-**420/840 terminadas · 0 en curso · 420 pendientes.**
+**426/840 terminadas · 0 en curso · 414 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -432,12 +432,12 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 418 | 28/56 · 13/15 | E5.4.13 | Videojuegos y economías virtuales: mercados que funcionan | terminada | 3/3 | [Leer](https://moevec.org/blog/videojuegos-economias-virtuales/) |
 | 419 | 28/56 · 14/15 | E5.4.14 | Mercados de órganos: un debate ético radical | terminada | 3/3 | [Leer](https://moevec.org/blog/mercados-de-organos-debate/) |
 | 420 | 28/56 · 15/15 | E5.4.15 | Diez lugares inesperados donde aparece el mercado | terminada | 3/3 | [Leer](https://moevec.org/blog/diez-lugares-inesperados-mercado/) |
-| 421 | 29/56 · 1/15 | E3.1.01 | Interés transparente: por qué decir lo que buscas genera confianza | pendiente | 0/3 | — |
-| 422 | 29/56 · 2/15 | E3.1.02 | Negociar con intereses, no con posiciones | pendiente | 0/3 | — |
-| 423 | 29/56 · 3/15 | E3.1.03 | Conflictos de interés: cómo detectarlos y declararlos | pendiente | 0/3 | — |
-| 424 | 29/56 · 4/15 | E3.1.04 | Transparencia en organizaciones sin ánimo de lucro | pendiente | 0/3 | — |
-| 425 | 29/56 · 5/15 | E3.1.05 | El precio como mensaje honesto: lo que comunica un mercado libre | pendiente | 0/3 | — |
-| 426 | 29/56 · 6/15 | E3.1.06 | Lobbies y grupos de interés: la cara oculta de la política | pendiente | 0/3 | — |
+| 421 | 29/56 · 1/15 | E3.1.01 | Interés transparente: por qué decir lo que buscas genera confianza | terminada | 3/3 | [Leer](https://moevec.org/blog/interes-transparente-que-es/) |
+| 422 | 29/56 · 2/15 | E3.1.02 | Negociar con intereses, no con posiciones | terminada | 3/3 | [Leer](https://moevec.org/blog/negociar-con-intereses/) |
+| 423 | 29/56 · 3/15 | E3.1.03 | Conflictos de interés: cómo detectarlos y declararlos | terminada | 3/3 | [Leer](https://moevec.org/blog/conflictos-de-interes/) |
+| 424 | 29/56 · 4/15 | E3.1.04 | Transparencia en organizaciones sin ánimo de lucro | terminada | 3/3 | [Leer](https://moevec.org/blog/transparencia-organizaciones-sin-animo-de-lucro/) |
+| 425 | 29/56 · 5/15 | E3.1.05 | El precio como mensaje honesto: lo que comunica un mercado libre | terminada | 3/3 | [Leer](https://moevec.org/blog/precio-como-mensaje-honesto/) |
+| 426 | 29/56 · 6/15 | E3.1.06 | Lobbies y grupos de interés: la cara oculta de la política | terminada | 3/3 | [Leer](https://moevec.org/blog/lobbies-y-grupos-de-interes/) |
 | 427 | 29/56 · 7/15 | E3.1.07 | Influencers y publicidad encubierta: interés no declarado | pendiente | 0/3 | — |
 | 428 | 29/56 · 8/15 | E3.1.08 | Cooperar con quien piensa distinto: intereses comunes | pendiente | 0/3 | — |
 | 429 | 29/56 · 9/15 | E3.1.09 | Transparencia pública: leyes de acceso a la información | pendiente | 0/3 | — |
