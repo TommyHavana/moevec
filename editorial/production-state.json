@@ -1,42 +1,42 @@
 {
   "automation_id": "producci-n-editorial-mee-840",
   "mode": "continuous_blocks_of_three",
-  "completed_at_start": 468,
+  "completed_at_start": 471,
   "current_block": [
-    469,
-    470,
-    471
-  ],
-  "current_ids": [
-    "E3.4.04",
-    "E3.4.05",
-    "E3.4.06"
-  ],
-  "area": "comunidad",
-  "topic": "intercambio-equitativo",
-  "phase": "research_images_in_progress",
-  "next_after_block": [
     472,
     473,
     474
   ],
-  "updated_at": "2026-10-30T22:50:32.122869+00:00",
-  "last_completed_block": [
-    466,
-    467,
-    468
+  "current_ids": [
+    "E3.4.07",
+    "E3.4.08",
+    "E3.4.09"
   ],
-  "notes": "468/840 terminadas, 1404 imágenes originales públicas, 0 en curso o borradores WordPress y 372 pendientes. Intercambio Equitativo 3/15. Siguiente **469–471 / E3.4.04–E3.4.06**, Comunidad → Intercambio Equitativo. Preparaciones incluidas en las 372 pendientes. E3.4.04: 3/3 imágenes locales; sin texto final, sin publicación; E3.4.05: 3/3 imágenes locales; sin texto final, sin publicación; E3.4.06: 3/3 imágenes locales; sin texto final, sin publicación. Después 472–474. Automatización activa, sin agotamiento comunicado.",
+  "area": "comunidad",
+  "topic": "intercambio-equitativo",
+  "phase": "research_preparation_images_pending",
+  "next_after_block": [
+    475,
+    476,
+    477
+  ],
+  "updated_at": "2026-10-30T23:01:52.080365+00:00",
+  "last_completed_block": [
+    469,
+    470,
+    471
+  ],
+  "notes": "471/840 terminadas, 1413 imágenes originales públicas, 0 en curso o borradores WordPress y 369 pendientes. Intercambio Equitativo 6/15. Siguiente **472–474 / E3.4.07–E3.4.09**, Comunidad → Intercambio Equitativo. Preparaciones incluidas en las 369 pendientes. E3.4.07: 0/3 imágenes locales; sin texto final, sin publicación; E3.4.08: 0/3 imágenes locales; sin texto final, sin publicación; E3.4.09: 0/3 imágenes locales; sin texto final, sin publicación. Después 475–477. Automatización activa, sin agotamiento comunicado. Cierre documental31/10/2026Europe/Madrid; producción y consulta iniciadas30/10UTC. Próximo472–474sintexto final ni imágenes, fuentesparcialesarchivadas.",
   "last_backup": {
-    "directory": "/data/mee-backups/produccion-840-incremento-466-468-20261030",
-    "completed_articles": 468,
-    "sql_bytes": 18858146,
+    "directory": "/data/mee-backups/produccion-840-incremento-469-471-20261030",
+    "completed_articles": 471,
+    "sql_bytes": 18970020,
     "upload_files": 66,
-    "uploads_bytes": 2902270,
+    "uploads_bytes": 2200232,
     "checksums_verified": true,
     "restore_test": false
   },
-  "last_local_backup": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Editorial_466-468_2026-10-30_incremental.zip",
+  "last_local_backup": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Editorial_469-471_2026-10-30_incremental.zip",
   "completed_this_run": [
     454,
     455,
@@ -52,33 +52,36 @@
     465,
     466,
     467,
-    468
+    468,
+    469,
+    470,
+    471
   ],
   "run_started_with_completed": 453,
   "local_preparations": [
     {
-      "id": "E3.4.04",
-      "number": 469,
-      "images": 3,
-      "images_visually_checked": true,
+      "id": "E3.4.07",
+      "number": 472,
+      "images": 0,
+      "images_visually_checked": false,
       "published": false,
       "article_complete": false,
       "sources_verified": false
     },
     {
-      "id": "E3.4.05",
-      "number": 470,
-      "images": 3,
-      "images_visually_checked": true,
+      "id": "E3.4.08",
+      "number": 473,
+      "images": 0,
+      "images_visually_checked": false,
       "published": false,
       "article_complete": false,
       "sources_verified": false
     },
     {
-      "id": "E3.4.06",
-      "number": 471,
-      "images": 3,
-      "images_visually_checked": true,
+      "id": "E3.4.09",
+      "number": 474,
+      "images": 0,
+      "images_visually_checked": false,
       "published": false,
       "article_complete": false,
       "sources_verified": false
@@ -86,13 +89,14 @@
   ],
   "local_backup_kind": "incremental",
   "local_backup_base": {
-    "path": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Editorial_463-465_2026-10-30_incremental.zip",
-    "sha256": "6e930012cba23659c14d2059a0ba312aa98986ef223e7cca8d86dae920c74d49"
+    "path": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Editorial_466-468_2026-10-30_incremental.zip",
+    "sha256": "dc4ec7dc0eb24dcedceab360dedf419b1c97b5ae1560ec1eab3716cb855f3417"
   },
   "storage_check": {
     "checked_at": "2026-10-30T21:25:16.144935+00:00",
     "free_bytes": 7924523008,
     "originals_and_backups_preserved": true,
     "note": "Espacio comprobado; incremento proporcional. Conservados originales, fuentes y cadena de copias."
-  }
+  },
+  "last_run_closed_at_madrid": "2026-10-31"
 }

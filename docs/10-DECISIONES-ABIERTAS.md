@@ -1243,3 +1243,13 @@ Intercambio: Menger1871capIV en traducción, valoraciones distintas y costes, ex
 Siguiente **469–471 / E3.4.04–E3.4.06**, Comunidad → Intercambio Equitativo. Preparaciones incluidas en las 372 pendientes. E3.4.04: 3/3 imágenes locales; sin texto final, sin publicación; E3.4.05: 3/3 imágenes locales; sin texto final, sin publicación; E3.4.06: 3/3 imágenes locales; sin texto final, sin publicación. Después 472–474. Automatización activa, sin agotamiento comunicado.
 
 Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 469–471 · 30/10/2026
+
+471/840 terminadas, 1413 imágenes originales públicas, 0 en curso o borradores WordPress y 369 pendientes.
+
+Conocimiento: Romer1990S71–72 no rivalidad distinta de exclusión/costes; Nestojko2014dos experimentos de expectativaenseñar sinenseñanzaefectiva, resumen primario y403PDFregistrado. Equidad: Akerlof1970pp488–489/499 modelo, asimetría no fraude, criteriosMEE no dictamenlegal. Pobreza: línea3USD/PPA2021 y revisiónjunio2025serie1990–2022 separadas del comunicado26/10/2026 sobreestancamiento; ChinaWB/DRC2022ppxiii–xivyfigES1, múltiplesfactores y sin800millonesumbralviejo mezclados; DollarKraayresumenfinal2004 distinto working2001; ChangfichaAnthemKickingAwayLadder2002, no23Thingsni libroíntegro. Nueve originales nuevos revisados.
+
+Siguiente **472–474 / E3.4.07–E3.4.09**, Comunidad → Intercambio Equitativo. Preparaciones incluidas en las 369 pendientes. E3.4.07: 0/3 imágenes locales; sin texto final, sin publicación; E3.4.08: 0/3 imágenes locales; sin texto final, sin publicación; E3.4.09: 0/3 imágenes locales; sin texto final, sin publicación. Después 475–477. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
