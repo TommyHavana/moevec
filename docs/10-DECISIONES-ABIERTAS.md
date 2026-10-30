@@ -1013,3 +1013,33 @@ Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobad
 Siguiente **400–402 / E1.9.10–E1.9.12**, Educación y Valores → Educación Científica y Actualizada. Preparaciones incluidas en las 441 pendientes. E1.9.10: 0/3 imágenes locales; sin texto final, sin publicación; E1.9.11: 0/3 imágenes locales; sin texto final, sin publicación; E1.9.12: 0/3 imágenes locales; sin texto final, sin publicación. Después 403–405. Automatización activa, sin agotamiento comunicado.
 
 Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 400–402 · 30/10/2026
+
+402/840 terminadas, 1206 imágenes originales públicas, 0 en curso o borradores WordPress y 438 pendientes.
+
+400: Eurostat 2025 empleo FP media80,2%/terciaria87,0% con población20–34 y denominador; OCDE2026 desempleo25–34 distinto8/6%. BIBB/SERI, EURES2025publicado2026 sin empleo o salario garantizados. 401: OCW,OpenLearn yAprendo+Plus diferenciados de grados/constancias; aviso específico xPROjulio2026sintrasladaraOCW, sinpruebadesdeCuba; Reich/Ruipérez-Valiente2019datos hasta2018. 402: Kestin2025N194en2leccionesfísica2023, Bastani2025casi1000institutoTurquía,17%relativo no17pp, sinextrapolar largo plazo/modelosactuales. UNESCO porpresentación,PDF403. Nueveoriginales propios inspeccionados.
+
+Siguiente **403–405 / E1.9.13–E1.9.15**, Educación y Valores → Educación Científica y Actualizada. Preparaciones incluidas en las 438 pendientes. E1.9.13: 0/3 imágenes locales; sin texto final, sin publicación; E1.9.14: 0/3 imágenes locales; sin texto final, sin publicación; E1.9.15: 0/3 imágenes locales; sin texto final, sin publicación. Después 406–408. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 403–405 · 30/10/2026
+
+405/840 terminadas, 1215 imágenes originales públicas, 0 en curso o borradores WordPress y 435 pendientes.
+
+403: OMC teoría de ventaja comparativa, BancoMundial revisión2025histórica yseptiembre2026estimación2024/proyección2026 sin concatenar series. DIW2021anuncios2019–20 no contratos; Ifo403/no60% sin verificar. MankiwWeinzierl2004modelo, sin ley de autofinanciación. 404: OCDE/UE2023grupos adaptables, BDEmarzo2026/Banxico, Sandel por presentación2012. Propuestas de simulación, no trabajo infantil ni eficacia garantizada. 405: doce lecturas por niveles/escuelas con pasajes y fichas diferenciados; Pikettyporresumenpropio2015sin caricatura r>g. No doce libros íntegros leídos. Nueveoriginales inspeccionados; 15/15 subcategoría y27tandas completas.
+
+Siguiente **406–408 / E5.4.01–E5.4.03**, Capitalismo Consciente → Capitalismo en Esferas Inesperadas. Preparaciones incluidas en las 435 pendientes. E5.4.01: 2/3 imágenes locales; sin texto final, sin publicación; E5.4.02: 0/3 imágenes locales; sin texto final, sin publicación; E5.4.03: 0/3 imágenes locales; sin texto final, sin publicación. Después 409–411. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 406–408 · 30/10/2026
+
+408/840 terminadas, 1224 imágenes originales públicas, 0 en curso o borradores WordPress y 432 pendientes.
+
+406: Radford1945 por original13p, abastecimiento externo/cautiverio y observación no experimento ni sociedad sin autoridad; funciones del dinero por BancoInglaterra, ejemplos propios sin precios históricos inventados. 407: SmithlibroVcapI y Iannaccone1998figura3histórica de12países, críticaChaves/Gorski2001porresumen: no asociaciónpositivageneral probada ni datos2026. DefensaMEEdeconciencia independiente. 408: patronazgoMedici por exposiciónChicago, Leiden coninstituciones/gremios, Cowenporfichayconversación2025 frenteaAdorno/Horkheimerpasajes. Patreonoficialmayo2026sin ingresos oacceso porpaísgarantizados; tiendaMEEsolo propuesta futura. Nueveoriginales propios yjerarquíaCapitalismoConsciente/EsferasInesperadas.
+
+Siguiente **409–411 / E5.4.04–E5.4.06**, Capitalismo Consciente → Capitalismo en Esferas Inesperadas. Preparaciones incluidas en las 432 pendientes. E5.4.04: 0/3 imágenes locales; sin texto final, sin publicación; E5.4.05: 0/3 imágenes locales; sin texto final, sin publicación; E5.4.06: 0/3 imágenes locales; sin texto final, sin publicación. Después 412–414. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.

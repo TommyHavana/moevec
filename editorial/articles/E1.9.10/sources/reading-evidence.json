@@ -1,0 +1,24 @@
+{
+  "method": "Lectura de HTML primarios descargados, resultados primarios de búsqueda web y comprobación de cifras y denominadores; no lectura íntegra de informes.",
+  "web_only": [
+    {
+      "url": "https://www.oecd.org/en/publications/education-at-a-glance-2026_b4968bbc-en/full-report/how-does-educational-attainment-affect-participation-in-the-labour-market_b0fe0937.html",
+      "scope": "Resultado primario del capítulo A3: desempleo 2025,25–34años,14% inferior a secundaria superior,8% general y6% profesional en secundaria superior/postsecundaria no terciaria. El artículo solo usa8/6 y explica diferencia respecto a Eurostat. Web apertura general mostró navegación; find posterior timeout. No lectura íntegra.",
+      "access": "curl403; resultado de búsqueda oficial legible"
+    },
+    {
+      "url": "https://www.cedefop.europa.eu/en/tools/key-indicators-on-vet/indicators",
+      "scope": "Resultado oficial de definición de indicador: veinte a treinta y cuatro años, nivel3/4profesional, graduación1–3años, sin formación cuatrosemanas. No extrapolación de primas causales.",
+      "access": "curl403; búsqueda oficial legible"
+    }
+  ],
+  "local_reading": {
+    "eurostat2025.txt": "Definición, Employment rates by attainment,80,2%FPmedia/87,0%terciaria/77,2%mediaconjunta,2025. No comparación de salarios.",
+    "bibb-dual.txt": "Young people study in company and school; dos lugares, contrato formativo y aprendiz empleado/estudiante.",
+    "seri-vet.txt": "Página principal, cualificaciones y opción de bachillerato profesional, sin equivalencia internacional.",
+    "eures2025-news.txt": "Resumen29/6/2026, shortages/mobility: soldadores, países y contradicción regional, sin ranking de salarios."
+  },
+  "id": "E1.9.10",
+  "checked_at": "2026-10-30T10:52:23.382298+00:00",
+  "raw_downloads": "Archivos .retrieval.json identifican tamaño/hash o error real. Resúmenes propios, no transcripción completa."
+}

@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-30T10:31:13+00:00.
+Comprobado en WordPress: 2026-10-30T11:27:07+00:00.
 
-**399/840 terminadas · 0 en curso · 441 pendientes.**
+**408/840 terminadas · 0 en curso · 432 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -411,15 +411,15 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 397 | 27/56 · 7/15 | E1.9.07 | PISA explicado: qué mide y qué dicen los resultados de la región | terminada | 3/3 | [Leer](https://moevec.org/blog/pisa-explicado-region/) |
 | 398 | 27/56 · 8/15 | E1.9.08 | Libertad educativa: cheques escolares, educación en casa y escuelas privadas de bajo coste | terminada | 3/3 | [Leer](https://moevec.org/blog/libertad-educativa-cheque-escolar/) |
 | 399 | 27/56 · 9/15 | E1.9.09 | Adoctrinamiento: cómo reconocerlo en cualquier dirección | terminada | 3/3 | [Leer](https://moevec.org/blog/adoctrinamiento-reconocerlo/) |
-| 400 | 27/56 · 10/15 | E1.9.10 | Formación profesional y oficios: el camino infravalorado | pendiente | 0/3 | — |
-| 401 | 27/56 · 11/15 | E1.9.11 | Universidades gratuitas en línea: guía para aprender desde Cuba y América Latina | pendiente | 0/3 | — |
-| 402 | 27/56 · 12/15 | E1.9.12 | Inteligencia artificial para aprender: usos útiles y trampas | pendiente | 0/3 | — |
-| 403 | 27/56 · 13/15 | E1.9.13 | Mitos económicos más repetidos y lo que dicen los datos | pendiente | 0/3 | — |
-| 404 | 27/56 · 14/15 | E1.9.14 | Cómo enseñar economía a niños | pendiente | 0/3 | — |
-| 405 | 27/56 · 15/15 | E1.9.15 | La biblioteca MEE: lecturas por nivel y por escuela de pensamiento | pendiente | 0/3 | — |
-| 406 | 28/56 · 1/15 | E5.4.01 | El campo de prisioneros que inventó un mercado (Radford, 1945) | pendiente | 0/3 | — |
-| 407 | 28/56 · 2/15 | E5.4.02 | Economía de la religión: competencia entre iglesias | pendiente | 0/3 | — |
-| 408 | 28/56 · 3/15 | E5.4.03 | El arte y el mercado: mecenas, galerías y creadores independientes | pendiente | 0/3 | — |
+| 400 | 27/56 · 10/15 | E1.9.10 | Formación profesional y oficios: el camino infravalorado | terminada | 3/3 | [Leer](https://moevec.org/blog/formacion-profesional-oficios/) |
+| 401 | 27/56 · 11/15 | E1.9.11 | Universidades gratuitas en línea: guía para aprender desde Cuba y América Latina | terminada | 3/3 | [Leer](https://moevec.org/blog/universidades-gratuitas-en-linea/) |
+| 402 | 27/56 · 12/15 | E1.9.12 | Inteligencia artificial para aprender: usos útiles y trampas | terminada | 3/3 | [Leer](https://moevec.org/blog/inteligencia-artificial-para-aprender/) |
+| 403 | 27/56 · 13/15 | E1.9.13 | Mitos económicos más repetidos y lo que dicen los datos | terminada | 3/3 | [Leer](https://moevec.org/blog/mitos-economicos-datos/) |
+| 404 | 27/56 · 14/15 | E1.9.14 | Cómo enseñar economía a niños | terminada | 3/3 | [Leer](https://moevec.org/blog/ensenar-economia-a-ninos/) |
+| 405 | 27/56 · 15/15 | E1.9.15 | La biblioteca MEE: lecturas por nivel y por escuela de pensamiento | terminada | 3/3 | [Leer](https://moevec.org/blog/biblioteca-mee-lecturas/) |
+| 406 | 28/56 · 1/15 | E5.4.01 | El campo de prisioneros que inventó un mercado (Radford, 1945) | terminada | 3/3 | [Leer](https://moevec.org/blog/campo-de-prisioneros-mercado/) |
+| 407 | 28/56 · 2/15 | E5.4.02 | Economía de la religión: competencia entre iglesias | terminada | 3/3 | [Leer](https://moevec.org/blog/economia-de-la-religion/) |
+| 408 | 28/56 · 3/15 | E5.4.03 | El arte y el mercado: mecenas, galerías y creadores independientes | terminada | 3/3 | [Leer](https://moevec.org/blog/arte-y-mercado/) |
 | 409 | 28/56 · 4/15 | E5.4.04 | El deporte como mercado: fichajes, salarios y competencia | pendiente | 0/3 | — |
 | 410 | 28/56 · 5/15 | E5.4.05 | Internet: el mayor mercado de ideas de la historia | pendiente | 0/3 | — |
 | 411 | 28/56 · 6/15 | E5.4.06 | El orden en las cárceles: gobernanza sin Estado | pendiente | 0/3 | — |

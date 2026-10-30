@@ -1,6 +1,6 @@
 # Backlog de MEE
 
-Último estado: **399/840 terminadas, 1197 imágenes originales públicas, 0 en curso o borradores WordPress y 441 pendientes**. Educación Científica y Actualizada 9/15; 26 tandas completas. Producidas consecutivamente 391–399 desde 390. Siguiente **400–402 / E1.9.10–E1.9.12**, Educación y Valores → Educación Científica y Actualizada, tanda 27/56. Briefs originales conservados; 0/3 imágenes por entrada, fuentes sin verificar, sin texto final ni publicación. Incluidas entre las 441 pendientes. Reanudar investigación y generar originales sin duplicar recursos. Después 403–405. Automatización activa; sin agotamiento comunicado.
+Último estado: **408/840 terminadas, 1224 imágenes originales públicas, 0 en curso o borradores WordPress y 432 pendientes**. Capitalismo en Esferas Inesperadas 3/15; 27 tandas completas. Producidas consecutivamente 400–408 desde 399. Siguiente **409–411 / E5.4.04–E5.4.06**, Capitalismo Consciente → Capitalismo en Esferas Inesperadas, tanda 28/56. Briefs originales conservados; 0/3 imágenes por entrada, fuentes sin verificar, sin texto final ni publicación. Incluidas entre las 432 pendientes. Reanudar investigación y generar originales sin duplicar recursos. Después 412–414. Automatización activa; sin agotamiento comunicado.
 
 
 Historial anterior: producción comprobada tras el bloque 4–6: 6/840 terminadas. En elaboración local: 7–9 con nueve imágenes propias; todavía no cuentan como publicadas. Consultar siempre WordPress y el registro 24 para el estado más reciente.
