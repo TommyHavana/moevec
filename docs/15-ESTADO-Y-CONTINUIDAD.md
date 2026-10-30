@@ -2,29 +2,27 @@
 
 ## Estado actual
 
-**444/840 terminadas, 1332 imágenes originales públicas, 0 en curso o borradores WordPress y 396 pendientes**. Mérito por Aporte 9/15; 29 tandas completas y tanda 30 en curso.
+**447/840 terminadas, 1341 imágenes originales públicas, 0 en curso o borradores WordPress y 393 pendientes**. Mérito por Aporte 12/15; 29 tandas completas y tanda 30 en curso.
 
 Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Desde 435: entradas 436–444, 27 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
+Desde 444: entradas 445–447, 9 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
 
 Una publicación y tres adjuntos por ID; categorías Comunidad y Mérito por Aporte, etiquetas exactas. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales y variantes comprobados. Navegación y BreadcrumbList: Blog → área → subcategoría. Taxonomía: 122 nodos, siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva o posicionamiento.
 
 ## Revisión del último bloque
 
-Colaboración: ensayo Raymond diferenciado del libro1999, Benklercap3, reglas propias Wikipedia y revisión Linux actuales; sin ausencia de autoridad. Reputación sin título: OIT/OCDE/PNUD2024 y distinción de informalidad, Caplan ficha editorial, WEF2025 excluye sector informal; Upwork como mecanismo propio sin promesas. Gamificación: Deci resumen escaneado y Koivisto/Hamari resumen primario autores2019, PDF bloqueado sin lectura fingida; Goodhart mediante discursoECB2023 y analogía limitada. Nueve originales nuevos inspeccionados. Catálogo Princeton completo conservado fuera deGit, página pertinente en expediente.
+Financiación: Spence1973, introducción escaneada leída, analogía limitada; CNMV normativa actual, sin umbrales o reglas no consultadas; MEE inversión solo idea. Historial: normas y contacto publicados, sin perfiles o puntos disponibles ni aceptación automática. Reconocimiento: Amabile/Kramer2011 mediante entrevista y extracto HBS, no libro íntegro; Gallup2026 dato2025, gráfico20% y método, sin causalidad de insignias o sustitución de pagos. Nueve originales revisados, estrella de ocho puntas. Original Gallup completo fuera deGit, extracto conSHA/ubicación. Recuperados122775498bytes de131paquetes temporales de transporte, todos sus miembros cotejados con activa y privada, sin tocar fuentes, originales o respaldos.
 
 ## Continuación exacta
 
-Siguiente **445–447 / E3.2.10–E3.2.12**, Comunidad → Mérito por Aporte, tanda 30/56, entradas 10–12/15. Briefs y preguntas conservados: reputación y financiación, historial de aportes y reconocimiento sin dinero. Fuentes por verificar, **0/3 imágenes por entrada**, sin texto final ni publicación; incluidas entre las 396 pendientes. En 445: Spence1973, F-215 y normas vigentes EUR-Lex/CNMV antes de cualquier cifra o regla, inversión MEE solo idea. En 446: normas y canales existentes, sin perfiles inventados. En 447: Amabile/Kramer y edición actual de Gallup, sin sustituir pago por reconocimiento. Después 448–450. Autorización y automatización activas; sin agotamiento de generación comunicado.
+Siguiente **448–450 / E3.2.13–E3.2.15**, Comunidad → Mérito por Aporte. Preparaciones incluidas en las 393 pendientes. E3.2.13: 0/3 imágenes locales; sin texto final, sin publicación; E3.2.14: 0/3 imágenes locales; sin texto final, sin publicación; E3.2.15: 0/3 imágenes locales; sin texto final, sin publicación. Después 451–453. Automatización activa, sin agotamiento comunicado.
 
 ## Copias y límites
 
-Espacio local antes de esta copia: 264,753,152 bytes. Incremento proporcional, originales y respaldos conservados. Catálogo Princeton completo en mee-backups/research-originals; página pertinente y ubicación/SHA en E3.2.08/sources/princeton-original-source-location.json. Comprobar capacidad antes del siguiente bloque y reservar espacio para fuentes, copia privada y respaldo; no borrar originales ni copias sin petición específica.
-
-Respaldo VPS hasta 444: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
+Respaldo VPS hasta 447: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
 
 ## Traspaso
 
@@ -45,6 +43,7 @@ Verificación: `npm run build` con sincronización y TypeScript correctos; PHP l
 Publicación: fuente privada sincronizada y subida, commit de producto `1d84a45`. Actualización de la exportación estática en el contenedor Nginx activo y de los dos archivos WordPress, tanto en la ruta operativa como en `/opt/mee/`. No se reconstruyeron imágenes Docker ni se reiniciaron servicios; un siguiente build del repositorio incluye los cambios. Respaldo previo local completo: `../mee-backups/MEE_Codex_2026-10-29_183813.zip` (7657 archivos, integridad comprobada). Copia previa de React y de los archivos WordPress en `/data/mee-backups/apoyo-20261029T184226/`, gzip comprobado. No se ha probado una restauración arrancada de esta copia.
 
 Siguiente paso de esta petición: concretar el medio de donación y sus datos oficiales para activar pago directo. La producción editorial mantiene su continuidad independiente; esta tarea no modifica sus conteos, artículos, imágenes ni taxonomía.
+
 
 
 

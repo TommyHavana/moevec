@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-30T15:49:52+00:00.
+Comprobado en WordPress: 2026-10-30T16:15:42+00:00.
 
-**444/840 terminadas · 0 en curso · 396 pendientes.**
+**447/840 terminadas · 0 en curso · 393 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -456,9 +456,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 442 | 30/56 · 7/15 | E3.2.07 | Colaboración abierta: lo que enseñan Wikipedia y el software libre | terminada | 3/3 | [Leer](https://moevec.org/blog/colaboracion-abierta-wikipedia-software-libre/) |
 | 443 | 30/56 · 8/15 | E3.2.08 | Mérito en la economía informal: reputación sin títulos | terminada | 3/3 | [Leer](https://moevec.org/blog/merito-economia-informal/) |
 | 444 | 30/56 · 9/15 | E3.2.09 | Gamificación con sentido: cuándo los puntos ayudan y cuándo estropean | terminada | 3/3 | [Leer](https://moevec.org/blog/gamificacion-con-sentido/) |
-| 445 | 30/56 · 10/15 | E3.2.10 | Del mérito a la inversión: cómo la reputación abre puertas al capital | pendiente | 0/3 | — |
-| 446 | 30/56 · 11/15 | E3.2.11 | Cómo construir tu historial de aportes en MEE | pendiente | 0/3 | — |
-| 447 | 30/56 · 12/15 | E3.2.12 | Reconocimiento sin dinero: insignias, menciones y confianza | pendiente | 0/3 | — |
+| 445 | 30/56 · 10/15 | E3.2.10 | Del mérito a la inversión: cómo la reputación abre puertas al capital | terminada | 3/3 | [Leer](https://moevec.org/blog/merito-reputacion-capital/) |
+| 446 | 30/56 · 11/15 | E3.2.11 | Cómo construir tu historial de aportes en MEE | terminada | 3/3 | [Leer](https://moevec.org/blog/construir-historial-de-aportes/) |
+| 447 | 30/56 · 12/15 | E3.2.12 | Reconocimiento sin dinero: insignias, menciones y confianza | terminada | 3/3 | [Leer](https://moevec.org/blog/reconocimiento-sin-dinero/) |
 | 448 | 30/56 · 13/15 | E3.2.13 | Becas y concursos por mérito: oportunidades para jóvenes de la región | pendiente | 0/3 | — |
 | 449 | 30/56 · 14/15 | E3.2.14 | Moderación justa: cómo debe una comunidad castigar el abuso | pendiente | 0/3 | — |
 | 450 | 30/56 · 15/15 | E3.2.15 | Rankings mensuales: cómo evitar que el ranking se coma la comunidad | pendiente | 0/3 | — |

@@ -1,7 +1,17 @@
-# Preparación · 445 · E3.2.10
+# Investigación y publicación · E3.2.10
 
-Brief conservado; fuentes por verificar,0/3imágenes, sin texto final ni publicación.
+Consulta: 30/10/2026. Alcance específico; descargar una obra no implica lectura íntegra.
 
-- Spence1973: localizar artículo primario, método y alcance de señalización laboral; aplicación a financiación es una analogía que necesita límites.
-- F-215: el brief menciona ReglamentoUE2020/1503 y Ley5/2015. Verificar texto vigente en EUR-Lex/CNMV antes de citar límites, requisitos o casos; la marca histórica «verificado» del documento no prueba vigencia2026.
-- Reputación no sustituye análisis del negocio ni garantiza inversión o rentabilidad. MEE conexión con inversores es idea sin funcionamiento. Aviso educativo obligatorio.
+- [Michael Spence, Job Market Signaling, QJE 87(3),1973,355–374](https://competitionandappropriation.econ.ucla.edu/wp-content/uploads/sites/95/2017/08/Spence1973.pdf): Artículo primario21p en UCLA; lectura visual de escaneo pp355–357, introducción e incertidumbre de contratación. Modelo laboral, no prueba causal de reputación pública y financiación comunitaria. Sin lectura íntegra ni aplicación automática.
+- [CNMV, normativa de proveedores de financiación participativa](https://www.cnmv.es/portal/gpage?id=Reg_Direc_Financion_Participativa&lang=es): Página primaria actual leída, lista ReglamentoUE2020/1503 y Directiva2020/1504. No texto consolidado íntegro ni dictamen legal; EUR-Lex local202vacío y webverificaciónJS sin lectura ficticia. Se omiten límites monetarios, requisitos específicos y Ley5/2015 no revisados.
+
+## Límites
+
+- Sin asegurar que un historial público reduzca causalmente incertidumbre o produzca financiación; posibilidad editorial acotada.
+- Sin ofertas, proyectos apoyados, inversores, rentabilidades o servicios de inversión MEE inventados. Conexión de creadores e inversores es idea sin funcionamiento.
+- Sin trasladar modelo laboral de1973 a prueba de éxito financiero o confundir popularidad con solvencia.
+- Sin umbral de5millones/12meses o reglas nacionales no comprobadas en texto vigente.
+
+## Resultado
+
+https://moevec.org/blog/merito-reputacion-capital/ · 1630 palabras en WordPress. Tres imágenes propias, una publicación y tres adjuntos, sin duplicados.
