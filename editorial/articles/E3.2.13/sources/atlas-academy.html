@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html class="is-loading" lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+    <meta name="referrer" content="origin-when-cross-origin">
+
+        <link href="/vendor/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="/vendor/fontawesome/6.5.2/css/all.min.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Martel:wght@400;600;700;900&display=swap" rel="stylesheet">
+
+        <link href="/vendor/bootstrap-icons/1.11.3/bootstrap-icons.min.css" rel="stylesheet">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="https://www.atlasnetwork.org/img/apple-touch-icon.png">
+    <link rel="icon" type="image/ico" sizes="32x32" href="https://www.atlasnetwork.org/img/favicon.ico">
+    <meta name="theme-color" content="#ffffff">
+
+        <link rel="stylesheet" href="https://ir-portal-2.s3.amazonaws.com/opportunities/css/bundle.css">
+
+        <link rel="stylesheet" href="/css/opportunities-atlas.css?v=1793394129" />
+
+    <title>Atlas Network | Academy</title>
+    <meta name="description" content="Atlas Network Academy provides a robust series of training opportunities for our partners, including certifications in Think Tank Foundations, Marketing, Fundraising, and Leadership.">
+
+    
+<style>
+    /* Section backgrounds */
+    .academy-hero { background-color: var(--atlas-green-light, #EAF5F0); }
+    .academy-video-section { background-color: var(--atlas-gray-50, #F7F8F9); }
+    .academy-contact-section { background-color: var(--atlas-sky-blue-light, #EDF3F9); }
+    .academy-action-banners { background-color: var(--atlas-green-light, #EAF5F0); }
+
+    /* Action banners — Share A Big Win / Interested in Training */
+    .academy-action-banner {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        border-radius: 16px;
+        overflow: hidden;
+        padding: 22px 32px;
+        min-height: 140px;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        box-shadow: 0 4px 16px rgba(46, 47, 54, 0.08);
+    }
+    .academy-action-banner:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 8px 24px rgba(46, 47, 54, 0.16);
+    }
+    .academy-action-banner:focus-visible {
+        outline: 3px solid var(--atlas-coral, #ED5363);
+        outline-offset: 3px;
+    }
+    .academy-action-banner::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image:
+            radial-gradient(circle at 12% 28%, rgba(255,255,255,0.18) 0 6px, transparent 7px),
+            radial-gradient(circle at 22% 72%, rgba(255,255,255,0.12) 0 9px, transparent 10px),
+            radial-gradient(circle at 88% 20%, rgba(255,255,255,0.14) 0 12px, transparent 13px),
+            radial-gradient(circle at 78% 78%, rgba(255,255,255,0.10) 0 7px, transparent 8px);
+        pointer-events: none;
+    }
+    .academy-action-banner__inner {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .academy-action-banner__title {
+        font-size: 32px;
+        line-height: 1.15;
+        font-weight: 700;
+        margin: 0 0 8px;
+    }
+    .academy-action-banner__subtitle {
+        font-size: 16px;
+        line-height: 1.45;
+        margin: 0 0 20px;
+        max-width: 460px;
+    }
+    .academy-action-banner__cta {
+        display: inline-block;
+        background-color: #ffffff;
+        color: var(--atlas-navy, #2E2F36);
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+        padding: 10px 28px;
+        border-radius: 999px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+    }
+    .academy-action-banner--win {
+        background: linear-gradient(120deg, #A9CBE5 0%, #7FA9CE 100%);
+        color: var(--atlas-navy, #2E2F36);
+    }
+    .academy-action-banner--training {
+        background: linear-gradient(120deg, #3A6E96 0%, #234E73 100%);
+        color: #ffffff;
+    }
+    .academy-action-banner--training .academy-action-banner__subtitle {
+        color: rgba(255, 255, 255, 0.92);
+    }
+
+    /* Coral accent divider between hero and video */
+    .academy-divider {
+        display: block;
+        width: 80px;
+        height: 4px;
+        background-color: var(--atlas-coral);
+        border-radius: 2px;
+    }
+
+    /* Standardized section vertical spacing */
+    .py-32 { padding-top: 32px; padding-bottom: 32px; }
+    .py-64 { padding-top: 64px; padding-bottom: 64px; }
+
+    /* Course card hover lift */
+    .academy-card .card {
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .academy-card .card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    }
+
+    /* Utilities */
+    .pl-lg-60 { padding-left: 0; }
+    .pr-xl-40 { padding-right: 0; }
+    .pl-xl-40 { padding-left: 0; }
+    .min-w-220 { min-width: 220px; }
+    .py-3px { padding-top: 3px; padding-bottom: 3px; }
+    .pr-40 { padding-right: 40px; }
+    .pl-10 { padding-left: 10px; }
+    .nav-link.custom.active { opacity: 1 !important; }
+    .nav-link.custom:hover { opacity: 0.8; }
+    .mt-32 { margin-top: 32px; }
+
+    /* Card filter animation */
+    .academy-card {
+        transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+    .academy-card--visible {
+        opacity: 1;
+        transform: scale(1);
+    }
+    .academy-card--hidden {
+        opacity: 0;
+        transform: scale(0.95);
+        position: absolute;
+        pointer-events: none;
+        width: 0;
+        height: 0;
+        overflow: hidden;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    @media (min-width: 992px) {
+        .py-lg-96 { padding-top: 96px; padding-bottom: 96px; }
+        .py-lg-48 { padding-top: 48px; padding-bottom: 48px; }
+        .w-lg-50 { width: 50%; }
+        .w-lg-60 { width: 60%; }
+        .w-lg-40 { width: 40%; }
+        .pl-lg-60 { padding-left: 60px; }
+        .mt-lg-0 { margin-top: 0; }
+    }
+    @media (min-width: 1200px) {
+        .w-xl-25 { width: 25%; }
+        .w-xl-75 { width: 75%; }
+        .pr-xl-40 { padding-right: 40px; }
+        .pl-xl-40 { padding-left: 40px; }
+    }
+</style>
+
+    <style>
+        img { opacity: 1 !important; }
+    </style>
+</head>
+
+<body>
+        <header class="atlas-header">
+    <div class="atlas-header__inner">
+                <a href="https://www.atlasnetwork.org" class="atlas-header__logo">
+            <svg width="441" height="148" viewBox="0 0 441 148" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Atlas Network">
+                <path d="M197.7 62.1h-19.1l-3.7 9.7h-3l14.8-38.1h3l14.8 38.1h-3l-3.8-9.7zm-1-2.7l-8.5-22.2-8.5 22.2h17zM232.9 36.4h-12v35.4H218V36.4h-12v-2.7h26.9v2.7zM261.9 69v2.7H241V33.6h2.9V69h18zM293.1 62.1H274l-3.7 9.7h-3l14.8-38.1h3l14.8 38.1h-3l-3.8-9.7zm-1-2.7l-8.5-22.2-8.5 22.2h17zM304.2 63.4l2.5-1.5c1.3 4.6 5.2 7.7 11.4 7.7 6.4 0 9.6-3.3 9.6-7.6 0-4.6-4-6.3-9.9-8.2-6.4-2.1-12.1-3.9-12.1-10.5 0-6.3 5.1-10.2 11.5-10.2 6.3 0 10.4 3.6 12.3 8l-2.5 1.4c-1.4-3.4-4.4-6.6-9.8-6.6-5.3 0-8.6 3.1-8.6 7.4 0 4.6 3.9 6 9.3 7.8 6.8 2.2 12.6 4.4 12.6 10.9 0 6.3-5 10.5-12.5 10.5-7-.1-12-3.7-13.8-9.1zM203.7 84.5v38.1h-2.6l-22.5-32.8v32.8h-2.9V84.5h2.5l22.5 32.8V84.5h3zM237.3 119.9v2.7h-21.9V84.5H237v2.7h-18.8V102h17.4v2.7h-17.4v15.1h19.1v.1zM270 87.2h-12v35.4h-2.9V87.2h-12v-2.7H270v2.7zM275.2 84.5h3l9.9 34.3 10.6-34.3h3.4l10.7 34.3 9.8-34.3h3l-11.1 38.1H311l-10.7-34.4-10.7 34.4h-3.5l-10.9-38.1zM330.6 103.5c0-10.9 8.7-19.7 19.7-19.7s19.7 8.8 19.7 19.7c0 10.9-8.7 19.7-19.7 19.7s-19.7-8.8-19.7-19.7zm36.4 0c0-9.4-7.4-16.9-16.8-16.9s-16.8 7.5-16.8 16.9c0 9.4 7.4 16.9 16.8 16.9 9.5 0 16.8-7.5 16.8-16.9zM394.3 107h-12v15.6h-2.9V84.5h15c6.2 0 11.3 5.1 11.3 11.3 0 5.2-3.5 9.5-8.4 10.8l9.5 16h-3.3l-9.2-15.6zm-12-2.8h12.1c4.6 0 8.4-3.8 8.4-8.5s-3.8-8.5-8.4-8.5h-12.1v17zM436.9 122.6l-19.1-18.8v18.8h-2.9V84.5h2.9v17.8l18.6-17.8h3.9L421 103l19.8 19.6h-3.9z" fill="currentColor"></path>
+                <path d="M59.6 94.7c-4.3 10.7-14.9 18.1-27.2 17.7-14.3-.5-26.2-12.2-27-26.5-.9-16.2 12-29.6 28-29.6 13.7 0 25.1 9.9 27.6 22.9.1.4.4.6.8.6h3.9c.5 0 .9-.4.8-.9C63.7 61.9 48.1 49.2 30 51 13.9 52.6 1.1 65.9 0 82c-1.3 19.5 14.2 35.7 33.4 35.7 14.1 0 26.2-8.8 31.1-21.1.2-.4 0-.9-.4-1-1.2-.5-2.4-.9-3.6-1.4-.3-.2-.8.1-.9.5z" fill="#4BA479"></path>
+                <path d="M40.4 148H2.2c-.8 0-1.1-1.1-.4-1.5 14.8-7.9 19.3-19.2 22.3-24.5.8-1.5 2-1 2 .2-.4 14.5 9.8 21.3 14.7 24.3.7.5.4 1.5-.4 1.5zM149.1 148c.6 0 .9-.8.5-1.2-1.1-1-2-2.2-2.4-3.4L93.8 1c-.2-.6-.8-1-1.5-1H67.1c-.7 0-1.3.4-1.5 1.1l-5.4 16.4c-.7 2.3-.7 4.7.1 7L81.2 80c.8 2-.7 4.2-2.9 4.2H47.4c-.8 0-1 1.2-.2 1.4 16.7 3.7 41.1 13.4 46.4 27.2l11.6 30.2c.5 1.3.3 2.8-.5 3.9-.3.5 0 1.2.6 1.2l43.8-.1z" fill="currentColor"></path>
+            </svg>
+        </a>
+
+                <nav class="atlas-nav">
+                        <div class="atlas-nav__item">
+                <a href="/" class="atlas-nav__link">
+                    Home
+                </a>
+            </div>
+
+                        <div class="atlas-nav__item">
+                <a href="/academy" class="atlas-nav__link active">
+                    Academy
+                </a>
+            </div>
+
+                        <div class="atlas-nav__item">
+                <a href="/events" class="atlas-nav__link">
+                    Events
+                </a>
+            </div>
+
+                        <div class="atlas-nav__item">
+                <a href="/become-a-partner" class="atlas-nav__link">
+                    About Partnership
+                </a>
+            </div>
+
+                        <div class="atlas-nav__item atlas-nav__item--has-dropdown">
+                <a href="/grants" class="atlas-nav__link" aria-haspopup="true">
+                    Grants
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+                </a>
+                <div class="atlas-dropdown">
+                    <a href="/grants" class="atlas-dropdown__link">Grants</a>
+                    <a href="/smart-bets" class="atlas-dropdown__link">Smart Bets</a>
+                </div>
+            </div>
+
+                        <div class="atlas-nav__item">
+                <a href="/awards" class="atlas-nav__link">
+                    Awards
+                </a>
+            </div>
+
+                        <div class="atlas-nav__item">
+                <a href="/consulting" class="atlas-nav__link">
+                    Consulting
+                </a>
+            </div>
+
+                        <div class="atlas-nav__item">
+                <a href="/search" class="atlas-nav__link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                    Search
+                </a>
+            </div>
+        </nav>
+
+                <div class="atlas-header__account">
+            <a href="https://www.applyatlasnetwork.org/signup-auth0" class="atlas-header__account-link">New? Register Here</a>
+            <a href="https://www.applyatlasnetwork.org/login-auth0" class="atlas-header__account-link atlas-header__account-link--primary">Sign In</a>
+
+                        <button class="atlas-menu-toggle" aria-label="Toggle menu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+            </button>
+        </div>
+    </div>
+</header>
+
+    <main id="main" class="atlas-main" role="main">
+        <section class="academy-hero">
+    <div class="py-64 py-lg-96">
+        <div class="max-w-1264 mx-auto px-20 w-100 d-flex flex-column flex-lg-row flex-nowrap align-items-center">
+            <div class="w-lg-60">
+                <img class="w-100 h-auto rounded-3" src="https://ir-portal-2.s3.amazonaws.com/opportunities/academy/ANA-Masthead.jpg" alt="Atlas Network Academy — You're in the business of change. We're here to help. Explore our courses.">
+            </div>
+            <div class="w-lg-40 pl-lg-60 mt-32 mt-lg-0">
+                <h2 class="fs-29 lh-base fw-semibold text-dark-gray mb-16">Atlas Network Academy</h2>
+                <p class="fs-16 lh-167 text-secondary-subtle">Our flexible course catalog offers online and in-person programs for think tank leaders at every level. We can connect you with resources, best practices, tools, and mentors to help you and your organization achieve their mission.</p>
+                <div class="d-flex flex-column align-items-start mt-32">
+                    <a href="https://ana.atlasnetwork.org/learn" class="atlas-btn atlas-btn--coral atlas-btn--lg z-2">Enroll Today</a>
+                    <a href="/academy/calendar" class="fs-16 lh-125 mt-20 fw-semibold d-inline-flex align-items-center justify-content-center text-dark-gray text-decoration-none">
+                        2026 Training Calendar
+                        <span class="ml-8">
+                            <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 16l6-6-6-6" stroke="#2E2F36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="d-flex justify-content-center">
+        <span class="academy-divider"></span>
+    </div>
+</section>
+
+<section class="academy-action-banners py-32 py-lg-48">
+    <div class="max-w-1264 mx-auto px-20 w-100">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+                <a href="https://forms.monday.com/forms/857e8ccf66d1068103651ed3039d6607?r=use1" target="_blank" rel="noopener" class="academy-action-banner academy-action-banner--win text-decoration-none">
+                    <div class="academy-action-banner__inner">
+                        <h3 class="academy-action-banner__title">Share A Big Win</h3>
+                        <p class="academy-action-banner__subtitle">Has our training impacted your work?</p>
+                        <span class="academy-action-banner__cta">SHARE HERE</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://forms.monday.com/forms/b9c755b8b3655f1bd62d2d067409ff47?r=use1" target="_blank" rel="noopener" class="academy-action-banner academy-action-banner--training text-decoration-none">
+                    <div class="academy-action-banner__inner">
+                        <h3 class="academy-action-banner__title">Interested in Training</h3>
+                        <p class="academy-action-banner__subtitle">Share Training Interests for You, Your Organization, or a Colleague</p>
+                        <span class="academy-action-banner__cta">CLICK HERE</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="academy-video-section py-64 py-lg-96">
+    <div class="max-w-1264 mx-auto px-20 w-100">
+        <h2 class="fs-32 fs-xl-50 lh-114 text-capitalize fw-medium text-secondary-subtle mb-35 text-center">Discover <strong><span class="text-atlas-coral">ANA</span></strong></h2>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+                <div class="wistia-video-wrapper rounded-3 overflow-hidden shadow-sm">
+                    <script src="https://fast.wistia.com/embed/medias/ypj3bugkp9.jsonp" async></script>
+                    <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
+                    <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+                        <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                            <div class="wistia_embed wistia_async_ypj3bugkp9 seo=true videoFoam=true playerColor=4ba479" style="height:100%;position:relative;width:100%;">&nbsp;</div>
+                        </div>
+                    </div>
+                </div>
+                <h4 class="fs-18 lh-base fw-semibold text-dark-gray mt-16">Explore Atlas Network Academy</h4>
+                <p class="fs-14 lh-167 text-secondary-subtle mb-8">Learn about our training programs that support think tank leaders worldwide.</p>
+                <a href="https://ana.atlasnetwork.org/learn" target="_blank" rel="noopener" class="d-inline-flex align-items-center fs-14 lh-125 fw-semibold text-atlas-green text-decoration-none">
+                    Browse Courses
+                    <i class="bi bi-chevron-right ms-1" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="col">
+                <div class="wistia-video-wrapper rounded-3 overflow-hidden shadow-sm">
+                    <script src="https://fast.wistia.com/embed/medias/9x8dcrjpfa.jsonp" async></script>
+                    <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+                        <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                            <div class="wistia_embed wistia_async_9x8dcrjpfa seo=true videoFoam=true playerColor=4ba479" style="height:100%;position:relative;width:100%;">&nbsp;</div>
+                        </div>
+                    </div>
+                </div>
+                <h4 class="fs-18 lh-base fw-semibold text-dark-gray mt-16">Apply for In-Person Trainings</h4>
+                <p class="fs-14 lh-167 text-secondary-subtle mb-8">A step-by-step guide to applying for our in-person certification programs.</p>
+                <a href="https://apply.atlasnetwork.org/landing" target="_blank" rel="noopener" class="d-inline-flex align-items-center fs-14 lh-125 fw-semibold text-atlas-green text-decoration-none">
+                    Apply Now
+                    <i class="bi bi-chevron-right ms-1" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="training-calendar" class="py-64 py-lg-96">
+    <div class="max-w-1264 mx-auto px-20 w-100 text-center">
+        <a href="/academy/calendar">
+            <img class="w-100 h-auto rounded-3 shadow-sm" src="https://ir-portal-2.s3.amazonaws.com/opportunities/academy/ANA-2026-Training-Calendar.png" alt="2026 Atlas Network Academy Training Calendar">
+        </a>
+        <div class="mt-32">
+            <a href="/academy/calendar" class="atlas-btn atlas-btn--coral atlas-btn--lg">View Interactive Calendar</a>
+        </div>
+    </div>
+</section>
+
+<section class="bg-secondary-subtle">
+    <div class="max-w-1264 mx-auto px-20 w-100 py-77">
+        <h2 class="fs-32 fs-xl-50 lh-114 text-capitalize fw-medium text-white mb-35 text-center">Explore Our <strong><span class="text-atlas-coral">Courses</span></strong></h2>
+        <div class="d-flex flex-column flex-xl-row">
+                        <div class="w-xl-25 pr-xl-40">
+                <ul class="nav d-none d-xl-flex flex-column list-unstyled" id="categoryFilter" role="tablist">
+                    <li class="nav-item py-24 border-bottom" role="presentation">
+                        <button class="w-100 nav-link custom text-start rounded-0 fs-18 lh-base fw-semibold text-white opacity-50 p-0 active" data-filter="all" type="button" role="tab" aria-selected="true">
+                            All
+                        </button>
+                    </li>
+                    <li class="nav-item py-24 border-bottom" role="presentation">
+                        <button class="w-100 nav-link custom text-start rounded-0 fs-18 lh-base fw-semibold text-white opacity-50 p-0" data-filter="foundations" type="button" role="tab" aria-selected="false">
+                            Foundations
+                        </button>
+                    </li>
+                    <li class="nav-item py-24 border-bottom" role="presentation">
+                        <button class="w-100 nav-link custom text-start rounded-0 fs-18 lh-base fw-semibold text-white opacity-50 p-0" data-filter="skill-based" type="button" role="tab" aria-selected="false">
+                            Skill-Based
+                        </button>
+                    </li>
+                    <li class="nav-item py-24 border-bottom" role="presentation">
+                        <button class="w-100 nav-link custom text-start rounded-0 fs-18 lh-base fw-semibold text-white opacity-50 p-0" data-filter="leadership" type="button" role="tab" aria-selected="false">
+                            Leadership Development
+                        </button>
+                    </li>
+                    <li class="nav-item py-24 border-bottom" role="presentation">
+                        <button class="w-100 nav-link custom text-start rounded-0 fs-18 lh-base fw-semibold text-white opacity-50 p-0" data-filter="webinars" type="button" role="tab" aria-selected="false">
+                            Webinars
+                        </button>
+                    </li>
+                </ul>
+                                <div class="d-flex d-xl-none align-items-center pb-24">
+                    <select class="form-select min-w-220 w-100 fs-16 lh-167 py-3px pr-40 pl-10 bg-transparent text-white" id="mobileCategorySelect">
+                        <option value="all" selected>All</option>
+                        <option value="foundations">Foundations</option>
+                        <option value="skill-based">Skill-Based</option>
+                        <option value="leadership">Leadership Development</option>
+                        <option value="webinars">Webinars</option>
+                    </select>
+                </div>
+                <div class="d-none d-xl-block">
+                    <p class="text-white fs-16 lh-167 mb-32 mt-80">For questions about any certifications or courses, please contact us.</p>
+                    <a href="mailto:ana@atlasnetwork.org" class="btn btn-outline-light px-30 py-12 fs-16 fw-semibold">Contact ANA</a>
+                </div>
+            </div>
+
+                        <div class="w-xl-75 pl-xl-40">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" id="courseCards">
+                                        <div class="col academy-card" data-category="foundations">
+                        <a href="/academy/think-tank-foundations" class="text-decoration-none">
+                        <div class="card h-100 shadow-sm rounded-0">
+                            <strong class="text-white align-self-start position-absolute top-0 end-0 p-12 fs-12 lh-base letter-spacing-3 fw-bold text-uppercase" style="text-shadow: 0 1px 3px rgba(0,0,0,0.5);">Foundations</strong>
+                            <img class="card-img-top" src="https://ir-portal-2.s3.amazonaws.com/opportunities/academy/Think-Tank-Foundations.jpg" alt="Think Tank Foundations">
+                            <div class="card-body d-flex flex-column">
+                                <h4 class="fs-18 lh-base fw-semibold text-capitalize text-dark-gray">Think Tank Foundations Certification</h4>
+                                <span class="text-dark-gray mt-auto pt-16 fs-16 lh-125 fw-semibold">View Details <i class="bi bi-chevron-right" aria-hidden="true"></i></span>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+
+                                        <div class="col academy-card" data-category="skill-based">
+                        <a href="/academy/fundraising" class="text-decoration-none">
+                        <div class="card h-100 shadow-sm rounded-0">
+                            <strong class="text-white align-self-start position-absolute top-0 end-0 p-12 fs-12 lh-base letter-spacing-3 fw-bold text-uppercase" style="text-shadow: 0 1px 3px rgba(0,0,0,0.5);">Skill-Based</strong>
+                            <img class="card-img-top" src="https://ir-portal-2.s3.amazonaws.com/opportunities/academy/Fundraising.jpg" alt="Fundraising">
+                            <div class="card-body d-flex flex-column">
+                                <h4 class="fs-18 lh-base fw-semibold text-capitalize text-dark-gray">Fundraising Certification</h4>
+                                <span class="text-dark-gray mt-auto pt-16 fs-16 lh-125 fw-semibold">View Details <i class="bi bi-chevron-right" aria-hidden="true"></i></span>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+
+                                        <div class="col academy-card" data-category="skill-based">
+                        <a href="/academy/marketing-communications" class="text-decoration-none">
+                        <div class="card h-100 shadow-sm rounded-0">
+                            <strong class="text-white align-self-start position-absolute top-0 end-0 p-12 fs-12 lh-base letter-spacing-3 fw-bold text-uppercase" style="text-shadow: 0 1px 3px rgba(0,0,0,0.5);">Skill-Based</strong>
+                            <img class="card-img-top" src="https://ir-portal-2.s3.amazonaws.com/opportunities/academy/Marketing-Communications.jpg" alt="Marketing Communications">
+                            <div class="card-body d-flex flex-column">
+                                <h4 class="fs-18 lh-base fw-semibold text-capitalize text-dark-gray">Marketing & Communications Certification</h4>
+                                <span class="text-dark-gray mt-auto pt-16 fs-16 lh-125 fw-semibold">View Details <i class="bi bi-chevron-right" aria-hidden="true"></i></span>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+
+                                        <div class="col academy-card" data-category="leadership">
+                        <a href="/academy/leadership" class="text-decoration-none">
+                        <div class="card h-100 shadow-sm rounded-0">
+                            <strong class="text-white align-self-start position-absolute top-0 end-0 p-12 fs-12 lh-base letter-spacing-3 fw-bold text-uppercase" style="text-shadow: 0 1px 3px rgba(0,0,0,0.5);">Leadership Development</strong>
+                            <img class="card-img-top" src="https://ir-portal-2.s3.amazonaws.com/opportunities/academy/Leadership.jpg" alt="Leadership">
+                            <div class="card-body d-flex flex-column">
+                                <h4 class="fs-18 lh-base fw-semibold text-capitalize text-dark-gray">Leadership Courses</h4>
+                                <span class="text-dark-gray mt-auto pt-16 fs-16 lh-125 fw-semibold">View Details <i class="bi bi-chevron-right" aria-hidden="true"></i></span>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+
+                                        <div class="col academy-card" data-category="webinars">
+                        <a href="/academy/upcoming-webinars" class="text-decoration-none">
+                        <div class="card h-100 shadow-sm rounded-0">
+                            <strong class="text-white align-self-start position-absolute top-0 end-0 p-12 fs-12 lh-base letter-spacing-3 fw-bold text-uppercase" style="text-shadow: 0 1px 3px rgba(0,0,0,0.5);">Webinars</strong>
+                            <img class="card-img-top" src="https://ir-portal-2.s3.amazonaws.com/opportunities/academy/Webinars.jpg" alt="Webinars">
+                            <div class="card-body d-flex flex-column">
+                                <h4 class="fs-18 lh-base fw-semibold text-capitalize text-dark-gray">Upcoming Webinars</h4>
+                                <span class="text-dark-gray mt-auto pt-16 fs-16 lh-125 fw-semibold">View Details <i class="bi bi-chevron-right" aria-hidden="true"></i></span>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+
+                                        <div class="col academy-card" data-category="skill-based">
+                        <a href="/academy/quantitative-research" class="text-decoration-none">
+                        <div class="card h-100 shadow-sm rounded-0">
+                            <strong class="text-white align-self-start position-absolute top-0 end-0 p-12 fs-12 lh-base letter-spacing-3 fw-bold text-uppercase" style="text-shadow: 0 1px 3px rgba(0,0,0,0.5);">Skill-Based</strong>
+                            <img class="card-img-top" src="https://ir-portal-2.s3.amazonaws.com/opportunities/academy/Quantitative-Research.jpg" alt="Quantitative Research">
+                            <div class="card-body d-flex flex-column">
+                                <h4 class="fs-18 lh-base fw-semibold text-capitalize text-dark-gray">Quantitative Research Certification</h4>
+                                <span class="text-dark-gray mt-auto pt-16 fs-16 lh-125 fw-semibold">View Details <i class="bi bi-chevron-right" aria-hidden="true"></i></span>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="academy-contact-section py-64 py-lg-96">
+    <div class="max-w-1264 mx-auto px-20 w-100">
+        <h2 class="fs-32 fs-xl-50 lh-114 text-capitalize fw-medium text-secondary-subtle mb-35 text-center">Contact <strong><span class="text-atlas-coral">ANA</span></strong></h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 justify-content-center">
+            <div class="col text-center">
+                <img class="rounded-circle" src="https://ir-portal-2.s3.amazonaws.com/opportunities/academy/team/alex-cordell.png" alt="Alex Sloane (Cordell)" width="100" height="100" style="object-fit: cover; margin-bottom: 8px;">
+                <h4 class="fs-16 fw-semibold text-secondary-subtle" style="margin-bottom: 2px;">Alex Sloane (Cordell)</h4>
+                <p class="fs-14 text-secondary-subtle" style="margin-bottom: 2px;">Director of Training</p>
+                <a href="mailto:alex.cordell@atlasnetwork.org" class="fs-14 text-atlas-green text-decoration-none">alex.cordell@atlasnetwork.org</a>
+            </div>
+            <div class="col text-center">
+                <img class="rounded-circle" src="https://ir-portal-2.s3.amazonaws.com/opportunities/academy/team/alex-forni.png" alt="Alexandra Forni" width="100" height="100" style="object-fit: cover; margin-bottom: 8px;">
+                <h4 class="fs-16 fw-semibold text-secondary-subtle" style="margin-bottom: 2px;">Alexandra Forni</h4>
+                <p class="fs-14 text-secondary-subtle" style="margin-bottom: 2px;">Associate Director of Regional 360 Programs</p>
+                <a href="mailto:alex.forni@atlasnetwork.org" class="fs-14 text-atlas-green text-decoration-none">alex.forni@atlasnetwork.org</a>
+            </div>
+            <div class="col text-center">
+                <img class="rounded-circle" src="https://ir-portal-2.s3.amazonaws.com/opportunities/academy/team/kandice-mccall.png" alt="Kandice McCall" width="100" height="100" style="object-fit: cover; margin-bottom: 8px;">
+                <h4 class="fs-16 fw-semibold text-secondary-subtle" style="margin-bottom: 2px;">Kandice McCall</h4>
+                <p class="fs-14 text-secondary-subtle" style="margin-bottom: 2px;">Associate Director of Online Learning</p>
+                <a href="mailto:kandice.mccall@atlasnetwork.org" class="fs-14 text-atlas-green text-decoration-none">kandice.mccall@atlasnetwork.org</a>
+            </div>
+            <div class="col text-center">
+                <img class="rounded-circle" src="https://ir-portal-2.s3.amazonaws.com/opportunities/academy/team/bridget-jordan.png" alt="Bridget Jordan" width="100" height="100" style="object-fit: cover; margin-bottom: 8px;">
+                <h4 class="fs-16 fw-semibold text-secondary-subtle" style="margin-bottom: 2px;">Bridget Jordan</h4>
+                <p class="fs-14 text-secondary-subtle" style="margin-bottom: 2px;">Leadership Programs Manager</p>
+                <a href="mailto:bridget.jordan@atlasnetwork.org" class="fs-14 text-atlas-green text-decoration-none">bridget.jordan@atlasnetwork.org</a>
+            </div>
+            <div class="col text-center">
+                <img class="rounded-circle" src="https://ir-portal-2.s3.amazonaws.com/opportunities/academy/team/mason-lowe.png" alt="Mason Lowe" width="100" height="100" style="object-fit: cover; margin-bottom: 8px;">
+                <h4 class="fs-16 fw-semibold text-secondary-subtle" style="margin-bottom: 2px;">Mason Lowe</h4>
+                <p class="fs-14 text-secondary-subtle" style="margin-bottom: 2px;">Training Associate</p>
+                <a href="mailto:mason.lowe@atlasnetwork.org" class="fs-14 text-atlas-green text-decoration-none">mason.lowe@atlasnetwork.org</a>
+            </div>
+            <div class="col text-center">
+                <img class="rounded-circle" src="https://ir-portal-2.s3.amazonaws.com/opportunities/academy/team/jamie-connors.png" alt="Jamie Connors" width="100" height="100" style="object-fit: cover; margin-bottom: 8px;">
+                <h4 class="fs-16 fw-semibold text-secondary-subtle" style="margin-bottom: 2px;">Jamie Connors</h4>
+                <p class="fs-14 text-secondary-subtle" style="margin-bottom: 2px;">Online Learning Associate</p>
+                <a href="mailto:jamie.connors@atlasnetwork.org" class="fs-14 text-atlas-green text-decoration-none">jamie.connors@atlasnetwork.org</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-64 py-lg-96">
+    <div class="max-w-800 mx-auto px-20 w-100 text-center">
+        <h2 class="fs-32 fs-xl-50 lh-114 text-capitalize fw-medium text-secondary-subtle mb-35">Explore More About<br><strong><span class="text-atlas-coral">Atlas Network</span></strong></h2>
+        <div class="d-flex flex-wrap justify-content-center gap-3">
+            <a href="/grants" class="custom-link hover fw-800 px-20 py-8 text-decoration-none rounded-pill text-atlas-green border-atlas-green text-uppercase d-inline-flex align-items-center border border-2 fs-14 letter-spacing-2">
+                Grants
+                <i class="bi bi-chevron-right ms-2" aria-hidden="true"></i>
+            </a>
+            <a href="/events" class="custom-link hover fw-800 px-20 py-8 text-decoration-none rounded-pill text-atlas-green border-atlas-green text-uppercase d-inline-flex align-items-center border border-2 fs-14 letter-spacing-2">
+                Events
+                <i class="bi bi-chevron-right ms-2" aria-hidden="true"></i>
+            </a>
+            <a href="/awards" class="custom-link hover fw-800 px-20 py-8 text-decoration-none rounded-pill text-atlas-green border-atlas-green text-uppercase d-inline-flex align-items-center border border-2 fs-14 letter-spacing-2">
+                Awards
+                <i class="bi bi-chevron-right ms-2" aria-hidden="true"></i>
+            </a>
+            <a href="/consulting" class="custom-link hover fw-800 px-20 py-8 text-decoration-none rounded-pill text-atlas-green border-atlas-green text-uppercase d-inline-flex align-items-center border border-2 fs-14 letter-spacing-2">
+                Consulting
+                <i class="bi bi-chevron-right ms-2" aria-hidden="true"></i>
+            </a>
+        </div>
+    </div>
+</section>
+
+    </main>
+
+        <footer class="atlas-footer">
+    <div class="atlas-container">
+        <div class="atlas-footer__grid">
+                        <div class="atlas-footer__brand">
+                <a href="/" class="atlas-footer__logo">
+                    <svg width="441" height="148" viewBox="0 0 441 148" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Atlas Network">
+                        <path d="M197.7 62.1h-19.1l-3.7 9.7h-3l14.8-38.1h3l14.8 38.1h-3l-3.8-9.7zm-1-2.7l-8.5-22.2-8.5 22.2h17zM232.9 36.4h-12v35.4H218V36.4h-12v-2.7h26.9v2.7zM261.9 69v2.7H241V33.6h2.9V69h18zM293.1 62.1H274l-3.7 9.7h-3l14.8-38.1h3l14.8 38.1h-3l-3.8-9.7zm-1-2.7l-8.5-22.2-8.5 22.2h17zM304.2 63.4l2.5-1.5c1.3 4.6 5.2 7.7 11.4 7.7 6.4 0 9.6-3.3 9.6-7.6 0-4.6-4-6.3-9.9-8.2-6.4-2.1-12.1-3.9-12.1-10.5 0-6.3 5.1-10.2 11.5-10.2 6.3 0 10.4 3.6 12.3 8l-2.5 1.4c-1.4-3.4-4.4-6.6-9.8-6.6-5.3 0-8.6 3.1-8.6 7.4 0 4.6 3.9 6 9.3 7.8 6.8 2.2 12.6 4.4 12.6 10.9 0 6.3-5 10.5-12.5 10.5-7-.1-12-3.7-13.8-9.1zM203.7 84.5v38.1h-2.6l-22.5-32.8v32.8h-2.9V84.5h2.5l22.5 32.8V84.5h3zM237.3 119.9v2.7h-21.9V84.5H237v2.7h-18.8V102h17.4v2.7h-17.4v15.1h19.1v.1zM270 87.2h-12v35.4h-2.9V87.2h-12v-2.7H270v2.7zM275.2 84.5h3l9.9 34.3 10.6-34.3h3.4l10.7 34.3 9.8-34.3h3l-11.1 38.1H311l-10.7-34.4-10.7 34.4h-3.5l-10.9-38.1zM330.6 103.5c0-10.9 8.7-19.7 19.7-19.7s19.7 8.8 19.7 19.7c0 10.9-8.7 19.7-19.7 19.7s-19.7-8.8-19.7-19.7zm36.4 0c0-9.4-7.4-16.9-16.8-16.9s-16.8 7.5-16.8 16.9c0 9.4 7.4 16.9 16.8 16.9 9.5 0 16.8-7.5 16.8-16.9zM394.3 107h-12v15.6h-2.9V84.5h15c6.2 0 11.3 5.1 11.3 11.3 0 5.2-3.5 9.5-8.4 10.8l9.5 16h-3.3l-9.2-15.6zm-12-2.8h12.1c4.6 0 8.4-3.8 8.4-8.5s-3.8-8.5-8.4-8.5h-12.1v17zM436.9 122.6l-19.1-18.8v18.8h-2.9V84.5h2.9v17.8l18.6-17.8h3.9L421 103l19.8 19.6h-3.9z" fill="currentColor"></path>
+                        <path d="M59.6 94.7c-4.3 10.7-14.9 18.1-27.2 17.7-14.3-.5-26.2-12.2-27-26.5-.9-16.2 12-29.6 28-29.6 13.7 0 25.1 9.9 27.6 22.9.1.4.4.6.8.6h3.9c.5 0 .9-.4.8-.9C63.7 61.9 48.1 49.2 30 51 13.9 52.6 1.1 65.9 0 82c-1.3 19.5 14.2 35.7 33.4 35.7 14.1 0 26.2-8.8 31.1-21.1.2-.4 0-.9-.4-1-1.2-.5-2.4-.9-3.6-1.4-.3-.2-.8.1-.9.5z" fill="#4BA479"></path>
+                        <path d="M40.4 148H2.2c-.8 0-1.1-1.1-.4-1.5 14.8-7.9 19.3-19.2 22.3-24.5.8-1.5 2-1 2 .2-.4 14.5 9.8 21.3 14.7 24.3.7.5.4 1.5-.4 1.5zM149.1 148c.6 0 .9-.8.5-1.2-1.1-1-2-2.2-2.4-3.4L93.8 1c-.2-.6-.8-1-1.5-1H67.1c-.7 0-1.3.4-1.5 1.1l-5.4 16.4c-.7 2.3-.7 4.7.1 7L81.2 80c.8 2-.7 4.2-2.9 4.2H47.4c-.8 0-1 1.2-.2 1.4 16.7 3.7 41.1 13.4 46.4 27.2l11.6 30.2c.5 1.3.3 2.8-.5 3.9-.3.5 0 1.2.6 1.2l43.8-.1z" fill="currentColor"></path>
+                    </svg>
+                </a>
+                <p class="atlas-footer__brandmark" aria-label="Coach. Compete. Celebrate. Registered trademark.">
+                    <span class="atlas-footer__brandmark-word">Coach<span class="atlas-footer__brandmark-dot">.</span></span>
+                    <span class="atlas-footer__brandmark-word">Compete<span class="atlas-footer__brandmark-dot">.</span></span>
+                    <span class="atlas-footer__brandmark-word">Celebrate<span class="atlas-footer__brandmark-dot">.</span><sup class="atlas-footer__brandmark-mark" aria-hidden="true">&reg;</sup></span>
+                </p>
+                <p class="atlas-footer__tagline">
+                    Access grants, training, awards, events, and consulting services for liberty-advancing organizations worldwide.
+                </p>
+
+                                <div class="atlas-social">
+                    <a href="https://www.linkedin.com/company/atlas-economic-research-foundation_2" class="atlas-social__link" aria-label="LinkedIn" target="_blank" rel="noopener">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                    </a>
+                    <a href="https://www.instagram.com/atlasnetwork" class="atlas-social__link" aria-label="Instagram" target="_blank" rel="noopener">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                    </a>
+                    <a href="https://www.youtube.com/atlasnetwork" class="atlas-social__link" aria-label="YouTube" target="_blank" rel="noopener">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
+                    </a>
+                    <a href="https://www.facebook.com/AtlasNetwork" class="atlas-social__link" aria-label="Facebook" target="_blank" rel="noopener">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
+                    </a>
+                    <a href="https://twitter.com/atlasnetwork" class="atlas-social__link" aria-label="Twitter" target="_blank" rel="noopener">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    </a>
+                </div>
+            </div>
+
+                        <div>
+                <h4 class="atlas-footer__title">Funding</h4>
+                <ul class="atlas-footer__links">
+                    <li><a href="/grants">Grants</a></li>
+                    <li><a href="/smart-bets">Smart Bets</a></li>
+                </ul>
+            </div>
+
+                        <div>
+                <h4 class="atlas-footer__title">Development</h4>
+                <ul class="atlas-footer__links">
+                    <li><a href="/academy">Academy</a></li>
+                    <li><a href="/consulting">Consulting</a></li>
+                    <li><a href="/events">Events</a></li>
+                </ul>
+            </div>
+
+                        <div>
+                <h4 class="atlas-footer__title">Get Started</h4>
+                <ul class="atlas-footer__links">
+                    <li><a href="/awards">Awards</a></li>
+                    <li><a href="https://www.applyatlasnetwork.org/signup-auth0">Become a Partner</a></li>
+                    <li><a href="https://www.applyatlasnetwork.org/login-auth0">Partner Sign In</a></li>
+                    <li><a href="https://www.atlasnetwork.org" target="_blank" rel="noopener">atlasnetwork.org</a></li>
+                </ul>
+            </div>
+
+                        <div class="atlas-footer__cta-block">
+                <p class="atlas-footer__cta-tagline">
+                    Strengthening the worldwide freedom movement since 1981.
+                </p>
+                <a href="https://www.applyatlasnetwork.org/signup-auth0" class="atlas-footer__cta-btn">
+                    Become a Partner
+                </a>
+            </div>
+        </div>
+
+                <div class="atlas-footer__wordmark-row" aria-hidden="true">
+            <div class="atlas-footer__wordmark-lockup">
+                <span class="atlas-footer__wordmark-icon">
+                    <svg viewBox="0 0 218 215" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M87.489 136.648c-6.208 15.439-21.511 26.117-39.27 25.54-20.644-.722-37.824-17.604-38.98-38.238-1.299-23.376 17.325-42.712 40.425-42.712 19.778 0 36.237 14.285 39.846 33.044.144.577.578.866 1.155.866h5.63c.722 0 1.3-.578 1.155-1.299-4.042-24.53-26.564-42.856-52.695-40.258-23.244 2.308-41.723 21.5-43.311 44.731-1.877 28.138 20.5 51.514 48.22 51.514 20.356 0 37.825-12.698 44.899-30.447.289-.577 0-1.298-.578-1.443-1.732-.721-3.464-1.298-5.197-2.02-.433-.288-1.155.144-1.3.722zM59.77 213.557H4.62c-1.155 0-1.588-1.587-.578-2.164 21.367-11.4 27.864-27.705 32.195-35.353 1.155-2.164 2.887-1.443 2.887.289-.577 20.923 14.149 30.735 21.223 35.064 1.01.721.577 2.164-.578 2.164z" fill="#2E2F36"/><path d="M216.7 213.557c.867 0 1.3-1.154.722-1.731-1.588-1.443-2.887-3.175-3.465-4.907L136.863 1.443C136.575.577 135.708 0 134.698 0H98.316c-1.01 0-1.877.577-2.165 1.587l-7.796 23.665c-1.01 3.319-1.01 6.782.144 10.1l30.174 80.084c1.155 2.886-1.011 6.061-4.187 6.061h-44.61c-1.156 0-1.444 1.731-.29 2.02 24.11 5.339 59.337 19.335 66.989 39.248l16.747 43.577c.721 1.876.433 4.041-.722 5.628-.433.721 0 1.731.866 1.731l63.234-.144z" fill="#2E2F36"/></svg>
+                </span>
+                <span class="atlas-footer__wordmark">Atlas</span>
+            </div>
+        </div>
+
+                <div class="atlas-footer__bottom">
+            <p class="atlas-footer__copyright">
+                &copy; 2026 Atlas Network. All rights reserved. Tax ID: 94-2763845
+            </p>
+            <div class="atlas-footer__bottom-right">
+                <a href="https://www.atlasnetwork.org/pages/privacy-policy" target="_blank" class="atlas-footer__legal-link">Privacy Policy</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+        <script src="/vendor/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <script>
+    (function() {
+        var cards = document.querySelectorAll('.academy-card');
+        var buttons = document.querySelectorAll('#categoryFilter button[data-filter]');
+        var select = document.getElementById('mobileCategorySelect');
+
+        function filterCards(category) {
+            cards.forEach(function(card) {
+                var match = category === 'all' || card.dataset.category === category;
+                if (match) {
+                    card.classList.remove('academy-card--hidden');
+                    card.classList.add('academy-card--visible');
+                } else {
+                    card.classList.remove('academy-card--visible');
+                    card.classList.add('academy-card--hidden');
+                }
+            });
+        }
+
+        function setActiveButton(category) {
+            buttons.forEach(function(btn) {
+                var isActive = btn.dataset.filter === category;
+                btn.classList.toggle('active', isActive);
+                btn.setAttribute('aria-selected', isActive);
+            });
+        }
+
+        // Desktop sidebar buttons
+        buttons.forEach(function(btn) {
+            btn.addEventListener('click', function() {
+                var category = this.dataset.filter;
+                setActiveButton(category);
+                filterCards(category);
+                if (select) select.value = category;
+            });
+        });
+
+        // Mobile select
+        if (select) {
+            select.addEventListener('change', function() {
+                var category = this.value;
+                setActiveButton(category);
+                filterCards(category);
+            });
+        }
+
+        // Initialize all as visible
+        cards.forEach(function(card) {
+            card.classList.add('academy-card--visible');
+        });
+    })();
+
+</script>
+
+    <script>
+        document.documentElement.classList.remove('is-loading');
+
+        // Mobile nav toggle
+        (function() {
+            var toggle = document.querySelector('.atlas-menu-toggle');
+            var nav = document.querySelector('.atlas-nav');
+            if (toggle && nav) {
+                toggle.addEventListener('click', function() {
+                    nav.classList.toggle('is-open');
+                    var isOpen = nav.classList.contains('is-open');
+                    toggle.setAttribute('aria-expanded', isOpen);
+                    toggle.setAttribute('aria-label', isOpen ? 'Close menu' : 'Toggle menu');
+                });
+            }
+        })();
+
+    </script>
+</body>
+</html>

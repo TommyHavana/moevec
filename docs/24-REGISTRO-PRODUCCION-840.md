@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-30T16:15:42+00:00.
+Comprobado en WordPress: 2026-10-30T21:09:29+00:00.
 
-**447/840 terminadas · 0 en curso · 393 pendientes.**
+**450/840 terminadas · 0 en curso · 390 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -459,9 +459,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 445 | 30/56 · 10/15 | E3.2.10 | Del mérito a la inversión: cómo la reputación abre puertas al capital | terminada | 3/3 | [Leer](https://moevec.org/blog/merito-reputacion-capital/) |
 | 446 | 30/56 · 11/15 | E3.2.11 | Cómo construir tu historial de aportes en MEE | terminada | 3/3 | [Leer](https://moevec.org/blog/construir-historial-de-aportes/) |
 | 447 | 30/56 · 12/15 | E3.2.12 | Reconocimiento sin dinero: insignias, menciones y confianza | terminada | 3/3 | [Leer](https://moevec.org/blog/reconocimiento-sin-dinero/) |
-| 448 | 30/56 · 13/15 | E3.2.13 | Becas y concursos por mérito: oportunidades para jóvenes de la región | pendiente | 0/3 | — |
-| 449 | 30/56 · 14/15 | E3.2.14 | Moderación justa: cómo debe una comunidad castigar el abuso | pendiente | 0/3 | — |
-| 450 | 30/56 · 15/15 | E3.2.15 | Rankings mensuales: cómo evitar que el ranking se coma la comunidad | pendiente | 0/3 | — |
+| 448 | 30/56 · 13/15 | E3.2.13 | Becas y concursos por mérito: oportunidades para jóvenes de la región | terminada | 3/3 | [Leer](https://moevec.org/blog/becas-y-concursos-por-merito/) |
+| 449 | 30/56 · 14/15 | E3.2.14 | Moderación justa: cómo debe una comunidad castigar el abuso | terminada | 3/3 | [Leer](https://moevec.org/blog/moderacion-justa/) |
+| 450 | 30/56 · 15/15 | E3.2.15 | Rankings mensuales: cómo evitar que el ranking se coma la comunidad | terminada | 3/3 | [Leer](https://moevec.org/blog/rankings-mensuales-comunidad/) |
 | 451 | 31/56 · 1/15 | E3.3.01 | Accesibilidad: participar no debería depender de tu conexión | pendiente | 0/3 | — |
 | 452 | 31/56 · 2/15 | E3.3.02 | Lenguaje claro: escribir para que te entienda cualquiera | pendiente | 0/3 | — |
 | 453 | 31/56 · 3/15 | E3.3.03 | Accesibilidad web: qué son las pautas WCAG y por qué importan | pendiente | 0/3 | — |

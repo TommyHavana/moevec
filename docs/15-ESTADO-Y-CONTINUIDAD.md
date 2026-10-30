@@ -2,27 +2,27 @@
 
 ## Estado actual
 
-**447/840 terminadas, 1341 imágenes originales públicas, 0 en curso o borradores WordPress y 393 pendientes**. Mérito por Aporte 12/15; 29 tandas completas y tanda 30 en curso.
+**450/840 terminadas, 1350 imágenes originales públicas, 0 en curso o borradores WordPress y 390 pendientes**. Mérito por Aporte 15/15; 30 tandas completas y tanda 30 completa.
 
 Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Desde 444: entradas 445–447, 9 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
+Desde 447: entradas 448–450, 9 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
 
 Una publicación y tres adjuntos por ID; categorías Comunidad y Mérito por Aporte, etiquetas exactas. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales y variantes comprobados. Navegación y BreadcrumbList: Blog → área → subcategoría. Taxonomía: 122 nodos, siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva o posicionamiento.
 
 ## Revisión del último bloque
 
-Financiación: Spence1973, introducción escaneada leída, analogía limitada; CNMV normativa actual, sin umbrales o reglas no consultadas; MEE inversión solo idea. Historial: normas y contacto publicados, sin perfiles o puntos disponibles ni aceptación automática. Reconocimiento: Amabile/Kramer2011 mediante entrevista y extracto HBS, no libro íntegro; Gallup2026 dato2025, gráfico20% y método, sin causalidad de insignias o sustitución de pagos. Nueve originales revisados, estrella de ocho puntas. Original Gallup completo fuera deGit, extracto conSHA/ubicación. Recuperados122775498bytes de131paquetes temporales de transporte, todos sus miembros cotejados con activa y privada, sin tocar fuentes, originales o respaldos.
+Becas: Euroculture2027–2029 con cierre15/01/2027, AtlasLeaderLab como formación especializada y Carolina2026–2027cerrada, sin elegibilidad universal ni promesas. Moderación: SantaClara2.0 como recomendaciones, OstromNobel2009p14–16 como analogía al trabajo1990, normas MEE en preparación. Rankings: Koivisto/Hamari2019resumen y presentación autoral, reglas propias StackOverflow y barnstarsWikipedia distintas, sin causalidad de menor toxicidad o sistema MEE operativo. Nueve originales revisados; dos interiores recuperados del resultado original de herramienta, sin regeneración. Espacio suficiente comprobado al retomar; ninguna copia u original eliminado.
 
 ## Continuación exacta
 
-Siguiente **448–450 / E3.2.13–E3.2.15**, Comunidad → Mérito por Aporte. Preparaciones incluidas en las 393 pendientes. E3.2.13: 0/3 imágenes locales; sin texto final, sin publicación; E3.2.14: 0/3 imágenes locales; sin texto final, sin publicación; E3.2.15: 0/3 imágenes locales; sin texto final, sin publicación. Después 451–453. Automatización activa, sin agotamiento comunicado.
+Siguiente **451–453 / E3.3.01–E3.3.03**, Comunidad → Accesibilidad. Preparaciones incluidas en las 390 pendientes. E3.3.01: 0/3 imágenes locales; sin texto final, sin publicación; E3.3.02: 0/3 imágenes locales; sin texto final, sin publicación; E3.3.03: 0/3 imágenes locales; sin texto final, sin publicación. Después 454–456. Automatización activa, sin agotamiento comunicado.
 
 ## Copias y límites
 
-Respaldo VPS hasta 447: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
+Respaldo VPS hasta 450: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
 
 ## Traspaso
 
@@ -43,6 +43,7 @@ Verificación: `npm run build` con sincronización y TypeScript correctos; PHP l
 Publicación: fuente privada sincronizada y subida, commit de producto `1d84a45`. Actualización de la exportación estática en el contenedor Nginx activo y de los dos archivos WordPress, tanto en la ruta operativa como en `/opt/mee/`. No se reconstruyeron imágenes Docker ni se reiniciaron servicios; un siguiente build del repositorio incluye los cambios. Respaldo previo local completo: `../mee-backups/MEE_Codex_2026-10-29_183813.zip` (7657 archivos, integridad comprobada). Copia previa de React y de los archivos WordPress en `/data/mee-backups/apoyo-20261029T184226/`, gzip comprobado. No se ha probado una restauración arrancada de esta copia.
 
 Siguiente paso de esta petición: concretar el medio de donación y sus datos oficiales para activar pago directo. La producción editorial mantiene su continuidad independiente; esta tarea no modifica sus conteos, artículos, imágenes ni taxonomía.
+
 
 
 
