@@ -1,6 +1,6 @@
 # Backlog de MEE
 
-Último estado: **366/840 terminadas, 1098 imágenes originales públicas, 0 en curso o borradores WordPress y 474 pendientes**. Iniciativa 6/15; 24 tandas completas. Producidas consecutivamente 358–366 desde 357. Siguiente **367–369 / E1.6.07–E1.6.09**, Educación y Valores → Iniciativa. Briefs originales y pistas guardados; 0/3 imágenes por entrada, sin texto final, investigación verificada ni publicación. Incluidas en las 474 pendientes. Reanudar fuentes y crear originales, sin duplicar recursos. Después 370–372. Automatización activa; no se ha comunicado agotamiento de generación.
+Último estado: **375/840 terminadas, 1125 imágenes originales públicas, 0 en curso o borradores WordPress y 465 pendientes**. Iniciativa 15/15; 25 tandas completas. Producidas consecutivamente 367–375 desde 366. Siguiente **376–378 / E1.8.01–E1.8.03**, Educación y Valores → Justicia, tanda 26/56. Briefs originales conservados; 0/3 imágenes por entrada, fuentes sin verificar y sin texto final o publicación. Incluidas en las 465 pendientes. Reanudar investigación y crear originales sin duplicar recursos. Después 379–381. Automatización activa; sin agotamiento comunicado.
 
 
 Historial anterior: producción comprobada tras el bloque 4–6: 6/840 terminadas. En elaboración local: 7–9 con nueve imágenes propias; todavía no cuentan como publicadas. Consultar siempre WordPress y el registro 24 para el estado más reciente.

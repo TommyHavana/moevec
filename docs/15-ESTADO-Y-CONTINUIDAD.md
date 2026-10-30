@@ -2,27 +2,27 @@
 
 ## Estado actual
 
-**366/840 terminadas, 1098 imágenes originales públicas, 0 en curso o borradores WordPress y 474 pendientes**. Iniciativa 6/15; 24 tandas completas y tanda 25 en curso.
+**375/840 terminadas, 1125 imágenes originales públicas, 0 en curso o borradores WordPress y 465 pendientes**. Iniciativa 15/15; 25 tandas completas y tanda 25 completa.
 
 Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Desde 357: entradas 358–366, 27 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
+Desde 366: entradas 367–375, 27 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
 
 Una publicación y tres adjuntos por ID; categorías Educación y Valores y Iniciativa, etiquetas exactas. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales y variantes comprobados. Navegación y BreadcrumbList: Blog → área → subcategoría. Taxonomía: 122 nodos, siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva o posicionamiento.
 
 ## Revisión del último bloque
 
-364: la teoría de las perspectivas no establece una proporción universal entre pérdidas y ganancias ni un diagnóstico. GEM conserva el denominador de adultos que perciben oportunidades. 365: recuperación y espaciado se presentan con tareas y plazos; OpenLearn distingue materiales descargables de actividades en línea y sus constancias no aportan créditos formales. 366: los motivos de GEM pueden coexistir. La tasa de informalidad de la OIT corresponde al agregado de 15 países en 2025; empleo y sector informal son conceptos diferentes. El ILD se cita como relato institucional histórico, sin prometer crecimiento o financiación.
+373: GEM 2025 por sexo sin inferir crecimiento de TEA/EBO; Findex 2024 con brecha de ocho puntos de uso de crédito formal entre titulares de cuentas, sin rechazo causal; WBL 2026 distingue índices y percepciones. 374: artículo Azoulay 2020 y preprint 2018 diferenciados, media 45 entre el grupo de 1/1000 de mayor crecimiento estadounidense, sin edad óptima ni garantía individual. 375: plan original MEE de doce semanas, CSV público de doce filas y ocho columnas, sin macros o fórmulas; primera venta como objetivo posible, no plazo garantizado.
 
 ## Continuación exacta
 
-Siguiente **367–369 / E1.6.07–E1.6.09**, Educación y Valores → Iniciativa. Briefs originales y pistas guardados; 0/3 imágenes por entrada, sin texto final, investigación verificada ni publicación. Incluidas en las 474 pendientes. Reanudar fuentes y crear originales, sin duplicar recursos. Después 370–372. Automatización activa; no se ha comunicado agotamiento de generación.
+Siguiente **376–378 / E1.8.01–E1.8.03**, Educación y Valores → Justicia, tanda 26/56. Briefs originales conservados; 0/3 imágenes por entrada, fuentes sin verificar y sin texto final o publicación. Incluidas en las 465 pendientes. Reanudar investigación y crear originales sin duplicar recursos. Después 379–381. Automatización activa; sin agotamiento comunicado.
 
 ## Copias y límites
 
-Respaldo VPS hasta 366: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
+Respaldo VPS hasta 375: SQL completo y 67 archivos nuevos de Medios, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
 
 ## Traspaso
 
@@ -43,6 +43,9 @@ Verificación: `npm run build` con sincronización y TypeScript correctos; PHP l
 Publicación: fuente privada sincronizada y subida, commit de producto `1d84a45`. Actualización de la exportación estática en el contenedor Nginx activo y de los dos archivos WordPress, tanto en la ruta operativa como en `/opt/mee/`. No se reconstruyeron imágenes Docker ni se reiniciaron servicios; un siguiente build del repositorio incluye los cambios. Respaldo previo local completo: `../mee-backups/MEE_Codex_2026-10-29_183813.zip` (7657 archivos, integridad comprobada). Copia previa de React y de los archivos WordPress en `/data/mee-backups/apoyo-20261029T184226/`, gzip comprobado. No se ha probado una restauración arrancada de esta copia.
 
 Siguiente paso de esta petición: concretar el medio de donación y sus datos oficiales para activar pago directo. La producción editorial mantiene su continuidad independiente; esta tarea no modifica sus conteos, artículos, imágenes ni taxonomía.
+
+
+
 
 
 

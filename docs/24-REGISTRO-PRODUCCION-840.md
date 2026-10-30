@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-30T06:33:47+00:00.
+Comprobado en WordPress: 2026-10-30T07:43:30+00:00.
 
-**366/840 terminadas · 0 en curso · 474 pendientes.**
+**375/840 terminadas · 0 en curso · 465 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -378,15 +378,15 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 364 | 25/56 · 4/15 | E1.6.04 | El miedo a empezar: qué dice la psicología y qué dicen los datos | terminada | 3/3 | [Leer](https://moevec.org/blog/miedo-a-empezar/) |
 | 365 | 25/56 · 5/15 | E1.6.05 | Aprender a aprender: la iniciativa más rentable | terminada | 3/3 | [Leer](https://moevec.org/blog/aprender-a-aprender/) |
 | 366 | 25/56 · 6/15 | E1.6.06 | Emprender por necesidad o por oportunidad: dos caminos distintos | terminada | 3/3 | [Leer](https://moevec.org/blog/emprender-necesidad-oportunidad/) |
-| 367 | 25/56 · 7/15 | E1.6.07 | Destrucción creativa: por qué la innovación da miedo y aun así nos enriquece | pendiente | 0/3 | — |
-| 368 | 25/56 · 8/15 | E1.6.08 | El sesgo de supervivencia: lo que no te cuentan las historias de éxito | pendiente | 0/3 | — |
-| 369 | 25/56 · 9/15 | E1.6.09 | Iniciativa en entornos hostiles: lecciones del emprendimiento cubano | pendiente | 0/3 | — |
-| 370 | 25/56 · 10/15 | E1.6.10 | Financiar la iniciativa: ahorro, familia, microcrédito y socios | pendiente | 0/3 | — |
-| 371 | 25/56 · 11/15 | E1.6.11 | Diez oficios digitales que se aprenden con poco ancho de banda | pendiente | 0/3 | — |
-| 372 | 25/56 · 12/15 | E1.6.12 | Cómo validar una idea de negocio sin gastar casi nada | pendiente | 0/3 | — |
-| 373 | 25/56 · 13/15 | E1.6.13 | Mujeres emprendedoras en América Latina: datos y barreras | pendiente | 0/3 | — |
-| 374 | 25/56 · 14/15 | E1.6.14 | Iniciativa a los 50: nunca es tarde para capitalizarse | pendiente | 0/3 | — |
-| 375 | 25/56 · 15/15 | E1.6.15 | Primer proyecto: guía de 12 semanas de la idea a la primera venta | pendiente | 0/3 | — |
+| 367 | 25/56 · 7/15 | E1.6.07 | Destrucción creativa: por qué la innovación da miedo y aun así nos enriquece | terminada | 3/3 | [Leer](https://moevec.org/blog/destruccion-creativa-schumpeter/) |
+| 368 | 25/56 · 8/15 | E1.6.08 | El sesgo de supervivencia: lo que no te cuentan las historias de éxito | terminada | 3/3 | [Leer](https://moevec.org/blog/sesgo-de-supervivencia/) |
+| 369 | 25/56 · 9/15 | E1.6.09 | Iniciativa en entornos hostiles: lecciones del emprendimiento cubano | terminada | 3/3 | [Leer](https://moevec.org/blog/iniciativa-entornos-hostiles-cuba/) |
+| 370 | 25/56 · 10/15 | E1.6.10 | Financiar la iniciativa: ahorro, familia, microcrédito y socios | terminada | 3/3 | [Leer](https://moevec.org/blog/financiar-la-iniciativa/) |
+| 371 | 25/56 · 11/15 | E1.6.11 | Diez oficios digitales que se aprenden con poco ancho de banda | terminada | 3/3 | [Leer](https://moevec.org/blog/oficios-digitales-poco-ancho-de-banda/) |
+| 372 | 25/56 · 12/15 | E1.6.12 | Cómo validar una idea de negocio sin gastar casi nada | terminada | 3/3 | [Leer](https://moevec.org/blog/validar-idea-de-negocio/) |
+| 373 | 25/56 · 13/15 | E1.6.13 | Mujeres emprendedoras en América Latina: datos y barreras | terminada | 3/3 | [Leer](https://moevec.org/blog/mujeres-emprendedoras-america-latina/) |
+| 374 | 25/56 · 14/15 | E1.6.14 | Iniciativa a los 50: nunca es tarde para capitalizarse | terminada | 3/3 | [Leer](https://moevec.org/blog/iniciativa-a-los-50/) |
+| 375 | 25/56 · 15/15 | E1.6.15 | Primer proyecto: guía de 12 semanas de la idea a la primera venta | terminada | 3/3 | [Leer](https://moevec.org/blog/guia-12-semanas-primera-venta/) |
 | 376 | 26/56 · 1/15 | E1.8.01 | Qué es la justicia para MEE: reglas iguales, no resultados iguales | pendiente | 0/3 | — |
 | 377 | 26/56 · 2/15 | E1.8.02 | Ley natural: la idea de que hay derechos anteriores al Estado | pendiente | 0/3 | — |
 | 378 | 26/56 · 3/15 | E1.8.03 | El Estado de derecho: por qué importa más que el gobierno de turno | pendiente | 0/3 | — |

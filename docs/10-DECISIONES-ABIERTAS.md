@@ -903,3 +903,33 @@ Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobad
 Siguiente **367–369 / E1.6.07–E1.6.09**, Educación y Valores → Iniciativa. Preparaciones incluidas en las 474 pendientes. E1.6.07: 0/3 imágenes locales; sin texto final, sin publicación; E1.6.08: 0/3 imágenes locales; sin texto final, sin publicación; E1.6.09: 0/3 imágenes locales; sin texto final, sin publicación. Después 370–372. Automatización activa, sin agotamiento comunicado.
 
 Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 367–369 · 30/10/2026
+
+369/840 terminadas, 1107 imágenes originales públicas, 0 en curso o borradores WordPress y 471 pendientes.
+
+367: Schumpeter por extracto del capítulo VII; Nobel 2025 con galardonados y mitades correctas, sin saldo laboral universal. 368: Wald 1943 en reimpresión CNA 1980, sin mapa de impactos histórico; BLS misma cohorte marzo 2016, 79,6 % al año, 50,7 % a cinco años y 34,2 % a diez, corte marzo 2026, establecimientos y revisiones. 369: DL 133/2026 y Decreto 160/2026 frente al marco histórico de 2021; oferta propia de CicloEcoPapel sin ingresos auditados; ONEI sin cifra actual por fallo TLS y Constitución de 2019 citada como formulación histórica.
+
+Siguiente **370–372 / E1.6.10–E1.6.12**, Educación y Valores → Iniciativa. Preparaciones incluidas en las 471 pendientes. E1.6.10: 2/3 imágenes locales; sin texto final, sin publicación; E1.6.11: 0/3 imágenes locales; sin texto final, sin publicación; E1.6.12: 0/3 imágenes locales; sin texto final, sin publicación. Después 373–375. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 370–372 · 30/10/2026
+
+372/840 terminadas, 1116 imágenes originales públicas, 0 en curso o borradores WordPress y 468 pendientes.
+
+370: seis ensayos de acceso a microcrédito, efectos medios y límites de potencia; SEC como guía educativa estadounidense y ROSCA como modelo, sin producto o contrato recomendado. 371: diez propuestas prácticas, recursos españoles LibreOffice y descargas Python sin PDF precompilado; BLS proyección 5 % en EEUU para 2025–2035, sin empleo garantizado. 372: Ries por exposición oficial y Fitzpatrick por presentación del autor, preguntas y plan MEE; compromisos de preventa diferenciados y FTC como ejemplo de EEUU, sin norma universal.
+
+Siguiente **373–375 / E1.6.13–E1.6.15**, Educación y Valores → Iniciativa. Preparaciones incluidas en las 468 pendientes. E1.6.13: 2/3 imágenes locales; sin texto final, sin publicación; E1.6.14: 0/3 imágenes locales; sin texto final, sin publicación; E1.6.15: 0/3 imágenes locales; sin texto final, sin publicación. Después 376–378. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 373–375 · 30/10/2026
+
+375/840 terminadas, 1125 imágenes originales públicas, 0 en curso o borradores WordPress y 465 pendientes.
+
+373: GEM 2025 por sexo sin inferir crecimiento de TEA/EBO; Findex 2024 con brecha de ocho puntos de uso de crédito formal entre titulares de cuentas, sin rechazo causal; WBL 2026 distingue índices y percepciones. 374: artículo Azoulay 2020 y preprint 2018 diferenciados, media 45 entre el grupo de 1/1000 de mayor crecimiento estadounidense, sin edad óptima ni garantía individual. 375: plan original MEE de doce semanas, CSV público de doce filas y ocho columnas, sin macros o fórmulas; primera venta como objetivo posible, no plazo garantizado.
+
+Siguiente **376–378 / E1.8.01–E1.8.03**, Educación y Valores → Justicia. Preparaciones incluidas en las 465 pendientes. E1.8.01: 0/3 imágenes locales; sin texto final, sin publicación; E1.8.02: 0/3 imágenes locales; sin texto final, sin publicación; E1.8.03: 0/3 imágenes locales; sin texto final, sin publicación. Después 379–381. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.

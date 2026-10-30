@@ -1,0 +1,23 @@
+{
+  "checked_on": "2026-10-30",
+  "method": "Lectura con herramienta web; descarga directa curl 403 conservada por separado. No se presenta este resumen como archivo original del BLS.",
+  "sources": [
+    {
+      "url": "https://www.bls.gov/bdm/us_age_naics_00_table7.txt",
+      "scope": "Tabla 7 Total Private, cohorte año terminado en marzo de 2016, observación marzo de cada año; filas 588–598 de la lectura web.",
+      "observations": [
+        {"march": 2016, "establishments": 732856, "survival_percent": 100.0},
+        {"march": 2017, "establishments": 583649, "survival_percent": 79.6},
+        {"march": 2021, "establishments": 371334, "survival_percent": 50.7},
+        {"march": 2026, "establishments": 250661, "survival_percent": 34.2}
+      ],
+      "limits": "Misma cohorte, datos revisables; establecimientos privados, no empresas/personas ni rentabilidad, no causalidad ni probabilidad personal. No se usan 34.7/51.4 de versiones antiguas o fuentes secundarias."
+    },
+    {
+      "url": "https://www.bls.gov/bdm/bdmfaq.htm",
+      "scope": "Apartados fuentes, cobertura, exclusiones y enlaces longitudinales; informes administrativos QCEW de seguro de desempleo, exclusión principal de trabajadores por cuenta propia y otras categorías.",
+      "last_modified_on_page": "2025-05-07",
+      "limits": "No afirmar que cierra toda la empresa, que el propietario fracasó o que sobreviviendo hay beneficio."
+    }
+  ]
+}
