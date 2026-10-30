@@ -1113,3 +1113,23 @@ Influencers: FTC 2019 y guías revisadas 2023, código AUTOCONTROL/aea/IAB 2025,
 Siguiente **430–432 / E3.1.10–E3.1.12**, Comunidad → Interés Transparente. Preparaciones incluidas en las 411 pendientes. E3.1.10: 0/3 imágenes locales; sin texto final, sin publicación; E3.1.11: 0/3 imágenes locales; sin texto final, sin publicación; E3.1.12: 0/3 imágenes locales; sin texto final, sin publicación. Después 433–435. Automatización activa, sin agotamiento comunicado.
 
 Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 430–432 · 30/10/2026
+
+432/840 terminadas, 1296 imágenes originales públicas, 0 en curso o borradores WordPress y 408 pendientes.
+
+Financiación: Transparify y revisión Cochrane 2017 con límite clínico y búsquedas hasta 2015; patrocinio no equivale a falsedad. Acuerdo: ficha educativa propia y Harvard, sin garantía contractual o de evitar la mayoría de conflictos. Presentación: Grant 2013, capítulo pertinente y entrevista, sin éxito asegurado ni reciprocidad forzosa. Nueve originales propios inspeccionados.
+
+Siguiente **433–435 / E3.1.13–E3.1.15**, Comunidad → Interés Transparente. Preparaciones incluidas en las 408 pendientes. E3.1.13: 0/3 imágenes locales; sin texto final, sin publicación; E3.1.14: 0/3 imágenes locales; sin texto final, sin publicación; E3.1.15: 0/3 imágenes locales; sin texto final, sin publicación. Después 436–438. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 433–435 · 30/10/2026
+
+435/840 terminadas, 1305 imágenes originales públicas, 0 en curso o borradores WordPress y 405 pendientes.
+
+Transparencia MEE: firma editorial y asistencia de IA declaradas; normas del proyecto y páginas públicas, sin inventar donantes, cuentas auditadas o revisión humana independiente. Familia: Stone, Patton y Heen con alcance de presentación institucional, diferencias materiales y límites, sin garantía de acuerdo o asesoramiento legal. Grupos: CNMV 11/04/2025 e INCIBE, señales y verificación diferenciadas de acusaciones; fallos de descarga documentados. Nueve originales propios inspeccionados.
+
+Siguiente **436–438 / E3.2.01–E3.2.03**, Comunidad → Mérito por Aporte. Preparaciones incluidas en las 405 pendientes. E3.2.01: 0/3 imágenes locales; sin texto final, sin publicación; E3.2.02: 0/3 imágenes locales; sin texto final, sin publicación; E3.2.03: 0/3 imágenes locales; sin texto final, sin publicación. Después 439–441. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.

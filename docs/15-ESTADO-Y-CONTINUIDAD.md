@@ -2,27 +2,27 @@
 
 ## Estado actual
 
-**429/840 terminadas, 1287 imágenes originales públicas, 0 en curso o borradores WordPress y 411 pendientes**. Interés Transparente 9/15; 28 tandas completas y tanda 29 en curso.
+**435/840 terminadas, 1305 imágenes originales públicas, 0 en curso o borradores WordPress y 405 pendientes**. Interés Transparente 15/15; 29 tandas completas.
 
 Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Desde 420: entradas 421–429, 27 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
+Desde 429: entradas 430–435, 18 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
 
 Una publicación y tres adjuntos por ID; categorías Comunidad y Interés Transparente, etiquetas exactas. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales y variantes comprobados. Navegación y BreadcrumbList: Blog → área → subcategoría. Taxonomía: 122 nodos, siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva o posicionamiento.
 
 ## Revisión del último bloque
 
-Influencers: FTC 2019 y guías revisadas 2023, código AUTOCONTROL/aea/IAB 2025, ESMA difundida enero 2026 (edición 2025) y CNMV abril 2026; publicidad, recomendación y asesoramiento diferenciados. Cooperación: Smith 1759 y lectura pertinente de Ostrom 2009, sin éxito universal o legitimación de todas las posiciones. Acceso: España Ley 19/2013, México nueva ley vigente 20/03/2025 y Chile Ley 20.285, límites y competencias propios; RTI mide marco jurídico, no implementación. Nueve originales propios, recortes, alt y pies inspeccionados.
+Transparencia MEE: firma editorial y asistencia de IA declaradas; normas del proyecto y páginas públicas, sin inventar donantes, cuentas auditadas o revisión humana independiente. Familia: Stone, Patton y Heen con alcance de presentación institucional, diferencias materiales y límites, sin garantía de acuerdo o asesoramiento legal. Grupos: CNMV 11/04/2025 e INCIBE, señales y verificación diferenciadas de acusaciones; fallos de descarga documentados. Nueve originales propios inspeccionados.
 
 ## Continuación exacta
 
-Siguiente **430–432 / E3.1.10–E3.1.12**, Comunidad → Interés Transparente, tanda 29/56, entradas 10–12/15. Briefs y preguntas de investigación conservados: financiación de informes, acuerdo de colaboración y presentación en una comunidad. 0/3 imágenes por entrada, fuentes sin verificar, sin texto final ni publicación. Incluidas entre las 411 pendientes. Después 433–435. Autorización de producción y automatización activas; no se ha comunicado agotamiento de generación.
+Siguiente **436–438 / E3.2.01–E3.2.03**, Comunidad → Mérito por Aporte, tanda 30/56, entradas 1–3/15. Briefs y preguntas de investigación conservados: mérito verificable, historia de la meritocracia y sistemas de reputación. 0/3 imágenes por entrada, fuentes sin verificar, sin texto final ni publicación. Incluidas entre las 405 pendientes. Después 439–441. Autorización y automatización activas; sin agotamiento de generación comunicado.
 
 ## Copias y límites
 
-Respaldo VPS hasta 429: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
+Respaldo VPS hasta 435: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
 
 ## Traspaso
 
@@ -43,6 +43,8 @@ Verificación: `npm run build` con sincronización y TypeScript correctos; PHP l
 Publicación: fuente privada sincronizada y subida, commit de producto `1d84a45`. Actualización de la exportación estática en el contenedor Nginx activo y de los dos archivos WordPress, tanto en la ruta operativa como en `/opt/mee/`. No se reconstruyeron imágenes Docker ni se reiniciaron servicios; un siguiente build del repositorio incluye los cambios. Respaldo previo local completo: `../mee-backups/MEE_Codex_2026-10-29_183813.zip` (7657 archivos, integridad comprobada). Copia previa de React y de los archivos WordPress en `/data/mee-backups/apoyo-20261029T184226/`, gzip comprobado. No se ha probado una restauración arrancada de esta copia.
 
 Siguiente paso de esta petición: concretar el medio de donación y sus datos oficiales para activar pago directo. La producción editorial mantiene su continuidad independiente; esta tarea no modifica sus conteos, artículos, imágenes ni taxonomía.
+
+
 
 
 

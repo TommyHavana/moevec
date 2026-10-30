@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-30T13:50:28+00:00.
+Comprobado en WordPress: 2026-10-30T14:33:31+00:00.
 
-**429/840 terminadas · 0 en curso · 411 pendientes.**
+**435/840 terminadas · 0 en curso · 405 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -441,12 +441,12 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 427 | 29/56 · 7/15 | E3.1.07 | Influencers y publicidad encubierta: interés no declarado | terminada | 3/3 | [Leer](https://moevec.org/blog/influencers-publicidad-encubierta/) |
 | 428 | 29/56 · 8/15 | E3.1.08 | Cooperar con quien piensa distinto: intereses comunes | terminada | 3/3 | [Leer](https://moevec.org/blog/cooperar-con-quien-piensa-distinto/) |
 | 429 | 29/56 · 9/15 | E3.1.09 | Transparencia pública: leyes de acceso a la información | terminada | 3/3 | [Leer](https://moevec.org/blog/leyes-acceso-a-la-informacion/) |
-| 430 | 29/56 · 10/15 | E3.1.10 | Intereses ocultos en el debate económico: ¿quién financia a quién? | pendiente | 0/3 | — |
-| 431 | 29/56 · 11/15 | E3.1.11 | Plantilla de acuerdo de colaboración: qué pongo, qué espero | pendiente | 0/3 | — |
-| 432 | 29/56 · 12/15 | E3.1.12 | Cómo presentarte en una comunidad: decir qué buscas sin vergüenza | pendiente | 0/3 | — |
-| 433 | 29/56 · 13/15 | E3.1.13 | Transparencia en MEE: quién escribe, quién financia y cómo decidimos | pendiente | 0/3 | — |
-| 434 | 29/56 · 14/15 | E3.1.14 | Intereses en la familia: hablar claro también en casa | pendiente | 0/3 | — |
-| 435 | 29/56 · 15/15 | E3.1.15 | Detectar manipulación en grupos de WhatsApp y Facebook | pendiente | 0/3 | — |
+| 430 | 29/56 · 10/15 | E3.1.10 | Intereses ocultos en el debate económico: ¿quién financia a quién? | terminada | 3/3 | [Leer](https://moevec.org/blog/quien-financia-a-quien/) |
+| 431 | 29/56 · 11/15 | E3.1.11 | Plantilla de acuerdo de colaboración: qué pongo, qué espero | terminada | 3/3 | [Leer](https://moevec.org/blog/plantilla-acuerdo-colaboracion/) |
+| 432 | 29/56 · 12/15 | E3.1.12 | Cómo presentarte en una comunidad: decir qué buscas sin vergüenza | terminada | 3/3 | [Leer](https://moevec.org/blog/presentarte-en-una-comunidad/) |
+| 433 | 29/56 · 13/15 | E3.1.13 | Transparencia en MEE: quién escribe, quién financia y cómo decidimos | terminada | 3/3 | [Leer](https://moevec.org/blog/transparencia-en-mee/) |
+| 434 | 29/56 · 14/15 | E3.1.14 | Intereses en la familia: hablar claro también en casa | terminada | 3/3 | [Leer](https://moevec.org/blog/intereses-en-la-familia/) |
+| 435 | 29/56 · 15/15 | E3.1.15 | Detectar manipulación en grupos de WhatsApp y Facebook | terminada | 3/3 | [Leer](https://moevec.org/blog/detectar-manipulacion-en-grupos/) |
 | 436 | 30/56 · 1/15 | E3.2.01 | Mérito por aporte: reconocer lo que ayuda, no lo que se aparenta | pendiente | 0/3 | — |
 | 437 | 30/56 · 2/15 | E3.2.02 | Meritocracia: historia de una palabra polémica | pendiente | 0/3 | — |
 | 438 | 30/56 · 3/15 | E3.2.03 | Reputación digital: cómo funcionan los sistemas de puntos | pendiente | 0/3 | — |
