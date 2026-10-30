@@ -1,0 +1,660 @@
+Browser-level image lazy loading for the web  |  Articles  |  web.dev
+Skip to main content
+Resources
+Web Platform
+Dive into the web platform, at your pace.
+HTML
+CSS
+JavaScript
+User experience
+Learn how to build better user experiences.
+Performance
+Accessibility
+Identity
+Learn
+Get up to speed on web development.
+Learn HTML
+Learn CSS
+Learn JavaScript
+Learn AI
+Learn Performance
+Learn Accessibility
+More courses
+Additional resources
+Explore content collections, patterns, and more.
+AI and the web
+Explore
+PageSpeed Insights
+Podcasts & shows
+Developer Newsletter
+About web.dev
+Discover
+Baseline
+How to use Baseline
+Blog
+Case Studies
+/
+English
+Deutsch
+Español – América Latina
+Français
+Indonesia
+Italiano
+Polski
+Português – Brasil
+Tiếng Việt
+Türkçe
+Русский
+עברית
+العربيّة
+فارسی
+हिंदी
+বাংলা
+ภาษาไทย
+中文 – 简体
+中文 – 繁體
+日本語
+한국어
+Sign in
+Articles
+AI and the web
+Fast load times
+Learn Core Web Vitals
+Identity
+Progressive Web Apps
+Payments
+Notifications
+How to optimize INP
+Network reliability
+React
+Animations
+Mini apps
+Media
+Safe and secure
+WebAssembly
+Devices
+Easily discoverable
+Test automation
+Angular
+Resources
+More
+AI and the web
+Fast load times
+Learn Core Web Vitals
+Identity
+Progressive Web Apps
+Payments
+Notifications
+How to optimize INP
+Network reliability
+React
+Animations
+Mini apps
+Media
+Safe and secure
+WebAssembly
+Devices
+Easily discoverable
+Test automation
+Angular
+Discover
+Baseline
+How to use Baseline
+Blog
+Case Studies
+Introduction
+Why does speed matter?
+What is speed?
+How to measure speed?
+How to stay fast?
+Core Web Vitals
+Web Vitals
+User-centric performance metrics
+Defining the Core Web Vitals metrics thresholds
+Largest Contentful Paint (LCP)
+Cumulative Layout Shift (CLS)
+Interaction to Next Paint (INP)
+Optimize Largest Contentful Paint
+Optimize Cumulative Layout Shift
+Optimize Interaction to Next Paint
+The most effective ways to improve Core Web Vitals
+Core Web Vitals workflows with Google tools
+Optimizing Core Web Vitals for business decision makers
+Measure performance in the field
+Using the Chrome UX Report to look at performance in the field
+Why lab and field data can be different (and what to do about it)
+Why is CrUX data different from my RUM data?
+Optimize your resource delivery
+Optimize Time to First Byte
+Content delivery networks (CDNs)
+Prioritize resources
+Preload critical assets to improve loading speed
+Establish network connections early to improve perceived page speed
+Prefetch resources to speed up future navigations
+Fast playback with audio and video preload
+Adaptive serving based on network quality
+Optimize your images
+Choose the right image format
+Choose the correct level of compression
+Use Imagemin to compress images
+Replace animated GIFs with video for faster page loads
+Serve responsive images
+Serve images with correct dimensions
+Use WebP images
+Use image CDNs to optimize images
+Lazy-load images and video
+Browser-level image lazy loading for the web
+Optimize web fonts
+Best practices for fonts
+Avoid invisible text during font loading
+Optimize web font loading and rendering
+Reduce web font size
+Optimize your CSS
+Defer non-critical CSS
+Minify CSS
+Extract critical CSS
+Optimize CSS background images with media queries
+Optimize your third-party resources
+Third-party JavaScript performance
+Identify slow third-party JavaScript
+Efficiently load third-party JavaScript
+Best practices for tags and tag managers
+Optimize your JavaScript
+Optimize long tasks
+Optimize Interaction to Next Paint
+Apply instant loading with the PRPL pattern
+Reduce JavaScript payloads with code splitting
+Remove unused code
+Minify and compress network payloads
+How CommonJS is making your bundles larger
+Build a performance culture
+The value of speed
+How can performance improve conversion?
+What should you measure to improve performance?
+Fixing website speed cross-functionally
+Relating site speed and business metrics
+Set performance budgets
+Performance budgets 101
+Your first performance budget
+Incorporate performance budgets into your build process
+Use Lighthouse for performance budgets
+Using bundlesize with Travis CI
+Using Lighthouse Bot to set a performance budget
+Performance monitoring with Lighthouse CI
+Web Platform
+HTML
+CSS
+JavaScript
+User experience
+Performance
+Accessibility
+Identity
+Learn
+Learn HTML
+Learn CSS
+Learn JavaScript
+Learn AI
+Learn Performance
+Learn Accessibility
+More courses
+Additional resources
+AI and the web
+Explore
+PageSpeed Insights
+Podcasts &amp; shows
+Developer Newsletter
+About web.dev
+Home
+Articles
+Resources
+Fast load times
+Browser-level image lazy loading for the web
+Stay organized with collections
+Save and categorize content based on your preferences.
+Addy Osmani
+X
+GitHub
+Bluesky
+Houssein Djirdeh
+X
+GitHub
+Homepage
+Mathias Bynens
+X
+GitHub
+Homepage
+Barry Pollard
+X
+GitHub
+Mastodon
+Bluesky
+Homepage
+Browser Support
+77
+79
+75
+15.4
+You can use the
+loading
+attribute to lazy-load images without the need to
+write custom lazy-loading code or use a separate JavaScript library. Here's a
+demo
+of the feature:
+Lazy-loaded images load as the user scrolls through the page.
+This page walks through the details of implementing lazy-loading in the browser.
+Why browser-level lazy loading?
+According to the
+HTTP Archive
+,
+images are the most-requested asset type for most websites, and they usually
+take up more bandwidth than any other resource. At the 90th percentile, sites
+send over 5 MB of images on desktop and mobile.
+Previously, there were two ways to defer the loading of off-screen images:
+Using the
+Intersection Observer API
+Using
+scroll
+,
+resize
+, or
+orientationchange
+event handlers
+Either option can let developers include lazy loading behavior, and many
+developers have built third-party libraries to provide abstractions that are
+even easier to use.
+With lazy loading supported directly by the browser, however, there's no need for an external library. Browser-level lazy loading also ensures that loading of images still works even if the client disables JavaScript. Note however that loading is only deferred when JavaScript is enabled.
+The
+loading
+attribute
+Chrome loads images at different priorities depending on where they're located
+relative to the device viewport. Images below the viewport are loaded with a
+lower priority, but they're still fetched as the page loads.
+You can use the
+loading
+attribute to completely defer the loading of offscreen
+images:
+<img src="image.png" loading="lazy" alt="…" width="200" height="200">
+Here are the supported values for the
+loading
+attribute:
+lazy
+: Defer loading of the resource until it reaches a
+calculated distance
+from the viewport.
+eager
+: Default loading behavior of the browser, which is the same as not
+including the attribute and means the image is loaded regardless of where it's
+located on the page. This is the default, but it can be useful to set
+explicitly if your tooling automatically adds
+loading="lazy"
+when there's no
+explicit value, or if your linter complains if it isn't explicitly set.
+Caution:
+Don't lazy-load
+images that are likely to be in-viewport when the page loads, especially
+LCP
+images.
+Relationship between the
+loading
+attribute and fetch priority
+The
+eager
+value is an instruction to load the image as usual, without delaying
+the load further if the image is off-screen. It doesn't load the image faster
+than another image that doesn't have a
+loading
+attribute.
+If you want to increase the fetch priority of an important image (for example,
+the LCP image), use
+Fetch Priority
+with
+fetchpriority="high"
+.
+An image with
+loading="lazy"
+and
+fetchpriority="high"
+is still delayed while
+it's off-screen, and then fetched with a high priority when it's almost within
+the viewport. This combination isn't really necessary because the browser would
+likely load that image with high priority anyway.
+Distance-from-viewport thresholds
+All images that are immediately viewable without scrolling load normally. Images
+far below the device viewport are only fetched when the user scrolls near them.
+Chromium's implementation of lazy loading tries to ensure that offscreen images
+are loaded early enough that they finish loading by the time the user scrolls
+to them by fetching them well before they become visible in the viewport.
+Note:
+Experiments in Chrome on Android suggest that on 4G, 97.5% of lazy-loaded
+images were fully loaded within 10ms of becoming visible. Even on slow 2G
+networks, 92.6% of lazy-loaded images were fully loaded within 10ms. This means
+browser-level lazy loading offers a stable image visibility experience.
+The distance threshold varies depending on the following factors:
+The type of image resource being fetched
+The
+effective connection type
+You can find the default values for the different effective connection types in
+the
+Chromium source
+.
+You can experiment with these different thresholds by
+throttling the network
+in DevTools.
+Improved data-savings and distance-from-viewport thresholds
+In July 2020, Chrome made significant improvements to align the image lazy loading distance-from-viewport thresholds to better meet developer expectations.
+On fast connections (4G), we reduced Chrome's distance-from-viewport thresholds from
+3000px
+to
+1250px
+and on slower connections (3G or lower), changed the threshold from
+4000px
+to
+2500px
+. This change achieves two things:
+<img loading=lazy>
+behaves closer to the experience offered by JavaScript lazy loading libraries.
+The new distance-from-viewport thresholds still means images will probably have loaded by the time a user has scrolled to them.
+You can find a comparison between the old versus new distance-from-viewport thresholds for one of our demos on a fast connection (4G) next:
+Comparison of the older versus newer thresholds used for browser-level lazy-loading.
+and the new thresholds versus LazySizes (a popular JavaScript lazy loading library):
+Comparison of the thresholds used for lazy-loading in Chrome and LazySizes.
+Give your images dimension attributes
+While the browser loads an image, it doesn't immediately know the image's
+dimensions, unless they're explicitly specified. To let the browser reserve
+enough space on a page for images, and avoid disruptive
+layout shifts
+,
+we recommend adding
+width
+and
+height
+attributes to all
+<img>
+tags.
+<img src="image.png" loading="lazy" alt="…" width="200" height="200">
+Alternatively, specify their values directly in an inline style:
+<img src="image.png" loading="lazy" alt="…" style="height:200px; width:200px;">
+The best practice of setting dimensions applies to
+<img>
+tags regardless of
+whether you're lazy loading them, but lazy loading can make it more important.
+Lazy loading in Chromium is implemented in a way that makes images more likely
+to be loaded as soon as they're visible, but there's still a chance that
+they won't load at the right time. If that happens, not specifying
+width
+and
+height
+on your images increases their impact on Cumulative Layout Shift. If
+you can't specify your images' dimensions, lazy loading them can save network
+resources at the risk of these increased
+layout shifts
+.
+In most scenarios, images still lazy load if you don't specify dimensions, but
+there are a few edge cases you should be aware of. Without
+width
+and
+height
+specified, image dimensions default to 0×0 pixels. If you have a gallery of
+images, the browser might decide that all of them fit inside the viewport at the
+start, because each image takes up no space and no image is pushed offscreen. In
+this case, the browser decides to load everything, making the page load more
+slowly.
+For an example of how
+loading
+works with large numbers of images, refer to
+this
+demo
+.
+You can also lazy-load images you've defined using the
+<picture>
+element:
+<picture>
+  <source media="(min-width: 800px)" srcset="large.jpg 1x, larger.jpg 2x">
+  <img src="photo.jpg" loading="lazy">
+</picture>
+Although the browser decides which image to load from any of the
+<source>
+elements, you only need to add
+loading
+to the fallback
+<img>
+element.
+Always eager-load images visible in the first viewport
+For images that are visible when the user first loads the page, and especially
+for LCP images, use the browser's default eager loading so they can be available
+right away. For more information, see
+The performance effects of too much lazy-loading
+.
+Use
+loading=lazy
+only for images outside the initial viewport. The browser
+can't lazy-load an image until it knows where the image should be on the page,
+which causes them to load more slowly.
+<!-- visible in the viewport -->
+<img src="product-1.jpg" alt="..." width="200" height="200">
+<img src="product-2.jpg" alt="..." width="200" height="200">
+<img src="product-3.jpg" alt="..." width="200" height="200">
+
+<!-- offscreen images -->
+<img src="product-4.jpg" loading="lazy" alt="..." width="200" height="200">
+<img src="product-5.jpg" loading="lazy" alt="..." width="200" height="200">
+<img src="product-6.jpg" loading="lazy" alt="..." width="200" height="200">
+Graceful degradation
+Browsers that don't support the
+loading
+attribute ignore it. They don't get
+the benefits of lazy loading, but there's no negative impact from including it.
+FAQ
+Some frequently asked questions about browser-level lazy loading.
+Can I automatically lazy-load images in Chrome?
+Previously, Chromium automatically lazy-loaded any images that were well suited
+to being deferred if
+Lite mode
+was enabled on Chrome for Android and the
+loading
+attribute was either not
+provided or set to
+loading="auto"
+. However,
+Lite mode and
+loading="auto"
+have been deprecated
+and there are no plans to provide automatically lazy-load of images in Chrome.
+Can I change how close an image needs to be to the viewport before it loads?
+These values are hardcoded and can't be changed through the API. However, they
+might change in the future as browsers experiment with different threshold
+distances and variables.
+Can CSS background images use the
+loading
+attribute?
+No, you can only use it with
+<img>
+tags.
+Can
+loading
+work with images in the viewport that aren't immediately visible?
+Using
+loading="lazy"
+can
+prevent images being loaded when they aren't
+visible but are within the
+calculated distance
+.
+These images might be behind a carousel or hidden by CSS for certain screen
+sizes. For example, Chrome, Safari, and Firefox don't load images using
+display: none;
+styling, either on the image element or on a parent
+element. However, other image hiding techniques, such as using
+opacity:0
+styling, still cause the browser to load the image. Always test your
+implementation thoroughly to make sure it's acting as intended.
+Chrome 121 changed the behavior for horizontal-scrolling images like carousels. These now use the same thresholds as vertical scrolling. This means for the carousel use case, images will be loaded before they visible in the viewport. This means the image loading is less likely to be noticeable to the user, but at the cost of more downloads. Use
+the Horizontal Lazy Loading demo
+to compare behaviour in Chrome versus Safari and Firefox.
+What if I'm already using a third-party library or a script to lazy-load images?
+With full support of lazy loading built into modern browsers, you probably don't
+need a third-party library or script to lazy-load images.
+One reason to continue to use a third-party library alongside
+loading="lazy"
+is to provide a polyfill for browsers that don't support the attribute, or to
+have more control over when lazy loading is triggered.
+How do I handle browsers that don't support lazy loading?
+Browser-level image lazy loading is well supported across all the major browsers and is recommended for most use cases, to remove the need for extra dependencies on JavaScript.
+However, if you have a need to support more browsers or want to have more control over lazy-loading thresholds then you can use a third-party library to lazy-load images on your site.
+You can use the
+loading
+property to detect whether a browser supports the
+feature:
+if
+(
+'loading'
+in
+HTMLImageElement
+.
+prototype
+)
+{
+// supported in browser
+}
+else
+{
+// fetch polyfill/third-party library
+}
+For example,
+lazysizes
+is a popular
+JavaScript lazy loading library. You can detect support for the
+loading
+attribute to load lazysizes as a fallback library only when
+loading
+isn't
+supported. This works as follows:
+Replace
+<img src>
+with
+<img data-src>
+to avoid an eager load in
+unsupported browsers. If the
+loading
+attribute is supported, swap
+data-src
+for
+src
+.
+If
+loading
+isn't supported, load a fallback from lazysizes and initiate
+it, using the
+lazyload
+class to indicate which images to lazy-load:
+<!-- Let's load this in-viewport image normally -->
+<img src="hero.jpg" alt="…">
+
+<!-- Let's lazy-load the rest of these images -->
+<img data-src="unicorn.jpg" alt="…" loading="lazy" class="lazyload">
+<img data-src="cats.jpg" alt="…" loading="lazy" class="lazyload">
+<img data-src="dogs.jpg" alt="…" loading="lazy" class="lazyload">
+
+<script>
+  if ('loading' in HTMLImageElement.prototype) {
+    const images = document.querySelectorAll('img[loading="lazy"]');
+    images.forEach(img => {
+      img.src = img.dataset.src;
+    });
+  } else {
+    // Dynamically import the LazySizes library
+    const script = document.createElement('script');
+    script.src =
+      'https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js';
+    document.body.appendChild(script);
+  }
+</script>
+Here's a
+demo
+of
+this pattern. Try it in an older browser to see the fallback in action.
+Note:
+The lazysizes library also provides a
+loading plugin
+that uses browser-level lazy loading when available but falls back to the
+library's custom behavior when needed.
+Is lazy loading for iframes also supported in browsers?
+Browser Support
+77
+79
+121
+16.4
+<iframe loading=lazy>
+has also been standardized. This lets you lazy-load iframes using the
+loading
+attribute. For more information, see
+It's time to lazy-load offscreen iframes!
+How does browser-level lazy loading affect advertisements on a web page?
+All ads displayed to the user as images or iframes lazy-load just like any other
+image or iframe.
+How are images handled when a web page is printed?
+All images and iframes load immediately when the page is printed. See
+issue #875403
+for details.
+Does Lighthouse recognize browser-level lazy loading?
+Lighthouse 6.0
+and higher factor in
+approaches for offscreen image lazy loading that can use different thresholds,
+letting them pass the
+Defer offscreen images
+audit.
+Lazy-load images to improve performance
+Browser support for lazy loading images can make it significantly easier for you
+to improve your pages' performance.
+Are you noticing any unusual behavior with this feature enabled in Chrome?
+File a bug
+!
+Except as otherwise noted, the content of this page is licensed under the
+Creative Commons Attribution 4.0 License
+, and code samples are licensed under the
+Apache 2.0 License
+. For details, see the
+Google Developers Site Policies
+. Java is a registered trademark of Oracle and/or its affiliates.
+Last updated 2024-08-13 UTC.
+[[["Easy to understand","easyToUnderstand","thumb-up"],["Solved my problem","solvedMyProblem","thumb-up"],["Other","otherUp","thumb-up"]],[["Missing the information I need","missingTheInformationINeed","thumb-down"],["Too complicated / too many steps","tooComplicatedTooManySteps","thumb-down"],["Out of date","outOfDate","thumb-down"],["Samples / code issue","samplesCodeIssue","thumb-down"],["Other","otherDown","thumb-down"]],["Last updated 2024-08-13 UTC."],[],[]]
+web.dev
+web.dev
+We want to help you build beautiful, accessible, fast, and secure websites that work cross-browser, and for all of your users. This site is our home for content to help you on that journey, written by members of the Chrome team, and external experts.
+Contribute
+File a bug
+See open issues
+Related Content
+Chrome for Developers
+Chromium updates
+Case studies
+Podcasts & shows
+Follow
+@ChromiumDev on X
+YouTube
+Chrome for Developers on LinkedIn
+RSS
+Terms
+Privacy
+Manage cookies
+English
+Deutsch
+Español – América Latina
+Français
+Indonesia
+Italiano
+Polski
+Português – Brasil
+Tiếng Việt
+Türkçe
+Русский
+עברית
+العربيّة
+فارسی
+हिंदी
+বাংলা
+ภาษาไทย
+中文 – 简体
+中文 – 繁體
+日本語
+한국어

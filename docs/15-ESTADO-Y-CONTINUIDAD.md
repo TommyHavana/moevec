@@ -2,27 +2,27 @@
 
 ## Estado actual
 
-**453/840 terminadas, 1359 imágenes originales públicas, 0 en curso o borradores WordPress y 387 pendientes**. Accesibilidad 3/15; 30 tandas completas y tanda 31 en curso.
+**456/840 terminadas, 1368 imágenes originales públicas, 0 en curso o borradores WordPress y 384 pendientes**. Accesibilidad 6/15; 30 tandas completas y tanda 31 en curso.
 
 Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Desde 447: entradas 448–453, 18 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
+Desde 453: entradas 454–456, 9 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
 
 Una publicación y tres adjuntos por ID; categorías Comunidad y Accesibilidad, etiquetas exactas. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales y variantes comprobados. Navegación y BreadcrumbList: Blog → área → subcategoría. Taxonomía: 122 nodos, siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva o posicionamiento.
 
 ## Revisión del último bloque
 
-Accesibilidad: edición 2026 de Facts and Figures de la UIT, uso estimado del 76 % mundial y unos 2.000 millones de personas sin conexión. Los grupos de la UIT no equivalen a Hispanoamérica. Lenguaje claro: ficha y resumen de ISO 24495-1:2023; nota de RAE y ASALE del 28/10/2024 y principios de la Red de 2024. Las diez reglas son propuestas de MEE. WCAG 2.2: versión del 12/12/2024 y explicaciones sobre teclado, contraste y alternativas. WebAIM Million: muestra de portadas de febrero de 2026; no certificación de MEE. Nueve originales inspeccionados; las rampas son metáforas.
+Educación abierta: UNESCO2019 y CC, acceso gratuito distinto de licencia; aviso MEE sin licencia general, apoyo por correo sin cobro. Asequibilidad: UIT2026, canasta móvil1,2%INBper cápita; metodología y fechas identificadas, A4AI devuelve Apache y se excluye. Cuba: tarifas ETECSA visualmente leídas30/10,35días de vigencia distintos de recarga360CUP/30días; ONEI media2025de6930CUP con alcance civil, comparación entre periodos; concesión124/2025 exclusividad limitada a3(a–d), no todointernet; estudio Paquete CHI2018 de campo2015–2017 y OFAC autorizaciones condicionadas. Nueve originales nuevos inspeccionados.
 
 ## Continuación exacta
 
-Siguiente **454–456 / E3.3.04–E3.3.06**, Comunidad → Accesibilidad. Preparaciones incluidas en las 387 pendientes. E3.3.04: 0/3 imágenes locales; sin texto final, sin publicación; E3.3.05: 0/3 imágenes locales; sin texto final, sin publicación; E3.3.06: 0/3 imágenes locales; sin texto final, sin publicación. Después 457–459. Automatización activa, sin agotamiento comunicado.
+Siguiente **457–459 / E3.3.07–E3.3.09**, Comunidad → Accesibilidad. Preparaciones incluidas en las 384 pendientes. E3.3.07: 3/3 imágenes locales; sin texto final, sin publicación; E3.3.08: 3/3 imágenes locales; sin texto final, sin publicación; E3.3.09: 3/3 imágenes locales; sin texto final, sin publicación. Después 460–462. Automatización activa, sin agotamiento comunicado.
 
 ## Copias y límites
 
-Respaldo VPS hasta 453: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
+Respaldo VPS hasta 456: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
 
 ## Traspaso
 
@@ -43,6 +43,7 @@ Verificación: `npm run build` con sincronización y TypeScript correctos; PHP l
 Publicación: fuente privada sincronizada y subida, commit de producto `1d84a45`. Actualización de la exportación estática en el contenedor Nginx activo y de los dos archivos WordPress, tanto en la ruta operativa como en `/opt/mee/`. No se reconstruyeron imágenes Docker ni se reiniciaron servicios; un siguiente build del repositorio incluye los cambios. Respaldo previo local completo: `../mee-backups/MEE_Codex_2026-10-29_183813.zip` (7657 archivos, integridad comprobada). Copia previa de React y de los archivos WordPress en `/data/mee-backups/apoyo-20261029T184226/`, gzip comprobado. No se ha probado una restauración arrancada de esta copia.
 
 Siguiente paso de esta petición: concretar el medio de donación y sus datos oficiales para activar pago directo. La producción editorial mantiene su continuidad independiente; esta tarea no modifica sus conteos, artículos, imágenes ni taxonomía.
+
 
 
 

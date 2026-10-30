@@ -1,0 +1,1340 @@
+=== PDF PAGE 1 ===
+El Paquete Semanal: The Week’s Internet in Havana
+Michaelanne Dye
+Georgia Institute of Technology
+Atlanta, GA, USA
+mdye@gatech.edu
+David Nemer
+University of Kentucky
+Lexington, KY, USA
+david.nemer@uky.edu
+Josiah Mangiameli
+Independent
+New York, NY, USA
+jmangi13@gmail.com
+Amy S. Bruckman
+Georgia Institute of Technology
+Atlanta, GA, USA
+asb@cc.gatech.edu
+Neha Kumar
+Georgia Institute of Technology
+Atlanta, GA, USA
+neha.kumar@cc.gatech.edu
+ABSTRACT
+We contribute a case study of El Paquete Semanal or “The
+Weekly Package”—the pervasive, ofﬂine internet in Cuba.
+We conducted a qualitative inquiry of El Paquete through
+extensive ﬁeldwork—interviews and observations—in Havana,
+Cuba. Our ﬁndings highlight the human infrastructure that
+supports this ofﬂine internet, rendered visible through the lens
+of articulation work. By offering an in-depth perspective into
+these workings of El Paquete, we aim to challenge established
+notions of what an (or the) internet “should” look like in more
+and less “developed” contexts. We highlight how El Paquete
+is a non-standardized and non-neutral internet, but still human-
+centered. We also offer an enriched understanding of how
+an entirely ofﬂine internet can provide expansive information
+access to support leisure and livelihood, additionally serving
+as a locally relevant platform that affords local participation.
+ACM Classiﬁcation Keywords
+H.5.m. Information Interfaces and Presentation (e.g. HCI):
+Miscellaneous
+Author Keywords
+Cuba; internet; media-sharing; human infrastructure
+INTRODUCTION
+Internet access in Cuba is heavily restricted. However, mil-
+lions of Cubans still engage with digital content through an
+informal, pervasive, ofﬂine internet known as El Paquete Sem-
+anal or “The Weekly Package”. Every week, a new version
+of El Paquete (EP) becomes available, and includes a one
+terabyte (TB) collection of digital content that is distributed
+across Cuba on external hard drives, USBs, and CDs. This
+collection includes a variety of television, music, movies, apps,
+educational programs, YouTube videos, magazines, and news,
+Permission to make digital or hard copies of all or part of this work for personal or
+classroom use is granted without fee provided that copies are not made or distributed
+for proﬁt or commercial advantage and that copies bear this notice and the full citation
+on the ﬁrst page. Copyrights for components of this work owned by others than ACM
+must be honored. Abstracting with credit is permitted. To copy otherwise, or republish,
+to post on servers or to redistribute to lists, requires prior speciﬁc permission and/or a
+fee. Request permissions from permissions@acm.org.
+CHI’18, April 21-26, 2018, Montreal, QC, Canada
+© 2018 Copyright is held by the authors. Publication rights licensed to ACM.
+ACM 978-1-4503-5620-6/18/04 $15.00.
+https://doi.org/10.1145/3173574.3174213
+and costs between between 2-5 CUC1. EP also offers ofﬂine
+versions of popular websites in Cuba, such as Wikipedia and
+Revolico (an equivalent of Craigslist in the United States). Not
+formally sanctioned by the government, EP manages to facili-
+tate ofﬂine access to local and international content regularly
+and affordably.
+During the last decade, EP has emerged as the alternative
+network to both state-owned channels and the world wide
+web (WWW). Although the Cuban government is gradually
+increasing investments in internet access efforts, direct internet
+access remains limited and prohibitively expensive [11, 12,
+34]. Additionally, state-owned media channels are severely
+limited in the content they provide. As such, this community-
+led information network is the primary medium by which
+Cubans receive and engage with local and international media,
+news, and entertainment. EP has even been recognized as the
+largest employer in Cuba [13]. It sustains both leisure and
+livelihoods.
+We contribute a case study of EP, this pervasive, ofﬂine in-
+ternet in Cuba. Drawing on ﬁeldwork conducted in Cuba’s
+capital city of Havana between 2015 and 2017, we highlight
+the human infrastructure that supports this ofﬂine internet in a
+technologically constrained environment. Human infrastruc-
+ture consists of the people, relationships, and organizations
+that underlie the foundations of a system or network [24, 37].
+The human infrastructure of EP is rendered visible through the
+lens of articulation work, which is the continuous efforts re-
+quired to bring together discontinuous elements—of organiza-
+tions, professional practices, and technologies—into working
+conﬁgurations [44]. By offering an in-depth perspective into
+the human infrastructure that sustains and grows EP, we aim
+to challenge established notions of what an (or the) internet
+“should” look like in more and less “developed” contexts. Our
+research highlights how EP is a non-standardized and non-
+neutral internet, but still human-centered. We also offer an
+enriched understanding of how an entirely ofﬂine internet can
+provide expansive information access to support leisure and
+livelihood, additionally serving as a locally relevant platform
+that affords local participation.
+1One Cuban convertible peso (CUC) is equivalent to one US dollar.
+
+=== PDF PAGE 2 ===
+We begin by offering background information on the state of
+internet access in Cuba and a description of how EP addresses
+a critical societal need. We then situate our research in a body
+of related work that has examined ofﬂine internets and human
+infrastructure from a human-computer interaction (HCI) per-
+spective. After describing our methodological approach, we
+detail our ﬁndings regarding the human infrastructure of EP,
+unpacking the articulation work performed by three distinct
+groups of individuals: Los Maestros (The Masters), Los Paque-
+teros (The Packagers), and La Gente (The People). Finally, we
+discuss how the articulation work performed by these actors
+sustains and grows an ofﬂine information network amidst a
+unique sociopolitical context. Here we analyze the dynam-
+ics of information procurement and dissemination that have
+emerged through EP to create a personalized, negotiated in-
+ternet, an entertaining, informative internet, and a relevant,
+participatory internet.
+Our research contributes to scholarship in the ﬁeld of human-
+computer interaction (HCI) by emphasizing the human ele-
+ments that support the existence and growth of an expansive
+information network. For the ﬁeld of Computer-Supported
+Cooperative Work (CSCW), we strengthen prior research on
+the human infrastructure lens through our in-depth engage-
+ment with the articulation work that EP relies on. Finally, for
+the ﬁeld of Information and Communication Technology and
+Development (ICTD), we extend a rich body of research on
+media-sharing practices and ofﬂine information networks with
+our case study of EP, as we highlight how its actors rely on
+it for leisure and livelihood, both generating and consuming
+locally relevant content.
+BACKGROUND
+Cuba is unique in its sociopolitical, economic, and cultural
+past. Below we provide a short primer on the history of Cuba
+and its current state of internet access, highlighting the palpa-
+ble gap that EP addressed when it was launched.
+Information Scarcity
+Various structural forces have resulted in an environment of in-
+formation scarcity for Cubans throughout the last six decades.
+Since the revolution in 1959, all business sectors have been
+under state ownership and Cubans’ access to foreign press,
+entertainment, and other content has been heavily restricted
+[5]. Although various kinds of content are prohibited because
+they are considered controversial, other factors also contribute
+to a lack of information access. Access to online content has
+been nearly impossible for individuals due to the lack of af-
+fordable, high-speed internet access [2, 11, 12]. Moreover,
+the U.S. embargo of Cuba has prohibited American compa-
+nies from conducting business with Cuba [2] such that legal
+purchase of copyrighted content is impossible. Despite recent
+allowances (such as Netﬂix’s launch in Cuba), limited access
+to high-speed internet and unaffordable streaming services
+renders access virtually unattainable.
+El Paquete Semanal
+In 1996, Cuba was one of the ﬁrst ‘developing’ countries
+to connect to the WWW. However, by 2001, its access to
+the internet was at its lowest as measured against the “six
+dimensions of internet access” [47]. In 2014, it was estimated
+that only 5-25% of Cubans had internet access, with only ﬁve
+percent of the population having full access to the internet
+(typically at their workplaces) [39]. This began to change in
+March 2015, when the Cuban government began to introduce
+public, paid WiFi hotspots across the country. These hotspots
+do represent an opportunity to connect for the average citizen,
+but are prohibitively expensive and slow [12].
+Responding to the pervasive scarcity of information access, a
+group of individuals began distributing digital content through-
+out the country on USB drives around 2011. This was EP, an
+information ecosystem comprised of digital ﬁles, USB drives,
+external hard drives, servers, and computers, all interconnected
+through a human network stretching across the country [25].
+Every week, this network undertakes the tasks of compiling
+the week’s internet. Approximately three million Cubans ac-
+cess digital content on EP today, making it the most extensive
+information network in the country [28]. Although EP is not
+formally sanctioned by the Cuban government, the network
+has been allowed to continue and thrive. As a result, it not only
+provides an alternative to state-controlled media, but also of-
+fers a way for Cubans to sustain their livelihoods [8]. This has
+led to thriving media-sharing practices in Havana, to the point
+that social gatherings often revolve around media-sharing [2].
+RELATED WORK
+Ofﬂine Information Networks
+We now review research related to ofﬂine internets, or infor-
+mation networks that are not digitally connected and operate
+in low-connectivity areas. EP operates as a highly sophisti-
+cated type of “sneakernet” [34], a network where information
+is passed around by hand. Prior work has examined similar
+researcher-led initiatives, such as DakNet [33], a kiosk sys-
+tem deployed in parts of rural Cambodia and India that used
+mechanical backhaul to provide services to users. Such of-
+ﬂine information networks have been studied extensively in
+the ﬁeld of ICTD in particular, with the goal of understand-
+ing how—and with what motivations—digital information is
+disseminated and consumed through ofﬂine connections [36,
+46]. Other ICTD research documents instances of individual
+actors in resource-constrained environments engaging in so-
+phisticated information-sharing practices to acquire desired
+media [9, 22, 31, 42]. Key relevant contributions in this regard
+include Smyth et al.’s research, which found that a motiva-
+tion for entertainment drives urban Indian users to overcome
+social, economic, and technical obstacles that come in the
+way of accessing, consuming, and sharing media [42]. In
+addition, Kumar and Rangaswamy’s analysis of the media-
+sharing actor-network in urban India demonstrated how the
+presence of mediators and intermediaries resulted in the decen-
+tralization of piracy and gradual promotion of digital literacies
+[22]. Both studies highlighted the leisure-based motivations
+that drive increased technological literacy, thereby bringing
+to question the oft-held notion that ICT interventions in ‘de-
+veloping’ contexts should focus on targeting more traditional
+development outcomes, a notion that Arora and Rangaswamy
+offer a valuable critique of [1]. We extend this rich body of
+research on media-sharing with our study of EP. We also con-
+tribute to research that has been conducted on EP by Cuban
+scholars [27, 25, 10]. Our ﬁndings show that EP’s information
+
+=== PDF PAGE 3 ===
+network does not only provide a mechanism for access of
+entertainment media; in the absence of other means of infor-
+mation exchange, it also serves as the primary source for news,
+educational content, software updates, and classiﬁeds, among
+other things. This versatility has led to EP’s gradual evolution
+into a large ofﬂine information network that is used by the
+vast majority of the population, not only the “invisible users”
+on the margins [7]. Today, EP is a community-driven, robust,
+information network kept alive by multiple actors who under-
+take a variety of tasks. Our research highlights the ways in
+which these actors come together as the human infrastructure
+responsible for the sustenance and growth of EP.
+The Human Infrastructures of ICTD
+Research in the ﬁelds of HCI, CSCW, and ICTD has long rec-
+ognized the importance of examining the infrastructures that
+support diverse sociotechnical systems. According to Larkin,
+infrastructures are “built networks that facilitate the ﬂow of
+goods, people, or ideas and allow for their exchange over
+space” [23]. While there has been increasing work on social
+engagements with technological infrastructures, particularly
+in the ‘developing’ world [41, 30, 19], our work focuses on
+human infrastructures, deﬁned by Lee et al. as “the arrange-
+ments of organizations and actors that must be brought into
+alignment in order for work to be accomplished” [24]. Ex-
+tending this work, Sambasivan and Smyth focus on the human
+infrastructure of ICTD, illuminating the close proximity of
+the social and technological facets that make up information
+infrastructures against a backdrop of development [38]. These
+authors call for more work that considers human infrastructure
+as the “inter-connected pieces forming a larger whole” that
+include nodes and edges, hubs and spokes, strong and weak
+ties, and actors that enable or disable access to resources [38].
+They advocate for a broadened understanding of infrastructure
+that goes beyond tangible artifacts to include “social practices,
+ﬂows of information and materials, and the creative processes
+that are engaged in building and maintaining these substrates”
+[38]. They also advocate for more work that explores human
+infrastructures as a network. Our study of EP responds to their
+calls by emphasizing the community-building and long-term
+information infrastructure-building efforts involved in EP and
+how the human infrastructure serves as the network itself, fa-
+cilitating an ofﬂine internet that tries to compensate for limited
+and expensive access to the WWW.
+We explore the above elements by emphasizing the articula-
+tion work performed in maintaining EP. Strauss deﬁnes ar-
+ticulation work as “ﬁrst, the meshing of the often numerous
+tasks, clusters of tasks, and segments of the total arc. Second,
+the meshing of efforts of various unit-workers (individuals,
+departments, etc.). Third, the meshing of actors with their
+various types of work and implicated tasks” [43]. Building on
+Strauss’ deﬁnition, Suchman describes articulation work as
+the continuous efforts required to bring together discontinu-
+ous elements—of organizations, professional practices, and
+technologies—into working conﬁgurations [44]. Our ﬁndings
+detail how articulation work is made up of the small and ev-
+eryday tasks or non-instrumental practices typically taken for
+granted, even as they contribute towards the sustenance of
+larger systems or infrastructures [29]. Thus we employ articu-
+lation work as an analytical device to render visible the human
+infrastructure sustaining and growing the ofﬂine internet we
+study. Exploring the tasks involved in procuring, organizing,
+distributing, customizing, and sharing EP, we aim to provide a
+rich understanding of the human infrastructure of EP and how
+the foundation of this system is “constituted by the pattern of
+relationships of people, through various networks and social
+engagements” [38].
+METHODS
+Data Collection
+Although EP’s distribution network spans the entire country,
+our research was focused on Cuba’s capital city of Havana,
+where EP originates every week. Our data comes from ﬁeld-
+work conducted in Havana across ﬁve phases (between De-
+cember 2015 and July 2017) by Michaelanne, David, and
+Josiah. In sum, we conducted semi-structured interviews with
+53 individuals—23 identiﬁed as females and 30 identiﬁed as
+males, ranging in age from 19 to 74 years old (see Table 1).
+All participants were born, raised, and are living in Cuba. We
+relied on referrals from contacts made during previous travels
+to Cuba and used purposeful, snowball sampling to recruit
+initial participants who referred us to additional contacts [40].
+We continued our ﬁeldwork until we found that our data had
+reached the point of saturation [17]. All interviews were con-
+ducted in Spanish at locations of the participants’ choosing
+and lasted from 30 to 90 minutes. During these interviews, we
+asked participants about their experiences as both distributors
+and/or consumers of EP and their motivations for purchasing,
+sharing, and consuming content. We also asked about the
+activities they undertook as they engaged with the network,
+the content, and each other. Although we did not compensate
+participants, when interviewing store-owners and distributors,
+we did purchase components of EP to better understand the
+tasks undertaken for the curation and distribution of EP.
+In addition to interviews, we conducted participant observation
+by visiting, observing, and engaging in the places where EP
+is created, shared, and sold. We followed Paqueteros, visited
+EP stores, and purchased different components of EP. While
+waiting for our purchased content to download, we observed
+the ways in which various actors engaged with EP. We devel-
+oped relationships with our participants and often re-visited
+EP stores multiple times, spending at least an hour in each
+EP store. We also accompanied participants as they bought
+content from Paqueteros, shared content with friends, and/or
+appropriated this content in various ways. Throughout our
+ﬁeldwork, we engaged with EP as La Gente—buying content,
+recommending content to others, sharing content, asking for
+requests, and searching for technical workarounds when our
+own equipment did not work.
+Data Analysis
+We conducted inductive, iterative, thematic analysis on the
+interview and observation data collected by the ﬁrst three au-
+thors [6]. After an initial coding pass through our consolidated
+ﬁndings, which were in the form of translated transcripts, we
+identiﬁed themes related to research engaging human infras-
+tructures [24, 37]. We re-coded the data with these themes
+in mind and identiﬁed the articulation work [43, 44] involved
+in supporting the human infrastructure of EP, focusing on the
+
+=== PDF PAGE 4 ===
+Table 1. Participants by Group
+Group
+Participants (53)
+Los Maestros
+1 male
+Los Paqueteros
+5 females, 11 males
+La Gente
+18 females, 18 males
+various efforts made by participants throughout the process
+of engaging with this system. Our entire research team was
+engaged through the iterative processes of data collection and
+analysis, contributing diverse combinations of backgrounds
+and expertise to this project. Michaelanne is an ethnographer
+of Cuban descent who has conducted extensive qualitative
+research in Cuba and other resource-constrained communities
+in the U.S. and Latin America. David is an ethnographer who
+has studied low-access communities in Brazil, Cuba, India,
+and the U.S. Josiah is a researcher of Cuban descent who
+has experience working with low-resource communities in
+the Philippines, Bangladesh, and the U.S. Amy contributes
+her expertise in social computing and sociotechnical systems
+research. Neha is an ethnographer who is experienced in study-
+ing social media and internet access in underserved contexts.
+FINDINGS
+We now present our ﬁndings to highlight the human infrastruc-
+ture of EP [37, 24], drawing attention to the intricate labor (or
+articulation work [43, 44]) involved in sustaining and growing
+this information network on a daily basis. We organize our
+ﬁndings to focus on the contributions of the key actors in EP.
+These are Los Maestros (the masters), Los Paqueteros (the
+packagers), and La Gente (the people). Below we describe
+each of their roles and perspectives, also detailing the labor
+they provide for the functioning of EP.
+Los Maestros
+On an evening in December 2015, Juanito2, a 27-year-old
+casually dressed in board shorts and no shirt, invited us into
+his apartment in Centro Havana. At ﬁrst glance, his home
+appeared to be a typical Havana apartment, but a quick tour
+revealed a small, central room equipped with three AMD A4-
+series desktops with 21-inch Toshiba screens, one 24-inch
+Zenith television, and numerous hard drives and ﬂash drives.
+We were standing in the studio of one of the Maestros who
+compile the original editions of EP. Juanito manages his studio
+along with Marcos, his 24-year-old business partner, and Paola,
+his 22-year-old girlfriend. The team combines a variety of
+tasks and resources to compile the one TB of digital data
+required to release EP to the Cuban public on a weekly basis.
+Compiling EP
+Each week, a new EP is released to the Cuban people by
+Los Maestros, a select group of individuals who operate their
+own collectives or studios3. Los Maestros and their studios
+organize the tasks of acquiring, compiling, and organizing the
+original one TB packages.
+“I have different people bringing sections to me. . . I have
+one person downloading movies, another one taking care
+2All names have been changed for anonymity.
+3Our research revealed that there are only three studios or lead mae-
+stros in existence; we were able to gain access to one of these three.
+of music, and another one bringing TV shows. I organize
+the content, make sure there’s no pornography or anti-
+government stuff, and put everything in [EP]. . . and pass
+it on to Los Paqueteros.”—Juanito (M, 27)
+To acquire this content, Juanito draws from a limited pool
+of people who have varying degrees of internet access, such
+as dial-up connections at home, WiFi hotspots, and/or faster
+connections at university and government agencies. Although
+access to this type of information has been limited in the
+past, Los Maestros undertake small and large tasks to navi-
+gate various constraints so that millions of people are able
+to take advantage of the access that others have. In Juanito’s
+studio, each member moves across various spaces that they
+have access to and knowledge of in order to acquire content.
+For example, Paola’s job is to study the TV schedule and tell
+Juanito when a speciﬁc show is on so that he can digitize it.
+Juanito has a satellite dish installed in a fake water tower on
+his roof, which allows him to access this content at home and
+thereby stay ahead of the competition (the other Maestros).
+Creating EP
+Los Maestros’ work goes beyond curating downloaded content
+and passing it along to Los Paqueteros; Maestros also produce
+and create new content for EP, mainly in the form of classi-
+ﬁeds, journalistic pieces, and promotion of local content. Los
+Maestros do the work of advertisers and designers, promoting
+local businesses around Havana by designing digital posters,
+converting them into PDFs, and adding them to speciﬁc fold-
+ers in EP (usually selected based on the audience they are
+trying to reach). Maestros also undertake the tasks of design-
+ing their own promotional ﬂyers to advertise their services to
+Los Paqueteros and La Gente. They also work with various
+content creators in order to have their (the creators’) media
+distributed on EP. In this role, Maestros serve as promoters for
+local artists and have also become local celebrities themselves:
+“[The promoters] have a reputation. .. there’s The Thun-
+der, there’s Abdel La Esencia, there are two or three of
+them that are the most famous. Then the artists them-
+selves go and get promoted by them, because they know
+they are the ones who can distribute their music better.”
+—Osmany (M, 29)
+Maestros who act as promoters search for new artists to add
+to EP. These Maestros design the album covers, which typi-
+cally contain their promoter name (e.g., The Thunder), email
+address, and phone number so that individuals who wish to
+promote their work on EP can get in touch. When we down-
+loaded music from local musicians who were being promoted
+through EP, we found that the album art included pictures of
+the Maestro who was promoting the music, not of the artists
+or the band. These promoters in the network serve as a new
+way for artists to launch their careers and access their fan
+base. During the summer of 2017, Michaelanne and Josiah
+attended the beach-front concert of a local, reggaeton artist
+who was made popular by EP. In fact, this artist was recom-
+mended to us several times by participants, who said that he
+was currently the most popular artist in Havana because of EP.
+As a result, Los Maestros make sure not only to include his
+music in EP, but also social media updates from him, including
+YouTube videos, Facebook live videos, and Twitter updates.
+
+=== PDF PAGE 5 ===
+Los Maestros monitor the most popular artists on social media
+and download any new content that comes out weekly. They
+also put their signature “marks” or logos on the videos and
+screenshots so that others can assign credit appropriately.
+While this process of creating and gathering content may ap-
+pear to be top-down, EP’s network is comprised of multiple
+overlapping matrices and the product is by no means a “one-
+size-ﬁts-all.” The articulation work involved here is ongoing
+and active as actors mesh together various tasks and resources.
+Many individuals perform the labor of adding their content to
+EP along the way and engaging with other individuals in EP’s
+human network. As described below, content procurement
+does not cease when leaving the studios. With the evolution
+and increasing penetration of EP, content has begun to enter
+it at various points across the distribution network. Although
+there are main producers of content and there is a lot of over-
+lap between versions, EP looks different depending on who is
+distributing it.
+Maestros decide on the content that goes into EP based on
+content that has been popular in the past, what is popular
+online, and user requests delivered by Paqueteros. Each week
+Juanito, Paola, and Marcos (as well as other individuals who
+help them acquire content) deliver the digital parts of EP to
+Juanito’s studio by hand via USB drives, CDs, DVDs, and
+hard drives. As Juanito mentioned above, Maestros “clean”
+the content they acquire by digitally editing it to remove illegal
+or controversial content, including pornography and content
+that may be deemed anti-government. Moreover, the content
+is edited to remove commercials and, at times, add subtitles.
+The Maestros then label the digital ﬁles and organize them in
+categories according to the media.
+The Maestros and their studios serve as hubs within EP, com-
+piling digital information that is later distributed throughout
+the network. Los Maestros rarely sell directly to consumers;
+instead, they sell the digital content to individuals called Paque-
+teros. Once the weekly EP is ready for distribution, individuals
+from the various studios physically deliver several external
+hard drives to Paqueteros across the country. For example,
+each week, Marcos ﬂies from Havana to Santiago de Cuba, the
+second largest city in Cuba, to transport EP to Los Paqueteros
+in that part of the country.
+Los Paqueteros
+On a narrow street in Havana Vieja, we visited a bottom-ﬂoor
+apartment with a blinking, rainbow-colored sign that read
+“OPEN.” Inside, the front room of this house had been con-
+verted into a shop with a desk, couch, and a wall full of DVDs
+packaged in colorful paper envelopes. Ricardo, one of the shop
+owners, sat behind the desk scrolling through digital ﬁles on
+his Dell desktop computer as a middle-aged woman, Aileen,
+looked on. “Copy me something good,” she told him, “What-
+ever you recommend.” Ricardo quickly navigated through
+several folders on his screen until he got to the soap opera
+section. “I’m going to put a soap opera on here for you that
+you’re going to like, just the ﬁrst season,” he told her. “If
+you don’t, just bring it back and we’ll ﬁnd you something else.”
+Aileen pulled out a USB stick from her purse and handed it to
+Ricardo who got up from his chair to plug the USB into the
+computer tower on the ﬂoor behind his PC. As he began to
+copy the ﬁles onto the USB, Aileen told him that she had been
+having trouble with her phone. Ricardo told her to come back
+later in the day and that he would help her install the latest
+software update that just came out in the week’s EP. “See,”
+he told us, “I not only sell them content, I help people in my
+community with everything.” These Paqueteros remind us of
+the media distributors that Kumar and Rangaswamy found in
+urban India [21]; the main distinction is that the requests we
+saw here were more sophisticated.
+Los Maestros’ studios sell EP for about 5 CUC to Los Paque-
+teros, who then distribute it across Cuba and sell it directly
+to stores and individuals. Through a variety of seemingly
+small and large tasks, the labors of Los Paqueteros fulﬁll a cru-
+cial role in stitching together the human infrastructure of EP.
+Moving across the large web of individuals, Paqueteros piece
+together various connections between Los Maestros, other
+Paqueteros, and La Gente through articulation work. Often,
+individuals who travel the country as part of their job (like
+bus and taxi drivers) serve as mulas (mules) and transport
+EP to multiple distributors across Cuba’s twelve provinces.
+In Havana, we were told that Los Paqueteros used to deliver
+directly to EP stores as well as individual homes. Once EP
+became more structured and pervasive, Paqueteros began open-
+ing physical stores in Havana, a practice that has proliferated
+further more recently. Below we describe how individual
+Paqueteros distribute and curate EP.
+Distributing EP
+Carla wakes up each morning at 7am, grabs her freshly baked
+guava pies, and walks through the streets of Old Havana to
+sell them. This routine is only slightly different on Mondays,
+when she stops at Bendito’s studio to purchase EP and bring it
+home, where her husband, a DVD store owner, prepares USB
+ﬂash drives containing EP, which Carla then distributes to her
+guava pie customers:
+“I bring the [ﬂash drive] with me. As I walk through these
+streets and do my normal job, I make some extra money
+selling EP. I basically sell it to my customers and friends.
+They already know me, and other Paqueteros don’t come
+here, since it’s already covered by me. There’s a market
+base for everyone in Havana.”—Carla (F, 26)
+Bruno makes a living riding his (unlicensed) taxi bike in Cen-
+tro Havana every afternoon, giving unofﬁcial city tours to
+foreign tourists. He also takes advantage of the mobility of his
+job to bring EP to restaurant owners when he drops tourists
+off at these establishments. Bruno undertakes the tasks in-
+volved in procuring, compiling, and delivering personalized
+EP content for his clients:
+“[Restaurant owners] want the EP with just music videos.
+Like, they want to plug this [ﬂash drive] into their TV
+and have the music videos playing for them. They don’t
+want to play with folders, settings or have to go through
+a computer. They want it simple, and that’s how I deliver
+to them.”—Bruno (M, 18)
+Bruno’s account is indicative of the reasons EP became pop-
+ular. Since not everyone in Cuba has a computer at home,
+people prefer to plug a USB ﬂash drive into DVD players and
+stereos (that more people have access to) and simply browse
+
+=== PDF PAGE 6 ===
+the content. To facilitate this, Paqueteros tailor the delivery
+apparatus to the preferences and constraints of their clients,
+adding another layer of personalization to the weekly internet.
+Curating EP
+Although Los Paqueteros may seem to just be a part of this
+infrastructure that transfers information from Los Maestros to
+La Gente, they often took charge of customizing the versions
+of EP that they sold and shared with others. Due to the work
+they undertake, Los Paqueteros curate a type of personalized
+internet for people in Havana, combining multiple sources to
+create their own versions of EP based on their technical capa-
+bilities, their customers’ preferences, the part of town they sell
+to, and their own personal tastes and values. Gabriella negoti-
+ates between her clients’ preferences, social connections, and
+technical skills to piece together digital content from multiple
+sources:
+“[La Gente] ask for all kinds of content, and I try to
+please them as much as I can. I go ‘hunting’ for shows
+and movies they want to watch. I talk to different Paque-
+teros and Maestros in order to ﬁnd the right stuff. . . Once,
+I collected several [digital] ads from different restau-
+rants because a costumer, who had just started renting
+out rooms, wanted to recommend places to eat to his
+guests.”—Gabriela (F, 29)
+The quality of content that Paqueteros provide also depends
+on the equipment they have. This is often an issue of storage
+space. Although Maestros and Paqueteros have to delete the
+majority of EP each week to make space for the next version,
+they often keep copies of the most popular content, especially
+if it is part of a series that comes out weekly. Luis has only
+been working as a Paquetero for four months. He turned his
+small, one-bedroom apartment into an EP store so he could
+work from home and take care of his infant daughter. He
+cannot afford to purchase more server space, which affects the
+type of service he provides for his customers:
+“There are different [EPs]. There are people who have
+a better business, they have more storage space so they
+already have a lot of movies, lots of series. They are
+able to create EP themselves, there are people who can
+put it together and there are people who do not...But
+somewhere you will always hear, ‘this [content] came in
+his [EP] but not in mine’.”—Luis (M, 22)
+Some Paqueteros mentioned that, due to their own limited
+skills, they did not tinker with EP or add content beyond what
+came to them from their Maestro. Yuniel is a former teacher
+who works at an EP store that is run out of a small, central
+room in the bottom ﬂoor of his boss’s apartment. He shared:
+“We are the receivers of the information but we do not
+conﬁgure it. In fact, it’s not my area. If I knew how to
+work with computers, I would edit it, but, I’m not too
+excited about that thing.”—Yuniel (M, 30)
+Although Yuniel does not conﬁgure information, he does un-
+dertake other tasks to personalize EP for his customers. Simi-
+larly, other Paqueteros spoke about the work they do to ensure
+that their customers acquire the types of content they value.
+Ricardo and Teresa are neighbors who opened an EP store in
+Old Havana in early 2017. Sometimes, their customers request
+content that is not in their version of the EP. In those cases, Ri-
+cardo speaks to their Paquetero and requests that certain types
+of content be included in future. However, the Maestros and
+Paqueteros do not always include requested content (particu-
+larly if there is not a large demand). Ricardo often manually
+supplements his versions of EP with content that he thinks will
+be meaningful to his customers. This involves searching for
+content that people might request by “knowing [his] clientèle.”
+Sometimes, he walks around the city visiting other EP stores,
+searching for content that they may have acquired from other
+Maestros or Paqueteros.
+Paqueteros also clean or censor EP, most often to ensure that
+their content is high-quality or that it does not contain overtly
+anti-government messages. At other times, censoring is due to
+personal beliefs or beliefs of customers. For example, Renier
+has been selling EP for six years and the majority of his 100
+clients are religious. Renier shared that his religious views
+impact the way in which he compiles his version of EP:
+“Sometimes I clean EP when it arrives. That is, I remove
+what I consider to be obscene things that are against the
+Christian theme. [My] EP comes from me and I do not
+like to distribute something with content that is not good.
+If there is something I do not approve of, I try to eliminate
+that section. It’s like censoring.”—Renier (M, 35)
+Renier’s customers, therefore, receive an ofﬂine internet that
+is censored based on his sensitivities. Renier’s view is that he
+censors his material as an extra service for customers and, if
+they do not approve, they can ﬁnd a different Paquetero with a
+different EP.
+Los Paqueteros tailor the content and delivery method of EP
+based on their customers’ preferences, budget, and technical
+resources. For example, Ricardo charges less for his content
+than other Paqueteros because he believes that his clients do
+not earn as much as the others’ and can not afford high rates.
+Additionally, he makes sure his less technologically-savvy
+customers know how to download and update their phone
+software (and often does this for no extra charge). When we
+asked him why he helps people in these ways, Ricardo replied,
+“The only way people know about these things is in EP. There
+is no internet. I bring it to them.”
+Los Paqueteros negotiate with customers, creating personal-
+ized EPs for individuals and groups. We interviewed Yuniel in
+his EP store and observed him as he patiently searched for yet
+another movie for a 10 year-old customer who was trying to
+ﬁnd one that his friends had not yet watched. “This is the third
+time you’ve been in today,” Yuniel told the boy, “but don’t
+worry, if you don’t like that movie, come back and we’ll ﬁnd
+one for you.” Yuniel told us that he would not charge the boy
+extra, “he only has enough for one movie so I’ll work with him
+to ﬁnd the one that suits him, even if he has to download a few
+different ones.”
+Paqueteros are also involved in the job of producing content
+through the insertion of hyper-local ads as well as the promo-
+tion of local artists. Moises told us that, while the Maestros
+charge for promotion, he does not:
+
+=== PDF PAGE 7 ===
+“I do not charge anything for promotion...not to those
+who start now. Those who start here are not charged
+anything. If they cannot go directly to [Los Maestros],
+they reach us here.”—Moises (M, 46)
+Moises said that he viewed this as a service he could provide
+to members of his local community to support them in their
+endeavors. He added that he was going to continue working
+to improve EP because, “it’s actually one of the only ways the
+people today can see things that they do not have access to.”
+La Gente
+EP’s inﬂuence is clearly visible across Havana as La Gente
+(the people) engage with it on a regular basis:
+“EP is important for us because this is the way that
+people are able to entertain themselves. They can see
+shows, soap operas, documentaries, among other things.
+They can also learn about the news occurring in the rest
+of the world.”—Camilo (M, 26)
+In addition to being the main consumers of content, La Gente
+(or the people) are also critical members of the human in-
+frastructure as they engage with this EP and, thereby, other
+users through their own processes of articulation work. In this
+section, we describe how La Gente appropriate, produce, and
+share EP content and the tasks involved.
+Appropriating EP
+When individuals want to acquire content from EP, they pur-
+chase it from a Paquetero at a store or get it delivered to
+their home. Additionally, people often share content with
+one another for free. While foreign content (like TV shows,
+movies, music, and sports) is popular, more content has begun
+to emerge that originates in Cuba. EP is not simply access to
+foreign content, as Ricardo told us:
+“Cuban ﬁlms are sold a lot. Because here they do not
+see it until long after they are made, until they do the
+premiere. However, people now have access to these
+movies here, on EP.”—Ricardo (M, 53)
+EP ﬁlls an important gap by facilitating an ofﬂine internet
+through which individuals can share content originating from
+Cuba, which was not possible previously. While prior work
+has primarily examined the leisure-driven engagements with
+informal media-sharing [35, 20], participants undertake vari-
+ous tasks to acquire content that was not leisure-based. Zamira
+visits multiple Paqueteros and asks friends in order to ﬁnd
+educational content that is appropriate for her ﬁve year-old
+granddaughter. She also searches for “items from Discovery,”
+a phrase that alludes to content from the Discovery Channel
+but has evolved to mean any documentary ﬁlm:
+“It’s important for people to have a larger view of what
+is in the world. I love watching Los Discovery because it
+allows me to see what life is like for people all over the
+world. This is important for us here.”—Zamira (F, 74)
+Like Zamira, several participants spoke to us about the impor-
+tance of having content that “expanded their views,” speaking
+to the value of information access driving this system. EP acts
+as more of an information medium than purely an entertain-
+ment service.
+Much of the motivation to engage with EP comes from the
+fact that it is the main (and often only) source of information
+that comes from the WWW. For example, Javier said that EP
+is the only way that he and others can consume social media
+content, including informative YouTube videos adding that,
+“all the information is on social networks through EP.” As indi-
+viduals search through EP, they mesh together various pieces
+of information to accomplish tasks that are important to them
+and create a version of the internet that suits their needs. For
+example, participants spoke to us about using content from
+EP to enhance their work. Alexis works as both an artist and
+a pastor. When Michaelanne and Josiah attended one of his
+sermons in Havana, he showed a multimedia example to the
+audience that he had created using digital editing software.
+Alexis explained that he relies on EP for technology and mul-
+timedia tutorial videos in order to stay up to date with the
+latest in technology, but also to learn how to use technology
+he already owns. He also said that EP helps him communicate
+with his congregation by ﬁnding shared content that people in
+his community are familiar with.
+Not only does the content in EP help in connecting to others
+and learning new skills, participants stressed the importance of
+engaging with EP to do any kind of buying, selling, or trading
+in Havana. For example, EP enables Cubans to interact with
+Revolico, the most popular classiﬁed website in Cuba, and—
+according to participants—one of the only ways for individuals
+to buy and sell items, ﬁnd jobs, and advertise their businesses.
+Each week, Los Maestros download the most recent version
+of the entire Revolico website and include this in EP. Luis
+pulled up the most recent PDFs of Revolico’s webpages on his
+computer and walked us through the content:
+“Everything is sold and bought on [Revolico EP]. From
+computers, cell phones, players, cameras, videos, air
+conditioners, everything. Here are the services that are
+provided. Buying and selling houses, trades, rentals, jobs,
+resumes.” —Luis (M, 22)
+Since the majority of Cubans do not have affordable internet
+access, EP is the primary way for individuals to engage with
+Revolico. La Gente who wish to advertise in Revolico write
+up an ad and ask friends with internet access to post for them
+online. La Gente can then get access to the ofﬂine copies of
+the webpages on EP and contact the original posters over the
+phone. Individuals thus interact with the ofﬂine internet that
+EP facilitates. The value of being able to buy, sell, trade, and
+look for jobs through EP was repeated several times through-
+out our ﬁeldwork by participants across the three groups.
+Sharing EP
+Although EP stores and distributors are not difﬁcult to ﬁnd
+in Cuba, and EP content is considered affordable by partici-
+pants, many participants did not purchase content themselves.
+Instead, they relied on intermediaries to provide them with
+various pieces of content from EP. Yulia, a 19 year-old college
+student, told us that, “everyone has to rely on everyone else.”
+Individuals who purchase EP directly from stores or distribu-
+tors often share content with their friends. Some participants
+have developed their own, informal distribution methods. Os-
+many has developed a collective strategy with his colleagues
+to maximize the content they receive from EP:
+
+=== PDF PAGE 8 ===
+“At work, we have 4 or 5 computers where we copy EP
+weekly. Right now I have EP available from a month
+or so ago, because it’s on that computer. I can copy
+what came out in EP this week or what came out in EP a
+month ago connecting to the other. Among the workers,
+we collect 15 pesos a month and distribute EP through
+the work network.”—Osmany (M, 29)
+Human components are central to the creation and main-
+tenance of EP in Havana, as individuals engage with the
+sociotechnical system and one another to accomplish their
+information-seeking goals. Juan is a 24-year-old mechanic
+who receives EP from his friend, a Paquetero. This friend
+drops off an external hard drive with Juan every Thursday
+night, Juan downloads the entire EP, and the friend picks up
+the drive from Juan the next morning. He says that for peo-
+ple who are friends with distributors and “in relationships of
+mutual trust,” it is easier to procure EP. Juan does not need
+to leave his house nor own an external hard drive, since his
+friend drops the drive off every Thursday. Similarly, Yulia
+relies on her brother and young nephew to purchase content
+and share it with her. During our ﬁeldwork, we regularly saw
+children in EP stores buying content for their siblings, parents,
+grandparents, and friends.
+Publishing to EP
+La Gente are also active in curating or creating content for EP,
+thereby reshaping the ofﬂine internet being delivered in Cuba.
+For example, EP is viewed as an alternative to the state-owned
+press, allowing local journalists to turn to EP for publishing
+their content within Cuba, something that was previously not
+possible. We met with Maria Joaquina, a journalist and col-
+umn writer for Vistar Magazine. This online magazine was
+designed for Cubans living outside of Cuba since the majority
+of people inside the country do not have a way to access this
+content online. However, as a result of EP, Maria said, the
+magazine is able to cater to audiences living in Cuba:
+“EP is the most efﬁcient and cost-effective way for us to
+publish our content. It affords new paths and opportuni-
+ties for those who work with journalism. Before, the only
+opportunity was to work for the Government...now EP
+provides a different venue.”—Maria (F, 26)
+Our participants said that EP was a new avenue for this kind
+of information dissemination. Similar to how Maestros and
+Paqueteros choose content for EP and thereby have a say in
+what others consume, La Gente also inﬂuence the type of
+information that is available to other users, most often through
+advertisements or self-promotion. Juliana paid 1 CUC per
+week to have her restaurant’s ﬂyer designed at the studio and
+distributed on EP:
+“I started a new service at my business. I now deliver
+food in Centro and Old Havana and needed to promote
+the new service and the phone number. Food sales have
+increased substantially.”—Juliana (F, 43)
+Although 1 CUC per week is not inexpensive (on average, it
+amounts to a day’s wage), EP is seen as the most effective
+network through which to advertise to local audiences. For
+example, Juan, the mechanic, relies exclusively on Revolico
+webpages that are downloaded and published in EP to ﬁnd the
+car parts he needs for his auto-restoration business. He told us
+that, without EP, he would not be able to run his business and
+would have to pick up other side jobs.
+Some of the ways in which La Gente engage with the content
+are inﬂuenced by the large amount of content that comes in
+EP. Participants said that going through all the content each
+week could be overwhelming. For example, although Javier
+occasionally purchases parts of EP himself, he prefers to get it
+from one of his friends who buys the entire EP and sets aside
+content that Javier likes before dropping off her external hard-
+drive at his apartment. Javier said that he prefers this process
+because it is a lot of information to go through and his friend,
+“already knows what [he] watches”. Participants spoke about
+EP as a type of personalized internet. Similarly, Alexis does
+not buy EP in its entirety. Instead, he copies parts of EP from
+his neighbor, who buys select parts from a distributor.
+“I don’t have access to more [than what my neighbor
+buys]. I don’t want to have it either because sometimes
+it’s so much information that I lose my mind. I’d rather
+see what my friend has already selected. I trust his taste.”
+—Alexis (M, 34)
+Alexis said he feels more connected with the content because
+he is watching the same content as his neighbor. He said it
+is a luxury that his neighbor chooses his content because he
+does not have to go through the work of searching for relevant,
+meaningful content himself. Alexis also pulls out content
+from his EP that he thinks his wife and daughter will like. His
+daughter gets content from friends and, in turn, shares it with
+her parents. La Gente share content from EP that they ﬁnd
+meaningful while also creating opportunities to collectively
+engage with that content. Javier said that he preferred to have
+content selected for him on EP. As mentioned previously, Los
+Maestros include social media content from popular celebrities
+in EP. Javier said he liked not having to search for this content
+himself because, “it’s a little stressful to have to search for
+what you want to see.” Javier said that having content pre-
+selected from the internet was one of EP’s positive feature:
+“The advantage we have is that it comes in EP [instead
+of having to search for it online]. It’s a lot of information.
+If you don’t like it, you don’t have to see it. Even if they
+choose it for you.”—Javier (M, 28)
+While relying on someone to choose your content may ap-
+pear limiting, participants often spoke positively regarding
+that moderated aspect of EP, drawing parallels to the WWW.
+As many other individuals did as well, Alexis compared EP
+directly to the internet:
+“EP is like the internet.
+The internet is not a bad
+thing...There are people who misuse it, but it’s not a
+bad thing...one good thing is that our internet [EP] is
+ﬁltered; you will not ﬁnd negative content. Like pornog-
+raphy. Bad things. Because the people in charge of
+distributing EP, they select what to put.”—Alexis (M, 34)
+Participants referred to EP as a version of the internet that was
+personalized for them and provided them with opportunities
+for different kinds of engagement. This human element of
+EP not only allows it to function, the process that individuals
+
+=== PDF PAGE 9 ===
+go through as they engage with this system also serves to
+reinforce connections, given the extent to which EP relies on
+social ties to operate.
+DISCUSSION
+Sambasivan and Smyth proposed the human infrastructure lens
+to draw attention to the sociotechnical ties and linkages that
+constitute this infrastructure [37], adding, “The lens of human
+infrastructure opens us up to the existing articulation work
+in ICT4D contexts.” Our research makes visible the human
+infrastructure of EP—a network distributed across Cuba that
+packages and brings digital information and media to its peo-
+ple, just like the internet. We extend Sambasivan and Smyth’s
+human infrastructure lens by emphasizing the community-
+building and long-term information infrastructure-building
+efforts involved in EP, foregrounded through our focus on the
+articulation work performed by key EP stakeholders. Our ﬁnd-
+ings highlighted, in particular, how articulation work plays a
+central role in sustaining and growing EP, offering a unique
+version of the internet where it would otherwise not exist.
+From Juanito’s building and maintaining a fake water tower to
+be able to download content from a satellite dish and Paola’s
+sitting in front of the television watching satellite TV so she
+can tell Juanito when a particular show is on for him to digitize
+it, there are small and large tasks the humans of EP engage
+in, reconciling multiple assumptions and constraints to sustain
+a thriving, expansive information network [15]. Below, we
+detail salient aspects of EP that are foregrounded when we
+focus on its human infrastructure and the articulation work
+that sustains and grows it. In these details, EP emerges as a
+provocative example of an information system that challenges
+our notions of what an (or the) internet “should” look like.
+A Personalized, Negotiated Internet
+The human infrastructure of EP mobilizes a personalized kind
+of internet for its consumers. Our participants described how
+they customized EP for others and how they preferred to en-
+gage with EP so it was customized for them. The fact that EP is
+held together by human links also means that the transactions
+are varied, non-standardized, and generally unpredictable. For
+example, Yuniel considers his customers’ price budget and age
+as he repeatedly helps him ﬁnd the right movie for him and his
+friends, while only charging him for one. When interacting
+with La Gente, Yuniel negotiates prices, content, and delivery
+methods, among other factors, to provide an experience that
+suits each person’s needs. EP is thus adaptive, ongoing, and
+open-ended, and thereby nondeterministic. This unique, nego-
+tiated nature of EP differentiates it from a primarily hardwired,
+technological infrastructure.
+Even as it strives to give people what they desire, person-
+alization tests the notions of internet neutrality, particularly
+when we consider the moderation that occurs throughout EP.
+A human process of selecting content means that certain indi-
+viduals are in a position to decide what others have access to.
+For example, Camilo gets frustrated when he requests speciﬁc
+content that exists online but his Paquetero is not able to ﬁnd
+it for him. Or, more explicitly, Renier censors his EP based on
+his religious beliefs and (what he assumes to be) the religious
+beliefs of his customers. Many participants appreciated these
+practices, speaking about how there was too much information
+in each EP for them to go through it all. Therefore, they viewed
+the sheer amount of content as limiting, preferring to get the
+partial content on EP that had been selected by someone else.
+Javier said that there was too much information for him to go
+through each week and, therefore, he relied on his friend to
+both acquire and assort the content she thought he would like.
+A technical limitation (the capacity of commonly available
+USB drives) has catalyzed the emergence of human-mediated
+personalization. Even as participants value the personalized
+and collective elements that the human infrastructure of EP
+supports, they must depend on the choices that others make
+for them.
+The case of EP also raises questions around what might be lost
+if the work that its actors are doing was automated, partially or
+entirely—a question that is increasingly concerning a large and
+growing community within HCI [3]. As systems move towards
+becoming more and more automated, our study illuminates
+aspects of the human infrastructure (such as personalization)
+that are not always replaceable by technology. This visibility,
+we argue, is just as important in places where internet access
+is not constrained, such as in the case of Mechanical Turkers
+and Gig Workers, whose contributions are frequently made
+invisible [16, 18]. Through this enhanced visibility, we see
+that actors of EP not only engage with the material, tangible
+elements of the network, but are in constant negotiations with
+personal preferences and legal boundaries. These negotiations
+are continually feeding into a system that remains responsive
+and adaptive to a variety of use cases.
+Although there are assets that the human infrastructure lens
+highlights, there are also limitations that it foregrounds. For
+example, the lack of automation may facilitate personalization,
+but this also means that individuals have to undertake a lot of
+work to support the network. For example, Renier shared that
+he is dependent on the content the Maestros and other Paque-
+teros choose to give him. If a Maestro like Juanito does not
+undertake the work of maintaining his satellite connection, the
+shows that he distributes across the country would not appear
+in the EP. A focus on the human infrastructure underscores the
+fragility of EP, demonstrating how dependent individuals are
+upon one another, and how dependent the system as a whole is
+on multiple human actors. Technological limitations, such as
+the lack of central servers hosting EP’s content, further imply
+that most participants have to delete the entire EP each week
+to make space on their servers for the next week’s version,
+thereby limiting the amount of content that is available at any
+one time.
+An Entertaining, Informative Internet
+In essence, what we see in EP is a replication of the media-
+sharing practices that prior ICTD research has highlighted.
+Just as the media distributors in New Delhi [21] offer content
+for ﬁnancial gain or social recognition, so do the Paqueteros.
+Entertainment remains a key motivation for acquiring and
+engaging with new kinds of content for the consumers in Ban-
+galore [42] just as it is for La Gente. Like the male Indian
+youth who wish to be better connected to the rest of the world
+through Facebook [20], so does Zamira who seeks out doc-
+umentaries from other countries because it makes her feel
+“more connected to the world.” What is unique to the Cuban
+
+=== PDF PAGE 10 ===
+case, however, is that these media-sharing practices are not
+limited to certain users who are on the margins. They are far
+more pervasive than prior work highlights. Almost all Cubans’
+information needs are targeted and met by EP, not merely
+those of users on the margins. The human infrastructure that
+consumes and distributes EP includes Cuban citizens from dif-
+ferent parts of the Havana, with different jobs, ages, and skills.
+This highlights the unique sociopolitical conditions that EP
+thrives in, which have resulted in a prevalence of information
+scarcity and resource constraint. There is no other, superior,
+more expensive information network available to these Cubans
+(although the WiFi hotspots do provide a meager alternative),
+as is true in Bangalore and New Delhi.
+Additionally, the practices that we see in the case of EP are
+not limited to the dissemination and consumption of entertain-
+ment media alone. All kinds of information needs are targeted
+and met by EP, not just those that are entertainment-related
+(although they may have come ﬁrst). This results in an en-
+gagement that touches many different aspects of human life.
+Several participants spoke about the importance of EP for ac-
+quiring educational information. Alexis uses tutorial videos
+to help him improve his multimedia abilities and, thereby, his
+artwork and the number of pieces he sells. Since EP is the
+main mechanism for individuals to engage with online content
+(albeit in ofﬂine form), it connects users with critical resources.
+As mentioned in the ﬁndings, EP is the primary way for indi-
+viduals in Cuba to buy, sell, or trade goods, ﬁnd employment,
+and learn new skills relevant to their jobs, like in the case of
+Juan, the mechanic who ﬁnds and sells auto parts exclusively
+through EP via ofﬂine versions of Revolico webpages, which
+allows him to sustain his own business.
+A Relevant, Participatory Internet
+Our ﬁndings reveal how the human infrastructure of EP facili-
+tates a relevant, participatory internet. Many ICTD initiatives
+have focused on constructing information networks that are
+voice-based and/or local (e.g., [26, 32, 45]), recognizing that
+the WWW may certainly have a draw, but not be high on rele-
+vance. With EP, we see a thriving example of an established,
+pervasive information network that relies signiﬁcantly on lo-
+cally relevant content. This forces us to question what value
+might be added through access to a WWW that largely rep-
+resents a world far removed. In addition to content, delivery
+mechanisms of EP are also locally relevant. For example, ac-
+cess to the WWW in Cuba is prohibitively expensive whereas
+EP is affordable for all, especially with price adjustments for
+certain individuals/groups. Moreover, since EP’s content is
+not openly in opposition to the Cuban government, it is viewed
+as a “safer” alternative than the WWW. For example, EP is
+regularly “cleaned” by Maestros and Paqueteros to remove
+content that the government disapproves of.
+In addition to EP’s content and delivery methods being rele-
+vant for local consumption, it also contains locally sourced
+content. Los Maestros and Los Paqueteros recruit local talent
+and feature their work in EP. La Gente buy, sell, and trade
+items through EP in addition to promoting services and busi-
+nesses. Consumers of EP do not engage with content passively;
+they also produce content that ﬁnds its way back into EP, like
+Maria who used EP to publish a digital version of her local
+magazine, offering an alternative to government-run media.
+Such engagements make EP a mèlange of local and global con-
+tent, emphasizing the participatory dimension of this internet.
+Further, unlike other examples of internet access for resource-
+constrained regions (such as Facebook’s zero-rated services
+[4, 14]) content in EP is not limited to what one company or
+ISP provides.
+There are forces limiting, however, what EP might include.
+Los Maestros, for example, act as gatekeepers; although it is
+in their best interest to provide their clientèle with content they
+desire, they make the ﬁnal decision about what is included
+in the (original) EP every week. Throughout EP’s network,
+various individuals exercise control over what information is
+passed along (like Renier censoring his version of EP). More-
+over, adding content to EP is easier for those who can pay
+for advertisements or promotions (or are well connected to
+Paqueteros or Maestros). As with all sociotechnical systems,
+there are power structures at play within EP—some have more
+control over content than others—as well as the power struc-
+tures acting upon it. For example, the content in EP is not
+only determined by what people desire, but also by govern-
+ment regulations (such as no pornography or anti-government
+talk). Thus, while EP is relevant and participatory in ways that
+beneﬁt the Cuban people, it does remain subject to the politics
+of information.
+CONCLUSION
+We presented a qualitative inquiry of the El Paquete
+information-sharing ecosystem in Havana, Cuba, and how
+it acts as an internet for the majority of Cubans. Our research
+contributes to scholarship in HCI by emphasizing the key
+human infrastructural elements that support the sustenance
+and growth of an expansive information network. For the
+ﬁeld of CSCW, we strengthen prior research on the human
+infrastructure lens through our in-depth engagement with the
+articulation work that EP’s operation relies on. These are
+the small and large everyday tasks that are not always visible
+in information networks but successfully make the EP more
+human-centered. Finally, for the ﬁeld of ICTD, we extend a
+rich body of research on media-sharing practices and ofﬂine
+information networks with our case study of EP, as we high-
+light how its actors rely on it for leisure and livelihood, both
+generating and consuming locally relevant content.
+ACKNOWLEDGMENTS
+We are grateful to our participants for being involved in this
+research. This work is supported by NSF IIS-1552364.
+REFERENCES
+1. Payal Arora and Nimmi Rangaswamy. 2013. Digital
+leisure for development: Reframing new media practice
+in the Global South. Media, Culture & Society (2013).
+http://mcs.sagepub.com/content/35/7/898.short
+2. Tom Astley. 2016. The People’s Mixtape: Peer-to-Peer
+File Sharing without the Internet in Contemporary Cuba.
+In Networked Music Cultures: Contemporary
+Approaches, Emerging Issues, Raphael Nowak and
+Andrew Whelan (Eds.). Palgrave Macmillan UK, London,
+13–30. DOI:
+http://dx.doi.org/10.1057/978-1-137-58290-4{_}2
+
+=== PDF PAGE 11 ===
+3. Liam Bannon. 2011. Reimagining HCI: Toward a More
+Human-Centered Perspective. ACM Interactions (2011),
+50–57.
+4. Michael L Best. 2014. The Internet That Facebook Built.
+Commun. ACM 57, 12 (2014), 21–23. DOI:
+http://dx.doi.org/10.1145/2676857
+5. Ellery Roberts Biddle. 2013. Rationing the Digital: The
+Politics and Policy of Internet Use in Cuba Today.
+Internet Monitor Special Report Series 1 (7 2013). DOI:
+http://dx.doi.org/10.2139/ssrn.2291721
+6. Virginia Braun and Victoria Clarke. 2006. Using
+Thematic Analysis in Psychology. Qualitative Research
+in Psychology (2006).
+7. Jenna Burrell. 2012. Invisible users: Youth in the Internet
+cafés of urban Ghana. MIT Press, Cambridge, MA.
+8. Dennisse Calle. 2016. El Paquete: A Qualitative Study of
+Cuba’s Transition from Socialims to Quasi-Capitalism.
+(2016).
+9. P Chandra, SI Ahmed, and J Pal. 2017. Market Practices
+and the Bazaar: Technology Consumption in ICT
+Markets in the Global South. Proceedings of the SIGCHI
+Conference on Human Factors in Computing Systems
+(2017). http://dl.acm.org/citation.cfm?id=3025970
+10. Brito Y. Chávez. 2015. El consumo cultural del Paquete
+en jovenes universitarios. Ph.D. Dissertation. Universidad
+Central Marta Abreu de Las Villas.
+11. Michaelanne Dye, Annie Antón, and Amy S Bruckman.
+2016. Early Adopters of the Internet and Social Media in
+Cuba. Proceedings of the SIGCHI Conference on
+Computer Supported Cooperative Work and Social
+Computing (CSCW) (2016).
+12. Michaelanne Dye, David Nemer, Laura Pina, Nithya
+Sambasivan, Amy S. Bruckman, and Neha Kumar. 2017.
+Locating the Internet in the Parks of Havana. Proceedings
+of the SIGCHI Conference on Human Factors in
+Computing Systems (CHI) (2017).
+13. David Fazekas and Serena Marshall. 2016. The Package
+(El Paquete) Is Illegal But It’s Cuba’s Number One
+Employer - ABC News. (2016).
+14. Genevieve Gebhart. 2016. Zero-rating in emerging
+mobile markets : Free Basics and Wikipedia Zero in
+Ghana. Information Communication Technology for
+Development (2016).
+15. Elihu M Gerson and Susan Leigh Star. 1986. Analyzing
+due process in the workplace. Transactions on Ofﬁce
+Information Systems 4, 3 (1986), 257–270.
+16. Mary L. Gray, S. Suri, S. Ali, and D. Kulkarni. 2016. The
+crowd is a collaborative network. 19th ACM Conference
+on Computer-Supported Cooperative Work & Social
+Computing (2016), 134–147.
+17. Greg Guest, Arwen Bunce, and Laura Johnson. 2006.
+How many interviews are enough? An experiment with
+data saturation and variability. Field methods 18, 1
+(2006), 59–82.
+18. Lilly C. Irani and M. Six Silberman. 2013. Turkopticon:
+Interrupting worker invisibility in amazon mechanical
+turk. Proceedings of the SIGCHI Conference on Human
+Factors in Computing Systems (CHI) (2013), 611–620.
+DOI:http://dx.doi.org/10.1145/2470654.2470742
+19. Margaret Jack and Steven J Jackson. 2017. Infrastructure
+as Creative Action: Online Buying, Selling, and Delivery
+in Phnom Penh. Proceedings of the SIGCHI Conference
+on Human Factors in Computing Systems (CHI) (2017).
+20. Neha Kumar. 2014. Facebook for self-empowerment? A
+study of Facebook adoption in urban India. New Media &
+Society 16, 7 (2014), 1–16.
+21. Neha Kumar and Tapan S. Parikh. 2013. Mobiles, music,
+and materiality. Proceedings of the SIGCHI Conference
+on Human Factors in Computing Systems (CHI) (2013),
+2863. DOI:http://dx.doi.org/10.1145/2470654.2481396
+22. Neha Kumar and Nimmi Rangaswamy. 2013. The mobile
+media actor-network in urban India. Proceedings of the
+SIGCHI Conference on Human Factors in Computing
+Systems (CHI) (2013), 1989. DOI:
+http://dx.doi.org/10.1145/2470654.2466263
+23. Brian Larkin. 2013. The Politics and Poetics of
+Infrastructure. Annual Review of Anthropology 42, 1
+(2013), 327–343. DOI:http:
+//dx.doi.org/10.1146/annurev-anthro-092412-155522
+24. Charlotte P Lee, Paul Dourish, and Gloria Mark. 2006.
+The Human Infrastructure of Cyberinfrastructure.
+Proceedings of the SIGCHI Conference on Computer
+Supported Cooperative Work and Social Computing
+(CSCW) 12, 2-3 (2006), 483–492. DOI:
+http://dx.doi.org/10.1145/1180875.1180950
+25. Jose Raul Concepcion Llanes. 2015. La Cultura
+Empaquetada: Analisis Del Consumer Audiovisual
+Informal Del Paquete Semanal En Un Grupo de Jovenes
+Capitalinos. Ph.D. Dissertation. Universidad de La
+Habana.
+26. Meghana Marathe, Jacki O’Neill, Paromita Pain, and
+William Thies. 2015. Revisiting CGNet Swara and its
+impact in rural India. Proceedings of the SIGCHI
+Conference on Information Communication Technology
+and Development (ICTD) (2015), 1–10. DOI:
+http://dx.doi.org/10.1145/2737856.2738026
+27. Paz S. Martin and Acosta Z. Damas. 2017. La ciencia en
+los programas televisivos cubanos. Alcance 6, 12 (2017),
+130–160.
+28. Antonio Garcia Martínez. 2017. Inside Cuba’s DIY
+Internet Revolution. Wired (2017). https://www.wired.
+com/2017/07/inside-cubas-diy-internet-revolution/
+29. David Nemer. 2015. Online Favela: The Use of Social
+Media by the Marginalized in Brazil. Information
+Technology for Development (2015), 1–16. DOI:
+http://dx.doi.org/10.1080/02681102.2015.1011598
+
+=== PDF PAGE 12 ===
+30. Lilly U Nguyen. 2016. Infrastructural action in Vietnam:
+Inverting the techno-politics of hacking in the global
+South. New Media & Society 19 (2016).
+31. Jacki O’Neill, Ann Arbor, Jay Chen, and Berthel Tate.
+2016. The Increasing Sophistication of Mobile Media
+Sharing in Lower-Middle-Class Bangalore. In
+Proceedings of the SIGCHI Conference on Information
+Communication Technology for Development (ICTD).
+32. N Patel, D Chittamuru, and A Jain. 2010. Avaaj otalo: a
+ﬁeld study of an interactive voice forum for small farmers
+in rural india. Proceedings of the SIGCHI Conference on
+Human Factors in Computing Systems (CHI) (2010).
+http://dl.acm.org/citation.cfm?id=1753434
+33. Alex Pentland, Richard Fletcher, and Amir Hasson. 2004.
+DakNet: Rethinking Connectivity in Developing Nations.
+Computer 37, 1 (2004). DOI:
+http://dx.doi.org/10.1109/MC.2004.1260729
+34. Randi L Priluck. 2016. Internet Diffusion and Adoption
+in Cuba. Atlantic Marketing Journal 5, 2 (2016).
+35. Nimmi Rangaswamy and Edward Cutrell. 2012.
+Anthropology, development and ICTs: slums, youth and
+the mobile internet in urban India. Information
+Technologies & International Development 9, 2 (2012),
+51–63. http://dl.acm.org/citation.cfm?id=2160685
+36. Nithya Sambasivan, Ed Cutrell, and Kentaro Toyama.
+2010a. ViralVCD: Tracing information-diffusion paths
+with low cost media in developing communities. In
+Proceedings of the SIGCHI Conference on Human
+Factors in Computing Systems. ACM, 2607–2610.
+37. Nithya Sambasivan, Ed Cutrell, Kentaro Toyama, and
+Bonnie Nardi. 2010b. Intermediated technology use in
+developing communities. In Proceedings of the 2010
+ACM Conference on Human Factors in Computing
+Systems (CHI ’10).
+38. Nithya Sambasivan and Thomas Smyth. 2010. The
+human infrastructure of ICTD. Proceedings of the
+SIGCHI Conference on Information Communication
+Technology and Development (ICTD) (2010), 1–9.
+39. Nancy Scola. 2014. Only 5 percent of Cubans can get on
+the same Internet Americans do. That could soon change.
+The Washington Post (2014). https://goo.gl/x1Pxye
+40. Irving Seidman. 2012. Interviewing as qualitative
+research: A guide for researchers in education and the
+social sciences. Teachers College Press, New York, NY.
+41. Bryan C Semaan, Lauren M Britton, and Bryan Dosono.
+2016. Transition Resilience with ICTs. Proceedings of
+the SIGCHI Conference on Human Factors in Computing
+Systems (CHI) May (2016), 2882–2894. DOI:
+http://dx.doi.org/10.1145/2858036.2858109
+42. Thomas N. Smyth, John Etherton, and Michael L. Best.
+2010. MOSES. In Proceedings of the SIGCHI
+Conference on Human Factors in Computing Systems
+(CHI). ACM Press, New York, New York, USA, 1059.
+43. Anselm Strauss. 1985. Work and the Division of Labor.
+The Sociological Quarterly 26, 11985 (1985), 1–19.
+44. Lucy Suchman. 1996. Supporting Articulation Work. In
+Computerization and controversy: Value conﬂicts and
+social choices (2 ed.). 407–423.
+45. Aditya Vashistha, Edward Cutrell, Nicola Dell, and
+Richard Anderson. 2015. Social Media Platforms for
+Low-Income Blind People in India. ASSETS ’15 The 17th
+International ACM SIGACCESS Conference on
+Computers and Accessibility (2015), 259–272. DOI:
+http://dx.doi.org/10.1145/2700648.2809858
+46. Aditya Vashistha, Neha Kumar, Anil Mishra, and Richard
+Anderson. 2016. Mobile Video Dissemination for
+Community Health. In Proceedings of the Eighth
+International Conference on Information and
+Communication Technologies and Development. ACM,
+20.
+47. Peter Wolcott, Larry Press, William McHenry, Seymour
+Goodman, and William Foster. 2001. A Framework for
+Assessing the Global Diffusion of the Internet. Journal of
+the Association for Information Systems 2, 6 (2001),
+1–50.
