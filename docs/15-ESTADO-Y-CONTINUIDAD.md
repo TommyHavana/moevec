@@ -2,27 +2,27 @@
 
 ## Estado actual
 
-**321/840 terminadas, 963 imágenes originales públicas, 0 en curso o borradores WordPress y 519 pendientes**. Solidaridad Capitalista 6/15; 21 tandas completas y tanda 22 en curso.
+**327/840 terminadas, 981 imágenes originales públicas, 0 en curso o borradores WordPress y 513 pendientes**. Solidaridad Capitalista 12/15; 21 tandas completas y tanda 22 en curso.
 
 Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Desde 315: entradas 316–321, 18 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
+Desde 321: entradas 322–327, 18 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
 
 Una publicación y tres adjuntos por ID; categorías Economía Compartida y Solidaridad Capitalista, etiquetas exactas. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales y variantes comprobados. Navegación y BreadcrumbList: Blog → área → subcategoría. Taxonomía: 122 nodos, siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva o posicionamiento.
 
 ## Revisión del último bloque
 
-319: WDI de 2025 con corte del 08/10/2026, definición de transferencias y remuneración; cifras del FIDA y del BID atribuidas y diferenciadas, sin conciliación inventada. RPW del tercer trimestre de 2025, media simple del 6,36 % para 200 USD y costes de cambio separados de comisión. 320: CAF Donor Insights 2026 y método versión 2 sobre conductas de 2025; enlace a PDF de 2025 mal rotulado excluido. Fraser edición 2026 con referencia 2024, sin correlación calculada ni causalidad. 321: ensayo original de Brooks, Donovan y Johnson de 2018, beneficios semanales medios durante diecisiete meses y debilitamiento al disolverse relaciones; mentoras compensadas y propuesta MEE diferenciadas.
+325: Aldrich solo descripción primaria del editor, Horwitz2009 con logística y límites narrativos; DANA2024 con plazas UV distintas de voluntarios únicos y canales históricos sin convocatoria actual. 326: Ostrom Nobel2009 y Besley1993 con contextos separados; plantilla MEE, aportaciones y salida, dinero sujeto a revisión y minimización de datos. 327: ayuda gratuita directa distinta de voluntariado Ley45/2015, ámbito estatal/supraautonómico, acuerdo y cierre; sin trasladar resultados de mentoría a todo servicio pro bono.
 
 ## Continuación exacta
 
-Siguiente **322–324 / E6.2.07–E6.2.09**, Economía Compartida → Solidaridad Capitalista. Preparaciones incluidas en las 519 pendientes. E6.2.07: 3/3 imágenes locales; sin texto final, sin publicación; E6.2.08: 3/3 imágenes locales; sin texto final, sin publicación; E6.2.09: 3/3 imágenes locales; sin texto final, sin publicación. Después 325–327. Automatización activa, sin agotamiento comunicado.
+Siguiente **328–330 / E6.2.13–E6.2.15**, Economía Compartida → Solidaridad Capitalista. Preparaciones incluidas en las 513 pendientes. E6.2.13: 3/3 imágenes locales; sin texto final, sin publicación; E6.2.14: 3/3 imágenes locales; sin texto final, sin publicación; E6.2.15: 3/3 imágenes locales; sin texto final, sin publicación. Después 331–333. Automatización activa, sin agotamiento comunicado.
 
 ## Copias y límites
 
-Respaldo VPS hasta 321: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
+Respaldo VPS hasta 327: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
 
 ## Traspaso
 
@@ -43,6 +43,8 @@ Verificación: `npm run build` con sincronización y TypeScript correctos; PHP l
 Publicación: fuente privada sincronizada y subida, commit de producto `1d84a45`. Actualización de la exportación estática en el contenedor Nginx activo y de los dos archivos WordPress, tanto en la ruta operativa como en `/opt/mee/`. No se reconstruyeron imágenes Docker ni se reiniciaron servicios; un siguiente build del repositorio incluye los cambios. Respaldo previo local completo: `../mee-backups/MEE_Codex_2026-10-29_183813.zip` (7657 archivos, integridad comprobada). Copia previa de React y de los archivos WordPress en `/data/mee-backups/apoyo-20261029T184226/`, gzip comprobado. No se ha probado una restauración arrancada de esta copia.
 
 Siguiente paso de esta petición: concretar el medio de donación y sus datos oficiales para activar pago directo. La producción editorial mantiene su continuidad independiente; esta tarea no modifica sus conteos, artículos, imágenes ni taxonomía.
+
+
 
 
 

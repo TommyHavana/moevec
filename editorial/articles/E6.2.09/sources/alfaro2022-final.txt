@@ -1,0 +1,4485 @@
+Alfaro-Ureña, Alonso, Manelici, Isabela & Vasquez Carvajal, Jose (2022) The
+effects of joining multinational supply chains: new evidence from firm-to-firm
+linkages. Quarterly Journal of Economics, 137(3).
+https://doi.org/10.1093/qje/qjac006
+https://researchonline.lse.ac.uk/id/eprint/112758/
+Version: Published Version
+Licence: Creative Commons: Attribution 4.0
+LSE Research Online is the repository for research produced by the London School
+of Economics and Political Science. For more information, please refer to our Policies
+page or contact lseresearchonline@lse.ac.uk
+
+THE EFFECTS OF JOINING MULTINATIONAL SUPPLY
+CHAINS: NEW EVIDENCE FROM FIRM-TO-FIRM
+LINKAGES∗
+ALONSO ALFARO-URE˜NA
+ISABELA MANELICI
+JOSE P. VASQUEZ
+We study the effects of becoming a supplier to multinational corporations
+(MNCs) using tax data tracking ﬁrm-to-ﬁrm transactions in Costa Rica. Event
+study estimates reveal that domestic ﬁrms experience strong and persistent gains
+in performance after supplying to a ﬁrst MNC buyer. Four years after, domestic
+ﬁrms employ 26% more workers and have a 4% to 9% higher total factor productiv-
+ity (TFP). These effects are unlikely to be explained by demand effects or changes
+in tax compliance. Moreover, suppliers experience a large drop in their sales to
+all other buyers except the ﬁrst MNC buyer in the year of the event, followed by
+a gradual recovery. The dynamics of adjustment in sales to others suggests that
+ﬁrms face short-run capacity constraints that relax over time. Four years later, the
+sales to others grow by 20%. Most of this growth comes from the acquisition of new
+buyers, which tend to be “better buyers” (e.g., larger and with more stable supplier
+∗We thank Pol Antr`as, Larry Katz, and three anonymous referees for helpful
+and constructive comments. We are especially grateful to Andr´es Rodr´ıguez-Clare,
+Enrico Moretti, Ben Faber, Patrick Kline, Reed Walker, Cecile Gaubert, and Alan
+Auerbach for their guidance and support. We have beneﬁted from conversations
+with Laura Alfaro, David Atkin, Andrew Bernard, Emily Blanchard, Johannes
+Boehm, Juan Manuel Castro-Vincenzi, Davin Chor, Anca Cristea, Dave Donald-
+son, Thibault Fally, James Feyrer, Teresa Fort, Ted Miguel, Eduardo Morales,
+Paul Novosad, Nina Pavcnik, James Sampi, James Sayre, Na’ama Shenhav, Felix
+Tintelnot, Nick Tsivanidis, Rom´an D. Z´arate, and numerous seminar participants.
+We also thank Marco Badilla and Brayan Segura for excellent research assistance.
+We owe special thanks to BCCR, and its Economic Division in particular, for their
+hospitality during our visits. We thank Procomer, COMEX, and CINDE for shar-
+ing data and institutional knowledge. We acknowledge ﬁnancial support from the
+Weiss Fund for Research in Development Economics (Weiss grant 17990), the
+research initiative “Private Enterprise Development in Low-Income Countries”
+(PEDL grant 4744), the Clausen Center for International Business and Policy, and
+the Center for Effective Global Action. The views expressed herein are solely those
+of the authors and are not necessarily those of BCCR or any of the funding insti-
+tutions. All results have been reviewed by BCCR to ensure that no conﬁdential
+information is disclosed.
+C⃝The Author(s) 2022. Published by Oxford University Press on behalf of the President
+and Fellows of Harvard College. This is an Open Access article distributed under the terms
+of the Creative Commons Attribution License (https://creativecommons.org/licenses/by/4.0/),
+which permits unrestricted reuse, distribution, and reproduction in any medium, provided the
+original work is properly cited.
+The Quarterly Journal of Economics (2022), 1495–1552. https://doi.org/10.1093/qje/qjac006.
+Advance Access publication on January 29, 2022.
+1495
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+1496
+THE QUARTERLY JOURNAL OF ECONOMICS
+relationships). Finally, we collected survey data from domestic ﬁrms and MNCs
+to provide further insights into the wide-ranging beneﬁts of supplying to MNCs.
+According to our surveys, these beneﬁts range from better managerial practices to
+a better reputation. JEL Codes: F14, F23, F61, O12, D22, D24.
+I. INTRODUCTION
+Governments around the world compete to attract foreign
+direct investment—typically in the form of afﬁliates of multina-
+tional corporations (MNCs)—through costly public programs such
+as tax holidays or subsidized industrial infrastructure.1 The ex-
+pectation of these governments is that MNCs not only are high
+performers but also help improve the performance of domestic
+ﬁrms. This latter prospect is particularly appealing for develop-
+ing countries, where most ﬁrms are small and low-performing
+(Tybout 2000). Although direct supply chain linkages are not the
+only channel through which MNCs may improve the performance
+of domestic ﬁrms, they are viewed as one of the most promising
+(Alfaro 2017).
+In this article, we ask what are the effects of becoming a
+supplier to MNCs on domestic ﬁrms. A complete answer to this
+question has so far proven elusive for three related reasons. First,
+it has been exceedingly difﬁcult to observe direct business link-
+ages between domestic suppliers and MNCs in conventional data,
+especially for the entire economy. Past research has thus relied on
+sector- or sector-by-region-level variation in the degree of foreign
+ownership in downstream sectors. Second, ﬁrm supply linkages
+may be endogenous. Without observing actual linkages, it is dif-
+ﬁcult to tease out the direction of causality between supplying to
+MNCs and changes in ﬁrm performance. Third, the same inability
+to observe suppliers directly has limited previous research from
+painting a complete picture of the effects of interest.
+To make progress on these three challenges, we bring together
+a rich collection of microdata from Costa Rica (CR) that includes
+the near universe of formal ﬁrm-to-ﬁrm transactions.2 This makes
+1. The competition in investment incentives for MNCs is so high that gov-
+ernments are adopting ever more sophisticated approaches such as special tax
+incentives focused on intangible assets (UNCTAD 2018a). Moreover, the number
+of Special Economic Zones—the mainstay of investment promotion and facilitation
+policies—rose from 76 in 1986 (spread across 47 countries) to over 4,500 in 2018
+(spread widely across the world) (UNCTAD 2018b).
+2. The data cover all formal ﬁrm-to-ﬁrm transactions that amount to more
+than US$4,200 in a year. During our study period (2008–2017), these data were
+collected for general sales tax and corporate income tax enforcement.
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+THE EFFECTS OF JOINING MULTINATIONAL SUPPLY CHAINS
+1497
+it possible to observe the actual linkages between MNCs and their
+domestic suppliers. Second, we adopt an event study strategy to
+estimate the effects of starting to supply to MNCs. We probe the
+robustness of our baseline estimates to four alternative control
+groups. Third, we provide a detailed account of the changes faced
+by ﬁrst-time suppliers to MNCs (shortened to “ﬁrst-time suppli-
+ers” hereafter). We begin with standard measures of ﬁrm perfor-
+mance such as ﬁrm size or total factor productivity (TFP). We then
+leverage the ﬁrm-to-ﬁrm transaction data to document the adjust-
+ments in business with others. We uncover changes in the average
+sales per buyer, the number of other buyers, and other buyers’
+characteristics. We show that mere demand effects or changes in
+tax compliance are unlikely to explain our ﬁndings. Finally, for
+a more nuanced interpretation of our results, we conduct a sur-
+vey of managers in a representative sample of domestic ﬁrms and
+MNCs.
+The analysis proceeds in four steps. First we introduce the
+new database that we have assembled and the context. Most of
+our progress relies on the ﬁrm-to-ﬁrm transaction data collected
+by the Ministry of Finance since 2008. We match these data with
+corporate income tax data and foreign ownership data, among
+others. We can then identify MNCs and domestic ﬁrms in buyer-
+supplier relationships and characterize these ﬁrms and relation-
+ships. In addition to this data advantage, ever since Intel’s entry
+in 1997, CR has attracted a large and diverse set of MNCs. We
+exploit this feature in the heterogeneity analysis.
+Our event of interest is the ﬁrst time a domestic ﬁrm sells to
+an MNC in CR. We focus on events occurring between 2010 and
+2015, for which we observe the transition of domestic ﬁrms into
+their new role as suppliers of MNCs. During this period, 3,697
+domestic ﬁrms start supplying to one of 444 MNCs. On average,
+ﬁrst-time suppliers employ 16.9 workers in the years before their
+event. MNCs are notably larger, averaging 481 workers between
+2008 and 2017. Both sets of ﬁrms span a wide range of economic
+activities, although domestic suppliers are more likely to be found
+in services and MNCs in manufacturing. The ﬁrst relationships
+with an MNC are plausibly consequential, as the average amount
+ﬁrst sold to an MNC is US$62,400 and represents 19% of all sales
+that year.
+In the second step, we introduce our baseline event study de-
+sign to estimate the effects of starting to supply to MNCs. The
+baseline sample includes both domestic ﬁrms that supply for the
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+1498
+THE QUARTERLY JOURNAL OF ECONOMICS
+ﬁrst time to an MNC in CR sometime between 2010 and 2015 and
+domestic ﬁrms that never supply to an MNC between 2008 and
+2017 (henceforth referred to as “never suppliers”). The identiﬁ-
+cation assumption underlying this research design is that ﬁrms
+yet to supply to MNCs together with ﬁrms that started to supply
+MNCs in earlier periods form a credible counterfactual for ﬁrst-
+time suppliers to MNCs, after we account for time-invariant dif-
+ferences between ﬁrms and shocks common to ﬁrms in the same
+four-digit sector and province. Because we can estimate event
+study coefﬁcients for four years before an event, this method al-
+lows us to transparently show that ﬁrst-time suppliers do not
+exhibit pretrends in observables.
+We show that ﬁrst-time suppliers experience strong and per-
+sistent improvements in ﬁrm size. Four years after their ﬁrst sale
+to an MNC buyer, ﬁrms have 33% higher sales, 26% more employ-
+ees, 22% more net assets, and 23% higher total input costs (all rel-
+ative to the year before the event). We examine various measures
+of TFP, ranging from the residual of ordinary least squares (OLS)
+estimates of a Cobb-Douglas production function to an adapted
+version of the De Loecker (2013) estimation procedure (which ac-
+commodates endogenous productivity processes such as learning
+by supplying to MNCs). After their event, domestic ﬁrms expe-
+rience sizable and lasting gains in TFP, such that their TFP is
+4% to 9% higher four years later. Finally, while our TFP estimates
+may partly reﬂect markups, our evidence strongly suggests that at
+least part of the estimated TFP effects capture an actual increase
+in productivity and quality.
+Next, with the aid of the ﬁrm-to-ﬁrm transaction data, we
+explore the business patterns of ﬁrst-time suppliers with all their
+other buyers (all except the ﬁrst MNC buyer). In the year of the
+event, the sales to others decrease by 19%; of these sales, those
+made to other corporate buyers (those buyers whose purchases
+must be reported in the ﬁrm-to-ﬁrm transaction forms) decrease
+by 75%. In time, however, the business with other buyers ﬂour-
+ishes. Four years after starting to supply to MNCs, sales to (cor-
+porate) buyers other than the ﬁrst MNC buyer increase by 20%
+(45%), the number of corporate buyers rises by 31%, and the av-
+erage sales per buyer increase by 14%.
+Because we have merged the ﬁrm-to-ﬁrm transaction data
+with several other ﬁrm-level data sets, we can identify the buy-
+ers whose purchases have been most affected by the event. We
+show that after the event, ﬁrst-time suppliers to an MNC churn
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+THE EFFECTS OF JOINING MULTINATIONAL SUPPLY CHAINS
+1499
+their old buyers more than never suppliers that are randomly as-
+signed a fake event year. Although most of their new buyers are
+domestic, ﬁrst-time suppliers also manage to secure new MNC
+buyers (other than their ﬁrst one). Four years after the event,
+ﬁrst-time suppliers sell to 1.2 new MNC buyers. On average, the
+new buyers of ﬁrst-time suppliers are “better buyers,” in the sense
+of being larger, more engaged in international trade, and having
+more stable supplier relations.
+Our baseline results survive four alternative strategies that
+use different control groups for ﬁrst-time suppliers. The ﬁrst is an
+event study design that leverages the rules of Productive Link-
+ages, a program that mediates linkages between MNCs and do-
+mestic suppliers. Procomer (the government agency implementing
+this program) assesses the ability of domestic ﬁrms to supply to
+MNCs and assigns them scores. Based on these scores, Procomer
+proposes to MNCs short lists of comparable contenders. These
+short lists create the opportunity for a “winner versus losers” de-
+sign. One concern of the Productive Linkages exercise is its sample
+size. We overcome this concern with three matching techniques
+applied to the baseline sample of economy-wide ﬁrst-time link-
+ages to an MNC: matching based on predicted Procomer scores,
+propensity score matching, and nearest-neighbor matching. These
+matching techniques share with Productive Linkages the beneﬁt
+of generating contenders to each MNC deal. Reassuringly, all four
+alternative strategies deliver results consistent with our baseline
+results.
+A lingering concern for identiﬁcation is that ﬁrms may re-
+ceive unobservable ﬁrm-speciﬁc shocks that affect the timing of
+their ﬁrst supplying relationship with an MNC and their subse-
+quent performance. To alleviate this concern, we show that our
+results are robust to excluding ﬁrms that had recently hired ei-
+ther a new manager (regardless of her previous employment), a
+former worker for an MNC, or a supplier to an MNC (irrespective
+of her new position). Finally, our results are robust to keeping
+only never suppliers to MNCs that are nevertheless suppliers
+to a large domestic ﬁrm, dropping all never suppliers to MNCs,
+varying the ﬁxed effects, and balancing the sample of ﬁrst-time
+suppliers around the event year.
+In the third step, we use administrative data to further in-
+form our interpretation of the baseline results. We ﬁrst show that
+the long-term effects of placebo demand shocks (from the gov-
+ernment, a large domestic buyer, or a domestic exporter) diverge
+decisively from those of demand shocks from an MNC. Second, the
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+1500
+THE QUARTERLY JOURNAL OF ECONOMICS
+short-term fall in sales to others (which affects ﬁrst-time suppli-
+ers to MNCs and suppliers to other placebo buyers) suggests that
+domestic ﬁrms face steep short-run marginal-cost curves—most
+likely because of capacity constraints or inﬂexible inputs. Third,
+we provide evidence that our results are unlikely to be explained
+by changes in tax reporting after the ﬁrst linkage with an MNC.
+Last, we show that on average, domestic ﬁrms in manufacturing,
+who supply a core input to the MNC or have a stronger ﬁrst inter-
+action with the MNC, are those who gain most from their event.
+Moreover, it is most useful to supply MNCs in manufacturing and
+services, smaller MNC afﬁliates, or MNCs whose headquarters
+country has a higher GDP per capita and better management
+practices.
+In the fourth and ﬁnal step, we rely on surveys we conducted
+on a representative sample of MNCs and domestic suppliers. Both
+types of ﬁrms recognize how consequential it is for a domestic ﬁrm
+to start supplying to MNCs. After becoming suppliers to MNCs,
+most ﬁrms undergo a series of interrelated changes, which in-
+clude better managerial and organizational practices, expansions
+in product scope with higher-quality products, and improved repu-
+tation. These changes arise from interactions during which MNCs
+communicate expectations and advice and from the effort exerted
+by new suppliers to deliver on their contracts. Overall, these in-
+sights match the story painted by the main results from the ad-
+ministrative data.
+Our work is related to several literatures. At its core, this ar-
+ticle contributes to an extensive literature studying interventions
+aimed at improving ﬁrm performance in developing countries.
+Woodruff (2018) notes that most of this literature focuses on in-
+terventions that alleviate supply-side constraints (e.g., programs
+granting access to credit or training). Despite the popularity of
+such interventions, literature reviews suggest that the evidence is
+mixed as to whether they can actually alter the long-term growth
+of ﬁrms.3 Though notably scarcer, there is increasing evidence that
+demand is an important determinant of (small) ﬁrm dynamics. In
+particular, improving access to foreign buyers—through trade4 or
+foreign direct investment (FDI)—is believed to hold great promise
+for ﬁrms in developing countries. The expectation is that beyond
+3. For reviews on this strand of the literature, see Banerjee (2013) and McKen-
+zie and Woodruff (2013).
+4. De Loecker and Goldberg (2014) review the literature linking trade exposure
+to ﬁrm performance.
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+THE EFFECTS OF JOINING MULTINATIONAL SUPPLY CHAINS
+1501
+increasing demand, foreign buyers provide valuable learning op-
+portunities.
+By studying the effects of selling to foreign buyers, this
+article relates to a voluminous literature on learning from
+exporting.5 In contrast to standard trade, global value chains
+(GVCs) (joined upon starting to supply to an MNC) typically
+involve longer-term ﬁrm-to-ﬁrm relationships. “This relational
+nature of GVCs makes them a particularly powerful vehicle for
+technology transfer along the value chain. Firms have a shared in-
+terest in specializing in speciﬁc tasks, exchanging technology, and
+learning from each other” (World Bank 2020, 70). This stronger
+alignment in incentives between buyers and suppliers, along with
+the increasing prevalence of GVCs, makes studying the effects
+of joining a GVC intrinsically interesting. Several other reasons
+justify this separate study. One such reason is the proximity be-
+tween buyers and suppliers, which is likely to facilitate learn-
+ing. Another is that exporting is only possible for ﬁrms selling
+tradables and competitive enough to overcome trade costs. Also,
+MNCs are plausibly more sophisticated buyers than the modal
+importer (Bernard et al. 2012). Finally, countries devise generous
+tax breaks to explicitly attract MNC afﬁliates. Estimating their
+effects on local ﬁrms is directly valuable for policy makers, who
+can then compare these estimates with those for alternative poli-
+cies (e.g., export promotion).
+By studying the effects of supplying to domestic afﬁliates of
+MNCs, this article is also closely related to a vast literature on the
+effects of FDI on ﬁrm performance.6 Papers on this topic generally
+combine ﬁrm-level panel data with sector-level input-output (I-O)
+tables and ﬁnd that an increase in FDI at the sector- or sector-
+by-region-level is associated with increases in standard measures
+of TFP of (nearby) domestic ﬁrms in upstream sectors (commonly
+referred to as spillovers from backward linkages). Moving from
+variation in sector-level proxies for exposure to FDI to variation
+in the actual linkage status of a ﬁrm presents new opportunities
+5. Atkin, Khandelwal, and Osman (2017) provide causal evidence of learning
+from exporting for a sample of rug producers in Egypt.
+6. For classic papers in the FDI literature, see Haddad and Harrison (1993);
+Aitken and Harrison (1999); Alfaro et al. (2004); Javorcik (2004); Haskel, Pereira,
+and Slaughter (2007); and Keller and Yeaple (2009). Contemporaneous papers
+on the wider effects of FDI include Abebe, McMillan, and Seraﬁnelli (2020),
+Alfaro-Ure˜na, Manelici, and Vasquez (2021), and M´endez-Chac´on and Van Pat-
+ten (2021).
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+1502
+THE QUARTERLY JOURNAL OF ECONOMICS
+for precision and insight into the effects of joining MNC supply
+chains.7
+Finally, this study relates to empirical work made possible by
+the recent availability of domestic ﬁrm-to-ﬁrm transaction data.8
+We study in detail the effects of establishing a ﬁrst linkage with
+an MNC buyer. Four years after this ﬁrst linkage, domestic ﬁrms
+substantially improve their sales to other buyers. Two-thirds of
+this improvement comes from acquiring new buyers. This echoes
+the ﬁnding that the number of buyers explains the majority of
+ﬁrm size heterogeneity (Bernard et al. 2020). Moreover, we use
+the ﬁrm-to-ﬁrm transaction data in three novel ways. First, we
+show that ﬁrst-time suppliers to MNCs not only acquire new buy-
+ers, they acquire buyers that are better performing (e.g., larger
+and with longer supplier relationships). Second, we compare the
+medium-run effects of demand shocks from MNCs against those
+from three types of placebo buyers (the government, large do-
+mestic ﬁrms, and domestic exporters) and highlight the unique
+nature of MNCs as buyers. Third, we contrast the dynamics of ad-
+justment for ﬁrst-time suppliers to MNCs with that of suppliers
+to these placebo buyers. We bring evidence consistent with sup-
+pliers (to both MNCs and placebo buyers) having steep short-run
+marginal cost curves that ﬂatten over time.9
+The article proceeds as follows. Section II describes the data
+and context. Section III introduces our baseline event study strat-
+egy and four alternative strategies. Section IV.A presents our
+baseline results, and Section IV.B probes their robustness. Sec-
+tion V provides additional evidence from the administrative data
+to guide interpretation. Section VI draws on surveys for more
+7. Using our ﬁrm-to-ﬁrm transaction data, we ﬁnd that sector-level backward
+linkages predict less than 1% of the actual ﬁrm-level linkages with MNCs. This
+may explain why estimates of spillovers from backward linkages vary broadly
+across studies, from strongly positive to negative (Havr´anek and Irˇsov´a 2011).
+Online Appendix Table E1 reports the TFP estimates for CR using sector-level
+and ﬁrm-level measures of backward linkages (echoing the methodology of the
+previous FDI spillovers literature). We ﬁnd that the standard measure of backward
+linkages is only signiﬁcant when based on actual ﬁrm-level linkages but not on
+the sector-level ones.
+8. See Huneeus (2018), Brugues (2020), and Dhyne et al. (2021).
+9. This insight resembles those of other papers that explain the interdepen-
+dence of ﬁrm-level sales across markets through increasing marginal costs (Ahn
+and McQuoid 2017; Sun and Zhang 2018; Almunia et al. 2021). We take advan-
+tage of the staggered timing of the event to estimate the marginal-cost elasticity
+at different time horizons.
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+THE EFFECTS OF JOINING MULTINATIONAL SUPPLY CHAINS
+1503
+insights into the drivers of improvements in ﬁrm performance.
+Section VII concludes.
+II. DATA AND DESCRIPTION OF SUPPLYING LINKAGES
+II.A. Data
+1. Economy-Wide Administrative Data.
+The main data set
+tracks the near universe of formal ﬁrm-to-ﬁrm relationships in
+CR between 2008 and 2017. This information is collected by the
+CR Ministry of Finance through the D-151 tax form. Firms must
+report the tax identiﬁer (ID) of all their suppliers and buyers
+with whom they generate at least 2.5 million Costa Rican colones
+(around US$4,200) in transactions that year, in addition to the to-
+tal amount transacted. This declaration is compulsory not only for
+private businesses but also for all actors in the economy (e.g., in-
+dividuals providing professional services, public entities). Thanks
+to the third-party reporting nature of the D-151 form, this data
+plays a crucial role in the enforcement of the general sales tax and
+corporate income tax.
+We merge the ﬁrm-to-ﬁrm transaction data with the yearly
+corporate income tax returns from the Ministry of Finance for
+the same 2008–2017 time period. These returns cover the uni-
+verse of formal ﬁrms in the country and contain typical balance
+sheet variables (e.g., total sales, net assets, input costs). We add
+matched employer-employee data from the Costa Rican Social Se-
+curity Fund, which tracks the labor earnings and occupations of
+all workers engaged in formal employment.10 In some robustness
+checks, we also bring in data on ﬁrm-level imports and exports
+from Costa Rican customs declarations.
+In addition, we construct a comprehensive data set on the
+foreign ownership of ﬁrms by cross-checking information from six
+different sources. The ﬁrst three are annual surveys conducted
+by the Central Bank of Costa Rica (BCCR) and inquiring about
+the foreign ownership of ﬁrms. These surveys tend to oversample
+large ﬁrms. The fourth source is the reporting of ﬁrms that are
+active under the Free Trade Zone regime. The ﬁfth source is
+the organization responsible for drawing FDI to CR (CINDE),
+which provides information on the foreign ownership of ﬁrms
+10. Informal workers represent 27.4% of all workers in CR. Although siz-
+able, this share is smaller than the 53.1% average for Latin America (ILO 2018).
+Sections V.C and Online Appendix A.1.4 address the issue of informality.
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+1504
+THE QUARTERLY JOURNAL OF ECONOMICS
+they attracted. Finally, we bring in Orbis data, which has a high
+coverage of ﬁrms in CR and allows us to conﬁrm which foreign
+ﬁrms in the country are part of an MNC group.
+A last step in building the ﬁnal administrative data set is
+to assign tax IDs to ﬁrm groups and properly turn tax ID–level
+information into group-level information.11 Online Appendix A.1
+discusses how we approach this step, in addition to providing
+more details on data construction and summary statistics for the
+administrative data sets mentioned above.
+2. Productive Linkages Data.
+Since 2001, Procomer (CR’s
+trade promotion agency) has implemented a matchmaking pro-
+gram called Productive Linkages. The program aims to insert lo-
+cal ﬁrms into export supply chains, where the exporter is usually
+an MNC afﬁliate. Procomer has built a comprehensive database
+of local ﬁrms that are suitable and willing to supply to MNCs.
+Procomer staff visit ﬁrms and evaluate them on criteria that are
+typically unobservable in tax records but are nonetheless relevant
+to MNCs. Each ﬁrm is assigned an overall score. When an MNC
+approaches Procomer with an input need, Procomer identiﬁes the
+suppliers that can produce that input, ranks them based on their
+score, and shares a short list of the highest-ranked suppliers. On-
+line Appendix A.2 describes the Procomer data.
+We leverage the Procomer data in two ways. First, while the
+program was not designed as an experiment, by applying sensible
+restrictions to the universe of deals mediated by Procomer, we can
+retrieve a subset with a quasi-experimental setup. Speciﬁcally, we
+study the 31 deals (i) that are ﬁrst-time deals with an MNC for
+one of 31 domestic ﬁrms, (ii) that occur in our sample period (be-
+tween 2009 to 2015), and (iii) where all 84 contenders had not yet
+supplied to an MNC before the deal for which they were short-
+listed. Second, we use the universe of Procomer scores to learn
+about their predictors from the administrative data. We generate
+predicted Procomer scores for all ﬁrm-years in our economy-wide
+sample and apply a matching technique based on similarity in
+predicted Procomer scores.
+11. A ﬁrm can split its reporting across several tax IDs (e.g., by assigning all
+workers to one tax ID and all sales to another). If they share ownership and make
+decisions as a unit, tax IDs should not be treated as independent ﬁrms but should
+be aggregated into ﬁrm groups. Throughout the article, we use ﬁrms to refer to
+ﬁrm groups.
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+THE EFFECTS OF JOINING MULTINATIONAL SUPPLY CHAINS
+1505
+3. Survey Data.
+In 2018, we conducted surveys of MNCs and
+their domestic suppliers. Our main objective was to shed light on
+typically unobservable aspects of relationships between the two
+types of ﬁrms. The surveys were administered in two versions: a
+longer ﬁeld survey conducted at the main location of the ﬁrm and
+a shorter web-based one. Core questions were mirrored between
+surveys to domestic ﬁrms and MNCs. Given the retrospective na-
+ture of some of the topics covered, the ideal respondents were the
+founder of the domestic ﬁrm and the supply chain manager of
+the MNC. The need to reach speciﬁc employees compounded the
+already difﬁcult task of establishing ﬁrst contact with these ﬁrms.
+We gathered responses from a total of 164 ﬁrms, of which
+38 were surveyed in person and 126 online; 106 respondents are
+domestic suppliers to MNCs and 58 are MNCs based in CR. Com-
+bined, the responses from buyers and sellers cover at least one
+side of the buyer-seller pair for about 20% of the pairs of interest.
+Comparing the ﬁrms with and without a response suggests that a
+response bias is unlikely. See Online Appendix F for more details.
+II.B. Description of MNCs, Domestic Suppliers, and Their First
+Linkage
+1. MNCs in CR.
+We start from the 2,156 ﬁrms in CR that
+belong to corporate groups where at least one ﬁrm is partially
+foreign-owned.12 From this set, we create three mutually exclusive
+subsets: ﬁrms that are fully domestically owned (despite being
+part of a corporate group where another ﬁrm is partially foreign-
+owned), ﬁrms that are themselves at least partially foreign-owned
+but whose median employment across all years of activity in the
+country is under 100, and ﬁrms that are themselves at least par-
+tially foreign-owned and whose median employment is over 100.
+We study the 622 ﬁrms in the third category.13
+12. A corporate group is a set of ﬁrms that share ownership but do not nec-
+essarily behave as one business. For instance, some ﬁrms in the same corporate
+group may operate in different economic sectors.
+13. The typical foreign-owned ﬁrm in the second category is not an MNC af-
+ﬁliate but a single-location ﬁrm that serves local demand, either in service sectors
+(e.g., hotels) or sectors with low local input requirements (e.g., import/export retail
+or real estate agencies). Although our baseline results pertain to the 100-worker
+size restriction for foreign-owned ﬁrms, we show in Online Appendix D.4 that
+results are robust to removing it and including ﬁrms in the second category as
+well.
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+1506
+THE QUARTERLY JOURNAL OF ECONOMICS
+All the 622 ﬁrms we focus on are MNC afﬁliates, with known
+global ultimate ownership and a substantial afﬁliate presence in
+CR. We use the customary deﬁnition of an MNC as “an enterprise
+that controls and manages production establishments/plants lo-
+cated in at least two countries” (see Antr`as and Yeaple 2014, 56).
+Our size threshold also enables us to circumvent issues related
+to FDI statistics, such as the rising use of shell companies. These
+622 ﬁrms employ 76% of the workers and export 91% of the to-
+tals across ﬁrms in the three categories combined (see Online
+Appendix A.1.3).
+From the universe of ﬁrm-to-ﬁrm transactions in CR, we learn
+that between 2010 and 2015, 444 of these 622 MNCs became the
+ﬁrst MNC buyer from one of 3,697 domestic ﬁrms. Of the 444
+MNCs, 46% are from the United States, with the other 54% coming
+mainly from either Latin America or Western Europe. Although
+manufacturing is the most frequent sector (covering 38% of the
+444 MNCs), the remaining 62% of MNCs fall into sectors as di-
+verse as retail, agriculture, and information and communication.
+For more detailed summary statistics on these MNCs, see Online
+Appendix Tables B1 and B2.
+2. Domestic Suppliers to MNCs. Among all the domestic
+ﬁrms in CR, we restrict our attention to those with at least a me-
+dian of three workers and median yearly revenues of US$50,000
+(CPI-deﬂated to 2013 dollars) across all years of activity. We re-
+move ﬁrms that are state owned, registered as households, non-
+governmental organizations (NGOs), or part of the ﬁnancial, con-
+struction, and education sectors.14 This leaves us with 24,370
+ﬁrms. Of these, we use the ﬁrm-to-ﬁrm transaction data between
+2008 and 2017 to identify and keep only two types of ﬁrms: the
+3,697 ﬁrms that become ﬁrst-time suppliers to an MNC sometime
+between 2010 and 2015,15 and the 14,338 ﬁrms never supplying
+14. While we justify these restrictions in Online Appendix A.1, our baseline
+results are robust to discarding them (see discussion in Section IV.B and corre-
+sponding tables in Online Appendix D.4).
+15. We start in 2010 to ensure we measure correctly the ﬁrst year when a ﬁrm
+supplies an MNC. After 2015, we are no longer able to observe at least two years
+after each ﬁrst-time linkage. Also, there are 3,813 domestic ﬁrms that became
+ﬁrst-time suppliers to 471 MNCs. However, in the main event study regression
+(1) studying the effect on total sales, only 3,697 of these domestic ﬁrms are used
+in the estimation, with the rest being dropped due to the ﬁne set of ﬁxed effects
+used. For consistency, we present summary statistics only for those 3,697 ﬁrms
+and their associated 444 ﬁrst MNC buyers.
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+THE EFFECTS OF JOINING MULTINATIONAL SUPPLY CHAINS
+1507
+to an MNC between 2008 and 2017. Our interest lies in the ﬁrms
+in the ﬁrst category, but we use ﬁrms in the second category to
+construct counterfactuals.
+For the 3,697 ﬁrst-time suppliers to an MNC, the average
+number of workers in the years before the event is 16.9. Around
+11% of these ﬁrms operate in manufacturing, and around 32%
+work in wholesale and retail trade (including repair and mainte-
+nance). Among the service sectors, the most common sectors are
+professional, scientiﬁc, and technical services (14%), administra-
+tive and support services (10%), transportation and storage (9%),
+and accommodation and food services (6%). For more summary
+statistics on the ﬁrst-time suppliers (e.g., on their productivity,
+trade activity, age, and number of buyers) see Online Appendix
+Table B3.
+3. Relationships between MNCs and Their Domestic Suppli-
+ers.
+In CR, MNCs and domestic ﬁrms can establish a buyer-seller
+relationship either independently, unmediated by any govern-
+ment institution, or mediated by Procomer through the Produc-
+tive Linkages program. The aim of programs such as Productive
+Linkages is not to replace unmediated market-based linkages be-
+tween MNCs and domestic suppliers with linkages mediated by
+the program, but to create additional opportunities for linkages
+(e.g., by lowering informational barriers on the capabilities of do-
+mestic suppliers). This program mediates only 1% of the number
+and value of linkages between MNCs and domestic suppliers oc-
+curring economy-wide in CR. For this reason, we prioritize the
+analysis of unmediated relationships.
+As mentioned already, we ﬁnd 3,697 domestic ﬁrms that sup-
+ply to an MNC for the ﬁrst time sometime between 2010 and 2015
+in an unmediated fashion. We refer to these ﬁrst-time supply-
+ing instances as (unmediated economy-wide) events. Across these
+events, the average amount ﬁrst sold to an MNC is US$62,400
+and represents 19% of all sales that year. While the average rela-
+tionship of ﬁrst-time suppliers lasts 1.99 years, the relationship
+with the ﬁrst MNC buyer lasts on average 2.77 years. This sug-
+gests that the relationship with the ﬁrst MNC buyer is plausibly
+consequential for the supplier. For more summary statistics on
+the events, see Online Appendix Tables B4 and B5.
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+1508
+THE QUARTERLY JOURNAL OF ECONOMICS
+III. EMPIRICAL STRATEGY
+III.A. Baseline Empirical Strategy: Economy-Wide Event Studies
+In what follows, we present our baseline empirical strategy
+to study the effects of becoming a ﬁrst-time supplier to an MNC in
+CR. Between 2010 and 2015, 3,697 such events occur across the
+Costa Rican economy. More speciﬁcally, we estimate the following
+event study speciﬁcation:
+(1)
+yit = αi + λspt +
+C
+
+k=C
+θkDk
+it + εit,
+where yit is an outcome of ﬁrm i in calendar year t, αi is a ﬁrm ﬁxed
+effect, and λspt are four-digit sector × province × calendar year
+ﬁxed effects. We deﬁne the event time dummies as Dk
+it := 1[t = τi +
+k] ∀k ∈(C, C), DC
+it = 1[t ⩾τi + C], and DC
+it = 1[t ⩽τi + C], where
+1[.] is the indicator function and τ i is the ﬁrst year when ﬁrm i
+sells to an MNC. εit is an error term. We normalize θ−1 = 0 and set
+C = −5 and C = +5. We cluster standard errors at the two-digit
+sector × province level.
+Our baseline economy-wide regressions use a sample that
+includes domestic ﬁrms that become ﬁrst-time suppliers to an
+MNC sometime between 2010 and 2015 and domestic ﬁrms that
+never supply to an MNC between 2008 and 2017. Identifying the
+event study coefﬁcients θk hinges on the assumption that ﬁrms
+yet to supply to MNCs and ﬁrms that started to supply in ear-
+lier years form a credible counterfactual for ﬁrms that start sup-
+plying to MNCs, after accounting for time-invariant differences
+between ﬁrms and common sector-by-province-by-year shocks.16
+The panel data allow us to consistently estimate treatment ef-
+fects without assuming treatment exogeneity and without an in-
+strumental variable, provided that the treatment varies over time
+16. This design is not challenged by selection on levels, observable or not. For
+instance, even before starting to supply to MNCs, ﬁrst-time suppliers employ on
+average 19% more workers than never suppliers in the same four-digit sector and
+province. In addition, a consistent estimate of the average treatment effect requires
+that treated and control ﬁrms experience the same macro shocks (Blundell and
+Dias 2009). Differential trends might arise if treated and control units operate
+in different markets. We limit control ﬁrms to nearby ﬁrms in the same four-
+digit sector to account for common shocks, such as those to factor markets or
+transportation networks.
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+THE EFFECTS OF JOINING MULTINATIONAL SUPPLY CHAINS
+1509
+and is uncorrelated with transitory ﬁrm-speciﬁc shocks that can
+determine outcomes (Wooldridge 2002; Blundell and Dias 2009).
+Section IV.B provides evidence in support of these identiﬁcation
+assumptions.
+III.B. Alternative Empirical Strategies
+1. Productive Linkages Event Studies.
+The rules of the Pro-
+ductive Linkages program generate quasi-experimental variation
+in opportunities to supply to MNCs among ﬁrms shortlisted for
+a deal with an MNC. Procomer undertakes thorough evaluations
+of domestic ﬁrms willing to supply to MNCs and assigns them an
+overall score of readiness to do so. These scores reﬂect information
+that is relevant to MNCs but not available in typical tax data (e.g.,
+whether the ﬁrm employs at least one English speaker). Based on
+scores, Procomer proposes short lists of candidates to MNCs.17
+The Productive Linkages event study is a generalized triple-
+difference design where ﬁrms experience a ﬁrst deal with an MNC
+in different years. We modify equation (1) to allow for an extra
+interaction between event dummies Dk
+idt and an indicator dummy
+of winning deal d, 1{Winner}id. We label the winner and losers of
+a given deal with the same d subscript. We investigate the effect
+of being considered for deal d on the winner and losers of that deal
+by running the following regression:
+yidt = αi + γd + λt +
+C
+
+k=C
+θ L
+k Dk
+idt +
+C
+
+k=C
+θDiff
+k
+1{Winner}idDk
+idt + εidt,
+(2)
+where yidt is the outcome of ﬁrm i part of deal d in year t, λt is the
+calendar year ﬁxed effect, and 1{Winner}id is an indicator function
+that equals 1 if ﬁrm i is the winner of deal d. γ d are deal ﬁxed
+effects that force the effects on the winner to be measured with
+respect to those on the actual contenders to the same deal. Our
+coefﬁcients of interest are θ L
+k and θDiff
+k
+, which are interpreted as the
+effect of the event on the losers and on the difference in outcomes
+between winners and losers, respectively. All other variables are
+deﬁned the same as for equation (1).
+17. Online Appendix A.2.1 provides more background information on the pro-
+gram history and functioning.
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+1510
+THE QUARTERLY JOURNAL OF ECONOMICS
+Identiﬁcation relies on the assumption that shortlisted ﬁrms
+missing a deal with an MNC offer a valid counterfactual to what
+would have happened with the winners’ performance had they
+not won the deal. As we observe the scores behind the ranking
+shared with MNCs, we can compare the scores of winners and
+losers. In Online Appendix A.2.2, we provide evidence indicating
+that the only meaningful difference between winners and losers
+is the timing of a ﬁrst deal with an MNC (as opposed to ex ante
+differences in scores or other observables).
+2. Event Studies Combined with Matching Estimators.
+One
+advantage of the baseline exercise with economy-wide event stud-
+ies is its sample size of 3,697 treated ﬁrms (in contrast to the
+31 treated ﬁrms in the Productive Linkages exercise). Where the
+Productive Linkages exercise dominates the baseline exercise is
+in its ability to compare the outcomes of treated ﬁrms with the
+contemporaneous outcomes of similar ﬁrms (as witnessed by their
+scores). In what follows, we present three techniques which com-
+bine these two advantages, that is, which use the same sample of
+3,697 economy-wide ﬁrst-time suppliers as the treated ﬁrms and
+compare their outcomes with the contemporaneous outcomes of
+control ﬁrms which are similar in one of three ways deﬁned below.
+i. Matching by Predicted Procomer Scores. This exercise starts
+from the 630 Procomer scores assigned to 613 distinct ﬁrms in the
+years with administrative data (2008–2017). We regress the Pro-
+comer score of a ﬁrm-year on 14 potential predictors of that score
+(in addition to 20 broad sector ﬁxed effects). Among the predictors
+are measures of ﬁrm size, the share of college-educated workers,
+and indicators for whether the ﬁrm is an exporter, employs work-
+ers with experience at an MNC, or supplies to a big domestic ﬁrm.
+We use the estimated coefﬁcients (see Online Appendix Table D2)
+to predict Procomer scores for all ﬁrm-years in the full economy-
+wide sample. The control group for each ﬁrst-time supplier con-
+tains the three never suppliers in the same four-digit sector that
+have the closest predicted Procomer score to that of the ﬁrst-time
+supplier in its event year.
+We then estimate for each outcome a modiﬁed version of
+the event study speciﬁcation in equation (1). The modiﬁcation
+involves an extra interaction between event time dummies and
+an indicator dummy of becoming a ﬁrst-time supplier in the year
+of the event. This version of equation (1) resembles equation (2)
+in that they both include a contemporaneous “winner versus
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+THE EFFECTS OF JOINING MULTINATIONAL SUPPLY CHAINS
+1511
+losers” comparison captured by the θ Dif f
+k
+coefﬁcients (estimating
+the effect of the event on the difference in outcomes between the
+ﬁrst-time suppliers and their control group, this time constructed
+based on the predicted Procomer score). As in equation (1), we
+include ﬁrm ﬁxed effects and four-digit sector × province ×
+calendar year ﬁxed effects.
+ii. Propensity Score Matching. We also implement the stan-
+dard propensity score matching. In our case, the propensity
+score—denoted by e(Xit)—is the conditional probability that ﬁrm
+i is chosen as a ﬁrst-time supplier to an MNC in year t. To ob-
+tain e(Xit) we estimate a year-by-year ﬂexible probit model for the
+full economy-wide sample. Xit includes the same characteristics
+of ﬁrm i in year t that we used to predict the Procomer scores
+in the matching method described above (in addition to four-digit
+sector, year, and province ﬁxed effects). Online Appendix Table D2
+reports the results of the probit regression. We ﬁx as the control
+group of a given ﬁrst-time supplier the three never suppliers in
+its four-digit sector with the closest propensity score in the event
+year of that supplier. We compare the outcomes of all economy-
+wide ﬁrst-time suppliers to those of ﬁrms in their personalized
+control group. We do so by estimating the same modiﬁed version
+of equation (1) described already.
+iii. Nearest Neighbors Matching. In this exercise, we match
+ﬁrst-time suppliers with control ﬁrms that did not supply to MNCs
+based on the similarity of their pre-event outcomes. For each ﬁrst-
+time supplier, potential control ﬁrm, and outcome, we compute a
+loss function equal to the sum of squares of the deviations of the
+standardized outcome of the ﬁrst-time supplier from that of the
+potential control ﬁrm. This sum is across the three years before
+the event, where the deviation of each year is equally weighted.
+We then select as the nearest neighbors the three ﬁrms in the four-
+digit sector of the ﬁrst-time supplier with the lowest value of the
+loss function. These nearest neighbors serve as a counterfactual
+for ﬁrst-time suppliers in a generalized difference-in-differences
+estimation. Namely, our difference-in-differences estimate reﬂects
+the average difference in the outcomes of the ﬁrst-time suppliers
+and their controls in the same event year, relative to the average
+difference in the year leading up to a ﬁrst-time supplying event.
+For more details on this method, see Online Appendix D.1.1.
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+1512
+THE QUARTERLY JOURNAL OF ECONOMICS
+IV. FIRST-TIME SUPPLIERS TO MNCS IMPROVE THEIR PERFORMANCE
+IV.A. Baseline Economy-Wide Event Study Results
+1. Standard Measures of Firm Performance.
+In what follows
+we rely on the event study speciﬁcation (1) and the economy-wide
+full sample to estimate the effects of starting to supply to an MNC
+on ﬁrm size and measures of TFP. These results characterize the
+3,697 domestic ﬁrms that become ﬁrst-time suppliers to an MNC
+in CR sometime between 2010 and 2015.
+i. Firm Size. Figure I, Panels A–D plot the event study co-
+efﬁcients for log total sales, number of workers, net assets (as a
+proxy for capital),18 and input costs (as a proxy for materials). Re-
+assuringly, we ﬁnd no evidence of selection into supplying based
+on past ﬁrm growth. It is only after ﬁrms start supplying to MNCs
+that they experience strong and lasting growth. This growth al-
+ready starts in the year of their ﬁrst transaction with an MNC,
+with the average growth that year relative to the previous year
+being 16% in sales, 6% in the number of workers, and 9% in input
+costs. Net assets react with a one-year lag. Firms keep growing
+over the next years until reaching a plateau at 33% higher sales,
+26% more workers, 22% more assets, and 23% higher input costs.
+Table I provides additional details.
+The magnitude and long-run nature of these effects are note-
+worthy. In other settings where ﬁrms receive demand shocks that
+are comparable or larger, ﬁrms do not grow as much. For instance,
+Atkin, Khandelwal, and Osman (2017) ﬁnd that Egyptian mi-
+croenterprises that receive large export orders for rugs (with cu-
+mulative payments of US$155,682 for 2.5 years of work) did not
+increase their employment and capital usage. Similarly, supply-
+side interventions such as business training can also fail to boost
+ﬁrm scale (Karlan and Valdivia 2011).
+ii. Measures of TFP. We ﬁrst estimate TFP using OLS, as-
+suming either a Cobb-Douglas or translog technology. To this end,
+we extend speciﬁcation (1) by using log sales as the outcome vari-
+able and the logs of the number of workers, net assets (as a proxy
+for capital), and input costs (as a proxy for materials) as time-
+18. The net assets variable is the sum of (i) cash and other liquid assets, (ii)
+shares/stocks, (iii) inventories, and (iv) total ﬁxed assets. In the terminology of the
+Costa Rican Ministry of Finance, the “net” designation means that the ﬁxed assets
+part of this variable is already net of depreciation, amortization, and depletion.
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+THE EFFECTS OF JOINING MULTINATIONAL SUPPLY CHAINS
+1513
+−.1
+0
+.1
+.2
+.3
+.4
+Outcome: Total Sales
+−4
+−3
+−2
+−1
+0
+1
+2
+3
+4
+Years Since First MNC Interaction
+(A) Total Sales
+−.1
+0
+.1
+.2
+.3
+.4
+Outcome: Number of Workers
+−4
+−3
+−2
+−1
+0
+1
+2
+3
+4
+Years Since First MNC Interaction
+(B) Number of Workers
+−.1
+0
+.1
+.2
+.3
+.4
+Outcome: Net Assets
+−4
+−3
+−2
+−1
+0
+1
+2
+3
+4
+Years Since First MNC Interaction
+(C) Net Assets
+−.1
+0
+.1
+.2
+.3
+.4
+Outcome: Input Costs
+−4
+−3
+−2
+−1
+0
+1
+2
+3
+4
+Years Since First MNC Interaction
+(D) Input Costs
+−.05
+0
+.05
+.1
+.15
+Outcome: TFP (CD OLS)
+−4
+−3
+−2
+−1
+0
+1
+2
+3
+4
+Years Since First MNC Interaction
+(E) TFP (Cobb–Douglas OLS)
+−.05
+0
+.05
+.1
+Outcome: TFP (ACF 2015)
+−4
+−3
+−2
+−1
+0
+1
+2
+3
+4
+Years Since First MNC Interaction
+(F) TFP (Ackerberg et al. , 2015)
+FIGURE I
+Domestic Firms Increase Their Size and TFP after Starting to Supply to MNCs
+Figure I plots the estimated θk event study coefﬁcients from a regression of the
+form given in equation (1), where the dependent variable is, in turn, log total
+sales (Panel A), log number of workers (Panel B), log net assets (as a proxy for
+capital, Panel C), and log input costs (as a proxy for materials, Panel D). Panels E
+and F adapt speciﬁcation (1) to two measures of TFP. Panel E uses a measure of
+TFP resulting from OLS production function estimation, under the Cobb-Douglas
+functional form assumption. Panel F estimates TFP using the method proposed
+by Ackerberg, Caves, and Frazer (2015). The event is deﬁned as a ﬁrst-time sale
+to an MNC. θ−1, the coefﬁcient of the year prior to a ﬁrst sale to an MNC, is
+normalized to zero. All regressions include ﬁrm and four-digit sector × province ×
+calendar year ﬁxed effects. The vertical lines reﬂect the 95% conﬁdence intervals.
+The coefﬁcients plotted correspond to Table I, columns (1)–(5) and (8), obtained
+from the full sample including domestic ﬁrms that become ﬁrst-time suppliers to
+an MNC between 2010 and 2015 and domestic ﬁrms never observed as supplying
+to an MNC between 2008 and 2017.
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+1514
+THE QUARTERLY JOURNAL OF ECONOMICS
+TABLE I
+DOMESTIC FIRMS INCREASE THEIR SIZE AND TFP AFTER STARTING TO SUPPLY TO MNCS
+Firm size
+TFP
+Total
+Number
+Net
+Input
+CD
+TL
+LP
+ACF
+DL†
+sales
+workers
+assets
+costs
+OLS
+OLS
+(2003)
+(2015)
+(2013)
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+(7)
+(8)
+(9)
+4 years before event
+0.044
+0.009
+−0.017
+−0.004
+0.016
+0.015
+0.020
+0.016
+−0.027∗∗
+(0.028)
+(0.023)
+(0.052)
+(0.047)
+(0.017)
+(0.016)
+(0.018)
+(0.017)
+(0.014)
+3 years before event
+0.029
+−0.004
+−0.016
+0.032
+0.020∗
+0.019∗
+0.028∗∗
+0.023∗∗
+−0.016∗
+(0.023)
+(0.017)
+(0.041)
+(0.037)
+(0.012)
+(0.010)
+(0.011)
+(0.011)
+(0.009)
+2 years before event
+0.026
+0.005
+0.006
+0.025
+0.015
+0.007
+0.011
+0.008
+−0.002
+(0.018)
+(0.013)
+(0.028)
+(0.021)
+(0.010)
+(0.009)
+(0.010)
+(0.010)
+(0.005)
+Year of event
+0.159∗∗∗
+0.063∗∗∗
+0.029
+0.093∗∗∗
+0.059∗∗∗
+0.044∗∗∗
+0.061∗∗∗
+0.047∗∗∗
+0.004
+(0.019)
+(0.022)
+(0.020)
+(0.024)
+(0.009)
+(0.008)
+(0.008)
+(0.007)
+(0.007)
+1 year after event
+0.325∗∗∗
+0.242∗∗∗
+0.140∗∗∗
+0.227∗∗∗
+0.082∗∗∗
+0.057∗∗∗
+0.067∗∗∗
+0.058∗∗∗
+0.020∗∗∗
+(0.028)
+(0.028)
+(0.031)
+(0.029)
+(0.012)
+(0.011)
+(0.011)
+(0.010)
+(0.007)
+2 years after event
+0.351∗∗∗
+0.272∗∗∗
+0.189∗∗∗
+0.237∗∗∗
+0.088∗∗∗
+0.067∗∗∗
+0.078∗∗∗
+0.066∗∗∗
+0.025∗∗∗
+(0.032)
+(0.033)
+(0.038)
+(0.041)
+(0.012)
+(0.012)
+(0.010)
+(0.010)
+(0.007)
+3 years after event
+0.342∗∗∗
+0.272∗∗∗
+0.213∗∗∗
+0.214∗∗∗
+0.088∗∗∗
+0.064∗∗∗
+0.074∗∗∗
+0.061∗∗∗
+0.031∗∗∗
+(0.035)
+(0.035)
+(0.037)
+(0.050)
+(0.016)
+(0.014)
+(0.012)
+(0.012)
+(0.010)
+4 years after event
+0.334∗∗∗
+0.256∗∗∗
+0.217∗∗∗
+0.234∗∗∗
+0.086∗∗∗
+0.066∗∗∗
+0.076∗∗∗
+0.064∗∗∗
+0.042∗∗∗
+(0.037)
+(0.036)
+(0.048)
+(0.058)
+(0.015)
+(0.015)
+(0.013)
+(0.012)
+(0.011)
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+THE EFFECTS OF JOINING MULTINATIONAL SUPPLY CHAINS
+1515
+TABLE I
+CONTINUED
+Firm size
+TFP
+Total
+Number
+Net
+Input
+CD
+TL
+LP
+ACF
+DL†
+sales
+workers
+assets
+costs
+OLS
+OLS
+(2003)
+(2015)
+(2013)
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+(7)
+(8)
+(9)
+Firm FE
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Year-4Dsect-prov FE
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Never suppliers
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Mean dep. var. (level)
+0.85
+13.2
+2.93
+0.78
+1.12
+1.12
+−0.00
+−0.00
+1.51
+Std. dev. dep. var. (level)
+2.54
+32.6
+712.8
+2.68
+3.17
+3.17
+0.37
+0.35
+0.33
+Adjusted R2
+0.77
+0.74
+0.81
+0.83
+0.95
+0.97
+0.63
+0.62
+0.87
+No. observations
+116,683
+116,683
+94,038
+67,194
+64,419
+64,419
+64,419
+64,419
+64,419
+No. ﬁxed effects
+25,174
+25,174
+21,480
+15,894
+15,464
+15,464
+15,464
+15,464
+15,464
+No. ﬁrms
+18,035
+18,035
+14,804
+10,834
+10,492
+10,492
+10,492
+10,492
+10,492
+Notes. Table I shows the results of running the event study speciﬁcation (1), where the event is deﬁned as a ﬁrst-time sale to an MNC. The ﬁrst four dependent variables are
+measures of ﬁrm size: log total sales (column (1)), log total number of workers (column (2)), log net assets (as a proxy for capital, column (3)), and log input costs (as a proxy for
+materials, column (4)). Columns (5)–(9) propose various proxies of TFP as an outcome variable. Column (5) uses a measure of TFP resulting from an OLS production function
+estimation that assumes a Cobb-Douglas technology, with revenues (CPI-deﬂated to 2013 U.S. dollars) as the output measure and total net assets, number of workers, and input
+costs as input measures for K, L, and M, respectively. Column (6) differs from column (5) only in its assumption of a translog functional form. For both Cobb-Douglas and translog, we
+estimate the coefﬁcients on factors of production over the entire sample of domestic ﬁrms, controlling for narrowly deﬁned ﬁxed effects. Column (7) shows the results of production
+function estimation following Levinsohn and Petrin (2003). Column (8) shows the results of production function estimation following Ackerberg, Caves, and Frazer (2015). †In column
+(9), we adapt the TFP estimation procedure from De Loecker (2013) such that the endogenous productivity process that is accommodated by this procedure is no longer learning by
+exporting, but learning from supplying to an MNC. θ−1, the coefﬁcient of the year prior to a ﬁrst sale to an MNC, is normalized to zero. All columns report event study estimates for
+the sample including both domestic ﬁrms that become ﬁrst-time suppliers to an MNC between 2010 and 2015 and domestic ﬁrms never observed as supplying to an MNC between
+2008 and 2017. With the exception of the number of workers, means (in levels) are reported in millions of U.S. dollars (CPI-deﬂated to 2013 dollars). Clustering of standard errors is
+at the two-digit sector by province level. Robust standard errors are in parentheses. ***, **, * denote statistical signiﬁcance at the 1%, 5%, and 10% levels, respectively.
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+1516
+THE QUARTERLY JOURNAL OF ECONOMICS
+varying controls.19 Because OLS does not account for the poten-
+tial endogeneity of input choices, we also use the methods pro-
+posed by Levinsohn and Petrin (2003) and Ackerberg, Caves, and
+Frazer (2015). In cases without input and output price variations
+correlated with the event, these two methods provide credible es-
+timates of true TFP.
+Additionally, we adapt the TFP estimation procedure of
+De Loecker (2013) such that the endogenous TFP process that
+is accommodated by this procedure is no longer learning from
+exporting, but learning from supplying to an MNC. With this
+adapted method, we can explore the possibility that supplying to
+an MNC shapes a ﬁrm’s future TFP while allowing other ﬁrm-level
+actions (e.g., investment decisions) to also affect future TFP. This
+method addresses the potential bias of ignoring a ﬁrm’s MNC-
+supplying experience in the underlying TFP process (bias that
+might affect standard proxy estimators, such as Levinsohn and
+Petrin 2003).
+Figure I, Panels E and F summarize the TFP results and
+Table I provides more details. Reassuringly, ﬁrms that start sup-
+plying to MNCs do not display a history of TFP growth. After
+their events, however, suppliers exhibit large increases in TFP,
+such that four years later, TFP is 4% to 9% higher than in the
+year before the event (depending on the estimation procedure).
+iii. Markup Effects (or Lack Thereof). The TFP estimates
+above might be upward biased if ﬁrst-time suppliers to MNCs
+start charging higher markups—to the ﬁrst MNC buyer alone or
+to other buyers as well. This can happen if supplying to MNCs
+leads to quality improvements, higher-quality goods carry higher
+markups (as in Atkin et al. 2015), and there are no countervail-
+ing forces that tend to compress markups (such as switching to
+buyers with greater bargaining power or markets with tougher
+competition, as in Mayer, Melitz, and Ottaviano 2014; Acemoglu
+and Tahbaz-Salehi 2020; Alviarez et al. 2020). We argue that while
+the ﬁrst two conditions may be met, the third condition is unlikely
+to be met in our empirical setting.
+Before proceeding with our evidence, an important caveat is in
+order. Lacking data on prices and quantities for domestic transac-
+tions makes it difﬁcult to rule out deﬁnitively the possibility that
+19. We use net instead of ﬁxed assets because there are fewer missing or zero
+ﬁrm-year values for net assets. TFP estimates using ﬁxed assets are virtually
+identical and are available on request.
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+THE EFFECTS OF JOINING MULTINATIONAL SUPPLY CHAINS
+1517
+part of the estimated TFP gains reﬂects higher markups. That
+said, in what follows, we provide several pieces of evidence that
+strongly suggest that at least part of the estimated TFP effects
+capture an actual increase in productivity and/or quality.
+First, in Online Appendix Table C1 we use the em-
+pirical
+models
+of
+De
+Loecker
+and
+Warzynski
+(2012)
+and
+Sampi, Jooste, and Vostroknutova (2021)20 to show unchanged
+(or declining) average markups for ﬁrst-time suppliers to MNCs.
+This evidence is in line with our surveys, which point to the strong
+bargaining power of MNCs and their ability to squeeze suppliers’
+margins.21 Previous research reports similar ﬁndings (e.g., Javor-
+cik 2008; Javorcik, Keller, and Tybout 2008).22 Our surveys also
+suggest that even when the quality of the domestic ﬁrms’ prod-
+ucts increases after the ﬁrst MNC linkage, these higher-quality
+products are sold at unchanged or falling prices (to both the ﬁrst
+MNC buyer and other buyers). See Section VI for details.
+Second, as we will see in the next section, starting to sup-
+ply to MNCs improves the sales of domestic ﬁrms to other buy-
+ers. Suppose ﬁrst-time suppliers learn from the ﬁrst MNC buyer
+how to produce higher-quality products, and their other buy-
+ers also demand such products. One might be concerned that
+the increase in sales to others captures only higher markups
+on those higher-quality products. For plausible values of the de-
+mand elasticity (speciﬁcally, for values lower than −1), with-
+out a fall in marginal costs and/or an increase in the demand
+shifter (product quality or appeal) that are large enough to com-
+pensate for the higher markups, higher markups alone would
+lead to a fall in sales to others. Online Appendix E.3.3 contains
+20. Sampi, Jooste, and Vostroknutova (2021) provide a work-around solution
+to the concerns raised by Bond et al. (2021) on the interpretation of markups
+estimated using the ratio of the output elasticity of a variable input to that input’s
+cost share in revenue (such as in De Loecker and Warzynski 2012). Moreover, the
+Sampi, Jooste, and Vostroknutova (2021) method is appropriate in settings where
+measuring the change in markups (as opposed to their level) is enough.
+21. MNCs have privileged access to imports (e.g., MNCs in free trade zones are
+exempted from customs duties) and leverage their corporate commodity managers
+to learn about suppliers abroad. Moreover, the leading international suppliers of
+MNCs tend to pursue their buyers as they open new afﬁliates (a practice called
+follow sourcing). The larger the MNC, the more likely it is to have these sourcing
+advantages. These factors combined leave little room for domestic suppliers to
+obtain higher markups from MNCs.
+22. For instance, 40% of suppliers to MNCs in the Czech Republic had to lower
+prices by 1% to 30% (Javorcik 2008).
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+1518
+THE QUARTERLY JOURNAL OF ECONOMICS
+the formal argument. Moreover, the tendency of higher markups
+on higher-quality goods may be offset by the greater bargain-
+ing power of the new buyers of ﬁrst-time suppliers, who (as
+shown in the next section) are larger and more internationally
+exposed.
+2. Business with Other Buyers.
+With the aid of the ﬁrm-to-
+ﬁrm transaction data, we explore the patterns of business of ﬁrst-
+time suppliers with all buyers except the ﬁrst MNC buyer. This
+exploration has two goals. First, it addresses the natural concern
+that the ﬁrm growth documented so far is owed primarily to the
+addition of the new MNC buyer. Second, we argue that what hap-
+pens to the business of ﬁrst-time suppliers in other markets (in
+this case, with all their other buyers in CR) is informative on the
+mechanisms behind the effects of a ﬁrst linkage with an MNC
+and ﬁrm fundamentals more broadly (such as the marginal cost
+elasticity).
+Let us ﬁrst deﬁne a couple of objects of interest. The sales to
+others are equal to total sales minus the sales to the ﬁrst MNC
+buyer, where the total sales come from the corporate income tax
+returns and the sales to the ﬁrst MNC buyer come from the ﬁrm-
+to-ﬁrm transaction data. The corporate buyers of a ﬁrm in a given
+year are its buyers reported in the ﬁrm-to-ﬁrm transaction data,
+that is, ﬁrms in CR whose purchases of goods or services from
+that ﬁrm exceed US$4,200 that year. The total corporate sales are
+equal to the sum across the sales to all corporate buyers in the
+ﬁrm-to-ﬁrm transaction data. The corporate sales to others ex-
+clude the sales to the ﬁrst MNC buyer. Aside from total corporate
+sales, total sales contain exports and sales to end consumers and
+to ﬁrms in CR whose purchases that year sum up to less than the
+reporting threshold. We call this difference noncorporate sales.
+In addition to the pattern of total sales (sales to all buyers),
+Figure II shows the patterns of sales to all buyers except the ﬁrst
+MNC buyer, all corporate buyers, and all corporate buyers except
+the ﬁrst MNC buyer. Across the four types of buyers, we do not
+ﬁnd evidence of differential trends in sales before the event of a
+ﬁrst sale to an MNC. However, we ﬁnd large and lasting increases
+in the four types of sales after the event. Most important, these
+increases are not mechanical because they survive the exclusion
+of the sales to the ﬁrst MNC buyer. Four years after the event,
+sales to others increase by 20%, while corporate sales to others
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+THE EFFECTS OF JOINING MULTINATIONAL SUPPLY CHAINS
+1519
+−.1
+0
+.1
+.2
+.3
+.4
+Outcome: Total Sales
+−4
+−3
+−2
+−1
+0
+1
+2
+3
+4
+Years Since First MNC Interaction
+(A) Total Sales
+−.4
+−.2
+0
+.2
+.4
+Outcome: Sales to Others
+−4
+−3
+−2
+−1
+0
+1
+2
+3
+4
+Years Since First MNC Interaction
+(B) Sales to Others
+−.2
+0
+.2
+.4
+.6
+Outcome: Total Corp. Sales
+−4
+−3
+−2
+−1
+0
+1
+2
+3
+4
+Years Since First MNC Interaction
+(C) Total Corporate Sales
+−1
+−.5
+0
+.5
+Outcome: Corp. Sales to Others
+−4
+−3
+−2
+−1
+0
+1
+2
+3
+4
+Years Since First MNC Interaction
+(D) Corporate Sales to Others
+−.1
+0
+.1
+.2
+.3
+.4
+Outcome: Number of Other Corp. Buyers
+−4
+−3
+−2
+−1
+0
+1
+2
+3
+4
+Years Since First MNC Interaction
+(E) Number of Other Corporate Buyers
+−1
+−.5
+0
+.5
+Outcome: Average Corp. Sales to Others
+−4
+−3
+−2
+−1
+0
+1
+2
+3
+4
+Years Since First MNC Interaction
+(F) Average Sales to Other Corporate Buyers
+FIGURE II
+Domestic Firms Improve Their Sales to Others after Starting to Supply to MNCs
+Figure II plots the estimated θk event study coefﬁcients from a regression of
+the form given in equation (1), where the dependent variable is, in turn, log total
+sales (Panel A), log sales to buyers other than the ﬁrst MNC buyer (Panel B), log
+total sales to corporate buyers (Panel C), log sales to corporate buyers other than
+the ﬁrst MNC buyer (Panel D), log number of other corporate buyers (Panel E),
+and log average value of sales to other corporate buyers (Panel F). The event is
+deﬁned as a ﬁrst-time sale to an MNC. θ−1, the coefﬁcient of the year prior to a ﬁrst
+sale to an MNC, is normalized to zero. All regressions include ﬁrm and four-digit
+sector × province × calendar year ﬁxed effects. The vertical lines reﬂect the 95%
+conﬁdence intervals. The coefﬁcients plotted correspond to Table II, columns (1),
+(2), and (5)–(8), obtained from the sample including domestic ﬁrms that become
+ﬁrst-time suppliers to an MNC between 2010 and 2015 and domestic ﬁrms never
+observed as supplying to an MNC between 2008 and 2017.
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+1520
+THE QUARTERLY JOURNAL OF ECONOMICS
+increase by 45%.23 Table II provides details and robustness checks
+(e.g., showing that the baseline results are not driven by demand
+from buyers who are themselves new suppliers to MNCs).
+i. Extensive- versus Intensive-Margin Responses. We ask
+whether these changes in sales to others materialize primarily
+along the extensive or the intensive margin. Figure II, Panel E de-
+picts the extensive-margin response (i.e., the effect of the event on
+the log number of corporate buyers, except the ﬁrst MNC buyer),
+while Panel F looks into the intensive-margin response (i.e., the
+effect on the average value of transactions across all other corpo-
+rate buyers). Reassuringly, in the years before the ﬁrst linkage
+with an MNC, we ﬁnd no differential trends in either the num-
+ber of corporate buyers or the average sales to others. After the
+event, however, both margins react. Four years later, ﬁrst-time
+suppliers have 31% more corporate buyers and average transac-
+tions are 14% larger than in the year before the event. Hence, of
+the 45% increase in corporate sales to others, the intensive (ex-
+tensive) margin accounts for one (two) third(s) of the increase.24
+Table II provides more details.
+ii. Short- versus Medium-Run Adjustments. The focus on the
+effects four years after the event conceals striking short-run ad-
+justments. Namely, in the year of the event, the sales to others
+decrease by 19%, corporate sales to others by 75%, and noncor-
+porate sales to others by 9%. Most of the 75% drop in corporate
+sales to others occurs along the intensive margin. Speciﬁcally, the
+average sales to others drop by 78% in the year of the event, and
+the number of other buyers increases by a modest 3%. For details,
+see Table II.
+These ﬁndings suggest that ﬁrms are capacity constrained
+in the short term. Although capacity constraints can encompass
+more factors than what is captured by our net assets variable
+23. Naturally, the discrepancy between the increases in the sales to others
+and corporate sales to others is driven by the behavior of noncorporate sales. Four
+years after the event, noncorporate sales increased by 16%, making the share of
+noncorporate sales out of all sales to others fall by 7%. Hence, ﬁrst-time suppliers
+have shifted their sales more toward corporate buyers, that is, toward ﬁrms with
+purchases above US$4,200 a year.
+24. Our ﬁndings of increased sales to others suggest that these other buyers
+may have beneﬁted as well from the upgrades of the ﬁrst-time suppliers (as in Kee
+2015). While potential gains to domestic buyers are relevant to any estimation of
+the aggregate effects of MNCs, they are beyond the scope of this article.
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+THE EFFECTS OF JOINING MULTINATIONAL SUPPLY CHAINS
+1521
+TABLE II
+DOMESTIC FIRMS IMPROVE THEIR BUSINESS WITH OTHERS AFTER STARTING TO SUPPLY TO MNCS
+Total
+Sales to
+Sales to
+Sales to
+Total
+Corp. sales
+Number
+Average
+sales
+others
+others
+others
+corp.
+to others
+other corp.
+corp. sales
+robust 1
+robust 2
+sales
+buyers
+to others
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+(7)
+(8)
+4 years before event
+0.044
+0.011
+0.014
+0.028
+0.040
+0.016
+−0.018
+0.034
+(0.028)
+(0.042)
+(0.042)
+(0.040)
+(0.073)
+(0.082)
+(0.034)
+(0.058)
+3 years before event
+0.029
+−0.022
+−0.021
+−0.009
+0.020
+0.010
+−0.003
+0.014
+(0.023)
+(0.035)
+(0.036)
+(0.038)
+(0.035)
+(0.045)
+(0.024)
+(0.035)
+2 years before event
+0.026
+−0.020
+−0.021
+−0.029
+0.042
+0.032
+0.009
+0.023
+(0.018)
+(0.028)
+(0.029)
+(0.035)
+(0.025)
+(0.033)
+(0.017)
+(0.027)
+Year of event
+0.159∗∗∗
+−0.193∗∗∗
+−0.189∗∗∗
+−0.217∗∗∗
+0.270∗∗∗
+−0.747∗∗∗
+0.031∗∗
+−0.778∗∗∗
+(0.019)
+(0.052)
+(0.051)
+(0.052)
+(0.032)
+(0.091)
+(0.015)
+(0.083)
+1 year after event
+0.325∗∗∗
+0.118∗∗
+0.122∗∗
+0.115∗∗
+0.448∗∗∗
+0.159∗∗∗
+0.227∗∗∗
+−0.068
+(0.028)
+(0.053)
+(0.052)
+(0.052)
+(0.042)
+(0.056)
+(0.018)
+(0.047)
+2 years after event
+0.351∗∗∗
+0.201∗∗∗
+0.199∗∗∗
+0.212∗∗∗
+0.458∗∗∗
+0.318∗∗∗
+0.283∗∗∗
+0.035
+(0.032)
+(0.045)
+(0.049)
+(0.050)
+(0.038)
+(0.066)
+(0.020)
+(0.056)
+3 years after event
+0.342∗∗∗
+0.196∗∗∗
+0.203∗∗∗
+0.219∗∗∗
+0.477∗∗∗
+0.481∗∗∗
+0.308∗∗∗
+0.173∗∗∗
+(0.035)
+(0.046)
+(0.044)
+(0.050)
+(0.041)
+(0.067)
+(0.024)
+(0.056)
+4 years after event
+0.334∗∗∗
+0.203∗∗∗
+0.204∗∗∗
+0.201∗∗∗
+0.438∗∗∗
+0.448∗∗∗
+0.307∗∗∗
+0.141∗∗
+(0.037)
+(0.049)
+(0.048)
+(0.056)
+(0.039)
+(0.064)
+(0.027)
+(0.057)
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+1522
+THE QUARTERLY JOURNAL OF ECONOMICS
+TABLE II
+CONTINUED
+Total
+Sales to
+Sales to
+Sales to
+Total
+Corp. sales
+Number
+Average
+sales
+others
+others
+others
+corp.
+to others
+other corp.
+corp. sales
+robust 1
+robust 2
+sales
+buyers
+to others
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+(7)
+(8)
+Firm FE
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Year-4Dsect-prov FE
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Never suppliers
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Mean dep. var. (level)
+0.85
+0.84
+0.84
+0.81
+0.39
+0.37
+12.8
+0.038
+Std. dev. dep. var. (level)
+2.54
+2.54
+2.52
+2.49
+1.20
+1.21
+38.6
+0.056
+Adjusted R2
+0.77
+0.70
+0.69
+0.65
+0.75
+0.63
+0.84
+0.57
+No. observations
+116,683
+116,536
+116,444
+115,879
+63,793
+63,078
+63,078
+63,078
+No. ﬁxed effects
+25,174
+25,156
+25,150
+25,088
+16,833
+16,689
+16,689
+16,689
+No. ﬁrms
+18,035
+18,024
+18,019
+17,977
+10,985
+10,895
+10,895
+10,895
+Notes. Table II shows the results of running the event study speciﬁcation (1) adapted to eight dependent variables: log total sales (across all buyers, including the ﬁrst MNC buyer,
+column (1)), log sales to others (all buyers except the ﬁrst MNC buyer, column (2)), log sales to others “robust 1” (across all buyers except the ﬁrst MNC buyer and other ﬁrst-time
+suppliers to MNCs, column (3)), log sales to others “robust 2” (across all buyers except the ﬁrst MNC buyer and other buyers that supply at some point to MNCs themselves, column
+(4)), log total sales to corporate buyers (including the ﬁrst MNC buyer, column (5)), log sales to other corporate buyers (all corporate buyers except the ﬁrst MNC buyer, column (6)),
+log number of other corporate buyers + 1 (number of corporate buyers tracked by the ﬁrm-to-ﬁrm transaction data, except the ﬁrst MNC buyer, + 1, column (7)), and log average sales
+to other corporate buyers (total sales to other corporate buyers, divided by the number of other corporate buyers, except the ﬁrst MNC buyer, +1, column (8)). The event is deﬁned
+as a ﬁrst-time sale to an MNC. θ−1, the coefﬁcient of the year prior to a ﬁrst sale to an MNC, is normalized to zero. All columns pertain to the full sample including both domestic
+ﬁrms that become ﬁrst-time suppliers to an MNC between 2010 and 2015 and domestic ﬁrms never observed as supplying to an MNC between 2008 and 2017. Clustering of standard
+errors is at the two-digit sector by province level. All regressions include ﬁrm and four-digit sector × province × calendar year ﬁxed effects. Except for the number of buyers, means
+(in levels) are reported in millions of U.S. dollars (CPI-deﬂated to 2013 dollars). Robust standard errors are in parentheses. ***, **, * denote statistical signiﬁcance at the 1%, 5%,
+and 10% levels, respectively.
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+THE EFFECTS OF JOINING MULTINATIONAL SUPPLY CHAINS
+1523
+(say, managerial attention), the ﬁnding that the net assets react
+with a one-year lag is consistent with the idea that ﬁrms cannot
+adjust ﬁxed inputs in real time. The short-term need to scale down
+the business with other buyers is one to which we will return in
+Section V.B.
+iii. Changes in Buyers’ Characteristics. Our data merge al-
+lows us to go beyond tracking responses in the business with
+others, where the “others” are left anonymous. Online Appendix
+Figure C1, breaks down the corporate sales of ﬁrst-time suppliers
+to an MNC by whether a buyer is old or new and an MNC or not.
+We deﬁne an “old buyer” as a buyer to whom the ﬁrst-time sup-
+plier sells by the event year. To provide a reference point, we also
+study never suppliers that are randomly assigned a fake event
+year between 2010 and 2015. Four years after the event, around
+60% of the corporate sales of ﬁrst-time suppliers go to new buyers
+acquired after the event. This percentage stands in contrast to
+slightly more than 50% for never suppliers. Hence, although the
+churning of old buyers is not a pattern limited to ﬁrst-time sup-
+pliers, new buyers are clearly more important for them than for
+never suppliers. For legibility, the domestic buyers in Online Ap-
+pendix Figure C1 bundle domestic ﬁrms, non-MNC but partially
+foreign-owned ﬁrms, and the government. While most corporate
+sales to new buyers are to new domestic buyers, ﬁrst-time suppli-
+ers also acquire new MNC buyers.25 Four years after the event,
+on average, 6% of the sales of ﬁrst-time suppliers go to 1.2 new
+MNC buyers.26
+25. Online Appendix Figure C1 has to focus on corporate sales, as it is only
+with the ﬁrm-to-ﬁrm transaction data that one can establish whether a buyer
+is old or new and an MNC or not. In Online Appendix Figure C2 we study total
+sales, which include the noncorporate sales (the sum of exports and the part of local
+sales not reported in the ﬁrm-to-ﬁrm transaction data). Online Appendix Figure C2
+disaggregates the total sales of ﬁrst-time suppliers into a more narrowly deﬁned
+set of buyers: the government, domestic ﬁrms and consumers, non-MNC partially
+foreign-owned ﬁrms, MNCs, and exports. Here, the sales to domestic ﬁrms and
+consumers are computed as the residual from the total sales minus the sales to
+MNCs, sales to partially foreign-owned ﬁrms that are not MNCs, exports, and
+sales to the government. We ﬁnd that most of the increase in total sales after the
+event stems from sales to domestic ﬁrms and consumers (this time, more narrowly
+deﬁned). Other buyers also tend to increase their purchases, though more modestly.
+26. Online Appendix Tables B4 and B5 provide more details on post-event
+relationships with MNCs. Moreover, Online Appendix Tables C2 and C3 expand
+our event study analysis to study the effects of subsequent MNC buyers. Namely,
+in these tables, a year with an event is any year in which a domestic ﬁrm starts
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+1524
+THE QUARTERLY JOURNAL OF ECONOMICS
+Table III provides additional evidence that joining the supply
+chain of an MNC induces changes in the buyer characteristics of
+ﬁrst-time suppliers. We ﬁrst ﬁnd that four years after acquiring
+a ﬁrst MNC buyer, domestic ﬁrms sell to buyers in 18% (21%)
+more two-digit (four-digit) sectors. Meanwhile, ﬁrst-time suppli-
+ers do not buy from more two-digit (four-digit) sectors. Next, we
+learn that the sales of ﬁrst-time suppliers (four years after) are
+made to buyers with 49% more workers, 53% higher sales, 30%
+more suppliers, and 40% more buyers. First-time suppliers tend
+to sell to buyers who are slightly more internationally exposed,
+as proxied by their share of exports in total sales and imports in
+total inputs. Finally, ﬁrst-time suppliers sell to buyers with more
+substantial relationships with all their suppliers, as measured
+by the 19% higher average value of transactions and 8% longer
+relationships.27
+Overall, our evidence on the persistent boosts in performance
+with other buyers (in particular, on the improved ability to ac-
+quire new buyers), the changing composition of sales by buyer
+type (e.g., from old to new), and the better-performing new buyers
+(e.g., larger size or longer supplier relationships) of ﬁrst-time sup-
+pliers to MNCs are consistent with improvements in productivity,
+product scope and quality, and reputation for ﬁrst-time suppliers.
+IV.B. Robustness Checks to the Baseline Results
+1. Results from Alternative Empirical Strategies. Table IV
+presents the event study estimates obtained from the four alter-
+native strategies described in Section III.B, namely, the Produc-
+tive Linkages strategy and the three matching estimators applied
+to the economy-wide sample. Table IV focuses on three of our
+main outcomes: total sales, TFP residual from an OLS production
+function estimation under a Cobb-Douglas technology, and the
+supplying to a new MNC buyer (the ﬁrst MNC buyer or a subsequent one). Online
+Appendix Table C2 splits the baseline sample of ﬁrst-time suppliers to MNCs
+based on their total number of years with events. The more years with events a
+ﬁrst-time supplier has, the stronger its overall growth in size and TFP. Online
+Appendix Table C3 compares the pooled (before versus after) change in total sales
+and TFP after each new year with an event. After each additional year with an
+event, ﬁrms experience a slight increase (decrease) in the pooled change in sales
+(TFP). Although caution is warranted in drawing causal inferences, these ﬁndings
+are suggestive of the value of expanding one’s portfolio of MNC buyers.
+27. To avoid mechanical results, we exclude the ﬁrst MNC buyer from all
+results in Table III. Changes in ﬁrm size also do not explain these results, as we
+have already controlled for the suppliers’ contemporaneous total sales.
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+THE EFFECTS OF JOINING MULTINATIONAL SUPPLY CHAINS
+1525
+TABLE III
+FIRST-TIME SUPPLIERS TO MNCS START SELLING TO MORE BUYING SECTORS AND FIRST-TIME SUPPLIERS SHIFT THEIR SALES TOWARD BUYERS
+WITH BETTER PERFORMANCE
+Number of buying/supplying sectors
+Average characteristics of the buyers (excluding the ﬁrst MNC buyer)
+No. 2D
+No. 2D
+No. 4D
+No. 4D
+Number
+Total
+Number
+Number
+Export
+Import
+Trans /
+Length w/
+buying
+supplying
+buying
+supplying workers
+sales
+suppliers
+buyers
+share
+share
+supplier
+suppliers
+sectors
+sectors
+sectors
+sectors
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+(7)
+(8)
+(9)
+(10)
+(11)
+(12)
+4 years before event
+−0.024
+0.000
+−0.018
+−0.018
+0.019
+0.017
+−0.012
+−0.108
+−0.007
+−0.005
+−0.018
+0.015
+(0.026)
+(0.021)
+(0.029)
+(0.026)
+(0.075)
+(0.078)
+(0.052)
+(0.084)
+(0.005)
+(0.006)
+(0.038)
+(0.034)
+3 years before event
+−0.003
+−0.006
+0.003
+−0.009
+−0.063
+−0.108∗∗−0.056
+−0.006
+−0.005
+0.002
+−0.039
+−0.028
+(0.018)
+(0.016)
+(0.021)
+(0.016)
+(0.055)
+(0.050)
+(0.043)
+(0.050)
+(0.004)
+(0.006)
+(0.029)
+(0.030)
+2 years before event
+0.008
+0.008
+0.017
+−0.002
+−0.021
+−0.036
+−0.015
+0.068
+0.001
+−0.001
+−0.001
+0.016
+(0.019)
+(0.013)
+(0.019)
+(0.013)
+(0.031)
+(0.036)
+(0.029)
+(0.047)
+(0.002)
+(0.004)
+(0.019)
+(0.020)
+Year of event
+0.032∗∗∗−0.002
+0.040∗∗∗−0.008
+0.088∗
+0.085∗
+0.074∗∗
+0.076
+−0.003
+−0.008∗∗
+0.019
+0.016
+(0.012)
+(0.011)
+(0.011)
+(0.010)
+(0.044)
+(0.045)
+(0.033)
+(0.050)
+(0.002)
+(0.003)
+(0.016)
+(0.016)
+1 year after event
+0.125∗∗∗
+0.012
+0.145∗∗∗
+0.010
+0.362∗∗∗
+0.402∗∗∗
+0.241∗∗∗
+0.328∗∗∗
+0.011∗∗∗
+0.014∗∗∗
+0.081∗∗∗
+0.037∗∗
+(0.014)
+(0.013)
+(0.013)
+(0.014)
+(0.050)
+(0.051)
+(0.038)
+(0.053)
+(0.003)
+(0.004)
+(0.019)
+(0.017)
+2 years after event
+0.154∗∗∗
+0.023
+0.182∗∗∗
+0.024
+0.445∗∗∗
+0.498∗∗∗
+0.293∗∗∗
+0.415∗∗∗
+0.015∗∗∗
+0.015∗∗∗
+0.127∗∗∗
+0.062∗∗∗
+(0.015)
+(0.017)
+(0.015)
+(0.017)
+(0.043)
+(0.041)
+(0.033)
+(0.048)
+(0.003)
+(0.004)
+(0.020)
+(0.021)
+3 years after event
+0.175∗∗∗
+0.025
+0.205∗∗∗
+0.026∗
+0.475∗∗∗
+0.541∗∗∗
+0.306∗∗∗
+0.468∗∗∗
+0.017∗∗∗
+0.017∗∗∗
+0.152∗∗∗
+0.079∗∗∗
+(0.016)
+(0.015)
+(0.017)
+(0.016)
+(0.049)
+(0.048)
+(0.037)
+(0.057)
+(0.003)
+(0.004)
+(0.021)
+(0.021)
+4 years after event
+0.175∗∗∗
+0.030
+0.208∗∗∗
+0.030
+0.487∗∗∗
+0.534∗∗∗
+0.301∗∗∗
+0.399∗∗∗
+0.012∗∗∗
+0.017∗∗∗
+0.190∗∗∗
+0.081∗∗∗
+(0.020)
+(0.019)
+(0.021)
+(0.020)
+(0.054)
+(0.055)
+(0.043)
+(0.051)
+(0.004)
+(0.006)
+(0.020)
+(0.024)
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+1526
+THE QUARTERLY JOURNAL OF ECONOMICS
+TABLE III
+CONTINUED
+Number of buying/supplying sectors
+Average characteristics of the buyers (excluding the ﬁrst MNC buyer)
+No. 2D
+No. 2D
+No. 4D
+No. 4D
+Number
+Total
+Number
+Number
+Export
+Import
+Trans /
+Length w/
+buying
+supplying
+buying
+supplying
+workers
+sales
+suppliers
+buyers
+share
+share
+supplier
+suppliers
+sectors
+sectors
+sectors
+sectors
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+(7)
+(8)
+(9)
+(10)
+(11)
+(12)
+Mean dep. var. (level)
+3.67
+4.56
+4.52
+6.04
+456.0
+74.0
+172.4
+428.8
+0.049
+0.10
+0.036
+3.69
+Std. dev. dep. var. (level)
+3.25
+3.86
+4.88
+6.37
+1,434.6
+269.2
+417.1
+1,788.1
+0.15
+0.17
+0.032
+2.51
+Firm FE
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Year-4Dsect-prov FE
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Adjusted R2
+0.78
+0.83
+0.81
+0.86
+0.73
+0.74
+0.74
+0.74
+0.77
+0.70
+0.64
+0.72
+No. observations
+54,363
+54,363
+54,363
+54,363
+54,363
+54,363
+54,363
+54,363
+54,363
+54,363
+54,363
+54,363
+No. ﬁxed effects
+14,998
+14,998
+14,998
+14,998
+14,998
+14,998
+14,998
+14,998
+14,998
+14,998
+14,998
+14,998
+No. ﬁrms
+9,652
+9,652
+9,652
+9,652
+9,652
+9,652
+9,652
+9,652
+9,652
+9,652
+9,652
+9,652
+Notes. This table shows the results of running the event study speciﬁcation (1) for 12 outcomes. We deﬁne the event as a ﬁrst-time sale to an MNC. Columns (1) and (3) (columns
+(2) and (4)) study the effect of the event on the log number of two-digit and four-digit buying sectors of (supplying sectors to) the ﬁrst-time suppliers. For each domestic ﬁrm and
+regression, there is only one observation: the unweighted count of its number of buying (supplying) sectors in that event year. Columns (5)–(12) study the effect of the event on the
+characteristics of the buyers of ﬁrst-time suppliers. We compute the variable in question for each buyer (e.g., its number of suppliers for column (9)). For each domestic ﬁrm, we
+compute a weighted average of the values of the variable across its buyers in that event year, where the weights reﬂect the importance of each buyer to the domestic ﬁrm that year
+(measured as a share of the value of transactions with that buyer out of the total value of the transactions of the domestic ﬁrm). The ﬁnal outcome is the log weighted average. In
+order, columns (5) to (12) study the following buyer characteristics: the number of workers, total sales, number of suppliers, number of buyers, the share of exports in total sales, the
+share of imports in total input costs (imports plus local purchases), the average transaction value across all the suppliers of the buyer, the average length of the relationships of the
+buyer with all its suppliers (this last variable is the only one computed across all years; all other variables are in the event year). The MNC buyer triggering the event is always
+excluded from the set of buyers described in this table. All regressions control for the contemporaneous log total sales of the ﬁrst-time supplier, in addition to ﬁrm and four-digit sector
+× province × calendar year ﬁxed effects. All columns pertain to the full sample including both domestic ﬁrms that become ﬁrst-time suppliers to an MNC between 2010 and 2015
+and domestic ﬁrms never observed as supplying to an MNC during our entire ﬁrm-to-ﬁrm transaction data set. Clustering of standard errors is at the two-digit sector by province
+level. Robust standard errors are in parentheses. ***, **, * denote statistical signiﬁcance at the 1%, 5%, and 10% levels, respectively.
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+THE EFFECTS OF JOINING MULTINATIONAL SUPPLY CHAINS
+1527
+TABLE IV
+BASELINE EVENT STUDY ESTIMATES ARE ROBUST TO FOUR ALTERNATIVE EMPIRICAL STRATEGIES
+Productive Linkages design
+Predicted Procomer score
+Propensity score matching
+Nearest neighbors matching
+Total
+TFP
+Corp. sales
+Total
+TFP
+Corp. sales
+Total
+TFP
+Corp. sales
+Total
+TFP
+Corp. sales
+sales CD OLS to others
+sales
+CD OLS to others
+Sales
+CD OLS to others
+sales
+CD OLS
+to others
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+(7)
+(8)
+(9)
+(10)
+(11)
+(12)
+4 years before event 0.133
+−0.004
+−0.019
+0.114∗∗∗
+0.017
+0.045
+0.135∗∗∗0.038∗∗
+0.090
+−0.026
+0.003
+0.008
+(0.212) (0.127)
+(0.229)
+(0.036)
+(0.015)
+(0.086)
+(0.030)
+(0.017)
+(0.092)
+[−0.098,0.107] [−0.041,0.065] [−0.181,0.279]
+3 years before event 0.128
+0.152
+0.009
+0.090∗∗∗
+0.026
+0.065
+0.092∗∗∗
+0.023
+0.130∗∗
+−0.023
+0.000
+−0.017
+(0.172) (0.139)
+(0.251)
+(0.032)
+(0.018)
+(0.058)
+(0.025)
+(0.013)
+(0.061)
+[−0.087,0.076] [−0.035,0.041] [−0.164,0.149]
+2 years before event 0.019
+0.112
+−0.075
+0.057∗∗0.019∗∗
+0.059
+0.069∗∗∗0.028∗∗
+0.088∗∗
+−0.011
+−0.003
+−0.041
+(0.150) (0.122)
+(0.192)
+(0.024)
+(0.009)
+(0.037)
+(0.021)
+(0.013)
+(0.042)
+[−0.046,0.056] [−0.028,0.028] [−0.134,0.067]
+Year of event
+0.182
+0.131
+0.008
+0.153∗∗∗0.051∗∗∗−0.699∗∗∗0.095∗∗∗0.040∗∗∗−0.763∗∗∗
+0.165∗∗∗
+0.029∗∗∗
+−1.285∗∗∗
+(0.167) (0.140)
+(0.193)
+(0.019)
+(0.010)
+(0.067)
+(0.023)
+(0.012)
+(0.064)
+[0.111,0.218]
+[0.013,0.064] [−1.694, −1.091]
+1 year after event
+0.335∗∗0.279∗∗∗
+0.088
+0.301∗∗∗0.077∗∗∗
+0.179∗∗∗
+0.184∗∗∗0.063∗∗∗
+0.085∗
+0.338∗∗∗
+0.055∗∗∗
+0.049
+(0.140) (0.106)
+(0.189)
+(0.028)
+(0.014)
+(0.057)
+(0.023)
+(0.015)
+(0.045)
+[0.284,0.398]
+[0.031,0.092]
+[−0.199,0.177]
+2 years after event
+0.370∗∗0.218∗∗
+0.359∗∗
+0.362∗∗∗0.095∗∗∗
+0.345∗∗∗
+0.238∗∗∗0.069∗∗∗
+0.229∗∗∗
+0.392∗∗∗
+0.064∗∗∗
+0.227∗
+(0.159) (0.108)
+(0.176)
+(0.030)
+(0.011)
+(0.072)
+(0.022)
+(0.015)
+(0.063)
+[0.330,0.461]
+[0.039,0.104]
+[−0.031,0.351]
+3 years after event
+0.358∗∗0.203∗
+0.120
+0.397∗∗∗0.099∗∗∗
+0.517∗∗∗
+0.256∗∗∗0.077∗∗∗
+0.413∗∗∗
+0.425∗∗∗
+0.067∗∗∗
+0.337∗∗∗
+(0.153) (0.116)
+(0.191)
+(0.036)
+(0.011)
+(0.078)
+(0.026)
+(0.016)
+(0.080)
+[0.351,0.503]
+[0.035,0.109]
+[0.120,0.472]
+4 years after event
+0.389∗∗0.225∗∗
+0.141
+0.427∗∗∗0.100∗∗∗
+0.499∗∗∗
+0.293∗∗∗0.089∗∗∗
+0.385∗∗∗
+0.476∗∗∗
+0.063∗∗∗
+0.372∗∗∗
+(0.165) (0.114)
+(0.201)
+(0.041)
+(0.016)
+(0.061)
+(0.029)
+(0.018)
+(0.065)
+[0.395,0.557]
+[0.026,0.113]
+[0.126,0.540]
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+1528
+THE QUARTERLY JOURNAL OF ECONOMICS
+TABLE IV
+CONTINUED
+Productive Linkages design
+Predicted Procomer score
+Propensity score matching
+Nearest neighbors matching
+Total
+TFP
+Corp. sales
+Total
+TFP
+Corp. sales
+Total
+TFP
+Corp. sales
+Total
+TFP
+Corp. sales
+sales
+CD OLS
+to others
+sales
+CD OLS
+to others
+Sales
+CD OLS
+to others
+sales
+CD OLS
+to others
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+(7)
+(8)
+(9)
+(10)
+(11)
+(12)
+Firm FE
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+n/a
+n/a
+n/a
+Year FE
+Yes
+Yes
+Yes
+No
+No
+No
+No
+No
+No
+n/a
+n/a
+n/a
+Year-4Dsect-prov FE
+No
+No
+No
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+n/a
+n/a
+n/a
+Adjusted R2
+0.83
+0.96
+0.81
+0.80
+0.96
+0.68
+0.82
+0.97
+0.69
+n/a
+n/a
+n/a
+No. observations
+1,111
+1,087
+1,072
+107,135
+55,208
+71,083
+98,393
+53,693
+70,903
+91,382
+46,883
+71,776
+No. ﬁxed effects
+123
+123
+123
+15,470
+10,026
+12,540
+14,888
+9,720
+12,275
+n/a
+n/a
+n/a
+No. treated
+31
+31
+31
+3,606
+2,248
+3,383
+3,599
+2,247
+3,380
+3,670
+2,024
+3,254
+No. control
+84
+84
+84
+10,814
+6,297
+8,096
+10,811
+6,598
+8,632
+11,010
+6,072
+9,762
+Notes. This table contains robustness checks to the baseline results reported in Tables I and II. These exercises use the four alternative empirical strategies described in Section III.B
+for three outcomes (all in logs): total sales, TFP residual from an OLS regression that assumes a Cobb-Douglas technology, and corporate sales to others. Columns (1) to (3) present
+the results from the Productive Linkages design, columns (4) to (6) those from the predicted Procomer scores matching, columns (7) to (9) those from the propensity score matching,
+and columns (10) to (12) those from the nearest neighbors matching. Due to missing values in the input costs (materials) variable for its small sample, the Productive Linkages OLS
+production function estimation considers only workers and net assets (as a proxy for capital) as inputs. The three matching variables also control for materials usage. Regressions
+in columns (1) to (3) include ﬁrm, deal, and year ﬁxed effects. Regressions in columns (4) to (12) include ﬁrm and four-digit sector × province × calendar year ﬁxed effects. For
+columns (1) to (9), robust standard errors are in parentheses. For the nearest neighbors matching, 95% conﬁdence intervals, given in brackets, and statistical signiﬁcance levels are
+constructed via subsampling. ***, **, * denote statistical signiﬁcance at the 1%, 5%, and 10% levels, respectively.
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+THE EFFECTS OF JOINING MULTINATIONAL SUPPLY CHAINS
+1529
+corporate sales to others.28 We contrast the estimates for each al-
+ternative strategy and outcome with our baseline estimates sum-
+marized in Tables I and II.
+Reassuringly, across methods and outcomes, we ﬁnd either a
+lack of or sporadic pretrends. Moreover, all four sets of event study
+estimates display the same qualitative patterns as the baseline
+estimates (e.g., the extensive-margin response of new buyers is
+the leading driver of the rise in sales to other buyers). Although
+the point estimates tend to vary across empirical strategies, the
+conﬁdence intervals overlap for most outcomes and event years.
+This is true despite these alternative approaches using control
+groups built on either more information than what is typically
+observed in administrative data (but captured in the Procomer
+score) or stronger predictors of supplying linkages than the sector
+and province of a ﬁrm. Overall, it is encouraging that these four
+alternative approaches support our baseline results.
+2. More Robustness Checks to the Baseline Economy-Wide
+Event Studies.
+Our baseline economy-wide regressions allow in
+the sample of control ﬁrms the never suppliers, that is, domestic
+ﬁrms never observed as supplying to an MNC throughout 2008 to
+2017. To assuage concerns over the similarity between ﬁrst-time
+suppliers and never suppliers to MNCs, Online Appendix D.2 ex-
+plores the implications of dropping from the control group all or
+part of the never suppliers. Online Appendix Table D4 shows that
+the baseline estimates hold up to dropping all the never suppliers.
+This suggests that the driver of our baseline results is the stag-
+gered timing of the event and not the contrast to never suppliers.
+In Online Appendix Table D5, we only exclude the never suppliers
+to an MNC that are also never suppliers to a large domestic ﬁrm
+throughout 2008 to 2017. This exercise therefore accepts in the
+control group only ﬁrms having sold to a large buyer. These new
+event study estimates remain similar to the baseline ones.
+There is one important threat to identiﬁcation that is not
+addressed by our analysis thus far: ﬁrms may experience unob-
+servable ﬁrm-speciﬁc shocks that affect the timing of their ﬁrst
+supplying relationship with an MNC and their subsequent per-
+formance. While not all such shocks need to be embodied in new
+employees, the hiring of new inﬂuential employees before the ﬁrst
+28. Online Appendix Table D1 reports the estimates for the number of workers,
+the number of other buyers, and the average sales to other buyers.
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+1530
+THE QUARTERLY JOURNAL OF ECONOMICS
+sale to an MNC is among the most plausible confounding fac-
+tors. Problematic inﬂuential employees would need to be able to
+establish the ﬁrst contract with an MNC and improve ﬁrm perfor-
+mance. In Online Appendix D.3 we investigate this scenario using
+matched employer-employee data from the Costa Rican Social Se-
+curity Fund.
+We ﬁrst consider the hiring of a new manager, as managers
+can affect overall ﬁrm performance. We deﬁne managers as the
+ﬁrm’s top two earners. Alternatively, we take as managers work-
+ers whose occupation is categorized as managerial by ISCO-08.
+From the baseline sample of ﬁrst-time suppliers, we drop those
+having hired a new manager in the year of their event or the year
+before. We also consider hiring workers straight from an MNC or a
+supplier to an MNC as another plausibly concerning event. Such
+workers may use their MNC contacts to generate a ﬁrst MNC
+contract for their new employer and transfer knowledge acquired
+during their previous employment (improving the performance of
+their new employer). We exclude from the baseline sample of ﬁrst-
+time suppliers those who have hired a new worker—in the year of
+their event or the year before—whose previous main employer was
+one of the 622 MNC afﬁliates in CR (or, in a separate exercise, was
+a supplier to one of these MNCs).29 Our ﬁndings survive all four
+exclusions. Although it is impossible to fully dismiss the threat of
+ﬁrm-speciﬁc shocks with the problematic traits mentioned above,
+this evidence suggests that worker-embodied shocks are unlikely
+confounders.
+Finally, we probe the sensitivity of our results to relaxing
+the restrictions imposed onto the main sample described in Sec-
+tion II.B. In Online Appendix D.4 we relax both one-at-a-time
+and simultaneously the size and sectoral restrictions set on ei-
+ther the domestic ﬁrms or MNCs in the baseline sample. Across
+variables and sample variants, our main takeaways from Tables I
+and II remain unaffected. Moreover, our key takeaways remain
+qualitatively similar across signiﬁcant variations in ﬁxed effects,
+including ﬁxed effects that control for trends in more disaggre-
+gated geographic units (see Online Appendix D.5). Results also
+remain largely unchanged for a balanced sample in event time
+(see Online Appendix D.6). These alternative exercises corrobo-
+rate the robustness of our baseline event study speciﬁcation and
+sample.
+29. We exclude all ﬁrms hiring one of these types of workers, irrespective of
+the occupation taken at the new ﬁrm.
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+THE EFFECTS OF JOINING MULTINATIONAL SUPPLY CHAINS
+1531
+V. MORE EVIDENCE FROM ADMINISTRATIVE DATA TO GUIDE
+INTERPRETATION
+V.A. MNC Demand Shocks Differ from Those from Large
+Domestic Buyers
+We carry out three placebo event studies where we deﬁne the
+event as a ﬁrst sale to the government, a large domestic ﬁrm, or a
+domestic exporter, respectively. Thanks to the ﬁrm-to-ﬁrm trans-
+action data, we observe 1,447 domestic ﬁrms that started supply-
+ing to one of 98 government entities, 1,944 that started supplying
+to one of 373 large domestic ﬁrms, and 1,432 that started supply-
+ing to one of 385 domestic exporters. These placebo event studies
+allow us to shed light on the remarkable effects of demand shocks
+from MNCs.
+First, MNCs may differ from domestic ﬁrms not only in their
+potential for knowledge transfers but also in other traits that
+are attractive to suppliers (e.g., reliable payment or the poten-
+tial for scaling the collaboration, as in Ferraz, Finan, and Szer-
+man 2016). The placebo exercise with government demand shocks
+probes whether these features drive our results.
+One might be concerned that the government is not a buyer
+who values high-quality inputs and therefore that its suppliers
+are negatively selected. Alternatively, even if the government ap-
+preciates such inputs, one might think that it does not know how
+to achieve or enforce high quality. Then our ﬁndings may be due
+to MNCs’ taste for quality and ability to guide it and not to their
+MNC nature. The two placebo exercises with demand shocks from
+a large domestic buyer or a domestic exporter investigate these
+possibilities. For comparability with the baseline sample of MNCs,
+we take as large domestic ﬁrms all domestic ﬁrms whose median
+number of workers is more than 100 (across all years of activity in
+the country). Also, for comparability with MNCs (who tend to be
+consistently export-oriented), we take as domestic exporters those
+domestic ﬁrms that are observed as exporting in all years.
+One option is to directly compare the estimates from these
+placebo exercises with those from the baseline exercise on the
+full sample of ﬁrst-time suppliers to an MNC. One caveat is
+that, on average, the event of starting to supply to an MNC
+may differ from these three other types of events. Online Ap-
+pendix Tables E2–E7 test for differences in characteristics of
+the ﬁrst-time suppliers (e.g., supplier sector), the ﬁrst buyers
+(e.g., average number of suppliers), and their ﬁrst interaction
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+1532
+THE QUARTERLY JOURNAL OF ECONOMICS
+(e.g., average duration). Because we do detect some statistically
+signiﬁcant differences,30 we use a matching procedure that limits
+the dissimilarity between the baseline and placebo events to only
+that between the buyers triggering the events.31
+We implement all three placebo exercises with the same speci-
+ﬁcation as in equation (1), altering only the deﬁnition of the event.
+Figure III plots the event study coefﬁcients from these three
+placebo events on two outcomes: log TFP from an OLS produc-
+tion function estimation that assumes a Cobb-Douglas technology
+and log corporate sales to others. For reference, we also include
+in this ﬁgure the event study estimates for the matched sam-
+ple of ﬁrst-time suppliers to MNCs. Online Appendix Figures E1
+and E2 also study total sales, the number of workers, number
+of other corporate buyers, and average sales to other corporate
+buyers.
+Despite built-in similarities in the traits of the suppliers and
+their ﬁrst relationship, we notice that after the event, the trends
+of the ﬁrst-time suppliers to placebo buyers and the matched
+sample of ﬁrst-time suppliers to MNCs diverge decisively. First-
+time suppliers to placebo buyers exhibit weaker and shorter-lived
+improvements in ﬁrm performance than ﬁrst-time suppliers to
+an MNC. For instance, their TFP gains are smaller and sta-
+tistically signiﬁcant only in the ﬁrst two years after the event.
+The sales to other buyers experience similar drops in the year
+of the event. However, in the following years ﬁrst-time suppli-
+ers to MNCs see continued growth in their sales to others, and
+ﬁrst-time suppliers to placebo buyers see their sales to others
+30. For instance, ﬁrst-time suppliers to the government or to a domestic ex-
+porter tend to be larger than those to an MNC, whereas ﬁrst-time suppliers to
+a large domestic ﬁrm tend to be similar in size. First-time suppliers to all three
+types of placebo buyers tend to receive a smaller and shorter-lived demand shock
+than those to an MNC.
+31. The matching is based on key characteristics of the ﬁrst-time suppliers
+and their ﬁrst relationship with the relevant buyer (see these characteristics in
+Online Appendix Tables E5–E7). We proceed in two steps. First, we restrict the
+candidates for matching in the sample of ﬁrst-time suppliers to MNCs to being
+in the same sector and location as the ﬁrm (i.e., the ﬁrst-time supplier to the
+placebo buyer) to be matched. For each leftover variable, we compute a z-score.
+We then construct a loss function, deﬁned as the equally weighted sum (across
+all the leftover variables) of squares of differences between the z-score of the
+candidate match and that of the ﬁrm to be matched. The match for a given ﬁrst-
+time supplier to a placebo buyer is the ﬁrst-time supplier to MNCs in the same
+sector and location with the smallest value of the loss function.
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+THE EFFECTS OF JOINING MULTINATIONAL SUPPLY CHAINS
+1533
+−.05
+0
+.05
+.1
+.15
+Outcome: TFP (CD OLS)
+−4
+−3
+−2
+−1
+0
+1
+2
+3
+4
+Year Since Event
+MNCs (matched)
+Government
+(A) Government, TFP (CD OLS)
+−1
+−.5
+0
+.5
+Outcome: Corp. Sales to Others
+−4
+−3
+−2
+−1
+0
+1
+2
+3
+4
+Year Since Event
+MNCs (matched)
+Government
+(B) Government, Corp Sales to Others
+−.05
+0
+.05
+.1
+.15
+Outcome: TFP (CD OLS)
+−4
+−3
+−2
+−1
+0
+1
+2
+3
+4
+Year Since Event
+MNCs (matched)
+Large Domestic Buyers
+(C) Large Domestic Firm, TFP (CD OLS)
+−1
+−.5
+0
+.5
+Outcome: Corp. Sales to Others
+−4
+−3
+−2
+−1
+0
+1
+2
+3
+4
+Year Since Event
+MNCs (matched)
+Large Domestic Buyers
+(D) Large Domestic Firm, Corp Sales to Others
+−.05
+0
+.05
+.1
+.15
+Outcome: TFP (CD OLS)
+−4
+−3
+−2
+−1
+0
+1
+2
+3
+4
+Year Since Event
+MNCs (matched)
+Domestic Exporters
+(E) Domestic Exporter, TFP (CD OLS)
+−1
+−.5
+0
+.5
+Outcome: Corp. Sales to Others
+−4
+−3
+−2
+−1
+0
+1
+2
+3
+4
+Year Since Event
+MNCs (matched)
+Domestic Exporters
+(F) Domestic Exporter, Corp Sales to Others
+FIGURE III
+The Effects of Three Placebo Events—First Time Supplying to the Government,
+Large Domestic Buyer, or Domestic Exporter—versus the First Time Supplying
+to an MNC Event
+Figure III compares the effects of the event of starting to supply to an MNC with
+those from three other placebo events, namely, starting to supply to (i) the Costa
+Rican government (Panels A and B); (ii) a large domestic ﬁrm (Panels C and D); and
+(iii) a domestic exporter (Panels E and F). We show these effects for two outcome
+variables: log TFP from an OLS production function estimation that assumes a
+Cobb-Douglas technology (left panels), and log corporate sales to others (right
+panels). The vertical lines reﬂect the 95% conﬁdence intervals. For comparability,
+in each ﬁgure, we contrast the effects on the sample of ﬁrst-time suppliers to the
+government, large domestic buyer, or domestic exporter to those on a matched
+subset from the baseline sample of ﬁrst-time suppliers to MNCs. For example, to
+construct this subset for the government, we start from the sample of ﬁrst-time
+suppliers to the government. Then, for each ﬁrm in that sample, we identify the
+best match in the baseline sample of ﬁrst-time suppliers to MNCs (where the
+matching is based on the similarity in supplier characteristics and the demand
+shock received during the corresponding event). For details, see Section V.A and
+Online Appendix E.2.
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+1534
+THE QUARTERLY JOURNAL OF ECONOMICS
+trend back to their pre-event level. To conclude, for these and
+other variables, by the third year after the event, ﬁrst-time sup-
+pliers to the placebo buyers revert to their pre-event perfor-
+mance. In contrast, ﬁrst-time suppliers to MNCs show persistent
+improvement.
+V.B. Short-Run Effects Suggest Steep Short-Run Marginal-Cost
+Curves
+Our event study evidence from Section IV.A shows that ﬁrst-
+time suppliers to an MNC signiﬁcantly scale back their sales to
+other buyers in the year of the event. One could think that this fea-
+ture is speciﬁc to supplying to MNCs (e.g., due to potential exclu-
+sivity clauses). However, Figure III shows that ﬁrms experiencing
+other types of demand shocks also display similar patterns (even
+those supplying to the government—who does not impose exclu-
+sivity clauses). The pattern of interdependence between sales to
+one buyer and sales to all others is at odds with the standard
+Melitz (2003) framework and subsequent work in which ﬁrms are
+assumed to have a constant marginal cost. The constant marginal-
+cost assumption implies that demand shocks from one buyer do
+not affect the sales to other buyers.
+One natural interpretation of the short-lasting drop in sales to
+others is the presence of a steep marginal-cost curve in the short
+run (due to ﬁxed factors or capacity constraints) that becomes
+ﬂatter in the medium run. To quantitatively explore this idea, we
+present a simple model that rationalizes our empirical ﬁndings.
+The model is an abridged adaptation of the one in Almunia et al.
+(2021) that still captures the main intuition of interdependence
+between sales to different buyers. In our model, ﬁrms are allowed
+to face an increasing marginal cost with respect to the quantity
+produced. This can be justiﬁed by a production function for the
+ﬁrm that aggregates ﬁxed or predetermined inputs and ﬂexible
+ones. When ﬁrms experience a positive demand shock, they in-
+crease the usage of ﬂexible inputs (such as labor). All else equal,
+this demand shock leads to an increase in the short-run marginal
+cost. This increase in the marginal cost increases prices and re-
+sults in a loss in competitiveness with other buyers, translating
+into a decrease in sales to these other buyers.
+1. A Stylized Model with Nonconstant Marginal Costs. Con-
+sider a set of domestic supplier ﬁrms indexed by i selling a variety
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+THE EFFECTS OF JOINING MULTINATIONAL SUPPLY CHAINS
+1535
+of a good to buyers indexed by j. We assume that supplier i faces
+an isoelastic demand from buyer j given by qij = bij p−σ
+i
+, where qij
+denotes the units of output that buyer j demands from supplier i,
+pi is the price that supplier i charges, and σ > 1 is the elasticity
+of demand. bij = (b∗
+ij)σ−1 is a demand shifter that could be inter-
+preted as an adjustment of the price for the quality or appeal of
+the good of supplier i, among others. The supplier produces a total
+quantity Qi = 
+jqij with a total-cost function given by
+(3)
+T C(Qi) = κi
+ Qi
+φ∗
+i
+γ +1
+,
+where φ∗
+i refers to physical efﬁciency and κi is a constant. Note
+that γ is the marginal-cost elasticity with respect to total out-
+put (γ > −1). As shown by Almunia et al. (2021), a cost func-
+tion like the one in equation (3) can be derived in a model where
+the production function of the ﬁrm is a Cobb-Douglas aggregator
+of a ﬁxed or predetermined input and a ﬂexible input. We also
+show that when all inputs are ﬂexible, the total cost function
+in equation (3) encompasses both Cobb-Douglas and general
+returns to scale CES production functions (see Online Ap-
+pendix E.3.1). In such a case,
+1
+γ +1 can be interpreted as the re-
+turns to scale of the ﬁrm. A value of γ > 0 (γ < 0) would imply
+decreasing (increasing) returns to scale.
+Consider now an event where supplier i starts selling an
+amount Ri,M ≡piqi,M to a given ﬁrm M. Deﬁne sales to ﬁrms
+other than M (sales to others) as ˜Ri ≡pi ˜Qi, where ˜Qi = 
+j̸=M qij.
+We solve for the optimal level of sales to others in Online Ap-
+pendix E.3.2. Taking log differences of the optimal sales to oth-
+ers τ years after the event versus the year before the event,
+we ﬁnd:
+(4)
+τ ln( ˜Ri) = δτ ln( ˜Ri + Ri,M) + (σ −1)τ ln(φi),
+where δ ≡−(σ−1)γ
+γ +1 is our object of interest. This parameter governs
+the interdependence between changes in the total sales of ﬁrm i
+(due to the demand shock from ﬁrm M) and its sales to others.
+The φi ≡φ∗
+i ˜B∗
+i term is the revenue productivity of ﬁrm i, incorpo-
+rating its physical efﬁciency and demand adjustments for quality
+reﬂected in the demand shifter aggregator ˜B∗
+i ≡(
+j̸=M b∗σ−1
+ij
+)
+1
+σ−1 .
+This means that increases in physical productivity or product
+quality are isomorphic in terms of their effect on sales.
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+1536
+THE QUARTERLY JOURNAL OF ECONOMICS
+If the marginal cost of production is constant (γ = 0) and
+there is no change in revenue productivity (τln (φi) = 0), then the
+demand shock Ri,M does not affect the sales to others ˜Ri. However,
+if the marginal cost is, say, increasing (γ > 0), then the demand
+shock decreases the sales to others even when φi stays constant.
+This is because the change in total production affects the marginal
+cost and thus the price of ﬁrm i. In general, the more elastic the
+demand, the more sensitive sales to others are to changes in the
+marginal cost induced by changes in total production. Also, the
+more distant γ is from zero, the more the marginal cost changes
+with total production, and thus, the more the sales to others are
+affected via price changes.
+2. Implications of Our Event Study Evidence for the Dynam-
+ics of the Marginal Cost.
+We now exploit the staggered timing of
+the event and the different time horizons (indexed by τ) at which
+we can estimate the effects of the event to explore the dynamics
+of δ (and the marginal-cost elasticity γ ). Taking expectations in
+equation (4) across all ﬁrst-time suppliers i, we have:
+(5)
+δ = E[τ ln( ˜Ri)] −(σ −1)E[τ ln(φi)]
+E[τ ln( ˜Ri + Ri,M)]
+.
+To provide an estimate of δ we need estimates of the change
+in sales to others E[τ ln( ˜Ri)], the change in revenue productivity
+E[τ ln(φi)], the change in total sales E[τ ln( ˜Ri + Ri,M)], and an
+estimate for the demand elasticity σ. For the baseline estimates
+of δ, we estimate the ﬁrst three moments by leveraging our event
+study speciﬁcation for the case of ﬁrst-time suppliers to MNCs
+(i.e., we take ﬁrm M to be the ﬁrst MNC buyer). We also set σ =
+5.03 (which we infer from the average markup in the economy).32
+We provide estimates of δ at different event time horizons τ (from
+the year of the event to up to four years after the event). Moreover,
+we use the relationship between the marginal-cost elasticity γ
+and δ, namely, γ = −
+δ
+δ+σ−1, to infer the value of γ from that of δ.
+32. We estimate the average markup (μ) using the methodology of De Loecker
+and Warzynski (2012) (see Online Appendix Table E8). We infer σ from the fact
+that the isoelastic demand implies μ =
+σ
+σ−1. A value of σ = 5.03 is central in
+the range of estimates in the international trade literature (see Head and Mayer
+2014).
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+THE EFFECTS OF JOINING MULTINATIONAL SUPPLY CHAINS
+1537
+TABLE V
+FIRST-TIME SUPPLIERS TO MNCS HAVE A STEEP (CLOSER TO FLAT) SHORT-RUN
+(MEDIUM-RUN) MARGINAL-COST CURVE
+Baseline
+Robustness check
+Sales to others
+Transactions with others
+δ
+γ =
+δ
+δ+σ−1
+δ
+γ =
+δ
+δ+σ−1
+(1)
+(2)
+(3)
+(4)
+Year of event
+−2.702∗∗∗
+2.034
+−3.553∗∗∗
+7.455
+(0.550)
+(1.255)
+(0.570)
+(10.120)
+1 year after event
+−0.654∗∗∗
+0.194∗∗∗
+−0.419∗∗∗
+0.116∗∗
+(0.158)
+(0.056)
+(0.153)
+(0.047)
+2 years after event
+−0.435∗∗∗
+0.121∗∗∗
+−0.128
+0.033
+(0.120)
+(0.038)
+(0.164)
+(0.043)
+3 years after event
+−0.464∗∗∗
+0.130∗∗∗
+0.191
+−0.045
+(0.156)
+(0.049)
+(0.165)
+(0.037)
+4 years after event
+−0.433∗∗
+0.120∗∗
+0.159
+−0.038
+(0.169)
+(0.053)
+(0.171)
+(0.039)
+No. observations
+116,683
+116,683
+63,793
+63,793
+Notes. The table shows the estimates of δ (the parameter that governs the interdependence between the
+change in total sales of ﬁrm i and its change in sales to others) and the marginal-cost elasticity γ = −
+δ
+δ+σ−1 .
+Their estimation is based on equation (5). For these estimates, we set σ = 5.03, which we infer from the
+average markup in the economy using the methodology of De Loecker and Warzynski (2012). Columns (1)
+and (2) include the estimates of δ and γ when we use the total sales and sales to others constructed from the
+corporate income tax returns. The estimates in columns (1) and (2) are our preferred estimates. Columns (3)
+and (4) replace the total sales by the total corporate sales and the sales to others by the corporate sales to
+others (where “corporate” is used only for sales that are traced in the ﬁrm-to-ﬁrm transaction data). We obtain
+standard errors for our estimates of δ using a bootstrap procedure. Since γ is a function of δ, we then apply
+the delta method to obtain standard errors for our estimates of γ . ***, **, * denote statistical signiﬁcance at
+the 1%, 5%, and 10% levels, respectively.
+Finally, we obtain standard errors for these estimates of δ and γ
+using a bootstrap procedure.
+Table V presents our baseline results. Columns (1) and (2)
+refer to the estimated δ and γ when we use the total sales and
+the sales to others constructed from the corporate income tax
+returns. Columns (3) and (4) replace the total sales by the total
+corporate sales and the sales to others by the corporate sales to
+others (where “corporate” is used only for sales that are traced
+in the ﬁrm-to-ﬁrm transaction data). Our preferred estimates are
+those from columns (1) and (2) since total sales (as opposed to total
+transactions) map directly to the model. However, both exercises
+paint a similar picture.
+Column (1) shows estimates of δ that are large and negative
+in the short run, but that approach zero over time (δ = −2.70 in
+the year of the event versus δ = −0.43 four years after). Column
+(2) shows an estimate of the marginal-cost elasticity γ = 2.03 in
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+1538
+THE QUARTERLY JOURNAL OF ECONOMICS
+the year of the event. This value points to a signiﬁcant departure
+from the constant marginal-cost (γ = 0) assumption and implies
+weak short-run returns to scale of the ﬂexible inputs (around
+0.33). Similar to the estimates of δ, the estimates of γ decrease
+over time. In particular, four years after the event we ﬁnd a value
+of γ = 0.12 (we still reject the null of γ = 0). A value of γ = 0.12
+implies that when all inputs are ﬂexible, the returns to scale are
+equal to
+1
+1+γ = 0.89. This 0.89 value is close to the 0.92 value found
+when estimating the production function with standard methods
+(see Online Appendix Table E8). Thus, the simple model is con-
+sistent with our event study evidence and other moments of the
+data.
+As mentioned already, the short-run decrease in sales to oth-
+ers in the year of the event is not unique to ﬁrst-time suppliers to
+MNCs. To highlight the commonalities with other demand shocks,
+we provide alternative estimates of δ and γ based on event studies
+where the event is that of becoming a ﬁrst-time supplier to the
+government, domestic exporters, or big domestic ﬁrms (see Online
+Appendix Table E9). All three cases remain consistent with a steep
+short-run marginal-cost curve in the year of the event (δ ∈[−3.68,
+−1.69]) and a less steep marginal-cost curve four years after (δ ∈
+[−1.29, −0.97]). Moreover, our estimates of δ are also compatible
+with those of Almunia et al. (2021), who study the export behavior
+of Spanish ﬁrms after a negative domestic demand shock around
+the 2008 crisis. Their preferred estimate of δ = −2.374 is in the
+ballpark of our short-run estimates.
+Overall, this exercise indicates that ﬁrms have upward-
+sloping marginal-cost curves in the short run—most likely be-
+cause ﬁrms cannot immediately adjust ﬁxed factors such as
+capital—and closer to ﬂat marginal-cost curves in the medium
+run. We also show that the dynamics of the marginal cost are
+qualitatively similar across different types of demand shocks. This
+similarity suggests that the short-run adjustments uncovered by
+our event studies are not unique to supplying to MNCs, but they
+plausibly reﬂect general constraints faced by ﬁrms.
+V.C. Results Do Not Simply Capture Changes in Tax Compliance
+One might worry that domestic ﬁrms starting to supply to
+MNCs improve their tax compliance in ways that cast doubt on
+the interpretation of our baseline results. The third-party report-
+ing structure of the ﬁrm-to-ﬁrm transaction data offers a unique
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+THE EFFECTS OF JOINING MULTINATIONAL SUPPLY CHAINS
+1539
+opportunity to evaluate this concern. In theory, third-party report-
+ing has self-enforcing properties. However, when tax authorities
+lack resources to pursue inconsistencies in the reports of the buyer
+and supplier of a transaction, the odds of being audited are not
+equally distributed across transactions and ﬁrms. This weakens
+the incentives of compliance for transactions or ﬁrms under lower
+scrutiny. If domestic ﬁrms believe that MNCs are more prone to
+audits than domestic buyers, this may affect the accuracy of their
+D-151 reporting (similar to Pomeranz 2015).
+Firms can improve their D-151 reporting by reducing gaps
+in reported values for transactions declared by both ﬁrms in a
+buyer-seller pair or by lowering the share of transactions only
+reported by one party. We construct three proxies of reporting
+quality. The ﬁrst is a weighted average of the within-pair percent-
+age difference between the larger and the smaller of the values
+reported, across all pairs where a given ﬁrm is the seller. If buyers
+consistently report larger amounts than sellers (as tax evasion in-
+centives would suggest), then this measure captures the extent of
+underreporting of one’s sales compared with the reports of one’s
+buyers. The second measure keeps only pairs where a ﬁrm is the
+buyer and is meant to quantify the extent of overreporting of its
+purchases. Finally, we construct a measure of the frequency of
+transactions found only in the D-151 forms of one ﬁrm in the
+pair.
+We ﬁnd that becoming a supplier to MNCs is unlikely to have
+a bearing on either measure of third-party reporting quality, and
+if it does, the effect is the opposite to that predicted by a reduc-
+tion of tax-evasive behaviors (for details, see Online Appendix
+Table E10). Hence, we do not ascribe our results to changes in
+third-party reporting behavior.
+Moreover, we resort to the matched employer-employee data
+(MEED), which records the employment of workers with social
+security contributions (i.e., formal employment). A working-age
+person who is not in MEED in a given year might either be
+nonemployed that year, work informally (i.e., without social se-
+curity contributions), or be a foreign worker not yet integrated in
+the Costa Rican labor market. We ask whether the event of start-
+ing to supply to MNCs leads domestic ﬁrms to increase the share
+of new hires who come from outside the MEED. An increase in this
+share cannot by itself prove that ﬁrst-time suppliers are formal-
+izing incumbent informal workers, as ﬁrms might still be legiti-
+mately growing by hiring workers who were either nonemployed,
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+1540
+THE QUARTERLY JOURNAL OF ECONOMICS
+working informally for a different ﬁrm, or were newly arrived
+foreign workers; however, it would at least raise suspicions of for-
+malization. That said, the lack of signiﬁcant effects of the event on
+this share (whether we include or exclude foreign workers) sug-
+gests that the growth in employment of the new suppliers is real
+and not a mere reporting response. This evidence is described in
+Online Appendix Table E11.
+V.D. Not All First-Time Relationships with an MNC Are Created
+Equal
+Here we characterize the heterogeneity of TFP gains by traits
+of the ﬁrst-time supplier, ﬁrst MNC buyer, or their ﬁrst interac-
+tion. In Table VI, we split domestic ﬁrms based on either their
+sector or that of their ﬁrst MNC buyer, where sectors fall into
+one of four groups: manufacturing, retail (including repair and
+maintenance), services, or agriculture. Domestic ﬁrms in man-
+ufacturing experience the largest TFP gains from supplying to
+MNCs, whereas those in services and retail attain only half of
+those gains. Suppliers in agriculture see no effect. When we split
+ﬁrms by the sector of the MNC buyer, only those starting to supply
+to an MNC in manufacturing or services see their TFP improve.
+Second, in Table VII, we ask whether the TFP effects vary by
+the importance of the transaction to either the MNC or supplier.
+We measure its importance to the MNC by the I-O share of the
+purchases of the MNC sector from the supplier sector out of the
+total purchases of the MNC sector. We ﬁnd that domestic ﬁrms
+whose inputs tend to be more important (core) to their ﬁrst MNC
+buyer experience higher TFP gains. We then compute the me-
+dian of the values of the ﬁrst transaction with an MNC and split
+suppliers by whether their ﬁrst transaction was below or above
+this median. All TFP gains are concentrated in the above-median
+sample.
+Third, in Online Appendix Table C4, we examine whether the
+footprint of the MNC in CR matters for the TFP gain potential.
+We ﬁrst split the ﬁrst MNC buyers into below- and above-median
+groups of afﬁliate sizes in CR. Irrespective of whether we measure
+the afﬁliate size as the number of workers, total sales, or local
+purchases, smaller MNC buyers tend to generate stronger TFP
+gains for their ﬁrst-time suppliers. One plausible reason is that
+larger MNC afﬁliates invest less in local suppliers because they
+have a stronger bargaining position or outside options (see note 21
+for additional intuition).
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+THE EFFECTS OF JOINING MULTINATIONAL SUPPLY CHAINS
+1541
+TABLE VI
+TFP GAINS VARY BY THE SECTOR OF THE DOMESTIC FIRM OR THE FIRST MNC BUYER
+Sector of the domestic ﬁrst-time supplier to an MNC
+Sector of the ﬁrst MNC buyer
+Full sample
+Restricted sample
+Restricted sample
+MFG
+RET
+SER
+AGR
+MFG
+RET
+SER
+AGR
+MFG
+RET
+SER
+AGR
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+(7)
+(8)
+(9)
+(10)
+(11)
+(12)
+4 years before event −0.03
+0.02
+−0.03
+0.09
+−0.01
+−0.00
+−0.11
+0.08
+0.00
+−0.03
+−0.05
+0.14
+(0.04)
+(0.02)
+(0.04)
+(0.06)
+(0.07)
+(0.03)
+(0.08)
+(0.13)
+(0.04)
+(0.07)
+(0.06)
+(0.10)
+3 years before event −0.02
+0.02
+−0.01
+0.01
+−0.00
+0.00
+−0.08
+0.01
+−0.05
+0.02
+−0.02
+0.14∗
+(0.03)
+(0.01)
+(0.03)
+(0.05)
+(0.04)
+(0.02)
+(0.06)
+(0.09)
+(0.03)
+(0.05)
+(0.04)
+(0.07)
+2 years before event
+0.00
+0.03∗∗
+−0.03
+0.01
+0.02
+0.02
+−0.05
+−0.00
+0.01
+0.03
+0.01
+0.09∗
+(0.03)
+(0.01)
+(0.03)
+(0.05)
+(0.03)
+(0.01)
+(0.04)
+(0.06)
+(0.02)
+(0.03)
+(0.02)
+(0.05)
+Year of event
+0.07∗∗∗
+0.05∗∗∗
+0.06∗∗∗
+0.01
+0.09∗∗∗
+0.06∗∗∗
+0.08∗∗
+0.01
+0.09∗∗∗
+0.03
+0.05∗∗
+0.02
+(0.02)
+(0.01)
+(0.02)
+(0.04)
+(0.03)
+(0.01)
+(0.03)
+(0.05)
+(0.02)
+(0.03)
+(0.02)
+(0.05)
+1 year after event
+0.12∗∗∗
+0.06∗∗∗
+0.08∗∗∗−0.01
+0.15∗∗∗
+0.07∗∗∗
+0.13∗∗∗
+0.01
+0.12∗∗∗
+0.07
+0.09∗∗∗−0.06
+(0.02)
+(0.01)
+(0.02)
+(0.04)
+(0.05)
+(0.02)
+(0.05)
+(0.08)
+(0.03)
+(0.05)
+(0.04)
+(0.07)
+2 years after event
+0.11∗∗∗
+0.07∗∗∗
+0.08∗∗∗−0.01
+0.13∗∗
+0.08∗∗∗
+0.16∗∗
+0.01
+0.12∗∗∗
+0.09
+0.12∗∗
+−0.08
+(0.02)
+(0.01)
+(0.02)
+(0.04)
+(0.06)
+(0.03)
+(0.07)
+(0.12)
+(0.04)
+(0.06)
+(0.05)
+(0.09)
+3 years after event
+0.09∗∗∗
+0.06∗∗∗
+0.08∗∗∗−0.01
+0.11
+0.08∗∗
+0.19∗∗
+0.01
+0.14∗∗∗
+0.09
+0.12∗
+−0.12
+(0.02)
+(0.01)
+(0.02)
+(0.05)
+(0.08)
+(0.04)
+(0.09)
+(0.15)
+(0.05)
+(0.08)
+(0.06)
+(0.11)
+4 years after event
+0.12∗∗∗
+0.06∗∗∗
+0.05∗∗
+0.05
+0.14
+0.08∗
+0.18∗
+0.03
+0.14∗∗
+0.07
+0.14∗
+−0.09
+(0.03)
+(0.01)
+(0.03)
+(0.05)
+(0.09)
+(0.04)
+(0.11)
+(0.19)
+(0.06)
+(0.10)
+(0.08)
+(0.13)
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+1542
+THE QUARTERLY JOURNAL OF ECONOMICS
+TABLE VI
+CONTINUED
+Sector of the domestic ﬁrst-time supplier to an MNC
+Sector of the ﬁrst MNC buyer
+Full sample
+Restricted sample
+Restricted sample
+MFG
+RET
+SER
+AGR
+MFG
+RET
+SER
+AGR
+MFG
+RET
+SER
+AGR
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+(7)
+(8)
+(9)
+(10)
+(11)
+(12)
+Mean dep. var. (level)
+1.12
+1.30
+0.80
+1.05
+2.15
+2.10
+1.52
+1.96
+1.76
+1.75
+1.68
+3.66
+Std. dev. dep. var. (level)
+4.27
+2.84
+3.21
+2.25
+7.56
+4.42
+6.08
+4.10
+3.67
+3.95
+4.39
+9.89
+Firm FE
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Year-2Dsect-prov FE
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Never suppliers
+Yes
+Yes
+Yes
+Yes
+No
+No
+No
+No
+No
+No
+No
+No
+Adjusted R2
+0.96
+0.97
+0.92
+0.91
+0.97
+0.97
+0.94
+0.95
+0.96
+0.96
+0.96
+0.98
+No. observations
+9,806
+33,550
+17,998
+4,929
+2,792
+7,836
+3,822
+1,039
+5,904
+2,920
+4,489
+837
+No. ﬁxed effects
+2,076
+5,374
+4,498
+894
+910
+1,306
+1,340
+246
+1,797
+957
+1,407
+314
+No. ﬁrms
+1,424
+5,164
+3,389
+788
+396
+1,099
+722
+161
+923
+451
+716
+120
+Notes. The table presents the heterogeneity of TFP gains by the sector of either the ﬁrst-time supplier or the sector of the ﬁrst MNC buyer triggering the event. All columns report
+results from running the event study speciﬁcation (1) adapted to the Cobb-Douglas OLS measure of TFP. Regressions differ in the sample over which the regression is run. Columns
+(1)–(8) separate ﬁrms based on the sector of the domestic ﬁrm. The four largest sectoral groups are manufacturing (MFG), retail (including repair and maintenance, RET), services
+(SER), and agriculture (AGR). Columns (9)–(12) separate ﬁrms based on the sector of the ﬁrst MNC buyer. Note that this latter separation can only be done in the restricted sample
+containing only ﬁrst-time suppliers, as never suppliers do not have a ﬁrst MNC buyer. Columns (1)–(4) pertain to the full sample including both domestic ﬁrms that become ﬁrst-time
+suppliers to an MNC between 2010 and 2015 and domestic ﬁrms never observed as supplying to an MNC between 2008 and 2017. Columns (5)–(12) focus only on the restricted
+sample of ﬁrst-time suppliers. All regressions include ﬁrm and two-digit sector × province × calendar year ﬁxed effects. Robust standard errors are in parentheses. ***, **, * denote
+statistical signiﬁcance at the 1%, 5%, and 10% levels, respectively.
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+THE EFFECTS OF JOINING MULTINATIONAL SUPPLY CHAINS
+1543
+TABLE VII
+TFP GAINS VARY BY THE IMPORTANCE OF THE FIRST TRANSACTION
+Median I-O share
+I-O share larger than
+Median ﬁrst trans.
+Below
+Above
+1%
+5%
+10%
+Below
+Above
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+(7)
+4 years before event
+0.01
+−0.03
+−0.03
+−0.14
+−0.21
+0.02
+−0.05
+(0.04)
+(0.04)
+(0.05)
+(0.10)
+(0.14)
+(0.03)
+(0.05)
+3 years before event
+0.02
+−0.03
+−0.04
+−0.10
+−0.12
+0.01
+−0.05
+(0.03)
+(0.03)
+(0.03)
+(0.06)
+(0.08)
+(0.02)
+(0.04)
+2 years before event
+0.02
+0.01
+0.01
+−0.07∗
+−0.04
+0.02
+−0.02
+(0.02)
+(0.02)
+(0.02)
+(0.04)
+(0.05)
+(0.01)
+(0.03)
+Year of event
+0.06∗∗∗
+0.06∗∗∗
+0.07∗∗∗
+0.08∗∗
+0.09∗
+0.02
+0.11∗∗∗
+(0.02)
+(0.02)
+(0.02)
+(0.04)
+(0.05)
+(0.01)
+(0.02)
+1 year after event
+0.08∗∗∗
+0.11∗∗∗
+0.12∗∗∗
+0.20∗∗∗
+0.17∗∗
+0.05∗∗
+0.15∗∗∗
+(0.03)
+(0.03)
+(0.03)
+(0.06)
+(0.08)
+(0.02)
+(0.04)
+2 years after event
+0.07∗∗
+0.12∗∗∗
+0.13∗∗∗
+0.23∗∗∗
+0.24∗∗
+0.05∗
+0.16∗∗∗
+(0.03)
+(0.04)
+(0.04)
+(0.08)
+(0.11)
+(0.03)
+(0.05)
+3 years after event
+0.08∗
+0.14∗∗∗
+0.15∗∗∗
+0.28∗∗∗
+0.28∗
+0.05
+0.18∗∗∗
+(0.04)
+(0.05)
+(0.05)
+(0.11)
+(0.15)
+(0.04)
+(0.06)
+4 years after event
+0.07
+0.15∗∗
+0.17∗∗
+0.35∗∗∗
+0.37∗∗
+0.05
+0.18∗∗
+(0.05)
+(0.06)
+(0.07)
+(0.13)
+(0.18)
+(0.05)
+(0.08)
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+1544
+THE QUARTERLY JOURNAL OF ECONOMICS
+TABLE VII
+CONTINUED
+Median I-O share
+I-O share larger than
+Median ﬁrst trans.
+Below
+Above
+1%
+5%
+10%
+Below
+Above
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+(7)
+Mean dep. var. (level)
+1.75
+2.22
+2.18
+2.16
+2.49
+1.63
+2.49
+Std. dev. dep. var. (level)
+5.44
+5.68
+5.48
+3.19
+3.63
+4.47
+6.73
+Adjusted R2
+0.96
+0.96
+0.96
+0.95
+0.97
+0.97
+0.96
+No. observations
+7,810
+7,189
+6,733
+2,188
+1,030
+8,692
+6,173
+No. ﬁxed effects
+2,319
+1,861
+1,761
+662
+326
+2,231
+1,946
+No. ﬁrms
+1,196
+1,112
+1,037
+331
+149
+1,243
+1,046
+Notes. The table presents the heterogeneity of TFP gains by the importance of the ﬁrst transaction to both the supplier and the buyer. All columns report results from running the
+event study speciﬁcation (1) adapted to the Cobb-Douglas OLS measure of TFP. All columns start from the restricted sample of ﬁrst-time suppliers. Columns differ in the subsample
+over which the regression is run. Columns (1)–(5) show the heterogeneity of the TFP gains based on how core the sector of the ﬁrst-time supplier is to the sector of their ﬁrst MNC
+buyer. We start from the ﬁrm-to-ﬁrm transaction data and aggregate the transactions up to the buying-sector by selling-sector pair. We then compute the I-O shares that each buying
+sector purchases from each selling sector out of the total purchases of the buying sector. Columns (1) and (2) separate ﬁrst-time suppliers into those with an I-O share below or above
+the median I-O share (across all ﬁrst-time suppliers). The higher the I-O share, the more the ﬁrst-time supplier sells an input that is more “core” to the production of its ﬁrst MNC
+buyer. Columns (3), (4), and (5) keep only the ﬁrst-time suppliers whose sector sells more than 1%, 5%, and 10% (respectively) to the sector of the ﬁrst MNC buyer. Columns (6) and
+(7) separate domestic ﬁrms based on the amount of their transaction with the MNC buyer that triggered their ﬁrst-time supplying event. If a domestic ﬁrm supplies to more than one
+MNC in the year of its event, we assign the amount of the largest transaction with an MNC that year. We then compute the median (across all ﬁrst-time suppliers) of the amount of
+the ﬁrst transaction with an MNC and split suppliers by whether their ﬁrst transaction was below or above this median. All regressions include ﬁrm and two-digit sector × province
+× calendar year ﬁxed effects. Robust standard errors are in parentheses. ***, **, * denote statistical signiﬁcance at the 1%, 5%, and 10% levels, respectively.
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+THE EFFECTS OF JOINING MULTINATIONAL SUPPLY CHAINS
+1545
+Fourth, Online Appendix Table C5 asks whether the TFP
+gains differ by the headquarters (HQ) country of the ﬁrst MNC
+buyer. The ﬁrst split of HQ countries is by region. From this split,
+we learn that TFP gains are mostly driven by MNC buyers that
+are either U.S.- or Canada-owned. The second split of HQ countries
+is by their GDP per capita (PPP). MNC buyers with higher GDP
+per capita HQ countries bring larger TFP gains. Finally, we split
+HQ countries by their quality of management (as measured by
+the World Management Survey). MNC buyers from HQ countries
+with better management practices yield stronger TFP gains.
+In sum, not all ﬁrst-time relationships with an MNC are cre-
+ated equal. Domestic ﬁrms in manufacturing, who supply a core
+input to the MNC or have a stronger ﬁrst interaction with the
+MNC are those who gain most from their event. Moreover, it is
+most beneﬁcial to start supplying to MNCs in manufacturing and
+services, smaller MNC afﬁliates, or MNCs whose HQ country has
+a higher GDP per capita and better management practices.
+VI. ADDITIONAL SURVEY-BASED EVIDENCE TO GUIDE
+INTERPRETATION
+We focus on the lessons from our surveys that directly ad-
+dress why and how domestic ﬁrms improve their performance
+after linkages with MNCs.33 We ﬁrst inquired on the expectations
+of MNCs and domestic suppliers ahead of a ﬁrst linkage. When
+evaluating a potential supplier, MNCs pay particular attention to
+input quality, the willingness or ability of the supplier to adapt
+to the MNC’s needs, the price, and organizational traits such as
+reliability or input traceability. Before their ﬁrst MNC buyer, all
+domestic ﬁrms expected MNCs to differ from domestic buyers. The
+largest expected differences involved MNCs placing larger orders,
+being more reliable payers, offering longer contracts, and helping
+suppliers to adopt better management practices. Despite expect-
+ing differences, domestic ﬁrms were still taken by surprise by the
+quick pace, breadth, and depth of the changes necessary to supply
+to MNCs. For many of them, what followed after their ﬁrst MNC
+deal was “as if being thrown into the water without knowing how
+to swim and having to learn fast” (direct quote from one business
+owner).
+33. Online Appendix F details the rest of our survey ﬁndings.
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+1546
+THE QUARTERLY JOURNAL OF ECONOMICS
+When asked if they offer any explicit support to new suppli-
+ers, 69% of MNCs claimed to provide such support—mainly in
+the form of sharing of blueprints or details about the expected
+product or services, visits of the supplier to the MNC to learn
+about the use of the input, and visits of the MNC to the sup-
+plier to carry out audits and advise on upgrades. Moreover, 44%
+of domestic suppliers acknowledged receiving support consistent
+with what MNCs described. According to one domestic supplier,
+working with MNC buyers feels like having access to a “global
+catalog of best practices.” MNCs are more likely to perceive their
+interactions as direct help than domestic suppliers for two rea-
+sons. First, MNCs are notoriously demanding with their suppliers
+and expect them to adapt fast. MNCs admitted that the pressure
+to adapt quickly was one of the largest disadvantages or risks for
+new suppliers.34 Second, domestic suppliers declared that they
+alone bear most of the adaptation efforts.
+Of the 69% of MNCs claiming to provide explicit help to their
+new domestic suppliers, about half expect, in return, prices that
+either remain unchanged or fall (for an improving or constant
+quality). Of the 44% of domestic ﬁrms that have supposedly re-
+ceived explicit help from their ﬁrst MNC buyer, more than two-
+thirds said that the MNC expected either unchanged prices (for
+improving quality) or lower prices (for unchanged quality or even
+for better quality). Hence, even when deals with MNC lead to qual-
+ity upgrades, both MNCs and domestic ﬁrms concur that MNCs
+expect prices to stay constant, if not decrease.
+We asked domestic ﬁrms about their pricing practices for the
+same order (i.e., the same product, quality, and quantity) made
+by either MNC or domestic buyers: 58% replied that they usually
+charge the same price to both types of buyers, with the other
+42% split in half between whether they charge MNCs more or
+less. During the in-person surveys, we asked domestic ﬁrms if
+they had ever incurred losses from deals with MNCs. Most ﬁrms
+stated that they had made deals at a loss, particularly among the
+34. In the words of the supply chain manager of one MNC: “The biggest
+disadvantage of starting to work with us has to do with our ‘zero tolerance’ policy.
+We are willing to help [suppliers], and we do help them, but cannot be a charitable
+benefactor forever and ever.” Interviews conducted by Alfaro and Rodr´ıguez-Clare
+(2004) reveal similar patterns in which suppliers had improved their technologies
+because of the pressures exerted on them by MNCs.
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+THE EFFECTS OF JOINING MULTINATIONAL SUPPLY CHAINS
+1547
+ﬁrst MNC deals. To keep the MNC buyers content, suppliers are
+expected to absorb most of the unforeseen cost increases.
+We surveyed domestic ﬁrms about the changes that they expe-
+rienced after their ﬁrst supplying relationship with an MNC: 62%
+of the domestic respondents mentioned having expanded their
+product scope, in particular with higher-quality goods and ser-
+vices demanded by MNCs. These higher-quality products required
+ﬁrm-wide changes, for instance, introducing a quality manage-
+ment system. Also, higher-quality products require better inputs.
+This explains why 39% of suppliers had to change their sourc-
+ing strategy, 44% hired more high-skilled workers, and 27% had
+existing workers work harder. Fifty percent of ﬁrms improved
+their managerial and organizational practices, in part advised by
+MNCs, in part prompted by pressure from MNCs to meet the
+agreed standards and to do so consistently.
+A systematic pattern emerging from the surveys is that do-
+mestic ﬁrms implemented various interrelated changes upon be-
+coming suppliers to MNCs. This experience of one domestic sup-
+plier is illustrative: “The biggest change came with the expansion
+of the portfolio of goods and services we offered. . . . However, this
+change implied many others. One must be very agile in the orga-
+nization of production, have inventories for very different inputs,
+improve ﬁnancing, etc.”35
+Finally, we were interested in how joining the supply chain of
+an MNC affected the supplier’s business with buyers other than
+their ﬁrst MNC buyer. Of the 44% of the domestic suppliers that
+claim to have experienced changes in their business with domes-
+tic buyers, for most, the change involved selling more. The higher
+sales to domestic ﬁrms were ﬁrst attributed to a combination of
+selling higher- or constant-quality products at constant or falling
+prices. The higher visibility and better reputation in the domes-
+tic market (that follow from supplying to MNCs) also played a
+decisive role in their larger sales to domestic ﬁrms. The better
+reputation might partly, explain why we ﬁnd that sales to other
+buyers increased more on the extensive than on the intensive
+margin.
+35. Based on four case studies of new exporting sectors in Argentina, Artopou-
+los, Friel, and Hallak (2013) ﬁnd that to export differentiated products successfully,
+domestic ﬁrms need to continuously integrate knowledge about foreign taste and
+business practices into their production processes. This ﬁnding on the interrelated
+nature of the effects of exporting to developed countries echoes our ﬁndings on the
+effects of supplying to MNCs.
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+1548
+THE QUARTERLY JOURNAL OF ECONOMICS
+When asked whether it was also easier to sell to more MNC
+buyers after the ﬁrst such buyer, 78% of domestic ﬁrms re-
+sponded positively. Of these, 86% stated that it became easier
+to gain the trust of new MNCs. That said, earning a reputa-
+tion does not automatically imply that this reputation is pos-
+itive and helpful in selling to new (MNC) buyers. Domestic
+ﬁrms were motivated to learn and adapt quickly to the expec-
+tations of their ﬁrst MNC buyers to avoid being classiﬁed as bad
+suppliers.36 Other key drivers of the better prospects with other
+MNC buyers included expansions in product scope that accom-
+modated speciﬁc MNC needs, enhanced productivity (e.g., due to
+better managerial practices), and the higher-quality products sold
+at prices similar or lower than before the ﬁrst MNC linkage.
+Together with our regression-based ﬁndings, these survey-
+based ﬁndings suggest that disentangling the relative importance
+of the various effects of supplying to MNCs on domestic ﬁrms is
+not straightforward. First, such an endeavor would require data
+on rarely measured product and ﬁrm characteristics (such as qual-
+ity and reputation). Second, these effects are interrelated enough
+that only a controlled empirical setting would allow one to es-
+timate their separate contributions credibly. For instance, suc-
+cessful expansions in product scope (typically with higher-quality
+products) tend to go hand in hand with higher efﬁciency so that
+ﬁrms can switch seamlessly between products requiring differ-
+ent inputs and processes. Moreover, the clear improvement in the
+ability to acquire new and “better” buyers suggests that ﬁrst-time
+suppliers got a boost in reputation in the local market. This rep-
+utation boost is linked to the product characteristics that these
+domestic ﬁrms are revealed to be capable of supplying. Therefore,
+isolating these interrelated effects remains outside of the scope of
+this article.
+VII. CONCLUSION
+We use rich administrative data and an event study design
+to show that ﬁrst-time suppliers to an MNC experience strong
+36. Not being known or trusted by MNCs was among the main reasons why
+suppliers struggled to get a ﬁrst contract with MNCs. Moreover, MNCs believed
+that one of the biggest risks for suppliers was to be revealed as incapable of
+coping with their standards and for this to be shared with other potential clients,
+particularly other MNCs.
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+THE EFFECTS OF JOINING MULTINATIONAL SUPPLY CHAINS
+1549
+and persistent gains in ﬁrm performance. Four years after joining
+the supply chain of an MNC, domestic ﬁrms employ 26% more
+workers and have a 4% to 9% higher TFP. We then exploit the fact
+that we observe all ﬁrm-to-ﬁrm sales of ﬁrst-time suppliers, not
+just those to their ﬁrst MNC buyer. In addition, we ﬁnd persistent
+increases in sales to other (better-performing) buyers, explained
+mainly by an improved ability to acquire new buyers. Finally,
+we learn from our surveys that ﬁrst-time suppliers beneﬁt from
+wide-ranging improvements such as those to their managerial
+practices and reputation.
+We highlight three directions for future research. First, as
+discussed at the end of the previous section, one of our main take-
+aways is that ﬁrst-time suppliers to MNCs experience a series of
+interdependent improvements in efﬁciency, product scope, quality,
+and reputation. Estimating the magnitudes of these effects sep-
+arately and their contributions to ﬁrm performance require even
+richer data than the one this project builds on and a controlled
+empirical environment (such as one provided by a randomized
+control trial).
+Second, our evidence strongly suggests that markup increases
+do not explain our estimated TFP gains. However, without direct
+information on product characteristics, prices, and quantities, our
+evidence against markup increases is not deﬁnitive. Novel data
+sets that contain such information would open new possibilities
+to study what domestic ﬁrms sell and at which price upon joining
+the supply chain of an MNC.
+Third, our placebo exercises show that the effects on the ﬁrst-
+time suppliers to MNCs are not just demand effects; similarly
+sized demand shocks from large domestic ﬁrms or domestic ex-
+porters do not generate as strong and persistent effects. However,
+we cannot deﬁnitively settle the extent to which our estimated ef-
+fects are entirely owed to the buyer’s MNC nature. This is because
+MNCs and large domestic ﬁrms (domestic exporters) might still
+differ along dimensions other than MNC status and size (exporter
+status) for which we control, dimensions that could be relevant for
+the effects (e.g., management practices). Nonetheless, the placebo
+exercises shed light on the unique effects of demand shocks from
+MNCs—at least in developing countries where non-MNC ﬁrms
+that are strictly comparable to MNCs are hard to ﬁnd. Disentan-
+gling the precise role of the MNC status of a buyer relative to other
+correlated characteristics is a fruitful avenue for future work.
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+1550
+THE QUARTERLY JOURNAL OF ECONOMICS
+BANCO CENTRAL DE COSTA RICA (BCCR) AND UNIVERSIDAD DE COSTA
+RICA, COSTA RICA
+LONDON SCHOOL OF ECONOMICS, UNITED KINGDOM
+LONDON SCHOOL OF ECONOMICS, UNITED KINGDOM
+SUPPLEMENTARY MATERIAL
+An Online Appendix for this article can be found at the
+Quarterly Journal of Economics online.
+DATA AVAILABILITY
+Code replicating the tables and ﬁgures in this article can
+be found in Alfaro-Ure˜na, Manelici, and Vasquez (2022) in the
+Harvard Dataverse, https://doi.org/10.7910/DVN/PAGZ9Y.
+REFERENCES
+Abebe, Girum, Margaret McMillan, and Michel Seraﬁnelli, “Foreign Direct Invest-
+ment and Knowledge Diffusion in Poor Locations,” NBER Working Paper no.
+24461, 2020.
+Acemoglu, Daron, and Alireza Tahbaz-Salehi, “Firms, Failures, and Fluctuations:
+The Macroeconomics of Supply Chain Disruptions,” NBER Working Paper no.
+27565, 2020.
+Ackerberg, Daniel A., Kevin Caves, and Garth Frazer, “Identiﬁcation Properties
+of Recent Production Function Estimators,” Econometrica, 83 (2015), 2411–
+2451.
+Ahn, JaeBin, and Alexander F. McQuoid, “Capacity Constrained Exporters: Iden-
+tifying Increasing Marginal Cost,” Economic Inquiry, 55 (2017), 1175–1191.
+Aitken, Brian J., and Ann E. Harrison, “Do Domestic Firms Beneﬁt from Direct
+Foreign Investment? Evidence from Venezuela,” American Economic Review,
+89 (1999), 605–618.
+Alfaro, Laura, “Gains from Foreign Direct Investment: Macro and Micro Ap-
+proaches,” World Bank Economic Review, 30 (2017), S2–S15.
+Alfaro, Laura, Areendam Chanda, Sebnem Kalemli- ¨Ozcan, and Selin Sayek, “FDI
+and Economic Growth: The Role of Local Financial Markets,” Journal of In-
+ternational Economics, 64 (2004), 89–112.
+Alfaro, Laura, and Andr´es Rodr´ıguez-Clare, “Multinationals and Linkages: An
+Empirical Investigation,” Economia, 4 (2004), 113–169.
+Alfaro-Ure˜na, Alonso, Isabela Manelici, and Jose Vasquez, “The Effects of Multina-
+tionals on Workers: Evidence from Costa Rica,” Griswold Center for Economic
+Policy Studies Working Paper no. 285, 2021.
+———, “Replication Data for: ‘The Effects of Joining Multinational Supply Chains:
+New Evidence from Firm-to-Firm Linkages’,” (2022), Harvard Dataverse,
+https://doi.org/10.7910/DVN/PAGZ9Y.
+Almunia, Miguel, Pol Antr`as, David Lopez-Rodriguez, and Eduardo Morales,
+“Venting Out: Exports during a Domestic Slump,” American Economic Re-
+view, 111 (2021), 3611–3622.
+Alviarez, Vanessa, Michele Fioretti, Ken Kikkawa, and Monica Morlacco, “Two-
+Sided Market Power in Firm-to-Firm Trade,” Interamerican Development
+Bank Working Paper IDB-DP-884, 2020.
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+THE EFFECTS OF JOINING MULTINATIONAL SUPPLY CHAINS
+1551
+Antr`as, Pol, and Stephen R. Yeaple, “Multinational Firms and the Structure of
+International Trade,” Handbook of International Economics, 4, (2014), 55–
+130.
+Artopoulos, Alejandro, Daniel Friel, and Juan Carlos Hallak, “Export Emergence
+of Differentiated Goods from Developing Countries: Export Pioneers and Busi-
+ness Practices in Argentina,” Journal of Development Economics, 105 (2013),
+19–35.
+Atkin, David, Azam Chaudhry, Shamyla Chaudhry, Amit K. Khandelwal, and
+Eric Verhoogen, “Markup and Cost Dispersion across Firms: Direct Evidence
+from Producer Surveys in Pakistan,” American Economic Review: Papers &
+Proceedings, 105 (2015), 537–544.
+Atkin, David, Amit K. Khandelwal, and Adam Osman, “Exporting and Firm Per-
+formance: Evidence from a Randomized Experiment,” Quarterly Journal of
+Economics, 132 (2017), 551–615.
+Banerjee, Abhijit Vinayak, “Microcredit under the Microscope: What Have We
+Learned in the Past Two Decades, and What Do We Need to Know?,” Annual
+Review of Econonomics, 5 (2013), 487–519.
+Bernard, Andrew, Emmanuel Dhyne, Glenn Magerman, Kalina Manova, and An-
+dreas Moxnes, “The Origins of Firm Heterogeneity: A Production Network
+Approach,” NBER Working Paper no. 25441, 2020.
+Bernard, Andrew, Bradford Jensen, Stephen J. Redding, and Peter K. Schott, “The
+Empirics of Firm Heterogeneity and International Trade,” Annual Review of
+Economics, 4 (2012), 283–313.
+Blundell, Richard, and Monica Costa Dias, “Alternative Approaches to Evaluation
+in Empirical Microeconomics,” Journal of Human Resources, 44 (2009), 565–
+640.
+Bond, Steve, Arshia Hashemi, Greg Kaplan, and Piotr Zoch, “Some Unpleasant
+Markup Arithmetic: Production Function Elasticities and Their Estimation
+from Production Data,” Journal of Monetary Economics, 121 (2021), 1–14.
+Brugues, Felipe, “Take the Goods and Run: Contracting Frictions and Market
+Power in Supply Chains,” ITAM Working Paper, 2020.
+De Loecker, Jan, “Detecting Learning by Exporting,” American Economic Journal:
+Microeconomics, 5 (2013), 1–21.
+De Loecker, Jan, and Pinelopi Koujianou Goldberg, “Firm Performance in a Global
+Market,” Annual Review of Economics, 6 (2014), 201–227.
+De Loecker, Jan, and Frederic Warzynski, “Markups and Firm-Level Export Sta-
+tus,” American Economic Review, 102 (2012), 2437–2471.
+Dhyne, Emmanuel, Ken Kikkawa, Magne Mogstad, and Felix Tintelnot, “Trade
+and Domestic Production Networks,” Review of Economic Studies, 88 (2021),
+643–668.
+Ferraz, Claudio, Frederico Finan, and Dimitri Szerman, “Procuring Firm Growth:
+The Effects of Government Purchases on Firm Dynamics,” NBER Working
+Paper no. 21219, 2016.
+Haddad, Mona, and Ann Harrison, “Are There Positive Spillovers from Direct
+Foreign Investment?: Evidence from Panel Data for Morocco,” Journal of De-
+velopment Economics, 42 (1993), 51–74.
+Haskel, Jonathan E., Sonia C. Pereira, and Matthew J. Slaughter, “Does Inward
+Foreign Direct Investment Boost the Productivity of Domestic Firms?,” Review
+of Economics and Statistics, 89 (2007), 482–496.
+Havr´anek, Tomas, and Zuzana Irˇsov´a, “Estimating Vertical Spillovers from FDI:
+Why Results Vary and What the True Effect Is,” Journal of International
+Economics, 85 (2011), 234–244.
+Head, Keith, and Thierry Mayer, “Gravity Equations: Workhorse, Toolkit, and
+Cookbook,” Handbook of International Economics, 4 (2014), 131–195.
+Huneeus, Federico, “Production Network Dynamics and the Propagation of Micro
+Shocks,” Central Bank of Chile Working Paper, 2018.
+ILO, “Women and Men in the Informal Economy: A Statistical Picture,” 3rd ed.,
+International Labour Ofﬁce Technical Report, 2018.
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022
+
+1552
+THE QUARTERLY JOURNAL OF ECONOMICS
+Javorcik Beata, S., “Does Foreign Direct Investment Increase the Productivity of
+Domestic Firms? In Search of Spillovers through Backward Linkages,” Amer-
+ican Economic Review, 94 (2004), 605–627.
+———, “Can Survey Evidence Shed Light on Spillovers from Foreign Direct In-
+vestment?,” World Bank Research Observer, 23 (2008), 139–159.
+Javorcik, Beata S., Wolfgang Keller, and James Tybout, “Openness and Industrial
+Response in a Wal-Mart World: A Case Study of Mexican Soaps, Detergents
+and Surfactant Producers,” World Economy, 31 (2008), 1558–1580.
+Karlan, Dean, and Martin Valdivia, “Teaching Entrepreneurship: Impact of Busi-
+ness Training on Microﬁnance Clients and Institutions,” Review of Economics
+and Statistics, 93 (2011), 510–527.
+Kee, Hiau, Looi, “Local Intermediate Inputs and the Shared Supplier Spillovers of
+Foreign Direct Investment,” Journal of Development Economics, 112 (2015),
+56–71.
+Keller, Wolfgang, and Stephen R. Yeaple, “Multinational Enterprises, Interna-
+tional Trade, and Productivity Growth: Firm-Level Evidence from the United
+States,” Review of Economics and Statistics, 91 (2009), 821–831.
+Levinsohn, James, and Amil Petrin, “Estimating Production Functions Using In-
+puts to Control for Unobservables,” Review of Economic Studies, 70 (2003),
+317–341.
+Mayer, Thierry, Marc J. Melitz, and Gianmarco I.P. Ottaviano, “Market Size, Com-
+petition, and the Product Mix of Exporters,” American Economic Review, 104
+(2014), 495–536.
+McKenzie, David, and Christopher Woodruff, “What Are We Learning from Busi-
+ness Training and Entrepreneurship Evaluations around the Developing
+World?,” World Bank Research Observer, 29 (2013), 48–82.
+Melitz, Marc, J, “The Impact of Trade on Intra-Industry Reallocations and Aggre-
+gate Industry Productivity,” Econometrica, 71 (2003), 1695–1725.
+M´endez-Chac´on, Esteban, and Diana Van Patten, “Multinationals, Monopsony
+and Local Development: Evidence from the United Fruit Company,” Federal
+Reserve Bank of Minneapolis Institute Working Paper No. 46, 2021.
+Pomeranz, Dina, “No Taxation without Information: Deterrence and Self-
+enforcement in the Value Added Tax,” American Economic Review, 105 (2015),
+2539–2569.
+Sampi, James, Charl Jooste, and Ekaterina Vostroknutova, “Identiﬁcation Prop-
+erties for Estimating the Impact of Regulation on Markups and Productivity,”
+Policy Research Working Paper 9523, 2021.
+Sun, Chen Daisy, and Rui Zhang, “Market Interdependence through Shared Sup-
+pliers: Theory and Evidence from the Termination of the Multiﬁber Arrange-
+ment,” Aarhus University Working Paper, 2018.
+Tybout, James R., “Manufacturing Firms in Developing Countries: How Well Do
+They Do, and Why?,” Journal of Economic literature, 38 (2000), 11–44.
+UNCTAD, “Trade, Investment and Taxation: Policy Linkages,” UNCTAD Technical
+Report, 2018a.
+———, “World Investment Report 2018,” UNCTAD Technical Report, 2018b.
+Woodruff, Christopher, “Addressing Constraints to Small and Growing Busi-
+nesses,” IGC Working Paper, 2018.
+Wooldridge, Jeffrey M., Econometric Analysis of Cross Section and Panel Data
+(Cambridge, MA: MIT Press, 2002).
+World Bank, “Trading for Development in the Age of Global Value Chains,” World
+Development Report, 2020.
+Downloaded from https://academic.oup.com/qje/article/137/3/1495/6517334 by guest on 10 August 2022

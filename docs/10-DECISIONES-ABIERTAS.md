@@ -753,3 +753,23 @@ Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobad
 Siguiente **322–324 / E6.2.07–E6.2.09**, Economía Compartida → Solidaridad Capitalista. Preparaciones incluidas en las 519 pendientes. E6.2.07: 3/3 imágenes locales; sin texto final, sin publicación; E6.2.08: 3/3 imágenes locales; sin texto final, sin publicación; E6.2.09: 3/3 imágenes locales; sin texto final, sin publicación. Después 325–327. Automatización activa, sin agotamiento comunicado.
 
 Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 322–324 · 30/10/2026
+
+324/840 terminadas, 972 imágenes originales públicas, 0 en curso o borradores WordPress y 516 pendientes.
+
+322: recirculación minorista de Louisville 2012 en muestra de 17 comercios, distinta de impacto neto; Hughes e Isengildina-Massa 2015 como investigación diferente con coste de oportunidad. 323: criterios y límites de GiveWell, ensayo rural de Kenia 2011–2013 y corrección 2017 con alcance de lectura explícito, sin cifras clínicas ni promesas permanentes. 324: publicación final QJE 2022, empresas formales de Costa Rica y estudio de eventos; productividad distinta de beneficio, comparación PROCOMER separada y acceso a programas condicionado.
+
+Siguiente **325–327 / E6.2.10–E6.2.12**, Economía Compartida → Solidaridad Capitalista. Preparaciones incluidas en las 516 pendientes. E6.2.10: 3/3 imágenes locales; sin texto final, sin publicación; E6.2.11: 0/3 imágenes locales; sin texto final, sin publicación; E6.2.12: 0/3 imágenes locales; sin texto final, sin publicación. Después 328–330. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 325–327 · 30/10/2026
+
+327/840 terminadas, 981 imágenes originales públicas, 0 en curso o borradores WordPress y 513 pendientes.
+
+325: Aldrich solo descripción primaria del editor, Horwitz2009 con logística y límites narrativos; DANA2024 con plazas UV distintas de voluntarios únicos y canales históricos sin convocatoria actual. 326: Ostrom Nobel2009 y Besley1993 con contextos separados; plantilla MEE, aportaciones y salida, dinero sujeto a revisión y minimización de datos. 327: ayuda gratuita directa distinta de voluntariado Ley45/2015, ámbito estatal/supraautonómico, acuerdo y cierre; sin trasladar resultados de mentoría a todo servicio pro bono.
+
+Siguiente **328–330 / E6.2.13–E6.2.15**, Economía Compartida → Solidaridad Capitalista. Preparaciones incluidas en las 513 pendientes. E6.2.13: 3/3 imágenes locales; sin texto final, sin publicación; E6.2.14: 0/3 imágenes locales; sin texto final, sin publicación; E6.2.15: 0/3 imágenes locales; sin texto final, sin publicación. Después 331–333. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.

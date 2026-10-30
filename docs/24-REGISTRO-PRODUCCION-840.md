@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-30T00:57:53+00:00.
+Comprobado en WordPress: 2026-10-30T01:43:01+00:00.
 
-**321/840 terminadas · 0 en curso · 519 pendientes.**
+**327/840 terminadas · 0 en curso · 513 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -333,12 +333,12 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 319 | 22/56 · 4/15 | E6.2.04 | Remesas: la mayor red de solidaridad del mundo | terminada | 3/3 | [Leer](https://moevec.org/blog/remesas-red-de-solidaridad/) |
 | 320 | 22/56 · 5/15 | E6.2.05 | Generosidad y prosperidad: ¿quién dona más? | terminada | 3/3 | [Leer](https://moevec.org/blog/generosidad-y-prosperidad/) |
 | 321 | 22/56 · 6/15 | E6.2.06 | Mentoría: la forma más rentable de solidaridad | terminada | 3/3 | [Leer](https://moevec.org/blog/mentoria-solidaridad/) |
-| 322 | 22/56 · 7/15 | E6.2.07 | Comprar local: lo que dice la evidencia | pendiente | 0/3 | — |
-| 323 | 22/56 · 8/15 | E6.2.08 | Filantropía eficaz: cómo donar para que sirva | pendiente | 0/3 | — |
-| 324 | 22/56 · 9/15 | E6.2.09 | Empresas que ayudan a crecer a sus proveedores | pendiente | 0/3 | — |
-| 325 | 22/56 · 10/15 | E6.2.10 | Solidaridad en crisis: cómo responden las comunidades libres | pendiente | 0/3 | — |
-| 326 | 22/56 · 11/15 | E6.2.11 | Cómo montar un círculo de ayuda mutua con reglas claras | pendiente | 0/3 | — |
-| 327 | 22/56 · 12/15 | E6.2.12 | Voluntariado profesional: donar lo que mejor sabes hacer | pendiente | 0/3 | — |
+| 322 | 22/56 · 7/15 | E6.2.07 | Comprar local: lo que dice la evidencia | terminada | 3/3 | [Leer](https://moevec.org/blog/comprar-local-evidencia/) |
+| 323 | 22/56 · 8/15 | E6.2.08 | Filantropía eficaz: cómo donar para que sirva | terminada | 3/3 | [Leer](https://moevec.org/blog/filantropia-eficaz/) |
+| 324 | 22/56 · 9/15 | E6.2.09 | Empresas que ayudan a crecer a sus proveedores | terminada | 3/3 | [Leer](https://moevec.org/blog/empresas-ayudan-proveedores/) |
+| 325 | 22/56 · 10/15 | E6.2.10 | Solidaridad en crisis: cómo responden las comunidades libres | terminada | 3/3 | [Leer](https://moevec.org/blog/solidaridad-en-crisis/) |
+| 326 | 22/56 · 11/15 | E6.2.11 | Cómo montar un círculo de ayuda mutua con reglas claras | terminada | 3/3 | [Leer](https://moevec.org/blog/montar-circulo-ayuda-mutua/) |
+| 327 | 22/56 · 12/15 | E6.2.12 | Voluntariado profesional: donar lo que mejor sabes hacer | terminada | 3/3 | [Leer](https://moevec.org/blog/voluntariado-profesional/) |
 | 328 | 22/56 · 13/15 | E6.2.13 | La diáspora cubana como red de solidaridad y capital | pendiente | 0/3 | — |
 | 329 | 22/56 · 14/15 | E6.2.14 | Donar sin humillar: dignidad en la ayuda | pendiente | 0/3 | — |
 | 330 | 22/56 · 15/15 | E6.2.15 | Plan de solidaridad personal: un compromiso anual | pendiente | 0/3 | — |
