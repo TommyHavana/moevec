@@ -1133,3 +1133,23 @@ Transparencia MEE: firma editorial y asistencia de IA declaradas; normas del pro
 Siguiente **436–438 / E3.2.01–E3.2.03**, Comunidad → Mérito por Aporte. Preparaciones incluidas en las 405 pendientes. E3.2.01: 0/3 imágenes locales; sin texto final, sin publicación; E3.2.02: 0/3 imágenes locales; sin texto final, sin publicación; E3.2.03: 0/3 imágenes locales; sin texto final, sin publicación. Después 439–441. Automatización activa, sin agotamiento comunicado.
 
 Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 436–438 · 30/10/2026
+
+438/840 terminadas, 1314 imágenes originales públicas, 0 en curso o borradores WordPress y 402 pendientes.
+
+Mérito: Sandel y Young con alcance de extracto y ficha, dignidad y oportunidades separadas de una tarea. Historia: sátira de Young, Wang/Yang 2025 y contexto, regulador británico actualizado agosto 2026, Markovits y Wooldridge; sin primer uso absoluto de la palabra afirmado. Reputación: reglas actuales de Stack Overflow y barnstars Wikipedia distintas, Anderson 2013 en archivo de Cornell y lectura visual de Deci 1999, sin éxito o daño universal de puntos. Nueve originales inspeccionados.
+
+Siguiente **439–441 / E3.2.04–E3.2.06**, Comunidad → Mérito por Aporte. Preparaciones incluidas en las 402 pendientes. E3.2.04: 0/3 imágenes locales; sin texto final, sin publicación; E3.2.05: 0/3 imágenes locales; sin texto final, sin publicación; E3.2.06: 0/3 imágenes locales; sin texto final, sin publicación. Después 442–444. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 439–441 · 30/10/2026
+
+441/840 terminadas, 1323 imágenes originales públicas, 0 en curso o borradores WordPress y 399 pendientes.
+
+Voto visible: propuesta histórica de MEE sin sistema operativo anunciado; Luca/Zervas2015 distinguido de publicación2016, proxy Yelp y riesgo de presión. Punto de partida: Chetty2017, cohortes estadounidenses y movilidad absoluta; Banco Mundial2018 y crítica de Sandel mediante ficha primaria TED2020, sin tasas2026 o igualdad de resultados prometida. Antigüedad: Peter/Hull1969 y prólogo de Sutton identificado; Benson/Li/Shue2019 mediante resumen final MIT y versión previa2018 diferenciadas, sin ley universal ni causalidad de antigüedad. Nueve originales inspeccionados.
+
+Siguiente **442–444 / E3.2.07–E3.2.09**, Comunidad → Mérito por Aporte. Preparaciones incluidas en las 399 pendientes. E3.2.07: 0/3 imágenes locales; sin texto final, sin publicación; E3.2.08: 0/3 imágenes locales; sin texto final, sin publicación; E3.2.09: 0/3 imágenes locales; sin texto final, sin publicación. Después 445–447. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.

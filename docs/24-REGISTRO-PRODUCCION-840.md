@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-30T14:33:31+00:00.
+Comprobado en WordPress: 2026-10-30T15:27:12+00:00.
 
-**435/840 terminadas · 0 en curso · 405 pendientes.**
+**441/840 terminadas · 0 en curso · 399 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -447,12 +447,12 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 433 | 29/56 · 13/15 | E3.1.13 | Transparencia en MEE: quién escribe, quién financia y cómo decidimos | terminada | 3/3 | [Leer](https://moevec.org/blog/transparencia-en-mee/) |
 | 434 | 29/56 · 14/15 | E3.1.14 | Intereses en la familia: hablar claro también en casa | terminada | 3/3 | [Leer](https://moevec.org/blog/intereses-en-la-familia/) |
 | 435 | 29/56 · 15/15 | E3.1.15 | Detectar manipulación en grupos de WhatsApp y Facebook | terminada | 3/3 | [Leer](https://moevec.org/blog/detectar-manipulacion-en-grupos/) |
-| 436 | 30/56 · 1/15 | E3.2.01 | Mérito por aporte: reconocer lo que ayuda, no lo que se aparenta | pendiente | 0/3 | — |
-| 437 | 30/56 · 2/15 | E3.2.02 | Meritocracia: historia de una palabra polémica | pendiente | 0/3 | — |
-| 438 | 30/56 · 3/15 | E3.2.03 | Reputación digital: cómo funcionan los sistemas de puntos | pendiente | 0/3 | — |
-| 439 | 30/56 · 4/15 | E3.2.04 | Votar con nombre y apellidos: responsabilidad en las valoraciones | pendiente | 0/3 | — |
-| 440 | 30/56 · 5/15 | E3.2.05 | Mérito y punto de partida: la crítica más seria | pendiente | 0/3 | — |
-| 441 | 30/56 · 6/15 | E3.2.06 | Antigüedad frente a aporte: por qué los cargos no garantizan valor | pendiente | 0/3 | — |
+| 436 | 30/56 · 1/15 | E3.2.01 | Mérito por aporte: reconocer lo que ayuda, no lo que se aparenta | terminada | 3/3 | [Leer](https://moevec.org/blog/merito-por-aporte-que-es/) |
+| 437 | 30/56 · 2/15 | E3.2.02 | Meritocracia: historia de una palabra polémica | terminada | 3/3 | [Leer](https://moevec.org/blog/meritocracia-historia/) |
+| 438 | 30/56 · 3/15 | E3.2.03 | Reputación digital: cómo funcionan los sistemas de puntos | terminada | 3/3 | [Leer](https://moevec.org/blog/reputacion-digital-sistemas-de-puntos/) |
+| 439 | 30/56 · 4/15 | E3.2.04 | Votar con nombre y apellidos: responsabilidad en las valoraciones | terminada | 3/3 | [Leer](https://moevec.org/blog/votar-con-nombre/) |
+| 440 | 30/56 · 5/15 | E3.2.05 | Mérito y punto de partida: la crítica más seria | terminada | 3/3 | [Leer](https://moevec.org/blog/merito-y-punto-de-partida/) |
+| 441 | 30/56 · 6/15 | E3.2.06 | Antigüedad frente a aporte: por qué los cargos no garantizan valor | terminada | 3/3 | [Leer](https://moevec.org/blog/antiguedad-frente-a-aporte/) |
 | 442 | 30/56 · 7/15 | E3.2.07 | Colaboración abierta: lo que enseñan Wikipedia y el software libre | pendiente | 0/3 | — |
 | 443 | 30/56 · 8/15 | E3.2.08 | Mérito en la economía informal: reputación sin títulos | pendiente | 0/3 | — |
 | 444 | 30/56 · 9/15 | E3.2.09 | Gamificación con sentido: cuándo los puntos ayudan y cuándo estropean | pendiente | 0/3 | — |
