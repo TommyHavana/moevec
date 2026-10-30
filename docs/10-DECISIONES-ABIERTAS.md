@@ -1253,3 +1253,13 @@ Conocimiento: Romer1990S71–72 no rivalidad distinta de exclusión/costes; Nest
 Siguiente **472–474 / E3.4.07–E3.4.09**, Comunidad → Intercambio Equitativo. Preparaciones incluidas en las 369 pendientes. E3.4.07: 0/3 imágenes locales; sin texto final, sin publicación; E3.4.08: 0/3 imágenes locales; sin texto final, sin publicación; E3.4.09: 0/3 imágenes locales; sin texto final, sin publicación. Después 475–477. Automatización activa, sin agotamiento comunicado.
 
 Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 472–474 · 31/10/2026
+
+474/840 terminadas, 1422 imágenes originales públicas, 0 en curso o borradores WordPress y 366 pendientes.
+
+Comercio justo: reglas actuales Fairtrade separadas de evidencia; revisión NBER2014 y estudio CostaRica1999–2014 en versión agosto2021, sin artículo final2022 fingido ni beneficio universal. Trueque: Gómez2009solo ficha, artículo2012resumen/introducción/conclusión; bancos de tiempoUKreglas propias, WIRcondicionesenero2022con no reembolsoexigible y gastosCHF, Stodder2009solo resumeneditor, Bristol caso histórico preliminar2021 sin servicioactual. Creadores: seislicenciasCC y BY4.0, límites y continuidad; Fisher/Ury/Patton mediante fuentePONarchivada y releída, checklistMEE sin validezlegal universal. Nueve originales nuevos inspeccionados.
+
+Siguiente **475–477 / E3.4.10–E3.4.12**, Comunidad → Intercambio Equitativo. Preparaciones incluidas en las 366 pendientes. E3.4.10: 0/3 imágenes locales; sin texto final, sin publicación; E3.4.11: 0/3 imágenes locales; sin texto final, sin publicación; E3.4.12: 0/3 imágenes locales; sin texto final, sin publicación. Después 478–480. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.

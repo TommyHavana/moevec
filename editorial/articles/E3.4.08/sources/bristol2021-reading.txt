@@ -1,0 +1,1615 @@
+
+[PAGE 1]
+gareth.jones 
+ 
+Section 
+name 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+© Department of Economics, University of Reading 2021 
+ 
+ 
+ 
+Complex Systems Modeling 
+of Community Inclusion Currencies 
+By Andrew Clark, Alexander Mihailov and Michael Zargham 
+                                  
+Department of Economics 
+Economic Analysis Research Group (EARG) 
+ 
+ 
+Discussion Paper No. 2021-06 
+ 
+ 
+Department of Economics 
+University of Reading 
+Whiteknights 
+Reading 
+RG6 6EL 
+United Kingdom 
+ 
+www.reading.ac.uk  
+
+
+[PAGE 2]
+ 
+
+
+[PAGE 3]
+Complex Systems Modeling
+of Community Inclusion Currencies
+Andrew Clark1,3, Alexander Mihailov1, and Michael Zargham2,3
+1 Department of Economics, University of Reading, Reading, United Kingdom
+andrew.clark@pgr.reading.ac.uk, a.mihailov@reading.ac.uk
+2 Vienna University of Economics and Business, Vienna, Austria
+michael.zargham@wu.ac.at
+3 BlockScience Inc, Tempe, Arizona, USA
+zargham@block.science, andrew@block.science
+PRELIMINARY VERSION: January 20214
+Abstract. This paper proposes a complex dynamic systems subpop-
+ulation model for the construction and validation of a novel form of
+local complementary currency, namely the Grassroots Economics Foun-
+dation’s Community Inclusion Currency (CIC) implemented recently in
+Kenya. Diﬀerently from other related work in computer science or of a
+legal nature, we frame our analysis in a deeper economic context, thus
+bridging the gap across these parallel literatures. First, we highlight the
+potential usefulness of the emerging blockchain-technology backed CICs,
+now popular in the new – and interdisciplinary – ﬁeld of cryptoeconomics.
+Essentially, CICs can act as a local liquidity-provision institutional device
+in poor or isolated economic regions to increase their internal exchange
+and economic value added, thereby serving as a market-based mecha-
+nism to alleviate poverty, in addition to government aid and akin in its
+automatism and credibility to a currency board monetary regime in na-
+tional economies. The ultimate goal of these CIC systems is to promote
+a transition toward complete inclusion and integration into the national
+and global economies, pulling over the communities and regions out of
+self-suﬃciency and poverty into more advanced stages of economic devel-
+opment and well-being. Second, we elicit 50 heterogeneous utility types
+according to observed transactions behavior and build a corresponding
+model and simulation at a meso-economic level, which for many purposes
+could prove more insightful for policymakers than the usual extreme per-
+spectives of micro and macro.
+Keywords: Community Inclusion Currencies · Blockchain Technologies
+· Poverty Alleviation · Eliciting Utility Types · Complex Dynamic Sys-
+tems · Subpopulation Simulation
+JEL classiﬁcation codes: E42 · E51 · D47 · G23 · G51 · I38
+4First draft: June 2020. We are particularly indebted to Will Ruddick, the founder
+and director of Grassroots Economics, for his review and feedback on earlier versions
+of this paper. We also thank Rebecca Mqamelo and the audience at a seminar at the
+University of Reading for constructive comments. Any remaining errors or misinter-
+pretations are our sole responsibility.
+
+
+[PAGE 4]
+2
+A. Clark, A. Mihailov, and M. Zargham (Preliminary version: January 2021)
+1
+Introduction
+Since the earliest primitive societies we are aware of, humans across the globe
+have used various means to intermediate the exchange of goods and to store
+value, thereby saving and transferring purchasing power across time. For cen-
+turies, economists have studied these diverse and evolving forms of money,
+whether stones, shells, pieces of clay or metal, gold and silver coins, banknotes,
+paper currency – and even cigarettes used for these purposes in concentration
+camps [30]. It is now widely accepted that the key function of money has been to
+provide liquidity for trade as well as durability for preservation of accumulated
+wealth. What all of these variations of medium of exchange – essentially and
+notably – have in common too is trust amongst their users to represent value,
+and this is also acknowledged as the irrevocable attribute of anything (material
+or digital) that could possibly serve as money.
+A very recent form of such a medium of exchange, without wide-spread use
+or popularity thus far, is what has become known as ‘community inclusion cur-
+rency’ (or CIC), itself a variant of the more generic term ‘community currency’,
+or synonymously, ‘complementary currency’, ‘parallel currency’ and ‘local cur-
+rency’ [3]. The purpose of our paper is to present its potential and to assess its
+advantages and disadvantages, by focusing on a particular case study of empir-
+ical socio-economic interest, i.e., the Grassroots Economics initiative developed
+by Will Ruddick in poverty-stricken regions of present-day Kenya. In doing so,
+we begin by situating this new CIC concept in context, outlining the main def-
+initions and mechanisms that could support its application, in particular with
+respect to the operation of Grassroots Economics.
+In a very recent handbook chapter, Amato and Fantacci (2020) [3] provide
+a broad overview of the various forms of complementary currencies throughout
+history and review current proposals to introduce parallel currencies. Within the
+perspective of monetary history, they eloquently condense the developments over
+the past four centuries as follows: “Today, complementary currencies tend to ap-
+pear as a bizarre exception to the rule of one single, all-purpose currency for each
+country (or currency area). However, in historical and comparative perspective,
+it is monetary plurality that prevails: diﬀerent monies coexist side by side, serv-
+ing diﬀerent purposes, in most economies throughout most periods. The most
+signiﬁcant and pervasive distinction in premodern economies was between inter-
+nal and external money: one currency for the domestic economy and a diﬀerent
+one for foreign trade. Only the rise of modern territorial states in the seventeenth
+century established the uniformity of the currency in each jurisdiction and the
+monopoly of coinage as a prerogative of sovereignty.” (abstract)
+Community currency is a form of scrip, i.e., any substitute for legal money,
+issued by a group with some common bond, feature, location or function. Its main
+objective, with particular view to our exploration that follows, is to maintain
+liquidity in a community when the national currency is in limited supply. Under
+such circumstances, the scrip is designed to meet the speciﬁc needs of the users.
+Historically, community currencies have the following distinguishing charac-
+teristics [34]:
+
+
+[PAGE 5]
+Complex Systems Modeling of Community Inclusion Currencies
+3
+1. are issued by a community organization;
+2. cannot be used outside the community;
+3. bear zero interest rate (like money);
+4. encourage the community to help each other.
+Community currencies meet two of the four functions of money, namely,
+medium of exchange and unit of account. They do not meet the other two, those
+of standard of deferred payment and store of value, except for the near term.
+Scrip has a long history of use in many diﬀerent countries when the legal
+tender was lacking, insuﬃcient or inﬂated. In some instances, such as with US
+mining and logging towns, company scrip was acceptable at only-company stores,
+and discounted at such a rate that it made individuals entirely dependent on the
+company they worked for, ensuring their ‘allegiance’. Scrip, if available for re-
+demption to currency, was in general converted at an exchange rate signiﬁcantly
+below face value. A well-known example in Austria during the Great Depression
+of the 1930s was the so-called W¨orgl currency (see, e.g., Greco (2002) [17]). This
+scrip took its name from the town which began issuing it in July 1932, but was
+more precisely referred to as ‘labor certiﬁcates’. The latter author bases his arti-
+cle on three original reports and concludes that the W¨orgl currency improved the
+ﬁnancial condition of the local (parish) government that issued it as well as the
+general health of the local economy during the time it was allowed to circulate.
+Scrip in modern times has had some less gloomy uses, speciﬁcally in the form
+of Canadian Tire Dollars, gift cards and gift certiﬁcates. Canadian Tire Dollars
+are a form of intermediation between government currency and interest-bearing
+assets that has been used by customers in the mid-1980s in Quebec [15].
+Perhaps a long-lasting example of a successful large-scale mutual credit clear-
+ing system that has survived for almost a century to modern times is the so-called
+WIR Bank, which was founded in Zurich, Switzerland, in 1934 as the Economic
+Circle Cooperative. Not much was known until the late 1990s about its history
+and operations, but in 1998 Economics Professor Tobias Studer of the Univer-
+sity of Basle published his book, WIR in unserer Volkswirtschaft (translated as
+WIR and the Swiss National Economy [39], [40]). One of the conclusions Profes-
+sor Studer reaches is that the WIR system serves not only its own membership,
+but also the entire economy; the main reason behind is that, similarly to any
+other barter trade arrangement, it supplements conventional economic trade and
+thereby facilitates jobs-creating transactions that otherwise would not material-
+ize.
+But one does not even have to go much back into history, as was the case
+for the WIR system, because the global ﬁnancial crisis (GFC) of 2007-2009
+has discredited the oﬃcial banking and monetary systems and has sparkled the
+proliferation of private cryptocurrencies (for a recent overview and links with
+money and central banking, see, e.g., [9]) and community interest currencies
+(yes, another CIC acronym, replacing ‘inclusion’ with ‘interest’ in the middle).
+Among the most popular and successful examples is the Bristol Pound, set up by
+a group of campaigners and ﬁnancial activists in 2012. This scheme was a network
+of over 2000 individuals and independent businesses preferring to use both digital
+
+
+[PAGE 6]
+4
+A. Clark, A. Mihailov, and M. Zargham (Preliminary version: January 2021)
+and paper local currency to trade in Bristol, keeping this CIC circulating inside
+the city and thus energizing the regional economy. The digital currency ran until
+July 2020, when it was retired to make way for a new scheme, Bristol Pay. Paper
+Bristol Pounds continue to circulate and will do until their expiry in September
+2021. The website of this organization, https://bristolpound.org/, reports that:
+“Today, if you make a payment using your card or your phone, a small
+percentage of the sale leaves our city in transaction charges. It might not sound
+like a big deal, but it’s been estimated that these charges total £60 million leaving
+Bristol per year! We want to keep as much of that money in Bristol as we can,
+by encouraging everyone in Bristol to pay with our new, non-proﬁt payment
+platform. Any proﬁts we make will be reinvested in social and environmental
+projects in the city.”
+This quote shows clearly another, additional purpose of such community
+or complementary currencies compared to the national currencies, namely a
+concern of the local community (sort of patriotism or regionalism) that the stock
+of money keeps circulating locally rather than ‘leaking out’ into the national
+economy. Such an opportunity of ‘leakage’ does not, in principle, exist for a
+national currency, unless it is used as a store of value or medium of exchange
+legally or illegally in a foreign country (e.g., dollarization, parallel currency, black
+market). Therefore this feature brings in a useful conceptual distinction of the
+uses of money in a community, or local, versus national, or legal tender, context.
+[16] is a very comprehensive modern study that ﬁrst reviews world experi-
+ences with CICs (see, in particular, tables 1 and 2, pp. 2 and 3 respectively) and
+then focuses on the case of the province of Almer´ıa in Spain, and three popular
+CICs there, namely the Pita, the Banco del Tiempo (BdT – or Time Bank), and
+the town of Alm´ocita, “a small rural town with a total of 169 inhabitants in the
+province” (p. 6). The study attempts to assess “the feasibility of introducing a
+complementary currency in a small municipality as a method of sustainable local
+development”. It concludes that “complementary currencies are a tool that can
+reduce the harmful eﬀects of global monetary and ﬁnancial crises”, since “the
+single currency model creates a super-eﬃcient monetary system on a macroe-
+conomic scale”, but often reveals the lack of resilience in local economies; i.e.,
+“this ‘dual feeding’ increases the resistance to the eﬀects of the crises, providing
+stability to the whole system.” (p. 18).
+Hundreds of community currencies have been created [22], however the vast
+majority of them have ceased to be sustainable due to the lack of market ac-
+ceptance, similar to many blockchain projects nowadays. Without a mechanism
+for redeeming the community currency back into a trusted means of exchange,
+the lack of trust in the currency and its utility is often a contributing factor in
+its demise. One of the other issues with community currency projects has been
+the inability to trade with other neighboring communities, limiting their poten-
+tial to promote economic growth. On the positive side, research has found that
+community currencies can counteract seasonal conditions and increase overall
+trade [34, 38]. In the case of the Bristol Pound, as a form of convertible lo-
+cal currency (CLC) – to add yet another acronym in synonymous usage in the
+
+
+[PAGE 7]
+Complex Systems Modeling of Community Inclusion Currencies
+5
+(economics) literature – it appears to be the ﬁrst modern CLC simultaneously
+satisfying three deﬁning attributes, namely: (i) to circulate regionally; (ii) to be
+administered by a credit union; and (iii) to be supported by a local council (see,
+e.g., Marshall and O’Neill (2018) [24]). Yet the same authors, who conducted 27
+semi-structured interviews with businesses and other Bristol Pound stakehold-
+ers, including economists, report that this otherwise seemingly successful modern
+CLC is not really driving localization. The key barriers to it were found to be
+political or institutional in nature. Examples include support for free trade, the
+free movement of capital, the power of global corporations, and the expansionary
+logic of capitalism. Marshall and O’Neill (2018) conclude that such barriers are
+unlikely to be inﬂuenced by a CLC and suggest that “those pursuing localization
+should engage in a more active agenda that aims to change government policy
+and institutions to support an equitable, sustainable economy” [24], abstract, p.
+273.
+More recently, the Grassroots Economics foundation has introduced a sus-
+tainable community currency that has shown that community currencies can
+be an eﬀective means of fostering economic growth. Grassroots Economics is
+a non-proﬁt foundation that “seeks to empower marginalized communities to
+take charge of their own livelihoods and economic future.”5 The focus of the
+foundation is on community development through economic empowerment and
+community currency programs, and beneﬁciaries include small businesses and
+people living in informal settlements and rural areas in Africa and Asia. Its
+goal is “to improve the lives of those who are most vulnerable”. Grassroots Eco-
+nomics has implemented community currency programs in 45 locations across
+Kenya and assisted with 2 in South Africa, thus helping more than 40,000 small
+businesses, churches and schools take an active role in their own economy and
+development. Recently, they are joining eﬀort with similar organizations, such
+as Sempo,6 in launching CIC trading on a new open source platform across
+5 countries.7 Grassroots Economics started with an initial pilot in 2010 called
+5The information regarding the foundation in this paragraph is taken from their
+website: https://www.grassrootseconomics.org/.
+6This is a digital currency startup based in Australia, https://withsempo.com. Ac-
+cording to news on their website, in July 2020, this blockchain ﬁntech company has
+secured €1 million ($1.6 million) in funding from the European Commission to fuel
+digital aid projects in partnership with Oxfam”, https://www.oxfam.org.uk. It is sum-
+marized furter that “Sempo provides a centralized model for distributing aid to people
+aﬀected by disasters, particularly those who don’t have access to a bank account, but
+do have a smartphone. The startup uses a suite of cryptocurrencies, with one acting as
+the ‘global reserve’. The idea is to get people and stores in remote communities onto
+the platform, allowing for digital cash purchases at times of crisis.” Oxfam, according
+to their own website, founded in 1942, is “a global movement of millions of people who
+share the belief that, in a world rich in resources, poverty isn’t inevitable. In just 15
+years, extreme poverty has been halved. 15 more years and we can end it for good.”
+7To learn more about the system and access their open source code, the in-
+terested reader is referred to the respective GitHub repository: https://gitlab.com/
+grassrootseconomics/cic-docs/-/blob/master/README.md.
+
+
+[PAGE 8]
+6
+A. Clark, A. Mihailov, and M. Zargham (Preliminary version: January 2021)
+Eco-Pesa [35], and the project has later on moved from paper-based currency
+into digital CICs. The digital pilot began in Q4 of 2018 and, at the time of this
+writing, 24,000 registered users and an average of 1,000 transactions per day
+have been reached [13].
+On the other hand, the failure of foreign (government or NGO) aid for de-
+velopment purposes has been notorious, and long established in the economics
+literature [27,29,41,44].8 Our paper uniﬁes this theme with the theme of com-
+munity inclusion currencies, in an eﬀort to explore and promote the beneﬁts
+of the latter in remedying the major weaknesses of the former. In developing
+economies, the availability of the national currency often has a low correlation
+with the local productive capacity or demand, but is to a large extent inﬂuenced
+by external factors, such as trade deﬁcits, foreign interest rates, national debt,
+and IMF policies [34]. Instead of providing only aid-based programs to help alle-
+viate poverty, using also markets to do so and contribute to achieving sustained
+growth in developing economies is becoming more common [10]. One of the issues
+with many aid-based development programs is the ﬂow of aid funds to individ-
+uals in low-liquidity areas right back to city centers and ﬁnanciers, creating a
+never-ending cycle of liquidity constraints. Similarly to the case of the Bristol
+Pound in our quote above, the goal of CICs and other market-based approaches
+to reducing poverty and liquidity constraints in poverty-stricken areas is, thus,
+to close the loop of net cash outﬂows by providing an incentives program that
+keeps the liquidity in local economies.
+Although rigorous economic analysis around privately-issued currency is still
+to come, the evidence so far suggests that the public, at least in times without
+economic turbulence, will accept a privately-issued currency as a complement or
+even (temporary) substitute for government-issued currency without the need for
+a discount. Our present paper tries to delve into a modern, technology-based way
+to organize and exploit, even if as a transitional arrangement only, a community
+inclusion currency in local areas and societies where it may be of beneﬁt, in a
+similar way to the few good examples from the past we brieﬂy referred to.
+In this paper we contribute to the emerging blockchain currency literature
+from a perspective that synthesizes work in computer science and systems engi-
+neering with work in economics. These ‘within discipline’ approaches to study,
+emit, maintain and operate monetary standards, in their old/economic and
+new/blockchain forms, have generally developed in separation and without much
+interaction and cross-inﬂuence. It is strange to see nowadays that, when reading
+such type of studies with the aim to seek integration and synthesis, often diﬀerent
+terminology is used to denote the same phenomenon or notion. We shall hereafter
+provide both the computer-science/systems-engineering and economic/monetary
+terminology in a way that tries to bridge the gap across the two disciplines, in-
+forming each other and converging to a description and analysis that uses a
+common language, albeit one that keeps explicit the correspondence of parallel
+notions. Beyond such ‘linguistics’, and more importantly and precisely, we con-
+8There is also an earlier, and related, literature on government failure in developing
+countries - see, e.g., [21].
+
+
+[PAGE 9]
+Complex Systems Modeling of Community Inclusion Currencies
+7
+tribute to the literature on grounding the now exploding CIC studies into more
+economics, in both a theoretical and a quantitative sense. Indeed, we simulate
+the Grassroots Economics foundation’s CIC implementation deployed in Kenya,
+as of May 2020, using a graph-based dynamical system model from computer
+science adapted to uses and conclusions (and terminology) that are standard in
+(monetary) economics. Our aim is to provide rationalization for this particular
+CIC implementation based on economic logic, cost and beneﬁt at the meso-level
+(i.e., in-between conventional micro- and macro- studies in economics), essen-
+tially eliciting preferences from behavior encoded in the dataset of transactions,
+while also outlining a ‘scaﬀold’ in similar systems or circumstances.
+The use of simulations for representing currency interactions is not new to
+economics (see, e.g., [7,11,31,37]). In fact, other community currency simulations
+have been performed in earlier work, e.g., [6], although using a diﬀerent modeling
+paradigm, namely, a systems dynamics stock-ﬂow approach. The novelty of our
+present investigation lies in the application of a bonding curve to a cryptographic
+currency and complex systems subpopulation modeling of economic value ﬂows,
+i.e., an implementation of a cryptoeconomic system design [43]. Voshmgir and
+Zargham [43] describe how systems theory provides the analysis tools for evalu-
+ating and designing the relationship and dependencies between cryptoeconomic
+systems parts, and how dynamic, adaptive and multiscale socioeconomic systems
+can be created.
+Leaning heavily on the complex systems theory, with an interdisciplinary lens,
+cryptoeconomic systems design is an amalgamation of heuristics and economics,
+engineering, operations research, control theory, and computer science, to name
+a few, of the multitude of components required. Bringing together these inﬂu-
+ences allows a more comprehensive view of developing a model that transcends
+the traditional economic deﬁnition of a model, which the IMF, for instance, de-
+scribes as follows: “economic models are simpliﬁed descriptions of reality used
+to test hypothesis about economic behavior and can be simple heuristics up to
+nonlinear, interconnected diﬀerential equations” [28]. Regardless of the much in-
+creased level of complexity, the goal of cryptoeconomic modeling is the same as
+economic modeling: to analyze dynamic and stochastic structures with interac-
+tions by modeling them, which further allows simulations to discriminate among
+competing hypotheses and to answer unresolved questions, thereby informing
+policymaking. Certainly, no model is an accurate representation of reality. How-
+ever, as the statistician George E. P. Box once said: “All models are wrong but
+some are useful”. In light of this maxim, we have aimed here at pragmatism
+as well as methodological and computational novelty, in particular through the
+use of the cadCAD [1] modeling tool. The latter package in Python has allowed
+our simulation to be optimized with view to more accurately representing the
+modeled reality at a mesoeconomic level. In eﬀect, the implemented Monte Carlo
+simulations and parameter sweeping of values have helped us better ﬁt the un-
+derlying CIC model to real-world data from the matched underlying dataset, as
+will be described in more detail.
+
+
+[PAGE 10]
+8
+A. Clark, A. Mihailov, and M. Zargham (Preliminary version: January 2021)
+The paper is further organized as follows. Section 2 explains our modeling
+approach. Section 3 then walks the reader through the model blocks, or compo-
+nents, with their internal structure and external links. Section 4 summarizes and
+interprets the main results from our simulation runs, and section 5 concludes.
+For replication purposes, our data and code is available at GitHub, namely at:
+https://github.com/BlockScience/Community Inclusion Currencies/tree/paper
+2
+Formalized Model
+To begin with an analogy, which is well established and widely documented in
+monetary economics9 and central banking,10 community currencies are a form
+of money and credit standard similar to currency boards.11 A currency board is
+a reduced, rule-based monetary policy that operates as if in ‘auto-pilot’ mode,
+because there is no option to provide credit to the national government, the com-
+mercial banks or state-owned enterprises. Hence, there cannot be monetization
+of ﬁscal deﬁcits, or any other sort of inﬂationary ﬁnancing from the monetary
+authority. By design and rationale, in these monetary regimes the backup of the
+monetary base on the liability side of a central bank’s balance sheet is 100 per-
+cent in terms of the international reserves on the asset side. Thus, an increase
+in the stock of paper currency in circulation is automatic and fully-backed, i.e.,
+equal to the current account surplus generated by the national economy during
+a particular period that leads to a corresponding increase in the international
+reserves. This full backing in a currency board regime is, of course, a device
+designed not to allow nominal depreciation of the national currency (also known
+in the monetary literature as debasement or demurrage). In such a sense, the
+national monetary unit operated via a currency board is guaranteed not to lose
+its value in terms of the currency of the peg, usually a strong and desirable cur-
+rency worldwide such as the US dollar or the Euro (formerly the German mark).
+Prominent success stories of currency board regimes are Hong Kong (since 1983),
+Argentina (since 1991) and Bulgaria (since 1997) [19]. Yet in the case of com-
+munity currencies it is some local authority or private operator that takes the
+responsibility of circulation and exchange, not the national central bank, and
+the full backing is in terms of commitments in goods or services, along with
+collateral on the chain asset.12
+9For a recent classiﬁcation and discussion of the dominant ﬁelds and methods of
+research in monetary economics, see, e.g., [5].
+10For a recent non-technical introduction into the rule-based and discretionary
+frameworks for formulating and implementing monetary policy as well as their main
+advantages and weaknesses, see, e.g., [4].
+11For a dense analysis of the similarities and diﬀerences between a typical central
+bank and its reduction to a currency board, as well as the evidence on their pros and
+cons in economic performance, see [19].
+12Some community currencies, e.g., the W¨orgl, do allow for minimal demurrage,
+that is, 1 percent per month or 12 percent annually, equivalent for the bearer to paying
+monthly for a stamp (‘relief tax’) at the parish hall to prolong the use of his/her W¨orgl
+
+
+[PAGE 11]
+Complex Systems Modeling of Community Inclusion Currencies
+9
+The Grassroots Economics CIC project has been created utilizing the emerg-
+ing ﬁeld of Tokenomics [34], which is a subset of Cryptoeconomics [43], to build
+a type of a ‘regional currency board’. The studied implementation of the CIC
+system, which the simulations in this paper are a framework of, uses the ‘Ban-
+cor protocol’, named after Keynes’ 1944 Bretton Woods international reserve
+currency proposal, for the underlying bonding curve and smart contracts [20].
+Under the Bancor protocol, a bonding curve, i.e., a curve that deﬁnes the rela-
+tionship between reserve stock and token supply, is used to automatically control
+the redemption rate of a token into the underlying reserve asset (see, e.g., [47]).
+This mechanism is, essentially, an automated currency board for the local token,
+in its role as a complementary (or parallel) currency. In the CIC implementation,
+xDai [2], a stable coin backed by the US dollar (USD henceforth) at a constant
+1:1 exchange rate, serves as the reserve, with CICs being ‘minted’ at a 4x1 basis
+– see Figure 1. The CIC whitepaper proposes the ability to link the Grassroots
+Economics Sarafu CIC implementation with other CICs with potentially diﬀer-
+ent reserves [34], in order to create a ﬂexible, larger system of interoperability
+community currencies. Using a blockchain system, the ability of interoperability
+is increased via automated governance by smart contracts and an open, public
+ledger for validation: these are the factors that could help contribute to make
+the CIC project, and other subsequent related community currencies, a success.
+The simulation in this paper will be built oﬀof this implementation, as of May
+2020.
+According to Ruddick [34], the new main sources of CIC price stability are
+market price arbitrage and collateral systems. In the case of market price ar-
+bitrage, by taking advantage of market ineﬃciencies with the bonding curve,
+traders and investors can obtain temporary proﬁts while proﬁt margins are ex-
+hausted by such arbitrage, or speculation, activity, in eﬀect restoring the equi-
+librium price and creating price stability for the CIC users in a longer run. This
+phenomenon is well-known in economics as stabilizing (currency, here) arbitrage,
+or speculation, leading to the law of one price for each currency – or, in a broader
+sense, commodity or service – provided there are no distortions or imperfections
+in the relevant market (which in real-world economies and institutions is rare,
+though). By connecting the CIC system indirectly – via the xDai stable coin –
+to the USD, the reserve is stable and can reduce ﬂuctuations in the value of the
+CIC when, under certain conditions, users withdraw their CIC at the prevailing
+exchange rate – via the USD – to the national currency. Again, in monetary
+economics the term ‘nominal anchor’ describes the role of the reserve (asset)
+currency here, directly the xDai stable coin and indirectly the USD. Diﬀerently
+from a currency board regime, many funding or sponsoring institutions or orga-
+nizations can decide to enter into contractual relation with a CIC system and
+paper note, and to seignorage for the parish hall issuer – see von Muralt (1934) [25]
+cited, and linked in English translation accessible online, in Greco (2002) [17]. In fact,
+the W¨orgl was a post-mortem implementation of the idea for ‘stamped money’, that is,
+money that has a ﬁnite life unless stamped at a particular time interval, linked to the
+controversial economist and entrepreneur Silvio Gesell (1862–1930) – see, e.g., [26,33].
+
+
+[PAGE 12]
+10
+A. Clark, A. Mihailov, and M. Zargham (Preliminary version: January 2021)
+Fig. 1: Bonding Curve Illustration of CIC Bancor Implementation.
+add to its backing, and hence liquidity, by providing the reserve asset, directly or
+indirectly. For instance, even non-government organizations (NGOs), such as the
+Red Cross, can distribute – and have distributed – funds to a CIC contract to
+increase the underlying reserve pool, thus funding an increase in market liquidity
+as well as eﬃciency with distribution in rural communities. The latter eﬀect is
+beneﬁcial, and such a market-based poverty-relief mechanism via CICs appears
+superior relative to standard humanitarian aid, which provides currency to in-
+dividuals, but often this currency is used to buy food, and the currency ﬂows
+back to city centers. This advantage of the market-based CIC approach arises
+because of a feature in its functioning akin to the ‘money multiplier’ in standard
+banking systems with fractional reserve requirements studied in economics and
+operating in the real world. Previous research has indicated that an increase in
+the value of a national currency does not necessarily reﬂect to a large extent
+an increase in the actual productive capacity of a nation [36]. Estimates from
+Grassroots Economics imply that a roughly 20x leverage on donated funds into
+CIC reserves is possible as a result of the creation of CIC at a 4x1 basis and its
+circulation throughout the local economy prior to its optional redemption into
+Kenyan Shilling. [34].
+The model we propose in this paper for studying community inclusion cur-
+rencies within a complex system approach is visually described in Figure 2. The
+
+
+[PAGE 13]
+Complex Systems Modeling of Community Inclusion Currencies
+11
+Fig. 2: General model of a CIC system using a meso-level approach.
+model used here is generalized, which contributes to the build-up of a frame-
+work for developing analogous currency simulations in further related research.
+We will ‘layer’ (i.e., decompose and describe our model into components and
+interactions at various levels, or ‘layers’) in the speciﬁc case of Grassroots Eco-
+nomics in our simulation construction, as illustrated in Figure 5. The blue box
+(or block in the diagram) shows the mixing process of subpopulations interacting
+with each other (i.e., the continuous random matching of pairs of agents, in our
+speciﬁc case, groups of agents, typically studied in economics, in particular in
+‘search’ theory and simulations), and their interactions with the external econ-
+omy, symbolized by the orange cloud, and with the pink box, or the currency
+operator. The pink box is the meso-level local economic operator, which is cre-
+ated as an institute in the support of the healthy economic growth of the local
+economy (the blue box). The pink box economy regulator (or policymaker, in
+macroeconomic terms) supports the health of the blue box economy by alloca-
+tions to individual agents and subpopulations when they join the economy, and
+provides them the mechanisms of converting allocations, as well as governance
+policies. The green box is an ‘algorithmic monetary policy’ rooted in an under-
+lying bonding curve [47], which is analogous to the functioning of a currency
+board for a national economy, as was noted. The green box is a regulator (or
+instrument, here a rule-based automatic mechanism) of the pink box (or poli-
+
+
+[PAGE 14]
+12
+A. Clark, A. Mihailov, and M. Zargham (Preliminary version: January 2021)
+cymaker), which is oﬀering (or, rather, implementing) policies in the blue box.
+The goal of our simulations and modeling is to help guide the currency oper-
+ator symbolized by the pink box in managing (on ‘auto-pilot’) the green box
+mechanism to keep the local economy symbolized by the blue box healthy, and
+promote (regional) economic growth. All parts of the ecosystem (i.e., the model
+‘environment’, as is the customary term in economic theory) must be working
+in harmony to create homeostasis (i.e., some notion of ‘equilibrium’, dynamic or
+evolutionary, that leads to long-run stability or sustainability) in the system and
+a means for easing the liquidity constraints prevalent in ‘failed’ local economies.
+We describe each of these model blocks, or key components, more thoroughly in
+the subsequent subsections.
+2.1
+Mixing Process
+The community mixing model, as shown in the blue box in Figures 2 and 5, is a
+topological object representation of the interactions of subpopulations in a local
+economy. By modeling the trends and interactions of subpopulations clusters
+in an economy we can observe system metrics from a macro level to help drive
+policy decision and economic interventions.
+To represent the stochastic process that connects the ‘implementation econ-
+omy’ to the ‘wider economy’, we describe our mixing process of intra and inter
+subpopulations interacting into a networked, graph model evolving over time.
+Assume we have a directed graph G(V, E) with subpopulations as vertices, or
+nodes, V = {1...V} and edges as E ⊆V × V. ‘Demand’, ‘utility’, and ‘spend’
+are edges connecting the subpopulations, with ‘demand’ used to denote desired
+ﬂow between agents, as i, j ∈E. Technically, the graph is a weighted, directed
+multigraph with more than one edge, i −→j for any pair of vertices i, j ∈V
+with wi,j. We chose this meso structure because microeconomic models and sim-
+ulations, such as agent based modeling, are too detailed (or ‘atomistic’) for a
+useful representation of the system level dynamics, whereas a traditional macro
+equilibrium model, or system dynamics model, is too general for an accurate
+representation of the economic mixing process [43] [12]. Meso layers focus on
+evolutionary change, whereas traditional micro and macro models focus mostly
+on static equilibria and transitional dynamics around them, thus failing to ac-
+count for the evolution and acceptance of rule changes. In the next section, we
+describe the node types represented in our topographical model, as well as the
+edges within our multi graph.
+Node Types
+– Agent is a user of the system. In the case of our applied simulation, agents
+are subpopulation representations of the real system data.
+– Cloud is a representation of the open boundary to the world external to the
+model.
+– Contract is the smart contract of the bonding curve.
+
+
+[PAGE 15]
+Complex Systems Modeling of Community Inclusion Currencies
+13
+Edges between Agents The edge weight Gi,j > 0 takes on non-binary values,
+representing the intensity of the interaction, so we refer to (N, g) as a weighted
+graph. E is the set of directed edges, i.e., i, j ∈E
+– Demand is the amount a subpopulation wants to interact in a given timestep
+(i.e., time period, as most common usage in economics).
+– Fraction of demand in community currency is the amount in a given
+transaction, the subpopulation wants to interact in token, with 50% of the
+transaction being in community currency and the remaining 50% of in the
+native currency, in this case, the Kenyan Shilling.
+– Utility is the subpopulation’s utility (in economic sense) for the transaction.
+For the ‘spend’ calculations described later, we stack ranking the utilities to
+determine, given a liquidity constraint, which subpopulations will interact.
+We describe the utility types and the ranking mechanism in section 2.1.
+– Spend records the amount of community currency and shilling that was
+exchanged in a given timestep.
+– Fraction of actual spend in community currency records the percent-
+age of the transaction that was in community currency, for example, with
+50% being in community currency and 50% of the transaction being in the
+native currency, in this case, shilling.
+Subpopulation Modeling As described in section 2.1, our desire to model
+at the meso layer has driven the decision to use subpopulation modeling to
+model the blue box, or mixing process [12]. To use a subpopulation approach,
+we are taking a graph zoom operation, bundling agents together based on their
+‘likeness’. Nodes are constant, with edges being transitive. The algorithm we use
+for this graph zoom operation is Kmeans Clustering [23].
+To compute the clusters, we take the Grassroots Economics CIC implemen-
+tation full population of actual USD transactional data from January 1 through
+May 11 2020 in xDai data [14]1. The data has the following features:
+– Payer individual location
+– Payer individual business type
+– Receiver individual location
+– Receiver individual business type
+– Weight, which is tokens, exchange amount
+– Payer individual CIC wallet balance
+– Receiver individual CIC wallet balance
+Based on our descriptive statistical analysis and use of the Gap Statistic [42],
+we determined that (‘optimally’) 50 clusters are representative of the subpopula-
+tions, see Figure 3. 50 clusters was decided as our upper bound due to computa-
+tional limits and the desire to model on a subpopulation vs agent based level. All
+of the ﬂows inside of the bundle become part of the self-loop ﬂow. For example,
+within cluster 1, agent A can conclude transactions with agent B: this will not
+be reﬂected within our model, as this is intra- (not inter-) cluster interactions.
+
+
+[PAGE 16]
+14
+A. Clark, A. Mihailov, and M. Zargham (Preliminary version: January 2021)
+Fig. 3: Gap statistic of tested clusters of agents to subpopulations.
+We calculated the starting native currency of the subpopulations from the 1st
+to 3rd quartile of cluster source balances. Starting tokens is the clusters median
+source balance.
+Utility types are ordered, and probability of occurrence is calculated, per
+cluster, based on the real transactional data in our sample. Types and probability
+for cluster 2 can be seen below in ﬁgure 4:
+* Utility Types Ordered
+* Savings Group
+* Farming/Labor
+* Food/Water
+* Utility Types Probability
+* 0.64
+* 0.25
+* 0.11
+Fig. 4: Utility types and their probability
+Starting from these subpopulation calculations, we can drive the blue box
+mixing process rooted in actual data that was computed from agent level inter-
+actions brought up to subpopulation level.
+2.2
+Currency Operator
+The pink box, as described above in section 2.1, is the meso-level economic
+operator whose purpose is to promote a healthy economy in the blue box. The
+currency operator, in this case, Grassroots Economics, issues CIC to new users,
+with the current rule of 400 CIC per each new agent [34], provides a mechanism
+
+
+[PAGE 17]
+Complex Systems Modeling of Community Inclusion Currencies
+15
+Fig. 5: System dynamics model of CIC system representation.
+for conversion at 1:1 into Kenyan Shilling, as well as drives monetary policy
+and structure. In a general form, there is a net outﬂow to the system caused
+by the currency operator giving CICs to agents, and allowing the redemption of
+their tokens. This causes a classic inventory control problem of managing that
+enough CIC (i.e., token money) and ﬁat (i.e., ﬁat money) exists to manage the
+currency operator’s transactions and provide the outﬂow of liquidity into the
+system. There are several mechanism to manage net outﬂow, such as external
+donor drip, which is the current process, and illustrated in Figure 5, as well as the
+introduction of transaction fees. Below we will describe both these mechanisms
+for the inventory control problem that is embedded into our simulation model,
+as well as the disbursement and buyback policies.
+The inventory controller policy addresses the inventory control problem of
+the system. There is a natural tension between the operator CIC balance and the
+operator ﬁat balance as the system has a natural net outﬂow. Conceptually, we
+can think of this as a heuristic monetary policy conservation allocation between
+ﬁat and CIC reserves. We have created an inventory control function to test if
+the current balance is an acceptable tolerance. For the calculation, we use the
+following 2 variables: current CIC balance and current ﬁat balance; along with
+2 parameters: desired CIC and variance – see Figure 7 for the allocation policy.
+For our model’s purposes, we assume that the Grassroots Economics operator
+begins with 100,000 of ﬁat and CIC, in our simulation initialization.
+
+
+[PAGE 18]
+16
+A. Clark, A. Mihailov, and M. Zargham (Preliminary version: January 2021)
+Fig. 6: Subpopulation CIC disbursement
+if idealFiat - varianceFiat <= actualFiat <= idealFiat + (2*
+varianceFiat):
+decision = ‘none’
+amount = 0
+else:
+if (idealFiat - varianceFiat) > actualFiat:
+decision = ‘burn’
+amount = (idealFiat + varianceFiat) - actualFiat
+else:
+pass
+if actualFiat > (idealFiat + varianceFiat):
+decision = ‘mint’
+amount = actualFiat - (idealFiat + varianceFiat)
+else:
+pass
+if decision == ‘mint’:
+if actualCIC < (idealCIC - varianceCIC):
+if amount > actualCIC:
+decision = ‘none’
+amount = 0
+else:
+pass
+if decision == ‘none’:
+if actualCIC < (idealCIC - varianceCIC):
+decision = ‘mint’
+amount = (idealCIC-varianceCIC)
+else:
+pass
+Fig. 7: Pseudo code representation of the heuristic inventory control algorithm
+
+
+[PAGE 19]
+Complex Systems Modeling of Community Inclusion Currencies
+17
+If the controller wants to mint, the amount decided from the inventory con-
+troller, ∆R is inserted into the minting equation, as described above in more
+detail in the bonding curve section 2.3.
+There is a built in process lag of 15 days before the newly ‘minted’ or ‘burned’
+CIC is added to the respective operator accounts. This lag is a result of the
+ﬁnancial lag time of bonding/minting funds and clearing this funds through
+the traditional banking system. The result of the inventory controller behavior
+policy are directives to mechanisms to update the system variables according
+to whether any minting or burning occurred. For disbursement, we assume that
+every subpopulation has already started oﬀwith their CICs, and we assume
+distribution of a total of 1,000 to each subpopulation every 30 days. There is
+also a potential for allocation to occur based on a measure of individual agent
+centrality.
+2.3
+Currency Regulator - Bonding Curve
+A bonding curve is an automatic mechanism of market making and liquid-
+ity provision in token economies, analogous to a currency board in national
+economies [47]. We brieﬂy describe how the CIC bonding curve works, dis-
+playing the high level mathematical representations, but detailed explanation of
+the underlying mathematics and protocol can be found from co-author Michael
+Zargham’s previous work [46,47] as well as from the Bancor protocol [20].
+Fig. 8: CIC bonding curve stock and ﬂow diagram.
+
+
+[PAGE 20]
+18
+A. Clark, A. Mihailov, and M. Zargham (Preliminary version: January 2021)
+An important component of a bonding curve is it’s conservation function, a
+measure of a property that is an invariant, which means that the value of the
+conservation function remains unchanged under the allowable system transitions.
+For our model, the conservation function is:
+V (S, R) = Sκ
+R
+with R being the xDai in Reserve and S as the Total Supply of CIC tokens in
+the system.
+The deposit to mint equations are deposit ∆R xDAI to mint ∆S CIC tokens
+∆S = mint
+ ∆R; (R, S)
+
+= S
+  κ
+r
+(1 + ∆R
+R ) −1
+
+The burn to withdraw equations are burn ∆S CIC tokens to withdraw ∆R
+xDAI
+∆R = withdraw
+ ∆S; (R, S)
+
+= R
+ 1 −(1 −∆S
+S )κ
+System level initialization parameters shown below were derived based on
+simulation, analytical methods, and discussions with the Grassroots Economics
+team.
+– R0 = 40000 xDAI to generate S0 initial supply
+– The ‘Connector Weight’ in Bancor terms maps to the concept ‘Target Re-
+serve Ratio’ ρ = 1
+κ =
+R
+P ·S
+– Conversion rate between USD and Kenyan Shilling is approximately 1:100
+– Assume P0 = 1/100 in order to ensure spot price is the right order of mag-
+nitude
+– Leveraged applied to the bonding curve κ = 4
+– Above implies S0 = 4 × 100 × 40000 = 16 Million for the initial supply of
+CIC tokens
+Figure 9 shows the base bonding curve case as determined by the originally
+suggested values by Grassroots Economics.
+The bonding curve mathematics are relatively new but not novel in this
+project, with widespread deployment not prevalent. In the developmental eco-
+nomic context, the success of the Grassroots Economics project could be the ﬁrst
+deployment of a bonding curve outside a pure token economy implementation.
+In traditional economics, bonding curves can be viewed as similar to currency
+boards.
+3
+System Walkthrough
+3.1
+Layers in the cadCAD Simulation
+In the cadCAD simulation methodology, we operate on four layers: Behavior
+Policies, Mechanisms, States, and Metrics. We can describe the interac-
+tion of these four layers through a diﬀerential speciﬁcation using system mod-
+eling syntax [45]. Information ﬂows do not have explicit feedback loop unless
+
+
+[PAGE 21]
+Complex Systems Modeling of Community Inclusion Currencies
+19
+Fig. 9: CIC bonding curve with initialization values
+Fig. 10: Diﬀerential speciﬁcation of the system.
+noted: see Figure 10. Policies determine the inputs into the system dynamics,
+and can come from user input (e.g., instrument variables in macro-modeling),
+observations from the exogenous environment, or algorithms. Mechanisms are
+functions that take the policy decisions and update the states to reﬂect the
+policy level changes. States are variables that represent the system quantities
+(conventionally, stock or state variables in dynamic economic theory and simula-
+tion) at the given point in time, and Metrics are computed from state variables
+to assess the health of the system (i.e., they resemble certain policy criteria or
+guiding measurements in economics). Metrics can often be thought of as KPIs,
+or Key Performance Indicators. See ﬁgure 11 for a snippet of the partial state
+update blocks and table 2 for a listing of the states of the system.
+3.2
+Order of Events
+In our systems – see Figure 10 – diﬀerential speciﬁcation, we have 4 separate
+parts of the model, Exogenous signals, KPI, System, and Currency Development
+Entity. Each part is comprised of 1 or more partial state update blocks, which
+
+
+[PAGE 22]
+20
+A. Clark, A. Mihailov, and M. Zargham (Preliminary version: January 2021)
+partial_state_update_block = {
+# Users
+’Behaviors’: {
+’policies’: {
+’action’: choose_agents
+},
+’variables’: {
+’network’: update_agent_activity,
+’outboundAgents’: update_outboundAgents,
+’inboundAgents’:update_inboundAgents
+}
+},
+Fig. 11: Example Partial State Update Blocks
+when taken in sequence, create state update, or one increment of a timestep.
+Exogenous signals are a substep of the system with mechanisms that do not
+have policies. System is the Figure 5 blue box, or mixing process interactions.
+Currency Development Entity is the policies and mechanisms for the cur-
+rency operator, or the Figure 5 pink and green boxes, whereas KPI are the
+system metrics. Below we enumerate the substeps of a system timestep.
+1. Calculate the starting balance of the individual subpopulations every 30
+days, the subpopulations actual 30 day spend, as well the periodic donor
+shilling drip13, and clearing out the previous simulation step network mixing
+process activity. The starting balances and 30 day spend mechanisms are
+used to create variables that serve as a basis to simulate the ‘aggregated
+agent’ withdrawal based on the Grassroots Economics CIC withdraw policy.
+2. The System is our graph mixing process. Individual subpopulations will in-
+teract with each other to simulation inter-subpopulation value ﬂows. With
+the graph structure discussed in section 2.1, the ﬁrst behavior, choose agents,
+takes a uniform random sample of 46 from the 51 subpopulations (50 clus-
+ters plus the external economy) for the payer subpopulations and another
+uniform random sample for the receiver subpopulations. The behavior policy
+then calculates the payer demands based on a Gaussian distribution com-
+puted from the µ actual CIC transactions involving the subpopulation and
+the σ of the actual transactions, as described in section 2.1. If the payer
+is the external economy node, we compute a Gaussian distribution based
+on the the average of the average subpopulation µ and σ. To calculate the
+payer subpopulation’s utility, we take a uniform distribution of the source
+subpopulations business types and use their probability of occurrence, i.e.
+Food and Water type occurs 41% of the time in subpopulation 1 inter-cluster
+13The basic model features an issuer with goods or services on oﬀer (such as goats).
+The donor side was only bootstrapping, and future donations will go into the bonding
+curve.
+
+
+[PAGE 23]
+Complex Systems Modeling of Community Inclusion Currencies
+21
+interactions, so we will chose this utility type 41% of the time. Note that for
+the scope of our simulations, we are assuming each subpopulation interacts
+once with one utility type for each timestep. As the result of this behav-
+ior policy, we update the mixing graph with the edges that are interacting,
+their demand, utility, and the fraction of demand in CIC. For simulation
+purposes, we are assuming that the fraction of demand for a transaction is
+50% ﬁat, 50% CIC, where 100% ﬁat if the subpopulation is interacting with
+the external environment.
+3. The second behavior of the system, spend allocation, is calculated based on
+the desired interacting subpopulation’s demand, utility, and liquidity con-
+straints, i.e., the amount of CIC and shilling each subpopulation has avail-
+able. We iterate through the desired demand and allocate based on a stack
+ranking of utility vi,j over demand vi,j
+di,j until all demand for each subpopu-
+lation is met or subpopulation i runs out of CIC and shilling. In the mech-
+anisms, we then update the graph with the actual spend between agents.
+4. The third and ﬁnal behavior in the Systems section is the withdraw calculation.
+Per Grassroots Economics policy [34], individual users are able to withdraw
+up to 50% of the their CIC balance if they have spent 50% of their balance
+within the last 30 days at a conversion ratio of 1:1, meaning that for every
+one token withdraw, they receive 1 in shilling. For our subpopulation model,
+we are assuming that the agents want to withdraw as much as they can.
+One generalization we make from the system is that agent will have their
+‘30-day clocks’ starting when they have joined the system. For simpliﬁca-
+tion, in our model, we are assuming that each subpopulation is on the same
+30-day time clock. This produces jagged withdrawal graphs but the net ﬂows
+of the system are the same. This is one of the most important control points
+for the Grassroots Economics CIC operator. The more people withdraw CIC
+from the system, the more diﬃcult it is on the system. The more people can
+withdraw, the better the adoption, however. The inverse also holds true: the
+less individuals can withdraw, the lower the adoption. 30,000 is the max al-
+lowable amount to be withdrawn per 30 days. The mechanisms based on the
+behavior policy update, the operator ﬁat and CIC balances, the aggregated
+withdraw state, as well as the individual subpopulations, are based on their
+observed activity.
+5. The next sequence in our partial state update blocks is the Currency De-
+velopment Entity. This sequence has two behaviors, disbursement to agents
+and inventory controller, as described above in section 2.2. In disburse-
+ment to agents, CIC is distributed to the subpopulations as a means of Uni-
+versal Basic Income, or UBI.
+6. The ﬁnal section of our system model is the KPI’s partial state update blocks.
+This policy group has two behaviors, kpis and velocity of money. The kpis
+behavior policy iterates through the network model edges to ascertain the
+subpopulation edge weights of demand and spend for the current timestep.
+The policy function aggregates the spend and demand for a system level
+view of how much spend and demand occurred on the network during the
+timestep as well as spend over demand, to see how much of the demand was
+
+
+[PAGE 24]
+22
+A. Clark, A. Mihailov, and M. Zargham (Preliminary version: January 2021)
+fulﬁlled. A spend over demand of 1 means that not all demand was satisﬁed
+whereas a value of 1 denotes that all subpopulation wants were met. The
+behavior policy has three subsequent mechanisms that update the metrics
+variables of KPIDemand, KPISpend, and KPISpendOverDemand with the
+timesteps results.
+– Behavior policy velocity of money calculates the velocity of money per
+timestep via indirect measurement. Research by De la Rosa and Stodder
+has shown that the velocity of local currencies can be as much as ﬁve
+times higher than their corresponding national currencies [32].
+Vt = PT
+M
+where Vt is the velocity of money for all agent transactions in the time
+period examined, P is the average price level, T is the aggregated real
+value of all agent transactions in the time period examined, and M is
+the average money supply in the economy in the time period examined.
+The velocity of money mechanism updates the metric variable of Veloc-
+ityOfMoney.
+4
+System Run and Results
+cadCAD provides the ability for Monte Carlo runs that reﬂect the description of
+our model and algorithm thus far. Due to the stochastic nature of our system,
+Monte Carlo runs will provide a more accurate readout on how a system will per-
+form. As a result of the size and complexity of the model with the subpopulations,
+we ran 5 Monte Carlo runs over 100 timesteps to produce time series quartile
+charts of Subpopulation Spend, KPISpendOverDemand, VelocityOfMoney, and
+operator CIC and ﬁat balances. As a result of the simulations [8] – see ﬁgures
+12, 13, 14, 16, and 15 – we can observe the predicted net outﬂow of ﬁat from the
+system, or enable some sort of fee structure. For the sake of this illustration, and
+a desire for this sort of simulation model to not be completely ‘driverless’, the
+rough heuristic inventory control algorithmic policy deﬁned above was turned
+oﬀfor the simulations run.
+As has been illustrated in this paper, the potential for system level decision
+making regarding the withdrawal policies, liquidity requirements of the currency
+development operator, the introduction of transaction fees, the ability of traders
+and investors to interact with the network to provide liquidity with the bonding
+curve, and calculating the ﬁscal multiplier of an external liquidity development
+investment are all examples of subsequent work. It could be performed for a spe-
+ciﬁc currency development use case consistent with the network-based framework
+we presented above.
+5
+Concluding Remarks
+In this paper, we attempted to bridge complex systems modeling and simulation
+approaches and the corresponding terminology, typical for computer science and
+
+
+[PAGE 25]
+Complex Systems Modeling of Community Inclusion Currencies
+23
+Fig. 12: Aggregated inter-subpopulation spend. This ﬁgure shows the aggregated
+inter-subpopulation spend per timestep of the simulation. After the system ini-
+tialization of agent spend and economy outﬂows, the spend stays relatively con-
+stant, despite no new agents introduced.
+systems engineering, with concepts, theories and interpretations that are well
+grounded in economic analysis and monetary theory. In doing so, our aim was to
+highlight the potential usefulness of the emerging blockchain-technology backed
+community inclusion currencies now popular in cryptoeconomics. Essentially, we
+see the potential of such CICs mostly as a local and temporary liquidity-provision
+institutional device in local economies to increase their internal exchange and
+economic value added, thereby serving as a market-based mechanism to alleviate
+poverty, akin in its automatism and credibility to a currency board in national
+economies. Yet, we do not view such CIC systems as a long-run solution to
+the problems of liquidity shortage that decreases internal trade, isolates these
+backward regions from the rest of the country and the world, and depresses their
+growth, employment and prosperity. The ultimate goal of these CIC systems is
+rather to promote a transition toward complete inclusion and integration into the
+national and global economies, pulling over the communities and regions out of
+self-suﬃciency and poverty into more advanced stages of economic development
+and well-being.
+5.1
+Main Findings and Contributions
+In this paper, we have examined what community inclusion currencies are, based
+on the simulation application we performed with regard to the Grassroots Eco-
+
+
+[PAGE 26]
+24
+A. Clark, A. Mihailov, and M. Zargham (Preliminary version: January 2021)
+Fig. 13: Aggregated inter-subpopulation KPI spend over demand. A value of 1
+means that all demand is fulﬁlled, while a value of less than 1 shows us that not
+all subpopulation wants were met, based oﬀof our stochastic demand function.
+Fig. 14: Aggregated inter-subpopulation velocity of money. Very similar to trend
+and insight from ﬁgure 12
+
+
+[PAGE 27]
+Complex Systems Modeling of Community Inclusion Currencies
+25
+Fig. 15: Operator ﬁat balance. Since the CIC system in this simulation is net
+outﬂow, relying on donations, the balance is downward trending, per expectation.
+The subsequent introduction of fees, see section 5.2, will be focused on making
+this balance static or trending slightly positive.
+nomics CIC project in Kenya. Furthermore, we created a network-based complex
+systems model of subpopulation interactions, and a simulation of the perfor-
+mance of the economic system given some hyperparameters.
+Our contribution to the economic literature, in particular on new forms of
+money and cryptoeconomics, is three-fold:
+– We take a novel meso-economic approach, in-between the standard extremes
+of micro and macro, in modeling the local economy and its use of a CIC.
+– Our model allows us to elicit utility from actual transactions and to divide
+accordingly the individuals in a community into typical subgroups, represent-
+ing inferred spending-behavior heterogeneity in the society across consumer
+types, based on observed and recorded CIC transactions.
+– We further relate our ﬁndings based on the Grassroots Economics initiative
+to comparative analysis of some key economic beneﬁts and costs of commu-
+nity inclusion currencies and their mechanism of implementation vs those
+of a currency board or a central bank in conducting monetary policy in the
+conventional way.
+The contribution of our paper to the computer science complex systems meth-
+ods as applied to monetary economics, in particular on CIC, from our model is
+three-fold too:
+
+
+[PAGE 28]
+26
+A. Clark, A. Mihailov, and M. Zargham (Preliminary version: January 2021)
+Fig. 16: Operator CIC balance. As a result of minting and buybacks, the CIC
+balance is increasing, as expected.
+– We provide a framework for modeling community currency viability and net
+ﬂows.
+– We implement a network-based dynamical systems modeling approach that
+is more grounded in economic and monetary theory, to simulate a subpopu-
+lation mixing processes.
+– We apply computational modeling of complex systems embodying key eco-
+nomic principles.
+By utilizing complex systems modeling and modern computational simula-
+tions, modeling of economic systems can be accomplished in order to aid devel-
+opment eﬀorts and guide monetary policy decisions.
+5.2
+Future Research
+In this paper, we have developed a meso-level subpopulation model for modeling
+the Grassroots Economics CIC project. This framework, however, can be con-
+ﬁgured for other economic modeling use cases. Our model was designed to be
+leveraged for making decision about how to govern a local economy and manage
+its liquidity and non-barter exchange.
+Future research along these lines includes adding more detailed adoption
+processes, the introduction of fees, and the execution of simulation experiments
+to drive operational decision making. Enumerated below are the recommended
+modeling next steps:
+
+
+[PAGE 29]
+Complex Systems Modeling of Community Inclusion Currencies
+27
+– User adoption and randomized withdrawal
+• Poisson distribution - fractions of CIC in subpopulations (change with-
+drawal and distribution policies)
+∗Randomize when subpopulations withdraw. They each have a sepa-
+rate ‘30-day clock’.
+∗Cash outs are discrete events in continuous time. Time between
+events is a ﬂow-weighted exponential distribution. Generate time
+between events, with the amount to disburse based on the mixing
+process.
+∗Lower bound is 30 days. There is a max of 30k withdrawal per 30
+days for the system. Some cash out at every time step.
+∗Poisson distribution for each subpopulation for new arrivals.
+∗For each subpopulation, we will represent these arrivals by the per-
+centage of CIC that is available for withdrawal.
+– Weighted edges for choosing probability of subpopulations interacting; i.e.,
+subpopulations interact with the same 5 subpopulations primarily.
+– Fee mechanisms.
+• Parameter sweeps on fee percentages, and which actors to impose them,
+i.e., traders, investors, or general users via transaction fees.
+– Payer and receiver needs to have separate amount of CIC demanded. Payer
+wants to pay in 100% ﬁat whereas receiver may only want 5% ﬁat. Need to
+reconcile the two and track the diﬀerence.
+• Create ‘negotiator’ policy and separate generator functions.
+• Fraction of demand in CIC edge type to dictionary of type payer key
+value and receiver key value.
+– Move to closed loop model without external drips or new buy-ins, meaning,
+removing external liquidity infusions, can the economy function by itself, and
+what fees are required for the Currency Operator to not run out of either
+ﬁat or CIC.
+– Advanced algorithmic inventory allocation.
+• If scarcity on both sides, add feedback to reduce percentage able to
+withdraw, frequency one can redeem, or redeem at less than par.
+– Percentage of k cycles centrality – for rewards feedback/basic income.
+5.3
+Reproducibility
+In order to replicate the simulation results we presented here, we direct the reader
+to visit https://www.anaconda.com/products/individual in order to download
+Python 3.7+ for the speciﬁc version of operating system, i.e., Linux, Mac OS.
+To install cadCAD and download the source code, we direct the reader to run
+the commands shown in ﬁgure 17 in their command line:
+
+
+[PAGE 30]
+28
+A. Clark, A. Mihailov, and M. Zargham (Preliminary version: January 2021)
+# Install cadCAD
+pip install cadCAD==0.3.1
+# Download code
+git clone -b paper https://github.com/BlockScience/
+Community_Inclusion_Currencies.git
+# Access the repository
+cd Community_Inclusion_Currencies
+# Run a notebook server
+jupyter notebook
+Fig. 17: Bash shell commands to download simulation code
+References
+1. cadCAD – A Python package for designing, testing and validating complex systems
+through simulation, https://cadcad.org
+2. xDai STAKE (2018 Accessed June 14, 2020)), https://www.xdaichain.com/
+3. Amato, M., Fantacci, L.: Complementary Currencies, pp. 501–522. Springer Singa-
+pore, Singapore (2020). https://doi.org/10.1007/978-981-13-0596-250, https://doi.
+org/10.1007/978-981-13-0596-2 50
+4. Arestis, P., Mihailov, A.: Flexible rules cum constrained discretion: A new con-
+sensus in monetary policy. Economic Issues 14(2), 27–54 (Sep 2009), http://www.
+economicissues.org.uk/Files/209Arestis.pdf
+5. Arestis, P., Mihailov, A.: Classifying monetary economics: Fields and meth-
+ods
+from
+past
+to
+future.
+Journal
+of
+Economic
+Surveys
+25(4),
+769–800
+(2011). https://doi.org/https://doi.org/10.1111/j.1467-6419.2010.00625.x, https:
+//onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-6419.2010.00625.x
+6. Boik, J.: First micro-simulation model of a ledda community currency-dollar econ-
+omy. International Journal of Community Currency Research 18(A), 11–29 (10
+2014)
+7. Christiano,
+L.J.,
+Eichenbaum,
+M.S.,
+Trabandt,
+M.:
+On
+DSGE
+mod-
+els.
+Journal
+of
+Economic
+Perspectives
+32(3),
+113–40
+(August
+2018).
+https://doi.org/10.1257/jep.32.3.113,
+https://www.aeaweb.org/articles?id=
+10.1257/jep.32.3.113
+8. Clark, A.: CIC modeling. https://gitlab.com/grassrootseconomics/cic-modeling
+(2020)
+9. Clark, A., Mihailov, A.: Why private cryptocurrencies cannot serve as international
+reserves but central bank digital currencies can. Economics Discussion Papers em-
+dp2019-09, Department of Economics, Reading University (May 2019), https://
+ideas.repec.org/p/rdg/emxxdp/em-dp2019-09.html
+10. Cooney, K., Shanks, T.W.: New approaches to old problems: Market-based strate-
+gies for poverty alleviation. Social Service Review 84(1), 29–55 (2010), http:
+//www.jstor.org/stable/10.1086/652680
+11. Diebold, F.X., Ohanian, L.E., Berkowitz, J.: Dynamic equilibrium economies: A
+framework for comparing models and data. The Review of Economic Studies 65(3),
+433–451 (1998), http://www.jstor.org/stable/2566933
+
+
+[PAGE 31]
+Complex Systems Modeling of Community Inclusion Currencies
+29
+12. Dopfer, K., Foster, J., Potts, J.: Micro-meso-macro. Journal of Evolutionary Eco-
+nomics pp. Springer–Verlag (2004)
+13. Economics, G.: Community Inclusive Currencies Dashboard (Accessed June 14,
+2020)), https://dashboard.sarafu.network/
+14. Economics, G.: Jan-May 11th 2020 xDAI Blockchain Data (Accessed June 14,
+2020), https://www.grassrootseconomics.org/research
+15. Eichenbaum, M.S., Wallace, N.: A shred of evidence on public acceptance of
+privately issued currency. Quarterly Review Winter,
+2–4 (1985), https://
+reinventingmoney.ﬁles.wordpress.com/2016/09/qr911-canadiantiremoney.pdf
+16. Garc˜Aa-Corral, F.J., de Pablo-Valenciano, J., Mil˜A¡n-Garc˜Aa, J., Cordero-
+Garc˜Aa, J.A.: Complementary currencies: An analysis of the creation pro-
+cess based on sustainable local development principles. Sustainability 12(14)
+(2020). https://doi.org/10.3390/su12145672, https://www.mdpi.com/2071-1050/
+12/14/5672
+17. Greco, Jr., T.H.: Comment on the w¨orgl experiment with community currency
+and demurrage. online (2002), https://reinventingmoney.com/greco-comment on
+worgl/
+18. Hagberg, A.A., Schult, D.A., Swart, P.J.: Exploring network structure, dynamics,
+and function using networkx. In: Varoquaux, G., Vaught, T., Millman, J. (eds.)
+Proceedings of the 7th Python in Science Conference. pp. 11 – 15. Pasadena, CA
+USA (2008)
+19. Hanke,
+S.H.:
+Currency
+boards.
+The
+ANNALS
+of
+the
+American
+Academy
+of
+Political
+and
+Social
+Science
+579(1),
+87–105
+(2002).
+https://doi.org/10.1177/000271620257900107,
+https://doi.org/10.1177/
+000271620257900107
+20. Hertzog, E., Benartzi, G., Benartzi, G.: Bancor Protocol Whitepaper (2018 Ac-
+cessed June 14, 2020)), https://storage.googleapis.com/website-bancor/2018/04/
+01ba8253-bancor protocol whitepaper en.pdf
+21. Krueger, A.O.: Government failures in development. The Journal of Economic
+Perspectives 4(3), 9–23 (1990), http://www.jstor.org/stable/1942926
+22. Lietaer, B., Arnsperger, C., Goerner, S., Brunnhuber, S.: Money and sustainability:
+the missing link; a report from the Club of Rome – EU Chapter to Finance Watch
+and the World Business Academy (January 2012)
+23. Lloyd, S.: Least squares quantization in pcm. IEEE Transactions on Information
+Theory 28(2), 129–137 (1982)
+24. Marshall,
+A.P.,
+O’Neill,
+D.W.:
+The
+bristol
+pound:
+A
+tool
+for
+localisation?
+Ecological
+Economics
+146,
+273
+–
+281
+(2018).
+https://doi.org/https://doi.org/10.1016/j.ecolecon.2017.11.002,
+http://www.
+sciencedirect.com/science/article/pii/S0921800917304287
+25. von
+Muralt,
+A.:
+The
+w¨orgl
+experiment
+with
+depreciating
+money.
+Annals
+of Collective Economy (1934), http://monetary-freedom.net/reinventingmoney/
+muralt-worgl experiment depreciating money.html
+26. Onken, W.: The political economy of silvio gesell: A century of activism. The
+American Journal of Economics and Sociology 59(4), 609–622 (2000), http://www.
+jstor.org/stable/3487828
+27. Osterfeld, D.: The failures and fallacies of foreign aid. Foundation for Economic Ed-
+ucation (1990), https://fee.org/articles/the-failures-and-fallacies-of-foreign-aid/
+28. Ouliaris, S.: Finance & Development, https://www.imf.org/external/pubs/ft/
+fandd/basics/models.htm
+29. Ovaska, T.: The failure of development aid. The Cato journal 23 (01 2003)
+
+
+[PAGE 32]
+30
+A. Clark, A. Mihailov, and M. Zargham (Preliminary version: January 2021)
+30. Radford, R.A.: The economic organisation of a p.o.w. camp. Economica 12(48),
+189–201 (1945), http://www.jstor.org/stable/2550133
+31. Rengs, B., Scholz-W¨ackerle, M., van den Bergh, J.: Evolutionary macroe-
+conomic assessment of employment and innovation impacts of climate pol-
+icy packages. Journal of Economic Behavior
+Organization 169 (12 2019).
+https://doi.org/10.1016/j.jebo.2019.11.025
+32. de la Rosa, J.L., Stodder, J.: On velocity in several complementary currencies
+(2015), https://ijccr.ﬁles.wordpress.com/2015/02/ijccr-2015-rosa-stodder.pdf
+33. Rosalsky, G.: The ‘strange, unduly neglected prophet’. Planet Money Newsletter
+(online)
+(2019),
+https://www.npr.org/sections/money/2019/08/27/754323652/
+the-strange-unduly-neglected-prophet?t=1607943819166
+34. Ruddick, W.: Community inclusion currencies (cics) documentation. https://
+gitlab.com/grassrootseconomics/cic-docs/-/tree/master (2020)
+35. Ruddick, W.O.: Eco-pesa: An evaluation of a complementary currency programme
+in kenya’s informal settlements (2011)
+36. Ryan-Collins, J.: Where Does Money Come from: A Guide to the UK Monetary
+and Banking System. New Economics Foundation (2011), https://books.google.
+com/books?id= agxuAAACAAJ
+37. Smets, F., Wouters, R.: An Estimated Dynamic Stochastic General Equilib-
+rium Model of the Euro Area. Journal of the European Economic Associ-
+ation 1(5), 1123–1175 (September 2003), https://ideas.repec.org/a/tpr/jeurec/
+v1y2003i5p1123-1175.html
+38. Stodder, J.: Reciprocal exchange networks: implications for macroeconomic stabil-
+ity. pp. 540 – 545 (02 2000). https://doi.org/10.1109/EMS.2000.872562
+39. Studer, T.: WIR in unserer Volkswirtschaft. WIR Bank, Basel (1998)
+40. Studer, T.: WIR and the Swiss National Economy, translated by Philip H. Beard.
+Sonoma State University, Rohnert Park, California (2006)
+41. Sullivan, D.J.: The failure of u.s. foreign aid: An examination of causes and a call
+for reform. Global Governance 2(3), 401–415 (1996), http://www.jstor.org/stable/
+27800148
+42. Tibshirani, R., Walther, G., Hastie, T.: Estimating the number of clusters in a
+data set via the gap statistic. Journal of the Royal Statistical Society Series B 63,
+411–423 (02 2001). https://doi.org/10.1111/1467-9868.00293
+43. Voshmgir, S., Zargham, M.: Foundations of cryptoeconomic systems. Working Pa-
+per Series / Institute for Cryptoeconomics / Interdisciplinary Research 1, Research
+Institute for Cryptoeconomics, Vienna (November 2019), https://epub.wu.ac.at/
+7309/
+44. Williamson, C.: Exploring the failure of foreign aid: The role of incentives
+and information. The Review of Austrian Economics 23, 17–33 (03 2009).
+https://doi.org/10.1007/s11138-009-0091-7
+45. Zargham, M.: Diﬀerential speciﬁcation syntax key (2019), https://community.
+cadcad.org/t/diﬀerential-speciﬁcation-syntax-key/31
+46. Zargham, M., Paruch, K., Shorish, J.: Economic games as estimators. Work-
+ing paper series / institute for cryptoeconomics / interdisciplinary research, WU
+Vienna University of Economics and Business, Vienna (January 2020), https:
+//epub.wu.ac.at/7433/
+47. Zargham, M., Shorish, J., Paruch, K.: From curved bonding to conﬁguration spaces.
+Working paper series / institute for cryptoeconomics / interdisciplinary research,
+WU Vienna University of Economics and Business, Vienna (December 2019), https:
+//epub.wu.ac.at/7385/
+
+
+[PAGE 33]
+Complex Systems Modeling of Community Inclusion Currencies
+31
+cluster
+median source balance 1st quartile source balance 3rd quartile source balance
+0.00
+150.00
+56.00
+403.96
+1.00
+340.00
+118.46
+506.60
+2.00
+250.00
+105.00
+592.96
+3.00
+20.00
+64,767.51
+64,767.51
+4.00
+330.00
+251,652.00
+251,652.00
+5.00
+320.00
+124.50
+1,501.41
+6.00
+240.00
+4,139.28
+7,214.90
+7.00
+300.00
+146.10
+869.82
+8.00
+300.00
+1,002.50
+1,557.01
+9.00
+50.00
+17,145.78
+18,304.36
+10.00
+900.00
+52,676.20
+55,142.93
+11.00
+120.00
+100.00
+419.96
+12.00
+400.00
+121,082.43
+121,082.43
+13.00
+180.00
+112.00
+816.30
+14.00
+300.00
+28,849.43
+38,653.54
+15.00
+6,000.00
+27,619.22
+37,106.89
+16.00
+132.50
+66.36
+770.65
+17.00
+130.00
+251,652.00
+251,652.00
+18.00
+160.00
+148.00
+838.46
+19.00
+5,000.00
+38,653.54
+38,653.54
+20.00
+150.00
+67.22
+315.00
+21.00
+10,000.00
+121,082.43
+121,082.43
+22.00
+200.00
+6,429.46
+9,074.79
+23.00
+10,000.00
+555.04
+5,726.66
+24.00
+200.00
+104.48
+602.02
+25.00
+200.00
+96.43
+437.96
+26.00
+35,000.00
+52,676.20
+63,234.80
+27.00
+20,000.00
+251,652.00
+251,652.00
+28.00
+100.00
+64.73
+425.00
+29.00
+500.00
+36,824.50
+40,953.15
+30.00
+425.00
+15,182.03
+17,145.78
+31.00
+13,320.00
+485.94
+6,349.27
+32.00
+500.00
+21,660.89
+25,695.83
+33.00
+500.00
+11,210.00
+13,156.46
+34.00
+1,000.00
+100,579.18
+100,579.18
+35.00
+390.00
+100.46
+819.33
+36.00
+150.00
+2,845.01
+4,158.50
+37.00
+250.00
+3,338.98
+5,597.38
+38.00
+45,000.00
+1,274.91
+2,823.81
+39.00
+36,300.00
+6,724.88
+20,030.91
+40.00
+960.00
+38,653.54
+51,710.52
+41.00
+120.00
+114.50
+537.94
+42.00
+200.00
+68.00
+542.92
+43.00
+100.00
+100.00
+415.43
+44.00
+220.00
+20.93
+895.66
+45.00
+600.00
+14,050.30
+18,304.36
+46.00
+62,000.00
+63,145.96
+63,145.96
+47.00
+500.00
+9,276.23
+14,050.30
+48.00
+900.00
+63,234.80
+64,767.51
+49.00
+486.00
+64,767.51
+64,767.51
+Aggregated values
+Median
+325.00
+5,284.37
+8,144.85
+1st Quartile
+185.00
+112.63
+817.06
+3rd Quartile
+900.00
+38,653.54
+49,021.18
+Table 1: Descriptive statistics of the CIC historical data from Jan - May 11 2020
+
+
+[PAGE 34]
+32
+A. Clark, A. Mihailov, and M. Zargham (Preliminary version: January 2021)
+State Variables
+Purpose
+network
+Multi-directed graph in NetworkX object [18]
+KPIDemand
+Subpopulation demand from the timestep in dictionary format
+KPISpend
+Subpopulation spend from the timestep in dictionary format
+KPISpendOverDemand
+Subpopulation spend divided by demand in dictionary format
+VelocityOfMoney
+Velocity of money from the timestep
+startingBalance
+The starting subpopulation CIC balance in dictionary format
+30 day spend
+Subpopulation spend over the last thirty timesteps
+withdraw
+Subpopulation actual withdraw, in dictionary format
+outboundAgents
+Subpopulation agents that are paying during the timestep.
+inboundAgents
+Subpopulation agents that are receiving during the timestep
+operatorFiatBalance
+Currency operator Fiat balance.
+operatorCICBalance
+Currency operator CIC balance
+fundsInProcess,
+Dictionary of Dictionaries that records funds awaiting settlement
+totalDistributedToAgents Total amount of CIC distributed to agents during the simulation
+totalMinted
+Total amount of CIC minted during the simulation
+totalBurned
+Total amount of CIC burned during the simulation
+Table 2: State variables for the economic system simulation
