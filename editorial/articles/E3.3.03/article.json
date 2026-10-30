@@ -1,0 +1,80 @@
+{
+  "number": 453,
+  "id": "E3.3.03",
+  "title": "Accesibilidad web: qué son las pautas WCAG y por qué importan",
+  "slug": "accesibilidad-web-wcag",
+  "seo_title": "Accesibilidad web: principios WCAG y errores comunes | MEE",
+  "description": "Accesibilidad web y pautas WCAG: cuatro principios, errores frecuentes y comprobaciones básicas de teclado, contraste e imágenes, con fuentes y límites.",
+  "keyword": "accesibilidad web",
+  "secondary_keywords": [
+    "pautas WCAG 2.2",
+    "teclado y contraste",
+    "evaluación de accesibilidad"
+  ],
+  "standfirst": "La accesibilidad web requiere comprobar tareas, contenido y controles. WCAG ofrece criterios verificables; una revisión automática o una apariencia cuidada no acreditan por sí solas conformidad completa.",
+  "tags": [
+    "accesibilidad",
+    "fundamentos"
+  ],
+  "images": {
+    "featured": {
+      "file": "e3-3-03-destacada.webp",
+      "title": "Un edificio que evoca una página web dispone de una rampa y accesos amplios.",
+      "alt": "Ilustración conceptual sobre accesibilidad web: un edificio que evoca una página web dispone de una rampa y accesos amplios.",
+      "caption": "Las pautas WCAG permiten examinar condiciones concretas de acceso sin reducirlas a una apariencia."
+    },
+    "interior-1": {
+      "file": "e3-3-03-interior-1.webp",
+      "title": "Cuatro columnas sostienen una plataforma común.",
+      "alt": "Cuatro columnas sostienen una plataforma común.",
+      "caption": "Perceptible, operable, comprensible y robusto organizan las pautas de accesibilidad."
+    },
+    "interior-2": {
+      "file": "e3-3-03-interior-2.webp",
+      "title": "Un camino de luz recorre un teclado de teclas vacías hacia una puerta.",
+      "alt": "Un camino de luz recorre un teclado de teclas vacías hacia una puerta.",
+      "caption": "Poder recorrer los controles con teclado es una comprobación concreta de accesibilidad."
+    }
+  },
+  "review": {
+    "sources_verified": true,
+    "editorial_checked": true,
+    "checked_on": "2026-10-30",
+    "original_images": true,
+    "images_visually_checked": true,
+    "illustrative_examples": true,
+    "sources": [
+      {
+        "name": "W 3 C, Web Content Accessibility Guidelines 2.2",
+        "url": "https://www.w3.org/TR/WCAG22/",
+        "scope": "Resumen, introducción, cuatro principios y requisitos de conformidad pertinentes leídos. Recomendación original2023, versión publicada consultada12/12/2024. No documento íntegro o certificación MEE afirmados."
+      },
+      {
+        "name": "W 3 C/WAI, Understanding 2.1.1 Keyboard",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html",
+        "scope": "Criterio e intención leídos: teclado sin tiempos específicos de teclas, excepción de funciones dependientes del recorrido, no arrastre genérico excluido. Documento explicativo informativo."
+      },
+      {
+        "name": "W 3 C/WAI, Understanding 1.1.1 Non-textContent",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html",
+        "scope": "Criterio, intención y excepciones leídos: propósito equivalente y tratamiento de decoración, no todaimagen descripción extensa. Sin sustitución de accesibilidad multimedia por unalt."
+      },
+      {
+        "name": "W 3 C/WAI, Understanding 1.4.3 ContrastMinimum",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+        "scope": "Criterio e intención leídos: AAtexto4.5:1, texto grande definido3:1 y excepciones, sin medir todawebporuncolor ni confundir con4.5puntos."
+      },
+      {
+        "name": "WebAIMMillion 2026",
+        "url": "https://webaim.org/projects/million/",
+        "scope": "Introducción, muestra, metodología y errores leídos. AnálisisFebrero2026 deunmillónportadas conWAVE:95.9%fallosdetectados, nocenso de todaswebs, noacreditar accesibilidad porausencia deerror. Noestadística específica MEE."
+      }
+    ],
+    "omitted_claims": [
+      "No promesa de accesibilidad universal ni de que una puntuación automática100certifique WCAG.",
+      "No aplicar una norma jurídica local ni emitir dictamen de cumplimiento de ley.",
+      "No extrapolar95.9%a todaslaswebs, páginasinteriores oMEE, ni confundir revisión automática con manual.",
+      "No rampas ilustrativas como plano físico accesible ni cambios en tema, aplicación o navegación de producción."
+    ]
+  }
+}

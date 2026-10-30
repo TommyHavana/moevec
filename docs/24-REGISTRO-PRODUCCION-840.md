@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-30T21:09:29+00:00.
+Comprobado en WordPress: 2026-10-30T21:23:02+00:00.
 
-**450/840 terminadas · 0 en curso · 390 pendientes.**
+**453/840 terminadas · 0 en curso · 387 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -462,9 +462,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 448 | 30/56 · 13/15 | E3.2.13 | Becas y concursos por mérito: oportunidades para jóvenes de la región | terminada | 3/3 | [Leer](https://moevec.org/blog/becas-y-concursos-por-merito/) |
 | 449 | 30/56 · 14/15 | E3.2.14 | Moderación justa: cómo debe una comunidad castigar el abuso | terminada | 3/3 | [Leer](https://moevec.org/blog/moderacion-justa/) |
 | 450 | 30/56 · 15/15 | E3.2.15 | Rankings mensuales: cómo evitar que el ranking se coma la comunidad | terminada | 3/3 | [Leer](https://moevec.org/blog/rankings-mensuales-comunidad/) |
-| 451 | 31/56 · 1/15 | E3.3.01 | Accesibilidad: participar no debería depender de tu conexión | pendiente | 0/3 | — |
-| 452 | 31/56 · 2/15 | E3.3.02 | Lenguaje claro: escribir para que te entienda cualquiera | pendiente | 0/3 | — |
-| 453 | 31/56 · 3/15 | E3.3.03 | Accesibilidad web: qué son las pautas WCAG y por qué importan | pendiente | 0/3 | — |
+| 451 | 31/56 · 1/15 | E3.3.01 | Accesibilidad: participar no debería depender de tu conexión | terminada | 3/3 | [Leer](https://moevec.org/blog/accesibilidad-que-es/) |
+| 452 | 31/56 · 2/15 | E3.3.02 | Lenguaje claro: escribir para que te entienda cualquiera | terminada | 3/3 | [Leer](https://moevec.org/blog/lenguaje-claro/) |
+| 453 | 31/56 · 3/15 | E3.3.03 | Accesibilidad web: qué son las pautas WCAG y por qué importan | terminada | 3/3 | [Leer](https://moevec.org/blog/accesibilidad-web-wcag/) |
 | 454 | 31/56 · 4/15 | E3.3.04 | Educación gratuita y abierta: el conocimiento sin peaje | pendiente | 0/3 | — |
 | 455 | 31/56 · 5/15 | E3.3.05 | Accesibilidad económica: costes de entrada y participación | pendiente | 0/3 | — |
 | 456 | 31/56 · 6/15 | E3.3.06 | Internet en Cuba: precios, acceso y alternativas | pendiente | 0/3 | — |
