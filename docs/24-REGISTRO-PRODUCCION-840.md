@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-30T00:17:33+00:00.
+Comprobado en WordPress: 2026-10-30T00:57:53+00:00.
 
-**315/840 terminadas · 0 en curso · 525 pendientes.**
+**321/840 terminadas · 0 en curso · 519 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -327,12 +327,12 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 313 | 21/56 · 13/15 | E6.1.13 | Economía compartida en Cuba: lo que ya existe de forma informal | terminada | 3/3 | [Leer](https://moevec.org/blog/economia-compartida-cuba-informal/) |
 | 314 | 21/56 · 14/15 | E6.1.14 | Los riesgos de compartir: guía para no salir perjudicado | terminada | 3/3 | [Leer](https://moevec.org/blog/riesgos-de-compartir/) |
 | 315 | 21/56 · 15/15 | E6.1.15 | Manifiesto de la economía compartida de MEE | terminada | 3/3 | [Leer](https://moevec.org/blog/manifiesto-economia-compartida/) |
-| 316 | 22/56 · 1/15 | E6.2.01 | Solidaridad capitalista: ¿una contradicción? | pendiente | 0/3 | — |
-| 317 | 22/56 · 2/15 | E6.2.02 | El evangelio de la riqueza: Carnegie y la filantropía | pendiente | 0/3 | — |
-| 318 | 22/56 · 3/15 | E6.2.03 | Ayuda mutua: de las cofradías a las tandas | pendiente | 0/3 | — |
-| 319 | 22/56 · 4/15 | E6.2.04 | Remesas: la mayor red de solidaridad del mundo | pendiente | 0/3 | — |
-| 320 | 22/56 · 5/15 | E6.2.05 | Generosidad y prosperidad: ¿quién dona más? | pendiente | 0/3 | — |
-| 321 | 22/56 · 6/15 | E6.2.06 | Mentoría: la forma más rentable de solidaridad | pendiente | 0/3 | — |
+| 316 | 22/56 · 1/15 | E6.2.01 | Solidaridad capitalista: ¿una contradicción? | terminada | 3/3 | [Leer](https://moevec.org/blog/solidaridad-capitalista-contradiccion/) |
+| 317 | 22/56 · 2/15 | E6.2.02 | El evangelio de la riqueza: Carnegie y la filantropía | terminada | 3/3 | [Leer](https://moevec.org/blog/carnegie-evangelio-de-la-riqueza/) |
+| 318 | 22/56 · 3/15 | E6.2.03 | Ayuda mutua: de las cofradías a las tandas | terminada | 3/3 | [Leer](https://moevec.org/blog/ayuda-mutua-cofradias-tandas/) |
+| 319 | 22/56 · 4/15 | E6.2.04 | Remesas: la mayor red de solidaridad del mundo | terminada | 3/3 | [Leer](https://moevec.org/blog/remesas-red-de-solidaridad/) |
+| 320 | 22/56 · 5/15 | E6.2.05 | Generosidad y prosperidad: ¿quién dona más? | terminada | 3/3 | [Leer](https://moevec.org/blog/generosidad-y-prosperidad/) |
+| 321 | 22/56 · 6/15 | E6.2.06 | Mentoría: la forma más rentable de solidaridad | terminada | 3/3 | [Leer](https://moevec.org/blog/mentoria-solidaridad/) |
 | 322 | 22/56 · 7/15 | E6.2.07 | Comprar local: lo que dice la evidencia | pendiente | 0/3 | — |
 | 323 | 22/56 · 8/15 | E6.2.08 | Filantropía eficaz: cómo donar para que sirva | pendiente | 0/3 | — |
 | 324 | 22/56 · 9/15 | E6.2.09 | Empresas que ayudan a crecer a sus proveedores | pendiente | 0/3 | — |

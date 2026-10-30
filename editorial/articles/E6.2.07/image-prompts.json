@@ -1,0 +1,25 @@
+{
+  "id": "E6.2.07",
+  "prompts": {
+    "featured": "Use case: stylized-concept. Original MEE editorial illustration. Premium crafted miniature, tactile paper, limestone and ceramic, cobalt blue, vermilion red and warm ivory palette. Refined directional light, subtle texture, controlled shadows. Wide landscape, essential objects within central safe crop. No text, numbers, labels, logos, watermark, flags or statistical chart. A complete small crafted neighborhood shopping street at warm dusk, four modest ivory shop facades with cobalt open doors and awnings, soft golden interior lights, one vermilion bench and tiny red plant pot. Tactile limestone, paper and ceramic, no people, actual businesses, readable signs, shop names, brands, flags, prices or lettering. Full street central60percent wide16:9 generous margins.",
+    "interior-1": "Use case: stylized-concept. Original MEE editorial illustration. Premium crafted miniature, tactile paper, limestone and ceramic, cobalt blue, vermilion red and warm ivory palette. Refined directional light, subtle texture, controlled shadows. Wide landscape, essential objects within central safe crop. No text, numbers, labels, logos, watermark, flags or statistical chart. An overhead crafted miniature of four small ivory storefront models arranged around a cobalt circular walkway on an ivory tabletop. A single plain vermilion ceramic disc without any markings rests on the walkway between two shops. Quiet conceptual scene suggesting circulation, no arrows, symbols, currency, graphs, labels, numbers or real data. All storefronts and circle central55percent wide16:9 generous margins.",
+    "interior-2": "Use case: stylized-concept. Original MEE editorial illustration. Premium crafted miniature, tactile paper, limestone and ceramic, cobalt blue, vermilion red and warm ivory palette. Refined directional light, subtle texture, controlled shadows. Wide landscape, essential objects within central safe crop. No text, numbers, labels, logos, watermark, flags or statistical chart. A complete miniature ivory neighborhood street with two modest cobalt-door shop facades in foreground opening toward an unobstructed small harbor in background. One cobalt cargo boat rests calmly in ivory harbor water beside a plain vermilion bollard. Clear visible connection from street to open harbor, tactile handcrafted scene, no real city, flags, brands, letters, prices or chart. Full street and harbor central60percent wide16:9 margins."
+  },
+  "sources": {
+    "featured": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-c7eb5444-7558-412c-8428-3ed840792c8a.png",
+    "interior-1": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-09b92a1b-905f-4910-8e61-c43f2be9c54a.png",
+    "interior-2": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-397cc741-a699-4ff9-ad97-4b5d907ac3ad.png"
+  },
+  "tool": "builtin_image_gen",
+  "sources_are_conceptual": true,
+  "edits": [
+    {
+      "role": "interior-2",
+      "tool": "builtin_image_gen",
+      "reason": "Suprimir pequeño emblema tenue en esquina inferior derecha, conservando composición y materiales.",
+      "original": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-d30aef4f-2975-48f0-a6eb-9fe9b6876906.png",
+      "selected": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-397cc741-a699-4ff9-ad97-4b5d907ac3ad.png",
+      "prompt": "Keep this original MEE editorial harbor scene exactly as it is, including every boat, shop, doorway, light, material, color and framing. Remove the faint small circular emblem near the bottom right corner of the paving and fill just that spot with coherent natural ivory paving texture. The final scene should contain no watermark, signature, logo, emblem, text or lettering. Preserve all other details and the wide landscape format."
+    }
+  ]
+}
