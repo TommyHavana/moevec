@@ -1,0 +1,76 @@
+{
+  "number": 457,
+  "id": "E3.3.07",
+  "title": "Diseñar para conexiones lentas: lo que aprendió MEE",
+  "slug": "disenar-para-conexiones-lentas",
+  "seo_title": "Conexiones lentas: diseñar para empezar a leer | MEE",
+  "description": "Conexiones lentas: aprende a priorizar texto, ajustar imágenes y medir tareas; revisa decisiones de MEE y los límites de una prueba de laboratorio.",
+  "keyword": "conexiones lentas",
+  "secondary_keywords": [
+    "peso de una web",
+    "carga diferida",
+    "rendimiento web"
+  ],
+  "standfirst": "Diseñar para conexiones lentas obliga a decidir qué debe llegar primero. MEE conserva texto en HTML y utiliza imágenes optimizadas; esas decisiones necesitan comprobarse en tareas y condiciones concretas.",
+  "tags": [
+    "accesibilidad",
+    "desarrollo"
+  ],
+  "images": {
+    "featured": {
+      "file": "e3-3-07-destacada.webp",
+      "title": "Un velero de papel con vela azul avanza sobre ondas de papel.",
+      "alt": "Ilustración conceptual sobre conexiones lentas: un velero de papel con vela azul avanza sobre ondas de papel.",
+      "caption": "La ligereza es una metáfora del diseño; la velocidad de una web necesita medirse."
+    },
+    "interior-1": {
+      "file": "e3-3-07-interior-1.webp",
+      "title": "Dos mochilas de distinto tamaño descansan sobre una mesa clara.",
+      "alt": "Dos mochilas de distinto tamaño descansan sobre una mesa clara.",
+      "caption": "El peso de cada recurso importa junto con la tarea que permite completar."
+    },
+    "interior-2": {
+      "file": "e3-3-07-interior-2.webp",
+      "title": "Una hoja en primer plano se sitúa delante de tres marcos de imagen.",
+      "alt": "Una hoja en primer plano se sitúa delante de tres marcos de imagen.",
+      "caption": "Conservar el contenido legible permite comenzar la lectura mientras llegan otros recursos."
+    }
+  },
+  "review": {
+    "sources_verified": true,
+    "editorial_checked": true,
+    "checked_on": "2026-10-30",
+    "original_images": true,
+    "images_visually_checked": true,
+    "illustrative_examples": true,
+    "sources": [
+      {
+        "name": "HTTP Archive, Web Almanac 2025, Page Weight",
+        "url": "https://almanac.httparchive.org/en/2025/page-weight",
+        "scope": "Lectura apartados Requestbytes, Pageweightinbytes y figura14.3:mediana móvil2164KB, escritorio2412KB. Se usa distribución de figura14.3, no mezcla con portadas/series. Fecha rastreo julio2025; no todositio2026."
+      },
+      {
+        "name": "HTTP Archive, metodología del Web Almanac 2025",
+        "url": "https://almanac.httparchive.org/en/2025/methodology",
+        "scope": "Leídos dataset, muestra, límites y herramientas:julio2025, cachévacía/sinsesión/laboratorio, no censo web ni experiencia realuniversal."
+      },
+      {
+        "name": "Google, web.dev, Browser-level image lazy loading",
+        "url": "https://web.dev/articles/browser-level-image-lazy-loading",
+        "scope": "Leído loadinglazy/eager, prioridad, evitar diferir imagen inicialLCP, reservar dimensiones. Sin extrapolar porcentajes experimentalesChrome aMEE."
+      },
+      {
+        "name": "MEE, Educación gratuita y abierta, comprobaciónHTML 30/10/2026",
+        "url": "https://moevec.org/blog/educacion-gratuita-y-abierta/",
+        "scope": "Inspección pública de etiquetasimg: portadafetchpriorityhigh, interioresloadinglazy, dimensiones y variantes. Evidencia de marcado, no velocidad medida en conexiones cubanas. Assets deE3.3.07 propios <250000B, sum176724B antesvariantes."
+      }
+    ],
+    "omitted_claims": [
+      "No confunde mediana y media aritmética ni páginas conportadas o muestrasdispositivos; no inventa datoHTTPArchiveoctubre2026.",
+      "Sin prueba de campo en Cuba o garantía para2G/3Gafirmada. MarcadoHTML no garantiza velocidad o ahorro total.",
+      "Sin modo textoMEE, PWA, descargaoffline o guardado de formularios anunciados; navegadorpuedeofrecer funciones variables.",
+      "No informeLighthouseantiguo presentado como certificadoactualglobal ni promesa de puntuación.",
+      "No difiere de forma general la portada de la primera pantalla; principio lazydependedeubicación."
+    ]
+  }
+}

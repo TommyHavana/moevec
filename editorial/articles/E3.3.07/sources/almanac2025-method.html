@@ -1,0 +1,2521 @@
+<!doctype html>
+<html lang="en" >
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+      <title>Methodology | The Web Almanac by HTTP Archive</title>
+      <link rel="stylesheet" href="/static/css/normalize.css?v=3a712a3381a95c0a7b7c6ed3aa03b911">
+      
+
+  <link rel="stylesheet" href="/static/css/almanac.css?v=f1b659664e1ffbc5e1f3feca4080486d">
+
+<link rel="stylesheet" href="/static/css/page.css?v=9a1ae5aea9b36df260da9f7c442073e7">
+
+      <link rel="preload" href="/static/fonts/Lato-Regular.woff2" as="font" type="font/woff2" crossorigin>
+      <link rel="preload" href="/static/fonts/Poppins-Bold.woff2" as="font" type="font/woff2" crossorigin>
+      <link rel="preload" href="/static/fonts/Lato-Black.woff2" as="font" type="font/woff2" crossorigin>
+      <link rel="preload" href="/static/fonts/Lato-Bold.woff2" as="font" type="font/woff2" crossorigin>
+
+      <script nonce="m_Lb0y0OACaDd-gmQOFh7uOTxAh_wN20">
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('set', 'allow_google_signals', false);
+        gtag('set', 'allow_ad_personalization_signals', false);
+        gtag('js', new Date());
+        gtag('config', 'UA-22381566-3', {
+          'link_attribution': true
+        });
+        gtag('config', 'G-PQ5N2MZG5M');
+      </script>
+    
+    <link rel="shortcut icon" href="/static/images/favicon.ico">
+    <link rel="apple-touch-icon" href="/static/images/apple-touch-icon.png">
+    
+<meta name="description" content="Describes how the 2025 Web Almanac was put together: The Datasets and Tools used and how the project was run.">
+
+<meta property="og:title" content="Methodology | The Web Almanac by HTTP Archive">
+<meta property="og:url" content="https://almanac.httparchive.org/en/2025/methodology">
+<meta property="og:image" content="https://almanac.httparchive.org/static/images/methodology-banner.png">
+<meta property="og:image:height" content="984">
+<meta property="og:image:width" content="1200">
+<meta property="og:type" content="article">
+<meta property="og:description" content="Describes how the 2025 Web Almanac was put together: The Datasets and Tools used and how the project was run.">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@HTTPArchive">
+<meta name="twitter:title" content="Methodology | The Web Almanac by HTTP Archive">
+<meta name="twitter:image" content="https://almanac.httparchive.org/static/images/methodology-banner.png">
+<meta name="twitter:image:alt" content="2025 Web Almanac methodology">
+<meta name="twitter:description" content="Describes how the 2025 Web Almanac was put together: The Datasets and Tools used and how the project was run.">
+
+<link rel="webmention" href="https://webmention.io/almanac.httparchive.org/webmention">
+<link rel="pingback" href="https://webmention.io/almanac.httparchive.org/xmlrpc">
+<link rel="me" href="mailto:team@httparchive.org">
+
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://almanac.httparchive.org/en/2025/methodology"
+    },
+    "headline": "Methodology | The Web Almanac by HTTP Archive",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://almanac.httparchive.org/static/images/methodology-banner.png",
+        "height": 984,
+        "width": 1200
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "HTTP Archive",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://almanac.httparchive.org/static/images/ha.png",
+            "height": 160,
+            "width": 320
+        },
+        "sameAs": [
+          "https://httparchive.org",
+          "https://x.com/HTTPArchive",
+          "https://bsky.app/profile/httparchive.org",
+          "https://github.com/HTTPArchive"
+          ]
+      },
+    "author":
+      
+{
+  "@type": "Person",
+  "sameAs": [
+    "https://almanac.httparchive.org/en/2025/contributors#rviscomi",
+    "https://x.com/rick_viscomi",
+    "https://github.com/rviscomi"
+    ],
+  "name": "Rick Viscomi"
+}
+,
+      "description": "Describes how the 2025 Web Almanac was put together: The Datasets and Tools used and how the project was run.",
+      "datePublished": "2026-01-15T00:00:00.000Z",
+      "dateModified": "2026-01-15T00:00:00.000Z"
+  }
+  </script>
+  
+
+  
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "en",
+        "item": "https://almanac.httparchive.org/en/"
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "2025",
+        "item": "https://almanac.httparchive.org/en/2025"
+      }]
+    }
+  </script>
+  
+
+
+    <link rel="canonical" href="https://almanac.httparchive.org/en/2025/methodology">
+    <link rel="alternate" type="application/rss+xml" title="Web Almanac by HTTP Archive RSS (en)" href="/en/rss.xml">
+    
+    
+    <link rel="alternate" href="https://almanac.httparchive.org/de/2025/methodology" hreflang="de">
+    
+    <link rel="alternate" href="https://almanac.httparchive.org/en/2025/methodology" hreflang="en">
+    
+    <link rel="alternate" href="https://almanac.httparchive.org/ja/2025/methodology" hreflang="ja">
+    
+    <link rel="alternate" href="https://almanac.httparchive.org/en/2025/methodology" hreflang="x-default">
+    
+  </head>
+
+  <body class="year-2025">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" display="none">
+      <!-- HTTPArchive -->
+      <symbol id="ha-logo" viewBox="0 0 432 225">
+        <path d="M10.626 7.433h14.5v47.5c6-7.4 13.5-11 22.5-11 4.9 0 9.2 1.2 13.1 3.7 3.9 2.4 6.7 5.8 8.6 10.1 1.9 4.3 2.9 10.7 2.9 19.1v41.6h-14.6v-45.2c0-5.3-1.3-9.6-4-12.9-2.6-3.3-6-4.9-10.3-4.9-3.2 0-6.2.8-9 2.5-2.8 1.6-5.9 4.4-9.3 8.2v52.4h-14.4V7.433m66.4 49.5l27.2-26.7v15.1h23.1v13h-23.1v35.8c0 8.4 3.5 12.6 10.4 12.6 5.2 0 10.7-1.7 16.4-5.2v13.5c-5.6 3.1-11.6 4.7-18.2 4.7s-12.1-1.9-16.5-5.8c-1.4-1.2-2.5-2.5-3.4-3.9-.9-1.5-1.7-3.4-2.3-5.7-.6-2.4-.9-6.9-.9-13.5v-32.5h-12.7v-1.4m54.3 0l27.2-26.7v15.1h23.1v13h-23.1v35.8c0 8.4 3.5 12.6 10.4 12.6 5.2 0 10.7-1.7 16.4-5.2v13.5c-5.6 3.1-11.6 4.7-18.2 4.7s-12.1-1.9-16.5-5.8c-1.4-1.2-2.5-2.5-3.4-3.9-.9-1.5-1.7-3.4-2.3-5.7-.6-2.4-.9-6.9-.9-13.5v-32.5h-12.7v-1.4M212.8 30.1l-27.2 26.7v1.4h39c6.1.2 10.6 1.5 13.9 3.1 3.5 1.6 6.3 4.3 8.3 7.9 2.1 3.7 3.1 7.9 3.1 12.7 0 7.4-2.2 13.5-6.5 18.2-4.3 4.7-9.8 7.1-16.6 7.1-2.8 0-5.5-.4-8.2-1.1v12.3c3.4.9 6.7 1.3 9.7 1.3 10.5 0 19.2-3.5 26-10.6 6.8-7 10.2-16 10.3-27 0-11.6-3.6-20.6-10.9-27.1-7.1-6.4-17.1-9.6-29.8-9.7h-.4l-10.6-.1V30.1z" fill="currentColor" />
+        <path d="M198 63.7c0 52.2-.1 108.8-.1 154.7h14.8v-52.5c3.4-3.8 6.1-6.4 8.9-8 2.8-1.6 5.8-2.4 9-2.4 4.3 0 7.7 1.6 10.3 4.9 2.6 3.2 4 7.5 4 12.9v45.2h14.5v-41.6c0-8.5-.9-14.9-2.8-19.2-1.9-4.3-4.7-7.7-8.6-10.1-3.9-2.4-8.3-3.7-13.1-3.7-8.8 0-16.1 3.5-22.1 10.6v-53.1c.1-12.5 0-25.1 0-37.7H198zM55.9 174.5v31.1c0 2.5.8 3.7 2.5 3.7s4.5-1.3 8.2-3.9v8.8c-3.3 2.1-5.9 3.5-7.9 4.3-2 .8-4 1.2-6.2 1.2-6.2 0-9.9-2.4-11-7.3-6.1 4.8-12.7 7.2-19.6 7.2-5.1 0-9.3-1.7-12.7-5-3.4-3.4-5.1-7.6-5.1-12.7 0-4.6 1.6-8.7 4.9-12.3 3.3-3.7 8.1-6.5 14.1-8.7l18.5-6.4v-3.9c0-8.8-4.4-13.2-13.2-13.2-7.9 0-15.6 4.1-23 12.2v-15.8c5.6-6.6 13.7-9.9 24.2-9.9 7.9 0 14.2 2.1 19 6.2 1.6 1.3 3 3.1 4.3 5.3 1.3 2.2 2.1 4.4 2.4 6.6.4 2.2.6 6.3.6 12.5m-14.2 29.4v-21.7L32 186c-4.9 2-8.4 3.9-10.5 6-2 2-3 4.4-3 7.4s1 5.5 2.9 7.4c2 1.9 4.5 2.9 7.5 2.9 4.6-.1 8.8-2 12.8-5.8M90 145.3v16.8l.8-1.3c7-11.3 14-16.9 21-16.9 5.5 0 11.1 2.8 17.1 8.3l-7.6 12.7c-5-4.8-9.7-7.2-14-7.2-4.7 0-8.7 2.2-12.2 6.7-3.4 4.4-5.1 9.7-5.1 15.8v38.2H75.5v-73.1H90m96.9 56v14.3c-7.3 2.7-14.4 4.1-21.3 4.1-11.4 0-20.6-3.4-27.4-10.2-6.8-6.8-10.2-15.9-10.2-27.3 0-11.5 3.3-20.8 9.9-27.8 6.6-7 15.3-10.6 26.1-10.6 3.8 0 7.1.4 10.1 1.1 3 .7 6.7 2 11.1 4v15.4c-7.3-4.7-14.1-7-20.3-7-6.5 0-11.9 2.3-16 6.9-4.2 4.6-6.3 10.4-6.3 17.5 0 7.5 2.3 13.4 6.8 17.8 4.6 4.4 10.7 6.6 18.4 6.6 5.5.1 11.9-1.5 19.1-4.8m93.2-86.7c2.4 0 4.4.8 6.1 2.5 1.7 1.6 2.5 3.7 2.5 6s-.8 4.3-2.5 6c-1.7 1.7-3.7 2.5-6.1 2.5-2.2 0-4.2-.8-5.9-2.5-1.7-1.7-2.5-3.8-2.5-6s.8-4.2 2.5-5.9c1.7-1.8 3.7-2.6 5.9-2.6m-7.2 30.7h14.5v73.1h-14.5v-73.1m75 0h15.7l-32.3 74.4h-4.8l-33.1-74.4h15.8l19.7 45 19-45m78.8 37.8h-51.4c.4 7 2.7 12.6 7 16.7s9.9 6.2 16.8 6.2c9.5 0 18.3-3 26.4-8.9v14.1c-4.4 3-8.9 5.1-13.3 6.4-4.3 1.3-9.5 1.9-15.3 1.9-8.1 0-14.6-1.7-19.5-5-5-3.3-9-7.8-12-13.4-3-5.7-4.4-12.2-4.4-19.6 0-11.1 3.2-20.2 9.5-27.1 6.3-7 14.5-10.5 24.6-10.5 9.7 0 17.4 3.4 23.2 10.2 5.8 6.8 8.7 15.9 8.7 27.3v1.7m-51.4-8.6h36.8c-.4-5.8-2.1-10.2-5.2-13.3-3.1-3.1-7.2-4.7-12.4-4.7s-9.5 1.6-12.8 4.7c-3.2 3-5.4 7.5-6.4 13.3" fill="currentColor" />
+      </symbol>
+      <!-- GitHub -->
+      <symbol id="github-logo" viewBox="0 0 32.6 31.8">
+        <path d="M16.3 0C7.3 0 0 7.3 0 16.3c0 7.2 4.7 13.3 11.1 15.5.8.1 1.1-.4 1.1-.8v-2.8c-4.5 1-5.5-2.2-5.5-2.2-.7-1.9-1.8-2.4-1.8-2.4-1.5-1 .1-1 .1-1 1.6.1 2.5 1.7 2.5 1.7 1.5 2.5 3.8 1.8 4.7 1.4.1-1.1.6-1.8 1-2.2-3.6-.4-7.4-1.8-7.4-8.1 0-1.8.6-3.2 1.7-4.4-.1-.3-.7-2 .2-4.2 0 0 1.4-.4 4.5 1.7 1.3-.4 2.7-.5 4.1-.5 1.4 0 2.8.2 4.1.5 3.1-2.1 4.5-1.7 4.5-1.7.9 2.2.3 3.9.2 4.3 1 1.1 1.7 2.6 1.7 4.4 0 6.3-3.8 7.6-7.4 8 .6.5 1.1 1.5 1.1 3V31c0 .4.3.9 1.1.8 6.5-2.2 11.1-8.3 11.1-15.5C32.6 7.3 25.3 0 16.3 0z" fill-rule="evenodd" clip-rule="evenodd" fill="currentColor" />
+      </symbol>
+      <!-- Twitter -->
+      <symbol id="twitter-logo" viewBox="0 0 300 271">
+        <path xmlns="http://www.w3.org/2000/svg" d="m236 0h46l-101 115 118 156h-92.6l-72.5-94.8-83 94.8h-46l107-123-113-148h94.9l65.5 86.6zm-16.1 244h25.5l-165-218h-27.4z" fill="currentColor" />
+      </symbol>
+      <!-- LinkedIn -->
+      <symbol id="linkedin-logo" viewBox="0 0 200 200">
+        <path d="M185.2 0H14.8C6.6 0 0 6.4 0 14.3v171.3c0 7.9 6.6 14.3 14.8 14.3h170.4c8.1 0 14.8-6.4 14.8-14.3V14.3C199.9 6.4 193.3 0 185.2 0zM60.6 167.3H30.4V77.1h30.2v90.2zM45.5 64.8h-.2c-10.1 0-16.7-6.9-16.7-15.6 0-8.8 6.7-15.6 17.1-15.6 10.3 0 16.7 6.7 16.9 15.6 0 8.6-6.5 15.6-17.1 15.6zm124 102.5h-30.2V119c0-12.1-4.4-20.4-15.3-20.4-8.4 0-13.3 5.6-15.5 11-.8 1.9-1 4.6-1 7.3v50.4H77.3s.4-81.8 0-90.3h30.2v12.8c4-6.1 11.2-14.9 27.2-14.9 19.9 0 34.8 12.9 34.8 40.6v51.8zm-62.2-77.1c0-.1.1-.2.2-.3v.3h-.2z" fill="currentColor" />
+      </symbol>
+      <!-- Mastodon -->
+      <symbol id="mastodon-logo" viewBox="0 0 61 65">
+        <path d="M60.7539 14.3904C59.8143 7.40642 53.7273 1.90257 46.5117 0.836066C45.2943 0.655854 40.6819 0 29.9973 0H29.9175C19.2299 0 16.937 0.655854 15.7196 0.836066C8.70488 1.87302 2.29885 6.81852 0.744617 13.8852C-0.00294988 17.3654 -0.0827298 21.2237 0.0561464 24.7629C0.254119 29.8384 0.292531 34.905 0.753482 39.9598C1.07215 43.3175 1.62806 46.6484 2.41704 49.9276C3.89445 55.9839 9.87499 61.0239 15.7344 63.0801C22.0077 65.2244 28.7542 65.5804 35.2184 64.1082C35.9295 63.9428 36.6318 63.7508 37.3252 63.5321C38.8971 63.0329 40.738 62.4745 42.0913 61.4937C42.1099 61.4799 42.1251 61.4621 42.1358 61.4417C42.1466 61.4212 42.1526 61.3986 42.1534 61.3755V56.4773C42.153 56.4557 42.1479 56.4345 42.1383 56.4151C42.1287 56.3958 42.1149 56.3788 42.0979 56.3655C42.0809 56.3522 42.0611 56.3429 42.04 56.3382C42.019 56.3335 41.9971 56.3336 41.9761 56.3384C37.8345 57.3276 33.5905 57.8234 29.3324 57.8156C22.0045 57.8156 20.0336 54.3384 19.4693 52.8908C19.0156 51.6397 18.7275 50.3346 18.6124 49.0088C18.6112 48.9866 18.6153 48.9643 18.6243 48.9439C18.6333 48.9236 18.647 48.9056 18.6643 48.8915C18.6816 48.8774 18.7019 48.8675 18.7237 48.8628C18.7455 48.858 18.7681 48.8585 18.7897 48.8641C22.8622 49.8465 27.037 50.3423 31.2265 50.3412C32.234 50.3412 33.2387 50.3412 34.2463 50.3146C38.4598 50.1964 42.9009 49.9808 47.0465 49.1713C47.1499 49.1506 47.2534 49.1329 47.342 49.1063C53.881 47.8507 60.1038 43.9097 60.7362 33.9301C60.7598 33.5372 60.8189 29.8148 60.8189 29.4071C60.8218 28.0215 61.2651 19.5781 60.7539 14.3904Z" fill="currentColor"/>
+        <path d="M50.3943 22.237V39.5876H43.5185V22.7481C43.5185 19.2029 42.0411 17.3949 39.036 17.3949C35.7325 17.3949 34.0778 19.5338 34.0778 23.7585V32.9759H27.2434V23.7585C27.2434 19.5338 25.5857 17.3949 22.2822 17.3949C19.2949 17.3949 17.8027 19.2029 17.8027 22.7481V39.5876H10.9298V22.237C10.9298 18.6918 11.835 15.8754 13.6453 13.7877C15.5128 11.7049 17.9623 10.6355 21.0028 10.6355C24.522 10.6355 27.1813 11.9885 28.9542 14.6917L30.665 17.5633L32.3788 14.6917C34.1517 11.9885 36.811 10.6355 40.3243 10.6355C43.3619 10.6355 45.8114 11.7049 47.6847 13.7877C49.4931 15.8734 50.3963 18.6899 50.3943 22.237Z" fill="white"/>
+      </symbol>
+      <!-- Bluesky -->
+      <symbol id="bluesky-logo" viewBox="0 0 600 530">
+        <path d="m135.72 44.03c66.496 49.921 138.02 151.14 164.28 205.46 26.262-54.316 97.782-155.54 164.28-205.46 47.98-36.021 125.72-63.892 125.72 24.795 0 17.712-10.155 148.79-16.111 170.07-20.703 73.984-96.144 92.854-163.25 81.433 117.3 19.964 147.14 86.092 82.697 152.22-122.39 125.59-175.91-31.511-189.63-71.766-2.514-7.3797-3.6904-10.832-3.7077-7.8964-0.0174-2.9357-1.1937 0.51669-3.7077 7.8964-13.714 40.255-67.233 197.36-189.63 71.766-64.444-66.128-34.605-132.26 82.697-152.22-67.108 11.421-142.55-7.4491-163.25-81.433-5.9562-21.282-16.111-152.36-16.111-170.07 0-88.687 77.742-60.816 125.72-24.795z" fill="currentColor"/>
+      </symbol>
+      <!-- Globe -->
+      <symbol id="globe-logo" viewBox="0 0 30 30">
+        <circle cx="14.5" cy="14.5" r="13.5" stroke-width="2" stroke-miterlimit="10" fill="none" stroke="currentColor" />
+        <ellipse cx="14.5" cy="14.5" rx="6.1" ry="13.5" stroke-width="2" stroke-miterlimit="10" fill="none" stroke="currentColor" />
+        <path d="M1.6 9.6h25.8M1.6 19.4h25.8" stroke-width="2" stroke-miterlimit="10" fill="none" stroke="currentColor" />
+      </symbol>
+      <!-- Bar chart -->
+      <symbol id="bar-chart-logo" viewBox="0 0 18 19">
+        <path d="M0 9h3v10H0V9zm5-9h3v19H5V0zm5 7h3v12h-3V7zm5-4h3v16h-3V3z" fill="currentColor" />
+      </symbol>
+      <!-- Comment -->
+      <symbol id="comment-logo" viewBox="0 0 22 22.1">
+        <path d="M4.4 22.1l8-5.1H22V0H0v17h4.4z" fill="currentColor" />
+      </symbol>
+      <!-- SQL -->
+      <symbol id="sql-logo" viewBox="0 0 32 14.6">
+        <path d="M.1 12.4V9.6c.5.4 1.1.8 1.7 1 .6.2 1.2.3 1.8.3.4 0 .7 0 .9-.1s.5-.2.7-.3c.2-.1.3-.2.4-.4.1-.2.1-.3.1-.5s-.1-.5-.2-.7c-.2-.2-.4-.4-.6-.5-.3-.2-.5-.4-.9-.5-.3-.2-.7-.3-1.1-.5-1-.4-1.7-.9-2.2-1.5S0 4.6 0 3.8c0-.7.1-1.2.4-1.7S1 1.2 1.5.9s1-.5 1.6-.7S4.3 0 5 0s1.2 0 1.8.1 1 .2 1.4.4v2.6c-.3-.1-.5-.3-.8-.4s-.5-.2-.7-.2c-.3-.1-.6-.2-.8-.2-.3 0-.5-.1-.7-.1-.3 0-.6 0-.9.1s-.5.2-.7.3c-.2.1-.4.2-.5.4-.1.2-.1.3-.1.5s.1.4.2.6c.1.2.3.3.5.5.1.1.4.3.7.4.3.1.6.3 1 .4.5.2 1 .4 1.4.7.4.2.7.5 1 .8s.5.6.7 1c.2.4.2.8.2 1.3 0 .7-.1 1.3-.4 1.8-.3.6-.7 1-1.1 1.3-.5.3-1 .5-1.6.6s-1.3.2-1.9.2c-.7 0-1.4-.1-2-.2-.6-.1-1.2-.3-1.6-.5zm16 .7c-1.8 0-3.3-.6-4.4-1.8-1.2-1.2-1.7-2.7-1.7-4.6 0-2 .6-3.6 1.7-4.9C12.9.6 14.4 0 16.3 0c1.8 0 3.3.6 4.4 1.8 1.1 1.2 1.7 2.7 1.7 4.7s-.6 3.6-1.7 4.8l-.1.1-.1.1 3.2 3.1h-4L18 12.9c-.6.1-1.2.2-1.9.2zm.1-10.6c-1 0-1.8.4-2.4 1.1-.6.7-.9 1.7-.9 3s.3 2.2.9 3c.6.7 1.4 1.1 2.3 1.1 1 0 1.8-.4 2.3-1.1.6-.7.9-1.7.9-3s-.3-2.3-.8-3.1c-.5-.7-1.3-1-2.3-1zM32 12.9h-7.5V.2h2.8v10.3H32v2.4z" fill="currentColor" />
+      </symbol>
+      <!-- Search -->
+      <symbol id="search-logo" viewBox="0 0 13 13">
+        <path d="m4.8495 7.8226c0.82666 0 1.5262-0.29146 2.0985-0.87438 0.57232-0.58292 0.86378-1.2877 0.87438-2.1144 0.010599-0.82666-0.28086-1.5262-0.87438-2.0985-0.59352-0.57232-1.293-0.86378-2.0985-0.87438-0.8055-0.010599-1.5103 0.28086-2.1144 0.87438-0.60414 0.59352-0.8956 1.293-0.87438 2.0985 0.021197 0.8055 0.31266 1.5103 0.87438 2.1144 0.56172 0.60414 1.2665 0.8956 2.1144 0.87438zm4.4695 0.2115 3.681 3.6819-1.259 1.284-3.6817-3.7 0.0019784-0.69479-0.090043-0.098846c-0.87973 0.76087-1.92 1.1413-3.1207 1.1413-1.3553 0-2.5025-0.46363-3.4417-1.3909s-1.4088-2.0686-1.4088-3.4239c0-1.3553 0.4696-2.4966 1.4088-3.4239 0.9392-0.92727 2.0864-1.3969 3.4417-1.4088 1.3553-0.011889 2.4906 0.45771 3.406 1.4088 0.9154 0.95107 1.379 2.0924 1.3909 3.4239 0 1.2126-0.38043 2.2588-1.1413 3.1385l0.098834 0.090049z" fill="currentColor" />
+      </symbol>
+      <!-- Share Apple -->
+      <symbol id="share-apple-logo" viewBox="0 0 24 24">
+        <path d="M0 0h24v24H0V0z" fill="none" />
+        <path d="M16 5l-1.42 1.42-1.59-1.59V16h-1.98V4.83L9.42 6.42 8 5l4-4 4 4zm4 5v11c0 1.1-.9 2-2 2H6c-1.11 0-2-.9-2-2V10c0-1.11.89-2 2-2h3v2H6v11h12V10h-3V8h3c1.1 0 2 .89 2 2z" />
+      </symbol>
+      <!-- Share Android -->
+      <symbol id="share-android-logo" viewBox="0 0 24 24">
+        <path d="M0 0h24v24H0z" fill="none" />
+        <path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92s-1.31-2.92-2.92-2.92z" />
+      </symbol>
+    </svg>
+    
+  <div id="skiptocontent"><a href="#maincontent">Skip navigation</a></div>
+  
+    
+  
+  
+  <header id="header" class="alt-bg">
+    <div class="container">
+      <div class="top-header">
+        <a class="navigation-logo" href="/en/2025/">
+          
+  <span class="wa">Web Almanac</span>
+  <span class="line-group">
+    <span class="pre">By</span>
+    <span class="ha">HTTP Archive</span>
+  </span>
+
+        </a>
+        <nav id="header-page-navigation" aria-label="Page navigation">
+          <ul>
+            
+
+<li><a href="/en/2025/contributors">Contributors</a></li>
+<li><a href="/en/2025/methodology">Methodology</a></li>
+
+
+            <li>
+              
+  
+  <a class="nav-dropdown-btn js-hide" href="/en/search">Search</a>
+  <div class="nav-dropdown header search-nav js-enable hidden">
+    <button type="button" class="nav-dropdown-btn search-button" aria-expanded="false">
+      Search
+    </button>
+    <ul class="nav-dropdown-list align-right hidden header-search">
+      <li class="nav-dropdown-list-part">
+        <form action="/en/search">
+          <label for="header-search-box" class="visually-hidden">Search</label>
+          <input id="header-search-box" class="search-input" type="search" name="q" placeholder="Search" title="Search" aria-label="Search">
+          <button class="search-button" type="submit">
+            <svg width="13" height="13" role="img" aria-labelledby="header-search-icon">
+              <title id="header-search-icon">Search</title>
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#search-logo"></use>
+            </svg>
+          </button>
+        </form>
+      </li>
+    </ul>
+  </div>
+  
+
+            </li>
+            <li>
+              
+
+  
+    
+
+<a class="nav-dropdown-btn js-hide" href="/en/2025/table-of-contents">Table of Contents</a>
+<div class="nav-dropdown header table-of-contents js-enable hidden">
+  <button type="button" class="nav-dropdown-btn" aria-expanded="false" aria-label="Table of Contents" >
+    Table of Contents
+  </button>
+  <ul class="nav-dropdown-list hidden header-list">
+
+    
+    <li class="nav-dropdown-list-part">
+      <a href="/en/2025/">Home</a>
+    </li>
+    
+
+    
+    <li class="nav-dropdown-list-part">
+      <a href="/en/2025/table-of-contents">Table of Contents</a>
+    </li>
+    
+    
+    <li class="nav-dropdown-list-chapter foreword">
+      <a href="/en/2025/table-of-contents#foreword">Foreword</a>
+    </li>
+    
+
+    
+    <li class="nav-dropdown-list-part">
+      <a href="/en/2025/table-of-contents#part-1">Part I. Page Content</a>
+    </li>
+    
+    
+    
+    <li class="nav-dropdown-list-chapter">
+      
+        
+        <a href="/en/2025/fonts">
+          Chapter 1: Fonts
+        </a>
+        
+      
+    </li>
+    
+    
+    
+    
+    <li class="nav-dropdown-list-chapter">
+      
+        
+        <a href="/en/2025/webassembly">
+          Chapter 2: WebAssembly
+        </a>
+        
+      
+    </li>
+    
+    
+    
+    
+    <li class="nav-dropdown-list-chapter">
+      
+        
+        <a href="/en/2025/third-parties">
+          Chapter 3: Third Parties
+        </a>
+        
+      
+    </li>
+    
+    
+    
+    
+    <li class="nav-dropdown-list-chapter">
+      
+        
+        <a href="/en/2025/generative-ai">
+          Chapter 4: Generative AI
+        </a>
+        
+      
+    </li>
+    
+    
+    
+    <li class="nav-dropdown-list-part">
+      <a href="/en/2025/table-of-contents#part-2">Part II. User Experience</a>
+    </li>
+    
+    
+    
+    <li class="nav-dropdown-list-chapter">
+      
+        
+        <a href="/en/2025/seo">
+          Chapter 5: SEO
+        </a>
+        
+      
+    </li>
+    
+    
+    
+    
+    <li class="nav-dropdown-list-chapter">
+      
+        
+        <a href="/en/2025/accessibility">
+          Chapter 6: Accessibility
+        </a>
+        
+      
+    </li>
+    
+    
+    
+    
+    <li class="nav-dropdown-list-chapter">
+      
+        
+        <a href="/en/2025/performance">
+          Chapter 7: Performance
+        </a>
+        
+      
+    </li>
+    
+    
+    
+    
+    <li class="nav-dropdown-list-chapter">
+      
+        
+        <a href="/en/2025/privacy">
+          Chapter 8: Privacy
+        </a>
+        
+      
+    </li>
+    
+    
+    
+    
+    <li class="nav-dropdown-list-chapter">
+      
+        
+        <a href="/en/2025/security">
+          Chapter 9: Security
+        </a>
+        
+      
+    </li>
+    
+    
+    
+    
+    <li class="nav-dropdown-list-chapter">
+      
+        
+        <a href="/en/2025/capabilities">
+          Chapter 10: Capabilities
+        </a>
+        
+      
+    </li>
+    
+    
+    
+    
+    <li class="nav-dropdown-list-chapter">
+      
+        
+        <a href="/en/2025/pwa">
+          Chapter 11: PWA
+        </a>
+        
+      
+    </li>
+    
+    
+    
+    <li class="nav-dropdown-list-part">
+      <a href="/en/2025/table-of-contents#part-3">Part III. Content Publishing</a>
+    </li>
+    
+    
+    
+    <li class="nav-dropdown-list-chapter">
+      
+        
+        <a href="/en/2025/cms">
+          Chapter 12: CMS
+        </a>
+        
+      
+    </li>
+    
+    
+    
+    
+    <li class="nav-dropdown-list-chapter">
+      
+        
+        <a href="/en/2025/ecommerce">
+          Chapter 13: Ecommerce
+        </a>
+        
+      
+    </li>
+    
+    
+    
+    <li class="nav-dropdown-list-part">
+      <a href="/en/2025/table-of-contents#part-4">Part IV. Content Distribution</a>
+    </li>
+    
+    
+    
+    <li class="nav-dropdown-list-chapter">
+      
+        
+        <a href="/en/2025/page-weight">
+          Chapter 14: Page Weight
+        </a>
+        
+      
+    </li>
+    
+    
+    
+    
+    <li class="nav-dropdown-list-chapter">
+      
+        
+        <a href="/en/2025/cdn">
+          Chapter 15: CDN
+        </a>
+        
+      
+    </li>
+    
+    
+    
+    
+    <li class="nav-dropdown-list-chapter">
+      
+        
+        <a href="/en/2025/cookies">
+          Chapter 16: Cookies
+        </a>
+        
+      
+    </li>
+    
+    
+    
+
+    <li class="nav-dropdown-list-part">
+      <a href="/en/2025/table-of-contents#appendices">Appendices</a>
+    </li>
+    
+    <li class="nav-dropdown-list-chapter nav-dropdown-list-current">
+      <span>Methodology</span>
+    </li>
+    
+    
+    <li class="nav-dropdown-list-chapter">
+      
+      <a href="/en/2025/contributors">Contributors</a>
+      
+    </li>
+    
+
+    
+    <li class="nav-dropdown-list-part">
+      <a href="/en/search">Search</a>
+    </li>
+    
+
+    
+    <li class="nav-dropdown-list-part">
+      <a href="/en/2025/table-of-contents#ebook">Ebook</a>
+    </li>
+    <li class="nav-dropdown-list-chapter ebook">
+      <a href="https://cdn.httparchive.org/v1/static/almanac/ebooks/web_almanac_2025_en.pdf" data-event="ebook-click" data-label="toc-menu">Ebook PDF (12MB)</a>
+    </li>
+    
+  </ul>
+</div>
+
+  
+
+
+            </li>
+            <li>
+              
+    
+    
+      
+          
+  <div class="nav-dropdown header">
+    <button type="button" class="nav-dropdown-btn js-enable" disabled aria-expanded="false" aria-label="Year Switcher">2025</button>
+    <ul class="nav-dropdown-list hidden header-list">
+      
+        
+          
+        
+      
+        
+          
+            
+            <li>
+              <a href="/en/2024/methodology">2024</a>
+            </li>
+          
+          
+        
+      
+        
+          
+            
+            <li>
+              <a href="/en/2022/methodology">2022</a>
+            </li>
+          
+          
+        
+      
+        
+          
+            
+            <li>
+              <a href="/en/2021/methodology">2021</a>
+            </li>
+          
+          
+        
+      
+        
+          
+            
+            <li>
+              <a href="/en/2020/methodology">2020</a>
+            </li>
+          
+          
+        
+      
+        
+          
+            
+            <li>
+              <a href="/en/2019/methodology">2019</a>
+            </li>
+          
+          
+        
+      
+    </ul>
+  </div>
+
+      
+    
+  
+            </li>
+            <li>
+              
+  
+    
+  <div class="nav-dropdown header">
+    <button type="button" class="nav-dropdown-btn js-enable" disabled aria-expanded="false" aria-label="Language Switcher" >English</button>
+    <ul class="nav-dropdown-list hidden header-list">
+      
+        
+          <li>
+            <a lang="de" href="/de/2025/methodology">Deutsch</a>
+          </li>
+        
+      
+        
+      
+        
+          <li>
+            <a lang="ja" href="/ja/2025/methodology">日本語</a>
+          </li>
+        
+      
+      
+      <li>
+        <a class="help-translate" href="https://github.com/HTTPArchive/almanac.httparchive.org/wiki/Translators'-Guide"><em>Help translate</em></a>
+      </li>
+      
+    </ul>
+  </div>
+
+  
+
+            </li>
+          </ul>
+        </nav>
+        <nav id="menu" aria-labelledby="menu-btn">
+          <a href="#footer" class="menu-btn js-hide" aria-label="Page menu">
+            <span class="menu-btn-bar"></span>
+            <span class="menu-btn-bar"></span>
+            <span class="menu-btn-bar"></span>
+          </a>
+          <button type="button" class="menu-btn js-enable hidden" disabled id="menu-btn" aria-label="Open the menu" aria-expanded="false" data-open-text="Open the menu" data-close-text="Close the menu">
+            <span class="menu-btn-bar"></span>
+            <span class="menu-btn-bar"></span>
+            <span class="menu-btn-bar"></span>
+          </button>
+          <ul class="menu">
+            
+
+<li><a href="/en/2025/contributors">Contributors</a></li>
+<li><a href="/en/2025/methodology">Methodology</a></li>
+
+
+            <li>
+              
+  
+  <form class="search-nav" action="/en/search">
+    <label for="mobile-search-box" class="visually-hidden">Search</label>
+    <input id="mobile-search-box" class="search-input" type="search" name="q" placeholder="Search" title="Search" aria-label="Search">
+    <button class="search-button" type="submit">
+      <svg width="13" height="13" role="img" aria-labelledby="mobile-search-icon">
+        <title id="mobile-search-icon">Search</title>
+        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#search-logo"></use>
+      </svg>
+    </button>
+  </form>
+  
+
+            </li>
+            <li>
+              
+
+  
+    
+
+<a class="js-hide" href="/en/2025/table-of-contents">Table of Contents</a>
+<div class="table-of-contents-switcher js-enable hidden">
+  <label for="table-of-contents-switcher-mobile" class="visually-hidden">
+    Table of Contents Switcher
+  </label>
+  <select id="table-of-contents-switcher-mobile" data-label="toc-menu-mobile">
+    
+      <option value="/en/2025/">Home</option>
+    
+    
+      <option value="/en/2025/table-of-contents">Table of Contents</option>
+    
+    
+    <option value="/en/2025/table-of-contents#foreword">Foreword</option>
+    
+    
+    
+      
+      
+        
+          
+            <option value="/en/2025/fonts">
+              Chapter 1: Fonts
+            </option>
+          
+        
+      
+    
+      
+      
+        
+          
+            <option value="/en/2025/webassembly">
+              Chapter 2: WebAssembly
+            </option>
+          
+        
+      
+    
+      
+      
+        
+          
+            <option value="/en/2025/third-parties">
+              Chapter 3: Third Parties
+            </option>
+          
+        
+      
+    
+      
+      
+        
+          
+            <option value="/en/2025/generative-ai">
+              Chapter 4: Generative AI
+            </option>
+          
+        
+      
+    
+    
+    
+      
+      
+        
+          
+            <option value="/en/2025/seo">
+              Chapter 5: SEO
+            </option>
+          
+        
+      
+    
+      
+      
+        
+          
+            <option value="/en/2025/accessibility">
+              Chapter 6: Accessibility
+            </option>
+          
+        
+      
+    
+      
+      
+        
+          
+            <option value="/en/2025/performance">
+              Chapter 7: Performance
+            </option>
+          
+        
+      
+    
+      
+      
+        
+          
+            <option value="/en/2025/privacy">
+              Chapter 8: Privacy
+            </option>
+          
+        
+      
+    
+      
+      
+        
+          
+            <option value="/en/2025/security">
+              Chapter 9: Security
+            </option>
+          
+        
+      
+    
+      
+      
+        
+          
+            <option value="/en/2025/capabilities">
+              Chapter 10: Capabilities
+            </option>
+          
+        
+      
+    
+      
+      
+        
+          
+            <option value="/en/2025/pwa">
+              Chapter 11: PWA
+            </option>
+          
+        
+      
+    
+    
+    
+      
+      
+        
+          
+            <option value="/en/2025/cms">
+              Chapter 12: CMS
+            </option>
+          
+        
+      
+    
+      
+      
+        
+          
+            <option value="/en/2025/ecommerce">
+              Chapter 13: Ecommerce
+            </option>
+          
+        
+      
+    
+    
+    
+      
+      
+        
+          
+            <option value="/en/2025/page-weight">
+              Chapter 14: Page Weight
+            </option>
+          
+        
+      
+    
+      
+      
+        
+          
+            <option value="/en/2025/cdn">
+              Chapter 15: CDN
+            </option>
+          
+        
+      
+    
+      
+      
+        
+          
+            <option value="/en/2025/cookies">
+              Chapter 16: Cookies
+            </option>
+          
+        
+      
+    
+    
+
+    
+    <option selected disabled value="/en/2025/methodology">
+      Methodology
+    </option>
+    
+    
+    <option value="/en/2025/contributors">
+      Contributors
+    </option>
+    
+
+    
+    <option value="/en/search">
+      Search
+    </option>
+    
+
+    
+    <option value="https://cdn.httparchive.org/v1/static/almanac/ebooks/web_almanac_2025_en.pdf" data-event="ebook-click">
+      Ebook PDF (12MB)
+    </option>
+    
+  </select>
+</div>
+
+  
+
+
+            </li>
+            <li>
+              
+    
+    
+      
+          
+  <div class="year-switcher js-show">
+    <label for="year-switcher-mobile" class="visually-hidden">Year Switcher</label>
+    <select id="year-switcher-mobile">
+      
+        
+          
+            <option selected="selected" value="/en/2025/methodology">
+              2025
+            </option>
+          
+        
+      
+        
+          
+            <option value="/en/2024/methodology">
+              2024
+            </option>
+          
+        
+      
+        
+          
+            <option value="/en/2022/methodology">
+              2022
+            </option>
+          
+        
+      
+        
+          
+            <option value="/en/2021/methodology">
+              2021
+            </option>
+          
+        
+      
+        
+          
+            <option value="/en/2020/methodology">
+              2020
+            </option>
+          
+        
+      
+        
+          
+            <option value="/en/2019/methodology">
+              2019
+            </option>
+          
+        
+      
+    </select>
+  </div>
+
+        
+    
+  
+            </li>
+            <li>
+              
+  
+    
+  <div class="language-switcher js-show">
+    <label for="language-switcher-mobile" class="visually-hidden">Language Switcher</label>
+    <select id="language-switcher-mobile">
+      
+        
+          <option lang="de" value="/de/2025/methodology">
+            Deutsch
+          </option>
+        
+      
+        
+          <option selected="selected" lang="en" value="/en/2025/methodology">
+            English
+          </option>
+        
+      
+        
+          <option lang="ja" value="/ja/2025/methodology">
+            日本語
+          </option>
+        
+      
+      <hr>
+      <option value="https://github.com/HTTPArchive/almanac.httparchive.org/wiki/Translators'-Guide">
+        Help translate
+      </option>
+    </select>
+  </div>
+
+  
+
+            </li>
+            <li id="mobile-misc" class="misc">
+              <ul class="misc">
+                <li>
+                  <a href="https://httparchive.org/" aria-labelledby="ha-logo-mobile">
+                    <svg width="70" height="35" role="img">
+                      <title id="ha-logo-mobile">HTTP Archive home</title>
+                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ha-logo"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <ul class="social-media">
+                    <li>
+                      <a href="https://x.com/HTTPArchive" aria-labelledby="twitter-logo-mobile">
+                        <svg width="20" height="20" role="img">
+                          <title id="twitter-logo-mobile">Twitter</title>
+                          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter-logo"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://bsky.app/profile/httparchive.org" aria-labelledby="bluesky-logo-mobile">
+                        <svg width="20" height="20" role="img">
+                          <title id="bluesky-logo-mobile">Bluesky</title>
+                          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#bluesky-logo"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://github.com/HTTPArchive/almanac.httparchive.org" aria-labelledby="github-logo-mobile">
+                        <svg width="22" height="20" role="img">
+                          <title id="github-logo-mobile">GitHub</title>
+                          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#github-logo"></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <script nonce="m_Lb0y0OACaDd-gmQOFh7uOTxAh_wN20">
+    // If JS is enabled then enable menus ASAP to avoid CLS as menu items change from links to buttons
+    (function() {
+      document.querySelectorAll('.js-hide').forEach(element => {
+        // Don't just hide it - delete it completely to avoid any specifity issues
+        element.parentNode.removeChild(element);
+      });
+      document.querySelectorAll('.js-enable').forEach(element => {
+        element.classList.remove('js-enable');
+        element.classList.remove('hidden');
+        element.disabled = false;
+        element.hidden = false;
+      });
+    })();
+  </script>
+  
+
+  
+    <div class="container">
+      
+<main id="methodology" class="main">
+  <nav aria-label="Chapter table of contents" class="index">
+    <div class="index-box floating-card">
+      <h2 class="header">
+        <button type="button" class="index-btn" aria-expanded="false" aria-label="Open the Table of Contents" data-close-text="Close the Table of Contents" data-open-text="Open the Table of Contents">Index</button>
+        <span class="no-button">Index</span>
+      </h2>
+      
+      <ul>
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#dataset">About the dataset</a>
+          <ul>
+            <li><a href="#websites">Websites</a></li>
+            <li><a href="#metrics">Metrics</a></li>
+          </ul>
+        </li>
+        <li><a href="#tools">Tools</a>
+          <ul>
+            <li><a href="#webpagetest">WebPageTest</a></li>
+            <li><a href="#lighthouse">Lighthouse</a></li>
+            <li><a href="#wappalyzer">Wappalyzer</a></li>
+            <li><a href="#chrome-ux-report">Chrome UX Report</a></li>
+            <li><a href="#blink-features">Blink Features</a></li>
+            <li><a href="#third-party-web">Third Party Web</a></li>
+            <li><a href="#rework-css">Rework CSS</a>
+              <ul>
+                <li><a href="#rework-utils">Rework Utils</a></li>
+              </ul>
+            </li>
+            <li><a href="#parsel">Parsel</a></li>
+          </ul>
+        </li>
+        <li><a href="#process">Analytical process</a>
+          <ul>
+            <li><a href="#planning">Planning</a></li>
+            <li><a href="#analysis">Analysis</a></li>
+            <li><a href="#interpretation">Interpretation</a></li>
+          </ul>
+        </li>
+        <li><a href="#looking-ahead">Looking ahead</a></li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <article id="maincontent" class="content">
+    <h1 class="title title-lg">Methodology</h1>
+    
+    <section>
+      <!-- Show large image for large screens and high density screens and use webp when supported -->
+      <picture>
+          <source media="(min-width: 327px)" type="image/webp" srcset="/static/images/methodology-banner.webp">
+          <source media="(min-width: 327px)" type="image/jpeg" srcset="/static/images/methodology-banner.png">
+          <source type="image/webp" srcset="/static/images/methodology-banner.webp 2x">
+          <source type="image/jpeg" srcset="/static/images/methodology-banner.png 2x">
+          <source type="image/webp" srcset="/static/images/methodology-banner-sm.webp">
+          <source type="image/jpeg" srcset="/static/images/methodology-banner-sm.png">
+          <img src="/static/images/methodology-banner.png" class="content-banner" alt="" width="1200" height="984" fetchpriority="high">
+        </picture>
+        <h2 id="overview"><a href="#overview" class="anchor-link">Overview</a></h2>
+
+        <p>
+          The Web Almanac is a project organized by <a hreflang="en" href="https://httparchive.org">HTTP Archive</a>. HTTP Archive was started in 2010 by Steve Souders with the mission to track how the web is built. It evaluates the composition of millions of web pages on a monthly basis and makes its terabytes of metadata available for analysis on <a hreflang="en" href="https://httparchive.org/faq#how-do-i-use-bigquery-to-write-custom-queries-over-the-data">BigQuery</a>.
+        </p>
+
+        <p>
+          The Web Almanac&#8217;s mission is to become an annual repository of public knowledge about the state of the web. Our goal is to make the data warehouse of HTTP Archive even more accessible to the web community by having subject matter experts provide contextualized insights.
+        </p>
+
+        <p>
+          The 2025 edition of the Web Almanac is broken into four parts: content, experience, publishing, and distribution. Within each part, several chapters explore their overarching theme from different angles. For example, Part II explores different angles of the user experience in the Performance, Security, and Accessibility chapters, among others.
+        </p>
+    </section>
+
+    <section>
+        <h2 id="dataset"><a href="#dataset" class="anchor-link">About the dataset</a></h2>
+
+        <p>
+          The HTTP Archive dataset is continuously updating with new data monthly. For the 2025 edition of the Web Almanac, unless otherwise noted in the chapter, all metrics were sourced from the July 2025 crawl. These results are <a hreflang="en" href="https://har.fyi/guides/getting-started/">publicly queryable</a> on BigQuery in tables in the <code>`httparchive.crawl.*`</code> tables for <code>date = '2025-07-01'</code>.
+        </p>
+
+        <p>
+          All of the metrics presented in the Web Almanac are publicly reproducible using the dataset on BigQuery. You can browse the queries used by all chapters in our <a hreflang="en" href="https://github.com/HTTPArchive/almanac.httparchive.org/tree/main/sql/2025">GitHub repository</a>.
+        </p>
+
+        <aside class="note">
+          <strong>Please note that some of these queries are quite large and can be <a hreflang="en" href="https://cloud.google.com/bigquery/pricing">expensive</a> to run yourself. For help controlling your spending, refer to our guide on <a hreflang="en" href="https://har.fyi/guides/minimizing-costs/">Minimizing query costs</a>.</strong>
+        </aside>
+
+        <p>
+          For example, to understand the number of pages with accessible color contrast, see <a hreflang="en" href="https://github.com/HTTPArchive/almanac.httparchive.org/blob/main/sql/2025/accessibility/color_contrast.sql">color_contrast.sql</a>:
+        </p>
+
+        <div class="code-block floating-card">
+          
+          
+          <pre role="region" aria-label="color-contrast.sql" tabindex="0"><code class="sql language-sql"><span class="keyword">SELECT</span>
+  client,
+  is_root_page,
+  <span class="function call">COUNTIF</span>(color_contrast_score <span class="keyword">IS</span> <span class="keyword">NOT</span> <span class="keyword">NULL</span>) <span class="keyword">AS</span> total_applicable,
+  <span class="function call">COUNTIF</span>(<span class="function call">CAST</span>(color_contrast_score <span class="keyword">AS</span> <span class="keyword">NUMERIC</span>) <span class="keyword operator">=</span> <span class="constant numeric">1</span>) <span class="keyword">AS</span> total_good_contrast,
+  <span class="function call">COUNTIF</span>(<span class="function call">CAST</span>(color_contrast_score <span class="keyword">AS</span> <span class="keyword">NUMERIC</span>) <span class="keyword operator">=</span> <span class="constant numeric">1</span>) / <span class="function call">COUNTIF</span>(color_contrast_score <span class="keyword">IS</span> <span class="keyword">NOT</span> <span class="keyword">NULL</span>) <span class="keyword">AS</span> perc_good_contrast
+<span class="keyword">FROM</span> (
+  <span class="keyword">SELECT</span>
+    client,
+    is_root_page,
+    <span class="keyword">date</span>,
+    <span class="function call">JSON_VALUE</span>(lighthouse.audits.<span class="string">`color-contrast`</span>.score) <span class="keyword">AS</span> color_contrast_score
+  <span class="keyword">FROM</span>
+    <span class="string">`httparchive.crawl.pages`</span>
+  <span class="keyword">WHERE</span>
+    <span class="keyword">date</span> <span class="keyword operator">=</span> <span class="string">'2025-07-01'</span>
+)
+<span class="keyword">GROUP</span> <span class="keyword">BY</span>
+  client,
+  is_root_page,
+  <span class="keyword">date</span>
+<span class="keyword">ORDER</span> <span class="keyword">BY</span>
+  client,
+  is_root_page;</code></pre>
+        </div>
+
+        <p>
+          Results for each metric are publicly viewable in chapter-specific spreadsheets, for example <a href="https://docs.google.com/spreadsheets/d/13sY_wmYODArxo-hH5cSuRAbvtLdGI3x5Xc9qUyqP8as">Accessibility results</a>. Links to the raw results and queries are available at the bottom of each chapter. Metric-specific results and queries are also linked directly from each figure.
+        </p>
+    </section>
+
+    <section>
+        <h3 id="websites"><a href="#websites" class="anchor-link">Websites</a></h3>
+        <p>
+          There are 16,213,084 websites in the dataset. Among those, 15,426,398 are mobile websites and 12,155,374 are desktop websites. Most websites are included in both the mobile and desktop subsets.
+        </p>
+
+        <p>
+          HTTP Archive sources the URLs for its websites from the <a href="#chrome-ux-report">Chrome UX Report</a>. The Chrome UX Report is a public dataset from Google that aggregates user experiences across millions of websites actively visited by Chrome users. This gives us a list of websites that are up-to-date and a reflection of real-world web usage. The Chrome UX Report dataset includes a form factor dimension, which we use to get all of the websites accessed by desktop or mobile users.
+        </p>
+
+        <p>
+          The July 2025 HTTP Archive crawl used by the Web Almanac used the most recently available Chrome UX Report release for its list of websites. The 202507 dataset was released on July 11, 2025 and captures websites visited by Chrome users during the month of June.
+        </p>
+
+        <p>
+          Due to resource limitations, the HTTP Archive previously could only test two pages from each website in the Chrome UX report. Be aware that this will introduce some bias into the results because a home page is not necessarily representative of the entire website. In recent years, we included <a hreflang="en" href="https://discuss.httparchive.org/t/improving-the-http-archive-pipeline-and-dataset-by-10x/2372"> secondary pages</a>, and many chapters use this new data. Some chapters, however, used just the home pages.
+        </p>
+
+        <p>
+          HTTP Archive is also considered a lab testing tool, meaning it tests websites from a datacenter and does not collect data from real-world user experiences. All pages are tested with an empty cache in a logged out state, which may not reflect how real users would access them.
+        </p>
+    </section>
+
+    <section>
+      <h3 id="metrics"><a href="#metrics" class="anchor-link">Metrics</a></h3>
+
+      <p>
+        HTTP Archive collects thousands of metrics about how the web is built. It includes basic metrics like the number of bytes per page, whether the page was loaded over HTTPS, and individual request and response headers. The majority of these metrics are provided by <a href="#webpagetest">WebPageTest</a>, which acts as the test runner for each website.
+      </p>
+
+      <p>
+        Other testing tools are used to provide more advanced metrics about the page. For example, <a href="#lighthouse">Lighthouse</a> is used to run audits against the page to analyze its quality in areas like accessibility and SEO. The <a href="#tools">Tools</a> section below goes into each of these tools in more detail.
+      </p>
+
+      <p>
+        To work around some of the inherent limitations of a lab dataset, the Web Almanac also makes use of the <a href="#chrome-ux-report">Chrome UX Report</a> for metrics on user experiences, especially in the area of web performance.
+      </p>
+
+      <p>
+        Some metrics are completely out of reach. For example, we don&#8217;t necessarily have the ability to detect the tools used to build a website. If a website is built using create-react-app, we could tell that it uses the React framework, but not necessarily that a particular build tool is used. Unless these tools leave detectible fingerprints in the website&#8217;s code, we&#8217;re unable to measure their usage.
+      </p>
+
+      <p>
+        Other metrics may not necessarily be impossible to measure but are challenging or unreliable. For example, aspects of web design are inherently visual and may be difficult to quantify, like whether a page has an intrusive modal dialog.
+      </p>
+    </section>
+
+    <section>
+      <h2 id="tools"><a href="#tools" class="anchor-link">Tools</a></h2>
+
+      <p>
+        The Web Almanac is made possible with the help of the following open source tools.
+      </p>
+    </section>
+
+    <section>
+      <h3 id="webpagetest"><a href="#webpagetest" class="anchor-link">WebPageTest</a></h3>
+
+      <p>
+        <a hreflang="en" href="https://www.webpagetest.org/">WebPageTest</a> is a prominent web performance testing tool and the backbone of HTTP Archive. We use a <a hreflang="en" href="https://docs.webpagetest.org/private-instances/">private instance</a> of WebPageTest with private test agents, which are the actual browsers that test each web page. Desktop and mobile websites are tested under different configurations:
+      </p>
+      <div class="table-wrap"><div class="table-wrap-container">
+      <table>
+        <thead>
+          <tr>
+              <th>Config</th>
+              <th>Desktop</th>
+              <th>Mobile</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Device</td>
+            <td>Linux VM</td>
+            <td>Emulated Moto G4</td>
+          </tr>
+          <tr>
+            <td>User Agent</td>
+            <td>
+              Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 PTST/250604.160032
+            </td>
+            <td>
+              Mozilla/5.0 (Linux; Android 8.1.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36 PTST/250604.160032
+            </td>
+          </tr>
+
+          <tr>
+            <td>Location</td>
+            <td>
+              Google Cloud Locations, USA
+            </td>
+            <td>
+              Google Cloud Locations, USA
+            </td>
+          </tr>
+
+          <tr>
+            <td>Connection</td>
+            <td>Cable (5/1 Mbps 25ms RTT)</td>
+            <td>4G (9 Mbps 170ms RTT)</td>
+          </tr>
+
+          <tr>
+            <td>CPU slowdown</td>
+            <td><em>N/A</em></td>
+            <td>8x</td>
+          </tr>
+
+          <tr>
+            <td>Viewport</td>
+            <td>1920 x 1080px</td>
+            <td>512 x 360px</td>
+          </tr>
+
+          <tr>
+            <td>DPR</td>
+            <td>1x</td>
+            <td>3x</td>
+          </tr>
+        </tbody>
+      </table>
+      </div></div>
+
+      <p>
+        Desktop websites are run from within a desktop Chrome environment on a Linux VM. The network speed is equivalent to a cable connection.
+      </p>
+
+      <p>
+        Mobile websites are run from within a mobile Chrome environment on an emulated Moto G4 device with a network speed equivalent to a 4G connection.
+      </p>
+
+      <p>
+        Test agents run from various <a hreflang="en" href="https://cloud.google.com/compute/docs/regions-zones/#locations">Google Cloud Platform locations</a> based in the USA.
+      </p>
+
+      <p>
+        HTTP Archive&#8217;s private instance of WebPageTest is kept in sync with the latest public version and augmented with <a hreflang="en" href="https://github.com/HTTPArchive/custom-metrics">custom metrics</a>, which are snippets of JavaScript that are evaluated on each website at the end of the test.
+      </p>
+
+      <p>
+        The results of each test are made available as a <a href="https://en.wikipedia.org/wiki/HAR_(file_format)">HAR file</a>, a JSON-formatted archive file containing metadata about the web page, which we then store in BigQuery.
+      </p>
+    </section>
+
+    <section>
+      <h3 id="lighthouse"><a href="#lighthouse" class="anchor-link">Lighthouse</a></h3>
+
+      <p>
+        <a hreflang="en" href="https://developer.chrome.com/docs/lighthouse/overview">Lighthouse</a> is an automated website quality assurance tool built by Google. It audits web pages to make sure they don&#8217;t include user experience antipatterns like unoptimized images and inaccessible content.
+      </p>
+
+      <p>
+        HTTP Archive runs the latest version of Lighthouse for all pages. As of the July 2025 crawl, HTTP Archive used the <a hreflang="en" href="https://github.com/GoogleChrome/lighthouse/releases/tag/12.8.0">12.8.0</a> version of Lighthouse.
+      </p>
+
+      <p>
+        Lighthouse is run as its own distinct test from within <a href="#webpagetest">WebPageTest</a>, but it has its own configuration profile:
+      </p>
+      <div class="table-wrap"><div class="table-wrap-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Config</th>
+            <th>Desktop</th>
+            <th>Mobile</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>CPU slowdown</td>
+            <td><em>N/A</em></td>
+            <td>1x/4x</td>
+          </tr>
+          <tr>
+            <td>Download throughput</td>
+            <td>10.0 Mbps</td>
+            <td>1.6 Mbps</td>
+          </tr>
+          <tr>
+            <td>Upload throughput</td>
+            <td>10.0 Mbps</td>
+            <td>0.75 Mbps</td>
+          </tr>
+          <tr>
+            <td>RTT</td>
+            <td>40 ms</td>
+            <td>150 ms</td>
+          </tr>
+        </tbody>
+      </table>
+      </div></div>
+
+      <p>
+        For more information about Lighthouse and the audits available in HTTP Archive, refer to the <a hreflang="en" href="https://developer.chrome.com/docs/lighthouse/overview">Lighthouse developer documentation</a>.
+      </p>
+    </section>
+
+    <section>
+      <h3 id="wappalyzer"><a href="#wappalyzer" class="anchor-link">Wappalyzer</a></h3>
+
+      <p>
+        <a hreflang="en" href="https://github.com/HTTPArchive/wappalyzer">Wappalyzer</a> is a tool for detecting technologies used by web pages. There are <a hreflang="en" href="https://github.com/HTTPArchive/wappalyzer/blob/main/src/categories.json">108 categories</a> of technologies tested, ranging from JavaScript frameworks, to CMS platforms, and even cryptocurrency miners. There are over 3,984 supported technologies.
+      </p>
+
+      <p>
+        HTTP Archive runs it's fork of the last open source version of Wappalyzer (v6.10.65), with some extra detections added since.
+      </p>
+
+      <p>
+        Wappalyzer powers many chapters that analyze the popularity of developer tools like WordPress, Bootstrap, and jQuery. For example, the <a href="/en/2025/cms">CMS</a> chapter relies heavily on the respective <a hreflang="en" href="https://www.wappalyzer.com/categories/cms">CMS</a> category of technologies detected by Wappalyzer.
+      </p>
+
+      <p>
+        All detection tools, including Wappalyzer, have their limitations. The validity of their results will always depend on how accurate their detection mechanisms are. The Web Almanac will add a note in every chapter where Wappalyzer is used but its analysis may not be accurate due to a specific reason.
+      </p>
+    </section>
+
+    <section>
+      <h3 id="chrome-ux-report"><a href="#chrome-ux-report" class="anchor-link">Chrome UX Report</a></h3>
+
+      <p>
+        The <a hreflang="en" href="https://developer.chrome.com/docs/crux">Chrome UX Report</a> is a public dataset of real-world Chrome user experiences. Experiences are grouped by websites&#8217; origin, for example <code>https://www.example.com</code>. The dataset includes distributions of UX metrics like paint, load, interaction, and layout stability. In addition to grouping by month, experiences may also be sliced by dimensions like country-level geography, form factor (desktop, phone, tablet), and effective connection type (4G, 3G, etc.).
+      </p>
+
+      <p>
+        The Chrome UX Report dataset includes relative <a href="https://developer.chrome.com/blog/crux-rank-magnitude">website ranking data</a>. These are referred to as <em>rank magnitudes</em> because, as opposed to fine-grained ranks like the #1 or #116 most popular websites, websites are grouped into rank buckets from the top 1k, top 10k, up to the top 10M. Each website is ranked according to the number of <a href="https://developer.chrome.com/docs/crux/methodology#eligibility">eligible</a> page views on all of its pages combined. This year's Web Almanac makes extensive use of this new data as a way to explore variations in the way the web is built by site popularity.
+      </p>
+
+      <p>
+        For Web Almanac metrics that reference real-world user experience data from the Chrome UX Report, the July 2025 dataset (202507) is used.
+      </p>
+
+      <p>
+        You can learn more about the dataset in the <a hreflang="en" href="https://developer.chrome.com/docs/crux/guides/bigquery">Using the Chrome UX Report on BigQuery</a> guide on <a hreflang="en" href="https://developer.chrome.com">developer.chrome.com</a>.
+      </p>
+    </section>
+
+    <section>
+      <h3 id="blink-features"><a href="#blink-features" class="anchor-link">Blink Features</a></h3>
+
+      <p>
+        <a href="https://chromium.googlesource.com/chromium/src/+/HEAD/docs/use_counter_wiki.md">Blink Features</a> are indicators flagged by Chrome whenever a particular web platform feature is detected to be used.
+      </p>
+
+      <p>
+        We use Blink Features to get a different perspective on feature adoption. This data is especially useful to distinguish between features that are implemented on a page and features that are actually used.
+      </p>
+
+      <p>
+        Blink Features are reported by <a href="#webpagetest">WebPageTest</a> as part of our regular testing.
+      </p>
+    </section>
+
+    <section>
+      <h3 id="third-party-web"><a href="#third-party-web" class="anchor-link">Third Party Web</a></h3>
+
+      <p>
+        <a hreflang="en" href="https://www.thirdpartyweb.today/">Third Party Web</a> is a research project by <a href="/en/2025/contributors#patrickhulce">Patrick Hulce</a>, author of the <a href="/en/2019/third-parties">2019 Third Parties</a> chapter, that uses HTTP Archive and Lighthouse data to identify and analyze the impact of third party resources on the web.
+      </p>
+
+      <p>
+        Domains are considered to be a third party provider if they appear on at least 50 unique pages. The project also groups providers by their respective services in categories like ads, analytics, and social.
+      </p>
+
+      <p>
+        Several chapters in the Web Almanac use the domains and categories from this dataset to understand the impact of third parties.
+      </p>
+    </section>
+
+    <section>
+      <h3 id="rework-css"><a href="#rework-css" class="anchor-link">Rework CSS</a></h3>
+
+      <p>
+        <a hreflang="en" href="https://github.com/reworkcss/css">Rework CSS</a> is a JavaScript-based CSS parser. It takes entire stylesheets and produces a JSON-encoded object distinguishing each individual style rule, selector, directive, and value. See <a hreflang="en" href="https://discuss.httparchive.org/t/analyzing-stylesheets-with-a-js-based-parser/1683">this thread</a> for more information about how it was integrated with the HTTP Archive dataset on BigQuery.
+      </p>
+    </section>
+
+    <section>
+        <h4 id="parsel"><a href="#parsel" class="anchor-link">Parsel</a></h4>
+
+        <p>
+            <a hreflang="en" href="https://projects.verou.me/parsel/">Parsel</a> is a CSS selector parser and specificity calculator, originally written by <a href="/en/2019/css">2020 CSS</a> chapter lead <a href="/en/2025/contributors#LeaVerou">Lea Verou</a> and open sourced as a separate library. It is used extensively in all CSS metrics that relate to selectors and specificity.
+        </p>
+    </section>
+
+    <section>
+      <h2 id="process"><a href="#process" class="anchor-link">Analytical process</a></h2>
+
+      <p>
+        The Web Almanac took about a year to plan and execute with the coordination of more than a hundred <a href="/en/2025/contributors">contributors</a> from the web community. This section describes why we chose the chapters you see in the Web Almanac, how their metrics were queried, and how they were interpreted.
+      </p>
+    </section>
+
+    <section>
+      <h3 id="planning"><a href="#planning" class="anchor-link">Planning</a></h3>
+
+      <p>
+        The 2025 Web Almanac kicked off in April 2025 with a <a href="https://github.com/HTTPArchive/almanac.httparchive.org/discussions/4062">call for contributors</a>. We initialized the project with the same chapters from previous years and the community suggested additional topics, one of which become a new chapter this year: <a href="/en/2025/generative-ai">Generative AI</a>.
+      </p>
+
+      <p>
+        As we <a href="../2019/methodology#brainstorming">stated in the inaugural year&#8217;s Methodology</a>:
+      </p>
+
+      <blockquote>
+        One explicit goal for future editions of the Web Almanac is to encourage even more inclusion of underrepresented and heterogeneous voices as authors and peer reviewers.
+      </blockquote>
+
+      <p>
+        To that end, this year we&#8217;ve continued our <a href="https://github.com/HTTPArchive/almanac.httparchive.org/discussions/2165">author selection process with the following in mind</a>:
+      </p>
+
+      <ul>
+        <li>
+          New authors were specifically encouraged to make room for different perspectives.
+        </li>
+        <li>
+          The project leads reviewed all of the author nominations and made an effort to select authors who will bring new perspectives and amplify the voices of underrepresented groups in the community.
+        </li>
+      </ul>
+
+      <p>
+        We hope to iterate on this process in the future to ensure that the Web Almanac is a more diverse and inclusive project with contributors from all backgrounds.
+      </p>
+    </section>
+
+    <section>
+      <h3 id="analysis"><a href="#analysis" class="anchor-link">Analysis</a></h3>
+
+      <p>
+        In May and June 2025, data analysts worked with authors and peer reviewers to come up with a list of metrics that would need to be queried for each chapter. In some cases, <a hreflang="en" href="https://github.com/HTTPArchive/custom-metrics">custom metrics</a> were created to fill gaps in our analytic capabilities.
+      </p>
+
+      <p>
+        Throughout July 2025, the HTTP Archive data pipeline crawled several million websites, gathering the metadata to be used in the Web Almanac. These results were post-processed and saved to <a href="https://console.cloud.google.com/bigquery?p=httparchive&d=almanac&page=dataset">BigQuery</a>.
+      </p>
+
+      <p>
+        Being our sixth year, we were able to update and reuse the queries written by previous analysts, though they required <a href="https://har.fyi/guides/migrating-to-crawl-dataset/">rewriting to a new, more efficient dataset</a> that the HTTP Archive moved to this year. Additionally, there were many new metrics that needed to be written from scratch. You can browse all of the queries by year and chapter in our open source <a hreflang="en" href="https://github.com/HTTPArchive/almanac.httparchive.org/tree/main/sql/2025">query repository</a> on GitHub.
+      </p>
+    </section>
+
+    <section>
+      <h3 id="interpretation"><a href="#interpretation" class="anchor-link">Interpretation</a></h3>
+
+      <p>
+        Authors worked with analysts to correctly interpret the results and draw appropriate conclusions. As authors wrote their respective chapters, they drew from these statistics to support their framing of the state of the web. Peer reviewers worked with authors to ensure the technical correctness of their analysis.
+      </p>
+
+      <p>
+        To make the results more easily understandable to readers, web developers and analysts created data visualizations to embed in the chapter. Some visualizations are simplified to make the points more clearly. For example, rather than showing a full distribution, only a handful of percentiles are shown. Unless otherwise noted, all distributions are summarized using percentiles, especially medians (the 50th percentile), and not averages.
+      </p>
+
+      <p>
+        Finally, editors revised the chapters to fix simple grammatical errors and ensure consistency across the reading experience.
+      </p>
+    </section>
+
+    <section>
+      <h2 id="looking-ahead"><a href="#looking-ahead" class="anchor-link">Looking ahead</a></h2>
+
+      <p>
+        The 2025 edition of the Web Almanac is the sixth in what is mostly an annual tradition (we took a break in 2023) in the web community of introspection and a commitment to positive change. Getting to this point has been a monumental effort thanks to many dedicated <a href="/en/2025/contributors">contributors</a> and we hope to leverage as much of this work as possible to make future editions even more streamlined.
+      </p>
+    </section>
+
+  </article>
+</main>
+
+    </div>
+  
+
+  
+    <footer id="footer" class="alt-bg">
+      <div class="container">
+        <div class="home-logo">
+          <a class="navigation-logo" href="/en/2025/">
+            
+  <span class="wa">Web Almanac</span>
+  <span class="line-group">
+    <span class="pre">By</span>
+    <span class="ha">HTTP Archive</span>
+  </span>
+
+          </a>
+        </div>
+        <hr>
+        <nav id="footer-nav-items" aria-label="Footer navigation" class="nav-items">
+          <ul>
+            
+
+<li><a href="/en/2025/contributors">Contributors</a></li>
+<li><a href="/en/2025/methodology">Methodology</a></li>
+
+
+            <li>
+              
+  
+  <a class="nav-dropdown-btn js-hide" href="/en/search">Search</a>
+  <div class="nav-dropdown footer search-nav js-enable hidden">
+    <button type="button" class="nav-dropdown-btn search-button" aria-expanded="false">
+      Search
+    </button>
+    <ul class="nav-dropdown-list align-right hidden footer-search">
+      <li class="nav-dropdown-list-part">
+        <form action="/en/search">
+          <label for="footer-search-box" class="visually-hidden">Search</label>
+          <input id="footer-search-box" class="search-input" type="search" name="q" placeholder="Search" title="Search" aria-label="Search">
+          <button class="search-button" type="submit">
+            <svg width="13" height="13" role="img" aria-labelledby="footer-search-icon">
+              <title id="footer-search-icon">Search</title>
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#search-logo"></use>
+            </svg>
+          </button>
+        </form>
+      </li>
+    </ul>
+  </div>
+  
+
+            </li>
+            <li>
+              
+
+  
+    
+
+<a class="nav-dropdown-btn js-hide" href="/en/2025/table-of-contents">Table of Contents</a>
+<div class="nav-dropdown footer table-of-contents js-enable hidden">
+  <button type="button" class="nav-dropdown-btn" aria-expanded="false" aria-label="Table of Contents" >
+    Table of Contents
+  </button>
+  <ul class="nav-dropdown-list hidden footer-list">
+
+    
+    <li class="nav-dropdown-list-part">
+      <a href="/en/2025/">Home</a>
+    </li>
+    
+
+    
+    <li class="nav-dropdown-list-part">
+      <a href="/en/2025/table-of-contents">Table of Contents</a>
+    </li>
+    
+    
+    <li class="nav-dropdown-list-chapter foreword">
+      <a href="/en/2025/table-of-contents#foreword">Foreword</a>
+    </li>
+    
+
+    
+    <li class="nav-dropdown-list-part">
+      <a href="/en/2025/table-of-contents#part-1">Part I. Page Content</a>
+    </li>
+    
+    
+    
+    <li class="nav-dropdown-list-chapter">
+      
+        
+        <a href="/en/2025/fonts">
+          Chapter 1: Fonts
+        </a>
+        
+      
+    </li>
+    
+    
+    
+    
+    <li class="nav-dropdown-list-chapter">
+      
+        
+        <a href="/en/2025/webassembly">
+          Chapter 2: WebAssembly
+        </a>
+        
+      
+    </li>
+    
+    
+    
+    
+    <li class="nav-dropdown-list-chapter">
+      
+        
+        <a href="/en/2025/third-parties">
+          Chapter 3: Third Parties
+        </a>
+        
+      
+    </li>
+    
+    
+    
+    
+    <li class="nav-dropdown-list-chapter">
+      
+        
+        <a href="/en/2025/generative-ai">
+          Chapter 4: Generative AI
+        </a>
+        
+      
+    </li>
+    
+    
+    
+    <li class="nav-dropdown-list-part">
+      <a href="/en/2025/table-of-contents#part-2">Part II. User Experience</a>
+    </li>
+    
+    
+    
+    <li class="nav-dropdown-list-chapter">
+      
+        
+        <a href="/en/2025/seo">
+          Chapter 5: SEO
+        </a>
+        
+      
+    </li>
+    
+    
+    
+    
+    <li class="nav-dropdown-list-chapter">
+      
+        
+        <a href="/en/2025/accessibility">
+          Chapter 6: Accessibility
+        </a>
+        
+      
+    </li>
+    
+    
+    
+    
+    <li class="nav-dropdown-list-chapter">
+      
+        
+        <a href="/en/2025/performance">
+          Chapter 7: Performance
+        </a>
+        
+      
+    </li>
+    
+    
+    
+    
+    <li class="nav-dropdown-list-chapter">
+      
+        
+        <a href="/en/2025/privacy">
+          Chapter 8: Privacy
+        </a>
+        
+      
+    </li>
+    
+    
+    
+    
+    <li class="nav-dropdown-list-chapter">
+      
+        
+        <a href="/en/2025/security">
+          Chapter 9: Security
+        </a>
+        
+      
+    </li>
+    
+    
+    
+    
+    <li class="nav-dropdown-list-chapter">
+      
+        
+        <a href="/en/2025/capabilities">
+          Chapter 10: Capabilities
+        </a>
+        
+      
+    </li>
+    
+    
+    
+    
+    <li class="nav-dropdown-list-chapter">
+      
+        
+        <a href="/en/2025/pwa">
+          Chapter 11: PWA
+        </a>
+        
+      
+    </li>
+    
+    
+    
+    <li class="nav-dropdown-list-part">
+      <a href="/en/2025/table-of-contents#part-3">Part III. Content Publishing</a>
+    </li>
+    
+    
+    
+    <li class="nav-dropdown-list-chapter">
+      
+        
+        <a href="/en/2025/cms">
+          Chapter 12: CMS
+        </a>
+        
+      
+    </li>
+    
+    
+    
+    
+    <li class="nav-dropdown-list-chapter">
+      
+        
+        <a href="/en/2025/ecommerce">
+          Chapter 13: Ecommerce
+        </a>
+        
+      
+    </li>
+    
+    
+    
+    <li class="nav-dropdown-list-part">
+      <a href="/en/2025/table-of-contents#part-4">Part IV. Content Distribution</a>
+    </li>
+    
+    
+    
+    <li class="nav-dropdown-list-chapter">
+      
+        
+        <a href="/en/2025/page-weight">
+          Chapter 14: Page Weight
+        </a>
+        
+      
+    </li>
+    
+    
+    
+    
+    <li class="nav-dropdown-list-chapter">
+      
+        
+        <a href="/en/2025/cdn">
+          Chapter 15: CDN
+        </a>
+        
+      
+    </li>
+    
+    
+    
+    
+    <li class="nav-dropdown-list-chapter">
+      
+        
+        <a href="/en/2025/cookies">
+          Chapter 16: Cookies
+        </a>
+        
+      
+    </li>
+    
+    
+    
+
+    <li class="nav-dropdown-list-part">
+      <a href="/en/2025/table-of-contents#appendices">Appendices</a>
+    </li>
+    
+    <li class="nav-dropdown-list-chapter nav-dropdown-list-current">
+      <span>Methodology</span>
+    </li>
+    
+    
+    <li class="nav-dropdown-list-chapter">
+      
+      <a href="/en/2025/contributors">Contributors</a>
+      
+    </li>
+    
+
+    
+    <li class="nav-dropdown-list-part">
+      <a href="/en/search">Search</a>
+    </li>
+    
+
+    
+    <li class="nav-dropdown-list-part">
+      <a href="/en/2025/table-of-contents#ebook">Ebook</a>
+    </li>
+    <li class="nav-dropdown-list-chapter ebook">
+      <a href="https://cdn.httparchive.org/v1/static/almanac/ebooks/web_almanac_2025_en.pdf" data-event="ebook-click" data-label="toc-menu">Ebook PDF (12MB)</a>
+    </li>
+    
+  </ul>
+</div>
+
+  
+
+
+            </li>
+            <li>
+              
+    
+    
+      
+          
+  <div class="nav-dropdown footer">
+    <button type="button" class="nav-dropdown-btn js-enable" disabled aria-expanded="false" aria-label="Year Switcher">2025</button>
+    <ul class="nav-dropdown-list hidden footer-list">
+      
+        
+          
+        
+      
+        
+          
+            
+            <li>
+              <a href="/en/2024/methodology">2024</a>
+            </li>
+          
+          
+        
+      
+        
+          
+            
+            <li>
+              <a href="/en/2022/methodology">2022</a>
+            </li>
+          
+          
+        
+      
+        
+          
+            
+            <li>
+              <a href="/en/2021/methodology">2021</a>
+            </li>
+          
+          
+        
+      
+        
+          
+            
+            <li>
+              <a href="/en/2020/methodology">2020</a>
+            </li>
+          
+          
+        
+      
+        
+          
+            
+            <li>
+              <a href="/en/2019/methodology">2019</a>
+            </li>
+          
+          
+        
+      
+    </ul>
+  </div>
+
+      
+    
+  
+            </li>
+            <li>
+              
+  
+    
+  <div class="nav-dropdown footer">
+    <button type="button" class="nav-dropdown-btn js-enable" disabled aria-expanded="false" aria-label="Language Switcher" >English</button>
+    <ul class="nav-dropdown-list hidden footer-list">
+      
+        
+          <li>
+            <a lang="de" href="/de/2025/methodology">Deutsch</a>
+          </li>
+        
+      
+        
+      
+        
+          <li>
+            <a lang="ja" href="/ja/2025/methodology">日本語</a>
+          </li>
+        
+      
+      
+      <li>
+        <a class="help-translate" href="https://github.com/HTTPArchive/almanac.httparchive.org/wiki/Translators'-Guide"><em>Help translate</em></a>
+      </li>
+      
+    </ul>
+  </div>
+
+  
+
+            </li>
+          </ul>
+        </nav>
+        <nav id="mobile-footer-nav-items" aria-label="Footer navigation" class="nav-items">
+          <ul>
+            
+
+<li><a href="/en/2025/contributors">Contributors</a></li>
+<li><a href="/en/2025/methodology">Methodology</a></li>
+
+
+            <li>
+              
+  
+  <form class="search-nav" action="/en/search">
+    <label for="mobile-footer-search-box" class="visually-hidden">Search</label>
+    <input id="mobile-footer-search-box" class="search-input" type="search" name="q" placeholder="Search" title="Search" aria-label="Search">
+    <button class="search-button" type="submit">
+      <svg width="13" height="13" role="img" aria-labelledby="mobile-footer-search-icon">
+        <title id="mobile-footer-search-icon">Search</title>
+        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#search-logo"></use>
+      </svg>
+    </button>
+  </form>
+  
+
+            </li>
+            <li>
+              
+
+  
+    
+
+<a class="js-hide" href="/en/2025/table-of-contents">Table of Contents</a>
+<div class="table-of-contents-switcher js-enable hidden">
+  <label for="table-of-contents-switcher-mobile-footer" class="visually-hidden">
+    Table of Contents Switcher
+  </label>
+  <select id="table-of-contents-switcher-mobile-footer" data-label="toc-menu-mobile">
+    
+      <option value="/en/2025/">Home</option>
+    
+    
+      <option value="/en/2025/table-of-contents">Table of Contents</option>
+    
+    
+    <option value="/en/2025/table-of-contents#foreword">Foreword</option>
+    
+    
+    
+      
+      
+        
+          
+            <option value="/en/2025/fonts">
+              Chapter 1: Fonts
+            </option>
+          
+        
+      
+    
+      
+      
+        
+          
+            <option value="/en/2025/webassembly">
+              Chapter 2: WebAssembly
+            </option>
+          
+        
+      
+    
+      
+      
+        
+          
+            <option value="/en/2025/third-parties">
+              Chapter 3: Third Parties
+            </option>
+          
+        
+      
+    
+      
+      
+        
+          
+            <option value="/en/2025/generative-ai">
+              Chapter 4: Generative AI
+            </option>
+          
+        
+      
+    
+    
+    
+      
+      
+        
+          
+            <option value="/en/2025/seo">
+              Chapter 5: SEO
+            </option>
+          
+        
+      
+    
+      
+      
+        
+          
+            <option value="/en/2025/accessibility">
+              Chapter 6: Accessibility
+            </option>
+          
+        
+      
+    
+      
+      
+        
+          
+            <option value="/en/2025/performance">
+              Chapter 7: Performance
+            </option>
+          
+        
+      
+    
+      
+      
+        
+          
+            <option value="/en/2025/privacy">
+              Chapter 8: Privacy
+            </option>
+          
+        
+      
+    
+      
+      
+        
+          
+            <option value="/en/2025/security">
+              Chapter 9: Security
+            </option>
+          
+        
+      
+    
+      
+      
+        
+          
+            <option value="/en/2025/capabilities">
+              Chapter 10: Capabilities
+            </option>
+          
+        
+      
+    
+      
+      
+        
+          
+            <option value="/en/2025/pwa">
+              Chapter 11: PWA
+            </option>
+          
+        
+      
+    
+    
+    
+      
+      
+        
+          
+            <option value="/en/2025/cms">
+              Chapter 12: CMS
+            </option>
+          
+        
+      
+    
+      
+      
+        
+          
+            <option value="/en/2025/ecommerce">
+              Chapter 13: Ecommerce
+            </option>
+          
+        
+      
+    
+    
+    
+      
+      
+        
+          
+            <option value="/en/2025/page-weight">
+              Chapter 14: Page Weight
+            </option>
+          
+        
+      
+    
+      
+      
+        
+          
+            <option value="/en/2025/cdn">
+              Chapter 15: CDN
+            </option>
+          
+        
+      
+    
+      
+      
+        
+          
+            <option value="/en/2025/cookies">
+              Chapter 16: Cookies
+            </option>
+          
+        
+      
+    
+    
+
+    
+    <option selected disabled value="/en/2025/methodology">
+      Methodology
+    </option>
+    
+    
+    <option value="/en/2025/contributors">
+      Contributors
+    </option>
+    
+
+    
+    <option value="/en/search">
+      Search
+    </option>
+    
+
+    
+    <option value="https://cdn.httparchive.org/v1/static/almanac/ebooks/web_almanac_2025_en.pdf" data-event="ebook-click">
+      Ebook PDF (12MB)
+    </option>
+    
+  </select>
+</div>
+
+  
+
+
+            </li>
+            <li>
+              
+    
+    
+      
+          
+  <div class="year-switcher js-show">
+    <label for="year-switcher-mobile-footer" class="visually-hidden">Year Switcher</label>
+    <select id="year-switcher-mobile-footer">
+      
+        
+          
+            <option selected="selected" value="/en/2025/methodology">
+              2025
+            </option>
+          
+        
+      
+        
+          
+            <option value="/en/2024/methodology">
+              2024
+            </option>
+          
+        
+      
+        
+          
+            <option value="/en/2022/methodology">
+              2022
+            </option>
+          
+        
+      
+        
+          
+            <option value="/en/2021/methodology">
+              2021
+            </option>
+          
+        
+      
+        
+          
+            <option value="/en/2020/methodology">
+              2020
+            </option>
+          
+        
+      
+        
+          
+            <option value="/en/2019/methodology">
+              2019
+            </option>
+          
+        
+      
+    </select>
+  </div>
+
+        
+    
+  
+            </li>
+            <li>
+              
+  
+    
+  <div class="language-switcher js-show">
+    <label for="language-switcher-mobile-footer" class="visually-hidden">Language Switcher</label>
+    <select id="language-switcher-mobile-footer">
+      
+        
+          <option lang="de" value="/de/2025/methodology">
+            Deutsch
+          </option>
+        
+      
+        
+          <option selected="selected" lang="en" value="/en/2025/methodology">
+            English
+          </option>
+        
+      
+        
+          <option lang="ja" value="/ja/2025/methodology">
+            日本語
+          </option>
+        
+      
+      <hr>
+      <option value="https://github.com/HTTPArchive/almanac.httparchive.org/wiki/Translators'-Guide">
+        Help translate
+      </option>
+    </select>
+  </div>
+
+  
+
+            </li>
+          </ul>
+        </nav>
+        <div id="footer-mobile-social-media" class="mobile-ha-social-media">
+          <a class="ha-logo" href="https://httparchive.org/" aria-labelledby="httparchive-logo-footer-mobile">
+            <svg width="70" height="35" role="img">
+              <title id="httparchive-logo-footer-mobile">HTTP Archive home</title>
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ha-logo"></use>
+            </svg>
+          </a>
+          <ul class="social-media">
+            <li>
+              <a href="https://x.com/HTTPArchive" aria-labelledby="twitter-logo-footer-mobile">
+                <svg width="20" height="20" role="img">
+                  <title id="twitter-logo-footer-mobile">Twitter</title>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter-logo"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://bsky.app/profile/httparchive.org" aria-labelledby="bluesky-logo-footer-mobile">
+                <svg width="20" height="20" role="img">
+                  <title id="bluesky-logo-footer-mobile">Bluesky</title>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#bluesky-logo"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/HTTPArchive/almanac.httparchive.org" rel="me" aria-labelledby="github-logo-footer-mobile">
+                <svg width="22" height="20" role="img">
+                  <title id="github-logo-footer-mobile">GitHub</title>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#github-logo"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <hr>
+        <p class="copyright">
+          <span>© Web Almanac. Licensed under <a hreflang="en" href="https://github.com/HTTPArchive/almanac.httparchive.org/blob/main/LICENSE">Apache 2.0</a>.</span>
+          <br>
+          <a class="accessibility-statement" href="/en/accessibility-statement">Accessibility Statement</a>
+          <span class="footer-bullet">&bullet;</span>
+          <a class="rss-feed" href="/en/rss.xml">RSS Feed</a>
+        </p>
+        <a class="ha-logo not-mobile" href="https://httparchive.org/" aria-labelledby="ha-logo-footer">
+          <svg width="70" height="35" role="img">
+            <title id="ha-logo-footer">HTTP Archive home</title>
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ha-logo"></use>
+          </svg>
+        </a>
+        <ul class="social-media not-mobile">
+          <li>
+            <a href="https://x.com/HTTPArchive" aria-labelledby="twitter-logo-footer">
+              <svg width="20" height="20" role="img">
+                <title id="twitter-logo-footer">Twitter</title>
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter-logo"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://bsky.app/profile/httparchive.org" aria-labelledby="bluesky-logo-footer">
+              <svg width="20" height="20" role="img">
+                <title id="bluesky-logo-footer">Bluesky</title>
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#bluesky-logo"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/HTTPArchive/almanac.httparchive.org" rel="me" aria-labelledby="github-logo-footer">
+              <svg width="22" height="20" role="img">
+                <title id="github-logo-footer">GitHub</title>
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#github-logo"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  
+  
+  <script async src="/static/js/almanac.js?v=fa418742db0ee3ef3f6f493962cd0dc7" nonce="m_Lb0y0OACaDd-gmQOFh7uOTxAh_wN20"></script>
+  
+
+
+    
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PQ5N2MZG5M" nonce="m_Lb0y0OACaDd-gmQOFh7uOTxAh_wN20"></script>
+    <link rel="preconnect" href="https://www.google-analytics.com">
+    <script defer src="/static/js/web-vitals.js?v=dca1411c8a8a3787d00f231b222d3fbc" nonce="m_Lb0y0OACaDd-gmQOFh7uOTxAh_wN20"></script>
+    <script defer src="/static/js/send-web-vitals.js?v=67574c23a511f3149c90c88735c5a6f3" nonce="m_Lb0y0OACaDd-gmQOFh7uOTxAh_wN20"></script>
+    
+
+
+<script type="speculationrules" nonce="m_Lb0y0OACaDd-gmQOFh7uOTxAh_wN20">
+{
+  "prerender": [
+    {
+      "source": "document",
+      "where": {
+        "and": [
+          {"href_matches": "/*"},
+          {"not": {"href_matches": "/static/*"}}
+        ]
+      },
+      "eagerness": "moderate"
+    }
+  ]
+}
+</script>
+
+    
+  </body>
+</html>

@@ -1,0 +1,516 @@
+Methodology | The Web Almanac by HTTP Archive
+Skip navigation
+Web Almanac
+By
+HTTP Archive
+Contributors
+Methodology
+Search
+Search
+Search
+Search
+Table of Contents
+Table of Contents
+Home
+Table of Contents
+Foreword
+Part I. Page Content
+Chapter 1: Fonts
+Chapter 2: WebAssembly
+Chapter 3: Third Parties
+Chapter 4: Generative AI
+Part II. User Experience
+Chapter 5: SEO
+Chapter 6: Accessibility
+Chapter 7: Performance
+Chapter 8: Privacy
+Chapter 9: Security
+Chapter 10: Capabilities
+Chapter 11: PWA
+Part III. Content Publishing
+Chapter 12: CMS
+Chapter 13: Ecommerce
+Part IV. Content Distribution
+Chapter 14: Page Weight
+Chapter 15: CDN
+Chapter 16: Cookies
+Appendices
+Methodology
+Contributors
+Search
+Ebook
+Ebook PDF (12MB)
+2025
+2024
+2022
+2021
+2020
+2019
+English
+Deutsch
+日本語
+Help translate
+Contributors
+Methodology
+Search
+Search
+Table of Contents
+Table of Contents Switcher
+Home
+Table of Contents
+Foreword
+Chapter 1: Fonts
+Chapter 2: WebAssembly
+Chapter 3: Third Parties
+Chapter 4: Generative AI
+Chapter 5: SEO
+Chapter 6: Accessibility
+Chapter 7: Performance
+Chapter 8: Privacy
+Chapter 9: Security
+Chapter 10: Capabilities
+Chapter 11: PWA
+Chapter 12: CMS
+Chapter 13: Ecommerce
+Chapter 14: Page Weight
+Chapter 15: CDN
+Chapter 16: Cookies
+Methodology
+Contributors
+Search
+Ebook PDF (12MB)
+Year Switcher
+2025
+2024
+2022
+2021
+2020
+2019
+Language Switcher
+Deutsch
+English
+日本語
+Help translate
+HTTP Archive home
+Twitter
+Bluesky
+GitHub
+Index
+Index
+Overview
+About the dataset
+Websites
+Metrics
+Tools
+WebPageTest
+Lighthouse
+Wappalyzer
+Chrome UX Report
+Blink Features
+Third Party Web
+Rework CSS
+Rework Utils
+Parsel
+Analytical process
+Planning
+Analysis
+Interpretation
+Looking ahead
+Methodology
+Overview
+The Web Almanac is a project organized by
+HTTP Archive
+. HTTP Archive was started in 2010 by Steve Souders with the mission to track how the web is built. It evaluates the composition of millions of web pages on a monthly basis and makes its terabytes of metadata available for analysis on
+BigQuery
+.
+The Web Almanac’s mission is to become an annual repository of public knowledge about the state of the web. Our goal is to make the data warehouse of HTTP Archive even more accessible to the web community by having subject matter experts provide contextualized insights.
+The 2025 edition of the Web Almanac is broken into four parts: content, experience, publishing, and distribution. Within each part, several chapters explore their overarching theme from different angles. For example, Part II explores different angles of the user experience in the Performance, Security, and Accessibility chapters, among others.
+About the dataset
+The HTTP Archive dataset is continuously updating with new data monthly. For the 2025 edition of the Web Almanac, unless otherwise noted in the chapter, all metrics were sourced from the July 2025 crawl. These results are
+publicly queryable
+on BigQuery in tables in the
+`httparchive.crawl.*`
+tables for
+date = '2025-07-01'
+.
+All of the metrics presented in the Web Almanac are publicly reproducible using the dataset on BigQuery. You can browse the queries used by all chapters in our
+GitHub repository
+.
+Please note that some of these queries are quite large and can be
+expensive
+to run yourself. For help controlling your spending, refer to our guide on
+Minimizing query costs
+.
+For example, to understand the number of pages with accessible color contrast, see
+color_contrast.sql
+:
+SELECT
+client,
+  is_root_page,
+COUNTIF
+(color_contrast_score
+IS
+NOT
+NULL
+)
+AS
+total_applicable,
+COUNTIF
+(
+CAST
+(color_contrast_score
+AS
+NUMERIC
+)
+=
+1
+)
+AS
+total_good_contrast,
+COUNTIF
+(
+CAST
+(color_contrast_score
+AS
+NUMERIC
+)
+=
+1
+) /
+COUNTIF
+(color_contrast_score
+IS
+NOT
+NULL
+)
+AS
+perc_good_contrast
+FROM
+(
+SELECT
+client,
+    is_root_page,
+date
+,
+JSON_VALUE
+(lighthouse.audits.
+`color-contrast`
+.score)
+AS
+color_contrast_score
+FROM
+`httparchive.crawl.pages`
+WHERE
+date
+=
+'2025-07-01'
+)
+GROUP
+BY
+client,
+  is_root_page,
+date
+ORDER
+BY
+client,
+  is_root_page;
+Results for each metric are publicly viewable in chapter-specific spreadsheets, for example
+Accessibility results
+. Links to the raw results and queries are available at the bottom of each chapter. Metric-specific results and queries are also linked directly from each figure.
+Websites
+There are 16,213,084 websites in the dataset. Among those, 15,426,398 are mobile websites and 12,155,374 are desktop websites. Most websites are included in both the mobile and desktop subsets.
+HTTP Archive sources the URLs for its websites from the
+Chrome UX Report
+. The Chrome UX Report is a public dataset from Google that aggregates user experiences across millions of websites actively visited by Chrome users. This gives us a list of websites that are up-to-date and a reflection of real-world web usage. The Chrome UX Report dataset includes a form factor dimension, which we use to get all of the websites accessed by desktop or mobile users.
+The July 2025 HTTP Archive crawl used by the Web Almanac used the most recently available Chrome UX Report release for its list of websites. The 202507 dataset was released on July 11, 2025 and captures websites visited by Chrome users during the month of June.
+Due to resource limitations, the HTTP Archive previously could only test two pages from each website in the Chrome UX report. Be aware that this will introduce some bias into the results because a home page is not necessarily representative of the entire website. In recent years, we included
+secondary pages
+, and many chapters use this new data. Some chapters, however, used just the home pages.
+HTTP Archive is also considered a lab testing tool, meaning it tests websites from a datacenter and does not collect data from real-world user experiences. All pages are tested with an empty cache in a logged out state, which may not reflect how real users would access them.
+Metrics
+HTTP Archive collects thousands of metrics about how the web is built. It includes basic metrics like the number of bytes per page, whether the page was loaded over HTTPS, and individual request and response headers. The majority of these metrics are provided by
+WebPageTest
+, which acts as the test runner for each website.
+Other testing tools are used to provide more advanced metrics about the page. For example,
+Lighthouse
+is used to run audits against the page to analyze its quality in areas like accessibility and SEO. The
+Tools
+section below goes into each of these tools in more detail.
+To work around some of the inherent limitations of a lab dataset, the Web Almanac also makes use of the
+Chrome UX Report
+for metrics on user experiences, especially in the area of web performance.
+Some metrics are completely out of reach. For example, we don’t necessarily have the ability to detect the tools used to build a website. If a website is built using create-react-app, we could tell that it uses the React framework, but not necessarily that a particular build tool is used. Unless these tools leave detectible fingerprints in the website’s code, we’re unable to measure their usage.
+Other metrics may not necessarily be impossible to measure but are challenging or unreliable. For example, aspects of web design are inherently visual and may be difficult to quantify, like whether a page has an intrusive modal dialog.
+Tools
+The Web Almanac is made possible with the help of the following open source tools.
+WebPageTest
+WebPageTest
+is a prominent web performance testing tool and the backbone of HTTP Archive. We use a
+private instance
+of WebPageTest with private test agents, which are the actual browsers that test each web page. Desktop and mobile websites are tested under different configurations:
+Config
+Desktop
+Mobile
+Device
+Linux VM
+Emulated Moto G4
+User Agent
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 PTST/250604.160032
+Mozilla/5.0 (Linux; Android 8.1.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36 PTST/250604.160032
+Location
+Google Cloud Locations, USA
+Google Cloud Locations, USA
+Connection
+Cable (5/1 Mbps 25ms RTT)
+4G (9 Mbps 170ms RTT)
+CPU slowdown
+N/A
+8x
+Viewport
+1920 x 1080px
+512 x 360px
+DPR
+1x
+3x
+Desktop websites are run from within a desktop Chrome environment on a Linux VM. The network speed is equivalent to a cable connection.
+Mobile websites are run from within a mobile Chrome environment on an emulated Moto G4 device with a network speed equivalent to a 4G connection.
+Test agents run from various
+Google Cloud Platform locations
+based in the USA.
+HTTP Archive’s private instance of WebPageTest is kept in sync with the latest public version and augmented with
+custom metrics
+, which are snippets of JavaScript that are evaluated on each website at the end of the test.
+The results of each test are made available as a
+HAR file
+, a JSON-formatted archive file containing metadata about the web page, which we then store in BigQuery.
+Lighthouse
+Lighthouse
+is an automated website quality assurance tool built by Google. It audits web pages to make sure they don’t include user experience antipatterns like unoptimized images and inaccessible content.
+HTTP Archive runs the latest version of Lighthouse for all pages. As of the July 2025 crawl, HTTP Archive used the
+12.8.0
+version of Lighthouse.
+Lighthouse is run as its own distinct test from within
+WebPageTest
+, but it has its own configuration profile:
+Config
+Desktop
+Mobile
+CPU slowdown
+N/A
+1x/4x
+Download throughput
+10.0 Mbps
+1.6 Mbps
+Upload throughput
+10.0 Mbps
+0.75 Mbps
+RTT
+40 ms
+150 ms
+For more information about Lighthouse and the audits available in HTTP Archive, refer to the
+Lighthouse developer documentation
+.
+Wappalyzer
+Wappalyzer
+is a tool for detecting technologies used by web pages. There are
+108 categories
+of technologies tested, ranging from JavaScript frameworks, to CMS platforms, and even cryptocurrency miners. There are over 3,984 supported technologies.
+HTTP Archive runs it's fork of the last open source version of Wappalyzer (v6.10.65), with some extra detections added since.
+Wappalyzer powers many chapters that analyze the popularity of developer tools like WordPress, Bootstrap, and jQuery. For example, the
+CMS
+chapter relies heavily on the respective
+CMS
+category of technologies detected by Wappalyzer.
+All detection tools, including Wappalyzer, have their limitations. The validity of their results will always depend on how accurate their detection mechanisms are. The Web Almanac will add a note in every chapter where Wappalyzer is used but its analysis may not be accurate due to a specific reason.
+Chrome UX Report
+The
+Chrome UX Report
+is a public dataset of real-world Chrome user experiences. Experiences are grouped by websites’ origin, for example
+https://www.example.com
+. The dataset includes distributions of UX metrics like paint, load, interaction, and layout stability. In addition to grouping by month, experiences may also be sliced by dimensions like country-level geography, form factor (desktop, phone, tablet), and effective connection type (4G, 3G, etc.).
+The Chrome UX Report dataset includes relative
+website ranking data
+. These are referred to as
+rank magnitudes
+because, as opposed to fine-grained ranks like the #1 or #116 most popular websites, websites are grouped into rank buckets from the top 1k, top 10k, up to the top 10M. Each website is ranked according to the number of
+eligible
+page views on all of its pages combined. This year's Web Almanac makes extensive use of this new data as a way to explore variations in the way the web is built by site popularity.
+For Web Almanac metrics that reference real-world user experience data from the Chrome UX Report, the July 2025 dataset (202507) is used.
+You can learn more about the dataset in the
+Using the Chrome UX Report on BigQuery
+guide on
+developer.chrome.com
+.
+Blink Features
+Blink Features
+are indicators flagged by Chrome whenever a particular web platform feature is detected to be used.
+We use Blink Features to get a different perspective on feature adoption. This data is especially useful to distinguish between features that are implemented on a page and features that are actually used.
+Blink Features are reported by
+WebPageTest
+as part of our regular testing.
+Third Party Web
+Third Party Web
+is a research project by
+Patrick Hulce
+, author of the
+2019 Third Parties
+chapter, that uses HTTP Archive and Lighthouse data to identify and analyze the impact of third party resources on the web.
+Domains are considered to be a third party provider if they appear on at least 50 unique pages. The project also groups providers by their respective services in categories like ads, analytics, and social.
+Several chapters in the Web Almanac use the domains and categories from this dataset to understand the impact of third parties.
+Rework CSS
+Rework CSS
+is a JavaScript-based CSS parser. It takes entire stylesheets and produces a JSON-encoded object distinguishing each individual style rule, selector, directive, and value. See
+this thread
+for more information about how it was integrated with the HTTP Archive dataset on BigQuery.
+Parsel
+Parsel
+is a CSS selector parser and specificity calculator, originally written by
+2020 CSS
+chapter lead
+Lea Verou
+and open sourced as a separate library. It is used extensively in all CSS metrics that relate to selectors and specificity.
+Analytical process
+The Web Almanac took about a year to plan and execute with the coordination of more than a hundred
+contributors
+from the web community. This section describes why we chose the chapters you see in the Web Almanac, how their metrics were queried, and how they were interpreted.
+Planning
+The 2025 Web Almanac kicked off in April 2025 with a
+call for contributors
+. We initialized the project with the same chapters from previous years and the community suggested additional topics, one of which become a new chapter this year:
+Generative AI
+.
+As we
+stated in the inaugural year’s Methodology
+:
+One explicit goal for future editions of the Web Almanac is to encourage even more inclusion of underrepresented and heterogeneous voices as authors and peer reviewers.
+To that end, this year we’ve continued our
+author selection process with the following in mind
+:
+New authors were specifically encouraged to make room for different perspectives.
+The project leads reviewed all of the author nominations and made an effort to select authors who will bring new perspectives and amplify the voices of underrepresented groups in the community.
+We hope to iterate on this process in the future to ensure that the Web Almanac is a more diverse and inclusive project with contributors from all backgrounds.
+Analysis
+In May and June 2025, data analysts worked with authors and peer reviewers to come up with a list of metrics that would need to be queried for each chapter. In some cases,
+custom metrics
+were created to fill gaps in our analytic capabilities.
+Throughout July 2025, the HTTP Archive data pipeline crawled several million websites, gathering the metadata to be used in the Web Almanac. These results were post-processed and saved to
+BigQuery
+.
+Being our sixth year, we were able to update and reuse the queries written by previous analysts, though they required
+rewriting to a new, more efficient dataset
+that the HTTP Archive moved to this year. Additionally, there were many new metrics that needed to be written from scratch. You can browse all of the queries by year and chapter in our open source
+query repository
+on GitHub.
+Interpretation
+Authors worked with analysts to correctly interpret the results and draw appropriate conclusions. As authors wrote their respective chapters, they drew from these statistics to support their framing of the state of the web. Peer reviewers worked with authors to ensure the technical correctness of their analysis.
+To make the results more easily understandable to readers, web developers and analysts created data visualizations to embed in the chapter. Some visualizations are simplified to make the points more clearly. For example, rather than showing a full distribution, only a handful of percentiles are shown. Unless otherwise noted, all distributions are summarized using percentiles, especially medians (the 50th percentile), and not averages.
+Finally, editors revised the chapters to fix simple grammatical errors and ensure consistency across the reading experience.
+Looking ahead
+The 2025 edition of the Web Almanac is the sixth in what is mostly an annual tradition (we took a break in 2023) in the web community of introspection and a commitment to positive change. Getting to this point has been a monumental effort thanks to many dedicated
+contributors
+and we hope to leverage as much of this work as possible to make future editions even more streamlined.
+Web Almanac
+By
+HTTP Archive
+Contributors
+Methodology
+Search
+Search
+Search
+Search
+Table of Contents
+Table of Contents
+Home
+Table of Contents
+Foreword
+Part I. Page Content
+Chapter 1: Fonts
+Chapter 2: WebAssembly
+Chapter 3: Third Parties
+Chapter 4: Generative AI
+Part II. User Experience
+Chapter 5: SEO
+Chapter 6: Accessibility
+Chapter 7: Performance
+Chapter 8: Privacy
+Chapter 9: Security
+Chapter 10: Capabilities
+Chapter 11: PWA
+Part III. Content Publishing
+Chapter 12: CMS
+Chapter 13: Ecommerce
+Part IV. Content Distribution
+Chapter 14: Page Weight
+Chapter 15: CDN
+Chapter 16: Cookies
+Appendices
+Methodology
+Contributors
+Search
+Ebook
+Ebook PDF (12MB)
+2025
+2024
+2022
+2021
+2020
+2019
+English
+Deutsch
+日本語
+Help translate
+Contributors
+Methodology
+Search
+Search
+Table of Contents
+Table of Contents Switcher
+Home
+Table of Contents
+Foreword
+Chapter 1: Fonts
+Chapter 2: WebAssembly
+Chapter 3: Third Parties
+Chapter 4: Generative AI
+Chapter 5: SEO
+Chapter 6: Accessibility
+Chapter 7: Performance
+Chapter 8: Privacy
+Chapter 9: Security
+Chapter 10: Capabilities
+Chapter 11: PWA
+Chapter 12: CMS
+Chapter 13: Ecommerce
+Chapter 14: Page Weight
+Chapter 15: CDN
+Chapter 16: Cookies
+Methodology
+Contributors
+Search
+Ebook PDF (12MB)
+Year Switcher
+2025
+2024
+2022
+2021
+2020
+2019
+Language Switcher
+Deutsch
+English
+日本語
+Help translate
+HTTP Archive home
+Twitter
+Bluesky
+GitHub
+© Web Almanac. Licensed under
+Apache 2.0
+.
+Accessibility Statement
+•
+RSS Feed
+HTTP Archive home
+Twitter
+Bluesky
+GitHub

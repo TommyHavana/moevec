@@ -1,0 +1,106 @@
+{
+  "checked_on": "2026-10-30",
+  "sources": [
+    {
+      "name": "HTTP Archive, Web Almanac 2025, Page Weight",
+      "url": "https://almanac.httparchive.org/en/2025/page-weight",
+      "scope": "Lectura apartados Requestbytes, Pageweightinbytes y figura14.3:mediana móvil2164KB, escritorio2412KB. Se usa distribución de figura14.3, no mezcla con portadas/series. Fecha rastreo julio2025; no todositio2026."
+    },
+    {
+      "name": "HTTP Archive, metodología del Web Almanac 2025",
+      "url": "https://almanac.httparchive.org/en/2025/methodology",
+      "scope": "Leídos dataset, muestra, límites y herramientas:julio2025, cachévacía/sinsesión/laboratorio, no censo web ni experiencia realuniversal."
+    },
+    {
+      "name": "Google, web.dev, Browser-level image lazy loading",
+      "url": "https://web.dev/articles/browser-level-image-lazy-loading",
+      "scope": "Leído loadinglazy/eager, prioridad, evitar diferir imagen inicialLCP, reservar dimensiones. Sin extrapolar porcentajes experimentalesChrome aMEE."
+    },
+    {
+      "name": "MEE, Educación gratuita y abierta, comprobaciónHTML 30/10/2026",
+      "url": "https://moevec.org/blog/educacion-gratuita-y-abierta/",
+      "scope": "Inspección pública de etiquetasimg: portadafetchpriorityhigh, interioresloadinglazy, dimensiones y variantes. Evidencia de marcado, no velocidad medida en conexiones cubanas. Assets deE3.3.07 propios <250000B, sum176724B antesvariantes."
+    }
+  ],
+  "archived_files": [
+    {
+      "file": "sources/almanac2025-method.html",
+      "bytes": 84845,
+      "sha256": "d54fa89ff4687fbe051fdccaf3049623e20dff081f790f6febc7861e92498351"
+    },
+    {
+      "file": "sources/almanac2025-method.html.retrieval.json",
+      "bytes": 408,
+      "sha256": "7f13b0db3e245bcf991153f6be9e3c00ebed88b7e69d823c120a9879f9b40c62"
+    },
+    {
+      "file": "sources/almanac2025-method.visible.txt",
+      "bytes": 18290,
+      "sha256": "862f58303e0cca79d98eb8e8d32f190c067c887384b4e3591f5e81fa30a6691e"
+    },
+    {
+      "file": "sources/almanac2025-page-weight.html",
+      "bytes": 364727,
+      "sha256": "48d0cc372b0853c8ab4853d01ee9f2a2b6e2decfaa1cbec33632b835ab9ea2ea"
+    },
+    {
+      "file": "sources/almanac2025-page-weight.html.retrieval.json",
+      "bytes": 414,
+      "sha256": "f96e08f89e0e8b2cec1411e8565e56d6c53049bfa6988483272c8e9abc794806"
+    },
+    {
+      "file": "sources/almanac2025-page-weight.visible.txt",
+      "bytes": 112744,
+      "sha256": "e3d5fec0117dfb5d75d191ae763db42ada264ad70d3872534f8c2b8434a3daec"
+    },
+    {
+      "file": "sources/http-archive-page-weight.html",
+      "bytes": 46562,
+      "sha256": "30b712c2cf2089ba169dede1466a3a11d1cf36c7f519958661fa5de31e3f9127"
+    },
+    {
+      "file": "sources/http-archive-page-weight.html.retrieval.json",
+      "bytes": 398,
+      "sha256": "64b1c39229d374b00855c86773ba0aeaed7a6841e95855a9235d9182b9f481de"
+    },
+    {
+      "file": "sources/http-archive-page-weight.visible.txt",
+      "bytes": 4634,
+      "sha256": "3a8154f22034bdd935fc0d82f698d35b1158f3721ae9c41bc8558459d3602d2c"
+    },
+    {
+      "file": "sources/mee-html-check.json",
+      "bytes": 840,
+      "sha256": "60b89eb29aa4b9c5a1112fdf0d4c48ace1354b04bfd29ae47d2aee3de53c01e9"
+    },
+    {
+      "file": "sources/webdev-lazy-images.html",
+      "bytes": 199452,
+      "sha256": "676e4b92897a03816296be89ff584b60bbf2621534bd4ffa3079a63959212ac5"
+    },
+    {
+      "file": "sources/webdev-lazy-images.html.retrieval.json",
+      "bytes": 421,
+      "sha256": "55034cba6f561fa18b60d29652f35d9c354b1a40f6787bb52ef8b6710e2bdeaa"
+    },
+    {
+      "file": "sources/webdev-lazy-images.visible.txt",
+      "bytes": 20312,
+      "sha256": "a55ded0704b321772e45439da3976a30bc8eca825569f754be6f1b8245633f41"
+    }
+  ],
+  "omitted_claims": [
+    "No confunde mediana y media aritmética ni páginas conportadas o muestrasdispositivos; no inventa datoHTTPArchiveoctubre2026.",
+    "Sin prueba de campo en Cuba o garantía para2G/3Gafirmada. MarcadoHTML no garantiza velocidad o ahorro total.",
+    "Sin modo textoMEE, PWA, descargaoffline o guardado de formularios anunciados; navegadorpuedeofrecer funciones variables.",
+    "No informeLighthouseantiguo presentado como certificadoactualglobal ni promesa de puntuación.",
+    "No difiere de forma general la portada de la primera pantalla; principio lazydependedeubicación."
+  ],
+  "scope": "Lectura pertinente especificada; archivo completo no implica lectura íntegra. Problemas de acceso y fuentes compartidas identificados.",
+  "final_verification": {
+    "checked_at": "2026-10-30T22:08:14.552970+00:00",
+    "published_url": "https://moevec.org/blog/disenar-para-conexiones-lentas/",
+    "public_checks": "verification.json",
+    "wordpress_registry_words": 1688
+  }
+}

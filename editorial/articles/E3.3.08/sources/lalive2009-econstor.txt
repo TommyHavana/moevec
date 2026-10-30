@@ -1,0 +1,2319 @@
+
+[PAGE 1]
+Lalive, Rafael; Wuellrich, Jean-Philippe; Zweimüller, Josef
+Working Paper
+Do Financial Incentives for Firms Promote Employment of
+Disabled Workers? A Regression Discontinuity Approach
+NRN Working Paper, NRN: The Austrian Center for Labor Economics and the Analysis of the
+Welfare State, No. 0911
+Provided in Cooperation with:
+NRN: The Austrian Center for Labor Economics and the Analysis of the Welfare State, Johannes
+Kepler University Linz
+Suggested Citation: Lalive, Rafael; Wuellrich, Jean-Philippe; Zweimüller, Josef (2009) : Do Financial
+Incentives for Firms Promote Employment of Disabled Workers? A Regression Discontinuity
+Approach, NRN Working Paper, NRN: The Austrian Center for Labor Economics and the Analysis of
+the Welfare State, No. 0911, Johannes Kepler University Linz, NRN - The Austrian Center for Labor
+Economics and the Analysis of the Welfare State, Linz
+This Version is available at:
+https://hdl.handle.net/10419/115020
+Standard-Nutzungsbedingungen:
+Die Dokumente auf EconStor dürfen zu eigenen wissenschaftlichen
+Zwecken und zum Privatgebrauch gespeichert und kopiert werden.
+Sie dürfen die Dokumente nicht für öffentliche oder kommerzielle
+Zwecke vervielfältigen, öffentlich ausstellen, öffentlich zugänglich
+machen, vertreiben oder anderweitig nutzen.
+Sofern die Verfasser die Dokumente unter Open-Content-Lizenzen
+(insbesondere CC-Lizenzen) zur Verfügung gestellt haben sollten,
+gelten abweichend von diesen Nutzungsbedingungen die in der dort
+genannten Lizenz gewährten Nutzungsrechte.
+Terms of use:
+Documents in EconStor may be saved and copied for your personal
+and scholarly purposes.
+You are not to copy documents for public or commercial purposes, to
+exhibit the documents publicly, to make them publicly available on the
+internet, or to distribute or otherwise use the documents in public.
+If the documents have been made available under an Open Content
+Licence (especially Creative Commons Licences), you may exercise
+further usage rights as specified in the indicated licence.
+
+
+[PAGE 2]
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   Supported by the 
+   Austrian Science Funds 
+ 
+   
+ 
+ 
+ 
+ 
+Do Financial Incentives for Firms Promote Employment of 
+ Disabled Workers? A Regression Discontinuity Approach 
+ 
+by 
+ 
+Rafael LALIVE, Jean-Philippe WUELLRICH, 
+Josef ZWEIMÜLLER 
+Working Paper No. 0911 
+July 2009 
+The Austrian Center for Labor 
+Economics and the Analysis of the 
+Welfare State 
+ 
+University of Zurich 
+Institute for Empirical Research in Economics  
+Mühlebachstrasse 86 
+8008 Zürich, Switzerland 
+www.labornrn.at 
+Corresponding author: zweim@iew.uzh.ch 
+phone +41 (0)44 634 3724
+ 
+
+
+[PAGE 3]
+Do Financial Incentives for Firms Promote
+Employment of Disabled Workers?
+A Regression Discontinuity Approach
+Rafael Lalive, University of Lausanne∗
+Jean-Philippe Wuellrich, University of Zurich
+Josef Zweim¨uller, University of Zurich
+June 18, 2009
+Abstract
+We study the impact of employment quota on ﬁrms’ demand for disabled workers. The
+Austrian Disabled Persons Employment Act (DPEA) requires ﬁrms to provide at least one
+job to a disabled worker per 25 non-disabled workers, a rule which is strictly enforced by
+non-compliance taxation. We ﬁnd that, as a result of the discontinuous nature of the non-
+compliance tax, ﬁrms exactly at the quota threshold employ 0.05 (20 % in relative terms)
+more disabled workers than ﬁrms just below the threshold – an eﬀect that is unlikely driven
+by purposeful selection below the threshold. The ﬂat rate nature of the non-compliance tax
+generates strong employment eﬀects for low-wage ﬁrms and weak eﬀects for high-wage ﬁrms.
+We also ﬁnd that growing ﬁrms passing the quota threshold react with a substantial time-lag
+but the magnitude of the long-run eﬀect is similar to the one found in cross-section contrasts.
+JEL classiﬁcation: J15, J20, J71, J78
+Keywords: disability, discrimination, employment, employment quota, regression discontinuity
+∗Joshua D. Angrist, Arnaud Chevalier, Josef Falkinger, Reto Foellmi, Markus Froelich, Daniel Hamermesh, Bo
+Honore, Andrea Ichino, Andreas Kuhn, Michael Lechner, Enrico Moretti, Oliver Ruf, Ian Walker, Rudolf Winter-
+Ebmer and Fabrizio Zilibotti, and seminar participants at the labor seminar in Engelberg (organized by the Uni-
+versity of Zurich), at the University of Basel, at the University of St. Gallen, at the Royal Holloway University of
+London, at the University of Lausanne, at the University of Zurich, and at the EALE 2007 in Oslo provided helpful
+comments and suggestions on a preliminary version of this paper. We thank Dr. Hofer, Ministry of Social Aﬀairs,
+Vienna, and Dr. Konrad, Bundesrechenamt Vienna, for giving us access to the data. This paper was funded by
+the Austrian National Bank (“Jubil¨aumsfonds”), research grant 12327. Rafael Lalive, Department of Economics,
+University of Lausanne, CH–1015 Dorigny, Rafael.Lalive@unil.ch; Jean-Philippe Wuellrich, Institute for Empirical
+Research in Economics, Muehlebachstrasse 86, CH–8008 Zurich, wuellrich@iew.uzh.ch; Josef Zweim¨uller, Institute
+for Empirical Research in Economics, Muehlebachstrasse 86, CH–8008 Zurich, zweim@iew.uzh.ch.
+
+
+[PAGE 4]
+1
+Introduction
+Integrating disabled workers is a key challenge in employment policy.
+One out of of seven
+individuals who live in OECD countries report a health problem that limits activities of daily
+life (OECD, 2003). Employment matters tremendously for disabled individuals’ economic well-
+being.
+The work incomes of disabled individuals with a job are nearly as high as those of
+individuals without a disability.
+In contrast, the ﬁnancial resources available to a disabled
+individual without a job are 46 % lower than the disposable income of an employed disabled
+individual. Even though work is of crucial importance for disabled individuals’ material standard
+of living, their employment rates are substantially below those of the non-disabled.
+This paper studies whether an employment quota for ﬁrms can help increase the demand
+for disabled workers. We study the case of Austria, where the Disabled Persons Employment
+Act (DPEA) deﬁnes speciﬁc employment targets, coupled with ﬁnancial incentives for meeting
+these targets. Understanding the eﬀects of the quota is important for several reasons. First,
+the two most important policies for encouraging employment of disabled workers among OECD
+member countries are anti-discrimination legislation and employment quotas. While the eﬀects
+of anti-discrimination policies are quite well understood, the eﬀects of employment quotas on
+ﬁrms’ employment decisions have not yet been explored. Second, labor economists have long
+attempted to understand the importance of ﬁnancial incentives in labor demand (Hamermesh,
+1993). The employment quota policy allows studying ﬁrms’ reaction to a sharp change in the
+relative cost of employing disabled and non-disabled workers. Arguably, this design provides
+important information on the extent to which ﬁrms are willing to substitute disabled workers
+for non-disabled workers. Third, legislation very similar to that in Austria is in force in many
+other OECD countries (or has been so until very recently, as in the U.K). (table 1 provides
+an overview).
+While these regulations have a core component in the form of a mandatory
+employment quota in common, they diﬀer in the quota amount (ranging from 7% in Italy to
+2% in Korea and Spain), in the targeted ﬁrms, and in the sanctions in case of non–compliance
+(ranging from 0.25% of the monthly pay-roll for ﬁrms in Germany to 4% in Italy). Hence, while
+the case of Austria may seem special prima facie, we believe that our results are also of high
+policy relevance beyond the Austrian borders.
+Table 1 about here
+Under Austrian law, ﬁrms have to hire at least one disabled individual per 25 non-disabled
+employees. Firms that fail to comply with this obligation are subject to a tax for each unﬁlled
+quota slot. This tax is non-negligible and amounts to somewhat more than e 200 per month (or
+6.3 percent of the average wage of Austrian employees). The tax revenues are used to subsidize
+ﬁrms that provide employment to disabled workers (regardless of whether they are subject to
+2
+
+
+[PAGE 5]
+the employment quota). Our empirical strategy exploits the discontinuous change in ﬁnancial
+incentives the employment quota creates. To identify the causal eﬀect of the non-compliance
+tax on threshold ﬁrms employing 25 (or 50, 75, etc.) non-disabled workers, we compare the
+number of disabled workers in ﬁrms just below and just above the quota threshold. The central
+idea of this identiﬁcation strategy is this: When a ﬁrm with 25 non-disabled workers decides
+not to hire a disabled worker, it has to pay the non-compliance tax. In contrast, when a ﬁrm
+with 24 non-disabled workers does not hire a disabled worker, it is not subject to this tax. We
+can therefore estimate the causal eﬀect of the employment quota on the demand for disabled
+workers by comparing ﬁrms at the threshold to those just below it.
+The key identifying assumption of this strategy is that ﬁrms do not endogenously self-select
+below thresholds to avoid becoming subject to the employment quota. We discuss the validity of
+this assumption by studying four indicators that would help detect such a self-selection. First,
+endogenous self-selection is expected to result in a discontinuity in the ﬁrm size distribution.
+Our empirical evidence indicates that there is no such discontinuity. Second, if ﬁrms wanted
+to avoid becoming subject to the employment obligation, ﬁrms below quota thresholds would
+grow more slowly than those at the threshold. We ﬁnd no such pattern in the data. Third,
+the two populations of ﬁrms below and above thresholds are identical in terms of a range
+of observable characteristics. Finally, endogenous self-selection by ﬁrms which want to avoid
+employing disabled workers would result in an dip in terms of the number of disabled workers
+employed just below quota thresholds.
+We do not see such a dip.
+Thus, a comprehensive
+set of indicators is consistent with the central identifying assumption that ﬁrms just below
+thresholds provide valid information on the employment decisions of threshold ﬁrms without the
+quota system. This suggests that the employment quota creates a sharp regression discontinuity
+design.1
+The causal impact of employment quota can therefore be identiﬁed by comparing
+employment decisions of threshold ﬁrms to those of ﬁrms just below thresholds.
+The empirical analysis documents ﬁve important results. First, ﬁrms facing the obligation to
+employ disabled workers do in fact employ more disabled workers than similar ﬁrms without
+this obligation. A comparison of ﬁrms just above the quota threshold to those just below the
+threshold shows that roughly 1 in 20 ﬁrms around the ﬁrst threshold (25 non-disabled workers)
+have a disabled worker on the payroll whom they would have not hired in the absence of the
+employment quota. The average eﬀect at higher order thresholds (50, 75, ...) is roughly twice
+as large. Both estimates suggest that ﬁrms are quite willing to substitute between disabled
+and non-disabled workers (with an elasticity of substitution of around 2.4 at the ﬁrst threshold
+1The RDD has been used in a number of studies to measure causal eﬀects. See Angrist and Lavy (1999),
+DiNardo and Lee (2004), Imbens and Lemieux (2008), Lalive (2008), etc. for studies assessing the causal eﬀects
+of unions, social assistance, or unemployment beneﬁts on labor market outcomes.
+3
+
+
+[PAGE 6]
+and around 0.7 at higher order thresholds)2. Second, ﬁrms need a substantial amount of time
+to comply with employment quota rules. When a set of growing ﬁrms passes the ﬁrst quota
+threshold (25 employees), only 1 in 170 ﬁrms around this threshold fulﬁlls the employment
+obligation in the ﬁrst month; this increases slowly to 1 in 33 ﬁrms after 2 years. This indicates
+substantial frictions in hiring disabled workers. Third, the per-head nature of the non-compliance
+tax is expected to generate a stronger ﬁnancial incentive for ﬁrms that pay low wages than
+for those paying high wages.
+Consistent with these ﬁnancial incentives, we ﬁnd that ﬁrms’
+response to the per-head non-compliance tax decreases monotonically with a ﬁrm’s position
+in the wage distribution. Fourth, our empirical analysis reveals diﬀerences in the impact of
+the non-compliance tax with respect to industry. While the quote eﬀect is signiﬁcant in all
+industries, ﬁrms in the services sector and construction ﬁrms display below-average responses to
+quota, while manufacturing ﬁrms react more strongly than average. This is consistent with the
+hypothesis that technology plays an important role in the extent to which ﬁrms can accommodate
+disabled workers. Finally, we explore the extent to which ﬁrms’ employment decisions merely
+reﬂect poaching from other ﬁrms rather than creating or maintaining employment. We ﬁnd that
+roughly 50 % of the employment eﬀect can be attributed to workers already employed by the
+ﬁrm on the date of acquiring formal disability status. About 42 % of excess employment can
+be attributed to workers who were employed by other ﬁrms at the time of acquiring disability
+status. The remaining 8 % of excess employment goes to individuals who were not employed at
+the time of acquiring disability status.
+The existing literature has extensively studied the eﬀects of anti-discrimination legislation for
+disabled individuals. Using state-by-state variation in the timing of passage of the the Americans
+with Disabilities Act (ADA), DeLeire (2000), Acemoglu and Angrist (2001), and Beegle and
+Stock (2003) ﬁnd that the ADA has not improved employment of disabled individuals in the U.S.
+and may, in some cases, have even reduced their employment chances. Kruse and Schur (2003)
+challenge this ﬁnding, arguing that the data used in the earlier studies may not have provided
+precise information on disability status. Jolls and Prescott (2004) and Jolls (2004) argue that
+the ADA increased education participation by those individuals for whom the ADA probably
+oﬀered improved employment prospects, and argue that increased education participation is the
+result of an increase in the return on further education.
+Bell and Heitmueller (2005) study
+the eﬀects of the Disability Discrimination Act in the U.K. Their results conﬁrm that, as in
+the U.S., disability legislation did not have a signiﬁcant impact on employment prospects for
+2We calculated this elasticity as follows: we ﬁnd a discontinuous increase in the number of disabled workers of
+roughly 20.6% at the ﬁrst threshold, where the non–compliance tax amounts to e 150, and the the average of the
+median monthly wage of a non-disabled worker employed at ﬁrms around the ﬁrst threshold amounts to roughly
+e 1,800. Thus the elasticity of substitution is 2.4 (= 20.6/[(150/1, 800) · 100]). The same calculation for higher
+order thresholds yields 0.7 (= 5.3/[(150/1, 950) · 100]).
+4
+
+
+[PAGE 7]
+disabled individuals in the U.K. 3 The existing literature on the eﬀects of employment quota
+is rather sparse. The only empirical study we know on the role of the employment quota is
+Wagner et al. (2001).4 Their paper assesses the impact of the employment quota in Germany
+on job dynamics in 400 small ﬁrms and ﬁnds no eﬀect of the quota threshold.
+This paper contributes to the literature in at least three dimensions. First, this paper adds to
+the literature by adopting a regression discontinuity design to estimate the causal eﬀect of the
+employment quota on the employment of disabled workers. While a large number of studies have
+looked at the eﬀects of anti-discrimination legislation with respect to disabled workers, we are
+not aware of previous studies that attempt to evaluate the eﬀect of quota rules on employment
+of disabled workers. Second, our evaluation is based on high-quality data from Austrian private
+ﬁrms and their (disabled and non-disabled) workers. In fact, we use the same data sources the
+Austrian social welfare authorities use to determine compliance with employment quota: the
+Austrian Social Security Data (ASSD) linked to data from the Austrian Federal Welfare Oﬃce
+(FWO). The former data set allows us to calculate the exact size of the labor force (divided into
+disabled and non-disabled workers) of every single Austrian ﬁrm. The latter data set allows us
+to assess the number of individuals with formal disability status within each ﬁrm. Since our data
+set covers all of the almost 240,000 Austrian private sector ﬁrms, we can provide informative
+contrasts of ﬁrms just below and just above the quota threshold to estimate the quota eﬀect.
+Third, by providing evidence for low-wage and high-wage ﬁrms, for the employment dynamics of
+disabled workers within a ﬁrm, and for the employed disabled worker’s disability/employment
+history, our study sheds light on potentially important mechanisms where quota rules have an
+impact on employment of disabled workers.
+The paper is organized as follows. Section 2 provides a detailed description of institutional
+environment in Austria.
+Section 3 describes the data and Section 4 outlines the empirical
+strategy. Our main results are presented in section 5. Section 6 concludes.
+2
+Background
+2.1
+The Disabled Persons Employment Act
+The Disabled Persons Employment Act (DPEA) was implemented in Austria in 1969; it forms
+the legal basis of the Austrian employment quota system.
+It deﬁnes the process by which
+individuals acquire the formal status of being “severely disabled”, regulates the employment
+obligations for ﬁrms and the ﬁnancial sanctions associated with non-compliance of these obli-
+gations, speciﬁes rules on how to pay out subsidies to ﬁrms employing disabled workers, and
+3See also Lechner and Vazquez-Alvarez (2003) and Verick (2004) who study the eﬀects of German anti-
+discrimination legislation.
+4See Welch (1976) for an early theoretical attempt to characterize the eﬀects of quota on the labor market.
+5
+
+
+[PAGE 8]
+introduces employment protection rules for disabled workers. The quota rule obliges ﬁrms to
+hire one disabled worker per 25 non-disabled workers, leading to a quota of 4 %.5 Firms that do
+not comply with this obligation are subject to a non-compliance tax. This tax is the same for
+each non-hired disabled worker and is independent of the wage bill paid in the particular ﬁrm.
+The non-compliance tax steadily increased from e 118 in 1990 to e 150 in the ﬁrst half of 2001,
+was increased by e 46 to e 196 on July 1, 2001, and reached e 206 in 2006. This amounts to
+roughly 6.3 % of a worker’s average monthly salary or 0.7 % of a ﬁrm’s average monthly payroll
+in the Austrian private sector in 2006.6
+The process by which individuals acquire the formal status of a disabled individual is as follows.
+In order to become entitled, disabled individuals have to ﬁle an application with the Austrian
+Federal Welfare Oﬃce (FWO). The application is approved once a FWO medical expert assesses
+a physical, mental, intellectual, or sensory disorder which reduces the individual’s work capacity
+by at least 50 percent. Employers do not have a direct inﬂuence on the process of obtaining
+the formal disability status for at least two reasons.
+On the one hand, workplace or other
+accidents that lead to a sudden change in work capacity almost always trigger the disability
+application process automatically. On the other hand, one could argue that employers below
+the quota threshold might have an incentive to persuade a de facto disabled individual to abstain
+from acquiring the disability status. However, this is unlikely as these individuals would forego
+substantial advantages in terms of employment protection.
+The group of individuals with the formal disability status comprises a non-negligible proportion
+of the Austrian work force. In 1999, the time period of our analysis, about 80,000 individuals
+or 2 % of aggregate employment were registered as disabled according to the law.7 Recall that
+the employment quota speciﬁes that 4 % of each ﬁrm’s workforce be employees registered as
+disabled. This means that the group of registered disabled individuals is too small to achieve
+full compliance with the employment quota. The non-compliance tax is thus a de-facto tax on
+ﬁrms who employ at least 25 non-disabled workers.
+The FWO directly enforces the employment obligation, by checking the size of each ﬁrm and
+the number of employed disabled workers on the ﬁrst day of each month. The exact calculation
+of the employment quota takes the particular disabilities into account. There is some double-
+weighting, i.e. particular groups of disabled workers are equivalent to two disabled workers,
+which include the (i) blind, (ii) disabled individuals of age 19 years or younger, (iii) disabled
+5The Austrian quota is lower than that in Germany (5 %), France (6 %), Poland (6 %), and Italy (7%); but
+it is higher than that in Belgium, Korea, and Spain (2 %).
+6In addition to the increase in the non–compliance tax increase of almost 30%, another important policy
+change took place on January 1, 1999.
+Before that, ﬁrms that employed more disabled individuals than the
+DPEA demanded were granted a premium in the amount of the non-compliance tax per month for each excessive
+disabled employee. However, this rule was abolished on January 1, 1999.
+7See Humer et al. (2007) for more information on the number of individuals who are registered disabled in
+Austria.
+6
+
+
+[PAGE 9]
+apprentices, (iv) disabled individuals of age 50 or older with a degree of disability of at least
+70 percent, (v) disabled individuals of 55 years or older, and (vi) individuals in a wheelchair.
+Finally, the FWO levies a non-compliance tax on ﬁrms that do not fulﬁll the employment quota.
+The DPEA also deﬁnes how the revenues collected through non-compliance taxes are to be
+spent. The main beneﬁciaries are ﬁrms (and their disabled employees) who actually oﬀer em-
+ployment to disabled workers. These subsidies, either in form of allowances or loans, support
+those ﬁrms which employ at least one disabled worker. In particular, they are granted for ad-
+equate workplace accommodation, wage subsidies, work assistance, occupational retraining, or
+professional development. Basically, this represents a reallocation of resources from ﬁrms that
+fail to comply with the quota rule to ﬁrms that employ at least one disabled worker; the real-
+location is used to compensate the latter for their eﬀort in employing disabled workers. Note,
+however, that the subsidies are available to all ﬁrms, not just to those subject to the employment
+obligation. The subsidies granted in 2005 amounted to roughly e 65 Mio.
+Finally, the DPEA provides increased employment protection for disabled workers, i.e. protec-
+tion from dismissal and protection from wage cuts due to disability. The increased protection
+against dismissal is twofold. On the one hand, it stipulates that a contract may only be ter-
+minated after a probationary period of at least 4 weeks. Furthermore, dismissal is only valid
+if a special FWO committee agrees to it; dismissals without the consent of this committee are
+unlawful. However, the increased dismissal protection ﬁrst comes into eﬀect after a probationary
+period of six months has elapsed. The probationary period originally amounted to one month,
+and was extended in two steps, ﬁrst from one to three months on January 1, 1999 and then from
+three to six months (which is currently in force) on July 1, 2001.
+2.2
+Hypotheses
+How do quota rules and the associated ﬁnancial sanctions aﬀect ﬁrms’ incentive to employ a
+disabled workers?
+Recall that work capacity must be reduced by at least 50% in order to
+qualify for the status “registered disabled”. This means that a disabled worker’s productivity
+is arguably lower than that of a non-disabled worker. Since ﬁrms are required by law to pay
+disabled workers the same wages as non-disabled workers, there is a gap in terms of the marginal
+proﬁt from employing a non-disabled worker compared to a disabled worker.
+DPEA changes this situation in two respects. First, DPEA generally subsidizes employment
+of disabled workers by paying for workplace adjustments and also by covering direct wage and
+training subsidies. These subsidies serve to reduce the productivity gap between disabled and
+non-disabled workers. Second, the non-compliance tax generates a discontinuous increase on the
+order of 6.3 % in the relative cost of employing a non-disabled worker compared to employing
+a disabled worker at the quota threshold. Since subsidies are available to all ﬁrms regardless of
+7
+
+
+[PAGE 10]
+their non-disabled workforce, comparing threshold ﬁrms to those just below the threshold identi-
+ﬁes substitution eﬀects of small changes in the relative cost in a context with small productivity
+gaps between non-disabled and disabled workers. In this context, even small changes in cost can
+lead to large changes in ﬁrm’s employment decisions.
+Moreover, we expect that the eﬀects of the non-compliance tax depends on a ﬁrm’s position
+in the wage distribution and on technology. With regard to wages, the ﬂat rate nature of the
+tax implies that the incentive to employ disabled workers will be stronger for ﬁrms at the lower
+end of the wage distribution than for ﬁrms at the upper end of the wage distribution.
+We
+therefore assess the eﬀect of the non-compliance tax for ﬁrms grouped by the quartiles of the
+ﬁrm wage distribution. With regard to technology, the non-compliance tax will be more eﬀective
+in promoting employment in ﬁrms where productivity is less sensitive to disability related work
+impediments. Using industry as a proxy for technology, we therefore assess the eﬀects of the
+non-compliance tax by industry.
+The ﬁnal key question examines the extent to which ﬁrms’ employment decisions merely reﬂect
+poaching from other ﬁrms rather than creating or maintaining employment.
+We assess this
+important issue by analyzing three groups of disabled workers: workers who had already been
+with the ﬁrm when acquiring the protected status, workers who had been employed by other
+ﬁrms at that time, and individuals who were not-employed when applying for protection. Full
+reallocation of disabled workers can be detected by decomposing the quota employment eﬀect.
+Full reallocation means that all excess employment in threshold ﬁrms goes to workers from other
+ﬁrms. Employment promoting eﬀects of the quota show up for former employees (with threshold
+ﬁrms maintaining their jobs), or for individuals who were not employed when registering for
+protection (new employment).
+3
+Data and Empirical Strategy
+To assess the impact of the employment quota on the ﬁrms’ hiring decisions with respect to
+disabled workers, we use register data from two diﬀerent sources: (i) the Austrian Social security
+database (ASSD), which contains detailed information on the individuals’ employment history
+and characteristics from 1972–2002 on a daily basis together with an unambiguous ﬁrm identiﬁer,
+as well as ﬁrms’ industry aﬃliation and location and (ii) personal data from the Austrian Federal
+Welfare Oﬃce (FWO) which reports disability status, disability type, and disability degree for
+all individuals disabled in the sense of the Employment Act for Disabled Individuals (DPEA).
+One advantage of this type of information is that a medical procedure (rather than self-reported
+by ﬁrms or workers) objectively assesses disability status. Note, however, that the FWO data
+set is inﬂow-based; its records began in January 1970. This means that the stock of disabled
+8
+
+
+[PAGE 11]
+workers might be incompletely captured in the early stages of this data. This drawback gradually
+vanishes if a snapshot of the stock of disabled workers is taken at a later time. Accordingly, we
+will only use data from very recent years (see below for details). The ASSD and FWO data
+can be linked on the basis of a person identiﬁer. This allows us to calculate two crucial pieces
+of information accurately: the number of the non-disabled workers and the number of disabled
+workers each ﬁrm employs. The former variables determines whether a ﬁrm is required to hire a
+disabled worker and the latter represents how many disabled workers each ﬁrm actually employs.
+Hence we can precisely determine whether and and the extent to which a ﬁrm complies with
+the employment quota. The FWO checks ﬁrms’ compliance with the employment quota on the
+ﬁrst day each month. We account for this administrative modus operandi by creating a data set
+with monthly reference dates, all of which correspond to the ﬁrst day of each month.8
+Since the 1990s, two major changes relevant for the employment quota occurred in the DPEA:
+(i) an “over-compliance premium” (of the same amount as the non-compliance tax) was aban-
+doned on January 1, 1999 and (ii) the non-compliance tax was increased to e 200 on July 1,
+2001.9 We restrict our sample to the time period between January 1999 and and June 2000 for
+two reasons. First, these policy changes do not aﬀect this time span. Second, as the FWO data
+only provide information on the inﬂow into recognized disability starting in 1970, restricting the
+sample to dates after 1999 makes it very likely that our data capture the entire stock of disabled
+workers.10 We further restrict the analysis to ﬁrms in the private sector – those likely to pursue
+a clear, proﬁt maximizing objective. In particular, we look at ﬁrms operating in the services
+sector, manufacturing, construction, and the tourism industry.
+We focus on ﬁrms’ employment decisions with respect to disabled workers just above and just
+below quota thresholds T ∈{25, 50, 75, ...}. This sample restriction eﬀectively means that we
+study the eﬀect of quota rules on ﬁrms (i) on the margin of entering the employment quota
+system when the quota threshold T = 25 is considered, and (ii) on the margin of being induced
+to hire an (additional) disabled worker when any quota threshold T > 25 is considered. We
+deﬁne just above and just below as ﬁrms with ﬁrm size S ∈[T −12, T + 12]. This bandwidth
+is the largest bandwidth that does not result in overlapping ﬁrm sizes across thresholds.11 We
+8Note that simply hiring a disabled worker for only one day a month (i.e. the ﬁrst day of each month) in order
+to comply with the employment quota is not feasible for ﬁrms. An imposed regulatory restriction of the DPEA
+rules out this behavior. It even turns out that the average number of working days – including weekends – are
+slightly higher for disabled than for non-disabled workers. The average (s.d.) number amounts to 30.12 (1.86)
+days for disabled and 29.93 (1.39) for non-disabled workers.
+9The non-compliance tax is adjusted annually by means of a matching factor determined by the general social
+security act (Allgemeines Sozialversicherungsgesetz).
+10In 2000, the mean retirement was 59 years for men and 57 years for women. This means that our data does
+not provide information on disability status for those individuals who attained the recognized disabled status
+before they were 30 years old. Since less than one fourth of the disabled individuals attain disabled status before
+this age, we do not expect this drawback in our data to be of major signiﬁcance.
+11When analyzing the ﬁrst threshold with this bandwidth, ﬁrm sizes up to 37 (= 25+12) are taken into account.
+The smallest ﬁrm size considered for the analysis at the second threshold amounts to 38 (= 50 −12). Increasing
+the bandwidth would therefore lead to overlapping ﬁrm sizes across thresholds.
+9
+
+
+[PAGE 12]
+test the sensitivity of the results to the choice of bandwidth by further restricting the sample to
+S ∈[T −9, T +9] as well as S ∈[T −6, T +6]. It turns out that our main ﬁndings are not sensitive
+to the choice of bandwidth. Restricting the analysis to observations close to the quota threshold
+is important since, not surprisingly, ﬁrm size turns out to be an important predictor of disabled
+employment. Note, as we discuss in section 4, we will not only control for the eﬀect of ﬁrm size
+by sample restriction, but will also use regression techniques to further account for the eﬀects
+of ﬁrm size. Finally, note that the number of ﬁrm–month observations is largely decreasing
+in ﬁrm size. There are therefore only very few ﬁrm–month observations for very large ﬁrms.
+In order to cover all possible ﬁrm size values around each threshold, we only keep ﬁrm–month
+observations associated with a threshold with a complete set of ﬁrm size values. As a result,
+we only consider ﬁrm-month observations around the 1st −37th, 42nd, and 50th threshold. In
+the light of very few ﬁrm–month observations around thresholds T > 25, we decided to pool
+ﬁrm–month observations around these thresholds, i.e. we assign treatment status according to
+the deviation from thresholds ˜Si ≡(Si −T), where T represents the nearest threshold Si is
+associated with. Firms are treated if ˜Si ≥0 and non-treated if ˜Si < 0.
+Table 2 reports key background statistics on ﬁrms located around the threshold T = 25. Panel
+A of table 2 shows the two key indicators. The ﬁrst line provides information on the average
+number of jobs provided to registered disabled individuals in treated and control ﬁrms. We
+calculate the number of disabled workers per ﬁrm in the same way as the FWO, i.e. it is calculated
+by double weighting particular groups of disabled individuals (see section 2).
+Control ﬁrms
+provide on average 0.19 work places to disabled individuals. This means that about 1 in 5 ﬁrms
+employs a disabled worker even in the absence of an employment obligation. In contrast, treated
+ﬁrms which have passed the quota threshold employ about 0.42 disabled workers, roughly twice
+as many as non-treated ﬁrms do. Thus, prima facie evidence is consistent with an employment
+promoting eﬀect of the quota rule.
+Table 2 about here
+Row 2 of panel A of table 2 clearly indicates that treated and control ﬁrms are quite diﬀerent
+and hence comparing the raw diﬀerential does not provide causal evidence on the eﬀects of
+employment quota.
+Treated ﬁrms are, by construction, larger than control ﬁrms.
+Whereas
+control ﬁrms employ 17.10 non-disabled workers on average, treated ﬁrms employ almost 30.13
+non-disabled workers – again almost twice as many as control ﬁrms. To the extent that ﬁrm
+size is important in oﬀering jobs to disabled workers, prima facie evidence is likely to be biased.
+Panel B of table 2 displays information on ﬁrm size dynamics. The indicator “unchanged
+workforce since last month” measures stability of workforce between month t and month t −1.
+The indicator “expanded since 6 months” measures whether ﬁrm size in month t is strictly larger
+10
+
+
+[PAGE 13]
+than ﬁrm size in month t−6. The indicator “contracted since 6 months” measures whether ﬁrm
+size in t is strictly smaller than in month t −6. Results indicate that 41 % of control ﬁrms did
+not see any change in their workforce over a month, whereas this is true only for 25 % of the
+ﬁrms above the quota threshold. In terms of ﬁrm growth, results indicate that 45 % of control
+ﬁrms and 47 % of the treated ﬁrms expanded their employment during that past 6 months.
+In contrast, 39 % of treated ﬁrms downsized within the last six months compared to 34 % of
+control ﬁrms. This suggests that treated and control ﬁrms diﬀer strongly in terms of stability
+of the workforce and in terms of downsizing, but less so in terms of ﬁrm growth.
+Panel C of table 2 provides further background information on ﬁrms. It reports information on
+a ﬁrms’ workforce structure, pay, age, tenure, and apprentices. Note that all of these measures
+only take non-disabled workers employed by the ﬁrm in month t into account. In terms of ﬁrms’
+workforce structure, results indicate that the average control ﬁrm employs 44 % white-collar
+workers, which is also true for treated ﬁrms. In contrast, female employment is substantially
+higher among control ﬁrms (41 % women) than among treated ﬁrms (38 % women).
+This
+diﬀerence is, arguably, due to the fact that control ﬁrms are considerably smaller than treated
+ﬁrms; it should thus disappear once the diﬀerences in ﬁrm size are reduced.
+Control ﬁrms’
+employees are on average 35.4 years old, whereas treated ﬁrms employ individuals who are
+slightly older (35.7 years). In order to measure the level of pay for each ﬁrm, we also report
+information on the median daily wage each ﬁrm pays its employees on the ﬁrst day of month
+t.
+Results focus on the median wage since ASSD wage information is censored from above
+for about 20 % of employees covered by ASSD. Results indicate that control ﬁrms pay their
+employees about 59.8 e per day (or about 1764 e per month), whereas treated ﬁrms pay almost
+3 e per day more (62.6 e per day or 1878 e per month). Firms located around the ﬁrst quota
+threshold face a non-compliance tax of e 150 – or about 8 % of the median wage they pay their
+non-disabled workforce. Control ﬁrm employees have been working for their current employer
+on average for 5.3 years whereas treated workers have been with their employer slightly longer
+(5.6 years). Finally, treated ﬁrms provide about 2 jobs to apprentices, which is considerably
+more than control ﬁrms (1.4 jobs).
+Panel D of table 2 contains information on ﬁrms that the treatment should not aﬀect, i.e.
+variables that are pre-determined with respect to the DPEA: ﬁrm age, location, and industry.
+Firm age measures the number of years the ﬁrm number has been observed in ASSD since 1972 –
+the year ASSD started.12 Results indicate that the average control ﬁrm was founded 15.9 years
+12Note that this implies that ﬁrm age is left censored. Left censoring is not problematic in this application
+because the focus of this paper is to measure the eﬀects of the employment quota on employment of disabled
+workers. This means that information on ﬁrm age is merely used to control for diﬀerences between treated ﬁrms
+and control ﬁrms. Moreover, ﬁrm age will turn out to be balanced between threshold ﬁrms. This implies that left
+censoring of ﬁrm age is unlikely to bias estimates of the eﬀect of employment quota on employment of disabled
+workers.
+11
+
+
+[PAGE 14]
+before the current date, whereas treated ﬁrms were established almost exactly 1 year earlier.
+While there are no strong diﬀerences in terms of ﬁrm location, there are moderate diﬀerences in
+terms of industry. Whereas 30 % of treated ﬁrms are in manufacturing, the corresponding ﬁgure
+is only 28 % for control ﬁrms. In contrast, 11 % of control ﬁrms are in the tourism industry,
+while only 9 % of the treated ﬁrms are.
+The ﬁgures of Panel B and C of table 2 reveal that there are some diﬀerences between treated
+and non-treated ﬁrms in variables that directly relate to ﬁrm size (and thus to the treatment
+status) and to pre-determined covariates. This means that simply contrasting treated and control
+ﬁrms does not provide information on the causal eﬀect of employment quota on the employment
+decisions of Austrian ﬁrms. The following section discusses the more reﬁned framework we use
+in the empirical analysis. Descriptive statistics for the pooled higher thresholds are available in
+table 3 in the appendix.
+4
+Identiﬁcation and Estimation
+Our empirical strategy is based on the fact that the DPEA discontinuously changes the ﬁnancial
+incentives for employing disabled workers. The DPEA requires that ﬁrms hire a disabled worker
+if the size of the ﬁrm (as measured by the number of non-disabled workers) Si is greater than
+or equal to the quota threshold T ∈{25, 50, 75, ...}. Firms that do not comply are subject to a
+non-compliance tax. This creates ﬁnancial incentives for ﬁrms to hire disabled workers as ﬁrms
+face a trade-oﬀbetween hiring a disabled worker or paying a compensation to be rid of this
+obligation.
+To identify the causal eﬀect of employment quota on employment of disabled workers, we
+adopt a regression discontinuity (RD) design. The RD design allows identiﬁcation of the causal
+eﬀect of the employment quota for ﬁrms located at the quota threshold T. The RD design
+in the DPEA context is sharp, i.e. the probability of having to pay the tax for not providing
+a job to a disabled worker changes from zero to one at the threshold. This means that the
+discontinuity at the assignment threshold reﬂects the average causal eﬀect for threshold ﬁrms.
+The key identifying assumption for this result is that the expected number of disabled workers
+in absence of the employment quota is continuous at the threshold (Hahn et al. (2001)).13 In
+terms of the potential outcomes approach, the validity of our empirical strategy hinges on the
+assumption that the potential outcome for non-treated ﬁrms is independent of ﬁrm size at the
+threshold (i.e. a local exclusion restriction).
+The following linear regression allows identiﬁcation of the discontinuity in the average number
+13This basically means that the demand of ﬁrms for disabled workers is continuous at the threshold in absence
+of the employment quota. Note that this also applies for the labor supply of disabled workers, since all provisions
+provided by the DPEA (increased employment protection, wage subsidies, workplace accommodation, etc.) are
+available independently of the ﬁrm size.
+12
+
+
+[PAGE 15]
+of disabled workers per ﬁrm at treatment assignment thresholds T ∈{25, 50, 75, ...}:
+Yit = α0 + α1 · Dit + β0 · (Sit −T) + β1 · Dit · (Sit −T) + X′
+itγ + πt + ϵit,
+(1)
+where Yit denotes the number of disabled workers, Dit indicates whether a ﬁrm is treated or
+not, and Sit denotes ﬁrm size of ﬁrm i at date t. Including Sit is important since larger ﬁrms
+tend to provide more jobs to disabled workers.
+The key parameter is α1. This parameter measures the average causal eﬀect of DPEA on the
+number of disabled workers for ﬁrms at the quota threshold T. α0 measures the average number
+of disabled workers for ﬁrms just below the assignment threshold T. The parameters β0 and β1
+capture the correlation between ﬁrm size Sit and the average number of disabled workers per
+ﬁrm. In some speciﬁcations, we additionally control for X′
+it (a vector containing all covariates
+displayed in Panel B-D of table 2 or table 3 respectively) and time ﬁxed eﬀects πt (30 monthly
+dummies). X′
+it allows improving the precision of the RDD estimates, and πt controls for changes
+over time that potentially aﬀect the hiring strategy of either disabled or non-disabled workers,
+such as economic conditions, for example. It turns out, however, that the results are neither
+sensitive to the inclusion of X′
+it nor πt.
+There are three issues of particular relevance in the present context. First, note that ﬁrm
+size Sit has discrete support. Discrete support implies that we need to extrapolate in order to
+predict the counterfactual for threshold ﬁrms – the number of disabled workers threshold ﬁrms
+employ in the absence of the ﬁne. The baseline model assumes a linear functional form, but we
+also add quadratic terms in Sit as a sensitivity analysis. Moreover, we only consider ﬁrms within
+a window of size 12 below and above the threshold, thus Sit ∈[T −12, T + 12]. This sample
+restriction is intended to downplay the importance of the functional form between the mean
+number of disabled workers and non-disabled ﬁrm size. Note that this is the largest bandwidth
+that ensures non-overlapping ﬁrm sizes across thresholds. We test the sensitivity of our results
+with respect to the choice of bandwidth by further restricting the sample to ﬁrms with ﬁrm sizes
+Si ∈[T −9, T +9] and Si ∈[T −6, T +6]. It turns out that the choice of bandwidth does not drive
+our main ﬁndings. Discrete support also aﬀects variance-covariance matrix estimates. Lee and
+Card (2008) suggest using cluster-consistent standard errors (clustered on the distinct values of
+Si) to account for the uncertainty related to the choice of the functional form. Furthermore,
+remember that we use pooled cross-section data for the econometric analysis. Observations of
+the same ﬁrm cannot be considered to be independent from each other. Thus, we not only need
+to cluster on Sit but also on ﬁrms (note that this is non-nested). Cameron et al. (2006) propose
+a new variance estimator for OLS that provides cluster-robust inference when there is two-way
+clustering that is non-nested. As a consequence, we report two types of robust standard errors
+13
+
+
+[PAGE 16]
+in our regression outputs: standard errors that are (i) clustered on Sit and (ii) those that are
+clustered on Sit and ﬁrm identiﬁers.
+Second, the baseline speciﬁcation may be sensitive to unobserved ﬁrm heterogeneity, and it
+does not provide information on the timing of ﬁrms’ employment decisions. Comparing threshold
+ﬁrms to those just below the threshold regardless of how long threshold ﬁrms have been subject
+to the quota, the baseline strategy provides an estimate of the long-run eﬀect of employment
+quota on disabled employment. We assess sensitivity to unobserved heterogeneity and timing
+of ﬁrms’ employment decisions in three ways. We begin by estimating the baseline speciﬁcation
+by ﬁrm ﬁxed eﬀects to identify the employment quota eﬀect; we use ﬁrms that cross the quota
+threshold within the sample period of 30 months. This provides a medium-run estimate of the
+employment quota on threshold ﬁrms which is unaﬀected by the presence of time invariant ﬁrm
+heterogeneity. We then add an interaction term between the treatment dummy Dit with the
+number of months a ﬁrm had been exposed to the quota in the baseline model in the past, i.e.
+Dit
+Pt−1
+j=0 Dij, and re-estimate it by ﬁrm ﬁxed eﬀects. This allows assessing both the immediate
+eﬀect of crossing the threshold as well as the dynamics of the treatment eﬀect for ﬁrms that
+cross the threshold within the sample period. We ultimately provide estimates of the treatment
+eﬀect in a series of diﬀerence models. The ﬁrst diﬀerence speciﬁcation of the baseline model –
+relating the month–to–month change in disabled employment to the month–to–month change
+in treatment status – identiﬁes the immediate impact of crossing the threshold. We also provide
+estimates at higher order diﬀerences to assess how time since crossing the threshold aﬀects
+disabled employment.
+Third, we assess whether there is endogenous selection of ﬁrms at the quota threshold studying
+ﬁrm size density, ﬁrm dynamics, and pre-determined characteristics of ﬁrms. Regarding ﬁrm
+size, ﬁrms might stay just below the threshold in order to avoid becoming subject to the non-
+compliance tax. If this endogenous sorting behavior related to the DPEA is present, we would
+expect a spike in the ﬁrm size distribution just below the threshold. Figure 1 reports the ﬁrm size
+distribution around the quota threshold T = 25. Visual inspection suggests that no important
+spike is present.14
+14We also formally test for the presence of a discontinuity in the ﬁrm size distribution (see McCrary (2008)).
+We run a regression in the ﬂavor of the baseline model extended with quadratic terms in S (which is appropriate
+with regard to ﬁgure 1), where we used the ﬁrm size density as a dependent variable. A ﬁrm size bandwidth
+Sit ∈[T −12, T + 12] is used, yielding 25 observations. It turns out that the ﬁrm size density is 0.42 percentage
+points lower at the quota threshold than would be expected from information on ﬁrms below the threshold. This
+diﬀerence is statistically signiﬁcantly diﬀerent from zero at the 5 %-level of signiﬁcance (p-value of 0.03). However,
+when we run the same regression for a set of placebo thresholds ¨T ∈{13, 14, ..., 23, 24, 26, 27, ..., 37} using the
+density for ﬁrm sizes ranging from 1 to 49, we also ﬁnd discontinuities at these placebo thresholds which tend to
+be somewhat larger at lower ﬁrm sizes and then level oﬀas ﬁrm size increases. Moreover, the discontinuity at the
+true threshold 25 is well in line with the discontinuities estimated at placebo thresholds. These results suggest
+that the discontinuity in the ﬁrms size density estimated at the quota threshold is a statistical artifact rather
+than due to purposeful self-selection by ﬁrms. Furthermore, pooled quota thresholds T > 25 ﬁgure 2, detailed
+in the appendix, also fail to show a spike. An application of the same formal test as for quota threshold T = 25
+yields no discontinuity around quota thresholds T > 25 (using a linear as well as a quadratic functional form).
+14
+
+
+[PAGE 17]
+Figure 1 about here
+With regard to ﬁrm dynamics, we look at the ﬁrms’ employment ﬂuctuation and employment
+growth. The idea is that ﬁrms just below the threshold avoid growing, whereas no such restriction
+on ﬁrm growth exists at other ﬁrm sizes. For the same reason we expect higher employment
+stability just below the threshold. Again, we run regressions in the ﬂavor of the baseline model
+but use the following three dependent variables: (i) i.e. whether a ﬁrm has had any changes in
+its workforce from t −1 to t, (ii) whether a ﬁrm has expanded between t −6 and t, and (iii)
+whether a ﬁrm has contracted between t −6 and t. The results are summarized in table 4 (the
+dependent variable in all regressions is a dummy variable). Linear probability model results
+indicate that the only variable exhibiting a statistically signiﬁcant discontinuity at either the 1
+% or 5 % level is that indicating whether a ﬁrm has grown. The estimate suggests that threshold
+ﬁrms expanded 1.7 percentage points less than would be expected using information on ﬁrms
+just below the quota threshold. However, this result is neither economically signiﬁcant nor very
+robust. Adding a second order term in ﬁrm size leads to an insigniﬁcant threshold eﬀect on ﬁrm
+growth (table 4 column (2)).15
+Table 4 about here
+With regard to pre-determined variables, we study whether ﬁrm age, industry, and ﬁrm loca-
+tion exhibit any discontinuity at the threshold. The baseline model with a linear ﬁt in ﬁrm size S
+is used for this purpose. Figure 3 shows the discontinuities together with the corresponding 95%
+conﬁdence intervals (with standard errors clustered on ﬁrm size and ﬁrm) at quota threshold
+T = 25. With the exception of one region (Vorarlberg), none of the ﬁrm characteristics dis-
+play signiﬁcantly diﬀerent means for quota threshold ﬁrms when compared to ﬁrms just below
+the quota threshold.16 We nonetheless investigate the sensitivity of our results with respect to
+adding these ﬁrm characteristics. Including information on the ﬁrms in our sample can also lead
+to a reduction in the noise and potentially produce more precise estimates.
+Figure 3 about here
+5
+Econometric Results
+Main Results for Quota Threshold T = 25:
+This section presents the main economet-
+ric estimates of the eﬀects of the DPEA on the number of disabled workers per ﬁrm at quota
+15For pooled quota thresholds T > 25 we conduct the same tests for self–selection as for quota threshold
+T = 25. Results are displayed in table 5 in the appendix. The coeﬃcients are neither economically nor statistically
+signiﬁcant.
+16With the exception of two regions (Burgenland and again, Vorarlberg), non of the predetermined covariates
+turn out to have diﬀerent means for pooled quota thresholds T > 25 (see ﬁgure 4 in the appendix).
+15
+
+
+[PAGE 18]
+threshold T = 25 (for the eﬀect of the employment quota at thresholds higher than T = 25 see
+further below).17 Figure 5 reports the number of disabled workers per ﬁrm by ﬁrm size for sizes
+ranging from 13 to 37. The evidence is based on 442,788 ﬁrm-month observations, providing
+information on the employment decisions of 25,687 ﬁrms. Descriptive evidence indicates that
+the average number of disabled workers employed by ﬁrms below the quota threshold is lower
+than the the number of disabled workers employed by ﬁrms subject to the quota. Speciﬁcally,
+ﬁrms that employ 13 non-disabled workers oﬀer about 0.14 workplaces to disabled workers –
+1 out of 7 ﬁrms provides employment to disabled workers. In contrast, ﬁrms that employ 24
+non-disabled workers provide 0.3 jobs to disabled workers. Figure 5 also suggests an approx-
+imately linear increase in the mean number of jobs provided to disabled workers as ﬁrm size
+increases. Strikingly, quota threshold ﬁrms with 25 non-disabled workers appear to oﬀer 0.35
+jobs to disabled workers, an unexpected increase, given the behavior of ﬁrms not subject to the
+employment obligation. Again, the number of jobs provided to disabled workers increases in an
+almost linear fashion from ﬁrm size 25 to ﬁrm size 37.
+Figure 5 about here
+Figure 5 thus presents evidence of an unexpected change in the average number of jobs provided
+to disabled individuals. This change can be measured by superimposing the ﬁt of the baseline
+model.
+Doing so yields a discontinuity at the quota threshold T = 25 of 0.0521 (standard
+error clustered on ﬁrm size is 0.0078; standard error clustered on ﬁrm size and ﬁrm is 0.0140).
+This discontinuity is statistically signiﬁcant at the 1%-level, but the eﬀect appears to be rather
+small. However, the mean number of disabled workers per ﬁrm around the ﬁrst threshold is 0.25,
+meaning that the discontinuity constitutes a 20.6% increase in the number of disabled workers
+per ﬁrm (= 0.0521/0.2526). Put diﬀerently, roughly one out of 20 ﬁrms employs one additional
+disabled worker due to the DPEA.18
+Table 6 shows our main results for the eﬀect of the employment quota on jobs provided to
+disabled workers. Note ﬁrst that the choice of clustering on the ﬁrm size, or on the ﬁrm size
+and ﬁrm, does not aﬀect the statistical signiﬁcance of our results in any of the 5 columns.
+Column 1 simply repeats the results from ﬁgure 5 and constitutes our baseline speciﬁcation.
+17We put our main focus to this threshold for two reasons. First, ﬁrms at higher order thresholds are already
+subject to the quota system. Studying the ﬁrst threshold allows analyzing the eﬀects of being subject to or free
+of the quota system. Second, there are many fewer ﬁrms at higher order thresholds than at the ﬁrst threshold.
+This means that the ﬁrst threshold is the most relevant threshold in terms of the number of ﬁrms subject to the
+quota.
+18Moreover, ﬁgure 5 also provides supplementary evidence concerning endogenous self-selection of ﬁrms below
+the threshold. Arguably, ﬁrms that face strong diﬃculties in accommodating a disabled worker and that self-select
+below the quota threshold would tend to decrease the mean number of jobs provided to displaced workers just
+below the quota threshold, i.e. this would show up as an unexpected dip in the number of disabled jobs just below
+the quota threshold. In contrast, results in ﬁgure 5 suggest that ﬁrms just failing the quota threshold employ
+slightly more disabled individuals than would be expected from a linear regression modeling the behavior of ﬁrms
+below the quota threshold. This evidence is not consistent with the self-selection of ﬁrms with respect to their
+likelihood of providing employment for disabled workers.
+16
+
+
+[PAGE 19]
+The validity of RD estimates hinges on the appropriate speciﬁcation of the relationship between
+ﬁrm size and the number of disabled workers. If this relationship is misspeciﬁed, an apparent
+jump at the threshold might simply be a marked nonlinearity. Column 2 adds quadratic terms
+in excess ﬁrm size Sit−25. The result indicates that the eﬀect of 0.0351 is somewhat weaker, but
+remains statistically signiﬁcant at the 1%-level. In Column 3, we add all covariates displayed
+in Panel B-D of table 2 as well as time-dummies as controls and re-estimate the discontinuity.
+Results indicate that controlling for these covariates does not change size and signiﬁcance of the
+treatment eﬀect. This conﬁrms our ﬁnding from section 4 that control variables are balanced at
+the quota threshold. Another issue is the sensitivity to the choice of bandwidth. In the ﬁrst three
+columns in table 6, we use the baseline bandwidth, i.e. we use ﬁrm-month observations with ﬁrm
+size S ∈[13, 37]. We narrow the ﬁrm size bandwidth by one fourth (i.e. S ∈[16, 34], thereby
+losing one third of all ﬁrm-month observations) in column 4 and by one-half (i.e. S ∈[19, 31],
+thereby losing almost two-thirds of all ﬁrm-month observations) in column 5. From column 4, we
+infer that considering only ﬁrm-month observations with ﬁrm sizes Si ∈[16, 34] the magnitude
+of the eﬀect reduces from 0.0521 to 0.0434. Considering only ﬁrm sizes S ∈[19, 31] in column 5
+further decreases the eﬀect to 0.0381. Both eﬀects remain statistically highly signiﬁcant at the
+1%-level, however.19
+Table 6 about here
+Is this eﬀect quantitatively large? A lower bound on the extent to which ﬁrms substitute
+disabled workers and non-disabled workers can be calculated as follows. The lowest estimate of
+the treatment eﬀect suggests that the quota leads to 0.0351 more disabled workers holding a job
+in threshold ﬁrms – an increase of about 12 % compared to the recognized disabled workforce
+of 0.30 disabled workers at the quota threshold. This change in disabled worker employment is
+triggered by a non-compliance tax which stands on the order of 8 % of the median non-disabled
+worker wage (e 150 in ﬁne per month relative to about e 1800 in wages per month). The
+elasticity of substitution between disabled workers and non-disabled workers is therefore at least
+on the order of 1.4 (= 12/[(150/1, 800) · 100]). As Acemoglu and Angrist (2001) conjectures,
+disabled and non-disabled workers are quite strong substitutes.
+Placebo and Robustness:
+To further assess the validity of our RD setup, we estimated
+discontinuities in the number of disabled workers per ﬁrm at ﬁrm sizes where there should be
+19Estimates of the causal eﬀect of the employment quota on the employment of disabled workers are somewhat
+sensitive to functional form and bandwidth choice. The statistical reason for this sensitivity is due to the fact
+that threshold quota ﬁrms with 25 non-disabled workers provide fewer jobs for disabled workers than would be
+expected from a linear regression using ﬁrms with 26 to 37 non-disabled workers. Introducing higher order terms
+in ﬁrm size or restricting bandwidth means putting more weight on threshold ﬁrms. This reduces the estimate of
+the causal eﬀect of the employment quota. We show below that this is consistent with lags in ﬁrms’ employment
+decisions.
+17
+
+
+[PAGE 20]
+no discontinuities. For this purpose, we focus on observations with ﬁrm sizes lower than 24,
+i.e. we only considered ﬁrms not aﬀected by the employment quota.
+We used the baseline
+model, but narrowed the ﬁrm size bandwidth by one half (i.e. Si ∈[ ¯T −6, ¯T], with placebo
+thresholds ¯T ∈{7, 8, ..., 18}). Figure 6 reports the results. Figure 6A (plot of the discontinuities
+and corresponding 95% conﬁdence interval) shows that the discontinuities at the 12 placebo
+thresholds ﬂuctuate between -0.01 and 0.01. Moreover, only the discontinuities at ﬁrm sizes
+12 and 13 are statistically signiﬁcant at the 5%-level.
+They amount to 0.0086 and 0.0136,
+respectively. However, this is rather small in comparison to the discontinuity in the number of
+disabled workers per ﬁrm of 0.0381 at the ﬁrst threshold derived from the same speciﬁcation (see
+table 6, panel A, column 5) Figure 6B illustrates this. It shows the density of discontinuities at
+placebo thresholds and also indicates the discontinuity at the true threshold. This suggests that
+the ﬁnding for the true threshold is not a statistical artifact.
+Figure 6 about here
+Next, we assess whether the results are sensitive to the choice of the dependent variable. In-
+stead of using the number of disabled workers per ﬁrm, we could also have deﬁned the dependent
+variable as the percentage of disabled employees in each ﬁrm. One can argue that when the
+number of disabled workers per ﬁrm is expressed in percentages, the results may be less sensitive
+to misspeciﬁcations of the relationship between the number of disabled workers and the ﬁrm
+size. Table 7 displays the results. Note that it is organized in the same way as table 6. Column
+1 shows the baseline eﬀect. Firms employ 0.1819 percentage points more disabled workers than
+they would in the absence of the employment quota. For a ﬁrm just above threshold T = 25, this
+eﬀect translates into 0.0455 disabled workers (= (0.1819·25)/100). This is perfectly in line with
+our previous ﬁndings (as are the results in columns 2–5), which suggests that our results are not
+sensitive to how the dependent variable is deﬁned (i.e. whether disabled workers are expressed in
+levels numbers or percentages). Evidence in table 7 again suggests that the elasticity of substi-
+tution between disabled and non-disabled workers is at least 1.3 (= 11/[(150/1, 800)·100]). This
+estimate is somewhat lower than the baseline estimate because the number of disabled workers
+strongly increases with ﬁrm size, whereas the percentage disabled workers does not change with
+ﬁrm size.
+Table 7 about here
+Dynamics:
+Up until now, we have analyzed the data using a static RD approach (applied to
+repeated cross–sectional data). This allows estimating the long run eﬀect of being subject to
+the non-compliance tax on the demand for disabled workers free of bias from the correlation of
+being treated and observed ﬁrm characteristics. In the real world, ﬁrms need time to adjust their
+18
+
+
+[PAGE 21]
+workforces. There are at least four reasons why excess employment would build up over time.
+First, threshold ﬁrms may not be fully informed about the employment obligation. Second,
+threshold ﬁrms may need time to search and/or to provide workplace accommodation to ﬁll a
+job vacancy with a disabled worker. Third, threshold ﬁrms may only be able to learn over time
+whether they have only temporarily or permanently crossed the quota threshold. Fourth, excess
+employment may also build up over time due to retention. If the non-compliance tax drives
+a wedge between the separation rate of disabled workers in threshold ﬁrms compared to their
+colleagues in ﬁrms below the threshold, excess employment levels will diverge slowly over time.
+This section now investigates short– and medium–run eﬀects (up to 24 months) at the quota
+threshold T = 25.
+For the long–run eﬀect, we used a sample that was restricted to ﬁrm–month observations in
+a ﬁrm size bracket of Sit ∈[13, 37]. We extend this original sample to cover ﬁrms in the ﬁrm
+size bracket Sit ∈[1, 100] in order to comprehensively exploit the panel structure of the data,
+i.e. 5,176,476 ﬁrm–month observations (233,775 ﬁrms).20 Table 8 reports the results.21 Column
+1 corresponds to the baseline speciﬁcation (1). Results agree almost one–to–one with our main
+result of column 1 in table 6 with respect to the coeﬃcient as well as standard error. This
+suggests that extending the sample selection does not aﬀect estimates of the long-run eﬀect
+of being subject to the employment quota. Column 2 adds ﬁrm ﬁxed eﬀects to the baseline
+regression. The treatment eﬀect collapses to 0.0161, i.e. only to one–third of the baseline eﬀect,
+but remains statistically signiﬁcant at the 1 %–level. This suggest that either unobserved ﬁrm
+heterogeneity or timing of employment decisions or both may play an important role in driving
+the baseline results.
+To study the timing of employment decisions, column 3 of table 8 adds an interaction term
+between the treatment indicator and the number of months a ﬁrm has been treated up to t. The
+main eﬀect of being at the employment quota threshold is not statistically signiﬁcant. Yet the
+interaction term stands at 0.0009 and is statistically signiﬁcant at the 5 %–level. This means
+that ﬁrms do not immediately respond to the employment quota. However, the longer a ﬁrm is
+exposed to the quota, the more it expands employment of disabled workers. For instance, the
+excess demand for disabled workers amounts to 0.0301 (= 0.0085 + 24 · 0.0009) after 24 months,
+or to about two–thirds of the long–run eﬀect from the static RD approach (table 6). Column 4
+provides results of a 24 month diﬀerence speciﬁcation of the baseline model (1). The idea behind
+this regression is to examine employment of disabled individuals by ﬁrms up to 24 months after
+crossing the employment quota threshold T = 25. Results indicate that this eﬀect amounts to
+20The results presented in this section are robust to this adjustment in the sample selection (none of the results
+change if we use only ﬁrms in the ﬁrm size bracket Sit ∈[13, 37]).
+21The regressions neither contain control variables nor time ﬁxed–eﬀects. Note that adding them does not
+change the results presented in this section.
+19
+
+
+[PAGE 22]
+0.0276 (statistically signiﬁcant at the 1 %–level), which is consistent with our ﬁnding in column
+3.
+Table 8
+Figure 7 shows the treatment eﬀects (and the corresponding 95–% conﬁdence interval) for lag–
+τ diﬀerences with τ ∈{1, 2, 3, ..., 24}.22 We see that the eﬀect for the ﬁrst diﬀerence amounts
+to only 0.0059, but increases steadily with τ to 0.0276 at τ = 24 (the treatment eﬀects are
+statistically signiﬁcant at the 5 %–level for all possible values of τ). Results in ﬁgure 7 provide
+evidence that ﬁrms respond sluggishly to the employment quota. This is consistent with ﬁndings
+from the ﬁxed eﬀects model. Taken together, dynamic results (columns 3 and 4 of table 8) suggest
+that sluggish adjustment to employment quota rather than unobserved heterogeneity in ﬁrms
+explains why ﬁxed eﬀects results (column 2 of table 8) are weaker than level results in (column
+1 of table 8).
+Figure 7 about here
+Extensions:
+Next, we turn to discussing heterogeneity of the treatment eﬀect. Table 9 reports
+the causal eﬀect of the employment quota for ﬁrms in diﬀerent parts of the ﬁrm wage distribution
+at quota threshold T = 25. We group ﬁrms according to the median daily wage paid to their
+workers in the period 1999 to 2001.
+We then allocate each ﬁrm–month observation to four
+approximately equal sized groups based on the quartiles of the ﬁrm wage distribution. This
+grouping ensures that the relative size of the non-compliance tax decreases strongly. Whereas
+the average ﬁrm in the ﬁrst quartile face a tax of 12.9 % of its ﬁrm wage, ﬁrms in the top quartile
+only face a tax of 5.5 % of the ﬁrm wage (bottom row in table 9).
+Table 9 about here
+Results indicate that the employment quota produces a strong increase in the workplaces
+available to disabled workers among ﬁrms located in the ﬁrst quartile of the wage distribution.
+Quota ﬁrms provide 0.089 workplaces for disabled workers which would not be there without the
+employment quota (column 1). The employment eﬀect of the employment obligation is similarly
+strong among ﬁrms located in the second quartile of the ﬁrm wage distribution. These ﬁrms
+generate excess employment on the order of 0.072 workplaces provided to registered disabled
+workers (column 2). High-wage ﬁrms located above the median of the ﬁrm wage distribution
+respond considerably less than ﬁrms below the median. Threshold ﬁrms in the third quartile
+22Note that the number of observations (almost linearly) decreases from originally 4,899,035 ﬁrm–month ob-
+servations for the lag–1 regression to only 781,068 ﬁrm–month observations for the lag–24 diﬀerence regression,
+which explains why the conﬁdence interval widens with τ.
+20
+
+
+[PAGE 23]
+provide employment in excess of what would be expected from ﬁrms just below the threshold
+of 0.042 workplaces (column 3) – or about half the workplaces created by ﬁrms in the ﬁrst
+quartile of the ﬁrm wage distribution. Interestingly, ﬁrms in the top quartile of the ﬁrm wage
+distribution do not appear to respond to the employment obligation (the estimated eﬀect in
+column 4 is 0.0099). Note that the pattern of causal eﬀects of the employment quota are very
+much in line with the pattern of relative impact generated by a ﬂat rate tax. Moreover, except for
+the top quartile, results consistently suggest that the elasticity of substitution between disabled
+and non-disabled workers exceeds 2.
+We further look at the eﬀect of heterogeneity with respect to industry aﬃliation. Figure 8
+displays the discontinuities in the number of disabled workers per ﬁrm for each industry at the
+quota threshold T = 25. The y-axis on the left hand side measures the discontinuities and the
+corresponding 95% conﬁdence intervals (clustered on ﬁrm size) using the speciﬁcation of column
+1 in table 6. The y-axis on the right hand side measures the number of ﬁrm-month observations
+used for the calculations. Figure 8 reveals that the treatment eﬀect is only somewhat heteroge-
+nous across industries at the threshold. The manufacturing industry reacts most strongly to
+the ﬁnancial incentives created by the DPEA. Treated ﬁrms belonging to this industry employ
+0.0812 disabled workers more than non-treated ﬁrms. The second-largest eﬀect is estimated for
+the tourism industry with a discontinuity of 0.0509, then the construction industry with 0.0436,
+and ﬁnally the service industry with the lowest, however still important, eﬀect of 0.0375. All
+calculated discontinuities at the ﬁrst threshold are statistically signiﬁcant at the 5%-level. There
+are several reasons why the quota generates slightly more employment in manufacturing than in
+the services or construction sector. On one hand, manufacturing is probably less labor intensive
+compared to construction and services. Thus, reduction in physical labor capacity are less likely
+to be relevant in manufacturing.
+Figure 8 about here
+The employment quota may also act diﬀerently for large ﬁrms than for small ﬁrms. On one
+hand, large ﬁrms pay higher wages, implying that ﬁnancial incentives should have less bite
+than for small ﬁrms. On the other hand, existing evidence strongly suggests that ﬁrm size is
+positively related to employment of the disabled. This may be because large ﬁrms ﬁnd it easier
+to accommodate disabled workers. Table 10 shows the results for pooled higher order thresholds
+(50, 75, ...). Here we assign treatment status according to the deviation from thresholds ˜
+Sit ≡
+(Sit −T), where T represents the nearest threshold Sit is associated with. Firms are treated if
+˜Si ≥0 and non-treated if ˜Si < 0). Column 1 in table 10 displays the baseline eﬀect at the quota
+threshold (we repeat the estimate in column 1 of table 6 for ease of comparison). Column 2
+shows the eﬀect of the employment quota on the number of disabled workers per ﬁrm at pooled
+21
+
+
+[PAGE 24]
+quota thresholds T > 25.23 The eﬀect of having to oﬀer a job to at least one additional disabled
+worker is 0.1118 – more than twice as large as the baseline eﬀect at quota threshold T = 25 and
+statistically signiﬁcant at the 1 %–level. Put diﬀerently, roughly one in ten ﬁrms employs one
+additional disabled worker due to the DPEA. From column 3 we infer that the result in column
+2 is not sensitive to adding controls and time ﬁxed–eﬀects. Column 4 uses the percentage of
+disabled workers per ﬁrm as dependent variable instead of the level. The eﬀect amounts to
+0.1218 percentage points and is statistically signiﬁcant at the 1 %–level. This translates into
+an eﬀect of 0.1486 (= 0.001218 · 122) disabled workers for the average ﬁrm in the large ﬁrm
+sample. Thus, our result that the treatment eﬀect is roughly twice as large as for ﬁrms around
+quota thresholds T > 25 than for ﬁrms around quota threshold T = 25 is quite robust. What is
+the substitution elasticity in large ﬁrms? Firms in the pooled sample pay about 1950 e – the
+non-compliance tax is about 7.7 % of the median non-disabled worker wage. The employment
+eﬀect is on the order of 5.3 % of average disabled worker employment. The substitution elasticity
+is therefore on the order of 0.7 for large ﬁrms – somewhat lower than among small ﬁrms.
+Table 10 about here
+In table 6 above, we showed that treated ﬁrms employ 0.0521 disabled workers more than non-
+treated ﬁrms at threshold T = 25. Table 11 discusses how threshold ﬁrms provide employment
+to disabled workers. To do this, we decompose employment provided to disabled workers who
+had been employed with the same ﬁrm on the date of registration as disabled (own former
+employees), who had been employed with another ﬁrm on the date of registratoin as disabled
+(other former employees), and who had not been employed at the time of registration as disabled
+(non-employees).
+Providing information on the eﬀects for these three groups of workers is important.
+Own
+former employees were already employed with the current employer before attaining the status
+of being disabled. This means that the current employer is, arguably, quite well informed about
+the disabled individual’s on-the-job productivity. Moreover, seeing an increase in workplaces
+provided to individuals formerly employed by the current ﬁrm allow discussing the eﬀects of
+DPEA on retention, i.e. the eﬀect of keeping workers on the payroll who would not have been
+kept without the employment obligation. Other former employees were not working for the
+current employer. Thus, the current employer does not have as good information regarding
+on-the-job skills as for own former employees. Moreover, information on other former employees
+allows an examination of the role of DPEA in reallocating jobs between the current ﬁrm and
+other diﬀerent ﬁrms.
+Non-employees were not working on the date of they attained status
+23Column 2 neither includes control variables nor time ﬁxed–eﬀects but columns 2–4 do include dummies for
+the threshold closest to each ﬁrm-month observation to control for diﬀerences in disabled employment across
+thresholds.
+22
+
+
+[PAGE 25]
+as disabled. The current employer therefore has equally poor information regarding the hired
+person’s on-the-job productivity as for an individual hired from another ﬁrm. Yet, in contrast
+to results for other former employees, non-employees are not poached from other employers.
+Employment eﬀects for non-employees therefore speak to the role of DPEA in increasing hiring
+from the non-employment pool.
+Table 11 provides information on the separate eﬀects of DPEA on workers of diﬀerent types.
+Column 1 in table 11 displays the baseline eﬀect at the quota threshold T = 25 (we repeat
+the estimate in column 1 of table 6 for ease of comparison). Columns 2 to 4 provide separate
+estimates for workers who had been employed by the current ﬁrm (column 2), workers who
+had been employed by a diﬀerent ﬁrm (column 3), and workers who had not been employed
+at the time of registration as disabled (column 4).
+Results in column 2 suggest that quota
+threshold ﬁrms employ 0.026 more disabled workers who had already been working for the
+ﬁrm before becoming recognized as disabled.
+This means that about 50 % of the baseline
+treatment eﬀect at the quota threshold goes to workers whose productivity is, arguably, quite
+well known to the current employer. The resulting excess employment reﬂects the role of DPEA
+in increasing retention of existing employees. Results in column 3 indicate that quota ﬁrms
+tend to have 0.021 more employees on their payrolls who had been employed in diﬀerent ﬁrms
+when becoming recognized as disabled. This means that up to 42 % of the treatment eﬀect
+goes to workers whose productivity is less well known to the current employer. Moreover, the
+resulting excess employment eﬀect is likely to reﬂect reallocation of jobs from non-quota ﬁrms
+to quota ﬁrms. Results in column 4 indicate that 0.004 jobs in quota ﬁrms go to individuals
+who were not employed when entering the disabled status.
+This means that about 8 % of
+the excess employment gain reﬂects employment gains going to individuals whose productivity
+cannot easily be inferred. In sum, about 50 % of excess employment at quota threshold ﬁrms
+is directed to workers whose productivity is well known to the current employer. This is in line
+with a priori expectations concerning the role of information on productivity. Moreover, more
+than half of excess employment reﬂects retention and pure job creation for the non-employed.
+This means that DPEA indeed promotes employment of disabled workers.
+Table 11 about here
+6
+Conclusion
+This paper analyzes the eﬀect of an employment quota in promoting employment for disabled
+workers. While there is a considerable literature on the eﬀects of anti-discrimination legislation,
+convincing causal evidence of employment quota systems is almost non-existent. Our paper
+makes a ﬁrst attempt to understand the employment quota for disabled workers and, in doing
+23
+
+
+[PAGE 26]
+so, complements existing evidence on anti-discrimination legislation. The identiﬁcation strategy
+relies on the sharp discontinuity in the relative costs of employing disabled workers created in
+a quota system combined with taxes raised on ﬁrms that do not comply with legal employment
+requirements.
+Our empirical results indicate that the quota promotes the employment of disabled workers
+in ﬁrms located at the quota threshold, in comparison to ﬁrms just below the quota threshold.
+The quota leads to excess employment of one disabled worker per 20 ﬁrms.
+Firms respond
+sluggishly to the quota, creating about one job per 50 ﬁrms in one year. We also detect important
+interactions between wages, industry, and ﬁrm size. Firms in the lower end of the ﬁrm wage
+distribution tend to provide most of the excess employment to disabled workers. In terms of
+industry, the employment gain tends to be concentrated in capital intensive manufacturing rather
+than in labor intensive sectors such as services, tourism, or construction. The employment quota
+leads to twice as much excess employment among large ﬁrms rather than among small ﬁrms.
+We also ﬁnd that the quota boosts employment primarily among former employees of the ﬁrm.
+The quota also encourages ﬁrms to poach workers from other ﬁrms and to hire individuals who
+were not formerly employed.
+We conclude that the ﬁnancial sanctions accompanying the employment quota do indeed in-
+crease compliance with the quota. This is a ﬁrst result that is necessary for the quota to promote
+overall employment for disabled workers. We also show that the quota employment eﬀect is not
+entirely due to reallocation of disabled workers between ﬁrms. Taken together, these results
+suggest that overall disabled employment may increase due to the employment quota. However,
+the employment quota may displace non-disabled workers, thereby potentially decreasing overall
+employment. Further research should therefore put emphasis on evaluating this policy instru-
+ment in other contexts and compare the relative eﬀectiveness of quota with anti-discrimination
+legislation.
+24
+
+
+[PAGE 27]
+References
+Acemoglu, D. and Angrist, J. (2001). Consequences of Employment Protection? The Case of
+the Americans with Disabilities Act. Journal of Political Economy, 109(5), 915–957.
+Angrist, J. and Lavy, V. (1999). Using Maimonides’ Rule to Estimate The Eﬀect of Class Size
+on Scholastic Achievement*. Quarterly Journal of Economics, 114(2), 533–575.
+Beegle, K. and Stock, W. (2003). The Labor Market Eﬀects of Disability Discrimination Laws.
+Journal of Human Resources, 38(4), 806.
+Bell, D. and Heitmueller, A. (2005). The disability discrimination act in the uk: Helping or
+hindering employment amongst the disabled? IZA Discussion Papers 1476, Institute for the
+Study of Labor (IZA).
+Cameron, A., Gelbach, J., and Miller, D. (2006). Robust Inference with Multi-Way Clustering.
+NBER Working Paper.
+DeLeire, T. (2000). The Wage and Employment Eﬀects of the Americans with Disabilities Act.
+Journal of Human Resources, 35(4), 693–715.
+DiNardo, J. and Lee, D. (2004).
+Economic Impacts of New Unionization on Private Sector
+Employers: 1984-2001*. Quarterly Journal of Economics, 119(4), 1383–1441.
+Hahn, J., Todd, P., and Klaauw, W. (2001). Identiﬁcation and Estimation of Treatment Eﬀects
+with a Regression-Discontinuity Design. Econometrica, 69(1), 201–209.
+Hamermesh, D. (1993). Labor demand. Princeton University Press.
+Humer, B., Wuellrich, J., and Zweim¨uller, J. (2007). Integrating Severely Disabled Individuals
+into the Labour Market: The Austrian Case. IZA Discussion Papers 2649, Institute for the
+Study of Labor (IZA).
+Imbens, G. and Lemieux, T. (2008).
+Regression discontinuity designs: A guide to practice.
+Journal of Econometrics, 142(2), 615–635.
+Jolls, C. (2004). Identifying the Eﬀects of the Americans with Disabilities Act Using State-
+Law Variation: Preliminary Evidence on Educational Participation Eﬀects. The American
+Economic Review, 94(2), 447–453.
+Jolls, C. and Prescott, J. (2004). Disaggregating employment protection: The case of disability
+discrimination. Working Paper 10740, National Bureau of Economic Research.
+25
+
+
+[PAGE 28]
+Kruse, D. and Schur, L. (2003). Employment of People with Disabilities Following the ADA.
+Industrial Relations, 42(1), 31–66.
+Lalive, R. (2008).
+How do extended beneﬁts aﬀect unemployment duration?
+A regression
+discontinuity approach. Journal of Econometrics, 142(2), 785–806.
+Lechner, M. and Vazquez-Alvarez, R. (2003). The eﬀect of disability on labour market outcomes
+in germany: Evidence from matching. IZA Discussion Papers 967, Institute for the Study of
+Labor (IZA).
+Lee, D. and Card, D. (2008). Regression discontinuity inference with speciﬁcation error. Journal
+of Econometrics, 142(2), 655–674.
+McCrary, J. (2008). Manipulation of the running variable in the regression discontinuity design:
+A density test. Journal of Econometrics, 142(2), 698–714.
+OECD (2003). Transforming disability into ability: Policies to promote work and income security
+for disabled people. Technical report, OECD.
+Verick, S. (2004).
+Do ﬁnancial incentives promote the employment of the disabled?
+IZA
+Discussion Papers 1256, Institute for the Study of Labor (IZA).
+Wagner, J., Schnabel, C., and K¨olling, A. (2001). Threshold values in german labor law and job
+dynamics in small ﬁrms: The case of the disability law. IZA Discussion Papers 386, Institute
+for the Study of Labor (IZA).
+Welch, F. (1976). Employment quotas for minorities. Journal of Political Economy, 84(4),
+105–141.
+26
+
+
+[PAGE 29]
+A
+Tables
+Table 1: OECD Countries with Employment Quotas
+Country
+Quota
+Targeted ﬁrms
+Sanction
+Austria
+4%
+private and public employers with over
+25 employees
+e 200.- per month for each place
+not ﬁlled (0.4% of payroll)
+Belgium
+2–2.5%
+only public employers
+–
+France
+6%
+public and private employers with over
+19 employees
+e 150–250 per month (0.45–0.75%
+of payroll)
+Germany
+5%
+public and private employers with over
+19 employees
+e 100–250.- per month for each
+place not ﬁlled, depending on ful-
+ﬁlment (0.25–0.65% of payroll)
+Italy
+7%
+public and private employers with over
+50 workers,
+one/two places for 15–
+35/36–50 employees
+e 1,075.- per month for each place
+not ﬁlled (4% of payroll)
+Korea
+2%
+public sector and private employers
+with over 300 employees
+e 324.- per month for each place
+not ﬁlled (0.5% of payroll)
+Poland
+6%
+public sector and private employers
+with over 50 employees
+40.65% of average wage per month
+for each place not ﬁlled (2.4% of
+payroll)
+Spain
+2%
+public sector and private employers
+with over 50 employees
+–
+Source: OECD (2003)
+27
+
+
+[PAGE 30]
+Table 2: Descriptive Statistics around Quota Threshold T = 25
+ﬁrm size 13-24
+ﬁrm size 25-37
+mean
+(std. dev.)
+mean
+(std. dev.)
+Panel A: Outcome and treatment assignment variable
+number of disabled
+0.19
+(0.54)
+0.42
+(0.86)
+ﬁrm size
+17.10
+(3.33)
+30.13
+(3.71)
+Panel B: Firms’ ﬂuctuation and growth w.r.t. non-disabled workforce
+unchanged workforce since last month⋆
+0.41
+(0.49)
+0.25
+(0.43)
+expanded since 6 months⋆
+0.45
+(0.50)
+0.47
+(0.50)
+contracted since 6 months⋆
+0.34
+(0.47)
+0.39
+(0.49)
+Panel C: Other covariates
+share of white-collar workers⋆
+0.44
+(0.34)
+0.44
+(0.34)
+share of women⋆
+0.41
+(0.29)
+0.38
+(0.28)
+worker’s age⋆(in years)
+35.42
+(4.96)
+35.68
+(4.56)
+median daily wage⋆(e)
+59.82
+(19.93)
+62.55
+(19.91)
+tenure⋆(in years)
+5.32
+(3.67)
+5.59
+(3.66)
+number of apprentices⋆
+1.37
+(2.23)
+2.04
+(3.22)
+Panel D: Pre-determined covariates
+age of ﬁrm (in years)
+15.91
+(10.24)
+16.92
+(10.18)
+Vienna
+0.22
+(0.41)
+0.23
+(0.42)
+Lower Austria
+0.17
+(0.38)
+0.18
+(0.38)
+Burgenland
+0.03
+(0.17)
+0.03
+(0.18)
+Upper Austria
+0.17
+(0.37)
+0.18
+(0.38)
+Styria
+0.11
+(0.31)
+0.10
+(0.30)
+Carinthia
+0.06
+(0.24)
+0.06
+(0.25)
+Salzburg
+0.09
+(0.28)
+0.08
+(0.27)
+Tyrol
+0.10
+(0.30)
+0.09
+(0.29)
+Vorarlberg
+0.05
+(0.22)
+0.05
+(0.22)
+services
+0.45
+(0.50)
+0.44
+(0.50)
+manufacturing
+0.28
+(0.45)
+0.30
+(0.46)
+construction
+0.17
+(0.37)
+0.17
+(0.38)
+tourism
+0.11
+(0.31)
+0.09
+(0.29)
+Number of ﬁrm–month observations
+328,020
+114,768
+Number of ﬁrms
+22,368
+8,908
+Total number of ﬁrms
+25,687
+Notes: ⋆denotes that variable bases on characteristics of non-disabled workers only.
+Source: Own calculations, based on ASSD and FWO.
+28
+
+
+[PAGE 31]
+Table 3: Pooled Descriptive Statistics around Quota Thresholds T > 25
+(2nd −37th, 42nd, and 50th threshold)
+ﬁrm size 13-24
+ﬁrm size 25-37
+mean
+(std. dev.)
+mean
+(std. dev.)
+Panel A: Outcome and treatment assignment variable
+ﬁrm size
+102.31
+(111.89)
+130.15
+(126.47)
+number of disabled
+1.81
+(4.30)
+2.44
+(5.26)
+Panel B: Firms’ ﬂuctuation and growth w.r.t non-disabled workforce
+unchanged workforce since last month⋆
+0.11
+(0.31)
+0.07
+(0.26)
+expanded since 6 months⋆
+0.50
+(0.50)
+0.51
+(0.50)
+contracted since 6 months⋆
+0.41
+(0.49)
+0.42
+(0.49)
+Panel C: Other covariates
+share of white-collar workers⋆
+0.45
+(0.33)
+0.45
+(0.32)
+share of women⋆
+0.37
+(0.27)
+0.37
+(0.27)
+worker’s age⋆(in years)
+36.07
+(4.04)
+36.24
+(3.93)
+median daily wage⋆(e)
+64.82
+(20.56)
+65.50
+(20.80)
+tenure⋆(in years)
+6.09
+(3.74)
+6.33
+(3.80)
+number of apprentices⋆
+4.27
+(7.83)
+5.22
+(9.15)
+Panel D: Pre-determined covariates
+age of ﬁrm (in years)
+18.60
+(10.08)
+19.25
+(10.01)
+Vienna
+0.22
+(0.42)
+0.22
+(0.42)
+Lower Austria
+0.17
+(0.38)
+0.18
+(0.38)
+Burgenland
+0.03
+(0.16)
+0.03
+(0.16)
+Upper Austria
+0.19
+(0.39)
+0.19
+(0.39)
+Styria
+0.10
+(0.30)
+0.10
+(0.30)
+Carinthia
+0.06
+(0.25)
+0.07
+(0.25)
+Salzburg
+0.08
+(0.27)
+0.08
+(0.27)
+Tyrol
+0.09
+(0.29)
+0.08
+(0.28)
+Vorarlberg
+0.05
+(0.22)
+0.05
+(0.22)
+services
+0.45
+(0.50)
+0.45
+(0.50)
+manufacturing
+0.35
+(0.48)
+0.36
+(0.48)
+construction
+0.14
+(0.35)
+0.13
+(0.34)
+tourism
+0.06
+(0.24)
+0.05
+(0.22)
+Number of ﬁrm-month observations
+118,192
+90,475
+Number of ﬁrms
+9,117
+6,746
+Total number of ﬁrms
+9,475
+Notes: ⋆denotes that variable bases on characteristics of non-disabled workers only.
+Source: Own calculations based on ASSD and FWO.
+29
+
+
+[PAGE 32]
+Table 4: Discontinuities in Firms’ Turnover and Growth at Quota Threshold T = 25
+(1)
+(2)
+stable workforce since last month
+0.0118
+0.0019
+(cluster: ﬁrm size)
+(0.0069)
+(0.0068)
+(cluster: ﬁrm size and ﬁrm)
+(0.0073)
+(0.0069)
+[R2]
+[0.0286]
+[0.0287]
+expanded since 6 months
+-0.0170
+0.0043
+(cluster: ﬁrm size)
+(0.0080)⋆⋆
+(0.0040)
+(cluster: ﬁrm size and ﬁrm)
+(0.0087)
+(0.0054)
+[R2]
+[0.0010]
+[0.0012]
+contracted since 6 months
+0.0050
+-0.0005
+(cluster: ﬁrm size)
+(0.0049)
+(0.0049)
+(cluster: ﬁrm size and ﬁrm)
+(0.0059)
+(0.0060)
+[R2]
+[0.0025]
+[0.0025]
+Polynomial order
+1
+2
+Number of observations
+442,788
+Notes: ⋆⋆⋆, ⋆⋆denotes signiﬁcance at the 1% , 5% level respectively.
+Robust standard errors in parentheses.
+Source: Own calculations, based on ASSD and FWO
+Table 5: Discontinuities in Firms’ Turnover and Growth at Pooled Quota Thresholds T > 25
+stable workforce since last month
+0.0021
+-0.0072
+(cluster: ﬁrm size)
+(0.0047)
+(0.0069)
+(cluster: ﬁrm size and ﬁrm)
+(0.0050)
+(0.0068)
+[R2]
+[0.0485]
+[0.0485]
+expanded since 6 months
+-0.0020
+0.0065
+(cluster: ﬁrm size)
+(0.0045)
+(0.0052)
+(cluster: ﬁrm size and ﬁrm)
+(0.0058)
+(0.0057)
+[R2]
+[0.0021]
+[0.0021]
+contracted since 6 months
+0.0028
+0.0006
+(cluster: ﬁrm size)
+(0.0033)
+(0.0043)
+(cluster: ﬁrm size and ﬁrm)
+(0.0047)
+(0.0045)
+[R2]
+[0.0014]
+[0.0014]
+Threshold-Dummies
+Yes
+Yes
+Polynomial order
+1
+2
+Number of observations
+208,667
+Notes: ⋆⋆⋆, ⋆⋆denotes signiﬁcance at the 1% , 5% level respectively.
+Robust standard errors in parentheses.
+Source: Own calculations, based on ASSD and FWO
+30
+
+
+[PAGE 33]
+Table 6: The Eﬀect of the Employment Quota on the Number of Disabled Workers per Firm at Quota Threshold T = 25
+(1)
+(2)
+(3)
+(4)
+(5)
+Treatment eﬀect
+0.0521
+0.0351
+0.0523
+0.0434
+0.0381
+cluster: S
+(0.0078)⋆⋆⋆
+(0.0093)⋆⋆⋆
+(0.0084)⋆⋆⋆
+(0.0085)⋆⋆⋆
+(0.0088)⋆⋆⋆
+cluster: S, ﬁrm
+(0.0140)⋆⋆⋆
+(0.0106)⋆⋆⋆
+(0.0143)⋆⋆⋆
+(0.0131)⋆⋆⋆
+(0.0093)⋆⋆⋆
+S ∈25 ± s
+s = 12
+s = 12
+s = 12
+s = 9
+s = 6
+Polynomial order in Si −25
+1
+2
+1
+1
+1
+Controls and time ﬁxed–eﬀects
+No
+No
+Yes
+No
+No
+mean (dep. var.)
+0.2526
+0.2526
+0.2526
+0.2833
+0.3074
+s.d. (dep. var.)
+0.6459
+0.6459
+0.6459
+0.6907
+0.7261
+N
+442,788
+442,788
+442,788
+290,232
+180,957
+R2
+0.0286
+0.0286
+0.0567
+0.0186
+0.0105
+Adjusted R2
+0.0286
+0.0286
+0.0566
+0.0186
+0.0105
+Notes: ⋆⋆⋆, ⋆⋆, ⋆denotes signiﬁcance at the 1%, 5%, and 10% level respectively.
+Robust standard errors in parentheses.
+Source: Own Calculations, based on ASSD and FWO
+31
+
+
+[PAGE 34]
+Table 7: The Eﬀect of the Employment Quota on the Percentage of Disabled Workers per Firm at Quota Threshold T = 25
+(1)
+(2)
+(3)
+(4)
+(5)
+Treatment eﬀect
+0.1819
+0.1372
+0.1831
+0.1525
+0.1425
+cluster: S
+(0.0301)⋆⋆⋆
+(0.0415)⋆⋆⋆
+(0.0328)⋆⋆⋆
+(0.0363)⋆⋆⋆
+(0.0357)⋆⋆⋆
+cluster: S, ﬁrm
+(0.0556)⋆⋆⋆
+(0.0479)⋆⋆⋆
+(0.0566)⋆⋆⋆
+(0.0539)⋆⋆⋆
+(0.0369)⋆⋆⋆
+S ∈25 ± s
+s = 12
+s = 12
+s = 12
+s = 9
+s = 6
+Polynomial order in Si −25
+1
+2
+1
+1
+1
+Controls and time ﬁxed–eﬀects
+No
+No
+Yes
+No
+No
+mean (dep. var.)
+1.1956
+1.1956
+1.1956
+1.2342
+1.2732
+s.d. (dep. var.)
+3.0902
+3.0902
+3.0902
+3.0155
+2.9936
+N
+442,788
+442,788
+442,788
+290,232
+180,957
+R2
+0.0017
+0.0017
+0.0295
+0.0017
+0.0015
+Adjusted R2
+0.0016
+0.0016
+0.0294
+0.0017
+0.0015
+Notes: ⋆⋆⋆, ⋆⋆, ⋆denotes signiﬁcance at the 1%, 5%, and 10% level respectively.
+Robust standard errors in parentheses.
+Source: Own Calculations, based on ASSD and FWO
+32
+
+
+[PAGE 35]
+Table 8: The Eﬀect of the Employment Quota on the Number of Disabled Workers per Firm at Quota Threshold T = 25 – Short– and Medium–Run
+Eﬀects
+(1)
+(2)
+(3)
+(4)
+Treatment eﬀect
+0.0492⋆⋆⋆
+0.0161⋆⋆⋆
+0.0085
+0.0276⋆⋆⋆
+(0.0085)
+(0.0056)
+(0.0063)
+(0.0065)
+Treatment eﬀect · # past treated months
+0.0009⋆⋆
+(0.0004)
+Firm ﬁxed–eﬀects
+No
+Yes
+Yes
+Yes
+Lag–24 diﬀerence (i.e. Yt −Yt−24)
+No
+No
+No
+Yes
+mean (dep. var.)
+0.0609
+0.0609
+0.0609
+0.0033
+s.d. (dep. var.)
+0.3453
+0.3453
+0.3453
+0.2716
+Number of Obs.
+5,176,476
+5,176,476
+5,176,476
+781,068
+R2
+0.1808
+0.0106
+0.0107
+0.0115
+Adjusted R2
+0.1808
+0.0106
+0.0107
+0.0115
+Notes: ⋆⋆⋆, ⋆⋆, ⋆denotes signiﬁcance at the 1%, 5%, and 10% level respectively.
+Robust standard errors in parentheses.
+Source: Own Calculations, based on ASSD and FWO
+33
+
+
+[PAGE 36]
+Table 9: The Eﬀect of the Employment Quota on the Number of Disabled Workers per Firm by Firm Median Daily Wage (Quartiles) at Quota Threshold
+T = 25
+1st Quartile
+2nd Quartile
+3rd Quartile
+4th Quartile
+Treatment eﬀect
+0.0892⋆⋆⋆
+0.0724⋆⋆⋆
+0.0422⋆⋆⋆
+0.0099
+(0.0209)
+(0.0173)
+(0.0104)
+(0.0106)
+mean (dep. var.)
+0.2199
+0.2591
+0.2573
+0.2796
+s.d. (dep. var.)
+0.6007
+0.6706
+0.6399
+0.6731
+N
+119,274
+118,762
+107,425
+97,327
+R2
+0.0315
+0.0276
+0.0295
+0.0246
+Adjusted R2
+0.0315
+0.0275
+0.0295
+0.0246
+tax as % of monthly wage
+12.9%
+9.0%
+7.5%
+5.5%
+Notes: ⋆⋆⋆, ⋆⋆, ⋆denotes signiﬁcance at the 1%, 5%, and 10% level respectively.
+Robust standard errors in parentheses.
+All regressions are speciﬁed with linear ﬁt and without control variables and time ﬁxed–eﬀects.
+Source: Own Calculations, based on ASSD and FWO
+34
+
+
+[PAGE 37]
+Table 10: The Eﬀect of the Employment Quota on the Number or Percentage of Disabled Workers per Firm at Pooled Quota Thresholds T > 25
+(1)
+(2)
+(3)
+(4)
+Number of Disabled
+Percentage of Disabled
+Treatment eﬀect
+0.0521⋆⋆⋆
+0.1118⋆⋆
+0.1000⋆⋆
+0.1218⋆⋆⋆
+(0.0078)
+(0.0421)
+(0.0359)
+(0.0415)
+Threshold
+T = 25
+T > 25
+T > 25
+T > 25
+Controls and time ﬁxed–eﬀects
+No
+No
+Yes
+No
+Threshold–dummies
+No
+Yes
+Yes
+Yes
+mean (dep. var.)
+0.2526
+2.0822
+2.0822
+1.5985
+s.d. (dep. var.)
+0.6459
+4.7513
+4.7513
+2.2240
+Number of Obs.
+442,788
+208,667
+208,667
+208,667
+R2
+0.0286
+0.3533
+0.4193
+0.0143
+Adjusted R2
+0.0286
+0.3532
+0.4191
+0.0141
+Notes: ⋆⋆⋆, ⋆⋆, ⋆denotes signiﬁcance at the 1%, 5%, and 10% level respectively.
+Robust standard errors in parentheses.
+All regressions with linear ﬁt in ˜Si.
+Source: Own Calculations, based on ASSD and FWO
+35
+
+
+[PAGE 38]
+Table 11: Decomposing the Treatment Eﬀect by Employment Status at Date of Registering as Severely Disabled at Quota Threshold T = 25
+Number of disabled workers
+baseline
+own former employees
+other former employees
+non-employees
+Treatment Eﬀect
+0.0521
+0.0259
+0.0218
+0.0044
+cluster: S
+(0.0078)⋆⋆⋆
+(0.0050)⋆⋆⋆
+(0.0048)⋆⋆⋆
+(0.0019)⋆⋆
+cluster: S, ﬁrm
+(0.0140)⋆⋆⋆
+(0.0096)⋆⋆⋆
+(0.0070)⋆⋆⋆
+(0.0043)
+mean (dep. var.)
+0.2526
+0.1360
+0.0753
+0.0413
+s.d. (dep. var.)
+0.6459
+0.4574
+0.2918
+0.2281
+N
+442,788
+442,788
+442,788
+442,788
+R2
+0.0286
+0.0177
+0.0124
+0.0050
+Adjusted R2
+0.0286
+0.0176
+0.0124
+0.0050
+Percentage w.r.t. total eﬀect
+100
+50
+42
+8
+Notes: ⋆⋆⋆, ⋆⋆, ⋆denotes signiﬁcance at the 1%, 5%, and 10% level respectively.
+Own former employees are individuals who had been employed with same employer at date of registering as severely disabled.
+Other former employees are workers who had been employed with another employer at date of registering as severely disabled.
+Non-employees are workers who had not been employed at date of registering as severely disabled.
+Robust standard errors in parentheses.
+All regressions are speciﬁed with linear ﬁt and without control variables and time ﬁxed–eﬀects (baseline model).
+Source: Own Calculations, based on ASSD and FWO
+36
+
+
+[PAGE 39]
+B
+Figures
+0
+.02
+.04
+.06
+.08
+.1
+.12
+density
+ 
+13
+15
+17
+19
+21
+23
+25
+27
+29
+31
+33
+35
+37
+ 
+firm size
+N = 442788
+ 
+Source: Own calculations, based on ASSD and FWO
+Figure 1: Firm Size Distribution at Quota Threshold T = 25
+0
+.02
+.04
+.06
+density
+ 
+−12
+−10
+−8
+−6
+−4
+−2
+0
+2
+4
+6
+8
+10
+12
+ 
+deviation from threshold
+N = 208667
+ 
+Source: Own calculations, based on ASSD and FWO
+Figure 2: Firm Size Distribution at pooled Quota Thresholds T > 25
+37
+
+
+[PAGE 40]
+−.5
+−.25
+0
+.25
+.5
+ 
+discontinuity at threshold T=25
+(firm age)
+−.05 −.025
+0
+.025
+.05
+discontinuity at threshold T=25
+(other than firm age)
+ 
+firm age
+Vienna
+Lower Austria
+Burgenland
+Upper Austria
+Styria
+Carinthia
+Salzburg
+Tyrol
+Vorarlberg
+services
+manufacturing
+construction
+tourism
+discontinuity
+95%−CI
+ 
+Discontinuities calculated by model 1 (linear fit).
+95%−CI based on standard errors clustered on firm size and firm.
+ 
+Source: Own calculations, based on ASSD
+A
+Figure 3: Discontinuities of Pre-Determinded Covariates at Quota Threshold T = 25
+−.5
+−.25
+0
+.25
+.5
+ 
+discontinuity at pooled thres−
+holds T>25 (firm age)
+−.05
+−.025
+0
+.025
+.05
+discontinuity at pooled thres−
+holds T>25(other than firm age)
+ 
+firm age
+Vienna
+Lower Austria
+Burgenland
+Upper Austria
+Styria
+Carinthia
+Salzburg
+Tyrol
+Vorarlberg
+services
+manufacturing
+construction
+tourism
+discontinuity
+95%−CI
+ 
+Discontinuities calculated by model 1 (linear fit).
+95%−CI based on standard errors clustered on firm size and firm.
+ 
+Source: Own calculations, based on ASSD
+Figure 4: Discontinuities of Pre-Determinded Covariates at Pooled Quota Thresholds T > 25
+38
+
+
+[PAGE 41]
+.1
+.2
+.3
+.4
+.5
+number of disabled workers
+ 
+13
+15
+17
+19
+21
+23
+25
+27
+29
+31
+33
+35
+37
+ 
+firm size
+discontinuity at threshold = .0521 with std.err. = .0078 (clustered on firm size),
+based on baseline model (N = 442788)
+ 
+Source: Own calculations, based on ASSD and FWO.
+Figure 5: The Eﬀect of the DPEA on the Number of Disabled Workers at Quota Threshold
+T = 25
+39
+
+
+[PAGE 42]
+−.02
+−.01
+0
+.01
+.02
+Discontinuity in the
+number of disabled workers
+ 
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+ 
+Placebo thresholds
+95%−CI
+ 
+Discontinuities calculated by baseline model (linear fit).
+95%−CI based on standard errors clustered on firm size and firm.
+ 
+Source: Own calculations, based on ASSD and FWO
+A
+20
+30
+40
+50
+60
+kdensity
+0
+.1
+.2
+.3
+.4
+density
+−.01
+0
+.01
+Discontinuity at true threshold (0.0381)
+ 
+Estimate of the discontinuity in the number of disabled workers
+ 
+density
+kdensity estimator
+B
+Figure 6: Discontinuities at Placebo Thresholds (A) and Density of Discontinuities at Placebo
+Thresholds (B)
+40
+
+
+[PAGE 43]
+0
+.01
+.02
+.03
+.04
+Treatment effect
+3
+6
+9
+12
+15
+18
+21
+24
+ 
+lag−x difference [i.e. y_t − y_(t−x)]
+Treatment Effect
+95%−CI
+ 
+95%−CI bases on robust standard errors.
+Source: Own calculations, based on ASSD and FWO
+Figure 7: The Eﬀect of the DPEA on the Number of Disabled Workers at Quota Threshold
+T = 25 – Short–run to Medium–Run eﬀects (Yt −Yt−τ for τ ∈{1, 2, ..., 24})
+0
+200
+number (in 1,000)
+0
+.1
+treatment effect
+Services
+Manufacturing
+Construction
+Tourism
+treatment effect
+95%−CI
+number of observations
+ 
+Discontinuities calculated by model with linear fit.
+95%−CI based on standard errors clustered on firm size.
+ 
+Source: Own calculations, based on ASSD and FWO
+Figure 8: Employment Eﬀects by Industry at Quota Threshold T = 25
+41

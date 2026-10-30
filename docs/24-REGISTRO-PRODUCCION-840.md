@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-30T21:47:12+00:00.
+Comprobado en WordPress: 2026-10-30T22:03:39+00:00.
 
-**456/840 terminadas · 0 en curso · 384 pendientes.**
+**459/840 terminadas · 0 en curso · 381 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -468,9 +468,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 454 | 31/56 · 4/15 | E3.3.04 | Educación gratuita y abierta: el conocimiento sin peaje | terminada | 3/3 | [Leer](https://moevec.org/blog/educacion-gratuita-y-abierta/) |
 | 455 | 31/56 · 5/15 | E3.3.05 | Accesibilidad económica: costes de entrada y participación | terminada | 3/3 | [Leer](https://moevec.org/blog/accesibilidad-economica/) |
 | 456 | 31/56 · 6/15 | E3.3.06 | Internet en Cuba: precios, acceso y alternativas | terminada | 3/3 | [Leer](https://moevec.org/blog/internet-en-cuba/) |
-| 457 | 31/56 · 7/15 | E3.3.07 | Diseñar para conexiones lentas: lo que aprendió MEE | pendiente | 0/3 | — |
-| 458 | 31/56 · 8/15 | E3.3.08 | Discapacidad y empleo: barreras y soluciones de mercado | pendiente | 0/3 | — |
-| 459 | 31/56 · 9/15 | E3.3.09 | Accesibilidad financiera: cuentas, pagos y exclusión bancaria | pendiente | 0/3 | — |
+| 457 | 31/56 · 7/15 | E3.3.07 | Diseñar para conexiones lentas: lo que aprendió MEE | terminada | 3/3 | [Leer](https://moevec.org/blog/disenar-para-conexiones-lentas/) |
+| 458 | 31/56 · 8/15 | E3.3.08 | Discapacidad y empleo: barreras y soluciones de mercado | terminada | 3/3 | [Leer](https://moevec.org/blog/discapacidad-y-empleo/) |
+| 459 | 31/56 · 9/15 | E3.3.09 | Accesibilidad financiera: cuentas, pagos y exclusión bancaria | terminada | 3/3 | [Leer](https://moevec.org/blog/accesibilidad-financiera/) |
 | 460 | 31/56 · 10/15 | E3.3.10 | Barreras de idioma: inglés, jerga y acceso al conocimiento económico | pendiente | 0/3 | — |
 | 461 | 31/56 · 11/15 | E3.3.11 | Guía para leer MEE con pocos datos | pendiente | 0/3 | — |
 | 462 | 31/56 · 12/15 | E3.3.12 | Pódcast y audio: aprender economía mientras trabajas | pendiente | 0/3 | — |
