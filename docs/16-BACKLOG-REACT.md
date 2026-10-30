@@ -1,6 +1,6 @@
 # Backlog de MEE
 
-Último estado: **333/840 terminadas, 999 imágenes originales públicas, 0 en curso o borradores WordPress y 507 pendientes**. Escepticismo Constructivo 3/15; 22 tandas completas. Producidas consecutivamente 328–333 desde 327. Siguiente **334–336 / E1.3.04–E1.3.06**, Educación y Valores → Escepticismo Constructivo. Cada entrada tiene 3/3 imágenes locales revisadas y fuentes parcialmente preparadas; faltan lecturas específicas, texto final y publicación. Incluidas en las 507 pendientes. Después 337–339. Automatización activa, sin agotamiento comunicado.
+Último estado: **342/840 terminadas, 1026 imágenes originales públicas, 0 en curso o borradores WordPress y 498 pendientes**. Escepticismo Constructivo 12/15; 22 tandas completas. Producidas consecutivamente 334–342 desde 333. Siguiente **343–345 / E1.3.13–E1.3.15**, Educación y Valores → Escepticismo Constructivo. Briefs y fuentes parcialmente preparados; cada entrada tiene 0/3 imágenes, sin texto final ni publicación. Incluidas en las 498 pendientes. Reanudar investigación y crear originales, sin duplicar lo guardado. Después 346–348. Automatización activa, sin agotamiento comunicado.
 
 
 Historial anterior: producción comprobada tras el bloque 4–6: 6/840 terminadas. En elaboración local: 7–9 con nueve imágenes propias; todavía no cuentan como publicadas. Consultar siempre WordPress y el registro 24 para el estado más reciente.

@@ -1,0 +1,1361 @@
+--- PAGE 1 ---
+Calculation, Complexity And Planning:
+The Socialist Calculation Debate Once Again
+Allin Cottrell and W. Paul Cockshott∗
+July, 1993
+Abstract
+This paper offers a reassessment of the socialist calculation debate, and examines the extent to which the conclusions
+of that debate must be modiﬁed in the light of the subsequent development of the theory and technology of compu-
+tation. Following an introduction to the two main perspectives on the debate which have been offered to date, we
+examine the classic case mounted by von Mises against the possibility of rational economic calculation under social-
+ism. We discuss the response given by Oskar Lange, along with the counter-arguments to Lange from the Austrian
+point of view. Finally we present what we call the ‘absent response’, namely a re-assertion of the classic Marxian
+argument for economic calculation in terms of labour time. We argue that labour-time calculation is defensible as a ra-
+tional procedure, when supplemented by algorithms which allow consumer choice to guide the allocation of resources,
+and that such calculation is now technically feasible with the type of computing machinery currently available in the
+West and with a careful choice of efﬁcient algorithms. Our argument cuts against recent discussions of economic
+planning which continue to assert that the task is of hopeless complexity.
+∗Department of Economics, Wake Forest University, and Department of Computing Science, University of Glasgow, respectively.
+This paper was published in Review of Political Economy, vol. 5, no. 1, July 1993, pp. 73–112.
+1
+
+--- PAGE 2 ---
+Contents
+1
+Introduction
+3
+1.1
+Two histories of the debate . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+2
+Mises on the impossibility of socialist calculation
+5
+2.1
+Rationality and optimality
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+2.2
+Planning in kind . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+6
+2.3
+Use of labour values
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+2.3.1
+The neglect of natural resource cost . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+2.3.2
+The inhomogeneity of labour . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+2.4
+Use of market prices
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+3
+The actual response: Oskar Lange and neoclassical socialism
+12
+3.1
+Some Austrian counter-arguments . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+3.2
+Further objections and conclusion
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+4
+The absent response: a calculus of labour time
+17
+4.1
+Labour-time calculation in classical Marxism
+. . . . . . . . . . . . . . . . . . . . . . . . .
+17
+4.1.1
+The proportional distribution of social labour and the planning of production
+. . . .
+17
+4.1.2
+Critiques of ‘labour money’ and the Critique of the Gotha Programme . . . . . . . .
+19
+4.2
+Socialist planning and labour time: some new proposals . . . . . . . . . . . . . . . . . . . .
+21
+4.2.1
+The technical feasibility of labour-time calculation . . . . . . . . . . . . . . . . . .
+22
+4.2.2
+The economic rationality of labour-time calculation . . . . . . . . . . . . . . . . . .
+24
+5
+Conclusion
+26
+2
+
+--- PAGE 3 ---
+In the main socialist production might only appear rationally realizable, if it provided an objectively recognizable
+unit of value, which would permit of economic calculation in an economy where neither money nor exchange
+were present. And only labour can conceivably be considered as such (Ludwig von Mises, 1935: 116).
+1
+Introduction
+This paper offers a reassessment of the socialist calculation debate of the 1920s and ’30s, and examines the
+extent to which the conclusions reached in that debate must be modiﬁed in the light of the development of
+the theory and technology of computation since that time. The paper is organized thus: following a brief
+introduction to the two main perspectives on the debate which have been offered in the literature to date, we
+examine in section 2 the classic case mounted by von Mises against the possibility of any kind of rational
+economic calculation under socialism. Section 3 of the paper discusses the response to Mises and Hayek
+given by Oskar Lange. We also consider in this section the counter-arguments to Lange which have been
+made from the Austrian point of view, including the recent arguments of Don Lavoie. Section 4 presents
+what we call the ‘absent response’, namely a re-assertion of the classic Marxian argument for economic
+calculation in terms of labour time. That is, we endorse the claim made by Mises that we have taken as
+our epigraph, but contest his view that labour-time calculation is unworkable. Speciﬁcally, we argue (a) that
+labour-time calculation is defensible as a rational procedure, particularly when supplemented by algorithms
+which allow consumer choice to guide the allocation of (a subset of) economic resources, and (b) that such
+calculation is now technically feasible, with the type of computing machinery currently available in the West
+and with a careful choice of efﬁcient algorithms. Our argument therefore cuts against recent discussions of
+economic planning which continue to assert that the task is of hopeless complexity (e.g. Nove, 1983). The
+ﬁnal section presents our conclusions.
+We should perhaps also point out what this paper does not deal with: while we defend a version socialist
+planning against the Austrian challenge, it is beyond our scope here to offer a full, positive case for socialism
+(or a thorough socialist critique of capitalism). Nonetheless, we believe that such a case can be made, and
+have tried to do so elsewhere.1
+1.1
+Two histories of the debate
+Before engaging with the substance of the Austrian argument it is worth noting the two main interpretations
+of the debate that have been offered to date. These may be labelled the Standard Version and the Revised
+Version. By the Standard Version we mean that given by various prominent neoclassical writers in the early
+postwar period, notably Bergson (1948), Schumpeter (1954) and Samuelson (1948). Taking Bergson as the
+exemplar of this approach, the order of events is basically the following:2
+1. In the ﬁrst decade of the twentieth century, Pareto and Barone show the formal equivalence between
+the optimal allocation of resources in a socialist economy and the equilibrium of a perfectly com-
+petitive market system. In each case, one requires the solution of the equations of Walrasian general
+equilibrium.
+1This paper is conceived as complementary to a forthcoming book on the redeﬁnition of socialism (Cockshott and Cottrell, in press).
+Some of the issues touched upon here are treated at greater length in the book, although the latter does not deal with the historic socialist
+calculation debate.
+2We draw here on Bergson (1948: 445–8). Similar accounts of the Standard Version have been given by Lavoie (1985: 10–20) and
+Temkin (1989: 33–4).
+3
+
+--- PAGE 4 ---
+2. In 1920 Mises asserts the impossibility of rational economic calculation under socialism. This appears
+puzzling: was he unaware of the Barone result? If Mises was asserting the logical impossibility of
+attaining general equilibrium under socialism, even given full information on consumers’ valuations
+of the various goods along with detailed knowledge of production techniques, and unlimited ‘logical
+faculties’ among the planners, then his argument was ‘easily disposed of’—indeed it had already
+been answered in advance. Perhaps then he was really arguing that although rational calculation was
+logically possible under socialism, there was ‘no practical way of realizing it’.
+3. This latter position was taken by Hayek in the 1935 book in which he reprinted Mises’ article along
+with two essays of his own: the Austrians thereby retreated from an untenable strong impossibility
+claim, to the weaker claim that socialist calculation would face practical difﬁculties—in effect, it
+was being claimed that the socialists could not solve all the necessary equations, while the market
+mechanism could.
+4. This weakened Austrian position was then successfully assailed by Lange in 1938, when he showed
+that the socialists could emulate the Walrasian auctioneer, using a ‘trial and error’ process to arrive
+at the general equilibrium price vector. It was not necessary to solve all the equations ‘on paper’, in
+advance.
+Thus according to the standard version the debate closed with a clear defeat for the Austrians. It had been
+shown that rational calculation in a socialist economy was, as it were, practicable in principle. Of course,
+one might have doubts about the real practicability of a Lange-type system, but it sufﬁced as a theoretical
+answer to Mises and Hayek.
+The Revised Version is very different. The fullest statement of this view is given by Lavoie (1985);
+earlier versions were given by Ramsay Steele (1981) and Murrell (1983), among others, and the argument
+has since been ampliﬁed by Temkin (1989). On this view Mises’ critique of socialism was not invalidated in
+advance by the Barone–Pareto equivalence thesis, and neither was it effectively answered by Lange. Rather,
+the Walrasians and the Austrians were talking past each other. Throughout the ‘debate’ the Walrasian side
+was thinking in terms of the attainment of static general equilibrium, while the Austrians had a quite dif-
+ferent problem in mind, namely that of dynamic adjustment (and discovery) in the face of continuously
+changing technologies and preferences. According to Lavoie, Mises never denied that socialism would be
+able to perform alright under static conditions, but this was irrelevant to the real world. The whole Walrasian
+apparatus—acceptance of which was shared by western socialist economists of the Lange cohort and the neo-
+classical commentators of the Standard Version—served at best to deﬁne the limiting end-point of dynamic
+adjustment under competitive capitalism. But this limit was never reached in a real capitalist economy, and
+neither could it be reached under socialism. The formal equivalence argument was therefore irrelevant to
+the Austrian charge that socialism could not effectively emulate the disequilibrium proﬁt-seeking dynamic
+of capitalism.
+We should note that on the Revised Version, the ‘computation argument’ is downplayed. The problem is
+not that there are too many equations to solve, but that the equations cannot be set up in the ﬁrst place. Lavoie
+even chides Hayek for including the original (Walrasian) Barone piece in his 1935 book, and for making any
+reference to the difﬁculty of solving ‘thousands of equations’. Far from strengthening the Austrian case by
+providing the backstop of computational impossibility, Hayek unwittingly drew attention away from his own
+central argument and created the misleading impression that advances in computational technology might
+have some bearing on the matter.
+As will become apparent, we wish to dispute both of the above readings of the calculation debate. We
+agree with Lavoie that Lange’s Walrasian system does not provide an adequate model for a real socialist
+4
+
+--- PAGE 5 ---
+economy; on the other hand, we shall challenge his claim that the Mises critique is effectively unanswerable.
+In particular, we seek to establish that the ‘computational argument’ is relevant, and that recent advances in
+computer technology do make possible an effective socialist planning system. We begin by offering our own
+assessment of Mises’ original argument.
+2
+Mises on the impossibility of socialist calculation
+In 1920, with the Bolsheviks victorious in the Russian civil war and the spectre of communism once more
+haunting Europe, von Mises produced his classic article on ‘Economic Calculation in the Socialist Com-
+monwealth’. His claims were striking, and, if they could be sustained, apparently devastating to the cause
+of socialism. The dominant Marxian conception of socialism involved the abolition of private property in
+the means of production and the abolition of money, but Mises argued that “every step that takes us away
+from private ownership of the means of production and the use of money also takes us away from rational
+economics” (1935: 104). The planned economy of Marx and Engels would inevitably ﬁnd itself “groping in
+the dark”, producing “the absurd output of a senseless apparatus” (106). Marxists had counterposed rational
+planning to the alleged ‘anarchy’ of the market, but according to Mises such claims were wholly baseless;
+rather, the abolition of market relations would destroy the only adequate basis for economic calculation,
+namely market prices. However well-meaning the socialist planners might be, they would simply lack any
+basis for taking sensible economic decisions: socialism was nothing other than the “abolition of rational
+economy”.
+How did Mises arrive at this conclusion? His argument involves (a) a statement of what economic
+rationality is all about, and (b) a supposedly exhaustive listing of possible means of rational economic
+decision-making; his task is then to show that none of these means can be implemented under socialism.
+2.1
+Rationality and optimality
+As regards the nature of economic rationality, it is clear that Mises has in mind the problem of producing
+the maximum possible useful effect (satisfaction of wants) on the basis of a given set of economic resources.
+Alternatively, the problem may be stated in terms of its dual: how to choose the most efﬁcient method of
+production in order to minimize the cost of producing a given useful effect. Mises repeatedly returns to the
+latter formulation in his critique of socialism, with the examples of building a railway or building a house:3
+how can the socialist planners calculate the least-cost method of achieving these objects? We can accept
+this formulation of the problem for present purposes, while noting that it is inescapably imprecise. What
+exactly is meant by the maximization of useful effect? Useful effect for whom, as deﬁned by whom? The
+dual formulation does not escape this problem, since, if one is not to beg the question, the ‘cost’ that is to be
+minimized must be deﬁned theoretically in terms of useful effect or want-satisfaction foregone.
+If one wishes to argue that a given type of economic system, say S1, solves this general problem more
+effectively than some other, S2, then strictly speaking one is obliged to show that for S1 there exists an
+attractor that is closer to the ‘true optimum’ than any corresponding attractor for S2. One is therefore faced
+with the problem of producing a deﬁnition of the ‘true optimum’, and if this is to be deﬁned in terms
+of maximal satisfaction of wants, one presumably has to construct some kind of social welfare or utility
+function, a notoriously difﬁcult if not chimerical task, and one that Mises does not attempt. On the other
+hand, if one dismisses as unreal the notion of a ‘true optimum’—an ultimate independent standard by which
+3The railway example is in Mises (1935: 108). The house-building example is in Human Action (Mises, 1949: 694). It should
+be noted that the discussions of socialist calculation in both Human Action and Socialism (Mises, 1951) are essentially the same as in
+Mises (1935), with much of the material being repeated more or less verbatim in all the texts.
+5
+
+--- PAGE 6 ---
+the results of certain concrete systems may be judged—then one must ﬁnd a different basis for arguing in
+favour of one system over others. We ﬁnd that Mises wavers on this point: he wants to argue that capitalism
+does get closer to optimality, while holding at arm’s length the type of formal static general equilibrium
+theory which might be thought to support such a claim. We return to this point in section 2.4.
+As regards the means for rational decision-making, Mises identiﬁes three possible candidates: planning
+in kind (innatura), planning with the aid of an ‘objectively recognizable unit of value’ independent of market
+prices and money, such as labour time, and economic calculation based on market prices. Let us deal with
+these three possibilities in turn.
+2.2
+Planning in kind
+The problem, let us grant for the present, is deciding how to deploy given resources so as to maximize the
+resulting useful effect. This involves some kind of ‘judgment of value’ (i.e. assessment of useful effect). In
+the case of ﬁnal consumer goods (in Mises terminology, ‘goods of a lower order’) this is quite straightfor-
+ward, and requires no real calculation as such: “As a rule, the man who knows his own mind is in a position
+to value goods of a lower order” (1935: 96). And in very simple economic systems, this immediate valuation
+may be extended to the means of production:
+It would not be difﬁcult for a farmer in economic isolation to come by a distinction between the expansion of
+pasture-farming and the development of activity in the hunting ﬁeld. In such a case the processes of production
+involved are relatively short and the expense and income entailed can be easily gauged (1935: 96).
+Or again:
+Within the narrow conﬁnes of household economy, for instance, where the father can supervise the entire eco-
+nomic management, it is possible to determine the signiﬁcance of changes in the processes of production, without
+such aids to the mind [as monetary calculation], and yet with more or less of accuracy (1935: 102).
+In these cases we may speak of planning in kind, without the intermediary of some accounting-unit
+such as money (or labour time). The point is that ‘apples and oranges’ can be compared at the level of
+subjective use-value, and in cases where the connection between the allocation of means of production and
+the production of speciﬁc use-values is readily apparent, this may be sufﬁcient for achieving efﬁciency.
+The limits of such planning in kind are set by the degree of complexity of the production processes.
+At some point, it becomes impossible to achieve a synoptic appreciation of the relevant interconnections;
+beyond this point, rationality in the allocation of resources requires the use of some objective ‘unit’ in which
+costs and beneﬁts may be expressed. Interestingly from our point of view, the impossibility of planning in
+kind for complex systems is explicitly argued in terms of the capabilities of the human mind:
+[T]he mind ofone manalone—be it never so cunning, is too weak to grasp the importance of any single one among
+the countlessly many goods of a higher order. No single man can ever master all the possibilities of production,
+innumerable as they are, as to be in a position to make straightway evident judgments of value without the aid of
+some system of computation (1935: 102, emphasis added).
+So might the employment of means other than human minds make possible planning in kind for complex
+systems? The main pro-planning argument in this paper involves the use of labour time as a unit of account
+(and hence does not fall in the category of pure planning in kind), but nonetheless we wish to suggest that
+6
+
+--- PAGE 7 ---
+certain advances in artiﬁcial intelligence, in particular recent work on neural nets, may be relevant to this
+question.4
+Mises is in effect arguing that optimization in complex systems necessarily involves arithmetic, in the
+form of the explicit maximization of a scalar objective function (proﬁt under capitalism being the paradig-
+matic case). But arithmetical calculation can be seen as a particular instance of the more general phenomenon
+of computation or simulation. What a control system requires is the ability to compute, whether the control
+system in question be a set of ﬁrms operating in a market, a planning agency, an autopilot on an aircraft
+or a butterﬂy’s nervous system; it is by no means necessary for the computation to proceed by arithmetical
+means. The important point is that the control system is able to model signiﬁcant aspects of the system
+being controlled. Firms do this by means of stock control and accountancy, in which marks on paper model
+the location and movement of commodities. In preparing these marks the rules of arithmetic are followed;
+the applicability of arithmetic to the problem relies upon number theory being a model for the properties of
+commodities.
+On the other hand, consider an example of a neural control system. A butterﬂy in ﬂight has to control
+its thoracic muscles to direct its movement towards objects, fruit or ﬂowers, that are likely to provide it
+with sources of energy. In so doing, it has to compute which of many possible wing movements are likely
+to bring it nearer to nectar. Different sequences of muscle movements have different costs in terms of
+energy consumption and bring different beneﬁts in terms of nectar. The butterﬂy’s nervous system has the
+task of optimizing with respect to these costs and beneﬁts, using non-arithmetical methods of computation.
+The continued survival of the species is testimony to its computational proﬁciency. It appears that neural
+networks are capable of producing optimal (or at least highly efﬁcient) behavior, even when faced with
+exceedingly complex constraints, without reducing the problem to the maximization (or minimization) of a
+scalar.
+A planning agency is likely to make widespread use of arithmetic and indeed, if one wants to make
+localized decisions on the optimal use of resources by arithmetic means, then Mises’ argument about the
+need to convert different products into some common denominator for purposes of calculation is quite cor-
+rect. If, however, one wishes to perform global optimizations on the whole economy, other computational
+techniques, having much in common with the way nervous systems are thought to work, may be more
+appropriate, and these can in principle be performed without resort to arithmetic.
+Of course it would be anachronistic to fault Mises for failing to take into account developments in
+computer science which took place long after he wrote. He and Hayek were doubtless correct to argue
+that the proposals for planning in kind offered in 1919 by the likes of Neurath and Bauer, on the basis of
+the experience of the war, were highly problematic in peacetime conditions.5 But it is fair comment on
+contemporary critics of socialism, that they should not repeat uncritically pronouncements on planning in
+kind made prior to the scientiﬁc understanding of the nature of computation.6
+4Recent results in the theory of neural nets, also known as parallel distributed processing, are presented in Rumelhart et al. (1986).
+A useful summary of the issues involved is given by Narayanan (1990). Donald Hebbs (1949) is commonly credited with the origination
+of this line of thought, but it could not be practically implemented at that time.
+5See Hayek (1935: 30–31). Mises mentions Neurath on p. 108 of the same work. They refer to books by Neurath and Bauer (Durch
+die Kriegswirtschaft zur Naturalwirtschaft and Der Weg zum Sozialismus respectively, both published in 1919) which do not appear to
+be available in translation.
+6Cockshott (1990) presents a speciﬁc proposal for the balancing of an economic plan in the presence of constraints in the form of
+stocks of speciﬁc means of production, drawing on the idea of ‘simulated annealing’ from the neural net literature. His proposal does
+in fact involve the use of arithmetic—essentially the minimization of a loss function in relation to a desired vector of ﬁnal outputs—but
+it points the way to application of artiﬁcial intelligence techniques to the task of economic planning.
+7
+
+--- PAGE 8 ---
+2.3
+Use of labour values
+Having rejected the possibility of planning in kind, Mises considers the possibility that the socialist planners
+might be able to make use of an ‘objectively recognizable unit of value’, i.e. some measurable property of
+goods, in performing their economic calculations. The only candidate Mises can see for such a unit is labour
+content, as in the theories of value of Ricardo and Marx.7 Mises ends up rejecting labour as a value unit; he
+has two relevant arguments, each purporting to show that labour content cannot provide an adequate measure
+of the cost of production. These arguments concern the neglect of natural resource costs implicit in the use
+of labour values, and the inhomogeneity of labour. We shall deal with these two points here, leaving other
+arguments concerning the adequacy of labour values to section 4.2. First, though, it is worth making the
+general point that Mises’ critique of labour values is very brief and sketchy. Two pages or so of substantive
+argument appear in Mises (1935) and are reproduced in Mises (1951). In Human Action (Mises, 1949) the
+topic is dismissed in two sentences. This doubtless reﬂects the fact that although Marx and Engels had laid
+great stress on planning as an allocation of labour time, this conception had been more or less abandoned by
+Western socialists by the time Mises was writing. We return to this point below.
+2.3.1
+The neglect of natural resource cost
+Mises accepts that the Marxian concept of labour value does, in one sense, make allowance for the consump-
+tion of natural resources:
+On a ﬁrst impression calculation in terms of labour also takes into consideration the natural non-human conditions
+of production. The law of diminishing returns is already allowed for in the concept of socially necessary average
+labour-time to the extent that its operation is due to the variety of the natural conditions of production. If the
+demand for a commodity increases and worse natural resources must be exploited, then the average socially
+necessary labour-time required for the production of a unit increases too (Mises, 1935: 113).
+But he immediately argues that this is not enough. It is not rational that the ‘material factors of produc-
+tion’ should enter the calculation only insofar as they cost labour time to extract from nature. Mises gives
+an example of two commodities, P and Q, each of which requires a total of 10 hours of labour to produce.
+Both goods require some raw material, a, in their production, and a in turn requires one hour of labour per
+unit produced. Commodity P is produced with 8 hours of direct labour and two units of material a, while
+Q requires 9 hours direct labour and only one unit of a. In terms of labour calculation, the two commodities
+‘cost’ the same, but Mises asserts that P must truly be more valuable than Q on account of the fact that it
+embodies more of the natural raw material.
+At ﬁrst sight this might appear a non sequitur (what if the material a is effectively inexhaustible?), but it
+becomes apparent in the conclusion to Mises’ argument that he is talking of a material that is “only present
+in such quantities that it becomes an object of economizing” (1935: 114), i.e. a non-reproducible resource.
+Lavoie (1985: 69–70) emphasizes the point, arguing that “there is no direct way [labour-time] calculation
+can cope with non-reproducible natural conditions of production.” Socialist planners “presumably would
+have to develop some kind of proxy for the value of nonreproducible resources in units of labour hours. It is
+difﬁcult to imagine how this could be done in a way that would not be completely arbitrary.”
+We do not wish to deny there is a problem here. We do, however, ﬁnd it rather remarkable that Mises
+(and his expositor, Lavoie) should talk as if the problem solves itself under capitalism. Neither offers any
+criticism of the classic Ricardian theory, according to which the market price system also fails to take into
+7From a modern, formal-mathematical point of view the singling out of labour for such a role may seem arbitrary. Wouldn’t any
+basic commodity, which enters either directly or indirectly into the production of all others, do just as well as the value basis? Farjoun
+and Machover (1983) provide a trenchant discussion of this point, and an effective defence of the choice of labour as basis.
+8
+
+--- PAGE 9 ---
+account non-reproducible resources. For Ricardo, natural resource constraints manifest themselves in the
+price system via rising marginal cost of production, i.e. just the effect which Mises takes to be inadequate.
+For the intra-marginal output, price is indeed above labour value, but at the margin rent is zero and the
+exploitation of natural resources comes free. (There is a difference here: if labour value is deﬁned as
+average socially necessary labour time, then the labour-value calculation will ‘undervalue’ certain products
+relative to Ricardian prices, but this could be overcome by evaluating the relevant products at their marginal
+labour content.)
+In fact, matters are not infrequently worse under capitalism. The fact that a certain resource is ultimately
+exhaustible does not necessarily mean that it is subject to diminishing returns in the short run. In the west-
+ward expansion of American agriculture, for instance, the (geographically) marginal land was actually the
+most productive. In such cases the market provides no incentive whatever for resource conservation; the
+results were painfully evident in the Dust Bowl of the 1930s. We are not claiming that labour-time calcu-
+lation would necessarily do better in cases where the market fails to conserve resources. We do contend,
+however, that socialist planners should be able to take more far-sighted decisions on resource conservation
+than proﬁt-maximizing ﬁrms.8 We cannot argue this point at length here; two observations will have to
+sufﬁce.9
+First, the planning authority could make it a principle that whenever it employs technologies that con-
+sume non-reproducible resources, it invests in research into the production of substitutes. The amount
+of such investment that should be undertaken cannot be decided by any simple algorithm (in market or
+planned systems), but once a decision is reached, the cost of the research could be ‘charged’ to the resource-
+consuming industries (i.e. the planners would pro-rate the labour time required in this endeavour across the
+products of these industries). Here is a non-arbitrary way of bringing resource considerations into the domain
+of labour-time accounting. But second, we should emphasize that we do not regard labour-time calculation
+as providing a mechanical decision procedure for all planning questions. A socialist society might open up
+democratic debate on speciﬁc technologies or projects with substantial environmental impacts, and might
+allow environmental considerations to override ‘efﬁciency’ measured in terms of labour-minimization. We
+have no problem with the idea that environmental considerations and labour-time accounting are not neces-
+sarily reducible to a scalar common denominator, and that the balancing of these considerations may require
+political judgment on which opinions can differ. Mises, to his credit, is also quite willing to admit that
+important environmental issues cannot be brought within the ambit of monetary calculation either—witness
+his discussion of the decision whether to build a waterworks which might destroy the natural beauty of a
+waterfall, which is designed to illustrate the general point that money “can never obtain as a measure of
+those value-determining elements which stand outside the domain of exchange transactions” (1935: 98–99).
+Whether the conservation of Mises’ waterfall can better be trusted to a private landowner, voluntarily es-
+chewing the maximization of proﬁt, or to a National Parks Board, is a matter of judgment: we incline to the
+latter.
+2.3.2
+The inhomogeneity of labour
+In Mises’ words, “the second defect in calculation in terms of labour is the ignoring of the different qualities
+of labour” (1935: 114). Mises notes Marx’s claim that skilled labour counts as a multiple of, and hence may
+8It has recently become clear that the socialist regimes of Eastern Europe have a dismal record of environmental destruction,
+comparable to that of nineteenth century capitalism. It appears to us, however, that this had more to do with a lack of democratic
+accountability, and an historically speciﬁc emphasis on the rapid development of heavy industries at any cost, than with the nature of
+socialist calculation as such.
+9The relationship between labour-time accounting and environmental/resource considerations is treated more fully in Cockshott and
+Cottrell (in press).
+9
+
+--- PAGE 10 ---
+be reduced to, ‘simple labour’, but argues that there is no way to effect this reduction short of the comparison
+of the products of different labours in the process of market exchange. As he poses the problem:
+What must be conclusive in deciding the question whether reckoning in terms of labour is applicable or not,
+is whether it is or is not possible to bring different kinds of labour under a common denominator without the
+mediation of the economic subject’s valuation of their products (ibid.).
+Mises maintains that this is not possible. Wage differentials might appear to offer a solution, but the
+equalizing process in this case “is a result of market transactions and not its antecedent.” Mises assumes that
+the socialist society will operate an egalitarian incomes policy, so that market-determined wage rates will
+not be available as a guide to calculation. The conclusion is then that “calculation in terms of labour would
+have to set up an arbitrary proportion for the substitution of complex by simple labour, which excludes its
+employment for purposes of economic administration” (1935: 115).
+True, labour is not homogeneous, but there is no warrant for the claim that the reduction factor for
+complex labour has to be arbitrary under socialism. Skilled labour may be treated in the same way that Marx
+treats the means of production in Capital, namely as a produced input which ‘transfers’ embodied labour to
+its product over time. Given the labour time required to produce skills and a depreciation horizon for those
+skills, one may calculate an implied ‘rate of transfer’ of the labour time embodied in the skills. If we call
+this rate, for skill i, ri, then labour of this type should be counted as a multiple (1 + ri) of simple labour,
+for the purpose of ‘costing’ its products. Of course the labour input required for the production of skills is
+likely to be a mixture of skilled and simple, which complicates the calculation of the skill multipliers. An
+iterative procedure is needed: ﬁrst calculate the transfer rates as if all inputs were simple labour, then use
+those ﬁrst-round transfer rates to re-evaluate the skilled labour inputs, on this basis recompute the transfer
+rates, and so on, until convergence is reached.10
+Aside from the issue of skills which require labour for their production, we also recognize that not all
+workers of a given skill level accomplish the same work in an hour. In cases where it is possible to assess
+individual productivity with some degree of accuracy, labour of a given skill level might be graded into dif-
+ferent productivity categories (say, above-average, average and below-average) and appropriate multipliers
+could be determined empirically for these grades. Workers might, for instance, be evaluated periodically
+(by themselves and their peers) and assigned a productivity grade. Unlike the case of skilled versus simple
+labour, the multipliers in this case might reasonably be used for determining differential rates of pay. Not
+every worker need be a stakhanovite; one might choose an easier pace of work while accepting a somewhat
+lower rate of pay.
+To conclude this section, we ﬁnd that Mises’ two speciﬁc objections to the use of labour-time accounting
+are less than compelling. We should also note the marked asymmetry in Mises’ treatments of market prices
+and labour-time calculation. When discussing market prices, he is quite willing to concede that “monetary
+calculation has its inconveniences and serious defects”—he even discusses some of these at length—yet he
+concludes that “for the practical purposes of life”, such calculation “always sufﬁces” (1935: 109). When
+discussing labour-time calculation, he draws attention to two defects, but instead of concluding that such
+calculation is then only approximately valid, or that there is a need for further thought on how the issues
+he raises might be dealt with in the context of labour-time accounting, he takes these defects as grounds
+for complete dismissal of the idea, and claims that the socialists therefore have no means of economic
+calculation whatever.
+10This procedure is discussed at greater length in Cockshott and Cottrell (in press).
+10
+
+--- PAGE 11 ---
+2.4
+Use of market prices
+In his discussion of market prices, Mises is concerned to establish two points: the adequacy of market prices
+as a means of rational calculation under capitalism, and their necessary unavailability under socialism. We
+shall take these points in turn.
+It is clear that market prices do provide a basis for calculation under capitalism. By reference to prices,
+ﬁrms are able to decide on cost-minimizing technologies, and to decide between producing different prod-
+ucts on the basis of their proﬁtability. And we don’t feel any need to dispute Mises’ claim that the price
+system provides for a reasonably effective coordination of economic activities. Indeed, this was explicitly
+recognized, even emphasized, by Marx and Engels as we shall see in section 4.1 below; despite their critique
+of the ‘anarchy’ of the market, they saw the price mechanism as leading to an (imperfect, but better than
+arbitrary) adjustment of the supplies of commodities in line with demand, while enforcing convergence on
+production methods which require no more than the socially necessary labour time. Neither would we care
+to assert that the minimization of monetary cost of production or the maximization of proﬁt have nothing to
+do with achieving efﬁciency in the satisfaction of human wants. But the two criteria are much less closely
+identiﬁed that Mises allows. Consider the following passage:
+Anyone who wishes to make calculations in regard to a complicated process of production will immediately
+notice whether he has worked more economically than others or not; if he ﬁnds, from reference to the exchange
+values obtaining in the market, that he will not be able to produce proﬁtably, this shows that others understand
+how to make a better use of the higher-order goods in question (Mises, 1935: 97–8).
+The person Mises refers to may ‘immediately notice’ whether he has worked more proﬁtably than others
+or not, but the implicit assertion of identity between what is most proﬁtable and what is most ‘economical,’
+or simply ‘better,’ is unjustiﬁed.11 Certainly, capitalists cannot make proﬁts by producing something nobody
+wants, or producing with gratuitous technical inefﬁciency, but that is not enough to sustain Mises’ claim.
+Is it not possible to reduce monetary cost of production by recklessly exploiting natural resources, cheap
+for the time being, yet ultimately exhaustible? If the production of luxury cars proves more proﬁtable than
+simple housing, does that show that the cars represent a better use of resources? The list of questions could
+go on. . .
+One point that socialists have typically urged, as undercutting the alleged identity of the pursuit of proﬁt
+and the satisfaction of needs, concerns the inequality of incomes under capitalism. Mises’ response to this
+argument is interesting; he claims that the very notion of a ‘distribution of income’ under capitalism is mis-
+leading, on the grounds that “incomes emerge as a result of market transactions which are indissolubly linked
+up with production” (1951: 151).12 There is no question of ‘ﬁrst’ producing output and then ‘distributing’ it.
+Only under socialism could we speak of a ‘distribution of incomes’, decided politically as a separate matter
+from the production plan. But to adopt Mises’ position—that the allocation of purchasing-power under cap-
+italism is an endogenous element in the productive system—is to admit that the production of commodities
+for proﬁt is not governed by the ‘maximal satisfaction of human wants’, unless one tries to argue that human
+wants themselves are generated in miraculous correlation with money incomes.
+It is not our intention here to produce yet another critique of capitalism, of which there are enough
+and more in the socialist literature. We merely wish to point out that Mises cannot have it both ways. If
+he is offering the realistic, hard-headed, dynamic defence of capitalism that Lavoie detects and applauds,
+11This assertion is made quite explicitly in Socialism: “To direct production towards proﬁt simply means to direct it to satisfy other
+people’s demand... ˙Between production for proﬁt and production for needs there is no contrast” (Mises, 1951: 143).
+12This is not dissimilar to Marx’s view that the distribution of income is governed by the mode of production (speciﬁcally the
+distribution of the means of production—see for instance Marx, 1974: 348). In both cases, the argument gives rise to a dismissive
+attitude towards schemes for the radical redistribution of incomes under capitalism.
+11
+
+--- PAGE 12 ---
+he cannot smuggle in the claim that proﬁt-maximization equals maximization of the satisfaction of human
+needs. If this claim were sustainable—which we of course dispute—it could only be by reference to the full
+apparatus of general equilibrium theory plus social welfare function, an apparatus which Mises advisedly
+avoids. Rather, Mises will have to be satisﬁed with the claim that capitalism ‘works quite well’ in certain
+ways, to which socialists can of course respond that it works rather badly in other ways.
+We then come to the unavailability of prices as a means of economic calculation under socialism. Mises
+accepts that there may be markets, and hence market prices, for consumer goods in a socialist economy,
+but the problem comes with the means of production. “Production-goods in a socialist commonwealth are
+exclusively communal; they are an inalienable property of the community, and thus res extra commercium,”
+writes Mises (1935: 91). And “because no production-good will ever become the object of exchange, it
+will be impossible to determine its monetary value” (92). For Mises, meaningful prices are necessarily the
+outcome of genuine market transactions between independent property-owners. The key feature of price
+or exchange-value is that it “arises out of the interplay of the subjective valuations of all who take part
+in exchange” (97); only by virtue of this fact does exchange-value “furnish a control over the appropriate
+employment of goods” (ibid.). We tend to agree with Mises on this. There may be other means of ‘controlling
+the appropriate employment of goods,’ but we accept his concept of price as the terms on which property-
+owners are willing to part with or acquire commodities. Lange, however, believed that Mises was vulnerable
+on precisely this issue, and made it the point of entry for his attack.
+3
+The actual response: Oskar Lange and neoclassical socialism
+“[T]he term ‘price’,” says Lange,13 citing the authority of Wicksteed, “has two meanings. It may mean
+either price in the ordinary sense, i.e., the exchange ratio of two commodities on a market, or it may have
+the generalized meaning of ‘terms on which alternatives are offered.’ ... It is only prices in the generalized
+sense which are indispensable to solving the problem of allocation of resources” (1938: 59–60). Lange bases
+his defence of socialism on the idea that a socialist economy can operate a price system in the generalized
+sense, emulating in certain ways the working of a market system, yet without having actual markets in means
+of production. His position is quite well known and does not require lengthy exposition here; we seek only
+to outline its main points in order to draw a contrast with our own proposals, and to provide a context for the
+Austrian counter-arguments which may also have some relevance to the latter.
+Lange starts from the principles of Walrasian general equilibrium, emphasizing the point that the equi-
+librium price vector of a competitive economy is determinate on condition that it balances the supply and
+demand for all commodities, while (a) agents treat prices as parametric and (b) they optimize in a deﬁnite
+manner with respect to those prices. Given (a) and (b), each price vector maps onto a deﬁnite pattern of
+excess demands/supplies for all commodities, and only one price vector maps onto the zero vector of excess
+demands.14 There is no reason, he argues, why a socialist economy cannot exploit this principle. What we
+require is that the planning authority sets ‘accounting prices’ for all means of production, and issues certain
+instructions to the managers of enterprises: treat the accounting prices as parametric; choose that combina-
+tion of the factors of production that minimizes average cost of production at the given prices; and ﬁx output
+such that marginal cost equals price of output. At the same time the managers of whole industries should
+follow the latter rule “as a principle to guide them in deciding whether an industry ought to be expanded (by
+13Variations on the Lange theme were offered by H. D. Dickinson (1933), Abba Lerner (1934) and E. F. M. Durbin (1936) among
+others. But these other contributions, while differing on points of detail, are sufﬁciently similar to the better-known proposals of Lange
+that they do not require separate examination here.
+14While he is aware that problems of multiple solutions and instability of equilibrium can arise under certain conditions, Lange
+assumes that a unique and stable general equilibrium is the norm.
+12
+
+--- PAGE 13 ---
+building new plants or enlarging old ones) or contracted” (ibid.: 76–77). Consumers and workers, mean-
+while, make their demand and labour supply decisions respectively, based on the parametric prices and wage
+rates they face.
+There is no guarantee, of course, that the decisions made in the face of any given vector of accounting
+prices will be mutually compatible. In case of incompatibility, the planning authority performs the role of
+the Walrasian ‘auctioneer’, raising the accounting prices of goods in excess demand, and lowering the prices
+of those in excess supply. This should lead, over a number of iterations, to socialist general equilibrium.
+There is no denying the ingenuity of this ‘solution’. Neither is it difﬁcult to see its tactical advantage:
+neoclassical economists inclined to accept the Walrasian theory as an adequate account of the working of
+capitalist economies will, it appears, be forced to accept the validity of Langean socialism, mutatis mutandis.
+3.1
+Some Austrian counter-arguments
+Against this brief outline of Lange, let us examine some of the objections raised by his Austrian critics. We
+identify three main points: the claim that Lange’s proposal compromises the basic premises of socialism,
+the static nature of Lange’s theory, and the problem of incentives.
+Mises (1949: 701–2) states that on the traditional deﬁnition, socialism necessarily involves “the entire
+elimination of the market and catallactic competition.” The presumed superiority of socialism rested on the
+“uniﬁcation and centralization” inherent in the notion of planning.
+It is therefore nothing short of a full acknowledgment of the correctness and irrefutability of the economists’
+analysis and devastating critique of the socialists’ plans that the intellectual leaders of socialism are now busy
+designing schemes ... in which the market, market prices for the factors of production, and catallactic competition
+are to be preserved.
+Although Lange is not mentioned by name, it seems clear that schemes such as his are the target here.
+While we accept that much of the subsequent ‘market socialist’ literature does compromise socialism, sev-
+eral points might be made in defence of Lange. First, he stresses that in his system the distribution of income
+is under social control, and will be quite different from capitalism. Second, Lange argues that the socialist
+planners will take into account external costs and beneﬁts which are ignored by private ﬁrms (though he does
+not say exactly how). Third, while his system emulates in certain ways a competitive economy, he points
+out that in actual capitalism “oligopoly and monopoly prevail” (1938: 107), leading to an inferior allocation
+of resources. Fourth, in his Appendix on the Marxist literature, Lange maintains that the classical socialist
+proposal of ‘free sharing’ of goods (Marx’s ‘to each according to his needs’) “is by no means such economic
+nonsense as might appear at a ﬁrst glance” (139). In a technically-advanced economy, the saturation point
+may be reached for certain goods (i.e. the point where the price is so low that demand becomes ‘quite inelas-
+tic’). Lange speaks of a ‘socialized sector’ of consumption; initially this sector includes primarily ‘collective
+wants’, but he goes on: “It is quite conceivable that as wealth increases this sector increases, too, and an
+increasing number of commodities are distributed by free sharing until, ﬁnally, all the prime necessaries of
+life are provided for in this way, the distribution by the price system being conﬁned to better qualities and
+luxuries” (141). Finally, we might make reference to Lange’s (1967) essay in which he revisits his arguments
+of thirty years earlier. Here he situates his original market-like proposals as essentially means of solving a
+system of simultaneous equations (those of general equilibrium). Now that electronic computers are avail-
+able, he says, why not solve the equations directly? “The market process with its cumbersome tˆatonnements
+appears old-fashioned. Indeed, it may be considered as a computing device of the pre-electronic age” (1967:
+158). In this light it may be more appropriate to label Lange’s ideas as ‘neoclassical socialism’ rather than
+‘market socialism’: it is clear that he thought of the market—even his artiﬁcial market of 1938—as merely
+one possible means of achieving a certain kind of optimization.
+13
+
+--- PAGE 14 ---
+A second objection to Lange made by the Austrians concerns the static nature of his solution. Lavoie
+(1985, chapter 4) maintains that Lange answered a question which Mises regarded as trivial, while totally
+failing to engage with the difﬁcult question of dynamics. Now there is no doubt that Lange employs a
+static equilibrium theory, but his method is at least comparative statics, and he does specify an adjustment
+mechanism which will supposedly converge on general equilibrium following any parametric change. When
+Mises denied that economic calculation was a problem under static conditions, on the other hand, he had
+in mind true stasis, where “the same events in economic life are ever recurring” (1935: 109). Whatever
+problems the Langean system may have, one may hardly claim that Mises refuted him in advance.
+The more substantial point raised by Mises and Hayek, and later emphasized by Lavoie, involves the
+speed of adjustment following parametric changes. Hayek, for instance, noting that in the real world “con-
+stant change is the rule,” states that “whether and how far anything approaching the desirable equilibrium is
+ever reached depends entirely on the speed with which the adjustments can be made” (1949: 188). Hayek
+goes on to argue that centrally-dictated prices cannot respond to change as ﬂexibly as true market prices.
+The importance of this point goes beyond the assessment of Lange’s particular argument. More generally,
+if the calculations required for socialist planning take too long, in relation to the pace of changes in con-
+sumer demand and technology, then planning is in trouble. We shall argue in section 4.2 that with present
+computing technology the relevant calculations can be carried out fast enough.
+Perhaps we should pause on this question a moment longer. The charge that the ‘static’ nature of Lange’s
+system robs it of any purchase on reality is the centrepiece of Lavoie’s revival of the Austrian case, and al-
+though the positive proposals we present below are substantially different from Lange’s they may be thought
+to be vulnerable to the same criticism. We don’t wish to be accused of missing the point once again. Par-
+ticularly relevant to our ideas is the claim of Mises and Hayek that the socialist planners cannot, outside
+of a static economy, have the full and up-to-date information on production possibilities which they need.
+To the extent that such claims are based on the limitations of communications and data-storage facilities,
+they are now simply out of date, but is there a further basis? Lavoie suggests that the problem lies not so
+much in data-collection, as in the creation of relevant data. True, if technology and consumer demand are
+changing over time, the best way of accomplishing any given end is not always (or even generally) known
+in advance. Experimentation is needed. To the extent that capitalist entrepreneurs carry out such exper-
+imentation, they perform an important social function. But the idea that only capitalist entrepreneurs are
+capable of performing this function seems to us baseless.15 A socialist economy could set up an ‘innovation
+budget’, whereby an agreed fraction of social labour time is devoted to just such experimentation with new
+processes and products. Existing enterprises or groups of people with new ideas could apply for a share of
+this budget. The disposition of the budget might be divided between two or more parallel agencies, so that
+prospective innovators have more than one chance to have their ideas funded (hence lessening the risk of
+‘ossiﬁcation’ of the process). As the results of such experimentation come in, successful new products could
+be incorporated into the regular plan, and successful technologies ‘registered’ as an element of the regular
+input–output structure of the economy.16
+The third objection concerns incentives, in connection with the social function of the capitalists. Lange
+has his socialist managers following certain rules in order to achieve an optimal allocation of resources.
+Mises responds that while it might seem reasonable to draw a parallel between such socialist managers and
+the salaried managers of a capitalist joint-stock company, the whole argument overlooks the vital role of the
+capitalists themselves, which cannot be emulated by salaried functionaries. The dynamic adjustment of a
+15The valid point that a dynamic economy must be constantly in search of new methods and products, and hence ‘production
+function’ information is not given once and for all, tends to shade over, in Mises and Hayek, into what one might call a ‘mysticism of
+the entrepreneur’—a radical subjectivism for which we can see no scientiﬁc justiﬁcation.
+16We are not quite ready yet to deﬁne ‘success’ in this context, but we shall do so in section 4.2.2 below.
+14
+
+--- PAGE 15 ---
+capitalist economy requires
+that capital should be withdrawn from particular lines of production, from particular undertakings and concerns
+and should be applied in other lines of production. . . . This is not a matter for the managers of joint stock
+companies, it is essentially a matter for the capitalists—the capitalists who buy and sell stocks and shares, who
+make loans and recover them, ... who speculate in all kinds of commodities (Mises, 1951: 139).
+Furthermore, Mises argues, “no socialist would dispute that the function which capitalists and specula-
+tors perform under Capitalism ... is only performed because they are under the incentive to preserve their
+property and to make proﬁts which increase it or at least allow them to live without diminishing their capi-
+tal” (ibid.: 141). Maybe so, but the import of the argument here is not entirely clear. At one level, Mises is
+arguing against market socialism, claiming that the market system cannot work without capitalists. This may
+well be true, but as we have already remarked, ‘market socialism’ may not be an accurate label for Lange’s
+system. Then again, he may be saying that major investment decisions, decisions to wind up or consolidate
+enterprises and so on, cannot be reduced to following simple rules. This is also true, and perhaps does cut
+against Lange. If, however, Mises is claiming that such decisions may be made conscientiously, with due
+attention to risk but without excessive conservatism, only by individuals motivated by the prospect of great
+personal wealth (in case of success) or personal ﬁnancial ruin (in case of failure), then we ﬂatly disagree.
+We do not have space to expand here on the institutions required for the planning of major investments
+and structural economic change under socialism; a brief comment must sufﬁce. We agree with Mises that
+this function will not be entrusted to pseudo-capitalists; it must involve a combination of expert opinion
+and democratic methods.17 We can expect that the ‘experts’ who are called upon to exercise their judgment
+in such matters will gain in prestige and garner the admiration of their peers if successful, and will be
+demoted and lose inﬂuence if unsuccessful. It is important that there should be a climate of open debate and
+accountability, but not that the winners should amass great fortunes and the losers be cast into penury. (No
+more, one might say, than the prospect of great personal wealth was required to induce Mises and Hayek
+to put forth their best efforts in the intellectual defence of capitalism!) One further point should be stressed
+here: the other side of the coin of successful innovation is that the planners must have the right to close
+down uneconomic enterprises. While guaranteed employment is of course a basic socialist principle, there
+can therefore be no guarantee of permanent employment in any particular industry or trade. David Granick
+(1987) has argued that de facto job rights of this sort were a major brake on the development of the Soviet
+economy, and Kornai’s analysis of ‘soft budget constraints’ points in the same direction. As for the criterion
+for assessing whether a given enterprise is ‘uneconomic’, we return to this point in section 4.2.2 below.
+3.2
+Further objections and conclusion
+In the preceding section we concentrated on those Austrian objections to Lange with which we disagree.
+Some points made by the Austrians, however, are quite close to those we wish to make: we share their
+scepticism over Walrasian theory, both as an account of capitalism and as a guide to socialist planning.
+There is a crucial ambiguity in Lange’s notion of a socialist tˆatonnement. In 1938, this appeared to be a
+process which takes place in real, historical time; in 1967 he suggests that it could take place in ‘less than a
+second’ on a computer. Either way, there are severe problems. The problem with the historical time version
+is pointed out by Lavoie (1985: 97–8), in his discussion of trading at ‘false prices’. Unless the economy
+is held in continuous general equilibrium, there will always be inconsistencies among the optimal plans of
+dispersed economic agents. A real market system can live with such inconsistencies (it has the rule that
+17Democratic methods may enter indirectly, in the selection of the personnel entrusted with these decisions, or in some cases directly,
+as rival programs put forward by teams of experts are put to a popular vote.
+15
+
+--- PAGE 16 ---
+commodities go to those willing to pay the most), but there is a danger that they might reduce a socialist
+economy to incoherence. What actually happens in a Langean economy in the face of excess ‘demands’
+(requests might be a better term, as there is no real market) for speciﬁc means of production? How is the
+planning authority supposed to avoid cascading disruptions to supply? It would seem that the production of
+a balanced, coherent plan (never mind optimality) must await the termination of the ‘trial and error’ process.
+Here we touch on a more general problem for planning—an issue on which Mises, ironically, is willing to
+concede too much to socialism. For all his denials of the possibility of rational calculation under socialism
+(in the sense of ﬁnding the most effective means for achieving given aims), Mises does not question the
+ability of the planners to plan:
+It is true that production would no longer be ‘anarchical.’ The command of a supreme authority would govern the
+business of supply. Instead of the economy of ‘anarchical’ production the senseless order of an irrational machine
+would be supreme (Mises, 1951: 120).
+More recent critics of the Soviet economy have taken a very different view. Nove (1977), for instance,
+lays great stress on the difﬁculty of constructing a balanced plan: the planners did not (and he says, could
+not) have the means to calculate the required output of intermediate goods in full detail, in order to support
+any given targets for ﬁnal outputs (see also Ellman, 1971). As a result the plan was always ill-formulated:
+instructions to enterprises were excessively aggregated, speciﬁc supplies and demands failed to match, and
+a good deal of informal barter and ‘ﬁxing’ (socialist ‘anarchy’, so to speak) was required to achieve even
+a rough approximation to balance. We disagree with Nove’s view that such problems are inescapable (see
+section 4.2 below), but in order to avoid them there must be a means of ensuring plan-consistency even as the
+economy iterates towards optimality, and we don’t see this in the historical-time version of Lange’s system.
+What then of the computer-time version? On this interpretation the rounds of the tˆatonnement are simply
+successive approximations, permitting no new external information input at each step, so that all the relevant
+information must be assembled in advance. Here Mises has a valid objection. Lange’s system involves
+delivering an optimal vector of consumer goods outputs (in the historical-time version, the responses of
+consumers to the prices of these goods were part of the ‘trial and error’), but surely it is unrealistic to
+suppose that the planners could have a complete speciﬁcation of consumer demand functions. As Mises
+says,
+for a utilization of the equations describing the state of equilibrium, a knowledge of the gradation of the values of
+consumers’ goods in this state of equilibrium is required. This gradation is one of the elements of these equations
+assumed to be known. Yet the director knows only his present valuations, not also his valuations under the
+hypothetical state of equilibrium (1949: 707).18
+Certain important calculations can now be done in computer time, but we agree with Mises that ex ante
+solution for Walrasian general equilibrium is not feasible.
+A ﬁnal comment on Lange will serve to lead into our presentation of the ‘absent response’ to Mises. In
+an Appendix to his 1938 paper, Lange considers ‘The Allocation of Resources Under Socialism in Marxist
+Literature’. Against Mises, he argues that it is “very much exaggerated to say that the Marxian socialists did
+not see the problem and offered no solution” (141). On the other hand he agrees with Mises that labour values
+cannot provide an adequate basis for socialist planning: “The truth is that [the Marxians] saw and solved
+the problem only within the limits of the labour theory of value, being thus subject to all the limitations of
+the classical theory.” In addition, Lange cites Kautsky on the impossibility of calculating the labour content
+of commodities (of which more below). We disagree, and hold that labour values provide a more robust
+foundation for planning than Lange’s neoclassical conceptions.
+18‘The director’ is Mises’ idiosyncratic personiﬁcation of the planning authority.
+16
+
+--- PAGE 17 ---
+4
+The absent response: a calculus of labour time
+As we have noted, the classical Marxian conception of planning in terms of labour time was effectively
+abandoned by western socialists in the period of the calculation debate, if not before. Two issues arise in
+relation to labour values: the economic rationality of using labour time as a basic metric in socialist planning,
+and the technical feasibility of so doing. We wish to reopen the argument on both of these points. We
+contend that the alleged irrationality of labour time as a basis for calculation was never properly established,
+and indeed that this conception can be sustained only by reference to an unreal standard of perfect rationality
+which has little to do with actual market economies. We also argue that calculation in terms of labour time
+is now feasible (although admittedly it was not at the time of the original debate). Before presenting our
+own arguments to this effect it will be useful to ‘excavate’ the classical Marxian arguments which had been
+forgotten or rejected by the 1920s, as these form the starting point of our thinking on the matter. Lest we
+be misunderstood, however, we should stress that our own proposal for labour-time accounting is not made
+out of deference to Marx. Rather, we happen to agree—subject to the qualiﬁcations registered in section 2.2
+above—with Mises’s claims (in the epigraph to this essay) that socialist planning requires an ‘objective unit
+of value’, and that labour time is the only serious candidate for such a unit. The precise mode of employment
+we propose for the calculus of labour values will be spelled out in section 4.2.2 below.
+4.1
+Labour-time calculation in classical Marxism
+Among the writings of Marx and Engels, there are two kinds of arguments relevant to our theme. First, there
+are arguments relating to the planning of production with reference to socially necessary labour time and
+second, arguments relating to the distribution of consumer goods in accordance with the labour contribution
+made by individual workers. We shall examine these in turn.
+4.1.1
+The proportional distribution of social labour and the planning of production
+Of course most of the discussion of the labour theory of value in Capital is oriented towards the nature and
+dynamics of capitalism (theory of capitalist exploitation, theory of the tendency for the rate of proﬁt to fall,
+and so on). But there are several passages which elaborate a more general conception of the proportional
+distribution of labour time as a basic necessity facing any form of economy, and which put the labour
+theory of value into context as the speciﬁc ‘form of manifestation’ of this necessity under the conditions of
+capitalism. Such passages are scattered, but if we collect them together they reveal a substantial ‘vision’ of
+the economy as a system of allocation of labour time to different productive purposes—a vision which is as
+relevant to the organization of a socialist economy as it is to any other system.
+Perhaps the most striking statement of this general view is contained in Marx’s letter to Kugelmann of
+11 July 1868:
+Every child knows that any nation that stopped working, not for a year, but let us say, just for a few weeks, would
+perish. And every child knows, too, that the amounts of products corresponding to the differing amounts of needs
+demand differing and quantitatively determined amounts of society’s aggregate labour. It is self-evident that this
+necessity of the distribution of social labour in speciﬁc proportions is certainly not abolished by the speciﬁc form
+of social production; it can only change its form of manifestation. (Marx and Engels, 1988: 68, original emphasis
+removed)
+This view is ampliﬁed in various passages from Volume III of Capital. For instance:
+For a commodity to be sold at its market-value, i.e. proportionally to the necessary social labour contained in
+it, the total quantity of social labour used in producing the total mass of this commodity must correspond to the
+quantity of the social want for it, i.e. the effective social want (Marx, 1972: 192).
+17
+
+--- PAGE 18 ---
+A passage from p. 636 of the same work similarly expands on the law of value as it applies to “each total
+product of the particular social spheres of production made independent by the division of labour”: what is
+required is that
+not only is no more than the necessary labour-time used up for each speciﬁc commodity, but only the necessary
+proportional quantity of the total social labour-time is used up in the various groups. For the condition remains
+that the commodity represents use-value. But if the use-value of individual commodities depends on whether
+they satisfy a particular need then the use-value of the mass of the social product depends on whether it satisﬁes
+the quantitatively deﬁnite social need for each particular kind of product in an adequate manner, and whether the
+labour is therefore proportionately distributed among the different spheres in keeping with these social needs,
+which are quantitatively circumscribed.
+Our ﬁnal citation in this vein is from Volume 1 of Capital (Marx, 1976: 169 ff.). Marx begins with a
+Crusoe story, pointing out that “Nature itself compels [Robinson] to divide his time with precision between
+his different functions. Whether one function occupies a greater space in his total activity than another
+depends on the magnitude of the difﬁculties to be overcome in attaining the useful effect aimed at.” After
+discussing the counterpart to the Robinsonian calculations in feudal and primitive societies, Marx comes to
+the case of socialism.
+Let us ﬁnally imagine, for a change, an association of free men, working with the means of production held in
+common, and expending their many different forms of labour-power in full self-awareness as one single labour
+force. All the characteristics of Robinson’s labour are repeated here, but with the difference that they are social
+instead of individual. ... The total product of our imagined association is a social product. One part of this
+product serves as fresh means of production and remains social. But another part is consumed by the members of
+the association as means of subsistence.
+In such a socialized economy, the (direct) apportionment of labour time “maintains the correct proportion
+between the different functions of labour and the various needs of the associations,” and here “the social
+relations of the individual producers, both towards their labour and the products of their labour, are ...
+transparent in their simplicity.”19
+These themes are also to be found in the well known text on planning from Anti-Duhring (Engels,
+1954: 429–30). Engels states that under socialism, “when society enters into possession of the means of
+production and uses them in direct association for production, the labour of each individual, however varied
+its speciﬁcally useful character may be, becomes at the start and directly social labour.” Then it is no longer
+necessary to express the labour-content of goods in the ‘roundabout’ form of their exchange-value. Rather,
+“society can simply calculate how many hours of labour are contained in a steam-engine, a bushel of wheat
+of the last harvest, or a hundred square yards of cloth of a certain quality.” Using this knowledge, “the useful
+effects of the various articles of consumption, compared with one another and with the quantities of labour
+required for their production, will in the end determine the plan. People will be able to manage everything
+very simply, without the intervention of much-vaunted ‘value’.”20
+The other type of argument with direct relevance to the use of labour-time calculation in the planning of
+production is that given in chapter 15 of Capital, I (Marx, 1976: 515–7).
+19It is interesting that even socialist commentators feel obliged to distance themselves from this kind of statement. Robin Blackburn
+(1991), for instance, maintains that in this text Marx is “at least half-playful”, and dubs the conception of central planning which it
+appears to suggest “the synoptic fallacy”.
+20Nowadays, of course, this passage is commonly quoted only to show Engels’s “myopia and economic illiteracy” (as in Ramsay
+Steele, 1981: 12). True, Engels was too sanguine (as was Marx) concerning the ‘simplicity’ of measuring the labour content of goods,
+and he does not venture any speciﬁcs on how ‘useful effects’ are to be compared, but if such statements are taken as a starting point for
+elaboration of a socialist argument they are quite reasonable, as we shall show below.
+18
+
+--- PAGE 19 ---
+The use of machinery for the exclusive purpose of cheapening the product is limited by the requirement that less
+labour must be expended in producing the machinery than is displaced by the employment of that machinery. For
+the capitalist, however, there is a further limit on its use. Instead of paying for the labour, he pays only the value
+of the labour-power employed; the limit to his using a machine is therefore ﬁxed by the difference between the
+value of the machine and the value of the labour-power replaced by it.
+In Marx’s theory, of course, the value of a worker’s labour-power over any given period, as determined by the
+labour content of the necessary means of subsistence, is less than the actual labour performed in that period
+(the difference constituting surplus value). So Marx argues that the capitalists necessarily fail to economize
+on labour to the fullest extent. The passage cited above is followed by various examples of, as Marx puts it,
+“the shameless squandering of human labour-power”, which is at its worst when wages are lowest, and the
+divergence between economy of labour and economy of money cost therefore greatest. A footnote draws
+the inference that “the ﬁeld of application of machinery would therefore be entirely different in a communist
+society from what it is in bourgeois society.” Implicitly, the communist society will make rigorous use of
+the principle of economizing labour time in its planning decisions, and this constitutes part of its superiority
+over capitalism.
+Hence we see a dual role for a labour-time calculus in the classical Marxian approach to the planning of
+production. First, the basic economic task of the socialist ‘association’ is conceived in terms of an allocation
+of social labour in accordance with the proportional production of the use-values obtained from the various
+branches of the division of labour. This proportionality is to be achieved directly, as opposed to the indirect
+mechanism of the ‘law of value’ under capitalism. This requires, among other things, the measurement
+of the labour required to produce speciﬁc goods and services. Second, one general objective of socialist
+planning must be the economization of labour time—the progressive reduction of the labour necessary for
+the production of speciﬁc use-values, or in other words the progressive augmentation of the quantum of
+use-value which can be produced with any given expenditure of social labour.
+4.1.2
+Critiques of ‘labour money’ and the Critique of the Gotha Programme
+Before examining Marx’s positive proposals regarding the role of labour time in the distribution of consumer
+goods under socialism, we brieﬂy consider the Marxian critique of ‘labour money’ schemes; for there may
+appear to be a tension between the latter critique and Marx’s own proposals. Indeed, the ‘critique of labour
+money’ is open to a (mis)reading which takes it as critical of any attempt to depart from the market system,
+towards a direct calculus of labour time. As we shall see, it appears that this reading has been made by
+writers as far apart as Karl Kautsky and Terence Hutchison.
+The basic object of Marx and Engels’s critique might be described as a ‘na¨ıve socialist’ appropriation
+of the Ricardian theory of value. If only, the reformers argue, we could impose the condition that all com-
+modities really exchange according to the labour embodied in them, then surely exploitation would be ruled
+out. Hence the schemes, from John Gray in England, through a long list of English ‘Ricardian socialists’,
+to Proudhon in France, to Rodbertus in Germany, for enforcing exchange in accordance with labour val-
+ues.21 From the standpoint of Marx and Engels, such schemes, however honourable the intentions of their
+propagators, represent a Utopian and indeed reactionary attempt to turn back the clock to a world of ‘simple
+commodity production’ and exchange between independent producers owning their own means of produc-
+tion. The labour-money utopians fail to recognize two vital points. First, capitalist exploitation occurs
+though the exchange of commodities in accordance with their labour values (with the value of the special
+21Marx criticizes Proudhon’s scheme in his Poverty of Philosophy ([1847] 1963), and deals with John Gray in his 1859 Contribution
+to the Critique of Political Economy (the relevant section of which is reprinted as an Appendix to Marx, 1963), while Engels tackles
+Rodbertus’s variant in his 1884 Preface to the ﬁrst German edition of The Poverty of Philosophy (again, in Marx, 1963). Between Marx
+in 1847 and Engels in 1884 we ﬁnd a consistent line of attack on such proposals.
+19
+
+--- PAGE 20 ---
+commodity labour-power determined by the labour content of the workers’ means of subsistence). Second,
+although labour content governs the long-run equilibrium exchange ratios of commodities under capitalism,
+the mechanism whereby production is continually adjusted in line with changing demand, and in the light of
+changing technologies, under the market system, relies on the divergence of market prices from their long-
+run equilibrium values. Such divergences generate differential rates of proﬁt, which in turn guide capital
+into branches of production where supply is inadequate, and push capital out of branches where supply is
+excessive, in the classic Smith/Ricardo manner. If such divergence is ruled out by ﬁat, and the signalling
+mechanism of market prices is hence disabled, there will be chaos, with shortages and surpluses of speciﬁc
+commodities arising everywhere.22
+One point which emerges repeatedly in the Marxian critique is this: according to the labour theory
+of value, it is socially necessary labour time which governs equilibrium prices, and not just ‘raw’ labour
+content (Marx, 1963: 20–21, 66, 204–5). But in commodity-producing society, what is socially necessary
+labour emerges only through market competition. Labour is ﬁrst of all ‘private’ (carried out in independent
+workshops and enterprises), and it is validated or constituted as social only through commodity exchange.
+The social necessity of labour has two dimensions. First of all, we are referred to the technical conditions
+of production and the physical productivity of labour. Inefﬁcient or lazy producers, or those using out-
+moded technology, will fail to realize a market price in line with their actual labour input, but only with the
+lesser amount which is deﬁned as ‘necessary’ (with respect to either average productivity or best-practice
+technique—Marx is not always consistent on precisely which). Secondly, as the passages quoted from Cap-
+ital III above testify, there is a sense in which the social necessity of labour is relative to the prevailing
+structure of demand. If a certain commodity is over-produced relative to demand, it will fail to realize a
+price in line with its labour value—even if it is produced with average or better technical efﬁciency. The
+proponents of labour money want to short-circuit this process, to act as if all labour were immediately social.
+The effects within commodity-producing society cannot but be disastrous.
+Now the lessons which Marx and Engels read to the labour-money socialists, concerning the beauties
+of the supply/demand mechanism under capitalism and the foolishness of the arbitrary ﬁxing of prices in
+line with actual labour content, are obviously rather pleasing to the critics of socialism. Terence Hutchison
+(1981: 14–16), for instance, lauds Engels for his recognition of “the essential role of the competitive market
+mechanism” as displayed in his critique of Rodbertus. “Mises and Hayek,” writes Hutchison, “could hardly
+have made the point more forcefully.” But as Hutchison’s praise is merely a preface to his denunciation
+of Engels for failing to realize that the very same critique cuts the ground from under his and Marx’s own
+proposals for socialist planning, we must be careful to deﬁne the limits of the Marxian critique of labour
+money. Of greater importance for the history of the debate, it appears that Kautsky also read the critique
+of labour money as casting doubt on the Marxian objective of direct calculation in terms of labour content,
+so that by the 1920s the ﬁgure widely regarded as the authoritative guardian of the Marxian legacy in the
+West had effectively abandoned this central tenet of classical Marxism.23 Against this background, one can
+appreciate why Mises was able to get away with a brief and rather offhand dismissal of planning by means
+of labour values.
+From the account of the critique of labour money we have given above, the limits of that critique should
+22Direct quotation is hardly necessary to establish these points. See for instance Marx (1963: 17–20, 60–61, 66–9, 203–6).
+23In his book The Social Revolution (1902: 129–33), Kautsky offers a brief and rather ambiguous discussion of the ‘law of value’ and
+socialism, which combines statements of the classical Marxian theses with strangely incongruous comments on the ‘indispensability’
+of money. In his later work, The Labour Revolution (1925: 261–70) the formulations of Marx and Engels are dropped in favour of a
+general argument for the necessity of money and prices. This argument appears to owe something to the ‘critique of labour money’
+discussed above; it also draws on the idea that the measurement of labour content is impracticable—it “could not be achieved by the
+most complicated State machinery imaginable” (267). Incidentally, Kautsky (1925) is highly critical of Neurath’s ‘planning in kind’ on
+very much the same grounds as Mises and Hayek.
+20
+
+--- PAGE 21 ---
+be apparent. What Marx and Engels are rejecting is the notion of ﬁxing prices according to actual labour
+content in the context of a commodity-producing economy where production is private. In an economy
+where the means of production are under communal control, on the other hand, labour does become ‘directly
+social’, in the sense that it is subordinated to a pre-established central plan. Here the calculation of the labour
+content of goods is an important element in the planning process. And here the reshufﬂing of resources in
+line with changing social needs and priorities does not proceed via the response of proﬁt-seeking ﬁrms
+to divergences between market prices and long-run equilibrium values, so the critique of labour money is
+simply irrelevant. This is the context for Marx’s suggestion for the distribution of consumer goods through
+‘labour certiﬁcates’.
+This suggestion appears in its fullest form among Marx’s critical comments on the Gotha Programme
+of the German Social Democratic Workers’ Party of 1875 (Marx, 1974: 343–8). First, against the claim
+that each worker should receive ‘the undiminished proceeds of labour’, Marx points out that a socialist
+society must allocate a substantial part of the total product to cover depreciation, accumulation of means of
+production, social insurance, administration, the communal satisfaction of needs (schools, health services,
+etc.), and for the needs of those unable to work. Nonetheless, this leaves a portion of the total product for
+distribution as means of personal consumption. As to the nature of this distribution, Marx talks of two stages
+in the development of communism. At some future point, when ‘all the springs of cooperative wealth ﬂow
+more abundantly’ it will become possible to ‘cross the narrow horizon of bourgeois right’ and institute the
+famous principle of ‘from each according to his abilities, to each according to his needs,’ but in the ﬁrst
+stage of communism Marx envisages a situation in which the individual gets back—after the deductions
+noted above—what he has given to society.
+What he has given it is his individual quantum of labour. For instance, the social working day consists of the
+sum of the individual hours of work. The individual labour time of the individual producer thus constitutes his
+contribution to the social working day, his share of it. Society gives him a certiﬁcate stating that he has done
+such and such an amount of work (after the labour done for the communal fund has been deducted), and with
+this certiﬁcate he can withdraw from the social supply of means of consumption as much as costs an equivalent
+amount of labour (346).
+The labour certiﬁcates Marx talks of here are quite different from money. They do not circulate, rather they
+are cancelled against the acquisition of consumer goods of equivalent labour content. And they may be used
+for consumer goods alone; they cannot purchase means of production or labour power, and hence cannot
+function as capital.
+The logic of the Marxian position is clear: ‘labour money’ in a commodity-producing society is a utopian
+and economically illiterate notion, but the allocation of consumer goods via labour certiﬁcates under social-
+ism is quite a different matter; it is one possible mode of distribution of (a certain portion of) the social
+product in a system where the mode of production has itself been changed through the socialization of the
+means of production and the institution of planning. Whether this conception is persuasive, however, de-
+pends on whether it is possible to elaborate convincingly the notion of the planned mode of production. We
+now turn to this task.
+4.2
+Socialist planning and labour time: some new proposals
+Let us begin with the relatively easy issue. It is clearly a precondition for implementing the conceptions of
+planning discussed above, that it should be possible to measure the required labour content of the goods to
+be produced in the socialist economy. Despite Marx and Engels’s statements on the ‘simplicity’ of this task,
+Marxists from Kautsky to Charles Bettelheim have been sceptical, while critics of central planning have
+21
+
+--- PAGE 22 ---
+readily assumed that the job cannot be done.24 If the sceptics are right, the rest of our argument falls, so it is
+important to establish at the outset that labour-calculation is feasible.
+4.2.1
+The technical feasibility of labour-time calculation
+If we assume, as a ﬁrst approximation, that the conditions of production may be represented as a linear
+input–output system, then the problem of calculating labour values25 for all the goods in the system appears
+as the task of computing the inverse Leontief matrix. The labour value of good i is given by the equation:
+vi = λi + ai1v1 + ai2v2 + · · · + ainvn
+where vi is the value of good i, λi is the direct labour required to produce one unit of good i, and ai j is
+the technical coefﬁcient representing the input of product j required to produce one unit of good i. The
+complete vector of labour values is therefore given by:
+V = 3 + AV,
+where V denotes the (n×1) vector of labour values, 3 denotes the (n×1) vector of direct labour coefﬁcients,
+and A denotes the (n × n) matrix of technical coefﬁcients. It then follows that
+V = (I −A)−13,
+where I is the (n × n) identity matrix. So the values vector may be obtained, given knowledge of A and 3,
+provided we are able to generate the inverse Leontief matrix,
+(I −A)−1.
+So far as brute computational complexity goes, this is the hard nut to crack in socialist planning. But notice
+that if it can be cracked, it opens up further possibilities: besides giving the labour values of all goods,26 this
+is just what is needed to calculate the vector of gross outputs of all products which is required to support any
+given vector of desired ﬁnal outputs, for consumption and accumulation of means of production. In other
+words, this is what we need to produce a coherent, balanced plan.
+The standard analytical method for matrix inversion is Gaussian elimination. This procedure has a time-
+order (in the sense of complexity theory) of n3, where n is the number of products in the system (Sedgewick,
+1983). Now if the matrix in question is to be usable for actual planning purposes, as opposed to a purely
+theoretical exercise, it must represent the economy in full detail. It has been estimated that in the Soviet
+economy, for instance, the number of separately identiﬁable products is of the order of 10 million (Nove,
+1983: 33). If n = 107, the time order of Gaussian elimination is then 1021. This ﬁgure represents the
+approximate number of elementary calculations to be performed. Suppose that each calculation requires
+10 computer instructions. We then have 1022 instructions to carry out. On a commercially available super-
+computer of mid-1980s vintage, with a speed of around 200 million (2×108) instructions per second (Lubeck
+24Kautsky’s views have been alluded to above. Bettelheim’s sceptical comments—cited approvingly by Nove (1983: 27–8)—are to
+be found in his Calcul ´economique et formes de propri´et´e (1971: 30).
+25We have noted that Marx and Engels do not speak of ‘values’ under socialism. While their point that labour content does not
+assume the form of exchange value in a socialist economy is well taken, we nonetheless ﬁnd it useful to employ the term ‘labour value’,
+or simply ‘value’, as a shorthand for the sum of direct plus indirect labour content.
+26This is not quite accurate, insofar as it ignores the problem of joint production. Where two goods are produced jointly and in a
+ﬁxed ratio from the one production process, the individual labour values of the goods will be undeﬁned. It turns out, however, that given
+the particular use which we propose for labour values within the planning process (see section 4.2.2), the issue of joint production can
+be dealt with quite readily, as shown in the Appendix to this paper.
+22
+
+--- PAGE 23 ---
+et al., 1985), the calculation as a whole would take something like 5 × 1013 seconds, or about 1.5 million
+years. Perhaps this is what Nove (1983) has in mind when he asserts that such calculations are completely
+impossible.
+If brute-force analytical inversion of a 107 × 107 matrix is out of the question, that is not, however,
+the end of the story. First, as is widely recognized, there are iterative approximation methods which are
+substantially more efﬁcient (the Gauss–Seidel and Jacobi methods—see Varga, 1962). Here the time-order
+is n2r, where r is the number of iterations required to produce a satisfactory approximation. With r = 20,
+repetition of the above calculations gives a running time of 108 seconds, or about 3 years. While this now
+looks closer to feasibility, it is still clearly much too slow to be of practical use.27 The remaining step,
+however, is to recognize that the matrix of technical coefﬁcients is likely to be very sparse, when speciﬁed
+in such detail. There may be 10 million products in the system, but the average number of direct inputs for
+each product will surely be very much smaller—perhaps in the tens or hundreds. This fact can be exploited
+by representing the input–output system in the form of a linked-list data-structure (Sedgewick, 1983) rather
+than in matrix form. In that case the time-order of the iterative solution procedure reduces to nmr, where m
+is the average number of direct inputs for each product. Under the same assumptions as above, but setting
+m = 100, we arrive at a running time of around 103 seconds, or 17 minutes.28 Given a careful choice of
+data-structures and algorithms, it would appear that the timely production of the inverse Leontief matrix, for
+a system speciﬁed in full detail, is well within the capacity of present-day computational technology.
+Admittedly, the above argument says nothing about the task of gathering the vast amount of data required
+to implement such a calculation—an issue of which Mises and Hayek make a great deal. We do not have
+space to address this issue here, but we have argued elsewhere (Cockshott and Cottrell, 1989, Appendix)
+that this should also be feasible, using an economy-wide network of cheap personal computers, running
+spreadsheets representing the conditions of production in each enterprise, in conjunction with a national
+Teletext system and a system of universal product codes.
+One further relevant point should be mentioned here. Our argument for the technical feasibility of labour-
+time calculation clearly depends on both computer hardware and algorithms of fairly recent origin. It follows
+that those (both socialists and critics of socialism) who were arguing in the ﬁrst half of the twentieth century
+that such calculation was impracticable, were probably quite correct at the time. It is interesting to note that
+in the Soviet Union, where adherence to the classical Marxian conceptions was more tenacious than in the
+West, practicability was the stumbling block. In 1920 S. G. Strumilin advocated the use of the tred (from
+the Russian trudovaya edinitsa or ‘labour unit’) as the common denominator for planning, but the USSR
+Central Statistical Administration could not manage the task (Manevich, 1989; Zauberman, 1967). With the
+construction of the ﬁrst Soviet input–output model in 1960, Soviet planners came one important step closer
+to realizing Strumilin’s aim, but this model distinguished only 157 products, and hence was of little use for
+practical purposes.29 We return to the implications of this point in our conclusion.
+27Geoff Hodgson (1984) uses this variant of the calculation to dismiss the possibility of effective central planning. He arrives at a
+much longer running time, as he employs a now-obsolete computer for his standard of speed.
+28Note that there is a margin for error built into these calculations by the choice of a mid-1980s commercially-available fast computer
+as the benchmark. Machines are now available with speeds two orders of magnitude faster, such as the Meiko ‘computing surface’ at
+Edinburgh University, and of course progress in this ﬁeld continues apace.
+29The Economic Research Institute of Gosplan carried out some labour value calculations based on the 1960 table, and as Treml
+(1967: 79) notes, this “was hailed as an important addition to more traditional tools of labour planning in the Soviet Union”. But these
+pioneering studies do not seem to have been followed up. The limits of computational power and data-gathering in the Soviet Union
+restricted the practical use of input–output methods to ﬁelds such as inter-regional analysis (Ellman, 1971, 1989).
+23
+
+--- PAGE 24 ---
+4.2.2
+The economic rationality of labour-time calculation
+If labour-time calculation is now technically feasible, as we have claimed, the next issue which arises is the
+economic rationality of such calculation. We have already countered the two objections raised by Mises,
+namely the neglect of natural resource costs and the inhomogeneity of labour (see section 2.3). In this
+section we touch on two additional points, concerning the time dimension of production and the need to
+incorporate consumers’ evaluations of products respectively. Examination of the latter point leads to our
+proposal of a ‘consumer goods algorithm’ as a means whereby consumer choice may be allowed to determine
+the allocation of that portion of the social labour time devoted to means of personal consumption.
+As to the time dimension of production, this is a complex point and we don’t have space to offer a detailed
+treatment of it here. Our main purpose in this paper is to defend socialism against Mises’ critique, and since
+Mises doesn’t raise the point we will be brief, giving only the gist of our conclusions on the matter.30
+The issue is whether labour content, summed without regard to its phasing over time, is an adequate
+measure of cost, or whether rational planning requires that labour inputs be dated, with past labour being
+‘marked-up’ at some speciﬁc rate. Samuelson and Weisz¨acker (1972) offered an inﬂuential analysis of the
+question, under the provocative title ‘A new labour theory of value for rational planning through use of the
+bourgeois proﬁt rate.’31 Their conclusion was that simple labour values are applicable only in a stationary
+system: otherwise a rational plan should call for a set of modiﬁed values, which could in principle be
+obtained by the expedient of ‘blowing up’ every coefﬁcient in the input–output system by a factor (1 +
+b)(1 + g), where b denotes the rate of labour-saving technical progress and g denotes the rate of growth of
+labour supply. Samuelson’s spurious polemical identiﬁcation of such a plan parameter with the ‘bourgeois
+proﬁt rate’ apart,32 the suggestion has some merit, and could perhaps be implemented. Nonetheless, we
+hold that the ‘errors’ arising from the use of simple labour values are not likely to be serious (particularly, as
+Samuelson himself notes, if population growth is slow and historic labour content is used in deﬁning values).
+Besides, the divergence between simple and Samuelsonian values becomes really signiﬁcant only in the
+case of long-term projects, and it is here that the rationality of discounting calculations is most questionable.
+On the obverse it seems to make sense that we would prefer to have output now rather than later, but the
+converse is that the needs of the future are considered relatively unimportant—a less attractive implication
+of discounting. Critics of the British government’s economic assessment of a barrage across the Severn (for
+the purpose of electricity generation using tidal power) have objected that the discount rate applied makes
+the generation of virtually free power thirty years hence almost completely irrelevant to the calculation.
+Similarly, the huge potential costs of decommissioning today’s nuclear power stations are routinely shrunk
+to insigniﬁcance by the use of a positive discount rate. We believe that such issues call for judgment: while
+the time element should not be ignored, it is false to suppose that it is ‘taken care of’ by a simple application
+of Present Discounted Value calculation.33
+So: we have argued that labour-time accounting is technically feasible, and have indicated how one
+might counter the principal objections to the idea that labour values give a reasonable measure of cost of
+production. But within what kind of planning framework should labour-time calculation be placed? If
+decisions on the allocation of social labour to the broad categories of ﬁnal use (accumulation of means of
+30Some arguments supporting these conclusions may be found in Cockshott and Cottrell (1989). A lengthier and more technical
+treatment of the question is available from the authors on request.
+31The Samuelson–Weisz¨acker argument forms the starting point (and, one might say, ending point too) for more recent treatments of
+the topic such as Jon Elster (1985).
+32The plan parameter has the same formal properties as a rate of proﬁt, but their magnitudes would be equal only in a world in which
+the bourgeoisie selﬂessly devoted all of its income to accumulation!
+33Mises harps on the point that socialists are supposedly unable to reduce economic decisions to the comparison of scalar (monetary)
+magnitudes. On the contrary, we consider it a virtue that socialism is able to deﬁne certain issues as matters of judgment—judgment
+that is informed, of course, by relevant numbers, but not reducible to one-dimensional maximization.
+24
+
+--- PAGE 25 ---
+production, collective consumption, personal consumption) are material for democratic politics, and if the
+principle of labour-time minimization is adopted as the basic efﬁciency criterion (as in Marx), what of the
+detailed pattern of consumer goods output?
+Our proposal here might be described as ‘Marx plus Lange plus Strumilin’. From Marx we take the
+idea of the payment of labour in ‘labour certiﬁcates’, and the notion that consumers may withdraw from
+the social fund goods having a labour content equal to their labour contribution (after deduction of taxes
+to offset the communal uses of labour time). From Lange we take up a modiﬁed version of the ‘trial and
+error’ process, whereby market prices for consumer goods are used to guide the re-allocation of social labour
+among the various consumer goods. From the Soviet economist Strumilin we take the idea that in a socialist
+equilibrium the use-value created in each line of production should be in a common proportion to the social
+labour time expended.34
+The central idea is this: the plan calls for production of some speciﬁc vector of ﬁnal consumer goods,
+and these goods are marked with their social labour content. If planned supplies and consumer demands
+for the individual goods happen to coincide when the goods are priced in accordance with their labour
+values, the system is already in equilibrium. In a dynamic economy, however, this is unlikely. If supplies
+and demands are unequal, the ‘marketing authority’ for consumer goods is charged with adjusting prices,
+with the aim of achieving (approximate) short-run balance, i.e., prices of goods in short supply are raised
+while prices are lowered in the case of surpluses.35 In the next step of the process, the planners examine
+the ratios of market-clearing price to labour value across the various consumer goods. (Notice that both of
+these magnitudes are denominated in labour-hours; labour content in the one case, and labour certiﬁcates
+in the other). Following Strumilin’s conception, these ratios should be equal (and equal to unity) in long-
+run equilibrium. The consumer goods plan for the next period should therefore call for expanded output
+of those goods with an above-average price/value ratio, and reduced output for those with a below-average
+ratio (although, naturally, an element of demand forecasting is also called for here: the current ratios provide
+a useful guide rather than a completely mechanical rule).
+In each period, the plan should be balanced, using either input–output methods or an alternative bal-
+ancing algorithm.36 That is, the gross outputs needed to support the target vector of ﬁnal outputs should be
+calculated in advance (so if the achievement of balance requires an iterative process, this iteration should be
+performed in ‘computer time’). We have already alluded to this necessity by way of criticism of Lange’s
+system, in which balance seems to be left to chance. Our scheme, however, does not impose the unreason-
+able requirement that the pattern of consumer demand be perfectly anticipated in advance—adjustment in
+this respect is left to a ‘trial and error’ process which takes place in historical time.
+This scheme meets the objection of Nove (1983), who argues that labour values cannot provide a basis
+for planning even if they give a valid measure of cost of production. Nove’s point is that labour content
+of itself tells us nothing about the use-value of different goods. Of course this is true,37 but it only means
+that we need an independent measure of consumers’ valuations; and the price, in labour certiﬁcates, which
+roughly balances planned supply and consumer demand provides just such a measure. By the same token,
+we can answer a point made by Mises in his discussion of the problems faced by socialism under dynamic
+conditions (1951: 196 ff). One of the dynamic factors he considers is change in consumer demand, `a propos
+of which he writes: “If economic calculation and therewith even an approximate ascertainment of the costs
+34This point—a basic theme of Strumilin’s work over half a century—is expressed particularly clearly in his (1977: 136–7).
+35With market-clearing prices, as we have observed, the goods go to those willing to pay the most. Given an egalitarian distribution
+of income, we see no objection to this.
+36An alternative algorithm which makes allowance for given stocks of speciﬁc means of production is given in Cockshott (1990).
+37As was clearly understood by Marx: “On a given basis of labour productivity the production of a certain quantity of articles in every
+particular sphere of production requires a deﬁnite quantity of social labour-time; although this proportion varies in different spheres of
+production and has no inner relation to the usefulness of these articles or the special nature of their use-values.” (1972: 186–7)
+25
+
+--- PAGE 26 ---
+of production were possible, then within the limits of the total consumption-units assigned to him, each
+individual citizen could be allowed to demand what he liked...” But, he continues, “since, under socialism,
+no such calculations are possible, all such questions of demand must necessarily be left to the government”.
+Our proposal allows for precisely the consumer choice that Mises claims is unavailable.
+Returning brieﬂy to some concerns raised in section in section 3.1 above, we are now in a position to
+state the basic criterion for a ‘successful’ innovation, on the one hand, and for an ‘uneconomic’ production
+process on the other. ‘Success’ means that the product is one for which people are willing to pay, in the
+form of labour certiﬁcates, at least as much of their labour time as the product embodies. An ‘uneconomic’
+process—which should be closed down, and its resources redeployed—is one for which there is no scale of
+operation at which this condition is satisﬁed.
+5
+Conclusion
+What, one might ask, is the relevance of these arguments at a time when socialism has either been rejected or
+is in crisis everywhere? Doesn’t this brute reality show, despite our strenuous protestations to the contrary,
+that Mises and Hayek were basically right all along? Or alternatively, if socialism is a dead duck, what does
+it matter whether the speciﬁc arguments made by Mises in 1920 were correct or not?
+First, it is instructive to exercise one’s sense of history. It is little more than ﬁfty years since it was
+widely accepted that the Great Depression showed the historic bankruptcy of capitalism. Even among those
+who did not subscribe to such a claim, many economists were willing to concede the basic superiority of
+socialism.38 If such a judgment could be so thoroughly reversed over the post war years, it is surely not
+impossible that further reversals may occur in future. Second, one cannot assume that because socialism is
+in dire trouble today, this somehow vindicates the Austrian critique. This is not the place for an account
+of the complex historical reasons behind the crisis of Soviet socialism, but our investigations enable us to
+identify one component of the problem: the material conditions (computational technology) for effective
+socialist planning of a complex peacetime economy were not realized before, say, the mid-1980s. If we are
+right, the most notorious features of the Soviet economy (chronically incoherent plans, recurrent shortages
+and surpluses, lack of responsiveness to consumer demand), while in part the result of misguided policies,
+were to some degree inevitable consequences of the attempt to operate a system of central planning ‘before
+its time’. The irony is obvious: socialism was being rejected at the very moment when it was becoming a
+real possibility.
+Don Lavoie concludes his 1985 study of the socialist calculation debate with the observation that the
+debate was never really resolved, and with the hope that his book “may help to stimulate contemporary ad-
+vocates and critics of central planning to return to this intellectual rivalry that so enriched the profession of
+economics in the 1930s.” We agree that the Marxian case was effaced rather than ‘updated’ in the problem-
+atic positions of the neoclassical socialists. If market socialism is the best the Left can offer, we would have
+to agree that Mises won the debate. The hour is late, but we hope we have shown how Mises’ challenge—his
+case that socialism cannot operate a rational economy—can be met.
+38A. C. Pigou is a striking case in point. While he stops short at a cautious Fabian position himself, his discussion in Capitalism
+Versus Socialism(1954) represents a noteworthy admission, from the leading proponent of neoclassical economics in inter-war England,
+of the powerful arguments in favour of socialist planning.
+26
+
+--- PAGE 27 ---
+Appendix: Labour values and prices under joint production
+In this appendix we substantiate the claim made in the text that joint production does not pose a serious
+problem for the sort of labour-based optimisation algorithm we propose for socialist planning, despite the
+fact that in this case the individual labour values of the jointly-produced goods will be undeﬁned.
+Consider a process that produces two goods, a and b, in a ﬁxed ratio of x units of a to y units of b,
+x/y = k. (The following argument may be readily generalized to more than two jointly-produced goods,
+but we illustrate with the simplest case.) Let us deﬁne a composite good, c, composed of x units of a plus
+y (= x/k) units of b. The labour value of c, written v(c) is, we assume, well deﬁned. The process is to
+be operated at an intensity s > 0 or not at all, where s is measured in units of c. Hence at an intensity
+s = s0 > 0 outputs s0x and s0x/k are produced of goods a and b respectively.
+Let p(a) and p(b) denote the market-clearing prices of goods a and b respectively, these prices being
+stated in labour certiﬁcates. Then the corresponding price of the composite good, c, is a weighted sum of
+p(a) and p(b), namely
+p(c) = xp(a) + (x/k)p(b).
+The price-value optimization procedure discussed in the text then sets a goal of
+v(c) = p(c) = xp(a) + (x/k)p(b)
+(A.1)
+i.e. the market-clearing price of the composite good should equal its labour value. It is reasonable to suppose
+that the individual market-clearing prices p(a) and p(b) are both declining functions of the scale of operation
+of the joint process, s. For the sake of argument we write these as simple linear relations:
+p(a) = a1 + a2s
+(A.2)
+p(b) = b1 + b2s
+(A.3)
+where a1, b1 > 0 and a2, b2 < 0. Substituting from (A.2) and (A.3) into (A.1) yields
+v(c) = x(a1 + a2s) + (x/k)(b1 + b2s)
+which may be solved for optimal s as below:
+s⋆= [v(c) −(a1 + b1/k)x]/(a2 + b2/k)x.
+The above expression gives the optimum intensity of operation of the joint process as a function of the
+labour value of the composite good, the technical ratio of the joint outputs, and the demand parameters. It
+also implies, via (A.2) and (A.3), optimal prices for the individual goods, namely
+p⋆(a) = a1 + a2s⋆
+and
+p⋆(b) = b1 + b2s⋆.
+The optimal values s⋆, p⋆(a) and p⋆(b) may be obtained directly only if the demand parameters are
+known in advance. In the text we point out that this should probably not be assumed. We therefore fall
+back to the real-time iterative solution: As p(c) exceeds (falls short of) v(c), expand (contract) the pro-
+cess incrementally—i.e. adjust s upward or downward respectively—while seeking (approximately) market-
+clearing prices [p(a), p(b)] at each stage of the process. The latter prices are used to recalculate p(c) at
+each stage.
+27
+
+--- PAGE 28 ---
+The only special problem that may arise in the case of joint production is that the ‘equilibrium’ price of
+one of the products may turn out to be negative. The symptom of this in the context of iteration towards
+equilibrium would be that p(c) remains in excess of v(c) even when the scale of output is such that the
+market-clearing price of one of the goods (say, b) has gone to zero. It may then be that at yet higher output
+levels b becomes a nuisance (at the margin), such that people would have to be paid to accept any more of
+it. If a surplus of good b can be dumped or somehow recycled at low cost, the solution would be to expand
+production (s) until p(a) = v(c), distribute b as a free good, and dump any surplus of b over consumer
+demand. If it is costly to dispose of surplus output of b, this cost will have to be factored into the labour
+value of the composite good, v(c), which will then result in a lower optimal intensity of operation of the
+joint process.
+References
+Bergson, A. 1948: Socialist economics. In Ellis H., editor, A survey of contemporary economics. Home-
+wood, Illinois: Richard Irwin.
+Bettelheim, C. 1971: Calcul ´economique et formes de propri´et´e. Paris: Francois Maspero.
+Blackburn, R. 1991: Fin de siecle: socialism after the crash. New Left Review, no. 185, 5–66.
+Cockshott, W. P. 1990: Application of artiﬁcial intelligence techniques to economic planning. Future Com-
+puting Systems 2, 429–43.
+Cockshott, W. P. and Cottrell, A. 1989: Labour value and socialist economic calculation. Economy and
+Society 18, 71–99.
+Cockshott, W. P. and Cottrell, A. (in press) Towards a new socialism. Spokesman Books.
+Dickinson, H. D. 1933: Price formation in a socialist community. Economic Journal 43, 237–50.
+Durbin, E. F. M. 1936: Problems of economic planning. London: Routledge and Kegan Paul.
+Ellman, M. 1971: Soviet planning today: proposals for an optimally-functioning economic system. Cam-
+bridge: Cambridge University Press.
+Ellman, M. 1989: Socialist planning, second edition. Cambridge: Cambridge University Press.
+Elster, J. 1985: Making sense of Marx. Cambridge: Cambridge University Press.
+Engels, F. 1954: Anti-Duhring: Herr Eugen Duhring’s revolution in science. Moscow: Foreign Languages
+Publishing House.
+Farjoun, E. and Machover, M. 1983: Laws of chaos. London: Verso.
+Granick, D. 1987: Job rights in the Soviet Union: their consequences. Cambridge: Cambridge University
+Press.
+Hebb, D. O. 1949: The organization of behavior; a neuropsychological theory. New York: Wiley.
+Hodgson, G. 1984: The democratic economy: a new look at planning, markets and power. Harmondsworth:
+Penguin.
+Hutchison, T. W. 1981: The politics and philosophy of economics: Marxians, Keynesians and Austrians.
+New York: New York University Press.
+Kautsky, K. 1902: The social revolution. Chicago: Charles Kerr.
+Kautsky, K. 1925: The labour revolution. London: George Allen and Unwin.
+Lange, O. 1938: On the economic theory of socialism. In Lippincott, B., editor, On the economic theory of
+socialism. New York: McGraw-Hill.
+Lange, O. 1967: The computer and the market. In Feinstein, C., editor, Socialism, capitalism and economic
+growth: essays presented to Maurice Dobb. Cambridge: Cambridge University Press.
+28
+
+--- PAGE 29 ---
+Lavoie, D. 1985: Rivalry and central planning: the socialist calculation debate reconsidered. Cambridge:
+Cambridge University Press.
+Lerner, A. 1934: Economic theory and socialist economy. Review of Economic Studies 2, 157–75.
+Lubeck, O., Moore, J. and Mendez, R. 1985: A benchmark comparison of three supercomputers. Computer
+18/12.
+Manevich, V. E. 1989: Ekonomicheskiye diskussii 20-kh godov. Moscow: Ekonomika.
+Marx, K. 1963: The poverty of philosophy. New York: International Publishers.
+Marx, K. 1972: Capital, Volume 3. London: Lawrence and Wishart.
+Marx, K. 1974: Critique of the Gotha Programme. In Fernbach, D., editor, Karl Marx: the First Interna-
+tional and after (Political Writings, Volume 3). Harmondsworth: Penguin/New Left Review.
+Marx, K. 1976: Capital, Volume 1. Harmondsworth: Penguin/New Left Review.
+Marx, K. and Engels, F. 1988: Collected works, Volume 43. New York: International Publishers.
+Murrell, P. 1983: Did the theory of market socialism answer the challenge of Ludwig von Mises? A rein-
+terpretation of the socialist controversy. History of Political Economy 15, 92–105.
+Narayanan, A. 1990: On being a machine, Volume 2: Philosophy of artiﬁcial intelligence. New York: Ellis
+Horwood.
+Nove, A. 1977: The Soviet economic system. London: George Allen and Unwin.
+Nove, A. 1983: The economics of feasible socialism. London: George Allen and Unwin.
+Pigou, A. C. 1954: Capitalism versus socialism. London: MacMillan.
+Ramsay Steele, D. 1981: Posing the problem: the impossibility of economic calculation under socialism.
+The Journal of Libertarian Studies V, 7–22.
+Rumelhart, D. E., McLelland, J. L. and the PDP Research Group 1986: Parallel distributed processing:
+explorations in the microstructure of cognition (Vols. 1 and 2). Cambridge, Mass: MIT Press.
+Samuelson, P. 1948: Economics, ﬁrst edition. New York: McGraw-Hill.
+Samuelson, P. and von Weisz¨acker, C. 1972: A new labour theory of value for rational planning through the
+use of the bourgeois proﬁt rate. In The collected scientiﬁc papers ofPaul A. Samuelson, Vol. 3, Cambridge,
+Mass.: MIT Press.
+Schumpeter, J. A. 1954: History of economic analysis. New York: Oxford University Press.
+Sedgewick, R. 1983: Algorithms. London: Addison-Wesley.
+Strumilin, S. G. 1977: K teorii tsenoobrazovaniya v usloviyakh sotsializma. In Akademiya Nauk USSR,
+editors, Aktual’niye problemy ekonomicheskoy nauki v trudakh S. G. Strumilina. Moscow: Nauka.
+Temkin, G. 1989: On Economic reforms in socialist countries: the debate on economic calculation under
+socialism revisited. Communist Economies 1, 31–59.
+Treml, V. 1967: Input–output analysis and Soviet planning. In Hardt, J. P., editor, Mathematics and com-
+puters in Soviet economic planning. New Haven: Yale University Press.
+Varga, R. S. 1962: Matrix iterative analysis. Englewood Cliffs, NJ: Prentice-Hall.
+von Hayek, F. A., editor, 1935: Collectivist economic planning. London: Routledge and Kegan Paul.
+von Hayek, F. A. 1949: Individualism and economic order. London: Routledge and Kegan Paul.
+von Mises, L. 1935: Economic calculation in the socialist commonwealth. In von Hayek, F. A., editor,
+(1935).
+von Mises, L. 1949: Human action: a treatise on economics. New Haven: Yale University Press.
+von Mises, L. 1951: Socialism. New Haven: Yale University Press.
+Zauberman, A. 1967: Full labour-input coefﬁcients and pricing. In his Aspects ofplanometrics. New Haven:
+Yale University Press.
+29

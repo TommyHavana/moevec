@@ -1,0 +1,67 @@
+{
+  "checked_at": "2026-10-30T03:39:58.241728+00:00",
+  "id": "E1.3.11",
+  "primary_sources_read": true,
+  "full_books_read": false,
+  "scope": [
+    {
+      "name": "Banco Mundial, Metadata API Queries, documentación oficial",
+      "url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/1886695-metadata-api-queries",
+      "scope": "Página primaria leída y archivada30/10/2026: metadatos incluyen definición, fuentes, periodicidad y metodología. No independencia automática de datos replicados ni cifras actuales usadas."
+    },
+    {
+      "name": "INE España, Índice de precios de consumo, preguntas frecuentes",
+      "url": "https://www.ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176802&idp=1254735976607&menu=faq",
+      "scope": "FAQ primaria consultada: índice/variación, anual mismo mes año previo y adelantado provisional distinto de final. No cifras de IPC publicadas ni reglas de revisión extrapoladas a todas las series."
+    },
+    {
+      "name": "FMI, portal IMF Data",
+      "url": "https://data.imf.org/en",
+      "scope": "Portal primario consultado30/10/2026: catálogo y WEO. Solo acceso a series y necesidad de distinguir datos/proyecciones; no valores macroeconómicos actuales."
+    },
+    {
+      "name": "OCDE, Data",
+      "url": "https://www.oecd.org/en/data.html",
+      "scope": "Portal primario leído por web; descarga local403 documentada. Acceso a datos comparados, no calidad universal o independencia respecto a productores nacionales."
+    },
+    {
+      "name": "INDEC, portal de estadísticas, metodologías y publicaciones",
+      "url": "https://www.indec.gob.ar/",
+      "scope": "Página primaria leída/archivada; acceso a metodologías, bases y publicaciones. No validación universal de cualquier serie histórica."
+    },
+    {
+      "name": "INEGI, portal de información estadística",
+      "url": "https://www.inegi.org.mx/",
+      "scope": "Página primaria leída/archivada; ámbitos geográficos, publicaciones y calendario. No dato actual ni demostración de verificación completa."
+    },
+    {
+      "name": "FMI, declaración sobre Argentina,1/2/2013",
+      "url": "https://www.imf.org/en/news/articles/2015/09/14/01/49/pr1333",
+      "scope": "Comunicado primario releído vía web; copia con procedencia E7.7.04. IPC-GBA y PIB, no toda estadística; fecha acto2013 distinta del segmentoURL2015."
+    },
+    {
+      "name": "FMI, levantamiento de censura a Argentina,9/11/2016",
+      "url": "https://www.imf.org/es/news/articles/2016/11/09/pr16497-argentina-imf-executive-board-removes-declaration-of-censure",
+      "scope": "Comunicado primario y copia releídos. Cierre2016 y estándares, no censura vigente2026 ni garantía de todo índice."
+    }
+  ],
+  "limits": [
+    "Diez minutos es propuesta de primera revisión, no promesa de verificar la mayoría de noticias o cualquier caso.",
+    "No considerar dos portales que replican productor como dos mediciones independientes.",
+    "No inferir manipulación de toda discrepancia, cambio de base, revisión o falta de dato.",
+    "No cifras macroeconómicas actuales, compras, inversión o recomendaciones financieras.",
+    "ONEI: timeout de consulta documentado, sin cifras ni navegación interna fingidas.",
+    "Ejemplos propios no son datos nacionales:3000/1000 y tasas10–12% comprobados."
+  ],
+  "image_review": "Nueve imágenes originales revisadas individualmente y en mosaico340–342, formatos/dimensiones/peso correctos; mapas abstractos no idénticos, alt ajustado a imagen.",
+  "text_checks": {
+    "keyword_h2": true,
+    "first_table_nine_fields": true,
+    "two_hypothetical_examples": true,
+    "faq_words": [
+      50,
+      51,
+      52
+    ]
+  }
+}

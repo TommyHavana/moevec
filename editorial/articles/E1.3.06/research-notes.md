@@ -1,20 +1,20 @@
-# Preparación · E1.3.06
+# Investigación y publicación · E1.3.06
 
-Consulta: 30/10/2026. Sin texto final ni publicación; incluida en pendientes.
+Consulta: 30/10/2026. Alcance específico; descargar una obra no implica lectura íntegra.
 
-## Lectura realizada y alcance
+- [Frédéric Bastiat, Lo que se ve y lo que no se ve,1850, La ventana rota](https://bastiat.org/en/twisatwins.html): Traducción primaria, secciónI leída en copia conservada con procedencia desdeE5.6.14; coste de oportunidad y parábola, no estudio empírico ni inutilidad de toda inversión. Sitio redirección en web, copia local verificable.
+- [Henry Hazlitt, Economics in One Lesson,1946, capítuloI pp 3–5](https://www.hacer.org/pdf/Hazlitt00.pdf): Extracto primario deE7.5.01 copiado con procedencia; portada/copyright y pp3–5 leídos, consecuencias secundarias/largo plazo/grupos. No libro completo, no cifra de falacias aceptada como estadística.
+- [Abdul Abiad, Davide Furceri y Petia Topalova, The Macroeconomic Effects of Public Investment: Evidence from Advanced Economies, WP 15/95,2015](https://www.imf.org/-/media/websites/imf/imported-full-text-pdf/external/pubs/ft/wp/2015/_wp1595.pdf): PDFprimario26páginas: resumen, introducción, marcoII, estrategia/datosIII y resultadosbaseIV pp2,4–11 leídos; efectos según holgura/eficiencia y matiz deuda/PIB pp11–12.17OCDE1985–2013, errores de previsión/proyecciones locales y simulaciones diferenciadas. Estimaciones puntuales0,4 inmediato/1,4 cuatroaños, no rango de confianza ni universal2026. WPdeautores, no necesariamente política oficial delFMI.
 
-- Bastiat: reproducción primaria copiada desdeE5.6.14 con procedencia; fragmento ventana rota leído por web, no libro íntegro. PDFLibertyFund falló porTLS, no fuente local confirmada.
-- FMI: blog primario deAbiad/Furceri/Topalova30/9/2014 leído, estimaciones históricas con condiciones de holgura/eficiencia/financiación. No estimaciones2026 ni regla universal.
-- WEOoct2014capítulo3 PDF403 por web; no declarar leído el capítulo íntegro ni sus tablas. HTMLelibrary localizado y fragmentos pertinentes por web; falta verificar método y rangos.
+## Límites
 
-## Siguiente trabajo exacto
+- No inferir engaño deliberado o imposibilidad de una propuesta solo porque faltan costes explícitos.
+- No equiparar gasto nuevo con desplazamiento automático uno por uno en todos los contextos; holgura y capacidad productiva importan.
+- No confundir multiplicador de PIB con retorno fiscal, saldo financiero del proyecto, beneficio social o rentabilidad privada.
+- No afirmar autofinanciación garantizada ni que deuda nominal cae por disminuir deuda/PIB.
+- No usar estimaciones2015 como resultados2026, Cuba/España individuales o toda inversión; no presentar0,4–1,4 como intervalo de confianza.
+- No lectura íntegra de Bastiat/Hazlitt, ni tablas delWEO2014PDF403 fingidas.
 
-- Leer F-039/F-040 pertinentes con edición/alcance; usar Bastiat para coste de oportunidad, no prueba de inutilidad del gasto público.
-- Cotejar multiplicadores en fuente primaria completa accesible: muestra, horizonte, definición, rangos e incertidumbre. FMI2014/2017/2020/2025 son estudios/modelos distintos.
-- Distinguir PIB adicional, ingresos fiscales adicionales, deuda/PIB y saldo; multiplicador>1 no demuestra que la inversión se autofinancie ni ausencia de costes.
-- Tesis del brief necesita matiz: costes no nombrados no prueban ocultación deliberada. Propuestas pueden tener beneficios netos; revisar financiación, mantenimiento, oportunidad y riesgos sin recomendación individualizada.
+## Resultado
 
-## Recursos
-
-Tres originales image_gen integrados, inspeccionados individualmente y en mosaico. Portada 1200×630, dos interiores 1600×900; WebP menores de 250.000 bytes, alt y pies conservados. No generar duplicados.
+https://moevec.org/blog/promesas-economicas-imposibles/ · 1449 palabras en WordPress. Tres imágenes propias, una publicación y tres adjuntos, sin duplicados.

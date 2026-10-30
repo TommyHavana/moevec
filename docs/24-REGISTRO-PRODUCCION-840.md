@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-30T02:31:20+00:00.
+Comprobado en WordPress: 2026-10-30T03:42:13+00:00.
 
-**333/840 terminadas · 0 en curso · 507 pendientes.**
+**342/840 terminadas · 0 en curso · 498 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -345,15 +345,15 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 331 | 23/56 · 1/15 | E1.3.01 | Escepticismo constructivo: dudar para entender, no para destruir | terminada | 3/3 | [Leer](https://moevec.org/blog/escepticismo-constructivo-que-es/) |
 | 332 | 23/56 · 2/15 | E1.3.02 | Popper y la falsabilidad: cómo saber si una teoría dice algo | terminada | 3/3 | [Leer](https://moevec.org/blog/popper-falsabilidad/) |
 | 333 | 23/56 · 3/15 | E1.3.03 | Los sesgos que nos hacen creer lo que queremos creer | terminada | 3/3 | [Leer](https://moevec.org/blog/sesgos-cognitivos-basicos/) |
-| 334 | 23/56 · 4/15 | E1.3.04 | Cómo leer una estadística sin dejarte engañar | pendiente | 0/3 | — |
-| 335 | 23/56 · 5/15 | E1.3.05 | Pensamiento crítico frente a propaganda: las técnicas que se repiten | pendiente | 0/3 | — |
-| 336 | 23/56 · 6/15 | E1.3.06 | Promesas económicas imposibles: cómo detectar el almuerzo gratis | pendiente | 0/3 | — |
-| 337 | 23/56 · 7/15 | E1.3.07 | Escepticismo hacia el propio bando: por qué MEE también debe ser cuestionado | pendiente | 0/3 | — |
-| 338 | 23/56 · 8/15 | E1.3.08 | Expertos, consensos y autoridad: cuándo confiar | pendiente | 0/3 | — |
-| 339 | 23/56 · 9/15 | E1.3.09 | El cálculo económico socialista: el gran debate que la historia puso a prueba | pendiente | 0/3 | — |
-| 340 | 23/56 · 10/15 | E1.3.10 | Teorías conspirativas: por qué el escepticismo no es creer cualquier cosa | pendiente | 0/3 | — |
-| 341 | 23/56 · 11/15 | E1.3.11 | Cómo verificar una noticia económica en diez minutos | pendiente | 0/3 | — |
-| 342 | 23/56 · 12/15 | E1.3.12 | Cuando las estadísticas oficiales mienten: el caso del INDEC en Argentina | pendiente | 0/3 | — |
+| 334 | 23/56 · 4/15 | E1.3.04 | Cómo leer una estadística sin dejarte engañar | terminada | 3/3 | [Leer](https://moevec.org/blog/leer-estadisticas-sin-enganarte/) |
+| 335 | 23/56 · 5/15 | E1.3.05 | Pensamiento crítico frente a propaganda: las técnicas que se repiten | terminada | 3/3 | [Leer](https://moevec.org/blog/pensamiento-critico-propaganda/) |
+| 336 | 23/56 · 6/15 | E1.3.06 | Promesas económicas imposibles: cómo detectar el almuerzo gratis | terminada | 3/3 | [Leer](https://moevec.org/blog/promesas-economicas-imposibles/) |
+| 337 | 23/56 · 7/15 | E1.3.07 | Escepticismo hacia el propio bando: por qué MEE también debe ser cuestionado | terminada | 3/3 | [Leer](https://moevec.org/blog/escepticismo-propio-bando/) |
+| 338 | 23/56 · 8/15 | E1.3.08 | Expertos, consensos y autoridad: cuándo confiar | terminada | 3/3 | [Leer](https://moevec.org/blog/cuando-confiar-en-expertos/) |
+| 339 | 23/56 · 9/15 | E1.3.09 | El cálculo económico socialista: el gran debate que la historia puso a prueba | terminada | 3/3 | [Leer](https://moevec.org/blog/calculo-economico-socialista/) |
+| 340 | 23/56 · 10/15 | E1.3.10 | Teorías conspirativas: por qué el escepticismo no es creer cualquier cosa | terminada | 3/3 | [Leer](https://moevec.org/blog/teorias-conspirativas-y-escepticismo/) |
+| 341 | 23/56 · 11/15 | E1.3.11 | Cómo verificar una noticia económica en diez minutos | terminada | 3/3 | [Leer](https://moevec.org/blog/verificar-noticia-economica/) |
+| 342 | 23/56 · 12/15 | E1.3.12 | Cuando las estadísticas oficiales mienten: el caso del INDEC en Argentina | terminada | 3/3 | [Leer](https://moevec.org/blog/estadisticas-oficiales-indec-argentina/) |
 | 343 | 23/56 · 13/15 | E1.3.13 | Escepticismo ante las promesas de riqueza rápida: estafas piramidales y criptoestafas | pendiente | 0/3 | — |
 | 344 | 23/56 · 14/15 | E1.3.14 | Fact-checking: quién verifica a los verificadores | pendiente | 0/3 | — |
 | 345 | 23/56 · 15/15 | E1.3.15 | Debate con método: cómo discutir de economía sin pelear | pendiente | 0/3 | — |

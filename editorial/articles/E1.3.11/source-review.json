@@ -1,0 +1,152 @@
+{
+  "checked_on": "2026-10-30",
+  "sources": [
+    {
+      "name": "Banco Mundial, Metadata API Queries, documentación oficial",
+      "url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/1886695-metadata-api-queries",
+      "scope": "Página primaria leída y archivada30/10/2026: metadatos incluyen definición, fuentes, periodicidad y metodología. No independencia automática de datos replicados ni cifras actuales usadas."
+    },
+    {
+      "name": "INE España, Índice de precios de consumo, preguntas frecuentes",
+      "url": "https://www.ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176802&idp=1254735976607&menu=faq",
+      "scope": "FAQ primaria consultada: índice/variación, anual mismo mes año previo y adelantado provisional distinto de final. No cifras de IPC publicadas ni reglas de revisión extrapoladas a todas las series."
+    },
+    {
+      "name": "FMI, portal IMF Data",
+      "url": "https://data.imf.org/en",
+      "scope": "Portal primario consultado30/10/2026: catálogo y WEO. Solo acceso a series y necesidad de distinguir datos/proyecciones; no valores macroeconómicos actuales."
+    },
+    {
+      "name": "OCDE, Data",
+      "url": "https://www.oecd.org/en/data.html",
+      "scope": "Portal primario leído por web; descarga local403 documentada. Acceso a datos comparados, no calidad universal o independencia respecto a productores nacionales."
+    },
+    {
+      "name": "INDEC, portal de estadísticas, metodologías y publicaciones",
+      "url": "https://www.indec.gob.ar/",
+      "scope": "Página primaria leída/archivada; acceso a metodologías, bases y publicaciones. No validación universal de cualquier serie histórica."
+    },
+    {
+      "name": "INEGI, portal de información estadística",
+      "url": "https://www.inegi.org.mx/",
+      "scope": "Página primaria leída/archivada; ámbitos geográficos, publicaciones y calendario. No dato actual ni demostración de verificación completa."
+    },
+    {
+      "name": "FMI, declaración sobre Argentina,1/2/2013",
+      "url": "https://www.imf.org/en/news/articles/2015/09/14/01/49/pr1333",
+      "scope": "Comunicado primario releído vía web; copia con procedencia E7.7.04. IPC-GBA y PIB, no toda estadística; fecha acto2013 distinta del segmentoURL2015."
+    },
+    {
+      "name": "FMI, levantamiento de censura a Argentina,9/11/2016",
+      "url": "https://www.imf.org/es/news/articles/2016/11/09/pr16497-argentina-imf-executive-board-removes-declaration-of-censure",
+      "scope": "Comunicado primario y copia releídos. Cierre2016 y estándares, no censura vigente2026 ni garantía de todo índice."
+    }
+  ],
+  "archived_files": [
+    {
+      "file": "sources/imf-censura2013.html",
+      "bytes": 7459,
+      "sha256": "ef2e1b0a3382e80a5917514ccac77b8adfdcf8e5f9faa30bef1e0d09d33c1848"
+    },
+    {
+      "file": "sources/imf-censura2013.html.provenance.json",
+      "bytes": 148,
+      "sha256": "95f14b993fd9f3d99d550244f1937fef0e094d53cf3a5944bf3e6082296f1f64"
+    },
+    {
+      "file": "sources/imf-cierre2016.html",
+      "bytes": 8245,
+      "sha256": "84032decc63a75f8b8e370e6d216e41167fd44474a38f63b393816d913e2fcd7"
+    },
+    {
+      "file": "sources/imf-cierre2016.html.provenance.json",
+      "bytes": 148,
+      "sha256": "de119b8eb69ea1844067b0093f455ffde6b45f4b2253f259147c1a7671c80507"
+    },
+    {
+      "file": "sources/imf-data.html",
+      "bytes": 322047,
+      "sha256": "6aa980547ced703766421322bf70bace90c1772d11b2e733c6f3c7d834aadf4a"
+    },
+    {
+      "file": "sources/imf-data.html.access.json",
+      "bytes": 87,
+      "sha256": "a4ab9900435c16e8718b2c7d43656ee1b96860e7e07dcd74da732138ab4f6c0e"
+    },
+    {
+      "file": "sources/indec.html",
+      "bytes": 37443,
+      "sha256": "7a20b0acb90588ad4e97ec3b79986adec29fa2dbb0d2d4a5d0e2ca74def6bcef"
+    },
+    {
+      "file": "sources/indec.html.access.json",
+      "bytes": 89,
+      "sha256": "8e11f99698b5f306439c83f903a87ab517e393fd9fd904c20ddd1c3afd83a181"
+    },
+    {
+      "file": "sources/ine-faq.html",
+      "bytes": 40585,
+      "sha256": "97a3c103317e1b1dee71ac0dd9a0b4560edf968834216ea5d780093485eda65b"
+    },
+    {
+      "file": "sources/ine-faq.html.access.json",
+      "bytes": 171,
+      "sha256": "df4ebc44d83213165435669eda5e755dfd7857f8794317ed5f3c52e3c241e592"
+    },
+    {
+      "file": "sources/inegi.html",
+      "bytes": 153815,
+      "sha256": "f542285cd5cd6402b3c52f9b1bb29a40b6458c9b8fcd9b010b60794eee26589a"
+    },
+    {
+      "file": "sources/inegi.html.access.json",
+      "bytes": 89,
+      "sha256": "f1382b85eec70864e99f2de6a79a75947c8d5cdfd2a66ba1addfb666e98237e0"
+    },
+    {
+      "file": "sources/oecd-data.html.access.json",
+      "bytes": 149,
+      "sha256": "3a3292ee9b74d28ce38b1fbc1cad1a1f0bb45f9a1bf29015ca264fdb56160836"
+    },
+    {
+      "file": "sources/onei.access.json",
+      "bytes": 187,
+      "sha256": "0b9ec7343f02a27ef46736c57ad727f9e1b9e741284d1a5fa12c878bd62c9805"
+    },
+    {
+      "file": "sources/own-example-checks.json",
+      "bytes": 248,
+      "sha256": "042933bafd14a31d8c300e3f5c66ddf46b894cbc6507063faa201a6d456dab92"
+    },
+    {
+      "file": "sources/reading-scope.json",
+      "bytes": 3732,
+      "sha256": "1b7fbc4820b7db5ddf2df1ac26b4e9d36986819e8da8f247724f4ec616c7cc89"
+    },
+    {
+      "file": "sources/wb-metadata.html",
+      "bytes": 273206,
+      "sha256": "e02d96fd74e682ed6c68e8f25e84ec4f4c8866cc22f76167feba8fe9c401fe38"
+    },
+    {
+      "file": "sources/wb-metadata.html.access.json",
+      "bytes": 150,
+      "sha256": "111db04483a3764e34272eaee54a4e7678c67cc5b0c78ec33d29dcd7b1e7f112"
+    }
+  ],
+  "omitted_claims": [
+    "Diez minutos es propuesta de primera revisión, no promesa de verificar la mayoría de noticias o cualquier caso.",
+    "No considerar dos portales que replican productor como dos mediciones independientes.",
+    "No inferir manipulación de toda discrepancia, cambio de base, revisión o falta de dato.",
+    "No cifras macroeconómicas actuales, compras, inversión o recomendaciones financieras.",
+    "ONEI: timeout de consulta documentado, sin cifras ni navegación interna fingidas.",
+    "Ejemplos propios no son datos nacionales:3000/1000 y tasas10–12% comprobados."
+  ],
+  "scope": "Lectura pertinente especificada; archivo completo no implica lectura íntegra. Problemas de acceso y fuentes compartidas identificados.",
+  "final_verification": {
+    "checked_at": "2026-10-30T03:43:23.993358+00:00",
+    "published_url": "https://moevec.org/blog/verificar-noticia-economica/",
+    "public_checks": "verification.json",
+    "wordpress_registry_words": 1378
+  }
+}

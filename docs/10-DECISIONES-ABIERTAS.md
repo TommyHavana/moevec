@@ -793,3 +793,33 @@ Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobad
 Siguiente **334–336 / E1.3.04–E1.3.06**, Educación y Valores → Escepticismo Constructivo. Preparaciones incluidas en las 507 pendientes. E1.3.04: 2/3 imágenes locales; sin texto final, sin publicación; E1.3.05: 0/3 imágenes locales; sin texto final, sin publicación; E1.3.06: 0/3 imágenes locales; sin texto final, sin publicación. Después 337–339. Automatización activa, sin agotamiento comunicado.
 
 Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 334–336 · 30/10/2026
+
+336/840 terminadas, 1008 imágenes originales públicas, 0 en curso o borradores WordPress y 504 pendientes.
+
+334: porcentajes y puntos porcentuales, media/mediana y ejemplos aritméticos propios comprobados; Huff solo fragmentos y Harford presentación primaria, sin lectura íntegra fingida. 335: IPA1937 cotejado en volumen1938, Bernays apertura propia1928, carteles LOC1931/DHM1938 como documentos distintos de recepción; metodología FreedomHouse2026 sin ranking. 336: Bastiat ventana rota y Hazlitt capítuloI; WP15/95,17OCDE1985–2013,0,4 inmediato/1,4 cuatro años como estimaciones puntuales, no intervalo ni autofinanciación garantizada.
+
+Siguiente **337–339 / E1.3.07–E1.3.09**, Educación y Valores → Escepticismo Constructivo. Preparaciones incluidas en las 504 pendientes. E1.3.07: 2/3 imágenes locales; sin texto final, sin publicación; E1.3.08: 0/3 imágenes locales; sin texto final, sin publicación; E1.3.09: 0/3 imágenes locales; sin texto final, sin publicación. Después 340–342. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 337–339 · 30/10/2026
+
+339/840 terminadas, 1017 imágenes originales públicas, 0 en curso o borradores WordPress y 501 pendientes.
+
+337: Hayek1945, Ostrom Nobel2009 y Sen introducción1999; autocrítica rusa por resumen primario Black/Kraakman/Tarassova2000 conservado en Harvard, sin texto íntegro ni causa única fingidos. 338: Tetlock capítulo1 leído visualmente, Mellers2014 torneo2011–2013 con asignación aleatoria distinta de selección de mejores; Taleb/Sandis v3 enero2014 como propuesta normativa, no garantía de pericia. 339: Mises1920 distingue consumo y medios productivos; Lange1936 primera parte pp58–64 leídas visualmente, Kornai2012 retrospectivo y Cottrell/Cockshott1993 modelo computacional; historia compatible sin experimento causal único ni IA2026 demostrada.
+
+Siguiente **340–342 / E1.3.10–E1.3.12**, Educación y Valores → Escepticismo Constructivo. Preparaciones incluidas en las 501 pendientes. E1.3.10: 1/3 imágenes locales; sin texto final, sin publicación; E1.3.11: 0/3 imágenes locales; sin texto final, sin publicación; E1.3.12: 0/3 imágenes locales; sin texto final, sin publicación. Después 343–345. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 340–342 · 30/10/2026
+
+342/840 terminadas, 1026 imágenes originales públicas, 0 en curso o borradores WordPress y 498 pendientes.
+
+340: acuerdo corporativo Odebrecht2016 y anexoB como hechos delimitados, sin culpabilidades individuales extendidas; Sagan capítulo12, parsimonia y contraste, guía MEE sin diagnóstico. 341: diez minutos como primera revisión, metadatos y procedencia; dos portales pueden reproducir la misma medición, ejemplos aritméticos comprobados y ONEI inaccesible sin datos fingidos. 342: INDEC reconoce interferencias2007–2015 en anuario2015/publicado2017, censuraFMI2013 levantada2016; Finsoport art21 distinto de otros expedientesart9, Cavallo2013 datos2007–2011 y nota metodológica oficial2009, sin tasas2026 ni condenas personales inferidas.
+
+Siguiente **343–345 / E1.3.13–E1.3.15**, Educación y Valores → Escepticismo Constructivo. Preparaciones incluidas en las 498 pendientes. E1.3.13: 0/3 imágenes locales; sin texto final, sin publicación; E1.3.14: 0/3 imágenes locales; sin texto final, sin publicación; E1.3.15: 0/3 imágenes locales; sin texto final, sin publicación. Después 346–348. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
