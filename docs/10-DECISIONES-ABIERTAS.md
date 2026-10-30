@@ -1188,7 +1188,7 @@ Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobad
 
 453/840 terminadas, 1359 imágenes originales públicas, 0 en curso o borradores WordPress y 387 pendientes.
 
-Accesibilidad: UITFactsandFigures2026, uso estimado76%mundial,2mil millones desconectados; página general2025desactualizada no tratada como edición última; gruposUITnoequivalentes aHispanoamérica. Lenguajeclaro: ficha/resumenISO24495-1:2023 porweb, no norma íntegra; notaRAE/ASALE28/10/2024y red2024, diezreglasMEEpropias. WCAG2.2 versión12/12/2024 y documentos explicativos teclado/contraste/alternativas, WebAIMMillionFebrero2026,95.9%deportadasmuestreadasconfallosdetectados,no totalweb ni certificación MEE. Nueve originales inspeccionados, rampas solo metáforas.
+Accesibilidad: edición 2026 de Facts and Figures de la UIT, uso estimado del 76 % mundial y unos 2.000 millones de personas sin conexión. Los grupos de la UIT no equivalen a Hispanoamérica. Lenguaje claro: ficha y resumen de ISO 24495-1:2023; nota de RAE y ASALE del 28/10/2024 y principios de la Red de 2024. Las diez reglas son propuestas de MEE. WCAG 2.2: versión del 12/12/2024 y explicaciones sobre teclado, contraste y alternativas. WebAIM Million: muestra de portadas de febrero de 2026; no certificación de MEE. Nueve originales inspeccionados; las rampas son metáforas.
 
 Siguiente **454–456 / E3.3.04–E3.3.06**, Comunidad → Accesibilidad. Preparaciones incluidas en las 387 pendientes. E3.3.04: 0/3 imágenes locales; sin texto final, sin publicación; E3.3.05: 0/3 imágenes locales; sin texto final, sin publicación; E3.3.06: 0/3 imágenes locales; sin texto final, sin publicación. Después 457–459. Automatización activa, sin agotamiento comunicado.
 
