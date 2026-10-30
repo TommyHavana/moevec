@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-30T11:27:07+00:00.
+Comprobado en WordPress: 2026-10-30T12:33:39+00:00.
 
-**408/840 terminadas · 0 en curso · 432 pendientes.**
+**420/840 terminadas · 0 en curso · 420 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -420,18 +420,18 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 406 | 28/56 · 1/15 | E5.4.01 | El campo de prisioneros que inventó un mercado (Radford, 1945) | terminada | 3/3 | [Leer](https://moevec.org/blog/campo-de-prisioneros-mercado/) |
 | 407 | 28/56 · 2/15 | E5.4.02 | Economía de la religión: competencia entre iglesias | terminada | 3/3 | [Leer](https://moevec.org/blog/economia-de-la-religion/) |
 | 408 | 28/56 · 3/15 | E5.4.03 | El arte y el mercado: mecenas, galerías y creadores independientes | terminada | 3/3 | [Leer](https://moevec.org/blog/arte-y-mercado/) |
-| 409 | 28/56 · 4/15 | E5.4.04 | El deporte como mercado: fichajes, salarios y competencia | pendiente | 0/3 | — |
-| 410 | 28/56 · 5/15 | E5.4.05 | Internet: el mayor mercado de ideas de la historia | pendiente | 0/3 | — |
-| 411 | 28/56 · 6/15 | E5.4.06 | El orden en las cárceles: gobernanza sin Estado | pendiente | 0/3 | — |
-| 412 | 28/56 · 7/15 | E5.4.07 | Campos de refugiados con mercados: el caso de Zaatari | pendiente | 0/3 | — |
-| 413 | 28/56 · 8/15 | E5.4.08 | La ciencia como mercado de ideas: revisión por pares, competencia y financiación | pendiente | 0/3 | — |
-| 414 | 28/56 · 9/15 | E5.4.09 | Economía de la familia: decisiones de pareja, hijos y hogar | pendiente | 0/3 | — |
-| 415 | 28/56 · 10/15 | E5.4.10 | Mercados negros: lo que revelan cuando el Estado prohíbe | pendiente | 0/3 | — |
-| 416 | 28/56 · 11/15 | E5.4.11 | El paquete semanal cubano: un mercado de información sin internet | pendiente | 0/3 | — |
-| 417 | 28/56 · 12/15 | E5.4.12 | Uber, Airbnb y la economía de plataformas: mercado y regulación | pendiente | 0/3 | — |
-| 418 | 28/56 · 13/15 | E5.4.13 | Videojuegos y economías virtuales: mercados que funcionan | pendiente | 0/3 | — |
-| 419 | 28/56 · 14/15 | E5.4.14 | Mercados de órganos: un debate ético radical | pendiente | 0/3 | — |
-| 420 | 28/56 · 15/15 | E5.4.15 | Diez lugares inesperados donde aparece el mercado | pendiente | 0/3 | — |
+| 409 | 28/56 · 4/15 | E5.4.04 | El deporte como mercado: fichajes, salarios y competencia | terminada | 3/3 | [Leer](https://moevec.org/blog/deporte-como-mercado/) |
+| 410 | 28/56 · 5/15 | E5.4.05 | Internet: el mayor mercado de ideas de la historia | terminada | 3/3 | [Leer](https://moevec.org/blog/internet-mercado-de-ideas/) |
+| 411 | 28/56 · 6/15 | E5.4.06 | El orden en las cárceles: gobernanza sin Estado | terminada | 3/3 | [Leer](https://moevec.org/blog/orden-en-las-carceles/) |
+| 412 | 28/56 · 7/15 | E5.4.07 | Campos de refugiados con mercados: el caso de Zaatari | terminada | 3/3 | [Leer](https://moevec.org/blog/campos-de-refugiados-mercados/) |
+| 413 | 28/56 · 8/15 | E5.4.08 | La ciencia como mercado de ideas: revisión por pares, competencia y financiación | terminada | 3/3 | [Leer](https://moevec.org/blog/ciencia-como-mercado-de-ideas/) |
+| 414 | 28/56 · 9/15 | E5.4.09 | Economía de la familia: decisiones de pareja, hijos y hogar | terminada | 3/3 | [Leer](https://moevec.org/blog/economia-de-la-familia/) |
+| 415 | 28/56 · 10/15 | E5.4.10 | Mercados negros: lo que revelan cuando el Estado prohíbe | terminada | 3/3 | [Leer](https://moevec.org/blog/mercados-negros/) |
+| 416 | 28/56 · 11/15 | E5.4.11 | El paquete semanal cubano: un mercado de información sin internet | terminada | 3/3 | [Leer](https://moevec.org/blog/paquete-semanal-cubano/) |
+| 417 | 28/56 · 12/15 | E5.4.12 | Uber, Airbnb y la economía de plataformas: mercado y regulación | terminada | 3/3 | [Leer](https://moevec.org/blog/economia-de-plataformas/) |
+| 418 | 28/56 · 13/15 | E5.4.13 | Videojuegos y economías virtuales: mercados que funcionan | terminada | 3/3 | [Leer](https://moevec.org/blog/videojuegos-economias-virtuales/) |
+| 419 | 28/56 · 14/15 | E5.4.14 | Mercados de órganos: un debate ético radical | terminada | 3/3 | [Leer](https://moevec.org/blog/mercados-de-organos-debate/) |
+| 420 | 28/56 · 15/15 | E5.4.15 | Diez lugares inesperados donde aparece el mercado | terminada | 3/3 | [Leer](https://moevec.org/blog/diez-lugares-inesperados-mercado/) |
 | 421 | 29/56 · 1/15 | E3.1.01 | Interés transparente: por qué decir lo que buscas genera confianza | pendiente | 0/3 | — |
 | 422 | 29/56 · 2/15 | E3.1.02 | Negociar con intereses, no con posiciones | pendiente | 0/3 | — |
 | 423 | 29/56 · 3/15 | E3.1.03 | Conflictos de interés: cómo detectarlos y declararlos | pendiente | 0/3 | — |

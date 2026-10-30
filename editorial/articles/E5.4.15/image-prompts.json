@@ -1,0 +1,25 @@
+{
+  "id": "E5.4.15",
+  "prompts": {
+    "featured": "Use case: stylized-concept. Original MEE editorial illustration, premium tactile paper and ceramic miniature, vivid cobalt, vermilion and warm ivory. Refined directional light, visible material texture, polished editorial composition. Landscape framing with essential objects inside generous central safe crop. No text, letters, numbers, logos, watermarks, flags, data charts or realistic public figures. Exactly ten small original editorial sculptural vignettes arranged in two rows of five on an ivory tabletop: a plain exchange table, a generic temple, an abstract painting easel, a football, connected tiny houses, a plain external hard drive, a fabric-awning stall, a microscope, a miniature family house, and a block-built game treasure chest. Cobalt and vermilion accents, one tiny plain balance scale near each vignette, no copies of prior images, no labels, digits, charts, logos, people or text. All ten distinct vignettes fit inside central sixty percent height, generous panoramic margins. Panoramic cover.",
+    "interior-1": "Use case: stylized-concept. Original MEE editorial illustration, premium tactile paper and ceramic miniature, vivid cobalt, vermilion and warm ivory. Refined directional light, visible material texture, polished editorial composition. Landscape framing with essential objects inside generous central safe crop. No text, letters, numbers, logos, watermarks, flags, data charts or realistic public figures. One cobalt sculptural magnifying glass above a warm ivory table holding two plain vermilion tokens and one open blank ivory book. Clean tactile ceramic and paper still life about observing ordinary exchange, no text, digits, symbols, charts, prices, hands or logos. Full objects visible. Wide 16:9 landscape.",
+    "interior-2": "Use case: stylized-concept. Original MEE editorial illustration, premium tactile paper and ceramic miniature, vivid cobalt, vermilion and warm ivory. Refined directional light, visible material texture, polished editorial composition. Landscape framing with essential objects inside generous central safe crop. No text, letters, numbers, logos, watermarks, flags, data charts or realistic public figures. A single vermilion thread gently links ten different small cobalt abstract ceramic objects on an ivory surface, objects resemble a book, ball, small house, frame, lamp, box, microscope, doorway, rounded token, and miniature bridge. Clear spaces between objects remain, no data graph, arrows, labels, numbers, text, logos or people. Wide thoughtful editorial still life. Wide 16:9 landscape."
+  },
+  "sources": {
+    "interior-1": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-1792367b-84ef-4476-a02f-2b2e1e38bca8.png",
+    "interior-2": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-03888a0e-db0f-4dd2-ac04-167121f62a2e.png",
+    "featured": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-a9091dfa-c63d-4d4b-9186-6a970c8cf175.png"
+  },
+  "tool": "builtin_image_gen",
+  "sources_are_conceptual": true,
+  "edits": [
+    {
+      "role": "featured",
+      "reference": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-fd04c72c-e32f-4eea-8814-88d4ca89357b.png",
+      "reason": "El recorte1200x630 eliminaba escenas laterales.",
+      "prompt": "Recompose the ten original vignettes into a compact two-by-five grid, landscape16:9, all objects inside central safe crop, generous ivory margins; preserve palette/objects, no extra scenes or text.",
+      "source": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-a9091dfa-c63d-4d4b-9186-6a970c8cf175.png",
+      "previous_registered_source": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-fd04c72c-e32f-4eea-8814-88d4ca89357b.png"
+    }
+  ]
+}

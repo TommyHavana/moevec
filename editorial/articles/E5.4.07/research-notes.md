@@ -1,0 +1,20 @@
+# Investigación y publicación · E5.4.07
+
+Consulta: 30/10/2026. Alcance específico; descargar una obra no implica lectura íntegra.
+
+- [ACNUR, Socio-Economic Survey of Refugees in Camps in Jordan, 2024, apartado Economic Empowerment](https://www.unhcr.org/sites/default/files/2024-07/2024%20Socio-Economic%20Survey%20on%20Refugees%20in%20Camps%20in%20Jordan%20%E2%80%93%20VAF.pdf): Fragmento primario indexado del apartado económico: alrededor de 1.000 tiendas informales en Zaatari, citando ficha enero de 2024, y límites de demanda/capital. Descarga 403 y apertura web 429 conservadas; no se finge lectura del informe íntegro.
+- [ACNUR Jordania, Working in Jordan](https://help.unhcr.org/jordan/en/helpful-services-unhcr/working-in-jordan/): Página primaria vigente leída vía web el 30/10/2026, impresión 26/10/2026: permisos de trabajo y ocupaciones seleccionadas. Sin asesoramiento individual, plazos o tarifas.
+- [Betts, Bloom, Kaplan y Omata, Refugee Economies: Forced Displacement and Development, Oxford University Press, edición 2017](https://academic.oup.com/book/10285): Resumen primario e identidad del libro leídos vía web. OUP indica publicación en línea 17/11/2016; la edición citada en el plan lleva copyright 2017. Caso central Uganda, métodos cualitativos y cuantitativos; no es un estudio de impacto causal de Zaatari ni lectura íntegra.
+- [Refugee Studies Centre, Refugee Economies: Rethinking Popular Assumptions, 2014](https://www.rsc.ox.ac.uk/refugeeeconomies): Presentación primaria del informe de Betts, Bloom, Kaplan y Omata: investigación en Uganda y conexiones económicas. No se traslada su contexto jurídico a Jordania.
+
+## Límites
+
+- La cifra de tiendas de 2024 no se presenta como censo de octubre de 2026.
+- Sin porcentajes de empleo, beneficios, PIB o impacto causal no verificados.
+- Sin garantías de que permitir comercio resuelva por sí solo una crisis humanitaria.
+- Sin dar asesoramiento migratorio ni equiparar un permiso de empleo con autorización de cualquier negocio.
+- Ilustraciones conceptuales: no fotografías, mapa ni reconstrucción documental de Zaatari.
+
+## Resultado
+
+https://moevec.org/blog/campos-de-refugiados-mercados/ · 1191 palabras en WordPress. Tres imágenes propias, una publicación y tres adjuntos, sin duplicados.

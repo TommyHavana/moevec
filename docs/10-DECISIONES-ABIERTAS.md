@@ -1043,3 +1043,43 @@ Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobad
 Siguiente **409–411 / E5.4.04–E5.4.06**, Capitalismo Consciente → Capitalismo en Esferas Inesperadas. Preparaciones incluidas en las 432 pendientes. E5.4.04: 0/3 imágenes locales; sin texto final, sin publicación; E5.4.05: 0/3 imágenes locales; sin texto final, sin publicación; E5.4.06: 0/3 imágenes locales; sin texto final, sin publicación. Después 412–414. Automatización activa, sin agotamiento comunicado.
 
 Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 409–411 · 30/10/2026
+
+411/840 terminadas, 1233 imágenes originales públicas, 0 en curso o borradores WordPress y 429 pendientes.
+
+Deporte: Rosen (1981), fallo Bosman (1995) con alcance comunitario y contratos vencidos, NBPA y explicación oficial de topes sin importes actuales. Internet: Benkler (2006), definición GNU y experimento PNAS (2019); valoraciones diferenciadas de ingresos, PIB y beneficio social neto. Cárceles: presentación de Skarbek (2014), artículo original (2016) y muestra editorial (2020), sin lectura íntegra fingida ni generalizaciones nacionales actuales. Custodia estatal, coerción y ausencia de salida voluntaria explícitas. Nueve originales propios, con inspección individual y mosaico; fuentes bloqueadas y alcance registrados.
+
+Siguiente **412–414 / E5.4.07–E5.4.09**, Capitalismo Consciente → Capitalismo en Esferas Inesperadas. Preparaciones incluidas en las 429 pendientes. E5.4.07: 3/3 imágenes locales; sin texto final, sin publicación; E5.4.08: 2/3 imágenes locales; sin texto final, sin publicación; E5.4.09: 0/3 imágenes locales; sin texto final, sin publicación. Después 415–417. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 412–414 · 30/10/2026
+
+414/840 terminadas, 1242 imágenes originales públicas, 0 en curso o borradores WordPress y 426 pendientes.
+
+Zaatari: referencia ACNUR de enero de 2024 identificada como histórica, información actual de permisos y alcance Uganda de Betts; comercio no sustituye protección. Ciencia: Merton (1957), Polanyi (1962) y Open Science Collaboration (2015), cien estudios de tres revistas y criterios de réplica delimitados; enlace al nodo existente del eje 7.6. Familia: identidad de Becker (1981) y Goldin (2021), conferencia primaria Becker (1992) y documento Nobel (2023); utilidad diferenciada de dinero, sin prescribir papeles de género. Nueve originales revisados; primera portada de campamento descartada y regenerada por contexto visual incorrecto. Sin lectura íntegra fingida ni datos actuales inventados.
+
+Siguiente **415–417 / E5.4.10–E5.4.12**, Capitalismo Consciente → Capitalismo en Esferas Inesperadas. Preparaciones incluidas en las 426 pendientes. E5.4.10: 3/3 imágenes locales; sin texto final, sin publicación; E5.4.11: 1/3 imágenes locales; sin texto final, sin publicación; E5.4.12: 0/3 imágenes locales; sin texto final, sin publicación. Después 418–420. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 415–417 · 30/10/2026
+
+417/840 terminadas, 1251 imágenes originales públicas, 0 en curso o borradores WordPress y 423 pendientes.
+
+Mercados negros: textos constitucionales estadounidenses, Miron (1999/2004), AREAER como referencia de regímenes sin cotizaciones, Venezuela2003, Argentina2019 y segmentación cubana2025/2026 delimitados. Paquete: CHI2018 (Dye, Nemer, Mangiameli, Bruckman y Kumar) corrige la referencia tentativa; campo2015–2017, Farrell2019 y límites de derechos/selección, sin diagnóstico actual. Plataformas: Cohen et al.2016, UberX2015 separado de salarios y Airbnb; RDL9/2021, Ley12/2021 y Estatuto consultado con actualización21/10/2026, Chile21.431 y alcance remoto de la encuesta OIT2025. Nueve originales revisados, sin duplicados ni cotizaciones gráficas inventadas.
+
+Siguiente **418–420 / E5.4.13–E5.4.15**, Capitalismo Consciente → Capitalismo en Esferas Inesperadas. Preparaciones incluidas en las 423 pendientes. E5.4.13: 3/3 imágenes locales; sin texto final, sin publicación; E5.4.14: 3/3 imágenes locales; sin texto final, sin publicación; E5.4.15: 0/3 imágenes locales; sin texto final, sin publicación. Después 421–423. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 418–420 · 30/10/2026
+
+420/840 terminadas, 1260 imágenes originales públicas, 0 en curso o borradores WordPress y 420 pendientes.
+
+Videojuegos: CCP 2007, declaración de Varoufakis 2012 e informe oficial EVE de septiembre de 2026; índices parciales diferenciados y sin promesa de ingresos. ESRB aporta definición de compras aleatorias, sin clasificación legal universal. Órganos: estrategia ONT 2026–2030, principio 5 OMS, Ghods/Savaj 2006 y comunicación iraní 2025; modelo Becker/Elías 2007 identificado como propuesta, sin precios o seguridad garantizada. Artículo 7 del RD 1723/2012 distingue gratuidad y resarcimiento. Síntesis: diez casos con fuentes primarias y enlaces, coerción y límites explícitos. Nueve finales propios; portada de diez escenas recompuesta para preservar todo el contenido en el recorte.
+
+Siguiente **421–423 / E3.1.01–E3.1.03**, Comunidad → Interés Transparente. Preparaciones incluidas en las 420 pendientes. E3.1.01: 0/3 imágenes locales; sin texto final, sin publicación; E3.1.02: 0/3 imágenes locales; sin texto final, sin publicación; E3.1.03: 0/3 imágenes locales; sin texto final, sin publicación. Después 424–426. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.

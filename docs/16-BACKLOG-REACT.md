@@ -1,6 +1,6 @@
 # Backlog de MEE
 
-Último estado: **408/840 terminadas, 1224 imágenes originales públicas, 0 en curso o borradores WordPress y 432 pendientes**. Capitalismo en Esferas Inesperadas 3/15; 27 tandas completas. Producidas consecutivamente 400–408 desde 399. Siguiente **409–411 / E5.4.04–E5.4.06**, Capitalismo Consciente → Capitalismo en Esferas Inesperadas, tanda 28/56. Briefs originales conservados; 0/3 imágenes por entrada, fuentes sin verificar, sin texto final ni publicación. Incluidas entre las 432 pendientes. Reanudar investigación y generar originales sin duplicar recursos. Después 412–414. Automatización activa; sin agotamiento comunicado.
+Último estado: **420/840 terminadas, 1260 imágenes originales públicas, 0 en curso o borradores WordPress y 420 pendientes**. Capitalismo en Esferas Inesperadas 15/15; 28 tandas completas. Producidas consecutivamente 409–420 desde 408. Siguiente **421–423 / E3.1.01–E3.1.03**, Comunidad y Conexión → Interés Transparente, tanda 29/56. Briefs originales y metadatos iniciales conservados; 0/3 imágenes por entrada, fuentes sin verificar, sin texto final ni publicación. Incluidas entre las 420 pendientes. Después 424–426. La producción continúa autorizada y la automatización permanece activa; no se ha comunicado agotamiento de generación.
 
 
 Historial anterior: producción comprobada tras el bloque 4–6: 6/840 terminadas. En elaboración local: 7–9 con nueve imágenes propias; todavía no cuentan como publicadas. Consultar siempre WordPress y el registro 24 para el estado más reciente.

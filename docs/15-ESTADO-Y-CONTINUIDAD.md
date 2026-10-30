@@ -2,27 +2,27 @@
 
 ## Estado actual
 
-**408/840 terminadas, 1224 imágenes originales públicas, 0 en curso o borradores WordPress y 432 pendientes**. Capitalismo en Esferas Inesperadas 3/15; 27 tandas completas y tanda 28 en curso.
+**420/840 terminadas, 1260 imágenes originales públicas, 0 en curso o borradores WordPress y 420 pendientes**. Capitalismo en Esferas Inesperadas 15/15; 28 tandas completas y tanda 28 completa.
 
 Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Desde 399: entradas 400–408, 27 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
+Desde 408: entradas 409–420, 36 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
 
 Una publicación y tres adjuntos por ID; categorías Capitalismo Consciente y Capitalismo en Esferas Inesperadas, etiquetas exactas. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales y variantes comprobados. Navegación y BreadcrumbList: Blog → área → subcategoría. Taxonomía: 122 nodos, siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva o posicionamiento.
 
 ## Revisión del último bloque
 
-406: Radford1945 por original13p, abastecimiento externo/cautiverio y observación no experimento ni sociedad sin autoridad; funciones del dinero por BancoInglaterra, ejemplos propios sin precios históricos inventados. 407: SmithlibroVcapI y Iannaccone1998figura3histórica de12países, críticaChaves/Gorski2001porresumen: no asociaciónpositivageneral probada ni datos2026. DefensaMEEdeconciencia independiente. 408: patronazgoMedici por exposiciónChicago, Leiden coninstituciones/gremios, Cowenporfichayconversación2025 frenteaAdorno/Horkheimerpasajes. Patreonoficialmayo2026sin ingresos oacceso porpaísgarantizados; tiendaMEEsolo propuesta futura. Nueveoriginales propios yjerarquíaCapitalismoConsciente/EsferasInesperadas.
+Videojuegos: CCP 2007, declaración de Varoufakis 2012 e informe oficial EVE de septiembre de 2026; índices parciales diferenciados y sin promesa de ingresos. ESRB aporta definición de compras aleatorias, sin clasificación legal universal. Órganos: estrategia ONT 2026–2030, principio 5 OMS, Ghods/Savaj 2006 y comunicación iraní 2025; modelo Becker/Elías 2007 identificado como propuesta, sin precios o seguridad garantizada. Artículo 7 del RD 1723/2012 distingue gratuidad y resarcimiento. Síntesis: diez casos con fuentes primarias y enlaces, coerción y límites explícitos. Nueve finales propios; portada de diez escenas recompuesta para preservar todo el contenido en el recorte.
 
 ## Continuación exacta
 
-Siguiente **409–411 / E5.4.04–E5.4.06**, Capitalismo Consciente → Capitalismo en Esferas Inesperadas, tanda 28/56. Briefs originales conservados; 0/3 imágenes por entrada, fuentes sin verificar, sin texto final ni publicación. Incluidas entre las 432 pendientes. Reanudar investigación y generar originales sin duplicar recursos. Después 412–414. Automatización activa; sin agotamiento comunicado.
+Siguiente **421–423 / E3.1.01–E3.1.03**, Comunidad y Conexión → Interés Transparente, tanda 29/56. Briefs originales y metadatos iniciales conservados; 0/3 imágenes por entrada, fuentes sin verificar, sin texto final ni publicación. Incluidas entre las 420 pendientes. Después 424–426. La producción continúa autorizada y la automatización permanece activa; no se ha comunicado agotamiento de generación.
 
 ## Copias y límites
 
-Respaldo VPS hasta 408: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
+Respaldo VPS hasta 420: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
 
 ## Traspaso
 
@@ -43,6 +43,10 @@ Verificación: `npm run build` con sincronización y TypeScript correctos; PHP l
 Publicación: fuente privada sincronizada y subida, commit de producto `1d84a45`. Actualización de la exportación estática en el contenedor Nginx activo y de los dos archivos WordPress, tanto en la ruta operativa como en `/opt/mee/`. No se reconstruyeron imágenes Docker ni se reiniciaron servicios; un siguiente build del repositorio incluye los cambios. Respaldo previo local completo: `../mee-backups/MEE_Codex_2026-10-29_183813.zip` (7657 archivos, integridad comprobada). Copia previa de React y de los archivos WordPress en `/data/mee-backups/apoyo-20261029T184226/`, gzip comprobado. No se ha probado una restauración arrancada de esta copia.
 
 Siguiente paso de esta petición: concretar el medio de donación y sus datos oficiales para activar pago directo. La producción editorial mantiene su continuidad independiente; esta tarea no modifica sus conteos, artículos, imágenes ni taxonomía.
+
+
+
+
 
 
 
