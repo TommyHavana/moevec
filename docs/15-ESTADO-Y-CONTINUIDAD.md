@@ -2,27 +2,27 @@
 
 ## Estado actual
 
-**342/840 terminadas, 1026 imágenes originales públicas, 0 en curso o borradores WordPress y 498 pendientes**. Escepticismo Constructivo 12/15; 22 tandas completas y tanda 23 en curso.
+**348/840 terminadas, 1044 imágenes originales públicas, 0 en curso o borradores WordPress y 492 pendientes**. Libertad de Expresión 3/15; 23 tandas completas y tanda 24 en curso.
 
 Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Desde 333: entradas 334–342, 27 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
+Desde 342: entradas 343–348, 18 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
 
-Una publicación y tres adjuntos por ID; categorías Educación y Valores y Escepticismo Constructivo, etiquetas exactas. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales y variantes comprobados. Navegación y BreadcrumbList: Blog → área → subcategoría. Taxonomía: 122 nodos, siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva o posicionamiento.
+Verificación del último bloque: una publicación y tres adjuntos por ID; categorías Educación y Valores y Libertad de Expresión, etiquetas exactas. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales y variantes comprobados. Navegación y BreadcrumbList: Blog → área → subcategoría. Taxonomía: 122 nodos, siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva o posicionamiento.
 
 ## Revisión del último bloque
 
-340: acuerdo corporativo Odebrecht2016 y anexoB como hechos delimitados, sin culpabilidades individuales extendidas; Sagan capítulo12, parsimonia y contraste, guía MEE sin diagnóstico. 341: diez minutos como primera revisión, metadatos y procedencia; dos portales pueden reproducir la misma medición, ejemplos aritméticos comprobados y ONEI inaccesible sin datos fingidos. 342: INDEC reconoce interferencias2007–2015 en anuario2015/publicado2017, censuraFMI2013 levantada2016; Finsoport art21 distinto de otros expedientesart9, Cavallo2013 datos2007–2011 y nota metodológica oficial2009, sin tasas2026 ni condenas personales inferidas.
+346: DUDH19/29/30, Mill recapitulación capítuloII y Popper nota4cap7 leída visualmente; tesis MEE normativa y tolerancia contextualizada. 347: GC34 obligaciones estatales y protección frente a privados, clasificación MEE no definición universal; DL35 texto2021 sin vigencia exhaustiva2026 fingida. 348: comparación propia RSF2026 y FIW2026 con WDI2025,PPA dólares internacionales corrientes,167pares rlog0,37547 y180pares rlog0,47073; territorios y ausencias separados, sin pesos ni causalidad. China crecimientoPIBreal2025 4,95995%, distinto del nivelPPA; Sen1999 tesis histórica, sin libro completo o garantía actual.
 
 ## Continuación exacta
 
-Siguiente **343–345 / E1.3.13–E1.3.15**, Educación y Valores → Escepticismo Constructivo. Briefs y fuentes parcialmente preparados; cada entrada tiene 0/3 imágenes, sin texto final ni publicación. Incluidas en las 498 pendientes. Reanudar investigación y crear originales, sin duplicar lo guardado. Después 346–348. Automatización activa, sin agotamiento comunicado.
+Siguiente **349–351 / E1.4.04–E1.4.06**, Educación y Valores → Libertad de Expresión. Briefs, pistas y documentos compartidos parcialmente preparados; cada entrada tiene 0/3 imágenes, sin texto final ni publicación. Incluidas en las 492 pendientes. Reanudar lectura y crear originales, sin duplicar lo guardado. Después 352–354. Automatización activa; no se ha comunicado agotamiento de generación.
 
 ## Copias y límites
 
-Respaldo VPS hasta 342: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
+Respaldo VPS hasta 348: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
 
 ## Traspaso
 
@@ -43,6 +43,8 @@ Verificación: `npm run build` con sincronización y TypeScript correctos; PHP l
 Publicación: fuente privada sincronizada y subida, commit de producto `1d84a45`. Actualización de la exportación estática en el contenedor Nginx activo y de los dos archivos WordPress, tanto en la ruta operativa como en `/opt/mee/`. No se reconstruyeron imágenes Docker ni se reiniciaron servicios; un siguiente build del repositorio incluye los cambios. Respaldo previo local completo: `../mee-backups/MEE_Codex_2026-10-29_183813.zip` (7657 archivos, integridad comprobada). Copia previa de React y de los archivos WordPress en `/data/mee-backups/apoyo-20261029T184226/`, gzip comprobado. No se ha probado una restauración arrancada de esta copia.
 
 Siguiente paso de esta petición: concretar el medio de donación y sus datos oficiales para activar pago directo. La producción editorial mantiene su continuidad independiente; esta tarea no modifica sus conteos, artículos, imágenes ni taxonomía.
+
+
 
 
 

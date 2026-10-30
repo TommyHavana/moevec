@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-30T03:42:13+00:00.
+Comprobado en WordPress: 2026-10-30T04:32:16+00:00.
 
-**342/840 terminadas · 0 en curso · 498 pendientes.**
+**348/840 terminadas · 0 en curso · 492 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -354,12 +354,12 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 340 | 23/56 · 10/15 | E1.3.10 | Teorías conspirativas: por qué el escepticismo no es creer cualquier cosa | terminada | 3/3 | [Leer](https://moevec.org/blog/teorias-conspirativas-y-escepticismo/) |
 | 341 | 23/56 · 11/15 | E1.3.11 | Cómo verificar una noticia económica en diez minutos | terminada | 3/3 | [Leer](https://moevec.org/blog/verificar-noticia-economica/) |
 | 342 | 23/56 · 12/15 | E1.3.12 | Cuando las estadísticas oficiales mienten: el caso del INDEC en Argentina | terminada | 3/3 | [Leer](https://moevec.org/blog/estadisticas-oficiales-indec-argentina/) |
-| 343 | 23/56 · 13/15 | E1.3.13 | Escepticismo ante las promesas de riqueza rápida: estafas piramidales y criptoestafas | pendiente | 0/3 | — |
-| 344 | 23/56 · 14/15 | E1.3.14 | Fact-checking: quién verifica a los verificadores | pendiente | 0/3 | — |
-| 345 | 23/56 · 15/15 | E1.3.15 | Debate con método: cómo discutir de economía sin pelear | pendiente | 0/3 | — |
-| 346 | 24/56 · 1/15 | E1.4.01 | Por qué la libertad de expresión protege sobre todo a quien no tiene poder | pendiente | 0/3 | — |
-| 347 | 24/56 · 2/15 | E1.4.02 | Censura, moderación y crítica: tres cosas distintas que se confunden | pendiente | 0/3 | — |
-| 348 | 24/56 · 3/15 | E1.4.03 | Libertad de expresión y prosperidad: qué relación muestran los datos | pendiente | 0/3 | — |
+| 343 | 23/56 · 13/15 | E1.3.13 | Escepticismo ante las promesas de riqueza rápida: estafas piramidales y criptoestafas | terminada | 3/3 | [Leer](https://moevec.org/blog/estafas-piramidales-riqueza-rapida/) |
+| 344 | 23/56 · 14/15 | E1.3.14 | Fact-checking: quién verifica a los verificadores | terminada | 3/3 | [Leer](https://moevec.org/blog/quien-verifica-a-los-verificadores/) |
+| 345 | 23/56 · 15/15 | E1.3.15 | Debate con método: cómo discutir de economía sin pelear | terminada | 3/3 | [Leer](https://moevec.org/blog/debatir-economia-con-metodo/) |
+| 346 | 24/56 · 1/15 | E1.4.01 | Por qué la libertad de expresión protege sobre todo a quien no tiene poder | terminada | 3/3 | [Leer](https://moevec.org/blog/libertad-expresion-protege-al-debil/) |
+| 347 | 24/56 · 2/15 | E1.4.02 | Censura, moderación y crítica: tres cosas distintas que se confunden | terminada | 3/3 | [Leer](https://moevec.org/blog/censura-moderacion-critica/) |
+| 348 | 24/56 · 3/15 | E1.4.03 | Libertad de expresión y prosperidad: qué relación muestran los datos | terminada | 3/3 | [Leer](https://moevec.org/blog/libertad-expresion-y-prosperidad/) |
 | 349 | 24/56 · 4/15 | E1.4.04 | El derecho a recibir información: la otra mitad de la libertad de expresión | pendiente | 0/3 | — |
 | 350 | 24/56 · 5/15 | E1.4.05 | Discurso de odio: dónde está el límite y quién lo decide | pendiente | 0/3 | — |
 | 351 | 24/56 · 6/15 | E1.4.06 | Cuba y la libertad de expresión: Decreto 370, Decreto-Ley 35 y redes sociales | pendiente | 0/3 | — |

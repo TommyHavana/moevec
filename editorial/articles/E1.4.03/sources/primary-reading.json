@@ -1,0 +1,54 @@
+{
+  "checked_on": "2026-10-30",
+  "sources": [
+    {
+      "name": "RSF, Índice Mundial de Libertad de Prensa2026, datos originales CSV",
+      "url": "https://rsf.org/sites/default/files/import_classement/2026.csv",
+      "actual_reading": "CSVprimario180filas, ISO y puntuaciones; página índice contrastada. Lectura/cálculo propios completos:167pares con PIBPPA2025;13sin dato compatible, listado conservado. No rango confundido con puntuación ni causalidad."
+    },
+    {
+      "name": "RSF, metodología del Índice Mundial2026",
+      "url": "https://rsf.org/en/methodology-used-compiling-world-press-freedom-index-2026",
+      "actual_reading": "Leído método, puntuación0–100 y periodo previo2025 con actualizaciones previas a publicación. Cinco dimensiones; no medida aislada de todo derecho expresivo."
+    },
+    {
+      "name": "Freedom House, Countries and Territories, Freedom in the World2026",
+      "url": "https://freedomhouse.org/country/scores",
+      "actual_reading": "Tabla primaria208filas extraídas de HTML; enlaces confirman edición2026. Excluidas13entradas territoriales con asterisco,195países,180pares con PIBPPA2025;15sin dato compatible; alias explícitos guardados. No código de acceso o descarga restringida, no libertad de prensa aislada."
+    },
+    {
+      "name": "Freedom House, Freedom in the World Research Methodology2026",
+      "url": "https://freedomhouse.org/reports/freedom-world/freedom-world-research-methodology",
+      "actual_reading": "Leído alcance195países/13territorios, año2025, derechos políticos/libertades civiles, escala y evaluación. No equiparar total con indicador exclusivo de expresión."
+    },
+    {
+      "name": "Banco Mundial, WDI, PIB por habitante PPA, dólares internacionales corrientes",
+      "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD",
+      "actual_reading": "Definición primaria leída; API2025 todos países archivada, última actualización8/10/2026. Dólares internacionales corrientes PPA, no USD ni crecimiento real; agregados no entran al unir índices por ISO. Datos2024 guardados como comprobación, no mezclados con2025."
+    },
+    {
+      "name": "Banco Mundial, API WDI2025, NY.GDP.PCAP.PP.CD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/NY.GDP.PCAP.PP.CD?format=json&date=2025&per_page=400",
+      "actual_reading": "266observaciones incluye agregados, páginas1/1; unión por ISO y casos completos. Cálculo MEE Pearson sin pesos de cada puntuación contra logaritmo natural del PIBPPAporhabitante; r0.375469863 y0.470727684, código y exclusiones conservados, cotejo independiente JS."
+    },
+    {
+      "name": "Banco Mundial, crecimiento anual del PIB de China,2025",
+      "url": "https://api.worldbank.org/v2/country/CHN/indicator/NY.GDP.MKTP.KD.ZG?format=json&date=2025&per_page=5",
+      "actual_reading": "Serie primaria distinta, valor4.95994886240992%, actualización8/10/2026; redondeado5.0%. PIBreal anual total, distinto del nivel per cápitaPPA; no causa atribuida al régimen."
+    },
+    {
+      "name": "Amartya Sen, Democracy as a Universal Value, Journal of Democracy10.3,1999",
+      "url": "https://www.journalofdemocracy.org/articles/democracy-as-a-universal-value/",
+      "actual_reading": "Leídas secciones Democracy and Economic Development, desarrollo/hambrunas, páginas6–11; archivo compartido identificado. Tesis histórica sobre democracias independientes y prensa relativamente libre atribuida a1999; no teorema vigente, promesa de ausencia de hambre ni libro Desarrollo y libertad completo fingido."
+    }
+  ],
+  "limitations": [
+    "No asociación presentada como causalidad ni coeficiente como efecto de una política.",
+    "No media entre índices de objetos distintos; muestras167y180separadas, casos completos sin imputación ni ponderación poblacional.",
+    "No nivel nominalPPAcomo crecimiento real, renta personal, mediana o bienestar total.",
+    "No universalidad actual de la tesis histórica de Sen o ausencia de desnutrición en democracias.",
+    "No crecimiento de China atribuido causalmente al autoritarismo ni décadas de serie investigadas fingidas."
+  ],
+  "full_books_read": false,
+  "image_review": "Native generations and /tmp/mee346-348-mosaic.png viewed"
+}

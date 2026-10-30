@@ -823,3 +823,23 @@ Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobad
 Siguiente **343–345 / E1.3.13–E1.3.15**, Educación y Valores → Escepticismo Constructivo. Preparaciones incluidas en las 498 pendientes. E1.3.13: 0/3 imágenes locales; sin texto final, sin publicación; E1.3.14: 0/3 imágenes locales; sin texto final, sin publicación; E1.3.15: 0/3 imágenes locales; sin texto final, sin publicación. Después 346–348. Automatización activa, sin agotamiento comunicado.
 
 Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 343–345 · 30/10/2026
+
+345/840 terminadas, 1035 imágenes originales públicas, 0 en curso o borradores WordPress y 495 pendientes.
+
+343: SEC/CNMV/FCA con ámbitos; Madoff2009 y FTX2024 distintos, apelación confirmada12jun2026 y peticiónSupremo pendiente con respuesta16nov2026; portada v2 encuadrada y original previo conservado como borrador no publicado. 344: IFCN compromisos actuales, PDF2025 identificado como informe anual2024; dos correcciones FullFact con alcance, no tasa o sesgo sistemático inferidos; colaboraciónMeta histórica2016–2025. 345: versión propia de Dennett atribuida a Rapoport, nota2; Mill capítuloII leído parcialmente, guía MEE sin garantía de persuasión.
+
+Siguiente **346–348 / E1.4.01–E1.4.03**, Educación y Valores → Libertad de Expresión. Preparaciones incluidas en las 495 pendientes. E1.4.01: 3/3 imágenes locales; sin texto final, sin publicación; E1.4.02: 0/3 imágenes locales; sin texto final, sin publicación; E1.4.03: 0/3 imágenes locales; sin texto final, sin publicación. Después 349–351. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 346–348 · 30/10/2026
+
+348/840 terminadas, 1044 imágenes originales públicas, 0 en curso o borradores WordPress y 492 pendientes.
+
+346: DUDH19/29/30, Mill recapitulación capítuloII y Popper nota4cap7 leída visualmente; tesis MEE normativa y tolerancia contextualizada. 347: GC34 obligaciones estatales y protección frente a privados, clasificación MEE no definición universal; DL35 texto2021 sin vigencia exhaustiva2026 fingida. 348: comparación propia RSF2026 y FIW2026 con WDI2025,PPA dólares internacionales corrientes,167pares rlog0,37547 y180pares rlog0,47073; territorios y ausencias separados, sin pesos ni causalidad. China crecimientoPIBreal2025 4,95995%, distinto del nivelPPA; Sen1999 tesis histórica, sin libro completo o garantía actual.
+
+Siguiente **349–351 / E1.4.04–E1.4.06**, Educación y Valores → Libertad de Expresión. Preparaciones incluidas en las 492 pendientes. E1.4.04: 0/3 imágenes locales; sin texto final, sin publicación; E1.4.05: 0/3 imágenes locales; sin texto final, sin publicación; E1.4.06: 0/3 imágenes locales; sin texto final, sin publicación. Después 352–354. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.

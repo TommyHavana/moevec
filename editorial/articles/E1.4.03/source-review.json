@@ -1,0 +1,231 @@
+{
+  "checked_on": "2026-10-30",
+  "sources": [
+    {
+      "name": "RSF, Índice Mundial de Libertad de Prensa 2026, datos originales CSV",
+      "url": "https://rsf.org/sites/default/files/import_classement/2026.csv",
+      "scope": "CSVprimario180filas, ISO y puntuaciones; página índice contrastada. Lectura/cálculo propios completos:167pares con PIBPPA2025;13sin dato compatible, listado conservado. No rango confundido con puntuación ni causalidad."
+    },
+    {
+      "name": "RSF, metodología del Índice Mundial 2026",
+      "url": "https://rsf.org/en/methodology-used-compiling-world-press-freedom-index-2026",
+      "scope": "Leído método, puntuación0–100 y periodo previo2025 con actualizaciones previas a publicación. Cinco dimensiones; no medida aislada de todo derecho expresivo."
+    },
+    {
+      "name": "Freedom House, Countries and Territories, Freedom in the World 2026",
+      "url": "https://freedomhouse.org/country/scores",
+      "scope": "Tabla primaria208filas extraídas de HTML; enlaces confirman edición2026. Excluidas13entradas territoriales con asterisco,195países,180pares con PIBPPA2025;15sin dato compatible; alias explícitos guardados. No código de acceso o descarga restringida, no libertad de prensa aislada."
+    },
+    {
+      "name": "Freedom House, Freedom in the World Research Methodology 2026",
+      "url": "https://freedomhouse.org/reports/freedom-world/freedom-world-research-methodology",
+      "scope": "Leído alcance195países/13territorios, año2025, derechos políticos/libertades civiles, escala y evaluación. No equiparar total con indicador exclusivo de expresión."
+    },
+    {
+      "name": "Banco Mundial, WDI, PIB por habitante PPA, dólares internacionales corrientes",
+      "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD",
+      "scope": "Definición primaria leída; API2025 todos países archivada, última actualización8/10/2026. Dólares internacionales corrientes PPA, no USD ni crecimiento real; agregados no entran al unir índices por ISO. Datos2024 guardados como comprobación, no mezclados con2025."
+    },
+    {
+      "name": "Banco Mundial, API WDI 2025, NY.GDP.PCAP.PP.CD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/NY.GDP.PCAP.PP.CD?format=json&date=2025&per_page=400",
+      "scope": "266observaciones incluye agregados, páginas1/1; unión por ISO y casos completos. Cálculo MEE Pearson sin pesos de cada puntuación contra logaritmo natural del PIBPPAporhabitante; r0.375469863 y0.470727684, código y exclusiones conservados, cotejo independiente JS."
+    },
+    {
+      "name": "Banco Mundial, crecimiento anual del PIB de China,2025",
+      "url": "https://api.worldbank.org/v2/country/CHN/indicator/NY.GDP.MKTP.KD.ZG?format=json&date=2025&per_page=5",
+      "scope": "Serie primaria distinta, valor4.95994886240992%, actualización8/10/2026; redondeado5.0%. PIBreal anual total, distinto del nivel per cápitaPPA; no causa atribuida al régimen."
+    },
+    {
+      "name": "Amartya Sen, Democracy as a Universal Value, Journal of Democracy 10.3,1999",
+      "url": "https://www.journalofdemocracy.org/articles/democracy-as-a-universal-value/",
+      "scope": "Leídas secciones Democracy and Economic Development, desarrollo/hambrunas, páginas6–11; archivo compartido identificado. Tesis histórica sobre democracias independientes y prensa relativamente libre atribuida a1999; no teorema vigente, promesa de ausencia de hambre ni libro Desarrollo y libertad completo fingido."
+    }
+  ],
+  "archived_files": [
+    {
+      "file": "sources/china-growth.json",
+      "bytes": 301,
+      "sha256": "f81613963f25ec62e94db0070925621bd4cea1308d70550b7702c83a176cabe7"
+    },
+    {
+      "file": "sources/china-growth.json.access.json",
+      "bytes": 164,
+      "sha256": "c85a87d79979980a2a5cafb7d436940b92734f562a31ad68fed7ee88b9c557de"
+    },
+    {
+      "file": "sources/descriptive-comparison.json",
+      "bytes": 45755,
+      "sha256": "eee8272b16d0df135b941b522c6a709eb7fc9d020adde154022983aac14a4f13"
+    },
+    {
+      "file": "sources/edition-check.json",
+      "bytes": 157,
+      "sha256": "4446decde3aada8d61c97c5b17084fcd90db199eef73979934bb72f73bb12a6a"
+    },
+    {
+      "file": "sources/fh-countries2026.html",
+      "bytes": 380312,
+      "sha256": "b80ffe6a0ce320adaa43005bb15770faca982cbbce5153242cf748c6fd866346"
+    },
+    {
+      "file": "sources/fh-countries2026.html.access.json",
+      "bytes": 118,
+      "sha256": "5496416149818158d981dd6f2732e1d2b5dfec33140e62377d046a4f3bc225f3"
+    },
+    {
+      "file": "sources/fh-countries2026.visible.txt",
+      "bytes": 13301,
+      "sha256": "0d2204c03377a0ebc59e9889868823d06ac52c5b3f3e9ed05ad9b9738a90f0e9"
+    },
+    {
+      "file": "sources/fh-extracted.json",
+      "bytes": 6834,
+      "sha256": "b208ea4d433f06ae2b08cec7a826c0429f3ba3fb867fd31380fa2f86c9d38399"
+    },
+    {
+      "file": "sources/fh-method2026.html",
+      "bytes": 203807,
+      "sha256": "1fcc4d075351d611e97c061d74e7e9c6dd8d023e9bf2ed61f84688c73d091cff"
+    },
+    {
+      "file": "sources/fh-method2026.html.access.json",
+      "bytes": 144,
+      "sha256": "f3608a8893ce33f6e730dc8d5a71450b4496046f3bf385fddfb9a7e789077c57"
+    },
+    {
+      "file": "sources/fh-method2026.visible.txt",
+      "bytes": 48108,
+      "sha256": "c3a9f3c3369a4da9dcdbd0baef2d2985e898fce3f481ffc8ae2656dfc00b2938"
+    },
+    {
+      "file": "sources/fh-report2026.html",
+      "bytes": 140651,
+      "sha256": "046e71365c301f3dc87a36571d63cf0828e4c2198961faeeba9a1d2efc5a940f"
+    },
+    {
+      "file": "sources/fh-report2026.html.access.json",
+      "bytes": 138,
+      "sha256": "7f9508b0b2592064c9c03b1b9f4fa68714af23eb336693fa548f1ba1ccabeb2b"
+    },
+    {
+      "file": "sources/primary-reading.json",
+      "bytes": 4278,
+      "sha256": "8699fbc238f6823aeb366e74add8c5529c91d2679aa17f577cf6b93b68ce2bed"
+    },
+    {
+      "file": "sources/reading-scope.json",
+      "bytes": 4453,
+      "sha256": "792b581070dfe85377e0bc477d4b6b76c944ed3c09fcf63ebff1c2f37a27d380"
+    },
+    {
+      "file": "sources/reproduce-comparison.py",
+      "bytes": 2902,
+      "sha256": "e78f5f847ef3e29619cf7a3c61a687fbe5f36b63451d400ac04f351e6e1aa16b"
+    },
+    {
+      "file": "sources/rsf-index2026.html",
+      "bytes": 1189842,
+      "sha256": "d30a70e0ad95848d6637060cc61ca888a1a9b3837807120d1a10d098e6717029"
+    },
+    {
+      "file": "sources/rsf-index2026.html.access.json",
+      "bytes": 87,
+      "sha256": "9806cbd4a0d1460ed2b228d46ef911c6d83485b7f0d75f089f4ff0a377b52d4a"
+    },
+    {
+      "file": "sources/rsf-index2026.visible.txt",
+      "bytes": 33808,
+      "sha256": "76533f5cc32ffb921b9dbf62d22b3751d57186aba41b2385739a11492992a435"
+    },
+    {
+      "file": "sources/rsf-method2026.html",
+      "bytes": 76873,
+      "sha256": "4b137282255901705d2b68a6adacd8794b47a500f4a736905b6e7924d70f1435"
+    },
+    {
+      "file": "sources/rsf-method2026.html.access.json",
+      "bytes": 139,
+      "sha256": "9de2f4fd659c58704d5c4779e6a2a087fd452555d0fa6811da2708b8fd62e95a"
+    },
+    {
+      "file": "sources/rsf2026.csv",
+      "bytes": 26930,
+      "sha256": "65ec7bd9b9740e0f51e9b4eea585030b2226c1a96938ec06a4cbbdbd2639aae2"
+    },
+    {
+      "file": "sources/rsf2026.csv.access.json",
+      "bytes": 125,
+      "sha256": "31b93463db88da790409d130a8699a7a7dc21b4a817ce7c9ff07d7c9b2566d80"
+    },
+    {
+      "file": "sources/sen-democracy1999.html",
+      "bytes": 203607,
+      "sha256": "90bb2146066020baa009a2f792eb7336f3e56fa06d6fbcd0e07f843579e6bfb4"
+    },
+    {
+      "file": "sources/sen-democracy1999.html.provenance.json",
+      "bytes": 310,
+      "sha256": "d0e25171552854723c74931839bcdecfba1359fd351288f2b825feb53edb2a6a"
+    },
+    {
+      "file": "sources/sen-democracy1999.visible.txt",
+      "bytes": 43416,
+      "sha256": "c0c76659c72a16f4a91e8d3cce6e7ba0b3549aa3abe05171f6dcf5a9505efac2"
+    },
+    {
+      "file": "sources/sen-democracy1999.visible.txt.provenance.json",
+      "bytes": 317,
+      "sha256": "820c650aac8fe87169d661423a1d7db135236f3738e758bf445da4a5347c7348"
+    },
+    {
+      "file": "sources/wb-ppp-metadata.html",
+      "bytes": 1090898,
+      "sha256": "cec6d439e2fad4d61686c8844b62e19ddb27a80c7dde1eb3542f2f4f30db96f8"
+    },
+    {
+      "file": "sources/wb-ppp-metadata.html.access.json",
+      "bytes": 117,
+      "sha256": "27a3c5809f3c63aa8290a8913c947fbc3501661a9545c8448e7c3439e039d543"
+    },
+    {
+      "file": "sources/wb-ppp-metadata.visible.txt",
+      "bytes": 3062,
+      "sha256": "d8545e71a84c05f5f2e286922344afff01cc5396e4da8ce21deb587141aad7d3"
+    },
+    {
+      "file": "sources/wdi-gdp-2024.json",
+      "bytes": 64590,
+      "sha256": "28f15bf8eabe9af14418faf171d27c48354e0d9b287d03216f9456be234f6211"
+    },
+    {
+      "file": "sources/wdi-gdp-2024.json.access.json",
+      "bytes": 166,
+      "sha256": "dfe433cac6173c15999e1c9033da6dca092e2f9bd54bd8bc59a9b1974fdaddeb"
+    },
+    {
+      "file": "sources/wdi-gdp-2025.json",
+      "bytes": 64469,
+      "sha256": "eb0750cb6175dc1501667eaccb91fa0a9b0d3d6e9c4a6c7434b4a654337afc5f"
+    },
+    {
+      "file": "sources/wdi-gdp-2025.json.access.json",
+      "bytes": 166,
+      "sha256": "e679b71e8147ded2fe587f1f61f0b5f8bcd660ea523354d5c6a6473b26a29fc4"
+    }
+  ],
+  "omitted_claims": [
+    "No asociación presentada como causalidad ni coeficiente como efecto de una política.",
+    "No media entre índices de objetos distintos; muestras167y180separadas, casos completos sin imputación ni ponderación poblacional.",
+    "No nivel nominalPPAcomo crecimiento real, renta personal, mediana o bienestar total.",
+    "No universalidad actual de la tesis histórica de Sen o ausencia de desnutrición en democracias.",
+    "No crecimiento de China atribuido causalmente al autoritarismo ni décadas de serie investigadas fingidas."
+  ],
+  "scope": "Lectura pertinente especificada; archivo completo no implica lectura íntegra. Problemas de acceso y fuentes compartidas identificados.",
+  "final_verification": {
+    "checked_at": "2026-10-30T04:34:12.944505+00:00",
+    "published_url": "https://moevec.org/blog/libertad-expresion-y-prosperidad/",
+    "public_checks": "verification.json",
+    "wordpress_registry_words": 1278
+  }
+}

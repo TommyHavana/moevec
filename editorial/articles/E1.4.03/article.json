@@ -1,0 +1,97 @@
+{
+  "number": 348,
+  "id": "E1.4.03",
+  "title": "Libertad de expresión y prosperidad: qué relación muestran los datos",
+  "slug": "libertad-expresion-y-prosperidad",
+  "seo_title": "Libertad de expresión y prosperidad: datos y límites | MEE",
+  "description": "Examina la libertad de expresión y prosperidad con datos de RSF, Freedom House y Banco Mundial. MEE distingue asociación, causalidad y contraejemplos.",
+  "keyword": "libertad de expresión y prosperidad",
+  "secondary_keywords": [
+    "libertad de prensa",
+    "PIB por habitante",
+    "correlación y causalidad",
+    "Amartya Sen"
+  ],
+  "standfirst": "La libertad de expresión y prosperidad pueden compararse con indicadores distintos, sin confundirlos. MEE cruza las ediciones 2026 de RSF y Freedom House con el PIB por habitante de 2025 del Banco Mundial. Encuentra asociaciones positivas en los casos disponibles y explica sus límites, la objeción china y el argumento histórico de Amartya Sen.",
+  "tags": [
+    "libertad-de-expresion",
+    "fundamentos"
+  ],
+  "images": {
+    "featured": {
+      "file": "e1-4-03-libertad-expresion-y-prosperidad-destacada.webp",
+      "title": "La información abre posibilidades",
+      "alt": "Ilustración conceptual sobre libertad de expresión y prosperidad: una imprenta azul de papel produce hojas marfil junto a semillas rojas y brotes pequeños.",
+      "caption": "Metáfora de información y posibilidades de mejora; no demuestra una relación causal."
+    },
+    "interior-1": {
+      "file": "e1-4-03-libertad-expresion-y-prosperidad-interior-1.webp",
+      "title": "Examinar relaciones sin inventar causalidad",
+      "alt": "Dos cintas azules y rojas recorren juntas una loma marfil sin ejes, cifras ni etiquetas.",
+      "caption": "Dos trayectorias conceptuales, sin datos representados ni promesa de causalidad."
+    },
+    "interior-2": {
+      "file": "e1-4-03-libertad-expresion-y-prosperidad-interior-2.webp",
+      "title": "Una ventana para observar y corregir",
+      "alt": "Un campo en miniatura con hileras azules y rojas recibe luz desde una ventana marfil abierta.",
+      "caption": "Ilustración conceptual de observación y respuesta; no representa un caso agrícola observado."
+    }
+  },
+  "review": {
+    "sources_verified": true,
+    "editorial_checked": true,
+    "checked_on": "2026-10-30",
+    "original_images": true,
+    "images_visually_checked": true,
+    "illustrative_examples": true,
+    "sources": [
+      {
+        "name": "RSF, Índice Mundial de Libertad de Prensa 2026, datos originales CSV",
+        "url": "https://rsf.org/sites/default/files/import_classement/2026.csv",
+        "scope": "CSVprimario180filas, ISO y puntuaciones; página índice contrastada. Lectura/cálculo propios completos:167pares con PIBPPA2025;13sin dato compatible, listado conservado. No rango confundido con puntuación ni causalidad."
+      },
+      {
+        "name": "RSF, metodología del Índice Mundial 2026",
+        "url": "https://rsf.org/en/methodology-used-compiling-world-press-freedom-index-2026",
+        "scope": "Leído método, puntuación0–100 y periodo previo2025 con actualizaciones previas a publicación. Cinco dimensiones; no medida aislada de todo derecho expresivo."
+      },
+      {
+        "name": "Freedom House, Countries and Territories, Freedom in the World 2026",
+        "url": "https://freedomhouse.org/country/scores",
+        "scope": "Tabla primaria208filas extraídas de HTML; enlaces confirman edición2026. Excluidas13entradas territoriales con asterisco,195países,180pares con PIBPPA2025;15sin dato compatible; alias explícitos guardados. No código de acceso o descarga restringida, no libertad de prensa aislada."
+      },
+      {
+        "name": "Freedom House, Freedom in the World Research Methodology 2026",
+        "url": "https://freedomhouse.org/reports/freedom-world/freedom-world-research-methodology",
+        "scope": "Leído alcance195países/13territorios, año2025, derechos políticos/libertades civiles, escala y evaluación. No equiparar total con indicador exclusivo de expresión."
+      },
+      {
+        "name": "Banco Mundial, WDI, PIB por habitante PPA, dólares internacionales corrientes",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD",
+        "scope": "Definición primaria leída; API2025 todos países archivada, última actualización8/10/2026. Dólares internacionales corrientes PPA, no USD ni crecimiento real; agregados no entran al unir índices por ISO. Datos2024 guardados como comprobación, no mezclados con2025."
+      },
+      {
+        "name": "Banco Mundial, API WDI 2025, NY.GDP.PCAP.PP.CD",
+        "url": "https://api.worldbank.org/v2/country/all/indicator/NY.GDP.PCAP.PP.CD?format=json&date=2025&per_page=400",
+        "scope": "266observaciones incluye agregados, páginas1/1; unión por ISO y casos completos. Cálculo MEE Pearson sin pesos de cada puntuación contra logaritmo natural del PIBPPAporhabitante; r0.375469863 y0.470727684, código y exclusiones conservados, cotejo independiente JS."
+      },
+      {
+        "name": "Banco Mundial, crecimiento anual del PIB de China,2025",
+        "url": "https://api.worldbank.org/v2/country/CHN/indicator/NY.GDP.MKTP.KD.ZG?format=json&date=2025&per_page=5",
+        "scope": "Serie primaria distinta, valor4.95994886240992%, actualización8/10/2026; redondeado5.0%. PIBreal anual total, distinto del nivel per cápitaPPA; no causa atribuida al régimen."
+      },
+      {
+        "name": "Amartya Sen, Democracy as a Universal Value, Journal of Democracy 10.3,1999",
+        "url": "https://www.journalofdemocracy.org/articles/democracy-as-a-universal-value/",
+        "scope": "Leídas secciones Democracy and Economic Development, desarrollo/hambrunas, páginas6–11; archivo compartido identificado. Tesis histórica sobre democracias independientes y prensa relativamente libre atribuida a1999; no teorema vigente, promesa de ausencia de hambre ni libro Desarrollo y libertad completo fingido."
+      }
+    ],
+    "omitted_claims": [
+      "No asociación presentada como causalidad ni coeficiente como efecto de una política.",
+      "No media entre índices de objetos distintos; muestras167y180separadas, casos completos sin imputación ni ponderación poblacional.",
+      "No nivel nominalPPAcomo crecimiento real, renta personal, mediana o bienestar total.",
+      "No universalidad actual de la tesis histórica de Sen o ausencia de desnutrición en democracias.",
+      "No crecimiento de China atribuido causalmente al autoritarismo ni décadas de serie investigadas fingidas."
+    ]
+  }
+}

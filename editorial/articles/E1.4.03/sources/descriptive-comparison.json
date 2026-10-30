@@ -1,0 +1,2191 @@
+{
+  "checked_on": "2026-10-30",
+  "wb_lastupdated": "2026-10-08",
+  "gdp_year": 2025,
+  "gdp_indicator": "NY.GDP.PCAP.PP.CD",
+  "units": "Current international dollars per person;PPP,not USD or real growth",
+  "freedom_editions": 2026,
+  "reference_period": "2025;RSF permits updates before publication",
+  "method": "Unweighted Pearson correlation of index score with natural logarithm of positive GDP per capita PPP2025;complete cases;FH excludes13 starred territories;no imputation,no causal claim,no growth regression",
+  "rsf": {
+    "n": 167,
+    "pearson_log_gdp": 0.3754698630288228,
+    "excluded": [
+      "LIE",
+      "TWN",
+      "CTU",
+      "SSD",
+      "LBN",
+      "AFG",
+      "YEM",
+      "VEN",
+      "ARE",
+      "CUB",
+      "SYR",
+      "PRK",
+      "ERI"
+    ],
+    "pairs": [
+      {
+        "iso": "FIN",
+        "name": "Finland",
+        "score": 86.22,
+        "gdp_ppp": 65884.4876972259
+      },
+      {
+        "iso": "EST",
+        "name": "Estonia",
+        "score": 88.54,
+        "gdp_ppp": 52105.5093433416
+      },
+      {
+        "iso": "NLD",
+        "name": "Netherlands",
+        "score": 88.92,
+        "gdp_ppp": 87320.1477254029
+      },
+      {
+        "iso": "SWE",
+        "name": "Sweden",
+        "score": 87.61,
+        "gdp_ppp": 72528.8892631159
+      },
+      {
+        "iso": "LTU",
+        "name": "Lithuania",
+        "score": 81.34,
+        "gdp_ppp": 56837.8067003598
+      },
+      {
+        "iso": "DNK",
+        "name": "Denmark",
+        "score": 88.47,
+        "gdp_ppp": 83218.071525634
+      },
+      {
+        "iso": "IRL",
+        "name": "Ireland",
+        "score": 85.93,
+        "gdp_ppp": 155089.413131749
+      },
+      {
+        "iso": "PRT",
+        "name": "Portugal",
+        "score": 83.71,
+        "gdp_ppp": 53145.7317498942
+      },
+      {
+        "iso": "CHE",
+        "name": "Switzerland",
+        "score": 84.83,
+        "gdp_ppp": 102513.347221899
+      },
+      {
+        "iso": "CZE",
+        "name": "Czechia",
+        "score": 83.01,
+        "gdp_ppp": 60487.2877495391
+      },
+      {
+        "iso": "NOR",
+        "name": "Norway",
+        "score": 92.72,
+        "gdp_ppp": 104043.666429243
+      },
+      {
+        "iso": "LUX",
+        "name": "Luxembourg",
+        "score": 84.14,
+        "gdp_ppp": 156542.075847247
+      },
+      {
+        "iso": "DEU",
+        "name": "Germany",
+        "score": 82.17,
+        "gdp_ppp": 75406.6888111618
+      },
+      {
+        "iso": "LVA",
+        "name": "Latvia",
+        "score": 81.0,
+        "gdp_ppp": 46136.689377286
+      },
+      {
+        "iso": "NZL",
+        "name": "New Zealand",
+        "score": 77.38,
+        "gdp_ppp": 57350.3627657521
+      },
+      {
+        "iso": "ISL",
+        "name": "Iceland",
+        "score": 82.77,
+        "gdp_ppp": 83431.2131434311
+      },
+      {
+        "iso": "BEL",
+        "name": "Belgium",
+        "score": 81.17,
+        "gdp_ppp": 74675.607672673
+      },
+      {
+        "iso": "TTO",
+        "name": "Trinidad and Tobago",
+        "score": 74.7,
+        "gdp_ppp": 37121.2050020847
+      },
+      {
+        "iso": "GBR",
+        "name": "United Kingdom",
+        "score": 79.45,
+        "gdp_ppp": 64606.4955066338
+      },
+      {
+        "iso": "CAN",
+        "name": "Canada",
+        "score": 78.76,
+        "gdp_ppp": 66745.8248561648
+      },
+      {
+        "iso": "AUT",
+        "name": "Austria",
+        "score": 79.43,
+        "gdp_ppp": 76777.5421537618
+      },
+      {
+        "iso": "ESP",
+        "name": "Spain",
+        "score": 75.42,
+        "gdp_ppp": 59867.6944716701
+      },
+      {
+        "iso": "FRA",
+        "name": "France",
+        "score": 76.68,
+        "gdp_ppp": 63975.353585864
+      },
+      {
+        "iso": "JAM",
+        "name": "Jamaica",
+        "score": 75.87,
+        "gdp_ppp": 13291.253767787
+      },
+      {
+        "iso": "ZAF",
+        "name": "South Africa",
+        "score": 77.95,
+        "gdp_ppp": 15905.6794419658
+      },
+      {
+        "iso": "NAM",
+        "name": "Namibia",
+        "score": 76.97,
+        "gdp_ppp": 11985.7200318677
+      },
+      {
+        "iso": "AUS",
+        "name": "Australia",
+        "score": 74.58,
+        "gdp_ppp": 71934.4033931263
+      },
+      {
+        "iso": "CPV",
+        "name": "Cabo Verde",
+        "score": 71.98,
+        "gdp_ppp": 12165.2989335356
+      },
+      {
+        "iso": "POL",
+        "name": "Poland",
+        "score": 75.52,
+        "gdp_ppp": 54262.4040405236
+      },
+      {
+        "iso": "SUR",
+        "name": "Suriname",
+        "score": 73.2,
+        "gdp_ppp": 22652.3952637959
+      },
+      {
+        "iso": "SVN",
+        "name": "Slovenia",
+        "score": 72.88,
+        "gdp_ppp": 59244.7106359661
+      },
+      {
+        "iso": "ARM",
+        "name": "Armenia",
+        "score": 67.02,
+        "gdp_ppp": 24754.2118320452
+      },
+      {
+        "iso": "MDA",
+        "name": "Moldova",
+        "score": 74.77,
+        "gdp_ppp": 19995.7590923995
+      },
+      {
+        "iso": "CRI",
+        "name": "Costa Rica",
+        "score": 72.35,
+        "gdp_ppp": 33814.7696296148
+      },
+      {
+        "iso": "FJI",
+        "name": "Fiji",
+        "score": 76.76,
+        "gdp_ppp": 16337.5722970567
+      },
+      {
+        "iso": "SVK",
+        "name": "Slovakia",
+        "score": 72.71,
+        "gdp_ppp": 49308.7048471448
+      },
+      {
+        "iso": "TLS",
+        "name": "East Timor",
+        "score": 75.29,
+        "gdp_ppp": 4809.49016945191
+      },
+      {
+        "iso": "LBY",
+        "name": "Libya",
+        "score": 40.34,
+        "gdp_ppp": 16521.3998152838
+      },
+      {
+        "iso": "GAB",
+        "name": "Gabon",
+        "score": 70.57,
+        "gdp_ppp": 22218.341068445
+      },
+      {
+        "iso": "MKD",
+        "name": "North Macedonia",
+        "score": 69.49,
+        "gdp_ppp": 28028.5664230631
+      },
+      {
+        "iso": "DOM",
+        "name": "Dominican Republic",
+        "score": 69.73,
+        "gdp_ppp": 28721.0964580217
+      },
+      {
+        "iso": "WSM",
+        "name": "Samoa",
+        "score": 64.53,
+        "gdp_ppp": 9318.95775945515
+      },
+      {
+        "iso": "SYC",
+        "name": "Seychelles",
+        "score": 73.04,
+        "gdp_ppp": 35854.0281615068
+      },
+      {
+        "iso": "TON",
+        "name": "Tonga",
+        "score": 66.62,
+        "gdp_ppp": 8674.68048447494
+      },
+      {
+        "iso": "BLZ",
+        "name": "Belize",
+        "score": 61.66,
+        "gdp_ppp": 14965.7521203147
+      },
+      {
+        "iso": "CSS",
+        "name": "OECS",
+        "score": 64.6,
+        "gdp_ppp": 42963.806092907
+      },
+      {
+        "iso": "ITA",
+        "name": "Italy",
+        "score": 65.16,
+        "gdp_ppp": 62802.5108384276
+      },
+      {
+        "iso": "MRT",
+        "name": "Mauritania",
+        "score": 63.36,
+        "gdp_ppp": 7675.51996658445
+      },
+      {
+        "iso": "MUS",
+        "name": "Mauritius",
+        "score": 70.92,
+        "gdp_ppp": 33666.64355884
+      },
+      {
+        "iso": "GHA",
+        "name": "Ghana",
+        "score": 72.2,
+        "gdp_ppp": 8610.2796922986
+      },
+      {
+        "iso": "PAN",
+        "name": "Panama",
+        "score": 62.14,
+        "gdp_ppp": 43902.1632084954
+      },
+      {
+        "iso": "LBR",
+        "name": "Liberia",
+        "score": 64.54,
+        "gdp_ppp": 1981.09483342188
+      },
+      {
+        "iso": "ROU",
+        "name": "Romania",
+        "score": 67.71,
+        "gdp_ppp": 50895.081617639
+      },
+      {
+        "iso": "SLE",
+        "name": "Sierra Leone",
+        "score": 57.06,
+        "gdp_ppp": 3716.89410482498
+      },
+      {
+        "iso": "USA",
+        "name": "United States",
+        "score": 62.61,
+        "gdp_ppp": 90026.5163005744
+      },
+      {
+        "iso": "GMB",
+        "name": "Gambia",
+        "score": 69.42,
+        "gdp_ppp": 3705.64184038599
+      },
+      {
+        "iso": "URY",
+        "name": "Uruguay",
+        "score": 68.72,
+        "gdp_ppp": 38314.8861221656
+      },
+      {
+        "iso": "HRV",
+        "name": "Croatia",
+        "score": 66.31,
+        "gdp_ppp": 50946.1671131832
+      },
+      {
+        "iso": "QAT",
+        "name": "Qatar",
+        "score": 59.79,
+        "gdp_ppp": 128882.934242572
+      },
+      {
+        "iso": "UKR",
+        "name": "Ukraine",
+        "score": 66.1,
+        "gdp_ppp": 18904.98046875
+      },
+      {
+        "iso": "BRA",
+        "name": "Brazil",
+        "score": 66.37,
+        "gdp_ppp": 23433.2897595431
+      },
+      {
+        "iso": "CIV",
+        "name": "Côte d'Ivoire",
+        "score": 66.27,
+        "gdp_ppp": 8208.90898574972
+      },
+      {
+        "iso": "AND",
+        "name": "Andorra",
+        "score": 63.91,
+        "gdp_ppp": 79566.7925868466
+      },
+      {
+        "iso": "JPN",
+        "name": "Japan",
+        "score": 62.9,
+        "gdp_ppp": 55421.8797530311
+      },
+      {
+        "iso": "MLT",
+        "name": "Malta",
+        "score": 61.44,
+        "gdp_ppp": 72210.3392223985
+      },
+      {
+        "iso": "HUN",
+        "name": "Hungary",
+        "score": 59.85,
+        "gdp_ppp": 49837.6008411067
+      },
+      {
+        "iso": "CHL",
+        "name": "Chile",
+        "score": 60.84,
+        "gdp_ppp": 37774.0879069903
+      },
+      {
+        "iso": "BGR",
+        "name": "Bulgaria",
+        "score": 60.28,
+        "gdp_ppp": 44451.1001576913
+      },
+      {
+        "iso": "COG",
+        "name": "Congo-Brazzaville",
+        "score": 61.21,
+        "gdp_ppp": 7248.44439070757
+      },
+      {
+        "iso": "CAF",
+        "name": "Central African Republic",
+        "score": 56.73,
+        "gdp_ppp": 1313.8765680523
+      },
+      {
+        "iso": "GUY",
+        "name": "Guyana",
+        "score": 59.58,
+        "gdp_ppp": 97899.0116180627
+      },
+      {
+        "iso": "SEN",
+        "name": "Senegal",
+        "score": 58.11,
+        "gdp_ppp": 5463.21828561328
+      },
+      {
+        "iso": "COM",
+        "name": "Comoros",
+        "score": 60.23,
+        "gdp_ppp": 4238.26133409182
+      },
+      {
+        "iso": "MWI",
+        "name": "Malawi",
+        "score": 60.96,
+        "gdp_ppp": 1899.29166528127
+      },
+      {
+        "iso": "CYP",
+        "name": "Cyprus",
+        "score": 56.91,
+        "gdp_ppp": 64574.62109375
+      },
+      {
+        "iso": "PNG",
+        "name": "Papua New Guinea",
+        "score": 60.11,
+        "gdp_ppp": 5214.768271628
+      },
+      {
+        "iso": "OMN",
+        "name": "Oman",
+        "score": 43.67,
+        "gdp_ppp": 42295.1761223734
+      },
+      {
+        "iso": "ALB",
+        "name": "Albania",
+        "score": 56.52,
+        "gdp_ppp": 28220.7950617158
+      },
+      {
+        "iso": "BWA",
+        "name": "Botswana",
+        "score": 62.89,
+        "gdp_ppp": 20697.9104661898
+      },
+      {
+        "iso": "ZMB",
+        "name": "Zambia",
+        "score": 58.58,
+        "gdp_ppp": 4379.26131013191
+      },
+      {
+        "iso": "NER",
+        "name": "Niger",
+        "score": 46.02,
+        "gdp_ppp": 2177.25014417163
+      },
+      {
+        "iso": "PRY",
+        "name": "Paraguay",
+        "score": 54.67,
+        "gdp_ppp": 20181.4242826808
+      },
+      {
+        "iso": "MNE",
+        "name": "Montenegro",
+        "score": 71.8,
+        "gdp_ppp": 35422.6449824931
+      },
+      {
+        "iso": "BIH",
+        "name": "Bosnia-Herzegovina",
+        "score": 54.29,
+        "gdp_ppp": 25814.2641520511
+      },
+      {
+        "iso": "ARG",
+        "name": "Argentina",
+        "score": 52.44,
+        "gdp_ppp": 32586.6312086783
+      },
+      {
+        "iso": "MYS",
+        "name": "Malaysia",
+        "score": 52.73,
+        "gdp_ppp": 41497.6746089548
+      },
+      {
+        "iso": "GRC",
+        "name": "Greece",
+        "score": 55.05,
+        "gdp_ppp": 45263.6498511586
+      },
+      {
+        "iso": "NPL",
+        "name": "Nepal",
+        "score": 54.8,
+        "gdp_ppp": 6175.15897150244
+      },
+      {
+        "iso": "BEN",
+        "name": "Benin",
+        "score": 47.39,
+        "gdp_ppp": 4816.87504692826
+      },
+      {
+        "iso": "BOL",
+        "name": "Bolivia",
+        "score": 54.25,
+        "gdp_ppp": 12873.0394876629
+      },
+      {
+        "iso": "ECU",
+        "name": "Ecuador",
+        "score": 44.37,
+        "gdp_ppp": 16756.6539631307
+      },
+      {
+        "iso": "LAO",
+        "name": "Laos",
+        "score": 32.54,
+        "gdp_ppp": 10382.9990718948
+      },
+      {
+        "iso": "KWT",
+        "name": "Kuwait",
+        "score": 40.44,
+        "gdp_ppp": 56467.7272075432
+      },
+      {
+        "iso": "BRN",
+        "name": "Brunei",
+        "score": 52.58,
+        "gdp_ppp": 92429.9262686398
+      },
+      {
+        "iso": "SWZ",
+        "name": "Eswatini",
+        "score": 51.94,
+        "gdp_ppp": 12529.2796629252
+      },
+      {
+        "iso": "XKX",
+        "name": "Kosovo",
+        "score": 55.89,
+        "gdp_ppp": 19263.3268800963
+      },
+      {
+        "iso": "AGO",
+        "name": "Angola",
+        "score": 48.82,
+        "gdp_ppp": 10251.3457063657
+      },
+      {
+        "iso": "MOZ",
+        "name": "Mozambique",
+        "score": 52.27,
+        "gdp_ppp": 1697.94109338132
+      },
+      {
+        "iso": "MNG",
+        "name": "Mongolia",
+        "score": 55.79,
+        "gdp_ppp": 20797.7652692242
+      },
+      {
+        "iso": "GIN",
+        "name": "Guinea",
+        "score": 48.45,
+        "gdp_ppp": 4934.65125959855
+      },
+      {
+        "iso": "MDV",
+        "name": "Maldives",
+        "score": 49.23,
+        "gdp_ppp": 28554.8945669737
+      },
+      {
+        "iso": "BFA",
+        "name": "Burkina Faso",
+        "score": 48.52,
+        "gdp_ppp": 3071.62546744866
+      },
+      {
+        "iso": "ZWE",
+        "name": "Zimbabwe",
+        "score": 44.37,
+        "gdp_ppp": 6470.41613223905
+      },
+      {
+        "iso": "LSO",
+        "name": "Lesotho",
+        "score": 54.37,
+        "gdp_ppp": 3184.11725194709
+      },
+      {
+        "iso": "TCD",
+        "name": "Chad",
+        "score": 53.9,
+        "gdp_ppp": 2902.7406157583
+      },
+      {
+        "iso": "GNB",
+        "name": "Guinea-Bissau",
+        "score": 51.99,
+        "gdp_ppp": 3293.09532269486
+      },
+      {
+        "iso": "HTI",
+        "name": "Haiti",
+        "score": 50.32,
+        "gdp_ppp": 3133.72347930529
+      },
+      {
+        "iso": "ISR",
+        "name": "Israel",
+        "score": 46.46,
+        "gdp_ppp": 59716.9735387228
+      },
+      {
+        "iso": "MDG",
+        "name": "Madagascar",
+        "score": 50.95,
+        "gdp_ppp": 1952.48426903369
+      },
+      {
+        "iso": "GEO",
+        "name": "Georgia",
+        "score": 40.77,
+        "gdp_ppp": 29414.3813424216
+      },
+      {
+        "iso": "COL",
+        "name": "Colombia",
+        "score": 51.66,
+        "gdp_ppp": 22640.4224606513
+      },
+      {
+        "iso": "PHL",
+        "name": "Philippines",
+        "score": 46.79,
+        "gdp_ppp": 12576.9867435109
+      },
+      {
+        "iso": "KEN",
+        "name": "Kenya",
+        "score": 50.51,
+        "gdp_ppp": 7015.93578839722
+      },
+      {
+        "iso": "GNQ",
+        "name": "Equatorial Guinea",
+        "score": 52.79,
+        "gdp_ppp": 16133.1056143137
+      },
+      {
+        "iso": "MLI",
+        "name": "Mali",
+        "score": 45.63,
+        "gdp_ppp": 3502.76132351788
+      },
+      {
+        "iso": "MAR",
+        "name": "Morocco / Western Sahara ",
+        "score": 50.55,
+        "gdp_ppp": 11111.7080078125
+      },
+      {
+        "iso": "TGO",
+        "name": "Togo",
+        "score": 52.56,
+        "gdp_ppp": 4079.36376686718
+      },
+      {
+        "iso": "NGA",
+        "name": "Nigeria",
+        "score": 48.11,
+        "gdp_ppp": 9531.61073275049
+      },
+      {
+        "iso": "KOR",
+        "name": "South Korea",
+        "score": 69.12,
+        "gdp_ppp": 63124.9152183625
+      },
+      {
+        "iso": "MEX",
+        "name": "Mexico",
+        "score": 45.23,
+        "gdp_ppp": 25868.4787520629
+      },
+      {
+        "iso": "BDI",
+        "name": "Burundi",
+        "score": 46.14,
+        "gdp_ppp": 1248.05425025467
+      },
+      {
+        "iso": "DZA",
+        "name": "Algeria",
+        "score": 37.38,
+        "gdp_ppp": 18586.2607480579
+      },
+      {
+        "iso": "IDN",
+        "name": "Indonesia",
+        "score": 43.02,
+        "gdp_ppp": 17659.7921291587
+      },
+      {
+        "iso": "SRB",
+        "name": "Serbia",
+        "score": 50.79,
+        "gdp_ppp": 33909.7605745332
+      },
+      {
+        "iso": "TUN",
+        "name": "Tunisia",
+        "score": 40.43,
+        "gdp_ppp": 15233.4885842318
+      },
+      {
+        "iso": "PER",
+        "name": "Peru",
+        "score": 37.86,
+        "gdp_ppp": 18816.1045522938
+      },
+      {
+        "iso": "CMR",
+        "name": "Cameroon",
+        "score": 40.88,
+        "gdp_ppp": 5787.85440270861
+      },
+      {
+        "iso": "COD",
+        "name": "DR Congo",
+        "score": 42.16,
+        "gdp_ppp": 1919.82250200565
+      },
+      {
+        "iso": "BLR",
+        "name": "Belarus",
+        "score": 27.72,
+        "gdp_ppp": 34715.9778689211
+      },
+      {
+        "iso": "SLV",
+        "name": "El Salvador",
+        "score": 38.88,
+        "gdp_ppp": 14101.1774819291
+      },
+      {
+        "iso": "SOM",
+        "name": "Somalia",
+        "score": 43.84,
+        "gdp_ppp": 1642.77032278186
+      },
+      {
+        "iso": "TJK",
+        "name": "Tajikistan",
+        "score": 32.22,
+        "gdp_ppp": 5923.47183321348
+      },
+      {
+        "iso": "GTM",
+        "name": "Guatemala",
+        "score": 43.21,
+        "gdp_ppp": 15197.0831415082
+      },
+      {
+        "iso": "LKA",
+        "name": "Sri Lanka",
+        "score": 40.77,
+        "gdp_ppp": 17065.0298635432
+      },
+      {
+        "iso": "HKG",
+        "name": "Hong Kong",
+        "score": 39.49,
+        "gdp_ppp": 80422.8129947646
+      },
+      {
+        "iso": "TZA",
+        "name": "Tanzania",
+        "score": 46.22,
+        "gdp_ppp": 4470.9541015625
+      },
+      {
+        "iso": "HND",
+        "name": "Honduras",
+        "score": 41.02,
+        "gdp_ppp": 7871.09129065536
+      },
+      {
+        "iso": "UGA",
+        "name": "Uganda",
+        "score": 41.98,
+        "gdp_ppp": 3487.69797525182
+      },
+      {
+        "iso": "KGZ",
+        "name": "Kyrgyzstan",
+        "score": 35.06,
+        "gdp_ppp": 9219.51443675205
+      },
+      {
+        "iso": "ETH",
+        "name": "Ethiopia",
+        "score": 34.66,
+        "gdp_ppp": 3621.67487597821
+      },
+      {
+        "iso": "RWA",
+        "name": "Rwanda",
+        "score": 39.58,
+        "gdp_ppp": 4164.436605809
+      },
+      {
+        "iso": "JOR",
+        "name": "Jordan",
+        "score": 39.33,
+        "gdp_ppp": 12631.6299394746
+      },
+      {
+        "iso": "UZB",
+        "name": "Uzbekistan",
+        "score": 34.95,
+        "gdp_ppp": 13601.2917473678
+      },
+      {
+        "iso": "BGD",
+        "name": "Bangladesh",
+        "score": 33.05,
+        "gdp_ppp": 10153.7083791829
+      },
+      {
+        "iso": "IND",
+        "name": "India",
+        "score": 31.96,
+        "gdp_ppp": 11747.9160436011
+      },
+      {
+        "iso": "BTN",
+        "name": "Bhutan",
+        "score": 33.5,
+        "gdp_ppp": 19594.0028382994
+      },
+      {
+        "iso": "THA",
+        "name": "Thailand",
+        "score": 53.97,
+        "gdp_ppp": 26250.0723587304
+      },
+      {
+        "iso": "IRQ",
+        "name": "Iraq",
+        "score": 28.85,
+        "gdp_ppp": 14266.7965348226
+      },
+      {
+        "iso": "SDN",
+        "name": "Sudan",
+        "score": 29.02,
+        "gdp_ppp": 2192.27221679688
+      },
+      {
+        "iso": "BHR",
+        "name": "Bahrain",
+        "score": 24.84,
+        "gdp_ppp": 70996.7821254802
+      },
+      {
+        "iso": "PAK",
+        "name": "Pakistan",
+        "score": 32.61,
+        "gdp_ppp": 6573.41613369925
+      },
+      {
+        "iso": "TUR",
+        "name": "Türkiye",
+        "score": 27.94,
+        "gdp_ppp": 45288.4750285273
+      },
+      {
+        "iso": "KHM",
+        "name": "Cambodia",
+        "score": 33.28,
+        "gdp_ppp": 8542.6965378612
+      },
+      {
+        "iso": "SAU",
+        "name": "Saudi Arabia",
+        "score": 19.11,
+        "gdp_ppp": 73783.5613906833
+      },
+      {
+        "iso": "PSE",
+        "name": "Palestine",
+        "score": 32.09,
+        "gdp_ppp": 4999.71301859773
+      },
+      {
+        "iso": "SGP",
+        "name": "Singapore",
+        "score": 44.57,
+        "gdp_ppp": 163353.990260152
+      },
+      {
+        "iso": "AZE",
+        "name": "Azerbaijan",
+        "score": 23.95,
+        "gdp_ppp": 26112.5306828203
+      },
+      {
+        "iso": "DJI",
+        "name": "Djibouti",
+        "score": 25.04,
+        "gdp_ppp": 8451.96838146073
+      },
+      {
+        "iso": "MMR",
+        "name": "Myanmar",
+        "score": 26.38,
+        "gdp_ppp": 6011.53492175516
+      },
+      {
+        "iso": "EGY",
+        "name": "Egypt",
+        "score": 24.92,
+        "gdp_ppp": 20204.0130500153
+      },
+      {
+        "iso": "RUS",
+        "name": "Russia",
+        "score": 23.15,
+        "gdp_ppp": 49568.140625
+      },
+      {
+        "iso": "NIC",
+        "name": "Nicaragua",
+        "score": 24.98,
+        "gdp_ppp": 9283.92301511154
+      },
+      {
+        "iso": "KAZ",
+        "name": "Kazakhstan",
+        "score": 34.41,
+        "gdp_ppp": 44293.4839632441
+      },
+      {
+        "iso": "VNM",
+        "name": "Vietnam",
+        "score": 21.15,
+        "gdp_ppp": 18088.491587163
+      },
+      {
+        "iso": "IRN",
+        "name": "Iran",
+        "score": 17.45,
+        "gdp_ppp": 19699.2193549189
+      },
+      {
+        "iso": "TKM",
+        "name": "Turkmenistan",
+        "score": 23.06,
+        "gdp_ppp": 22601.5518373128
+      },
+      {
+        "iso": "CHN",
+        "name": "China",
+        "score": 13.85,
+        "gdp_ppp": 29333.3311051433
+      }
+    ]
+  },
+  "fh": {
+    "n": 180,
+    "pearson_log_gdp": 0.4707276841464278,
+    "excluded": [
+      {
+        "name": "Afghanistan",
+        "iso": "AFG"
+      },
+      {
+        "name": "Cuba",
+        "iso": "CUB"
+      },
+      {
+        "name": "Eritrea",
+        "iso": "ERI"
+      },
+      {
+        "name": "Lebanon",
+        "iso": "LBN"
+      },
+      {
+        "name": "Liechtenstein",
+        "iso": "LIE"
+      },
+      {
+        "name": "Monaco",
+        "iso": "MCO"
+      },
+      {
+        "name": "North Korea",
+        "iso": "PRK"
+      },
+      {
+        "name": "San Marino",
+        "iso": "SMR"
+      },
+      {
+        "name": "South Sudan",
+        "iso": "SSD"
+      },
+      {
+        "name": "Syria",
+        "iso": "SYR"
+      },
+      {
+        "name": "Taiwan",
+        "iso": "TWN"
+      },
+      {
+        "name": "The Bahamas",
+        "iso": "BHS"
+      },
+      {
+        "name": "United Arab Emirates",
+        "iso": "ARE"
+      },
+      {
+        "name": "Venezuela",
+        "iso": "VEN"
+      },
+      {
+        "name": "Yemen",
+        "iso": "YEM"
+      }
+    ],
+    "pairs": [
+      {
+        "iso": "ALB",
+        "name": "Albania",
+        "score": 69,
+        "gdp_ppp": 28220.7950617158
+      },
+      {
+        "iso": "DZA",
+        "name": "Algeria",
+        "score": 31,
+        "gdp_ppp": 18586.2607480579
+      },
+      {
+        "iso": "AND",
+        "name": "Andorra",
+        "score": 93,
+        "gdp_ppp": 79566.7925868466
+      },
+      {
+        "iso": "AGO",
+        "name": "Angola",
+        "score": 28,
+        "gdp_ppp": 10251.3457063657
+      },
+      {
+        "iso": "ATG",
+        "name": "Antigua and Barbuda",
+        "score": 83,
+        "gdp_ppp": 35832.4795485115
+      },
+      {
+        "iso": "ARG",
+        "name": "Argentina",
+        "score": 85,
+        "gdp_ppp": 32586.6312086783
+      },
+      {
+        "iso": "ARM",
+        "name": "Armenia",
+        "score": 54,
+        "gdp_ppp": 24754.2118320452
+      },
+      {
+        "iso": "AUS",
+        "name": "Australia",
+        "score": 94,
+        "gdp_ppp": 71934.4033931263
+      },
+      {
+        "iso": "AUT",
+        "name": "Austria",
+        "score": 94,
+        "gdp_ppp": 76777.5421537618
+      },
+      {
+        "iso": "AZE",
+        "name": "Azerbaijan",
+        "score": 6,
+        "gdp_ppp": 26112.5306828203
+      },
+      {
+        "iso": "BHR",
+        "name": "Bahrain",
+        "score": 12,
+        "gdp_ppp": 70996.7821254802
+      },
+      {
+        "iso": "BGD",
+        "name": "Bangladesh",
+        "score": 44,
+        "gdp_ppp": 10153.7083791829
+      },
+      {
+        "iso": "BRB",
+        "name": "Barbados",
+        "score": 94,
+        "gdp_ppp": 25893.8676913012
+      },
+      {
+        "iso": "BLR",
+        "name": "Belarus",
+        "score": 7,
+        "gdp_ppp": 34715.9778689211
+      },
+      {
+        "iso": "BEL",
+        "name": "Belgium",
+        "score": 95,
+        "gdp_ppp": 74675.607672673
+      },
+      {
+        "iso": "BLZ",
+        "name": "Belize",
+        "score": 87,
+        "gdp_ppp": 14965.7521203147
+      },
+      {
+        "iso": "BEN",
+        "name": "Benin",
+        "score": 61,
+        "gdp_ppp": 4816.87504692826
+      },
+      {
+        "iso": "BTN",
+        "name": "Bhutan",
+        "score": 69,
+        "gdp_ppp": 19594.0028382994
+      },
+      {
+        "iso": "BOL",
+        "name": "Bolivia",
+        "score": 69,
+        "gdp_ppp": 12873.0394876629
+      },
+      {
+        "iso": "BIH",
+        "name": "Bosnia and Herzegovina",
+        "score": 54,
+        "gdp_ppp": 25814.2641520511
+      },
+      {
+        "iso": "BWA",
+        "name": "Botswana",
+        "score": 75,
+        "gdp_ppp": 20697.9104661898
+      },
+      {
+        "iso": "BRA",
+        "name": "Brazil",
+        "score": 73,
+        "gdp_ppp": 23433.2897595431
+      },
+      {
+        "iso": "BRN",
+        "name": "Brunei",
+        "score": 27,
+        "gdp_ppp": 92429.9262686398
+      },
+      {
+        "iso": "BGR",
+        "name": "Bulgaria",
+        "score": 74,
+        "gdp_ppp": 44451.1001576913
+      },
+      {
+        "iso": "BFA",
+        "name": "Burkina Faso",
+        "score": 20,
+        "gdp_ppp": 3071.62546744866
+      },
+      {
+        "iso": "BDI",
+        "name": "Burundi",
+        "score": 13,
+        "gdp_ppp": 1248.05425025467
+      },
+      {
+        "iso": "CPV",
+        "name": "Cabo Verde",
+        "score": 92,
+        "gdp_ppp": 12165.2989335356
+      },
+      {
+        "iso": "KHM",
+        "name": "Cambodia",
+        "score": 22,
+        "gdp_ppp": 8542.6965378612
+      },
+      {
+        "iso": "CMR",
+        "name": "Cameroon",
+        "score": 15,
+        "gdp_ppp": 5787.85440270861
+      },
+      {
+        "iso": "CAN",
+        "name": "Canada",
+        "score": 97,
+        "gdp_ppp": 66745.8248561648
+      },
+      {
+        "iso": "CAF",
+        "name": "Central African Republic",
+        "score": 5,
+        "gdp_ppp": 1313.8765680523
+      },
+      {
+        "iso": "TCD",
+        "name": "Chad",
+        "score": 15,
+        "gdp_ppp": 2902.7406157583
+      },
+      {
+        "iso": "CHL",
+        "name": "Chile",
+        "score": 95,
+        "gdp_ppp": 37774.0879069903
+      },
+      {
+        "iso": "CHN",
+        "name": "China",
+        "score": 9,
+        "gdp_ppp": 29333.3311051433
+      },
+      {
+        "iso": "COL",
+        "name": "Colombia",
+        "score": 69,
+        "gdp_ppp": 22640.4224606513
+      },
+      {
+        "iso": "COM",
+        "name": "Comoros",
+        "score": 41,
+        "gdp_ppp": 4238.26133409182
+      },
+      {
+        "iso": "CRI",
+        "name": "Costa Rica",
+        "score": 91,
+        "gdp_ppp": 33814.7696296148
+      },
+      {
+        "iso": "HRV",
+        "name": "Croatia",
+        "score": 82,
+        "gdp_ppp": 50946.1671131832
+      },
+      {
+        "iso": "CYP",
+        "name": "Cyprus",
+        "score": 90,
+        "gdp_ppp": 64574.62109375
+      },
+      {
+        "iso": "CZE",
+        "name": "Czechia",
+        "score": 95,
+        "gdp_ppp": 60487.2877495391
+      },
+      {
+        "iso": "CIV",
+        "name": "Côte d'Ivoire",
+        "score": 46,
+        "gdp_ppp": 8208.90898574972
+      },
+      {
+        "iso": "COD",
+        "name": "Democratic Republic of the Congo",
+        "score": 18,
+        "gdp_ppp": 1919.82250200565
+      },
+      {
+        "iso": "DNK",
+        "name": "Denmark",
+        "score": 97,
+        "gdp_ppp": 83218.071525634
+      },
+      {
+        "iso": "DJI",
+        "name": "Djibouti",
+        "score": 24,
+        "gdp_ppp": 8451.96838146073
+      },
+      {
+        "iso": "DMA",
+        "name": "Dominica",
+        "score": 92,
+        "gdp_ppp": 22713.1288027433
+      },
+      {
+        "iso": "DOM",
+        "name": "Dominican Republic",
+        "score": 67,
+        "gdp_ppp": 28721.0964580217
+      },
+      {
+        "iso": "ECU",
+        "name": "Ecuador",
+        "score": 64,
+        "gdp_ppp": 16756.6539631307
+      },
+      {
+        "iso": "EGY",
+        "name": "Egypt",
+        "score": 18,
+        "gdp_ppp": 20204.0130500153
+      },
+      {
+        "iso": "SLV",
+        "name": "El Salvador",
+        "score": 42,
+        "gdp_ppp": 14101.1774819291
+      },
+      {
+        "iso": "GNQ",
+        "name": "Equatorial Guinea",
+        "score": 5,
+        "gdp_ppp": 16133.1056143137
+      },
+      {
+        "iso": "EST",
+        "name": "Estonia",
+        "score": 96,
+        "gdp_ppp": 52105.5093433416
+      },
+      {
+        "iso": "SWZ",
+        "name": "Eswatini",
+        "score": 17,
+        "gdp_ppp": 12529.2796629252
+      },
+      {
+        "iso": "ETH",
+        "name": "Ethiopia",
+        "score": 18,
+        "gdp_ppp": 3621.67487597821
+      },
+      {
+        "iso": "FJI",
+        "name": "Fiji",
+        "score": 72,
+        "gdp_ppp": 16337.5722970567
+      },
+      {
+        "iso": "FIN",
+        "name": "Finland",
+        "score": 100,
+        "gdp_ppp": 65884.4876972259
+      },
+      {
+        "iso": "FRA",
+        "name": "France",
+        "score": 89,
+        "gdp_ppp": 63975.353585864
+      },
+      {
+        "iso": "GAB",
+        "name": "Gabon",
+        "score": 25,
+        "gdp_ppp": 22218.341068445
+      },
+      {
+        "iso": "GEO",
+        "name": "Georgia",
+        "score": 51,
+        "gdp_ppp": 29414.3813424216
+      },
+      {
+        "iso": "DEU",
+        "name": "Germany",
+        "score": 95,
+        "gdp_ppp": 75406.6888111618
+      },
+      {
+        "iso": "GHA",
+        "name": "Ghana",
+        "score": 80,
+        "gdp_ppp": 8610.2796922986
+      },
+      {
+        "iso": "GRC",
+        "name": "Greece",
+        "score": 85,
+        "gdp_ppp": 45263.6498511586
+      },
+      {
+        "iso": "GRD",
+        "name": "Grenada",
+        "score": 89,
+        "gdp_ppp": 21345.9653408221
+      },
+      {
+        "iso": "GTM",
+        "name": "Guatemala",
+        "score": 48,
+        "gdp_ppp": 15197.0831415082
+      },
+      {
+        "iso": "GIN",
+        "name": "Guinea",
+        "score": 28,
+        "gdp_ppp": 4934.65125959855
+      },
+      {
+        "iso": "GNB",
+        "name": "Guinea-Bissau",
+        "score": 33,
+        "gdp_ppp": 3293.09532269486
+      },
+      {
+        "iso": "GUY",
+        "name": "Guyana",
+        "score": 74,
+        "gdp_ppp": 97899.0116180627
+      },
+      {
+        "iso": "HTI",
+        "name": "Haiti",
+        "score": 22,
+        "gdp_ppp": 3133.72347930529
+      },
+      {
+        "iso": "HND",
+        "name": "Honduras",
+        "score": 47,
+        "gdp_ppp": 7871.09129065536
+      },
+      {
+        "iso": "HUN",
+        "name": "Hungary",
+        "score": 65,
+        "gdp_ppp": 49837.6008411067
+      },
+      {
+        "iso": "ISL",
+        "name": "Iceland",
+        "score": 95,
+        "gdp_ppp": 83431.2131434311
+      },
+      {
+        "iso": "IND",
+        "name": "India",
+        "score": 62,
+        "gdp_ppp": 11747.9160436011
+      },
+      {
+        "iso": "IDN",
+        "name": "Indonesia",
+        "score": 56,
+        "gdp_ppp": 17659.7921291587
+      },
+      {
+        "iso": "IRN",
+        "name": "Iran",
+        "score": 10,
+        "gdp_ppp": 19699.2193549189
+      },
+      {
+        "iso": "IRQ",
+        "name": "Iraq",
+        "score": 31,
+        "gdp_ppp": 14266.7965348226
+      },
+      {
+        "iso": "IRL",
+        "name": "Ireland",
+        "score": 98,
+        "gdp_ppp": 155089.413131749
+      },
+      {
+        "iso": "ISR",
+        "name": "Israel",
+        "score": 73,
+        "gdp_ppp": 59716.9735387228
+      },
+      {
+        "iso": "ITA",
+        "name": "Italy",
+        "score": 87,
+        "gdp_ppp": 62802.5108384276
+      },
+      {
+        "iso": "JAM",
+        "name": "Jamaica",
+        "score": 81,
+        "gdp_ppp": 13291.253767787
+      },
+      {
+        "iso": "JPN",
+        "name": "Japan",
+        "score": 96,
+        "gdp_ppp": 55421.8797530311
+      },
+      {
+        "iso": "JOR",
+        "name": "Jordan",
+        "score": 34,
+        "gdp_ppp": 12631.6299394746
+      },
+      {
+        "iso": "KAZ",
+        "name": "Kazakhstan",
+        "score": 23,
+        "gdp_ppp": 44293.4839632441
+      },
+      {
+        "iso": "KEN",
+        "name": "Kenya",
+        "score": 49,
+        "gdp_ppp": 7015.93578839722
+      },
+      {
+        "iso": "KIR",
+        "name": "Kiribati",
+        "score": 89,
+        "gdp_ppp": 3936.61263730517
+      },
+      {
+        "iso": "XKX",
+        "name": "Kosovo",
+        "score": 61,
+        "gdp_ppp": 19263.3268800963
+      },
+      {
+        "iso": "KWT",
+        "name": "Kuwait",
+        "score": 30,
+        "gdp_ppp": 56467.7272075432
+      },
+      {
+        "iso": "KGZ",
+        "name": "Kyrgyzstan",
+        "score": 25,
+        "gdp_ppp": 9219.51443675205
+      },
+      {
+        "iso": "LAO",
+        "name": "Laos",
+        "score": 13,
+        "gdp_ppp": 10382.9990718948
+      },
+      {
+        "iso": "LVA",
+        "name": "Latvia",
+        "score": 89,
+        "gdp_ppp": 46136.689377286
+      },
+      {
+        "iso": "LSO",
+        "name": "Lesotho",
+        "score": 67,
+        "gdp_ppp": 3184.11725194709
+      },
+      {
+        "iso": "LBR",
+        "name": "Liberia",
+        "score": 65,
+        "gdp_ppp": 1981.09483342188
+      },
+      {
+        "iso": "LBY",
+        "name": "Libya",
+        "score": 10,
+        "gdp_ppp": 16521.3998152838
+      },
+      {
+        "iso": "LTU",
+        "name": "Lithuania",
+        "score": 90,
+        "gdp_ppp": 56837.8067003598
+      },
+      {
+        "iso": "LUX",
+        "name": "Luxembourg",
+        "score": 97,
+        "gdp_ppp": 156542.075847247
+      },
+      {
+        "iso": "MDG",
+        "name": "Madagascar",
+        "score": 50,
+        "gdp_ppp": 1952.48426903369
+      },
+      {
+        "iso": "MWI",
+        "name": "Malawi",
+        "score": 68,
+        "gdp_ppp": 1899.29166528127
+      },
+      {
+        "iso": "MYS",
+        "name": "Malaysia",
+        "score": 53,
+        "gdp_ppp": 41497.6746089548
+      },
+      {
+        "iso": "MDV",
+        "name": "Maldives",
+        "score": 41,
+        "gdp_ppp": 28554.8945669737
+      },
+      {
+        "iso": "MLI",
+        "name": "Mali",
+        "score": 21,
+        "gdp_ppp": 3502.76132351788
+      },
+      {
+        "iso": "MLT",
+        "name": "Malta",
+        "score": 88,
+        "gdp_ppp": 72210.3392223985
+      },
+      {
+        "iso": "MHL",
+        "name": "Marshall Islands",
+        "score": 93,
+        "gdp_ppp": 8964.32212870807
+      },
+      {
+        "iso": "MRT",
+        "name": "Mauritania",
+        "score": 38,
+        "gdp_ppp": 7675.51996658445
+      },
+      {
+        "iso": "MUS",
+        "name": "Mauritius",
+        "score": 87,
+        "gdp_ppp": 33666.64355884
+      },
+      {
+        "iso": "MEX",
+        "name": "Mexico",
+        "score": 58,
+        "gdp_ppp": 25868.4787520629
+      },
+      {
+        "iso": "FSM",
+        "name": "Micronesia",
+        "score": 92,
+        "gdp_ppp": 4604.39540764468
+      },
+      {
+        "iso": "MDA",
+        "name": "Moldova",
+        "score": 60,
+        "gdp_ppp": 19995.7590923995
+      },
+      {
+        "iso": "MNG",
+        "name": "Mongolia",
+        "score": 84,
+        "gdp_ppp": 20797.7652692242
+      },
+      {
+        "iso": "MNE",
+        "name": "Montenegro",
+        "score": 68,
+        "gdp_ppp": 35422.6449824931
+      },
+      {
+        "iso": "MAR",
+        "name": "Morocco",
+        "score": 37,
+        "gdp_ppp": 11111.7080078125
+      },
+      {
+        "iso": "MOZ",
+        "name": "Mozambique",
+        "score": 42,
+        "gdp_ppp": 1697.94109338132
+      },
+      {
+        "iso": "MMR",
+        "name": "Myanmar",
+        "score": 4,
+        "gdp_ppp": 6011.53492175516
+      },
+      {
+        "iso": "NAM",
+        "name": "Namibia",
+        "score": 73,
+        "gdp_ppp": 11985.7200318677
+      },
+      {
+        "iso": "NRU",
+        "name": "Nauru",
+        "score": 75,
+        "gdp_ppp": 14200.486778198
+      },
+      {
+        "iso": "NPL",
+        "name": "Nepal",
+        "score": 59,
+        "gdp_ppp": 6175.15897150244
+      },
+      {
+        "iso": "NLD",
+        "name": "Netherlands",
+        "score": 97,
+        "gdp_ppp": 87320.1477254029
+      },
+      {
+        "iso": "NZL",
+        "name": "New Zealand",
+        "score": 99,
+        "gdp_ppp": 57350.3627657521
+      },
+      {
+        "iso": "NIC",
+        "name": "Nicaragua",
+        "score": 14,
+        "gdp_ppp": 9283.92301511154
+      },
+      {
+        "iso": "NER",
+        "name": "Niger",
+        "score": 27,
+        "gdp_ppp": 2177.25014417163
+      },
+      {
+        "iso": "NGA",
+        "name": "Nigeria",
+        "score": 44,
+        "gdp_ppp": 9531.61073275049
+      },
+      {
+        "iso": "MKD",
+        "name": "North Macedonia",
+        "score": 67,
+        "gdp_ppp": 28028.5664230631
+      },
+      {
+        "iso": "NOR",
+        "name": "Norway",
+        "score": 99,
+        "gdp_ppp": 104043.666429243
+      },
+      {
+        "iso": "OMN",
+        "name": "Oman",
+        "score": 24,
+        "gdp_ppp": 42295.1761223734
+      },
+      {
+        "iso": "PAK",
+        "name": "Pakistan",
+        "score": 32,
+        "gdp_ppp": 6573.41613369925
+      },
+      {
+        "iso": "PLW",
+        "name": "Palau",
+        "score": 92,
+        "gdp_ppp": 23051.6787122681
+      },
+      {
+        "iso": "PAN",
+        "name": "Panama",
+        "score": 82,
+        "gdp_ppp": 43902.1632084954
+      },
+      {
+        "iso": "PNG",
+        "name": "Papua New Guinea",
+        "score": 61,
+        "gdp_ppp": 5214.768271628
+      },
+      {
+        "iso": "PRY",
+        "name": "Paraguay",
+        "score": 63,
+        "gdp_ppp": 20181.4242826808
+      },
+      {
+        "iso": "PER",
+        "name": "Peru",
+        "score": 66,
+        "gdp_ppp": 18816.1045522938
+      },
+      {
+        "iso": "PHL",
+        "name": "Philippines",
+        "score": 58,
+        "gdp_ppp": 12576.9867435109
+      },
+      {
+        "iso": "POL",
+        "name": "Poland",
+        "score": 82,
+        "gdp_ppp": 54262.4040405236
+      },
+      {
+        "iso": "PRT",
+        "name": "Portugal",
+        "score": 96,
+        "gdp_ppp": 53145.7317498942
+      },
+      {
+        "iso": "QAT",
+        "name": "Qatar",
+        "score": 25,
+        "gdp_ppp": 128882.934242572
+      },
+      {
+        "iso": "COG",
+        "name": "Republic of the Congo",
+        "score": 17,
+        "gdp_ppp": 7248.44439070757
+      },
+      {
+        "iso": "ROU",
+        "name": "Romania",
+        "score": 83,
+        "gdp_ppp": 50895.081617639
+      },
+      {
+        "iso": "RUS",
+        "name": "Russia",
+        "score": 12,
+        "gdp_ppp": 49568.140625
+      },
+      {
+        "iso": "RWA",
+        "name": "Rwanda",
+        "score": 21,
+        "gdp_ppp": 4164.436605809
+      },
+      {
+        "iso": "WSM",
+        "name": "Samoa",
+        "score": 84,
+        "gdp_ppp": 9318.95775945515
+      },
+      {
+        "iso": "SAU",
+        "name": "Saudi Arabia",
+        "score": 9,
+        "gdp_ppp": 73783.5613906833
+      },
+      {
+        "iso": "SEN",
+        "name": "Senegal",
+        "score": 70,
+        "gdp_ppp": 5463.21828561328
+      },
+      {
+        "iso": "SRB",
+        "name": "Serbia",
+        "score": 53,
+        "gdp_ppp": 33909.7605745332
+      },
+      {
+        "iso": "SYC",
+        "name": "Seychelles",
+        "score": 81,
+        "gdp_ppp": 35854.0281615068
+      },
+      {
+        "iso": "SLE",
+        "name": "Sierra Leone",
+        "score": 61,
+        "gdp_ppp": 3716.89410482498
+      },
+      {
+        "iso": "SGP",
+        "name": "Singapore",
+        "score": 48,
+        "gdp_ppp": 163353.990260152
+      },
+      {
+        "iso": "SVK",
+        "name": "Slovakia",
+        "score": 88,
+        "gdp_ppp": 49308.7048471448
+      },
+      {
+        "iso": "SVN",
+        "name": "Slovenia",
+        "score": 97,
+        "gdp_ppp": 59244.7106359661
+      },
+      {
+        "iso": "SLB",
+        "name": "Solomon Islands",
+        "score": 74,
+        "gdp_ppp": 2787.61656406214
+      },
+      {
+        "iso": "SOM",
+        "name": "Somalia",
+        "score": 8,
+        "gdp_ppp": 1642.77032278186
+      },
+      {
+        "iso": "ZAF",
+        "name": "South Africa",
+        "score": 81,
+        "gdp_ppp": 15905.6794419658
+      },
+      {
+        "iso": "KOR",
+        "name": "South Korea",
+        "score": 83,
+        "gdp_ppp": 63124.9152183625
+      },
+      {
+        "iso": "ESP",
+        "name": "Spain",
+        "score": 91,
+        "gdp_ppp": 59867.6944716701
+      },
+      {
+        "iso": "LKA",
+        "name": "Sri Lanka",
+        "score": 63,
+        "gdp_ppp": 17065.0298635432
+      },
+      {
+        "iso": "KNA",
+        "name": "St. Kitts and Nevis",
+        "score": 89,
+        "gdp_ppp": 36777.262691657
+      },
+      {
+        "iso": "LCA",
+        "name": "St. Lucia",
+        "score": 91,
+        "gdp_ppp": 28673.8437920214
+      },
+      {
+        "iso": "VCT",
+        "name": "St. Vincent and the Grenadines",
+        "score": 90,
+        "gdp_ppp": 22799.4005332261
+      },
+      {
+        "iso": "SDN",
+        "name": "Sudan",
+        "score": 1,
+        "gdp_ppp": 2192.27221679688
+      },
+      {
+        "iso": "SUR",
+        "name": "Suriname",
+        "score": 81,
+        "gdp_ppp": 22652.3952637959
+      },
+      {
+        "iso": "SWE",
+        "name": "Sweden",
+        "score": 99,
+        "gdp_ppp": 72528.8892631159
+      },
+      {
+        "iso": "CHE",
+        "name": "Switzerland",
+        "score": 96,
+        "gdp_ppp": 102513.347221899
+      },
+      {
+        "iso": "STP",
+        "name": "São Tomé and Príncipe",
+        "score": 84,
+        "gdp_ppp": 6388.47738664299
+      },
+      {
+        "iso": "TJK",
+        "name": "Tajikistan",
+        "score": 5,
+        "gdp_ppp": 5923.47183321348
+      },
+      {
+        "iso": "TZA",
+        "name": "Tanzania",
+        "score": 28,
+        "gdp_ppp": 4470.9541015625
+      },
+      {
+        "iso": "THA",
+        "name": "Thailand",
+        "score": 33,
+        "gdp_ppp": 26250.0723587304
+      },
+      {
+        "iso": "GMB",
+        "name": "The Gambia",
+        "score": 51,
+        "gdp_ppp": 3705.64184038599
+      },
+      {
+        "iso": "TLS",
+        "name": "Timor-Leste",
+        "score": 73,
+        "gdp_ppp": 4809.49016945191
+      },
+      {
+        "iso": "TGO",
+        "name": "Togo",
+        "score": 37,
+        "gdp_ppp": 4079.36376686718
+      },
+      {
+        "iso": "TON",
+        "name": "Tonga",
+        "score": 79,
+        "gdp_ppp": 8674.68048447494
+      },
+      {
+        "iso": "TTO",
+        "name": "Trinidad and Tobago",
+        "score": 83,
+        "gdp_ppp": 37121.2050020847
+      },
+      {
+        "iso": "TUN",
+        "name": "Tunisia",
+        "score": 42,
+        "gdp_ppp": 15233.4885842318
+      },
+      {
+        "iso": "TUR",
+        "name": "Turkey",
+        "score": 32,
+        "gdp_ppp": 45288.4750285273
+      },
+      {
+        "iso": "TKM",
+        "name": "Turkmenistan",
+        "score": 1,
+        "gdp_ppp": 22601.5518373128
+      },
+      {
+        "iso": "TUV",
+        "name": "Tuvalu",
+        "score": 93,
+        "gdp_ppp": 6759.27941373717
+      },
+      {
+        "iso": "UGA",
+        "name": "Uganda",
+        "score": 33,
+        "gdp_ppp": 3487.69797525182
+      },
+      {
+        "iso": "UKR",
+        "name": "Ukraine",
+        "score": 51,
+        "gdp_ppp": 18904.98046875
+      },
+      {
+        "iso": "GBR",
+        "name": "United Kingdom",
+        "score": 92,
+        "gdp_ppp": 64606.4955066338
+      },
+      {
+        "iso": "USA",
+        "name": "United States",
+        "score": 81,
+        "gdp_ppp": 90026.5163005744
+      },
+      {
+        "iso": "URY",
+        "name": "Uruguay",
+        "score": 97,
+        "gdp_ppp": 38314.8861221656
+      },
+      {
+        "iso": "UZB",
+        "name": "Uzbekistan",
+        "score": 12,
+        "gdp_ppp": 13601.2917473678
+      },
+      {
+        "iso": "VUT",
+        "name": "Vanuatu",
+        "score": 82,
+        "gdp_ppp": 4525.23645747645
+      },
+      {
+        "iso": "VNM",
+        "name": "Vietnam",
+        "score": 20,
+        "gdp_ppp": 18088.491587163
+      },
+      {
+        "iso": "ZMB",
+        "name": "Zambia",
+        "score": 53,
+        "gdp_ppp": 4379.26131013191
+      },
+      {
+        "iso": "ZWE",
+        "name": "Zimbabwe",
+        "score": 25,
+        "gdp_ppp": 6470.41613223905
+      }
+    ]
+  },
+  "explicit_name_aliases": {
+    "Democratic Republic of the Congo": "COD",
+    "Republic of the Congo": "COG",
+    "Micronesia": "FSM",
+    "Nauru": "NRU",
+    "São Tomé and Príncipe": "STP",
+    "The Bahamas": "BHS",
+    "The Gambia": "GMB",
+    "Turkey": "TUR"
+  }
+}
