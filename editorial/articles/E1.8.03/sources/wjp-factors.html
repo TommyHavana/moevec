@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <script>
+      // WJP's menu loads in the #embedMenu iframe below. If the menu URL
+      // doesn't reach the menu page (e.g. a relative "../wjp-index" on a deep
+      // page like /rule-of-law-index/country/2026/Albania/), the server
+      // answers with this app, which then loads again inside its own menu
+      // frame, and again inside that one. If this page finds itself in the
+      // menu frame, stop loading it and open the menu page instead.
+      ;(function () {
+        var frame = window.frameElement
+        if (!frame || frame.id !== "embedMenu") return
+        window.stop()
+        var menu = new URL("/wjp-index", location.origin)
+        var isThisApp =
+          menu.origin === location.origin &&
+          menu.pathname.indexOf("/rule-of-law-index/") === 0
+        if (!isThisApp) location.replace(menu.href)
+      })()
+    </script>
+    <link rel="icon" href="/rule-of-law-index/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#482D8B" />
+    <meta
+      data-react-helmet="true"
+      name="description"
+      content="Explore rule of law rankings for 143 countries in the WJP Rule of Law Index. The World Justice Project Rule of Law Index® 2026 is the latest report in an annual series measuring how the rule of law is experienced and perceived based on global household and expert surveys. The 2026 edition covers 143 countries and jurisdictions worldwide."
+    />
+    <link rel="apple-touch-icon" href="/rule-of-law-index/logo192.png" />
+    <link rel="manifest" href="/rule-of-law-index/manifest.json" />
+    <meta property="og:title" content="WJP Rule of Law Index" />
+    <meta property="og:description" content="Explore rule of law rankings for 143 countries in the WJP Rule of Law Index" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://worldjusticeproject.org/rule-of-law-index" />
+    <meta property="og:image" content="https://worldjusticeproject.org/rule-of-law-index/share_2026.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+
+    <meta name="twitter:title" content="WJP Rule of Law Index">
+    <meta name="twitter:description" content="Explore rule of law rankings for 143 countries in the WJP Rule of Law Index">
+    <meta name="twitter:image" content="https://worldjusticeproject.org/rule-of-law-index/share_2026.jpg">
+    <meta name="twitter:image:src" content="https://worldjusticeproject.org/rule-of-law-index/share_2026.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Lato and Arvo are served from this site (src/fonts/fonts.css). These are
+         the faces the home page headline and intro use; the intro has an
+         italic title, so its lines would rewrap if that face arrived late. -->
+    <link rel="preload" href="/rule-of-law-index/assets/lato-700-latin-D0hIvJyG.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/rule-of-law-index/assets/lato-400-latin-DXRmO6t1.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/rule-of-law-index/assets/lato-400-italic-latin-CBz-5j84.woff2" as="font" type="font/woff2" crossorigin>
+    <title data-react-helmet="true" >WJP Rule of Law Index</title>
+
+    <!-- GA4 property 379820911. Page views are sent by Nav on each route change. -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-76ZR193FFC', { send_page_view: false });
+
+      // Load the Google tag once the page has loaded, so it doesn't compete
+      // with the app while it starts. Anything sent before then (such as
+      // Nav's first page_view) waits in dataLayer and goes out when it loads.
+      window.addEventListener('load', function () {
+        var tag = document.createElement('script');
+        tag.async = true;
+        tag.src = 'https://www.googletagmanager.com/gtag/js?id=G-76ZR193FFC';
+        document.head.appendChild(tag);
+      });
+    </script>
+    <meta name="google-site-verification" content="_qHYZKLKyIrHAvwjspG5AuWU9hZo4MDHE7Eb1zXL3n0" />
+    <style>iframe{z-index:1;border:0;width:100%}.wjpAppContainer{isolation:isolate;margin:auto;display:grid}.wjpAppContainer>*{grid-area:1/1/-1/-1}#root{z-index:5;margin-top:72px;position:relative}#embedMenu.fullHeight{z-index:10000;height:100%}@media screen and (max-width:992px){#root{margin-top:90px}}@media print{#root{margin-top:0}#wjpAppContainer iframe{display:none}}</style>
+    <script type="module" crossorigin src="/rule-of-law-index/assets/index-CJ4ec3gK.js"></script>
+    <link rel="stylesheet" crossorigin href="/rule-of-law-index/assets/index-Bs4y_986.css">
+  </head>
+  <body>
+    <div class="wjpAppContainer">
+      <iframe title="navigation" id='embedMenu' src="/wjp-index"></iframe>
+      <div id="root"></div>
+    </div>
+    <script>
+      const menu = document.getElementById('embedMenu');
+
+      window.addEventListener('message', function(e) {
+        if (e.data === 'dropdownOpen') {
+          menu.classList.toggle('fullHeight', true);
+        } else if (e.data === 'dropdownClosed' || e.data === 'dropdownClosedViaTimeout') {
+          menu.classList.toggle('fullHeight', false);
+        } else if (e.data === 'toggleMobileMenu') {
+          menu.classList.toggle('fullHeight');
+        }
+      })
+    </script>
+  </body>
+</html>

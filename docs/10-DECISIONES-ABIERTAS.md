@@ -933,3 +933,23 @@ Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobad
 Siguiente **376–378 / E1.8.01–E1.8.03**, Educación y Valores → Justicia. Preparaciones incluidas en las 465 pendientes. E1.8.01: 0/3 imágenes locales; sin texto final, sin publicación; E1.8.02: 0/3 imágenes locales; sin texto final, sin publicación; E1.8.03: 0/3 imágenes locales; sin texto final, sin publicación. Después 379–381. Automatización activa, sin agotamiento comunicado.
 
 Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 376–378 · 30/10/2026
+
+378/840 terminadas, 1134 imágenes originales públicas, 0 en curso o borradores WordPress y 462 pendientes.
+
+376: Hayekcap6 frente a Rawlsselección1971 y AristótelesV, tesisMEE normativa y adaptaciones justificadas. 377: Aquino94,Locke6,Vitoria1539con límitescoloniales,Rothbard4–5,Kelsen resumen1966yHart620–621; no positivismo como obediencia incondicional. 378: WJP2026p32 valoresregionales redondeados0–1 y correlación económica, Fraserárea2con método distinto; no causación, puntuaciónCuba inventada o umbralesuniversalesdelcomunicado.
+
+Siguiente **379–381 / E1.8.04–E1.8.06**, Educación y Valores → Justicia. Preparaciones incluidas en las 462 pendientes. E1.8.04: 0/3 imágenes locales; sin texto final, sin publicación; E1.8.05: 0/3 imágenes locales; sin texto final, sin publicación; E1.8.06: 0/3 imágenes locales; sin texto final, sin publicación. Después 382–384. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 379–381 · 30/10/2026
+
+381/840 terminadas, 1143 imágenes originales públicas, 0 en curso o borradores WordPress y 459 pendientes.
+
+379: Código Civil español con ámbito expreso; B-READY diferencia etapas y la metodología de 2025 se identifica. Cinco cuestiones propuestas por MEE, sin contrato universal y con aviso obligatorio. 380: Cádiz de 1812 y México de 1824 (artículo 154 leído visualmente), Constitución española 71 y mexicana 61/111; 350 y 628 son escaños estructurales, sin censo nacional de aforados inventado. Disolución española del 6 de octubre de 2026 documentada. 381: el XLSX del CGPJ estima 9,2 meses para España en 2025; el informe europeo de 2026 presenta DT de 423 días con datos de 2024 y otro ámbito. CEPEJ define la fórmula teórica y Courts (2003) aporta una asociación, sin causalidad o predicción individual. Portada reencuadrada con image_gen, original conservado.
+
+Siguiente **382–384 / E1.8.07–E1.8.09**, Educación y Valores → Justicia. Preparaciones incluidas en las 459 pendientes. E1.8.07: 0/3 imágenes locales; sin texto final, sin publicación; E1.8.08: 0/3 imágenes locales; sin texto final, sin publicación; E1.8.09: 0/3 imágenes locales; sin texto final, sin publicación. Después 385–387. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.

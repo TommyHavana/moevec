@@ -2,27 +2,27 @@
 
 ## Estado actual
 
-**375/840 terminadas, 1125 imágenes originales públicas, 0 en curso o borradores WordPress y 465 pendientes**. Iniciativa 15/15; 25 tandas completas y tanda 25 completa.
+**381/840 terminadas, 1143 imágenes originales públicas, 0 en curso o borradores WordPress y 459 pendientes**. Justicia 6/15; 25 tandas completas y tanda 26 en curso.
 
 Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Desde 366: entradas 367–375, 27 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
+Desde 375: entradas 376–381, 18 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
 
-Una publicación y tres adjuntos por ID; categorías Educación y Valores y Iniciativa, etiquetas exactas. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales y variantes comprobados. Navegación y BreadcrumbList: Blog → área → subcategoría. Taxonomía: 122 nodos, siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva o posicionamiento.
+Una publicación y tres adjuntos por ID; categorías Educación y Valores y Justicia, etiquetas exactas. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales y variantes comprobados. Navegación y BreadcrumbList: Blog → área → subcategoría. Taxonomía: 122 nodos, siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva o posicionamiento.
 
 ## Revisión del último bloque
 
-373: GEM 2025 por sexo sin inferir crecimiento de TEA/EBO; Findex 2024 con brecha de ocho puntos de uso de crédito formal entre titulares de cuentas, sin rechazo causal; WBL 2026 distingue índices y percepciones. 374: artículo Azoulay 2020 y preprint 2018 diferenciados, media 45 entre el grupo de 1/1000 de mayor crecimiento estadounidense, sin edad óptima ni garantía individual. 375: plan original MEE de doce semanas, CSV público de doce filas y ocho columnas, sin macros o fórmulas; primera venta como objetivo posible, no plazo garantizado.
+379: Código Civil español con ámbito expreso; B-READY diferencia etapas y la metodología de 2025 se identifica. Cinco cuestiones propuestas por MEE, sin contrato universal y con aviso obligatorio. 380: Cádiz de 1812 y México de 1824 (artículo 154 leído visualmente), Constitución española 71 y mexicana 61/111; 350 y 628 son escaños estructurales, sin censo nacional de aforados inventado. Disolución española del 6 de octubre de 2026 documentada. 381: el XLSX del CGPJ estima 9,2 meses para España en 2025; el informe europeo de 2026 presenta DT de 423 días con datos de 2024 y otro ámbito. CEPEJ define la fórmula teórica y Courts (2003) aporta una asociación, sin causalidad o predicción individual. Portada reencuadrada con image_gen, original conservado.
 
 ## Continuación exacta
 
-Siguiente **376–378 / E1.8.01–E1.8.03**, Educación y Valores → Justicia, tanda 26/56. Briefs originales conservados; 0/3 imágenes por entrada, fuentes sin verificar y sin texto final o publicación. Incluidas en las 465 pendientes. Reanudar investigación y crear originales sin duplicar recursos. Después 379–381. Automatización activa; sin agotamiento comunicado.
+Siguiente **382–384 / E1.8.07–E1.8.09**, Educación y Valores → Justicia, tanda 26/56. Briefs originales conservados; 0/3 imágenes por entrada, fuentes sin verificar, sin texto final ni publicación. Incluidas en las 459 pendientes. Reanudar investigación y generar originales sin duplicar recursos. Después 385–387. Automatización activa; sin agotamiento comunicado.
 
 ## Copias y límites
 
-Respaldo VPS hasta 375: SQL completo y 67 archivos nuevos de Medios, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
+Respaldo VPS hasta 381: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
 
 ## Traspaso
 
@@ -43,6 +43,8 @@ Verificación: `npm run build` con sincronización y TypeScript correctos; PHP l
 Publicación: fuente privada sincronizada y subida, commit de producto `1d84a45`. Actualización de la exportación estática en el contenedor Nginx activo y de los dos archivos WordPress, tanto en la ruta operativa como en `/opt/mee/`. No se reconstruyeron imágenes Docker ni se reiniciaron servicios; un siguiente build del repositorio incluye los cambios. Respaldo previo local completo: `../mee-backups/MEE_Codex_2026-10-29_183813.zip` (7657 archivos, integridad comprobada). Copia previa de React y de los archivos WordPress en `/data/mee-backups/apoyo-20261029T184226/`, gzip comprobado. No se ha probado una restauración arrancada de esta copia.
 
 Siguiente paso de esta petición: concretar el medio de donación y sus datos oficiales para activar pago directo. La producción editorial mantiene su continuidad independiente; esta tarea no modifica sus conteos, artículos, imágenes ni taxonomía.
+
+
 
 
 
