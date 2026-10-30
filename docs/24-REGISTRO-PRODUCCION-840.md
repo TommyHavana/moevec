@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-30T05:31:56+00:00.
+Comprobado en WordPress: 2026-10-30T06:33:47+00:00.
 
-**357/840 terminadas · 0 en curso · 483 pendientes.**
+**366/840 terminadas · 0 en curso · 474 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -369,15 +369,15 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 355 | 24/56 · 10/15 | E1.4.10 | Libertad de expresión comercial: ¿tiene derecho a hablar una empresa? | terminada | 3/3 | [Leer](https://moevec.org/blog/libertad-expresion-comercial/) |
 | 356 | 24/56 · 11/15 | E1.4.11 | Venezuela: cierre de medios y control de la información (2007–hoy) | terminada | 3/3 | [Leer](https://moevec.org/blog/venezuela-cierre-medios/) |
 | 357 | 24/56 · 12/15 | E1.4.12 | Libertad de expresión en España: leyes que generan debate | terminada | 3/3 | [Leer](https://moevec.org/blog/libertad-expresion-espana-debate/) |
-| 358 | 24/56 · 13/15 | E1.4.13 | Desinformación: soluciones que no requieren un ministerio de la verdad | pendiente | 0/3 | — |
-| 359 | 24/56 · 14/15 | E1.4.14 | Periodistas independientes en América Latina: riesgos y herramientas | pendiente | 0/3 | — |
-| 360 | 24/56 · 15/15 | E1.4.15 | Guía de seguridad digital para expresarte con libertad | pendiente | 0/3 | — |
-| 361 | 25/56 · 1/15 | E1.6.01 | Iniciativa: capitalizarse a uno mismo antes de tener capital | pendiente | 0/3 | — |
-| 362 | 25/56 · 2/15 | E1.6.02 | La alerta empresarial: cómo se descubren oportunidades (Kirzner) | pendiente | 0/3 | — |
-| 363 | 25/56 · 3/15 | E1.6.03 | Iniciativa no es solo emprender: formarse, cambiar de empleo, proponer | pendiente | 0/3 | — |
-| 364 | 25/56 · 4/15 | E1.6.04 | El miedo a empezar: qué dice la psicología y qué dicen los datos | pendiente | 0/3 | — |
-| 365 | 25/56 · 5/15 | E1.6.05 | Aprender a aprender: la iniciativa más rentable | pendiente | 0/3 | — |
-| 366 | 25/56 · 6/15 | E1.6.06 | Emprender por necesidad o por oportunidad: dos caminos distintos | pendiente | 0/3 | — |
+| 358 | 24/56 · 13/15 | E1.4.13 | Desinformación: soluciones que no requieren un ministerio de la verdad | terminada | 3/3 | [Leer](https://moevec.org/blog/desinformacion-sin-ministerio-verdad/) |
+| 359 | 24/56 · 14/15 | E1.4.14 | Periodistas independientes en América Latina: riesgos y herramientas | terminada | 3/3 | [Leer](https://moevec.org/blog/periodistas-independientes-america-latina/) |
+| 360 | 24/56 · 15/15 | E1.4.15 | Guía de seguridad digital para expresarte con libertad | terminada | 3/3 | [Leer](https://moevec.org/blog/guia-seguridad-digital/) |
+| 361 | 25/56 · 1/15 | E1.6.01 | Iniciativa: capitalizarse a uno mismo antes de tener capital | terminada | 3/3 | [Leer](https://moevec.org/blog/iniciativa-capitalizarse-a-uno-mismo/) |
+| 362 | 25/56 · 2/15 | E1.6.02 | La alerta empresarial: cómo se descubren oportunidades (Kirzner) | terminada | 3/3 | [Leer](https://moevec.org/blog/alerta-empresarial-kirzner/) |
+| 363 | 25/56 · 3/15 | E1.6.03 | Iniciativa no es solo emprender: formarse, cambiar de empleo, proponer | terminada | 3/3 | [Leer](https://moevec.org/blog/iniciativa-no-es-solo-emprender/) |
+| 364 | 25/56 · 4/15 | E1.6.04 | El miedo a empezar: qué dice la psicología y qué dicen los datos | terminada | 3/3 | [Leer](https://moevec.org/blog/miedo-a-empezar/) |
+| 365 | 25/56 · 5/15 | E1.6.05 | Aprender a aprender: la iniciativa más rentable | terminada | 3/3 | [Leer](https://moevec.org/blog/aprender-a-aprender/) |
+| 366 | 25/56 · 6/15 | E1.6.06 | Emprender por necesidad o por oportunidad: dos caminos distintos | terminada | 3/3 | [Leer](https://moevec.org/blog/emprender-necesidad-oportunidad/) |
 | 367 | 25/56 · 7/15 | E1.6.07 | Destrucción creativa: por qué la innovación da miedo y aun así nos enriquece | pendiente | 0/3 | — |
 | 368 | 25/56 · 8/15 | E1.6.08 | El sesgo de supervivencia: lo que no te cuentan las historias de éxito | pendiente | 0/3 | — |
 | 369 | 25/56 · 9/15 | E1.6.09 | Iniciativa en entornos hostiles: lecciones del emprendimiento cubano | pendiente | 0/3 | — |

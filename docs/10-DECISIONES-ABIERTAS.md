@@ -873,3 +873,33 @@ Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobad
 Siguiente **358–360 / E1.4.13–E1.4.15**, Educación y Valores → Libertad de Expresión. Preparaciones incluidas en las 483 pendientes. E1.4.13: 0/3 imágenes locales; sin texto final, sin publicación; E1.4.14: 0/3 imágenes locales; sin texto final, sin publicación; E1.4.15: 0/3 imágenes locales; sin texto final, sin publicación. Después 361–363. Automatización activa, sin agotamiento comunicado.
 
 Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 358–360 · 30/10/2026
+
+360/840 terminadas, 1080 imágenes originales públicas, 0 en curso o borradores WordPress y 480 pendientes.
+
+358: POFMA distingue correcciones y retirada; el caso de Freedom House conserva su periodo. Se consultó la ficha de UNESCO y se delimitaron población, ventanas y métodos de los estudios sobre alfabetización y notas comunitarias. La corrección de PNAS de 2026 se refiere a intereses declarados. 359: los recuentos de CPJ y RSF conservan cortes distintos; CIPER explica su propia financiación. 360: contraseñas, doble factor, cifrado y VPN se presentan con sus límites; Access Now verifica elegibilidad. Sin garantías de seguridad ni revisión jurídica país por país.
+
+Siguiente **361–363 / E1.6.01–E1.6.03**, Educación y Valores → Iniciativa. Preparaciones incluidas en las 480 pendientes. E1.6.01: 2/3 imágenes locales; sin texto final, sin publicación; E1.6.02: 0/3 imágenes locales; sin texto final, sin publicación; E1.6.03: 0/3 imágenes locales; sin texto final, sin publicación. Después 364–366. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 361–363 · 30/10/2026
+
+363/840 terminadas, 1089 imágenes originales públicas, 0 en curso o borradores WordPress y 477 pendientes.
+
+361: Becker y Granovetter se leen en pasajes identificados; el plan de 30 días es una propuesta de MEE que reconoce recursos mínimos. 362: Kirzner distingue descubrimiento y búsqueda; Schumpeter se consulta en un extracto y Shane mediante la descripción de su editor. 363: el compromiso laboral de Gallup no mide iniciativa. WEF recoge expectativas; Atlanta Fed compara salarios nominales con una definición amplia de cambio laboral. No se infiere una subida causal por cambiar de empresa.
+
+Siguiente **364–366 / E1.6.04–E1.6.06**, Educación y Valores → Iniciativa. Preparaciones incluidas en las 477 pendientes. E1.6.04: 3/3 imágenes locales; sin texto final, sin publicación; E1.6.05: 1/3 imágenes locales; sin texto final, sin publicación; E1.6.06: 0/3 imágenes locales; sin texto final, sin publicación. Después 367–369. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 364–366 · 30/10/2026
+
+366/840 terminadas, 1098 imágenes originales públicas, 0 en curso o borradores WordPress y 474 pendientes.
+
+364: la teoría de las perspectivas no establece una proporción universal entre pérdidas y ganancias ni un diagnóstico. GEM conserva el denominador de adultos que perciben oportunidades. 365: recuperación y espaciado se presentan con tareas y plazos; OpenLearn distingue materiales descargables de actividades en línea y sus constancias no aportan créditos formales. 366: los motivos de GEM pueden coexistir. La tasa de informalidad de la OIT corresponde al agregado de 15 países en 2025; empleo y sector informal son conceptos diferentes. El ILD se cita como relato institucional histórico, sin prometer crecimiento o financiación.
+
+Siguiente **367–369 / E1.6.07–E1.6.09**, Educación y Valores → Iniciativa. Preparaciones incluidas en las 474 pendientes. E1.6.07: 0/3 imágenes locales; sin texto final, sin publicación; E1.6.08: 0/3 imágenes locales; sin texto final, sin publicación; E1.6.09: 0/3 imágenes locales; sin texto final, sin publicación. Después 370–372. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.

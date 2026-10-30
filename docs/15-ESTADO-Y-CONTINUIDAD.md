@@ -2,27 +2,27 @@
 
 ## Estado actual
 
-**357/840 terminadas, 1071 imágenes originales públicas, 0 en curso o borradores WordPress y 483 pendientes**. Libertad de Expresión 12/15; 23 tandas completas y tanda 24 en curso.
+**366/840 terminadas, 1098 imágenes originales públicas, 0 en curso o borradores WordPress y 474 pendientes**. Iniciativa 6/15; 24 tandas completas y tanda 25 en curso.
 
 Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Desde 348: entradas 349–357, 27 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
+Desde 357: entradas 358–366, 27 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
 
-Una publicación y tres adjuntos por ID; categorías Educación y Valores y Libertad de Expresión, etiquetas exactas. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales y variantes comprobados. Navegación y BreadcrumbList: Blog → área → subcategoría. Taxonomía: 122 nodos, siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva o posicionamiento.
+Una publicación y tres adjuntos por ID; categorías Educación y Valores y Iniciativa, etiquetas exactas. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales y variantes comprobados. Navegación y BreadcrumbList: Blog → área → subcategoría. Taxonomía: 122 nodos, siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva o posicionamiento.
 
 ## Revisión del último bloque
 
-355: Virginia Pharmacy1976 como precedente estadounidense sobre precios y receptores, Benham1972 leído en reproducción2013con datos1963y diseño observacional, sin ahorro universal. 356: Granier2015/restricción indirecta de RCTV2007, LeyResorte texto2010y VE sinFiltro6oct2026,143dominios/102sitios y45/71desbloqueos con unidades/ISP distintos, sin medirMEEo asumir permanencia. 357: Constitución20, LO4/2015yTC172/2020(noautorizadonulo), CódigoPenal578separado deSternTaulats2018, RSF29/180y75.42/FH91/100edición2026con métodos y periodos, sin equivalencia a tasas deexpresión permitida.
+364: la teoría de las perspectivas no establece una proporción universal entre pérdidas y ganancias ni un diagnóstico. GEM conserva el denominador de adultos que perciben oportunidades. 365: recuperación y espaciado se presentan con tareas y plazos; OpenLearn distingue materiales descargables de actividades en línea y sus constancias no aportan créditos formales. 366: los motivos de GEM pueden coexistir. La tasa de informalidad de la OIT corresponde al agregado de 15 países en 2025; empleo y sector informal son conceptos diferentes. El ILD se cita como relato institucional histórico, sin prometer crecimiento o financiación.
 
 ## Continuación exacta
 
-Siguiente **358–360 / E1.4.13–E1.4.15**, Educación y Valores → Libertad de Expresión. Briefs y pistas guardados; guías EFF compartidas en E1.4.15 pendientes de relectura; cada entrada tiene 0/3 imágenes, sin texto final ni publicación. Incluidas en las 483 pendientes. Reanudar lectura y crear originales, sin duplicar lo guardado. Después 361–363. Automatización activa; no se ha comunicado agotamiento de generación.
+Siguiente **367–369 / E1.6.07–E1.6.09**, Educación y Valores → Iniciativa. Briefs originales y pistas guardados; 0/3 imágenes por entrada, sin texto final, investigación verificada ni publicación. Incluidas en las 474 pendientes. Reanudar fuentes y crear originales, sin duplicar recursos. Después 370–372. Automatización activa; no se ha comunicado agotamiento de generación.
 
 ## Copias y límites
 
-Respaldo VPS hasta 357: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local incremental y fuente privada referenciadas al cierre. Espacio observado: unos 1,2 GiB libres; conservar la cadena de copias y evitar otro ZIP completo sin comprobar capacidad. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
+Respaldo VPS hasta 366: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
 
 ## Traspaso
 
@@ -43,6 +43,9 @@ Verificación: `npm run build` con sincronización y TypeScript correctos; PHP l
 Publicación: fuente privada sincronizada y subida, commit de producto `1d84a45`. Actualización de la exportación estática en el contenedor Nginx activo y de los dos archivos WordPress, tanto en la ruta operativa como en `/opt/mee/`. No se reconstruyeron imágenes Docker ni se reiniciaron servicios; un siguiente build del repositorio incluye los cambios. Respaldo previo local completo: `../mee-backups/MEE_Codex_2026-10-29_183813.zip` (7657 archivos, integridad comprobada). Copia previa de React y de los archivos WordPress en `/data/mee-backups/apoyo-20261029T184226/`, gzip comprobado. No se ha probado una restauración arrancada de esta copia.
 
 Siguiente paso de esta petición: concretar el medio de donación y sus datos oficiales para activar pago directo. La producción editorial mantiene su continuidad independiente; esta tarea no modifica sus conteos, artículos, imágenes ni taxonomía.
+
+
+
 
 
 
