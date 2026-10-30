@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-30T22:19:12+00:00.
+Comprobado en WordPress: 2026-10-30T22:32:38+00:00.
 
-**462/840 terminadas · 0 en curso · 378 pendientes.**
+**465/840 terminadas · 0 en curso · 375 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -474,9 +474,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 460 | 31/56 · 10/15 | E3.3.10 | Barreras de idioma: inglés, jerga y acceso al conocimiento económico | terminada | 3/3 | [Leer](https://moevec.org/blog/barreras-de-idioma/) |
 | 461 | 31/56 · 11/15 | E3.3.11 | Guía para leer MEE con pocos datos | terminada | 3/3 | [Leer](https://moevec.org/blog/leer-mee-con-pocos-datos/) |
 | 462 | 31/56 · 12/15 | E3.3.12 | Pódcast y audio: aprender economía mientras trabajas | terminada | 3/3 | [Leer](https://moevec.org/blog/podcast-aprender-economia/) |
-| 463 | 31/56 · 13/15 | E3.3.13 | Cómo organizar un grupo de lectura en tu barrio | pendiente | 0/3 | — |
-| 464 | 31/56 · 14/15 | E3.3.14 | Accesibilidad para personas mayores: tecnología sin miedo | pendiente | 0/3 | — |
-| 465 | 31/56 · 15/15 | E3.3.15 | Lista de comprobación de accesibilidad para emprendedores | pendiente | 0/3 | — |
+| 463 | 31/56 · 13/15 | E3.3.13 | Cómo organizar un grupo de lectura en tu barrio | terminada | 3/3 | [Leer](https://moevec.org/blog/grupo-de-lectura-barrio/) |
+| 464 | 31/56 · 14/15 | E3.3.14 | Accesibilidad para personas mayores: tecnología sin miedo | terminada | 3/3 | [Leer](https://moevec.org/blog/accesibilidad-personas-mayores/) |
+| 465 | 31/56 · 15/15 | E3.3.15 | Lista de comprobación de accesibilidad para emprendedores | terminada | 3/3 | [Leer](https://moevec.org/blog/checklist-accesibilidad-emprendedores/) |
 | 466 | 32/56 · 1/15 | E3.4.01 | Por qué en un intercambio libre ganan ambas partes | pendiente | 0/3 | — |
 | 467 | 32/56 · 2/15 | E3.4.02 | Ventaja comparativa: la idea más contraintuitiva de la economía | pendiente | 0/3 | — |
 | 468 | 32/56 · 3/15 | E3.4.03 | Precio justo: un debate de 800 años | pendiente | 0/3 | — |

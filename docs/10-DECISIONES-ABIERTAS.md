@@ -1223,3 +1223,13 @@ Idioma: Cervantes nota24/10/2026 distingue algún dominio de nativos; Amano2023 
 Siguiente **463–465 / E3.3.13–E3.3.15**, Comunidad → Accesibilidad. Preparaciones incluidas en las 378 pendientes. E3.3.13: 0/3 imágenes locales; sin texto final, sin publicación; E3.3.14: 0/3 imágenes locales; sin texto final, sin publicación; E3.3.15: 0/3 imágenes locales; sin texto final, sin publicación. Después 466–468. Automatización activa, sin agotamiento comunicado.
 
 Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 463–465 · 30/10/2026
+
+465/840 terminadas, 1395 imágenes originales públicas, 0 en curso o borradores WordPress y 375 pendientes.
+
+Grupo de lectura: propuesta propia de formato y materiales, permisos distintos de acceso gratuito; Dennett2013pp2–3 atribuye Rapoport según memoria, EFFplancontextual sin seguridad garantizada. Personas mayores: INE2025uso3meses,65–74porsexos85,5/85,4%, no75+ ni habilidades; Androiddependeversión, INCIBEtexto primarioweb con descargalocalHTMLinválido registrada. Negocios:20comprobacionespropias, W3CEasyChecks no certificación, WCAG2.2versión12/12/2024 y guía pública microempresasPDFpp6/14 leídas visualmente; sin instrucciones deobra ni exención legal. Nueve originales nuevos revisados.
+
+Siguiente **466–468 / E3.4.01–E3.4.03**, Comunidad → Intercambio Equitativo. Preparaciones incluidas en las 375 pendientes. E3.4.01: 0/3 imágenes locales; sin texto final, sin publicación; E3.4.02: 0/3 imágenes locales; sin texto final, sin publicación; E3.4.03: 0/3 imágenes locales; sin texto final, sin publicación. Después 469–471. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.

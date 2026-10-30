@@ -2,27 +2,27 @@
 
 ## Estado actual
 
-**462/840 terminadas, 1386 imágenes originales públicas, 0 en curso o borradores WordPress y 378 pendientes**. Accesibilidad 12/15; 30 tandas completas y tanda 31 en curso.
+**465/840 terminadas, 1395 imágenes originales públicas, 0 en curso o borradores WordPress y 375 pendientes**. Accesibilidad 15/15; 31 tandas completas y tanda 31 completa.
 
 Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Desde 453: entradas 454–462, 27 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
+Desde 453: entradas 454–465, 36 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
 
 Una publicación y tres adjuntos por ID; categorías Comunidad y Accesibilidad, etiquetas exactas. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales y variantes comprobados. Navegación y BreadcrumbList: Blog → área → subcategoría. Taxonomía: 122 nodos, siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva o posicionamiento.
 
 ## Revisión del último bloque
 
-Idioma: Cervantes nota24/10/2026 distingue algún dominio de nativos; Amano2023 encuesta ambiental2021 de908 participantes, no censo económico. Lectura: ChromeAndroid y SafariMac permiten preparar copias que deben comprobarse; FirefoxVistaLectura no garantiza ahorro ni offline. Audio: catálogos RNE, esRadio y ColectivoBurbuja con actividad deoctubre2026, sin escucha íntegra fingida; cálculo propio64kbit/s por20min igual9,6MB antes de sobrecarga. AudioMEE solo propuesta. Nueve originales nuevos inspeccionados.
+Grupo de lectura: propuesta propia de formato y materiales, permisos distintos de acceso gratuito; Dennett2013pp2–3 atribuye Rapoport según memoria, EFFplancontextual sin seguridad garantizada. Personas mayores: INE2025uso3meses,65–74porsexos85,5/85,4%, no75+ ni habilidades; Androiddependeversión, INCIBEtexto primarioweb con descargalocalHTMLinválido registrada. Negocios:20comprobacionespropias, W3CEasyChecks no certificación, WCAG2.2versión12/12/2024 y guía pública microempresasPDFpp6/14 leídas visualmente; sin instrucciones deobra ni exención legal. Nueve originales nuevos revisados.
 
 ## Continuación exacta
 
-Siguiente **463–465 / E3.3.13–E3.3.15**, Comunidad → Accesibilidad. Preparaciones incluidas en las 378 pendientes. E3.3.13: 0/3 imágenes locales; sin texto final, sin publicación; E3.3.14: 0/3 imágenes locales; sin texto final, sin publicación; E3.3.15: 0/3 imágenes locales; sin texto final, sin publicación. Después 466–468. Automatización activa, sin agotamiento comunicado.
+Siguiente **466–468 / E3.4.01–E3.4.03**, Comunidad → Intercambio Equitativo. Preparaciones incluidas en las 375 pendientes. E3.4.01: 0/3 imágenes locales; sin texto final, sin publicación; E3.4.02: 0/3 imágenes locales; sin texto final, sin publicación; E3.4.03: 0/3 imágenes locales; sin texto final, sin publicación. Después 469–471. Automatización activa, sin agotamiento comunicado.
 
 ## Copias y límites
 
-Respaldo VPS hasta 462: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
+Respaldo VPS hasta 465: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
 
 ## Traspaso
 
@@ -43,6 +43,7 @@ Verificación: `npm run build` con sincronización y TypeScript correctos; PHP l
 Publicación: fuente privada sincronizada y subida, commit de producto `1d84a45`. Actualización de la exportación estática en el contenedor Nginx activo y de los dos archivos WordPress, tanto en la ruta operativa como en `/opt/mee/`. No se reconstruyeron imágenes Docker ni se reiniciaron servicios; un siguiente build del repositorio incluye los cambios. Respaldo previo local completo: `../mee-backups/MEE_Codex_2026-10-29_183813.zip` (7657 archivos, integridad comprobada). Copia previa de React y de los archivos WordPress en `/data/mee-backups/apoyo-20261029T184226/`, gzip comprobado. No se ha probado una restauración arrancada de esta copia.
 
 Siguiente paso de esta petición: concretar el medio de donación y sus datos oficiales para activar pago directo. La producción editorial mantiene su continuidad independiente; esta tarea no modifica sus conteos, artículos, imágenes ni taxonomía.
+
 
 
 
