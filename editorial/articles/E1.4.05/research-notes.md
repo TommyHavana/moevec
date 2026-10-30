@@ -1,19 +1,20 @@
-# Reanudación · 350 · E1.4.05
+# Investigación y publicación · E1.4.05
 
-Brief original y manifiesto conservados. Categoría Educación y Valores → Libertad de Expresión.
+Consulta: 30/10/2026. Alcance específico; descargar una obra no implica lectura íntegra.
 
-0/3 imágenes, sin texto final ni publicación; incluida en pendientes de WordPress. Fuentes centrales y actualización deben revisarse antes de redactar.
+- [Tribunal Supremo de Estados Unidos, Brandenburg v. Ohio,395 U.S.444,9/6/1969](https://www.govinfo.gov/content/pkg/USREPORTS-395/pdf/USREPORTS-395-444.pdf): PDF14p, leída decisión per curiam impresas444–449/PDF1–6: anulación, defensa abstracta distinta de incitación dirigida a acción ilegal inminente y probable. Opiniones concurrentes separadas; no todas las categorías del derecho estadounidense ni regla universal.
+- [Consejo de Europa, Convenio Europeo de Derechos Humanos, artículo 10](https://www.echr.coe.int/documents/d/echr/convention_ENG): PDFoficial34p, leído art10PDF8: recibir/difundir y restricciones previstas por ley necesarias en sociedad democrática para fines enumerados. No artículo10de protocolos distintos que aparecen después; Consejo de Europa distinto de Unión Europea.
+- [Secretaría del TEDH, Key theme, Articles 8,13 and 14, Protection against hate speech,28/2/2026](https://ks.echr.coe.int/documents/d/echr-ks/protection-against-hate-speech): PDF8p, leídas1–4: umbral/contexto/grupo/contenido/alcance, obligaciones y ponderaciónart8/10, remedios civiles/penales segúncaso. Documento no vinculante, no sentencia individual ni derecho nacional uniforme.
+- [Herbert Marcuse, Repressive Tolerance,1965, reproducción de edición 1969 con posdata 1968](https://www.marcuse.org/herbert/publications/1960s/1965-repressive-tolerance-1969.pdf): PDF26p, leídas aperturaPDF5y ppimpresas108–109/PDF19, esta visualmente. Tolerancia partidista, desigualdad y exclusión de movimientos de derecha en versión propia del autor. HTMLoficial advierte transcripción no revisada y párrafos añadidos2015; contrastado scan. No obra íntegra leída ni postura neutral fingida.
 
-## Pistas de investigación, no conclusiones verificadas
+## Límites
 
-- [Brandenburg v.Ohio395U.S.444,1969,búsqueda primaria pendiente](https://www.supremecourt.gov/)
-- [TEDH,Convenio,art10,descarga y jurisprudencia pertinentes pendientes](https://www.echr.coe.int/)
-- [Marcuse,Repressive Tolerance,texto primario con posdata1968](https://www.marcuse.org/herbert/publications/1960s/1965-repressive-tolerance-fulltext.html)
+- No estándar estadounidense trasladado a España,Cuba u otra jurisdicción como ley universal.
+- No toda ofensa constituye delito ni toda expresión que no cumpla Brandenburg queda exenta de otras reglas.
+- No atribuir decisiones vinculantes a una síntesis no vinculante de Secretaría del TEDH.
+- No presentar a Marcuse como defensor solo de limitar violencia directa: propone una selección partidista explícita.
+- Dos escenarios propios hipotéticos, sin calificación penal individual ni promesas sobre resultado judicial.
 
-## Límites para la continuación
+## Resultado
 
-Brandenburg: estándar estadounidense de incitación a acción ilegal inminente y probable, no regla universal sobre toda expresión. Art10CEDH y límites TEDH requieren lectura contextualizada. Marcuse1965 edición1969 incorpora posdata1968; texto HTML advierte correcciones, cotejar scan al redactar. No toda crítica ofensiva es incitación.
-
-## Lectura parcial de esta continuación
-
-Página oficial Marcuse consultada parcialmente por búsqueda: presentación, crítica de tolerancia abstracta, protección de minorías y justificación política de intolerancia. La propia página advierte transcripción no comprobada y dos párrafos añadidos2015; edición1969 incluye posdata1968. Pendiente cotejar scan y jurisprudencia primaria antes de redactar.
+https://moevec.org/blog/discurso-de-odio-limites/ · 1270 palabras en WordPress. Tres imágenes propias, una publicación y tres adjuntos, sin duplicados.

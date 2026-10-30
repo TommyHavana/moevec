@@ -1,0 +1,3889 @@
+PAGE 1
+WHAT IS  
+THE STATE OF 
+FREE SPEECH
+ON AMERICAN CAMPUSES?
+2 0 2 7  C O L L E G E  F R E E  S P E E C H  R A N K I N G S
+
+
+PAGE 2
+2	 Foundation for Individual Rights and Expression
+2027 College Free Speech Rankings
+Contents
+Executive Summary	
+1
+	
+Key Findings	
+1
+Overview	
+2
+	
+How The Rankings Are Calculated	
+2
+	
+The Six Survey-Based Components	
+2
+2027 College Free Speech Rankings	
+4
+	
+The Best- And Worst-Ranked Schools For Freedom of Speech	
+7
+	
+Risers and Fallers	
+9
+	
+A Chilling Effect At Utah Valley University	
+11
+National Trends: A Chilling Climate for Campus Speech	
+15
+Conclusion: Reasons For Cautious Optimism 	
+19
+Topline Results	
+20
+2027 College Free Speech Results	
+24
+Appendix	
+33
+About Us	
+40
+	
+College Pulse	
+40
+	
+FIRE	
+40
+Acknowledgments and Suggested Citation	
+40
+
+
+PAGE 3
+1	
+Foundation for Individual Rights and Expression
+2027 College Free Speech Rankings
+Executive Summary
+1 This year, 262 colleges and universities were surveyed. One school, Regis University, was given a Warning rating for its speech policies and 
+was therefore excluded from the rankings. As a result, the 2027 College Free Speech Rankings includes 261 colleges and universities.
+For the seventh year in a row, the Foundation for Individual 
+Rights and Expression (FIRE), a nonprofit organization 
+committed to defending and sustaining the individual 
+rights of all Americans to free speech and free thought, 
+and College Pulse surveyed college undergraduates about 
+their perceptions and experiences regarding free speech 
+on their campuses.
+This year’s survey includes 62,997 student respondents 
+from 2621 colleges and universities. Students enrolled in 
+four-year degree programs were surveyed via the College 
+Pulse mobile app and web portal from Jan. 2 through 
+June 3, 2026.
+Overall, the findings suggest some improvement in cam-
+pus free speech climates, while also showing that many 
+students still report difficulty discussing controversial 
+topics and remain skeptical of allowing controversial 
+speakers on campus.
+The College Free Speech Rankings are available online 
+and are presented in an interactive dashboard that allows 
+for easy comparison between institutions. The full pre-
+registered methodology is available on the Open Science 
+Framework website.
+KEY FINDINGS:
+ 
+■
+The University of Chicago ranks first for freedom of 
+speech for the third time in seven years. Claremont 
+McKenna College, last year’s top-ranked school, 
+ranks second, followed by the Georgia Institute of 
+Technology, Michigan Technological University, and 
+Vanderbilt University. 
+ 
+■
+New York University ranks last. The University 
+of Washington, Texas State University,  
+Northeastern University, and Rutgers  
+University–New Brunswick round out the  
+bottom five. 
+ 
+ 
+■
+This year, the average overall score (61.36) is 
+the highest recorded in seven years, though  
+it still corresponds to a D- on the report’s  
+grading scale. Overall, 121 schools still receive 
+an F, while just 24 receive a C or better. 
+ 
+■
+The University of California, Davis had the  
+largest year-over-year increase in its overall 
+score and now ranks 24, compared with  
+252 last year. Other schools with notable score  
+increases include Harvard University, Barnard 
+College, and Columbia University. 
+ 
+■
+In contrast, Texas State University had the  
+largest year-over-year decrease in its overall 
+score and now ranks 259, down from 112th last 
+year. Other schools with considerable score 
+decreases include Texas A&M University, the 
+University of Arkansas, Utah Valley University, 
+New York University, and Clemson University. 
+ 
+■
+Half of students surveyed said that the Israeli- 
+Palestinian conflict was difficult to discuss openly 
+and honestly on campus, down from 53% last year. 
+Notable portions of students also identified Donald 
+Trump (46%), Charlie Kirk (44%), abortion (43%), 
+immigration (38%), and transgender rights (38%) 
+as difficult topics to discuss. 
+ 
+■
+The percentage of students who said it was  
+acceptable to shout down a speaker, block  
+entry to a campus speech, or use violence to 
+stop a campus speech declined slightly from 
+last year’s record highs. 
+ 
+■
+For the second year in a row, a majority of  
+students opposed allowing each of the six  
+controversial speakers included in the survey  
+— three conservative and three liberal — to 
+speak on campus.
+
+
+PAGE 4
+2	 Foundation for Individual Rights and Expression
+2027 College Free Speech Rankings
+Overview
+2 The following R packages were used to calculate the 2027 College Free Speech Rankings: Johnson, J.D. (2023). pollster: Calculate Crosstab 
+and Topline Tables of Weighted Survey Data. R package version 0.1.6. The Comprehensive R Archive Network was used to produce topline  
+results and demographic crosstabs; Larmarange, J. (2025). labelled: Manipulating Labelled Data. R package version 2.14. 1.9000. https://
+github.com/larmarange/labelled, was used to import variable and value labels into the data file for the survey items; Lumley, T. (2024).  
+survey: analysis of complex survey samples. R package version 4.4-2. The Comprehensive R Archive Network was used to calculate the 
+survey components of the College Free Speech Rankings, and each school’s overall score; Wickham et al. (2019). Welcome to the tidyverse. 
+Journal of Open Source Software, 4(43), 1686, doi.org/10.21105/joss.01686, was used to clean and subset data for additional analyses. 
+In 2020, in collaboration with College Pulse and Real-
+ClearEducation, the Foundation for Individual Rights and 
+Expression (FIRE) launched a first-of-its-kind tool to help 
+high school students and their parents identify which 
+colleges promote and protect the free exchange of ideas: 
+the College Free Speech Rankings. Over the past seven 
+years, the annual rankings survey has captured the voices 
+of almost 350,000 students — and over 60,000 this year 
+alone. Whether you’re a prospective student sizing up your 
+options, a professor curious about classroom openness, 
+or an administrator charting a path forward, FIRE’s 2027 
+College Free Speech Rankings offer a data-driven look at 
+where campus free speech is flourishing — and where it 
+is failing.
+As in previous years, the College Free Speech Rankings 
+dashboard offers a unique tool to compare schools’ rank-
+ings and survey responses and also explore other factors 
+— such as cost and proximity to home.
+This report begins by presenting this year’s rankings, high-
+lighting the top-performing schools and detailing why 
+schools near the bottom perform poorly.2 It then briefly 
+discusses schools whose rankings improved or declined 
+significantly over the past year before turning to an analysis 
+of national trends that have emerged among undergraduate 
+students over the past seven years.
+HOW THE RANKINGS ARE CALCULATED
+Each school’s overall score is the sum of 12 components. 
+Six measure student perceptions, three assess campus 
+speech policies, and three evaluate how schools respond 
+to speech controversies. Higher scores indicate a better 
+climate for free speech and expression.
+ 
+ THE SIX SURVEY-BASED COMPONENTS ARE:
+ 
+■
+“Comfort Expressing Ideas” measures how com-
+fortable students are expressing controversial 
+views in five campus settings. 
+ 
+■
+“Self-Censorship” measures how often students 
+withhold their views in conversations with 
+students, professors, and administrators, and 
+during classroom discussions. 
+ 
+■
+“Disruptive Conduct” measures students’  
+acceptance of shouting down speakers,  
+blocking access to events, and using violence  
+to stop campus speech. 
+ 
+■
+“Administrative Support” measures whether 
+students believe administrators clearly protect 
+free speech and would defend a speaker during 
+a controversy. 
+ 
+■
+“Openness” measures how many of 22 social 
+and political topics students identify as difficult 
+to discuss openly and honestly. 
+ 
+■
+“Political Tolerance” measures students’ will-
+ingness to allow six controversial speakers on 
+campus — three offensive to liberals and three 
+to conservatives. The score rewards overall tol-
+erance and tolerance across ideological lines. 
+The three policy components are the Chicago 
+Statement, which recognizes an explicit commitment to 
+free expression; Institutional Neutrality, which recognizes 
+a commitment to avoid taking positions on social and 
+political issues unrelated to a university’s mission; and 
+Spotlight Rating, which evaluates written policies regulating 
+student expression.
+
+
+PAGE 5
+3	 Foundation for Individual Rights and Expression
+2027 College Free Speech Rankings
+The remaining components — Campus Deplatform-
+ings, Scholars Under Fire, and Students Under Fire — 
+account for institutional responses to speech controver-
+sies. Schools may receive bonuses for clearly defending 
+free expression or penalties when administrators restrict 
+speech. These bonuses and penalties decrease over time.
+The full preregistered methodology explains the scoring 
+process in greater detail.3
+3 FIRE Research, Stevens, S., & Honeycutt, N. (March 2, 2026). FIRE’s 2027 College Free Speech Rankings. Available online:  
+https://osf.io/tfz9u/overview. 
+
+
+PAGE 6
+4	 Foundation for Individual Rights and Expression
+2027 College Free Speech Rankings
+2027 College Free Speech Rankings
+4 Associated Press (Sept. 10, 2025). Conservative activist Charlie Kirk assassinated at Utah university. Available online:  
+https://apnews.com/article/charlie-kirk-conservative-activist-shot-546165a8151104e0938a5e085be1e8bd.
+5 Stevens, S.T. (2025). After the earthquake: How the assassination of Charlie Kirk is reshaping campus speech nationwide. The Foundation for Individual 
+Rights and Expression. Available online: https://www.thefire.org/research-learn/how-assassination-charlie-kirk-reshaping-campus-speech-nationwide.
+6 Stevens, S. & Lenthall-Cleary, C. (Sept. 30, 2025). The government is now the leading threat to faculty expression: 77% of all sanctions efforts involve govern-
+ment actors. Available online: https://expression.fire.org/p/the-government-is-now-the-leading.
+7 Eyes on Education: What is your child learning in school? Available online: https://www.in.gov/attorneygeneral/education-liberty/.
+8 McArdle, R. (Sept. 16, 2025). Multiple University of Alabama professors mocked Charlie Kirk after his assassination. Available online: https://yellowham-
+mernews.com/multiple-university-of-alabama-professors-mocked-charlie-kirk-after-his-assassination/
+9 Davis, E., Escott, G., & Murphy, C. (Sept. 15, 2025). Clemson U. touted free speech after 3 employees posted about Charlie Kirk. Then it reversed course. 
+Available online: https://www.chronicle.com/article/clemson-u-touted-free-speech-after-3-employees-posted-about-charlie-kirk-then-it-reversed-
+course?sra=true.
+10 Local 3 News Staff (Sept. 16, 2025). University of Tennessee fires professor who was ‘endorsing violence and murder’. Available online: https://www.local-
+3news.com/local-news/university-of-tennessee-fires-professor-who-was-endorsing-violence-and-murder/article_ac9a361b-eb98-43b3-bb47-67511642b8d8.
+html.
+11 Parks, K. (Oct. 4, 2025). Kansas professor put on leave after calling White men ‘dangerous animals’ in the wake of Charlie Kirk’s murder: Fort Hays State 
+University assistant psychology professor said her posts were deliberately misinterpreted. Available online: https://www.foxnews.com/media/kansas-profes-
+sor-put-leave-after-calling-white-men-dangerous-animals-wake-charlie-kirk-murder; Rutt, S. (Oct. 4, 2025). Professor is put on leave for Facebook post about 
+‘dangerous white men’ in the wake of Charlie Kirk’s murder. Available online: https://www.dailymail.com/news/article-15162751/nuchelle-chance-kansas-pro-
+fessor-leave-charlie-kirk.html. 
+The release of the 2027 College Free Speech Rankings 
+bookends a jarring year for free expression on campus. 
+One day after the release of last year’s rankings, conser-
+vative activist and Turning Point USA founder Charlie Kirk 
+was assassinated at Utah Valley University, doing what he 
+often did: engaging in open political debate.4 His assas-
+sination had a profound impact on students nationwide. 
+A FIRE survey of 2,028 college undergraduates conducted 
+last October found that half of the students surveyed felt 
+less comfortable attending or hosting controversial public 
+events on their campus than before Kirk’s assassination. 
+About half also said they were less comfortable expressing 
+their views on controversial topics in class, in common 
+campus spaces, and on social media. One in five even said 
+they were less comfortable attending class in person.5
+Charlie Kirk’s assassination also prompted increased pres-
+sure from public officials to sanction faculty speech, primar-
+ily in response to social media comments about his death.6 
+For example, Indiana Attorney General Todd Rokita 
+launched an Eyes on Education platform, which is “de-
+signed to give parents, students, and educators a way to 
+share examples of what is being taught and promoted in 
+schools and to provide transparency for parents and keep 
+Hoosiers informed.”7 Multiple submissions to this platform 
+concern comments made by college and university faculty 
+about Kirk’s political views and his assassination. Alabama’s 
+U.S. Sen. Tommy Tuberville took a more direct approach, 
+demanding that the Huntsville and Tuscaloosa campuses of 
+the University of Alabama fire multiple professors for their 
+comments about Kirk’s death on social media.8
+Elsewhere, Clemson University condemned the expression 
+of two professors — Joshua Bregy and Melvin Earl Villaver 
+Jr. — who made controversial social media posts in re-
+sponse to Kirk’s death, but initially resisted punishing them 
+while emphasizing its commitment to the First Amendment. 
+After U.S. Rep. Nancy Mace and South Carolina Attorney 
+General Alan Wilson amplified public backlash, Clemson 
+reversed course and decided to terminate both profes-
+sors.9 Similarly, the University of Tennessee capitulated 
+to demands from state and federal lawmakers to fire pro-
+fessor Tamar Shirinian because of a social media post she 
+made following Kirk’s assassination.10 While at Fort Hays 
+State University, professor Nuchelle Chance was placed 
+on administrative leave after the Kansas Republican Party 
+condemned her social media comments and demanded 
+that the university terminate her.11
+Other on-campus censorship efforts focused on a 
+different target: Turning Point USA, the organization 
+Charlie Kirk founded and led. These efforts came primarily 
+from student governments. Attempts to establish TPUSA 
+
+
+PAGE 7
+5	 Foundation for Individual Rights and Expression
+2027 College Free Speech Rankings
+chapters at Brown University,12 Duquesne University,13 Fort 
+Lewis College,14 Point Loma Nazarene University,15 the 
+University of Tennessee in Chattanooga,16 and Valparaiso 
+University17 were all rejected by student governments on 
+those campuses. 
+Other campus actors also imposed obstacles on TPUSA-re-
+lated activity. At the University of Maryland, College Park, 
+campus police refused to approve a TPUSA event featuring 
+The Daily Wire’s senior editor Cabot Phillips unless the 
+organization paid for four hours of security, despite no 
+such requirement for similar past events.18 At Concordia 
+University in Wisconsin, an administrator pressured stu-
+dents attempting to establish a TPUSA chapter on cam-
+pus to denounce the national organization’s “Professor 
+Watchlist” in the group’s charter as a condition for being 
+recognized as a student organization.19 At Manchester 
+Community College, administrators required a student 
+affiliated with the campus TPUSA chapter to relocate his 
+tabling display to a “free speech zone” because of its 
+political content.20 At Barry University, administrators 
+denied the recognition of a campus TPUSA chapter but 
+later overturned the decision under pressure from the 
+Florida attorney general.21
+12 Marcus, B. (March 20, 2026). Brown rejects Turning Point USA chapter: is three conservative clubs too many? Available online:  
+https://www.brownspectator.com/p/brown-rejects-turning-point-usa-chapter. 
+13 Mantush, L. (Nov. 20, 2025). On-campus chapter of Turning Point USA denied by SGA. Available online: https://duquesneduke.org/on-
+campus-chapter-of-turning-point-usa-denied-by-sga/news/.
+14 Sison, G. (Nov. 11, 2025). Fort Lewis TPUSA wins recognition after initial rejection by student government. Available online:  
+https://www.thecollegefix.com/fort-lewis-tpusa-wins-recognition-after-initial-rejection-by-student-govt/
+15 Palombo, O. (Nov. 12, 2025). California university students’ third attempt to form TPUSA chapter denied: Point Loma Nazarene Univer-
+sity cites concerns over Professor Watchlist and faith policies. Available online: https://www.foxnews.com/us/california-university-stu-
+dents-third-attempt-form-tpusa-chapter-denied.
+16 Talley, S. (Oct. 10, 2025). Student government association votes against Turning Point USA chapter at UTC. Available online: https://
+newschannel9.com/news/local/student-government-association-declines-to-register-turning-point-usa-chapter-at-utc.
+17 Charron, C. (Feb. 20, 2026). Indiana college steps in after Turning Point chapter denied. Available online: https://www.indystar.com/story/
+news/education/2026/02/20/a-turning-point-usa-chapter-was-denied-at-valparaiso-is-that-legal/88756968007/.
+18 Wason, S. (Oct. 21, 2025). Turning Point USA chapter says UMD event security fee is unconstitutional. Available online: https://dbknews.
+com/2025/10/21/turning-point-umd-event-security-fee-unconstitutional/; See also FIRE’s Oct. 17, 2025 letter to the University of Maryland: 
+https://www.fire.org/research-learn/fire-letter-university-maryland-october-17-2025, and the University of Maryland’s Oct. 20, 2025  
+response: https://www.fire.org/research-learn/university-maryland-response-fire-october-20-2025.
+19 Kraemer, S. (October 2, 2025). Concordia student secures Turning Point USA chapter approval after viral post. Available online: https://
+www.fox6now.com/news/concordia-student-secures-turning-point-usa-chapter-approval.
+20 Fisher, D. (March 19, 2026). MCC under fire after student told to relocate TPUSA table. Available online: https://nhjournal.com/mcc-un-
+der-fire-after-student-told-to-relocate-tpusa-table/.
+21 Palmer, K. (April 10, 2026). Florida AG demands law school allow Turning Point chapter. Available online: https://www.insidehighered.
+com/news/quick-takes/2026/04/10/florida-ag-demands-law-school-allow-turning-point-chapter. 
+22 Schwartz, N. (Jan. 23, 2025). Trump signs executive order targeting DEI policies at colleges: The directive escalates the crusade against 
+diversity, equity and inclusion programs on campuses to the federal policy level. Available online: https://www.highereddive.com/news/
+trump-executive-order-diversity-equity-inclusion-colleges/738052/.
+23 Chronicle Staff. (2026). DEI Legislation Tracker: Explore where college diversity, equity, and inclusion efforts are under attack. Available 
+online: https://www.chronicle.com/article/here-are-the-states-where-lawmakers-are-seeking-to-ban-colleges-dei-efforts.
+All of these incidents and more occurred after Charlie Kirk’s 
+assassination, and they help illustrate why student per-
+ceptions of openness, tolerance for controversial speak-
+ers, and confidence in administrative support for speech 
+remain central to assessing campus free expression. They 
+also unfolded amid the ongoing efforts of the Trump ad-
+ministration to eliminate diversity, equity, and inclusion 
+programs in higher education,22 as well as attempts in 
+a number of states to influence the higher education 
+curriculum through laws regulating the teaching of 
+“divisive topics.”23
+Against this backdrop, FIRE releases its 2027 College Free 
+Speech Rankings. Despite these conditions, the report 
+contains some positive developments. 
+ 
+■
+This year, the average overall score (61.36) is the 
+highest recorded in seven years, though it still 
+corresponds to a D- on the report’s grading scale.  
+ 
+■
+Overall, 121 schools receive an F, while just 24 
+receive a C or better. But this is an improve-
+ment compared to last year, when 166 schools 
+received an F and just 11 received a C or better. 
+
+
+PAGE 8
+6	 Foundation for Individual Rights and Expression
+2027 College Free Speech Rankings
+ 
+■
+Some schools, including the University of  
+California, Davis, Harvard University, Columbia 
+University, and Barnard College, considerably 
+improved their overall scores and rankings. 
+Still, the average score corresponds to a D- on the report’s 
+grading scale; a majority of students opposed allowing 
+each of the six controversial speakers asked about in the 
+survey — three conservative and three liberal — to speak 
+on campus; and more than two-thirds of students said 
+it was acceptable to shout down a speaker on campus. 
+In calendar year 2025, FIRE recorded a record number of 
+campus speech controversies — including deplatforming 
+attempts and attempts to sanction scholars and students 
+for their expression.24 These included a record number 
+of event disruptions and attempted disruptions,25 and 
+the termination of at least 20 professors for their social 
+media posts commenting on Charlie Kirk’s assassination.26 
+24 Dougherty, L. (Dec. 16, 2025). A deep freeze hits campus: 2025 marks the coldest year yet for student speech. Available online:  
+https://expression.fire.org/p/a-deep-freeze-hits-campus; Stevens, S. (Jan. 6, 2026). Faculty censorship hits record high in 2025. Available 
+online: https://expression.fire.org/p/faculty-censorship-hits-record-high; Stevens, S. (March 26, 2026). Campus cancellations approach 
+record high. Available online: https://expression.fire.org/p/campus-cancellations-approach-record; See also FIRE’s Campus Deplatforming 
+Database: https://www.fire.org/research-learn/campus-deplatforming-database?orderdir=desc&orderby=year&range=10;  
+FIRE’s Scholars Under Fire database: https://www.fire.org/research-learn/scholars-under-fire?orderdir=desc&orderby=year&range=10; and,  
+FIRE’s Students Under Fire database: https://www.fire.org/research-learn/students-under-fire?orderdir=desc&orderby=year&range=10.
+25 See FIRE’s Campus Deplatforming Database: https://www.fire.org/research-learn/campus-deplatforming-database?orderdir=desc&order-
+by=year&range=10.
+26 Nayyer, E. (Jan. 27, 2026). How backlash over George Floyd and Charlie Kirk’s deaths has reshaped campus speech. Available online: 
+https://expression.fire.org/p/how-backlash-over-george-floyd-and.
+
+
+PAGE 9
+7	 Foundation for Individual Rights and Expression
+2027 College Free Speech Rankings
+THE BEST AND WORST-RANKED  
+SCHOOLS FOR FREEDOM OF SPEECH
+For the third time in seven years, the University of Chicago 
+is the top-ranked school for free speech, with an overall 
+score of 81.42 and a speech climate grade of B-. Claremont 
+McKenna College (80.13), last year’s top-ranked school, is 
+ranked second. The Georgia Institute of Technology (78.98), 
+Michigan Technological University (78.72), and Vanderbilt 
+University (77.09) round out the top five. Like UChicago, 
+CMC has a speech climate grade of B-, while the rest of 
+the schools ranked in the top five have a C+.
+At the other end of the spectrum, New York University 
+ranks last, with an overall score of 44.97. This comes 
+after finishing as the third-worst school last year. The 
+University of Washington (47.50), Texas State University 
+(47.82), Northeastern University (49.78), and Rutgers 
+University (49.91) round out the bottom five. The University 
+of Washington and Northeastern were both ranked in the 
+bottom five last year as well. All of these schools receive 
+a failing grade of F for their speech climate. 
+The contrasts between the best and worst schools 
+are stark. 
+The average overall score of schools in the top five is 79.27, 
+compared with an average of 47.99 among the bottom five 
+schools — a difference of almost five standard deviations. 
+Furthermore, the average ranking across the different 
+survey-based components among the top five was 47 
+— including an average ranking of 12 on “Administrative 
+Support” and 16 on “Political Tolerance.” The lowest average 
+ranking among these schools on any of the survey-based 
+components was 79 on “Disruptive Conduct.” 
+Things are considerably different at schools in the bottom 
+five, whose average ranking on the survey-based compo-
+nents is 178 — including 210 on “Administrative Support” 
+and 211 on “Disruptive Conduct.” The only survey-based 
+component on which schools in the bottom five rank above 
+the median is “Openness,” with an average ranking of 101.
+Mean Scores For Survey Based Components Of Top 5 Schools vs. Bottom 5
+Schools
+Bottom ﬁve schools
+Top ﬁve schools
+5
+10
+15
+20
+Disruptive
+Conduct
+Self-Censorship
+Administrative
+Support
+Comfort
+Expressing Ideas
+Political
+Tolerance
+Openness
+(Max. value: 20)
+(Max. value: 20)
+(Max. value: 15)
+(Max. value: 15)
+(Max. value: 20)
+(Max. value: 10)
+Chart: Emily Nayyer• Source: FIRE/College Pulse
+
+
+PAGE 10
+8	 Foundation for Individual Rights and Expression
+2027 College Free Speech Rankings
+The story is similar when comparing the top five and 
+bottom five on the behavioral metrics of the rankings. 
+All of the top five schools have a “green light” rating for 
+their speech policies27 and have endorsed the Chicago 
+Statement issued in 2015.28 Four of these five schools — 
+Michigan Tech being the exception — have also adopted 
+a commitment to institutional neutrality.29 Additionally, 
+none of them incurred any penalties for speech contro-
+versies on their campuses.
+In contrast, the bottom five schools all lost points due to 
+their speech policies and the outcomes of speech con-
+troversies that occurred on their campuses. None of the 
+schools have endorsed the Chicago Statement or adopted 
+a stance of institutional neutrality. 
+Northeastern’s speech policies earn a “red light” rating.30 
+The remaining schools in the bottom five all have “yellow 
+light” ratings.31 Worse, these schools collectively lost 41 
+points due to the outcomes of different speech contro-
+versies on their campuses.32
+The University of Chicago and Claremont McKenna College 
+earned the two highest scores ever: 81.42 and 80.13, re-
+spectively. This is encouraging, but those scores are also 
+equivalent to a grade of B-. The average score among the 
+top five schools is a C+ (79.27), or slightly “above average.” 
+So, even the best schools for free speech have plenty of 
+work still to do to create a truly open environment for ex-
+pression on their campuses. Not all of that responsibility 
+27 A “green light” rating indicates that a college or university’s policies do not seriously imperil speech. It does not by itself guarantee that 
+a school actively supports free expression. It simply means that FIRE is not currently aware of any serious threats to students’ free speech 
+rights in the written policies on that campus. Individual policies that do not threaten free expression also receive green light ratings. For 
+more information see: https://www.fire.org/research-learn/using-fires-spotlight-database.
+28 The “Chicago Statement” is a model free speech policy statement that many universities have adopted, affirming their commitment to 
+free expression. For more information see: https://www.fire.org/research-learn/chicago-statement-university-and-faculty-body-support.
+29 Institutional Neutrality is the idea that colleges and universities should not, as institutions, take positions on social and political issues 
+unless those issues “threaten the very mission of the university and its values of free inquiry.” Instead, these discussions should be left to 
+students and faculty. For more information see: https://www.fire.org/research-learn/adoptions-official-position-institutional-neutrality.
+30 A “red light” institution has at least one red light policy that both clearly and substantially restricts freedom of speech. A “clear” restric-
+tion is one that unambiguously infringes on what is, or should be, protected expression. In addition, when a university restricts access to its 
+speech-related policies by requiring a login and password, it denies prospective students and their parents the ability to weigh this crucial 
+information, and FIRE considers this action to be deceptive and serious enough that it alone warrants a “red light” rating. For more informa-
+tion see: https://www.fire.org/research-learn/using-fires-spotlight-database.
+31 A “yellow light” institution has at least one yellow light policy that restricts a more limited amount of protected expression or, by virtue 
+of vague wording, can too easily be used to restrict protected expression. For more information see: https://www.fire.org/research-learn/
+using-fires-spotlight-database.
+32 See Table 1 in this report’s appendix.
+33 Fardin, M. (April 24, 2026). Students Supporting Israel brings IDF soldier to speak on campus, protests, disruptions. Available online: 
+https://www.dailytargum.com/article/eotazdczqxpistudents-supporting-israel-org-invites-idf-soldiers-to-speak-on-campus-20260424.
+rests with colleges. Campus speech climates also reflect 
+broader cultural forces, including political polarization, 
+fear of social consequences, and declining tolerance 
+for disagreement.
+At the same time, the best schools are clearly doing a 
+superior job compared with the worst ones. The bot-
+tom five have an average overall score of 47.99 — they 
+all receive failing grades, and their overall scores are 
+more than two standard deviations below the nation-
+wide average. 
+The problem is not just the speech policies at these 
+schools; it is also how they handle speech controversies 
+on campus and how the students interpret those actions. 
+In the span of a few weeks this past spring, Rutgers — 
+after multiple students attempted to disrupt a talk by 
+Yossi Hertz, a former Israel Defense Forces soldier — first 
+prominently declared its commitment to free speech, 
+stating that it “does not cancel events or speakers based 
+on disagreements with their messages, however heartfelt 
+such disagreements may be.”33 
+Then, a week or so later, Rutgers rescinded the School 
+of Engineering’s invitation to alumnus Rami Elghandour, 
+chairman and CEO of Arcellx, to deliver the school’s com-
+mencement address. The university acted after some 
+graduating students objected to Elghandour’s social 
+media posts about the Israeli-Palestinian conflict and 
+indicated they would skip the ceremony. This time, a 
+
+
+PAGE 11
+9	 Foundation for Individual Rights and Expression
+2027 College Free Speech Rankings
+university spokesperson said that the “decision keeps 
+the focus on our engineering students and honors the 
+celebratory spirit of the event to ensure that no graduate 
+feels forced to choose between their personal convictions 
+and a convocation ceremony.”34
+Those two statements contradict each other and exemplify 
+leadership that sends mixed messages to students and 
+faculty on campus about which kinds of expression are 
+welcome and which are not.
+Other patterns are evident in how the bottom five schools 
+handle speech controversies:35 
+ 
+■
+Texas State University administrators  
+apparently fear state and federal government 
+crackdowns. 
+ 
+■
+The University of Washington appears to  
+struggle to ensure that campus events go off 
+without a hitch. 
+ 
+■
+New York University is particularly  
+concerned with events that discuss the  
+Israeli-Palestinian conflict. 
+Leadership matters. Sending consistent messages to 
+students and faculty matters.
+This past year, NYU directed Jews Against Zionism, a 
+Jewish student group that is critical of Israel’s actions in 
+Gaza, to remove a social media post.36 It also prevent-
+34 Quinn, R. (May 7, 2026). Rutgers disinvites engineering graduation speaker after he criticizes Israel. Available online: https://www.insidehighered.com/
+news/quick-takes/2026/05/07/rutgers-disinvites-grad-speaker-after-he-criticizes-israel.
+35 See Table 1 in this report’s appendix.
+36 Saadah, Y. (May 7, 2026). NYU investigates Instagram post advertising anti-Zionist Passover Seder: The Jewish students and faculty who organized the 
+Seder are demanding the investigation be halted and calling for a boycott of NYU Hillel. Available online: https://nyunews.com/news/2026/05/07/nyu-investi-
+gates-anti-zionist-seder-instagram-post/.
+37 Dev, K. (March 13, 2026). NYU censored V100 artist booking process, Program Board says: Students claim administrators offered an extra $30,000 after 
+barring them from working with artists boycotting Israel. Available online: https://nyunews.com/news/2026/03/13/program-board-statement/; See also: NYU 
+Program Board Statement in Solidarity. Available online: https://drive.google.com/file/d/1TAgS2EYqOlWH78yfyR0zbGbhlAkGw4bc/view.
+38 Kabbany, J. (Oct. 6, 2025). NYU caves, reinstates free speech event after backlash. Available online: https://www.thecollegefix.com/nyu-caves-reinstates-
+free-speech-event-after-backlash/; Shapiro, I. (Oct. 4, 2025). NYU cancels my Oct. 7 event over “security concerns,” then caves in face of backlash: I was going 
+to talk about my book Lawless but administrators feared protesters. The Federalist Society set an offsite event with federal judges joining me, so NYU magically 
+found a way to host. Available online: https://ilyashapiro.substack.com/p/nyu-cancels-my-oct-7-event-over-security.
+39 Stevens, S.T. & Schwictenberg, A. (2020). 2020 College Free Speech Rankings: What’s the Climate for Free Speech on America’s College Campuses. The 
+Foundation for Individual Rights in Education. Available online: https://www.thefire.org/research-learn/2020-college-free-speech-rankings; Stevens, S.T. & 
+Schwictenberg, A. (2021). 2021 College Free Speech Rankings: What’s the Climate for Free Speech on America’s College Campuses. The Foundation for Individ-
+ual Rights in Education. Available online: https://www.thefire.org/research-learn/2021-college-free-speech-rankings.
+40 Stevens, S.T. (2022). 2022-2023 College Free Speech Rankings: What’s the Climate for Free Speech on America’s College Campuses. The Foundation for Individ-
+ual Rights and Expression. Available online: https://www.fire.org/research-learn/2022-2023-college-free-speech-rankings.
+41 Stevens, S.T. (2023). 2024 College Free Speech Rankings: What’s the Climate for Free Speech on America’s College Campuses. The Founda-
+tion for Individual Rights and Expression. Available online: https://www.thefire.org/research-learn/2024-college-free-speech-rankings.
+ed students organizing an annual concert from inviting 
+performers affiliated with the No Music For Genocide 
+movement.37 Last fall, it initially canceled an appear-
+ance by Ilya Shapiro, a law professor supportive of Israel’s 
+actions in Gaza, that was organized by the university’s Fed-
+eralist Society because it was scheduled for Oct. 7, 2025, 
+and then reversed its decision following public backlash.38 
+There are clear reasons why some schools do rela-
+tively well in FIRE’s College Free Speech Rankings, and 
+also clear reasons why other schools do not — and 
+those reasons are reflected not only in a school’s 
+behavioral metrics but also in its survey data assessing 
+student perceptions. 
+The top five schools perform well on almost 
+every student-perception metric, particularly on 
+“Administrative Support.” The bottom five do 
+not, and they score particularly poorly on 
+“Administrative Support.”
+Simply put: Dear administrators, the students notice. 
+ 
+RISERS AND FALLERS
+DePauw University ranked last in the first two years of the 
+College Free Speech Rankings.39 The university’s president 
+then reformed the school’s speech policies, and DePauw 
+began to improve.40 This year, it ranks 25.
+The University of South Carolina ranked 246 out of 
+248 schools in the 2024 College Free Speech Rankings.41 
+After a new chancellor initiated speech policy reform, 
+
+
+PAGE 12
+10	 Foundation for Individual Rights and Expression
+2027 College Free Speech Rankings
+endorsed the Chicago Statement, and refused to cancel a 
+roast of Kamala Harris hosted by Milo Yiannopoulos and 
+Gavin McInnes in fall 2024, student responses improved, 
+and the university ranked 34 the following year.42 This 
+year, it ranks 14.
+The story is similar at Vanderbilt University, which ranks 
+5, and Dartmouth College, which ranks 6.
+In other words, improvement in the rankings — even 
+rapid improvement — is possible. It starts with strong 
+leadership on the issue of free expression.
+This year, the schools with the largest increases in overall 
+score were:
+ 
+■
+The University of California, Davis, whose score 
+increased by almost 18 points primarily because 
+of its adoption of the Chicago Statement, a 
+commitment to institutional neutrality, obtain-
+ing a “green light” rating for its speech policies, 
+and the decay of penalties imposed for older 
+speech controversies.  
+ 
+■
+Harvard University, whose score increased by 
+over 13 points due to significant improvements 
+in student perceptions — particularly on  
+“Comfort Expressing Ideas” and “Administra-
+tive Support” — and because penalties im-
+posed for older speech controversies decayed, 
+while not being supplemented with poor re-
+sponses to fresh controversies. 
+ 
+■
+Barnard College, whose score increased by over 
+12 points mostly due to policy reforms. 
+ 
+■
+The Georgia Institute of Technology, whose 
+score increased by almost 9 points because of 
+improved student perceptions on “Disruptive 
+Conduct” and “Administrative Support,” and  
+its adoption of the Chicago Statement and a 
+commitment to institutional neutrality.
+42 Stevens, S.T. (2024). 2025 College Free Speech Rankings: What’s the Climate for Free Speech on America’s College Campuses. The Foun-
+dation for Individual Rights and Expression. Available online: https://www.thefire.org/research-learn/2025-college-free-speech-rankings.
+43 Whitford, E. (Sept. 10, 2025). 2 Texas A&M administrators and professor out after viral video: Video circulated by Texas state  
+representative shows student accusing English professor of teaching material related to gender identity and violating Trump’s executive 
+orders. State officials pressured the university to fire the professor involved. Available online: https://www.insidehighered.com/news/faculty/
+academic-freedom/2025/09/10/texas-am-professor-and-administrators-out-after-viral.
+ 
+■
+Columbia University, whose score increased 
+by over 8 points because of improved student 
+perceptions on “Comfort Expressing Ideas,” 
+“Self-Censorship,” and “Openness,” and  
+because penalties imposed for older speech 
+controversies decayed.
+Other schools that improved their scores by more than 
+one standard deviation this year, compared with last year, 
+included: Utah State University, Dartmouth College, the 
+University of Alabama, Furman University, Clark University, 
+and Tufts University.
+On the other hand, a number of schools had their 
+overall scores decline considerably compared with last 
+year’s rankings:
+ 
+■
+Texas State University, whose score decreased 
+by over 11 points, primarily due to its poor han-
+dling of numerous campus speech controversies 
+described in Table 1 of this report’s appendix. 
+ 
+■
+Texas A&M University, whose score decreased 
+by almost 7 points because student perceptions 
+on “Administrative Support” declined signifi-
+cantly and the university incurred additional 
+penalties for its handling of multiple speech 
+controversies. Some of those controversies 
+made national headlines, including the termina-
+tion of Melissa McCoul, a senior lecturer in the 
+Department of English at the university, who 
+came under scrutiny after a student secretly  
+recorded part of her Literature for Children 
+class that included discussion of gender  
+identity and a “Gender Unicorn” slide, and  
+then challenged McCoul, claiming the material 
+was “illegal” under state policy.43 
+ 
+■
+The University of Arkansas, whose score  
+decreased by almost 6 points because of  
+three separate incidents in which the university 
+sanctioned faculty speech, including its  
+decision to rescind an offer to Emily Suski, a 
+
+
+PAGE 13
+11	 Foundation for Individual Rights and Expression
+2027 College Free Speech Rankings
+professor of law and associate dean for  
+strategic and institutional priorities at the  
+University of South Carolina’s Joseph F. Rice 
+School of Law, to become the dean of the  
+university’s School of Law.44 
+ 
+■
+New York University, whose score decreased by 
+almost 5 points primarily because of penalties 
+incurred for its handling of a number of speech 
+controversies, each of which is described in 
+Table 1 of this report’s appendix. NYU’s  
+“Administrative Support” also declined. 
+ 
+■
+Clemson University, whose score decreased  
+by almost 5 points due to its termination of  
+two professors — Joshua Bregy and Melvin  
+Earl Villaver Jr. — who made controversial  
+social media posts in response to Charlie  
+Kirk’s assassination.45
+Other schools that experienced notable declines in their 
+overall scores included the University of Minnesota, the 
+University of Florida, California Polytechnic University, 
+and the University of North Texas.
+A CHILLING EFFECT AT UTAH VALLEY UNIVERSITY
+Charlie Kirk was assassinated at a Turning Point USA event 
+at Utah Valley University on Sept. 10, 2025. Later that day, 
+UVU President Astrid S. Tuminez addressed the campus 
+community through an Instagram post:46
+On behalf of Utah Valley University, we are shocked 
+and saddened by the tragic passing of Charlie Kirk. 
+44 FIRE. (Jan. 15, 2026). University of Arkansas rescinds dean offer after lawmakers object to legal advocacy in trans athletes Supreme 
+Court case. Available online: https://www.fire.org/news/university-arkansas-rescinds-dean-offer-after-lawmakers-object-legal-advoca-
+cy-trans-athletes. 
+45 Davis, E., Escott, G., & Murphy, C. (Sept. 15, 2025). Clemson U. touted free speech after 3 employees posted about Charlie Kirk. Then it  
+reversed course. Available online: https://www.chronicle.com/article/clemson-u-touted-free-speech-after-3-employees-posted-about-
+charlie-kirk-then-it-reversed-course.
+46 The Instagram post is available online: https://www.instagram.com/p/DOcDpx6kjqp/?utm_source=ig_embed&ig_rid=37c9ded7-cae8-
+4c2b-9080-6d02cb80935d.
+47 Utah Valley University (Feb. 23, 2026). Utah Valley University launches “Our Better Selves for a Better America:” The new initiative  
+promotes peaceful dialogue, constructive disagreement, and civic resilience. Available online: https://www.globenewswire.com/news- 
+release/2026/02/23/3242971/0/en/Utah-Valley-University-Launches-Our-Better-Selves-for-a-Better-America.html; Wen, Leana S. (Oct. 21, 
+2025). Utah Valley University faced a choice after Charlie Kirk’s killing: The school’s president sought to care for her community after the 
+shocking assassination. Available online: https://www.washingtonpost.com/opinions/2025/10/21/charlie-kirk-utah-valley-university-uvu-
+healing-tuminez/.
+48 Lukianoff, G. (Nov. 7, 2025). Speaking at the site of a murder: My speech at Utah Valley University — and why America must not become 
+like everybody else. Available online: https://eternallyradicalidea.com/p/speaking-at-the-site-of-a-murder.
+We express our sincere condolences to the Kirk 
+family. We grieve with our students, faculty, and 
+staff who bore witness to this unspeakable tragedy. 
+He was invited by the student group Turning Point 
+USA to speak on our campus. We firmly believe 
+UVU is a place to share ideas and to debate openly 
+and respectfully. Any attempt to infringe on those 
+rights has no place here. We do not condone any 
+form of violence at UVU and seek to make our 
+campus a safe place for all.
+The university then responded quickly. Classes were 
+canceled for the rest of the week and counseling services 
+were expanded. New student organizations promoting 
+tolerance popped up, and the university later launched 
+a civic dialogue program — “Our Better Selves for a 
+Better America.”47
+A FIRE survey of 2,028 students nationwide conducted 
+in the month after the assassination included 204 UVU 
+undergraduates and found that 94% of them said it was 
+“never” acceptable for students to use violence to stop a 
+campus speech, compared with 81% of UVU students who 
+said this the previous spring. That same month, UVU also 
+invited FIRE President and CEO Greg Lukianoff to deliver 
+a lecture titled “Free Speech: An Antidote to Violence.” 
+Lukianoff emphasized that words are not violence and 
+that free speech is the greatest antidote humanity has 
+to actual violence.48
+Some students appeared to notice the administration’s 
+efforts. This year, about half of UVU students (48%) said 
+it was “very” or “extremely” clear that their adminis-
+tration protects free speech on campus, while just 12% 
+
+
+PAGE 14
+12	 Foundation for Individual Rights and Expression
+2027 College Free Speech Rankings
+said that it was “not very” or “not at all” clear. Last year, 
+these percentages were 42% and 12%, respectively. 
+Improvement was even more evident when students were 
+asked how likely it was their administration would protect 
+speech rights during a controversy. Last year, 29% of UVU 
+students said it was “very” or “extremely” likely their 
+administration would do so, while 16% said it was “not 
+very” or “not at all” likely. This year, those percentages 
+were 42% and 15%, respectively. In terms of the College 
+Free Speech Rankings, UVU’s “Administrative Support” 
+score increased compared with last year, and the univer-
+sity ranks 24 on this component. 
+Yet, it is also evident that the assassination has had neg-
+ative effects on the campus speech climate.
+In that same survey conducted in the month following 
+the assassination, UVU students said that after what 
+happened to Charlie Kirk, they were less comfortable 
+expressing views on a controversial political topic during a 
+class discussion, in a common campus space, or to other 
+students on social media than their peers nationwide. 
+UVU students were also considerably less comfortable 
+attending public events on campus and even attending 
+class. The percentage of UVU students reporting self-cen-
+sorship at least a few times a week also increased after 
+Kirk’s assassination, compared with the percentage of 
+UVU students who reported this in the spring of 2025.49
+Then this past spring, the campus chapters of TPUSA and 
+the College Republicans, state and federal politicians, and 
+members of the general public all opposed the university’s 
+announcement of Sharon McMahon, an author, educator, 
+and podcaster, as its commencement speaker because of a 
+series of social media posts she had made criticizing Charlie 
+Kirk after his assassination.50 In response to the backlash, 
+UVU rescinded McMahon’s invitation to deliver the com-
+mencement address, citing “increased safety concerns.” 51
+49 Stevens, S.T. (2025). After the earthquake: How the assassination of Charlie Kirk is reshaping campus speech nationwide. The Founda-
+tion for Individual Rights and Expression. Available online: https://www.thefire.org/research-learn/how-assassination-charlie-kirk-reshap-
+ing-campus-speech-nationwide.
+50 Aitken, P. (April 11, 2026). Conservatives furious with university where Charlie Kirk died — what to know. Available online: https://www.
+newsweek.com/conservatives-furious-utah-valley-university-charlie-kirk-sharon-mcmahon-11816314.
+51 Alonso, J. (April 17, 2026). Commencement speaker who criticized Charlie Kirk out at UVU. Available online: https://www.insidehighered.
+com/news/quick-takes/2026/04/17/commencement-speaker-who-criticized-charlie-kirk-out-uvu; Lamb, M. (April 16, 2026). Utah Valley  
+University drops graduation speaker who called Charlie Kirk ‘bigoted’ after murder. Available online: https://www.thecollegefix.com/
+utah-valley-university-drops-graduation-speaker-who-called-charlie-kirk-bigoted-after-murder/.
+The data from the UVU students surveyed this spring 
+for this year’s College Free Speech Rankings also showed 
+that Kirk’s assassination had lasting effects on that 
+particular campus. 
+When asked to “share a moment where you person-
+ally felt you could not express your opinion on your 
+campus because of how you thought other students, 
+a professor, or the administration would respond,” 
+UVU students from across the political spectrum reported 
+a chilling effect on their speech. Their responses included:
+There’s one side whose opinion is assumed 
+to be the “wrong” one but apparently pub-
+lic assent. I have personally heard threats on 
+campus of violence towards those who share 
+opinions with right-wing figures like Charlie Kirk. 
+— Very conservative student
+I attend the University in where Charlie Kirk 
+was shot and often disagree with conservative/
+right winged discussions about his influence in 
+free speech and open discussion. Tables ad-
+vocating for what he believed in are often set 
+up around my campus and I know if I openly 
+disagreed with what they are doing, majority 
+of the student body would disagree with me. 
+— Very liberal student
+
+
+PAGE 15
+13	 Foundation for Individual Rights and Expression
+2027 College Free Speech Rankings
+I feel I can’t express my opinion on Charlie Kirk or 
+the President. MAGAS are extremely hot headed and 
+vengeful. I also don’t feel comfortable expressing 
+facts about transgenderism being a mental illness,  
+even though I wish no ill will against them.  
+I find many in the trans community to exhibit  
+similar qualities to MAGAS when being confronted  
+with facts.— Slightly conservative student
+Last semester there was a lot of talk on campus 
+about Charlie Kirk and I felt in a lot of my conver-
+sations I would’ve got a bad reaction from other if 
+I shared that I was against him coming to speak in 
+the first place and that he spread harmful rhetoric. 
+— Somewhat liberal student
+students have expressed they hold beliefs 
+that people like me should be discriminated 
+against in certain ways. (posting about charlie 
+kirk, trump, etc, as well as religious beliefs).  
+even though they dont talk about them around me, 
+knowing they hold these beliefs, i dont feel safe 
+considering I’ve had friends be harassed, bullied, 
+and gotten threats for sharing similar opinions. 
+— Very liberal student
+Other student survey responses reinforced these 
+experiences. 
+Charlie Kirk was the most difficult topic to discuss on 
+UVU’s campus, with 62% of students identifying it as 
+difficult to discuss; 44% of students nationally said 
+this. Other topics identified by a notable portion of UVU 
+students included: abortion (54%), Donald Trump (53%), 
+transgender rights (53%), gun control (51%), gay rights 
+(46%), and the Israeli-Palestinian conflict (42%). In this 
+year’s College Free Speech Rankings, UVU declined 
+noticeably on “Openness,” and ranks 251 on this compo-
+nent compared to 183 last year.
+Additionally, the percentage of UVU students who said 
+they self-censor frequently, at least a few times a week, 
+also increased. Last year, roughly a quarter of UVU stu-
+dents said they self-censored frequently in conversations 
+with other students (24%), in conversations with pro-
+fessors (27%), and during classroom discussions (24%). 
+As with “Openness,” UVU’s score on “Self-Censorship” 
+noticeably declined, and the university ranks 230 on this 
+component compared to 96 last year. 
+About half of UVU students (51%) surveyed this year re-
+ported that they were “somewhat” or “very” uncomfort-
+able expressing their views on a controversial political 
+topic during a class discussion, compared with 40% last 
+year. The result was essentially identical for express-
+ing views on a controversial political topic in a common 
+campus space, with 52% of UVU students saying they were 
+“somewhat” or “very” uncomfortable doing so this year, 
+compared with 40% last year. Like its scores on “Open-
+ness” and “Self-Censorship,” UVU’s score on “Comfort 
+Expressing Ideas” declined, and the university ranks 153 
+compared to 23 last year. 
+Overall, UVU ranks 210 out of 261 schools — down from 
+71 out of 257 last year — and its overall score declined 
+compared with last year. This placement is painful but un-
+derstandable: A public figure was assassinated on campus 
+in front of many students engaging in free speech and open 
+debate. As several liberal and conservative UVU students 
+told us (see student quotes above) — the chilling effect 
+of this assassination persists. Charlie Kirk was the most 
+difficult topic to discuss on campus. Comfort expressing 
+views is down, self-censorship is up. 
+There is no doubt that the speech climate at UVU is cur-
+rently a challenging one. The administration has made 
+some laudable efforts, but its decision to rescind Sharon 
+McMahon’s commencement invitation was a mistake. 
+Rather than deplatforming McMahon, UVU should respond 
+to every instance of and every call for censorship with a 
+clear defense of free expression. 
+
+
+PAGE 16
+14	 Foundation for Individual Rights and Expression
+2027 College Free Speech Rankings
+Percentage of UVU Students Who Identify Each Topic As
+Charlie Kirk
+Abortion
+Donald Trump
+Transgender rights
+Gun control
+Gay rights
+Immigration
+Racial inequality
+Religion
+Hate speech
+Police misconduct
+Sexual assault
+The 2024 presidential election
+Gender inequality
+Freedom of speech
+Economic inequality
+Climate change
+Crime
+The Supreme Court
+China
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90%
+62%
+54%
+53%
+53%
+51%
+46%
+43%
+42%
+41%
+39%
+38%
+37%
+36%
+35%
+34%
+26%
+22%
+21%
+19%
+18%
+18%
+14%
+Chart: Emily Nayyer•Source: FIRE/College Pulse
+
+
+PAGE 17
+15	 Foundation for Individual Rights and Expression
+2027 College Free Speech Rankings
+National Trends: A Chilling Climate For Campus Speech
+52 Stevens, S.T. (2025). 2026 College Free Speech Rankings: What’s the Climate for Free Speech on America’s College Campuses. The Foun-
+dation for Individual Rights and Expression. Available online: https://www.thefire.org/research-learn/2026-college-free-speech-rankings.
+After seven years of surveying almost 350,000 college 
+undergraduates nationwide, a sobering picture has 
+emerged: Students are reluctant to speak their minds, 
+especially on controversial political issues. Many 
+report that they self-censor regularly, avoid certain topics 
+entirely, and doubt their administrators would defend 
+free expression if controversy struck.
+This year, many students continue to report difficulty 
+discussing a number of important social and political 
+issues openly and honestly. Significant numbers also 
+believe it’s acceptable to shout down a speaker, block 
+access to events, or even resort to violence to silence 
+campus speech. Many also show low tolerance for 
+controversial speakers.
+The Israeli-Palestinian conflict remains the most taboo 
+topic on campuses across the country for the third year 
+in a row. This year, half of students nationwide identified 
+this topic as difficult to discuss, down from 53% last year 
+and 55% two years ago. This year, students were also 
+reluctant to talk about two public figures, Charlie Kirk and 
+Donald Trump, and reported increased concern discussing 
+immigration. As in prior years, abortion and transgender 
+rights were identified as difficult topics.
+Last year, we reported that the percentages of students 
+who said it was acceptable for other students to shout 
+down a speaker, block entry to an event, or use violence 
+to stop a campus speech were all at record highs in the 
+history of the College Free Speech Rankings.52 This year, 
+each of these percentages declined slightly — although 
+they each remain at disturbingly high levels.
+Finally, for the second year in a row, a majority of 
+students opposed allowing each of the six controversial 
+speakers included in the survey — three liberal and three 
+conservative — to speak on campus.  
+
+
+PAGE 18
+16	 Foundation for Individual Rights and Expression
+2027 College Free Speech Rankings
+Percentage Of Students Nationwide Who Identify Each
+Donald Trump
+Charlie Kirk
+Abortion
+Immigration
+Transgender rights
+Gun control
+Racial inequality
+Religion
+Gay rights
+The 2024 presidential election
+Police misconduct
+Sexual assault
+Gender inequality
+Hate speech
+Freedom of speech
+Economic inequality
+Crime
+Climate change
+The Supreme Court
+China
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90%
+50%
+46%
+44%
+43%
+38%
+38%
+34%
+32%
+32%
+30%
+29%
+27%
+27%
+26%
+26%
+20%
+18%
+18%
+14%
+13%
+13%
+10%
+Chart: Emily Nayyer•Source: FIRE/College Pulse
+
+
+PAGE 19
+17	 Foundation for Individual Rights and Expression
+2027 College Free Speech Rankings
+Percentage Of Students Nationwide Who Found Each Of
+The Three Kinds of Illiberal Protest Actions Acceptable
+2020
+2021
+2022
+2023
+2024
+2025
+2026
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100%
+40%
+41%
+37%
+37%
+44%
+45%
+52%
+52%
+54%
+54%
+23%
+24%
+20%
+20%
+27%
+27%
+32%
+32%
+34%
+34%
+66%
+62%
+62%
+63%
+63%
+69%
+68%
+71%
+72%
+38%
+37%
+18%
+18%
+61%
+61%
+Blocking
+50%
+Using
+violence
+30%
+Shouting
+down
+69%
+Chart: Emily Nayyer• Source: FIRE/College Pulse
+
+
+PAGE 20
+18	 Foundation for Individual Rights and Expression
+2027 College Free Speech Rankings
+Percentage Of Students Nationwide Saying Each Speaker
+Should Be Allowed On Campus
+2024
+2025
+2026
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100%
+24%
+24%
+38%
+38%
+40%
+40%
+49%
+49%
+25%
+26%
+32%
+32%
+22%
+22%
+49%
+48%
+37%
+47%
+47%
+36%
+46%
+45%
+40%
+40%
+57%
+56%
+47%
+47%
+33%
+33%
+26%
+26%
+Transgender people have a mental disorder.
+Abortion should be completely illegal.
+Black Lives Matter is a hate group.
+The Catholic church is a pedophilic institution.
+The police are just as racist as the Ku Klux Klan.
+Children should be able to transition without parental consent.
+Chart: Emily Nayyer• Source: FIRE/College Pulse
+
+
+PAGE 21
+19	 Foundation for Individual Rights and Expression
+2027 College Free Speech Rankings
+Conclusion: Reasons For Cautious Optimism 
+53 Stevens, S.T. (2023). 2024 College Free Speech Rankings: What’s the Climate for Free Speech on America’s College Campuses. The Foun-
+dation for Individual Rights and Expression. Available online: https://www.thefire.org/research-learn/2024-college-free-speech-rankings; 
+Stevens, S.T. (2024). 2025 College Free Speech Rankings: What’s the Climate for Free Speech on America’s College Campuses. The Foundation 
+for Individual Rights and Expression. Available online: https://www.thefire.org/research-learn/2025-college-free-speech-rankings; Stevens, 
+S.T. (2025). 2026 College Free Speech Rankings: What’s the Climate for Free Speech on America’s College Campuses. The Foundation for Indi-
+vidual Rights and Expression. Available online: https://www.thefire.org/research-learn/2026-college-free-speech-rankings.
+54 Chiasson, H.C., Mahajan, A.S., & Spenner, E.A. (May 28, 2026). Garber opens 375th commencement with defense of academic freedom. 
+Available online: https://www.thecrimson.com/article/2026/5/28/garber-commencement-2026/; Garber, A. (April 14, 2025). The promise of 
+American higher education. Available online: https://www.harvard.edu/president/news/2025/the-promise-of-american-higher-education/; 
+Patel, D. T. & Yoon, G.E. (May 27, 2025). Garber defends international students, pledges continued support amid legal battle. Available on-
+line: https://www.thecrimson.com/article/2025/5/27/garber-international-students/.
+This year’s average overall score (61.36) is the highest ever 
+recorded in seven years. Moreover, 140 schools received 
+passing grades, compared to 91 last year. These results 
+offer reasons for cautious optimism. 
+At the same time, the top two schools — the University of 
+Chicago and Claremont McKenna College — earned the 
+two highest scores ever, 81.42 and 80.13, respectively, and 
+both scores correspond to a B-. The average score among 
+the top five schools is a C+ (79.27). Thus, even the “best” 
+schools for free speech still have plenty of work to do to 
+create a truly open environment for expression on their 
+campuses. When the scope is expanded to all of the 261 
+schools ranked this year, just 24 receive a C or better, and 
+121 of them still receive a failing grade. 
+These results are not solely a reflection of college poli-
+cies or administrators. Campus speech climates are also 
+shaped by broader cultural forces, including political 
+polarization, intolerance of disagreement, and fear of 
+social consequences. Colleges cannot fully control the 
+attitudes students bring to campus, but their policies, 
+leadership, and responses to controversy can either 
+strengthen or weaken the culture of free expression.
+In other words, while there have been improvements at 
+a number of schools, the overall state of affairs for free 
+speech on American college and university campuses 
+remains very concerning. 
+Over the past seven years, it has become apparent that 
+strong leadership at colleges and universities is needed 
+to establish at the very least the basic conditions of an 
+open expressive environment. Schools that clearly and 
+consistently support First Amendment protections and 
+do the best they can to establish a campus environment 
+that prioritizes open expression perform better in FIRE’s 
+College Free Speech Rankings. This comes not just from 
+sending messages to students and faculty on campus that 
+the school values free and open expression, but also from 
+consistently demonstrating that they mean what they say 
+on this issue when controversy inevitably erupts.
+We do not think Harvard’s improvement this year — it 
+ranked 245 last year after finishing dead last in the 2024 
+and 2025 rankings — is a coincidence.53 Its new leadership 
+has made its support of the First Amendment clear.54 The 
+school’s rise in the rankings is the result of a significant 
+improvement in its score on “Administrative Support,” 
+the decay of penalties imposed for older campus speech 
+controversies, and the absence of new penalties for 
+new controversies.
+In many ways, Harvard’s story is similar to those of other 
+schools over the past seven years. DePauw University, 
+the University of South Carolina, Vanderbilt University, 
+Dartmouth College, and others have reformed their 
+policies and then, when faced with controversy, 
+continued to stand firm in their reinvigorated support for the 
+First Amendment.
+This is the way. 
+We hope more colleges and universities start to agree 
+with us in the coming years. 
+
+
+PAGE 22
+20	Foundation for Individual Rights and Expression
+2027 College Free Speech Rankings
+Topline Results
+How clear is it to you that your college’s administration 
+protects free speech on campus?
+Not at all clear	
+  3%
+Not very clear	
+14%
+Somewhat clear	
+42%
+Very clear	
+	
+31%
+Extremely clear	
+  9%
+If a controversy over offensive speech were to occur 
+on your campus, how likely is it that your college’s 
+administration would defend the speaker’s right to 
+express their views?
+Not at all likely	
+  4%
+Not very likely	
+20%
+Somewhat likely	
+50%
+Very likely	
+	
+21%
+Extremely likely	
+  5%
+How comfortable would you feel doing the following on 
+your campus?
+Publicly disagreeing with a professor about a controversial 
+political topic.
+Very uncomfortable	
+	
+21%
+Somewhat uncomfortable	
+36%
+Somewhat comfortable	
+32%
+Very comfortable	
+	
+12%
+Expressing disagreement with one of your 
+professors about a controversial political topic in a 
+written assignment.
+Very uncomfortable	
+	
+14%
+Somewhat uncomfortable	
+33%
+Somewhat comfortable	
+39%
+Very comfortable	
+	
+15%
+Expressing your views on a controversial political topic 
+during an in-class discussion.
+Very uncomfortable	
+	
+15%
+Somewhat uncomfortable	
+33%
+Somewhat comfortable	
+39%
+Very comfortable	
+	
+14%
+Expressing your views on a controversial political topic to 
+other students during a discussion in a common campus 
+space such as a quad, dining hall, or lounge.
+Very uncomfortable	
+	
+12%
+Somewhat uncomfortable	
+31%
+Somewhat comfortable	
+40%
+Very comfortable	
+	
+17%
+Expressing an unpopular political opinion to your fellow 
+students on a social media account tied to your name.
+Very uncomfortable	
+	
+27%
+Somewhat uncomfortable	
+35%
+Somewhat comfortable	
+28%
+Very comfortable	
+	
+10%
+This next series of questions asks you about self- 
+censorship in different settings. For the purpose of these 
+questions, self-censorship is defined as follows:
+Refraining from sharing certain views because you 
+fear social (e.g., exclusion from social events), 
+professional (e.g., losing job or promotion), legal 
+(e.g., prosecution or fine), or violent (e.g., assault) 
+consequences, whether in person or remotely 
+(e.g., by phone or online), and whether the con-
+sequences come from state or non-state sources.
+How often do you self-censor during conversations with 
+other students on campus?
+Never	
+	
+	
+	
+	
+11%
+Rarely	
+	
+	
+	
+33%
+Occasionally, once or twice a month	
+33%
+Fairly often, a couple times a week	
+18%
+Very often, nearly every day	
+	
+  6%
+How often do you self-censor during conversations with 
+your professors?
+Never	
+	
+	
+	
+10%
+Rarely	
+	
+	
+	
+31%
+Occasionally, once or twice a month	
+33%
+Fairly often, a couple times a week	
+19%
+Very often, nearly every day	
+	
+  8%
+
+
+PAGE 23
+21	 Foundation for Individual Rights and Expression
+2027 College Free Speech Rankings
+How often do you self-censor during conversations 
+with school administrators?
+Never	
+	
+	
+	
+13%
+Rarely	
+	
+	
+	
+31%
+Occasionally, once or twice a month	
+30%
+Fairly often, a couple times a week	
+18%
+Very often, nearly every day	
+	
+  9%
+How often do you self-censor during classroom 
+discussions?
+Never	
+	
+	
+	
+  8%
+Rarely	
+	
+	
+	
+29%
+Occasionally, once or twice a month	
+35%
+Fairly often, a couple times a week	
+20%
+Very often, nearly every day	
+	
+  7%
+How acceptable would you say it is for students to engage 
+in the following actions to protest a campus speaker? 
+Shouting down a speaker to prevent them from speaking 
+on campus.
+Always acceptable	
+	
+  5%
+Sometimes acceptable	
+	
+30%
+Rarely acceptable	
+	
+34%
+Never acceptable	
+	
+31%
+Blocking other students from attending a campus speech.
+Always acceptable	
+	
+  3%
+Sometimes acceptable	
+	
+17%
+Rarely acceptable	
+	
+30%
+Never acceptable	
+	
+50%
+Using violence to stop a campus speech.
+Always acceptable	
+	
+  3%
+Sometimes acceptable	
+	
+12%
+Rarely acceptable	
+	
+16%
+Never acceptable	
+	
+70%
+Student groups often invite speakers to campus to 
+express their views on a range of topics. Regardless of 
+your own views on the topic, should your school ALLOW 
+or NOT ALLOW a speaker on campus who has previously 
+expressed the following idea?
+Transgender people have a mental disorder.
+Definitely should not allow this speaker             42%
+Probably should not allow this speaker	
+33%
+Probably should allow this speaker	
+17%
+Definitely should allow this speaker	
+  9%
+Abortion should be completely illegal.
+Definitely should not allow this speaker             28%
+Probably should not allow this speaker	
+32%
+Probably should allow this speaker	
+28%
+Definitely should allow this speaker	
+12%
+Black Lives Matter is a hate group.
+Definitely should not allow this speaker             47%
+Probably should not allow this speaker	
+31%
+Probably should allow this speaker	
+15%
+Definitely should allow this speaker	
+  7%
+The Catholic Church is a pedophilic institution.
+Definitely should not allow this speaker             26%
+Probably should not allow this speaker	
+37%
+Probably should allow this speaker	
+26%
+Definitely should allow this speaker	
+10%
+The police are just as racist as the Ku Klux Klan.
+Definitely should not allow this speaker             28%
+Probably should not allow this speaker	
+36%
+Probably should allow this speaker	
+26%
+Definitely should allow this speaker	
+10%
+Children should be able to transition without parental 
+consent.
+Definitely should not allow this speaker             20%
+Probably should not allow this speaker	
+33%
+Probably should allow this speaker	
+35%
+Definitely should allow this speaker	
+12%
+
+
+PAGE 24
+22	 Foundation for Individual Rights and Expression
+2027 College Free Speech Rankings
+Some students say it can be difficult to have conversations 
+about certain issues on campus. Which of the following 
+issues, if any, would you say are difficult to have an open 
+and honest conversation about on your campus? (Select 
+all that apply.) 
+Abortion	
+	
+	
+	
+43%
+Affirmative action	
+	
+	
+18%
+Charlie Kirk	
+	
+	
+	
+44%
+China		
+	
+	
+	
+10%
+Climate change	
+	
+	
+13%
+Crime	
+	
+	
+	
+14%
+Donald Trump	
+	
+46%
+Economic inequality	 	
+	
+18%
+Freedom of speech	
+	
+	
+20%
+Gay rights	
+	
+	
+	
+30%
+Gender inequality	
+	
+	
+26%
+Gun control	 	
+	
+	
+34%
+Hate speech	 	
+	
+	
+26%
+Immigration	 	
+	
+	
+38%
+The Israeli-Palestinian conflict	
+50%
+The 2024 presidential election	
+29%
+Police misconduct	
+	
+	
+27%
+Racial inequality	
+	
+	
+32%
+Religion	
+	
+	
+	
+32%
+Sexual assault	
+	
+	
+27%
+The Supreme Court	
+	
+	
+13%
+Transgender rights	
+	
+	
+38%
+None of the above	
+	
+	
+17%
+[Note: The remaining questions below are not factored into the 
+calculation of the College Free Speech Rankings.]
+On your campus, how often have you felt that you 
+could not express your opinion on a subject because 
+of how other students, a professor, or the administration 
+would respond?
+Never	
+	
+	
+	
+22%
+Rarely	
+	
+	
+	
+37%
+Occasionally, once or twice a month	
+25%
+Fairly often, a couple times a week	
+10%
+Very often, nearly every day	
+	
+  5%
+Have you ever been disciplined by your college’s 
+administration for expression on campus?
+Yes, I have been disciplined.	 	
+  3%
+No, but I have been threatened with discipline.     12%
+I have not been disciplined nor threatened  
+with discipline.   	
+	
+	
+             85%
+How often, if at all, do you think your college would punish 
+you for saying …
+“Bigots who say hateful things deserve to be shot.”
+Never	
+	
+16%
+Rarely	
+	
+	
+15%
+Sometimes	
+	
+25%
+Fairly often	
+	
+24%
+Always	
+	
+	
+20%
+“Gun nuts worship their AR-15s more than they value 
+human lives.”
+	
+Never	 	
+	
+33%
+	
+Rarely	 	
+	
+27%
+	
+Sometimes	
+	
+23%
+	
+Fairly often	
+	
+10%
+	
+Always	 	
+	
+   6%
+“Illegal immigrants should be arrested and deported.”
+	
+Never	 	
+	
+25%
+	
+Rarely	 	
+	
+23%
+	
+Sometimes	
+	
+25%
+	
+Fairly often	
+	
+16%
+	
+Always	 	
+	
+11%
+“Debate me. Prove me wrong.”
+	
+Never	 	
+	
+59%
+	
+Rarely	 	
+	
+21%
+	
+Sometimes	
+	
+13%
+	
+Fairly often	
+	
+   4%
+	
+Always	 	
+	
+   2%
+“If a trans-identified male is in a female-only space, he is 
+committing a violent, abusive act.”
+	
+Never	 	
+	
+23%
+	
+Rarely	 	
+	
+23%
+	
+Sometimes	
+	
+28%
+	
+Fairly often	
+	
+ 16%
+	
+Always	 	
+	
+   9%
+
+
+PAGE 25
+23	 Foundation for Individual Rights and Expression
+2027 College Free Speech Rankings
+If a professor on your campus said any of the following 
+statements on social media after Charlie Kirk’s assassi-
+nation, SHOULD THEY or SHOULD THEY NOT be fired 
+from their job?
+“It’s O.K. to punch a Nazi.”
+The professor definitely should not be fired  
+from their job		
+	
+	
+              31%
+The professor probably should not be fired  
+from their job                 	
+             	              40%
+The professor probably should be fired from  
+their job 	
+ 	
+	
+	
+              19%
+The professor definitely should be fired from 
+ their job 	
+	
+	
+	
+              10%
+“These fascist Bible-thumpers want to drag us back to 
+the Dark Ages.”
+The professor definitely should not be fired  
+from their job		
+	
+	
+              16%
+The professor probably should not be fired  
+from their job 	
+             	 	
+             36%
+The professor probably should be fired from  
+their job 	
+ 	
+	
+	
+              32%
+The professor definitely should be fired from 
+their job 	
+	
+	
+	
+	
+15%
+“We are going to make America great again.”
+The professor definitely should not be fired  
+from their job		
+	
+	
+              23%
+The professor probably should not be fired  
+from their job 	
+             	 	
+              43%
+The professor probably should be fired from  
+their job 	
+ 	
+	
+	
+              22%
+The professor definitely should be fired from  
+their job 	
+	
+	
+	
+              11%
+“Our colleges and universities are progressive 
+indoctrination centers.”
+The professor definitely should not be fired  
+from their job		
+	
+	
+              16%
+The professor probably should not be fired  
+from their job 	
+             	 	
+              41%
+The professor probably should be fired from  
+their job 	
+ 	
+	
+	
+               31%
+The professor definitely should be fired from  
+their job 	
+	
+	
+	
+              11%
+
+
+PAGE 26
+24	 Foundation for Individual Rights and Expression
+2027 College Free Speech Rankings
+2027 College Free Speech Rankings
+Rank
+School
+Overall Score
+Climate 
+Students 
+1
+University of Chicago
+81.42
+B-
+272
+2
+Claremont McKenna College
+80.13
+B-
+152
+3
+Georgia Institute of Technology-Main Campus
+78.98
+C+
+275
+4
+Michigan Technological University
+78.72
+C+
+159
+5
+Vanderbilt University
+77.09
+C+
+213
+6
+Dartmouth College
+76.96
+C+
+181
+7
+Purdue University-Main Campus
+76.90
+C+
+312
+8
+Appalachian State University
+76.40
+C
+290
+9
+University of Virginia-Main Campus
+75.98
+C
+320
+10
+George Mason University
+75.97
+C
+312
+11
+University of North Carolina at Greensboro
+75.24
+C
+287
+12
+University of North Carolina at Charlotte
+75.01
+C
+277
+13
+Middle Tennessee State University
+73.84
+C
+262
+14
+University of South Carolina-Columbia
+73.68
+C
+320
+15
+East Carolina University
+73.55
+C
+323
+16
+Eastern Kentucky University
+73.53
+C
+168
+17
+University of Missouri-St Louis
+73.45
+C
+188
+18
+North Carolina State University at Raleigh
+73.37
+C
+315
+19
+Colorado Mesa University
+73.25
+C
+348
+20
+University of Tulsa
+73.12
+C
+174
+21
+Florida State University
+73.05
+C
+321
+22
+University of South Florida
+72.69
+C
+276
+23
+University of Colorado Boulder
+72.60
+C
+350
+24
+University of California-Davis
+72.55
+C
+277
+25
+DePauw University
+72.47
+C-
+161
+26
+Oregon State University
+72.07
+C-
+283
+27
+University of Arizona
+71.78
+C-
+278
+28
+William & Mary
+71.60
+C-
+270
+29
+Arizona State University Campus Immersion
+71.57
+C-
+278
+
+
+PAGE 27
+25	 Foundation for Individual Rights and Expression
+2027 College Free Speech Rankings
+Rank
+School
+Overall Score
+Climate 
+Grade
+Students 
+Surveyed
+30
+University of Missouri-Columbia
+71.44
+C-
+286
+31
+University of North Carolina at Chapel Hill
+71.21
+C-
+347
+32
+Northern Arizona University
+70.78
+C-
+282
+33
+University of Mississippi
+70.68
+C-
+187
+34
+Mississippi State University
+70.27
+C-
+244
+35
+Kansas State University
+70.01
+C-
+227
+36
+University of Maryland-College Park
+69.93
+C-
+312
+37
+University of Wyoming
+69.01
+D+
+150
+38
+University of Louisville
+69.00
+D+
+148
+39
+Auburn University
+68.29
+D+
+316
+40
+The University of Alabama
+68.28
+D+
+280
+41
+University of Alabama in Huntsville
+67.96
+D+
+181
+42
+Clemson University
+67.82
+D+
+309
+43
+Virginia Commonwealth University
+67.55
+D+
+285
+44
+University of New Hampshire-Main Campus
+67.38
+D+
+329
+45
+University of Alabama at Birmingham
+66.99
+D+
+236
+46
+Iowa State University
+66.94
+D+
+299
+47
+The University of Tennessee-Knoxville
+66.82
+D+
+306
+48
+The University of Texas at El Paso
+66.81
+D+
+207
+49
+Colgate University
+66.78
+D+
+103
+50
+Duke University
+66.76
+D+
+225
+51
+University of Wisconsin-Eau Claire
+66.38
+D
+283
+52
+Southern Methodist University
+66.31
+D
+182
+53
+The University of Texas at Arlington
+66.00
+D
+314
+54
+Utah State University
+65.98
+D
+298
+55
+Stanford University
+65.83
+D
+294
+56
+Washington University in St Louis
+65.67
+D
+282
+57
+Louisiana State University and Agricultural  
+& Mechanical College
+65.29
+D
+244
+58
+North Carolina A & T State University
+65.26
+D
+297
+59
+Boise State University
+65.12
+D
+169
+
+
+PAGE 28
+26	 Foundation for Individual Rights and Expression
+2027 College Free Speech Rankings
+Rank
+School
+Overall Score
+Climate 
+Grade
+Students 
+Surveyed
+60
+Washington and Lee University
+65.06
+D
+103
+61
+University of Wisconsin-Madison
+65.05
+D
+361
+62
+Franklin and Marshall College
+65.05
+D
+101
+63
+Davidson College
+64.88
+D
+100
+64
+Wright State University-Main Campus
+64.82
+D
+153
+65
+Syracuse University
+64.79
+D
+344
+66
+University of Wisconsin-Milwaukee
+64.73
+D
+271
+67
+The University of Texas at San Antonio
+64.71
+D
+265
+68
+Emory University
+64.64
+D
+297
+69
+Clark University
+64.61
+D
+156
+70
+Michigan State University
+64.49
+D
+318
+71
+Harvard University
+64.42
+D
+287
+72
+Yale University
+64.13
+D
+280
+73
+University of Central Florida
+64.09
+D
+285
+74
+Northeastern Illinois University
+64.05
+D
+107
+75
+Oklahoma State University-Main Campus
+63.79
+D
+204
+76
+Kenyon College
+63.57
+D
+151
+77
+Miami University-Oxford
+63.56
+D
+294
+78
+University of Nevada-Las Vegas
+63.51
+D
+270
+79
+University of Colorado Colorado Springs
+63.39
+D
+220
+80
+Bowling Green State University-Main Campus
+63.38
+D
+291
+81
+University of Missouri-Kansas City
+63.14
+D
+271
+82
+Colorado School of Mines
+63.11
+D
+193
+83
+Florida International University
+63.09
+D
+169
+84
+Furman University
+63.06
+D
+202
+85
+Gettysburg College
+63.04
+D
+211
+86
+Massachusetts Institute of Technology
+63.03
+D
+290
+87
+University of Idaho
+63.01
+D
+289
+88
+Denison University
+62.98
+D
+176
+
+
+PAGE 29
+27	 Foundation for Individual Rights and Expression
+2027 College Free Speech Rankings
+Rank
+School
+Overall Score
+Climate 
+Grade
+Students 
+Surveyed
+89
+Virginia Polytechnic Institute and State University
+62.91
+D
+319
+90
+Northwestern University
+62.88
+D
+358
+91
+University of Toledo
+62.86
+D
+155
+92
+Georgia State University
+62.84
+D
+265
+93
+Washington State University
+62.82
+D
+266
+94
+University of California-Los Angeles
+62.69
+D
+330
+95
+Wheaton College (Massachusetts)
+62.62
+D
+155
+96
+University of Colorado Denver/Anschutz Medical  
+Campus
+62.60
+D
+267
+97
+University of Georgia
+62.59
+D
+314
+98
+Brown University
+62.54
+D
+289
+99
+University of Oklahoma-Norman Campus
+62.34
+D-
+200
+100
+Florida Atlantic University
+62.27
+D-
+301
+101
+Ohio University-Main Campus
+62.27
+D-
+307
+102
+University of Nebraska-Lincoln
+62.19
+D-
+392
+103
+University of Maine
+62.16
+D-
+277
+104
+University of Nevada-Reno
+62.07
+D-
+235
+105
+University of Iowa
+62.03
+D-
+271
+106
+Amherst College
+62.01
+D-
+84
+107
+Montana State University
+61.93
+D-
+245
+108
+University of Cincinnati-Main Campus
+61.84
+D-
+284
+109
+Williams College
+61.79
+D-
+118
+110
+Western Michigan University
+61.79
+D-
+293
+111
+University of Kansas
+61.76
+D-
+291
+112
+Worcester Polytechnic Institute
+61.57
+D-
+228
+113
+Chapman University
+61.19
+D-
+285
+114
+Johns Hopkins University
+61.19
+D-
+262
+115
+Towson University
+61.08
+D-
+291
+116
+Carleton College
+60.93
+D-
+112
+117
+Georgetown University
+60.73
+D-
+150
+118
+California State University-Los Angeles
+60.70
+D-
+223
+
+
+PAGE 30
+28	 Foundation for Individual Rights and Expression
+2027 College Free Speech Rankings
+Rank
+School
+Overall Score
+Climate 
+Grade
+Students 
+Surveyed
+119
+University of Florida
+60.60
+D-
+283
+120
+Wesleyan University
+60.57
+D-
+115
+121
+Case Western Reserve University
+60.47
+D-
+288
+122
+Berea College
+60.44
+D-
+177
+123
+Brandeis University
+60.39
+D-
+271
+124
+The University of Texas at Austin
+60.30
+D-
+339
+125
+Hamilton College
+60.22
+D-
+112
+126
+Rensselaer Polytechnic Institute
+60.18
+D-
+287
+127
+University at Buffalo
+60.18
+D-
+302
+128
+Lehigh University
+60.08
+D-
+286
+129
+University of Illinois Chicago
+60.04
+D-
+242
+130
+Wayne State University
+60.01
+D-
+327
+131
+University of Utah
+59.99
+D-
+294
+132
+California Institute of Technology
+59.87
+D-
+76
+133
+Haverford College
+59.86
+D-
+82
+134
+Arkansas State University
+59.84
+D-
+309
+135
+Colorado State University-Fort Collins
+59.84
+D-
+319
+136
+Skidmore College
+59.81
+D-
+199
+137
+Southeast Missouri State University
+59.80
+D-
+166
+138
+California State University-Long Beach
+59.75
+D-
+299
+139
+New Jersey Institute of Technology
+59.57
+D-
+299
+140
+Boston University
+59.50
+D-
+326
+141
+Missouri State University-Springfield
+59.49
+F
+296
+142
+Eastern Michigan University
+59.46
+F
+214
+143
+Illinois State University
+59.46
+F
+273
+144
+University of California-Irvine
+59.40
+F
+294
+145
+Temple University
+59.36
+F
+293
+146
+University of California-Merced
+59.28
+F
+275
+147
+University at Albany
+59.25
+F
+255
+147
+Colby College
+59.25
+F
+150
+149
+SUNY College at Geneseo
+59.19
+F
+204
+
+
+PAGE 31
+29	 Foundation for Individual Rights and Expression
+2027 College Free Speech Rankings
+Rank
+School
+Overall Score
+Climate 
+Grade
+Students 
+Surveyed
+150
+University of Denver
+59.16
+F
+158
+151
+University of California-Riverside
+59.14
+F
+278
+152
+University of California-Santa Barbara
+59.12
+F
+336
+153
+West Virginia University
+59.11
+F
+273
+154
+University of California-Santa Cruz
+59.04
+F
+289
+155
+American University
+59.03
+F
+192
+156
+University of New Mexico-Main Campus
+59.02
+F
+279
+157
+University of Hawaii at Manoa
+59.02
+F
+320
+158
+North Dakota State University-Main Campus
+58.98
+F
+297
+159
+Wake Forest University
+58.77
+F
+172
+160
+Pitzer College
+58.77
+F
+114
+161
+Colorado College
+58.71
+F
+102
+162
+Tufts University
+58.68
+F
+216
+163
+Pennsylvania State University-Main Campus
+58.60
+F
+291
+164
+University of Illinois Urbana-Champaign
+58.56
+F
+361
+165
+Central Michigan University
+58.56
+F
+284
+166
+University of Michigan-Ann Arbor
+58.46
+F
+327
+167
+Scripps College
+58.40
+F
+154
+168
+University of Memphis
+58.37
+F
+310
+169
+Dakota State University
+58.37
+F
+150
+170
+Vassar College
+58.31
+F
+150
+171
+James Madison University
+58.26
+F
+298
+172
+Knox College
+58.26
+F
+81
+173
+Fordham University
+58.20
+F
+165
+174
+Ohio State University-Main Campus
+58.18
+F
+333
+175
+New Mexico State University-Main Campus
+58.18
+F
+155
+176
+Princeton University
+58.13
+F
+212
+177
+University of Delaware
+58.07
+F
+283
+178
+University of Vermont
+57.97
+F
+240
+179
+University of Oregon
+57.96
+F
+315
+180
+University of Massachusetts-Amherst
+57.93
+F
+302
+
+
+PAGE 32
+30	 Foundation for Individual Rights and Expression
+2027 College Free Speech Rankings
+Rank
+School
+Overall Score
+Climate 
+Grade
+Students 
+Surveyed
+181
+Duquesne University
+57.88
+F
+294
+182
+Fort Lewis College
+57.85
+F
+150
+183
+University of Houston
+57.82
+F
+274
+184
+Harvey Mudd College
+57.79
+F
+100
+185
+Montclair State University
+57.75
+F
+198
+186
+Bowdoin College
+57.72
+F
+152
+187
+Carnegie Mellon University
+57.68
+F
+232
+188
+San Diego State University
+57.67
+F
+206
+189
+Kent State University at Kent
+57.65
+F
+338
+190
+Binghamton University
+57.56
+F
+277
+191
+Bard College
+57.48
+F
+88
+192
+Texas A&M University-College Station
+57.37
+F
+298
+193
+Texas Tech University
+57.30
+F
+250
+194
+Oberlin College
+57.19
+F
+86
+195
+University of Connecticut
+57.01
+F
+334
+196
+Stony Brook University
+57.00
+F
+313
+197
+George Washington University
+56.96
+F
+318
+198
+University of Southern California
+56.84
+F
+293
+199
+College of Charleston
+56.79
+F
+213
+200
+University of California-San Diego
+56.61
+F
+288
+201
+Bucknell University
+56.52
+F
+171
+202
+University of Kentucky
+56.51
+F
+292
+203
+University of Rhode Island
+56.50
+F
+279
+204
+University of Minnesota-Twin Cities
+56.49
+F
+288
+205
+University of Pittsburgh-Pittsburgh Campus
+56.36
+F
+317
+206
+Clarkson University
+56.28
+F
+89
+207
+Macalester College
+56.01
+F
+102
+208
+California State University-Fresno
+55.98
+F
+299
+209
+Connecticut College
+55.97
+F
+155
+210
+Utah Valley University
+55.81
+F
+246
+
+
+PAGE 33
+31	 Foundation for Individual Rights and Expression
+2027 College Free Speech Rankings
+Rank
+School
+Overall Score
+Climate 
+Grade
+Students 
+Surveyed
+211
+Santa Clara University
+55.75
+F
+259
+212
+Wellesley College
+55.73
+F
+179
+213
+Tulane University of Louisiana
+55.66
+F
+217
+214
+Rowan University
+55.63
+F
+185
+215
+University of California-Berkeley
+55.58
+F
+293
+216
+Stevens Institute of Technology
+55.57
+F
+297
+217
+Swarthmore College
+55.49
+F
+110
+218
+Occidental College
+55.48
+F
+117
+219
+Cornell University
+55.48
+F
+289
+220
+Illinois Institute of Technology
+55.46
+F
+175
+221
+Barnard College
+55.45
+F
+101
+222
+University of Alaska Anchorage
+55.17
+F
+105
+223
+Trinity College
+55.16
+F
+161
+224
+Smith College
+55.04
+F
+167
+225
+Adams State University
+54.70
+F
+101
+226
+Pomona College
+54.59
+F
+153
+227
+University of Pennsylvania
+54.42
+F
+297
+228
+Mount Holyoke College
+54.36
+F
+151
+229
+University of Rochester
+54.29
+F
+181
+230
+Bates College
+54.22
+F
+83
+231
+Marquette University
+54.05
+F
+272
+232
+University of Notre Dame
+54.04
+F
+243
+233
+California Polytechnic State University-San Luis Obispo
+53.99
+F
+234
+234
+University of San Francisco
+53.96
+F
+187
+235
+Lafayette College
+53.88
+F
+177
+236
+Creighton University
+53.79
+F
+227
+237
+University of Dayton
+53.75
+F
+275
+238
+Portland State University
+53.72
+F
+178
+239
+Southern Illinois University-Carbondale
+53.71
+F
+201
+240
+San Jose State University
+53.44
+F
+229
+241
+DePaul University
+53.39
+F
+215
+
+
+PAGE 34
+32	 Foundation for Individual Rights and Expression
+2027 College Free Speech Rankings
+Rank
+School
+Overall Score
+Climate 
+Grade
+Students 
+Surveyed
+242
+University of Arkansas
+53.26
+F
+177
+243
+Southern Illinois University Edwardsville
+53.11
+F
+278
+244
+Grinnell College
+53.06
+F
+118
+245
+Middlebury College
+52.93
+F
+150
+246
+Columbia University in the City of New York
+52.77
+F
+185
+247
+Villanova University
+52.50
+F
+172
+248
+University of North Texas
+52.49
+F
+266
+249
+Drexel University
+52.39
+F
+337
+250
+Rice University
+52.37
+F
+208
+251
+The University of Texas at Dallas
+52.30
+F
+330
+252
+Howard University
+51.40
+F
+326
+253
+University of Miami
+51.39
+F
+311
+254
+Loyola University Chicago
+51.21
+F
+270
+255
+Boston College
+50.86
+F
+291
+256
+Indiana University-Bloomington
+50.60
+F
+341
+257
+Rutgers University-New Brunswick
+49.91
+F
+381
+258
+Northeastern University
+49.78
+F
+252
+259
+Texas State University
+47.82
+F
+349
+260
+University of Washington-Seattle Campus
+47.50
+F
+293
+261
+New York University
+44.97
+F
+245
+
+
+PAGE 35
+33	 Foundation for Individual Rights and Expression
+2027 College Free Speech Rankings
+School
+Year
+Speech controversy
+Current penalty
+Rutgers University
+2026
+Campus security removed 
+multiple individuals who 
+attempted to disrupt an  
+event featuring Yossi Hertz,  
+a former Israel Defense 
+Forces soldier.55  
+-1 point
+Rutgers University
+2026
+Rescinding an invitation 
+to Rami Elghandour, an 
+alumnus and the chairman 
+and CEO of Arcellx, to deliver 
+the School of Engineering’s 
+commencement convocation 
+address because of social 
+media posts he made 
+accusing Israel of war crimes 
+and apartheid.56
+-3 points
+Rutgers University
+2025
+Cancellation of a virtual 
+mini-conference featuring 
+multiple presidents from 
+historically black colleges 
+and universities after Trump’s 
+executive orders restricting 
+the use of federal funds on 
+DEI initiatives.57  
+-2 points
+Rutgers University
+2024
+Disruption of a presidential 
+town hall by pro-Palestinian 
+protesters.58  
+-1 point
+55 Wallin, J. (April 24, 2026). Protest unfolds outside IDF soldier event's campus venue. Available online: https://dailytargum.com/article/ 
+protest-unfolds-outside-idf-soldier-speech-campus-venue-20260424.
+56 Quinn, R. (May 7, 2026). Rutgers disinvites engineering graduation speaker after he criticizes Israel. Available online: https://www. 
+insidehighered.com/news/quick-takes/2026/05/07/rutgers-disinvites-grad-speaker-after-he-criticizes-israel. 
+57 Blake, J. (January 24, 2025). Rutgers center cancels conference in response to Trump DEI orders. Available online: https://www.inside 
+highered.com/news/quick-takes/2025/01/24/rutgers-cancels-hbcu-event-align-trump-dei-orders#. 
+58 Stimson, B. (April 6, 2024). Jewish students at Rutgers speak out in wake of latest anti-Israel incident on campus: 'Horrifying experience': 
+Video of the incident showed pro-Palestinian protesters chanting after Rutgers' president said the school wouldn't sever ties with  
+Tel Aviv University. Available online: https://www.foxnews.com/us/jewish-students-rutgers-speak-latest-anti-israel-incident-campus- 
+horrifying-experience. 
+Appendix
+TABLE 1. SPEECH CONTROVERSIES AND OUTCOMES AT LOWEST-RANKED SCHOOLS
+
+
+PAGE 36
+34	 Foundation for Individual Rights and Expression
+2027 College Free Speech Rankings
+School
+Year
+Speech controversy
+Current penalty
+Northeastern University
+2025
+Organizers canceled a 
+planned lecture by Raz 
+Segal, an Israeli historian 
+and genocide scholar, after 
+the Northeastern University 
+Police Department demanded 
+a list of names of all the 
+registered attendees.59  
+-2 points
+Texas State University
+2025
+The termination of Thomas 
+Alter, a tenured professor 
+of history, for delivering 
+an online talk during the 
+Revolutionary Socialism 
+Conference in which he  
+critiqued capitalism, 
+called for organizing a 
+“revolutionary socialist 
+party,” and posed a 
+rhetorical challenge about 
+how to overthrow the U.S. 
+government.60  
+-4 points
+Texas State University
+2025
+The expulsion of a student 
+after a video went viral 
+showing him mocking the 
+assassination of Charlie 
+Kirk during a campus vigil. 
+The video drew national 
+attention, including from 
+Texas Governor Greg Abbott 
+and Rudy Giuliani, both of 
+whom publicly called for the 
+student’s expulsion.61  
+-2 points
+59 Zullo, D. (April 30, 2025). Northeastern under fire for allegedly demanding guest list for talk by Israeli historian: The guest speaker event with 
+Raz Segal, an Israeli historian, was scheduled to take place March 27 before the talk was canceled. Available online: https://www.boston.com/
+news/local-news/2025/04/30/northeastern-faces-condemnation-after-allegedly-demanding-attendee-list-for-talk-by-israeli-historian/. 
+60 Runnels, A. (September 10, 2025). Texas State fires professor accused of trying to incite political violence in video. Thomas Alter’s lawyer 
+said the professor would seek legal action for being fired after allegedly violating university policy in a video posted on social media. Avail-
+able online: https://www.texastribune.org/2025/09/10/texas-state-university-professor-fired/. 
+61 Quinn, R. (September 18, 2025). Texas Governor targets students who allegedly mocked Kirk’s death: Republican Greg Abbott called 
+online for Texas State to expel a student. He says it did, raising further alarm from higher ed observers about the conservative crackdown on 
+people denigrating the slain activist. Available online: https://www.insidehighered.com/news/students/free-speech/2025/09/18/abbott-tar-
+gets-students-who-allegedly-mocked-kirks-death. 
+
+
+PAGE 37
+35	 Foundation for Individual Rights and Expression
+2027 College Free Speech Rankings
+School
+Year
+Speech controversy
+Current penalty
+Texas State University
+2025
+The hosting of Dr. Khalid 
+el-Hakim’s Black History 
+101 Mobile Museum on 
+campus was canceled 
+following consultation 
+with “supervisors and the 
+leadership team” who cited 
+“Senate Bill 17 (88R), the 
+climate of our State, and 
+certain topics covered as part 
+of the museum” as reasons for 
+the cancellation.62  
+-2 points
+Texas State University
+2025
+Idris Robinson, a professor 
+of philosophy, was first 
+placed on leave and then 
+later informed his contract 
+would not be renewed nearly 
+a year after he was accused 
+on social media for inciting 
+violence by delivering 
+a talk titled “Strategic 
+Lessons from the Palestinian 
+Resistance” at the Another 
+Carolina Anarchist Book Fair 
+in Asheville, North Carolina.63  
+-2 points
+University of Washington 
+2026
+Investigating Mara Maughan, 
+a research scientist and 
+engineer at the university, 
+after public backlash over 
+her comment on an X post by 
+school-choice activist Corey 
+DeAngelis that said “may 
+there be tyler robinsons for 
+you all.”64  
+-1 point
+62 Solomon, T. (December 18, 2025). Texas State University cancels Black History 101 Mobile Museum visit, prompting ACLU challenge.  
+Available online: https://www.artnews.com/art-news/news/txst-black-history-101-mobile-museum-visit-aclu-challenge-1234767478/.
+63 Priest, J. (March 25, 2026). Texas State University professor’s firing after Israeli-Palestinian comments blocked: Philosophy professor Idris 
+Robinson argued that his comments, made in an off-campus setting, were protected speech. Available online: https://www.texastribune.
+org/2026/03/25/texas-state-university-professor-lawsuit-fired-israel-palestine/. 
+64 Gill, J. (January 15, 2026). UW investigates researcher over alleged violent social media post targeting conservatives. Available online: 
+https://seattlered.com/culture/uw-scientist-investigation/4116104.
+
+
+PAGE 38
+36	 Foundation for Individual Rights and Expression
+2027 College Free Speech Rankings
+School
+Year
+Speech controversy
+Current penalty
+University of Washington
+2026
+Repeated attempts to 
+disrupt a TPUSA event 
+featuring Nick Freitas, 
+a former member of the 
+Virginia House of Delegates. 
+Before and during the event, 
+opposing student-side actors 
+sought to interfere with it. 
+Counterprotesters gathered 
+outside the event tent, 
+chanting and using drums 
+to drown out the speaker, 
+and the campus chapter of 
+Students for a Democratic 
+Society had urged students 
+beforehand to “shut down” 
+and “yell [Turning Point USA] 
+off our campus.”65  
+-2 points
+University of Washington
+2026
+The cancellation of an event 
+featuring Noa Cochva, a 
+former Israel Defense Forces 
+(IDF) combat medic and Miss 
+Israel 2021, due to public 
+opposition and anticipated 
+safety concerns.66  
+-3 points	
+University of Washington
+2026
+The postponement of an 
+event featuring Chloe Cole, a 
+detransitioner and opponent 
+of gender-affirming care, 
+following public opposition 
+to Cole’s appearance on 
+campus in the aftermath 
+of the killing of a 19-year-
+old transgender student 
+connected to university-
+affiliated housing.67  
+-1 point
+65 Collins, T. & Hull, A. (April 29, 2026). Student arrested for disrupting Turning Point USA event on HUB Lawn. Available online:  
+https://www.dailyuw.com/article/student-arrested-for-disrupting-turning-point-usa-event-on-hub-lawn-20260429. 
+66 Gallagher, N. & Hull, A. (April 24, 2026). Organizers rally against event with IDF soldier, event preemptively canceled amid  
+‘safety concerns’. Available online: https://www.dailyuw.com/article/organizers-rally-against-event-with-idf-soldier-event-preemptively-can-
+celled-amid-safety-concerns-20260424.
+67 Taheri, M. (May 14, 2026). TPUSA cancels event after alleged antifa threats: “I hope you get killed.” Available online: https://www.news-
+week.com/tpusa-cancels-event-college-antifa-threats-11951576.
+
+
+PAGE 39
+37	 Foundation for Individual Rights and Expression
+2027 College Free Speech Rankings
+School
+Year
+Speech controversy
+Current penalty
+University of Washington
+2025
+Protesters surrounded a 
+room where Olivia Krolczyk 
+was speaking about women's 
+rights to the campus’s TPUSA 
+chapter and pulled the 
+fire alarm in the building. 
+Krolczyk and members 
+of TPUSA barricaded 
+themselves inside the room 
+before they were escorted 
+out by university police and 
+security.68  
+-2 points
+University of Washington
+2024	
+The disruption of a Board 
+of Regents meeting during 
+which protesters affiliated 
+with UW Divest for Pales-
+tine shouted down speakers 
+during the public comment 
+period of a proposal to form 
+a committee to consider 
+university divestment from 
+"weapons companies" that 
+do business with Israel.69  
+-1 point
+University of Washington
+2024
+The repeated disruption 
+of the final lecture in the 
+university’s War in the  
+Middle East Lecture Series 
+delivered by Daniel Kurtzer,  
+a former U.S. ambassador  
+to Israel.70  
+-1 point
+68 Davidson, P. & Hull, A. (January 21, 2025). UW Turning Point USA event cancelled following counter-rallies: Saw fire alarm evacuation and 
+Thomson Hall window broken. Available online: https://www.dailyuw.com/article/deb300a0-d87b-11ef-af6d-1f2a10c10816. 
+69 Richardson, V. (September 15, 2024). Anti-Israel protesters shut down University of Washington board meeting by disrupting speakers. 
+Available online: https://www.washingtontimes.com/news/2024/sep/15/anti-israel-protesters-shut-down-university-of-was/. 
+70 Hull, A. & Kab, A. (February 29, 2024). Pro-Palestinian protesters disrupt final War in the Middle East Lecture Series event: Students 
+oppose UW-hosted lecturer Daniel Kurtzer, former US Ambassador to Israel. Available online: https://www.dailyuw.com/article/c06571d6-
+d6c5-11ee-90da-cb15b955f86e. 
+
+
+PAGE 40
+38	 Foundation for Individual Rights and Expression
+2027 College Free Speech Rankings
+School
+Year
+Speech controversy
+Current penalty
+New York University
+2026
+Administrators barred 
+students from inviting 
+multiple performers affiliated 
+with No Music For Genocide 
+to the university’s annual 
+V100 concert, which is 
+organized and planned 
+by students and student 
+organizations.71  
+-3 points	
+New York University
+2026
+Administrators directed 
+the campus chapter of 
+Jews Against Zionism to 
+“immediately remove” an 
+Instagram post advertising 
+a Passover Seder and 
+investigated the campus 
+chapter of Law Students for 
+Justice in Palestine, despite 
+the group claiming to not be 
+involved in the event or its 
+promotion.72  
+-1 point	
+New York University
+2025
+The university’s law school 
+canceled a Federalist 
+Society event featuring Ilya 
+Shapiro, a senior fellow at 
+the Manhattan Institute, 
+that had been scheduled 
+for October 7, days before 
+it was scheduled to occur. 
+Following criticism from civil-
+liberties advocates, including 
+FIRE, the university reversed 
+course and reinstated the 
+event in a larger room with 
+additional security.73  
+-2 points
+71 Dev, K. (March 13, 2026). NYU censored V100 artist booking process, Program Board says: Students claim administrators offered an 
+extra $30,000 after barring them from working with artists boycotting Israel. Available online: https://nyunews.com/news/2026/03/13/pro-
+gram-board-statement/. 
+72 Saadah, Y. (May 7, 2026). NYU investigates Instagram post advertising anti-Zionist Passover Seder: The Jewish students and faculty who 
+organized the Seder are demanding the investigation be halted and calling for a boycott of NYU Hillel. Available online: https://nyunews.com/
+news/2026/05/07/nyu-investigates-anti-zionist-seder-instagram-post/. 
+73 Sibarium, A. (October 1, 2025). NYU axes Federalist Society event scheduled for Oct. 7, citing security concerns. Available online: https://
+freebeacon.com/campus/nyu-axes-federalist-society-event-scheduled-for-oct-7-citing-security-concerns/;  Wilewicz, A. (October 10, 2025). 
+Opinion: NYU cares more about image than free speech: The university’s speedy response to restoring a Federalist Society panel shows that 
+moral consistency takes a back seat to public relations. Available online: https://nyunews.com/opinion/2025/10/10/federalist-society-speak-
+er-free-speech/.
+
+
+PAGE 41
+39	 Foundation for Individual Rights and Expression
+2027 College Free Speech Rankings
+School
+Year
+Speech controversy
+Current penalty
+New York University
+2025
+The cancellation of a panel 
+discussion hosted by the 
+NYU College Republicans 
+titled “Immigrant Invasion: 
+You don’t have to go home 
+but you can’t stay here,” 
+due to safety concerns and 
+what it described as a “call 
+to arms” made by one of 
+the scheduled panelists in a 
+now-deleted tweet.74  
+-2 points	
+New York University
+2025
+The cancellation of a 
+presentation by Joanne Liu, the 
+former international head of 
+Doctors Without Borders, the 
+night before it was scheduled 
+to occur. Liu was informed by 
+the university’s vice chair of 
+the education department that 
+they had concerns about the 
+content of some of her slides, 
+including those mentioning 
+casualties in Gaza as a result 
+of the Israel-Hamas war, and 
+those discussing cuts  
+at USAID.75 
+-2 points
+New York University
+2024
+Administrators rejected 
+a request by the campus 
+chapter of Students for 
+Justice in Palestine to open an 
+event featuring a discussion 
+between Rashid Khalidi, 
+a professor at Columbia 
+University, and Sinan 
+Antoon, a professor at NYU, 
+because of concerns about 
+“contentious speakers.” 76  
+-1 point
+74 Chen, A. (April 10, 2025). NYU cancels College Republicans event after panelist requests ‘armed security’: Thousands signed a petition 
+criticizing the panel, titled “Immigrant Invasion,” which was set to feature influencers known for “white supremacist, xenophobic and hateful 
+rhetoric.” Available online: https://nyunews.com/news/2025/04/10/college-republicans-panel-canceled/. 
+75 Betts, A. (March 31, 2025). NYU canceled talk on USAID cuts for being ‘anti-governmental’, doctor says: University called Dr Joanne Liu, 
+ex-head of Doctors Without Borders, after planning to speak on Gaza and federal cuts. Available online: https://www.theguardian.com/us-
+news/2025/mar/31/doctor-nyu-usaid-gaza-presentation-canceled. 
+76 Gonzalez, M. (March 14, 2024). NYU restricts SJP event access, citing admin concerns of ‘contentious speakers’ on college campuses:  
+The university closed public access to a Students for Justice in Palestine event last week, and a similar event was postponed by another  
+student-led organization earlier this month. Available online: https://nyunews.com/news/2024/03/14/nyu-responds-to-event-cancellations/. 
+
+
+PAGE 42
+40	Foundation for Individual Rights and Expression
+2027 College Free Speech Rankings
+About us
+COLLEGE PULSE
+College Pulse is a survey research and analytics company 
+dedicated to understanding the attitudes, preferences, 
+and behaviors of today’s college students. College Pulse 
+delivers custom data-driven marketing and research 
+solutions, utilizing its unique American College Student 
+Panel™ that includes over 1,000,000 college students 
+and recent alumni from more than 1,500 two- and four-
+year colleges and universities in all 50 states. 
+For more information,  
+visit collegepulse.com or @CollegeInsights on X.
+FIRE
+The Foundation for Individual Rights and Expression 
+(FIRE) is a nonpartisan, nonprofit organization dedicated 
+to defending and sustaining the individual rights of all 
+Americans to free speech and free thought. These rights 
+include freedom of speech, freedom of association, due 
+process, legal equality, religious liberty, and sanctity of 
+conscience — the most essential qualities of liberty. 
+FIRE also recognizes that colleges and universities play a 
+vital role in preserving free thought within a free society. 
+To this end, we place a special emphasis on defending 
+these rights of students and faculty members on our 
+nation’s campuses.
+For more information,  
+visit fire.org or @thefireorg on X.
+ 
+Acknowledgments and suggested citation
+Our gratitude goes to Sean Stevens for question-
+naire design, scoring methodology, data analysis, and 
+authorship of this report. Nathan Honeycutt, Chapin 
+Lenthall-Cleary, Angela C. Erickson, and Sam Abrams 
+also provided support with questionnaire design, 
+scoring methodology, data analysis, data validation, 
+and editing. Emily Nayyer designed the figures and also 
+contributed to data validation and editing. We would 
+additionally like to thank Keelyn M. Gallagher, Logan 
+Dougherty, Sheridan Macy, and Ryne Weiss for support 
+with data validation and editing; and Christine Henke 
+for designing this report. Finally, FIRE is a nonprofit 
+organization and these rankings would not be possible 
+without the generous support of our donors.
+Greg Lukianoff
+President and CEO, FIRE 
+Recommended Citations:  
+Report: Stevens, S.T. (2026). 2027 College Free 
+Speech Rankings: What Is the State of Free Speech 
+on America’s College Campuses? The Foundation for 
+Individual Rights and Expression.  
+https://www.fire.org/rankings
+Website: Stevens, S.T. (2026). College Free Speech Rankings. 
+rankings.fire.org
+
+
+PAGE 43
+41	 Foundation for Individual Rights and Expression
+2027 College Free Speech Rankings
+P.O. Box 40128
+Philadelphia, PA 19106
+T: 215.717.3473
+www.fire.org
+@thefireorg

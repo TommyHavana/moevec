@@ -1,0 +1,92 @@
+{
+  "number": 349,
+  "id": "E1.4.04",
+  "title": "El derecho a recibir información: la otra mitad de la libertad de expresión",
+  "slug": "derecho-a-recibir-informacion",
+  "seo_title": "Derecho a recibir información: acceso y límites | MEE",
+  "description": "El derecho a recibir información también protege a quien escucha. Revisa acceso a internet, bloqueos y sus pruebas con fuentes de ONU, UIT y OONI con MEE.",
+  "keyword": "derecho a recibir información",
+  "secondary_keywords": [
+    "acceso a internet",
+    "bloqueo de sitios",
+    "mediciones OONI",
+    "brecha digital"
+  ],
+  "standfirst": "El derecho a recibir información permite escuchar y contrastar ideas, además de expresar las propias. MEE examina las barreras de acceso a internet y cómo se documentan posibles bloqueos. Distingue una dificultad de conexión de una interferencia acreditada y plantea cómo valorar las restricciones sin perder de vista a quienes necesitan informarse.",
+  "tags": [
+    "libertad-de-expresion",
+    "fundamentos"
+  ],
+  "images": {
+    "featured": {
+      "file": "e1-4-04-derecho-a-recibir-informacion-destacada-v2.webp",
+      "title": "Una abertura para recibir información",
+      "alt": "Ilustración conceptual sobre derecho a recibir información: una ventana marfil está cerrada con bloques geométricos y deja pasar una franja de luz azul.",
+      "caption": "Metáfora del acceso restringido a información; no representa un bloqueo medido."
+    },
+    "interior-1": {
+      "file": "e1-4-04-derecho-a-recibir-informacion-interior-1.webp",
+      "title": "Señales que llegan a una antena",
+      "alt": "Una antena azul recibe hilos rojos y azules que se curvan sobre una superficie marfil.",
+      "caption": "Ilustración conceptual de recepción; no representa cobertura ni tráfico real."
+    },
+    "interior-2": {
+      "file": "e1-4-04-derecho-a-recibir-informacion-interior-2.webp",
+      "title": "Una biblioteca abierta",
+      "alt": "Las puertas de una biblioteca marfil están abiertas y muestran libros azules y rojos sin títulos.",
+      "caption": "Metáfora de acceso a ideas; no muestra una biblioteca o catálogo real."
+    }
+  },
+  "review": {
+    "sources_verified": true,
+    "editorial_checked": true,
+    "checked_on": "2026-10-30",
+    "original_images": true,
+    "images_visually_checked": true,
+    "illustrative_examples": true,
+    "sources": [
+      {
+        "name": "Naciones Unidas, Declaración Universal de Derechos Humanos, artículo 19",
+        "url": "https://www.un.org/es/about-us/universal-declaration-of-human-rights",
+        "scope": "Texto oficial compartido con procedencia y releído: buscar/recibir/difundir información. No acceso ilimitado a todo dato privado ni declaración confundida con procedimiento nacional."
+      },
+      {
+        "name": "UIT, Measuring digital development: Facts and Figures 2025",
+        "url": "https://www.itu.int/dms_pub/itu-d/opb/ind/d-ind-ict_mdd-2025-3-pdf-e.pdf",
+        "scope": "PDF42p; leídos prefacio, internet use impresa1/PDF7 y metodología impresas29–30/PDF35–36.74% y6mil millones son estimaciones2025, no cifra2026; cobertura distinta de uso. Sin lectura completa de42p fingida ni número offline atribuido a censura."
+      },
+      {
+        "name": "OONI, Web Connectivity",
+        "url": "https://ooni.org/nettest/web-connectivity/",
+        "scope": "Método primario leído íntegro: comparación DNS/TCP/HTTP con control y falsos positivos. No mediciones propias ejecutadas ni diagnóstico de un proveedor."
+      },
+      {
+        "name": "OONI, Frequently Asked Questions",
+        "url": "https://ooni.github.io/support/faq/",
+        "scope": "Secciones pertinentes normal/anomalous/confirmed, false positives y periodo/red leídas. Algunas descripciones del FAQ difieren en alcance de confirmed; no simplificar todos erroresDNScomo prueba concluyente."
+      },
+      {
+        "name": "OONI, Risks: Things you should know before running OONI Probe",
+        "url": "https://ooni.org/about/risks/",
+        "scope": "Resumen y secciones detección/publicación pertinentes leídos: actividad visible y datos publicados por defecto, riesgos dependen del contexto. No promesa de anonimato ni medir/red del usuario sin encargo."
+      },
+      {
+        "name": "Comité de Derechos Humanos, Observación general 34,2011, texto en Refworld",
+        "url": "https://www.refworld.org/legal/general/hrc/2011/en/79729",
+        "scope": "Párrafos15,18–19,21–25 leídos por web: acceso y restricciones legales necesarias/proporcionadas. Curl403 archivado. No ley universal de internet gratuito ni recurso garantizado para todo caso."
+      },
+      {
+        "name": "Freedom House, Freedom on the Net Research Methodology",
+        "url": "https://freedomhouse.org/reports/freedom-net/freedom-net-research-methodology",
+        "scope": "Metodología primaria compartida y consultada: obstáculos al acceso, límites al contenido y derechos de usuarios son dimensiones distintas. No índice completo o correlación propios."
+      }
+    ],
+    "omitted_claims": [
+      "No toda caída, falloDNS o anomalía demuestra bloqueo intencional; ningún caso o medición propia fingido.",
+      "No dato de uso de internet equivale a calidad, acceso libre o cantidad de personas censuradas.",
+      "No tratar cada precio elevado como censura demostrada o violación jurídica automática.",
+      "OONI no es herramienta de anonimato; el artículo no pide instalar ni ejecutar pruebas.",
+      "No convertir protección de menores o seguridad nacional en justificación automática de cualquier restricción."
+    ]
+  }
+}

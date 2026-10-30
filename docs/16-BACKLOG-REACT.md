@@ -1,6 +1,6 @@
 # Backlog de MEE
 
-Último estado: **348/840 terminadas, 1044 imágenes originales públicas, 0 en curso o borradores WordPress y 492 pendientes**. Libertad de Expresión 3/15; 23 tandas completas. Producidas consecutivamente 343–348 desde 342. Siguiente **349–351 / E1.4.04–E1.4.06**, Educación y Valores → Libertad de Expresión. Briefs, pistas y documentos compartidos parcialmente preparados; cada entrada tiene 0/3 imágenes, sin texto final ni publicación. Incluidas en las 492 pendientes. Reanudar lectura y crear originales, sin duplicar lo guardado. Después 352–354. Automatización activa; no se ha comunicado agotamiento de generación.
+Último estado: **357/840 terminadas, 1071 imágenes originales públicas, 0 en curso o borradores WordPress y 483 pendientes**. Libertad de Expresión 12/15; 23 tandas completas. Producidas consecutivamente 349–357 desde 348. Siguiente **358–360 / E1.4.13–E1.4.15**, Educación y Valores → Libertad de Expresión. Briefs y pistas guardados; guías EFF compartidas en E1.4.15 pendientes de relectura; cada entrada tiene 0/3 imágenes, sin texto final ni publicación. Incluidas en las 483 pendientes. Reanudar lectura y crear originales, sin duplicar lo guardado. Después 361–363. Automatización activa; no se ha comunicado agotamiento de generación.
 
 
 Historial anterior: producción comprobada tras el bloque 4–6: 6/840 terminadas. En elaboración local: 7–9 con nueve imágenes propias; todavía no cuentan como publicadas. Consultar siempre WordPress y el registro 24 para el estado más reciente.

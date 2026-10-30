@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-30T04:32:16+00:00.
+Comprobado en WordPress: 2026-10-30T05:31:56+00:00.
 
-**348/840 terminadas · 0 en curso · 492 pendientes.**
+**357/840 terminadas · 0 en curso · 483 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -360,15 +360,15 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 346 | 24/56 · 1/15 | E1.4.01 | Por qué la libertad de expresión protege sobre todo a quien no tiene poder | terminada | 3/3 | [Leer](https://moevec.org/blog/libertad-expresion-protege-al-debil/) |
 | 347 | 24/56 · 2/15 | E1.4.02 | Censura, moderación y crítica: tres cosas distintas que se confunden | terminada | 3/3 | [Leer](https://moevec.org/blog/censura-moderacion-critica/) |
 | 348 | 24/56 · 3/15 | E1.4.03 | Libertad de expresión y prosperidad: qué relación muestran los datos | terminada | 3/3 | [Leer](https://moevec.org/blog/libertad-expresion-y-prosperidad/) |
-| 349 | 24/56 · 4/15 | E1.4.04 | El derecho a recibir información: la otra mitad de la libertad de expresión | pendiente | 0/3 | — |
-| 350 | 24/56 · 5/15 | E1.4.05 | Discurso de odio: dónde está el límite y quién lo decide | pendiente | 0/3 | — |
-| 351 | 24/56 · 6/15 | E1.4.06 | Cuba y la libertad de expresión: Decreto 370, Decreto-Ley 35 y redes sociales | pendiente | 0/3 | — |
-| 352 | 24/56 · 7/15 | E1.4.07 | La cultura de la cancelación desde la libertad de expresión | pendiente | 0/3 | — |
-| 353 | 24/56 · 8/15 | E1.4.08 | Libertad académica: universidades donde no se puede discrepar | pendiente | 0/3 | — |
-| 354 | 24/56 · 9/15 | E1.4.09 | Anonimato y seudónimo: un derecho con historia | pendiente | 0/3 | — |
-| 355 | 24/56 · 10/15 | E1.4.10 | Libertad de expresión comercial: ¿tiene derecho a hablar una empresa? | pendiente | 0/3 | — |
-| 356 | 24/56 · 11/15 | E1.4.11 | Venezuela: cierre de medios y control de la información (2007–hoy) | pendiente | 0/3 | — |
-| 357 | 24/56 · 12/15 | E1.4.12 | Libertad de expresión en España: leyes que generan debate | pendiente | 0/3 | — |
+| 349 | 24/56 · 4/15 | E1.4.04 | El derecho a recibir información: la otra mitad de la libertad de expresión | terminada | 3/3 | [Leer](https://moevec.org/blog/derecho-a-recibir-informacion/) |
+| 350 | 24/56 · 5/15 | E1.4.05 | Discurso de odio: dónde está el límite y quién lo decide | terminada | 3/3 | [Leer](https://moevec.org/blog/discurso-de-odio-limites/) |
+| 351 | 24/56 · 6/15 | E1.4.06 | Cuba y la libertad de expresión: Decreto 370, Decreto-Ley 35 y redes sociales | terminada | 3/3 | [Leer](https://moevec.org/blog/cuba-libertad-expresion-decretos/) |
+| 352 | 24/56 · 7/15 | E1.4.07 | La cultura de la cancelación desde la libertad de expresión | terminada | 3/3 | [Leer](https://moevec.org/blog/cultura-de-la-cancelacion/) |
+| 353 | 24/56 · 8/15 | E1.4.08 | Libertad académica: universidades donde no se puede discrepar | terminada | 3/3 | [Leer](https://moevec.org/blog/libertad-academica/) |
+| 354 | 24/56 · 9/15 | E1.4.09 | Anonimato y seudónimo: un derecho con historia | terminada | 3/3 | [Leer](https://moevec.org/blog/anonimato-y-seudonimo/) |
+| 355 | 24/56 · 10/15 | E1.4.10 | Libertad de expresión comercial: ¿tiene derecho a hablar una empresa? | terminada | 3/3 | [Leer](https://moevec.org/blog/libertad-expresion-comercial/) |
+| 356 | 24/56 · 11/15 | E1.4.11 | Venezuela: cierre de medios y control de la información (2007–hoy) | terminada | 3/3 | [Leer](https://moevec.org/blog/venezuela-cierre-medios/) |
+| 357 | 24/56 · 12/15 | E1.4.12 | Libertad de expresión en España: leyes que generan debate | terminada | 3/3 | [Leer](https://moevec.org/blog/libertad-expresion-espana-debate/) |
 | 358 | 24/56 · 13/15 | E1.4.13 | Desinformación: soluciones que no requieren un ministerio de la verdad | pendiente | 0/3 | — |
 | 359 | 24/56 · 14/15 | E1.4.14 | Periodistas independientes en América Latina: riesgos y herramientas | pendiente | 0/3 | — |
 | 360 | 24/56 · 15/15 | E1.4.15 | Guía de seguridad digital para expresarte con libertad | pendiente | 0/3 | — |

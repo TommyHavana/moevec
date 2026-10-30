@@ -843,3 +843,33 @@ Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobad
 Siguiente **349–351 / E1.4.04–E1.4.06**, Educación y Valores → Libertad de Expresión. Preparaciones incluidas en las 492 pendientes. E1.4.04: 0/3 imágenes locales; sin texto final, sin publicación; E1.4.05: 0/3 imágenes locales; sin texto final, sin publicación; E1.4.06: 0/3 imágenes locales; sin texto final, sin publicación. Después 352–354. Automatización activa, sin agotamiento comunicado.
 
 Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 349–351 · 30/10/2026
+
+351/840 terminadas, 1053 imágenes originales públicas, 0 en curso o borradores WordPress y 489 pendientes.
+
+349: DUDH19/GC34 acceso y límites, UIT2025 estimaciones74% y6mil millones con metodología; OONI anomalías/falsos positivos y riesgos, sin mediciones propias. 350: Brandenburg1969 percuriam separado de concurrencias, CEDH10 y síntesis no vinculante TEDH28feb2026; Marcuse1965/ed1969, apertura y p109 cotejadas visualmente, selección partidista explícita y crítica MEE. 351: DL370dictado2018/publicado2019,68i/70/71 sin prisión automática; DL35 distinto de Resolución105. ARTICLE19mayo2020, Amnistía sobre ElToque noviembre2025 y OCLE-ICLEP sobre Llerandi septiembre2026 atribuidos, sin expediente judicial fingido. EFF planificación sin garantía de invulnerabilidad.
+
+Siguiente **352–354 / E1.4.07–E1.4.09**, Educación y Valores → Libertad de Expresión. Preparaciones incluidas en las 489 pendientes. E1.4.07: 0/3 imágenes locales; sin texto final, sin publicación; E1.4.08: 0/3 imágenes locales; sin texto final, sin publicación; E1.4.09: 0/3 imágenes locales; sin texto final, sin publicación. Después 355–357. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 352–354 · 30/10/2026
+
+354/840 terminadas, 1062 imágenes originales públicas, 0 en curso o borradores WordPress y 486 pendientes.
+
+352: MillcapítuloI y encuestaFIREedición2027/campoenero–junio2026, panel/ponderación,20% y7% de frecuencias de autocensura en clase, sin atribuir causa o tasas de sanción. 353: AFI2026 con datos2025,50descensos sustanciales/estadísticos2015–2025, versión16 e incertidumbre, Chicago2015 como compromiso institucional; enlace eje7.6. 354: Publius1787–1788, McIntyre1995 como precedente estadounidense específico, ACNUDH2018 y EFFsin garantía de anonimato; no motivos privados inventados de MEE.
+
+Siguiente **355–357 / E1.4.10–E1.4.12**, Educación y Valores → Libertad de Expresión. Preparaciones incluidas en las 486 pendientes. E1.4.10: 0/3 imágenes locales; sin texto final, sin publicación; E1.4.11: 0/3 imágenes locales; sin texto final, sin publicación; E1.4.12: 0/3 imágenes locales; sin texto final, sin publicación. Después 358–360. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 355–357 · 30/10/2026
+
+357/840 terminadas, 1071 imágenes originales públicas, 0 en curso o borradores WordPress y 483 pendientes.
+
+355: Virginia Pharmacy1976 como precedente estadounidense sobre precios y receptores, Benham1972 leído en reproducción2013con datos1963y diseño observacional, sin ahorro universal. 356: Granier2015/restricción indirecta de RCTV2007, LeyResorte texto2010y VE sinFiltro6oct2026,143dominios/102sitios y45/71desbloqueos con unidades/ISP distintos, sin medirMEEo asumir permanencia. 357: Constitución20, LO4/2015yTC172/2020(noautorizadonulo), CódigoPenal578separado deSternTaulats2018, RSF29/180y75.42/FH91/100edición2026con métodos y periodos, sin equivalencia a tasas deexpresión permitida.
+
+Siguiente **358–360 / E1.4.13–E1.4.15**, Educación y Valores → Libertad de Expresión. Preparaciones incluidas en las 483 pendientes. E1.4.13: 0/3 imágenes locales; sin texto final, sin publicación; E1.4.14: 0/3 imágenes locales; sin texto final, sin publicación; E1.4.15: 0/3 imágenes locales; sin texto final, sin publicación. Después 361–363. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
