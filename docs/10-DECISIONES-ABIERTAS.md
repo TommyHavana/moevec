@@ -983,3 +983,33 @@ Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobad
 Siguiente **391–393 / E1.9.01–E1.9.03**, Educación y Valores → Educación Científica y Actualizada. Preparaciones incluidas en las 450 pendientes. E1.9.01: 0/3 imágenes locales; sin texto final, sin publicación; E1.9.02: 0/3 imágenes locales; sin texto final, sin publicación; E1.9.03: 0/3 imágenes locales; sin texto final, sin publicación. Después 394–396. Automatización activa, sin agotamiento comunicado.
 
 Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 391–393 · 30/10/2026
+
+393/840 terminadas, 1179 imágenes originales públicas, 0 en curso o borradores WordPress y 447 pendientes.
+
+391: Popper por extracto de 1963; ensayos aleatorios del premio 2019 distintos de experimentos naturales del 2021; Mises II.10 leído con sus límites. 392: tres conceptos de Lusardi y Mitchell sin jerarquía causal inventada; PISA 2022 de estudiantes de 15 años y promedio participante; crítica de 2014 por manuscrito contrastada con 76 experimentos del metaanálisis NBER 2020. Aviso financiero y ejercicios propios. 393: WEF 2025 como expectativas de empleadores hasta 2030, sin fecha universal de caducidad; PIAAC 2023 y actualización OCDE 2026 con alcance explícito. Rutina MEE propuesta, no eficacia garantizada. Nueve originales revisados.
+
+Siguiente **394–396 / E1.9.04–E1.9.06**, Educación y Valores → Educación Científica y Actualizada. Preparaciones incluidas en las 447 pendientes. E1.9.04: 0/3 imágenes locales; sin texto final, sin publicación; E1.9.05: 0/3 imágenes locales; sin texto final, sin publicación; E1.9.06: 0/3 imágenes locales; sin texto final, sin publicación. Después 397–399. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 394–396 · 30/10/2026
+
+396/840 terminadas, 1188 imágenes originales públicas, 0 en curso o borradores WordPress y 444 pendientes.
+
+394: cinco libros diferenciados de cinco recursos abiertos; fichas editoriales, extractos y catálogos con alcance explícito, MIT de 2011 y enlace fallido de 2018 descartado. 395: Knight III.VII, Taleb por presentación editorial y Duke por web de autora; valor esperado 40 y sensibilidad a cero en ejercicio propio, sin probabilidad real ni consejo personal. 396: UIS vía WDI, alfabetización 97,65% en 2019 y matrícula bruta secundaria 91,75% en 2024 con denominadores distintos; corte octubre 2026 no cambia esos años. Constitución 22/32/55/73, Freedom House 2026 abreviado sobre 2025 y Becker conferencia 1992. Sin currículo concreto no verificado ni ausencia total de propiedad privada. Nueve originales propios.
+
+Siguiente **397–399 / E1.9.07–E1.9.09**, Educación y Valores → Educación Científica y Actualizada. Preparaciones incluidas en las 444 pendientes. E1.9.07: 0/3 imágenes locales; sin texto final, sin publicación; E1.9.08: 0/3 imágenes locales; sin texto final, sin publicación; E1.9.09: 0/3 imágenes locales; sin texto final, sin publicación. Después 400–402. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 397–399 · 30/10/2026
+
+399/840 terminadas, 1197 imágenes originales públicas, 0 en curso o borradores WordPress y 441 pendientes.
+
+397: PISA 2025 publicado el 8/9/2026, tabla de matemáticas con 2022/2025 para cuatro países y promedio OCDE por ciclo; Colombia -2 no significativo, sin ranking exacto ni causalidad. 398: Friedman por versión 1962/1982 con antecedente 1955, estudios suecos 2012/2015 separados de Chile NBER 2003 y Tooley extracto 2009; acceso efectivo y segregación, sin superioridad universal. 399: Snook por ficha editorial, documentos históricos del museo USHMM y texto Lysenko 1948 con respaldo político atribuido; UNESCO 2023 como recomendación y criterios propios MEE revisables. Nueve originales, sin testimonios o pruebas de efectos inventados.
+
+Siguiente **400–402 / E1.9.10–E1.9.12**, Educación y Valores → Educación Científica y Actualizada. Preparaciones incluidas en las 441 pendientes. E1.9.10: 0/3 imágenes locales; sin texto final, sin publicación; E1.9.11: 0/3 imágenes locales; sin texto final, sin publicación; E1.9.12: 0/3 imágenes locales; sin texto final, sin publicación. Después 403–405. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.

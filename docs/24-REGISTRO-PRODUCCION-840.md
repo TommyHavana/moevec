@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-30T09:31:40+00:00.
+Comprobado en WordPress: 2026-10-30T10:31:13+00:00.
 
-**390/840 terminadas · 0 en curso · 450 pendientes.**
+**399/840 terminadas · 0 en curso · 441 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -402,15 +402,15 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 388 | 26/56 · 13/15 | E1.8.13 | Mediación vecinal y comunitaria: justicia sin tribunales | terminada | 3/3 | [Leer](https://moevec.org/blog/mediacion-vecinal-comunitaria/) |
 | 389 | 26/56 · 14/15 | E1.8.14 | Inseguridad jurídica y emprendimiento en América Latina | terminada | 3/3 | [Leer](https://moevec.org/blog/inseguridad-juridica-emprendimiento/) |
 | 390 | 26/56 · 15/15 | E1.8.15 | Derechos del consumidor: justicia en el intercambio cotidiano | terminada | 3/3 | [Leer](https://moevec.org/blog/derechos-del-consumidor/) |
-| 391 | 27/56 · 1/15 | E1.9.01 | Qué es el método científico y por qué sirve también para la economía | pendiente | 0/3 | — |
-| 392 | 27/56 · 2/15 | E1.9.02 | Educación financiera: lo que todos deberían saber a los 18 | pendiente | 0/3 | — |
-| 393 | 27/56 · 3/15 | E1.9.03 | Conocimientos que caducan: cómo mantenerte actualizado | pendiente | 0/3 | — |
-| 394 | 27/56 · 4/15 | E1.9.04 | Divulgación económica para principiantes: diez libros y recursos gratuitos | pendiente | 0/3 | — |
-| 395 | 27/56 · 5/15 | E1.9.05 | Pensamiento probabilístico: decidir sin certezas | pendiente | 0/3 | — |
-| 396 | 27/56 · 6/15 | E1.9.06 | La educación en Cuba: alfabetización alta, información restringida | pendiente | 0/3 | — |
-| 397 | 27/56 · 7/15 | E1.9.07 | PISA explicado: qué mide y qué dicen los resultados de la región | pendiente | 0/3 | — |
-| 398 | 27/56 · 8/15 | E1.9.08 | Libertad educativa: cheques escolares, educación en casa y escuelas privadas de bajo coste | pendiente | 0/3 | — |
-| 399 | 27/56 · 9/15 | E1.9.09 | Adoctrinamiento: cómo reconocerlo en cualquier dirección | pendiente | 0/3 | — |
+| 391 | 27/56 · 1/15 | E1.9.01 | Qué es el método científico y por qué sirve también para la economía | terminada | 3/3 | [Leer](https://moevec.org/blog/metodo-cientifico-y-economia/) |
+| 392 | 27/56 · 2/15 | E1.9.02 | Educación financiera: lo que todos deberían saber a los 18 | terminada | 3/3 | [Leer](https://moevec.org/blog/educacion-financiera-basica/) |
+| 393 | 27/56 · 3/15 | E1.9.03 | Conocimientos que caducan: cómo mantenerte actualizado | terminada | 3/3 | [Leer](https://moevec.org/blog/conocimientos-que-caducan/) |
+| 394 | 27/56 · 4/15 | E1.9.04 | Divulgación económica para principiantes: diez libros y recursos gratuitos | terminada | 3/3 | [Leer](https://moevec.org/blog/divulgacion-economica-principiantes/) |
+| 395 | 27/56 · 5/15 | E1.9.05 | Pensamiento probabilístico: decidir sin certezas | terminada | 3/3 | [Leer](https://moevec.org/blog/pensamiento-probabilistico/) |
+| 396 | 27/56 · 6/15 | E1.9.06 | La educación en Cuba: alfabetización alta, información restringida | terminada | 3/3 | [Leer](https://moevec.org/blog/educacion-en-cuba/) |
+| 397 | 27/56 · 7/15 | E1.9.07 | PISA explicado: qué mide y qué dicen los resultados de la región | terminada | 3/3 | [Leer](https://moevec.org/blog/pisa-explicado-region/) |
+| 398 | 27/56 · 8/15 | E1.9.08 | Libertad educativa: cheques escolares, educación en casa y escuelas privadas de bajo coste | terminada | 3/3 | [Leer](https://moevec.org/blog/libertad-educativa-cheque-escolar/) |
+| 399 | 27/56 · 9/15 | E1.9.09 | Adoctrinamiento: cómo reconocerlo en cualquier dirección | terminada | 3/3 | [Leer](https://moevec.org/blog/adoctrinamiento-reconocerlo/) |
 | 400 | 27/56 · 10/15 | E1.9.10 | Formación profesional y oficios: el camino infravalorado | pendiente | 0/3 | — |
 | 401 | 27/56 · 11/15 | E1.9.11 | Universidades gratuitas en línea: guía para aprender desde Cuba y América Latina | pendiente | 0/3 | — |
 | 402 | 27/56 · 12/15 | E1.9.12 | Inteligencia artificial para aprender: usos útiles y trampas | pendiente | 0/3 | — |

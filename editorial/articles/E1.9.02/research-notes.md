@@ -1,3 +1,19 @@
-# Preparación · E1.9.02
+# Investigación y publicación · E1.9.02
 
-Brief original conservado; fuentes sin verificar, cero imágenes, sin texto final ni publicación. Incluida entre pendientes.
+Consulta: 30/10/2026. Alcance específico; descargar una obra no implica lectura íntegra.
+
+- [Annamaria Lusardi y Olivia S. Mitchell, The Economic Importance of Financial Literacy: Theory and Evidence, manuscrito NBER de 2013, publicado en Journal of Economic Literature en 2014](https://www.nber.org/papers/w18952.pdf): Lectura pertinente: introducción y sección 3, páginas PDF 10–12, diseño de las tres preguntas sobre cálculo de intereses, inflación y diversificación. No lectura íntegra ni prueba de que sean las tres intervenciones de mayor efecto causal.
+- [OCDE, PISA 2022 Results, Volume IV: Factsheets, Spain (2024)](https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/06/pisa-2022-results-volume-iv-country-notes_1ac5350e/spain_70754b28/c718309b-en.pdf): Páginas PDF 2–3 y nota de población: evaluación a estudiantes de 15 años. España 486 frente a 498, 17% por debajo de nivel 2 frente a 18% del promedio OCDE participante. No muestra de quienes tienen 18 años ni de toda la población.
+- [Daniel Fernandes, John G. Lynch y Richard G. Netemeyer, Financial Literacy, Financial Education and Downstream Financial Behaviors, manuscrito de 08/10/2013, publicación en Management Science en 2014](https://www.budgetchallenge.com/Portals/0/Documents/FinEd_Paper_Fernandes.pdf): Manuscrito primario de los autores alojado por Budget Challenge; resumen y planteamiento leídos. 168 trabajos/201 estudios; efectos reducidos y pérdida de efecto con plazo en la evidencia estudiada. DOI editorial 10.1287/mnsc.2013.1849 bloqueado; no se presenta esta versión previa como copia final maquetada.
+- [Tim Kaiser, Annamaria Lusardi, Lukas Menkhoff y Carly Urban, Financial Education Affects Financial Knowledge and Downstream Behaviors, NBER Working Paper 27057 (2020), publicación posterior en 2022](https://www.nber.org/papers/w27057.pdf): Resumen e introducción, PDF páginas 1–4: 76 experimentos aleatorios y más de 160000 participantes, efectos medios positivos. Se usa la versión NBER consultada, sin fingir lectura del texto editorial de 2022 ni equivalencia de muestras con el análisis anterior.
+
+## Límites
+
+- No se afirma que los tres conceptos sean los de mayor efecto causal ni que contestar un test garantice buena conducta.
+- No PISA 2022 representa toda la OCDE, jóvenes de 18 años, trabajadores o ranking universal.
+- No porcentajes de rentabilidad recomendados, productos, cartera, deuda o ahorro adecuados a cada persona.
+- No se trata el metaanálisis crítico de 2014 como conclusión definitiva: se contrasta con evidencia aleatoria posterior.
+
+## Resultado
+
+https://moevec.org/blog/educacion-financiera-basica/ · 1212 palabras en WordPress. Tres imágenes propias, una publicación y tres adjuntos, sin duplicados.

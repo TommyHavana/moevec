@@ -1,6 +1,6 @@
 # Backlog de MEE
 
-Último estado: **390/840 terminadas, 1170 imágenes originales públicas, 0 en curso o borradores WordPress y 450 pendientes**. Justicia 15/15; 26 tandas completas. Producidas consecutivamente 382–390 desde 381. Siguiente **391–393 / E1.9.01–E1.9.03**, Educación y Valores → Educación Científica y Actualizada, tanda 27/56. Briefs originales conservados; 0/3 imágenes por entrada, fuentes sin verificar, sin texto final ni publicación. Incluidas en las 450 pendientes. Reanudar investigación y generar originales sin duplicar recursos. Después 394–396. Automatización activa; sin agotamiento comunicado.
+Último estado: **399/840 terminadas, 1197 imágenes originales públicas, 0 en curso o borradores WordPress y 441 pendientes**. Educación Científica y Actualizada 9/15; 26 tandas completas. Producidas consecutivamente 391–399 desde 390. Siguiente **400–402 / E1.9.10–E1.9.12**, Educación y Valores → Educación Científica y Actualizada, tanda 27/56. Briefs originales conservados; 0/3 imágenes por entrada, fuentes sin verificar, sin texto final ni publicación. Incluidas entre las 441 pendientes. Reanudar investigación y generar originales sin duplicar recursos. Después 403–405. Automatización activa; sin agotamiento comunicado.
 
 
 Historial anterior: producción comprobada tras el bloque 4–6: 6/840 terminadas. En elaboración local: 7–9 con nueve imágenes propias; todavía no cuentan como publicadas. Consultar siempre WordPress y el registro 24 para el estado más reciente.

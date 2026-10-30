@@ -1,3 +1,18 @@
-# Preparación · E1.9.03
+# Investigación y publicación · E1.9.03
 
-Brief original conservado; fuentes sin verificar, cero imágenes, sin texto final ni publicación. Incluida entre pendientes.
+Consulta: 30/10/2026. Alcance específico; descargar una obra no implica lectura íntegra.
+
+- [World Economic Forum, The Future of Jobs Report 2025, resumen, metodología y capítulo 3, Skills outlook](https://reports.weforum.org/docs/WEF_Future_of_Jobs_Report_2025.pdf): Leídos pasajes de resumen y metodología y capítulo 3: más de 1000 empleadores, 55 economías, expectativa de cambio del 39% de habilidades centrales hasta 2030 y habilidades por crecimiento/declive esperado. Son expectativas de empleadores, no caducidad medida de todo conocimiento o probabilidad individual de perder empleo.
+- [OCDE, Survey of Adult Skills 2023: Insights and Interpretations (2024)](https://www.oecd.org/content/dam/oecd/en/publications/support-materials/2024/12/survey-of-adult-skills-2023_1ab54c9e/PIAAC2024_InsightsInterpretations_FULL.pdf): Leídas introducción y páginas PDF 7–9: competencias lectoras, numéricas y resolución adaptativa de problemas, comparación entre encuestas y diferencias de edad. No permite medir la vida media de todo saber técnico ni seguir la evolución individual con la mera comparación transversal.
+- [OCDE, How Workers Use, or Don’t Use, their Skills in the Workplace, capítulo How has skills use changed over time (2026)](https://www.oecd.org/en/publications/how-workers-use-or-don-t-use-their-skills-in-the-workplace_0e7c6dc9-en/full-report/how-has-skills-use-changed-over-time_3bd7028b.html): Actualización consultada mediante búsqueda del navegador en fuente oficial: compara uso de habilidades entre ciclos con notas metodológicas. Descarga directa 403; alcance limitado al extracto recuperado. Se utiliza únicamente para distinguir uso de competencia y no añadir cifras de esa fuente.
+
+## Límites
+
+- No existe en estas fuentes una fecha universal de caducidad ni se afirma que todo lo estudiado haya dejado de servir.
+- El 39% del WEF se presenta como expectativa para habilidades centrales entre 2025 y 2030, no porcentaje de empleos que desaparecerán ni diagnóstico personal.
+- La rutina propuesta por MEE no es tratamiento validado ni promesa de empleo, salario o duración óptima.
+- No causalidad entre edad y competencia, comparación de las mismas personas a lo largo del tiempo, ni ranking nuevo de 2026 del WEF no consultado.
+
+## Resultado
+
+https://moevec.org/blog/conocimientos-que-caducan/ · 1173 palabras en WordPress. Tres imágenes propias, una publicación y tres adjuntos, sin duplicados.

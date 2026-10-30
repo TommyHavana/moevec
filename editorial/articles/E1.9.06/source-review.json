@@ -1,0 +1,141 @@
+{
+  "checked_on": "2026-10-30",
+  "sources": [
+    {
+      "name": "UNESCO UIS, alfabetización adulta, distribuida en World Development Indicators, serie SE.ADT.LITR.ZS, Cuba",
+      "url": "https://api.worldbank.org/v2/country/CUB/indicator/SE.ADT.LITR.ZS?format=json&per_page=100",
+      "scope": "API consultada 30/10/2026, corte WDI actualizado 08/10/2026. Última observación no nula recuperada: 2019, 97.6500015258789%, población de 15 años o más; se redondea a 97,65%. Metadatos identifican UIS API, acceso 19/03/2026 y publicación febrero 2026. El año de acceso no reemplaza el año de observación."
+    },
+    {
+      "name": "UNESCO UIS, matrícula neta primaria y bruta secundaria, WDI, Cuba",
+      "url": "https://api.worldbank.org/v2/country/CUB/indicator/SE.SEC.ENRR?format=json&per_page=100",
+      "scope": "Series y metadatos conservados: SE.PRM.NENR última observación 2018, 97.73994%; SE.SEC.ENRR 2024, 91.7456844321038%. Se publica solo la secundaria redondeada a 91,75%; bruta admite todas las edades y no equivale al porcentaje exacto de adolescentes escolarizados. Sin comparación temporal directa con alfabetización."
+    },
+    {
+      "name": "Cuba, Constitución de 2019, Gaceta Oficial Extraordinaria 5 de 10/04/2019, artículos 22, 32, 55 y 73",
+      "url": "https://www.gacetaoficial.gob.cu/sites/default/files/goc-2019-ex5.pdf",
+      "scope": "PDF oficial compartido desde E1.8.12, SHA y procedencia conservados; artículos pertinentes releídos. Enseñanza estatal/laica, ciencia y valores, libertad investigativa declarada; derecho educativo, propiedad de medios fundamentales y privada con papel complementario. No diagnóstico de cada aula ni promesa de cumplimiento efectivo."
+    },
+    {
+      "name": "Freedom House, Cuba: Freedom in the World 2026, informe abreviado sobre hechos de 2025",
+      "url": "https://freedomhouse.org/country/cuba/freedom-world/2026",
+      "scope": "Leídos overview y aviso de edición abreviada, hechos de 2025; evaluación del autor sobre pluralismo y medios independientes. No se atribuyen narraciones escolares o casos individuales ausentes en la versión abreviada; valoración externa, distinta de sentencia."
+    },
+    {
+      "name": "Gary S. Becker, The Economic Way of Looking at Life, conferencia Nobel de 09/12/1992, apartado 4, Human Capital",
+      "url": "https://www.nobelprize.org/uploads/2018/06/becker-lecture.pdf",
+      "scope": "Texto primario: PDF páginas 6–7, inversión en educación/formación con costes y beneficios monetarios y no monetarios. Se usa conferencia, no lectura íntegra de Human Capital de 1964; no causalidad cuantificada sobre Cuba."
+    }
+  ],
+  "archived_files": [
+    {
+      "file": "sources/SE.ADT.LITR.ZS-metadata.json",
+      "bytes": 860,
+      "sha256": "1d14ffeda10a9189e2dd257422fca00d6f09a6217205e83ad44516c470c71518"
+    },
+    {
+      "file": "sources/SE.ADT.LITR.ZS.json",
+      "bytes": 15518,
+      "sha256": "9240c4bd15412fbf973ec6eafd4b3f67778852c863e825a8135ada3b647e51e5"
+    },
+    {
+      "file": "sources/SE.PRM.NENR-metadata.json",
+      "bytes": 818,
+      "sha256": "7a2965bdb07a901add6a0243a660e9bfc048e0a845c45f30785ade27383073a3"
+    },
+    {
+      "file": "sources/SE.PRM.NENR.json",
+      "bytes": 13857,
+      "sha256": "68218ecfac626facc5d8188c00caeb68c9421d6154bdfded0c86c86de7ade33e"
+    },
+    {
+      "file": "sources/SE.SEC.ENRR-metadata.json",
+      "bytes": 1107,
+      "sha256": "eec553a1bd5742b286200a0a8b461f396409e1bb323ef4dcfae40e0ba012565e"
+    },
+    {
+      "file": "sources/SE.SEC.ENRR.json",
+      "bytes": 14580,
+      "sha256": "243ea95d8e838db1941c3fb7c36a5c7fb61f0877a1fff4af80bc1487287e0631"
+    },
+    {
+      "file": "sources/becker1992.pdf",
+      "bytes": 225007,
+      "sha256": "bf3d752bbe3b3ce2145d0aa9efef8a77ea62ff95c3885b7e72f1906e7ac181a9"
+    },
+    {
+      "file": "sources/becker1992.pdf.retrieval.json",
+      "bytes": 229,
+      "sha256": "c4498ef26f4af99d3bccd53927f7b940848c57ac5205d2db7d2b496d8d81a778"
+    },
+    {
+      "file": "sources/becker1992.txt",
+      "bytes": 61182,
+      "sha256": "c3f02c6cf49fd693f657b7ac5a0276ea300bf0349d7f7c388abe15a14bb20bde"
+    },
+    {
+      "file": "sources/fh2026.html",
+      "bytes": 78987,
+      "sha256": "3f58b9984f19c5482328a9662158da78d5945c7acbfeb1f1acc0c02e3e00b5a2"
+    },
+    {
+      "file": "sources/fh2026.html.retrieval.json",
+      "bytes": 204,
+      "sha256": "524294890d480b37422b666f89c9fe090752e69e86fd6b9ff3ec58f72d988714"
+    },
+    {
+      "file": "sources/fh2026.txt",
+      "bytes": 11804,
+      "sha256": "0eb23d02746dd707ac5cd007fbe4a9fc1317d7d4ab3038a8a770fee6cceb2be8"
+    },
+    {
+      "file": "sources/gaceta2019.pdf",
+      "bytes": 419799,
+      "sha256": "595a3b808c93dc0533c1517d90a0c22e445dd5bcc638a9e8159c16493e1b2fef"
+    },
+    {
+      "file": "sources/gaceta2019.provenance.json",
+      "bytes": 284,
+      "sha256": "19ea9fdb3242dc75655f6fae5ee80cd54c335fa91bfbbe9355daae33d7b1f8c9"
+    },
+    {
+      "file": "sources/gaceta2019.txt",
+      "bytes": 133391,
+      "sha256": "8d535ed394a336f20323ba218fce0991a760a8ee5c83897c3586cb4879af6b8f"
+    },
+    {
+      "file": "sources/reading-scope.json",
+      "bytes": 3802,
+      "sha256": "31fbf3196903d942696d4f769d97ac4b69ae1a745a312491a45c6a62bf9031b3"
+    },
+    {
+      "file": "sources/unesco-profile.html",
+      "bytes": 89345,
+      "sha256": "f44fe966d0708153797be39ef0989ea5ff5481b7acd5ad9510232c229082b567"
+    },
+    {
+      "file": "sources/unesco-profile.html.retrieval.json",
+      "bytes": 188,
+      "sha256": "0b0a10187d3fd40d97a2b22d4bda057cb60695585dc0870561fda6965b38a656"
+    },
+    {
+      "file": "sources/unesco-profile.txt",
+      "bytes": 43095,
+      "sha256": "67b94ae61bfb771e6fbaecd472466b167869b9752971aaae907fa86258e34141"
+    }
+  ],
+  "omitted_claims": [
+    "No se sustituye 2019 por 2026 en alfabetización ni se usa una cifra habitual sin contrastar el corte actual.",
+    "No equivalencia entre matrícula bruta y proporción de adolescentes de edad oficial, ni entre matrícula y aprendizaje.",
+    "No se afirma ausencia total de propiedad o actividad privada ni que una sola institución explique toda la economía cubana.",
+    "No se ha verificado un programa curricular MINED vigente por grado: se elimina cualquier descripción concreta de asignaturas o manuales y se delimita el marco constitucional.",
+    "No lectura íntegra de Human Capital, ranking educativo regional, datos de empleo de graduados, emigración o salarios no investigados; no testimonios ni casos escolares inventados como reales."
+  ],
+  "scope": "Lectura pertinente especificada; archivo completo no implica lectura íntegra. Problemas de acceso y fuentes compartidas identificados.",
+  "final_verification": {
+    "checked_at": "2026-10-30T10:16:20.560033+00:00",
+    "published_url": "https://moevec.org/blog/educacion-en-cuba/",
+    "public_checks": "verification.json",
+    "wordpress_registry_words": 1304
+  }
+}
