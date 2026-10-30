@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-30T08:26:59+00:00.
+Comprobado en WordPress: 2026-10-30T09:31:40+00:00.
 
-**381/840 terminadas · 0 en curso · 459 pendientes.**
+**390/840 terminadas · 0 en curso · 450 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -393,15 +393,15 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 379 | 26/56 · 4/15 | E1.8.04 | Contratos: la justicia del día a día | terminada | 3/3 | [Leer](https://moevec.org/blog/contratos-justicia-del-dia-a-dia/) |
 | 380 | 26/56 · 5/15 | E1.8.05 | Igualdad ante la ley frente a privilegios: una historia de la región | terminada | 3/3 | [Leer](https://moevec.org/blog/igualdad-ante-la-ley-privilegios/) |
 | 381 | 26/56 · 6/15 | E1.8.06 | Justicia lenta, justicia negada: el coste económico de los tribunales saturados | terminada | 3/3 | [Leer](https://moevec.org/blog/justicia-lenta-coste-economico/) |
-| 382 | 26/56 · 7/15 | E1.8.07 | Justicia distributiva: el debate entre Rawls y Nozick | pendiente | 0/3 | — |
-| 383 | 26/56 · 8/15 | E1.8.08 | Justicia privada y arbitraje: alternativas al monopolio judicial | pendiente | 0/3 | — |
-| 384 | 26/56 · 9/15 | E1.8.09 | Inseguridad ciudadana y pobreza: quién paga el crimen | pendiente | 0/3 | — |
-| 385 | 26/56 · 10/15 | E1.8.10 | El Salvador y la seguridad: resultados y garantías en debate | pendiente | 0/3 | — |
-| 386 | 26/56 · 11/15 | E1.8.11 | Cómo funciona un juicio: guía para no especialistas | pendiente | 0/3 | — |
-| 387 | 26/56 · 12/15 | E1.8.12 | Justicia en Cuba: independencia judicial y debido proceso | pendiente | 0/3 | — |
-| 388 | 26/56 · 13/15 | E1.8.13 | Mediación vecinal y comunitaria: justicia sin tribunales | pendiente | 0/3 | — |
-| 389 | 26/56 · 14/15 | E1.8.14 | Inseguridad jurídica y emprendimiento en América Latina | pendiente | 0/3 | — |
-| 390 | 26/56 · 15/15 | E1.8.15 | Derechos del consumidor: justicia en el intercambio cotidiano | pendiente | 0/3 | — |
+| 382 | 26/56 · 7/15 | E1.8.07 | Justicia distributiva: el debate entre Rawls y Nozick | terminada | 3/3 | [Leer](https://moevec.org/blog/rawls-vs-nozick/) |
+| 383 | 26/56 · 8/15 | E1.8.08 | Justicia privada y arbitraje: alternativas al monopolio judicial | terminada | 3/3 | [Leer](https://moevec.org/blog/justicia-privada-arbitraje/) |
+| 384 | 26/56 · 9/15 | E1.8.09 | Inseguridad ciudadana y pobreza: quién paga el crimen | terminada | 3/3 | [Leer](https://moevec.org/blog/inseguridad-ciudadana-pobreza/) |
+| 385 | 26/56 · 10/15 | E1.8.10 | El Salvador y la seguridad: resultados y garantías en debate | terminada | 3/3 | [Leer](https://moevec.org/blog/el-salvador-seguridad-garantias/) |
+| 386 | 26/56 · 11/15 | E1.8.11 | Cómo funciona un juicio: guía para no especialistas | terminada | 3/3 | [Leer](https://moevec.org/blog/como-funciona-un-juicio/) |
+| 387 | 26/56 · 12/15 | E1.8.12 | Justicia en Cuba: independencia judicial y debido proceso | terminada | 3/3 | [Leer](https://moevec.org/blog/justicia-en-cuba/) |
+| 388 | 26/56 · 13/15 | E1.8.13 | Mediación vecinal y comunitaria: justicia sin tribunales | terminada | 3/3 | [Leer](https://moevec.org/blog/mediacion-vecinal-comunitaria/) |
+| 389 | 26/56 · 14/15 | E1.8.14 | Inseguridad jurídica y emprendimiento en América Latina | terminada | 3/3 | [Leer](https://moevec.org/blog/inseguridad-juridica-emprendimiento/) |
+| 390 | 26/56 · 15/15 | E1.8.15 | Derechos del consumidor: justicia en el intercambio cotidiano | terminada | 3/3 | [Leer](https://moevec.org/blog/derechos-del-consumidor/) |
 | 391 | 27/56 · 1/15 | E1.9.01 | Qué es el método científico y por qué sirve también para la economía | pendiente | 0/3 | — |
 | 392 | 27/56 · 2/15 | E1.9.02 | Educación financiera: lo que todos deberían saber a los 18 | pendiente | 0/3 | — |
 | 393 | 27/56 · 3/15 | E1.9.03 | Conocimientos que caducan: cómo mantenerte actualizado | pendiente | 0/3 | — |

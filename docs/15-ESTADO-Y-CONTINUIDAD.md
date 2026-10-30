@@ -2,27 +2,27 @@
 
 ## Estado actual
 
-**381/840 terminadas, 1143 imágenes originales públicas, 0 en curso o borradores WordPress y 459 pendientes**. Justicia 6/15; 25 tandas completas y tanda 26 en curso.
+**390/840 terminadas, 1170 imágenes originales públicas, 0 en curso o borradores WordPress y 450 pendientes**. Justicia 15/15; 26 tandas completas y tanda 26 completa.
 
 Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Desde 375: entradas 376–381, 18 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
+Desde 381: entradas 382–390, 27 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
 
 Una publicación y tres adjuntos por ID; categorías Educación y Valores y Justicia, etiquetas exactas. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales y variantes comprobados. Navegación y BreadcrumbList: Blog → área → subcategoría. Taxonomía: 122 nodos, siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva o posicionamiento.
 
 ## Revisión del último bloque
 
-379: Código Civil español con ámbito expreso; B-READY diferencia etapas y la metodología de 2025 se identifica. Cinco cuestiones propuestas por MEE, sin contrato universal y con aviso obligatorio. 380: Cádiz de 1812 y México de 1824 (artículo 154 leído visualmente), Constitución española 71 y mexicana 61/111; 350 y 628 son escaños estructurales, sin censo nacional de aforados inventado. Disolución española del 6 de octubre de 2026 documentada. 381: el XLSX del CGPJ estima 9,2 meses para España en 2025; el informe europeo de 2026 presenta DT de 423 días con datos de 2024 y otro ámbito. CEPEJ define la fórmula teórica y Courts (2003) aporta una asociación, sin causalidad o predicción individual. Portada reencuadrada con image_gen, original conservado.
+388: Ley5/2012art6reformado2025 y LO1/2025 con ámbito/excepciones; Directiva2008porDOUE-BOE. Sitges2025:90atendidos/78cerrados,23%acuerdo y88%soluciónovía entrecerrados, sin satisfacción/cumplimiento o rapidezgarantizados. 389: métodoWBES/indicadoresB-READY, sinpesorelativoconimpuestosinventado; YPFopinión27mar2026ySCOTUS26-442consultado30oct,peticiónsinadmisiónregistrada/respuesta2dic. 390: BOEconsumoactualización28feb2026,conformidadbienes3añosyreglasdistintasdigital/segundamano,desistimiento14/30supuestos yexcepciones; ChileporBCN6meses/condiciones, sintrasladarplazos. Nueveoriginales y portada389reencuadrada; 15/15Justicia.
 
 ## Continuación exacta
 
-Siguiente **382–384 / E1.8.07–E1.8.09**, Educación y Valores → Justicia, tanda 26/56. Briefs originales conservados; 0/3 imágenes por entrada, fuentes sin verificar, sin texto final ni publicación. Incluidas en las 459 pendientes. Reanudar investigación y generar originales sin duplicar recursos. Después 385–387. Automatización activa; sin agotamiento comunicado.
+Siguiente **391–393 / E1.9.01–E1.9.03**, Educación y Valores → Educación Científica y Actualizada, tanda 27/56. Briefs originales conservados; 0/3 imágenes por entrada, fuentes sin verificar, sin texto final ni publicación. Incluidas en las 450 pendientes. Reanudar investigación y generar originales sin duplicar recursos. Después 394–396. Automatización activa; sin agotamiento comunicado.
 
 ## Copias y límites
 
-Respaldo VPS hasta 381: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
+Respaldo VPS hasta 390: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
 
 ## Traspaso
 
@@ -43,6 +43,9 @@ Verificación: `npm run build` con sincronización y TypeScript correctos; PHP l
 Publicación: fuente privada sincronizada y subida, commit de producto `1d84a45`. Actualización de la exportación estática en el contenedor Nginx activo y de los dos archivos WordPress, tanto en la ruta operativa como en `/opt/mee/`. No se reconstruyeron imágenes Docker ni se reiniciaron servicios; un siguiente build del repositorio incluye los cambios. Respaldo previo local completo: `../mee-backups/MEE_Codex_2026-10-29_183813.zip` (7657 archivos, integridad comprobada). Copia previa de React y de los archivos WordPress en `/data/mee-backups/apoyo-20261029T184226/`, gzip comprobado. No se ha probado una restauración arrancada de esta copia.
 
 Siguiente paso de esta petición: concretar el medio de donación y sus datos oficiales para activar pago directo. La producción editorial mantiene su continuidad independiente; esta tarea no modifica sus conteos, artículos, imágenes ni taxonomía.
+
+
+
 
 
 

@@ -953,3 +953,33 @@ Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobad
 Siguiente **382–384 / E1.8.07–E1.8.09**, Educación y Valores → Justicia. Preparaciones incluidas en las 459 pendientes. E1.8.07: 0/3 imágenes locales; sin texto final, sin publicación; E1.8.08: 0/3 imágenes locales; sin texto final, sin publicación; E1.8.09: 0/3 imágenes locales; sin texto final, sin publicación. Después 385–387. Automatización activa, sin agotamiento comunicado.
 
 Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 382–384 · 30/10/2026
+
+384/840 terminadas, 1152 imágenes originales públicas, 0 en curso o borradores WordPress y 456 pendientes.
+
+382: Rawls por extracto1971 y Nozick pp.152–153/160–163 leídas visualmente; titularidad incluye rectificación y Chamberlain es experimento filosófico. 383: ConvenciónNYI–V con límites estatales, crítica históricaKadens; Friedman solo pasaje primario indexado p.116 con PDF inaccesible, Bastos fragmento/preventa noviembre2026. 384: UNSD2026 con homicidios2024 ALC19,3 y mundo5,1/100000; BID2024 datos2022 de22países, alrededor3,4%PIB costesdirectos. No porcentaje de pérdida por hogar, causalidad pobreza-crimen o efectos nacionales no estudiados. Nueve originales propios y ejemplos hipotéticos identificados.
+
+Siguiente **385–387 / E1.8.10–E1.8.12**, Educación y Valores → Justicia. Preparaciones incluidas en las 456 pendientes. E1.8.10: 0/3 imágenes locales; sin texto final, sin publicación; E1.8.11: 0/3 imágenes locales; sin texto final, sin publicación; E1.8.12: 0/3 imágenes locales; sin texto final, sin publicación. Después 388–390. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 385–387 · 30/10/2026
+
+387/840 terminadas, 1161 imágenes originales públicas, 0 en curso o borradores WordPress y 453 pendientes.
+
+385: UNODCjulio2026SLV2021/2024 y balanceFGR2025 separados; no conciliación de209vs114en2024 ni causalidad exclusiva. Prórroga56 anunciada y ficha689pendientepublicaciónmaterial; CIDHabril2026 y HRWoctubre con alcance, Iudopmayo1271hogares/ficha explícita. 386: España como ejemplo, LOPJ9/LEC ordinario, LO1/2025negociación con excepciones y Ley1/1996art16 sin suspensiónautomática. 387: PDFoficialCuba2019independencia148/150 y elección149/rendición154/revocación155; corregido resumen simplista del brief. CIDH2022 y cautelar5/2026 distinguidas de sentencia, FGR2022 atribuida, FH2026datos2025abreviado9/100 sinWJPinventado. Nueve originales y reencuadre portada386 con original conservado.
+
+Siguiente **388–390 / E1.8.13–E1.8.15**, Educación y Valores → Justicia. Preparaciones incluidas en las 453 pendientes. E1.8.13: 0/3 imágenes locales; sin texto final, sin publicación; E1.8.14: 0/3 imágenes locales; sin texto final, sin publicación; E1.8.15: 0/3 imágenes locales; sin texto final, sin publicación. Después 391–393. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 388–390 · 30/10/2026
+
+390/840 terminadas, 1170 imágenes originales públicas, 0 en curso o borradores WordPress y 450 pendientes.
+
+388: Ley5/2012art6reformado2025 y LO1/2025 con ámbito/excepciones; Directiva2008porDOUE-BOE. Sitges2025:90atendidos/78cerrados,23%acuerdo y88%soluciónovía entrecerrados, sin satisfacción/cumplimiento o rapidezgarantizados. 389: métodoWBES/indicadoresB-READY, sinpesorelativoconimpuestosinventado; YPFopinión27mar2026ySCOTUS26-442consultado30oct,peticiónsinadmisiónregistrada/respuesta2dic. 390: BOEconsumoactualización28feb2026,conformidadbienes3añosyreglasdistintasdigital/segundamano,desistimiento14/30supuestos yexcepciones; ChileporBCN6meses/condiciones, sintrasladarplazos. Nueveoriginales y portada389reencuadrada; 15/15Justicia.
+
+Siguiente **391–393 / E1.9.01–E1.9.03**, Educación y Valores → Educación Científica y Actualizada. Preparaciones incluidas en las 450 pendientes. E1.9.01: 0/3 imágenes locales; sin texto final, sin publicación; E1.9.02: 0/3 imágenes locales; sin texto final, sin publicación; E1.9.03: 0/3 imágenes locales; sin texto final, sin publicación. Después 394–396. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.

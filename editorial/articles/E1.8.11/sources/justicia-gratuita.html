@@ -1,0 +1,9220 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+			<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html class="ltr" dir="ltr" lang="es-ES">
+
+<head>
+	<title>Servicio de gestión de expedientes de Justicia Gratuita - Servicio Público de Justicia</title>
+
+	<meta content="initial-scale=1.0, width=device-width" name="viewport" />
+	
+<link rel="preload" href="https://www.administraciondejusticia.gob.es/o/pagaj-theme/templates/../fonts/Fira_Sans/FiraSans-Regular/FiraSans-Regular.woff" as="font" crossorigin>
+<link rel="preload" href="https://www.administraciondejusticia.gob.es/o/pagaj-theme/templates/../fonts/Fira_Sans/FiraSans-Medium/FiraSans-Medium.woff" as="font" crossorigin>
+<link rel="preload" href="https://www.administraciondejusticia.gob.es/o/pagaj-theme/templates/../fonts/Fira_Sans/FiraSans-Light/FiraSans-Light.woff" as="font" crossorigin>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+
+
+
+
+
+
+
+
+
+<meta content="comunidad de madrid,región de murcia,islas baleares,canarias,cantabria,castilla y león,castilla - la mancha,extremadura,galicia,comunidad foral de navarra,ceuta,melilla,andalucía,país vasco,comunidad valenciana,aragón,principado de asturias,la rioja,ciudadanía,cataluña" lang="es-ES" name="keywords" />
+
+
+<script type="importmap">{"imports":{"react-dom":"/o/frontend-js-react-web/__liferay__/exports/react-dom.js","@clayui/breadcrumb":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$breadcrumb.js","@clayui/form":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$form.js","@clayui/popover":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$popover.js","@clayui/charts":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$charts.js","@clayui/shared":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$shared.js","@clayui/localized-input":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$localized-input.js","@clayui/modal":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$modal.js","@clayui/empty-state":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$empty-state.js","react":"/o/frontend-js-react-web/__liferay__/exports/react.js","@clayui/color-picker":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$color-picker.js","@clayui/navigation-bar":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$navigation-bar.js","@clayui/pagination":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$pagination.js","@clayui/icon":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$icon.js","@clayui/table":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$table.js","@clayui/autocomplete":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$autocomplete.js","@clayui/slider":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$slider.js","@clayui/management-toolbar":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$management-toolbar.js","@clayui/multi-select":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$multi-select.js","@clayui/nav":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$nav.js","@clayui/time-picker":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$time-picker.js","@clayui/provider":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$provider.js","@clayui/upper-toolbar":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$upper-toolbar.js","@clayui/loading-indicator":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$loading-indicator.js","@clayui/panel":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$panel.js","@clayui/drop-down":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$drop-down.js","@clayui/list":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$list.js","@clayui/date-picker":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$date-picker.js","@clayui/label":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$label.js","@clayui/data-provider":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$data-provider.js","@liferay/frontend-js-api/data-set":"/o/frontend-js-dependencies-web/__liferay__/exports/@liferay$js-api$data-set.js","@clayui/core":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$core.js","@clayui/pagination-bar":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$pagination-bar.js","@clayui/layout":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$layout.js","@clayui/multi-step-nav":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$multi-step-nav.js","@liferay/frontend-js-api":"/o/frontend-js-dependencies-web/__liferay__/exports/@liferay$js-api.js","@clayui/css":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$css.js","@clayui/toolbar":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$toolbar.js","@clayui/alert":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$alert.js","@clayui/badge":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$badge.js","@clayui/link":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$link.js","@clayui/card":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$card.js","@clayui/progress-bar":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$progress-bar.js","@clayui/tooltip":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$tooltip.js","@clayui/button":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$button.js","@clayui/tabs":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$tabs.js","@clayui/sticker":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$sticker.js"},"scopes":{}}</script><script data-senna-track="temporary">var Liferay = window.Liferay || {};Liferay.Icons = Liferay.Icons || {};Liferay.Icons.controlPanelSpritemap = 'https://www.administraciondejusticia.gob.es/o/admin-theme/images/clay/icons.svg';Liferay.Icons.spritemap = 'https://www.administraciondejusticia.gob.es/o/pagaj-theme/images/clay/icons.svg';</script>
+<link data-senna-track="permanent" href="/o/comcom-frontend-library-repository-module/css/datatables/datatables.min.css?&mac=hCZqNIMVX0BrB9LPQAlQ5TGhZVo=&browserId=other&languageId=es_ES&minifierType=css&themeId=pagaj_WAR_pagajtheme" rel="stylesheet" type="text/css" /><link data-senna-track="permanent" href="/o/comcom-frontend-library-repository-module/css/slick/slick-theme-custom.css?&mac=LhrQ45I9UFZJaO+/iDfxsI/0KAE=&browserId=other&languageId=es_ES&minifierType=css&themeId=pagaj_WAR_pagajtheme" rel="stylesheet" type="text/css" /><link data-senna-track="permanent" href="/o/comcom-frontend-library-repository-module/css/slick/slick.css?&mac=usPgYpS4lAtTNDtrYQjGcB+tY5c=&browserId=other&languageId=es_ES&minifierType=css&themeId=pagaj_WAR_pagajtheme" rel="stylesheet" type="text/css" /><link data-senna-track="permanent" href="/o/comcom-frontend-library-repository-module/css/vmap/jqvmap.min.css?&mac=6SMKOAHS5nSGShuAH78LfqxZ0eY=&browserId=other&languageId=es_ES&minifierType=css&themeId=pagaj_WAR_pagajtheme" rel="stylesheet" type="text/css" />
+<script data-senna-track="permanent" src="/combo?browserId=other&minifierType=js&languageId=es_ES&t=1793339169345&/o/frontend-js-jquery-web/jquery/jquery.min.js&/o/frontend-js-jquery-web/jquery/init.js&/o/frontend-js-jquery-web/jquery/ajax.js&/o/frontend-js-jquery-web/jquery/bootstrap.bundle.min.js&/o/frontend-js-jquery-web/jquery/collapsible_search.js&/o/frontend-js-jquery-web/jquery/fm.js&/o/frontend-js-jquery-web/jquery/form.js&/o/frontend-js-jquery-web/jquery/popper.min.js&/o/frontend-js-jquery-web/jquery/side_navigation.js" type="text/javascript"></script>
+<script data-senna-track="permanent" type="text/javascript">window.Liferay = window.Liferay || {}; window.Liferay.CSP = {nonce: ''};</script>
+<link data-senna-track="temporary" href="https://mantopagaj.justicia.es/-/servicio-de-gestion-de-expedientes-de-justicia-gratuita" rel="canonical" />
+<link data-senna-track="temporary" href="https://mantopagaj.justicia.es/-/servicio-de-gestion-de-expedientes-de-justicia-gratuita" hreflang="es-ES" rel="alternate" />
+<link data-senna-track="temporary" href="https://mantopagaj.justicia.es/-/servicio-de-gestion-de-expedientes-de-justicia-gratuita" hreflang="gl-ES" rel="alternate" />
+<link data-senna-track="temporary" href="https://mantopagaj.justicia.es/-/servicio-de-gestion-de-expedientes-de-justicia-gratuita" hreflang="ca-ES" rel="alternate" />
+<link data-senna-track="temporary" href="https://mantopagaj.justicia.es/-/servicio-de-gestion-de-expedientes-de-justicia-gratuita" hreflang="eu-ES" rel="alternate" />
+<link data-senna-track="temporary" href="https://mantopagaj.justicia.es/-/servicio-de-gestion-de-expedientes-de-justicia-gratuita" hreflang="en-US" rel="alternate" />
+<link data-senna-track="temporary" href="https://mantopagaj.justicia.es/-/servicio-de-gestion-de-expedientes-de-justicia-gratuita" hreflang="ca-ES-VALENCIA" rel="alternate" />
+<link data-senna-track="temporary" href="https://mantopagaj.justicia.es/-/servicio-de-gestion-de-expedientes-de-justicia-gratuita" hreflang="x-default" rel="alternate" />
+
+<meta property="og:locale" content="es_ES">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="ca_ES">
+<meta property="og:locale:alternate" content="gl_ES">
+<meta property="og:locale:alternate" content="eu_ES">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="ca_ES_VALENCIA">
+<meta property="og:site_name" content="Servicio Público de Justicia">
+<meta property="og:title" content="Servicio de gestión de expedientes de Justicia Gratuita - Servicio Público de Justicia">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://mantopagaj.justicia.es/-/servicio-de-gestion-de-expedientes-de-justicia-gratuita">
+
+
+<link href="https://www.administraciondejusticia.gob.es/o/pagaj-theme/images/favicon.ico" rel="apple-touch-icon" />
+<link href="https://www.administraciondejusticia.gob.es/o/pagaj-theme/images/favicon.ico" rel="icon" />
+
+
+
+<link class="lfr-css-file" data-senna-track="temporary" href="https://www.administraciondejusticia.gob.es/o/pagaj-theme/css/clay.css?browserId=other&amp;themeId=pagaj_WAR_pagajtheme&amp;minifierType=css&amp;languageId=es_ES&amp;t=1783616630000" id="liferayAUICSS" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+
+
+	<link href="/combo?browserId=other&amp;minifierType=css&amp;themeId=pagaj_WAR_pagajtheme&amp;languageId=es_ES&amp;com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_1jbjaqgDYrvo:%2Fo%2Fasset-publisher-web%2Fcss%2Fmain.css&amp;com_liferay_cookies_banner_web_portlet_CookiesBannerPortlet:%2Fo%2Fcookies-banner-web%2Fcookies_banner%2Fcss%2Fmain.css&amp;com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_oC9MBYio8RO6:%2Fo%2Fjournal-content-web%2Fcss%2Fmain.css&amp;com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch:%2Fo%2Fportal-search-web%2Fcss%2Fmain.css&amp;com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet:%2Fo%2Fproduct-navigation-product-menu-web%2Fcss%2Fmain.css&amp;com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet:%2Fo%2Fsite-navigation-menu-web%2Fcss%2Fmain.css&amp;t=1789480146000" rel="stylesheet" type="text/css"
+ data-senna-track="temporary" id="7b1d6f88" />
+
+
+
+
+
+
+
+
+<script type="text/javascript" data-senna-track="temporary">
+	// <![CDATA[
+		var Liferay = Liferay || {};
+
+		Liferay.Browser = {
+			acceptsGzip: function() {
+				return false;
+			},
+
+			
+
+			getMajorVersion: function() {
+				return 0;
+			},
+
+			getRevision: function() {
+				return '';
+			},
+			getVersion: function() {
+				return '';
+			},
+
+			
+
+			isAir: function() {
+				return false;
+			},
+			isChrome: function() {
+				return false;
+			},
+			isEdge: function() {
+				return false;
+			},
+			isFirefox: function() {
+				return false;
+			},
+			isGecko: function() {
+				return false;
+			},
+			isIe: function() {
+				return false;
+			},
+			isIphone: function() {
+				return false;
+			},
+			isLinux: function() {
+				return false;
+			},
+			isMac: function() {
+				return false;
+			},
+			isMobile: function() {
+				return false;
+			},
+			isMozilla: function() {
+				return true;
+			},
+			isOpera: function() {
+				return false;
+			},
+			isRtf: function() {
+				return false;
+			},
+			isSafari: function() {
+				return false;
+			},
+			isSun: function() {
+				return false;
+			},
+			isWebKit: function() {
+				return false;
+			},
+			isWindows: function() {
+				return false;
+			}
+		};
+
+		Liferay.Data = Liferay.Data || {};
+
+		Liferay.Data.ICONS_INLINE_SVG = true;
+
+		Liferay.Data.NAV_SELECTOR = '#navigation';
+
+		Liferay.Data.NAV_SELECTOR_MOBILE = '#navigationCollapse';
+
+		Liferay.Data.isCustomizationView = function() {
+			return false;
+		};
+
+		Liferay.Data.notices = [
+			
+		];
+
+		(function () {
+			var available = {};
+
+			var direction = {};
+
+			
+
+				available['es_ES'] = 'español\x20\x28España\x29';
+				direction['es_ES'] = 'ltr';
+
+			
+
+				available['ca_ES'] = 'catalán\x20\x28España\x29';
+				direction['ca_ES'] = 'ltr';
+
+			
+
+				available['gl_ES'] = 'gallego\x20\x28España\x29';
+				direction['gl_ES'] = 'ltr';
+
+			
+
+				available['eu_ES'] = 'euskera\x20\x28España\x29';
+				direction['eu_ES'] = 'ltr';
+
+			
+
+				available['en_US'] = 'inglés\x20\x28Estados\x20Unidos\x29';
+				direction['en_US'] = 'ltr';
+
+			
+
+				available['ca_ES_VALENCIA'] = 'catalán\x20\x28España\x2cValenciano\x29';
+				direction['ca_ES_VALENCIA'] = 'ltr';
+
+			
+
+			Liferay.Language = {
+				available,
+				direction,
+				get: function(key) {
+					return key;
+				}
+			};
+		})();
+
+		var featureFlags = {"LPD-11018":false,"LPS-193884":false,"LPS-178642":false,"LPS-193005":false,"LPS-187284":false,"LPS-187285":false,"LPS-114786":false,"LPS-192957":false,"COMMERCE-8087":false,"LRAC-10757":false,"LPS-180090":false,"LPS-170809":false,"LPS-178052":false,"LPS-189856":false,"LPS-187436":false,"LPS-182184":false,"LPS-185892":false,"LPS-186620":false,"COMMERCE-12754":false,"LPS-184404":false,"LPS-180328":false,"LPS-198183":false,"LPS-171364":false,"LPS-153714":false,"LPS-96845":false,"LPS-170670":false,"LPS-141392":false,"LPS-169981":false,"LPD-15804":false,"LPS-153839":false,"LPS-200135":false,"LPS-187793":false,"LPS-177027":false,"LPD-10793":false,"COMMERCE-12192":false,"LPD-11003":false,"LPS-196768":false,"LPS-196724":false,"LPS-196847":false,"LPS-163118":false,"LPS-114700":false,"LPS-135430":false,"LPS-134060":false,"LPS-164563":false,"LPS-122920":false,"LPS-203351":false,"LPS-194395":false,"LPD-6368":false,"LPD-10701":false,"LPS-202104":false,"COMMERCE-9599":false,"LPS-187142":false,"LPD-15596":false,"LPS-198959":false,"LPS-196935":true,"LPS-187854":false,"LPS-176691":false,"LPS-197909":false,"LPS-202534":false,"COMMERCE-8949":false,"COMMERCE-11922":false,"LPS-194362":false,"LPS-165481":false,"LPS-153813":false,"LPS-174455":false,"LPD-10735":false,"COMMERCE-13024":false,"LPS-194763":false,"LPS-165482":false,"LPS-193551":false,"LPS-197477":false,"LPS-174816":false,"LPS-186360":false,"LPS-153332":false,"COMMERCE-12170":false,"LPS-179669":false,"LPS-174417":false,"LPS-183882":false,"LPS-155284":false,"LRAC-15017":false,"LPS-200108":false,"LPS-159643":false,"LPS-161033":false,"LPS-164948":false,"LPS-186870":false,"LPS-186871":false,"LPS-188058":false,"LPS-129412":false,"LPS-166126":false,"LPS-169837":false};
+
+		Liferay.FeatureFlags = Object.keys(featureFlags).reduce(
+			(acc, key) => ({
+				...acc, [key]: featureFlags[key] === 'true' || featureFlags[key] === true
+			}), {}
+		);
+
+		Liferay.PortletKeys = {
+			DOCUMENT_LIBRARY: 'com_liferay_document_library_web_portlet_DLPortlet',
+			DYNAMIC_DATA_MAPPING: 'com_liferay_dynamic_data_mapping_web_portlet_DDMPortlet',
+			ITEM_SELECTOR: 'com_liferay_item_selector_web_portlet_ItemSelectorPortlet'
+		};
+
+		Liferay.PropsValues = {
+			JAVASCRIPT_SINGLE_PAGE_APPLICATION_TIMEOUT: 0,
+			UPLOAD_SERVLET_REQUEST_IMPL_MAX_SIZE: 429496729600
+		};
+
+		Liferay.ThemeDisplay = {
+
+			
+
+			
+				getLayoutId: function() {
+					return '51';
+				},
+
+				
+
+				getLayoutRelativeControlPanelURL: function() {
+					return '/group/guest/~/control_panel/manage?p_p_id=com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_FJgITRf2KzRn';
+				},
+
+				getLayoutRelativeURL: function() {
+					return '/visor-servicios';
+				},
+				getLayoutURL: function() {
+					return 'https://www.administraciondejusticia.gob.es/visor-servicios';
+				},
+				getParentLayoutId: function() {
+					return '248';
+				},
+				isControlPanel: function() {
+					return false;
+				},
+				isPrivateLayout: function() {
+					return 'false';
+				},
+				isVirtualLayout: function() {
+					return false;
+				},
+			
+
+			getBCP47LanguageId: function() {
+				return 'es-ES';
+			},
+			getCanonicalURL: function() {
+
+				
+
+				return 'https\x3a\x2f\x2fmantopagaj\x2ejusticia\x2ees\x2f-\x2fservicio-de-gestion-de-expedientes-de-justicia-gratuita';
+			},
+			getCDNBaseURL: function() {
+				return 'https://www.administraciondejusticia.gob.es';
+			},
+			getCDNDynamicResourcesHost: function() {
+				return '';
+			},
+			getCDNHost: function() {
+				return '';
+			},
+			getCompanyGroupId: function() {
+				return '975823';
+			},
+			getCompanyId: function() {
+				return '975784';
+			},
+			getDefaultLanguageId: function() {
+				return 'es_ES';
+			},
+			getDoAsUserIdEncoded: function() {
+				return '';
+			},
+			getLanguageId: function() {
+				return 'es_ES';
+			},
+			getParentGroupId: function() {
+				return '975819';
+			},
+			getPathContext: function() {
+				return '';
+			},
+			getPathImage: function() {
+				return '/image';
+			},
+			getPathJavaScript: function() {
+				return '/o/frontend-js-web';
+			},
+			getPathMain: function() {
+				return '/c';
+			},
+			getPathThemeImages: function() {
+				return 'https://www.administraciondejusticia.gob.es/o/pagaj-theme/images';
+			},
+			getPathThemeRoot: function() {
+				return '/o/pagaj-theme';
+			},
+			getPlid: function() {
+				return '815899';
+			},
+			getPortalURL: function() {
+				return 'https://www.administraciondejusticia.gob.es';
+			},
+			getRealUserId: function() {
+				return '975788';
+			},
+			
+			getRemoteAddr: function() {
+				return '';
+			},
+			getRemoteHost: function() {
+				return '';
+			},
+			
+			getScopeGroupId: function() {
+				return '975819';
+			},
+			getScopeGroupIdOrLiveGroupId: function() {
+				return '975819';
+			},
+			getSessionId: function() {
+				return '';
+			},
+			getSiteAdminURL: function() {
+				return 'https://www.administraciondejusticia.gob.es/group/guest/~/control_panel/manage?p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view';
+			},
+			getSiteGroupId: function() {
+				return '975819';
+			},
+			getURLControlPanel: function() {
+				return '/group/control_panel?refererPlid=815899';
+			},
+			getURLHome: function() {
+				return 'https\x3a\x2f\x2fwww\x2eadministraciondejusticia\x2egob\x2ees\x2f';
+			},
+			getUserEmailAddress: function() {
+				return '';
+			},
+			getUserId: function() {
+				return '975788';
+			},
+			getUserName: function() {
+				return '';
+			},
+			isAddSessionIdToURL: function() {
+				return false;
+			},
+			isImpersonated: function() {
+				return false;
+			},
+			isSignedIn: function() {
+				return false;
+			},
+
+			isStagedPortlet: function() {
+				
+					
+						return true;
+					
+					
+			},
+
+			isStateExclusive: function() {
+				return false;
+			},
+			isStateMaximized: function() {
+				return false;
+			},
+			isStatePopUp: function() {
+				return false;
+			}
+		};
+
+		var themeDisplay = Liferay.ThemeDisplay;
+
+		Liferay.AUI = {
+
+			
+
+			getCombine: function() {
+				return true;
+			},
+			getComboPath: function() {
+				return '/combo/?browserId=other&minifierType=&languageId=es_ES&t=1790690398179&';
+			},
+			getDateFormat: function() {
+				return '%d/%m/%Y';
+			},
+			getEditorCKEditorPath: function() {
+				return '/o/frontend-editor-ckeditor-web';
+			},
+			getFilter: function() {
+				var filter = 'raw';
+
+				
+					
+						filter = 'min';
+					
+					
+
+				return filter;
+			},
+			getFilterConfig: function() {
+				var instance = this;
+
+				var filterConfig = null;
+
+				if (!instance.getCombine()) {
+					filterConfig = {
+						replaceStr: '.js' + instance.getStaticResourceURLParams(),
+						searchExp: '\\.js$'
+					};
+				}
+
+				return filterConfig;
+			},
+			getJavaScriptRootPath: function() {
+				return '/o/frontend-js-web';
+			},
+			getPortletRootPath: function() {
+				return '/html/portlet';
+			},
+			getStaticResourceURLParams: function() {
+				return '?browserId=other&minifierType=&languageId=es_ES&t=1790690398179';
+			}
+		};
+
+		Liferay.authToken = 'r2OcCnh6';
+
+		
+
+		Liferay.currentURL = '\x2f-\x2fservicio-de-gestion-de-expedientes-de-justicia-gratuita';
+		Liferay.currentURLEncoded = '\x252F-\x252Fservicio-de-gestion-de-expedientes-de-justicia-gratuita';
+	// ]]>
+</script>
+
+<script data-senna-track="temporary" type="text/javascript">window.__CONFIG__= {basePath: '',combine: true, defaultURLParams: null, explainResolutions: false, exposeGlobal: false, logLevel: 'warn', moduleType: 'module', namespace:'Liferay', nonce: '', reportMismatchedAnonymousModules: 'warn', resolvePath: '/o/js_resolve_modules', url: '/combo/?browserId=other&minifierType=js&languageId=es_ES&t=1790690398179&', waitTimeout: 60000};</script><script data-senna-track="permanent" src="/o/frontend-js-loader-modules-extender/loader.js?&mac=9WaMmhziBCkScHZwrrVcOR7VZF4=&browserId=other&languageId=es_ES&minifierType=js" type="text/javascript"></script><script data-senna-track="permanent" src="/combo?browserId=other&minifierType=js&languageId=es_ES&t=1790690398179&/o/frontend-js-aui-web/aui/aui/aui-min.js&/o/frontend-js-aui-web/liferay/modules.js&/o/frontend-js-aui-web/liferay/aui_sandbox.js&/o/frontend-js-aui-web/aui/attribute-base/attribute-base-min.js&/o/frontend-js-aui-web/aui/attribute-complex/attribute-complex-min.js&/o/frontend-js-aui-web/aui/attribute-core/attribute-core-min.js&/o/frontend-js-aui-web/aui/attribute-observable/attribute-observable-min.js&/o/frontend-js-aui-web/aui/attribute-extras/attribute-extras-min.js&/o/frontend-js-aui-web/aui/event-custom-base/event-custom-base-min.js&/o/frontend-js-aui-web/aui/event-custom-complex/event-custom-complex-min.js&/o/frontend-js-aui-web/aui/oop/oop-min.js&/o/frontend-js-aui-web/aui/aui-base-lang/aui-base-lang-min.js&/o/frontend-js-aui-web/liferay/dependency.js&/o/frontend-js-aui-web/liferay/util.js&/o/oauth2-provider-web/js/liferay.js&/o/frontend-js-web/liferay/dom_task_runner.js&/o/frontend-js-web/liferay/events.js&/o/frontend-js-web/liferay/lazy_load.js&/o/frontend-js-web/liferay/liferay.js&/o/frontend-js-web/liferay/global.bundle.js&/o/frontend-js-web/liferay/portlet.js&/o/frontend-js-web/liferay/workflow.js" type="text/javascript"></script>
+<script data-senna-track="temporary" type="text/javascript">window.Liferay = Liferay || {}; window.Liferay.OAuth2 = {getAuthorizeURL: function() {return 'https://www.administraciondejusticia.gob.es/o/oauth2/authorize';}, getBuiltInRedirectURL: function() {return 'https://www.administraciondejusticia.gob.es/o/oauth2/redirect';}, getIntrospectURL: function() { return 'https://www.administraciondejusticia.gob.es/o/oauth2/introspect';}, getTokenURL: function() {return 'https://www.administraciondejusticia.gob.es/o/oauth2/token';}, getUserAgentApplication: function(externalReferenceCode) {return Liferay.OAuth2._userAgentApplications[externalReferenceCode];}, _userAgentApplications: {}}</script><script data-senna-track="temporary" type="text/javascript">try {var MODULE_MAIN='null';var MODULE_PATH='/o/comcom-liferay_search_custom-module';/**
+ * SPDX-FileCopyrightText: (c) 2000 Liferay, Inc. https://liferay.com
+ * SPDX-License-Identifier: LGPL-2.1-or-later OR LicenseRef-Liferay-DXP-EULA-2.0.0-2023-06
+ */
+
+(function () {
+	AUI().applyConfig({
+		groups: {
+			searchCustomDate: {
+				base: MODULE_PATH + '/js/',
+				combine: Liferay.AUI.getCombine(),
+				filter: Liferay.AUI.getFilterConfig(),
+				modules: {									
+					'liferay-search-customdate-facet': {
+						path: 'customdate_facet.js',
+						requires: [
+							'aui-form-validator',
+							'liferay-search-facet-util',
+						],
+					}
+				},
+				root: MODULE_PATH + '/js/',
+			},
+		},
+	});
+})();
+
+} catch(error) {console.error(error);}try {var MODULE_MAIN='frontend-editor-alloyeditor-web@5.0.46/index';var MODULE_PATH='/o/frontend-editor-alloyeditor-web';AUI().applyConfig({groups:{alloyeditor:{base:MODULE_PATH+"/js/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-alloy-editor":{path:"alloyeditor.js",requires:["aui-component","liferay-portlet-base","timers"]},"liferay-alloy-editor-source":{path:"alloyeditor_source.js",requires:["aui-debounce","liferay-fullscreen-source-editor","liferay-source-editor","plugin"]}},root:MODULE_PATH+"/js/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='portal-search-web@6.0.127/index';var MODULE_PATH='/o/portal-search-web';AUI().applyConfig({groups:{search:{base:MODULE_PATH+"/js/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-search-custom-filter":{path:"custom_filter.js",requires:[]},"liferay-search-date-facet":{path:"date_facet.js",requires:["aui-form-validator","liferay-search-facet-util"]},"liferay-search-facet-util":{path:"facet_util.js",requires:[]},"liferay-search-modified-facet":{path:"modified_facet.js",requires:["aui-form-validator","liferay-search-facet-util"]},"liferay-search-sort-configuration":{path:"sort_configuration.js",requires:["aui-node"]},"liferay-search-sort-util":{path:"sort_util.js",requires:[]}},root:MODULE_PATH+"/js/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='frontend-js-components-web@2.0.63/index';var MODULE_PATH='/o/frontend-js-components-web';AUI().applyConfig({groups:{components:{mainModule:MODULE_MAIN}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='portal-workflow-kaleo-designer-web@5.0.125/index';var MODULE_PATH='/o/portal-workflow-kaleo-designer-web';AUI().applyConfig({groups:{"kaleo-designer":{base:MODULE_PATH+"/designer/js/legacy/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-kaleo-designer-autocomplete-util":{path:"autocomplete_util.js",requires:["autocomplete","autocomplete-highlighters"]},"liferay-kaleo-designer-definition-diagram-controller":{path:"definition_diagram_controller.js",requires:["liferay-kaleo-designer-field-normalizer","liferay-kaleo-designer-utils"]},"liferay-kaleo-designer-dialogs":{path:"dialogs.js",requires:["liferay-util-window"]},"liferay-kaleo-designer-editors":{path:"editors.js",requires:["aui-ace-editor","aui-ace-editor-mode-xml","aui-base","aui-datatype","aui-node","liferay-kaleo-designer-autocomplete-util","liferay-kaleo-designer-utils"]},"liferay-kaleo-designer-field-normalizer":{path:"field_normalizer.js",requires:["liferay-kaleo-designer-remote-services"]},"liferay-kaleo-designer-nodes":{path:"nodes.js",requires:["aui-datatable","aui-datatype","aui-diagram-builder","liferay-kaleo-designer-editors","liferay-kaleo-designer-utils"]},"liferay-kaleo-designer-remote-services":{path:"remote_services.js",requires:["aui-io"]},"liferay-kaleo-designer-templates":{path:"templates.js",requires:["aui-tpl-snippets-deprecated"]},"liferay-kaleo-designer-utils":{path:"utils.js",requires:[]},"liferay-kaleo-designer-xml-definition":{path:"xml_definition.js",requires:["aui-base","aui-component","dataschema-xml","datatype-xml"]},"liferay-kaleo-designer-xml-definition-serializer":{path:"xml_definition_serializer.js",requires:["escape","liferay-kaleo-designer-xml-util"]},"liferay-kaleo-designer-xml-util":{path:"xml_util.js",requires:["aui-base"]},"liferay-portlet-kaleo-designer":{path:"main.js",requires:["aui-ace-editor","aui-ace-editor-mode-xml","aui-tpl-snippets-deprecated","dataschema-xml","datasource","datatype-xml","event-valuechange","io-form","liferay-kaleo-designer-autocomplete-util","liferay-kaleo-designer-editors","liferay-kaleo-designer-nodes","liferay-kaleo-designer-remote-services","liferay-kaleo-designer-utils","liferay-kaleo-designer-xml-util","liferay-util-window"]}},root:MODULE_PATH+"/designer/js/legacy/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='contacts-web@5.0.57/index';var MODULE_PATH='/o/contacts-web';AUI().applyConfig({groups:{contactscenter:{base:MODULE_PATH+"/js/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-contacts-center":{path:"main.js",requires:["aui-io-plugin-deprecated","aui-toolbar","autocomplete-base","datasource-io","json-parse","liferay-portlet-base","liferay-util-window"]}},root:MODULE_PATH+"/js/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='staging-processes-web@5.0.55/index';var MODULE_PATH='/o/staging-processes-web';AUI().applyConfig({groups:{stagingprocessesweb:{base:MODULE_PATH+"/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-staging-processes-export-import":{path:"js/main.js",requires:["aui-datatype","aui-dialog-iframe-deprecated","aui-modal","aui-parse-content","aui-toggler","liferay-portlet-base","liferay-util-window"]}},root:MODULE_PATH+"/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='@liferay/document-library-web@6.0.177/document_library/js/index';var MODULE_PATH='/o/document-library-web';AUI().applyConfig({groups:{dl:{base:MODULE_PATH+"/document_library/js/legacy/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"document-library-upload-component":{path:"DocumentLibraryUpload.js",requires:["aui-component","aui-data-set-deprecated","aui-overlay-manager-deprecated","aui-overlay-mask-deprecated","aui-parse-content","aui-progressbar","aui-template-deprecated","liferay-search-container","querystring-parse-simple","uploader"]}},root:MODULE_PATH+"/document_library/js/legacy/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='exportimport-web@5.0.83/index';var MODULE_PATH='/o/exportimport-web';AUI().applyConfig({groups:{exportimportweb:{base:MODULE_PATH+"/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-export-import-export-import":{path:"js/main.js",requires:["aui-datatype","aui-dialog-iframe-deprecated","aui-modal","aui-parse-content","aui-toggler","liferay-portlet-base","liferay-util-window"]}},root:MODULE_PATH+"/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='@liferay/frontend-js-state-web@1.0.20/index';var MODULE_PATH='/o/frontend-js-state-web';AUI().applyConfig({groups:{state:{mainModule:MODULE_MAIN}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='@liferay/frontend-js-react-web@5.0.37/index';var MODULE_PATH='/o/frontend-js-react-web';AUI().applyConfig({groups:{react:{mainModule:MODULE_MAIN}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='calendar-web@5.0.89/index';var MODULE_PATH='/o/calendar-web';AUI().applyConfig({groups:{calendar:{base:MODULE_PATH+"/js/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-calendar-a11y":{path:"calendar_a11y.js",requires:["calendar"]},"liferay-calendar-container":{path:"calendar_container.js",requires:["aui-alert","aui-base","aui-component","liferay-portlet-base"]},"liferay-calendar-date-picker-sanitizer":{path:"date_picker_sanitizer.js",requires:["aui-base"]},"liferay-calendar-interval-selector":{path:"interval_selector.js",requires:["aui-base","liferay-portlet-base"]},"liferay-calendar-interval-selector-scheduler-event-link":{path:"interval_selector_scheduler_event_link.js",requires:["aui-base","liferay-portlet-base"]},"liferay-calendar-list":{path:"calendar_list.js",requires:["aui-template-deprecated","liferay-scheduler"]},"liferay-calendar-message-util":{path:"message_util.js",requires:["liferay-util-window"]},"liferay-calendar-recurrence-converter":{path:"recurrence_converter.js",requires:[]},"liferay-calendar-recurrence-dialog":{path:"recurrence.js",requires:["aui-base","liferay-calendar-recurrence-util"]},"liferay-calendar-recurrence-util":{path:"recurrence_util.js",requires:["aui-base","liferay-util-window"]},"liferay-calendar-reminders":{path:"calendar_reminders.js",requires:["aui-base"]},"liferay-calendar-remote-services":{path:"remote_services.js",requires:["aui-base","aui-component","liferay-calendar-util","liferay-portlet-base"]},"liferay-calendar-session-listener":{path:"session_listener.js",requires:["aui-base","liferay-scheduler"]},"liferay-calendar-simple-color-picker":{path:"simple_color_picker.js",requires:["aui-base","aui-template-deprecated"]},"liferay-calendar-simple-menu":{path:"simple_menu.js",requires:["aui-base","aui-template-deprecated","event-outside","event-touch","widget-modality","widget-position","widget-position-align","widget-position-constrain","widget-stack","widget-stdmod"]},"liferay-calendar-util":{path:"calendar_util.js",requires:["aui-datatype","aui-io","aui-scheduler","aui-toolbar","autocomplete","autocomplete-highlighters"]},"liferay-scheduler":{path:"scheduler.js",requires:["async-queue","aui-datatype","aui-scheduler","dd-plugin","liferay-calendar-a11y","liferay-calendar-message-util","liferay-calendar-recurrence-converter","liferay-calendar-recurrence-util","liferay-calendar-util","liferay-scheduler-event-recorder","liferay-scheduler-models","promise","resize-plugin"]},"liferay-scheduler-event-recorder":{path:"scheduler_event_recorder.js",requires:["dd-plugin","liferay-calendar-util","resize-plugin"]},"liferay-scheduler-models":{path:"scheduler_models.js",requires:["aui-datatype","dd-plugin","liferay-calendar-util"]}},root:MODULE_PATH+"/js/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='dynamic-data-mapping-web@5.0.100/index';var MODULE_PATH='/o/dynamic-data-mapping-web';!function(){const a=Liferay.AUI;AUI().applyConfig({groups:{ddm:{base:MODULE_PATH+"/js/",combine:Liferay.AUI.getCombine(),filter:a.getFilterConfig(),modules:{"liferay-ddm-form":{path:"ddm_form.js",requires:["aui-base","aui-datatable","aui-datatype","aui-image-viewer","aui-parse-content","aui-set","aui-sortable-list","json","liferay-form","liferay-map-base","liferay-translation-manager","liferay-util-window"]},"liferay-portlet-dynamic-data-mapping":{condition:{trigger:"liferay-document-library"},path:"main.js",requires:["arraysort","aui-form-builder-deprecated","aui-form-validator","aui-map","aui-text-unicode","json","liferay-menu","liferay-translation-manager","liferay-util-window","text"]},"liferay-portlet-dynamic-data-mapping-custom-fields":{condition:{trigger:"liferay-document-library"},path:"custom_fields.js",requires:["liferay-portlet-dynamic-data-mapping"]}},root:MODULE_PATH+"/js/"}}})}();
+} catch(error) {console.error(error);}</script>
+
+
+
+
+<script type="text/javascript" data-senna-track="temporary">
+	// <![CDATA[
+		
+			
+				
+		
+
+		
+	// ]]>
+</script>
+
+
+
+
+
+	
+		
+
+			
+
+			
+				<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VYCV8HLS4D"></script>
+<script>
+// Inicialización de dataLayer y gtag
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+
+// Función para verificar consentimiento
+function hasPerformanceConsent() {
+  return Liferay.Util.Cookie.get('CONSENT_TYPE_PERFORMANCE') === 'true';
+}
+
+// Inicializar consent mode con el estado actual de la cookie
+const initialConsent = hasPerformanceConsent() ? 'granted' : 'denied';
+gtag('consent', 'default', {
+  'analytics_storage': initialConsent,
+  'ad_storage': 'denied',
+  'ad_user_data': 'denied',
+  'ad_personalization': 'denied'
+});
+gtag('js', new Date());
+gtag('config', 'G-VYCV8HLS4D', {'consent_status': initialConsent});
+
+// Función para borrar cookies de Analytics
+function deleteAnalyticsCookies() {
+  const hostname = window.location.hostname;
+  const parts = hostname.split('.');
+  
+  // Generar todos los posibles dominios (desde el más específico al más general)
+  const possibleDomains = [];
+  
+  // Dominio actual sin punto
+  possibleDomains.push(hostname);
+  
+  // Dominios con punto: .ejemplo.com, .co.uk, .uk, etc.
+  for (let i = 0; i < parts.length - 1; i++) {
+    possibleDomains.push('.' + parts.slice(i).join('.'));
+  }
+  
+  // Buscar y borrar cookies de Analytics
+  document.cookie.split(';').forEach(cookie => {
+    const name = cookie.split('=')[0].trim();
+    if (name.startsWith('_ga') || name === '_gid' || name === '_gat') {
+      // Intentar borrar en todos los dominios posibles
+      possibleDomains.forEach(domain => {
+        document.cookie = name + '=; Max-Age=0; path=/; domain=' + domain + ';';
+      });
+      // También sin especificar dominio
+      document.cookie = name + '=; Max-Age=0; path=/;';
+    }
+  });
+}
+
+// --- Lógica de consentimiento ---
+let lastConsent = hasPerformanceConsent();
+
+function onConsentChange() {
+  const currentConsent = hasPerformanceConsent();
+  
+  if (lastConsent && !currentConsent) {
+    if (window.gtag) {
+      gtag('event', 'consent_change', { consent_status: 'denied' });
+      gtag('consent', 'update', {
+        'analytics_storage': 'denied',
+        'ad_storage': 'denied',
+        'ad_user_data': 'denied',
+        'ad_personalization': 'denied'
+      });
+    }
+    deleteAnalyticsCookies();
+  }
+  
+  if (!lastConsent && currentConsent) {
+    if (window.gtag) {
+      gtag('event', 'consent_change', { consent_status: 'granted' });
+      gtag('consent', 'update', {
+        'analytics_storage': 'granted',
+        'ad_storage': 'denied',
+        'ad_user_data': 'denied',
+        'ad_personalization': 'denied'
+      });
+    }
+  }
+  
+  lastConsent = currentConsent;
+}
+
+// Revisamos cada 3s si cambia el consentimiento
+setInterval(onConsentChange, 3000);
+</script>
+			
+		
+	
+
+
+
+	
+		
+
+			
+
+			
+		
+		
+
+
+
+	
+		
+
+			
+
+			
+		
+		
+
+
+
+	
+		
+
+			
+
+			
+				<script type="text/javascript"> (function(window, document, dataLayerName, id) { window[dataLayerName]=window[dataLayerName]||[],window[dataLayerName].push({start:(new Date).getTime(),event:"stg.start"});var scripts=document.getElementsByTagName('script')[0],tags=document.createElement('script'); function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d="; expires="+e.toUTCString();f="; SameSite=Strict"}document.cookie=a+"="+b+d+f+"; path=/"} var isStgDebug=(window.location.href.match("stg_debug")||document.cookie.match("stg_debug"))&&!window.location.href.match("stg_disable_debug");stgCreateCookie("stg_debug",isStgDebug?1:"",isStgDebug?14:-1); var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName),isStgDebug&&qP.push("stg_debug");var qPString=qP.length>0?("?"+qP.join("&")):""; tags.async=!0,tags.src="https://mju-es.containers.piwik.pro/"+id+".js"+qPString,scripts.parentNode.insertBefore(tags,scripts); !function(a,n,i){a[n]=a[n]||{};for(var c=0;c<i.length;c++)!function(i){a[n][i]=a[n][i]||{},a[n][i].api=a[n][i].api||function(){var a=[].slice.call(arguments,0);"string"==typeof a[0]&&window[dataLayerName].push({event:n+"."+i+":"+a[0],parameters:[].slice.call(arguments,1)})}}(i[c])}(window,"ppms",["tm","cm"]); })(window, document, 'dataLayer', 'bcbec7f9-a1cd-4f67-8e06-799efccff577'); </script>
+			
+		
+	
+
+
+
+	
+		
+
+			
+
+			
+				<script async="async" type="text/javascript" src="https://www--administraciondejusticia--gob--es.insuit.net/i4tservice/insuit-app.js"></script>
+			
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link class="lfr-css-file" data-senna-track="temporary" href="https://www.administraciondejusticia.gob.es/o/pagaj-theme/css/main.css?browserId=other&amp;themeId=pagaj_WAR_pagajtheme&amp;minifierType=css&amp;languageId=es_ES&amp;t=1783616630000" id="liferayThemeCSS" rel="stylesheet" type="text/css" />
+
+
+
+
+	<style data-senna-track="temporary" type="text/css">
+		.cust-accordion__item__body .cust-accordion__text img{width:100%; height: auto;}
+
+/*Estilos MASC*/
+.masc-type-list .border-bot{
+	border-bottom: 2px solid #074E8E;
+}
+.masc-type-list a{
+	text-decoration: underline;	
+}
+.masc-type-list .masc-item{
+	list-style: none;
+	border-color: #c7cacd;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 4px;
+}
+.masc-type-list .td-cardhover__icon{
+    width: 60px;
+    height: 60px;
+}
+	</style>
+
+
+
+
+
+	<style data-senna-track="temporary" type="text/css">
+
+		
+
+			
+
+				
+
+					
+
+#p_p_id_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_1jbjaqgDYrvo_ .portlet-content {
+
+}
+
+
+
+
+				
+
+			
+
+		
+
+			
+
+				
+
+					
+
+#p_p_id_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_FJgITRf2KzRn_ .portlet-content {
+
+}
+
+
+
+
+				
+
+			
+
+		
+
+			
+
+				
+
+					
+
+#p_p_id_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_logos_carrousel_ .portlet-content {
+
+}
+
+
+
+
+				
+
+			
+
+		
+
+			
+
+		
+
+			
+
+				
+
+					
+
+#p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_oC9MBYio8RO6_ .portlet-content {
+
+}
+
+
+
+
+				
+
+			
+
+		
+
+			
+
+				
+
+					
+
+#p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_wDQGD9CGKAfj_ .portlet-content {
+
+}
+
+
+
+
+				
+
+			
+
+		
+
+			
+
+				
+
+					
+
+#p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_xGQxvTRFzStd_ .portlet-content {
+
+}
+
+
+
+
+				
+
+			
+
+		
+
+			
+
+				
+
+					
+
+#p_p_id_com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet_INSTANCE_tk03lCOlkM8z_ .portlet-content {
+
+}
+
+
+
+
+				
+
+			
+
+		
+
+			
+
+				
+
+					
+
+#p_p_id_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch_ .portlet-content {
+
+}
+
+
+
+
+				
+
+			
+
+		
+
+			
+
+		
+
+			
+
+				
+
+					
+
+#p_p_id_com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet_ .portlet-content {
+
+}
+
+
+
+
+				
+
+			
+
+		
+
+			
+
+				
+
+					
+
+#p_p_id_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet_ .portlet-content {
+
+}
+
+
+
+
+				
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+				
+
+					
+
+#p_p_id_com_liferay_site_navigation_site_map_web_portlet_SiteNavigationSiteMapPortlet_INSTANCE_sDhC48toTh0y_ .portlet-content {
+
+}
+
+
+
+
+				
+
+			
+
+		
+
+	</style>
+
+
+<script data-senna-track="temporary">var Liferay = window.Liferay || {}; Liferay.CommerceContext = {"commerceAccountGroupIds":[],"accountEntryAllowedTypes":["person"],"commerceChannelId":"0","showUnselectableOptions":false,"currency":{"currencyId":"3730211","currencyCode":"USD"},"showSeparateOrderItems":false,"commerceSiteType":0};</script><link href="/o/commerce-frontend-js/styles/main.css" rel="stylesheet" type="text/css" />
+<style data-senna-track="temporary" type="text/css">
+</style>
+<script data-senna-track="permanent" src="/combo?browserId=other&minifierType=js&languageId=es_ES&t=1793339169344&/o/comcom-frontend-library-repository-module/js/datatables/datatables.min.js&/o/comcom-frontend-library-repository-module/js/slick/slick.min.js&/o/comcom-frontend-library-repository-module/js/vmap/jquery.vmap.min.js&/o/comcom-frontend-library-repository-module/js/vmap/jquery.vmap.mju.resize.js" type="text/javascript"></script>
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" data-senna-track="temporary">
+	if (window.Analytics) {
+		window._com_liferay_document_library_analytics_isViewFileEntry = false;
+	}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+Liferay.on(
+	'ddmFieldBlur', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'fieldBlurred',
+				'Form',
+				{
+					fieldName: event.fieldName,
+					focusDuration: event.focusDuration,
+					formId: event.formId,
+					formPageTitle: event.formPageTitle,
+					page: event.page,
+					title: event.title
+				}
+			);
+		}
+	}
+);
+
+Liferay.on(
+	'ddmFieldFocus', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'fieldFocused',
+				'Form',
+				{
+					fieldName: event.fieldName,
+					formId: event.formId,
+					formPageTitle: event.formPageTitle,
+					page: event.page,
+					title:event.title
+				}
+			);
+		}
+	}
+);
+
+Liferay.on(
+	'ddmFormPageShow', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'pageViewed',
+				'Form',
+				{
+					formId: event.formId,
+					formPageTitle: event.formPageTitle,
+					page: event.page,
+					title: event.title
+				}
+			);
+		}
+	}
+);
+
+Liferay.on(
+	'ddmFormSubmit', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'formSubmitted',
+				'Form',
+				{
+					formId: event.formId,
+					title: event.title
+				}
+			);
+		}
+	}
+);
+
+Liferay.on(
+	'ddmFormView', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'formViewed',
+				'Form',
+				{
+					formId: event.formId,
+					title: event.title
+				}
+			);
+		}
+	}
+);
+
+</script><script>
+
+</script>
+
+
+
+
+
+
+
+
+	
+<link rel="apple-touch-icon" href="https://www.administraciondejusticia.gob.es/o/pagaj-theme/images/apple-touch-icon/apple-touch-icon.png" />
+<link rel="apple-touch-icon-precomposed" href="https://www.administraciondejusticia.gob.es/o/pagaj-theme/images/apple-touch-icon/apple-touch-icon-precomposed.png" />
+<link rel="apple-touch-icon" sizes="57x57" href="https://www.administraciondejusticia.gob.es/o/pagaj-theme/images/apple-touch-icon/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="https://www.administraciondejusticia.gob.es/o/pagaj-theme/images/apple-touch-icon/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="https://www.administraciondejusticia.gob.es/o/pagaj-theme/images/apple-touch-icon/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="https://www.administraciondejusticia.gob.es/o/pagaj-theme/images/apple-touch-icon/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="https://www.administraciondejusticia.gob.es/o/pagaj-theme/images/apple-touch-icon/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="https://www.administraciondejusticia.gob.es/o/pagaj-theme/images/apple-touch-icon/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="https://www.administraciondejusticia.gob.es/o/pagaj-theme/images/apple-touch-icon/apple-touch-icon-152x152.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.administraciondejusticia.gob.es/o/pagaj-theme/images/apple-touch-icon/apple-touch-icon-180x180.png" />
+</head>
+
+<body class="other controls-visible  yui3-skin-sam guest-site signed-out public-page site ">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<nav aria-label="Enlaces rápidos" class="bg-dark cadmin quick-access-nav text-center text-white" id="fycq_quickAccessNav">
+		
+			
+				<a class="d-block p-2 sr-only sr-only-focusable text-reset" href="#main-content">
+		Saltar al contenido principal
+	</a>
+			
+			
+	</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="page" id="wrapper">
+	
+
+<header class="header-basic header-basic--pagaj">
+	<div class="header-basic__background">
+		<div class="header-basic__inner p-container  ">
+			<div class="header-basic__brand">
+				<a class="header-basic__logo " href="/" title="Ir a Servicio Público de Justicia">
+					<img class="header-basic__logo__img" alt="logo Servicio Público de Justicia" src="/image/layout_set_logo?img_id=7573800&amp;t=1793339167728" />
+				</a>
+					<a class="header-basic__logo" href="/" title="Ir a Servicio Público de Justicia">
+						<img class="header-basic__logo__img" alt="" src="/documents/d/guest/Logo_pagaj_color_nuevo" />
+					</a>
+			</div>
+			<div class="header-basic__search-languages">
+				<div class="languages">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet_  portlet-static portlet-static-end portlet-barebone portlet-language " id="p_p_id_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet_">
+		<span id="p_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<section class="portlet" id="portlet_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet">
+
+
+	<div class="portlet-content">
+
+		<div class="autofit-float autofit-row portlet-header">
+			<div class="autofit-col autofit-col-end">
+				<div class="autofit-section">
+				</div>
+			</div>
+		</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	    <div class="select-language p-container">
+
+
+                <button class="btn btn-secondary select-language__button collapsed" type="button" data-toggle="collapse"
+                        data-target=".select-language__list" aria-expanded="false" aria-controls="selectLanguageList"
+                        aria-activedescendant="" role="combobox" tabindex="0"
+                        title="Seleccione un idioma">
+
+                    <span aria-label="Castellano" class="d-inline">Ct</span>
+                    <span class="button-icon ico-fl-ocultar"></span>
+                </button>
+
+        <ul class="dropdown-menu select-language__list collapse" id="selectLanguageList" role="listbox" tabindex="-1">
+
+
+                    <li role="option">
+                        <a class="dropdown-item" href="/c/portal/update_language?p_l_id=815899&redirect=%2F-%2Fservicio-de-gestion-de-expedientes-de-justicia-gratuita&languageId=ca_ES" tabindex="-1">
+                            <span>Català</span>
+                        </a>
+                    </li>
+
+
+                    <li role="option">
+                        <a class="dropdown-item" href="/c/portal/update_language?p_l_id=815899&redirect=%2F-%2Fservicio-de-gestion-de-expedientes-de-justicia-gratuita&languageId=eu_ES" tabindex="-1">
+                            <span>Euskera</span>
+                        </a>
+                    </li>
+
+
+                    <li role="option">
+                        <a class="dropdown-item" href="/c/portal/update_language?p_l_id=815899&redirect=%2F-%2Fservicio-de-gestion-de-expedientes-de-justicia-gratuita&languageId=gl_ES" tabindex="-1">
+                            <span>Galego</span>
+                        </a>
+                    </li>
+
+
+                    <li role="option">
+                        <a class="dropdown-item" href="/c/portal/update_language?p_l_id=815899&redirect=%2F-%2Fservicio-de-gestion-de-expedientes-de-justicia-gratuita&languageId=en_US" tabindex="-1">
+                            <span>English</span>
+                        </a>
+                    </li>
+
+
+                    <li role="option">
+                        <a class="dropdown-item" href="/c/portal/update_language?p_l_id=815899&redirect=%2F-%2Fservicio-de-gestion-de-expedientes-de-justicia-gratuita&languageId=ca_ES_VALENCIA" tabindex="-1">
+                            <span>Valencià</span>
+                        </a>
+                    </li>
+        </ul>
+    </div>
+
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+				</div>
+				<div class="searcher">
+					<button class="search-button ico-buscar" aria-label="Botón Buscar" data-target="#searcher-collapse" data-toggle="collapse" aria-expanded="false"></button>
+					<div class="searcher-container collapse" id="searcher-collapse">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_  portlet-static portlet-static-end portlet-barebone portlet-search-bar " id="p_p_id_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch_">
+		<span id="p_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<section class="portlet" id="portlet_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch">
+
+
+	<div class="portlet-content">
+
+		<div class="autofit-float autofit-row portlet-header">
+			<div class="autofit-col autofit-col-end">
+				<div class="autofit-section">
+				</div>
+			</div>
+		</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		<form action="https://www.administraciondejusticia.gob.es/busqueda" id="dkrk___fm" method="get" name="dkrk___fm">
+			
+
+			
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+					
+					
+						<div class="search-bar">
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+		
+			
+				<input  class="field search-bar-empty-search-input form-control"  id="_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch_emptySearchEnabled"    name="_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch_emptySearchEnabled"     type="hidden" value="false"   />
+			
+		
+
+		
+	
+
+
+
+
+
+
+
+
+
+
+							<div class="input-group search-bar-simple">
+								
+									
+									
+										<div class="input-group-item search-bar-keywords-input-wrapper">
+											<input aria-label="Buscar" autocomplete="off" class="form-control input-group-inset input-group-inset-after search-bar-keywords-input" data-qa-id="searchInput" id="dkrk___q" name="q" placeholder="Búsqueda…" title="Buscar" type="text" value="" />
+
+											
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+		
+			
+				<input  class="field form-control"  id="_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch_scope"    name="_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch_scope"     type="hidden" value=""   />
+			
+		
+
+		
+	
+
+
+
+
+
+
+
+
+
+
+											<div class="input-group-inset-item input-group-inset-item-after">
+												<button class="btn btn-monospaced btn-unstyled" type="submit" aria-label="Buscar" ><span class="inline-item"><svg class="lexicon-icon lexicon-icon-search" role="presentation" viewBox="0 0 512 512"><use xlink:href="https://www.administraciondejusticia.gob.es/o/pagaj-theme/images/clay/icons.svg#search" /></svg></span></button>
+											</div>
+										</div>
+									
+								
+							</div>
+						</div>
+					
+				
+			
+		</form>
+
+		<script>
+Liferay.Loader.require(
+'portal-search-web@6.0.127/js/SearchBar',
+function(SearchBar) {
+try {
+(function() {
+Liferay.component('__UNNAMED_COMPONENT__8512bc2a-9d50-0d9b-a708-380e1ff0a1cb', new SearchBar.default({"formId":"dkrk___fm","namespace":"_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch_","spritemap":"https:\/\/www.administraciondejusticia.gob.es\/o\/pagaj-theme\/images\/clay\/icons.svg"}), { destroyOnNavigate: true, portletId: 'com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch'});
+})();
+} catch (err) {
+	console.error(err);
+}
+});
+
+</script>
+	
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<nav class="navbar navbar-classic nav-basic nav-basic--pagaj nav-basic--default-styles" aria-label="Menu Principal" id="navigation" >
+	<div class="nav-button-title">
+		<button aria-controls="navbar_menu_pagaj" aria-expanded="false" aria-label="Botón Menú Principal" class="fj-regular fj-no nav-button collapsed" data-target="#navbar_menu_pagaj" data-toggle="collapse" type="button">
+		</button>
+
+			<h2 class="nav-title"></h2>
+	</div>
+	<div class="p-container navbar-collapse collapse nav-menu-wrapper" id="navbar_menu_pagaj">       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_  portlet-static portlet-static-end portlet-barebone portlet-navigation " id="p_p_id_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_">
+		<span id="p_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<section class="portlet" id="portlet_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet">
+
+
+	<div class="portlet-content">
+
+		<div class="autofit-float autofit-row portlet-header">
+			<div class="autofit-col autofit-col-end">
+				<div class="autofit-section">
+				</div>
+			</div>
+		</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+		
+
+		
+
+		
+	<div id="navbar_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet">
+		<ul aria-label="Páginas del sitio web" class="navbar-blank navbar-nav navbar-site navbar-custom navbar-third-level" role="menubar">
+        
+    				
+    				
+    				
+                
+
+
+
+
+					<li class="lfr-nav-item nav-item" id="layout_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_50" role="presentation">
+						<a aria-labelledby="layout_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_50"  class="nav-link text-truncate" href='https://www.administraciondejusticia.gob.es/inicio'  role="menuitem">
+							<span class="text-truncate"><img class="layout-logo layout-logo-815883" src="/image/layout_icon?img_id=3745004&t=1793339171954" /> Inicio
+							</span>
+						</a>
+
+					    
+					    
+					    
+					</li>
+    				
+    				
+    				
+                
+
+
+
+
+
+
+					<li class="lfr-nav-item nav-item dropdown" id="layout_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_61" role="presentation">
+						<a aria-labelledby="layout_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_61" aria-haspopup='true' class="nav-link text-truncate dropdown-toggle" href='https://www.administraciondejusticia.gob.es/conoce-la-justicia'  role="menuitem">
+							<span class="text-truncate"> Conoce la Justicia
+							</span>
+						</a>
+
+							<span class="ico-siguiente menu-btn-toggle"></span>							  
+		<ul aria-expanded="false" class="menu-2 dropdown-menu child-menu" role="menu">
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-2 " id="layout_80" >
+					<a aria-labelledby="layout_80"  class="link-menu-2"  href='https://www.administraciondejusticia.gob.es/que-es-la-administracion-de-justicia'  role="menuitem">
+						<span>Qué es la Administración de Justicia</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-2 " id="layout_60" >
+					<a aria-labelledby="layout_60" aria-haspopup='true' class="link-menu-2"  href='https://www.administraciondejusticia.gob.es/como-se-organiza-la-justicia'  role="menuitem">
+						<span>Cómo se organiza la Justicia</span>
+					</a>
+
+						<span class="ico-siguiente menu-btn-toggle"></span>								 
+		<ul aria-expanded="false" class="menu-3 dropdown-menu child-menu" role="menu">
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_84" >
+					<a aria-labelledby="layout_84"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/consejo-general-del-poder-judicial'  role="menuitem">
+						<span>Consejo General del Poder Judicial</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_59" >
+					<a aria-labelledby="layout_59" aria-haspopup='true' class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/secretaria-general-de-la-administracion-de-justicia'  role="menuitem">
+						<span>Secretaría General de la Administración de Justicia</span>
+					</a>
+
+						<span class="ico-siguiente menu-btn-toggle"></span>								 
+		<ul aria-expanded="false" class="menu-3 dropdown-menu child-menu" role="menu">
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_282" >
+					<a aria-labelledby="layout_282"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/secretarias-gobierno'  role="menuitem">
+						<span>Secretarías de Gobierno</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_65" >
+					<a aria-labelledby="layout_65"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/servicios-comunes-procesales'  role="menuitem">
+						<span>Servicios Comunes Procesales</span>
+					</a>
+
+				</li>		
+		</ul>
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_97" >
+					<a aria-labelledby="layout_97"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/juzgados-y-tribunales'  role="menuitem">
+						<span>Juzgados y Tribunales</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_83" >
+					<a aria-labelledby="layout_83"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/instituto-nacional-de-toxicologia-y-ciencias-forenses'  role="menuitem">
+						<span>Instituto Nacional de Toxicología y Ciencias Forenses</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_82" >
+					<a aria-labelledby="layout_82"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/instituto-de-medicina-legal-y-ciencias-forenses'  role="menuitem">
+						<span>Instituto de Medicina Legal y Ciencias Forenses</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_95" >
+					<a aria-labelledby="layout_95" aria-haspopup='true' class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/ministerio-fiscal'  role="menuitem">
+						<span>Ministerio Fiscal</span>
+					</a>
+
+						<span class="ico-siguiente menu-btn-toggle"></span>								 
+		<ul aria-expanded="false" class="menu-3 dropdown-menu child-menu" role="menu">
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_94" >
+					<a aria-labelledby="layout_94"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/fiscalia-general-del-estado'  role="menuitem">
+						<span>Fiscalía General del Estado</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_96" >
+					<a aria-labelledby="layout_96"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/la-carrera-fiscal'  role="menuitem">
+						<span>La carrera Fiscal</span>
+					</a>
+
+				</li>		
+		</ul>
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_81" >
+					<a aria-labelledby="layout_81"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/comunidades-autonomas-con-competencias-en-justicia'  role="menuitem">
+						<span>Comunidades Autónomas con competencias en Justicia</span>
+					</a>
+
+				</li>		
+		</ul>
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-2 " id="layout_79" >
+					<a aria-labelledby="layout_79"  class="link-menu-2"  href='https://www.administraciondejusticia.gob.es/buscador-de-organos'  role="menuitem">
+						<span>Buscador de órganos</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-2 " id="layout_87" >
+					<a aria-labelledby="layout_87" aria-haspopup='true' class="link-menu-2"  href='https://www.administraciondejusticia.gob.es/profesionales-y-colectivos'  role="menuitem">
+						<span>Profesionales y Colectivos</span>
+					</a>
+
+						<span class="ico-siguiente menu-btn-toggle"></span>								 
+		<ul aria-expanded="false" class="menu-3 dropdown-menu child-menu" role="menu">
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_86" >
+					<a aria-labelledby="layout_86" aria-haspopup='true' class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/abogacia'  role="menuitem">
+						<span>Abogacía</span>
+					</a>
+
+						<span class="ico-siguiente menu-btn-toggle"></span>								 
+		<ul aria-expanded="false" class="menu-3 dropdown-menu child-menu" role="menu">
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_89" >
+					<a aria-labelledby="layout_89"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/derechos-y-deberes-de-los-profesionales-de-la-abogacia'  role="menuitem">
+						<span>Derechos y deberes</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_85" >
+					<a aria-labelledby="layout_85"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/colegios-profesionales-de-la-abogacia'  role="menuitem">
+						<span>Colegios profesionales</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_104" >
+					<a aria-labelledby="layout_104"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/informacion-para-la-ciudadania-abogacia'  role="menuitem">
+						<span>Información para la ciudadanía</span>
+					</a>
+
+				</li>		
+		</ul>
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_136" >
+					<a aria-labelledby="layout_136"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/acceso-a-la-profesi%C3%B3n-de-la-abogac%C3%ADa-y-la-procura'  role="menuitem">
+						<span>Acceso a la profesión de la Abogacía y la Procura</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_99" >
+					<a aria-labelledby="layout_99"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/procura'  role="menuitem">
+						<span>Procura</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_137" >
+					<a aria-labelledby="layout_137"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/fiscalia'  role="menuitem">
+						<span>Fiscalía</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_138" >
+					<a aria-labelledby="layout_138"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/abogados-fiscales-sustitutos'  role="menuitem">
+						<span>Abogados/as fiscales sustitutos/as</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_139" >
+					<a aria-labelledby="layout_139"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/funcionarios-al-servicio-de-la-administracion-de-justicia'  role="menuitem">
+						<span>Funcionarios/as al servicio de la Administración de Justicia</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_102" >
+					<a aria-labelledby="layout_102"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/graduados-sociales'  role="menuitem">
+						<span>Graduados/as Sociales</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_140" >
+					<a aria-labelledby="layout_140"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/judicatura-y-magistratura'  role="menuitem">
+						<span>Judicatura y Magistratura</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_141" >
+					<a aria-labelledby="layout_141"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/letrados'  role="menuitem">
+						<span>Letrados/as de la Administración de Justicia</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_142" >
+					<a aria-labelledby="layout_142"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/mediadores'  role="menuitem">
+						<span>Mediación</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_143" >
+					<a aria-labelledby="layout_143"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/profesionales-y-colectivos-conciliacion'  role="menuitem">
+						<span>Conciliación</span>
+					</a>
+
+				</li>		
+		</ul>
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-2 " id="layout_257" >
+					<a aria-labelledby="layout_257" aria-haspopup='true' class="link-menu-2"  href='https://www.administraciondejusticia.gob.es/como-resolver-un-conflicto'  role="menuitem">
+						<span>Cómo resolver un Conflicto</span>
+					</a>
+
+						<span class="ico-siguiente menu-btn-toggle"></span>								 
+		<ul aria-expanded="false" class="menu-3 dropdown-menu child-menu" role="menu">
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_144" >
+					<a aria-labelledby="layout_144"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/acudir-a-los-tribunales-la-justicia-del-pleito'  role="menuitem">
+						<span>Acudir a los Tribunales: La Justicia del pleito</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_191" >
+					<a aria-labelledby="layout_191" aria-haspopup='true' class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/el-arbitraje'  role="menuitem">
+						<span>El Arbitraje</span>
+					</a>
+
+						<span class="ico-siguiente menu-btn-toggle"></span>								 
+		<ul aria-expanded="false" class="menu-3 dropdown-menu child-menu" role="menu">
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_152" >
+					<a aria-labelledby="layout_152"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/arbitraje'  role="menuitem">
+						<span>Arbitraje</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_153" >
+					<a aria-labelledby="layout_153"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/arbitraje-de-consumo'  role="menuitem">
+						<span>Arbitraje de Consumo</span>
+					</a>
+
+				</li>		
+		</ul>
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_258" >
+					<a aria-labelledby="layout_258" aria-haspopup='true' class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/medios-solucion-controversias-masc'  role="menuitem">
+						<span>Medios Adecuados de Solución de Controversias (MASC)</span>
+					</a>
+
+						<span class="ico-siguiente menu-btn-toggle"></span>								 
+		<ul aria-expanded="false" class="menu-3 dropdown-menu child-menu" role="menu">
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_259" >
+					<a aria-labelledby="layout_259"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/medios-adecuados-solucion-controversias'  role="menuitem">
+						<span>Qué son los Medios Adecuados de Solución de Controversias</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_261" >
+					<a aria-labelledby="layout_261" aria-haspopup='true' class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/tipos-medios-adecuados-solucion-controversias'  role="menuitem">
+						<span>Tipos de Medios adecuados de Solución de Controversias</span>
+					</a>
+
+						<span class="ico-siguiente menu-btn-toggle"></span>								 
+		<ul aria-expanded="false" class="menu-3 dropdown-menu child-menu" role="menu">
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_267" >
+					<a aria-labelledby="layout_267"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/mediacion1'  role="menuitem">
+						<span>Mediación</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_268" >
+					<a aria-labelledby="layout_268"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/conciliacion1'  role="menuitem">
+						<span>Conciliación</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_269" >
+					<a aria-labelledby="layout_269"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/negociacion1'  role="menuitem">
+						<span>Negociación</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_270" >
+					<a aria-labelledby="layout_270"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/derecho-colaborativo1'  role="menuitem">
+						<span>Derecho colaborativo</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_271" >
+					<a aria-labelledby="layout_271"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/oferta-vinculante'  role="menuitem">
+						<span>Oferta Vinculante Confidencial</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_272" >
+					<a aria-labelledby="layout_272"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/opinion-persona-experta-independiente'  role="menuitem">
+						<span>Opinión de Persona Experta Independiente</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_281" >
+					<a aria-labelledby="layout_281"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/otros-masc'  role="menuitem">
+						<span>Otros MASC</span>
+					</a>
+
+				</li>		
+		</ul>
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_260" >
+					<a aria-labelledby="layout_260"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/servicios-digitales-masc'  role="menuitem">
+						<span>Servicios Digitales MASC</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_262" >
+					<a aria-labelledby="layout_262"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/cuando-es-obligatorio-acudir-masc'  role="menuitem">
+						<span>Cuándo es obligatorio acudir a un Medio Adecuado de Solución de Controversias en el ámbito Civil y Mercantil</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_264" >
+					<a aria-labelledby="layout_264"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/paso-a-paso1'  role="menuitem">
+						<span>Paso a paso</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_265" >
+					<a aria-labelledby="layout_265"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/formalizacion-acuerdos'  role="menuitem">
+						<span>Formalización y validez de los acuerdos alcanzados</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_266" >
+					<a aria-labelledby="layout_266"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/beneficios-masc'  role="menuitem">
+						<span>Beneficios de los MASC</span>
+					</a>
+
+				</li>		
+		</ul>
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_274" >
+					<a aria-labelledby="layout_274"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/justicia-restaurativa'  role="menuitem">
+						<span>Justicia Restaurativa</span>
+					</a>
+
+				</li>		
+		</ul>
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-2 " id="layout_91" >
+					<a aria-labelledby="layout_91" aria-haspopup='true' class="link-menu-2"  href='https://www.administraciondejusticia.gob.es/formacion'  role="menuitem">
+						<span>Formación</span>
+					</a>
+
+						<span class="ico-siguiente menu-btn-toggle"></span>								 
+		<ul aria-expanded="false" class="menu-3 dropdown-menu child-menu" role="menu">
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_90" >
+					<a aria-labelledby="layout_90"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/centro-de-estudios-juridicos'  role="menuitem">
+						<span>Centro de Estudios Jurídicos</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_251" >
+					<a aria-labelledby="layout_251" aria-haspopup='true' class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/centro-de-competencias-digitales'  role="menuitem">
+						<span>Centro de Competencias Digitales</span>
+					</a>
+
+						<span class="ico-siguiente menu-btn-toggle"></span>								 
+		<ul aria-expanded="false" class="menu-3 dropdown-menu child-menu" role="menu">
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_92" >
+					<a aria-labelledby="layout_92"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/edujustic'  role="menuitem">
+						<span>EduJusTIC</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_252" >
+					<a aria-labelledby="layout_252"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/aula-en-linea'  role="menuitem">
+						<span>Aula en Línea</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_253" >
+					<a aria-labelledby="layout_253"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/portal-soluciones-digitales'  role="menuitem">
+						<span>Portal Soluciones Digitales</span>
+					</a>
+
+				</li>		
+		</ul>
+				</li>		
+		</ul>
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-2 " id="layout_93" >
+					<a aria-labelledby="layout_93"  class="link-menu-2"  href='https://www.administraciondejusticia.gob.es/centro-de-difusion'  role="menuitem">
+						<span>Centro de difusión</span>
+					</a>
+
+				</li>		
+		</ul>
+					    
+					    
+					    
+					</li>
+    				
+    				
+    				
+                
+
+
+
+
+
+
+					<li class="lfr-nav-item nav-item dropdown" id="layout_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_70" role="presentation">
+						<a aria-labelledby="layout_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_70" aria-haspopup='true' class="nav-link text-truncate dropdown-toggle"   role="menuitem">
+							<span class="text-truncate"> Cogobernanza
+							</span>
+						</a>
+
+							<span class="ico-siguiente menu-btn-toggle"></span>							  
+		<ul aria-expanded="false" class="menu-2 dropdown-menu child-menu" role="menu">
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-2 " id="layout_72" >
+					<a aria-labelledby="layout_72"  class="link-menu-2"  href='https://www.administraciondejusticia.gob.es/conferencia-sectorial-de-la-administracion-de-justicia'  role="menuitem">
+						<span>Conferencia Sectorial de la Administración de Justicia</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-2 " id="layout_69" >
+					<a aria-labelledby="layout_69"  class="link-menu-2"  href='https://www.administraciondejusticia.gob.es/plan-de-recuperacion-transformacion-y-resiliencia'  role="menuitem">
+						<span>Plan de Recuperación, Transformación y Resiliencia</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-2 " id="layout_194" >
+					<a aria-labelledby="layout_194" aria-haspopup='true' class="link-menu-2"  href='https://www.administraciondejusticia.gob.es/cteaje'  role="menuitem">
+						<span>Comité Técnico Estatal de la Administración Judicial Electrónica (CTEAJE)</span>
+					</a>
+
+						<span class="ico-siguiente menu-btn-toggle"></span>								 
+		<ul aria-expanded="false" class="menu-3 dropdown-menu child-menu" role="menu">
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_195" >
+					<a aria-labelledby="layout_195" aria-haspopup='true' class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/cteaje/quienes-somos'  role="menuitem">
+						<span>Quiénes somos</span>
+					</a>
+
+						<span class="ico-siguiente menu-btn-toggle"></span>								 
+		<ul aria-expanded="false" class="menu-3 dropdown-menu child-menu" role="menu">
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_199" >
+					<a aria-labelledby="layout_199"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/cteaje/que-es-el-cteaje'  role="menuitem">
+						<span>¿Qué es el CTEAJE?</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_200" >
+					<a aria-labelledby="layout_200"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/cteaje/mision-y-objetivos'  role="menuitem">
+						<span>Misión y objetivos</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_201" >
+					<a aria-labelledby="layout_201"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/cteaje/marco-legal'  role="menuitem">
+						<span>Marco Legal</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_202" >
+					<a aria-labelledby="layout_202"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/cteaje/organizacion'  role="menuitem">
+						<span>Organización</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_255" >
+					<a aria-labelledby="layout_255"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/cteaje/proteccion-de-datos'  role="menuitem">
+						<span>Protección de datos</span>
+					</a>
+
+				</li>		
+		</ul>
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_196" >
+					<a aria-labelledby="layout_196" aria-haspopup='true' class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/cteaje/normativa-tecnica'  role="menuitem">
+						<span>Normativa técnica</span>
+					</a>
+
+						<span class="ico-siguiente menu-btn-toggle"></span>								 
+		<ul aria-expanded="false" class="menu-3 dropdown-menu child-menu" role="menu">
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_203" >
+					<a aria-labelledby="layout_203"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/cteaje/bases-del-ejis'  role="menuitem">
+						<span>Bases del EJIS</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_204" >
+					<a aria-labelledby="layout_204"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/cteaje/guias-de-interoperabilidad'  role="menuitem">
+						<span>Guías de Interoperabilidad</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_205" >
+					<a aria-labelledby="layout_205"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/cteaje/seguridad'  role="menuitem">
+						<span>Seguridad</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_206" >
+					<a aria-labelledby="layout_206"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/cteaje/tablas-de-datos-maestros'  role="menuitem">
+						<span>Tablas de datos maestros</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_207" >
+					<a aria-labelledby="layout_207"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/cteaje/version-descargable-nt-cteaje'  role="menuitem">
+						<span>Versión descargable NT CTEAJE</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_208" >
+					<a aria-labelledby="layout_208"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/cteaje/normativa-complementaria'  role="menuitem">
+						<span>Normativa complementaria</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_247" >
+					<a aria-labelledby="layout_247"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/cteaje/modelos-intercambio-datos-administracion-justicia'  role="menuitem">
+						<span>Modelos de intercambio de datos normalizados de sistemas centralizados de apoyo a la AJU</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_287" >
+					<a aria-labelledby="layout_287"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/formularios-normalizados'  role="menuitem">
+						<span>Formularios Normalizados</span>
+					</a>
+
+				</li>		
+		</ul>
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_197" >
+					<a aria-labelledby="layout_197"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/cteaje/proyectos-y-grupos-de-trabajo'  role="menuitem">
+						<span>Proyectos y Grupos de Trabajo</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_198" >
+					<a aria-labelledby="layout_198" aria-haspopup='true' class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/cteaje/comunicacion'  role="menuitem">
+						<span>Comunicación</span>
+					</a>
+
+						<span class="ico-siguiente menu-btn-toggle"></span>								 
+		<ul aria-expanded="false" class="menu-3 dropdown-menu child-menu" role="menu">
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_220" >
+					<a aria-labelledby="layout_220"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/cteaje/noticias'  role="menuitem">
+						<span>Noticias</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_219" >
+					<a aria-labelledby="layout_219" aria-haspopup='true' class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/cteaje/documentos-de-interes'  role="menuitem">
+						<span>Documentos de Interés</span>
+					</a>
+
+						<span class="ico-siguiente menu-btn-toggle"></span>								 
+		<ul aria-expanded="false" class="menu-3 dropdown-menu child-menu" role="menu">
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_218" >
+					<a aria-labelledby="layout_218"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/cteaje/balances-de-actividad'  role="menuitem">
+						<span>Balances de actividad</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_246" >
+					<a aria-labelledby="layout_246"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/cteaje/politicas-y-manifiestos'  role="menuitem">
+						<span>Políticas y Manifiestos</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_254" >
+					<a aria-labelledby="layout_254"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/diccionario-de-conceptos-y-terminos-eficiencia-digital-de-la-justicia'  role="menuitem">
+						<span>Diccionario de conceptos y términos eficiencia digital de la Justicia</span>
+					</a>
+
+				</li>		
+		</ul>
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_221" >
+					<a aria-labelledby="layout_221"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/actividad-del-cteaje'  role="menuitem">
+						<span>Actividad del CTEAJE</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_222" >
+					<a aria-labelledby="layout_222"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/cteaje/enlaces-de-interes'  role="menuitem">
+						<span>Enlaces de interés</span>
+					</a>
+
+				</li>		
+		</ul>
+				</li>		
+		</ul>
+				</li>		
+		</ul>
+					    
+					    
+					    
+					</li>
+    				
+    				
+    				
+                
+
+
+
+
+
+
+					<li class="lfr-nav-item nav-item dropdown" id="layout_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_75" role="presentation">
+						<a aria-labelledby="layout_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_75" aria-haspopup='true' class="nav-link text-truncate dropdown-toggle"   role="menuitem">
+							<span class="text-truncate"> Iniciativas
+							</span>
+						</a>
+
+							<span class="ico-siguiente menu-btn-toggle"></span>							  
+		<ul aria-expanded="false" class="menu-2 dropdown-menu child-menu" role="menu">
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-2 " id="layout_74" >
+					<a aria-labelledby="layout_74"  class="link-menu-2"  href='https://www.administraciondejusticia.gob.es/justicia-2030'  role="menuitem">
+						<span>Justicia 2030</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-2 " id="layout_76" >
+					<a aria-labelledby="layout_76"  class="link-menu-2"  href='https://www.administraciondejusticia.gob.es/la-justicia-en-datos'  role="menuitem">
+						<span>La Justicia en Datos</span>
+					</a>
+
+				</li>		
+		</ul>
+					    
+					    
+					    
+					</li>
+    				
+    				
+    				
+                
+
+
+
+
+
+
+					<li class="lfr-nav-item nav-item dropdown selected active" id="layout_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_53" role="presentation">
+						<a aria-labelledby="layout_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_53" aria-haspopup='true' class="nav-link text-truncate dropdown-toggle" href='https://www.administraciondejusticia.gob.es/servicios-y-soluciones'  role="menuitem">
+							<span class="text-truncate"> Servicios y Soluciones
+							</span>
+						</a>
+
+							<span class="ico-siguiente menu-btn-toggle"></span>							  
+		<ul aria-expanded="false" class="menu-2 dropdown-menu child-menu" role="menu">
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-2 " id="layout_78" >
+					<a aria-labelledby="layout_78" aria-haspopup='true' class="link-menu-2"  href='https://www.administraciondejusticia.gob.es/lexnet'  role="menuitem">
+						<span>LexNET</span>
+					</a>
+
+						<span class="ico-siguiente menu-btn-toggle"></span>								 
+		<ul aria-expanded="false" class="menu-3 dropdown-menu child-menu" role="menu">
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_124" >
+					<a aria-labelledby="layout_124"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/lexnet1'  role="menuitem">
+						<span>LexNET</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_173" >
+					<a aria-labelledby="layout_173"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/lexnet/avisos'  role="menuitem">
+						<span>Avisos</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_131" >
+					<a aria-labelledby="layout_131"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/lexnet/guias-de-uso'  role="menuitem">
+						<span>Guías de uso</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_133" >
+					<a aria-labelledby="layout_133"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/lexnet/manuales-de-integracion'  role="menuitem">
+						<span>Manuales de Integración</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_183" >
+					<a aria-labelledby="layout_183"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/lexnet/estadisticas-de-actividad1'  role="menuitem">
+						<span>Estadísticas de Actividad</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_126" >
+					<a aria-labelledby="layout_126"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/lexnet/noticias-y-novedades'  role="menuitem">
+						<span>Noticias y novedades</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_113" >
+					<a aria-labelledby="layout_113"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/lexnet/mapa-de-comunicaciones-electronicas'  role="menuitem">
+						<span>Mapa de Comunicaciones Electrónicas</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_172" >
+					<a aria-labelledby="layout_172"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/lexnet/alta-entidades-administradores-usuarios'  role="menuitem">
+						<span>Alta de entidades, administradores y usuarios</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_114" >
+					<a aria-labelledby="layout_114"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/lexnet/justificantes'  role="menuitem">
+						<span>Justificantes</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_128" >
+					<a aria-labelledby="layout_128"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/lexnet/preguntas-frecuentes'  role="menuitem">
+						<span>Preguntas Frecuentes</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_129" >
+					<a aria-labelledby="layout_129"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/lexnet/contacto'  role="menuitem">
+						<span>Contacto</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_243" >
+					<a aria-labelledby="layout_243"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/lexnet/politica-de-privacidad'  role="menuitem">
+						<span>Política de Privacidad</span>
+					</a>
+
+				</li>		
+		</ul>
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-2 " id="layout_168" >
+					<a aria-labelledby="layout_168" aria-haspopup='true' class="link-menu-2"  href='https://www.administraciondejusticia.gob.es/carpeta-justicia'  role="menuitem">
+						<span>Carpeta Justicia</span>
+					</a>
+
+						<span class="ico-siguiente menu-btn-toggle"></span>								 
+		<ul aria-expanded="false" class="menu-3 dropdown-menu child-menu" role="menu">
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_169" >
+					<a aria-labelledby="layout_169"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/carpeta-justicia/contacto'  role="menuitem">
+						<span>Contacto</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_187" >
+					<a aria-labelledby="layout_187"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/carpeta-justicia/guias-formativas'  role="menuitem">
+						<span>Guías formativas</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_170" >
+					<a aria-labelledby="layout_170"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/carpeta-justicia/preguntas-frecuentes'  role="menuitem">
+						<span>Preguntas Frecuentes</span>
+					</a>
+
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-3 " id="layout_193" >
+					<a aria-labelledby="layout_193"  class="link-menu-3"  href='https://www.administraciondejusticia.gob.es/carpeta-justicia/politica-de-privacidad'  role="menuitem">
+						<span>Política de Privacidad</span>
+					</a>
+
+				</li>		
+		</ul>
+				</li>		
+				
+
+				
+				
+
+				<li class="nav-item  item-menu-2 " id="layout_248" >
+					<a aria-labelledby="layout_248"  class="link-menu-2"  href='https://www.administraciondejusticia.gob.es/catalogo'  role="menuitem">
+						<span>Catálogo de Servicios y Soluciones</span>
+					</a>
+
+				</li>		
+		</ul>
+					    
+					    
+					    
+					</li>
+    				
+    				
+    				
+                
+
+
+
+
+					<li class="lfr-nav-item nav-item" id="layout_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_116" role="presentation">
+						<a aria-labelledby="layout_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_116"  class="nav-link text-truncate" href='https://www.administraciondejusticia.gob.es/sedes-judiciales-electronicas'  role="menuitem">
+							<span class="text-truncate"> Sedes judiciales Electrónicas
+							</span>
+						</a>
+
+					    
+					    
+					    
+					</li>
+		</ul>
+	</div>
+
+
+	
+	
+	
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+	</div>
+</nav>
+
+
+
+</header>
+
+	<section id="content" class="container p-container layout-1_column">
+
+		<h1 class="hide-accessible sr-only">Servicio de gestión de expedientes de Justicia Gratuita</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet_  portlet-static portlet-static-end portlet-barebone portlet-breadcrumb " id="p_p_id_com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet_">
+		<span id="p_com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<section class="portlet" id="portlet_com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet">
+
+
+	<div class="portlet-content">
+
+		<div class="autofit-float autofit-row portlet-header">
+			<div class="autofit-col autofit-col-end">
+				<div class="autofit-section">
+				</div>
+			</div>
+		</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<nav aria-label="Ruta de navegación" id="_com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet_breadcrumbs-defaultScreen">
+	
+		
+
+	<ol class="breadcrumb">
+		<li class="breadcrumb-item">
+			<a class="breadcrumb-link" href="https://www.administraciondejusticia.gob.es/" title="Inicio">Inicio
+			</a>
+		</li>
+		
+        
+            
+                    <li class="breadcrumb-item">
+                                <a class="breadcrumb-link" href="https://www.administraciondejusticia.gob.es/servicios-y-soluciones" title="Servicios y Soluciones">
+                                    <span class="breadcrumb-text-truncate">Servicios y Soluciones</span>
+                                </a>
+                            </li>
+        
+            
+                    <li class="breadcrumb-item">
+                                <a class="breadcrumb-link" href="https://www.administraciondejusticia.gob.es/catalogo" title="Catálogo de Servicios y Soluciones">
+                                    <span class="breadcrumb-text-truncate">Catálogo de Servicios y Soluciones</span>
+                                </a>
+                            </li>
+        
+            
+            <li class="breadcrumb-item">
+                        <span class="active breadcrumb-text-truncate" title="Servicio de gestión de expedientes de Justicia Gratuita" >Servicio de gestión de expedientes de Justicia Gratuita</span>
+                    </li>
+    </ol>
+
+	
+</nav>
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<style type="text/css">
+			.master-layout-fragment .portlet-header {
+				display: none;
+			}
+		</style>
+
+		
+
+		<div class="columns-1" id="main-content" role="main">
+	<div class="portlet-layout row">
+		<div class="col-md-12 portlet-column portlet-column-only" id="column-1">
+			<div class="portlet-dropzone portlet-column-content portlet-column-content-only" id="layout-column_column-1">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet_  portlet-static portlet-static-end portlet-barebone portlet-nested-portlets last-col--bg-grey" id="p_p_id_com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet_INSTANCE_tk03lCOlkM8z_">
+		<span id="p_com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet_INSTANCE_tk03lCOlkM8z"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<section class="portlet" id="portlet_com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet_INSTANCE_tk03lCOlkM8z">
+
+
+	<div class="portlet-content">
+
+		<div class="autofit-float autofit-row portlet-header">
+			<div class="autofit-col autofit-col-end">
+				<div class="autofit-section">
+				</div>
+			</div>
+		</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="comcom_2_9-3_column_fluid" id="_com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet_INSTANCE_tk03lCOlkM8z__main-content" role="main">
+	<div class="portlet-layout row">
+		<div class="col-md-9 col-sm-8 portlet-column" id="_com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet_INSTANCE_tk03lCOlkM8z__column-1">
+			<div class="portlet-dropzone portlet-column-content portlet-column-content-only" id="layout-column__com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet_INSTANCE_tk03lCOlkM8z__column-1">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_  portlet-static portlet-static-end portlet-decorate portlet-journal-content " id="p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_xGQxvTRFzStd_">
+		<span id="p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_xGQxvTRFzStd"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<section class="portlet" id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_xGQxvTRFzStd">
+
+
+	<div class="portlet-content">
+
+		<div class="autofit-float autofit-row portlet-header">
+			<div class="autofit-col autofit-col-expand">
+				<h2 class="portlet-title-text">Servicio Electrónico de Microempresas</h2>
+			</div>
+			<div class="autofit-col autofit-col-end">
+				<div class="autofit-section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="visible-interaction">
+
+	
+
+	
+</div>				</div>
+			</div>
+		</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+			
+			
+				
+					
+					
+					
+					
+
+						
+
+						
+
+							
+
+							<div class="" data-fragments-editor-item-id="31301-3743843" data-fragments-editor-item-type="fragments-editor-mapped-item" >
+								
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="2076437" data-analytics-asset-title="Servicio Electrónico de Microempresas" data-analytics-asset-type="web-content" data-analytics-web-content-resource-pk="3743843">
+			
+
+			
+
+<div class="information">
+    <div class="information__description"><h3>Plataforma Formularios Libro III de la Ley Concursal</h3>
+<p> </p>
+<p>El Servicio electrónico de Microempresas está previsto en la
+  Disposición Adicional Cuarta de la Ley 16/2022, de 5 de septiembre, de
+  reforma del texto refundido de la Ley Concursal <strong>aprobado por
+    el Real Decreto Legislativo</strong> aprobado por el Real Decreto
+  Legislativo 1/2020, de 5 de mayo, para la transposición de la
+  Directiva (UE) 2019/1023 del Parlamento Europeo y del Consejo, de 20
+  de junio de 2019, sobre marcos de reestructuración preventiva,
+  exoneración de deudas e inhabilitaciones, y sobre medidas para
+  aumentar la eficiencia de los procedimientos de reestructuración,
+  insolvencia y exoneración de deudas, y por la que se modifica la
+  Directiva (UE) 2017/1132 del Parlamento Europeo y del Consejo, sobre
+  determinados aspectos del Derecho de sociedades (Directiva sobre
+  reestructuración e insolvencia).</p>
+<p>De acuerdo con el Libro III de la Ley Concursal del Procedimiento
+  especial para microempresas, se publica una plataforma digital para la
+  cumplimentación de los formularios, tanto de iniciación como de
+  trámite, establecidos por la ley. El objetivo final de la plataforma,
+  es facilitar la presentación de los formularios y agilizar su
+  tramitación por medio del soporte y validación de la información introducida.</p>
+<p>
+  <strong>Disposición adicional cuarta. Formularios normalizados del
+    procedimiento especial de microempresas.</strong>
+</p>
+<p>Antes de la entrada en vigor del libro tercero del texto refundido
+  introducido por la presente ley, por orden del Ministerio de Justicia
+  se aprobarán las condiciones de acceso y modo de funcionamiento del
+  servicio electrónico donde se podrá acceder y cumplimentar los
+  formularios normalizados en ellos previstos. Dichos formularios serán
+  electrónicos, accesibles en línea y sin coste. También serán
+  accesibles en línea las directrices prácticas sobre la manera de su
+  cumplimentación. El acceso a estos formularios normalizados implicará
+  la posibilidad de su lectura y descarga, si bien su cumplimentación y
+  envío se deberá realizar electrónicamente.</p>
+<p>A los efectos de esta ley, se entenderán como formularios
+  normalizados los servicios electrónicos donde poder cumplimentar y
+  enviar la información necesaria en cada fase del procedimiento.</p>
+<p>Enlace a la <strong>
+    <a
+      href="https://www.boe.es/boe/dias/2022/12/30/pdfs/BOE-A-2022-24382.pdf"
+      rel="noopener noreferrer" target="_blank"> Orden
+  JUS/1333/2022</a></strong>, de 28 de diciembre, de condiciones de
+  acceso y modo de funcionamiento del servicio electrónico.</p></div>
+
+
+
+
+</div>
+<script>
+    $(document).ready(function(){
+        new AccAccordion('#accordion_2076437');
+    });
+</script>
+
+
+
+			
+		</div>
+
+		
+
+	
+
+
+
+							</div>
+						
+					
+				
+			
+		
+	
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_  portlet-static portlet-static-end portlet-decorate-aside portlet-journal-content " id="p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_oC9MBYio8RO6_">
+		<span id="p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_oC9MBYio8RO6"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<section class="portlet" id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_oC9MBYio8RO6">
+
+
+	<div class="portlet-content">
+
+		<div class="autofit-float autofit-row portlet-header">
+			<div class="autofit-col autofit-col-expand">
+				<h2 class="portlet-title-text">Acceder al Servicio Electrónico de Microempresas</h2>
+			</div>
+			<div class="autofit-col autofit-col-end">
+				<div class="autofit-section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="visible-interaction">
+
+	
+
+	
+</div>				</div>
+			</div>
+		</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+			
+			
+				
+					
+					
+					
+					
+
+						
+
+						
+
+							
+
+							<div class="" data-fragments-editor-item-id="31301-16381716" data-fragments-editor-item-type="fragments-editor-mapped-item" >
+								
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="16381714" data-analytics-asset-title="Acceder al Servicio Electrónico de Microempresas" data-analytics-asset-type="web-content" data-analytics-web-content-resource-pk="16381716">
+			
+
+			<p style="text-align: center;">
+  <picture data-fileentryid="4524063"><source media="(max-width:300px)" srcset="/o/adaptive-media/image/4524063/Thumbnail-300x300/pagaj_carpeta_justicia.jpg?t=1685523243274" /><source media="(max-width:651px) and (min-width:300px)" srcset="/o/adaptive-media/image/4524063/Preview-1000x0/pagaj_carpeta_justicia.jpg?t=1685523243274" /><img alt="" height="341" src="/documents/d/guest/pagaj_carpeta_justicia" style="margin: 0.0px;" width="651" /></picture>
+</p>
+<p class="mb-30 text-center">
+  <a class="mj-blue-btn" href="https://microempresas.justicia.es" rel="noopener noreferrer" target="_blank">Acceder al Servicio
+    Electrónico de Microempresas</a></p>
+
+			
+		</div>
+
+		
+
+	
+
+
+
+							</div>
+						
+					
+				
+			
+		
+	
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_  portlet-static portlet-static-end portlet-decorate portlet-asset-publisher " id="p_p_id_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_1jbjaqgDYrvo_">
+		<span id="p_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_1jbjaqgDYrvo"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<section class="portlet" id="portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_1jbjaqgDYrvo">
+
+
+	<div class="portlet-content">
+
+		<div class="autofit-float autofit-row portlet-header">
+			<div class="autofit-col autofit-col-expand">
+				<h2 class="portlet-title-text">Enlaces destacados</h2>
+			</div>
+			<div class="autofit-col autofit-col-end">
+				<div class="autofit-section">
+				</div>
+			</div>
+		</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+
+
+
+
+	
+		
+			
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+		
+		
+			
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	    <div class="mj-flex-center flex-5-col">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="4058839" data-analytics-asset-title="SEM - Guías formativas - Card" data-analytics-asset-type="web-content" data-analytics-web-content-resource-pk="4058841">
+			
+
+			
+
+    
+
+<div class="mj-cardhover--simple">
+        <div class="mj-cardhover--simple__img">
+            <img class="mj-cardhover--simple__icon" alt="Guías formativas" data-fileentryid="3734900" src="https://www.administraciondejusticia.gob.es/documents/975819/3734448/ico-otros-documentos.svg/e76c91c8-6976-7f8d-f6ae-6f0942f19f50?t=1677143979027" />
+        </div>
+    
+    <div class="mj-cardhover--simple__text">
+        <a href="/sem-guias-formativas" target="_self" class="mj-cardhover--simple__title">Guías formativas</a>
+    </div>
+</div>
+
+			
+		</div>
+
+		
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="4059031" data-analytics-asset-title="SEM - Preguntas frecuentes - Card" data-analytics-asset-type="web-content" data-analytics-web-content-resource-pk="4059033">
+			
+
+			
+
+    
+
+<div class="mj-cardhover--simple">
+        <div class="mj-cardhover--simple__img">
+            <img class="mj-cardhover--simple__icon" alt="Preguntas frecuentes" data-fileentryid="3734892" src="https://www.administraciondejusticia.gob.es/documents/975819/3734448/ico-directorios.svg/e7e34f3c-a2ea-74c6-d651-a024b1d30032?t=1677143979027" />
+        </div>
+    
+    <div class="mj-cardhover--simple__text">
+        <a href="/sem-preguntas-frecuentes" target="_self" class="mj-cardhover--simple__title">Preguntas frecuentes</a>
+    </div>
+</div>
+
+			
+		</div>
+
+		
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="4058991" data-analytics-asset-title="SEM - Plantillas para carga de datos - Card" data-analytics-asset-type="web-content" data-analytics-web-content-resource-pk="4058993">
+			
+
+			
+
+    
+
+<div class="mj-cardhover--simple">
+        <div class="mj-cardhover--simple__img">
+            <img class="mj-cardhover--simple__icon" alt="Plantillas para carga de datos" data-fileentryid="3734912" src="https://www.administraciondejusticia.gob.es/documents/975819/3734448/ico-servicios-comunes.svg/5d3a41f4-7c7b-472d-1d17-a87cd92adbf0?t=1677143979029" />
+        </div>
+    
+    <div class="mj-cardhover--simple__text">
+        <a href="/sem-plantillas-para-carga-de-datos" target="_self" class="mj-cardhover--simple__title">Plantillas para carga de datos</a>
+    </div>
+</div>
+
+			
+		</div>
+
+		
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="4059011" data-analytics-asset-title="SEM - Incidencias del servicio - Card" data-analytics-asset-type="web-content" data-analytics-web-content-resource-pk="4059013">
+			
+
+			
+
+    
+
+<div class="mj-cardhover--simple">
+        <div class="mj-cardhover--simple__img">
+            <img class="mj-cardhover--simple__icon" alt="Incidencias del servicio" data-fileentryid="3734896" src="https://www.administraciondejusticia.gob.es/documents/975819/3734448/ico-instrucciones.svg/a50dec33-673c-5035-b467-d5cdc4bbeeb3?t=1677143979027" />
+        </div>
+    
+    <div class="mj-cardhover--simple__text">
+        <a href="/sem-incidencias-del-servicio" target="_self" class="mj-cardhover--simple__title">Incidencias del servicio</a>
+    </div>
+</div>
+
+			
+		</div>
+
+		
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="6166577" data-analytics-asset-title="SEM - Avisos - Card" data-analytics-asset-type="web-content" data-analytics-web-content-resource-pk="6166579">
+			
+
+			
+
+    
+
+<div class="mj-cardhover--simple">
+        <div class="mj-cardhover--simple__img">
+            <picture data-fileentryid="3735712"><source media="(max-width:75px)" srcset="/o/adaptive-media/image/3735712/Preview-1000x0/oferta-vinculante-confidencial.png?t=1679059243629" /><source media="(max-width:75px) and (min-width:75px)" srcset="/o/adaptive-media/image/3735712/Thumbnail-300x300/oferta-vinculante-confidencial.png?t=1679059243629" /><img class="mj-cardhover--simple__icon" alt="Avisos" data-fileentryid="3735712" src="https://www.administraciondejusticia.gob.es/documents/975819/3734713/oferta-vinculante-confidencial.png/2c7bbc18-542e-3b62-18b7-d99f9e373f20?t=1679059243629" /></picture>
+        </div>
+    
+    <div class="mj-cardhover--simple__text">
+        <a href="/avisos-sem" target="_self" class="mj-cardhover--simple__title">Avisos</a>
+    </div>
+</div>
+
+			
+		</div>
+
+		
+
+	
+
+
+    </div>
+
+
+		
+		
+	
+
+
+
+
+			
+			
+		
+	
+	
+
+
+
+
+
+
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_  portlet-static portlet-static-end portlet-barebone portlet-journal-content " id="p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_wDQGD9CGKAfj_">
+		<span id="p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_wDQGD9CGKAfj"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<section class="portlet" id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_wDQGD9CGKAfj">
+
+
+	<div class="portlet-content">
+
+		<div class="autofit-float autofit-row portlet-header">
+			<div class="autofit-col autofit-col-end">
+				<div class="autofit-section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="visible-interaction">
+
+	
+
+	
+</div>				</div>
+			</div>
+		</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+			
+			
+				
+					
+					
+					
+					
+
+						
+
+						
+
+							
+
+							<div class="" data-fragments-editor-item-id="31301-4059678" data-fragments-editor-item-type="fragments-editor-mapped-item" >
+								
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="4059676" data-analytics-asset-title="Volver al SEM" data-analytics-asset-type="web-content" data-analytics-web-content-resource-pk="4059678">
+			
+
+			<p>
+  <a href="/detalles-servicio-electronico-de-microempresas"
+      target="_self"><strong>&lt; Volver a Servicio Electrónico de Microempresas</strong>
+  </a></p>
+
+			
+		</div>
+
+		
+
+	
+
+
+
+							</div>
+						
+					
+				
+			
+		
+	
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+</div>
+		</div>
+		<div class="col-md-3 col-sm-4 portlet-column" id="_com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet_INSTANCE_tk03lCOlkM8z__column-2">
+			<div class="portlet-dropzone portlet-column-content portlet-column-content-only" id="layout-column__com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet_INSTANCE_tk03lCOlkM8z__column-2">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_site_navigation_site_map_web_portlet_SiteNavigationSiteMapPortlet_  portlet-static portlet-static-end portlet-menu-aside portlet-site-map " id="p_p_id_com_liferay_site_navigation_site_map_web_portlet_SiteNavigationSiteMapPortlet_INSTANCE_sDhC48toTh0y_">
+		<span id="p_com_liferay_site_navigation_site_map_web_portlet_SiteNavigationSiteMapPortlet_INSTANCE_sDhC48toTh0y"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<section class="portlet" id="portlet_com_liferay_site_navigation_site_map_web_portlet_SiteNavigationSiteMapPortlet_INSTANCE_sDhC48toTh0y">
+
+
+	<div class="portlet-content">
+
+		<div class="autofit-float autofit-row portlet-header">
+			<div class="autofit-col autofit-col-expand">
+				<h2 class="portlet-title-text">Plataforma de Liquidación de Bienes</h2>
+			</div>
+			<div class="autofit-col autofit-col-end">
+				<div class="autofit-section">
+				</div>
+			</div>
+		</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<ul class="mj-list-angles">
+			<li>
+				<a class=""  href="https://www.administraciondejusticia.gob.es/guias-formativas-plabi">Guías formativas</a>
+			</li>
+
+			<li>
+				<a class=""  href="https://www.administraciondejusticia.gob.es/plabi-preguntas-frecuentes">Preguntas Frecuentes</a>
+			</li>
+
+			<li>
+				<a class=""  href="https://www.administraciondejusticia.gob.es/avisos-plabi">Avisos</a>
+			</li>
+
+	</ul>
+
+
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_  portlet-static portlet-static-end portlet-barebone portlet-asset-publisher service-viewer" id="p_p_id_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_FJgITRf2KzRn_">
+		<span id="p_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_FJgITRf2KzRn"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<section class="portlet" id="portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_FJgITRf2KzRn">
+
+
+	<div class="portlet-content">
+
+		<div class="autofit-float autofit-row portlet-header">
+			<div class="autofit-col autofit-col-end">
+				<div class="autofit-section">
+				</div>
+			</div>
+		</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="asset-full-content clearfix mb-5 default-asset-publisher no-title " data-fragments-editor-item-id="31301-3742445" data-fragments-editor-item-type="fragments-editor-mapped-item" >
+
+	
+
+	
+
+	
+		<div class="align-items-center d-flex mb-2">
+			<p class="component-title h4">
+				
+					<a class="header-back-to lfr-portal-tooltip" href="https://www.administraciondejusticia.gob.es/visor-servicios/-/asset_publisher/FJgITRf2KzRn/?p_r_p_assetEntryId=3742447" title="Atrás" aria-label="Atrás" ><svg class="lexicon-icon lexicon-icon-angle-left" role="presentation" viewBox="0 0 512 512" ><use xlink:href="https://www.administraciondejusticia.gob.es/o/pagaj-theme/images/clay/icons.svg#angle-left" /></svg></a>
+				
+
+				
+			</p>
+
+			
+				
+			
+		</div>
+	
+
+	<span class="asset-anchor lfr-asset-anchor" id="3742447"></span>
+
+	
+
+	<div class="asset-content mb-3">
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="493140" data-analytics-asset-title="Servicio de gestión de expedientes de Justicia Gratuita" data-analytics-asset-type="web-content" data-analytics-web-content-resource-pk="3742445">
+			
+
+			
+<div class="service__details">
+    <div class="portlet-container-decorate mb-20 p-0">
+        <div class="portlet-content">
+            <div class="portlet-header h-auto mb-0">
+                <h2 class="portlet-title-text d-block portlet-title-editable pr-6">Servicio de gestión de expedientes de Justicia Gratuita</h2>
+            </div>
+        </div>
+    </div>
+
+		<picture ><img src="/o/adaptive-media/image/3735492/Preview-1000x0/servicio-gestion-expedientes-justicia-gratuita-100px.png?t=1677229330237" alt="Icono" class="service__image" /></picture>
+        <p class="intro"><strong>Acceso a la Justicia para la defensa de derechos e interés legítimos.</strong></p>
+
+        <h3 class="mj-h3 service__headline">Descripción</h3>
+        <div class="description"><p>El derecho a la justicia gratuita esta reconocido en el art. 119 de
+  la Constitución española de 27 de diciembre de 1978, permitiendo a
+  quienes acrediten insuficiencia de recursos para litigar acceder a la
+  justicia para la defensa de sus derechos e interés legítimos.</p></div>
+
+
+        <p class="service__linksText"><strong>Este servicio se presta desde los siguientes enlaces:</strong></p>
+        <ul class="service-location">
+                <li class="service-location__item">
+                            <a href="https://www.abogacia.es/servicios/colegio/expediente-electronico-de-justicia-gratuita/" class="service-location__link" title="Este servicio se puede solicitar a través del ConsejoGeneraldelaAbogacía Española." target="_blank">Andalucía                    <small class="hidden">(se abre en ventana nueva)</small>
+</a>
+                </li>
+                <li class="service-location__item">
+                            <a href="https://www.aragon.es/-/asistencia-juridica-gratuita-1" class="service-location__link" title="Este servicio se puede solicitar a través del ConsejoGeneraldelaAbogacía Española." target="_blank">Aragón                    <small class="hidden">(se abre en ventana nueva)</small>
+</a>
+                </li>
+                <li class="service-location__item">
+                            <a href="https://www.abogacia.es/servicios/colegio/expediente-electronico-de-justicia-gratuita/" class="service-location__link" title="Este servicio se puede solicitar a través del ConsejoGeneraldelaAbogacía Española." target="_blank">Principado de Asturias                    <small class="hidden">(se abre en ventana nueva)</small>
+</a>
+                </li>
+                <li class="service-location__item">
+                            <a href="https://www.abogacia.es/servicios/colegio/expediente-electronico-de-justicia-gratuita/" class="service-location__link" title="Este servicio se puede solicitar a través del ConsejoGeneraldelaAbogacía Española." target="_blank">Islas Baleares                    <small class="hidden">(se abre en ventana nueva)</small>
+</a>
+                </li>
+                <li class="service-location__item">
+                            <a href="https://sede.justiciaencanarias.es/sede/servicios" class="service-location__link" title="Este servicio se puede solicitar a través del ConsejoGeneraldelaAbogacía Española." target="_blank">Canarias                    <small class="hidden">(se abre en ventana nueva)</small>
+</a>
+                </li>
+                <li class="service-location__item">
+                            <a href="https://www.cantabria.es/web/direccion-general-justicia/justicia-gratuita" class="service-location__link" title="Información relativa a Justicia Gratuita" target="_blank">Cantabria                    <small class="hidden">(se abre en ventana nueva)</small>
+</a>
+                </li>
+                <li class="service-location__item">
+                            <a href="https://www.abogacia.es/servicios/colegio/expediente-electronico-de-justicia-gratuita/" class="service-location__link" title="Este servicio se puede solicitar a través del ConsejoGeneraldelaAbogacía Española." target="_blank">Castilla y León                    <small class="hidden">(se abre en ventana nueva)</small>
+</a>
+                </li>
+                <li class="service-location__item">
+                            <a href="https://www.abogacia.es/servicios/colegio/expediente-electronico-de-justicia-gratuita/" class="service-location__link" title="Este servicio se puede solicitar a través del ConsejoGeneraldelaAbogacía Española." target="_blank">Castilla-La Mancha                    <small class="hidden">(se abre en ventana nueva)</small>
+</a>
+                </li>
+                <li class="service-location__item">
+                            <a href="https://ejcat.justicia.gencat.cat/IAP" class="service-location__link" title="Este servicio se puede solicitar a través del ConsejoGeneraldelaAbogacía Española." target="_blank">Cataluña                    <small class="hidden">(se abre en ventana nueva)</small>
+</a>
+                </li>
+                <li class="service-location__item">
+                            <a href="https://www.abogacia.es/servicios/colegio/expediente-electronico-de-justicia-gratuita/" class="service-location__link" title="Este servicio se puede solicitar a través del ConsejoGeneraldelaAbogacía Española." target="_blank">Comunidad Valenciana                    <small class="hidden">(se abre en ventana nueva)</small>
+</a>
+                </li>
+                <li class="service-location__item">
+                            <a href="https://www.abogacia.es/servicios/colegio/expediente-electronico-de-justicia-gratuita/" class="service-location__link" title="Este servicio se puede solicitar a través del ConsejoGeneraldelaAbogacía Española." target="_blank">Extremadura                    <small class="hidden">(se abre en ventana nueva)</small>
+</a>
+                </li>
+                <li class="service-location__item">
+						<a href="javascript:;" class="service-location__link" title="Galicia" data-target="#Galicia" data-toggle="modal">Galicia</a>
+						<div aria-hidden="true" aria-labelledby="Galicia" class="modal fade modal__service-location" id="Galicia" style="display:none" tabindex="-1">
+							<div class="modal-dialog modal-lg modal-dialog-centered">
+								<div class="modal-content">
+									<div class="modal-header justify-content-end h-auto border-0">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										  <span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body">
+											<a href="https://sede.xunta.gal/" class="service-location__link ml-20 mb-10" title="Este servicio se puede solicitar a través del ConsejoGeneraldelaAbogacía Española." target="_blank">Acceder al servicio                    <small class="hidden">(se abre en ventana nueva)</small>
+</a>
+										<div class="ml-20 service-location__aditional-content"><h4>Calculadora de justicia gratuita:</h4>
+<p>La calculadora de justicia gratuita permite al ciudadano realizar una
+  simulación para comprobar si tiene derecho a un abogado de oficio. <a
+    href="http://www.xustiza.gal/cidadans/calculadora-de-xustiza-gratuita">Acceso
+    al servicio</a></p>
+<h4>Solicitud del reconocimiento del derecho a la asistencia jurídica gratuita:</h4>
+<p>El ciudadano puede solicitar electrónicamente el derecho a la
+  asistencia jurídica gratuita a través de la sede de la Xunta de
+  Galicia. <a
+    href="https://sede.xunta.gal/detalle-procedemento?codtram=PR204A">Acceso
+    al servicio</a></p>
+<h4>Servicio web de asistencia jurídica gratuita:</h4>
+<p>Este servicio está dirigido a los profesionales designados en
+  procedimientos de asistencia jurídica gratuita así como a las
+  comisiones encargadas de la tramitación de los mismos. <a
+    href="https://www.xunta.es:444/sxpa/AXGnet/initialPage.do">Acceso al
+    servicio </a></p></div>
+									</div>
+								</div>
+							</div>
+						</div>
+                </li>
+                <li class="service-location__item">
+                            <a href="https://www.comunidad.madrid/servicios/justicia" class="service-location__link" title="Consulta del estado del expediente de Justicia Gratuita" target="_blank">Comunidad de Madrid                    <small class="hidden">(se abre en ventana nueva)</small>
+</a>
+                </li>
+                <li class="service-location__item">
+                            <a href="https://www.abogacia.es/servicios/colegio/expediente-electronico-de-justicia-gratuita/" class="service-location__link" title="Este servicio se puede solicitar a través del ConsejoGeneraldelaAbogacía Española." target="_blank">Región de Murcia                    <small class="hidden">(se abre en ventana nueva)</small>
+</a>
+                </li>
+                <li class="service-location__item">
+                            <a href="https://www.navarra.es/es/tramites/on/-/line/Justicia-gratuita?pageBackId=4832906" class="service-location__link" title="Consulta del estado del expediente de Justicia Gratuita" target="_blank">Comunidad Foral de Navarra                    <small class="hidden">(se abre en ventana nueva)</small>
+</a>
+                </li>
+                <li class="service-location__item">
+                            <a href="https://www.abogacia.es/servicios/colegio/expediente-electronico-de-justicia-gratuita/" class="service-location__link" title="Este servicio se puede solicitar a través del ConsejoGeneraldelaAbogacía Española." target="_blank">País Vasco                    <small class="hidden">(se abre en ventana nueva)</small>
+</a>
+                </li>
+                <li class="service-location__item">
+                            <a href="https://www.abogacia.es/servicios/colegio/expediente-electronico-de-justicia-gratuita/" class="service-location__link" title="Este servicio se puede solicitar a través del ConsejoGeneraldelaAbogacía Española." target="_blank">La Rioja                    <small class="hidden">(se abre en ventana nueva)</small>
+</a>
+                </li>
+                <li class="service-location__item">
+                            <a href="https://www.abogacia.es/servicios/colegio/expediente-electronico-de-justicia-gratuita/" class="service-location__link" title="Este servicio se puede solicitar a través del ConsejoGeneraldelaAbogacía Española." target="_blank">Ceuta                    <small class="hidden">(se abre en ventana nueva)</small>
+</a>
+                </li>
+                <li class="service-location__item">
+                            <a href="https://www.abogacia.es/servicios/colegio/expediente-electronico-de-justicia-gratuita/" class="service-location__link" title="Este servicio se puede solicitar a través del ConsejoGeneraldelaAbogacía Española." target="_blank">Melilla                    <small class="hidden">(se abre en ventana nueva)</small>
+</a>
+                </li>
+        </ul>
+</div>
+
+			
+		</div>
+
+		
+
+	
+
+
+
+
+
+	</div>
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+</div>
+	
+	
+
+
+
+
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+</div>
+		</div>
+	</div>
+</div>
+	
+
+
+<form action="#" aria-hidden="true" class="hide" id="hrefFm" method="post" name="hrefFm"><span></span><button hidden type="submit">Oculto</button></form>
+
+	
+	</section>
+	<div class="overlay"></div>
+
+
+<footer class="footer-basic"> 
+	<div class="footer__logos-carrousel">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_  portlet-static portlet-static-end portlet-container-decorate-icon portlet-asset-publisher td-link-ext" id="p_p_id_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_logos_carrousel_">
+		<span id="p_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_logos_carrousel"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<section class="portlet" id="portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_logos_carrousel">
+
+
+	<div class="portlet-content">
+
+		<div class="autofit-float autofit-row portlet-header">
+			<div class="autofit-col autofit-col-expand">
+				<h2 class="portlet-title-text">Enlaces externos</h2>
+			</div>
+			<div class="autofit-col autofit-col-end">
+				<div class="autofit-section">
+				</div>
+			</div>
+		</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+
+
+
+
+	
+		
+			
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+		
+		
+			
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="carrousel-footer">
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="2224531" data-analytics-asset-title="Logo PRTR" data-analytics-asset-type="web-content" data-analytics-web-content-resource-pk="3744661">
+			
+
+			
+<div class="carrousel-footer__item">
+    <a href="https://planderecuperacion.gob.es/" target="_blank" title="general.is-opened-in-new-window">
+        <div class="carrousel-footer__img">
+            <picture data-fileentryid="3735747"><source media="(max-width:300px)" srcset="/o/adaptive-media/image/3735747/Thumbnail-300x300/logo_PRTR.png?t=1679908692536" /><source media="(max-width:1000px) and (min-width:300px)" srcset="/o/adaptive-media/image/3735747/Preview-1000x0/logo_PRTR.png?t=1679908692536" /><img alt="" data-fileentryid="3735747" src="https://www.administraciondejusticia.gob.es/documents/975819/3734433/logo_PRTR.png/72145fb5-51f8-762f-9d52-b588e065a136?t=1679908692536" /></picture>
+        </div>
+    </a>
+</div>
+
+			
+		</div>
+
+		
+
+	
+
+
+    
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="1333924" data-analytics-asset-title="Logo CTEAJE" data-analytics-asset-type="web-content" data-analytics-web-content-resource-pk="3741760">
+			
+
+			
+<div class="carrousel-footer__item">
+    <a href="https://www.administraciondejusticia.gob.es/cteaje">
+        <div class="carrousel-footer__img">
+            <picture data-fileentryid="3735400"><source media="(max-width:180px)" srcset="/o/adaptive-media/image/3735400/Preview-1000x0/CTEAJE-logo.png?t=1679486833400" /><source media="(max-width:180px) and (min-width:180px)" srcset="/o/adaptive-media/image/3735400/Thumbnail-300x300/CTEAJE-logo.png?t=1679486833400" /><img alt="Icono CTEAJE" data-fileentryid="3735400" src="https://www.administraciondejusticia.gob.es/documents/975819/3734438/CTEAJE-logo.png/902e689d-6668-a1ba-e154-bbd48232e300?t=1679486833400" /></picture>
+        </div>
+    </a>
+</div>
+
+			
+		</div>
+
+		
+
+	
+
+
+    
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="1334427" data-analytics-asset-title="Logo La Justicia en Datos" data-analytics-asset-type="web-content" data-analytics-web-content-resource-pk="3743863">
+			
+
+			
+<div class="carrousel-footer__item">
+    <a href="https://datos.justicia.es" target="_blank" title="general.is-opened-in-new-window">
+        <div class="carrousel-footer__img">
+            <picture data-fileentryid="3734858"><source media="(max-width:182px)" srcset="/o/adaptive-media/image/3734858/Preview-1000x0/logo_la_justicia_en_datos.png?t=1666853443185" /><source media="(max-width:182px) and (min-width:182px)" srcset="/o/adaptive-media/image/3734858/Thumbnail-300x300/logo_la_justicia_en_datos.png?t=1666853443185" /><img alt="Logo La Justicia en Datos" data-fileentryid="3734858" src="https://www.administraciondejusticia.gob.es/documents/975819/3734433/logo_la_justicia_en_datos.png/5dad05b6-4c70-a16e-5104-c4d7d0d701be?t=1666853443185" /></picture>
+        </div>
+    </a>
+</div>
+
+			
+		</div>
+
+		
+
+	
+
+
+    
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="1334441" data-analytics-asset-title="Logo Justicia 2030" data-analytics-asset-type="web-content" data-analytics-web-content-resource-pk="3741740">
+			
+
+			
+<div class="carrousel-footer__item">
+    <a href="https://www.justicia2030.es/" target="_blank" title="general.is-opened-in-new-window">
+        <div class="carrousel-footer__img">
+            <picture data-fileentryid="3735396"><source media="(max-width:300px)" srcset="/o/adaptive-media/image/3735396/Thumbnail-300x300/Justicia2030-logo.png?t=1676994397740" /><source media="(max-width:1000px) and (min-width:300px)" srcset="/o/adaptive-media/image/3735396/Preview-1000x0/Justicia2030-logo.png?t=1676994397740" /><img alt="" data-fileentryid="3735396" src="https://www.administraciondejusticia.gob.es/documents/975819/3734438/Justicia2030-logo.png/04e351cd-2e64-6f26-8679-80ddf7883c23?t=1676994397740" /></picture>
+        </div>
+    </a>
+</div>
+
+			
+		</div>
+
+		
+
+	
+
+
+    
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="1334455" data-analytics-asset-title="Logo Sede Judicial" data-analytics-asset-type="web-content" data-analytics-web-content-resource-pk="3741750">
+			
+
+			
+<div class="carrousel-footer__item">
+    <a href="https://sedejudicial.justicia.es/" target="_blank" title="general.is-opened-in-new-window">
+        <div class="carrousel-footer__img">
+            <picture data-fileentryid="16446515"><source media="(max-width:300px)" srcset="/o/adaptive-media/image/16446515/Thumbnail-300x300/Logo_sedjude_nuevo.png?t=1791456629382" /><source media="(max-width:323px) and (min-width:300px)" srcset="/o/adaptive-media/image/16446515/Preview-1000x0/Logo_sedjude_nuevo.png?t=1791456629382" /><img alt="" data-fileentryid="16446515" src="https://www.administraciondejusticia.gob.es/documents/975819/3734433/Logo_sedjude_nuevo.png/2026800a-21b1-644d-e3a2-5579902f4525?t=1791456629382" /></picture>
+        </div>
+    </a>
+</div>
+
+			
+		</div>
+
+		
+
+	
+
+
+    
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="1334928" data-analytics-asset-title="Logo Portal Administración Justicia" data-analytics-asset-type="web-content" data-analytics-web-content-resource-pk="3741730">
+			
+
+			
+<div class="carrousel-footer__item">
+    <a href="https://paj.justicia.es/group/paj/inicio" target="_blank" title="general.is-opened-in-new-window">
+        <div class="carrousel-footer__img">
+            <picture data-fileentryid="3735392"><source media="(max-width:189px)" srcset="/o/adaptive-media/image/3735392/Preview-1000x0/PAJ-logo.png?t=1676993249189" /><source media="(max-width:189px) and (min-width:189px)" srcset="/o/adaptive-media/image/3735392/Thumbnail-300x300/PAJ-logo.png?t=1676993249189" /><img alt="Logo Portal Administración Justicia" data-fileentryid="3735392" src="https://www.administraciondejusticia.gob.es/documents/975819/3734438/PAJ-logo.png/f9234c88-bbd8-0983-39b8-19991faf9c40?t=1676993249189" /></picture>
+        </div>
+    </a>
+</div>
+
+			
+		</div>
+
+		
+
+	
+
+
+    
+    </div>
+
+
+		
+		
+	
+
+
+
+
+			
+			
+		
+	
+	
+
+
+
+
+
+
+<script type="text/javascript">
+(function() {var $ = AUI.$;var _ = AUI._;
+	var assetEntryId =
+		'';
+
+	if (assetEntryId) {
+		window.location.hash = assetEntryId;
+	}
+})();
+
+</script><script>
+
+</script>
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+    </div>
+
+
+    <div class="footer-basic__nav">   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_  portlet-static portlet-static-end portlet-barebone portlet-navigation " id="p_p_id_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_footermenu_">
+		<span id="p_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_footermenu"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<section class="portlet" id="portlet_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_footermenu">
+
+
+	<div class="portlet-content">
+
+		<div class="autofit-float autofit-row portlet-header">
+			<div class="autofit-col autofit-col-end">
+				<div class="autofit-section">
+				</div>
+			</div>
+		</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+		
+			
+				
+
+	<div id="navbar_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_footermenu">
+		<ul aria-label="Páginas del sitio web" class="navbar-blank navbar-nav navbar-site" role="menubar">
+
+
+
+
+
+
+					<li class="lfr-nav-item nav-item" id="layout_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_footermenu_3744753" role="presentation">
+						<a  class="nav-link text-truncate" href='https://www.administraciondejusticia.gob.es/mapa-web'  role="menuitem">
+							<span class="text-truncate"> Mapa web </span>
+						</a>
+
+					</li>
+
+
+
+
+
+					<li class="lfr-nav-item nav-item" id="layout_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_footermenu_3744774" role="presentation">
+						<a  class="nav-link text-truncate" href='https://www.administraciondejusticia.gob.es/accesibilidad'  role="menuitem">
+							<span class="text-truncate"> Accesibilidad </span>
+						</a>
+
+					</li>
+
+
+
+
+
+					<li class="lfr-nav-item nav-item" id="layout_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_footermenu_3744799" role="presentation">
+						<a  class="nav-link text-truncate" href='https://www.administraciondejusticia.gob.es/politica-de-cookies'  role="menuitem">
+							<span class="text-truncate"> Política de cookies </span>
+						</a>
+
+					</li>
+
+
+
+
+
+					<li class="lfr-nav-item nav-item" id="layout_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_footermenu_3744822" role="presentation">
+						<a  class="nav-link text-truncate" href='https://www.administraciondejusticia.gob.es/aviso-legal'  role="menuitem">
+							<span class="text-truncate"> Aviso legal </span>
+						</a>
+
+					</li>
+		</ul>
+	</div>
+
+<script>
+AUI().use(
+  'liferay-navigation-interaction',
+function(A) {
+(function() {
+var $ = AUI.$;var _ = AUI._;		var navigation = A.one('#navbar_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_footermenu');
+
+		Liferay.Data.NAV_INTERACTION_LIST_SELECTOR = '.navbar-site';
+		Liferay.Data.NAV_LIST_SELECTOR = '.navbar-site';
+
+		if (navigation) {
+			navigation.plug(Liferay.NavigationInteraction);
+		}
+})();
+});
+
+</script>
+			
+			
+		
+	
+	
+	
+	
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+    </div>   
+ 
+</footer>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+	
+		
+
+			
+
+			
+		
+	
+
+
+</script><script>
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+<script type="text/javascript">
+
+	
+		Liferay.Portlet.register('com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_oC9MBYio8RO6');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 1,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_oC9MBYio8RO6_',
+			portletId: 'com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_oC9MBYio8RO6',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d815899\x26p_p_id\x3dcom_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_oC9MBYio8RO6\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3d_com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet_INSTANCE_tk03lCOlkM8z__column-1\x26p_p_col_pos\x3d1\x26p_p_col_count\x3d4\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F-\x252Fservicio-de-gestion-de-expedientes-de-justicia-gratuita',
+			refreshURLData: {}
+		}
+	);
+
+
+	function getValueByAttribute(node, attr) {
+		return (
+			node.dataset[attr] ||
+			(node.parentElement && node.parentElement.dataset[attr])
+		);
+	}
+
+	function sendDocumentDownloadedAnalyticsEvent(anchor) {
+		var fileEntryId = getValueByAttribute(
+			anchor,
+			'analyticsFileEntryId'
+		);
+		var title = getValueByAttribute(
+			anchor,
+			'analyticsFileEntryTitle'
+		);
+		var version = getValueByAttribute(
+			anchor,
+			'analyticsFileEntryVersion'
+		);
+
+		if (fileEntryId) {
+			Analytics.send('documentDownloaded', 'Document', {
+				groupId: themeDisplay.getScopeGroupId(),
+				fileEntryId,
+				preview: !!window._com_liferay_document_library_analytics_isViewFileEntry,
+				title,
+				version,
+			});
+		}
+	}
+
+	function handleDownloadClick(event) {
+		if (window.Analytics) {
+			if (event.target.nodeName.toLowerCase() === 'a') {
+				sendDocumentDownloadedAnalyticsEvent(
+					event.target
+				);
+			}
+			else if (
+				event.target.parentNode &&
+				event.target.parentNode.nodeName.toLowerCase() === 'a'
+			) {
+				sendDocumentDownloadedAnalyticsEvent(
+					event.target.parentNode
+				);
+			}
+			else {
+				var target = event.target;
+				var matchTextContent =
+					target.textContent &&
+					target.textContent.toLowerCase() ===
+						'descargar';
+				var matchTitle =
+					target.title && target.title.toLowerCase() === 'download';
+				var matchAction = target.action === 'download';
+				var matchLexiconIcon = !!target.querySelector(
+					'.lexicon-icon-download'
+				);
+				var matchLexiconClassName = target.classList.contains(
+					'lexicon-icon-download'
+				);
+				var matchParentTitle =
+					target.parentNode &&
+					target.parentNode.title &&
+					target.parentNode.title.toLowerCase() === 'download';
+				var matchParentLexiconClassName =
+					target.parentNode &&
+					target.parentNode.classList.contains('lexicon-icon-download');
+
+				if (
+					matchTextContent ||
+					matchTitle ||
+					matchParentTitle ||
+					matchAction ||
+					matchLexiconIcon ||
+					matchLexiconClassName ||
+					matchParentLexiconClassName
+				) {
+					var selectedFiles = document.querySelectorAll(
+						'.form .custom-control-input:checked'
+					);
+
+					selectedFiles.forEach(({value}) => {
+						var selectedFile = document.querySelector(
+							'[data-analytics-file-entry-id="' + value + '"]'
+						);
+
+						sendDocumentDownloadedAnalyticsEvent(
+							selectedFile
+						);
+					});
+				}
+			}
+		}
+	}
+
+	Liferay.once('destroyPortlet', () => {
+		document.body.removeEventListener(
+			'click',
+			handleDownloadClick
+		);
+	});
+
+	Liferay.once('portletReady', () => {
+		document.body.addEventListener(
+			'click',
+			handleDownloadClick
+		);
+	});
+
+(function() {var $ = AUI.$;var _ = AUI._;
+	var onShare = function (data) {
+		if (window.Analytics) {
+			Analytics.send('shared', 'SocialBookmarks', {
+				className: data.className,
+				classPK: data.classPK,
+				type: data.type,
+				url: data.url,
+			});
+		}
+	};
+
+	var onDestroyPortlet = function () {
+		Liferay.detach('socialBookmarks:share', onShare);
+		Liferay.detach('destroyPortlet', onDestroyPortlet);
+	};
+
+	Liferay.on('socialBookmarks:share', onShare);
+	Liferay.on('destroyPortlet', onDestroyPortlet);
+})();
+(function() {var $ = AUI.$;var _ = AUI._;
+	var onDestroyPortlet = function () {
+		Liferay.detach('messagePosted', onMessagePosted);
+		Liferay.detach('destroyPortlet', onDestroyPortlet);
+	};
+
+	Liferay.on('destroyPortlet', onDestroyPortlet);
+
+	var onMessagePosted = function (event) {
+		if (window.Analytics) {
+			const eventProperties = {
+				className: event.className,
+				classPK: event.classPK,
+				commentId: event.commentId,
+				text: event.text,
+			};
+
+			const blogNode = document.querySelector(
+				'[data-analytics-asset-id="' + event.classPK + '"]'
+			);
+
+			const dmNode = document.querySelector(
+				'[data-analytics-file-entry-id="' + event.classPK + '"]'
+			);
+
+			if (blogNode) {
+				eventProperties.title = blogNode.dataset.analyticsAssetTitle;
+			}
+			else if (dmNode) {
+				eventProperties.title = dmNode.dataset.analyticsFileEntryTitle;
+			}
+
+			Analytics.send('posted', 'Comment', eventProperties);
+		}
+	};
+
+	Liferay.on('messagePosted', onMessagePosted);
+})();
+(function() {var $ = AUI.$;var _ = AUI._;
+	var onVote = function (event) {
+		if (window.Analytics) {
+			let title = event.contentTitle;
+
+			if (!title) {
+				const dmNode = document.querySelector(
+					'[data-analytics-file-entry-id="' + event.classPK + '"]'
+				);
+
+				if (dmNode) {
+					title = dmNode.dataset.analyticsFileEntryTitle;
+				}
+			}
+
+			Analytics.send('VOTE', 'Ratings', {
+				className: event.className,
+				classPK: event.classPK,
+				ratingType: event.ratingType,
+				score: event.score,
+				title,
+			});
+		}
+	};
+
+	var onDestroyPortlet = function () {
+		Liferay.detach('ratings:vote', onVote);
+		Liferay.detach('destroyPortlet', onDestroyPortlet);
+	};
+
+	Liferay.on('ratings:vote', onVote);
+	Liferay.on('destroyPortlet', onDestroyPortlet);
+})();
+
+	if (window.svg4everybody && Liferay.Data.ICONS_INLINE_SVG) {
+		svg4everybody(
+			{
+				polyfill: true,
+				validate: function (src, svg, use) {
+					return !src || !src.startsWith('#');
+				}
+			}
+		);
+	}
+
+
+	// <![CDATA[
+
+		
+
+		Liferay.currentURL = '\x2f-\x2fservicio-de-gestion-de-expedientes-de-justicia-gratuita';
+		Liferay.currentURLEncoded = '\x252F-\x252Fservicio-de-gestion-de-expedientes-de-justicia-gratuita';
+
+	// ]]>
+
+
+		// <![CDATA[
+			
+				function custMenuThirdLevelCloseTab() {
+	const KEY = {  TAB: 9 };
+	const menuBar = Array.from(document.querySelectorAll(".navbar-third-level > li"));
+	let justOpenedSubmenu = false;
+	const getDirectAnchor = (li) =>
+	  li.querySelector(':scope > a[role="menuitem"], :scope > a');
+	const getDirectSubmenu = (li) =>
+	  li.querySelector(':scope > ul.child-menu');
+	const getSubmenuItems = (li) => {
+	  const ul = getDirectSubmenu(li);
+	  return ul ? Array.from(ul.querySelectorAll(':scope > li > a[role="menuitem"], :scope > li > a')) : [];
+	};
+  
+	function closeSubMenu(li) {
+	  li.classList.remove("hover", "open");
+	  const ul = getDirectSubmenu(li);
+	  if (ul) {
+		ul.classList.remove("open", "show");
+		ul.setAttribute("aria-expanded", "false");
+	  }
+	}
+	function closeOtherSubMenus(currentLi) {
+	  menuBar.forEach((li) => {
+		if (li !== currentLi) closeSubMenu(li);
+	  });
+	}
+  
+	document.querySelectorAll(".link-menu-2, .link-menu-3").forEach((a) => {
+		a.addEventListener("keydown", (e) => {
+			const li = a.parentElement;
+			const ul = li.parentElement;
+			const siblings = Array.from(ul.querySelectorAll(':scope > li > a[role="menuitem"], :scope > li > a'));
+			const idx = siblings.indexOf(a);
+			const isLevel2 = a.classList.contains("link-menu-2");
+			const isLevel3 = a.classList.contains("link-menu-3");
+  
+			switch (e.which) {
+				case KEY.TAB: {
+					const parentLi = ul.parentElement;
+					closeSubMenu(parentLi);
+					return false;
+				}
+				default:
+				break;
+			}
+	  	});
+	});
+}
+$(document).ready(function(){
+	custMenuThirdLevelCloseTab();
+});
+
+/* SICOMCOM-109 */
+(function waitForCookies() {
+    if (typeof MJUCookies !== "undefined" && MJUCookies) {
+        MJUCookies.init();
+        return;
+    }
+    setTimeout(waitForCookies, 1000);
+})();
+
+window.addEventListener('load', function () {
+setTimeout(function () {
+nextMenuElement = i4t.find('#main-content a:not([aria-hidden]), #main-content input[type=text]');
+}, 0);
+});
+
+				
+
+				
+			
+		// ]]>
+	
+
+	
+		Liferay.Portlet.register('com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet_',
+			portletId: 'com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d815899\x26p_p_id\x3dcom_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F-\x252Fservicio-de-gestion-de-expedientes-de-justicia-gratuita',
+			refreshURLData: {}
+		}
+	);
+
+
+	
+		Liferay.Portlet.register('com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_wDQGD9CGKAfj');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 3,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_wDQGD9CGKAfj_',
+			portletId: 'com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_wDQGD9CGKAfj',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d815899\x26p_p_id\x3dcom_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_wDQGD9CGKAfj\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3d_com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet_INSTANCE_tk03lCOlkM8z__column-1\x26p_p_col_pos\x3d3\x26p_p_col_count\x3d4\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F-\x252Fservicio-de-gestion-de-expedientes-de-justicia-gratuita',
+			refreshURLData: {}
+		}
+	);
+
+
+	
+		Liferay.Portlet.register('com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_FJgITRf2KzRn');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 1,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_FJgITRf2KzRn_',
+			portletId: 'com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_FJgITRf2KzRn',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d815899\x26p_p_id\x3dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_FJgITRf2KzRn\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d1\x26p_p_col_count\x3d2\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F-\x252Fservicio-de-gestion-de-expedientes-de-justicia-gratuita',
+			refreshURLData: {"_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_FJgITRf2KzRn_mvcPath":["\/view_content.jsp"],"_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_FJgITRf2KzRn_type":["content"],"_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_FJgITRf2KzRn_assetEntryId":["3742447"],"_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_FJgITRf2KzRn_languageId":["es_ES"]}
+		}
+	);
+
+
+	var nestedPortlet = document.getElementById(
+		'_com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet_INSTANCE_tk03lCOlkM8z__main-content'
+	);
+
+	if (nestedPortlet != null) {
+		nestedPortlet.removeAttribute('role');
+	}
+
+
+	
+		Liferay.Portlet.register('com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet_INSTANCE_tk03lCOlkM8z');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet_INSTANCE_tk03lCOlkM8z_',
+			portletId: 'com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet_INSTANCE_tk03lCOlkM8z',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d815899\x26p_p_id\x3dcom_liferay_nested_portlets_web_portlet_NestedPortletsPortlet_INSTANCE_tk03lCOlkM8z\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d2\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F-\x252Fservicio-de-gestion-de-expedientes-de-justicia-gratuita',
+			refreshURLData: {}
+		}
+	);
+
+
+	
+		Liferay.Portlet.register('com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_xGQxvTRFzStd');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_xGQxvTRFzStd_',
+			portletId: 'com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_xGQxvTRFzStd',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d815899\x26p_p_id\x3dcom_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_xGQxvTRFzStd\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3d_com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet_INSTANCE_tk03lCOlkM8z__column-1\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d4\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F-\x252Fservicio-de-gestion-de-expedientes-de-justicia-gratuita',
+			refreshURLData: {}
+		}
+	);
+
+(function() {var $ = AUI.$;var _ = AUI._;
+	var assetEntryId =
+		'';
+
+	if (assetEntryId) {
+		window.location.hash = assetEntryId;
+	}
+})();
+
+	
+		Liferay.Portlet.register('com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_1jbjaqgDYrvo');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 2,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_1jbjaqgDYrvo_',
+			portletId: 'com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_1jbjaqgDYrvo',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d815899\x26p_p_id\x3dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_1jbjaqgDYrvo\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3d_com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet_INSTANCE_tk03lCOlkM8z__column-1\x26p_p_col_pos\x3d2\x26p_p_col_count\x3d4\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F-\x252Fservicio-de-gestion-de-expedientes-de-justicia-gratuita',
+			refreshURLData: {}
+		}
+	);
+
+
+	
+		Liferay.Portlet.register('com_liferay_site_navigation_site_map_web_portlet_SiteNavigationSiteMapPortlet_INSTANCE_sDhC48toTh0y');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_site_navigation_site_map_web_portlet_SiteNavigationSiteMapPortlet_INSTANCE_sDhC48toTh0y_',
+			portletId: 'com_liferay_site_navigation_site_map_web_portlet_SiteNavigationSiteMapPortlet_INSTANCE_sDhC48toTh0y',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d815899\x26p_p_id\x3dcom_liferay_site_navigation_site_map_web_portlet_SiteNavigationSiteMapPortlet_INSTANCE_sDhC48toTh0y\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3d_com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet_INSTANCE_tk03lCOlkM8z__column-2\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F-\x252Fservicio-de-gestion-de-expedientes-de-justicia-gratuita',
+			refreshURLData: {}
+		}
+	);
+
+
+	
+		Liferay.Portlet.register('com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet_',
+			portletId: 'com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d815899\x26p_p_id\x3dcom_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F-\x252Fservicio-de-gestion-de-expedientes-de-justicia-gratuita',
+			refreshURLData: {}
+		}
+	);
+
+
+	
+		Liferay.Portlet.register('com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch_',
+			portletId: 'com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d815899\x26p_p_id\x3dcom_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F-\x252Fservicio-de-gestion-de-expedientes-de-justicia-gratuita',
+			refreshURLData: {}
+		}
+	);
+
+
+	
+		Liferay.Portlet.register('com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_',
+			portletId: 'com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d815899\x26p_p_id\x3dcom_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F-\x252Fservicio-de-gestion-de-expedientes-de-justicia-gratuita',
+			refreshURLData: {}
+		}
+	);
+
+
+	
+		Liferay.Portlet.register('com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_logos_carrousel');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_logos_carrousel_',
+			portletId: 'com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_logos_carrousel',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d815899\x26p_p_id\x3dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_logos_carrousel\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F-\x252Fservicio-de-gestion-de-expedientes-de-justicia-gratuita',
+			refreshURLData: {}
+		}
+	);
+
+
+	
+		Liferay.Portlet.register('com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_footermenu');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_footermenu_',
+			portletId: 'com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_footermenu',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d815899\x26p_p_id\x3dcom_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_footermenu\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F-\x252Fservicio-de-gestion-de-expedientes-de-justicia-gratuita',
+			refreshURLData: {}
+		}
+	);
+
+
+</script><script type="module">
+import {InfoItemActionHandler as ComponentModule} from '/o/layout-taglib/__liferay__/index.js';
+Liferay.Loader.require(
+'frontend-js-web/index',
+function(frontendJsWeb) {
+try {
+AUI().use(
+  'liferay-menu',
+function(A) {
+{
+Liferay.component('infoItemActionComponent', new ComponentModule({"executeInfoItemActionURL":"https:\/\/www.administraciondejusticia.gob.es\/c\/portal\/execute_info_item_action?p_l_mode=view&plid=815899","namespace":"","spritemap":"https:\/\/www.administraciondejusticia.gob.es\/o\/pagaj-theme\/images\/clay\/icons.svg"}), { destroyOnNavigate: true, portletId: ''});
+}
+(function() {
+var $ = AUI.$;var _ = AUI._;
+	var {delegate} = frontendJsWeb;
+
+	delegate(
+		document,
+		'focusin',
+		'.portlet',
+		function(event) {
+			event.delegateTarget.closest('.portlet').classList.add('open');
+		}
+	);
+
+	delegate(
+		document,
+		'focusout',
+		'.portlet',
+		function(event) {
+			event.delegateTarget.closest('.portlet').classList.remove('open');
+		}
+	);
+})();
+(function() {
+var $ = AUI.$;var _ = AUI._;
+	new Liferay.Menu();
+
+	var liferayNotices = Liferay.Data.notices;
+
+	for (var i = 0; i < liferayNotices.length; i++) {
+		Liferay.Util.openToast(liferayNotices[i]);
+	}
+
+})();
+(function() {
+var $ = AUI.$;var _ = AUI._;
+		var {openToast} = frontendJsWeb;
+
+		AUI().use(
+			'liferay-session',
+			function() {
+				Liferay.Session = new Liferay.SessionBase(
+					{
+						autoExtend: true,
+						redirectOnExpire: false,
+						redirectUrl: 'https\x3a\x2f\x2fwww\x2eadministraciondejusticia\x2egob\x2ees\x2f',
+						sessionLength: 900,
+						sessionTimeoutOffset: 70,
+						warningLength: 0
+					}
+				);
+
+				
+			}
+		);
+	
+})();
+});
+} catch (err) {
+	console.error(err);
+}
+});
+
+</script>
+
+
+
+
+
+
+
+
+
+<script src="https://www.administraciondejusticia.gob.es/o/pagaj-theme/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=es_ES&amp;t=1783616630000" type="text/javascript"></script>
+
+
+
+
+<script type="module">
+import {default as main} from '/o/frontend-js-tooltip-support-web/__liferay__/index.js';
+{
+main();
+}
+
+</script><script type="module">
+import {default as main} from '/o/frontend-js-dropdown-support-web/__liferay__/index.js';
+{
+main();
+}
+
+</script><script type="module">
+import {default as main} from '/o/frontend-js-tabs-support-web/__liferay__/index.js';
+{
+main();
+}
+
+</script><script type="module">
+import {default as main} from '/o/frontend-js-alert-support-web/__liferay__/index.js';
+{
+main();
+}
+
+</script><script type="module">
+import {default as main} from '/o/frontend-js-collapse-support-web/__liferay__/index.js';
+{
+main();
+}
+
+</script><script data-senna-track="permanent" src="https://datalabdatos.justicia.es/web/resources/assets/external/requirejs/require.js" type="text/javascript"></script><link data-senna-track="permanent" href="https://www.administraciondejusticia.gob.es/documents/d/guest/qlik-styles?download=true" rel="stylesheet" type="text/css" />
+<script type="module">
+import {runThirdPartyCookiesInterval} from '/o/cookies-banner-web/__liferay__/index.js';
+{
+runThirdPartyCookiesInterval();
+}
+
+</script><script type="text/javascript">
+Liferay.CustomDialogs = {enabled: false};
+
+</script><script>
+
+</script>
+
+
+
+
+
+
+
+<div aria-label="banner cookie" class="cookies-banner cookies-banner-bottom" role="dialog" style="display: none;">
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_cookies_banner_web_portlet_CookiesBannerPortlet_  portlet-static portlet-static-end portlet-decorate portlet-cookies-banner " id="p_p_id_com_liferay_cookies_banner_web_portlet_CookiesBannerPortlet_">
+		<span id="p_com_liferay_cookies_banner_web_portlet_CookiesBannerPortlet"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container-fluid container-fluid-max-xl container-view">
+	<div class="row">
+		<div class="autofit-row autofit-padded-no-gutters autofit-row-center autofit-float-sm-down px-2 px-md-0">
+			<div class="autofit-col autofit-col-expand">
+				<p class="mb-0">
+					Este sitio web utiliza cookies propias y de terceros para el correcto funcionamiento y visualización del sitio web por parte del usuario, así como la recogida de estadísticas tal y como se recoge en la política de cookies. Si continúa navegando, se considera que acepta su uso. Puede cambiar la configuración u obtener más información. Consulte la Política de cookies.
+
+					<a class="" href="https://www.administraciondejusticia.gob.es/politica-de-cookies" >Consulte la Política de cookies</a>
+				</p>
+			</div>
+
+			<div class="autofit-col">
+				<button class="btn btn-sm btn-link" id="_com_liferay_cookies_banner_web_portlet_CookiesBannerPortlet_configurationButton" type="button" >Configuración</button>
+			</div>
+
+			<div class="autofit-col">
+				<button class="btn btn-sm btn-secondary" id="_com_liferay_cookies_banner_web_portlet_CookiesBannerPortlet_acceptAllButton" type="button" >Aceptar todas las cookies</button>
+			</div>
+
+			
+				<div class="autofit-col">
+					<button class="btn btn-sm btn-secondary" id="_com_liferay_cookies_banner_web_portlet_CookiesBannerPortlet_declineAllButton" type="button" >Aceptar solo cookies necesarias</button>
+				</div>
+			
+		</div>
+	</div>
+</div>
+
+<script type="module">
+import {CookiesBanner as ComponentModule} from '/o/cookies-banner-web/__liferay__/index.js';
+{
+Liferay.component('CookiesBanner', new ComponentModule({"configurationURL":"https:\/\/www.administraciondejusticia.gob.es\/visor-servicios?p_p_id=com_liferay_cookies_banner_web_portlet_CookiesBannerConfigurationPortlet&p_p_lifecycle=0&p_p_state=pop_up&p_p_mode=view&_com_liferay_cookies_banner_web_portlet_CookiesBannerConfigurationPortlet_mvcPath=%2Fcookies_banner_configuration%2Fview.jsp&p_p_auth=yLrRHZ3b","optionalConsentCookieTypeNames":["CONSENT_TYPE_FUNCTIONAL","CONSENT_TYPE_PERFORMANCE","CONSENT_TYPE_PERSONALIZATION"],"spritemap":"https:\/\/www.administraciondejusticia.gob.es\/o\/pagaj-theme\/images\/clay\/icons.svg","configurationNamespace":"com_liferay_cookies_banner_web_portlet_CookiesBannerConfigurationPortlet","namespace":"_com_liferay_cookies_banner_web_portlet_CookiesBannerPortlet_","requiredConsentCookieTypeNames":["CONSENT_TYPE_NECESSARY"],"includeDeclineAllButton":true,"title":"Configuración de cookies"}), { destroyOnNavigate: true, portletId: 'com_liferay_cookies_banner_web_portlet_CookiesBannerPortlet'});
+}
+
+</script>
+		
+	
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+</div>
+<script src="https://www.administraciondejusticia.gob.es/o/pagaj-theme/js/parent__functions.js"></script>
+
+<script async src="https://www.administraciondejusticia.gob.es/o/pagaj-theme/js/components/components.carrousel-highlights.js?t=1783616630000"></script>
+<script async src="https://www.administraciondejusticia.gob.es/o/pagaj-theme/js/pagaj__functions.js?t=1783616630000"></script>
+<script async src="https://www.administraciondejusticia.gob.es/o/pagaj-theme/js/pagaj__init.js?t=1783616630000"></script></body>
+
+</html>
+		
+	
+

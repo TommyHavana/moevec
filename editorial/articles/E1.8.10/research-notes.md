@@ -1,0 +1,25 @@
+# Investigación y publicación · E1.8.10
+
+Consulta: 30/10/2026. Alcance específico; descargar una obra no implica lectura íntegra.
+
+- [UNODC, base de homicidios intencionales, actualización 12/07/2026, selección El Salvador](https://data.unodc.org/sites/dataportal.unodc.org/files/2026-07/data_cts_intentional_homicide.xlsx): XLSX oficial preservado; XML leído sin modificar. Filtros SLV/indicador víctimas/DimensionTotal/CategoryTotal/SexTotal/AgeTotal; unidad y año explícitos. 2021:1085 y17,343956/100000;2024:209 y3,297470. Metadatos de la misma versión leídos; no reconstrucción de diferencia con balance nacional.
+- [UNODC, metadatos de homicidio intencional, julio 2026](https://data.unodc.org/sites/dataportal.unodc.org/files/2026-07/metadata_intentional_homicide.pdf): PDF pp.1,3–4 leídos: definiciones, datos nacionales, denominador poblacional WPP2024, diferencias de registro e interpretación. No adjudicación causal de políticas.
+- [Fiscalía General de El Salvador, balance 2025,5/01/2026](https://www.fiscalia.gob.sv/fiscal-general-y-gabinete-de-seguridad-califican-al-2025-como-el-ano-mas-seguro-de-la-historia-de-el-salvador/): Comunicación oficial:82homicidios2025 y32menosque2024→114por resta explícita; tasa1,3/100000. Valoración de éxito atribuida al Gobierno; no auditoría independiente de ceroimpunidad.
+- [Asamblea Legislativa, anuncio de prórroga 56,21/10/2026](https://www.asamblea.gob.sv/node/14160): Página oficial archivada: anuncia28octubre–26noviembre2026. Ficha decreto689/view7050 marca publicación material pendiente; no lectura del decreto promulgado ni lista exhaustiva de derechos suspendidos atribuida a ese texto.
+- [Asamblea Legislativa, ficha del decreto 689](https://www.asamblea.gob.sv/leyes-y-decretos/view/7050): Ficha consultada30/10/2026: fecha emisión21/10/2026 y aviso de pendiente publicación material en DiarioOficial. Diferencia anuncio/ficha/texto legal disponible señalada al lector.
+- [CIDH, comunicado 066/26,21/04/2026](https://oas.org/es/CIDH/jsForm/?File=/es/cidh/prensa/comunicados/2026/066.asp): Lectura vía web del comunicado primario completo, descarga localbucle302 documentada. Suspensión defensa/comunicaciones y ampliación detención descritas paraabril2026; objecionesCIDH y rechazo estatal separados, sin sentencia penal firme atribuida al comunicado.
+- [Human Rights Watch, El Salvador: Juicios masivos,7/10/2026](https://www.hrw.org/es/news/2026/10/07/el-salvador-juicios-masivos-una-burla-a-la-justicia): Investigación propia: entrevistas15defensores,4acusaciones ymásde600personas ysentencia>120; se usa método y hallazgos de defensa sin extrapolar tasa nacional. No expedientes originales leídos por MEE.
+- [Iudop-UCA, evaluación del séptimo año de Gobierno, boletín 24/06/2026](https://uca.edu.sv/iudop/wp-content/uploads/2026/06/Boletin-Eva-7mo-Anio-Gobierno-24-Junio.pdf): PDF pp.1–3 y8 leídos:77,4%seguridadaspectopositivo;68,9%continuidadrégimen. Ficha:1271entrevistas domiciliarias15–26mayo2026,polietápicoestratificadoporcuotas,error±2,75/95%segúninstituto. No censo, referéndum ni causalidad.
+
+## Límites
+
+- No fusionar UNODC209en2024 con114derivadosdel balanceFGR o calcular variación continua hasta2025.
+- No cifra anual2026 cerrada ni causalidad exclusiva del régimen.
+- No anuncio de prórroga como decreto promulgado íntegro; ficha689 advierte pendiente publicación material.
+- No lista de abril2026 presentada como revisión completa del decreto deoctubre.
+- No denuncias de HRW como sentencia penal, ni muestra de entrevistas como prevalencia nacional.
+- No encuesta de mayo como unanimidad, opinión actual diaria o validación jurídica.
+
+## Resultado
+
+https://moevec.org/blog/el-salvador-seguridad-garantias/ · 1177 palabras en WordPress. Tres imágenes propias, una publicación y tres adjuntos, sin duplicados.
