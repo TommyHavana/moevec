@@ -1233,3 +1233,13 @@ Grupo de lectura: propuesta propia de formato y materiales, permisos distintos d
 Siguiente **466–468 / E3.4.01–E3.4.03**, Comunidad → Intercambio Equitativo. Preparaciones incluidas en las 375 pendientes. E3.4.01: 0/3 imágenes locales; sin texto final, sin publicación; E3.4.02: 0/3 imágenes locales; sin texto final, sin publicación; E3.4.03: 0/3 imágenes locales; sin texto final, sin publicación. Después 469–471. Automatización activa, sin agotamiento comunicado.
 
 Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 466–468 · 30/10/2026
+
+468/840 terminadas, 1404 imágenes originales públicas, 0 en curso o borradores WordPress y 372 pendientes.
+
+Intercambio: Menger1871capIV en traducción, valoraciones distintas y costes, expectativa separada de resultado; MarxcapVIIplusvalía no reducida afraude. Ventajacomparativa: Ricardo1817cap7 cifras del supuesto no estadísticas, costes oportunidad y cálculo propio laboral; ADH2016abstractpublicado casoEEUU no situación2026. Preciojusto: AquinoII-II77respuestas distintas deobjeciones, traducciones Soto/Molina y estudioGrice1952 con lectura visual, Soto admitepreciolegal y no consensoantitasas atribuido aSalamanca; Smithmonopolio como argumento histórico no diagnósticoactual. Nueve originales nuevos revisados.
+
+Siguiente **469–471 / E3.4.04–E3.4.06**, Comunidad → Intercambio Equitativo. Preparaciones incluidas en las 372 pendientes. E3.4.04: 3/3 imágenes locales; sin texto final, sin publicación; E3.4.05: 3/3 imágenes locales; sin texto final, sin publicación; E3.4.06: 3/3 imágenes locales; sin texto final, sin publicación. Después 472–474. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.

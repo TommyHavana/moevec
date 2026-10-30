@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-30T22:32:38+00:00.
+Comprobado en WordPress: 2026-10-30T22:45:44+00:00.
 
-**465/840 terminadas · 0 en curso · 375 pendientes.**
+**468/840 terminadas · 0 en curso · 372 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -477,9 +477,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 463 | 31/56 · 13/15 | E3.3.13 | Cómo organizar un grupo de lectura en tu barrio | terminada | 3/3 | [Leer](https://moevec.org/blog/grupo-de-lectura-barrio/) |
 | 464 | 31/56 · 14/15 | E3.3.14 | Accesibilidad para personas mayores: tecnología sin miedo | terminada | 3/3 | [Leer](https://moevec.org/blog/accesibilidad-personas-mayores/) |
 | 465 | 31/56 · 15/15 | E3.3.15 | Lista de comprobación de accesibilidad para emprendedores | terminada | 3/3 | [Leer](https://moevec.org/blog/checklist-accesibilidad-emprendedores/) |
-| 466 | 32/56 · 1/15 | E3.4.01 | Por qué en un intercambio libre ganan ambas partes | pendiente | 0/3 | — |
-| 467 | 32/56 · 2/15 | E3.4.02 | Ventaja comparativa: la idea más contraintuitiva de la economía | pendiente | 0/3 | — |
-| 468 | 32/56 · 3/15 | E3.4.03 | Precio justo: un debate de 800 años | pendiente | 0/3 | — |
+| 466 | 32/56 · 1/15 | E3.4.01 | Por qué en un intercambio libre ganan ambas partes | terminada | 3/3 | [Leer](https://moevec.org/blog/intercambio-libre-ganan-ambos/) |
+| 467 | 32/56 · 2/15 | E3.4.02 | Ventaja comparativa: la idea más contraintuitiva de la economía | terminada | 3/3 | [Leer](https://moevec.org/blog/ventaja-comparativa/) |
+| 468 | 32/56 · 3/15 | E3.4.03 | Precio justo: un debate de 800 años | terminada | 3/3 | [Leer](https://moevec.org/blog/precio-justo-historia/) |
 | 469 | 32/56 · 4/15 | E3.4.04 | Intercambio de conocimiento: lo que ganas enseñando | pendiente | 0/3 | — |
 | 470 | 32/56 · 5/15 | E3.4.05 | Cuándo un intercambio deja de ser justo: fraude, coacción y asimetría | pendiente | 0/3 | — |
 | 471 | 32/56 · 6/15 | E3.4.06 | Comercio internacional y pobreza: lo que muestran los datos | pendiente | 0/3 | — |

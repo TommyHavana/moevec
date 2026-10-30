@@ -1,0 +1,2960 @@
+
+[PAGE 1]
+\WPS26l 5
+Trade, Growth, and Poverty
+David Dollar and Aart Kraay
+Development Research Group, The World Bank
+June 2001
+Abstract: A key issue today is the effect of globalization on inequality and poverty. We first identify a
+group of developing countries that are participating more in globalization. Since China, India, and several
+other large countries are part of this group, well over half of the population of the developing world lives
+in these globalizing economies. The post- 1980 globalizers have seen large increases in trade, and
+significant declines in tariffs over the past 20 years. Their growth rates have accelerated from the 1 970s
+to the 1 980s to the 1990s, even as growth in the rich countries and the rest of the developing world has
+declined. The post-1980 globalizers are catching up to the rich countries while the rest of the developing
+world is falling farther behind. We next ask how general these patterns are, through regressions that
+exploit the within-country variation in trade and growth. We fnd a strong positive effect of trade on
+growth after controlling for changes in other policies and addressing endogeneity with internal
+intruments. Finally we examine the effects of trade on the poor. Since there is little systematic evidence
+of a relationship between changes in trade volumes (or any other globalization measure we consider) and
+changes in income share of the poorest, the increase in growth rates that accompanies expanded trade
+leads to proportionate increases in incomes of the poor. The evidence from individual cases and from
+cross-country analysis supports the view that globalization leads to faster growth and poverty reduction in
+poor countries.
+Views expressed are those of the authors and do not necessarily reflect official views of the World Bank
+or its members countries. We thank Sergio Kurlat and Dennis Tao for excellent research assistance. An
+earlier draft of this paper was presented at the conference on "Poverty and the International Economy,"
+sponsored by Globkom (Parliamentary Commission for Swedish Policy on Global Development) and the
+World Bank, October 20-21, 2000, Stockholm, Sweden. We thank Jeff Williamson, Dani Rodrik, and
+seminar participants for helpful comments on the initial draft.
+Public Disclosure Authorized
+Public Disclosure Authorized
+Public Disclosure Authorized
+Public Disclosure Authorized
+Public Disclosure Authorized
+Public Disclosure Authorized
+Public Disclosure Authorized
+Public Disclosure Authorized
+
+
+[PAGE 2]
+Recognizing the enormous benefits of open international markets, we, the undersigned economists,
+strongly support China 's entry into the World Trade Organization. China 's entry will raise living
+standards in both China and its trading partners. By acceding to the WTO, China will open its borders to
+international competition, lock in and deepen its commitment to economic reform, and promote economic
+development andfreedom.
+--Open letter in the New York Times, spring 2000,
+signed by a long list ofprominent economists
+1. Introduction
+Openness to intemational trade accelerates development: this is one of the most widely held
+beliefs in the economics profession, one of the few things on which Nobel prize winners of the both the
+left and the right agree. The more rapid growth may be a transition effect rather than a shift to a different
+steady state growth rate, but clearly the transition takes a couple of decades or more, so that it is
+reasonable to speak of trade openness accelerating growth, rather than merely leading to a sudden, one-
+time adjustment in real income.
+Why is this view so prevalent? Srinivasan and Bhagwati (1999) argue that the best evidence in
+support of the openness-growth link is that "nuanced, in-depth analyses of country experiences in major
+OECD, NBER, and IBRD projects during the 1960s and 1970s have shown plausibly, and taking into
+account numerous country-specific factors, that trade does seem to create, even sustain, higher growth."
+(p. 6) Their paper goes on to lament the shift of the profession away from detailed case studies in favor of
+cross-country growth regressions. They criticize cross-country growth regressions on a number of
+grounds that we will retum to, while at the same time acknowledging that such regressions can contain
+useful information: "In fact, while such regressions can be suggestive of new hypotheses and be valuable
+aids in thinking about the issue at hand, we would reiterate that great caution is needed in using them at
+all as plausible 'scientific' support." (p. 36)
+We agree that individual cases contain important information upon which economists often base
+their views. The systematic case studies cited by Srinivasan and Bhagwati generally concern trade
+liberalization in the 1960s and 1970s. It is a shame that there has not been a similar systematic treatment
+of post- 1980 globalizers. In the next section of the paper we identify post- 1980 globalizers that are good
+candidates for case studies. In particular, we single out the top one-third of developing countries in terms
+of increases in trade to GDP over the past 20 years.' So, by construction this group has had a particularly
+large increase in trade: from 16% of GDP to 33% of GDP, compared to an increase from 37% to 50% for
+Variable definitions and data sources are provided in Table 8.
+
+
+[PAGE 3]
+the rich countries. What is striking is that the remaining two-thirds of developing countries have actually
+had a decline in trade to GDP over this period (Figure 1). The globalizing group has also cut import
+tariffs significantly, 22 points on average, compared to 11 points for the non-globalizers (Figure 2). The
+list of post-1980 globalizers includes some well-known reformers (Argentina, China, Hungary, India,
+Malaysia, Mexico, the Philippines, and Thailand). Padma Desai's book, Going Global (1997), includes
+case studies of several of these countries, and good studies exist of some others, though in general there
+has not been a systematic review of these post-1980 globalizers.
+The recent globalizers have experienced an increase of their growth rates, from 2.9% per year in
+the 1970s to 3.5% in the 1980s, and 5.0% in the 1990s (Figure 3), while rich country growth rates slowed
+down over this period. What about developing countries not in the "globalizing" group? They had a
+decline in the average growth rate from 3.3% per year in the 1970s to 0.8% in the 1980s and recovering to
+only 1.4% in the I 990s.2
+There are many interesting pair-wise comparisons between the globalizing group and the non-
+globalizing group: Vietnam versus Burma, Bangladesh versus Pakistan, Costa Rica versus Honduras. In
+each of these cases, the economy that has opened up more has had better economic performance. Thus,
+what we have in the 1990s is an important group of countries growing faster than the rich countries and
+hence gradually catching up, while the non-globalizing part of the developing world is falling further and
+further behind. That China, India, and some other large countries are in the fast-growing group means
+that well over half the population of the developing world is included.
+These cases provide suggestive evidence about the effect of openness on growth. Nevertheless,
+examination of individual cases always raises questions of how general the results are. Is it true
+systematically that countries that increase their trade grow faster? Many of the reformers noted above
+moved forward on a whole set of reforms at once: fiscal adjustment, stabilization, strengthening private
+property rights, exchange rate reform. Does the correlation between greater openness and faster growth
+persist after controlling for these other factors? Cross-country regressions are a useful way of looking at
+how general are the relationships identified in case studies, and we turn to this approach in the third
+section of the paper.
+There have been a number of attempts to relate trade policy variables to growth rates (Dollar
+1992; Sachs and Warner 1995; Edwards 1992), all of which have found that trade openness is associated
+with more rapid growth. In a recent paper Rodriguez and Rodrik (2000) criticized these studies, primarily
+on the grounds that the studies have not adequately controlled for other economic policies (either that the
+"trade policy" measure used captures more than just trade policy or that other plausible control variables
+2 We also show that defining a group of post- 1980 globalizers based on tariff cutting (the top one-third of countries in terms of
+tariff reductions) produces very similar results.
+2
+
+
+[PAGE 4]
+have not been included). Their point is similar to the more general critique of Levine and Renelt (1992):
+the policies correlated with growth (trade openness, macro stability, small government consumption, rule
+of law) are all highly correlated among themselves. Hence, when all of these policies are included in
+regression analyses, it can be difficult to identify the separate effects of different policies.
+We agree with Rodriguez and Rodrik that the "trade policy" indicators that have been used in the
+empirical literature are not particularly good. It is hard to come up with clean measures of trade policy.
+In many developing countries non-tariff barriers have been particularly pernicious - licensing schemes
+that amount to firm-specific planned allocations of imports. Yet our experience is that NTB coverage
+ratios do not effectively capture how severe non-tariff barriers are. Average tariff rates provide some
+information about trade policy, which we used to help identify our group of globalizers. Still, it is
+peculiar that changes in reported tariff rates are often not accompanied by any change in trade volume.
+In our empirical work we use decade-over-decade changes in the volume of trade as an imperfect
+proxy for changes in trade policy. In a data set spanning 100 countries, we find that changes in growth
+rates are highly correlated with changes in trade volumes, controlling for lagged growth and addressing a
+variety of econometric difficulties. This approach differs from much of the existing empirical literature
+which relates growth to cross-country differences in trade volumes. Much of the cross-country variation
+in trade volumes reflects countries' geographical characteristics, such as their proximity to major markets,
+their size, or whether they are landlocked. As a result this type of evidence tells us little about the effects
+of trade policy on growth, and worse, it may simply reflect the effects of geography on growth through
+other channels (both these points are emphasized by Rodriguez and Rodrik (2000)). By focusing on
+decadal changes in growth and changes in trade volumes we can at least be sure that our results are not
+driven by geography, nor by any other unobserved country characteristic that drives both growth and
+trade but varies little over time, such as institutional quality. By including period dummies we are also
+able to control for shocks that are common to all countries, such as global demand shocks or reductions in
+transport costs.
+The final issue that we turn to in Section 4 is the relationship between trade liberalization and
+inequality. In our paper, "Growth Is Good for the Poor" (Dollar and Kraay (2001)) we examined the
+impact of growth-enhancing policies on the income of the bottom 20% of the income distribution, after
+controlling for their impact on mean income, in a panel covering 80 countries and four decades. There is
+a one-to-one relationship between the growth rate of income of the poor and the growth rate of per capita
+income, but also quite a lot of variation around that average relationship (Figure 4). In other words,
+percentage changes in incomes of the poor on average are equal to percentage changes in average
+incomes. A useful way of interpreting these results is to realize that they are equivalent to the finding that
+3
+
+
+[PAGE 5]
+changes in the share of income that accrues to the poorest fifth of society are not systematically associated
+with the growth rate.
+The main point of our earlier paper was to attempt to explain the deviations around the one-to-one
+relationship, which reflect changes in this measure of inequality. One of the important concerns about
+globalization is that, while it may be increasing national income, the poor may not benefit
+proportionately. The hypothesis that greater trade openness leads to growing household inequality is the
+hypothesis that growing openness leads to points "below the line" in Figure 4: growth of income of the
+poor less than per capita GDP growth.
+We considered a variety of possible variables that might explain cross-country differences in the
+extent to which growth accrues to those in the bottom quintile, with little success. One of the variables
+we considered was trade volumes, where we found no evidence whatsoever of a systematic relationship
+between changes in trade and changes in inequality. This relationship is shown in Figure 5: there is
+simply no association between changes in trade to GDP and changes in the Gini measure of inequality, or
+between changes in trade to GDP and changes in the income share of the poorest quintile. No doubt trade
+liberalization has distributional consequences - that is, there are "winners" and "losers" in the short run.
+However, our finding is that the losers do not come disproportionately from the poor. While it is
+heartening to know that the losers do not come disproportionately from the poor, nevertheless it has to be
+a concern that some poor households are hurt in the short run by trade liberalization. It is thus important
+to complement open trade policies with effective social protection measures such as unemployment
+insurance and food-for-work schemes. (Closed economies obviously need safety nets as well since
+households are subject to shocks from business cycles, technological change, weather, and disease.) To
+the extent that trade openness raises national income, it strengthens the fiscal ability of a society to
+provide these safety nets.
+The fact that increased trade generally goes hand-in-hand with more rapid growth and no
+systematic change in household income distribution, means that increased trade generally goes hand-in-
+hand with improvements in well-being of the poor. We can combine the quantitative estimates of
+Sections 3 and 4 of this paper to get a rough estimate of the general relationship between increased trade
+and income of the poor. Our globalizing group had an average increase in trade to GDP of 0.34 between
+the early 1 980s and the late 1 990s. In general, such an increase is associated with more rapid growth of
+income of the poor of 2.2 percentage points per year (Figure 6). The figure decomposes this overall effect
+into a "growth effect" of trade on mean income (estimated in Section 3 of the paper) and a "distribution
+effect" of trade on the share of income going to the bottom 20% (from our other paper described in
+Section 4 of this paper). Most of the benefits for poor households come from this growth effect. Our
+4
+
+
+[PAGE 6]
+estimated "distribution effect" is not significantly different from zero although it happens to be in favor of
+the poor.
+We also show in Figure 6 the estimated effect of stabilization from high inflation. We
+emphasized that these reformers are doing lots of things and that it is difficult to estimate the separate
+effect of individual reforms. The globalizers reduced inflation from an average of 24% per annum in the
+early 1980s to 12% in the late 1990s. Our point estimate is that this would increase the growth rate of
+income of the poor by about 0.4 percentage points per year. About half of this is due to the beneficial
+effect on overall growth of stabilizing from high inflation, and half of it reflects a positive distributional
+effect of stabilizing from very high inflation. This is quite consistent with a growing body of evidence
+that inflation is disproportionately hard on the poor.
+One should be careful not to take this exercise too literally. Still, it is a useful way of
+summarizing the average relationships in a large panel of countries, emphasizing the magnitude of the
+growth and distributional effects of policies. Countries that reduced inflation and expanded trade saw
+their growth rates accelerate over the past 20 years. They did not have significant changes in income
+distribution. Thus, the growth rate of income of the poor generally increased. The amount of trade
+expansion and stabilization observed in our globalizing group was typically associated with a higher
+growth rate of income of the poor of about 3 percentage points per year.
+To relate the cross-country findings on trade and inequality back to the specific countries in our
+globalizing group: some have had increases in household income inequality over the past 20 years, most
+notably China. But it is not true in general that the liberalizing economies have had increases in
+inequality. Costa Rica's and the Philippines' income distributions have been quite stable. Inequality has
+declined in Malaysia and Thailand. Mexico had an increase in inequality in the 1980s followed by a
+decline in inequality in the 1990s. Since most of the countries have had only relatively small changes in
+household income inequality, the growth rate of income of the poor is closely related to the growth rate of
+per capita GDP.
+Although Vietnam is not included among our globalizers (due to limits on the availability of data
+we use to identify the other globalizers), it nicely illustrates our main finding about trade and poverty. As
+Vietnam has opened up, it has had a large increase in per capita GDP and no significant change in
+inequality. Thus, income of the poor has risen dramatically, and the level of absolute poverty has dropped
+sharply, from 75% of the population in 1988 to 37% in 1998 -- poverty was cut in half in ten years! In
+the case of Vietnam we have particularly good data, because a representative household survey was
+conducted early in the reform process (1992-93), and then the same 5,000 households were visited again
+six years later. Of the poorest 5% of households in 1992, 98% had higher income six years later. Since
+Vietnam's opening has resulted in exports of rice (produced by most of the poor farmers) and labor-
+5
+
+
+[PAGE 7]
+intensive products such as footwear, it should be no surprise that the vast majority of poor households
+benefited immediately from a more open trading system.
+All of this work is aimed at the counterfactual question, what can we expect to happen when
+developing countries liberalize trade and participate more in the global trading system? Obviously for a
+particular closed economy (say, Burma) we cannot predict with certainty what will happen. The specific
+outcome will depend on a whole host of factors (including the country's factor endowments, its location,
+complementary policies put in place). But we can make some qualitative predictions. Based on the
+experiences of individual cases of post- 1980 liberalizers and the general patterns detected in cross-
+country regressions, it is highly probable that Burma's growth rate would accelerate. Furthermore, based
+on other countries' experiences, there is no reason to expect any large change in household income
+inequality. Therefore, we can expect that greater openness would improve the material lives of the poor.
+We also know that there will be some individual losers among the poor in the short run and that effective
+social protection can ease the transition to a more open economy, so that all of the poor benefit from
+development.
+
+
+[PAGE 8]
+2. The Experiences of Post-1980 Globalizers
+The objective in this section is to identify developing countries that have significantly opened up
+to foreign trade in the past 20 years and to compare their experience to those of other developing
+countries that have remained more closed. We identify these post- 1980 globalizers based on their growth
+in trade relative to GDP in constant prices, and based on their reductions in average tariff rates. Both
+measures have strengths and weaknesses. Trade volumes are clearly endogenous variables that reflect a
+wide range of factors other than trade policy. Across countries, a significant share of the variation in
+trade reflects countries' geographical characteristics. We abstract from these geographical determrinants
+of trade by focusing on proportional changes in trade volumes relative to GDP, but we recognize that
+growth in trade volumes may also reflect many factors other than trade liberalization. We therefore also
+use reductions in average tariff rates to identify globalizers. The average tariff rate is clearly a policy
+variable, but the relationship between tariff rates and trade volumes is not that strong (Dollar and Zoido-
+Lobat6n, 2001). This reflects both the fact that trade volumes are determined by many factors other than
+policy, and also the fact that available data on tariffs are a very imperfect measure of trade policy. For
+example, we use a dataset of unweighted average tariffs (since this gives us the best country and period
+coverage) which can give disproportionate weight to tariffs on commodities that represent a small fraction
+of imports. On the other hand, trade-weighted average tariffs give no weight to tariffs on goods that are
+so high that imports are choked off entirely. Moreover, in many countries non-tariff barriers ranging from
+explicit quotas and licensing schemes to local content requirements and health and safety standards
+constitute significant obstacles to trade that are not captured by average tariffs. The advantage of trade
+volumes is that they in part reflect these non-tariff barriers to trade.
+We begin with a group of 101 countries for which we have data on trade as a share of GDP in
+constant prices beginning in the 1 970s. We begin by separating out the 24 OECD countries (before recent
+expansions), and add to that group five economies that we think of as early liberalizers (Chile, Hong
+Kong, Taiwan, Singapore, and South Korea). Their stories are well known, and we: want to focus on the
+developing countries that have opened up during the recent wave of globalization in the 1 980s and 1990s.
+This expanded group of rich countries provides a useful benchmark against which to measure the
+experience of the globalizing and non-globalizing developing countries. With these wealthy countries put
+aside, we have trade data for 73 developing economies.3
+3 We do not have constant local currency trade to GDP ratios for Turkey, an OECD member, for the 1970s. This is why the 29
+rich countries and the 73 developing countries do not add up to the total of 101 countries.
+7
+
+
+[PAGE 9]
+Our first group of globalizers is based on the top one-third of these developing countries
+in terms of their growth in trade as a share of GDP at constant prices between 1975-79 and 1995-
+97. These countries are shown in Table 1, and include some well-kfiown economic reformers: Malaysia
+and Thailand in East Asia, which liberalized trade in the early 1 980s; China, which has been liberalizing
+trade throughout this period; Bangladesh and India in South Asia, with reforms more in the 1990s; and
+several Latin American economies (notably, Argentina, Brazil, and Mexico). We have highlighted the
+experience of this group of globalizers in the introduction to the paper. However, there are a couple of
+countries on the list that strike us as anomalies (for example, Haiti and Rwanda). Their inclusion reminds
+us of the problem that we noted earlier, that a large increase in trade might reflect non-trade -policy factors
+4
+such as cessation of civil war.
+We therefore also present a second group of globalizers based on absolute decline in average
+tariff rates. Unfortunately, tariff data are scarce before 1985; hence we are forced to use the reduction in
+the average tariff rate between the 1985-89 period and the 1995-97 period to identify the top one-third of
+tariff cutters. These countries are shown in Table 2. From our point of view, our second group of
+globalizers based only on tariff reductions produces some anomalies as well. For example, both Kenya
+and Pakistan appear here, and yet neither has seen any appreciable increase in actual trade. It would take
+a detailed case study to delve into exactly why this has occurred. Based on what we know of these
+countries, it seems likely to us that problems with trade-related infrastructure and with non-tariff barriers
+to trade prevent these economies from being genuinely open.
+There are nine countries that appear on both lists: these are indicated in bold in Tables 1 and 2
+and constitute our third group of globalizers. These are mostly the large countries that are also well-
+known reformers: China, India, Brazil, Thailand, Argentina, Bangladesh. For these large countries, we
+can have considerable confidence that their greater participation in trade is at least partly policy- induced.
+Figure 7 provides a graphical summary of our identification of globalizers, plotting the growth in
+trade relative to GDP on the horizontal axis and the absolute reduction in tariffs on the vertical axis. The
+dashed lines separate the top third of countries on each axis. The first group of globalizers based on their
+growth in trade are in regions II and III; the second group of globalizers based on their tariff reductions
+are in regions I and II, and the group of nine countries appearing on both lists in in region II. Given the
+problems of measuring trade liberalization that we have discussed, there cannot be a definitive list of
+recent liberalizers: any one of our three groups of countries constitutes a reasonable candidate set of
+"globalizers". We therefore consider all three groups in the discussion that follows below. We will also
+4 Vietnam's ratio of trade to GDP has gone from 0.58 in the 1985-89 period to 1.59 in the 1995-97 period, one of the largest
+increases in the world. However, we do not have data on Vietnam's trade from the same source for earlier periods, so it is not
+included in the list in Table 1.
+8
+
+
+[PAGE 10]
+refer repeatedly to Table 3 in which we present summary statistics for the rich countries, the developing
+country globalizers, and the non-globalizers, using the three alternative definitions of globalizers
+discussed above. For each group of countries, we report a simple average and a population-weighted
+average of trade volumes, tariffs, and growth. Since several populous countries, notably China, India,
+Bangladesh, and Brazil, are included in all three lists of globalizers, the story that emerges from these
+population-weighted averages is similar for the three groups. For the most part we focus on the
+population-weighted averages for the first list of globalizers in the discussion (as we did in the
+introduction), and note along the way the few differences across lists when we look at unweighted
+averages.
+We use the information on the globalizers in Tables 1-3 to make three points. First, increases in
+integration with the world economy have been substantial among the globalizers. By construction, the
+globalizers in the first panel of Table 3 have had large changes in trade volumes between the 1970s and
+the 1990s: a doubling of trade to GDP on average (16% to 33% of GDP). As a reference, the trade to
+GDP ratio also grew dramatically among the rich countries (29% to 50% of GDP), but among the non-
+globalizers, trade actually fell as a share of GDP (60% to 49% of GDP).5 The globalizers have also had
+large reductions in tariffs, a total of 22% (from 57% to 35%), while tariff cuts among the non-globalizing
+developing countries were a much more modest 11% (from 31% to 20%).6
+The second point we want to emphasize is that per capita growth rates have increased among the
+globalizing economies in the 1990s relative to the 1980s. Of the 24 countries in Table 1, eighteen
+experienced an increase of growth between the 1980-84 period and the 1995-97 period. Some of the
+increases were very large: Argentina, 8.4 percentage points of growth; China, 3.9; Dominican Republic,
+7.7; Mexico, 6.5; and the Philippines, 6.2, just to highlight a few of the more successful examples. For
+the third list of globalizers, the simple average growth rate during the whole decade of the 1990s
+increased from 0.5% to 2.0% per year relative to the 1980s. Growth in the rest of the developing world
+increased from 0.1 percent per year during the "lost decade" of the 1980s to a scant 0.6 percent per year
+during the 1990s, while growth in the rich countries slowed from 2.6% to 2.4%.7 
+It would be naive to
+assert that all of this improvement in growth should be attribted to the greater openness of these
+globalizing economies: all of them have been engaged in wide-ranging economic reforms covering trade
+5For the group of non-globalizers based on an absence of large tariff cuts in the middle panel of Table 3, we do see some
+increases in trade relative to GDP, and for the third group of non globalizers we find that trade volumes are essentially constant.
+This discrepancy is simply a reflection of the fairly weak overall correlation between tariff changes in changes in trade volumes
+discussed above.
+6 Not surprisingly, the average tariff declines in the globalizers relative to the non-globalizers are even more pronounced if one
+considers the group of globalizers based on tariffs cuts alone, or on both tariff cuts and increases in trade volumes, in the last two
+panels of Table 3.
+PA quick look at Table 3 confirms that this pattern of larger improvements in growth among the globalizers relative to the
+nonglobalizers holds for all three groups of globalizers, and for both the weighted and unweighted averages.
+9
+
+
+[PAGE 11]
+and other areas, The experiences of China, Hungary, India, and Vietnam are covered in Padma Desai's
+book, Going Global; these countries strengthened private property rights and carried out other reforms
+during this period. Virtually all of the Latin America countries included in the grouping stabilized high
+inflation and adjusted fiscally over this period. Disentangling the particular role of trade is something we
+attempt in the next section of the paper - here we simply note that trade reforms have gone hand-in-hand
+with other reforms, and the improvements in growth during the 1990s reflect the confluence of all of these
+reforms.
+The third point we want to make concerns the consequences of this rapid growth among the
+globalizers for worldwide income inequality across individuals. V/ile the simple average growth rate
+discussed above indicates what has been happening to the typical globalizing economy, population-
+weighted average growth rates capture the effects on worldwide interpersonal income inequality. These
+population-weighted averages tell a striking story. First, the rich countries were growing quite rapidly in
+the 1960s (4.7 %) and 1970s (3.1%), but their growth rates have declined over time, to 2.3% and 2.2% in
+the 1980s and 1990s. Within this group, the U.S. growth rate has been relatively stable over four decades,
+but during the 1960s and 1970s Western Europe, Japan, and the Asian tigers - all of whom were well
+behind the U.S. in 1960 - grew rapidly and "converged" on the U.S. This process of convergence has
+been a force for declining inequality among the rich countries.
+It is often argued that developing countries - most of whom had restricted trade regimes - did
+well during the 1960s and 1970s.8 However, the post-1980 globalizers did not do paprticularly well as a
+group in the 1960s (1.4% per capita growth) and the 1970s (2.9%). In particular, the two biggest
+developing countries - China and India - did not do well with import-substituting regimes in that period.
+For the twenty years from 1960 to 1979, the post- 1980 globalizers were falling further and further behind
+the rich countries. The rest of the developing world did somewhat better in the 1960s (2.4%) and 1970s
+(3.3%), but did little to catch up with the rich countries. In the past 20 years growth rates for the rich
+countries slowed down; growth rates for the non-globalizing developing world slowed down disastrously
+(to 0.8% in the 1980s and only 1.4% in the 1990s); while the growth rate for the post-1980 gbbalizers
+accelerated to 3.5% per capita in the 1980s and 5.0% in the 1990s.9
+Thus, in the 1990s, a very significant
+8 For example, Rodrik (1999) argues that "The import substitution policies followed in much of the developing world until the
+1980's were quite successful in some regards and their costs have been vastly exaggerated" (p. 64).
+9 This pattern of higher levels and greater increases in growth among the globalizers relative to the non-globalizers holds for all
+three groups of globalizers. Moreover, it is worth noting that our sample of non-globalizers does not include the transition
+economies of Eastern Europe and the Former Soviet Union (since we did not have data on trade going back to the 1970s on
+which to select the "globalizers"). If these countries and their weak performance in the 1990s were included among the non-
+globalizers, then the difference in growth performance between the globalizers and the non-globalizers would be even more stark.
+10
+
+
+[PAGE 12]
+part of the developing world - the economies that opened - has begun to grow faster than the rich
+countries, creating an important trend toward growing equality among open countries.'°
+What about the concern that openness is leading to growing inequality within countries and that
+hence the poor are benefiting less or even not at all from these developments? To address this important
+question we use a large data-set on income distribution compiled from various sources, which we will
+describe in more detail in Section 4. Most developing countries do not have good household surveys
+conducted each year, so we have to work with the limited data that are available. Table 4 reports the Gini
+coefficient closest to 1980 plus the most recent estimate for those countries appearing in Tables 1 and 2
+for which we have nationally representative household surveys. Of the 39 countries covered in our three
+possible definitions of globalizers, only 23 have income distribution data which allows us to make
+comparisons of the 1990s relative to the 1980s. In almost exactly half of these countries (1 1 out of 12),
+income inequality has fallen. So, there are liberalizing economies that have had increases in household
+income inequality over the past 20 years, most notably China. But it is not true in general that the
+liberalizing economies have had increases in inequality. Costa Rica's and Ecuador's income distributions
+have been quite stable, and inequality has declined in countries such as India, Malaysia, the Philippines,
+and Thailand. Table 5 also shows the average per capita GDP growth rate over the whole period from the
+earliest Gini to the latest, and the growth rate of income of the bottom 20% of the income distribution.
+We want to make three points from this table. First, because changes in inequality mostly have
+been small, growth rates of income of the poor are simnilar to growth rates of per capita GDP. Income of
+the poor has been rising at more than 3% per year in China, India, Malaysia, and Thailand - all countries
+m which the growth rate of per capita GDP over the whole period has been strong. Income of the poor
+has declined in Brazil, Mexico, and the Ivory Coast, countries in which the growth rate of per capita GDP
+averaged less than 1% over the whole period. Now, we emphasized above that growth rates for almost all
+of the globalizers accelerated between the 1980s and 1990s. So, if we divide this period by decade we
+would find in countries such as Mexico that income of the poor declined sharply in the recession years of
+the 1980s and then increased in the good-growth years of the 1990s. The income of the poor tends to be
+pretty closely tied to the overall state of the economy.
+But a second interesting fact in the table is that there are a couple of globalizers that have had
+large declines in inequality, with the result that income of the poor rose quite a bit more rapidly than mean
+income. Malaysia and Thailand are the best examples. (Note, ironically, that despite the financial crisis
+that started in 1997, Thailand had one of the fastest growth rates of income of the poor: 4.7% per year
+from 1980 to 1998.) Obviously, the combination of rapid growth and higher income share for the poor is
+10 This observation is consistent with the more systematic evidence in Ades and Glaeser (1999) who find that poor initially open
+economies tend to grow faster than poor initially closed economies.
+11
+
+
+[PAGE 13]
+best for poverty reduction. However, we have to stress that it is difficult to discern any common feature
+or pattern to the cases where we observe this in the data.
+The third point that we want to make from the table is that growth rate of income of the poor has
+significantly lagged the growth rate of per capita GDP in China, a transition economy in which there has
+been a large increase in inequality. But despite the change in inequality, the growth rate of income of the
+poor in China has still been high (3.8% per year) and there has been a dramatic decline in absolute
+poverty there. While the large increase in inequality is disconcerting, it would be misleading to attribute
+it entirely to greater openness as the transition countries have undergone dramatic changes in their entire
+economic systems over the past two decades. But, whatever its source, there are likely to be measures that
+can be taken to reverse the trend. Our own reading of history and data is that measures that can
+successfully raise income share of the poor without harming growth are likely to be country-specific. In
+China, for example, poor transport links between interior regions and the coast and restrictions on inter-
+provincial migration are factors that probably contribute to growing inequality and are amenable to policy
+interventions.
+To sum up this section: examination of individual cases suggests that trade openness leads to
+declining inequality between countries, and declining poverty within countries. The poor countries that
+have reduced trade barriers and participated more in international trade over the past twenty years have
+seen their growth rates accelerate. In the 1990s they grew far more rapidly than the rich countri-s, and
+hence reduced the gap between themselves and the developed world. At the same time the developing
+countries that are not participating in globalization are falling further and further behind. Within the
+globalizing developing countries there has been no general trend in inequality. Thus, rapid growth has
+translated into dramatic declines in absolute poverty in countries such as China, India, Thailand, and
+Vietnam.
+12
+
+
+[PAGE 14]
+3. Trade, Trade Policy, and Growth: A More Systematic Look at the Evidence
+The story that emerges from the previous section is that developing countries that have reduced
+trade barriers and traded more over the past twenty years have also grown faster. In this section we want
+to examine whether these relationships are true in general or depend on the particular sample of countries
+that we identified as "post- 1980 globalizers." There was inevitably a certain ad hoc character to how we
+grouped countries. So, here we proceed to more systematic cross-country statistical analysis of trade and
+growth using regression analysis.
+We certainly are not the first to apply this approach to this question. During the 1990s, an
+immense empirical growth literature has developed, which regresses growth in real per capita GDP on its
+initial level and a wide variety of control variables of interest. Within this literature many papers have
+included various measures of trade or trade policy among these control variables. Many of these papers
+found significant positive correlations across countries between growth and trade volumes or trade
+policies, controlling for other factors. These studies have been influential in reinforcing the consensus
+among many economists that "trade is good for growth".
+Recently however there has been criticism of the robustness of these results (for example, Levine
+and Renelt 1992; Rodriguez and Rodrik 2000; Srinivasan and Bhagwati 1999), which suggests a need to
+revisit some of these earlier results, as we do in this section. Before presenting our approach it is helpful
+to summarize these critiques under the headings of three generic problems that arise in regression
+analysis: measurement error, omitted variables, and endogeneity.
+Measurement error
+Measurement error is potentially a problem for all variables, but it is especially acute for
+measures of trade policy. The most immediate candidates (average tariff rates or non-tariff barrier
+coverage ratios) have obvious drawbacks. If one uses simple averages (across goods) of tariff rates, it is
+possible to give inordinate weight to categories of goods that are relatively unimportant for a country. If,
+on the other hand, one averages weighting by imports, then the effects of prohibitive tariffs which choke
+out all imports are lost. In the case of non-tariff barriers, the best available data simply report the number
+of tariff lines on which one of a small number of easily identifiable NTBs is in force. This type of data
+again provides no information on how binding the NTBs are, and obviously excludes a wide range of
+less-easily quantifiable barriers to trade, such as local procurement requirements. And for all measures,
+there are important gaps between statutory rates and actually collected tariffs, due to both legal
+13
+
+
+[PAGE 15]
+exemptions as well as poor enforcement of tariffs or outright corruption in the customs administration.
+These types of concems have led some to despair of the possibility of measuring trade policy at all (see,
+for example, Pritchett (1996)). 
+A further concem is that these measures have little correlation with
+observed trade volumes, as we saw in Figure 7 and in the discussion of the previous section of the paper.
+It is perhaps too strong to conclude from this that available measures of trade policy are entirely
+uninformative -- however, it does seem likely that they are rather noisy indicators of policy.
+Since it still appears to be difficult to find reliable systematic data on trade policies across
+countries, many papers have instead simply included trade volumes (exports plus imports as a share of
+GDP) as one of the explanatory variables in a cross-country regression. If the objective of the study is to
+examine the effects of trade on growth, this certainly is adequate. However, this approach is less useful if
+one is interested in the effects of trade policy on growth. This is because much of the cross-country
+variation in countries' trade as a share of GDP has nothing to do with policy, but rather reflects countries'
+geographical characteristics. Other things equal, countries that are small (and so produce a narrower
+range of goods and services within their borders) and are physically close to other countries (so that
+transport costs are lower) tend to trade more. As a result, it is difficult to interpret cross-country
+differences in trade volumes as reflecting significant differences in trade policy.
+Omitted Variables
+A second generic problem is that cross-country differences in economic growth reflect a
+confluence of many factors other than trade. To the extent that these factors are correlated with trade, the
+significance of trade in a growth regression that omits these factors may simply reflect trade serving as a
+proxy for other policies and institutions that are conducive to growth. A few examples in the top panel of
+Table 5 illustrate this point. In this table we show the simple correlation across countries between
+average levels of trade volumes and several other variables that have been identified as important for
+growth in the broader empirical growth literature: govemment consumption as a share of GDP, stability
+of monetary policy as proxied by the logarithm of one plus the inflation rate, political stability as proxied
+by the average number of revolutions occurring during the decade, and an index of the rule of law.
+A quick glance at this table confirms that across countries there are sizeable correlations between
+these other growth determinants and trade openness. Since high inflation, political instability, and poor
+rule of law tend to be negatively correlated with growth, it is possible that trade volumes are simply
+serving as a proxy for these other correlates of poor economic performance. It should be noted, however,
+that govemment consumption is often found to be negatively correlated with growth, but is positively
+14
+
+
+[PAGE 16]
+correlated with openness (the latter fact is stressed by Rodrik (1998)). In this case a regression of growth
+on trade which excludes government consumption may understate the effects of trade on growth.
+In any case, the main point here is that across countries, trade volumes are correlated with a wide
+variety of other factors that may matter for economic growth, and it is difficult to adequately control for
+all of these factors in order to isolate the partial effect of trade on growth. In an influential paper Levine
+and Renelt (- 992) systematically examined this issue for a large number of variables used in the empirical
+growth literature and concluded that trade volumes were not robustly correlated with growth (although
+they are robustly correlated with investment rates). And in more recent work Rodriguez and Rodrik
+(2000) applied this criticism to several of the papers focused specifically on the impact of trade on
+growth, and reached similar conclusions.
+Endogeneity
+Even after addressing these two difficulties, it is still possible that the observed partial correlation
+between trade and growth simply reflects reverse causation from growth to trade. There are a variety of
+plausible reasons for this. If, for example, an economy enjoys a surge in growth, more frms may attain
+the size necessary to break into export markets, so that exports also increase. At the microeconomic level,
+there is convincing evidence of reverse causation in the sense that much of the observed correlation
+between firm performance and exports is driven by larger and more productive firms self-selecting into
+export markets (see for example Clerides, Lach and Tybout (1997)). Moreover, this problem of reverse
+causation is clearly not unique to outcome measures such as trade volumes - trade policies may
+themselves be endogenous to growth, with countries perhaps choosing to liberalize when times are good.
+A good recent attempt to overcome this problem of reverse causation from growth to trade is
+Frankel and Romer (1999). They estimate cross-country regressions of the log-level of per capita income
+on trade volumes, interpreting cross-country differences in income levels as reflecting growth in the very
+long run. To address the possible feedback from income to trade, they use countries' geographic
+characteristics as instruments. Given that geography is a robust predictor of trade and given the
+exogeneity of geography, this is a very promising strategy. Nevertheless, there are two drawbacks to this
+approach, both of which are stressed by Rodriguez and Rodrik (2000). First, by construction this
+approach can only be informative about the effect of the geographically determined component of trade
+on growth, and so it says little about the effects of trade policy on growth. Second, the identification of
+the effect of trade hinges crucially on the assumption that geographic characteristics matter for growth
+only through their effects on trade, and this strong assumption is difficult to test.
+15
+
+
+[PAGE 17]
+Some New Estimates of the Effect of Trade on Growth
+We now present some new results on the effect of trade on growth, relying on an existing
+methodology that has not been widely applied to this particular question but is quite useful in light of the
+problems discussed above. Our empirical strategy is simple. Rather than rely on cross-country
+differences in trade and growth to identify the effects of trade, we rely on the within-country variation in
+the data. In particular, we examine whether changes in decadal average growth rates can be explained by
+changes in trade volumes.
+Consider the following "standard" cross-country growth regression:
+(1) 
+Yct = o 
++ 1 YC,tk + 02'Xct + Tc + Yt + Vct
+where yc, is log- level of per capita GDP in country c at time t, YC,t-k is its lag k years ago (k= 10 years in
+our application using decadal data) and X,, is a set of control variables which are measured as averages
+over the decade between t-k and t. We include trade volumes (exports plus imports as a share of GDP)
+among the variables in X. Subtracting lagged income from both sides of the equation gives the more
+conventional formulation in which the dependent variable is growth, regressed on initial income and a set
+of control variables. The disturbance term in the regression consists of an unobserved country effect that
+is constant over time, l1,, an unobserved period effect that is common across countries, yt, and a
+component that varies across both countries and years which we assume to be uncorrelated over time, vc,
+Most of the empirical growth literature considers growth over a very long period (k=25 years or
+more) so that there is only one observation per country. As a result, all of the effects of interest are
+estimated using only the cross-country variation in the data. Some papers consider shorter periods such
+as decades or quinquennia, and typically combine the cross-country and within-country variation in the
+data in a fairly ad-hoc manner. Caselli, Esquivel and Lefort (1996) provide a useful critique of
+conventional panel growth econometrics and a proposed solution. In this paper we adopt their preferred
+estimation strategy, which is to estimate equation (1) in differences, using appropriate lags of the right-
+hand side variables as instruments. In particular, they advocate estimating the following regression:
+(2) 
+Yct - Yctt-k = 
+(Yc,t-k - Yct-2k )+ 2 '(Xct - Xct-k )+ (Yt - Yt-k )+ (Vct - Vc,t-k)
+16
+
+
+[PAGE 18]
+This is nothing more than a regression of growth on lagged growth, and on changes in the set of
+explanatory variables. Or, subtracting lagged growth from both sides of the equation, we have changes in
+growth from one decade to the next as a function of initial growth and changes in the explanatory
+variables."
+This approach has several desirable features for us, which relate to the empirical problems discussed
+above:
+* 
+Measurement Error. While cross-country differences in trade volumes are arguably a poor measure
+of cross-country differences in trade policy (since they to a large extent reflect geography), changes in
+trade volumes within countries over time are not subject to this particular measurement problem since
+countries' geographic al characteristics do not change over time. While change in trade volumes may
+reflect a variety of factors, we can at least be reasonably confident that geography is not one of them.
+* 
+Omitted Variables. Many of the possible omitted variables in a growth regression that may be
+correlated with trade, such as rule of law, a country's ethnic makeup, or its colonial history, change
+very little over time. Again, by differencing we can at least be sure that the estimated coefficient on
+trade is not simply picking up a correlation with these omitted time-invariant country characteristics.
+Also, since we include time effects in the regression, these will pick up omitted shocks that affect
+trade and growth in all countries similarly, such as increases in world demand or widespread declines
+in transport costs. Of course, there are other determinants of growth that do change over time, such as
+government consumption, inflation, and others. However, looking at the bottom panel of Table 5, it
+is apparent that changes in these variables (in the bottom panel) tend to be less correlated with
+changes in trade openness than the levels of these variables (in the top panel). While we can of
+course never be entirely sure that we have adequately controlled for all omitted factors, we have
+arguably removed the effects of an important class of time-invariant omitted factors and time-varying
+factors that are common across countries.
+* 
+Endogeneity. A further advantage of this differenced growth equation is that it presents a natural set
+of instruments to control for the possible problem of reverse causation from growth to trade. Our
+identifying assumption is that while trade volumes may be correlated with the contemporaneous and
+lagged shocks to GDP growth (E[X,-vc:,_sJ#0 for s2O), they are uncorrelated with future shocks to
+GDP growth, (E[Xc vc,,+j]=O for s>O). In practice, this means that when we regress growth in the
+Elaborations of thes technique involve jointly estimating a system of two equations, in levels (Equation I) and in differences
+(Equation 2), and using lagged changes of endogenous variables as instruments for levels in the former (Arellano and Bover
+(1995)). This approach can yield important efficiency gains (Blundell and Bond (1998)) but is less appropriate in our application
+where we want to identify the effects of interest using within country changes in growth.
+17
+
+
+[PAGE 19]
+1990s on growth in the 1980s and the change in trade volumes between the 1980s and 1990s, we can
+use the level of trade volumes in the 1970s as an instrument for trade openness.'2
+Table 6 presents our results using this technique. Our data set consists of 187 observations on growth
+in the 1990s and growth in the 1980s, for roughly 100 countries. The dependent variable is average
+annual growth, and the explanatory variables are average annual growth in the previous decade and
+average annual change in trade volumes (we have in effect divided Equation (2) by k= 10 years before
+estimation). As a result, the coefficient on the trade variable can be interpreted as the cumulative
+percentage change in the level of per capita GDP over a decade of a 100 percent increase in the trade
+share.
+In the first column we present the results simply estirnating Equation (2) by ordinary least squares.
+While this estimation method is inconsistent, it is a helpful way of summarizing the partial correlations in
+the data. We report the estimated coefficients, and in parentheses standard errors that are robust to
+heteroskedasticity and the first-order serial correlation in the residuals induced by differencing. The
+striking feature of this first column is that changes in trade volumes are strongly correlated with changes
+in growth, with a point estimate indicating that a 100 percent increase in the trade share would have the
+cumulative effect of raising incomes by 25 percent over a decade.
+Of more interest are the results in the second column, where we instrument for initial income and
+trade volumes as described above. The coefficient on trade jumps to 0.48 and remains highly significant.
+This result is not driven by a few extreme cases in the data, as shown in Figure 8 where we plot the partial
+correlation between trade and growth based on the specification in the second column of Table 6. It is
+worth reiterating that these estimates reflect the effect of changes in trade on changes in growth. As a
+result, they do not reflect the effect of geography-induced differences in trade (as in the paper by Frankel
+and Romer (1999)), nor are they tainted by the omission of any variables that matter for growth but
+change little over time. Our instrumentation strategy also address the possibility of reverse causation
+from growth to trade. Furthermore, as long as any time -varying omitted variables are uncorrelated with
+the level of trade openness two decades previous, our instrumented coefficients will not reflect the
+spurious omission of these variables.' 3
+In the remaining columns of Table 6 we perform a variety of robustness checks on this basic
+result. In column 3 we replace the trade to GDP ratio with the ratio of FDI to GDP, to see whether this
+12 We also instrument for lagged growth using the level of income in the 1970s, as is necessitated by the combination of a
+dynamic panel and unobserved country-specific effects. See Caselli, Esquivel and Lefort (1996) for details.
+13 It is also worth noting that the internal instruments perform quite well in this equation, in the sense of being strongly correlated
+with the endogneous variables. In particular, the F-statistics for the first stage regressions for lagged growth and changes in trade
+volume (for which the instruments are twice lagged income and trade volume, as well as period dummies) are 12.5 and 17.5
+respectively, and the null that the instruments have no explanatory power is overwhelmingly rejected in each case.
+18
+
+
+[PAGE 20]
+alternative measure of openness delivers similar results. After instrumenting for the change in FDI with
+twice-lagged FDI, we find that this channel of openness also has large and statistically significant growth
+effects: a one percentage point increase in FDI inflows as a share of GDP would result in a cumulative
+effect on average incomes over the course of a decade of 13 percent. However, as is well known, trade
+and direct investment flows tend to be quite correlated across countries. It is therefore interesting to ask
+whether it is possible to disentangle the separate effects of these two dimensions of openness. We attempt
+to do so in column (4) wlere we add both variables together. While the magnitude of the estimated trade
+and FDI effects on growth does not change much relative to the previous specifications, the significance
+of the effects slips to just below the 10 percent level. This is not very surprising to us - it simply reflects
+the fact that different dimensions of openness tend to be correlated across countries and over time, and so
+it is difficult to disentangle the effects of particular dimensions of openness.
+It is also interesting to inquire whether we get the same result with investment relative to GDP, as
+we get with foreign direct investment. Even though we will control for some other policy changes, it is
+possible that there are unobserved domestic policy changes or other shocks that lead to both higher
+investment and more trade as an endogenous result. In column 5 we include the change in the investment
+rate in the regression, and instrument for it with lagged level of investment. We do not get the same result
+as with FDI or with trade: there is no significant relationship between the instrumented change in
+investment rate and change in the growth rate.
+One possible explanation for the apparent effect of trade on growth is that it reflects institutional
+quality which is omitted from the regression (Rodrik (2000)). According to this argument, improvements
+in institutional quality make countries more attractive as trading partners, and also have direct effects on
+growth. This argument is neither implausible, nor is it inconsistent with trade also having a direct effect
+on growth. However, in our context where we are looking at the effect of changes over time of trade on
+growth, this argument may be less relevant empirically, since the limited data available on institutional
+quality suggests that it changes at best quite slowly over time. However, the best way to address this
+concern is to include a measure of changes in institutional quality directly in the regression, in order to
+ensure that the coefficient on the trade variable captures only the partial effect of trade. We do this in
+column 6 of Table 6, using one of the few time-varying proxies for institutional quality that are available
+back to the 1970s. In particular, we use one minus the ratio of currency in circulation to M2. This
+measured, coined as "contract-intensive money" by Clague, Keefer, Knack and Olson (1999) measures
+the extent to which property rights are sufficienty secure that individuals are willing to hold liquid assets
+via financial intermediaries. These authors document a strong positive cross-country relationship
+between this variable and both investment and growth. We find however that changes in this variable
+have little explanatory power for changes in growth over time, as it enters positively but insignificantly.
+19
+
+
+[PAGE 21]
+This is not very surprising to us given our view that institutional quality tends to change rather slowly
+over time. More important for our purposes, our basic result on the importance of trade for growth
+remains positive and highly significant, and even becomes slightly larger in magnitude than in column 2.
+This suggests to us that omitted changes in institutional quality are unlikely to be driving the observed
+correlation between trade and growth.
+We next consider the argument that the effects of trade reflect omitted policies that are good for
+growth and are correlated with increases in trade as well. In column 7 we expand the regression to
+include the three additional time-varying control variables from Table 6: government consumption as a
+share of GDP, the logarithm of one plus the inflation rate, and a dummy variable indicating whether there
+was a revolution. These variables are all measured as decade averages and are entered as changes in
+decade averages in the differenced regression. In this column, we assume that these variables are
+predetermined with respect to growth. When we do so, we find that the magnitude and significance of the
+coefficient on trade volumes is essentially unchanged. This is what we would expect given our previous
+observation that changes in these variables are not very correlated with changes in trade volumes. The
+remaining variables enter with the expected negative signs, but none are significant.
+The last thing we attempt in this table is to allow for the possibility that the additional policies in
+column 7 are endogenous to growth. When we try to simultaneously instrument for all of the right-hand
+side variables simultaneously in the final column, our results are rather unsatisfying. When we do so, we
+find that all of the right-hand side variables are insignificant, and the magnitudes of some of the estimated
+coefficients are wildly different from in the uninstrumented specification. Mechanically, there is a fairly
+simple explanation for these results. While changes in the additional control variables are not very
+correlated with changes in trade volumes (as we saw in Table 5), the portions of these variables that are
+correlated with the instruments under our identification scheme are in fact highly correlated with the
+portion of trade openness that is correlated with the instruments. As a result, the second stage regression
+in our instrumental variables procedure in the final column is afflicted by severe multicollinearity.
+At a more intuitive level, this suggests to us that the available data on trade, growth and other
+policies may not be sufficiently informative to enable us to isolate the precise partial effect of trade on
+growth, since our instruments are not sufficiently informative. However, we should also note that this
+problem is specific to our particular identification scheme. It remains quite possible that alternative
+instruments for the additional control variables will not induce such strong multicollinearity in the
+second-stage regressions, and so be more "informative" for our purposes. We agree with critics of cross-
+country empirics such as Srinivasan and Bhagwati (2000) that we will ultimately not be able to find
+"scientific proof' of the effects of trade. However, we are encouraged by the fact that our basic results do
+20
+
+
+[PAGE 22]
+show a strong correlation between changes in trade and changes in growth, and consider finding better
+instruments for a more complete regression to be a valuable research area that nicely complements the
+case-study approach of the previous section.
+21
+
+
+[PAGE 23]
+4. Trade, Growth, and Poverty
+Globalization has dramatically increased inequality between and within nations.
+--Jay Mazur, "Labor's New Internationalism, " Foreign Affairs, January/February 2000
+One of the most common populist views of growing intemational economic integration is that it
+leads to growing inequality between nations -- that is, that globalization causes divergence between rich
+and poor countries -- and within nations - that is, that it benefits richer households proportionally more
+than it benefits poorer ones. In the second section of this paper we have argued that the experience of
+globalizers shows how greater openness to international trade has in fact contributed to narrowing the gap
+between rich and poor countries, as the globalizers have grown faster than the rich countries as a group.
+In this section of the paper we turn to the effects of globalization on inequality within countries, drawing
+on results from our recent paper, Dollar and Kraay (2000). In that paper we show that a wide range of
+measures of intemational integration are not significantly associated with the share of income that goes to
+the poorest quintile. In other words, there is no systematic tendency for trade to be associated with rising
+inequality that might undermine its benefits for growth and poverty reduction. This evidence mirrors the
+anecdotal evidence in Table 4 which documented the absence of significant patters in changes in
+inequality among our globalizers.
+We gather data on the income distribution from a variety of existing sources, as documented in
+more detail in the other paper. Our data consist of Gini coefficients from 137 countries from the 1960s to
+the present, and five points on the Lorenz curve for a most of these country-year observations. There are
+substantial difficulties in comparing income distribution data across countries. Countries differ in the
+concept measured (income versus consumption), the measure of income (gross versus net), the unit of
+observation (individuals versus households), and the coverage of the survey (national versus subnational).
+We restrict attention to distribution data based on nationally representative surveys, and perform some
+simple adjustments to crudely control for some of the remaining differences in the types of surveys.
+A further difficulty with the data on income distribution is that it forms a highly unbalanced and
+irregularly spaced panel of observations. For some rich countries and a few developing countries a
+continuous time series of annual observations on income distribution is available for long periods. For
+most countries only one or a handful of observations are available. Since we are interested in growth over
+the medium to long run we do not want to rely on potentially adjacent annual observations in our
+estimation. For 45 countries, we only have one observation on income distribution. For the remaining 92
+countries, we discard all observations not separated in time by at least five years. This leaves us with 418
+22
+
+
+[PAGE 24]
+observations on income distribution separated by at least five years within countries. We are also able to
+construct 285 observations on non-overlapping changes in income distribution within countries over a
+period of at least five years.
+In that paper we were interested in how incomes of the poor vary with average incomes, and in
+what explains deviations from this general relationship. We defined "the poor" as those in the bottom 20
+percent of the income distribution, and used the availab' income distribution data to construct average
+incomes in the poorest quintile. 14 We then examined the relationship between growth in average incomes
+and growth in incomes of the poorest fifth. Figure 4 summarizes our first finding that there is a strong
+relationship between growth in average incomes and growth in incomes of the poorest. This is equivalent
+to the observation that the share of income going to the poorest quintile does not vary systematically with
+.average incomes.
+However, there are also significant deviations from this general relationship. In that paper, we
+considered a large number of possible explanations for these deviations, in other words, what makes
+growth especially "pro-poor" or not. In the context of this paper, one class of possible explanations
+relates to trade. The question of whether increases in trade systematically lead to higher income
+inequality within countries is the same as the question of whether trade systematically explains deviations
+between growth in average incomes and growth in incomes of the poor. To answer this question, we
+estimate variants of the following regression of the logarithm of per capita income of the poor on the
+logarithm of average per capita income:
+(3) 
+Yct= xO + Oc
+1
+Yct + c2'X ct + jc 
++ Cct
+where c and t index countries and years, respectively; X, is a vector of other determinants of mean
+income of the poor; and 11c + ct is a composite error term including unobserved country effects.'5
+We are interested in two key parameters from Equation (3). The first is a, which measures the
+elasticity of income of the poor with respect to mean income. A value of a,=l indicates that growth in
+mean income is translated one-for-one into growth in income of the poor -- that is, that changes in income
+distribution are not systematically associated with changes in average incomes. Estimates greater or less
+than one indicate that growth more than or less than proportionately benefits the poor, i.e. that growth
+systematically leads to decreases or increases in the income share of the poorest quintile. The second
+14 For the vast majority of our observations, we did this directly by using the first point on the Lorenz curve. For about 15% of
+our sample, we only have Gini coefficients and so we calculated average income in the bottom quintile under the assumption that
+the distribution of income is lognormal.
+23
+
+
+[PAGE 25]
+parameter of interest is a2 which measures the impact of other determinants of income of the poor over
+and above their impact on mean income, i.e. the effects of these variables on the income share of the
+poorest quintile. In particular, we can use this regression framework to systematically examine whether
+increases in trade volumes (or any other variable) are systematically associated with changes in the
+income share of the poorest quintile.
+Estimating Equation (3) poses a variety of econometric difficulties that we address in detail in our
+other paper. Here we briefly note that we estimate this equation using a system generalized method of
+moments estimator which optimally combines information in the levels of the data with the within-
+country variation in the data. As discussed in the other paper, this strategy allows us to address as best we
+know how problems of measurement error in the income distribution data (and other variables), possible
+omitted variables, and the possibility of reverse causation from income distribution to average incomes.
+Table 7 shows a typical set of results from that paper, regressing average incomes of the poorest
+quintile on average incomes and several additional control variables that have been identified as important
+for growth in the larger empirical growth literature. We typically find a point estimate of a, which is
+slightly larger than, but not statistically significantly different from, 1, indicating that incomes in the
+bottom quintile on average rise one-for-one with average incomes (alternatively, that changes in income
+distribution are not significantly associated with changes in average incomes). In addition, we rarely find
+that any of the additional control variables enter significantly, indicating that these variables have no
+systematic effect on income distribution. The only exception is government consumption, which at times
+enters significantly. Neither of these two results should be all that surprising. Various authors, including
+Chen and Ravallion (1997) and Deininger and Squire (1996) have documented the striking absence of any
+correlation between (changes in) income and (changes in) inequality, albeit with smaller samples and
+different econometric techniques. Our lack of systematic significant effects of policies and institutions on
+inequality mirrors the dearth of similar robust results in the small empirical literature on determinants of
+income inequality.
+For the purposes of this paper, the most interesting results are those relating to trade volumes.
+Our results indicate that there is no significant correlation between changes in inequality and changes in
+trade volumes, controlling for changes in average incomes (first column of Table 7). This can be seen
+quite clearly in Figure 5, which reports the simple correlation between changes in trade volumes and
+changes in inequality as measured by the Gini coefficient (in the top panel) and the logarithm of the first
+quintile share (in the bottom panel). In our other paper we also subject this basic result to a wide variety
+of robustness checks and also consider several other measures of international economic integration. Our
+15 It is straightforward to generalize the discussion to include year effects. We do not do so here because in our
+empirical results we do not find time effects to be significant.
+24
+
+
+[PAGE 26]
+conclusion is that there simply is no good evidence that countries that trade more (or are more integrated
+along other dimensions) on average have rising income inequality. No doubt there are distributional
+conflicts over trade policy, and we do not want to minimize the importance of these. But, it is not the
+case that the poor are systematically the losers from trade openness.
+Combining these results with those of the previous section, we can perform the following simple
+thought-experiment: what would be the effect of a simultaneous increase in trade volumes and
+stabilization from high inflation of the magnitude observed among our globalizers, on average incomes in
+the poorest quintile? From the case studies and the econometric evidence above, it seems reasonable to
+conclude that both of these contribute to higher growth over horizons of a decade or so, and the results in
+Table 6 give some idea of the magnitude. The results from our other paper provide us with estimates of
+the effects of these changes on income distribution. By differentiating Equation (3) with respect to the
+control variables we can therefore summarize the effect on average incomes in the bottom quintile as:
+4t='Yet +S (o-
+1 ). 
+Yct + a2
+axct 
+axct 
+aXct
+The first term captures the effect on incomes of the poor of a change in one of the determinants of growth,
+holding constant the distribution of income. We refer to this as the "growth effect" of policies, and we
+can read this off the growth regression in Table 6 as the estimated coefficient on the policy variable of
+interest. We use the results in the second-last column of this table given our concerns about the final
+column discussed above. The second term captures the effects of a change in one of the determinants of
+growth on incomes of the poor through changes in the distribution of income. This consists of two
+pieces: the difference between the estimated income elasticity and one, and the direct effects of policies
+on the income share of the poor in Equation (3). For these, we use the values reported in Table 7 taken
+from our other paper.
+The results of this exercise are summarized in Figure 6. As noted in the introduction, we consider
+an increase in trade volumes of 34 percentage points of GDP and a decrease in inflation of 12 percentage
+points, which is the unweighted average of the experience of our globalizers between the early 1980s and
+the late 1 990s. The estimated effect of this change is to raise the growth rate of income of the poor by
+about 2.6 percentage points, of which 2.2 percentage points are due to the increased openness to trade.
+Most of this reflects the pure growth effects of these policy changes -- the distribution effects are small,
+and not significantly different from zero.
+25
+
+
+[PAGE 27]
+Given the imprecision with which the distributional effects of policies are estimated, it is also
+interesting to ask the following closely related question: "Suppose in a particular country case that
+greater openness does lead to higher income inequality. How large would the increase in inequality
+associated with trade liberalization have to be in order to erase the income gains for the poorest quintile?".
+Using Equation (4), this would be the case if a2 = -al * ayct . For an estimate of a, = 1.14 and an
+aCt
+estimated growth impact of trade of 0.54, this would imply an estimate of a2 = -0.62. So in order for an
+increase in trade volumes of 0.35 to have no net benefits for poor people, it would have to be the case that
+it also lowered the income share of the poorest by 0.62x0.35 = 0.22 or 22 percent. To put this in more
+familiar terns, this is roughly equivalent to an increase in the Gini coefficient of 6 Gini points, which is a
+quite large relative to the fairly small changes in income distribution observed in reality. 16
+In summary, in other research we have found little evidence of a systematic effect of trade
+volumes on income inequality. Combining this observation with the results on the growth benefits of
+greater trade, we conclude that the balance of the evidence suggests that, on average, greater globalization
+is a force for poverty reduction.
+16 This can be shown under the assumption that the distribution of income is lognormal.
+26
+
+
+[PAGE 28]
+5. Conclusion
+We have identified a group of developing countries that have had large cuts in tariffs and large
+increases in actual trade volumes since 1980. Since China, India, and several other large countries are
+part of this group, well over half of the population of the developing world lives in these globalizing
+economies. The post- 1980 globalizers are different from the rest of the developing world in terms of the
+extent of tariff cutting (22 point reduction compared to 10 points) and in terms of the increase in trade
+volume over the past 20 years (an increase from 16% to 32% of GDP, versus a decline from 60% of GDP
+to 49% of GDP). While rich country growth rates have slowed down over the past several decades, the
+growth rates of the globalizers have shown exactly the opposite pattern, accelerating from the 1970s to
+the 1980s to the 1990s. The rest of the developing world, on the other hand, has followed the same
+pattern as the rich countries: growth decelerating from the 1970s to the 1980s to the 1990s. In the 1990s
+the globalizing developing countries grew at 5.0% per capita; rich countries at 2.2% per capita; and non-
+globalizing developing countries at only 1.4% per capita. Thus, the globalizers are catching up with rich
+countries while the non-globalizers fall further and further behind.
+In Section 3 we then looked at how general these patterns are, through cross-country regressions.
+We focused on within country variation and showed that changes in trade volumes have a strong positive
+relationship to changes in growth rates. In the fourth section we introduced results from our earlier paper,
+"Growth Is Good for the Poor." There is no systematic relationship between changes in trade volumes
+and changes in household income inequality. The increase in growth rates that accompanies expanded
+trade therefore on average translates into proportionate increases in income of the poor. Thus, absolute
+poverty in the globalizing developing economies has fallen sharply in the past 20 years. The evidence
+from individual cases and from cross-country analysis supports the view that open trade regimes lead to
+faster growth and poverty reduction in poor countries.
+27
+
+
+[PAGE 29]
+Figure 1: Trade/GDP
+70.0% -I 
+Rich Countries
+_ Globalizers
+60.0% 
+0 
+O Non-Globalizers
+50.0% -
+40.0% -
+30.0% -
+20.0%-
+10.0% -
+0.0% 
+I-
+1960s 
+1970s 
+1980s 
+1990s
+Note: Rich countries refers to the 24 OECD economies before recent expansions, plus Chile,
+Hong Kong, Korea, Taiwan, and Singapore. Globalizers refers to the top one-third in terms
+of their growth in trade relative to GDP between 1975-79 and 1995-97 of a group of 72
+developing countries for which we have data on trade as a share of GDP in constant local
+currency units since the mid- 1970s. Non-globalizers refers to the remaining developing
+countries in this group. Averages decadal and are population-weighted. Unweighted
+averages and alternative definitions of globalizers are reported in Table 3. Variable
+definitions and data sources are reported in Table 8.
+28
+
+
+[PAGE 30]
+Figure 2: Average Tariffs
+70.0% 
+0 
+-
+0 Rich Countries
+60.0% 
+Globalizers
+r 
+60.0% 
+O Non-Globalizers
+w 50.0%
+> 40.0%
+.30.0% 
+-
+4 20.0% -
+10.0%
+0.0%
+1960s 
+1970s 
+1980s 
+1990S
+Note: Rich countries refers to the 24 OECD economies before recent expansions, plus Chile,
+Hong Kong, Korea, Taiwan, and Singapore. Globalizers refers to the top one-third in terms
+of their growth in trade relative to GDP between 1975-79 and 1995-97 of a group of 72
+developing countries for which we have data on trade as a share of GDP in constant local
+currency units since the mid- I 970s. Non-globalizers refers to the remaining developing
+countries in this group. Averages decadal and are population-weighted. Unweighted
+averages and alternative definitions of globalizers are reported in Table 3. Variable
+definitions and data sources are reported in Table 8.
+29
+
+
+[PAGE 31]
+Figure 3: Real Per Capita GDP Growth
+6.0% -
+E Rich Countries
+O Globalizers
+s 
+50% -
+/ 
+Non-Globalizers
+0
+(L 4.0%-
+.X3.0%-
+Cu
+2.0%-
+(L
+1.0% 
+0.0% 
+1960s 
+1970s 
+1980s 
+1990s
+Note: Rich countries refers to the 24 OECD economies before recent expansions, plus Chile,
+Hong Kong, Korea, Taiwan, and Singapore. Globalizers refers to the top one-third in terms
+of their gowth in trade relative to GDP between 1975-79 and 1995-97 of a group of 72
+developing countries for which we have data on trade as a share of GDP in constant local
+currency units since the mid- 1970s. Non-globalizers refers to the remaining developing
+countries in this group. Averages decadal and are population-weighted. Unweighted
+averages and alternative definitions of globalizers are reported in Table 3. Variable
+definitions and data sources are reported in Table 8.
+30
+
+
+[PAGE 32]
+Figure 4: Growth is Good for the Poor
+0.2
+0.15 
+*,
+0o 
+0~
+L
+_ ~ 
+~ 
+~ 
+~ 
+~ 
+~ 
+* 
+/
+E 
+/ 
+-0.1
+o0
+Average AuCnilPCiIo0.05
+0 
+4~~~~~~~~~~.* 
+pi-0.2 
+-0.15 
+-0.a1 
+-0.la 
+fe 
+a 
+ia 
+0.1 
+0.15 
+0.2
+.9, 
+,
+developing 
+P 
+y 1. I 85x -0.0068
+* 
+~~~~~~~~~~~~~~~~~~~2=
+R 
+0.4935
+-0.15
+-0.2
+Average Annual Change In log(Per Capita Income)
+Notes: Figure shows average annual growth rates of indicated variables over noni-overlapping
+periods of at least five years, in a sample of 285 observations covering 92 developed and
+developing countries. Per capita income growth refers to real per capita GDP growth. Per
+capita income growth in the poorest quintile is equal to per capita income growth plus growth
+in the income share of the poorest quintile.
+Source: Dollar and Kraay (2001)
+3 1
+
+
+[PAGE 33]
+Figure 5: Changes in Trade and Changes in Inequality
+Trade and the Gini Coefficient
+6
+5
+4
+3
+Q
+<s-0.'08 
+40.06 --
+0.04 
+O -0.2OM 
+P 
+w@2 
+00 
+0.06 
+0.08
+<~~~~~~~ 
+~ 
+~~~~~~~~~~~~~~~~~~~ 
+* 
+* 
+* 
+y2.5227x +0.0139
+-2 
+* 
+w 
+~~~~~R2 
+0.0013
+-4
+Average Annual Change in TradelGDP
+Trade and the Income Share of the Poor
+0 ~ ~~~~~~~~~~~~~~~~~~~. 
+0
+r. ~ ~ ~ 
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ .
+4, 
+a
+E 
+0.15 
+P
+C~~~~~~~~~~~~~~
+s
+4, ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ A
+r
+a-0.08 
+-0.06 
+-0.04 
+4-.02 
+'.AW2 
+0.04 
+0.06 
+0.08
+4 
+y = .0489x t 0.0012
+R2 =0.0002
+< 
+~~~~~~~~~~~~~~~~~~-0.15 
+40.2J
+Average Annual Change in TradelGDP
+Notes: Figure shows average annual growth rates of indicated variables over nonl-overlapping
+periods of at 
+Teast 
+five years, based on the same sample of couter,es as Figure 4 for which
+trade data are available. Variable definitions and data sources are reported in Table 8.
+Source: Dollar and Kraay (2001)
+32
+
+
+[PAGE 34]
+Figure 6: Growth and Distribution Effects of Policy
+Inflation
+Stabilization v
+1I Growth Effect
+T rade 
+-------- 
+-----
+| 
+~~~~~~* 
+DIsrbto Efec
+Openness 
+X____
+0.0% 
+0.5% 
+1.0% 
+1.5% 
+2.0% 
+2.5%
+Change in Average Annual Growth in Incomes of the Poor Over a Decade
+Notes: Figure shows estimated effect on average annual growth in incomes in the bottom
+quintile of an increase in trade and a reduction in inflation of the magnitude experience by the
+group of globalizers based on growth in trade relative to GDP, based on the estimates
+reported in column (7) of Table 6 and column (1) of Table 7, as discussed in the text.
+Variable definitions and data sources are reported in Table 8.
+33
+
+
+[PAGE 35]
+Figure 7: Identifying Globalizers
+r 
+80
+CD
+.2 
+70
+0 BGD
+60 
+0 IND
+50-I
+40
+0 SFA 
+0 FER 
+B
+0 BEN 
+3oo]0 
+K 
+y= 1.792x + 11.546
+KEN 
+0 URY 
+R 
+= 0.0062
+20 EC
+20 -
+D)A 
+a cdl THA 
+o CHNAR
+a9 
+IDNaCA 
+0 CMR 
+0 ARG 
+NL ee 
+A 
+DsfiEN_ 
+2>%|> 
+~~~~~0 HTI 
+0 PRY
+0 MDG 
+0 MAR-T0 
+-
+-100% 
+-50% 
+0 MWIO 4 
+0 TUN 
+50% 
+100% 
+150% 
+200% 
+250%
+0 SYR 
+a PNG
+-10 -
+0 ZWE 
+Growth In Trade/GDP
+-10~~~~~~~~~~~~~~~1
+0 zWE 
+(1975-79 to 1995-97)
+-20
+Notes: Figure plots growth in trade relative to GDP over the period 1975-79 to 1995-97 on
+the horizontal axis and the decrease in weighted average tariffs over the period 1985-89 to
+1995-97 on the vertical axis. The first group of globalizers consists of regions II and III, the
+second group consists of regions I and II, and the third group consists of region II. Variable
+definitions and data sources are reported in Table 8.
+34
+
+
+[PAGE 36]
+Figure 8: Partial Correlation Between Trade and Growth
+y = 0.4747x - 2E-1 1 
+0.08
+D 
+R = 0.0223 
+o CHN2
+0.06 -
+KORI
+0 
+O HK 
+ss 
+2
+Eo 
+IN 
+2l 
+tX 
+01' 
+0 
+G;B2 
+X1
+E o
+O GMB1 
+0 ZMB2 
+0 
+ABN 
+0 ARG1
+0 
+0.06
+0
+-0.04 
+-0.03 
+-0.02 
+-0.01 
+0 
+0.01 
+0.02
+Orthogonal Component of Fitted Trade
+Notes: This graph reports the partial scatter from the second-stage regression of the two-
+stage least squares results reported in column (2) of Table 6. Fitted trade and fitted growth
+refer to the fitted values from the first-stage regression. Orthogonal component refers to the
+standard technique used to construct partial scatters from an OLS regression. Variable
+definitions and data sources are reported in Table 8.
+35
+
+
+[PAGE 37]
+Table 1: Post-1980 Globalizers
+(Based on Increases in Trade Volumes)
+Average Annual Per Capita GDP Growth (Perrent) 
+Average Trade/GDP (Percent) 
+Weighted Average Taiff Rate
+1970s 
+1975s 
+S0aQ 
+1985s 
+1 990s 
+1995s 
+1970s 
+1975s 
+1980s 
+1985 
+1990S 
+1995s 
+1985s 
+1990s 
+199!s
+ARGENTINA 
+2.3% 
+1.0% 
+-3.2% 
+-2.0% 
+6.8% 
+5.2% 
+11.3% 
+13.2% 
+16.4% 
+15.5% 
+23.7% 
+32.9% 
+27.5 
+13.9 
+11.0
+BANGLADESH 
+-7.0% 
+3.2% 
+1.2% 
+3.1% 
+3.4% 
+3.7% 
+10.3% 
+11.8% 
+13.8% 
+14.0% 
+18.6% 
+26.7% 
+92.7 
+54.3 
+26.0
+BRAZIL 
+8.8% 
+3.8% 
+-2.9% 
+1.5% 
+0.9% 
+1.6% 
+11.1% 
+10.7% 
+10.3% 
+10.5% 
+13.5% 
+17.9% 
+45.8 
+21.0 
+11.5
+CHINA 
+1.4% 
+3.4% 
+3.9% 
+1.7% 
+8.6% 
+7.8% 
+12.5% 
+14.1% 
+26.7% 
+28.5% 
+30.1% 
+34.2% 
+38.8 
+39.9 
+20.9
+COLOMBIA 
+4.0% 
+3.5% 
+0.0% 
+2.5% 
+2.4% 
+0.6% 
+33.8% 
+30.9% 
+33.4% 
+33.1% 
+45.0% 
+58.9% 
+29.4 
+16.6 
+12.2
+COSTA RICA 
+3.4% 
+3.6% 
+-3.6% 
+2.0% 
+2.0% 
+-0.1% 
+74.5% 
+77.1% 
+71.3% 
+82.0% 
+108.3% 
+128.1% 
+19.5 
+12.6 
+11.2
+DOMINICAN REP. 
+7.6% 
+1.7% 
+-2.1% 
+3.5% 
+1.8% 
+5.6% 
+38.7% 
+31.5% 
+41.3% 
+40.3% 
+56.3% 
+92.3% 
+.. 
+17.8 
+16.2
+HAITI 
+1.4% 
+3.4% 
+-3.4% 
+-2.2% 
+-7.3% 
+-0.3% 
+32.2% 
+43.0% 
+47.7% 
+50.8% 
+67.0% 
+98.9% 
+11.6 
+.. 
+10.0
+HUNGARY 
+5.9% 
+2.8% 
+1.2% 
+1.4% 
+-2.8% 
+3.3% 
+40.9% 
+47.1% 
+48.4% 
+52.7% 
+57.6% 
+74.0% 
+18.0 
+9.9 
+14.8
+INDIA 
+-1.2% 
+0.7% 
+3.3% 
+4.1% 
+2.6% 
+4.4% 
+12.7% 
+13.7% 
+15.9% 
+16.3% 
+17.0% 
+22.1% 
+99.4 
+61.9 
+38.3
+IVORYCOAST 
+1.6% 
+5.1% 
+-3.8% 
+-3.6% 
+-3.4% 
+3.3% 
+54.4% 
+52.7% 
+70.4% 
+67.5% 
+68.0% 
+76.4% 
+26.3 
+23.8 
+20.7
+JAMAICA 
+2.5% 
+-3.8% 
+-0.1% 
+3.4% 
+-0.8% 
+-2.7% 
+80.0% 
+75.9% 
+76.5% 
+106.6% 
+109.2% 
+125.9% 
+18.4 
+19.6 
+10.9
+JORDAN 
+8.2% 
+10.8% 
+1.1% 
+-4.3% 
+1.4% 
+-1.6% 
+.. 
+94.2% 
+118.2% 
+104.0% 
+162.2% 
+166.2% 
+16.3 
+15.8 
+16.0
+MALAYSIA 
+6.5% 
+6.6% 
+3.8% 
+3.0% 
+5.8% 
+5.4% 
+89.3% 
+91.7% 
+106.8% 
+120.8% 
+173.9% 
+219.8% 
+14.9 
+14.3 
+8.9
+MALI 
+0.8% 
+4.5% 
+-1.3% 
+1.1% 
+-1.8% 
+2.3% 
+28.6% 
+29.9% 
+42.8% 
+51.3% 
+51.6% 
+51.3% 
+.. 
+.. 
+18.8
+MEXICO 
+4.5% 
+3.3% 
+-2.3% 
+-0.2% 
+2.4% 
+4.2% 
+17.0% 
+17.7% 
+21.2% 
+23.2% 
+33.5% 
+49.9% 
+16.7 
+12.8 
+12.8
+NEPAL 
+0.7% 
+11.0% 
+1.0% 
+2.0% 
+3.0% 
+2.2% 
+16.5% 
+25.4% 
+31.0% 
+32.2% 
+42.0% 
+60.3% 
+21.8 
+16.1 
+11.0
+NICARAGUA 
+2.7% 
+-9.8% 
+0.5% 
+-7.5% 
+-2.2% 
+.. 
+49.1% 
+52.9% 
+65.6% 
+51.0% 
+68.5% 
+85.1% 
+22.1 
+12.7 
+10.7
+PARAGUAY 
+3.7% 
+5.2% 
+-4.2% 
+-0.7% 
+1.0% 
+-0.2% 
+28.2% 
+32.1% 
+32.0% 
+37.8% 
+77.3% 
+99.4% 
+10.9 
+13.1 
+9.3
+PHILIPPINES 
+3.1% 
+3.3% 
+-3.1% 
+2.9% 
+-0.6% 
+3.1% 
+40.5% 
+41.6% 
+52.2% 
+56.2% 
+75.5% 
+106.1% 
+27.8 
+24.5 
+17.2
+RWANDA 
+-0.9% 
+2.8% 
+0.4% 
+-1.5% 
+-14.9% 
+0.3% 
+19.1% 
+22.9% 
+26.4% 
+29.5% 
+46.5% 
+37.4% 
+33.0 
+38.4
+THAILAND 
+1.8% 
+6.2% 
+3.0% 
+6.9% 
+6.0% 
+1.5% 
+47.4% 
+47.1% 
+49.8% 
+59.1% 
+84.6% 
+94.6% 
+41.0 
+36.6 
+23.1
+URUGUAY 
+0.1% 
+2.8% 
+-6.3% 
+4.1% 
+4.9% 
+4.3% 
+35.5% 
+42.6% 
+47.3% 
+50.0% 
+66.4% 
+84.3% 
+33.7 
+18.9 
+9.6
+ZIMBABWE 
+5.8% 
+-3.1% 
+0.0% 
+-0.9% 
+0.4% 
+3.1% 
+43.8% 
+44.2% 
+44.8% 
+59.4% 
+77.1% 
+9.2 
+17.2 
+21.5
+Notes: Variable definitions and data sources are reported in Table 8.
+36
+
+
+[PAGE 38]
+Table 2: Post-1980 Globalizers
+(Based on Reductions in Tariffs)
+Aveprae Annual Per Capita GDP Growth (Percent) 
+Average TradeP/DP (Percent) 
+Weighted Average Tariff Rate
+COUNTRY 
+1970s 
+1975s 
+1980s 
+1985s 
+1990s 
+1995s 
+197(s 
+1975s 
+19R0S 
+1985 
+1990Ss 
+1995s 
+i1S 
+1990s 
+199I5s
+ARGENTINA 
+2.3% 
+1.0% 
+-3.2% 
+-2.0% 
+6.8% 
+5.2% 
+11.3% 
+13.2% 
+16.4% 
+15.5% 
+23.7% 
+32.9% 
+27.5 
+13.9 
+11.0
+BANGLADESH 
+-7.0% 
+3.2% 
+1.2% 
+3.1% 
+3.4% 
+3.7% 
+10.3% 
+11.8% 
+13.8% 
+14.0% 
+18.6% 
+26.7% 
+92.7 
+54.3 
+26.0
+BENIN 
+-0.2% 
+0.1% 
+-1.9% 
+-4.6% 
+1.4% 
+2.6% 
+78.7% 
+87.2% 
+88.7% 
+63.9% 
+51.8% 
+45.8% 
+42.8 
+41.0 
+12.7
+BRAZIL 
+8.8% 
+3.8% 
+-2.9% 
+1.5% 
+0.9% 
+1.6% 
+11.1% 
+10.7% 
+10.3% 
+10.5% 
+13.5% 
+17.9% 
+45.8 
+21.0 
+11.5
+BURKINA FASO 
+1.2% 
+2.6% 
+0.9% 
+1.2% 
+-0.9% 
+3.2% 
+42.4% 
+48.1% 
+48.5% 
+46.1% 
+43.1% 
+37.9% 
+60.8 
+28.5
+CAMEROON 
+2.9% 
+5.5% 
+4.0% 
+-2.2% 
+-7.2% 
+2.1% 
+53.6% 
+46.7% 
+59.3% 
+61.3% 
+68.5% 
+65.0% 
+32.0 
+18.6 
+18.1
+CENTRAL AFR.R. 
+-0.9% 
+0.9% 
+-3.2% 
+-1.9% 
+-2.8% 
+-0.2% 
+40.7% 
+43.1% 
+48.1% 
+44.3% 
+46.9% 
+42.1% 
+32.0 
+18.6
+CHINA 
+1.4% 
+3.4% 
+3.9% 
+1.7% 
+8.6% 
+7.8% 
+12.5% 
+14.1% 
+26.7% 
+28.5% 
+30.1% 
+34.2% 
+38.8 
+39.9 
+20.9
+COLOMBIA 
+4.0% 
+3.5% 
+0.0% 
+2.5% 
+2.4% 
+0.6% 
+33.8% 
+30.9% 
+33.4% 
+33.1% 
+45.0% 
+58.9% 
+29.4 
+16.6 
+12.2
+DOMINICA 
+5.7% 
+5.9% 
+1.4% 
+1.8% 
+109.6% 
+108.9% 
+114.5% 
+118.5% 
+112.3% 
+31.9 
+28.0 
+15.0
+ECUADOR 
+8.3% 
+4.0% 
+-2.8% 
+-1.1% 
+1.1% 
+0.6% 
+49.8% 
+54.9% 
+46.9% 
+47.0% 
+52.5% 
+57.5% 
+34.3 
+10.6 
+11.7
+EGYPT 
+0.3% 
+4.1% 
+3.7% 
+-0.6% 
+0.1% 
+3.3% 
+84.0% 
+98.7% 
+83.6% 
+64.6% 
+61.6% 
+59.7% 
+39.7 
+35.3 
+28.1
+ETHIOPIA 
+0.3% 
+0.8% 
+-0.3% 
+1.9% 
+-1.2% 
+5.0% 
+27.7% 
+28.6% 
+22.9% 
+25.4% 
+29.6 
+28.8 
+16.3
+INDIA 
+-1.2% 
+0.7% 
+3.3% 
+4.1% 
+2.6% 
+4.4% 
+12.7% 
+13.7% 
+15.9% 
+16.3% 
+17.0% 
+22.1% 
+99.4 
+61.9 
+38.3
+INDONESIA 
+5.5% 
+5.6% 
+5.7% 
+2.5% 
+4.3% 
+4.5% 
+58.0% 
+69.4% 
+60.1% 
+48.6% 
+50.2% 
+57.0% 
+27.9 
+20.1 
+13.2
+KENYA 
+9.2% 
+2.7% 
+-2.2% 
+3.5% 
+-0.6% 
+0.6% 
+109.5% 
+79.9% 
+56.6% 
+51.4% 
+60.7% 
+78.2% 
+39.4 
+33.3 
+13.5
+NICARAGUA 
+2.7% 
+-9.8% 
+0.5% 
+-7.5% 
+-2.2% 
+.. 
+49.1% 
+52.9% 
+65.6% 
+51.0% 
+68.5% 
+85.1% 
+22.1 
+12.7 
+10.7
+PAKISTAN 
+-2.4% 
+3.3% 
+2.1% 
+2.5% 
+0.8% 
+-0.3% 
+47.6% 
+37.1% 
+35.7% 
+33.4% 
+34.9% 
+34.5% 
+69.2 
+59.8 
+41.7
+PERU 
+3.4% 
+-3.1% 
+-2.8% 
+-3.3% 
+2.7% 
+3.0% 
+47.0% 
+43.7% 
+45.3% 
+37.8% 
+44.3% 
+52.7% 
+45.0 
+19.0 
+13.3
+THAILAND 
+1.8% 
+6.2% 
+3.0% 
+6.9% 
+6.0% 
+1.5% 
+47.4% 
+47.1% 
+49.8% 
+59.1% 
+84.6% 
+94.6% 
+41.0 
+36.6 
+23.1
+UGANDA 
+-0.8% 
+-1.9% 
+1.9% 
+0.4% 
+1.6% 
+4.2% 
+35.3% 
+37.8% 
+31.4% 
+43.1% 
+25.0 
+17.1 
+13.0
+URUGUAY 
+0.1% 
+2.8% 
+-6.3% 
+4.1% 
+4.9% 
+4.3% 
+35.5% 
+42.6% 
+47.3% 
+50.0% 
+66.4% 
+84.3% 
+33.7 
+18.9 
+9.6
+VENEZUELA 
+-1.1% 
+2.2% 
+-3.7% 
+-1.3% 
+2.3% 
+0.2% 
+61.4% 
+51.5% 
+42.6% 
+42.8% 
+47.2% 
+54.7% 
+31.1 
+15.8 
+12.7
+ZAMBIA 
+2.0% 
+-6.9% 
+-4.0% 
+-1.7% 
+-1.4% 
+2.4% 
+194.2% 
+145.8% 
+98.3% 
+87.6% 
+78.9% 
+78.3% 
+29.9 
+26.4 
+17.0
+Notes: Variable definitions and data sources are reported in Table 8.
+37
+
+
+[PAGE 39]
+Table 3: Summary Statistics on Rich Countries, Globalizers, and Non-Globalizers
+1960s 
+1970s 
+1980s 
+1990S 
+1 960's 
+1970s 
+1o 
+1 99as 
+1960s 
+1970s 
+1980s 
+1990s
+Average Trade Volumes
+Rich Countries 
+Simple 
+41.7% 
+57.7% 
+73.0% 
+96.6% 
+41.7% 
+57.7% 
+73.0% 
+96.6% 
+41.7% 
+57.7% 
+73.0% 
+96.6%
+Rich Countries 
+Weighted 
+20.5% 
+29.3% 
+36.8% 
+50.0% 
+20.5% 
+29.3% 
+36.8% 
+50.0% 
+20.5% 
+29.3% 
+36.8% 
+50.0%
+Globalizers 
+Simple 
+36.1% 
+37.9% 
+47.7% 
+72.4% 
+50.9% 
+52.2% 
+46.9% 
+51.7% 
+26.4% 
+25.6% 
+31.0% 
+45.8%
+Globalizers 
+Weighted 
+15.7% 
+16.0% 
+24.7% 
+32.6% 
+19.8% 
+20.9% 
+27.1% 
+31.4% 
+14.5% 
+14.2% 
+22.5% 
+27.8%
+Non-Globalizers 
+Simple 
+64.3% 
+71.7% 
+68.2% 
+63.9% 
+69.3% 
+70.5% 
+74.5% 
+76.7% 
+63.4% 
+63.8% 
+60.8% 
+71.0%
+Non-Globalizers 
+Weighted 
+49.7% 
+59.9% 
+51.8% 
+49.1% 
+31.4% 
+40.4% 
+50.9% 
+63.6% 
+47.6% 
+56.6% 
+52.8% 
+58.5%
+Average Tariffs
+Rich Countries 
+Simple 
+14.6% 
+7.4% 
+14.6% 
+7.4% 
+14.6% 
+7.4%
+Rich Countries 
+Weighted 
+5.0% 
+5.0% 
+5.0% 
+5.0% 
+5.0% 
+5.0%
+Globalizers 
+Simple 
+32.7% 
+19.5% 
+44.3% 
+23.4% 
+51.4% 
+24.4%
+Globalizers 
+Weighted 
+57.4% 
+34.5% 
+57.6% 
+34.7% 
+61.3% 
+36.6%
+Non-Globalizers 
+Simple 
+30.1% 
+20.6% 
+21.0% 
+16.5% 
+27.3% 
+19.6%
+Non-Globalizers 
+Weighted 
+30.6% 
+20.3% 
+21.0% 
+17.3% 
+32.6% 
+22.6%
+Average Growth
+Rich Countries 
+Simple 
+4.4% 
+3.6% 
+2.6% 
+2.4% 
+4.4% 
+3.6% 
+2.6% 
+2.4% 
+4.4% 
+3.6% 
+2.6% 
+2.4%
+Rich Countries 
+Weighted 
+4.7% 
+3.1% 
+2.3% 
+2.2% 
+4.7% 
+3.1% 
+2.3% 
+2.2% 
+4.7% 
+3.1% 
+2.3% 
+2.2%
+Globalizers 
+Simple 
+2.3% 
+3.1% 
+0.5% 
+2.0% 
+2.0% 
+1.8% 
+1.0% 
+2.1% 
+2.5% 
+2.3% 
+1.4% 
+3.8%
+Globalizers 
+Weighted 
+1.4% 
+2.9% 
+3.5% 
+5.0% 
+1.4% 
+2.8% 
+3.6% 
+4.9% 
+1.3% 
+2.8% 
+3.8% 
+5.4%
+Non-Globalizers 
+Simple 
+2.5% 
+2.4% 
+0.1% 
+0.6% 
+3.1% 
+3.1% 
+-0.4% 
+0.9% 
+2.2% 
+2.8% 
+-0.1% 
+0.8%
+Non-Globalizers 
+Weighted 
+2.4% 
+3.3% 
+0.8% 
+1.4% 
+2.5% 
+4.2% 
+-0.6% 
+1.1% 
+2.3% 
+3.9% 
+0.8% 
+1.8%
+Notes: Weighted averages use population weights. Variable definitions and data sources are reported in Table 8.
+38
+
+
+[PAGE 40]
+Table 4: Changes in Inequality in Globalizers
+Gini Coefficient 
+Real Income Growth
+Initial 
+Final 
+Average 
+Poorest Quintile
+Argentina 
+#N/A 
+#N/A 
+#N/A 
+#N/A
+Bangladesh 
+28.9 (1989) 
+33.6 (1996) 
+3.1% 
+1.8%
+Benin 
+#N/A 
+#N/A 
+#N/A 
+#N/A
+Brazil 
+57.8 (1980) 
+60 (1996) 
+0.1% 
+-0.8%
+Burkina Faso 
+#N/A 
+#N/A 
+#N/A 
+#N/A
+Cameroon 
+#N/A 
+#N/A 
+#N/A 
+#N/A
+Central African Republic 
+#N/A 
+#N/A 
+#N/A 
+#N/A
+China 
+32 (1980) 
+40.3 (1998) 
+5.4% 
+3.8%
+Colombia 
+54.5 (1978) 
+57.1 
+(1996) 
+1.6% 
+1.4%
+Costa Rica 
+47.5 (1981) 
+47 (1996) 
+0.6% 
+1.8%
+Dominica 
+#N/A 
+#N/A 
+#N/A 
+#N/A
+Dominican Republic 
+43.3 (1984) 
+48.7 (1996) 
+1.3% 
+-0.8%
+Ecuador 
+43.9 (1988) 
+43.7 (1995) 
+0.3% 
+3.2%
+Eqypt 
+#N/A 
+#N/A 
+#N/A 
+#N/A
+Ethiopia 
+32.4 (1981) 
+40 (1995) 
+0.2% 
+-1.1%
+Haiti 
+#N/A 
+#N/A 
+#N/A 
+#N/A
+Hungary 
+24.2 (1987) 
+24.6 (1997) 
+-0.8% 
+-1.4%
+India 
+31.5 (1983) 
+29.7 (1994) 
+3.2% 
+3.8%
+Indonesia 
+33.1 
+(1987) 
+31.5 (1999) 
+2.5% 
+3.0%
+Ivory Coast 
+41.2 (1985) 
+36.7 (1995) 
+-3.4% 
+-1.2%
+Jamaica 
+43.2 
+(1988) 
+36.4 (1996) 
+-0.2% 
+3.2%
+Jordan 
+36.1 
+(1986) 
+36.4 (1997) 
+-2.0% 
+-1.6%
+Kenya 
+#N/A 
+#N/A 
+#N/A 
+#N/A
+Malaysia 
+51 (1979) 
+48.5 (1995) 
+4.3% 
+5.4%
+Mali 
+36.5. (1989) 
+50.5 (1994) 
+-2.6% 
+.11.0%
+Mexico 
+50.6 (1984) 
+53.7 (1995) 
+0.6% 
+-0.5%
+Nepal 
+#N/A 
+#N/A 
+#N/A 
+#N/A
+Nicaragua 
+#N/A 
+#N/A 
+#N/A 
+#N/A
+Pakistan 
+33.5 (1987) 
+31.2 (1996) 
+1.6% 
+3.0%
+Paraguay 
+#N/A 
+#N/A 
+#N/A 
+#N/A
+Peru 
+45.7 (1985) 
+46.2 (1997) 
+0.5% 
+-0.4%
+Philippines 
+46.1 
+(1985) 
+45.1 (1994) 
+1.2% 
+2.6%
+Rwanda 
+#N/A 
+#N/A 
+#N/A 
+#N/A
+Thailand 
+45.2 (1980) 
+41.4 (1998) 
+4.0% 
+4.7%
+Uganda 
+33 (1989) 
+35.8 (1997) 
+2.9% 
+1.6%
+Uruguay 
+#N/A 
+#N/A 
+#N/A 
+#N/A
+Venezuela 
+55.6 (1981) 
+48.8 (1996) 
+-0.6% 
+0.5%
+Zambia 
+#N/A 
+#N/A 
+#N/A 
+#N/A
+Zimbabwe 
+#N/A 
+#N/A 
+#N/A 
+#N/A
+Notes: Real income growth refers to constant price growth rates of real GDP per capita.
+Growth rates of incomes of the poor are equal to growth rates of real per capita GDP plus the
+growth rate of the share of income accruing to the poorest quintile. Variable definitions and
+data sources are reported in Table 8.
+Source: Based on data reported in Dollar and Kraay (2001).
+39
+
+
+[PAGE 41]
+Table 5: Correlations of Trade Volumes with Other Growth Determinants
+Levels
+1970s 
+1980s 
+1990s
+Government Consumption/GDP 
+0.39 
+0.31 
+0.21
+log(1+Inflation Rate) 
+-0.18 
+-0.27 
+-0.07
+Average Number of Revolutions 
+-0.23 
+-0.16 
+-0.09
+Rule of Law 
+0.14 
+0.22 
+0.30
+Changes
+1970s-1980s 
+1980s-1990s
+Government Consumption/GDP 
+0.03 
+0.18
+log(1 +Inflation Rate) 
+-0.11 
+-0.18
+Average Number of Revolutions 
+-0.06 
+0.03
+Rule of Law
+Notes: Variable definitions and data sources are reported in Table 8.
+40
+
+
+[PAGE 42]
+Table 6: Trade and Growth Regressions
+(1) 
+(2) 
+(3) 
+(4) 
+(5) 
+(6) 
+(7) 
+(8)
+OLS 
+IV 
+IV 
+IV 
+IV 
+IV 
+IV 
+IV
+Initial Income 
+0.419 
+0.783 
+0.58 
+0.369 
+1.587 
+0.765 
+0.960 
+0.455
+(0.071)**. 
+(0.297)... 
+0.257** 
+0.435 
+0.984 
+(0.367)** 
+(0.397)** 
+(0.751)
+Trade Volume 
+0.252 
+0.475 
+0.345 
+0.514 
+0.543 
+-0.207
+(0.095)*** 
+(0.175)**' 
+0.22 
+(0.187)** 
+(0.210)*** 
+(0.397)
+FDI/GDP 
+13.53 
+13.089
+5.283*** 
+9.302
+Investment/GDP 
+2.834
+5.193
+Contract-Intensive 
+0.232
+Money 
+(0.410)
+Government Cons/GDP 
+-1.164 
+3.472
+(1.009) 
+(2.614)
+log(1 +Inflation Rate) 
+-0.142 
+-0.967
+(0.152) 
+(0.712)
+Revolutions 
+-0.025 
+-0.305
+(0.084) 
+(0.417)
+#Obs 
+187 
+187 
+199 
+164 
+241 
+153 
+173 
+173
+* (**) (*) indicate significance at the 10 (5) (1) percent level
+All regressions include period dummies (not reported).
+Notes: Variable definitions and data sources are reported in Table 8.
+41
+
+
+[PAGE 43]
+Table 7: Growth and Incomes of the Poor
+(Dependent Variable is ln(Per Capita Income in the Bottom Quintile))
+Trade 
+Government 
+log(1+lnflation 
+Financial 
+Rule of Law 
+All Growth
+Volumes 
+Consumption/GDP 
+Rate) 
+Development 
+Index 
+Variables
+Coef 
+Std-Err 
+Coef 
+StdErr 
+Coef 
+Std,Er 
+Coef 
+StdErr 
+Coef 
+StdErr 
+Coef 
+Std.Err
+ln(Per Capita GDP) 
+1.094 
+0.108 
+1.050 
+0.085 
+1.020 
+0.089 *** 
+0.995 
+0.119 
+0.914 
+0.105 
+1.140 
+0.100
+(Exports+lmports)/GDP 
+-0.039 
+0.088 
+0.023 
+0.056
+Govemment Consumption 
+-0.571 
+0.419 
+-0.746 
+0.386
+/GDP
+ln(1 +Inflation) 
+-0.136 
+0.103 
+-0.163 
+0.107
+Commercial Bank Assets 
+0.032 
+0.257 
+-0.209 
+0.172
+/Total Bank Assets
+Rule of Law 
+0.084 
+0.069 
+-0.032 
+0.060
+P-Ho: a1=1 
+0.386 
+0.555 
+0.825 
+0.968 
+0.412 
+0.164
+P-OID 
+0.257 
+0.168 
+0.159 
+0.350 
+0.279 
+0.393
+T-NOSC 
+-0.751 
+-0.506 
+-0.261 
+-0.698 
+-0.945 
+-0.762
+# Observations 
+223 
+237 
+253 
+232 
+268 
+189
+Source: Dollar and Kraay (2001), Table 5.
+Notes: All regressions include regional dummies. The row labelled P-Ho: al=l reports the p-value associated with the test of the null hypothesis that a,x=l. The row labelled
+P-OID reports the P-value associated with the test of overidentifying restrictions. The row labelled T-NOSC reports the t-statistic for the test of no second-order serial
+correlation in the differened residuals. Standard errors are corrected for heteroskedasticity and for the first-order autocorrelation induced by first differencing using a
+standard Newey -West procedure.
+42
+
+
+[PAGE 44]
+Table 8: Variable Definitions and Data Sources
+Variable 
+Source 
+Comments
+(Exports + Imports)/GDP 
+World Bank Data 
+Numerator and denominator are in
+constant local currency units.
+Real GDP Per Capita 
+Summers and Heston Penn World 
+Constant 1985 US dollars. Extended
+Tables, World Bank Data 
+to 1998 using constant price local
+currency growth rates. Extended cross-
+sectionally as described in Kraay,
+Loayza, Serven and Ventura (2000).
+Population 
+Wordd Bank Data 
+Mid-Year population
+Tariffs 
+Sources: WTO, IDB database and 
+All tariff rates are based on unweighted
+Trade Policy Review - Country 
+averages for all goods in ad valorem
+Report, Various issues, 1990-2000; 
+rates, or applied rates, or MFN rates
+UNCTAD, Handbook of Trade Control 
+whichever data are available in a
+Measures of Developing Countries -
+longer period.
+Supplement, 1987 and Directory of
+Import Regimes, 1994; World Bank,
+Trade Policy Reform in Developing
+Countries since 1985, WB Discussion
+Paper #267, 1994, The Uruguay
+Round: Statistics on Tariffs
+Concessions Given and Received,
+1996 and World Development
+Indicators, 1998-99; OECD, Indicators
+of Tariff and Non-Tariff Trade
+Barriers, 1996; IDB, Statistics and
+Quantiative Analysis data, 1998.
+Data are available at
+http://wwwl.worldbank.org/wbiep/trad
+e/TR_Data.html
+First Quintile Share 
+UN-WIDER (2000), Deininger and 
+Directory of Import Regimes, 1994;
+Squire (1996), Ravalbon and Chen 
+Worid Bank, Trade Policy Reform in
+(2000), Lundberg and Squire (2000) 
+Developing Countries since 1985, WB
+Discussion Paper #267, 1994, The
+Uruguay Round: Statistics on Tariffs
+Concessions Given and Received,
+1996 and World Development
+Indicators, 1998-99; OECD, Indicators
+of Tariff and Non-Tariff Trade Barriers,
+1996; IDB, Statistics and Quanttative
+Analysis data, 1998.
+Gini Coefficient 
+UN-WIDER (2000), Deininger and 
+Combination of data from different
+Squire (1996), Ravallion and Chen 
+sources described in more detail in
+(2000), Lundberg and Squire (2000) 
+Dollar and Kraay (2001)
+lnvestmenVGDP 
+Summers and Heston Penn World 
+Constant 1985 US dollars. Extended
+Tables, World Bank Data 
+to 1998 using constant price local
+currency growth rates. Extended cross-
+sectionally as described in Kraay,
+Loayza, Serven and Ventura (2000).
+Contract-intensive Money 
+IMF Intemational Financial Statistics 
+1 -currency in circulation/M2, as
+described in Clague et. al. (1999).
+Govemment Consumption / GDP 
+World Bank Data 
+Numerator and denominator are in
+current local currency units.
+ln(1+inflation) 
+World Bank Data 
+Inflation is CPI-based where available,
+otherwise use growth of GDP deflator.
+43
+
+
+[PAGE 45]
+References
+Ades, Alberto and Edward Glaeser (1999). "Evidence on Growth, Increasing Returns, and the Extent of
+theMarket". Quarterly Journal of Economics. 114(3):1025-1046.
+Arellano, M. and 0. Bover (1995). "Another Look at the Instrumental-Variable Estimation of Error-
+Components Models". Journal of Econometrics. 68:29-52.
+Arellano, M. and 0. Bover (1995). "Another Look at the Instrumental-Variable Estimation of Error-
+Components Models". Journal of Econometrics. 68:29-52.
+Blundell, Richard and Stephen Bond (1998). "Initial Conditions and Moment Restrictions in Dynamic
+Panel Data Models." Journal of Econometrics, 87:115-143.
+Caselli, Francesco, Gerardo Esquivel and Fernando Lefort (1996). "Reopening the Convergence Debate:
+A New Look at Cross-Country Growth Empirics". Journal of Economic Growth 1: 363-389.
+Chen, Shaohua and Martin Ravallion (1997). "What Can New Survey Data Tell Us about Recent
+Changes in Distribution and Poverty?" The World Bank Economic Review, 1(2):357-382.
+Clague, Christopher, Philip Keefer, Stephen Knack, and Mancur Olson (1999). "Contract-Intensive
+Money: Contract Enforcement, Property Rights, and Economic Performance". 
+Journal of
+Economic Growth. 4:185-211.
+Clerides, Sofronis, Saul Lach, and James Tybout (1997). ). "Is Learning-by-Exporting" Important?
+Micro Dynamic Evidence from Colombia, Mexico and Morocco". Quarterly Journal of
+Economics. 103(3):903-948.
+Deininger, Klaus and Lyn Squire (1996). "A New Data Set Measuring Income Inequality." The World
+Bank Economic Review, 10(3):565-591.
+Desai, Padma, ed. (1997). Going global: Transition from Plan to Market in the World Economy. MIT
+Press.
+Dollar, David (1992). "Outward-Oriented Developing Countries Really Do Grow More Rapidly:
+Evidence from 95 LDCs, 1976-85," Economic Development and Cultural Change, April, 523-
+544.
+Dollar, David and Aart Kraay, (2001), "Growth Is Good for the Poor," World Bank Policy Research
+Working Paper.
+Dollar, David and Pablo Zoido-Lobat6n (2001). "Patterns of Globalization," mimeo., Development
+Research Group, World Bank.
+Edwards, Sebastian (1992). "Trade Orientation, Distortions, and Growth in Developing Countries,"
+Journal of Development Economics 39(1): 31-57.
+44
+
+
+[PAGE 46]
+Frankel, Jeffrey A. and David Romer (1999). "Does Trade Cause Growth?" The American Economic
+Review, (June) 379-399.
+Levine, Ross, and David Renelt (1992). "A Sensitivity Analysis of Cross-Country Growth Regressions,"
+American Economic Review, September, 82(4): pp. 942-963.
+Pritchett, Lant (1996). "Measuring Outward Orientation in LDCs: Can It Be Done?". Journal of
+Development Economics. 49(2):307-35.
+Rodriguez, Francisco and Dani Rodrik (2000). "Trade Policy and Economic Growth: A Skeptic's Guide
+to the Cross-National Evidence." Macroeconomics Annual 2000, Ben Bemanke and Kenneth
+Rogoff, eds., MIT Press for NBER.
+Rodrik, Dani (1998). Why Do More Open Economies Have Bigger Governments?. Journal of Political
+Economy. 106(5):997-1032.
+Rodrik, Dani, (1999). Making Openness Work: The New global Economy and the Developing Countries.
+Overseas Development Council.
+Rodrik, Dani (2000). "Trade Policy Reform as Institutional Reform". Manuscript, Harvard University.
+Sachs, Jeffrey D. and Andrew Warner (1995). "Economic Reform and the Process of Global
+Integration." Brookings Papers on Economic Activity, (1), 1-118.
+Srinivasan, T.N., and Jadgish Bhagwati, (1999). "Outward-Orientation and Development: Are
+Revisionists Right?" Yale U. mimeo.
+Summers, Robert and Alan Heston (1991). "The Penn World Table (Mark 5): An Expanded Set of
+International Comparisons, 1950-88." Quarterly Journal of Economics, (May) 106(2), 327-68.
+45

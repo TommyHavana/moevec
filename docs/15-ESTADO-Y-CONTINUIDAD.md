@@ -2,27 +2,27 @@
 
 ## Estado actual
 
-**465/840 terminadas, 1395 imágenes originales públicas, 0 en curso o borradores WordPress y 375 pendientes**. Accesibilidad 15/15; 31 tandas completas y tanda 31 completa.
+**468/840 terminadas, 1404 imágenes originales públicas, 0 en curso o borradores WordPress y 372 pendientes**. Intercambio Equitativo 3/15; 31 tandas completas y tanda 32 en curso.
 
 Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Desde 453: entradas 454–465, 36 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
+Desde 453: entradas 454–468, 45 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
 
-Una publicación y tres adjuntos por ID; categorías Comunidad y Accesibilidad, etiquetas exactas. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales y variantes comprobados. Navegación y BreadcrumbList: Blog → área → subcategoría. Taxonomía: 122 nodos, siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva o posicionamiento.
+Una publicación y tres adjuntos por ID; categorías Comunidad y Intercambio Equitativo, etiquetas exactas. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales y variantes comprobados. Navegación y BreadcrumbList: Blog → área → subcategoría. Taxonomía: 122 nodos, siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva o posicionamiento.
 
 ## Revisión del último bloque
 
-Grupo de lectura: propuesta propia de formato y materiales, permisos distintos de acceso gratuito; Dennett2013pp2–3 atribuye Rapoport según memoria, EFFplancontextual sin seguridad garantizada. Personas mayores: INE2025uso3meses,65–74porsexos85,5/85,4%, no75+ ni habilidades; Androiddependeversión, INCIBEtexto primarioweb con descargalocalHTMLinválido registrada. Negocios:20comprobacionespropias, W3CEasyChecks no certificación, WCAG2.2versión12/12/2024 y guía pública microempresasPDFpp6/14 leídas visualmente; sin instrucciones deobra ni exención legal. Nueve originales nuevos revisados.
+Intercambio: Menger1871capIV en traducción, valoraciones distintas y costes, expectativa separada de resultado; MarxcapVIIplusvalía no reducida afraude. Ventajacomparativa: Ricardo1817cap7 cifras del supuesto no estadísticas, costes oportunidad y cálculo propio laboral; ADH2016abstractpublicado casoEEUU no situación2026. Preciojusto: AquinoII-II77respuestas distintas deobjeciones, traducciones Soto/Molina y estudioGrice1952 con lectura visual, Soto admitepreciolegal y no consensoantitasas atribuido aSalamanca; Smithmonopolio como argumento histórico no diagnósticoactual. Nueve originales nuevos revisados.
 
 ## Continuación exacta
 
-Siguiente **466–468 / E3.4.01–E3.4.03**, Comunidad → Intercambio Equitativo. Preparaciones incluidas en las 375 pendientes. E3.4.01: 0/3 imágenes locales; sin texto final, sin publicación; E3.4.02: 0/3 imágenes locales; sin texto final, sin publicación; E3.4.03: 0/3 imágenes locales; sin texto final, sin publicación. Después 469–471. Automatización activa, sin agotamiento comunicado.
+Siguiente **469–471 / E3.4.04–E3.4.06**, Comunidad → Intercambio Equitativo. Preparaciones incluidas en las 372 pendientes. E3.4.04: 3/3 imágenes locales; sin texto final, sin publicación; E3.4.05: 3/3 imágenes locales; sin texto final, sin publicación; E3.4.06: 3/3 imágenes locales; sin texto final, sin publicación. Después 472–474. Automatización activa, sin agotamiento comunicado.
 
 ## Copias y límites
 
-Respaldo VPS hasta 465: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
+Respaldo VPS hasta 468: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
 
 ## Traspaso
 
@@ -43,6 +43,7 @@ Verificación: `npm run build` con sincronización y TypeScript correctos; PHP l
 Publicación: fuente privada sincronizada y subida, commit de producto `1d84a45`. Actualización de la exportación estática en el contenedor Nginx activo y de los dos archivos WordPress, tanto en la ruta operativa como en `/opt/mee/`. No se reconstruyeron imágenes Docker ni se reiniciaron servicios; un siguiente build del repositorio incluye los cambios. Respaldo previo local completo: `../mee-backups/MEE_Codex_2026-10-29_183813.zip` (7657 archivos, integridad comprobada). Copia previa de React y de los archivos WordPress en `/data/mee-backups/apoyo-20261029T184226/`, gzip comprobado. No se ha probado una restauración arrancada de esta copia.
 
 Siguiente paso de esta petición: concretar el medio de donación y sus datos oficiales para activar pago directo. La producción editorial mantiene su continuidad independiente; esta tarea no modifica sus conteos, artículos, imágenes ni taxonomía.
+
 
 
 
