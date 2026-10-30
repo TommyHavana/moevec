@@ -2,27 +2,27 @@
 
 ## Estado actual
 
-**474/840 terminadas, 1422 imágenes originales públicas, 0 en curso o borradores WordPress y 366 pendientes**. Intercambio Equitativo 9/15; 31 tandas completas y tanda 32 en curso.
+**477/840 terminadas, 1431 imágenes originales públicas, 0 en curso o borradores WordPress y 363 pendientes**. Intercambio Equitativo 12/15; 31 tandas completas y tanda 32 en curso.
 
 Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Desde 471: entradas 472–474, 9 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
+Desde 471: entradas 472–477, 18 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
 
 Una publicación y tres adjuntos por ID; categorías Comunidad y Intercambio Equitativo, etiquetas exactas. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales y variantes comprobados. Navegación y BreadcrumbList: Blog → área → subcategoría. Taxonomía: 122 nodos, siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva o posicionamiento.
 
 ## Revisión del último bloque
 
-Comercio justo: reglas actuales Fairtrade separadas de evidencia; revisión NBER2014 y estudio CostaRica1999–2014 en versión agosto2021, sin artículo final2022 fingido ni beneficio universal. Trueque: Gómez2009solo ficha, artículo2012resumen/introducción/conclusión; bancos de tiempoUKreglas propias, WIRcondicionesenero2022con no reembolsoexigible y gastosCHF, Stodder2009solo resumeneditor, Bristol caso histórico preliminar2021 sin servicioactual. Creadores: seislicenciasCC y BY4.0, límites y continuidad; Fisher/Ury/Patton mediante fuentePONarchivada y releída, checklistMEE sin validezlegal universal. Nueve originales nuevos inspeccionados.
+Cuba: Decreto167 y Resoluciones102/103de2026, publicación10/09segúnPDFfrente a11en notasecundaria; normas separadas de disponibilidad y sin tasasantiguas comoactuales. MesaLago2021contexto, Kornai2014revisióncondiciónno suficiente y no exclusivamentesocialista. Negociación:Fisher/Ury/PattonporPON2026, Subramanian2011p8, sin descuentosefectivos o punto medio universal. Precios: plantillapropia,600+1200sobre60higual30 y5h+material20igual170 hipotéticos, no gasto fiscaldeducible ni tarifa; TGSS2026/AEAT ySATconadvertencias de orientación heredada. Nueve originales nuevos inspeccionados.
 
 ## Continuación exacta
 
-Siguiente **475–477 / E3.4.10–E3.4.12**, Comunidad → Intercambio Equitativo. Preparaciones incluidas en las 366 pendientes. E3.4.10: 0/3 imágenes locales; sin texto final, sin publicación; E3.4.11: 0/3 imágenes locales; sin texto final, sin publicación; E3.4.12: 0/3 imágenes locales; sin texto final, sin publicación. Después 478–480. Automatización activa, sin agotamiento comunicado.
+Siguiente **478–480 / E3.4.13–E3.4.15**, Comunidad → Intercambio Equitativo. Preparaciones incluidas en las 363 pendientes. E3.4.13: 0/3 imágenes locales; sin texto final, sin publicación; E3.4.14: 0/3 imágenes locales; sin texto final, sin publicación; E3.4.15: 0/3 imágenes locales; sin texto final, sin publicación. Después 481–483. Automatización activa, sin agotamiento comunicado.
 
 ## Copias y límites
 
-Respaldo VPS hasta 474: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
+Respaldo VPS hasta 477: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
 
 ## Traspaso
 
@@ -43,6 +43,7 @@ Verificación: `npm run build` con sincronización y TypeScript correctos; PHP l
 Publicación: fuente privada sincronizada y subida, commit de producto `1d84a45`. Actualización de la exportación estática en el contenedor Nginx activo y de los dos archivos WordPress, tanto en la ruta operativa como en `/opt/mee/`. No se reconstruyeron imágenes Docker ni se reiniciaron servicios; un siguiente build del repositorio incluye los cambios. Respaldo previo local completo: `../mee-backups/MEE_Codex_2026-10-29_183813.zip` (7657 archivos, integridad comprobada). Copia previa de React y de los archivos WordPress en `/data/mee-backups/apoyo-20261029T184226/`, gzip comprobado. No se ha probado una restauración arrancada de esta copia.
 
 Siguiente paso de esta petición: concretar el medio de donación y sus datos oficiales para activar pago directo. La producción editorial mantiene su continuidad independiente; esta tarea no modifica sus conteos, artículos, imágenes ni taxonomía.
+
 
 
 

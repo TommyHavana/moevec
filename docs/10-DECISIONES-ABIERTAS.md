@@ -1263,3 +1263,13 @@ Comercio justo: reglas actuales Fairtrade separadas de evidencia; revisión NBER
 Siguiente **475–477 / E3.4.10–E3.4.12**, Comunidad → Intercambio Equitativo. Preparaciones incluidas en las 366 pendientes. E3.4.10: 0/3 imágenes locales; sin texto final, sin publicación; E3.4.11: 0/3 imágenes locales; sin texto final, sin publicación; E3.4.12: 0/3 imágenes locales; sin texto final, sin publicación. Después 478–480. Automatización activa, sin agotamiento comunicado.
 
 Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.
+
+## Producción 475–477 · 31/10/2026
+
+477/840 terminadas, 1431 imágenes originales públicas, 0 en curso o borradores WordPress y 363 pendientes.
+
+Cuba: Decreto167 y Resoluciones102/103de2026, publicación10/09segúnPDFfrente a11en notasecundaria; normas separadas de disponibilidad y sin tasasantiguas comoactuales. MesaLago2021contexto, Kornai2014revisióncondiciónno suficiente y no exclusivamentesocialista. Negociación:Fisher/Ury/PattonporPON2026, Subramanian2011p8, sin descuentosefectivos o punto medio universal. Precios: plantillapropia,600+1200sobre60higual30 y5h+material20igual170 hipotéticos, no gasto fiscaldeducible ni tarifa; TGSS2026/AEAT ySATconadvertencias de orientación heredada. Nueve originales nuevos inspeccionados.
+
+Siguiente **478–480 / E3.4.13–E3.4.15**, Comunidad → Intercambio Equitativo. Preparaciones incluidas en las 363 pendientes. E3.4.13: 0/3 imágenes locales; sin texto final, sin publicación; E3.4.14: 0/3 imágenes locales; sin texto final, sin publicación; E3.4.15: 0/3 imágenes locales; sin texto final, sin publicación. Después 481–483. Automatización activa, sin agotamiento comunicado.
+
+Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobado, sin nueva prueba de arranque.

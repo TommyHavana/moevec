@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-30T23:18:36+00:00.
+Comprobado en WordPress: 2026-10-30T23:33:49+00:00.
 
-**474/840 terminadas · 0 en curso · 366 pendientes.**
+**477/840 terminadas · 0 en curso · 363 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -486,9 +486,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 472 | 32/56 · 7/15 | E3.4.07 | Comercio justo: buenas intenciones y resultados reales | terminada | 3/3 | [Leer](https://moevec.org/blog/comercio-justo-resultados/) |
 | 473 | 32/56 · 8/15 | E3.4.08 | Trueque y monedas comunitarias: intercambio sin dinero oficial | terminada | 3/3 | [Leer](https://moevec.org/blog/trueque-monedas-comunitarias/) |
 | 474 | 32/56 · 9/15 | E3.4.09 | Colaboraciones entre creadores: cómo repartir visibilidad y beneficios | terminada | 3/3 | [Leer](https://moevec.org/blog/colaboraciones-entre-creadores/) |
-| 475 | 32/56 · 10/15 | E3.4.10 | El intercambio en Cuba: mercados duales y escasez | pendiente | 0/3 | — |
-| 476 | 32/56 · 11/15 | E3.4.11 | Cómo negociar un precio sin perder la relación | pendiente | 0/3 | — |
-| 477 | 32/56 · 12/15 | E3.4.12 | Fijar el precio de tu trabajo: método sencillo | pendiente | 0/3 | — |
+| 475 | 32/56 · 10/15 | E3.4.10 | El intercambio en Cuba: mercados duales y escasez | terminada | 3/3 | [Leer](https://moevec.org/blog/intercambio-en-cuba-mercados-duales/) |
+| 476 | 32/56 · 11/15 | E3.4.11 | Cómo negociar un precio sin perder la relación | terminada | 3/3 | [Leer](https://moevec.org/blog/negociar-precio-sin-perder-relacion/) |
+| 477 | 32/56 · 12/15 | E3.4.12 | Fijar el precio de tu trabajo: método sencillo | terminada | 3/3 | [Leer](https://moevec.org/blog/fijar-el-precio-de-tu-trabajo/) |
 | 478 | 32/56 · 13/15 | E3.4.13 | Intercambio de servicios entre emprendedores: reglas para que funcione | pendiente | 0/3 | — |
 | 479 | 32/56 · 14/15 | E3.4.14 | Comprar en el barrio: el efecto multiplicador de lo local | pendiente | 0/3 | — |
 | 480 | 32/56 · 15/15 | E3.4.15 | Revisar una relación comercial: ¿sigue funcionando para ambos? | pendiente | 0/3 | — |
