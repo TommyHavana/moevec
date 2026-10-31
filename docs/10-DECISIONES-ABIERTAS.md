@@ -1575,3 +1575,13 @@ No se han borrado copias ni originales. 583–585 tienen9/9imágenes completas, 
 583: Friedman, reproducción de la versión posterior con antecedente1955, lectura parcial; Purdue no acepta solicitudes, CFPB2021 es otro caso y LaCaixa figura cerrada. No se anuncia oferta ni validez universal. 584: Besley/Coate/Loury1993 es modelo teórico, p792 y806–807; CONDUSEF distingue competencia institucional de posibles consecuencias legales, sin decir que toda tanda carezca de protección. 585: propuestaMEE en diseño, mérito por aporte como posición editorial y contacto general existente; sin inscripción, perfiles, emparejamiento o verificación operativos. Textos principales1056,1070,1114palabras, dos ejemplos hipotéticos y tresFAQ por entrada.
 
 Almacenamiento recuperado; checkpoint580 guardado y subido. Automatización vigente. Continuar **586–588 / E4.8.01–E4.8.03**, Trabajo → Diferenciación de Valor. Briefs y nueve prompts conservados; faltan imágenes, lectura primaria, textos y revisión. Después, **589–591**. **501/E4.2.06 y512/E4.3.02** conservan texto y tres imágenes, sin publicar por revisión de título pendiente; no repetir preguntas ni interpretar silencio como aprobación.
+
+
+## Continuación editorial586-588 ·31/10/2026
+
+**586/840 terminadas, 1758 imágenes originales públicas, 0 en curso o borradores WordPress y 254 pendientes**. Diferenciación de Valor3/15; 37 tandas completas.
+
+Fuentes y alcances por artículo en research-notes.md y source-review.json. 586: Porter distingue costes/diferenciación y enfoque; no se afirma que pequeños negocios nunca compitan por costes. 587: lienzo como hipótesis; no opiniones equiparadas a ventas. 588: metáfora sin ausencia permanente de rivales; Cirque como interpretación de autores, sin cifras históricas trasladadas al presente. Portada586 recuperada delVPS con hash, sin regenerarla; ocho imágenes nuevas.
+
+Continuar **589–591 / E4.8.04–E4.8.06**, Trabajo → Diferenciación de Valor. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **592–594**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Automatización cada tres minutos ya configurada. No se han borrado copias ni originales.

@@ -2,29 +2,33 @@
 
 ## Estado actual
 
-**583/840 terminadas, 1749 imágenes originales públicas, 0 en curso o borradores WordPress y 257 pendientes**. Mentoría e Inversión en Otros15/15; 37 tandas completas.
+**586/840 terminadas, 1758 imágenes originales públicas, 0 en curso o borradores WordPress y 254 pendientes**. Diferenciación de Valor3/15; 37 tandas completas.
 
 Fuente activa `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Inicio580; tres entradas nuevas583–585 y nueve originales públicos.
+Inicio583; 3 nuevas entradas y9originales públicos.
+
+| Global | ID | URL | Imágenes |
+|---|---|---|---|
+|586|E4.8.01|https://moevec.org/blog/diferenciarse-o-competir-en-precio/|3/3|
+|587|E4.8.02|https://moevec.org/blog/propuesta-de-valor/|3/3|
+|588|E4.8.03|https://moevec.org/blog/oceano-azul/|3/3|
 
 ## Revisión del último bloque
 
-583: Friedman, reproducción de la versión posterior con antecedente1955, lectura parcial; Purdue no acepta solicitudes, CFPB2021 es otro caso y LaCaixa figura cerrada. No se anuncia oferta ni validez universal. 584: Besley/Coate/Loury1993 es modelo teórico, p792 y806–807; CONDUSEF distingue competencia institucional de posibles consecuencias legales, sin decir que toda tanda carezca de protección. 585: propuestaMEE en diseño, mérito por aporte como posición editorial y contacto general existente; sin inscripción, perfiles, emparejamiento o verificación operativos. Textos principales1056,1070,1114palabras, dos ejemplos hipotéticos y tresFAQ por entrada.
+Fuentes y alcances por artículo en research-notes.md y source-review.json. 586: Porter distingue costes/diferenciación y enfoque; no se afirma que pequeños negocios nunca compitan por costes. 587: lienzo como hipótesis; no opiniones equiparadas a ventas. 588: metáfora sin ausencia permanente de rivales; Cirque como interpretación de autores, sin cifras históricas trasladadas al presente. Portada586 recuperada delVPS con hash, sin regenerarla; ocho imágenes nuevas.
 
 ## Continuación exacta
 
-Continuar **586–588 / E4.8.01–E4.8.03**, Trabajo → Diferenciación de Valor. Briefs y nueve prompts conservados; faltan imágenes, lectura primaria, textos y revisión. Después, **589–591**. **501/E4.2.06 y512/E4.3.02** conservan texto y tres imágenes, sin publicar por revisión de título pendiente; no repetir preguntas ni interpretar silencio como aprobación.
+Continuar **589–591 / E4.8.04–E4.8.06**, Trabajo → Diferenciación de Valor. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **592–594**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
 
-## Copias y recuperación del almacenamiento
+## Copias y capacidad
 
-VPS `/data/mee-backups/produccion-840-incremento-583-585-20261031`: SQL22990570B,66medios nuevos. Cadena183más base, huecos501/512. Hashes y miembros del archivo comprobados; sin nueva prueba de arranque de restauración.
+VPS `/data/mee-backups/produccion-840-incremento-586-588-20261031`: SQL23086464B, 66medios nuevos. Cadena184más base, huecos501/512. Hashes y miembros comprobados; sin nueva prueba de arranque de restauración. ZIP local incremental y prueba de entrega externos, con toda la cadena anterior conservada.
 
-ZIP local incremental y hash en la prueba de entrega externa, con cadena anterior preservada. Sin copias completas duplicadas.
-
-El margen local se recuperó y el checkpoint de interrupción580 quedó guardado y subido al repositorio privado, commit3ccfc392. No se borraron copias ni originales como parte de esta ejecución. El espacio sigue sujeto a comprobación antes de generar imágenes o respaldos.
+Margen local limitado. Comprobar espacio antes de cada generación y copia; escrituras comprobadas en esta ejecución con menos de512MiB. Umbral operativo200MiB antes de generar, y copias proporcionales con margen calculado; conservar todas las copias y originales. Automatización del mismo chat cada tres minutos, según petición del fundador.
 
 ## Página de apoyo, donaciones y publicidad · 29/10/2026
 

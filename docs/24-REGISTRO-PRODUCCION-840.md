@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-31T09:44:45+00:00.
+Comprobado en WordPress: 2026-10-31T10:19:53+00:00.
 
-**583/840 terminadas · 0 en curso · 257 pendientes.**
+**586/840 terminadas · 0 en curso · 254 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -597,9 +597,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 583 | 39/56 · 13/15 | E4.7.13 | Becar a un estudiante: invertir en capital humano ajeno | terminada | 3/3 | [Leer](https://moevec.org/blog/becar-a-un-estudiante/) |
 | 584 | 39/56 · 14/15 | E4.7.14 | Círculos de ahorro y crédito (tandas, natilleras, cajas): finanzas comunitarias | terminada | 3/3 | [Leer](https://moevec.org/blog/circulos-ahorro-credito-tandas/) |
 | 585 | 39/56 · 15/15 | E4.7.15 | Red de mentores MEE: cómo funcionará (propuesta) | terminada | 3/3 | [Leer](https://moevec.org/blog/red-de-mentores-mee/) |
-| 586 | 40/56 · 1/15 | E4.8.01 | Diferenciarse o competir en precio: las dos estrategias básicas | pendiente | 0/3 | — |
-| 587 | 40/56 · 2/15 | E4.8.02 | Propuesta de valor: qué problema resuelves y para quién | pendiente | 0/3 | — |
-| 588 | 40/56 · 3/15 | E4.8.03 | El océano azul: crear mercado donde no hay competencia | pendiente | 0/3 | — |
+| 586 | 40/56 · 1/15 | E4.8.01 | Diferenciarse o competir en precio: las dos estrategias básicas | terminada | 3/3 | [Leer](https://moevec.org/blog/diferenciarse-o-competir-en-precio/) |
+| 587 | 40/56 · 2/15 | E4.8.02 | Propuesta de valor: qué problema resuelves y para quién | terminada | 3/3 | [Leer](https://moevec.org/blog/propuesta-de-valor/) |
+| 588 | 40/56 · 3/15 | E4.8.03 | El océano azul: crear mercado donde no hay competencia | terminada | 3/3 | [Leer](https://moevec.org/blog/oceano-azul/) |
 | 589 | 40/56 · 4/15 | E4.8.04 | Nichos: ser el mejor para pocos antes que mediocre para todos | pendiente | 0/3 | — |
 | 590 | 40/56 · 5/15 | E4.8.05 | Calidad, servicio y confianza: diferenciación sin gran presupuesto | pendiente | 0/3 | — |
 | 591 | 40/56 · 6/15 | E4.8.06 | Marca para pequeños negocios: identidad sin derroche | pendiente | 0/3 | — |
