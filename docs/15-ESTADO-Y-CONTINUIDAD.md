@@ -2,13 +2,13 @@
 
 ## Estado actual
 
-**628/840 terminadas, 1884 imágenes originales públicas, 0 en curso o borradores WordPress y 212 pendientes**. Tiempo como Recurso Finito15/15; 40 tandas completas.
+**631/840 terminadas, 1893 imágenes originales públicas, 0 en curso o borradores WordPress y 209 pendientes**. Claridad de Propósito3/15; 40 tandas completas.
 
 Fuente activa `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Inicio586; 42 nuevas entradas y126originales públicos.
+Inicio586; 45 nuevas entradas y135originales públicos.
 
 | Global | ID | URL | Imágenes |
 |---|---|---|---|
@@ -54,6 +54,9 @@ Inicio586; 42 nuevas entradas y126originales públicos.
 |628|E4.10.13|https://moevec.org/blog/decir-no/|3/3|
 |629|E4.10.14|https://moevec.org/blog/tiempo-de-desplazamiento/|3/3|
 |630|E4.10.15|https://moevec.org/blog/planificar-tu-ano-en-una-hoja/|3/3|
+|631|E4.11.01|https://moevec.org/blog/proposito-moverse-y-avanzar/|3/3|
+|632|E4.11.02|https://moevec.org/blog/metas-que-funcionan/|3/3|
+|633|E4.11.03|https://moevec.org/blog/proposito-y-dinero/|3/3|
 
 ## Revisión del último bloque
 
@@ -61,11 +64,11 @@ Fuentes y alcances por artículo en research-notes.md y source-review.json. Caso
 
 ## Continuación exacta
 
-Continuar **631–633 / E4.11.01–E4.11.03**, Trabajo → Claridad de Propósito. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **634–636**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Continuar **634–636 / E4.11.04–E4.11.06**, Trabajo → Claridad de Propósito. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **637–639**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
 
 ## Copias y capacidad
 
-VPS `/data/mee-backups/produccion-840-incremento-628-630-20261031`: SQL vigente `wordpress.sql` 24689652B, 66medios nuevos. Cadena198más base, huecos501/512. Hashes y miembros comprobados; sin nueva prueba de arranque de restauración. ZIP local incremental y prueba de entrega externos, con toda la cadena anterior conservada.
+VPS `/data/mee-backups/produccion-840-incremento-631-633-20261031`: SQL vigente `wordpress.sql` 24797530B, 66medios nuevos. Cadena199más base, huecos501/512. Hashes y miembros comprobados; sin nueva prueba de arranque de restauración. ZIP local incremental y prueba de entrega externos, con toda la cadena anterior conservada.
 
 Capacidad local recuperada. Comprobar espacio antes de cada generación y copia; capacidad recuperada comprobada en esta ejecución; registro de entrega anterior y referencia de Git recuperados. Umbral operativo200MiB antes de generar, y copias proporcionales con margen calculado; conservar todas las copias y originales. Automatización del mismo chat cada tres minutos, según petición del fundador.
 

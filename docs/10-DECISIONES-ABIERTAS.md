@@ -1725,3 +1725,13 @@ Fuentes y alcances por artículo en research-notes.md y source-review.json. Caso
 
 Continuar **631–633 / E4.11.01–E4.11.03**, Trabajo → Claridad de Propósito. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **634–636**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
 Automatización cada tres minutos ya configurada. No se han borrado copias ni originales.
+
+
+## Continuación editorial631-633 ·31/10/2026
+
+**631/840 terminadas, 1893 imágenes originales públicas, 0 en curso o borradores WordPress y 209 pendientes**. Claridad de Propósito3/15; 40 tandas completas.
+
+Fuentes y alcances por artículo en research-notes.md y source-review.json. Casos y ejemplos identificados, fuentes primarias y límites contrastados antes de publicar. Advertencia SEO: salida WordPress con dos meta descripciones idénticas; textos y títulos correctos. Incidencia de plantilla registrada, fuera de esta producción.
+
+Continuar **634–636 / E4.11.04–E4.11.06**, Trabajo → Claridad de Propósito. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **637–639**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Automatización cada tres minutos ya configurada. No se han borrado copias ni originales.
