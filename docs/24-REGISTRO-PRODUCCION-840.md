@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-31T15:22:30+00:00.
+Comprobado en WordPress: 2026-10-31T15:38:11+00:00.
 
-**631/840 terminadas · 0 en curso · 209 pendientes.**
+**634/840 terminadas · 0 en curso · 206 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -645,9 +645,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 631 | 43/56 · 1/15 | E4.11.01 | Propósito: la diferencia entre moverse y avanzar | terminada | 3/3 | [Leer](https://moevec.org/blog/proposito-moverse-y-avanzar/) |
 | 632 | 43/56 · 2/15 | E4.11.02 | Metas que funcionan: lo que dice la psicología | terminada | 3/3 | [Leer](https://moevec.org/blog/metas-que-funcionan/) |
 | 633 | 43/56 · 3/15 | E4.11.03 | Propósito y dinero: ¿para qué quieres ganar más? | terminada | 3/3 | [Leer](https://moevec.org/blog/proposito-y-dinero/) |
-| 634 | 43/56 · 4/15 | E4.11.04 | Valores personales: descubrir lo que de verdad te importa | pendiente | 0/3 | — |
-| 635 | 43/56 · 5/15 | E4.11.05 | Perseverancia y propósito: el debate sobre el «grit» | pendiente | 0/3 | — |
-| 636 | 43/56 · 6/15 | E4.11.06 | Misión de empresa: más allá del eslogan | pendiente | 0/3 | — |
+| 634 | 43/56 · 4/15 | E4.11.04 | Valores personales: descubrir lo que de verdad te importa | terminada | 3/3 | [Leer](https://moevec.org/blog/valores-personales-descubrir/) |
+| 635 | 43/56 · 5/15 | E4.11.05 | Perseverancia y propósito: el debate sobre el «grit» | terminada | 3/3 | [Leer](https://moevec.org/blog/perseverancia-grit-debate/) |
+| 636 | 43/56 · 6/15 | E4.11.06 | Misión de empresa: más allá del eslogan | terminada | 3/3 | [Leer](https://moevec.org/blog/mision-de-empresa/) |
 | 637 | 43/56 · 7/15 | E4.11.07 | Capitalismo con propósito: lo que defiende y lo que no defiende MEE | pendiente | 0/3 | — |
 | 638 | 43/56 · 8/15 | E4.11.08 | Propósito colectivo y propósito individual: cuándo chocan | pendiente | 0/3 | — |
 | 639 | 43/56 · 9/15 | E4.11.09 | Ikigai, vocación y mercado: encontrar lo que el mundo paga | pendiente | 0/3 | — |
