@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-31T08:47:12+00:00.
+Comprobado en WordPress: 2026-10-31T09:44:45+00:00.
 
-**580/840 terminadas · 0 en curso · 260 pendientes.**
+**583/840 terminadas · 0 en curso · 257 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -594,9 +594,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 580 | 39/56 · 10/15 | E4.7.10 | El aprendiz que supera al maestro: soltar a tiempo | terminada | 3/3 | [Leer](https://moevec.org/blog/aprendiz-supera-al-maestro/) |
 | 581 | 39/56 · 11/15 | E4.7.11 | Guía para ser mentor por primera vez | terminada | 3/3 | [Leer](https://moevec.org/blog/guia-ser-mentor-primera-vez/) |
 | 582 | 39/56 · 12/15 | E4.7.12 | Cómo pedir mentoría sin incomodar | terminada | 3/3 | [Leer](https://moevec.org/blog/como-pedir-mentoria/) |
-| 583 | 39/56 · 13/15 | E4.7.13 | Becar a un estudiante: invertir en capital humano ajeno | pendiente | 0/3 | — |
-| 584 | 39/56 · 14/15 | E4.7.14 | Círculos de ahorro y crédito (tandas, natilleras, cajas): finanzas comunitarias | pendiente | 0/3 | — |
-| 585 | 39/56 · 15/15 | E4.7.15 | Red de mentores MEE: cómo funcionará (propuesta) | pendiente | 0/3 | — |
+| 583 | 39/56 · 13/15 | E4.7.13 | Becar a un estudiante: invertir en capital humano ajeno | terminada | 3/3 | [Leer](https://moevec.org/blog/becar-a-un-estudiante/) |
+| 584 | 39/56 · 14/15 | E4.7.14 | Círculos de ahorro y crédito (tandas, natilleras, cajas): finanzas comunitarias | terminada | 3/3 | [Leer](https://moevec.org/blog/circulos-ahorro-credito-tandas/) |
+| 585 | 39/56 · 15/15 | E4.7.15 | Red de mentores MEE: cómo funcionará (propuesta) | terminada | 3/3 | [Leer](https://moevec.org/blog/red-de-mentores-mee/) |
 | 586 | 40/56 · 1/15 | E4.8.01 | Diferenciarse o competir en precio: las dos estrategias básicas | pendiente | 0/3 | — |
 | 587 | 40/56 · 2/15 | E4.8.02 | Propuesta de valor: qué problema resuelves y para quién | pendiente | 0/3 | — |
 | 588 | 40/56 · 3/15 | E4.8.03 | El océano azul: crear mercado donde no hay competencia | pendiente | 0/3 | — |

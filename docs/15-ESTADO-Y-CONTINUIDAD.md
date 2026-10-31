@@ -2,33 +2,29 @@
 
 ## Estado actual
 
-**580/840 terminadas, 1740 imágenes originales públicas, 0 en curso o borradores WordPress y 260 pendientes**. Mentoría e Inversión en Otros 12/15; Experiencia como Activo15/15; Selección de Socios15/15; Escalabilidad Social15/15; Riesgo Consciente14/15; Inversión Personal14/15; 36 tandas completas.
+**583/840 terminadas, 1749 imágenes originales públicas, 0 en curso o borradores WordPress y 257 pendientes**. Mentoría e Inversión en Otros15/15; 37 tandas completas.
 
 Fuente activa `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Inicio568; 12 entradas nuevas (571–582) y 36 originales públicos.
-
-URL200, H1, canonical, ausencia de noindex, Article, índice, sitemap, enlaces y BreadcrumbList comprobados. Una publicación y tres adjuntos por ID, categorías y etiquetas del plan; taxonomía122/7 conservada.
+Inicio580; tres entradas nuevas583–585 y nueve originales públicos.
 
 ## Revisión del último bloque
 
-580: extracto primarioKleppercapítulo1pp9–10, spinoffs y límites de transferencia; fecha editorial no usada como dato central. BOELey1/2019art1.3 leído, sin autorizar uso de bases o dictaminar una cláusula. E4.6.07/global562 existente; colaboración voluntaria, sin encargos garantizados. 581: Kram1985bibliografía y artículo1983parcial; Zachary2000primeraedición y muestra autorizada3.ªedición2022conLisaZFain, sin librosíntegros leídos o ejercicioscopiados. Agenda/preguntas/cierre como propuestasMEE, sin acreditación. 582: ficha editorialGiveandTake2013, no ensayo de eficacia delmensaje; plantilla yseguimientoMEE, sin respuesta,gratuidad oausenciadeincomodidadgarantizadas. E2.5.04/global799 pendiente no enlazado. Textos1010,1047,1022palabras;9originales completos yverificados.
+583: Friedman, reproducción de la versión posterior con antecedente1955, lectura parcial; Purdue no acepta solicitudes, CFPB2021 es otro caso y LaCaixa figura cerrada. No se anuncia oferta ni validez universal. 584: Besley/Coate/Loury1993 es modelo teórico, p792 y806–807; CONDUSEF distingue competencia institucional de posibles consecuencias legales, sin decir que toda tanda carezca de protección. 585: propuestaMEE en diseño, mérito por aporte como posición editorial y contacto general existente; sin inscripción, perfiles, emparejamiento o verificación operativos. Textos principales1056,1070,1114palabras, dos ejemplos hipotéticos y tresFAQ por entrada.
 
 ## Continuación exacta
 
-Reanudar **583–585 / E4.7.13–E4.7.15**, Trabajo → Mentoría e Inversión en Otros. Nueve originales WebP completos e inspeccionados, briefs, prompts y procedencia conservados. Faltan textos y revisión completa de fuentes. Después, **586–588**. **501 / E4.2.06** y **512 / E4.3.02** siguen retenidas por título, con texto y tres imágenes cada una, sin publicación; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Continuar **586–588 / E4.8.01–E4.8.03**, Trabajo → Diferenciación de Valor. Briefs y nueve prompts conservados; faltan imágenes, lectura primaria, textos y revisión. Después, **589–591**. **501/E4.2.06 y512/E4.3.02** conservan texto y tres imágenes, sin publicar por revisión de título pendiente; no repetir preguntas ni interpretar silencio como aprobación.
 
-## Copias y límites
+## Copias y recuperación del almacenamiento
 
-VPS `/data/mee-backups/produccion-840-incremento-580-582-20261031`, SQL y66medios nuevos. Cadena182 más base. Hashes y miembros comprobados; sin nueva restauración arrancada. Resumen de esta ejecución: docs/produccion/2026-10-31-ejecucion-desde-568.md.
+VPS `/data/mee-backups/produccion-840-incremento-583-585-20261031`: SQL22990570B,66medios nuevos. Cadena183más base, huecos501/512. Hashes y miembros del archivo comprobados; sin nueva prueba de arranque de restauración.
 
-## Límite actual de almacenamiento ·31/10/2026
+ZIP local incremental y hash en la prueba de entrega externa, con cadena anterior preservada. Sin copias completas duplicadas.
 
-El cotejo final recibió «no queda espacio en el dispositivo». Comprobación posterior: 123609088 B libres. Las12 entradas571–582 ya están publicadas y verificadas; el ZIP del bloque580–582 conserva su hash correcto, y15expedientes/ 359archivos coinciden con la fuente privada.
-
-No se han borrado copias ni originales. 583–585 tienen9/9imágenes completas, sin textos ni fuentes revisadas. Reanudar su producción al recuperar al menos512MiB de margen local; no es un límite de image_gen ni requiere nuevo permiso editorial. Automatización conservada.
+El margen local se recuperó y el checkpoint de interrupción580 quedó guardado y subido al repositorio privado, commit3ccfc392. No se borraron copias ni originales como parte de esta ejecución. El espacio sigue sujeto a comprobación antes de generar imágenes o respaldos.
 
 ## Página de apoyo, donaciones y publicidad · 29/10/2026
 

@@ -1566,3 +1566,12 @@ El cotejo final recibió «no queda espacio en el dispositivo». Comprobación p
 
 No se han borrado copias ni originales. 583–585 tienen9/9imágenes completas, sin textos ni fuentes revisadas. Reanudar su producción al recuperar al menos512MiB de margen local; no es un límite de image_gen ni requiere nuevo permiso editorial. Automatización conservada.
 
+
+
+## Continuación editorial583–585 ·31/10/2026
+
+**583/840 terminadas, 1749 imágenes originales públicas, 0 en curso o borradores WordPress y 257 pendientes**. Mentoría e Inversión en Otros15/15; 37 tandas completas.
+
+583: Friedman, reproducción de la versión posterior con antecedente1955, lectura parcial; Purdue no acepta solicitudes, CFPB2021 es otro caso y LaCaixa figura cerrada. No se anuncia oferta ni validez universal. 584: Besley/Coate/Loury1993 es modelo teórico, p792 y806–807; CONDUSEF distingue competencia institucional de posibles consecuencias legales, sin decir que toda tanda carezca de protección. 585: propuestaMEE en diseño, mérito por aporte como posición editorial y contacto general existente; sin inscripción, perfiles, emparejamiento o verificación operativos. Textos principales1056,1070,1114palabras, dos ejemplos hipotéticos y tresFAQ por entrada.
+
+Almacenamiento recuperado; checkpoint580 guardado y subido. Automatización vigente. Continuar **586–588 / E4.8.01–E4.8.03**, Trabajo → Diferenciación de Valor. Briefs y nueve prompts conservados; faltan imágenes, lectura primaria, textos y revisión. Después, **589–591**. **501/E4.2.06 y512/E4.3.02** conservan texto y tres imágenes, sin publicar por revisión de título pendiente; no repetir preguntas ni interpretar silencio como aprobación.
