@@ -1450,3 +1450,12 @@ Continuar **544–546 / E4.5.04–E4.5.06**, Trabajo → Selección de Socios, t
 Reanudar **547–549 / E4.5.07–E4.5.09**, Trabajo → Selección de Socios, tanda 37/56, entradas 7–9/15. Preparación de conflictos, inversores y diáspora/Cuba. Faltan textos y revisión específica de fuentes; no se publican las premisas estadísticas o jurídicas antiguas sin contrastar. Después,550–552 / E4.5.10–E4.5.12. 501/E4.2.06 y 512/E4.3.02 siguen retenidas por título, con texto y tres imágenes cada una, sin publicación; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
 
 Preparación siguiente: 547–549 / E4.5.07–E4.5.09, nueve originales completos e inspeccionados. Sin textos ni fuentes verificadas por completo. No altera el total de 544 publicadas y terminadas.
+
+
+## Producción 547–549 ·31/10/2026
+
+547/840 terminadas, 1641 imágenes originales públicas, 0 en curso o borradores WordPress y 293 pendientes.
+
+547: Ley5/2012 artículos6–8, LO1/2025 artículos2–5 y16, Ley60/2003 artículos9,11,43–45; intento de negociación y acuerdo son distintos, arbitraje decide por laudo. Sin tasas de éxito ni superioridad universal de mediación. 548: Feld2004, ficha/índice Wiley de4ªedición de Venture Deals, página de modelos NVCA y referencia institucional CNMV; no lectura íntegra del libro2011 o de todos los contratos. Dilución hipotética con supuestos explícitos, no valoración aconsejada. 549: DL88 concordado especial12/2026 artículos54–55 y57, Ley118 concordada especial11/2026 actualizada porDL128, artículo2 y pasajes13/19–24; residencia exterior cubana contemplada trasDL133. OFAC FAQ758 y programa actual, incluida modificación efectiva30/09/2026. Posibilidad cubana de ser socio no equivale a permiso de inversión o transferencia desde otro país. Sin dictamen individual.
+
+Reanudar **550–552 / E4.5.10–E4.5.12**, Trabajo → Selección de Socios, tanda 37/56, entradas 10–12/15. Nueve originales WebP completos e inspeccionados, briefs, prompts, procedencia y notas conservados. Faltan investigación específica, textos y revisión completa. Después, 553–555 / E4.5.13–E4.5.15. **501 / E4.2.06** y **512 / E4.3.02** siguen retenidas por título, con texto y 3 imágenes cada una, sin publicación; preguntas previas pendientes, sin repetirlas ni interpretar silencio como aprobación.

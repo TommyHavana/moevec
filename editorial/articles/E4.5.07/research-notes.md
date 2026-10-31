@@ -1,8 +1,19 @@
-# Preparación · E4.5.07
+# Investigación · E4.5.07
 
-Tres originales image_gen completos e inspeccionados individualmente y en mosaico. WebP finales en esta carpeta; prompts en image-prompts.json; nativos y procedencia en image-generation-record.json. Sin texto ni publicación.
+BOE · Ley 5/2012 de mediación, texto consolidado
+https://www.boe.es/buscar/act.php?id=BOE-A-2012-9112
+Lectura específica artículos 6–8, actualización publicada03/01/2025 con efectos03/04/2025: requisito de procedibilidad y libre disposición, igualdad y neutralidad. No lectura íntegra ni recomendación de mediación universal.
 
-- Verificar fuentes primarias específicas sobre conflictos, mediación y arbitraje; ámbito, normativa y reformas aplicables
-- No afirmar que la mayoría de conflictos se previenen o que mediación siempre resuelve mejor sin evidencia
-- No convertir pasajes parciales de Wasserman en libro íntegro ni en porcentaje universal
-- Faltan texto y revisión final de fuentes
+BOE · Ley Orgánica 1/2025
+https://www.boe.es/buscar/act.php?id=BOE-A-2025-76
+Consolidado actualización04/06/2025. Lectura artículos2–5 y16, en particular5.1–3: negociación previa general, ámbito civil/mercantil, excepciones y actuaciones sin requisito previo. No se aplica automáticamente a otros países.
+
+BOE · Ley 60/2003 de arbitraje
+https://www.boe.es/buscar/act.php?id=BOE-A-2003-23646
+Consolidadoactualizado06/10/2015; lectura artículos9,11,43–45. Convenio, efectos del laudo e impugnación; no equiparar mediación/arbitraje ni prometer costes/eficacia.
+
+Excluido:
+- Mayoría de conflictos prevenible: no se encontró evidencia para ese porcentaje universal.
+- Mediación siempre mejor o más barata: no demostrada.
+- Wasserman solo existe lectura parcial anterior; no se le atribuyen estos consejos ni lectura completa.
+- No cláusulas firmables ni plazos procesales individuales.

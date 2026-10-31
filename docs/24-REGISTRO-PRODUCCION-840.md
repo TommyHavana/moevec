@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-31T05:53:20+00:00.
+Comprobado en WordPress: 2026-10-31T06:14:03+00:00.
 
-**544/840 terminadas · 0 en curso · 296 pendientes.**
+**547/840 terminadas · 0 en curso · 293 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -558,9 +558,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 544 | 37/56 · 4/15 | E4.5.04 | Reparto de participaciones: cómo dividir la tarta sin romperla | terminada | 3/3 | [Leer](https://moevec.org/blog/reparto-de-participaciones/) |
 | 545 | 37/56 · 5/15 | E4.5.05 | Socio capitalista y socio trabajador: derechos y expectativas | terminada | 3/3 | [Leer](https://moevec.org/blog/socio-capitalista-y-socio-trabajador/) |
 | 546 | 37/56 · 6/15 | E4.5.06 | Pacto de socios: las diez cláusulas imprescindibles | terminada | 3/3 | [Leer](https://moevec.org/blog/pacto-de-socios-diez-clausulas/) |
-| 547 | 37/56 · 7/15 | E4.5.07 | Conflictos entre socios: causas, prevención y salida | pendiente | 0/3 | — |
-| 548 | 37/56 · 8/15 | E4.5.08 | Asociarse con inversores: lo que entregas a cambio del dinero | pendiente | 0/3 | — |
-| 549 | 37/56 · 9/15 | E4.5.09 | Socios a distancia: emprender entre la diáspora y la isla | pendiente | 0/3 | — |
+| 547 | 37/56 · 7/15 | E4.5.07 | Conflictos entre socios: causas, prevención y salida | terminada | 3/3 | [Leer](https://moevec.org/blog/conflictos-entre-socios/) |
+| 548 | 37/56 · 8/15 | E4.5.08 | Asociarse con inversores: lo que entregas a cambio del dinero | terminada | 3/3 | [Leer](https://moevec.org/blog/asociarse-con-inversores/) |
+| 549 | 37/56 · 9/15 | E4.5.09 | Socios a distancia: emprender entre la diáspora y la isla | terminada | 3/3 | [Leer](https://moevec.org/blog/socios-a-distancia-diaspora/) |
 | 550 | 37/56 · 10/15 | E4.5.10 | Señales de alerta en un futuro socio | pendiente | 0/3 | — |
 | 551 | 37/56 · 11/15 | E4.5.11 | Plantilla de entrevista para elegir socio | pendiente | 0/3 | — |
 | 552 | 37/56 · 12/15 | E4.5.12 | Proveedores como socios: relaciones de largo plazo | pendiente | 0/3 | — |

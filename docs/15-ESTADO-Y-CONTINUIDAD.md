@@ -2,27 +2,27 @@
 
 ## Estado actual
 
-**544/840 terminadas, 1632 imágenes originales públicas, 0 en curso o borradores WordPress y 296 pendientes**. Escalabilidad Social 15/15; Selección de Socios 6/15; Riesgo Consciente 14/15, Inversión Personal 14/15; 34 tandas completas.
+**547/840 terminadas, 1641 imágenes originales públicas, 0 en curso o borradores WordPress y 293 pendientes**. Escalabilidad Social 15/15; Selección de Socios 9/15; Riesgo Consciente 14/15, Inversión Personal 14/15;34 tandas completas.
 
 Fuente activa `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Inicio 532; 535–546 completas, doce entradas y 36 originales públicos.
+Inicio 532;535–549 completas, quince entradas y45 originales públicos.
 
-Tres nuevas entradas 544–546, nueve originales públicos. URL 200, H1, canonical, indexabilidad declarada, Article, índice, sitemap, enlaces existentes y BreadcrumbList comprobados; imágenes 3/3 por ID, hashes y variantes. Una publicación y tres adjuntos por ID, categorías y etiquetas del plan. Taxonomía 122/7 conservada.
+Tres entradas 547–549 completas con nueve originales. URL 200, H1, canonical, indexabilidad declarada, Article, índice, sitemap, enlaces existentes y BreadcrumbList comprobados. Una publicación y tres adjuntos por ID, categorías y etiquetas del plan; taxonomía 122/7 conservada.
 
 ## Revisión
 
-544: resumen publicado Hellmann/Wasserman DOI10.1287/mnsc.2016.2474, online 2016/número 2017, asociación con financiación externa aparentemente no causal; borradorHBS no se presenta como versión final. Stripe Atlas vesting como práctica estadounidense, sin calendario o traslado automático. LSC artículos 58,188,198–199. 545: LSC58,86–89,93,188; trabajo/servicios fuera del capital, prestaciones accesorias distintas, derechos y voto con límites; sin resolver nómina, factura, RETA o impuestos personales. 546: LSC28–29,198–199 y Estatuto 21 para relación laboral española; diez imprescindibles como criterio editorial, no lista legal universal. Sin cláusulas listas para firmar.
+547: Ley5/2012 artículos6–8, LO1/2025 artículos2–5 y16, Ley60/2003 artículos9,11,43–45; intento de negociación y acuerdo son distintos, arbitraje decide por laudo. Sin tasas de éxito ni superioridad universal de mediación. 548: Feld2004, ficha/índice Wiley de4ªedición de Venture Deals, página de modelos NVCA y referencia institucional CNMV; no lectura íntegra del libro2011 o de todos los contratos. Dilución hipotética con supuestos explícitos, no valoración aconsejada. 549: DL88 concordado especial12/2026 artículos54–55 y57, Ley118 concordada especial11/2026 actualizada porDL128, artículo2 y pasajes13/19–24; residencia exterior cubana contemplada trasDL133. OFAC FAQ758 y programa actual, incluida modificación efectiva30/09/2026. Posibilidad cubana de ser socio no equivale a permiso de inversión o transferencia desde otro país. Sin dictamen individual.
 
 ## Continuación exacta
 
-Reanudar **547–549 / E4.5.07–E4.5.09**, Trabajo → Selección de Socios, tanda 37/56, entradas 7–9/15. Nueve originales WebP completos e inspeccionados, briefs, prompts, procedencia y notas conservados. Faltan investigación específica, textos y revisión completa. Después,550–552 / E4.5.10–E4.5.12. **501 / E4.2.06** y **512 / E4.3.02** siguen retenidas por título, con texto y 3 imágenes cada una, sin publicación; no repetir preguntas pendientes ni interpretar silencio como aprobación. Continuar trabajo independiente.
+Reanudar **550–552 / E4.5.10–E4.5.12**, Trabajo → Selección de Socios, tanda 37/56, entradas 10–12/15. Nueve originales WebP completos e inspeccionados, briefs, prompts, procedencia y notas conservados. Faltan investigación específica, textos y revisión completa. Después, 553–555 / E4.5.13–E4.5.15. **501 / E4.2.06** y **512 / E4.3.02** siguen retenidas por título, con texto y 3 imágenes cada una, sin publicación; preguntas previas pendientes, sin repetirlas ni interpretar silencio como aprobación.
 
 ## Copias y límites
 
-VPS `/data/mee-backups/produccion-840-incremento-544-546-20261031`; SQL y 66 medios nuevos. Cadena 170 más base; hash y miembros comprobados. Sin nueva restauración arrancada. Detalle en docs/produccion/2026-10-31-bloques-535-546.md y respaldo 535–537.
+VPS `/data/mee-backups/produccion-840-incremento-547-549-20261031`; SQL y66 medios nuevos. Cadena171 más base, hash y miembros comprobados; sin nueva restauración arrancada. Detalle en docs/produccion/2026-10-31-bloques-535-549.md.
 
 ## Página de apoyo, donaciones y publicidad · 29/10/2026
 
