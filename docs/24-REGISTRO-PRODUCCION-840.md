@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-31T07:40:18+00:00.
+Comprobado en WordPress: 2026-10-31T07:54:43+00:00.
 
-**565/840 terminadas · 0 en curso · 275 pendientes.**
+**568/840 terminadas · 0 en curso · 272 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -579,9 +579,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 565 | 38/56 · 10/15 | E4.6.10 | Experiencia migrante: cómo hacer valer en otro país lo que aprendiste en el tuyo | terminada | 3/3 | [Leer](https://moevec.org/blog/experiencia-migrante-convalidar/) |
 | 566 | 38/56 · 11/15 | E4.6.11 | Tu inventario de experiencia: ejercicio práctico | terminada | 3/3 | [Leer](https://moevec.org/blog/inventario-de-experiencia/) |
 | 567 | 38/56 · 12/15 | E4.6.12 | Escribir tu historial profesional para clientes, no para empleadores | terminada | 3/3 | [Leer](https://moevec.org/blog/historial-profesional-para-clientes/) |
-| 568 | 38/56 · 13/15 | E4.6.13 | Mentor de pago o gratuito: cómo aprovechar la experiencia ajena | pendiente | 0/3 | — |
-| 569 | 38/56 · 14/15 | E4.6.14 | Jubilados emprendedores: experiencia que no se retira | pendiente | 0/3 | — |
-| 570 | 38/56 · 15/15 | E4.6.15 | Biblioteca de experiencia MEE: casos documentados (convocatoria) | pendiente | 0/3 | — |
+| 568 | 38/56 · 13/15 | E4.6.13 | Mentor de pago o gratuito: cómo aprovechar la experiencia ajena | terminada | 3/3 | [Leer](https://moevec.org/blog/aprovechar-experiencia-ajena/) |
+| 569 | 38/56 · 14/15 | E4.6.14 | Jubilados emprendedores: experiencia que no se retira | terminada | 3/3 | [Leer](https://moevec.org/blog/jubilados-emprendedores/) |
+| 570 | 38/56 · 15/15 | E4.6.15 | Biblioteca de experiencia MEE: casos documentados (convocatoria) | terminada | 3/3 | [Leer](https://moevec.org/blog/biblioteca-de-experiencia-mee/) |
 | 571 | 39/56 · 1/15 | E4.7.01 | Qué es una buena mentoría (y qué no lo es) | pendiente | 0/3 | — |
 | 572 | 39/56 · 2/15 | E4.7.02 | Lo que dice la investigación sobre mentoría y emprendimiento | pendiente | 0/3 | — |
 | 573 | 39/56 · 3/15 | E4.7.03 | Enseñar es aprender dos veces | pendiente | 0/3 | — |
