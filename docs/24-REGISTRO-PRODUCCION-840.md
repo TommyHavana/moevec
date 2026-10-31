@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-31T12:34:14+00:00.
+Comprobado en WordPress: 2026-10-31T12:47:09+00:00.
 
-**604/840 terminadas · 0 en curso · 236 pendientes.**
+**607/840 terminadas · 0 en curso · 233 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -618,9 +618,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 604 | 41/56 · 4/15 | E4.9.04 | Resiliencia psicológica ante pérdidas económicas | terminada | 3/3 | [Leer](https://moevec.org/blog/resiliencia-psicologica-perdidas/) |
 | 605 | 41/56 · 5/15 | E4.9.05 | Activos que resisten crisis: tierra, oficio y redes | terminada | 3/3 | [Leer](https://moevec.org/blog/activos-que-resisten-crisis/) |
 | 606 | 41/56 · 6/15 | E4.9.06 | Venezuela: lecciones de resiliencia en hiperinflación | terminada | 3/3 | [Leer](https://moevec.org/blog/venezuela-resiliencia-hiperinflacion/) |
-| 607 | 41/56 · 7/15 | E4.9.07 | Argentina: vivir con inflación crónica | pendiente | 0/3 | — |
-| 608 | 41/56 · 8/15 | E4.9.08 | Negocios que sobrevivieron a la pandemia: qué tenían en común | pendiente | 0/3 | — |
-| 609 | 41/56 · 9/15 | E4.9.09 | Seguros, redes y ahorro: el triángulo de protección familiar | pendiente | 0/3 | — |
+| 607 | 41/56 · 7/15 | E4.9.07 | Argentina: vivir con inflación crónica | terminada | 3/3 | [Leer](https://moevec.org/blog/argentina-inflacion-cronica/) |
+| 608 | 41/56 · 8/15 | E4.9.08 | Negocios que sobrevivieron a la pandemia: qué tenían en común | terminada | 3/3 | [Leer](https://moevec.org/blog/negocios-sobrevivieron-pandemia/) |
+| 609 | 41/56 · 9/15 | E4.9.09 | Seguros, redes y ahorro: el triángulo de protección familiar | terminada | 3/3 | [Leer](https://moevec.org/blog/triangulo-proteccion-familiar/) |
 | 610 | 41/56 · 10/15 | E4.9.10 | Perder el empleo: plan de los primeros 90 días | pendiente | 0/3 | — |
 | 611 | 41/56 · 11/15 | E4.9.11 | Test de resiliencia financiera familiar | pendiente | 0/3 | — |
 | 612 | 41/56 · 12/15 | E4.9.12 | Huertos, oficios y trueque: resiliencia en tiempos de escasez | pendiente | 0/3 | — |

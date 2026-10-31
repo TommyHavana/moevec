@@ -1,8 +1,8 @@
 # Ejecución desde586 ·31/10/2026
 
-**604/840 terminadas, 1812 imágenes originales públicas, 0 en curso o borradores WordPress y 236 pendientes**. Resiliencia Económica6/15; 38 tandas completas.
+**607/840 terminadas, 1821 imágenes originales públicas, 0 en curso o borradores WordPress y 233 pendientes**. Resiliencia Económica9/15; 38 tandas completas.
 
-18 nuevas entradas y54originales públicos.
+21 nuevas entradas y63originales públicos.
 
 | Global | ID | URL | Imágenes |
 |---|---|---|---|
@@ -24,5 +24,8 @@
 |604|E4.9.04|https://moevec.org/blog/resiliencia-psicologica-perdidas/|3/3|
 |605|E4.9.05|https://moevec.org/blog/activos-que-resisten-crisis/|3/3|
 |606|E4.9.06|https://moevec.org/blog/venezuela-resiliencia-hiperinflacion/|3/3|
+|607|E4.9.07|https://moevec.org/blog/argentina-inflacion-cronica/|3/3|
+|608|E4.9.08|https://moevec.org/blog/negocios-sobrevivieron-pandemia/|3/3|
+|609|E4.9.09|https://moevec.org/blog/triangulo-proteccion-familiar/|3/3|
 
-Continuar **607–609 / E4.9.07–E4.9.09**, Trabajo → Resiliencia Económica. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **610–612**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Continuar **610–612 / E4.9.10–E4.9.12**, Trabajo → Resiliencia Económica. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **613–615**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
