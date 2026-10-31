@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-31T16:30:51+00:00.
+Comprobado en WordPress: 2026-10-31T17:04:57+00:00.
 
-**643/840 terminadas · 0 en curso · 197 pendientes.**
+**646/840 terminadas · 0 en curso · 194 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -657,9 +657,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 643 | 43/56 · 13/15 | E4.11.13 | Cuando el propósito cambia: reinventarse sin culpa | terminada | 3/3 | [Leer](https://moevec.org/blog/cuando-el-proposito-cambia/) |
 | 644 | 43/56 · 14/15 | E4.11.14 | Propósito y comunidad MEE: por qué existe este movimiento | terminada | 3/3 | [Leer](https://moevec.org/blog/proposito-de-mee/) |
 | 645 | 43/56 · 15/15 | E4.11.15 | Revisión trimestral de propósito y metas | terminada | 3/3 | [Leer](https://moevec.org/blog/revision-trimestral-proposito/) |
-| 646 | 44/56 · 1/15 | E4.12.01 | Adaptabilidad técnica: aprender herramientas, no solo usarlas | pendiente | 0/3 | — |
-| 647 | 44/56 · 2/15 | E4.12.02 | Cómo se difunden las tecnologías y por qué llegan tarde a algunos países | pendiente | 0/3 | — |
-| 648 | 44/56 · 3/15 | E4.12.03 | Alfabetización digital básica: lo mínimo para trabajar hoy | pendiente | 0/3 | — |
+| 646 | 44/56 · 1/15 | E4.12.01 | Adaptabilidad técnica: aprender herramientas, no solo usarlas | terminada | 3/3 | [Leer](https://moevec.org/blog/adaptabilidad-tecnica-que-es/) |
+| 647 | 44/56 · 2/15 | E4.12.02 | Cómo se difunden las tecnologías y por qué llegan tarde a algunos países | terminada | 3/3 | [Leer](https://moevec.org/blog/difusion-de-tecnologias/) |
+| 648 | 44/56 · 3/15 | E4.12.03 | Alfabetización digital básica: lo mínimo para trabajar hoy | terminada | 3/3 | [Leer](https://moevec.org/blog/alfabetizacion-digital-basica/) |
 | 649 | 44/56 · 4/15 | E4.12.04 | Hojas de cálculo: la herramienta más rentable que puedes aprender | pendiente | 0/3 | — |
 | 650 | 44/56 · 5/15 | E4.12.05 | Inteligencia artificial para pequeños negocios: usos prácticos | pendiente | 0/3 | — |
 | 651 | 44/56 · 6/15 | E4.12.06 | Programar sin ser programador: herramientas sin código | pendiente | 0/3 | — |
