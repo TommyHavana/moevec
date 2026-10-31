@@ -2,13 +2,13 @@
 
 ## Estado actual
 
-**601/840 terminadas, 1803 imágenes originales públicas, 0 en curso o borradores WordPress y 239 pendientes**. Resiliencia Económica3/15; 38 tandas completas.
+**604/840 terminadas, 1812 imágenes originales públicas, 0 en curso o borradores WordPress y 236 pendientes**. Resiliencia Económica6/15; 38 tandas completas.
 
 Fuente activa `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Inicio586; 15 nuevas entradas y45originales públicos.
+Inicio586; 18 nuevas entradas y54originales públicos.
 
 | Global | ID | URL | Imágenes |
 |---|---|---|---|
@@ -27,18 +27,21 @@ Inicio586; 15 nuevas entradas y45originales públicos.
 |601|E4.9.01|https://moevec.org/blog/resiliencia-economica-que-es/|3/3|
 |602|E4.9.02|https://moevec.org/blog/diversificar-ingresos/|3/3|
 |603|E4.9.03|https://moevec.org/blog/deuda-y-fragilidad/|3/3|
+|604|E4.9.04|https://moevec.org/blog/resiliencia-psicologica-perdidas/|3/3|
+|605|E4.9.05|https://moevec.org/blog/activos-que-resisten-crisis/|3/3|
+|606|E4.9.06|https://moevec.org/blog/venezuela-resiliencia-hiperinflacion/|3/3|
 
 ## Revisión del último bloque
 
-Fuentes y alcances por artículo en research-notes.md y source-review.json. 601: Findex2025 con encuesta2024, definición y población explícitas; sin meta universal de reserva. 602: dependencias y costes de diversificación, estudio híbrido como asociación. 603: deuda no implica crisis inevitable; Mian/Sufi mediante lecturas parciales y ejercicios aritméticos propios. Revisión adicional589–603: catorce atribuciones explícitas sobre los mismos ID y medios, con rechazo de hash obsoleto probado. Advertencia SEO: salida WordPress con dos meta descripciones idénticas; textos y títulos correctos. Incidencia de plantilla registrada, fuera de esta producción.
+Fuentes y alcances por artículo en research-notes.md y source-review.json. Casos y ejemplos identificados, fuentes primarias y límites contrastados antes de publicar. Advertencia SEO: salida WordPress con dos meta descripciones idénticas; textos y títulos correctos. Incidencia de plantilla registrada, fuera de esta producción.
 
 ## Continuación exacta
 
-Continuar **604–606 / E4.9.04–E4.9.06**, Trabajo → Resiliencia Económica. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **607–609**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Continuar **607–609 / E4.9.07–E4.9.09**, Trabajo → Resiliencia Económica. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **610–612**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
 
 ## Copias y capacidad
 
-VPS `/data/mee-backups/produccion-840-incremento-601-603-20261031`: SQL vigente `wordpress-after-attribution.sql` 23746624B, 66medios nuevos. Cadena189más base, huecos501/512. Hashes y miembros comprobados; sin nueva prueba de arranque de restauración. ZIP local incremental y prueba de entrega externos, con toda la cadena anterior conservada.
+VPS `/data/mee-backups/produccion-840-incremento-604-606-20261031`: SQL vigente `wordpress.sql` 23858378B, 66medios nuevos. Cadena190más base, huecos501/512. Hashes y miembros comprobados; sin nueva prueba de arranque de restauración. ZIP local incremental y prueba de entrega externos, con toda la cadena anterior conservada.
 
 Capacidad local recuperada. Comprobar espacio antes de cada generación y copia; capacidad recuperada comprobada en esta ejecución; registro de entrega anterior y referencia de Git recuperados. Umbral operativo200MiB antes de generar, y copias proporcionales con margen calculado; conservar todas las copias y originales. Automatización del mismo chat cada tres minutos, según petición del fundador.
 

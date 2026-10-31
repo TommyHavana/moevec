@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-31T12:11:27+00:00.
+Comprobado en WordPress: 2026-10-31T12:34:14+00:00.
 
-**601/840 terminadas · 0 en curso · 239 pendientes.**
+**604/840 terminadas · 0 en curso · 236 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -615,9 +615,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 601 | 41/56 · 1/15 | E4.9.01 | Resiliencia económica: prepararse antes de la tormenta | terminada | 3/3 | [Leer](https://moevec.org/blog/resiliencia-economica-que-es/) |
 | 602 | 41/56 · 2/15 | E4.9.02 | Diversificar ingresos: no depender de una sola fuente | terminada | 3/3 | [Leer](https://moevec.org/blog/diversificar-ingresos/) |
 | 603 | 41/56 · 3/15 | E4.9.03 | Deuda y fragilidad: por qué el endeudamiento te deja expuesto | terminada | 3/3 | [Leer](https://moevec.org/blog/deuda-y-fragilidad/) |
-| 604 | 41/56 · 4/15 | E4.9.04 | Resiliencia psicológica ante pérdidas económicas | pendiente | 0/3 | — |
-| 605 | 41/56 · 5/15 | E4.9.05 | Activos que resisten crisis: tierra, oficio y redes | pendiente | 0/3 | — |
-| 606 | 41/56 · 6/15 | E4.9.06 | Venezuela: lecciones de resiliencia en hiperinflación | pendiente | 0/3 | — |
+| 604 | 41/56 · 4/15 | E4.9.04 | Resiliencia psicológica ante pérdidas económicas | terminada | 3/3 | [Leer](https://moevec.org/blog/resiliencia-psicologica-perdidas/) |
+| 605 | 41/56 · 5/15 | E4.9.05 | Activos que resisten crisis: tierra, oficio y redes | terminada | 3/3 | [Leer](https://moevec.org/blog/activos-que-resisten-crisis/) |
+| 606 | 41/56 · 6/15 | E4.9.06 | Venezuela: lecciones de resiliencia en hiperinflación | terminada | 3/3 | [Leer](https://moevec.org/blog/venezuela-resiliencia-hiperinflacion/) |
 | 607 | 41/56 · 7/15 | E4.9.07 | Argentina: vivir con inflación crónica | pendiente | 0/3 | — |
 | 608 | 41/56 · 8/15 | E4.9.08 | Negocios que sobrevivieron a la pandemia: qué tenían en común | pendiente | 0/3 | — |
 | 609 | 41/56 · 9/15 | E4.9.09 | Seguros, redes y ahorro: el triángulo de protección familiar | pendiente | 0/3 | — |
