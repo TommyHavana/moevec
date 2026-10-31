@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-31T12:47:09+00:00.
+Comprobado en WordPress: 2026-10-31T13:01:15+00:00.
 
-**607/840 terminadas · 0 en curso · 233 pendientes.**
+**610/840 terminadas · 0 en curso · 230 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -621,9 +621,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 607 | 41/56 · 7/15 | E4.9.07 | Argentina: vivir con inflación crónica | terminada | 3/3 | [Leer](https://moevec.org/blog/argentina-inflacion-cronica/) |
 | 608 | 41/56 · 8/15 | E4.9.08 | Negocios que sobrevivieron a la pandemia: qué tenían en común | terminada | 3/3 | [Leer](https://moevec.org/blog/negocios-sobrevivieron-pandemia/) |
 | 609 | 41/56 · 9/15 | E4.9.09 | Seguros, redes y ahorro: el triángulo de protección familiar | terminada | 3/3 | [Leer](https://moevec.org/blog/triangulo-proteccion-familiar/) |
-| 610 | 41/56 · 10/15 | E4.9.10 | Perder el empleo: plan de los primeros 90 días | pendiente | 0/3 | — |
-| 611 | 41/56 · 11/15 | E4.9.11 | Test de resiliencia financiera familiar | pendiente | 0/3 | — |
-| 612 | 41/56 · 12/15 | E4.9.12 | Huertos, oficios y trueque: resiliencia en tiempos de escasez | pendiente | 0/3 | — |
+| 610 | 41/56 · 10/15 | E4.9.10 | Perder el empleo: plan de los primeros 90 días | terminada | 3/3 | [Leer](https://moevec.org/blog/perder-el-empleo-plan-90-dias/) |
+| 611 | 41/56 · 11/15 | E4.9.11 | Test de resiliencia financiera familiar | terminada | 3/3 | [Leer](https://moevec.org/blog/test-resiliencia-financiera/) |
+| 612 | 41/56 · 12/15 | E4.9.12 | Huertos, oficios y trueque: resiliencia en tiempos de escasez | terminada | 3/3 | [Leer](https://moevec.org/blog/resiliencia-escasez-huertos-oficios/) |
 | 613 | 41/56 · 13/15 | E4.9.13 | Ingresos en moneda fuerte: opciones legales para trabajadores de la región | pendiente | 0/3 | — |
 | 614 | 41/56 · 14/15 | E4.9.14 | Reinventarse después de una quiebra | pendiente | 0/3 | — |
 | 615 | 41/56 · 15/15 | E4.9.15 | Plan de contingencia para tu pequeño negocio | pendiente | 0/3 | — |

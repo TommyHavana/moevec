@@ -2,13 +2,13 @@
 
 ## Estado actual
 
-**607/840 terminadas, 1821 imágenes originales públicas, 0 en curso o borradores WordPress y 233 pendientes**. Resiliencia Económica9/15; 38 tandas completas.
+**610/840 terminadas, 1830 imágenes originales públicas, 0 en curso o borradores WordPress y 230 pendientes**. Resiliencia Económica12/15; 38 tandas completas.
 
 Fuente activa `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Inicio586; 21 nuevas entradas y63originales públicos.
+Inicio586; 24 nuevas entradas y72originales públicos.
 
 | Global | ID | URL | Imágenes |
 |---|---|---|---|
@@ -33,6 +33,9 @@ Inicio586; 21 nuevas entradas y63originales públicos.
 |607|E4.9.07|https://moevec.org/blog/argentina-inflacion-cronica/|3/3|
 |608|E4.9.08|https://moevec.org/blog/negocios-sobrevivieron-pandemia/|3/3|
 |609|E4.9.09|https://moevec.org/blog/triangulo-proteccion-familiar/|3/3|
+|610|E4.9.10|https://moevec.org/blog/perder-el-empleo-plan-90-dias/|3/3|
+|611|E4.9.11|https://moevec.org/blog/test-resiliencia-financiera/|3/3|
+|612|E4.9.12|https://moevec.org/blog/resiliencia-escasez-huertos-oficios/|3/3|
 
 ## Revisión del último bloque
 
@@ -40,11 +43,11 @@ Fuentes y alcances por artículo en research-notes.md y source-review.json. Caso
 
 ## Continuación exacta
 
-Continuar **610–612 / E4.9.10–E4.9.12**, Trabajo → Resiliencia Económica. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **613–615**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Continuar **613–615 / E4.9.13–E4.9.15**, Trabajo → Resiliencia Económica. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **616–618**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
 
 ## Copias y capacidad
 
-VPS `/data/mee-backups/produccion-840-incremento-607-609-20261031`: SQL vigente `wordpress.sql` 23968966B, 66medios nuevos. Cadena191más base, huecos501/512. Hashes y miembros comprobados; sin nueva prueba de arranque de restauración. ZIP local incremental y prueba de entrega externos, con toda la cadena anterior conservada.
+VPS `/data/mee-backups/produccion-840-incremento-610-612-20261031`: SQL vigente `wordpress.sql` 24077313B, 66medios nuevos. Cadena192más base, huecos501/512. Hashes y miembros comprobados; sin nueva prueba de arranque de restauración. ZIP local incremental y prueba de entrega externos, con toda la cadena anterior conservada.
 
 Capacidad local recuperada. Comprobar espacio antes de cada generación y copia; capacidad recuperada comprobada en esta ejecución; registro de entrega anterior y referencia de Git recuperados. Umbral operativo200MiB antes de generar, y copias proporcionales con margen calculado; conservar todas las copias y originales. Automatización del mismo chat cada tres minutos, según petición del fundador.
 

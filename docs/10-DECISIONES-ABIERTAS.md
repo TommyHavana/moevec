@@ -1655,3 +1655,13 @@ Fuentes y alcances por artículo en research-notes.md y source-review.json. Caso
 
 Continuar **610–612 / E4.9.10–E4.9.12**, Trabajo → Resiliencia Económica. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **613–615**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
 Automatización cada tres minutos ya configurada. No se han borrado copias ni originales.
+
+
+## Continuación editorial610-612 ·31/10/2026
+
+**610/840 terminadas, 1830 imágenes originales públicas, 0 en curso o borradores WordPress y 230 pendientes**. Resiliencia Económica12/15; 38 tandas completas.
+
+Fuentes y alcances por artículo en research-notes.md y source-review.json. Casos y ejemplos identificados, fuentes primarias y límites contrastados antes de publicar. Advertencia SEO: salida WordPress con dos meta descripciones idénticas; textos y títulos correctos. Incidencia de plantilla registrada, fuera de esta producción.
+
+Continuar **613–615 / E4.9.13–E4.9.15**, Trabajo → Resiliencia Económica. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **616–618**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Automatización cada tres minutos ya configurada. No se han borrado copias ni originales.
