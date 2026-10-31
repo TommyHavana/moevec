@@ -2,31 +2,31 @@
 
 ## Estado actual
 
-**483/840 terminadas, 1449 imágenes originales públicas, 0 en curso o borradores WordPress y 357 pendientes**. Sacrificio Estratégico 3/15; 32 tandas completas. Comunidad 60/60.
+**486/840 terminadas, 1458 imágenes originales públicas, 0 en curso o borradores WordPress y 354 pendientes**. Sacrificio Estratégico 6/15, 32 tandas completas y Comunidad 60/60.
 
 Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Desde 471: entradas 472–483, 36 originales públicos. Bloques consecutivos de tres, con SQL completo y medios nuevos respaldados por bloque.
+Desde 471: entradas 472–486, quince nuevas y 45 originales públicos. Bloques consecutivos de tres, cada uno con SQL completo y medios nuevos respaldados.
 
-Una publicación y tres adjuntos por ID; categorías Trabajo y Sacrificio Estratégico, etiquetas exactas. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales y variantes comprobados. Navegación y BreadcrumbList: Blog → Trabajo → Sacrificio Estratégico. Taxonomía: 122 nodos, siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva o posicionamiento.
+Una publicación y tres adjuntos por ID; categorías Trabajo y Sacrificio Estratégico y etiquetas exactas. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales y variantes comprobados. Navegación y BreadcrumbList: Blog → Trabajo → Sacrificio Estratégico. Taxonomía de 122 nodos y siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva ni posicionamiento.
 
 ## Revisión del último bloque
 
-Bastos mediante entrevista primaria 2017, sin fingir lectura de su libro; ahorro y trabajo a conciencia. Han2010 mediante extracto inglés2015, pp8–11, crítica filosófica de rendimiento/autoexplotación sin causalidad clínica. Böhm-Bawerk libro II capIV: ahorro más producción y condición de subsistencia, fecha de edición identificada y sin garantía de riqueza. Stanley/Danko solo presentación editorial, sin muestra o causalidad inferidas; presupuesto oficial sin cálculo personal. Bastiat introducción/ventana rota y Hazlitt capI en copias con procedencia; Arkes/Blumer1985 pp124–126 sobre coste hundido. Nueve originales vistos y comprobados; barco corregido antes de publicar.
+Gratificación diferida: Shoda/Mischel/Peake1990, réplica conceptual de Watts/Duncan/Quan2018, Kidd2013 y análisis de2020/2024 con alcances diferenciados; asociación, contexto y causalidad separados, sin pronósticos personales. Staw1976: lectura visual de pp 27, 30–31,38–39, simulación con estudiantes y empresa ficticia, no plazo óptimo. Proyecto paralelo: Raffiee/Feng2014 solo resumen primario con procedencia de autor, sin métodos o porcentajes inventados; BOE actualizado 21/10/2026, artículos 21/34 como ejemplo español sujeto al caso. Nueve imágenes originales comprobadas, puente corregido antes de aceptar.
 
 ## Continuación exacta
 
-Siguiente **484–486 / E4.1.04–E4.1.06**, Trabajo → Sacrificio Estratégico. Briefs y fuentes localizadas; HTML primarios de cuatro estudios de gratificación archivados y Staw1976 PDF archivado, lectura final pendiente. USC/Raffiee-Feng rechazó descarga por certificado expirado; no se eludió. Tres imágenes pendientes por entrada, sin texto final ni publicación. Preparaciones incluidas en las 357 pendientes. Después 487–489. Automatización activa, sin agotamiento comunicado.
+Siguiente **487–489 / E4.1.07–E4.1.09**, Trabajo → Sacrificio Estratégico. Tres briefs y diez fuentes iniciales localizadas, con límites de investigación anotados. Sin lectura final, texto o imágenes: 0/3 en cada entrada. Estas preparaciones siguen incluidas en las 354 pendientes. Después 490–492. Automatización activa; sin agotamiento de imágenes comunicado.
 
 ## Copias y límites
 
-Respaldo VPS hasta 483: SQL completo y 66 medios nuevos. Hashes, miembros y continuidad de 148 incrementos comprobados. Sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 >100 MiB fuera de Git.
+Respaldo VPS hasta 486: SQL completo y 66 medios nuevos, hashes y miembros comprobados; cadena de 149 incrementos continua. Sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 >100 MiB fuera de Git.
 
 ## Traspaso
 
-Producción continua autorizada sin confirmaciones. Consultar WordPress y reanudar expedientes indicados. No contar preparaciones como terminadas. Sin cambios de arquitectura, DNS, correo, autenticación, tema o taxonomía. Sin despliegue React por contenido.
+Producción continua autorizada sin confirmaciones. Consultar WordPress y reanudar los expedientes indicados. No contar preparaciones como terminadas. Sin cambios de arquitectura, DNS, correo, autenticación, tema o taxonomía. Sin despliegue React por contenido.
 
 ## Página de apoyo, donaciones y publicidad · 29/10/2026
 

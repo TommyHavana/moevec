@@ -1,0 +1,24 @@
+{
+  "id": "E4.1.06",
+  "tool": "builtin_image_gen",
+  "style": "Ilustración editorial escultórica original de alta calidad: papel artesanal marfil F7F6F2, cerámica mate azul 1547BB y acentos rojo EF383E, sombras de contacto suaves, grafito 15171B, composición física surrealista precisa. Una sola escena horizontal, sin collage, sin palabras, números, letras, logotipos ni marcas de agua. Objetos esenciales dentro del 75% central, aire en bordes para recorte. Metáfora conceptual, sin datos cuantitativos ni personas reales.",
+  "prompts": {
+    "featured": "Use case: stylized-concept. Asset type: ilustración editorial MEE. Primary request: Una única ventana ancha de cerámica azul conecta un espacio de escritorio marfil iluminado por luz de día a la izquierda con un pequeño taller marfil bajo lámpara cálida a la derecha, la luz cambia gradualmente de día a noche dentro de la misma escena escultórica, no collage ni títulos ni pantallas con letras. Horizontal1200x630. Style/constraints: Ilustración editorial escultórica original de alta calidad: papel artesanal marfil F7F6F2, cerámica mate azul 1547BB y acentos rojo EF383E, sombras de contacto suaves, grafito 15171B, composición física surrealista precisa. Una sola escena horizontal, sin collage, sin palabras, números, letras, logotipos ni marcas de agua. Objetos esenciales dentro del 75% central, aire en bordes para recorte. Metáfora conceptual, sin datos cuantitativos ni personas reales.",
+    "interior-1": "Use case: stylized-concept. Asset type: ilustración editorial MEE. Primary request: Figura abstracta azul de pie sostiene dos relojes pequeños sin números: uno marfil con centro rojo y otro azul, ambos con agujas sencillas, mesa de papel, postura tranquila, sin símbolos de prisa. Horizontal1600x900. Style/constraints: Ilustración editorial escultórica original de alta calidad: papel artesanal marfil F7F6F2, cerámica mate azul 1547BB y acentos rojo EF383E, sombras de contacto suaves, grafito 15171B, composición física surrealista precisa. Una sola escena horizontal, sin collage, sin palabras, números, letras, logotipos ni marcas de agua. Objetos esenciales dentro del 75% central, aire en bordes para recorte. Metáfora conceptual, sin datos cuantitativos ni personas reales.",
+    "interior-2": "Use case: stylized-concept. Asset type: ilustración editorial MEE. Primary request: Pequeño puente azul de cerámica se construye por tramos sobre un cauce seco de papel marfil, un tramo rojo final aún separado y apoyado en la orilla, no personas en peligro ni flechas ni números. Horizontal1600x900. Style/constraints: Ilustración editorial escultórica original de alta calidad: papel artesanal marfil F7F6F2, cerámica mate azul 1547BB y acentos rojo EF383E, sombras de contacto suaves, grafito 15171B, composición física surrealista precisa. Una sola escena horizontal, sin collage, sin palabras, números, letras, logotipos ni marcas de agua. Objetos esenciales dentro del 75% central, aire en bordes para recorte. Metáfora conceptual, sin datos cuantitativos ni personas reales."
+  },
+  "sources": {
+    "featured": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-7902f47b-343e-4c51-89d0-66878b20fd83.png",
+    "interior-1": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-f4653aa0-01c3-4a19-909e-a211da43d0ae.png",
+    "interior-2": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-68b97f57-bc0c-4b56-818c-d301d6b69bb0.png"
+  },
+  "revisions": [
+    {
+      "role": "interior-2",
+      "rejected_source": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-4605e117-dbda-4ca4-ba15-603822887d82.png",
+      "reason": "El puente aparecía completo; faltaba la etapa pendiente del brief.",
+      "prompt": "Preservar composición y materiales. Retirar el cuarto derecho de arco, suelo y barandas azules; dejar hueco visible hasta orilla derecha. Conservar tramo rojo separado en esa orilla y soportar extremo azul con columna marfil temporal. Sin personas, letras ni cifras.",
+      "accepted_source": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-68b97f57-bc0c-4b56-818c-d301d6b69bb0.png"
+    }
+  ]
+}

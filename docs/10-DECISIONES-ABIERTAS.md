@@ -1295,3 +1295,14 @@ Bastos mediante entrevista primaria 2017, sin fingir lectura de su libro; ahorro
 Siguiente **484–486 / E4.1.04–E4.1.06**, Trabajo → Sacrificio Estratégico. Briefs y fuentes localizadas; HTML primarios de cuatro estudios de gratificación archivados y Staw1976 PDF archivado, lectura final pendiente. USC/Raffiee-Feng rechazó descarga por certificado expirado; no se eludió. Tres imágenes pendientes por entrada, sin texto final ni publicación. Preparaciones incluidas en las 357 pendientes. Después 487–489. Automatización activa, sin agotamiento comunicado.
 
 Autorización continua del fundador; sin cambios de arquitectura, taxonomía o despliegue React. Evidencia y respaldo en docs/produccion/2026-10-31-bloque-481-483.md y respaldo-481-483.md.
+
+
+## Producción continua 484–486 · 31/10/2026
+
+486/840 terminadas, 1458 imágenes originales públicas, 0 en curso o borradores WordPress y 354 pendientes. Sacrificio Estratégico 6/15; 32 tandas completas y Comunidad 60/60.
+
+Gratificación diferida: Shoda/Mischel/Peake1990, réplica conceptual de Watts/Duncan/Quan2018, Kidd2013 y análisis de2020/2024 con alcances diferenciados; asociación, contexto y causalidad separados, sin pronósticos personales. Staw1976: lectura visual de pp27,30–31,38–39, simulación con estudiantes y empresa ficticia, no plazo óptimo. Proyecto paralelo: Raffiee/Feng2014 solo resumen primario con procedencia de autor, sin métodos o porcentajes inventados; BOE actualizado21/10/2026, artículos21/34 como ejemplo español sujeto al caso. Nueve imágenes originales comprobadas, puente corregido antes de aceptar.
+
+Siguiente **487–489 / E4.1.07–E4.1.09**, Trabajo → Sacrificio Estratégico. Tres briefs y diez fuentes iniciales localizadas, con límites de investigación anotados. Sin lectura final, texto o imágenes: 0/3 en cada entrada. Estas preparaciones siguen incluidas en las 354 pendientes. Después 490–492. Automatización activa; sin agotamiento de imágenes comunicado.
+
+Autorización continua del fundador. Sin cambios de arquitectura, taxonomía o despliegue React. Evidencia y respaldo en docs/produccion/2026-10-31-bloque-484-486.md y respaldo-484-486.md.

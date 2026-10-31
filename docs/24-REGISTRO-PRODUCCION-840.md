@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-31T00:14:57+00:00.
+Comprobado en WordPress: 2026-10-31T00:34:41+00:00.
 
-**483/840 terminadas · 0 en curso · 357 pendientes.**
+**486/840 terminadas · 0 en curso · 354 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -495,9 +495,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 481 | 33/56 · 1/15 | E4.1.01 | Sacrificio estratégico: renunciar con plan, no por resignación | terminada | 3/3 | [Leer](https://moevec.org/blog/sacrificio-estrategico-que-es/) |
 | 482 | 33/56 · 2/15 | E4.1.02 | Consumir por debajo de tu capacidad: la regla de oro del capital | terminada | 3/3 | [Leer](https://moevec.org/blog/consumir-por-debajo-de-tu-capacidad/) |
 | 483 | 33/56 · 3/15 | E4.1.03 | El coste de oportunidad: lo que dejas de ganar cuando eliges | terminada | 3/3 | [Leer](https://moevec.org/blog/coste-de-oportunidad/) |
-| 484 | 33/56 · 4/15 | E4.1.04 | Gratificación diferida: lo que sabemos (y no) desde el estudio del malvavisco | pendiente | 0/3 | — |
-| 485 | 33/56 · 5/15 | E4.1.05 | Cuánto tiempo sacrificar: plazos razonables para un proyecto | pendiente | 0/3 | — |
-| 486 | 33/56 · 6/15 | E4.1.06 | Trabajar de día, construir de noche: el modelo del proyecto paralelo | pendiente | 0/3 | — |
+| 484 | 33/56 · 4/15 | E4.1.04 | Gratificación diferida: lo que sabemos (y no) desde el estudio del malvavisco | terminada | 3/3 | [Leer](https://moevec.org/blog/gratificacion-diferida-malvavisco/) |
+| 485 | 33/56 · 5/15 | E4.1.05 | Cuánto tiempo sacrificar: plazos razonables para un proyecto | terminada | 3/3 | [Leer](https://moevec.org/blog/cuanto-tiempo-sacrificar/) |
+| 486 | 33/56 · 6/15 | E4.1.06 | Trabajar de día, construir de noche: el modelo del proyecto paralelo | terminada | 3/3 | [Leer](https://moevec.org/blog/proyecto-paralelo-trabajar-de-dia/) |
 | 487 | 33/56 · 7/15 | E4.1.07 | Ahorrar en entornos con inflación: sacrificio que no se evapore | pendiente | 0/3 | — |
 | 488 | 33/56 · 8/15 | E4.1.08 | El sacrificio del emigrante: trabajo duro lejos de casa | pendiente | 0/3 | — |
 | 489 | 33/56 · 9/15 | E4.1.09 | Sacrificio y salud: el límite que no conviene cruzar | pendiente | 0/3 | — |
