@@ -1,8 +1,8 @@
 # Ejecución desde586 ·31/10/2026
 
-**610/840 terminadas, 1830 imágenes originales públicas, 0 en curso o borradores WordPress y 230 pendientes**. Resiliencia Económica12/15; 38 tandas completas.
+**613/840 terminadas, 1839 imágenes originales públicas, 0 en curso o borradores WordPress y 227 pendientes**. Resiliencia Económica15/15; 39 tandas completas.
 
-24 nuevas entradas y72originales públicos.
+27 nuevas entradas y81originales públicos.
 
 | Global | ID | URL | Imágenes |
 |---|---|---|---|
@@ -30,5 +30,8 @@
 |610|E4.9.10|https://moevec.org/blog/perder-el-empleo-plan-90-dias/|3/3|
 |611|E4.9.11|https://moevec.org/blog/test-resiliencia-financiera/|3/3|
 |612|E4.9.12|https://moevec.org/blog/resiliencia-escasez-huertos-oficios/|3/3|
+|613|E4.9.13|https://moevec.org/blog/ingresos-en-moneda-fuerte/|3/3|
+|614|E4.9.14|https://moevec.org/blog/reinventarse-despues-de-quiebra/|3/3|
+|615|E4.9.15|https://moevec.org/blog/plan-de-contingencia-pequeno-negocio/|3/3|
 
-Continuar **613–615 / E4.9.13–E4.9.15**, Trabajo → Resiliencia Económica. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **616–618**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Continuar **616–618 / E4.10.01–E4.10.03**, Trabajo → Tiempo como Recurso Finito. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **619–621**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.

@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-31T13:01:15+00:00.
+Comprobado en WordPress: 2026-10-31T13:23:12+00:00.
 
-**610/840 terminadas · 0 en curso · 230 pendientes.**
+**613/840 terminadas · 0 en curso · 227 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -624,9 +624,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 610 | 41/56 · 10/15 | E4.9.10 | Perder el empleo: plan de los primeros 90 días | terminada | 3/3 | [Leer](https://moevec.org/blog/perder-el-empleo-plan-90-dias/) |
 | 611 | 41/56 · 11/15 | E4.9.11 | Test de resiliencia financiera familiar | terminada | 3/3 | [Leer](https://moevec.org/blog/test-resiliencia-financiera/) |
 | 612 | 41/56 · 12/15 | E4.9.12 | Huertos, oficios y trueque: resiliencia en tiempos de escasez | terminada | 3/3 | [Leer](https://moevec.org/blog/resiliencia-escasez-huertos-oficios/) |
-| 613 | 41/56 · 13/15 | E4.9.13 | Ingresos en moneda fuerte: opciones legales para trabajadores de la región | pendiente | 0/3 | — |
-| 614 | 41/56 · 14/15 | E4.9.14 | Reinventarse después de una quiebra | pendiente | 0/3 | — |
-| 615 | 41/56 · 15/15 | E4.9.15 | Plan de contingencia para tu pequeño negocio | pendiente | 0/3 | — |
+| 613 | 41/56 · 13/15 | E4.9.13 | Ingresos en moneda fuerte: opciones legales para trabajadores de la región | terminada | 3/3 | [Leer](https://moevec.org/blog/ingresos-en-moneda-fuerte/) |
+| 614 | 41/56 · 14/15 | E4.9.14 | Reinventarse después de una quiebra | terminada | 3/3 | [Leer](https://moevec.org/blog/reinventarse-despues-de-quiebra/) |
+| 615 | 41/56 · 15/15 | E4.9.15 | Plan de contingencia para tu pequeño negocio | terminada | 3/3 | [Leer](https://moevec.org/blog/plan-de-contingencia-pequeno-negocio/) |
 | 616 | 42/56 · 1/15 | E4.10.01 | Cuatro mil semanas: por qué el tiempo es tu recurso más escaso | pendiente | 0/3 | — |
 | 617 | 42/56 · 2/15 | E4.10.02 | El valor de tu hora: calcularlo para decidir mejor | pendiente | 0/3 | — |
 | 618 | 42/56 · 3/15 | E4.10.03 | Ley de Parkinson: el trabajo se expande hasta llenar el tiempo | pendiente | 0/3 | — |
