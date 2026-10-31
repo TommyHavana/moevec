@@ -1495,3 +1495,12 @@ Reanudar **559–561 / E4.6.04–E4.6.06**, Trabajo → Experiencia como Activo,
 559: resumen primario Madsen/Desai2010, industria de vehículos de lanzamiento orbital, no ley causal individual sobre fracaso. 560: Punto de Acceso General, TodoFP y RD659/2023 consolidado06/05/2025, arts.175–177 y derogaciónRD1224/2009; sin equivalencia automática, habilitación o admisión individual. 561: resumen de versión publicada AER:Insights2020, media45años en uno por mil de nuevas empresas estadounidenses con crecimiento más rápido; sin edad óptima, causalidad o datos extrapolados. Sin lectura íntegra de los artículos académicos. Las pautas prácticas son propuestas de MEE.
 
 Reanudar **562–564 / E4.6.07–E4.6.09**, Trabajo → Experiencia como Activo, tanda38/56, entradas7–9/15. Nueve originales WebP completos e inspeccionados, briefs, prompts y procedencia conservados. Faltan investigación específica, textos y revisión completa. Después, **565–567 / E4.6.10–E4.6.12**. **501 / E4.2.06** y **512 / E4.3.02** siguen retenidas por título, con texto y tres imágenes cada una, sin publicación; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+
+
+## Producción 562–564 ·31/10/2026
+
+562/840 terminadas, 1686 imágenes originales públicas, 0 en curso o borradores WordPress y 278 pendientes.
+
+562: extracto primario de Klepper, capítulo1 pp.9–10, sin libro íntegro; Estatuto de los Trabajadores consolidado21/10/2026, art.21 y Ley1/2019 art.1.3. Referencias españolas sin evaluar pactos individuales ni autorizar uso de información ajena. 563: GlobalFindex2025, encuestas2024, como contexto; Stripe disponibilidad y política de jurisdicciones consultadas31/10/2026: no vía de cobro universal o disponible en Cuba, ni precios o plazos inventados. 564: definición SEPE y catálogo3T2026 como ejemplo identificado, no vigente deoctubre ni garantía de vacantes; Cedefop2023 y WEF2025 como análisis/previsiones delimitados, sin salarios o inmunidad a automatización. Ejemplos hipotéticos e imágenes conceptuales. No nueva restauración arrancada.
+
+Reanudar **565–567 / E4.6.10–E4.6.12**, Trabajo → Experiencia como Activo. Nueve originales WebP completos e inspeccionados, briefs, prompts y procedencia conservados. Faltan textos y revisión completa de fuentes. Después, **568–570**. **501 / E4.2.06** y **512 / E4.3.02** siguen retenidas por título, con texto y tres imágenes cada una, sin publicación; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
