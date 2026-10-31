@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-31T15:38:11+00:00.
+Comprobado en WordPress: 2026-10-31T15:54:33+00:00.
 
-**634/840 terminadas · 0 en curso · 206 pendientes.**
+**637/840 terminadas · 0 en curso · 203 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -648,9 +648,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 634 | 43/56 · 4/15 | E4.11.04 | Valores personales: descubrir lo que de verdad te importa | terminada | 3/3 | [Leer](https://moevec.org/blog/valores-personales-descubrir/) |
 | 635 | 43/56 · 5/15 | E4.11.05 | Perseverancia y propósito: el debate sobre el «grit» | terminada | 3/3 | [Leer](https://moevec.org/blog/perseverancia-grit-debate/) |
 | 636 | 43/56 · 6/15 | E4.11.06 | Misión de empresa: más allá del eslogan | terminada | 3/3 | [Leer](https://moevec.org/blog/mision-de-empresa/) |
-| 637 | 43/56 · 7/15 | E4.11.07 | Capitalismo con propósito: lo que defiende y lo que no defiende MEE | pendiente | 0/3 | — |
-| 638 | 43/56 · 8/15 | E4.11.08 | Propósito colectivo y propósito individual: cuándo chocan | pendiente | 0/3 | — |
-| 639 | 43/56 · 9/15 | E4.11.09 | Ikigai, vocación y mercado: encontrar lo que el mundo paga | pendiente | 0/3 | — |
+| 637 | 43/56 · 7/15 | E4.11.07 | Capitalismo con propósito: lo que defiende y lo que no defiende MEE | terminada | 3/3 | [Leer](https://moevec.org/blog/capitalismo-con-proposito-mee/) |
+| 638 | 43/56 · 8/15 | E4.11.08 | Propósito colectivo y propósito individual: cuándo chocan | terminada | 3/3 | [Leer](https://moevec.org/blog/proposito-colectivo-e-individual/) |
+| 639 | 43/56 · 9/15 | E4.11.09 | Ikigai, vocación y mercado: encontrar lo que el mundo paga | terminada | 3/3 | [Leer](https://moevec.org/blog/ikigai-vocacion-y-mercado/) |
 | 640 | 43/56 · 10/15 | E4.11.10 | Propósito en la adversidad: emprender en entornos hostiles | pendiente | 0/3 | — |
 | 641 | 43/56 · 11/15 | E4.11.11 | Escribe tu declaración de propósito en una página | pendiente | 0/3 | — |
 | 642 | 43/56 · 12/15 | E4.11.12 | Propósito familiar: acordar hacia dónde va la tribu | pendiente | 0/3 | — |
