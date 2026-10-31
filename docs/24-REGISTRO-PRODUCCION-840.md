@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-30T23:59:59+00:00.
+Comprobado en WordPress: 2026-10-31T00:14:57+00:00.
 
-**480/840 terminadas · 0 en curso · 360 pendientes.**
+**483/840 terminadas · 0 en curso · 357 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -492,9 +492,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 478 | 32/56 · 13/15 | E3.4.13 | Intercambio de servicios entre emprendedores: reglas para que funcione | terminada | 3/3 | [Leer](https://moevec.org/blog/intercambio-de-servicios-entre-emprendedores/) |
 | 479 | 32/56 · 14/15 | E3.4.14 | Comprar en el barrio: el efecto multiplicador de lo local | terminada | 3/3 | [Leer](https://moevec.org/blog/comprar-en-el-barrio/) |
 | 480 | 32/56 · 15/15 | E3.4.15 | Revisar una relación comercial: ¿sigue funcionando para ambos? | terminada | 3/3 | [Leer](https://moevec.org/blog/revisar-relacion-comercial/) |
-| 481 | 33/56 · 1/15 | E4.1.01 | Sacrificio estratégico: renunciar con plan, no por resignación | pendiente | 0/3 | — |
-| 482 | 33/56 · 2/15 | E4.1.02 | Consumir por debajo de tu capacidad: la regla de oro del capital | pendiente | 0/3 | — |
-| 483 | 33/56 · 3/15 | E4.1.03 | El coste de oportunidad: lo que dejas de ganar cuando eliges | pendiente | 0/3 | — |
+| 481 | 33/56 · 1/15 | E4.1.01 | Sacrificio estratégico: renunciar con plan, no por resignación | terminada | 3/3 | [Leer](https://moevec.org/blog/sacrificio-estrategico-que-es/) |
+| 482 | 33/56 · 2/15 | E4.1.02 | Consumir por debajo de tu capacidad: la regla de oro del capital | terminada | 3/3 | [Leer](https://moevec.org/blog/consumir-por-debajo-de-tu-capacidad/) |
+| 483 | 33/56 · 3/15 | E4.1.03 | El coste de oportunidad: lo que dejas de ganar cuando eliges | terminada | 3/3 | [Leer](https://moevec.org/blog/coste-de-oportunidad/) |
 | 484 | 33/56 · 4/15 | E4.1.04 | Gratificación diferida: lo que sabemos (y no) desde el estudio del malvavisco | pendiente | 0/3 | — |
 | 485 | 33/56 · 5/15 | E4.1.05 | Cuánto tiempo sacrificar: plazos razonables para un proyecto | pendiente | 0/3 | — |
 | 486 | 33/56 · 6/15 | E4.1.06 | Trabajar de día, construir de noche: el modelo del proyecto paralelo | pendiente | 0/3 | — |

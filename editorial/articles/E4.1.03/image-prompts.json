@@ -1,0 +1,24 @@
+{
+  "id": "E4.1.03",
+  "tool": "builtin_image_gen",
+  "style": "Ilustración editorial escultórica original de alta calidad: papel artesanal marfil F7F6F2, cerámica mate azul 1547BB y acentos rojo EF383E, sombras de contacto suaves, grafito 15171B, composición física surrealista precisa. Una sola escena horizontal, sin collage, sin palabras, números, letras, logotipos ni marcas de agua. Objetos esenciales dentro del 75% central, aire en bordes para recorte. Metáfora conceptual, sin datos cuantitativos ni personas reales.",
+  "prompts": {
+    "featured": "Use case: stylized-concept. Asset type: ilustración editorial MEE. Primary request: Una puerta de papel marfil con marco azul y cristal translúcido está abierta; en su panel de vidrio se refleja una segunda puerta roja cerrada y distinta, geometría de reflejo sencilla, estudio marfil. Horizontal 1200x630. Style/constraints: Ilustración editorial escultórica original de alta calidad: papel artesanal marfil F7F6F2, cerámica mate azul 1547BB y acentos rojo EF383E, sombras de contacto suaves, grafito 15171B, composición física surrealista precisa. Una sola escena horizontal, sin collage, sin palabras, números, letras, logotipos ni marcas de agua. Objetos esenciales dentro del 75% central, aire en bordes para recorte. Metáfora conceptual, sin datos cuantitativos ni personas reales.",
+    "interior-1": "Use case: stylized-concept. Asset type: ilustración editorial MEE. Primary request: Dos caminos de papel marfil se bifurcan entre pequeñas colinas de papel azul; huellas discretas rojas recorren solo uno de los caminos, el otro sin huellas; sin personas ni palabras. Horizontal 1600x900. Style/constraints: Ilustración editorial escultórica original de alta calidad: papel artesanal marfil F7F6F2, cerámica mate azul 1547BB y acentos rojo EF383E, sombras de contacto suaves, grafito 15171B, composición física surrealista precisa. Una sola escena horizontal, sin collage, sin palabras, números, letras, logotipos ni marcas de agua. Objetos esenciales dentro del 75% central, aire en bordes para recorte. Metáfora conceptual, sin datos cuantitativos ni personas reales.",
+    "interior-2": "Use case: stylized-concept. Asset type: ilustración editorial MEE. Primary request: Pequeño barco de papel azul inclinado y parcialmente lleno de agua en recipiente marfil poco profundo; figura abstracta de papel situada segura sobre muelle junto al barco intenta sacar agua con cubo rojo, escena conceptual no peligrosa, sin texto. Horizontal 1600x900. Style/constraints: Ilustración editorial escultórica original de alta calidad: papel artesanal marfil F7F6F2, cerámica mate azul 1547BB y acentos rojo EF383E, sombras de contacto suaves, grafito 15171B, composición física surrealista precisa. Una sola escena horizontal, sin collage, sin palabras, números, letras, logotipos ni marcas de agua. Objetos esenciales dentro del 75% central, aire en bordes para recorte. Metáfora conceptual, sin datos cuantitativos ni personas reales."
+  },
+  "sources": {
+    "featured": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-b5ae4403-b183-4283-a3be-5db3d83c7c37.png",
+    "interior-1": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-70d52c25-4af1-45f9-948d-bd3bc7d1c303.png",
+    "interior-2": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-1a2dc5b5-c515-41db-9bfa-cf9e466c9a0c.png"
+  },
+  "revisions": [
+    {
+      "role": "interior-2",
+      "rejected_source": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-24e761c6-b095-4e98-a96f-3215657af1e7.png",
+      "reason": "El chorro entraba en el barco; metáfora invertida.",
+      "prompt": "Preservar barco azul, figura marfil y muelle. Mover brazos y cubo rojo a la derecha del barco, sobre agua exterior, vaciar el cubo en el recipiente fuera del barco con separación visible; ninguna gota entra en su interior. Mismo estilo, sin texto.",
+      "accepted_source": "/Users/nerea/.codex/generated_images/01a1808e-ebdd-7c61-84d1-6281211ff5c5/exec-1a2dc5b5-c515-41db-9bfa-cf9e466c9a0c.png"
+    }
+  ]
+}

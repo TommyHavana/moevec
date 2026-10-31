@@ -2,31 +2,31 @@
 
 ## Estado actual
 
-**480/840 terminadas, 1440 imágenes originales públicas, 0 en curso o borradores WordPress y 360 pendientes**. Intercambio Equitativo 15/15, Comunidad 60/60 y 32 tandas completas.
+**483/840 terminadas, 1449 imágenes originales públicas, 0 en curso o borradores WordPress y 357 pendientes**. Sacrificio Estratégico 3/15; 32 tandas completas. Comunidad 60/60.
 
 Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Desde 471: entradas 472–480, 27 originales públicos. Bloques consecutivos de tres, con SQL completo y medios nuevos respaldados por bloque.
+Desde 471: entradas 472–483, 36 originales públicos. Bloques consecutivos de tres, con SQL completo y medios nuevos respaldados por bloque.
 
-Una publicación y tres adjuntos por ID; categorías Comunidad y Intercambio Equitativo, etiquetas exactas. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales y variantes comprobados. Navegación y BreadcrumbList: Blog → área → subcategoría. Taxonomía: 122 nodos, siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva o posicionamiento.
+Una publicación y tres adjuntos por ID; categorías Trabajo y Sacrificio Estratégico, etiquetas exactas. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales y variantes comprobados. Navegación y BreadcrumbList: Blog → Trabajo → Sacrificio Estratégico. Taxonomía: 122 nodos, siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva o posicionamiento.
 
 ## Revisión del último bloque
 
-Trueque profesional: BOE consolidado actualizado 07/10/2026, artículos 4 y 79.Uno; AEAT IVA 2026 contraprestación no dineraria, sin cuotas, tipos ni exenciones automáticas. Comercio local: Civic Economics 2012 y programa 2021 con muestra y comparación identificadas; recirculación no equivale a efecto causal o bienestar. Ricardo como analogía internacional explícita. Revisión comercial: Hirschman 1970 solo páginas impresas 4–5 y 78–79, voz/salida y lealtad limitada; pauta trimestral MEE y compromisos aplicables, sin derecho universal de salida. Nueve originales nuevos inspeccionados.
+Bastos mediante entrevista primaria 2017, sin fingir lectura de su libro; ahorro y trabajo a conciencia. Han2010 mediante extracto inglés2015, pp8–11, crítica filosófica de rendimiento/autoexplotación sin causalidad clínica. Böhm-Bawerk libro II capIV: ahorro más producción y condición de subsistencia, fecha de edición identificada y sin garantía de riqueza. Stanley/Danko solo presentación editorial, sin muestra o causalidad inferidas; presupuesto oficial sin cálculo personal. Bastiat introducción/ventana rota y Hazlitt capI en copias con procedencia; Arkes/Blumer1985 pp124–126 sobre coste hundido. Nueve originales vistos y comprobados; barco corregido antes de publicar.
 
 ## Continuación exacta
 
-Siguiente **481–483 / E4.1.01–E4.1.03**, Trabajo → Sacrificio Estratégico. Tres briefs originales preparados, 0/3 imágenes en cada uno y sin texto final ni publicación. Las preparaciones están incluidas en las 360 pendientes. Después 484–486. Automatización activa, sin agotamiento comunicado.
+Siguiente **484–486 / E4.1.04–E4.1.06**, Trabajo → Sacrificio Estratégico. Briefs y fuentes localizadas; HTML primarios de cuatro estudios de gratificación archivados y Staw1976 PDF archivado, lectura final pendiente. USC/Raffiee-Feng rechazó descarga por certificado expirado; no se eludió. Tres imágenes pendientes por entrada, sin texto final ni publicación. Preparaciones incluidas en las 357 pendientes. Después 487–489. Automatización activa, sin agotamiento comunicado.
 
 ## Copias y límites
 
-Respaldo VPS hasta 480: SQL completo y 66 medios nuevos. Hashes, miembros y continuidad de147 incrementos comprobados. Sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 >100 MiB fuera de Git.
+Respaldo VPS hasta 483: SQL completo y 66 medios nuevos. Hashes, miembros y continuidad de 148 incrementos comprobados. Sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 >100 MiB fuera de Git.
 
 ## Traspaso
 
-Producción continua autorizada sin confirmaciones. Consultar WordPress y reanudar expedientes. No contar preparaciones como terminadas. Sin cambios de arquitectura, DNS, correo, autenticación, tema o taxonomía. Sin despliegue React por contenido.
+Producción continua autorizada sin confirmaciones. Consultar WordPress y reanudar expedientes indicados. No contar preparaciones como terminadas. Sin cambios de arquitectura, DNS, correo, autenticación, tema o taxonomía. Sin despliegue React por contenido.
 
 ## Página de apoyo, donaciones y publicidad · 29/10/2026
 
