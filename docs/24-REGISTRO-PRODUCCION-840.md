@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-31T08:13:05+00:00.
+Comprobado en WordPress: 2026-10-31T08:23:15+00:00.
 
-**571/840 terminadas · 0 en curso · 269 pendientes.**
+**574/840 terminadas · 0 en curso · 266 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -585,9 +585,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 571 | 39/56 · 1/15 | E4.7.01 | Qué es una buena mentoría (y qué no lo es) | terminada | 3/3 | [Leer](https://moevec.org/blog/que-es-una-buena-mentoria/) |
 | 572 | 39/56 · 2/15 | E4.7.02 | Lo que dice la investigación sobre mentoría y emprendimiento | terminada | 3/3 | [Leer](https://moevec.org/blog/investigacion-mentoria-emprendimiento/) |
 | 573 | 39/56 · 3/15 | E4.7.03 | Enseñar es aprender dos veces | terminada | 3/3 | [Leer](https://moevec.org/blog/ensenar-es-aprender-dos-veces/) |
-| 574 | 39/56 · 4/15 | E4.7.04 | Invertir en otros: dinero, tiempo y oportunidades | pendiente | 0/3 | — |
-| 575 | 39/56 · 5/15 | E4.7.05 | Recomendar a alguien: el capital de tu reputación en juego | pendiente | 0/3 | — |
-| 576 | 39/56 · 6/15 | E4.7.06 | Programas de mentoría para emprendedores en España y América Latina | pendiente | 0/3 | — |
+| 574 | 39/56 · 4/15 | E4.7.04 | Invertir en otros: dinero, tiempo y oportunidades | terminada | 3/3 | [Leer](https://moevec.org/blog/invertir-en-otros-formas/) |
+| 575 | 39/56 · 5/15 | E4.7.05 | Recomendar a alguien: el capital de tu reputación en juego | terminada | 3/3 | [Leer](https://moevec.org/blog/recomendar-a-alguien/) |
+| 576 | 39/56 · 6/15 | E4.7.06 | Programas de mentoría para emprendedores en España y América Latina | terminada | 3/3 | [Leer](https://moevec.org/blog/programas-mentoria-espana-latam/) |
 | 577 | 39/56 · 7/15 | E4.7.07 | Inversores ángel: qué son y cómo funcionan | pendiente | 0/3 | — |
 | 578 | 39/56 · 8/15 | E4.7.08 | Microinversión en emprendedores cercanos: riesgos y buenas prácticas | pendiente | 0/3 | — |
 | 579 | 39/56 · 9/15 | E4.7.09 | Mentoría intergeneracional: lo que mayores y jóvenes se enseñan | pendiente | 0/3 | — |

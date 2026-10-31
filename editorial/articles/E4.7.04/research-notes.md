@@ -1,7 +1,11 @@
-# Preparación · E4.7.04
+# Investigación · E4.7.04
 
-- E2.5.10/global805 permanece pendiente: no usar enlace inexistente ni afirmar consulta de artículo publicado.
-- F-058 corresponde aGranovetter1973, consultar original primario con alcance identificado; separar empleo/recomendación/enseñanza/capital sin promesas jurídicas o de inversión.
-- Faltan investigación específica, texto y revisión completa.
+Mark Granovetter · The Strength of Weak Ties · 1973
+https://sociology.stanford.edu/publications/strength-weak-ties
+F-058: resumen original primario enStanfordSociología leído, relación entrecírculos/información/oportunidades. CopiaoriginalPDFStanford descargada200 peroescanextracciónvacía, no afirmar lectura íntegra, tablas o resultados numéricos. Argumento limitadoa resumen. E2.5.10/global805 pendiente enregistroWP, sin enlace ni alegar lectura de entrada publicada.
 
-Tres originales completos e inspeccionados; faltan texto y revisión completa.
+Excluido:
+- E2.5.10/global805 pendiente: no enlazar una entrada inexistente.
+- Sin rentabilidad financiera, obligación recíproca implícita, contrato o consecuencias jurídicas universales.
+- Cuatro vías y pautas como propuestaMEE, no clasificación científica o legal.
+- Imágenes conceptuales sin transferencias, contratos, puestos o crecimiento garantizados.

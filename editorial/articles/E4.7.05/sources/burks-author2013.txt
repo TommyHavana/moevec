@@ -1,0 +1,5043 @@
+“You’d Be Perfect for This:” 
+Understanding the Value of 
+Hiring through Referrals 
+Stephen Burks 
+University of Minnesota, Morris 
+and IZA 
+Bo Cowgill 
+University of California, Berkeley 
+Mitchell Hoffman 
+Yale School of Management 
+and University of Toronto 
+Michael Housman 
+Evolv on Demand 
+Discussion Paper No. 7382 
+May 2013 
+IZA 
+P.O. Box 7240 
+53072 Bonn 
+Germany 
+Phone: +49-228-3894-0 
+Fax: +49-228-3894-180 
+E-mail: iza@iza.org 
+Any opinions expressed here are those of the author(s) and not those of IZA. Research published in 
+this series may include views on policy, but the institute itself takes no institutional policy positions. 
+The IZA research network is committed to the IZA Guiding Principles of Research Integrity. 
+The Institute for the Study of Labor (IZA) in Bonn is a local and virtual international research center 
+and a place of communication between science, politics and business. IZA is an independent nonprofit 
+organization supported by Deutsche Post Foundation. The center is associated with the University of 
+Bonn and offers a stimulating research environment through its international network, workshops and 
+conferences, data service, project support, research visits and doctoral program. IZA engages in (i) 
+original and internationally competitive research in all fields of labor economics, (ii) development of 
+policy concepts, and (iii) dissemination of research results and concepts to the interested public.  
+IZA Discussion Papers often represent preliminary work and are circulated to encourage discussion. 
+Citation of such a paper should account for its provisional character. A revised version may be 
+available directly from the author. 
+This is a pre-copyedited, author-produced version of an article accepted for publication in The Quarterly Journal of Economics 
+following peer review. The version of record [Stephen V. Burks et al. The Value of Hiring through Employee Referrals. The 
+Quarterly Journal of Economics (2015) 130 (2): 805-839] is available online at: https://doi.org/10.1093/qje/qjv010
+
+IZA Discussion Paper No. 7382 
+May 2013 
+ABSTRACT 
+“You’d Be Perfect for This:” 
+Understanding the Value of Hiring through Referrals 
+Employee referrals are a very common means by which firms hire new workers. Past work 
+suggests that workers hired via referrals often perform better than non-referred workers, but 
+we have little understanding as to why. In this paper, we demonstrate that this is primarily 
+because referrals allow firms to select workers better-suited for particular jobs. To test our 
+model, we use novel and detailed productivity and survey data from nine large firms in three 
+industries: call-centers, trucking, and high-tech/IT. Referred workers are 10-30% less likely to 
+quit and have substantially higher performance on rare “high-impact metrics” (e.g. creating 
+patents and avoiding truck accidents), despite having similar characteristics and similar 
+performance on non-rare metrics. To identify the source of these behavioral differences, we 
+develop four new statistical tests, all of which indicate that firms benefit from referrals 
+predominantly by selecting workers with a better fit for the job, as opposed to referrals 
+selecting workers with higher overall quality; to referrals enabling monitoring or coaching; or 
+to it being more enjoyable to work with friends. We document that workers refer others like 
+themselves, not only in characteristics but in behavior (e.g. unsafe workers refer other unsafe 
+workers), suggesting that firms may gain by incentivizing referrals most from their best 
+workers. Referred workers achieve substantially higher profits per worker and the difference 
+is driven by referrals from high productivity workers.  
+JEL Classification: 
+M51, J24, O32, J63, L84, L86, L92 
+Keywords: 
+referrals, productivity, worker selection, innovation, patents, cognitive ability, 
+non-cognitive ability, job testing, call centers, high-tech, software, trucking, 
+truck accidents 
+Corresponding author: 
+Stephen V. Burks 
+University of Minnesota, Morris 
+Division of Social Sciences 
+600 East 4th Street 
+Morris, MN 56267-2134 
+USA 
+E-mail: svburks@morris.umn.edu 
+
+IZA Discussion Paper No. 7382 
+May 2013 
+ 
+ 
+NON-TECHNICAL SUMMARY 
+ 
+“You’d Be Perfect for This:” 
+Understanding the Value of Hiring through Referrals 
+ 
+ 
+Hiring job applicants who were referred by current employees is a common practice, and 
+prior work supports its value. But there is little scientific evidence about exactly why referrals 
+work. Our analysis suggests that referrals work primarily because they allow firms to select 
+workers who are better suited for particular jobs. 
+ 
+We address this question using survey and operational data sets on workers from nine large 
+firms in three industries (call centers, high-tech/IT, and long distance trucking). In our data 
+referred workers are very similar to non-referred ones on most measures of individual 
+characteristics and on general productivity. However, they are more valuable to employers 
+because they are substantially less likely to quit, and also because they are measurably 
+better on “high-impact” metrics such as the number of patents or preventable truck accidents.  
+These differences matter: where we can estimate profitability per worker, referred workers 
+are significantly more profitable than non-referred ones.  
+ 
+We develop several tests of why referred workers perform better, and conclude that most of 
+the effects result from referred workers being a better match for the specific jobs for which 
+they are referred. This is in contrast to referred workers being generally more skilled, or to 
+referred workers having better experiences on the job, such as receiving coaching from those 
+who referred them.   
+ 
+Of possible interest to managers is the fact that not all referrals may be equal. Our analysis 
+suggests an underlying mechanism is behind the better performance of referred workers: that 
+people tend refer individuals who are similar to themselves. Part of the evidence is that in our 
+data the higher profitability of referred workers is driven by referrals that came from higher 
+quality employees. Thus, employers may wish to give priority to referrals from their best 
+current workers. 
+
+1
+Introduction
+Hiring is a critical decision for ﬁrms, with substantial time and resources spent on ﬁnding the right
+people.1 Indeed, some economists have argued that hiring may be at least as important for ﬁrms as
+the design of incentives (e.g. Prendergast, 2010; Oyer and Schaefer, 2011). One of the most common
+means of hiring is employee referrals, where employees at a ﬁrm recommend candidates for jobs. In
+the U.S., the online job platform CareerBuilder estimates that 69% of ﬁrms have an employee referral
+program, and roughly 50% of workers report being referred to their job by a friend or family member
+(Topa, 2012).2 The form of employee referral programs diﬀers, from cases where referred workers
+receive special consideration in the application process, to ones in which existing employees receiving
+signiﬁcant ﬁnancial bonuses for their friend getting hired. Employee referrals are also extremely
+common outside the U.S., both in developed and developing countries, and a growing economics
+literature documents that referrals help workers ﬁnd jobs and may increase their wages.3 However,
+there is much less work on the implications of referrals for ﬁrms. Why do ﬁrms use employee referral
+programs?4 Does referral-based hiring allow ﬁrms to get “better” workers and, if so, why?
+This paper oﬀers an answer to the largely unanswered question of why referred workers may
+perform better. We use a rich new dataset combining productivity and survey data from nine large
+ﬁrms in three industries, spanning hundreds of thousands of workers. We show that referred workers
+are substantially less likely to quit and perform better on rare events critical to ﬁrm performance;
+however, perhaps surprisingly, they have similar characteristics (e.g. cognitive and non-cognitive
+skills) and similar performance on non-rare performance metrics. Although there are competing ex-
+planations for why referred workers perform better, we provide evidence that referrals select workers
+who are better suited for the particular job. We show that this selection makes referred workers
+roughly 25% more proﬁtable than non-referred workers; further, people tend to refer others like
+themselves, making referrals from high productivity workers especially valuable.
+This paper disentangles “selection” and “treatment” impacts of referrals, and doing this has
+implications for economic theory, public policy, and management. Broadly, explanations for why
+1We thank Jason Abaluck, Joe Altonji, Meta Brown, Christian Catalini, David Card, Judy Chevalier, Ernesto Dal
+Bo, Constanca Esteves-Sorenson, Lisa Kahn, Mara Lederman, Jeremy Magruder, Barry Nalebuﬀ, Amanda Pallais,
+Mike Ryall, Kathryn Shaw, Chris Stanton, Steve Tadelis, and Giorgio Topa for helpful discussions. We thank seminar
+participants at Berkeley Haas, eBay Research, the Econometric Society (Summer 2012), the Institutions and Innovation
+Conference (2012), Microsoft Research, Rotterdam, Tilburg, Toronto, Yale, and Yale SOM for helpful comments. This
+paper is a heavily revised version of a chapter from Hoﬀman’s 2012 UC Berkeley dissertation. Burks acknowledges
+ﬁnancial support from the MacArthur Foundation, the Sloan Foundation, the Trucking Industry Program at Georgia
+Tech, and University of Minnesota, Morris. Cowgill acknowledges ﬁnancial support from the Kauﬀman Foundation.
+Hoﬀman acknowledges ﬁnancial support from the Kauﬀman Foundation and the National Science Foundation IGERT
+Fellowship. Finally, we thank the numerous managers and workers who shared their insights with us.
+2See CareerBuilder “Referral Madness: How Employee Referral Programs Turn Good Employees into Great Re-
+cruiters and Grow Your Bottom Line.” Galenianos (2011) reports that 37-53% ﬁrms advertise jobs through worker
+social networks. In a survey of ﬁrms on the last employee each ﬁrm hired, Holzer (1987) ﬁnds that 36% of ﬁrms ﬁlled
+their last opening using an employee referral.
+3See Ioannides and Loury (2004) and Topa (2012) for reviews of the literature, as well as papers cited below.
+4A simple reason ﬁrms use employee referral programs is to cut down on recruiting costs. Instead of paying to
+advertise jobs, ﬁrms can use employee referral programs to directly connect with candidates. While our paper mostly
+focuses on whether employee referrals lead to “better” workers, we return in Section 7 to referrals reducing recruiting
+costs in our analysis of the proﬁt implications of referrals.
+2
+
+referred workers may perform better are either about selection—the type of worker joining the ﬁrm–
+or treatment—eﬀects of referrals after work has begun. In terms of selection, referrals may lead to
+workers who are either better overall or better suited for the particular job. In terms of treatment,
+referred workers could receive mentoring or coaching from referring workers, or ﬁnd it more enjoyable
+to work with their friends. For economic theory, understanding what social networks actually do
+informs how they should be modeled.5 For public policy, if referrals lead to better selection of workers
+for jobs, policy eﬀorts on “networking” may be best targeted to the unemployed, whereas if referrals
+beneﬁt workers via treatment (e.g. coaching or monitoring), eﬀorts may instead focus on mentoring
+and other support programs once work has begun. For managers, whether referral impacts operate
+through selection or treatment is important for the optimal design of employee referral programs.
+We begin by developing a simple model of referral-based hiring. Firms receive more precise signals
+about job-match from referred applicants compared to non-referred applicants. We prove that this
+informational advantage leads to referred workers being better selected. In addition, after starting
+work, referred workers have a lower disutility of eﬀort than non-referred workers since referring
+workers provide coaching to and monitor the work of referred workers.
+We test these mechanisms using a rich new dataset ideally suited for studying why ﬁrms use
+referrals. Since individual-level productivity data is scarce, many empirical papers in personnel and
+organizational economics use data from one ﬁrm.6 While powerful insights can still be drawn, there
+is often a question of whether the results generalize to other workers and ﬁrms in the economy.
+In contrast, our paper uses data from nine ﬁrms in three industries, deliberately chosen to span a
+broad range of worker types and skill groups.7 Although there are diﬀerences across industries that
+we highlight along the way, our results are surprisingly consistent across ﬁrms and industries. This
+suggests that our ﬁndings may be relevant for many ﬁrms in the economy, although we certainly
+acknowledge that questions of generalizability may remain, even with nine ﬁrms.
+From a larger
+set of ﬁrms we considered for this project, we chose nine for our dataset where we had strong
+institutional knowledge and which shared a number of common data elements. For all ﬁrms, we have
+high-frequency individual productivity data across multiple dimensions, as well as demographics,
+cognitive skills, non-cognitive skills, and work friendships. As we show later, these data elements
+are critical for isolating how referrals may select “better-matched” new workers and for separating
+selection from treatment eﬀects.
+The ﬁrst contribution of the paper is to compare referred and non-referred workers using hundreds
+of thousands of workers, millions of applicants, and a large number of outcomes, including worker
+productivity. Past work relating referral status to direct measures of worker productivity is very
+5For example, Montgomery (1991) oﬀers a model of referrals and wage determination based on selection eﬀects of
+referrals, whereas Kugler (2003) oﬀers one based on treatment eﬀects of referrals.
+6For an excellent recent example, see Lazear et al. (2012). There are also many studies using matched employee-
+employer datasets or detailed cross-ﬁrm surveys, but these datasets usually do not contain productivity at the individual
+worker level. We are one of the ﬁrst papers in personnel and organizational economics (to our knowledge) to study
+individual productivity data from multiple ﬁrms.
+7Call-center work is a relatively low-skill job, long-haul trucking is a moderate-skill job, and high-tech work requires
+advanced skills. Having a broad range of skills groups in the data is quite useful, as the value of referral-based hiring
+may be thought to vary based on the type of job.
+3
+
+limited.8 In addition, several of the outcomes and characteristics we study, namely innovation, work
+accidents, cognitive skills, non-cognitive skills, and experimental economic preferences, have never
+before been related to referral status (to our knowledge). Cognitive and non-cognitive skills are
+believed to be critical determinants of socioeconomic outcomes and overall workplace performance
+(Neal and Johnson, 1996; Heckman et al., 2006), yet referred and non-referred workers look similar
+on these, as well as on other characteristics and on non-rare performance metrics. However, referred
+workers are substantially less likely to quit in all three industries, and perform better on rare “high
+impact” outcomes. Referred truckers have a 12% lower chance of having a preventable accident.
+Referred high-tech workers are signiﬁcantly more innovative, being about 20% more likely to develop
+a patent than non-referred workers, even after controlling for a large number of observable job type
+and worker controls.
+The second and primary contribution of the paper is provide direct evidence on selection vs.
+treatment impacts of referrals using four new tests, all of which indicate that referral impacts operate
+through selection.
+First, we show using event studies that referred employee performance does
+not suﬀer after the referring employee exits.9
+If referrals operate through treatment eﬀects, e.g.
+mentoring or coaching, we might have expected there to be a negative impact. Our second strategy
+is a regression discontinuity design analyzing referred worker behavior shortly before and after referral
+bonus tenure thresholds (e.g. the referred worker needs to stay six months for the referring worker
+to receive a bonus). If referrals operate through treatments eﬀects, one would think that the referred
+worker would be willing to postpone quitting by a day or week so that the referring worker can
+receive a bonus, but we see no evidence of this in the data. Third, we demonstrate that unlike
+referral status, the number of friends formed after the start of work does not signiﬁcantly aﬀect
+quitting, productivity, or high-impact outcomes. If referrals increase performance because referring
+workers serve as friends who provide mentoring or because it is more enjoyable to work with friends,
+having more friends should lead to higher performance; but this would not be true if referrals operate
+though selection. Fourth, referred workers score signiﬁcantly higher on pre-job tests of job-speciﬁc
+skills and receive higher interview scores. Since these questions are asked before work has begun,
+they are unlikely to be due to improved monitoring or mentoring, or to people being more productive
+working with their friends.
+The third contribution of the paper is to provide new evidence on homophily as a mechanism for
+selection and to quantify the implications of selection and homophily for the proﬁtability of referred
+vs. non-referred workers. We show that there is homophily in referrals, that is, a tendency of people
+to refer others like themselves, not only in characteristics, but also in behaviors. Conditional on
+worker zip code, existing employees tend to refer others of a similar age, ethnicity, gender, marital
+status, and smoking status. In addition, referred workers tend to refer others with similar work
+8The only paper we are aware to relate referral status to direct measures of productivity in a ﬁrm is a sociology
+study, Castilla (2005), using a few hundred workers.
+9Out of the four strategies, this is the only one for which we are aware of any parallel in the literature. Speciﬁcally,
+the sociology study, Fernandez et al. (2000), regress whether a worker quits on whether the referring worker ever quits.
+In contrast, our design exploits the timing of quitting, both in diﬀerence-in-diﬀerence and event study speciﬁcations,
+analyzing how referred worker behavior changes after the referring worker quits; see Section 5.
+4
+
+behaviors. All else equal, more productive workers tend to refer other productive workers. Workers
+who have had trucking accidents end up referring other workers who go on to have trucking accidents.
+We compute that referred workers obtain 25% higher proﬁts compared to non-referred workers. We
+show further that proﬁts per worker vary widely depending on the identity of the person making the
+referral. Referrals from below-median productivity referring workers yields proﬁts per worker below
+that of non-referred workers. In contrast, referrals from above-median productivity referring workers
+are extremely proﬁtable.
+The literature on referrals was pioneered by sociologists, particularly Granovetter (1973, 1974).
+In more recent work by sociologists, Fernandez et al. (2000) and Castilla (2005) analyze diﬀerences
+between referred and non-referred workers at a call-center. There is also substantial work on employee
+referrals in the industrial psychology literature.10
+In economics, our paper adds to a growing literature analyzing the importance of social networks
+for worker and ﬁrm performance (Bandiera et al., 2009, 2010; Bayer et al., 2008; Beaman, 2012;
+Hellerstein et al., 2011; Kugler, 2003; Laschever, 2009; Mortensen and Vishwanath, 1995; Pallais,
+2013; Schmutte, 2012; Wahba and Zenou, 2005).11 Beaman and Magruder (2012) conduct a ran-
+domized trial in India to analyze the impact of referral incentives; using a laboratory experiment
+where subjects were asked to refer new subjects and paid under diﬀerent incentives based on those
+subjects’ performance, the authors show that people have information about their friends’ abili-
+ties. In a paper also using personnel data, Brown et al. (2012) study data from a U.S. corporation,
+comparing referred and non-workers on hiring, wage growth, turnover, and promotions. Our paper
+diﬀers in that we focus on separating selection vs. treatment eﬀects of referrals. Two papers that
+are related to selection vs.
+treatment eﬀects of referrals are Heath (2011) and Dustmann et al.
+(2012). Heath (2011) analyzes survey data from Bangladeshi garment workers to argue that referrals
+help solve limited liability problems. Using ethnic hiring patterns with German administrative wage
+data, Dustmann et al. (2012) argue that referrals reduce information ineﬃciencies. By using direct
+measures of worker productivity, our paper provides sharp tests on selection vs. treatment. More
+broadly, our paper contributes to the economics literature on how human resource practices aﬀect
+ﬁrm productivity;12 more speciﬁcally, it contributes to the economics literature on hiring, an area
+which Oyer and Schaefer (2011) argue is signiﬁcantly under-studied.
+The paper proceeds as follows. Section 2 presents our model of hiring and worker behavior under
+referrals. Section 3 describes the data. Section 4 provides results on diﬀerences between referred
+and non-referred workers. Section 5 provides tests to separate treatment and selection impacts of
+referrals. Section 6 probes further into the nature of the selection in the data. Section 7 explores the
+implications of referrals and type of referring worker for ﬁrm proﬁts. Section 8 concludes.
+10For surveys, see Breaugh (2008) and Zottoli and Wanous (2000). A limitation of this literature is that the sample
+size is often small and usually does not use the tools of applied microeconomics.
+11Calvo-Armengol and Jackson (2004) argue that social networks can have important eﬀects on wage diﬀerentials
+and lifetime inequality. For a detailed treatment of the growing theoretical literature on social networks in economics
+in general, see Jackson (2008).
+12The literature is too large to discuss here, but see e.g., Ichniowski et al. (1997) for a seminal paper and Bloom and
+Van Reenen (2011) for a recent survey.
+5
+
+2
+Conceptual Framework
+We build a model of hiring incorporating both treatment and selection impacts of referrals. We
+do this because both selection and treatment eﬀects have been recognized as potentially important,
+particularly outside the academic literature. Baron and Kreps (1999), a leading MBA textbook,
+describe both as part of the conventional wisdom of what referrals do. Baron and Kreps (1999, p.
+342) describe how referrals may be a selection device, exploiting the superior information held by
+existing employees about candidate qualities. In addition, Baron and Kreps (1999, p. 342) describe
+how referring workers may provide support and coaching to colleagues they refer, that is, a treatment
+eﬀect may be operative.
+Our goal is to provide the simplest framework for understanding how referrals can have selection
+and treatment impacts on worker performance; we use this framework later in Section 5 to situate
+our diﬀerent econometric tests of selection vs. treatment. In addition, we lay out a condition for
+positive selection of referred workers when the ﬁrm endogenously chooses a hiring policy that may
+set a lower standard for referred workers. The model is related to the referrals model in Dustmann
+et al. (2012) and Brown et al. (2012).
+Consider a ﬁrm hiring from a population of potential new workers, each with an outside option
+of 0. Each worker have an underlying match quality m drawn from a distribution N
+
+µ0, 1
+h0
+
+; that
+is, µ0 is the mean and h0 is the precision. When workers apply for the job, a normally distributed
+signal bm is observed about their match quality. For referred applicants, the signal is denoted by
+bmR whereas for non-referred (or external) applicants, the signal is denoted by bmE. Speciﬁcally, we
+assume that bmR ∼N
+
+m, 1
+hR
+
+and bmE ∼N
+
+m,
+1
+hE
+
+, where hR > hE; that is, the ﬁrm observes
+more precise signals about referred than non-referred workers. We denote whether a worker was
+referred by the dummy variable r ∈{0, 1}.
+The sequence of events in the model is as follows:
+1. The ﬁrm receives applications from referred workers and observes a signal bmR for each one.
+The ﬁrm hires if the signal, bmR, exceeds a hiring threshold, m∗
+R.
+2. The ﬁrm receives applications from non-referred workers and observes a signal, bmE, for each
+one. The ﬁrm hires if the signal exceeds a hiring threshold, m∗
+E.
+3. The worker’s true match m is realized. Production occurs with y = m + αe. Workers have a
+cost of eﬀort ce that is drawn from a distribution function F (ce). Workers choose an eﬀort
+level e ∈{0, 1} to maximize utility.
+We make the following assumptions about worker utility and proﬁts:
+• The new worker’s utility is: u = w + (T (r, f) −ce)e. We assume that wages are determined
+by Nash Bargaining, with w = βy = β(m + αe). That is, workers bargain to receive a share
+β of output. The term T (r, f) represents the treatment impact of referrals, for example, from
+monitoring or coaching. Denoting a worker’s friends by f, we also allow T (r, f) to depend on
+6
+
+a person’s number of friends. For now, we assume that T (r, f) = krr, but we will relax this
+assumption later in Section 5.3.
+• Proﬁts for the ﬁrm are production minus the wage bill: Π = (1 −β) y = (1 −β) (m + αe).
+We solve backwards, beginning with the worker’s eﬀort decision. A worker will choose to exert
+eﬀort if krr + βα −ce > 0, which occurs with probability F (krr + βα). The treatment beneﬁt from
+referrals is thus parameterized by kr.
+We now move to the ﬁrm’s decision about which applicants to hire. Firms will choose a hiring
+threshold m∗for referred and non-referred workers such that they earn 0 proﬁts for signals at the
+threshold. Speciﬁcally, they will choose m∗so that E (π|m∗) = 0, leading to
+0
+=
+h0
+h0 + hµ0 +
+h
+h0 + hm∗+ αF (βα + krr)
+m∗
+=
+−h0µ0
+h
+−(h0 + h) αF (βα + krr)
+h
+If fewer than half the workers in the population would not be well-suited for the job (i.e. µ0 < 0),
+then this equation establishes that referred applicants will face a lower hiring standard than non-
+referred applicants. That is, conditional on a signal of applicant quality, referred workers will be
+more likely to get hired.13
+Because referred workers may face a lower hiring standard, it is not obvious that referred workers
+will have higher average match quality. However, solving further in Appendix A, we obtain that this
+is so:
+Proposition 1 Referred workers will have higher productivity than non-referred workers. Suppose
+that the eﬀort cost reduction from being referred, kr, is not excessively large. Then, observed produc-
+tivity diﬀerences will reﬂect both selection and treatment eﬀects. That is, referred workers will have
+higher average match quality and will exert more eﬀort.
+To establish Proposition 1, we suppose that kr is not excessively large. This assumption is made
+because when there are treatment eﬀects from referrals, ﬁrms will further lower the hiring standard
+for referred applicants, anticipating that referred workers will do better ex post because of treatment
+eﬀects. Assuming kr is not excessively large rules out that the ﬁrm, anticipating very large treatment
+eﬀects, would lower the hiring standard for referred workers so much so as to obtain negative selection.
+Probably the most important implication of Proposition 1 is that simple performance comparisons
+will not be able to tell us to what extent selection and/or treatment eﬀects are operative, since both
+selection and treatment will contribute to performance diﬀerences. Thus, we need to develop more
+ﬁne-tuned empirical tests to isolate selection and treatment.
+Discussion of Model Assumptions. In the model, there is only one dimension of worker
+performance, y. There is no quitting decision and no separation between diﬀerent production ac-
+tivities (e.g. “standard” activities like writing code or producing miles vs. “high-impact” activities
+13Indeed, we observe that referred workers are substantially more likely to be hired; see Table C7.
+7
+
+like developing new patents or avoiding trucking accidents). This is done solely to ease exposition
+and we may think of y as encapsulating all dimensions of performance, including retention, non-rare
+productivity measures, and high-impact productivity measures.
+In addition, the model is static. However, it does not seem it would be conceptually diﬃcult
+to make it dynamic, either with two periods (Brown et al., 2012) or an inﬁnite number of periods
+(Dustmann et al., 2012). Our static model is well-suited for the empirical work, given that our focus
+is not on wage dynamics.
+Finally, we emphasize that our conceptual framework contains several speciﬁc assumptions (e.g.
+that signals are normally distributed). Though these assumptions seem reasonable to us, we caution
+against generalizing too broadly.
+3
+Data
+For each of the 3 industries, we describe the production process, how productivity is measured, the
+survey data, and how referral status is measured. Some details about the ﬁrms cannot be given
+due to conﬁdentiality restrictions. Due to space constraints, we provide variable deﬁnitions (e.g.
+cognitive and non-cognitive skills) in Appendix B. Table C1 summarizes the data available from the
+three industries.
+Call-centers. The call-center data are from seven ﬁrms in the call-center industry, covering
+the period 2008-2012. The data have about 350,000 applicants and about 50,000 employees. Each
+of the seven ﬁrms provides service to large end-user companies, e.g. large credit card or cellular
+phone companies.14 The workers are primarily from diﬀerent parts of the U.S., with a small number
+from the Philippines, India, and Mexico. In these call-centers, the production process consists of
+in-bound and out-bound calls, with workers doing primarily customer service or sales work. Perfor-
+mance is measured using several industry-standard productivity measures: schedule adherence (or
+‘adherence’), average handle time (lower is better), the share of sales calls resulting in a successful
+sale, the share of time that a manager listens in and judges the service provided to be of high quality
+(quality assurance), and the share of time that the customer reports being satisﬁed with their expe-
+rience. One very important outcome is turnover. In the call-center industry, turnover is very high
+and is costly for ﬁrms. In our data, roughly half of workers leave within the ﬁrst 90 days. For the
+call-centers, a great deal of information is available from applicant job tests. The job tests numerous
+questions measuring cognitive ability and non-cognitive ability (namely, personality questions that
+can be mapped to the Big 5 characteristics), as well as asking the number of friends they have at the
+company and people they know working at the company. Referral status is measured via a self-report
+on the applicant’s job test (“Were you referred to this job application by someone that already works
+for this company?”)
+Trucking. The trucking data are from a very large U.S. trucking ﬁrm, covering the period 2002-
+14The ﬁrms contract with a ﬁrm called Evolv on Demand, which provides them with employee screening software
+and consulting services. We obtained the data from Evolv on Demand.
+8
+
+2009. To preserve the anonymity of the ﬁrm, we do not release the exact total number of applicants,
+employees, or employee-weeks in the sample. In the trucking ﬁrm, the production process consists
+of delivering loads between diﬀerent locations. The drivers are paid almost exclusively by the mile
+(a piece rate), are non-union, and are away from home for long periods of time.
+The standard
+productivity measure in long-haul trucking is miles driven per week.
+There are substantial and
+persistent productivity diﬀerences across workers in miles per week, even though most drivers work
+the same number of hours (60 hours per week, which is the federal legal limit). A rare, but high-
+impact performance metric in trucking is accidents. In addition, turnover is also very high in trucking,
+with ﬁrms spending signiﬁcant sums in trying to ﬁnd ways to reduce quits. The baseline data include
+weekly productivity, accidents, quits, and a number of background characteristics, and are available
+for tens of thousands of workers.
+In addition, very detailed survey data are available for a subset of 900 new drivers who received
+training starting in late 2005 and 2006. For these drivers, there is information on social networks
+at work, detailed demographics, cognitive ability, non-cognitive ability (personality), experimental
+preferences, who referred whom, and surveys about work satisfaction.15
+Referral status for truckers is measured using both a survey question in the job application (how
+the worker found out about the job) and using administrative data from the ﬁrm’s employee referral
+program.
+These two measures of referral status are highly correlated, suggesting that both are
+reliable (see Appendix B.1). Only for the trucking ﬁrm do we have matched data on who referred
+whom, and we only have the match for the period 2007-2009.
+High-tech. We use data from a large high-tech ﬁrm covering the period 2003-2008. The data
+have about 1.18 million applicants and about 25,000 employees. Most workers in the sample are high-
+skill individuals with advanced education. At the high-tech ﬁrm, the production process depends on
+the job type. The largest share of the workers are engineers and computer programmers. In addition,
+some workers are in sales and customer support.
+Our standard productivity measures for these
+workers are subjective performance reviews (provided by the employee’s supervisors) and detailed
+objective measures of employee behavior, including hours worked and the number of times one
+reviewed or debugged other people’s code, built new code, or contributed to the ﬁrm’s code library.
+In addition, we have data on worker innovation, a rare, but high-impact aspect of performance in
+many high-tech ﬁelds. Worker innovation is measured using patent applications and contributions
+to the ﬁrm’s internal ideas board.16 Turnover is very low at the high-tech ﬁrm, with workers staying
+years with the ﬁrm, instead of months or days as in the other industries. The high-tech workers
+are surveyed occasionally by the human resources department, giving us information on personality
+characteristics and work friendships. For the high-tech workers, referral status is measured using
+15See Burks et al. (2008) and Appendix B for more on the collection of the data.
+16At the high-tech ﬁrm, employees who create an invention ﬁle an Invention Disclosure Form. Attorneys from the
+ﬁrm then decide whether to ﬁle a patent application. Most of these patent applications are later approved as patents,
+but the process usually takes several years.
+For the data analysis in the paper, our variable of interest is patent
+applications per employee. This is advantageous in two respects. First, patent applications are observed right away
+(whereas actual patent award occurs usually multiple years later, though the two are highly correlated). Second, it
+allows us to compare referred and non-referred workers in terms of the ideas that the ﬁrm thought were most valuable
+to patent, instead of merely all the ideas that an inventor chose to disclose.
+9
+
+administrative data from the company’s employee referral program (i.e. a current employee forwarded
+an applicant’s resume to the HR department).
+4
+Referral Status and Worker Performance
+In this section, we examine whether referred and non-referred workers diﬀer in characteristics and
+behaviors. We ﬁrst show that referred workers do not appear to have superior overall characteristics
+(such as higher schooling, cognitive ability, and non-cognitive ability), suggesting against referrals
+selecting “better overall” workers. Next, we document whether referred and non-referred workers
+diﬀer in quitting, non-rare performance metrics, and rare high-impact performance metrics; we
+postpone the question of whether the diﬀerences are due to superior selection for the particular job
+or treatment eﬀects until Section 5.
+Characteristics. It is possible that referred workers could have overall better attributes than
+non-referred workers. However, Table 1 shows that referred and non-referred applicants and workers
+look mostly similar in terms of schooling, work experience, cognitive ability, non-cognitive ability, and
+experimental preferences.17 It presents regressions of characteristics on referral status and controls:
+yi = α + β ∗REFi + Xiλ + ϵi
+(1)
+where yi is an individual characteristic of interest, REFi is a dummy for being referred, Xi are
+demographic controls, and ϵi is an error. Throughout the paper, standard errors are clustered at the
+worker level (or for pre-work analysis, at the applicant level).18 In Panel A, we see that referred call-
+center applicants and referred trucking workers actually have 0.09 and 0.20 fewer years of schooling,
+respectively, whereas referred high-tech workers have 0.05 more years of schooling. Referred and
+non-referred truckers look similar in terms of years of related experiences (experience with a large
+on-road vehicle), the number of jobs held in the last two years, and the longest duration of the
+previous job.
+Panel B shows that referred and non-referred workers have similar levels of cognitive ability. Re-
+ferred truckdrivers actually score 0.12 standard deviations lower on an IQ test and referred high-tech
+workers score 15 points higher on the SAT test (neither diﬀerence is statistically signiﬁcant). Panel
+C shows that referred workers also do not have superior levels of non-cognitive ability, measured
+through the Big 5 personality characteristics. Referred call-center applicants have slightly less de-
+sirable non-cognitive skills than non-referred applicants, scoring 0.02 standard deviations lower on
+the overall Big 5 Index. Referred applicants are slightly less conscientious, less agreeable, and less
+open, though they are more extroverted. Similar patterns are observed for trucking workers, where
+referred workers score (a statistically insigniﬁcant) 0.03 standard deviations lower in the overall Big
+17While we have rich characteristics data on workers in all three industries, we only have rich characteristics data
+on applicants for call-centers. For brevity, we present Table 1 focusing on the applicants from the call-center industry;
+in the call-center data, the referred vs. non-referred patterns among workers are similar to the ones among applicants.
+18We do this because referral status, the main regressor of interest, varies at the individual level. We have explored
+diﬀerent ways of clustering across the three industries and the results are generally very robust. For example, we get
+similar results if instead we cluster at the location level.
+10
+
+5 Index. In addition, the patterns are also roughly similar for high-tech referred workers, who are
+less agreeable and more extraverted. On the overall Big 5 Index, referred high-tech workers score
+0.01 standard deviations higher (also insigniﬁcant).19,20
+Panel D shows that referred workers also look similar in terms of experimental measures of
+preferences. While referred workers do not appear advantageously selected in terms of standard
+measures of human capital and ability (schooling and IQ), it could be the case that they diﬀer
+in terms of hard to measure individual dimensions. For example, referred workers might be more
+likely to stay because they are more patient, because they have a greater risk tolerance for the weekly
+swings in truckdriver income, or because they are more altruistic. The data, however, do not support
+this. The one signiﬁcant diﬀerence is that referred workers are actually somewhat less trusting than
+non-referred workers in a trust game.
+It is important to note that, with the exception of SAT scores in high-tech, our measures of
+cognitive skills (Panel B), non-cognitive skills (Panel C), and experimental preferences (Panel D)
+were not observed by ﬁrms at the time of hire.21 This is useful because according to our conceptual
+framework, if the ﬁrm has more precise information about an unobserved trait for referred applicants,
+then we should see higher levels of that trait among referred workers. That we do not see diﬀerences
+suggests that there is not more precise information on referred applicants about overall ability, leading
+us instead to examine other outcomes.22
+Quitting. Despite similarities in observable characteristics, referred workers are substantially
+less likely to quit, and the eﬀect is quite robust. Retention is a critical outcome for many ﬁrms, and is
+a commonly used measure of worker performance in personnel economics, particularly in lower-skill
+high-turnover settings (e.g. Autor and Scarborough, 2008). Figure 1 compares survival curves with
+no covariates, showing that for all three industries, referred survival exceeds non-referred survival.
+19There is a large and growing literature in economics on the importance of cognitive and non-cognitive skills for
+socioeconomic and workplace outcomes.
+See Borghans et al. (2008) for an excellent survey.
+In a recent example,
+Lindqvist and Vestman (2011) show that both cognitive and non-cognitive skills play important roles in explaining
+lifetime wage and employment patterns. In another paper looking at cognitive and non-cognitive skills as important
+measures of general worker ability, see Dal Bo et al. (2013), who show that randomly increasing wages for public sector
+workers increases the cognitive and non-cognitive skills of applicants.
+20The reader may also ask whether cognitive and non-cognitive skills predict performance for the workers we study.
+Also using the subset of 900 workers from the trucking ﬁrm we analyze, Rustichini et al. (2012) show that cognitive
+and non-cognitive skills help predict worker strategies in experimental games, health behavior, worker retention, and
+worker accidents (they do not study referral status). Looking at our call-center and high-tech workers, we also ﬁnd
+signiﬁcant associations between cognitive and non-cognitive skills and performance, consistent with the large related
+literature in industrial psychology (Barrick and Mount, 1991). Results available on request. For our paper, controlling
+for cognitive and non-cognitive skills has little impact on the relationship between referral status and the various
+performance variables; this in unsurprising, given the very weak correlation between referral status and cognitive and
+non-cognitive skills.
+21In the call-centers, data on cognitive and non-cognitive skills, as well as substantial other information about work-
+relevant skills and job ﬁt, is collected by the job testing company, Evolv; only a ﬁnal hiring recommendation is shared
+to the call-center ﬁrms. In trucking, the data was collected by the authors on workers during training. In high-tech,
+the data on non-cognitive skills were collected in a survey of existing workers.
+22Besides regressions, we also show raw means of referred and non-referred workers in Tables C2-C5. While we see
+some diﬀerences between referred and non-referred workers in terms of demographics (depending on the industry), there
+are few diﬀerences in terms of work experience, cognitive ability, non-cognitive ability, and experimental references (as
+in the regression estimates).
+One diﬀerence is that referred workers report having slightly lower income had they
+continued at their past jobs.
+11
+
+Table 2 adds covariates, estimating Cox Proportional Hazard models of the form:
+log(hitτ) = αt + β0 ∗REFi + γτ + Xiλ + ϵitτ
+where hitτ is the quit hazard of worker i with tenure t at time τ; REFi is a dummy for whether
+worker i is referred; γτ is a time ﬁxed eﬀect; Xi are individual covariates (including time of hire ﬁxed
+eﬀects); and ϵitτ is an error. The main coeﬃcient of interest is β0 expressing the diﬀerence in quit
+rate between referred and non-referred drivers. Panel A shows that referred call-center workers are
+13% less likely to quit. Panel B shows that referred truckers are about 12% less likely to quit. Given
+the coeﬃcient on driver home state unemployment rate of −0.04, the reduction in quitting among
+referred workers is of the same magnitude impact as that from a 3 percentage point increase in the
+driver’s home state unemployment rate. Among the high-tech workers, referred workers are around
+30% less likely to quit. The coeﬃcients are quite robust to adding various controls, including average
+productivity to date for truckers and average interview scores for high-tech workers.23
+Although Table 2 and subsequent analysis focus on quits, which are much more common than
+ﬁres in all three industries, we also ﬁnd that referred workers are less likely to be ﬁred.24
+Non-rare Productivity. Table 3 shows that referred and non-referred workers tend to have
+similar productivity on non-rare metrics. We estimate regressions of the form:
+yitτ = αt + β ∗REFi + γτ + XiΓ + ϵitτ
+(2)
+where yi,t is worker i’s productivity in his tth period of tenure with the company in time period
+τ, αt is a tenured ﬁxed eﬀect, γτ is a time ﬁxed eﬀect, Xi are controls (including cohort of hire
+ﬁxed eﬀects), and ϵitτ is an error. To ease comparisons across performance measures and across
+industries, we normalize the y variables, so that all coeﬃcients can be interpreted in terms of standard
+deviations. In the call-center industry and in trucking, there is no evidence that referred workers
+are more productive. In the call-center data, there are no statistically signiﬁcant diﬀerences between
+referred and non-referred workers on 4 of 5 productivity measures, and on sales conversion, referred
+workers are slightly less productive, though the diﬀerence is quite small. Referred workers have a
+sales conversion rate that is -0.03 standard deviations below that of non-referred workers, and the
+standard error of 0.015 means we can rule out a diﬀerence of more than −0.05 standard deviations.
+In trucking, referred workers are 0.02 standard deviations less productive, but the coeﬃcient becomes
+essentially 0 once zero mile weeks and other outliers are eliminated. In high-tech, referred workers
+23Although the question falls outside the scope of our model, we also examined whether the impact of referral status
+on quitting varies with the business cycle or worker characteristics (such as driver experience level, driver tenure, and
+whether the driver has a training contract), focusing on data from trucking where we have the greatest statistical power.
+We found little evidence that the impact of referral status varies much with business cycle or worker characteristics.
+The impact of referral status was not signiﬁcantly aﬀected by the local unemployment rate, whether the driver was
+experienced or brand-new to trucking, or training contracts. In terms of tenure, referral eﬀects actually became slightly
+stronger as tenure increased, but this was only marginally signiﬁcant at the 10% level. Results available on request.
+24In all three industries, we can distinguish quits and ﬁres in the data. Referred workers are 3%, 13%, and 36% less
+likely to be ﬁred in call-centers, trucking, and high-tech, respectively. The diﬀerence is highly statistically signiﬁcant
+for trucking, but not quite statistically signiﬁcant for call-centers and high-tech, reﬂecting that ﬁres are much less
+common than quits.
+12
+
+have slightly higher subjective performance scores (0.04 standard deviations higher), but score no
+better on most objective performance measures.
+Overall for high-tech, referred workers may be
+slightly more productive, but the diﬀerence is not robust. As seen in the tenure-productivity curves
+in Figure 2, productivity between referred and non-referred workers is similar at most tenure levels.25
+Rare High-impact Productivity Measures. Although referred workers have similar or only
+slightly higher productivity on most standard measures, they do appear to score signiﬁcantly higher
+on “high-impact” measures. In the trucking industry, although productivity is measured in miles
+per week, an extremely important measure of performance is driver accidents, both from a business
+and policy point of view. Table 4 analyzes diﬀerences between referred and non-referred workers
+in accident risk. Using a linear probability model, we estimate that referred workers have a weekly
+accident probability that is about 0.13 percentages points below that of non-referred workers. Given a
+baseline accident probability of about 2% per week, this indicates that referred workers have roughly
+a 7 percent lower risk of having an accident each week. This ﬁnding is robust to including very rich
+controls.
+An alternative explanation for why referred drivers have fewer accidents, that is unrelated to
+treatment or selection impacts of referrals, is that referred workers may be assigned diﬀerent roles in
+a ﬁrm than non-referred workers. Although we have rich controls for the type of work that diﬀerent
+drivers are doing, it might be possible that referred workers are receiving preferential treatment or
+work type assignment by the ﬁrm on some unobserved dimension. To address this, we take advantage
+of the fact that accidents are divided into “preventable,” accidents the driver had control over, and
+“non-preventable,” accidents the driver could not control. As seen in column 2, referred drivers are
+a highly signiﬁcant 12.1% less likely to have preventable accidents, but only 3.7% less likely to have
+non-preventable accidents (this is not statistically signiﬁcant).26
+Table 5 shows that referred high-tech workers are also more innovative than non-referred workers.
+Panel A shows that referred workers are signiﬁcantly more likely to ﬁle patent applications compared
+to non-referred workers. Patents are a standard measure of idea production in ﬁrms (e.g. Henderson
+and Cockburn, 1996), and though relatively rare in patents per worker, are believed to be an im-
+portant driver of ﬁrm performance (Bloom and Van Reenen, 2002). Column 1 shows that referred
+workers develop about 0.18 more patents per worker, which falls to 0.14 once full demographic con-
+trols are applied. Given that the distribution of patents per employee is highly skewed, we estimate
+negative binomial models in columns 3 and 4, ﬁnding that referred workers produce about 24% more
+25One confound to estimating the relationship between referral status and productivity is diﬀerential attrition based
+on productivity. Among non-referred workers, the “bad apples” might get “weeded out” after some period of time,
+whereas both low-ability and high-ability referred workers may stick with the job. As a robustness check, we have
+re-done Table 3 restricting to workers at lower tenure levels. The results are very similar and available on request.
+Other approaches to address this concern would be to estimate a simultaneous equation model of productivity and
+retention with a common latent factor, or to estimate a fully structural dynamic model of productivity and retention
+(Hoﬀman and Burks, 2012), though doing either of these would require relatively strong assumptions.
+26The classiﬁcation of preventable vs. non-preventable accident is made by analysts at the trucking ﬁrm’s insurance
+subsidiary and is based on Federal Motor Carrier Safety Administration guidelines. While the distinction is based on
+objective criteria, it is still imperfect, and safer drivers may also be likely to have fewer non-preventable accidents.
+Thus, if referred workers are safer, it is not surprising that they are also slightly less likely to have non-preventable
+accidents.
+13
+
+patents than non-referred workers.27 Referred workers are also 1 percentage point more likely to
+ever patent (only 6% of workers ever patent at the ﬁrm). To account for patent quality, we also look
+at citation-weighted patents in columns 7 and 8, merging in patent citation data from the NBER
+Patent Database. Patent citations are the most widely used measure of patent quality (e.g. Jaﬀe et
+al., 1993). Referred workers achieve 19% more citation-weighted patents than non-referred workers.28
+Panel B shows that referred workers also are more innovative in terms of the number of ideas they
+contribute to the ﬁrm idea board. The high-tech ﬁrm has a structured online forum for proposing
+new business and technology ideas, to which all employees at the ﬁrm can contribute.
+Though
+many ideas are never implemented, several of the ﬁrm’s most successful projects were proposed on
+the idea board. Since the number of ideas per person is highly right-skewed, we estimate negative
+binomial models, ﬁnding that referred workers produce 8-9% more ideas.29 Similar signiﬁcance levels
+(though smaller magnitudes) are achieved using OLS with log(1+ideas) as the dependent variable.
+One concern with interpreting this diﬀerence in ideas proposed as a true diﬀerence in useful ideas
+produced is that referred workers may have less of a “ﬁlter” and propose lower quality ideas than
+non-referred workers. However, Table C8 shows that the ratings assigned by fellow employees to the
+ideas of referred workers are no worse than the ideas of non-referred workers, helping rule out the
+diﬀerential ﬁlter explanation.
+Discussion. How do the diﬀerences we ﬁnd between referred and non-referred workers relate to
+those in other work? In terms of non-rare productivity, Castilla (2005) ﬁnds that referred workers
+have 3.5% more phone calls per hour than non-referred workers (0.7 more calls per hour, oﬀa base
+of 20 calls per hour), using data from the call-center at one bank. Using a much larger sample, our
+95% conﬁdence interval for the relative performance advantage of referred workers is [−0.149, 0.020],
+or in percentage terms, [−1.80%, 0.24%]. We can thus rule out very small performance diﬀerences,
+even ones 10 times smaller than those estimated by Castilla (2005).30 In terms of quitting, Brown
+et al. (2012) and Castilla (2005) ﬁnd that referred workers are 15% and 44% less likely to quit,
+respectively; thus, our ﬁnding that referred workers are 10-30% less likely to quit is in line with these
+estimates.31
+Why is it that referred workers are less likely to quit and perform better on rare productivity
+27The overdispersion parameter, α, is 2.77 (se=0.25) in column 3, and 2.66 (se=0.24) in column 4, indicating a highly
+signiﬁcant degree of overdispersion, suggesting use of a negative binomial model instead of a poisson model (Cameron
+and Trivedi, 2005).
+28Following Trajtenberg (1990), we construct citation-weighted patents as one plus the number of citations for each
+patent. The results are robust to alternative speciﬁcations as well.
+29The overdispersion parameter is 3.45 (se=0.10) in column 1 and 3.41 (se=0.10) in column 2, again indicating a
+highly signiﬁcant degree of overdispersion.
+30In our data, the average calls per hour is 8.25.
+31Since most work in economics comparing referred and non-referred workers focuses on wages, for completeness, we
+examine this as well. In call-centers, our data do not contain wages for workers; however, we have been informed that
+there is very little wage variation among new workers, so it is unlikely there would be a diﬀerence between referred
+and non-referred workers. In trucking, since workers are paid by the mile, there is almost a 1:1 mapping between miles
+driven (non-rare productivity) and wages. Only in high-tech is there evidence of wage diﬀerences between referred
+and non-referred workers, as we show in Table C11. All else equal, referred employees earn 2% higher salaries than
+non-referred employees, which is in line with the estimates in Brown et al. (2012). Unlike in Brown et al. (2012), we
+do not see that the diﬀerence in salary decreases with driver tenure.
+14
+
+metrics, but not on non-rare metrics? Taking our model seriously, it may be that referred workers
+perform better on some tasks, but not others based on whether there is an informational advantage
+to referral status on a given metric. The results suggest that referring workers may have a signiﬁcant
+informational advantage in predicting who will want to quit (e.g. based on the referred worker’s
+traits and family situation), whether they will be innovative at a company, and whether they will
+work safely at a company. In contrast, it may be equally diﬃcult or easy to determine whether
+a call-center applicant will have excellent average handle time or whether a trucker applicant will
+attain high miles.
+5
+Separating Treatment from Selection Eﬀects of Referrals
+We have shown that there are some signiﬁcant behavioral diﬀerences between referred and non-
+referred workers, even though referred and non-referred workers look similar on most observable
+characteristics. We now turn to the main contribution of the paper, which has proven elusive for
+past literature: distinguishing selection eﬀects of referrals from treatment eﬀects.
+We propose four new tests, and across all of them, the evidence is most consistent with selection
+beneﬁts from referrals instead of treatment eﬀects. The tests are based on quasi-experimental meth-
+ods (event study or regression discontinuity) and/or unique data features (social network data and
+pre-job performance). We believe that each test adds to the literature’s understanding of why ﬁrms
+use referrals. Each test on its own, however, is not foolproof, and there is usually some alternative
+explanation to consider (as is the case for most statistical tests). The strong advantage of us propos-
+ing four tests is that it strengthens our conﬁdence in our ﬁnding; while one test ﬁnding evidence in
+favor of selection may leave open some questions, we believe that having four tests all pointing to
+the same conclusion is quite persuasive.
+The ﬁrst three tests attempt to isolate treatment eﬀects and the fourth test attempts to isolate
+selection eﬀects. Since referral beneﬁts occur through treatment or selection, a test that fails to ﬁnd
+evidence for one should be interpreted as evidence in favor of the other.32
+In addition, even if a metric was uncorrelated with referral status in Section 4, it is still useful to
+try to separate selection and treatment eﬀects, because either selection or treatment could potentially
+be negative.33
+5.1
+Impact of Referring Worker Exit
+If referring employees monitor or coach referred workers, or if it is more enjoyable for referred workers
+to work with referring workers, one way to potentially isolate this is to look at what happens when
+the referring worker leaves. In terms of the model, the departure of the referring worker can be
+32That is, a test that fails to ﬁnd evidence for treatment is supportive of selection eﬀects and a test that fails to ﬁnd
+evidence of selection is supportive of treatment eﬀects.
+33Referred workers might be negatively selected if referred applicants are nepotistically favored in hiring, even when
+unqualiﬁed. Treatment eﬀects could be negative if referring workers teach “bad habits” or encourage shirking behavior.
+A zero overall eﬀect could indicate zero selection and zero treatment; positive selection and negative treatment; or
+negative selection and positive treatment.
+15
+
+thought of as decreasing kr (or setting kr to 0). If treatment eﬀects are operative, we would expect
+that decreasing kr should decrease output in the model.
+Table 6 shows that are no signiﬁcant impacts of referring worker departure on quitting, produc-
+tivity, or accidents, thus showing no evidence of treatment eﬀects. We estimate equations of the
+form:
+yit = α + β ∗REFGONEit + γi + δXr + ϵi,t
+(3)
+where yit is an outcome; REFGONEit is a dummy equal to 1 if the driver who referred i has
+left by time t; γi is an individual ﬁxed eﬀect (omitted when the outcome is quitting); and Xr are
+characteristics of the worker who referred i. If treatment eﬀects were operative, we might expect
+quitting and accidents to increase, and productivity to decrease after referred worker departure. In
+Panel A, we estimate that referring worker departure is associated with an increase in quitting of
+0.3 percentage points, a decrease in productivity of 33 miles per week, and a decrease in accidents of
+0.1 percentage points, all insigniﬁcant. The estimates are moderately precise, though we cannot rule
+out decent-sized eﬀects. For quitting, the 95% conﬁdence interval on the referring worker having left
+is −0.09 percentage points to 0.73 percentage points, oﬀa base of 2.4 percent chance of a quit per
+week. The are highly robust to adding demographics on both the referring and referred workers.34
+If referring workers provide coaching or mentoring, we may imagine that the cost of an exit may
+be larger if the referred worker has recently started work compared to later on. However, Panel B of
+Table 6 fails to support this. The median tenure for the referred worker when the referring worker
+leaves is 27 weeks. Dividing referral exits into those when the referred worker has more than 27
+weeks or less than or equal to 27 weeks, we ﬁnd no evidence that the exits are more severe when
+the referred worker has low tenure. If anything, we see slightly more negative impacts, though the
+diﬀerence between the two is always statistically insigniﬁcant, and we cannot reject they are the
+same. After referring worker exit, the probability of quitting increases by 0.25 percentage points
+for an exit early in the referred worker’s tenure, but 0.35 percentage points for an exit later in the
+referred worker’s tenure. Eliminating 0 mile weeks, productivity increases by 66 miles following an
+exit early in the referred worker’s tenure, but decreases by 33 miles for an exit later in the referred
+worker’s tenure.
+To examine whether the overall statistically zero eﬀect in Table 6 masks trends before or after
+referring worker exit, we estimate an event study version of (3) and get similar ﬁndings as before, as
+seen in Figure C1. Instead of just looking before and after referring worker exit, we analyze referred
+worker behavior according to the number of quarters before or after referring worker exit:
+yit =
+T
+X
+j=T
+θjRGj
+i + γi + δXr + ϵi,t
+(4)
+34An additional piece of evidence against a coaching or mentoring story is that the impact of referring worker
+departure is smaller for inexperienced than experienced workers. For newly trained inexperienced workers, the impact
+is 0.17 percentage points (se=0.30 percentage points), compared to 0.49 percentage points for experienced workers
+(se=0.30 percentage points).
+16
+
+where RGj
+i is a dummy for being j quarters from when the worker who referred i has exited the
+ﬁrm.35 Looking across quits, miles, and accidents, we see that the trend prior to referring worker
+exit is relatively smooth. In addition, there are no clear impacts of referring worker exit, although
+we acknowledge that the quarter-by-quarter estimates are somewhat imprecise.
+Threats to Identiﬁcation and Caveats. The identifying assumption for estimating (3) is that
+the referring worker’s departure is uncorrelated with the error for the referring worker. For example,
+if there was a common negative shock that aﬀected both the referring and referred worker, it could
+increase quitting or decrease performance for both the referred and referring worker, independent of
+any treatment eﬀect of the referring worker on the referred worker. This possibility of a common shock
+seems likely to inﬂate the magnitude of referring worker departure on referred worker performance,
+making it more likely to ﬁnd supposed treatment eﬀects.
+We also add the caveat that the relatively solitary nature of production in trucking could make
+our conclusions less relevant for other industries. Just because the exit of a referring driver does
+not aﬀect referred drivers does not imply that this would hold true for all industries. The trucking
+managers we spoke with emphasized that trucking is much less solitary than might be imagined, with
+drivers in frequent communication with one another using radio and hands-free cellphones. Drivers
+frequently share tips and give advice, so it is certainly quite possible that the referring driver exiting
+could have negative impacts of referred workers, if treatment eﬀects were important. However, we
+ﬁnd no evidence for them in this test.
+5.2
+Regression Discontinuity and Diﬀerence-in-Discontinuity Designs
+If referrals operate through treatment eﬀects, i.e. coaching or monitoring, referred worker behavior
+may be shaped by the incentives of the referring worker. In particular, if the referring worker receives
+a bonus provided that the referred worker stays for some period of time, then it seems likely that the
+referred worker would stay so that the referring worker can receive their bonus. In the call-center
+data, several locations require referred workers to stay 30 or 90 days before the referring worker
+receives a bonus. In the trucking data, for experienced driver referrals, referred workers must stay
+for at least 6 months before the referring worker can receive half their referral bonus. In contrast,
+for new drivers, the bonus is once the referred driver is hired. In terms of the model, we can think of
+there being an increase in kr (the cost of “shirking” or quitting) before the tenure length requirement.
+We exploit this contractual variation using a regression discontinuity (RD) design to isolate the
+impact of changes in kr.36 The most basic speciﬁcation is the following:
+Sit = α + β ∗1(t > t0) + f(t) + ϵit
+(5)
+where Sit is a dummy for staying (or not quitting) at tenure t; 1(t > t0) is a dummy for tenure being
+35We normalize θ−1 = 0. We assume that T = −5 quarters and T = 4 quarters. We “bin up” the end points
+by including dummies for the event time being less than or equal to T or greater than or equal to T. We have also
+performed the analysis at a higher time frequency, both at the monthly and bi-monthly levels. The results are quite
+similar, but less precise.
+36See e.g. Imbens and Lemieux (2008) and Lee and Lemieux (2010) for reviews on regression discontinuity designs.
+17
+
+above threshold t0 after which the referring worker receives a bonus; f(t) is a ﬂexible polynomial or
+spline in tenure; and ϵit is an error. The main coeﬃcient of interest is β. If referred workers partially
+internalize the incentives of the person who referred them because treatment eﬀects are operative,
+we would expect β to be negative. That is, the referred worker should be less likely to stay after the
+referring worker becomes eligible for the bonus. We estimate this equation using OLS restricting the
+sample to referred workers where the referring worker receives a bonus after t0; that is, we restrict
+to locations with 30 or 90 day rules in call-centers and experienced drivers in trucking.
+Since only referred workers are eligible to make someone else receive the bonus, we can also imple-
+ment a diﬀerence-in-discontinuity design, comparing impacts at the discontinuity between referred
+and non-referred workers:
+Sit = α + β1 ∗1(t > t0) ∗Refi + β2 ∗1(t > t0) + f1(t) ∗REFi + f2(t) + ϵit
+(6)
+The main coeﬃcient of interest is β1, representing the diﬀerential impact of crossing the t0 threshold
+for referred vs. non-referred workers. The advantage of the diﬀerence-in-discontinuity design over
+the basic RD design is that it requires weaker assumptions. For example, it could be that, for some
+reason, crossing the t0 threshold has a psychological impact on the worker,37 thereby violating the
+RD assumption that the only thing changing at the discontinuity is the referral bonus. By using a
+diﬀerence-in-discontinuity design, we require only that the level of any confounding discontinuity be
+the same across referred and non-referred workers.38
+Figure 3 provides visual evidence that there does not appear to be a change in retention after
+referred workers cross tenure thresholds when referring workers get bonuses, either for call-center
+workers (panels (a)-(b)) or truckers (panels (c)-(d)). If referred workers were postponing quitting so
+that referring workers could get bonuses, we would expect a decrease in retention after the bonus
+tenure thresholds. This decrease would occur for referred workers, but not for non-referred workers.
+For call-center workers, there does not seem to be much of a change after the bonus tenure threshold.
+For truckers, there is actually a very slight increase in retention after the bonus, but it is similar for
+referred and non-referred workers.
+Table 7 shows there is no evidence that referred workers become less likely to stay after crossing
+the tenure threshold when the referring worker receives a bonus.
+As suggested by Imbens and
+Lemieux (2008), we show the results are quite robust to diﬀerent bandwidth windows around t0
+and to diﬀerent degrees in the polynomial. In Panel A for call-center workers, the estimates are
+slightly positive but insigniﬁcant for the RD regressions and very slightly negative and insigniﬁcant
+for the diﬀerence-in-RD regressions. In column 1 of the RD regressions, the coeﬃcient of 0.0028
+means that workers are 0.28 percentage points more likely to stay after the tenure threshold. The
+95% conﬁdence interval of [−0.0008, 0064] means that we can rule out anything more (in magnitude)
+than a 0.08 percentage point decrease in quitting after the threshold. Panel B shows a pattern of
+37The psychological impact could go in either direction. After completing six months, a trucker may feel he has “put
+in his time” and be less likely to stay. Alternatively, the trucker could feel proud of having completed six months and
+feel determined to stay.
+38See Grembi et al. (2012) for this result and more on the diﬀerence-in-discontinuity design.
+18
+
+slightly positive (often insigniﬁcant, but sometimes signiﬁcant at the 10% level) impacts for truckers,
+both in the RD and diﬀerence-in-RD designs. These estimates are relatively precise, particularly
+the diﬀerence-in-RD estimates. Overall, the RD and diﬀerence-in-RD estimates show no evidence of
+treatment eﬀects of referrals.
+Threats to Identiﬁcation and Caveats. In the basic RD design, identiﬁcation rests on there
+not being other changes at the discontinuity. We have multiple discontinuities and do not know of
+any institutional features that change at the discontinuities. Moreover, by using our diﬀerence-in-RD
+design, we can rule out psychological eﬀects of crossing the discontinuity.39
+One caveat is that the fact that we see no evidence of quitting postponement does not rule out
+treatment impact of referrals. It may be possible that referred workers receive mentoring or coaching
+from the person who referred them, but also feel no compunction about quitting early so that the
+referring worker does not get a bonus.40
+5.3
+Impact of Having More Friends at Work on Performance
+Our next design exploits our rich data on worker friendships. In our model, the treatment eﬀect of
+referrals operates through the social pressure function T(r, f), which depends on a person’s referral
+status and their number of friends at work. For most of the analysis, we have been assuming that
+T(r, f) = krr, that is, social pressure only depends on referral status. However, if treatment eﬀects
+(e.g. mentoring and coaching) are important for explaining quitting or high-impact performance
+diﬀerences, one might imagine that many of the same eﬀects could operate through the number
+of friends. For example, if referring workers are less likely to quit because social contacts provide
+coaching or because it is more enjoyable to work with more social contacts, we would expect both
+being referred and the number of friends to reduce quitting. We consider the below regression:
+yi,t = αt + β1 ∗REFi + β2 ∗NFRIENDSi + γt + XiΓ + ϵi,t
+(7)
+If referrals operate through treatment eﬀects, and social ties are decreasing shirking and preventing
+workers from quitting, then we would likely expect β2 to be positive.
+Tables 8-11 show that the number of friends appears to be unrelated to most measures of perfor-
+mance across the 3 industries (with a few exceptions). Table 8 shows that people with more friends
+are no less likely not to quit. Among call-center and high-tech workers, workers with more friends
+are slightly less likely to quit, but the eﬀect is insigniﬁcant. For truckers, those with more friends
+are slightly more likely to quit, but the eﬀects are highly insigniﬁcant. The eﬀects are robust to
+diﬀerent measures of number of friends. For truckers, we look at log(1+self-reported friends), since
+39The diﬀerence-in-RD design would be confounded if there was a psychological eﬀect of crossing the referral threshold
+for referred, but not for non-referred workers, that was unrelated to the referring worker receiving a bonus. We believe
+that such an eﬀect would be unlikely.
+40A second caveat is that for most of the workers we study here, we do not have information on who referred whom,
+so we are unable to verify for all workers that the person who referred them is still with the company. Both in the
+call-centers and trucking, if the referring worker leaves, then he is not eligible to receive a bonus for the referring worker
+staying past t0. However, for the trucking data when we can match referred to referring worker, in only 13% of the
+cases has the referring driver quit the company by the 6-month mark.
+19
+
+some truckers report having a very large number of friends. For high-tech workers, we look at both
+self-reported friends and other-reported friends (the number of other people listing each worker as a
+friend), to address the issue that self-reported friendships may simply reﬂect diﬀerences across people
+in what constitutes a friend. The estimates tell the same story.
+Table 9 show that the number of friends does not predict productivity, except in high-tech where
+it appears to have a positive impact on some metrics.41 The eﬀects in high-tech are mostly modest.
+Each additional self-reported friend is associated with an increase of 0.005 standard deviations in
+terms of subjective performance reviews, though the eﬀect is higher on other-reported friends. Table
+10 shows that having more friends is not associated with having fewer trucking accidents, with the
+eﬀects actually slightly positive (though not signiﬁcant).42 However, Table 11 shows that workers
+with more friends do appear somewhat more innovative, coming up with more patents.
+Threats to Identiﬁcation and Caveats. The number of friends a person has at work is not
+randomly assigned and may be correlated with unobservables, potentially biasing estimates of β2 in
+(7). Most correlations would seem to bias the estimates upwards (e.g. people with unobservedly
+higher ability may have more friends), which would work against the ﬁnding of no treatment eﬀects,
+but one can imagine stories that would induce a downward bias (e.g. people with unobservedly high
+ability focus on the job whereas low ability people spend work time socializing).
+Even if friends do not predict performance outcomes, it could be that the type of treatment eﬀect
+and social relationship provided by referring to referred workers might be stronger (or diﬀerent) than
+that provided by friends to referred workers.
+Referring workers might feel an especially strong
+obligation to assist referred workers, an obligation not shared by non-referring friends. Still, the
+diﬀerence in magnitudes between the coeﬃcients on referral status and number of friends seems
+telling. For example, in call-centers and high-tech, the coeﬃcients on referral status are 3 and 15
+times higher, respectively, than the coeﬃcients on having an additional friend, as we saw in Table 8.
+In trucking, the friendship coeﬃcients go in the opposite direction than those on quitting.
+5.4
+Direct Evidence on Better Job-Speciﬁc Match: Pre-Job Performance and
+Job-Fit Surveys
+The three previous tests aimed to isolate treatment eﬀects of referrals and generally failed to ﬁle
+them. Our fourth approach is diﬀerent (though complementary) in that it aims to isolate selection
+eﬀects, and ﬁnds strong evidence for them.
+For many jobs, workers participate in pre-work tests that measure their performance or qual-
+ity. In call-centers, applicants complete “job tests” that measure their likely performance as future
+employees. The high-tech workers are interviewed multiple times by committees of current work-
+ers. Given that work has not yet begun, as long as referring workers do not provide monitoring or
+41In call-centers, having more friends is actually associated with lower sales conversion, and in trucking, knowing
+more people before training is associated with fewer miles.
+42Table 10 is based on the 900 truckers for whom we have social network data, so the sample size is much smaller
+than in Table 4; while the impact of referral on accidents is not statistically signiﬁcant in Table 10, the magnitude of
+the eﬀect is similar (and actually slightly larger), with referred workers 11.8% less likely to have an accident in a given
+week than non-referred workers (compared to 7% less likely in Table 4).
+20
+
+coaching to aﬀect performance, these tasks should isolate the selection beneﬁts of referrals.43
+Table 12 shows that referred applicants have signiﬁcantly higher pre-job performance, both in
+job tests (call-centers) and interview scores (high-tech).
+Panel A shows that referred call-center
+applicants score 0.05 standard deviations higher on their pre-job tests. Panel B shows that referred
+high-tech applicants score about 0.20 standard deviations higher. Once full controls are added, the
+coeﬃcient on referrals falls to 0.16 standard deviations, and the eﬀect is similar for both engineers
+and non-engineers.
+While less direct than the evidence in the pre-work performance tests, we also ﬁnd evidence of
+selection using surveys that asked workers about very speciﬁc aspects of job ﬁt. For the trucking
+ﬁrm, we surveyed drivers about their satisfaction with various aspects of the job after several months
+of work. Table 13 shows that referred workers are 0.45 standard deviations less likely to feel bothered
+by an unexpectedly low paycheck (which can occur because drivers are paid by the mile and their
+productivity ﬂuctuates), 0.3 standard deviations less likely to feel that the demands of the job
+interfered with their family life, and 0.3 standard deviations more likely to believe that they were
+home an acceptable number of times per month.
+While it is not impossible that mentoring or
+coaching by the referring worker could aﬀect drivers’ perceptions of these job features outside of
+initial selection, it seems much more likely that these factors reﬂect selection of particular types of
+people.
+Threats to Identiﬁcation and Caveats. An important confound to interpreting the results
+in Table 12 as evidence of selection would be if referring workers could coach referred applicants
+in preparation for job tests or job interviews.
+However, our discussions with managers indicate
+that possible coaching is unlikely to explain our results. For call-centers, managers we interviewed
+thought it was very unlikely that referring workers were preparing referred applicants for job tests.
+For high-tech workers, the interviews are unstructured. Interviewers are encouraged to evaluate the
+candidate from his or her own unique perspective, thereby making it diﬃcult for a referring worker
+to prep an applicant.
+For the high-tech applicants, another confound would be if referred applicants were more likely
+to face a more favorable group of interviewers (perhaps with the interviewers including the referring
+worker or other friends of the referred applicant), but there is little to support this concern. The
+high-tech ﬁrm uses most of its employees to conduct interviews (in our data, 67% of employees
+are observed conducting interviews) and interviewers are assigned to applicants in a quasi-random
+fashion.
+Applicants are highly unlikely to come across the referring worker or other friends in
+interviews.
+Using our data on the interviewers at every interview, as well as data on who each
+43While our conceptual framework made predictions about diﬀerences in worker performance instead of applicant
+performance, the main idea of the conceptual framework is still useful for thinking about applicant diﬀerences. For
+referred applicants, we might imagine that the signal bmR is actually comprised of two signals, one observed by the
+referring worker and one observed by the ﬁrm. For non-referred applicants, there is only a signal observed by the
+ﬁrm.
+Assume that the ﬁrm signals are not observed until the end of the application process.
+Thus, if selection
+/ superior information is important for referral eﬀects, referred applicants will have superior pre-job performance
+because no referring worker signal is observed for non-referred applicants. See Autor and Scarborough (2008) for a
+related conceptual framework, where two signals are observed about some applicants, but only one signal about others.
+Autor and Scarborough (2008) is also about job testing, in their case, looking at whether introducing job testing
+disadvantages minority workers.
+21
+
+employee is friends with, we observe that only 3% of interviewers are later reported to be a friend of
+the applicant.44
+5.5
+Qualitative Evidence and Discussion
+In addition to our four new quantitative tests, we conducted interviews with multiple Human Re-
+source managers in each of the three industries to gain further insights into why referred workers
+perform better. The interviews were conducted both before we had our results and afterward. Across
+the board, managers tended to believe that referred workers perform better, and when asked why,
+they emphasized selection. For example, at one of the call-center ﬁrms, the Vice President of Train-
+ing, Customer Experience and Business Intelligence argued that selection was an important part of
+referral eﬀects, arguing that referred workers had “a better expectation of what to expect on the
+job.” Echoing this point, the Vice President of Recruiting at the trucking ﬁrm said of referred drivers
+that “The person knows the job they’re going into” and that this is what enables them to attain
+higher retention. At the high-tech ﬁrm, a Senior Talent Specialist said “The person who is referring
+the person in knows about the environment and the culture. The person referring them can vouch
+for them, to do the job from a technical standpoint, and to ﬁt in with the group, ﬁx this or that.
+There is more of a back story with a candidate.”45
+From the analysis in Section 5, it is not obvious whether referrals lead to better match for a
+particular ﬁrm or job or instead better match for an industry. We believe, however, that our results
+are most consistent with match for the job than for a particular industry. If workers are quitting
+for other ﬁrms within the same industry, and if eﬀects are driven by selection, then referred workers
+quitting less suggests that they are better matched for the particular job.
+Our results diﬀer from existing discussion and analysis of selection vs. treatment impacts of
+referrals.
+Heath (2011) argues that referrals help to reduce moral hazard and overcome limited
+liability constraints in Bangladeshi garment factories.
+Using household surveys, she shows that
+referring workers experience wage decreases when their referred worker’s wage decreases. Since the
+workers we study are primarily from the U.S., it could be the case that referrals provide diﬀerent
+beneﬁts in wealthy countries and developing ones. Castilla (2005) shows that referred workers have
+higher productivity at a bank call-center. Based on qualitative interviews, Castilla (2005) suggests
+that productivity may be higher because referring workers serve as friends or “buddies” to referred
+workers. However, using explicit data on work friendships as well as on referrals, we ﬁnd that the
+relationship between being referred and performance is very diﬀerent from that of having more work
+friends and performance.
+44Further, applicants with a greater number of people at an interview who later are declared as one of their friends
+or one of their friends of friends do not receive higher interview scores. Regression results available on request.
+45Some of the managers also believed that referred workers performed better because of treatment eﬀects.
+For
+example, the Vice President of Recruiting at the trucking ﬁrm said of referred workers “When you go there, you
+already have an advocate in the family.” However, there was substantially more discussion on selection beneﬁts of
+referrals compared to discussion on treatment beneﬁts.
+22
+
+6
+Mechanisms for Selection
+Above, we have argued that the evidence is most consistent with referrals shaping worker performance
+through selection: referrals appear to select workers who are better matched for a particular job.
+In this section, we provide evidence on mechanisms for superior selection from referrals. We ﬁnd
+evidence for homophily as one potentially important mechanism; in addition, we ﬁnd that referred
+workers having worse outside options or diﬀerent beliefs seem unlikely to be important mechanisms.
+Table 14 shows evidence of homophily, the tendency of people to refer other people like themselves,
+in characteristics. We estimate the following equation:
+xir = α + Xrβ + ϵir
+(8)
+where xir is a characteristic of worker i who is referred by worker r; Xr is a vector of characteristics
+of the referring worker (including x); and ϵir is an error. For the X variables, we examine smoker
+status, race, age, gender, and marital status, and we control for the referring worker’s 3-digit zip-
+code. We thus ask: Within a given 3-digit zip code, are African-Americans more likely to refer other
+African-Americans? Are older workers more likely to refer older workers? Looking along the diagonal
+of Table 14, we see that referred workers are more likely to refer those like themselves. A referring
+worker living in a given 3-digit zip code, if he is African-American, is more likely to nominate another
+African-American by 45 percentage points. All else equal, looking at a referring worker who is 10
+years older, the worker he refers is likely to be 3 years older.
+Next, we show in Table 15 that homophily extends to employee behavior: if an employee exhibits
+a particular behavior, all else equal, the people he refers are more likely to exhibit the same behavior.
+We consider regressions of the form:
+yirtτ = α + γyr + Xrβ1 + Xiβ2 + δt + θτ + ϵirtτ
+(9)
+where yirtτ is a behavior of worker i referred by r at tenure t at time τ; γ is the main coeﬃcient of
+interest; yr is the average behavior of worker r; Xr is a vector of characteristics of r (including the
+referring worker’s ﬁnal tenure with the ﬁrm); Xi is a vector of characteristics of i; and δt and θτ are
+tenure and time ﬁxed eﬀects, respectively. Panel A shows that for a referring driver with average
+lifetime productivity 100 miles per week above the mean, the person they refer is 29 miles per week
+above the mean on average. Panel B shows that if the referring driver has an accident at some point,
+the person they refer is 14% more likely to have an accident.46
+A confound to identifying behavioral homophily would be if there is some common shock that
+aﬀected referring and referred workers (e.g. a local shock to the productivity of truckers in a given
+area). We assuage this concern, ﬁrst, by adding rich geographic controls, including the 3-digit home
+residence zipcode of both the referring and referred driver, and by including trucking operating
+46It would also be interesting to examine whether the workers referred by high-productivity and low-productivity
+referring workers diﬀer in terms of hard-to-observe characteristics such as cognitive and non-cognitive skills. However,
+because the data on cognitive and non-cognitive skills are from workers hired in 2005 and 2006, whereas the data on
+who refers whom is from 2007-2009, we cannot do this comparison. See Appendix B.
+23
+
+center ﬁxed eﬀects.
+In columns 3 and 4 of Panel A, we allow the operating center ﬁxed eﬀects
+to interact ﬂexibly with the time ﬁxed eﬀects, allowing for location-speciﬁc time-varying shocks,
+but this has little impact on the estimates. In addition, the results in Panels A and B are robust
+to alternative measures of referring worker behavior; instead of using the referring worker’s overall
+average productivity, results are similar if we use the referring worker’s productivity before the
+referral, meaning the results are not driven by a new shock that occurs aﬀect the referred driver
+starts work.
+To gain further insight, we ran quantile regressions in Table C12, showing that the impact of
+higher productivity referring workers is similar at the 10th, 50th, and 90th quantiles. This suggests
+that more productivity referring workers shift the entire distribution of productivity of the workers
+they refer.
+Why do referrals from high-productivity workers seem to perform better than referrals from low-
+productivity ones? In our conceptual framework, greater information about referred applicants leads
+for them to be positively selected with greater productivity. Thus, one explanation is that conditional
+on a set of possible people to refer, high-productivity referring workers get more precise signals or
+otherwise choose to refer diﬀerent types of people than low-productivity workers. An alternative
+explanation is that high-productivity and low-productivity referring workers tend to have diﬀerent
+sorts of friends. However, without data on people’s non-work friends, we are unable to distinguish
+between these two explanations.47
+6.1
+Alternative Mechanisms for Selection
+We consider two alternative ways by which selection could operate and ﬁnd limited support for them.
+Worse Outside Option. One possibility is that referred workers are positively selected because
+they have lower outside options and are thus less likely to quit (Loury, 2006). As seen in Table C2,
+referred workers do indeed report slightly lower outside options.
+To examine the importance of
+diﬀerences in outside options for observed quitting diﬀerences, we consider quitting models both
+with and without controls for the outside option, as seen in Table C9. Controlling for the outside
+option has little impact on the referral dummy coeﬃcient, reducing it by 7%, though the estimates
+are somewhat imprecise.
+Diﬀerences in Productivity Beliefs. Another possibility is that referred and non-referred
+drivers could diﬀer in their productivity beliefs. Using the same set of 900 truckers, Hoﬀman and
+Burks (2012) shows that workers who are more optimistic about future productivity, conditional on
+actual productivity to date, are less likely to quit. However, Table C10 shows that referred and
+non-referred workers have similar beliefs about their future productivity.
+47We could extend our conceptual framework to allow for diﬀerent productivity referring workers to have diﬀerent
+types of friends on average, as in Montgomery (1991).
+We did this for a binary-match version of the conceptual
+framework and obtained similar predictions. A third explanation for why referrals from high-productivity workers
+perform better might be that high-productivity and low-productivity referring workers have diﬀerent treatment eﬀects.
+High-productivity workers might provide very beneﬁcial coaching / mentoring, whereas low-productivity referring
+workers might provide unhelpful or even hurtful information. This seems unlikely for our context, given the ﬁndings
+in Section 5 of little evidence of treatment eﬀects.
+24
+
+7
+Implications for Proﬁts
+We now show that the behavioral diﬀerences between referred and non-referred workers translate
+into signiﬁcant diﬀerences in proﬁts from each kind of worker.
+More surprisingly, proﬁts diﬀer
+substantially depending on the ability of the referring worker.
+We focus the proﬁts analysis on
+the trucking industry since the production process is relatively simple, making it relatively easy to
+calculate proﬁts.
+We measure ﬁrm proﬁts using proﬁts per worker, deﬁned as the average discounted proﬁt stream
+from a worker during his time with the company (once a worker exits, the proﬁt stream stops).
+Proﬁts per worker equals discounted revenue, minus costs from a worker having any accidents, minus
+the cost of training and recruiting a worker (which depends on whether the worker needs commercial
+driver’s license training and whether they were referred), minus any referral bonuses paid, plus any
+training contract penalties collected when the worker quits:
+π
+=
+Discounted revenue - Accident cost - Training/Recruiting cost - Referral bonus + Recovered damages
+(10)
+=
+∞
+X
+t=1
+δt−1 (1 −Qt) [yt (P −wt −mc) −FC −cAAt] −TC (E, r) −500r −500δ26rE (1 −Q26) + (1 −E)
+∞
+X
+t=1
+δt−1θktqt
+where qt is a dummy for quitting in week t; Qt =
+tP
+s=1
+qs is whether a driver has quit in the ﬁrst t
+weeks; yt is a driver’s weekly miles; P is the price the ﬁrm charges for one mile of shipment; wt is
+wage per mile; mc is the non-wage marginal cost per mile (i.e. truck wear and gas costs); FC is ﬁxed
+costs per week (i.e. support for the drivers and the opportunity cost of the truck); cA is the cost of
+an accident; A is a dummy for having an accident; TC(E, r) is the cost of training and recruiting a
+worker; E is a dummy for whether the worker is experienced; r is a dummy for whether the worker
+was referred; kt is the quit penalty for a worker who quits in week t; and θ is the share of the training
+contract penalty collected by the ﬁrm. We assume values for P, mc, FC, cA, TC, and θ based on
+consultation with the trucking ﬁrm.48
+Table 16 shows proﬁts per worker is signiﬁcantly higher for referred workers, and varies strongly
+with the type of person making the referral. The average referred worker yields $2,201 in discounted
+proﬁts whereas the average non-referred worker yields $1,756.49 Note that bonuses paid to referred
+workers are taken out of the proﬁts for referred workers, so the diﬀerence is the diﬀerence in discounted
+proﬁts while accounting for referred workers receiving a bonus. In addition, we see that workers
+48Speciﬁcally, we assume that P = $1.90 per mile, mc = $1.20 per mile, FC = $475 per week, cA = $1, 000,
+TC = $2, 500 −$500r −$1, 750e, and θ = 0.3. The relatively small assumed accident cost of $1,000 reﬂects the broad
+deﬁnition of an accident in the data. In addition, we assume that δ = 0.9957, following Hoﬀman and Burks (2012).
+Hoﬀman and Burks (2012) estimate a structural model of quitting using a subset of the trucking ﬁrm data; they assume
+a weekly discount factor of 0.9957, corresponding to a “low” annual discount factor of 0.8, ﬁnding the model works
+best for discount factors in that range. If instead we assume a higher δ for our proﬁts calculation here, the level of
+proﬁts slightly increases, but our conclusions are identical. For example, if we assume δ = 0.9990, corresponding to
+an annual discount factor of 0.95, referred average proﬁts per worker is $2,838 compared to $2,285 for non-referred
+workers, a diﬀerence of 24%. Proﬁts per worker from above-median referring workers is $4,493 compared to $1,412 for
+below-median referring workers.
+49This diﬀerence in proﬁts does not capture diﬀerences in the tendency of referred and non-referred workers to make
+referrals themselves. Table C6 shows that referred workers are 4 percentage points more likely to ever make a referral
+than non-referred workers. The diﬀerence we calculate may thus be an underestimate of the proﬁt diﬀerence between
+referred and non-referred workers.
+25
+
+referred by above-median productivity drivers yield $4,190 in proﬁts, whereas referrals from below-
+median productivity workers yield $1,063 in proﬁts, which is below the proﬁts from the average
+non-referred worker. In addition, there is a large diﬀerence in proﬁts per worker based on whether
+the worker making the referral is ever observed to quit or not.
+Interpretation. Although the proﬁts formula, (10), includes several parts, so as to make the
+calculation as precise as possible, the main mechanisms behind the results are simple and seemingly
+general. Because referred workers are less likely to quit, there is less time spent “moving up” the
+productivity-tenure curve and more time achieving high-level productivity.
+An implication of these results is that ﬁrms may gain by encouraging referrals from their most
+productive workers. In the ﬁrms we study here, all workers are eligible to receive bonuses for referring
+new employees who are hired and/or who stay for some period of time. Instead, ﬁrms may wish
+to give the largest incentives to their most productive workers. This could be achieved in diﬀerent
+ways. First, ﬁrms could choose to award referral bonuses conditional on the referring worker having
+average productivity above some threshold. Alternatively, it might be optimal for workers only to
+become eligible for bonuses once they have achieved a certain tenure level. Finally, even without
+changing bonuses, ﬁrms could decide to award the greatest weight in their hiring process to those
+referred by the best workers.50
+8
+Conclusion
+Why do so many ﬁrms appear to value using employee referrals to hire new workers? We present
+a conceptual framework illustrating how referrals can have both selection and treatment eﬀects
+on worker behavior. We document that, compared to non-referred workers, referred workers are
+substantially less likely to quit, are more innovative, and have fewer accidents, even though they
+have similar characteristics (e.g. schooling, cognitive ability, non-cognitive ability, and experimental
+preferences) and score no higher on standard productivity measures. In the main contribution of
+the paper, we develop four new tests to separate selection and treatment impacts of referrals. All
+four tests provide evidence of selection instead of treatment. The behavioral diﬀerences we estimate
+translate into large diﬀerences in the proﬁtability of referred and non-referred workers, and referrals
+from high-productivity referring workers are especially proﬁtable.
+Although it is diﬃcult without a full general equilibrium model to analyze total welfare, our
+results suggest that referrals may have a signiﬁcant positive impact on total welfare in the industries
+50The reader may ask whether any of the ﬁrms we study are already incentivizing or giving preference to referrals from
+their best candidates. None of the nine ﬁrms gives diﬀerent ﬁnancial incentives for referrals based on any characteristics
+of the referring worker. In addition, none of the managers we spoke to said there was any advantage in the hiring
+process in being referred by some current employees versus others. In fact, at some ﬁrms, the hiring manager will not
+even know who the referring worker is, simply knowing that someone referred them. For example, the Vice-President
+of Driver Recruiting at the trucking ﬁrm said it was “very unlikely that the recruiter would know [the identity of]
+the referring driver. It is possible that they could ﬁgure it out but it would take a good bit of investigating.” As to
+why ﬁrms may not be already optimally incorporating information about the referring worker into the design of their
+referral programs, it does not seem likely that incorporating this information would be logistically costly. Rather, it
+could simply reﬂect that optimal management practices, like other technologies, often face informational barriers to
+adoption, and only become adopted once managers become aware of them (Bloom et al., 2013).
+26
+
+we study, both by improving worker-ﬁrm matching, and because of the externalities associated with
+increased high-tech innovation and decreased trucking accidents.
+Our ﬁndings have important implications for both policymakers and managers. For policymakers,
+there is frequently concern that a lack of social ties contributes to certain workers being disadvan-
+taged.51 Because referrals appear to beneﬁt workers by matching them to better jobs as opposed
+to supporting them once work has begun, policy eﬀorts on building social networks should focus on
+helping workers before they have jobs, as opposed to after work has begun.
+For managers, our results on workers referring others like themselves suggest that ﬁrms may
+beneﬁt by incentivizing referrals from their best workers. More speculatively, our results may be
+relevant for managers on the issue of “weak ties” vs. “strong ties.” It has been argued that “weak
+ties” play an important role for workers in ﬁnding jobs (Granovetter, 1973, 1974); however, given
+our ﬁnding that referrals operate because of superior information about candidates, if “strong tie”
+relationships yield superior information about applicants compared to “weak tie” ones, then ﬁrms
+may wish to incentivize referrals more for applicants who are “strongly tied” to existing employees
+instead of “weakly tied.”
+We conclude by highlighting three limitations of our paper. First, our results focused on three
+speciﬁc industries, call-centers, trucking, and high-tech, and thus may not be generalizable to all
+ﬁrms in the economy. However, compared to most work in personnel economics that uses individual-
+level productivity data from a single ﬁrm in a single industry, the paper is a signiﬁcant advance, and
+our ﬁndings are relatively consistent across industries. Further work is needed to conﬁrm the results
+in other contexts. Second, our tests for selection vs. treatment impacts of referrals are not from
+a randomized experiment and rely on several identifying assumptions. However, we believe these
+assumptions are reasonable in our setting and that our quasi-experimental tests are a signiﬁcant
+advance for the literature. Third, although we show that referred workers are valuable for ﬁrms
+and analyze why, our results do not necessarily imply that ﬁrms should expand employee referral
+programs.
+Our regression results address average diﬀerences between referred and non-referred
+workers, not the impact of making changes on the margin. To convincingly demonstrate that ﬁrms
+should expand employee referral programs, we would need exogenous variation in referral bonus
+size.52 We intend to explore these issues in future work.
+References
+Abaluck, Jason, Mitchell Hoﬀman, and Amanda Pallais, “A Field Experiment on Referrals and Employment,” 2013.
+Work in progress.
+Autor, David H. and David Scarborough, “Does Job Testing Harm Minority Workers? Evidence from Retail Establish-
+ments,” Quarterly Journal of Economics, 2 2008, 123 (1), 219–277.
+Bandiera, Oriana, Iwan Barankay, and Imran Rasul, “Social Connections and Incentives in the Workplace: Evidence
+From Personnel Data,” Econometrica, 2009, 77 (4), 1047–1094.
+,
+, and
+, “Social Incentives in the Workplace,” Review of Economic Studies, 2010, 77 (2), 417–458.
+Baron, James and David Kreps, Strategic Human Resources: Frameworks for General Managers, New York, NY: Wiley,
+1999.
+51See e.g. “Employers Increasingly Relying on Internal Referrals in Hiring,” New York Times, January 27, 2013.
+52Such variation can also be used to estimate the impact of referrals on outcomes for workers; Abaluck et al. (2013)
+are working on an experiment along these lines.
+27
+
+Barrick, Murray R. and Michael K. Mount, “The Big Five Personality Dimensions and Job Performance:
+A Meta-
+Analysis?,” Personnel Psychology, 1991, 44, 1–26.
+Bayer, Patrick, Stephen L. Ross, and Giorgio Topa, “Place of Work and Place of Residence: Informal Hiring Networks
+and Labor Market Outcomes,” Journal of Political Economy, 2008, 116 (6), 1150–1196.
+Beaman, Lori, “Social Networks and the Dynamics of Labour Market Outcomes: Evidence from Refugees Resettled in the
+U.S.,” Review of Economic Studies, 2012, 79 (1).
+and Jeremy Magruder, “Who Gets the Job Referral? Evidence from a Social Networks Experiment,” American Economic
+Review, 2012, Forthcoming.
+Bloom, Nicholas and John Van Reenen, “Patents, Real Options and Firm Performance,” Economic Journal, 2002, 112
+(478), C97–C116.
+and
+, “Human Resource Management and Productivity,” Handbook of Labor Economics, 2011, pp. 1697–1767.
+, Benn Eifert, Aprajit Mahajan, David McKenzie, and John Roberts, “Does Management Matter? Evidence from
+India,” Quarterly Journal of Economics, 2013, 128 (1), 1–51.
+Borghans, Lex, Angela Lee Duckworth, James J. Heckman, and Bas ter Weel, “The Economics and Psychology of
+Personality Traits,” Journal of Human Resources, 2008, 43 (4), 972–1059.
+Breaugh, James A., “Employee recruitment: Current knowledge and important areas for future research,” Human Resource
+Management Review, 2008, 18 (3), 103 – 118.
+Brown, Meta, Elizabeth Setren, and Giorgio Topa, “Do Informal Referrals Lead to Better Matches? Evidence from a
+Firm’s Employee Referral System,” 2012. Mimeo.
+Burks, Stephen, Jeﬀrey Carpenter, Lorenz Goette, Kristen Monaco, Kay Porter, and Aldo Rustichini, “Using
+Behavioral Economic Field Experiments at a Firm: The Context and Design of the Truckers and Turnover Project,” in “The
+Analysis of Firms and Employees: Quantitative and Qualitative Approaches” 2008.
+Calvo-Armengol, Antoni and Matthew O. Jackson, “The Eﬀects of Social Networks on Employment and Inequality,”
+American Economic Review, 2004, 94 (3), 426–454.
+Cameron, Colin and Pravin Trivedi, Microeconometrics: Methods and Applications, New York, NY: Cambridge University
+Press, 2005.
+Castilla, Emilio J., “Social Networks and Employee Performance in a Call Center,” American Journal of Sociology, 2005, 110
+(5), pp. 1243–1283.
+Dal Bo, Ernesto, Federico Finan, and Martin Rossi, “Strengthening State Capabilities: The Role of Financial Incentives
+in the Call to Public Service,” Quarterly Journal of Economics, 2013, Forthcoming.
+Dustmann, Christian, Albrecht Glitz, and Uta Schoenberg, “Referral-based Job Search Networks,” 2012. Mimeo.
+Fernandez, Roberto M., Emilio J. Castilla, and Paul Moore, “Social Capital at Work: Networks and Employment at a
+Phone Center,” American Journal of Sociology, 2000, 105 (5), pp. 1288–1356.
+Galenianos, Manolis, “Hiring Through Referrals,” 2011. Mimeo.
+Granovetter, Mark, “The Strength of Weak Ties,” The American Journal of Sociology, 1973, 78 (6), 1360–1380.
+, Getting a Job, Cambridge, MA: Harvard University Press, 1974.
+Grembi, Veronica, Tommaso Nannicini, and Ugo Troiano, “Policy Responses to Fiscal Restraints: A Diﬀerence-in-
+Discontinuities Design,” 2012. Mimeo.
+Heath, Rachel, “Why do Firms Hire using Referrals? Evidence from Bangladeshi Garment Factories,” 2011. Mimeo.
+Heckman, James J., Jora Stixrud, and Sergio Urzua, “The Eﬀects of Cognitive and Noncognitive Abilities on Labor
+Market Outcomes and Social Behavior,” Journal of Labor Economics, 2006, 24 (3), 411–482.
+Hellerstein, Judith K., Melissa McInerney, and David Neumark, “Neighbors and Coworkers: The Importance of Resi-
+dential Labor Market Networks,” Journal of Labor Economics, 2011, 29 (4), 659 – 695.
+Henderson, Rebecca and Iain Cockburn, “Scale, Scope, and Spillovers: The Determinants of Research Productivity in Drug
+Discovery,” RAND Journal of Economics, 1996, 27 (1), 32–59.
+Hoﬀman, Mitchell and Stephen Burks, “Training Contracts, Worker Overconﬁdence, and the Provision of Firm-Sponsored
+General Training,” 2012. Mimeo, Yale University.
+Holzer, Harry, “Hiring Procedures in the Firm: Their Economic Determinants and Outcomes,” 1987. NBER WP.
+28
+
+Ichniowski, Casey, Kathryn Shaw, and Giovanna Prennushi, “The Eﬀects of Human Resource Management Practices on
+Productivity: A Study of Steel Finishing Lines,” American Economic Review, 1997, 87 (3), 291–313.
+Imbens, Guido W. and Thomas Lemieux, “Regression discontinuity designs: A guide to practice,” Journal of Econometrics,
+2008, 142 (2), 615–635.
+Ioannides, Yanis and Linda D. Loury, “Job information networks, neighborhood eﬀects, and inequality,” Journal of Economic
+Literature, 2004, 42 (4), 1056–1093.
+Jackson, Matthew, Social and Economic Networks, Princeton, NJ: Princeton University Press, 2008.
+Jaﬀe, Adam B., Manuel Trajtenberg, and Rebecca Henderson, “Geographic Localization of Knowledge Spillovers as
+Evidenced by Patent Citations,” Quarterly Journal of Economics, 1993, 108 (3), 577–598.
+Kugler, Adriana D, “Employee referrals and eﬃciency wages,” Labour Economics, 2003, 10 (5), 531–556.
+Laschever, Ron, “The doughboys network: Social interactions and the employment of World War I veterans.,” 2009. Mimeo.
+Lazear, Edward, Kathryn Shaw, and Christopher Stanton, “The Value of Bosses,” 2012. Mimeo.
+Lee, David S. and Thomas Lemieux, “Regression Discontinuity Designs in Economics,” Journal of Economic Literature,
+2010, 48 (2), 281–355.
+Lindqvist, Erik and Roine Vestman, “The Labor Market Returns to Cognitive and Noncognitive Ability: Evidence from the
+Swedish Enlistment,” American Economic Journal: Applied Economics, 2011, 3 (1), 101–28.
+Loury, Linda Datcher, “Some Contacts Are More Equal than Others: Informal Networks, Job Tenure, and Wages,” Journal
+of Labor Economics, 2006, 24 (2), 299–318.
+Montgomery, James D, “Social Networks and Labor-Market Outcomes: Toward an Economic Analysis,” American Economic
+Review, December 1991, 81 (5), 1407–18.
+Mortensen, Dale and Tara Vishwanath, “Personal contacts and earnings: It is who you know!,” Labour Economics, 1995,
+2 (1), 187–201.
+Neal, Derek A and William R Johnson, “The Role of Premarket Factors in Black-White Wage Diﬀerences,” Journal of
+Political Economy, 1996, 104 (5), 869–95.
+Oyer, Paul and Scott Schaefer, “Personnel Economics: Hiring and Incentives,” Handbook of Labor Economics, 2011.
+Pallais, Amanda, “A Field Experiment on Employee Referrals,” 2013. Work in progress.
+Prendergast, Canice, “Contracts and Conﬂicts in Organizations,” 2010. Mimeo, University of Chicago.
+Rustichini, Aldo, Colin DeYoung, Jon Anderson, and Stephen Burks, “Toward the Integration of Personality Theory
+and Decision Theory in the Explanation of Economic Behavior,” Mimeo, University of Minnesota 2012.
+Schmutte, Ian, “Job Referral Networks and the Determination of Earnings in Local Labor Markets,” 2012. Mimeo, University
+of Georgia.
+Topa, Giorgio, “Labor Markets and Referrals,” Handbook of Social Economics, 2012, Forthcoming.
+Trajtenberg, Manuel, “A Penny for Your Quotes: Patent Citations and the Value of Innovations,” RAND Journal of Eco-
+nomics, 1990, 21 (1), 172–187.
+Wahba, Jackline and Yves Zenou, “Density, social networks and job search methods: Theory and application to Egypt,”
+Journal of Development Economics, December 2005, 78 (2), 443–473.
+Zottoli, Michael A and John P Wanous, “Recruitment Source Research: Current Status and Future Directions,” Human
+Resource Management Review, 2000, 10 (4), 353 – 382.
+29
+
+Figure 1: Referred Workers are Less Likely to Quit than Non-Referred Workers
+0.00
+0.25
+0.50
+0.75
+1.00
+Survival
+0
+30
+60
+90
+120
+150
+180
+Number of days
+Not referred
+Referred
+Call-center workers
+0.00
+0.25
+0.50
+0.75
+1.00
+Survival
+0
+20
+40
+60
+80
+100
+Weeks
+Not referred
+Referred
+Truckers
+0.00
+0.25
+0.50
+0.75
+1.00
+Survival
+0
+6
+12
+18
+24
+30
+36
+42
+48
+54
+60
+66
+72
+78
+84
+Number of months
+Not referred
+Referred
+High-Tech Workers
+Notes: These graphs plot the share of workers surviving at any given tenure level, comparing referred and
+non-referred workers. The top graph is from seven call-center ﬁrms, the middle graph is from a trucking ﬁrm, and the
+bottom graph is from a high-tech ﬁrm. Across all three graphs, a Wilcoxon test for equality test for equality of No
+Referral vs. Referrals yields p < 0.01. The call-center and high-tech ﬁrm graphs include all exits, whereas the
+trucking ﬁrm graph only analyzes exits from quits.
+30
+
+Figure 2: Referred and Non-referred Workers have Similar Non-rare Productivity Growth
+.8
+.82
+.84
+.86
+.88
+.9
+Adherence
+0
+50
+100
+150
+200
+Days of Tenure
+Not referred
+95% CI
+Referred
+Call-center workers: adherence
+400
+420
+440
+460
+480
+Average Handle Time
+50
+100
+150
+200
+Days of Tenure
+Not referred
+95% CI
+Referred
+Call-center workers: average handle time
+1800
+2000
+2200
+2400
+Miles per week
+0
+20
+40
+60
+80
+Week
+Not referred
+95% CI
+Referred
+Truckers: miles per week
+Notes: These graphs compare referred and non-referred workers on non-rare productivity as a function of tenure. The
+top two graphs are from workers in the call center industry and the bottom graph is from workers in the trucking
+industry. Adherence refers to schedule adherence and is measured on a scale from 0 to 100 percent; a higher number
+is indicative of higher productivity. Average handle time is a measure of the average time spent per call; a lower
+number is indicative of higher productivity. For miles per week in trucking, a higher number is indicative of higher
+productivity. The ﬁgures are plotted using a local polynomial regression with an Epanechnikov kernel.
+31
+
+Figure 3: Separating Treatment from Selection, Section 5.2: Do Workers Postpone Quitting so
+Referring Workers Can Receive Bonuses? Regression Discontinuity Evidence
+.98
+.985
+.99
+.995
+1
+Retention Rate
+-20
+-10
+0
+10
+20
+Days of tenure relative to tenure requirement for bonus
+(a) Referred Workers, Call-centers
+.98
+.985
+.99
+.995
+1
+Retention Rate
+-20
+-10
+0
+10
+20
+Days of tenure relative to tenure requirement for bonus
+(b) Non-referred Workers, Call-centers
+.98
+.985
+.99
+.995
+1
+Retention Rate
+10
+20
+30
+40
+Weeks of Tenure
+(c) Referred Workers, Trucking
+.98
+.985
+.99
+.995
+1
+Retention Rate
+10
+20
+30
+40
+Weeks of Tenure
+(d) Non-referred Workers, Trucking
+Notes: These graphs analyze whether workers are willing to postpone quitting so that the person who referred them
+can receive a bonus. If this were the case, retention should decrease after the bonus tenure requirement, with workers
+postponing their quitting until after the required tenure length. We see no evidence for this in these pictures. The
+points plotted are the average share of drivers not quitting in a week. For the call-center workers, the bandwidth is
+plus or minus 20 days. For the truckers, the bandwidth is plus or minus 13 weeks. The lines are plotted using a local
+polynomial regression.
+32
+
+Table 1: Do Referred Workers Have More Desirable Characteristics? Schooling & Work
+Experience, Cognitive Ability, Non-cognitive Ability, and Experimental preferences
+Panel A: Schooling
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+& Work Experience
+Schooling
+Schooling
+Schooling
+Related
+Number of
+Maximum number
+Dep var:
+in years
+in years
+in years
+experience
+jobs in
+of years at a
+in years
+last 2 years
+previous job
+Sample:
+Call-center
+Trucking
+High-tech
+Trucking
+Trucking
+Trucking
+applicants
+workers
+workers
+workers
+workers
+workers
+Referral
+-0.0858***
+-0.2093
+0.0540**
+-0.0020
+0.1186
+-0.1555
+(0.0124)
+(0.1340)
+(0.0270)
+(0.1168)
+(0.1006)
+(0.5848)
+Observations
+49,565
+894
+10,890
+894
+893
+517
+R-squared
+0.1012
+0.0467
+0.1483
+0.0796
+0.0577
+0.401
+Mean dep var
+12.61
+12.85
+16.97
+1.170
+1.601
+8.044
+Panel B: Cognitive Ability
+(1)
+(2)
+(3)
+Dep var:
+Intelligence
+IQ
+SAT total
+(normalized)
+(normalized)
+score
+Sample:
+Call-center
+Trucking
+High-tech
+applicants
+workers
+workers
+Referral
+-0.024***
+-0.120
+14.943
+(0.004)
+(0.099)
+(10.032)
+Observations
+314,549
+849
+899
+R-squared
+0.0093
+0.078
+0.180
+Mean dep var
+0
+0
+1401
+Panel C: Personality
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+Dep var:
+Big 5 index
+Conscientiousness
+Neuroticism
+Agreeableness
+Extraversion
+Openness
+(normalized)
+(normalized)
+(normalized)
+(normalized)
+(normalized)
+(normalized)
+Call-centers, applicants:
+Referral
+-0.018***
+-0.126***
+-0.009**
+-0.032***
+0.104***
+-0.056***
+(0.002)
+(0.004)
+(0.004)
+(0.004)
+(0.004)
+(0.004)
+Observations
+350,377
+357,511
+355,939
+357,424
+357,424
+357,424
+R-squared
+0.010
+0.015
+0.003
+0.007
+0.014
+0.022
+Trucking, workers:
+Referral
+-0.033
+-0.044
+0.055
+-0.169*
+0.102
+NA
+(0.049)
+(0.092)
+(0.091)
+(0.099)
+(0.092)
+Observations
+895
+895
+895
+895
+895
+R-squared
+0.029
+0.019
+0.015
+0.061
+0.029
+High-tech, workers:
+Referral
+0.009
+0.054
+-0.067
+-0.151***
+0.079
+-0.000
+(0.026)
+(0.049)
+(0.049)
+(0.048)
+(0.048)
+(0.049)
+Observations
+1,853
+1,853
+1,855
+1,855
+1,854
+1,854
+R-squared
+0.034
+0.037
+0.043
+0.031
+0.031
+0.033
+Panel D: Experimental
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+(7)
+Preferences
+CRRA
+Patient
+Beta
+Delta
+Trust
+Altruism
+Altruism
+Dep var:
+risk av-
+options
+in HD
+in HD
+V1
+V2
+ersion
+chosen
+model
+model
+Sample:
+Trucking
+Trucking
+Trucking
+Trucking
+Trucking
+Trucking
+Trucking
+workers
+workers
+workers
+workers
+workers
+workers
+workers
+Referral
+-0.021
+-0.025
+-0.015
+-0.006
+-0.536**
+-0.018
+-0.251
+(0.157)
+(0.157)
+(0.018)
+(0.012)
+(0.226)
+(0.185)
+(0.187)
+Observations
+894
+894
+894
+872
+894
+894
+894
+R-squared
+0.021
+0.053
+0.019
+0.006
+0.035
+0.044
+0.016
+Mean dep var
+0.503
+0.597
+0.841
+0.974
+3.367
+1.659
+3.641
+Notes: This table presents regressions of various outcomes on whether a worker was referred and controls. An observation is a
+worker or applicant, with robust standard errors in parentheses. For an explanation of how the diﬀerent variables are measured
+and deﬁned, see Appendix B. For the call-centers, the regressions include race, age, and gender controls. For trucking, the
+regressions include race, age, gender, marital status, and work type controls. For high-tech, the regressions include race
+dummies, gender dummies, month of hire dummies, job category dummies, and job rank dummies. * signiﬁcant at 10%; **
+signiﬁcant at 5%; *** signiﬁcant at 1%
+33
+
+Table 2: Referrals and Quitting
+Panel A: Call-center workers
+(1)
+Referral
+-0.13***
+(0.03)
+Observations
+20,040
+Panel B: Truckers
+(1)
+(2)
+(3)
+(4)
+(5)
+Referral
+-0.115***
+-0.115***
+-0.116***
+-0.119***
+-0.114***
+(0.022)
+(0.022)
+(0.022)
+(0.025)
+(0.025)
+State unemployment rate
+-0.042***
+-0.045***
+-0.033***
+-0.035***
+(0.010)
+(0.010)
+(0.011)
+(0.011)
+Avg miles to date
+-0.038***
+-0.034***
+-0.032***
+(0.002)
+(0.003)
+(0.003)
+Demog Controls
+No
+No
+No
+No
+Yes
+Sample
+All
+All
+All
+Has demogs
+Has demogs
+Observations
+0.94M
+0.94M
+0.94M
+0.85M
+0.85M
+Clusters
+N
+N
+N
+0.80N
+0.80N
+Panel C: High-tech Workers
+(1)
+(2)
+Referral
+-0.30***
+-0.33***
+(0.06)
+(0.06)
+Demog Controls
+No
+Yes
+Observations
+16,223
+16,223
+Notes: This table examines whether a worker’s referral status predicts quitting. All speciﬁcations are Cox
+proportional hazard models with standard errors clustered by worker in parentheses. * signiﬁcant at 10%; **
+signiﬁcant at 5%; *** signiﬁcant at 1%
+In Panel A, an observation is a worker. The controls are cohort (month of hire) dummies, location dummies, and
+client dummies. We restrict to workers who are with the company for 200 days or less.
+In Panel B, an observation is a worker week. Standard errors clustered by training facility-week of hire in
+parentheses. Controls include cohort (year of hire) dummies, year dummies, and driver training contracts.
+Demographic controls include gender, race dummies, marital status, and age bin dummies for the diﬀerent age
+groups: 25-30, 30-35, 35-40, 40-45, 45-50, 50-55, 55-60, and 60-80. Controls for training contracts are included in all
+regressions. The exact sample size is withheld to protect ﬁrm conﬁdentiality, M >> 100, 000, N >> 10, 000.
+In Panel C, an observation is a worker. All regressions include month of hire ﬁxed eﬀects. Demographic controls are
+interview scores, race dummies, gender dummies, whether the worker is an engineer, and education dummies.
+34
+
+Table 3: Referrals and Non-rare Productivity Measures (Normalized)
+Panel A: Call-center Workers
+(1)
+(2)
+(3)
+(4)
+(5)
+Dep var:
+Adherence
+Average
+Sales
+Quality
+Customer
+share
+handle time
+conversion
+assurance
+satisfaction
+rate
+Referral
+-0.021
+-0.000
+-0.027*
+7.8e-5
+0.003
+(0.013)
+(0.010)
+(0.015)
+(9.5e-5)
+(0.003)
+Observations
+152,683
+749,848
+134,386
+31,908
+603,860
+Clusters
+3136
+12,497
+3,192
+2,864
+11,859
+R-squared
+0.119
+0.559
+0.655
+0.178
+0.033
+Panel B: Truckers
+Sample:
+All Weeks
+Exclude 0 Mile Weeks
+Trim 1/99 %
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+Referral
+-0.024**
+-0.019*
+0.001
+0.005
+0.001
+0.005
+(0.010)
+(0.011)
+(0.010)
+(0.011)
+(0.010)
+(0.011)
+Demog Controls
+No
+Yes
+No
+Yes
+No
+Yes
+Observations
+0.99M
+0.91M
+0.86M
+0.79M
+0.84M
+0.78M
+Clusters
+0.99N
+0.80N
+0.85N
+0.71N
+0.85N
+0.71N
+R-squared
+0.180
+0.165
+0.080
+0.086
+0.079
+0.085
+Panel C:
+High-tech
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+(7)
+(8)
+(9)
+Workers
+Subjective
+Subjective
+Hours
+Code
+Bug
+Builds
+P4calls
+Wiki
+Views
+performance
+performance
+worked
+reviews
+actions
+edits
+Referral
+0.038***
+0.040***
+-0.086***
+0.006
+0.025
+-0.001
+-0.001
+0.064***
+0.036**
+(0.011)
+(0.012)
+(0.014)
+(0.012)
+(0.015)
+(0.009)
+(0.009)
+(0.016)
+(0.014)
+Demogs
+No
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Observations
+104,255
+104,255
+250,980
+289,689
+289,689
+289,689
+289,689
+289,689
+289,689
+R-squared
+0.08
+0.08
+0.04
+0.12
+0.03
+0.11
+0.01
+0.02
+0.05
+Clusters
+16546
+16546
+11066
+11123
+11123
+11123
+11123
+11123
+11123
+Notes: This table examines whether a worker’s referral status predicts productivity. All speciﬁcations are OLS
+regressions with standard errors clustered by worker in parentheses. Each productivity measure has been normalized
+so that the coeﬃcients are all in standard deviation units. The non-rare productivity metrics are described further in
+Appendix B. * signiﬁcant at 10%; ** signiﬁcant at 5%; *** signiﬁcant at 1%
+In Panel A, productivity is measured using one of 5 diﬀerent normalized measures. The workers are from 7 call-center
+ﬁrms, spread across many diﬀerent locations. Each column is an OLS regression including day of tenure dummies,
+location dummies, client dummies, and the number of times that each outcome was measured to compute the
+dependent variable. An observation is a worker-day.
+In Panel B, productivity is measured in terms of miles and then normalized. The speciﬁcations include time ﬁxed
+eﬀects (for each month), cohort ﬁxed eﬀects (by year of hire), tenure ﬁxed eﬀects (by week), work type controls, and
+the annual state unemployment rate. An observation is a driver-week. “Trim 1/99%” refers to trimming the lowest
+1% and highest 1% of the miles observations (ignoring all 0 mile weeks). Demographic controls include gender, race
+dummies, marital status, and age bin dummies for the diﬀerent age groups: 25-30, 30-35, 35-40, 40-45, 45-50, 50-55,
+55-60, and 60-80. Controls for training contracts are included in all regressions. The exact sample size is withheld to
+protect ﬁrm conﬁdentiality, M >> 100, 000, N >> 10, 000.
+In Panel C, productivity is measured in terms of a subjective performance rating or objective performance measure
+(all normalized). Demographic controls are interview scores, race dummies, gender dummies, whether the worker is
+an engineer, and education dummies.
+35
+
+Table 4: Referrals and Trucking Accidents
+(1)
+(2)
+(3)
+Dependent var (0-1):
+Accident
+Preventable
+Non-preventable
+accident
+accident
+(placebo test)
+Referral
+-0.00133***
+-0.00104***
+-0.00026
+(0.00031)
+(0.00019)
+(0.00017)
+Mean dep var
+.01899
+.00862
+.00708
+% reduction for referred drivers
+7.0%
+12.1%
+3.7%
+Observations
+M
+M
+M
+R-squared
+0.00587
+0.00440
+0.00183
+Notes: This table examines whether a worker’s referral status predicts employee trucking accidents. All speciﬁcations
+are linear probability models with time ﬁxed eﬀects (for each year), cohort ﬁxed eﬀects (by year of hire), tenure ﬁxed
+eﬀects (by week), work type controls, and seasonality controls. Standard errors clustered at the driver level in
+parentheses. An observation is a driver-week. The exact sample size is withheld to protect ﬁrm conﬁdentiality,
+M >> 100, 000, N >> 10, 000. * signiﬁcant at 10%; ** signiﬁcant at 5%; *** signiﬁcant at 1%.
+Table 5: Referrals and Innovation, High-tech Workers
+Panel A: Patents
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+(7)
+(8)
+Dep var:
+Num
+Num
+Num
+Num
+Ever
+Ever
+Citation-
+Citation-
+patents
+patents
+patents
+patents
+patent
+patent
+weighted
+weighted
+patents
+patents
+Referral
+0.0184*
+0.0143
+0.2447***
+0.2374***
+0.0091**
+0.0074**
+0.1901*
+0.1956**
+(0.0097)
+(0.0100)
+(0.0846)
+(0.0836)
+(0.0035)
+(0.0035)
+(0.0997)
+(0.0974)
+Method
+OLS
+OLS
+Negative
+Negative
+OLS
+OLS
+Negative
+Negative
+binomial
+binomial
+binomial
+binomial
+Demog Controls
+No
+Yes
+No
+Yes
+No
+Yes
+No
+Yes
+Observations
+17,168
+17,168
+17,168
+17,168
+17,168
+17,168
+17,168
+17,168
+R-squared
+0.1343
+0.1428
+0.1996
+0.2077
+Mean dep var
+0.108
+0.108
+0.108
+0.108
+0.0566
+0.0566
+0.1661
+0.1661
+Panel B: Ideas on Idea Board
+(1)
+(2)
+(3)
+(4)
+Dep var:
+Num ideas
+Num ideas
+Log(1+Ideas)
+Log(1+Ideas)
+Referral
+0.082*
+0.089*
+0.030**
+0.029*
+(0.050)
+(0.049)
+(0.015)
+(0.015)
+Method
+Negative
+Negative
+OLS
+OLS
+binomial
+binomial
+Demog Controls
+No
+Yes
+No
+Yes
+Observations
+11,123
+11,123
+11,123
+11,123
+R-squared
+0.068
+0.073
+Notes: Robust standard errors in parentheses. An observation is a worker. Demographic controls are interview scores,
+race dummies, gender dummies, and education dummies. All regressions also include month of hire dummies, job
+category dummies, and job rank dummies. * signiﬁcant at 10%; ** signiﬁcant at 5%; *** signiﬁcant at 1%.
+36
+
+Table 6: Separating Treatment from Selection, Section 5.1: The Impact of Referring Worker Exit
+on Referred Worker Behavior for Truckers
+Panel A: Baseline Results
+(1)
+(2)
+(3)
+(4)
+Dep var:
+Quit (0-1)
+Miles
+Miles
+Accident (0-1)
+if miles> 0
+After referring driver has left
+0.0031
+-33.13
+14.65
+-0.0011
+(0.0021)
+(67.23)
+(45.80)
+(0.0072)
+Observations
+41,670
+40,927
+36,648
+41,670
+R-squared
+0.0945
+0.3484
+0.2900
+0.0447
+Mean dep var
+0.0238
+1684
+1880
+0.0202
+Panel B: Early vs. Late
+Referring Worker Exits
+(1)
+(2)
+(3)
+(4)
+Dep var:
+Quit (0-1)
+Miles
+Miles
+Accident (0-1)
+if miles> 0
+After referring driver has left
+* exit soon after referred starts
+0.0025
+-2.33
+67.57
+0.0022
+(0.0034)
+(90.14)
+(57.08)
+(0.0113)
+After referring driver has left
+* exit far after referred starts
+0.0035
+-69.86
+-32.99
+-0.0051
+(0.0026)
+(98.87)
+(65.87)
+(0.0082)
+Observations
+41,670
+40,927
+36,648
+41,670
+R-squared
+0.0945
+0.3484
+0.2901
+0.0447
+Mean dep var
+0.0238
+1684
+1880
+0.0202
+Notes: All speciﬁcations are OLS regressions including month-by-month dummies, cohort (year of hire) dummies, and
+week of tenure dummies. Standard errors clustered at the worker level in parentheses. An observation is a
+worker-week. * signiﬁcant at 10%; ** signiﬁcant at 5%; *** signiﬁcant at 1%.
+37
+
+Table 7: Separating Treatment from Selection, Section 5.2: Do Referred Workers Postpone
+Quitting so Referring Workers Can Receive Bonuses? Regression Discontinuity and
+Diﬀerence-in-RD Evidence
+Panel A: Call-center
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+(7)
+(8)
+RD Estimate
+0.0028
+0.0021
+0.0022
+0.0030
+0.0008
+0.0029
+0.0028
+0.0035
+1(tenure> t0)
+(0.0018)
+(0.0030)
+(0.0031)
+(0.0031)
+(0.0014)
+(0.0022)
+(0.0022)
+(0.0023)
+Sample restriction
+Ref
+Ref
+Ref
+Ref
+Ref
+Ref
+Ref
+Ref
+Polynomial deg
+2
+2
+3
+4
+2
+2
+3
+4
+Controls
+No
+Yes
+Yes
+Yes
+No
+Yes
+Yes
+Yes
+Bandwidth
+± 10day
+± 10day
+± 10day
+± 10day
+± 20day
+± 20day
+± 20day
+± 20day
+Observations
+10,534
+10,534
+10,534
+10,534
+20,945
+20,945
+20,945
+20,945
+R-squared
+0.0004
+0.0061
+0.0062
+0.0063
+0.0001
+0.0131
+0.0131
+0.0132
+Diﬀ-in-RD Estimate
+-0.0004
+-0.0003
+-0.0003
+-0.0003
+-0.0009
+-0.0008
+-0.0008
+-0.0008
+1(tenure> t0)*Ref
+(0.0023)
+(0.0023)
+(0.0023)
+(0.0023)
+(0.0017)
+(0.0016)
+(0.0016)
+(0.0016)
+Sample restriction
+None
+None
+None
+None
+None
+None
+None
+None
+Polynomial deg
+2
+2
+3
+4
+2
+2
+3
+4
+Controls
+No
+Yes
+Yes
+Yes
+No
+Yes
+Yes
+Yes
+Bandwidth
+± 10day
+± 10day
+± 10day
+± 10day
+± 20day
+± 20day
+± 20day
+± 20day
+Observations
+23,731
+23,731
+23,731
+23,731
+47,050
+47,050
+47,050
+47,050
+R-squared
+0.0003
+0.0041
+0.0041
+0.0042
+0.0001
+0.0075
+0.0076
+0.0076
+Panel B: Truckers
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+(7)
+(8)
+RD Estimate
+0.0045
+0.0044
+0.0069*
+0.0074*
+0.0039*
+0.0040*
+0.0053*
+0.0054*
+1(tenure> t0)
+(0.0029)
+(0.0029)
+(0.0040)
+(0.0040)
+(0.0021)
+(0.0021)
+(0.0028)
+(0.0028)
+Sample restriction
+Exp&Ref
+Exp&Ref
+Exp&Ref
+Exp&Ref
+Exp&Ref
+Exp&Ref
+Exp&Ref
+Exp&Ref
+Polynomial deg
+2
+2
+3
+4
+2
+2
+3
+4
+Demog controls
+No
+Yes
+Yes
+Yes
+No
+Yes
+Yes
+Yes
+Bandwidth
+± 10 wk
+± 10 wk
+± 10 wk
+± 10 wk
+± 20 wk
+± 20 wk
+± 20 wk
+± 20 wk
+Observations
+0.022M
+0.022M
+0.022M
+0.022M
+0.045M
+0.045M
+0.045M
+0.045M
+R-squared
+0.0091
+0.0099
+0.0099
+0.0100
+0.0091
+0.0097
+0.0097
+0.0097
+Diﬀ-in-RD Estimate
+0.0028
+0.0028
+0.0025
+0.0022
+0.0013
+0.0013
+0.0004
+0.0006
+1(tenure> t0)*Ref
+(0.0018)
+(0.0018)
+(0.0024)
+(0.0025)
+(0.0013)
+(0.0013)
+(0.0017)
+(0.0017)
+Sample
+Exp
+Exp
+Exp
+Exp
+Exp
+Exp
+Exp
+Exp
+Polynomial deg
+2
+2
+3
+4
+2
+2
+3
+4
+Demog controls
+No
+Yes
+Yes
+Yes
+No
+Yes
+Yes
+Yes
+Bandwidth
+± 10 wk
+± 10 wk
+± 10 wk
+± 10 wk
+± 20 wk
+± 20 wk
+± 20 wk
+± 20 wk
+Observations
+0.096M
+0.096M
+0.096M
+0.096M
+0.195M
+0.195M
+0.195M
+0.195M
+R-squared
+0.0111
+0.0115
+0.0115
+0.0115
+0.0098
+0.0101
+0.0101
+0.0101
+Notes: This table examines whether referred workers postpone quitting so that their friends can receive tenure-speciﬁc referral
+bonuses. All speciﬁcations are regressions with standard errors clustered by worker in parentheses. * signiﬁcant at 10%; **
+signiﬁcant at 5%; *** signiﬁcant at 1%
+In Panel A, an observation is a worker-day. Controls include location dummies, client dummies, month of hire dummies, and job
+type dummies. t0 varies by call-center location, and is either 30 days or 90 days. For the RD design for call-center workers, the
+sample is restricted to workers who are referred, i.e. “Ref.” For the diﬀerence-in-RD design, there is no sample restriction.
+In Panel B, an observation is a worker-week. All speciﬁcations include time ﬁxed eﬀects (for each year), cohort ﬁxed eﬀects (by
+year of hire), and work type dummies. t0 is 6 months (26 weeks). For the RD design for truckers, the sample is restricted to
+workers who are referred and experienced (as only referred experienced drivers are eligible for the referring worker to receive a
+bonus after 6 months), i.e. “Exp&Ref.” For the diﬀerence-in-RD design, the sample is restricted to experienced workers, i.e.
+“Exp.” The exact sample size is withheld to protect ﬁrm conﬁdentiality, M >> 100, 000, N >> 10, 000.
+38
+
+Table 8: Separating Treatment from Selection, Section 5.3: The Impact of Number of Friends on
+Quitting
+Panel A: Call-center workers
+(1)
+Referral
+-0.07**
+(0.03)
+Friends at company
+-0.02
+(0.02)
+People know at company
+-0.03
+(0.02)
+Observations
+20,040
+Panel B: Truckers
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+Referral
+-0.181
+-0.179
+-0.176
+(0.143)
+(0.142)
+(0.142)
+Friends made during training
+0.002
+0.006
+(0.010)
+(0.010)
+Annual income if continued at past jobs
+0.008**
+0.008**
+0.008**
+(0.003)
+(0.003)
+(0.003)
+Log(1+Friends made during training)
+0.013
+0.040
+(0.076)
+(0.076)
+Trainees known before training
+-0.003
+-0.009
+(0.115)
+(0.121)
+Controls
+No
+Yes
+No
+Yes
+No
+Yes
+Observations
+38,460
+38,381
+38,460
+38,381
+38,460
+38,381
+Panel C: High-tech Workers
+(1)
+(2)
+Referral
+-0.320***
+-0.319***
+(0.061)
+(0.061)
+Friends at company (self listed)
+-0.021
+(0.018)
+Friends at company (colleague listed)
+-0.018
+(0.030)
+Demog Controls
+Yes
+Yes
+Observations
+16,223
+16,223
+Notes: This table examines whether the number of friends a worker has predicts quitting. All speciﬁcations are Cox
+proportional hazard models with standard errors clustered by worker in parentheses. * signiﬁcant at 10%; **
+signiﬁcant at 5%; *** signiﬁcant at 1%
+In Panel A, an observation is a worker. The controls are cohort (month of hire) dummies, location dummies, and
+client dummies. We restrict to workers who are with the company for 200 days or less.
+In Panel B, an observation is a worker week. All drivers in the sample were hired at one of the training schools in late
+2005 or 2006. The speciﬁcations include tenure ﬁxed eﬀects (by week). Controls include age, gender, race, education,
+work type, self-reported income if the driver had not gone through training, and education level. The magnitudes of
+the estimated referral coeﬃcients are similar to those in Panel B of Table 2, but are less precise because the sample
+size is much smaller.
+In Panel C, an observation is a worker. All regressions include month of hire ﬁxed eﬀects. Demographic controls are
+interview scores, race dummies, gender dummies, whether the worker is an engineer, and education dummies.
+39
+
+Table 9: Separating Treatment from Selection, Section 5.3: The Impact of Number of Friends on
+Non-rare Productivity Measures (Normalized)
+Panel A: Call-center Workers
+(1)
+(2)
+(3)
+(4)
+(5)
+Dep var:
+Adherence
+Average
+Sales
+Quality
+Customer
+share
+handle time
+conversion
+assurance
+satisfaction
+rate
+Referral
+-0.0001
+-0.0040
+-0.0441**
+0.0001
+0.0023
+(0.0163)
+(0.0122)
+(0.0173)
+(0.0001)
+(0.0048)
+Number of friends at company
+0.0038
+0.0007
+0.0077
+-0.0000
+-0.0034
+(0.0055)
+(0.0051)
+(0.0050)
+(0.0000)
+(0.0032)
+Number of people you know at company
+-0.0175**
+0.0015
+0.0078
+0.0000
+0.0028
+(0.0070)
+(0.0053)
+(0.0071)
+(0.0000)
+(0.0026)
+Observations
+152,683
+726,982
+134,386
+31,908
+526,355
+Clusters
+3,136
+11,586
+3,192
+2,864
+9,232
+R-squared
+0.1196
+0.5499
+0.6557
+0.1782
+0.0334
+Panel B: Truckers
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+Dep var:
+Miles
+Miles
+Miles
+Miles
+Miles
+Miles
+Referral
+0.010
+0.012
+0.005
+(0.049)
+(0.049)
+(0.049)
+Friends made during training
+-0.001
+0.001
+(0.006)
+(0.003)
+Log(1+Friends made during training)
+-0.052
+-0.016
+(0.034)
+(0.027)
+Trainees known before training
+-0.018
+-0.095**
+(0.056)
+(0.042)
+Controls
+No
+Yes
+No
+Yes
+No
+Yes
+Observations
+29,880
+29,880
+29,880
+29,880
+29,880
+29,880
+R-squared
+0.016
+0.120
+0.017
+0.120
+0.016
+0.121
+Panel C:
+High-tech Workers
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+(7)
+(8)
+(9)
+Dep var:
+Subj Perf
+Subj Perf
+Hours
+Code rev
+Bug
+Builds
+P4calls
+Wiki
+Views
+worked
+actions
+edits
+Referral
+0.036***
+0.030**
+-0.084***
+0.001
+0.022
+-0.002
+-0.001
+0.061***
+0.034**
+(0.012)
+(0.012)
+(0.014)
+(0.012)
+(0.015)
+(0.009)
+(0.009)
+(0.016)
+(0.014)
+Friends at company
+0.005***
+-0.000
+0.007***
+0.007***
+0.002**
+0.002
+0.003
+0.002
+(self listed)
+(0.002)
+(0.002)
+(0.002)
+(0.002)
+(0.001)
+(0.002)
+(0.002)
+(0.002)
+Friends at company
+0.037***
+(colleague listed)
+(0.003)
+Demog Controls
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Observations
+104,255
+104,255
+250,980
+289,689
+289,689
+289,689
+289,689
+289,689
+289,689
+Clusters
+16,546
+16,546
+11,066
+11,123
+11,123
+11,123
+11,123
+11,123
+11,123
+R-squared
+0.081
+0.086
+0.037
+0.121
+0.031
+0.115
+0.006
+0.022
+0.050
+Notes: This table examines whether the number of friends a worker has predicts non-rare productivity. All speciﬁcations are
+OLS regressions with standard errors clustered by worker in parentheses. Each productivity measure has been normalized so
+that the coeﬃcients are all in standard deviation units. The non-rare productivity metrics are described further in Appendix B.
+* signiﬁcant at 10%; ** signiﬁcant at 5%; *** signiﬁcant at 1%
+In Panel A, productivity is measured using one of 5 diﬀerent normalized measures. The workers are from 7 call-center ﬁrms,
+spread across many diﬀerent locations. Each column is an OLS regression including day of tenure dummies, location dummies,
+client dummies, and the number of times that each outcome was measured to compute the dependent variable. An observation
+is a worker-day.
+In Panel B, productivity is measured in terms of miles and then normalized. All drivers in the sample were hired at one of the
+training schools in late 2005 or 2006. The speciﬁcations include tenure ﬁxed eﬀects (by week). Controls include age, gender,
+race, education, work type, self-reported income if the driver had not gone through training, and education level. We normalize
+restricting to the sample with mile weeks greater than 0.
+In Panel C, productivity is measured in terms of a subjective performance rating or objective performance measure (all
+normalized). Demographic controls are interview scores, race dummies, gender dummies, whether the worker is an engineer, and
+education dummies.
+40
+
+Table 10: Separating Treatment from Selection, Section 5.3: The Impact of Number of Friends on
+Trucking Accidents
+(1)
+(2)
+(3)
+(4)
+Referral
+-0.00292
+-0.00310
+-0.00297
+-0.00299
+(0.00240)
+(0.00241)
+(0.00242)
+(0.00241)
+Friends made during training
+0.00032
+(0.00021)
+Log(1+Friends made during training)
+0.00193
+(0.00139)
+Trainees known before training
+-0.00168
+(0.00208)
+Mean dep var
+0.0247
+0.0247
+0.0247
+0.0247
+Observations
+42,309
+42,309
+42,309
+42,309
+R-squared
+0.00927
+0.00936
+0.00934
+0.00929
+Notes: This table examines whether the number of friends an employee has predicts employee trucking accidents. All
+speciﬁcations are linear probability models with demographic, education, and work type controls. An observation is a
+driver-week. Standard errors clustered at the driver level in parentheses. All drivers in the sample were hired at one
+of the training schools in late 2005 or 2006, as this is the sample of truckdrivers for which we have friendship data.
+The sample is thus smaller than that in Table 4, so the estimates here are less precise. * signiﬁcant at 10%; **
+signiﬁcant at 5%; *** signiﬁcant at 1%.
+41
+
+Table 11: Separating Treatment from Selection, Section 5.3: The Impact of Number of Friends on
+Innovation
+Panel A: Patents
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+(7)
+(8)
+Dep var:
+Num
+Num
+Num
+Num
+Ever
+Ever
+Citation-
+Citation-
+patents
+patents
+patents
+patents
+patent
+patent
+weighted
+weighted
+patents
+patents
+Referral
+0.0151
+0.0119
+0.2356***
+0.2266***
+0.0078**
+0.0066*
+0.1897*
+0.1877*
+(0.0097)
+(0.0100)
+(0.0849)
+(0.0836)
+(0.0035)
+(0.0035)
+(0.0980)
+(0.0966)
+Friends
+0.0108***
+0.0108***
+0.0138
+0.0156*
+0.0017
+0.0017
+0.0171
+0.0140
+(0.0037)
+(0.0037)
+(0.0091)
+(0.0092)
+(0.0011)
+(0.0011)
+(0.0110)
+(0.0110)
+Method
+OLS
+OLS
+Negative
+Negative
+OLS
+OLS
+Negative
+Negative
+binomial
+binomial
+binomial
+binomial
+Demog Controls
+No
+Yes
+No
+Yes
+No
+Yes
+No
+Yes
+Observations
+17,168
+17,168
+17,168
+17,168
+17,168
+17,168
+17,168
+17,168
+R-squared
+0.1405
+0.1465
+0.2048
+0.2098
+Mean dep var
+0.108
+0.108
+0.108
+0.108
+0.0566
+0.0566
+0.166
+0.166
+Panel B: Ideas on Idea Board
+(1)
+(2)
+(3)
+(4)
+Num ideas
+Num ideas
+Log(1+Ideas)
+Log(1+Ideas)
+Referral
+0.0711
+0.0801
+0.0269
+0.0261
+(0.0494)
+(0.0491)
+(0.0153)
+(0.0153)
+Friends
+0.0239
+0.0245
+0.0086
+0.0082
+(0.0146)
+(0.0146)
+(0.0046)
+(0.0046)
+Method
+Negative
+Negative
+OLS
+OLS
+binomial
+binomial
+Demog Controls
+No
+Yes
+No
+Yes
+Observations
+11,123
+11,123
+11,123
+11,123
+R2
+0.069
+0.075
+Notes: This table examines whether the number of friends a worker has predicts innovation, both in terms of patents
+and ideas on the ﬁrm’s internal idea board. Robust standard errors in parentheses. An observation is a worker.
+Demographic controls are interview scores, race dummies, gender dummies, and education dummies. All regressions
+also include month of hire dummies, job category dummies, and job rank dummies. For Panel A, “Friends” is
+measured using self-listed friends, whereas in Panel B, “Friends” is measured using colleague-listed friends. Results
+are qualitatively similar with either deﬁnition. * signiﬁcant at 10%; ** signiﬁcant at 5%; *** signiﬁcant at 1%.
+42
+
+Table 12: Separating Selection and Treatment, Section 5.4: Do Referred Applicants Perform
+Better in Pre-Job Assessments (Job Tests or Interviews)?
+Panel A: Call-center Workers
+(1)
+Job Test Score
+(normalized)
+Referral
+0.0493***
+(0.0042)
+Observations
+273,918
+R-squared
+0.0214
+Panel B: High-tech Workers
+(1)
+(2)
+(3)
+(4)
+Interview
+Interview
+Interview
+Interview
+score
+score
+score
+score
+(normalized)
+(normalized)
+(normalized)
+(normalized)
+Referral
+0.214***
+0.163***
+0.156***
+0.168***
+(0.004)
+(0.004)
+(0.006)
+(0.005)
+Observations
+641,043
+641,043
+274,995
+366,048
+Clusters
+239,110
+239,110
+57,883
+181,227
+Controls
+No
+Yes
+Yes
+Yes
+Sample
+Full
+Full
+Eng Only
+Non-Eng
+R-squared
+0.009
+0.156
+0.067
+0.210
+Notes: This table compares referred and non-referred workers in terms of scores on job tests and in terms of average
+interview scores. OLS regressions with standard errors clustered by applicant in parentheses. The dependent variable
+is either standardized job test score or standardized interview score, and the coeﬃcients can be read in terms of
+standard deviations. * signiﬁcant at 10%; ** signiﬁcant at 5%; *** signiﬁcant at 1%
+In Panel A, an observation is a worker. The controls included are cohort (month of hire) dummies and dummies for
+the type of job applied to.
+In Panel B, an observation is an applicant-interview. Getting hired at the ﬁrm generally requires multiple interviews,
+so there are multiple interviews per applicant. Controls include cohort (year of hire) dummies, year dummies, and
+driver training contracts. Demographic controls include job type, interview type, and quarter of hire.
+43
+
+Table 13: Separating Treatment from Selection, Section 5.4: Using Surveys to Test Whether
+Referred Workers are Better Matched on Speciﬁc Job Dimensions
+(1)
+(2)
+(3)
+Feel bothered when receive
+Demands of the job interfered
+Acceptable number of times
+unexpectedly low paycheck
+with family life
+at home per month
+(normalized)
+(normalized)
+(normalized)
+Referral
+-0.457**
+-0.299*
+0.310*
+(0.197)
+(0.176)
+(0.173)
+Observations
+223
+215
+226
+R-squared
+0.07
+0.05
+0.04
+Notes: This table examines whether a worker’s referral status predicts survey measures of job match, and in turn,
+how much of the increased retention from being referred can be explained by these variables. The model are OLS
+regressions. Robust standard errors in parentheses. All drivers are from the same training school and were hired in
+late 2005 or 2006. The survey questions are asked on a 5-point scale from Strongly Disagree (-2) to Strongly Agree
+(+2), and then normalized in-sample. Controls for age, gender, race, and marital status in all regressions. *
+signiﬁcant at 10%; ** signiﬁcant at 5%; *** signiﬁcant at 1%
+Table 14: Truck Driver Referrals: Homophily in Characteristics
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+Smoker
+Black
+Hispanic
+Female
+Married
+Age
+Referring Drv is Smoker
+0.20***
+-0.05
+0.02
+0.10**
+0.07
+0.43
+(0.07)
+(0.04)
+(0.03)
+(0.04)
+(0.07)
+(1.36)
+Referring Drv is Black
+-0.14*
+0.43***
+-0.02
+0.03
+-0.24***
+-1.40
+(0.07)
+(0.07)
+(0.03)
+(0.05)
+(0.08)
+(1.67)
+Referring Drv is Hispanic
+-0.11
+-0.15**
+0.46***
+-0.01
+-0.01
+-0.58
+(0.11)
+(0.06)
+(0.12)
+(0.09)
+(0.13)
+(2.79)
+Referring Drv is Female
+0.12
+0.01
+-0.02
+0.12
+-0.11
+4.51**
+(0.11)
+(0.08)
+(0.05)
+(0.08)
+(0.11)
+(2.17)
+Referring Drv is Married
+-0.06
+-0.04
+-0.03
+0.04
+0.11*
+0.98
+(0.05)
+(0.04)
+(0.02)
+(0.04)
+(0.06)
+(1.27)
+Age of Referring Drv
+-5.4e-4
+-3.0e-3*
+-7.3e-4
+6.6e-4
+6.2e-4
+0.27***
+(2.0e-3)
+(1.5e-3)
+(8.6e-4)
+(1.5e-3)
+(2.5e-3)
+(0.08)
+Observations
+972
+972
+972
+972
+972
+965
+R-squared
+0.56
+0.65
+0.68
+0.60
+0.50
+0.54
+Mean dep var
+0.289
+0.157
+0.0565
+0.124
+0.430
+40.32
+Notes: This table presents OLS regressions of referred worker characteristics on the characteristics of referring
+drivers. An observation is a referred worker and the sample is restricted to matched referred workers hired in
+2007-2009. Robust standard errors in parentheses. All speciﬁcations include 3-digit zip code dummies. The top panel
+analyzes all drivers whereas the lower panel eliminates workers who work in team pairs. Within a 3-digit zip code,
+drivers are more likely to refer people with similar characteristics to themselves. * signiﬁcant at 10%; ** signiﬁcant at
+5%; *** signiﬁcant at 1%
+44
+
+Table 15: Truck Driver Referrals: Homophily in Behaviors
+Panel A: Productivity
+(1)
+(2)
+(3)
+(4)
+Sample
+All
+Miles>0
+All
+Miles>0
+Avg miles per week (productivity)
+0.290***
+0.302***
+0.279***
+0.292***
+of referring driver
+(0.032)
+(0.031)
+(0.031)
+(0.030)
+Time-Location Controls
+Month,
+Month,
+Month-Op Center
+Month-Op Center
+Op Center
+Op Center
+Observations
+40,817
+36,543
+40,817
+36,543
+R-squared
+0.237
+0.170
+0.293
+0.217
+Mean dep var
+1684
+1881
+1684
+1881
+Panel B: Accidents
+(1)
+(2)
+Referring driver ever had an accident
+0.0030*
+0.0029
+(0.0018)
+(0.0018)
+Mean dep var
+0.0202
+0.0202
+Coef(ref driv accident) / mean dep var:
+14.9%
+14.4%
+Tenure controls
+Cubic
+Week of tenure dummies
+Observations
+41,530
+41,530
+R-squared
+0.0067
+0.0116
+Notes: This table presents OLS regressions of referred worker behavior on the behavior of referring drivers. An
+observation is a referred worker-week and the sample is restricted to matched referred workers hired in 2007-2009.
+Standard errors clustered by worker in parentheses. All speciﬁcations include demographic controls, cohort (year of
+hire) dummies, and work type controls for the referred driver. They also include demographic controls, work type
+controls, and length of tenure for the referring driver. * signiﬁcant at 10%; ** signiﬁcant at 5%; *** signiﬁcant at 1%
+In Panel A, the dependent variable is worker productivity in miles per week. As indicated in the table, columns 1 and
+2 include month-by-month controls and operating center controls. Columns 3 and 4 include month by operating
+center controls. Week of tenure dummies for the referred worker are included in all columns.
+In Panel B, the dependent variable is whether the worker had an accident in a given week. We show results with a
+cubic in tenure in column 1 and with week of tenure dummies in column 2. Both columns include month-by-month
+controls and operating center controls.
+Table 16: Proﬁts from Non-Referred and Referred Workers, and by Type of Referral
+Worker Type
+Proﬁts per Worker
+Referred (overall)
+$2,201
+Non-referred (overall)
+$1,756
+Referred (matched sample)
+$2,503
+Referred, referring worker w/ above median productivity
+$4,190
+Referred, referring worker w/ below median productivity
+$1,063
+Referred, referring worker does not quit in data
+$2,756
+Referred, referring worker eventually quits in data
+$1,798
+Notes: The calculation here is an accounting exercise based on the data from the trucking ﬁrm. Proﬁts are calculated
+assuming a Fixed Cost of $475 per week, a price of $1.90 per mile, a non-wage marginal cost of $1.20 per mile, and a
+marginal cost of training of $2,500, and a collection rate of 30% on new workers with training contracts. A weekly
+discount factor of 0.9957 is assumed, corresponding to an annual discount factor of 0.8.
+45
+
+Web Appendix: For Online Publication Only
+A
+Proof of Proposition 1
+Proposition 1. Referred workers will have higher productivity than non-referred workers. Suppose
+that the eﬀort cost reduction from being referred, kr, is not excessively large. Then, observed produc-
+tivity diﬀerences will reﬂect both selection and treatment eﬀects. That is, referred workers will have
+higher average match quality and will exert more eﬀort.
+Proof. The treatment eﬀect from referrals is obvious. A selection eﬀect from referrals means that
+E (m| bmR > m∗
+R) −E (m| bmE > m∗
+E) > 0. Before computing this diﬀerence, we start by examining
+E (m| bm > m∗) in general; the expression we derive can be applied for both referred and non-referred
+workers.
+E (m| bm > m∗)
+=
+Z
+E (m| bm, bm > m∗) f ( bm| bm > m∗) d bm
+=
+Z 
+h0
+h0 + hµ0 +
+h
+h0 + h bm
+
+f ( bm| bm > m∗) d bm
+=
+h0
+h0 + hµ0 +
+h
+h0 + hE ( bm| bm > m∗)
+To solve for E ( bm| bm > m∗), we use the fact that bm has a normal distribution: bm ∼N
+
+µ0, 1
+h0 + 1
+h
+
+=
+N
+
+µ0, h0+h
+h0h
+
+.
+E ( bm| bm > m∗)
+=
+E
+ 
+µ0 +
+r
+h0 + h
+h0h Z|µ0 +
+r
+h0 + h
+h0h Z > m∗
+!
+=
+µ0 +
+r
+h0 + h
+h0h E
+
+Z|Z > m∗−µ0
+q
+h0+h
+h0h
+
+
+=
+µ0 +
+r
+h0 + h
+h0h H
+
+m∗−µ0
+q
+h0+h
+h0h
+
+
+where H (x) ≡φ (x) / (1 −Φ (x)) is the hazard function of a standard normal and Z is a standard
+normal random variable. Plugging in, this yields the following expression:
+E ( bm| bm > m∗)
+=
+h0
+h0 + hµ0 +
+h
+h0 + h
+
+µ0 +
+r
+h0 + h
+h0h H
+
+m∗−µ0
+q
+h0+h
+h0h
+
+
+
+
+=
+µ0 +
+h
+h0 + h
+r
+h0 + h
+h0h H
+
+m∗−µ0
+q
+h0+h
+h0h
+
+
+=
+µ0 +
+s
+h
+h0 (h0 + h)H
+
+m∗−µ0
+q
+h0+h
+h0h
+
+
+(11)
+Before proving the general result, it is worthwhile to start with the case of no treatment eﬀects. We
+1
+
+would like to prove that referred workers will be unambiguously positive selected for any hR > hE.
+Lemma 2 Suppose that there is no eﬀort in the model, i.e. α = 0. Then referred workers will
+perform better than non-referred workers, with referred workers positively selected.
+Proof. Our goal is to show that dE(m| bm>m∗)
+dh
+> 0. We plug into (11) for m∗, using h0µ0 + hm∗= 0,
+or m∗= −h0
+h µ0:
+µ0 +
+s
+h
+h0 (h0 + h)H
+
+m∗−µ0
+q
+h0+h
+h0h
+
+
+=
+µ0 +
+s
+h
+h0 (h0 + h)H
+
+−h0
+h µ0 −µ0
+q
+h0+h
+h0h
+
+
+=
+µ0 +
+s
+h
+h0 (h0 + h)H
+
+
+−µ0
+
+1 + h0
+h
+
+q
+h0+h
+h0h
+
+
+=
+µ0 +
+s
+h
+h0 (h0 + h)H
+ 
+−µ0
+r
+h0 (h0 + h)
+h
+!
+=
+µ0 + θH
+
+−µ0
+θ
+
+where we deﬁne θ ≡
+q
+h
+h0(h0+h). Because θ is a monotonically increase function of h, it suﬃces to
+show that dE(m| bm>m∗)
+dθ
+> 0. Taking the derivative, we have:
+dE (m| bm > m∗)
+dθ
+=
+d
+dθ
+h
+θH
+
+−µ0
+θ
+i
+=
+H
+
+−µ0
+θ
+
++ µ0
+θ H′ 
+−µ0
+θ
+
+=
+H (x) −xH′ (x)
+=
+H(x)
+ x2 −xH (x) + 1
+
+where we deﬁne x ≡−µ0
+θ . We note that sgn
+ H(x)(x2 −xH (x) + 1)
+
+= sgn
+ x2 −xH (x) + 1
+
+, and
+that x2 −xH (x) + 1 > 0 for all x.
+Once the model has an eﬀort component (α > 0), ﬁrms will account for the treatment eﬀect from
+referrals (kr > 0) in setting the referred applicant hiring standard. For example, if kr is very large,
+then the ﬁrm may be willing to hire almost all referred applicants, despite being selective with respect
+to non-referred applicants, thereby making it so referred workers are not positively selected. Given
+a particular kr, referred workers will still be positively selected if the precision of referred applicant
+signals is suﬃciently high relative to the precision of non-referred applicant signals.
+Returning to the main proof, we now allow for treatment eﬀects, α > 0 and kr > 0. We use the
+expectation in (11) to compute the diﬀerence between referred and non-referred workers in average
+match quality. We deﬁne θR ≡
+q
+hR
+h0(h0+hR), θE ≡
+q
+hE
+h0(h0+hE), FR ≡F(kr + βα), and FE ≡F(βα).
+2
+
+E (m| bmR > m∗
+R) −E (m| bmE > m∗
+E)
+=
+θRH
+
+m∗
+R −µ0
+q
+h0+hR
+h0hR
+
+−θEH
+
+m∗
+E −µ0
+q
+h0+hE
+h0hE
+
+
+=
+θRH
+ 
+(m∗
+R −µ0)
+r
+h0hR
+h0 + hR
+!
+−θEH
+ 
+(m∗
+E −µ0)
+r
+h0hE
+h0 + hE
+!
+=
+θRH
+ 
+−
+h0 + hR
+hR
+
+(µ0 + αFR)
+r
+h0hR
+h0 + hR
+!
+−θEH
+ 
+−
+h0 + hE
+hE
+
+(µ0 + αFE)
+r
+h0hE
+h0 + hE
+!
+=
+θRH
+
+−(µ0 + αFR)
+θR
+
+−θEH
+
+−(µ0 + αFE)
+θE
+
+For a given θR and θE (that is, for a given hR and hE), for any α, we can choose kr small enough so
+that the terms αFR and αFE are suﬃciently small, and the total diﬀerence is positive.
+To see that there is a positive productivity diﬀerence between referred and non-referred even
+without assuming that kr is not excessively large, note ﬁrst that if α > 0 and kr = 0, that re-
+ferred workers will have higher average match quality. Denote the hiring standards in this case by
+(m∗
+R,0, m∗
+E,0). If kr is increased, m∗
+R,0 is still a feasible hiring standard for referred workers, and the
+optimum hiring standard must yield as least as high average productivity.
+B
+Data Appendix
+B.1
+Reliability of Referral Measurement
+Are our measures of referral status reliable? As indicated above, referral status is measured at the
+call-center ﬁrm by asking applicants, at the trucking ﬁrm by asking applicants and through the
+ﬁrm’s administrative referral program, and at the high-tech company via the ﬁrm’s administrative
+referral program.
+For the trucking data, self-reported referrals exceed administratively reported
+referrals by 24%. Of workers listed as referred in the ﬁrm’s administrative program, nearly all report
+being referred, whereas of workers who are not listed in the ﬁrm’s administrative program, some
+do report being referred. This diﬀerence reﬂects three factors: (1) Lying by applicants about their
+referral status, (2) Referring workers informing referred workers about the job, but who do not
+submit the worker’s name so that they would become eligible to receive a referral bonus, and (3)
+Imperfect matching across datasets. Our results from the trucking ﬁrm are similar whether we use
+the self-reported referral deﬁnition or whether we use the administrative deﬁnition, suggesting that
+diﬀerences in referral status deﬁnition are unlikely to account for diﬀerences in regression results
+across industries.
+B.2
+Call-center Firms
+Evolv on Demand, the job testing ﬁrm that tracks the data from the call-center ﬁrms, keeps common
+demographic variables (i.e., race, gender, and age) separate from retention and productivity data.
+This is to ensure the non-job relevant demographics data do not inﬂuence hiring and personnel
+management decisions.
+Thus, our data do not allow us to control for gender, race, and age in
+retention and productivity regressions. However, controlling for these variables has little impact
+on estimates for both trucking and high-tech workers, suggesting that omitting them would have
+3
+
+relatively little impact on estimates for call-center workers. We do control for race, gender, and age
+in characteristics comparisons in Table 1.
+Schooling. Years of schooling, given in one of several educational categories. We use 12 years
+for a high-school graduate; 14 years of schooling for an Associate Degree or Technical Diploma; 16
+years for a Bachelor’s Degree; 18 years for a Master’s Degree; and 20 years for a Doctorate.
+Intelligence.
+We measure intelligence using questions from applicant job tests at the seven
+call-center ﬁrms. The questions were developed by industrial/organizational psychologists at the job
+testing ﬁrm, Evolv on Demand, following appropriate validation processes. Because the job tests are
+proprietary and active, we cannot publish here the exact wording of the intelligence questions.
+Personality. As for intelligence, we measure the Big 5 personality characteristics using ques-
+tions from applicant job tests at the seven call-center ﬁrms.
+The questions were developed by
+industrial/organizational psychologists at the job testing ﬁrm, Evolv on Demand, following appro-
+priate validation processes. The industrial/organizational psychologists also designed the mapping
+from job test questions into the Big 5 characteristics. As for intelligence, because the job tests are
+proprietary and active, we cannot publish the exact wording of the personality questions.
+Big 5 Index. An equally-weighted average of the z-scores from the Big 5 personality character-
+istics, reversing neuroticism, as in Dal Bo et al. (2013).
+Adherence share. Share of the time that a worker is at his or her seat working of the total
+amount of time they are schedule to work. A higher number indicates higher productivity. We use
+the normalized version for regressions (normalized according to our data).
+Average handle time. Average number of seconds spent by a worker on a call. A lower number
+indicates higher productivity. We use the normalized version for regressions (normalized according
+to our data).
+Sales conversion rate. Share of the time that a sales call results in a sale. This number is only
+available for call-center workers engaged in sales. A higher number indicates higher productivity.
+We use the normalized version for regressions (normalized according to our data).
+Quality assurance. Managerial rating of whether a worker was providing quality service, mea-
+sured on a 0-1 scale. A higher number indicates higher productivity. We use the normalized version
+for regressions (normalized according to our data).
+Customer satisfaction. Rating from post-call customer surveys of whether customers were
+satisﬁed with the service provided, measured on a 0-1 scale.
+A higher number indicates higher
+productivity. We use the normalized version for regressions (normalized according to our data).
+Friends at company, People know at company. Applicants were asked the questions “How
+many friends do you have that work at this company?” and “How many people do you know that
+work at this company?” The response options for both questions were “0,” “1-2,” “3-4,” or “5 or
+more.” We convert “1-2” to 1.5, “3-4” to 3.5, and “5 or more” to 5 for both questions.
+Job test score. An applicant’s overall score on the job test. We normalize the score in-sample.
+B.3
+Trucking Firm
+For 900 of the workers, there is extensive information about worker background, cognitive ability,
+non-cognitive ability, and experimental preferences. These workers were hired at one of the trucking
+ﬁrm’s training schools in late 2005 and 2006. Most of the survey data was collected during the
+workers’ commercial driver’s license training.
+4
+
+Information on who referred a given worker is only available for October 1, 2007 through Decem-
+ber 31, 2009.
+Schooling. Years of schooling, given in one of several educational categories. We use 12 years
+for a high-school graduate; 14 years of schooling for an Associate Degree or Technical Diploma; 16
+years for a Bachelor’s Degree; 18 years for a Master’s Degree; and 20 years for a Doctorate.
+IQ. IQ is measured using Score on Ravens Progressive Matrices test.
+The test consists of 5
+sections with 12 questions each, producing a score out of 60. We normalize the test scores in sample.
+Big 5 Personality. We measure the Big 5 personality characteristics with the same measures
+as in Rustichini et al. (2012) using the Multidimensional Personality Questionnaire (MPQ), which
+consists of 154 multiple-choice questions.
+For all the traits, we normalize the scores in sample.
+Rustichini et al. (2012) note that it is diﬃcult to use the MPQ to create a measure of Openness that
+is separate from cognitive ability or intelligence. Thus, following Rustichini et al. (2012), we do not
+deﬁne a separate measure of Openness, and focus only on 4 of the Big 5 characteristics.
+Big 5 Index. An equally-weighted average of the z-scores from the 4 of the Big 5 personality
+characteristics (excluding Openness), reversing neuroticism, similar to as in Dal Bo et al. (2013).
+CRRA risk aversion. (CRRA) risk aversion is measured using a task similar to that in (Holt
+and Laury, 2002). CRRA uses choices between (A) Getting 2, 3, 4, 5, 6, or 7 dollars for sure vs. (B)
+A lottery with a 50% chance of getting 10 dollars and a 50% chance of getting 2 dollars.
+Patient options chosen. Subjects completed a time preference experiment where they chose
+between getting $80 at a later date or receiving between $45 and $75 today, making a total of 28
+choices. The later date varied was 1 day, several days, 1 week, or 4 weeks. Patient options chosen is
+the share of the 28 choices where the worker chose the patient option.
+Beta in HD model.
+The time preference experiment can be used to estimate a model of
+hyperbolic discounting (HD) with beta-delta preferences (Laibson, 1997). A time period corresponds
+to 1 day, so β is the amount of present bias between today tomorrow.
+Delta in HD model. The δ implied by the present-bias experiment (Laibson, 1997).
+Trust. Subjects played a Sequential Prisoner’s Dilemma. In the game, Player 1 could send $0
+or $5 to Player 2. Player 2 can respond by sending $0, $1, $2, $3, $4, or $5 back. Any funds sent by
+Player 1 or 2 are doubled by the researcher. Subjects played both roles using the Strategy Method.
+The variable trust is the average number of dollars sent by Player 1.
+Altruism V1. The number of dollars Player 2 would send back in the Sequential Prisoner’s
+Dilemma if Player 1 sent him or her $0.
+Altruism V2. The number of dollars Player 2 would send back in the Sequential Prisoner’s
+Dilemma if Player 1 sent him or her $5.
+Miles. The number of miles driven by a driver each week. When asked the reason for signif-
+icant cross-driver diﬀerences in average miles per week, managers at the trucking ﬁrm emphasized
+several factors, including speed, skill at avoiding traﬃc, route planning, skill at not getting lost, and
+coordinating with people to unload the truck. For example, drivers who arrive late to a location
+may have to wait long periods of time for their truck to be unloaded, which can be highly detri-
+mental to weekly miles. Trucking loads are assigned primarily by proximity and are not assigned
+based on driver ability. See Hubbard (2003) and Hoﬀman and Burks (2012) for more on measuring
+productivity in trucking.
+5
+
+Accident.
+Whether the driver has a trucking accident in any given week.
+The company’s
+deﬁnition of an accident is quite broad and includes serious as well as relatively minor accidents.
+Our use of a weekly dummy variable for having an accident is sensible, as we observe very few weeks
+where drivers have multiple accidents.
+Preventable accident. An accident that a driver had control over and thus is at least par-
+tially at fault. Determined to be preventable (instead of non-preventable) by analysts at the ﬁrm’s
+insurance subsidiary, based on guidelines from the Federal Motor Carrier Safety Administration.
+Non-preventable accident. An accident that the driver could not control, based on guidelines
+from the Federal Motor Carrier Safety Administration.
+Annual income if continued at past jobs. Drivers were asked: “Which range best describes
+the annual earnings you would normally have expected from your usual jobs (regular and part-time
+together), if you had not started driver training with [Firm A], and your usual jobs had continued
+without interruption?” The answers were $10,000 increments from $0-$10,000, $10,000 to $20,000,
+and so on, up to more than $70,000.
+B.4
+High-tech Firm
+There are about 25,000 workers in the high-tech dataset. However, most data is missing for about
+8,000 of these workers, leaving about 17,000 workers for most of the analysis.
+Schooling. Years of schooling, given in one of several educational categories. We use 12 years
+for a high-school graduate; 14 years of schooling for an Associate Degree or Technical Diploma; 16
+years for a Bachelor’s Degree; 18 years for a Master’s Degree; and 20 years for a Doctorate.
+SAT Total. Combined score from Math and Writing sections of the SAT. Each is out of 800
+points, so the total score is out of 1600 points. We focus on the Math and Writing section scores
+because data on Verbal section scores are missing for almost all respondents. The SAT data are
+obtained from a 2006 survey of existing employees administered by the ﬁrm.
+Big 5 Personality. The Big 5 Personality characteristics were measured using the Big Five
+Inventory Test (John et al., 1991). The data are obtained from a 2006 survey of existing employees
+administered by the ﬁrm. For all the 5 traits, we normalize the scores in sample.
+Subjective performance. An employee’s quarterly performance review score, provided by the
+employee’s manager. It is given on a scale from 0-5. We normalize the scores in sample.
+Hours worked. The data include timestamps of the most frequent activities that employees
+engage in, which we use to construct the average number of hours worked per day over the course
+of a month. Employees log an average of around 5-7 hours per day. Since employees work longer
+hours than this, our hours measure only captures some of the activities that employees engage in.
+We normalize the number of hours in-sample.
+The following measures correspond to objective tasks performed at work, such as writing and
+reviewing computer code. The activity measures are best thought of as capturing a combination of
+eﬀort and output, as opposed to output alone. For all the following measures, we winsorize high
+outliers, limiting activity measures for an employee*months to the 99th percentile of the distribution
+of all employee months with a positive amount of activity,
+Code reviews. Before new code becomes part of the ﬁrm’s canonical code base, it must be
+reviewed by one or more peers. These reviews are fairly regular; the average engineer participates
+in just over one per workday. We count the number of code reviews an engineer participates in as
+6
+
+an author and the number as a reviewer. The former is a proxy for the amount of new code written,
+while the latter is a measure of ones helpfulness as a reviewer and the extent to which one has been
+assigned responsibility for maintaining an important part of the ﬁrm’s codebase.
+Bugs database actions (bug actions). Bugs are tracked by a database. Employees make
+entries as they identify, diagnose, and ﬁx bugs. Software engineers are most likely to be involved in
+diagnosing and ﬁxing bugs, while non-engineers often identify them.
+Builds. Software is “built” (essentially a compilation) primarily for testing purposes, and also
+to use the software in an internal or external environment. While performing a build is clearly work-
+related activity, a software engineer who performs a lot of builds for every unit of code they complete
+may be working less eﬃciently than one who performs fewer builds.
+Perforce calls (P4calls) . Engineers make calls to the Perforce system, a third-party software
+program that maintains the ﬁrms codebase and facilitates engineers interaction, for a variety of
+purposes, including when they check out code for editing or viewing, when they submit code for
+review. As with builds, an eﬃcient engineer may accomplish a given task using fewer P4 calls than
+a less eﬃcient engineer.
+Wiki page edits and views. The ﬁrm’s code is documented in an extensive internal wiki.
+When signiﬁcant changes are made to code, the engineer responsible often updates the wiki. Pro-
+viding documentation of changes is viewed as good citizenship.
+Number of Friends. Based on a 2006 survey of existing employees conducted by the ﬁrm.
+Employees listed other employees they said were their friends. From this, we construct both self-
+reported friends and other-reported friends (based on whether others report the employee as a friend).
+Note that only for the high-tech ﬁrm do we have data on who is friends with whom (for the call-center
+and trucking ﬁrms, we only have data on the number of each employee’s friends).
+Patents. Number of patent applications associated with an employee. Employees who create an
+invention ﬁle an Invention Disclosure Form. Attorneys from the ﬁrm then decide whether to ﬁle a
+patent application. Most of these patent applications are later approved as patents, but the process
+usually takes several years.
+Throughout the paper, we measure “patents” using patents applied
+for. Patents with multiple employee co-authors from the high-tech ﬁrm are counted toward each
+employee.
+Citation-weighted patents.
+Following Trajtenberg (1990), we construct citation-weighted
+patents as one plus the number of citations for each patent. To limit the inﬂuence of outliers, we
+trim employees with citation counts above the 90th percentile in-sample.
+B.5
+Matching High-tech Inventors to Patent Citations
+Our goal was to match inventors at the high-tech ﬁrm to patent citations of their patents. Because
+the data from the high-tech ﬁrm do not contain patent numbers, we matched employee names from
+the company database to the U.S. Patent Inventor database (Lai et al., 2010), which lists the ﬁrst
+and last name of each inventor on each patent (and occasionally middle name or initial). For each
+inventor, we attempted a variety of matches with each name in the employee names – starting with
+the most diﬃcult match (full name), and proceeding until the easiest match (last name only), in the
+following order:
+1. The inventor’s full name
+2. The inventor’s ﬁrst name and last name (middle name or initial excluded).
+7
+
+3. The inventor’s ﬁrst name, middle initial and last name.
+4. The inventor’s ﬁrst name and last name.
+5. The inventor’s ﬁrst initial and last name.
+6. The inventor’s last name.
+If any of these attempts returned exactly one unique employee, we linked the patent inventor to the
+unique employee and discontinued further matches attempts for that employee. If an inventor was
+matched to zero or multiple employees, we discarded the inventor and invention (thereby ensuring
+that each inventor is linked to either zero or one employee record). This matching technique connects
+90% of the ﬁrm’s inventors listed in the U.S. Patent Inventor database. Many of the remaining ten
+percent are non-employees who had collaborated with the ﬁrm on technological projects (usually
+from academia).
+8
+
+C
+Additional Figures and Tables
+Figure C1: Separating Selection and Treatment, Section 5.1: Event Studies on Referring Worker
+Exit (with 95% Conﬁdence Intervals)
+-.1
+-.08 -.06 -.04 -.02
+0
+.02
+.04
+.06
+.08
+.1
+Change in quit probability
+-5
+-4
+-3
+-2
+-1
+0
+1
+2
+3
+4
+Quarter relative to referrer exit
+(a) Quits
+-400
+-300
+-200
+-100
+0
+100
+200
+300
+400
+Change in miles
+-5
+-4
+-3
+-2
+-1
+0
+1
+2
+3
+4
+Quarter relative to referrer exit
+(b) Miles
+-.06
+-.04
+-.02
+0
+.02
+.04
+.06
+Change in accident risk
+-5
+-4
+-3
+-2
+-1
+0
+1
+2
+3
+4
+Quarter relative to referrer exit
+(c) Accidents
+Notes: These graphs present event studies on whether referred workers are aﬀected by the exit of referring workers.
+The solid line denotes the coeﬃcient estimate, with the dotted lines denoting the 95% conﬁdence interval. Controls
+include cohort (year of hire) dummies, week of tenure dummies, and time ﬁxed eﬀects (at the monthly level).
+Individual ﬁxed eﬀects are included in the miles regression and the accidents regression. Standard errors clustered by
+worker.
+9
+
+Table C1: Summary of Data Elements
+Call-centers
+Trucking
+High-tech
+Referral status
+W,A
+W,A
+W,A
+Productivity
+W
+W
+W
+Social network
+W
+W
+W
+Job test or interview scores
+W,A
+W,A
+Demographics
+A
+W,A
+W,A
+Cognitive ability
+W,A
+W
+W
+Personality
+W,A
+W
+W
+Experimental games
+W
+Who referred whom
+W
+Notes: This table summarizes the data elements from the three industries. “W” means a data element is available for
+workers. “A” means a data element is available for applicants.
+10
+
+Table C2: Comparing Referred and Non-Referred Workers on Demographics
+Panel A: Call-center Applicants
+No Referral
+Referral
+Obs
+Female
+0.66
+0.58
+*
+59,356
+Black
+0.32
+0.31
+*
+58,688
+Hispanic
+0.26
+0.27
+*
+58,688
+More than high school education
+0.23
+0.16
+*
+49,804
+Share in each
+0.72
+0.28
+362,009
+Panel B: Trucking Workers
+No Referral
+Referral
+Obs
+African-American
+0.15
+0.14
+*
+N
+Hispanic
+0.05
+0.05
+N
+Female
+0.07
+0.13
+*
+N
+Married
+0.37
+0.38
+N
+Age when start
+38.8
+38.7
+0.80N
+Online application
+0.72
+0.55
+*
+N
+Smoker
+0.34
+0.37
+*
+N
+Share in each
+0.80
+0.20
+N
+Years of schooling
+12.97
+12.78
+895
+High school dropout
+0.04
+0.03
+895
+High school graduate
+0.36
+0.46
+*
+895
+Some college
+0.36
+0.31
+895
+Technical school
+0.14
+0.13
+895
+College degree or more
+0.11
+0.07
+895
+Credit score
+588
+584
+784
+Regular jobs in last 2 years
+1.56
+1.69
+894
+Annual income if continued at past jobs
+31.05
+27.90
+*
+895
+Maximum years at a previous job
+7.91
+7.97
+518
+Months holding reg jobs in last 2 years
+17.73
+18.37
+895
+Parent worked in trucking
+0.12
+0.15
+895
+Trainees known before training
+0.15
+0.19
+698
+Friends made since training
+5.45
+6.33
+698
+Exper (yrs) w/large onroad vehicle
+1.12
+1.09
+895
+Panel C: High-tech Workers
+No Referral
+Referral
+Obs
+White
+0.57
+0.66
+*
+25,282
+Asian
+0.36
+0.30
+*
+25,282
+Non-White/Asian
+0.07
+0.04
+*
+25,282
+Female
+0.33
+0.23
+*
+25,282
+Share in each
+0.67
+0.33
+25,282
+Notes: This table compares referred and non-referred workers in term of various demographic characteristics. *
+signiﬁcant at 5%
+In Panel A, demographic variables are missing for many of the call-center applicants.
+In Panel B, N is the number of drivers in the full trucker sample. The exact N is withheld to protect ﬁrm
+conﬁdentiality, N >> 10, 000.
+11
+
+Table C3: Comparing Referred and Non-Referred Workers on Cognitive Ability
+Panel A: Call-center Applicants
+No Referral
+Referral
+Obs
+Intelligence (std deviations)
+0.004
+-0.01
+*
+314,549
+Panel B: Trucking Workers
+No Referral
+Referral
+Obs
+IQ (std deviations)
+-0.00
+0.01
+850
+Panel C: High-tech Workers
+No Referral
+Referral
+Obs
+SAT Math Score
+724
+726
+910
+SAT Writing Score
+671
+683
+902
+Notes: This table compares referred and non-referred workers in cognitive ability. Intelligence for call-center
+applicants is measured from questions on the job tests. IQ is measured using the Ravens Progressive Matrices test.
+The SAT scores are out of 800. See Section B for variable deﬁnitions. * signiﬁcant at 5%
+Table C4: Comparing Referred and Non-Referred Workers on Non-cognitive Ability (Normalized
+Measures)
+Panel A: Call-Center Applicants
+No Referral
+Referral
+Obs
+Conscientiousness
+0.04
+-0.10
+*
+357,976
+Neuroticism
+0.00
+-0.01
+*
+356,401
+Agreeableness
+0.01
+-0.03
+*
+357,889
+Extraversion
+-0.03
+0.08
+*
+357,889
+Openness
+0.01
+-0.03
+*
+357,889
+Panel B: Trucking Workers
+No Referral
+Referral
+Obs
+Conscientiousness
+0.00
+-0.04
+895
+Neuroticism
+-0.03
+0.03
+895
+Agreeableness
+0.05
+-0.07
+895
+Extraversion
+-0.05
+0.06
+895
+Panel C: High-tech Workers
+No Referral
+Referral
+Obs
+Conscientiousness
+0.00
+0.00
+1,851
+Neuroticism
+0.04
+-0.05
+1,853
+Agreeableness
+0.06
+-0.07
+*
+1,853
+Extraversion
+-0.03
+0.03
+1,852
+Openness
+0.03
+-0.03
+1,852
+Notes: This table compares referred and non-referred workers in non-cognitive ability, measured using the Big 5
+Personality Characteristics. See Section B for variable deﬁnitions. * signiﬁcant at 5%.
+12
+
+Table C5: Comparing Referred and Non-Referred Workers on Experimental Preferences
+Panel A: Trucking Workers
+No Referral
+Referral
+Obs
+Risk aversion (CRRA), Version 1
+0.48
+0.46
+895
+Risk aversion (CRRA), Version 2
+0.11
+0.07
+895
+Patient option chosen (share)
+0.60
+0.58
+895
+Beta from hyperbolic discounting model, TUnit=Day
+0.84
+0.83
+895
+Delta from hyperbolic discounting model, TUnit=Day
+0.98
+0.97
+873
+Trust (P1 sending, SPD Game)
+3.41
+2.90
+*
+895
+Altruism V1 (P2 return if P1 sends $0, SPD Game)
+1.52
+1.55
+895
+Altruism V2 (P2 return if P1 sends $5, SPD Game)
+3.74
+3.46
+895
+Notes: This table compares referred and non-referred workers across several experimental economic games. The
+“SPD Game” is a Sequential Prisoner’s Dilemma. See Appendix B for an explanation of the diﬀerent experiments. *
+signiﬁcant at 5%
+Table C6: Who Makes Referrals? Evidence from the High-tech Firm
+(1)
+(2)
+Number of referrals
+Ever refer
+Referred
+0.0798***
+0.0421***
+(0.0119)
+(0.0058)
+Friends (self-reported)
+0.0170***
+0.0052***
+(0.0053)
+(0.0017)
+Mean interview score
+0.0274***
+0.0120***
+(0.0079)
+(0.0031)
+Asian
+-0.0941**
+-0.0287
+(0.0443)
+(0.0176)
+Hispanic
+-0.0744
+0.0544
+(0.1582)
+(0.0651)
+Female
+0.0661*
+0.0270*
+(0.0357)
+(0.0140)
+Masters degree
+0.0143
+0.0072
+(0.0169)
+(0.0076)
+Doctoral degree
+0.0952***
+0.0434***
+(0.0335)
+(0.0126)
+Observations
+17,168
+17,168
+R-squared
+0.1676
+0.1598
+Mean dep var
+0.264
+0.167
+Notes: This table presents OLS regressions on the number of referrals made by existing employees at the high-tech
+ﬁrm. Robust standard errors in parentheses. In column (1), we look at the number of referrals made per person,
+whereas in column (2), we examine whether an employee has ever made an employee referral (0-1). * signiﬁcant at
+10%; ** signiﬁcant at 5%; *** signiﬁcant at 1%
+13
+
+Table C7: Referred Applicants are More Likely to be Hired and Less Likely to have Problematic
+Pasts
+Panel A: Call-center
+(1)
+Referral
+0.0706***
+(0.0013)
+Observations
+363,394
+R-squared
+0.0071
+Mean dep var for ref=0
+0.0706
+Panel B: Trucking
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+Hired
+Felony
+DWI
+Work history prob
+App false
+Not ﬁt for ﬁrm
+Referral
+0.1186***
+-0.0038***
+-0.0003**
+-0.0015***
+0.0002
+-0.0017**
+(0.0019)
+(0.0004)
+(0.0002)
+(0.0004)
+(0.0002)
+(0.0007)
+Observations
+A
+A
+A
+A
+A
+A
+R-squared
+0.0088
+0.0001
+0.0000
+0.0000
+0.0000
+0.0000
+Mean dep var for ref=0
+0.171
+0.0101
+0.00144
+0.00871
+0.000870
+0.0206
+Panel C: High-tech
+(1)
+(2)
+(3)
+(4)
+Dep var:
+Made oﬀer
+Made oﬀer
+Hired
+Hired
+Referred
+0.01753***
+0.01660***
+0.01373***
+0.01301***
+(0.00055)
+(0.00055)
+(0.00049)
+(0.00049)
+Controls
+No
+Yes
+No
+Yes
+Observations
+1,175,016
+1,175,016
+1,175,016
+1,175,016
+R-squared
+0.00349
+0.00658
+0.00286
+0.00528
+Mean dep var for ref=0
+.0039
+.0039
+.0028
+.0028
+Notes: This table presents OLS regressions of whether a worker was hired on referral status. In addition, it also
+presents regressions of whether a work was disqualiﬁed for a particular reason on referral status. Robust standard
+errors in parentheses. An observation is an applicant to the ﬁrm. In Panel B, the exact number of applicants, A, is
+withheld to protect ﬁrm conﬁdentiality, A >> 100, 000. In Panel C, controls are gender and race dummies. *
+signiﬁcant at 10%; ** signiﬁcant at 5%; *** signiﬁcant at 1%
+14
+
+Table C8: Do Referred Workers Propose More Ideas by Proposing More Low Quality Ideas?
+Ruling out the “Junk Ideas” Explanation for Referred/Non-referred Innovation Diﬀerences at the
+High-tech Firm
+Dep Var: “Idea Rating” on Firm Idea Board
+(1)
+(2)
+(3)
+Referral
+0.001
+0.001
+-0.005
+(0.005)
+(0.005)
+(0.008)
+Observations
+254,292
+254,292
+80,041
+R2
+0.276
+0.277
+0.392
+Demog Controls
+No
+Yes
+Yes
+Outliers Removed
+No
+No
+Yes
+Clusters
+20,991
+20,991
+12,196
+Notes: OLS regressions with standard errors clustered by worker in parentheses. All regressions control for the
+submitter’s job category, rank, cohort, location and tenure – as well as the categorization of the idea, the idea’s
+creation date, the person rating the idea and the number of characters used to describe it. The demographic controls
+refer to the submitter’s ethnicity, gender, educational background, and mean interview score. In column 3, we try to
+remove outlier ideas. Some ideas submitted were more akin to “rants” than new business or product suggestions.
+These rants typically had a high number of idea raters. Thus, in column 3, ideas with fewer than four raters or
+greater than 20 raters were moved. Corresponding to the 25th and 75th percentiles of the number of raters, this is a
+very conservative elimination of rants. Results are also similar cutting at the 10th and 90th percentiles.
+Table C9: Alternative Explanation for Quitting Diﬀerences: Is the Quitting Diﬀerence Between
+Referred and Non-Referred Workers Due to Diﬀerences in the Outside Option?
+(1)
+(2)
+Referral
+-0.242*
+-0.224
+(0.137)
+(0.137)
+Annual income if continued at past jobs
+0.008**
+(0.003)
+Observations
+38,381
+38,381
+Notes: This table examines whether a worker’s referral status predicts their moral hazard behavior at work. All
+speciﬁcations are Cox Proportional Hazard models with demographic controls, education controls, and work type
+controls. Standard errors clustered at the driver level in parentheses. Demographic controls include gender, race
+dummies, marital status, and age bin dummies for the diﬀerent age groups: 25-30, 30-35, 35-40, 40-45, 45-50, 50-55,
+55-60, and 60-80. Education controls are dummies for high school graduate, some college, and college. Work type
+controls are dummies for diﬀerent work conﬁgurations and for receiving any salary or activity-based pay. All drivers
+are from the same training school and were hired in late 2005 or 2006. * signiﬁcant at 10%; ** signiﬁcant at 5%; ***
+signiﬁcant at 1%
+15
+
+Table C10: Alternative Explanation for Quitting Diﬀerences: Do Referred Workers have Diﬀerent
+Beliefs?
+(1)
+(2)
+Dep Var:
+Miles expectation
+Miles overprediction
+Referral
+34.30
+0.40
+(58.63)
+(52.68)
+Avg miles to date
+0.55***
+(0.07)
+Observations
+8,713
+8,628
+R-squared
+0.31
+0.12
+Mean dep var
+2323
+330.0
+Notes: This table examines whether a worker’s referral status predicts their moral hazard behavior at work. All
+speciﬁcations are OLS regressions with demographic controls, education controls, and work type controls. Standard
+errors clustered at the driver level in parentheses. Demographic controls include gender, race dummies, marital
+status, and age bin dummies for the diﬀerent age groups: 25-30, 30-35, 35-40, 40-45, 45-50, 50-55, 55-60, and 60-80.
+Education controls are dummies for high school graduate, some college, and college. Work type controls are dummies
+for diﬀerent work conﬁgurations and for receiving any salary or activity-based pay. All drivers are from the same
+training school and were hired in late 2005 or 2006. Referral is a 0-1 variable indicating a worker found the job
+through a referral (versus other ways). * signiﬁcant at 10%; ** signiﬁcant at 5%; *** signiﬁcant at 1%
+Table C11: Do Referred Workers Earn High Salaries? Evidence from High-tech
+(1)
+(2)
+(3)
+(4)
+Dep var:
+Log(Salary)
+Log(Salary)
+Log(Salary)
+Log(Salary)
+Referral
+0.0187∗∗
+0.0200∗∗
+0.0160
+0.0164
+(0.0065)
+(0.0065)
+(0.0087)
+(0.0087)
+Referral x Tenure
+0.0025
+0.0034
+(0.0049)
+(0.0048)
+Observations
+245,322
+245,322
+245,322
+245,322
+R2
+0.542
+0.549
+0.542
+0.549
+Demog Controls
+No
+Yes
+No
+Yes
+Clusters
+10,655
+10,655
+10,655
+10,655
+Notes: This table examines whether referred workers earn a higher salary. An observation is an employee-month.
+Standard errors clustered by employee in parentheses. All regressions include controls for tenure, exchange rate and
+ﬁxed eﬀects for job type, job rank, cohorts and month-of-year. Demographic controls include mean interview score
+and ﬁxed eﬀects for ethnicity, gender and educational background.
+16
+
+Table C12: Truck Driver Referrals: Homophily in Miles per Week, Quantile Regressions
+(1)
+(2)
+(3)
+Dep var:
+Miles> 0
+Miles> 0
+Miles> 0
+Quantile:
+Q10
+Q50
+Q90
+Avg miles per week (productivity)
+0.262***
+0.324***
+0.303***
+of referring driver
+(0.016)
+(0.013)
+(0.015)
+Observations
+36,543
+36,543
+36,543
+Mean dep var
+1881
+1881
+1881
+Notes: This table presents quantile regressions of referred worker productivity on the productivity of referring drivers.
+The regressions are the same as in column 2 of Table 15, but are speciﬁed as a quantile regression instead of OLS. An
+observation is a referred worker-week and the sample is restricted to matched referred workers hired in 2007-2009.
+Standard errors in parentheses. The dependent variable is non-rare worker productivity in miles per week. All
+speciﬁcations include demographic controls, cohort (year of hire) dummies, week of tenure dummies, month-by-month
+controls, operating center controls, and work type controls for the referred driver. They also include demographic
+controls, work type controls, and length of tenure for the referring driver. * signiﬁcant at 10%; ** signiﬁcant at 5%;
+*** signiﬁcant at 1%
+17
+
+Appendix References
+Dal Bo, Ernesto, Federico Finan, and Martin Rossi, “Strengthening State Capabilities: The
+Role of Financial Incentives in the Call to Public Service,” Quarterly Journal of Economics, 2013,
+Forthcoming.
+Hoﬀman, Mitchell and Stephen Burks, “Training Contracts, Worker Overconﬁdence, and the
+Provision of Firm-Sponsored General Training,” 2012. Mimeo, Yale University.
+Holt, Charles and Susan Laury, “Risk Aversion and Incentive Eﬀects,” American Economic
+Review, 2002, 92 (5), 1644–1655.
+Hubbard, Thomas N., “Information, Decisions, and Productivity: On-Board Computers and
+Capacity Utilization in Trucking,” American Economic Review, 2003, 93 (4), 1328–1353.
+John, O. P., E. M. Donahue, and R. L. Kentle, “The Big Five Inventory–Versions 4a and 54,”
+1991. Berkeley, CA: University of California,Berkeley, Institute of Personality and Social Research.
+Lai, Ronald, Alexander D’Amour, Amy Yu, Ye Sun, and Lee Fleming, “Disambigua-
+tion and Co-authorship Networks of the U.S. Patent Inventor Database (1975 - 2010),” 2010.
+http://hdl.handle.net/1902.1/15705 UNF:5:RqsI3LsQEYLHkkg5jG/jRg== V4 [Version].
+Laibson, David, “Golden Eggs and Hyperbolic Discounting,” Quarterly Journal of Economics,
+1997, 112 (2), pp. 443–477.
+Rustichini, Aldo, Colin DeYoung, Jon Anderson, and Stephen Burks, “Toward the Inte-
+gration of Personality Theory and Decision Theory in the Explanation of Economic Behavior,”
+Mimeo, University of Minnesota 2012.
+Trajtenberg, Manuel, “A Penny for Your Quotes: Patent Citations and the Value of Innovations,”
+RAND Journal of Economics, 1990, 21 (1), 172–187.
+18
