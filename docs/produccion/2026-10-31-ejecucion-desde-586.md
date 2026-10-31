@@ -1,8 +1,8 @@
 # Ejecución desde586 ·31/10/2026
 
-**637/840 terminadas, 1911 imágenes originales públicas, 0 en curso o borradores WordPress y 203 pendientes**. Claridad de Propósito9/15; 40 tandas completas.
+**640/840 terminadas, 1920 imágenes originales públicas, 0 en curso o borradores WordPress y 200 pendientes**. Claridad de Propósito12/15; 40 tandas completas.
 
-51 nuevas entradas y153originales públicos.
+54 nuevas entradas y162originales públicos.
 
 | Global | ID | URL | Imágenes |
 |---|---|---|---|
@@ -57,5 +57,8 @@
 |637|E4.11.07|https://moevec.org/blog/capitalismo-con-proposito-mee/|3/3|
 |638|E4.11.08|https://moevec.org/blog/proposito-colectivo-e-individual/|3/3|
 |639|E4.11.09|https://moevec.org/blog/ikigai-vocacion-y-mercado/|3/3|
+|640|E4.11.10|https://moevec.org/blog/proposito-en-la-adversidad/|3/3|
+|641|E4.11.11|https://moevec.org/blog/declaracion-de-proposito/|3/3|
+|642|E4.11.12|https://moevec.org/blog/proposito-familiar/|3/3|
 
-Continuar **640–642 / E4.11.10–E4.11.12**, Trabajo → Claridad de Propósito. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **643–645**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Continuar **643–645 / E4.11.13–E4.11.15**, Trabajo → Claridad de Propósito. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **646–648**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.

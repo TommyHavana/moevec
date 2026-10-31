@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-31T15:54:33+00:00.
+Comprobado en WordPress: 2026-10-31T16:11:45+00:00.
 
-**637/840 terminadas · 0 en curso · 203 pendientes.**
+**640/840 terminadas · 0 en curso · 200 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -651,9 +651,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 637 | 43/56 · 7/15 | E4.11.07 | Capitalismo con propósito: lo que defiende y lo que no defiende MEE | terminada | 3/3 | [Leer](https://moevec.org/blog/capitalismo-con-proposito-mee/) |
 | 638 | 43/56 · 8/15 | E4.11.08 | Propósito colectivo y propósito individual: cuándo chocan | terminada | 3/3 | [Leer](https://moevec.org/blog/proposito-colectivo-e-individual/) |
 | 639 | 43/56 · 9/15 | E4.11.09 | Ikigai, vocación y mercado: encontrar lo que el mundo paga | terminada | 3/3 | [Leer](https://moevec.org/blog/ikigai-vocacion-y-mercado/) |
-| 640 | 43/56 · 10/15 | E4.11.10 | Propósito en la adversidad: emprender en entornos hostiles | pendiente | 0/3 | — |
-| 641 | 43/56 · 11/15 | E4.11.11 | Escribe tu declaración de propósito en una página | pendiente | 0/3 | — |
-| 642 | 43/56 · 12/15 | E4.11.12 | Propósito familiar: acordar hacia dónde va la tribu | pendiente | 0/3 | — |
+| 640 | 43/56 · 10/15 | E4.11.10 | Propósito en la adversidad: emprender en entornos hostiles | terminada | 3/3 | [Leer](https://moevec.org/blog/proposito-en-la-adversidad/) |
+| 641 | 43/56 · 11/15 | E4.11.11 | Escribe tu declaración de propósito en una página | terminada | 3/3 | [Leer](https://moevec.org/blog/declaracion-de-proposito/) |
+| 642 | 43/56 · 12/15 | E4.11.12 | Propósito familiar: acordar hacia dónde va la tribu | terminada | 3/3 | [Leer](https://moevec.org/blog/proposito-familiar/) |
 | 643 | 43/56 · 13/15 | E4.11.13 | Cuando el propósito cambia: reinventarse sin culpa | pendiente | 0/3 | — |
 | 644 | 43/56 · 14/15 | E4.11.14 | Propósito y comunidad MEE: por qué existe este movimiento | pendiente | 0/3 | — |
 | 645 | 43/56 · 15/15 | E4.11.15 | Revisión trimestral de propósito y metas | pendiente | 0/3 | — |
