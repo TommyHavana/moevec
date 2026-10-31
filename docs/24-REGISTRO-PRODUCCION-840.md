@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-31T07:27:06+00:00.
+Comprobado en WordPress: 2026-10-31T07:40:18+00:00.
 
-**562/840 terminadas · 0 en curso · 278 pendientes.**
+**565/840 terminadas · 0 en curso · 275 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -576,9 +576,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 562 | 38/56 · 7/15 | E4.6.07 | Experiencia sectorial: emprender en lo que conoces | terminada | 3/3 | [Leer](https://moevec.org/blog/experiencia-sectorial-emprender/) |
 | 563 | 38/56 · 8/15 | E4.6.08 | Vender tu experiencia en línea: cursos, guías y comunidades | terminada | 3/3 | [Leer](https://moevec.org/blog/vender-experiencia-en-linea/) |
 | 564 | 38/56 · 9/15 | E4.6.09 | El valor de los oficios tradicionales en la economía moderna | terminada | 3/3 | [Leer](https://moevec.org/blog/oficios-tradicionales-economia-moderna/) |
-| 565 | 38/56 · 10/15 | E4.6.10 | Experiencia migrante: cómo hacer valer en otro país lo que aprendiste en el tuyo | pendiente | 0/3 | — |
-| 566 | 38/56 · 11/15 | E4.6.11 | Tu inventario de experiencia: ejercicio práctico | pendiente | 0/3 | — |
-| 567 | 38/56 · 12/15 | E4.6.12 | Escribir tu historial profesional para clientes, no para empleadores | pendiente | 0/3 | — |
+| 565 | 38/56 · 10/15 | E4.6.10 | Experiencia migrante: cómo hacer valer en otro país lo que aprendiste en el tuyo | terminada | 3/3 | [Leer](https://moevec.org/blog/experiencia-migrante-convalidar/) |
+| 566 | 38/56 · 11/15 | E4.6.11 | Tu inventario de experiencia: ejercicio práctico | terminada | 3/3 | [Leer](https://moevec.org/blog/inventario-de-experiencia/) |
+| 567 | 38/56 · 12/15 | E4.6.12 | Escribir tu historial profesional para clientes, no para empleadores | terminada | 3/3 | [Leer](https://moevec.org/blog/historial-profesional-para-clientes/) |
 | 568 | 38/56 · 13/15 | E4.6.13 | Mentor de pago o gratuito: cómo aprovechar la experiencia ajena | pendiente | 0/3 | — |
 | 569 | 38/56 · 14/15 | E4.6.14 | Jubilados emprendedores: experiencia que no se retira | pendiente | 0/3 | — |
 | 570 | 38/56 · 15/15 | E4.6.15 | Biblioteca de experiencia MEE: casos documentados (convocatoria) | pendiente | 0/3 | — |

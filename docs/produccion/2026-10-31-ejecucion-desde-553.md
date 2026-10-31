@@ -11,17 +11,20 @@
 | 562 | E4.6.07 | [Experiencia sectorial: emprender en lo que conoces](https://moevec.org/blog/experiencia-sectorial-emprender/) | 1196 | 3/3 |
 | 563 | E4.6.08 | [Vender tu experiencia en línea: cursos, guías y comunidades](https://moevec.org/blog/vender-experiencia-en-linea/) | 1211 | 3/3 |
 | 564 | E4.6.09 | [El valor de los oficios tradicionales en la economía moderna](https://moevec.org/blog/oficios-tradicionales-economia-moderna/) | 1280 | 3/3 |
+| 565 | E4.6.10 | [Experiencia migrante: cómo hacer valer en otro país lo que aprendiste en el tuyo](https://moevec.org/blog/experiencia-migrante-convalidar/) | 1228 | 3/3 |
+| 566 | E4.6.11 | [Tu inventario de experiencia: ejercicio práctico](https://moevec.org/blog/inventario-de-experiencia/) | 1145 | 3/3 |
+| 567 | E4.6.12 | [Escribir tu historial profesional para clientes, no para empleadores](https://moevec.org/blog/historial-profesional-para-clientes/) | 1145 | 3/3 |
 
-562/840 terminadas, 1686 imágenes originales públicas, 0 en curso o borradores WordPress y 278 pendientes. Inicio553; 9 entradas nuevas (556–564) y 27 originales públicos.
+565/840 terminadas, 1695 imágenes originales públicas, 0 en curso o borradores WordPress y 275 pendientes. Inicio553; 12 entradas nuevas (556–567) y 36 originales públicos.
 
 URL200, H1, canonical, ausencia de noindex, Article, índice, sitemap, enlaces y BreadcrumbList comprobados. Una publicación y tres adjuntos por ID, categorías y etiquetas del plan; taxonomía122/7 conservada.
 
 ## Continuación
 
-Reanudar **565–567 / E4.6.10–E4.6.12**, Trabajo → Experiencia como Activo. Nueve originales WebP completos e inspeccionados, briefs, prompts y procedencia conservados. Faltan textos y revisión completa de fuentes. Después, **568–570**. **501 / E4.2.06** y **512 / E4.3.02** siguen retenidas por título, con texto y tres imágenes cada una, sin publicación; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Reanudar **568–570 / E4.6.13–E4.6.15**, Trabajo → Experiencia como Activo. Nueve originales WebP completos e inspeccionados, briefs, prompts y procedencia conservados. Faltan textos y revisión completa de fuentes. Después, **571–573**. **501 / E4.2.06** y **512 / E4.3.02** siguen retenidas por título, con texto y tres imágenes cada una, sin publicación; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
 
 ## Último bloque: fuentes
 
-562: extracto primario de Klepper, capítulo1 pp.9–10, sin libro íntegro; Estatuto de los Trabajadores consolidado21/10/2026, art.21 y Ley1/2019 art.1.3. Referencias españolas sin evaluar pactos individuales ni autorizar uso de información ajena. 563: GlobalFindex2025, encuestas2024, como contexto; Stripe disponibilidad y política de jurisdicciones consultadas31/10/2026: no vía de cobro universal o disponible en Cuba, ni precios o plazos inventados. 564: definición SEPE y catálogo3T2026 como ejemplo identificado, no vigente deoctubre ni garantía de vacantes; Cedefop2023 y WEF2025 como análisis/previsiones delimitados, sin salarios o inmunidad a automatización. Ejemplos hipotéticos e imágenes conceptuales. No nueva restauración arrancada.
+565: OCDE/Comisión Europea2023, indicador3.12 definición y contexto de sobrecualificación sin cifras actuales o colectivos particulares. Ministerio de Ciencia/ValidaTE, ficha de equivalencia y TodoFP distinguen procedimientos; sin garantía de reconocimiento, empleo, plazo o habilitación. Accesos locales403/503 documentados frente a lectura primaria web. 566: E4.6.01 como contexto y plantilla propia deMEE, sin fórmula de valoración financiera, propiedad de contactos o ingresos garantizados. 567: E3.2.08 como contexto de muestras y autoría; propuestas propias de fichas, referencias y permisos, sin testimonios o resultados reales inventados. Tres imágenes por ID, escenas conceptuales sin documentos oficiales o casos documentales.
 
-Respaldo VPS `/data/mee-backups/produccion-840-incremento-562-564-20261031`, cadena176 más base. Copia local incremental y fuente privada verificadas por el proceso de entrega; evidencia definitiva fuera del ZIP. Sin nueva restauración arrancada.
+Respaldo VPS `/data/mee-backups/produccion-840-incremento-565-567-20261031`, cadena177 más base. Copia local incremental y fuente privada verificadas por el proceso de entrega; evidencia definitiva fuera del ZIP. Sin nueva restauración arrancada.
