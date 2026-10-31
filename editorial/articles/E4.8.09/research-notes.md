@@ -8,6 +8,12 @@ Simon-Kucher · Value-based Pricing Strategy
 https://www.simon-kucher.com/en/consulting/commercial-strategy-pricing-consulting/pricing-strategy-revenue-management/value-based-pricing
 Guía200leídadefiniciónporvalor,WTP/costeplus,retosimplantar,e investigar. Nopromesasdeprofit/lealtad/márgenes superiores,luxury/health/agricultureniexperimentocausal. Seidentificaconsultoracomercialy prácticapropiaMEE.
 
+
+
+Atribución revisada31/10/2026: La OCDE, en su presentación sobre política de consumo digital, identifica costes inesperados y problemas de transparencia como riesgos para el comprador. MEE toma esa preocupación como límite a una política de precios: explicar «valor» no sustituye informar de condiciones comprensibles.
+Fuente adicional: https://www.oecd.org/en/topics/consumer-policy-and-digital-technologies.html
+Alcance: Lectura parcial de la presentación sobre costes inesperados y transparencia. No es una norma nacional ni una estimación del daño de un negocio concreto.
+
 Excluido:
 - El título «lo que vales» se refiere a la oferta y no a dignidad/valorhumano.
 - Sinprecioóptimouniversal,nivelesobligatorios,causalidadredacción→ventas,márgenesniresultadosinventados.

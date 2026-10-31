@@ -12,6 +12,11 @@ OIT · Recomendación 204 · texto auténtico adoptado el12/6/2015
 https://www.ilo.org/sites/default/files/wcmsp5/groups/public/%40ed_norm/%40relconf/documents/meetingdocument/wcms_377774.pdf
 PDF200archivadoSHA,lecturaparcialpreámbuloypárrafos1–11parcial páginasPDF2,4,6,8,renderp4inspeccionado. NORMLEX403/redirectdocumentado,PDFalternativooficialverificado. Definición2,orientación1,mediosvida/preambulo; no mandato nacionalautomático,nopermisos/concesiónni norma nueva2026.
 
+
+
+Atribución revisada31/10/2026: La OIT, en el preámbulo de la Recomendación204, reconoce causas estructurales de la informalidad y la falta de alternativas de sustento. Esa posición fundamenta una objeción a confiar únicamente en mejoras individuales del negocio.
+Fuente ya consultada, con alcance conservado.
+
 Excluido:
 - H2observacióncomo preguntasMEE; no se inventan estrategias observadas en campo ni negocios/casos reales.
 - Sin estadísticas regionales o afirmaciones universales sobre productividad/fidelización/rentabilidad.

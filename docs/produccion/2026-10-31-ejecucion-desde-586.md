@@ -1,8 +1,8 @@
 # Ejecución desde586 ·31/10/2026
 
-**598/840 terminadas, 1794 imágenes originales públicas, 0 en curso o borradores WordPress y 242 pendientes**. Diferenciación de Valor15/15; 38 tandas completas.
+**601/840 terminadas, 1803 imágenes originales públicas, 0 en curso o borradores WordPress y 239 pendientes**. Resiliencia Económica3/15; 38 tandas completas.
 
-12 nuevas entradas y36originales públicos.
+15 nuevas entradas y45originales públicos.
 
 | Global | ID | URL | Imágenes |
 |---|---|---|---|
@@ -18,5 +18,8 @@
 |598|E4.8.13|https://moevec.org/blog/productos-cubanos-con-identidad/|3/3|
 |599|E4.8.14|https://moevec.org/blog/copiar-bien-inspiracion-plagio/|3/3|
 |600|E4.8.15|https://moevec.org/blog/medir-si-tu-diferenciacion-funciona/|3/3|
+|601|E4.9.01|https://moevec.org/blog/resiliencia-economica-que-es/|3/3|
+|602|E4.9.02|https://moevec.org/blog/diversificar-ingresos/|3/3|
+|603|E4.9.03|https://moevec.org/blog/deuda-y-fragilidad/|3/3|
 
-Continuar **601–603 / E4.9.01–E4.9.03**, Trabajo → Resiliencia Económica. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **604–606**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Continuar **604–606 / E4.9.04–E4.9.06**, Trabajo → Resiliencia Económica. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **607–609**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.

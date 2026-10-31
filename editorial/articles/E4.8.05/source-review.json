@@ -12,6 +12,12 @@
       "url": "https://www.netpromotersystem.com/insights/being-loyal-to-loyalty-nps-linkedin/",
       "scope": "Artículo200leído páginaswebprincipios y servirconstituyentes. Seidentificacomo propuestaautor. No seextrapolan empresasrealesseleccionadas,nivelesdecrecimiento,cifras1996,causalidad.",
       "public_scope": "Lectura de la reflexión del autor sobre lealtad a principios y servicio a las personas relacionadas con un negocio. Las pautas del artículo son propuestas de MEE."
+    },
+    {
+      "name": "U.S. Small Business Administration · Marketing and sales",
+      "url": "https://www.sba.gov/counseling/manage-your-business/#marketing-sales",
+      "scope": "Lectura parcial del plan de marketing, canales y presupuesto. Guía estadounidense, sin trasladar programas o normas a otros países.",
+      "public_scope": "Lectura parcial del plan de marketing, canales y presupuesto. Guía estadounidense, sin trasladar programas o normas a otros países."
     }
   ],
   "archived_files": [
@@ -54,6 +60,21 @@
       "file": "sources/reichheld-principles.txt",
       "bytes": 5788,
       "sha256": "606e8213736de8cd10490162782f104b39248b1acdcd2dc38d9907362002e41c"
+    },
+    {
+      "file": "sources/sba-marketing-attribution-access.json",
+      "bytes": 434,
+      "sha256": "2a28d3506e3b7893e62f64cc818de8a9cbe65ae3ebbbecedd7863a0ea9ae3879"
+    },
+    {
+      "file": "sources/sba-marketing-attribution.html",
+      "bytes": 348233,
+      "sha256": "b8a2f96dfbeab35bb378f1677707665190c9ab81686d0205467b1f06da19333d"
+    },
+    {
+      "file": "sources/sba-marketing-attribution.txt",
+      "bytes": 77441,
+      "sha256": "be434440373687cf7eab193de58f2df045b3f5eb66a8b432a62d8fb0287d8193"
     }
   ],
   "omitted_claims": [
@@ -63,7 +84,7 @@
     "SEO: slug fijo «diferenciacion-sin-presupuesto» conserva variante de palabra clave «sin gran presupuesto»; H1 intacto."
   ],
   "text_checks": {
-    "main_words": 1008,
+    "main_words": 1049,
     "opening_words": 51,
     "faq_words": [
       49,
@@ -77,5 +98,13 @@
   },
   "scope": "Fuentes primarias con lectura parcial identificada; fichas y guías no equivalen a libros completos.",
   "image_review": "Nueve originales image_gen589–591 inspeccionados individualmente y en mosaico WebP: lámpara/puestos/arcos; entrega/reloj/recomendación; tienda/kit/sello vacío. Escenas hipotéticas, no empresas reales, métricas, testimonios ni registro concedido. 1200x630 y1600x900, WebP<250000B; alt descriptivo y hashes.",
-  "public_seo_warning": "Dos meta name=description idénticas en salida WordPress; títuloSEO y texto de descripción coinciden con manifest. Incidencia de plantilla registrada, sin cambiar tema ni configuración SEO durante producción."
+  "public_seo_warning": "Dos meta descripciones idénticas en la salida WordPress; título y texto coinciden. Incidencia de plantilla/configuración registrada, sin cambios durante producción.",
+  "counterargument_attribution_checked": true,
+  "attribution_revision": {
+    "checked_on": "2026-10-31",
+    "added_paragraph": "La <a href=\"https://www.sba.gov/counseling/manage-your-business/#marketing-sales\">Small Business Administration</a> distingue la ventaja ofrecida del plan para llegar al comprador y vender. Su guía también pide presupuestar esas acciones. MEE recoge esa distinción para formular la objeción: un buen servicio necesita una vía practicable para ser conocido.",
+    "original_body_file": "article-before-attribution.html",
+    "source_scopes_explicit": true
+  },
+  "counterargument_attribution_public_verified": true
 }

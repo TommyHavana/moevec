@@ -30,6 +30,12 @@
       "url": "https://pase.impi.gob.mx/Faqs/PreguntasFrecuentes.pdf",
       "scope": "PDF20015MBarchivadoSHA;escaneado67páginas,extraccióntextualvacía. Leídasvisualmenteportada,PDFp41/p42 (impresas40/41),pregunta47sobrebúsquedafonética/figurativa informativa yaccesoTuCuentaPASE/MarcaenLínea. No seusa plazo10díasnihorarioventanilla/contactosantiguos. No PDFíntegro leído.",
       "public_scope": "Lectura parcial de la guía: acceso a trámites y carácter informativo de las búsquedas. Los requisitos vigentes del caso deben confirmarse con el IMPI."
+    },
+    {
+      "name": "U.S. Small Business Administration · Market research and competitive analysis",
+      "url": "https://www.sba.gov/counseling/plan-your-business/#market-research",
+      "scope": "Lectura de preguntas sobre demanda, tamaño, saturación y alternativas; sin garantía de ventas.",
+      "public_scope": "Lectura de preguntas sobre demanda, tamaño, saturación y alternativas; sin garantía de ventas."
     }
   ],
   "archived_files": [
@@ -122,6 +128,21 @@
       "file": "sources/reading-status.json",
       "bytes": 295,
       "sha256": "5e773a387516ee1f03cc92fbfe09ada51ebd0df9aa7100fbbeff3d5faddd92ed"
+    },
+    {
+      "file": "sources/sba-market-attribution-access.json",
+      "bytes": 427,
+      "sha256": "d1a0e22f032a0a4e8f2d530e2e72382cab5c2f9083272316346410ba8c439c84"
+    },
+    {
+      "file": "sources/sba-market-attribution.html",
+      "bytes": 254508,
+      "sha256": "d1d28ea664b886584dd5c9a8a56e77bd2261465163cd3ce2605e43aae90bb748"
+    },
+    {
+      "file": "sources/sba-market-attribution.txt",
+      "bytes": 43801,
+      "sha256": "324b8d4dc64d356274afa5667bcec473bba78893014906c963b25b81fdcfaeef"
     }
   ],
   "omitted_claims": [
@@ -130,7 +151,7 @@
     "Dosnegocioshipotéticos,kit/selloenblancosininfringirmarcasrealesni certificación."
   ],
   "text_checks": {
-    "main_words": 1067,
+    "main_words": 1105,
     "opening_words": 51,
     "faq_words": [
       50,
@@ -144,5 +165,13 @@
   },
   "scope": "Fuentes primarias con lectura parcial identificada; fichas y guías no equivalen a libros completos. IMPI: revisión visual de páginas PDF41/42. Error TLS de descarga OEPM nacional conservado; contenido verificado mediante herramienta web.",
   "image_review": "Nueve originales image_gen589–591 inspeccionados individualmente y en mosaico WebP: lámpara/puestos/arcos; entrega/reloj/recomendación; tienda/kit/sello vacío. Escenas hipotéticas, no empresas reales, métricas, testimonios ni registro concedido. 1200x630 y1600x900, WebP<250000B; alt descriptivo y hashes.",
-  "public_seo_warning": "Dos meta name=description idénticas en salida WordPress; títuloSEO y texto de descripción coinciden con manifest. Incidencia de plantilla registrada, sin cambiar tema ni configuración SEO durante producción."
+  "public_seo_warning": "Dos meta descripciones idénticas en la salida WordPress; título y texto coinciden. Incidencia de plantilla/configuración registrada, sin cambios durante producción.",
+  "counterargument_attribution_checked": true,
+  "attribution_revision": {
+    "checked_on": "2026-10-31",
+    "added_paragraph": "La <a href=\"https://www.sba.gov/counseling/plan-your-business/#market-research\">Small Business Administration</a> propone contrastar demanda y precios de alternativas antes de comprometer recursos. MEE toma esa pregunta como base de la objeción: invertir en identidad no demuestra por sí solo que exista demanda para la oferta.",
+    "original_body_file": "article-before-attribution.html",
+    "source_scopes_explicit": true
+  },
+  "counterargument_attribution_public_verified": true
 }

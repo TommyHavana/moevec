@@ -12,6 +12,12 @@ OCDE · Smart Regulations, Strong Business · resumen ejecutivo ·3/6/2026
 https://www.oecd.org/en/publications/smart-regulations-strong-business_93d38770-en/full-report/executive-summary_9d9c12e7.html
 Lecturawebparcialresumenejecutivo,métodoconsultasa gobiernos/organizacionesempresarialesypercepcionescargasSME. Noíndicesporcentajes ocausalidaduniversal. IntentoEconomOutlook2025local403registrado, no usadoenlugarlectura. Capturascopemanualoecd-web-reading.json.
 
+
+
+Atribución revisada31/10/2026: El Institute for Strategy and Competitiveness de Harvard Business School presenta el menor coste como una fuente de ventaja competitiva. Esa perspectiva fundamenta la objeción: un pequeño negocio debe examinar la ventaja de costes del rival, sin suponer que cercanía o flexibilidad la compensan siempre.
+Fuente adicional: https://www.isc.hbs.edu/strategy/business-strategy/Pages/strategic-positioning.aspx
+Alcance: Lectura de tipos de ventaja y liderazgo en costes. No demuestra que el mayor tamaño garantice menores costes en cualquier actividad.
+
 Excluido:
 - Sinventajaautomáticadepequeñosnirapidez/cercanía garantizadas.
 - Dos ejemplos hipotéticos; cien/diez/cienunidades son supuestoaritmético propio, no tasas o estadísticas.

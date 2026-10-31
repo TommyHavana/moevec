@@ -1625,3 +1625,13 @@ Fuentes y alcances por artículo en research-notes.md y source-review.json. Caso
 
 Continuar **601–603 / E4.9.01–E4.9.03**, Trabajo → Resiliencia Económica. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **604–606**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
 Automatización cada tres minutos ya configurada. No se han borrado copias ni originales.
+
+
+## Continuación editorial601-603 ·31/10/2026
+
+**601/840 terminadas, 1803 imágenes originales públicas, 0 en curso o borradores WordPress y 239 pendientes**. Resiliencia Económica3/15; 38 tandas completas.
+
+Fuentes y alcances por artículo en research-notes.md y source-review.json. 601: Findex2025 con encuesta2024, definición y población explícitas; sin meta universal de reserva. 602: dependencias y costes de diversificación, estudio híbrido como asociación. 603: deuda no implica crisis inevitable; Mian/Sufi mediante lecturas parciales y ejercicios aritméticos propios. Revisión adicional589–603: catorce atribuciones explícitas sobre los mismos ID y medios, con rechazo de hash obsoleto probado. Advertencia SEO: salida WordPress con dos meta descripciones idénticas; textos y títulos correctos. Incidencia de plantilla registrada, fuera de esta producción.
+
+Continuar **604–606 / E4.9.04–E4.9.06**, Trabajo → Resiliencia Económica. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **607–609**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Automatización cada tres minutos ya configurada. No se han borrado copias ni originales.

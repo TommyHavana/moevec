@@ -24,6 +24,11 @@ MEE · Propiedad intelectual: el debate dentro del liberalismo ·E1.5.04
 https://moevec.org/blog/propiedad-intelectual-debate-liberal/
 200páginapublicada154registroconfirmado,leídointro/debate/normas. Referenciaeditorialpropia, nopruebacausalefectospatentesyinnovación.
 
+
+
+Atribución revisada31/10/2026: La OMPI presenta el reconocimiento y beneficio para quienes crean, junto con el equilibrio con el interés público, como razones del sistema de propiedad intelectual. Esa posición fundamenta el argumento sobre incentivos que una defensa de la imitación debe atender.
+Fuente ya consultada, con alcance conservado.
+
 Excluido:
 - Sinporcentajemínimocambioparaeludirprotecciónnitraducción/atribucióncomolicenciaautomática.
 - Sin98%Shenkar,nietiquetarcopiarlibrecomoresultadodeunasolacategoríadePI.

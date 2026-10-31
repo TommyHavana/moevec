@@ -18,6 +18,12 @@
       "url": "https://www.oecd.org/en/publications/smart-regulations-strong-business_93d38770-en/full-report/executive-summary_9d9c12e7.html",
       "scope": "Lecturawebparcialresumenejecutivo,métodoconsultasa gobiernos/organizacionesempresarialesypercepcionescargasSME. Noíndicesporcentajes ocausalidaduniversal. IntentoEconomOutlook2025local403registrado, no usadoenlugarlectura. Capturascopemanualoecd-web-reading.json.",
       "public_scope": "Lectura del resumen de un informe basado, entre otras fuentes, en consultas a gobiernos y organizaciones empresariales. Las percepciones recogidas no estiman el efecto causal de cada norma."
+    },
+    {
+      "name": "Harvard Business School · Institute for Strategy and Competitiveness · Strategic Positioning",
+      "url": "https://www.isc.hbs.edu/strategy/business-strategy/Pages/strategic-positioning.aspx",
+      "scope": "Lectura de tipos de ventaja y liderazgo en costes. No demuestra que el mayor tamaño garantice menores costes en cualquier actividad.",
+      "public_scope": "Lectura de tipos de ventaja y liderazgo en costes. No demuestra que el mayor tamaño garantice menores costes en cualquier actividad."
     }
   ],
   "archived_files": [
@@ -35,6 +41,21 @@
       "file": "sources/gladwell-publisher.txt",
       "bytes": 8277,
       "sha256": "6a7bea20cfe838f31a7d7a12c461179299a24e0802fb730d95a6334fb56b8e2b"
+    },
+    {
+      "file": "sources/hbs-positioning-attribution-access.json",
+      "bytes": 464,
+      "sha256": "4aa2aff76a6b71d696cdc0341ae4aa9c52702f2bea41f1d443f663b2e0987a83"
+    },
+    {
+      "file": "sources/hbs-positioning-attribution.html",
+      "bytes": 65142,
+      "sha256": "efa51379854bc69581dd83ffa192bd259f7a4afa7cb7bb31a488a39efc6478ac"
+    },
+    {
+      "file": "sources/hbs-positioning-attribution.txt",
+      "bytes": 2185,
+      "sha256": "c1adc1a8505d5521e0ed796a70997f32ca5c50abbd4060b8615dabf918970dc4"
     },
     {
       "file": "sources/oecd-regulation2025-access.json",
@@ -89,7 +110,7 @@
     "Cooperación con decisionescomercialesindependientes, sin recomendar pactosdeprecios orepartomercado; avisoeducativo."
   ],
   "text_checks": {
-    "main_words": 1081,
+    "main_words": 1126,
     "opening_words": 52,
     "faq_words": [
       49,
@@ -103,5 +124,13 @@
   },
   "scope": "Fuentes específicas y alcance en cada expediente; propuestas prácticas MEE identificadas, sin resultados garantizados. Stigler PDFescaneado primera página leída visualmente; OCDEresumenweb2026, no informeíntegro.",
   "image_review": "Nueve originales image_gen595–597 inspeccionados individualmente y en mosaico WebP: barcos/alianza/rampa; mesa/sillas/flor; herramienta/proceso/puentes. Metáforas e hipótesis sin empresas reales, resultados, datos personales ni trámites acreditados. 1200x630 y1600x900, WebP<250000B; alt descriptivo y hashes.",
-  "public_seo_warning": "Dos meta name=description idénticas en salida WordPress; títuloSEO y texto de descripción coinciden con manifest. Incidencia de plantilla registrada, sin cambiar tema ni configuración SEO durante producción."
+  "public_seo_warning": "Dos meta descripciones idénticas en la salida WordPress; título y texto coinciden. Incidencia de plantilla/configuración registrada, sin cambios durante producción.",
+  "counterargument_attribution_checked": true,
+  "attribution_revision": {
+    "checked_on": "2026-10-31",
+    "added_paragraph": "El <a href=\"https://www.isc.hbs.edu/strategy/business-strategy/Pages/strategic-positioning.aspx\">Institute for Strategy and Competitiveness de Harvard Business School</a> presenta el menor coste como una fuente de ventaja competitiva. Esa perspectiva fundamenta la objeción: un pequeño negocio debe examinar la ventaja de costes del rival, sin suponer que cercanía o flexibilidad la compensan siempre.",
+    "original_body_file": "article-before-attribution.html",
+    "source_scopes_explicit": true
+  },
+  "counterargument_attribution_public_verified": true
 }

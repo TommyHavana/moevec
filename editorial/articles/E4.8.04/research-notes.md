@@ -8,6 +8,11 @@ U.S. Small Business Administration · Market research and competitive analysis
 https://www.sba.gov/counseling/plan-your-business/#market-research
 Página200leída secciónmarketresearch ycompetitiveanalysis: demanda,tamaño,ubicación,saturación,precios,fuentes existentes/investigacióndirecta. Sinprometertransferenciageográfica deprogramas/datosEEUU.
 
+
+
+Atribución revisada31/10/2026: La Small Business Administration pide investigar demanda, tamaño y saturación del mercado. Esas preguntas fundamentan esta objeción: una especialización necesita compradores suficientes. MEE aplica ese criterio al riesgo de concentrar la oferta, sin atribuir a la guía un resultado universal sobre nichos.
+Fuente ya consultada, con alcance conservado.
+
 Excluido:
 - Sin afirmar que especialización cause siempre más valor percibido, recomendaciones o rentabilidad.
 - El título fijo conserva aspiración «ser el mejor», explicada como aspiración y no ranking acreditado.

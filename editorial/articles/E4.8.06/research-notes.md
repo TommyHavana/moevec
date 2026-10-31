@@ -20,6 +20,12 @@ IMPI · Preguntas frecuentes de servicios electrónicos · pp.40–41 impresas
 https://pase.impi.gob.mx/Faqs/PreguntasFrecuentes.pdf
 PDF20015MBarchivadoSHA;escaneado67páginas,extraccióntextualvacía. Leídasvisualmenteportada,PDFp41/p42 (impresas40/41),pregunta47sobrebúsquedafonética/figurativa informativa yaccesoTuCuentaPASE/MarcaenLínea. No seusa plazo10díasnihorarioventanilla/contactosantiguos. No PDFíntegro leído.
 
+
+
+Atribución revisada31/10/2026: La Small Business Administration propone contrastar demanda y precios de alternativas antes de comprometer recursos. MEE toma esa pregunta como base de la objeción: invertir en identidad no demuestra por sí solo que exista demanda para la oferta.
+Fuente adicional: https://www.sba.gov/counseling/plan-your-business/#market-research
+Alcance: Lectura de preguntas sobre demanda, tamaño, saturación y alternativas; sin garantía de ventas.
+
 Excluido:
 - No registroefectuado,disponibilidadgarantizada,protecciónmundial,tasas/plazosuniversalizados o calidadcertificada por logo.
 - Aviso educativo legal, distintoterritorio yproductos/servicios. No actosjurídicos conherramientas.

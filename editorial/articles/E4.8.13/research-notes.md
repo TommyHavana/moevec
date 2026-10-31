@@ -16,6 +16,11 @@ Harvard Growth Lab · presentación del Atlas10.0 ·4/10/2024
 https://growthlab.hks.harvard.edu/news/atlas-economic-complexity-100-brings-new-data-and-product-space-design/
 Webprimaria200lecturaparcialpresentacióndelAtlas/espacioproductos,fuenteF118metodológica;urllibTLSfallidoarchivado, no tablaactualCubaniporcentajes/rankings/habilitacióncomercial. Capturaalcancemanualarchivada.
 
+
+
+Atribución revisada31/10/2026: El MINCEX, en los artículos1–4 de la Resolución126/2026, establece condiciones para facultades y mercancías. MEE parte de ese marco para formular la objeción: una historia de origen no reemplaza comprobar las condiciones institucionales de una operación.
+Fuente ya consultada, con alcance conservado.
+
 Excluido:
 - Sinmonopolioestataluniversalafirmadoniexportabilidad/permisosautomáticos.
 - NormasF2002021nofundamentanasesoramientovigente;revisióndeoperaciónnorealizada.

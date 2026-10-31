@@ -12,9 +12,25 @@
       "url": "https://www.simon-kucher.com/en/consulting/commercial-strategy-pricing-consulting/pricing-strategy-revenue-management/value-based-pricing",
       "scope": "Guía200leídadefiniciónporvalor,WTP/costeplus,retosimplantar,e investigar. Nopromesasdeprofit/lealtad/márgenes superiores,luxury/health/agricultureniexperimentocausal. Seidentificaconsultoracomercialy prácticapropiaMEE.",
       "public_scope": "Lectura de la definición y de las preguntas sobre utilidad y disposición a pagar. Es una guía de consultoría; no garantiza beneficios para cada negocio."
+    },
+    {
+      "name": "OCDE · Consumer policy and digital technologies",
+      "url": "https://www.oecd.org/en/topics/consumer-policy-and-digital-technologies.html",
+      "scope": "Lectura parcial de la presentación sobre costes inesperados y transparencia. No es una norma nacional ni una estimación del daño de un negocio concreto.",
+      "public_scope": "Lectura parcial de la presentación sobre costes inesperados y transparencia. No es una norma nacional ni una estimación del daño de un negocio concreto."
     }
   ],
   "archived_files": [
+    {
+      "file": "sources/oecd-consumer-attribution-access.json",
+      "bytes": 185,
+      "sha256": "d0264e4b4108dbe2f5b0c92edb69421a288ec1cb17e6d57d9121193fb388f2fd"
+    },
+    {
+      "file": "sources/oecd-consumer-web-reading.json",
+      "bytes": 360,
+      "sha256": "fb8fb94a4b8ef1711ad542abb40b2888d3e323d553d17591822920266109279b"
+    },
     {
       "file": "sources/reading-scope.json",
       "bytes": 1346,
@@ -63,7 +79,7 @@
     "E3.4.12/global477 comprobada publicada antes de enlazar. Dos ejemplos hipotéticos."
   ],
   "text_checks": {
-    "main_words": 1066,
+    "main_words": 1108,
     "opening_words": 52,
     "faq_words": [
       50,
@@ -77,5 +93,13 @@
   },
   "scope": "Fuentes primarias y límites por entrada documentados. Las fichas de libros no equivalen a libros íntegros.",
   "image_review": "Nueve originales image_gen592–594 inspeccionados individualmente y en mosaico WebP: escalera/taller/río; mercado/cuaderno/transición; balanza/cajas/reparación. Metáforas e hipótesis sin empresas reales, resultados, datos personales ni trámites acreditados. 1200x630 y1600x900, WebP<250000B; alt descriptivo y hashes.",
-  "public_seo_warning": "Dos meta name=description idénticas en salida WordPress; títuloSEO y texto de descripción coinciden con manifest. Incidencia de plantilla registrada, sin cambiar tema ni configuración SEO durante producción."
+  "public_seo_warning": "Dos meta descripciones idénticas en la salida WordPress; título y texto coinciden. Incidencia de plantilla/configuración registrada, sin cambios durante producción.",
+  "counterargument_attribution_checked": true,
+  "attribution_revision": {
+    "checked_on": "2026-10-31",
+    "added_paragraph": "La <a href=\"https://www.oecd.org/en/topics/consumer-policy-and-digital-technologies.html\">OCDE, en su presentación sobre política de consumo digital</a>, identifica costes inesperados y problemas de transparencia como riesgos para el comprador. MEE toma esa preocupación como límite a una política de precios: explicar «valor» no sustituye informar de condiciones comprensibles.",
+    "original_body_file": "article-before-attribution.html",
+    "source_scopes_explicit": true
+  },
+  "counterargument_attribution_public_verified": true
 }
