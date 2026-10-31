@@ -14,19 +14,19 @@
   ],
   "area": "trabajo",
   "topic": "sacrificio-estrategico",
-  "phase": "research_preparation_images_pending",
+  "phase": "images_ready_text_sources_pending",
   "next_after_block": [
     496,
     497,
     498
   ],
-  "updated_at": "2026-10-31T01:16:38.076089+00:00",
+  "updated_at": "2026-10-31T01:22:13.320725+00:00",
   "last_completed_block": [
     490,
     491,
     492
   ],
-  "notes": "492/840 terminadas, 1476 imágenes originales públicas, 0 en curso o borradores WordPress y 348 pendientes. Sacrificio Estratégico12/15,32 tandas completas; Comunidad60/60. Continuar **493–495 / E4.1.13–E4.1.15**, Trabajo → Sacrificio Estratégico, tanda 33/56. Briefs originales y primeras fuentes localizadas; sin lectura final ni textos ni imágenes (0/3 cada una). No cuentan como terminadas. Siguen pendientes en WordPress. Después 496–498. Automatización activa, sin límite de imágenes comunicado.",
+  "notes": "492/840 publicadas y verificadas; 0 en curso WP,348 pendientes. 493–495 con nueve originales listos y revisados, fuentes por revisar y sin textos. Reanudar fuentes/textos; no duplicar imágenes. Después496–498. Sin límite temporal de generación comunicado.",
   "last_backup": {
     "directory": "/data/mee-backups/produccion-840-incremento-490-492-20261031",
     "completed_articles": 492,
@@ -39,7 +39,7 @@
     "chain_contiguous": true,
     "restore_test": false
   },
-  "last_local_backup": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Editorial_490-492_2026-10-31_incremental.zip",
+  "last_local_backup": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Editorial_Preparacion_493-495_2026-10-31_incremental.zip",
   "completed_this_run": [
     487,
     488,
@@ -51,43 +51,46 @@
   "run_started_with_completed": 486,
   "local_preparations": [
     {
-      "id": "E4.1.13",
       "number": 493,
-      "images": 0,
-      "images_visually_checked": false,
-      "published": false,
+      "id": "E4.1.13",
+      "images": 3,
+      "images_visually_checked": true,
       "article_complete": false,
-      "sources_verified": false
+      "sources_verified": false,
+      "published": false,
+      "sources_downloaded": 1
     },
     {
-      "id": "E4.1.14",
       "number": 494,
-      "images": 0,
-      "images_visually_checked": false,
-      "published": false,
+      "id": "E4.1.14",
+      "images": 3,
+      "images_visually_checked": true,
       "article_complete": false,
-      "sources_verified": false
+      "sources_verified": false,
+      "published": false,
+      "sources_downloaded": 1
     },
     {
-      "id": "E4.1.15",
       "number": 495,
-      "images": 0,
-      "images_visually_checked": false,
-      "published": false,
+      "id": "E4.1.15",
+      "images": 3,
+      "images_visually_checked": true,
       "article_complete": false,
-      "sources_verified": false
+      "sources_verified": false,
+      "published": false,
+      "sources_downloaded": 1
     }
   ],
-  "local_backup_kind": "incremental",
+  "local_backup_kind": "incremental_preparation",
   "local_backup_base": {
-    "path": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Editorial_487-489_2026-10-31_incremental.zip",
-    "sha256": "0776e2c1638d34566c533eecf46dbdcaf128e185d3d695560f4e66e7be958791"
+    "path": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Editorial_490-492_2026-10-31_incremental.zip",
+    "sha256": "316848a37aad7ca484db2a74efe3c46af5288e33d67975c3f3059a2de1645e27"
   },
   "storage_check": {
-    "checked_at": "2026-10-31T01:16:38.076089+00:00",
-    "free_bytes": 7938969600,
+    "checked_at": "2026-10-31T01:22:52.390693+00:00",
+    "free_bytes": 10773405696,
     "originals_and_backups_preserved": true,
-    "note": "Incremental proporcional; cadena y originales conservados."
+    "note": "Preparación local de493–495, WordPress permanece492 completo."
   },
   "last_run_closed_at_madrid": "2026-10-31"
 }

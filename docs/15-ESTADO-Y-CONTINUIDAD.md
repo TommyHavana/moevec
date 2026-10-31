@@ -18,7 +18,7 @@ Minimalismo: artículo firmado de Bastos y resumen alojado por Robin, no libros 
 
 ## Continuación exacta
 
-Continuar **493–495 / E4.1.13–E4.1.15**, Trabajo → Sacrificio Estratégico, tanda 33/56. Briefs originales y primeras fuentes localizadas; sin lectura final ni textos ni imágenes (0/3 cada una). No cuentan como terminadas. Siguen pendientes en WordPress. Después 496–498. Automatización activa, sin límite de imágenes comunicado.
+Reanudar **493–495 / E4.1.13–E4.1.15**, Trabajo → Sacrificio Estratégico, tanda 33/56. Cada una tiene sus tres originales WebP completos y revisados (3/3), briefs y fuentes iniciales guardados. Faltan lectura final de fuentes y textos; no article.json, borradores ni publicaciones. Las tres siguen dentro de las 348 pendientes de WordPress. No regenerar ni duplicar medios. Después 496–498. Automatización activa; no hay agotamiento de imágenes comunicado.
 
 ## Copias y límites
 

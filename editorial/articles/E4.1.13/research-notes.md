@@ -1,3 +1,3 @@
 # Preparación · E4.1.13
 
-Fuentes localizadas, sin lectura final. Conservar título, ID y slug. Verificar la evidencia primaria antes de redactar. Ninguna imagen ni texto preparado todavía.
+Tres originales completos, vistos individualmente y en mosaico 493–495. Portada1200×630 e interiores 1600×900, WebP<250000B y hashes distintos. Brief y fuentes iniciales conservados, sin lectura final ni texto. No article.json ni publicación. Reanudar por lectura de fuentes; no regenerar ni duplicar medios.
