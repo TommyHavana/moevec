@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-31T14:39:51+00:00.
+Comprobado en WordPress: 2026-10-31T14:56:20+00:00.
 
-**625/840 terminadas · 0 en curso · 215 pendientes.**
+**628/840 terminadas · 0 en curso · 212 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -639,9 +639,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 625 | 42/56 · 10/15 | E4.10.10 | El tiempo de la familia: no es tiempo perdido | terminada | 3/3 | [Leer](https://moevec.org/blog/tiempo-de-la-familia/) |
 | 626 | 42/56 · 11/15 | E4.10.11 | Auditoría de tu tiempo: una semana registrando todo | terminada | 3/3 | [Leer](https://moevec.org/blog/auditoria-de-tu-tiempo/) |
 | 627 | 42/56 · 12/15 | E4.10.12 | Rutina del emprendedor con empleo: horarios realistas | terminada | 3/3 | [Leer](https://moevec.org/blog/rutina-emprendedor-con-empleo/) |
-| 628 | 42/56 · 13/15 | E4.10.13 | Decir no: la habilidad que libera más tiempo | pendiente | 0/3 | — |
-| 629 | 42/56 · 14/15 | E4.10.14 | Tiempo de desplazamiento: el coste oculto de vivir lejos del trabajo | pendiente | 0/3 | — |
-| 630 | 42/56 · 15/15 | E4.10.15 | Planificar tu año en una hoja | pendiente | 0/3 | — |
+| 628 | 42/56 · 13/15 | E4.10.13 | Decir no: la habilidad que libera más tiempo | terminada | 3/3 | [Leer](https://moevec.org/blog/decir-no/) |
+| 629 | 42/56 · 14/15 | E4.10.14 | Tiempo de desplazamiento: el coste oculto de vivir lejos del trabajo | terminada | 3/3 | [Leer](https://moevec.org/blog/tiempo-de-desplazamiento/) |
+| 630 | 42/56 · 15/15 | E4.10.15 | Planificar tu año en una hoja | terminada | 3/3 | [Leer](https://moevec.org/blog/planificar-tu-ano-en-una-hoja/) |
 | 631 | 43/56 · 1/15 | E4.11.01 | Propósito: la diferencia entre moverse y avanzar | pendiente | 0/3 | — |
 | 632 | 43/56 · 2/15 | E4.11.02 | Metas que funcionan: lo que dice la psicología | pendiente | 0/3 | — |
 | 633 | 43/56 · 3/15 | E4.11.03 | Propósito y dinero: ¿para qué quieres ganar más? | pendiente | 0/3 | — |
