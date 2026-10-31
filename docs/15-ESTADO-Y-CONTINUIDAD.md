@@ -2,31 +2,31 @@
 
 ## Estado actual
 
-**486/840 terminadas, 1458 imágenes originales públicas, 0 en curso o borradores WordPress y 354 pendientes**. Sacrificio Estratégico 6/15, 32 tandas completas y Comunidad 60/60.
+**489/840 terminadas, 1467 imágenes originales públicas, 0 en curso o borradores WordPress y 351 pendientes**. Sacrificio Estratégico 9/15, 32 tandas completas y Comunidad 60/60.
 
 Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Desde 471: entradas 472–486, quince nuevas y 45 originales públicos. Bloques consecutivos de tres, cada uno con SQL completo y medios nuevos respaldados.
+Inicio 486; producidas 487–489, tres entradas y nueve originales públicos.
 
-Una publicación y tres adjuntos por ID; categorías Trabajo y Sacrificio Estratégico y etiquetas exactas. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales y variantes comprobados. Navegación y BreadcrumbList: Blog → Trabajo → Sacrificio Estratégico. Taxonomía de 122 nodos y siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva ni posicionamiento.
+Una publicación y tres adjuntos por ID. Categorías Trabajo y Sacrificio Estratégico, etiquetas sacrificio-estrategico y desarrollo. HTTP 200, H1, canonical, ausencia de noindex, Article, índice, sitemap, enlaces y nueve originales/variantes correctos. Navegación y BreadcrumbList Blog → Trabajo → Sacrificio Estratégico. Taxonomía 122 nodos y siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva ni posición.
 
 ## Revisión del último bloque
 
-Gratificación diferida: Shoda/Mischel/Peake1990, réplica conceptual de Watts/Duncan/Quan2018, Kidd2013 y análisis de2020/2024 con alcances diferenciados; asociación, contexto y causalidad separados, sin pronósticos personales. Staw1976: lectura visual de pp 27, 30–31,38–39, simulación con estudiantes y empresa ficticia, no plazo óptimo. Proyecto paralelo: Raffiee/Feng2014 solo resumen primario con procedencia de autor, sin métodos o porcentajes inventados; BOE actualizado 21/10/2026, artículos 21/34 como ejemplo español sujeto al caso. Nueve imágenes originales comprobadas, puente corregido antes de aceptar.
+Inflación: BCE, Berg/Borensztein 2000, CNMV y Keynes capítulo 15; diferencia liquidez/activos y dolarización institucional/decisión del hogar, sin tasas o normas no verificadas. Emigración: Clemens ficha 2011 y documento previo, Dustmann/Kirchkamp 2002 con selección histórica de retornados turcos y OIM 2019 como guía, sin causalidad de éxito. E1.7.12/837 pendiente sin enlace muerto. Salud: Pencavel IZA 2014 diferenciado de publicación 2015; municiones y heterogeneidad, producto total/marginal separados; NHLBI y NIOSH oficiales, sin umbral universal ni diagnóstico. Alcances parciales registrados; libros no leídos no atribuidos.
 
 ## Continuación exacta
 
-Reanudar **487–489 / E4.1.07–E4.1.09**, Trabajo → Sacrificio Estratégico. E4.1.07: tres imágenes originales listas y revisadas, sin texto ni revisión final de fuentes. E4.1.08 y E4.1.09: fuentes archivadas para revisar y 0/3 imágenes. Las tres siguen pendientes en WordPress y no se cuentan como terminadas. Después 490–492. Automatización activa; no hay agotamiento de imágenes comunicado.
+Continuar **490–492 / E4.1.10–E4.1.12**, Trabajo → Sacrificio Estratégico, tanda 33/56. Briefs originales y fuentes iniciales guardados, sin lectura final ni textos ni imágenes (0/3 cada una). Algunas descargas primarias devolvieron 403; registros conservados, sin fingir lectura. Siguen pendientes en WordPress. Después 493–495. Automatización activa, sin límite de imágenes comunicado.
 
 ## Copias y límites
 
-Respaldo VPS hasta 486: SQL completo y 66 medios nuevos, hashes y miembros comprobados; cadena de 149 incrementos continua. Sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 >100 MiB fuera de Git.
+VPS hasta 489: SQL completo y 66 medios nuevos, hashes y miembros verificados; 150 incrementos consecutivos. Sin nueva prueba de arranque de restauración completa. Incremento local y fuente privada referenciados al cierre.
 
 ## Traspaso
 
-Producción continua autorizada sin confirmaciones. Consultar WordPress y reanudar los expedientes indicados. No contar preparaciones como terminadas. Sin cambios de arquitectura, DNS, correo, autenticación, tema o taxonomía. Sin despliegue React por contenido.
+Producción continua autorizada sin confirmaciones. WordPress es estado real. Reanudar expedientes y no contar preparaciones como terminadas. Sin cambios de arquitectura, DNS, correo, autenticación, tema o taxonomía; sin despliegue React por contenido.
 
 ## Página de apoyo, donaciones y publicidad · 29/10/2026
 

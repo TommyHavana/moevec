@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-31T00:45:53+00:00.
+Comprobado en WordPress: 2026-10-31T01:01:13+00:00.
 
-**486/840 terminadas · 0 en curso · 354 pendientes.**
+**489/840 terminadas · 0 en curso · 351 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -498,9 +498,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 484 | 33/56 · 4/15 | E4.1.04 | Gratificación diferida: lo que sabemos (y no) desde el estudio del malvavisco | terminada | 3/3 | [Leer](https://moevec.org/blog/gratificacion-diferida-malvavisco/) |
 | 485 | 33/56 · 5/15 | E4.1.05 | Cuánto tiempo sacrificar: plazos razonables para un proyecto | terminada | 3/3 | [Leer](https://moevec.org/blog/cuanto-tiempo-sacrificar/) |
 | 486 | 33/56 · 6/15 | E4.1.06 | Trabajar de día, construir de noche: el modelo del proyecto paralelo | terminada | 3/3 | [Leer](https://moevec.org/blog/proyecto-paralelo-trabajar-de-dia/) |
-| 487 | 33/56 · 7/15 | E4.1.07 | Ahorrar en entornos con inflación: sacrificio que no se evapore | pendiente | 0/3 | — |
-| 488 | 33/56 · 8/15 | E4.1.08 | El sacrificio del emigrante: trabajo duro lejos de casa | pendiente | 0/3 | — |
-| 489 | 33/56 · 9/15 | E4.1.09 | Sacrificio y salud: el límite que no conviene cruzar | pendiente | 0/3 | — |
+| 487 | 33/56 · 7/15 | E4.1.07 | Ahorrar en entornos con inflación: sacrificio que no se evapore | terminada | 3/3 | [Leer](https://moevec.org/blog/ahorrar-con-inflacion/) |
+| 488 | 33/56 · 8/15 | E4.1.08 | El sacrificio del emigrante: trabajo duro lejos de casa | terminada | 3/3 | [Leer](https://moevec.org/blog/sacrificio-del-emigrante/) |
+| 489 | 33/56 · 9/15 | E4.1.09 | Sacrificio y salud: el límite que no conviene cruzar | terminada | 3/3 | [Leer](https://moevec.org/blog/sacrificio-y-salud-limite/) |
 | 490 | 33/56 · 10/15 | E4.1.10 | Vivir con menos para invertir más: el minimalismo productivo | pendiente | 0/3 | — |
 | 491 | 33/56 · 11/15 | E4.1.11 | Plan de sacrificio a 12 meses para tu primer capital | pendiente | 0/3 | — |
 | 492 | 33/56 · 12/15 | E4.1.12 | Sacrificar ocio por formación: qué estudiar con mejor retorno | pendiente | 0/3 | — |

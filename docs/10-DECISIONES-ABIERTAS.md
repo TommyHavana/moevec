@@ -1277,7 +1277,7 @@ Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobad
 
 ## Producción continua 478–480 · 31/10/2026
 
-480/840 terminadas, 1440 imágenes originales públicas, 0 en curso o borradores WordPress y 360 pendientes. Intercambio Equitativo15/15, Comunidad60/60 y32tandas completas.
+480/840 terminadas, 1440 imágenes originales públicas, 0 en curso o borradores WordPress y 360 pendientes. Intercambio Equitativo15/15, Comunidad 60/60 y32tandas completas.
 
 Trueque profesional: BOE consolidado actualizado 07/10/2026, artículos 4 y 79.Uno; AEAT IVA2026 contraprestación no dineraria, sin cuotas, tipos ni exenciones automáticas. Comercio local: Civic Economics 2012 y programa2021 con muestra y comparación identificadas; recirculación no equivale a efecto causal o bienestar. Ricardo como analogía internacional explícita. Revisión comercial: Hirschman1970 solo páginas impresas4–5 y78–79, voz/salida y lealtad limitada; pauta trimestral MEE y compromisos aplicables, sin derecho universal de salida. Nueve originales nuevos inspeccionados.
 
@@ -1313,3 +1313,14 @@ Autorización continua del fundador. Sin cambios de arquitectura, taxonomía o d
 Reanudar **487–489 / E4.1.07–E4.1.09**, Trabajo → Sacrificio Estratégico. E4.1.07: tres imágenes originales listas y revisadas, sin texto ni revisión final de fuentes. E4.1.08 y E4.1.09: fuentes archivadas para revisar y 0/3 imágenes. Las tres siguen pendientes en WordPress y no se cuentan como terminadas. Después 490–492. Automatización activa; no hay agotamiento de imágenes comunicado.
 
 Tres originales locales adicionales para487, todavía sin publicación. Archivos primarios descargados para488/489 sin lectura final fingida. Errores403 identificados en487; sin cambio de taxonomía, DNS o producto.
+
+
+## Producción continua 487–489 · 31/10/2026
+
+489/840 terminadas, 1467 imágenes originales públicas, 0 en curso o borradores WordPress y 351 pendientes.
+
+Inflación: BCE, Berg/Borensztein 2000, CNMV y Keynes capítulo 15; diferencia liquidez/activos y dolarización institucional/decisión del hogar, sin tasas o normas no verificadas. Emigración: Clemens ficha 2011 y documento previo, Dustmann/Kirchkamp 2002 con selección histórica de retornados turcos y OIM 2019 como guía, sin causalidad de éxito. E1.7.12/837 pendiente sin enlace muerto. Salud: Pencavel IZA 2014 diferenciado de publicación 2015; municiones y heterogeneidad, producto total/marginal separados; NHLBI y NIOSH oficiales, sin umbral universal ni diagnóstico. Alcances parciales registrados; libros no leídos no atribuidos.
+
+Continuar **490–492 / E4.1.10–E4.1.12**, Trabajo → Sacrificio Estratégico, tanda 33/56. Briefs originales y fuentes iniciales guardados, sin lectura final ni textos ni imágenes (0/3 cada una). Algunas descargas primarias devolvieron 403; registros conservados, sin fingir lectura. Siguen pendientes en WordPress. Después 493–495. Automatización activa, sin límite de imágenes comunicado.
+
+Sin cambios de arquitectura o taxonomía. Respaldo y evidencias en docs/produccion/2026-10-31-bloque-487-489.md y respaldo-487-489.md.
