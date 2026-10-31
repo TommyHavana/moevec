@@ -1401,3 +1401,14 @@ Sin decisión nueva solicitada, arquitectura o taxonomía cambiada. Detalle: doc
 Reanudar **532–534 / E4.4.07–E4.4.09**, Trabajo → Escalabilidad Social, tanda 36/56, entradas 7–9/15. Nueve originales WebP completos y revisados, briefs, prompts, procedencia y fuentes iniciales conservados; faltan investigación específica, redacción y revisión completa antes de publicar. Después, 535–537 / E4.4.10–E4.4.12. **501 / E4.2.06** y **512 / E4.3.02** siguen retenidas por título, con texto y tres imágenes cada una, sin publicación; las preguntas anteriores continúan pendientes, sin repetirlas ni interpretar el silencio como aprobación. Continuar trabajo independiente.
 
 Decisiones editoriales: no usar el Registro de Franquiciadores antiguo como vigente; capítulo de registro derogado en BOE. Investigación adicional antes de completar 534. No se presentan datos de informes de 2018 como medición de 2026, ni simulaciones como destino personal. Sin cambio de taxonomía, DNS, autenticación o tema.
+
+
+## Extensión de producción a 534 · 31/10/2026
+
+532/840 terminadas, 1596 imágenes originales públicas, 0 en curso o borradores WordPress y 308 pendientes. Doce nuevas desde 520.
+
+532: resumen e introducción publicados de Haltiwanger/Jarmin/Miranda 2013, Estados Unidos 1976–2005; metodología DynEmp con núcleo 2001–2015, sin cifras agregadas ambiguas como medición de 2026. 533: INE DIRCE 01/01/2025 con denominadores separados; RD 901/2020 artículos 2–3, consolidado 18/05/2023; resumen AER 2016 Francia 1995–2007, sin magnitudes trasladadas a España; Banco de España 2015 pp. 125–128 como contexto histórico, sin normas ni Doing Business vigentes. 534: RD 201/2010 artículos 2–3 y registro derogado; España veinte días hábiles distintos de catorce días naturales del ámbito estadounidense, FTC guía y pasaje de Compliance Guide. Sin rentabilidad garantizada, marca recomendada ni antiguo registro como control vigente.
+
+Reanudar **535–537 / E4.4.10–E4.4.12**, Trabajo → Escalabilidad Social, tanda 36/56, entradas 10–12/15. Nueve originales WebP completos e inspeccionados, briefs, prompts, procedencia y notas conservados. Faltan investigación específica, textos y revisión completa. Después, 538–540 / E4.4.13–E4.4.15. **501 / E4.2.06** y **512 / E4.3.02** siguen retenidas por título, con texto y tres imágenes cada una, sin publicación; no repetir las preguntas anteriores ni interpretar silencio como aprobación. Continuar trabajo independiente.
+
+Sin decisiones nuevas del fundador ni cambios de arquitectura o taxonomía.

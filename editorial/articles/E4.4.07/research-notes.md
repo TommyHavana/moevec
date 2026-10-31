@@ -1,16 +1,16 @@
-# Investigación inicial · E4.4.07
+# Investigación · E4.4.07
 
-## Lecturas parciales
+Haltiwanger, Jarmin y Miranda, Who Creates Jobs? Small versus Large versus Young, REStat 95(2), 2013
+https://econweb.umd.edu/~haltiwan/Who_Creates_Jobs_ReStat_2013.pdf
+Versión publicada, pp. 347–348 (PDF 1–2) leídas, DOI 10.1162/REST_a_00288. Sector empresarial no agrícola estadounidense, 1976–2005. Resumen e introducción, no artículo completo. Relación tamaño/edad, creación/destrucción y supervivencia; sin trasladar efectos a España ni validar una política concreta.
 
-- Census CES 10-17: versión de trabajo de 2010, resumen, introducción y datos del sector empresarial no agrícola de Estados Unidos 1976–2005. Lectura y copia de fuente desde E4.4.06, con procedencia.
-- OCDE DynEmp: metodología leída; base núcleo DynEmp3 2001–2015, 16 países OCDE más Brasil y Costa Rica; code y resultados microagregados, base en actualización.
-
-## Pendiente antes de publicar
-
-- Revisar publicación final de 2013 o identificar explícitamente la versión de 2010
-- Leer nota de España y datos/cohortes antes de usar cifras
-- Distinguir creación bruta/neta, tamaño/edad y empresas jóvenes de alto crecimiento
-- No convertir evidencia agregada en promesa para cada empresa ni política causal universal
-
-https://www2.census.gov/ces/wp/2010/CES-WP-10-17.pdf
+OCDE, Measuring job creation by start-ups and young firms, proyecto DynEmp
 https://www.oecd.org/en/about/projects/measuring-job-creation-by-start-ups-and-young-firms.html
+Presentación del proyecto, Data and indicators y metodología leídos. Núcleo DynEmp3 2001–2015, 16 países OCDE más Brasil y Costa Rica; base en ampliación. Sin descargar series ni utilizar agregados con periodos no identificados como si fueran 2026. Descarga local 403 registrada y lectura web separada.
+
+Excluido:
+- Todo negocio joven crea empleo estable
+- Tamaño aislado como causa universal
+- Cifras de cohortes históricas como medición de 2026
+- Ayuda eficaz inferida únicamente de la contribución de un grupo
+- Curva editorial como serie de datos o pronóstico

@@ -1,17 +1,15 @@
-# Investigación inicial · E4.4.09
+# Lecturas primarias · 31/10/2026
 
-## Lecturas parciales
-
-- BOE RD 201/2010 consolidado, última actualización 24/10/2019: artículo 3 leído, plazo de veinte días hábiles y materias de información; artículos5–12 del Registro derogados por RDL20/2018.
-- FTC, A Consumer’s Guide to Buying a Franchise: inicio/modelo/costes y pasaje FDD leídos en web. Sin garantía de éxito; referencia estadounidense,14 días según guía, pendiente volver a leer contexto antes de afirmación final.
-
-## Pendiente antes de publicar
-
-- Leer completos artículos1–4 y norma modificadora/derogatoria pertinente; verificar vigencia al publicar
-- No presentar el antiguo Registro de Franquiciadores como control vigente
-- Completar lectura FTC sobre FDD, costes, obligaciones, ganancias y terminación, sin trasladar plazos de EE.UU. a España
-- Consultar AEF si se cita, diferenciando asociación sectorial de regulador
-- Modelo probado del título: exigir evidencia de cada oferta, sin garantía de rentabilidad
-
+BOE, Real Decreto 201/2010, consolidado actualizado el 24/10/2019
 https://www.boe.es/buscar/act.php?id=BOE-A-2010-4175
+Artículos 2–3 completos y derogación de artículos 5–12 por RDL20/2018 leídos. Experiencia, elementos del negocio e información con veinte días hábiles. Sin recomendar antiguo registro como vigente, sin revisión individual ni traslado de plazos fuera de España.
+
+FTC, A Consumer’s Guide to Buying a Franchise
 https://www.ftc.gov/business-guidance/resources/consumers-guide-buying-franchise
+Lectura web de inicio/modelo/costes, FDD y apartados 19–20; sin garantía de éxito ni marca recomendada. Lectura parcial; descargas locales HTML y PDF 404 registradas. Referencia estadounidense, sin aplicación automática a otros países.
+
+FTC, Franchise Rule Compliance Guide (mayo de 2008)
+https://www.ftc.gov/system/files/documents/plain-language/bus70-franchise-rule-compliance-guide.pdf
+Pasaje sobre entrega previa de documentos y catorce días naturales leído en web; guía interpretativa, no modificación de la norma, con su alcance y excepciones. No lectura íntegra de 154 páginas.
+
+Descargas no equivalen a lecturas completas; accesos locales y lecturas web registrados por separado.

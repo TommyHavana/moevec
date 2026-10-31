@@ -2,29 +2,31 @@
 
 ## Estado actual
 
-**529/840 terminadas, 1587 imágenes originales públicas, 0 en curso o borradores WordPress y 311 pendientes**. Riesgo Consciente 14/15; Inversión Personal 14/15; Escalabilidad Social 6/15; 33 tandas completas.
+**532/840 terminadas, 1596 imágenes originales públicas, 0 en curso o borradores WordPress y 308 pendientes**. Riesgo Consciente 14/15; Inversión Personal 14/15; Escalabilidad Social 9/15; 33 tandas completas.
 
 Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Inicio: 520 completas. Publicadas 523–531: nueve entradas y 27 originales públicos.
+Inicio: 520 completas. Publicadas 523–534: doce entradas y 36 imágenes públicas.
 
-Nueve publicaciones nuevas y 27 originales públicos. Una publicación y tres adjuntos por ID, área Trabajo y tema Riesgo Consciente (523–525) o Escalabilidad Social (526–531), con etiquetas de tema y nivel. HTTP 200, H1 único, canonical, indexabilidad declarada, Article, índice, sitemap, cinco enlaces internos y jerarquía visible/BreadcrumbList comprobados. Dimensiones, bytes, alt, hashes y variantes correctos. Taxonomía 122 nodos y siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva.
+Doce publicaciones nuevas y 36 originales públicos, globals 523–534. Una publicación y tres adjuntos por ID, categorías y etiquetas del plan. URL 200, H1 único, canonical, indexabilidad declarada, Article, índice, sitemap, cinco enlaces internos y jerarquía visible/BreadcrumbList comprobados. Dimensiones, bytes, alt, hashes y variantes correctos. Taxonomía 122 nodos y siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva.
 
 ## Revisión
 
 523: WEO octubre de 2026, AREAER y WJP 2026; preguntas sobre riesgo país sin cifras nacionales ni normas cambiarias sin comprobar. 524: CFPB y FCAC; reserva distinta de seguro contratado, 3–6 meses como orientación canadiense contextual. 525: Klein y Kahneman/Klein 2009, abstract y primera página; siete preguntas como guía propia de MEE, sin validación universal. 526: funciones de MEE, Bastos ensayo, Kirzner prefacio/pp. 1–2 y adaptación Drucker; sin secuencia obligatoria ni jerarquía de dignidad. 527: OCDE 2018, figura 1.5 y nota, España 4 / Brasil 9 / Colombia 11 como simulación histórica, Banco Mundial 2018, OCDE 2025 con PISA 2022; sin destino personal ni causalidad. 528: presentación Gerber, práctica EMyth y adaptación Drucker; procesos como orientación, sin garantía de autonomía. 529: TGSS, BOE consolidado 21/10/2026 art. 1.1, B-READY metodología 2025 y OIT R208; alcance España y aplicación nacional separada. 530: CNMV dividendo, IRS categoría fiscal estadounidense y ficha Stanley/Danko, sin libro íntegro ni ingreso garantizado. 531: OCDE 2023 99% como proporción empresarial y redes, Census 2010 con datos 1976–2005 y OIT; sin multiplicador, causalidad o beneficio automático.
 
-Paso 5 del prompt original: objetivo 900–1300 palabras principales, que sustituye A3 del plan.
+532: resumen e introducción publicados de Haltiwanger/Jarmin/Miranda 2013, Estados Unidos 1976–2005; metodología DynEmp con núcleo 2001–2015, sin cifras agregadas ambiguas como medición de 2026. 533: INE DIRCE 01/01/2025 con denominadores separados; RD 901/2020 artículos 2–3, consolidado 18/05/2023; resumen AER 2016 Francia 1995–2007, sin magnitudes trasladadas a España; Banco de España 2015 pp. 125–128 como contexto histórico, sin normas ni Doing Business vigentes. 534: RD 201/2010 artículos 2–3 y registro derogado; España veinte días hábiles distintos de catorce días naturales del ámbito estadounidense, FTC guía y pasaje de Compliance Guide. Sin rentabilidad garantizada, marca recomendada ni antiguo registro como control vigente.
+
+Paso 5 del prompt: 900–1300 palabras principales, que sustituye A3.
 
 ## Continuación exacta
 
-Reanudar **532–534 / E4.4.07–E4.4.09**, Trabajo → Escalabilidad Social, tanda 36/56, entradas 7–9/15. Nueve originales WebP completos y revisados, briefs, prompts, procedencia y fuentes iniciales conservados; faltan investigación específica, redacción y revisión completa antes de publicar. Después, 535–537 / E4.4.10–E4.4.12. **501 / E4.2.06** y **512 / E4.3.02** siguen retenidas por título, con texto y tres imágenes cada una, sin publicación; las preguntas anteriores continúan pendientes, sin repetirlas ni interpretar el silencio como aprobación. Continuar trabajo independiente.
+Reanudar **535–537 / E4.4.10–E4.4.12**, Trabajo → Escalabilidad Social, tanda 36/56, entradas 10–12/15. Nueve originales WebP completos e inspeccionados, briefs, prompts, procedencia y notas conservados. Faltan investigación específica, textos y revisión completa. Después, 538–540 / E4.4.13–E4.4.15. **501 / E4.2.06** y **512 / E4.3.02** siguen retenidas por título, con texto y tres imágenes cada una, sin publicación; no repetir las preguntas anteriores ni interpretar silencio como aprobación. Continuar trabajo independiente.
 
 ## Copias y límites
 
-VPS con 529 publicadas, SQL `/data/mee-backups/produccion-840-incremento-529-531-20261031`; 198 medios nuevos en tres incrementos. Cadena 165 incrementos más base, con huecos 501/512. Hashes y miembros comprobados, sin nueva prueba de arranque. Copia local incremental y fuente privada al cierre. Detalle: `docs/produccion/2026-10-31-bloques-523-531.md`. Producción continua autorizada; WordPress determina el estado real.
+SQL y medios finales: `/data/mee-backups/produccion-840-incremento-532-534-20261031`. 264 medios nuevos en cuatro incrementos; cadena 166 más base, huecos 501/512. Hashes y miembros comprobados, sin nueva prueba de arranque. Copias locales incrementales 523–531 y 532–534; fuente privada al cierre. Detalle: `docs/produccion/2026-10-31-bloques-523-534.md`. WordPress determina el estado real y la producción continúa autorizada.
 
 ## Página de apoyo, donaciones y publicidad · 29/10/2026
 

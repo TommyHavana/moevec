@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-31T04:45:01+00:00.
+Comprobado en WordPress: 2026-10-31T04:56:35+00:00.
 
-**529/840 terminadas · 0 en curso · 311 pendientes.**
+**532/840 terminadas · 0 en curso · 308 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -543,9 +543,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 529 | 36/56 · 4/15 | E4.4.04 | Tu primer empleado: crear empleo es escalar socialmente | terminada | 3/3 | [Leer](https://moevec.org/blog/tu-primer-empleado/) |
 | 530 | 36/56 · 5/15 | E4.4.05 | Ingresos activos y pasivos: qué son y qué no | terminada | 3/3 | [Leer](https://moevec.org/blog/ingresos-activos-y-pasivos/) |
 | 531 | 36/56 · 6/15 | E4.4.06 | El efecto derrame del emprendedor: empleo, proveedores y aprendices | terminada | 3/3 | [Leer](https://moevec.org/blog/efecto-derrame-del-emprendedor/) |
-| 532 | 36/56 · 7/15 | E4.4.07 | Quién crea empleo de verdad: empresas jóvenes frente a empresas pequeñas | pendiente | 0/3 | — |
-| 533 | 36/56 · 8/15 | E4.4.08 | Barreras al crecimiento: el «techo» de las 50 personas en España | pendiente | 0/3 | — |
-| 534 | 36/56 · 9/15 | E4.4.09 | Franquicias: escalar con un modelo probado | pendiente | 0/3 | — |
+| 532 | 36/56 · 7/15 | E4.4.07 | Quién crea empleo de verdad: empresas jóvenes frente a empresas pequeñas | terminada | 3/3 | [Leer](https://moevec.org/blog/quien-crea-empleo-empresas-jovenes/) |
+| 533 | 36/56 · 8/15 | E4.4.08 | Barreras al crecimiento: el «techo» de las 50 personas en España | terminada | 3/3 | [Leer](https://moevec.org/blog/barreras-al-crecimiento-techo-50/) |
+| 534 | 36/56 · 9/15 | E4.4.09 | Franquicias: escalar con un modelo probado | terminada | 3/3 | [Leer](https://moevec.org/blog/franquicias-escalar/) |
 | 535 | 36/56 · 10/15 | E4.4.10 | Del cuentapropismo a la mipyme: el salto en Cuba | pendiente | 0/3 | — |
 | 536 | 36/56 · 11/15 | E4.4.11 | Cómo documentar tu negocio para que funcione sin ti | pendiente | 0/3 | — |
 | 537 | 36/56 · 12/15 | E4.4.12 | Contratar aprendices: formar a quien te sustituirá (y crecerá) | pendiente | 0/3 | — |
