@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-31T06:59:57+00:00.
+Comprobado en WordPress: 2026-10-31T07:13:15+00:00.
 
-**556/840 terminadas · 0 en curso · 284 pendientes.**
+**559/840 terminadas · 0 en curso · 281 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -570,9 +570,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 556 | 38/56 · 1/15 | E4.6.01 | La experiencia es capital: cómo valorarla | terminada | 3/3 | [Leer](https://moevec.org/blog/experiencia-es-capital/) |
 | 557 | 38/56 · 2/15 | E4.6.02 | Conocimiento tácito: lo que sabes pero no sabes explicar | terminada | 3/3 | [Leer](https://moevec.org/blog/conocimiento-tacito/) |
 | 558 | 38/56 · 3/15 | E4.6.03 | Convertir experiencia en servicio: consultoría para principiantes | terminada | 3/3 | [Leer](https://moevec.org/blog/experiencia-en-servicio-consultoria/) |
-| 559 | 38/56 · 4/15 | E4.6.04 | Errores como activo: aprender de lo que salió mal | pendiente | 0/3 | — |
-| 560 | 38/56 · 5/15 | E4.6.05 | Experiencia frente a título: cuándo pesa más cada uno | pendiente | 0/3 | — |
-| 561 | 38/56 · 6/15 | E4.6.06 | Los emprendedores mayores tienen más éxito: la evidencia | pendiente | 0/3 | — |
+| 559 | 38/56 · 4/15 | E4.6.04 | Errores como activo: aprender de lo que salió mal | terminada | 3/3 | [Leer](https://moevec.org/blog/errores-como-activo/) |
+| 560 | 38/56 · 5/15 | E4.6.05 | Experiencia frente a título: cuándo pesa más cada uno | terminada | 3/3 | [Leer](https://moevec.org/blog/experiencia-frente-a-titulo/) |
+| 561 | 38/56 · 6/15 | E4.6.06 | Los emprendedores mayores tienen más éxito: la evidencia | terminada | 3/3 | [Leer](https://moevec.org/blog/emprendedores-mayores-mas-exito/) |
 | 562 | 38/56 · 7/15 | E4.6.07 | Experiencia sectorial: emprender en lo que conoces | pendiente | 0/3 | — |
 | 563 | 38/56 · 8/15 | E4.6.08 | Vender tu experiencia en línea: cursos, guías y comunidades | pendiente | 0/3 | — |
 | 564 | 38/56 · 9/15 | E4.6.09 | El valor de los oficios tradicionales en la economía moderna | pendiente | 0/3 | — |

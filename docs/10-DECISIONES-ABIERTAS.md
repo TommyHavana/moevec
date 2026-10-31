@@ -1486,3 +1486,12 @@ Reanudar **556–558 / E4.6.01–E4.6.03**, Trabajo → Experiencia como Activo,
 556: Polanyi, presentación de reedición2009; Mincer1974, capítulo4 pp.64–65: análisis histórico sin tarifa salarial o extrapolación causal. 557: Polanyi; ficha/resumen Oxford del libro Nonaka/Takeuchi1995 y abstract primario Nonaka1994: sin modelo completo leído o valor económico multiplicado garantizado. 558: Maister, presentación y resúmenes de capítulos6/7; sin libro íntegro leído ni certificación de competencia regulada. Las secuencias prácticas son propuestas de MEE. Alcances explícitos por fuente; errores403 locales separados de lecturas primarias web.
 
 Reanudar **559–561 / E4.6.04–E4.6.06**, Trabajo → Experiencia como Activo, tanda38/56, entradas4–6/15. Nueve originales WebP completos e inspeccionados, briefs, prompts y procedencia conservados. Faltan investigación específica, textos y revisión completa. Después, **562–564 / E4.6.07–E4.6.09**. **501 / E4.2.06** y **512 / E4.3.02** siguen retenidas por título, con texto y tres imágenes cada una, sin publicación; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+
+
+## Producción559–561 ·31/10/2026
+
+559/840 terminadas, 1677 imágenes originales públicas, 0 en curso o borradores WordPress y 281 pendientes.
+
+559: resumen primario Madsen/Desai2010, industria de vehículos de lanzamiento orbital, no ley causal individual sobre fracaso. 560: Punto de Acceso General, TodoFP y RD659/2023 consolidado06/05/2025, arts.175–177 y derogaciónRD1224/2009; sin equivalencia automática, habilitación o admisión individual. 561: resumen de versión publicada AER:Insights2020, media45años en uno por mil de nuevas empresas estadounidenses con crecimiento más rápido; sin edad óptima, causalidad o datos extrapolados. Sin lectura íntegra de los artículos académicos. Las pautas prácticas son propuestas de MEE.
+
+Reanudar **562–564 / E4.6.07–E4.6.09**, Trabajo → Experiencia como Activo, tanda38/56, entradas7–9/15. Nueve originales WebP completos e inspeccionados, briefs, prompts y procedencia conservados. Faltan investigación específica, textos y revisión completa. Después, **565–567 / E4.6.10–E4.6.12**. **501 / E4.2.06** y **512 / E4.3.02** siguen retenidas por título, con texto y tres imágenes cada una, sin publicación; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
