@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-31T16:11:45+00:00.
+Comprobado en WordPress: 2026-10-31T16:30:51+00:00.
 
-**640/840 terminadas · 0 en curso · 200 pendientes.**
+**643/840 terminadas · 0 en curso · 197 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -654,9 +654,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 640 | 43/56 · 10/15 | E4.11.10 | Propósito en la adversidad: emprender en entornos hostiles | terminada | 3/3 | [Leer](https://moevec.org/blog/proposito-en-la-adversidad/) |
 | 641 | 43/56 · 11/15 | E4.11.11 | Escribe tu declaración de propósito en una página | terminada | 3/3 | [Leer](https://moevec.org/blog/declaracion-de-proposito/) |
 | 642 | 43/56 · 12/15 | E4.11.12 | Propósito familiar: acordar hacia dónde va la tribu | terminada | 3/3 | [Leer](https://moevec.org/blog/proposito-familiar/) |
-| 643 | 43/56 · 13/15 | E4.11.13 | Cuando el propósito cambia: reinventarse sin culpa | pendiente | 0/3 | — |
-| 644 | 43/56 · 14/15 | E4.11.14 | Propósito y comunidad MEE: por qué existe este movimiento | pendiente | 0/3 | — |
-| 645 | 43/56 · 15/15 | E4.11.15 | Revisión trimestral de propósito y metas | pendiente | 0/3 | — |
+| 643 | 43/56 · 13/15 | E4.11.13 | Cuando el propósito cambia: reinventarse sin culpa | terminada | 3/3 | [Leer](https://moevec.org/blog/cuando-el-proposito-cambia/) |
+| 644 | 43/56 · 14/15 | E4.11.14 | Propósito y comunidad MEE: por qué existe este movimiento | terminada | 3/3 | [Leer](https://moevec.org/blog/proposito-de-mee/) |
+| 645 | 43/56 · 15/15 | E4.11.15 | Revisión trimestral de propósito y metas | terminada | 3/3 | [Leer](https://moevec.org/blog/revision-trimestral-proposito/) |
 | 646 | 44/56 · 1/15 | E4.12.01 | Adaptabilidad técnica: aprender herramientas, no solo usarlas | pendiente | 0/3 | — |
 | 647 | 44/56 · 2/15 | E4.12.02 | Cómo se difunden las tecnologías y por qué llegan tarde a algunos países | pendiente | 0/3 | — |
 | 648 | 44/56 · 3/15 | E4.12.03 | Alfabetización digital básica: lo mínimo para trabajar hoy | pendiente | 0/3 | — |
