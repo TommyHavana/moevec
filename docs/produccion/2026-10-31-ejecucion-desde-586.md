@@ -1,8 +1,8 @@
 # Ejecución desde586 ·31/10/2026
 
-**622/840 terminadas, 1866 imágenes originales públicas, 0 en curso o borradores WordPress y 218 pendientes**. Tiempo como Recurso Finito9/15; 39 tandas completas.
+**625/840 terminadas, 1875 imágenes originales públicas, 0 en curso o borradores WordPress y 215 pendientes**. Tiempo como Recurso Finito12/15; 39 tandas completas.
 
-36 nuevas entradas y108originales públicos.
+39 nuevas entradas y117originales públicos.
 
 | Global | ID | URL | Imágenes |
 |---|---|---|---|
@@ -42,5 +42,8 @@
 |622|E4.10.07|https://moevec.org/blog/tiempo-libre-y-productividad/|3/3|
 |623|E4.10.08|https://moevec.org/blog/colas-apagones-tiempo-robado/|3/3|
 |624|E4.10.09|https://moevec.org/blog/automatizar-para-ganar-tiempo/|3/3|
+|625|E4.10.10|https://moevec.org/blog/tiempo-de-la-familia/|3/3|
+|626|E4.10.11|https://moevec.org/blog/auditoria-de-tu-tiempo/|3/3|
+|627|E4.10.12|https://moevec.org/blog/rutina-emprendedor-con-empleo/|3/3|
 
-Continuar **625–627 / E4.10.10–E4.10.12**, Trabajo → Tiempo como Recurso Finito. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **628–630**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Continuar **628–630 / E4.10.13–E4.10.15**, Trabajo → Tiempo como Recurso Finito. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **631–633**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.

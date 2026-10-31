@@ -1,0 +1,20 @@
+from pathlib import Path
+import json
+r=Path('/Users/nerea/Documents/Proyectos/MEE/mee-web');d=r/'editorial/production-tools/2026-10-31';t=(d/'mee-init625627-generated.py').read_text()
+scenes={
+'E4.10.13':[
+('A fictional ivory paper door nearly closed gently within a cobalt frame; a tall pile of blank red and cobalt task cards remains outside, generous clean ivory space inside. Metaphor of a chosen boundary, no person trapped, universal ranking of skills, measured time savings, labels or text. Landscape1200:630.','Puerta marfil de papel casi cerrada en un marco azul, con tarjetas rojas y azules apiladas al otro lado.'),
+('A fictional ivory open planner with only three broad cobalt blank blocks and a small red bookmark, generous empty margins, sculptural cut-paper style. Metaphor of selected commitments, no dates, optimal schedule, measured hours, letters or text. Landscape1600:900.','Agenda marfil de papel con tres bloques azules vacíos y un separador rojo.'),
+('An anonymous ivory paper adult figure walking along a gently curved cobalt paper path carrying one small plain red satchel; wide ivory surroundings. Fictional metaphor of a manageable commitment, no real participant, proven wellbeing, guaranteed freedom, words or text. Landscape1600:900.','Figura adulta de papel camina por un sendero azul llevando un pequeño bolso rojo.')],
+'E4.10.14':[
+('A sculptural circular clock formed from cobalt folded-paper train tracks with small ivory sleepers and two plain red clock hands, warm ivory background. Entirely fictional metaphor of commuting time, no real route, digits, timetable, actual railway map, statistical data or text. Landscape1200:630.','Reloj circular formado por vías azules de papel, traviesas marfil y agujas rojas sin números.'),
+('An ivory paper balance with a larger cobalt paper house on one plate and a smaller red house on the other, two abstract cobalt paths of different lengths below, warm ivory studio background. Fictional tradeoff, no real listings, price ratio, measured commute or housing recommendation, labels or text. Landscape1600:900.','Balanza de papel con una casa azul grande y otra roja pequeña sobre dos caminos abstractos.'),
+('A fictional cobalt paper desk in a small ivory room beside a broad open paper window; blank ivory notebook and one red pencil, distant abstract cobalt tree shapes. Editorial metaphor of one possible home workspace, no company, property advert, guaranteed eligibility, productivity claim, real screen content or text. Landscape1600:900.','Escritorio azul de papel junto a una ventana marfil, con un cuaderno vacío y un lápiz rojo.')],
+'E4.10.15':[
+('One large ivory paper sheet on a cobalt tabletop with a single sculptural paper tree branching into four distinct broad canopy clusters in cobalt, red, ivory and muted gray; one small red paper clip. Metaphor of four review periods, no botanical chart, dates, guaranteed progress, digits or text. Landscape1200:630.','Hoja marfil con un árbol de papel de cuatro grupos de ramas azul, rojo, marfil y gris.'),
+('A fictional translucent paper vessel containing exactly three large smooth matte paper stones, one cobalt, one red, one ivory, with generous empty space around; ivory studio surface. Metaphor of a few selected priorities, no scientifically optimal count, exact volume, actual glassware instructions, labels or text. Landscape1600:900.','Recipiente translúcido ficticio con tres piedras grandes de papel azul, roja y marfil.'),
+('A fictional ivory paper review table holding one open blank cobalt folder, several neat ivory cards, a small red pencil and a simple cobalt desk lamp, quiet balanced studio light. Symbolic periodic review, no real goals achieved, completed results, actual calendar, labels, numbers or text. Landscape1600:900.','Mesa marfil de papel con carpeta azul abierta, tarjetas vacías, lápiz rojo y lámpara azul.')]
+}
+t=t[:t.index('scenes=')]+'scenes='+repr(scenes)+'\n'+t[t.index('for row in [x for x in plan'):]
+t=t.replace("625<=x['number']<=627","628<=x['number']<=630")
+p=d/'mee-init628630-generated.py';assert not p.exists();p.write_text(t);exec(compile(t,str(p),'exec'))

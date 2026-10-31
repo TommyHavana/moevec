@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-31T14:27:03+00:00.
+Comprobado en WordPress: 2026-10-31T14:39:51+00:00.
 
-**622/840 terminadas · 0 en curso · 218 pendientes.**
+**625/840 terminadas · 0 en curso · 215 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -636,9 +636,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 622 | 42/56 · 7/15 | E4.10.07 | Tiempo libre y productividad: la evidencia sobre la semana laboral | terminada | 3/3 | [Leer](https://moevec.org/blog/tiempo-libre-y-productividad/) |
 | 623 | 42/56 · 8/15 | E4.10.08 | Colas, apagones y escasez: el tiempo robado en economías planificadas | terminada | 3/3 | [Leer](https://moevec.org/blog/colas-apagones-tiempo-robado/) |
 | 624 | 42/56 · 9/15 | E4.10.09 | Automatizar para ganar tiempo: herramientas para pequeños negocios | terminada | 3/3 | [Leer](https://moevec.org/blog/automatizar-para-ganar-tiempo/) |
-| 625 | 42/56 · 10/15 | E4.10.10 | El tiempo de la familia: no es tiempo perdido | pendiente | 0/3 | — |
-| 626 | 42/56 · 11/15 | E4.10.11 | Auditoría de tu tiempo: una semana registrando todo | pendiente | 0/3 | — |
-| 627 | 42/56 · 12/15 | E4.10.12 | Rutina del emprendedor con empleo: horarios realistas | pendiente | 0/3 | — |
+| 625 | 42/56 · 10/15 | E4.10.10 | El tiempo de la familia: no es tiempo perdido | terminada | 3/3 | [Leer](https://moevec.org/blog/tiempo-de-la-familia/) |
+| 626 | 42/56 · 11/15 | E4.10.11 | Auditoría de tu tiempo: una semana registrando todo | terminada | 3/3 | [Leer](https://moevec.org/blog/auditoria-de-tu-tiempo/) |
+| 627 | 42/56 · 12/15 | E4.10.12 | Rutina del emprendedor con empleo: horarios realistas | terminada | 3/3 | [Leer](https://moevec.org/blog/rutina-emprendedor-con-empleo/) |
 | 628 | 42/56 · 13/15 | E4.10.13 | Decir no: la habilidad que libera más tiempo | pendiente | 0/3 | — |
 | 629 | 42/56 · 14/15 | E4.10.14 | Tiempo de desplazamiento: el coste oculto de vivir lejos del trabajo | pendiente | 0/3 | — |
 | 630 | 42/56 · 15/15 | E4.10.15 | Planificar tu año en una hoja | pendiente | 0/3 | — |
