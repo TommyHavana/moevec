@@ -1,0 +1,2434 @@
+The Returns to English-Language Skills in India
+mehtabul azam
+Oklahoma State University
+aimee chin
+University of Houston
+nishith prakash
+University of Connecticut
+I. Introduction
+India’s colonial legacy and linguistic diversity give English an important role in
+its economy, and this role has expanded in recent decades due to globalization.
+It is widely believed that there are sizable economic returns to English-language
+skills in India, but the extent of these returns is unknown due to a lack of a mi-
+crodata set containing measures of both earnings and English ability.1 We take
+advantage of a recently available nationally representative individual-level data
+set, the 2005 India Human Development Survey ðIHDSÞ, to provide the ﬁrst
+estimates of the returns to English-language skills in India. A secondary contri-
+bution of this study is to provide new descriptive information about the prev-
+alence of English ability in India. Based on the 1991 census, 11% of the Indian
+population reported some English ability. It would be useful not only to have
+more recent ﬁgures but also to examine English ability along various dimensions
+such as education, age, and sex.
+A major challenge to estimating the returns to English is the likely endogene-
+ity of language skills in the earnings equation. A priori, omitted variables bias
+1 Munshi and Rosenzweig ð2006Þ and Chakraborty and Kapur ð2008Þ estimate the returns to attend-
+ing a school using English as the medium of instruction. We explain in Sec. II.B. that this is not the
+same as the returns to English-language skills.
+We thank the editor, two referees, Arjun Bedi, Eric Edmonds, James Feyrer, Chinhui Juhn, Elias
+Papaioannou, and seminar participants at Texas A&M University, Rutgers University, 2010 Royal
+Economics Society meetings, University of Mannheim, Indian Institute of Technology–Patna, Cor-
+nell University, Paris School of Economics, Toulouse School of Economics, Katholieke Universiteit
+Leuven, International Institute of Social Studies, DIW Berlin, University of Memphis, and ECSHD
+World Bank for helpful comments. We owe special thanks to David Clingingsmith and Kartini Shastry
+for providing some of the data used in our analysis. The authors are responsible for the ﬁndings and
+opinions expressed, as well as all errors, in this article. Contact the authors at mazam@okstate.edu,
+achin@uh.edu, and nishith.prakash@uconn.edu.
+© 2013 by The University of Chicago. All rights reserved. 0013-0079/2013/6102-0006$10.00
+This content downloaded from 132.174.250.220 on September 02, 2017 17:45:32 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+seems to be a serious concern; for example, omitted ability or local labor market
+conditions can be correlated with both language skills and earnings. We exploit
+the richness of IHDS data to address these concerns. For example, the IHDS
+has data on individual performance on the secondary school leaving certiﬁcate
+board examination, which provides a credible proxy for ability in the Indian
+context. Also, the large sample size and detailed geographic identiﬁers permit
+controlling for labor market characteristics via district ﬁxed effects. Nonethe-
+less, even after controlling for more detailed variables than is typically available
+in household surveys, there could still be bias in our estimates of the effect of
+English-language skills. Unobserved ability could still be a confounding factor
+to the extent that our included variables capture it inadequately, and also there
+could be biases due to measurement error and reverse causality ðSec. III dis-
+cusses this furtherÞ; without an experiment that randomly assigns English skills
+or a valid instrumental variable for English skills, it is difﬁcult to convincingly
+overcome these remaining identiﬁcation issues. However, we believe that even
+if our estimated returns to English do not have a causal interpretation, they are
+still useful. On the one hand, very little information exists on the relationship
+between English skill and earnings in developing countries, so even if our esti-
+mates were purely descriptive, they would still add to knowledge. On the other
+hand, English skills are not the only type of human capital that individuals and
+policy makers can invest in, and a comparison of the returns to English to re-
+turns to other types of human capital ðsuch as schooling or job trainingÞ is re-
+vealing about the relative value of English even if the estimated returns do not
+have a causal interpretation. This is because estimating returns to these other
+types of human capital faces the same identiﬁcation issues as estimating the re-
+turns to English, so comparisons of the returns might still be meaningful.
+Our main ﬁndings are as follows. First, English-language skills are strongly
+positively associated with earnings. After controlling for age, social group,
+schooling, geography, and proxies for ability, we ﬁnd that hourly wages are
+on average 34% higher for men who speak ﬂuent English and 13% higher for
+men who speak a little English relative to men who speak no English. These
+estimates are not only statistically signiﬁcant, they are also economically signif-
+icant. For example, the return to ﬂuent English is as large as the return to com-
+pleting secondary school and half as large as the return to completing a bachelor’s
+degree. Second, there is considerable heterogeneity in the returns to English.
+More experienced and more educated workers receive higher returns to English.
+The complementarity between English skills and education appears to have
+strengthened over time—only the more educated among young workers earn
+a premium for English skill, whereas older workers across all education groups
+do.
+336
+E C O N O M I C D E V E L O P M E N T A N D C U L T U R A L C H A N G E
+This content downloaded from 132.174.250.220 on September 02, 2017 17:45:32 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+This study is of interest for several reasons. Foremost, knowing the returns
+to English would help individuals and policy makers in India make decisions
+about how much to invest in English skills. Language skills are costly to ac-
+quire, and it is difﬁcult to make optimal choices without knowledge about the
+expected beneﬁts of English-language skills. In addition, this study considers
+the more general question of the value of English in a context where English
+is not a prevalent language. English is often used as a lingua franca—the lan-
+guage of communication among two parties who do not share a common na-
+tive language—and many countries, even ones that are not former British or
+American colonies, invest in English skills.
+The remainder of this article is organized as follows. Section II provides some
+background on English in India and discusses the related literature. Section III
+presents the empirical framework. Section IV describes the data. Section V
+presents the results on returns to English-language skills in India. Section VI
+concludes.
+II. Background and Related Literature
+A. English in India
+India is a linguistically diverse country—it has thousands of languages, of
+which 122 have over 10,000 native speakers according to the 2001 census.
+English is only forty-fourth on the list of languages in India with the most
+native speakers, belying its important role in India since the arrival of the Brit-
+ish East India Company in the 1600s. India was formally ruled by the British
+Empire from 1757 to 1947 ðby the British East India Company from 1757 to
+1857, and by the British Crown from 1858 to 1947Þ. During this time, En-
+glish became the language of power and prestige. It was associated with the rul-
+ing British, the law was in English, and government administration, at least at
+the higher levels, was conducted in English. In addition, it became the medium
+of instruction in public schools.2
+After India gained independence from the British in 1947, debate ensued
+over the role of the colonial language in the country. There were calls to replace
+English with a native Indian language as the ofﬁcial language of India to re-
+inforce national identity. A natural candidate was Hindi, which is by far the
+most dominant mother tongue in India.3 However, it was politically infeasible
+to make Hindi the sole ofﬁcial language of India, as it was thought to be dis-
+2 Under British rule, India established a system of public education; before, there were few schools,
+and only the elite received schooling. It was decided after much debate that English would be the me-
+dium of instruction in this new system of public schools.
+3 In 2001, 40% of the population named Hindi as their mother tongue; the next language with most
+native speakers, Telugu, claimed only 8%.
+Azam, Chin, and Prakash
+337
+This content downloaded from 132.174.250.220 on September 02, 2017 17:45:32 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+advantageous to states where Hindi was not prevalent—Hindi is spoken by
+most in the north, but by few in the south. Thus, the Constitution of India
+names both Hindi and English as the ofﬁcial languages of India. Individual
+states legislate their own ofﬁcial languages, but communication among states
+and in the federal government would take place in Hindi or English.
+From an individual’s perspective, there are several economic incentives to
+learn English. On the one hand, English has value as a lingua franca. A knowl-
+edge of a common language facilitates communication. A common language is
+especially useful in linguistically diverse places, where the chances of meeting
+someone with the same native language is relatively low. In India, there is con-
+siderable variation in languages spoken even within narrowly deﬁned regions,
+such as the district.4 A common language is also useful for international trade.
+While English is not the only possible lingua franca, it is a natural one given In-
+dia’s colonial past and given the inﬂuence of the United States in the world econ-
+omy. On the other hand, the use of English is ﬁrmly entrenched in government
+and schools due to the colonial past. To be a government ofﬁcial or teacher
+ðother than at low levelsÞ, one needs to be proﬁcient in English. These occupa-
+tions are considered attractive in India because they are white-collar jobs provid-
+ing secure employment and good beneﬁts. In contrast, most jobs in the India are
+on household farms or in casual labor, which tend to provide uncertain means of
+livelihood and involve strenuous physical labor.
+Although only 0.2% of the Indian population reported English as their
+mother tongue in the 2001 census, considerably more know it as a second or
+third language. According to the 1991 census, 11% of the Indian population re-
+ports English as a second or third language. It is widely believed that English
+knowledge has grown since 1991, but there has been no data to substantiate
+these claims until now, with the release of the 2005 IHDS ðwe describe these
+data in Sec. IVÞ. Table 1 reports the mean English ability among individuals age
+18–65 in the IHDS along various dimensions. One in ﬁve Indians report having
+the ability to speak English, comprising 4% who can converse ﬂuently in English
+and 16% who can converse a little in English. English ability is higher among
+men—approximately 26% of men report having the ability to speak English
+compared to 14% of women—and this is probably largely due to differences in
+educational attainment, which we discuss below. English ability is higher among
+younger people—25% of people age 18–35 speak English compared to 13% for
+people age 51–65. These differences may be due to differences in educational
+4 See Shastry ð2012Þ for more on within-district variation in languages spoken.
+338
+E C O N O M I C D E V E L O P M E N T A N D C U L T U R A L C H A N G E
+This content downloaded from 132.174.250.220 on September 02, 2017 17:45:32 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+attainment, greater incentives to learn English due to globalization in recent de-
+cades, or depreciation of English skills with time since leaving school.
+The ability to speak English increases dramatically with educational attain-
+ment in India. Almost 89% of individuals who have at least a bachelor’s degree
+can speak English as compared to 56% for those who have completed second-
+ary schooling ð10–14 years of schooling completedÞ, 11% for those who have
+completed 5–9 years, and virtually nil for those who have less schooling. The
+positive relationship between English ability and educational attainment is
+not surprising since English is not the native language of 99.8% of the Indian
+population, and thus the main exposure to English for children would be in
+schools. In India, many public schools follow the “three language formula” rec-
+ommended by the central government, which generally leads to teaching in
+English by middle school.5 According to the 1986 All-India Education Survey,
+which is a census of schools, 1.3% of schools with grades 1–5 used English as
+the medium of instruction, and 15% reported teaching English as a ﬁrst or sec-
+ond language. In schools with grades 6–8, these ﬁgures rise to 3.6% and 63%,
+respectively. In secondary schools ðcovering grades 9 and 10Þ, 8.2% use En-
+glish as the medium of instruction, and 65% teach English as a ﬁrst or second
+language. In higher secondary schools, colleges, and universities, English is of-
+ten used, though it should be pointed out that it is possible to graduate from
+secondary school and college without being proﬁcient in English; except in the
+science and engineering ﬁelds, many courses are offered in Hindi or the state
+language, and exams may be written in English, Hindi, or the state language.
+Next, we examine percent speaking English by social group. In India, the
+two most disadvantaged social groups are the schedule tribes ðSTsÞ and sched-
+uled castes ðSCsÞ.6 The other backward classes ðOBCsÞ are above the SCs in
+ritual standing but are also much worse off than the high castes. English ability
+is greater among members of higher castes than members of lower castes or the
+scheduled tribes. This is likely related to the lower educational attainment
+among members of disadvantaged social groups and, in the case of the sched-
+uled tribes, of their geographic isolation.
+5 This calls for teaching in the mother tongue or regional language during primary school. After pri-
+mary school, a second language is introduced—this might be Hindi ðin states where Hindi is not the
+dominant languageÞ or English or some other modern Indian language. After middle school, a third
+language is introduced.
+6 STs are distinguished by their tribal culture and physical isolation. SCs are groups with low social
+and ritual standing. In the British era, these were called the depressed classes, and colloquially they
+have also been called the untouchables and backward classes, though these terms are out of favor. The
+Constitution ðScheduled CastesÞ Order of 1950 and the Constitution ðScheduled TribesÞ Order of
+1950 lists which castes and tribes are designated SCs and STs, respectively.
+Azam, Chin, and Prakash
+339
+This content downloaded from 132.174.250.220 on September 02, 2017 17:45:32 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+TABLE 1
+ADULT ENGLISH-SPEAKING ABILITY IN INDIA
+Percent Who Converse
+Fluently in English
+ð1Þ
+Percent Who Converse a
+Little in English
+ð2Þ
+Total Percent with
+English Ability
+ð3Þ
+All individuals ages 18–65
+3.8
+16.2
+20.0
+ð19.1Þ
+ð36.9Þ
+ð40.0Þ
+By sex:
+Male
+5.0
+21.0
+25.9
+ð21.7Þ
+ð40.7Þ
+ð43.8Þ
+Female
+2.6
+11.5
+14.2
+ð16.0Þ
+ð31.9Þ
+ð34.9Þ
+By age:
+18–35
+4.4
+20.2
+24.6
+ð20.4Þ
+ð40.2Þ
+ð43.0Þ
+36–50
+3.3
+12.8
+16.1
+ð17.8Þ
+ð33.4Þ
+ð36.7Þ
+51–65
+3.0
+9.7
+12.7
+ð16.9Þ
+ð29.6Þ
+ð33.2Þ
+By educational attainment:
+No completed schooling
+.0
+.0
+.0
+ð.6Þ
+ð1.8Þ
+ð1.9Þ
+Some primary ð1–4 years
+schoolingÞ
+.1
+1.1
+1.2
+ð2.8Þ
+ð10.6Þ
+ð11.0Þ
+Primary ð5–9Þ
+.5
+10.3
+10.8
+ð6.8Þ
+ð30.4Þ
+ð31.1Þ
+Secondary ð10–14Þ
+6.0
+49.5
+55.5
+ð23.7Þ
+ð50.0Þ
+ð49.7Þ
+College graduate or higher
+35.3
+53.2
+88.5
+ð47.8Þ
+ð49.9Þ
+ð31.8Þ
+By social group:
+Scheduled tribes
+2.5
+8.4
+10.9
+ð15.7Þ
+ð27.7Þ
+ð31.2Þ
+Scheduled castes
+1.5
+11.4
+12.9
+ð12.3Þ
+ð31.7Þ
+ð33.5Þ
+Other backward castes
+2.9
+14.7
+17.6
+ð16.9Þ
+ð35.4Þ
+ð38.1Þ
+Higher castes
+7.6
+26.0
+33.6
+ð26.5Þ
+ð43.9Þ
+ð47.2Þ
+By geography:
+Urban
+9.0
+25.8
+34.8
+ð28.6Þ
+ð43.8Þ
+ð47.6Þ
+Rural
+1.7
+12.4
+14.1
+ð12.9Þ
+ð32.9Þ
+ð34.8Þ
+1961 English prevalence
+≥median
+5.5
+20.4
+25.9
+ð22.8Þ
+ð40.3Þ
+ð43.8Þ
+1961 English prevalence
+< median
+2.0
+12.3
+14.3
+ð14.0Þ
+ð32.8Þ
+ð35.0Þ
+1961 linguistic heterogeneity
+≥median
+4.2
+17.2
+21.5
+ð20.2Þ
+ð37.8Þ
+ð41.1Þ
+(continued on next page)
+340
+This content downloaded from 132.174.250.220 on September 02, 2017 17:45:32 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+There is considerable geographic variation in the prevalence of English in
+India.7 It is beyond the scope of this study to account for all these cross-state
+differences; however, we do describe English ability along several geographic
+dimensions on the bottom of table 1. First, there is a large difference in English
+ability by urban status: 35% of individuals living in urban areas report having
+the ability to speak English as compared to only 14% living in rural areas. Sec-
+ond, individuals living in districts with greater historical prevalence of English
+skill are more likely to speak English today: 26% of individuals living in dis-
+tricts with above-median share of the 1961 population speak English, com-
+pared to 14% of those living in other districts. In addition, English-speaking
+ability is more widespread in districts that had greater linguistic diversity in
+1961 or that had an information technology ﬁrm in 2003.
+Having described the prevalence of English proﬁciency in India using the
+IHDS, we proceed to estimate the returns to English proﬁciency in India. Be-
+fore we do this, we discuss the related literature and our empirical framework.
+B. Previous Literature
+We are aware of two previous studies on the relationship between English-
+language skills and earnings in India: Munshi and Rosenzweig ð2006Þ and
+Chakraborty and Kapur ð2008Þ, with the latter being an unpublished manu-
+script. Both estimate the returns to attending a school with English ðas opposed
+TABLE 1 (Continued )
+Percent Who Converse
+Fluently in English
+ð1Þ
+Percent Who Converse a
+Little in English
+ð2Þ
+Total Percent with
+English Ability
+ð3Þ
+1961 linguistic heterogeneity
+< median
+3.3
+15.4
+18.7
+ð17.8Þ
+ð36.1Þ
+ð39.0Þ
+2003 IT presence: yes
+7.7
+22.3
+30.0
+ð26.6Þ
+ð41.6Þ
+ð45.8Þ
+2003 IT presence: no
+2.6
+14.3
+16.9
+ð15.8Þ
+ð35.0Þ
+ð37.5Þ
+Note. The sample consists of individuals ages 18–65 from the 2005 India Human Development Survey
+ð121,988 observations in top row; fewer in other rows because they are subsamples of the top row’s
+sampleÞ. Standard deviations are shown in parentheses below the mean percent of a given subpopulation
+with English ability. 1961 English prevalence is measured as the share of the individual’s district population
+reporting English as a mother tongue or a second language in the 1961 census. 1961 linguistic heteroge-
+neity is measured using 1 minus the Herﬁndahl index of mother tongues in the individual’s district, i.e.,
+1 2 ox2
+l , where l indexes language and x is the share of the individual’s district population reporting l as
+the mother tongue in the 1961 census. IT presence is measured as a dummy variable indicating whether
+the individual’s district had any IT ﬁrm headquarters or branch according to the 2003 National Association
+of Software and Service Companies ðNASSCOMÞ directory.
+7 A map of India showing mean English-speaking ability by state appears in ﬁg. A1, available in the
+online version of the journal.
+Azam, Chin, and Prakash
+341
+This content downloaded from 132.174.250.220 on September 02, 2017 17:45:32 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+to some native languageÞ as the medium of instruction. Munshi and Rosen-
+zweig collected their own data on Maharashtrians living in Dadar, which is lo-
+cated in Mumbai, Maharashtra, India. Using data on parents’ income histories
+and the language of instruction in their secondary school ðMarathi or EnglishÞ,
+they estimate signiﬁcant positive returns to an English-medium education.8 At-
+tending an English-medium school increased both women’s and men’s income
+by about 25% in 2000. Chakraborty and Kapur use National Sample Survey
+data to estimate the impact of a 1983 policy in West Bengal that eliminated En-
+glish as the medium of instruction in primary schools. They ﬁnd that switching
+from English to Bengali as the medium of instruction signiﬁcantly reduced
+wages. Simple comparisons of cohorts attending primary school before and after
+the policy change suggest that English-medium schooling raised wages about
+15% in the 2000s.9
+Our study differs from the two aforementioned studies in two key respects.
+First, the returns to English that we are estimating are the returns to English-
+language skills as opposed to the returns to English-medium education. In gen-
+eral, we might think that being taught in English would increase one’s English-
+language skills relative to being taught in some other language, so the latter
+estimates just need to be scaled up by some factor to obtain the former.10 Angrist
+and Lavy ð1997Þ, for example, ﬁnd that French-language skills signiﬁcantly
+deteriorated in Morocco as a result of a policy that changed the language of in-
+struction in postprimary grades from French to Arabic. However, Angrist, Chin,
+and Godoy ð2008Þ ﬁnd that in Puerto Rico, switching the medium of instruc-
+tion from English to Spanish in Puerto Rico had no impact on the English-
+speaking proﬁciency of Puerto Ricans; thus, it is not a foregone conclusion that
+instruction in a foreign language will lead to greater proﬁciency in that foreign
+language. In fact, the premise of He, Linden, and MacLeod ð2008Þ is that In-
+dian primary schools are ineffective at teaching English.11 A second difference
+is that our study uses a large, nationally representative data set, which enables
+8 These returns are described in greater detail in Munshi and Rosenzweig ð2003Þ.
+9 Estimates controlling for secular cohort trends suggest somewhat larger effects.
+10 That is, we might think of the returns to English-medium schooling as a reduced-form relationship
+between English-language skills and earnings. In order to recover the returns to English-language
+skills, one needs to know the “ﬁrst-stage” effect of English-medium schooling on English-language
+skills. In practice, there might be complications since English-medium schooling might affect earnings
+through mechanisms other than English-language skills. For example, Roy ð2004Þ ﬁnds that the West
+Bengal policy that changed the medium of instruction from English to Bengali increased educational
+attainment.
+11 They perform a randomized evaluation of a new methodology for teaching English in primary
+schools. At the outset of the experiment, they found that only 10% of second and third graders could
+identify the picture of the correct object when given the object’s English name even though these words
+were part of the ofﬁcial English curriculum.
+342
+E C O N O M I C D E V E L O P M E N T A N D C U L T U R A L C H A N G E
+This content downloaded from 132.174.250.220 on September 02, 2017 17:45:32 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+us to explore potential heterogeneity in returns to English-language skills along
+various dimensions ðbelow, we will allow returns to vary by sex, age, education,
+social group, and geographic variablesÞ. Munshi and Rosenzweig’s ﬁndings come
+from one community in Mumbai, and Chakraborty and Kapur’s ﬁndings come
+from a policy change in one state, West Bengal.
+There is a large literature on the effects of language skills on wages using data
+from other countries. However, most of these studies estimate the returns to
+the host-country language for immigrants to that host country, such as the re-
+turns to English for US immigrants. Bleakley and Chin ð2004Þ provide a brief
+overview of these studies. Fewer studies estimate the return to a language that is
+not the country’s dominant language. Two studies that estimate the effect of a
+colonial language are Angrist and Lavy ð1997Þ, who estimate the return
+to French-language skills in Morocco, and Levinsohn ð2007Þ, who estimates
+the returns to speaking English in South Africa. Two that estimate the effect of
+foreign languages that do not have a colonial past in the country are Saiz and
+Zoido ð2005Þ and Lang and Siniver ð2009Þ. Saiz and Zoido estimate the re-
+turns to Spanish, French, and other foreign languages among US college grad-
+uates. Lang and Siniver estimate the returns to English proﬁciency in Israel, a
+country where English is neither a dominant nor ofﬁcial language. The latter
+two studies suggest that proﬁciency in an international language such as English
+is rewarded more in the labor market than proﬁciency in some other foreign
+language.
+This study makes several contributions to the existing literature. It is the ﬁrst
+to estimate the returns to English-language skills in India. A major hurdle in the
+past has been the availability of a data set measuring both language skills and
+earnings of individuals. The recent availability of data from the 2005 IHDS
+helps us clear this hurdle. In addition, it adds to the small handful of studies that
+estimate the effect of proﬁciency in a foreign language that has colonial roots
+or serves as an international language. Finally, it adds to the few studies on the
+topic using data from a developing country.
+III. Empirical Framework
+English-language skills are a form of human capital. Individuals, or parents act-
+ing on their behalf, weigh the marginal costs and marginal beneﬁts of investing
+in English-language skills. There could be both monetary and nonmonetary
+costs associated with acquiring English-language skills. Nonmonetary costs in-
+clude the effort to learn English, which is not the native language of 99.8% of
+the Indian population. They might also include weakened ties to one’s tradi-
+tional social network because in order to learn English well, one might have to
+attend different schools or study the native language less relative to other mem-
+Azam, Chin, and Prakash
+343
+This content downloaded from 132.174.250.220 on September 02, 2017 17:45:32 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+bers of the network ðMunshi and Rosenzweig 2006Þ. Extra monetary costs are
+incurred to the extent that parents enroll their child in private schools, hire tu-
+tors, or invest in more years of schooling than they otherwise would in order to
+help the child learn English.12
+Among the beneﬁts of having English-language skills is getting a better job.
+Although it is widely acknowledged that English-language skills are valuable in
+India, due to lack of data, the returns to English-language skills have not been
+quantiﬁed.13 This skill price is determined by the supply of and demand for
+English-proﬁcient workers. The recent availability of IHDS data, which con-
+tain measures of English-speaking ability and earnings, enables us to estimate
+the skill price.
+The relationship between English-language skills and earnings might be ap-
+proximated by the following equation:
+yi 5 a 1 bEnglishi 1 pXi 1 ei;
+ð1Þ
+where yi is the log hourly earnings of individual i, Englishi is a measure of
+English-language skills, and Xi is a set of demographic controls ðe.g., age, sex,
+social groupÞ. The coefﬁcient of primary interest is b, which gives the returns
+to English-language skills.
+Omitted variables bias will likely be a concern for several reasons. One omit-
+ted variable that ex ante we thought would be important is years of schooling.
+Early grades are more likely to take place in the native language, with the re-
+gional or national language used as the medium of language in later grades.
+This generates a positive relationship between English proﬁciency and years of
+schooling, leading the ordinary least squares estimate of b in equation ð1Þ to
+be upward biased; some of the estimated effect of English proﬁciency is in fact
+due to schooling. To address this issue, we will control for years of schooling.
+A second important omitted variable in equation ð1Þ is geographic character-
+istics. Places where English is more prevalent are different from places where
+English is less prevalent. For example, English is more prevalent in major cities,
+but these are also places where wages are on average higher. There could be a
+causal relationship between wages and English-language skills, or a correlation
+could exist through some third factor. A causal story going from language skills
+12 Roy ð2004Þ ﬁnds that as a result of the change in medium of instruction in West Bengal public
+primary schools from English to Bengali in 1983, parents spent more on private tutors ðpresumably
+to provide English lessonsÞ. There was no estimated impact on private school attendance, but Roy
+suggests that perhaps there were supply constraints in the short run.
+13 As discussed in the previous section, Munshi and Rosenzweig ð2006Þ and Chakraborty and Kapur
+ð2008Þ estimate the returns to English-medium schooling, which is not the same as the returns to
+English-language skills. Moreover, it is of interest to explore heterogeneity in returns to English, which
+we can do because of our large, diverse sample.
+344
+E C O N O M I C D E V E L O P M E N T A N D C U L T U R A L C H A N G E
+This content downloaded from 132.174.250.220 on September 02, 2017 17:45:32 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+to industrial development is that the availability of a more skilled ðe.g., English-
+proﬁcientÞ labor force in a particular region attract ﬁrms to locate there. Shastry
+ð2012Þ ﬁnds that districts with a lower cost of acquiring English ðand therefore,
+where English was more prevalentÞ had greater growth in information technol-
+ogy jobs. A causal story in the reverse direction is that higher returns for a par-
+ticular skill ðe.g., English proﬁciencyÞ motivates individuals to invest more to
+develop that skill. Clingingsmith ð2007Þ ﬁnds that Indian districts with more
+factory employment experience greater growth in bilingualism. Third factors
+that might be behind the observed correlation include the place’s institutional
+environment, economic conditions, climate, and natural resources. The forego-
+ing considerations suggest that it is essential to control for local conditions. We
+therefore control for urban residence and state of residence. In our preferred
+speciﬁcation, we control for geographic conditions more ﬁnely by including
+district of residence ﬁxed effects; that is, we are comparing individuals who
+speak English and those who do not within the same district.
+A ﬁnal important source of omitted variable bias in equation ð1Þ is the stan-
+dard “ability” bias. Higher ability individuals ðe.g., those with greater aptitude
+or more advantaged family backgroundÞ are more likely to have better English-
+language skills as well as better jobs, leading to an upward-biased estimate of the
+return to English, since ability is omitted. Controlling for years of schooling
+mitigates the ability bias somewhat because those with greater ability tend to
+complete more schooling, but this may be imperfect. We take advantage of the
+richness of the IHDS data to address theabilitybias in additional ways. One way
+is to control for father’s education; controlling for parental education has been a
+traditional approach in the returns to education literature to address ability bias
+ðsee Card ½1999 for a reviewÞ. Another way is to control for the individual’s per-
+formance on the secondary school leaving certiﬁcate ðSSLCÞ examination. In
+India, students must pass a standardized exam developed by the board of ed-
+ucation under whose jurisdiction their school falls in order to receive a SSLC.
+A SSLC makes one eligible for further schooling, and a better SSLC exam per-
+formance enables one to attend better schools. This exam is typically taken at
+the end of tenth grade, and the passing categories, from highest to lowest level
+of distinction, are Class I, II, and III.14 Performance on the SSLC exam—even
+if measured in only a few categories—seems like a credible proxy for ability in
+14 In the IHDS, among individuals ages 18–65 who have completed tenth grade or higher, 20% re-
+ported Class I, 53% reported Class II, 17% reported Class III, and 9% had a missing value. Below, we
+will form dummies for each of these four categories and use the latter as the omitted reference cat-
+egory. We observe that people in the Class II, Class III, and missing value categories have similar
+wages ðholding other explanatory variables constantÞ, while people in the Class I category have sig-
+niﬁcantly higher wages. Thus, it appears that the people not reporting SSLC performance are primar-
+ily Class II and III performers.
+Azam, Chin, and Prakash
+345
+This content downloaded from 132.174.250.220 on September 02, 2017 17:45:32 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+the Indian context and is akin to controlling for aptitude test scores to address
+the ability bias when estimating the returns to schooling in the US context. It is
+unusual, and fortunate for us, that the IHDS collected this SSLC exam perfor-
+mance data. However, it should be recognized that this information is available
+only for individuals who have attended tenth grade, something that only 30%
+of individuals ages 18–65 in the data set have done. Thus, we regard SSLC
+exam performance as a proxy of ability among those with more schooling. As
+a proxy for ability among the less educated, we use the response to the question
+of whether the individual has failed or repeated a grade.
+Given the forgoing discussion on likely sources of omitted variables bias, we
+amend equation ð1Þ as follows:
+yi 5 ar 1 bEnglishi 1 dSchoolingi 1 gAbilityi 1 lUrbani 1 pXi 1 ei; ð2Þ
+where Urbani indicates whether individual i lives in an urban area, ar is either
+state or district ﬁxed effects, Schooling i is years of schooling completed, and
+Abilityi are proxies for ability ði.e., father’s education, SSLC exam performance,
+and failing or repeating a gradeÞ.
+Although we believe equation ð2Þ addresses the main sources of bias, none-
+theless there could be concerns about remaining omitted variables, measure-
+ment error, and reverse causality. First, of course it is impossible to rule out that
+we have left out some relevant variable. However, it should be noted that in or-
+der to change our results materially, it would have to be a variable that, condi-
+tional on all the explanatory variables mentioned above, has a strong relation-
+ship with wages or English ability. Below, we ﬁnd that although the proxies for
+ability are signiﬁcant predictors of wages, nevertheless their inclusion does not
+change the coefﬁcients for English skill much, which suggests that selection on
+unobserved variables is unlikely to account for much of our estimated returns to
+English ðAltonji, Elder, and Taber 2005Þ. Second, measurement error is poten-
+tially a serious problem because the English-speaking ability variable available
+from the IHDS is self-reported ðrather than based on some objective testÞ and
+constrained to a few categories ðspeaks ﬂuent English, a little English, or no
+EnglishÞ. Bleakley and Chin ð2004Þ and Dustmann and van Soest ð2002Þ, us-
+ing US census data and German Socio-Economic Panel data, which have similar
+language measures, ﬁnd that returns to language skill are higher after correcting
+for measurement error. If the nature of measurement error in the English-ability
+measure from the IHDS is similar, then we might expect our coefﬁcients for
+English ability to be downward biased. While we know classical measurement
+error leads to attenuation bias, the overall bias in our estimates due to measure-
+ment error is unclear because the direction and extent of nonclassical measure-
+346
+E C O N O M I C D E V E L O P M E N T A N D C U L T U R A L C H A N G E
+This content downloaded from 132.174.250.220 on September 02, 2017 17:45:32 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+ment error is not known.15 Third, reverse causality could be a source of bias.
+Being in a higher paying job might cause workers to develop better English-
+language skills, such as through being able to afford English lessons or getting
+more exposure to English in the workplace. If so, then the estimated coefﬁcient
+for English skills would exceed the true returns to English because it encapsu-
+lates the reverse effect too. For these reasons, our empirical strategy may not
+yield estimates of the returns to English that have a causal interpretation. Bleak-
+ley and Chin use an instrumental variables strategy based on US immigrants’
+age at arrival and country of origin to obtain the causal returns to English and
+ﬁnd that the instrumental variable estimate ðwhich avoids both the downward
+bias from classical measurement error and the upward bias from omitted “abil-
+ity” and reverse causalityÞ exceeds the ordinary least squares estimate ðwhich is
+subject to all those biasesÞ, which suggests that attenuation bias dominates
+other sources of bias in their setting. We do not know, however, whether the
+relative size of the various biases found in their setting applies to ours.
+IV. Data
+We use data from the 2005 India Human Development Survey, a nationally
+representative household data set collected by the National Council of Ap-
+plied Economic Research in New Delhi and the University of Maryland
+ðDesai, Vanneman, and NCAER 2009Þ. IHDS covers 41,554 households lo-
+cated throughout India.16 The survey contained many questions that are not
+asked in the larger and more commonly used Indian household survey, the
+National Sample Survey. Most relevant for us is that information about each
+household member’s ability to converse in English is collected. We are not
+aware of any other large-scale individual-level data set in India that contains
+a measure of English-language skills.17
+Since the outcome of interest is earnings, we restrict our sample to individuals
+ages18–65. Our mainanalysiswill useindividuals who reportworking fora wage
+15 Bleakley and Chin use data from the National Adult Literacy Survey to analyze the relationship
+between the self-assessed categorical measure of English skill and a better measure based on a literacy
+test, and quantify bias from measurement error. In their case, it turns out there is some upward bias
+due to nonclassical measurement error ðin which the measurement error is correlated with the English-
+skill variableÞ, but the downward bias due to classical measurement error is larger by far. In our case,
+without the beneﬁt of an external data set containing our measure of English skill and a better one for
+India, we cannot make more deﬁnitive statements about measurement error.
+16 The survey covered all the states and union territories of India except Andaman and Nicobar, and
+Lakshadweep, two union territories which together account for less than 0.05% of India’s population.
+It is a stratiﬁed sample, and for our data analysis we use the IHDS design weights ð“sweight”Þ to obtain
+nationally representative statistics.
+17 The census does collect information on language knowledge of the population; however, these data
+are reported only in aggregate form. In addition, the census does not collect data on wages, income, or
+consumption.
+Azam, Chin, and Prakash
+347
+This content downloaded from 132.174.250.220 on September 02, 2017 17:45:32 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+or salary last year. In our sample of 125,170 people ages 18–65, 38% participated
+in wage employment. This raises concerns about sample selection bias. This
+problem could be serious in the context of India, where over 70% of the popu-
+lation is rural and family farms and nonfarm businesses continue to absorb much
+of the laborforce.To address this,we will use two alternative measures of earnings
+that are observed regardless of an individual’s employment status: household in-
+come and household consumption. We perform this latter analysis using male
+heads of households to avoid counting the same household multiple times.
+Table 2 presents the descriptive statistics for various subsamples used below:
+men in wage employment, male household heads in wage employment, all male
+household heads, and women in wage employment. We discuss our dependent
+variables in greater detail here. The top row reports that mean log hourly wages
+is 2.25 for male wage workers, 2.31 for the subset that is a household head, and
+1.62 for female wage workers. The speciﬁc measure of wages that we use is
+hourly wage for primary job.18 The second row reports that mean log household
+income last year is 10.3. This income measure captures all sources of income
+from all members of the household.19 The third row reports the mean log
+monthly consumption per capita. This measure is formed based on measures of
+the household’s consumption from 47 categories of goods and services.20
+V. The Returns to English-Language Skills
+A. Main Results
+Using the sample of male wage earners ages 18–65, we estimate equation ð2Þ
+using OLS.21 These results are shown in table 3, with each column adding more
+controls. Column 1 presents the raw difference in log hourly wage by English
+proﬁciency. Compared to log wages of 2.07 for men who have no English abil-
+18 IHDS asked respondents about pay for each job held last year, and we use data on the ﬁrst job; 93%
+of wage earners reported only one job, so not surprisingly, the ﬁndings are the same when we use total
+wages across jobs instead of wages from primary job.
+19 The IHDS is unusual among Indian household data sets for its rich measures of income. House-
+holds were asked about over 50 components of income, and our measure of household income takes
+the sum across all sources. By far, the largest sources were wages and salaries, farm net income, and non-
+farm business net income, but also included are such things as government transfers, pension income,
+and income from investments. Except for wages and salary, all the income components are collected at
+the level of the household, which is why we use household income rather than individual income.
+20 Thirty of the consumption categories are frequently purchased items such as food ðincluding home-
+produced foodÞ, housing, and transportation and use a 30-day time frame. The remaining 17 catego-
+ries are less frequently purchased items such as school fees and durables and use a 365-day time frame.
+The consumption module of the IHDS is based on the short-form consumption questions in the Na-
+tional Sample Survey ðNSSÞ. The NSS is a nationwide large-scale multipurpose household survey ad-
+ministered by the Government of India’s Ministry of Statistics and Programme Implementation, and
+the Consumption Expenditure Survey has been part of the NSS quinquennially since 1972–73.
+21 We estimate models separately for men and women. We discuss results for women in Sec. V.C.
+348
+E C O N O M I C D E V E L O P M E N T A N D C U L T U R A L C H A N G E
+This content downloaded from 132.174.250.220 on September 02, 2017 17:45:32 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+ity, men who speak a little English earn 0.69 log points more, and men who
+speak English ﬂuently earn 1.37 log points more.22 These differences are large
+but likely overstate the true returns to English; for example, in table 1, we ob-
+served that English ability is correlated with numerous variables that are known
+to be correlated with earnings, such as age and education.
+In column 2 of table 3, we control for age and social group. In column 3, we
+add a full set of dummies for educational attainment. Controlling for education
+cuts the estimated coefﬁcients for English ability by more than half. Adding
+state ﬁxed effects and a dummy for urban residence, which helps control for
+local institutions and labor market conditions, also leads to sizable reductions
+in the estimated coefﬁcients for English ability ðcol. 4Þ. In column 5, we add
+dummies for SSLC exam performance and grade repetition/failure to control
+for ability bias ðon top of what controlling for educational attainment accom-
+plishesÞ. Although performing in the top category ðClass IÞ on the SSLC exam
+signiﬁcantly increases wages, and having ever failed or repeated a grade signif-
+icantly decreases wages, we ﬁnd a relatively modest decline in the estimated
+coefﬁcients for English skill.23 Finally, in column 6, we add district ﬁxed effects,
+which is by far more detailed a geographic control than the state ðIndia has
+35 states or union territories, which are subdivided into 602 districtsÞ, and this
+does not make much difference. We regard the column 6 speciﬁcation—with
+the most comprehensive controls—as our preferred speciﬁcation. The esti-
+mates in column 6 suggest that, compared to men who have no English ability,
+men who are ﬂuent in English have 34% higher hourly wages, and men who
+speak a little English have 13% higher hourly wages. These results are econom-
+ically meaningful effects. For example, the return to being ﬂuent is as large as
+the return to completing secondary school, and half as large as the return to
+completing a bachelor’s degree.24
+22 Hourly wages are Rs 10, Rs 23, and Rs 42, respectively, for men with no, little, and ﬂuent English.
+23 It is comforting that the estimated coefﬁcients for English skill do not change much with the ad-
+dition of these variables; this suggests that the estimated coefﬁcients for the language variables really
+reﬂect the effect of language skills rather than remaining omitted variables. Had ability bias been im-
+portant, then the inclusion of the proxies for ability should have changed the estimated coefﬁcients for
+English skill more dramatically. We might therefore reason, along the lines of Altonji et al. ð2005Þ, that
+bias from remaining unobservables is unlikely to be able to account for the estimated coefﬁcients for
+English skill. As an aside, it is surprising that the adjusted R2 does not increase much going from
+table 3, col. 4, to col. 5, despite the statistical and economic signiﬁcance of the dummies for SSLC
+exam performance and grade repetition/failure. This appears to be due to these variables’ high degree
+of correlation with the educational attainment variables and suggests that in wage regressions that do
+not control for ability, the estimated return to education in part reﬂects the effects of ability.
+24 Note that these comparisons between returns to English and returns to schoolingare madebased onthe
+speciﬁcation seen in table 3, col. 6, and so are conditional on SSLC exam performance, among other
+things.
+Azam, Chin, and Prakash
+349
+This content downloaded from 132.174.250.220 on September 02, 2017 17:45:32 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+TABLE 2
+SUMMARY STATISTICS
+All Men
+in Wage
+Employment
+ð1Þ
+Male Heads
+in Wage
+Employment
+ð2Þ
+All Male
+Heads
+ð3Þ
+All Women
+in Wage
+Employment
+ð4Þ
+Log hourly wage last year
+2.250
+2.308
+1.620
+ð.763Þ
+ð.800Þ
+ð.679Þ
+Log household income last year
+10.322
+ð.980Þ
+Log monthly per capita consumption last year
+6.497
+ð.678Þ
+Fluent English
+.046
+.045
+.040
+.026
+ð.210Þ
+ð.208Þ
+ð.197Þ
+ð.159Þ
+Little English
+.165
+.150
+.167
+.060
+ð.372Þ
+ð.357Þ
+ð.373Þ
+ð.238Þ
+Urban residence
+.292
+.305
+.291
+.178
+ð.455Þ
+ð.461Þ
+ð.454Þ
+ð.382Þ
+Age
+36.748
+41.908
+44.157
+36.366
+ð11.730Þ
+ð10.198Þ
+ð10.998Þ
+ð11.286Þ
+Social group: scheduled tribes
+.095
+.100
+.083
+.152
+ð.293Þ
+ð.300Þ
+ð.276Þ
+ð.359Þ
+Social group: scheduled castes
+.271
+.275
+.223
+.313
+ð.445Þ
+ð.446Þ
+ð.416Þ
+ð.464Þ
+Social group: other backward castes
+.338
+.334
+.354
+.355
+ð.473Þ
+ð.472Þ
+ð.478Þ
+ð.479Þ
+Social group: Muslims
+.110
+.109
+.115
+.058
+ð.313Þ
+ð.311Þ
+ð.319Þ
+ð.233Þ
+Years of schooling completed: 0
+.297
+.351
+.316
+.677
+ð.457Þ
+ð.477Þ
+ð.465Þ
+ð.468Þ
+Years of schooling completed: 1
+.006
+.007
+.006
+.004
+ð.079Þ
+ð.082Þ
+ð.075Þ
+ð.061Þ
+Years of schooling completed: 2
+.023
+.026
+.026
+.018
+ð.151Þ
+ð.159Þ
+ð.160Þ
+ð.133Þ
+Years of schooling completed: 3
+.030
+.035
+.034
+.021
+ð.170Þ
+ð.184Þ
+ð.181Þ
+ð.143Þ
+Years of schooling completed: 4
+.044
+.047
+.049
+.027
+ð.206Þ
+ð.211Þ
+ð.216Þ
+ð.163Þ
+Years of schooling completed: 5
+ðprimary school completionÞ
+.085
+.089
+.089
+.055
+ð.279Þ
+ð.284Þ
+ð.285Þ
+ð.227Þ
+Years of schooling completed: 6
+.032
+.030
+.031
+.016
+ð.177Þ
+ð.170Þ
+ð.173Þ
+ð.126Þ
+Years of schooling completed: 7
+.055
+.049
+.051
+.032
+ð.227Þ
+ð.216Þ
+ð.220Þ
+ð.177Þ
+Years of schooling completed: 8
+ðmiddle school completionÞ
+.069
+.061
+.067
+.023
+ð.253Þ
+ð.239Þ
+ð.250Þ
+ð.149Þ
+Years of schooling completed: 9
+.086
+.063
+.071
+.023
+ð.280Þ
+ð.244Þ
+ð.257Þ
+ð.151Þ
+Years of schooling completed: 10
+ðsecondary school completionÞ
+.106
+.099
+.109
+.030
+ð.308Þ
+ð.298Þ
+ð.312Þ
+ð.170Þ
+(continued on next page)
+350
+This content downloaded from 132.174.250.220 on September 02, 2017 17:45:32 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+An issue with our analysis thus far is that it is restricted to people engaged in
+wage employment, which may be a nonrandom sample of the population. In
+particular, we may be concerned that English proﬁciency affects both partici-
+pation in wage employment and wages such that our estimates may not give the
+unconditional effect of English proﬁciency on wages. In table A1 ðavailable in
+the online version of the journalÞ, we examine the selection into wage employ-
+ment explicitly. Speciﬁcally, we estimate equation ð2Þ with probit, where the
+dependent variable is a dummy for being in wage employment, and the sample
+is all men ages 18–65.25 We ﬁnd that men who speak a little English are not
+more or less likely to participate in wage employment relative to men who
+speak no English, suggesting that our coefﬁcients for “little English” in the
+wage regression are not biased by selective participation. However, men who
+25 An individual is coded as being in wage employment if he or she reports positive wages last year. We
+use the same speciﬁcation as in table 3, col. 6.
+TABLE 2 (Continued )
+All Men
+in Wage
+Employment
+ð1Þ
+Male Heads
+in Wage
+Employment
+ð2Þ
+All Male
+Heads
+ð3Þ
+All Women
+in Wage
+Employment
+ð4Þ
+Years of schooling completed: 11
+.017
+.014
+.017
+.005
+ð.130Þ
+ð.118Þ
+ð.128Þ
+ð.071Þ
+Years of schooling completed: 12 ðhigher
+secondary school completionÞ
+.058
+.048
+.054
+.023
+ð.234Þ
+ð.215Þ
+ð.225Þ
+ð.150Þ
+Years of schooling completed: 13
+.002
+.002
+.002
+.002
+ð.046Þ
+ð.040Þ
+ð.047Þ
+ð.040Þ
+Years of schooling completed: 14
+.003
+.002
+.003
+.002
+ð.056Þ
+ð.047Þ
+ð.051Þ
+ð.041Þ
+Years of schooling completed: 15 ðbachelor’s
+degree or moreÞ
+.086
+.077
+.075
+.043
+ð.280Þ
+ð.267Þ
+ð.263Þ
+ð.202Þ
+Performance on SSLC exam: Class I
+.056
+.050
+.048
+.033
+ð.231Þ
+ð.219Þ
+ð.214Þ
+ð.178Þ
+Performance on SSLC exam: Class II
+.141
+.125
+.139
+.048
+ð.348Þ
+ð.331Þ
+ð.346Þ
+ð.214Þ
+Performance on SSLC exam: Class III
+.049
+.041
+.046
+.014
+ð.215Þ
+ð.199Þ
+ð.210Þ
+ð.119Þ
+Has repeated or failed a grade
+.170
+.142
+.143
+.063
+ð.376Þ
+ð.349Þ
+ð.350Þ
+ð.243Þ
+Number of observations
+32,445
+21,057
+33,376
+12,205
+Note. The sample consists of individuals ages 18–65 from the 2005 India Human Development Survey,
+with nonmissing English ability and educational attainment variables. In column 3, due to missing values,
+there are fewer observations for two variables, household income ð32,916Þ, and household consumption
+ð33,340Þ. Standard deviations are shown in parentheses below the means.
+Azam, Chin, and Prakash
+351
+This content downloaded from 132.174.250.220 on September 02, 2017 17:45:32 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+TABLE 3
+EFFECT OF ENGLISH-SPEAKING ABILITY ON MALE LOG HOURLY WAGES
+No
+Controls
+ð1Þ
+Demographic
+Controls
+ð2Þ
+Education
+Controls
+ð3Þ
+Geographic
+Controls
+ð4Þ
+Ability
+Controls
+ð5Þ
+District
+Fixed
+Effects
+ð6Þ
+Fluent English
+1.370***
+1.201***
+.603***
+.393***
+.339***
+.345***
+ð.0230Þ
+ð.0228Þ
+ð.0301Þ
+ð.0302Þ
+ð.0317Þ
+ð.0301Þ
+Little English
+.690***
+.607***
+.224***
+.137***
+.125***
+.129***
+ð.0168Þ
+ð.0160Þ
+ð.0186Þ
+ð.0201Þ
+ð.0214Þ
+ð.0186Þ
+Age
+.041***
+.040***
+.032***
+.032***
+.031***
+ð.00242Þ
+ð.00235Þ
+ð.00221Þ
+ð.00222Þ
+ð.00212Þ
+Age2/100
+2.039***
+2.035***
+2.027***
+2.027***
+2.025***
+ð.00313Þ
+ð.00304Þ
+ð.00289Þ
+ð.00290Þ
+ð.00275Þ
+Social group: scheduled
+castes
+2.335***
+2.210***
+2.125***
+2.118***
+2.102***
+ð.0146Þ
+ð.0143Þ
+ð.0133Þ
+ð.0131Þ
+ð.0130Þ
+Social group: other
+backward castes
+2.303***
+2.228***
+2.119***
+2.116***
+2.085***
+ð.0146Þ
+ð.0142Þ
+ð.0136Þ
+ð.0137Þ
+ð.0132Þ
+Social group:
+scheduled tribes
+2.529***
+2.385***
+2.237***
+2.231***
+2.167***
+ð.0172Þ
+ð.0173Þ
+ð.0180Þ
+ð.0177Þ
+ð.0175Þ
+Social group: Muslims
+2.236***
+2.102***
+2.158***
+2.156***
+2.112***
+ð.0172Þ
+ð.0166Þ
+ð.0163Þ
+ð.0162Þ
+ð.0164Þ
+Years of schooling
+completed: 1
+.069
+.0606
+.066*
+.069*
+ð.0425Þ
+ð.0396Þ
+ð.0397Þ
+ð.0410Þ
+Years of schooling
+completed: 2
+.041
+.037
+.041
+.056**
+ð.0268Þ
+ð.0251Þ
+ð.0252Þ
+ð.0230Þ
+Years of schooling
+completed: 3
+.047*
+.017
+.027
+.044*
+ð.0267Þ
+ð.0268Þ
+ð.0263Þ
+ð.0231Þ
+Years of schooling
+completed: 4
+.092***
+.048***
+2.057***
+.075***
+ð.0188Þ
+ð.0174Þ
+ð.0176Þ
+ð.0166Þ
+Years of schooling
+completed: 5
+.187***
+.123***
+.133***
+.122***
+ð.0161Þ
+ð.0143Þ
+ð.0142Þ
+ð.0145Þ
+Years of schooling
+completed: 6
+.228***
+.128***
+.140***
+.148***
+ð.0242Þ
+ð.0218Þ
+ð.0218Þ
+ð.0210Þ
+Years of schooling
+completed: 7
+.266***
+.185***
+.200***
+.191***
+ð.0209Þ
+ð.0201Þ
+ð.0202Þ
+ð.0193Þ
+Years of schooling
+completed: 8
+.336***
+.217***
+.234***
+.232***
+ð.0188Þ
+ð.0180Þ
+ð.0185Þ
+ð.0175Þ
+Years of schooling
+completed: 9
+.352***
+.239***
+.266***
+.254***
+ð.0181Þ
+ð.0173Þ
+ð.0179Þ
+ð.0167Þ
+(continued on next page)
+352
+This content downloaded from 132.174.250.220 on September 02, 2017 17:45:32 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+TABLE 3 (Continued )
+No
+Controls
+ð1Þ
+Demographic
+Controls
+ð2Þ
+Education
+Controls
+ð3Þ
+Geographic
+Controls
+ð4Þ
+Ability
+Controls
+ð5Þ
+District
+Fixed
+Effects
+ð6Þ
+Years of schooling
+completed: 10
+.520***
+.377***
+.373***
+.334***
+ð.0194Þ
+ð.0206Þ
+ð.0605Þ
+ð.0408Þ
+Years of schooling
+completed: 11
+.360***
+.334***
+.325***
+.292***
+ð.0387Þ
+ð.0364Þ
+ð.0638Þ
+ð.0513Þ
+Years of schooling
+completed: 12
+.579***
+.467***
+.435***
+.410***
+ð.0265Þ
+ð.0264Þ
+ð.0593Þ
+ð.0453Þ
+Years of schooling
+completed: 13
+.621***
+.529***
+.496***
+.518***
+ð.105Þ
+ð.0997Þ
+ð.107Þ
+ð.106Þ
+Years of schooling
+completed: 14
+.605***
+.536***
+.490***
+.474***
+ð.106Þ
+ð.109Þ
+ð.122Þ
+ð.110Þ
+Years of schooling
+completed: 15
+.913***
+.796***
+.720***
+.679***
+ð.0286Þ
+ð.0283Þ
+ð.0607Þ
+ð.0457Þ
+Performance on SSLC
+exam: Class I
+.227***
+.236***
+ð.0687Þ
+ð.0494Þ
+Performance on SSLC
+exam: Class II
+.065
+.070
+ð.0640Þ
+ð.0456Þ
+Performance on SSLC
+exam: Class III
+2.094
+2.063
+ð.0646Þ
+ð.0465Þ
+Has repeated or failed
+a grade
+2.061***
+2.069***
+ð.0155Þ
+ð.0128Þ
+Urban residence
+.413***
+.405***
+.341***
+ð.0110Þ
+ð.0108Þ
+ð.0134Þ
+State fixed effects
+No
+No
+No
+Yes
+Yes
+No
+District fixed effects
+No
+No
+No
+No
+No
+Yes
+R2
+.231
+.299
+.360
+.455
+.459
+.516
+Note. The sample consists of men ages 18–65 who reported wage and salary work from the 2005 India
+Human Development Survey ð32,445 observations in all columnsÞ. The omitted social group consists of the
+high castes ð88% of this omitted groupÞ, Christians, Sikhs, and Jains. The omitted educational attainment
+group is 0 years of schooling completed. Robust standard errors are shown in parentheses.
+* p ≤.10.
+** p ≤.05.
+*** p ≤.01.
+353
+This content downloaded from 132.174.250.220 on September 02, 2017 17:45:32 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+speak ﬂuent English are on average 7.6 percentage points more likely to partic-
+ipate in wage employment relative to men who speak no English, so selection
+bias could be an issue. We address this issue by looking at household income
+and household consumption as outcomes in place of wages. These measures are
+available for everyone regardless of one’s participation in wage employment.
+Our analysis with the income and consumption measures is performed using
+male heads of households to avoid counting the same household multiple
+times. Just as in the sample of all men, in the subsample of men who are heads,
+those who speak English ﬂuently are signiﬁcantly more likely to participate in
+wage employment ðtable A1, col. 2Þ. However, in this same subsample, English
+skill is not a signiﬁcant determinant of participation in employment ðany
+type, including wage employmentÞ.26 Thus, among male heads, there is no evi-
+dence of selection into employment by English skill, and the measures of
+household income and consumption reﬂect, at least in part, male heads’ labor
+input.27
+In table 4, we present the estimation results using household income and
+consumption as outcomes. In column 1, we estimate the same model as in ta-
+ble 3, column 6, to demonstrate that very similar effects of English skill on
+hourly wages are found when we restrict analysis to male household heads. In
+column 3, we use household income as the outcome. We ﬁnd that in house-
+holds where the head speaks English ﬂuently, annual income is 34% higher.
+In households where the head speaks a little English, annual income is 11%
+higher. In column 5, we use household consumption as the outcome and also
+ﬁnd comparable, though generally smaller, effects; the smaller effects could be
+due to richer households saving more. These results using income and con-
+sumption thus are consistent with the wage results and suggest that sample se-
+lection bias does not seriously bias our wage analysis.
+In the even columns of table 4, we control for head’s father’s education as a
+further method to address concerns about ability bias.28 This does not change
+the estimated returns to English ability much, which is comforting along the
+lines we argued above when we included the controls for SSLC exam perfor-
+mance and grade repetition/failure; the father’s education dummies are jointly
+26 An individual is coded as engaged in employment if he or she reports positive hours of work in wage
+employment, the family farm, or nonfarm family businesses.
+27 As we mentioned in Sec. IV, income and consumption are measured only at the household level,
+not at the individual level. We can view household-level income and consumption either as noisy mea-
+sures of their individual-level counterparts or as per se interesting outcomes.
+28 Data on father’s education are collected only for male household heads, so speciﬁcations controlling
+for this variable cannot be estimated using the broader sample.
+354
+E C O N O M I C D E V E L O P M E N T A N D C U L T U R A L C H A N G E
+This content downloaded from 132.174.250.220 on September 02, 2017 17:45:32 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+signiﬁcant predictors of male heads’ wages, household income, and household
+consumption.
+B. Heterogeneity in Returns to English
+Thus far, we have focused on estimating the average returns to English. In this
+subsection, we explore heterogeneity in returns to English by demographic
+characteristics and by geography.
+1. By Demographic Variables
+Table 5 reports the returns to English by age, education, and social group. First,
+we consider age/cohort; given that we have a single cross section, we cannot
+distinguish between age and cohort effects. We ﬁnd that older cohorts receive
+signiﬁcantly higher returns for English skills ðcol. 2Þ. Among wage workers in
+the youngest age category, 18–35, those who speak English ﬂuently earn 11%
+higher wages relative to those with no English ability, and those who speak a
+little English actually earn less ðrows 1 and 2, respectivelyÞ. Men ages 36–50
+have returns of 49% for ﬂuent English and 30% for a little English ðadd rows 1
+and 3, and rows 2 and 4, respectivelyÞ. Men ages 51–65 have returns of 68% for
+ﬂuent English and 54% for a little English. Although demand for workers with
+TABLE 4
+EFFECTS OF ENGLISH-SPEAKING ABILITY FOR MALE-HEADED HOUSEHOLDS
+Dependent Variable
+Head’s Log Hourly Wage
+Household’s Log Total
+Income Last Year
+Household’s Log
+Monthly
+Per Capita Expenditure
+District
+Fixed
+Effects
+ð1Þ
+Add
+Father’s
+Education
+ð2Þ
+District
+Fixed
+Effects
+ð3Þ
+Add
+Father’s
+Education
+ð4Þ
+District
+Fixed
+Effects
+ð5Þ
+Add
+Father’s
+Education
+ð6Þ
+Fluent English
+.330***
+.312***
+.337***
+.320***
+.257***
+.235***
+ð.0378Þ
+ð.0380Þ
+ð.0365Þ
+ð.0364Þ
+ð.0231Þ
+ð.0232Þ
+Little English
+.163***
+.160***
+.113***
+.106***
+.103***
+.098***
+ð.0238Þ
+ð.0237Þ
+ð.0240Þ
+ð.0239Þ
+ð.0140Þ
+ð.0142Þ
+R 2
+.556
+.557
+.369
+.373
+.468
+.473
+Number of
+observations
+21,057
+20,672
+32,916
+32,272
+33,340
+32,688
+Note. The sample consists of male heads of household ages 18–65 from the 2005 India Human Develop-
+ment Survey. Each column reports the results of a separate regression that also controls for an age qua-
+dratic, social group dummies, education dummies, urban dummy, district dummies, exam performance
+dummies, and dummy for failing or repeating a grade ði.e., the same speciﬁcation as in table 3, col. 6Þ. The
+even columns also control for a full set of dummies for father’s years of schooling completed ðthere were a
+few missing values for this variableÞ. Robust standard errors are shown in parentheses.
+*** p ≤.01.
+Azam, Chin, and Prakash
+355
+This content downloaded from 132.174.250.220 on September 02, 2017 17:45:32 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+TABLE 5
+HETEROGENEITY IN EFFECT OF ENGLISH-SPEAKING ABILITY ON MALE WAGES BY DEMOGRAPHIC VARIABLES
+Base
+ð1Þ
+Age
+ð2Þ
+Education
+ð3Þ
+Age-Education
+ð4Þ
+Age-Education
+ð5Þ
+Social Group
+ð6Þ
+Social Group 1
+Age-Education
+ð7Þ
+Variable 1
+36–50
+BA
+Ages 36–65
+Ages 36–65
+ST
+ST
+Variable 2
+51–65
+Secondary
+BA
+BA
+SC
+SC
+Variable 3
+Secondary
+OBC
+OBC
+Omitted group
+Ages 18–35
+<10 years schooling
+Lower ed. and younger
+Lower ed. and younger
+Higher castes
+Higher castes
+Fluent English
+.345***
+.113***
+.241**
+.041
+.134**
+.395***
+.180***
+ð.0301Þ
+ð.0369Þ
+ð.108Þ
+ð.172Þ
+ð.0523Þ
+ð.0345Þ
+ð.0567Þ
+Little English
+.129***
+2.074***
+.069***
+2.039
+2.060***
+.150***
+2.056
+ð.0186Þ
+ð.0180Þ
+ð.0245Þ
+ð.0249Þ
+ð.0188Þ
+ð.0232Þ
+ð.0251Þ
+Fluent English × variable 1
+.376***
+.123
+.391*
+.401***
+2.042
+2.018
+ð.0439Þ
+ð.121Þ
+ð.217Þ
+ð.0719Þ
+ð.113Þ
+ð.115Þ
+Little English × variable 1
+.369***
+.095
+.263***
+.406***
+.057
+.084
+ð.0267Þ
+ð.0606Þ
+ð.0453Þ
+ð.0301Þ
+ð.0643Þ
+ð.0633Þ
+Fluent English × variable 2
+.565***
+.155
+.360*
+.267***
+2.180**
+2.141**
+ð.0554Þ
+ð.115Þ
+ð.186Þ
+ð.0881Þ
+ð.0708Þ
+ð.0656Þ
+Little English × variable 2
+.611***
+.091***
+.210***
+.231***
+2.094***
+2.042
+ð.0486Þ
+ð.0352Þ
+ð.0733Þ
+ð.0714Þ
+ð.0322Þ
+ð.0311Þ
+Fluent English × variable 3
+.223
+2.075
+2.065
+ð.179Þ
+ð.0500Þ
+ð.0511Þ
+Little English × variable 3
+.087**
+2.011
+.006
+ð.0357Þ
+ð.0351Þ
+ð.0331Þ
+Fluent English × BA × age 36–65
+2.511**
+2.523***
+Not reported
+ð.241Þ
+ð.126Þ
+Little English × BA × age 36–65
+2.292**
+2.436***
+Not reported
+ð.114Þ
+ð.109Þ
+Fluent English × secondary school × age 36–65
+2.267
+ð.231Þ
+Little English × secondary school × age 36–65
+2.0749
+ð.0642Þ
+Note. The sample consists of men ages 18–65 who reported wage and salary work from the 2005 India Human Development Survey ð32,445 observations in all columnsÞ. Each
+column reports the results of a separate regression that also controls for an age quadratic, social group dummies, education dummies, urban dummy, district dummies, exam
+performance dummies, and a dummy for failing or repeating a grade ði.e., the same speciﬁcation as in table 3, col. 6Þ. Columns 2, 4, 5, and 7 additionally control for a dummy
+for being age 36–50 and one for being 51–65. In column 7, we start with the column 6 speciﬁcation and control for age-education-speciﬁc effects of English skill as in column
+5 ðwe have suppressed reporting the coefﬁcients for the age and education interactions with English skill, so we should note that the main effects of English skill reﬂect the returns
+for lower educated, younger, and higher caste menÞ. Robust standard errors are shown in parentheses.
+* p ≤.10.
+** p ≤.05.
+*** p ≤.01.
+356
+This content downloaded from 132.174.250.220 on September 02, 2017 17:45:32 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+English skill has expanded in recent decades due to the growth of trade and out-
+sourcing, the supply of workers with such skill must also have grown rapidly
+lest we would have observed a rising English skill price. Of course the question
+arises as to why the skill price is not equalized across the cohorts; that is, with
+the inﬂux of young workers speaking English into the labor market, why are
+the wages of older workers not bid down? Consistent with these empirical ob-
+servations is a story in which there are language-skill complementarities. For
+example, English skill enables workers to enter more lucrative career tracks;
+that is, these are jobs that have better promotion ðor career progressÞ and raise
+opportunities. During his tenure, an older vintage worker would have acquired
+signiﬁcant work experience. Although a younger worker possesses the English
+skills that would have been necessary to obtain the entry-level position decades
+ago, he lacks the work experience, making him unable to substitute for the
+older vintage worker today.
+Second, we examine the returns to English by educational attainment. There
+is suggestive evidence of higher returns to English for the more educated
+ðcol. 3Þ. Among men who have not completed their secondary schooling ði.e.,
+those with 0–9 years of completed schoolingÞ, those who are ﬂuent in English
+have 24% higher wages relative to those with no English ability, and those who
+speak a little English have 7% higher wages. The positive coefﬁcients for the
+interactions between English skill and being higher educated ðrows 3–6Þ sug-
+gest that the return increases with education; however, only one of these is sta-
+tistically signiﬁcant at conventional levels.
+Next, we allow the returns to vary by both cohort and education. Under-
+standably, the results are less precise given the number of interaction terms in
+the model. To make the model more tractable, we use only two age categories
+instead of three: young ð18–35Þ and older ð36–65Þ. The results are summa-
+rized in ﬁgure 1 ðwhich is derived from the coefﬁcients reported in table 5,
+col. 4Þ. Perhaps the most striking feature of ﬁgure 1 is that the education proﬁle
+for returns to English is upward sloping for younger men but basically ﬂat for
+older men. Men ages 18–35 who have not completed secondary school do not
+receive any premium fortheir English skill. Moreeducated young men, though,
+do earn signiﬁcant returns to English: those who complete secondary school
+have a 26% return for speaking ﬂuent English and a 5% return for speaking
+a little English, and those who complete a bachelor’s degree earn a 40% return
+and a 17% return, respectively. For older cohorts, even low-educated men ages
+36–65 receive a sizable English premium: 43% for ﬂuent English and 22% for a
+little English ðwhich are not so different from the premia for college-educated
+young menÞ. In column 5, we present the results of estimating a less demanding
+model that combines the two lower education groups, leaving us with only two
+Azam, Chin, and Prakash
+357
+This content downloaded from 132.174.250.220 on September 02, 2017 17:45:32 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+education categories: bachelor’s degree and less. We likewise see that returns to
+English are higher for older workers and educated young workers.
+These results by age-education in columns 4 and 5 help put the earlier results
+by age alone and education alone into greater perspective. Earlier, we found
+larger returns to English for the older cohorts, with the youngest cohort earning
+only modest returns ðcol. 2Þ. We found in column 3 that the return to English
+was increasing in educational attainment, though often the interaction effects
+were weak. It is possible, though, that some of the age interactions are due to
+differences in education by age and vice versa. Columns 4 and 5 address this
+possibility and reveal that returns to English are higher for older cohorts and
+for the subset of the young who are more educated.
+Berman, Lang, and Siniver ð2003Þ and Lang and Siniver ð2009Þ ﬁnd evi-
+dence of language-skill complementarity in the Israeli context. Immigrant
+workers in high-skilled occupations received larger wage increases when they
+learned Hebrew and English ðon top of their own native language, RussianÞ.
+In India, we also ﬁnd evidence of language-skill complementarity. On the one
+hand, more experienced workers receive a higher return for English skill; this is
+based on the observation that older workers have a higher English premium
+than younger workers. On the other hand, for recent cohorts, more educated
+workers receive a higher return for English skill. It is interesting that such a
+language-education complementarity was not found for older cohorts. This is
+consistent with increasing complementarity between education and English
+Figure 1.
+Summary of returns to English by age and education for men. The returns are calculated based
+on the coefﬁcients reported in table 5, column 4.
+358
+E C O N O M I C D E V E L O P M E N T A N D C U L T U R A L C H A N G E
+This content downloaded from 132.174.250.220 on September 02, 2017 17:45:32 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+skills over time. For example, at the entry level, workers with English skill may
+have been able to ﬁnd a good job decades ago but now only the subset with
+more education would ﬁnd a good job. This could be because it has become
+more competitive to get good jobs ðbecause the supply of English-proﬁcient
+workers has expanded so muchÞ or because there are new jobs that require both
+higher education as well as English skill to perform.
+A ﬁnal demographic variable we consider is social group. We ﬁnd that the
+returns to English are signiﬁcantly lower for SCs relative to high castes, and no
+different for STs and OBCs relative to high castes.29 The negative estimated
+coefﬁcients for the interactions between SC and English skill in table 5,
+column 6, in part reﬂect the lower education of SCs relative to the high castes,
+because once we allow for age-education-speciﬁc effects of English skill in col-
+umn 7, their magnitude decreases. However, a signiﬁcant negative coefﬁcient
+remains for the interaction between SC and ﬂuent English; the point estimate
+suggests that STs who are ﬂuent in English earn a 14% lower return.
+2. By Geographic Variables
+In table 6, we allow the returns to English to vary by urban residence, district
+historical English prevalence, district historical linguistic heterogeneity, and
+district IT presence.30 We view the coefﬁcients for these interactions as descrip-
+tive, as these geographic variables are correlated with numerous variables along
+which the returns to English might differ.
+First, we consider urban/rural residence. To the extent that jobs rewarding
+English tend to be located in cities ðwhere higher levels of government, multi-
+national ﬁrms, or information technology ﬁrms tend to be locatedÞ, all else
+equal, we mightexpect higherreturns to English in urban areas. However, urban
+areas also tend to have a larger supply of English-proﬁcient workers ðboth be-
+cause urban schools produce more English speakers than rural schools, and be-
+cause cities may attract English speakers from elsewhereÞ, so it is an empirical
+question whether urban areas do have higher returns to English. In table 6, col-
+umn 2, we ﬁnd no evidence of a differential return to English by urban/rural
+residence for men.
+Second, we allow the returns to English to vary by historical English prev-
+alence. We measure this as the share ðfrom 0 to 1Þ of the population reporting
+English as a mother tongue or a second language in the individual’s district of
+29 The interactions with STs are imprecisely estimated, though, because STs are only a small share
+ðabout 10%Þ of the population and therefore our sample.
+30 Note that the main effects of these variables are controlled for in our regressions via the urban
+dummy and district ﬁxed effects.
+Azam, Chin, and Prakash
+359
+This content downloaded from 132.174.250.220 on September 02, 2017 17:45:32 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+TABLE 6
+HETEROGENEITY IN EFFECT OF ENGLISH-SPEAKING ABILITY ON MALE WAGES BY GEOGRAPHIC VARIABLES
+Base
+ð1Þ
+Urban/Rural
+ð2Þ
+1961 English
+Prevalence
+ð3Þ
+1961 Linguistic
+Heterogeneity
+ð4Þ
+2003 IT
+Presence
+ð5Þ
+All Four Geographical
+Variables
+ð6Þ
+ð6Þ 1 Age-Education
+Interactions
+ð7Þ
+Fluent English
+.345***
+.361***
+.374***
+.358***
+.413***
+.387***
+.170**
+ð.0301Þ
+ð.0523Þ
+ð.0323Þ
+ð.0311Þ
+ð.0395Þ
+ð.0543Þ
+ð.0682Þ
+Little English
+.129***
+.135***
+.136***
+.129***
+.130***
+.125***
+2.0505**
+ð.0186Þ
+ð.0256Þ
+ð.0191Þ
+ð.0189Þ
+ð.0228Þ
+ð.0271Þ
+ð.0231Þ
+Fluent English × urban
+2.028
+.0433
+.0292
+ð.0537Þ
+ð.0561Þ
+ð.0563Þ
+Little English × urban
+2.015
+2.00298
+2.0574*
+ð.0286Þ
+ð.0309Þ
+ð.0307Þ
+Fluent English × district share English
+21.783***
+21.340***
+21.456***
+ð.396Þ
+ð.435Þ
+ð.440Þ
+Little English × district share English
+21.222***
+21.379***
+21.435***
+ð.280Þ
+ð.318Þ
+ð.301Þ
+Fluent English × district linguistic heterogeneity
+2.254**
+2.119
+2.109
+ð.103Þ
+ð.104Þ
+ð.104Þ
+Little English × district linguistic heterogeneity
+2.0544
+2.0118
+2.0095
+ð.0692Þ
+ð.0725Þ
+ð.0690Þ
+Fluent English × district has IT
+2.147***
+2.0981**
+2.0685
+ð.0433Þ
+ð.0472Þ
+ð.0466Þ
+Little English × district has IT
+2.00541
+.0390
+.0546*
+ð.0303Þ
+ð.0344Þ
+ð.0324Þ
+Note. The sample consists of men ages 18–65 who reported wage and salary work from the 2005 India Human Development Survey ð32,445 observations in all columns except
+cols. 3, 4, 6, and 7, which have 31,919 observations due to lack of 1961 census language information for a few districtsÞ. Each column reports the results of a separate regression
+that also controls for the variables in table 3, col. 6, speciﬁcation. In column 7, we start with the column 6 speciﬁcation and control for age-education-speciﬁc effects of English skill
+and dummies for being age 36–50 and one for being 51–65 as in table 5, column 5. English prevalence is measured as the share ðfrom 0 to 1Þ of the individual’s district population
+reporting English as a mother tongue or a second language in the 1961 census. Linguistic heterogeneity is measured using 1 minus the Herﬁndahl index of mother tongues in the
+individual’s district, i.e., 1 2 ox2
+l , where l indexes language and x is the share of the individual’s district population reporting l as the mother tongue in the 1961 census ðvaries from
+0 to 1, with 1 being the most heterogeneousÞ. IT presence is measured as a dummy variable indicating whether the individual’s district had any IT ﬁrm headquarters or branch
+according to the 2003 National Association of Software and Service Companies ðNASSCOMÞ directory. Robust standard errors are shown in parentheses. IT 5 informa-
+tion technology.
+* p ≤.10.
+** p ≤.05.
+*** p ≤.01.
+360
+This content downloaded from 132.174.250.220 on September 02, 2017 17:45:32 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+residence according to the 1961 census.31 Although districts with more wide-
+spread English in 1961 continue to have more widespread English today ðas
+noted in Sec. II.A.Þ, they have signiﬁcantly lower estimated returns to English
+ðtable 6, col. 3Þ.32 This is consistent with the returns to English being lower in
+places where the supply of English-proﬁcient workers is higher.
+Third, we allow the returns to English to vary by historical linguistic hetero-
+geneity. We use the measure in Clingingsmith ð2007Þ, which is 1 minus the
+Herﬁndahl index of mother tongues in the individual’s district, where each lan-
+guage’s share of the population forming the Herﬁndahl index is from the 1961
+census.33 Thus, it can vary from 0 to 1, with higher values indicating less
+concentration ði.e., greater diversity of language in one’s districtÞ. Although
+districts that were more linguistically diverse in 1961 have more widespread
+English today, they have lower estimated returns to ﬂuent English ðtable 6,
+col. 4Þ.34 But this differential return disappears once we also control for histor-
+ical English prevalence ðcols. 6 and 7Þ. Thus, while English skill may well be
+especially valuable in linguistically diverse places, these places tend to have more
+English speakers ðin part because English is more likely to be taught in schoolsÞ,
+such that their price of English skill is not higher.
+Finally, we look at heterogeneity in returns by IT presence. We measure this
+as a dummy variable indicating whether the individual’s district had any IT
+ﬁrm headquarters or branch according to the 2003 National Association of
+Software and Service Companies ðNASSCOMÞ directory.35 Although districts
+with an IT ﬁrm have more widespread English, they have signiﬁcantly lower
+estimated returns to ﬂuent English ðtable 6, col. 5Þ. The IT interaction effects
+decrease in magnitude with the addition of interactions of English skill with
+the other geographic variables and age education ðcols. 6 and 7Þ. These results
+are consistent with IT ﬁrms choosing to locate in districts where English-
+proﬁcient and educated workers are in greater supply, as Shastry ð2012Þ has
+found.
+31 We are very grateful to David Clingingsmith for sharing the 1961 census district-level language
+data with us. In our sample of male wage earners, the English prevalence measure has a mean of
+0.028 ðSD of 0.032Þ and varies from 0.0006 to 0.234.
+32 Note we have demeaned the variables, so the coefﬁcients for “Fluent English” and “Little English”
+reﬂect the returns computed at the average English prevalence.
+33 We are very grateful to David Clingingsmith for sharing the district linguistic heterogeneity data
+with us. In our sample of male wage earners, linguistic heterogeneity has a mean of 0.34 ðSD of
+0.21Þ and varies from 0.007 to 0.998.
+34 Again, we have demeaned the variables, so the coefﬁcients for “Fluent English” and “Little English”
+reﬂect the returns computed at the average linguistic heterogeneity.
+35 We are very grateful to Kartini Shastry for sharing these data with us. In our sample of male wage
+earners, mean IT presence is 0.25 ðSD of 0.43Þ. We have tried different measures of IT presence, such
+as having at least a certain number of IT ﬁrms or ITemployees, and results are similar.
+Azam, Chin, and Prakash
+361
+This content downloaded from 132.174.250.220 on September 02, 2017 17:45:32 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+There isoverlapinthe fourgeographic variables,andincolumn 6weadd their
+interactions with English skill all at once. In column 7, we also control for the
+age-education-speciﬁc effects of English skill. We continue to ﬁnd signiﬁcant
+negative coefﬁcients for the interactions between district English prevalence
+and individual English ability. The point estimates imply that a district with
+a 1 percentage point higher share of the population speaking English in 1961
+has a 1.4 percentage point lower return to English ðﬂuent or a littleÞ. These re-
+sults are consistent with an important role for the supply of English-proﬁcient
+speakers. The growth in the supply of English-proﬁcient workers has been espe-
+cially fast in recent decades and might be a factor behind the more limited returns
+that we estimated for young workers ðages 18–35Þ relative to older workers.
+C. Results for Women
+Thus far, we have focused on the returns to English for men. While we are as
+interested in quantifying the returns to English for women, two reasons led us
+to focus on men. First, selective participation in wage employment is a more
+serious problem for women. Only 22% of women work in a wage-and-salary
+job, compared to 54% of men. Participation in wage employment is more sen-
+sitive to English ability for women than men: table A2, column 4 ðavailable in
+the online version of the journalÞ, suggests that women who are ﬂuent in En-
+glish are 17 percentage points more likely to be in wage employment relative to
+women with no English ability, and women who speak a little English are 4 per-
+centage points more likely. Second, we do not have a convincing methodology
+for ﬁxing the sample selection bias for women. For men, we addressed it by ex-
+amining household-level income and consumption as outcomes in place of
+wages. While the analysis for men suggests that sample selection bias is min-
+imal, this result may not necessarily carry over towomen. Therefore, in this sub-
+section, we discuss results for women with the caveat that bias from selective
+participation in wage employment could be present ðalong with the other biases
+mentioned in Sec. IIIÞ.
+Table 7 presents select estimation results for female wage earners.36 In col-
+umn 1, after controlling for age, social group, schooling, urban dummy, dis-
+trict ﬁxed effects, and proxies for ability, we ﬁnd that women who are ﬂuent in
+English earn 22% more relative to women with no English ability, and women
+who speak a little English earn 10% more.37 In column 2, we ﬁnd evidence of
+36 More detailed tables of estimation results for women, paralleling tables 3, 5, and 6 for men, are
+available from the authors.
+37 Although the point estimates of the returns to English are lower for women than men, it should be
+noted that these estimates are imprecise. Based on pooled regressions in which we allow returns to
+English to vary by sex, we cannot reject that the returns for women and men are equal.
+362
+E C O N O M I C D E V E L O P M E N T A N D C U L T U R A L C H A N G E
+This content downloaded from 132.174.250.220 on September 02, 2017 17:45:32 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+skill-language complementarity. Older and more educated women have higher
+returns to English. Among young women with English skill, only those who
+are educated earn a positive return for their English skill, so the complemen-
+tarity between English skills and education appears to have strengthened over
+time for women. In column 3, we ﬁnd that lower castes receive lower returns
+to English even after allowing for returns to English to differ by age education.
+In column 4, we ﬁnd that historical English prevalence reduces the returns to
+English.
+TABLE 7
+EFFECT OF ENGLISH-SPEAKING ABILITY ON FEMALE WAGES
+Base
+ð1Þ
+Age-
+Education
+ð2Þ
+Social Group 1
+Age-Ed. Interactions
+ð3Þ
+Geography 1 Age-Ed.
+Interactions
+ð4Þ
+Variable 1
+Age 36–65
+ST
+Urban
+Variable 2
+BA
+SC
+English prevalence
+Variable 3
+OBC
+Linguistic heterogeneity
+Variable 4
+IT presence
+Fluent English
+.223***
+2.116
+2.0441
+2.214*
+ð.0775Þ
+ð.106Þ
+ð.117Þ
+ð.127Þ
+Little English
+.100**
+2.093*
+.0516
+2.0840
+ð.0511Þ
+ð.0523Þ
+ð.0712Þ
+ð.0566Þ
+Fluent English × variable 1
+.602***
+.0255
+.253*
+ð.185Þ
+ð.139Þ
+ð.150Þ
+Little English × variable 1
+.533***
+.135
+.133*
+ð.0893Þ
+ð.124Þ
+ð.0734Þ
+Fluent English × variable 2
+.663***
+2.123
+22.116*
+ð.194Þ
+ð.151Þ
+ð1.270Þ
+Little English × variable 2
+.381**
+2.235***
+23.951***
+ð.168Þ
+ð.0797Þ
+ð.907Þ
+Fluent English × variable 3
+2.101
+.212
+ð.126Þ
+ð.231Þ
+Little English × variable 3
+2.228***
+.319**
+ð.0750Þ
+ð.158Þ
+Fluent English × variable 4
+.0240
+ð.121Þ
+Little English × variable 4
+2.0155
+ð.0815Þ
+Fluent English × BA × age 36–65
+2.997***
+Not reported
+Not reported
+ð.332Þ
+Little English × BA × age 36–65
+2.591**
+Not reported
+Not reported
+ð.289Þ
+Note. The sample consists of women ages 18–65 who reported wage and salary work from the 2005 India
+Human Development Survey ð12,205 observations in all columns except column 4, which has 12,093 ob-
+servations due to lack of 1961 census language information for a few districtsÞ. Each column reports the
+results of a separate regression. Column 1 uses the same speciﬁcation as table 3, column 6; column 2 the
+same as table 5, column 5; column 3 the same as table 5, column 7; and column 4 the same as table 6, col-
+umn 7. Robust standard errors are shown in parentheses.
+* p ≤.10.
+** p ≤.05.
+*** p ≤.01.
+Azam, Chin, and Prakash
+363
+This content downloaded from 132.174.250.220 on September 02, 2017 17:45:32 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+The most striking observation from table 7 is how qualitatively similar the
+men’s and women’s results are. One difference worth noting, though, is that
+the urban dummy, historical linguistic heterogeneity, and IT presence vari-
+ables tend to have positive interaction effects with English skill for women,
+but negative ones for men. For example, while returns to English do not vary
+by urban/rural residence for men, they do for women. Indeed, we ﬁnd that,
+on average, women with English ability do not earn more than women with
+no English ability in rural areas, but they do in urban areas ðin fact, the point
+estimate of urban women’s returns to English are at least as large as men’sÞ. We
+leave a closer examination of these gender differences in returns to English to
+future work.
+D. Role of Occupation and Industry
+One mechanism through which English skill might affect wages is occupational
+choice. Due to India’s colonial past, many jobs in government and education
+require English. Also, due to the way science, engineering, and other technical
+ﬁelds are typically taught in universities ðin EnglishÞ and due to the growth of
+international trade and outsourcing, many modern, technical jobs also require
+English to enter. But these jobs—which include government ofﬁcials, teachers,
+engineers, physicians, and managers—tend to be attractive relative to other jobs
+in the economy. Thus, it is of interest to ask how much of the estimated returns
+to English is accounted for by occupational choice alone.
+We decompose the overall returns to English into within- and between-
+occupation components by augmenting our base model with detailed occupa-
+tion dummy variables and comparing these returns to the returns from the
+base model.38 We ﬁnd that for men, after controlling for occupation dummies,
+the return to ﬂuent English decreases to 22% and the return to a little English
+decreases to 7% ðsee table A2, col. 2Þ. That is, even among wage workers
+within the same occupation, there is signiﬁcantly higher pay for those with
+English skill. According to the point estimates in column 2, occupation alone
+accounts for about one-third of the total estimated coefﬁcient ðfrom the base
+model in col. 1Þ for “ﬂuent English” and about half of that for “little English.”
+Thus, a majority of the overall returns to English is left unexplained, suggest-
+ing that the English premium is not merely an occupation premium. In col-
+umn 3, we ﬁnd that industry choice plays a smaller role in the returns to En-
+glish than occupational choice.39 In column 4, we control for both occupation
+38 For wage workers, the IHDS codes occupation into approximately 90 categories.
+39 We added detailed industry dummies—there are about 80 industry codes—to the base model and
+observed less reduction in the estimated coefﬁcients for English skill.
+364
+E C O N O M I C D E V E L O P M E N T A N D C U L T U R A L C H A N G E
+This content downloaded from 132.174.250.220 on September 02, 2017 17:45:32 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+and industry and still ﬁnd a larger within than between component for the
+overall returns to English.
+In the right panel of table A2, we present the decompositions for women.
+Women’s between-occupation share of the overall returns to English is greater
+than men’s, which is consistent with more sorting into occupations on the ba-
+sis of English skill for women.
+VI. Conclusion
+In India, the raw difference in earnings between people who speak English and
+people who do not is large, but this overstates the economic value of English
+because higher ability people are more likely to be proﬁcient in English. In this
+study, we take advantage of a rich data set to mitigate this ability bias. After
+controlling for age, social group, schooling, geography, and proxies for ability,
+we ﬁnd that there are large, statistically signiﬁcant returns to English-language
+skills in India. Hourly wages are on average 34% higher for men who speak
+ﬂuent English and 13% higher for men who speak a little English relative to
+men who speak no English. For women, the average returns are 22% for ﬂuent
+English and 10% for a little English. There is considerable heterogeneity in
+the returns to English. More experienced and more educated workers receive
+higher returns to English. The complementarity between English skills and
+education appears to have strengthened over time—only the more educated
+among young workers earn a premium for English skill, whereas older workers
+across all education groups do.
+In India and many other developing countries, there is active debate over
+whether to promote the local language or a more globally accepted language
+like English in schools. While promoting the local language might make pri-
+mary schooling more accessible and strengthen national identity, it may reduce
+economic opportunities because of the special role of English in the global
+economy. While we do ﬁnd a positive association between English proﬁciency
+and earnings in India on average, we also ﬁnd that returns are considerably
+more limited for more recent entrants into the labor market. Indeed, among
+such workers who have not completed their secondary schooling, those who
+are more English proﬁcient do not earn more. For the marginal worker decid-
+ing whether to invest in English skill, the relevant return would be the one
+estimated for the recent entrants. Thus, if we took our estimates as reﬂective
+of the causal returns to English—see Section III for the caveats—the implica-
+tion is that providing English classes to adults may not necessarily raise their
+wages ðas English skill raises wages only when coupled with high educationÞ.
+Even without the causal interpretation, our results highlight that individuals
+Azam, Chin, and Prakash
+365
+This content downloaded from 132.174.250.220 on September 02, 2017 17:45:32 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+and policy makers should consider language-skill complementarities when
+making human capital investment decisions.
+This study is the ﬁrst to use a nationally representative sample to estimate
+the economic returns to English-language skills in India. Besides providing es-
+timates of the average wage differences by English proﬁciency, we uncovered
+some patterns in the returns that were previously undocumented for India and
+worth further exploration, such as the language-skill complementarity, lower
+returns for scheduled castes, and lower returns in places with greater historical
+English prevalence. Another area for future work is the impact of English-
+language skills on social outcomes; the effects of English-language skills can ex-
+tend beyond the labor market, and in ways that dramatically affect society.
+References
+Altonji, Joseph G., Todd E. Elder, and Christopher R. Taber. 2005. “Selection on Ob-
+served and Unobserved Variables: Assessing the Effectiveness of Catholic Schools.”
+Journal of Political Economy 113, no. 1:151–84.
+Angrist, Joshua, Aimee Chin, and Ricardo A. Godoy. 2008. “Is Spanish-Only School-
+ing Responsible for the Puerto Rican Language Gap?” Journal of Development Eco-
+nomics 85 ðFebruaryÞ: 105–8.
+Angrist, Joshua, and Victor Lavy. 1997. “The Effect of a Change in Language of In-
+struction on the Returns to Schooling in Morocco.” Journal of Labor Economics
+15 ðJanuaryÞ: S48–S76.
+Berman, Eli, Kevin Lang, and Erez Siniver. 2003. “Language-Skill Complementarity:
+Returns to Immigrant Language Acquisition.” Labour Economics 10 ðJuneÞ: 265–90.
+Bleakley, Hoyt, and Aimee Chin. 2004. “Language Skills and Earnings: Evidence from
+Childhood Immigrants.” Review of Economics and Statistics 86 ðMayÞ: 481–96.
+Card, David. 1999. “The Causal Effect of Education on Earnings.” In Handbook of
+Labor Economics, ed. Orley Ashenfelter and David Card. Amsterdam: Elsevier.
+Clingingsmith, David. 2007. “Bilingualism, Language Shift, and Industrialization in
+Mid-20th Century India.” Unpublished manuscript, Weatherhead School of Man-
+agement, Case Western Reserve University.
+Desai, Sonalde, Reeve Vanneman, and NCAER. 2009. India Human Development
+Survey ðIHDSÞ. Data ﬁle, ver. ICPSR22626-v5. Ann Arbor, MI: Inter-University
+Consortium for Political and Social Research.
+Dustmann, Christian, and Arthur van Soest. 2002. “Language and the Earnings of
+Immigrants.” Industrial and Labor Relations Review 55, no. 3:473–92.
+He, Fang, Leigh L. Linden, and Margaret Macleod. 2008. “How to teach English in
+India: Testing teh Relative Productivity of Instruction Methods within the Pratham
+English LAnguage Education Program.” Unpublished manuscript, Columbia Uni-
+versity.
+366
+E C O N O M I C D E V E L O P M E N T A N D C U L T U R A L C H A N G E
+This content downloaded from 132.174.250.220 on September 02, 2017 17:45:32 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+Kapur, Shilpi, and Tanika Chakraborty. 2008. “English Language Premium: Evidence
+from a Policy Experiment in India.” Unpublished manuscript, Department of Eco-
+nomics, Washington University, St. Louis.
+Lang, Kevin, and Erez Siniver. 2009. “The Return to English in a Non-English Speak-
+ing Country: Russian Immigrants and Native Israelis in Israel.” BE Journal of Eco-
+nomic Analysis and Policy 9, no. 1.
+Levinsohn, James. 2007. “Globalization and the Returns to Speaking English in South
+Africa.” In Globalization and Poverty, ed. Ann Harrison. Chicago: University of
+Chicago Press.
+Munshi, Kaivan, and Mark Rosenzweig. 2003. “Traditional Institutions Meet the
+Modern World: Caste, Gender, and Schooling Choice in a Globalizing Economy.”
+BREAD Working Paper no. 38, Bureau for Research and Economic Analysis of De-
+velopment, Chapel Hill, NC.
+———. 2006. “Traditional Institutions Meet the Modern World: Caste, Gender, and
+Schooling Choice in a Globalizing Economy.” American Economic Review 96
+ðSeptemberÞ: 1225–52.
+Roy, Joydeep. 2004. “Can Changing Academic Standards Affect Educational Out-
+comes? Evidence from a Policy Experiment in India.” Unpublished manuscript,
+Georgetown University.
+Saiz, Albert, and Elena Zoido. 2005. “Listening to What the World Says: Bilingualism
+and Earnings in the United States.” Review of Economics and Statistics 87 ðJanuaryÞ:
+523–38.
+Shastry, Gauri K. 2012. “Human Capital Response to Globalization: Education and
+Information Technology in India.” Journal of Human Resources 47, no. 2:287–330.
+Azam, Chin, and Prakash
+367
+This content downloaded from 132.174.250.220 on September 02, 2017 17:45:32 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).

@@ -1,14 +1,15 @@
-# Preparación e investigación · E4.2.05
+# Investigación · E4.2.05
 
-31/10/2026. Texto todavía no redactado; no publicación ni revisión final. Tres imágenes originales propias vistas individualmente y mosaico, formatos exactos WebP<250000 B.
+Mark Granovetter, The Strength of Weak Ties, 1973, transcripción universitaria MIT
+https://smg.media.mit.edu/classes/library/granovetter.weak.ties/granovetter.html
+Resumen, introducción, definición y pasajes de puentes locales leídos. Lectura parcial; PDF escaneado archivado sin texto extraíble, no íntegro leído.
 
-## Lecturas parciales
-
+Rajkumar, Saint-Jacques, Bojinov, Brynjolfsson y Aral, A causal test of the strength of weak ties, Science, 2022
 https://ide.mit.edu/wp-content/uploads/2022/09/abl4476.pdf
-Resumen y comienzo de introducción leídos por web; paperScience377(6612)1304–1310,16/09/2022. PDF incluye antes del título bibliografía de artículo ajeno, no utilizada. Experimento LinkedIn, no prueba de toda red o sector.
+Resumen y pp. 1305–1306: recomendaciones aleatorizadas, medidas y estimación IV leídos. Alcance LinkedIn 2015/2019; transmisión registrada no prueba de recomendación personal. Sin texto íntegro o generalización universal.
 
-## Próximo paso
-
-- Leer pasajes pertinentes Granovetter1973 descargado, no íntegro leído
-- Leer métodos y límites de Rajkumar2022, no extrapolar población/plataforma
-- Texto y revisión final sin empleo garantizado o contactos tratados como medio obligatorio
+Excluido:
+- Todo vínculo débil es puente o toda relación débil supera a una cercana.
+- Experimento asigna ofertas o demuestra que cada contacto recomienda personalmente.
+- Más contactos al azar garantizan empleo o resultados para todo país/sector.
+- Muestras, testimonios de contratación o referencias reales inventados.

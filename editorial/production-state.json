@@ -1,93 +1,155 @@
 {
   "automation_id": "producci-n-editorial-mee-840",
   "mode": "continuous_blocks_of_three",
-  "completed_at_start": 498,
+  "completed_at_start": 503,
   "current_block": [
-    499,
-    500,
-    501
+    505,
+    506,
+    507
   ],
   "current_ids": [
-    "E4.2.04",
-    "E4.2.05",
-    "E4.2.06"
+    "E4.2.10",
+    "E4.2.11",
+    "E4.2.12"
   ],
   "area": "trabajo",
   "topic": "inversion-personal",
-  "phase": "images_ready_text_sources_pending",
+  "phase": "prepared_505_507_title_pending_501",
   "next_after_block": [
+    508,
+    509,
+    510
+  ],
+  "updated_at": "2026-10-31T02:38:27.739033+00:00",
+  "last_completed_block": [
     502,
     503,
     504
   ],
-  "updated_at": "2026-10-31T01:57:31.882640+00:00",
-  "last_completed_block": [
-    496,
-    497,
-    498
-  ],
-  "notes": "498/840 publicadas y verificadas; Sacrificio Estratégico 15/15, Inversión Personal 3/15 y 33 tandas completas. 499–501 con nueve originales listos y revisados; fuentes pendientes de revisión final, sin texto. No duplicar imágenes. Después 502–504.",
+  "notes": "503/840 terminadas, 1509 imágenes originales públicas, 0 en curso o borradores WordPress y 337 pendientes. Inversión Personal 8/15,33 tandas completas. Reanudar **505–507 / E4.2.10–E4.2.12**, Trabajo → Inversión Personal, tanda 34/56, entradas 10–12/15: nueve originales propios ya generados y revisados, briefs y preparación de fuentes conservados; faltan textos y revisión final. Después 508–510. **501 / E4.2.06** conserva el título y slug originales y sus tres imágenes; texto de 1547 palabras, sin publicar porque «mayor retorno para el talento hispano» no está verificado. Ya se solicitó una corrección precisa del título; no repetir la pregunta ni publicar sin resolverla. Comprobar si llegó respuesta antes de reanudar; mientras siga pendiente, continuar trabajo independiente.",
   "last_backup": {
-    "directory": "/data/mee-backups/produccion-840-incremento-496-498-20261031",
-    "completed_articles": 498,
-    "sql_bytes": 20040791,
+    "directory": "/data/mee-backups/produccion-840-incremento-502-504-20261031",
+    "completed_articles": 503,
+    "max_published_number": 504,
+    "published_ranges": [
+      [
+        1,
+        500
+      ],
+      [
+        502,
+        504
+      ]
+    ],
+    "unpublished_gaps": [
+      501
+    ],
+    "sql_bytes": 20279798,
     "upload_files": 66,
-    "uploads_bytes": 2175730,
+    "uploads_bytes": 2460620,
     "checksums_verified": true,
     "archive_verified": true,
-    "overlays": 153,
-    "chain_contiguous": true,
+    "overlays": 155,
+    "chain_contiguous": false,
+    "published_media_coverage_complete": true,
     "restore_test": false
   },
-  "last_local_backup": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Editorial_Preparacion_499-501_2026-10-31_incremental.zip",
+  "last_local_backup": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Editorial_499-500_y_502-504_2026-10-31_incremental.zip",
   "completed_this_run": [
-    493,
-    494,
-    495,
-    496,
-    497,
-    498
+    499,
+    500,
+    502,
+    503,
+    504
   ],
-  "run_started_with_completed": 492,
+  "run_started_with_completed": 498,
   "local_preparations": [
     {
-      "number": 499,
-      "id": "E4.2.04",
+      "id": "E4.2.06",
+      "number": 501,
       "images": 3,
       "images_visually_checked": true,
-      "article_complete": false,
+      "body_complete": true,
+      "main_words": 1547,
+      "published": false,
+      "phase": "title_review_pending",
       "sources_verified": false,
-      "published": false
+      "title_checked": false
     },
     {
-      "number": 500,
-      "id": "E4.2.05",
+      "id": "E4.2.10",
+      "number": 505,
       "images": 3,
       "images_visually_checked": true,
       "article_complete": false,
       "sources_verified": false,
-      "published": false
+      "published": false,
+      "phase": "research_preparation_images_ready"
     },
+    {
+      "id": "E4.2.11",
+      "number": 506,
+      "images": 3,
+      "images_visually_checked": true,
+      "article_complete": false,
+      "sources_verified": false,
+      "published": false,
+      "phase": "research_preparation_images_ready"
+    },
+    {
+      "id": "E4.2.12",
+      "number": 507,
+      "images": 3,
+      "images_visually_checked": true,
+      "article_complete": false,
+      "sources_verified": false,
+      "published": false,
+      "phase": "research_preparation_images_ready"
+    }
+  ],
+  "local_backup_kind": "incremental",
+  "local_backup_base": {
+    "path": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Editorial_Preparacion_499-501_2026-10-31_incremental.zip",
+    "sha256": "193048dcd0628415a420984db4dce2e1a6ef96a45b4c5a128a21e88acc789b20"
+  },
+  "storage_check": {
+    "checked_at": "2026-10-31T02:40:47.943658+00:00",
+    "free_bytes": 10021249024,
+    "originals_and_backups_preserved": true
+  },
+  "last_run_closed_at_madrid": "2026-10-31",
+  "title_review_pending": [
     {
       "number": 501,
       "id": "E4.2.06",
+      "original_title": "Aprender idiomas: la inversión con mayor retorno para el talento hispano",
+      "proposed_title": "Aprender idiomas: cómo evaluar su retorno para el talento hispano",
+      "reason": "Ranking de mayor retorno universal no respaldado por fuentes consultadas.",
+      "user_question_pending": true,
+      "body_complete": true,
       "images": 3,
-      "images_visually_checked": true,
-      "article_complete": false,
-      "sources_verified": false,
       "published": false
     }
   ],
-  "local_backup_kind": "incremental_preparation",
-  "local_backup_base": {
-    "path": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Editorial_496-498_2026-10-31_incremental.zip",
-    "sha256": "de0fb3734c861cc5e6c514b19b53f672041fba3ee9b1ebc89689836d1208111a"
-  },
-  "storage_check": {
-    "checked_at": "2026-10-31T01:58:08.531200+00:00",
-    "free_bytes": 10701815808,
-    "originals_and_backups_preserved": true,
-    "note": "Preparación de 499–501. WordPress498 completo; seis nuevas493–498 en esta ejecución."
-  },
-  "last_run_closed_at_madrid": "2026-10-31"
+  "last_published_numbers": [
+    499,
+    500,
+    502,
+    503,
+    504
+  ],
+  "last_partial_block": {
+    "numbers": [
+      499,
+      500,
+      501
+    ],
+    "completed": [
+      499,
+      500
+    ],
+    "held": [
+      501
+    ]
+  }
 }

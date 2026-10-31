@@ -1357,3 +1357,14 @@ Capital humano: introducción Becker 1964 leída, crítica Caplan atribuida desd
 Continuar **499–501 / E4.2.04–E4.2.06**, Trabajo → Inversión Personal, tanda 34/56. Nueve originales generados, vistos individualmente y en mosaico, guardados en WebP: 3/3 por entrada. Lecturas parciales y tareas exactas en los expedientes; falta revisión final de fuentes y texto. No publicados ni contados como terminados. Reanudar fuentes/textos sin duplicar imágenes. Después 502–504.
 
 Sin cambios de arquitectura o taxonomía. Evidencias: docs/produccion/2026-10-31-bloque-496-498.md y respaldo-496-498.md.
+
+
+## Producción 499–500 y 502–504 · 31/10/2026
+
+503/840 terminadas, 1509 imágenes originales públicas, 0 en curso o borradores WordPress y 337 pendientes.
+
+499: salud general con fuentes OMS y NHLBI, sin retorno causal individual, prescripción clínica ni culpar al lector por condiciones sociales. 500: Granovetter 1973 y ensayo de LinkedIn 2022 con límites de medidas y contexto. 502: comparación descriptiva OCDE 2026 con datos 2024, grado/equivalente, 25–64 años, tiempo completo/parcial; costes separados de la prima salarial y Caplan atribuido desde ficha editorial. 503: microcredenciales, revisión OCDE 2021 identificada como histórica, enfoque europeo sin equivalencias automáticas; expectativas WEF 2025–2030 con muestra limitada a grandes empleadores. 504: presentación profesional como propuesta MEE, sin prometer audiencia, reputación o ingresos.
+
+Reanudar **505–507 / E4.2.10–E4.2.12**, Trabajo → Inversión Personal, tanda 34/56, entradas 10–12/15: nueve originales propios ya generados y revisados, briefs y preparación de fuentes conservados; faltan textos y revisión final. Después 508–510. **501 / E4.2.06** conserva el título y slug originales y sus tres imágenes; texto de 1547 palabras, sin publicar porque «mayor retorno para el talento hispano» no está verificado. Ya se solicitó una corrección precisa del título; no repetir la pregunta ni publicar sin resolverla. Comprobar si llegó respuesta antes de reanudar; mientras siga pendiente, continuar trabajo independiente.
+
+Título 501: conservar ID/slug/título del manifiesto y no publicar la afirmación no sustentada de mayor retorno; corrección propuesta «Aprender idiomas: cómo evaluar su retorno para el talento hispano», respuesta pendiente. La retención no detiene trabajo independiente. Sin cambio de taxonomía o arquitectura. Evidencia en docs/produccion/2026-10-31-bloques-499-504. md.

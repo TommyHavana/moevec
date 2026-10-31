@@ -1,16 +1,19 @@
-# Preparación e investigación · E4.2.06
+# Investigación · E4.2.06
 
-31/10/2026. Texto todavía no redactado; no publicación ni revisión final. Tres imágenes originales propias vistas individualmente y mosaico, formatos exactos WebP<250000 B.
+Azam, Chin y Prakash, The Returns to English-Language Skills in India, 2013, copia autoral
+https://www.nishithprakash.com/s/6-Returns-to-English-Language-Skills-EDCC.pdf
+Introducción pp. 335–337 leída localmente; encuesta India2005, asociaciones, heterogeneidad y límites causales explícitos. No artículo íntegro; WP2010 separado y marco empírico de esa versión leído.
 
-## Lecturas parciales
+Karpicke y Roediger, The Critical Importance of Retrieval for Learning, Science, 2008, copia autoral
+https://learninglab.psych.purdue.edu/downloads/2008/2008_Karpicke_Roediger_Science.pdf
+Resumen, planteamiento y método pp. 966–967 leídos por web. Tarea de pares de vocabulario con universitarios, sin fluidez profesional o método completo de idiomas validado.
 
-https://docs.iza.org/dp4802.pdf
-WorkingPaperIZA4802 marzo2010: portada y resumen PDFpp2–3 leídos localmente. EncuestaIndia2005 y heterogeneidad informadas por autores; sin tablas/métodos o artículo2013 íntegro leídos. FTP dio timeout; copia docs200.
+British Council, Getting started with LearnEnglish
+https://learnenglish.britishcouncil.org/getting-started
+Página oficial leída por web: recursos gratuitos por nivel y capacidades, prueba aproximada. Sin cuenta creada, prueba completada o cursos de pago recomendados; local 403 documentado.
 
-## Próximo paso
-
-- Leer datos y métodos antes de cifras, distinguir asociación y límites de identificación
-- Verificar ficha primaria publicación2013; no confundir con WP2010
-- Fuentes sobre métodos de aprendizaje y recursos gratuitos vigentes; BritishCouncil webtimeout/local403, no página examinada
-- Matizar título original: no mayor retorno universal para talento hispano
-- Texto y revisión final
+Excluido:
+- Idioma como inversión de mayor retorno universal para talento hispano: título original no respaldado; requiere revisión antes de publicar.
+- Asociación salarial India2005 como efecto causal personal o empleo garantizado.
+- Memorizar pares de vocabulario equivale a dominar un idioma profesionalmente.
+- Test orientativo de nivel como certificado oficial; lectura íntegra de estudios fingida.

@@ -2,27 +2,27 @@
 
 ## Estado actual
 
-**498/840 terminadas, 1494 imágenes originales públicas, 0 en curso o borradores WordPress y 342 pendientes**. Sacrificio Estratégico 15/15, Inversión Personal 3/15, 33 tandas completas; Comunidad 60/60.
+**503/840 terminadas, 1509 imágenes originales públicas, 0 en curso o borradores WordPress y 337 pendientes**. Tanda 34/56, Inversión Personal 8/15, 33 tandas completas; Sacrificio Estratégico 15/15 y Comunidad 60/60.
 
 Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Inicio: 492 completas. Nuevas: 493–498, seis entradas con 18 originales públicos.
+Inicio: 498 completas. Nuevas: 499–500 y 502–504, cinco entradas y quince originales públicos. 501 permanece sin publicar.
 
-Una publicación y tres adjuntos por ID. Trabajo → Inversión Personal, etiquetas inversion-personal y fundamentos. HTTP 200, H1, canonical, indexabilidad declarada, Article, índice, sitemap, cinco enlaces existentes y nueve originales/variantes comprobados. Navegación y BreadcrumbList correctos. Taxonomía de 122 nodos y siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva.
+Una publicación y tres adjuntos por ID. Categorías Trabajo → Inversión Personal; etiquetas inversion-personal y nivel Fundamentos para 499–500, Desarrollo para 502–504. HTTP 200, H1, canonical, indexabilidad declarada, Article, índice, sitemap y cinco enlaces internos existentes por pieza. Quince originales públicos, dimensiones, bytes, alt, hashes y variantes comprobados. Taxonomía 122 nodos/siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva.
 
-## Revisión del último bloque
+## Revisión
 
-Capital humano: introducción Becker 1964 leída, crítica Caplan atribuida desde ficha editorial y texto firmado, límites de portabilidad y ejemplo UE de reconocimiento profesional. Cuatro ámbitos propios de MEE, solapados, sin clasificación o escala atribuida a Bourdieu; Putnam no fingido leído. Práctica: lectura parcial Ericsson 1993 y Ericsson/Harwell 2019; metaanálisis 2014 con corrección 2018 y total 14 % de varianza, sin causalidad individual, número mágico o genética deducida del resto.
+499: salud general con fuentes OMS y NHLBI, sin retorno causal individual, prescripción clínica ni culpar al lector por condiciones sociales. 500: Granovetter 1973 y ensayo de LinkedIn 2022 con límites de medidas y contexto. 502: comparación descriptiva OCDE 2026 con datos 2024, grado/equivalente, 25–64 años, tiempo completo/parcial; costes separados de la prima salarial y Caplan atribuido desde ficha editorial. 503: microcredenciales, revisión OCDE 2021 identificada como histórica, enfoque europeo sin equivalencias automáticas; expectativas WEF 2025–2030 con muestra limitada a grandes empleadores. 504: presentación profesional como propuesta MEE, sin prometer audiencia, reputación o ingresos.
 
 ## Continuación exacta
 
-Continuar **499–501 / E4.2.04–E4.2.06**, Trabajo → Inversión Personal, tanda 34/56. Nueve originales generados, vistos individualmente y en mosaico, guardados en WebP: 3/3 por entrada. Lecturas parciales y tareas exactas en los expedientes; falta revisión final de fuentes y texto. No publicados ni contados como terminados. Reanudar fuentes/textos sin duplicar imágenes. Después 502–504.
+Reanudar **505–507 / E4.2.10–E4.2.12**, Trabajo → Inversión Personal, tanda 34/56, entradas 10–12/15: nueve originales propios ya generados y revisados, briefs y preparación de fuentes conservados; faltan textos y revisión final. Después 508–510. **501 / E4.2.06** conserva el título y slug originales y sus tres imágenes; texto de 1547 palabras, sin publicar porque «mayor retorno para el talento hispano» no está verificado. Ya se solicitó una corrección precisa del título; no repetir la pregunta ni publicar sin resolverla. Comprobar si llegó respuesta antes de reanudar; mientras siga pendiente, continuar trabajo independiente.
 
 ## Copias y límites
 
-VPS hasta 498, SQL completo y 66 medios nuevos; hashes y miembros verificados, 153 incrementos consecutivos. Copia local y fuente privada al cierre. Sin nueva prueba de arranque completo. Producción continua autorizada sin confirmaciones; WordPress es el estado real.
+VPS con 503 publicadas, SQL completo, 66 medios nuevos en el último incremento; 155 incrementos de medios en la cadena y hueco 501 no publicado registrado. Cobertura de medios publicados completa. Hashes y miembros verificados; sin nueva prueba completa de arranque. Copia local incremental y fuente privada al cierre. Producción continua autorizada; WordPress es el estado real.
 
 ## Página de apoyo, donaciones y publicidad · 29/10/2026
 

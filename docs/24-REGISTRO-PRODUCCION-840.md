@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-31T01:56:38+00:00.
+Comprobado en WordPress: 2026-10-31T02:40:19+00:00.
 
-**498/840 terminadas · 0 en curso · 342 pendientes.**
+**503/840 terminadas · 0 en curso · 337 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -510,12 +510,12 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 496 | 34/56 · 1/15 | E4.2.01 | Capital humano: la inversión que no te pueden expropiar | terminada | 3/3 | [Leer](https://moevec.org/blog/capital-humano-que-es/) |
 | 497 | 34/56 · 2/15 | E4.2.02 | Los cuatro capitales personales: humano, social, financiero y de salud | terminada | 3/3 | [Leer](https://moevec.org/blog/cuatro-capitales-personales/) |
 | 498 | 34/56 · 3/15 | E4.2.03 | Práctica deliberada: cómo se construye la excelencia | terminada | 3/3 | [Leer](https://moevec.org/blog/practica-deliberada/) |
-| 499 | 34/56 · 4/15 | E4.2.04 | Invertir en salud: el activo del que dependen todos los demás | pendiente | 0/3 | — |
-| 500 | 34/56 · 5/15 | E4.2.05 | Red de contactos: el valor de los lazos débiles | pendiente | 0/3 | — |
+| 499 | 34/56 · 4/15 | E4.2.04 | Invertir en salud: el activo del que dependen todos los demás | terminada | 3/3 | [Leer](https://moevec.org/blog/invertir-en-salud/) |
+| 500 | 34/56 · 5/15 | E4.2.05 | Red de contactos: el valor de los lazos débiles | terminada | 3/3 | [Leer](https://moevec.org/blog/red-de-contactos-lazos-debiles/) |
 | 501 | 34/56 · 6/15 | E4.2.06 | Aprender idiomas: la inversión con mayor retorno para el talento hispano | pendiente | 0/3 | — |
-| 502 | 34/56 · 7/15 | E4.2.07 | Universidad: ¿sigue compensando? Lo que dicen los datos | pendiente | 0/3 | — |
-| 503 | 34/56 · 8/15 | E4.2.08 | Certificaciones y microcredenciales: atajos reales o humo | pendiente | 0/3 | — |
-| 504 | 34/56 · 9/15 | E4.2.09 | Invertir en tu marca personal sin postureo | pendiente | 0/3 | — |
+| 502 | 34/56 · 7/15 | E4.2.07 | Universidad: ¿sigue compensando? Lo que dicen los datos | terminada | 3/3 | [Leer](https://moevec.org/blog/universidad-sigue-compensando/) |
+| 503 | 34/56 · 8/15 | E4.2.08 | Certificaciones y microcredenciales: atajos reales o humo | terminada | 3/3 | [Leer](https://moevec.org/blog/certificaciones-microcredenciales/) |
+| 504 | 34/56 · 9/15 | E4.2.09 | Invertir en tu marca personal sin postureo | terminada | 3/3 | [Leer](https://moevec.org/blog/marca-personal-sin-postureo/) |
 | 505 | 34/56 · 10/15 | E4.2.10 | Lectura como inversión: cómo leer más y mejor | pendiente | 0/3 | — |
 | 506 | 34/56 · 11/15 | E4.2.11 | Presupuesto de inversión personal: cuánto destinar a formarte | pendiente | 0/3 | — |
 | 507 | 34/56 · 12/15 | E4.2.12 | Invertir en ti en Cuba: aprender con recursos limitados | pendiente | 0/3 | — |
