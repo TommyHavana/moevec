@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-31T05:27:45+00:00.
+Comprobado en WordPress: 2026-10-31T05:41:32+00:00.
 
-**538/840 terminadas · 0 en curso · 302 pendientes.**
+**541/840 terminadas · 0 en curso · 299 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -552,9 +552,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 538 | 36/56 · 13/15 | E4.4.13 | Primer paso como inversor: invertir en lo que conoces | terminada | 3/3 | [Leer](https://moevec.org/blog/primer-paso-como-inversor/) |
 | 539 | 36/56 · 14/15 | E4.4.14 | Techo salarial: cuándo dejar el empleo y cuándo no | terminada | 3/3 | [Leer](https://moevec.org/blog/techo-salarial-dejar-el-empleo/) |
 | 540 | 36/56 · 15/15 | E4.4.15 | Historias de escalada documentadas: cómo verificar un caso de éxito | terminada | 3/3 | [Leer](https://moevec.org/blog/verificar-caso-de-exito/) |
-| 541 | 37/56 · 1/15 | E4.5.01 | Elegir socio: tan importante como elegir el negocio | pendiente | 0/3 | — |
-| 542 | 37/56 · 2/15 | E4.5.02 | Habilidades complementarias: el socio que hace lo que tú no sabes | pendiente | 0/3 | — |
-| 543 | 37/56 · 3/15 | E4.5.03 | Valores compartidos: lo que no se ve en un currículum | pendiente | 0/3 | — |
+| 541 | 37/56 · 1/15 | E4.5.01 | Elegir socio: tan importante como elegir el negocio | terminada | 3/3 | [Leer](https://moevec.org/blog/elegir-socio/) |
+| 542 | 37/56 · 2/15 | E4.5.02 | Habilidades complementarias: el socio que hace lo que tú no sabes | terminada | 3/3 | [Leer](https://moevec.org/blog/habilidades-complementarias/) |
+| 543 | 37/56 · 3/15 | E4.5.03 | Valores compartidos: lo que no se ve en un currículum | terminada | 3/3 | [Leer](https://moevec.org/blog/valores-compartidos-socios/) |
 | 544 | 37/56 · 4/15 | E4.5.04 | Reparto de participaciones: cómo dividir la tarta sin romperla | pendiente | 0/3 | — |
 | 545 | 37/56 · 5/15 | E4.5.05 | Socio capitalista y socio trabajador: derechos y expectativas | pendiente | 0/3 | — |
 | 546 | 37/56 · 6/15 | E4.5.06 | Pacto de socios: las diez cláusulas imprescindibles | pendiente | 0/3 | — |

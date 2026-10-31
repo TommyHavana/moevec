@@ -1430,3 +1430,12 @@ Continuar **538–540 / E4.4.13–E4.4.15**, Trabajo → Escalabilidad Social, t
 538: CNMV, decisiones de inversión, glosario de diversificación y presentación de proveedores de financiación participativa; F215 referenciado sin publicar umbrales ni régimen completo bloqueado en EUR-Lex. 539: Atlanta Fed actualizado 08/10/2026 para septiembre2026, 4,7% switchers y3,4% stayers, media móvil3meses de medianas variación horaria nominal12meses; definiciones y límites CPS, sin causalidad ni traslado a otros países. 540: guía de Registradores pp14–17 y sede sobre cuentas; sin expediente empresarial solicitado, testimonios distintos de prueba y criterio MEE de documentación/consentimiento del brief.
 
 Continuar **541–543 / E4.5.01–E4.5.03**, Trabajo → Selección de Socios, tanda 37/56, entradas 1–3/15. Lecturas iniciales de Wasserman conservables desde fuentes primarias; faltan expedientes, imágenes, texto y revisión. Después, 544–546 / E4.5.04–E4.5.06. 501 / E4.2.06 y 512 / E4.3.02 siguen retenidas por sus títulos, con texto y 3 imágenes cada una, sin publicación. Preguntas previas pendientes; no repetirlas ni interpretar silencio como aprobación.
+
+
+## Producción 541–543 ·31/10/2026
+
+541/840 terminadas, 1623 imágenes originales públicas, 0 en curso o borradores WordPress y 299 pendientes.
+
+541–543: introducción oficial Wasserman2012 pp4y8 impresas; UBC pregunta8 y extracto firmado HBS04/04/2012 sobre escenarios adversos. Lecturas parciales, sin libro íntegro ni porcentaje universal de éxito; datos históricos declarados casi10000fundadores de tecnología/ciencias de la vida. Mapa de funciones, prueba y diez preguntas son propuestas MEE, sin validación predictiva ni diagnóstico. Se corrigió un enlace a E2.6.13 aún pendiente, sustituyéndolo por E4.4.12 publicada, en los tres artículos; nuevas verificaciones públicas y nuevo SQL coherente tras corregirlo.
+
+Continuar **544–546 / E4.5.04–E4.5.06**, Trabajo → Selección de Socios, tanda 37/56, entradas 4–6/15. Investigación jurídica parcial: LSC consolidada03/01/2025, artículos28–29,58,86–89,93,188,198–199; Estatuto art21 y referencias de The First Deal. Faltan expedientes completos, imágenes, textos y revisión específica. Después, 547–549 / E4.5.07–E4.5.09. 501 / E4.2.06 y512 / E4.3.02 permanecen retenidas por título; no repetir las preguntas ni interpretar silencio como aprobación.

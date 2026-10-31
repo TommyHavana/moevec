@@ -1,6 +1,6 @@
 # Backlog de MEE
 
-Último estado: **538/840 terminadas, 1614 imágenes originales públicas, 0 en curso o borradores WordPress y 302 pendientes**. Escalabilidad Social 15/15. Continuar **541–543 / E4.5.01–E4.5.03**, Trabajo → Selección de Socios, tanda 37/56, entradas 1–3/15. Lecturas iniciales de Wasserman conservables desde fuentes primarias; faltan expedientes, imágenes, texto y revisión. Después, 544–546 / E4.5.04–E4.5.06. 501 / E4.2.06 y 512 / E4.3.02 siguen retenidas por sus títulos, con texto y 3 imágenes cada una, sin publicación. Preguntas previas pendientes; no repetirlas ni interpretar silencio como aprobación.
+Último estado: **541/840 terminadas, 1623 imágenes originales públicas, 0 en curso o borradores WordPress y 299 pendientes**. Escalabilidad Social 15/15. Continuar **544–546 / E4.5.04–E4.5.06**, Trabajo → Selección de Socios, tanda 37/56, entradas 4–6/15. Investigación jurídica parcial: LSC consolidada03/01/2025, artículos28–29,58,86–89,93,188,198–199; Estatuto art21 y referencias de The First Deal. Faltan expedientes completos, imágenes, textos y revisión específica. Después, 547–549 / E4.5.07–E4.5.09. 501 / E4.2.06 y512 / E4.3.02 permanecen retenidas por título; no repetir las preguntas ni interpretar silencio como aprobación.
 
 
 Historial anterior: producción comprobada tras el bloque 4–6: 6/840 terminadas. En elaboración local: 7–9 con nueve imágenes propias; todavía no cuentan como publicadas. Consultar siempre WordPress y el registro 24 para el estado más reciente.
