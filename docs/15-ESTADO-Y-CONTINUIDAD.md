@@ -2,27 +2,27 @@
 
 ## Estado actual
 
-**553/840 terminadas, 1659 imágenes originales públicas, 0 en curso o borradores WordPress y 287 pendientes**. Escalabilidad Social 15/15; Selección de Socios 15/15; Experiencia como Activo 0/15; Riesgo Consciente 14/15, Inversión Personal 14/15;35 tandas completas.
+**556/840 terminadas, 1668 imágenes originales públicas, 0 en curso o borradores WordPress y 284 pendientes**. Experiencia como Activo3/15; Selección de Socios15/15; Escalabilidad Social15/15; Riesgo Consciente14/15 e Inversión Personal14/15;35tandas completas.
 
 Fuente activa `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Inicio 532;535–555 completas, veintiuna entradas y63 originales públicos.
+Inicio553;556–558completas, tres entradas y nueve originales públicos.
 
-Tres entradas 553–555 completas con nueve originales. URL 200, H1, canonical, indexabilidad declarada, Article, índice, sitemap, enlaces existentes y BreadcrumbList comprobados. Una publicación y tres adjuntos por ID, categorías y etiquetas del plan; taxonomía 122/7 conservada.
+Tres entradas556–558 completas con nueve originales. URL200, H1, canonical, ausencia de noindex, Article, índice, sitemap, enlaces existentes y BreadcrumbList comprobados. Una publicación y tres adjuntos por ID, categorías y etiquetas del plan; taxonomía122/7 conservada.
 
 ## Revisión
 
-553: Código Civil común español, consolidado03/01/2025, artículos1315/1325/1327; no determina leyaplicable, régimen individual o efectos de una aportación. IEF Documento165/2012, pasajes sobre adaptación y contenido de protocolos, no norma actual ni lectura íntegra. 554: Código Civil392/1665 como conceptos diferentes y página de advertencias CNMV; no elección jurídica o financiera. Título preventivo conservado; apertura aclara que las reglas no garantizan evitar pérdidas ni conservar amistad. E2.1.12/global747pendiente: sin enlace inexistente. 555: propuesta histórica de comunidad, producto actual y endpoint público de integración enabledfalse31/10/2026; blog y contacto disponibles, sin anunciar buscador, alta, perfiles o verificaciones operativos, fecha de lanzamiento o respaldo a inversiones. No activar Phoenix ni enviar mensajes.
+556: Polanyi, presentación de reedición2009; Mincer1974, capítulo4 pp.64–65: análisis histórico sin tarifa salarial o extrapolación causal. 557: Polanyi; ficha/resumen Oxford del libro Nonaka/Takeuchi1995 y abstract primario Nonaka1994: sin modelo completo leído o valor económico multiplicado garantizado. 558: Maister, presentación y resúmenes de capítulos6/7; sin libro íntegro leído ni certificación de competencia regulada. Las secuencias prácticas son propuestas de MEE. Alcances explícitos por fuente; errores403 locales separados de lecturas primarias web.
 
 ## Continuación exacta
 
-Reanudar **556–558 / E4.6.01–E4.6.03**, Trabajo → Experiencia como Activo, tanda 38/56, entradas 1–3/15. Nueve originales WebP completos e inspeccionados, briefs, prompts, procedencia y notas conservados. Faltan investigación específica, textos y revisión completa. Después, **559–561 / E4.6.04–E4.6.06**. **501 / E4.2.06** y **512 / E4.3.02** siguen retenidas por título, con texto y 3 imágenes cada una, sin publicación; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Reanudar **559–561 / E4.6.04–E4.6.06**, Trabajo → Experiencia como Activo, tanda38/56, entradas4–6/15. Nueve originales WebP completos e inspeccionados, briefs, prompts y procedencia conservados. Faltan investigación específica, textos y revisión completa. Después, **562–564 / E4.6.07–E4.6.09**. **501 / E4.2.06** y **512 / E4.3.02** siguen retenidas por título, con texto y tres imágenes cada una, sin publicación; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
 
 ## Copias y límites
 
-VPS `/data/mee-backups/produccion-840-incremento-553-555-20261031`; SQL y66 medios nuevos. Cadena173 más base, hash y miembros comprobados; sin nueva restauración arrancada. Detalle en docs/produccion/2026-10-31-bloques-535-555.md.
+VPS `/data/mee-backups/produccion-840-incremento-556-558-20261031`, SQL y66medios nuevos. Cadena174más base; hashes y miembros comprobados. Sin nueva restauración arrancada. Detalle en docs/produccion/2026-10-31-bloque-556-558.md.
 
 ## Página de apoyo, donaciones y publicidad · 29/10/2026
 
