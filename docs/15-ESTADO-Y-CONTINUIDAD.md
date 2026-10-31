@@ -18,7 +18,7 @@ Gratificación diferida: Shoda/Mischel/Peake1990, réplica conceptual de Watts/D
 
 ## Continuación exacta
 
-Siguiente **487–489 / E4.1.07–E4.1.09**, Trabajo → Sacrificio Estratégico. Tres briefs y diez fuentes iniciales localizadas, con límites de investigación anotados. Sin lectura final, texto o imágenes: 0/3 en cada entrada. Estas preparaciones siguen incluidas en las 354 pendientes. Después 490–492. Automatización activa; sin agotamiento de imágenes comunicado.
+Reanudar **487–489 / E4.1.07–E4.1.09**, Trabajo → Sacrificio Estratégico. E4.1.07: tres imágenes originales listas y revisadas, sin texto ni revisión final de fuentes. E4.1.08 y E4.1.09: fuentes archivadas para revisar y 0/3 imágenes. Las tres siguen pendientes en WordPress y no se cuentan como terminadas. Después 490–492. Automatización activa; no hay agotamiento de imágenes comunicado.
 
 ## Copias y límites
 
