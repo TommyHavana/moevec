@@ -1595,3 +1595,13 @@ Fuentes y alcances por artículo en research-notes.md y source-review.json. 589:
 
 Continuar **592–594 / E4.8.07–E4.8.09**, Trabajo → Diferenciación de Valor. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **595–597**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
 Automatización cada tres minutos ya configurada. No se han borrado copias ni originales.
+
+
+## Continuación editorial592-594 ·31/10/2026
+
+**592/840 terminadas, 1776 imágenes originales públicas, 0 en curso o borradores WordPress y 248 pendientes**. Diferenciación de Valor9/15; 37 tandas completas.
+
+Fuentes y alcances por artículo en research-notes.md y source-review.json. 592: Imai y Christensen con alcance primario explícito; incremental/radical distinto de disrupción. 593: OIT R204 como recomendación, no trámite nacional; fiado sin garantía y dos ejemplos hipotéticos identificados. 594: precio de la oferta, no valor humano; costes, alternativas y decisiones voluntarias. Nueve originales nuevos.
+
+Continuar **595–597 / E4.8.10–E4.8.12**, Trabajo → Diferenciación de Valor. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **598–600**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Automatización cada tres minutos ya configurada. No se han borrado copias ni originales.

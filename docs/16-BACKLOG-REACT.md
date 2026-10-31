@@ -1,8 +1,8 @@
 # Backlog de MEE
 
-Último estado: **589/840 terminadas, 1767 imágenes originales públicas, 0 en curso o borradores WordPress y 251 pendientes**. Diferenciación de Valor6/15; 37 tandas completas.
+Último estado: **592/840 terminadas, 1776 imágenes originales públicas, 0 en curso o borradores WordPress y 248 pendientes**. Diferenciación de Valor9/15; 37 tandas completas.
 
-Continuar **592–594 / E4.8.07–E4.8.09**, Trabajo → Diferenciación de Valor. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **595–597**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Continuar **595–597 / E4.8.10–E4.8.12**, Trabajo → Diferenciación de Valor. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **598–600**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
 
 Historial anterior: producción comprobada tras el bloque 4–6: 6/840 terminadas. En elaboración local: 7–9 con nueve imágenes propias; todavía no cuentan como publicadas. Consultar siempre WordPress y el registro 24 para el estado más reciente.
 
@@ -33,3 +33,7 @@ Actualizado el 28/10/2026 tras el encargo integral de UI/UX, WPO, SEO/GEO, blog 
 | MEE-21 | Apoyo, donaciones y publicidad | Publicado `/apoya/`, enlace solo en los footers React/WordPress y contacto con asunto preseleccionado; pendiente concretar medio de donación para cobro directo. Ver evidencia `inventario/apoyo-2026-10-29/` |
 
 Los nuevos ajustes parten de esta entrega. Las tablas de metáforas anteriores son guiones propuestos; el manifiesto visual registra lo realmente integrado. El estado individual de las 840 se consulta en el registro. El editor permite marcar la revisión de texto, fuentes e imágenes; el registro comprueba también publicación, extensión y archivos propios.
+
+## Incidencia SEO detectada ·31/10/2026
+
+Dos meta name=description idénticas en salida WordPress; títuloSEO y texto de descripción coinciden con manifest. Incidencia de plantilla registrada, sin cambiar tema ni configuración SEO durante producción. Evidencia: inventario/auditoria-2026-10-28/editorial-589-591-seo.json y editorial-592-594-seo.json. Requiere una tarea de plantilla independiente de esta producción.

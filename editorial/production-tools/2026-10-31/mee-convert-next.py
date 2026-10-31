@@ -13,4 +13,4 @@ for name in['research.json','metadata-draft.json']:
 s=json.load(open(r/'editorial/production-state.json'))
 for x in s['local_preparations']:
  if x['id']==i:x.update(images=len(records),images_visually_checked=len(records)==3,phase='research_preparation_images_ready'if len(records)==3 else'research_and_images_in_progress')
-s.update(updated_at=datetime.now(timezone.utc).isoformat());s['storage_block'].update(free_bytes=shutil.disk_usage(r).free,next_images_ready=sum(x['images']for x in s['local_preparations']if 586<=x['number']<=588));write(r/'editorial/production-state.json',s);print(json.dumps(dict(id=i,role=role,images=len(records),bytes=file.stat().st_size,free_bytes=shutil.disk_usage(r).free)))
+s.update(updated_at=datetime.now(timezone.utc).isoformat());s['storage_block'].update(free_bytes=shutil.disk_usage(r).free,next_images_ready=sum(x['images']for x in s['local_preparations']if x['number']in s['current_block']));write(r/'editorial/production-state.json',s);print(json.dumps(dict(id=i,role=role,images=len(records),bytes=file.stat().st_size,free_bytes=shutil.disk_usage(r).free)))

@@ -11,6 +11,12 @@ selected=[]
 plan=json.load(open(r/'wordpress/plugins/mee-editorial/data/production-plan.json')); ids=[x['id']for x in plan if start<=x['number']<=end or nextstart<=x['number']<nextstart+3]
 for ident in ids:
  selected.extend(p for p in(r/'editorial/articles'/ident).rglob('*')if p.is_file())
+prior_ids=[x['id']for x in plan if x['number']in s.get('completed_this_run',[])and x['number']<start]
+prior_candidates=[p for ident in prior_ids for p in(r/'editorial/articles'/ident).rglob('*')if p.is_file()]
+prior_candidates.extend((r/'inventario/auditoria-2026-10-28').glob(f'editorial-{start-3}-{end-3}-*.json'))
+for p in prior_candidates:
+ q=private/p.relative_to(r)
+ if not q.exists()or hashlib.sha256(q.read_bytes()).digest()!=hashlib.sha256(p.read_bytes()).digest():selected.append(p)
 selected.extend(p for p in(r/'editorial/production-tools/2026-10-31').rglob('*')if p.is_file());selected.extend(r/x for x in ['docs/10-DECISIONES-ABIERTAS.md','docs/15-ESTADO-Y-CONTINUIDAD.md','docs/16-BACKLOG-REACT.md','docs/26-PRODUCCION-CONTINUA.md','docs/24-REGISTRO-PRODUCCION-840.md','inventario/plan-editorial-840-status.json','inventario/plan-editorial-840.csv','editorial/production-state.json',f'docs/produccion/2026-10-31-bloque-{label}.md',f'docs/produccion/2026-10-31-respaldo-{label}.md',f'docs/produccion/2026-10-31-ejecucion-desde-{s["run_started_with_completed"]}.md']);selected.extend((r/'inventario/auditoria-2026-10-28').glob(f'editorial-{label}-*.json'));selected=sorted(set(selected));assert all(p.is_file()for p in selected);assert shutil.disk_usage(r).free>max(167772160,3*sum(p.stat().st_size for p in selected))
 manifest=[dict(path='mee-web/'+str(p.relative_to(r)),bytes=p.stat().st_size,sha256=hashlib.sha256(p.read_bytes()).hexdigest())for p in selected]
 with zipfile.ZipFile(z,'w',zipfile.ZIP_DEFLATED)as f:

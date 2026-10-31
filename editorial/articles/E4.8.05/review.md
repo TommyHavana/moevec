@@ -9,3 +9,7 @@
 ## Publicación comprobada
 
 HTTP200, H1, canonical, indexabilidad, Article, tres originales con alt y hash, imágenes renderizadas, índice, BreadcrumbList, sitemap y enlaces existentes verificados. Una publicación y tres adjuntos porID, categorías y etiquetas delplan; taxonomía122/7. No acredita indexación efectiva ni una restauración completa.
+
+## Incidencia de salida SEO
+
+Dos meta name=description idénticas en salida WordPress; títuloSEO y texto de descripción coinciden con manifest. Incidencia de plantilla registrada, sin cambiar tema ni configuración SEO durante producción.

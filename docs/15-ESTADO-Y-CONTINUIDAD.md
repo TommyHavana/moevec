@@ -2,31 +2,34 @@
 
 ## Estado actual
 
-**589/840 terminadas, 1767 imágenes originales públicas, 0 en curso o borradores WordPress y 251 pendientes**. Diferenciación de Valor6/15; 37 tandas completas.
+**592/840 terminadas, 1776 imágenes originales públicas, 0 en curso o borradores WordPress y 248 pendientes**. Diferenciación de Valor9/15; 37 tandas completas.
 
 Fuente activa `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Inicio586; 3 nuevas entradas y9originales públicos.
+Inicio586; 6 nuevas entradas y18originales públicos.
 
 | Global | ID | URL | Imágenes |
 |---|---|---|---|
 |589|E4.8.04|https://moevec.org/blog/nichos/|3/3|
 |590|E4.8.05|https://moevec.org/blog/diferenciacion-sin-presupuesto/|3/3|
 |591|E4.8.06|https://moevec.org/blog/marca-pequenos-negocios/|3/3|
+|592|E4.8.07|https://moevec.org/blog/innovacion-incremental/|3/3|
+|593|E4.8.08|https://moevec.org/blog/diferenciacion-mercados-informales/|3/3|
+|594|E4.8.09|https://moevec.org/blog/precio-por-valor/|3/3|
 
 ## Revisión del último bloque
 
-Fuentes y alcances por artículo en research-notes.md y source-review.json. 589: especialización sin rentabilidad o liderazgo garantizados; Anderson mediante ficha de reedición y preguntas de mercado SBA. 590: fidelidad como enfoque, sin extrapolar cifras de beneficios; compromisos sujetos a recursos y país. 591: identidad y protección jurídica separadas, España/UE/México, búsquedas informativas, aviso educativo. Nueve imágenes originales nuevas.
+Fuentes y alcances por artículo en research-notes.md y source-review.json. 592: Imai y Christensen con alcance primario explícito; incremental/radical distinto de disrupción. 593: OIT R204 como recomendación, no trámite nacional; fiado sin garantía y dos ejemplos hipotéticos identificados. 594: precio de la oferta, no valor humano; costes, alternativas y decisiones voluntarias. Nueve originales nuevos.
 
 ## Continuación exacta
 
-Continuar **592–594 / E4.8.07–E4.8.09**, Trabajo → Diferenciación de Valor. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **595–597**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Continuar **595–597 / E4.8.10–E4.8.12**, Trabajo → Diferenciación de Valor. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **598–600**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
 
 ## Copias y capacidad
 
-VPS `/data/mee-backups/produccion-840-incremento-589-591-20261031`: SQL23180358B, 66medios nuevos. Cadena185más base, huecos501/512. Hashes y miembros comprobados; sin nueva prueba de arranque de restauración. ZIP local incremental y prueba de entrega externos, con toda la cadena anterior conservada.
+VPS `/data/mee-backups/produccion-840-incremento-592-594-20261031`: SQL23273240B, 66medios nuevos. Cadena186más base, huecos501/512. Hashes y miembros comprobados; sin nueva prueba de arranque de restauración. ZIP local incremental y prueba de entrega externos, con toda la cadena anterior conservada.
 
 Capacidad local recuperada. Comprobar espacio antes de cada generación y copia; capacidad recuperada comprobada en esta ejecución; registro de entrega anterior y referencia de Git recuperados. Umbral operativo200MiB antes de generar, y copias proporcionales con margen calculado; conservar todas las copias y originales. Automatización del mismo chat cada tres minutos, según petición del fundador.
 

@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-31T11:01:35+00:00.
+Comprobado en WordPress: 2026-10-31T11:14:44+00:00.
 
-**589/840 terminadas · 0 en curso · 251 pendientes.**
+**592/840 terminadas · 0 en curso · 248 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -603,9 +603,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 589 | 40/56 · 4/15 | E4.8.04 | Nichos: ser el mejor para pocos antes que mediocre para todos | terminada | 3/3 | [Leer](https://moevec.org/blog/nichos/) |
 | 590 | 40/56 · 5/15 | E4.8.05 | Calidad, servicio y confianza: diferenciación sin gran presupuesto | terminada | 3/3 | [Leer](https://moevec.org/blog/diferenciacion-sin-presupuesto/) |
 | 591 | 40/56 · 6/15 | E4.8.06 | Marca para pequeños negocios: identidad sin derroche | terminada | 3/3 | [Leer](https://moevec.org/blog/marca-pequenos-negocios/) |
-| 592 | 40/56 · 7/15 | E4.8.07 | Innovación incremental: mejorar un poco cada vez | pendiente | 0/3 | — |
-| 593 | 40/56 · 8/15 | E4.8.08 | Diferenciación en mercados informales de la región | pendiente | 0/3 | — |
-| 594 | 40/56 · 9/15 | E4.8.09 | Precio por valor: cobrar según lo que vales para el cliente | pendiente | 0/3 | — |
+| 592 | 40/56 · 7/15 | E4.8.07 | Innovación incremental: mejorar un poco cada vez | terminada | 3/3 | [Leer](https://moevec.org/blog/innovacion-incremental/) |
+| 593 | 40/56 · 8/15 | E4.8.08 | Diferenciación en mercados informales de la región | terminada | 3/3 | [Leer](https://moevec.org/blog/diferenciacion-mercados-informales/) |
+| 594 | 40/56 · 9/15 | E4.8.09 | Precio por valor: cobrar según lo que vales para el cliente | terminada | 3/3 | [Leer](https://moevec.org/blog/precio-por-valor/) |
 | 595 | 40/56 · 10/15 | E4.8.10 | Competir con gigantes: estrategias del pequeño frente al grande | pendiente | 0/3 | — |
 | 596 | 40/56 · 11/15 | E4.8.11 | Ejercicio: encuentra tu diferencia en una tarde | pendiente | 0/3 | — |
 | 597 | 40/56 · 12/15 | E4.8.12 | Diferenciación para profesionales independientes | pendiente | 0/3 | — |
