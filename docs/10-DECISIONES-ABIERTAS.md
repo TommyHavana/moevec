@@ -1558,3 +1558,11 @@ Reanudar **580–582 / E4.7.10–E4.7.12**, Trabajo → Mentoría e Inversión e
 580: extracto primarioKleppercapítulo1pp9–10, spinoffs y límites de transferencia; fecha editorial no usada como dato central. BOELey1/2019art1.3 leído, sin autorizar uso de bases o dictaminar una cláusula. E4.6.07/global562 existente; colaboración voluntaria, sin encargos garantizados. 581: Kram1985bibliografía y artículo1983parcial; Zachary2000primeraedición y muestra autorizada3.ªedición2022conLisaZFain, sin librosíntegros leídos o ejercicioscopiados. Agenda/preguntas/cierre como propuestasMEE, sin acreditación. 582: ficha editorialGiveandTake2013, no ensayo de eficacia delmensaje; plantilla yseguimientoMEE, sin respuesta,gratuidad oausenciadeincomodidadgarantizadas. E2.5.04/global799 pendiente no enlazado. Textos1010,1047,1022palabras;9originales completos yverificados.
 
 Reanudar **583–585 / E4.7.13–E4.7.15**, Trabajo → Mentoría e Inversión en Otros. Nueve originales WebP completos e inspeccionados, briefs, prompts y procedencia conservados. Faltan textos y revisión completa de fuentes. Después, **586–588**. **501 / E4.2.06** y **512 / E4.3.02** siguen retenidas por título, con texto y tres imágenes cada una, sin publicación; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+
+
+## Límite actual de almacenamiento ·31/10/2026
+
+El cotejo final recibió «no queda espacio en el dispositivo». Comprobación posterior: 123609088 B libres. Las12 entradas571–582 ya están publicadas y verificadas; el ZIP del bloque580–582 conserva su hash correcto, y15expedientes/ 359archivos coinciden con la fuente privada.
+
+No se han borrado copias ni originales. 583–585 tienen9/9imágenes completas, sin textos ni fuentes revisadas. Reanudar su producción al recuperar al menos512MiB de margen local; no es un límite de image_gen ni requiere nuevo permiso editorial. Automatización conservada.
+

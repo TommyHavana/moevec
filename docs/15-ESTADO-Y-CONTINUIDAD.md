@@ -24,6 +24,12 @@ Reanudar **583–585 / E4.7.13–E4.7.15**, Trabajo → Mentoría e Inversión e
 
 VPS `/data/mee-backups/produccion-840-incremento-580-582-20261031`, SQL y66medios nuevos. Cadena182 más base. Hashes y miembros comprobados; sin nueva restauración arrancada. Resumen de esta ejecución: docs/produccion/2026-10-31-ejecucion-desde-568.md.
 
+## Límite actual de almacenamiento ·31/10/2026
+
+El cotejo final recibió «no queda espacio en el dispositivo». Comprobación posterior: 123609088 B libres. Las12 entradas571–582 ya están publicadas y verificadas; el ZIP del bloque580–582 conserva su hash correcto, y15expedientes/ 359archivos coinciden con la fuente privada.
+
+No se han borrado copias ni originales. 583–585 tienen9/9imágenes completas, sin textos ni fuentes revisadas. Reanudar su producción al recuperar al menos512MiB de margen local; no es un límite de image_gen ni requiere nuevo permiso editorial. Automatización conservada.
+
 ## Página de apoyo, donaciones y publicidad · 29/10/2026
 
 Petición del fundador: crear una página fuera del menú principal y enlazada desde el footer para donaciones y publicidad de empresas afines al Movimiento de Evolución Económica.
