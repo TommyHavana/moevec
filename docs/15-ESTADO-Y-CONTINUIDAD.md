@@ -2,31 +2,31 @@
 
 ## Estado actual
 
-**477/840 terminadas, 1431 imágenes originales públicas, 0 en curso o borradores WordPress y 363 pendientes**. Intercambio Equitativo 12/15; 31 tandas completas y tanda 32 en curso.
+**480/840 terminadas, 1440 imágenes originales públicas, 0 en curso o borradores WordPress y 360 pendientes**. Intercambio Equitativo 15/15, Comunidad 60/60 y 32 tandas completas.
 
 Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Desde 471: entradas 472–477, 18 originales públicos. Bloques consecutivos de tres, con respaldo completo de SQL y medios nuevos por bloque.
+Desde 471: entradas 472–480, 27 originales públicos. Bloques consecutivos de tres, con SQL completo y medios nuevos respaldados por bloque.
 
 Una publicación y tres adjuntos por ID; categorías Comunidad y Intercambio Equitativo, etiquetas exactas. HTTP 200, H1, canonical, indexabilidad, Article, índice, sitemap, enlaces, originales y variantes comprobados. Navegación y BreadcrumbList: Blog → área → subcategoría. Taxonomía: 122 nodos, siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva o posicionamiento.
 
 ## Revisión del último bloque
 
-Cuba: Decreto167 y Resoluciones102/103de2026, publicación10/09segúnPDFfrente a11en notasecundaria; normas separadas de disponibilidad y sin tasasantiguas comoactuales. MesaLago2021contexto, Kornai2014revisióncondiciónno suficiente y no exclusivamentesocialista. Negociación:Fisher/Ury/PattonporPON2026, Subramanian2011p8, sin descuentosefectivos o punto medio universal. Precios: plantillapropia,600+1200sobre60higual30 y5h+material20igual170 hipotéticos, no gasto fiscaldeducible ni tarifa; TGSS2026/AEAT ySATconadvertencias de orientación heredada. Nueve originales nuevos inspeccionados.
+Trueque profesional: BOE consolidado actualizado 07/10/2026, artículos 4 y 79.Uno; AEAT IVA 2026 contraprestación no dineraria, sin cuotas, tipos ni exenciones automáticas. Comercio local: Civic Economics 2012 y programa 2021 con muestra y comparación identificadas; recirculación no equivale a efecto causal o bienestar. Ricardo como analogía internacional explícita. Revisión comercial: Hirschman 1970 solo páginas impresas 4–5 y 78–79, voz/salida y lealtad limitada; pauta trimestral MEE y compromisos aplicables, sin derecho universal de salida. Nueve originales nuevos inspeccionados.
 
 ## Continuación exacta
 
-Siguiente **478–480 / E3.4.13–E3.4.15**, Comunidad → Intercambio Equitativo. Preparaciones incluidas en las 363 pendientes. E3.4.13: 0/3 imágenes locales; sin texto final, sin publicación; E3.4.14: 0/3 imágenes locales; sin texto final, sin publicación; E3.4.15: 0/3 imágenes locales; sin texto final, sin publicación. Después 481–483. Automatización activa, sin agotamiento comunicado.
+Siguiente **481–483 / E4.1.01–E4.1.03**, Trabajo → Sacrificio Estratégico. Tres briefs originales preparados, 0/3 imágenes en cada uno y sin texto final ni publicación. Las preparaciones están incluidas en las 360 pendientes. Después 484–486. Automatización activa, sin agotamiento comunicado.
 
 ## Copias y límites
 
-Respaldo VPS hasta 477: SQL completo y 66 medios nuevos, hashes y miembros comprobados. Cadena conservada, sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 mayor de 100 MiB fuera de Git; ubicación y SHA en E7.2.04/sources/original-source-location.json.
+Respaldo VPS hasta 480: SQL completo y 66 medios nuevos. Hashes, miembros y continuidad de147 incrementos comprobados. Sin nueva prueba de arranque de restauración. Copia local y fuente privada referenciadas al cierre. Original Civismo 2026 >100 MiB fuera de Git.
 
 ## Traspaso
 
-PETICIÓN: producción continua sin confirmaciones. SIGUIENTE: consultar WordPress y reanudar los expedientes indicados. No contar preparaciones ni imágenes incompletas como terminadas. Autorización y automatización activas. Sin cambios de arquitectura, DNS, correo, autenticación, tema o taxonomía. Sin despliegue React por contenido.
+Producción continua autorizada sin confirmaciones. Consultar WordPress y reanudar expedientes. No contar preparaciones como terminadas. Sin cambios de arquitectura, DNS, correo, autenticación, tema o taxonomía. Sin despliegue React por contenido.
 
 ## Página de apoyo, donaciones y publicidad · 29/10/2026
 
@@ -43,84 +43,6 @@ Verificación: `npm run build` con sincronización y TypeScript correctos; PHP l
 Publicación: fuente privada sincronizada y subida, commit de producto `1d84a45`. Actualización de la exportación estática en el contenedor Nginx activo y de los dos archivos WordPress, tanto en la ruta operativa como en `/opt/mee/`. No se reconstruyeron imágenes Docker ni se reiniciaron servicios; un siguiente build del repositorio incluye los cambios. Respaldo previo local completo: `../mee-backups/MEE_Codex_2026-10-29_183813.zip` (7657 archivos, integridad comprobada). Copia previa de React y de los archivos WordPress en `/data/mee-backups/apoyo-20261029T184226/`, gzip comprobado. No se ha probado una restauración arrancada de esta copia.
 
 Siguiente paso de esta petición: concretar el medio de donación y sus datos oficiales para activar pago directo. La producción editorial mantiene su continuidad independiente; esta tarea no modifica sus conteos, artículos, imágenes ni taxonomía.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## Historial anterior — no describe el estado actual
 

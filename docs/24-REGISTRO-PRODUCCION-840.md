@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-30T23:33:49+00:00.
+Comprobado en WordPress: 2026-10-30T23:59:59+00:00.
 
-**477/840 terminadas · 0 en curso · 363 pendientes.**
+**480/840 terminadas · 0 en curso · 360 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -489,9 +489,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 475 | 32/56 · 10/15 | E3.4.10 | El intercambio en Cuba: mercados duales y escasez | terminada | 3/3 | [Leer](https://moevec.org/blog/intercambio-en-cuba-mercados-duales/) |
 | 476 | 32/56 · 11/15 | E3.4.11 | Cómo negociar un precio sin perder la relación | terminada | 3/3 | [Leer](https://moevec.org/blog/negociar-precio-sin-perder-relacion/) |
 | 477 | 32/56 · 12/15 | E3.4.12 | Fijar el precio de tu trabajo: método sencillo | terminada | 3/3 | [Leer](https://moevec.org/blog/fijar-el-precio-de-tu-trabajo/) |
-| 478 | 32/56 · 13/15 | E3.4.13 | Intercambio de servicios entre emprendedores: reglas para que funcione | pendiente | 0/3 | — |
-| 479 | 32/56 · 14/15 | E3.4.14 | Comprar en el barrio: el efecto multiplicador de lo local | pendiente | 0/3 | — |
-| 480 | 32/56 · 15/15 | E3.4.15 | Revisar una relación comercial: ¿sigue funcionando para ambos? | pendiente | 0/3 | — |
+| 478 | 32/56 · 13/15 | E3.4.13 | Intercambio de servicios entre emprendedores: reglas para que funcione | terminada | 3/3 | [Leer](https://moevec.org/blog/intercambio-de-servicios-entre-emprendedores/) |
+| 479 | 32/56 · 14/15 | E3.4.14 | Comprar en el barrio: el efecto multiplicador de lo local | terminada | 3/3 | [Leer](https://moevec.org/blog/comprar-en-el-barrio/) |
+| 480 | 32/56 · 15/15 | E3.4.15 | Revisar una relación comercial: ¿sigue funcionando para ambos? | terminada | 3/3 | [Leer](https://moevec.org/blog/revisar-relacion-comercial/) |
 | 481 | 33/56 · 1/15 | E4.1.01 | Sacrificio estratégico: renunciar con plan, no por resignación | pendiente | 0/3 | — |
 | 482 | 33/56 · 2/15 | E4.1.02 | Consumir por debajo de tu capacidad: la regla de oro del capital | pendiente | 0/3 | — |
 | 483 | 33/56 · 3/15 | E4.1.03 | El coste de oportunidad: lo que dejas de ganar cuando eliges | pendiente | 0/3 | — |
