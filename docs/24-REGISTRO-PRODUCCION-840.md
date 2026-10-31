@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-31T01:36:21+00:00.
+Comprobado en WordPress: 2026-10-31T01:48:49+00:00.
 
-**495/840 terminadas · 0 en curso · 345 pendientes.**
+**498/840 terminadas · 0 en curso · 342 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -507,9 +507,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 493 | 33/56 · 13/15 | E4.1.13 | Sacrificio compartido en pareja: acordar metas económicas | terminada | 3/3 | [Leer](https://moevec.org/blog/sacrificio-compartido-en-pareja/) |
 | 494 | 33/56 · 14/15 | E4.1.14 | Lo que nadie cuenta del sacrificio: soledad, dudas y recaídas | terminada | 3/3 | [Leer](https://moevec.org/blog/lo-que-nadie-cuenta-del-sacrificio/) |
 | 495 | 33/56 · 15/15 | E4.1.15 | Cuándo dejar de sacrificarse: disfrutar lo construido | terminada | 3/3 | [Leer](https://moevec.org/blog/cuando-dejar-de-sacrificarse/) |
-| 496 | 34/56 · 1/15 | E4.2.01 | Capital humano: la inversión que no te pueden expropiar | pendiente | 0/3 | — |
-| 497 | 34/56 · 2/15 | E4.2.02 | Los cuatro capitales personales: humano, social, financiero y de salud | pendiente | 0/3 | — |
-| 498 | 34/56 · 3/15 | E4.2.03 | Práctica deliberada: cómo se construye la excelencia | pendiente | 0/3 | — |
+| 496 | 34/56 · 1/15 | E4.2.01 | Capital humano: la inversión que no te pueden expropiar | terminada | 3/3 | [Leer](https://moevec.org/blog/capital-humano-que-es/) |
+| 497 | 34/56 · 2/15 | E4.2.02 | Los cuatro capitales personales: humano, social, financiero y de salud | terminada | 3/3 | [Leer](https://moevec.org/blog/cuatro-capitales-personales/) |
+| 498 | 34/56 · 3/15 | E4.2.03 | Práctica deliberada: cómo se construye la excelencia | terminada | 3/3 | [Leer](https://moevec.org/blog/practica-deliberada/) |
 | 499 | 34/56 · 4/15 | E4.2.04 | Invertir en salud: el activo del que dependen todos los demás | pendiente | 0/3 | — |
 | 500 | 34/56 · 5/15 | E4.2.05 | Red de contactos: el valor de los lazos débiles | pendiente | 0/3 | — |
 | 501 | 34/56 · 6/15 | E4.2.06 | Aprender idiomas: la inversión con mayor retorno para el talento hispano | pendiente | 0/3 | — |

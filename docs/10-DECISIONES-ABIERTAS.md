@@ -1346,3 +1346,14 @@ Pareja: asociación Dew 2012 y experimento Olson 2023, con selección y pérdida
 Continuar **496–498 / E4.2.01–E4.2.03**, Trabajo → Inversión Personal, tanda 34/56. Preparación local iniciada; conservar imágenes existentes y revisar fuentes antes del texto. No cuenta como terminada ni como borrador WordPress. Después 499–501.
 
 Sin cambios de arquitectura o taxonomía. Evidencias: docs/produccion/2026-10-31-bloque-493-495.md y respaldo-493-495.md.
+
+
+## Producción continua 496–498 · 31/10/2026
+
+498/840 terminadas, 1494 imágenes originales públicas, 0 en curso o borradores WordPress y 342 pendientes.
+
+Capital humano: introducción Becker 1964 leída, crítica Caplan atribuida desde ficha editorial y texto firmado, límites de portabilidad y ejemplo UE de reconocimiento profesional. Cuatro ámbitos propios de MEE, solapados, sin clasificación o escala atribuida a Bourdieu; Putnam no fingido leído. Práctica: lectura parcial Ericsson 1993 y Ericsson/Harwell 2019; metaanálisis 2014 con corrección 2018 y total 14 % de varianza, sin causalidad individual, número mágico o genética deducida del resto.
+
+Continuar **499–501 / E4.2.04–E4.2.06**, Trabajo → Inversión Personal, tanda 34/56. Briefs originales y preparación de fuentes e imágenes iniciados. Reanudar recursos existentes sin duplicar. Después 502–504.
+
+Sin cambios de arquitectura o taxonomía. Evidencias: docs/produccion/2026-10-31-bloque-496-498.md y respaldo-496-498.md.

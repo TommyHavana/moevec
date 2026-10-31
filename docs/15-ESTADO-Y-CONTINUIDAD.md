@@ -2,27 +2,27 @@
 
 ## Estado actual
 
-**495/840 terminadas, 1485 imágenes originales públicas, 0 en curso o borradores WordPress y 345 pendientes**. Sacrificio Estratégico 15/15, 33 tandas completas; Comunidad 60/60.
+**498/840 terminadas, 1494 imágenes originales públicas, 0 en curso o borradores WordPress y 342 pendientes**. Sacrificio Estratégico 15/15, Inversión Personal 3/15, 33 tandas completas; Comunidad 60/60.
 
 Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Inicio: 492 completas. Nuevas: 493–495, tres entradas con nueve originales públicos.
+Inicio: 492 completas. Nuevas: 493–498, seis entradas con 18 originales públicos.
 
-Una publicación y tres adjuntos por ID. Trabajo → Sacrificio Estratégico, etiquetas sacrificio-estrategico y aplicacion. HTTP 200, H1, canonical, indexabilidad declarada, Article, índice, sitemap, cinco enlaces existentes y nueve originales/variantes comprobados. Navegación y BreadcrumbList correctos. Taxonomía de 122 nodos y siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva.
+Una publicación y tres adjuntos por ID. Trabajo → Inversión Personal, etiquetas inversion-personal y fundamentos. HTTP 200, H1, canonical, indexabilidad declarada, Article, índice, sitemap, cinco enlaces existentes y nueve originales/variantes comprobados. Navegación y BreadcrumbList correctos. Taxonomía de 122 nodos y siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva.
 
 ## Revisión del último bloque
 
-Pareja: asociación Dew 2012 y experimento Olson 2023, con selección y pérdidas; reunión mensual propia MEE sin eficacia causal afirmada. Dudas: marco laboral de Amabile/Kramer y orientación NIMH revisada en abril de 2026, sin terapia o diagnóstico atribuidos al diario. Suficiente: lectura parcial de Diener/Lucas/Scollon 2006, adaptación heterogénea; sin capítulo 1971 o libro Frankl fingidos leídos, cifra patrimonial o rentabilidad universal.
+Capital humano: introducción Becker 1964 leída, crítica Caplan atribuida desde ficha editorial y texto firmado, límites de portabilidad y ejemplo UE de reconocimiento profesional. Cuatro ámbitos propios de MEE, solapados, sin clasificación o escala atribuida a Bourdieu; Putnam no fingido leído. Práctica: lectura parcial Ericsson 1993 y Ericsson/Harwell 2019; metaanálisis 2014 con corrección 2018 y total 14 % de varianza, sin causalidad individual, número mágico o genética deducida del resto.
 
 ## Continuación exacta
 
-Continuar **496–498 / E4.2.01–E4.2.03**, Trabajo → Inversión Personal, tanda 34/56. Preparación local iniciada; conservar imágenes existentes y revisar fuentes antes del texto. No cuenta como terminada ni como borrador WordPress. Después 499–501.
+Continuar **499–501 / E4.2.04–E4.2.06**, Trabajo → Inversión Personal, tanda 34/56. Briefs originales y preparación de fuentes e imágenes iniciados. Reanudar recursos existentes sin duplicar. Después 502–504.
 
 ## Copias y límites
 
-VPS hasta 495, SQL completo y 66 medios nuevos; hashes y miembros verificados, 152 incrementos consecutivos. Copia local y fuente privada al cierre. Sin nueva prueba de arranque completo. Producción continua autorizada sin confirmaciones; WordPress es el estado real.
+VPS hasta 498, SQL completo y 66 medios nuevos; hashes y miembros verificados, 153 incrementos consecutivos. Copia local y fuente privada al cierre. Sin nueva prueba de arranque completo. Producción continua autorizada sin confirmaciones; WordPress es el estado real.
 
 ## Página de apoyo, donaciones y publicidad · 29/10/2026
 
