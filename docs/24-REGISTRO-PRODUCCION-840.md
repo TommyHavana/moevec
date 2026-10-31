@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-31T11:28:58+00:00.
+Comprobado en WordPress: 2026-10-31T11:45:37+00:00.
 
-**595/840 terminadas · 0 en curso · 245 pendientes.**
+**598/840 terminadas · 0 en curso · 242 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -609,9 +609,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 595 | 40/56 · 10/15 | E4.8.10 | Competir con gigantes: estrategias del pequeño frente al grande | terminada | 3/3 | [Leer](https://moevec.org/blog/competir-con-gigantes/) |
 | 596 | 40/56 · 11/15 | E4.8.11 | Ejercicio: encuentra tu diferencia en una tarde | terminada | 3/3 | [Leer](https://moevec.org/blog/ejercicio-encuentra-tu-diferencia/) |
 | 597 | 40/56 · 12/15 | E4.8.12 | Diferenciación para profesionales independientes | terminada | 3/3 | [Leer](https://moevec.org/blog/diferenciacion-profesionales-independientes/) |
-| 598 | 40/56 · 13/15 | E4.8.13 | Productos cubanos con identidad: diferenciación desde el origen | pendiente | 0/3 | — |
-| 599 | 40/56 · 14/15 | E4.8.14 | Copiar bien: inspiración frente a plagio | pendiente | 0/3 | — |
-| 600 | 40/56 · 15/15 | E4.8.15 | Medir si tu diferenciación funciona | pendiente | 0/3 | — |
+| 598 | 40/56 · 13/15 | E4.8.13 | Productos cubanos con identidad: diferenciación desde el origen | terminada | 3/3 | [Leer](https://moevec.org/blog/productos-cubanos-con-identidad/) |
+| 599 | 40/56 · 14/15 | E4.8.14 | Copiar bien: inspiración frente a plagio | terminada | 3/3 | [Leer](https://moevec.org/blog/copiar-bien-inspiracion-plagio/) |
+| 600 | 40/56 · 15/15 | E4.8.15 | Medir si tu diferenciación funciona | terminada | 3/3 | [Leer](https://moevec.org/blog/medir-si-tu-diferenciacion-funciona/) |
 | 601 | 41/56 · 1/15 | E4.9.01 | Resiliencia económica: prepararse antes de la tormenta | pendiente | 0/3 | — |
 | 602 | 41/56 · 2/15 | E4.9.02 | Diversificar ingresos: no depender de una sola fuente | pendiente | 0/3 | — |
 | 603 | 41/56 · 3/15 | E4.9.03 | Deuda y fragilidad: por qué el endeudamiento te deja expuesto | pendiente | 0/3 | — |

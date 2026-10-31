@@ -1,5 +1,23 @@
-# Preparación de fuentes · E4.8.13
+# Investigación · E4.8.13
 
-Búsqueda preliminar realizada, sin fuentes centrales todavía verificadas. Revisar source-preparation.json. No hay texto ni imágenes. No cuenta como terminada.
+MINCEX · Resolución 126/2026 · Gaceta Oficial73,3/9/2026 · reproducción del documento primario
+https://www.directoriocubano.com/wp-content/uploads/dc-gaceta/archive/pdf/2026/09/ordinaria/073/gaceta.pdf
+PDFprimario reproducido porDirectorioCubano,200,65páginas,hasharchivado; portada/ppPDF6–9(impresas2164–2167)leídasparcialmente;PDF6y9inspeccionadasvisualmente. Arts1–4yfinalcuarta/quinta, no anexoíntegro/subpartidaindividual, dictamenvigenciaconsolidada,habilitaciónmipymeconcreta o permiso. URLgacetaoficialintento404registrado; secundariossolo localización, nofundamentación. No F2002021comotextovigente.
 
-Atención: F200 de2021 no acredita vigencia; buscar reformas y textos primarios2026 de comercio exterior y mipymes. No atribuir exportación exclusivamente al Estado sin comprobar normas, facultades y productos.
+OMPI · preguntas frecuentes sobre indicaciones geográficas
+https://www.wipo.int/en/web/geographical-indications/faq_geographicalindications
+200FAQleídadefinición,derechos/condicionesyterritorialidad, no registroindividualcubano niresultado/preciospremium. Guíageneral, noleysectornacional.
+
+WIPO Lex · Cuba · Decreto-Ley228 sobre indicaciones geográficas
+https://www.wipo.int/wipolex/en/legislation/details/899
+Ficha200,artículos1–3leídosweb,referenciahistóricamarco/definiciones. No declaraciónnormaconsolidada2026noreformasexhaustivas,registrooautorizaciónvigente.
+
+Harvard Growth Lab · presentación del Atlas10.0 ·4/10/2024
+https://growthlab.hks.harvard.edu/news/atlas-economic-complexity-100-brings-new-data-and-product-space-design/
+Webprimaria200lecturaparcialpresentacióndelAtlas/espacioproductos,fuenteF118metodológica;urllibTLSfallidoarchivado, no tablaactualCubaniporcentajes/rankings/habilitacióncomercial. Capturaalcancemanualarchivada.
+
+Excluido:
+- Sinmonopolioestataluniversalafirmadoniexportabilidad/permisosautomáticos.
+- NormasF2002021nofundamentanasesoramientovigente;revisióndeoperaciónnorealizada.
+- Sinpremiumorigen,registrodeindicacióndeterminada,marcasreales,cifrasCubaAtlasofigurasexportación.
+- Dos casos hipotéticos identificados; imagenislaeditorialnocartografíaexacta,certificaciónnipermiso.

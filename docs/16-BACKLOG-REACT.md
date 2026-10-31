@@ -1,8 +1,8 @@
 # Backlog de MEE
 
-Último estado: **595/840 terminadas, 1785 imágenes originales públicas, 0 en curso o borradores WordPress y 245 pendientes**. Diferenciación de Valor12/15; 37 tandas completas.
+Último estado: **598/840 terminadas, 1794 imágenes originales públicas, 0 en curso o borradores WordPress y 242 pendientes**. Diferenciación de Valor15/15; 38 tandas completas.
 
-Continuar **598–600 / E4.8.13–E4.8.15**, Trabajo → Diferenciación de Valor. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **601–603**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Continuar **601–603 / E4.9.01–E4.9.03**, Trabajo → Resiliencia Económica. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **604–606**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
 
 Historial anterior: producción comprobada tras el bloque 4–6: 6/840 terminadas. En elaboración local: 7–9 con nueve imágenes propias; todavía no cuentan como publicadas. Consultar siempre WordPress y el registro 24 para el estado más reciente.
 
