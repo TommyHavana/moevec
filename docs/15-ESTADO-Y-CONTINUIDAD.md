@@ -2,27 +2,27 @@
 
 ## Estado actual
 
-**550/840 terminadas, 1650 imágenes originales públicas, 0 en curso o borradores WordPress y 290 pendientes**. Escalabilidad Social 15/15; Selección de Socios 12/15; Riesgo Consciente 14/15, Inversión Personal 14/15;34 tandas completas.
+**553/840 terminadas, 1659 imágenes originales públicas, 0 en curso o borradores WordPress y 287 pendientes**. Escalabilidad Social 15/15; Selección de Socios 15/15; Experiencia como Activo 0/15; Riesgo Consciente 14/15, Inversión Personal 14/15;35 tandas completas.
 
 Fuente activa `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Inicio 532;535–552 completas, dieciocho entradas y54 originales públicos.
+Inicio 532;535–555 completas, veintiuna entradas y63 originales públicos.
 
-Tres entradas 550–552 completas con nueve originales. URL 200, H1, canonical, indexabilidad declarada, Article, índice, sitemap, enlaces existentes y BreadcrumbList comprobados. Una publicación y tres adjuntos por ID, categorías y etiquetas del plan; taxonomía 122/7 conservada.
+Tres entradas 553–555 completas con nueve originales. URL 200, H1, canonical, indexabilidad declarada, Article, índice, sitemap, enlaces existentes y BreadcrumbList comprobados. Una publicación y tres adjuntos por ID, categorías y etiquetas del plan; taxonomía 122/7 conservada.
 
 ## Revisión
 
-550: servicios oficiales de Registradores de España para documentación mercantil; no consulta registral de personas o empresas concretas ni garantía de solvencia u honestidad. Diez señales como propuesta de MEE, sin puntuación predictiva; colaboración de prueba con condiciones y remuneración cuando corresponda. 551: plantilla original de MEE de16 preguntas en cuatro bloques, contexto E4.5.03; sin atribuir validez psicométrica a la entrevista ni inferir compatibilidad por una nota. 552: Dyer2000, extracto primario de portada/índice y prefacio impreso viii, caso históricoToyota/Chrysler; Toyota Supplier Sustainability Guidelines noviembre2021 PDFpáginas2–3(impresas1–2), enlazadas en página institucional actual; políticas declaradas, no auditoría de cumplimiento. Miwa/Ramseyer2006 solo resumen editorial crítico sobrekeiretsu; no lectura completa, no resolución del debate ni garantía causal de reducción de costes. Ejemplos hipotéticos identificados.
+553: Código Civil común español, consolidado03/01/2025, artículos1315/1325/1327; no determina leyaplicable, régimen individual o efectos de una aportación. IEF Documento165/2012, pasajes sobre adaptación y contenido de protocolos, no norma actual ni lectura íntegra. 554: Código Civil392/1665 como conceptos diferentes y página de advertencias CNMV; no elección jurídica o financiera. Título preventivo conservado; apertura aclara que las reglas no garantizan evitar pérdidas ni conservar amistad. E2.1.12/global747pendiente: sin enlace inexistente. 555: propuesta histórica de comunidad, producto actual y endpoint público de integración enabledfalse31/10/2026; blog y contacto disponibles, sin anunciar buscador, alta, perfiles o verificaciones operativos, fecha de lanzamiento o respaldo a inversiones. No activar Phoenix ni enviar mensajes.
 
 ## Continuación exacta
 
-Reanudar **553–555 / E4.5.13–E4.5.15**, Trabajo → Selección de Socios, tanda 37/56, entradas 13–15/15. Nueve originales WebP completos e inspeccionados, briefs, prompts, procedencia y notas conservados. Faltan investigación específica, textos y revisión completa. Después, **556–558 / E4.6.01–E4.6.03**, Trabajo → Experiencia como Activo. **501 / E4.2.06** y **512 / E4.3.02** siguen retenidas por título, con texto y 3 imágenes cada una, sin publicación; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Reanudar **556–558 / E4.6.01–E4.6.03**, Trabajo → Experiencia como Activo, tanda 38/56, entradas 1–3/15. Nueve originales WebP completos e inspeccionados, briefs, prompts, procedencia y notas conservados. Faltan investigación específica, textos y revisión completa. Después, **559–561 / E4.6.04–E4.6.06**. **501 / E4.2.06** y **512 / E4.3.02** siguen retenidas por título, con texto y 3 imágenes cada una, sin publicación; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
 
 ## Copias y límites
 
-VPS `/data/mee-backups/produccion-840-incremento-550-552-20261031`; SQL y66 medios nuevos. Cadena172 más base, hash y miembros comprobados; sin nueva restauración arrancada. Detalle en docs/produccion/2026-10-31-bloques-535-552.md.
+VPS `/data/mee-backups/produccion-840-incremento-553-555-20261031`; SQL y66 medios nuevos. Cadena173 más base, hash y miembros comprobados; sin nueva restauración arrancada. Detalle en docs/produccion/2026-10-31-bloques-535-555.md.
 
 ## Página de apoyo, donaciones y publicidad · 29/10/2026
 

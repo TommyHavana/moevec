@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-31T06:27:32+00:00.
+Comprobado en WordPress: 2026-10-31T06:42:46+00:00.
 
-**550/840 terminadas · 0 en curso · 290 pendientes.**
+**553/840 terminadas · 0 en curso · 287 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -564,9 +564,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 550 | 37/56 · 10/15 | E4.5.10 | Señales de alerta en un futuro socio | terminada | 3/3 | [Leer](https://moevec.org/blog/senales-de-alerta-futuro-socio/) |
 | 551 | 37/56 · 11/15 | E4.5.11 | Plantilla de entrevista para elegir socio | terminada | 3/3 | [Leer](https://moevec.org/blog/plantilla-entrevista-socio/) |
 | 552 | 37/56 · 12/15 | E4.5.12 | Proveedores como socios: relaciones de largo plazo | terminada | 3/3 | [Leer](https://moevec.org/blog/proveedores-como-socios/) |
-| 553 | 37/56 · 13/15 | E4.5.13 | Socios en la familia: matrimonio y negocio | pendiente | 0/3 | — |
-| 554 | 37/56 · 14/15 | E4.5.14 | Coinversión entre amigos: reglas para no perder ni dinero ni amistad | pendiente | 0/3 | — |
-| 555 | 37/56 · 15/15 | E4.5.15 | La comunidad MEE como red para encontrar socios (propuesta) | pendiente | 0/3 | — |
+| 553 | 37/56 · 13/15 | E4.5.13 | Socios en la familia: matrimonio y negocio | terminada | 3/3 | [Leer](https://moevec.org/blog/socios-en-la-familia-matrimonio-y-negocio/) |
+| 554 | 37/56 · 14/15 | E4.5.14 | Coinversión entre amigos: reglas para no perder ni dinero ni amistad | terminada | 3/3 | [Leer](https://moevec.org/blog/coinversion-entre-amigos/) |
+| 555 | 37/56 · 15/15 | E4.5.15 | La comunidad MEE como red para encontrar socios (propuesta) | terminada | 3/3 | [Leer](https://moevec.org/blog/comunidad-mee-red-de-socios/) |
 | 556 | 38/56 · 1/15 | E4.6.01 | La experiencia es capital: cómo valorarla | pendiente | 0/3 | — |
 | 557 | 38/56 · 2/15 | E4.6.02 | Conocimiento tácito: lo que sabes pero no sabes explicar | pendiente | 0/3 | — |
 | 558 | 38/56 · 3/15 | E4.6.03 | Convertir experiencia en servicio: consultoría para principiantes | pendiente | 0/3 | — |
