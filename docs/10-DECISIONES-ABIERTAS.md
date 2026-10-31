@@ -1335,3 +1335,14 @@ Minimalismo: artículo firmado de Bastos y resumen alojado por Robin, no libros 
 Continuar **493–495 / E4.1.13–E4.1.15**, Trabajo → Sacrificio Estratégico, tanda 33/56. Briefs originales y primeras fuentes localizadas; sin lectura final ni textos ni imágenes (0/3 cada una). No cuentan como terminadas. Siguen pendientes en WordPress. Después 496–498. Automatización activa, sin límite de imágenes comunicado.
 
 Sin cambios de arquitectura o taxonomía. Respaldo y evidencias en docs/produccion/2026-10-31-bloque-490-492.md y respaldo-490-492.md.
+
+
+## Producción continua 493–495 · 31/10/2026
+
+495/840 terminadas, 1485 imágenes originales públicas, 0 en curso o borradores WordPress y 345 pendientes.
+
+Pareja: asociación Dew 2012 y experimento Olson 2023, con selección y pérdidas; reunión mensual propia MEE sin eficacia causal afirmada. Dudas: marco laboral de Amabile/Kramer y orientación NIMH revisada en abril de 2026, sin terapia o diagnóstico atribuidos al diario. Suficiente: lectura parcial de Diener/Lucas/Scollon 2006, adaptación heterogénea; sin capítulo 1971 o libro Frankl fingidos leídos, cifra patrimonial o rentabilidad universal.
+
+Continuar **496–498 / E4.2.01–E4.2.03**, Trabajo → Inversión Personal, tanda 34/56. Preparación local iniciada; conservar imágenes existentes y revisar fuentes antes del texto. No cuenta como terminada ni como borrador WordPress. Después 499–501.
+
+Sin cambios de arquitectura o taxonomía. Evidencias: docs/produccion/2026-10-31-bloque-493-495.md y respaldo-493-495.md.

@@ -2,31 +2,27 @@
 
 ## Estado actual
 
-**492/840 terminadas, 1476 imágenes originales públicas, 0 en curso o borradores WordPress y 348 pendientes**. Sacrificio Estratégico 12/15, 32 tandas completas y Comunidad 60/60.
+**495/840 terminadas, 1485 imágenes originales públicas, 0 en curso o borradores WordPress y 345 pendientes**. Sacrificio Estratégico 15/15, 33 tandas completas; Comunidad 60/60.
 
 Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Inicio 486; producidas 487–492, seis entradas y 18 originales públicos.
+Inicio: 492 completas. Nuevas: 493–495, tres entradas con nueve originales públicos.
 
-Una publicación y tres adjuntos por ID. Categorías Trabajo y Sacrificio Estratégico, etiquetas de tema y nivel (desarrollo o aplicacion según brief). HTTP 200, H1, canonical, ausencia de noindex, Article, índice, sitemap, enlaces y nueve originales/variantes correctos. Navegación y BreadcrumbList Blog → Trabajo → Sacrificio Estratégico. Taxonomía 122 nodos y siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva ni posición.
+Una publicación y tres adjuntos por ID. Trabajo → Sacrificio Estratégico, etiquetas sacrificio-estrategico y aplicacion. HTTP 200, H1, canonical, indexabilidad declarada, Article, índice, sitemap, cinco enlaces existentes y nueve originales/variantes comprobados. Navegación y BreadcrumbList correctos. Taxonomía de 122 nodos y siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva.
 
 ## Revisión del último bloque
 
-Minimalismo: artículo firmado de Bastos y resumen alojado por Robin, no libros íntegros; revisión voluntaria y calidad de vida. Plan anual: propuesta MEE flexible, CFPB como ficha educativa, sin ahorro o inversión garantizados. Formación: WEF 2025 como expectativas 2030, índice actual sin edición 2026 inventada; Banco Mundial 2018 con métodos y límites, OCDE 2024 sobre competencias y cualificaciones, extracto Nussbaum sobre fines educativos. Lecturas primarias por web documentadas cuando descargas 403; sin retorno individual, habilitación o curso recomendado.
+Pareja: asociación Dew 2012 y experimento Olson 2023, con selección y pérdidas; reunión mensual propia MEE sin eficacia causal afirmada. Dudas: marco laboral de Amabile/Kramer y orientación NIMH revisada en abril de 2026, sin terapia o diagnóstico atribuidos al diario. Suficiente: lectura parcial de Diener/Lucas/Scollon 2006, adaptación heterogénea; sin capítulo 1971 o libro Frankl fingidos leídos, cifra patrimonial o rentabilidad universal.
 
 ## Continuación exacta
 
-Reanudar **493–495 / E4.1.13–E4.1.15**, Trabajo → Sacrificio Estratégico, tanda 33/56. Cada una tiene sus tres originales WebP completos y revisados (3/3), briefs y fuentes iniciales guardados. Faltan lectura final de fuentes y textos; no article.json, borradores ni publicaciones. Las tres siguen dentro de las 348 pendientes de WordPress. No regenerar ni duplicar medios. Después 496–498. Automatización activa; no hay agotamiento de imágenes comunicado.
+Continuar **496–498 / E4.2.01–E4.2.03**, Trabajo → Inversión Personal, tanda 34/56. Preparación local iniciada; conservar imágenes existentes y revisar fuentes antes del texto. No cuenta como terminada ni como borrador WordPress. Después 499–501.
 
 ## Copias y límites
 
-VPS hasta 492: SQL completo y 66 medios nuevos, hashes y miembros verificados; 151 incrementos consecutivos. Sin nueva prueba de arranque de restauración completa. Incremento local y fuente privada referenciados al cierre.
-
-## Traspaso
-
-Producción continua autorizada sin confirmaciones. WordPress es estado real. Reanudar expedientes y no contar preparaciones como terminadas. Sin cambios de arquitectura, DNS, correo, autenticación, tema o taxonomía; sin despliegue React por contenido.
+VPS hasta 495, SQL completo y 66 medios nuevos; hashes y miembros verificados, 152 incrementos consecutivos. Copia local y fuente privada al cierre. Sin nueva prueba de arranque completo. Producción continua autorizada sin confirmaciones; WordPress es el estado real.
 
 ## Página de apoyo, donaciones y publicidad · 29/10/2026
 

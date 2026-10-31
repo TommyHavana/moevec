@@ -1,3 +1,11 @@
-# Preparación · E4.1.15
+# Investigación · E4.1.15
 
-Tres originales completos, vistos individualmente y en mosaico 493–495. Portada1200×630 e interiores 1600×900, WebP<250000B y hashes distintos. Brief y fuentes iniciales conservados, sin lectura final ni texto. No article.json ni publicación. Reanudar por lectura de fuentes; no regenerar ni duplicar medios.
+Diener, Lucas y Scollon, Beyond the Hedonic Treadmill: Revising the Adaptation Theory of Well-Being, 2006
+https://labs.psychology.illinois.edu/~ediener/Documents/Diener-Lucas-Scollon_2006.pdf
+Resumen e introducción de p. 305 y revisiones tercera y cuarta de pp. 307–308. Lectura parcial del texto primario: heterogeneidad y componentes del bienestar; sin adaptación universal ni plazo fijo.
+
+Excluido:
+- Capítulo Brickman/Campbell 1971 o libro F-050 de Frankl fingidos leídos; citas no comprobadas.
+- Toda mejora pierde su efecto, vuelta neutral universal o trayectoria única del bienestar.
+- Importe universal de patrimonio, tasas de retirada, rentabilidad garantizada o recomendación de inversión.
+- La ficha MEE de suficiente como intervención validada por Diener y colaboradores.

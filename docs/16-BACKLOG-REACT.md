@@ -1,6 +1,6 @@
 # Backlog de MEE
 
-Último estado: **492/840 terminadas, 1476 imágenes originales públicas, 0 en curso o borradores WordPress y 348 pendientes**. Sacrificio Estratégico 12/15 y 32 tandas completas. Reanudar **493–495 / E4.1.13–E4.1.15**, Trabajo → Sacrificio Estratégico, tanda 33/56. Cada una tiene sus tres originales WebP completos y revisados (3/3), briefs y fuentes iniciales guardados. Faltan lectura final de fuentes y textos; no article.json, borradores ni publicaciones. Las tres siguen dentro de las 348 pendientes de WordPress. No regenerar ni duplicar medios. Después 496–498. Automatización activa; no hay agotamiento de imágenes comunicado.
+Último estado: **495/840 terminadas, 1485 imágenes originales públicas, 0 en curso o borradores WordPress y 345 pendientes**. Sacrificio Estratégico 15/15, 33 tandas completas. Continuar **496–498 / E4.2.01–E4.2.03**, Trabajo → Inversión Personal, tanda 34/56. Preparación local iniciada; conservar imágenes existentes y revisar fuentes antes del texto. No cuenta como terminada ni como borrador WordPress. Después 499–501. Categorías exactas, 122 nodos y siete raíces; sin despliegue React por contenido.
 
 
 Historial anterior: producción comprobada tras el bloque 4–6: 6/840 terminadas. En elaboración local: 7–9 con nueve imágenes propias; todavía no cuentan como publicadas. Consultar siempre WordPress y el registro 24 para el estado más reciente.

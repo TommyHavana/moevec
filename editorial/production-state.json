@@ -1,96 +1,89 @@
 {
   "automation_id": "producci-n-editorial-mee-840",
   "mode": "continuous_blocks_of_three",
-  "completed_at_start": 492,
+  "completed_at_start": 495,
   "current_block": [
-    493,
-    494,
-    495
-  ],
-  "current_ids": [
-    "E4.1.13",
-    "E4.1.14",
-    "E4.1.15"
-  ],
-  "area": "trabajo",
-  "topic": "sacrificio-estrategico",
-  "phase": "images_ready_text_sources_pending",
-  "next_after_block": [
     496,
     497,
     498
   ],
-  "updated_at": "2026-10-31T01:22:13.320725+00:00",
-  "last_completed_block": [
-    490,
-    491,
-    492
+  "current_ids": [
+    "E4.2.01",
+    "E4.2.02",
+    "E4.2.03"
   ],
-  "notes": "492/840 publicadas y verificadas; 0 en curso WP,348 pendientes. 493–495 con nueve originales listos y revisados, fuentes por revisar y sin textos. Reanudar fuentes/textos; no duplicar imágenes. Después496–498. Sin límite temporal de generación comunicado.",
+  "area": "trabajo",
+  "topic": "inversion-personal",
+  "phase": "images_ready_text_sources_pending",
+  "next_after_block": [
+    499,
+    500,
+    501
+  ],
+  "updated_at": "2026-10-31T01:41:49.735402+00:00",
+  "last_completed_block": [
+    493,
+    494,
+    495
+  ],
+  "notes": "495/840 publicadas y verificadas; Sacrificio Estratégico 15/15, 33 tandas completas. 496–498 con nueve originales listos y revisados; fuentes en revisión y sin textos. No duplicar imágenes. Después 499–501.",
   "last_backup": {
-    "directory": "/data/mee-backups/produccion-840-incremento-490-492-20261031",
-    "completed_articles": 492,
-    "sql_bytes": 19814169,
+    "directory": "/data/mee-backups/produccion-840-incremento-493-495-20261031",
+    "completed_articles": 495,
+    "sql_bytes": 19929949,
     "upload_files": 66,
-    "uploads_bytes": 2222983,
+    "uploads_bytes": 2635932,
     "checksums_verified": true,
     "archive_verified": true,
-    "overlays": 151,
+    "overlays": 152,
     "chain_contiguous": true,
     "restore_test": false
   },
-  "last_local_backup": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Editorial_Preparacion_493-495_2026-10-31_incremental.zip",
+  "last_local_backup": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Editorial_493-495_2026-10-31_incremental.zip",
   "completed_this_run": [
-    487,
-    488,
-    489,
-    490,
-    491,
-    492
+    493,
+    494,
+    495
   ],
-  "run_started_with_completed": 486,
+  "run_started_with_completed": 492,
   "local_preparations": [
     {
-      "number": 493,
-      "id": "E4.1.13",
+      "number": 496,
+      "id": "E4.2.01",
       "images": 3,
       "images_visually_checked": true,
       "article_complete": false,
       "sources_verified": false,
-      "published": false,
-      "sources_downloaded": 1
+      "published": false
     },
     {
-      "number": 494,
-      "id": "E4.1.14",
+      "number": 497,
+      "id": "E4.2.02",
       "images": 3,
       "images_visually_checked": true,
       "article_complete": false,
       "sources_verified": false,
-      "published": false,
-      "sources_downloaded": 1
+      "published": false
     },
     {
-      "number": 495,
-      "id": "E4.1.15",
+      "number": 498,
+      "id": "E4.2.03",
       "images": 3,
       "images_visually_checked": true,
       "article_complete": false,
       "sources_verified": false,
-      "published": false,
-      "sources_downloaded": 1
+      "published": false
     }
   ],
-  "local_backup_kind": "incremental_preparation",
+  "local_backup_kind": "incremental",
   "local_backup_base": {
-    "path": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Editorial_490-492_2026-10-31_incremental.zip",
-    "sha256": "316848a37aad7ca484db2a74efe3c46af5288e33d67975c3f3059a2de1645e27"
+    "path": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Editorial_Preparacion_493-495_2026-10-31_incremental.zip",
+    "sha256": "2fbedda032a450812eb4bcbaf97b288c03b3c2dcbc928ec914c94d98e28d4b8f"
   },
   "storage_check": {
-    "checked_at": "2026-10-31T01:22:52.390693+00:00",
-    "free_bytes": 10773405696,
-    "originals_and_backups_preserved": true,
-    "note": "Preparación local de493–495, WordPress permanece492 completo."
+    "checked_at": "2026-10-31T01:39:03.690939+00:00",
+    "free_bytes": 10682724352,
+    "originals_and_backups_preserved": true
   },
   "last_run_closed_at_madrid": "2026-10-31"
 }

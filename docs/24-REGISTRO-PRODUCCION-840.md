@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-31T01:15:19+00:00.
+Comprobado en WordPress: 2026-10-31T01:36:21+00:00.
 
-**492/840 terminadas · 0 en curso · 348 pendientes.**
+**495/840 terminadas · 0 en curso · 345 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -504,9 +504,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 490 | 33/56 · 10/15 | E4.1.10 | Vivir con menos para invertir más: el minimalismo productivo | terminada | 3/3 | [Leer](https://moevec.org/blog/minimalismo-productivo/) |
 | 491 | 33/56 · 11/15 | E4.1.11 | Plan de sacrificio a 12 meses para tu primer capital | terminada | 3/3 | [Leer](https://moevec.org/blog/plan-12-meses-primer-capital/) |
 | 492 | 33/56 · 12/15 | E4.1.12 | Sacrificar ocio por formación: qué estudiar con mejor retorno | terminada | 3/3 | [Leer](https://moevec.org/blog/sacrificar-ocio-por-formacion/) |
-| 493 | 33/56 · 13/15 | E4.1.13 | Sacrificio compartido en pareja: acordar metas económicas | pendiente | 0/3 | — |
-| 494 | 33/56 · 14/15 | E4.1.14 | Lo que nadie cuenta del sacrificio: soledad, dudas y recaídas | pendiente | 0/3 | — |
-| 495 | 33/56 · 15/15 | E4.1.15 | Cuándo dejar de sacrificarse: disfrutar lo construido | pendiente | 0/3 | — |
+| 493 | 33/56 · 13/15 | E4.1.13 | Sacrificio compartido en pareja: acordar metas económicas | terminada | 3/3 | [Leer](https://moevec.org/blog/sacrificio-compartido-en-pareja/) |
+| 494 | 33/56 · 14/15 | E4.1.14 | Lo que nadie cuenta del sacrificio: soledad, dudas y recaídas | terminada | 3/3 | [Leer](https://moevec.org/blog/lo-que-nadie-cuenta-del-sacrificio/) |
+| 495 | 33/56 · 15/15 | E4.1.15 | Cuándo dejar de sacrificarse: disfrutar lo construido | terminada | 3/3 | [Leer](https://moevec.org/blog/cuando-dejar-de-sacrificarse/) |
 | 496 | 34/56 · 1/15 | E4.2.01 | Capital humano: la inversión que no te pueden expropiar | pendiente | 0/3 | — |
 | 497 | 34/56 · 2/15 | E4.2.02 | Los cuatro capitales personales: humano, social, financiero y de salud | pendiente | 0/3 | — |
 | 498 | 34/56 · 3/15 | E4.2.03 | Práctica deliberada: cómo se construye la excelencia | pendiente | 0/3 | — |
