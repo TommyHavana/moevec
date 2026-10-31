@@ -18,7 +18,7 @@ Capital humano: introducción Becker 1964 leída, crítica Caplan atribuida desd
 
 ## Continuación exacta
 
-Continuar **499–501 / E4.2.04–E4.2.06**, Trabajo → Inversión Personal, tanda 34/56. Briefs originales y preparación de fuentes e imágenes iniciados. Reanudar recursos existentes sin duplicar. Después 502–504.
+Continuar **499–501 / E4.2.04–E4.2.06**, Trabajo → Inversión Personal, tanda 34/56. Nueve originales generados, vistos individualmente y en mosaico, guardados en WebP: 3/3 por entrada. Lecturas parciales y tareas exactas en los expedientes; falta revisión final de fuentes y texto. No publicados ni contados como terminados. Reanudar fuentes/textos sin duplicar imágenes. Después 502–504.
 
 ## Copias y límites
 

@@ -1354,6 +1354,6 @@ Sin cambios de arquitectura o taxonomía. Evidencias: docs/produccion/2026-10-31
 
 Capital humano: introducción Becker 1964 leída, crítica Caplan atribuida desde ficha editorial y texto firmado, límites de portabilidad y ejemplo UE de reconocimiento profesional. Cuatro ámbitos propios de MEE, solapados, sin clasificación o escala atribuida a Bourdieu; Putnam no fingido leído. Práctica: lectura parcial Ericsson 1993 y Ericsson/Harwell 2019; metaanálisis 2014 con corrección 2018 y total 14 % de varianza, sin causalidad individual, número mágico o genética deducida del resto.
 
-Continuar **499–501 / E4.2.04–E4.2.06**, Trabajo → Inversión Personal, tanda 34/56. Briefs originales y preparación de fuentes e imágenes iniciados. Reanudar recursos existentes sin duplicar. Después 502–504.
+Continuar **499–501 / E4.2.04–E4.2.06**, Trabajo → Inversión Personal, tanda 34/56. Nueve originales generados, vistos individualmente y en mosaico, guardados en WebP: 3/3 por entrada. Lecturas parciales y tareas exactas en los expedientes; falta revisión final de fuentes y texto. No publicados ni contados como terminados. Reanudar fuentes/textos sin duplicar imágenes. Después 502–504.
 
 Sin cambios de arquitectura o taxonomía. Evidencias: docs/produccion/2026-10-31-bloque-496-498.md y respaldo-496-498.md.
