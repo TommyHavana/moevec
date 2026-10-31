@@ -9,6 +9,9 @@ for row in rows:
  d=r/'editorial/articles'/row['id'];v=json.load(open(d/'verification.json'));assert not v['issues']and len(v['images'])==3;words.append(json.load(open(d/'source-review.json'))['text_checks']['main_words'])
  for name in ['research.json','metadata-draft.json','source-preparation.json']:
   p=d/name;x=json.load(open(p));x.update(phase='published_verified',published=True,article_complete=True,images_complete=True,sources_verified=True,review_status='PUBLISHED_VERIFIED',pending=[],verified_at=now);write(p,x)
+ sp=d/'sources/research-scope-progress.json'
+ if sp.exists():
+  x=json.load(open(sp));x.update(phase='published_verified',sources_verified=True,published=True,note='Artículo completo, publicado y comprobado; alcance de lectura en source-review.json.',verified_at=now);write(sp,x)
  p=d/'review.md';p.write_text(p.read_text()+'\n## Publicación comprobada\n\nHTTP200, H1, canonical, indexabilidad, Article, tres originales con alt y hash, imágenes renderizadas, índice, BreadcrumbList, sitemap y enlaces existentes verificados. Una publicación y tres adjuntos porID, categorías y etiquetas delplan; taxonomía122/7. No acredita indexación efectiva ni una restauración completa.\n')
 counts=reg['counts'];images=sum(x['images']for x in reg['entries']if x['status']=='terminada');batches={x['batch']for x in reg['entries']};complete_batches=sum(sum(x['status']=='terminada'for x in reg['entries']if x['batch']==n)==15 for n in batches);topic=rows[0]['topic'];topicdone=sum(x['status']=='terminada'for x in reg['entries']if x['topic']==topic);summary=f"**{counts['terminada']}/840 terminadas, {images} imágenes originales públicas, {counts['en curso']} en curso o borradores WordPress y {counts['pendiente']} pendientes**. {rows[0]['topic_name']}{topicdone}/15; {complete_batches} tandas completas."
 nextrows=[x for x in reg['entries']if nextstart<=x['number']<nextstart+3];assert len(nextrows)==3

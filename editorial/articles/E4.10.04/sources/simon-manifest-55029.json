@@ -1,0 +1,886 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Manifest",
+  "label": "Book Chapter -- \"Designing Organizations for an Information-Rich World\" -- Simon -- COMPUTERS, COMMUNICATIONS AND THE PUBLIC INTEREST -- Greenberger, ed. -- Draft - papers (documents)",
+  "@id": "http://iiif.library.cmu.edu/manifest/Simon_box00087_fld07016_bdl0003_doc0001/manifest.json",
+  "metadata": [
+    {
+      "label": "CMU Digital Collection",
+      "value": "Herbert A. Simon Papers"
+    },
+    {
+      "label": "Title",
+      "value": "Book Chapter -- \"Designing Organizations for an Information-Rich World\" -- Simon -- COMPUTERS, COMMUNICATIONS AND THE PUBLIC INTEREST -- Greenberger, ed. -- Draft - papers (documents)"
+    },
+    {
+      "label": "Date",
+      "value": "1969-09-01"
+    },
+    {
+      "label": "Language",
+      "value": "English"
+    },
+    {
+      "label": "Persistent Link",
+      "value": "http://doi.library.cmu.edu/10.1184/pmc/simon/box081-090/box00087/fld07016/bdl0003/doc0001"
+    }
+  ],
+  "description": "Book Chapter -- \"Designing Organizations for an Information-Rich World\" -- Simon -- COMPUTERS, COMMUNICATIONS AND THE PUBLIC INTEREST -- Greenberger, ed. -- Draft - papers (documents): from Carnegie Mellon University: Herbert A. Simon Papers",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "paged",
+  "navDate": "1969-09-01T00:00:00Z",
+  "license": "http://rightsstatements.org/vocab/InC-NC/1.0/",
+  "attribution": "Provided by Carnegie Mellon University Archives & Special Collections",
+  "logo": {
+    "@id": "http://iiif.library.cmu.edu/file/CMU_DIGITAL_COLLECTIONS/cmu_logo.png"
+  },
+  "related": {
+    "@id": "http://doi.library.cmu.edu/10.1184/pmc/simon/box081-090/box00087/fld07016/bdl0003/doc0001",
+    "format": "text/html"
+  },
+  "rendering": [
+    {
+      "@id": "http://iiif.library.cmu.edu/file/Simon_box00087_fld07016_bdl0003_doc0001/Simon_box00087_fld07016_bdl0003_doc0001.pdf",
+      "label": "Download this item (PDF, 30 pages, 3.2 MB)",
+      "format": "application/pdf"
+    },
+    {
+      "@id": "http://doi.library.cmu.edu/10.1184/pmc/simon/box081-090/box00087/fld07016/bdl0003/doc0001",
+      "label": "Persistent Link",
+      "format": "text/html"
+    }
+  ],
+  "within": "http://digitalcollections.library.cmu.edu",
+  "service": {
+    "@context": "http://iiif.io/api/search/0/context.json",
+    "@id": "https://iiif.library.cmu.edu/search-api/Simon_box00087_fld07016_bdl0003_doc0001/search",
+    "profile": "http://iiif.io/api/search/0/search",
+    "label": "Search inside this item."
+  },
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/sequence/normal",
+      "rendering": [
+        {
+          "@id": "http://iiif.library.cmu.edu/file/Simon_box00087_fld07016_bdl0003_doc0001/Simon_box00087_fld07016_bdl0003_doc0001.pdf",
+          "label": "Download this item (PDF, 30 pages, 3.2 MB)",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/1",
+          "label": "page 1",
+          "height": 6600,
+          "width": 5120,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "on": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/1",
+              "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/annotation/1",
+              "motivation": "sc:painting",
+              "resource": {
+                "format": "image/tiff",
+                "height": 6600,
+                "width": 5120,
+                "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/image/1",
+                "@type": "dctypes:Image",
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cmu.edu/iiif/2/http%3A%2F%2Fcdn1.library.cmu.edu%2Fpid%2FSimon_box00087_fld07016_bdl0003_doc0001%2Ftiff%2F00000001.tif"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/2",
+          "label": "page 2",
+          "height": 6600,
+          "width": 5120,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "on": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/2",
+              "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/annotation/2",
+              "motivation": "sc:painting",
+              "resource": {
+                "format": "image/tiff",
+                "height": 6600,
+                "width": 5120,
+                "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/image/2",
+                "@type": "dctypes:Image",
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cmu.edu/iiif/2/http%3A%2F%2Fcdn1.library.cmu.edu%2Fpid%2FSimon_box00087_fld07016_bdl0003_doc0001%2Ftiff%2F00000002.tif"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/3",
+          "label": "page 3",
+          "height": 6600,
+          "width": 5120,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "on": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/3",
+              "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/annotation/3",
+              "motivation": "sc:painting",
+              "resource": {
+                "format": "image/tiff",
+                "height": 6600,
+                "width": 5120,
+                "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/image/3",
+                "@type": "dctypes:Image",
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cmu.edu/iiif/2/http%3A%2F%2Fcdn1.library.cmu.edu%2Fpid%2FSimon_box00087_fld07016_bdl0003_doc0001%2Ftiff%2F00000003.tif"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/4",
+          "label": "page 4",
+          "height": 6600,
+          "width": 5120,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "on": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/4",
+              "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/annotation/4",
+              "motivation": "sc:painting",
+              "resource": {
+                "format": "image/tiff",
+                "height": 6600,
+                "width": 5120,
+                "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/image/4",
+                "@type": "dctypes:Image",
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cmu.edu/iiif/2/http%3A%2F%2Fcdn1.library.cmu.edu%2Fpid%2FSimon_box00087_fld07016_bdl0003_doc0001%2Ftiff%2F00000004.tif"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/5",
+          "label": "page 5",
+          "height": 6600,
+          "width": 5120,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "on": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/5",
+              "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/annotation/5",
+              "motivation": "sc:painting",
+              "resource": {
+                "format": "image/tiff",
+                "height": 6600,
+                "width": 5120,
+                "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/image/5",
+                "@type": "dctypes:Image",
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cmu.edu/iiif/2/http%3A%2F%2Fcdn1.library.cmu.edu%2Fpid%2FSimon_box00087_fld07016_bdl0003_doc0001%2Ftiff%2F00000005.tif"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/6",
+          "label": "page 6",
+          "height": 6600,
+          "width": 5120,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "on": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/6",
+              "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/annotation/6",
+              "motivation": "sc:painting",
+              "resource": {
+                "format": "image/tiff",
+                "height": 6600,
+                "width": 5120,
+                "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/image/6",
+                "@type": "dctypes:Image",
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cmu.edu/iiif/2/http%3A%2F%2Fcdn1.library.cmu.edu%2Fpid%2FSimon_box00087_fld07016_bdl0003_doc0001%2Ftiff%2F00000006.tif"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/7",
+          "label": "page 7",
+          "height": 6600,
+          "width": 5120,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "on": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/7",
+              "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/annotation/7",
+              "motivation": "sc:painting",
+              "resource": {
+                "format": "image/tiff",
+                "height": 6600,
+                "width": 5120,
+                "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/image/7",
+                "@type": "dctypes:Image",
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cmu.edu/iiif/2/http%3A%2F%2Fcdn1.library.cmu.edu%2Fpid%2FSimon_box00087_fld07016_bdl0003_doc0001%2Ftiff%2F00000007.tif"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/8",
+          "label": "page 8",
+          "height": 6600,
+          "width": 5120,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "on": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/8",
+              "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/annotation/8",
+              "motivation": "sc:painting",
+              "resource": {
+                "format": "image/tiff",
+                "height": 6600,
+                "width": 5120,
+                "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/image/8",
+                "@type": "dctypes:Image",
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cmu.edu/iiif/2/http%3A%2F%2Fcdn1.library.cmu.edu%2Fpid%2FSimon_box00087_fld07016_bdl0003_doc0001%2Ftiff%2F00000008.tif"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/9",
+          "label": "page 9",
+          "height": 6600,
+          "width": 5120,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "on": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/9",
+              "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/annotation/9",
+              "motivation": "sc:painting",
+              "resource": {
+                "format": "image/tiff",
+                "height": 6600,
+                "width": 5120,
+                "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/image/9",
+                "@type": "dctypes:Image",
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cmu.edu/iiif/2/http%3A%2F%2Fcdn1.library.cmu.edu%2Fpid%2FSimon_box00087_fld07016_bdl0003_doc0001%2Ftiff%2F00000009.tif"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/10",
+          "label": "page 10",
+          "height": 6600,
+          "width": 5120,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "on": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/10",
+              "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/annotation/10",
+              "motivation": "sc:painting",
+              "resource": {
+                "format": "image/tiff",
+                "height": 6600,
+                "width": 5120,
+                "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/image/10",
+                "@type": "dctypes:Image",
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cmu.edu/iiif/2/http%3A%2F%2Fcdn1.library.cmu.edu%2Fpid%2FSimon_box00087_fld07016_bdl0003_doc0001%2Ftiff%2F00000010.tif"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/11",
+          "label": "page 11",
+          "height": 6600,
+          "width": 5120,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "on": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/11",
+              "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/annotation/11",
+              "motivation": "sc:painting",
+              "resource": {
+                "format": "image/tiff",
+                "height": 6600,
+                "width": 5120,
+                "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/image/11",
+                "@type": "dctypes:Image",
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cmu.edu/iiif/2/http%3A%2F%2Fcdn1.library.cmu.edu%2Fpid%2FSimon_box00087_fld07016_bdl0003_doc0001%2Ftiff%2F00000011.tif"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/12",
+          "label": "page 12",
+          "height": 6600,
+          "width": 5120,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "on": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/12",
+              "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/annotation/12",
+              "motivation": "sc:painting",
+              "resource": {
+                "format": "image/tiff",
+                "height": 6600,
+                "width": 5120,
+                "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/image/12",
+                "@type": "dctypes:Image",
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cmu.edu/iiif/2/http%3A%2F%2Fcdn1.library.cmu.edu%2Fpid%2FSimon_box00087_fld07016_bdl0003_doc0001%2Ftiff%2F00000012.tif"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/13",
+          "label": "page 13",
+          "height": 6600,
+          "width": 5120,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "on": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/13",
+              "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/annotation/13",
+              "motivation": "sc:painting",
+              "resource": {
+                "format": "image/tiff",
+                "height": 6600,
+                "width": 5120,
+                "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/image/13",
+                "@type": "dctypes:Image",
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cmu.edu/iiif/2/http%3A%2F%2Fcdn1.library.cmu.edu%2Fpid%2FSimon_box00087_fld07016_bdl0003_doc0001%2Ftiff%2F00000013.tif"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/14",
+          "label": "page 14",
+          "height": 6600,
+          "width": 5120,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "on": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/14",
+              "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/annotation/14",
+              "motivation": "sc:painting",
+              "resource": {
+                "format": "image/tiff",
+                "height": 6600,
+                "width": 5120,
+                "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/image/14",
+                "@type": "dctypes:Image",
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cmu.edu/iiif/2/http%3A%2F%2Fcdn1.library.cmu.edu%2Fpid%2FSimon_box00087_fld07016_bdl0003_doc0001%2Ftiff%2F00000014.tif"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/15",
+          "label": "page 15",
+          "height": 6600,
+          "width": 5120,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "on": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/15",
+              "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/annotation/15",
+              "motivation": "sc:painting",
+              "resource": {
+                "format": "image/tiff",
+                "height": 6600,
+                "width": 5120,
+                "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/image/15",
+                "@type": "dctypes:Image",
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cmu.edu/iiif/2/http%3A%2F%2Fcdn1.library.cmu.edu%2Fpid%2FSimon_box00087_fld07016_bdl0003_doc0001%2Ftiff%2F00000015.tif"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/16",
+          "label": "page 16",
+          "height": 6600,
+          "width": 5120,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "on": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/16",
+              "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/annotation/16",
+              "motivation": "sc:painting",
+              "resource": {
+                "format": "image/tiff",
+                "height": 6600,
+                "width": 5120,
+                "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/image/16",
+                "@type": "dctypes:Image",
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cmu.edu/iiif/2/http%3A%2F%2Fcdn1.library.cmu.edu%2Fpid%2FSimon_box00087_fld07016_bdl0003_doc0001%2Ftiff%2F00000016.tif"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/17",
+          "label": "page 17",
+          "height": 6600,
+          "width": 5120,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "on": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/17",
+              "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/annotation/17",
+              "motivation": "sc:painting",
+              "resource": {
+                "format": "image/tiff",
+                "height": 6600,
+                "width": 5120,
+                "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/image/17",
+                "@type": "dctypes:Image",
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cmu.edu/iiif/2/http%3A%2F%2Fcdn1.library.cmu.edu%2Fpid%2FSimon_box00087_fld07016_bdl0003_doc0001%2Ftiff%2F00000017.tif"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/18",
+          "label": "page 18",
+          "height": 6600,
+          "width": 5120,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "on": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/18",
+              "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/annotation/18",
+              "motivation": "sc:painting",
+              "resource": {
+                "format": "image/tiff",
+                "height": 6600,
+                "width": 5120,
+                "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/image/18",
+                "@type": "dctypes:Image",
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cmu.edu/iiif/2/http%3A%2F%2Fcdn1.library.cmu.edu%2Fpid%2FSimon_box00087_fld07016_bdl0003_doc0001%2Ftiff%2F00000018.tif"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/19",
+          "label": "page 19",
+          "height": 6600,
+          "width": 5120,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "on": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/19",
+              "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/annotation/19",
+              "motivation": "sc:painting",
+              "resource": {
+                "format": "image/tiff",
+                "height": 6600,
+                "width": 5120,
+                "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/image/19",
+                "@type": "dctypes:Image",
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cmu.edu/iiif/2/http%3A%2F%2Fcdn1.library.cmu.edu%2Fpid%2FSimon_box00087_fld07016_bdl0003_doc0001%2Ftiff%2F00000019.tif"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/20",
+          "label": "page 20",
+          "height": 6600,
+          "width": 5120,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "on": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/20",
+              "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/annotation/20",
+              "motivation": "sc:painting",
+              "resource": {
+                "format": "image/tiff",
+                "height": 6600,
+                "width": 5120,
+                "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/image/20",
+                "@type": "dctypes:Image",
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cmu.edu/iiif/2/http%3A%2F%2Fcdn1.library.cmu.edu%2Fpid%2FSimon_box00087_fld07016_bdl0003_doc0001%2Ftiff%2F00000020.tif"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/21",
+          "label": "page 21",
+          "height": 6600,
+          "width": 5120,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "on": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/21",
+              "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/annotation/21",
+              "motivation": "sc:painting",
+              "resource": {
+                "format": "image/tiff",
+                "height": 6600,
+                "width": 5120,
+                "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/image/21",
+                "@type": "dctypes:Image",
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cmu.edu/iiif/2/http%3A%2F%2Fcdn1.library.cmu.edu%2Fpid%2FSimon_box00087_fld07016_bdl0003_doc0001%2Ftiff%2F00000021.tif"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/22",
+          "label": "page 22",
+          "height": 6600,
+          "width": 5120,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "on": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/22",
+              "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/annotation/22",
+              "motivation": "sc:painting",
+              "resource": {
+                "format": "image/tiff",
+                "height": 6600,
+                "width": 5120,
+                "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/image/22",
+                "@type": "dctypes:Image",
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cmu.edu/iiif/2/http%3A%2F%2Fcdn1.library.cmu.edu%2Fpid%2FSimon_box00087_fld07016_bdl0003_doc0001%2Ftiff%2F00000022.tif"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/23",
+          "label": "page 23",
+          "height": 6600,
+          "width": 5120,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "on": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/23",
+              "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/annotation/23",
+              "motivation": "sc:painting",
+              "resource": {
+                "format": "image/tiff",
+                "height": 6600,
+                "width": 5120,
+                "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/image/23",
+                "@type": "dctypes:Image",
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cmu.edu/iiif/2/http%3A%2F%2Fcdn1.library.cmu.edu%2Fpid%2FSimon_box00087_fld07016_bdl0003_doc0001%2Ftiff%2F00000023.tif"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/24",
+          "label": "page 24",
+          "height": 6600,
+          "width": 5120,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "on": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/24",
+              "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/annotation/24",
+              "motivation": "sc:painting",
+              "resource": {
+                "format": "image/tiff",
+                "height": 6600,
+                "width": 5120,
+                "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/image/24",
+                "@type": "dctypes:Image",
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cmu.edu/iiif/2/http%3A%2F%2Fcdn1.library.cmu.edu%2Fpid%2FSimon_box00087_fld07016_bdl0003_doc0001%2Ftiff%2F00000024.tif"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/25",
+          "label": "page 25",
+          "height": 6600,
+          "width": 5120,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "on": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/25",
+              "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/annotation/25",
+              "motivation": "sc:painting",
+              "resource": {
+                "format": "image/tiff",
+                "height": 6600,
+                "width": 5120,
+                "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/image/25",
+                "@type": "dctypes:Image",
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cmu.edu/iiif/2/http%3A%2F%2Fcdn1.library.cmu.edu%2Fpid%2FSimon_box00087_fld07016_bdl0003_doc0001%2Ftiff%2F00000025.tif"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/26",
+          "label": "page 26",
+          "height": 6600,
+          "width": 5120,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "on": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/26",
+              "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/annotation/26",
+              "motivation": "sc:painting",
+              "resource": {
+                "format": "image/tiff",
+                "height": 6600,
+                "width": 5120,
+                "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/image/26",
+                "@type": "dctypes:Image",
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cmu.edu/iiif/2/http%3A%2F%2Fcdn1.library.cmu.edu%2Fpid%2FSimon_box00087_fld07016_bdl0003_doc0001%2Ftiff%2F00000026.tif"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/27",
+          "label": "page 27",
+          "height": 6600,
+          "width": 5120,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "on": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/27",
+              "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/annotation/27",
+              "motivation": "sc:painting",
+              "resource": {
+                "format": "image/tiff",
+                "height": 6600,
+                "width": 5120,
+                "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/image/27",
+                "@type": "dctypes:Image",
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cmu.edu/iiif/2/http%3A%2F%2Fcdn1.library.cmu.edu%2Fpid%2FSimon_box00087_fld07016_bdl0003_doc0001%2Ftiff%2F00000027.tif"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/28",
+          "label": "page 28",
+          "height": 6600,
+          "width": 5120,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "on": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/28",
+              "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/annotation/28",
+              "motivation": "sc:painting",
+              "resource": {
+                "format": "image/tiff",
+                "height": 6600,
+                "width": 5120,
+                "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/image/28",
+                "@type": "dctypes:Image",
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cmu.edu/iiif/2/http%3A%2F%2Fcdn1.library.cmu.edu%2Fpid%2FSimon_box00087_fld07016_bdl0003_doc0001%2Ftiff%2F00000028.tif"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/29",
+          "label": "page 29",
+          "height": 6600,
+          "width": 5120,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "on": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/29",
+              "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/annotation/29",
+              "motivation": "sc:painting",
+              "resource": {
+                "format": "image/tiff",
+                "height": 6600,
+                "width": 5120,
+                "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/image/29",
+                "@type": "dctypes:Image",
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cmu.edu/iiif/2/http%3A%2F%2Fcdn1.library.cmu.edu%2Fpid%2FSimon_box00087_fld07016_bdl0003_doc0001%2Ftiff%2F00000029.tif"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/30",
+          "label": "page 30",
+          "height": 6600,
+          "width": 5120,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "on": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/canvas/30",
+              "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/annotation/30",
+              "motivation": "sc:painting",
+              "resource": {
+                "format": "image/tiff",
+                "height": 6600,
+                "width": 5120,
+                "@id": "http://iiif.library.cmu.edu/iiif/Simon_box00087_fld07016_bdl0003_doc0001/image/30",
+                "@type": "dctypes:Image",
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cmu.edu/iiif/2/http%3A%2F%2Fcdn1.library.cmu.edu%2Fpid%2FSimon_box00087_fld07016_bdl0003_doc0001%2Ftiff%2F00000030.tif"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

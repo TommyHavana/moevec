@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-31T13:36:12+00:00.
+Comprobado en WordPress: 2026-10-31T13:54:26+00:00.
 
-**616/840 terminadas · 0 en curso · 224 pendientes.**
+**619/840 terminadas · 0 en curso · 221 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -630,9 +630,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 616 | 42/56 · 1/15 | E4.10.01 | Cuatro mil semanas: por qué el tiempo es tu recurso más escaso | terminada | 3/3 | [Leer](https://moevec.org/blog/cuatro-mil-semanas/) |
 | 617 | 42/56 · 2/15 | E4.10.02 | El valor de tu hora: calcularlo para decidir mejor | terminada | 3/3 | [Leer](https://moevec.org/blog/valor-de-tu-hora/) |
 | 618 | 42/56 · 3/15 | E4.10.03 | Ley de Parkinson: el trabajo se expande hasta llenar el tiempo | terminada | 3/3 | [Leer](https://moevec.org/blog/ley-de-parkinson/) |
-| 619 | 42/56 · 4/15 | E4.10.04 | Atención: el recurso que todos quieren capturar | pendiente | 0/3 | — |
-| 620 | 42/56 · 5/15 | E4.10.05 | Urgente frente a importante: priorizar sin agotarse | pendiente | 0/3 | — |
-| 621 | 42/56 · 6/15 | E4.10.06 | Burocracia: el impuesto en tiempo que pagan los emprendedores | pendiente | 0/3 | — |
+| 619 | 42/56 · 4/15 | E4.10.04 | Atención: el recurso que todos quieren capturar | terminada | 3/3 | [Leer](https://moevec.org/blog/atencion-recurso-capturado/) |
+| 620 | 42/56 · 5/15 | E4.10.05 | Urgente frente a importante: priorizar sin agotarse | terminada | 3/3 | [Leer](https://moevec.org/blog/urgente-frente-a-importante/) |
+| 621 | 42/56 · 6/15 | E4.10.06 | Burocracia: el impuesto en tiempo que pagan los emprendedores | terminada | 3/3 | [Leer](https://moevec.org/blog/burocracia-impuesto-en-tiempo/) |
 | 622 | 42/56 · 7/15 | E4.10.07 | Tiempo libre y productividad: la evidencia sobre la semana laboral | pendiente | 0/3 | — |
 | 623 | 42/56 · 8/15 | E4.10.08 | Colas, apagones y escasez: el tiempo robado en economías planificadas | pendiente | 0/3 | — |
 | 624 | 42/56 · 9/15 | E4.10.09 | Automatizar para ganar tiempo: herramientas para pequeños negocios | pendiente | 0/3 | — |
