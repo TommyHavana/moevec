@@ -1,15 +1,20 @@
-# Investigación inicial ·E4.3.13
+# Investigación · E4.3.13
 
-Lectura parcial; sin texto ni aprobación de fuentes.
+FMI, World Economic Outlook, metadatos de octubre de 2026
+https://data.imf.org/datasets/WEO
+Descripción de indicadores, proyecciones y cobertura incompleta. Sin series nacionales ni cifras de inflación utilizadas.
 
-- Metadatos oficialesWEOoctubre2026: incluye estimaciones/proyecciones y datos incompletos, sin descargarni leer seriesnacionales
-- WJP2026 ya leído en519; no ranking país trasladado a probabilidadpersonal
+FMI, índice del Annual Report on Exchange Arrangements and Exchange Restrictions
+https://www.imf.org/en/publications/sprolls/annual-report-on-exchange-arrangements-and-exchange-restrictions
+Descripción de la base anual y alcance de las ediciones, incluida la ficha de 2023 publicada en 2024. No autorización legal actual de operaciones.
 
-## Pendiente
+World Justice Project, presentación del índice de 2026, 21/10/2026
+https://worldjusticeproject.org/news/wjp-rule-law-index-2026-global-press-release
+Dimensiones del Estado de derecho como contexto; sin rankings nacionales ni probabilidad individual de pérdida.
 
-- Obtenerfuenteprimaria AREAERsi sehabla de controles
-- Leer datos nacionales y distinguir proyecciones de observaciones o evitarcifras
-- No tratar Venezuela,Argentina,Cuba como una situación idéntica
-- Verificar legalidad de moneda/pagos en cada país antes de recomendacionesconcretas
-- No llamar estrategiasobservadas a propuestasMEE sin casos primarios
-- Redactar y revisar antes de publicar
+Excluido:
+- Cifras nacionales no descargadas ni leídas
+- Reglas de moneda o pagos sin norma vigente del país
+- Equiparar Venezuela, Argentina y Cuba
+- Llamar estrategias observadas a propuestas MEE sin casos primarios
+- Inventario mínimo o moneda fuerte como receta universal

@@ -1,30 +1,30 @@
-# Estado de MEE y continuidad ·31/10/2026 ·Europe/Madrid
+# Estado de MEE y continuidad · 31/10/2026 · Europe/Madrid
 
 ## Estado actual
 
-**520/840 terminadas, 1560 imágenes originales públicas, 0 en curso o borradores WordPress y 320 pendientes**. Riesgo Consciente 11/15; Inversión Personal 14/15;33 tandas completas.
+**529/840 terminadas, 1587 imágenes originales públicas, 0 en curso o borradores WordPress y 311 pendientes**. Riesgo Consciente 14/15; Inversión Personal 14/15; Escalabilidad Social 6/15; 33 tandas completas.
 
 Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Inicio 511 completas. Publicadas 514–522: nueve entradas y 27 originales públicos.
+Inicio: 520 completas. Publicadas 523–531: nueve entradas y 27 originales públicos.
 
-Nueve publicaciones nuevas y 27 originales públicos. Una publicación y tres adjuntos por ID. Trabajo → Riesgo Consciente, etiquetas de tema y nivel. URL200, H1 único, canonical, indexabilidad declarada, Article, índice, sitemap, cinco enlaces internos y jerarquía visible/BreadcrumbList comprobados. Dimensiones, bytes, alt, hashes y variantes correctos. Taxonomía 122 nodos/siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva.
+Nueve publicaciones nuevas y 27 originales públicos. Una publicación y tres adjuntos por ID, área Trabajo y tema Riesgo Consciente (523–525) o Escalabilidad Social (526–531), con etiquetas de tema y nivel. HTTP 200, H1 único, canonical, indexabilidad declarada, Article, índice, sitemap, cinco enlaces internos y jerarquía visible/BreadcrumbList comprobados. Dimensiones, bytes, alt, hashes y variantes correctos. Taxonomía 122 nodos y siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva.
 
 ## Revisión
 
-514: Gilovich/Medvec 1995 y réplica parcial 2023; no implica que siempre convenga actuar. 515: Kelly 1956 bajo supuestos explícitos y extracto Taleb; regla del título delimitada a excluir pérdidas identificadas que comprometen lo indispensable, sin garantía universal o porcentaje personal. 516: INE, cohorte 2018→2023,41,9%; BLS, establecimientos marzo 2021→marzo 2026,47,2%; unidades y periodos distintos, sin ranking ni causalidad de preparación. 517: entrevista directa Edmondson y GEM2025/2026, lectura parcial; sin romantizar pérdidas ni inferir causalidad de salida. 518: DGSFP y BOE, PDF consolidado con fecha 03/10/2026, artículos 1/3/5/8 leídos; alcance España sin seguro obligatorio universal. 519: WJP2026, BREADY, WGI y Decreto 107 cubano 2024 como caso histórico; título condicional, sin ranking universal de amenazas ni lista de 2021 vigente. 520: marco conceptual Taleb y diálogo 2012; robustez distinta de mejora y sin garantía ante crisis. 521: ficha pública ISO 31000 y plantilla MEE, sin certificación, tabla normativa ni precisión matemática ficticia. 522: ESAs 2025 y CNMV actualizada tras 01/07/2026, caso FTX2024 DOJ; sin precios históricos no verificados ni garantía de capital.
+523: WEO octubre de 2026, AREAER y WJP 2026; preguntas sobre riesgo país sin cifras nacionales ni normas cambiarias sin comprobar. 524: CFPB y FCAC; reserva distinta de seguro contratado, 3–6 meses como orientación canadiense contextual. 525: Klein y Kahneman/Klein 2009, abstract y primera página; siete preguntas como guía propia de MEE, sin validación universal. 526: funciones de MEE, Bastos ensayo, Kirzner prefacio/pp. 1–2 y adaptación Drucker; sin secuencia obligatoria ni jerarquía de dignidad. 527: OCDE 2018, figura 1.5 y nota, España 4 / Brasil 9 / Colombia 11 como simulación histórica, Banco Mundial 2018, OCDE 2025 con PISA 2022; sin destino personal ni causalidad. 528: presentación Gerber, práctica EMyth y adaptación Drucker; procesos como orientación, sin garantía de autonomía. 529: TGSS, BOE consolidado 21/10/2026 art. 1.1, B-READY metodología 2025 y OIT R208; alcance España y aplicación nacional separada. 530: CNMV dividendo, IRS categoría fiscal estadounidense y ficha Stanley/Danko, sin libro íntegro ni ingreso garantizado. 531: OCDE 2023 99% como proporción empresarial y redes, Census 2010 con datos 1976–2005 y OIT; sin multiplicador, causalidad o beneficio automático.
 
 Paso 5 del prompt original: objetivo 900–1300 palabras principales, que sustituye A3 del plan.
 
 ## Continuación exacta
 
-Reanudar **523–525 / E4.3.13–E4.3.15**, Trabajo → Riesgo Consciente, tanda 35/56, entradas 13–15/15. Nueve originales WebP completos, inspeccionados individualmente y en mosaico; briefs, prompts, procedencia y lectura inicial de fuentes conservados. Faltan investigación específica, textos y revisión final antes de publicar. Después 526–528 / E4.4.01–E4.4.03, Escalabilidad Social. **501 / E4.2.06** y **512 / E4.3.02** siguen retenidas por título, con textos y 3 imágenes por entrada, sin publicación. Las preguntas anteriores siguen pendientes; no repetirlas ni interpretar el silencio como aprobación. Continuar trabajo independiente.
+Reanudar **532–534 / E4.4.07–E4.4.09**, Trabajo → Escalabilidad Social, tanda 36/56, entradas 7–9/15. Nueve originales WebP completos y revisados, briefs, prompts, procedencia y fuentes iniciales conservados; faltan investigación específica, redacción y revisión completa antes de publicar. Después, 535–537 / E4.4.10–E4.4.12. **501 / E4.2.06** y **512 / E4.3.02** siguen retenidas por título, con texto y tres imágenes cada una, sin publicación; las preguntas anteriores continúan pendientes, sin repetirlas ni interpretar el silencio como aprobación. Continuar trabajo independiente.
 
 ## Copias y límites
 
-VPS con 520 publicadas, SQL final /data/mee-backups/produccion-840-cierre-514-522-20261031,198 medios nuevos en tres incrementos;162 incrementos más base y huecos 501/512. Hashes y miembros comprobados, sin nueva prueba de arranque. Copia local incremental y fuente privada al cierre. Detalle: `docs/produccion/2026-10-31-bloques-514-522.md`. Producción continua autorizada; WordPress determina el estado real.
+VPS con 529 publicadas, SQL `/data/mee-backups/produccion-840-incremento-529-531-20261031`; 198 medios nuevos en tres incrementos. Cadena 165 incrementos más base, con huecos 501/512. Hashes y miembros comprobados, sin nueva prueba de arranque. Copia local incremental y fuente privada al cierre. Detalle: `docs/produccion/2026-10-31-bloques-523-531.md`. Producción continua autorizada; WordPress determina el estado real.
 
 ## Página de apoyo, donaciones y publicidad · 29/10/2026
 

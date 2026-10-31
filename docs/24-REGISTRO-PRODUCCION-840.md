@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-31T04:08:01+00:00.
+Comprobado en WordPress: 2026-10-31T04:45:01+00:00.
 
-**520/840 terminadas · 0 en curso · 320 pendientes.**
+**529/840 terminadas · 0 en curso · 311 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -534,15 +534,15 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 520 | 35/56 · 10/15 | E4.3.10 | Antifragilidad: negocios que mejoran con el desorden | terminada | 3/3 | [Leer](https://moevec.org/blog/antifragilidad-negocios/) |
 | 521 | 35/56 · 11/15 | E4.3.11 | Matriz de riesgos para tu proyecto en una hoja | terminada | 3/3 | [Leer](https://moevec.org/blog/matriz-de-riesgos-proyecto/) |
 | 522 | 35/56 · 12/15 | E4.3.12 | Riesgo en criptomonedas: lo que hay que saber antes de entrar | terminada | 3/3 | [Leer](https://moevec.org/blog/riesgo-en-criptomonedas/) |
-| 523 | 35/56 · 13/15 | E4.3.13 | Emprender en un país inestable: gestión del riesgo país | pendiente | 0/3 | — |
-| 524 | 35/56 · 14/15 | E4.3.14 | Fondo de emergencia: el primer seguro del emprendedor | pendiente | 0/3 | — |
-| 525 | 35/56 · 15/15 | E4.3.15 | Decidir arriesgar: guía de decisión en siete preguntas | pendiente | 0/3 | — |
-| 526 | 36/56 · 1/15 | E4.4.01 | De obrero a inversor: las cuatro etapas de la escalera económica | pendiente | 0/3 | — |
-| 527 | 36/56 · 2/15 | E4.4.02 | Movilidad social: lo que dicen los datos de España y América Latina | pendiente | 0/3 | — |
-| 528 | 36/56 · 3/15 | E4.4.03 | Escalar un negocio: crecer sin perder el control | pendiente | 0/3 | — |
-| 529 | 36/56 · 4/15 | E4.4.04 | Tu primer empleado: crear empleo es escalar socialmente | pendiente | 0/3 | — |
-| 530 | 36/56 · 5/15 | E4.4.05 | Ingresos activos y pasivos: qué son y qué no | pendiente | 0/3 | — |
-| 531 | 36/56 · 6/15 | E4.4.06 | El efecto derrame del emprendedor: empleo, proveedores y aprendices | pendiente | 0/3 | — |
+| 523 | 35/56 · 13/15 | E4.3.13 | Emprender en un país inestable: gestión del riesgo país | terminada | 3/3 | [Leer](https://moevec.org/blog/emprender-en-pais-inestable/) |
+| 524 | 35/56 · 14/15 | E4.3.14 | Fondo de emergencia: el primer seguro del emprendedor | terminada | 3/3 | [Leer](https://moevec.org/blog/fondo-de-emergencia/) |
+| 525 | 35/56 · 15/15 | E4.3.15 | Decidir arriesgar: guía de decisión en siete preguntas | terminada | 3/3 | [Leer](https://moevec.org/blog/guia-decidir-arriesgar/) |
+| 526 | 36/56 · 1/15 | E4.4.01 | De obrero a inversor: las cuatro etapas de la escalera económica | terminada | 3/3 | [Leer](https://moevec.org/blog/de-obrero-a-inversor-etapas/) |
+| 527 | 36/56 · 2/15 | E4.4.02 | Movilidad social: lo que dicen los datos de España y América Latina | terminada | 3/3 | [Leer](https://moevec.org/blog/movilidad-social-datos/) |
+| 528 | 36/56 · 3/15 | E4.4.03 | Escalar un negocio: crecer sin perder el control | terminada | 3/3 | [Leer](https://moevec.org/blog/escalar-un-negocio/) |
+| 529 | 36/56 · 4/15 | E4.4.04 | Tu primer empleado: crear empleo es escalar socialmente | terminada | 3/3 | [Leer](https://moevec.org/blog/tu-primer-empleado/) |
+| 530 | 36/56 · 5/15 | E4.4.05 | Ingresos activos y pasivos: qué son y qué no | terminada | 3/3 | [Leer](https://moevec.org/blog/ingresos-activos-y-pasivos/) |
+| 531 | 36/56 · 6/15 | E4.4.06 | El efecto derrame del emprendedor: empleo, proveedores y aprendices | terminada | 3/3 | [Leer](https://moevec.org/blog/efecto-derrame-del-emprendedor/) |
 | 532 | 36/56 · 7/15 | E4.4.07 | Quién crea empleo de verdad: empresas jóvenes frente a empresas pequeñas | pendiente | 0/3 | — |
 | 533 | 36/56 · 8/15 | E4.4.08 | Barreras al crecimiento: el «techo» de las 50 personas en España | pendiente | 0/3 | — |
 | 534 | 36/56 · 9/15 | E4.4.09 | Franquicias: escalar con un modelo probado | pendiente | 0/3 | — |
