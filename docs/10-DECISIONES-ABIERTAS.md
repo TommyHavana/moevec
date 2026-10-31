@@ -1439,3 +1439,14 @@ Continuar **541–543 / E4.5.01–E4.5.03**, Trabajo → Selección de Socios, t
 541–543: introducción oficial Wasserman2012 pp4y8 impresas; UBC pregunta8 y extracto firmado HBS04/04/2012 sobre escenarios adversos. Lecturas parciales, sin libro íntegro ni porcentaje universal de éxito; datos históricos declarados casi10000fundadores de tecnología/ciencias de la vida. Mapa de funciones, prueba y diez preguntas son propuestas MEE, sin validación predictiva ni diagnóstico. Se corrigió un enlace a E2.6.13 aún pendiente, sustituyéndolo por E4.4.12 publicada, en los tres artículos; nuevas verificaciones públicas y nuevo SQL coherente tras corregirlo.
 
 Continuar **544–546 / E4.5.04–E4.5.06**, Trabajo → Selección de Socios, tanda 37/56, entradas 4–6/15. Investigación jurídica parcial: LSC consolidada03/01/2025, artículos28–29,58,86–89,93,188,198–199; Estatuto art21 y referencias de The First Deal. Faltan expedientes completos, imágenes, textos y revisión específica. Después, 547–549 / E4.5.07–E4.5.09. 501 / E4.2.06 y512 / E4.3.02 permanecen retenidas por título; no repetir las preguntas ni interpretar silencio como aprobación.
+
+
+## Producción 544–546 ·31/10/2026
+
+544/840 terminadas, 1632 imágenes originales públicas, 0 en curso o borradores WordPress y 296 pendientes.
+
+544: resumen publicado Hellmann/Wasserman DOI10.1287/mnsc.2016.2474, online 2016/número 2017, asociación con financiación externa aparentemente no causal; borradorHBS no se presenta como versión final. Stripe Atlas vesting como práctica estadounidense, sin calendario o traslado automático. LSC artículos 58,188,198–199. 545: LSC58,86–89,93,188; trabajo/servicios fuera del capital, prestaciones accesorias distintas, derechos y voto con límites; sin resolver nómina, factura, RETA o impuestos personales. 546: LSC28–29,198–199 y Estatuto 21 para relación laboral española; diez imprescindibles como criterio editorial, no lista legal universal. Sin cláusulas listas para firmar.
+
+Reanudar **547–549 / E4.5.07–E4.5.09**, Trabajo → Selección de Socios, tanda 37/56, entradas 7–9/15. Preparación de conflictos, inversores y diáspora/Cuba. Faltan textos y revisión específica de fuentes; no se publican las premisas estadísticas o jurídicas antiguas sin contrastar. Después,550–552 / E4.5.10–E4.5.12. 501/E4.2.06 y 512/E4.3.02 siguen retenidas por título, con texto y tres imágenes cada una, sin publicación; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+
+Preparación siguiente: 547–549 / E4.5.07–E4.5.09, nueve originales completos e inspeccionados. Sin textos ni fuentes verificadas por completo. No altera el total de 544 publicadas y terminadas.

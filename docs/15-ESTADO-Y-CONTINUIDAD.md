@@ -2,27 +2,27 @@
 
 ## Estado actual
 
-**541/840 terminadas, 1623 imágenes originales públicas, 0 en curso o borradores WordPress y 299 pendientes**. Escalabilidad Social 15/15; Selección de Socios 3/15; Riesgo Consciente14/15, Inversión Personal14/15;34 tandas completas.
+**544/840 terminadas, 1632 imágenes originales públicas, 0 en curso o borradores WordPress y 296 pendientes**. Escalabilidad Social 15/15; Selección de Socios 6/15; Riesgo Consciente 14/15, Inversión Personal 14/15; 34 tandas completas.
 
 Fuente activa `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Inicio 532; 535–543 completas, nueve entradas y veintisiete originales públicos.
+Inicio 532; 535–546 completas, doce entradas y 36 originales públicos.
 
-Tres nuevas entradas 541–543, nueve originales públicos. URL200, H1, canonical, indexabilidad declarada, Article, índice, sitemap, enlaces existentes y BreadcrumbList comprobados; imágenes3/3 por ID, hashes y variantes. Una publicación y tres adjuntos por ID, categorías y etiquetas del plan. Taxonomía122/7 conservada.
+Tres nuevas entradas 544–546, nueve originales públicos. URL 200, H1, canonical, indexabilidad declarada, Article, índice, sitemap, enlaces existentes y BreadcrumbList comprobados; imágenes 3/3 por ID, hashes y variantes. Una publicación y tres adjuntos por ID, categorías y etiquetas del plan. Taxonomía 122/7 conservada.
 
 ## Revisión
 
-541–543: introducción oficial Wasserman2012 pp4y8 impresas; UBC pregunta8 y extracto firmado HBS04/04/2012 sobre escenarios adversos. Lecturas parciales, sin libro íntegro ni porcentaje universal de éxito; datos históricos declarados casi10000fundadores de tecnología/ciencias de la vida. Mapa de funciones, prueba y diez preguntas son propuestas MEE, sin validación predictiva ni diagnóstico. Se corrigió un enlace a E2.6.13 aún pendiente, sustituyéndolo por E4.4.12 publicada, en los tres artículos; nuevas verificaciones públicas y nuevo SQL coherente tras corregirlo.
+544: resumen publicado Hellmann/Wasserman DOI10.1287/mnsc.2016.2474, online 2016/número 2017, asociación con financiación externa aparentemente no causal; borradorHBS no se presenta como versión final. Stripe Atlas vesting como práctica estadounidense, sin calendario o traslado automático. LSC artículos 58,188,198–199. 545: LSC58,86–89,93,188; trabajo/servicios fuera del capital, prestaciones accesorias distintas, derechos y voto con límites; sin resolver nómina, factura, RETA o impuestos personales. 546: LSC28–29,198–199 y Estatuto 21 para relación laboral española; diez imprescindibles como criterio editorial, no lista legal universal. Sin cláusulas listas para firmar.
 
 ## Continuación exacta
 
-Continuar **544–546 / E4.5.04–E4.5.06**, Trabajo → Selección de Socios, tanda 37/56, entradas 4–6/15. Investigación jurídica parcial: LSC consolidada03/01/2025, artículos28–29,58,86–89,93,188,198–199; Estatuto art21 y referencias de The First Deal. Faltan expedientes completos, imágenes, textos y revisión específica. Después, 547–549 / E4.5.07–E4.5.09. 501 / E4.2.06 y512 / E4.3.02 permanecen retenidas por título; no repetir las preguntas ni interpretar silencio como aprobación.
+Reanudar **547–549 / E4.5.07–E4.5.09**, Trabajo → Selección de Socios, tanda 37/56, entradas 7–9/15. Nueve originales WebP completos e inspeccionados, briefs, prompts, procedencia y notas conservados. Faltan investigación específica, textos y revisión completa. Después,550–552 / E4.5.10–E4.5.12. **501 / E4.2.06** y **512 / E4.3.02** siguen retenidas por título, con texto y 3 imágenes cada una, sin publicación; no repetir preguntas pendientes ni interpretar silencio como aprobación. Continuar trabajo independiente.
 
 ## Copias y límites
 
-VPS `/data/mee-backups/produccion-840-incremento-541-543-enlaces-20261031`; SQL y66medios nuevos. Cadena169más base; hash y miembros comprobados. Sin nueva restauración arrancada. Detalle en docs/produccion/2026-10-31-bloque-541-543.md y respaldo535–537.
+VPS `/data/mee-backups/produccion-840-incremento-544-546-20261031`; SQL y 66 medios nuevos. Cadena 170 más base; hash y miembros comprobados. Sin nueva restauración arrancada. Detalle en docs/produccion/2026-10-31-bloques-535-546.md y respaldo 535–537.
 
 ## Página de apoyo, donaciones y publicidad · 29/10/2026
 

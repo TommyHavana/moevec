@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-31T05:41:32+00:00.
+Comprobado en WordPress: 2026-10-31T05:53:20+00:00.
 
-**541/840 terminadas · 0 en curso · 299 pendientes.**
+**544/840 terminadas · 0 en curso · 296 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -555,9 +555,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 541 | 37/56 · 1/15 | E4.5.01 | Elegir socio: tan importante como elegir el negocio | terminada | 3/3 | [Leer](https://moevec.org/blog/elegir-socio/) |
 | 542 | 37/56 · 2/15 | E4.5.02 | Habilidades complementarias: el socio que hace lo que tú no sabes | terminada | 3/3 | [Leer](https://moevec.org/blog/habilidades-complementarias/) |
 | 543 | 37/56 · 3/15 | E4.5.03 | Valores compartidos: lo que no se ve en un currículum | terminada | 3/3 | [Leer](https://moevec.org/blog/valores-compartidos-socios/) |
-| 544 | 37/56 · 4/15 | E4.5.04 | Reparto de participaciones: cómo dividir la tarta sin romperla | pendiente | 0/3 | — |
-| 545 | 37/56 · 5/15 | E4.5.05 | Socio capitalista y socio trabajador: derechos y expectativas | pendiente | 0/3 | — |
-| 546 | 37/56 · 6/15 | E4.5.06 | Pacto de socios: las diez cláusulas imprescindibles | pendiente | 0/3 | — |
+| 544 | 37/56 · 4/15 | E4.5.04 | Reparto de participaciones: cómo dividir la tarta sin romperla | terminada | 3/3 | [Leer](https://moevec.org/blog/reparto-de-participaciones/) |
+| 545 | 37/56 · 5/15 | E4.5.05 | Socio capitalista y socio trabajador: derechos y expectativas | terminada | 3/3 | [Leer](https://moevec.org/blog/socio-capitalista-y-socio-trabajador/) |
+| 546 | 37/56 · 6/15 | E4.5.06 | Pacto de socios: las diez cláusulas imprescindibles | terminada | 3/3 | [Leer](https://moevec.org/blog/pacto-de-socios-diez-clausulas/) |
 | 547 | 37/56 · 7/15 | E4.5.07 | Conflictos entre socios: causas, prevención y salida | pendiente | 0/3 | — |
 | 548 | 37/56 · 8/15 | E4.5.08 | Asociarse con inversores: lo que entregas a cambio del dinero | pendiente | 0/3 | — |
 | 549 | 37/56 · 9/15 | E4.5.09 | Socios a distancia: emprender entre la diáspora y la isla | pendiente | 0/3 | — |
