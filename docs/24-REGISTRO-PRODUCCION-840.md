@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-31T07:54:43+00:00.
+Comprobado en WordPress: 2026-10-31T08:13:05+00:00.
 
-**568/840 terminadas · 0 en curso · 272 pendientes.**
+**571/840 terminadas · 0 en curso · 269 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -582,9 +582,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 568 | 38/56 · 13/15 | E4.6.13 | Mentor de pago o gratuito: cómo aprovechar la experiencia ajena | terminada | 3/3 | [Leer](https://moevec.org/blog/aprovechar-experiencia-ajena/) |
 | 569 | 38/56 · 14/15 | E4.6.14 | Jubilados emprendedores: experiencia que no se retira | terminada | 3/3 | [Leer](https://moevec.org/blog/jubilados-emprendedores/) |
 | 570 | 38/56 · 15/15 | E4.6.15 | Biblioteca de experiencia MEE: casos documentados (convocatoria) | terminada | 3/3 | [Leer](https://moevec.org/blog/biblioteca-de-experiencia-mee/) |
-| 571 | 39/56 · 1/15 | E4.7.01 | Qué es una buena mentoría (y qué no lo es) | pendiente | 0/3 | — |
-| 572 | 39/56 · 2/15 | E4.7.02 | Lo que dice la investigación sobre mentoría y emprendimiento | pendiente | 0/3 | — |
-| 573 | 39/56 · 3/15 | E4.7.03 | Enseñar es aprender dos veces | pendiente | 0/3 | — |
+| 571 | 39/56 · 1/15 | E4.7.01 | Qué es una buena mentoría (y qué no lo es) | terminada | 3/3 | [Leer](https://moevec.org/blog/que-es-una-buena-mentoria/) |
+| 572 | 39/56 · 2/15 | E4.7.02 | Lo que dice la investigación sobre mentoría y emprendimiento | terminada | 3/3 | [Leer](https://moevec.org/blog/investigacion-mentoria-emprendimiento/) |
+| 573 | 39/56 · 3/15 | E4.7.03 | Enseñar es aprender dos veces | terminada | 3/3 | [Leer](https://moevec.org/blog/ensenar-es-aprender-dos-veces/) |
 | 574 | 39/56 · 4/15 | E4.7.04 | Invertir en otros: dinero, tiempo y oportunidades | pendiente | 0/3 | — |
 | 575 | 39/56 · 5/15 | E4.7.05 | Recomendar a alguien: el capital de tu reputación en juego | pendiente | 0/3 | — |
 | 576 | 39/56 · 6/15 | E4.7.06 | Programas de mentoría para emprendedores en España y América Latina | pendiente | 0/3 | — |

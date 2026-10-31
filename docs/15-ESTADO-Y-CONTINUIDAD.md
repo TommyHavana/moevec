@@ -2,27 +2,27 @@
 
 ## Estado actual
 
-**568/840 terminadas, 1704 imágenes originales públicas, 0 en curso o borradores WordPress y 272 pendientes**. Experiencia como Activo 15/15; Selección de Socios15/15; Escalabilidad Social15/15; Riesgo Consciente14/15; Inversión Personal14/15; 36 tandas completas.
+**571/840 terminadas, 1713 imágenes originales públicas, 0 en curso o borradores WordPress y 269 pendientes**. Mentoría e Inversión en Otros 3/15; Experiencia como Activo15/15; Selección de Socios15/15; Escalabilidad Social15/15; Riesgo Consciente14/15; Inversión Personal14/15; 36 tandas completas.
 
 Fuente activa `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Inicio553; 15 entradas nuevas (556–570) y 45 originales públicos.
+Inicio568; 3 entradas nuevas (571–573) y 9 originales públicos.
 
 URL200, H1, canonical, ausencia de noindex, Article, índice, sitemap, enlaces y BreadcrumbList comprobados. Una publicación y tres adjuntos por ID, categorías y etiquetas del plan; taxonomía122/7 conservada.
 
 ## Revisión del último bloque
 
-568: ficha primaria Cámara de Comercio de Madrid/SECOT con programa gratuito de seis meses y fechas por confirmar, sin plazas o admisión garantizadas. E4.2.14 como contexto; intento ENISA404 no utilizado como evidencia de mentoría gratuita. 569: LGSS214 vigente y explicación SeguridadSocial de la reforma efectiva01/04/2025; se descarta la FAQantigua que mantiene carrera completa. No porcentaje, elegibilidad o consejo jurídico/médico individual; ficha de Pensionsat aGlance2025 con lectura parcial identificada. 570: propuesta y convocatoria editorial, sin colección de casos revisados o servicio especializado inventado. E1.6.08 y contacto existente; E2.1.15/global750 permanece pendiente, sin enlace inexistente. Ejemplos hipotéticos y consentimiento/revisión como criterios propuestos. Experiencia como Activo queda15/15 completa, 36tandas completas.
+571: funciones deKram contrastadas en las páginas608–614 del artículo original1983; libro1985 referencia bibliográfica de ficha editorial, sin lectura completa alegada. Roles y acceso como criterios deMEE. 572: Eesley/Wang2017 DOI2017.01.010, fragmentos primarios del editor sobre decisiones profesionales; Brooks/Donovan/Johnson2018 original del autor, contexto deDandora,aportación común y atenuación. Sin rentabilidad universal ni duración causal aislada. 573: Allen2004 estudia receptores, corregido; Ghosh/Reio2013 asociaciones para mentores con autoselección y límites causales; Chase2009 con escolares y agentesvirtuales, sin generalización empresarial o aprendizaje multiplicado por2. Tres textos1012,1056,1032palabras, ejemplos hipotéticos y fuentes con alcance identificado.
 
 ## Continuación exacta
 
-Reanudar **571–573 / E4.7.01–E4.7.03**, Trabajo → Mentoría e Inversión en Otros. Nueve originales WebP completos e inspeccionados, briefs, prompts y procedencia conservados. Faltan textos y revisión completa de fuentes. Después, **574–576**. **501 / E4.2.06** y **512 / E4.3.02** siguen retenidas por título, con texto y tres imágenes cada una, sin publicación; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Reanudar **574–576 / E4.7.04–E4.7.06**, Trabajo → Mentoría e Inversión en Otros. Nueve originales WebP completos e inspeccionados, briefs, prompts y procedencia conservados. Faltan textos y revisión completa de fuentes. Después, **577–579**. **501 / E4.2.06** y **512 / E4.3.02** siguen retenidas por título, con texto y tres imágenes cada una, sin publicación; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
 
 ## Copias y límites
 
-VPS `/data/mee-backups/produccion-840-incremento-568-570-20261031`, SQL y66medios nuevos. Cadena178 más base. Hashes y miembros comprobados; sin nueva restauración arrancada. Resumen de esta ejecución: docs/produccion/2026-10-31-ejecucion-desde-553.md.
+VPS `/data/mee-backups/produccion-840-incremento-571-573-20261031`, SQL y66medios nuevos. Cadena179 más base. Hashes y miembros comprobados; sin nueva restauración arrancada. Resumen de esta ejecución: docs/produccion/2026-10-31-ejecucion-desde-568.md.
 
 ## Página de apoyo, donaciones y publicidad · 29/10/2026
 

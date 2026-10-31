@@ -1,6 +1,6 @@
 # Backlog de MEE
 
-Último estado: **568/840 terminadas, 1704 imágenes originales públicas, 0 en curso o borradores WordPress y 272 pendientes**. Reanudar **571–573 / E4.7.01–E4.7.03**, Trabajo → Mentoría e Inversión en Otros. Nueve originales WebP completos e inspeccionados, briefs, prompts y procedencia conservados. Faltan textos y revisión completa de fuentes. Después, **574–576**. **501 / E4.2.06** y **512 / E4.3.02** siguen retenidas por título, con texto y tres imágenes cada una, sin publicación; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Último estado: **571/840 terminadas, 1713 imágenes originales públicas, 0 en curso o borradores WordPress y 269 pendientes**. Reanudar **574–576 / E4.7.04–E4.7.06**, Trabajo → Mentoría e Inversión en Otros. Nueve originales WebP completos e inspeccionados, briefs, prompts y procedencia conservados. Faltan textos y revisión completa de fuentes. Después, **577–579**. **501 / E4.2.06** y **512 / E4.3.02** siguen retenidas por título, con texto y tres imágenes cada una, sin publicación; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
 
 
 Historial anterior: producción comprobada tras el bloque 4–6: 6/840 terminadas. En elaboración local: 7–9 con nueve imágenes propias; todavía no cuentan como publicadas. Consultar siempre WordPress y el registro 24 para el estado más reciente.
