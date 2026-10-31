@@ -1585,3 +1585,13 @@ Fuentes y alcances por artículo en research-notes.md y source-review.json. 586:
 
 Continuar **589–591 / E4.8.04–E4.8.06**, Trabajo → Diferenciación de Valor. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **592–594**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
 Automatización cada tres minutos ya configurada. No se han borrado copias ni originales.
+
+
+## Continuación editorial589-591 ·31/10/2026
+
+**589/840 terminadas, 1767 imágenes originales públicas, 0 en curso o borradores WordPress y 251 pendientes**. Diferenciación de Valor6/15; 37 tandas completas.
+
+Fuentes y alcances por artículo en research-notes.md y source-review.json. 589: especialización sin rentabilidad o liderazgo garantizados; Anderson mediante ficha de reedición y preguntas de mercado SBA. 590: fidelidad como enfoque, sin extrapolar cifras de beneficios; compromisos sujetos a recursos y país. 591: identidad y protección jurídica separadas, España/UE/México, búsquedas informativas, aviso educativo. Nueve imágenes originales nuevas.
+
+Continuar **592–594 / E4.8.07–E4.8.09**, Trabajo → Diferenciación de Valor. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **595–597**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Automatización cada tres minutos ya configurada. No se han borrado copias ni originales.

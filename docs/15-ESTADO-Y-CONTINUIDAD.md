@@ -2,33 +2,33 @@
 
 ## Estado actual
 
-**586/840 terminadas, 1758 imágenes originales públicas, 0 en curso o borradores WordPress y 254 pendientes**. Diferenciación de Valor3/15; 37 tandas completas.
+**589/840 terminadas, 1767 imágenes originales públicas, 0 en curso o borradores WordPress y 251 pendientes**. Diferenciación de Valor6/15; 37 tandas completas.
 
 Fuente activa `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Inicio583; 3 nuevas entradas y9originales públicos.
+Inicio586; 3 nuevas entradas y9originales públicos.
 
 | Global | ID | URL | Imágenes |
 |---|---|---|---|
-|586|E4.8.01|https://moevec.org/blog/diferenciarse-o-competir-en-precio/|3/3|
-|587|E4.8.02|https://moevec.org/blog/propuesta-de-valor/|3/3|
-|588|E4.8.03|https://moevec.org/blog/oceano-azul/|3/3|
+|589|E4.8.04|https://moevec.org/blog/nichos/|3/3|
+|590|E4.8.05|https://moevec.org/blog/diferenciacion-sin-presupuesto/|3/3|
+|591|E4.8.06|https://moevec.org/blog/marca-pequenos-negocios/|3/3|
 
 ## Revisión del último bloque
 
-Fuentes y alcances por artículo en research-notes.md y source-review.json. 586: Porter distingue costes/diferenciación y enfoque; no se afirma que pequeños negocios nunca compitan por costes. 587: lienzo como hipótesis; no opiniones equiparadas a ventas. 588: metáfora sin ausencia permanente de rivales; Cirque como interpretación de autores, sin cifras históricas trasladadas al presente. Portada586 recuperada delVPS con hash, sin regenerarla; ocho imágenes nuevas.
+Fuentes y alcances por artículo en research-notes.md y source-review.json. 589: especialización sin rentabilidad o liderazgo garantizados; Anderson mediante ficha de reedición y preguntas de mercado SBA. 590: fidelidad como enfoque, sin extrapolar cifras de beneficios; compromisos sujetos a recursos y país. 591: identidad y protección jurídica separadas, España/UE/México, búsquedas informativas, aviso educativo. Nueve imágenes originales nuevas.
 
 ## Continuación exacta
 
-Continuar **589–591 / E4.8.04–E4.8.06**, Trabajo → Diferenciación de Valor. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **592–594**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Continuar **592–594 / E4.8.07–E4.8.09**, Trabajo → Diferenciación de Valor. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **595–597**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
 
 ## Copias y capacidad
 
-VPS `/data/mee-backups/produccion-840-incremento-586-588-20261031`: SQL23086464B, 66medios nuevos. Cadena184más base, huecos501/512. Hashes y miembros comprobados; sin nueva prueba de arranque de restauración. ZIP local incremental y prueba de entrega externos, con toda la cadena anterior conservada.
+VPS `/data/mee-backups/produccion-840-incremento-589-591-20261031`: SQL23180358B, 66medios nuevos. Cadena185más base, huecos501/512. Hashes y miembros comprobados; sin nueva prueba de arranque de restauración. ZIP local incremental y prueba de entrega externos, con toda la cadena anterior conservada.
 
-Margen local limitado. Comprobar espacio antes de cada generación y copia; escrituras comprobadas en esta ejecución con menos de512MiB. Umbral operativo200MiB antes de generar, y copias proporcionales con margen calculado; conservar todas las copias y originales. Automatización del mismo chat cada tres minutos, según petición del fundador.
+Capacidad local recuperada. Comprobar espacio antes de cada generación y copia; capacidad recuperada comprobada en esta ejecución; registro de entrega anterior y referencia de Git recuperados. Umbral operativo200MiB antes de generar, y copias proporcionales con margen calculado; conservar todas las copias y originales. Automatización del mismo chat cada tres minutos, según petición del fundador.
 
 ## Página de apoyo, donaciones y publicidad · 29/10/2026
 

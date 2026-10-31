@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-31T10:19:53+00:00.
+Comprobado en WordPress: 2026-10-31T11:01:35+00:00.
 
-**586/840 terminadas · 0 en curso · 254 pendientes.**
+**589/840 terminadas · 0 en curso · 251 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -600,9 +600,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 586 | 40/56 · 1/15 | E4.8.01 | Diferenciarse o competir en precio: las dos estrategias básicas | terminada | 3/3 | [Leer](https://moevec.org/blog/diferenciarse-o-competir-en-precio/) |
 | 587 | 40/56 · 2/15 | E4.8.02 | Propuesta de valor: qué problema resuelves y para quién | terminada | 3/3 | [Leer](https://moevec.org/blog/propuesta-de-valor/) |
 | 588 | 40/56 · 3/15 | E4.8.03 | El océano azul: crear mercado donde no hay competencia | terminada | 3/3 | [Leer](https://moevec.org/blog/oceano-azul/) |
-| 589 | 40/56 · 4/15 | E4.8.04 | Nichos: ser el mejor para pocos antes que mediocre para todos | pendiente | 0/3 | — |
-| 590 | 40/56 · 5/15 | E4.8.05 | Calidad, servicio y confianza: diferenciación sin gran presupuesto | pendiente | 0/3 | — |
-| 591 | 40/56 · 6/15 | E4.8.06 | Marca para pequeños negocios: identidad sin derroche | pendiente | 0/3 | — |
+| 589 | 40/56 · 4/15 | E4.8.04 | Nichos: ser el mejor para pocos antes que mediocre para todos | terminada | 3/3 | [Leer](https://moevec.org/blog/nichos/) |
+| 590 | 40/56 · 5/15 | E4.8.05 | Calidad, servicio y confianza: diferenciación sin gran presupuesto | terminada | 3/3 | [Leer](https://moevec.org/blog/diferenciacion-sin-presupuesto/) |
+| 591 | 40/56 · 6/15 | E4.8.06 | Marca para pequeños negocios: identidad sin derroche | terminada | 3/3 | [Leer](https://moevec.org/blog/marca-pequenos-negocios/) |
 | 592 | 40/56 · 7/15 | E4.8.07 | Innovación incremental: mejorar un poco cada vez | pendiente | 0/3 | — |
 | 593 | 40/56 · 8/15 | E4.8.08 | Diferenciación en mercados informales de la región | pendiente | 0/3 | — |
 | 594 | 40/56 · 9/15 | E4.8.09 | Precio por valor: cobrar según lo que vales para el cliente | pendiente | 0/3 | — |
