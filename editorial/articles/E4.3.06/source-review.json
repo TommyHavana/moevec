@@ -1,0 +1,91 @@
+{
+  "checked_on": "2026-10-31",
+  "sources": [
+    {
+      "name": "INE (12/11/2025), Demografía Armonizada de Empresas, año 2023",
+      "url": "https://ine.es/dyngs/Prensa/DAE2023.htm",
+      "scope": "Tabla de supervivencias: cohorte 2018 observada 2023,41,9% a cinco años; fecha, unidad empresa y metodología sobre muertes provisionales/reactivaciones."
+    },
+    {
+      "name": "BLS, Table 7, Survival of private sector establishments by opening year, Total Private",
+      "url": "https://www.bls.gov/bdm/us_age_naics_00_table7.txt",
+      "scope": "Tabla consultada 31/10/2026, cohorte anual terminada marzo 2021 observada marzo 2026:47,2% a cinco años. No comparación directa con INE."
+    },
+    {
+      "name": "BLS, Establishment age and survival FAQ",
+      "url": "https://www.bls.gov/bdm/bdagefaq.htm",
+      "scope": "Preguntas metodológicas: edad por primer empleo positivo; unidad establecimiento, ejemplo sucursal y observaciones anuales en marzo."
+    }
+  ],
+  "archived_files": [
+    {
+      "file": "sources/bls-age-faq.html.access.json",
+      "bytes": 169,
+      "sha256": "0045020a29e8ed1cdecb60356f5da9296ffeb6c4058b0fb57b5bf2df5b31f0da"
+    },
+    {
+      "file": "sources/bls-table7-web-reading.md",
+      "bytes": 1060,
+      "sha256": "006671644eac774ef24139700f34fa96e6072396fd565bffe6914955dace7632"
+    },
+    {
+      "file": "sources/bls-table7.txt.access.json",
+      "bytes": 191,
+      "sha256": "ea3db1be6d49e8869b239c591b3c0ea6b95e25125e9f3c6d692f9db94b929c1a"
+    },
+    {
+      "file": "sources/ine-demografia2023.html",
+      "bytes": 53542,
+      "sha256": "4fd309ff15a6e57160b5864efc52642d73733b41b1b2a837a0305ec308e6b0cf"
+    },
+    {
+      "file": "sources/ine-demografia2023.html.access.json",
+      "bytes": 188,
+      "sha256": "bcfa1af1394d5d57194b7f829498851b8909df10e102b61f6741de041cee34f3"
+    },
+    {
+      "file": "sources/reading-scope.json",
+      "bytes": 1012,
+      "sha256": "3462e01f13cd2565039617b64a6fc74e736db3a91cf41f930ba01e4250ae6297"
+    },
+    {
+      "file": "sources/reading-status.json",
+      "bytes": 187,
+      "sha256": "260e3db8685b2f57f4028fc21e332a7ee8136df136c02e07e47583e70d254415"
+    },
+    {
+      "file": "sources/research-access-notes.json",
+      "bytes": 1008,
+      "sha256": "245f980d9b2903390b2ee30449590ea4bb34266b9825001c7cf6723ef718fecb"
+    }
+  ],
+  "omitted_claims": [
+    "Causas de cierre no medidas por las tablas",
+    "Efecto causal o aumento cuantificado de probabilidades por preparación",
+    "Equiparar cierre con fracaso personal",
+    "Ranking entre países con unidades y cohortes distintas",
+    "Trasladar tasas agregadas a probabilidad individual"
+  ],
+  "text_checks": {
+    "main_words": 1136,
+    "opening_words": 52,
+    "faq_words": [
+      45,
+      49,
+      46
+    ],
+    "seo_title_characters": 53,
+    "description_characters": 152,
+    "two_hypothetical_examples": true,
+    "keyword_h2": true
+  },
+  "scope": "Lecturas parciales identificadas. Accesos locales403/404 documentados; lectura primaria en navegador separada. Descarga no equivale a lectura completa.",
+  "image_review": "Nueve originales generados en la ejecución anterior, vistos individualmente y en mosaico514–516; reutilización de sus propios originales conservados; formatos, tamaños, recortes y alts comprobados. Escenas conceptuales de inmovilidad, exposición y supervivencia; no ilustraciones científicas cuantitativas, no datos ni personas documentales.",
+  "final_verification": {
+    "checked_at": "2026-10-31T04:09:03.060873+00:00",
+    "published_url": "https://moevec.org/blog/supervivencia-de-empresas-datos/",
+    "public_checks": "verification.json",
+    "wordpress_registry_words": 1275,
+    "body_sha256": "1e64d82fb5f7fdc9141baf8b68b944821118f56833e216054a9b16302d2d4d10"
+  }
+}

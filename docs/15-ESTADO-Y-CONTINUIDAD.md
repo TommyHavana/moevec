@@ -1,28 +1,30 @@
-# Estado de MEE y continuidad · 31/10/2026 · Europe/Madrid
+# Estado de MEE y continuidad ·31/10/2026 ·Europe/Madrid
 
 ## Estado actual
 
-**511/840 terminadas, 1533 imágenes originales públicas, 0 en curso o borradores WordPress y 329 pendientes**. Inversión Personal 14/15; Riesgo Consciente 2/15, tanda 35/56. 33 tandas completas.
+**520/840 terminadas, 1560 imágenes originales públicas, 0 en curso o borradores WordPress y 320 pendientes**. Riesgo Consciente 11/15; Inversión Personal 14/15;33 tandas completas.
 
 Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Inicio: 503 completas. Publicadas 505–511 y 513: ocho entradas, 24 originales públicos. 501 y 512 retenidas por título, sin publicar.
+Inicio 511 completas. Publicadas 514–522: nueve entradas y 27 originales públicos.
 
-Ocho publicaciones nuevas y 24 originales públicos. Una publicación y tres adjuntos por ID. Trabajo → Inversión Personal para 505–510; Trabajo → Riesgo Consciente para 511 y 513. Etiquetas de tema/nivel y pais-cuba en 507. URL 200, H1, canonical, indexabilidad declarada, Article, índice, sitemap, enlaces internos y jerarquía visible/BreadcrumbList comprobados. Dimensiones, bytes, alt, hashes y variantes correctos. Taxonomía de 122 nodos y siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva.
+Nueve publicaciones nuevas y 27 originales públicos. Una publicación y tres adjuntos por ID. Trabajo → Riesgo Consciente, etiquetas de tema y nivel. URL200, H1 único, canonical, indexabilidad declarada, Article, índice, sitemap, cinco enlaces internos y jerarquía visible/BreadcrumbList comprobados. Dimensiones, bytes, alt, hashes y variantes correctos. Taxonomía 122 nodos/siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva.
 
 ## Revisión
 
-505: lectura parcial del capítulo inicial de Adler y Van Doren, edición revisada de 1972. 506: presupuesto y calendario de flujo CFPB, sin porcentaje óptimo de formación. 507: Kiwix/OpenLearn y límite específico xPRO, sin probar acceso desde Cuba ni trasladar normas de 2021 como vigentes. 508: OIT 2025/2026, FMI 2024 y WEF 2025; exposición no predice por sí sola empleo y ninguna habilidad garantiza permanencia. 509: FTC 2026/2022, OpenLearn y lectura MEE; sin acusaciones a proveedores o plazos legales universales. 510: plan propio MEE, cuatro ámbitos solapados y revisión trimestral propuesta, sin eficacia universal atribuida. 511: distinción Knight y extracto editorial Taleb, sin libros íntegros leídos. 513: Markowitz/SEC y analogía personal explícita, sin recomendaciones de productos o ausencia de pérdidas garantizada.
+514: Gilovich/Medvec 1995 y réplica parcial 2023; no implica que siempre convenga actuar. 515: Kelly 1956 bajo supuestos explícitos y extracto Taleb; regla del título delimitada a excluir pérdidas identificadas que comprometen lo indispensable, sin garantía universal o porcentaje personal. 516: INE, cohorte 2018→2023,41,9%; BLS, establecimientos marzo 2021→marzo 2026,47,2%; unidades y periodos distintos, sin ranking ni causalidad de preparación. 517: entrevista directa Edmondson y GEM2025/2026, lectura parcial; sin romantizar pérdidas ni inferir causalidad de salida. 518: DGSFP y BOE, PDF consolidado con fecha 03/10/2026, artículos 1/3/5/8 leídos; alcance España sin seguro obligatorio universal. 519: WJP2026, BREADY, WGI y Decreto 107 cubano 2024 como caso histórico; título condicional, sin ranking universal de amenazas ni lista de 2021 vigente. 520: marco conceptual Taleb y diálogo 2012; robustez distinta de mejora y sin garantía ante crisis. 521: ficha pública ISO 31000 y plantilla MEE, sin certificación, tabla normativa ni precisión matemática ficticia. 522: ESAs 2025 y CNMV actualizada tras 01/07/2026, caso FTX2024 DOJ; sin precios históricos no verificados ni garantía de capital.
+
+Paso 5 del prompt original: objetivo 900–1300 palabras principales, que sustituye A3 del plan.
 
 ## Continuación exacta
 
-Reanudar **514–516 / E4.3.04–E4.3.06**, Trabajo → Riesgo Consciente, tanda 35/56, entradas 4–6/15. Nueve originales nuevos listos y revisados; briefs, prompts, procedencia e investigación inicial guardados. Faltan lectura final de fuentes, textos, revisión y publicación. Después 517–519. **501 / E4.2.06** y **512 / E4.3.02** están retenidas por el título: texto y tres imágenes por entrada completos, sin publicar. Las dos preguntas ya se formularon; comprobar si llegó respuesta y no repetirlas ni tomar el silencio como aprobación. Mientras estén pendientes, continuar trabajo independiente.
+Reanudar **523–525 / E4.3.13–E4.3.15**, Trabajo → Riesgo Consciente, tanda 35/56, entradas 13–15/15. Nueve originales WebP completos, inspeccionados individualmente y en mosaico; briefs, prompts, procedencia y lectura inicial de fuentes conservados. Faltan investigación específica, textos y revisión final antes de publicar. Después 526–528 / E4.4.01–E4.4.03, Escalabilidad Social. **501 / E4.2.06** y **512 / E4.3.02** siguen retenidas por título, con textos y 3 imágenes por entrada, sin publicación. Las preguntas anteriores siguen pendientes; no repetirlas ni interpretar el silencio como aprobación. Continuar trabajo independiente.
 
 ## Copias y límites
 
-VPS con 511 publicadas, SQL completo, 44 medios nuevos en el último respaldo; 159 incrementos de medios en la cadena y huecos 501/512 declarados. Hashes y miembros comprobados; sin nueva prueba de arranque de restauración. Copia local incremental y fuente privada al cierre. Producción continua autorizada; WordPress determina el estado real. Detalle: `docs/produccion/2026-10-31-bloques-505-513.md`.
+VPS con 520 publicadas, SQL final /data/mee-backups/produccion-840-cierre-514-522-20261031,198 medios nuevos en tres incrementos;162 incrementos más base y huecos 501/512. Hashes y miembros comprobados, sin nueva prueba de arranque. Copia local incremental y fuente privada al cierre. Detalle: `docs/produccion/2026-10-31-bloques-514-522.md`. Producción continua autorizada; WordPress determina el estado real.
 
 ## Página de apoyo, donaciones y publicidad · 29/10/2026
 

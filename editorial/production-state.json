@@ -1,36 +1,36 @@
 {
   "automation_id": "producci-n-editorial-mee-840",
   "mode": "continuous_blocks_of_three",
-  "completed_at_start": 503,
+  "completed_at_start": 511,
   "current_block": [
-    514,
-    515,
-    516
+    523,
+    524,
+    525
   ],
   "current_ids": [
-    "E4.3.04",
-    "E4.3.05",
-    "E4.3.06"
+    "E4.3.13",
+    "E4.3.14",
+    "E4.3.15"
   ],
   "area": "trabajo",
   "topic": "riesgo-consciente",
-  "phase": "prepared_514_516_titles_pending_501_512",
+  "phase": "prepared_523_525_titles_pending_501_512",
   "next_after_block": [
-    517,
-    518,
-    519
+    526,
+    527,
+    528
   ],
-  "updated_at": "2026-10-31T03:30:00.501986+00:00",
+  "updated_at": "2026-10-31T04:09:03.060873+00:00",
   "last_completed_block": [
-    508,
-    509,
-    510
+    520,
+    521,
+    522
   ],
-  "notes": "511/840 terminadas, 1533 imágenes originales públicas, 0 en curso o borradores WordPress y 329 pendientes. Inversión Personal 14/15; Riesgo Consciente 2/15. 33 tandas completas. Reanudar **514–516 / E4.3.04–E4.3.06**, Trabajo → Riesgo Consciente, tanda 35/56, entradas 4–6/15. Nueve originales nuevos listos y revisados; briefs, prompts, procedencia e investigación inicial guardados. Faltan lectura final de fuentes, textos, revisión y publicación. Después 517–519. **501 / E4.2.06** y **512 / E4.3.02** están retenidas por el título: texto y tres imágenes por entrada completos, sin publicar. Las dos preguntas ya se formularon; comprobar si llegó respuesta y no repetirlas ni tomar el silencio como aprobación. Mientras estén pendientes, continuar trabajo independiente.",
+  "notes": "520/840 terminadas, 1560 imágenes originales públicas, 0 en curso o borradores WordPress y 320 pendientes. Riesgo Consciente 11/15; Inversión Personal 14/15;33 tandas completas. Reanudar **523–525 / E4.3.13–E4.3.15**, Trabajo → Riesgo Consciente, tanda 35/56, entradas 13–15/15. Nueve originales WebP completos, inspeccionados individualmente y en mosaico; briefs, prompts, procedencia y lectura inicial de fuentes conservados. Faltan investigación específica, textos y revisión final antes de publicar. Después 526–528 / E4.4.01–E4.4.03, Escalabilidad Social. **501 / E4.2.06** y **512 / E4.3.02** siguen retenidas por título, con textos y 3 imágenes por entrada, sin publicación. Las preguntas anteriores siguen pendientes; no repetirlas ni interpretar el silencio como aprobación. Continuar trabajo independiente.",
   "last_backup": {
-    "directory": "/data/mee-backups/produccion-840-incremento-511-y-513-20261031",
-    "completed_articles": 511,
-    "max_published_number": 513,
+    "directory": "/data/mee-backups/produccion-840-cierre-514-522-20261031",
+    "completed_articles": 520,
+    "max_published_number": 522,
     "published_ranges": [
       [
         1,
@@ -42,53 +42,43 @@
       ],
       [
         513,
-        513
+        522
       ]
     ],
     "unpublished_gaps": [
       501,
       512
     ],
-    "sql_bytes": 20587333,
-    "upload_files": 44,
-    "uploads_bytes": 1665908,
-    "archives": [
-      {
-        "file": "uploads-511-511.tar.gz",
-        "files": 22,
-        "bytes": 677111
-      },
-      {
-        "file": "uploads-513-513.tar.gz",
-        "files": 22,
-        "bytes": 988797
-      }
-    ],
+    "sql_bytes": 20952951,
+    "upload_files": 0,
+    "uploads_bytes": 0,
+    "archives": [],
+    "latest_media_increment": "/data/mee-backups/produccion-840-incremento-520-522-20261031",
     "checksums_verified": true,
     "archive_verified": true,
-    "overlays": 159,
+    "overlays": 162,
     "chain_contiguous": false,
     "published_media_coverage_complete": true,
     "restore_test": false
   },
-  "last_local_backup": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Editorial_505-511_y_513_2026-10-31_incremental.zip",
+  "last_local_backup": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Editorial_514-522_2026-10-31_incremental.zip",
   "completed_this_run": [
-    505,
-    506,
-    507,
-    508,
-    509,
-    510,
-    511,
-    513
+    514,
+    515,
+    516,
+    517,
+    518,
+    519,
+    520,
+    521,
+    522
   ],
-  "run_started_with_completed": 503,
+  "run_started_with_completed": 511,
   "local_preparations": [
     {
-      "id": "E4.2.06",
       "number": 501,
+      "id": "E4.2.06",
       "images": 3,
-      "images_visually_checked": true,
       "body_complete": true,
       "published": false,
       "phase": "title_review_pending",
@@ -96,10 +86,9 @@
       "title_checked": false
     },
     {
-      "id": "E4.3.02",
       "number": 512,
+      "id": "E4.3.02",
       "images": 3,
-      "images_visually_checked": true,
       "body_complete": true,
       "published": false,
       "phase": "title_review_pending",
@@ -107,8 +96,8 @@
       "title_checked": false
     },
     {
-      "id": "E4.3.04",
-      "number": 514,
+      "number": 523,
+      "id": "E4.3.13",
       "images": 3,
       "images_visually_checked": true,
       "article_complete": false,
@@ -117,8 +106,8 @@
       "phase": "research_preparation_images_ready"
     },
     {
-      "id": "E4.3.05",
-      "number": 515,
+      "number": 524,
+      "id": "E4.3.14",
       "images": 3,
       "images_visually_checked": true,
       "article_complete": false,
@@ -127,8 +116,8 @@
       "phase": "research_preparation_images_ready"
     },
     {
-      "id": "E4.3.06",
-      "number": 516,
+      "number": 525,
+      "id": "E4.3.15",
       "images": 3,
       "images_visually_checked": true,
       "article_complete": false,
@@ -139,12 +128,12 @@
   ],
   "local_backup_kind": "incremental",
   "local_backup_base": {
-    "path": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Editorial_499-500_y_502-504_2026-10-31_incremental.zip",
-    "sha256": "0ec79dbbf8cc69be7a039b68073d06e74fef9a02c83d4d8ac8bc5fd8bda9c6e6"
+    "path": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Editorial_505-511_y_513_2026-10-31_incremental.zip",
+    "sha256": "39edf3cdc3da107141bfcaf6595cef0c838547db6dd13741c80346a0b032a41d"
   },
   "storage_check": {
-    "checked_at": "2026-10-31T03:30:21.927052+00:00",
-    "free_bytes": 8952868864,
+    "checked_at": "2026-10-31T04:10:13.024934+00:00",
+    "free_bytes": 7470006272,
     "originals_and_backups_preserved": true
   },
   "last_run_closed_at_madrid": "2026-10-31",
@@ -173,14 +162,15 @@
     }
   ],
   "last_published_numbers": [
-    505,
-    506,
-    507,
-    508,
-    509,
-    510,
-    511,
-    513
+    514,
+    515,
+    516,
+    517,
+    518,
+    519,
+    520,
+    521,
+    522
   ],
   "last_partial_block": {
     "numbers": [

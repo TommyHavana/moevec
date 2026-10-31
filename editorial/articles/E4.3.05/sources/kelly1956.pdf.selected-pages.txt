@@ -1,0 +1,132 @@
+PDF PAGE 2
+918
+the bell system technical journal, july 1956
+system in which errors are being made at a non-negligible rate, i.e., where
+optimum coding is not being used. In its most general formulation this problem
+seems to have but one solution. A cost function must be deﬁned on pairs of
+symbols which tells how bad it is to receive a certain symbol when a speciﬁed
+signal is transmitted. Furthermore, this cost function must be such that its
+expected value has signiﬁcance, i.e., a system must be preferable to another if
+its average cost is less. The utility theory of Von Neumann2 shows us one way
+to obtain such a cost function. Generally this cost function would depend on
+things external to the system and not on the probabilities which describe the
+system, so that its average value could not be identiﬁed with the rate as deﬁned
+by Shannon.
+The cost function approach is, of course, not limited to studies of commu-
+nication systems, but can actually be used to analyze nearly any branch of
+human endeavor. The author believes that it is too general to shed any light
+on the speciﬁc problems of communication theory. The distinguishing feature
+of a communication system is that the ultimate receiver (thought of here as a
+person) is in a position to proﬁt from any knowledge of the input symbols or
+even from a better estimate of their probabilities. A cost function, if it is sup-
+posed to apply to a communication system, must somehow reﬂect this feature.
+The point here is that an arbitrary combination of a statistical transducer (i.e.,
+a channel) and a cost function does not necessarily constitute a communication
+system. In fact (not knowing the exact deﬁnition of a communication system on
+which the above statements are tacitly based) the author would not know how
+to test such an arbitrary combination to see if it were a communication system.
+What can be done, however, is to take some real-life situation which seems
+to possess the essential features of a communication problem, and to analyze
+it without the introduction of an arbitrary cost function. The situation which
+will be chosen here is one in which a gambler uses knowledge of the received
+symbols of a communication channel in order to make proﬁtable bets on the
+transmitted symbols.
+the gambler with a private wire
+Let us consider a communication channel which is used to transmit the
+results of a chance situation before those results become common knowledge, so
+that a gambler may still place bets at the original odds. Consider ﬁrst the case
+of a noiseless binary channel, which might be
+2Von Neumann and Morgenstein, Theory of Games and Economic Behavior, Princeton
+Univ. Press, 2nd Edition, 1947.
+
+
+PDF PAGE 3
+a new interpretation of information rate
+919
+used, for example, to transmit the results of a series of baseball games between
+two equally matched teams. The gambler could obtain even money bets even
+though he already knew the result of each game. The amount of money he
+could make would depend only on how much he chose to bet. How much would
+he bet? Probably all he had since he would win with certainty. In this case
+his capital would grow exponentially and after N bets he would have 2N times
+his original bankroll. This exponential growth of capital is not uncommon in
+economics. In fact, if the binary digits in the above channel were arriving at the
+rate of one per week, the sequence of bets would have the value of an investment
+paying 100 per cent interest per week compounded weekly. We will make use
+of a quantity G called the exponential rate of growth of the gambler’s capital,
+where
+G = lim
+N→∞
+1
+N log VN
+V0
+where VN is the gambler’s capital after N bets, V0 is his starting capital, and
+the logarithm is to the base two. In the above example G = 1.
+Consider the case now of a noisy binary channel, where each transmitted
+symbol has probability, p, of error and q of correct transmission.
+Now the
+gambler could still bet his entire capital each time, and, in fact, this would
+maximize the expected value of his capital, ⟨VN⟩, which in this case would be
+given by
+⟨VN⟩= (2q)NV0
+This would be little comfort, however, since when N was large he would probably
+be broke and, in fact, would be broke with probability one if he continued
+indeﬁnitely. Let us, instead, assume that he bets a fraction, ℓ, of his capital
+each time. Then
+VN = (1 + ℓ)W (1 −ℓ)LV0
+where W and L are the number of wins and losses in the N bets. Then
+G
+=
+lim
+N→∞
+!W
+N log(1 + ℓ) + L
+N log(1 −ℓ)
+"
+=
+q log(1 + ℓ) + p log(1 −ℓ) with probability one
+Let us maximize G with respect to ℓ. The maximum value with respect to
+the Yi of a quantity of the form Z = # Xi log Yi, subject to the constraint
+# Yi = Y , is obtained by putting
+Yi = Y
+X Xi,
+
+
+PDF PAGE 4
+920
+the bell system technical journal, july 1956
+where X = # Xi.
+This may be shown directly from the convexity of the
+logarithm.
+Thus we put
+(1 + ℓ) = 2q
+(1 −ℓ) = 2p
+and
+Gmax = 1 + p log p + q log q
+= R
+which is the rate of transmission as deﬁned by Shannon.
+One might still argue that the gambler should bet all his money (make ℓ= 1)
+in order to maximize his expected win after N times. It is surely true that if the
+game were to be stopped after N bets the answer to this question would depend
+on the relative values (to the gambler) of being broke or possessing a fortune. If
+we compare the fates of two gamblers, however, playing a nonterminating game,
+the one which uses the value ℓfound above will, with probability one, eventually
+get ahead and stay ahead of one using any other ℓ. At any rate, we will assume
+that the gambler will always bet so as to maximize G.
+the general case
+Let us now consider the case in which the channel has several input symbols,
+not necessarily equally likely, which represent the outcome of chance events. We
+will use the following notation:
+p(s) the probability that the transmitted symbol is the s’th one.
+p(r/s) the conditional probability that the received symbol is the r’th on the
+hypothesis that the transmitted symbol is the s’th one.
+p(s, r) the joint probability of the s’th transmitted and r’th received symbol.
+q(r) received symbol probability.
+q(s/r) conditional probability of transmitted symbol on hypothesis of received
+symbol.
+αs the odds paid on the occurrence of the s’th transmitted symbol, i.e., αs
+is the number of dollars returned for a one-dollar bet (including that one
+dollar).
+a(s/r) the fraction of the gambler’s capital that he decides to bet on the oc-
+currence of the s’th transmitted symbol after observing the r’th received
+symbol.

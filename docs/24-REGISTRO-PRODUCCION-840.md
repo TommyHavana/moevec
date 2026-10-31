@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-31T03:29:13+00:00.
+Comprobado en WordPress: 2026-10-31T04:08:01+00:00.
 
-**511/840 terminadas · 0 en curso · 329 pendientes.**
+**520/840 terminadas · 0 en curso · 320 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -525,15 +525,15 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 511 | 35/56 · 1/15 | E4.3.01 | Riesgo e incertidumbre: no son lo mismo | terminada | 3/3 | [Leer](https://moevec.org/blog/riesgo-e-incertidumbre/) |
 | 512 | 35/56 · 2/15 | E4.3.02 | Aversión a la pérdida: por qué el miedo pesa el doble | pendiente | 0/3 | — |
 | 513 | 35/56 · 3/15 | E4.3.03 | Diversificación: no pongas todos los huevos en la misma cesta | terminada | 3/3 | [Leer](https://moevec.org/blog/diversificacion-personal/) |
-| 514 | 35/56 · 4/15 | E4.3.04 | El riesgo de no arriesgar: el coste oculto de la inmovilidad | pendiente | 0/3 | — |
-| 515 | 35/56 · 5/15 | E4.3.05 | Tamaño de la apuesta: la regla que evita la ruina | pendiente | 0/3 | — |
-| 516 | 35/56 · 6/15 | E4.3.06 | Supervivencia de empresas: qué dicen los datos y cómo mejorar tus probabilidades | pendiente | 0/3 | — |
-| 517 | 35/56 · 7/15 | E4.3.07 | Fracasar bien: el valor de los errores baratos | pendiente | 0/3 | — |
-| 518 | 35/56 · 8/15 | E4.3.08 | Seguros para emprendedores: qué riesgos transferir | pendiente | 0/3 | — |
-| 519 | 35/56 · 9/15 | E4.3.09 | Riesgo regulatorio: cuando el mayor peligro es el gobierno | pendiente | 0/3 | — |
-| 520 | 35/56 · 10/15 | E4.3.10 | Antifragilidad: negocios que mejoran con el desorden | pendiente | 0/3 | — |
-| 521 | 35/56 · 11/15 | E4.3.11 | Matriz de riesgos para tu proyecto en una hoja | pendiente | 0/3 | — |
-| 522 | 35/56 · 12/15 | E4.3.12 | Riesgo en criptomonedas: lo que hay que saber antes de entrar | pendiente | 0/3 | — |
+| 514 | 35/56 · 4/15 | E4.3.04 | El riesgo de no arriesgar: el coste oculto de la inmovilidad | terminada | 3/3 | [Leer](https://moevec.org/blog/riesgo-de-no-arriesgar/) |
+| 515 | 35/56 · 5/15 | E4.3.05 | Tamaño de la apuesta: la regla que evita la ruina | terminada | 3/3 | [Leer](https://moevec.org/blog/tamano-de-la-apuesta/) |
+| 516 | 35/56 · 6/15 | E4.3.06 | Supervivencia de empresas: qué dicen los datos y cómo mejorar tus probabilidades | terminada | 3/3 | [Leer](https://moevec.org/blog/supervivencia-de-empresas-datos/) |
+| 517 | 35/56 · 7/15 | E4.3.07 | Fracasar bien: el valor de los errores baratos | terminada | 3/3 | [Leer](https://moevec.org/blog/fracasar-bien/) |
+| 518 | 35/56 · 8/15 | E4.3.08 | Seguros para emprendedores: qué riesgos transferir | terminada | 3/3 | [Leer](https://moevec.org/blog/seguros-para-emprendedores/) |
+| 519 | 35/56 · 9/15 | E4.3.09 | Riesgo regulatorio: cuando el mayor peligro es el gobierno | terminada | 3/3 | [Leer](https://moevec.org/blog/riesgo-regulatorio/) |
+| 520 | 35/56 · 10/15 | E4.3.10 | Antifragilidad: negocios que mejoran con el desorden | terminada | 3/3 | [Leer](https://moevec.org/blog/antifragilidad-negocios/) |
+| 521 | 35/56 · 11/15 | E4.3.11 | Matriz de riesgos para tu proyecto en una hoja | terminada | 3/3 | [Leer](https://moevec.org/blog/matriz-de-riesgos-proyecto/) |
+| 522 | 35/56 · 12/15 | E4.3.12 | Riesgo en criptomonedas: lo que hay que saber antes de entrar | terminada | 3/3 | [Leer](https://moevec.org/blog/riesgo-en-criptomonedas/) |
 | 523 | 35/56 · 13/15 | E4.3.13 | Emprender en un país inestable: gestión del riesgo país | pendiente | 0/3 | — |
 | 524 | 35/56 · 14/15 | E4.3.14 | Fondo de emergencia: el primer seguro del emprendedor | pendiente | 0/3 | — |
 | 525 | 35/56 · 15/15 | E4.3.15 | Decidir arriesgar: guía de decisión en siete preguntas | pendiente | 0/3 | — |
