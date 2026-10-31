@@ -2,27 +2,27 @@
 
 ## Estado actual
 
-**547/840 terminadas, 1641 imágenes originales públicas, 0 en curso o borradores WordPress y 293 pendientes**. Escalabilidad Social 15/15; Selección de Socios 9/15; Riesgo Consciente 14/15, Inversión Personal 14/15;34 tandas completas.
+**550/840 terminadas, 1650 imágenes originales públicas, 0 en curso o borradores WordPress y 290 pendientes**. Escalabilidad Social 15/15; Selección de Socios 12/15; Riesgo Consciente 14/15, Inversión Personal 14/15;34 tandas completas.
 
 Fuente activa `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Inicio 532;535–549 completas, quince entradas y45 originales públicos.
+Inicio 532;535–552 completas, dieciocho entradas y54 originales públicos.
 
-Tres entradas 547–549 completas con nueve originales. URL 200, H1, canonical, indexabilidad declarada, Article, índice, sitemap, enlaces existentes y BreadcrumbList comprobados. Una publicación y tres adjuntos por ID, categorías y etiquetas del plan; taxonomía 122/7 conservada.
+Tres entradas 550–552 completas con nueve originales. URL 200, H1, canonical, indexabilidad declarada, Article, índice, sitemap, enlaces existentes y BreadcrumbList comprobados. Una publicación y tres adjuntos por ID, categorías y etiquetas del plan; taxonomía 122/7 conservada.
 
 ## Revisión
 
-547: Ley5/2012 artículos6–8, LO1/2025 artículos2–5 y16, Ley60/2003 artículos9,11,43–45; intento de negociación y acuerdo son distintos, arbitraje decide por laudo. Sin tasas de éxito ni superioridad universal de mediación. 548: Feld2004, ficha/índice Wiley de4ªedición de Venture Deals, página de modelos NVCA y referencia institucional CNMV; no lectura íntegra del libro2011 o de todos los contratos. Dilución hipotética con supuestos explícitos, no valoración aconsejada. 549: DL88 concordado especial12/2026 artículos54–55 y57, Ley118 concordada especial11/2026 actualizada porDL128, artículo2 y pasajes13/19–24; residencia exterior cubana contemplada trasDL133. OFAC FAQ758 y programa actual, incluida modificación efectiva30/09/2026. Posibilidad cubana de ser socio no equivale a permiso de inversión o transferencia desde otro país. Sin dictamen individual.
+550: servicios oficiales de Registradores de España para documentación mercantil; no consulta registral de personas o empresas concretas ni garantía de solvencia u honestidad. Diez señales como propuesta de MEE, sin puntuación predictiva; colaboración de prueba con condiciones y remuneración cuando corresponda. 551: plantilla original de MEE de16 preguntas en cuatro bloques, contexto E4.5.03; sin atribuir validez psicométrica a la entrevista ni inferir compatibilidad por una nota. 552: Dyer2000, extracto primario de portada/índice y prefacio impreso viii, caso históricoToyota/Chrysler; Toyota Supplier Sustainability Guidelines noviembre2021 PDFpáginas2–3(impresas1–2), enlazadas en página institucional actual; políticas declaradas, no auditoría de cumplimiento. Miwa/Ramseyer2006 solo resumen editorial crítico sobrekeiretsu; no lectura completa, no resolución del debate ni garantía causal de reducción de costes. Ejemplos hipotéticos identificados.
 
 ## Continuación exacta
 
-Reanudar **550–552 / E4.5.10–E4.5.12**, Trabajo → Selección de Socios, tanda 37/56, entradas 10–12/15. Nueve originales WebP completos e inspeccionados, briefs, prompts, procedencia y notas conservados. Faltan investigación específica, textos y revisión completa. Después, 553–555 / E4.5.13–E4.5.15. **501 / E4.2.06** y **512 / E4.3.02** siguen retenidas por título, con texto y 3 imágenes cada una, sin publicación; preguntas previas pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Reanudar **553–555 / E4.5.13–E4.5.15**, Trabajo → Selección de Socios, tanda 37/56, entradas 13–15/15. Nueve originales WebP completos e inspeccionados, briefs, prompts, procedencia y notas conservados. Faltan investigación específica, textos y revisión completa. Después, **556–558 / E4.6.01–E4.6.03**, Trabajo → Experiencia como Activo. **501 / E4.2.06** y **512 / E4.3.02** siguen retenidas por título, con texto y 3 imágenes cada una, sin publicación; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
 
 ## Copias y límites
 
-VPS `/data/mee-backups/produccion-840-incremento-547-549-20261031`; SQL y66 medios nuevos. Cadena171 más base, hash y miembros comprobados; sin nueva restauración arrancada. Detalle en docs/produccion/2026-10-31-bloques-535-549.md.
+VPS `/data/mee-backups/produccion-840-incremento-550-552-20261031`; SQL y66 medios nuevos. Cadena172 más base, hash y miembros comprobados; sin nueva restauración arrancada. Detalle en docs/produccion/2026-10-31-bloques-535-552.md.
 
 ## Página de apoyo, donaciones y publicidad · 29/10/2026
 

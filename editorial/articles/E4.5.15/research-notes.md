@@ -1,0 +1,8 @@
+# Preparación · E4.5.15
+
+- Revisar fuentes históricas docs/03-plataforma-debate.md y E3.2.10 como contexto, sin convertir propuesta en funcionalidad.
+- Comprobar estado real del producto y puente Phoenix antes de mencionar perfiles, reputación, búsqueda, verificación o registro.
+- No anunciar funciones, perfiles verificados o transacciones inexistentes; ilustraciones conceptuales de una propuesta.
+- Faltan texto, investigación y revisión final.
+
+Tres originales completos e inspeccionados; no datos, casos reales, formularios legales o certificaciones.

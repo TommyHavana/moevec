@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-31T06:14:03+00:00.
+Comprobado en WordPress: 2026-10-31T06:27:32+00:00.
 
-**547/840 terminadas · 0 en curso · 293 pendientes.**
+**550/840 terminadas · 0 en curso · 290 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -561,9 +561,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 547 | 37/56 · 7/15 | E4.5.07 | Conflictos entre socios: causas, prevención y salida | terminada | 3/3 | [Leer](https://moevec.org/blog/conflictos-entre-socios/) |
 | 548 | 37/56 · 8/15 | E4.5.08 | Asociarse con inversores: lo que entregas a cambio del dinero | terminada | 3/3 | [Leer](https://moevec.org/blog/asociarse-con-inversores/) |
 | 549 | 37/56 · 9/15 | E4.5.09 | Socios a distancia: emprender entre la diáspora y la isla | terminada | 3/3 | [Leer](https://moevec.org/blog/socios-a-distancia-diaspora/) |
-| 550 | 37/56 · 10/15 | E4.5.10 | Señales de alerta en un futuro socio | pendiente | 0/3 | — |
-| 551 | 37/56 · 11/15 | E4.5.11 | Plantilla de entrevista para elegir socio | pendiente | 0/3 | — |
-| 552 | 37/56 · 12/15 | E4.5.12 | Proveedores como socios: relaciones de largo plazo | pendiente | 0/3 | — |
+| 550 | 37/56 · 10/15 | E4.5.10 | Señales de alerta en un futuro socio | terminada | 3/3 | [Leer](https://moevec.org/blog/senales-de-alerta-futuro-socio/) |
+| 551 | 37/56 · 11/15 | E4.5.11 | Plantilla de entrevista para elegir socio | terminada | 3/3 | [Leer](https://moevec.org/blog/plantilla-entrevista-socio/) |
+| 552 | 37/56 · 12/15 | E4.5.12 | Proveedores como socios: relaciones de largo plazo | terminada | 3/3 | [Leer](https://moevec.org/blog/proveedores-como-socios/) |
 | 553 | 37/56 · 13/15 | E4.5.13 | Socios en la familia: matrimonio y negocio | pendiente | 0/3 | — |
 | 554 | 37/56 · 14/15 | E4.5.14 | Coinversión entre amigos: reglas para no perder ni dinero ni amistad | pendiente | 0/3 | — |
 | 555 | 37/56 · 15/15 | E4.5.15 | La comunidad MEE como red para encontrar socios (propuesta) | pendiente | 0/3 | — |
