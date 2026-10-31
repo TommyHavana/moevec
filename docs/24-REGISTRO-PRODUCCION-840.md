@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-31T02:40:19+00:00.
+Comprobado en WordPress: 2026-10-31T03:29:13+00:00.
 
-**503/840 terminadas · 0 en curso · 337 pendientes.**
+**511/840 terminadas · 0 en curso · 329 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -516,15 +516,15 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 502 | 34/56 · 7/15 | E4.2.07 | Universidad: ¿sigue compensando? Lo que dicen los datos | terminada | 3/3 | [Leer](https://moevec.org/blog/universidad-sigue-compensando/) |
 | 503 | 34/56 · 8/15 | E4.2.08 | Certificaciones y microcredenciales: atajos reales o humo | terminada | 3/3 | [Leer](https://moevec.org/blog/certificaciones-microcredenciales/) |
 | 504 | 34/56 · 9/15 | E4.2.09 | Invertir en tu marca personal sin postureo | terminada | 3/3 | [Leer](https://moevec.org/blog/marca-personal-sin-postureo/) |
-| 505 | 34/56 · 10/15 | E4.2.10 | Lectura como inversión: cómo leer más y mejor | pendiente | 0/3 | — |
-| 506 | 34/56 · 11/15 | E4.2.11 | Presupuesto de inversión personal: cuánto destinar a formarte | pendiente | 0/3 | — |
-| 507 | 34/56 · 12/15 | E4.2.12 | Invertir en ti en Cuba: aprender con recursos limitados | pendiente | 0/3 | — |
-| 508 | 34/56 · 13/15 | E4.2.13 | Las habilidades que la inteligencia artificial no sustituye (todavía) | pendiente | 0/3 | — |
-| 509 | 34/56 · 14/15 | E4.2.14 | Cómo elegir un curso sin caer en estafas formativas | pendiente | 0/3 | — |
-| 510 | 34/56 · 15/15 | E4.2.15 | Tu plan anual de inversión personal | pendiente | 0/3 | — |
-| 511 | 35/56 · 1/15 | E4.3.01 | Riesgo e incertidumbre: no son lo mismo | pendiente | 0/3 | — |
+| 505 | 34/56 · 10/15 | E4.2.10 | Lectura como inversión: cómo leer más y mejor | terminada | 3/3 | [Leer](https://moevec.org/blog/lectura-como-inversion/) |
+| 506 | 34/56 · 11/15 | E4.2.11 | Presupuesto de inversión personal: cuánto destinar a formarte | terminada | 3/3 | [Leer](https://moevec.org/blog/presupuesto-inversion-personal/) |
+| 507 | 34/56 · 12/15 | E4.2.12 | Invertir en ti en Cuba: aprender con recursos limitados | terminada | 3/3 | [Leer](https://moevec.org/blog/invertir-en-ti-en-cuba/) |
+| 508 | 34/56 · 13/15 | E4.2.13 | Las habilidades que la inteligencia artificial no sustituye (todavía) | terminada | 3/3 | [Leer](https://moevec.org/blog/habilidades-que-la-ia-no-sustituye/) |
+| 509 | 34/56 · 14/15 | E4.2.14 | Cómo elegir un curso sin caer en estafas formativas | terminada | 3/3 | [Leer](https://moevec.org/blog/elegir-curso-sin-estafas/) |
+| 510 | 34/56 · 15/15 | E4.2.15 | Tu plan anual de inversión personal | terminada | 3/3 | [Leer](https://moevec.org/blog/plan-anual-inversion-personal/) |
+| 511 | 35/56 · 1/15 | E4.3.01 | Riesgo e incertidumbre: no son lo mismo | terminada | 3/3 | [Leer](https://moevec.org/blog/riesgo-e-incertidumbre/) |
 | 512 | 35/56 · 2/15 | E4.3.02 | Aversión a la pérdida: por qué el miedo pesa el doble | pendiente | 0/3 | — |
-| 513 | 35/56 · 3/15 | E4.3.03 | Diversificación: no pongas todos los huevos en la misma cesta | pendiente | 0/3 | — |
+| 513 | 35/56 · 3/15 | E4.3.03 | Diversificación: no pongas todos los huevos en la misma cesta | terminada | 3/3 | [Leer](https://moevec.org/blog/diversificacion-personal/) |
 | 514 | 35/56 · 4/15 | E4.3.04 | El riesgo de no arriesgar: el coste oculto de la inmovilidad | pendiente | 0/3 | — |
 | 515 | 35/56 · 5/15 | E4.3.05 | Tamaño de la apuesta: la regla que evita la ruina | pendiente | 0/3 | — |
 | 516 | 35/56 · 6/15 | E4.3.06 | Supervivencia de empresas: qué dicen los datos y cómo mejorar tus probabilidades | pendiente | 0/3 | — |

@@ -1,15 +1,19 @@
-# Preparación de investigación · E4.2.11
+# Investigación · E4.2.11
 
-Estado: texto y revisión final pendientes; no publicar todavía.
-
-CFPB, Build your budget, worksheet y aviso,2p
+Consumer Financial Protection Bureau, Build your budget, ficha mensual, Your Money, Your Goals: Focus on People with Disabilities
 https://files.consumerfinance.gov/f/documents/cfpb_well-being_monthly-budget.pdf
-Dos páginas leídas localmente: ingresos, gastos, resta y aviso educativo del cuaderno para personas con discapacidad; no porcentajes óptimos de formación ni resultados de rentabilidad.
+Dos páginas consultadas: registro de ingresos, gastos, diferencia y aviso educativo. No establece una proporción óptima para formación ni acredita resultados de rentabilidad.
 
-CFPB, Creating a cash flow budget,2018,4p
+Consumer Financial Protection Bureau, Creating a cash flow budget, 2018
 https://files.consumerfinance.gov/f/documents/cfpb_your-money-your-goals_cash_flow_budget_tool_2018-11_ADA.pdf
-Leído en web documento4p: calendario semanal, saldos iniciales/finales, tabla y aviso. No trasladar beneficios/ayudas estadounidenses como aplicables en otros países.
+Cuatro páginas consultadas: calendario semanal y saldos. Se utiliza la distinción temporal, sin trasladar ayudas o reglas estadounidenses a otros países.
 
-MEE E1.2.06, Presupuesto
+MEE, Responsabilidad financiera: el presupuesto como acto de libertad, E1.2.06
 https://moevec.org/blog/responsabilidad-financiera-presupuesto/
-Pendiente de releer para esta pieza.
+Lectura editorial complementaria sobre necesidades, objetivos y decisiones flexibles. Los importes del ejemplo de esta entrada son hipotéticos, no datos de hogares reales.
+
+Excluido:
+- Porcentaje universal de ingresos para formación
+- Ingresos futuros contados como recursos confirmados
+- Atribución causal automática de empleo o ingresos al curso
+- Importes del ejemplo presentados como datos reales o recomendación de reparto

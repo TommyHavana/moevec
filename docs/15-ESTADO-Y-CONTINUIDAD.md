@@ -2,27 +2,27 @@
 
 ## Estado actual
 
-**503/840 terminadas, 1509 imágenes originales públicas, 0 en curso o borradores WordPress y 337 pendientes**. Tanda 34/56, Inversión Personal 8/15, 33 tandas completas; Sacrificio Estratégico 15/15 y Comunidad 60/60.
+**511/840 terminadas, 1533 imágenes originales públicas, 0 en curso o borradores WordPress y 329 pendientes**. Inversión Personal 14/15; Riesgo Consciente 2/15, tanda 35/56. 33 tandas completas.
 
 Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Inicio: 498 completas. Nuevas: 499–500 y 502–504, cinco entradas y quince originales públicos. 501 permanece sin publicar.
+Inicio: 503 completas. Publicadas 505–511 y 513: ocho entradas, 24 originales públicos. 501 y 512 retenidas por título, sin publicar.
 
-Una publicación y tres adjuntos por ID. Categorías Trabajo → Inversión Personal; etiquetas inversion-personal y nivel Fundamentos para 499–500, Desarrollo para 502–504. HTTP 200, H1, canonical, indexabilidad declarada, Article, índice, sitemap y cinco enlaces internos existentes por pieza. Quince originales públicos, dimensiones, bytes, alt, hashes y variantes comprobados. Taxonomía 122 nodos/siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva.
+Ocho publicaciones nuevas y 24 originales públicos. Una publicación y tres adjuntos por ID. Trabajo → Inversión Personal para 505–510; Trabajo → Riesgo Consciente para 511 y 513. Etiquetas de tema/nivel y pais-cuba en 507. URL 200, H1, canonical, indexabilidad declarada, Article, índice, sitemap, enlaces internos y jerarquía visible/BreadcrumbList comprobados. Dimensiones, bytes, alt, hashes y variantes correctos. Taxonomía de 122 nodos y siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva.
 
 ## Revisión
 
-499: salud general con fuentes OMS y NHLBI, sin retorno causal individual, prescripción clínica ni culpar al lector por condiciones sociales. 500: Granovetter 1973 y ensayo de LinkedIn 2022 con límites de medidas y contexto. 502: comparación descriptiva OCDE 2026 con datos 2024, grado/equivalente, 25–64 años, tiempo completo/parcial; costes separados de la prima salarial y Caplan atribuido desde ficha editorial. 503: microcredenciales, revisión OCDE 2021 identificada como histórica, enfoque europeo sin equivalencias automáticas; expectativas WEF 2025–2030 con muestra limitada a grandes empleadores. 504: presentación profesional como propuesta MEE, sin prometer audiencia, reputación o ingresos.
+505: lectura parcial del capítulo inicial de Adler y Van Doren, edición revisada de 1972. 506: presupuesto y calendario de flujo CFPB, sin porcentaje óptimo de formación. 507: Kiwix/OpenLearn y límite específico xPRO, sin probar acceso desde Cuba ni trasladar normas de 2021 como vigentes. 508: OIT 2025/2026, FMI 2024 y WEF 2025; exposición no predice por sí sola empleo y ninguna habilidad garantiza permanencia. 509: FTC 2026/2022, OpenLearn y lectura MEE; sin acusaciones a proveedores o plazos legales universales. 510: plan propio MEE, cuatro ámbitos solapados y revisión trimestral propuesta, sin eficacia universal atribuida. 511: distinción Knight y extracto editorial Taleb, sin libros íntegros leídos. 513: Markowitz/SEC y analogía personal explícita, sin recomendaciones de productos o ausencia de pérdidas garantizada.
 
 ## Continuación exacta
 
-Reanudar **505–507 / E4.2.10–E4.2.12**, Trabajo → Inversión Personal, tanda 34/56, entradas 10–12/15: nueve originales propios ya generados y revisados, briefs y preparación de fuentes conservados; faltan textos y revisión final. Después 508–510. **501 / E4.2.06** conserva el título y slug originales y sus tres imágenes; texto de 1547 palabras, sin publicar porque «mayor retorno para el talento hispano» no está verificado. Ya se solicitó una corrección precisa del título; no repetir la pregunta ni publicar sin resolverla. Comprobar si llegó respuesta antes de reanudar; mientras siga pendiente, continuar trabajo independiente.
+Reanudar **514–516 / E4.3.04–E4.3.06**, Trabajo → Riesgo Consciente, tanda 35/56, entradas 4–6/15. Nueve originales nuevos listos y revisados; briefs, prompts, procedencia e investigación inicial guardados. Faltan lectura final de fuentes, textos, revisión y publicación. Después 517–519. **501 / E4.2.06** y **512 / E4.3.02** están retenidas por el título: texto y tres imágenes por entrada completos, sin publicar. Las dos preguntas ya se formularon; comprobar si llegó respuesta y no repetirlas ni tomar el silencio como aprobación. Mientras estén pendientes, continuar trabajo independiente.
 
 ## Copias y límites
 
-VPS con 503 publicadas, SQL completo, 66 medios nuevos en el último incremento; 155 incrementos de medios en la cadena y hueco 501 no publicado registrado. Cobertura de medios publicados completa. Hashes y miembros verificados; sin nueva prueba completa de arranque. Copia local incremental y fuente privada al cierre. Producción continua autorizada; WordPress es el estado real.
+VPS con 511 publicadas, SQL completo, 44 medios nuevos en el último respaldo; 159 incrementos de medios en la cadena y huecos 501/512 declarados. Hashes y miembros comprobados; sin nueva prueba de arranque de restauración. Copia local incremental y fuente privada al cierre. Producción continua autorizada; WordPress determina el estado real. Detalle: `docs/produccion/2026-10-31-bloques-505-513.md`.
 
 ## Página de apoyo, donaciones y publicidad · 29/10/2026
 
