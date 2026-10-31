@@ -1,0 +1,1686 @@
+<!DOCTYPE html>
+<html lang="en-US" xml:lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+  <!-- This file was converted to HTML by Writer2xhtml ver. 1.7. See http://writer2xhtml.sourceforge.net for more info. -->
+  <head>
+    <title>Calc Guide 26.2 - Chapter 4, Using Styles and Templates</title>
+    <meta charset="UTF-8" />
+    <meta content="Calc Guide 26.2" name="description" />
+    <meta content="" name="keywords" />
+    <link href="http://purl.org/dc/elements/1.1/" rel="schema.DC" />
+    <meta content="Calc Guide 26.2 - Chapter 4, Using Styles and Templates" name="DC.title" />
+    <meta content="LibreOffice  - Calc Guide 26.2" name="DC.subject" />
+    <meta content="Calc Guide 26.2" name="DC.description" />
+    <meta content="B. Antonio Fernández" name="DC.creator" />
+    <meta content="2026-02-03T09:49:16.322250400" name="DC.date" />
+    <meta content="en" name="DC.language" />
+    <style media="all">
+     
+      span.ChapterNumber {font-weight:bold;font-size:2.3333335rem;color:#000000}
+      span.Internetlink {color:#000080;text-decoration:none}
+      span.Emphasis {font-style:italic;background-color:transparent}
+      span.Keystroke {font-family:'Liberation Mono',monospace;font-style:italic;letter-spacing:-0.042519685rem;background-color:transparent}
+      span.StrongEmphasis {font-weight:bold;background-color:transparent}
+      a:link {color:#000080;text-decoration:none}
+      a:visited {font-family:'Liberation Sans',sans-serif;color:#800000;text-decoration:underline}
+      a.Internet20link:link {color:#000080;text-decoration:none}
+      a.Internet20link:visited {font-family:'Liberation Sans',sans-serif;color:#800000;text-decoration:underline}
+      p.HeadingCaution {margin-left:2.3622048rem;margin-right:2.3622048rem;margin-top:0.992126rem;margin-bottom:0.25748032rem;border:none;padding:0;background-color:#f6f1d2;font-family:'Liberation Sans',sans-serif;font-weight:bold;font-size:1.0rem;color:#000000}
+      p.List2 {margin-left:0;margin-right:0;margin-top:0;margin-bottom:0.5007874rem;border:none;padding:0;background-color:transparent;font-family:'Liberation Sans',sans-serif;font-size:0.9166667rem}
+      p.List1 {margin-left:0;margin-right:0;margin-top:0;margin-bottom:0.5007874rem;border:none;padding:0;background-color:transparent;font-family:'Liberation Sans',sans-serif;font-size:0.9166667rem}
+      p.GuideName {margin-left:0;margin-right:0;margin-top:8.503937rem;margin-bottom:0.496063rem;border:none;padding:0;text-align:right;font-family:'Liberation Sans',sans-serif;font-weight:bold;font-size:2.6666667rem;color:#007c3c}
+      p.Title {margin-left:2.6716537rem;margin-right:0;margin-top:4.2496066rem;margin-bottom:0.496063rem;border:none;padding:0;text-indent:-2.6716537rem;text-align:right;font-family:'Liberation Sans',sans-serif;font-style:normal;font-weight:bold;font-size:3.0rem;color:#007c3c}
+      p.Subtitle {page-break-after:always;margin-left:1.511811rem;margin-right:0;margin-top:0.992126rem;margin-bottom:0.496063rem;border:none;padding:0;text-indent:-1.511811rem;text-align:right;font-family:'Liberation Sans',sans-serif;font-style:italic;font-size:1.5rem;color:#007c3c}
+      p.Textbodyindent {margin-left:3.5409448rem;margin-right:0;margin-top:0;margin-bottom:0.5007874rem;border:none;padding:0;background-color:transparent;text-indent:0;font-family:'Liberation Sans',sans-serif;font-size:0.9166667rem}
+      p.Figure {margin-left:0;margin-right:0;margin-top:0;margin-bottom:0.496063rem;border:none;padding:0;background-color:transparent;text-align:center;font-family:'Liberation Sans',sans-serif;font-style:italic;font-size:0.9166667rem}
+      p.Numbering1 {margin-left:0;margin-right:0;margin-top:0;margin-bottom:0.5007874rem;border:none;padding:0;background-color:transparent;font-family:'Liberation Sans',sans-serif;font-size:0.9166667rem}
+      p.TableContents {margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0;background-color:transparent;font-family:'Liberation Sans',sans-serif;font-size:0.8333334rem}
+      p.Textbody {margin-left:0;margin-right:0;margin-top:0;margin-bottom:0.5007874rem;border:none;padding:0;background-color:transparent;font-family:'Liberation Sans',sans-serif;font-size:0.9166667rem}
+      p.TableHeading {margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0;background-color:transparent;text-align:left;font-family:'Liberation Sans',sans-serif;font-style:italic;font-weight:bold;font-size:0.8333334rem}
+      p.Contents3 {margin-left:2.3622048rem;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0;text-indent:0;font-family:'Liberation Sans',sans-serif;font-size:0.9166667rem}
+      p.Contents2 {margin-left:1.1787403rem;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0;text-indent:0;font-family:'Liberation Sans',sans-serif;font-size:0.9166667rem}
+      p.Contents1 {margin-left:0;margin-right:0;margin-top:0.496063rem;margin-bottom:0;border:none;padding:0;text-indent:0;font-family:'Liberation Sans',sans-serif;font-weight:bold;font-size:1.0rem}
+      p.BodyTextListIntro {margin-left:0;margin-right:0;margin-top:0;margin-bottom:0.5007874rem;border:none;padding:0;background-color:transparent;text-indent:0;font-family:'Liberation Sans',sans-serif;font-size:0.9166667rem}
+      p.HeadingNote {margin-left:2.3622048rem;margin-right:2.3622048rem;margin-top:0.992126rem;margin-bottom:0.25748032rem;border:none;padding:0;background-color:#d9f1dd;font-family:'Liberation Sans',sans-serif;font-weight:bold;font-size:1.0rem;color:#000000}
+      p.BodyTextNote {margin-left:2.3622048rem;margin-right:2.3622048rem;margin-top:0;margin-bottom:0.5007874rem;border-top:none;border-bottom:0.0825rem solid #000000;border-left:none;border-right:none;padding-top:0;padding-bottom:0.11574804rem;padding-left:0;padding-right:0;background-color:transparent;text-indent:0;font-family:'Liberation Sans',sans-serif;font-size:0.9166667rem}
+      p.HeadingTip {margin-left:2.3622048rem;margin-right:2.3622048rem;margin-top:0.992126rem;margin-bottom:0.25748032rem;border:none;padding:0;background-color:#cde5f7;font-family:'Liberation Sans',sans-serif;font-weight:bold;font-size:1.0rem;color:#000000}
+      h1 {margin-left:0;margin-right:0;margin-top:1.2496063rem;margin-bottom:0.7535433rem;border-top:none;border-bottom:0.0825rem solid #007c3c;border-left:none;border-right:none;padding-top:0;padding-bottom:0.11574804rem;padding-left:0;padding-right:0;text-indent:0;font-family:'Liberation Sans',sans-serif;font-weight:bold;font-size:1.5rem;color:#007c3c;clear:left}
+      h1.Heading1First {margin-left:0;margin-right:0;margin-top:0;margin-bottom:0.7535433rem;border-top:none;border-bottom:0.0825rem solid #007c3c;border-left:none;border-right:none;padding-top:0;padding-bottom:0.11574804rem;padding-left:0;padding-right:0;background-color:transparent;text-indent:0;font-family:'Liberation Sans',sans-serif;font-weight:bold;font-size:1.5rem;color:#007c3c;clear:left}
+      h1.ContentsHeading {margin-left:0;margin-right:0;margin-top:0;margin-bottom:0.496063rem;border-top:none;border-bottom:0.0825rem solid #007c3c;border-left:none;border-right:none;padding-top:0;padding-bottom:0.11574804rem;padding-left:0;padding-right:0;text-indent:0;font-family:'Liberation Sans',sans-serif;font-weight:bold;font-size:1.5rem;color:#007c3c;clear:left}
+      h2 {margin-left:0;margin-right:0;margin-top:0.992126rem;margin-bottom:0.496063rem;border:none;padding:0;font-family:'Liberation Sans',sans-serif;font-weight:bold;font-size:1.1666667rem;color:#007c3c;clear:left}
+      h3 {margin-left:0;margin-right:0;margin-top:0.7795276rem;margin-bottom:0.496063rem;border:none;padding:0;font-family:'Liberation Sans',sans-serif;font-style:italic;font-weight:bold;font-size:1.0rem;color:#007c3c;clear:left}
+      .Numbering1_1 {margin-top:0;margin-bottom:0;margin-left:0;padding-left:3.5409448rem;counter-reset:Numbering1_1 0;clear:left}
+      .Numbering1_1 > li::marker {content:''}
+      .Numbering1_1 > li > p:first-of-type {text-indent:-0.5905512rem}
+      .Numbering1_1 > li > p {margin-left:0}
+      .Numbering1_1 > li > p:first-of-type::before {counter-increment:Numbering1_1;content:counter(Numbering1_1,decimal) ') ';display:inline-block;width:3.0496066rem;text-indent:0}
+      .List2_1 {margin-top:0;margin-bottom:0;margin-left:0;padding-left:4.9629927rem;clear:left}
+      .List2_1 > li::marker {content:''}
+      .List2_1 > li > p:first-of-type {text-indent:-0.5905512rem}
+      .List2_1 > li > p {margin-left:0}
+      .List2_1 > li > p:first-of-type::before {content:'– ';font-family:OpenSymbol;display:inline-block;width:1.6275591rem;text-indent:0}
+      .List1_1 {margin-top:0;margin-bottom:0;margin-left:0;padding-left:3.5409448rem;clear:left}
+      .List1_1 > li::marker {content:''}
+      .List1_1 > li > p:first-of-type {text-indent:-0.5905512rem}
+      .List1_1 > li > p {margin-left:0}
+      .List1_1 > li > p:first-of-type::before {content:'• ';font-family:OpenSymbol;display:inline-block;width:3.0496066rem;text-indent:0}
+      .HeadingNote_1 {margin-top:0;margin-bottom:0;margin-left:0;padding-left:0;clear:left}
+      .HeadingNote_1 > li::marker {content:''}
+      .HeadingNote_1 > li > p:first-of-type {text-indent:0}
+      .HeadingNote_1 > li > p {margin-left:0}
+      .HeadingNote_1 > li > p:first-of-type::before {content:url(CG26204-StylesAndTemplates-img/CG26204-StylesAndTemplates-img029.svg) ' '}
+      .HeadingTip_1 {margin-top:0;margin-bottom:0;margin-left:0;padding-left:0;clear:left}
+      .HeadingTip_1 > li::marker {content:''}
+      .HeadingTip_1 > li > p:first-of-type {text-indent:0}
+      .HeadingTip_1 > li > p {margin-left:0}
+      .HeadingTip_1 > li > p:first-of-type::before {content:url(CG26204-StylesAndTemplates-img/CG26204-StylesAndTemplates-img030.svg) ' '}
+      .HeadingCaution_1 {margin-top:0;margin-bottom:0;margin-left:0;padding-left:0;clear:left}
+      .HeadingCaution_1 > li::marker {content:''}
+      .HeadingCaution_1 > li > p:first-of-type {text-indent:0}
+      .HeadingCaution_1 > li > p {margin-left:0}
+      .HeadingCaution_1 > li > p:first-of-type::before {content:url(CG26204-StylesAndTemplates-img/CG26204-StylesAndTemplates-img031.svg) ' '}
+      .frameGraphics {margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0;background-color:transparent;font-size:1.0rem}
+      .frameFrame {margin-left:0.47480318rem;margin-right:0.47480318rem;margin-top:0.47480318rem;margin-bottom:0.47480318rem;border:1px solid #000000;padding:0.35433072rem;background-color:transparent;font-size:1.0rem}
+      .frameGraphics p {margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;font-size:1.0rem}
+      .frameFrame p {margin-left:0.47480318rem;margin-right:0.47480318rem;margin-top:0.47480318rem;margin-bottom:0.47480318rem;font-size:1.0rem}
+    </style>
+  <!--Include before the closing </head> -->
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<link href="guidecolors.css" rel="Stylesheet" type="text/css"> 
+<link href="../../static/guideposition.css" rel="Stylesheet" type="text/css"> 
+<link href="guideformats26.css" rel="Stylesheet" type="text/css"> 
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(["disableCookies"]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://piwik.documentfoundation.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '80']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="https://piwik.documentfoundation.org/matomo.php?idsite=80&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Matomo Code -->
+<script type="text/javascript" src="CG262.js" defer></script>
+</head>
+  <body dir="ltr">
+    <div id="SECLOGOregion">
+      <!-- empty paragraph -->
+    </div>
+    <div id="SECGUIDEregion">
+      <p class="GuideName">Calc Guide 26.2</p>
+    </div>
+    <div id="SECTITLEregion">
+      <p class="Title"><span class="ChapterNumber">Chapter 4 </span><br />Using Styles and Templates</p>
+      <p class="Subtitle">Using consistent formatting in spreadsheets</p>
+    </div>
+    <div id="SECDISPLAYAREAregion">
+      <div id="SECCOPYRIGHTregion">
+        <h1 id="toc0"><a id="RefHeading56361566568644"></a>Copyright</h1>
+        <p class="Textbody">This document is Copyright © 2026 by the LibreOffice Documentation Team. Contributors are listed below. You may distribute it and/or modify it under the terms of either the GNU General Public License (<a class="Internet20link" href="https://www.gnu.org/licenses/gpl.html">https://www.gnu.org/licenses/gpl.html</a>), version 3 or later, or the Creative Commons Attribution License (<a class="Internet20link" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a>), version 4.0 or later.</p>
+        <p class="Textbody">All trademarks within this guide belong to their legitimate owners.</p>
+        <h2 id="toc1"><a id="RefHeading56381566568644"></a>Contributors</h2>
+        <p class="Textbody"><a id="RefHeadingToc18471473846649"></a><span class="StrongEmphasis">To this edition</span></p>
+        <p class="TableContents">Olivier Hallot</p>
+        <p class="Textbody"><a id="RefHeadingToc285293211575895"></a><span class="StrongEmphasis">To previous editions</span></p>
+        <p class="TableContents">Edward Olson, Lisa Samy, Claire Wood, B. Antonio Fernández, ‍Skip Masonsmith, Barbara Duprey, Jean Hollis Weber, John A Smith, Peter Schofield, Christian Chenal, Dave Barton, Kees Kriek, Steve Fanning, Leo Moons, Randolph Gamo, Samantha Hamilton, Felipe Viggiano, Olivier Hallot, B. Antonio Fernández</p>
+        <h2 id="toc2"><a id="RefHeadingToc4648402817234"></a>Feedback</h2>
+        <p class="Textbody">Please direct any comments or suggestions about this document to the Documentation Team’s forum at <a class="Internet20link" href="https://community.documentfoundation.org/c/documentation/loguides/">https://community.documentfoundation.org/c/documentation/loguides/</a> (registration is required) or send an email to: <a class="Internet20link" href="mailto:loguides@community.documentfoundation.org">loguides@community.documentfoundation.org</a>.</p>
+        <ul class="HeadingNote_1">
+          <li>
+            <p class="HeadingNote">Note</p>
+          </li>
+        </ul>
+        <p class="BodyTextNote">Everything you send to a forum, including your email address and any other personal information that is written in the message, is publicly archived and cannot be deleted. Emails sent to the forum are moderated.</p>
+        <h2 id="toc3"><a id="RefHeading564415665686441"></a>Publication date and software version</h2>
+        <p class="Textbody">Published February 2026. Based on LibreOffice 26.2<br />Other versions of LibreOffice may differ in appearance and functionality.</p>
+        <h2 id="toc4"><a id="RefHeadingToc87983275413537"></a>Using LibreOffice on macOS</h2>
+        <p class="Textbody">Some keystrokes and menu items are different on macOS from those used in Windows and Linux. The table below gives some common substitutions for the instructions in this document. For a detailed list, see the application Help and Appendix A (Keyboard Shortcuts) to this guide.</p>
+        <table id="tbCG26204000table" style="margin-top:0;margin-bottom:0.496063rem;margin-left:auto;margin-right:auto;border-collapse:collapse">
+          <thead>
+            <tr style="background-color:#d0d0d0">
+              <td style="border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:none;padding:0.23858269rem;background-color:transparent;vertical-align:top">
+                <p class="TableHeading">Windows or Linux</p>
+              </td>
+              <td style="border-top:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:none;padding:0.23858269rem;background-color:transparent;vertical-align:top">
+                <p class="TableHeading">macOS equivalent</p>
+              </td>
+              <td style="border:1px solid #000000;padding:0.23858269rem;background-color:transparent;vertical-align:top">
+                <p class="TableHeading">Effect</p>
+              </td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="background-color:transparent">
+              <td style="border-top:none;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:none;padding:0.23858269rem;background-color:transparent;vertical-align:top">
+                <p class="TableContents"><span class="StrongEmphasis">Tools &gt; Options</span> on Menu bar</p>
+              </td>
+              <td style="border-top:none;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:none;padding:0.23858269rem;background-color:transparent;vertical-align:middle">
+                <p class="TableContents"><span class="StrongEmphasis">LibreOffice &gt; Preferences</span> on Menu bar</p>
+              </td>
+              <td style="border-top:none;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;padding:0.23858269rem;background-color:transparent;vertical-align:top">
+                <p class="TableContents">Access to setup options</p>
+              </td>
+            </tr>
+            <tr style="background-color:transparent">
+              <td style="border-top:none;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:none;padding:0.23858269rem;background-color:transparent;vertical-align:top">
+                <p class="TableContents">Right-click</p>
+              </td>
+              <td style="border-top:none;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:none;padding:0.23858269rem;background-color:transparent;vertical-align:top">
+                <p class="TableContents"><span class="Keystroke">Ctrl</span>+click and/or right-click depending on computer setup</p>
+              </td>
+              <td style="border-top:none;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;padding:0.23858269rem;background-color:transparent;vertical-align:top">
+                <p class="TableContents">Opens a context menu</p>
+              </td>
+            </tr>
+            <tr style="background-color:transparent">
+              <td style="border-top:none;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:none;padding:0.23858269rem;background-color:transparent;vertical-align:top">
+                <p class="TableContents"><span class="Keystroke">Ctrl</span> or <span class="Keystroke">Control</span></p>
+              </td>
+              <td style="border-top:none;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:none;padding:0.23858269rem;background-color:transparent;vertical-align:middle">
+                <p class="TableContents">⌘ and/or <span class="Keystroke">Cmd</span> or <span class="Keystroke">Command</span>, depending on keyboard</p>
+              </td>
+              <td style="border-top:none;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;padding:0.23858269rem;background-color:transparent;vertical-align:top">
+                <p class="TableContents">Used with other keys</p>
+              </td>
+            </tr>
+            <tr style="background-color:transparent">
+              <td style="border-top:none;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:none;padding:0.23858269rem;background-color:transparent;vertical-align:top">
+                <p class="TableContents"><span class="Keystroke">Alt</span></p>
+              </td>
+              <td style="border-top:none;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:none;padding:0.23858269rem;background-color:transparent;vertical-align:middle">
+                <p class="TableContents">⌥ and/or <span class="Keystroke">Alt</span> or <span class="Keystroke">Option</span> depending on keyboard</p>
+              </td>
+              <td style="border-top:none;border-bottom:1px solid #000000;border-left:1px solid #000000;border-right:1px solid #000000;padding:0.23858269rem;background-color:transparent;vertical-align:top">
+                <p class="TableContents">Used with other keys</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <!-- empty paragraph -->
+      </div>
+      <h1 class="Heading1First" id="toc5"><a id="RefHeading46954116595067"></a>Introduction to styles</h1>
+      <p class="Textbody">A style is a predefined set of formatting options you can apply to elements in a spreadsheet to quickly change their appearance. Instead of applying formatting attributes one by one—such as font, size, bold, or alignment—you apply a single style that includes all those settings.</p>
+      <p class="Textbody">Many users tend to manually format spreadsheet cells, shapes, and pages without using styles, focusing on individual attributes like font size or color. For example, you might set a cell’s font to 14 pt, Times New Roman, bold, and centered.</p>
+      <p class="Textbody">Using styles simplifies this process, saves time, and ensures consistency. Instead of repeating individual formatting tasks, you apply a named style—like Title—that already includes the desired settings. This reduces errors and makes global formatting changes easier.</p>
+      <p class="Textbody">For instance, if all your subtotals use a specific style, you can update their appearance across an entire 15-page spreadsheet by modifying that style—changing from 8 pt Times New Roman to 10 pt Arial, for example.</p>
+      <p class="Textbody">You can customize existing styles or create new ones to suit your needs. The next sections explain how to create, edit, and apply styles.</p>
+      <h2 id="toc6"><a id="RefHeadingToc2446275185296"></a><a id="idx0"></a><a id="idx1"></a>Direct formatting and style formatting</h2>
+      <p class="Textbody">Direct formatting (also called <span class="Emphasis">manual formatting</span>) overrides styles. You cannot remove the direct formatting by applying a style to it.</p>
+      <p class="BodyTextListIntro">To remove manual formatting, select the object, and then do one of the following:</p>
+      <ul class="List1_1">
+        <li>
+          <p class="List1">Right-click and choose <span class="StrongEmphasis">Clear Direct Formatting</span> in the context menu (where available).</p>
+        </li>
+        <li>
+          <p class="List1">Press <span class="Keystroke">Ctrl</span>+<span class="Keystroke">M.</span></p>
+        </li>
+        <li>
+          <p class="List1">Click the <span class="StrongEmphasis">Clear Direct Formatting</span> icon on the Standard toolbar.</p>
+        </li>
+        <li>
+          <p class="List1">Select <span class="StrongEmphasis">Format &gt; Clear Direct Formatting</span> on the Menu bar.</p>
+        </li>
+      </ul>
+      <h1 id="toc7"><a id="RefHeading46956116595067"></a>Calc style types</h1>
+      <p class="Textbody">Calc offers three style types: </p>
+      <ul class="List2_1">
+        <li>
+          <p class="List2">Cell styles</p>
+        </li>
+        <li>
+          <p class="List2">Drawing styles</p>
+        </li>
+        <li>
+          <p class="List2">Page styles</p>
+        </li>
+      </ul>
+      <p class="Textbody">These style types are explained in the following sections.</p>
+      <h2 id="toc8"><a id="RefHeading38121034930918"></a><a id="idx2"></a><a id="idx3"></a>Cell styles</h2>
+      <p class="Textbody">Cell styles are similar to paragraph styles used in LibreOffice Writer. They are the most basic type of style in Calc. Cell styles are used for applying fonts, alignment, borders, background, number formats (for example, currency, date, number), and cell protection to format the data in the cells.</p>
+      <p class="Textbody">A basic range of cell styles is supplied with Calc. Many of these styles are shown on the <span class="StrongEmphasis">Styles</span> menu on the Menu bar and all are shown in the Styles deck of the Sidebar. If you create a new cell style, it will be shown in the Sidebar. To learn how to add a new style to the <span class="StrongEmphasis">Styles</span> menu, see Chapter 16, Setting up and Customizing.</p>
+      <p class="Textbody">Changing the characteristics of the Default cell style will in turn change the characteristics of other styles that inherit characteristics from the Default style.</p>
+      <h2 id="toc9"><a id="RefHeadingToc46781353284205"></a>Drawing styles</h2>
+      <p class="BodyTextListIntro">Drawing styles in Calc are similar to the graphic styles used in LibreOffice Draw and can be applied to shapes and comments. To avoid repeating the same formatting—like fill, lines, and borders—you can use drawing styles. Calc provides two built-in styles (Default and Note) that you can edit or use as templates for your own, but you can't delete them.</p>
+      <ul class="List1_1" style="counter-reset:none">
+        <li>
+          <p class="List1">When a shape is added to a spreadsheet, the <span class="Emphasis">Default</span> drawing style is initially applied to that shape. </p>
+        </li>
+        <li>
+          <p class="List1">When a comment is inserted into a spreadsheet, the <span class="Emphasis">Note</span> drawing style is initially applied to that comment.</p>
+        </li>
+      </ul>
+      <ul class="HeadingTip_1">
+        <li>
+          <p class="HeadingTip">Tip</p>
+        </li>
+      </ul>
+      <p class="BodyTextNote">You can select the comment drawing object and apply another drawing style, and have notes in different background colors, fonts and font sizes, for example.</p>
+      <h2 id="toc10"><a id="RefHeading46960116595067"></a><a id="idx4"></a><a id="idx5"></a>Page styles</h2>
+      <p class="Textbody">Page styles in Calc are applied to sheets. Although one sheet may print on several pages, only one-page style can be applied to a sheet. If a spreadsheet file contains more than one sheet, then a different page style can be applied to each sheet. For example, a spreadsheet might contain some sheets to be printed in landscape orientation and other sheets to be printed in portrait orientation.</p>
+      <p class="Textbody">Two-page styles are supplied with Calc: <span class="Emphasis">Default</span> and <span class="Emphasis">Report</span>. Page styles allow you to set page size and orientation, page margins, headers and footers, borders and backgrounds, and the sequence for printing sheets.</p>
+      <h1 id="toc11"><a id="RefHeading46964116595067"></a>Applying cell styles</h1>
+      <p class="Textbody">Cell styles may be applied in several ways:</p>
+      <ul class="List2_1">
+        <li>
+          <p class="List2">Styles menu on the Menu bar</p>
+        </li>
+        <li>
+          <p class="List2">Styles deck on the Sidebar</p>
+        </li>
+        <li>
+          <p class="List2">Fill Format mode</p>
+        </li>
+        <li>
+          <p class="List2"><span class="Emphasis">Apply Style</span> list on the Formatting toolbar</p>
+        </li>
+        <li>
+          <p class="List2">Keyboard shortcuts.</p>
+        </li>
+      </ul>
+      <h2 id="toc12"><a id="RefHeadingToc1228675185296"></a><a id="idx6"></a><a id="idx7"></a><a id="idx8"></a>Styles menu</h2>
+      <p class="Textbody">By default, the <span class="StrongEmphasis">Styles</span> menu (<a href="#seqrefFigure0">Figure 1</a>) lists many of the cell styles supplied with Calc. To apply a cell style, select the cell or group of cells to be formatted, and then choose <span class="StrongEmphasis">Styles</span> and click on the required style.</p>
+      <div class="frameFrame" id="framCG26204000frame" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0">
+        <p class="Figure">Figure <a id="seqrefFigure0">1</a>: The Styles menu</p>
+        <p class="Figure"><img alt="The Styles menu" class="frameGraphics" id="imgCG26204001graphic" src="CG26204-StylesAndTemplates-img/CG26204-StylesAndTemplates-img001.webp" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;width:11.055118rem;height:20.196852rem" /></p>
+      </div>
+      <p class="Figure"></p>
+      <h2 id="toc13"><a id="RefHeading46966116595067"></a><a id="idx9"></a><a id="idx10"></a><a id="idx11"></a>Styles deck in Sidebar</h2>
+      <p class="BodyTextListIntro">The Styles deck on the Sidebar lists and optionally shows previews of the styles available.</p>
+      <ol class="Numbering1_1" style="counter-reset:Numbering1_1 0">
+        <li>
+          <p class="Numbering1">If the Styles deck in the Sidebar is not open, do one of the following to open it:</p>
+        </li>
+      </ol>
+      <ul class="List2_1">
+        <li>
+          <p class="List2">Select <span class="StrongEmphasis">View &gt; Styles</span> on the Menu bar.</p>
+        </li>
+        <li>
+          <p class="List2">Select <span class="StrongEmphasis">Styles &gt; Manage Styles</span> on the Menu bar.</p>
+        </li>
+        <li>
+          <p class="List2">Press<span class="StrongEmphasis"> </span>the <span class="Keystroke">F11</span> function key.</p>
+        </li>
+        <li>
+          <p class="List2">If another deck of the Sidebar is open, select the <span class="StrongEmphasis">Styles</span> icon in the tab panel at the right of the Sidebar.</p>
+        </li>
+      </ul>
+      <ol class="Numbering1_1" style="counter-reset:none">
+        <li>
+          <p class="Numbering1">Click the <span class="StrongEmphasis">Cell Styles</span> icon on top of the Styles deck to open the list of cell styles. <a href="#seqrefFigure1">Figure 2</a> shows the deck with cell styles visible.</p>
+        </li>
+        <li>
+          <p class="Numbering1">In the spreadsheet, highlight the cell or group of cells where you want to apply a cell style.</p>
+        </li>
+        <li>
+          <p class="Numbering1">Double-click on the cell style name in the Styles deck and the formatting attributes for that style are applied to the data contained in the highlighted cells.</p>
+        </li>
+      </ol>
+      <h2 id="toc14"><a id="RefHeadingToc1350042140415434"></a><a id="idx12"></a><a id="idx13"></a>Fill Format mode</h2>
+      <p class="BodyTextListIntro">Fill Format mode is useful when you want to apply the same style to many scattered cells.</p>
+      <ol class="Numbering1_1" style="counter-reset:Numbering1_1 0">
+        <li>
+          <p class="Numbering1">Go to the Styles deck on the Sidebar (<a href="#seqrefFigure1">Figure 2</a>).</p>
+        </li>
+        <li>
+          <p class="Numbering1">Select the style you want to apply.</p>
+        </li>
+        <li>
+          <p class="Numbering1">Click the <span class="StrongEmphasis">Fill Format Mode</span> icon in the top right of the Styles deck. The mouse pointer changes shape.</p>
+        </li>
+        <li>
+          <p class="Numbering1">Click in each cell where you want to apply the selected style.</p>
+        </li>
+        <li>
+          <p class="Numbering1">When you have finished formatting cells, click the <span class="StrongEmphasis">Fill Format Mode</span> icon to exit the mode.</p>
+        </li>
+      </ol>
+      <div class="frameFrame" id="framCG26204001frame" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0">
+        <p class="Figure">Figure <a id="seqrefFigure1">2</a>: Styles deck in Sidebar, showing cell styles</p>
+        <p class="Figure"><img alt="Styles deck in Sidebar, showing cell styles" class="frameGraphics" id="imgCG26204002graphic" src="CG26204-StylesAndTemplates-img/CG26204-StylesAndTemplates-img002.webp" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;width:16.750395rem;height:22.370079rem" /></p>
+      </div>
+      <p class="Figure"></p>
+      <ul class="HeadingCaution_1">
+        <li>
+          <p class="HeadingCaution">Caution</p>
+        </li>
+      </ul>
+      <p class="BodyTextNote">When Fill Format mode is active, a right-click anywhere in the document cancels the last Fill Format action. Be careful not to accidentally right-click and thus cancel any formatting actions you want to keep.</p>
+      <h2 id="toc15"><a id="RefHeading46970116595067"></a><a id="idx14"></a><a id="idx15"></a>Apply Style list</h2>
+      <p class="BodyTextListIntro">The <span class="Emphasis">Apply Style</span> drop-down list is not included by default on the Formatting toolbar in Calc, but you can add it as follows:</p>
+      <ol class="Numbering1_1" style="counter-reset:Numbering1_1 0">
+        <li>
+          <p class="Numbering1">Right-click on any icon on the Formatting toolbar and select <span class="StrongEmphasis">Visible Buttons</span> in the context menu (<a href="#seqrefFigure2">Figure 3</a>).</p>
+        </li>
+        <li>
+          <p class="Numbering1">Click <span class="StrongEmphasis">Apply Style</span>. The context menu closes and the <span class="Emphasis">Apply Style</span> list appears at the left end of the Formatting toolbar.</p>
+        </li>
+      </ol>
+      <div class="frameFrame" id="framCG26204002frame" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0">
+        <p class="Figure">Figure <a id="seqrefFigure2">3</a>: Adding the Apply Style list to the Formatting toolbar</p>
+        <p class="Figure"><img alt="Adding the Apply Style list to the Formatting toolbar" class="frameGraphics" id="imgCG26204003graphic" src="CG26204-StylesAndTemplates-img/CG26204-StylesAndTemplates-img003.webp" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;width:29.562994rem;height:6.1157484rem" /></p>
+      </div>
+      <p class="Figure"></p>
+      <p class="BodyTextListIntro">To apply a style using the <span class="Emphasis">Apply Style</span> list:</p>
+      <ol class="Numbering1_1" style="counter-reset:Numbering1_1 0">
+        <li>
+          <p class="Numbering1">Select a cell or a group of cells in the spreadsheet.</p>
+        </li>
+        <li>
+          <p class="Numbering1">Click the down arrow at the right of the <span class="Emphasis">Apply Style</span> list to open the<span class="StrongEmphasis"> </span>drop-down menu (<a href="#seqrefFigure3">Figure 4</a>).</p>
+        </li>
+        <li>
+          <p class="Numbering1">Select the required style. The formatting attributes of that style are applied to the selected cells.</p>
+        </li>
+      </ol>
+      <div class="frameFrame" id="framCG26204003frame" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0">
+        <p class="Figure">Figure <a id="seqrefFigure3">4</a>: Using the Apply Style list</p>
+        <p class="Figure"><img alt="Using the Apply Style list" class="frameGraphics" id="imgCG26204004graphic" src="CG26204-StylesAndTemplates-img/CG26204-StylesAndTemplates-img004.webp" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;width:7.641732rem;height:9.408663rem" /></p>
+      </div>
+      <p class="Figure"></p>
+      <p class="Textbody">Only the styles that are in use are shown on the list. Click <span class="StrongEmphasis">More Styles</span> to go to the Styles deck where all cell styles are available.</p>
+      <h2 id="toc16"><a id="RefHeading46972116595067"></a>Keyboard shortcuts</h2>
+      <p class="Textbody">You can create keyboard shortcuts to apply commonly-used cell, drawing, or page styles, including any custom styles that you have created. See Chapter 16, Setting up and Customizing, for more information.</p>
+      <h2 id="toc17"><a id="RefHeadingToc46801353284205"></a>Applying drawing styles</h2>
+      <p class="BodyTextListIntro">To apply a different drawing style to a shape or comment:</p>
+      <ol class="Numbering1_1" style="counter-reset:Numbering1_1 0">
+        <li>
+          <p class="Numbering1">Select the shape or comment to be styled.</p>
+        </li>
+        <li>
+          <p class="Numbering1">Go to the Styles deck on the Sidebar (<a href="#seqrefFigure1">Figure 2</a>).</p>
+        </li>
+        <li>
+          <p class="Numbering1">At the top of the Styles deck, click the <span class="StrongEmphasis">Drawing Styles</span> icon.</p>
+        </li>
+        <li>
+          <p class="Numbering1">Double-click on the required drawing style.</p>
+        </li>
+      </ol>
+      <h1 id="toc18"><a id="RefHeading46974116595067"></a><a id="idx16"></a>Applying page styles</h1>
+      <p class="Textbody">The page style applied to a sheet within a spreadsheet is indicated on the Status Bar, as shown in <a href="#seqrefFigure4">Figure 5</a>.</p>
+      <div class="frameFrame" id="framCG26204004frame" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0">
+        <p class="Figure">Figure <a id="seqrefFigure4">5</a>: Page style (Default) indicated on Status Bar</p>
+        <p class="Figure"><img alt="Page style (Default) indicated on Status Bar" class="frameGraphics" id="imgCG26204005graphic" src="CG26204-StylesAndTemplates-img/CG26204-StylesAndTemplates-img005.webp" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;width:31.679527rem;height:5.0551186rem" /></p>
+      </div>
+      <p class="Figure"></p>
+      <p class="BodyTextListIntro">To apply a different page style:</p>
+      <ol class="Numbering1_1" style="counter-reset:Numbering1_1 0">
+        <li>
+          <p class="Numbering1">Select the sheet to be styled by clicking its sheet tab.</p>
+        </li>
+        <li>
+          <p class="Numbering1">Go to the Styles deck on the Sidebar (<a href="#seqrefFigure1">Figure 2</a>).</p>
+        </li>
+        <li>
+          <p class="Numbering1">At the top of the Styles deck, click the <span class="StrongEmphasis">Page Styles</span> icon.</p>
+        </li>
+        <li>
+          <p class="Numbering1">Double-click on the required page style.</p>
+        </li>
+      </ol>
+      <h1 id="toc19"><a id="RefHeadingToc4199175185296"></a><a id="Creatingnewstyles"></a><a id="idx17"></a>Creating styles</h1>
+      <p class="BodyTextListIntro">To create a style, follow the procedure described in this section.</p>
+      <ul class="HeadingNote_1" style="counter-reset:none">
+        <li>
+          <p class="HeadingNote">Note</p>
+        </li>
+      </ul>
+      <p class="BodyTextNote">Any new styles, and any changes to existing styles, apply only to the spreadsheet in use. To save new styles in a template, see “<a href="#bkmRefHeadingToc1943075185296">Creating a template</a>” <a href="#bkmRefHeadingToc1943075185296">below</a> for more information.</p>
+      <ol class="Numbering1_1" style="counter-reset:Numbering1_1 0">
+        <li>
+          <p class="Numbering1">Go to the Styles deck on the Sidebar (<a href="#seqrefFigure1">Figure 2</a>).</p>
+        </li>
+        <li>
+          <p class="Numbering1">To create a new cell style, click the <span class="StrongEmphasis">Cell Styles</span> icon; or to create a new drawing style, click the <span class="StrongEmphasis">Drawing Styles</span> icon; or to create a new page style, click the <span class="StrongEmphasis">Page Styles</span> icon.</p>
+        </li>
+        <li>
+          <p class="Numbering1">Right-click in the Styles deck and select <span class="StrongEmphasis">New</span> in the context menu to open either the Cell Style dialog, the Drawing Style dialog, or the Page Style dialog.</p>
+        </li>
+        <li>
+          <p class="Numbering1">Use the various tabbed pages on the dialogs to set the attributes for the new style. See “<a href="#bkmRefHeading4071809698872">Cell style attributes</a>”, “<a href="#bkmRefHeadingToc732522841356043">Drawing style attributes</a>”, and “<a href="#bkmRefHeading4073809698872">Page style attributes</a>” for more information.</p>
+        </li>
+        <li>
+          <p class="Numbering1">Click <span class="StrongEmphasis">OK</span> to close the dialog and save the new style.</p>
+        </li>
+      </ol>
+      <ul class="HeadingNote_1" style="counter-reset:none">
+        <li>
+          <p class="HeadingNote">Note</p>
+        </li>
+      </ul>
+      <p class="BodyTextNote">Style names are case-sensitive. For example, styles <span class="Emphasis">red</span> and <span class="Emphasis">Red </span>may both exist in the same spreadsheet. To prevent confusion, it is best to avoid giving styles similar names.</p>
+      <h2 id="toc20"><a id="RefHeading4071809698872"></a><a id="bkmRefHeading4071809698872"></a><a id="idx18"></a><a id="idx19"></a>Cell style attributes</h2>
+      <p class="Textbody">The following attributes are available on the tabbed pages of the Cell Style dialog (<a href="#seqrefFigure5">Figure 6</a>).</p>
+      <h3 id="toc21"><a id="RefHeadingToc2263311336084092"></a>General tab</h3>
+      <ul class="List1_1" style="counter-reset:none">
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Name</span> – displays the name of the selected style. If you are creating or modifying a custom style, enter a name for the style. You cannot change the name of a predefined style.</p>
+        </li>
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Inherit from</span> – you can choose to link the new style to an existing style and then modify some of the attributes. If you do this, any change to the parent style’s attributes will affect the new style. For example, you could make the styles identical except for the font color; if you later change the font family of the parent style, the new style’s family will also change.</p>
+        </li>
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Edit Style</span> – enables you to view and edit the properties of the parent style.</p>
+        </li>
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Category</span> – displays the category for the current style. If you are creating or modifying a new style, select <span class="Emphasis">Custom Styles</span> from the list. You cannot change the category for a predefined style. Select <span class="Emphasis">Hidden Styles</span> if you want that style to appear only in the Styles list.</p>
+        </li>
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Contains</span> – describes the formatting used in the style.</p>
+        </li>
+      </ul>
+      <div class="frameFrame" id="framCG26204005frame" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0">
+        <p class="Figure">Figure <a id="seqrefFigure5">6</a>: Cell Style dialog – General tab</p>
+        <p class="Figure"><img alt="Cell Style dialog – General tab" class="frameGraphics" id="imgCG26204006graphic" src="CG26204-StylesAndTemplates-img/CG26204-StylesAndTemplates-img006.webp" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;width:37.629925rem;height:16.15748rem" /></p>
+      </div>
+      <p class="Figure"></p>
+      <h3 id="toc22"><a id="RefHeadingToc2263331336084092"></a>Numbers tab</h3>
+      <ul class="List1_1" style="counter-reset:none">
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Category</span> – select a category from the list.</p>
+        </li>
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Format</span> – select how you want the contents of the selected cells to be displayed. </p>
+        </li>
+      </ul>
+      <p class="Textbody">When you select <span class="StrongEmphasis">Currency</span> as a category, you need to select a currency in the drop-down list and then select the format to use from the options available for that currency.</p>
+      <p class="BodyTextListIntro">The currency format is not dependent on the language that you select in the <span class="StrongEmphasis">Language</span> box. The default currency format for a cell is determined by the regional settings of your operating system.</p>
+      <ul class="List1_1" style="counter-reset:none">
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Language</span> – specifies the language settings for the selected cells. With the language set to the default, Calc automatically applies the number formats associated with the system default language. The language setting ensures that date and currency formats are preserved even when the document is opened in an operating system that uses a different default language setting.</p>
+        </li>
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Options</span> – specify the options for the selected format:</p>
+        </li>
+      </ul>
+      <ul class="List2_1" style="counter-reset:none">
+        <li>
+          <p class="List2"><span class="Emphasis">Decimal places</span> – enter the number of decimal places that you want to display.</p>
+        </li>
+        <li>
+          <p class="List2"><span class="Emphasis">Leading zeroes</span> – enter the maximum number of zeroes to display in front of the decimal point.</p>
+        </li>
+        <li>
+          <p class="List2"><span class="Emphasis">Negative numbers red </span>– select to change the font color of negative numbers to red.</p>
+        </li>
+        <li>
+          <p class="List2"><span class="Emphasis">Thousands separator</span> – select to insert a separator between thousands. The type of separator (for example, a comma or a space) depends on your language settings.</p>
+        </li>
+      </ul>
+      <ul class="List1_1" style="counter-reset:none">
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Format code</span> – displays the number format code for the selected format. You can also enter a custom format.</p>
+        </li>
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Add</span> – adds the number format code that you entered to the user-defined category.</p>
+        </li>
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Edit Comment</span> – adds a comment to the selected number format.</p>
+        </li>
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Remove</span> – deletes the selected number format. </p>
+        </li>
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Preview field</span> – displays a preview of the current selection.</p>
+        </li>
+      </ul>
+      <div class="frameFrame" id="framCG26204006frame" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0">
+        <p class="Figure">Figure 7: Cell Style dialog – Numbers tab</p>
+        <p class="Figure"><img alt="Cell Style dialog – Numbers tab" class="frameGraphics" id="imgCG26204007graphic" src="CG26204-StylesAndTemplates-img/CG26204-StylesAndTemplates-img007.webp" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;width:37.629925rem;height:26.104725rem" /></p>
+      </div>
+      <p class="Figure"><a id="RefHeadingToc368193643740703"></a></p>
+      <h3 id="toc23"><a id="RefHeadingToc36191411812658"></a>Font tab</h3>
+      <p class="BodyTextListIntro">Depending on your language settings, you can change the formatting for the following font types on this tab – Western text font (Latin character sets), Asian text font (Chinese, Japanese, or Korean character sets), and Complex text layout font (right-to-left text direction). <a href="#seqrefFigure7">Figure 8</a> shows the <span class="Emphasis">Font</span> tab of the Cell Style dialog when the <span class="StrongEmphasis">Asian</span> and <span class="StrongEmphasis">Complex text layout</span> options are selected in the <span class="Emphasis">Default Languages for Documents</span> area of the <span class="StrongEmphasis">Tools &gt; Options &gt; Languages and Locales &gt; General</span> page. The layout of the <span class="Emphasis">Font</span> and <span class="Emphasis">Font Effects</span> tabs are modified if either of these two options is deselected.</p>
+      <ul class="List1_1" style="counter-reset:none">
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Font </span>– select an installed font in the list.</p>
+        </li>
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Style</span> – select the formatting you want to apply, for example bold, Italic, or underline.</p>
+        </li>
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Size</span> – select or enter the font size that you want to apply. For scalable fonts, you can also enter decimal values. If you are creating a style that is based on another style, you can enter a percentage value or a point value (for example, 2 pt or 5 pt).</p>
+        </li>
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Language</span> – sets the language that the spelling checker is to use. The spelling checker works only when you have installed the corresponding language module. A language entry has a check mark in front of it if the spelling checker is activated for that language.</p>
+        </li>
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Features</span> – some fonts offer special features such as Discretionary Ligatures and Horizontal Kerning. Click this button to access the Font Features dialog (not shown) to select those features.</p>
+        </li>
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Preview</span> – displays a preview of the current selection.</p>
+        </li>
+      </ul>
+      <div class="frameFrame" id="framCG26204007frame" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0">
+        <p class="Figure">Figure <a id="seqrefFigure7">8</a>: Cell Style dialog – Font tab</p>
+        <p class="Figure"><img alt="Cell Style dialog – Font tab" class="frameGraphics" id="imgCG26204008graphic" src="CG26204-StylesAndTemplates-img/CG26204-StylesAndTemplates-img008.webp" style="width:37.629925rem;height:26.246458rem" /></p>
+      </div>
+      <p class="Figure"></p>
+      <h3 id="toc24"><a id="RefHeadingToc1350044140415434"></a>Font Effects tab</h3>
+      <div class="frameFrame" id="framCG26204008frame" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0">
+        <p class="Figure">Figure <a id="seqrefFigure8">9</a>: Cell Style dialog – Font Effects tab</p>
+        <p class="Figure"><img alt="Cell Style dialog – Font Effects tab" class="frameGraphics" id="imgCG26204009graphic" src="CG26204-StylesAndTemplates-img/CG26204-StylesAndTemplates-img009.webp" style="width:37.629925rem;height:26.246458rem" /></p>
+      </div>
+      <p class="Figure"></p>
+      <ul class="List1_1" style="counter-reset:none">
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Font color</span> – sets the color for the text. If you select <span class="StrongEmphasis">Automatic</span>, the text color is set to black for light backgrounds and to white for dark backgrounds.</p>
+        </li>
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Transparency</span> – sets the transparency of the character text. The value 100% means entirely transparent, while 0% means not transparent at all.</p>
+        </li>
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Overlining</span> – select the overlining style that you want to apply. To apply the overlining to words only (not the spaces between them), select the option box <span class="StrongEmphasis">Individual words</span>.</p>
+        </li>
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Overline color</span> – select the color for the overlining, in the pallet when you click the button next to the Overlining field. <span class="StrongEmphasis">Automatic</span> matches the font color.</p>
+        </li>
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Strikethrough</span> – select a strikethrough style for the selected text. To apply the strikethrough to words only (not the spaces between them), select <span class="StrongEmphasis">Individual words</span>.</p>
+        </li>
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Underlining</span> – select the underlining style that you want to apply. To apply the underlining to words only (not the spaces between them), select <span class="StrongEmphasis">Individual words</span>.</p>
+        </li>
+      </ul>
+      <p class="Textbodyindent">If you apply underlining to a superscript text, the underlining is raised to the level of the superscript. If the superscript is contained in a word with normal text, the underlining is not raised.</p>
+      <ul class="List1_1" style="counter-reset:none">
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Underline color</span> – select the color for the underlining, in the pallet when you click the button next to the Underlining field. <span class="StrongEmphasis">Automatic</span> matches the font color.</p>
+        </li>
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Individual words</span> – applies the selected effect only to words and ignores spaces.</p>
+        </li>
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Relief</span> – select a relief effect to apply to the text. The <span class="StrongEmphasis">Embossed</span> relief makes the characters appear as if they are raised above the page. The <span class="StrongEmphasis">Engraved</span> relief makes the characters appear as if they are pressed into the page.</p>
+        </li>
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Outline</span> – displays the outline of the characters. This effect does not work with every font.</p>
+        </li>
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Shadow</span> – adds a shadow that casts below and to the right of the characters.</p>
+        </li>
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Emphasis Mark</span> – select a character to display over or below the entire length of the selected text. </p>
+        </li>
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Position</span> – specify where to display the emphasis marks (for Asian languages).</p>
+        </li>
+      </ul>
+      <ul class="List1_1">
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Preview</span> – displays a preview of the current selection.</p>
+        </li>
+      </ul>
+      <h3 id="toc25"><a id="RefHeading4418246834245"></a>Alignment tab</h3>
+      <ul class="List1_1" style="counter-reset:none">
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Text Alignment</span> – sets the alignment options for the contents of the current cell, or the selected cells.</p>
+        </li>
+      </ul>
+      <ul class="List2_1" style="counter-reset:none">
+        <li>
+          <p class="List2"><span class="Emphasis">Horizontal</span> – select the horizontal alignment option that you want to apply to the cell contents:</p>
+        </li>
+        <li>
+          <p class="List2"><span class="Emphasis">Default</span> – aligns numbers to the right and text to the left.</p>
+        </li>
+        <li>
+          <p class="List2"><span class="Emphasis">Left</span> – aligns the contents of the cell to the left.</p>
+        </li>
+        <li>
+          <p class="List2"><span class="Emphasis">Center</span> – horizontally centers the contents of the cell.</p>
+        </li>
+        <li>
+          <p class="List2"><span class="Emphasis">Right</span> – aligns the contents of the cell to the right.</p>
+        </li>
+        <li>
+          <p class="List2"><span class="Emphasis">Justified</span> – aligns the contents of the cell to the left and to the right cell borders.</p>
+        </li>
+        <li>
+          <p class="List2"><span class="Emphasis">Filled</span> – repeats the cell contents (number and text) until the visible area of the cell is filled. This feature does not work on text that contains line breaks.</p>
+        </li>
+        <li>
+          <p class="List2"><span class="Emphasis">Distributed</span> – aligns contents evenly across the whole cell. Unlike <span class="Emphasis">Justified</span>, it also justifies the very last line of text.</p>
+        </li>
+        <li>
+          <p class="List2"><span class="Emphasis">Indent</span> – indents from the left edge of the cell by the amount that you enter.</p>
+        </li>
+      </ul>
+      <div class="frameFrame" id="framCG26204009frame" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0">
+        <p class="Figure">Figure 10: Cell Style dialog – Alignment tab</p>
+        <p class="Figure"><img alt="Cell Style dialog – Alignment tab" class="frameGraphics" id="imgCG26204010graphic" src="CG26204-StylesAndTemplates-img/CG26204-StylesAndTemplates-img010.webp" style="width:37.629925rem;height:26.246458rem" /></p>
+      </div>
+      <p class="Figure"></p>
+      <ul class="List2_1" style="counter-reset:none">
+        <li>
+          <p class="List2"><span class="Emphasis">Vertical</span> – select the vertical alignment option that you want to apply to the cell contents:</p>
+        </li>
+        <li>
+          <p class="List2"><span class="Emphasis">Default</span> – aligns the cell contents to the bottom of the cell.</p>
+        </li>
+        <li>
+          <p class="List2"><span class="Emphasis">Top</span> – aligns the contents of the cell to the upper edge of the cell.</p>
+        </li>
+        <li>
+          <p class="List2"><span class="Emphasis">Bottom</span> – aligns the contents of the cell to the lower edge of the cell.</p>
+        </li>
+        <li>
+          <p class="List2"><span class="Emphasis">Middle</span> – vertically centers the contents of the cell.</p>
+        </li>
+        <li>
+          <p class="List2"><span class="Emphasis">Justified</span> – aligns the contents of the cell to the top and to the bottom cell borders.</p>
+        </li>
+        <li>
+          <p class="List2"><span class="Emphasis">Distributed</span> – similar to <span class="Emphasis">Justified</span>, unless the text orientation is vertical. Then it behaves similarly to the horizontal <span class="Emphasis">Distributed</span> setting, with the very last line justified.</p>
+        </li>
+      </ul>
+      <ul class="List1_1" style="counter-reset:none">
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Text Orientation</span> – defines the text direction of cell contents.</p>
+        </li>
+      </ul>
+      <ul class="List2_1" style="counter-reset:none">
+        <li>
+          <p class="List2"><span class="Emphasis">ABCD wheel</span> – click anywhere in the wheel to define the text orientation. The characters “ABCD” on the wheel correspond to the new setting.</p>
+        </li>
+        <li>
+          <p class="List2"><span class="Emphasis">Vertically stacked</span> – assigns vertical text orientation for cell contents.</p>
+        </li>
+        <li>
+          <p class="List2"><span class="Emphasis">Asian layout mode</span> – only available if Asian language support is enabled and the text direction is set to vertical. Aligns Asian characters one below the other in the selected cell(s). If the cell contains more than one line of text, the lines are converted to text columns that are arranged from right to left. Western characters in the converted text are rotated 90 degrees to the right. Asian characters are not rotated.</p>
+        </li>
+        <li>
+          <p class="List2"><span class="Emphasis">Degrees</span> – allows you to manually enter the orientation angle.</p>
+        </li>
+        <li>
+          <p class="List2"><span class="Emphasis">Reference edge</span> – specify the cell edge from which to write the rotated text:</p>
+        </li>
+        <li>
+          <p class="List2"><span class="Emphasis">Text Extension From Lower Cell Border</span> – writes the rotated text from the bottom cell edge outwards.</p>
+        </li>
+        <li>
+          <p class="List2"><span class="Emphasis">Text Extension From Upper Cell Border</span> – writes the rotated text from the top cell edge outwards.</p>
+        </li>
+        <li>
+          <p class="List2"><span class="Emphasis">Text Extension Inside Cell</span> – writes the rotated text only within the cell.</p>
+        </li>
+      </ul>
+      <ul class="List1_1" style="counter-reset:none">
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Properties</span> – determine the text flow in a cell.</p>
+        </li>
+      </ul>
+      <ul class="List2_1" style="counter-reset:none">
+        <li>
+          <p class="List2"><span class="Emphasis">Wrap text automatically</span> – wraps text onto another line at the cell border. The number of lines depends on the width of the cell. To enter a manual line break, press <span class="Keystroke">Ctrl</span>+<span class="Keystroke">Enter</span> in the cell.</p>
+        </li>
+        <li>
+          <p class="List2"><span class="Emphasis">Hyphenation active</span> – enables word hyphenation for text wrapping to the next line.</p>
+        </li>
+        <li>
+          <p class="List2"><span class="Emphasis">Shrink to fit cell size</span> – reduces the apparent size of the font so that the contents of the cell fit into the current cell width. You cannot apply this command to a cell that contains line breaks.</p>
+        </li>
+        <li>
+          <p class="List2"><span class="Emphasis">Text direction</span> – choices are <span class="StrongEmphasis">Left-to-right</span>, <span class="StrongEmphasis">Right-to-left</span>, and <span class="StrongEmphasis">Use superordinate object settings</span> (the settings applied to the preceding cell).</p>
+        </li>
+      </ul>
+      <h3 id="toc26"><a id="RefHeadingToc2263351336084092"></a>Asian Typography tab</h3>
+      <p class="Textbody">If Asian language support is enabled, the <span class="Emphasis">Asian Typography</span> tab is displayed on the Cell Style dialog. For more details of the options available on this tab, see the description of the corresponding tab of the Format Cell dialog in Chapter 2, Entering and Editing Data.</p>
+      <div class="frameFrame" id="framCG26204010frame" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0">
+        <p class="Figure">Figure <a id="seqrefFigure10">11</a>: Cell Style dialog - Asian Typography tab</p>
+        <p class="Figure"><img alt="Cell Style dialog - Asian Typography tab" class="frameGraphics" id="imgCG26204011graphic" src="CG26204-StylesAndTemplates-img/CG26204-StylesAndTemplates-img011.webp" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0;width:37.629925rem;height:26.246458rem" /></p>
+      </div>
+      <p class="Figure"></p>
+      <h3 id="toc27"><a id="RefHeading60781034930918"></a><a id="bkmRefHeading60781034930918"></a>Borders tab</h3>
+      <p class="BodyTextListIntro">Sets the border attributes for the selected cells.</p>
+      <ul class="List1_1" style="counter-reset:none">
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Line Arrangement</span> – select a preset border style or define your own combination by clicking in the diagram.</p>
+        </li>
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Line</span> – select the line style, thickness, and color that you want to apply. The style is applied to the borders selected in the preview.</p>
+        </li>
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Padding</span> – specify the amount of space that you want to leave between the border and the contents of the cell. You can set each distance (left, right, top, bottom) individually or select <span class="StrongEmphasis">Synchronize</span> to apply the same padding to all four borders when you enter a new value.</p>
+        </li>
+      </ul>
+      <div class="frameFrame" id="framCG26204011frame" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0">
+        <p class="Figure">Figure 12: Cell Style dialog – Borders tab</p>
+        <p class="Figure"><img alt="Cell Style dialog – Borders tab" class="frameGraphics" id="imgCG26204012graphic" src="CG26204-StylesAndTemplates-img/CG26204-StylesAndTemplates-img012.webp" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;width:37.629925rem;height:26.246458rem" /></p>
+      </div>
+      <p class="Figure"></p>
+      <ul class="List1_1" style="counter-reset:none">
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Shadow Style</span> – applies a shadow effect to borders. You can specify the position of the shadow (bottom right, top right, bottom left, or bottom right), the distance it extends, and its color.</p>
+        </li>
+      </ul>
+      <h3 id="toc28"><a id="RefHeading60801034930918"></a><a id="bkmRefHeading60801034930918"></a>Background tab</h3>
+      <p class="Textbody">Click <span class="StrongEmphasis">Color</span> to select a color to use as a background for the formatted cells. You can choose from several palettes. To change the color, select another one. To remove the background color, select <span class="StrongEmphasis">None</span>.</p>
+      <div class="frameFrame" id="framCG26204012frame" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0">
+        <p class="Figure">Figure <a id="seqrefFigure12">13</a>: Cell Style dialog – Background tab</p>
+        <p class="Figure"><img alt="Cell Style dialog – Background tab" class="frameGraphics" id="imgCG26204013graphic" src="CG26204-StylesAndTemplates-img/CG26204-StylesAndTemplates-img013.webp" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;width:37.629925rem;height:26.246458rem" /></p>
+      </div>
+      <p class="Figure"></p>
+      <h3 id="toc29"><a id="RefHeading4420246834245"></a>Cell Protection tab</h3>
+      <p class="Textbody">In this tab you can set some basic protection to you spreadsheet.</p>
+      <p class="BodyTextListIntro"><span class="StrongEmphasis">Protection</span></p>
+      <ul class="List1_1" style="counter-reset:none">
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Hide all</span> – hides formulas and contents of the selected cells.</p>
+        </li>
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Protected</span> – prevents the selected cells from being modified. This cell protection only takes effect if you also protect the sheet.</p>
+        </li>
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Hide formula</span> – hides formulas in the selected cells.</p>
+        </li>
+      </ul>
+      <p class="BodyTextListIntro"><span class="StrongEmphasis">Print</span></p>
+      <ul class="List1_1" style="counter-reset:none">
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Hide when printing</span> – prevents the selected cells from being printed.</p>
+        </li>
+      </ul>
+      <div class="frameFrame" id="framCG26204013frame" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0">
+        <p class="Figure">Figure 14: Cell Style dialog – Cell Protection tab</p>
+        <p class="Figure"><img alt="Cell Style dialog – Cell Protection tab" class="frameGraphics" id="imgCG26204014graphic" src="CG26204-StylesAndTemplates-img/CG26204-StylesAndTemplates-img014.webp" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;width:37.629925rem;height:26.246458rem" /></p>
+      </div>
+      <p class="Figure"></p>
+      <h2 id="toc30"><a id="RefHeadingToc259453643740703"></a>Resetting cell style attributes</h2>
+      <p class="BodyTextListIntro">The buttons at the bottom of the Cell Style dialog have the following functions:</p>
+      <ul class="List1_1" style="counter-reset:none">
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Reset</span> – returns values on the current tab to those applicable when the dialog was opened.</p>
+        </li>
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Standard</span> – for a style that inherits settings from a parent style, updates the settings on the current tab to match those of the parent style.</p>
+        </li>
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Cancel</span> – cancels any changes made (to all tabs in the dialog) since the last save of this dialog (by clicking <span class="StrongEmphasis">OK</span>).</p>
+        </li>
+        <li>
+          <p class="List1"><span class="StrongEmphasis">OK</span> – saves all changes made (to all tabs in the dialog).</p>
+        </li>
+      </ul>
+      <h2 id="toc31"><a id="RefHeadingToc732522841356043"></a><a id="bkmRefHeadingToc732522841356043"></a>Drawing style attributes</h2>
+      <p class="Textbody">The Drawing Style dialog (<a href="#seqrefFigure14">Figure 15</a>) in Calc is equivalent to the Graphics Styles dialog in LibreOffice Draw. The Graphics Styles dialog is described in the <span class="Emphasis">Draw Guide</span>, Chapter 4, Changing Object Attributes, section entitled “Drawing Styles”.</p>
+      <p class="BodyTextListIntro">The following tabbed pages are provided on the Drawing Style dialog (<a href="#seqrefFigure14">Figure 15</a>).</p>
+      <ul class="List1_1" style="counter-reset:none">
+        <li>
+          <p class="List1"><span class="Emphasis">General</span>. This tab is similar to the <span class="Emphasis">General</span> tab of the Cell Style dialog (<a href="#seqrefFigure5">Figure 6</a>).</p>
+        </li>
+        <li>
+          <p class="List1"><span class="Emphasis">Line</span>. Set line properties (style, color, width, and transparency), arrow styles, and corner and cap styles.</p>
+        </li>
+        <li>
+          <p class="List1"><span class="Emphasis">Area</span>. Set the fill options (none, color, gradient, image, pattern, or hatch). </p>
+        </li>
+        <li>
+          <p class="List1"><span class="Emphasis">Shadowing</span>. Add a shadow and set the properties of the shadow (position, color, distance, blur, and transparency).</p>
+        </li>
+        <li>
+          <p class="List1"><span class="Emphasis">Transparency</span>. Set the area transparency mode. This may be no transparency, fixed transparency (expressed as a percentage), or gradient transparency (linear, axial, radial, ellipsoid, square, or rectangular).</p>
+        </li>
+        <li>
+          <p class="List1"><span class="Emphasis">Font</span>. This tab is similar to the <span class="Emphasis">Font</span> tab of the Cell Style dialog (<a href="#seqrefFigure7">Figure 8</a>).</p>
+        </li>
+        <li>
+          <p class="List1"><span class="Emphasis">Font Effects</span>. This tab is similar to the <span class="Emphasis">Font Effects</span> tab of the Cell Style dialog (<a href="#seqrefFigure8">Figure 9</a>).</p>
+        </li>
+        <li>
+          <p class="List1"><span class="Emphasis">Indents &amp; Spacing</span>. Set paragraph indenting, paragraph spacing and line spacing options.</p>
+        </li>
+        <li>
+          <p class="List1"><span class="Emphasis">Text</span>. Set layout and anchoring properties for text, covering drawing object text, custom shape text, spacing to borders, and text anchor type.</p>
+        </li>
+        <li>
+          <p class="List1"><span class="Emphasis">Text Animation</span>. Add a text animation effect (blink, scroll through, scroll back and forth, or scroll in) and set its properties.</p>
+        </li>
+        <li>
+          <p class="List1"><span class="Emphasis">Dimensioning</span>. Set line and legend properties for dimension lines.</p>
+        </li>
+        <li>
+          <p class="List1"><span class="Emphasis">Alignment</span>. Set the alignment of paragraphs relative to margins and select the text direction.</p>
+        </li>
+        <li>
+          <p class="List1"><span class="Emphasis">Asian Typography</span>. This tab is similar to the <span class="Emphasis">Asian Typography</span> tab of the Cell Style dialog (<a href="#seqrefFigure10">Figure 11</a>).</p>
+        </li>
+        <li>
+          <p class="List1"><span class="Emphasis">Tabs</span>. Set the position, type, and fill character for tab stops.</p>
+        </li>
+        <li>
+          <p class="List1"><span class="Emphasis">Highlighting</span>. This tab is similar to the <span class="Emphasis">Background</span> tab of the Cell Style dialog (<a href="#seqrefFigure12">Figure 13</a>).</p>
+        </li>
+      </ul>
+      <p class="Textbody">Additional information can be found in the Draw Guide and the system help.</p>
+      <div class="frameFrame" id="framCG26204014frame" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0">
+        <p class="Figure">Figure <a id="seqrefFigure14">15</a>: Drawing Style dialog - Line tab</p>
+        <p class="Figure"><img alt="Drawing Style dialog - Line tab" class="frameGraphics" id="imgCG26204015graphic" src="CG26204-StylesAndTemplates-img/CG26204-StylesAndTemplates-img015.webp" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0;width:34.984253rem;height:23.574802rem" /></p>
+      </div>
+      <p class="Figure"></p>
+      <h2 id="toc32"><a id="RefHeading4073809698872"></a><a id="bkmRefHeading4073809698872"></a><a id="idx20"></a><a id="idx21"></a>Page style attributes</h2>
+      <p class="Textbody">The following attributes are available on the tabs of the Page Style dialog (<a href="#seqrefFigure15">Figure 16</a>).</p>
+      <div class="frameFrame" id="framCG26204015frame" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0">
+        <p class="Figure">Figure <a id="seqrefFigure15">16</a>: Page Style dialog – Page tab</p>
+        <p class="Figure"><img alt="Page Style dialog – Page tab" class="frameGraphics" id="imgCG26204016graphic" src="CG26204-StylesAndTemplates-img/CG26204-StylesAndTemplates-img016.webp" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;width:37.17874rem;height:24.283464rem" /></p>
+      </div>
+      <p class="Figure"><span class="StrongEmphasis"></span></p>
+      <h3 id="toc33"><a id="RefHeading4422246834245"></a>General tab</h3>
+      <p class="BodyTextListIntro">This tab is similar to the General tab for the Cell Style dialog, although page styles cannot inherit settings from other styles.</p>
+      <ul class="List1_1" style="counter-reset:none">
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Name</span> – displays the name of the selected style. If you are creating or modifying a custom style, you can enter or change the name of the style. You cannot change the name of a predefined style.</p>
+        </li>
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Category</span> – displays the category of the current style. If you are creating or modifying a new style, select <span class="Emphasis">Custom Styles</span> in the list. You cannot change the category for a predefined style.</p>
+        </li>
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Contains</span> – describes the formatting used in the style.</p>
+        </li>
+      </ul>
+      <h3 id="toc34"><a id="RefHeading4424246834245"></a>Page tab</h3>
+      <p class="BodyTextListIntro">You can define page layouts for single and multiple-page spreadsheets, as well as page numbering and paper formats.</p>
+      <ul class="List1_1" style="counter-reset:none">
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Paper Format</span> – select from a list of predefined paper sizes, or define a custom paper format.</p>
+        </li>
+      </ul>
+      <ul class="List2_1" style="counter-reset:none">
+        <li>
+          <p class="List2"><span class="Emphasis">Format</span> – select a predefined paper size, or create a custom format by entering the dimensions for the paper in the <span class="Emphasis">Height</span> and <span class="Emphasis">Width</span> boxes.</p>
+        </li>
+        <li>
+          <p class="List2"><span class="Emphasis">Width</span> – displays the width of the selected paper format. To define a custom (user) format, enter a width here.</p>
+        </li>
+        <li>
+          <p class="List2"><span class="Emphasis">Height</span> – displays the height of the selected paper format. To define a custom (user) format, enter a height here.</p>
+        </li>
+        <li>
+          <p class="List2"><span class="Emphasis">Orientation – Portrait</span> displays and prints the spreadsheet with the paper oriented vertically. <span class="Emphasis">Landscape</span> displays and prints the spreadsheet with the paper oriented horizontally.</p>
+        </li>
+        <li>
+          <p class="List2"><span class="Emphasis">Text direction</span> – select the text direction that you want to use in your document. The "right-to-left (vertical)" text flow direction rotates all layout settings to the right by 90 degrees, except for the header and footer. This option is only available if <span class="StrongEmphasis">Complex text layout</span> is selected at <span class="StrongEmphasis">Tools &gt; Options &gt; Languages and Locales &gt; General.</span></p>
+        </li>
+        <li>
+          <p class="List2"><span class="Emphasis">Preview Field</span> – displays a preview of the current selection.</p>
+        </li>
+        <li>
+          <p class="List2"><span class="Emphasis">Paper tray</span> – select the paper source for your printer. You can assign different paper trays to different page styles. For example, you can assign a different tray for the first page style in the spreadsheet and load the tray with your company letterhead paper.</p>
+        </li>
+      </ul>
+      <ul class="List1_1" style="counter-reset:none">
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Margins</span> – specify the amount of space to leave between the edges of the paper and the spreadsheet contents.</p>
+        </li>
+      </ul>
+      <ul class="List2_1" style="counter-reset:none">
+        <li>
+          <p class="List2"><span class="Emphasis">Left/Inner</span> – the space between the left edge of the page and the spreadsheet. If you are using <span class="StrongEmphasis">Mirrored</span> page layout, enter the space between the inner edge of the paper and the spreadsheet. You may want to have a wider space as the left/inner margin if you will be punching or binding the pages.</p>
+        </li>
+        <li>
+          <p class="List2"><span class="Emphasis">Right/Outer</span> – the space between the right edge of the paper and the spreadsheet. If you are using <span class="StrongEmphasis">Mirrored</span> page layout, enter the space between the outer edge of the paper and the spreadsheet.</p>
+        </li>
+        <li>
+          <p class="List2"><span class="Emphasis">Top</span> – enter the space between the upper edge of the paper and the spreadsheet.</p>
+        </li>
+        <li>
+          <p class="List2"><span class="Emphasis">Bottom</span> – enter the space between the lower edge of the paper and the spreadsheet.</p>
+        </li>
+      </ul>
+      <ul class="List1_1" style="counter-reset:none">
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Layout settings</span> – select the page layout style to use for the spreadsheet.</p>
+        </li>
+      </ul>
+      <ul class="List2_1" style="counter-reset:none">
+        <li>
+          <p class="List2"><span class="Emphasis">Page layout – Right and left</span> – both odd (right) and even (left) pages have the same margins on all four sides. <span class="Emphasis">Mirrored</span> – odd and even pages with inner and outer margins as specified (Use this layout if you want to bind the printed pages like a book. Enter the binding space as the <span class="Emphasis">Inner</span> margin). <span class="Emphasis">Only right</span> – the current page style shows only odd (right) pages (Even pages are shown as blank pages). <span class="Emphasis">Only left</span> – the current page style shows only even (left) pages (Odd pages are shown as blank pages).</p>
+        </li>
+        <li>
+          <p class="List2"><span class="Emphasis">Page numbers</span> – select the page numbering format to use for the page style. Typically, this will be 1,2,3; or a,b,c; or i,ii,iii.</p>
+        </li>
+        <li>
+          <p class="List2"><span class="Emphasis">Table alignment – Horizontal</span> centers the cells horizontally on the printed page. <span class="Emphasis">Vertical</span> centers the cells vertically on the printed page (the <span class="Emphasis">Preview Field</span> will change according to the selected in this option).</p>
+        </li>
+      </ul>
+      <h3 id="toc35"><a id="RefHeading4426246834245"></a>Borders and Background tabs</h3>
+      <p class="Textbody">The <span class="Emphasis">Borders</span> and <span class="Emphasis">Background</span> tabs of the Page Style dialog are similar to those on the cell Style dialog. See “<a href="#bkmRefHeading60781034930918">Borders tab</a>” and “<a href="#bkmRefHeading60801034930918">Background tab</a>” in “<a href="#bkmRefHeading4071809698872">Cell style attributes</a>” <a href="#bkmRefHeading4071809698872">above</a> for information on how to set the borders and background for page styles. Page styles can have a bitmap background, which is not available for cell styles.</p>
+      <h3 id="toc36"><a id="RefHeading64271034930918"></a>Header and Footer tabs</h3>
+      <p class="Textbody">Adds a header or footer to the page style. A header is an area in the top page margin where you can add text or graphics. A footer is a similar area in the bottom page margin. See Chapter 8, Printing, Exporting, Emailing, and Signing for details.</p>
+      <h3 id="toc37"><a id="RefHeading4430246834245"></a>Sheet tab</h3>
+      <p class="Textbody">Specifies the elements to be included in the printout of all sheets with the page style. Additionally, you can set the print order, the first page number, and the page scale. See Chapter 8, Printing, Exporting, E-mailing, and Signing for details.</p>
+      <h1 id="toc38"><a id="RefHeadingToc3566208225428"></a><a id="idx22"></a>Using themes</h1>
+      <h2 id="toc39"><a id="RefHeadingToc46821353284205"></a>Using spreadsheet themes</h2>
+      <p class="Textbody">Calc includes a set of built-in formatting themes you can use in spreadsheets. You can't add new themes or change the built-in ones. However, you can edit a theme after applying it, but those changes only apply to the current spreadsheet.</p>
+      <p class="BodyTextListIntro">To apply a theme to a spreadsheet:</p>
+      <ol class="Numbering1_1" style="counter-reset:Numbering1_1 0">
+        <li>
+          <p class="Numbering1">Go to <span class="StrongEmphasis">Format &gt; Spreadsheet Theme</span> on the Menu bar, or click the <span class="StrongEmphasis">Spreadsheet Theme</span> icon on the Tools toolbar, to open the Theme Selection dialog (<a href="#seqrefFigure16">Figure 17</a>), which lists the available themes for the whole spreadsheet.</p>
+        </li>
+        <li>
+          <p class="Numbering1">Select the theme that you want to apply. As soon as you select a theme, the theme styles are applied to the spreadsheet and are immediately visible.</p>
+        </li>
+        <li>
+          <p class="Numbering1">Click <span class="StrongEmphasis">OK</span>.</p>
+        </li>
+      </ol>
+      <p class="BodyTextListIntro">Using spreadsheet themes is effective when you format a range in the spreadsheet as a table. Selecting a spreadsheet theme adds new cell styles to the spreadsheet and modifies the <span class="Emphasis">Default</span> cell style. The added cell styles are:</p>
+      <ul class="List1_1" style="counter-reset:none">
+        <li>
+          <p class="List1"><span class="StrongEmphasis">“Card” cell styles</span>: <span class="Emphasis">Column Header</span>, <span class="Emphasis">Card</span>, <span class="Emphasis">Card B</span> (<span class="Emphasis">bottom)</span>, <span class="Emphasis">Card BL</span> (bottom left), <span class="Emphasis">Card BR</span> (bottom right), <span class="Emphasis">Card L </span>(left), <span class="Emphasis">Card R</span> (right), <span class="Emphasis">Card T</span> (top), <span class="Emphasis">Card TL</span> (top left), and <span class="Emphasis">Card TR</span> (top right) of the selected range.</p>
+        </li>
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Background</span>: The background style of the range. Apply this style to the table contents not in the table edges.</p>
+        </li>
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Input</span>: Used for data input. This cell style has the cell protection property unchecked.</p>
+        </li>
+        <li>
+          <p class="List1"><span class="StrongEmphasis">Result2</span>: A secondary option for formula results.</p>
+        </li>
+      </ul>
+      <div class="frameFrame" id="framCG26204016frame" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0">
+        <p class="Figure">Figure <a id="seqrefFigure16">17</a>: Theme Selection dialog</p>
+        <p class="Figure"><img alt="Theme Selection dialog" class="frameGraphics" id="imgCG26204017graphic" src="CG26204-StylesAndTemplates-img/CG26204-StylesAndTemplates-img017.webp" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0;width:12.304725rem;height:18.80315rem" /></p>
+      </div>
+      <p class="Figure"></p>
+      <p class="Textbody">If required, you can now use the Styles deck on the Sidebar to modify specific styles. These modifications do not modify the spreadsheet theme; they only change the appearance of the style in the spreadsheet you are creating.</p>
+      <h2 id="toc40"><a id="RefHeadingToc46841353284205"></a>Using document themes</h2>
+      <p class="Textbody">Document themes collect various format selections into a set that can be applied and changed quickly. LibreOffice supplies several sets of theme colors, and you can define other sets (see Chapter 16, Setting up and Customizing). Theme colors have names like <span class="Emphasis">Dark 1</span>, <span class="Emphasis">Light2</span>, <span class="Emphasis">Accent 3</span>, and so on. They can be used in styles or applied manually.</p>
+      <p class="Textbody">To set up a spreadsheet to use themes, choose colors for fonts, backgrounds, or objects from the <span class="Emphasis">Theme colors</span> palette (<a href="#seqrefFigure17">Figure 18</a>), not an ordinary color palette. The first row of the palette contains the theme colors, with other rows containing modifications. For example, the top-left color in the palette is the currently selected theme’s <span class="Emphasis">Dark 1</span> color; the leftmost color in the second row is a 50% lighter version of <span class="Emphasis">Dark 1</span>; the entry at the intersection of the second column and third row is a 15% darker version of <span class="Emphasis">Light1</span>; and so on. You can hover the pointer over any palette cell to see a tooltip indicating the detail of that color.</p>
+      <div class="frameFrame" id="framCG26204017frame" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0">
+        <p class="Figure">Figure <a id="seqrefFigure17">18</a>: A palette of theme colors</p>
+        <p class="Figure"><img alt="A palette of theme colors" class="frameGraphics" id="imgCG26204018graphic" src="CG26204-StylesAndTemplates-img/CG26204-StylesAndTemplates-img018.webp" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0;width:11.761418rem;height:11.220472rem" /></p>
+      </div>
+      <p class="Figure"></p>
+      <p class="Textbody">To change the set of theme colors, choose <span class="StrongEmphasis">Format &gt; Theme</span> on the Menu bar and select a different theme in the Theme dialog (<a href="#seqrefFigure18">Figure 19</a>). Colors defined as theme colors change in the document. You need not change any style and need not change any object individually.</p>
+      <div class="frameFrame" id="framCG26204018frame" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0">
+        <p class="Figure">Figure <a id="seqrefFigure18">19</a>: Theme dialog</p>
+        <p class="Figure"><img alt="Theme dialog" class="frameGraphics" id="imgCG26204019graphic" src="CG26204-StylesAndTemplates-img/CG26204-StylesAndTemplates-img019.webp" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0;width:20.040945rem;height:18.359056rem" /></p>
+      </div>
+      <p class="Figure"></p>
+      <p class="Textbody"><a href="#seqrefFigure19">Figure 20</a> shows an example in which the background colors of cells in the range B3:B14 have been set to the theme color indicated by the corresponding labels in cells A3:A14. Initially, the default <span class="Emphasis">LibreOffice</span> theme was applied and this is shown on the left of the figure. The transition to the configuration on the right of the figure requires only a cosmetic change to the text in cell B1 and selection of the <span class="Emphasis">Sunset</span> theme via <span class="StrongEmphasis">Format &gt; Theme</span> on the Menu bar.</p>
+      <div class="frameFrame" id="framCG26204019frame" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0">
+        <p class="Figure">Figure <a id="seqrefFigure19">20</a>: Example of changing a document's theme</p>
+        <p class="Figure"><img alt="Example of changing a document&apos;s theme" class="frameGraphics" id="imgCG26204020graphic" src="CG26204-StylesAndTemplates-img/CG26204-StylesAndTemplates-img020.webp" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0;width:24.540945rem;height:12.682678rem" /></p>
+      </div>
+      <p class="Figure"></p>
+      <h1 id="toc41"><a id="RefHeading3768809698872"></a>Managing styles</h1>
+      <h2 id="toc42"><a id="RefHeading4432246834245"></a><a id="idx23"></a>Modifying styles</h2>
+      <ol class="Numbering1_1" style="counter-reset:Numbering1_1 0">
+        <li>
+          <p class="Numbering1">Go to the Styles deck on the Sidebar and click the icon for the type of style you want to modify.</p>
+        </li>
+        <li>
+          <p class="Numbering1">Right-click on the name of the style and select <span class="StrongEmphasis">Modify</span> in the context menu to open either the Cell Style dialog (<a href="#seqrefFigure5">Figure 6</a>), or the Drawing Style dialog (<a href="#seqrefFigure14">Figure 15</a>), or the Page Style dialog (<a href="#seqrefFigure15">Figure 16</a>).</p>
+        </li>
+        <li>
+          <p class="Numbering1">Make the necessary changes to the style attributes. For more information on style attributes, see “<a href="#bkmRefHeading4071809698872">Cell style attributes</a>”, <a href="#bkmRefHeadingToc732522841356043">Drawing style attributes</a>, and “<a href="#bkmRefHeading4073809698872">Page style attributes</a>”.</p>
+        </li>
+        <li>
+          <p class="Numbering1">Click <span class="StrongEmphasis">OK</span> to save the changes and close the dialog.</p>
+        </li>
+      </ol>
+      <ul class="HeadingNote_1" style="counter-reset:none">
+        <li>
+          <p class="HeadingNote">Note</p>
+        </li>
+      </ul>
+      <p class="BodyTextNote">The <span class="StrongEmphasis">Modify</span> command is unavailable if one or more sheets are protected, even if the cell style to be modified is being used in an unprotected sheet.</p>
+      <h2 id="toc43"><a id="RefHeadingToc1710275185296"></a><a id="idx24"></a>Renaming styles</h2>
+      <p class="BodyTextListIntro">You can rename custom styles, but not the styles supplied with Calc.</p>
+      <ol class="Numbering1_1" style="counter-reset:Numbering1_1 0">
+        <li>
+          <p class="Numbering1">Go to the Styles panel on the Sidebar (<a href="#seqrefFigure1">Figure 2</a>) and click the icon for the type of style you want to rename.</p>
+        </li>
+        <li>
+          <p class="Numbering1">Right-click on the style you want to rename and select <span class="StrongEmphasis">Modify</span> in the context menu to open either the Cell Styles dialog, the Drawing Style dialog, or the Page Styles dialog.</p>
+        </li>
+        <li>
+          <p class="Numbering1">On the <span class="Emphasis">Organizer</span> tab, rename the style, and click <span class="StrongEmphasis">OK</span>.</p>
+        </li>
+      </ol>
+      <h2 id="toc44"><a id="RefHeadingToc1710475185296"></a><a id="idx25"></a>Deleting styles</h2>
+      <p class="BodyTextListIntro">You can delete custom styles, but not the styles supplied with Calc. Custom cell styles can only be deleted if they are not applied. If an applied page style is deleted, affected sheets revert to the <span class="Emphasis">Default</span> page style.</p>
+      <ol class="Numbering1_1" style="counter-reset:Numbering1_1 0">
+        <li>
+          <p class="Numbering1">Go to the Styles deck in the Sidebar (<a href="#seqrefFigure1">Figure 2</a>) and click the icon for the type of style you want to delete.</p>
+        </li>
+        <li>
+          <p class="Numbering1">Right-click on the style you want to delete and select <span class="StrongEmphasis">Delete</span> in the context menu.</p>
+        </li>
+        <li>
+          <p class="Numbering1">Select <span class="StrongEmphasis">Yes</span> on the warning message, if displayed.</p>
+        </li>
+      </ol>
+      <h2 id="toc45"><a id="RefHeading71451313726316"></a><a id="idx26"></a><a id="idx27"></a>Hiding and showing cell styles</h2>
+      <p class="BodyTextListIntro">You can shorten the list of cell styles by hiding some of them. Only styles that are not being used in the spreadsheet can be hidden.</p>
+      <ol class="Numbering1_1" style="counter-reset:Numbering1_1 0">
+        <li>
+          <p class="Numbering1">Go to the Styles deck in the Sidebar and click on the <span class="StrongEmphasis">Cell Styles</span> icon.</p>
+        </li>
+        <li>
+          <p class="Numbering1">Right-click on an unused cell style and select <span class="StrongEmphasis">Hide</span> in the context menu. The style is then moved to the <span class="Emphasis">Hidden Styles</span> category in the Styles deck.</p>
+        </li>
+      </ol>
+      <p class="BodyTextListIntro"><a id="RefHeading71471313726316"></a>To show hidden cell styles:</p>
+      <ol class="Numbering1_1" style="counter-reset:Numbering1_1 0">
+        <li>
+          <p class="Numbering1">Go to the Styles deck on the Sidebar.</p>
+        </li>
+        <li>
+          <p class="Numbering1">Click on the drop-down list at the bottom of the panel and select <span class="StrongEmphasis">Hidden Styles</span> in the list.</p>
+        </li>
+        <li>
+          <p class="Numbering1">To revert, right-click on the hidden style you want to show and select <span class="StrongEmphasis">Show</span> in the context menu.</p>
+        </li>
+      </ol>
+      <h2 id="toc46"><a id="RefHeading71491313726316"></a><a id="idx28"></a>Filtering the list of styles</h2>
+      <p class="BodyTextListIntro">You can filter the list of styles as follows:</p>
+      <ol class="Numbering1_1" style="counter-reset:Numbering1_1 0">
+        <li>
+          <p class="Numbering1">Go to the Styles deck on the Sidebar.</p>
+        </li>
+        <li>
+          <p class="Numbering1">Click on the drop-down list at the bottom of the panel.</p>
+        </li>
+        <li>
+          <p class="Numbering1">Select the category of styles to display on the Styles deck:</p>
+        </li>
+      </ol>
+      <ul class="List2_1" style="counter-reset:none">
+        <li>
+          <p class="List2"><span class="StrongEmphasis">Hierarchical</span> – lists the styles in their hierarchical relationship, for example <span class="Emphasis">Heading 1</span> and <span class="Emphasis">Heading 2</span> under <span class="Emphasis">Heading</span>, or <span class="Emphasis">Accent 1</span>, <span class="Emphasis">Accent 2</span>, <span class="Emphasis">Accent 3</span> under <span class="Emphasis">Accent</span>.</p>
+        </li>
+        <li>
+          <p class="List2"><span class="StrongEmphasis">All Styles</span> – lists all the styles that are available in Calc and in the spreadsheet, except for hidden styles, in alphanumeric order.</p>
+        </li>
+        <li>
+          <p class="List2"><span class="StrongEmphasis">Hidden Styles</span> – lists all the styles that have been hidden in the spreadsheet.</p>
+        </li>
+        <li>
+          <p class="List2"><span class="StrongEmphasis">Applied Styles</span> – lists only the styles that have been applied to the spreadsheet. Not applicable for page styles.</p>
+        </li>
+        <li>
+          <p class="List2"><span class="StrongEmphasis">Custom Styles</span> – lists only the user-defined styles defined for the spreadsheet.</p>
+        </li>
+      </ul>
+      <h1 id="toc47"><a id="RefHeadingToc116063275413537"></a>Introduction to Templates</h1>
+      <p class="Textbody">A template is a model that you use to create other documents in a standard format. For example, you can create a template for invoices that has your company logo and address at the top of the page. This means that any new spreadsheets (invoices) created from this template will have the company logo and address on the first page of the spreadsheet.</p>
+      <p class="Textbody">A significant advantage of using templates is that when a spreadsheet is created, the custom styles of the template are integrated into the new spreadsheet, so you will already have your styles defined without needing to create or modify them.</p>
+      <p class="Textbody">Templates can contain anything that regular documents can contain, such as text, graphics, styles; user-specific setup information such as measurement units, language, default printer; and toolbar and menu customization.</p>
+      <p class="Textbody">All documents in LibreOffice are based on templates. You can create, or download and install, as many templates as you wish. If you do not specify a template when you start a new spreadsheet, then that new spreadsheet is based on the included Calc default template. This default template consists of a blank spreadsheet which you can customize to your needs and then, if you wish, use as a basis to create a custom default template.</p>
+      <h1 id="toc48"><a id="RefHeadingToc2446475185296"></a>Using a template to create a spreadsheet</h1>
+      <p class="Textbody">A new installation of LibreOffice may not include any spreadsheet templates other than the Calc default, but you can create your own (see “<a href="#bkmRefHeadingToc1943075185296">Creating a template</a>” <a href="#bkmRefHeadingToc1943075185296">below</a>) or install templates obtained from other sources (see “<a href="#bkmRefHeadingToc2446875185296">Adding templates obtained from other sources</a>” <a href="#bkmRefHeadingToc2446875185296">below</a>).</p>
+      <p class="BodyTextListIntro">When you have an available spreadsheet template, you can use it to create a new spreadsheet from the Templates dialog or the LibreOffice Start Center.</p>
+      <h2 id="toc49"><a id="RefHeadingToc35806687030175"></a><a id="bkmRefHeadingToc35806687030175"></a><a id="idx29"></a>Creating a spreadsheet from the Templates dialog</h2>
+      <p class="BodyTextListIntro">To use a template to create a spreadsheet:</p>
+      <ol class="Numbering1_1" style="counter-reset:Numbering1_1 0">
+        <li>
+          <p class="Numbering1">On the Menu bar, choose <span class="StrongEmphasis">File &gt; New &gt; Templates,</span> or click the small arrow next to the <span class="StrongEmphasis">New</span> icon on the Standard toolbar and select <span class="StrongEmphasis">Templates</span>, or press <span class="Keystroke">Ctrl+Shift+N</span>. The Templates dialog (<a href="#seqrefFigure20">Figure 21</a>) opens.</p>
+        </li>
+        <li>
+          <p class="Numbering1">In the <span class="Emphasis">Filter</span> lists at the top of the Templates dialog, select <span class="StrongEmphasis">Spreadsheets</span> and the category of template you want to use. All the templates in that category are then listed on the page, as shown in <a href="#seqrefFigure20">Figure 21</a>.</p>
+        </li>
+        <li>
+          <p class="Numbering1">Select the required template and click <span class="StrongEmphasis">Open</span>, or double-click the required template, or right-click the required template and select <span class="StrongEmphasis">Open</span> in the context menu. A new spreadsheet based on the template opens in Calc.</p>
+        </li>
+      </ol>
+      <p class="Textbody">In the spreadsheet, the template it is based upon is listed in <span class="StrongEmphasis">File &gt; Properties &gt; General</span>. The connection between a template and a spreadsheet remains until that template is modified. The next time a spreadsheet based on that template is opened, you can choose either to update, or not update, the spreadsheet to match the modifications.</p>
+      <p class="Textbody"><a href="#seqrefFigure20">Figure 21</a> shows the default configuration for the Templates dialog, with the available templates represented by thumbnails. It is also possible to view the available templates in a list format that includes additional information which may help identify the template of interest, as shown in <a href="#seqrefFigure21">Figure 22</a>. To switch between these two views, use the <span class="StrongEmphasis">Thumbnail View</span> and <span class="StrongEmphasis">List View</span> icons located at the bottom left of the dialog.</p>
+      <div class="frameFrame" id="framCG26204020frame" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0">
+        <p class="Figure">Figure <a id="seqrefFigure20">21</a>: Templates dialog, showing a selected template in thumbnail view</p>
+        <p class="Figure"><img alt="Templates dialog, showing a selected template in thumbnail view" class="frameGraphics" id="imgCG26204021graphic" src="CG26204-StylesAndTemplates-img/CG26204-StylesAndTemplates-img021.webp" style="width:32.43307rem;height:11.955118rem" /></p>
+      </div>
+      <p class="Figure"></p>
+      <div class="frameFrame" id="framCG26204021frame" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0">
+        <p class="Figure">Figure <a id="seqrefFigure21">22</a>: Templates dialog, list view</p>
+        <p class="Figure"><img alt="Templates dialog, list view" class="frameGraphics" id="imgCG26204022graphic" src="CG26204-StylesAndTemplates-img/CG26204-StylesAndTemplates-img022.webp" style="width:37.062992rem;height:9.470078rem" /></p>
+      </div>
+      <p class="Figure"></p>
+      <h2 id="toc50"><a id="RefHeadingToc35808687030175"></a><a id="idx30"></a>Creating a spreadsheet from a template in the Start Center</h2>
+      <p class="Textbody">You can create a spreadsheet from the Template view of the LibreOffice Start Center, which is visible when no other document is open.</p>
+      <p class="Textbody">Click the <span class="StrongEmphasis">Templates</span> button in the left pane and icons are displayed in the Start Center for all available LibreOffice templates. At the top left of the Start Center is a <span class="Emphasis">Filter</span> drop-down list to select the templates of a given type of document. If you select the <span class="StrongEmphasis">Spreadsheets</span> option on the list, only the available spreadsheet templates are displayed in the Start Center. Click on the required template to create a new document based on that template.</p>
+      <h1 id="toc51"><a id="RefHeadingToc1943075185296"></a><a id="bkmRefHeadingToc1943075185296"></a><a id="idx31"></a>Creating a template</h1>
+      <p class="BodyTextListIntro">From any spreadsheet:</p>
+      <ol class="Numbering1_1" style="counter-reset:Numbering1_1 0">
+        <li>
+          <p class="Numbering1">Open a new or existing spreadsheet that you want to use as a base for the template.</p>
+        </li>
+        <li>
+          <p class="Numbering1">Add any necessary predefined content that you want to appear in a spreadsheet each time you use the new template, for example company logo and name, company information, page numbers, and so on. Delete any information that you do not want in the template.</p>
+        </li>
+        <li>
+          <p class="Numbering1">Create or modify the cell, drawing, and page styles that you want to use in the template.</p>
+        </li>
+        <li>
+          <p class="Numbering1">On the Menu bar, choose <span class="StrongEmphasis">File &gt; Templates &gt; Save as Template</span>, or click the down arrow at the right of the <span class="StrongEmphasis">Save</span> button on the Standard toolbar and select <span class="StrongEmphasis">Save as Template</span>, or press <span class="Keystroke">Shift</span>+<span class="Keystroke">F11</span>. The Save As Template dialog (<a href="#seqrefFigure22">Figure 23</a>) opens, displaying the existing template categories and a name box.</p>
+        </li>
+        <li>
+          <p class="Numbering1">Type a name for the new template and select the required template category. You can also choose to make this the default template (see “<a href="#bkmRefHeadingToc2447075185296">Setting the default template</a>” <a href="#bkmRefHeadingToc2447075185296">below</a> for more information).</p>
+        </li>
+        <li>
+          <p class="Numbering1">Click <span class="StrongEmphasis">Save</span> to save the new template.</p>
+        </li>
+      </ol>
+      <ul class="HeadingNote_1" style="counter-reset:none">
+        <li>
+          <p class="HeadingNote">Note</p>
+        </li>
+      </ul>
+      <p class="BodyTextNote">Although the <span class="StrongEmphasis">Save as Template</span> dialog shows no document type when saving a new template of any type, the template will appear on the correct tab (Spreadsheets, in this case) when you return to the Templates dialog. It is unnecessary to save or do anything further with the spreadsheet file you have been using to create the new template. It can be safely closed without saving.</p>
+      <div class="frameFrame" id="framCG26204022frame" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0">
+        <p class="Figure">Figure <a id="seqrefFigure22">23</a>: Save As Template dialog</p>
+        <p class="Figure"><img alt="Save As Template dialog" class="frameGraphics" id="imgCG26204023graphic" src="CG26204-StylesAndTemplates-img/CG26204-StylesAndTemplates-img023.webp" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;width:14.567716rem;height:18.125196rem" /></p>
+      </div>
+      <p class="Figure"></p>
+      <ul class="HeadingNote_1" style="counter-reset:none">
+        <li>
+          <p class="HeadingNote">Note</p>
+        </li>
+      </ul>
+      <p class="BodyTextNote">You can also save a template through the Save As dialog, accessed by a variety of interactions including selecting <span class="StrongEmphasis">File &gt; Save As</span> on the Menu bar or pressing <span class="Keystroke">Ctrl+Shift+S</span>. Select the <span class="StrongEmphasis">ODF Spreadsheet Template</span> option in the <span class="Emphasis">Save as type</span> menu and navigate to the appropriate template folder before clicking the <span class="StrongEmphasis">Save</span> button.</p>
+      <h1 id="toc52"><a id="RefHeading47020116595067"></a><a id="idx32"></a>Editing a template</h1>
+      <p class="Textbody">You can edit a template’s styles and content. If you wish, you can then apply the new styles to spreadsheets that were created from the original template (see below for details).</p>
+      <p class="BodyTextListIntro">To edit a template:</p>
+      <ol class="Numbering1_1" style="counter-reset:Numbering1_1 0">
+        <li>
+          <p class="Numbering1">On the Menu bar, choose <span class="StrongEmphasis">File &gt; Templates &gt; Manage Templates</span>, or press <span class="Keystroke">Ctrl</span>+<span class="Keystroke">Shift</span>+<span class="Keystroke">N</span>, to open the Templates dialog. You can also manage templates from the Start Center.</p>
+        </li>
+        <li>
+          <p class="Numbering1">Navigate to the spreadsheet template that you want to edit. Right-click to open the context menu and choose <span class="StrongEmphasis">Edit</span> (<a href="#seqrefFigure23">Figure 24</a>). The template opens in Calc.</p>
+        </li>
+      </ol>
+      <div class="frameFrame" id="framCG26204023frame" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0">
+        <p class="Figure">Figure <a id="seqrefFigure23">24</a>: Templates dialog – Editing templates</p>
+        <p class="Figure"><img alt="Templates dialog – Editing templates" class="frameGraphics" id="imgCG26204024graphic" src="CG26204-StylesAndTemplates-img/CG26204-StylesAndTemplates-img024.webp" style="width:32.43307rem;height:13.015749rem" /></p>
+      </div>
+      <p class="Figure"></p>
+      <ol class="Numbering1_1" style="counter-reset:none">
+        <li>
+          <p class="Numbering1">Edit the template as you would edit any other spreadsheet. To save the changes, choose <span class="StrongEmphasis">File &gt; Save</span> on the Menu bar or perform any equivalent action. To save the edited template as a new template, choose <span class="StrongEmphasis">File &gt; Save As Template</span> or perform any equivalent action.</p>
+        </li>
+      </ol>
+      <h2 id="toc53"><a id="RefHeadingToc2446675185296"></a><a id="idx33"></a>Updating styles from a changed template</h2>
+      <p class="BodyTextListIntro">If you make any changes to a template and its styles, the next time you open a spreadsheet that was created before you changed the template, a confirmation message is displayed.</p>
+      <ol class="Numbering1_1" style="counter-reset:Numbering1_1 0">
+        <li>
+          <p class="Numbering1">Click <span class="StrongEmphasis">Update Styles</span> to apply the changed styles in the template to the spreadsheet.</p>
+        </li>
+        <li>
+          <p class="Numbering1">Click <span class="StrongEmphasis">Keep Old Styles</span> if you do not want to apply the changed styles in the template to the spreadsheet.</p>
+        </li>
+      </ol>
+      <ul class="HeadingCaution_1" style="counter-reset:none">
+        <li>
+          <p class="HeadingCaution">Caution</p>
+        </li>
+      </ul>
+      <p class="BodyTextNote">If you select <span class="StrongEmphasis">Keep Old Styles</span>, the confirmation message will not appear again the next time you open the spreadsheet using the same changed template. Although the template is still listed under <span class="StrongEmphasis">File &gt; Properties &gt; General</span>, the spreadsheet is no longer connected to the template, so it will not update. You can still import styles manually from the template, but to reconnect the spreadsheet to the template, you need to use one of the procedures described in “<a href="#bkmRefHeadingToc2226211336084092">Changing the template assigned to a document</a>” <a href="#bkmRefHeadingToc2226211336084092">below</a>.</p>
+      <h1 id="toc54"><a id="RefHeadingToc2226211336084092"></a><a id="bkmRefHeadingToc2226211336084092"></a>Changing the template assigned to a document</h1>
+      <p class="Textbody">Changing the template assigned to a document or reconnecting a document to a template can be accomplished either manually or by using the Template Changer extension. The Template Changer extension works with Writer, Calc, Draw, and Impress.</p>
+      <p class="BodyTextListIntro">Manual method:</p>
+      <ol class="Numbering1_1" style="counter-reset:Numbering1_1 0">
+        <li>
+          <p class="Numbering1">Create a new, blank document from the required template as described <a href="#bkmRefHeadingToc35806687030175">above</a>.</p>
+        </li>
+        <li>
+          <p class="Numbering1">Copy the contents of the old document into the new document.</p>
+        </li>
+      </ol>
+      <p class="BodyTextListIntro">Extension method:</p>
+      <ol class="Numbering1_1" style="counter-reset:Numbering1_1 0">
+        <li>
+          <p class="Numbering1">Download the Template Changer extension from <a class="Internet20link" href="https://extensions.libreoffice.org/en">https://extensions.libreoffice.org/en</a>.</p>
+        </li>
+        <li>
+          <p class="Numbering1">Install the extension.</p>
+        </li>
+        <li>
+          <p class="Numbering1">Restart LibreOffice to activate it.</p>
+        </li>
+        <li>
+          <p class="Numbering1">Open the document.</p>
+        </li>
+        <li>
+          <p class="Numbering1">From the Menu bar, use <span class="StrongEmphasis">File &gt; Templates &gt; Change template (current document)</span>.</p>
+        </li>
+      </ol>
+      <h1 id="toc55"><a id="RefHeadingToc2446875185296"></a><a id="bkmRefHeadingToc2446875185296"></a><a id="idx34"></a>Adding templates obtained from other sources</h1>
+      <p class="Textbody">LibreOffice refers to sources of templates as repositories. A repository can be local (a directory on your computer to which you have downloaded templates) or remote (a URL from which you can download templates).</p>
+      <p class="Textbody">To get to the official LibreOffice template repository, type <a class="Internet20link" href="https://extensions.libreoffice.org/en"><span class="Internetlink">https://extensions.libreoffice.org/en</span></a> in your browser’s address bar. This opens the Extensions web page. In the <span class="Emphasis">Search</span> section, click the <span class="StrongEmphasis">Templates</span> tag filter. You can narrow your search by also choosing other tag filters. After setting the filters, click the <span class="StrongEmphasis">Search</span> button. In the search results, find the required template and click on its name to display a page with details; click the <span class="StrongEmphasis">Download</span> button to put the template anywhere on your computer. Proceed to “<a href="#bkmRefHeading77599886442828">Installing templates</a>” <a href="#bkmRefHeading77599886442828">below</a>.</p>
+      <p class="Textbody">You can also use the <span class="StrongEmphasis">Extensions</span> button in the <span class="Emphasis">Manage</span> menu of the Templates dialog, as shown in <a href="#seqrefFigure24">Figure 25</a>. In this version of LibreOffice, there is no easy way to filter this list, so you may prefer to go directly to the web page, as described above.</p>
+      <div class="frameFrame" id="framCG26204024frame" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0">
+        <p class="Figure">Figure <a id="seqrefFigure24">25</a>: Getting more templates for LibreOffice</p>
+        <p class="Figure"><img alt="Getting more templates for LibreOffice" class="frameGraphics" id="imgCG26204025graphic" src="CG26204-StylesAndTemplates-img/CG26204-StylesAndTemplates-img025.webp" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0;width:28.2rem;height:7.9795275rem" /></p>
+      </div>
+      <p class="Figure"></p>
+      <h2 id="toc56"><a id="RefHeading77599886442828"></a><a id="bkmRefHeading77599886442828"></a>Installing templates</h2>
+      <p class="BodyTextListIntro">You can import and add templates to your collection as follows:</p>
+      <ol class="Numbering1_1" style="counter-reset:Numbering1_1 0">
+        <li>
+          <p class="Numbering1">Find and download the template you want to use, as described in the previous section.</p>
+        </li>
+        <li>
+          <p class="Numbering1">Open the Templates dialog and click the <span class="StrongEmphasis">Import</span> button in the <span class="Emphasis">Manage</span> menu.</p>
+        </li>
+        <li>
+          <p class="Numbering1">In the pop-up dialog, select the category where you want to store the template. (You can change this later, as described in “<a href="#bkmRefHeadingToc2685875185296">Moving a template</a>” <a href="#bkmRefHeadingToc2685875185296">below</a>.)</p>
+        </li>
+        <li>
+          <p class="Numbering1">A file browser opens. Navigate to the location of the downloaded template on your computer.</p>
+        </li>
+        <li>
+          <p class="Numbering1">Select the template and click <span class="StrongEmphasis">Open</span>. After import, the template becomes available in the Templates dialog.</p>
+        </li>
+      </ol>
+      <ul class="HeadingTip_1" style="counter-reset:none">
+        <li>
+          <p class="HeadingTip">Tip</p>
+        </li>
+      </ul>
+      <p class="BodyTextNote">You can manually copy new templates into the template folders. The location varies with your computer’s operating system. To learn where the template folders are stored on your computer, go to <span class="StrongEmphasis">Tools &gt; Options &gt; LibreOffice &gt; Paths</span>.</p>
+      <h2 id="toc57"><a id="RefHeading77601886442828"></a>Installing collections of templates</h2>
+      <p class="BodyTextListIntro">The Extension Manager may be used to install collections of templates as follows:</p>
+      <ol class="Numbering1_1" style="counter-reset:Numbering1_1 0">
+        <li>
+          <p class="Numbering1">Download the extension package (.OXT file) and save it anywhere on your computer.</p>
+        </li>
+        <li>
+          <p class="Numbering1">In LibreOffice, select <span class="StrongEmphasis">Tools &gt; Extension Manager</span> on the Menu bar, or press <span class="Keystroke">Ctrl+Alt+E</span>. In the Extension Manager dialog, click <span class="StrongEmphasis">Add</span> to open a file browser window.</p>
+        </li>
+        <li>
+          <p class="Numbering1">Find and select the package of templates you want to install and click <span class="StrongEmphasis">Open</span>. The package begins installing. You may be asked to accept a license agreement.</p>
+        </li>
+        <li>
+          <p class="Numbering1">When the package installation is complete, you may need to restart LibreOffice. The templates are available for use through the Templates dialog and the extension is listed in the Extension Manager.</p>
+        </li>
+      </ol>
+      <p class="Textbody">See Chapter 16, Setting up and Customizing, for more about the Extension Manager.</p>
+      <ul class="HeadingTip_1" style="counter-reset:none">
+        <li>
+          <p class="HeadingTip">Tip</p>
+        </li>
+      </ul>
+      <p class="BodyTextNote"><a id="RefHeading47022116595067"></a>Some extensions are packaged as .ZIP files.</p>
+      <h1 id="toc58"><a id="RefHeadingToc2447075185296"></a><a id="bkmRefHeadingToc2447075185296"></a><a id="idx35"></a>Setting the default template</h1>
+      <p class="Textbody">If you create a new spreadsheet using <span class="StrongEmphasis">File &gt; New &gt; Spreadsheet</span> on the Menu bar or an equivalent action, Calc creates the document from the default template for spreadsheets. You can set any template as the default template. You can also reset the default template to the Calc default template.</p>
+      <h2 id="toc59"><a id="RefHeading47024116595067"></a>Setting a template as the default</h2>
+      <p class="Textbody">Most default settings, such as page size and page margins, can be changed but those changes normally apply only to the spreadsheet you are working on. To make those changes the default settings for spreadsheets, you need to replace the default Calc template with a new one.</p>
+      <p class="BodyTextListIntro">You can set any template displayed in the Templates dialog to be the default for that document type:</p>
+      <ol class="Numbering1_1" style="counter-reset:Numbering1_1 0">
+        <li>
+          <p class="Numbering1">On the Menu bar, choose <span class="StrongEmphasis">File &gt; Templates &gt; Manage Templates</span> or press <span class="Keystroke">Ctrl+Shift+N</span>.</p>
+        </li>
+        <li>
+          <p class="Numbering1">In the Templates dialog, open the category containing the template that you want to set as the default.</p>
+        </li>
+        <li>
+          <p class="Numbering1">Right-click on the template and click the <span class="StrongEmphasis">Set as Default</span> option (<a href="#seqrefFigure23">Figure 24</a>). The template is now indicated by a green check mark in the upper left.</p>
+        </li>
+      </ol>
+      <p class="Textbody">The next time you create a spreadsheet by choosing <span class="StrongEmphasis">File &gt; New</span>, by clicking the <span class="StrongEmphasis">New</span> icon on the Standard toolbar, or by pressing <span class="Keystroke">Ctrl+N,</span> it will be created from this template.</p>
+      <h2 id="toc60"><a id="RefHeading47026116595067"></a>Resetting the default template</h2>
+      <p class="BodyTextListIntro">To set the default spreadsheet template back to the default template supplied with Calc:</p>
+      <ol class="Numbering1_1" style="counter-reset:Numbering1_1 0">
+        <li>
+          <p class="Numbering1">In the Templates dialog, click the <span class="StrongEmphasis">Manage</span> button on the upper right (<a href="#seqrefFigure25">Figure 26</a>).</p>
+        </li>
+        <li>
+          <p class="Numbering1">Point to <span class="StrongEmphasis">Reset Default Spreadsheet</span> in the drop-down menu. The green check mark is removed from the template.</p>
+        </li>
+      </ol>
+      <p class="Textbody">This choice does not appear unless a custom template has been set as the default, as described in the previous section.</p>
+      <div class="frameFrame" id="framCG26204025frame" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0">
+        <p class="Figure">Figure <a id="seqrefFigure25">26</a>: Resetting the default template for spreadsheets</p>
+        <p class="Figure"><img alt="Resetting the default template for spreadsheets" class="frameGraphics" id="imgCG26204026graphic" src="CG26204-StylesAndTemplates-img/CG26204-StylesAndTemplates-img026.webp" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0;width:32.340946rem;height:9.059055rem" /></p>
+      </div>
+      <p class="Figure"></p>
+      <p class="BodyTextListIntro">You can also reset the default template as follows:</p>
+      <ol class="Numbering1_1" style="counter-reset:Numbering1_1 0">
+        <li>
+          <p class="Numbering1">Go to the Templates dialog and open the category containing the template you set as default. It is indicated by a green check mark.</p>
+        </li>
+        <li>
+          <p class="Numbering1">Right-click on this template and select <span class="StrongEmphasis">Reset Default </span>in the context menu. The next time that you create a new spreadsheet, it will be created using the Calc default template.</p>
+        </li>
+      </ol>
+      <ul class="HeadingNote_1" style="counter-reset:none">
+        <li>
+          <p class="HeadingNote">Note</p>
+        </li>
+      </ul>
+      <p class="BodyTextNote">Resetting the default template back to the Calc default template is only available if the default has been changed previously.</p>
+      <h1 id="toc61"><a id="RefHeading47030116595067"></a><a id="idx36"></a><a id="idx37"></a>Organizing templates</h1>
+      <p class="Textbody">LibreOffice manages templates that are stored in its designated template folders, also known as categories. However, you can still create a spreadsheet from a template located outside these folders. To better organize your templates, you can create new template folders and import templates into them. For instance, you might set up one folder for sales templates and another for invoice templates. Templates can also be exported when needed.</p>
+      <ul class="HeadingTip_1" style="counter-reset:none">
+        <li>
+          <p class="HeadingTip">Tip</p>
+        </li>
+      </ul>
+      <p class="BodyTextNote">The location of template folders in LibreOffice depends on the operating system of your computer. If you want to know where the template folders are located, go to <span class="StrongEmphasis">Tools &gt; Options &gt; LibreOffice &gt; Paths</span>.</p>
+      <p class="Textbody">To begin, choose <span class="StrongEmphasis">File &gt; Templates &gt; Manage Templates</span>, or press <span class="Keystroke">Ctrl+Shift+N</span>, to open the Templates dialog.</p>
+      <h2 id="toc62"><a id="RefHeading47032116595067"></a>Creating a template category</h2>
+      <ol class="Numbering1_1" style="counter-reset:Numbering1_1 0">
+        <li>
+          <p class="Numbering1">Click the <span class="StrongEmphasis">Manage</span> button on the Templates dialog and select <span class="StrongEmphasis">New Category</span> in the drop-down menu (<a href="#seqrefFigure26">Figure 27</a>).</p>
+        </li>
+        <li>
+          <p class="Numbering1">In the pop-up dialog (not shown), type a name for the new category and click <span class="StrongEmphasis">OK</span>. The new category now appears in the list of categories.</p>
+        </li>
+      </ol>
+      <ul class="HeadingNote_1" style="counter-reset:none">
+        <li>
+          <p class="HeadingNote">Note</p>
+        </li>
+      </ul>
+      <p class="BodyTextNote">You cannot create a sub-category inside a template category.</p>
+      <div class="frameFrame" id="framCG26204026frame" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0">
+        <p class="Figure">Figure <a id="seqrefFigure26">27</a>: Creating a new category</p>
+        <p class="Figure"><img alt="Creating a new category" class="frameGraphics" id="imgCG26204027graphic" src="CG26204-StylesAndTemplates-img/CG26204-StylesAndTemplates-img027.webp" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0;width:36.420475rem;height:9.0rem" /></p>
+      </div>
+      <p class="Figure"></p>
+      <h2 id="toc63"><a id="RefHeadingToc2685675185296"></a>Deleting a template category</h2>
+      <p class="Textbody">You cannot delete template categories supplied with LibreOffice. Nor can you delete categories added by the Extension Manager unless you first remove the extension that installed them.</p>
+      <p class="BodyTextListIntro">However, you can delete a category that you created:</p>
+      <ol class="Numbering1_1" style="counter-reset:Numbering1_1 0">
+        <li>
+          <p class="Numbering1">Click the <span class="StrongEmphasis">Manage</span> button on the Templates dialog and select <span class="StrongEmphasis">Delete Category</span> in the context menu (<a href="#seqrefFigure26">Figure 27</a>).</p>
+        </li>
+        <li>
+          <p class="Numbering1">Select the category to be deleted in the Delete Category dialog (not shown) and click <span class="StrongEmphasis">OK</span>.</p>
+        </li>
+        <li>
+          <p class="Numbering1">Select <span class="StrongEmphasis">Yes</span> in the confirmation dialog to confirm the deletion.</p>
+        </li>
+        <li>
+          <p class="Numbering1">Calc displays a warning if it is unable to delete the category.</p>
+        </li>
+      </ol>
+      <h2 id="toc64"><a id="RefHeadingToc2685875185296"></a><a id="bkmRefHeadingToc2685875185296"></a><a id="idx38"></a>Moving a template</h2>
+      <p class="BodyTextListIntro">To move a template from one template category to another:</p>
+      <ol class="Numbering1_1" style="counter-reset:Numbering1_1 0">
+        <li>
+          <p class="Numbering1">Open the Templates dialog and select the template you want to move.</p>
+        </li>
+        <li>
+          <p class="Numbering1">Right-click the template you want to move and select the <span class="StrongEmphasis">Move</span> option from the context menu, select the destination category from the popup dialog (<a href="#seqrefFigure27">Figure 28</a>), and click <span class="StrongEmphasis">OK</span>. The selected template is moved to the folder. You can also create a new category into which to move the template.</p>
+        </li>
+      </ol>
+      <div class="frameFrame" id="framCG26204027frame" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0">
+        <p class="Figure">Figure <a id="seqrefFigure27">28</a>: Moving a template to another category</p>
+        <p class="Figure"><img alt="Moving a template to another category" class="frameGraphics" id="imgCG26204028graphic" src="CG26204-StylesAndTemplates-img/CG26204-StylesAndTemplates-img028.webp" style="margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0;width:32.31732rem;height:20.125986rem" /></p>
+      </div>
+      <p class="Figure"></p>
+      <h2 id="toc65"><a id="RefHeading47038116595067"></a><a id="idx39"></a>Deleting a template</h2>
+      <p class="BodyTextListIntro">You cannot delete templates supplied with LibreOffice. Nor can you delete any templates installed by the Extension Manager except by removing the extension that installed them. You can only delete templates that you have created or imported.</p>
+      <ol class="Numbering1_1" style="counter-reset:Numbering1_1 0">
+        <li>
+          <p class="Numbering1">In the <span class="StrongEmphasis">Filter</span> drop-down lists at the top of the Templates dialog, select the category that contains the template you want to delete.</p>
+        </li>
+        <li>
+          <p class="Numbering1">Right-click on the template that you want to delete to open the context menu and click <span class="StrongEmphasis">Delete</span> (<a href="#seqrefFigure23">Figure 24</a>).</p>
+        </li>
+        <li>
+          <p class="Numbering1">A message box appears and asks you to confirm the deletion. Click <span class="StrongEmphasis">Yes</span>.</p>
+        </li>
+      </ol>
+      <ul class="HeadingNote_1" style="counter-reset:none">
+        <li>
+          <p class="HeadingNote">Note</p>
+        </li>
+      </ul>
+      <p class="BodyTextNote">Moving or deleting a template has no impact on any document that was created from that template. The spreadsheet will retain the style definitions that it inherited from the moved or deleted template. The <span class="Emphasis">Template</span> field on the <span class="StrongEmphasis">File &gt; Properties &gt; General</span> page can continue to show the name of a template that no longer exists.</p>
+      <h2 id="toc66"><a id="RefHeading47042116595067"></a><a id="idx40"></a>Exporting a template</h2>
+      <p class="BodyTextListIntro">The easiest way to send a template to someone else, or to store it on a network, is to export it:</p>
+      <ol class="Numbering1_1" style="counter-reset:Numbering1_1 0">
+        <li>
+          <p class="Numbering1">Open the Templates dialog and find the template that you want to export.</p>
+        </li>
+        <li>
+          <p class="Numbering1">Right-click the template you want to export and select the <span class="StrongEmphasis">Export</span> option from the context menu.</p>
+        </li>
+        <li>
+          <p class="Numbering1"><a id="RefHeadingToc13314256543436"></a>The Select Folder dialog opens. Navigate to the location where you want to export the template and click <span class="StrongEmphasis">Select Folder</span>. You can also rename the template.</p>
+        </li>
+      </ol>
+      <ul class="HeadingNote_1" style="counter-reset:none">
+        <li>
+          <p class="HeadingNote">Note</p>
+        </li>
+      </ul>
+      <p class="BodyTextNote">Exporting a template does not remove it from the Templates dialog. The action places a copy of the template in the location you specify.</p>
+    </div>
+    <div id="SECTOCregion">
+      <section id="TableofContents1">
+        <h1 class="ContentsHeading">Contents</h1>
+        <ul style="list-style-type:none;margin:0;padding:0">
+          <li>
+            <p class="Contents1"><span class="SectionNumber"></span><a href="#toc0">Copyright</a></p>
+          </li>
+          <li>
+            <p class="Contents2"><span class="SectionNumber"></span><a href="#toc1">Contributors</a></p>
+          </li>
+          <li>
+            <p class="Contents2"><span class="SectionNumber"></span><a href="#toc2">Feedback</a></p>
+          </li>
+          <li>
+            <p class="Contents2"><span class="SectionNumber"></span><a href="#toc3">Publication date and software version</a></p>
+          </li>
+          <li>
+            <p class="Contents2"><span class="SectionNumber"></span><a href="#toc4">Using LibreOffice on macOS</a></p>
+          </li>
+          <li>
+            <p class="Contents1"><span class="SectionNumber"></span><a href="#toc5">Introduction to styles</a></p>
+          </li>
+          <li>
+            <p class="Contents2"><span class="SectionNumber"></span><a href="#toc6">Direct formatting and style formatting</a></p>
+          </li>
+          <li>
+            <p class="Contents1"><span class="SectionNumber"></span><a href="#toc7">Calc style types</a></p>
+          </li>
+          <li>
+            <p class="Contents2"><span class="SectionNumber"></span><a href="#toc8">Cell styles</a></p>
+          </li>
+          <li>
+            <p class="Contents2"><span class="SectionNumber"></span><a href="#toc9">Drawing styles</a></p>
+          </li>
+          <li>
+            <p class="Contents2"><span class="SectionNumber"></span><a href="#toc10">Page styles</a></p>
+          </li>
+          <li>
+            <p class="Contents1"><span class="SectionNumber"></span><a href="#toc11">Applying cell styles</a></p>
+          </li>
+          <li>
+            <p class="Contents2"><span class="SectionNumber"></span><a href="#toc12">Styles menu</a></p>
+          </li>
+          <li>
+            <p class="Contents2"><span class="SectionNumber"></span><a href="#toc13">Styles deck in Sidebar</a></p>
+          </li>
+          <li>
+            <p class="Contents2"><span class="SectionNumber"></span><a href="#toc14">Fill Format mode</a></p>
+          </li>
+          <li>
+            <p class="Contents2"><span class="SectionNumber"></span><a href="#toc15">Apply Style list</a></p>
+          </li>
+          <li>
+            <p class="Contents2"><span class="SectionNumber"></span><a href="#toc16">Keyboard shortcuts</a></p>
+          </li>
+          <li>
+            <p class="Contents2"><span class="SectionNumber"></span><a href="#toc17">Applying drawing styles</a></p>
+          </li>
+          <li>
+            <p class="Contents1"><span class="SectionNumber"></span><a href="#toc18">Applying page styles</a></p>
+          </li>
+          <li>
+            <p class="Contents1"><span class="SectionNumber"></span><a href="#toc19">Creating styles</a></p>
+          </li>
+          <li>
+            <p class="Contents2"><span class="SectionNumber"></span><a href="#toc20">Cell style attributes</a></p>
+          </li>
+          <li>
+            <p class="Contents3"><span class="SectionNumber"></span><a href="#toc21">General tab</a></p>
+          </li>
+          <li>
+            <p class="Contents3"><span class="SectionNumber"></span><a href="#toc22">Numbers tab</a></p>
+          </li>
+          <li>
+            <p class="Contents3"><span class="SectionNumber"></span><a href="#toc23">Font tab</a></p>
+          </li>
+          <li>
+            <p class="Contents3"><span class="SectionNumber"></span><a href="#toc24">Font Effects tab</a></p>
+          </li>
+          <li>
+            <p class="Contents3"><span class="SectionNumber"></span><a href="#toc25">Alignment tab</a></p>
+          </li>
+          <li>
+            <p class="Contents3"><span class="SectionNumber"></span><a href="#toc26">Asian Typography tab</a></p>
+          </li>
+          <li>
+            <p class="Contents3"><span class="SectionNumber"></span><a href="#toc27">Borders tab</a></p>
+          </li>
+          <li>
+            <p class="Contents3"><span class="SectionNumber"></span><a href="#toc28">Background tab</a></p>
+          </li>
+          <li>
+            <p class="Contents3"><span class="SectionNumber"></span><a href="#toc29">Cell Protection tab</a></p>
+          </li>
+          <li>
+            <p class="Contents2"><span class="SectionNumber"></span><a href="#toc30">Resetting cell style attributes</a></p>
+          </li>
+          <li>
+            <p class="Contents2"><span class="SectionNumber"></span><a href="#toc31">Drawing style attributes</a></p>
+          </li>
+          <li>
+            <p class="Contents2"><span class="SectionNumber"></span><a href="#toc32">Page style attributes</a></p>
+          </li>
+          <li>
+            <p class="Contents3"><span class="SectionNumber"></span><a href="#toc33">General tab</a></p>
+          </li>
+          <li>
+            <p class="Contents3"><span class="SectionNumber"></span><a href="#toc34">Page tab</a></p>
+          </li>
+          <li>
+            <p class="Contents3"><span class="SectionNumber"></span><a href="#toc35">Borders and Background tabs</a></p>
+          </li>
+          <li>
+            <p class="Contents3"><span class="SectionNumber"></span><a href="#toc36">Header and Footer tabs</a></p>
+          </li>
+          <li>
+            <p class="Contents3"><span class="SectionNumber"></span><a href="#toc37">Sheet tab</a></p>
+          </li>
+          <li>
+            <p class="Contents1"><span class="SectionNumber"></span><a href="#toc38">Using themes</a></p>
+          </li>
+          <li>
+            <p class="Contents2"><span class="SectionNumber"></span><a href="#toc39">Using spreadsheet themes</a></p>
+          </li>
+          <li>
+            <p class="Contents2"><span class="SectionNumber"></span><a href="#toc40">Using document themes</a></p>
+          </li>
+          <li>
+            <p class="Contents1"><span class="SectionNumber"></span><a href="#toc41">Managing styles</a></p>
+          </li>
+          <li>
+            <p class="Contents2"><span class="SectionNumber"></span><a href="#toc42">Modifying styles</a></p>
+          </li>
+          <li>
+            <p class="Contents2"><span class="SectionNumber"></span><a href="#toc43">Renaming styles</a></p>
+          </li>
+          <li>
+            <p class="Contents2"><span class="SectionNumber"></span><a href="#toc44">Deleting styles</a></p>
+          </li>
+          <li>
+            <p class="Contents2"><span class="SectionNumber"></span><a href="#toc45">Hiding and showing cell styles</a></p>
+          </li>
+          <li>
+            <p class="Contents2"><span class="SectionNumber"></span><a href="#toc46">Filtering the list of styles</a></p>
+          </li>
+          <li>
+            <p class="Contents1"><span class="SectionNumber"></span><a href="#toc47">Introduction to Templates</a></p>
+          </li>
+          <li>
+            <p class="Contents1"><span class="SectionNumber"></span><a href="#toc48">Using a template to create a spreadsheet</a></p>
+          </li>
+          <li>
+            <p class="Contents2"><span class="SectionNumber"></span><a href="#toc49">Creating a spreadsheet from the Templates dialog</a></p>
+          </li>
+          <li>
+            <p class="Contents2"><span class="SectionNumber"></span><a href="#toc50">Creating a spreadsheet from a template in the Start Center</a></p>
+          </li>
+          <li>
+            <p class="Contents1"><span class="SectionNumber"></span><a href="#toc51">Creating a template</a></p>
+          </li>
+          <li>
+            <p class="Contents1"><span class="SectionNumber"></span><a href="#toc52">Editing a template</a></p>
+          </li>
+          <li>
+            <p class="Contents2"><span class="SectionNumber"></span><a href="#toc53">Updating styles from a changed template</a></p>
+          </li>
+          <li>
+            <p class="Contents1"><span class="SectionNumber"></span><a href="#toc54">Changing the template assigned to a document</a></p>
+          </li>
+          <li>
+            <p class="Contents1"><span class="SectionNumber"></span><a href="#toc55">Adding templates obtained from other sources</a></p>
+          </li>
+          <li>
+            <p class="Contents2"><span class="SectionNumber"></span><a href="#toc56">Installing templates</a></p>
+          </li>
+          <li>
+            <p class="Contents2"><span class="SectionNumber"></span><a href="#toc57">Installing collections of templates</a></p>
+          </li>
+          <li>
+            <p class="Contents1"><span class="SectionNumber"></span><a href="#toc58">Setting the default template</a></p>
+          </li>
+          <li>
+            <p class="Contents2"><span class="SectionNumber"></span><a href="#toc59">Setting a template as the default</a></p>
+          </li>
+          <li>
+            <p class="Contents2"><span class="SectionNumber"></span><a href="#toc60">Resetting the default template</a></p>
+          </li>
+          <li>
+            <p class="Contents1"><span class="SectionNumber"></span><a href="#toc61">Organizing templates</a></p>
+          </li>
+          <li>
+            <p class="Contents2"><span class="SectionNumber"></span><a href="#toc62">Creating a template category</a></p>
+          </li>
+          <li>
+            <p class="Contents2"><span class="SectionNumber"></span><a href="#toc63">Deleting a template category</a></p>
+          </li>
+          <li>
+            <p class="Contents2"><span class="SectionNumber"></span><a href="#toc64">Moving a template</a></p>
+          </li>
+          <li>
+            <p class="Contents2"><span class="SectionNumber"></span><a href="#toc65">Deleting a template</a></p>
+          </li>
+          <li>
+            <p class="Contents2"><span class="SectionNumber"></span><a href="#toc66">Exporting a template</a></p>
+          </li>
+        </ul>
+      </section>
+      <!-- empty paragraph -->
+    </div>
+    <div id="SECBOOKTOCregion">
+      <!-- empty paragraph -->
+    </div>
+    <div id="SECIMPRINTregion">
+      <!-- empty paragraph -->
+    </div>
+    <div id="SECSEARCHregion">
+      <!-- empty paragraph -->
+    </div>
+    <div id="SECNAVregion">
+      <!-- empty paragraph -->
+    </div>
+    <div id="SECDONATIONregion">
+      <!-- empty paragraph -->
+    </div>
+    <!-- empty paragraph -->
+  </body>
+</html>

@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-31T13:54:26+00:00.
+Comprobado en WordPress: 2026-10-31T14:27:03+00:00.
 
-**619/840 terminadas · 0 en curso · 221 pendientes.**
+**622/840 terminadas · 0 en curso · 218 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -633,9 +633,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 619 | 42/56 · 4/15 | E4.10.04 | Atención: el recurso que todos quieren capturar | terminada | 3/3 | [Leer](https://moevec.org/blog/atencion-recurso-capturado/) |
 | 620 | 42/56 · 5/15 | E4.10.05 | Urgente frente a importante: priorizar sin agotarse | terminada | 3/3 | [Leer](https://moevec.org/blog/urgente-frente-a-importante/) |
 | 621 | 42/56 · 6/15 | E4.10.06 | Burocracia: el impuesto en tiempo que pagan los emprendedores | terminada | 3/3 | [Leer](https://moevec.org/blog/burocracia-impuesto-en-tiempo/) |
-| 622 | 42/56 · 7/15 | E4.10.07 | Tiempo libre y productividad: la evidencia sobre la semana laboral | pendiente | 0/3 | — |
-| 623 | 42/56 · 8/15 | E4.10.08 | Colas, apagones y escasez: el tiempo robado en economías planificadas | pendiente | 0/3 | — |
-| 624 | 42/56 · 9/15 | E4.10.09 | Automatizar para ganar tiempo: herramientas para pequeños negocios | pendiente | 0/3 | — |
+| 622 | 42/56 · 7/15 | E4.10.07 | Tiempo libre y productividad: la evidencia sobre la semana laboral | terminada | 3/3 | [Leer](https://moevec.org/blog/tiempo-libre-y-productividad/) |
+| 623 | 42/56 · 8/15 | E4.10.08 | Colas, apagones y escasez: el tiempo robado en economías planificadas | terminada | 3/3 | [Leer](https://moevec.org/blog/colas-apagones-tiempo-robado/) |
+| 624 | 42/56 · 9/15 | E4.10.09 | Automatizar para ganar tiempo: herramientas para pequeños negocios | terminada | 3/3 | [Leer](https://moevec.org/blog/automatizar-para-ganar-tiempo/) |
 | 625 | 42/56 · 10/15 | E4.10.10 | El tiempo de la familia: no es tiempo perdido | pendiente | 0/3 | — |
 | 626 | 42/56 · 11/15 | E4.10.11 | Auditoría de tu tiempo: una semana registrando todo | pendiente | 0/3 | — |
 | 627 | 42/56 · 12/15 | E4.10.12 | Rutina del emprendedor con empleo: horarios realistas | pendiente | 0/3 | — |
