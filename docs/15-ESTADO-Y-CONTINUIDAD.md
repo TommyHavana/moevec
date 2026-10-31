@@ -2,13 +2,13 @@
 
 ## Estado actual
 
-**592/840 terminadas, 1776 imágenes originales públicas, 0 en curso o borradores WordPress y 248 pendientes**. Diferenciación de Valor9/15; 37 tandas completas.
+**595/840 terminadas, 1785 imágenes originales públicas, 0 en curso o borradores WordPress y 245 pendientes**. Diferenciación de Valor12/15; 37 tandas completas.
 
 Fuente activa `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Inicio586; 6 nuevas entradas y18originales públicos.
+Inicio586; 9 nuevas entradas y27originales públicos.
 
 | Global | ID | URL | Imágenes |
 |---|---|---|---|
@@ -18,18 +18,21 @@ Inicio586; 6 nuevas entradas y18originales públicos.
 |592|E4.8.07|https://moevec.org/blog/innovacion-incremental/|3/3|
 |593|E4.8.08|https://moevec.org/blog/diferenciacion-mercados-informales/|3/3|
 |594|E4.8.09|https://moevec.org/blog/precio-por-valor/|3/3|
+|595|E4.8.10|https://moevec.org/blog/competir-con-gigantes/|3/3|
+|596|E4.8.11|https://moevec.org/blog/ejercicio-encuentra-tu-diferencia/|3/3|
+|597|E4.8.12|https://moevec.org/blog/diferenciacion-profesionales-independientes/|3/3|
 
 ## Revisión del último bloque
 
-Fuentes y alcances por artículo en research-notes.md y source-review.json. 592: Imai y Christensen con alcance primario explícito; incremental/radical distinto de disrupción. 593: OIT R204 como recomendación, no trámite nacional; fiado sin garantía y dos ejemplos hipotéticos identificados. 594: precio de la oferta, no valor humano; costes, alternativas y decisiones voluntarias. Nueve originales nuevos.
+Fuentes y alcances por artículo en research-notes.md y source-review.json. 595: ventajas del pequeño por comprobar; Gladwell mediante ficha, Stigler primera página, OCDE como percepciones de consultas. 596: una tarde prepara hipótesis, tres entrevistas sin representatividad universal. 597: muestras y referencias honestas, sin clientes ni resultados inventados. Nueve imágenes originales nuevas. Advertencia SEO: salida WordPress con dos meta descripciones idénticas; textos y títulos correctos. Incidencia de plantilla registrada, fuera de esta producción.
 
 ## Continuación exacta
 
-Continuar **595–597 / E4.8.10–E4.8.12**, Trabajo → Diferenciación de Valor. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **598–600**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Continuar **598–600 / E4.8.13–E4.8.15**, Trabajo → Diferenciación de Valor. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **601–603**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
 
 ## Copias y capacidad
 
-VPS `/data/mee-backups/produccion-840-incremento-592-594-20261031`: SQL23273240B, 66medios nuevos. Cadena186más base, huecos501/512. Hashes y miembros comprobados; sin nueva prueba de arranque de restauración. ZIP local incremental y prueba de entrega externos, con toda la cadena anterior conservada.
+VPS `/data/mee-backups/produccion-840-incremento-595-597-20261031`: SQL23368860B, 66medios nuevos. Cadena187más base, huecos501/512. Hashes y miembros comprobados; sin nueva prueba de arranque de restauración. ZIP local incremental y prueba de entrega externos, con toda la cadena anterior conservada.
 
 Capacidad local recuperada. Comprobar espacio antes de cada generación y copia; capacidad recuperada comprobada en esta ejecución; registro de entrega anterior y referencia de Git recuperados. Umbral operativo200MiB antes de generar, y copias proporcionales con margen calculado; conservar todas las copias y originales. Automatización del mismo chat cada tres minutos, según petición del fundador.
 

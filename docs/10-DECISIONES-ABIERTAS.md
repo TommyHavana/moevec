@@ -1605,3 +1605,13 @@ Fuentes y alcances por artículo en research-notes.md y source-review.json. 592:
 
 Continuar **595–597 / E4.8.10–E4.8.12**, Trabajo → Diferenciación de Valor. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **598–600**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
 Automatización cada tres minutos ya configurada. No se han borrado copias ni originales.
+
+
+## Continuación editorial595-597 ·31/10/2026
+
+**595/840 terminadas, 1785 imágenes originales públicas, 0 en curso o borradores WordPress y 245 pendientes**. Diferenciación de Valor12/15; 37 tandas completas.
+
+Fuentes y alcances por artículo en research-notes.md y source-review.json. 595: ventajas del pequeño por comprobar; Gladwell mediante ficha, Stigler primera página, OCDE como percepciones de consultas. 596: una tarde prepara hipótesis, tres entrevistas sin representatividad universal. 597: muestras y referencias honestas, sin clientes ni resultados inventados. Nueve imágenes originales nuevas. Advertencia SEO: salida WordPress con dos meta descripciones idénticas; textos y títulos correctos. Incidencia de plantilla registrada, fuera de esta producción.
+
+Continuar **598–600 / E4.8.13–E4.8.15**, Trabajo → Diferenciación de Valor. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **601–603**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Automatización cada tres minutos ya configurada. No se han borrado copias ni originales.

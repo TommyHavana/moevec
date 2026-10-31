@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-31T11:14:44+00:00.
+Comprobado en WordPress: 2026-10-31T11:28:58+00:00.
 
-**592/840 terminadas · 0 en curso · 248 pendientes.**
+**595/840 terminadas · 0 en curso · 245 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -606,9 +606,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 592 | 40/56 · 7/15 | E4.8.07 | Innovación incremental: mejorar un poco cada vez | terminada | 3/3 | [Leer](https://moevec.org/blog/innovacion-incremental/) |
 | 593 | 40/56 · 8/15 | E4.8.08 | Diferenciación en mercados informales de la región | terminada | 3/3 | [Leer](https://moevec.org/blog/diferenciacion-mercados-informales/) |
 | 594 | 40/56 · 9/15 | E4.8.09 | Precio por valor: cobrar según lo que vales para el cliente | terminada | 3/3 | [Leer](https://moevec.org/blog/precio-por-valor/) |
-| 595 | 40/56 · 10/15 | E4.8.10 | Competir con gigantes: estrategias del pequeño frente al grande | pendiente | 0/3 | — |
-| 596 | 40/56 · 11/15 | E4.8.11 | Ejercicio: encuentra tu diferencia en una tarde | pendiente | 0/3 | — |
-| 597 | 40/56 · 12/15 | E4.8.12 | Diferenciación para profesionales independientes | pendiente | 0/3 | — |
+| 595 | 40/56 · 10/15 | E4.8.10 | Competir con gigantes: estrategias del pequeño frente al grande | terminada | 3/3 | [Leer](https://moevec.org/blog/competir-con-gigantes/) |
+| 596 | 40/56 · 11/15 | E4.8.11 | Ejercicio: encuentra tu diferencia en una tarde | terminada | 3/3 | [Leer](https://moevec.org/blog/ejercicio-encuentra-tu-diferencia/) |
+| 597 | 40/56 · 12/15 | E4.8.12 | Diferenciación para profesionales independientes | terminada | 3/3 | [Leer](https://moevec.org/blog/diferenciacion-profesionales-independientes/) |
 | 598 | 40/56 · 13/15 | E4.8.13 | Productos cubanos con identidad: diferenciación desde el origen | pendiente | 0/3 | — |
 | 599 | 40/56 · 14/15 | E4.8.14 | Copiar bien: inspiración frente a plagio | pendiente | 0/3 | — |
 | 600 | 40/56 · 15/15 | E4.8.15 | Medir si tu diferenciación funciona | pendiente | 0/3 | — |
