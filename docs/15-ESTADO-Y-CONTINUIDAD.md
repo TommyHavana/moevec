@@ -1,32 +1,28 @@
-# Estado de MEE y continuidad · 31/10/2026 · Europe/Madrid
+# Estado de MEE y continuidad ·31/10/2026 ·Europe/Madrid
 
 ## Estado actual
 
-**532/840 terminadas, 1596 imágenes originales públicas, 0 en curso o borradores WordPress y 308 pendientes**. Riesgo Consciente 14/15; Inversión Personal 14/15; Escalabilidad Social 9/15; 33 tandas completas.
+**535/840 terminadas, 1605 imágenes originales públicas, 0 en curso o borradores WordPress y 305 pendientes**. Escalabilidad Social12/15, Riesgo Consciente14/15, Inversión Personal14/15;33tandas completas.
 
-Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
+Fuente activa `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Inicio: 520 completas. Publicadas 523–534: doce entradas y 36 imágenes públicas.
+Inicio532;535–537 completas.
 
-Doce publicaciones nuevas y 36 originales públicos, globals 523–534. Una publicación y tres adjuntos por ID, categorías y etiquetas del plan. URL 200, H1 único, canonical, indexabilidad declarada, Article, índice, sitemap, cinco enlaces internos y jerarquía visible/BreadcrumbList comprobados. Dimensiones, bytes, alt, hashes y variantes correctos. Taxonomía 122 nodos y siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva.
+Tres nuevas entradas 535–537, nueve originales públicos. URL200, H1, canonical, indexabilidad declarada, Article, índice, sitemap, enlaces existentes y BreadcrumbList comprobados; imágenes3/3 por ID, hashes y variantes. Una publicación y tres adjuntos por ID, categorías y etiquetas del plan. Taxonomía122/7 conservada.
 
 ## Revisión
 
-523: WEO octubre de 2026, AREAER y WJP 2026; preguntas sobre riesgo país sin cifras nacionales ni normas cambiarias sin comprobar. 524: CFPB y FCAC; reserva distinta de seguro contratado, 3–6 meses como orientación canadiense contextual. 525: Klein y Kahneman/Klein 2009, abstract y primera página; siete preguntas como guía propia de MEE, sin validación universal. 526: funciones de MEE, Bastos ensayo, Kirzner prefacio/pp. 1–2 y adaptación Drucker; sin secuencia obligatoria ni jerarquía de dignidad. 527: OCDE 2018, figura 1.5 y nota, España 4 / Brasil 9 / Colombia 11 como simulación histórica, Banco Mundial 2018, OCDE 2025 con PISA 2022; sin destino personal ni causalidad. 528: presentación Gerber, práctica EMyth y adaptación Drucker; procesos como orientación, sin garantía de autonomía. 529: TGSS, BOE consolidado 21/10/2026 art. 1.1, B-READY metodología 2025 y OIT R208; alcance España y aplicación nacional separada. 530: CNMV dividendo, IRS categoría fiscal estadounidense y ficha Stanley/Danko, sin libro íntegro ni ingreso garantizado. 531: OCDE 2023 99% como proporción empresarial y redes, Census 2010 con datos 1976–2005 y OIT; sin multiplicador, causalidad o beneficio automático.
-
-532: resumen e introducción publicados de Haltiwanger/Jarmin/Miranda 2013, Estados Unidos 1976–2005; metodología DynEmp con núcleo 2001–2015, sin cifras agregadas ambiguas como medición de 2026. 533: INE DIRCE 01/01/2025 con denominadores separados; RD 901/2020 artículos 2–3, consolidado 18/05/2023; resumen AER 2016 Francia 1995–2007, sin magnitudes trasladadas a España; Banco de España 2015 pp. 125–128 como contexto histórico, sin normas ni Doing Business vigentes. 534: RD 201/2010 artículos 2–3 y registro derogado; España veinte días hábiles distintos de catorce días naturales del ámbito estadounidense, FTC guía y pasaje de Compliance Guide. Sin rentabilidad garantizada, marca recomendada ni antiguo registro como control vigente.
-
-Paso 5 del prompt: 900–1300 palabras principales, que sustituye A3.
+535: DL88 concordado de septiembre2026, art4,11–20,54–55; DL133 y Resolución2/2026; D160/2026 art1–5 y finales, obtenido nuevamente y hash coincidente. No techo privado universal100 ni Decreto107 vigente; sin tasas fiscales ni asesoramiento individual. 536: presentación Gerber y práctica EMyth, extracto editorial Gawande capítulo1; sin libro íntegro ni extrapolación clínica, plantilla y prueba propias MEE. 537: Cedefop entrada apprenticeship, Estatuto art11 y RD1065/2025 arts1–4,9,12–14,transitorios; alternancia y práctica profesional distintas, sin garantía de permanencia o sociedad. Enlace correcto a Economía Compartida → Escalabilidad con Autonomía.
 
 ## Continuación exacta
 
-Reanudar **535–537 / E4.4.10–E4.4.12**, Trabajo → Escalabilidad Social, tanda 36/56, entradas 10–12/15. Nueve originales WebP completos e inspeccionados, briefs, prompts, procedencia y notas conservados. Faltan investigación específica, textos y revisión completa. Después, 538–540 / E4.4.13–E4.4.15. **501 / E4.2.06** y **512 / E4.3.02** siguen retenidas por título, con texto y tres imágenes cada una, sin publicación; no repetir las preguntas anteriores ni interpretar silencio como aprobación. Continuar trabajo independiente.
+Continuar **538–540 / E4.4.13–E4.4.15**, Trabajo → Escalabilidad Social, tanda 36/56, entradas 13–15/15. Investigación inicial de CNMV, Atlanta Fed y Registradores; faltan expedientes, redacción, revisión e imágenes. Después, 541–543 / E4.5.01–E4.5.03, Selección de Socios. 501 / E4.2.06 y 512 / E4.3.02 siguen retenidas por sus títulos, con texto y 3 imágenes cada una, sin publicación. Preguntas previas pendientes; no repetirlas ni interpretar silencio como aprobación.
 
 ## Copias y límites
 
-SQL y medios finales: `/data/mee-backups/produccion-840-incremento-532-534-20261031`. 264 medios nuevos en cuatro incrementos; cadena 166 más base, huecos 501/512. Hashes y miembros comprobados, sin nueva prueba de arranque. Copias locales incrementales 523–531 y 532–534; fuente privada al cierre. Detalle: `docs/produccion/2026-10-31-bloques-523-534.md`. WordPress determina el estado real y la producción continúa autorizada.
+VPS `/data/mee-backups/produccion-840-incremento-535-537-20261031`; SQL y66medios nuevos. Cadena167más base; hash y miembros comprobados. Sin nueva restauración arrancada. Detalle en docs/produccion/2026-10-31-bloque-535-537.md y respaldo535–537.
 
 ## Página de apoyo, donaciones y publicidad · 29/10/2026
 

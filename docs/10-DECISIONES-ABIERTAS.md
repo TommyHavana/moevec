@@ -1412,3 +1412,12 @@ Decisiones editoriales: no usar el Registro de Franquiciadores antiguo como vige
 Reanudar **535–537 / E4.4.10–E4.4.12**, Trabajo → Escalabilidad Social, tanda 36/56, entradas 10–12/15. Nueve originales WebP completos e inspeccionados, briefs, prompts, procedencia y notas conservados. Faltan investigación específica, textos y revisión completa. Después, 538–540 / E4.4.13–E4.4.15. **501 / E4.2.06** y **512 / E4.3.02** siguen retenidas por título, con texto y tres imágenes cada una, sin publicación; no repetir las preguntas anteriores ni interpretar silencio como aprobación. Continuar trabajo independiente.
 
 Sin decisiones nuevas del fundador ni cambios de arquitectura o taxonomía.
+
+
+## Producción535–537 ·31/10/2026
+
+535/840 terminadas, 1605 imágenes originales públicas, 0 en curso o borradores WordPress y 305 pendientes.
+
+535: DL88 concordado de septiembre2026, art4,11–20,54–55; DL133 y Resolución2/2026; D160/2026 art1–5 y finales, obtenido nuevamente y hash coincidente. No techo privado universal100 ni Decreto107 vigente; sin tasas fiscales ni asesoramiento individual. 536: presentación Gerber y práctica EMyth, extracto editorial Gawande capítulo1; sin libro íntegro ni extrapolación clínica, plantilla y prueba propias MEE. 537: Cedefop entrada apprenticeship, Estatuto art11 y RD1065/2025 arts1–4,9,12–14,transitorios; alternancia y práctica profesional distintas, sin garantía de permanencia o sociedad. Enlace correcto a Economía Compartida → Escalabilidad con Autonomía.
+
+Continuar **538–540 / E4.4.13–E4.4.15**, Trabajo → Escalabilidad Social, tanda 36/56, entradas 13–15/15. Investigación inicial de CNMV, Atlanta Fed y Registradores; faltan expedientes, redacción, revisión e imágenes. Después, 541–543 / E4.5.01–E4.5.03, Selección de Socios. 501 / E4.2.06 y 512 / E4.3.02 siguen retenidas por sus títulos, con texto y 3 imágenes cada una, sin publicación. Preguntas previas pendientes; no repetirlas ni interpretar silencio como aprobación.

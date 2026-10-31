@@ -1,36 +1,36 @@
 {
   "automation_id": "producci-n-editorial-mee-840",
   "mode": "continuous_blocks_of_three",
-  "completed_at_start": 520,
+  "completed_at_start": 532,
   "current_block": [
-    535,
-    536,
-    537
-  ],
-  "current_ids": [
-    "E4.4.10",
-    "E4.4.11",
-    "E4.4.12"
-  ],
-  "area": "trabajo",
-  "topic": "escalabilidad-social",
-  "phase": "prepared_535_537_titles_pending_501_512",
-  "next_after_block": [
     538,
     539,
     540
   ],
-  "updated_at": "2026-10-31T05:02:12.685738+00:00",
-  "last_completed_block": [
-    532,
-    533,
-    534
+  "current_ids": [
+    "E4.4.13",
+    "E4.4.14",
+    "E4.4.15"
   ],
-  "notes": "532/840 terminadas, 1596 imágenes originales públicas, 0 en curso o borradores WordPress y 308 pendientes. Riesgo Consciente 14/15; Inversión Personal 14/15; Escalabilidad Social 9/15; 33 tandas completas. Reanudar **535–537 / E4.4.10–E4.4.12**, Trabajo → Escalabilidad Social, tanda 36/56, entradas 10–12/15. Nueve originales WebP completos e inspeccionados, briefs, prompts, procedencia y notas conservados. Faltan investigación específica, textos y revisión completa. Después, 538–540 / E4.4.13–E4.4.15. **501 / E4.2.06** y **512 / E4.3.02** siguen retenidas por título, con texto y tres imágenes cada una, sin publicación; no repetir las preguntas anteriores ni interpretar silencio como aprobación. Continuar trabajo independiente.",
+  "area": "trabajo",
+  "topic": "escalabilidad-social",
+  "phase": "research_538_540",
+  "next_after_block": [
+    541,
+    542,
+    543
+  ],
+  "updated_at": "2026-10-31T05:15:43.127217+00:00",
+  "last_completed_block": [
+    535,
+    536,
+    537
+  ],
+  "notes": "535/840 terminadas, 1605 imágenes originales públicas, 0 en curso o borradores WordPress y 305 pendientes. Continuar **538–540 / E4.4.13–E4.4.15**, Trabajo → Escalabilidad Social, tanda 36/56, entradas 13–15/15. Investigación inicial de CNMV, Atlanta Fed y Registradores; faltan expedientes, redacción, revisión e imágenes. Después, 541–543 / E4.5.01–E4.5.03, Selección de Socios. 501 / E4.2.06 y 512 / E4.3.02 siguen retenidas por sus títulos, con texto y 3 imágenes cada una, sin publicación. Preguntas previas pendientes; no repetirlas ni interpretar silencio como aprobación.",
   "last_backup": {
-    "directory": "/data/mee-backups/produccion-840-incremento-532-534-20261031",
-    "completed_articles": 532,
-    "max_published_number": 534,
+    "directory": "/data/mee-backups/produccion-840-incremento-535-537-20261031",
+    "completed_articles": 535,
+    "max_published_number": 537,
     "published_ranges": [
       [
         1,
@@ -42,46 +42,37 @@
       ],
       [
         513,
-        534
+        537
       ]
     ],
     "unpublished_gaps": [
       501,
       512
     ],
-    "sql_bytes": 21347268,
+    "sql_bytes": 21445497,
     "upload_files": 66,
-    "uploads_bytes": 2687973,
+    "uploads_bytes": 2922097,
     "archives": [
       {
-        "file": "uploads-532-534.tar.gz",
+        "file": "uploads-535-537.tar.gz",
         "files": 66,
-        "bytes": 2687973
+        "bytes": 2922097
       }
     ],
     "checksums_verified": true,
     "archive_verified": true,
-    "overlays": 166,
+    "overlays": 167,
     "chain_contiguous": false,
     "published_media_coverage_complete": true,
     "restore_test": false
   },
-  "last_local_backup": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Editorial_532-534_2026-10-31_incremental.zip",
+  "last_local_backup": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Editorial_535-537_2026-10-31_incremental.zip",
   "completed_this_run": [
-    523,
-    524,
-    525,
-    526,
-    527,
-    528,
-    529,
-    530,
-    531,
-    532,
-    533,
-    534
+    535,
+    536,
+    537
   ],
-  "run_started_with_completed": 520,
+  "run_started_with_completed": 532,
   "local_preparations": [
     {
       "number": 501,
@@ -102,46 +93,16 @@
       "phase": "title_review_pending",
       "sources_verified": false,
       "title_checked": false
-    },
-    {
-      "number": 535,
-      "id": "E4.4.10",
-      "images": 3,
-      "images_visually_checked": true,
-      "article_complete": false,
-      "sources_verified": false,
-      "published": false,
-      "phase": "research_preparation_images_ready"
-    },
-    {
-      "number": 536,
-      "id": "E4.4.11",
-      "images": 3,
-      "images_visually_checked": true,
-      "article_complete": false,
-      "sources_verified": false,
-      "published": false,
-      "phase": "research_preparation_images_ready"
-    },
-    {
-      "number": 537,
-      "id": "E4.4.12",
-      "images": 3,
-      "images_visually_checked": true,
-      "article_complete": false,
-      "sources_verified": false,
-      "published": false,
-      "phase": "research_preparation_images_ready"
     }
   ],
   "local_backup_kind": "incremental",
   "local_backup_base": {
-    "path": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Editorial_523-531_2026-10-31_incremental.zip",
-    "sha256": "59355743a118f3a533768c8fec6e90bed53d9787e93b27d0b880030b90c17fad"
+    "path": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Editorial_532-534_2026-10-31_incremental.zip",
+    "sha256": "3827bde95d780a970217f616a4b8e612b231f519b246013aae83bad91c737a19"
   },
   "storage_check": {
-    "checked_at": "2026-10-31T05:02:45.775343+00:00",
-    "free_bytes": 6891847680,
+    "checked_at": "2026-10-31T05:15:56.921197+00:00",
+    "free_bytes": 5853294592,
     "originals_and_backups_preserved": true
   },
   "last_run_closed_at_madrid": "2026-10-31",
@@ -170,18 +131,9 @@
     }
   ],
   "last_published_numbers": [
-    523,
-    524,
-    525,
-    526,
-    527,
-    528,
-    529,
-    530,
-    531,
-    532,
-    533,
-    534
+    535,
+    536,
+    537
   ],
   "last_partial_block": {
     "numbers": [
