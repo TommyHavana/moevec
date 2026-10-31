@@ -1,6 +1,6 @@
 # Backlog de MEE
 
-Último estado: **535/840 terminadas, 1605 imágenes originales públicas, 0 en curso o borradores WordPress y 305 pendientes**. Escalabilidad Social12/15. Continuar **538–540 / E4.4.13–E4.4.15**, Trabajo → Escalabilidad Social, tanda 36/56, entradas 13–15/15. Investigación inicial de CNMV, Atlanta Fed y Registradores; faltan expedientes, redacción, revisión e imágenes. Después, 541–543 / E4.5.01–E4.5.03, Selección de Socios. 501 / E4.2.06 y 512 / E4.3.02 siguen retenidas por sus títulos, con texto y 3 imágenes cada una, sin publicación. Preguntas previas pendientes; no repetirlas ni interpretar silencio como aprobación.
+Último estado: **538/840 terminadas, 1614 imágenes originales públicas, 0 en curso o borradores WordPress y 302 pendientes**. Escalabilidad Social 15/15. Continuar **541–543 / E4.5.01–E4.5.03**, Trabajo → Selección de Socios, tanda 37/56, entradas 1–3/15. Lecturas iniciales de Wasserman conservables desde fuentes primarias; faltan expedientes, imágenes, texto y revisión. Después, 544–546 / E4.5.04–E4.5.06. 501 / E4.2.06 y 512 / E4.3.02 siguen retenidas por sus títulos, con texto y 3 imágenes cada una, sin publicación. Preguntas previas pendientes; no repetirlas ni interpretar silencio como aprobación.
 
 
 Historial anterior: producción comprobada tras el bloque 4–6: 6/840 terminadas. En elaboración local: 7–9 con nueve imágenes propias; todavía no cuentan como publicadas. Consultar siempre WordPress y el registro 24 para el estado más reciente.

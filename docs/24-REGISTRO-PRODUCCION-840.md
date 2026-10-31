@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-31T05:14:05+00:00.
+Comprobado en WordPress: 2026-10-31T05:27:45+00:00.
 
-**535/840 terminadas · 0 en curso · 305 pendientes.**
+**538/840 terminadas · 0 en curso · 302 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -549,9 +549,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 535 | 36/56 · 10/15 | E4.4.10 | Del cuentapropismo a la mipyme: el salto en Cuba | terminada | 3/3 | [Leer](https://moevec.org/blog/cuentapropismo-a-mipyme-cuba/) |
 | 536 | 36/56 · 11/15 | E4.4.11 | Cómo documentar tu negocio para que funcione sin ti | terminada | 3/3 | [Leer](https://moevec.org/blog/documentar-negocio-sin-ti/) |
 | 537 | 36/56 · 12/15 | E4.4.12 | Contratar aprendices: formar a quien te sustituirá (y crecerá) | terminada | 3/3 | [Leer](https://moevec.org/blog/contratar-aprendices/) |
-| 538 | 36/56 · 13/15 | E4.4.13 | Primer paso como inversor: invertir en lo que conoces | pendiente | 0/3 | — |
-| 539 | 36/56 · 14/15 | E4.4.14 | Techo salarial: cuándo dejar el empleo y cuándo no | pendiente | 0/3 | — |
-| 540 | 36/56 · 15/15 | E4.4.15 | Historias de escalada documentadas: cómo verificar un caso de éxito | pendiente | 0/3 | — |
+| 538 | 36/56 · 13/15 | E4.4.13 | Primer paso como inversor: invertir en lo que conoces | terminada | 3/3 | [Leer](https://moevec.org/blog/primer-paso-como-inversor/) |
+| 539 | 36/56 · 14/15 | E4.4.14 | Techo salarial: cuándo dejar el empleo y cuándo no | terminada | 3/3 | [Leer](https://moevec.org/blog/techo-salarial-dejar-el-empleo/) |
+| 540 | 36/56 · 15/15 | E4.4.15 | Historias de escalada documentadas: cómo verificar un caso de éxito | terminada | 3/3 | [Leer](https://moevec.org/blog/verificar-caso-de-exito/) |
 | 541 | 37/56 · 1/15 | E4.5.01 | Elegir socio: tan importante como elegir el negocio | pendiente | 0/3 | — |
 | 542 | 37/56 · 2/15 | E4.5.02 | Habilidades complementarias: el socio que hace lo que tú no sabes | pendiente | 0/3 | — |
 | 543 | 37/56 · 3/15 | E4.5.03 | Valores compartidos: lo que no se ve en un currículum | pendiente | 0/3 | — |

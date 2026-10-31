@@ -1,0 +1,63 @@
+{
+  "checked_on": "2026-10-31",
+  "sources": [
+    {
+      "name": "Federal Reserve Bank of Atlanta, Wage Growth Tracker, actualización 08/10/2026",
+      "url": "https://www.atlantafed.org/research-and-data/data/wage-growth-tracker",
+      "scope": "Actualización septiembre2026: switchers4,7%,stayers3,4%,media móvil3meses de medianas variación nominal horaria12meses; CPS. Lectura metodología y definición switcher: ocupación/sector respecto al año anterior o empleador/funciones últimos3meses, movilidad geográfica limitada; sesgo muestra emparejada y series sin ponderar por defecto. No causalidad ni resultado individual ni traslado a España/LatAm. Lectura parcial, no descarga de hoja ni reproducción de serie. GallupF053 no se usa como medición salarial; se omiten estadísticas de engagement.",
+      "public_scope": "Septiembre2026, Estados Unidos: actualización y metodología. Medias móviles de tres meses; comparación descriptiva, sin efecto causal ni extrapolación individual."
+    }
+  ],
+  "archived_files": [
+    {
+      "file": "sources/atlanta-wgt.html",
+      "bytes": 1336141,
+      "sha256": "ce113177951c7233f47bafc5d44f02cb1d5d4b511c232f937f0fff4e6c804575"
+    },
+    {
+      "file": "sources/atlanta-wgt.html.access.json",
+      "bytes": 122,
+      "sha256": "2c5be93e795d9b91f8d3261ecd9a18e4f40c20cd51a2c5cd843339d7a9a6b40a"
+    },
+    {
+      "file": "sources/reading-scope.json",
+      "bytes": 1052,
+      "sha256": "8341fa047ff9f130af98d3dd50c527351c61cb08beb58a6c3b7b3e1241d3198f"
+    },
+    {
+      "file": "sources/reading-status.json",
+      "bytes": 187,
+      "sha256": "260e3db8685b2f57f4028fc21e332a7ee8136df136c02e07e47583e70d254415"
+    }
+  ],
+  "omitted_claims": [
+    "Cambiar causa una subida para cualquiera",
+    "Prima salarial española inferida de Estados Unidos",
+    "Job-switcher equivale únicamente a renuncia voluntaria",
+    "Cintas conceptuales representan serie de datos",
+    "Antigüedad y compatibilidad de proyectos sin revisión local",
+    "Gallup como fuente de salarios"
+  ],
+  "text_checks": {
+    "main_words": 1088,
+    "opening_words": 52,
+    "faq_words": [
+      48,
+      49,
+      51
+    ],
+    "seo_title_characters": 51,
+    "description_characters": 152,
+    "two_hypothetical_examples": true,
+    "keyword_h2": true
+  },
+  "scope": "Lecturas parciales identificadas. Accesos locales 403/404 documentados; lectura primaria en navegador separada. Descarga no equivale a lectura completa.",
+  "image_review": "Nueve originales propios image_gen generados para 538–540, inspeccionados individualmente y en mosaico. Formatos, tamaños, recortes y alts comprobados. Escenas conceptuales de inversión, decisión laboral y comprobación documental; sin representar datos ni personas documentales.",
+  "final_verification": {
+    "checked_at": "2026-10-31T05:28:41.066372+00:00",
+    "published_url": "https://moevec.org/blog/techo-salarial-dejar-el-empleo/",
+    "public_checks": "verification.json",
+    "wordpress_registry_words": 1168,
+    "body_sha256": "1dc4dc0d7c96810cbf621e8d19ee16bb0964e3518f4923fb1d8d54e85fb5494c"
+  }
+}

@@ -2,27 +2,27 @@
 
 ## Estado actual
 
-**535/840 terminadas, 1605 imágenes originales públicas, 0 en curso o borradores WordPress y 305 pendientes**. Escalabilidad Social12/15, Riesgo Consciente14/15, Inversión Personal14/15;33tandas completas.
+**538/840 terminadas, 1614 imágenes originales públicas, 0 en curso o borradores WordPress y 302 pendientes**. Escalabilidad Social 15/15, Riesgo Consciente14/15, Inversión Personal14/15;34 tandas completas.
 
 Fuente activa `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Inicio532;535–537 completas.
+Inicio 532; 535–540 completas, seis entradas y dieciocho originales públicos.
 
-Tres nuevas entradas 535–537, nueve originales públicos. URL200, H1, canonical, indexabilidad declarada, Article, índice, sitemap, enlaces existentes y BreadcrumbList comprobados; imágenes3/3 por ID, hashes y variantes. Una publicación y tres adjuntos por ID, categorías y etiquetas del plan. Taxonomía122/7 conservada.
+Tres nuevas entradas 538–540, nueve originales públicos. URL200, H1, canonical, indexabilidad declarada, Article, índice, sitemap, enlaces existentes y BreadcrumbList comprobados; imágenes3/3 por ID, hashes y variantes. Una publicación y tres adjuntos por ID, categorías y etiquetas del plan. Taxonomía122/7 conservada.
 
 ## Revisión
 
-535: DL88 concordado de septiembre2026, art4,11–20,54–55; DL133 y Resolución2/2026; D160/2026 art1–5 y finales, obtenido nuevamente y hash coincidente. No techo privado universal100 ni Decreto107 vigente; sin tasas fiscales ni asesoramiento individual. 536: presentación Gerber y práctica EMyth, extracto editorial Gawande capítulo1; sin libro íntegro ni extrapolación clínica, plantilla y prueba propias MEE. 537: Cedefop entrada apprenticeship, Estatuto art11 y RD1065/2025 arts1–4,9,12–14,transitorios; alternancia y práctica profesional distintas, sin garantía de permanencia o sociedad. Enlace correcto a Economía Compartida → Escalabilidad con Autonomía.
+538: CNMV, decisiones de inversión, glosario de diversificación y presentación de proveedores de financiación participativa; F215 referenciado sin publicar umbrales ni régimen completo bloqueado en EUR-Lex. 539: Atlanta Fed actualizado 08/10/2026 para septiembre2026, 4,7% switchers y3,4% stayers, media móvil3meses de medianas variación horaria nominal12meses; definiciones y límites CPS, sin causalidad ni traslado a otros países. 540: guía de Registradores pp14–17 y sede sobre cuentas; sin expediente empresarial solicitado, testimonios distintos de prueba y criterio MEE de documentación/consentimiento del brief.
 
 ## Continuación exacta
 
-Continuar **538–540 / E4.4.13–E4.4.15**, Trabajo → Escalabilidad Social, tanda 36/56, entradas 13–15/15. Investigación inicial de CNMV, Atlanta Fed y Registradores; faltan expedientes, redacción, revisión e imágenes. Después, 541–543 / E4.5.01–E4.5.03, Selección de Socios. 501 / E4.2.06 y 512 / E4.3.02 siguen retenidas por sus títulos, con texto y 3 imágenes cada una, sin publicación. Preguntas previas pendientes; no repetirlas ni interpretar silencio como aprobación.
+Continuar **541–543 / E4.5.01–E4.5.03**, Trabajo → Selección de Socios, tanda 37/56, entradas 1–3/15. Lecturas iniciales de Wasserman conservables desde fuentes primarias; faltan expedientes, imágenes, texto y revisión. Después, 544–546 / E4.5.04–E4.5.06. 501 / E4.2.06 y 512 / E4.3.02 siguen retenidas por sus títulos, con texto y 3 imágenes cada una, sin publicación. Preguntas previas pendientes; no repetirlas ni interpretar silencio como aprobación.
 
 ## Copias y límites
 
-VPS `/data/mee-backups/produccion-840-incremento-535-537-20261031`; SQL y66medios nuevos. Cadena167más base; hash y miembros comprobados. Sin nueva restauración arrancada. Detalle en docs/produccion/2026-10-31-bloque-535-537.md y respaldo535–537.
+VPS `/data/mee-backups/produccion-840-incremento-538-540-20261031`; SQL y66medios nuevos. Cadena168más base; hash y miembros comprobados. Sin nueva restauración arrancada. Detalle en docs/produccion/2026-10-31-bloque-538-540.md y respaldo535–537.
 
 ## Página de apoyo, donaciones y publicidad · 29/10/2026
 
