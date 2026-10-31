@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-31T08:34:42+00:00.
+Comprobado en WordPress: 2026-10-31T08:47:12+00:00.
 
-**577/840 terminadas · 0 en curso · 263 pendientes.**
+**580/840 terminadas · 0 en curso · 260 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -591,9 +591,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 577 | 39/56 · 7/15 | E4.7.07 | Inversores ángel: qué son y cómo funcionan | terminada | 3/3 | [Leer](https://moevec.org/blog/inversores-angel/) |
 | 578 | 39/56 · 8/15 | E4.7.08 | Microinversión en emprendedores cercanos: riesgos y buenas prácticas | terminada | 3/3 | [Leer](https://moevec.org/blog/microinversion-emprendedores-cercanos/) |
 | 579 | 39/56 · 9/15 | E4.7.09 | Mentoría intergeneracional: lo que mayores y jóvenes se enseñan | terminada | 3/3 | [Leer](https://moevec.org/blog/mentoria-intergeneracional/) |
-| 580 | 39/56 · 10/15 | E4.7.10 | El aprendiz que supera al maestro: soltar a tiempo | pendiente | 0/3 | — |
-| 581 | 39/56 · 11/15 | E4.7.11 | Guía para ser mentor por primera vez | pendiente | 0/3 | — |
-| 582 | 39/56 · 12/15 | E4.7.12 | Cómo pedir mentoría sin incomodar | pendiente | 0/3 | — |
+| 580 | 39/56 · 10/15 | E4.7.10 | El aprendiz que supera al maestro: soltar a tiempo | terminada | 3/3 | [Leer](https://moevec.org/blog/aprendiz-supera-al-maestro/) |
+| 581 | 39/56 · 11/15 | E4.7.11 | Guía para ser mentor por primera vez | terminada | 3/3 | [Leer](https://moevec.org/blog/guia-ser-mentor-primera-vez/) |
+| 582 | 39/56 · 12/15 | E4.7.12 | Cómo pedir mentoría sin incomodar | terminada | 3/3 | [Leer](https://moevec.org/blog/como-pedir-mentoria/) |
 | 583 | 39/56 · 13/15 | E4.7.13 | Becar a un estudiante: invertir en capital humano ajeno | pendiente | 0/3 | — |
 | 584 | 39/56 · 14/15 | E4.7.14 | Círculos de ahorro y crédito (tandas, natilleras, cajas): finanzas comunitarias | pendiente | 0/3 | — |
 | 585 | 39/56 · 15/15 | E4.7.15 | Red de mentores MEE: cómo funcionará (propuesta) | pendiente | 0/3 | — |
