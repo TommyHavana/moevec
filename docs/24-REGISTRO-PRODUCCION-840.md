@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-31T08:23:15+00:00.
+Comprobado en WordPress: 2026-10-31T08:34:42+00:00.
 
-**574/840 terminadas · 0 en curso · 266 pendientes.**
+**577/840 terminadas · 0 en curso · 263 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -588,9 +588,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 574 | 39/56 · 4/15 | E4.7.04 | Invertir en otros: dinero, tiempo y oportunidades | terminada | 3/3 | [Leer](https://moevec.org/blog/invertir-en-otros-formas/) |
 | 575 | 39/56 · 5/15 | E4.7.05 | Recomendar a alguien: el capital de tu reputación en juego | terminada | 3/3 | [Leer](https://moevec.org/blog/recomendar-a-alguien/) |
 | 576 | 39/56 · 6/15 | E4.7.06 | Programas de mentoría para emprendedores en España y América Latina | terminada | 3/3 | [Leer](https://moevec.org/blog/programas-mentoria-espana-latam/) |
-| 577 | 39/56 · 7/15 | E4.7.07 | Inversores ángel: qué son y cómo funcionan | pendiente | 0/3 | — |
-| 578 | 39/56 · 8/15 | E4.7.08 | Microinversión en emprendedores cercanos: riesgos y buenas prácticas | pendiente | 0/3 | — |
-| 579 | 39/56 · 9/15 | E4.7.09 | Mentoría intergeneracional: lo que mayores y jóvenes se enseñan | pendiente | 0/3 | — |
+| 577 | 39/56 · 7/15 | E4.7.07 | Inversores ángel: qué son y cómo funcionan | terminada | 3/3 | [Leer](https://moevec.org/blog/inversores-angel/) |
+| 578 | 39/56 · 8/15 | E4.7.08 | Microinversión en emprendedores cercanos: riesgos y buenas prácticas | terminada | 3/3 | [Leer](https://moevec.org/blog/microinversion-emprendedores-cercanos/) |
+| 579 | 39/56 · 9/15 | E4.7.09 | Mentoría intergeneracional: lo que mayores y jóvenes se enseñan | terminada | 3/3 | [Leer](https://moevec.org/blog/mentoria-intergeneracional/) |
 | 580 | 39/56 · 10/15 | E4.7.10 | El aprendiz que supera al maestro: soltar a tiempo | pendiente | 0/3 | — |
 | 581 | 39/56 · 11/15 | E4.7.11 | Guía para ser mentor por primera vez | pendiente | 0/3 | — |
 | 582 | 39/56 · 12/15 | E4.7.12 | Cómo pedir mentoría sin incomodar | pendiente | 0/3 | — |
