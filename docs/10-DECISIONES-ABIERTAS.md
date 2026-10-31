@@ -474,7 +474,7 @@ Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobad
 
 240/840 terminadas, 720 imágenes originales públicas, 0 en curso o borradores WordPress y 600 pendientes.
 
-238: identidad cooperativa ACI y AIM con seguros obligatorios/complementarios diferenciados, caso danés con requisitos y WOCCU2025 con fuentes y cobertura distintas. 239: sanidad2024 corriente total por habitante y educación2023 pública por alumno FTE en edición2026, sin sumar unidades ni factura individual; estudio de eficiencia2010 con límites y coste de oportunidad de Bastiat. 240: síntesis de catorce entradas, cinco principios normativos, continuidad para necesidades permanentes, casos con alcance e invitación sin consulta o presupuesto inventados.
+238: identidad cooperativa ACI y AIM con seguros obligatorios/complementarios diferenciados, caso danés con requisitos y WOCCU2025 con fuentes y cobertura distintas. 239: sanidad2024 corriente total por habitante y educación2023 pública por alumno FTE en edición 2026, sin sumar unidades ni factura individual; estudio de eficiencia2010 con límites y coste de oportunidad de Bastiat. 240: síntesis de catorce entradas, cinco principios normativos, continuidad para necesidades permanentes, casos con alcance e invitación sin consulta o presupuesto inventados.
 
 Siguiente **241–243 / E7.4.01–E7.4.03**, Política y Economía → Inversión y Capital. Preparaciones incluidas en las 600 pendientes. E7.4.01: 0/3 imágenes locales; sin texto final, sin publicación; E7.4.02: 0/3 imágenes locales; sin texto final, sin publicación; E7.4.03: 0/3 imágenes locales; sin texto final, sin publicación. Después 244–246. Automatización activa, sin agotamiento comunicado.
 
@@ -838,7 +838,7 @@ Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobad
 
 348/840 terminadas, 1044 imágenes originales públicas, 0 en curso o borradores WordPress y 492 pendientes.
 
-346: DUDH19/29/30, Mill recapitulación capítuloII y Popper nota4cap7 leída visualmente; tesis MEE normativa y tolerancia contextualizada. 347: GC34 obligaciones estatales y protección frente a privados, clasificación MEE no definición universal; DL35 texto2021 sin vigencia exhaustiva2026 fingida. 348: comparación propia RSF2026 y FIW2026 con WDI2025,PPA dólares internacionales corrientes,167pares rlog0,37547 y180pares rlog0,47073; territorios y ausencias separados, sin pesos ni causalidad. China crecimientoPIBreal2025 4,95995%, distinto del nivelPPA; Sen1999 tesis histórica, sin libro completo o garantía actual.
+346: DUDH19/29/30, Mill recapitulación capítuloII y Popper nota4cap7 leída visualmente; tesis MEE normativa y tolerancia contextualizada. 347: GC34 obligaciones estatales y protección frente a privados, clasificación MEE no definición universal; DL35 texto2021 sin vigencia exhaustiva2026 fingida. 348: comparación propia RSF2026 y FIW2026 con WDI2025,PPA dólares internacionales corrientes,167pares rlog0,37547 y 180pares rlog0,47073; territorios y ausencias separados, sin pesos ni causalidad. China crecimientoPIBreal2025 4,95995%, distinto del nivelPPA; Sen1999 tesis histórica, sin libro completo o garantía actual.
 
 Siguiente **349–351 / E1.4.04–E1.4.06**, Educación y Valores → Libertad de Expresión. Preparaciones incluidas en las 492 pendientes. E1.4.04: 0/3 imágenes locales; sin texto final, sin publicación; E1.4.05: 0/3 imágenes locales; sin texto final, sin publicación; E1.4.06: 0/3 imágenes locales; sin texto final, sin publicación. Después 352–354. Automatización activa, sin agotamiento comunicado.
 
@@ -868,7 +868,7 @@ Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobad
 
 357/840 terminadas, 1071 imágenes originales públicas, 0 en curso o borradores WordPress y 483 pendientes.
 
-355: Virginia Pharmacy1976 como precedente estadounidense sobre precios y receptores, Benham1972 leído en reproducción2013con datos1963y diseño observacional, sin ahorro universal. 356: Granier2015/restricción indirecta de RCTV2007, LeyResorte texto2010y VE sinFiltro6oct2026,143dominios/102sitios y45/71desbloqueos con unidades/ISP distintos, sin medirMEEo asumir permanencia. 357: Constitución20, LO4/2015yTC172/2020(noautorizadonulo), CódigoPenal578separado deSternTaulats2018, RSF29/180y75.42/FH91/100edición2026con métodos y periodos, sin equivalencia a tasas deexpresión permitida.
+355: Virginia Pharmacy1976 como precedente estadounidense sobre precios y receptores, Benham1972 leído en reproducción2013con datos1963y diseño observacional, sin ahorro universal. 356: Granier2015/restricción indirecta de RCTV2007, LeyResorte texto2010y VE sinFiltro6oct2026,143dominios/102sitios y45/71desbloqueos con unidades/ISP distintos, sin medirMEEo asumir permanencia. 357: Constitución20, LO4/2015yTC172/2020(noautorizadonulo), CódigoPenal578separado deSternTaulats2018, RSF29/180y75.42/FH91/100edición 2026con métodos y periodos, sin equivalencia a tasas deexpresión permitida.
 
 Siguiente **358–360 / E1.4.13–E1.4.15**, Educación y Valores → Libertad de Expresión. Preparaciones incluidas en las 483 pendientes. E1.4.13: 0/3 imágenes locales; sin texto final, sin publicación; E1.4.14: 0/3 imágenes locales; sin texto final, sin publicación; E1.4.15: 0/3 imágenes locales; sin texto final, sin publicación. Después 361–363. Automatización activa, sin agotamiento comunicado.
 
@@ -1148,7 +1148,7 @@ Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobad
 
 441/840 terminadas, 1323 imágenes originales públicas, 0 en curso o borradores WordPress y 399 pendientes.
 
-Voto visible: propuesta histórica de MEE sin sistema operativo anunciado; Luca/Zervas2015 distinguido de publicación2016, proxy Yelp y riesgo de presión. Punto de partida: Chetty2017, cohortes estadounidenses y movilidad absoluta; Banco Mundial2018 y crítica de Sandel mediante ficha primaria TED2020, sin tasas2026 o igualdad de resultados prometida. Antigüedad: Peter/Hull1969 y prólogo de Sutton identificado; Benson/Li/Shue2019 mediante resumen final MIT y versión previa2018 diferenciadas, sin ley universal ni causalidad de antigüedad. Nueve originales inspeccionados.
+Voto visible: propuesta histórica de MEE sin sistema operativo anunciado; Luca/Zervas2015 distinguido de publicación2016, proxy Yelp y riesgo de presión. Punto de partida: Chetty2017, cohortes estadounidenses y movilidad absoluta; Banco Mundial 2018 y crítica de Sandel mediante ficha primaria TED2020, sin tasas2026 o igualdad de resultados prometida. Antigüedad: Peter/Hull1969 y prólogo de Sutton identificado; Benson/Li/Shue2019 mediante resumen final MIT y versión previa2018 diferenciadas, sin ley universal ni causalidad de antigüedad. Nueve originales inspeccionados.
 
 Siguiente **442–444 / E3.2.07–E3.2.09**, Comunidad → Mérito por Aporte. Preparaciones incluidas en las 399 pendientes. E3.2.07: 0/3 imágenes locales; sin texto final, sin publicación; E3.2.08: 0/3 imágenes locales; sin texto final, sin publicación; E3.2.09: 0/3 imágenes locales; sin texto final, sin publicación. Después 445–447. Automatización activa, sin agotamiento comunicado.
 
@@ -1158,7 +1158,7 @@ Sin cambio de alcance, arquitectura o taxonomía. Respaldo incremental comprobad
 
 444/840 terminadas, 1332 imágenes originales públicas, 0 en curso o borradores WordPress y 396 pendientes.
 
-Colaboración: ensayo Raymond diferenciado del libro1999, Benklercap3, reglas propias Wikipedia y revisión Linux actuales; sin ausencia de autoridad. Reputación sin título: OIT/OCDE/PNUD2024 y distinción de informalidad, Caplan ficha editorial, WEF2025 excluye sector informal; Upwork como mecanismo propio sin promesas. Gamificación: Deci resumen escaneado y Koivisto/Hamari resumen primario autores2019, PDF bloqueado sin lectura fingida; Goodhart mediante discursoECB2023 y analogía limitada. Nueve originales nuevos inspeccionados. Catálogo Princeton completo conservado fuera deGit, página pertinente en expediente.
+Colaboración: ensayo Raymond diferenciado del libro1999, Benklercap3, reglas propias Wikipedia y revisión Linux actuales; sin ausencia de autoridad. Reputación sin título: OIT/OCDE/PNUD2024 y distinción de informalidad, Caplan ficha editorial, WEF 2025 excluye sector informal; Upwork como mecanismo propio sin promesas. Gamificación: Deci resumen escaneado y Koivisto/Hamari resumen primario autores2019, PDF bloqueado sin lectura fingida; Goodhart mediante discursoECB2023 y analogía limitada. Nueve originales nuevos inspeccionados. Catálogo Princeton completo conservado fuera deGit, página pertinente en expediente.
 
 Siguiente **445–447 / E3.2.10–E3.2.12**, Comunidad → Mérito por Aporte. Preparaciones incluidas en las 396 pendientes. E3.2.10: 0/3 imágenes locales; sin texto final, sin publicación; E3.2.11: 0/3 imágenes locales; sin texto final, sin publicación; E3.2.12: 0/3 imágenes locales; sin texto final, sin publicación. Después 448–450. Automatización activa, sin agotamiento comunicado.
 
@@ -1324,3 +1324,14 @@ Inflación: BCE, Berg/Borensztein 2000, CNMV y Keynes capítulo 15; diferencia l
 Continuar **490–492 / E4.1.10–E4.1.12**, Trabajo → Sacrificio Estratégico, tanda 33/56. Briefs originales y fuentes iniciales guardados, sin lectura final ni textos ni imágenes (0/3 cada una). Algunas descargas primarias devolvieron 403; registros conservados, sin fingir lectura. Siguen pendientes en WordPress. Después 493–495. Automatización activa, sin límite de imágenes comunicado.
 
 Sin cambios de arquitectura o taxonomía. Respaldo y evidencias en docs/produccion/2026-10-31-bloque-487-489.md y respaldo-487-489.md.
+
+
+## Producción continua 490–492 · 31/10/2026
+
+492/840 terminadas, 1476 imágenes originales públicas, 0 en curso o borradores WordPress y 348 pendientes.
+
+Minimalismo: artículo firmado de Bastos y resumen alojado por Robin, no libros íntegros; revisión voluntaria y calidad de vida. Plan anual: propuesta MEE flexible, CFPB como ficha educativa, sin ahorro o inversión garantizados. Formación: WEF 2025 como expectativas 2030, índice actual sin edición 2026 inventada; Banco Mundial 2018 con métodos y límites, OCDE 2024 sobre competencias y cualificaciones, extracto Nussbaum sobre fines educativos. Lecturas primarias por web documentadas cuando descargas 403; sin retorno individual, habilitación o curso recomendado.
+
+Continuar **493–495 / E4.1.13–E4.1.15**, Trabajo → Sacrificio Estratégico, tanda 33/56. Briefs originales y primeras fuentes localizadas; sin lectura final ni textos ni imágenes (0/3 cada una). No cuentan como terminadas. Siguen pendientes en WordPress. Después 496–498. Automatización activa, sin límite de imágenes comunicado.
+
+Sin cambios de arquitectura o taxonomía. Respaldo y evidencias en docs/produccion/2026-10-31-bloque-490-492.md y respaldo-490-492.md.

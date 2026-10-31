@@ -2,27 +2,27 @@
 
 ## Estado actual
 
-**489/840 terminadas, 1467 imágenes originales públicas, 0 en curso o borradores WordPress y 351 pendientes**. Sacrificio Estratégico 9/15, 32 tandas completas y Comunidad 60/60.
+**492/840 terminadas, 1476 imágenes originales públicas, 0 en curso o borradores WordPress y 348 pendientes**. Sacrificio Estratégico 12/15, 32 tandas completas y Comunidad 60/60.
 
 Fuente activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Inicio 486; producidas 487–489, tres entradas y nueve originales públicos.
+Inicio 486; producidas 487–492, seis entradas y 18 originales públicos.
 
-Una publicación y tres adjuntos por ID. Categorías Trabajo y Sacrificio Estratégico, etiquetas sacrificio-estrategico y desarrollo. HTTP 200, H1, canonical, ausencia de noindex, Article, índice, sitemap, enlaces y nueve originales/variantes correctos. Navegación y BreadcrumbList Blog → Trabajo → Sacrificio Estratégico. Taxonomía 122 nodos y siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva ni posición.
+Una publicación y tres adjuntos por ID. Categorías Trabajo y Sacrificio Estratégico, etiquetas de tema y nivel (desarrollo o aplicacion según brief). HTTP 200, H1, canonical, ausencia de noindex, Article, índice, sitemap, enlaces y nueve originales/variantes correctos. Navegación y BreadcrumbList Blog → Trabajo → Sacrificio Estratégico. Taxonomía 122 nodos y siete raíces, sin Editorial ni Uncategorized. No acredita indexación efectiva ni posición.
 
 ## Revisión del último bloque
 
-Inflación: BCE, Berg/Borensztein 2000, CNMV y Keynes capítulo 15; diferencia liquidez/activos y dolarización institucional/decisión del hogar, sin tasas o normas no verificadas. Emigración: Clemens ficha 2011 y documento previo, Dustmann/Kirchkamp 2002 con selección histórica de retornados turcos y OIM 2019 como guía, sin causalidad de éxito. E1.7.12/837 pendiente sin enlace muerto. Salud: Pencavel IZA 2014 diferenciado de publicación 2015; municiones y heterogeneidad, producto total/marginal separados; NHLBI y NIOSH oficiales, sin umbral universal ni diagnóstico. Alcances parciales registrados; libros no leídos no atribuidos.
+Minimalismo: artículo firmado de Bastos y resumen alojado por Robin, no libros íntegros; revisión voluntaria y calidad de vida. Plan anual: propuesta MEE flexible, CFPB como ficha educativa, sin ahorro o inversión garantizados. Formación: WEF 2025 como expectativas 2030, índice actual sin edición 2026 inventada; Banco Mundial 2018 con métodos y límites, OCDE 2024 sobre competencias y cualificaciones, extracto Nussbaum sobre fines educativos. Lecturas primarias por web documentadas cuando descargas 403; sin retorno individual, habilitación o curso recomendado.
 
 ## Continuación exacta
 
-Continuar **490–492 / E4.1.10–E4.1.12**, Trabajo → Sacrificio Estratégico, tanda 33/56. Briefs originales y fuentes iniciales guardados, sin lectura final ni textos ni imágenes (0/3 cada una). Algunas descargas primarias devolvieron 403; registros conservados, sin fingir lectura. Siguen pendientes en WordPress. Después 493–495. Automatización activa, sin límite de imágenes comunicado.
+Continuar **493–495 / E4.1.13–E4.1.15**, Trabajo → Sacrificio Estratégico, tanda 33/56. Briefs originales y primeras fuentes localizadas; sin lectura final ni textos ni imágenes (0/3 cada una). No cuentan como terminadas. Siguen pendientes en WordPress. Después 496–498. Automatización activa, sin límite de imágenes comunicado.
 
 ## Copias y límites
 
-VPS hasta 489: SQL completo y 66 medios nuevos, hashes y miembros verificados; 150 incrementos consecutivos. Sin nueva prueba de arranque de restauración completa. Incremento local y fuente privada referenciados al cierre.
+VPS hasta 492: SQL completo y 66 medios nuevos, hashes y miembros verificados; 151 incrementos consecutivos. Sin nueva prueba de arranque de restauración completa. Incremento local y fuente privada referenciados al cierre.
 
 ## Traspaso
 
