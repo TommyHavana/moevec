@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-10-31T13:23:12+00:00.
+Comprobado en WordPress: 2026-10-31T13:36:12+00:00.
 
-**613/840 terminadas · 0 en curso · 227 pendientes.**
+**616/840 terminadas · 0 en curso · 224 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -627,9 +627,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 613 | 41/56 · 13/15 | E4.9.13 | Ingresos en moneda fuerte: opciones legales para trabajadores de la región | terminada | 3/3 | [Leer](https://moevec.org/blog/ingresos-en-moneda-fuerte/) |
 | 614 | 41/56 · 14/15 | E4.9.14 | Reinventarse después de una quiebra | terminada | 3/3 | [Leer](https://moevec.org/blog/reinventarse-despues-de-quiebra/) |
 | 615 | 41/56 · 15/15 | E4.9.15 | Plan de contingencia para tu pequeño negocio | terminada | 3/3 | [Leer](https://moevec.org/blog/plan-de-contingencia-pequeno-negocio/) |
-| 616 | 42/56 · 1/15 | E4.10.01 | Cuatro mil semanas: por qué el tiempo es tu recurso más escaso | pendiente | 0/3 | — |
-| 617 | 42/56 · 2/15 | E4.10.02 | El valor de tu hora: calcularlo para decidir mejor | pendiente | 0/3 | — |
-| 618 | 42/56 · 3/15 | E4.10.03 | Ley de Parkinson: el trabajo se expande hasta llenar el tiempo | pendiente | 0/3 | — |
+| 616 | 42/56 · 1/15 | E4.10.01 | Cuatro mil semanas: por qué el tiempo es tu recurso más escaso | terminada | 3/3 | [Leer](https://moevec.org/blog/cuatro-mil-semanas/) |
+| 617 | 42/56 · 2/15 | E4.10.02 | El valor de tu hora: calcularlo para decidir mejor | terminada | 3/3 | [Leer](https://moevec.org/blog/valor-de-tu-hora/) |
+| 618 | 42/56 · 3/15 | E4.10.03 | Ley de Parkinson: el trabajo se expande hasta llenar el tiempo | terminada | 3/3 | [Leer](https://moevec.org/blog/ley-de-parkinson/) |
 | 619 | 42/56 · 4/15 | E4.10.04 | Atención: el recurso que todos quieren capturar | pendiente | 0/3 | — |
 | 620 | 42/56 · 5/15 | E4.10.05 | Urgente frente a importante: priorizar sin agotarse | pendiente | 0/3 | — |
 | 621 | 42/56 · 6/15 | E4.10.06 | Burocracia: el impuesto en tiempo que pagan los emprendedores | pendiente | 0/3 | — |

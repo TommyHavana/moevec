@@ -1,8 +1,8 @@
 # Backlog de MEE
 
-Último estado: **613/840 terminadas, 1839 imágenes originales públicas, 0 en curso o borradores WordPress y 227 pendientes**. Resiliencia Económica15/15; 39 tandas completas.
+Último estado: **616/840 terminadas, 1848 imágenes originales públicas, 0 en curso o borradores WordPress y 224 pendientes**. Tiempo como Recurso Finito3/15; 39 tandas completas.
 
-Continuar **616–618 / E4.10.01–E4.10.03**, Trabajo → Tiempo como Recurso Finito. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **619–621**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Continuar **619–621 / E4.10.04–E4.10.06**, Trabajo → Tiempo como Recurso Finito. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **622–624**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
 
 Historial anterior: producción comprobada tras el bloque 4–6: 6/840 terminadas. En elaboración local: 7–9 con nueve imágenes propias; todavía no cuentan como publicadas. Consultar siempre WordPress y el registro 24 para el estado más reciente.
 
