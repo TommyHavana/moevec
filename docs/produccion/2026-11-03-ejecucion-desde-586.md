@@ -1,8 +1,8 @@
 # Ejecución desde586 ·03/11/2026
 
-**700/840 terminadas, 2100 imágenes originales públicas, 0 en curso o borradores WordPress y 140 pendientes**. Empoderamiento de Microemprendedores 13/15; 43 tandas completas.
+**703/840 terminadas, 2109 imágenes originales públicas, 0 en curso o borradores WordPress y 137 pendientes**. Empoderamiento de Microemprendedores 15/15; Inversión Distribuida y Contratos Comunitarios 1/15; 44 tandas completas.
 
-114 nuevas entradas y342originales públicos.
+117 nuevas entradas y351originales públicos.
 
 | Global | ID | URL | Imágenes |
 |---|---|---|---|
@@ -120,5 +120,11 @@
 |701|E6.5.11|https://moevec.org/blog/guia-formalizar-negocio/|3/3|
 |702|E6.5.12|https://moevec.org/blog/mipymes-cubanas-como-crear/|3/3|
 |703|E6.5.13|https://moevec.org/blog/financiacion-sin-historial/|3/3|
+|704|E6.5.14|https://moevec.org/blog/del-puesto-ambulante-al-local/|3/3|
+|705|E6.5.15|https://moevec.org/blog/programa-acompanamiento-mee/|3/3|
+|706|E6.6.01|https://moevec.org/blog/que-es-inversion-distribuida/|3/3|
 
-Continuar **704–706 / E6.5.14–E6.6.01**, economia-compartida → Empoderamiento de Microemprendedores; economia-compartida → Inversión Distribuida y Contratos Comunitarios. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **707–709**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Continuar **707–709 / E6.6.02–E6.6.04**, economia-compartida → Inversión Distribuida y Contratos Comunitarios. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **710–712**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+
+
+707/E6.6.02: afirmación del título «la inversión comunitaria más antigua» sin acreditar por las fuentes revisadas. Propuesto «Grupos de ahorro rotativo: cómo funcionan y qué riesgos tienen», mismo ID/slug; consulta enviada una vez, sin respuesta. Preparar cuerpo e imágenes sin publicar el título no verificado. Avanzar708/709 y después710 si sigue pendiente; no bloquear producción independiente.

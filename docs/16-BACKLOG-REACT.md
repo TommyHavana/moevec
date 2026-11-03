@@ -1,8 +1,8 @@
 # Backlog de MEE
 
-Último estado: **700/840 terminadas, 2100 imágenes originales públicas, 0 en curso o borradores WordPress y 140 pendientes**. Empoderamiento de Microemprendedores 13/15; 43 tandas completas.
+Último estado: **703/840 terminadas, 2109 imágenes originales públicas, 0 en curso o borradores WordPress y 137 pendientes**. Empoderamiento de Microemprendedores 15/15; Inversión Distribuida y Contratos Comunitarios 1/15; 44 tandas completas.
 
-Continuar **704–706 / E6.5.14–E6.6.01**, economia-compartida → Empoderamiento de Microemprendedores; economia-compartida → Inversión Distribuida y Contratos Comunitarios. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **707–709**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Continuar **707–709 / E6.6.02–E6.6.04**, economia-compartida → Inversión Distribuida y Contratos Comunitarios. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **710–712**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
 
 Historial anterior: producción comprobada tras el bloque 4–6: 6/840 terminadas. En elaboración local: 7–9 con nueve imágenes propias; todavía no cuentan como publicadas. Consultar siempre WordPress y el registro 24 para el estado más reciente.
 
@@ -37,3 +37,6 @@ Los nuevos ajustes parten de esta entrega. Las tablas de metáforas anteriores s
 ## Incidencia SEO detectada ·31/10/2026
 
 Dos meta name=description idénticas en salida WordPress; títuloSEO y texto de descripción coinciden con manifest. Incidencia de plantilla registrada, sin cambiar tema ni configuración SEO durante producción. Evidencia: inventario/auditoria-2026-10-28/editorial-589-591-seo.json y editorial-592-594-seo.json. Requiere una tarea de plantilla independiente de esta producción.
+
+
+707/E6.6.02: afirmación del título «la inversión comunitaria más antigua» sin acreditar por las fuentes revisadas. Propuesto «Grupos de ahorro rotativo: cómo funcionan y qué riesgos tienen», mismo ID/slug; consulta enviada una vez, sin respuesta. Preparar cuerpo e imágenes sin publicar el título no verificado. Avanzar708/709 y después710 si sigue pendiente; no bloquear producción independiente.

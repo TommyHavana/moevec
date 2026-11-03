@@ -1,3 +1,19 @@
-# Preparación · E6.5.14
+# Investigación · E6.5.14
 
-Brief y prompts conservados. Fuentes, tres imágenes, texto y publicación pendientes. No cuenta como terminada.
+Small Business Administration · Plan your business · costes y punto de equilibrio
+https://www.sba.gov/counseling/plan-your-business/#startup-costs
+Primarioactual200254508B;viejasURLsstartup ybreak-evenredirigenmismapáginageneralactual,NOdosfuentesdiferentes. Cuerpoweb301–391leídofórmula1productofijos/(preciocostevariable),aproximaciónno100%acertada,mixtos/partes. Excluidoerrorfuentequarterlydivideby4para mensual,deberíaser3. Nopromesasviabilidadpréstamoasegurado/todoempleosalfijo siempre. Modelo600/(12-7)=120propiohipotéticotodosconceptossupuestoconstante,noprevventas/caja.
+
+Small Business Administration · Grow your business · expansión a nuevas ubicaciones
+https://www.sba.gov/counseling/grow-your-business/
+Primarioactual200292178B,webindexactualExpandtonewlocationsleído;marketingcliente/localcompetition yfinanzasforecastcostrevenue. MarcoUSnormasnoexportarEspañaCuba/jurisdicciones/tasas/aperturaprácticaautorizadasinfuente. No listarmercadostemporalescomorecomendaciónproveedoractual.
+
+Amar Bhidé · Bootstrap Finance: The Art of Start-ups · 1992
+https://pubmed.ncbi.nlm.nih.gov/10122688/
+Primarioabstractoriginalindexactualleído3nov2026,localHTTP2035590Bchallenge/webopenvacíoambosguardados. Abstractexplicaestudio100empresaslistaInc5001989seleccionadascrecimientorápidoNOcausalidadtodomundo,operationalfastcashadjustkeepgrowthcheck. NoHBR9pcompleto/actualmuestra2026. RelaciónbriefE5.8.14previamenteMEE,contraesperarsinactuardebateMEEno afirmaciónempíricacosteestimado.
+
+Excluido:
+- No umbralmesesreservauniversal/ventaslocaligualpuesto/120unidadesprevisión.
+- SBAactualpáginacombinadanodosfuentesindependientes; excluidoerrorquarterly/4.
+- Mercadostemporaleslocalcompartidorequierenconsultareglas/contratoactual, no fiscallegalasesoría.
+- Bhidémuestraseleccionadano autoempleotodos/esperarsiemprepierdecuantificado.

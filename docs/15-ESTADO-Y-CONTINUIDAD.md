@@ -2,13 +2,13 @@
 
 ## Estado actual
 
-**700/840 terminadas, 2100 imágenes originales públicas, 0 en curso o borradores WordPress y 140 pendientes**. Empoderamiento de Microemprendedores 13/15; 43 tandas completas.
+**703/840 terminadas, 2109 imágenes originales públicas, 0 en curso o borradores WordPress y 137 pendientes**. Empoderamiento de Microemprendedores 15/15; Inversión Distribuida y Contratos Comunitarios 1/15; 44 tandas completas.
 
 Fuente activa `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Inicio586; 114 nuevas entradas y342originales públicos.
+Inicio586; 117 nuevas entradas y351originales públicos.
 
 | Global | ID | URL | Imágenes |
 |---|---|---|---|
@@ -126,6 +126,9 @@ Inicio586; 114 nuevas entradas y342originales públicos.
 |701|E6.5.11|https://moevec.org/blog/guia-formalizar-negocio/|3/3|
 |702|E6.5.12|https://moevec.org/blog/mipymes-cubanas-como-crear/|3/3|
 |703|E6.5.13|https://moevec.org/blog/financiacion-sin-historial/|3/3|
+|704|E6.5.14|https://moevec.org/blog/del-puesto-ambulante-al-local/|3/3|
+|705|E6.5.15|https://moevec.org/blog/programa-acompanamiento-mee/|3/3|
+|706|E6.6.01|https://moevec.org/blog/que-es-inversion-distribuida/|3/3|
 
 ## Revisión del último bloque
 
@@ -133,11 +136,11 @@ Fuentes y alcances por artículo en research-notes.md y source-review.json. Caso
 
 ## Continuación exacta
 
-Continuar **704–706 / E6.5.14–E6.6.01**, economia-compartida → Empoderamiento de Microemprendedores; economia-compartida → Inversión Distribuida y Contratos Comunitarios. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **707–709**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Continuar **707–709 / E6.6.02–E6.6.04**, economia-compartida → Inversión Distribuida y Contratos Comunitarios. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **710–712**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
 
 ## Copias y capacidad
 
-VPS `/data/mee-backups/produccion-840-incremento-701-703-20261103`: SQL vigente `wordpress.sql` 27113603B, 66medios nuevos. Cadena222más base, huecos501/512/649. Hashes y miembros comprobados; sin nueva prueba de arranque de restauración. ZIP local incremental y prueba de entrega externos, con toda la cadena anterior conservada.
+VPS `/data/mee-backups/produccion-840-incremento-704-706-20261103`: SQL vigente `wordpress.sql` 27220710B, 66medios nuevos. Cadena223más base, huecos501/512/649. Hashes y miembros comprobados; sin nueva prueba de arranque de restauración. ZIP local incremental y prueba de entrega externos, con toda la cadena anterior conservada.
 
 Comprobar espacio antes de cada generación y copia; capacidad medida y prueba de entrega previa conservada. Umbral operativo200MiB antes de generar, y copias proporcionales con margen calculado; conservar todas las copias y originales. Automatización del mismo chat cada tres minutos, según petición del fundador.
 
@@ -272,3 +275,6 @@ N.º 1–3 terminadas y publicadas: E5.1.01, E5.1.02 y E5.1.03; cada una tiene p
 ## Producción continua autorizada · 28/10/2026
 
 El fundador pidió que, al terminar cada bloque de tres, se comience el siguiente sin nuevas órdenes, asignando cada entrada a su categoría y subcategoría. Se creó y comprobó activa la automatización de este hilo «Producción editorial MEE · 840», ID `producci-n-editorial-mee-840`, con comprobación de continuación cada cinco minutos. Dentro de una ejecución debe avanzar de bloque en bloque mientras haya capacidad; si la ejecución termina, retoma desde WordPress y los archivos. Requiere ordenador encendido y app abierta para el acceso local y está sujeta a herramientas y límites. No se ha medido todavía una ejecución automática posterior: la creación y el estado ACTIVE sí están verificados. Siguen 3/840 publicadas; el bloque 4–6 está en investigación, categoría Capitalismo Consciente, subcategoría Definición Esencial. Hay notas de fuentes y pendientes en las carpetas E5.1.04–06; no cuentan como artículos terminados. Procedimiento en `docs/26-PRODUCCION-CONTINUA.md` y punto de trabajo en `editorial/production-state.json`. No crear seguimientos duplicados.
+
+
+707/E6.6.02: afirmación del título «la inversión comunitaria más antigua» sin acreditar por las fuentes revisadas. Propuesto «Grupos de ahorro rotativo: cómo funcionan y qué riesgos tienen», mismo ID/slug; consulta enviada una vez, sin respuesta. Preparar cuerpo e imágenes sin publicar el título no verificado. Avanzar708/709 y después710 si sigue pendiente; no bloquear producción independiente.

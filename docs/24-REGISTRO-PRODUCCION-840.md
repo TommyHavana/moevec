@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-03T20:22:25+00:00.
+Comprobado en WordPress: 2026-11-03T20:39:53+00:00.
 
-**700/840 terminadas · 0 en curso · 140 pendientes.**
+**703/840 terminadas · 0 en curso · 137 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -715,9 +715,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 701 | 47/56 · 11/15 | E6.5.11 | Guía para formalizar tu negocio paso a paso | terminada | 3/3 | [Leer](https://moevec.org/blog/guia-formalizar-negocio/) |
 | 702 | 47/56 · 12/15 | E6.5.12 | Mipymes cubanas: cómo crear una y qué exige la ley | terminada | 3/3 | [Leer](https://moevec.org/blog/mipymes-cubanas-como-crear/) |
 | 703 | 47/56 · 13/15 | E6.5.13 | Encontrar financiación cuando no tienes historial | terminada | 3/3 | [Leer](https://moevec.org/blog/financiacion-sin-historial/) |
-| 704 | 47/56 · 14/15 | E6.5.14 | Del puesto ambulante al local: crecer por etapas | pendiente | 0/3 | — |
-| 705 | 47/56 · 15/15 | E6.5.15 | Programa de acompañamiento MEE para microemprendedores: propuesta | pendiente | 0/3 | — |
-| 706 | 48/56 · 1/15 | E6.6.01 | Qué es la inversión distribuida | pendiente | 0/3 | — |
+| 704 | 47/56 · 14/15 | E6.5.14 | Del puesto ambulante al local: crecer por etapas | terminada | 3/3 | [Leer](https://moevec.org/blog/del-puesto-ambulante-al-local/) |
+| 705 | 47/56 · 15/15 | E6.5.15 | Programa de acompañamiento MEE para microemprendedores: propuesta | terminada | 3/3 | [Leer](https://moevec.org/blog/programa-acompanamiento-mee/) |
+| 706 | 48/56 · 1/15 | E6.6.01 | Qué es la inversión distribuida | terminada | 3/3 | [Leer](https://moevec.org/blog/que-es-inversion-distribuida/) |
 | 707 | 48/56 · 2/15 | E6.6.02 | Grupos de ahorro rotativo: la inversión comunitaria más antigua | pendiente | 0/3 | — |
 | 708 | 48/56 · 3/15 | E6.6.03 | Financiación participativa: tipos y regulación | pendiente | 0/3 | — |
 | 709 | 48/56 · 4/15 | E6.6.04 | Contratos claros: por qué la confianza necesita papel | pendiente | 0/3 | — |
