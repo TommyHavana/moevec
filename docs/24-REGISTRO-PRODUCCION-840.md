@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-03T18:44:39+00:00.
+Comprobado en WordPress: 2026-11-03T19:12:15+00:00.
 
-**688/840 terminadas · 0 en curso · 152 pendientes.**
+**691/840 terminadas · 0 en curso · 149 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -703,9 +703,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 689 | 46/56 · 14/15 | E6.4.14 | Autodiagnóstico de concentración: una hoja de cálculo sencilla | terminada | 3/3 | [Leer](https://moevec.org/blog/autodiagnostico-concentracion/) |
 | 690 | 46/56 · 15/15 | E6.4.15 | Plan de diversificación a doce meses | terminada | 3/3 | [Leer](https://moevec.org/blog/plan-diversificacion-doce-meses/) |
 | 691 | 47/56 · 1/15 | E6.5.01 | Microemprendedores: quiénes son y cuántos hay | terminada | 3/3 | [Leer](https://moevec.org/blog/microemprendedores-quienes-son/) |
-| 692 | 47/56 · 2/15 | E6.5.02 | Capital muerto y microemprendedores: qué ha demostrado la evidencia | pendiente | 0/3 | — |
-| 693 | 47/56 · 3/15 | E6.5.03 | Informalidad: refugio, trampa y síntoma | pendiente | 0/3 | — |
-| 694 | 47/56 · 4/15 | E6.5.04 | Microcrédito: lo que prometió y lo que demostró | pendiente | 0/3 | — |
+| 692 | 47/56 · 2/15 | E6.5.02 | Capital muerto y microemprendedores: qué ha demostrado la evidencia | terminada | 3/3 | [Leer](https://moevec.org/blog/capital-muerto-microemprendedores-evidencia/) |
+| 693 | 47/56 · 3/15 | E6.5.03 | Informalidad: refugio, trampa y síntoma | terminada | 3/3 | [Leer](https://moevec.org/blog/informalidad-refugio-trampa-sintoma/) |
+| 694 | 47/56 · 4/15 | E6.5.04 | Microcrédito: lo que prometió y lo que demostró | terminada | 3/3 | [Leer](https://moevec.org/blog/microcredito-promesa-y-evidencia/) |
 | 695 | 47/56 · 5/15 | E6.5.05 | Dinero móvil: cómo M-Pesa cambió Kenia | pendiente | 0/3 | — |
 | 696 | 47/56 · 6/15 | E6.5.06 | Formación para emprendedores: qué funciona según la evidencia | pendiente | 0/3 | — |
 | 697 | 47/56 · 7/15 | E6.5.07 | Mujeres emprendedoras: barreras y evidencia | pendiente | 0/3 | — |

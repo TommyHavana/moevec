@@ -1,3 +1,23 @@
-# Preparación · E6.5.03
+# Investigación · E6.5.03
 
-Brief y prompts conservados. Fuentes, tres imágenes, texto y publicación pendientes. No cuenta como terminada.
+ILOSTAT · Decent Work Reality Check: Informality Across the World of Work ·11/05/2026
+https://ilostat.ilo.org/blog/decent-work-reality-check-informality-is-everywhere/
+Cuerpowebprimario147–174/193–201leído03nov2026;definición21ICLS2023/personasyempleo≠unidadeconómica,informaempleosformal/households ydéficitdecente. Local4035608Bconservado,nodirecto200. Noestadística20paísesglobalextrapolada o todosautónomosinformales/sin ningún derecho/afirmarmetodologíapreviafamiliaresigual2023.
+
+OIT · Global job quality stagnates despite resilient growth · comunicaciónenero 2026
+https://www.ilo.org/resource/news/global-job-quality-stagnates-despite-resilient-growth
+PrimariaHTML20071424Byleída,landinginforme2026HTML20066019B14ene2026cuerpo tambiénleído.2.1bexpectedby2026proyección,no recuento noviembre/2b2018comoactual. PDFoficialtool403nolecturaíntegra,datosotrosdesempleopobreza51.1no usados. DeclaraciónOIT12oct20065853Bcontextoconfirmaciónestimacionesno actualobservaciónproyectadareetiquetada.
+
+Banco Mundial · Business Ready · metodología y preguntas frecuentes
+https://www.worldbank.org/en/businessready/methodology
+Metodologíapáginaexplicita2025HTML200107027BGeneral/BusinessEntryleído;FAQactual2026HTML200451204BpreguntaPillarIIItimecost/LLCperfilesestandarizadosajustes2026leído,no resultadosranking2026ni libro1dicfuturopublicado. Marco3pilares10topicsseusa3dimensiones,LLCno caso todoautónomo. No leyes=únicacausainformalidad/no cifrascostespaíssinguíaactual.
+
+Rafael La Porta y Andrei Shleifer · Informality and Development ·2014
+https://www.nber.org/system/files/working_papers/w20205/w20205.pdf
+NBERWP20205jun2014PDF200923282B30p; introductoriotesis/parágrafossobreexperimentosregistroPDF11–12leídos. FichaAEAJEP28(3)2014pp109–126abstractactualleído,novolverWPversiónfinalidénticainferida. Tresperspectivas/autoresdual/capacidadesproductividadnocostesexclusivos. No porcentajesexperimentos/nuncaformalizantodasolasfirmasmayoritarias2026ni evasióncadaindividuoculpa.
+
+Excluido:
+- Briefmonocausalmatizado: informalidadpuede respondercostesnormativosyotrascondiciones,nofingirevidenciaúnica/impuestosexplicantodo.
+- OITenero2026proyección2.1bno observaciónnoviembre; no60%/2b2018comocensoactual.
+- Noempleoinformal=sectorinformal/todoautónomo/ningunaprotecciónoderechossinmatiz;no categoríaestadísticaacusaciónindividual.
+- BREADYmetodología2025FAQajustes2026,no resultados2026publicadospre1dicni casoLLCcontodomicro.
