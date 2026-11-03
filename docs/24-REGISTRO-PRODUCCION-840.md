@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-03T14:13:03+00:00.
+Comprobado en WordPress: 2026-11-03T14:40:37+00:00.
 
-**652/840 terminadas · 0 en curso · 188 pendientes.**
+**655/840 terminadas · 0 en curso · 185 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -667,9 +667,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 653 | 44/56 · 8/15 | E4.12.08 | Comercio electrónico desde América Latina y Cuba: posibilidades y barreras | terminada | 3/3 | [Leer](https://moevec.org/blog/comercio-electronico-latam-cuba/) |
 | 654 | 44/56 · 9/15 | E4.12.09 | Tecnología y empleo: lo que dice la historia sobre los miedos a la automatización | terminada | 3/3 | [Leer](https://moevec.org/blog/tecnologia-y-empleo-historia/) |
 | 655 | 44/56 · 10/15 | E4.12.10 | Reconversión profesional: cambiar de oficio a mitad de carrera | terminada | 3/3 | [Leer](https://moevec.org/blog/reconversion-profesional/) |
-| 656 | 44/56 · 11/15 | E4.12.11 | Kit digital del emprendedor con poco presupuesto | pendiente | 0/3 | — |
-| 657 | 44/56 · 12/15 | E4.12.12 | Trabajar con un teléfono: negocios que caben en el móvil | pendiente | 0/3 | — |
-| 658 | 44/56 · 13/15 | E4.12.13 | Ciberseguridad básica para pequeños negocios | pendiente | 0/3 | — |
+| 656 | 44/56 · 11/15 | E4.12.11 | Kit digital del emprendedor con poco presupuesto | terminada | 3/3 | [Leer](https://moevec.org/blog/kit-digital-emprendedor/) |
+| 657 | 44/56 · 12/15 | E4.12.12 | Trabajar con un teléfono: negocios que caben en el móvil | terminada | 3/3 | [Leer](https://moevec.org/blog/negocios-que-caben-en-el-movil/) |
+| 658 | 44/56 · 13/15 | E4.12.13 | Ciberseguridad básica para pequeños negocios | terminada | 3/3 | [Leer](https://moevec.org/blog/ciberseguridad-pequenos-negocios/) |
 | 659 | 44/56 · 14/15 | E4.12.14 | Aprender una herramienta nueva en una semana: método | pendiente | 0/3 | — |
 | 660 | 44/56 · 15/15 | E4.12.15 | Radar tecnológico de MEE: qué vigilar los próximos años | pendiente | 0/3 | — |
 | 661 | 45/56 · 1/15 | E6.3.01 | La fábrica de alfileres: por qué especializarse multiplica la producción | pendiente | 0/3 | — |
