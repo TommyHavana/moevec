@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-03T16:20:50+00:00.
+Comprobado en WordPress: 2026-11-03T16:42:15+00:00.
 
-**667/840 terminadas · 0 en curso · 173 pendientes.**
+**670/840 terminadas · 0 en curso · 170 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -682,9 +682,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 668 | 45/56 · 8/15 | E6.3.08 | Clústeres: especializarse juntos en un territorio | terminada | 3/3 | [Leer](https://moevec.org/blog/clusteres-especializacion-territorio/) |
 | 669 | 45/56 · 9/15 | E6.3.09 | Política industrial: ¿debe el Estado elegir especializaciones? | terminada | 3/3 | [Leer](https://moevec.org/blog/politica-industrial-debate/) |
 | 670 | 45/56 · 10/15 | E6.3.10 | Especialización y riesgo: cuándo es demasiado | terminada | 3/3 | [Leer](https://moevec.org/blog/especializacion-y-riesgo/) |
-| 671 | 45/56 · 11/15 | E6.3.11 | Tu ruta de especialización en cinco escalones | pendiente | 0/3 | — |
-| 672 | 45/56 · 12/15 | E6.3.12 | Caso ilustrativo: la startup que se especializó antes de crecer | pendiente | 0/3 | — |
-| 673 | 45/56 · 13/15 | E6.3.13 | Especialización en Cuba: oficios con demanda y nichos posibles | pendiente | 0/3 | — |
+| 671 | 45/56 · 11/15 | E6.3.11 | Tu ruta de especialización en cinco escalones | terminada | 3/3 | [Leer](https://moevec.org/blog/ruta-especializacion-cinco-escalones/) |
+| 672 | 45/56 · 12/15 | E6.3.12 | Caso ilustrativo: la startup que se especializó antes de crecer | terminada | 3/3 | [Leer](https://moevec.org/blog/caso-startup-especializacion/) |
+| 673 | 45/56 · 13/15 | E6.3.13 | Especialización en Cuba: oficios con demanda y nichos posibles | terminada | 3/3 | [Leer](https://moevec.org/blog/especializacion-cuba-nichos/) |
 | 674 | 45/56 · 14/15 | E6.3.14 | Subcontratar lo que no es tu especialidad | pendiente | 0/3 | — |
 | 675 | 45/56 · 15/15 | E6.3.15 | Especialización compartida: alianzas entre especialistas | pendiente | 0/3 | — |
 | 676 | 46/56 · 1/15 | E6.4.01 | No pongas todos los huevos en la misma cesta: Markowitz | pendiente | 0/3 | — |

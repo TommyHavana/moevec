@@ -1,8 +1,8 @@
 # Ejecución desde586 ·03/11/2026
 
-**667/840 terminadas, 2001 imágenes originales públicas, 0 en curso o borradores WordPress y 173 pendientes**. Especialización Estratégica Escalonada 10/15; 41 tandas completas.
+**670/840 terminadas, 2010 imágenes originales públicas, 0 en curso o borradores WordPress y 170 pendientes**. Especialización Estratégica Escalonada 13/15; 41 tandas completas.
 
-81 nuevas entradas y243originales públicos.
+84 nuevas entradas y252originales públicos.
 
 | Global | ID | URL | Imágenes |
 |---|---|---|---|
@@ -87,5 +87,8 @@
 |668|E6.3.08|https://moevec.org/blog/clusteres-especializacion-territorio/|3/3|
 |669|E6.3.09|https://moevec.org/blog/politica-industrial-debate/|3/3|
 |670|E6.3.10|https://moevec.org/blog/especializacion-y-riesgo/|3/3|
+|671|E6.3.11|https://moevec.org/blog/ruta-especializacion-cinco-escalones/|3/3|
+|672|E6.3.12|https://moevec.org/blog/caso-startup-especializacion/|3/3|
+|673|E6.3.13|https://moevec.org/blog/especializacion-cuba-nichos/|3/3|
 
-Continuar **671–673 / E6.3.11–E6.3.13**, economia-compartida → Especialización Estratégica Escalonada. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **674–676**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Continuar **674–676 / E6.3.14–E6.4.01**, economia-compartida → Especialización Estratégica Escalonada; economia-compartida → Diversificación Comercial Inteligente. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **677–679**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
