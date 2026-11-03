@@ -1,3 +1,18 @@
-# Preparación · E6.6.09
+# Investigación · E6.6.09
 
-Brief y prompts conservados. Fuentes, tres imágenes, texto y publicación pendientes. No cuenta como terminada.
+Stripe · guía de financiación empresarial en Reino Unido · 02/06/2026
+https://stripe.com/gb/resources/more/business-financing-solutions-in-the-uk
+PrimarioproveedorsobreofertapropiaHTML200517580B/segmentosRBFyStripeCapitalcuerpoleídos. Comercialnoindependienteevaluaciónnorecomendación. Pagosporventaspuedenconvivirmínimosperiódicos386;sinrangomúltiploscomopromediomercado/importarUKreglatodospaíses. Noelegibilidadoferta/garantíaqueingresosequivalebeneficio. ModelogenéricoycálculosMEEoriginales,noatribuirhipótesiscomoproductoStripe.
+
+CFPB · Better Future Forward · orden del 07/09/2021
+https://www.consumerfinance.gov/enforcement/actions/better-future-forward-inc/
+Primariopáginacaso web48líneas19–21leídas;local403445Bnofingir200. ConsentorderPDF28pwebdisponible/direct403491BnoPDFlocalíntegro;lecturaparcialwebestipulación51–62no28pfull. CFPBencontrópresentaciónengañosaISAsnodeuda/nopréstamos,disclosures/penalidades;noafirmar2026condenapenalnitodosacuerdosRBFdeudamismaley.
+
+Fiscalía General de Nueva York · Yellowstone · actualización del 16/04/2026
+https://ag.ny.gov/resources/individuals/credit-debt-lending/yellowstone-settlement
+PrimarioHTML20090749Bcuerpo24–154webyleídolocal. Settlementsubmitted2dic2024/entered16ene2025,préstamosilegalesaltointeréspresentadosMCAsegúnautoridad. Noextenderalrestodelmercado/nocondenapenaljudicialsinituaciónactualotrosdemandadosDeltaBridgecomohechoprobado. Noofrecersolicitudesplazoyacerrado9ene2026nolecturacourtdocketfull.
+
+Excluido:
+- Sin categoría universal libre de deuda/regulación por llamarse reparto de ingresos.
+- No porcentajecomparaciónnominaligualTAE/cálculorentabilidadreal/condicionesmínimosausentes.
+- Sin recomendacionesproductos/ayudas ocriterioelegibilidad, no acusaciones nuevas.

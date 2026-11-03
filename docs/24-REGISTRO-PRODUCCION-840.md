@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-03T21:37:10+00:00.
+Comprobado en WordPress: 2026-11-03T21:56:37+00:00.
 
-**709/840 terminadas · 0 en curso · 131 pendientes.**
+**712/840 terminadas · 0 en curso · 128 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -725,9 +725,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 711 | 48/56 · 6/15 | E6.6.06 | Participación de los empleados en la empresa | terminada | 3/3 | [Leer](https://moevec.org/blog/participacion-empleados-empresa/) |
 | 712 | 48/56 · 7/15 | E6.6.07 | Inversores ángel y primeras rondas: cómo funciona | terminada | 3/3 | [Leer](https://moevec.org/blog/inversores-angel-primeras-rondas/) |
 | 713 | 48/56 · 8/15 | E6.6.08 | Préstamos entre particulares: ventajas y peligros | terminada | 3/3 | [Leer](https://moevec.org/blog/prestamos-entre-particulares/) |
-| 714 | 48/56 · 9/15 | E6.6.09 | Acuerdos de reparto de ingresos: alternativa a la deuda y al capital | pendiente | 0/3 | — |
-| 715 | 48/56 · 10/15 | E6.6.10 | Cooperativas de ahorro y crédito: banca de los socios | pendiente | 0/3 | — |
-| 716 | 48/56 · 11/15 | E6.6.11 | Caso ilustrativo: de la tanda vecinal a un fondo con reglas escritas | pendiente | 0/3 | — |
+| 714 | 48/56 · 9/15 | E6.6.09 | Acuerdos de reparto de ingresos: alternativa a la deuda y al capital | terminada | 3/3 | [Leer](https://moevec.org/blog/acuerdos-reparto-ingresos/) |
+| 715 | 48/56 · 10/15 | E6.6.10 | Cooperativas de ahorro y crédito: banca de los socios | terminada | 3/3 | [Leer](https://moevec.org/blog/cooperativas-ahorro-credito/) |
+| 716 | 48/56 · 11/15 | E6.6.11 | Caso ilustrativo: de la tanda vecinal a un fondo con reglas escritas | terminada | 3/3 | [Leer](https://moevec.org/blog/caso-tanda-a-fondo-comunitario/) |
 | 717 | 48/56 · 12/15 | E6.6.12 | Plantilla de acuerdo para un grupo de ahorro | pendiente | 0/3 | — |
 | 718 | 48/56 · 13/15 | E6.6.13 | Invertir en Cuba desde fuera: qué permite la ley | pendiente | 0/3 | — |
 | 719 | 48/56 · 14/15 | E6.6.14 | Cómo evaluar un proyecto antes de poner dinero | pendiente | 0/3 | — |

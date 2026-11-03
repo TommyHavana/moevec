@@ -1,8 +1,8 @@
 # Ejecución desde586 ·03/11/2026
 
-**709/840 terminadas, 2127 imágenes originales públicas, 0 en curso o borradores WordPress y 131 pendientes**. Inversión Distribuida y Contratos Comunitarios 7/15; 44 tandas completas.
+**712/840 terminadas, 2136 imágenes originales públicas, 0 en curso o borradores WordPress y 128 pendientes**. Inversión Distribuida y Contratos Comunitarios 10/15; 44 tandas completas.
 
-123 nuevas entradas y369originales públicos.
+126 nuevas entradas y378originales públicos.
 
 | Global | ID | URL | Imágenes |
 |---|---|---|---|
@@ -129,5 +129,8 @@
 |711|E6.6.06|https://moevec.org/blog/participacion-empleados-empresa/|3/3|
 |712|E6.6.07|https://moevec.org/blog/inversores-angel-primeras-rondas/|3/3|
 |713|E6.6.08|https://moevec.org/blog/prestamos-entre-particulares/|3/3|
+|714|E6.6.09|https://moevec.org/blog/acuerdos-reparto-ingresos/|3/3|
+|715|E6.6.10|https://moevec.org/blog/cooperativas-ahorro-credito/|3/3|
+|716|E6.6.11|https://moevec.org/blog/caso-tanda-a-fondo-comunitario/|3/3|
 
-Continuar **714–716 / E6.6.09–E6.6.11**, economia-compartida → Inversión Distribuida y Contratos Comunitarios. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **717–719**. **501/E4.2.06,512/E4.3.02,649/E4.12.04 y707/E6.6.02** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.
+Continuar **717–719 / E6.6.12–E6.6.14**, economia-compartida → Inversión Distribuida y Contratos Comunitarios. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **720–722**. **501/E4.2.06,512/E4.3.02,649/E4.12.04 y707/E6.6.02** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.

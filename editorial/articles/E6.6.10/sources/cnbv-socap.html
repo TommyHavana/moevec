@@ -1,0 +1,619 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+<html dir="ltr" lang="es-MX"> 
+    
+    <head><meta http-equiv="X-UA-Compatible" content="IE=Edge" /><meta http-equiv="X-UA-Compatible" content="IE=10" /><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10" /><meta name="GENERATOR" content="Microsoft SharePoint" /><meta http-equiv="Content-type" content="text/html; charset=utf-8" /><meta http-equiv="Expires" content="0" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Content-Script-Type" content="text/javascript" /><meta http-equiv="Content-Style-Type" content="text/css" /><meta http-equiv="Expires" content="0" /><meta name="GENERATOR" content="Microsoft SharePoint" /><meta name="Author" content="Administrador cnbv.gob.mx" /><meta name="description" content="Sitio Oficial de la Comisión Nacional Bancaria y de Valores" /><meta name="keywords" content="gobierno,babatz,bancario,mexico,bursatil,valores,portal gubernamental,mexicano,informacion,bancarios,entidades,datos,administracion" /><meta name="msapplication-TileImage" content="/_layouts/15/images/SharePointMetroAppTile.png" /><meta name="msapplication-TileColor" content="#0072C6" /><title>
+	
+	Sociedades Cooperativas de Ahorro y Préstamo
+
+</title><link rel="stylesheet" type="text/css" href="/_layouts/15/3082/styles/Themable/oslo.css?rev=ImSt3M4ZU8SelrFNz2m8zA%3D%3DTAG0"/>
+<link rel="stylesheet" type="text/css" href="/Style%20Library/CNBV/css/estilo_m.css"/>
+<link rel="stylesheet" type="text/css" href="/Style%20Library/CNBV/css/estilo.css"/>
+<script type="text/javascript" src="/_layouts/15/3082/initstrings.js?rev=VH27cqV0GG4Tm%2FLXObNlKQ%3D%3DTAG0"></script>
+<script type="text/javascript" src="/_layouts/15/init.js?rev=YPuH2sG56FuG1bnyGzRzFQ%3D%3DTAG0"></script>
+<script src="/_layouts/15/init.js?rev=YPuH2sG56FuG1bnyGzRzFQ%3D%3DTAG0"></script>
+<script type="text/javascript" src="/ScriptResource.axd?d=v54M-Yb3fEp852tcHLrh9XK1-OudYQbRSVI1rFD9yLpLZhxwfz0rmyu24Fzcuy0T5D1UW7bXq8RmRWCBgWxKyG94fRwtzfJHDhm5em3yhqg4FnANOPbd3WOTRLoj3aDw406UgnZT3kdJcMqP6WqttqcOYJ4wu7NbRR-GchE5fif4rmj3hXRjkL1MJVYbPWO00&amp;t=fffffffff7f39b88"></script>
+<script type="text/javascript" src="/_layouts/15/blank.js?rev=xLMlyjalEDldDyf8i1bPEg%3D%3DTAG0"></script>
+<script type="text/javascript" src="/ScriptResource.axd?d=2VW0BsdiM7J9yiIM67mmxHd6e0JNX2lKGyc_Pbd_ZzujA32vfbQFB8n3-8W6x6DBCTknKxeidcftAZ0rT4e4O81OLwq6KAfukT6GZ9z6lqqjBFNScR6CFRechTHsxxtIDYBJxAF0ALt5E_xqzTr_zrheELYoLIYAkLck9kyCpm-wFxGrblD5NFEkMlOfjsl-0&amp;t=fffffffff7f39b88"></script>
+<script type="text/javascript">RegisterSod("require.js", "\u002f_layouts\u002f15\u002frequire.js?rev=4UhLIF\u00252FezOvmGnh\u00252Fs0LLpA\u00253D\u00253DTAG0");</script>
+<script type="text/javascript">RegisterSod("strings.js", "\u002f_layouts\u002f15\u002f3082\u002fstrings.js?rev=L3YO7EIa1vDmCtORuAnTsQ\u00253D\u00253DTAG0");</script>
+<script type="text/javascript">RegisterSod("sp.res.resx", "\u002f_layouts\u002f15\u002f3082\u002fsp.res.js?rev=J\u00252BxNHd1ikIXlPBl\u00252FKw\u00252FybQ\u00253D\u00253DTAG0");</script>
+<script type="text/javascript">RegisterSod("sp.runtime.js", "\u002f_layouts\u002f15\u002fsp.runtime.js?rev=tWdA2V2hBgic\u00252FT6i\u00252B\u00252FJ2Ew\u00253D\u00253DTAG0");RegisterSodDep("sp.runtime.js", "sp.res.resx");</script>
+<script type="text/javascript">RegisterSod("sp.js", "\u002f_layouts\u002f15\u002fsp.js?rev=CqEPe0htc\u00252FnIVFfms\u00252FIxTw\u00253D\u00253DTAG0");RegisterSodDep("sp.js", "sp.runtime.js");RegisterSodDep("sp.js", "sp.ui.dialog.js");RegisterSodDep("sp.js", "sp.res.resx");</script>
+<script type="text/javascript">RegisterSod("sp.init.js", "\u002f_layouts\u002f15\u002fsp.init.js?rev=clAHmeKFMzku\u00252BqTFs0HHUw\u00253D\u00253DTAG0");</script>
+<script type="text/javascript">RegisterSod("sp.ui.dialog.js", "\u002f_layouts\u002f15\u002fsp.ui.dialog.js?rev=HnfeuKjAJSpaMwixLLIEDA\u00253D\u00253DTAG0");RegisterSodDep("sp.ui.dialog.js", "sp.init.js");RegisterSodDep("sp.ui.dialog.js", "sp.res.resx");</script>
+<script type="text/javascript">RegisterSod("core.js", "\u002f_layouts\u002f15\u002fcore.js?rev=oYLuS7oM9VicA6Bp4aBmew\u00253D\u00253DTAG0");RegisterSodDep("core.js", "strings.js");</script>
+<script type="text/javascript">RegisterSod("menu.js", "\u002f_layouts\u002f15\u002fmenu.js?rev=f7Wm9Hx7NnwHn\u00252FjP\u00252FTQp7Q\u00253D\u00253DTAG0");</script>
+<script type="text/javascript">RegisterSod("mQuery.js", "\u002f_layouts\u002f15\u002fmquery.js?rev=TfhBhHoCfy1DPEh40\u00252Fp23g\u00253D\u00253DTAG0");</script>
+<script type="text/javascript">RegisterSod("callout.js", "\u002f_layouts\u002f15\u002fcallout.js?rev=MljUBny1CFG6spbWcM3lWw\u00253D\u00253DTAG0");RegisterSodDep("callout.js", "strings.js");RegisterSodDep("callout.js", "mQuery.js");RegisterSodDep("callout.js", "core.js");</script>
+<script type="text/javascript">RegisterSod("sp.core.js", "\u002f_layouts\u002f15\u002fsp.core.js?rev=Z44rHB8PffrQPbo6HZC6HQ\u00253D\u00253DTAG0");RegisterSodDep("sp.core.js", "strings.js");RegisterSodDep("sp.core.js", "sp.init.js");RegisterSodDep("sp.core.js", "core.js");</script>
+<script type="text/javascript">RegisterSod("clienttemplates.js", "\u002f_layouts\u002f15\u002fclienttemplates.js?rev=XGrin\u00252BBgSMZ73oisG97QgQ\u00253D\u00253DTAG0");</script>
+<script type="text/javascript">RegisterSod("sharing.js", "\u002f_layouts\u002f15\u002fsharing.js?rev=1z7Hb\u00252FJLJPX3Nt\u00252FzWYpfSw\u00253D\u00253DTAG0");RegisterSodDep("sharing.js", "strings.js");RegisterSodDep("sharing.js", "mQuery.js");RegisterSodDep("sharing.js", "clienttemplates.js");RegisterSodDep("sharing.js", "core.js");</script>
+<script type="text/javascript">RegisterSod("suitelinks.js", "\u002f_layouts\u002f15\u002fsuitelinks.js?rev=WaKCIoN7lbKxpgwcaXKJsQ\u00253D\u00253DTAG0");RegisterSodDep("suitelinks.js", "strings.js");RegisterSodDep("suitelinks.js", "core.js");</script>
+<script type="text/javascript">RegisterSod("userprofile", "\u002f_layouts\u002f15\u002fsp.userprofiles.js?rev=cx6U8sP\u00252ByP0OFLjk6ekyIg\u00253D\u00253DTAG0");RegisterSodDep("userprofile", "sp.runtime.js");</script>
+<script type="text/javascript">RegisterSod("followingcommon.js", "\u002f_layouts\u002f15\u002ffollowingcommon.js?rev=KM4oS914egSz2TslqiIzcQ\u00253D\u00253DTAG0");RegisterSodDep("followingcommon.js", "strings.js");RegisterSodDep("followingcommon.js", "sp.js");RegisterSodDep("followingcommon.js", "userprofile");RegisterSodDep("followingcommon.js", "core.js");RegisterSodDep("followingcommon.js", "mQuery.js");</script>
+<script type="text/javascript">RegisterSod("profilebrowserscriptres.resx", "\u002f_layouts\u002f15\u002f3082\u002fprofilebrowserscriptres.js?rev=Q0jeR3lY56raUGvs8iu7RA\u00253D\u00253DTAG0");</script>
+<script type="text/javascript">RegisterSod("sp.ui.mysitecommon.js", "\u002f_layouts\u002f15\u002fsp.ui.mysitecommon.js?rev=FrquuGzUNTjciGnstEuZ6w\u00253D\u00253DTAG0");RegisterSodDep("sp.ui.mysitecommon.js", "sp.init.js");RegisterSodDep("sp.ui.mysitecommon.js", "sp.runtime.js");RegisterSodDep("sp.ui.mysitecommon.js", "userprofile");RegisterSodDep("sp.ui.mysitecommon.js", "profilebrowserscriptres.resx");</script>
+<script type="text/javascript">RegisterSod("browserScript", "\u002f_layouts\u002f15\u002fnon_ie.js?rev=v3ymou3aP9sKV8xFuQ\u00252Bu5Q\u00253D\u00253DTAG0");RegisterSodDep("browserScript", "strings.js");</script>
+<script type="text/javascript">RegisterSod("inplview", "\u002f_layouts\u002f15\u002finplview.js?rev=NftH85thZrEjVQ9PCKWDew\u00253D\u00253DTAG0");RegisterSodDep("inplview", "strings.js");RegisterSodDep("inplview", "core.js");RegisterSodDep("inplview", "clienttemplates.js");RegisterSodDep("inplview", "sp.js");</script>
+<link type="text/xml" rel="alternate" href="/SECTORES-SUPERVISADOS/SECTOR-POPULAR/Preguntas-Frecuentes/_vti_bin/spsdisco.aspx" />
+        
+        
+        <link rel="canonical" href="https://www.cnbv.gob.mx:443/SECTORES-SUPERVISADOS/SECTOR-POPULAR/Preguntas-Frecuentes/Paginas/Sociedades-Cooperativas-de-Ahorro-y-Pr%C3%A9stamo.aspx" />
+        
+		
+<!-- APA GOB.MX 
+	
+
+	
+	-->
+	
+	<!-- APA GOB.MX 
+	
+	<link href="https://framework-gb.cdn.gob.mx/favicon.ico" rel="shortcut icon" /><link href="https://framework-gb.cdn.gob.mx/assets/styles/main.css" rel="stylesheet" />-->
+	
+	<!--[if lt IE 9]>
+	<link rel="stylesheet" type="text/css" href="/Style%20Library/css/estilo_IE.css" />
+	<![endif]-->		
+	
+	 
+	
+	
+	<script type="text/javascript" src="/Style%20Library/CNBV/js/jquery-1.10.2.min.js"></script>
+
+	<!-- APA GOB.MX  
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="https://framework-gb.cdn.gob.mx/gobmx.js"></script>-->
+
+			 
+	<script type="text/javascript">//<![CDATA[
+        var g_pageLoadAnimationParams = { elementSlideIn : "sideNavBox", elementSlideInPhase2 : "contentBox" };
+        //]]></script>
+	<script type="text/javascript" src="/Style%20Library/cnbv/js/jquery.bpopup.min.js"></script>    
+	  
+	
+	
+	
+	 
+
+  <script type="text/javascript" src="https://framework-gb.cdn.gob.mx/assets/scripts/vendor/modernizr.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700&amp;subset=latin" media="all" />
+  <script type="text/javascript" src="https://framework-gb.cdn.gob.mx/assets/scripts/vendor/pace.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="https://framework-gb.cdn.gob.mx/gobmx.js"></script>
+	
+	<style type="text/css" dir="ltr">
+	 
+	  .navbar-fixed-topp{
+	  	  top:80px;
+}
+	 
+	</style>
+     
+  <link href="https://framework-gb.cdn.gob.mx/favicon.ico" rel="shortcut icon" /><link href="https://framework-gb.cdn.gob.mx/qa/assets/styles/main.css" rel="stylesheet" /></head>
+
+<body onload="javascript:if (typeof(_spBodyOnLoadWrapper) != 'undefined') _spBodyOnLoadWrapper();" onhashchange="if (typeof(_spBodyOnHashChange) != 'undefined') _spBodyOnHashChange();">
+
+<form method="post" action="./Sociedades-Cooperativas-de-Ahorro-y-Préstamo.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="aspnetForm">
+<div class="aspNetHidden">
+<input type="hidden" name="_wpcmWpid" id="_wpcmWpid" value="" />
+<input type="hidden" name="wpcmVal" id="wpcmVal" value="" />
+<input type="hidden" name="MSOWebPartPage_PostbackSource" id="MSOWebPartPage_PostbackSource" value="" />
+<input type="hidden" name="MSOTlPn_SelectedWpId" id="MSOTlPn_SelectedWpId" value="" />
+<input type="hidden" name="MSOTlPn_View" id="MSOTlPn_View" value="0" />
+<input type="hidden" name="MSOTlPn_ShowSettings" id="MSOTlPn_ShowSettings" value="False" />
+<input type="hidden" name="MSOGallery_SelectedLibrary" id="MSOGallery_SelectedLibrary" value="" />
+<input type="hidden" name="MSOGallery_FilterString" id="MSOGallery_FilterString" value="" />
+<input type="hidden" name="MSOTlPn_Button" id="MSOTlPn_Button" value="none" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__REQUESTDIGEST" id="__REQUESTDIGEST" value="noDigest" />
+<input type="hidden" name="MSOSPWebPartManager_DisplayModeName" id="MSOSPWebPartManager_DisplayModeName" value="Browse" />
+<input type="hidden" name="MSOSPWebPartManager_ExitingDesignMode" id="MSOSPWebPartManager_ExitingDesignMode" value="false" />
+<input type="hidden" name="MSOWebPartPage_Shared" id="MSOWebPartPage_Shared" value="" />
+<input type="hidden" name="MSOLayout_LayoutChanges" id="MSOLayout_LayoutChanges" value="" />
+<input type="hidden" name="MSOLayout_InDesignMode" id="MSOLayout_InDesignMode" value="" />
+<input type="hidden" name="_wpSelected" id="_wpSelected" value="" />
+<input type="hidden" name="_wzSelected" id="_wzSelected" value="" />
+<input type="hidden" name="MSOSPWebPartManager_OldDisplayModeName" id="MSOSPWebPartManager_OldDisplayModeName" value="Browse" />
+<input type="hidden" name="MSOSPWebPartManager_StartWebPartEditingName" id="MSOSPWebPartManager_StartWebPartEditingName" value="false" />
+<input type="hidden" name="MSOSPWebPartManager_EndWebPartEditing" id="MSOSPWebPartManager_EndWebPartEditing" value="false" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUBMA9kFgJmD2QWAgIBD2QWBAIBD2QWBAIQD2QWAmYPZBYCAgEPFgIeE1ByZXZpb3VzQ29udHJvbE1vZGULKYgBTWljcm9zb2Z0LlNoYXJlUG9pbnQuV2ViQ29udHJvbHMuU1BDb250cm9sTW9kZSwgTWljcm9zb2Z0LlNoYXJlUG9pbnQsIFZlcnNpb249MTYuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49NzFlOWJjZTExMWU5NDI5YwFkAhsPZBYCAgMPZBYCZg9kFgJmDzwrAAYAZAIDD2QWBAIHD2QWBAUmZ18xNmM5YWE3Zl81NDdhXzQzZDlfYjg3Ml83NDMxY2E3ZWFiMjcPZBYCZg9kFgICAQ8WAh4JaW5uZXJodG1sBbRTPGR0PjEuIMK/UXXDqSBlcyB1bmEgU29jaWVkYWQgQ29vcGVyYXRpdmEgZGUgQWhvcnJvIHkgUHLDqXN0YW1vPzwvZHQ+PGRkPjxkaXYgY2xhc3M9IkV4dGVybmFsQ2xhc3NBQ0IyQTE5QTFEOUQ0QUNGQTIwNjM1Njk1MjBCMTMwRSI+PGRpdiBjbGFzcz0iRXh0ZXJuYWxDbGFzczhFOTY1MTk5NkYwOTQ0QTJBQzg2NDhCNzJERDQyMDJEIiBzdHlsZT0idGV4dC1hbGlnbiYjNTg7bGVmdDsiPjxkaXYgY2xhc3M9IkV4dGVybmFsQ2xhc3M2MUQwRjhCNUMzMzg0MkUyQkVFMUVBNjRERTk0OEVGRiI+RGUgY29uZm9ybWlkYWQgY29uIGVsIGFydMOtY3VsbyAyLCBmcmFjY2nDs24gWCBkZSBsYSBMZXkgUGFyYSBSZWd1bGFyIGxhcyBBY3RpdmlkYWRlcyBkZSBsYXMgU29jaWVkYWRlcyBDb29wZXJhdGl2YXMgZGUgQWhvcnJvIHkgUHLDqXN0YW1vIHNvbiBzb2NpZWRhZGVzIGNvbnN0aXR1aWRhcyB5IG9yZ2FuaXphZGFzIGNvbmZvcm1lIGEgbGEgTGV5IEdlbmVyYWwgZGUgU29jaWVkYWRlcyBDb29wZXJhdGl2YXMsIGluZGVwZW5kaWVudGVtZW50ZSBkZWwgbm9tYnJlIGNvbWVyY2lhbCwgcmF6w7NuIG8gZGVub21pbmFjacOzbiBzb2NpYWwgcXVlIGFkb3B0ZW4sIHF1ZSB0ZW5nYW4gcG9yIG9iamV0byByZWFsaXphciBvcGVyYWNpb25lcyBkZSBhaG9ycm8geSBwcsOpc3RhbW8gY29uIHN1cyBTb2Npb3MsIHkgcXVpZW5lcyBmb3JtYW4gcGFydGUgZGVsIHNpc3RlbWEgZmluYW5jaWVybyBtZXhpY2FubyBjb24gZWwgY2Fyw6FjdGVyIGRlIGludGVncmFudGVzIGRlbCBzZWN0b3Igc29jaWFsIHNpbiDDoW5pbW8gZXNwZWN1bGF0aXZvIHkgcmVjb25vY2llbmRvIHF1ZSBubyBzb24gaW50ZXJtZWRpYXJpb3MgZmluYW5jaWVyb3MgY29uIGZpbmVzIGRlIGx1Y3JvLjwvZGl2PjwvZGl2PjwvZGl2PjwvZGQ+PGR0PjIuIMK/Q3XDoWxlcyBDb29wZXJhdGl2YXMgc2UgZW5jdWVudHJhbiBhdXRvcml6YWRhcyBwb3IgbGEgQ29taXNpw7NuIE5hY2lvbmFsIEJhbmNhcmlhIHkgZGUgVmFsb3JlcyBwYXJhIHJlYWxpemFyIGFjdGl2aWRhZGVzIGRlIEFob3JybyB5IFByw6lzdGFtbz88L2R0PjxkZD48ZGl2IGNsYXNzPSJFeHRlcm5hbENsYXNzMTRCMTA0RERBMjQ4NDBEN0E3RDI1Nzg5MDY2NDhBQ0IiPjxkaXYgY2xhc3M9IkV4dGVybmFsQ2xhc3NDMDZEQjlBQ0M2OUI0OTVDOTJBODMyNTQ5MEI1RURFMSIgc3R5bGU9InRleHQtYWxpZ24mIzU4O2xlZnQ7Ij48ZGl2IGNsYXNzPSJFeHRlcm5hbENsYXNzOTgwNTkwMUVGNUEzNEYyNzhFNzg2MzkxMjk1MkNBNUMiIGRpcj0ibHRyIj5MZSBpbnZpdGFtb3MgYSBjb25zdWx0YXIgZWwgUGFkcsOzbiBkZSBFbnRpZGFkZXMgRmluYW5jaWVyYXMgU3VwZXJ2aXNhZGFzIChQRVMpIGRlIGxhIHDDoWdpbmEgd2ViIGRlIGVzdGEgQ29taXNpw7NuLCBlbiBlbCBxdWUgZW5jb250cmFyw6EsIGVudHJlIG90cm9zIGRhdG9zLCBsYSBkZW5vbWluYWNpw7NuIGRpcmVjY2nDs24geSB0ZWzDqWZvbm9zIGRlIGxhcyBTb2NpZWRhZGVzIENvb3BlcmF0aXZhcyBkZSBBaG9ycm8geSBQcsOpc3RhbW8gYXV0b3JpemFkYXMgcGFyYSBvcGVyYXIgY29tbyB0YWxlcyBwb3Igw6lzdGUgw5NyZ2FubyBTdXBlcnZpc29yLiYjMTYwOyA8L2Rpdj48L2Rpdj48L2Rpdj48L2RkPjxkdD4zLiDCv1F1acOpbiBzdXBlcnZpc2EgYSBsYXMgU29jaWVkYWRlcyBDb29wZXJhdGl2YXMgZGUgQWhvcnJvIHkgUHLDqXN0YW1vPzwvZHQ+PGRkPjxkaXYgY2xhc3M9IkV4dGVybmFsQ2xhc3NDOTExNEJGRDRFNDc0MkIyOTJCM0E1QjIxMENEOTE5QiI+PGRpdiBjbGFzcz0iRXh0ZXJuYWxDbGFzczg3QzlFREE2NjkyOTQ3NjQ5NThFREY3OTBBNEUzN0YzIiBzdHlsZT0idGV4dC1hbGlnbiYjNTg7bGVmdDsiPjxkaXYgY2xhc3M9IkV4dGVybmFsQ2xhc3MwQzVGOTYzODQzREI0MkU5ODNBRDY5MzdDMkRCMzM2QiI+TGFzIFNvY2llZGFkZXMgQ29vcGVyYXRpdmFzIGRlIEFob3JybyB5IFByw6lzdGFtbyBjb24gbml2ZWxlcyBkZSBvcGVyYWNpw7NuIEkgYSBJViBzZSBlbmN1ZW50cmFuIHN1amV0YXMgYSBsYSBzdXBlcnZpc2nDs24geSByZWd1bGFjacOzbiBkZSBsYSBDb21pc2nDs24gTmFjaW9uYWwgQmFuY2FyaWEgeSBkZSBWYWxvcmVzIGVuIHTDqXJtaW5vcyBkZSBsYSBMZXkgUGFyYSBSZWd1bGFyIGxhcyBBY3RpdmlkYWRlcyBkZSBsYXMgU29jaWVkYWRlcyBDb29wZXJhdGl2YXMgZGUgQWhvcnJvIHkgUHLDqXN0YW1vIChMUkFTQ0FQKSB5IGRlIG1hbmVyYSBhdXhpbGlhciwgc29uIHN1cGVydmlzYWRhcyBwb3IgZWwgQ29taXTDqSBkZSBTdXBlcnZpc2nDs24gQXV4aWxpYXIgZGVsIEZvbmRvIGRlIFByb3RlY2Npw7NuIGEgcXVlIHNlIHJlZmllcmUgbGEgTFJBU0NBUC48L2Rpdj48L2Rpdj48L2Rpdj48L2RkPjxkdD40LiDCv0N1w6FsIGVzIGxhIG5vcm1hdGl2aWRhZCBhIGxhIHF1ZSBlc3TDoW4gc3VqZXRhcyBsYXMgU29jaWVkYWRlcyBDb29wZXJhdGl2YXMgZGUgQWhvcnJvIHkgUHLDqXN0YW1vPzwvZHQ+PGRkPjxkaXYgY2xhc3M9IkV4dGVybmFsQ2xhc3MxNTU3ODcwQjY4NDU0NjQyQjM1OTNCODAyMTIwOTA0NCI+PGRpdiBjbGFzcz0iRXh0ZXJuYWxDbGFzczQ0QTlBMTVEREEyODQzOTlCQTE0MTdFNDZFNjE2MjE0IiBzdHlsZT0idGV4dC1hbGlnbiYjNTg7bGVmdDsiPjxwPlRvZGFzIGxhcyBTb2NpZWRhZGVzIENvb3BlcmF0aXZhcyBkZSBBaG9ycm8geSBQcsOpc3RhbW8gc2UgZW5jdWVudHJhbiBzdWpldGFzIGEgbGEgTGV5IEdlbmVyYWwgZGUgU29jaWVkYWRlcyBDb29wZXJhdGl2YXMgeSBhIGxhIExleSBQYXJhIFJlZ3VsYXIgbGFzIEFjdGl2aWRhZGVzIGRlIGxhcyBTb2NpZWRhZGVzIENvb3BlcmF0aXZhcyBkZSBBaG9ycm8geSBQcsOpc3RhbW8uPC9wPjxwPkFxdWVsbGFzIFNvY2llZGFkZXMgQ29vcGVyYXRpdmFzIGRlIEFob3JybyB5IFByw6lzdGFtbyBjb24gbml2ZWxlcyBkZSBvcGVyYWNpw7NuIEkgYSBJViwgYXV0b3JpemFkYXMgcG9yIGxhIENvbWlzacOzbiBOYWNpb25hbCBCYW5jYXJpYSB5IGRlIFZhbG9yZXMsIGEgc3UgdmV6IHNlIGVuY3VlbnRyYW4gc3VqZXRhcyBhIGxhcyBEaXNwb3NpY2lvbmVzIHF1ZSBlbWl0YSBsYSBDb21pc2nDs24gTmFjaW9uYWwgQmFuY2FyaWEgeSBkZSBWYWxvcmVzIHkgbGEgU2VjcmV0YXLDrWEgZGUgSGFjaWVuZGEgeSBDcsOpZGl0byBQw7pibGljby48L3A+PC9kaXY+PC9kaXY+PC9kZD48ZHQ+NS4gwr9Dw7NtbyBwdWVkbyBjb25zdGl0dWlyIHVuYSBTb2NpZWRhZCBDb29wZXJhdGl2YSBkZSBBaG9ycm8geSBQcsOpc3RhbW8/PC9kdD48ZGQ+PGRpdiBjbGFzcz0iRXh0ZXJuYWxDbGFzc0JGREYxMEE1RTI1NDQ2QThCMzRDREFCRjA3RkNBRDIyIj48ZGl2IGNsYXNzPSJFeHRlcm5hbENsYXNzQjI4OUJGQjMyNTFFNDdEQjhCREI0QzZCQzY1OTJEMDciIHN0eWxlPSJ0ZXh0LWFsaWduJiM1ODtsZWZ0OyI+PGRpdiBjbGFzcz0iRXh0ZXJuYWxDbGFzc0I5NTMyM0FENzAyQjQ3RkFCMTUyMDc0RUQ0QzM3MDhCIj5Mb3MgcmVxdWlzaXRvcyBwYXJhIGNvbnN0aXR1aXIgdW5hIFNvY2llZGFkIENvb3BlcmF0aXZhIGRlIEFob3JybyB5IFByw6lzdGFtbyBzZSBlc3RhYmxlY2VuIGVuIGxhIExleSBHZW5lcmFsIGRlIFNvY2llZGFkZXMgQ29vcGVyYXRpdmFzLiBFbiBlbCBjYXNvIGRlIHF1ZSBzZSB0cmF0ZSBkZSB1bmEgU29jaWVkYWQgQ29vcGVyYXRpdmEgZGUgQWhvcnJvIHkgUHLDqXN0YW1vIGNvbiBuaXZlbCBkZSBvcGVyYWNpw7NuIEkgYSBJViwgYWRpY2lvbmFsbWVudGUgc2UgcmVxdWllcmUgbGEgYXV0b3JpemFjacOzbiBhIHF1ZSBzZSByZWZpZXJlbiBsb3MgYXJ0w61jdWxvcyAxMCB5IDExIGRlIGxhIExleSBQYXJhIFJlZ3VsYXIgbGFzIEFjdGl2aWRhZGVzIGRlIGxhcyBTb2NpZWRhZGVzIENvb3BlcmF0aXZhcyBkZSBBaG9ycm8geSBQcsOpc3RhbW8uPC9kaXY+PC9kaXY+PC9kaXY+PC9kZD48ZHQ+Ni4gwr9Ub2RhcyBsYXMgQ2FqYXMgZGUgYWhvcnJvIGRlYmVuIHNvbGljaXRhciBhdXRvcml6YWNpw7NuIGRlIGxhIENvbWlzacOzbiBOYWNpb25hbCBCYW5jYXJpYSB5IGRlIFZhbG9yZXMgcGFyYSBvcGVyYXI/PC9kdD48ZGQ+PGRpdiBjbGFzcz0iRXh0ZXJuYWxDbGFzc0MzNjY0NDNCQUE5RDQ0MUZCQjY2NUZBMjVCREIzQjhBIj48ZGl2IGNsYXNzPSJFeHRlcm5hbENsYXNzQUJBMkU5QUYwNEU3NEZDQkEwODk4NkY2RTE5RERFRDIiIHN0eWxlPSJ0ZXh0LWFsaWduJiM1ODtsZWZ0OyI+PHA+RGUgYWN1ZXJkbyBhbCBhcnTDrWN1bG8gMTMgZGUgbGEgTGV5IHBhcmEgcmVndWxhciBsYXMgYWN0aXZpZGFkZXMgZGUgbGFzIHNvY2llZGFkZXMgY29vcGVyYXRpdmFzIGRlIGFob3JybyB5IHByw6lzdGFtbywgYXF1ZWxsYXMgY3V5byBtb250byB0b3RhbCBkZSBhY3Rpdm9zIG5vIHJlYmFzZSBlbCBsw61taXRlIGVxdWl2YWxlbnRlIGVuIG1vbmVkYSBuYWNpb25hbCBhIDLigJk1MDAsMDAwIFVESVMgY29udGFyw6FuIGNvbiB1biBuaXZlbCBkZSBvcGVyYWNpb25lcyBiw6FzaWNvIHkgbm8gcmVxdWVyaXLDoW4gZGUgbGEgYXV0b3JpemFjacOzbiBkZSBsYSBDb21pc2nDs24gcGFyYSByZWFsaXphciBvcGVyYWNpb25lcyBkZSBhaG9ycm8geSBwcsOpc3RhbW8uIEVzdGFzIHNvY2llZGFkZXMgbm8gc29uIHN1cGVydmlzYWRhcyBwb3IgbGEgQ29taXNpw7NuIE5hY2lvbmFsIEJhbmNhcmlhIHkgZGUgVmFsb3JlcyB5IHBvciBsbyBtaXNtbyBubyBjdWVudGFuIGNvbiBsYSBjb2JlcnR1cmEgZGUgMjUsMDAwIFVESVMgcG9yIHNvY2lvIGFob3JyYWRvciBxdWUgb2ZyZWNlIGVsIGZvbmRvIGRlIHByb3RlY2Npw7NuLjwvcD48cD5BZGljaW9uYWxtZW50ZSwgbGFzIENhamFzIGRlIEFob3JybyBhIGxhcyBxdWUgaGFjZSByZWZlcmVuY2lhIGxhIGxlZ2lzbGFjacOzbiBsYWJvcmFsIGVuIHTDqXJtaW5vIGRlIGxvcyBhcnTDrWN1bG9zIDExMCBmcmFjY2nDs24gSVYgeSAxMzIgZnJhY2Npw7NuIFhYSUlJIGRlIGxhIExleSBGZWRlcmFsIGRlbCBUcmFiYWpvIHRhbXBvY28gcmVxdWllcmVuIGRlIGxhIGF1dG9yaXphY2nDs24gZGUgbGEgQ05CViBwYXJhIG9wZXJhci48L3A+PC9kaXY+PC9kaXY+PC9kZD48ZHQ+Ny4gwr9EZSBxdcOpIG1hbmVyYSBwdWVkbyBzYWJlciBzaSBtaXMgYWhvcnJvcyBlc3TDoW4gc2VndXJvcyBlbiB1bmEgU29jaWVkYWQgQ29vcGVyYXRpdmEgZGUgQWhvcnJvIHkgUHLDqXN0YW1vPzwvZHQ+PGRkPjxkaXYgY2xhc3M9IkV4dGVybmFsQ2xhc3MwNkY3QzU5MDc3MjY0RkQxOTRDOUE4RUM1NkY2MTFFMyI+PGRpdiBjbGFzcz0iRXh0ZXJuYWxDbGFzczkxMTkwRTFDOTREQzRFQkVCOTAzQzg1MDgyN0QxN0NBIiBzdHlsZT0idGV4dC1hbGlnbiYjNTg7bGVmdDsiPjxwPkxhIENvbWlzacOzbiBOYWNpb25hbCBCYW5jYXJpYSB5IGRlIFZhbG9yZXMgKENOQlYpLCBlbiB0w6lybWlub3MgZGUgTGV5IHBhcmEgUmVndWxhciBsYXMgQWN0aXZpZGFkZXMgZGUgbGFzIFNvY2llZGFkZXMgQ29vcGVyYXRpdmFzIGRlIEFob3JybyB5IFByw6lzdGFtbywgc29sbyB0aWVuZSBmYWN1bHRhZGVzIGRlIHN1cGVydmlzacOzbiBzb2JyZSBzb2NpZWRhZGVzIGF1dG9yaXphZGFzIHBhcmEgcmVhbGl6YXIgbyBjb250aW51YXIgcmVhbGl6YW5kbyBvcGVyYWNpb25lcyBkZSBhaG9ycm8geSBwcsOpc3RhbW8gY29tbyBTb2NpZWRhZCBDb29wZXJhdGl2YSBkZSBBaG9ycm8gZGUgQWhvcnJvIHkgUHLDqXN0YW1vIGNvbiBuaXZlbGVzIGRlIG9wZXJhY2nDs24gSSBhIElWIChTb2NhcCkuPC9wPjxwPkRlIGNvbmZvcm1pZGFkIGNvbiBlbCBhcnTDrWN1bG8gNDIgZGUgbGEgTGV5IFBhcmEgUmVndWxhciBsYXMgQWN0aXZpZGFkZXMgZGUgbGFzIFNvY2llZGFkZXMgQ29vcGVyYXRpdmFzIGRlIEFob3JybyB5IFByw6lzdGFtbywgZWwgR29iaWVybm8gRmVkZXJhbCwgYSB0cmF2w6lzIGRlIGxhIFNlY3JldGFyw61hIGRlIEhhY2llbmRhIHkgQ3LDqWRpdG8gUMO6YmxpY28sIGNvbnN0aXR1ecOzIHVuIGZpZGVpY29taXNvIHF1ZSBzZSBkZW5vbWluYSBGb25kbyBkZSBTdXBlcnZpc2nDs24gQXV4aWxpYXIgZGUgU29jaWVkYWRlcyBDb29wZXJhdGl2YXMgZGUgQWhvcnJvIHkgUHLDqXN0YW1vIHkgZGUgUHJvdGVjY2nDs24gYSBzdXMgQWhvcnJhZG9yZXMsIG8gRm9uZG8gZGUgUHJvdGVjY2nDs24uPC9wPjxwPkVsIEZvbmRvIGRlIFByb3RlY2Npw7NuIHRpZW5lIGNvbW8gZmluYWxpZGFkIGxsZXZhciBhIGNhYm8gbGEgc3VwZXJ2aXNpw7NuIGF1eGlsaWFyIGRlIGxhcyBTb2NhcCBjb24gbml2ZWxlcyBkZSBvcGVyYWNpw7NuIEkgYSBJVjsgcmVhbGl6YXIgb3BlcmFjaW9uZXMgcHJldmVudGl2YXMgdGVuZGllbnRlcyBhIGV2aXRhciBwcm9ibGVtYXMgZmluYW5jaWVyb3MgZGUgbGFzIFNvY2FwIHkgZW4gdW4gY2FzbyBleHRyZW1vIHNlIGN1ZW50YSBjb24gdW5hIGNvYmVydHVyYSBwYXJhIGxvcyBkZXDDs3NpdG9zIGRlIGxvcyBTb2Npb3MgaGFzdGEgcG9yIHVuIGltcG9ydGUgZXF1aXZhbGVudGUgYSAyNSwwMDAgVURJUyAocG9jbyBtw6FzIGRlICQxMzIgbWlsIHBlc29zKSBwb3IgcGVyc29uYSAmIzE2MDtjdWFscXVpZXJhIHF1ZSBzZWEgZWwgbsO6bWVybyB5IGNsYXNlIGRlIG9wZXJhY2lvbmVzLjwvcD48cD5Qb3IgbG8gYW50ZXJpb3IsIHNlIHJlY29taWVuZGEgdXRpbGl6YXIgw7puaWNhbWVudGUgbG9zIHNlcnZpY2lvcyBxdWUgb2ZyZWNlbiBsYXMgU29jaWVkYWRlcyBDb29wZXJhdGl2YXMgZGUgQWhvcnJvIHkgUHLDqXN0YW1vIGF1dG9yaXphZGFzLCBsYXMgY3VhbGVzIHNlIHB1ZWRlbiBjb25zdWx0YXIgZW4gZWwgUGFkcsOzbiBkZSBFbnRpZGFkZXMgRmluYW5jaWVyYXMgU3VwZXJ2aXNhZGFzIChQRVMpIGRlIGxhIHDDoWdpbmEgd2ViIGRlIGVzdGEgQ29taXNpw7NuLCBlbiBlbCBxdWUgZW5jb250cmFyw6EsIGVudHJlIG90cm9zIGRhdG9zLCBsYSBkZW5vbWluYWNpw7NuIGRpcmVjY2nDs24geSB0ZWzDqWZvbm9zIGRlIGxhcyBTb2NpZWRhZGVzIENvb3BlcmF0aXZhcyBkZSBBaG9ycm8geSBQcsOpc3RhbW8gYXV0b3JpemFkYXMgcGFyYSBvcGVyYXIgY29tbyB0YWxlcyBwb3Igw6lzdGUgw5NyZ2FubyBTdXBlcnZpc29yLjwvcD48L2Rpdj48L2Rpdj48L2RkPjxkdD44LiDCv1F1w6kgZXMgZWwgQ29taXTDqSBkZSBTdXBlcnZpc2nDs24gQXV4aWxpYXI/PC9kdD48ZGQ+PGRpdiBjbGFzcz0iRXh0ZXJuYWxDbGFzc0IxQzBDRUMxRDM3RDRFOEY4NzVBRDZCQkY2MUE5MTU1Ij48ZGl2IGNsYXNzPSJFeHRlcm5hbENsYXNzQTVFNTA1QzBBQjM1NDAwRUFDMzI3NTZFQjY5RkJGNTUiIHN0eWxlPSJ0ZXh0LWFsaWduJiM1ODtsZWZ0OyI+PHA+RGUgY29uZm9ybWlkYWQgY29uIGxhIExleSBQYXJhIFJlZ3VsYXIgbGFzIEFjdGl2aWRhZGVzIGRlIGxhcyBTb2NpZWRhZGVzIENvb3BlcmF0aXZhcyBkZSBBaG9ycm8geSBQcsOpc3RhbW8gZXMgZWwgZW5jYXJnYWRvIGRlIGVqZXJjZXIgbGEgc3VwZXJ2aXNpw7NuIGF1eGlsaWFyIGRlIGxhcyBtaXNtYXMsIGVsIGN1YWwgdGllbmUgY29tbyBvYmpldG8gcHJpbmNpcGFsIGxhIHByZXZlbmNpw7NuIGRlIGN1YWxxdWllciB0aXBvIGRlIGluc29sdmVuY2lhIG8gcmllc2dvIGRlIG9wZXJhdGl2aWRhZCBkZSBkaWNoYXMgU29jaWVkYWRlcy48L3A+PHA+U3VzIGZ1bmNpb25lcyBkZSBjb25mb3JtaWRhZCBjb24gZWwgYXJ0w61jdWxvIDUyIGRlIGxhIExleSBQYXJhIFJlZ3VsYXIgbGFzIEFjdGl2aWRhZGVzIGRlIGxhcyBTb2NpZWRhZGVzIENvb3BlcmF0aXZhcyBkZSBBaG9ycm8geSBQcsOpc3RhbW8gc29uIGVudHJlIG90cmFzIGxhcyBzaWd1aWVudGVzJiM1ODsmIzE2MDs8L3A+PHA+KEkpIExsZXZhciBlbCByZWdpc3RybyBkZSBTb2NpZWRhZGVzIENvb3BlcmF0aXZhcyBkZSBBaG9ycm8geSBQcsOpc3RhbW87JiMxNjA7PC9wPjxwPihJSSkgUmV2aXNhciwgdmVyaWZpY2FyIGNvbXByb2JhciB5IGV2YWx1YXIgbG9zIHJlY3Vyc29zLCBvYmxpZ2FjaW9uZXMgeSBwYXRyaW1vbmlvIGRlIGRpY2hhcyBzb2NpZWRhZGVzLCBhc8OtIGNvbW8gbGFzIG9wZXJhY2lvbmVzLCBmdW5jaW9uYW1pZW50bywgc2lzdGVtYXMgZGUgY29udHJvbCB5LCBlbiBnZW5lcmFsLCB0b2RvIGxvIHF1ZSBwdWRpZW5kbyBhZmVjdGFyIGxhIHBvc2ljacOzbiBmaW5hbmNpZXJhIHkgc2l0dWFjacOzbiBsZWdhbCBkZSBhcXXDqWxsYXMsIGNvbnN0ZSBvIGRlYmEgY29uc3RhciBlbiBzdXMgcmVnaXN0cm9zLCBhIGZpbiBkZSBxdWUgc2UgYWp1c3RlbiBhIGVzdGEgTGV5LCBhIGxhcyBkaXNwb3NpY2lvbmVzIHF1ZSBkZSBlbGxhIGVtYW5lbiB5IGEgbGFzIHNhbmFzIHByw6FjdGljYXMgeSB1c29zIGltcGVyYW50ZXMgZW50cmUgbGFzIFNvY2llZGFkZXMgQ29vcGVyYXRpdmFzIGRlIEFob3JybyB5IFByw6lzdGFtbzsgeTwvcD48cD4oSUlJKSBSZXBvcnRhciBhIGxhIENvbWlzacOzbiBOYWNpb25hbCBCYW5jYXJpYSB5IGRlIFZhbG9yZXMgbGFzIGlycmVndWxhcmlkYWRlcyBkZXRlY3RhZGFzIGEgbGFzIFNvY2llZGFkZXMgQ29vcGVyYXRpdmFzIGRlIEFob3JybyB5IFByw6lzdGFtby48L3A+PC9kaXY+PC9kaXY+PC9kZD48ZHQ+OS4gwr9Ew7NuZGUgcHVlZG8gY29uc3VsdGFyIGxhIGluZm9ybWFjacOzbiBmaW5hbmNpZXJhIGRlIGxhcyBTb2NpZWRhZGVzIENvb3BlcmF0aXZhcyBkZSBBaG9ycm8geSBQcsOpc3RhbW8/PC9kdD48ZGQ+PGRpdiBjbGFzcz0iRXh0ZXJuYWxDbGFzc0Q4MDQxMzQzMzk0RTRFOUNBRThFMUMyQkI4NzhGOUI2Ij48cD5MYXMgU29jaWVkYWRlcyBkZWJlcsOhbiBoYWNlciBkZWwgY29ub2NpbWllbnRvIGRlIHN1cyBTb2Npb3MsIG1lZGlhbnRlIGF2aXNvcyBjb2xvY2Fkb3MgZW4gbHVnYXIgdmlzaWJsZSBkZSBzdXMgc3VjdXJzYWxlcyBzdSBiYWxhbmNlIGdlbmVyYWwgeSBlc3RhZG8gZGUgcmVzdWx0YWRvcyBjb25zb2xpZGFkb3MgY29uIGNpZnJhcyBhIG1hcnpvLCBqdW5pbyB5IHNlcHRpZW1icmUgZGVsIGVqZXJjaWNpbyBkZSBxdWUgc2UgdHJhdGUsIGRlbnRybyBkZWwgbWVzIGlubWVkaWF0byBzaWd1aWVudGUgYWwgZGUgc3UgZmVjaGEgZGUgY2llcnJlIHJlc3BlY3RpdmEuIEluZGVwZW5kaWVudGVtZW50ZSBkZSBsbyBhbnRlcmlvciwgc2UgaW52aXRhIGEgcXVlIGNvbnN1bHRlIGVsIHBvcnRhZm9saW8gZGUgaW5mb3JtYWNpw7NuIHkgbG9zIGJvbGV0aW5lcyBlc3RhZMOtc3RpY29zIHF1ZSBlbWl0ZSBlc3RhIENvbWlzacOzbiByZXNwZWN0byBkZSBsYXMgU29jaWVkYWRlcyBDb29wZXJhdGl2YXMgZGUgQWhvcnJvIHkgUHLDqXN0YW1vIGNvbiBuaXZlbGVzIGRlIG9wZXJhY2nDs24gSSBhIElWLjwvcD48L2Rpdj48L2RkPjxkdD4xMC4gwr9Ew7NuZGUgcHVlZG8gcHJlc2VudGFyIHVuYSBxdWVqYSBzb2JyZSB1bmEgU29jaWVkYWQgQ29vcGVyYXRpdmEgZGUgQWhvcnJvIHkgUHLDqXN0YW1vPzwvZHQ+PGRkPjxkaXYgY2xhc3M9IkV4dGVybmFsQ2xhc3NCMzZERkU3MkIxMkQ0ODFCQjYwRjEwMEU3QTEyNzY1MyI+PHA+U2kgbGEgcXVlamEgc2UgcmVmaWVyZSBhIHByb2JsZW1hcyBvIGluY3VtcGxpbWllbnRvcyBjb24gYWxnw7puIHByb2R1Y3RvIGNvbnRyYXRhZG8gY29uIHVuYSBTb2NpZWRhZCBDb29wZXJhdGl2YSBkZSBBaG9ycm8geSBQcsOpc3RhbW8sIGRlYmUgZGlyaWdpcnNlIGEgbGEgQ29taXNpw7NuIE5hY2lvbmFsIHBhcmEgbGEgUHJvdGVjY2nDs24geSBEZWZlbnNhIGRlIGxvcyBVc3VhcmlvcyBkZSBTZXJ2aWNpb3MgRmluYW5jaWVyb3MgKENPTkRVU0VGKSwgdWJpY2FkYSBlbiBBdi4gSW5zdXJnZW50ZXMgU3VyIDc2MiwgMsK6IHBpc28sIENvbC4gZGVsIFZhbGxlLCBEZWxlZ2FjacOzbiBCZW5pdG8gSnXDoXJleiwgTcOpeGljbyBELkYuLCBDLlAuIDAzMTAwLCBUZWwuIDAxODAwLSA5OTktODA4MCwgeWEgcXVlIGRlIGNvbmZvcm1pZGFkIGNvbiBlbCBhcnTDrWN1bG8gNCBkZSBsYSBMZXkgZGUgUHJvdGVjY2nDs24geSBEZWZlbnNhIGFsIFVzdWFyaW8gZGUgU2VydmljaW9zIEZpbmFuY2llcm9zLCBsYSBDT05EVVNFRiBlcyBlbCBvcmdhbmlzbW8gcMO6YmxpY28gZGVzY2VudHJhbGl6YWRvIHF1ZSBlc3TDoSBhIGNhcmdvIGRlIGxhIHByb3RlY2Npw7NuIHkgZGVmZW5zYSBkZSBsb3MgZGVyZWNob3MgZSBpbnRlcmVzZXMgZGUgbG9zIHVzdWFyaW9zIGRlIHNlcnZpY2lvcyBmaW5hbmNpZXJvcy48L3A+PHA+QWhvcmEgYmllbiwgc2kgbGEgcXVlamEgY29uc2lzdGUgZW4gZGVudW5jaWFyIGlycmVndWxhcmlkYWRlcyBvIG1hbG9zIG1hbmVqb3MgZW4gbGEgYWRtaW5pc3RyYWNpw7NuIGRlIHVuYSBTb2NpZWRhZCBDb29wZXJhdGl2YSBkZSBBaG9ycm8geSBQcsOpc3RhbW8gY29uIG5pdmVsIGRlIG9wZXJhY2nDs24gSSBhIElWLCBxdWUgcG9uZ2EgZW4gcmllc2dvIGVsIGFob3JybyBvIHBhdHJpbW9uaW8gZGUgc3VzIHNvY2lvcyBhaG9ycmFkb3JlcywgZW4gbGEgc2lndWllbnRlIGxpZ2EsIHB1ZWRlIHByZXNlbnRhciBzdSBkZW51bmNpYSYjNTg7IDxhIGhyZWY9Ii9QYWdpbmFzL1F1ZWphcy15LURlbnVuY2lhcy1kZS1FTlMuYXNweCIgc3R5bGU9InRleHQtZGVjb3JhdGlvbiYjNTg7dW5kZXJsaW5lOyI+aHR0cCYjNTg7Ly93d3cuY25idi5nb2IubXgvUGFnaW5hcy9RdWVqYXMteS1EZW51bmNpYXMtZGUtRU5TLmFzcHg8L2E+PHNwYW4gc3R5bGU9InRleHQtZGVjb3JhdGlvbiYjNTg7dW5kZXJsaW5lOyI+Ljwvc3Bhbj48L3A+PC9kaXY+PC9kZD5kBSZnXzVjNzdkMjU2X2Y3ZmJfNDgwZF9hZDhlXzg5YWEwODY1OWI3Mw9kFgJmD2QWAmYPFgIfAQUhw5psdGltYSBtb2RpZmljYWNpw7NuOiAxOS8wNi8yMDE1ZAIND2QWBAIBD2QWAgICD2QWAgIBD2QWAgIDDxYCHgdWaXNpYmxlaBYCZg9kFgQCAw9kFgYCAQ8WAh8CaGQCAw8WAh8CaGQCBQ8WAh8CaGQCBA8PFgIeCUFjY2Vzc0tleQUBL2RkAgkPZBYCAgIPZBYEAgUPFgIfAAsrBAFkAgkPFgIfAAsrBAFkZPwZVWN1WubWKHamcGCe3QltSq/tG3lAUseeuhVXRj0j" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=oQCHKJs_sdsVarUP4hgylHWqOdtx4F4kX492koBFaD9oMhieHXCLZvPxh8JkKKJFpjG9w_LniLRMo6EFz5J68jnW_ZHBc5Vfd8VPz8qUYkY1&amp;t=639202380265548063" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+var MSOWebPartPageFormName = 'aspnetForm';
+var g_presenceEnabled = true;
+var g_wsaEnabled = false;
+
+var g_correlationId = '79584ba2-4b53-d0c0-d6e8-ae6c2c7b95dd';
+var g_wsaQoSEnabled = false;
+var g_wsaQoSDataPoints = [];
+var g_wsaRUMEnabled = false;
+var g_wsaLCID = 3082;
+var g_wsaListTemplateId = 850;
+var g_wsaSiteTemplateId = 'BLANKINTERNET#2';
+var _fV4UI=true;var _spPageContextInfo = {webServerRelativeUrl: "\u002fSECTORES-SUPERVISADOS\u002fSECTOR-POPULAR\u002fPreguntas-Frecuentes", webAbsoluteUrl: "https:\u002f\u002fwww.cnbv.gob.mx\u002fSECTORES-SUPERVISADOS\u002fSECTOR-POPULAR\u002fPreguntas-Frecuentes", siteAbsoluteUrl: "https:\u002f\u002fwww.cnbv.gob.mx", serverRequestPath: "\u002fSECTORES-SUPERVISADOS\u002fSECTOR-POPULAR\u002fPreguntas-Frecuentes\u002fPaginas\u002fSociedades-Cooperativas-de-Ahorro-y-Pr\u00E9stamo.aspx", layoutsUrl: "_layouts\u002f15", webTitle: "Preguntas Frecuentes", webTemplate: "53", tenantAppVersion: "0", isAppWeb: false, Has2019Era: true, webLogoUrl: "_layouts\u002f15\u002fimages\u002fsiteicon.png", webLanguage: 3082, currentLanguage: 3082, currentUICultureName: "es-ES", currentCultureName: "es-MX", clientServerTimeDelta: new Date("2026-11-03T21:39:55.5226309Z") - new Date(), updateFormDigestPageLoaded: new Date("2026-11-03T21:39:55.5226309Z"), siteClientTag: "780$$16.0.5565.1001", crossDomainPhotosEnabled:false, webUIVersion:15, webPermMasks:{High:16,Low:196673},pageListId:"{3ffff890-79a8-4f9d-893f-cd3e334d2e12}",pageItemId:2, pagePersonalizationScope:1, alertsEnabled:true, customMarkupInCalculatedFieldDisabled: true, siteServerRelativeUrl: "\u002f", allowSilverlightPrompt:'True', isSiteAdmin: false};document.onreadystatechange=fnRemoveAllStatus; function fnRemoveAllStatus(){removeAllStatus(true)};Flighting.ExpFeatures = [480215056,1880287568,1561350208,302071836,3212816,69472768,4194310,-2113396707,268502022,-872284160,1049232,-2147421952,65536,65536,2097472,917504,-2147474174,1372324107,67108882,0,0,-2147483648,2097152,0,0,32768,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,32768]; (function()
+{
+    if(typeof(window.SP) == "undefined") window.SP = {};
+    if(typeof(window.SP.YammerSwitch) == "undefined") window.SP.YammerSwitch = {};
+
+    var ysObj = window.SP.YammerSwitch;
+    ysObj.IsEnabled = false;
+    ysObj.TargetYammerHostName = "www.yammer.com";
+} )(); var _spWebPartComponents = new Object();//]]>
+</script>
+
+<script src="/_layouts/15/blank.js?rev=xLMlyjalEDldDyf8i1bPEg%3D%3DTAG0" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+(function(){
+
+        if (typeof(_spBodyOnLoadFunctions) === 'undefined' || _spBodyOnLoadFunctions === null) {
+            return;
+        }
+        _spBodyOnLoadFunctions.push(function() {
+            SP.SOD.executeFunc('core.js', 'FollowingDocument', function() { FollowingDocument(); });
+        });
+    })();(function(){
+
+        if (typeof(_spBodyOnLoadFunctions) === 'undefined' || _spBodyOnLoadFunctions === null) {
+            return;
+        }
+        _spBodyOnLoadFunctions.push(function() {
+            SP.SOD.executeFunc('core.js', 'FollowingCallout', function() { FollowingCallout(); });
+        });
+    })();if (typeof(DeferWebFormInitCallback) == 'function') DeferWebFormInitCallback();function WebForm_OnSubmit() {
+UpdateFormDigest('\u002fSECTORES-SUPERVISADOS\u002fSECTOR-POPULAR\u002fPreguntas-Frecuentes', 1440000);if (typeof(_spFormOnSubmitWrapper) != 'undefined') {return _spFormOnSubmitWrapper();} else {return true;};
+return true;
+}
+//]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="BAB98CB3" />
+</div>
+        
+        <noscript><div class='noindex'>Puede estar intentando tener acceso a este sitio desde un explorador protegido en el servidor. Habilite los scripts y vuelva a cargar la página.</div></noscript>
+        
+        
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager', 'aspnetForm', [], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+        <span id="DeltaDelegateControls">
+        
+        
+        </span>
+        <div id="authWrapper" class=""><div class="ms-belltown-anonShow"><div id="ms-designer-ribbon"><div>
+	
+	<div id="s4-ribbonrow" style="visibility:hidden;display:none"></div>
+
+</div>
+
+</div><span>
+		
+	
+			
+			
+                
+<a id="ctl00_ctl64_ExplicitLogin" class="ms-signInLink" href="https://www.cnbv.gob.mx/SECTORES-SUPERVISADOS/SECTOR-POPULAR/Preguntas-Frecuentes/_layouts/15/Authenticate.aspx?Source=%2FSECTORES%2DSUPERVISADOS%2FSECTOR%2DPOPULAR%2FPreguntas%2DFrecuentes%2FPaginas%2FSociedades%2DCooperativas%2Dde%2DAhorro%2Dy%2DPr%C3%A9stamo%2Easpx" style="display:inline-block;">Inicio de sesión</a>
+
+            </span></div><div id="s4-workspace"><div id="s4-bodyContainer"><div class="ms-belltown-anonspacer"></div><div id="ms-belltown-table" class="ms-table"><div class="ms-tableRow"><div class="ms-tableCell"><!-- APA gob.mx 
+            <div class="contentwrapper">
+            <div class="ms-table ms-fullWidth"> --><div class="container"><div class="row"><!-- APA gob.mx 
+
+            <div class="ms-tableRow">
+            <div class="ms-tableCell ms-verticalAlignTop">
+            <div id="sideNavBox" class="ms-dialogHidden ms-forceWrap ms-noList">
+            --><div class=""><div class=""><div id="sideNavBox" class=""><a id="startNavigation" name="startNavigation" tabIndex="-1"></a></div></div><!-- APA gob.mx 
+ <div id="contentBox" class="ms-pub-contentLayout" aria-live="polite" aria-relevant="all"> -->
+ <div id="contentBox" class="" aria-live="polite" aria-relevant="all"><a id="mainContent" name="mainContent" tabindex="-1"></a><div id="encabezado"><!-- Barra de Herramientas --><div id="barra_herramientas"><!-- Menú de Herramientas --></div><!-- Fin de la Barra de Herramientas --><!-- Cuerpo del encabezado --><div id="firma_busqueda" style="display:none"><div id="sector"><img alt="Firma Institucional cabeza de sector" src="/Style%20Library/CNBV/imagenes/SHCP-PORTAL.png" /> </div><div id="logo"><a href="/portal/CNBV" title="Inicio"><img alt="Firma Institucional" src="/Style%20Library/CNBV/imagenes/CNBV-PORTAL.png" /> </a></div><!-- Buscador --><div id="buscador" style="display:none"><p><a href="/Paginas/Directorio.aspx" tabindex="3" accesskey="1">DIRECTORIO |</a> <a href="/Paginas/Página-INFO.aspx" tabindex="4" accesskey="2">CONTACTO |</a> <a href="/en" tabindex="8" accesskey="8">ENGLISH</a> </p><div id="searchbox"><div id="gobmx-searchbox-container-cnbv"><script>
+  (function() {
+    var cx = '002640056813620808823:fstz_--dr70';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script><gcse:search></gcse:search></div></div><!-- xxxxx--></div><!-- Fin del Buscador --></div><!-- Fin del Cuerpo del encabezado -->
+<!-- Menu Principal -->
+
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation"><div class="container"><div class="navbar-header"><button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarMainCollapse"><span class="sr-only">Interruptor de Navegación</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="https://www.gob.mx/"><img src="https://framework-gb.cdn.gob.mx/landing/img/logoheader.png" width="128" height="48" alt="Página de inicio, Gobierno de México"></a></div><div class="collapse navbar-collapse" id="navbarMainCollapse"><ul class="nav navbar-nav navbar-right"><li><a href="https://www.gob.mx/tramites">Trámites</a></li><li><a href="https://www.gob.mx/gobierno">Gobierno</a></li><li><a href="https://www.gob.mx/busqueda"><span class="sr-only">Búsqueda</span><i class="icon-search"></i></a></li></ul></div></div></nav>
+<!-- APA gob.mx  -->
+<div id="dvMenu" style="display:none">
+<nav class="navbar navbar-inverse sub-navbar navbar-fixed-mide" role ="navigation">
+
+<div class="container">
+	<div class="collapse navbar-collapse"   id="subenlaces"><ul class="nav navbar-nav navbar-right"><li><a  href="/CNBV/Paginas/default.aspx" class="">CNBV</a><ul class="dropdown-menu"></ul></li><li><a  href="/Paginas/Informacion-Estadistica.aspx" class="class_estadistica"> INFORMACIÓN<br />ESTADÍSTICA</a></li><li><a  href="/Paginas/PADRÓN-DE-ENTIDADES-SUPERVISADAS.aspx" class="class_padron">PADRÓN DE ENTIDADES<br />SUPERVISADAS</a></li><li><a  href="/Paginas/NORMATIVIDAD.aspx" class="">Normatividad</a></li><li class="dropdown" ><a  href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> SECTORES<br />SUPERVISADOS<span class="caret"></span></a><ul class="dropdown-menu"><li ><a href="/SECTORES-SUPERVISADOS/BANCA-MULTIPLE/Paginas/default.aspx">BANCA MÚLTIPLE</a></li><li ><a href="/SECTORES-SUPERVISADOS/BURSÁTIL/Paginas/default.aspx">BURSÁTIL</a></li><li ><a href="/SECTORES-SUPERVISADOS/SOCIEDADES-DE-INVERSION/Paginas/default.aspx">FONDOS DE INVERSIÓN</a></li><li ><a href="/SECTORES-SUPERVISADOS/ASESORES_EN_INVERSIONES/Paginas/default.aspx">ASESORES EN INVERSIONES</a></li><li ><a href="/SECTORES-SUPERVISADOS/BANCA-DE-DESARROLLO/Paginas/default.aspx">BANCA DE DESARROLLO Y ENTIDADES DE FOMENTO</a></li><li ><a href="/SECTORES-SUPERVISADOS/SECTOR-POPULAR/Paginas/default.aspx">SECTOR POPULAR</a></li><li ><a href="/SECTORES-SUPERVISADOS/UNIONES-DE-CREDITO/Paginas/default.aspx">UNIONES DE CRÉDITO</a></li><li ><a href="/SECTORES-SUPERVISADOS/PARTICIPANTES_EN_REDES_DE_MEDIOS_DE_DISPOSICIÓN/Paginas/default.aspx">PARTICIPANTES EN REDES DE MEDIOS DE DISPOSICIÓN</a></li><li ><a href="/SECTORES-SUPERVISADOS/OTROS-SUPERVISADOS/Paginas/default.aspx">OTROS SUPERVISADOS</a></li><li ><a href="/SECTORES-SUPERVISADOS/Fintech/Paginas/default.aspx">Instituciones de Tecnología Financiera</a></li></ul></li><li><a  href="/PRENSA/Paginas/default.aspx" class="">PRENSA</a><ul class="dropdown-menu"></ul></li><li><a  href="/TRANSPARENCIA/Paginas/Transparencia.aspx" class="">TRANSPARENCIA</a><ul class="dropdown-menu"></ul></li><li><a  href="/Fintech/Paginas/default.aspx" class="">Fintech</a><ul class="dropdown-menu"></ul></li><li><a  href="/ProteccionDatos/Paginas/default.aspx" class="">Protección de Datos Personales</a><ul class="dropdown-menu"></ul></li><li><a  href="/Paginas/PortafolioDeInformacion.aspx" class="">Portafolio de Información</a></li><li><a  href="/Paginas/PortafolioDeInformacionDev.aspx" class="">Portafolio de información</a></li><li><a  href="/Paginas/SITI-PLD.aspx" class="">SITI PLD</a></li><li><a  href="/Paginas/SITI-PLD-QA.aspx" class="">SITI PLD QA</a></li><li><a  href="/Paginas/Mantenimiento.aspx" class="">Mantenimiento</a></li><li><a  href="/Paginas/Prueba.aspx" class="">Prueba Normatividad</a></li><li><a  href="/Paginas/Contacto-Foro-de-Ciberseguridad.aspx" class="">Contacto Foro de Ciberseguridad</a></li><li><a  href="/Paginas/Conta.aspx" class="">Conta</a></li><li><a  href="/Paginas/Contacto_copy(1).aspx" class="">Contacto</a></li><li><a  href="/Paginas/encuesta.aspx" class="">encuesta</a></li><li><a  href="/Paginas/Test.aspx" class="">Test</a></li><li ><a href="/Paginas/PortafolioDeInformacionNew.aspx"  class="">Portafolio de Información</a></li></ul></div>
+</div>
+</nav>
+</div>
+
+<!-- Fin del Menu Principal -->
+
+</div>
+
+<div class="page">
+<div class="container">
+
+<div id="DeltaPlaceHolderMain">
+	
+
+													
+											
+							
+												
+                                            
+	<!-- Inicio gob.mx -->
+	<script type='text/javascript'>
+		$gmx(document).ready(function() {
+			//$("a").addClass("test");	
+			  document.getElementById("aPageTitle").href = document.URL;
+		    document.getElementById("aPageTitle").innerHTML = document.title;
+		
+		});
+	</script> 
+	<!-- Fin gob.mx -->
+
+	<div id="cuerpo_interna">
+		<!--Renglón tipo 2-->
+		<div class="container">
+			<!-- APA gob.mx 
+			<ul class="breadcrumb"><li><a href="#"><i class="icon icon-home"></i></a></li><li><a href="/Paginas/default.aspx">Portal Internet</a></li><li><a href="/SECTORES-SUPERVISADOS/Paginas/default.aspx">SECTORES SUPERVISADOS</a></li><li><a href="/SECTORES-SUPERVISADOS/SECTOR-POPULAR/Paginas/default.aspx">SECTOR POPULAR</a></li><li class="active"><a href="/SECTORES-SUPERVISADOS/SECTOR-POPULAR/Preguntas-Frecuentes/Paginas/Sociedades-Cooperativas-de-Ahorro-y-Préstamo.aspx">Preguntas Frecuentes</a></li></ul>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        //APA gob.mx  breadcrumbs
+        var limitWidth = $('.breadcrumb').width();
+        var totalWidth = 0;
+        var breadcrumLi;
+        //APA gob.mx  breadcrumbs
+        $('.breadcrumb li').each(function () {
+            breadcrumLi = $(this);
+            totalWidth += parseInt(breadcrumLi.width());
+        });
+
+        if (totalWidth > (limitWidth - 6)) {
+            breadcrumLi.css("padding-top", "20px");
+        }
+    });
+</script>
+
+
+-->
+			
+	<ul class="breadcrumb">
+		<li><a href="http://www.gob.mx">
+				<i class="icon icon-home"></i>
+			</a>
+		</li>
+		<li>
+			<a href="http://www.gob.mx/cnbv">CNBV</a>
+		</li>
+		<li class="active">
+			<!--<a href="http://cd21fisp1:20501/Paginas/NORMATIVIDAD.aspx">Normatividad</a>-->
+			<a id="aPageTitle"></a>
+		</li>
+	</ul>
+	
+			
+			<div class="cuadro fondo_columna K" style="display:none">
+<!-- APA gob.mx 			
+	<div class="docs-nav"><h4>SECTOR POPULAR</h4><ul class="docs-nav"><li class="btn-default  btn-xs"><a href="/SECTORES-SUPERVISADOS/SECTOR-POPULAR/Descripción-del-sector/Paginas/default.aspx">Descripción del Sector</a></li><li class="btn-default  btn-xs"><a href="/SECTORES-SUPERVISADOS/SECTOR-POPULAR/Normatividad/Paginas/Sociedades-Cooperativas-de-Ahorro-y-Préstamo.aspx">Normatividad</a></li><li class="btn-default  btn-xs"><a href="/SECTORES-SUPERVISADOS/SECTOR-POPULAR/Paginas/Listado-de-Entidades.aspx">Lista de Entidades</a></li><li class="btn-default  btn-xs"><a href="/SECTORES-SUPERVISADOS/SECTOR-POPULAR/Paginas/MedidasCaptacionIrregular.aspx">Medidas para Evitar la Captación Irregular</a></li><li class="btn-default  btn-xs"><a href="/SECTORES-SUPERVISADOS/SECTOR-POPULAR/Sanciones/Paginas/SOFIPOS.aspx">Sanciones</a></li><li class="btn-default  btn-xs"><a href="/SECTORES-SUPERVISADOS/SECTOR-POPULAR/Información-Estadística/Paginas/Sociedades-Cooperativas-de-Ahorro-y-Préstamo.aspx">Información Estadística</a></li><li class="btn-default  btn-xs"><a href="/SECTORES-SUPERVISADOS/SECTOR-POPULAR/Estudios-y-Accesos/Paginas/Sociedades-Cooperativas-de-Ahorro-y-Préstamo.aspx">Estudios y Accesos</a></li><li class="btn-default  btn-xs"><a href="/SECTORES-SUPERVISADOS/SECTOR-POPULAR/Proceso-de-Autorización/Paginas/Sociedades-Cooperativas-de-Ahorro-y-Préstamo.aspx">Proceso de Autorización</a></li><li class="btn-default  btn-xs"><a href="/SECTORES-SUPERVISADOS/SECTOR-POPULAR/Paginas/Padrón-de-Entidades-Supervisadas.aspx">Padrón de Entidades Supervisadas</a></li><li class="btn-default  btn-xs"><a href="/SECTORES-SUPERVISADOS/SECTOR-POPULAR/Paginas/GuiasCNBVAutorizacion.aspx">Guías CNBV para Solicitudes de Autorización</a></li><li class="btn-default  btn-xs"><a href="/SECTORES-SUPERVISADOS/SECTOR-POPULAR/Difusión/Paginas/Sociedades-Cooperativas-de-Ahorro-y-Préstamo.aspx">Difusión</a></li><li><p class="btn-default btn-xs active"><a href="/SECTORES-SUPERVISADOS/SECTOR-POPULAR/Preguntas-Frecuentes/Paginas/Sociedades-Cooperativas-de-Ahorro-y-Préstamo.aspx">Preguntas Frecuentes</a></p></li><ul ><li class="btn-default  btn-xs"><a href="/SECTORES-SUPERVISADOS/SECTOR-POPULAR/Preguntas-Frecuentes/Paginas/Sociedades-Cooperativas-de-Ahorro-y-Préstamo.aspx">Sociedades Cooperativas de Ahorro y Préstamo</a></li><li class="btn-default  btn-xs"><a href="/SECTORES-SUPERVISADOS/SECTOR-POPULAR/Preguntas-Frecuentes/Paginas/Sociedades-Financieras-Populares.aspx">Sociedades Financieras Populares</a></li></ul></ul></div>
+	-->	
+
+			</div>
+			<!--<div class="cuadro B margen_izquierdo">-->
+			<div class="">
+				<!--	
+				<div class="addthis_toolbox addthis_default_style herramientas_del_usuario">
+					<a href="http://www.addthis.com/bookmark.php?v=20" onmouseover="return addthis_open (this, '', '[URL]', '[TITLE]')" onmouseout="addthis_close()" onclick="return addthis_sendto()">
+						<img width="125" height="16" src="http://s7.addthis.com/static/btn/lg-share-es.gif" alt="Compartir" style="border: 0pt none;" />
+					</a>
+				</div>
+				-->
+				
+				<h2>
+				Sociedades Cooperativas de Ahorro y Préstamo
+				</h2>
+				
+				
+				<div id="ctl00_PlaceHolderMain_ctl03_label" style='display:none'>Contenido de la página</div><div id="ctl00_PlaceHolderMain_ctl03__ControlWrapper_RichHtmlField" class="ms-rtestate-field" style="display:inline" aria-labelledby="ctl00_PlaceHolderMain_ctl03_label"><p>​​</p><div class="ms-rtestate-read ms-rte-wpbox" unselectable="on"><div class="ms-rtestate-notify  ms-rtestate-read 16c9aa7f-547a-43d9-b872-7431ca7eab27" id="div_16c9aa7f-547a-43d9-b872-7431ca7eab27" unselectable="on"><div id="MSOZoneCell_WebPartctl00_ctl58_g_16c9aa7f_547a_43d9_b872_7431ca7eab27" class="s4-wpcell-plain ms-webpartzone-cell ms-webpart-cell-vertical ms-fullWidth ">
+		<div class="ms-webpart-chrome ms-webpart-chrome-vertical ms-webpart-chrome-fullWidth ">
+	<div WebPartID="6bf0295e-2227-461d-88c3-3c8eaedfd573" WebPartID2="16c9aa7f-547a-43d9-b872-7431ca7eab27" HasPers="false" id="WebPartctl00_ctl58_g_16c9aa7f_547a_43d9_b872_7431ca7eab27" width="100%" class="ms-WPBody " allowRemove="false" allowDelete="false" allowExport="false" style="" ><div id="ctl00_ctl58_g_16c9aa7f_547a_43d9_b872_7431ca7eab27">
+		
+
+<script type="text/javascript">
+    if (typeof jQuery === 'undefined') {
+        document.write('<script src="../../../../_layouts/15/Cnbv.Webpart.Normatividad/jquery-1.8.2.min.js" type="text/javascript"><\/script>');
+    }
+</script>
+
+<style type="text/css">
+    .faqs dl {
+        font-size:1.2em;
+        line-height:170%;
+        margin-bottom:20px;
+
+    }
+    dl, dt, dd {
+        padding:0;
+        margin:0;
+
+    }
+    .faqs {
+        padding-top:20px;
+    }
+    .faqs dt {
+        font-weight:bold;
+        padding:3px 0 15px 30px;
+        position:relative;
+    }
+    .faqs dt:hover {
+        cursor:pointer;
+    }
+    .faqs dd {
+        padding:0 0 5px 30px;
+        position:relative;
+        color:#333;
+    }
+    .faqs .hover { 
+        color:#990000;
+        text-decoration:underline;
+    }
+</style>
+
+<dl id="ctl00_ctl58_g_16c9aa7f_547a_43d9_b872_7431ca7eab27_ctl00_faqWebPart" class="faqs"><dt>1. ¿Qué es una Sociedad Cooperativa de Ahorro y Préstamo?</dt><dd><div class="ExternalClassACB2A19A1D9D4ACFA2063569520B130E"><div class="ExternalClass8E9651996F0944A2AC8648B72DD4202D" style="text-align&#58;left;"><div class="ExternalClass61D0F8B5C33842E2BEE1EA64DE948EFF">De conformidad con el artículo 2, fracción X de la Ley Para Regular las Actividades de las Sociedades Cooperativas de Ahorro y Préstamo son sociedades constituidas y organizadas conforme a la Ley General de Sociedades Cooperativas, independientemente del nombre comercial, razón o denominación social que adopten, que tengan por objeto realizar operaciones de ahorro y préstamo con sus Socios, y quienes forman parte del sistema financiero mexicano con el carácter de integrantes del sector social sin ánimo especulativo y reconociendo que no son intermediarios financieros con fines de lucro.</div></div></div></dd><dt>2. ¿Cuáles Cooperativas se encuentran autorizadas por la Comisión Nacional Bancaria y de Valores para realizar actividades de Ahorro y Préstamo?</dt><dd><div class="ExternalClass14B104DDA24840D7A7D2578906648ACB"><div class="ExternalClassC06DB9ACC69B495C92A8325490B5EDE1" style="text-align&#58;left;"><div class="ExternalClass9805901EF5A34F278E7863912952CA5C" dir="ltr">Le invitamos a consultar el Padrón de Entidades Financieras Supervisadas (PES) de la página web de esta Comisión, en el que encontrará, entre otros datos, la denominación dirección y teléfonos de las Sociedades Cooperativas de Ahorro y Préstamo autorizadas para operar como tales por éste Órgano Supervisor.&#160; </div></div></div></dd><dt>3. ¿Quién supervisa a las Sociedades Cooperativas de Ahorro y Préstamo?</dt><dd><div class="ExternalClassC9114BFD4E4742B292B3A5B210CD919B"><div class="ExternalClass87C9EDA669294764958EDF790A4E37F3" style="text-align&#58;left;"><div class="ExternalClass0C5F963843DB42E983AD6937C2DB336B">Las Sociedades Cooperativas de Ahorro y Préstamo con niveles de operación I a IV se encuentran sujetas a la supervisión y regulación de la Comisión Nacional Bancaria y de Valores en términos de la Ley Para Regular las Actividades de las Sociedades Cooperativas de Ahorro y Préstamo (LRASCAP) y de manera auxiliar, son supervisadas por el Comité de Supervisión Auxiliar del Fondo de Protección a que se refiere la LRASCAP.</div></div></div></dd><dt>4. ¿Cuál es la normatividad a la que están sujetas las Sociedades Cooperativas de Ahorro y Préstamo?</dt><dd><div class="ExternalClass1557870B68454642B3593B8021209044"><div class="ExternalClass44A9A15DDA284399BA1417E46E616214" style="text-align&#58;left;"><p>Todas las Sociedades Cooperativas de Ahorro y Préstamo se encuentran sujetas a la Ley General de Sociedades Cooperativas y a la Ley Para Regular las Actividades de las Sociedades Cooperativas de Ahorro y Préstamo.</p><p>Aquellas Sociedades Cooperativas de Ahorro y Préstamo con niveles de operación I a IV, autorizadas por la Comisión Nacional Bancaria y de Valores, a su vez se encuentran sujetas a las Disposiciones que emita la Comisión Nacional Bancaria y de Valores y la Secretaría de Hacienda y Crédito Público.</p></div></div></dd><dt>5. ¿Cómo puedo constituir una Sociedad Cooperativa de Ahorro y Préstamo?</dt><dd><div class="ExternalClassBFDF10A5E25446A8B34CDABF07FCAD22"><div class="ExternalClassB289BFB3251E47DB8BDB4C6BC6592D07" style="text-align&#58;left;"><div class="ExternalClassB95323AD702B47FAB152074ED4C3708B">Los requisitos para constituir una Sociedad Cooperativa de Ahorro y Préstamo se establecen en la Ley General de Sociedades Cooperativas. En el caso de que se trate de una Sociedad Cooperativa de Ahorro y Préstamo con nivel de operación I a IV, adicionalmente se requiere la autorización a que se refieren los artículos 10 y 11 de la Ley Para Regular las Actividades de las Sociedades Cooperativas de Ahorro y Préstamo.</div></div></div></dd><dt>6. ¿Todas las Cajas de ahorro deben solicitar autorización de la Comisión Nacional Bancaria y de Valores para operar?</dt><dd><div class="ExternalClassC366443BAA9D441FBB665FA25BDB3B8A"><div class="ExternalClassABA2E9AF04E74FCBA08986F6E19DDED2" style="text-align&#58;left;"><p>De acuerdo al artículo 13 de la Ley para regular las actividades de las sociedades cooperativas de ahorro y préstamo, aquellas cuyo monto total de activos no rebase el límite equivalente en moneda nacional a 2’500,000 UDIS contarán con un nivel de operaciones básico y no requerirán de la autorización de la Comisión para realizar operaciones de ahorro y préstamo. Estas sociedades no son supervisadas por la Comisión Nacional Bancaria y de Valores y por lo mismo no cuentan con la cobertura de 25,000 UDIS por socio ahorrador que ofrece el fondo de protección.</p><p>Adicionalmente, las Cajas de Ahorro a las que hace referencia la legislación laboral en término de los artículos 110 fracción IV y 132 fracción XXIII de la Ley Federal del Trabajo tampoco requieren de la autorización de la CNBV para operar.</p></div></div></dd><dt>7. ¿De qué manera puedo saber si mis ahorros están seguros en una Sociedad Cooperativa de Ahorro y Préstamo?</dt><dd><div class="ExternalClass06F7C59077264FD194C9A8EC56F611E3"><div class="ExternalClass91190E1C94DC4EBEB903C850827D17CA" style="text-align&#58;left;"><p>La Comisión Nacional Bancaria y de Valores (CNBV), en términos de Ley para Regular las Actividades de las Sociedades Cooperativas de Ahorro y Préstamo, solo tiene facultades de supervisión sobre sociedades autorizadas para realizar o continuar realizando operaciones de ahorro y préstamo como Sociedad Cooperativa de Ahorro de Ahorro y Préstamo con niveles de operación I a IV (Socap).</p><p>De conformidad con el artículo 42 de la Ley Para Regular las Actividades de las Sociedades Cooperativas de Ahorro y Préstamo, el Gobierno Federal, a través de la Secretaría de Hacienda y Crédito Público, constituyó un fideicomiso que se denomina Fondo de Supervisión Auxiliar de Sociedades Cooperativas de Ahorro y Préstamo y de Protección a sus Ahorradores, o Fondo de Protección.</p><p>El Fondo de Protección tiene como finalidad llevar a cabo la supervisión auxiliar de las Socap con niveles de operación I a IV; realizar operaciones preventivas tendientes a evitar problemas financieros de las Socap y en un caso extremo se cuenta con una cobertura para los depósitos de los Socios hasta por un importe equivalente a 25,000 UDIS (poco más de $132 mil pesos) por persona &#160;cualquiera que sea el número y clase de operaciones.</p><p>Por lo anterior, se recomienda utilizar únicamente los servicios que ofrecen las Sociedades Cooperativas de Ahorro y Préstamo autorizadas, las cuales se pueden consultar en el Padrón de Entidades Financieras Supervisadas (PES) de la página web de esta Comisión, en el que encontrará, entre otros datos, la denominación dirección y teléfonos de las Sociedades Cooperativas de Ahorro y Préstamo autorizadas para operar como tales por éste Órgano Supervisor.</p></div></div></dd><dt>8. ¿Qué es el Comité de Supervisión Auxiliar?</dt><dd><div class="ExternalClassB1C0CEC1D37D4E8F875AD6BBF61A9155"><div class="ExternalClassA5E505C0AB35400EAC32756EB69FBF55" style="text-align&#58;left;"><p>De conformidad con la Ley Para Regular las Actividades de las Sociedades Cooperativas de Ahorro y Préstamo es el encargado de ejercer la supervisión auxiliar de las mismas, el cual tiene como objeto principal la prevención de cualquier tipo de insolvencia o riesgo de operatividad de dichas Sociedades.</p><p>Sus funciones de conformidad con el artículo 52 de la Ley Para Regular las Actividades de las Sociedades Cooperativas de Ahorro y Préstamo son entre otras las siguientes&#58;&#160;</p><p>(I) Llevar el registro de Sociedades Cooperativas de Ahorro y Préstamo;&#160;</p><p>(II) Revisar, verificar comprobar y evaluar los recursos, obligaciones y patrimonio de dichas sociedades, así como las operaciones, funcionamiento, sistemas de control y, en general, todo lo que pudiendo afectar la posición financiera y situación legal de aquéllas, conste o deba constar en sus registros, a fin de que se ajusten a esta Ley, a las disposiciones que de ella emanen y a las sanas prácticas y usos imperantes entre las Sociedades Cooperativas de Ahorro y Préstamo; y</p><p>(III) Reportar a la Comisión Nacional Bancaria y de Valores las irregularidades detectadas a las Sociedades Cooperativas de Ahorro y Préstamo.</p></div></div></dd><dt>9. ¿Dónde puedo consultar la información financiera de las Sociedades Cooperativas de Ahorro y Préstamo?</dt><dd><div class="ExternalClassD8041343394E4E9CAE8E1C2BB878F9B6"><p>Las Sociedades deberán hacer del conocimiento de sus Socios, mediante avisos colocados en lugar visible de sus sucursales su balance general y estado de resultados consolidados con cifras a marzo, junio y septiembre del ejercicio de que se trate, dentro del mes inmediato siguiente al de su fecha de cierre respectiva. Independientemente de lo anterior, se invita a que consulte el portafolio de información y los boletines estadísticos que emite esta Comisión respecto de las Sociedades Cooperativas de Ahorro y Préstamo con niveles de operación I a IV.</p></div></dd><dt>10. ¿Dónde puedo presentar una queja sobre una Sociedad Cooperativa de Ahorro y Préstamo?</dt><dd><div class="ExternalClassB36DFE72B12D481BB60F100E7A127653"><p>Si la queja se refiere a problemas o incumplimientos con algún producto contratado con una Sociedad Cooperativa de Ahorro y Préstamo, debe dirigirse a la Comisión Nacional para la Protección y Defensa de los Usuarios de Servicios Financieros (CONDUSEF), ubicada en Av. Insurgentes Sur 762, 2º piso, Col. del Valle, Delegación Benito Juárez, México D.F., C.P. 03100, Tel. 01800- 999-8080, ya que de conformidad con el artículo 4 de la Ley de Protección y Defensa al Usuario de Servicios Financieros, la CONDUSEF es el organismo público descentralizado que está a cargo de la protección y defensa de los derechos e intereses de los usuarios de servicios financieros.</p><p>Ahora bien, si la queja consiste en denunciar irregularidades o malos manejos en la administración de una Sociedad Cooperativa de Ahorro y Préstamo con nivel de operación I a IV, que ponga en riesgo el ahorro o patrimonio de sus socios ahorradores, en la siguiente liga, puede presentar su denuncia&#58; <a href="/Paginas/Quejas-y-Denuncias-de-ENS.aspx" style="text-decoration&#58;underline;">http&#58;//www.cnbv.gob.mx/Paginas/Quejas-y-Denuncias-de-ENS.aspx</a><span style="text-decoration&#58;underline;">.</span></p></div></dd></dl>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.faqs dd').hide(); // Hide all DDs inside .faqs
+        $('.faqs dt').hover(function () {
+            $(this).addClass('hover')
+        }, function () {
+            $(this).removeClass('hover')
+        }).click(function () { // Add class "hover" on dt when hover
+            $(this).next().slideToggle('normal'); // Toggle dd when the respective dt is clicked
+        });
+    });
+</script>
+
+	</div><div class="ms-clear"></div></div>
+</div>
+	</div></div><div id="vid_16c9aa7f-547a-43d9-b872-7431ca7eab27" unselectable="on" style="display&#58;none;"></div></div><p>&#160;</p><p><br>&#160;</p><div class="ms-rtestate-read ms-rte-wpbox"><div class="ms-rtestate-notify  ms-rtestate-read 5c77d256-f7fb-480d-ad8e-89aa08659b73" id="div_5c77d256-f7fb-480d-ad8e-89aa08659b73" unselectable="on"><div id="MSOZoneCell_WebPartctl00_ctl58_g_5c77d256_f7fb_480d_ad8e_89aa08659b73" class="s4-wpcell-plain ms-webpartzone-cell ms-webpart-cell-vertical ms-fullWidth ">
+		<div class="ms-webpart-chrome ms-webpart-chrome-vertical ms-webpart-chrome-fullWidth ">
+	<div WebPartID="a671e701-5494-470b-9950-997e34c906a6" WebPartID2="5c77d256-f7fb-480d-ad8e-89aa08659b73" HasPers="false" id="WebPartctl00_ctl58_g_5c77d256_f7fb_480d_ad8e_89aa08659b73" width="100%" class="ms-WPBody " allowRemove="false" allowDelete="false" allowExport="false" style="" ><div id="ctl00_ctl58_g_5c77d256_f7fb_480d_ad8e_89aa08659b73">
+		<div id="ctl00_ctl58_g_5c77d256_f7fb_480d_ad8e_89aa08659b73_ctl00_WPFechaCreacion">Última modificación: 19/06/2015</div>
+
+	</div><div class="ms-clear"></div></div>
+</div>
+	</div></div><div id="vid_5c77d256-f7fb-480d-ad8e-89aa08659b73" unselectable="on" style="display&#58;none;"></div></div><p>​​<br></p></div>
+			</div>
+			
+			
+		</div>
+		<!-- fin Renglón tipo 2-->
+	</div>
+<div style='display:none' id='hidZone'><div class="ms-webpart-zone ms-fullWidth">
+		<div id="MSOZoneCell_WebPartctl00_ctl58_g_5c77d256_f7fb_480d_ad8e_89aa08659b73" class="s4-wpcell-plain ms-webpartzone-cell ms-webpart-cell-vertical ms-fullWidth ">
+			<div class="ms-PartSpacingVertical"></div>
+		</div><div id="MSOZoneCell_WebPartctl00_ctl58_g_16c9aa7f_547a_43d9_b872_7431ca7eab27" class="s4-wpcell-plain ms-webpartzone-cell ms-webpart-cell-vertical ms-fullWidth ">
+
+		</div>
+	</div></div>
+                                            
+</div>
+                                            </div>
+</div>
+
+                                            
+                                            <div class="Footer" style="display:none">
+                                            	<div class="menu_footer" style="display:none">
+                                            		<ul>
+                                            			<li><a href="/Paginas/avisos.aspx">AVISOS&nbsp;&nbsp;</a> </li>
+                                            			<li><a href="/Paginas/Politicas-de-Privacidad.aspx">POLÍTICAS DE PRIVACIDAD&nbsp;&nbsp;</a> </li>
+                                            			<li class="ultima"><a href="/Paginas/Sitios-de-Interes.aspx">SITIOS DE INTERÉS</a> </li>
+                                            		</ul>
+                                            	</div>
+                                            <div style="clear: both; width: 100%; border-top: 1px solid #dedede; margin-bottom: 1px;">
+                                            </div>
+                                            <div style="clear:both; display: table; margin-bottom: 1em; margin-right: auto; margin-left: auto; max-width: 1492px;padding-left: 1.5%" class="ms-alignCenter">
+                                            	<div style="float: left; border-top: 1px solid #dedede; border-bottom: 1px solid #dedede; width: 350px; height:1px; margin-top: 38px;">
+                                            	</div>
+                                            	<img alt="logo shcp horizontal" src="/Style%20Library/CNBV/imagenes/logoSHCP_hoz.png" style="float:left; margin: 0px 24px;" /> 
+                                            	<div style="float: left; border-top: 1px solid #dedede; border-bottom: 1px solid #dedede; width: 350px; height:1px; margin-top: 38px;">
+                                            	</div>
+                                            </div>
+                                            <div class="footerAddress">Insurgentes Sur No. 1971, Col. Guadalupe Inn  C.P. 01020<br>México D.F.  Teléfono:14-54-60-00 <br><a target="_parent" href="mailto:info@cnbv.gob.mx">Comentarios sobre este Sitio de Internet</a> <a target="_parent" href="mailto:info@cnbv.gob.mx"><img width="14" height="10" style="border: 0" alt="Comentarios y Sugerencias sobre éste sitio de Internet" src="/Style%20Library/CNBV/imagenes/contacto_webmaster.png" /> </a>
+                                            </div>
+                                            </div>
+                                            
+                                            
+
+                                            
+                                            </div><div class="ms-tableCell ms-verticalAlignTop"><div class="ms-hide"></div></div></div></div>
+                                            </div></div></div></div>
+                                            
+                                             <!-- Start Footer -->
+<div >
+	<div>
+		<footer class="main-footer">
+	<div class="list-info">
+		<div class="container">
+
+				<div class="col-sm-3">
+						<img src="https://framework-gb.cdn.gob.mx/landing/img/logofooter.svg" href="/" alt="logo gobierno de méxico" class="logo_footer" style="max-width: 100%; margin-left: -20%;   margin-top: 27%;">
+						</div>
+				<div class="col-sm-3">
+					<h2>Enlaces</h2>
+					<ul>
+					<li><a href="http://www.participa.gob.mx">Participa</a></li>
+					<li><a href="https://datos.gob.mx/">Datos</a></li>
+						<li><a href="https://www.gob.mx/publicaciones" target="_blank" rel="noopener" title="Enlace abre en ventana nueva">Publicaciones Oficiales</a></li>
+	                            <li><a class="footer" href="http://portaltransparencia.gob.mx/buscador/search/search.do?method=begin&amp;searchBy=0&amp;idDependenciaZoom=06100" id="Transparencia" target="blank" title="Enlace abre en ventana nueva">Portal de Obligaciones de Transparencia</a></li>
+						<li><a class="footer" id="Infomex" href="https://www.infomex.org.mx/gobiernofederal/home.action" target="_blank" rel="noopener" title="Enlace abre en ventana nueva">Sistema Infomex</a></li>
+						<li><a class="footer" id="INAI" href="http://www.inai.org.mx" target="_blank" rel="noopener" title="Enlace abre en ventana nueva">INAI</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-3">
+					<h2>¿Qué es gob.mx?</h2>
+					<p>Es el portal único de trámites, información y participación ciudadana. <a href="/que-es-gobmx">Leer más</a></p>
+					<ul>
+
+						<li><a href="/temas">Temas</a></li>
+							
+						<li><a href="/accesibilidad">Declaración de Accesibilidad</a></li>
+						<li><a href="/privacidadintegral">Aviso de privacidad integral</a></li>
+            			<li><a href="/privacidadsimplificado">Aviso de privacidad simplificado</a></li>
+						<li><a href="/terminos">Términos y Condiciones</a></li>
+						<li><a href="/terminos#medidas-seguridad-informacion">Política de seguridad</a></li>
+						<li><a class="footer" id="Marco Juridico" href="http://www.ordenjuridico.gob.mx" target="_blank" rel="noopener" title="Enlace abre en ventana nueva">Marco Jurídico</a></li>
+						<li><a href="/sitemap">Mapa de sitio</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-3">
+                                  <h2>Contacto</h2>
+				  <p>Dudas e información a<br>
+				    <a href="mailto:info@cnbv.gob.mx"> info@cnbv.gob.mx</a>
+
+				    <!------------------------------------------------------------------------------------------>
+                                    <!-- <a href="mailto:gobmx@funcionpublica.gob.mx"> gobmx@funcionpublica.gob.mx</a>        -->
+                                    <!------------------------------------------------------------------------------------------>
+
+				  </p>
+						<h2>Síguenos en</h2>
+					<ul class="list-inline">
+						<li>
+			              <a id="Facebook" href="https://www.facebook.com/gobmexico" target="_blank" rel="noopener" class="sendEst share-info footer" title="enlace a facebook abre en una nueva ventana">
+			                <img alt="Facebook" src="https://framework-gb.cdn.gob.mx/landing/img/facebook.png">
+			              </a>
+			            </li>
+						<li>
+			              <a id="Twitter" href="https://twitter.com/GobiernoMX" target="_blank" rel="noopener" class="sendEst share-info footer" title="Enlace a twitter abre en una nueva ventana">
+			                <img alt="Twitter" src="https://framework-gb.cdn.gob.mx/landing/img/twitter.png">
+			              </a>
+			            </li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+	
+</footer>
+	</div>
+</div>
+<!-- End Footer --> 
+                                            </div></div></div>
+        
+        
+        
+        
+    <div id="DeltaFormDigest">
+<script type="text/javascript">//<![CDATA[
+        var formDigestElement = document.getElementsByName('__REQUESTDIGEST')[0];
+        if (!((formDigestElement == null) || (formDigestElement.tagName.toLowerCase() != 'input') || (formDigestElement.type.toLowerCase() != 'hidden') ||
+            (formDigestElement.value == null) || (formDigestElement.value.length <= 0)))
+        {
+            formDigestElement.value = '0xE4B56134C0CE00EDEA0E500E65B2D4F9FA02A5CBDC1F55116734997B0EC632CAF686E49F45C95315A45BFBD3A3AC7DE681A1B2A735063BAC144F0E58C0AE2BB5,03 Nov 2026 21:39:55 -0000';_spPageContextInfo.updateFormDigestPageLoaded = new Date();
+        }
+        //]]>
+        </script>
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var _spFormDigestRefreshInterval = 1440000; IsSPSocialSwitchEnabled = function() { return true; };var _fV4UI = true;
+function _RegisterWebPartPageCUI()
+{
+    var initInfo = {editable: false,isEditMode: false,allowWebPartAdder: false,listId: "{3ffff890-79a8-4f9d-893f-cd3e334d2e12}",itemId: 2,recycleBinEnabled: true,enableMinorVersioning: true,enableModeration: true,forceCheckout: true,rootFolderUrl: "\u002fSECTORES-SUPERVISADOS\u002fSECTOR-POPULAR\u002fPreguntas-Frecuentes\u002fPaginas",itemPermissions:{High:16,Low:196673}};
+    SP.Ribbon.WebPartComponent.registerWithPageManager(initInfo);
+    var wpcomp = SP.Ribbon.WebPartComponent.get_instance();
+    var hid;
+    hid = document.getElementById("_wpSelected");
+    if (hid != null)
+    {
+        var wpid = hid.value;
+        if (wpid.length > 0)
+        {
+            var zc = document.getElementById(wpid);
+            if (zc != null)
+                wpcomp.selectWebPart(zc, false);
+        }
+    }
+    hid = document.getElementById("_wzSelected");
+    if (hid != null)
+    {
+        var wzid = hid.value;
+        if (wzid.length > 0)
+        {
+            wpcomp.selectWebPartZone(null, wzid);
+        }
+    }
+};
+function __RegisterWebPartPageCUI() {
+ExecuteOrDelayUntilScriptLoaded(_RegisterWebPartPageCUI, "sp.ribbon.js");}
+_spBodyOnLoadFunctionNames.push("__RegisterWebPartPageCUI");var __wpmExportWarning='This Web Part Page has been personalized. As a result, one or more Web Part properties may contain confidential information. Make sure the properties contain information that is safe for others to read. After exporting this Web Part, view properties in the Web Part description file (.WebPart) by using a text editor such as Microsoft Notepad.';var __wpmCloseProviderWarning='You are about to close this Web Part.  It is currently providing data to other Web Parts, and these connections will be deleted if this Web Part is closed.  To close this Web Part, click OK.  To keep this Web Part, click Cancel.';var __wpmDeleteWarning='You are about to permanently delete this Web Part.  Are you sure you want to do this?  To delete this Web Part, click OK.  To keep this Web Part, click Cancel.';var g_clientIdDeltaPlaceHolderMain = "DeltaPlaceHolderMain";
+var g_clientIdDeltaPlaceHolderUtilityContent = "DeltaPlaceHolderUtilityContent";
+//]]>
+</script>
+</form>
+	
+	
+	
+	
+	
+<span id="DeltaPlaceHolderUtilityContent"></span>
+
+	
+	
+		
+ 
+
+
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-10080944-1']);
+	  _gaq.push(['_trackPageview']);
+	
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	
+	</script>
+	
+	
+
+	</body>
+</html>
