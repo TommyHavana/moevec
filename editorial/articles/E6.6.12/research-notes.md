@@ -1,3 +1,18 @@
-# Preparación · E6.6.12
+# Investigación · E6.6.12
 
-Brief y prompts conservados. Fuentes, tres imágenes, texto y publicación pendientes. No cuenta como terminada.
+Besley, Coate y Loury · The Economics of Rotating Savings and Credit Associations · 1993
+https://www.isid.ac.in/~tridip/Teaching/DevelopmentMicroeconomics/Readings/Besley%26Coate%26Loury-AER1993.pdf
+PrimarioPDFcopiahash706mismaejecución,PDF1–4portada+imp792–794lecturaparcialteoríaroscasasignaciónsostenibilidaddefault. No valida tablaMEE/RCToperacionesnilegalidadgrupofinanciero/lectura20pfull. Ejemplohipodiferencia20previsto15observadoycambioactividadnoresultadoreal.
+
+Elinor Ostrom · conferencia Nobel de 2009 y entrevista de 2009
+https://www.nobelprize.org/uploads/2018/06/ostrom_lecture.pdf
+PrimarioPDF2002428710B37p,PDF15imp422principiosleídos/renderinspeccionado:límiteslocales/participación/monitor/conflict. ExtracciónadicionalPDF1/14/16guardadanoatribuir37pfull. PáginaNobelHTML200171740Bfecha8dic2009. Entrevistaprimaria200208771Bcuerposegmento rulesnospecificalwaysleídoenweb. F034GoverningCommons1990MEDIANTEreferencia/conferencia2009no libro1990íntegro. PrincipiosrecursoscomunesNOcontratofinancierovalidadoniformulaparaahorro;8camposMEEoriginalesno8leyesOstrom.
+
+España · Ley 13/1989 de Cooperativas de Crédito · BOE
+https://www.boe.es/buscar/act.php?id=BOE-A-1989-12296
+PrimarioHTML200copia715hash706/arts1/5leídoscabecera29jun2023informativa. Únicousoart5autorizaciónpreviaregistrosnoMIN1989competenciaactualúnicanimínimossocios/trámiteplenos. Noaplicacióntodogrupo/paísni asociaciónlegalizacaptación.
+
+Excluido:
+- FichaMEEorientativano contratosuficientefirmable/cláusulasmínimasuniversales.
+- Sin garantíaeconómica/custodiadosllavesniacusaciónporregistrodiferente.
+- NoOstromestudióyvalidóestafichafinancieranilibroF034íntegroleído.

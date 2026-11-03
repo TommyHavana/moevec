@@ -1,8 +1,8 @@
 # Backlog de MEE
 
-Último estado: **712/840 terminadas, 2136 imágenes originales públicas, 0 en curso o borradores WordPress y 128 pendientes**. Inversión Distribuida y Contratos Comunitarios 10/15; 44 tandas completas.
+Último estado: **715/840 terminadas, 2145 imágenes originales públicas, 0 en curso o borradores WordPress y 125 pendientes**. Inversión Distribuida y Contratos Comunitarios 13/15; 44 tandas completas.
 
-Continuar **717–719 / E6.6.12–E6.6.14**, economia-compartida → Inversión Distribuida y Contratos Comunitarios. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **720–722**. **501/E4.2.06,512/E4.3.02,649/E4.12.04 y707/E6.6.02** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.
+Continuar **720–722 / E6.6.15–E6.7.02**, economia-compartida → Inversión Distribuida y Contratos Comunitarios; economia-compartida → Escalabilidad con Autonomía. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **723–725**. **501/E4.2.06,512/E4.3.02,649/E4.12.04 y707/E6.6.02** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.
 
 Historial anterior: producción comprobada tras el bloque 4–6: 6/840 terminadas. En elaboración local: 7–9 con nueve imágenes propias; todavía no cuentan como publicadas. Consultar siempre WordPress y el registro 24 para el estado más reciente.
 
