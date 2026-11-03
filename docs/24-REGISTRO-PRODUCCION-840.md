@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-03T19:51:24+00:00.
+Comprobado en WordPress: 2026-11-03T20:22:25+00:00.
 
-**697/840 terminadas · 0 en curso · 143 pendientes.**
+**700/840 terminadas · 0 en curso · 140 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -712,9 +712,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 698 | 47/56 · 8/15 | E6.5.08 | Inclusión financiera: abrir una cuenta cambia las reglas | terminada | 3/3 | [Leer](https://moevec.org/blog/inclusion-financiera/) |
 | 699 | 47/56 · 9/15 | E6.5.09 | Reducir trámites: reformas que multiplicaron empresas | terminada | 3/3 | [Leer](https://moevec.org/blog/reducir-tramites-reformas/) |
 | 700 | 47/56 · 10/15 | E6.5.10 | Tecnología al alcance del pequeño negocio | terminada | 3/3 | [Leer](https://moevec.org/blog/tecnologia-pequeno-negocio/) |
-| 701 | 47/56 · 11/15 | E6.5.11 | Guía para formalizar tu negocio paso a paso | pendiente | 0/3 | — |
-| 702 | 47/56 · 12/15 | E6.5.12 | Mipymes cubanas: cómo crear una y qué exige la ley | pendiente | 0/3 | — |
-| 703 | 47/56 · 13/15 | E6.5.13 | Encontrar financiación cuando no tienes historial | pendiente | 0/3 | — |
+| 701 | 47/56 · 11/15 | E6.5.11 | Guía para formalizar tu negocio paso a paso | terminada | 3/3 | [Leer](https://moevec.org/blog/guia-formalizar-negocio/) |
+| 702 | 47/56 · 12/15 | E6.5.12 | Mipymes cubanas: cómo crear una y qué exige la ley | terminada | 3/3 | [Leer](https://moevec.org/blog/mipymes-cubanas-como-crear/) |
+| 703 | 47/56 · 13/15 | E6.5.13 | Encontrar financiación cuando no tienes historial | terminada | 3/3 | [Leer](https://moevec.org/blog/financiacion-sin-historial/) |
 | 704 | 47/56 · 14/15 | E6.5.14 | Del puesto ambulante al local: crecer por etapas | pendiente | 0/3 | — |
 | 705 | 47/56 · 15/15 | E6.5.15 | Programa de acompañamiento MEE para microemprendedores: propuesta | pendiente | 0/3 | — |
 | 706 | 48/56 · 1/15 | E6.6.01 | Qué es la inversión distribuida | pendiente | 0/3 | — |

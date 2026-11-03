@@ -2,13 +2,13 @@
 
 ## Estado actual
 
-**697/840 terminadas, 2091 imágenes originales públicas, 0 en curso o borradores WordPress y 143 pendientes**. Empoderamiento de Microemprendedores 10/15; 43 tandas completas.
+**700/840 terminadas, 2100 imágenes originales públicas, 0 en curso o borradores WordPress y 140 pendientes**. Empoderamiento de Microemprendedores 13/15; 43 tandas completas.
 
 Fuente activa `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Inicio586; 111 nuevas entradas y333originales públicos.
+Inicio586; 114 nuevas entradas y342originales públicos.
 
 | Global | ID | URL | Imágenes |
 |---|---|---|---|
@@ -123,6 +123,9 @@ Inicio586; 111 nuevas entradas y333originales públicos.
 |698|E6.5.08|https://moevec.org/blog/inclusion-financiera/|3/3|
 |699|E6.5.09|https://moevec.org/blog/reducir-tramites-reformas/|3/3|
 |700|E6.5.10|https://moevec.org/blog/tecnologia-pequeno-negocio/|3/3|
+|701|E6.5.11|https://moevec.org/blog/guia-formalizar-negocio/|3/3|
+|702|E6.5.12|https://moevec.org/blog/mipymes-cubanas-como-crear/|3/3|
+|703|E6.5.13|https://moevec.org/blog/financiacion-sin-historial/|3/3|
 
 ## Revisión del último bloque
 
@@ -130,11 +133,11 @@ Fuentes y alcances por artículo en research-notes.md y source-review.json. Caso
 
 ## Continuación exacta
 
-Continuar **701–703 / E6.5.11–E6.5.13**, economia-compartida → Empoderamiento de Microemprendedores. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **704–706**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Continuar **704–706 / E6.5.14–E6.6.01**, economia-compartida → Empoderamiento de Microemprendedores; economia-compartida → Inversión Distribuida y Contratos Comunitarios. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **707–709**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
 
 ## Copias y capacidad
 
-VPS `/data/mee-backups/produccion-840-incremento-698-700-20261103`: SQL vigente `wordpress.sql` 27004467B, 66medios nuevos. Cadena221más base, huecos501/512/649. Hashes y miembros comprobados; sin nueva prueba de arranque de restauración. ZIP local incremental y prueba de entrega externos, con toda la cadena anterior conservada.
+VPS `/data/mee-backups/produccion-840-incremento-701-703-20261103`: SQL vigente `wordpress.sql` 27113603B, 66medios nuevos. Cadena222más base, huecos501/512/649. Hashes y miembros comprobados; sin nueva prueba de arranque de restauración. ZIP local incremental y prueba de entrega externos, con toda la cadena anterior conservada.
 
 Comprobar espacio antes de cada generación y copia; capacidad medida y prueba de entrega previa conservada. Umbral operativo200MiB antes de generar, y copias proporcionales con margen calculado; conservar todas las copias y originales. Automatización del mismo chat cada tres minutos, según petición del fundador.
 

@@ -1,8 +1,8 @@
 # Ejecución desde586 ·03/11/2026
 
-**697/840 terminadas, 2091 imágenes originales públicas, 0 en curso o borradores WordPress y 143 pendientes**. Empoderamiento de Microemprendedores 10/15; 43 tandas completas.
+**700/840 terminadas, 2100 imágenes originales públicas, 0 en curso o borradores WordPress y 140 pendientes**. Empoderamiento de Microemprendedores 13/15; 43 tandas completas.
 
-111 nuevas entradas y333originales públicos.
+114 nuevas entradas y342originales públicos.
 
 | Global | ID | URL | Imágenes |
 |---|---|---|---|
@@ -117,5 +117,8 @@
 |698|E6.5.08|https://moevec.org/blog/inclusion-financiera/|3/3|
 |699|E6.5.09|https://moevec.org/blog/reducir-tramites-reformas/|3/3|
 |700|E6.5.10|https://moevec.org/blog/tecnologia-pequeno-negocio/|3/3|
+|701|E6.5.11|https://moevec.org/blog/guia-formalizar-negocio/|3/3|
+|702|E6.5.12|https://moevec.org/blog/mipymes-cubanas-como-crear/|3/3|
+|703|E6.5.13|https://moevec.org/blog/financiacion-sin-historial/|3/3|
 
-Continuar **701–703 / E6.5.11–E6.5.13**, economia-compartida → Empoderamiento de Microemprendedores. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **704–706**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Continuar **704–706 / E6.5.14–E6.6.01**, economia-compartida → Empoderamiento de Microemprendedores; economia-compartida → Inversión Distribuida y Contratos Comunitarios. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **707–709**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
