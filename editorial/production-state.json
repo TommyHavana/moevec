@@ -14,13 +14,13 @@
   ],
   "area": "economia-compartida",
   "topic": "escalabilidad-con-autonomia",
-  "phase": "research_preparation_images_pending",
+  "phase": "images_pending_local_storage",
   "next_after_block": [
     726,
     727,
     728
   ],
-  "updated_at": "2026-11-03T22:40:34.538152+00:00",
+  "updated_at": "2026-11-03T22:49:32.329509+00:00",
   "last_completed_block": [
     720,
     721,
@@ -76,7 +76,7 @@
     "published_media_coverage_complete": true,
     "restore_test": false
   },
-  "last_local_backup": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Editorial_720-722_2026-11-03_incremental.zip",
+  "last_local_backup": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Editorial_723-725_2026-11-03_preparacion.zip",
   "completed_this_run": [
     589,
     590,
@@ -258,11 +258,13 @@
     {
       "number": 723,
       "id": "E6.7.03",
-      "images": 0,
+      "images": 2,
       "article_complete": false,
       "sources_verified": false,
       "published": false,
-      "phase": "research_preparation_images_pending"
+      "phase": "images_pending_local_storage",
+      "images_visually_checked": false,
+      "body_draft_ready": true
     },
     {
       "number": 724,
@@ -271,7 +273,8 @@
       "article_complete": false,
       "sources_verified": false,
       "published": false,
-      "phase": "research_preparation_images_pending"
+      "phase": "images_pending_local_storage",
+      "body_draft_ready": false
     },
     {
       "number": 725,
@@ -280,13 +283,14 @@
       "article_complete": false,
       "sources_verified": false,
       "published": false,
-      "phase": "research_preparation_images_pending"
+      "phase": "images_pending_local_storage",
+      "body_draft_ready": false
     }
   ],
-  "local_backup_kind": "incremental",
+  "local_backup_kind": "incremental-preparation-checkpoint",
   "local_backup_base": {
-    "path": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Editorial_717-719_2026-11-03_incremental.zip",
-    "sha256": "6b66aa47b50a544b8db3d1c70a8763f5e20a95692375dc946677799129d841ed"
+    "path": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Editorial_720-722_2026-11-03_incremental.zip",
+    "sha256": "c46564bfb4891a95da459e5636e8e85c21c0294adbec042dd6e4268e7dd09c91"
   },
   "storage_check": {
     "free_bytes": 4473786368,
@@ -467,12 +471,12 @@
       512
     ]
   },
-  "last_delivery_proof": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/produccion-720-722-entrega-20261103.json",
+  "last_delivery_proof": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/produccion-723-725-preparacion-20261103.json",
   "storage_block": {
-    "checked_at": "2026-11-03T22:40:34.538152+00:00",
-    "free_bytes": 248811520,
+    "checked_at": "2026-11-03T22:49:32.329509+00:00",
+    "free_bytes": 188502016,
     "observed_error": "zsh: can't create temp file for here document: no space left on device",
-    "phase": "resolved_capacity_available",
+    "phase": "insufficient_local_storage",
     "resume_when_free_bytes_at_least": 209715200,
     "completed": 718,
     "next_block": [
@@ -480,13 +484,13 @@
       724,
       725
     ],
-    "next_images_ready": 0,
+    "next_images_ready": 2,
     "texts_ready": 0,
     "sources_verified": false,
     "originals_and_backups_preserved": true,
-    "note": "Trabajo conservado. Umbral de generación200MiB con comprobación antes de cada llamada; copias proporcionales sin borrar originales.",
+    "note": "Precheck bloqueó generación con209588224B; tras recuperación temporal se completó interior-1 de723. Última medición188502016B, inferior a209715200B.723:2/3originales y borrador1125palabras.724/725:0/3 y sin textos. No cuota image_gen. Próximo recurso:723 interior-2. Comprobar capacidad en próximo despertar de3min.",
     "resolved_at": "2026-10-31T10:49:00+00:00",
-    "local_webps_ready": 0,
+    "local_webps_ready": 2,
     "native_images_preserved_remote": 1,
     "body_drafts_ready": 1
   },
@@ -496,5 +500,20 @@
     512,
     649,
     707
-  ]
+  ],
+  "resume_point": {
+    "number": 723,
+    "id": "E6.7.03",
+    "next_image": "interior-2",
+    "accepted_images": 2,
+    "body_draft_words": 1125,
+    "body_draft_ready": true,
+    "article_json_exists": false,
+    "following": [
+      724,
+      725
+    ],
+    "reason": "LOCAL_STORAGE_BELOW_OPERATIONAL_THRESHOLD",
+    "image_generation_quota_error": false
+  }
 }

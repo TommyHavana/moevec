@@ -1,3 +1,5 @@
-# Preparación · E6.7.03
+# Preparación e investigación · E6.7.03
 
-Brief y prompts conservados. Fuentes, tres imágenes, texto y publicación pendientes. No cuenta como terminada.
+Borrador principal de1125palabras, apertura53 yFAQ50/52/51; dos ejemplos hipotéticos. Falta interior-2, metadataSEO, revisión final, article.json y publicación. Portada e interior-1 ya aceptados: no regenerarlos. Dunbar1992: PDF25p escaneado, SOLO primera página/resumen leída e inspeccionada. Dunbar2014: resumen SAGE leído en web, hipótesis150 cognitiva y temporal, no tope empresarial. Lindenfors/Wartel/Lind2021: resumen XMLEuropePMC leído, CC-BY4; crítica a extrapolación con estimaciones distintas e intervalos amplios, no ausencia de todo límite. PMC web reCAPTCHA y DOI RoyalSoc403; no eludidos. API oficial EuropePMC OA20068986B archivada. Gore: cultura491–527 leída yHTML200; lattice, no límite actual150 por planta verificado. AWS: sección240–261 leída; menos10orientativo, foco, responsabilidad y límites de duplicación/silos; sin estadísticas secundarias citadas. Lecturas parciales explícitas, no artículos íntegros ni mediciones propias. Revisión final y fuentes al finalizar pendientes.
+
+Espacio inferior al mínimo operativo200MiB para nuevos originales. No hay agotamiento comunicado de image_gen.
