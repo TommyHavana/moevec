@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-03T19:12:15+00:00.
+Comprobado en WordPress: 2026-11-03T19:32:40+00:00.
 
-**691/840 terminadas · 0 en curso · 149 pendientes.**
+**694/840 terminadas · 0 en curso · 146 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -706,9 +706,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 692 | 47/56 · 2/15 | E6.5.02 | Capital muerto y microemprendedores: qué ha demostrado la evidencia | terminada | 3/3 | [Leer](https://moevec.org/blog/capital-muerto-microemprendedores-evidencia/) |
 | 693 | 47/56 · 3/15 | E6.5.03 | Informalidad: refugio, trampa y síntoma | terminada | 3/3 | [Leer](https://moevec.org/blog/informalidad-refugio-trampa-sintoma/) |
 | 694 | 47/56 · 4/15 | E6.5.04 | Microcrédito: lo que prometió y lo que demostró | terminada | 3/3 | [Leer](https://moevec.org/blog/microcredito-promesa-y-evidencia/) |
-| 695 | 47/56 · 5/15 | E6.5.05 | Dinero móvil: cómo M-Pesa cambió Kenia | pendiente | 0/3 | — |
-| 696 | 47/56 · 6/15 | E6.5.06 | Formación para emprendedores: qué funciona según la evidencia | pendiente | 0/3 | — |
-| 697 | 47/56 · 7/15 | E6.5.07 | Mujeres emprendedoras: barreras y evidencia | pendiente | 0/3 | — |
+| 695 | 47/56 · 5/15 | E6.5.05 | Dinero móvil: cómo M-Pesa cambió Kenia | terminada | 3/3 | [Leer](https://moevec.org/blog/dinero-movil-mpesa/) |
+| 696 | 47/56 · 6/15 | E6.5.06 | Formación para emprendedores: qué funciona según la evidencia | terminada | 3/3 | [Leer](https://moevec.org/blog/formacion-emprendedores-evidencia/) |
+| 697 | 47/56 · 7/15 | E6.5.07 | Mujeres emprendedoras: barreras y evidencia | terminada | 3/3 | [Leer](https://moevec.org/blog/mujeres-emprendedoras/) |
 | 698 | 47/56 · 8/15 | E6.5.08 | Inclusión financiera: abrir una cuenta cambia las reglas | pendiente | 0/3 | — |
 | 699 | 47/56 · 9/15 | E6.5.09 | Reducir trámites: reformas que multiplicaron empresas | pendiente | 0/3 | — |
 | 700 | 47/56 · 10/15 | E6.5.10 | Tecnología al alcance del pequeño negocio | pendiente | 0/3 | — |
