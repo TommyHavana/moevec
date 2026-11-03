@@ -1,8 +1,8 @@
 # Ejecución desde586 ·03/11/2026
 
-**682/840 terminadas, 2046 imágenes originales públicas, 0 en curso o borradores WordPress y 158 pendientes**. Diversificación Comercial Inteligente 10/15; 42 tandas completas.
+**685/840 terminadas, 2055 imágenes originales públicas, 0 en curso o borradores WordPress y 155 pendientes**. Diversificación Comercial Inteligente 13/15; 42 tandas completas.
 
-96 nuevas entradas y288originales públicos.
+99 nuevas entradas y297originales públicos.
 
 | Global | ID | URL | Imágenes |
 |---|---|---|---|
@@ -102,5 +102,8 @@
 |683|E6.4.08|https://moevec.org/blog/exportar-siendo-pequeno/|3/3|
 |684|E6.4.09|https://moevec.org/blog/ingresos-recurrentes/|3/3|
 |685|E6.4.10|https://moevec.org/blog/estacionalidad-meses-flojos/|3/3|
+|686|E6.4.11|https://moevec.org/blog/caso-panaderia-diversificacion/|3/3|
+|687|E6.4.12|https://moevec.org/blog/diversificar-ingresos-personales/|3/3|
+|688|E6.4.13|https://moevec.org/blog/diversificacion-mipymes-cubanas/|3/3|
 
-Continuar **686–688 / E6.4.11–E6.4.13**, economia-compartida → Diversificación Comercial Inteligente. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **689–691**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Continuar **689–691 / E6.4.14–E6.5.01**, economia-compartida → Diversificación Comercial Inteligente; economia-compartida → Empoderamiento de Microemprendedores. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **692–694**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.

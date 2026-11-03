@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-03T18:05:24+00:00.
+Comprobado en WordPress: 2026-11-03T18:24:05+00:00.
 
-**682/840 terminadas · 0 en curso · 158 pendientes.**
+**685/840 terminadas · 0 en curso · 155 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -697,9 +697,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 683 | 46/56 · 8/15 | E6.4.08 | Exportar siendo pequeño: primeros pasos | terminada | 3/3 | [Leer](https://moevec.org/blog/exportar-siendo-pequeno/) |
 | 684 | 46/56 · 9/15 | E6.4.09 | Ingresos recurrentes: suscripciones, mantenimiento y membresías | terminada | 3/3 | [Leer](https://moevec.org/blog/ingresos-recurrentes/) |
 | 685 | 46/56 · 10/15 | E6.4.10 | Estacionalidad: cómo diversificar para los meses flojos | terminada | 3/3 | [Leer](https://moevec.org/blog/estacionalidad-meses-flojos/) |
-| 686 | 46/56 · 11/15 | E6.4.11 | Caso ilustrativo: la panadería que diversificó sin perder su esencia | pendiente | 0/3 | — |
-| 687 | 46/56 · 12/15 | E6.4.12 | Diversificar ingresos personales: más de una fuente | pendiente | 0/3 | — |
-| 688 | 46/56 · 13/15 | E6.4.13 | Diversificación para mipymes cubanas: mercados y divisas | pendiente | 0/3 | — |
+| 686 | 46/56 · 11/15 | E6.4.11 | Caso ilustrativo: la panadería que diversificó sin perder su esencia | terminada | 3/3 | [Leer](https://moevec.org/blog/caso-panaderia-diversificacion/) |
+| 687 | 46/56 · 12/15 | E6.4.12 | Diversificar ingresos personales: más de una fuente | terminada | 3/3 | [Leer](https://moevec.org/blog/diversificar-ingresos-personales/) |
+| 688 | 46/56 · 13/15 | E6.4.13 | Diversificación para mipymes cubanas: mercados y divisas | terminada | 3/3 | [Leer](https://moevec.org/blog/diversificacion-mipymes-cubanas/) |
 | 689 | 46/56 · 14/15 | E6.4.14 | Autodiagnóstico de concentración: una hoja de cálculo sencilla | pendiente | 0/3 | — |
 | 690 | 46/56 · 15/15 | E6.4.15 | Plan de diversificación a doce meses | pendiente | 0/3 | — |
 | 691 | 47/56 · 1/15 | E6.5.01 | Microemprendedores: quiénes son y cuántos hay | pendiente | 0/3 | — |
