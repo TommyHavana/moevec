@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-03T22:39:28+00:00.
+Comprobado en WordPress: 2026-11-03T23:30:50+00:00.
 
-**718/840 terminadas · 0 en curso · 122 pendientes.**
+**721/840 terminadas · 0 en curso · 119 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -734,9 +734,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 720 | 48/56 · 15/15 | E6.6.15 | Principios MEE para la inversión comunitaria | terminada | 3/3 | [Leer](https://moevec.org/blog/principios-mee-inversion-comunitaria/) |
 | 721 | 49/56 · 1/15 | E6.7.01 | Lo pequeño es posible: la tesis de Bastos sobre el tamaño | terminada | 3/3 | [Leer](https://moevec.org/blog/lo-pequeno-es-posible-bastos/) |
 | 722 | 49/56 · 2/15 | E6.7.02 | El conocimiento disperso: por qué centralizar falla | terminada | 3/3 | [Leer](https://moevec.org/blog/conocimiento-disperso-centralizar-falla/) |
-| 723 | 49/56 · 3/15 | E6.7.03 | El número de Dunbar y el tamaño de los equipos | pendiente | 0/3 | — |
-| 724 | 49/56 · 4/15 | E6.7.04 | Las crisis del crecimiento: el modelo de Greiner | pendiente | 0/3 | — |
-| 725 | 49/56 · 5/15 | E6.7.05 | Escalar no es solo crecer: rendimientos y complejidad | pendiente | 0/3 | — |
+| 723 | 49/56 · 3/15 | E6.7.03 | El número de Dunbar y el tamaño de los equipos | terminada | 3/3 | [Leer](https://moevec.org/blog/numero-de-dunbar-equipos/) |
+| 724 | 49/56 · 4/15 | E6.7.04 | Las crisis del crecimiento: el modelo de Greiner | terminada | 3/3 | [Leer](https://moevec.org/blog/crisis-del-crecimiento-greiner/) |
+| 725 | 49/56 · 5/15 | E6.7.05 | Escalar no es solo crecer: rendimientos y complejidad | terminada | 3/3 | [Leer](https://moevec.org/blog/escalar-no-es-solo-crecer/) |
 | 726 | 49/56 · 6/15 | E6.7.06 | Autogestión en la práctica: Morning Star | pendiente | 0/3 | — |
 | 727 | 49/56 · 7/15 | E6.7.07 | Semco: democracia empresarial en Brasil | pendiente | 0/3 | — |
 | 728 | 49/56 · 8/15 | E6.7.08 | Haier y las microempresas internas | pendiente | 0/3 | — |

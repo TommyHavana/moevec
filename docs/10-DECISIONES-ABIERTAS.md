@@ -2036,3 +2036,13 @@ Preparación local723–725: **723/E6.7.03 tiene2/3WebP** y borrador principal11
 La comprobación previa bloqueó una generación a209588224B. Tras una recuperación temporal se generó la segunda imagen de723. Última medición antes de respaldo: 188502016B; mínimo de generación209715200B. No error de cuota de image_gen. No se han borrado originales ni copias. Se conserva copia incremental de esta preparación referida al cierre720–722.
 
 Automatización activa cada tres minutos en el mismo chat. Al disponer de capacidad, reanudar723 interior-2 y completar723–725; después726–728. No duplicar procesos ni publicaciones.
+
+
+## Continuación editorial723-725 ·04/11/2026
+
+**721/840 terminadas, 2163 imágenes originales públicas, 0 en curso o borradores WordPress y 119 pendientes**. Escalabilidad con Autonomía 5/15; 44 tandas completas.
+
+Fuentes y alcances por artículo en research-notes.md y source-review.json. Casos y ejemplos identificados, fuentes primarias y límites contrastados antes de publicar. Advertencia SEO: salida WordPress con dos meta descripciones idénticas; textos y títulos correctos. Incidencia de plantilla registrada, fuera de esta producción.
+
+Continuar **726–728 / E6.7.06–E6.7.08**, economia-compartida → Escalabilidad con Autonomía. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **729–731**. **501/E4.2.06,512/E4.3.02,649/E4.12.04 y707/E6.6.02** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.
+Automatización cada tres minutos ya configurada. No se han borrado copias ni originales.

@@ -1,14 +1,14 @@
-# Estado de MEE y continuidad ·03/11/2026 ·Europe/Madrid
+# Estado de MEE y continuidad ·04/11/2026 ·Europe/Madrid
 
 ## Estado actual
 
-**718/840 terminadas, 2154 imágenes originales públicas, 0 en curso o borradores WordPress y 122 pendientes**. Inversión Distribuida y Contratos Comunitarios 14/15; Escalabilidad con Autonomía 2/15; 44 tandas completas.
+**721/840 terminadas, 2163 imágenes originales públicas, 0 en curso o borradores WordPress y 119 pendientes**. Escalabilidad con Autonomía 5/15; 44 tandas completas.
 
 Fuente activa `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Inicio586; 132 nuevas entradas y396originales públicos.
+Inicio586; 135 nuevas entradas y405originales públicos.
 
 | Global | ID | URL | Imágenes |
 |---|---|---|---|
@@ -144,6 +144,9 @@ Inicio586; 132 nuevas entradas y396originales públicos.
 |720|E6.6.15|https://moevec.org/blog/principios-mee-inversion-comunitaria/|3/3|
 |721|E6.7.01|https://moevec.org/blog/lo-pequeno-es-posible-bastos/|3/3|
 |722|E6.7.02|https://moevec.org/blog/conocimiento-disperso-centralizar-falla/|3/3|
+|723|E6.7.03|https://moevec.org/blog/numero-de-dunbar-equipos/|3/3|
+|724|E6.7.04|https://moevec.org/blog/crisis-del-crecimiento-greiner/|3/3|
+|725|E6.7.05|https://moevec.org/blog/escalar-no-es-solo-crecer/|3/3|
 
 ## Revisión del último bloque
 
@@ -151,11 +154,11 @@ Fuentes y alcances por artículo en research-notes.md y source-review.json. Caso
 
 ## Continuación exacta
 
-Continuar **723–725 / E6.7.03–E6.7.05**, economia-compartida → Escalabilidad con Autonomía. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **726–728**. **501/E4.2.06,512/E4.3.02,649/E4.12.04 y707/E6.6.02** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.
+Continuar **726–728 / E6.7.06–E6.7.08**, economia-compartida → Escalabilidad con Autonomía. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **729–731**. **501/E4.2.06,512/E4.3.02,649/E4.12.04 y707/E6.6.02** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.
 
 ## Copias y capacidad
 
-VPS `/data/mee-backups/produccion-840-incremento-720-722-20261103`: SQL vigente `wordpress.sql` 27750270B, 66medios nuevos. Cadena228más base, huecos501/512/649/707. Hashes y miembros comprobados; sin nueva prueba de arranque de restauración. ZIP local incremental y prueba de entrega externos, con toda la cadena anterior conservada.
+VPS `/data/mee-backups/produccion-840-incremento-723-725-20261104`: SQL vigente `wordpress.sql` 27850439B, 66medios nuevos. Cadena229más base, huecos501/512/649/707. Hashes y miembros comprobados; sin nueva prueba de arranque de restauración. ZIP local incremental y prueba de entrega externos, con toda la cadena anterior conservada.
 
 Comprobar espacio antes de cada generación y copia; capacidad medida y prueba de entrega previa conservada. Umbral operativo200MiB antes de generar, y copias proporcionales con margen calculado; conservar todas las copias y originales. Automatización del mismo chat cada tres minutos, según petición del fundador.
 
@@ -293,14 +296,3 @@ El fundador pidió que, al terminar cada bloque de tres, se comience el siguient
 
 
 707/E6.6.02: afirmación del título «la inversión comunitaria más antigua» sin acreditar por las fuentes revisadas. Propuesto «Grupos de ahorro rotativo: cómo funcionan y qué riesgos tienen», mismo ID/slug; consulta enviada una vez, sin respuesta. Preparar cuerpo e imágenes sin publicar el título no verificado. Avanzar708/709 y después710 si sigue pendiente; no bloquear producción independiente.
-
-
-## Punto exacto de capacidad ·03/11/2026
-
-WordPress: **718/840 terminadas,2154 imágenes originales públicas,0 borradores y122 pendientes**. Último bloque720–722 verificado y cerrado. Títulos retenidos501/512/649/707, sin publicar.
-
-Preparación local723–725: **723/E6.7.03 tiene2/3WebP** y borrador principal1125palabras, apertura53, FAQ50/52/51; sin article.json ni publicación. Próximo recurso: **interior-2**. Conservar portada e interior-1. **724/E6.7.04 y725/E6.7.05:0/3 imágenes, sin texto**, con briefs, prompts y fuentes iniciales. Alcance de lectura y pendientes en cada expediente.
-
-La comprobación previa bloqueó una generación a209588224B. Tras una recuperación temporal se generó la segunda imagen de723. Última medición antes de respaldo: 188502016B; mínimo de generación209715200B. No error de cuota de image_gen. No se han borrado originales ni copias. Se conserva copia incremental de esta preparación referida al cierre720–722.
-
-Automatización activa cada tres minutos en el mismo chat. Al disponer de capacidad, reanudar723 interior-2 y completar723–725; después726–728. No duplicar procesos ni publicaciones.
