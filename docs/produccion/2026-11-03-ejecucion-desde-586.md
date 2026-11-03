@@ -1,8 +1,8 @@
 # Ejecución desde586 ·03/11/2026
 
-**655/840 terminadas, 1965 imágenes originales públicas, 0 en curso o borradores WordPress y 185 pendientes**. Adaptabilidad Técnica12/15; 41 tandas completas.
+**658/840 terminadas, 1974 imágenes originales públicas, 0 en curso o borradores WordPress y 182 pendientes**. Adaptabilidad Técnica 14/15; Especialización Estratégica Escalonada 1/15; 41 tandas completas.
 
-69 nuevas entradas y207originales públicos.
+72 nuevas entradas y216originales públicos.
 
 | Global | ID | URL | Imágenes |
 |---|---|---|---|
@@ -75,5 +75,8 @@
 |656|E4.12.11|https://moevec.org/blog/kit-digital-emprendedor/|3/3|
 |657|E4.12.12|https://moevec.org/blog/negocios-que-caben-en-el-movil/|3/3|
 |658|E4.12.13|https://moevec.org/blog/ciberseguridad-pequenos-negocios/|3/3|
+|659|E4.12.14|https://moevec.org/blog/aprender-herramienta-en-una-semana/|3/3|
+|660|E4.12.15|https://moevec.org/blog/radar-tecnologico-mee/|3/3|
+|661|E6.3.01|https://moevec.org/blog/fabrica-de-alfileres/|3/3|
 
-Continuar **659–661 / E4.12.14–E6.3.01**, trabajo → Adaptabilidad Técnica; economia-compartida → Especialización Estratégica Escalonada. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **662–664**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Continuar **662–664 / E6.3.02–E6.3.04**, economia-compartida → Especialización Estratégica Escalonada. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **665–667**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
