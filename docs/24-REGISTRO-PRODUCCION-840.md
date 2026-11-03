@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-03T20:39:53+00:00.
+Comprobado en WordPress: 2026-11-03T21:16:38+00:00.
 
-**703/840 terminadas · 0 en curso · 137 pendientes.**
+**706/840 terminadas · 0 en curso · 134 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -719,9 +719,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 705 | 47/56 · 15/15 | E6.5.15 | Programa de acompañamiento MEE para microemprendedores: propuesta | terminada | 3/3 | [Leer](https://moevec.org/blog/programa-acompanamiento-mee/) |
 | 706 | 48/56 · 1/15 | E6.6.01 | Qué es la inversión distribuida | terminada | 3/3 | [Leer](https://moevec.org/blog/que-es-inversion-distribuida/) |
 | 707 | 48/56 · 2/15 | E6.6.02 | Grupos de ahorro rotativo: la inversión comunitaria más antigua | pendiente | 0/3 | — |
-| 708 | 48/56 · 3/15 | E6.6.03 | Financiación participativa: tipos y regulación | pendiente | 0/3 | — |
-| 709 | 48/56 · 4/15 | E6.6.04 | Contratos claros: por qué la confianza necesita papel | pendiente | 0/3 | — |
-| 710 | 48/56 · 5/15 | E6.6.05 | Cómo detectar una pirámide o esquema Ponzi | pendiente | 0/3 | — |
+| 708 | 48/56 · 3/15 | E6.6.03 | Financiación participativa: tipos y regulación | terminada | 3/3 | [Leer](https://moevec.org/blog/financiacion-participativa-tipos/) |
+| 709 | 48/56 · 4/15 | E6.6.04 | Contratos claros: por qué la confianza necesita papel | terminada | 3/3 | [Leer](https://moevec.org/blog/contratos-claros-confianza/) |
+| 710 | 48/56 · 5/15 | E6.6.05 | Cómo detectar una pirámide o esquema Ponzi | terminada | 3/3 | [Leer](https://moevec.org/blog/detectar-piramide-ponzi/) |
 | 711 | 48/56 · 6/15 | E6.6.06 | Participación de los empleados en la empresa | pendiente | 0/3 | — |
 | 712 | 48/56 · 7/15 | E6.6.07 | Inversores ángel y primeras rondas: cómo funciona | pendiente | 0/3 | — |
 | 713 | 48/56 · 8/15 | E6.6.08 | Préstamos entre particulares: ventajas y peligros | pendiente | 0/3 | — |

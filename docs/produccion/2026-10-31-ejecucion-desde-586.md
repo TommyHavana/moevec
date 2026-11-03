@@ -1,8 +1,8 @@
 # Ejecución desde586 ·31/10/2026
 
-**646/840 terminadas, 1938 imágenes originales públicas, 0 en curso o borradores WordPress y 194 pendientes**. Adaptabilidad Técnica3/15; 41 tandas completas.
+**706/840 terminadas, 2118 imágenes originales públicas, 0 en curso o borradores WordPress y 134 pendientes**. Inversión Distribuida y Contratos Comunitarios4/15; 44 tandas completas.
 
-60 nuevas entradas y180originales públicos.
+120 nuevas entradas y360originales públicos.
 
 | Global | ID | URL | Imágenes |
 |---|---|---|---|
@@ -66,5 +66,65 @@
 |646|E4.12.01|https://moevec.org/blog/adaptabilidad-tecnica-que-es/|3/3|
 |647|E4.12.02|https://moevec.org/blog/difusion-de-tecnologias/|3/3|
 |648|E4.12.03|https://moevec.org/blog/alfabetizacion-digital-basica/|3/3|
+|650|E4.12.05|https://moevec.org/blog/ia-para-pequenos-negocios/|3/3|
+|651|E4.12.06|https://moevec.org/blog/herramientas-sin-codigo/|3/3|
+|652|E4.12.07|https://moevec.org/blog/aprender-a-programar/|3/3|
+|653|E4.12.08|https://moevec.org/blog/comercio-electronico-latam-cuba/|3/3|
+|654|E4.12.09|https://moevec.org/blog/tecnologia-y-empleo-historia/|3/3|
+|655|E4.12.10|https://moevec.org/blog/reconversion-profesional/|3/3|
+|656|E4.12.11|https://moevec.org/blog/kit-digital-emprendedor/|3/3|
+|657|E4.12.12|https://moevec.org/blog/negocios-que-caben-en-el-movil/|3/3|
+|658|E4.12.13|https://moevec.org/blog/ciberseguridad-pequenos-negocios/|3/3|
+|659|E4.12.14|https://moevec.org/blog/aprender-herramienta-en-una-semana/|3/3|
+|660|E4.12.15|https://moevec.org/blog/radar-tecnologico-mee/|3/3|
+|661|E6.3.01|https://moevec.org/blog/fabrica-de-alfileres/|3/3|
+|662|E6.3.02|https://moevec.org/blog/ventaja-comparativa-negocio-y-red/|3/3|
+|663|E6.3.03|https://moevec.org/blog/espacio-de-productos/|3/3|
+|664|E6.3.04|https://moevec.org/blog/etapas-de-diversificacion/|3/3|
+|665|E6.3.05|https://moevec.org/blog/capital-humano-especializacion/|3/3|
+|666|E6.3.06|https://moevec.org/blog/nicho-primero/|3/3|
+|667|E6.3.07|https://moevec.org/blog/salto-capacidad-vecina/|3/3|
+|668|E6.3.08|https://moevec.org/blog/clusteres-especializacion-territorio/|3/3|
+|669|E6.3.09|https://moevec.org/blog/politica-industrial-debate/|3/3|
+|670|E6.3.10|https://moevec.org/blog/especializacion-y-riesgo/|3/3|
+|671|E6.3.11|https://moevec.org/blog/ruta-especializacion-cinco-escalones/|3/3|
+|672|E6.3.12|https://moevec.org/blog/caso-startup-especializacion/|3/3|
+|673|E6.3.13|https://moevec.org/blog/especializacion-cuba-nichos/|3/3|
+|674|E6.3.14|https://moevec.org/blog/subcontratar-lo-que-no-es-tu-especialidad/|3/3|
+|675|E6.3.15|https://moevec.org/blog/alianzas-entre-especialistas/|3/3|
+|676|E6.4.01|https://moevec.org/blog/markowitz-diversificacion/|3/3|
+|677|E6.4.02|https://moevec.org/blog/riesgo-cliente-unico/|3/3|
+|678|E6.4.03|https://moevec.org/blog/paises-un-solo-producto-venezuela/|3/3|
+|679|E6.4.04|https://moevec.org/blog/diversificar-no-es-dispersarse/|3/3|
+|680|E6.4.05|https://moevec.org/blog/cinco-dimensiones-diversificacion/|3/3|
+|681|E6.4.06|https://moevec.org/blog/diversificar-proveedores-crisis/|3/3|
+|682|E6.4.07|https://moevec.org/blog/vender-en-varios-canales/|3/3|
+|683|E6.4.08|https://moevec.org/blog/exportar-siendo-pequeno/|3/3|
+|684|E6.4.09|https://moevec.org/blog/ingresos-recurrentes/|3/3|
+|685|E6.4.10|https://moevec.org/blog/estacionalidad-meses-flojos/|3/3|
+|686|E6.4.11|https://moevec.org/blog/caso-panaderia-diversificacion/|3/3|
+|687|E6.4.12|https://moevec.org/blog/diversificar-ingresos-personales/|3/3|
+|688|E6.4.13|https://moevec.org/blog/diversificacion-mipymes-cubanas/|3/3|
+|689|E6.4.14|https://moevec.org/blog/autodiagnostico-concentracion/|3/3|
+|690|E6.4.15|https://moevec.org/blog/plan-diversificacion-doce-meses/|3/3|
+|691|E6.5.01|https://moevec.org/blog/microemprendedores-quienes-son/|3/3|
+|692|E6.5.02|https://moevec.org/blog/capital-muerto-microemprendedores-evidencia/|3/3|
+|693|E6.5.03|https://moevec.org/blog/informalidad-refugio-trampa-sintoma/|3/3|
+|694|E6.5.04|https://moevec.org/blog/microcredito-promesa-y-evidencia/|3/3|
+|695|E6.5.05|https://moevec.org/blog/dinero-movil-mpesa/|3/3|
+|696|E6.5.06|https://moevec.org/blog/formacion-emprendedores-evidencia/|3/3|
+|697|E6.5.07|https://moevec.org/blog/mujeres-emprendedoras/|3/3|
+|698|E6.5.08|https://moevec.org/blog/inclusion-financiera/|3/3|
+|699|E6.5.09|https://moevec.org/blog/reducir-tramites-reformas/|3/3|
+|700|E6.5.10|https://moevec.org/blog/tecnologia-pequeno-negocio/|3/3|
+|701|E6.5.11|https://moevec.org/blog/guia-formalizar-negocio/|3/3|
+|702|E6.5.12|https://moevec.org/blog/mipymes-cubanas-como-crear/|3/3|
+|703|E6.5.13|https://moevec.org/blog/financiacion-sin-historial/|3/3|
+|704|E6.5.14|https://moevec.org/blog/del-puesto-ambulante-al-local/|3/3|
+|705|E6.5.15|https://moevec.org/blog/programa-acompanamiento-mee/|3/3|
+|706|E6.6.01|https://moevec.org/blog/que-es-inversion-distribuida/|3/3|
+|708|E6.6.03|https://moevec.org/blog/financiacion-participativa-tipos/|3/3|
+|709|E6.6.04|https://moevec.org/blog/contratos-claros-confianza/|3/3|
+|710|E6.6.05|https://moevec.org/blog/detectar-piramide-ponzi/|3/3|
 
-Continuar **649–651 / E4.12.04–E4.12.06**, Trabajo → Adaptabilidad Técnica. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **652–654**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Continuar **711–713 / E6.6.06–E6.6.08**, Trabajo → Inversión Distribuida y Contratos Comunitarios. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **714–716**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.

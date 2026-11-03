@@ -1,8 +1,8 @@
 # Backlog de MEE
 
-Último estado: **703/840 terminadas, 2109 imágenes originales públicas, 0 en curso o borradores WordPress y 137 pendientes**. Empoderamiento de Microemprendedores 15/15; Inversión Distribuida y Contratos Comunitarios 1/15; 44 tandas completas.
+Último estado: **706/840 terminadas, 2118 imágenes originales públicas, 0 en curso o borradores WordPress y 134 pendientes**. Inversión Distribuida y Contratos Comunitarios4/15; 44 tandas completas.
 
-Continuar **707–709 / E6.6.02–E6.6.04**, economia-compartida → Inversión Distribuida y Contratos Comunitarios. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **710–712**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Continuar **711–713 / E6.6.06–E6.6.08**, Trabajo → Inversión Distribuida y Contratos Comunitarios. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **714–716**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
 
 Historial anterior: producción comprobada tras el bloque 4–6: 6/840 terminadas. En elaboración local: 7–9 con nueve imágenes propias; todavía no cuentan como publicadas. Consultar siempre WordPress y el registro 24 para el estado más reciente.
 

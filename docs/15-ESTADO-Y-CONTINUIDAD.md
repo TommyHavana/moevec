@@ -1,14 +1,14 @@
-# Estado de MEE y continuidad ·03/11/2026 ·Europe/Madrid
+# Estado de MEE y continuidad ·31/10/2026 ·Europe/Madrid
 
 ## Estado actual
 
-**703/840 terminadas, 2109 imágenes originales públicas, 0 en curso o borradores WordPress y 137 pendientes**. Empoderamiento de Microemprendedores 15/15; Inversión Distribuida y Contratos Comunitarios 1/15; 44 tandas completas.
+**706/840 terminadas, 2118 imágenes originales públicas, 0 en curso o borradores WordPress y 134 pendientes**. Inversión Distribuida y Contratos Comunitarios4/15; 44 tandas completas.
 
 Fuente activa `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Inicio586; 117 nuevas entradas y351originales públicos.
+Inicio586; 120 nuevas entradas y360originales públicos.
 
 | Global | ID | URL | Imágenes |
 |---|---|---|---|
@@ -129,6 +129,9 @@ Inicio586; 117 nuevas entradas y351originales públicos.
 |704|E6.5.14|https://moevec.org/blog/del-puesto-ambulante-al-local/|3/3|
 |705|E6.5.15|https://moevec.org/blog/programa-acompanamiento-mee/|3/3|
 |706|E6.6.01|https://moevec.org/blog/que-es-inversion-distribuida/|3/3|
+|708|E6.6.03|https://moevec.org/blog/financiacion-participativa-tipos/|3/3|
+|709|E6.6.04|https://moevec.org/blog/contratos-claros-confianza/|3/3|
+|710|E6.6.05|https://moevec.org/blog/detectar-piramide-ponzi/|3/3|
 
 ## Revisión del último bloque
 
@@ -136,13 +139,13 @@ Fuentes y alcances por artículo en research-notes.md y source-review.json. Caso
 
 ## Continuación exacta
 
-Continuar **707–709 / E6.6.02–E6.6.04**, economia-compartida → Inversión Distribuida y Contratos Comunitarios. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **710–712**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Continuar **711–713 / E6.6.06–E6.6.08**, Trabajo → Inversión Distribuida y Contratos Comunitarios. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **714–716**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
 
 ## Copias y capacidad
 
-VPS `/data/mee-backups/produccion-840-incremento-704-706-20261103`: SQL vigente `wordpress.sql` 27220710B, 66medios nuevos. Cadena223más base, huecos501/512/649. Hashes y miembros comprobados; sin nueva prueba de arranque de restauración. ZIP local incremental y prueba de entrega externos, con toda la cadena anterior conservada.
+VPS `/data/mee-backups/produccion-840-incremento-708-710-20261103`: SQL vigente `wordpress.sql` 27331292B, 66medios nuevos. Cadena224más base, huecos501/512. Hashes y miembros comprobados; sin nueva prueba de arranque de restauración. ZIP local incremental y prueba de entrega externos, con toda la cadena anterior conservada.
 
-Comprobar espacio antes de cada generación y copia; capacidad medida y prueba de entrega previa conservada. Umbral operativo200MiB antes de generar, y copias proporcionales con margen calculado; conservar todas las copias y originales. Automatización del mismo chat cada tres minutos, según petición del fundador.
+Capacidad local recuperada. Comprobar espacio antes de cada generación y copia; capacidad recuperada comprobada en esta ejecución; registro de entrega anterior y referencia de Git recuperados. Umbral operativo200MiB antes de generar, y copias proporcionales con margen calculado; conservar todas las copias y originales. Automatización del mismo chat cada tres minutos, según petición del fundador.
 
 ## Página de apoyo, donaciones y publicidad · 29/10/2026
 
