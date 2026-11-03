@@ -1,8 +1,8 @@
 # Ejecución desde586 ·03/11/2026
 
-**694/840 terminadas, 2082 imágenes originales públicas, 0 en curso o borradores WordPress y 146 pendientes**. Empoderamiento de Microemprendedores 7/15; 43 tandas completas.
+**697/840 terminadas, 2091 imágenes originales públicas, 0 en curso o borradores WordPress y 143 pendientes**. Empoderamiento de Microemprendedores 10/15; 43 tandas completas.
 
-108 nuevas entradas y324originales públicos.
+111 nuevas entradas y333originales públicos.
 
 | Global | ID | URL | Imágenes |
 |---|---|---|---|
@@ -114,5 +114,8 @@
 |695|E6.5.05|https://moevec.org/blog/dinero-movil-mpesa/|3/3|
 |696|E6.5.06|https://moevec.org/blog/formacion-emprendedores-evidencia/|3/3|
 |697|E6.5.07|https://moevec.org/blog/mujeres-emprendedoras/|3/3|
+|698|E6.5.08|https://moevec.org/blog/inclusion-financiera/|3/3|
+|699|E6.5.09|https://moevec.org/blog/reducir-tramites-reformas/|3/3|
+|700|E6.5.10|https://moevec.org/blog/tecnologia-pequeno-negocio/|3/3|
 
-Continuar **698–700 / E6.5.08–E6.5.10**, economia-compartida → Empoderamiento de Microemprendedores. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **701–703**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Continuar **701–703 / E6.5.11–E6.5.13**, economia-compartida → Empoderamiento de Microemprendedores. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **704–706**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
