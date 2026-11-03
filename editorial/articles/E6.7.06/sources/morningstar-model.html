@@ -1,0 +1,940 @@
+<html lang="en-US">
+<head>
+<title>Tomato Processing and Packing Company - Morning Star Tomatoes</title>
+<meta name="description" content="The Morning Star Company harvests, processes, packs and transports tomatoes while retaining tomatoe paste and diced tomato health benefits since 1970.">
+
+<style>
+.modal-window {
+  position: fixed;
+  background-color: rgba(15, 45, 82, 0.70);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  max-height: 100%;
+  overflow-y: auto;
+}
+.modal-window div{
+  margin-bottom: 60px;
+}
+
+.yellow-bg{
+  background-color: rgba(222, 159, 76, 0.70) !important;
+}
+.red-bg{
+  background-color: rgba(180, 44, 40, 0.70) !important;
+}
+.darkblue-bg{
+  background-color: rgba(15, 45, 82, 0.70) !important;
+}
+.gray-bg{
+  background-color: rgba(192, 192, 192, 0.70) !important;
+}
+.white-bg{
+  background-color: rgba(255, 255, 255, 0.70) !important;
+}
+.ltblue-bg{
+  background-color: rgba(0, 103, 159, 0.70) !important;
+}
+
+.modal-window:target {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+.modal-window > div {
+  width: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 2em 2em 2em 2em;
+  background: #ffffff;
+}
+
+/* LONGER MODAL ADJUSTMENTS */
+#business-role > div {
+  top: 80% !important;
+}
+#enlightened-self-interest > div {
+  top: 70% !important;
+}
+#enlightened-competition > div {
+  top: 70% !important;
+}
+#mission-focused-self-management > div {
+  top: 70% !important;
+} 
+#gain-agreement > div {
+  top: 70% !important;
+} 
+/* END ADJUSMTENTS  */
+
+
+.modal-window header {
+  font-weight: bold;
+}
+.modal-window h1 {
+  font-size: 150%;
+  margin: 0 0 30px;
+}
+
+.modal-close {
+  color: #DC3A2F;
+  line-height: 50px;
+  font-size: 100%;
+  position: absolute;
+  right: 20px;
+  text-align: center;
+  top: 20px;
+  width: 100px;
+  text-decoration: none;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+}
+.modal-close:hover {
+  color: white;
+  background-color: #DC3A2F;
+}
+.modal-close-bottom {
+  color: #DC3A2F;
+  line-height: 50px;
+  font-size: 100%;
+  position: absolute;
+  right: 20px;
+  text-align: center;
+  bottom: 20px;
+  width: 100px;
+  text-decoration: none;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+}
+.modal-close-bottom:hover {
+  color: white;
+  background-color: #DC3A2F;
+}
+#logo{
+    background-image: url('logo.png');
+    background-repeat: no-repeat;
+    background-position: 50% 0px;
+    background-size: 120px;
+}  
+
+#inner {
+  position: absolute;
+  display: block;
+  /*padding: 48px;
+  line-height: 1.8;*/
+  /*width: 70%;*/
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.2);
+  background: white;
+  color: #34495E;
+}
+a.close {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  /*background-color: #ff0000;*/
+  opacity: 1;
+  -webkit-transition: opacity 200ms;
+  transition: opacity 200ms;
+}
+a.close:hover {
+  opacity: 0;
+}
+
+/* Demo Styles */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font: 400 18px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  /*background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #7f53ac), to(#657ced));
+  background-image: linear-gradient(to right, #7f53ac 0, #657ced 100%);*/
+  color: black;
+}
+
+a {
+  color: inherit;
+}
+
+.container {
+    width: 880px;
+    margin: auto;
+    text-align: center;
+    /*background-color: #EB008B;*/
+}
+
+.modal-window div:not(:last-of-type) {
+  margin-bottom: 15px;
+}
+
+small {
+  color: #aaa;
+}
+
+.btn {
+  background-color: #fff;
+  padding: 1em 1.5em;
+  border-radius: 3px;
+  text-decoration: none;
+}
+.btn i {
+  padding-right: 0.3em;
+}
+.clickable {
+    cursor: pointer;
+}
+.center-video {text-align: center; }
+.header {height: 30px; text-align: center;  font: 400 14px/1 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; color: #666; padding-top: 20px;}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.gain-agreement {width: 100%; height: auto; }
+
+.principle-icon {height: 150px; float: left; margin: 10px 10px;}
+.principle-icon-right {height: 150px; float: right; margin: 10px 10px;}
+.sun-right {height: 80px; float: right; margin: 0 10px;}
+.principle-text {padding-top: 10px; padding-right: 2em;}
+h1 {padding-top: 3em; padding-bottom: 10px; border-bottom: 5px solid #B42C28;}
+h2 {font: 800 16px/1 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; line-height: 28px;
+  color: #0F2D52; padding: 0 16px 0 16px; margin: 40px 20px 40px 20px; border-left: 2px solid #ccc;}
+ul {margin-bottom: 2em;}
+/*
+ * Let's target IE to respect aspect ratios and sizes for img tags containing SVG files
+ *
+ * [1] IE9
+ * [2] IE10+
+ */
+/* 1 */
+.ie9 img[src$=".svg"] {
+  width: 880px; 
+}
+/* 2 */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  img[src$=".svg"] {
+    width: 880px; 
+  }
+}
+</style>
+</head>
+<body>
+<!--div class="header">Click on any area of the graphic to learn more.</div-->
+
+
+
+<div class="container">
+<svg version="1.1" id="Image_Map_Layers" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 880 880" style="enable-background:new 0 0 880 880;" xml:space="preserve">
+<style type="text/css">
+        svg {
+          background-image: url(Morning-Star-Overview-Visual-Image-Map-3.png);
+          background-size: 880px 880px;
+          background-repeat: no-repeat;
+          background-position: center 0;
+          /*max-width: 2000px;*/
+          /*max-height: 100%;*/
+          width: 880px;
+          height: 880px;
+        }
+        path {
+          fill: transparent;
+          cursor: pointer;
+          transition: fill 0.2s
+        }
+        svg a:focus,
+        svg a:hover {
+          outline: none;
+        }
+        svg a:focus path,
+        svg a:hover path {
+          /*fill: rgba(0,173,238, .5); Light Blue */
+          fill: rgba(222,159,76, .8);
+          cursor: pointer;
+       }
+        circle {
+          fill: transparent;
+          cursor: pointer;
+          transition: fill 0.2s
+        }
+        svg a:focus circle,
+        svg a:hover circle {
+          /*fill: rgba(0,173,238, .5); Light Blue*/
+          fill: rgba(222,159,76, .8);
+          cursor: pointer;
+       }
+
+</style>
+
+
+<!---------------------- START LINKS ----------------------->
+
+
+
+<a href="index.html#mission-focused-self-management" class="clickable">
+<g id="Layer_26">
+  <g>
+    <path class="st1" d="M707.1,162.7c-5.2,0-10.5-2-14.4-6.1c-0.2-0.2-24.4-24.8-67.1-49c-38.9-22.1-101.7-48.5-180.1-48.5
+      c0,0,0,0-0.1,0c-79.2,0-144.9,25.4-186.1,46.7c-45.1,23.3-71.6,47.1-71.8,47.3c-8.2,7.4-20.8,6.8-28.2-1.4
+      c-7.4-8.2-6.8-20.8,1.4-28.2c1.2-1.1,29.8-26.8,79.1-52.5C285,47.3,357.5,19.1,445.4,19.1c0,0,0,0,0.1,0
+      c87.8,0,157.9,29.6,201.3,54.4c47.1,27,73.6,54.1,74.7,55.2c7.7,7.9,7.5,20.6-0.5,28.3C717.1,160.8,712.1,162.7,707.1,162.7z"/>
+  </g>
+</g>
+</a>
+
+<a href="index.html#morning-star-vision">
+<g id="Layer_11">
+	<g>
+		<path class="st0" d="M439.5,75.4c-82.7,0-159.1,26.8-221,72.2c-17.2,12.6-19.7,37.2-5.4,53l0.7,0.8c12.3,13.6,32.9,15.5,47.7,4.7
+			c96.3-70.4,229.6-79.5,337.2-12.6c6.7,4.2,13.2,8.6,19.4,13.1c14.8,10.9,35.4,9,47.8-4.5l0.8-0.9c14.4-15.7,11.9-40.4-5.2-53
+			C599.4,102.5,522.6,75.4,439.5,75.4z"/>
+	</g>
+</g>
+</a>
+<a href="index.html#enterprise-mission">
+<g id="Layer_10">
+  <g>
+    <path class="st4" d="M602,268.3c-5.8,0-11.7-2-16.4-6.2C547.1,228.5,496,210,441.9,210c-61,0-102.2,14.3-146.9,50.8
+      c-10.7,8.7-26.4,7.2-35.2-3.5c-8.7-10.7-7.2-26.4,3.5-35.2C317.2,178,369,160,441.9,160c66.3,0,129,22.9,176.6,64.5
+      c10.4,9.1,11.5,24.9,2.4,35.3C616,265.4,609,268.3,602,268.3z"/>
+  </g>
+</g>
+</a>
+
+<a href="index.html#business-unit-mission">
+<g id="Layer_9">
+  <g>
+    <path class="st3" d="M315.5,323.9c-6.4,0-12.8-2.4-17.7-7.3c-9.8-9.7-9.8-25.6-0.1-35.4c38.4-38.5,89.6-59.7,144.2-59.7
+      c54.5,0,105.7,21.2,144.2,59.7c9.8,9.8,9.8,25.6,0,35.4c-9.8,9.8-25.6,9.8-35.4,0c-29.1-29.1-67.7-45.1-108.8-45.1
+      c-41.2,0-79.8,16-108.8,45.1C328.3,321.4,321.9,323.9,315.5,323.9z"/>
+  </g>
+</g>
+</a>
+
+<a href="index.html#personal-commercial-mission">
+<g id="Layer_8">
+	<g>
+		<path class="st3" d="M526.1,403.2c0,0,0,0,0-0.1l0,0L526.1,403.2z"/>
+		<path class="st3" d="M542.5,338.7c-27.6-30.1-62.4-45.6-100.5-44.9c-56.8,1.1-94,32-113.8,54.9c-10.3,11.9-6.7,30.2,7.1,37.6l0,0
+			c10.4,5.5,23.1,2.9,30.6-6.2c12.8-15.6,37.3-36.4,77.1-36.4c39.7,0,62.5,23.9,73.9,41.4c6.5,9.9,19,13.8,29.9,9.3l0.1,0
+			c14.4-5.9,19.7-23.6,10.9-36.4C553.6,352,548.5,345.3,542.5,338.7z"/>
+		<path class="st3" d="M354.8,396.8L354.8,396.8c0,0.1-0.1,0.1-0.1,0.1L354.8,396.8z"/>
+	</g>
+</g>
+</a>
+
+
+<a href="index.html#personal-mission">
+<g id="Layer_27">
+	<circle class="st4" cx="441.5" cy="427.4" r="74.7"/>
+</g>
+</a>
+
+<a href="index.html#clou">
+<g>
+	<path class="st4" d="M331.5,483.4c5.5-0.1,10.9,3,13.6,8.2c8.9,17.7,22.6,32.5,39.7,42.8c24.2,14.6,52.6,19,80.1,12.2
+		c27.5-6.8,50.6-23.8,65.3-48c1.8-2.9,3.4-5.9,4.9-9c3.6-7.5,12.6-10.6,20-7c7.5,3.6,10.6,12.6,7,20c-1.9,3.9-4,7.8-6.2,11.5
+		c-18.8,31-48.5,52.9-83.8,61.6c-35.2,8.7-71.7,3.1-102.8-15.7c-21.9-13.2-39.5-32.2-50.9-54.9c-3.7-7.4-0.8-16.4,6.6-20.1
+		C327,484,329.3,483.4,331.5,483.4z"/>
+</g>
+</a>
+
+<a href="index.html#human-respect">
+<g id="HumanRespect">
+  <g id="Layer_20">
+    <path class="st2" d="M263.1,395.1H100.9c-4.7,0-8.6-3.8-8.6-8.6V341c0-4.7,3.8-8.6,8.6-8.6h162.2c4.7,0,8.6,3.8,8.6,8.6v45.5
+      C271.7,391.3,267.8,395.1,263.1,395.1z"/>
+  </g>
+</g>
+</a>
+
+
+<a href="index.html#do-everything">
+<g id="Layer_12_copy">
+  <g id="Layer_12">
+    <path class="st2" d="M785.1,396.1H609c-4.9,0-8.9-4-8.9-8.9v-44.8c0-4.9,4-8.9,8.9-8.9h176.1c4.9,0,8.9,4,8.9,8.9v44.8
+      C794,392.1,790,396.1,785.1,396.1z"/>
+  </g>
+</g>
+</a>
+
+<a href="index.html#goals">
+<g id="Goals">
+  <g>
+    <path class="st4" d="M515.3,501.3c-1.6,0-3.1-0.6-4.3-1.8c-2.3-2.4-2.3-6.2,0.1-8.5c6.4-6.3,10.5-17.4,11.5-21.1
+      c0.9-3.2,4.2-5.1,7.4-4.2c3.2,0.9,5.1,4.2,4.2,7.4c-0.2,0.7-4.7,16.7-14.7,26.5C518.3,500.7,516.8,501.3,515.3,501.3z"/>
+  </g>
+</g>
+</a>
+
+<a href="index.html#steppingstones">
+<g id="Steppingstones">
+  <g>
+    <path class="st4" d="M436.7,540.7c-1.4,0-2.3,0-2.5,0c-3.3-0.2-5.9-3-5.7-6.3c0.2-3.3,3-5.9,6.3-5.7c0.5,0,37.2,1.4,61.1-21.9
+      c2.4-2.3,6.2-2.3,8.5,0.1c2.3,2.4,2.3,6.2-0.1,8.5C480.2,539,446.2,540.7,436.7,540.7z"/>
+  </g>
+</g>
+</a>
+
+<a href="index.html#CLOU-Colleagues">
+<g id="CLOU_Colleagues">
+  <g>
+    <path class="st4" d="M412.2,536.9c-0.5,0-1.1-0.1-1.6-0.2c-51.6-14.3-63.8-59.9-64.3-61.9c-0.8-3.2,1.1-6.5,4.3-7.3
+      c3.2-0.8,6.5,1.1,7.3,4.3l0,0c0.4,1.7,11.1,40.9,55.8,53.3c3.2,0.9,5.1,4.2,4.2,7.4C417.2,535.2,414.8,536.9,412.2,536.9z"/>
+  </g>
+</g>
+</a>
+
+<a href="index.html#responsibilities">
+<g id="Responsibilities_and_Activities">
+  <g>
+    <path class="st4" d="M442.8,522.9c-0.3,0-0.5,0-0.8,0c-30.5-0.3-49.6-13.1-60.2-23.8c-11.6-11.6-15.8-23.3-16-23.8
+      c-1.1-3.1,0.5-6.6,3.6-7.7c3.1-1.1,6.5,0.5,7.7,3.6c0.6,1.7,15,39.1,65.1,39.6c0.2,0,0.4,0,0.6,0c37.6,0,61.8-37.2,62-37.6
+      c1.8-2.8,5.5-3.6,8.3-1.8c2.8,1.8,3.6,5.5,1.9,8.3C513.8,481.6,487.2,522.9,442.8,522.9z"/>
+  </g>
+</g>
+</a>
+
+
+<a href="index.html#personal-responsibility">
+<g id="Layer_17">
+  <path class="st2" d="M790.2,524.7H624.1c-3.7,0-6.6-3-6.6-6.6v-24.4c0-3.7,3-6.6,6.6-6.6h166.1c3.7,0,6.6,3,6.6,6.6v24.4
+    C796.8,521.7,793.8,524.7,790.2,524.7z"/>
+</g>
+</a>
+
+<a href="index.html#information-exchange">
+  <g id="Layer_19">
+    <path class="st2" d="M265.7,433.4H98.3c-3.3,0-6-2.7-6-6v-18.5c0-3.3,2.7-6,6-6h167.4c3.3,0,6,2.7,6,6v18.5
+      C271.7,430.8,269,433.4,265.7,433.4z"/>
+  </g>
+</a>
+
+<a href="index.html#value-creation">
+<g id="Layer_15">
+  <path class="st2" d="M713.2,480.3h-94.5c-2.2,0-4-1.8-4-4v-15.8c0-2.2,1.8-4,4-4h94.5c2.2,0,4,1.8,4,4v15.8
+    C717.2,478.5,715.4,480.3,713.2,480.3z"/>
+</g>
+</a>
+
+<a href="index.html#colleague-decisions">
+<g id="Layer_16">
+  <path class="st2" d="M265.7,472.8H98.9c-3.5,0-6.3-2.8-6.3-6.3v-20.9c0-3.5,2.8-6.3,6.3-6.3h166.8c3.5,0,6.3,2.8,6.3,6.3v20.9
+    C272,470,269.2,472.8,265.7,472.8z"/>
+</g>
+</a>
+
+<a href="index.html#do-what">
+<g id="Layer_13">
+  <path class="st2" d="M266.2,531.6H98.4c-3.2,0-5.8-2.6-5.8-5.8v-17c0-3.2,2.6-5.8,5.8-5.8h167.8c3.2,0,5.8,2.6,5.8,5.8v17
+    C272,529,269.4,531.6,266.2,531.6z"/>
+</g>
+</a>
+
+<a href="index.html#gain-agreement">
+<g id="Layer_18">
+  <path class="st2" d="M790.2,446.7H624.1c-3.7,0-6.6-3-6.6-6.6v-24.4c0-3.7,3-6.6,6.6-6.6h166.1c3.7,0,6.6,3,6.6,6.6v24.4
+    C796.8,443.7,793.8,446.7,790.2,446.7z"/>
+</g>
+</a>
+
+<a href="index.html#tolerance">
+<g id="Layer_11_1_">
+  <path class="st2" d="M175.8,499.5H104c-1.9,0-3.5-1.6-3.5-3.5v-16.8c0-1.9,1.6-3.5,3.5-3.5h71.8c1.9,0,3.5,1.6,3.5,3.5V496
+    C179.3,497.9,177.8,499.5,175.8,499.5z"/>
+</g>
+</a>
+
+<a href="index.html#humility">
+<g id="Layer_10_1_">
+  <path class="st2" d="M257.9,499.5h-71.8c-1.9,0-3.5-1.6-3.5-3.5v-16.8c0-1.9,1.6-3.5,3.5-3.5h71.8c1.9,0,3.5,1.6,3.5,3.5V496
+    C261.4,497.9,259.9,499.5,257.9,499.5z"/>
+</g>
+</a>
+
+<a href="index.html#integrity">
+<g id="Layer_14">
+  <path class="st2" d="M785.9,480.3h-62.1c-1.8,0-3.3-1.5-3.3-3.3v-17.3c0-1.8,1.5-3.3,3.3-3.3h62.1c1.8,0,3.3,1.5,3.3,3.3V477
+    C789.2,478.8,787.7,480.3,785.9,480.3z"/>
+</g>
+</a>
+
+<a href="index.html#business-role">
+<g id="Layer_23">
+  <g id="Layer_21">
+    <circle class="st5" cx="619.2" cy="648.3" r="85.2"/>
+  </g>
+</g>
+</a>
+
+<a href="index.html#enlightened-self-interest">
+<g id="Layer_24">
+  <g id="Layer_22">
+    <circle class="st5" cx="441.8" cy="705.7" r="85.2"/>
+  </g>
+</g>
+</a>
+
+<a href="index.html#enlightened-competition">
+<g id="Layer_25">
+  <g id="Layer_23">
+    <circle class="st5" cx="266.8" cy="648.3" r="85.2"/>
+  </g>
+</g>
+</a>
+
+
+<a href="index.html#excellence-through-commitment">
+<g id="Excellence">
+  <g>
+    <path class="st1" d="M439.7,857c-131.6,0-199.7-48.8-202.5-50.9c-7.6-5.5-9.2-16.2-3.7-23.8c5.5-7.6,16.1-9.2,23.7-3.7l0,0
+      c0.2,0.1,15.7,11.2,45.9,22.2c27.8,10.1,74.1,22.2,136.6,22.2c34.4,0,85.3-3.8,133-21.6c28.4-10.7,42.4-21.5,42.6-21.6
+      c7.3-5.9,18-4.6,23.9,2.7c5.9,7.3,4.6,18.1-2.7,23.9C633.8,808.5,571.6,857,439.7,857z"/>
+  </g>
+</g>
+</a>
+<!---------------------- END LINKS ----------------------->
+</svg>
+</div>
+
+
+
+<!--==================== START MODALS =====================-->
+  <div class="modal-window gray-bg" id="morning-star-vision">
+    <a class="close" href="index.html"></a>
+    <div id="inner">
+      <div id="logo">
+        <a class="modal-close" href="index.html" id="pause-video" title="Close">Close</a>
+        <h1>The Morning Star Vision</h1><img class="sun-right" src="sun.png">
+        <!--<h2>To Realize the Capability of Each Human Being to Flourish, Treat Others With Human Respect and to Productively Work Together to Advance the Well-Being of Mankind</h2>-->
+        <h2>Our Vision is for Colleagues to flourish in an environment of Human Respect and to productively work together to advance human well-being.</h2>
+        <div>
+          <p>How you help realize our Vision is through our principles. When you focus on allowing your behaviors to be guided by our principles, you are contributing to creating an extraordinarily positive environment for personal relationships, the workplace and society.</p>
+          <p>How do you contribute to realizing our Vision?</p><!--a href="index.html" title="Close" class="modal-close-bottom" id="pause-video">Close</a-->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-window white-bg" id="mission-focused-self-management">
+    <a class="close" href="index.html"></a>
+    <div id="inner">
+      <div id="logo">
+        <a class="modal-close" href="index.html" id="pause-video" title="Close">Close</a>
+        <h1>What is Mission Focused Self-Management</h1>
+        <div>
+          Mission Focused Self-Management brings structure to our enterprise spontaneously. Each Colleague, directed by their Personal Commercial Mission, is responsible for organizing their relationships and activities. Your Personal Commercial Mission is your "boss". The functions of planning, organizing, staffing, directing, and controlling your Mission is your responsibility.
+          <p></p>
+          <p>The Vision and Mission statements are nested within one another, which provides insight into the idea of Total Responsibility. Each colleague is solely responsible for achieving their Personal Commercial Mission; they share responsibility for the Business Unit Mission with a small group of colleagues and take total responsibility for the Enterprise Mission and Vision.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-window gray-bg" id="enterprise-mission">
+    <a class="close" href="index.html"></a>
+    <div id="inner">
+      <div id="logo">
+        <a class="modal-close" href="index.html" title="Close">Close</a>
+        <h1>Enterprise Mission</h1>
+        <h2>To Add Value for Others</h2>
+        <div>
+          <p>Everyone is responsible for achieving our Enterprise Mission which is to produce tomato products which consistently achieve the quality and service expectations of our customers in a cost-effective, environmentally responsible manner.</p><!--a href="index.html" title="Close" class="modal-close-bottom" id="pause-video">Close</a-->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-window darkblue-bg" id="business-unit-mission">
+    <a class="close" href="index.html"></a>
+    <div id="inner">
+      <div id="logo">
+        <a class="modal-close" href="index.html" title="Close">Close</a>
+        <h1>Business Unit Mission</h1>
+        <h2>To Add Value to the Enterprise Mission</h2>
+        <div>
+          <p>A small group of colleagues make up a Business Unit and each Business Unit has a mission. It could be to transplant and harvest tomatoes, to provide information that is necessary to make good decisions, or to evaporate water from tomatoes. It is the shared responsibility of each colleague in a Business Unit to achieve its mission.</p><!--a href="index.html" title="Close" class="modal-close-bottom" id="pause-video">Close</a-->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-window red-bg" id="personal-commercial-mission">
+    <a class="close" href="index.html"></a>
+    <div id="inner">
+      <div id="logo">
+        <a class="modal-close" href="index.html" title="Close">Close</a>
+        <h1>Personal Commercial Mission</h1>
+        <h2>Your Purpose at Morning Star</h2>
+        <div>
+          <p>Your Personal Commercial Mission is a carefully crafted statement that describes your purpose at Morning Star and what you intend to accomplish. In Self-Management, this Mission is the boss, not another member of the company.</p>
+          <p>Your Personal Commercial Mission should:</p>
+          <ul>
+            <li>Inspire you</li>
+            <li>Be memorable</li>
+            <li>Describe your purpose at Morning Star</li>
+            <li>Clearly connect to your activities</li>
+            <li>Be agreed upon by your CLOU Colleagues</li>
+          </ul><!--a href="index.html" title="Close" class="modal-close-bottom" id="pause-video">Close</a-->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-window red-bg" id="personal-mission">
+    <a class="close" href="index.html"></a>
+    <div id="inner">
+      <div id="logo">
+        <a class="modal-close" href="index.html" title="Close">Close</a>
+        <h1>Personal Mission</h1>
+        <h2>To Be Happy</h2>
+        <div>
+          <p>Your Personal Mission is unique to you and it may change over time. Maybe it is to make a lot of money, to be happy or to be healthy. Whatever your Personal Mission, it is something that drives you, which is why it is important to find a way to connect your Personal Mission to your purpose at Morning Star.</p><!--a href="index.html" title="Close" class="modal-close-bottom" id="pause-video">Close</a-->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-window red-bg" id="clou">
+    <a class="close" href="index.html"></a>
+    <div id="inner">
+      <div id="logo">
+        <a class="modal-close" href="index.html" title="Close">Close</a>
+        <h1>Colleague Letter of Understanding (CLOU)</h1>
+        <div>
+          <p>This is your agreement with colleagues and is Morning Star's central tool for organizing and driving accountability. Your CLOU communicates your vision for where and how you expect to create value for yourself and for the enterprise.</p>
+          <p>Your CLOU will describe:</p>
+          <ul>
+            <li>Your Personal Commercial Mission</li>
+            <li>Your Activities and Responsibilities</li>
+            <li>Your CLOU Colleagues</li>
+            <li>Your required Resources</li>
+            <li>Your Steppingstones</li>
+            <li>Your Time Commitments</li>
+            <li>Your Goals</li>
+          </ul><!--a href="index.html" title="Close" class="modal-close-bottom" id="pause-video">Close</a-->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-window red-bg" id="responsibilities">
+    <a class="close" href="index.html"></a>
+    <div id="inner">
+      <div id="logo">
+        <a class="modal-close" href="index.html" title="Close">Close</a>
+        <h1>Responsibilities and Activities</h1>
+        <div>
+          <p>This is a list of responsibilities and activities for which you have agreed to take ownership. Activities are task-level commitments, and Responsibilities relate to a high-level area of focus.</p><!--a href="index.html" title="Close" class="modal-close-bottom" id="pause-video">Close</a-->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-window red-bg" id="steppingstones">
+    <a class="close" href="index.html"></a>
+    <div id="inner">
+      <div id="logo">
+        <a class="modal-close" href="index.html" title="Close">Close</a>
+        <h1>Steppingstones</h1>
+        <div>
+          <p>These are our tool for measuring performance. Our steppingstones tell us how we performance at each activity, and with that feedback, we can develop new and better ways to achieve with an eye on perfection. These are our tools for measuring performance. Our steppingstones tell us how we perform at each activity, and with that feedback, we can develop new and better ways to achieve with an eye on perfection.</p><!--a href="index.html" title="Close" class="modal-close-bottom" id="pause-video">Close</a-->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-window red-bg" id="CLOU-Colleagues">
+    <a class="close" href="index.html"></a>
+    <div id="inner">
+      <div id="logo">
+        <a class="modal-close" href="index.html" title="Close">Close</a>
+        <h1>CLOU Colleagues</h1>
+        <div>
+          <p>This is someone with whom you work closely and interdependently. They challenge and support your approach to achieving your Personal Commercial Mission. Any changes to your CLOU should be made with the knowledge and consent of your CLOU colleagues.</p><!--a href="index.html" title="Close" class="modal-close-bottom" id="pause-video">Close</a-->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-window red-bg" id="goals">
+    <a class="close" href="index.html"></a>
+    <div id="inner">
+      <div id="logo">
+        <a class="modal-close" href="index.html" title="Close">Close</a>
+        <h1>Goals</h1>
+        <div>
+          <p>We forecast our short-term (6-12 months) and long-term (2-5 years) goals. Revisiting our goals yearly is necessary to consider new information and establish an intention for the future.</p><!--a href="index.html" title="Close" class="modal-close-bottom" id="pause-video">Close</a-->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-window yellow-bg" id="human-respect">
+    <a class="close" href="index.html"></a>
+    <div id="inner">
+      <div id="logo">
+        <a class="modal-close" href="index.html" title="Close">Close</a>
+        <h1>Human Respect</h1>
+        <div>
+          <img class="principle-icon-right" src="sun.png">
+          <p class="principle-text">Human respect underlies Self-Management. The greater you respect yourself, your fellow man, our principles and the environment, the closer you will come to achieving your personal goals, Personal Commercial Mission, and our Vision. In respecting others, each colleague commits to doing the following:</p>
+          <ul>
+            <li>Share relevant information with others.</li>
+            <li>Take the initiative to forward information that you believe may be helpful to another's activities, even if it is not requested.</li>
+            <li>Respond to respectful, relevant inquiries made of you by other colleagues in a respectful and timely manner.</li>
+          </ul>
+          <p></p><!--a href="index.html" title="Close" class="modal-close-bottom" id="pause-video">Close</a-->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-window yellow-bg" id="do-everything">
+    <a class="close" href="index.html"></a>
+    <div id="inner">
+      <div id="logo">
+        <a class="modal-close" href="index.html" title="Close">Close</a>
+        <h1>Do Everything You Agree to Do</h1>
+        <div>
+          <img class="principle-icon-right" src="sun.png">
+          <p class="principle-text">We rely heavily on individuals keeping their commitments to others. In the absence of commitments kept, there is no way to effectively achieve your Personal Commercial Mission. Not only is it necessary for us to be successful, it also lowers the cost of doing business through efficiency.</p><!--a href="index.html" title="Close" class="modal-close-bottom" id="pause-video">Close</a-->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-window ltblue-bg" id="personal-responsibility">
+    <a class="close" href="index.html"></a>
+    <div id="inner">
+      <div id="logo">
+        <a class="modal-close" href="index.html" title="Close">Close</a>
+        <h1>Personal Responsibility and Initiative</h1>
+        <div>
+          <img class="principle-icon" src="Principle-Icon-Personal-Responsibility.png">
+          <p class="principle-text">You take personal responsibility for your Personal Commercial Mission and embracing our principles. You take total responsibility for maintaining awareness of our Enterprise Vision and Mission. With care and urgency, you take personal responsibility for making things happen&mdash;including holding other colleagues accountable to their agreements and to our principles and values.</p><!--a href="index.html" title="Close" class="modal-close-bottom" id="pause-video">Close</a-->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-window ltblue-bg" id="information-exchange">
+    <a class="close" href="index.html"></a>
+    <div id="inner">
+      <div id="logo">
+        <a class="modal-close" href="index.html" title="Close">Close</a>
+        <h1>Information Exchange</h1>
+        <div>
+          <img class="principle-icon-right" src="Principle-Icon-Information-Exchange.png">
+          <p class="principle-text">Share information with colleagues broadly and often. Take the initiative to forward information that you believe may be helpful to another's activities, even if it is not asked for, and respond to colleagues in a respectful and timely manner.</p>
+          <p>Something as simple as sharing information enables:</p>
+          <ul>
+            <li>better and faster decisions</li>
+            <li>opportunities for innovation</li>
+            <li>increase knowledge level across more colleagues</li>
+            <li>improve delivery to customers</li>
+          </ul><!--a href="index.html" title="Close" class="modal-close-bottom" id="pause-video">Close</a-->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-window ltblue-bg" id="value-creation">
+    <a class="close" href="index.html"></a>
+    <div id="inner">
+      <div id="logo">
+        <a class="modal-close" href="index.html" title="Close">Close</a>
+        <h1>Value Creation</h1>
+        <div>
+          <img class="principle-icon" src="Principle-Icon-Value-Creation.png">
+          <p class="principle-text">The fundamental purpose of business is to create value by providing products or services that improve people's lives. When you focus on how you can create value for others, you can be enormously successful. How can you create value?</p><!--a href="index.html" title="Close" class="modal-close-bottom" id="pause-video">Close</a-->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-window ltblue-bg" id="colleague-decisions">
+    <a class="close" href="index.html"></a>
+    <div id="inner">
+      <div id="logo">
+        <a class="modal-close" href="index.html" title="Close">Close</a>
+        <h1>Colleague Decisions and Coordination</h1>
+        <div>
+          <img class="principle-icon-right" src="Principle-Icon-Colleague-Decisions.png">
+          <p class="principle-text">Before making decisions or taking action, you should coordinate with colleagues when:</p>
+          <ul>
+            <li>They are likely to be meaningfully affected, or;</li>
+            <li>Their input would bring additional and meaningful knowledge and expertise.</li>
+          </ul>
+          <p></p>
+          <div class="videoWrapper">
+            <iframe allowfullscreen frameborder="0" height="360" src="https://www.youtube.com/embed/WjNhoDdcoAA?version=3&enablejsapi=1" width="640"></iframe>
+          </div><!--a href="index.html" title="Close" class="modal-close-bottom" id="pause-video">Close</a-->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-window ltblue-bg" id="do-what">
+    <a class="close" href="index.html"></a>
+    <div id="inner">
+      <div id="logo">
+        <a class="modal-close" href="index.html" title="Close">Close</a>
+        <h1>Do What is Right</h1>
+        <div>
+          <h2>Live, Speak and Endeavor to find the truth.</h2><img class="principle-icon-right" src="Principle-Icon-Do-What-Is-Right.png">
+          <p class="principle-text">Our actions affect not only ourselves, but also those around us. Most of our professional and personal decisions involve ethics. In our professions, if an unethical decision is taken, it could lead to us suffering heavy losses. Telling lies, or indulging in some sort of manipulation, can destroy the trust we have built, and it could destroy our own character. Each person can build, change, or even destroy his or her own character.</p><!--a href="index.html" title="Close" class="modal-close-bottom" id="pause-video">Close</a-->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-window ltblue-bg" id="gain-agreement">
+    <a class="close" href="index.html"></a>
+    <div id="inner">
+      <div id="logo">
+        <a class="modal-close" href="index.html" title="Close">Close</a>
+        <h1>Gain Agreement with Direct Communication</h1>
+        <div>
+          <img class="principle-icon-right" src="Principle-Icon-Gain-Agreement.png">
+          <p class="principle-text">Disagreements are expected while in the pursuit of developing creative ideas and better ways to work. To effectively move forward together, you must coordinate your actions with others and utilize the Gaining Agreement Process when perspectives and opinions differ.</p>
+          <p><a href="graphic-direct-comm.png" target="_blank"><img class="gain-agreement" src="graphic-direct-comm.png"></a></p><!--a href="index.html" title="Close" class="modal-close-bottom" id="pause-video">Close</a-->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-window ltblue-bg" id="tolerance">
+    <a class="close" href="index.html"></a>
+    <div id="inner">
+      <div id="logo">
+        <a class="modal-close" href="index.html" title="Close">Close</a>
+        <h1>Tolerance</h1>
+        <div>
+          <img class="principle-icon" src="Principle-Icon-Tolerance.png">
+          <p class="principle-text">Individuals differ in many ways&mdash;their values, tastes, moods, and methods of achieving goals. To be discriminating in choice is a necessary positive characteristic. However, prejudice is discriminating based on irrelevant factors and is disrespectful of the person and unproductive to the task at hand. Respect the individual preferences of colleagues when it does not affect your Mission.</p><!--a href="index.html" title="Close" class="modal-close-bottom" id="pause-video">Close</a-->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-window ltblue-bg" id="humility">
+    <a class="close" href="index.html"></a>
+    <div id="inner">
+      <div id="logo">
+        <a class="modal-close" href="index.html" title="Close">Close</a>
+        <h1>Humility</h1>
+        <div>
+          <img class="principle-icon-right" src="Principle-Icon-Humility.png">
+          <p class="principle-text">Being aware of your shortcomings, recognizing yourself as you really are, and being intellectually honest enhances your drive to learn and perform.</p>
+          <ul>
+            <li>Being humble breeds personal capability, which creates value.</li>
+            <li>Humility is the midpoint between the two extremes of arrogance and a lack of self-esteem.</li>
+            <li>Humility allows us to shift attention away from ourselves and focus on the contributions and needs of others.</li>
+            <li>Humility makes it easier for us to take accountability for our mistakes.</li>
+            <li>Humility makes it natural to treat everyone with respect, regardless of their position or experience.</li>
+          </ul><!--a href="index.html" title="Close" class="modal-close-bottom" id="pause-video">Close</a-->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-window ltblue-bg" id="integrity">
+    <a class="close" href="index.html"></a>
+    <div id="inner">
+      <div id="logo">
+        <a class="modal-close" href="index.html" title="Close">Close</a>
+        <h1>Integrity</h1>
+        <div>
+          <img class="principle-icon-right" src="Principle-Icon-Integrity.png">
+          <p class="principle-text">Integrity means aligning your actions with your words. It's about choosing to be honest and truthful. People that can keep commitments are seen to be reliable and develop reputations as persons of integrity.</p>
+          <p>Keeping commitments creates economic value. Why?  Because it saves time and energy doing something the first time it's agreed on. It builds trust between colleagues, and when trust is a part of a relationship, communication opens up and becomes more open and direct.</p><!--a href="index.html" title="Close" class="modal-close-bottom" id="pause-video">Close</a-->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-window" id="business-role">
+    <a class="close" href="index.html"></a>
+    <div id="inner">
+      <div id="logo">
+        <a class="modal-close" href="index.html" title="Close">Close</a>
+        <h1>The Role of Business in Society</h1>
+        <h2>Business is people helping people. We create long-term value for everyone-customers, colleagues, suppliers and the community.</h2>
+        <div>
+          <img class="principle-icon-right" src="bulb.png">
+          <p class="principle-text">Business is people helping people</p>
+          <p>And the goal of any business should be to make good profit. Good profit is the result of innovations that customers freely vote for with their own dollars; it's the result of business decisions that create long-term value for everyone&mdash;customers, colleagues and society. A good profit is the difference between the value provided to others and the material and human resources the business consumes in order to produce that value. An enlightened businessperson is a humanist&mdash;searching for what other people desire&mdash;as well as a conservationist&mdash;figuring out how to minimize the consumption of valuable resources. A bad profit is otherwise known as stealing.</p>
+          <p><strong>Long-term value creation</strong></p>
+          <p>We want to be the preferred partner among customers, colleagues, suppliers, neighbors and communities. To do this, we aim to use fewer resources than our competitors while providing products and services that people value over their alternatives.</p>
+          <p><strong>Doing what we say</strong></p>
+          <p>If we say we are going to hire from within or locally, that we use the safest operating practices and that we handle disagreements with direct communication we should do it. Otherwise, we lack integrity and are thrown into a category of 'just another business that says one thing and does something else'.</p>
+          <p><strong>Make a positive impact</strong></p>
+          <p>In the local community and in the world. Donate and be an advocate for activities that promote development within the community and in business.</p><!--a href="index.html" title="Close" class="modal-close-bottom" id="pause-video">Close</a-->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-window" id="enlightened-self-interest">
+    <a class="close" href="index.html"></a>
+    <div id="inner">
+      <div id="logo">
+        <a class="modal-close" href="index.html" title="Close">Close</a>
+        <h1>Enlightened Self-Interest</h1>
+        <h2>Your interests and values overlap with the interests and values of others.</h2>
+        <div>
+          <blockquote>
+            <i>"There's no difference between 'selfish' and 'selfless' if you understand how the world works. We live in an interdependent world...every time you cut off somebody else's opportunities, you shrink your own horizons."</i>
+          </blockquote><img class="principle-icon-right" src="bulb.png">
+          <p class="principle-text">This is the core of enlightened self-interest. We're not separate from one another, we're all interdependent and interconnected.</p>
+          <p>When you achieve your full potential, you are also making the world a better place. And when you help and encourage others to reach their full potential, you are also making the world you live in a better place. Everyone wins.</p>
+          <p>At the end of the day, there's no real difference between "self-improvement" and "world improvement."</p>
+          <p>A big part of taking this perspective is learning a key aspect of emotional intelligence known as <i>empathy</i> - which is our ability to see the overlap between "self" and "other."</p>
+          <p>The more you take this attitude toward your life and your goals, the easier it will be to follow your enlightened self-interest.</p><!--a href="index.html" title="Close" class="modal-close-bottom" id="pause-video">Close</a-->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-window" id="enlightened-competition">
+    <a class="close" href="index.html"></a>
+    <div id="inner">
+      <div id="logo">
+        <a class="modal-close" href="index.html" title="Close">Close</a>
+        <h1>Enlightened Competition</h1>
+        <h2>We compete (we seek together) how to improve our capabilities to add value to ourselves and to others.</h2>
+        <div>
+          <img class="principle-icon-right" src="bulb.png">
+          <p class="principle-text">The word "compete" originated from the Latin phrase "competere," meaning "to seek together." To seek what together?</p>
+          <p>Since competition involves two or more individuals participating in an activity within the boundaries of various rules, the objective could not be to "beat the other," because we would then have no one to play with.</p>
+          <p>What all individuals can achieve together and at the same time, is an improvement in their ability to play the game which provides us greater enjoyment.</p>
+          <p>Competition provides the incentive and opportunity for a person to enhance and sharpen their skills through practice, to introduce new techniques, protect against incestuous thinking, benchmark their performance, and indulge good old competitive drive.</p>
+          <p>Trade "secrets," patents, tools of the trade or luck may contribute to transitory, lofty performance. Strategic, lofty performance is always based on a commitment to excellence and the superior mental and physical effort and talent of colleagues resulting in innovation and/or superior execution and coordination of process activities.</p>
+          <p></p><!--a href="index.html" title="Close" class="modal-close-bottom" id="pause-video">Close</a-->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-window white-bg" id="excellence-through-commitment">
+    <a class="close" href="index.html"></a>
+    <div id="inner">
+      <div id="logo">
+        <a class="modal-close" href="index.html" title="Close">Close</a>
+        <h1>Excellence Through Commitment</h1>
+        <div>
+          <p>To focus on achieving specific long-term goals, such as profit or score, is a waste of time and energy. Instead, we like to focus on technique, execution, and continuous improvement in the pursuit of excellence.</p><!--a href="index.html" title="Close" class="modal-close-bottom" id="pause-video">Close</a-->
+        </div>
+      </div>
+    </div>
+  </div>
+<!--==================== END MODALS =====================-->
+
+
+
+
+
+</body>
+</html>

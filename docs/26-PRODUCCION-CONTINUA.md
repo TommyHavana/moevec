@@ -43,4 +43,4 @@ Informar siempre: números globales e ID de las entradas realizadas, URL, imáge
 
 ## Continuación exacta ·04/11/2026
 
-WordPress: **721/840 terminadas,2163 imágenes originales públicas,0 borradores y119 pendientes**. Bloque723–725 publicado y verificado. Retomar726–728 /E6.7.06–E6.7.08 según sus expedientes. La portada726 ya está generada y pendiente de conversión; conservar el original. Los títulos501/512/649/707 siguen retenidos. Automatización activa cada tres minutos en el mismo chat, sin procesos duplicados.
+WordPress: **724/840 terminadas,2172 imágenes originales públicas,0 borradores y116 pendientes**. Bloque726–728 publicado y verificado. Retomar729–731 /E6.7.09–E6.7.11 según sus expedientes. Portada729 generada y pendiente de conversión, nativo conservado y registrado. Títulos501/512/649/707 retenidos sin publicar. Automatización activa cada tres minutos en el mismo chat, sin duplicar procesos.

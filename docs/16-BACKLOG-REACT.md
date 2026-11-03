@@ -1,8 +1,8 @@
 # Backlog de MEE
 
-Último estado: **721/840 terminadas, 2163 imágenes originales públicas, 0 en curso o borradores WordPress y 119 pendientes**. Escalabilidad con Autonomía 5/15; 44 tandas completas.
+Último estado: **724/840 terminadas, 2172 imágenes originales públicas, 0 en curso o borradores WordPress y 116 pendientes**. Escalabilidad con Autonomía 8/15; 44 tandas completas.
 
-Continuar **726–728 / E6.7.06–E6.7.08**, economia-compartida → Escalabilidad con Autonomía. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **729–731**. **501/E4.2.06,512/E4.3.02,649/E4.12.04 y707/E6.6.02** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.
+Continuar **729–731 / E6.7.09–E6.7.11**, economia-compartida → Escalabilidad con Autonomía. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **732–734**. **501/E4.2.06,512/E4.3.02,649/E4.12.04 y707/E6.6.02** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.
 
 Historial anterior: producción comprobada tras el bloque 4–6: 6/840 terminadas. En elaboración local: 7–9 con nueve imágenes propias; todavía no cuentan como publicadas. Consultar siempre WordPress y el registro 24 para el estado más reciente.
 

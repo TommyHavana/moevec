@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-03T23:30:50+00:00.
+Comprobado en WordPress: 2026-11-03T23:47:40+00:00.
 
-**721/840 terminadas · 0 en curso · 119 pendientes.**
+**724/840 terminadas · 0 en curso · 116 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -737,9 +737,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 723 | 49/56 · 3/15 | E6.7.03 | El número de Dunbar y el tamaño de los equipos | terminada | 3/3 | [Leer](https://moevec.org/blog/numero-de-dunbar-equipos/) |
 | 724 | 49/56 · 4/15 | E6.7.04 | Las crisis del crecimiento: el modelo de Greiner | terminada | 3/3 | [Leer](https://moevec.org/blog/crisis-del-crecimiento-greiner/) |
 | 725 | 49/56 · 5/15 | E6.7.05 | Escalar no es solo crecer: rendimientos y complejidad | terminada | 3/3 | [Leer](https://moevec.org/blog/escalar-no-es-solo-crecer/) |
-| 726 | 49/56 · 6/15 | E6.7.06 | Autogestión en la práctica: Morning Star | pendiente | 0/3 | — |
-| 727 | 49/56 · 7/15 | E6.7.07 | Semco: democracia empresarial en Brasil | pendiente | 0/3 | — |
-| 728 | 49/56 · 8/15 | E6.7.08 | Haier y las microempresas internas | pendiente | 0/3 | — |
+| 726 | 49/56 · 6/15 | E6.7.06 | Autogestión en la práctica: Morning Star | terminada | 3/3 | [Leer](https://moevec.org/blog/autogestion-morning-star/) |
+| 727 | 49/56 · 7/15 | E6.7.07 | Semco: democracia empresarial en Brasil | terminada | 3/3 | [Leer](https://moevec.org/blog/semco-brasil/) |
+| 728 | 49/56 · 8/15 | E6.7.08 | Haier y las microempresas internas | terminada | 3/3 | [Leer](https://moevec.org/blog/haier-microempresas-internas/) |
 | 729 | 49/56 · 9/15 | E6.7.09 | Holocracia: qué prometía y qué pasó en Zappos | pendiente | 0/3 | — |
 | 730 | 49/56 · 10/15 | E6.7.10 | Franquicias y licencias: crecer con dueños locales | pendiente | 0/3 | — |
 | 731 | 49/56 · 11/15 | E6.7.11 | Caso ilustrativo: la startup que creció por equipos autónomos | pendiente | 0/3 | — |
