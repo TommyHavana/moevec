@@ -1,8 +1,8 @@
 # Ejecución desde586 ·03/11/2026
 
-**703/840 terminadas, 2109 imágenes originales públicas, 0 en curso o borradores WordPress y 137 pendientes**. Empoderamiento de Microemprendedores 15/15; Inversión Distribuida y Contratos Comunitarios 1/15; 44 tandas completas.
+**709/840 terminadas, 2127 imágenes originales públicas, 0 en curso o borradores WordPress y 131 pendientes**. Inversión Distribuida y Contratos Comunitarios 7/15; 44 tandas completas.
 
-117 nuevas entradas y351originales públicos.
+123 nuevas entradas y369originales públicos.
 
 | Global | ID | URL | Imágenes |
 |---|---|---|---|
@@ -123,8 +123,11 @@
 |704|E6.5.14|https://moevec.org/blog/del-puesto-ambulante-al-local/|3/3|
 |705|E6.5.15|https://moevec.org/blog/programa-acompanamiento-mee/|3/3|
 |706|E6.6.01|https://moevec.org/blog/que-es-inversion-distribuida/|3/3|
+|708|E6.6.03|https://moevec.org/blog/financiacion-participativa-tipos/|3/3|
+|709|E6.6.04|https://moevec.org/blog/contratos-claros-confianza/|3/3|
+|710|E6.6.05|https://moevec.org/blog/detectar-piramide-ponzi/|3/3|
+|711|E6.6.06|https://moevec.org/blog/participacion-empleados-empresa/|3/3|
+|712|E6.6.07|https://moevec.org/blog/inversores-angel-primeras-rondas/|3/3|
+|713|E6.6.08|https://moevec.org/blog/prestamos-entre-particulares/|3/3|
 
-Continuar **707–709 / E6.6.02–E6.6.04**, economia-compartida → Inversión Distribuida y Contratos Comunitarios. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **710–712**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
-
-
-707/E6.6.02: afirmación del título «la inversión comunitaria más antigua» sin acreditar por las fuentes revisadas. Propuesto «Grupos de ahorro rotativo: cómo funcionan y qué riesgos tienen», mismo ID/slug; consulta enviada una vez, sin respuesta. Preparar cuerpo e imágenes sin publicar el título no verificado. Avanzar708/709 y después710 si sigue pendiente; no bloquear producción independiente.
+Continuar **714–716 / E6.6.09–E6.6.11**, economia-compartida → Inversión Distribuida y Contratos Comunitarios. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **717–719**. **501/E4.2.06,512/E4.3.02,649/E4.12.04 y707/E6.6.02** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.

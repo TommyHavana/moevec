@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-03T21:16:38+00:00.
+Comprobado en WordPress: 2026-11-03T21:37:10+00:00.
 
-**706/840 terminadas · 0 en curso · 134 pendientes.**
+**709/840 terminadas · 0 en curso · 131 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -722,9 +722,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 708 | 48/56 · 3/15 | E6.6.03 | Financiación participativa: tipos y regulación | terminada | 3/3 | [Leer](https://moevec.org/blog/financiacion-participativa-tipos/) |
 | 709 | 48/56 · 4/15 | E6.6.04 | Contratos claros: por qué la confianza necesita papel | terminada | 3/3 | [Leer](https://moevec.org/blog/contratos-claros-confianza/) |
 | 710 | 48/56 · 5/15 | E6.6.05 | Cómo detectar una pirámide o esquema Ponzi | terminada | 3/3 | [Leer](https://moevec.org/blog/detectar-piramide-ponzi/) |
-| 711 | 48/56 · 6/15 | E6.6.06 | Participación de los empleados en la empresa | pendiente | 0/3 | — |
-| 712 | 48/56 · 7/15 | E6.6.07 | Inversores ángel y primeras rondas: cómo funciona | pendiente | 0/3 | — |
-| 713 | 48/56 · 8/15 | E6.6.08 | Préstamos entre particulares: ventajas y peligros | pendiente | 0/3 | — |
+| 711 | 48/56 · 6/15 | E6.6.06 | Participación de los empleados en la empresa | terminada | 3/3 | [Leer](https://moevec.org/blog/participacion-empleados-empresa/) |
+| 712 | 48/56 · 7/15 | E6.6.07 | Inversores ángel y primeras rondas: cómo funciona | terminada | 3/3 | [Leer](https://moevec.org/blog/inversores-angel-primeras-rondas/) |
+| 713 | 48/56 · 8/15 | E6.6.08 | Préstamos entre particulares: ventajas y peligros | terminada | 3/3 | [Leer](https://moevec.org/blog/prestamos-entre-particulares/) |
 | 714 | 48/56 · 9/15 | E6.6.09 | Acuerdos de reparto de ingresos: alternativa a la deuda y al capital | pendiente | 0/3 | — |
 | 715 | 48/56 · 10/15 | E6.6.10 | Cooperativas de ahorro y crédito: banca de los socios | pendiente | 0/3 | — |
 | 716 | 48/56 · 11/15 | E6.6.11 | Caso ilustrativo: de la tanda vecinal a un fondo con reglas escritas | pendiente | 0/3 | — |

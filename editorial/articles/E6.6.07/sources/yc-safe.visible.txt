@@ -1,0 +1,256 @@
+The SAFE — the open standard for startup fundraising | Y Combinator
+Open menu
+About
+What Happens at YC?
+Apply
+YC Interview Guide
+FAQ
+People
+YC Blog
+Companies
+Startup Directory
+Founder Directory
+Launch YC
+Library
+Partners
+Resources
+Startup School
+Newsletter
+Requests for Startups
+For Investors
+Verify Founders
+Hacker News
+Bookface
+SAFE
+Find a Co-Founder
+Events
+Startup Jobs
+Log in
+Apply
+The SAFE: The standard way startups raise money
+The open-source, simple agreement that lets investors fund your startup now for shares of stock later. Created at Y Combinator by Carolynn Levy in 2013 and used to raise over $15B+ for YC portfolio companies.
+Send a SAFE
+What is a SAFE
+What is "Send a SAFE"
+How SAFEs work
+Download the forms
+FAQ
+What is a SAFE
+A SAFE (Simple Agreement for Future Equity) is a short contract an investor signs to fund your startup now in exchange for the right to shares of stock in your startup later. It converts into shares automatically when your startup raises a priced round.
+Standard
+:
+The default instrument investors expect.
+Simple
+:
+One short document, and usually the only term to negotiate is the valuation cap.
+Clarity
+:
+The ownership you're selling is transparent and easy to calculate.
+Proven
+:
+Thousands of startups, billions raised, over a decade of use.
+What is "Send a SAFE"
+"Send a SAFE" is the official tool by Y Combinator for sending SAFEs. It is the fastest way to generate, sign, and send a SAFE — in about two minutes.
+By the creators
+:
+The SAFE was invented at YC. YC's SAFE is the original and most up-to-date instrument straight from the creators.
+Free to send
+:
+Two minutes to generate, sign, and send a SAFE — for free.
+Industry Standard
+:
+The SAFE is the same instrument YC uses to fund its startups. Your startup's fundraise will be on the instrument that investors, and YC, trust.
+Built for agents
+:
+The Send a SAFE tool is programmatic and agent-friendly. An AI agent can draft and send a SAFE on your behalf.
+Send a SAFE
+Agent use
+Use this prompt with your agent to create and manage your SAFEs. The prompt will install YC CLI, log you in, and walk you through the commands.
+I want to set up the YC CLI to create and send SAFEs from this agent session.
+
+Please do the following:
+
+1. Install the YC CLI by running:
+   curl -fsSL https://bookface.ycombinator.com/cli/install.sh | bash
+
+2. Log me in by running yc login --device. Show me the sign-in URL and code from the command output so I can open the URL in my browser and finish the login manually if needed. Wait for me to finish the browser login before continuing.
+
+3. Verify the install by running yc safes --help.
+
+4. Check my one-time company setup by running yc safes setup. If anything is missing, ask me for the values and apply them with yc safes setup --apply (run yc safes setup --help for the JSON shape it expects).
+
+5. Give me a short overview of what you can now do:
+   - list my SAFEs with yc safes list, and inspect one with yc safes show <id>
+   - create a draft with yc safes create
+   - change a draft's terms with yc safes update <id>
+   - send a draft out for signature with yc safes send <id>
+
+Sending a SAFE emails a real investor and cannot be undone. Never run yc safes send without first showing me the exact terms and getting my explicit confirmation.
+
+Start by explaining the commands you plan to run, then run them.
+Copied
+How SAFEs work
+Pick the fundraise amount. The valuation cap follows.
+The biggest advantage of the post-money SAFE is that the amount of ownership sold is immediately transparent and calculable for both the founder and the investor. Start from how much you're targeting and how much ownership you're willing to sell — the valuation cap follows from the two.
+Say you're targeting a $1M raise and 15% ownership sold. Your post-money valuation cap is $1M ÷ 15% = ~$6.7M, or "I'm targeting $1M at $6.7M post / $5.7M pre." Raise less on that cap and you sell less: $500k is ~7.5%, $800k is ~12%. You can also raise on more than one cap — $500k at a $5.5M cap (~9%) plus $500k at an $8.3M cap (~6%) gets you to the same ~15% sold.
+Try the SAFE calculator
+Run your own numbers in the SAFE calculator.
+75%
+Founders
+Try the SAFE Calculator
+SAFE terms, defined
+The handful of terms worth knowing before you raise on a SAFE.
+Valuation cap
+The highest valuation at which a SAFE converts into shares. If your startup's priced round values the company above the valuation cap, the SAFE converts at the valuation cap — rewarding the investor for backing your company early. The ownership you sell equals the investment amount divided by the valuation cap.
+Discount
+A discount rewards early investors with a lower price than your startup's next priced round. Example: on a 20% discount SAFE, if you later raise a priced round, those SAFE investors get a discounted price of 20% less than what the new investors pay.
+Post-money SAFE
+A post-money SAFE is a SAFE that has a valuation cap that is "post-money," meaning it's the valuation of your company after the investment is made (in other words, it includes the SAFE investment). The post-money SAFE has been the YC standard since 2018.
+MFN (Most Favored Nation)
+An MFN SAFE has no valuation cap or discount; instead it automatically takes the valuation cap or discount of any SAFE you issue later, so an early investor can invest now without having to decide on these terms.
+Pro rata rights
+The right, not the obligation, for an investor to invest money into your startup's future priced round to maintain their percentage ownership in your startup. The pro rata right lives in an optional, standardized side letter rather than in the SAFE itself.
+Conversion
+A SAFE isn't shares in your startup until it converts into preferred stock, which happens automatically when you raise a priced round.
+SAFE vs. Convertible Note vs. Priced Round
+Not sure which instrument best fits your fundraise? See how the three compare on cost, speed, and control.
+See a comparison
+Download the forms
+US companies
+Three versions of the post-money SAFE for US companies, plus an optional side letter.
+SAFE: Valuation Cap, no Discount
+SAFE: Discount, no Valuation Cap
+SAFE: "Uncapped MFN" (no Valuation Cap, no Discount)
+Pro Rata Side Letter
+SAFE User Guide
+Non-US companies
+Valuation Cap versions for companies formed in Canada, the Cayman Islands, and Singapore, each with an optional side letter. Consult a lawyer licensed in the relevant country before using these.
+SAFE: Valuation Cap, No Discount (Canada)
+Pro Rata Side Letter (Canada)
+SAFE: Valuation Cap, No Discount (Caymans)
+Pro Rata Side Letter (Caymans)
+SAFE: Valuation Cap, No Discount (Singapore)
+Pro Rata Side Letter (Singapore)
+New to SAFEs or want more information?
+Read the
+SAFE User Guide
+for sample conversion math, an explanation of the pro rata side letter, and best practices.
+Frequently Asked Questions
+The SAFE
+Send a SAFE
+The instrument itself — what a SAFE is, how it converts, and the terms behind it.
+What is a SAFE (Simple Agreement for Future Equity)?
+A SAFE is a contract that lets an investor invest in your startup now in exchange for the right to shares of your startup's stock later. A SAFE converts into shares automatically when you raise a priced round (an "equity financing"). It was created at Y Combinator in 2013 and is the most common way early-stage startups raise their early investments.
+Is a SAFE debt or stock?
+A SAFE is not a debt and not a loan — it has no interest and no maturity date — but it isn't stock until it converts into preferred shares when your startup raises an equity financing.
+SAFE vs convertible note — what's the difference?
+Both SAFEs and convertible promissory notes convert into equity later, but a convertible note is debt — interest accrues and the note has a maturity date set for repayment or forced conversion. A SAFE is not debt, it has no interest or maturity dates, so it's simpler, faster, and cheaper to sign.
+See the full SAFE vs. convertible note vs. priced round comparison
+.
+Does a SAFE convert in a round of equity financing?
+When your company sells shares of preferred stock in an equity financing, the outstanding SAFEs will convert into shares of preferred stock. There is no threshold amount of money in the post-money SAFE that your company needs to raise to trigger the conversion.
+Does a SAFE holder have a choice about converting a SAFE in an equity financing?
+The conversion of a SAFE in an equity financing is automatic and the SAFE then terminates. A SAFE is intended to turn SAFE holders into stockholders.
+What is a valuation cap?
+The valuation cap is the highest valuation at which a SAFE converts. If the equity financing values your startup above the cap, the SAFE investor converts at the valuation cap instead — rewarding them for investing early. On a post-money SAFE, ownership sold equals the investment amount divided by the valuation cap.
+What is a discount rate on a SAFE?
+A discount rate rewards earlier investors with a lower price than the price at the equity financing. On a 20% discount SAFE, the SAFE investors convert at a price per share that is 20% below the price per share in the equity financing. Discounts are commonly 10–20%.
+What is an MFN (Most Favored Nation) provision?
+The MFN SAFE is one of YC's three SAFE forms. It has no cap or discount; instead it automatically takes the best terms of any SAFE you issue later. It lets an early investor fund your startup now without having to determine a valuation cap or a discount.
+Does an MFN SAFE pick up terms on signing or on funding?
+An MFN SAFE adopts the best terms of any SAFE your startup issues later. The date the MFN SAFE uses is the later of signing the SAFE or receiving the wire, not when you sent it. So close your lower valuation cap SAFEs (fully wired) before you issue an uncapped MFN. You sign last and control the date.
+How do I issue an uncapped SAFE?
+There's no separate uncapped SAFE form. If you want to issue a SAFE with no valuation cap, download the discount SAFE form and set the "Discount Rate" to 100%.
+How much ownership of my startup does a SAFE sell?
+On a post-money valuation cap SAFE, the ownership sold equals the investment divided by the valuation cap. For example, $500k on a $6.7M post-money cap is about 7.5%, and $1M on the same cap is about 15%. For discount rate or MFN SAFEs, the exact ownership sold will be determined at the equity financing.
+What's the difference between a pre-money and post-money SAFE?
+The valuation cap in a post-money SAFE is stated in terms of a post-money valuation, whereas the valuation cap in a pre-money SAFE is based on a pre-money valuation. A post-money valuation and a pre-money valuation are just two different ways of framing the same valuation of your startup, but at different points in time. A pre-money valuation is the valuation of the company immediately before the company receives the investment. A post-money valuation is just the valuation immediately after the investment is made. The post-money valuation cap is "post" all of the money you raise on SAFEs. It is NOT also "post" the equity financing money. The post-money valuation cap is also "post" the options and option pool existing prior to the equity financing, but is NOT also "post" the new or increased option pool adopted as part of the equity financing. YC standardized on the post-money SAFE in 2018.
+What if the valuation in my startup's equity financing is higher than the valuation cap of the SAFE?
+Your investor converts into shares priced at the (lower) valuation cap rather than the (higher) valuation of the equity financing. When the equity financing prices your startup above the SAFE's valuation cap, the cap applies, which is the whole point of investing early.
+What are pro rata rights?
+Pro rata rights let an investor invest money into your future equity financing to keep their ownership percentage of your startup from shrinking. Giving an investor pro rata rights is optional. Pro rata rights live in a separate, standardized pro rata side letter rather than in the SAFE itself.
+An investor wants pro rata rights, MFN, or information rights. Should I add these rights to the SAFE?
+Keep the SAFE unmodified, and give any agreed-upon rights in a separate side letter. It's fine to push back on granting any of these rights; evaluate whether it's appropriate to give any of them based on the amount that an investor is investing. An investor buying a $500k SAFE has a good case for pro rata rights versus one who is investing $10k.
+An investor who already signed a SAFE wants to invest more. Do I amend the SAFE or issue a new one?
+Issue a separate new SAFE for the additional amount, on the same terms as the first SAFE. That's the simplest, cleanest approach, and it leaves the original SAFE intact.
+An investor wired a little less or little more than the SAFE amount. Is the SAFE still valid?
+We cannot provide accounting or tax advice, but a small mismatch (usually a few dollars from wire fees or currency conversion) almost never causes a real problem. Technically the investor owes any shortfall, so the cleanest fix is to ask them to wire the difference or cover it yourself, and keep a note for your records. For an overpayment, keep the exact amount of the SAFE investment and refund the rest to the investor.
+What happens to the outstanding SAFEs if my startup is acquired, goes public, or shuts down?
+An acquisition of your startup, or an IPO, is a "Liquidity Event" in the SAFE. In the valuation cap SAFE, the investor gets the greater of 1x their money back, or what they'd receive if the SAFE had converted to common stock. A shutdown of your startup is a "Dissolution Event" in the SAFE. In the valuation cap SAFE, the investor gets their SAFE purchase amount back. In both cases, a SAFE is junior to outstanding debt and ranks like standard non-participating preferred stock.
+Does a SAFE ever expire?
+A SAFE has no maturity date. A SAFE is designed to expire and terminate only when the investor has received stock in an equity financing (or otherwise). In theory, a SAFE could remain outstanding for a long time without the need to "extend" any dates or time periods.
+Is a SAFE transferable?
+The SAFE includes a transfer restriction that provides that an investor can't transfer it without the issuing startup's consent, except to an affiliate of the investor.
+Can a SAFE be amended (e.g. a typo or the wrong investor name)?
+A SAFE can be amended with the written consent of the issuing company and that investor. Amendments across a series of SAFEs with the same terms (i.e. post-money valuation cap or discount) can be made with a majority-in-interest of those investors, but an individual investor's purchase amount can't be changed without that investor's consent.
+Does my investor need to be accredited?
+Yes. SAFE investors should be accredited. If an investor isn't accredited at the time of your equity financing, your startup can rescind the SAFE by returning the investor's money.
+Do I need board approval to issue SAFEs?
+Your startup's board of directors must approve issuing SAFEs.
+Who created the SAFE, and is it free?
+The SAFE was created at Y Combinator by Carolynn Levy in 2013. All of the SAFE forms are free to download and use. YC's tool to generate, sign, and send the official SAFE forms is free to use.
+The tool itself — how to generate, sign, and send a SAFE to any investor.
+What does this tool do?
+It walks you through the terms of a SAFE, produces a filled out SAFE and emails it to your investor for signature. You'll be able to countersign and obtain the fully executed SAFE document. The whole flow usually takes about two minutes.
+Who can use this tool?
+It's open to any company. You don't need to be a YC alum or applicant.
+Is it free?
+It is free — there's no fee for generating, signing, or sending a SAFE.
+What types of SAFE can I create?
+Three versions of the SAFE: Valuation Cap, Discount, and MFN with no Cap or Discount.
+Can an agent create a SAFE for me?
+The SAFE flow is programmatic and agent-friendly, so an AI agent can draft and send a SAFE on your behalf.
+Can non-US companies use the tool?
+The tool currently supports only US-incorporated companies. If your company is formed in Canada, the Cayman Islands, or Singapore, download the SAFE form directly and have a local lawyer help you fill it in. If your company is in another jurisdiction, you will need to work with a local lawyer.
+Can I still get a SAFE form to fill in manually?
+Scroll to
+Download the forms
+for the original US and international (Canada, Cayman Islands and Singapore only) SAFEs, plus the optional side letters.
+An investor signed the SAFE but never wired the money. What happens?
+A SAFE isn't binding until the money is received, so an unfunded SAFE simply never takes effect. Give the investor a firm date and follow up; if the investor still hasn't funded after a couple of weeks, you can treat it as void. Note it for your records, and if the money shows up later, return it or sign a fresh (current-dated) SAFE.
+Can I send a SAFE with two signers, for example, a fund with two signatories, or a couple investing jointly?
+The tool sends to a single investor signatory. For two signers, download a SAFE form from YC's documents page, add a second signature block, and sign it manually. Or split the investment into two equal SAFEs signed individually.
+Needless to say, YC does not assume responsibility for the contents of, or the consequence of using, the Send a SAFE tool or any version of the SAFE found on our website. Before using the Send a SAFE tool or any of the SAFE forms, you should consult with a lawyer licensed in the country where your company was formed.
+Ready to send a SAFE?
+The official tool that lets you generate, send, and sign a SAFE in two minutes.
+Send a SAFE
+Footer
+Y Combinator
+Make something people want.
+Programs
+YC Program
+Startup School
+Work at a Startup
+Co-Founder Matching
+Resources
+Startup Directory
+Startup Library
+Investors
+Demo Day
+SAFE
+Hacker News
+Launch YC
+YC Deals
+Company
+YC Blog
+Contact
+Press
+People
+Careers
+Privacy Policy
+Notice at Collection
+Security
+Terms of Use
+Twitter
+Twitter
+Facebook
+Facebook
+Instagram
+Instagram
+LinkedIn
+LinkedIn
+Youtube
+YouTube
+©
+2026
+Y Combinator

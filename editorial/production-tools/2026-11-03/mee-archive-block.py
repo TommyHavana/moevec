@@ -12,7 +12,7 @@ plan=json.load(open(r/'wordpress/plugins/mee-editorial/data/production-plan.json
 for ident in ids:
  selected.extend(p for p in(r/'editorial/articles'/ident).rglob('*')if p.is_file())
 for entry in s.get('local_preparations',[]):
- if entry['number'] in [501,512,649]:
+ if entry['number'] in s.get('title_reviews_pending',[501,512,649]):
   for p in(r/'editorial/articles'/entry['id']).rglob('*'):
    if p.is_file():
     q=private/p.relative_to(r)
@@ -20,6 +20,7 @@ for entry in s.get('local_preparations',[]):
 prior_ids=[x['id']for x in plan if x['number']in s.get('completed_this_run',[])and x['number']<start]
 prior_candidates=[p for ident in prior_ids for p in(r/'editorial/articles'/ident).rglob('*')if p.is_file()]
 prior_candidates.extend((r/'inventario/auditoria-2026-10-28').glob(f'editorial-{start-3}-{end-3}-*.json'))
+prior_candidates.extend((r/'docs/produccion').glob('*.md'))
 for p in prior_candidates:
  q=private/p.relative_to(r)
  if not q.exists()or hashlib.sha256(q.read_bytes()).digest()!=hashlib.sha256(p.read_bytes()).digest():selected.append(p)
@@ -35,4 +36,4 @@ rels=[str(p.relative_to(r))for p in selected]
 for p in selected:
  q=private/p.relative_to(r);q.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(p,q);assert q.read_bytes()==p.read_bytes()
 subprocess.run(['git','-C',str(private),'add','--',*rels],check=True);assert set(git('diff','--cached','--name-only').splitlines())<=set(rels);subprocess.run(['git','-C',str(private),'commit','-q','-m',f'editorial: publica y verifica{label}; conserva siguiente bloque'],check=True);subprocess.run(['git','-C',str(private),'push','origin','main'],check=True);commit=git('rev-parse','HEAD');assert commit==git('rev-parse','origin/main')and not git('status','--porcelain')
-reg=json.load(open(r/'inventario/plan-editorial-840-status.json'));published=[{k:x[k]for k in['number','id','url','images','words']}for x in reg['entries']if start<=x['number']<=end];e=dict(checked_at=datetime.now(timezone.utc).isoformat(),run_started_with_completed=s['run_started_with_completed'],completed_this_run=s['completed_this_run'],counts=reg['counts'],public_original_images=sum(x['images']for x in reg['entries']if x['status']=='terminada'),published=published,unpublished_gaps=[501,512,649],local_preparations=s['local_preparations'],remote_backup=s['last_backup'],local_backup=dict(zip=str(z),zip_bytes=z.stat().st_size,zip_files=len(selected)+2,kind='incremental',base_backup=str(base),base_sha256=bh),local_backup_sha256=hashlib.sha256(z.read_bytes()).hexdigest(),private_commit=commit,private_clean=True,selected_files_equal=len(selected),next_block=s['current_block'],next_after_block=s['next_after_block'],full_restore_boot_test=False,previous_delivery_proof=str(priorproof));proof.write_text(json.dumps(e,ensure_ascii=False,indent=2)+'\n');print(json.dumps({'counts':reg['counts'],'zip_bytes':z.stat().st_size,'files_equal':len(selected),'private_commit':commit,'free_bytes':shutil.disk_usage(r).free}))
+reg=json.load(open(r/'inventario/plan-editorial-840-status.json'));published=[{k:x[k]for k in['number','id','url','images','words']}for x in reg['entries']if start<=x['number']<=end];e=dict(checked_at=datetime.now(timezone.utc).isoformat(),run_started_with_completed=s['run_started_with_completed'],completed_this_run=s['completed_this_run'],counts=reg['counts'],public_original_images=sum(x['images']for x in reg['entries']if x['status']=='terminada'),published=published,unpublished_gaps=s.get("title_reviews_pending",[501,512,649]),local_preparations=s['local_preparations'],remote_backup=s['last_backup'],local_backup=dict(zip=str(z),zip_bytes=z.stat().st_size,zip_files=len(selected)+2,kind='incremental',base_backup=str(base),base_sha256=bh),local_backup_sha256=hashlib.sha256(z.read_bytes()).hexdigest(),private_commit=commit,private_clean=True,selected_files_equal=len(selected),next_block=s['current_block'],next_after_block=s['next_after_block'],full_restore_boot_test=False,previous_delivery_proof=str(priorproof));proof.write_text(json.dumps(e,ensure_ascii=False,indent=2)+'\n');print(json.dumps({'counts':reg['counts'],'zip_bytes':z.stat().st_size,'files_equal':len(selected),'private_commit':commit,'free_bytes':shutil.disk_usage(r).free}))

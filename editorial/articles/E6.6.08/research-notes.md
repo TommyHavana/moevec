@@ -1,3 +1,26 @@
-# Preparación · E6.6.08
+# Investigación · E6.6.08
 
-Brief y prompts conservados. Fuentes, tres imágenes, texto y publicación pendientes. No cuenta como terminada.
+Unión Europea · Reglamento 2020/1503 · ámbito y definiciones
+https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A32020R1503
+Primarioindexadoarts1–2leídoactualmismaejecución,copiahash706incluyeHTML/PDF202vacíosynolecturaíntegra. Art1.2aexcluyepromotoresconsumidores,art2.1amediaciónfinanciaciónempresarial/préstamos. No todaappP2Pautorizada/queesta normaaplicaMéxico ni amigos.
+
+Agencia Tributaria de Cataluña · préstamo a un familiar y modelo 600
+https://atc.gencat.cat/es/que-cal-fer/prestec-particulars/
+HTML200123858B FAQcuerpoleído íntegro. Préstamosentreparticularesnoactividadeconómicasujetoexento600prestatariocontrato/plazo1mesfirmacontrato. DRG128noesnecesarioencuerponi indicartrámitesautomáticosmodelonuevoversiones. Plazo apoyoURLtramitaltrestpo200179559B generalfechafechafindeinhábilesleído. NoexenciónISRinteresesuniversal/ningúntramiteporparentesco.
+
+Comunidad de Madrid · preguntas frecuentes tributarias
+https://www.comunidad.madrid/atencion-contribuyente/preguntas-frecuentes
+HTML200158150B yweb500líneasFAQ395–412leída. Exenciónconstituciónpréstamoentreparticulares395–399. 30dh408estáensecciónarrendamientos;410generalITP30dhperocuerpoNOcitaeseplazocomoespecíficopréstamoMadrid. NolecturaíntegratodasFAQniabonos/modelo600exactodetodoscasos.
+
+México · SAT · artículo 90 de la Ley del ISR
+https://wwwmatnp.sat.gob.mx/articulo/28342/articulo-90
+HTML20050340B primerospárrafos/63–64webleídos textoreproduceLISR. Residentespersonasfísicasinformarpréstamosdonativospremiosindividualoenconjunto>600000pesosdeclaraciónejercicio. Noexactamente600000ni600000prestamoaisladosintotal/obligacióntodoextranjero/todosnopaganintereses. No leyíntegrareformafechaasegurada/sancionesautomáticasgananciafallida.
+
+Unión Europea · Reglamento delegado 2022/2119 · advertencia de riesgo
+https://eur-lex.europa.eu/legal-content/ES/ALL/?uri=CELEX%3A32022R2119
+Primarioindexadoart6/anexoadvertenciapérdidaparcialtotalleído,copiahash706/202emptydirectconservado. CounterMEEextensióndeprudenciaaconocidosnoatribuirleyamigos/Normauniversalniconsejopersonal. Noaprobaciónplataformacomogarantíaresultado.
+
+Excluido:
+- Sin garantías de devoluciónniamistad/nocontratoinválidoautomático.
+- No exentopagoigualsinobligaciónniModelo600México/Catalunyaplazouniversal.
+- Sin diagnósticosfraudeaamiga ni asesoriafiscalindividual/plataformasrecomendadas.
