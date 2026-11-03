@@ -1,8 +1,8 @@
 # Ejecución desde586 ·03/11/2026
 
-**664/840 terminadas, 1992 imágenes originales públicas, 0 en curso o borradores WordPress y 176 pendientes**. Especialización Estratégica Escalonada 7/15; 41 tandas completas.
+**667/840 terminadas, 2001 imágenes originales públicas, 0 en curso o borradores WordPress y 173 pendientes**. Especialización Estratégica Escalonada 10/15; 41 tandas completas.
 
-78 nuevas entradas y234originales públicos.
+81 nuevas entradas y243originales públicos.
 
 | Global | ID | URL | Imágenes |
 |---|---|---|---|
@@ -84,5 +84,8 @@
 |665|E6.3.05|https://moevec.org/blog/capital-humano-especializacion/|3/3|
 |666|E6.3.06|https://moevec.org/blog/nicho-primero/|3/3|
 |667|E6.3.07|https://moevec.org/blog/salto-capacidad-vecina/|3/3|
+|668|E6.3.08|https://moevec.org/blog/clusteres-especializacion-territorio/|3/3|
+|669|E6.3.09|https://moevec.org/blog/politica-industrial-debate/|3/3|
+|670|E6.3.10|https://moevec.org/blog/especializacion-y-riesgo/|3/3|
 
-Continuar **668–670 / E6.3.08–E6.3.10**, economia-compartida → Especialización Estratégica Escalonada. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **671–673**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Continuar **671–673 / E6.3.11–E6.3.13**, economia-compartida → Especialización Estratégica Escalonada. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **674–676**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.

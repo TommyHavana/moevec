@@ -1,0 +1,7 @@
+from pathlib import Path
+from concurrent.futures import ThreadPoolExecutor
+import json,hashlib,shutil
+helper=Path('/Users/nerea/Documents/Proyectos/MEE/mee-web/editorial/production-tools/2026-10-31/mee-fetch649651.py').read_text();exec(helper[:helper.index('with ThreadPoolExecutor')])
+jobs=[('E6.3.08', 'porter-clusters-hbs.html', 'https://www.isc.hbs.edu/competitiveness-economic-development/frameworks-and-key-concepts/Pages/clusters.aspx'), ('E6.3.08', 'porter2007rev2009.pdf', 'https://www.hbs.edu/ris/download.aspx?name=Clusters_and_Economic_Policy_White_Paper.pdf'), ('E6.3.08', 'marshall1920-ch10.html', 'https://www.econlib.org/library/Marshall/marP.html?chapter_num=25'), ('E6.3.08', 'avecal-about.html', 'https://avecal.es/en/about-us/'), ('E6.3.08', 'avecal-services.html', 'https://avecal.es/en/service-guide/'), ('E6.3.08', 'madr-flores.html', 'https://www.minagricultura.gov.co/cadenas/flores'), ('E6.3.08', 'stpi-bengaluru.html', 'https://stpi.in/about-stpi-bengaluru'), ('E6.3.09', 'juhasz-lane-rodrik2024.pdf', 'https://drodrik.scholars.harvard.edu/sites/g/files/omnuum7106/files/annurev-economics-081023-0246380-final.pdf'), ('E6.3.09', 'itri-semiconductors.html', 'https://50th.itri.org.tw/en/history/semiconductors/2/'), ('E6.3.09', 'luzio-greenstein1993.pdf', 'https://www.ideals.illinois.edu/items/30161/bitstreams/101053/data.pdf'), ('E6.3.10', 'imf2003-dutch.html', 'https://www.imf.org/external/pubs/ft/fandd/2003/03/ebra.htm')]
+with ThreadPoolExecutor(max_workers=5)as pool:
+ for x in pool.map(fetch,jobs):print(x,flush=True)

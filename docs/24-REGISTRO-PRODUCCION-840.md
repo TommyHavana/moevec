@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-03T15:56:07+00:00.
+Comprobado en WordPress: 2026-11-03T16:20:50+00:00.
 
-**664/840 terminadas · 0 en curso · 176 pendientes.**
+**667/840 terminadas · 0 en curso · 173 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -679,9 +679,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 665 | 45/56 · 5/15 | E6.3.05 | Capital humano: invertir en lo que sabes hacer | terminada | 3/3 | [Leer](https://moevec.org/blog/capital-humano-especializacion/) |
 | 666 | 45/56 · 6/15 | E6.3.06 | Nicho primero: por qué empezar pequeño y concreto | terminada | 3/3 | [Leer](https://moevec.org/blog/nicho-primero/) |
 | 667 | 45/56 · 7/15 | E6.3.07 | El salto a la capacidad vecina: cuándo y cómo ampliar | terminada | 3/3 | [Leer](https://moevec.org/blog/salto-capacidad-vecina/) |
-| 668 | 45/56 · 8/15 | E6.3.08 | Clústeres: especializarse juntos en un territorio | pendiente | 0/3 | — |
-| 669 | 45/56 · 9/15 | E6.3.09 | Política industrial: ¿debe el Estado elegir especializaciones? | pendiente | 0/3 | — |
-| 670 | 45/56 · 10/15 | E6.3.10 | Especialización y riesgo: cuándo es demasiado | pendiente | 0/3 | — |
+| 668 | 45/56 · 8/15 | E6.3.08 | Clústeres: especializarse juntos en un territorio | terminada | 3/3 | [Leer](https://moevec.org/blog/clusteres-especializacion-territorio/) |
+| 669 | 45/56 · 9/15 | E6.3.09 | Política industrial: ¿debe el Estado elegir especializaciones? | terminada | 3/3 | [Leer](https://moevec.org/blog/politica-industrial-debate/) |
+| 670 | 45/56 · 10/15 | E6.3.10 | Especialización y riesgo: cuándo es demasiado | terminada | 3/3 | [Leer](https://moevec.org/blog/especializacion-y-riesgo/) |
 | 671 | 45/56 · 11/15 | E6.3.11 | Tu ruta de especialización en cinco escalones | pendiente | 0/3 | — |
 | 672 | 45/56 · 12/15 | E6.3.12 | Caso ilustrativo: la startup que se especializó antes de crecer | pendiente | 0/3 | — |
 | 673 | 45/56 · 13/15 | E6.3.13 | Especialización en Cuba: oficios con demanda y nichos posibles | pendiente | 0/3 | — |
