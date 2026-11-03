@@ -2,13 +2,13 @@
 
 ## Estado actual
 
-**661/840 terminadas, 1983 imágenes originales públicas, 0 en curso o borradores WordPress y 179 pendientes**. Especialización Estratégica Escalonada 4/15; 41 tandas completas.
+**664/840 terminadas, 1992 imágenes originales públicas, 0 en curso o borradores WordPress y 176 pendientes**. Especialización Estratégica Escalonada 7/15; 41 tandas completas.
 
 Fuente activa `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Inicio586; 75 nuevas entradas y225originales públicos.
+Inicio586; 78 nuevas entradas y234originales públicos.
 
 | Global | ID | URL | Imágenes |
 |---|---|---|---|
@@ -87,6 +87,9 @@ Inicio586; 75 nuevas entradas y225originales públicos.
 |662|E6.3.02|https://moevec.org/blog/ventaja-comparativa-negocio-y-red/|3/3|
 |663|E6.3.03|https://moevec.org/blog/espacio-de-productos/|3/3|
 |664|E6.3.04|https://moevec.org/blog/etapas-de-diversificacion/|3/3|
+|665|E6.3.05|https://moevec.org/blog/capital-humano-especializacion/|3/3|
+|666|E6.3.06|https://moevec.org/blog/nicho-primero/|3/3|
+|667|E6.3.07|https://moevec.org/blog/salto-capacidad-vecina/|3/3|
 
 ## Revisión del último bloque
 
@@ -94,11 +97,11 @@ Fuentes y alcances por artículo en research-notes.md y source-review.json. Caso
 
 ## Continuación exacta
 
-Continuar **665–667 / E6.3.05–E6.3.07**, economia-compartida → Especialización Estratégica Escalonada. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **668–670**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Continuar **668–670 / E6.3.08–E6.3.10**, economia-compartida → Especialización Estratégica Escalonada. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **671–673**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
 
 ## Copias y capacidad
 
-VPS `/data/mee-backups/produccion-840-incremento-662-664-20261103`: SQL vigente `wordpress.sql` 25771811B, 66medios nuevos. Cadena209más base, huecos501/512/649. Hashes y miembros comprobados; sin nueva prueba de arranque de restauración. ZIP local incremental y prueba de entrega externos, con toda la cadena anterior conservada.
+VPS `/data/mee-backups/produccion-840-incremento-665-667-20261103`: SQL vigente `wordpress.sql` 25866917B, 66medios nuevos. Cadena210más base, huecos501/512/649. Hashes y miembros comprobados; sin nueva prueba de arranque de restauración. ZIP local incremental y prueba de entrega externos, con toda la cadena anterior conservada.
 
 Comprobar espacio antes de cada generación y copia; capacidad medida y prueba de entrega previa conservada. Umbral operativo200MiB antes de generar, y copias proporcionales con margen calculado; conservar todas las copias y originales. Automatización del mismo chat cada tres minutos, según petición del fundador.
 

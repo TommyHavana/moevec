@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-03T15:27:56+00:00.
+Comprobado en WordPress: 2026-11-03T15:56:07+00:00.
 
-**661/840 terminadas · 0 en curso · 179 pendientes.**
+**664/840 terminadas · 0 en curso · 176 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -676,9 +676,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 662 | 45/56 · 2/15 | E6.3.02 | Ventaja comparativa aplicada a tu negocio y a tu red | terminada | 3/3 | [Leer](https://moevec.org/blog/ventaja-comparativa-negocio-y-red/) |
 | 663 | 45/56 · 3/15 | E6.3.03 | El espacio de productos: cómo crecen las capacidades | terminada | 3/3 | [Leer](https://moevec.org/blog/espacio-de-productos/) |
 | 664 | 45/56 · 4/15 | E6.3.04 | Etapas de diversificación: primero amplía, luego afina | terminada | 3/3 | [Leer](https://moevec.org/blog/etapas-de-diversificacion/) |
-| 665 | 45/56 · 5/15 | E6.3.05 | Capital humano: invertir en lo que sabes hacer | pendiente | 0/3 | — |
-| 666 | 45/56 · 6/15 | E6.3.06 | Nicho primero: por qué empezar pequeño y concreto | pendiente | 0/3 | — |
-| 667 | 45/56 · 7/15 | E6.3.07 | El salto a la capacidad vecina: cuándo y cómo ampliar | pendiente | 0/3 | — |
+| 665 | 45/56 · 5/15 | E6.3.05 | Capital humano: invertir en lo que sabes hacer | terminada | 3/3 | [Leer](https://moevec.org/blog/capital-humano-especializacion/) |
+| 666 | 45/56 · 6/15 | E6.3.06 | Nicho primero: por qué empezar pequeño y concreto | terminada | 3/3 | [Leer](https://moevec.org/blog/nicho-primero/) |
+| 667 | 45/56 · 7/15 | E6.3.07 | El salto a la capacidad vecina: cuándo y cómo ampliar | terminada | 3/3 | [Leer](https://moevec.org/blog/salto-capacidad-vecina/) |
 | 668 | 45/56 · 8/15 | E6.3.08 | Clústeres: especializarse juntos en un territorio | pendiente | 0/3 | — |
 | 669 | 45/56 · 9/15 | E6.3.09 | Política industrial: ¿debe el Estado elegir especializaciones? | pendiente | 0/3 | — |
 | 670 | 45/56 · 10/15 | E6.3.10 | Especialización y riesgo: cuándo es demasiado | pendiente | 0/3 | — |

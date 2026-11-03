@@ -1,3 +1,11 @@
-# Preparación · E6.3.07
+# Investigación · E6.3.07
 
-Brief y prompts conservados. Fuentes, tres imágenes, texto y publicación pendientes. No cuenta como terminada.
+H. Igor Ansoff · Strategies for Diversification · Harvard Business Review, 1957, pp. 113–124, reproducción del artículo
+https://www.casrilanka.com/casl/images/stories/2017/2017_pdfs/sab_portal/course_material/strategies_for_diversification.pdf
+ReproducciónprimariadelpaperalojadaprofessionalCASriLanka,PDF13p1392432B; web405perodirectoPDF200válidofitz. p1imp113introduccióndef4alternativas,p2imp114missionnotcustomerdef/ExhibitI4rutas/simultaneidad/recursosleídosyrenderp2inspeccionado. No paperíntegro/retornos/gráficos forecasts/calculabilidadcualquiercaso. Metadatoaño1957corroboradobibliográficopublicadono2017delaURL. MatrizresumenpropioHTML sinprobabilidadriesgo. Unaempresaen variasrutasposible,nofasesobligatorias. Objecióndesorientarrecursos/cambiarofertascenarioMEE, no Ansoffensayocausal.
+
+Excluido:
+- Eliminadatesisbriefcompartirclientes/habilidadescanalesreduceriesgosiempre:nodatosverificadosparaafirmarlo.
+- MercadoAnsofforiginalexplicadopormisiónno simplementeclientemismoigualmismamisión.
+- No casillamatrizcalculaéxito ni todaampliaciónsiguemismoscostes/canibalizaciónyaproducida.
+- Dossituacioneshipotéticas,metáforapiedras/ríoficticio/cuadrícula4casillas/raízcompartidanodatosreales.
