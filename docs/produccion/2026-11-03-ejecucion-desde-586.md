@@ -1,8 +1,8 @@
 # Ejecución desde586 ·03/11/2026
 
-**649/840 terminadas, 1947 imágenes originales públicas, 0 en curso o borradores WordPress y 191 pendientes**. Adaptabilidad Técnica6/15; 41 tandas completas.
+**652/840 terminadas, 1956 imágenes originales públicas, 0 en curso o borradores WordPress y 188 pendientes**. Adaptabilidad Técnica9/15; 41 tandas completas.
 
-63 nuevas entradas y189originales públicos.
+66 nuevas entradas y198originales públicos.
 
 | Global | ID | URL | Imágenes |
 |---|---|---|---|
@@ -69,5 +69,8 @@
 |650|E4.12.05|https://moevec.org/blog/ia-para-pequenos-negocios/|3/3|
 |651|E4.12.06|https://moevec.org/blog/herramientas-sin-codigo/|3/3|
 |652|E4.12.07|https://moevec.org/blog/aprender-a-programar/|3/3|
+|653|E4.12.08|https://moevec.org/blog/comercio-electronico-latam-cuba/|3/3|
+|654|E4.12.09|https://moevec.org/blog/tecnologia-y-empleo-historia/|3/3|
+|655|E4.12.10|https://moevec.org/blog/reconversion-profesional/|3/3|
 
-Continuar **653–655 / E4.12.08–E4.12.10**, Trabajo → Adaptabilidad Técnica. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **656–658**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Continuar **656–658 / E4.12.11–E4.12.13**, Trabajo → Adaptabilidad Técnica. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **659–661**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
