@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+<base href="../../../../">
+<title>Funciones lógicas</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline' 'unsafe-eval' piwik.documentfoundation.org">
+<link rel="shortcut icon" href="media/navigation/favicon.ico">
+<link type="text/css" href="normalize.css" rel="Stylesheet">
+<link type="text/css" href="prism.css" rel="Stylesheet">
+<link type="text/css" href="default.css" rel="Stylesheet">
+<script type="text/javascript" src="polyfills.js"></script><script type="text/javascript" src="languages.js"></script><script type="text/javascript" src="es/langnames.js"></script><script type="text/javascript" src="flexsearch.compact.debug.js"></script><script type="text/javascript" src="prism.js"></script><script type="text/javascript" src="help2.js" defer></script><script type="text/javascript" src="tdf_matomo.js" defer></script><script type="text/javascript" src="a11y-toggle.js" defer></script><script type="text/javascript" src="paginathing.js" defer></script><script type="text/javascript" src="es/bookmarks.js" defer></script><script type="text/javascript" src="es/contents.js" defer></script><script type="text/javascript" src="help.js" defer></script><meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<header id="TopLeftHeader"><a class="symbol" href="es/text/shared/05/new_help.html"><div></div></a><a class="logo" href="es/text/shared/05/new_help.html"><p dir="auto">Ayuda de LibreOffice 26.8</p></a><div class="dropdowns">
+<div class="modules">
+<button type="button" data-a11y-toggle="modules-nav" id="modules" aria-haspopup="true" aria-expanded="false" aria-controls="modules-nav">Módulo</button><nav id="modules-nav" hidden=""></nav>
+</div>
+<div class="lang">
+<button type="button" data-a11y-toggle="langs-nav" id="langs" aria-haspopup="true" aria-expanded="false" aria-controls="modules-nav">Idioma</button><nav id="langs-nav" hidden=""></nav>
+</div>
+</div></header><aside class="leftside"><input id="accordion-1" name="accordion-menu" type="checkbox"><label for="accordion-1" dir="auto">Contenido</label><div id="Contents" class="contents-treeview"></div></aside><div id="SearchFrame"><div id="Bookmarks">
+<input id="search-bar" type="search" class="search" placeholder="Buscar en los marcadores del módulo elegido" dir="auto"><div class="nav-container" tabindex="0"><nav class="index" dir="auto"></nav></div>
+</div></div>
+<div id="DisplayArea" itemprop="softwareHelp" itemscope="true" itemtype="http://schema.org/SoftwareApplication">
+<noscript><div id="WarnJS"><h1 dir="auto">Active JavaScript en el navegador para mostrar las páginas de ayuda de LibreOffice.</h1></div></noscript>
+<div class="xapian-omega-search"><form name="P" method="get" action="/26.8/es/search" target="_top">
+<input id="omega-autofocus" type="search" name="P" placeholder="Buscar en todas las páginas de la Ayuda" dir="auto"><input type="submit" class="xapian-omega-search-button" value="🔍">
+</form></div>
+<meta itemprop="applicationCategory" content="BusinessApplication">
+<meta itemprop="applicationSuite" content="LibreOffice">
+<meta itemprop="name" content="LibreOffice">
+<meta itemprop="operatingsystem" content="Windows, Linux, MacOS">
+<meta itemprop="author.name" content="The LibreOffice Documentation Team">
+<meta itemprop="publisher.name" content="The Document Foundation">
+<meta itemprop="softwareVersion" content="26.8">
+<meta itemprop="inLanguage" content="es">
+<meta itemprop="datePublished" content="2020">
+<meta itemprop="headline" content="Funciones lógicas">
+<meta itemprop="license" content="https://www.libreoffice.org/download/license/">
+<meta itemprop="image" content="media/navigation/libo-symbol-white.svg">
+   <a id="bm_id3153484"></a><meta itemprop="keywords" content="funciones lógicas">
+<meta itemprop="keywords" content="Asistente para funciones,lógicas">
+<meta itemprop="keywords" content="funciones,funciones lógicas">
+   <h1 id="hd_id3153484" dir="auto">Funciones lógicas</h1>
+   <p id="par_id3149312" class="paragraph" dir="auto"><a id="logicaltext"></a>Esta categoría contiene las funciones <span class="emph">lógicas</span>.</p>
+   <h3 id="hd_id631520887352751" dir="auto">Tratamiento de argumentos no lógicos en funciones lógicas</h3>
+   <ul itemprop="Unordered" itemscope="true" itemtype="http://schema.org/ItemList" dir="auto">
+      <li itemprop="itemListElement" itemscope="true" itemtype="http://schema.org/ItemListUnordered" dir="auto">
+         <p id="par_id431520887384579" class="listitem" dir="auto">Cero (0) equivale a FALSO y el resto de los números equivalen a VERDADERO.</p>
+      </li>
+      <li itemprop="itemListElement" itemscope="true" itemtype="http://schema.org/ItemListUnordered" dir="auto">
+         <p id="par_id881520887475288" class="listitem" dir="auto">Se pasan por alto las celdas vacías y el texto de las celdas.</p>
+      </li>
+      <li itemprop="itemListElement" itemscope="true" itemtype="http://schema.org/ItemListUnordered" dir="auto">
+         <p id="par_id461520887504085" class="listitem" dir="auto">Si se ignoran todos los argumentos, se emite un error #VALOR.</p>
+      </li>
+      <li itemprop="itemListElement" itemscope="true" itemtype="http://schema.org/ItemListUnordered" dir="auto">
+         <p id="par_id591520888006686" class="listitem" dir="auto">Si un argumento es texto directo (en contraposición a texto en una celda), se emite un error #VALOR.</p>
+      </li>
+      <li itemprop="itemListElement" itemscope="true" itemtype="http://schema.org/ItemListUnordered" dir="auto">
+         <p id="par_id321520889630477" class="listitem" dir="auto">Los errores como argumentos producen un error.</p>
+      </li>
+   </ul>
+   <a id="howtoget"></a><div class="howtoget">
+<div><p class="howtogetheader" dir="auto"><a id="wie"></a>Para acceder a esta orden…</p></div>
+<div class="howtogetbody">
+      <div class="embedded"><p class="embedded" dir="auto"><span class="emph">Insertar ▸ Función ▸</span> categoría <span class="emph">Lógica</span></p></div>
+   </div>
+</div>
+<br>
+   
+
+      <a id="Section10"></a>
+         <div class="embedded">
+<a id="isna"></a>
+
+
+
+<h3 id="hd_id3153685" dir="auto">ESNOD</h3>
+<p id="par_id3149105" class="paragraph" dir="auto"><span class="avis">Devuelve VERDADERO si una celda contiene el valor de error #N/D (valor no disponible).</span></p>
+<p id="par_id6018860" class="paragraph" dir="auto">Si un error ocurre, la función devuelve FALSO.</p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id3153748" class="code" dir="auto">ESNOD(Valor)</p>
+<p id="par_id3152884" class="paragraph" dir="auto"><span class="emph">Valor</span> es el valor o una expresión que debe comprobarse.</p>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id3154852" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=ESNOD(D3)</span> devuelve FALSO como resultado.</p>
+</div>
+      
+
+      <a id="Section9"></a>
+         <div class="embedded">
+<a id="iferror"></a>
+
+
+<h3 id="hd_id31470811" dir="auto">SI.ERROR</h3>
+<p id="par_id31563161" class="paragraph" dir="auto"><span class="avis">Devuelve el valor si la celda no contiene un valor de error, o el valor alternativo si lo contiene.</span></p>
+<div class="embedded">
+<a id="4.0"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.0 de LibreOffice.</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id31531551" class="code" dir="auto">SI.ERROR(Valor; Valor_alternativo)</p>
+<p id="par_id31540471" class="paragraph" dir="auto"><span class="emph">Valor</span> es el valor o expresión que se devolverá si no es equivalente o si produce un error.</p>
+<p id="par_id31540472" class="paragraph" dir="auto"><span class="emph">Valor_alternativo</span> es el valor o expresión que se devolverá si la expresión o valor de <span class="emph">Valor</span> no es equivalente o si produce un error.</p>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id31502561" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=SI.ERROR(C8;C9)</span>, donde la celda C8 contiene <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=1/0</span>, devolverá el valor de C9 porque «1/0» es un error.</p>
+<p id="par_id18890951" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=SI.ERROR(C8;C9)</span> donde la celda C8 contiene <span class="input">13</span> devolverá 13 —el valor de C8—, que no es un error.</p>
+</div>
+      
+
+      <a id="Section8"></a>
+         <div class="embedded">
+<a id="ifsfunction01"></a>
+        
+        
+        <h2 id="hd_id271556234923654" dir="auto"><a target="_top" href="es/text/scalc/01/func_ifs.html">SI.CONJUNTO</a></h2>
+        <p id="par_id171556234923655" class="paragraph" dir="auto"><a id="variable name"></a><span class="avis">SI.CONJUNTO es una función SI múltiple.</span></p>
+    </div>
+      
+
+      <a id="Section7"></a>
+         <div class="embedded">
+<a id="switch01"></a>
+        
+        
+        <h2 id="hd_id21556242313791" dir="auto"><a target="_top" href="es/text/scalc/01/func_switch.html">CAMBIAR</a></h2>
+        <p id="par_id361556242313793" class="paragraph" dir="auto"><a id="functionswitch"></a><span class="avis"> CAMBIAR Compara<span class="emph">expresión</span>con<span class="emph">valor</span>Para<span class="emph">valor</span>y devuelve el resultado que pertenece al primer valor que es igual a la expresión. Si no hay coincidencia y se da default_result, se devolverá</span></p>
+    </div>
+      
+
+      
+      
+      
+      
+      
+      
+      
+   <a id="Section5"></a>
+         <a id="bm_id3149015"></a><meta itemprop="keywords" content="FALSO">
+         <a id="bm_id3154678"></a>
+         <h2 id="hd_id3149015" dir="auto">FALSO</h2>
+         <p id="par_id3149890" class="paragraph" dir="auto"><span class="avis">Devuelve el valor lógico FALSO.</span> La función FALSO() no requiere ningún argumento, y siempre devuelve el valor lógico FALSO.</p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id3150030" class="code" dir="auto">FALSO()</p>
+         <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id3154842" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=FALSO()</span> devuelve FALSO</p>
+         <p id="par_id3147468" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=NO(FALSO())</span> devuelve VERDADERO</p>
+      <a id="Section3"></a>
+         <a id="bm_id3155954"></a><meta itemprop="keywords" content="NO">
+         <a id="bm_id3145168"></a>
+         <h2 id="hd_id3155954" dir="auto">NO</h2>
+         <p id="par_id3153570" class="paragraph" dir="auto"><span class="avis">Complementa (invierte) un valor lógico.</span></p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id3157996" class="code" dir="auto">NO(ValorLógico)</p>
+         <p id="par_id3148766" class="paragraph" dir="auto">            <span class="emph">ValorLógico</span> es cualquier valor que se deba complementar.</p>
+         <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id3150132" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=NO(A)</span>. Si A=VERDADERO, entonces NO(A) calculará FALSO.</p>
+      <a id="Section2"></a>
+         <a id="bm_id3148394"></a><meta itemprop="keywords" content="O">
+         <a id="bm_id3155620"></a>
+         <h2 id="hd_id3148394" dir="auto">O</h2>
+         <p id="par_id3156060" class="paragraph" dir="auto"><span class="avis">Devuelve VERDADERO si al menos uno de los argumentos es VERDADERO.</span> Esta función devuelve el valor FALSO si todos los argumentos tienen el valor lógico FALSO.</p>
+         <p id="par_id3148771" class="paragraph" dir="auto">Los argumentos son expresiones lógicas (VERDADERO, 1&lt;5, 2+3=7, B8&lt;10) que devuelven valores lógicos, o matrices (A1:C3) que contienen valores lógicos.</p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id3150468" class="code" dir="auto">O(Lógica 1 [; Lógica 2 [; ... [; Lógica 255]])</p>
+         <div class="embedded">
+<a id="logical255"></a>
+        <p id="par_id931584395957010" class="paragraph" dir="auto"><span class="emph">Logical 1; Logical 2;  … ; Logical 255</span> are boolean values, references to cells or to cell ranges of logical values.</p>
+    </div>
+         <div class="embedded">
+<a id="datenumbersequencenote"></a>
+        <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de <a target="_top" href="es/text/scalc/01/03080000.html">resalte de valores</a>.</p></div>
+</div>
+<br>
+    </div>
+         <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id3154870" class="paragraph" dir="auto">Se deben comprobar los valores lógicos de las entradas 12&lt;11; 13&gt;22 y 45=45.</p>
+         <p id="par_id3155371" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=O(12&lt;11;13&gt;22;45=45)</span> devuelve VERDADERO.</p>
+         <p id="par_id3158412" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=O(FALSO();VERDADERO())</span> devuelve VERDADEIRO.</p>
+         <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">La <a target="_top" href="es/text/scalc/01/04060107.html">fórmula matricial</a> {=O(B1:B10;C1:C10)} devuelve un valor unidimensional FALSO cuando todos los componentes de B1:B10 y C1:C10 son FALSO. La expresión matricial anterior no produce el O lógico por elemento y, por lo tanto, no produce una matriz de valores lógicos. Para calcular un O lógico de matrices por elemento, utilice el operador + en contexto de matriz. En el ejemplo, introduzca {=B1:B10+C1:C10}.</p></div>
+</div>
+<br>
+      <a id="Section4"></a>
+         <a id="bm_id3150141"></a><meta itemprop="keywords" content="SI">
+         <a id="bm_id3152789"></a>
+         <h2 id="hd_id3150141" dir="auto">SI</h2>
+         <p id="par_id3148740" class="paragraph" dir="auto"><span class="avis">Especifica una prueba lógica que debe llevarse a cabo.</span></p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id3154558" class="code" dir="auto">SI(Prueba[; [ValorSiVerdadero] [; [SiNoValor]]])</p>
+         <p id="par_id3149727" class="paragraph" dir="auto">            <span class="emph">Prueba</span> es cualquier valor o expresión que pueda ser VERDADERO o FALSO.</p>
+         <p id="par_id3155828" class="paragraph" dir="auto">            <span class="emph">ValorSiVerdadero</span> (opcional) es el valor que se devuelve si la prueba lógica da como resultado VERDADERO.</p>
+         <p id="par_id3154811" class="paragraph" dir="auto">            <span class="emph">SiNoValor</span> (opcional) es el valor que se devuelve si la prueba lógica es FALSO.</p>
+         <p id="par_idN107FA" class="paragraph" dir="auto">En las funciones de LibreOffice Calc, los parámetros marcados como «opcionales» pueden omitirse siempre y cuando no haya ningún parámetro inmediatamente después. Por ejemplo, en una función de cuatro parámetros cuyos dos últimos están marcados como «opcionales», puede omitirse el parámetro 4 o los parámetros 3 y 4; sin embargo, no se puede omitir solamente el parámetro 3.</p>
+         <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id3150867" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=SI(A1&gt;5;100;"demasiado pequeño")</span> Si el valor en <span class="literal">A1</span> es mayor que <span class="literal">5</span>, devuelve <span class="literal">100</span>; de lo contrario, devuelve el texto <span class="literal">demasiado pequeño</span>.</p>
+         <p id="par_id71607569817532" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=SI(A1&gt;5;;"demasiado pequeño")</span> Si el valor en <span class="literal">A1</span> es mayor que <span class="literal">5</span>, devuelve <span class="literal">0 </span> porque los parámetros vacíos se consideran <span class="literal">0</span>; de lo contrario, devuelve el texto <span class="literal">demasiado pequeño</span>.</p>
+         <p id="par_id11607570458867" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=SI(A1&gt;5;100;)</span> Si el valor en <span class="literal">A1</span> es menor que <span class="literal">5</span>, devuelver <span class="literal">0</span> porque <span class="emph">SiNoValor</span> vacío se interpreta como <span class="literal">0</span>; de lo contrario, devuelve <span class="literal">100</span>.</p>
+      <a id="Section1"></a>
+         <a id="bm_id3156256"></a><meta itemprop="keywords" content="VERDADERO">
+         <a id="bm_id3148426"></a>
+         <h2 id="hd_id3156256" dir="auto">VERDADERO</h2>
+         <p id="par_id3155985" class="paragraph" dir="auto"><span class="avis">El valor lógico se configura como VERDADERO.</span> La función VERDADERO() no requiere ningún argumento, y siempre devuelve el valor lógico VERDADERO.</p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id3152590" class="code" dir="auto">VERDADERO()</p>
+         <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id3146148" class="paragraph" dir="auto">Si A=VERDADERO y B=FALSO, aparecerán los ejemplos siguientes:</p>
+         <p id="par_id3083285" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=Y(A;B)</span> devuelve FALSO</p>
+         <p id="par_id3083444" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=O(A;B)</span> devuelve VERDADERO</p>
+         <p id="par_id3154314" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=NO(Y(A;B))</span> devuelve VERDADERO.</p>
+      <a id="Section0"></a>
+         <a id="bm_id3156257"></a><meta itemprop="keywords" content="función XOR">
+         <a id="bm_id3148427"></a>
+         <h2 id="hd_id3156257" dir="auto">XOR</h2>
+         <p id="par_id3155987" class="paragraph" dir="auto"><span class="avis">Devuelve VERDADERO si un número impar de argumentos se valora como VERDADERO.</span></p>
+         <p id="par_id3148772" class="paragraph" dir="auto">Los argumentos pueden ser expresiones lógicas (VERDADERO, 1&lt;5, 2+3=7, B8&lt;10) que devuelven valores lógicos, o intervalos de celdas (A1:C3) que contienen valores lógicos.</p>
+         <div class="embedded">
+<a id="4.0"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.0 de LibreOffice.</p></div>
+</div>
+<br>
+    </div>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id3150469" class="code" dir="auto">XOR(Lógica 1 [; Lógica 2 [; ... [; Lógica 255]])</p>
+         <div class="embedded">
+<a id="logical255"></a>
+        <p id="par_id931584395957010" class="paragraph" dir="auto"><span class="emph">Logical 1; Logical 2;  … ; Logical 255</span> are boolean values, references to cells or to cell ranges of logical values.</p>
+    </div>
+         <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id3083286" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=XOR(VERDADERO();VERDADERO())</span> devuelve FALSO</p>
+         <p id="par_id3083445" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles"> = XOR (VERDADERO(); VERDADERO(); VERDADERO()) </span> devuelve VERDADERO</p>
+         <p id="par_id3154315" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">= XOR(FALSO();VERDADERO()</span> devuelve VERDADERO</p>
+      <a id="Section6"></a>
+         <a id="bm_id3147505"></a><meta itemprop="keywords" content="Y">
+         <a id="bm_id3145320"></a>
+         <h2 id="hd_id3147505" dir="auto">Y</h2>
+         <p id="par_id3153959" class="paragraph" dir="auto"><span class="avis">Devuelve VERDADERO si todos los argumentos son VERDADEROS.</span> Si uno de los elementos es FALSO, esta función devuelve el valor FALSO.</p>
+         <p id="par_id3146100" class="paragraph" dir="auto">Los argumentos son expresiones lógicas (VERDADERO, 1&lt;5, 2+3=7, B8&lt;10) que devuelven valores lógicos, o matrices (A1:C3) que contienen valores lógicos.</p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id3159123" class="code" dir="auto">Y(Lógica 1 [; Lógica 2 [; ... [; Lógica 255]])</p>
+         <div class="embedded">
+<a id="logical255"></a>
+        <p id="par_id931584395957010" class="paragraph" dir="auto"><span class="emph">Logical 1; Logical 2;  … ; Logical 255</span> are boolean values, references to cells or to cell ranges of logical values.</p>
+    </div>
+         <div class="embedded">
+<a id="datenumbersequencenote"></a>
+        <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de <a target="_top" href="es/text/scalc/01/03080000.html">resalte de valores</a>.</p></div>
+</div>
+<br>
+    </div>
+         <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id3153123" class="paragraph" dir="auto">Se deben comprobar los valores lógicos de las entradas 12&lt;13; 14&gt;12 y 7&lt;6:</p>
+         <p id="par_id3145632" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=Y(12&lt;13;14&gt;12;7&lt;6)</span> devuelve FALSO.</p>
+         <p id="par_id3149946" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=Y (FALSO();VERDADERO())</span> devuelve FALSO.</p>
+         <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">La <a target="_top" href="es/text/scalc/01/04060107.html">fórmula matricial</a> {=Y(B1:B10;C1:C10)} produce un valor unidimensional de VERDADERO cuando todos los componentes de B1:B10 y C1:C10 son VERDADEROS. La expresión matricial anterior no produce el Y lógico por elemento y, por lo tanto, no produce una matriz de valores lógicos. Para calcular un Y lógico de matrices por elemento, utilice el operador * en el contexto de la matriz. En el ejemplo, ingrese {=B1:B10*C1:C10}.</p></div>
+</div>
+<br>
+      
+   <a id="relatedtopics"></a><div class="relatedtopics">
+<p class="related" itemprop="mentions" dir="auto"><a id="related"></a><span class="emph">Temas relacionados</span></p>
+<div class="relatedbody" itemprop="mentions">
+      <div class="embedded"><p class="embedded" dir="auto"><a target="_top" href="es/text/scalc/01/04060100.html">Funciones por categoría</a></p></div>
+   </div>
+</div>
+</div>
+<div id="DonationFrame"><a href="https://www.libreoffice.org/donate/?pk_campaign=help" target="_blank"><div class="icontable donation">
+<div class="iconcell"><img class="iconimage" src="media/helpimg/donate.png" alt="¡Necesitamos su ayuda!" style="width:40px;height:40px;"></div>
+<div class="iconcell"><p dir="auto">¡Necesitamos su ayuda!</p></div>
+</div></a></div>
+<footer><h2 style="text-align: center;"><a href="https://books.libreoffice.org" target="_blank">Guías de LibreOffice</a></h2>
+<div class="noteicon" dir="auto" style="display:flex;justify-content:center;flex-wrap:wrap;row-gap:15px;">
+<img src="media/navigation/libo-writer.svg" alt="Writer Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-calc.svg" alt="Calc Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-impress.svg" alt="Impress Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-draw.svg" alt="Draw Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-base.svg" alt="Base Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-math.svg" alt="Math Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-symbol-black.svg" alt="Getting Started Icon" style="width:60px;height:60px;">
+</div>
+<p itemscope="true" itemtype="http://schema.org/Organization" dir="auto"><meta itemprop="name" content="The Document Foundation"><meta itemprop="legalName" content="The Document Foundation"><meta itemprop="alternateName" content="TDF"><meta itemprop="publishingPrinciples" content="https://www.libreoffice.org/imprint"><a href="https://www.libreoffice.org/imprint" target="_blank">Impressum (Legal Info)</a> | <a href="https://www.libreoffice.org/privacy" target="_blank">Privacy Policy</a> | <a href="https://www.documentfoundation.org/statutes.pdf" target="_blank">Statutes (non-binding English translation)</a> - <a href="https://www.documentfoundation.org/satzung.pdf" target="_blank">Satzung (binding German version)</a> | Copyright information: Unless otherwise specified, all text and images on this website are licensed under the <a href="https://www.libreoffice.org/download/license/" target="_blank">Mozilla Public License v2.0</a>. “LibreOffice” and “The Document Foundation” are registered trademarks of their corresponding registered owners or are in actual use as trademarks in one or more countries. Their respective logos and icons are also subject to international copyright laws. Use thereof is explained in our <a href="https://wiki.documentfoundation.org/TradeMark_Policy" target="_blank">trademark policy</a>. LibreOffice was based on OpenOffice.org.</p>
+<div id="DEBUG" class="debug">
+<h3 class="bug">Help content debug info:</h3>
+<p dir="auto">This page is: <a href="https://opengrok.libreoffice.org/xref/help/source/text/scalc/01/04060105.xhp" target="_blank">/text/scalc/01/04060105.xhp</a></p>
+<p dir="auto">Title is: Funciones lógicas</p>
+<p id="bm_module" dir="auto"></p>
+<p id="bm_system" dir="auto"></p>
+<p id="bm_HID" dir="auto"></p>
+</div></footer>
+</body>
+</html>

@@ -1,0 +1,697 @@
+Funciones estadísticas, quinta parte
+Ayuda de LibreOffice 26.8
+Módulo
+Idioma
+Contenido
+Active JavaScript en el navegador para mostrar las páginas de ayuda de LibreOffice.
+Funciones estadísticas, quinta parte
+COEFICIENTE.ASIMETRIA.P
+Devuelve la asimetría de una distribución utilizando la población de una variable aleatoria.
+Esta función está disponible a partir de la versión 4.1 de LibreOffice.
+Sintaxis
+COEFICIENTE.ASIMETRIA.P(Argument 1 [; Argument 2 [; …  [; Argument 255]]])
+Argument 1; Argument 2; … ; Argument 255
+are numbers, text, references to cells or to cell ranges of numbers or text.
+Los parámetros deben especificar por lo menos tres valores.
+Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de
+resalte de valores
+.
+Ejemplos
+COEFICIENTE.ASIMETRIA.P
+devuelve 0.2329985562
+COEFICIENTE.ASIMETRIA.P(A1:A6)
+devuelve0.2329985562,cuando el rango A1:A6 contiene {2;3;1;6;8;5}
+COEFICIENTE.ASIMETRIA
+Devuelve el sesgo de una distribución.
+Sintaxis
+COEFICIENTE.ASIMETRIA(Argument 1 [; Argument 2 [; …  [; Argument 255]]])
+Argument 1; Argument 2; … ; Argument 255
+are numbers, text, references to cells or to cell ranges of numbers or text.
+Los parámetros deben especificar por lo menos tres valores.
+Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de
+resalte de valores
+.
+Ejemplo
+=COEFICIENTE.ASIMETRIA(A1:A50)
+calcula el valor del coeficiente de asimetría de los datos referenciados.
+DESVEST
+Estima la desviación típica a partir de una muestra.
+Sintaxis
+DESVEST(Argument 1 [; Argument 2 [; …  [; Argument 255]]])
+Argument 1; Argument 2; … ; Argument 255
+are numbers, text, references to cells or to cell ranges of numbers or text.
+Los parámetros deben especificar por lo menos dos valores.
+Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de
+resalte de valores
+.
+Ejemplo
+=DESVEST(A1:A50)
+devuelve la desviación típica estimada con base en los datos referenciados.
+DESVEST.M
+Calcula la desviación típica a partir de una muestra de la población.
+Sintaxis
+DESVEST.M(Argument 1 [; Argument 2 [; …  [; Argument 255]]])
+Argument 1; Argument 2; … ; Argument 255
+are numbers, text, references to cells or to cell ranges of numbers or text.
+Los parámetros deben especificar por lo menos dos valores.
+Ejemplo
+=DESVEST.M(A1:A50)
+devuelve la desviación típica de los datos referenciados.
+Información técnica
+Esta función está disponible a partir de la versión 4.2 de LibreOffice.
+This function is
+NOT
+part of the
+Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format
+standard. The name space is
+COM.MICROSOFT.STDEV.S
+DESVEST.P
+Calcula la desviación típica a partir de la población total.
+Sintaxis
+DESVEST.P(Argument 1 [; Argument 2 [; …  [; Argument 255]]])
+Argument 1; Argument 2; … ; Argument 255
+are numbers, text, references to cells or to cell ranges of numbers or text.
+Ejemplo
+=DESVEST.P(A1:A50)
+calcula la desviación estándar de los datos referenciados.
+Información técnica
+Esta función está disponible a partir de la versión 4.2 de LibreOffice.
+This function is
+NOT
+part of the
+Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format
+standard. The name space is
+COM.MICROSOFT.STDEV.P
+DESVESTA
+Calcula la desviación típica de una estimación a partir de una muestra.
+Sintaxis
+DESVESTA(Argument 1 [; Argument 2 [; …  [; Argument 255]]])
+Argument 1; Argument 2; … ; Argument 255
+are numbers, text, references to cells or to cell ranges of numbers or text.
+Los parámetros deben especificar por lo menos dos valores. El texto tiene valor 0.
+Ejemplo
+=DESVESTA(A1:A50)
+calcula la desviación estándar estimada basada en los datos referenciados.
+DESVESTP
+Calcula la desviación típica a partir de la población total.
+Sintaxis
+DESVESTP(Argument 1 [; Argument 2 [; …  [; Argument 255]]])
+Argument 1; Argument 2; … ; Argument 255
+are numbers, text, references to cells or to cell ranges of numbers or text.
+Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de
+resalte de valores
+.
+Ejemplo
+=DESVESTP(A1:A50)
+calcula la desviación típica de los datos referenciados.
+DESVESTPA
+Calcula la desviación típica a partir de la población total.
+Sintaxis
+DESVESTPA(Argument 1 [; Argument 2 [; …  [; Argument 255]]])
+Argument 1; Argument 2; … ; Argument 255
+are numbers, text, references to cells or to cell ranges of numbers or text.
+El texto tiene un valor de 0.
+Ejemplo
+=DESVESTPA(A1:A50)
+calcula la desviación estándar de los datos referenciados.
+DESVIA2
+Efectúa la suma de las desviaciones cuadradas de datos a partir del valor medio de la muestra.
+Sintaxis
+DESVIA2(Argument 1 [; Argument 2 [; …  [; Argument 255]]])
+Argument 1; Argument 2; … ; Argument 255
+are numbers, text, references to cells or to cell ranges of numbers or text.
+Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de
+resalte de valores
+.
+Ejemplo
+=DESVIA2(A1:A50)
+DIST.WEIBULL
+Calcula los valores de distribución de Weibull.
+Weibull es una distribución de probabilidad continua con parámetros Alfa > 0 (forma) y Beta > 0 (escala).
+Si C es 0, DIST.WEIBULL calcula la función de densidad de probabilidad.
+Si C es 1, DIST.WEIBULL calcula la función de distribución acumulada.
+Sintaxis
+DIST.WEIBULL(Número; Alfa; Beta; C)
+Número
+es el valor en el que calcular la distribución Weibull.
+Alfa
+es el parámetro de forma de la distribución Weibull.
+Beta
+es el parámetro de escala de la distribución Weibull.
+C
+indica el tipo de función.
+Ejemplo
+=DIST.WEIBULL(2;1;1;1)
+devuelve 0,86.
+Consulte también la
+página del wiki
+.
+DISTR.NORM.ESTAND
+Calcula la función de distribución normal predeterminada acumulativa. La distribución tiene una media de cero y una desviación estándar de uno.
+Es GAUSS(x)=NORMSDIST(x)-0.5
+Sintaxis
+DISTR.NORM.ESTAND(z)
+Número
+es el valor sobre el cual se calcula la distribución acumulativa normal estándar.
+Ejemplo
+=DISTR.NORM.ESTAND(1)
+devuelve 0,84. El área por debajo de la curva de distribución normal estándar a la izquierda del valor X 1 es el 84 % del área total.
+DISTR.NORM.ESTAND.INV
+Devuelve el inverso de la distribución normal predeterminada acumulativa.
+Sintaxis
+DISTR.NORM.ESTAND.INV(Número)
+Número
+es la probabilidad para la que se calcula la distribución normal estándar inversa.
+Ejemplo
+=DISTR.NORM.ESTAND.INV(0,908789)
+devuelve 1,3333.
+DISTR.NORM.ESTAND.N
+Calcula la función de distribución normal predeterminada acumulativa. La distribución tiene una media de cero y una desviación estándar de uno.
+Sintaxis
+DISTR.NORM.ESTAND.N(Número; Acumulado)
+Número
+es el valor sobre el cual se calcula la distribución acumulativa normal estándar.
+Acumulado
+0 o Falso calcula la función de densidad de probabilidad. Otros valores o Verdadero calcula la función de distribución acumulativa.
+Ejemplo
+=DISTR.NORM.ESTAND.N(1;0)
+devuelve 0.2419707245.
+=DISTR.NORM.ESTAND.N(1)
+devuelve 0,8413447461. El área por debajo de la curva de distribución normal estándar a la izquierda del valor X 1 es el 84 % del área total.
+Información técnica
+Esta función está disponible a partir de la versión 4.3 de LibreOffice
+This function is
+NOT
+part of the
+Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format
+standard. The name space is
+COM.MICROSOFT.NORM.S.DIST
+DISTR.T
+Devuelve la distribución t.
+Sintaxis
+DISTR.T(Número; GradosdeLibertad; Modo)
+Número
+es el valor para el cual se calcula la distribución t.
+GradosdeLibertad
+es el número de grados de libertad de la distribución t.
+Modo
+= 1 devuelve la prueba unilateral,
+Modo
+= 2 devuelve la prueba bilateral.
+En el caso de los argumentos de tipo entero, los valores que no sean enteros se truncan al entero.
+Ejemplo
+=DISTR.T(12;5;1)
+DISTR.T.2C
+Calcula la distribución t bilateral de Student, utilizada frecuentemente para probar hipótesis en conjuntos de datos pequeños.
+Sintaxis
+DISTR.T.2C(Número; GradosdeLibertad)
+Número
+es el valor para el cual se calculará la distribución t.
+GradosdeLibertad
+es el número de grados de libertad de la distribución t.
+Ejemplo
+=DISTR.T.2C(1; 10)
+returns 0.3408931323.
+Información técnica
+Esta función está disponible a partir de la versión 4.3 de LibreOffice
+This function is
+NOT
+part of the
+Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format
+standard. The name space is
+COM.MICROSOFT.T.DIST.2T
+DISTR.T.CD
+Calcula la distribución t de Student de lateral derecha, que es una distribución de probabilidad continua utilizada frecuentemente para probar hipótesis en conjuntos de datos pequeños.
+Sintaxis
+DISTR.T.CD(Número; GradosdeLibertad)
+Número
+es el valor para el cual se calcula la distribución t.
+GradosdeLibertad
+es el número de grados de libertad de la distribución t.
+Ejemplo
+=DISTR.T.CD(1; 10)
+devuelve 0.1704465662.
+Información técnica
+Esta función está disponible a partir de la versión 4.3 de LibreOffice
+This function is
+NOT
+part of the
+Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format
+standard. The name space is
+COM.MICROSOFT.T.DIST.RT
+DISTR.T.INV
+Calcula el inverso de la distribución t.
+Sintaxis
+DISTR.T.INV(Número; GradosdeLibertad)
+Número
+es la probabilidad asociada con la distribución t bilateral.
+GradosdeLibertad
+es el número de grados de libertad de la distribución t.
+En el caso de los argumentos de tipo entero, los valores que no sean enteros se truncan al entero.
+Ejemplo
+=DISTR.T.INV(0,1;6)
+devuelve 1,94.
+DISTR.T.N
+Devuelve la distribución t.
+Sintaxis
+DISTR.T(Número; GradosdeLibertad; Acumulativa)
+Número
+es el valor para el cual se calcula la distribución t.
+GradosDeLibertad
+es el número de grados de libertad de la distribución t.
+Acumulativa
+0 o Falso devuelve la función de densidad de probabilidad. 1 o Verdadero devuelve la función de distribución acumulativa.
+Ejemplo
+=DISTR.T.N(1; 10; TRUE)
+returns 0.8295534338
+Información técnica
+Esta función está disponible a partir de la versión 4.3 de LibreOffice
+This function is
+NOT
+part of the
+Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format
+standard. The name space is
+COM.MICROSOFT.T.DIST
+DISTR.WEIBULL
+Devuelve los valores de la distribución Weibull.
+La distribución Weibull es una distribución de probabilidad continua con parámetros Alfa > 0 (forma) y Beta > 0 (escala).
+Si C es 0, WEIBULL.DIST calcula la función de densidad de probabilidad.
+Si C es 1, WEIBULL.DIST calcula la función de distribución acumulativa.
+Sintaxis
+WEIBULL.DIST(x; Alfa ; Beta ; C)
+Número
+es el valor por el que se calculará la distribución Weibull.
+Alfa
+es el parámetro de forma de la distribución Weibull.
+Beta
+es el parámetro de escala de la distribución Weibull.
+C
+indica el tipo de función.
+Ejemplo
+=WEIBULL.DIST(2;1;1;1)
+devuelve 0.8646647168.
+Información técnica
+Esta función está disponible a partir de la versión 4.2 de LibreOffice.
+Consulte también la
+página del wiki
+.
+This function is
+NOT
+part of the
+Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format
+standard. The name space is
+COM.MICROSOFT.WEIBULL.DIST
+ERROR.TIPICO.XY
+Calcula el error típico de los valores Y calculados para todos los valores X de la regresión.
+Sintaxis
+ERROR.TIPICO.XY(DatosY; DatosX)
+DatosY
+es una matriz o tabla de datos Y.
+DatosX
+es una matriz o tabla de datos X.
+Ejemplo
+=ERROR.TIPICO.XY(A1:A50;B1:B50)
+INV.NORM.ESTAND
+Calcula la inversa de la distribución normal acumulativa estándar.
+Sintaxis
+INV.NORM.ESTAND(Número)
+Número
+es la probabilidad para la que se calculará la distribución normal estándar inversa.
+Ejemplo
+=INV.NORM.ESTAND(0,908789)
+devuelve 1.333334673.
+Información técnica
+Esta función está disponible a partir de la versión 4.3 de LibreOffice
+This function is
+NOT
+part of the
+Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format
+standard. The name space is
+COM.MICROSOFT.NORM.S.INV
+INV.T
+Devuelve la inversa de la distribución t unilateral.
+Sintaxis
+INV.T(Número; GradosdeLibertad)
+Número
+es la probabilidad asociada con la distribución t unilateral.
+GradosdeLibertad
+es el número de grados de libertad de la distribución t.
+Ejemplo
+=INV.T(0,1;6)
+devuelve -1.4397557473.
+Información técnica
+Esta función está disponible a partir de la versión 4.3 de LibreOffice
+This function is
+NOT
+part of the
+Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format
+standard. The name space is
+COM.MICROSOFT.T.INV
+INV.T.2C
+Calcula la inversa de la distribución t bilateral de Student, utilizada frecuentemente para probar hipótesis en conjuntos de datos pequeños.
+Sintaxis
+INV.T.2C(Número; GradosdeLibertad)
+Número
+es la probabilidad asociada con la distribución t bilateral.
+GradosdeLibertad
+es el número de grados de libertad de la distribución t.
+Ejemplo
+INV.T.2C(0,25;10)
+devuelve 1.221255395.
+Información técnica
+Esta función está disponible a partir de la versión 4.3 de LibreOffice
+This function is
+NOT
+part of the
+Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format
+standard. The name space is
+COM.MICROSOFT.T.INV.2T
+JERARQUIA
+Devuelve la jerarquía de un número en una muestra.
+Sintaxis
+POSICIÓN(Valor; Datos [; Tipo])
+Valor
+es el valor cuya jerarquía se ha de determinar.
+Datos
+es la matriz o el intervalo de datos de la muestra.
+Tipo
+(opcional) es el orden de la secuencia.
+Tipo = 0 significa descender del último elemento de la matriz al primero (predeterminado),
+Tipo = 1 significa ascender del primer elemento del intervalo hasta el último.
+Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de
+resalte de valores
+.
+Ejemplo
+=JERARQUIA(A10;A1:A50)
+devuelve la jerarquía del valor en A10 en el intervalo de valores A1:A50. Si
+Valor
+no existe en el intervalo, se mostrará un mensaje de error.
+JERARQUIA.EQV
+Devuelve la jerarquía estadística de un valor dado dentro de una matriz.
+Si hay valores duplicados en la matriz a estos se les da la misma jerarquía.
+La diferencia entre
+JERARQUIA.MEDIA
+y
+JERARQUIA.EQV
+se manifiesta cuando hay duplicados en la lista de valores. La función
+JERARQUIA.EQV
+devuelve la jerarquía inferior, mientras que
+JERARQUIA.MEDIA
+devuelve la jerarquía promedio.
+Sintaxis
+POSICIÓN.EQ(Valor; Datos [; Tipo])
+Valor
+es el valor, cuya jerarquía debe determinarse.
+Datos
+es la matriz o el intervalo de datos de la muestra.
+Tipo
+(opcional) es el orden de la secuencia.
+Tipo = 0 significa descender desde el último elemento de la matriz hasta el primero (es lo predeterminado)
+Tipo = 1 significa ascender del primer elemento del intervalo hasta el último.
+Ejemplo
+=JERARQUIA.EQV(A10;A1:A50)
+devuelve la jerarquía del valor en A10 en el intervalo de valores A1:A50. Si
+Valor
+no existe en el intervalo, se muestra un mensaje de error.
+Información técnica
+Esta función está disponible a partir de la versión 4.3 de LibreOffice
+This function is
+NOT
+part of the
+Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format
+standard. The name space is
+COM.MICROSOFT.RANK.EQ
+JERARQUIA.MEDIA
+Devuelve la jerarquía estadística de un valor dado dentro de una matriz de vlores.
+si hay valores duplicados en la lista devuelve el rango promedio.
+La diferencia entre
+JERARQUIA.MEDIA
+y
+JERARQUIA.EQV
+se manifiesta cuando hay duplicados en la lista de valores. La función
+JERARQUIA.EQV
+devuelve la jerarquía inferior, mientras que
+JERARQUIA.MEDIA
+devuelve la jerarquía promedio.
+Sintaxis
+POSICIÓN.MEDIA(Valor; Datos [; Tipo])
+Valor
+es el valor, cuya jerarquía debe determinarse.
+Datos
+es la matriz o el intervalo de datos de la muestra.
+Tipo
+(opcional) es el orden de la secuencia.
+Tipo = 0 significa descender desde el último elemento de la matriz hacia el primero (esto es lo predeterminado),
+Tipo = 1 significa ascender del primer elemento del intervalo hasta el último.
+Ejemplo
+=JERARQUIA.MEDIA(A10;A1:A50)
+devuelve la jerarquía del valor en A10 en el área de valores A1:A50. Si
+Valor
+no existe en el área, se muestra un mensaje de error.
+Información técnica
+Esta función está disponible a partir de la versión 4.3 de LibreOffice
+This function is
+NOT
+part of the
+Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format
+standard. The name space is
+COM.MICROSOFT.RANK.AVG
+NORMALIZACION
+Convierte una variable aleatoria en un valor normalizado.
+Sintaxis
+NORMALIZACION(Número; Media; Desv_estándar)
+Número
+es el valor que se normalizará.
+Media
+es el valor medio aritmético de la distribución.
+Desviación típica
+es la desviación típica de la distribución.
+Ejemplo
+=NORMALIZACION(11;10;1)
+devuelve 1. El valor 11 en una distribución normal con una media de 10 y una desviación estándar de 1 está tan por encima de la media de 10 como el valor 1 está por encima de la media de la distribución normal estándar.
+PENDIENTE
+Calcula la pendiente de la recta de regresión lineal.
+La pendiente se adapta a los puntos de datos definidos en los valores Y y en los valores X.
+Sintaxis
+PENDIENTE(DatosY; DatosX)
+DatosY
+es una matriz o tabla de datos Y.
+DatosX
+es una matriz o tabla de datos X.
+Ejemplo
+=PENDIENTE(A1:A50;B1:B50)
+PERMUTACIONES
+Devuelve el número de permutaciones para un número determinado de objetos.
+Sintaxis
+PERMUTACIONES(Contar1; Contar2)
+Contar1
+es el número total de objetos.
+Contar2
+es el número de objetos en cada permutación.
+En el caso de los argumentos de tipo entero, los valores que no sean enteros se truncan al entero.
+Ejemplo
+=PERMUTACIONES(6;3)
+devuelve 120. Hay 120 posibilidades diferentes para tomar una secuencia de 3 naipes de un total de 6.
+PERMUTACIONESA
+Devuelve el número de permutaciones para un número determinado de objetos (se permite repetir).
+Sintaxis
+PERMUTACIONESA(Contar1; Contar2)
+Contar1
+es el número total de objetos.
+Contar2
+es el número de objetos en cada permutación.
+En el caso de los argumentos de tipo entero, los valores que no sean enteros se truncan al entero.
+Ejemplo
+¿Cuántas veces se pueden extraer 2 elementos de un conjunto de 11 elementos?
+=PERMUTACIONESA(11;2)
+devuelve 121.
+=PERMUTACIONESA(6;3)
+devuelve 216. Hay 216 posibilidades para colocar una secuencia de 3 naipes juntos de un total de seis si cada uno se devuelve antes de extraer el siguiente.
+PROBABILIDAD
+Devuelve la probabilidad de que los valores estén en un intervalo entre dos límites.
+Si no hay un valor
+Fin
+, esta función calcula la probabilidad basada en el principio de que los valores de datos son iguales al valor de
+Inicio
+.
+Sintaxis
+PROBABILIDAD (Datos; Probabilidad; Inicio [; Fin])
+Datos
+es la matriz o el intervalo de datos de la muestra.
+Probabilidad
+es la matriz o el intervalo de las probabilidades correspondientes.
+Inicio
+es el valor inicial del intervalo para el que se van a sumar las probabilidades.
+Fin
+(opcional) es el valor final del intervalo para el que se van a sumar las probabilidades. Si falta este parámetro, se calcula la probabilidad del valor
+Inicio
+.
+Ejemplo
+=PROB(A1:A50;B1:B50;50;60)
+devuelve la probabilidad de que un valor dentro del área A1:A50 también se encuentre dentro de los límites entre 50 y 60. Todos los valores en el área de A1:A50 tienen una probabilidad en el área de B1:B50.
+PRONOSTICO
+Extrapola valores futuros basados en los valores de x e y existentes.
+Sintaxis
+PRONOSTICO(Valor; DatosY; DatosX)
+Valor
+es el valor x, para el que se va a devolver el valor y en la regresión lineal.
+DatosY
+es la matriz o el intervalo de los datos Y conocidos.
+DatosX
+es la matriz o el intervalo de los datos X conocidos.
+Ejemplo
+=PRONOSTICO(50;A1:A50;B1;B50)
+devuelve el valor Y esperado para el valor X de 50 si los valores X e Y en ambas referencias están asociados por una tendencia lineal.
+PRONOSTICO.LINEAL
+Extrapola valores futuros basados en los valores de x e y existentes.
+Sintaxis
+PRONOSTICO.LINEAL(Valor; DatosY; DatosX)
+Valor
+es el valor x, para el que se va a devolver el valor y en la regresión lineal.
+DatosY
+es la matriz o el intervalo de los datos Y conocidos.
+DatosX
+es la matriz o el intervalo de los datos X conocidos.
+Ejemplo
+=PRONOSTICO.LINEAL(50;A1:A50;B1;B50)
+devuelve el valor Y esperado para el valor X de 50 si los valores X e Y en ambas referencias están asociados por una tendencia lineal.
+Información técnica
+This function is
+NOT
+part of the
+Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format
+standard. The name space is
+COM.MICROSOFT.FORECAST.LINEAR
+PRUEBA.T
+Calcula la probabilidad asociada con una prueba T de estudiante.
+Sintaxis
+PRUEBA.T(Datos1; Datos2; Modo; Tipo)
+Datos1
+es la matriz dependiente o intervalo de datos del primer registro.
+Datos2
+es la matriz dependiente o intervalo de datos del segundo registro.
+Modo
+= 1 calcula la prueba unilateral,
+Modo
+= 2 calcula la prueba bilateral.
+Tipo
+es el tipo de prueba t que se va a realizar. Tipo 1 significa pareada. Tipo 2 significa dos muestras, igual varianza (homoscedástica). Tipo 3 significa dos muestras, varianza distinta (heteroscedástica).
+Ejemplo
+=PRUEBA.T(A1:A50;B1:B50;2;2)
+PRUEBA.T.N
+Devuelve la probabilidad asociada a la distribución t de Student.
+Sintaxis
+PRUEBA.T.N(Datos1; Datos2; Modo; Tipo)
+Datos1
+es la matriz o intervalo de datos dependiente del primer registro.
+Datos2
+es la matriz o intervalo de datos dependiente del segundo registro.
+Modo
+= 1 calcula la prueba unilateral,
+Modo
+= 2 calcula la prueba bilateral.
+Tipo
+es el tipo de prueba t que se va a realizar. Tipo 1 significa pareada. Tipo 2 significa dos muestras, igual varianza (homoscedástica). Tipo 3 significa dos muestras, varianza distinta (heteroscedástica).
+Ejemplo
+=PRUEBA.T.N(A1:A50;B1:B50;2;2)
+Información técnica
+Esta función está disponible a partir de la versión 4.3 de LibreOffice
+This function is
+NOT
+part of the
+Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format
+standard. The name space is
+COM.MICROSOFT.T.TEST
+VAR
+Estima la varianza a partir de una muestra.
+Sintaxis
+VAR(Argument 1 [; Argument 2 [; …  [; Argument 255]]])
+Argument 1; Argument 2; … ; Argument 255
+are numbers, text, references to cells or to cell ranges of numbers or text.
+Los parámetros deben especificar por lo menos dos valores.
+Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de
+resalte de valores
+.
+Ejemplo
+=VAR(A1:A50)
+VAR.P
+Calcula la varianza a partir de la población entera.
+Sintaxis
+VAR.P(Argument 1 [; Argument 2 [; …  [; Argument 255]]])
+Argument 1; Argument 2; … ; Argument 255
+are numbers, text, references to cells or to cell ranges of numbers or text.
+Ejemplo
+=VAR.P(A1:A50)
+Información técnica
+Esta función está disponible a partir de la versión 4.2 de LibreOffice.
+This function is
+NOT
+part of the
+Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format
+standard. The name space is
+COM.MICROSOFT.VAR.P
+VAR.S
+Estima la varianza a partir de una muestra.
+Sintaxis
+VAR.S(Argument 1 [; Argument 2 [; …  [; Argument 255]]])
+Argument 1; Argument 2; … ; Argument 255
+are numbers, text, references to cells or to cell ranges of numbers or text.
+Los parámetros deben especificar por lo menos dos valores.
+Ejemplo
+=VAR.S(A1:A50)
+Información técnica
+Esta función está disponible a partir de la versión 4.2 de LibreOffice.
+This function is
+NOT
+part of the
+Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format
+standard. The name space is
+COM.MICROSOFT.VAR.S
+VARA
+Estima una varianza a partir de una muestra. El valor del texto es 0.
+Sintaxis
+VARA(Argument 1 [; Argument 2 [; …  [; Argument 255]]])
+Argument 1; Argument 2; … ; Argument 255
+are numbers, text, references to cells or to cell ranges of numbers or text.
+Los parámetros deben especificar por lo menos dos valores.
+Ejemplo
+=VARA(A1:A50)
+VARP
+Calcula la varianza a partir de la población total.
+Sintaxis
+VARP(Argument 1 [; Argument 2 [; …  [; Argument 255]]])
+Argument 1; Argument 2; … ; Argument 255
+are numbers, text, references to cells or to cell ranges of numbers or text.
+Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de
+resalte de valores
+.
+Ejemplo
+=VARP(A1:A50)
+VARPA
+Calcula la varianza a partir de la población total. El valor del texto es 0.
+Sintaxis
+VARPA(Argument 1 [; Argument 2 [; …  [; Argument 255]]])
+Argument 1; Argument 2; … ; Argument 255
+are numbers, text, references to cells or to cell ranges of numbers or text.
+Ejemplo
+=VARPA(A1:A50)
+Temas relacionados
+Funciones por categoría
+¡Necesitamos su ayuda!
+Guías de LibreOffice
+Impressum (Legal Info)
+|
+Privacy Policy
+|
+Statutes (non-binding English translation)
+-
+Satzung (binding German version)
+| Copyright information: Unless otherwise specified, all text and images on this website are licensed under the
+Mozilla Public License v2.0
+. “LibreOffice” and “The Document Foundation” are registered trademarks of their corresponding registered owners or are in actual use as trademarks in one or more countries. Their respective logos and icons are also subject to international copyright laws. Use thereof is explained in our
+trademark policy
+. LibreOffice was based on OpenOffice.org.
+Help content debug info:
+This page is:
+/text/scalc/01/04060185.xhp
+Title is: Funciones estadísticas, quinta parte

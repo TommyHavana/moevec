@@ -1,0 +1,215 @@
+Funciones lógicas
+Ayuda de LibreOffice 26.8
+Módulo
+Idioma
+Contenido
+Active JavaScript en el navegador para mostrar las páginas de ayuda de LibreOffice.
+Funciones lógicas
+Esta categoría contiene las funciones
+lógicas
+.
+Tratamiento de argumentos no lógicos en funciones lógicas
+Cero (0) equivale a FALSO y el resto de los números equivalen a VERDADERO.
+Se pasan por alto las celdas vacías y el texto de las celdas.
+Si se ignoran todos los argumentos, se emite un error #VALOR.
+Si un argumento es texto directo (en contraposición a texto en una celda), se emite un error #VALOR.
+Los errores como argumentos producen un error.
+Para acceder a esta orden…
+Insertar ▸ Función ▸
+categoría
+Lógica
+ESNOD
+Devuelve VERDADERO si una celda contiene el valor de error #N/D (valor no disponible).
+Si un error ocurre, la función devuelve FALSO.
+Sintaxis
+ESNOD(Valor)
+Valor
+es el valor o una expresión que debe comprobarse.
+Ejemplo
+=ESNOD(D3)
+devuelve FALSO como resultado.
+SI.ERROR
+Devuelve el valor si la celda no contiene un valor de error, o el valor alternativo si lo contiene.
+Esta función está disponible a partir de la versión 4.0 de LibreOffice.
+Sintaxis
+SI.ERROR(Valor; Valor_alternativo)
+Valor
+es el valor o expresión que se devolverá si no es equivalente o si produce un error.
+Valor_alternativo
+es el valor o expresión que se devolverá si la expresión o valor de
+Valor
+no es equivalente o si produce un error.
+Ejemplo
+=SI.ERROR(C8;C9)
+, donde la celda C8 contiene
+=1/0
+, devolverá el valor de C9 porque «1/0» es un error.
+=SI.ERROR(C8;C9)
+donde la celda C8 contiene
+13
+devolverá 13 —el valor de C8—, que no es un error.
+SI.CONJUNTO
+SI.CONJUNTO es una función SI múltiple.
+CAMBIAR
+CAMBIAR Compara
+expresión
+con
+valor
+Para
+valor
+y devuelve el resultado que pertenece al primer valor que es igual a la expresión. Si no hay coincidencia y se da default_result, se devolverá
+FALSO
+Devuelve el valor lógico FALSO.
+La función FALSO() no requiere ningún argumento, y siempre devuelve el valor lógico FALSO.
+Sintaxis
+FALSO()
+Ejemplo
+=FALSO()
+devuelve FALSO
+=NO(FALSO())
+devuelve VERDADERO
+NO
+Complementa (invierte) un valor lógico.
+Sintaxis
+NO(ValorLógico)
+ValorLógico
+es cualquier valor que se deba complementar.
+Ejemplo
+=NO(A)
+. Si A=VERDADERO, entonces NO(A) calculará FALSO.
+O
+Devuelve VERDADERO si al menos uno de los argumentos es VERDADERO.
+Esta función devuelve el valor FALSO si todos los argumentos tienen el valor lógico FALSO.
+Los argumentos son expresiones lógicas (VERDADERO, 1<5, 2+3=7, B8<10) que devuelven valores lógicos, o matrices (A1:C3) que contienen valores lógicos.
+Sintaxis
+O(Lógica 1 [; Lógica 2 [; ... [; Lógica 255]])
+Logical 1; Logical 2;  … ; Logical 255
+are boolean values, references to cells or to cell ranges of logical values.
+Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de
+resalte de valores
+.
+Ejemplo
+Se deben comprobar los valores lógicos de las entradas 12<11; 13>22 y 45=45.
+=O(12<11;13>22;45=45)
+devuelve VERDADERO.
+=O(FALSO();VERDADERO())
+devuelve VERDADEIRO.
+La
+fórmula matricial
+{=O(B1:B10;C1:C10)} devuelve un valor unidimensional FALSO cuando todos los componentes de B1:B10 y C1:C10 son FALSO. La expresión matricial anterior no produce el O lógico por elemento y, por lo tanto, no produce una matriz de valores lógicos. Para calcular un O lógico de matrices por elemento, utilice el operador + en contexto de matriz. En el ejemplo, introduzca {=B1:B10+C1:C10}.
+SI
+Especifica una prueba lógica que debe llevarse a cabo.
+Sintaxis
+SI(Prueba[; [ValorSiVerdadero] [; [SiNoValor]]])
+Prueba
+es cualquier valor o expresión que pueda ser VERDADERO o FALSO.
+ValorSiVerdadero
+(opcional) es el valor que se devuelve si la prueba lógica da como resultado VERDADERO.
+SiNoValor
+(opcional) es el valor que se devuelve si la prueba lógica es FALSO.
+En las funciones de LibreOffice Calc, los parámetros marcados como «opcionales» pueden omitirse siempre y cuando no haya ningún parámetro inmediatamente después. Por ejemplo, en una función de cuatro parámetros cuyos dos últimos están marcados como «opcionales», puede omitirse el parámetro 4 o los parámetros 3 y 4; sin embargo, no se puede omitir solamente el parámetro 3.
+Ejemplo
+=SI(A1>5;100;"demasiado pequeño")
+Si el valor en
+A1
+es mayor que
+5
+, devuelve
+100
+; de lo contrario, devuelve el texto
+demasiado pequeño
+.
+=SI(A1>5;;"demasiado pequeño")
+Si el valor en
+A1
+es mayor que
+5
+, devuelve
+0
+porque los parámetros vacíos se consideran
+0
+; de lo contrario, devuelve el texto
+demasiado pequeño
+.
+=SI(A1>5;100;)
+Si el valor en
+A1
+es menor que
+5
+, devuelver
+0
+porque
+SiNoValor
+vacío se interpreta como
+0
+; de lo contrario, devuelve
+100
+.
+VERDADERO
+El valor lógico se configura como VERDADERO.
+La función VERDADERO() no requiere ningún argumento, y siempre devuelve el valor lógico VERDADERO.
+Sintaxis
+VERDADERO()
+Ejemplo
+Si A=VERDADERO y B=FALSO, aparecerán los ejemplos siguientes:
+=Y(A;B)
+devuelve FALSO
+=O(A;B)
+devuelve VERDADERO
+=NO(Y(A;B))
+devuelve VERDADERO.
+XOR
+Devuelve VERDADERO si un número impar de argumentos se valora como VERDADERO.
+Los argumentos pueden ser expresiones lógicas (VERDADERO, 1<5, 2+3=7, B8<10) que devuelven valores lógicos, o intervalos de celdas (A1:C3) que contienen valores lógicos.
+Esta función está disponible a partir de la versión 4.0 de LibreOffice.
+Sintaxis
+XOR(Lógica 1 [; Lógica 2 [; ... [; Lógica 255]])
+Logical 1; Logical 2;  … ; Logical 255
+are boolean values, references to cells or to cell ranges of logical values.
+Ejemplo
+=XOR(VERDADERO();VERDADERO())
+devuelve FALSO
+= XOR (VERDADERO(); VERDADERO(); VERDADERO())
+devuelve VERDADERO
+= XOR(FALSO();VERDADERO()
+devuelve VERDADERO
+Y
+Devuelve VERDADERO si todos los argumentos son VERDADEROS.
+Si uno de los elementos es FALSO, esta función devuelve el valor FALSO.
+Los argumentos son expresiones lógicas (VERDADERO, 1<5, 2+3=7, B8<10) que devuelven valores lógicos, o matrices (A1:C3) que contienen valores lógicos.
+Sintaxis
+Y(Lógica 1 [; Lógica 2 [; ... [; Lógica 255]])
+Logical 1; Logical 2;  … ; Logical 255
+are boolean values, references to cells or to cell ranges of logical values.
+Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de
+resalte de valores
+.
+Ejemplo
+Se deben comprobar los valores lógicos de las entradas 12<13; 14>12 y 7<6:
+=Y(12<13;14>12;7<6)
+devuelve FALSO.
+=Y (FALSO();VERDADERO())
+devuelve FALSO.
+La
+fórmula matricial
+{=Y(B1:B10;C1:C10)} produce un valor unidimensional de VERDADERO cuando todos los componentes de B1:B10 y C1:C10 son VERDADEROS. La expresión matricial anterior no produce el Y lógico por elemento y, por lo tanto, no produce una matriz de valores lógicos. Para calcular un Y lógico de matrices por elemento, utilice el operador * en el contexto de la matriz. En el ejemplo, ingrese {=B1:B10*C1:C10}.
+Temas relacionados
+Funciones por categoría
+¡Necesitamos su ayuda!
+Guías de LibreOffice
+Impressum (Legal Info)
+|
+Privacy Policy
+|
+Statutes (non-binding English translation)
+-
+Satzung (binding German version)
+| Copyright information: Unless otherwise specified, all text and images on this website are licensed under the
+Mozilla Public License v2.0
+. “LibreOffice” and “The Document Foundation” are registered trademarks of their corresponding registered owners or are in actual use as trademarks in one or more countries. Their respective logos and icons are also subject to international copyright laws. Use thereof is explained in our
+trademark policy
+. LibreOffice was based on OpenOffice.org.
+Help content debug info:
+This page is:
+/text/scalc/01/04060105.xhp
+Title is: Funciones lógicas

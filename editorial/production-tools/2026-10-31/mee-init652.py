@@ -1,0 +1,9 @@
+from pathlib import Path
+r=Path('/Users/nerea/Documents/Proyectos/MEE/mee-web');d=r/'editorial/production-tools/2026-10-31';t=(d/'mee-init625627-generated.py').read_text()
+scenes={'E4.12.07':[
+('An anonymous ivory paper adult learner at a plain cobalt desk holds a cobalt pencil over a completely blank ivory sheet, a small red sculptural desk lamp casts warm ivory light on three separate blank cobalt and ivory paper blocks nearby. Learning to write instructions metaphor, no readable code, AI interface, actual person, robot replacement, job guarantee, text, digits or logos. Landscape1200:630.','Figura adulta ficticia escribe en una hoja en blanco junto a una lámpara roja y bloques de papel sobre una mesa azul.'),
+('An abstract ivory paper map with three distinct cobalt winding paths starting near a small red folded marker and reaching three simple ivory open doorway shapes, generous ivory margins. Multiple learning routes metaphor, no actual country, course provider, ranking, guaranteed job, labels, digits, text or measured duration. Landscape1600:900.','Mapa marfil de papel con tres rutas azules que parten de un marcador rojo hacia puertas abstractas.'),
+('A sculptural ivory paper balance scale with cobalt suspended pans, each holding a few plain ivory folded blocks, one small red block beside the scale on cobalt ground. Reflection on opportunities and requirements metaphor, no actual labor market quantities, measured supply and demand, wage data, ranking, labels, text or digits. Landscape1600:900.','Balanza marfil con platos azules y bloques de papel, acompañada de una pequeña pieza roja.')]
+}
+t=t[:t.index('scenes=')]+'scenes='+repr(scenes)+'\n'+t[t.index('for row in [x for x in plan'):];t=t.replace("625<=x['number']<=627","x['number']==652")
+p=d/'mee-init652-generated.py';assert not p.exists();p.write_text(t);exec(compile(t,str(p),'exec'))

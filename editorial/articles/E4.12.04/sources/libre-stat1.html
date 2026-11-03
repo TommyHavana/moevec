@@ -1,0 +1,1152 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+<base href="../../../../">
+<title>Funciones estadísticas, primera parte</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline' 'unsafe-eval' piwik.documentfoundation.org">
+<link rel="shortcut icon" href="media/navigation/favicon.ico">
+<link type="text/css" href="normalize.css" rel="Stylesheet">
+<link type="text/css" href="prism.css" rel="Stylesheet">
+<link type="text/css" href="default.css" rel="Stylesheet">
+<script type="text/javascript" src="polyfills.js"></script><script type="text/javascript" src="languages.js"></script><script type="text/javascript" src="es/langnames.js"></script><script type="text/javascript" src="flexsearch.compact.debug.js"></script><script type="text/javascript" src="prism.js"></script><script type="text/javascript" src="help2.js" defer></script><script type="text/javascript" src="tdf_matomo.js" defer></script><script type="text/javascript" src="a11y-toggle.js" defer></script><script type="text/javascript" src="paginathing.js" defer></script><script type="text/javascript" src="es/bookmarks.js" defer></script><script type="text/javascript" src="es/contents.js" defer></script><script type="text/javascript" src="help.js" defer></script><meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<header id="TopLeftHeader"><a class="symbol" href="es/text/shared/05/new_help.html"><div></div></a><a class="logo" href="es/text/shared/05/new_help.html"><p dir="auto">Ayuda de LibreOffice 26.8</p></a><div class="dropdowns">
+<div class="modules">
+<button type="button" data-a11y-toggle="modules-nav" id="modules" aria-haspopup="true" aria-expanded="false" aria-controls="modules-nav">Módulo</button><nav id="modules-nav" hidden=""></nav>
+</div>
+<div class="lang">
+<button type="button" data-a11y-toggle="langs-nav" id="langs" aria-haspopup="true" aria-expanded="false" aria-controls="modules-nav">Idioma</button><nav id="langs-nav" hidden=""></nav>
+</div>
+</div></header><aside class="leftside"><input id="accordion-1" name="accordion-menu" type="checkbox"><label for="accordion-1" dir="auto">Contenido</label><div id="Contents" class="contents-treeview"></div></aside><div id="SearchFrame"><div id="Bookmarks">
+<input id="search-bar" type="search" class="search" placeholder="Buscar en los marcadores del módulo elegido" dir="auto"><div class="nav-container" tabindex="0"><nav class="index" dir="auto"></nav></div>
+</div></div>
+<div id="DisplayArea" itemprop="softwareHelp" itemscope="true" itemtype="http://schema.org/SoftwareApplication">
+<noscript><div id="WarnJS"><h1 dir="auto">Active JavaScript en el navegador para mostrar las páginas de ayuda de LibreOffice.</h1></div></noscript>
+<div class="xapian-omega-search"><form name="P" method="get" action="/26.8/es/search" target="_top">
+<input id="omega-autofocus" type="search" name="P" placeholder="Buscar en todas las páginas de la Ayuda" dir="auto"><input type="submit" class="xapian-omega-search-button" value="🔍">
+</form></div>
+<meta itemprop="applicationCategory" content="BusinessApplication">
+<meta itemprop="applicationSuite" content="LibreOffice">
+<meta itemprop="name" content="LibreOffice">
+<meta itemprop="operatingsystem" content="Windows, Linux, MacOS">
+<meta itemprop="author.name" content="The LibreOffice Documentation Team">
+<meta itemprop="publisher.name" content="The Document Foundation">
+<meta itemprop="softwareVersion" content="26.8">
+<meta itemprop="inLanguage" content="es">
+<meta itemprop="datePublished" content="2020">
+<meta itemprop="headline" content="Funciones estadísticas, primera parte">
+<meta itemprop="license" content="https://www.libreoffice.org/download/license/">
+<meta itemprop="image" content="media/navigation/libo-symbol-white.svg">
+
+<h1 id="hd_id3146320" dir="auto">
+<a id="ae"></a>Funciones estadísticas, primera parte</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+<a id="countifs"></a>
+
+<h2 id="hd_id224412044220134" dir="auto"><a target="_top" href="es/text/scalc/01/func_countifs.html">CONTAR.SI.CONJUNTO</a></h2>
+<p id="par_id16399242326772" class="paragraph" dir="auto">Devuelve el recuento de celdas que cumplen los criterios en varios intervalos.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a id="b"></a>
+<a id="bm_id3150267"></a>  <meta itemprop="keywords" content="función B">
+<meta itemprop="keywords" content="probabilidades de muestras con distribución binómica">
+
+<a id="bm_id3153044"></a>
+
+<h2 id="hd_id3150267" dir="auto">B</h2>
+<p id="par_id3156061" class="paragraph" dir="auto"><span class="avis">Devuelve la probabilidad de una muestra con distribución binómica.</span></p>
+
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id3148392" class="code" dir="auto">B(Ensayos; SP; T1 [; T2])</p>
+<p id="par_id3149002" class="paragraph" dir="auto"><span class="emph">Ensayos</span> es el número de intentos independientes.</p>
+<p id="par_id3148875" class="paragraph" dir="auto"><span class="emph">prob_éxito</span> es la probabilidad de éxito de cada intento.</p>
+<p id="par_id3145352" class="paragraph" dir="auto"><span class="emph">T1</span> define el límite inferior para el número de intentos.</p>
+<p id="par_id3149538" class="paragraph" dir="auto"><span class="emph">T2</span> (opcional) define el límite superior para el número de intentos.</p>
+<div class="embedded">
+<a id="IntegerTrunc"></a>
+        <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">En el caso de los argumentos de tipo entero, los valores que no sean enteros se truncan al entero.</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id3154633" class="paragraph" dir="auto">¿Cuál debe ser la probabilidad si al tirar un dado 10 veces sale dos veces el seis? La probabilidad para un seis (o para cualquier otro número) es 1/6, luego el resultado es la siguiente fórmula:</p>
+<p id="par_id3149393" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=B(10;1/6;2)</span> devuelve una probabilidad del 29%.</p>
+<a id="chisqdist"></a>
+<a id="bm_id0119200902213671"></a>
+<a id="bm_id0119200902231887"></a>  <meta itemprop="keywords" content="función CHISQDIST">
+<meta itemprop="keywords" content="distribución de la ji al cuadrado">
+
+<h2 id="hd_id0119200901583452" dir="auto">CHISQDIST</h2>
+<p id="par_id0119200901583471" class="paragraph" dir="auto"><span class="avis">Devuelve el valor de la función de densidad de probabilidad o de la función de distribución acumulativa de la distribución de la ji al cuadrado.</span></p>
+
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id0119200902395679" class="code" dir="auto">CHISQDIST(Número; Grados de libertad [; Acumulativo])</p>
+<p id="par_id011920090239564" class="paragraph" dir="auto"><span class="emph">Número</span> es el número para el que debe calcularse la función.</p>
+<p id="par_id0119200902395660" class="paragraph" dir="auto"><span class="emph">Grados de libertad</span> es la cantidad de grados de libertad de la función de la ji al cuadrado.</p>
+<p id="par_id0119200902395623" class="paragraph" dir="auto"><span class="emph">Acumulativa</span> (opcional): 0 o Falso calcula la función de densidad de probabilidad. Otros valores o Verdadero u omitido calcula la función de distribución acumulativa.</p>
+<div class="embedded">
+<a id="IntegerTrunc"></a>
+        <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">En el caso de los argumentos de tipo entero, los valores que no sean enteros se truncan al entero.</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id581777934770315" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=CHISQDIST(13,27; 5)</span> devuelve 0,979024230596978.</p>
+<a id="chisqinv"></a>
+<a id="bm_id0119200902430717"></a>
+<a id="bm_id0119200902432928"></a>  <meta itemprop="keywords" content="función CHISQINV">
+<h2 id="hd_id0119200902421451" dir="auto">CHISQINV</h2>
+<p id="par_id0119200902421449" class="paragraph" dir="auto"><span class="avis">Devuelve el valor inverso de CHISQDIST.</span></p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id21585771564740" class="code" dir="auto">CHISQINV(Probabilidad; Grados de libertad)</p>
+<p id="par_id0119200902475286" class="paragraph" dir="auto"><span class="emph">Probabilidad</span> es el valor de probabilidad para el cual se debe calcular la inversa de la distribución de la ji al cuadrado.</p>
+<p id="par_id0119200902475282" class="paragraph" dir="auto"><span class="emph">Grados de libertad</span> es la cantidad de grados de libertad de la función de la ji al cuadrado.</p>
+<div class="embedded">
+<a id="IntegerTrunc"></a>
+        <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">En el caso de los argumentos de tipo entero, los valores que no sean enteros se truncan al entero.</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id891777935092576" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=CHISQINV(0,5;1)</span> devuelve 0,4549364231.</p>
+<a id="rsq"></a>
+<a id="bm_id3158416"></a>  <meta itemprop="keywords" content="COEFICIENTE.R2">  <meta itemprop="keywords" content="coeficientes de determinación">  <meta itemprop="keywords" content="análisis de regresión">
+
+<a id="bm_id3153228"></a>
+
+<h2 id="hd_id3158416" dir="auto">COEFICIENTE.R2</h2>
+<p id="par_id3154949" class="paragraph" dir="auto"><span class="avis">Calcula el cuadrado del coeficiente de correlación de Pearson según los valores especificados.</span> El coeficiente R2, también conocido como coeficiente de determinación, es una medida para obtener un buen ajuste, que se puede utilizar para producir un análisis de regresión.</p>
+
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id3155822" class="code" dir="auto">COEFICIENTE.R2(DatosY; DatosX)</p>
+<p id="par_id3150470" class="paragraph" dir="auto"><span class="emph">DatosY</span> es una matriz o área de puntos de datos.</p>
+<p id="par_id3153181" class="paragraph" dir="auto"><span class="emph">DatosX</span> es una matriz o intervalo de puntos de datos.</p>
+
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id3155991" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=COEFICIENTE.R2(A1:A20;B1:B20)</span> calcula el coeficiente de determinación para los conjuntos de datos en las columnas A y B.</p>
+<a id="count"></a>
+<a id="bm_id3148437"></a>  <meta itemprop="keywords" content="CONTAR">         <meta itemprop="keywords" content="números,contar">
+
+<a id="bm_id3153040"></a>
+
+<h2 id="hd_id3148437" dir="auto">
+<a id="count_head"></a><a target="_top" href="es/text/scalc/01/04060181.html#count">CONTAR</a>
+</h2>
+<p id="par_id3150700" class="paragraph" dir="auto"><span class="avis">Cuenta los números que hay en la lista de argumentos.</span> No se toman en consideración las entradas de texto.</p>
+
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id3148585" class="code" dir="auto">CONTAR(Argument 1 [; Argument 2 [; …  [; Argument 255]]])</p>
+<div class="embedded">
+<a id="argument255"></a>
+      <p id="par_id1001754569677921" class="paragraph" dir="auto"><span class="emph">Argument 1; Argument 2; … ; Argument 255</span> are numbers, text, references to cells or to cell ranges of numbers or text.</p>
+    </div>
+<div class="embedded">
+<a id="datenumbersequencenote"></a>
+        <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de <a target="_top" href="es/text/scalc/01/03080000.html">resalte de valores</a>.</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id3149953" class="paragraph" dir="auto">The entries 2, 4, 6 and "eight" in the Value 1-4 fields are to be counted.</p>
+<p id="par_id3154558" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=CONTAR(2;4;6;"ocho")</span> = 3. La cantidad de números es por tanto 3.</p>
+<a id="countblank"></a>
+<a id="bm_id3150896"></a>  <meta itemprop="keywords" content="CONTAR.BLANCO">  <meta itemprop="keywords" content="contar,celdas vacías">  <meta itemprop="keywords" content="celdas vacías,contar">
+
+<a id="bm_id3149730"></a>
+
+<h2 id="hd_id3150896" dir="auto">
+<a id="countblank_head"></a><a target="_top" href="es/text/scalc/01/04060181.html#countblank">CONTAR.BLANCO</a>
+</h2>
+<p id="par_id3155260" class="paragraph" dir="auto"><span class="avis">Devuelve la cantidad de celdas vacías.</span></p>
+
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id3153931" class="code" dir="auto">CONTAR.BLANCO(intervalo)</p>
+<p id="par_id3149512" class="paragraph" dir="auto">Devuelve la cantidad de celdas vacías en el intervalo de celdas <span class="emph">Intervalo</span>.</p>
+
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id3148586" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=CONTAR.BLANCO(A1:B2)</span> devuelve 4 si las celdas A1, A2, B1 y B2 están vacías.</p>
+<a id="countif"></a>
+<a id="bm_id3164897"></a>  <meta itemprop="keywords" content="función CONTAR.SI">  <meta itemprop="keywords" content="contar,celdas especificadas">
+
+<a id="bm_id3164909"></a>
+
+<h2 id="hd_id3164897" dir="auto">
+<a id="countif_head"></a><a target="_top" href="es/text/scalc/01/04060181.html#countif">CONTAR.SI</a>
+</h2>
+<p id="par_id3164926" class="paragraph" dir="auto"><span class="avis">Devuelve la cantidad de celdas en un intervalo que cumplen determinados criterios.</span></p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id3164967" class="code" dir="auto">CONTAR.SI(Intervalo; Criterio)</p>
+<p id="par_id3164980" class="paragraph" dir="auto"><span class="emph">Intervalo</span> es el área en la que se aplicarán los criterios.</p>
+<div class="embedded">
+<a id="criterion"></a>
+    <p id="par_id621619279022341" class="paragraph" dir="auto"><span class="emph">Criterion1</span>: A criterion is a text expression computed from a single cell Reference, Formula, Number or Text. It is used in comparisons with cell contents.</p>
+    <a id="criterion2"></a>
+      <p id="par_id731619279029255" class="paragraph" dir="auto">Una referencia a una celda vacía se interpreta como el valor numérico 0.</p>
+      <p id="par_id31619279035359" class="paragraph" dir="auto">Una expresión coincidente puede ser:</p>
+      <ul itemprop="Unordered" itemscope="true" itemtype="http://schema.org/ItemList" dir="auto">
+        <li itemprop="itemListElement" itemscope="true" itemtype="http://schema.org/ItemListUnordered" dir="auto">
+          <p id="par_id171619279059462" class="listitem" dir="auto">Un número o valor lógico. Un contenido de celda correspondiente equivale al número o valor lógico.</p>
+        </li>
+        <li itemprop="itemListElement" itemscope="true" itemtype="http://schema.org/ItemListUnordered" dir="auto">
+          <p id="par_id511619279076504" class="listitem" dir="auto">A value beginning with a comparator (<span class="emph">&lt;</span>, <span class="emph">&lt;=</span>, <span class="emph">=</span>, <span class="emph">&gt;</span>, <span class="emph">&gt;=</span>, <span class="emph">&lt;&gt;</span>).</p>
+          <p id="par_id11619279168512" class="paragraph" dir="auto">En el caso de <span class="emph">=</span>, si el valor está vacío, coincide con las celdas vacías.</p>
+          <p id="par_id161619279207350" class="paragraph" dir="auto">En el caso de <span class="emph">&lt;&gt;</span>, si el valor está vacío, coincide con las celdas no vacías.</p>
+          <p id="par_id271619279215695" class="paragraph" dir="auto">For <span class="emph">&lt;&gt;</span>, if the value is not empty it matches any cell content except the value, including empty cells.</p>
+          <p id="par_id861619279223855" class="paragraph" dir="auto"><span class="emph">Nota</span>"=0" no coincide con las celdas vacías.</p>
+          <p id="par_id51619279363954" class="paragraph" dir="auto">For <span class="emph">=</span> and <span class="emph">&lt;&gt;</span>, if the value is not empty and can not be interpreted as a number type or one of its subtypes and the property <a target="_top" href="es/text/shared/optionen/01060500.html">Search criteria <span class="emph">=</span> and <span class="emph">&lt;&gt;</span> must apply to whole cells</a> is checked, comparison is against the entire cell contents, if unchecked, comparison is against any subpart of the field that matches the criteria. For <span class="emph">=</span> and <span class="emph">&lt;&gt;</span>, if the value is not empty and can not be interpreted as a Number type or one of its subtypes applies.</p>
+        </li>
+        <li itemprop="itemListElement" itemscope="true" itemtype="http://schema.org/ItemListUnordered" dir="auto">
+          <p id="par_id801619279323556" class="listitem" dir="auto">Other Text value. If the property <a target="_top" href="es/text/shared/optionen/01060500.html">Search criteria <span class="emph">=</span> and <span class="emph">&lt;&gt;</span> must apply to whole cells</a> is true, the comparison is against the entire cell contents, if false, comparison is against any subpart of the field that matches the criteria. The expression can contain text, numbers, regular expressions or wildcards (<a target="_top" href="es/text/shared/optionen/01060500.html#wildcards">if enabled in calculation options</a>).</p>
+        </li>
+      </ul>
+    
+  </div>
+<div class="embedded">
+<a id="regex"></a>
+    <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">La búsqueda admite tanto comodines como <a target="_top" href="es/text/shared/01/02100001.html">expresiones regulares</a>. Si activa las expresiones regulares, puede introducir «tod.*», por ejemplo, para encontrar la primera localización de «tod» seguido de cualesquier caracteres. Si desea localizar un texto que es también una expresión regular, debe anteponer a cada uno de los metacaracteres u operadores de la expresión una contrabarra «\», o circundarlo con \Q...\E. Puede activar o desactivar la valoración automática de los comodines o las expresiones regulares en <a target="_top" href="es/text/shared/optionen/01060500.html"><span id="swlnsystextshared0000000001xml_3" class="switchinline"><span hidden="true" id="MACtextshared0000000001xml_3" class="MAC"><span class="menuitem">LibreOffice ▸ Preferencias</span></span><span hidden="true" id="defaulttextshared0000000001xml_3"><span class="menuitem">Herramientas ▸ Opciones</span></span></span><span class="menuitem"> ▸ LibreOffice Calc ▸ Calcular</span></a>.</p></div>
+</div>
+<br>
+    <a id="regexnumex"></a>
+        <div class="warning">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/warning.svg" alt="Icono de aviso" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Al utilizar funciones en las que uno o más argumentos son cadenas de criterios de búsqueda que representan una expresión regular, en primer lugar se intentará convertir los criterios de la cadena en números. Por ejemplo, «.0» se convertirá en 0.0 y así sucesivamente. Si el intento es fructuoso, la correspondencia no será por expresión regular, sino numérica. No obstante, si se cambia a una configuración regional en la cual el separador decimal no es el punto, pasará a valer la expresión regular. Para forzar la evaluación de la expresión regular en lugar de una expresión numérica, utilice una expresión que no pueda confundirse con un número, como por ejemplo «.\0» o «(?i).0».</p></div>
+</div>
+<br>
+    
+</div>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id3166505" class="paragraph" dir="auto">A1:A10 es un intervalo de celdas que contiene los números <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">2000</span> a <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">2009</span>. La celda B1 contiene el número <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">2006</span>. En la celda B2, escriba la fórmula:</p>
+<p id="par_id3581652" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=CONTAR.SI(A1:A10;2006)</span> da como resultado 1.</p>
+<p id="par_id708639" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=CONTAR.SI(A1:A10;B1)</span> da como resultado 1.</p>
+<p id="par_id5169225" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=CONTAR.SI(A1:A10;"&gt;=2006")</span> da como resultado 4.</p>
+<p id="par_id2118594" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=CONTAR.SI(A1:A10;"&lt;"&amp;B1)</span>, cuando B1 contiene <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">2006</span>, devuelve 6.</p>
+<p id="par_id166020" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=CONTAR.SI(A1:A10;C2)</span> donde la celda C2 contiene el texto <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">&gt;2006</span> cuenta el número de celdas en el intervalo A1:A10, que es &gt;2006.</p>
+<p id="par_id6386913" class="paragraph" dir="auto">Para contar únicamente los números negativos: <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=CONTAR.SI(A1:A10;"&lt;0")</span></p>
+<a id="counta"></a>
+<a id="bm_id3149729"></a>  <meta itemprop="keywords" content="CONTARA">  <meta itemprop="keywords" content="número de entradas">
+
+<a id="bm_id3148738"></a>
+
+<h2 id="hd_id3149729" dir="auto">
+<a id="counta_head"></a><a target="_top" href="es/text/scalc/01/04060181.html#counta">CONTARA</a>
+</h2>
+<p id="par_id3150142" class="paragraph" dir="auto"><span class="avis">Cuenta los valores que hay en la lista de argumentos.</span> Las entradas de texto también se cuentan, incluso si contienen una cadena vacía de longitud 0. Si un argumento es una matriz o referencia, se hace caso omiso de las celdas vacías que pudieran contener.</p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id3153111" class="code" dir="auto">CONTARA(Argument 1 [; Argument 2 [; …  [; Argument 255]]])</p>
+<div class="embedded">
+<a id="argument255"></a>
+      <p id="par_id1001754569677921" class="paragraph" dir="auto"><span class="emph">Argument 1; Argument 2; … ; Argument 255</span> are numbers, text, references to cells or to cell ranges of numbers or text.</p>
+    </div>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id3154508" class="paragraph" dir="auto">The entries 2, 4, 6 and "eight" in the Value 1-4 fields are to be counted.</p>
+<p id="par_id3158000" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=CONTARA(2;4;6;"ocho")</span> = 4. La cantidad de valores es por tanto 4.</p>
+<a id="betadist"></a>
+<a id="bm_id3156096"></a>  <meta itemprop="keywords" content="DISTR.BETA">   <meta itemprop="keywords" content="función de densidad de probabilidad acumulada,calcular">
+
+<a id="bm_id3153213"></a>
+
+<h2 id="hd_id3156096" dir="auto">DISTR.BETA</h2>
+<p id="par_id3150880" class="paragraph" dir="auto"><span class="avis">Devuelve la función beta.</span></p>
+
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id3147571" class="code" dir="auto">DISTR.BETA(Número; Alfa; Beta [; Inicio [;Fin [; Acumulativo]]])</p>
+<p id="par_id3156317" class="paragraph" dir="auto"><span class="emph">Número</span> es el valor entre <span class="emph">Inicio</span> y <span class="emph">Fin</span> en el que se calculará la función.</p>
+<p id="par_id3156107" class="paragraph" dir="auto"><span class="emph">Alfa</span> es un parámetro para la distribución.</p>
+<p id="par_id3153619" class="paragraph" dir="auto"><span class="emph">Beta</span> es un parámetro para la distribución.</p>
+<p id="par_id3150254" class="paragraph" dir="auto"><span class="emph">Inicio</span> (opcional) es el límite inferior de <span class="emph">Número</span>.</p>
+<p id="par_id3149138" class="paragraph" dir="auto"><span class="emph">Fin</span> (opcional) es el límite superior de <span class="emph">Número</span>.</p>
+<p id="par_id012020091254453" class="paragraph" dir="auto"><span class="emph">Acumulativa</span> (opcional) puede ser 0 o Falso para calcular la función de densidad de probabilidad. Puede ser cualquier otro valor o Verdadero u omitirse para calcular la función de distribución acumulativa.</p>
+<p id="par_idN10AB3" class="paragraph" dir="auto">En las funciones de LibreOffice Calc, los parámetros marcados como «opcionales» pueden omitirse siempre y cuando no haya ningún parámetro inmediatamente después. Por ejemplo, en una función de cuatro parámetros cuyos dos últimos están marcados como «opcionales», puede omitirse el parámetro 4 o los parámetros 3 y 4; sin embargo, no se puede omitir solamente el parámetro 3.</p>
+
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id3156118" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DISTR.BETA(0,75;3;4)</span> devuelve el valor 0,96.</p>
+<a id="betainv"></a>
+<a id="bm_id3145620"></a>  <meta itemprop="keywords" content="DISTR.BETA.INV">  <meta itemprop="keywords" content="función de densidad de probabilidad acumulada,inverso de">
+
+<a id="bm_id3146154"></a>
+
+<h2 id="hd_id3145620" dir="auto">DISTR.BETA.INV</h2>
+<p id="par_id3149825" class="paragraph" dir="auto"><span class="avis">Devuelve el inverso de la función de densidad de probabilidad Beta acumulada.</span></p>
+
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id3156300" class="code" dir="auto">DISTR.BETA.INV(Número; Alfa; Beta [; Inicio [; Fin]])</p>
+<p id="par_id3149266" class="paragraph" dir="auto"><span class="emph">Número</span>es la probabilidad asociada con la distribución Beta para el argumentos dado<span class="emph">Alfa</span>y<span class="emph">Beta</span>.</p>
+<p id="par_id3149710" class="paragraph" dir="auto"><span class="emph">Alfa</span>es un parámetro estrictamente positivo de la distribución Beta.</p>
+<p id="par_id3156306" class="paragraph" dir="auto"><span class="emph">Beta</span>es un parámetro estrictamente positivo de la distribución Beta.</p>
+<p id="par_id3150960" class="paragraph" dir="auto"><span class="emph">Inicio</span> (opcional) es el límite inferior del intervalo de salida de la función. Si se omite, el valor predeterminado es 0.</p>
+<p id="par_id3151268" class="paragraph" dir="auto"><span class="emph">Fin</span> (opcional) es el límite superior del intervalo de salida de la función. Si se omite, el valor predeterminado es 1.</p>
+<p id="par_idN109DF" class="paragraph" dir="auto">En las funciones de LibreOffice Calc, los parámetros marcados como «opcionales» pueden omitirse siempre y cuando no haya ningún parámetro inmediatamente después. Por ejemplo, en una función de cuatro parámetros cuyos dos últimos están marcados como «opcionales», puede omitirse el parámetro 4 o los parámetros 3 y 4; sin embargo, no se puede omitir solamente el parámetro 3.</p>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id3146859" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DISTR.BETA.INV(0.5;5;10)</span> devuelve el valor 0.3257511553.</p>
+<p id="par_id871621424421294" class="paragraph" dir="auto"><a target="_blank" href="https://wiki.documentfoundation.org/Documentation/Calc_Functions/BETAINV">Página del wiki sobre DISTR.BETA.INV</a></p>
+<a id="betadotdist"></a>
+<a id="bm_id2956096"></a>  <meta itemprop="keywords" content="función DISTR.BETA.N">  <meta itemprop="keywords" content="función de densidad de probabilidad acumulada,cálculo">
+
+<a id="bm_id2953213"></a>
+
+<h2 id="hd_id2956096" dir="auto">DISTR.BETA.N</h2>
+<p id="par_id2950880" class="paragraph" dir="auto"><span class="avis">Devuelve la función beta.</span></p>
+<div class="embedded">
+<a id="4.2"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.2 de LibreOffice.</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id2947571" class="code" dir="auto">DISTR.BETA.N(Número; Alfa; Beta; Acumulativa [; Inicio [; Fin]])</p>
+<p id="par_id2956317" class="paragraph" dir="auto"><span class="emph">Número</span> (obligatorio) es el valor entre <span class="emph">Inicio</span> y <span class="emph">Fin</span> en el que se calculará la función.</p>
+<p id="par_id2956107" class="paragraph" dir="auto"><span class="emph">Alfa</span> (obligatorio) es un parámetro de la distribución.</p>
+<p id="par_id2953619" class="paragraph" dir="auto"><span class="emph">Beta</span> (obligatorio) es un parámetro de la distribución.</p>
+<p id="par_id062920141254453" class="paragraph" dir="auto"><span class="emph">Acumulativa</span> (requerida) puede ser 0 o Falso para calcular la función de densidad de probabilidad. Puede ser cualquier otro valor o Verdadero para calcular la función de distribución acumulativa.</p>
+<p id="par_id2950254" class="paragraph" dir="auto"><span class="emph">Inicio</span> (opcional) es el límite inferior de <span class="emph">Número</span>.</p>
+<p id="par_id2949138" class="paragraph" dir="auto"><span class="emph">Fin</span> (opcional) es el límite superior de <span class="emph">Número</span>.</p>
+<p id="par_idN10AB3ms" class="paragraph" dir="auto">En las funciones de LibreOffice Calc, los parámetros marcados como «opcionales» pueden omitirse siempre y cuando no haya ningún parámetro inmediatamente después. Por ejemplo, en una función de cuatro parámetros cuyos dos últimos están marcados como «opcionales», puede omitirse el parámetro 4 o los parámetros 3 y 4; sin embargo, no se puede omitir solamente el parámetro 3.</p>
+
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id2956118" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DISTR.BETA.N(2;8;10;1;1;3)</span> devuelve el valor 0,6854706</p>
+<p id="par_id2956119" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DISTR.BETA.N(2;8;10;0;1;3)</span> devuelve el valor 1,4837646</p>
+<div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+<div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+<p id="par_id341645873986703" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.BETA.DIST</span></p>
+<a id="binomdist"></a>
+<a id="bm_id3143228"></a>  <meta itemprop="keywords" content="DISTR.BINOM">
+
+<a id="bm_id3150146"></a>
+
+<h2 id="hd_id3143228" dir="auto">DISTR.BINOM</h2>
+<p id="par_id3146897" class="paragraph" dir="auto"><span class="avis">Devuelve la probabilidad de distribución binómica de un término individual.</span></p>
+
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id3156009" class="code" dir="auto">DISTR.BINOM(X; Ensayos; prob_éxito; C)</p>
+<p id="par_id3154304" class="paragraph" dir="auto"><span class="emph">X</span> es el número de éxitos en un conjunto de pruebas.</p>
+<p id="par_id3147492" class="paragraph" dir="auto"><span class="emph">Ensayos</span> es el número de intentos independientes.</p>
+<p id="par_id3146085" class="paragraph" dir="auto"><span class="emph">prob_éxito</span> es la probabilidad de éxito de cada intento.</p>
+<p id="par_id3149760" class="paragraph" dir="auto"><span class="emph">C</span> = 0 calcula la probabilidad de un único evento y <span class="emph">C</span> = 1 calcula la probabilidad acumulada.</p>
+<div class="embedded">
+<a id="IntegerTrunc"></a>
+        <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">En el caso de los argumentos de tipo entero, los valores que no sean enteros se truncan al entero.</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id3145666" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DISTR.BINOM(A1;12;0,5;0)</span> muestra (si se especifican los valores <span class="input">0</span> a <span class="input">12</span> en A1) la probabilidad que resulta de tirar 12 veces una moneda y que salga <span class="emph">Cara</span> exactamente el número de veces especificado en A1.</p>
+<p id="par_id3150120" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DISTR.BINOM(A1;12;0,5;1)</span> muestra las probabilidades acumuladas para la misma serie. Por ejemplo, si A1 = <span class="input">4</span>, la probabilidad acumulada de la serie es 0, 1, 2, 3 o 4 veces <span class="emph">Cara</span> (lógica OR no exclusiva).</p>
+<a id="binomdotdist"></a>
+<a id="bm_id2943228"></a>  <meta itemprop="keywords" content="función DISTR.BINOM.N">
+
+<a id="bm_id2950146"></a>
+<h2 id="hd_id2943228" dir="auto">DISTR.BINOM.N</h2>
+<p id="par_id2946897" class="paragraph" dir="auto"><span class="avis">Devuelve la probabilidad de distribución binómica de un término individual.</span></p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id2956009" class="code" dir="auto">DISTR.BINOM.N(X; Ensayos; prob_éxito; C)</p>
+<p id="par_id2954304" class="paragraph" dir="auto"><span class="emph">X</span> es el número de éxitos en un conjunto de pruebas.</p>
+<p id="par_id2947492" class="paragraph" dir="auto"><span class="emph">Ensayos</span> es el número de intentos independientes.</p>
+<p id="par_id2946085" class="paragraph" dir="auto"><span class="emph">prob_éxito</span> es la probabilidad de éxito de cada intento.</p>
+<p id="par_id299760" class="paragraph" dir="auto"><span class="emph">C</span> = 0 calcula la probabilidad de un único evento y <span class="emph">C</span> = 1 calcula la probabilidad acumulada.</p>
+
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id295666" class="paragraph" dir="auto">º<span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DISTR.BINOM.N(A1;12;0,5;0)</span> muestra (si se especifican los valores <span class="input">0</span> a <span class="input">12</span> en A1) la probabilidad que resulta de tirar 12 veces una moneda y que salga <span class="emph">Cara</span> exactamente el número de veces especificado en A1.</p>
+<p id="par_id290120" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DISTR.BINOM.N(A1;12;0,5;1)</span> muestra las probabilidades acumuladas para la misma serie. Por ejemplo, si A1 = <span class="input">4</span>, la probabilidad acumulada de la serie es 0, 1, 2, 3 o 4 veces <span class="emph">Cara</span> (lógica OR no exclusiva).</p>
+<div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+<div class="embedded">
+<a id="4.2"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.2 de LibreOffice.</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+<p id="par_id341640873786703" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.BINOM.DIST</span></p>
+<a id="chidist"></a>
+<a id="bm_id3148690"></a>  <meta itemprop="keywords" content="DISTR.CHI">
+
+<a id="bm_id3147521"></a>
+
+<h2 id="hd_id3148690" dir="auto">DISTR.CHI</h2>
+<p id="par_id3156338" class="paragraph" dir="auto"><span class="avis">Calcula el valor de probabilidad para el cuadrado de chi indicado para la confirmación de una hipótesis.</span> DISTR.CHI compara el valor del cuadrado de chi de una muestra aleatoria, que se calcula a partir de la suma de (valor observado-valor previsto)^2/valor previsto en todos los valores con la distribución teórica del cuadrado de chi; origina el intervalo de probabilidad de error de la hipótesis que se debe demostrar.</p>
+<p id="par_id3151316" class="paragraph" dir="auto">El intervalo de probabilidad calculado mediante DISTR.CHI también se puede determinar mediante PRUEBA.CHI; en este caso, en lugar del cuadrado de chi de la muestra, los datos observados y previstos se deben suministrar como parámetros.</p>
+
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id3158439" class="code" dir="auto">DISTR.CHI(Número; GradosdeLibertad)</p>
+<p id="par_id3148675" class="paragraph" dir="auto"><span class="emph">Número</span> es el valor del cuadrado de chi de la muestra aleatoria utilizada para determinar la probabilidad de error.</p>
+<p id="par_id3155615" class="paragraph" dir="auto"><span class="emph">GradosdeLibertad</span> son los grados de libertad del experimento.</p>
+<div class="embedded">
+<a id="IntegerTrunc"></a>
+        <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">En el caso de los argumentos de tipo entero, los valores que no sean enteros se truncan al entero.</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id3145774" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DISTR.CHI(13,27; 5)</span> es igual a 0,02.</p>
+<p id="par_id3156141" class="paragraph" dir="auto">Si el valor del cuadrado de chi de la muestra asciende a 13,27 y el experimento tiene 5 grados de libertad, entonces la hipótesis se cumple con un intervalo de probabilidad de error del 2%.</p>
+<a id="chisqdotdist"></a>
+<a id="bm_id2848690"></a>  <meta itemprop="keywords" content="DISTR.CHI">
+
+<a id="bm_id2947521"></a>
+
+<h2 id="hd_id2848690" dir="auto">DISTR.CHICUAD</h2>
+<p id="par_id2856338" class="paragraph" dir="auto"><span class="avis">Devuelve la función de densidad de probabilidad o la función de distribución acumulativa de la distribución de la ji al cuadrado.</span></p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id2858439" class="code" dir="auto">DISTR.CHICUAD(Número; GradosdeLibertad; Acumulativa)</p>
+<p id="par_id2848675" class="paragraph" dir="auto"><span class="emph">Número</span> es el valor de cuadrado de chi de la muestra aleatoria utilizada para determinar la probabilidad de error.</p>
+<p id="par_id2855615" class="paragraph" dir="auto"><span class="emph">GradosdeLibertad</span> son los grados de libertad del experimento.</p>
+<p id="par_id282020091254453" class="paragraph" dir="auto"><span class="emph">Acumulativa</span> puede ser 0 o Falso para calcular la función de densidad de probabilidad. Puede ser cualquier otro valor o Verdadero para calcular la función de distribución acumulativa.</p>
+
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id2845774" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">DISTR.CHICUAD(3;2;0)</span> igual a 0,1115650801, la función de densidad de probabilidad con 2 grados de libertad, en x=3.</p>
+<p id="par_id2745774" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DISTR.CHICUAD(3; 2; 1) </span>equivale a 0.7768698399, la distribución acumulada de chi-cuadrado con 2 grados de libertad, en el valor x = 3.</p>
+<div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+<div class="embedded">
+<a id="4.2"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.2 de LibreOffice.</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+<p id="par_id341640873984703" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.CHISQ.DIST</span></p>
+<a id="chisqdotdistdotrt"></a>
+<a id="bm_id2948690"></a>  <meta itemprop="keywords" content="función DISTR.CHICUAD.CD">
+
+<a id="bm_id2947522"></a>
+
+<h2 id="hd_id2948690" dir="auto">DISTR.CHICUAD.CD</h2>
+<p id="par_id2956338" class="paragraph" dir="auto"><span class="avis">Calcula el valor de probabilidad para el chi cuadrado en el que se confirma una hipótesis.</span> DISTR.CHICUAD.CD compara el valor chi cuadrado de una muestra aleatoria, que se calcula a partir de la suma de (valor observado-valor previsto)^2/valor previsto para todos los valores con la distribución chi cuadrado teórica y determina así las probabilidad de error de la hipótesis que se está comprobando.</p>
+<p id="par_id2951316" class="paragraph" dir="auto">La probabilidad calculada mediante DISTR.CHICUAD.CD también se puede calcular mediante PRUEBA.CHI</p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id2958439" class="code" dir="auto">DISTR.CHICUAD.CD(Número; GradosDeLibertad)</p>
+<p id="par_id2948675" class="paragraph" dir="auto"><span class="emph">Número</span> es el valor de cuadrado de chi de la muestra aleatoria utilizada para determinar la probabilidad de error.</p>
+<p id="par_id2955615" class="paragraph" dir="auto"><span class="emph">GradosdeLibertad</span> son los grados de libertad del experimento.</p>
+
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id2945774" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DISTR.CHICUAD.CD(13,27; 5)</span> es igual a 0,0209757694.</p>
+<p id="par_id2956141" class="paragraph" dir="auto">Si el valor del cuadrado de chi de la muestra asciende a 13,27 y el experimento tiene 5 grados libertad, entonces la hipótesis se cumple con una probabilidad de error del 2%.</p>
+<div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+<div class="embedded">
+<a id="4.2"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.2 de LibreOffice.</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+<p id="par_id343640873986703" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.CHISQ.DIST.RT</span></p>
+<a id="expondist"></a>
+<a id="bm_id3150603"></a>  <meta itemprop="keywords" content="función DISTR.EXP">
+<meta itemprop="keywords" content="distribuciones exponenciales">
+
+<a id="bm_id3152962"></a>
+
+<h2 id="hd_id3150603" dir="auto">DISTR.EXP</h2>
+<p id="par_id3149563" class="paragraph" dir="auto"><span class="avis">Devuelve la distribución exponencial.</span></p>
+
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id3150987" class="code" dir="auto">DISTR.EXP(Número; Lambda; C)</p>
+<p id="par_id3154663" class="paragraph" dir="auto"><span class="emph">Número</span> es el valor de la función.</p>
+<p id="par_id3154569" class="paragraph" dir="auto"><span class="emph">Lambda</span> es el valor del parámetro.</p>
+<p id="par_id3147332" class="paragraph" dir="auto"><span class="emph">C</span> es un valor lógico que determina la forma de la función. <span class="emph">C = 0</span> calcula la función de densidad y <span class="emph">C = 1</span> calcula la distribución.</p>
+
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id3150357" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DISTR.EXP(3;0,5;1)</span> devuelve 0,78.</p>
+<a id="expondotdist"></a>
+<a id="bm_id2950603"></a>  <meta itemprop="keywords" content="DISTR.EXP.N">  <meta itemprop="keywords" content="distribuciones exponenciales">
+
+<a id="bm_id2952962"></a>
+
+<h2 id="hd_id2950603" dir="auto">DISTR.EXP.N</h2>
+<p id="par_id2949563" class="paragraph" dir="auto"><span class="avis">Devuelve la distribución exponencial.</span></p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id2950987" class="code" dir="auto">DISTR.EXP.N(Número; Lambda; C)</p>
+<p id="par_id2954663" class="paragraph" dir="auto"><span class="emph">Número</span> es el valor de la función.</p>
+<p id="par_id2954569" class="paragraph" dir="auto"><span class="emph">Lambda</span> es el valor del parámetro.</p>
+<p id="par_id2947332" class="paragraph" dir="auto"><span class="emph">C</span> es un valor lógico que determina la forma de la función. <span class="emph">C = 0</span> calcula la función de densidad y <span class="emph">C = 1</span> calcula la distribución.</p>
+
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id2950357" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DISTR.EXP.N(3;0,5;1)</span> devuelve 0,7768698399.</p>
+<div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+<div class="embedded">
+<a id="4.2"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.2 de LibreOffice.</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+<p id="par_id341660873986703" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.EXPON.DIST</span></p>
+<a id="betadotinv"></a>
+<a id="bm_id2945620"></a><meta itemprop="keywords" content="función INV.BETA.N">
+<meta itemprop="keywords" content="función de densidad de probabilidad acumulada, inversa de">
+
+<a id="bm_id2946154"></a>
+
+<h2 id="hd_id2945620" dir="auto">INV.BETA.N</h2>
+<p id="par_id2949825" class="paragraph" dir="auto"><span class="avis">Devuelve la inversa de la función de densidad de probabilidad Beta acumulada.</span></p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id2956300" class="code" dir="auto">INV.BETA.N(Número; Alfa; Beta [; Inicio [; Fin]])</p>
+<p id="par_id2949266" class="paragraph" dir="auto"><span class="emph">Número</span>es la probabilidad asociada a la distribución Beta para los argumentos dados<span class="emph">Alfa</span> y <span class="emph">Beta</span>.</p>
+<p id="par_id2949710" class="paragraph" dir="auto"><span class="emph">Alfa</span>es un parámetro estrictamente positivo de la distribución Beta.</p>
+<p id="par_id2956306" class="paragraph" dir="auto"><span class="emph">Beta</span>es un parámetro estrictamente positivo de la distribución Beta.</p>
+<p id="par_id2950960" class="paragraph" dir="auto"><span class="emph">Inicio</span> (opcional) es el límite inferior del intervalo de salida de la función. Si se omite, el valor predeterminado es 0.</p>
+<p id="par_id2951268" class="paragraph" dir="auto"><span class="emph">Fin</span> (opcional) es el límite superior del intervalo de salida de la función. Si se omite, el valor predeterminado es 1.</p>
+<p id="par_idN109DFms" class="paragraph" dir="auto">En las funciones de LibreOffice Calc, los parámetros marcados como «opcionales» pueden omitirse siempre y cuando no haya ningún parámetro inmediatamente después. Por ejemplo, en una función de cuatro parámetros cuyos dos últimos están marcados como «opcionales», puede omitirse el parámetro 4 o los parámetros 3 y 4; sin embargo, no se puede omitir solamente el parámetro 3.</p>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id2946859" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=INV.BETA.N(0.5;5;10)</span>devuelve el valor de 0.3257511553.</p>
+<p id="par_id841621424421294" class="paragraph" dir="auto"><a target="_blank" href="https://wiki.documentfoundation.org/Documentation/Calc_Functions/BETA.INV">Página del wiki sobre INV.BETA.N</a></p>
+<div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+<div class="embedded">
+<a id="4.2"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.2 de LibreOffice.</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+<p id="par_id311640873986703" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.BETA.INV</span></p>
+<a id="binomdotinv"></a>
+<a id="bm_id2843228"></a>  <meta itemprop="keywords" content="función INV.BINOM">
+
+<a id="bm_id2850146"></a>
+
+<h2 id="hd_id2843228" dir="auto">INV.BINOM</h2>
+<p id="par_id2846897" class="paragraph" dir="auto"><span class="avis">Devuelve el valor más pequeño para el cual la distribución binómica acumulada es mayor que o igual a un valor de criterio.</span></p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id2856009" class="code" dir="auto">INV.BINOM(Ensayos; Probabilidad; Alfa)</p>
+<p id="par_id2847492" class="paragraph" dir="auto"><span class="emph">Intentos</span>: el número total de intentos.</p>
+<p id="par_id2846085" class="paragraph" dir="auto"><span class="emph">Probabilidad</span> es la probabilidad de éxito de cada intento.</p>
+<p id="par_id289760" class="paragraph" dir="auto"><span class="emph">Alfa</span>: la probabilidad límite que se obtiene o supera.</p>
+
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id285666" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=INV.BINOM(8;0,6;0,9)</span> devuelve 7, el número más pequeño cuya distribución binómica acumulada es mayor que o igual al valor del criterio indicado.</p>
+<div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+<div class="embedded">
+<a id="4.2"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.2 de LibreOffice.</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+<p id="par_id341640873986706" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.BINOM.INV</span></p>
+<a id="chisqdotinv"></a>
+<a id="bm_id2919200902430717"></a>
+<a id="bm_id2919200902432928"></a>  <meta itemprop="keywords" content="función INV.CHICUAD">
+<h2 id="hd_id2919200902421451" dir="auto">INV.CHICUAD</h2>
+<p id="par_id2919200902421449" class="paragraph" dir="auto"><span class="avis">Devuelve el inverso de la probabilidad de lateral izquierdo de la distribución ji cuadrado.</span></p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id1150504" class="code" dir="auto">INV.CHICUAD(Probabilidad; GradosDeLibertad)</p>
+<p id="par_id2919200902475286" class="paragraph" dir="auto"><span class="emph">Probabilidad</span> es el valor de probabilidad para el cual se debe calcular la inversa de la distribución de la ji al cuadrado.</p>
+<p id="par_id2919200902475282" class="paragraph" dir="auto"><span class="emph">Grados de libertad</span> es la cantidad de grados de libertad de la función de la ji al cuadrado.</p>
+
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id275666" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=INV.CHICUAD(0,5;1)</span> devuelve 0,4549364231.</p>
+<div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+<div class="embedded">
+<a id="4.2"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.2 de LibreOffice.</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+<p id="par_id341640873986753" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.CHISQ.INV</span></p>
+<a id="chisqdotinvdotrt"></a>
+<a id="bm_id2948835"></a>  <meta itemprop="keywords" content="función INV.CHICUAD.CD">
+
+<a id="bm_id2948823"></a>
+
+<h2 id="hd_id2948835" dir="auto">INV.CHICUAD.CD</h2>
+<p id="par_id2949906" class="paragraph" dir="auto"><span class="avis">Devuelve la inversa de la probabilidad de una cola de la distribución chi cuadrado.</span></p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id2950504" class="code" dir="auto">INV.CHICUAD.CD(Número; GradosDeLibertad)</p>
+<p id="par_id2954898" class="paragraph" dir="auto"><span class="emph">Número</span> es el valor de la probabilidad de error.</p>
+<p id="par_id2954294" class="paragraph" dir="auto"><span class="emph">GradosdeLibertad</span> son los grados de libertad del experimento.</p>
+
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id2950777" class="paragraph" dir="auto">Se tira un dado 1020 veces. Los números de las caras del 1 al 6 aparecen 195, 151, 148, 189, 183 y 154 veces (valores observados). Se debe verificar la hipótesis de si el dado es real.</p>
+<p id="par_id2953062" class="paragraph" dir="auto">La distribución del cuadrado de chi de la muestra se calcula con la fórmula anterior. Como el valor previsto para cada uno de los números de las caras en n dados n veces es 1/6, entonces 1020/6 = 170, la fórmula da un valor de cuadrado de chi de 13,27.</p>
+<p id="par_id2948806" class="paragraph" dir="auto">Si el cuadrado de chi (observado) es mayor o igual al cuadrado PRUEBA.CHI.INV (teórico), entonces se descarta la hipótesis, pues la desviación entre teoría y práctica es demasiado grande. Si el cuadrado chi observado es inferior a PRUEBA.CHI.INV, entonces la hipótesis cumple el intervalo de probabilidad de error dado.</p>
+<p id="par_id2949763" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=INV.CHICUAD.CD(0,05;5)</span> devuelve 11,0704976935.</p>
+<p id="par_id2959142" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=INV.CHICUAD.CD(0,02;5)</span> devuelve 13,388222599.</p>
+<p id="par_id2958401" class="paragraph" dir="auto">Con un intervalo de probabilidad de error del 5% el dado no es de verdad; si el intervalo de error es del 2% no hay razón para cuestionar su veracidad.</p>
+<div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+<div class="embedded">
+<a id="4.2"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.2 de LibreOffice.</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+<p id="par_id341640873983703" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.CHISQ.INV.RT</span></p>
+<a id="intercept"></a>
+<a id="bm_id3145632"></a>  <meta itemprop="keywords" content="INTERSECCION.EJE">  <meta itemprop="keywords" content="puntos de intersección">  <meta itemprop="keywords" content="intersecciones">
+
+<a id="bm_id3153018"></a>
+
+<h2 id="hd_id3145632" dir="auto">NTERSECCIÓN.EJE</h2>
+<p id="par_id3146887" class="paragraph" dir="auto"><span class="avis">Calcula el punto de intersección de una línea con los valores y utilizando los valores x e y conocidos.</span></p>
+
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id3149718" class="code" dir="auto">INTERSECCION.EJE(DatosY; DatosX)</p>
+<p id="par_id3149947" class="paragraph" dir="auto"><span class="emph">DatosY</span> es el conjunto dependiente de observaciones o datos.</p>
+<p id="par_id3147412" class="paragraph" dir="auto"><span class="emph">DatosX</span> es el conjunto independiente de observaciones o datos.</p>
+<p id="par_id3152983" class="paragraph" dir="auto">Se deben utilizar nombres, matrices o referencias que contengan números. También se pueden escribir números directamente.</p>
+
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id3148728" class="paragraph" dir="auto">Para calcular el eje de intersección se utilizan como valor Y las celdas D3:D9 y como valor X, las celdas C3:C9 de la hoja de ejemplo. La entrada queda como sigue:</p>
+<p id="par_id3149013" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=INTERSECCION.EJE(D3:D9;C3:C9)</span> = 2,15.</p>
+<a id="chitest"></a>
+<a id="bm_id3154260"></a>  <meta itemprop="keywords" content="PRUEBA.JI">
+
+<a id="bm_id3155355"></a>
+
+<h2 id="hd_id3154260" dir="auto">PRUEBA.CHI</h2>
+<p id="par_id3151052" class="paragraph" dir="auto"><span class="avis">Devuelve la probabilidad de una desviación de una distribución aleatoria de dos series de prueba basándose en las pruebas de chi  cuadrado para la independencia.</span> PRUEBA.CHI devuelve la distribución del cuadrado de chi de los datos.</p>
+<p id="par_id3148925" class="paragraph" dir="auto">El intervalo de probabilidad calculado mediante PRUEBA.CHI también se puede determinar mediante DISTR.CHI; en este caso en lugar de una serie de datos, el chi cuadrado de la muestra se debe presentar como parámetro.</p>
+
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id3149162" class="code" dir="auto">PRUEBA.CHI(DatosB; DatosE)</p>
+<p id="par_id3158421" class="paragraph" dir="auto"><span class="emph">DatosB</span> es la matriz de las observaciones.</p>
+<p id="par_id3166453" class="paragraph" dir="auto"><span class="emph">DatosE</span> es el intervalo de valores esperados.</p>
+
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+
+<div class="embedded">
+<a id="data_sample"></a>
+<table border="1" class="" cellpadding="0" cellspacing="0">
+  <tr>
+    <td rowspan="" colspan="" dir="auto">
+    </td>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+      <p id="par_id2954096" class="tableheadintable" dir="auto">B (observado)</p>
+    </th>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+      <p id="par_id2952948" class="tableheadintable" dir="auto">E (previsto)</p>
+    </th>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+      <p id="par_id2952876" class="tableheadintable" dir="auto">1</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_id2959279" class="tablecontentintable" dir="auto">195</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_id2949105" class="tablecontentintable" dir="auto">170</p>
+    </td>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+      <p id="par_id2949922" class="tableheadintable" dir="auto">2</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_id2948621" class="tablecontentintable" dir="auto">151</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_id2948987" class="tablecontentintable" dir="auto">170</p>
+    </td>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+      <p id="par_id2949417" class="tableheadintable" dir="auto">3</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_id2948661" class="tablecontentintable" dir="auto">148</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_id2951128" class="tablecontentintable" dir="auto">170</p>
+    </td>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+      <p id="par_id2948467" class="tableheadintable" dir="auto">4</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_id2949237" class="tablecontentintable" dir="auto">189</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_id2945304" class="tablecontentintable" dir="auto">170</p>
+    </td>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+      <p id="par_id2949927" class="tableheadintable" dir="auto">5</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_id2950630" class="tablecontentintable" dir="auto">183</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_id2950423" class="tablecontentintable" dir="auto">170</p>
+    </td>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+      <p id="par_id2943275" class="tableheadintable" dir="auto">6</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_id2944750" class="tablecontentintable" dir="auto">154</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_id2953947" class="tablecontentintable" dir="auto">170</p>
+    </td>
+  </tr>
+</table>
+<br>
+</div>
+
+<p id="par_id3149481" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=PRUEBA.CHI(A1:A6;B1:B6)</span> es igual a 0,02. Es la probabilidad con la que se cumple la distribución teórica del cuadrado de chi.</p>
+<a id="chiinv"></a>
+<a id="bm_id3148835"></a>  <meta itemprop="keywords" content="función PRUEBA.CHI.INV">
+
+<a id="bm_id3148823"></a>
+
+<h2 id="hd_id3148835" dir="auto">PRUEBA.CHI.INV</h2>
+<p id="par_id3149906" class="paragraph" dir="auto"><span class="avis">Devuelve la inversa de la probabilidad unilateral de la distribución chi cuadrado.</span></p>
+
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id3150504" class="code" dir="auto">PRUEBA.CHI.INV(Número; GradosdeLibertad)</p>
+<p id="par_id3154898" class="paragraph" dir="auto"><span class="emph">Número</span> es el valor de la probabilidad de error.</p>
+<p id="par_id3154294" class="paragraph" dir="auto"><span class="emph">GradosdeLibertad</span> son los grados de libertad del experimento.</p>
+<div class="embedded">
+<a id="IntegerTrunc"></a>
+        <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">En el caso de los argumentos de tipo entero, los valores que no sean enteros se truncan al entero.</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id3150777" class="paragraph" dir="auto">Se tira un dado 1020 veces. Los números de las caras del 1 al 6 aparecen 195, 151, 148, 189, 183 y 154 veces (valores observados). Se debe verificar la hipótesis de si la cara no es fija.</p>
+<p id="par_id3153062" class="paragraph" dir="auto">La distribución del cuadrado de chi de la muestra se calcula con la fórmula anterior. Como el valor previsto para cada uno de los números de las caras en n dados n veces es 1/6, entonces 1020/6 = 170, la fórmula da un valor de cuadrado de chi de 13,27.</p>
+<p id="par_id3148806" class="paragraph" dir="auto">Si el cuadrado de chi (observado) es mayor o igual al cuadrado PRUEBA.CHI.INV (teórico), entonces se descarta la hipótesis, pues la desviación entre teoría y práctica es demasiado grande. Si el cuadrado chi observado es inferior a PRUEBA.CHI.INV, entonces la hipótesis cumple el intervalo de probabilidad de error dado.</p>
+<p id="par_id3149763" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=PRUEBA.CHI.INV(0,05;5)</span> devuelve 11,07.</p>
+<p id="par_id3159142" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=PRUEBA.CHI.INV(0,02;5)</span> devuelve 13,39.</p>
+<p id="par_id3158401" class="paragraph" dir="auto">Si la probabilidad de error es el 5% el dado no es de verdad; si la probabilifad de error es del 2% no hay razón para cuestionar su veracidad.</p>
+<a id="chidottest"></a>
+<a id="bm_id2954260"></a>  <meta itemprop="keywords" content="función PRUEBA.CHICUAD">
+
+<a id="bm_id2955355"></a>
+
+<h2 id="hd_id2954260" dir="auto">PRUEBA.CHICUAD</h2>
+<p id="par_id2951052" class="paragraph" dir="auto"><span class="avis">Devuelve la probabilidad de una desviación de una distribución aleatoria de dos series de prueba basándose en las pruebas del cuadrado de chi para la independencia.</span> PRUEBA.CHICUAD devuelve la distribución de chi cuadrado de los datos.</p>
+<p id="par_id2948925" class="paragraph" dir="auto">El intervalo de probabilidad calculado mediante PRUEBA.CHI también se puede determinar mediante DISTR.CHICUAD; en este caso el cuadrado de chi de la muestra se debe presentar como parámetro en lugar de una serie de datos.</p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id2949162" class="code" dir="auto">PRUEBA.CHICUAD(DatoB; DatoE)</p>
+<p id="par_id2958421" class="paragraph" dir="auto"><span class="emph">DatosB</span> es la matriz de las observaciones.</p>
+<p id="par_id2966453" class="paragraph" dir="auto"><span class="emph">DatosE</span> es el intervalo de valores esperados.</p>
+
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<a id="data_sample"></a>
+<table border="1" class="" cellpadding="0" cellspacing="0">
+  <tr>
+    <td rowspan="" colspan="" dir="auto">
+    </td>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+      <p id="par_id2954096" class="tableheadintable" dir="auto">B (observado)</p>
+    </th>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+      <p id="par_id2952948" class="tableheadintable" dir="auto">E (previsto)</p>
+    </th>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+      <p id="par_id2952876" class="tableheadintable" dir="auto">1</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_id2959279" class="tablecontentintable" dir="auto">195</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_id2949105" class="tablecontentintable" dir="auto">170</p>
+    </td>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+      <p id="par_id2949922" class="tableheadintable" dir="auto">2</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_id2948621" class="tablecontentintable" dir="auto">151</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_id2948987" class="tablecontentintable" dir="auto">170</p>
+    </td>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+      <p id="par_id2949417" class="tableheadintable" dir="auto">3</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_id2948661" class="tablecontentintable" dir="auto">148</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_id2951128" class="tablecontentintable" dir="auto">170</p>
+    </td>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+      <p id="par_id2948467" class="tableheadintable" dir="auto">4</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_id2949237" class="tablecontentintable" dir="auto">189</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_id2945304" class="tablecontentintable" dir="auto">170</p>
+    </td>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+      <p id="par_id2949927" class="tableheadintable" dir="auto">5</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_id2950630" class="tablecontentintable" dir="auto">183</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_id2950423" class="tablecontentintable" dir="auto">170</p>
+    </td>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+      <p id="par_id2943275" class="tableheadintable" dir="auto">6</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_id2944750" class="tablecontentintable" dir="auto">154</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_id2953947" class="tablecontentintable" dir="auto">170</p>
+    </td>
+  </tr>
+</table>
+<br>
+
+<p id="par_id2949481" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=PRUEBA.CHICUAD(A1:A6;B1:B6)</span> es igual a 0,0209708029. Es la probabilidad con la que se cumple la distribución teórica del cuadrado de chi.</p>
+<div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+<div class="embedded">
+<a id="4.2"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.2 de LibreOffice.</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+<p id="par_id341640873989703" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.CHISQ.TEST</span></p>
+
+
+<a id="relatedtopics"></a><div class="relatedtopics">
+<p class="related" itemprop="mentions" dir="auto"><a id="related"></a><span class="emph">Temas relacionados</span></p>
+<div class="relatedbody" itemprop="mentions">
+<div class="embedded"><p class="embedded" dir="auto"><a target="_top" href="es/text/scalc/01/04060100.html">Funciones por categoría</a></p></div>
+</div>
+</div>
+</div>
+<div id="DonationFrame"><a href="https://www.libreoffice.org/donate/?pk_campaign=help" target="_blank"><div class="icontable donation">
+<div class="iconcell"><img class="iconimage" src="media/helpimg/donate.png" alt="¡Necesitamos su ayuda!" style="width:40px;height:40px;"></div>
+<div class="iconcell"><p dir="auto">¡Necesitamos su ayuda!</p></div>
+</div></a></div>
+<footer><h2 style="text-align: center;"><a href="https://books.libreoffice.org" target="_blank">Guías de LibreOffice</a></h2>
+<div class="noteicon" dir="auto" style="display:flex;justify-content:center;flex-wrap:wrap;row-gap:15px;">
+<img src="media/navigation/libo-writer.svg" alt="Writer Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-calc.svg" alt="Calc Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-impress.svg" alt="Impress Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-draw.svg" alt="Draw Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-base.svg" alt="Base Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-math.svg" alt="Math Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-symbol-black.svg" alt="Getting Started Icon" style="width:60px;height:60px;">
+</div>
+<p itemscope="true" itemtype="http://schema.org/Organization" dir="auto"><meta itemprop="name" content="The Document Foundation"><meta itemprop="legalName" content="The Document Foundation"><meta itemprop="alternateName" content="TDF"><meta itemprop="publishingPrinciples" content="https://www.libreoffice.org/imprint"><a href="https://www.libreoffice.org/imprint" target="_blank">Impressum (Legal Info)</a> | <a href="https://www.libreoffice.org/privacy" target="_blank">Privacy Policy</a> | <a href="https://www.documentfoundation.org/statutes.pdf" target="_blank">Statutes (non-binding English translation)</a> - <a href="https://www.documentfoundation.org/satzung.pdf" target="_blank">Satzung (binding German version)</a> | Copyright information: Unless otherwise specified, all text and images on this website are licensed under the <a href="https://www.libreoffice.org/download/license/" target="_blank">Mozilla Public License v2.0</a>. “LibreOffice” and “The Document Foundation” are registered trademarks of their corresponding registered owners or are in actual use as trademarks in one or more countries. Their respective logos and icons are also subject to international copyright laws. Use thereof is explained in our <a href="https://wiki.documentfoundation.org/TradeMark_Policy" target="_blank">trademark policy</a>. LibreOffice was based on OpenOffice.org.</p>
+<div id="DEBUG" class="debug">
+<h3 class="bug">Help content debug info:</h3>
+<p dir="auto">This page is: <a href="https://opengrok.libreoffice.org/xref/help/source/text/scalc/01/04060181.xhp" target="_blank">/text/scalc/01/04060181.xhp</a></p>
+<p dir="auto">Title is: Funciones estadísticas, primera parte</p>
+<p id="bm_module" dir="auto"></p>
+<p id="bm_system" dir="auto"></p>
+<p id="bm_HID" dir="auto"></p>
+</div></footer>
+</body>
+</html>

@@ -1,0 +1,1287 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+<base href="../../../../">
+<title>Funciones estadísticas, quinta parte</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline' 'unsafe-eval' piwik.documentfoundation.org">
+<link rel="shortcut icon" href="media/navigation/favicon.ico">
+<link type="text/css" href="normalize.css" rel="Stylesheet">
+<link type="text/css" href="prism.css" rel="Stylesheet">
+<link type="text/css" href="default.css" rel="Stylesheet">
+<script type="text/javascript" src="polyfills.js"></script><script type="text/javascript" src="languages.js"></script><script type="text/javascript" src="es/langnames.js"></script><script type="text/javascript" src="flexsearch.compact.debug.js"></script><script type="text/javascript" src="prism.js"></script><script type="text/javascript" src="help2.js" defer></script><script type="text/javascript" src="tdf_matomo.js" defer></script><script type="text/javascript" src="a11y-toggle.js" defer></script><script type="text/javascript" src="paginathing.js" defer></script><script type="text/javascript" src="es/bookmarks.js" defer></script><script type="text/javascript" src="es/contents.js" defer></script><script type="text/javascript" src="help.js" defer></script><meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<header id="TopLeftHeader"><a class="symbol" href="es/text/shared/05/new_help.html"><div></div></a><a class="logo" href="es/text/shared/05/new_help.html"><p dir="auto">Ayuda de LibreOffice 26.8</p></a><div class="dropdowns">
+<div class="modules">
+<button type="button" data-a11y-toggle="modules-nav" id="modules" aria-haspopup="true" aria-expanded="false" aria-controls="modules-nav">Módulo</button><nav id="modules-nav" hidden=""></nav>
+</div>
+<div class="lang">
+<button type="button" data-a11y-toggle="langs-nav" id="langs" aria-haspopup="true" aria-expanded="false" aria-controls="modules-nav">Idioma</button><nav id="langs-nav" hidden=""></nav>
+</div>
+</div></header><aside class="leftside"><input id="accordion-1" name="accordion-menu" type="checkbox"><label for="accordion-1" dir="auto">Contenido</label><div id="Contents" class="contents-treeview"></div></aside><div id="SearchFrame"><div id="Bookmarks">
+<input id="search-bar" type="search" class="search" placeholder="Buscar en los marcadores del módulo elegido" dir="auto"><div class="nav-container" tabindex="0"><nav class="index" dir="auto"></nav></div>
+</div></div>
+<div id="DisplayArea" itemprop="softwareHelp" itemscope="true" itemtype="http://schema.org/SoftwareApplication">
+<noscript><div id="WarnJS"><h1 dir="auto">Active JavaScript en el navegador para mostrar las páginas de ayuda de LibreOffice.</h1></div></noscript>
+<div class="xapian-omega-search"><form name="P" method="get" action="/26.8/es/search" target="_top">
+<input id="omega-autofocus" type="search" name="P" placeholder="Buscar en todas las páginas de la Ayuda" dir="auto"><input type="submit" class="xapian-omega-search-button" value="🔍">
+</form></div>
+<meta itemprop="applicationCategory" content="BusinessApplication">
+<meta itemprop="applicationSuite" content="LibreOffice">
+<meta itemprop="name" content="LibreOffice">
+<meta itemprop="operatingsystem" content="Windows, Linux, MacOS">
+<meta itemprop="author.name" content="The LibreOffice Documentation Team">
+<meta itemprop="publisher.name" content="The Document Foundation">
+<meta itemprop="softwareVersion" content="26.8">
+<meta itemprop="inLanguage" content="es">
+<meta itemprop="datePublished" content="2020">
+<meta itemprop="headline" content="Funciones estadísticas, quinta parte">
+<meta itemprop="license" content="https://www.libreoffice.org/download/license/">
+<meta itemprop="image" content="media/navigation/libo-symbol-white.svg">
+      <h1 id="hd_id3147072" dir="auto">
+<a id="rz"></a>Funciones estadísticas, quinta parte</h1>
+
+
+
+
+      
+<a id="skewp"></a>
+       <div class="embedded">
+<a id="skewp_function"></a>
+
+
+<h2 id="hd_id456845684568" dir="auto"><a target="_top" href="es/text/scalc/01/func_skewp.html">COEFICIENTE.ASIMETRIA.P</a></h2>
+<p id="par_id1102201617001848" class="paragraph" dir="auto"><span class="avis">Devuelve la asimetría de una distribución utilizando la población de una variable aleatoria.</span></p>
+<div class="embedded">
+<a id="4.1"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.1 de LibreOffice.</p></div>
+</div>
+<br>
+    </div>
+
+<div class="embedded">
+<a id="func_head_syntax"></a>
+    <h3 id="hd_id126511265112651" dir="auto">Sintaxis</h3>
+  </div>
+<p id="par_id27421466710275" class="code" dir="auto">COEFICIENTE.ASIMETRIA.P(Argument 1 [; Argument 2 [; …  [; Argument 255]]])</p>
+<div class="embedded">
+<a id="argument255"></a>
+      <p id="par_id1001754569677921" class="paragraph" dir="auto"><span class="emph">Argument 1; Argument 2; … ; Argument 255</span> are numbers, text, references to cells or to cell ranges of numbers or text.</p>
+    </div>
+<p id="par_id242131304315587" class="paragraph" dir="auto">Los parámetros deben especificar por lo menos tres valores.</p>
+<div class="embedded">
+<a id="datenumbersequencenote"></a>
+        <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de <a target="_top" href="es/text/scalc/01/03080000.html">resalte de valores</a>.</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="func_head_example"></a>
+    <h3 id="hd_id980889808898088" dir="auto">Ejemplos</h3>
+  </div>
+<p id="par_id1102201617001888" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">COEFICIENTE.ASIMETRIA.P</span> devuelve 0.2329985562</p>
+<p id="par_id1102201618185378" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">COEFICIENTE.ASIMETRIA.P(A1:A6)</span> devuelve0.2329985562,cuando el rango A1:A6 contiene {2;3;1;6;8;5}</p>
+</div>
+
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+
+      
+
+
+
+      
+
+      
+      
+
+      
+      
+      
+      
+      
+
+<a id="skew"></a>
+<a id="bm_id3153556"></a><meta itemprop="keywords" content="COEFICIENTE.ASIMETRIA">
+<a id="bm_id3153801"></a>
+<h2 id="hd_id3153556" dir="auto">COEFICIENTE.ASIMETRIA</h2>
+         <p id="par_id3153485" class="paragraph" dir="auto"><span class="avis">Devuelve el sesgo de una distribución.</span></p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+
+         <p id="par_id3151191" class="code" dir="auto">COEFICIENTE.ASIMETRIA(Argument 1 [; Argument 2 [; …  [; Argument 255]]])</p>
+        <div class="embedded">
+<a id="argument255"></a>
+      <p id="par_id1001754569677921" class="paragraph" dir="auto"><span class="emph">Argument 1; Argument 2; … ; Argument 255</span> are numbers, text, references to cells or to cell ranges of numbers or text.</p>
+    </div>
+        <p id="par_id171585151428396" class="paragraph" dir="auto">Los parámetros deben especificar por lo menos tres valores.</p>
+        <div class="embedded">
+<a id="datenumbersequencenote"></a>
+        <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de <a target="_top" href="es/text/scalc/01/03080000.html">resalte de valores</a>.</p></div>
+</div>
+<br>
+    </div>
+        <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id3145118" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=COEFICIENTE.ASIMETRIA(A1:A50)</span> calcula el valor del coeficiente de asimetría de los datos referenciados.</p>
+      <a id="stdev"></a>
+<a id="bm_id3149143"></a><meta itemprop="keywords" content="función DESVEST">
+<meta itemprop="keywords" content="desviación típica en estadística,basadas en una muestra">
+<a id="bm_id3153121"></a>
+<h2 id="hd_id3149143" dir="auto">
+<a id="stdev_head"></a><a target="_top" href="es/text/scalc/01/04060185.html#stdev">DESVEST</a>
+</h2>
+         <p id="par_id3146888" class="paragraph" dir="auto"><span class="avis">Estima la desviación típica a partir de una muestra.</span></p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id3149946" class="code" dir="auto">DESVEST(Argument 1 [; Argument 2 [; …  [; Argument 255]]])</p>
+        <div class="embedded">
+<a id="argument255"></a>
+      <p id="par_id1001754569677921" class="paragraph" dir="auto"><span class="emph">Argument 1; Argument 2; … ; Argument 255</span> are numbers, text, references to cells or to cell ranges of numbers or text.</p>
+    </div>
+        <p id="par_id211585163957345" class="paragraph" dir="auto">Los parámetros deben especificar por lo menos dos valores.</p>
+        <div class="embedded">
+<a id="datenumbersequencenote"></a>
+        <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de <a target="_top" href="es/text/scalc/01/03080000.html">resalte de valores</a>.</p></div>
+</div>
+<br>
+    </div>
+        <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id3149434" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DESVEST(A1:A50)</span> devuelve la desviación típica estimada con base en los datos referenciados.</p>
+      <a id="stdevdots"></a>
+    <a id="bm_id2849734"></a>        <meta itemprop="keywords" content="DESVEST.M">         <meta itemprop="keywords" content="desviación estándar en estadísticas,basadas en una muestra">
+    <a id="bm_id2846139"></a>
+    <h2 id="hd_id2849734" dir="auto">DESVEST.M</h2>
+    <p id="par_id2849187" class="paragraph" dir="auto"><span class="avis">Calcula la desviación típica a partir de una muestra de la población.</span></p>
+    <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+
+    <p id="par_id2854392" class="code" dir="auto">DESVEST.M(Argument 1 [; Argument 2 [; …  [; Argument 255]]])</p>
+    <div class="embedded">
+<a id="argument255"></a>
+      <p id="par_id1001754569677921" class="paragraph" dir="auto"><span class="emph">Argument 1; Argument 2; … ; Argument 255</span> are numbers, text, references to cells or to cell ranges of numbers or text.</p>
+    </div>
+    <p id="par_id671585163972431" class="paragraph" dir="auto">Los parámetros deben especificar por lo menos dos valores.</p>
+    <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+    <p id="par_id2853933" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DESVEST.M(A1:A50)</span> devuelve la desviación típica de los datos referenciados.</p>
+    <div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+    <div class="embedded">
+<a id="4.2"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.2 de LibreOffice.</p></div>
+</div>
+<br>
+    </div>
+    <div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+    <p id="par_id301640873986703" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.STDEV.S</span></p>
+<a id="stdevdotp"></a>
+    <a id="bm_id2949734"></a>        <meta itemprop="keywords" content="DESVEST.P">        <meta itemprop="keywords" content="desviación típica en estadística,basadas en una población">
+    <a id="bm_id2946139"></a>
+    <h2 id="hd_id2949734" dir="auto">DESVEST.P</h2>
+    <p id="par_id2949187" class="paragraph" dir="auto"><span class="avis">Calcula la desviación típica a partir de la población total.</span></p>
+    <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+
+    <p id="par_id2954392" class="code" dir="auto">DESVEST.P(Argument 1 [; Argument 2 [; …  [; Argument 255]]])</p>
+    <div class="embedded">
+<a id="argument255"></a>
+      <p id="par_id1001754569677921" class="paragraph" dir="auto"><span class="emph">Argument 1; Argument 2; … ; Argument 255</span> are numbers, text, references to cells or to cell ranges of numbers or text.</p>
+    </div>
+    <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+    <p id="par_id2953933" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DESVEST.P(A1:A50)</span> calcula la desviación estándar de los datos referenciados.</p>
+    <div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+    <div class="embedded">
+<a id="4.2"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.2 de LibreOffice.</p></div>
+</div>
+<br>
+    </div>
+    <div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+    <p id="par_id341640873986700" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.STDEV.P</span></p>
+<a id="stdeva"></a>
+<a id="bm_id3144745"></a><meta itemprop="keywords" content="DESVESTA">
+<a id="bm_id3154846"></a>
+<h2 id="hd_id3144745" dir="auto">DESVESTA</h2>
+         <p id="par_id3151234" class="paragraph" dir="auto"><span class="avis">Calcula la desviación típica de una estimación a partir de una muestra.</span></p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+
+         <p id="par_id3147422" class="code" dir="auto">DESVESTA(Argument 1 [; Argument 2 [; …  [; Argument 255]]])</p>
+        <div class="embedded">
+<a id="argument255"></a>
+      <p id="par_id1001754569677921" class="paragraph" dir="auto"><span class="emph">Argument 1; Argument 2; … ; Argument 255</span> are numbers, text, references to cells or to cell ranges of numbers or text.</p>
+    </div>
+        <p id="par_id981585163977014" class="paragraph" dir="auto">Los parámetros deben especificar por lo menos dos valores. El texto tiene valor 0.</p>
+        <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id3148581" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DESVESTA(A1:A50)</span> calcula la desviación estándar estimada basada en los datos referenciados.</p>
+      <a id="stdevp"></a>
+<a id="bm_id3149734"></a><meta itemprop="keywords" content="DESVESTP">         <meta itemprop="keywords" content="desviación estándar en estadísticas,basadas en una población">
+<a id="bm_id3146139"></a>
+<h2 id="hd_id3149734" dir="auto">
+<a id="stdevp_head"></a><a target="_top" href="es/text/scalc/01/04060185.html#stdevp">DESVESTP</a>
+</h2>
+         <p id="par_id3149187" class="paragraph" dir="auto"><span class="avis">Calcula la desviación típica a partir de la población total.</span></p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+
+         <p id="par_id3154392" class="code" dir="auto">DESVESTP(Argument 1 [; Argument 2 [; …  [; Argument 255]]])</p>
+        <div class="embedded">
+<a id="argument255"></a>
+      <p id="par_id1001754569677921" class="paragraph" dir="auto"><span class="emph">Argument 1; Argument 2; … ; Argument 255</span> are numbers, text, references to cells or to cell ranges of numbers or text.</p>
+    </div>
+        <div class="embedded">
+<a id="datenumbersequencenote"></a>
+        <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de <a target="_top" href="es/text/scalc/01/03080000.html">resalte de valores</a>.</p></div>
+</div>
+<br>
+    </div>
+        <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id3153933" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DESVESTP(A1:A50)</span> calcula la desviación típica de los datos referenciados.</p>
+      <a id="stdevpa"></a>
+<a id="bm_id3154522"></a><meta itemprop="keywords" content="DESVESTPA">
+<a id="bm_id3150902"></a>
+<h2 id="hd_id3154522" dir="auto">DESVESTPA</h2>
+         <p id="par_id3149549" class="paragraph" dir="auto"><span class="avis">Calcula la desviación típica a partir de la población total.</span></p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id3146851" class="code" dir="auto">DESVESTPA(Argument 1 [; Argument 2 [; …  [; Argument 255]]])</p>
+        <div class="embedded">
+<a id="argument255"></a>
+      <p id="par_id1001754569677921" class="paragraph" dir="auto"><span class="emph">Argument 1; Argument 2; … ; Argument 255</span> are numbers, text, references to cells or to cell ranges of numbers or text.</p>
+    </div>
+        <p id="par_id961585163990543" class="paragraph" dir="auto">El texto tiene un valor de 0.</p>
+        <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id3145163" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DESVESTPA(A1:A50)</span> calcula la desviación estándar de los datos referenciados.</p>
+      <a id="devsq"></a>
+<a id="bm_id3150873"></a><meta itemprop="keywords" content="DESVIA2">         <meta itemprop="keywords" content="sumas, de cuadrados de desviaciones">
+<a id="bm_id3156317"></a>
+<h2 id="hd_id3150873" dir="auto">DESVIA2</h2>
+         <p id="par_id3154748" class="paragraph" dir="auto"><span class="avis">Efectúa la suma de las desviaciones cuadradas de datos a partir del valor medio de la muestra.</span></p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id3146790" class="code" dir="auto">DESVIA2(Argument 1 [; Argument 2 [; …  [; Argument 255]]])</p>
+        <div class="embedded">
+<a id="argument255"></a>
+      <p id="par_id1001754569677921" class="paragraph" dir="auto"><span class="emph">Argument 1; Argument 2; … ; Argument 255</span> are numbers, text, references to cells or to cell ranges of numbers or text.</p>
+    </div>
+        <div class="embedded">
+<a id="datenumbersequencenote"></a>
+        <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de <a target="_top" href="es/text/scalc/01/03080000.html">resalte de valores</a>.</p></div>
+</div>
+<br>
+    </div>
+        <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id3149136" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DESVIA2(A1:A50)</span></p>
+      <a id="weibull"></a>
+<a id="bm_id3150941"></a><meta itemprop="keywords" content="función DIST.WEIBULL">
+<a id="bm_id3150405"></a>
+<h2 id="hd_id3150941" dir="auto">DIST.WEIBULL</h2>
+         <p id="par_id3154916" class="paragraph" dir="auto"><span class="avis">Calcula los valores de distribución de Weibull.</span></p>
+         <p id="par_id0305200911372767" class="paragraph" dir="auto">Weibull es una distribución de probabilidad continua con parámetros Alfa &gt; 0 (forma) y Beta &gt; 0 (escala).</p>
+         <p id="par_id0305200911372777" class="paragraph" dir="auto">Si C es 0, DIST.WEIBULL calcula la función de densidad de probabilidad.</p>
+         <p id="par_id0305200911372743" class="paragraph" dir="auto">Si C es 1, DIST.WEIBULL calcula la función de distribución acumulada.</p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id3154478" class="code" dir="auto">DIST.WEIBULL(Número; Alfa; Beta; C)</p>
+         <p id="par_id3151317" class="paragraph" dir="auto">            <span class="emph">Número</span> es el valor en el que calcular la distribución Weibull.</p>
+         <p id="par_id3158436" class="paragraph" dir="auto">            <span class="emph">Alfa</span> es el parámetro de forma de la distribución Weibull.</p>
+         <p id="par_id3154668" class="paragraph" dir="auto">            <span class="emph">Beta</span> es el parámetro de escala de la distribución Weibull.</p>
+         <p id="par_id3154825" class="paragraph" dir="auto">            <span class="emph">C</span> indica el tipo de función.</p>
+        <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id3146077" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DIST.WEIBULL(2;1;1;1)</span> devuelve 0,86.</p>
+         <p id="par_id0305200911372899" class="paragraph" dir="auto">Consulte también la <a target="_blank" href="https://wiki.documentfoundation.org/Documentation/How_Tos/Calc:_WEIBULL_function">página del wiki</a>.</p>
+      <a id="normsdist"></a>
+<a id="bm_id3147538"></a><meta itemprop="keywords" content="DISTR.NORM.ESTAND">         <meta itemprop="keywords" content="distribución normal,estadísticas">
+<a id="bm_id3145269"></a>
+<h2 id="hd_id3147538" dir="auto">DISTR.NORM.ESTAND</h2>
+         <p id="par_id3150474" class="paragraph" dir="auto"><span class="avis">Calcula la función de distribución normal predeterminada acumulativa. La distribución tiene una media de cero y una desviación estándar de uno.</span></p>
+         <p id="par_id8652302" class="paragraph" dir="auto">Es GAUSS(x)=NORMSDIST(x)-0.5</p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id3158411" class="code" dir="auto">DISTR.NORM.ESTAND(z)</p>
+         <p id="par_id3154950" class="paragraph" dir="auto">            <span class="emph">Número</span> es el valor sobre el cual se calcula la distribución acumulativa normal estándar.</p>
+        <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id3155984" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DISTR.NORM.ESTAND(1)</span> devuelve 0,84. El área por debajo de la curva de distribución normal estándar a la izquierda del valor X 1 es el 84 % del área total.</p>
+      <a id="normsinv"></a>
+<a id="bm_id3157986"></a><meta itemprop="keywords" content="DISTR.NORM.ESTAND.INV">         <meta itemprop="keywords" content="distribución normal,inversa de la estándar">
+<a id="bm_id3148389"></a>
+<h2 id="hd_id3157986" dir="auto">DISTR.NORM.ESTAND.INV</h2>
+         <p id="par_id3151282" class="paragraph" dir="auto"><span class="avis">Devuelve el inverso de la distribución normal predeterminada acumulativa.</span></p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id3154195" class="code" dir="auto">DISTR.NORM.ESTAND.INV(Número)</p>
+         <p id="par_id3148772" class="paragraph" dir="auto">            <span class="emph">Número</span> es la probabilidad para la que se calcula la distribución normal estándar inversa.</p>
+        <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id3149030" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DISTR.NORM.ESTAND.INV(0,908789)</span> devuelve 1,3333.</p>
+      <a id="normdotsdotdist"></a>
+<a id="bm_id2947538"></a><meta itemprop="keywords" content="DISTR.NORM.ESTAND.N">         <meta itemprop="keywords" content="distribución normal,estadísticas">
+<a id="bm_id2945269"></a>
+<h2 id="hd_id2947538" dir="auto">DISTR.NORM.ESTAND.N</h2>
+         <p id="par_id2950474" class="paragraph" dir="auto"><span class="avis">Calcula la función de distribución normal predeterminada acumulativa. La distribución tiene una media de cero y una desviación estándar de uno.</span></p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id2958411" class="code" dir="auto">DISTR.NORM.ESTAND.N(Número; Acumulado)</p>
+         <p id="par_id2954950" class="paragraph" dir="auto">            <span class="emph">Número</span> es el valor sobre el cual se calcula la distribución acumulativa normal estándar.</p>
+         <p id="par_id2954951" class="paragraph" dir="auto">            <span class="emph">Acumulado</span> 0 o Falso calcula la función de densidad de probabilidad. Otros valores o Verdadero calcula la función de distribución acumulativa.</p>
+        <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id2955984" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DISTR.NORM.ESTAND.N(1;0)</span> devuelve 0.2419707245.</p>
+         <p id="par_id2955985" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DISTR.NORM.ESTAND.N(1)</span> devuelve 0,8413447461. El área por debajo de la curva de distribución normal estándar a la izquierda del valor X 1 es el 84 % del área total.</p>
+        <div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+         <div class="embedded">
+<a id="4.3"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.3 de LibreOffice</p></div>
+</div>
+<br>
+    </div>
+        <div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+        <p id="par_id341640873980003" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.NORM.S.DIST</span></p>
+        <a id="tdist"></a>
+<a id="bm_id3154930"></a><meta itemprop="keywords" content="DISTR.T">         <meta itemprop="keywords" content="distribución t">
+<a id="bm_id3153095"></a>
+<h2 id="hd_id3154930" dir="auto">DISTR.T</h2>
+         <p id="par_id3153372" class="paragraph" dir="auto"><span class="avis">Devuelve la distribución t.</span></p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id3150521" class="code" dir="auto">DISTR.T(Número; GradosdeLibertad; Modo)</p>
+         <p id="par_id3146991" class="paragraph" dir="auto">            <span class="emph">Número</span> es el valor para el cual se calcula la distribución t.</p>
+         <p id="par_id3148824" class="paragraph" dir="auto">            <span class="emph">GradosdeLibertad</span> es el número de grados de libertad de la distribución t.</p>
+         <p id="par_id3149340" class="paragraph" dir="auto">            <span class="emph">Modo</span> = 1 devuelve la prueba unilateral, <span class="emph">Modo</span> = 2 devuelve la prueba bilateral.</p>
+        <div class="embedded">
+<a id="IntegerTrunc"></a>
+        <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">En el caso de los argumentos de tipo entero, los valores que no sean enteros se truncan al entero.</p></div>
+</div>
+<br>
+    </div>
+        <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id3149773" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DISTR.T(12;5;1)</span></p>
+      <a id="tdotdistdot2t"></a>
+    <a id="bm_id2854930"></a>        <meta itemprop="keywords" content="DISTR.T.2C">         <meta itemprop="keywords" content="distribución t de dos colas">
+    <a id="bm_id2853095"></a>
+    <h2 id="hd_id2854930" dir="auto">DISTR.T.2C</h2>
+    <p id="par_id2853372" class="paragraph" dir="auto"><span class="avis">Calcula la distribución t bilateral de Student, utilizada frecuentemente para probar hipótesis en conjuntos de datos pequeños.</span></p>
+    <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+    <p id="par_id2850521" class="code" dir="auto">DISTR.T.2C(Número; GradosdeLibertad)</p>
+    <p id="par_id2846991" class="paragraph" dir="auto"><span class="emph">Número</span> es el valor para el cual se calculará la distribución t.</p>
+    <p id="par_id2848824" class="paragraph" dir="auto"><span class="emph">GradosdeLibertad</span> es el número de grados de libertad de la distribución t.</p>
+    <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+    <p id="par_id2849773" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DISTR.T.2C(1; 10)</span> returns 0.3408931323.</p>
+    <div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+    <div class="embedded">
+<a id="4.3"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.3 de LibreOffice</p></div>
+</div>
+<br>
+    </div>
+    <div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+    <p id="par_id341655873986703" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.T.DIST.2T</span></p>
+<a id="tdotdistdotrt"></a>
+    <a id="bm_id274930"></a>        <meta itemprop="keywords" content="DISTR.T.CD">         <meta itemprop="keywords" content="distribución t de cola derecha">
+    <a id="bm_id273095"></a>
+    <h2 id="hd_id274930" dir="auto">DISTR.T.CD</h2>
+    <p id="par_id2753372" class="paragraph" dir="auto"><span class="avis">Calcula la distribución t de Student de lateral derecha, que es una distribución de probabilidad continua utilizada frecuentemente para probar hipótesis en conjuntos de datos pequeños.</span></p>
+    <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+    <p id="par_id2750521" class="code" dir="auto">DISTR.T.CD(Número; GradosdeLibertad)</p>
+    <p id="par_id2746991" class="paragraph" dir="auto"><span class="emph">Número</span> es el valor para el cual se calcula la distribución t.</p>
+    <p id="par_id2748824" class="paragraph" dir="auto"><span class="emph">GradosdeLibertad</span> es el número de grados de libertad de la distribución t.</p>
+    <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+    <p id="par_id2749773" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DISTR.T.CD(1; 10)</span> devuelve 0.1704465662.</p>
+    <div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+    <div class="embedded">
+<a id="4.3"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.3 de LibreOffice</p></div>
+</div>
+<br>
+    </div>
+    <div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+    <p id="par_id341640873911703" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.T.DIST.RT</span></p>
+<a id="tinv"></a>
+<a id="bm_id3149579"></a><meta itemprop="keywords" content="DISTR.T.INV">         <meta itemprop="keywords" content="inverso de distribución t">
+<a id="bm_id3153155"></a>
+<h2 id="hd_id3149579" dir="auto">DISTR.T.INV</h2>
+         <p id="par_id3143232" class="paragraph" dir="auto"><span class="avis">Calcula el inverso de la distribución t.</span></p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id3149289" class="code" dir="auto">DISTR.T.INV(Número; GradosdeLibertad)</p>
+         <p id="par_id3154070" class="paragraph" dir="auto">            <span class="emph">Número</span> es la probabilidad asociada con la distribución t bilateral.</p>
+         <p id="par_id3155315" class="paragraph" dir="auto">            <span class="emph">GradosdeLibertad</span> es el número de grados de libertad de la distribución t.</p>
+        <div class="embedded">
+<a id="IntegerTrunc"></a>
+        <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">En el caso de los argumentos de tipo entero, los valores que no sean enteros se truncan al entero.</p></div>
+</div>
+<br>
+    </div>
+        <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id3156010" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DISTR.T.INV(0,1;6)</span> devuelve 1,94.</p>
+      <a id="tdotdist"></a>
+    <a id="bm_id2954930"></a>        <meta itemprop="keywords" content="DISTR.T.N">         <meta itemprop="keywords" content="distribución t">
+    <a id="bm_id2953095"></a>
+    <h2 id="hd_id2954930" dir="auto">DISTR.T.N</h2>
+    <p id="par_id2953372" class="paragraph" dir="auto"><span class="avis">Devuelve la distribución t.</span></p>
+    <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+    <p id="par_id2950521" class="code" dir="auto">DISTR.T(Número; GradosdeLibertad; Acumulativa)</p>
+    <p id="par_id2946991" class="paragraph" dir="auto"><span class="emph">Número</span> es el valor para el cual se calcula la distribución t.</p>
+    <p id="par_id2948824" class="paragraph" dir="auto"><span class="emph">GradosDeLibertad</span> es el número de grados de libertad de la distribución t.</p>
+    <p id="par_id2949340" class="paragraph" dir="auto"><span class="emph">Acumulativa</span> 0 o Falso devuelve la función de densidad de probabilidad. 1 o Verdadero devuelve la función de distribución acumulativa.</p>
+    <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+    <p id="par_id2949773" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DISTR.T.N(1; 10; TRUE)</span> returns 0.8295534338</p>
+    <div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+    <div class="embedded">
+<a id="4.3"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.3 de LibreOffice</p></div>
+</div>
+<br>
+    </div>
+    <div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+    <p id="par_id341330873986703" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.T.DIST</span></p>
+<a id="weibulldotdist"></a>
+    <a id="bm_id2950941"></a>        <meta itemprop="keywords" content="función DISTR.WEIBULL">
+    <a id="bm_id3150406"></a>
+    <h2 id="hd_id2950941" dir="auto">DISTR.WEIBULL</h2>
+    <p id="par_id2954916" class="paragraph" dir="auto"><span class="avis">Devuelve los valores de la distribución Weibull.</span></p>
+    <p id="par_id2905200911372767" class="paragraph" dir="auto">La distribución Weibull es una distribución de probabilidad continua con parámetros Alfa &gt; 0 (forma) y Beta &gt; 0 (escala).</p>
+    <p id="par_id2905200911372777" class="paragraph" dir="auto">Si C es 0, WEIBULL.DIST calcula la función de densidad de probabilidad.</p>
+    <p id="par_id2905200911372743" class="paragraph" dir="auto">Si C es 1, WEIBULL.DIST calcula la función de distribución acumulativa.</p>
+    <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+    <p id="par_id2954478" class="code" dir="auto">WEIBULL.DIST(x; Alfa ; Beta ; C)</p>
+    <p id="par_id2951317" class="paragraph" dir="auto"><span class="emph">Número</span> es el valor por el que se calculará la distribución Weibull.</p>
+    <p id="par_id2958436" class="paragraph" dir="auto"><span class="emph">Alfa</span> es el parámetro de forma de la distribución Weibull.</p>
+    <p id="par_id2954668" class="paragraph" dir="auto"><span class="emph">Beta</span> es el parámetro de escala de la distribución Weibull.</p>
+    <p id="par_id2954825" class="paragraph" dir="auto"><span class="emph">C</span> indica el tipo de función.</p>
+    <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+    <p id="par_id2946077" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=WEIBULL.DIST(2;1;1;1)</span> devuelve 0.8646647168.</p>
+    <div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+    <div class="embedded">
+<a id="4.2"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.2 de LibreOffice.</p></div>
+</div>
+<br>
+    </div>
+    <p id="par_id2905200911372899" class="paragraph" dir="auto">Consulte también la <a target="_blank" href="https://wiki.documentfoundation.org/Documentation/How_Tos/Calc:_WEIBULL_function">página del wiki</a>.</p>
+    <div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+    <p id="par_id341640873977703" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.WEIBULL.DIST</span></p>
+<a id="steyx"></a>
+<a id="bm_id3155836"></a><meta itemprop="keywords" content="función ERROR.TIPICO.XY">
+<meta itemprop="keywords" content="errores estándares,funciones estadísticas">
+<a id="bm_id3150964"></a>
+<h2 id="hd_id3155836" dir="auto">ERROR.TIPICO.XY</h2>
+         <p id="par_id3149446" class="paragraph" dir="auto"><span class="avis">Calcula el error típico de los valores Y calculados para todos los valores X de la regresión.</span></p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id3151267" class="code" dir="auto">ERROR.TIPICO.XY(DatosY; DatosX)</p>
+         <p id="par_id3147313" class="paragraph" dir="auto">            <span class="emph">DatosY</span> es una matriz o tabla de datos Y.</p>
+         <p id="par_id3156097" class="paragraph" dir="auto">            <span class="emph">DatosX</span> es una matriz o tabla de datos X.</p>
+        <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id3156131" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=ERROR.TIPICO.XY(A1:A50;B1:B50)</span></p>
+      <a id="normdotsdotinv"></a>
+<a id="bm_id2957986"></a><meta itemprop="keywords" content="INV.NORM.ESTAND">         <meta itemprop="keywords" content="distribución normal,inversa de la estándar">
+<a id="bm_id2948389"></a>
+<h2 id="hd_id2957986" dir="auto">INV.NORM.ESTAND</h2>
+         <p id="par_id2951282" class="paragraph" dir="auto"><span class="avis">Calcula la inversa de la distribución normal acumulativa estándar.</span></p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id2954195" class="code" dir="auto">INV.NORM.ESTAND(Número)</p>
+         <p id="par_id2948772" class="paragraph" dir="auto">            <span class="emph">Número</span> es la probabilidad para la que se calculará la distribución normal estándar inversa.</p>
+        <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id2949030" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=INV.NORM.ESTAND(0,908789)</span> devuelve 1.333334673.</p>
+        <div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+         <div class="embedded">
+<a id="4.3"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.3 de LibreOffice</p></div>
+</div>
+<br>
+    </div>
+        <div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+        <p id="par_id341000873986703" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.NORM.S.INV</span></p>
+      <a id="tdotinv"></a>
+    <a id="bm_id2949579"></a>        <meta itemprop="keywords" content="INV.T">         <meta itemprop="keywords" content="inverso de una cola de distribución t">
+    <a id="bm_id2953155"></a>
+    <h2 id="hd_id2949579" dir="auto">INV.T</h2>
+    <p id="par_id2943232" class="paragraph" dir="auto"><span class="avis">Devuelve la inversa de la distribución t unilateral.</span></p>
+    <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+    <p id="par_id2949289" class="code" dir="auto">INV.T(Número; GradosdeLibertad)</p>
+    <p id="par_id2954070" class="paragraph" dir="auto"><span class="emph">Número</span> es la probabilidad asociada con la distribución t unilateral.</p>
+    <p id="par_id2955315" class="paragraph" dir="auto"><span class="emph">GradosdeLibertad</span> es el número de grados de libertad de la distribución t.</p>
+    <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+    <p id="par_id2956010" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=INV.T(0,1;6)</span> devuelve -1.4397557473.</p>
+    <div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+    <div class="embedded">
+<a id="4.3"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.3 de LibreOffice</p></div>
+</div>
+<br>
+    </div>
+    <div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+    <p id="par_id341000873986704" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.T.INV</span></p>
+<a id="tdotinvdot2t"></a>
+    <a id="bm_id2849579"></a>        <meta itemprop="keywords" content="INV.T.2C">         <meta itemprop="keywords" content="inverso de la distribución t de dos colas">
+    <a id="bm_id2853155"></a>
+    <h2 id="hd_id2849579" dir="auto">INV.T.2C</h2>
+    <p id="par_id2843232" class="paragraph" dir="auto"><span class="avis">Calcula la inversa de la distribución t bilateral de Student, utilizada frecuentemente para probar hipótesis en conjuntos de datos pequeños.</span></p>
+    <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+    <p id="par_id2849289" class="code" dir="auto">INV.T.2C(Número; GradosdeLibertad)</p>
+    <p id="par_id2854070" class="paragraph" dir="auto"><span class="emph">Número</span> es la probabilidad asociada con la distribución t bilateral.</p>
+    <p id="par_id2855315" class="paragraph" dir="auto"><span class="emph">GradosdeLibertad</span> es el número de grados de libertad de la distribución t.</p>
+    <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+    <p id="par_id2856010" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">INV.T.2C(0,25;10)</span> devuelve 1.221255395.</p>
+    <div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+    <div class="embedded">
+<a id="4.3"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.3 de LibreOffice</p></div>
+</div>
+<br>
+    </div>
+    <div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+    <p id="par_id341640873986003" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.T.INV.2T</span></p>
+<a id="rank"></a>
+<a id="bm_id3155071"></a><meta itemprop="keywords" content="función JERARQUIA">
+<meta itemprop="keywords" content="números,determinar jerarquías">
+<a id="bm_id3146778"></a>
+<h2 id="hd_id3155071" dir="auto">JERARQUIA</h2>
+         <p id="par_id3153976" class="paragraph" dir="auto"><span class="avis">Devuelve la jerarquía de un número en una muestra.</span></p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id3153250" class="code" dir="auto">POSICIÓN(Valor; Datos [; Tipo])</p>
+         <p id="par_id3154543" class="paragraph" dir="auto">            <span class="emph">Valor</span> es el valor cuya jerarquía se ha de determinar.</p>
+         <p id="par_id3149130" class="paragraph" dir="auto">            <span class="emph">Datos</span> es la matriz o el intervalo de datos de la muestra.</p>
+         <p id="par_id3150215" class="paragraph" dir="auto">            <span class="emph">Tipo</span> (opcional) es el orden de la secuencia.</p>
+         <p id="par_id9305398" class="paragraph" dir="auto">Tipo = 0 significa descender del último elemento de la matriz al primero (predeterminado),</p>
+         <p id="par_id9996948" class="paragraph" dir="auto">Tipo = 1 significa ascender del primer elemento del intervalo hasta el último.</p>
+         <div class="embedded">
+<a id="datenumbersequencenote"></a>
+        <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de <a target="_top" href="es/text/scalc/01/03080000.html">resalte de valores</a>.</p></div>
+</div>
+<br>
+    </div>
+         <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id3155919" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=JERARQUIA(A10;A1:A50)</span> devuelve la jerarquía del valor en A10 en el intervalo de valores A1:A50. Si <span class="literal">Valor</span> no existe en el intervalo, se mostrará un mensaje de error.</p>
+      <a id="rankeq"></a>
+<a id="bm_id2855071"></a>  <meta itemprop="keywords" content="función JERARQUIA.EQV">
+<meta itemprop="keywords" content="números,determinar jerarquías">
+<a id="bm_id2846778"></a>
+<h2 id="hd_id2855071" dir="auto">JERARQUIA.EQV</h2>
+<p id="par_id2853976" class="paragraph" dir="auto"><span class="avis">Devuelve la jerarquía estadística de un valor dado dentro de una matriz.</span> Si hay valores duplicados en la matriz a estos se les da la misma jerarquía.</p>
+<div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">La diferencia entre <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">JERARQUIA.MEDIA</span> y <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">JERARQUIA.EQV</span> se manifiesta cuando hay duplicados en la lista de valores. La función <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">JERARQUIA.EQV</span> devuelve la jerarquía inferior, mientras que <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">JERARQUIA.MEDIA</span> devuelve la jerarquía promedio.</p></div>
+</div>
+<br>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id2853250" class="code" dir="auto">POSICIÓN.EQ(Valor; Datos [; Tipo])</p>
+<p id="par_id2854543" class="paragraph" dir="auto"><span class="emph">Valor</span> es el valor, cuya jerarquía debe determinarse.</p>
+<p id="par_id2849130" class="paragraph" dir="auto"><span class="emph">Datos</span> es la matriz o el intervalo de datos de la muestra.</p>
+<p id="par_id2850215" class="paragraph" dir="auto"><span class="emph">Tipo</span> (opcional) es el orden de la secuencia.</p>
+<p id="par_id89305398" class="paragraph" dir="auto">Tipo = 0 significa descender desde el último elemento de la matriz hasta el primero (es lo predeterminado)</p>
+<p id="par_id89996948" class="paragraph" dir="auto">Tipo = 1 significa ascender del primer elemento del intervalo hasta el último.</p>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id2855919" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=JERARQUIA.EQV(A10;A1:A50)</span> devuelve la jerarquía del valor en A10 en el intervalo de valores A1:A50. Si <span class="literal">Valor</span> no existe en el intervalo, se muestra un mensaje de error.</p>
+<div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+<div class="embedded">
+<a id="4.3"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.3 de LibreOffice</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+<p id="par_id341040873966703" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.RANK.EQ</span></p>
+<a id="rankavg"></a>
+<a id="bm_id2955071"></a>  <meta itemprop="keywords" content="función JERARQUIA.MEDIA">  <meta itemprop="keywords" content="números,determinar jerarquías">
+<a id="bm_id2946778"></a>
+<h2 id="hd_id2955071" dir="auto">JERARQUIA.MEDIA</h2>
+<p id="par_id2953976" class="paragraph" dir="auto"><span class="avis">Devuelve la jerarquía estadística de un valor dado dentro de una matriz de vlores.</span> si hay valores duplicados en la lista devuelve el rango promedio.</p>
+<div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">La diferencia entre <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">JERARQUIA.MEDIA</span> y <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">JERARQUIA.EQV</span> se manifiesta cuando hay duplicados en la lista de valores. La función <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">JERARQUIA.EQV</span> devuelve la jerarquía inferior, mientras que <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">JERARQUIA.MEDIA</span> devuelve la jerarquía promedio.</p></div>
+</div>
+<br>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id2953250" class="code" dir="auto">POSICIÓN.MEDIA(Valor; Datos [; Tipo])</p>
+<p id="par_id2954543" class="paragraph" dir="auto"><span class="emph">Valor</span> es el valor, cuya jerarquía debe determinarse.</p>
+<p id="par_id2949130" class="paragraph" dir="auto"><span class="emph">Datos</span> es la matriz o el intervalo de datos de la muestra.</p>
+<p id="par_id2950215" class="paragraph" dir="auto"><span class="emph">Tipo</span> (opcional) es el orden de la secuencia.</p>
+<p id="par_id0305398" class="paragraph" dir="auto">Tipo = 0 significa descender desde el último elemento de la matriz hacia el primero (esto es lo predeterminado),</p>
+<p id="par_id0996948" class="paragraph" dir="auto">Tipo = 1 significa ascender del primer elemento del intervalo hasta el último.</p>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id2955919" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=JERARQUIA.MEDIA(A10;A1:A50)</span> devuelve la jerarquía del valor en A10 en el área de valores A1:A50. Si <span class="literal">Valor</span> no existe en el área, se muestra un mensaje de error.</p>
+<div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+<div class="embedded">
+<a id="4.3"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.3 de LibreOffice</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+<p id="par_id341640873886703" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.RANK.AVG</span></p>
+<a id="standardize"></a>
+<a id="bm_id3155928"></a><meta itemprop="keywords" content="función NORMALIZACION">
+<meta itemprop="keywords" content="convertir,variables aleatorias, en valores normalizados">
+<a id="bm_id3148764"></a>
+<h2 id="hd_id3155928" dir="auto">NORMALIZACION</h2>
+         <p id="par_id3149883" class="paragraph" dir="auto"><span class="avis">Convierte una variable aleatoria en un valor normalizado.</span></p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id3150132" class="code" dir="auto">NORMALIZACION(Número; Media; Desv_estándar)</p>
+         <p id="par_id3159139" class="paragraph" dir="auto">            <span class="emph">Número</span> es el valor que se normalizará.</p>
+         <p id="par_id3145241" class="paragraph" dir="auto">            <span class="emph">Media</span> es el valor medio aritmético de la distribución.</p>
+         <p id="par_id3148874" class="paragraph" dir="auto">            <span class="emph">Desviación típica</span> es la desviación típica de la distribución.</p>
+        <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id3156067" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=NORMALIZACION(11;10;1)</span> devuelve 1. El valor 11 en una distribución normal con una media de 10 y una desviación estándar de 1 está tan por encima de la media de 10 como el valor 1 está por encima de la media de la distribución normal estándar.</p>
+      <a id="slope"></a>
+<a id="bm_id3152592"></a><meta itemprop="keywords" content="PENDIENTE">
+<a id="bm_id3153716"></a>
+<h2 id="hd_id3152592" dir="auto">PENDIENTE</h2>
+         <p id="par_id3150386" class="paragraph" dir="auto"><span class="avis">Calcula la pendiente de la recta de regresión lineal.</span> La pendiente se adapta a los puntos de datos definidos en los valores Y y en los valores X.</p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id3149819" class="code" dir="auto">PENDIENTE(DatosY; DatosX)</p>
+         <p id="par_id3083446" class="paragraph" dir="auto">            <span class="emph">DatosY</span> es una matriz o tabla de datos Y.</p>
+         <p id="par_id3152375" class="paragraph" dir="auto">            <span class="emph">DatosX</span> es una matriz o tabla de datos X.</p>
+        <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id3152480" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=PENDIENTE(A1:A50;B1:B50)</span></p>
+      <a id="permut"></a>
+<a id="bm_id3154599"></a><meta itemprop="keywords" content="PERMUTACIONES">         <meta itemprop="keywords" content="número de permutaciones">
+<a id="bm_id3154610"></a>
+<h2 id="hd_id3154599" dir="auto">PERMUTACIONES</h2>
+         <p id="par_id3154334" class="paragraph" dir="auto"><span class="avis">Devuelve el número de permutaciones para un número determinado de objetos.</span></p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id3148466" class="code" dir="auto">PERMUTACIONES(Contar1; Contar2)</p>
+         <p id="par_id3148656" class="paragraph" dir="auto">            <span class="emph">Contar1</span> es el número total de objetos.</p>
+         <p id="par_id3150826" class="paragraph" dir="auto"><span class="emph">Contar2</span> es el número de objetos en cada permutación.</p>
+        <div class="embedded">
+<a id="IntegerTrunc"></a>
+        <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">En el caso de los argumentos de tipo entero, los valores que no sean enteros se truncan al entero.</p></div>
+</div>
+<br>
+    </div>
+        <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id3150424" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=PERMUTACIONES(6;3)</span> devuelve 120. Hay 120 posibilidades diferentes para tomar una secuencia de 3 naipes de un total de 6.</p>
+      <a id="permutationa"></a>
+<a id="bm_id3143276"></a><meta itemprop="keywords" content="PERMUTACIONESA">
+<a id="bm_id3153531"></a>
+<h2 id="hd_id3143276" dir="auto">PERMUTACIONESA</h2>
+         <p id="par_id3144759" class="paragraph" dir="auto"><span class="avis">Devuelve el número de permutaciones para un número determinado de objetos (se permite repetir).</span></p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id3149298" class="code" dir="auto">PERMUTACIONESA(Contar1; Contar2)</p>
+         <p id="par_id3156139" class="paragraph" dir="auto">            <span class="emph">Contar1</span> es el número total de objetos.</p>
+         <p id="par_id3149519" class="paragraph" dir="auto"><span class="emph">Contar2</span> es el número de objetos en cada permutación.</p>
+         <div class="embedded">
+<a id="IntegerTrunc"></a>
+        <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">En el caso de los argumentos de tipo entero, los valores que no sean enteros se truncan al entero.</p></div>
+</div>
+<br>
+    </div>
+        <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id3153949" class="paragraph" dir="auto">¿Cuántas veces se pueden extraer 2 elementos de un conjunto de 11 elementos?</p>
+         <p id="par_id3149233" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=PERMUTACIONESA(11;2)</span> devuelve 121.</p>
+         <p id="par_id3150622" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=PERMUTACIONESA(6;3)</span> devuelve 216. Hay 216 posibilidades para colocar una secuencia de 3 naipes juntos de un total de seis si cada uno se devuelve antes de extraer el siguiente.</p>
+      <a id="prob"></a>
+<a id="bm_id3152952"></a><meta itemprop="keywords" content="PROBABILIDAD">
+<a id="bm_id3152963"></a>
+<h2 id="hd_id3152952" dir="auto">PROBABILIDAD</h2>
+         <p id="par_id3154110" class="paragraph" dir="auto"><span class="avis">Devuelve la probabilidad de que los valores estén en un intervalo entre dos límites.</span> Si no hay un valor <span class="literal">Fin</span>, esta función calcula la probabilidad basada en el principio de que los valores de datos son iguales al valor de <span class="literal">Inicio</span>.</p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id3147330" class="code" dir="auto">PROBABILIDAD (Datos; Probabilidad; Inicio [; Fin])</p>
+         <p id="par_id3154573" class="paragraph" dir="auto">            <span class="emph">Datos</span> es la matriz o el intervalo de datos de la muestra.</p>
+         <p id="par_id3156334" class="paragraph" dir="auto">            <span class="emph">Probabilidad</span> es la matriz o el intervalo de las probabilidades correspondientes.</p>
+         <p id="par_id3151107" class="paragraph" dir="auto">            <span class="emph">Inicio</span> es el valor inicial del intervalo para el que se van a sumar las probabilidades.</p>
+         <p id="par_id3153694" class="paragraph" dir="auto">            <span class="emph">Fin</span> (opcional) es el valor final del intervalo para el que se van a sumar las probabilidades. Si falta este parámetro, se calcula la probabilidad del valor <span class="emph">Inicio</span>.</p>
+        <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id3153666" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=PROB(A1:A50;B1:B50;50;60)</span> devuelve la probabilidad de que un valor dentro del área A1:A50 también se encuentre dentro de los límites entre 50 y 60. Todos los valores en el área de A1:A50 tienen una probabilidad en el área de B1:B50.</p>
+      <a id="forecast"></a>
+<a id="bm_id3149051"></a><meta itemprop="keywords" content="líneas de regresión,PRONOSTICO">
+<meta itemprop="keywords" content="extrapolaciones">
+<meta itemprop="keywords" content="PRONOSTICO">
+<a id="bm_id3146102"></a>
+<h2 id="hd_id3149051" dir="auto">PRONOSTICO</h2>
+         <p id="par_id3153290" class="paragraph" dir="auto"><span class="avis">Extrapola valores futuros basados en los valores de x e y existentes.</span></p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id3147404" class="code" dir="auto">PRONOSTICO(Valor; DatosY; DatosX)</p>
+         <p id="par_id3148743" class="paragraph" dir="auto">            <span class="emph">Valor</span> es el valor x, para el que se va a devolver el valor y en la regresión lineal.</p>
+         <p id="par_id3146325" class="paragraph" dir="auto">            <span class="emph">DatosY</span> es la matriz o el intervalo de los datos Y conocidos.</p>
+         <p id="par_id3150536" class="paragraph" dir="auto">            <span class="emph">DatosX</span> es la matriz o el intervalo de los datos X conocidos.</p>
+        <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id3157874" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=PRONOSTICO(50;A1:A50;B1;B50)</span> devuelve el valor Y esperado para el valor X de 50 si los valores X e Y en ambas referencias están asociados por una tendencia lineal.</p>
+      <a id="forecastlinear"></a>
+<a id="bm_id3149052"></a><meta itemprop="keywords" content="líneas de regresión,PRONOSTICO.LINEAL">
+<meta itemprop="keywords" content="extrapolaciones">
+<meta itemprop="keywords" content="función PRONOSTICO.LINEAL">
+<a id="bm_id3146102"></a>
+<h2 id="hd_id3149052" dir="auto">PRONOSTICO.LINEAL</h2>
+         <p id="par_id3153291" class="paragraph" dir="auto"><span class="avis">Extrapola valores futuros basados en los valores de x e y existentes.</span></p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id3147405" class="code" dir="auto">PRONOSTICO.LINEAL(Valor; DatosY; DatosX)</p>
+         <p id="par_id3148744" class="paragraph" dir="auto">            <span class="emph">Valor</span> es el valor x, para el que se va a devolver el valor y en la regresión lineal.</p>
+         <p id="par_id3146326" class="paragraph" dir="auto">            <span class="emph">DatosY</span> es la matriz o el intervalo de los datos Y conocidos.</p>
+         <p id="par_id3150537" class="paragraph" dir="auto">            <span class="emph">DatosX</span> es la matriz o el intervalo de los datos X conocidos.</p>
+        <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id3157875" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=PRONOSTICO.LINEAL(50;A1:A50;B1;B50)</span> devuelve el valor Y esperado para el valor X de 50 si los valores X e Y en ambas referencias están asociados por una tendencia lineal.</p>
+      <div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+      <div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+      <p id="par_id341640873980703" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.FORECAST.LINEAR</span></p>
+      <a id="ttest"></a>
+<a id="bm_id3154129"></a><meta itemprop="keywords" content="PRUEBA.T">
+<a id="bm_id3153981"></a>
+<h2 id="hd_id3154129" dir="auto">PRUEBA.T</h2>
+         <p id="par_id3159184" class="paragraph" dir="auto"><span class="avis">Calcula la probabilidad asociada con una prueba T de estudiante.</span></p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id3151175" class="code" dir="auto">PRUEBA.T(Datos1; Datos2; Modo; Tipo)</p>
+         <p id="par_id3149202" class="paragraph" dir="auto">            <span class="emph">Datos1</span> es la matriz dependiente o intervalo de datos del primer registro.</p>
+         <p id="par_id3145666" class="paragraph" dir="auto">            <span class="emph">Datos2</span> es la matriz dependiente o intervalo de datos del segundo registro.</p>
+         <p id="par_id3153903" class="paragraph" dir="auto">            <span class="emph">Modo</span> = 1 calcula la prueba unilateral, <span class="emph">Modo</span> = 2 calcula la prueba bilateral.</p>
+         <p id="par_id3155327" class="paragraph" dir="auto">            <span class="emph">Tipo</span> es el tipo de prueba t que se va a realizar. Tipo 1 significa pareada. Tipo 2 significa dos muestras, igual varianza (homoscedástica). Tipo 3 significa dos muestras, varianza distinta (heteroscedástica).</p>
+        <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id3150119" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=PRUEBA.T(A1:A50;B1:B50;2;2)</span></p>
+      <a id="tdottest"></a>
+    <a id="bm_id2954129"></a>        <meta itemprop="keywords" content="PRUEBA.T.N">
+    <a id="bm_id2953981"></a>
+    <h2 id="hd_id2954129" dir="auto">PRUEBA.T.N</h2>
+    <p id="par_id2959184" class="paragraph" dir="auto"><span class="avis">Devuelve la probabilidad asociada a la distribución t de Student.</span></p>
+    <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+    <p id="par_id2951175" class="code" dir="auto">PRUEBA.T.N(Datos1; Datos2; Modo; Tipo)</p>
+    <p id="par_id2949202" class="paragraph" dir="auto"><span class="emph">Datos1</span> es la matriz o intervalo de datos dependiente del primer registro.</p>
+    <p id="par_id2945666" class="paragraph" dir="auto"><span class="emph">Datos2</span> es la matriz o intervalo de datos dependiente del segundo registro.</p>
+    <p id="par_id2953903" class="paragraph" dir="auto"><span class="emph">Modo</span> = 1 calcula la prueba unilateral, <span class="emph">Modo</span> = 2 calcula la prueba bilateral.</p>
+    <p id="par_id2955327" class="paragraph" dir="auto"><span class="emph">Tipo</span> es el tipo de prueba t que se va a realizar. Tipo 1 significa pareada. Tipo 2 significa dos muestras, igual varianza (homoscedástica). Tipo 3 significa dos muestras, varianza distinta (heteroscedástica).</p>
+    <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+    <p id="par_id2950119" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=PRUEBA.T.N(A1:A50;B1:B50;2;2)</span></p>
+    <div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+    <div class="embedded">
+<a id="4.3"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.3 de LibreOffice</p></div>
+</div>
+<br>
+    </div>
+    <div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+    <p id="par_id341640844986703" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.T.TEST</span></p>
+<a id="var"></a>
+<a id="bm_id3153828"></a><meta itemprop="keywords" content="VAR ">         <meta itemprop="keywords" content="varianzas">
+<a id="bm_id3154898"></a>
+<h2 id="hd_id3153828" dir="auto">
+<a id="var"></a><a target="_top" href="es/text/scalc/01/04060185.html#var">VAR</a>
+</h2>
+         <p id="par_id3159165" class="paragraph" dir="auto"><span class="avis">Estima la varianza a partir de una muestra.</span></p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+
+         <p id="par_id3153054" class="code" dir="auto">VAR(Argument 1 [; Argument 2 [; …  [; Argument 255]]])</p>
+        <div class="embedded">
+<a id="argument255"></a>
+      <p id="par_id1001754569677921" class="paragraph" dir="auto"><span class="emph">Argument 1; Argument 2; … ; Argument 255</span> are numbers, text, references to cells or to cell ranges of numbers or text.</p>
+    </div>
+        <p id="par_id721585215582420" class="paragraph" dir="auto">Los parámetros deben especificar por lo menos dos valores.</p>
+        <div class="embedded">
+<a id="datenumbersequencenote"></a>
+        <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de <a target="_top" href="es/text/scalc/01/03080000.html">resalte de valores</a>.</p></div>
+</div>
+<br>
+    </div>
+        <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id3153575" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=VAR(A1:A50)</span></p>
+      <a id="vardotp"></a>
+    <a id="bm_id2966441"></a>        <meta itemprop="keywords" content="VAR.P">
+    <a id="bm_id2952359"></a>
+    <h2 id="hd_id2966441" dir="auto">VAR.P</h2>
+    <p id="par_id2959199" class="paragraph" dir="auto"><span class="avis">Calcula la varianza a partir de la población entera.</span></p>
+    <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+    <p id="par_id2947282" class="code" dir="auto">VAR.P(Argument 1 [; Argument 2 [; …  [; Argument 255]]])</p>
+    <div class="embedded">
+<a id="argument255"></a>
+      <p id="par_id1001754569677921" class="paragraph" dir="auto"><span class="emph">Argument 1; Argument 2; … ; Argument 255</span> are numbers, text, references to cells or to cell ranges of numbers or text.</p>
+    </div>
+    <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+    <p id="par_id2953385" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=VAR.P(A1:A50)</span></p>
+    <div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+    <div class="embedded">
+<a id="4.2"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.2 de LibreOffice.</p></div>
+</div>
+<br>
+    </div>
+    <div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+    <p id="par_id341640873933703" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.VAR.P</span></p>
+<a id="vardots"></a>
+    <a id="bm_id2953828"></a>        <meta itemprop="keywords" content="VAR.S">         <meta itemprop="keywords" content="varianzas">
+        <a id="bm_id2954898"></a>
+        <h2 id="hd_id2953828" dir="auto">VAR.S</h2>
+        <p id="par_id2959165" class="paragraph" dir="auto"><span class="avis">Estima la varianza a partir de una muestra.</span></p>
+        <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+        <p id="par_id2953054" class="code" dir="auto">VAR.S(Argument 1 [; Argument 2 [; …  [; Argument 255]]])</p>
+        <div class="embedded">
+<a id="argument255"></a>
+      <p id="par_id1001754569677921" class="paragraph" dir="auto"><span class="emph">Argument 1; Argument 2; … ; Argument 255</span> are numbers, text, references to cells or to cell ranges of numbers or text.</p>
+    </div>
+        <p id="par_id891585215590756" class="paragraph" dir="auto">Los parámetros deben especificar por lo menos dos valores.</p>
+        <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+        <p id="par_id2953575" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=VAR.S(A1:A50)</span></p>
+        <div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+        <div class="embedded">
+<a id="4.2"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.2 de LibreOffice.</p></div>
+</div>
+<br>
+    </div>
+        <div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+        <p id="par_id111640873986703" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.VAR.S</span></p>
+<a id="vara"></a>
+<a id="bm_id3151045"></a><meta itemprop="keywords" content="VARA">
+<a id="bm_id3148473"></a>
+<h2 id="hd_id3151045" dir="auto">VARA</h2>
+         <p id="par_id3155122" class="paragraph" dir="auto"><span class="avis">Estima una varianza a partir de una muestra. El valor del texto es 0.</span></p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id3149999" class="code" dir="auto">VARA(Argument 1 [; Argument 2 [; …  [; Argument 255]]])</p>
+        <div class="embedded">
+<a id="argument255"></a>
+      <p id="par_id1001754569677921" class="paragraph" dir="auto"><span class="emph">Argument 1; Argument 2; … ; Argument 255</span> are numbers, text, references to cells or to cell ranges of numbers or text.</p>
+    </div>
+        <p id="par_id451585215586628" class="paragraph" dir="auto">Los parámetros deben especificar por lo menos dos valores.</p>
+        <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id3154279" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=VARA(A1:A50)</span></p>
+      <a id="varp"></a>
+<a id="bm_id3166441"></a><meta itemprop="keywords" content="VARP">
+<a id="bm_id3152359"></a>
+<h2 id="hd_id3166441" dir="auto">
+<a id="varp"></a><a target="_top" href="es/text/scalc/01/04060185.html#varp">VARP</a>
+</h2>
+         <p id="par_id3159199" class="paragraph" dir="auto"><span class="avis">Calcula la varianza a partir de la población total.</span></p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id3147282" class="code" dir="auto">VARP(Argument 1 [; Argument 2 [; …  [; Argument 255]]])</p>
+        <div class="embedded">
+<a id="argument255"></a>
+      <p id="par_id1001754569677921" class="paragraph" dir="auto"><span class="emph">Argument 1; Argument 2; … ; Argument 255</span> are numbers, text, references to cells or to cell ranges of numbers or text.</p>
+    </div>
+        <div class="embedded">
+<a id="datenumbersequencenote"></a>
+        <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de <a target="_top" href="es/text/scalc/01/03080000.html">resalte de valores</a>.</p></div>
+</div>
+<br>
+    </div>
+        <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id3153385" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=VARP(A1:A50)</span></p>
+      <a id="varpa"></a>
+<a id="bm_id3153688"></a><meta itemprop="keywords" content="VARPA">
+<a id="bm_id3159276"></a>
+<h2 id="hd_id3153688" dir="auto">VARPA</h2>
+         <p id="par_id3149109" class="paragraph" dir="auto"><span class="avis">Calcula la varianza a partir de la población total. El valor del texto es 0.</span></p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id3149967" class="code" dir="auto">VARPA(Argument 1 [; Argument 2 [; …  [; Argument 255]]])</p>
+        <div class="embedded">
+<a id="argument255"></a>
+      <p id="par_id1001754569677921" class="paragraph" dir="auto"><span class="emph">Argument 1; Argument 2; … ; Argument 255</span> are numbers, text, references to cells or to cell ranges of numbers or text.</p>
+    </div>
+        <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id3156203" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=VARPA(A1:A50)</span></p>
+      
+<a id="relatedtopics"></a><div class="relatedtopics">
+<p class="related" itemprop="mentions" dir="auto"><a id="related"></a><span class="emph">Temas relacionados</span></p>
+<div class="relatedbody" itemprop="mentions">
+         <div class="embedded"><p class="embedded" dir="auto"><a target="_top" href="es/text/scalc/01/04060100.html">Funciones por categoría</a></p></div>
+      </div>
+</div>
+   </div>
+<div id="DonationFrame"><a href="https://www.libreoffice.org/donate/?pk_campaign=help" target="_blank"><div class="icontable donation">
+<div class="iconcell"><img class="iconimage" src="media/helpimg/donate.png" alt="¡Necesitamos su ayuda!" style="width:40px;height:40px;"></div>
+<div class="iconcell"><p dir="auto">¡Necesitamos su ayuda!</p></div>
+</div></a></div>
+<footer><h2 style="text-align: center;"><a href="https://books.libreoffice.org" target="_blank">Guías de LibreOffice</a></h2>
+<div class="noteicon" dir="auto" style="display:flex;justify-content:center;flex-wrap:wrap;row-gap:15px;">
+<img src="media/navigation/libo-writer.svg" alt="Writer Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-calc.svg" alt="Calc Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-impress.svg" alt="Impress Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-draw.svg" alt="Draw Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-base.svg" alt="Base Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-math.svg" alt="Math Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-symbol-black.svg" alt="Getting Started Icon" style="width:60px;height:60px;">
+</div>
+<p itemscope="true" itemtype="http://schema.org/Organization" dir="auto"><meta itemprop="name" content="The Document Foundation"><meta itemprop="legalName" content="The Document Foundation"><meta itemprop="alternateName" content="TDF"><meta itemprop="publishingPrinciples" content="https://www.libreoffice.org/imprint"><a href="https://www.libreoffice.org/imprint" target="_blank">Impressum (Legal Info)</a> | <a href="https://www.libreoffice.org/privacy" target="_blank">Privacy Policy</a> | <a href="https://www.documentfoundation.org/statutes.pdf" target="_blank">Statutes (non-binding English translation)</a> - <a href="https://www.documentfoundation.org/satzung.pdf" target="_blank">Satzung (binding German version)</a> | Copyright information: Unless otherwise specified, all text and images on this website are licensed under the <a href="https://www.libreoffice.org/download/license/" target="_blank">Mozilla Public License v2.0</a>. “LibreOffice” and “The Document Foundation” are registered trademarks of their corresponding registered owners or are in actual use as trademarks in one or more countries. Their respective logos and icons are also subject to international copyright laws. Use thereof is explained in our <a href="https://wiki.documentfoundation.org/TradeMark_Policy" target="_blank">trademark policy</a>. LibreOffice was based on OpenOffice.org.</p>
+<div id="DEBUG" class="debug">
+<h3 class="bug">Help content debug info:</h3>
+<p dir="auto">This page is: <a href="https://opengrok.libreoffice.org/xref/help/source/text/scalc/01/04060185.xhp" target="_blank">/text/scalc/01/04060185.xhp</a></p>
+<p dir="auto">Title is: Funciones estadísticas, quinta parte</p>
+<p id="bm_module" dir="auto"></p>
+<p id="bm_system" dir="auto"></p>
+<p id="bm_HID" dir="auto"></p>
+</div></footer>
+</body>
+</html>

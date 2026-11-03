@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+<base href="../../../../">
+<title>Funciones estadísticas, cuarta parte</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline' 'unsafe-eval' piwik.documentfoundation.org">
+<link rel="shortcut icon" href="media/navigation/favicon.ico">
+<link type="text/css" href="normalize.css" rel="Stylesheet">
+<link type="text/css" href="prism.css" rel="Stylesheet">
+<link type="text/css" href="default.css" rel="Stylesheet">
+<script type="text/javascript" src="polyfills.js"></script><script type="text/javascript" src="languages.js"></script><script type="text/javascript" src="es/langnames.js"></script><script type="text/javascript" src="flexsearch.compact.debug.js"></script><script type="text/javascript" src="prism.js"></script><script type="text/javascript" src="help2.js" defer></script><script type="text/javascript" src="tdf_matomo.js" defer></script><script type="text/javascript" src="a11y-toggle.js" defer></script><script type="text/javascript" src="paginathing.js" defer></script><script type="text/javascript" src="es/bookmarks.js" defer></script><script type="text/javascript" src="es/contents.js" defer></script><script type="text/javascript" src="help.js" defer></script><meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<header id="TopLeftHeader"><a class="symbol" href="es/text/shared/05/new_help.html"><div></div></a><a class="logo" href="es/text/shared/05/new_help.html"><p dir="auto">Ayuda de LibreOffice 26.8</p></a><div class="dropdowns">
+<div class="modules">
+<button type="button" data-a11y-toggle="modules-nav" id="modules" aria-haspopup="true" aria-expanded="false" aria-controls="modules-nav">Módulo</button><nav id="modules-nav" hidden=""></nav>
+</div>
+<div class="lang">
+<button type="button" data-a11y-toggle="langs-nav" id="langs" aria-haspopup="true" aria-expanded="false" aria-controls="modules-nav">Idioma</button><nav id="langs-nav" hidden=""></nav>
+</div>
+</div></header><aside class="leftside"><input id="accordion-1" name="accordion-menu" type="checkbox"><label for="accordion-1" dir="auto">Contenido</label><div id="Contents" class="contents-treeview"></div></aside><div id="SearchFrame"><div id="Bookmarks">
+<input id="search-bar" type="search" class="search" placeholder="Buscar en los marcadores del módulo elegido" dir="auto"><div class="nav-container" tabindex="0"><nav class="index" dir="auto"></nav></div>
+</div></div>
+<div id="DisplayArea" itemprop="softwareHelp" itemscope="true" itemtype="http://schema.org/SoftwareApplication">
+<noscript><div id="WarnJS"><h1 dir="auto">Active JavaScript en el navegador para mostrar las páginas de ayuda de LibreOffice.</h1></div></noscript>
+<div class="xapian-omega-search"><form name="P" method="get" action="/26.8/es/search" target="_top">
+<input id="omega-autofocus" type="search" name="P" placeholder="Buscar en todas las páginas de la Ayuda" dir="auto"><input type="submit" class="xapian-omega-search-button" value="🔍">
+</form></div>
+<meta itemprop="applicationCategory" content="BusinessApplication">
+<meta itemprop="applicationSuite" content="LibreOffice">
+<meta itemprop="name" content="LibreOffice">
+<meta itemprop="operatingsystem" content="Windows, Linux, MacOS">
+<meta itemprop="author.name" content="The LibreOffice Documentation Team">
+<meta itemprop="publisher.name" content="The Document Foundation">
+<meta itemprop="softwareVersion" content="26.8">
+<meta itemprop="inLanguage" content="es">
+<meta itemprop="datePublished" content="2020">
+<meta itemprop="headline" content="Funciones estadísticas, cuarta parte">
+<meta itemprop="license" content="https://www.libreoffice.org/download/license/">
+<meta itemprop="image" content="media/navigation/libo-symbol-white.svg">
+<h1 id="hd_id3153415" dir="auto">
+<a id="mq"></a>Funciones estadísticas, cuarta parte</h1>
+
+
+
+
+
+
+
+
+
+<a id="averageif"></a>
+<h2 id="hd_id110421803716508" dir="auto"><a target="_top" href="es/text/scalc/01/func_averageif.html">PROMEDIO.SI</a></h2>
+<p id="par_id71462400513325" class="paragraph" dir="auto">Devuelve la media aritmética de todas las celdas en un intervalo que satisfaga una condición dada. La función PROMEDIO.SI suma todos los resultados que coincidan con la prueba lógica y divide esta suma por la cantidad de valores seleccionados.</p>
+
+<a id="averageifs"></a>
+<h2 id="hd_id5471656631510" dir="auto"><a target="_top" href="es/text/scalc/01/func_averageifs.html">PROMEDIO.SI.CONJUNTO</a></h2>
+<p id="par_id5259182024777" class="paragraph" dir="auto">Devuelve la media aritmética de todas las celdas en un intervalo que satisfagan varios criterios. La función PROMEDIO.SI.CONJUNTO suma todos los resultados que coincidan con comprobaciones lógicas y divide esta suma por la cantidad de valores seleccionados.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a id="quartile"></a>
+<a id="bm_id3166442"></a><meta itemprop="keywords" content="CUARTIL">
+<a id="bm_id3150709"></a>
+<h2 id="hd_id3166442" dir="auto">CUARTIL</h2>
+<p id="par_id3146958" class="paragraph" dir="auto"><span class="avis">Calcula el cuartil de un conjunto de datos.</span></p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id3153684" class="code" dir="auto">CUARTIL(Datos; Cuartil)</p>
+<p id="par_id3153387" class="paragraph" dir="auto"><span class="emph">Datos</span> es la matriz de datos en la muestra.</p>
+<p id="par_id3155589" class="paragraph" dir="auto"><span class="emph">Tipo</span> representa el tipo de cuartil. (0 = MIN, 1 = 25 %, 2 = 50 % (MEDIANA), 3 = 75 % y 4 = MAX.)</p>
+<div class="embedded">
+<a id="datenumbersequencenote"></a>
+        <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de <a target="_top" href="es/text/scalc/01/03080000.html">resalte de valores</a>.</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id3159276" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=CUARTIL(A1:A50;2)</span> devuelve el valor cuyo 50% de la escala corresponde a los valores de inferior a superior en el área A1:A50.</p>
+<a id="quartileexc"></a>
+<a id="bm_id2866442"></a><meta itemprop="keywords" content="función CUARTIL.EXC">
+<a id="bm_id2950709"></a>
+<h2 id="hd_id2866442" dir="auto">CUARTIL.EXC</h2>
+<p id="par_id2846958" class="paragraph" dir="auto"><span class="avis">Devuelve el cuartil solicitado a partir de un intervalo de valores proporcionado, basándose en un intervalo de percentiles de 0 a 1 exclusivo.</span></p>
+<div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">La diferencia entre <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">CUARTIL.INC</span> y <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">CUARTIL.EXC</span> es que la función <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">CUARTIL.INC</span> basa su cáculo en un rango de percentil de 0 a 1 inclusive, mientras que la función <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">CUARTIL.EXC</span> basa sus cálculos en un rango de percentil de 0 a 1 exclusive.</p></div>
+</div>
+<br>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id2853684" class="code" dir="auto">CUARTIL.EXC(Datos; Tipo)</p>
+<p id="par_id2853387" class="paragraph" dir="auto"><span class="emph">Datos</span> representa el intervalo de valores de datos de los cuales quiere calcular el cuartil indicado.</p>
+<p id="par_id2855589" class="paragraph" dir="auto"><span class="emph">Tipo</span>, un número entero entre 1 y 3, representa el cuartil solicitado. (Si Tipo = 1 o 3, la matriz de datos proporcionada debe contener más de dos valores)</p>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id2859276" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=CUARTIL.EXC(A1:A50;2)</span> devuelve el valor cuyo 50 % de la escala corresponde a los valores de inferior a superior en el intervalo A1:A50.</p>
+<div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+<div class="embedded">
+<a id="4.3"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.3 de LibreOffice</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+<p id="par_id341640873986700" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.QUARTILE.EXC</span></p>
+<a id="quartileinc"></a>
+<a id="bm_id2966442"></a><meta itemprop="keywords" content="función CUARTIL.INC">
+<a id="bm_id2950309"></a>
+<h2 id="hd_id2966442" dir="auto">CUARTIL.INC</h2>
+<p id="par_id2946958" class="paragraph" dir="auto"><span class="avis">Calcula el cuartil de un conjunto de datos.</span></p>
+<div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">La diferencia entre <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">CUARTIL.INC</span> y <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">CUARTIL.EXC</span> es que la función <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">CUARTIL.INC</span> basa su cáculo en un rango de percentil de 0 a 1 inclusive, mientras que la función <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">CUARTIL.EXC</span> basa sus cálculos en un rango de percentil de 0 a 1 exclusive.</p></div>
+</div>
+<br>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id2953684" class="code" dir="auto">CUARTIL.INC(Datos; Tipo)</p>
+<p id="par_id2953387" class="paragraph" dir="auto"><span class="emph">Datos</span> es la matriz de datos en la muestra.</p>
+<p id="par_id2955589" class="paragraph" dir="auto"><span class="emph">Tipo</span> representa el tipo de cuartil. (0 = MIN, 1 = 25 %, 2 = 50 % (MEDIANA), 3 = 75 % y 4 = MAX.)</p>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id2959276" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=CUARTIL.INC(A1:A50;2)</span> devuelve el valor cuyo 50 % de la escala corresponde a los valores del inferior al superior en el intervalo A1:A50.</p>
+<div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+<div class="embedded">
+<a id="4.3"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.3 de LibreOffice</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+<p id="par_id341640873986707" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.QUARTILE.INC</span></p>
+<a id="avedev"></a>
+<a id="bm_id3166465"></a><meta itemprop="keywords" content="DESVPROM">
+<meta itemprop="keywords" content="promedios,funciones estadísticas">
+<a id="bm_id3156396"></a>
+<h2 id="hd_id3166465" dir="auto">
+<a id="avedev_head"></a><a target="_top" href="es/text/scalc/01/04060184.html#avedev">DESVPROM</a>
+</h2>
+<p id="par_id3150373" class="paragraph" dir="auto"><span class="avis">Devuelve la media de las desviaciones absolutas de puntos de datos a partir de su media.</span> Muestra la dispersión de un grupo de datos.</p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id3145636" class="code" dir="auto">DESVPROM(Argument 1 [; Argument 2 [; …  [; Argument 255]]])</p>
+<div class="embedded">
+<a id="argument255"></a>
+      <p id="par_id1001754569677921" class="paragraph" dir="auto"><span class="emph">Argument 1; Argument 2; … ; Argument 255</span> are numbers, text, references to cells or to cell ranges of numbers or text.</p>
+    </div>
+<div class="embedded">
+<a id="datenumbersequencenote"></a>
+        <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de <a target="_top" href="es/text/scalc/01/03080000.html">resalte de valores</a>.</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id3153122" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DESVPROM(A1:A50)</span></p>
+<a id="normdist"></a>
+<a id="bm_id3153722"></a><meta itemprop="keywords" content="DISTR.NORM">
+<meta itemprop="keywords" content="función de densidad">
+<a id="bm_id3147484"></a>
+<h2 id="hd_id3153722" dir="auto">DISTR.NORM</h2>
+<p id="par_id3150386" class="paragraph" dir="auto"><span class="avis">Devuelve la función de densidad o la distribución acumulativa normal.</span></p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id3150613" class="code" dir="auto">DISTR.NORM(Número; Media; Derivación Estándar[; C])</p>
+<p id="par_id3149820" class="paragraph" dir="auto"><span class="emph">Número</span> es el valor de la distribución en la que se basará para calcular el valor de la distribución normal.</p>
+<p id="par_id3146063" class="paragraph" dir="auto"><span class="emph">Media</span> es el valor medio de la distribución.</p>
+<p id="par_id3156295" class="paragraph" dir="auto"><span class="emph">Desviación típica</span> es la desviación típica de la distribución.</p>
+<p id="par_id3145080" class="paragraph" dir="auto"><span class="emph">C</span> es opcional. <span class="emph">C</span> = 0 calcula la función de densidad y <span class="emph">C</span> = 1 calcula la distribución.</p>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id3149283" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DISTR.NORM(70;63;5;0)</span> devuelve 0,03.</p>
+<p id="par_id3149448" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DISTR.NORM(70;63;5;1)</span> devuelve 0,92.</p>
+<a id="norminv"></a>
+<a id="bm_id3155516"></a><meta itemprop="keywords" content="DISTR.NORM.INV">
+<meta itemprop="keywords" content="distribución normal,inversa de">
+<a id="bm_id3149396"></a>
+<h2 id="hd_id3155516" dir="auto">DISTR.NORM.INV</h2>
+<p id="par_id3154634" class="paragraph" dir="auto"><span class="avis">Devuelve el inverso de la distribución normal acumulativa.</span></p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id3147534" class="code" dir="auto">DISTR.NORM.INV(Número; Media; Desv_estándar)</p>
+<p id="par_id3154950" class="paragraph" dir="auto"><span class="emph">Número</span> representa el valor de probabilidad utilizado para determinar la distribución normal inversa.</p>
+<p id="par_id3150690" class="paragraph" dir="auto"><span class="emph">Media</span> es el valor medio de la distribución normal.</p>
+<p id="par_id3148594" class="paragraph" dir="auto"><span class="emph">Desviación típica</span> representa la desviación típica de la distribución normal.</p>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id3153921" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DISTR.NORM.INV(0,9;63;5)</span> devuelve 69,41. Si un huevo de gallina pesa una media de 63 gramos, con una desviación típica de 5, la probabilidad de que un huevo no pese más de 69,41 gramos es del 90 %.</p>
+<a id="normdotdist"></a>
+<a id="bm_id2913722"></a><meta itemprop="keywords" content="función DISTR.NORM.N">
+<meta itemprop="keywords" content="función de densidad">
+<a id="bm_id2917484"></a>
+<h2 id="hd_id2913722" dir="auto">DISTR.NORM.N</h2>
+<p id="par_id2910386" class="paragraph" dir="auto"><span class="avis">Devuelve la función de densidad o la distribución acumulada normal.</span></p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id2910613" class="code" dir="auto">DISTR.NORM.N(Número; Media; Desv_estándar; C)</p>
+<p id="par_id2919820" class="paragraph" dir="auto"><span class="emph">Número</span> es el valor de la distribución a partir del cual se calculará la distribución normal.</p>
+<p id="par_id2916063" class="paragraph" dir="auto"><span class="emph">Media</span> es el valor medio de la distribución.</p>
+<p id="par_id2916295" class="paragraph" dir="auto"><span class="emph">Desviación típica</span> es la desviación típica de la distribución.</p>
+<p id="par_id2915080" class="paragraph" dir="auto"><span class="emph">C</span> = 0 calcula la función de densidad; <span class="emph">C</span> = 1 calcula la distribución.</p>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id2919283" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DISTR.NORM.N(70;63;5;0)</span> devuelve 0.029945493.</p>
+<p id="par_id2919448" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DISTR.NORM.N(70;63;5;1)</span> devuelve 0.9192433408.</p>
+<div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+<div class="embedded">
+<a id="4.3"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.3 de LibreOffice</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+<p id="par_id341640373986703" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.NORM.DIST</span></p>
+<a id="poissondotdist"></a>
+    <a id="bm_id2953985"></a>        <meta itemprop="keywords" content="DISTR.POISSON">
+    <a id="bm_id2956011"></a>
+    <h2 id="hd_id2953985" dir="auto">DISTR.POISSON</h2>
+    <p id="par_id2954298" class="paragraph" dir="auto"><span class="avis">Devuelve la distribución de Poisson.</span></p>
+    <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+    <p id="par_id2946093" class="code" dir="auto">DISTRIBUCIÓN DE POISSON(Número; Media; Acumulado)</p>
+    <p id="par_id2947253" class="paragraph" dir="auto"><span class="emph">Número</span> representa el valor a partir del cual se calculará la distribución de Poisson.</p>
+    <p id="par_id2951177" class="paragraph" dir="auto"><span class="emph">Media</span> es el valor medio de la distribución de Poisson.</p>
+    <p id="par_id2949200" class="paragraph" dir="auto"><span class="emph">Acumulativa</span>= 0 o Falso para calcular la función de mayor probabilidad;<span class="emph">Acumulativa</span>= 1, Verdadero, o cualquier otro valor distinto de cero para calcular la función de distribución acumulativa.</p>
+    <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+    <p id="par_id2950113" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DISTR.POISSON(60;50;1)</span> devuelve 0,9278398202.</p>
+    <div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+    <div class="embedded">
+<a id="4.2"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.2 de LibreOffice.</p></div>
+</div>
+<br>
+    </div>
+    <div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+    <p id="par_id341630873986703" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.POISSON.DIST</span></p>
+<a id="phi"></a>
+  <a id="bm_id3152806"></a>    <meta itemprop="keywords" content="PHI">
+  <a id="bm_id3153757"></a>
+  <h2 id="hd_id3152806" dir="auto">FI</h2>
+  <p id="par_id3150254" class="paragraph" dir="auto"><span class="avis">Devuelve el valor de la función de densidad de probabilidad para un valor dado considerando la distribución normal estándar.</span></p>
+  <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+  <p id="par_id151629986285891" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">PHI(Número)</span></p>
+  <p id="par_id3156108" class="paragraph" dir="auto"><span class="emph">Número</span>es el valor que se calcula para la función de densidad de probabilidad.</p>
+  <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+  <p id="par_id3155849" class="paragraph" dir="auto">    <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=FI(2.25)</span>devuelve 0.0317.</p>
+  <p id="par_id3143236" class="paragraph" dir="auto">    <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=FI(-2.25)</span>también devuelve 0.0317 ya que la distribución normal es simétrica.</p>
+  <p id="par_id3149286" class="paragraph" dir="auto">    <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=FI(0)</span>devuelve 0.3989.</p>
+  <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Llamar a <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">FI(Número)</span> es equivalente a llamar a<span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">.NORMDIST(Número,0,1,FALSO())</span> o <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles"> NORM.S.DIST(Número; FALSO())</span>, por lo que se utiliza la distribución normal estándar con media igual a 0 y la desviación estándar igual a 1 con la <span class="emph"> Acumulada </span> establecido en <span class="emph"> Falso </span>.</p></div>
+</div>
+<br>
+<a id="normdotinv"></a>
+<a id="bm_id2955516"></a><meta itemprop="keywords" content="INV.NORM">
+<meta itemprop="keywords" content="distribución normal,inversa de">
+<a id="bm_id2949396"></a>
+<h2 id="hd_id2955516" dir="auto">INV.NORM</h2>
+<p id="par_id2954634" class="paragraph" dir="auto"><span class="avis">Devuelve la inversa de la distribución normal acumulada.</span></p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id2947534" class="code" dir="auto">INV.NORM(Número; Media; Desv_estándar)</p>
+<p id="par_id2954950" class="paragraph" dir="auto"><span class="emph">Número</span> representa el valor de probabilidad utilizado para determinar la inversa de la distribución normal.</p>
+<p id="par_id2950690" class="paragraph" dir="auto"><span class="emph">Media</span> es el valor medio de la distribución normal.</p>
+<p id="par_id2948594" class="paragraph" dir="auto"><span class="emph">Desviación típica</span> representa la desviación típica de la distribución normal.</p>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id2953921" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=INV.NORM(0,9;63;5)</span> devuelve 69,4077578277. Si un huevo de gallina pesa una media de 63 gramos, con una desviación típica de 5, la probabilidad de que un huevo no pese más de 69,41 gramos es del 90 %.</p>
+<div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+<div class="embedded">
+<a id="4.3"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.3 de LibreOffice</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+<p id="par_id341640873966703" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.NORM.INV</span></p>
+<a id="max"></a>
+<a id="bm_id3154511"></a><meta itemprop="keywords" content="función MAX">
+<a id="bm_id3146972"></a>
+<h2 id="hd_id3154511" dir="auto">
+<a id="max_head"></a><a target="_top" href="es/text/scalc/01/04060184.html#max">MAX</a>
+</h2>
+<p id="par_id3153709" class="paragraph" dir="auto"><span class="avis">Devuelve el valor máximo de una lista de argumentos.</span></p>
+<p id="par_id9282509" class="paragraph" dir="auto">Devuelve 0 si no ha encontrado un valor numérico y un error en el o los intervalos de celdas pasados como referencias de celdas. Las celdas de Texto son ignoradas por MIN() y MAX(). Las funciones MINA() y MAXA() devuelven 0 si no encuentran un valor (numérico o texto) y un error. Si se pasa un argumento de cadena literal a MIN() o MAX(), por ejemplo, MIN("cadena"), sigue produciendo un error.</p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id3147340" class="code" dir="auto">MAX(Argument 1 [; Argument 2 [; …  [; Argument 255]]])</p>
+<div class="embedded">
+<a id="argument255"></a>
+      <p id="par_id1001754569677921" class="paragraph" dir="auto"><span class="emph">Argument 1; Argument 2; … ; Argument 255</span> are numbers, text, references to cells or to cell ranges of numbers or text.</p>
+    </div>
+<div class="embedded">
+<a id="datenumbersequencenote"></a>
+        <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de <a target="_top" href="es/text/scalc/01/03080000.html">resalte de valores</a>.</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id3147343" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=MAX(A1;A2;A3;50;100;200)</span> devuelve el mayor valor de la lista.</p>
+<p id="par_id3148485" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=MAX(A1:B100)</span> devuelve el mayor valor de la lista.</p>
+<a id="maxa"></a>
+<a id="bm_id3166426"></a><meta itemprop="keywords" content="función MAXA">
+<a id="bm_id3150304"></a>
+<h2 id="hd_id3166426" dir="auto">
+<a id="maxa_head"></a><a target="_top" href="es/text/scalc/01/04060184.html#maxa">MAXA</a>
+</h2>
+<p id="par_id3150363" class="paragraph" dir="auto"><span class="avis">Devuelve el valor máximo de una lista de argumentos. A diferencia de MAX, esta función admite texto. El valor del texto es 0.</span></p>
+<p id="par_id7689443" class="paragraph" dir="auto">Las funciones MINA() and MAXA() devuelven 0 si no hay valor (numérico o texto) y si no se ha encontrado un error.</p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id3166431" class="code" dir="auto">MAXA(Argument 1 [; Argument 2 [; …  [; Argument 255]]])</p>
+<div class="embedded">
+<a id="argument255"></a>
+      <p id="par_id1001754569677921" class="paragraph" dir="auto"><span class="emph">Argument 1; Argument 2; … ; Argument 255</span> are numbers, text, references to cells or to cell ranges of numbers or text.</p>
+    </div>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id3156446" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=MAXA(A1;A2;A3;50;100;200;"Texto")</span> devuelve el mayor valor de la lista.</p>
+<p id="par_id3149404" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=MAXA(A1:B100)</span> devuelve el mayor valor de la lista.</p>
+<a id="median"></a>
+<a id="bm_id3153820"></a><meta itemprop="keywords" content="MEDIANA">
+<a id="bm_id3153069"></a>
+<h2 id="hd_id3153820" dir="auto">
+<a id="median_head"></a><a target="_top" href="es/text/scalc/01/04060184.html#median">MEDIANA</a>
+</h2>
+<p id="par_id3151241" class="paragraph" dir="auto"><span class="avis">Calcula la mediana (punto medio) de un grupo de números. En un grupo que contiene una cantidad de valores impar, la mediana es el número que se encuentra en medio; en un grupo que contiene una cantidad de valores par, es la mediana de los dos valores del medio.</span></p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id3155264" class="code" dir="auto">MEDIANA(Argument 1 [; Argument 2 [; …  [; Argument 255]]])</p>
+<div class="embedded">
+<a id="argument255"></a>
+      <p id="par_id1001754569677921" class="paragraph" dir="auto"><span class="emph">Argument 1; Argument 2; … ; Argument 255</span> are numbers, text, references to cells or to cell ranges of numbers or text.</p>
+    </div>
+<div class="embedded">
+<a id="datenumbersequencenote"></a>
+        <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de <a target="_top" href="es/text/scalc/01/03080000.html">resalte de valores</a>.</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id3145078" class="paragraph" dir="auto">para un número impar: <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=MEDIANA(1;5;9;20;21)</span> devuelve 9 como valor mediano.</p>
+<p id="par_id3149126" class="paragraph" dir="auto">para un número par:<span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=MEDIAN(1;5;9;20)</span> devuelve el promedio de los dos valores medios de 5 a 9, es decir 7.</p>
+<a id="min"></a>
+<a id="bm_id3154541"></a><meta itemprop="keywords" content="función MIN">
+<a id="bm_id3159226"></a>
+<h2 id="hd_id3154541" dir="auto">
+<a id="min_head"></a><a target="_top" href="es/text/scalc/01/04060184.html#min">MIN</a>
+</h2>
+<p id="par_id3143222" class="paragraph" dir="auto"><span class="avis">Devuelve el valor mínimo de una lista de argumentos.</span></p>
+<p id="par_id2301400" class="paragraph" dir="auto">Devuelve 0 si no encuentra ningún valor numérico ni ningún error en el o los intervalos de celdas que se han pasado como referencias de celdas. MIN() y MAX() ignoran las celdas de texto. Las funciones MINA() y MAXA() devuelven 0 si no encuentran un valor (numérico o de texto) ni un error. Si se pasa un argumento de cadena literal a MIN() o MAX(), por ejemplo. MIN("cadena"), sigue produciendo un error.</p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id3146964" class="code" dir="auto">MIN(Argument 1 [; Argument 2 [; …  [; Argument 255]]])</p>
+<div class="embedded">
+<a id="argument255"></a>
+      <p id="par_id1001754569677921" class="paragraph" dir="auto"><span class="emph">Argument 1; Argument 2; … ; Argument 255</span> are numbers, text, references to cells or to cell ranges of numbers or text.</p>
+    </div>
+<div class="embedded">
+<a id="datenumbersequencenote"></a>
+        <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de <a target="_top" href="es/text/scalc/01/03080000.html">resalte de valores</a>.</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id3154734" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=MIN(A1:B100)</span> devuelve el menor valor de la lista.</p>
+<a id="mina"></a>
+<a id="bm_id3147504"></a><meta itemprop="keywords" content="función MINA">
+<a id="bm_id3155752"></a>
+<h2 id="hd_id3147504" dir="auto">
+<a id="mina_head"></a><a target="_top" href="es/text/scalc/01/04060184.html#mina">MINA</a>
+</h2>
+<p id="par_id3147249" class="paragraph" dir="auto"><span class="avis">Devuelve el valor mínimo de una lista de argumentos. También puede introducir texto. El valor del texto es 0.</span></p>
+<p id="par_id4294564" class="paragraph" dir="auto">Las funciones MINA() y MAXA() devuelven 0 si no hay ningún valor (numérico o de texto) ni un error.</p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id3153336" class="code" dir="auto">MINA(Argument 1 [; Argument 2 [; …  [; Argument 255]]])</p>
+<div class="embedded">
+<a id="argument255"></a>
+      <p id="par_id1001754569677921" class="paragraph" dir="auto"><span class="emph">Argument 1; Argument 2; … ; Argument 255</span> are numbers, text, references to cells or to cell ranges of numbers or text.</p>
+    </div>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id3147401" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=MINA(1;"Texto";20)</span> devuelve 0.</p>
+<p id="par_id3147295" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=MINA(A1:B100)</span> devuelve el menor valor de la lista.</p>
+<a id="mode"></a>
+<a id="bm_id3153933"></a><meta itemprop="keywords" content="MODA">
+<meta itemprop="keywords" content="valor más común">
+<a id="bm_id3149253"></a>
+<h2 id="hd_id3153933" dir="auto">MODA</h2>
+<p id="par_id3153085" class="paragraph" dir="auto"><span class="avis">Devuelve el valor más común de un grupo de datos.</span> Si hay varios valores con la misma frecuencia, devuelve el inferior. Si ningún valor se repite dos veces, se muestra un mensaje de error.</p>
+<div class="embedded">
+<a id="odff"></a>
+<div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función forma parte del estándar Open Document Format for Office Applications (OpenDocument), versión 1.2 (ISO/IEC 26300:2-2015).</p></div>
+</div>
+<br>
+</div>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id3155950" class="code" dir="auto">MODA(Argument 1 [; Argument 2 [; …  [; Argument 255]]])</p>
+<div class="embedded">
+<a id="argument255"></a>
+      <p id="par_id1001754569677921" class="paragraph" dir="auto"><span class="emph">Argument 1; Argument 2; … ; Argument 255</span> are numbers, text, references to cells or to cell ranges of numbers or text.</p>
+    </div>
+<div class="embedded">
+<a id="datenumbersequencenote"></a>
+        <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de <a target="_top" href="es/text/scalc/01/03080000.html">resalte de valores</a>.</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id3153733" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=MODO(A1:A50)</span></p>
+<a id="modedotsngl"></a>
+<a id="bm_id2953933"></a><meta itemprop="keywords" content="función MODA.UNO">
+<meta itemprop="keywords" content="valor más común">
+<a id="bm_id2949253"></a>
+<h2 id="hd_id2953933" dir="auto">MODA.UNO</h2>
+<p id="par_id2953085" class="paragraph" dir="auto"><span class="avis">Devuelve el valor más frecuente, o común, de una matriz o intervalo de datos.</span> Si hay varios valores con la misma frecuencia, devuelve el inferior. Si ningún valor se repite dos veces se muestra un mensaje de error.</p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id2955950" class="code" dir="auto">MODA.UNO(Número 1 [; Número 2 [; ... [; Número 255]].)</p>
+<div class="embedded">
+<a id="number255"></a>
+        <p id="par_id931584395947010" class="paragraph" dir="auto"><span class="emph">Number 1; Number 2; … ; Number 255</span> are numbers, references to cells or to cell ranges of numbers.</p>
+    </div>
+<div class="warning">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/warning.svg" alt="Icono de aviso" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Si el conjunto de datos no contiene ningún duplicado, MODA.UNO devuelve el valor de error #¡VALOR!</p></div>
+</div>
+<br>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id2953733" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=MODA.UNO(A1:A50)</span></p>
+<div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+<div class="embedded">
+<a id="4.3"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.3 de LibreOffice</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+<p id="par_id341540873986703" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.MODE.SNGL</span></p>
+<a id="modedotmult"></a>
+<a id="bm_id2853933"></a><meta itemprop="keywords" content="función MODA.VARIOS">
+<meta itemprop="keywords" content="valor más común">
+<a id="bm_id2849253"></a>
+<h2 id="hd_id2853933" dir="auto">MODA.VARIOS</h2>
+<p id="par_id2853085" class="paragraph" dir="auto"><span class="avis">Devuelve una matriz vertical de las modas estadísticas (los valores que se repiten con más frecuencia) en una lista de números que proporcione.</span></p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id2855950" class="code" dir="auto">MODA.VARIOS(Número 1 [; Número 2 [; ... [; Número 255]].)</p>
+<div class="embedded">
+<a id="number255"></a>
+        <p id="par_id931584395947010" class="paragraph" dir="auto"><span class="emph">Number 1; Number 2; … ; Number 255</span> are numbers, references to cells or to cell ranges of numbers.</p>
+    </div>
+<div class="warning">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/warning.svg" alt="Icono de aviso" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Debido a que la función MODA.VARIOS devuelve una matriz de valores, debe insertarse como una fórmula matricial. Si la función no se inserta de este modo se devolverá solo la primera moda, lo cual es el mismo resultado que se obtendría al utilizar MODA.UNO.</p></div>
+</div>
+<br>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id2853733" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=MODA.VARIOS(A1:A50)</span></p>
+<div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+<div class="embedded">
+<a id="4.3"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.3 de LibreOffice</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+<p id="par_id341640875986703" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.MODE.MULT</span></p>
+<a id="negbinomdotdist"></a>
+<a id="bm_id2949879"></a><meta itemprop="keywords" content="función NEGBINOM.DIST">
+<meta itemprop="keywords" content="distribución binómica negativa">
+<a id="bm_id2959135"></a>
+<h2 id="hd_id2949879" dir="auto">NEGBINOM.DIST</h2>
+<p id="par_id2955437" class="paragraph" dir="auto"><span class="avis">Devuelve la función de distribución o de densidad binómica negativa.</span></p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id2950935" class="code" dir="auto">NEGBINOM.DIST(X; R; SP; Acumulado)</p>
+<p id="par_id2953044" class="paragraph" dir="auto"><span class="emph">X</span> representa el valor devuelto para las pruebas realizadas sin éxito.</p>
+<p id="par_id2951018" class="paragraph" dir="auto"><span class="emph">R</span> representa el valor devuelto para las pruebas realizadas con éxito.</p>
+<p id="par_id2948878" class="paragraph" dir="auto"><span class="emph">prob_éxito</span> es la probabilidad del éxito de un intento.</p>
+<p id="par_id2948879" class="paragraph" dir="auto"><span class="emph">Acumulada</span> = 0 calcula la función de densidad; <span class="emph">Acumulada</span> = 1 calcula la distribución.</p>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id2948770" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=NEGBINOM.DIST(1;1;0.5;0)</span> devuelve 0,25.</p>
+<p id="par_id2948771" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=NEGBINOM.DIST(1;1;0,5)</span> devuelve 0,75.</p>
+<div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+<div class="embedded">
+<a id="4.3"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.3 de LibreOffice</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+<p id="par_id341640873985703" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.NEGBINOM.DIST</span></p>
+<a id="negbinomdist"></a>
+<a id="bm_id3149879"></a><meta itemprop="keywords" content="función NEGBINOMDIST">
+<meta itemprop="keywords" content="distribución binómica negativa">
+<a id="bm_id3159135"></a>
+<h2 id="hd_id3149879" dir="auto">NEGBINOMDIST</h2>
+<p id="par_id3155437" class="paragraph" dir="auto"><span class="avis">Devuelve la distribución binómica negativa.</span></p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id3150935" class="code" dir="auto">NEGBINOMDIST(núm_fracasos; núm_éxitos; prob_éxito)</p>
+<p id="par_id3153044" class="paragraph" dir="auto"><span class="emph">X</span> representa el valor devuelto para las pruebas realizadas sin éxito.</p>
+<p id="par_id3151018" class="paragraph" dir="auto"><span class="emph">R</span> representa el valor devuelto para las pruebas realizadas con éxito.</p>
+<p id="par_id3148878" class="paragraph" dir="auto"><span class="emph">prob_éxito</span> es la probabilidad del éxito de un intento.</p>
+<div class="embedded">
+<a id="IntegerTrunc"></a>
+        <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">En el caso de los argumentos de tipo entero, los valores que no sean enteros se truncan al entero.</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id3148770" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=NEGBINOMDIST(1;1;0,5)</span> devuelve 0,25.</p>
+<a id="pearson"></a>
+<a id="bm_id3152934"></a><meta itemprop="keywords" content="PEARSON">
+<a id="bm_id3156103"></a>
+<h2 id="hd_id3152934" dir="auto">PEARSON</h2>
+<p id="par_id3153216" class="paragraph" dir="auto"><span class="avis">Calcula el coeficiente de correlación producto o momento r de Pearson.</span></p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id3156133" class="code" dir="auto">PEARSON(Datos1; Datos2)</p>
+<p id="par_id3151272" class="paragraph" dir="auto"><span class="emph">Datos1</span> representa la matriz del primer conjunto de datos.</p>
+<p id="par_id3153279" class="paragraph" dir="auto"><span class="emph">Datos2</span> representa la matriz del segundo conjunto de datos.</p>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id3151187" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=PEARSON(A1:A30;B1:B30)</span> devuelve el coeficiente de correlación de Pearson de ambos conjuntos de datos.</p>
+<a id="percentile"></a>
+<a id="bm_id3153100"></a><meta itemprop="keywords" content="PERCENTIL">
+<a id="bm_id3155394"></a>
+<h2 id="hd_id3153100" dir="auto">PERCENTIL</h2>
+<p id="par_id3154940" class="paragraph" dir="auto"><span class="avis">devuelve el alpha-percentil de los valores de datos en una matriz.</span> Un percentil devuelve la escala de valores para una serie de datos que van desde el valor más pequeño (Alpha=0) al más alto (alpha=1) de una serie. Para <span class="literal">Alpha</span> = 25%, el percentil significa el primer cuartil; <span class="literal">Alpha</span> = 50% es la MEDIANA.</p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id3148813" class="code" dir="auto">PERCENTIL(Datos; Alpha)</p>
+<p id="par_id3153054" class="paragraph" dir="auto"><span class="emph">Datos</span> es la matriz de los datos.</p>
+<p id="par_id3154212" class="paragraph" dir="auto"><span class="emph">Alfa</span> representa el porcentaje de la escala entre 0 y 1.</p>
+<div class="embedded">
+<a id="datenumbersequencenote"></a>
+        <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de <a target="_top" href="es/text/scalc/01/03080000.html">resalte de valores</a>.</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id3159147" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=PERCENTIL(A1:A50;0,1)</span> representa el valor en el grupo de datos, que equivale al 10% de la escala de todos los datos contenidos en A1:A50.</p>
+<a id="percentileexc"></a>
+<a id="bm_id2853100"></a><meta itemprop="keywords" content="función PERCENTIL.EXC">
+<a id="bm_id2855394"></a>
+<h2 id="hd_id2853100" dir="auto">PERCENTIL.EXC</h2>
+<p id="par_id2854940" class="paragraph" dir="auto"><span class="avis">Devuelve el <span class="literal">Alpha</span>esimo de un rango dado de vlores para un valor de <span class="literal">Alpha</span>, en el rango de 0 a 1 (exclusivo).</span> Un percentil devuelve el valor de escala para una serie de datos que va desde el más pequeño (<span class="literal">Alpha=0</span>) hasta el más grande (<span class="literal">Alpha=1</span>) de una serie de datos. Para <span class="literal">Alpha</span> = 25% el percentil quiere decir el primer cuartil; <span class="literal">Alpha</span> = 50% es la MEDIANA.</p>
+<div class="warning">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/warning.svg" alt="Icono de aviso" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Si <span class="literal">Alpha</span> no es multiplo de <span class="literal">1/(n+1)</span>, (donde n es el número de valores de la matriz dada), la función interpola entre los valores de la matriz dada para calcular el valor del percentil. En todo caso, si <span class="literal">Alpha</span>es menor que <span class="literal">1/(n+1)</span> o <span class="literal">Alpha</span> es mayor que <span class="literal">n/(n+1)</span>, la función es incapaz de interpolar y, por tanto, devuelve un error.</p></div>
+</div>
+<br>
+<div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">La diferencia entre <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles"> PERCENTIL.INC </span> y <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles"> PERCENTIL.EXC </span> es que, en la función <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles"> PERCENTIL.INC</span> el valor de alfa esta dentro del rango de 0 a 1 inclusive, y en la función<span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles"> PERCENTIL.EXC </span> el valor de alfa esta dentro del rango de 0 a 1 exclusivamente.</p></div>
+</div>
+<br>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id2848813" class="code" dir="auto">PERCENTIL.EXC(Datos; Alfa)</p>
+<p id="par_id2853054" class="paragraph" dir="auto"><span class="emph">Datos</span> representa la matriz de datos.</p>
+<p id="par_id2854212" class="paragraph" dir="auto"><span class="emph">Alfa</span> representa el porcentaje de la escala entre 0 y 1.</p>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id2859147" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=PERCENTIL.EXC(A1:A50;10%)</span> representa el valor en el conjunto de datos, que equivale al 10 % de la escala de todos los datos en A1:A50.</p>
+<div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+<div class="embedded">
+<a id="4.3"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.3 de LibreOffice</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+<p id="par_id342640873986703" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.PERCENTILE.EXC</span></p>
+<a id="percentileinc"></a>
+<a id="bm_id2953100"></a><meta itemprop="keywords" content="función PERCENTIL.INC">
+<a id="bm_id2955394"></a>
+<h2 id="hd_id2953100" dir="auto">PERCENTIL.INC</h2>
+<p id="par_id2954940" class="paragraph" dir="auto"><span class="avis">devuelve el alpha-percentil de los valores de datos en una matriz.</span> Un percentil devuelve el valor de escala para una serie de datos que van desde el valor más pequeño (Alpha=0) al más alto (alpha=1) de una serie. Para <span class="literal">Alpha</span> = 25%, el percentil significa el primer cuartil; <span class="literal">Alpha</span> = 50% es la MEDIANA.</p>
+<div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">La diferencia entre <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles"> PERCENTIL.INC </span> y <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles"> PERCENTIL.EXC </span> es que, en la función <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles"> PERCENTIL.INC </span> el valor de alfa esta dentro del rango de 0 a 1 inclusive, y en la función<span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles"> PERCENTIL.EXC </span> el valor de alfa esta dentro del rango de 0 a 1 exclusivamente.</p></div>
+</div>
+<br>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id2948813" class="code" dir="auto">PERCENTIL.INC(Datos; Alfa)</p>
+<p id="par_id2953054" class="paragraph" dir="auto"><span class="emph">Datos</span> es la matriz de los datos.</p>
+<p id="par_id2954212" class="paragraph" dir="auto"><span class="emph">Alfa</span> representa el porcentaje de la escala entre 0 y 1.</p>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id2959147" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=PERCENTIL(A1:A50;0.1)</span> representa el valor en el grupo de datos, que equivale al 10% de la escala total de datos contenidos en A1:A50.</p>
+<div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+<div class="embedded">
+<a id="4.3"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.3 de LibreOffice</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+<p id="par_id341340873986703" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.PERCENTILE.INC</span></p>
+<a id="poisson"></a>
+<a id="bm_id3153985"></a><meta itemprop="keywords" content="POISSON">
+<a id="bm_id3156011"></a>
+<h2 id="hd_id3153985" dir="auto">POISSON</h2>
+<p id="par_id3154298" class="paragraph" dir="auto"><span class="avis">Devuelve la distribución de Poisson.</span></p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id3146093" class="code" dir="auto">POISSON(Número; Media [; C])</p>
+<p id="par_id3147253" class="paragraph" dir="auto"><span class="emph">Número</span> representa el valor en el que se basa para calcular la distribución de Poisson.</p>
+<p id="par_id3151177" class="paragraph" dir="auto"><span class="emph">Media</span> es el valor medio de la distribución de Poisson.</p>
+<p id="par_id3149200" class="paragraph" dir="auto"><span class="emph">C</span> (opcional) = 0 o Falso calcula la función de densidad. <span class="emph">C</span> = 1 o Verdadero calcula la distribución. Cuando se omite, se inserta el valor predeterminado Verdadero cuando guarda el documento, para una mayor compatibilidad con otros programas y versiones anteriores de LibreOffice.</p>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id3150113" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=POISSON(60;50;1)</span> devuelve 0,93.</p>
+<a id="average"></a>
+<a id="bm_id3145824"></a><meta itemprop="keywords" content="función PROMEDIO">
+<a id="bm_id3146878"></a>
+<h2 id="hd_id3145824" dir="auto">
+<a id="average_head"></a><a target="_top" href="es/text/scalc/01/04060184.html#average">PROMEDIO</a>
+</h2>
+<p id="par_id3150482" class="paragraph" dir="auto"><span class="avis">Calcula el promedio de los argumentos.</span></p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id3154679" class="code" dir="auto">PROMEDIO(Argument 1 [; Argument 2 [; …  [; Argument 255]]])</p>
+<div class="embedded">
+<a id="argument255"></a>
+      <p id="par_id1001754569677921" class="paragraph" dir="auto"><span class="emph">Argument 1; Argument 2; … ; Argument 255</span> are numbers, text, references to cells or to cell ranges of numbers or text.</p>
+    </div>
+<div class="embedded">
+<a id="datenumbersequencenote"></a>
+        <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de <a target="_top" href="es/text/scalc/01/03080000.html">resalte de valores</a>.</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id3151232" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=PROMEDIO(A1:A50)</span></p>
+<a id="averagea"></a>
+<a id="bm_id3148754"></a><meta itemprop="keywords" content="función PROMEDIOA">
+<a id="bm_id3149690"></a>
+<h2 id="hd_id3148754" dir="auto">
+<a id="averagea_head"></a><a target="_top" href="es/text/scalc/01/04060184.html#averagea">PROMEDIOA</a>
+</h2>
+<p id="par_id3145138" class="paragraph" dir="auto"><span class="avis">Calcula el promedio de los argumentos. El valor del texto es 0.</span></p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id3149734" class="code" dir="auto">PROMEDIOA(Argument 1 [; Argument 2 [; …  [; Argument 255]]])</p>
+<div class="embedded">
+<a id="argument255"></a>
+      <p id="par_id1001754569677921" class="paragraph" dir="auto"><span class="emph">Argument 1; Argument 2; … ; Argument 255</span> are numbers, text, references to cells or to cell ranges of numbers or text.</p>
+    </div>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id3150864" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=PROMEDIOA(A1:A50)</span></p>
+<a id="percentrank"></a>
+<a id="bm_id3148807"></a><meta itemprop="keywords" content="RANGO.PERCENTIL">
+<a id="bm_id3154902"></a>
+<h2 id="hd_id3148807" dir="auto">RANGO.PERCENTIL</h2>
+<p id="par_id3153573" class="paragraph" dir="auto"><span class="avis">Devuelve la posición porcentual de un valor en una muestra.</span></p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id3147238" class="code" dir="auto">RANGO.PERCENTIL(Datos; Valor [; Significatividad])</p>
+<p id="par_id3154266" class="paragraph" dir="auto"><span class="emph">Datos</span> es la matriz de datos en la muestra.</p>
+<p id="par_id3148475" class="paragraph" dir="auto"><span class="emph">Valor</span> representa el valor cuya posición de percentil se ha de determinar.</p>
+<p id="par_id2748477" class="paragraph" dir="auto"><span class="emph">Significatividad</span>: un argumento opcional que indica la cantidad de dígitos significativos que considerar al redondear el valor porcentual devuelto. Si se omite, se emplea un valor de 3.</p>
+<div class="embedded">
+<a id="datenumbersequencenote"></a>
+        <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de <a target="_top" href="es/text/scalc/01/03080000.html">resalte de valores</a>.</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id3149163" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=RANGO.PERCENTIL(A1:A50;50)</span> devuelve la posición porcentual del valor 50, con base en todo el intervalo de valores que se encuentran en A1:A50. Si 50 no está dentro del intervalo, aparecerá un mensaje de error.</p>
+<a id="percentrankexc"></a>
+<a id="bm_id2848807"></a><meta itemprop="keywords" content="RANGO.PERCENTIL.EXC">
+<a id="bm_id2854902"></a>
+<h2 id="hd_id2848807" dir="auto">RANGO.PERCENTIL.EXC</h2>
+<p id="par_id2853573" class="paragraph" dir="auto"><span class="avis">Devuelve la posición relativa, entre 0 y 1 (excluida), de un valor especificado en una matriz de datos dada.</span></p>
+<div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">La diferencia entre <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">RANGO.PERCENTIL.INC</span> y <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">RANGO.PERCENTIL.EXC</span> es que <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">RANGO.PERCENTIL.INC</span> calcula un valor en el rango 0 a 1 inclusive, mientras que la función <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">RANGO.PERCENTIL.EXC</span> calcula un valor en el rango 0 a 1 exclusive.</p></div>
+</div>
+<br>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id2847238" class="code" dir="auto">RANGO PORCENTUAL.EXC(Datos; Valor [; Significatividad])</p>
+<p id="par_id2854266" class="paragraph" dir="auto"><span class="emph">Datos</span> es la matriz de datos en la muestra.</p>
+<p id="par_id2848475" class="paragraph" dir="auto"><span class="emph">Valor</span> representa el valor cuya posición de percentil se ha de determinar.</p>
+<p id="par_id2748475" class="paragraph" dir="auto"><span class="emph">Significatividad</span>: un argumento opcional que indica la cantidad de dígitos significativos que considerar al redondear el valor porcentual devuelto.</p>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id2849163" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=RANGO.PERCENTIL.EXC(A1:A50;50)</span> devuelve la posición porcentual del valor 50, con base en todo el intervalo de valores que se encuentran en A1:A50. Si 50 no está dentro del intervalo, aparecerá un mensaje de error.</p>
+<div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+<div class="embedded">
+<a id="4.3"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.3 de LibreOffice</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+<p id="par_id341640878986703" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.PERCENTRANK.EXC</span></p>
+<a id="percentrankinc"></a>
+<a id="bm_id2948807"></a><meta itemprop="keywords" content="RANGO.PERCENTIL.INC">
+<a id="bm_id2954902"></a>
+<h2 id="hd_id2948807" dir="auto">RANGO.PERCENTIL.INC</h2>
+<p id="par_id2953573" class="paragraph" dir="auto"><span class="avis">Devuelve la posición relativa, entre 0 y 1 (inclusive), de un valor específico la matriz dada.</span></p>
+<div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">La diferencia entre <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">RANGO.PERCENTIL.INC</span> y <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">RANGO.PERCENTIL.EXC</span> es que <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">RANGO.PERCENTIL.INC</span> calcula un valor en el intervalo 0 a 1 inclusivamente, mientras que la función <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">RANGO.PERCENTIL.EXC</span> calcula un valor en el intervalo 0 a 1 exclusivamente.</p></div>
+</div>
+<br>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id2947238" class="code" dir="auto">RANGO.PERCENTIL.INC(Datos; Valor [; Significatividad])</p>
+<p id="par_id2954266" class="paragraph" dir="auto"><span class="emph">Datos</span> es la matriz de datos en la muestra.</p>
+<p id="par_id2948475" class="paragraph" dir="auto"><span class="emph">Valor</span> representa el valor cuya posición de percentil se ha de determinar.</p>
+<p id="par_id2648475" class="paragraph" dir="auto"><span class="emph">Significatividad</span>: un argumento opcional que indica la cantidad de dígitos significativos que considerar al redondear el valor porcentual devuelto.</p>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id2949163" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=RANGO.PERCENTIL.INC(A1:A50;50)</span> devuelve la posición porcentual del valor 50, con base en todo el intervalo de valores que se encuentran en A1:A50. Si 50 no está dentro del intervalo, aparecerá un mensaje de error.</p>
+<div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+<div class="embedded">
+<a id="4.3"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.3 de LibreOffice</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+<p id="par_id341640873086703" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.PERCENTRANK.INC</span></p>
+
+<a id="relatedtopics"></a><div class="relatedtopics">
+<p class="related" itemprop="mentions" dir="auto"><a id="related"></a><span class="emph">Temas relacionados</span></p>
+<div class="relatedbody" itemprop="mentions">
+<div class="embedded"><p class="embedded" dir="auto"><a target="_top" href="es/text/scalc/01/04060100.html">Funciones por categoría</a></p></div>
+</div>
+</div>
+</div>
+<div id="DonationFrame"><a href="https://www.libreoffice.org/donate/?pk_campaign=help" target="_blank"><div class="icontable donation">
+<div class="iconcell"><img class="iconimage" src="media/helpimg/donate.png" alt="¡Necesitamos su ayuda!" style="width:40px;height:40px;"></div>
+<div class="iconcell"><p dir="auto">¡Necesitamos su ayuda!</p></div>
+</div></a></div>
+<footer><h2 style="text-align: center;"><a href="https://books.libreoffice.org" target="_blank">Guías de LibreOffice</a></h2>
+<div class="noteicon" dir="auto" style="display:flex;justify-content:center;flex-wrap:wrap;row-gap:15px;">
+<img src="media/navigation/libo-writer.svg" alt="Writer Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-calc.svg" alt="Calc Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-impress.svg" alt="Impress Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-draw.svg" alt="Draw Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-base.svg" alt="Base Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-math.svg" alt="Math Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-symbol-black.svg" alt="Getting Started Icon" style="width:60px;height:60px;">
+</div>
+<p itemscope="true" itemtype="http://schema.org/Organization" dir="auto"><meta itemprop="name" content="The Document Foundation"><meta itemprop="legalName" content="The Document Foundation"><meta itemprop="alternateName" content="TDF"><meta itemprop="publishingPrinciples" content="https://www.libreoffice.org/imprint"><a href="https://www.libreoffice.org/imprint" target="_blank">Impressum (Legal Info)</a> | <a href="https://www.libreoffice.org/privacy" target="_blank">Privacy Policy</a> | <a href="https://www.documentfoundation.org/statutes.pdf" target="_blank">Statutes (non-binding English translation)</a> - <a href="https://www.documentfoundation.org/satzung.pdf" target="_blank">Satzung (binding German version)</a> | Copyright information: Unless otherwise specified, all text and images on this website are licensed under the <a href="https://www.libreoffice.org/download/license/" target="_blank">Mozilla Public License v2.0</a>. “LibreOffice” and “The Document Foundation” are registered trademarks of their corresponding registered owners or are in actual use as trademarks in one or more countries. Their respective logos and icons are also subject to international copyright laws. Use thereof is explained in our <a href="https://wiki.documentfoundation.org/TradeMark_Policy" target="_blank">trademark policy</a>. LibreOffice was based on OpenOffice.org.</p>
+<div id="DEBUG" class="debug">
+<h3 class="bug">Help content debug info:</h3>
+<p dir="auto">This page is: <a href="https://opengrok.libreoffice.org/xref/help/source/text/scalc/01/04060184.xhp" target="_blank">/text/scalc/01/04060184.xhp</a></p>
+<p dir="auto">Title is: Funciones estadísticas, cuarta parte</p>
+<p id="bm_module" dir="auto"></p>
+<p id="bm_system" dir="auto"></p>
+<p id="bm_HID" dir="auto"></p>
+</div></footer>
+</body>
+</html>

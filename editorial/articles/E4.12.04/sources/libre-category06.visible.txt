@@ -1,0 +1,1049 @@
+Funciones matemáticas
+Ayuda de LibreOffice 26.8
+Módulo
+Idioma
+Contenido
+Active JavaScript en el navegador para mostrar las páginas de ayuda de LibreOffice.
+Funciones matemáticas
+Esta categoría contiene las funciones
+matemáticas
+de Calc. Para abrir el
+Asistente para funciones
+, diríjase a
+Insertar ▸ Función
+.
+Función
+AGREGAR
+Esta función devuelve el resultado totalizado de los cálculos de un intervalo. Puede utilizar una de las funciones de totalización mostradas a continuación. La función AGREGAR le permite ignorar las filas ocultas, los errores y los resultados de otras fórmulas SUBTOTALES y AGREGAR.
+TRUNCAR
+Trunca un número manteniendo un número especificado de dígitos decimales.
+RESTA.BRUTO
+Resta un conjunto de números y devuelve el resultado sin eliminar errores pequeños de redondeo.
+REDONDEAR.MENOS
+Redondea a la baja un número, manteniendo un número especificado de dígitos decimales.
+SUMA
+Suma un conjunto de números.
+SUMAR.SI
+Determina qué valores de un intervalo de celdas cumplen un criterio especificado y, a continuación, devuelve la suma de los valores coincidentes. Alternativamente, la función puede determinar qué valores de un intervalo de celdas cumplen un criterio y, a continuación, devolver la suma de los valores de las celdas correspondientes en un segundo intervalo de celdas.
+COLOR
+Devuelve un valor numérico calculado mediante una combinación de tres colores (rojo, verde y azul) y el canal alfa, en el sistema de colores RGBA.
+El resultado depende del sistema de colores que utilice su equipo.
+SUMAR.SI.CONJUNTO
+Devuelve la suma de los valores de las celdas en un intervalo que cumple múltiples criterios en varios intervalos.
+ABS
+Devuelve el valor absoluto de un número.
+Sintaxis
+ABS(Número)
+Número
+es el valor cuyo valor absoluto debe calcularse. El valor absoluto de un número es su valor sin el signo +/−.
+Ejemplo
+=ABS(-56)
+devuelve 56.
+=ABS(12)
+devuelve 12.
+=ABS(0)
+devuelve 0.
+ACOS
+Devuelve la inversa del coseno trigonométrico de un número.
+Sintaxis
+ACOS(Número)
+Esta función devuelve la inversa del coseno trigonométrico del
+Número
+, esto es, el ángulo (en radianes) cuyo coseno es Número. El ángulo devuelto esta entre 0 y PI.
+Para volver el ángulo en grados, use la función GRADOS.
+Ejemplo
+=ACOS(-1)
+devuelve 3,14159265358979 (PI radianes)
+=GRADOS(ACOS(0,5))
+devuelve 60. El coseno de 60 grados es 0,5.
+Abrir un archivo con un ejemplo:
+ACOSH
+Devuelve el inverso del coseno hiperbólico de un número.
+Sintaxis
+ACOSH(Número)
+Esta función devuelve el inverso del coseno hiperbólico de
+Número
+, esto es, el número cuyo coseno hiperbólico es Número.
+El número debe ser mayor que o igual a 1.
+Ejemplo
+=ACOSH(1)
+devuelve 0.
+=ACOSH(COSH(4))
+devuelve 4.
+Abrir un archivo con un ejemplo:
+ACOT
+Devuelve el inverso de la cotangente (arco cotangente) del número especificado.
+Sintaxis
+ACOT(Número)
+Esta función devuelve el inverso de la cotangente trigonométrica de
+Número
+, que es el ángulo (en radianes) del que Número es cotangente. El ángulo que devuelve está entre 0 y PI.
+Para volver el ángulo en grados, use la función GRADOS.
+Ejemplo
+=ACOT(1)
+devuelve 0,785398163397448 (PI/4 radianes).
+=GRADOS(ACOT(1))
+devuelve 45. La tangente de 45 grados es 1.
+Abrir un archivo con un ejemplo:
+ACOTH
+Devuelve el inverso de la cotangente hiperbólica del número especificado.
+Sintaxis
+ACOTH(Número)
+Esta función devuelve la inversa de la cotangente hiperbólica de
+Número
+, que es el número cuya cotangente hiperbólica es Número.
+Un resultado da error si Número esta entre -1 y 1, ambos inclusive.
+Ejemplo
+=ACOTH(1.1)
+devuelve la cotangente hiperbólica inversa de 1,1, aproximadamente 1,52226.
+Abrir un archivo con un ejemplo:
+ALEATORIO
+Devuelve un número aleatorio entre 0 y 1.
+Esta función siempre se vuelve a calcular cada vez que se produce un cálculo nuevo.
+Sintaxis
+ALEATORIO()
+Esta función produce un número aleatorio nuevo cada vez que Calc hace un recálculo. Para forzar un recálculo manual en Calc, oprima F9.
+Para generar números aleatorios que no se recalculen nunca:
+Copie las celdas que contengan =ALEATORIO() y utilice
+Editar ▸ Pegado especial
+(con
+Pegar todo
+y
+Fórmulas
+sin marcar y
+Números
+marcada).
+Utilice la orden Rellenar celdas con números aleatorios (
+Hoja ▸ Rellenar celdas ▸ Rellenar números aleatorios
+).
+Utilice la función ALEATORIO.NV() para números aleatorios no volátiles.
+Ejemplo
+=ALEATORIO()
+da como resultado un número aleatorio entre 0 y 1.
+ALEATORIO.ENTRE
+Devuelve un número entero al azar dentro de un intervalo determinado.
+Esta función siempre se vuelve a calcular cada vez que se produce un cálculo nuevo.
+Sintaxis
+ALEATORIO.ENTRE (menor; mayor)
+Devuelve un entero de números aleatorios entre enteros
+Inferior
+y
+Superior
+(ambos inclusive).
+Esta función produce un número aleatorio nuevo cada vez que Calc hace un recálculo. Para forzar un recálculo manual en Calc, oprima F9.
+Para generar números aleatorios que nunca se recalculen, copie aquellas celdas que contengan esta función y use
+Editar ▸ Pegado especial
+(con
+Pegar todo
+y
+Fórmulas
+desmarcadas y
+Números
+marcada).
+Ejemplo
+=ALEATORIO.ENTRE(20;30)
+devuelve un entero entre 20 y 30.
+ALEATORIO.ENTRE.NV
+Devuelve un número aleatorio entero no volátil en un intervalo especificado.
+Sintaxis
+ALEATORIO.ENTRE.NV(Inferior; Superior)
+Devuelve un número aleatorio entero no volátil entre los enteros
+Inferior
+y
+Superior
+(ambos inclusive). Una función no volátil no se recalcula ante nuevos eventos de entrada o al pulsar
+F9
+. Sin embargo, la función se recalcula al pulsar
+F9
+con el cursor en la celda que contiene la función, al abrir el archivo, al utilizar la orden
+Recálculo incondicional
+(
+Mayúsculas
++
+⌘
+Ctrl
++
+F9
+) y cuando se recalculan
+Superior
+o
+Inferior
+.
+Ejemplo
+=ALEATORIO.ENTRE.NV(20;30)
+devuelve un número entero no volátil entre 20 y 30.
+=ALEATORIO.ENTRE.NV(A1;30)
+devuelve un número entero no volátil entre el valor de la celda A1 y 30. La función se vuelve a calcular cuando cambia el contenido de la celda A1.
+Información técnica
+Esta función está disponible a partir de la versión 7.0 de LibreOffice.
+This function is
+NOT
+part of the
+Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format
+standard. The name space is
+ORG.LIBREOFFICE.RANDBETWEEN.NV
+ALEATORIO.NV
+Devuelve un número aleatorio no volátil entre 0 y 1.
+Sintaxis
+ALEATORIO.NV()
+Esta función produce un número aleatorio no volátil en la entrada. Una función no volátil no se recalcula en nuevos eventos de entrada. La función no se recalcula al pulsar
+F9
+, excepto cuando el cursor está en la celda que contiene la función o utilizando la orden
+Recálculo incondicional
+(
+Mayúsculas
++
+⌘
+Ctrl
++
+F9
+). La función se recalcula al abrir el archivo.
+Ejemplo
+=ALEATORIO.NV()
+devuelve un número aleatorio no volátil entre 0 y 1.
+Información técnica
+Esta función está disponible a partir de la versión 7.0 de LibreOffice.
+This function is
+NOT
+part of the
+Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format
+standard. The name space is
+ORG.LIBREOFFICE.RAND.NV
+ASENO
+Devuelve la inversa del seno trigonométrico de un número.
+Sintaxis
+ASENO(Número)
+Esta función devuelve el inverso del seno trigonométrico de
+Número
+, que es el ángulo (en radianes) cuyo seno es Número. El ángulo que se muestra está entre -PI/2 y +PI/2.
+Para volver el ángulo en grados, use la función GRADOS.
+Ejemplo
+=ASENO(0)
+devuelve 0.
+=ASENO(1)
+devuelve 1,5707963267949 (PI/2 radianes).
+=GRADOS(ASENO(0,5))
+devuelve 30. El seno de 30 grados es 0,5.
+Abrir un archivo con un ejemplo:
+ASENOH
+Devuelve el inverso del seno hiperbólico de un número.
+Sintaxis
+ASENOH(Número)
+Esta función devuelve el inverso del seno hiperbólico de
+Número
+, que es un número cuyo seno hiperbólico es Número.
+Ejemplo
+=ASENOH(-90)
+da como resultado aproximadamente -5,1929877.
+=ASENOH(SENOH(4))
+devuelve 4.
+Abrir un archivo con un ejemplo:
+ATAN
+Devuelve la inversa de la tangente trigonométrica de un número.
+Sintaxis
+ATAN(Número)
+Esta función devuelve la inversa de la tangente trigonométrica de
+Número
+, que es el ángulo (en radianes) cuya tangente es Número. El ángulo devuelto está entre -PI/2 y PI/2.
+Para volver el ángulo en grados, use la función GRADOS.
+Ejemplo
+=ATAN(1)
+devuelve 0,785398163397448 (PI/4 radianes).
+=GRADOS(ATAN(1))
+devuelve 45. La tangente de 45 grados es 1.
+Abrir un archivo con un ejemplo:
+ATAN2
+Devuelve el ángulo (en radianes) que existe entre el eje x y una línea del origen al punto (NúmeroX|NúmeroY).
+Esta función forma parte del estándar Open Document Format for Office Applications (OpenDocument), versión 1.2 (ISO/IEC 26300:2-2015).
+Sintaxis
+ATAN2(NúmeroX; NúmeroY)
+NúmeroX
+es el valor de la coordenada x.
+NúmeroY
+es el valor de la coordenada y.
+Los lenguajes de programación habitualmente utilizan el orden opuesto de argumentos en su función atan2().
+ATAN2 devuelve el ángulo (en radianes) entre el eje x y una línea desde el origen hasta el punto (NúmeroX|NúmeroY)
+Ejemplo
+=ATAN2(-5;9)
+devuelve 2,07789 radianes.
+Para obtener el ángulo en grados, aplique la función GRADOS al resultado.
+=GRADOS(ATAN2(12.3;12.3))
+devuelve 45. La tangente de 45 grados es 1.
+LibreOffice da como resultado 0 para ATAN2(0;0).
+La función puede utilizarse para convertir coordenadas cartesianas en coordenadas polares.
+=GRADOS(ATAN2(-8;5)) devuelve φ = 147,9 grados
+Abrir un archivo con un ejemplo:
+ATANH
+Devuelve la inversa de la tangente hiperbólica de un número.
+Sintaxis
+ATANH(Número)
+Esta función devuelve la inversa de la tangente hiperbólica de
+Número
+, que es un número cuya tangente hiperbólica es Número.
+El número debe obedecer a la condición -1 < número < 1.
+Ejemplo
+=ATANH(0)
+devuelve 0.
+Abrir un archivo con un ejemplo:
+COCIENTE
+Devuelve la parte entera de una división.
+Sintaxis
+COCIENTE(Numerador; Denominador)
+Devuelve la parte entera del
+Numerador
+dividido por el
+Denominador
+.
+COCIENTE equivale
+ENTERO(numerador/denominador)
+si el numerador y el denominador tienen el mismo signo, con la excepción de que algunos códigos de error pueden diferir. Más genéricamente, equivale a
+ENTERO(numerador/denominador/SIGNO(numerador/denominador))*SIGNO(numerador/denominador)
+.
+Ejemplo
+=COCIENTE(11;3)
+devuelve 3. El resto de 2 se pierde.
+COMBINAT
+Devuelve el número de combinaciones para un número determinado de objetos sin repeticiones.
+Sintaxis
+COMBINAT(Contar1; Contar2)
+Contar1
+es el número de elementos en el conjunto.
+Contar2
+es el número de elementos que elegir en el conjunto.
+En el caso de los argumentos de tipo entero, los valores que no sean enteros se truncan al entero.
+COMBINAR devuelve el número de maneras de elegir esos elementos. Por ejemplo si hay 3 elementos A, B y C en un conjunto, puede elegir 2 elementos de 3 diferentes maneras: AB, AC y BC.
+COMBINAR aplica la siguiente fórmula: Contar1!/(Contar2!*(Contar1-Contar2)!)
+Ejemplo
+=COMBINAT(3;2)
+devuelve 3.
+COMBINATA
+Devuelve la cantidad de combinaciones de un número determinado de elementos, repeticiones incluidas.
+Sintaxis
+COMBINAR(Contar1; Contar2)
+Contar1
+es el número de elementos en el conjunto.
+Contar2
+es el número de elementos que elegir en el conjunto.
+En el caso de los argumentos de tipo entero, los valores que no sean enteros se truncan al entero.
+COMBINATA devuelve la cantidad de maneras únicas de elegir esos elementos, donde el orden de elección es irrelevante. Por ejemplo, si hay 3 elementos A, B y C en un conjunto, pueden elegir 2 elementos de 6 maneras diferentes: AA, AB, AC, BB, BC y CC.
+COMBINAR aplica la siguiente fórmula: (Contar1+Contar2-1)!/(Contar2!(Contar1-1)!)
+Ejemplo
+=COMBINATA(3;2)
+devuelve 6.
+CONVERTIR_OOO
+Convierte en euros un valor monetario expresado en una de las monedas que antes utilizaban los 19 Estados miembros de la Eurozona, y viceversa.
+La conversión utiliza los tipos de cambio fijos que tenían cada una de estas monedas antes de la transición al euro.
+Recomendamos utilizar la función EUROCONVERT, más flexible, para convertir entre estas monedas. CONVERTIR_OOO no es una función normalizada y no es portátil.
+Sintaxis
+CONVERTIR_OOO(Valor; "Texto1"; "Texto2")
+Valor
+es la cantidad de moneda que se va a convertir.
+Texto1
+es una cadena de tres caracteres que especifica la moneda desde la que se convertirá.
+Texto2
+es una cadena de tres caracteres que especifica la moneda a la que se convertirá.
+Texto1
+y
+Texto2
+solo pueden tener uno de los valores siguientes: «ATS», «BEF», «CYP», «DEM», «EEK», «ESP», «EUR», «FIM», «FRF», «GRD», «IEP», «ITL», «LTL», «LUF», «LVL», «MTL», «NLG», «PTE», «SIT» y «SKK».
+Uno, y solo uno, de
+Texto1
+o
+Texto2
+debe ser igual a «EUR».
+Ejemplo
+=CONVERTIR_OOO(100;"ATS";"EUR")
+devuelve el valor en euros de 100 chelines austriacos.
+=CONVERT_OOO(100;"EUR";"DEM")
+convierte 100 euros en marcos alemanes.
+Consulte la página wiki
+CONVERTIR_OOO
+para obtener información mas detallada.
+COS
+Devuelve el coseno del ángulo dado (en radianes).
+Sintaxis
+COS(Número)
+Devuelve el coseno (trigonomético) de
+Número
+, el ángulo en radianes.
+Para devolver el coseno de un ángulo en grados, sírvase de la función RADIANES.
+Ejemplo
+=COS(PI()*2)
+devuelve 1, el coseno de 2*PI radianes.
+=COS(RADIANES(60))
+devuelve 0,5, el coseno de 60 grados.
+Abrir un archivo con un ejemplo:
+COSH
+Devuelve el coseno hiperbólico de un número.
+Sintaxis
+COSH(Número)
+Devuelve el coseno hiperbólico de
+Número
+.
+Ejemplo
+=COSH(0)
+devuelve 1, el coseno hiperbólico de 0.
+Abrir un archivo con un ejemplo:
+COT
+Devuelve la cotangente del ángulo dado (en radianes).
+Sintaxis
+COT(Número)
+Devuelve la cotangente (trigonométrica) de
+Número
+, el ángulo en radianes.
+Para regresar la cotangente de un angulo en grados, usa la función de RADIANES.
+La cotangente de un ángulo es equivalente a 1 dividido por la tangente de ese ángulo.
+Ejemplos:
+=COT(PI()/4)
+devuelve 1, la cotangente de PI/4 radianes.
+=COT(RADIANES(45))
+devuelve 1, la cotangente de 45 grados.
+Abrir un archivo con un ejemplo:
+COTH
+Devuelve la cotangente hiperbólica de un número (ángulo) especificado.
+Sintaxis
+COTH(Número)
+Devuelve la cotangente hiperbólica de
+Número
+.
+Ejemplo
+=COTH(1)
+devuelve la cotangente hiperbólica de 1, aproximadamente 1,3130.
+Abrir un archivo con un ejemplo:
+CSC
+Devuelve la cosecante de un ángulo dado (en radianes). La cosecante de un ángulo equivale a 1 dividido entre el seno de dicho ángulo
+Esta función está disponible a partir de la versión 3.5 de LibreOffice.
+Sintaxis
+CSC(Número)
+Devuelve la cosecante (trigonométrica) de
+Número
+, el ángulo en radianes.
+Para calcular el cosecante de un ángulo en grados, use la función RADIANES.
+Ejemplo
+=CSC(PI()/4)
+devuelve aproximadamente 1,4142135624, el inverso del seno de PI/4 radianes.
+=CSC(RADIANES(30))
+devuelve 2, la cosecante de 30 grados.
+Abrir un archivo con un ejemplo:
+CSCH
+Devuelve la cosecante hiperbólica de un número.
+Esta función está disponible a partir de la versión 3.5 de LibreOffice.
+Sintaxis
+CSCH(Número)
+Devuelve la cosecante hiperbólica de
+Número
+.
+Ejemplo
+=CSCH(1)
+devuelve aproximadamente 0,8509181282, la cosecante hiperbólica de 1.
+Abrir un archivo con un ejemplo:
+ENTERO
+Redondea un número a la baja al entero más próximo.
+Sintaxis
+ENTERO(Número)
+Devuelve el
+Número
+redondeado hacia abajo al entero mas cercano.
+Los números negativos se redondean al entero inferior.
+Ejemplo
+=ENTERO(5,7)
+devuelve 5.
+=ENTERO(-1,3)
+devuelve -2.
+EUROCONVERT
+Convierte entre la antigua moneda nacional europea hacia y desde euros.
+Sintaxis
+EUROCONVERT(Valor; "De_moneda"; "A_moneda" [; Precisión_completa [; Precisión_triangulación]])
+Valor
+es la cantidad de moneda que se va a convertir.
+De_moneda
+y
+A_moneda
+son las unidades monetarias que se convertirán respectivamente. Deben ser texto, la abreviatura oficial de la moneda (por ejemplo, "EUR"). La Comisión Europea estableció los tipos de cambio (mostrados por Euro).
+Precisión_completa
+es opcional. Si se omite o es Falso, el resultado se redondea según los decimales de la moneda de destino. Si Precisión_completa es Verdadero, el resultado no se redondea.
+Precisión_triangulación
+es opcional. Si se proporciona Precisión_triangulación y >=3, el resultado intermedio de una conversión triangular (moneda1,EUR,moneda2) se redondea a dicha precisión. Si se omite Precisión_triangulación, el resultado intermedio no se redondea. Además si A moneda es "EUR", Precisión_triangulación se utiliza como si se necesitase la triangulación y se aplicase la conversión de EUR a EUR.
+Ejemplos
+=EUROCONVERT(100;"ATS";"EUR")
+convierte 100 chelines austríacos en euros.
+=EUROCONVERT(100;"EUR";"DEM")
+convierte 100 euros en marcos alemanes.
+EXP
+Devuelve
+e
+elevado a la potencia de un número.
+La constante
+e
+tiene un valor de aproximadamente 2,71828182845904.
+Sintaxis
+EXP(Número)
+Número
+es la potencia a la que se elevará el número e.
+Ejemplo
+=EXP(1)
+devuelve 2,71828182845904, la constante matemática
+e
+con la precisión de Calc.
+FACT
+Devuelve el factorial de un entero no negativo.
+Sintaxis
+FACT(Entero)
+Devuelve ¡Entero!, el factorial de
+Entero
+, calculado como 1*2*3*4* ... * Entero.
+Devuelve el error «Argumento no válido» si el argumento es un entero negativo.
+¡Devuelve el error #VALOR! si el argumento es mayor que 170, causa un número entero demasiado grande (aproximadamente 7E+306).
+=FACT(0)
+devuelve 1 por definición.
+En el caso de los argumentos de tipo entero, los valores que no sean enteros se truncan al entero.
+Ejemplo
+=FACT(3)
+devuelve 6.
+=FACT(3,8)
+devuelve 6.
+=FACT(0)
+devuelve 1.
+GRADOS
+Convierte radianes en grados.
+Sintaxis
+GRADOS(Número)
+Número
+es el ángulo en radianes que se convertirá a grados.
+Ejemplo
+=GRADOS(PI())
+da como resultado 180 grados.
+LN
+Devuelve el logaritmo natural basándose en la constante e de un número.
+La constante e tiene un valor aproximado de 2.71828182845904.
+Sintaxis
+LN(Número)
+Número
+es el valor cuyo logaritmo natural debe calcularse.
+Ejemplo
+=LN(3)
+devuelve el logaritmo natural de 3 (aproximadamente 1,0986).
+=LN(EXP(321))
+devuelve 321.
+LOG
+Devuelve el logaritmo de un número en la base especificada.
+Sintaxis
+LOG(Número [; Base])
+Número
+es el valor cuyo logaritmo debe calcularse.
+Base
+(opcional) es la base empleada para el cálculo del logaritmo. Si se omite, se asume la base 10.
+Ejemplo
+=LOG(10;3)
+devuelve el logaritmo con base 3 de 10 (aproximadamente 2,0959).
+=LOG(7^4;7)
+devuelve 4.
+LOG10
+Devuelve el logaritmo en base 10 de un número.
+Sintaxis
+LOG10(Número)
+Devuelve el logaritmo en base 10 de un
+Número
+.
+Ejemplo
+=LOG10(5)
+devuelve el logaritmo en base 10 de 5 (aproximadamente 0,69897).
+M.C.D
+Devuelve el máximo común divisor de dos o más enteros.
+El máximo común divisor es el entero positivo más grande que divide, sin resto, cada uno de los enteros dados.
+Sintaxis
+M.C.D( Entero 1 [; Entero 2 [; … [; Entero 255]]])
+Integer 1; Integer 2; … ; Integer 255
+are integers, references to cells or to cell ranges of integers.
+Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de
+resalte de valores
+.
+En el caso de los argumentos de tipo entero, los valores que no sean enteros se truncan al entero.
+Ejemplo
+=M.C.D(16;32;24)
+da 8 como resultado, porque 8 es el mayor número que puede dividir 16, 24 y 32 sin resto.
+=M.C.D.(B1:B3)
+donde las celdas B1, B2, B3 contienen
+9
+,
+12
+,
+9
+da como resultado 3.
+M.C.D_EXCEL2003
+El resultado es el máximo común divisor de una lista de números.
+Las funciones cuyos nombres acaban en _ADD o _EXCEL2003 devuelven los mismos resultados que las funciones correspondientes de Microsoft Excel 2003 sin el sufijo. Utilice las funciones sin sufijo para obtener resultados basados en estándares internacionales.
+Sintaxis
+GCD_EXCEL2003( Entero 1 [; Entero 2 [; … [; Entero 255]]])
+Integer 1; Integer 2; … ; Integer 255
+are integers, references to cells or to cell ranges of integers.
+En el caso de los argumentos de tipo entero, los valores que no sean enteros se truncan al entero.
+Ejemplo
+=M.C.D_EXCEL2003(5;15;25)
+devuelve 5.
+M.C.M
+Devuelve el mínimo común múltiplo de uno o más enteros.
+Sintaxis
+M.C.M( Entero 1 [; Entero 2 [; … [; Entero 255]]])
+Integer 1; Integer 2; … ; Integer 255
+are integers, references to cells or to cell ranges of integers.
+Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de
+resalte de valores
+.
+En el caso de los argumentos de tipo entero, los valores que no sean enteros se truncan al entero.
+Ejemplo
+Si introduce los números 512; 1024 y 2000 como enteros 1;2 y 3, se devolverá 128000.
+M.C.M_EXCEL2003
+El resultado es el mínimo común múltiplo de una lista de números.
+Las funciones cuyos nombres acaban en _ADD o _EXCEL2003 devuelven los mismos resultados que las funciones correspondientes de Microsoft Excel 2003 sin el sufijo. Utilice las funciones sin sufijo para obtener resultados basados en estándares internacionales.
+Sintaxis
+LCM_EXCEL2003( Entero 1 [; Entero 2 [; … [; Entero 255]]])
+Integer 1; Integer 2; … ; Integer 255
+are integers, references to cells or to cell ranges of integers.
+En el caso de los argumentos de tipo entero, los valores que no sean enteros se truncan al entero.
+Ejemplo
+=M.C.M_EXCEL2003(5;15;25)
+devuelve 75.
+MULTINOMIAL
+Devuelve el factorial de la suma de los argumentos dividido por el producto de los factoriales de los argumentos.
+Sintaxis
+MULTINOMIAL(Número 1 [; Número 2 [; ... [; Número 255]].)
+Number 1; Number 2; … ; Number 255
+are numbers, references to cells or to cell ranges of numbers.
+Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de
+resalte de valores
+.
+Ejemplo
+=MULTINOMIAL(F11:H11)
+devuelve 1260, si F11 a H11 contiene los valores
+2
+,
+3
+y
+4
+. Esto corresponde a la fórmula =(2+3+4)! / (2!*3!*4!)
+PI
+Devuelve 3,14159265358979, el valor de la constante matemática pi en 14 decimales.
+Sintaxis
+PI()
+Ejemplo
+=PI()
+devuelve 3,14159265358979.
+POTENCIA
+Devuelve el resultado de elevar un número a una potencia.
+Sintaxis
+POTENCIA(Base; Exponente)
+Devuelve la
+base
+elevada a la potencia del
+exponente
+.
+Se puede lograr el mismo resultado utilizando el operador de potenciación ^:
+Base^Exponente
+=POTENCIA(0;0)
+devuelve 1;
+=POTENCIA(0;X)
+informa el error #¡NUM! cuando el exponente X es negativo.
+¡
+=POTENCIA(B;X)
+puede o no reportar un error #NUM! cuando B es negativo y X no es un entero.
+Ejemplo
+=POTENCIA(4;3)
+devuelve 64, el resultado de 4 elevado a 3.
+=4^3
+también devuelve 4 elevado al cubo.
+=POTENCIA(2;-3)
+devuelve 0,125.
+=POTENCIA(-2;1/3)
+devuelve -1.25992104989487.
+=POTENCIA(-2;2/3)
+devuelve el error #¡NUM! .
+PRODUCTO
+Multiplica todos los números indicados como argumentos y devuelve el producto.
+Sintaxis
+PRODUCTO(Número 1 [; Número 2 [; ... [; Número 255]].)
+Number 1; Number 2; … ; Number 255
+are numbers, references to cells or to cell ranges of numbers.
+Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de
+resalte de valores
+.
+Ejemplo
+=PRODUCTO(2;3;4)
+devuelve 24.
+RADIANES
+Convierte grados en radianes.
+Sintaxis
+RADIANES(Número)
+Número
+es el ángulo en grados que se convertirá a radianes.
+Ejemplo
+=RADIANES(90)
+da como resultado 1,5707963267949, que es PI/2 en la precisión de Calc.
+RAIZ
+Devuelve la raíz cuadrada positiva de un número.
+Sintaxis
+RAIZ(Número)
+Devuelve la raíz cuadrada positiva de
+Número
+.
+El número debe ser positivo.
+Ejemplo
+=RAIZ(16)
+devuelve 4.
+=RAIZ(-16)
+devuelve un error de
+argumento no válido
+.
+RAIZ2PI
+Devuelve la raíz cuadrada de un número multiplicado por pi.
+Sintaxis
+RAIZ2PI(Número)
+Devuelve la raíz cuadrada positiva de (PI multiplicado por el
+Número
+).
+Esto es equivalente a
+RAIZ(PI()*Número)
+.
+Ejemplo
+=RAIZ2PI(2)
+devuelve la raíz cuadrada de (2PI), aproximadamente 2,506628.
+REDOND.MULT
+El resultado es el múltiplo entero más próximo a otro número.
+Sintaxis
+REDOND.MULT(Número; Múltiplo)
+Devuelve
+Número
+redondeado al multiplo mas cercano a
+Múltiplo
+.
+Una implementación alternativa será
+Múltiplo * REDOND(Número/Multiplo)
+.
+Ejemplo
+=REDOND.MULT(15,5;3)
+devuelve 15, ya que 15,5 está más cercano a 15 (= 3*5) que a 18 (= 3*6).
+=REDOND.MULT(1.4;0.5)
+da como resultado 1,5 (= 0,5*3).
+REDONDEA.IMPAR
+Redondea un número positivo hacia arriba hasta el entero impar más próximo siguiente y un número negativo hacia abajo hasta el entero impar más próximo.
+Sintaxis
+REDONDEA.IMPAR(Número)
+Devuelve el
+Número
+redondeado al próximo entero impar, alejándose del cero.
+Ejemplo
+=REDONDEA.IMPAR(1,2)
+devuelve 3.
+=REDONDEA.IMPAR(1)
+devuelve 1.
+=REDONDEA.IMPAR(0)
+devuelve 1.
+=REDONDEA.IMPAR(-3.1)
+devuelve -5.
+REDONDEA.PAR
+Redondea un número positivo hacia arriba hasta el entero par más próximo y un número negativo hacia abajo hasta el entero par más próximo.
+Sintaxis
+REDONDEA.PAR(Número)
+Devuelve
+Número
+redondeado al siguiente entero par, alejándose de cero.
+Ejemplo
+=REDONDEA.PAR(2,3)
+devuelve 4.
+=REDONDEA.PAR(2)
+devuelve 2.
+=REDONDEA.PAR(0)
+devuelve 0.
+=REDONDEA.PAR(-0.5)
+devuelve -2.
+REDONDEAR
+Devuelve un número redondeado hasta una cantidad determinada de decimales.
+Sintaxis
+REDONDEAR(Número [; Contar])
+Devuelve el
+Número
+redondeado a
+Contar
+posiciones decimales. Si Contar se omite o es cero, la función redondea al entero más cercano. Si Contar es negativo, la función redondea a 10, 100, 1000, etc., más cercano.
+Esta función redondea al número más próximo. Vea también las funciones alternativas REDONDEAR.MENOS y REDONDEAR.MAS.
+Ejemplo
+=REDONDEAR(2,348;2)
+devuelve 2,35.
+=REDONDEAR(-32.4834;3)
+devuelve -32.483. Cambie el formato de la celda para ver todos los decimales.
+=REDONDEAR(2,348;0)
+devuelve 2.
+=REDONDEAR(2,5)
+devuelve 3.
+=REDONDEAR(987,65;-2)
+devuelve 1000.
+REDONDEAR.MAS
+Devuelve un número redondeado hacia arriba hasta el número especificado de decimales.
+Sintaxis
+REDONDEAR.MAS(Número [; Contar])
+Devuelve el
+Número
+redondeado hacia arriba (lejos desde el cero) para
+Contar
+espacios decimales. Si Contar es omitido o es cero, la función redondea hacia arriba al siguiente entero. Si Contar es negativo, la función redondea hacia arriba, al siguiente 10, 100, 1000, etc.
+Esta función redondea alejándose de cero. Como alternativas, vea REDONDEAR.MENOS y REDONDEAR.
+Ejemplo
+=REDONDEAR.MAS(1,1111;2)
+devuelve 1,12.
+=REDONDEAR.MAS(1,2345;1)
+devuelve 1,3.
+=REDONDEAR.MAS(45,67;0)
+devuelve 46.
+=REDONDEAR.MAS(-45.67)
+devuelve -46.
+=REDONDEAR.MAS(987.65;-2)
+devuelve 1000.
+RESIDUO
+Devuelve el residuo de una división entre enteros.
+Sintaxis
+RESIDUO(Dividendo; Divisor)
+Para argumentos enteros esta función devuelve Dividendo modulo Divisor, esto es, el resto cuando
+Dividendo
+se divide por
+Divisor
+.
+Esta función se implementa como
+Dividendo - Divisor * ENTERO(Dividendo/Divisor)
+, y esta fórmula da el resultado si los argumentos no son enteros.
+Ejemplo
+=RESIDUO(22;3)
+devuelve 1, el resto cuando 22 se divide por 3.
+=RESIDUO(11,25;2,5)
+devuelve 1,25
+SEC
+Devuelve la secante de un ángulo dado (en radianes). La secante de un ángulo equivale a 1 dividido entre el coseno de dicho ángulo
+Esta función está disponible a partir de la versión 3.5 de LibreOffice.
+Sintaxis
+SEC(Número)
+Devuelve la secante (trigonométrica) de
+Número
+, el ángulo en radianes.
+Para devolver la secante de un ángulo en grados, use la función RADIANES.
+Ejemplo
+=SEC(PI()/4)
+devuelve aproximadamente 1,4142135624, el inverso del coseno de PI/4 radianes.
+=SEC(RADIANES(60))
+devuelve 2, la secante de 60 grados.
+Abrir un archivo con un ejemplo:
+SECH
+Devuelve la secante hiperbólica de un número.
+Esta función está disponible a partir de la versión 3.5 de LibreOffice.
+Sintaxis
+SECH(Número)
+Devuelve la secante hiperbólica de
+Número
+.
+Ejemplo
+=SECH(0)
+devuelve 1, la secante hiperbólica de 0.
+Abrir un archivo con un ejemplo:
+SENO
+Devuelve el seno del ángulo especificado (en radianes).
+Sintaxis
+SENO(Número)
+Devuelve el seno (trigonométrico) de
+Número
+, el ángulo en radianes.
+Utilice la función RADIANES para devolver el seno de un ángulo en grados.
+Ejemplo
+=SENO(PI()/2)
+devuelve 1, el seno de PI/2 radianes.
+=SENO(RADIANES(30))
+da como resultado 0,5, el seno de 30 grados.
+Abrir un archivo con un ejemplo:
+SENOH
+Devuelve el seno hiperbólico de un número.
+Sintaxis
+SENOH(Número)
+Devuelve el seno hiperbólico de
+Número
+.
+Ejemplo
+=SENOH(0)
+devuelve 0, el seno hiperbólico de 0.
+Abrir un archivo con un ejemplo:
+SIGNO
+Devuelve el signo de un número. La función devuelve como resultado 1 si el signo es positivo y −1 si es negativo. Si el número es cero, la función devuelve también un cero.
+Sintaxis
+SIGNO(Número)
+Número
+es el número cuyo signo debe determinarse.
+Ejemplo
+=SIGNO(3,4)
+devuelve 1.
+=SIGNO(-4,5)
+devuelve -1.
+SUBTOTALES
+Calcula subtotales.
+Si un intervalo ya contiene subtotales, estos no se utilizan en otros cálculos. Utilice esta función en combinación con los filtros automáticos para tener en cuenta únicamente los registros filtrados.
+Sintaxis
+SUBTOTALES(Función; Intervalo)
+Función
+es un número que representa una de las siguientes funciones:
+Índice de funciones
+(incluye los valores ocultos)
+Índice de funciones
+(ignora los valores ocultos)
+Función
+1
+101
+PROMEDIO
+2
+102
+CONTAR
+3
+103
+CONTARA
+4
+104
+MAX
+5
+105
+MIN
+6
+106
+PRODUCTO
+7
+107
+DESVEST
+8
+108
+DESVEST.P
+9
+109
+SUMA
+10
+110
+VAR
+11
+111
+VARP
+Utilice los números 1-11 para incluir las filas ocultas manualmente o 101-111 para excluirlas; las celdas filtradas siempre se excluyen.
+Intervalo
+es el área cuyas celdas están incluidas.
+Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de
+resalte de valores
+.
+Ejemplo
+Tiene una tabla en el intervalo A1:B6 que contiene una lista de materiales para 10 estudiantes.
+A
+B
+1
+ARTÍCULO
+CANTIDAD
+2
+Bolígrafo
+10
+3
+Lápiz
+10
+4
+Cuaderno
+10
+5
+Borrador
+10
+6
+Sacapuntas
+10
+Digamos que una fila se oculta manualmente, luego la primera fórmula muestra la suma de las 5 cifras filtradas; la segunda, solo la suma de las 4 cifras mostradas.
+=SUBTOTALES(9;B2:B6) devuelve 50.
+=SUBTOTALES(109;B2:B6) devuelve 40.
+SUMA.CUADRADOS
+Calcula la suma de los cuadrados de un conjunto de números.
+Sintaxis
+SUMA.CUADRADOS(Número 1 [; Número 2 [; ... [; Número 255]].)
+Number 1; Number 2; … ; Number 255
+are numbers, references to cells or to cell ranges of numbers.
+Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de
+resalte de valores
+.
+Ejemplo
+Si introduce los números 2; 3 y 4 en los argumentos Número 1; 2 y 3, se devuelve 29 como resultado.
+SUMA.SERIES
+Suma los primeros terminos de una serie de potencias.
+SUMA.SERIES(x;n;m;c) = c
+1
+x
+n
++ c
+2
+x
+n+m
++ c
+3
+x
+n+2m
++ ... + c
+i
+x
+n + (i-1)m
+.
+Sintaxis
+SUMA.SERIES(X; N; M; Coeficientes)
+X
+es el valor de entrada para la serie de potencias.
+N
+es la primera potencia.
+M
+es el incremento para aumentar N.
+Coeficientes
+es una serie de coeficientes. Para cada coeficiente, la suma de la serie se amplía en una sección.
+Ejemplo
+=SUMA.SERIES(A1; 0; 1; {1; 2; 3})
+calcula el valor de 1+2x+3x
+2
+, donde x es el valor en la celda A1 . Si A1 contiene 1, la fórmula devuelve 6; si A1 contiene 2, la fórmula devuelve 17; si A1 contiene 3, la fórmula devuelve 34; y así continúa.
+Visite la página wiki
+SUMA.SERIES
+para obtener más detalles sobre esta función.
+TAN
+Devuelve la tangente del ángulo (en radianes) especificado.
+Sintaxis
+TAN(Número)
+Devuelve la tangente (trigonemétrica) de
+Número
+, el ángulo en radianes
+Con la función RADIANES puede calcular la tangente de un ángulo en grados.
+Ejemplo
+=TAN(PI()/4)
+devuelve 1, la tangente de PI/4 radianes.
+=TAN(RADIANES(45))
+devuelve 1, la tangente de 45 grados.
+Abrir un archivo con un ejemplo:
+TANH
+Devuelve la tangente hiperbólica de un número.
+Sintaxis
+TANH(Número)
+Devuelve la tangente hiperbólica de
+Número
+.
+Ejemplo
+=TANH(0)
+devuelve 0, la tangente hiperbólica de 0.
+Abrir un archivo con un ejemplo:
+Temas relacionados
+Funciones por categoría
+¡Necesitamos su ayuda!
+Guías de LibreOffice
+Impressum (Legal Info)
+|
+Privacy Policy
+|
+Statutes (non-binding English translation)
+-
+Satzung (binding German version)
+| Copyright information: Unless otherwise specified, all text and images on this website are licensed under the
+Mozilla Public License v2.0
+. “LibreOffice” and “The Document Foundation” are registered trademarks of their corresponding registered owners or are in actual use as trademarks in one or more countries. Their respective logos and icons are also subject to international copyright laws. Use thereof is explained in our
+trademark policy
+. LibreOffice was based on OpenOffice.org.
+Help content debug info:
+This page is:
+/text/scalc/01/04060106.xhp
+Title is: Funciones matemáticas

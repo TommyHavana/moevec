@@ -1,0 +1,255 @@
+Methodology 2026 | Stack Overflow Developer Survey
+Skip to content
+Stack Overflow
+Dev
+eloper
+Survey
+2026
+Menu
+Methodology
+30,903
+responses from
+169
+countries are used in these survey results.
+Survey fielding
+The current local response extract includes 39,266 total rows recorded from June 23, 2026 through August 5, 2026, of which 30,903 are marked as valid responses.
+The survey was promoted through stackoverflow.com, stackoverflow.blog and our email list to community members that are opted into learning about research opportunities or announcements.
+The survey instrument should be referenced from the public Stack Exchange survey repository:
+StackExchange/Survey
+.
+The public call for feedback that informed the 2026 Developer Survey should be referenced from Meta Stack Overflow:
+Help shape the 2026 Developer Survey
+.
+Valid responses
+The current valid-response rule is implemented in
+mark_valid_responses()
+in
+R/aggregation.R
+. At a high level, the function adds an integer
+valid_response
+indicator to the response data.
+When bot exclusion is enabled and the input data does not already include
+is_bot
+, the function first runs
+flag_bots()
+. The current bot flag uses Qualtrics response-quality fields, including reCAPTCHA score, duplicate respondent status, straightlining questions, unanswered questions, progress, duration, and whether
+Country
+was answered.
+Responses are marked valid through either the primary inclusion rule or the substantive-response recovery rule.
+Primary inclusion rule:
+Consent
+is present and equals
+"I agree"
+.
+Employment
+is present.
+The response is not flagged as a bot when bot exclusion is enabled.
+Substantive-response recovery rule:
+The response answered all ten core fielding questions listed below.
+This recovery rule is evaluated independently of the primary non-bot condition, so a response with
+is_bot == TRUE
+can still receive
+valid_response == 1
+when it answered all ten core fielding questions.
+Core fielding questions:
+Country
+Currency
+Compensation
+TechDropDown
+Languages
+CodeTest
+Databases
+CloudPlat
+WebFramework
+DevIDE
+The survey-section scripts use
+valid_response == 1
+as the inclusion rule for exports, so the substantive-response recovery rule is preserved downstream.
+Write-in handling
+Role write-ins from
+Role_38_TEXT
+are reviewed only among
+valid_response == 1
+responses, normalized to group repeated answers, and compared against existing and analyst-approved Role categories. Reviewed matches can recode
+"Other, please specify"
+into a final Role category while retaining
+Role_Original
+and
+Role_NLP_Status
+; unresolved write-ins remain grouped as
+"Other"
+in summaries.
+SOChangeAddl written responses are eligible for public use only when
+valid_response == 1
+,
+SOChangeAddlConsent
+gives permission to share publicly, and
+SOChangeAddl
+is non-empty. Responses are decoded, translated to English when needed, and manually curated with
+SOChangeAddlPublishText
+,
+SOChangeAddlInclude
+, and
+SOChangeAddlExcludeReason
+; automated text flags are used only to support review, not to make final publish decisions.
+Compensation handling
+Compensation is analyzed among
+valid_response == 1
+responses with non-missing
+Country
+,
+Currency
+, and positive numeric
+Compensation
+; values are converted to yearly USD using exchange rates, with a documented Ukraine-specific correction when likely USD values were entered under
+UAH
+. Compensation statistics and charts use rows where
+CompensationStatsInclude
+and
+CompensationChartInclude
+are
+TRUE
+, excluding rows with multiple quality flags such as very low or very high converted values, country outliers, suspicious raw-number patterns, non-employed respondents, or student/retired roles.
+Age
+Age range for respondents.
+All Respondents · n = 30,903
+25-34 years old
+30%
+35-44 years old
+28%
+18-24 years old
+16%
+45-54 years old
+14%
+55-64 years old
+6%
+Under 18 years old
+3%
+65 years or older
+3%
+Prefer not to say
+1%
+Respondents
+Percent
+25-34 years old
+9,267
+30.0%
+35-44 years old
+8,522
+27.6%
+18-24 years old
+4,944
+16.0%
+45-54 years old
+4,198
+13.6%
+55-64 years old
+1,829
+5.9%
+Under 18 years old
+969
+3.1%
+65 years or older
+822
+2.7%
+Prefer not to say
+352
+1.1%
+All Respondents · n = 30,903
+Gender
+Gender of respondents
+All Respondents · n = 21,149
+Man
+86%
+Woman
+7%
+Prefer not to say
+4%
+Non-binary
+2%
+Prefer to self-describe:
+1%
+Respondents
+Percent
+Man
+18,191
+86.0%
+Woman
+1,393
+6.6%
+Prefer not to say
+899
+4.3%
+Non-binary
+431
+2.0%
+Prefer to self-describe:
+235
+1.1%
+All Respondents · n = 21,149
+Survey length
+How do you feel about the length of the survey this year?
+All Respondents · n = 14,347
+Too long
+66%
+Appropriate in length
+35%
+Too short
+2%
+Respondents
+Percent
+Too long
+9,399
+65.5%
+Appropriate in length
+5,026
+35.0%
+Too short
+250
+1.7%
+All Respondents · n = 14,347
+Difficulty
+How easy or difficult was this survey to complete?
+All Respondents · n = 14,442
+Neither easy nor difficult
+56%
+Easy
+31%
+Difficult
+15%
+Respondents
+Percent
+Neither easy nor difficult
+8,060
+55.8%
+Easy
+4,459
+30.9%
+Difficult
+2,212
+15.3%
+All Respondents · n = 14,442
+Colour theme
+Light
+Dark
+System
+Site design / logo © 2026
+				Stack Exchange Inc.
+User contributions licensed under
+CC BY-SA
+Survey data licensed under
+ODbL 1.0
+, contents under
+DbCL 1.0
+View source on GitHub
+Stack Overflow Public Platforms
+stackoverflow.com
+agents.stackoverflow.com
+Stack Overflow Business
+Stack Internal
+Stack Ads
+Stack Data Licensing
+Terms
+Privacy policy
+Cookie policy
+Your Privacy Choices

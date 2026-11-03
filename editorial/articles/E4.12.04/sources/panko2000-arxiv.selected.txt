@@ -1,0 +1,156 @@
+PDF PAGE 1
+What We Know; What We Think
+http://panko.cba.hawaii.edu/ssr/Mypapers%5CEUSPRIG_2000.htm
+1 av 9
+2005-01-19 14:43
+Proceedings of the Spreadsheet Risk Symposium
+European Spreadsheet Risks Interest Group (EuSpRIG)
+Greenwich, England
+July 17-18, 2000
+Spreadsheet Errors:
+What We Know.
+What We Think We Can Do.
+ 
+Dr. Raymond R. Panko
+University of Hawaii
+panko@hawaii.edu, http://panko.cba.hawaii.edu
+ 
+Abstract
+Fifteen years of research studies have concluded unanimously that spreadsheet errors are both common and non-trivial. Now we
+must seek ways to reduce spreadsheet errors. Several approaches have been suggested, some of which are promising and others,
+while appealing because they are easy to do, are not likely to be effective. To date, only one technique, cell-by-cell code inspection,
+has been demonstrated to be effective. We need to conduct further research to determine the degree to which other techniques can
+reduce spreadsheet errors.
+Introduction
+Spreadsheets are widely used in organizations [McLean, Kappelman, & Thompson, 1993]. Each year, tens of millions
+of managers and professionals around the world create hundreds of millions of spreadsheets.
+Although many spreadsheets are small and simple throwaway calculations, surveys have shown that many
+spreadsheets are quite large [Cale 1994, Cragg & King 1993, Floyd, Walls, & Marr 1995, Hall 1996]. Cragg and King
+[1993] audited spreadsheets as large as 10,000 cells, and when Floyd, Walls, and Marr [1995] conducted a survey of 72
+end user developers in four firms, asking subjects to select a single model, the average model had 6,000 cells.
+Spreadsheets are also complex, using a large number of sophisticated functions [Hall, 1996].
+Spreadsheets are also important. For instance, Gable, Yap, and Eng [1991] examined all 402 non-trivial
+spreadsheets in one organization. Forty-six percent were rated as important or very important to the organization, and
+59% of the spreadsheets were used at least monthly. In another study, Chan and Storey [1996] surveyed 256
+spreadsheet developers. Each developer was asked to describe one of their spreadsheets. When asked to identify the
+highest-level user of the spreadsheet’s data, 13% cited a vice president, and 42% cited their chief executive officer.
+Under these circumstances, if many spreadsheets contain errors, the consequences could be dire. Unfortunately,
+errors in bottom-line values are very likely because spreadsheet modeling is incredibly unforgiving of errors. A spelling
+error in a word processing document will only occasionally create a material problem; but an error almost anywhere in
+a spreadsheet will produce an incorrect bottom-line value. Unless the development error rate is close to one error in
+every ten thousand cells, most large spreadsheets are likely to contain errors.
+In fact, we know that humans are incapable of doing complex cognitive tasks with great accuracy. The Human
+Error website [2000a] lists data from a number of studies of human cognitive errors. These studies indicate that even
+for simple cognitive tasks, such as flipping switches, error rates are about one in 200. For more complex cognitive
+tasks, such as writing lines of computer code, error rates are about one in 50 to one in 20.
+Research on human error in many fields has shown that the problem is not sloppiness but rather fundamental
+limitations in human cognition [Reason 1990]. Quite simply, we do not think the way we think we think. Human
+cognition is built on complex mechanisms that inherently sacrifice some accuracy for speed. Speed in thinking was the
+overriding evolutionary force for our hunter ancestors, and although occasional errors caused the loss of hunters, new
+hunters were inexpensive and fun to make. Unfortunately, error rates acceptable in hunting and even in most computer
+applications cannot be tolerated in spreadsheets. For spreadsheet accuracy, we must somehow overcome or at least
+
+
+PDF PAGE 2
+What We Know; What We Think
+http://panko.cba.hawaii.edu/ssr/Mypapers%5CEUSPRIG_2000.htm
+2 av 9
+2005-01-19 14:43
+reduce human cognitive accuracy limitations dramatically.
+What We Know
+Let us begin with what we actually know about spreadsheet errors and corporate practices to control spreadsheet errors.
+More information about the studies listed in this section is available at the Spreadsheet Research website [Panko
+2000b].
+Spreadsheets Contain Errors
+The Introduction noted that human error rates in complex cognitive tasks tend to be about 2% to 5%, so spreadsheet
+errors must be fairly frequent or we will have to throw away decades of cognitive research.
+Data from Field Studies
+In fact, spreadsheet error rates actually are rather high. Table 1 shows data from seven field audits of real
+organizational spreadsheets. The field audits found errors in 24% of the 367 spreadsheets audited, and most older audits
+used audit techniques not likely to catch a majority of errors. The most recent field audits, in contrast, generally used
+better methodologies and found errors in at least 86% of the spreadsheets audited. These numbers are even more
+impressive when you consider that most audits only reported substantive errors, not all errors. In other words, given
+data from recent field audits, most large spreadsheets probably do contain significant errors.
+Table 1: Field Audits of Real Spreadsheets
+ 
+Study
+Year
+Spreadsheets
+% w Errors Cell Error Rate (CER)
+Davies & Ikin (1)
+1987
+19
+21%
+NR
+Butler (2)
+1992
+273
+11%
+NR
+Hicks
+1995
+1
+100%
+1.2%
+Coopers & Lybrand (3)
+1997
+23
+91%
+NR
+KPMG (4)
+1997
+22
+91%
+NR
+Lukasik
+1998
+2
+100%
+2.2%, 2.5%
+Butler (2)
+2000
+7
+86%
+0.4%
+Overall
+NA
+367
+24%
+(5)
+--
+1997 and Later
+NA
+54
+91%
+--
+ 
+NR = Not reported
+(1) "Serious errors"
+(2) Only reported errors large enough to demand additional tax payments
+(3) Spreadsheets off by at least 5%
+(4) "Major errors"
+(5) Weighted average
+ 
+Hicks [1995] and Lukasik [1998] audited three large spreadsheets using methodologies that probably caught a
+large majority of errors. They found that the cell error rates, that is, the percentages of cells containing original errors
+(as opposed to errors based on earlier erroneous numbers in the spreadsheet) were 1.1%, 2.2%, and 2.5%. These cell
+error rates (CERs) are about what we would expect from general error research, as discussed above. The Butler [2000]
+data, in contrast, found a lower CER of only 0.38% for formula cells. This lower result may be the result of careful
+creation and simple accounting calculations, although the methodology used attempted to balance error detection rates
+and costs and used a technique that probably could not catch a majority of errors. Even the lower Butler [2000] values
+mean that even in spreadsheets of a few dozen cells, errors are likely.
+Data from Laboratory Experiments
+As shown in Table 1, we also have data from laboratory experiments that collectively had about a thousand
+subjects develop spreadsheets from word problems. These word problems had known solutions, allowing 100% error
+detection. Across these experiments, 51% of all spreadsheets contained errors, despite the fact that most spreadsheets
+were only 25 to 50 cells in total size. Cell error rates for whole spreadsheet were at least 1% to 2%. These lowest CERs,
+furthermore, were for a task purposely designed to very simple and largely free of domain knowledge.
+Table 2: Spreadsheet Development Experiments
+ 
+Study
+Year
+Sample
+Subjects
+Spreadsheets
+% w Errors
+Cell Error 

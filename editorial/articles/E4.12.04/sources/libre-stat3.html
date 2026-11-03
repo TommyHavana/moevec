@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+<base href="../../../../">
+<title>Funciones estadísticas, tercera parte</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline' 'unsafe-eval' piwik.documentfoundation.org">
+<link rel="shortcut icon" href="media/navigation/favicon.ico">
+<link type="text/css" href="normalize.css" rel="Stylesheet">
+<link type="text/css" href="prism.css" rel="Stylesheet">
+<link type="text/css" href="default.css" rel="Stylesheet">
+<script type="text/javascript" src="polyfills.js"></script><script type="text/javascript" src="languages.js"></script><script type="text/javascript" src="es/langnames.js"></script><script type="text/javascript" src="flexsearch.compact.debug.js"></script><script type="text/javascript" src="prism.js"></script><script type="text/javascript" src="help2.js" defer></script><script type="text/javascript" src="tdf_matomo.js" defer></script><script type="text/javascript" src="a11y-toggle.js" defer></script><script type="text/javascript" src="paginathing.js" defer></script><script type="text/javascript" src="es/bookmarks.js" defer></script><script type="text/javascript" src="es/contents.js" defer></script><script type="text/javascript" src="help.js" defer></script><meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<header id="TopLeftHeader"><a class="symbol" href="es/text/shared/05/new_help.html"><div></div></a><a class="logo" href="es/text/shared/05/new_help.html"><p dir="auto">Ayuda de LibreOffice 26.8</p></a><div class="dropdowns">
+<div class="modules">
+<button type="button" data-a11y-toggle="modules-nav" id="modules" aria-haspopup="true" aria-expanded="false" aria-controls="modules-nav">Módulo</button><nav id="modules-nav" hidden=""></nav>
+</div>
+<div class="lang">
+<button type="button" data-a11y-toggle="langs-nav" id="langs" aria-haspopup="true" aria-expanded="false" aria-controls="modules-nav">Idioma</button><nav id="langs-nav" hidden=""></nav>
+</div>
+</div></header><aside class="leftside"><input id="accordion-1" name="accordion-menu" type="checkbox"><label for="accordion-1" dir="auto">Contenido</label><div id="Contents" class="contents-treeview"></div></aside><div id="SearchFrame"><div id="Bookmarks">
+<input id="search-bar" type="search" class="search" placeholder="Buscar en los marcadores del módulo elegido" dir="auto"><div class="nav-container" tabindex="0"><nav class="index" dir="auto"></nav></div>
+</div></div>
+<div id="DisplayArea" itemprop="softwareHelp" itemscope="true" itemtype="http://schema.org/SoftwareApplication">
+<noscript><div id="WarnJS"><h1 dir="auto">Active JavaScript en el navegador para mostrar las páginas de ayuda de LibreOffice.</h1></div></noscript>
+<div class="xapian-omega-search"><form name="P" method="get" action="/26.8/es/search" target="_top">
+<input id="omega-autofocus" type="search" name="P" placeholder="Buscar en todas las páginas de la Ayuda" dir="auto"><input type="submit" class="xapian-omega-search-button" value="🔍">
+</form></div>
+<meta itemprop="applicationCategory" content="BusinessApplication">
+<meta itemprop="applicationSuite" content="LibreOffice">
+<meta itemprop="name" content="LibreOffice">
+<meta itemprop="operatingsystem" content="Windows, Linux, MacOS">
+<meta itemprop="author.name" content="The LibreOffice Documentation Team">
+<meta itemprop="publisher.name" content="The Document Foundation">
+<meta itemprop="softwareVersion" content="26.8">
+<meta itemprop="inLanguage" content="es">
+<meta itemprop="datePublished" content="2020">
+<meta itemprop="headline" content="Funciones estadísticas, tercera parte">
+<meta itemprop="license" content="https://www.libreoffice.org/download/license/">
+<meta itemprop="image" content="media/navigation/libo-symbol-white.svg">
+<h1 id="hd_id3166425" dir="auto">
+<a id="kl"></a>Funciones estadísticas, tercera parte</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a id="critbinom"></a>
+<a id="bm_id3147472"></a><meta itemprop="keywords" content="BINOM.CRIT">
+<a id="bm_id3154848"></a>
+<h2 id="hd_id3147472" dir="auto">BINOM.CRIT</h2>
+<p id="par_id3149254" class="paragraph" dir="auto"><span class="avis">Devuelve el valor más pequeño para el cual la distribución binómica acumulada es mayor que o igual a un valor de criterio.</span></p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id3148586" class="code" dir="auto">BINOM.CRIT(ensayos; prob_éxito; alfa)</p>
+<p id="par_id3145593" class="paragraph" dir="auto"><span class="emph">Intentos</span>: el número total de intentos.</p>
+<p id="par_id3153084" class="paragraph" dir="auto"><span class="emph">prob_éxito</span> es el intervalo de probabilidad de éxito de un intento.</p>
+<p id="par_id3149726" class="paragraph" dir="auto"><span class="emph">Alfa</span> es el intervalo de probabilidad límite que se debe alcanzar o superar.</p>
+<div class="embedded">
+<a id="IntegerTrunc"></a>
+        <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">En el caso de los argumentos de tipo entero, los valores que no sean enteros se truncan al entero.</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id3148740" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=BINOM.CRIT(100;0.5;0.1)</span> rendimientos 44.</p>
+<a id="correl"></a>
+<a id="bm_id3148746"></a><meta itemprop="keywords" content="COEF.DE.CORREL">
+<meta itemprop="keywords" content="coeficiente de correlación">
+<a id="bm_id3147403"></a>
+<h2 id="hd_id3148746" dir="auto">COEF.DE.CORREL</h2>
+<p id="par_id3147299" class="paragraph" dir="auto"><span class="avis">Calcula el coeficiente de correlación entre dos grupos de datos.</span></p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id3153023" class="code" dir="auto">COEF.DE.CORREL(Datos1; Datos2)</p>
+<p id="par_id3150036" class="paragraph" dir="auto"><span class="emph">Datos1</span> es el primer grupo de datos.</p>
+<p id="par_id3153021" class="paragraph" dir="auto"><span class="emph">Datos2</span> es el segundo conjunto de datos.</p>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id3149941" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=COEF.DE.CORREL(A1:A50;B1:B50)</span> calcula el coeficiente de correlación como medida de la correlación lineal de dos conjuntos de datos.</p>
+<a id="covar"></a>
+<a id="bm_id3150652"></a><meta itemprop="keywords" content="COVAR">
+<a id="bm_id3152983"></a>
+<h2 id="hd_id3150652" dir="auto">COVAR</h2>
+<p id="par_id3146875" class="paragraph" dir="auto"><span class="avis">Calcula la covarianza del producto de las desviaciones pareadas.</span></p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id3150740" class="code" dir="auto">COVAR(Datos1; Datos2)</p>
+<p id="par_id3145827" class="paragraph" dir="auto"><span class="emph">Datos1</span> es el primer grupo de datos.</p>
+<p id="par_id3150465" class="paragraph" dir="auto"><span class="emph">Datos2</span> es el segundo conjunto de datos.</p>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id3144748" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=COVAR(A1:A30;B1:B30)</span></p>
+<a id="covariancedots"></a>
+    <a id="bm_id280652"></a>        <meta itemprop="keywords" content="COVARIANZA.M">
+    <a id="bm_id2852983"></a>
+    <h2 id="hd_id2850652" dir="auto">COVARIANZA.M</h2>
+    <p id="par_id2846875" class="paragraph" dir="auto"><span class="avis">Devuelve la covarianza del producto de desviaciones por pares para una muestra de la población.</span></p>
+    <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+    <p id="par_id2850740" class="code" dir="auto">COVARIANZA.M(Dato1;Dato2)</p>
+    <p id="par_id2845827" class="paragraph" dir="auto"><span class="emph">Datos1</span> es el primer conjunto de datos.</p>
+    <p id="par_id2850465" class="paragraph" dir="auto"><span class="emph">Datos2</span> es el segundo conjunto de datos.</p>
+    <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+    <p id="par_id2844748" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=COVARIANZA.M(A1:A30;B1:B30)</span></p>
+    <div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+    <div class="embedded">
+<a id="4.2"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.2 de LibreOffice.</p></div>
+</div>
+<br>
+    </div>
+    <div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+    <p id="par_id341670873986703" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.COVARIANCE.S</span></p>
+<a id="covariancedotp"></a>
+    <a id="bm_id2950652"></a>        <meta itemprop="keywords" content="COVARIANZA.P">
+    <a id="bm_id2952983"></a>
+    <h2 id="hd_id2950652" dir="auto">COVARIANZA.P</h2>
+    <p id="par_id2946875" class="paragraph" dir="auto"><span class="avis">Devuelve la covarianza del producto de desviaciones por pares para toda la población.</span></p>
+    <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+    <p id="par_id2950740" class="code" dir="auto">COVARIANZA.P(Dato1;Dato2)</p>
+    <p id="par_id2945827" class="paragraph" dir="auto"><span class="emph">Datos1</span> es el primer conjunto de datos.</p>
+    <p id="par_id2950465" class="paragraph" dir="auto"><span class="emph">Datos2</span> es el segundo conjunto de datos.</p>
+    <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+    <p id="par_id2944748" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=COVARIANZA.P(A1:A30;B1:B30)</span></p>
+    <div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+    <div class="embedded">
+<a id="4.2"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.2 de LibreOffice.</p></div>
+</div>
+<br>
+    </div>
+    <div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+    <p id="par_id641640873986703" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.COVARIANCE.P</span></p>
+<a id="kurt"></a>
+<a id="bm_id3155956"></a><meta itemprop="keywords" content="CURTOSIS">
+<a id="bm_id3146847"></a>
+<h2 id="hd_id3155956" dir="auto">CURTOSIS</h2>
+<p id="par_id3153108" class="paragraph" dir="auto"><span class="avis">Calcula la curtosis (medición del grado de agudeza de la curva de frecuencia) de un grupo de datos (se deben introducir un mínimo de cuatro valores).</span></p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id3154508" class="code" dir="auto">CURTOSIS(Argument 1 [; Argument 2 [; …  [; Argument 255]]])</p>
+<div class="embedded">
+<a id="argument255"></a>
+      <p id="par_id1001754569677921" class="paragraph" dir="auto"><span class="emph">Argument 1; Argument 2; … ; Argument 255</span> are numbers, text, references to cells or to cell ranges of numbers or text.</p>
+    </div>
+<p id="par_id501585152669900" class="paragraph" dir="auto">Los parámetros deben especificar por lo menos cuatro valores.</p>
+<div class="embedded">
+<a id="datenumbersequencenote"></a>
+        <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de <a target="_top" href="es/text/scalc/01/03080000.html">resalte de valores</a>.</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id3150016" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=CURTOSIS(A1;A2;A3;A4;A5;A6)</span></p>
+<a id="lognormdist"></a>
+<a id="bm_id3158417"></a><meta itemprop="keywords" content="Función DISTR.LOG.NORM">
+<meta itemprop="keywords" content="distribución normal logarítmica">
+<a id="bm_id3155366"></a>
+<h2 id="hd_id3158417" dir="auto">DISTR.LOG.NORM</h2>
+<p id="par_id3154953" class="paragraph" dir="auto"><span class="avis">Devuelve los valores de una distribución normal logarítmica.</span></p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id3150686" class="code" dir="auto">DIS.LOG.NORM(Número [; Media [; Desviación Estándar [; Acumulada]]])</p>
+<p id="par_id3154871" class="paragraph" dir="auto"><span class="emph">x</span> es el valor del intervalo de probabilidad para el cual se debe calcular la distribución normal logarítmica.</p>
+<p id="par_id3155820" class="paragraph" dir="auto"><span class="emph">Media</span> (opcional) es el valor medio de la distribución logarítmica estándar.</p>
+<p id="par_id3155991" class="paragraph" dir="auto"><span class="emph">Desv_estándar</span> (opcional) es la desviación estándar de la distribución logarítmica estándar.</p>
+<p id="par_id3155992" class="paragraph" dir="auto"><span class="emph">Acumulativa</span> (opcional) = 0 calcula la función de densidad, Acumulativa = 1 calcula la distribución.</p>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id3149778" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DISTR.LOG.NORM(0.1;0;1)</span> retorna 0.01.</p>
+<a id="lognormdotdist"></a>
+<a id="bm_id2901417"></a><meta itemprop="keywords" content="DISTR.LOG.NORM">
+<meta itemprop="keywords" content="distribución logarítmica normal ">
+<a id="bm_id2901366"></a>
+<h2 id="hd_id2908417" dir="auto">DISTR.LOGNORM</h2>
+<p id="par_id2904953" class="paragraph" dir="auto"><span class="avis">Devuelve los valores de una distribución normal logarítmica.</span></p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id2900686" class="code" dir="auto">DISTR.LOGNORM(Número; Media; Desv_estándar; Acumulada)</p>
+<p id="par_id2904871" class="paragraph" dir="auto"><span class="emph">número</span> (obligatorio) es el valor del intervalo de probabilidad para el cual se calculará la distribución logarítmica estándar.</p>
+<p id="par_id2905820" class="paragraph" dir="auto"><span class="emph">Media</span> (obligatoria) es el valor medio de la distribución logarítmica estándar.</p>
+<p id="par_id2905991" class="paragraph" dir="auto"><span class="emph">Desv_estándar</span> (obligatorio) es la desviación estándar de la distribución logarítmica estándar.</p>
+<p id="par_id2905992" class="paragraph" dir="auto"><span class="emph">Acumulada</span> (obligatorio) = 0 calcula la función de densidad; Acumulada = 1 calcula la distribución.</p>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id2909778" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DISTR.LOGNORM(0,1;0;1)</span> devuelve 0,0106510993.</p>
+<div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+<div class="embedded">
+<a id="4.3"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.3 de LibreOffice</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+<p id="par_id341670873986704" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.LOGNORM.DIST</span></p>
+<a id="confidence"></a>
+<a id="bm_id3153559"></a><meta itemprop="keywords" content="INTERVALO.CONFIANZA">
+<a id="bm_id3153803"></a>
+<h2 id="hd_id3153559" dir="auto">INTERVALO.CONFIANZA</h2>
+<p id="par_id3153814" class="paragraph" dir="auto"><span class="avis">Calcula un intervalo de confianza (1 alfa) para distribución normal.</span></p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id3147501" class="code" dir="auto">CONFIANZA(Alpha; Desv_estándar; Tamaño)</p>
+<p id="par_id3149872" class="paragraph" dir="auto"><span class="emph">Alfa</span> es el nivel del intervalo de confianza.</p>
+<p id="par_id3145324" class="paragraph" dir="auto"><span class="emph">Desv_estándar</span> es la desviación estándar de la población total.</p>
+<p id="par_id3153075" class="paragraph" dir="auto"><span class="emph">tamaño</span> es el tamaño de la totalidad base.</p>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id3153335" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=INTERVALO.CONFIANZA(0.05;1.5;100)</span> da 0.29.</p>
+<a id="confidencedotnorm"></a>
+<a id="bm_id2853559"></a><meta itemprop="keywords" content="INTERVALO.CONFIANZA.NORM">
+<a id="bm_id2853803"></a>
+<h2 id="hd_id2853559" dir="auto">INTERVALO.CONFIANZA.NORM</h2>
+<p id="par_id2853814" class="paragraph" dir="auto">    <span class="avis">Calcula un intervalo de confianza (1-alfa) para una distribución normal.</span></p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id2847501" class="code" dir="auto">INTERVALO.CONFIANZA.NORM(Alpha; Desv_estándar; Tamaño)</p>
+<p id="par_id2849872" class="paragraph" dir="auto"><span class="emph">Alfa</span> es el nivel del intervalo de confianza.</p>
+<p id="par_id2845324" class="paragraph" dir="auto"><span class="emph">Desv_estándar</span> es la desviación típica de la población total.</p>
+<p id="par_id2853075" class="paragraph" dir="auto"><span class="emph">tamaño</span> es el tamaño de la totalidad base.</p>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id2853335" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=INTERVALO.CONFIANZA.NORM(0.05;1.5;100)</span> da 0.2939945977.</p>
+<div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+<div class="embedded">
+<a id="4.2"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.2 de LibreOffice.</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+<p id="par_id341340873986703" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.CONFIDENCE.NORM</span></p>
+<a id="confidencedott"></a>
+<a id="bm_id2953559"></a><meta itemprop="keywords" content="INTERVALO.CONFIANZA.T">
+<a id="bm_id2953803"></a>
+<h2 id="hd_id2953559" dir="auto">INTERVALO.CONFIANZA.T</h2>
+<p id="par_id2953814" class="paragraph" dir="auto">    <span class="avis">Calcula el intervalo de confianza (1-alfa) para una distribución t de Student.</span></p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id2947501" class="code" dir="auto">INTERVALO.CONFIANZA.T(Alpha; Desv_estándar; Tamaño)</p>
+<p id="par_id2949872" class="paragraph" dir="auto"><span class="emph">Alfa</span> es el nivel del intervalo de confianza.</p>
+<p id="par_id2945324" class="paragraph" dir="auto"><span class="emph">Desv_estándar</span> es la desviación típica de la población total.</p>
+<p id="par_id2953075" class="paragraph" dir="auto"><span class="emph">tamaño</span> es el tamaño de la totalidad base.</p>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id2953335" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=INTERVALO.CONFIANZA.T(0.05;1.5;100)</span> da 0.2976325427.</p>
+<div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+<div class="embedded">
+<a id="4.2"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.2 de LibreOffice.</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+<p id="par_id341640973986703" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.CONFIDENCE.T</span></p>
+<a id="loginv"></a>
+<a id="bm_id3150928"></a><meta itemprop="keywords" content="INV.LOG">
+<meta itemprop="keywords" content="inverso de la distribución normal logarítmica">
+<a id="bm_id3156062"></a>
+<h2 id="hd_id3150928" dir="auto">INV.LOG</h2>
+<p id="par_id3145297" class="paragraph" dir="auto"><span class="avis">Calcula el inverso de la distribución normal logarítmica.</span></p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id3153049" class="code" dir="auto">INV.LOG(Número [; Media [; Desviación Estándar]])</p>
+<p id="par_id3148390" class="paragraph" dir="auto"><span class="emph">Número</span>(requerido) es el valor de probabilidad para el que se va a calcular la distribución logarítmica estándar inversa.</p>
+<p id="par_id3149538" class="paragraph" dir="auto"><span class="emph">Media</span> (opcional) es la media aritmética de la distribución logarítmica estándar (el valor predeterminado es 0 si se omite).</p>
+<p id="par_id3145355" class="paragraph" dir="auto"><span class="emph">DESVEST</span> (opcional) es la desviación estándar de la distribución logarítmica estándar (el valor predeterminado es 1 si se omite).</p>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id3155623" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=INV.LOG(0.05;0;1)</span> devuelve 0.1930408167.</p>
+<a id="lognormdotinv"></a>
+<a id="bm_id2901928"></a><meta itemprop="keywords" content="función INV.LOGNORM">
+<meta itemprop="keywords" content="inverso de la distribución normal logarítmica">
+<a id="bm_id2901062"></a>
+<h2 id="hd_id2901928" dir="auto">INV.LOGNORM</h2>
+<p id="par_id2901297" class="paragraph" dir="auto"><span class="avis">Calcula el inverso de la distribución normal logarítmica.</span></p>
+<p id="par_id290122405814" class="paragraph" dir="auto">Esta función es idéntica a INV.LOG y se ha introducido por razones de interoperatividad con otros paquetes de oficina.</p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id2901049" class="code" dir="auto">INV.LOGNORM(Número ; Media ; Desviación Estándar)</p>
+<p id="par_id2901390" class="paragraph" dir="auto"><span class="emph">Número</span> (obligatorio) es el valor del intervalo de probabilidad para el cual se calculará la distribución logarítmica estándar.</p>
+<p id="par_id2901538" class="paragraph" dir="auto"><span class="emph">Media</span> (obligatorio) es la media aritmética de la distribución logarítmica normal .</p>
+<p id="par_id2901355" class="paragraph" dir="auto"><span class="emph">DESVEST</span> (requerido) es la desviación estándar de la distribución logarítmica estándar.</p>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id2901623" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=INV.LOGNORM(0,05;0;1)</span> devuelve 0,1930408167.</p>
+<div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+<div class="embedded">
+<a id="4.3"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.3 de LibreOffice</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+<p id="par_id341640873906703" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.LOGNORM.INV</span></p>
+<a id="large"></a>
+<a id="bm_id3149530"></a><meta itemprop="keywords" content="K.ESIMO.MAYOR">
+<a id="bm_id3150883"></a>
+<h2 id="hd_id3149530" dir="auto">K.ESIMO.MAYOR</h2>
+<p id="par_id3150518" class="paragraph" dir="auto"><span class="avis">Devuelve el valor más grande de Posición_c en un conjunto de datos.</span></p>
+<div class="embedded">
+<a id="odff"></a>
+<div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función forma parte del estándar Open Document Format for Office Applications (OpenDocument), versión 1.2 (ISO/IEC 26300:2-2015).</p></div>
+</div>
+<br>
+</div>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id3154372" class="code" dir="auto">K.ESIMO.MAYOR(Datos; Posición_C)</p>
+<p id="par_id3152986" class="paragraph" dir="auto"><span class="emph">Datos</span> es el intervalo de celdas con datos.</p>
+<p id="par_id3156448" class="paragraph" dir="auto"><span class="emph">Posición C</span> es la clasificación del valor. Si Posición C es una matriz, la función se convierte en una <a target="_top" href="es/text/scalc/01/04060107.html">función matricial</a>.</p>
+<div class="embedded">
+<a id="datenumbersequencenote"></a>
+        <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de <a target="_top" href="es/text/scalc/01/03080000.html">resalte de valores</a>.</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id3148702" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=MAYOR(A1:C50;2)</span> da el segundo valor mas grande en A1:C50.</p>
+<p id="par_id3248702" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=K.ESIMO.MAYOR(A1:C50;B1:B5)</span> ingresado como una función de matriz da una matriz del c-ésimo valor más grande en A1:C50 con rangos definidos en B1:B5.</p>
+<a id="small"></a>
+<a id="bm_id3154532"></a><meta itemprop="keywords" content="K.ESIMO.MENOR">
+<a id="bm_id3148609"></a>
+<h2 id="hd_id3154532" dir="auto">K.ESIMO.MENOR</h2>
+<p id="par_id3157981" class="paragraph" dir="auto"><span class="avis">Devuelve el valor más pequeño de Posición C en un conjunto de datos.</span></p>
+<div class="embedded">
+<a id="odff"></a>
+<div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función forma parte del estándar Open Document Format for Office Applications (OpenDocument), versión 1.2 (ISO/IEC 26300:2-2015).</p></div>
+</div>
+<br>
+</div>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id3153974" class="code" dir="auto">K.ESIMO.MENOR(Datos; Posición c)</p>
+<p id="par_id3154540" class="paragraph" dir="auto"><span class="emph">Datos</span> es el intervalo de celdas con datos.</p>
+<p id="par_id3155094" class="paragraph" dir="auto"><span class="emph">Posición C</span> es el rango del valor. Si Posición C es una matriz, la función se vuelve <a target="_top" href="es/text/scalc/01/04060107.html">matricial</a>.</p>
+<div class="embedded">
+<a id="datenumbersequencenote"></a>
+        <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de <a target="_top" href="es/text/scalc/01/03080000.html">resalte de valores</a>.</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id3149897" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=K.ESIMO.MENOR(A1:C50;2)</span> devuelve el segundo valor más pequeño en A1:C50.</p>
+<p id="par_id3249897" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=K.ESIMO.MENOR(A1:C50;B1:B5)</span>, introducida como función matricial, devuelve una matriz del c-ésimo valor menor en A1:C50 con las posiciones definidas en B1:B5.</p>
+
+<a id="relatedtopics"></a><div class="relatedtopics">
+<p class="related" itemprop="mentions" dir="auto"><a id="related"></a><span class="emph">Temas relacionados</span></p>
+<div class="relatedbody" itemprop="mentions">
+<div class="embedded"><p class="embedded" dir="auto"><a target="_top" href="es/text/scalc/01/04060100.html">Funciones por categoría</a></p></div>
+</div>
+</div>
+</div>
+<div id="DonationFrame"><a href="https://www.libreoffice.org/donate/?pk_campaign=help" target="_blank"><div class="icontable donation">
+<div class="iconcell"><img class="iconimage" src="media/helpimg/donate.png" alt="¡Necesitamos su ayuda!" style="width:40px;height:40px;"></div>
+<div class="iconcell"><p dir="auto">¡Necesitamos su ayuda!</p></div>
+</div></a></div>
+<footer><h2 style="text-align: center;"><a href="https://books.libreoffice.org" target="_blank">Guías de LibreOffice</a></h2>
+<div class="noteicon" dir="auto" style="display:flex;justify-content:center;flex-wrap:wrap;row-gap:15px;">
+<img src="media/navigation/libo-writer.svg" alt="Writer Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-calc.svg" alt="Calc Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-impress.svg" alt="Impress Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-draw.svg" alt="Draw Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-base.svg" alt="Base Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-math.svg" alt="Math Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-symbol-black.svg" alt="Getting Started Icon" style="width:60px;height:60px;">
+</div>
+<p itemscope="true" itemtype="http://schema.org/Organization" dir="auto"><meta itemprop="name" content="The Document Foundation"><meta itemprop="legalName" content="The Document Foundation"><meta itemprop="alternateName" content="TDF"><meta itemprop="publishingPrinciples" content="https://www.libreoffice.org/imprint"><a href="https://www.libreoffice.org/imprint" target="_blank">Impressum (Legal Info)</a> | <a href="https://www.libreoffice.org/privacy" target="_blank">Privacy Policy</a> | <a href="https://www.documentfoundation.org/statutes.pdf" target="_blank">Statutes (non-binding English translation)</a> - <a href="https://www.documentfoundation.org/satzung.pdf" target="_blank">Satzung (binding German version)</a> | Copyright information: Unless otherwise specified, all text and images on this website are licensed under the <a href="https://www.libreoffice.org/download/license/" target="_blank">Mozilla Public License v2.0</a>. “LibreOffice” and “The Document Foundation” are registered trademarks of their corresponding registered owners or are in actual use as trademarks in one or more countries. Their respective logos and icons are also subject to international copyright laws. Use thereof is explained in our <a href="https://wiki.documentfoundation.org/TradeMark_Policy" target="_blank">trademark policy</a>. LibreOffice was based on OpenOffice.org.</p>
+<div id="DEBUG" class="debug">
+<h3 class="bug">Help content debug info:</h3>
+<p dir="auto">This page is: <a href="https://opengrok.libreoffice.org/xref/help/source/text/scalc/01/04060183.xhp" target="_blank">/text/scalc/01/04060183.xhp</a></p>
+<p dir="auto">Title is: Funciones estadísticas, tercera parte</p>
+<p id="bm_module" dir="auto"></p>
+<p id="bm_system" dir="auto"></p>
+<p id="bm_HID" dir="auto"></p>
+</div></footer>
+</body>
+</html>

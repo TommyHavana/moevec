@@ -1,0 +1,276 @@
+Funciones estadísticas, tercera parte
+Ayuda de LibreOffice 26.8
+Módulo
+Idioma
+Contenido
+Active JavaScript en el navegador para mostrar las páginas de ayuda de LibreOffice.
+Funciones estadísticas, tercera parte
+BINOM.CRIT
+Devuelve el valor más pequeño para el cual la distribución binómica acumulada es mayor que o igual a un valor de criterio.
+Sintaxis
+BINOM.CRIT(ensayos; prob_éxito; alfa)
+Intentos
+: el número total de intentos.
+prob_éxito
+es el intervalo de probabilidad de éxito de un intento.
+Alfa
+es el intervalo de probabilidad límite que se debe alcanzar o superar.
+En el caso de los argumentos de tipo entero, los valores que no sean enteros se truncan al entero.
+Ejemplo
+=BINOM.CRIT(100;0.5;0.1)
+rendimientos 44.
+COEF.DE.CORREL
+Calcula el coeficiente de correlación entre dos grupos de datos.
+Sintaxis
+COEF.DE.CORREL(Datos1; Datos2)
+Datos1
+es el primer grupo de datos.
+Datos2
+es el segundo conjunto de datos.
+Ejemplo
+=COEF.DE.CORREL(A1:A50;B1:B50)
+calcula el coeficiente de correlación como medida de la correlación lineal de dos conjuntos de datos.
+COVAR
+Calcula la covarianza del producto de las desviaciones pareadas.
+Sintaxis
+COVAR(Datos1; Datos2)
+Datos1
+es el primer grupo de datos.
+Datos2
+es el segundo conjunto de datos.
+Ejemplo
+=COVAR(A1:A30;B1:B30)
+COVARIANZA.M
+Devuelve la covarianza del producto de desviaciones por pares para una muestra de la población.
+Sintaxis
+COVARIANZA.M(Dato1;Dato2)
+Datos1
+es el primer conjunto de datos.
+Datos2
+es el segundo conjunto de datos.
+Ejemplo
+=COVARIANZA.M(A1:A30;B1:B30)
+Información técnica
+Esta función está disponible a partir de la versión 4.2 de LibreOffice.
+This function is
+NOT
+part of the
+Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format
+standard. The name space is
+COM.MICROSOFT.COVARIANCE.S
+COVARIANZA.P
+Devuelve la covarianza del producto de desviaciones por pares para toda la población.
+Sintaxis
+COVARIANZA.P(Dato1;Dato2)
+Datos1
+es el primer conjunto de datos.
+Datos2
+es el segundo conjunto de datos.
+Ejemplo
+=COVARIANZA.P(A1:A30;B1:B30)
+Información técnica
+Esta función está disponible a partir de la versión 4.2 de LibreOffice.
+This function is
+NOT
+part of the
+Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format
+standard. The name space is
+COM.MICROSOFT.COVARIANCE.P
+CURTOSIS
+Calcula la curtosis (medición del grado de agudeza de la curva de frecuencia) de un grupo de datos (se deben introducir un mínimo de cuatro valores).
+Sintaxis
+CURTOSIS(Argument 1 [; Argument 2 [; …  [; Argument 255]]])
+Argument 1; Argument 2; … ; Argument 255
+are numbers, text, references to cells or to cell ranges of numbers or text.
+Los parámetros deben especificar por lo menos cuatro valores.
+Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de
+resalte de valores
+.
+Ejemplo
+=CURTOSIS(A1;A2;A3;A4;A5;A6)
+DISTR.LOG.NORM
+Devuelve los valores de una distribución normal logarítmica.
+Sintaxis
+DIS.LOG.NORM(Número [; Media [; Desviación Estándar [; Acumulada]]])
+x
+es el valor del intervalo de probabilidad para el cual se debe calcular la distribución normal logarítmica.
+Media
+(opcional) es el valor medio de la distribución logarítmica estándar.
+Desv_estándar
+(opcional) es la desviación estándar de la distribución logarítmica estándar.
+Acumulativa
+(opcional) = 0 calcula la función de densidad, Acumulativa = 1 calcula la distribución.
+Ejemplo
+=DISTR.LOG.NORM(0.1;0;1)
+retorna 0.01.
+DISTR.LOGNORM
+Devuelve los valores de una distribución normal logarítmica.
+Sintaxis
+DISTR.LOGNORM(Número; Media; Desv_estándar; Acumulada)
+número
+(obligatorio) es el valor del intervalo de probabilidad para el cual se calculará la distribución logarítmica estándar.
+Media
+(obligatoria) es el valor medio de la distribución logarítmica estándar.
+Desv_estándar
+(obligatorio) es la desviación estándar de la distribución logarítmica estándar.
+Acumulada
+(obligatorio) = 0 calcula la función de densidad; Acumulada = 1 calcula la distribución.
+Ejemplo
+=DISTR.LOGNORM(0,1;0;1)
+devuelve 0,0106510993.
+Información técnica
+Esta función está disponible a partir de la versión 4.3 de LibreOffice
+This function is
+NOT
+part of the
+Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format
+standard. The name space is
+COM.MICROSOFT.LOGNORM.DIST
+INTERVALO.CONFIANZA
+Calcula un intervalo de confianza (1 alfa) para distribución normal.
+Sintaxis
+CONFIANZA(Alpha; Desv_estándar; Tamaño)
+Alfa
+es el nivel del intervalo de confianza.
+Desv_estándar
+es la desviación estándar de la población total.
+tamaño
+es el tamaño de la totalidad base.
+Ejemplo
+=INTERVALO.CONFIANZA(0.05;1.5;100)
+da 0.29.
+INTERVALO.CONFIANZA.NORM
+Calcula un intervalo de confianza (1-alfa) para una distribución normal.
+Sintaxis
+INTERVALO.CONFIANZA.NORM(Alpha; Desv_estándar; Tamaño)
+Alfa
+es el nivel del intervalo de confianza.
+Desv_estándar
+es la desviación típica de la población total.
+tamaño
+es el tamaño de la totalidad base.
+Ejemplo
+=INTERVALO.CONFIANZA.NORM(0.05;1.5;100)
+da 0.2939945977.
+Información técnica
+Esta función está disponible a partir de la versión 4.2 de LibreOffice.
+This function is
+NOT
+part of the
+Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format
+standard. The name space is
+COM.MICROSOFT.CONFIDENCE.NORM
+INTERVALO.CONFIANZA.T
+Calcula el intervalo de confianza (1-alfa) para una distribución t de Student.
+Sintaxis
+INTERVALO.CONFIANZA.T(Alpha; Desv_estándar; Tamaño)
+Alfa
+es el nivel del intervalo de confianza.
+Desv_estándar
+es la desviación típica de la población total.
+tamaño
+es el tamaño de la totalidad base.
+Ejemplo
+=INTERVALO.CONFIANZA.T(0.05;1.5;100)
+da 0.2976325427.
+Información técnica
+Esta función está disponible a partir de la versión 4.2 de LibreOffice.
+This function is
+NOT
+part of the
+Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format
+standard. The name space is
+COM.MICROSOFT.CONFIDENCE.T
+INV.LOG
+Calcula el inverso de la distribución normal logarítmica.
+Sintaxis
+INV.LOG(Número [; Media [; Desviación Estándar]])
+Número
+(requerido) es el valor de probabilidad para el que se va a calcular la distribución logarítmica estándar inversa.
+Media
+(opcional) es la media aritmética de la distribución logarítmica estándar (el valor predeterminado es 0 si se omite).
+DESVEST
+(opcional) es la desviación estándar de la distribución logarítmica estándar (el valor predeterminado es 1 si se omite).
+Ejemplo
+=INV.LOG(0.05;0;1)
+devuelve 0.1930408167.
+INV.LOGNORM
+Calcula el inverso de la distribución normal logarítmica.
+Esta función es idéntica a INV.LOG y se ha introducido por razones de interoperatividad con otros paquetes de oficina.
+Sintaxis
+INV.LOGNORM(Número ; Media ; Desviación Estándar)
+Número
+(obligatorio) es el valor del intervalo de probabilidad para el cual se calculará la distribución logarítmica estándar.
+Media
+(obligatorio) es la media aritmética de la distribución logarítmica normal .
+DESVEST
+(requerido) es la desviación estándar de la distribución logarítmica estándar.
+Ejemplo
+=INV.LOGNORM(0,05;0;1)
+devuelve 0,1930408167.
+Información técnica
+Esta función está disponible a partir de la versión 4.3 de LibreOffice
+This function is
+NOT
+part of the
+Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format
+standard. The name space is
+COM.MICROSOFT.LOGNORM.INV
+K.ESIMO.MAYOR
+Devuelve el valor más grande de Posición_c en un conjunto de datos.
+Esta función forma parte del estándar Open Document Format for Office Applications (OpenDocument), versión 1.2 (ISO/IEC 26300:2-2015).
+Sintaxis
+K.ESIMO.MAYOR(Datos; Posición_C)
+Datos
+es el intervalo de celdas con datos.
+Posición C
+es la clasificación del valor. Si Posición C es una matriz, la función se convierte en una
+función matricial
+.
+Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de
+resalte de valores
+.
+Ejemplo
+=MAYOR(A1:C50;2)
+da el segundo valor mas grande en A1:C50.
+=K.ESIMO.MAYOR(A1:C50;B1:B5)
+ingresado como una función de matriz da una matriz del c-ésimo valor más grande en A1:C50 con rangos definidos en B1:B5.
+K.ESIMO.MENOR
+Devuelve el valor más pequeño de Posición C en un conjunto de datos.
+Esta función forma parte del estándar Open Document Format for Office Applications (OpenDocument), versión 1.2 (ISO/IEC 26300:2-2015).
+Sintaxis
+K.ESIMO.MENOR(Datos; Posición c)
+Datos
+es el intervalo de celdas con datos.
+Posición C
+es el rango del valor. Si Posición C es una matriz, la función se vuelve
+matricial
+.
+Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de
+resalte de valores
+.
+Ejemplo
+=K.ESIMO.MENOR(A1:C50;2)
+devuelve el segundo valor más pequeño en A1:C50.
+=K.ESIMO.MENOR(A1:C50;B1:B5)
+, introducida como función matricial, devuelve una matriz del c-ésimo valor menor en A1:C50 con las posiciones definidas en B1:B5.
+Temas relacionados
+Funciones por categoría
+¡Necesitamos su ayuda!
+Guías de LibreOffice
+Impressum (Legal Info)
+|
+Privacy Policy
+|
+Statutes (non-binding English translation)
+-
+Satzung (binding German version)
+| Copyright information: Unless otherwise specified, all text and images on this website are licensed under the
+Mozilla Public License v2.0
+. “LibreOffice” and “The Document Foundation” are registered trademarks of their corresponding registered owners or are in actual use as trademarks in one or more countries. Their respective logos and icons are also subject to international copyright laws. Use thereof is explained in our
+trademark policy
+. LibreOffice was based on OpenOffice.org.
+Help content debug info:
+This page is:
+/text/scalc/01/04060183.xhp
+Title is: Funciones estadísticas, tercera parte

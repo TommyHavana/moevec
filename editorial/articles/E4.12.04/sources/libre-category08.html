@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+<base href="../../../../">
+<title>Funciones estadísticas</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline' 'unsafe-eval' piwik.documentfoundation.org">
+<link rel="shortcut icon" href="media/navigation/favicon.ico">
+<link type="text/css" href="normalize.css" rel="Stylesheet">
+<link type="text/css" href="prism.css" rel="Stylesheet">
+<link type="text/css" href="default.css" rel="Stylesheet">
+<script type="text/javascript" src="polyfills.js"></script><script type="text/javascript" src="languages.js"></script><script type="text/javascript" src="es/langnames.js"></script><script type="text/javascript" src="flexsearch.compact.debug.js"></script><script type="text/javascript" src="prism.js"></script><script type="text/javascript" src="help2.js" defer></script><script type="text/javascript" src="tdf_matomo.js" defer></script><script type="text/javascript" src="a11y-toggle.js" defer></script><script type="text/javascript" src="paginathing.js" defer></script><script type="text/javascript" src="es/bookmarks.js" defer></script><script type="text/javascript" src="es/contents.js" defer></script><script type="text/javascript" src="help.js" defer></script><meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<header id="TopLeftHeader"><a class="symbol" href="es/text/shared/05/new_help.html"><div></div></a><a class="logo" href="es/text/shared/05/new_help.html"><p dir="auto">Ayuda de LibreOffice 26.8</p></a><div class="dropdowns">
+<div class="modules">
+<button type="button" data-a11y-toggle="modules-nav" id="modules" aria-haspopup="true" aria-expanded="false" aria-controls="modules-nav">Módulo</button><nav id="modules-nav" hidden=""></nav>
+</div>
+<div class="lang">
+<button type="button" data-a11y-toggle="langs-nav" id="langs" aria-haspopup="true" aria-expanded="false" aria-controls="modules-nav">Idioma</button><nav id="langs-nav" hidden=""></nav>
+</div>
+</div></header><aside class="leftside"><input id="accordion-1" name="accordion-menu" type="checkbox"><label for="accordion-1" dir="auto">Contenido</label><div id="Contents" class="contents-treeview"></div></aside><div id="SearchFrame"><div id="Bookmarks">
+<input id="search-bar" type="search" class="search" placeholder="Buscar en los marcadores del módulo elegido" dir="auto"><div class="nav-container" tabindex="0"><nav class="index" dir="auto"></nav></div>
+</div></div>
+<div id="DisplayArea" itemprop="softwareHelp" itemscope="true" itemtype="http://schema.org/SoftwareApplication">
+<noscript><div id="WarnJS"><h1 dir="auto">Active JavaScript en el navegador para mostrar las páginas de ayuda de LibreOffice.</h1></div></noscript>
+<div class="xapian-omega-search"><form name="P" method="get" action="/26.8/es/search" target="_top">
+<input id="omega-autofocus" type="search" name="P" placeholder="Buscar en todas las páginas de la Ayuda" dir="auto"><input type="submit" class="xapian-omega-search-button" value="🔍">
+</form></div>
+<meta itemprop="applicationCategory" content="BusinessApplication">
+<meta itemprop="applicationSuite" content="LibreOffice">
+<meta itemprop="name" content="LibreOffice">
+<meta itemprop="operatingsystem" content="Windows, Linux, MacOS">
+<meta itemprop="author.name" content="The LibreOffice Documentation Team">
+<meta itemprop="publisher.name" content="The Document Foundation">
+<meta itemprop="softwareVersion" content="26.8">
+<meta itemprop="inLanguage" content="es">
+<meta itemprop="datePublished" content="2020">
+<meta itemprop="headline" content="Funciones estadísticas">
+<meta itemprop="license" content="https://www.libreoffice.org/download/license/">
+<meta itemprop="image" content="media/navigation/libo-symbol-white.svg">
+<a id="bm_id3153018"></a><meta itemprop="keywords" content="funciones estadísticas">
+<meta itemprop="keywords" content="Asistente para funciones,estadísticas">
+<meta itemprop="keywords" content="funciones,funciones estadísticas">
+<h1 id="hd_id3153018" dir="auto">
+<a id="head_statistic"></a>Funciones estadísticas</h1>
+<p id="par_id3157874" class="paragraph" dir="auto"><a id="statistiktext"></a>Esta categoría contiene las funciones de <span class="emph">Estadísticas</span>.</p>
+<a id="howtoget"></a><div class="howtoget">
+<div><p class="howtogetheader" dir="auto"><a id="wie"></a>Para acceder a esta orden…</p></div>
+<div class="howtogetbody">
+<div class="embedded"><p class="embedded" dir="auto"><span class="emph">Insertar ▸ Función ▸</span> categoría <span class="emph">Estadística</span></p></div>
+</div>
+</div>
+<br>
+<p id="par_id3149001" class="paragraph" dir="auto">Algunos de los ejemplos emplean la siguiente tabla de datos:</p>
+<table border="1" class="" cellpadding="0" cellspacing="0">
+<tr>
+<td rowspan="" colspan="" dir="auto">
+</td>
+<th rowspan="" colspan="" class="tableheadcell" dir="auto">
+<p id="par_id3148775" class="tableheadintable" dir="auto">C</p>
+</th>
+<th rowspan="" colspan="" class="tableheadcell" dir="auto">
+<p id="par_id3145297" class="tableheadintable" dir="auto">D</p>
+</th>
+</tr>
+<tr>
+<th rowspan="" colspan="" class="tableheadcell" dir="auto">
+<p id="par_id3150661" class="tableheadintable" dir="auto">2</p>
+</th>
+<td rowspan="" colspan="" dir="auto">
+<p id="par_id3153551" class="tablecontentintable" dir="auto">valor x</p>
+</td>
+<td rowspan="" colspan="" dir="auto">
+<p id="par_id3147536" class="tablecontentintable" dir="auto">valor y</p>
+</td>
+</tr>
+<tr>
+<th rowspan="" colspan="" class="tableheadcell" dir="auto">
+<p id="par_id3153224" class="tableheadintable" dir="auto">3</p>
+</th>
+<td rowspan="" colspan="" dir="auto">
+<p id="par_id3150475" class="tablecontentintable" dir="auto">-5</p>
+</td>
+<td rowspan="" colspan="" dir="auto">
+<p id="par_id3155367" class="tablecontentintable" dir="auto">-3</p>
+</td>
+</tr>
+<tr>
+<th rowspan="" colspan="" class="tableheadcell" dir="auto">
+<p id="par_id3149783" class="tableheadintable" dir="auto">4</p>
+</th>
+<td rowspan="" colspan="" dir="auto">
+<p id="par_id3153181" class="tablecontentintable" dir="auto">-2</p>
+</td>
+<td rowspan="" colspan="" dir="auto">
+<p id="par_id3148429" class="tablecontentintable" dir="auto">0</p>
+</td>
+</tr>
+<tr>
+<th rowspan="" colspan="" class="tableheadcell" dir="auto">
+<p id="par_id3152588" class="tableheadintable" dir="auto">5</p>
+</th>
+<td rowspan="" colspan="" dir="auto">
+<p id="par_id3147483" class="tablecontentintable" dir="auto">-1</p>
+</td>
+<td rowspan="" colspan="" dir="auto">
+<p id="par_id3083443" class="tablecontentintable" dir="auto">1</p>
+</td>
+</tr>
+<tr>
+<th rowspan="" colspan="" class="tableheadcell" dir="auto">
+<p id="par_id3149826" class="tableheadintable" dir="auto">6</p>
+</th>
+<td rowspan="" colspan="" dir="auto">
+<p id="par_id3163820" class="tablecontentintable" dir="auto">0</p>
+</td>
+<td rowspan="" colspan="" dir="auto">
+<p id="par_id3154816" class="tablecontentintable" dir="auto">3</p>
+</td>
+</tr>
+<tr>
+<th rowspan="" colspan="" class="tableheadcell" dir="auto">
+<p id="par_id3149276" class="tableheadintable" dir="auto">7</p>
+</th>
+<td rowspan="" colspan="" dir="auto">
+<p id="par_id3149267" class="tablecontentintable" dir="auto">2</p>
+</td>
+<td rowspan="" colspan="" dir="auto">
+<p id="par_id3156310" class="tablecontentintable" dir="auto">4</p>
+</td>
+</tr>
+<tr>
+<th rowspan="" colspan="" class="tableheadcell" dir="auto">
+<p id="par_id3154639" class="tableheadintable" dir="auto">8</p>
+</th>
+<td rowspan="" colspan="" dir="auto">
+<p id="par_id3145205" class="tablecontentintable" dir="auto">4</p>
+</td>
+<td rowspan="" colspan="" dir="auto">
+<p id="par_id3153276" class="tablecontentintable" dir="auto">6</p>
+</td>
+</tr>
+<tr>
+<th rowspan="" colspan="" class="tableheadcell" dir="auto">
+<p id="par_id3150756" class="tableheadintable" dir="auto">9</p>
+</th>
+<td rowspan="" colspan="" dir="auto">
+<p id="par_id3156095" class="tablecontentintable" dir="auto">6</p>
+</td>
+<td rowspan="" colspan="" dir="auto">
+<p id="par_id3152929" class="tablecontentintable" dir="auto">8</p>
+</td>
+</tr>
+</table>
+<br>
+
+<p id="par_id3156324" class="paragraph" dir="auto">Las funciones estadísticas se describen en las subsecciones siguientes.</p>
+<div class="embedded"><p class="embedded" dir="auto"><a target="_top" href="es/text/scalc/01/04060181.html">Funciones estadísticas, primera parte</a></p></div>
+<div class="embedded"><p class="embedded" dir="auto"><a target="_top" href="es/text/scalc/01/04060182.html">Funciones estadísticas, segunda parte</a></p></div>
+<div class="embedded"><p class="embedded" dir="auto"><a target="_top" href="es/text/scalc/01/04060183.html">Funciones estadísticas, tercera parte</a></p></div>
+<div class="embedded"><p class="embedded" dir="auto"><a target="_top" href="es/text/scalc/01/04060184.html">Funciones estadísticas, cuarta parte</a></p></div>
+<div class="embedded"><p class="embedded" dir="auto"><a target="_top" href="es/text/scalc/01/04060185.html">Funciones estadísticas, quinta parte</a></p></div>
+<a id="relatedtopics"></a><div class="relatedtopics">
+<p class="related" itemprop="mentions" dir="auto"><a id="related"></a><span class="emph">Temas relacionados</span></p>
+<div class="relatedbody" itemprop="mentions">
+    <p id="par_id3150271" class="paragraph" dir="auto"><a target="_top" href="es/text/scalc/01/04060116.html">Funciones de complemento. Lista de funciones de análisis, parte 2</a></p>
+    <p id="par_id260920162318025898" class="paragraph" dir="auto"><a target="_top" href="es/text/scalc/01/04060100.html">Funciones por categoría</a></p>
+</div>
+</div>
+</div>
+<div id="DonationFrame"><a href="https://www.libreoffice.org/donate/?pk_campaign=help" target="_blank"><div class="icontable donation">
+<div class="iconcell"><img class="iconimage" src="media/helpimg/donate.png" alt="¡Necesitamos su ayuda!" style="width:40px;height:40px;"></div>
+<div class="iconcell"><p dir="auto">¡Necesitamos su ayuda!</p></div>
+</div></a></div>
+<footer><h2 style="text-align: center;"><a href="https://books.libreoffice.org" target="_blank">Guías de LibreOffice</a></h2>
+<div class="noteicon" dir="auto" style="display:flex;justify-content:center;flex-wrap:wrap;row-gap:15px;">
+<img src="media/navigation/libo-writer.svg" alt="Writer Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-calc.svg" alt="Calc Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-impress.svg" alt="Impress Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-draw.svg" alt="Draw Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-base.svg" alt="Base Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-math.svg" alt="Math Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-symbol-black.svg" alt="Getting Started Icon" style="width:60px;height:60px;">
+</div>
+<p itemscope="true" itemtype="http://schema.org/Organization" dir="auto"><meta itemprop="name" content="The Document Foundation"><meta itemprop="legalName" content="The Document Foundation"><meta itemprop="alternateName" content="TDF"><meta itemprop="publishingPrinciples" content="https://www.libreoffice.org/imprint"><a href="https://www.libreoffice.org/imprint" target="_blank">Impressum (Legal Info)</a> | <a href="https://www.libreoffice.org/privacy" target="_blank">Privacy Policy</a> | <a href="https://www.documentfoundation.org/statutes.pdf" target="_blank">Statutes (non-binding English translation)</a> - <a href="https://www.documentfoundation.org/satzung.pdf" target="_blank">Satzung (binding German version)</a> | Copyright information: Unless otherwise specified, all text and images on this website are licensed under the <a href="https://www.libreoffice.org/download/license/" target="_blank">Mozilla Public License v2.0</a>. “LibreOffice” and “The Document Foundation” are registered trademarks of their corresponding registered owners or are in actual use as trademarks in one or more countries. Their respective logos and icons are also subject to international copyright laws. Use thereof is explained in our <a href="https://wiki.documentfoundation.org/TradeMark_Policy" target="_blank">trademark policy</a>. LibreOffice was based on OpenOffice.org.</p>
+<div id="DEBUG" class="debug">
+<h3 class="bug">Help content debug info:</h3>
+<p dir="auto">This page is: <a href="https://opengrok.libreoffice.org/xref/help/source/text/scalc/01/04060108.xhp" target="_blank">/text/scalc/01/04060108.xhp</a></p>
+<p dir="auto">Title is: Funciones estadísticas</p>
+<p id="bm_module" dir="auto"></p>
+<p id="bm_system" dir="auto"></p>
+<p id="bm_HID" dir="auto"></p>
+</div></footer>
+</body>
+</html>

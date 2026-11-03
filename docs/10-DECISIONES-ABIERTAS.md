@@ -1785,3 +1785,13 @@ Fuentes y alcances por artículo en research-notes.md y source-review.json. Caso
 
 Continuar **649–651 / E4.12.04–E4.12.06**, Trabajo → Adaptabilidad Técnica. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **652–654**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
 Automatización cada tres minutos ya configurada. No se han borrado copias ni originales.
+
+
+## Continuación editorial650-652 ·03/11/2026
+
+**649/840 terminadas, 1947 imágenes originales públicas, 0 en curso o borradores WordPress y 191 pendientes**. Adaptabilidad Técnica6/15; 41 tandas completas.
+
+Fuentes y alcances por artículo en research-notes.md y source-review.json. Casos y ejemplos identificados, fuentes primarias y límites contrastados antes de publicar. Advertencia SEO: salida WordPress con dos meta descripciones idénticas; textos y títulos correctos. Incidencia de plantilla registrada, fuera de esta producción.
+
+Continuar **653–655 / E4.12.08–E4.12.10**, Trabajo → Adaptabilidad Técnica. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **656–658**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Automatización cada tres minutos ya configurada. No se han borrado copias ni originales.

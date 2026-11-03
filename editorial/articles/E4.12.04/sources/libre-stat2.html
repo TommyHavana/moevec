@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+<base href="../../../../">
+<title>Funciones estadísticas, segunda parte</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline' 'unsafe-eval' piwik.documentfoundation.org">
+<link rel="shortcut icon" href="media/navigation/favicon.ico">
+<link type="text/css" href="normalize.css" rel="Stylesheet">
+<link type="text/css" href="prism.css" rel="Stylesheet">
+<link type="text/css" href="default.css" rel="Stylesheet">
+<script type="text/javascript" src="polyfills.js"></script><script type="text/javascript" src="languages.js"></script><script type="text/javascript" src="es/langnames.js"></script><script type="text/javascript" src="flexsearch.compact.debug.js"></script><script type="text/javascript" src="prism.js"></script><script type="text/javascript" src="help2.js" defer></script><script type="text/javascript" src="tdf_matomo.js" defer></script><script type="text/javascript" src="a11y-toggle.js" defer></script><script type="text/javascript" src="paginathing.js" defer></script><script type="text/javascript" src="es/bookmarks.js" defer></script><script type="text/javascript" src="es/contents.js" defer></script><script type="text/javascript" src="help.js" defer></script><meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<header id="TopLeftHeader"><a class="symbol" href="es/text/shared/05/new_help.html"><div></div></a><a class="logo" href="es/text/shared/05/new_help.html"><p dir="auto">Ayuda de LibreOffice 26.8</p></a><div class="dropdowns">
+<div class="modules">
+<button type="button" data-a11y-toggle="modules-nav" id="modules" aria-haspopup="true" aria-expanded="false" aria-controls="modules-nav">Módulo</button><nav id="modules-nav" hidden=""></nav>
+</div>
+<div class="lang">
+<button type="button" data-a11y-toggle="langs-nav" id="langs" aria-haspopup="true" aria-expanded="false" aria-controls="modules-nav">Idioma</button><nav id="langs-nav" hidden=""></nav>
+</div>
+</div></header><aside class="leftside"><input id="accordion-1" name="accordion-menu" type="checkbox"><label for="accordion-1" dir="auto">Contenido</label><div id="Contents" class="contents-treeview"></div></aside><div id="SearchFrame"><div id="Bookmarks">
+<input id="search-bar" type="search" class="search" placeholder="Buscar en los marcadores del módulo elegido" dir="auto"><div class="nav-container" tabindex="0"><nav class="index" dir="auto"></nav></div>
+</div></div>
+<div id="DisplayArea" itemprop="softwareHelp" itemscope="true" itemtype="http://schema.org/SoftwareApplication">
+<noscript><div id="WarnJS"><h1 dir="auto">Active JavaScript en el navegador para mostrar las páginas de ayuda de LibreOffice.</h1></div></noscript>
+<div class="xapian-omega-search"><form name="P" method="get" action="/26.8/es/search" target="_top">
+<input id="omega-autofocus" type="search" name="P" placeholder="Buscar en todas las páginas de la Ayuda" dir="auto"><input type="submit" class="xapian-omega-search-button" value="🔍">
+</form></div>
+<meta itemprop="applicationCategory" content="BusinessApplication">
+<meta itemprop="applicationSuite" content="LibreOffice">
+<meta itemprop="name" content="LibreOffice">
+<meta itemprop="operatingsystem" content="Windows, Linux, MacOS">
+<meta itemprop="author.name" content="The LibreOffice Documentation Team">
+<meta itemprop="publisher.name" content="The Document Foundation">
+<meta itemprop="softwareVersion" content="26.8">
+<meta itemprop="inLanguage" content="es">
+<meta itemprop="datePublished" content="2020">
+<meta itemprop="headline" content="Funciones estadísticas, segunda parte">
+<meta itemprop="license" content="https://www.libreoffice.org/download/license/">
+<meta itemprop="image" content="media/navigation/libo-symbol-white.svg">
+      <h1 id="hd_id3154372" dir="auto">
+<a id="fh"></a>Funciones estadísticas, segunda parte</h1>
+
+
+
+
+      
+      
+      
+
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+
+<a id="fdotdist"></a>
+    <a id="bm_id2950372"></a>        <meta itemprop="keywords" content="DIST.F">
+    <a id="bm_id2949722"></a>
+    <h2 id="hd_id2950372" dir="auto">DIST.F</h2>
+    <p id="par_id2952981" class="paragraph" dir="auto"><span class="avis">Calcula los valores del lateral izquierdo de la distribución F.</span></p>
+    <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+    <p id="par_id2945826" class="code" dir="auto">DIST.F(Número; Grados de libertad 1; Grados de libertad 2 [; Acumulativo])</p>
+    <p id="par_id2950461" class="paragraph" dir="auto"><span class="emph">Número</span> es el valor para el cual se calculará la distribución F.</p>
+    <p id="par_id2950029" class="paragraph" dir="auto"><span class="emph">GradosdeLibertad1</span> son los grados de libertad en el numerador de la distribución F.</p>
+    <p id="par_id2946877" class="paragraph" dir="auto"><span class="emph">GradosdeLibertad2</span> son los grados de libertad en el denominador de la distribución F.</p>
+    <p id="par_id2946878" class="paragraph" dir="auto"><span class="emph">Acumulado</span> = 0 o Falso calcula la función de densidad <span class="emph">Acumulado</span> = 1 o Verdadero calcula la distribución.</p>
+    <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+    <p id="par_id2950696" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DIST.F(0,8;8;12;0)</span> da 0.7095282499.</p>
+    <p id="par_id2950697" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DIST.F(0,8;8;12;1)</span> da 0.3856603563.</p>
+    <div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+    <div class="embedded">
+<a id="4.2"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.2 de LibreOffice.</p></div>
+</div>
+<br>
+    </div>
+    <div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+    <p id="par_id341640873986707" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.F.DIST</span></p>
+<a id="fdist"></a>
+<a id="bm_id3150372"></a><meta itemprop="keywords" content="DISTR.F">
+<a id="bm_id3149722"></a>
+<h2 id="hd_id3150372" dir="auto">DISTR.F</h2>
+         <p id="par_id3152981" class="paragraph" dir="auto"><span class="avis">Calcula el valor de la función de distribución F.</span></p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id3145826" class="code" dir="auto">DISTR.F(Número; GradosdeLibertad1; GradosdeLibertad2)</p>
+         <p id="par_id3150461" class="paragraph" dir="auto">            <span class="emph">Número</span> es el valor para el cual se debe calcular la distribución F.</p>
+         <p id="par_id3150029" class="paragraph" dir="auto">            <span class="emph">GradosdeLibertad1</span> son los grados de libertad en el numerador de la distribución F.</p>
+         <p id="par_id3146877" class="paragraph" dir="auto">            <span class="emph">GradosdeLibertad2</span> son los grados de libertad en el denominador de la distribución F.</p>
+      <div class="embedded">
+<a id="IntegerTrunc"></a>
+        <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">En el caso de los argumentos de tipo entero, los valores que no sean enteros se truncan al entero.</p></div>
+</div>
+<br>
+    </div>
+      <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id3150696" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DISTR.F(0,8;8;12)</span> da 0,61.</p>
+      <a id="fdotdistdotrt"></a>
+    <a id="bm_id2850372"></a>        <meta itemprop="keywords" content="DISTR.F.CD">
+    <a id="bm_id289722"></a>
+    <h2 id="hd_id280372" dir="auto">DISTR.F.CD</h2>
+    <p id="par_id2852981" class="paragraph" dir="auto"><span class="avis">Calcula los valores del caudal derecho de la distribución F.</span></p>
+    <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+    <p id="par_id2845826" class="code" dir="auto">DISTR.F.CD(Número; GradosdeLibertad1; GradosdeLibertad2)</p>
+    <p id="par_id2850461" class="paragraph" dir="auto"><span class="emph">Número</span> es el valor para el cual se calculará la distribución F.</p>
+    <p id="par_id2850029" class="paragraph" dir="auto"><span class="emph">GradosdeLibertad1</span> son los grados de libertad en el numerador de la distribución F.</p>
+    <p id="par_id2846877" class="paragraph" dir="auto"><span class="emph">GradosdeLibertad2</span> son los grados de libertad en el denominador de la distribución F.</p>
+    <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+    <p id="par_id2850696" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DISTR.F.CD(0,8;8;12)</span> da  0.6143396437.</p>
+    <div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+    <div class="embedded">
+<a id="4.2"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.2 de LibreOffice.</p></div>
+</div>
+<br>
+    </div>
+    <div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+    <p id="par_id341640873986763" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.F.DIST.RT</span></p>
+<a id="finv"></a>
+<a id="bm_id3145388"></a><meta itemprop="keywords" content="DISTR.F.INV">         <meta itemprop="keywords" content="distribución de probabilidad F inversa">
+<a id="bm_id3146113"></a>
+<h2 id="hd_id3145388" dir="auto">DISTR.F.INV</h2>
+         <p id="par_id3155089" class="paragraph" dir="auto"><span class="avis">Devuelve el inverso de la distribución de probabilidad F.</span> La distribución F se utiliza en pruebas F para establecer la relación entre dos grupos de datos distintos.</p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id3153068" class="code" dir="auto">DISTR.F.INV(Número; GradosdeLibertad1; GradosdeLibertad2)</p>
+         <p id="par_id3146866" class="paragraph" dir="auto">            <span class="emph">Número</span> es el valor del intervalo de probabilidad para el cual se debe calcular la distribución F inversa.</p>
+         <p id="par_id3153914" class="paragraph" dir="auto">            <span class="emph">GradosdeLibertad1</span> es el número de grados de libertad en el numerador de la distribución F.</p>
+         <p id="par_id3148607" class="paragraph" dir="auto">            <span class="emph">GradosdeLibertad2</span> es el número de grados de libertad en el denominador de la distribución F.</p>
+        <div class="embedded">
+<a id="IntegerTrunc"></a>
+        <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">En el caso de los argumentos de tipo entero, los valores que no sean enteros se truncan al entero.</p></div>
+</div>
+<br>
+    </div>
+        <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id3145073" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DISTR.F.INV(0,5;5;10)</span> da 0,93.</p>
+      <a id="gammadist"></a>
+<a id="bm_id3150132"></a><meta itemprop="keywords" content="DISTR.GAMMA">
+<a id="bm_id3154330"></a>
+<h2 id="hd_id3150132" dir="auto">DISTR.GAMMA</h2>
+         <p id="par_id3155931" class="paragraph" dir="auto"><span class="avis">Devuelve el valor de una distribución gamma.</span></p>
+         <p id="par_id0119200903333675" class="paragraph" dir="auto">La función inversa es DISTR.GAMMA.INV.</p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id3155436" class="code" dir="auto">DISTR.GAMMA(Número; Alfa; Beta [; C])</p>
+         <p id="par_id3150571" class="paragraph" dir="auto">            <span class="emph">Número</span> es el valor para el cual se debe calcular la distribución Gamma.</p>
+         <p id="par_id3145295" class="paragraph" dir="auto">            <span class="emph">Alfa</span> es el parámetro Alfa de la distribución Gamma.</p>
+         <p id="par_id3151015" class="paragraph" dir="auto">            <span class="emph">Beta</span> es el parámetro Beta de la distribución Gamma.</p>
+         <p id="par_id3157972" class="paragraph" dir="auto">            <span class="emph">C</span> (opcional) = 0 o Falso calcula la función de densidad. <span class="emph">C</span> = 1 o Verdadero calcula la distribución.</p>
+        <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id3145354" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DISTR.GAMMA(2;1;1;1)</span> da 0,86.</p>
+      <a id="gammadotdist"></a>
+<a id="bm_id240620142206421"></a><meta itemprop="keywords" content="DISTR.GAMMA">
+<a id="bm_id2406201421290724"></a>
+<h2 id="hd_id2406201422120061" dir="auto">DISTR.GAMMA</h2>
+<p id="par_id2406201422414690" class="paragraph" dir="auto"><span class="avis">Devuelve el valor de una distribución gamma.</span></p>
+<p id="par_id24061422414690" class="paragraph" dir="auto">La función inversa es DISTR.GAMMA.INV o INV.GAMMA</p>
+<p id="par_id2406201422405814" class="paragraph" dir="auto">Esta función es parecida a DISTR.GAMMA y se adoptó por razones de interoperatividad con otros paquetes de oficina.</p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id240620142238475" class="code" dir="auto">DISTR.GAMMA.N(Número; Alfa; Beta; Acumulada)</p>
+<p id="par_id2406201422385134" class="paragraph" dir="auto"><span class="emph">Número</span> es el valor para el cual se debe calcular la distribución Gamma.</p>
+<p id="par_id2406201422385590" class="paragraph" dir="auto"><span class="emph">Alfa</span> es el parámetro Alfa de la distribución Gamma.</p>
+<p id="par_id2406201422390458" class="paragraph" dir="auto"><span class="emph">Beta</span> es el parámetro Beta de la distribución Gamma.</p>
+<p id="par_id2406201422391058" class="paragraph" dir="auto"><span class="emph">Acumulada</span> = 0 o Falso calcula la función de densidad de probabilidad. <span class="emph">Acumulada</span> =1, Verdadero u otros valores calcula la función de distribución acumulada.</p>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id2406201422392251" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DISTR.GAMMA(2;1;1;1)</span> da 0,86.</p>
+<div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+<div class="embedded">
+<a id="4.3"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.3 de LibreOffice</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+<p id="par_id341640273086703" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.GAMMA.DIST</span></p>
+<a id="gammainv"></a>
+<a id="bm_id3154841"></a><meta itemprop="keywords" content="DISTR.GAMMA.INV">
+<a id="bm_id3149249"></a>
+<h2 id="hd_id3154841" dir="auto">DISTR.GAMMA.INV</h2>
+         <p id="par_id3153932" class="paragraph" dir="auto"><span class="avis">Devuelve el inverso de la distribución gamma acumulativa DISTR.GAMMA.</span> Esta función permite buscar variables con distribución diferente.</p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id3155828" class="code" dir="auto">DISTR.GAMMA.INV(probabilidad; alfa; beta)</p>
+         <p id="par_id3145138" class="paragraph" dir="auto">            <span class="emph">Número</span> es el valor del intervalo de probabilidad para el cual se debe calcular la distribución Gamma inversa.</p>
+         <p id="par_id3152785" class="paragraph" dir="auto">            <span class="emph">Alfa</span> es el parámetro Alfa de la distribución Gamma.</p>
+         <p id="par_id3154561" class="paragraph" dir="auto">            <span class="emph">Beta</span> es el parámetro Beta de la distribución Gamma.</p>
+        <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id3153331" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DISTR.GAMMA.INV(0,8;1;1)</span> da 1,61.</p>
+      <a id="hypgeomdist"></a>
+<a id="bm_id3152801"></a><meta itemprop="keywords" content="DISTR.HIPERGEOM">         <meta itemprop="keywords" content="muestras sin reemplazo">
+<a id="bm_id3153910"></a>
+<h2 id="hd_id3152801" dir="auto">DISTR.HIPERGEOM</h2>
+         <p id="par_id3159341" class="paragraph" dir="auto"><span class="avis">Devuelve la distribución hipergeométrica.</span></p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+
+         <p id="par_id3155388" class="code" dir="auto">DISTR.HIPERGEOM(X; Ejemplo N; ; Éxitos; Población N [; Acumulativa])</p>
+         <p id="par_id3154933" class="paragraph" dir="auto">            <span class="emph">X</span> es el número de resultados obtenidos en la muestra aleatoria.</p>
+         <p id="par_id3153106" class="paragraph" dir="auto">            <span class="emph">EjemploN</span> es el tamaño del ejemplo aleatorio.</p>
+         <p id="par_id3146992" class="paragraph" dir="auto">            <span class="emph">Éxitos</span> es el número de posibles resultados en la población total.</p>
+         <p id="par_id3148826" class="paragraph" dir="auto">            <span class="emph">PoblaciónN</span> es el tamaño de la población total.</p>
+        <p id="par_id231585952506847" class="paragraph" dir="auto"><span class="emph">Acumulativo</span>(opcional) especifica si se debe calcular la función de mayor probabilidad (FALSO o 0) o la función de distribución acumulada (cualquier otro valor). La función de mayor probabilidad es la predeterminada si no se especifica ningún valor para este parámetro.</p>
+        <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id3154904" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DISTR.HIPERGEOM(2;2;90;100)</span> da 0,81. Si 90 de cada 100 piezas de tostadas con mantequilla que caen de una mesa caen sobre el suelo con el lado untado primero, entonces si se caen 2 tostadas con mantequilla de la mesa, la probabilidad de que ambas caigan con el lado untado primero es del 81 %.</p>
+      <a id="hypgeomdotdist"></a>
+    <a id="bm_id2952801"></a>        <meta itemprop="keywords" content="DISTR.HIPERGEOM">         <meta itemprop="keywords" content="muestras sin reemplazo">
+    
+    <a id="bm_id2953910"></a>
+    <h2 id="hd_id2952801" dir="auto">DISTR.HIPERGEOM</h2>
+    <p id="par_id2959341" class="paragraph" dir="auto"><span class="avis">Devuelve la distribución hipergeométrica.</span></p>
+    <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+    <p id="par_id2955388" class="code" dir="auto">DISTR.HIPERGEOM(X; EjemploN; Éxitos; PoblaciónN, Acumulado)</p>
+    <p id="par_id2954933" class="paragraph" dir="auto"><span class="emph">X</span> es el número de resultados obtenidos en la muestra aleatoria.</p>
+    <p id="par_id2953106" class="paragraph" dir="auto"><span class="emph">EjemploN</span> es el tamaño del ejemplo aleatorio.</p>
+    <p id="par_id2946992" class="paragraph" dir="auto"><span class="emph">Éxitos</span> es el número de resultados posibles en la población total.</p>
+    <p id="par_id2948826" class="paragraph" dir="auto"><span class="emph">PoblaciónN</span> es el tamaño de la población total.</p>
+    <p id="par_id2948827" class="paragraph" dir="auto"><span class="emph">Acumulado </span>: 0 o Falso calcula la función de densidad de probabilidad. Otros valores o Verdadero calcula la función de distribución acumulada.</p>
+    <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+    <p id="par_id2954904" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DISTR.HIPERGEOM.N(2;2;90;100;0)</span> da 0,8090909091. Si 90 de cada 100 piezas de tostadas con mantequilla que caen de una mesa caen sobre el suelo con el lado untado primero, entonces si se caen 2 tostadas con mantequilla de la mesa, la probabilidad de que ambas caigan con el lado untado primero es del 81 %.</p>
+    <p id="par_id2954905" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DISTR.HIPERGEOM.N(2;2;90;100;1)</span> da 1.</p>
+    <div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+    <div class="embedded">
+<a id="4.2"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.2 de LibreOffice.</p></div>
+</div>
+<br>
+    </div>
+    <div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+    <p id="par_id341640873986704" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.HYPGEOM.DIST</span></p>
+<a id="fdotinv"></a>
+    <a id="bm_id2945388"></a>        <meta itemprop="keywords" content="F.INV">        <meta itemprop="keywords" content="Valores de la cola izquierda inversa de la distribución F">
+    
+    <a id="bm_id2946113"></a>
+    <h2 id="hd_id2945388" dir="auto">F.INV</h2>
+    <p id="par_id2955089" class="paragraph" dir="auto"><span class="avis">Devuelve el inverso de la distribución acumulativa F.</span> La distribución F se utiliza en pruebas F para establecer la relación entre dos grupos de datos distintos.</p>
+    <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+    <p id="par_id2953068" class="code" dir="auto">F.INV(Número; GradosdeLibertad1; GradosdeLibertad2)</p>
+    <p id="par_id2946866" class="paragraph" dir="auto"><span class="emph">Número</span> es el valor de probabilidad para el cual se calculará la distribución F inversa.</p>
+    <p id="par_id2953914" class="paragraph" dir="auto"><span class="emph">GradosdeLibertad1</span> es el número de grados de libertad en el numerador de la distribución F.</p>
+    <p id="par_id2948607" class="paragraph" dir="auto"><span class="emph">GradosdeLibertad2</span> es el número de grados de libertad en el denominador de la distribución F.</p>
+    <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+    <p id="par_id2945073" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=F.INV(0,5;5;10)</span> da 0.9319331609.</p>
+    <div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+    <div class="embedded">
+<a id="4.2"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.2 de LibreOffice.</p></div>
+</div>
+<br>
+    </div>
+    <div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+    <p id="par_id341640873984703" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.F.INV</span></p>
+<a id="fisher"></a>
+<a id="bm_id3150888"></a><meta itemprop="keywords" content="FISHER">
+<a id="bm_id3146782"></a>
+<h2 id="hd_id3150888" dir="auto">FISHER</h2>
+         <p id="par_id3155384" class="paragraph" dir="auto"><span class="avis">Devuelve la función inversa de la transformación de Fisher para x y crea una función que se distribuye de forma casi normal.</span></p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id3143220" class="code" dir="auto">FISHER(número)</p>
+         <p id="par_id3159228" class="paragraph" dir="auto">            <span class="emph">Número</span> es el valor que se transformará.</p>
+        <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id3149383" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=FISHER(0,5)</span> da 0,55.</p>
+      <a id="gamma"></a>
+<a id="bm_id0119200903221254"></a>
+<a id="bm_id0119200903223192"></a><meta itemprop="keywords" content="GAMMA">
+<h2 id="hd_id0119200903205393" dir="auto">GAMMA</h2>
+         <p id="par_id0119200903205379" class="paragraph" dir="auto"><span class="avis">Devuelve el valor de la función Gamma.</span> DISTR.GAMMA.INV no es el inverso de GAMMA, sino de DISTR.GAMMA.</p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id211585771824267" class="code" dir="auto">GAMMA(Número)</p>
+         <p id="par_id0119200903271614" class="paragraph" dir="auto">            <span class="emph">Número</span> es el número para el que debe calcularse la función Gamma.</p>
+      <a id="gammaln"></a>
+<a id="bm_id3154806"></a><meta itemprop="keywords" content="GAMMA.LN">         <meta itemprop="keywords" content="logaritmo natural de función Gamma">
+<a id="bm_id3149511"></a>
+<h2 id="hd_id3154806" dir="auto">GAMMA.LN</h2>
+         <p id="par_id3148572" class="paragraph" dir="auto"><span class="avis">Devuelve el logaritmo natural de la función gamma: G(x).</span></p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id3153112" class="code" dir="auto">GAMMA.LN(X)</p>
+         <p id="par_id3154502" class="paragraph" dir="auto">            <span class="emph">Número</span> es el valor para el que debe calcularse el logaritmo natural de la función Gamma.</p>
+        <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id3153730" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=GAMMA.LN(2)</span> da 0.</p>
+      <a id="gammalnprecise"></a>
+<a id="bm_id2914806"></a><meta itemprop="keywords" content="GAMMA.LN.EXACTO">         <meta itemprop="keywords" content="logaritmo natural de la función Gamma">
+<a id="bm_id2919511"></a>
+<h2 id="hd_id2914806" dir="auto">GAMMA.LN.EXACTO</h2>
+         <p id="par_id2918572" class="paragraph" dir="auto"><span class="avis">Devuelve el logaritmo natural de la función gamma: G(x).</span></p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id2913112" class="code" dir="auto">GAMMA.LN.EXACTO(Número)</p>
+         <p id="par_id2914502" class="paragraph" dir="auto">            <span class="emph">Número</span> es el valor para el que debe calcularse el logaritmo natural de la función gamma.</p>
+        <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id2913730" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=GAMMA.LN.EXACTO(2)</span> da 0.</p>
+        <div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+         <div class="embedded">
+<a id="4.3"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.3 de LibreOffice</p></div>
+</div>
+<br>
+    </div>
+        <div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+        <p id="par_id541640873986703" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.GAMMALN.PRECISE</span></p>
+      <a id="gauss"></a>
+<a id="bm_id3150272"></a><meta itemprop="keywords" content="GAUSS">         <meta itemprop="keywords" content="distribución normal, estándar">
+<a id="bm_id3149388"></a>
+<h2 id="hd_id3150272" dir="auto">GAUSS</h2>
+         <p id="par_id3149030" class="paragraph" dir="auto"><span class="avis">Calcula la distribución normal predeterminada acumulativa.</span></p>
+         <p id="par_id2059694" class="paragraph" dir="auto">Es GAUSS(x)=NORMSDIST(x)-0.5</p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id3155368" class="code" dir="auto">GAUSS(Número)</p>
+         <p id="par_id3153228" class="paragraph" dir="auto">            <span class="emph">Número</span> es el valor para el que se calculará el valor de la distribución normal estándar.</p>
+        <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id3154867" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=GAUSS(0,19)</span> = 0,08</p>
+         <p id="par_id3148594" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=GAUSS(0,0375)</span> = 0,01</p>
+      <a id="fdotinvdotrt"></a>
+    <a id="bm_id2845388"></a>        <meta itemprop="keywords" content="INV.F.CD">         <meta itemprop="keywords" content="Valores de la cola derecha inversa de la distribución F">
+    
+    <a id="bm_id2846113"></a>
+    <h2 id="hd_id2845388" dir="auto">INV.F.CD</h2>
+    <p id="par_id2855089" class="paragraph" dir="auto"><span class="avis">Calcula la cola derecha inversa de la distribución F.</span></p>
+    <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+    <p id="par_id2853068" class="code" dir="auto">INV.F.CD(Número; GradosDeLibertad1; GradosDeLibertad2)</p>
+    <p id="par_id2846866" class="paragraph" dir="auto"><span class="emph">Número</span> es el valor de la probabilidad para el cual se debe calcular la distribución F inversa.</p>
+    <p id="par_id2853914" class="paragraph" dir="auto"><span class="emph">GradosdeLibertad1</span> es el número de grados de libertad en el numerador de la distribución F.</p>
+    <p id="par_id2848607" class="paragraph" dir="auto"><span class="emph">GradosdeLibertad2</span> es el número de grados de libertad en el denominador de la distribución F.</p>
+    <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+    <p id="par_id2845073" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=INV.F.CD(0,5;5;10)</span> da 0.9319331609.</p>
+    <div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+    <div class="embedded">
+<a id="4.2"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.2 de LibreOffice.</p></div>
+</div>
+<br>
+    </div>
+    <div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+    <p id="par_id341660873986703" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.F.INV.RT</span></p>
+<a id="gammadotinv"></a>
+<a id="bm_id2914841"></a><meta itemprop="keywords" content="INV.GAMMA">
+<a id="bm_id2919249"></a>
+<h2 id="hd_id2914841" dir="auto">INV.GAMMA</h2>
+         <p id="par_id2913932" class="paragraph" dir="auto"><span class="avis">Devuelve el inverso de la distribución gamma acumulativa DISTR.GAMMA.</span> Esta función permite buscar variables con distribución diferente.</p>
+	 <p id="par_id291422405814" class="paragraph" dir="auto">Esta función es idéntica a DISTR.GAMMA.INV y se ha introducido por razones de interoperatividad con otros paquetes de oficina.</p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id2915828" class="code" dir="auto">DISTR.GAMMA.INV(Número; Alfa; Beta)</p>
+         <p id="par_id2915138" class="paragraph" dir="auto">            <span class="emph">Número</span> es el valor del intervalo de probabilidad para el cual se debe calcular la distribución Gamma inversa.</p>
+         <p id="par_id2912785" class="paragraph" dir="auto">            <span class="emph">Alfa</span> es el parámetro Alfa de la distribución Gamma.</p>
+         <p id="par_id2914561" class="paragraph" dir="auto">            <span class="emph">Beta</span> es el parámetro Beta de la distribución Gamma.</p>
+        <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id2913331" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=DISTR.GAMMA.INV(0,8;1;1)</span> da 1,61.</p>
+        <div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+         <div class="embedded">
+<a id="4.3"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.3 de LibreOffice</p></div>
+</div>
+<br>
+    </div>
+        <div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+        <p id="par_id341630873986703" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.GAMMA.INV</span></p>
+      <a id="trimmean"></a>
+<a id="bm_id3152966"></a><meta itemprop="keywords" content="MEDIA.ACOTADA">         <meta itemprop="keywords" content="medias,de grupo de datos sin datos marginales">
+<a id="bm_id3145081"></a>
+<h2 id="hd_id3152966" dir="auto">MEDIA.ACOTADA</h2>
+         <p id="par_id3149716" class="paragraph" dir="auto"><span class="avis">Calcula el promedio de un grupo de datos sin tener en cuenta el porcentaje alfa de los datos en los márgenes.</span></p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id3154821" class="code" dir="auto">MEDIA.ACOTADA(datos; alfa)</p>
+         <p id="par_id3155834" class="paragraph" dir="auto">            <span class="emph">Datos</span> es la matriz de datos en la muestra.</p>
+         <p id="par_id3156304" class="paragraph" dir="auto">            <span class="emph">Alfa</span> es el porcentaje de datos marginales que no se tendrán en cuenta.</p>
+         <div class="embedded">
+<a id="datenumbersequencenote"></a>
+        <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de <a target="_top" href="es/text/scalc/01/03080000.html">resalte de valores</a>.</p></div>
+</div>
+<br>
+    </div>
+        <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id3156130" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=MEDIA.ACOTADA(A1:A50; 0,1)</span> calcula el promedio de los números en A1:A50, sin tener en cuenta el 5 por ciento de valores más bajos y el 5 por ciento de valores más altos. Los porcentajes se aplican a la cantidad del promedio no recortado, no a la cantidad de los sumandos.</p>
+      <a id="harmean"></a>
+<a id="bm_id3153623"></a><meta itemprop="keywords" content="MEDIA.ARMO">         <meta itemprop="keywords" content="medias,armónicas">
+<a id="bm_id3154052"></a>
+<h2 id="hd_id3153623" dir="auto">MEDIA.ARMO</h2>
+         <p id="par_id3155102" class="paragraph" dir="auto"><span class="avis">Calcula la media armonizada de un grupo de datos.</span></p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id3149287" class="code" dir="auto">MEDIA.ARMO(Argument 1 [; Argument 2 [; …  [; Argument 255]]])</p>
+         <div class="embedded">
+<a id="argument255"></a>
+      <p id="par_id1001754569677921" class="paragraph" dir="auto"><span class="emph">Argument 1; Argument 2; … ; Argument 255</span> are numbers, text, references to cells or to cell ranges of numbers or text.</p>
+    </div>
+         <div class="embedded">
+<a id="datenumbersequencenote"></a>
+        <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de <a target="_top" href="es/text/scalc/01/03080000.html">resalte de valores</a>.</p></div>
+</div>
+<br>
+    </div>
+         <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id3146093" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=MEDIA.ARMO(23;46;69)</span> = 37,64. La media armónica de este ejemplo aleatorio es, por tanto, 37,64.</p>
+      <a id="geomean"></a>
+<a id="bm_id3148425"></a><meta itemprop="keywords" content="MEDIA.GEOM">         <meta itemprop="keywords" content="medias,geométricas">
+<a id="bm_id3149777"></a>
+<h2 id="hd_id3148425" dir="auto">MEDIA.GEOM</h2>
+         <p id="par_id3156257" class="paragraph" dir="auto"><span class="avis">Devuelve la media geométrica de una muestra.</span></p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id3153720" class="code" dir="auto">MEDIA.GEOM(Argument 1 [; Argument 2 [; …  [; Argument 255]]])</p>
+         <div class="embedded">
+<a id="argument255"></a>
+      <p id="par_id1001754569677921" class="paragraph" dir="auto"><span class="emph">Argument 1; Argument 2; … ; Argument 255</span> are numbers, text, references to cells or to cell ranges of numbers or text.</p>
+    </div>
+         <div class="embedded">
+<a id="datenumbersequencenote"></a>
+        <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de <a target="_top" href="es/text/scalc/01/03080000.html">resalte de valores</a>.</p></div>
+</div>
+<br>
+    </div>
+        <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id3149819" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=MEDIA.GEOM(23;46;69)</span> = 41,79. El valor de la media geométrica de este ejemplo aleatorio es, por tanto, 41,79.</p>
+      <a id="ftest"></a>
+<a id="bm_id3151390"></a><meta itemprop="keywords" content="PRUEBA.F">
+<a id="bm_id3159263"></a>
+<h2 id="hd_id3151390" dir="auto">PRUEBA.F</h2>
+         <p id="par_id3150534" class="paragraph" dir="auto"><span class="avis">Devuelve el resultado de una prueba F.</span></p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id3153024" class="code" dir="auto">PRUEBA.F(Datos1; Datos2)</p>
+         <p id="par_id3150032" class="paragraph" dir="auto">            <span class="emph">Datos1</span> es la primera matriz de registros.</p>
+         <p id="par_id3153018" class="paragraph" dir="auto">            <span class="emph">Datos2</span> es la segunda matriz de registros.</p>
+         <div class="embedded">
+<a id="datenumbersequencenote"></a>
+        <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de <a target="_top" href="es/text/scalc/01/03080000.html">resalte de valores</a>.</p></div>
+</div>
+<br>
+    </div>
+        <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id3159126" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=PRUEBA.F(A1:A30;B1:B12)</span> calcula si los dos conjuntos de datos son distintos en su varianza y devuelve la probabilidad de que ambos conjuntos procedan de la misma población total.</p>
+      <a id="fdottest"></a>
+    <a id="bm_id2951390"></a>        <meta itemprop="keywords" content="PRUEBA.F.N">
+    <a id="bm_id2959263"></a>
+    <h2 id="hd_id2951390" dir="auto">PRUEBA.F.N</h2>
+    <p id="par_id2950534" class="paragraph" dir="auto"><span class="avis">Devuelve el resultado de una prueba F.</span></p>
+    <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+    <p id="par_id2953024" class="code" dir="auto">PRUEBA.F.N(Datos1; Datos2)</p>
+    <p id="par_id2950032" class="paragraph" dir="auto"><span class="emph">Datos1</span> es la primera matriz de registros.</p>
+    <p id="par_id2953018" class="paragraph" dir="auto"><span class="emph">Datos2</span> es la segunda matriz de registros.</p>
+    <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+    <p id="par_id2959126" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=PRUEBA.F.N(A1:A30;B1:B12)</span> calcula si los dos conjuntos de datos son distintos en su varianza y devuelve la probabilidad de que ambos conjuntos procedan de la misma población total.</p>
+    <div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+    <div class="embedded">
+<a id="4.2"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.2 de LibreOffice.</p></div>
+</div>
+<br>
+    </div>
+    <div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+    <p id="par_id341640273986703" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.F.TEST</span></p>
+<a id="fisherinv"></a>
+<a id="bm_id3155758"></a><meta itemprop="keywords" content="PRUEBA.FISHER.INV">         <meta itemprop="keywords" content="inverso de transformación Fisher">
+<a id="bm_id3149317"></a>
+<h2 id="hd_id3155758" dir="auto">PRUEBA.FISHER.INV</h2>
+         <p id="par_id3154734" class="paragraph" dir="auto"><span class="avis">Devuelve la función inversa de la transformación de Fisher para X y da como resultado una función que se distribuye de forma casi normal.</span></p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id3146108" class="code" dir="auto">PRUEBA.FISHER.INV(número)</p>
+         <p id="par_id3145115" class="paragraph" dir="auto">            <span class="emph">Número</span> es el valor que va a recibir una transformación inversa.</p>
+        <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+         <p id="par_id3150432" class="paragraph" dir="auto">            <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=PRUEBA.FISHER.INV(0,5)</span> da 0,46.</p>
+      <a id="ztest"></a>
+<a id="bm_id3153216"></a><meta itemprop="keywords" content="PRUEBA.Z">
+<a id="bm_id3147569"></a>
+<h2 id="hd_id3153216" dir="auto">PRUEBA.Z</h2>
+         <p id="par_id3150758" class="paragraph" dir="auto"><span class="avis">Calcula la probabilidad de observar un estadístico z mayor que el calculado basado en una muestra.</span></p>
+         <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+         <p id="par_id3153274" class="code" dir="auto">PRUEBA.Z(Datos; mu [; Sigma])</p>
+         <p id="par_id3156109" class="paragraph" dir="auto">            <span class="emph">Datos</span> es la muestra dada, extraída de una población distribuida normalmente.</p>
+         <p id="par_id3149977" class="paragraph" dir="auto">            <span class="emph">mu</span> es la media conocida de la población.</p>
+         <p id="par_id3154740" class="paragraph" dir="auto">            <span class="emph">Sigma</span> (opcional) es la desviación típica conocida de la población. Si se omite, se utiliza la desviación típica de la muestra indicada.</p>
+         <p id="par_id0305200911372999" class="paragraph" dir="auto">Véase también el<a target="_blank" href="https://wiki.documentfoundation.org/Documentation/How_Tos/Calc:_ZTEST_function">Página de la Wiki</a>.</p>
+         <div class="embedded">
+<a id="datenumbersequencenote"></a>
+        <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de <a target="_top" href="es/text/scalc/01/03080000.html">resalte de valores</a>.</p></div>
+</div>
+<br>
+    </div>
+      <a id="zdottest"></a>
+<a id="bm_id2953216"></a><meta itemprop="keywords" content="función PRUEBA.Z.N">
+<a id="bm_id2947569"></a>
+<h2 id="hd_id2953216" dir="auto">PRUEBA.Z.N</h2>
+<p id="par_id2950758" class="paragraph" dir="auto"><span class="avis">Calcula la probabilidad de observar una estadística z mayor que la calculada a partir de una muestra.</span></p>
+<div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+<p id="par_id2953274" class="code" dir="auto">PRUEBA.Z(Datos; mu [; Sigma])</p>
+<p id="par_id2956109" class="paragraph" dir="auto"><span class="emph">Datos</span> es la muestra dada, extraída de una población distribuida normalmente.</p>
+<p id="par_id2949977" class="paragraph" dir="auto"><span class="emph">mu</span> es la media conocida de la población.</p>
+<p id="par_id2954740" class="paragraph" dir="auto"><span class="emph">Sigma</span> (opcional) es la desviación típica conocida de la población. Si se omite, se utiliza la desviación típica de la muestra indicada.</p>
+<div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<p id="par_id2948770" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=PRUEBA.Z.N(A2:A20;9;2)</span> devuelve el resultado de una prueba z de la muestra A2:A20 obtenida de una población con una media conocida de 9 y una desviación estándar de 2.</p>
+<div class="embedded">
+<a id="sectiontechinfo"></a>
+        <h4 id="hd_id301640873452726" dir="auto">Información técnica</h4>
+    </div>
+<div class="embedded">
+<a id="4.3"></a>
+        <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función está disponible a partir de la versión 4.3 de LibreOffice</p></div>
+</div>
+<br>
+    </div>
+<div class="embedded">
+<a id="notODFF"></a>
+        <p id="par_id251640873774457" class="paragraph" dir="auto">This function is <span class="emph">NOT</span> part of the <span class="emph">Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</span> standard. The name space is</p>
+    </div>
+<p id="par_id341640873986700" class="paragraph" dir="auto"><span class="literal">COM.MICROSOFT.Z.TEST</span></p>
+
+<a id="relatedtopics"></a><div class="relatedtopics">
+<p class="related" itemprop="mentions" dir="auto"><a id="related"></a><span class="emph">Temas relacionados</span></p>
+<div class="relatedbody" itemprop="mentions">
+         <div class="embedded"><p class="embedded" dir="auto"><a target="_top" href="es/text/scalc/01/04060100.html">Funciones por categoría</a></p></div>
+      </div>
+</div>
+   </div>
+<div id="DonationFrame"><a href="https://www.libreoffice.org/donate/?pk_campaign=help" target="_blank"><div class="icontable donation">
+<div class="iconcell"><img class="iconimage" src="media/helpimg/donate.png" alt="¡Necesitamos su ayuda!" style="width:40px;height:40px;"></div>
+<div class="iconcell"><p dir="auto">¡Necesitamos su ayuda!</p></div>
+</div></a></div>
+<footer><h2 style="text-align: center;"><a href="https://books.libreoffice.org" target="_blank">Guías de LibreOffice</a></h2>
+<div class="noteicon" dir="auto" style="display:flex;justify-content:center;flex-wrap:wrap;row-gap:15px;">
+<img src="media/navigation/libo-writer.svg" alt="Writer Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-calc.svg" alt="Calc Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-impress.svg" alt="Impress Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-draw.svg" alt="Draw Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-base.svg" alt="Base Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-math.svg" alt="Math Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-symbol-black.svg" alt="Getting Started Icon" style="width:60px;height:60px;">
+</div>
+<p itemscope="true" itemtype="http://schema.org/Organization" dir="auto"><meta itemprop="name" content="The Document Foundation"><meta itemprop="legalName" content="The Document Foundation"><meta itemprop="alternateName" content="TDF"><meta itemprop="publishingPrinciples" content="https://www.libreoffice.org/imprint"><a href="https://www.libreoffice.org/imprint" target="_blank">Impressum (Legal Info)</a> | <a href="https://www.libreoffice.org/privacy" target="_blank">Privacy Policy</a> | <a href="https://www.documentfoundation.org/statutes.pdf" target="_blank">Statutes (non-binding English translation)</a> - <a href="https://www.documentfoundation.org/satzung.pdf" target="_blank">Satzung (binding German version)</a> | Copyright information: Unless otherwise specified, all text and images on this website are licensed under the <a href="https://www.libreoffice.org/download/license/" target="_blank">Mozilla Public License v2.0</a>. “LibreOffice” and “The Document Foundation” are registered trademarks of their corresponding registered owners or are in actual use as trademarks in one or more countries. Their respective logos and icons are also subject to international copyright laws. Use thereof is explained in our <a href="https://wiki.documentfoundation.org/TradeMark_Policy" target="_blank">trademark policy</a>. LibreOffice was based on OpenOffice.org.</p>
+<div id="DEBUG" class="debug">
+<h3 class="bug">Help content debug info:</h3>
+<p dir="auto">This page is: <a href="https://opengrok.libreoffice.org/xref/help/source/text/scalc/01/04060182.xhp" target="_blank">/text/scalc/01/04060182.xhp</a></p>
+<p dir="auto">Title is: Funciones estadísticas, segunda parte</p>
+<p id="bm_module" dir="auto"></p>
+<p id="bm_system" dir="auto"></p>
+<p id="bm_HID" dir="auto"></p>
+</div></footer>
+</body>
+</html>

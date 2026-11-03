@@ -1,0 +1,682 @@
+Funciones matriciales
+Ayuda de LibreOffice 26.8
+Módulo
+Idioma
+Contenido
+Active JavaScript en el navegador para mostrar las páginas de ayuda de LibreOffice.
+Funciones matriciales
+Esta categoría contiene las funciones matriciales.
+¿Qué es una matriz?
+Una matriz es un intervalo de celdas enlazado de una hoja de cálculo, cuyas celdas contienen valores. Un intervalo cuadrado de 3 filas y 3 columnas es una matriz de 3 × 3:
+A
+B
+C
+D
+E
+1
+7
+31
+33
+2
+95
+17
+2
+3
+5
+10
+50
+4
+La mínima matriz posible son dos celdas adyacentes, 1 x 2 o 2 x 1.
+¿Qué es una fórmula matricial?
+Se denomina fórmula matricial la que permite evaluar los valores individuales de un intervalo de celdas. La diferencia entre una fórmula matricial y otro tipo de fórmula es que aquella no emplea un único valor, sino varios valores simultáneamente.
+Una fórmula matricial no solo puede procesar varios valores, sino también devolver varios resultados. El resultado de una fórmula matricial también es una matriz.
+Para multiplicar por 10 los valores de las celdas individuales de la matriz de arriba, no necesita aplicar una fórmula por cada celda o valor individual. En su lugar, utilice una fórmula matricial. Seleccione un intervalo de 3 × 3 celdas en otra parte de la hoja de cálculo, escriba la fórmula
+=10*A1:C3
+y confirme esta entrada con la combinación de teclas
+⌘
+Ctrl
++ Mayús + Intro
+. El resultado es una matriz de 3 × 3 en el cual cada valor individual en el intervalo de celdas (A1:C3) se multiplicó por un factor de 10.
+Se pueden utilizar otros operadores, aparte de la multiplicación, en el intervalo (matriz) de referencia. LibreOffice Calc permite sumar (+), restar (-), multiplicar (*), dividir (/), elevar a potencias (^), concatenar (&) y comparar (=, <>, <, >, <=, >=). Los operadores se pueden utilizar en cada uno de los valores individuales del intervalo de celdas; devuelven el resultado en forma de matriz, si la fórmula se ha escrito como fórmula matricial.
+Los operadores de comparación de una fórmula matricial tratan las celdas vacías de la misma manera que en una fórmula normal, es decir, como un cero o como una cadena vacía. Por ejemplo, si las celdas A1 y A2 están vacías, las fórmulas matriciales
+{=A1:A2=""}
+y
+{=A1:A2=0}
+devolverán una matriz de una columna y dos líneas que contendrá el valor VERDADERO.
+¿Cuándo se deben utilizar las fórmulas matriciales?
+Utilice fórmulas matriciales si debe repetir los mismos cálculos con valores distintos. Si más adelante decide cambiar el método de cálculo, solo deberá modificar la fórmula matricial. Para añadir una fórmula matricial, seleccione toda la matriz y realice los cambios necesarios en la fórmula matricial.
+Las fórmulas matriciales también permiten ahorrar espacio cuando se deben calcular muchos valores, ya que utilizan una cantidad reducida de memoria. Asimismo, las matrices son una herramienta fundamental para llevar a cabo cálculos complejos, ya que permiten incluir varios intervalos de celdas en los cálculos. LibreOffice dispone de diversas funciones matemáticas para matrices, como la función MMULT para multiplicar dos matrices o SUMA.PRODUCTO para calcular el producto escalar de dos matrices.
+Usar fórmulas matriciales en LibreOffice Calc
+Intersección implícita de fórmulas matriciales
+También puede crear una fórmula «normal» en la que el intervalo de referencia, como los parámetros, indique una fórmula matricial. Esta fórmula también se conoce como «intersección implícita» de la fórmula matricial. El resultado se obtiene de la intersección entre el intervalo de referencia y las filas o columnas en las que se encuentra la fórmula. Si no hay intersección o si el intervalo en la intersección cubre varias filas o columnas, aparece un mensaje de error #¡VALOR! El siguiente ejemplo ilustra este concepto:
+In the table above, place the array formula in D1:
+{=A1:A3 + 100}
+Las celdas D1, D2 y D3 tienen los valores 107, 195 y 105, respectivamente.
+Insert the formula below in E2, do not enter as array formula.
+=A1:A3 + 100
+Cells E1 and E3 are empty, Cell E2 has value 195. This is the implicit intersection of array formulas.
+Insert formula below in E4, as in E2.
+=A1:A3 + 100
+Cell E4 display #VALUE!. Row 4 is out of the range A1:A3 of the formula.
+Crear fórmulas matriciales
+Para crear una fórmula matricial mediante el
+Asistente para funciones
+, deberá seleccionar la casilla de verificación
+Matriz
+para que los resultados se devuelvan en una matriz. En caso contrario, solo se devolverá el valor correspondiente a la celda superior izquierda de la matriz.
+Si introduce la fórmula matricial directamente en la celda, debe utilizar la combinación de teclas
+Mayús
++
+⌘
+Ctrl
++
+Intro
+en lugar de solo la tecla
+Intro
+. Solo entonces la fórmula se convierte en una fórmula matricial.
+Las fórmulas matriciales se muestran en LibreOffice Calc entre llaves. No es posible crear fórmulas matriciales escribiendo las llaves manualmente.
+Las celdas de una matriz de resultados se protegen automáticamente contra cualquier cambio. No obstante, es posible editar, eliminar o copiar la fórmula matricial si se selecciona el intervalo de celdas de la matriz en su totalidad.
+Usar constantes de matrices insertadas en fórmulas
+Calc permite insertar constantes matriciales en las fórmulas. Las matrices insertadas en una fórmula aparecen entre llaves: { }. Cada uno de sus elementos puede ser un número (incluidos los negativos), una constante lógica (VERDADERO, FALSO), o bien, una cadena de caracteres. No se permiten expresiones no constantes. Las matrices pueden introducirse con más de una fila y más de una columnas. Todas las filas y todas las columnas deben tener la misma cantidad de elementos.
+El separador de columnas (que separa elementos en una fila) y el separador de filas dependen de la región y el idioma. Mas en esta ayuda, se utilizarán el punto y coma (;) y la barra vertical (|) para indicar los separadores de columnas y filas, respectivamente. Por ejemplo, en inglés se utiliza la coma (,) como separador de columnas y el punto y coma (;) como separador de filas.
+Es posible ver y modificar el separador de filas y columnas en
+LibreOffice ▸ Preferencias
+Herramientas ▸ Opciones
+▸ Calc ▸ Fórmula ▸ Separadores
+.
+No se pueden anidar las matrices.
+Ejemplo:
+={1;2;3}
+Una matriz de una fila que consiste de tres números: 1, 2 y 3.
+Para introducir esta matriz de constantes, seleccione tres celdas en una fila; después, escriba la formula
+={1;2;3}
+usando las llaves y los puntos y comas; posteriormente, presione
+⌘
+Ctrl
++ Mayús + Intro
+.
+={1;2;3|4;5;6}
+Un matriz con dos filas y tres valores en cada fila.
+={0;1;2|FALSE;TRUE;"dos"}
+Un matriz con datos mixtos.
+=SIN({1;2;3})
+Introducida como fórmula matricial, devuelve el resultado de tres cálculos SEN con los argumentos 1, 2 y 3.
+Editar fórmulas matriciales
+Seleccione el intervalo de celdas o la matriz que contiene la fórmula de la matriz. Para seleccionar toda la matriz, sitúe el cursor de la celda dentro del intervalo de la matriz y, a continuación, pulse
+la orden
+Ctrl
++
+/
+, donde
+/
+es la tecla de división del teclado numérico.
+Oprima
+F2
+o coloque el cursor en el cuadro de entrada. Ambas acciones permiten editar la fórmula.
+Después de haber hecho los cambios, presione
+⌘
+Ctrl
++ Mayús + Intro
+.
+Se pueden formatear las distintas partes de una matriz. Se puede, por ejemplo, cambiar el color del tipo de letra. Seleccione un intervalo de celdas y cambie el atributo que desee.
+Eliminar fórmulas matriciales
+Seleccione el intervalo de celdas o la matriz que contiene la fórmula de la matriz. Para seleccionar toda la matriz, sitúe el cursor de la celda dentro del rango de la matriz y, a continuación, pulse
+la orden
+Ctrl
++
+/
+, donde
+/
+es la tecla de división del teclado numérico.
+Presione
+Supr
+para eliminar el contenido de la matriz, incluida la fórmula matricial, o presione
+Retroceso
+y aparecerá el diálogo
+Eliminar contenido
+. Seleccione
+Fórmula
+o
+Eliminar todo
+y pulse en
+Aceptar
+.
+Copiar fórmulas matriciales
+Seleccione el intervalo de celdas o la matriz que contenga la fórmula matricial.
+Oprima
+F2
+o coloque el cursor en el cuadro de entrada.
+Copie la fórmula en el cuadro de entrada presionando
+⌘
+Ctrl
++
+C
+.
+Seleccione el intervalo de celdas donde desea insertar la fórmula matricial y oprima
+F2
+o sitúe el cursor en el cuadro de entrada.
+Pegue la fórmula presionando
+⌘V
+Ctrl + V
+en el espacio seleccionado y confirme presionando
+⌘⇧↵
+Ctrl + Mayús + Intro
+. El intervalo seleccionado ahora contiene la fórmula matricial.
+Ajustar un intervalo matricial
+Para editar la matriz de salida, siga este procedimiento:
+Seleccione el intervalo de celdas o la matriz que contenga la fórmula matricial.
+Bajo la selección, a la derecha, verá un pequeño icono que permite ampliar o reducir el intervalo utilizando el ratón.
+Cuando el usuario ajusta el intervalo de la matriz, la fórmula no se ajusta automáticamente. Solo se modifica el intervalo en el que aparece el resultado.
+Manteniendo presionada la tecla
+⌘
+Ctrl
+, puede crear una copia de la formula matricial en el intervalo dado.
+Cálculos de matriz condicional
+Un cálculo de matriz condicional es una fórmula matricial que incluye una función SI() o ELEGIR(). El argumento de condición de la fórmula es una referencia de área o un resultado de matriz.
+En el ejemplo siguiente, la prueba >0 de la fórmula {=SI(A1:A3>0;"sí";"no")} se aplica a cada celda del área A1:A3 y el resultado se copia en la celda correspondiente.
+A
+B (fórmula)
+B (resultado)
+1
+1
+{=SI(A1:A3>0;"sí";"no")}
+sí
+2
+0
+{=SI(A1:A3>0;"sí";"no")}
+no
+3
+1
+{=SI(A1:A3>0;"sí";"no")}
+sí
+Las funciones siguientes permiten la gestión de matrices forzada: COEF.DE.CORREL, COVAR, PRONOSTICO, PRUEBA.F, INTERSECCION.EJE, MDETERM, MINVERSA, MMULT, MODA, PEARSON, PROBABILIDAD, COEFICIENTE.R2, PENDIENTE, ERROR.TIPICO.XY, SUMA.PRODUCTO, SUMAX2MENOSY2, SUMAX2MASY2, SUMAXMENOSY2 y PRUEBA.T. Si usa referencias de áreas como argumentos al utilizar una de estas funciones, las funciones actúan como funciones matriciales. En la tabla siguiente se muestra un ejemplo de gestión de matrices forzada:
+A
+B (fórmula)
+B (resultado)
+C (fórmula matricial forzada)
+C (resultado)
+1
+1
+=A1:A2+1
+2
+=SUMA.PRODUCTO(A1:A2+1)
+5
+2
+2
+=A1:A2+1
+3
+=SUMA.PRODUCTO(A1:A2+1)
+5
+3
+=A1:A2+1
+#¡VALOR!
+=SUMA.PRODUCTO(A1:A2+1)
+5
+CRECIMIENTO
+Calcula los puntos de una tendencia exponencial en una matriz.
+Sintaxis
+CRECIMIENTO(DatosY [; [ DatosX ] [; [ NuevosDatosX ] [; TipoDeFunction] ] ])
+DatosY
+representa la matriz de datos Y.
+DatosX
+(opcional) representa la matriz de datos X.
+NuevosDatosX
+(opcional) representa la matriz de datosX, en los cuales se recalculan.
+TipoDeFunción
+(opcional). Si TipoDeFunción = 0, se calcularán las funciones de la forma y = m^x . De lo contrario, se calcularán las funciones y = b*m^x.
+En las funciones de LibreOffice Calc, los parámetros marcados como «opcionales» pueden omitirse siempre y cuando no haya ningún parámetro inmediatamente después. Por ejemplo, en una función de cuatro parámetros cuyos dos últimos están marcados como «opcionales», puede omitirse el parámetro 4 o los parámetros 3 y 4; sin embargo, no se puede omitir solamente el parámetro 3.
+Encontrará más información al principio de la página.
+Ejemplo
+Esta función devuelve una matriz y se manipula de la misma manera que otras funciones matriciales. Seleccione un intervalo donde quiera que aparezca la respuesta y seleccione la función. Seleccione
+DatosY
+. Introduzca cualquier otro parámetro, active
+Matriz
+y pulse en
+Aceptar
+.
+ESTIMACION.LINEAL
+Devuelve una tabla de estadísticas para una línea recta que mejor se ajusta a un conjunto de datos.
+Sintaxis
+LINEST(Datos_Y [; Datos_X [; tipo_lineal [; estadísticas]]])
+Datos_Y
+es un intervalo que comprende una sola fila o columna y que especifica las coordenadas de Y en un conjunto de puntos de datos.
+Datos_X
+corresponde a un rango de una fila o columna que especifica las coordenadas X. Si se omite
+Datos_X
+, los valores predeterminados son
+1, 2, 3, ..., n
+. Si existe mas de un grupo de variables
+Datos_X
+puede ser un rango correspondiente a multiples filas o columnas.
+ESTIMACION.LINEAL encuentra la recta
+y = a + bx
+que mejor se ajusta a los datos mediante una regresión lineal (el método «mínimos cuadrados»). Con más de un grupo de variables la recta asume la forma
+y = a + b1x1 + b2x2 … + bnxn
+.
+Si el parámetro
+tipo_lineal
+es FALSO, la recta encontrada es forzada a pasar por el origen, dado que la constante «a» será cero (y = bx). Si se omite,
+tipo_lineal
+se predetermina a VERDADERO (la recta no necesariamente pasará por el origen).
+Si se omite
+estadísticas
+o es FALSO, solamente se devuelve la fila superior de la tabla de estadísticas. Si este parámetro es VERDADERO, se devuelve la tabla entera.
+ESTIMACION.LINEAL devuelve una tabla (matriz) de estadísticas como la siguiente y debe introducirse como una fórmula matricial (por ejemplo, usando
+⌘
+Ctrl
++ Mayús + Intro
+en vez de solo
+Intro
+)
+En las funciones de LibreOffice Calc, los parámetros marcados como «opcionales» pueden omitirse siempre y cuando no haya ningún parámetro inmediatamente después. Por ejemplo, en una función de cuatro parámetros cuyos dos últimos están marcados como «opcionales», puede omitirse el parámetro 4 o los parámetros 3 y 4; sin embargo, no se puede omitir solamente el parámetro 3.
+Encontrará más información al principio de la página.
+Ejemplo
+Esta función devuelve una matriz y se maneja de la misma manera que otras funciones matriciales. Seleccione un intervalo donde quiera que aparezca la respuesta y seleccione la función. Seleccione
+datos_Y
+. Si lo desea, añada otros parámetros. Active la casilla
+Matriz
+y pulse en
+Aceptar
+.
+Los resultados devueltos por el sistema (si
+Estadística
+= 0), mostraran, al menos, la pendiente de la línea de regresión y su intersección con el eje Y. Si
+Estadística
+no es igual a 0, se mostrarán otros resultados.
+Otros resultados de ESTIMACION.LINEAL:
+Examine los ejemplos siguientes:
+A
+B
+C
+D
+E
+F
+G
+1
+x1
+x2
+y
+Valor de ESTIMACION.LINEAL
+2
+4
+7
+100
+4,17
+-
+3,48
+82,33
+3
+5
+9
+105
+5,46
+10,96
+9,35
+4
+6
+11
+104
+0,87
+5,06
+#ND
+5
+7
+12
+108
+13,21
+4
+#ND
+6
+8
+15
+111
+675,45
+102,26
+#ND
+7
+9
+17
+120
+8
+10
+19
+133
+La columna A contiene diversos valores de X1, la columna B diversos valores de X2 y la columna C, los valores Y. Estos valores ya están en la hoja de cálculo. Ha configurado el intervalo E2:G6 en la hoja de cálculo y ha abierto el
+Asistente para funciones
+. Para que la función ESTIMACION.LINEAL funcione, deberá seleccionar la casilla de verificación
+Matriz
+en el
+Asistente para funciones
+. A continuación seleccione los siguientes valores en la hoja de cálculo (o escríbalos con el teclado):
+Datos_Y
+están en C2:C8
+Datos_X
+están en A2:B8
+tipo_lineal
+y
+estadística
+están fijadas a 1.
+Cuando pulse en
+Aceptar
+, LibreOffice Calc rellenará el ejemplo anterior con los valores de ESTIMACION.LINEAL, como se muestra en el ejemplo.
+La fórmula en la barra de
+Fórmulas
+corresponde a cada celda de la matriz de ESTIMACIÓN.LINEAL
+{=ESTIMACIÓN.LINEAL(C2:C8;A2:B8;1;1)}
+Los valores calculados por ESTIMACION.LINEAL se representan así:
+E2 Y F2: La Pendiente m de la línea de regresión y=b+m*x para los valores x1 y x2. Los valores se dan en orden inverso; es decir, la pendiente de x2 en E2 y la pendiente de x1 en F2.
+G2: Intersección de b con el eje y.
+E3 y F3: el error estándar del valor de la pendiente.
+G3: El error estándar de la intersección
+E4: COEFICIENTE.R2
+F4: El error estándar de la regresión calculada para el valor Y.
+E5: El valor F del análisis de varianza.
+F5: los grados de libertad del análisis de varianza.
+E6: La suma de la desviación cuadrada de los valores Y estimados de su media lineal.
+F6: La suma de la desviación cuadrada de los valores Y estimados de los valores Y especificados.
+Encontrará más información al principio de la página.
+ESTIMACION.LOGARITMICA
+Esta función calcula el ajuste de los datos introducidos como curva de regresión exponencial (y=b*m^x).
+Sintaxis
+ESTIMACION.LOGARITMICA(DatosY [; DatosX [; TipodeFunction [; Estacística]]])
+DatosY
+representa la matriz de datos Y.
+DatosX
+(opcional) representa la matriz de datos X.
+TipodeFunción
+(opcional). Si Tipo_de_Función = 0, se calcularán las funciones de la forma y = m^x . De lo contrario, se calcularán las funciones y = b*m^x.
+Estadísticas
+(opcional). Si Estadísticas=0, solo se calcula el coeficiente de regresión.
+En las funciones de LibreOffice Calc, los parámetros marcados como «opcionales» pueden omitirse siempre y cuando no haya ningún parámetro inmediatamente después. Por ejemplo, en una función de cuatro parámetros cuyos dos últimos están marcados como «opcionales», puede omitirse el parámetro 4 o los parámetros 3 y 4; sin embargo, no se puede omitir solamente el parámetro 3.
+Encontrará más información al principio de la página.
+Ejemplo
+Consulte ESTIMACION.LINEAL. Con todo, no se devolverá ninguna suma cuadrada.
+FRECUENCIA
+Indica la distribución de frecuencias en una matriz de una columna.
+La función cuenta la cantidad de valores de la matriz
+Datos
+que se encuentran entre los valores dados por la matriz
+Clases
+.
+Sintaxis
+FRECUENCIA(Datos; Clases)
+Datos
+representa la referencia de los valores que se debe contar.
+Clases
+representa la matriz que contiene los valores de límite.
+Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de
+resalte de valores
+.
+Al principio de esta página se incluye información general sobre las funciones matriciales.
+Ejemplo
+En la tabla siguiente, la columna A muestra valores de medida sin ordenar. La columna B contiene el límite superior que introdujo para las clases cuyos datos quiere dividir en la columna A. Según el límite que haya especificado en B1, la función FRECUENCIA devuelve el número de valores medidos menores que o iguales a 5. Como el límite de B2 es 10, la función FRECUENCIA devuelve el segundo resultado como el número de valores medidos mayores que 5 y menores que o iguales a 10. El texto que introdujo en B6, «>25», se utiliza solo como una referencia.
+A
+B
+C
+1
+12
+5
+1
+2
+8
+10
+3
+3
+24
+15
+2
+4
+11
+20
+3
+5
+5
+25
+1
+6
+20
+>25
+1
+7
+16
+8
+9
+9
+7
+10
+16
+11
+33
+{=FRECUENCIA(A1:A11;B1:B6)}
+Seleccione un intervalo de una sola columna donde introducir la frecuencia según los límites de la clase. Debe seleccionar un campo más que el campo superior de la clase. En este ejemplo, seleccione el intervalo C1:C6. Active la función FRECUENCIA mediante el
+Asistente para funciones
+. Seleccione el intervalo
+Datos
+en (A1:A11) y, a continuación, el intervalo
+Clases
+en el que haya introducido los límites de la clase (B1:B6). Active la casilla
+Matriz
+y pulse en
+Aceptar
+. Aparecerá el conteo de la frecuencia en el intervalo C1:C6.
+Encontrará más información al principio de la página.
+MDETERM
+Devuelve el determinante de una matriz.
+Esta función devuelve un valor en la celda actual; no es necesario definir un área de resultados.
+Sintaxis
+MDETERM(Matriz)
+Matriz
+representa una matriz cuadrada cuyo determinante se debe calcular.
+Al principio de esta página se incluye información general sobre el uso de las funciones matriciales.
+Encontrará más información al principio de la página.
+MINVERSA
+Devuelve la matriz inversa.
+Sintaxis
+MINVERSA(Matriz)
+Matriz
+representa la matriz cuadrada que se debe invertir.
+Encontrará más información al principio de la página.
+Ejemplo
+Seleccione un área cuadrada y a continuación MINVERSA. Seleccione la matriz de salida y el campo
+Matriz
+; a continuación, pulse en
+Aceptar
+.
+MMULT
+Calcula la matriz producto de dos matrices.
+El número de columnas de la matriz 1 debe coincidir con el número de filas de la matriz 2. La matriz cuadrada tiene el mismo número de filas y de columnas.
+Sintaxis
+MMULT(Matriz 1; Matriz 2)
+Matriz 1
+representa la primera matriz utilizada en el producto matricial.
+Matriz 2
+representa la segunda matriz con el mismo número de filas.
+Encontrará más información al principio de la página.
+Ejemplo
+Seleccione un intervalo cuadrado. Elija la función MMULT. Seleccione
+Matriz 1
+y, a continuación, seleccione
+Matriz 2
+. Utilizando el
+Asistente para funciones
+, marque el cuadro
+Matriz
+. Pulse en
+Aceptar
+. La matriz de salida aparecerá en el primer intervalo seleccionado.
+MUNITARIA
+Devuelve una matriz cuadrada unitaria de un tamaño determinado.
+La matriz unitaria es una matriz cuadrada en la que los elementos de la diagonal son iguales a 1 y el resto de los elementos iguales a 0.
+Sintaxis
+MUNITARIA(Dimensión)
+Dimensión
+hace referencia al tamaño de la matriz unitaria.
+Al principio de esta página se incluye información general sobre las funciones matriciales.
+Ejemplo
+Seleccione un área cuadrada de la hoja de cálculo, por ejemplo, de A1 a E5.
+Sin deseleccionar el intervalo, seleccione la función MUNITARIA. Active la casilla
+Matriz
+. Digite las dimensiones que deba tener la unidad matricial, en este caso
+5
+, y pulse en
+Aceptar
+.
+También puede introducir la formula
+=MUNITARIA(5)
+en la última celda del intervalo seleccionado (E5) y presionar
+⇧⌘↵
+Mayús + Ctrl + Intro
+.
+Se insertará una matriz unitaria en el área A1:E5.
+Encontrará más información al principio de la página.
+SUMA.PRODUCTO
+Multiplica los elementos correspondientes en las matrices especificadas, y calcula la suma de dichos productos.
+Sintaxis
+SUMA.PRODUCTO(Matriz 1[; Matriz 2;][...;[Matriz 255]])
+Matriz 1[; Matriz 2;][...;[Matriz 255]]
+representan matrices cuyos elementos correspondientes se van a multiplicar.
+Al menos una matriz debe ser parte de la lista de argumentos. Si solo se proporciona una matriz, se suman todos los elementos de la matriz. Si se proporciona más de una matriz, todas deben tener el mismo tamaño.
+Ejemplo
+A
+B
+C
+D
+1
+2
+3
+4
+5
+2
+6
+7
+8
+9
+3
+10
+11
+12
+13
+=SUMA.PRODUCTO(A1:B3;C1:D3)
+devuelve 397.
+Cálculo: A1*C1 + B1*D1 + A2*C2 + B2*D2 + A3*C3 + B3*D3
+Puede utilizar la función SUMPRODUCT para calcular el producto escalar de dos vectores.
+SUMA.PRODUCTO devuelve un único número; no es necesario introducir la función como una función matricial.
+Encontrará más información al principio de la página.
+SUMAX2MASY2
+Calcula la suma de los cuadrados de los valores correspondientes en dos matrices.
+Sintaxis
+SUMAX2MASY2(MatrizX; MatrizY)
+MatrizX
+representa la primera matriz cuyos elementos deben sumarse y elevarse al cuadrado.
+MatrizY
+representa la segunda matriz, cuyos elementos deben sumarse y elevarse al cuadrado.
+Encontrará más información al principio de la página.
+SUMAX2MENOSY2
+Calcula la suma de la diferencia de los cuadrados de los valores correspondientes en dos matrices.
+Sintaxis
+SUMX2MENOSY2(MatrizX; MatrizY)
+MatrizX
+representa la primera matriz cuyos elementos deben sumarse y elevarse al cuadrado.
+MatrizY
+representa la segunda matriz cuyos elementos deben restarse y elevarse al cuadrado.
+Encontrará más información al principio de la página.
+SUMAXMENOSY2
+Suma los cuadrados de la varianza entre los valores correspondientes en dos matrices.
+Sintaxis
+SUMAXMENOSY2(MatrizX; MatrizY)
+MatrizX
+representa la primera matriz cuyos elementos deben restarse y elevarse al cuadrado.
+MatrizY
+representa la segunda matriz cuyos elementos deben restarse y elevarse al cuadrado.
+Encontrará más información al principio de la página.
+TENDENCIA
+Devuelve valores siguiendo una tendencia lineal.
+Sintaxis
+TENDENCIA(DatosY [; DatosX [; NuevosDatosX [; TipoLinear]]])
+DatosY
+representa la matriz de datos Y.
+DatosX
+(opcional) representa la matriz de datos X.
+NuevosDatosX
+(opcional) representa las matriz de los datos X, los cuales son usados para recalcular los valores.
+TipoLinear
+(Optional). Si TipoLinear= 0, las lineas serán calculadas a través del punto cero. De lo contrario, se calcularán también las lineas alternas. El valor predeterminado es TipoLinear <> 0.
+En las funciones de LibreOffice Calc, los parámetros marcados como «opcionales» pueden omitirse siempre y cuando no haya ningún parámetro inmediatamente después. Por ejemplo, en una función de cuatro parámetros cuyos dos últimos están marcados como «opcionales», puede omitirse el parámetro 4 o los parámetros 3 y 4; sin embargo, no se puede omitir solamente el parámetro 3.
+Encontrará más información al principio de la página.
+Ejemplo
+Seleccione un intervalo de la hoja de cálculo donde mostrar los datos de tendencia. Seleccione la función. Escriba los datos de salida o selecciónelos con el ratón. Seleccione el campo
+Matriz
+y pulse en
+Aceptar
+. Se muestran los datos de tendencia calculados a partir de los datos de salida.
+TRANSPONER
+Transpone las filas y las columnas de una matriz.
+Sintaxis
+TRANSPONER(Matriz)
+Matriz
+representa la matriz de la hoja de cálculo que se debe transponer.
+Al principio de esta página se incluye información general sobre el uso de las funciones matriciales.
+Ejemplo
+Seleccione el área de la hoja de calculo en la que debe aparecer la matriz transpuesta. Si la matriz original tiene n filas y m columnas, el área seleccionada deberá tener como mínimo m filas y n columnas. Escriba la fórmula directamente, seleccione la matriz original y pulse
+Shift+Command+Intro
+Shift+Control+Intro
+. O, si utiliza el
+Asistente para funciones
+, marque la casilla de verificación
+Matriz
+. La matriz transpuesta aparece en el área de destino seleccionada y queda automáticamente protegida contra cambios.
+A
+B
+C
+D
+1
+2
+3
+4
+5
+2
+6
+7
+8
+9
+La tabla anterior posee dos filas y cuatro columnas. Para transponerla, debe seleccionar cuatro filas y dos columnas. Suponiendo que quiere transponer la tabla anterior en el intervalo A7:B10 (cuatro filas y dos columnas), debe seleccionar todo el intervalo y, a continuación, escribir lo siguiente:
+TRANSPONER(A1:D2)
+Entonces
+asegúrese de introducirla como fórmula matricial presionado
+Shift + Command + Intro
+Shift + Ctrl + Intro
+. El resultado será el siguiente:
+A
+B
+7
+2
+6
+8
+3
+7
+9
+4
+8
+10
+5
+9
+Temas relacionados
+Funciones por categoría
+¡Necesitamos su ayuda!
+Guías de LibreOffice
+Impressum (Legal Info)
+|
+Privacy Policy
+|
+Statutes (non-binding English translation)
+-
+Satzung (binding German version)
+| Copyright information: Unless otherwise specified, all text and images on this website are licensed under the
+Mozilla Public License v2.0
+. “LibreOffice” and “The Document Foundation” are registered trademarks of their corresponding registered owners or are in actual use as trademarks in one or more countries. Their respective logos and icons are also subject to international copyright laws. Use thereof is explained in our
+trademark policy
+. LibreOffice was based on OpenOffice.org.
+Help content debug info:
+This page is:
+/text/scalc/01/04060107.xhp
+Title is: Funciones matriciales

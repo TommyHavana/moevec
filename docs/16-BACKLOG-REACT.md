@@ -1,8 +1,8 @@
 # Backlog de MEE
 
-Último estado: **646/840 terminadas, 1938 imágenes originales públicas, 0 en curso o borradores WordPress y 194 pendientes**. Adaptabilidad Técnica3/15; 41 tandas completas.
+Último estado: **649/840 terminadas, 1947 imágenes originales públicas, 0 en curso o borradores WordPress y 191 pendientes**. Adaptabilidad Técnica6/15; 41 tandas completas.
 
-Continuar **649–651 / E4.12.04–E4.12.06**, Trabajo → Adaptabilidad Técnica. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **652–654**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Continuar **653–655 / E4.12.08–E4.12.10**, Trabajo → Adaptabilidad Técnica. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **656–658**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
 
 Historial anterior: producción comprobada tras el bloque 4–6: 6/840 terminadas. En elaboración local: 7–9 con nueve imágenes propias; todavía no cuentan como publicadas. Consultar siempre WordPress y el registro 24 para el estado más reciente.
 

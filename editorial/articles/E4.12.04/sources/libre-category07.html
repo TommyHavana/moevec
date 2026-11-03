@@ -1,0 +1,1322 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+<base href="../../../../">
+<title>Funciones matriciales</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline' 'unsafe-eval' piwik.documentfoundation.org">
+<link rel="shortcut icon" href="media/navigation/favicon.ico">
+<link type="text/css" href="normalize.css" rel="Stylesheet">
+<link type="text/css" href="prism.css" rel="Stylesheet">
+<link type="text/css" href="default.css" rel="Stylesheet">
+<script type="text/javascript" src="polyfills.js"></script><script type="text/javascript" src="languages.js"></script><script type="text/javascript" src="es/langnames.js"></script><script type="text/javascript" src="flexsearch.compact.debug.js"></script><script type="text/javascript" src="prism.js"></script><script type="text/javascript" src="help2.js" defer></script><script type="text/javascript" src="tdf_matomo.js" defer></script><script type="text/javascript" src="a11y-toggle.js" defer></script><script type="text/javascript" src="paginathing.js" defer></script><script type="text/javascript" src="es/bookmarks.js" defer></script><script type="text/javascript" src="es/contents.js" defer></script><script type="text/javascript" src="help.js" defer></script><meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<header id="TopLeftHeader"><a class="symbol" href="es/text/shared/05/new_help.html"><div></div></a><a class="logo" href="es/text/shared/05/new_help.html"><p dir="auto">Ayuda de LibreOffice 26.8</p></a><div class="dropdowns">
+<div class="modules">
+<button type="button" data-a11y-toggle="modules-nav" id="modules" aria-haspopup="true" aria-expanded="false" aria-controls="modules-nav">Módulo</button><nav id="modules-nav" hidden=""></nav>
+</div>
+<div class="lang">
+<button type="button" data-a11y-toggle="langs-nav" id="langs" aria-haspopup="true" aria-expanded="false" aria-controls="modules-nav">Idioma</button><nav id="langs-nav" hidden=""></nav>
+</div>
+</div></header><aside class="leftside"><input id="accordion-1" name="accordion-menu" type="checkbox"><label for="accordion-1" dir="auto">Contenido</label><div id="Contents" class="contents-treeview"></div></aside><div id="SearchFrame"><div id="Bookmarks">
+<input id="search-bar" type="search" class="search" placeholder="Buscar en los marcadores del módulo elegido" dir="auto"><div class="nav-container" tabindex="0"><nav class="index" dir="auto"></nav></div>
+</div></div>
+<div id="DisplayArea" itemprop="softwareHelp" itemscope="true" itemtype="http://schema.org/SoftwareApplication">
+<noscript><div id="WarnJS"><h1 dir="auto">Active JavaScript en el navegador para mostrar las páginas de ayuda de LibreOffice.</h1></div></noscript>
+<div class="xapian-omega-search"><form name="P" method="get" action="/26.8/es/search" target="_top">
+<input id="omega-autofocus" type="search" name="P" placeholder="Buscar en todas las páginas de la Ayuda" dir="auto"><input type="submit" class="xapian-omega-search-button" value="🔍">
+</form></div>
+<meta itemprop="applicationCategory" content="BusinessApplication">
+<meta itemprop="applicationSuite" content="LibreOffice">
+<meta itemprop="name" content="LibreOffice">
+<meta itemprop="operatingsystem" content="Windows, Linux, MacOS">
+<meta itemprop="author.name" content="The LibreOffice Documentation Team">
+<meta itemprop="publisher.name" content="The Document Foundation">
+<meta itemprop="softwareVersion" content="26.8">
+<meta itemprop="inLanguage" content="es">
+<meta itemprop="datePublished" content="2020">
+<meta itemprop="headline" content="Funciones matriciales">
+<meta itemprop="license" content="https://www.libreoffice.org/download/license/">
+<meta itemprop="image" content="media/navigation/libo-symbol-white.svg">
+<a id="bm_id3147273"></a><meta itemprop="keywords" content="matrices, funciones">
+<meta itemprop="keywords" content="Asistente para funciones, matrices">
+<meta itemprop="keywords" content="fórmulas matriciales">
+<meta itemprop="keywords" content="constantes de matrices en línea">
+<meta itemprop="keywords" content="fórmulas, matrices">
+<meta itemprop="keywords" content="funciones, funciones matriciales">
+<meta itemprop="keywords" content="edición, fórmulas matriciales">
+<meta itemprop="keywords" content="copiar, fórmulas matriciales">
+<meta itemprop="keywords" content="borrar, fórmulas matriciales">
+<meta itemprop="keywords" content="ajustar un intervalo matricial">
+<meta itemprop="keywords" content="cálculo, cálculos condicionales">
+<meta itemprop="keywords" content="matrices, cálculos">
+<meta itemprop="keywords" content="cálculos de matriz condicional">
+<meta itemprop="keywords" content="manejo implícito de matrices">
+<meta itemprop="keywords" content="manejo forzado de matrices">
+
+<h1 id="hd_id3147273" dir="auto">
+<a id="arrayfunctit"></a>Funciones matriciales</h1>
+  <p id="par_id3154744" class="paragraph" dir="auto"><a id="matrixtext"></a>Esta categoría contiene las funciones matriciales.</p>
+<h2 id="hd_id3146084" dir="auto">¿Qué es una matriz?</h2>
+  <p id="par_id3154298" class="paragraph" dir="auto"><a id="wasmatrix"></a>Una matriz es un intervalo de celdas enlazado de una hoja de cálculo, cuyas celdas contienen valores. Un intervalo cuadrado de 3 filas y 3 columnas es una matriz de 3 × 3:</p>
+<table border="1" class="" cellpadding="0" cellspacing="0">
+  <tr>
+    <td rowspan="" colspan="" dir="auto">
+    </td>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+      <p id="par_id3154692" class="tableheadintable" dir="auto">A</p>
+    </th>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_id3150117" class="tableheadintable" dir="auto">B</p>
+    </th>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_id3155325" class="tableheadintable" dir="auto">C</p>
+    </th>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+          <p id="par_id31668198570666" class="tableheadintable" dir="auto">D</p>
+        </th>
+       <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+           <p id="par_id441668198589386" class="tableheadintable" dir="auto">E</p>
+       </th>
+
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_id3153104" class="tableheadintable" dir="auto">1</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3146996" class="paragraphintable" dir="auto"><span class="literal">7</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3150529" class="paragraphintable" dir="auto"><span class="literal">31</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3148831" class="paragraphintable" dir="auto"><span class="literal">33</span></p>
+    </td>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_id3148943" class="tableheadintable" dir="auto">2</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3149771" class="paragraphintable" dir="auto"><span class="literal">95</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3158407" class="paragraphintable" dir="auto"><span class="literal">17</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3148806" class="paragraphintable" dir="auto"><span class="literal">2</span></p>
+    </td>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_id3154904" class="tableheadintable" dir="auto">3</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3150779" class="paragraphintable" dir="auto"><span class="literal">5</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3148449" class="paragraphintable" dir="auto"><span class="literal">10</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3147238" class="paragraphintable" dir="auto"><span class="literal">50</span></p>
+    </td>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+      <p id="par_id321668199240111" class="tableheadintable" dir="auto">4</p>
+    </th>
+  </tr>
+</table>
+<br>
+  <p id="par_id3153583" class="paragraph" dir="auto">La mínima matriz posible son dos celdas adyacentes, 1 x 2 o 2 x 1.</p>
+<h2 id="hd_id3148474" dir="auto">¿Qué es una fórmula matricial?</h2>
+  <p id="par_id3155355" class="paragraph" dir="auto">Se denomina fórmula matricial la que permite evaluar los valores individuales de un intervalo de celdas. La diferencia entre una fórmula matricial y otro tipo de fórmula es que aquella no emplea un único valor, sino varios valores simultáneamente.</p>
+  <p id="par_id3151052" class="paragraph" dir="auto">Una fórmula matricial no solo puede procesar varios valores, sino también devolver varios resultados. El resultado de una fórmula matricial también es una matriz.</p>
+  <p id="par_id3158432" class="paragraph" dir="auto">Para multiplicar por 10 los valores de las celdas individuales de la matriz de arriba, no necesita aplicar una fórmula por cada celda o valor individual. En su lugar, utilice una fórmula matricial. Seleccione un intervalo de 3 × 3 celdas en otra parte de la hoja de cálculo, escriba la fórmula <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=10*A1:C3</span> y confirme esta entrada con la combinación de teclas <span id="swlnsystextscalc0104060107xml_1" class="switchinline"><span hidden="true" id="MACtextscalc0104060107xml_1" class="MAC"><span class="emph">⌘</span></span><span hidden="true" id="defaulttextscalc0104060107xml_1"><span class="emph">Ctrl</span></span></span><span class="emph"> + Mayús + Intro</span>. El resultado es una matriz de 3 × 3 en el cual cada valor individual en el intervalo de celdas (A1:C3) se multiplicó por un factor de 10.</p>
+  <p id="par_id3149156" class="paragraph" dir="auto">Se pueden utilizar otros operadores, aparte de la multiplicación, en el intervalo (matriz) de referencia. LibreOffice Calc permite sumar (+), restar (-), multiplicar (*), dividir (/), elevar a potencias (^), concatenar (&amp;) y comparar (=, &lt;&gt;, &lt;, &gt;, &lt;=, &gt;=). Los operadores se pueden utilizar en cada uno de los valores individuales del intervalo de celdas; devuelven el resultado en forma de matriz, si la fórmula se ha escrito como fórmula matricial.</p>
+  <p id="par_id3166456" class="paragraph" dir="auto">Los operadores de comparación de una fórmula matricial tratan las celdas vacías de la misma manera que en una fórmula normal, es decir, como un cero o como una cadena vacía. Por ejemplo, si las celdas A1 y A2 están vacías, las fórmulas matriciales <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">{=A1:A2=""}</span> y <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">{=A1:A2=0}</span> devolverán una matriz de una columna y dos líneas que contendrá el valor VERDADERO.</p>
+<h3 id="hd_id3150713" dir="auto">¿Cuándo se deben utilizar las fórmulas matriciales?</h3>
+  <p id="par_id3149787" class="paragraph" dir="auto">Utilice fórmulas matriciales si debe repetir los mismos cálculos con valores distintos. Si más adelante decide cambiar el método de cálculo, solo deberá modificar la fórmula matricial. Para añadir una fórmula matricial, seleccione toda la matriz y realice los cambios necesarios en la fórmula matricial.</p>
+  <p id="par_id3149798" class="paragraph" dir="auto">Las fórmulas matriciales también permiten ahorrar espacio cuando se deben calcular muchos valores, ya que utilizan una cantidad reducida de memoria. Asimismo, las matrices son una herramienta fundamental para llevar a cabo cálculos complejos, ya que permiten incluir varios intervalos de celdas en los cálculos. LibreOffice dispone de diversas funciones matemáticas para matrices, como la función MMULT para multiplicar dos matrices o SUMA.PRODUCTO para calcular el producto escalar de dos matrices.</p>
+<h2 id="hd_id3155588" dir="auto">Usar fórmulas matriciales en LibreOffice Calc</h2>
+<a id="implicit_intersection"></a>
+  <h3 id="hd_id651668200191409" dir="auto">
+<a id="implicit_intersection_hd"></a>Intersección implícita de fórmulas matriciales</h3>
+<a id="implicit_intersection_content"></a>
+  <p id="par_id3152876" class="paragraph" dir="auto">También puede crear una fórmula «normal» en la que el intervalo de referencia, como los parámetros, indique una fórmula matricial. Esta fórmula también se conoce como «intersección implícita» de la fórmula matricial. El resultado se obtiene de la intersección entre el intervalo de referencia y las filas o columnas en las que se encuentra la fórmula. Si no hay intersección o si el intervalo en la intersección cubre varias filas o columnas, aparece un mensaje de error #¡VALOR! El siguiente ejemplo ilustra este concepto:</p>
+
+  
+  <p id="par_id631668200233375" class="paragraph" dir="auto">In the table above, place the array formula in D1:</p>
+  <p id="par_id691668200248323" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">{=A1:A3 + 100}</span></p>
+  <p id="par_id641668200266239" class="paragraph" dir="auto">Las celdas D1, D2 y D3 tienen los valores 107, 195 y 105, respectivamente.</p>
+  <p id="par_id231668200272420" class="paragraph" dir="auto">Insert the formula below in E2, do not enter as array formula.</p>
+  <p id="par_id361668200276892" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=A1:A3 + 100</span></p>
+  <p id="par_id681668200283910" class="paragraph" dir="auto">Cells E1 and E3 are empty, Cell E2 has value 195. This is the implicit intersection of array formulas.</p>
+  <p id="par_id161668200288651" class="paragraph" dir="auto">Insert formula below in E4, as in E2.</p>
+  <p id="par_id471668200292845" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=A1:A3 + 100</span></p>
+  <p id="par_id711668200299613" class="paragraph" dir="auto">Cell E4 display #VALUE!. Row 4 is out of the range A1:A3 of the formula.</p>
+
+<h3 id="hd_id3151271" dir="auto">Crear fórmulas matriciales</h3>
+<a id="creating_array_formulas"></a>
+  <p id="par_id3149102" class="paragraph" dir="auto">Para crear una fórmula matricial mediante el <span class="emph">Asistente para funciones</span>, deberá seleccionar la casilla de verificación <span class="emph">Matriz</span> para que los resultados se devuelvan en una matriz. En caso contrario, solo se devolverá el valor correspondiente a la celda superior izquierda de la matriz.</p>
+  <p id="par_id3153392" class="paragraph" dir="auto">Si introduce la fórmula matricial directamente en la celda, debe utilizar la combinación de teclas <span class="emph">Mayús</span> + <span id="swlnsystextscalc0104060107xml_2" class="switchinline"><span hidden="true" id="MACtextscalc0104060107xml_2" class="MAC"><span class="emph">⌘</span></span><span hidden="true" id="defaulttextscalc0104060107xml_2"><span class="emph">Ctrl</span></span></span> + <span class="emph">Intro</span> en lugar de solo la tecla <span class="emph">Intro</span>. Solo entonces la fórmula se convierte en una fórmula matricial.</p>
+  <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Las fórmulas matriciales se muestran en LibreOffice Calc entre llaves. No es posible crear fórmulas matriciales escribiendo las llaves manualmente.</p></div>
+</div>
+<br>
+
+  <div class="warning">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/warning.svg" alt="Icono de aviso" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Las celdas de una matriz de resultados se protegen automáticamente contra cualquier cambio. No obstante, es posible editar, eliminar o copiar la fórmula matricial si se selecciona el intervalo de celdas de la matriz en su totalidad.</p></div>
+</div>
+<br>
+<h3 id="hd_id8834803" dir="auto">Usar constantes de matrices insertadas en fórmulas</h3>
+  <p id="par_id985747" class="paragraph" dir="auto">Calc permite insertar constantes matriciales en las fórmulas. Las matrices insertadas en una fórmula aparecen entre llaves: { }. Cada uno de sus elementos puede ser un número (incluidos los negativos), una constante lógica (VERDADERO, FALSO), o bien, una cadena de caracteres. No se permiten expresiones no constantes. Las matrices pueden introducirse con más de una fila y más de una columnas. Todas las filas y todas las columnas deben tener la misma cantidad de elementos.</p>
+  <p id="par_id936613" class="paragraph" dir="auto">El separador de columnas (que separa elementos en una fila) y el separador de filas dependen de la región y el idioma. Mas en esta ayuda, se utilizarán el punto y coma (;) y la barra vertical (|) para indicar los separadores de columnas y filas, respectivamente. Por ejemplo, en inglés se utiliza la coma (,) como separador de columnas y el punto y coma (;) como separador de filas.</p>
+  <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Es posible ver y modificar el separador de filas y columnas en <span id="swlnsystextscalc0104060107xml_3" class="switchinline"><span hidden="true" id="MACtextscalc0104060107xml_3" class="MAC"><span class="emph">LibreOffice ▸ Preferencias</span></span><span hidden="true" id="defaulttextscalc0104060107xml_3"><span class="emph">Herramientas ▸ Opciones</span></span></span><span class="emph"> ▸ Calc ▸ Fórmula ▸ Separadores</span>.</p></div>
+</div>
+<br>
+  <p id="par_id1877498" class="paragraph" dir="auto">No se pueden anidar las matrices.</p>
+  <p id="par_id4262520" class="paragraph" dir="auto"><span class="emph">Ejemplo:</span></p>
+  <p id="par_id9387493" class="code" dir="auto">={1;2;3}</p>
+  <p id="par_id8207037" class="paragraph" dir="auto">Una matriz de una fila que consiste de tres números: 1, 2 y 3.</p>
+  <p id="par_id6757103" class="paragraph" dir="auto">Para introducir esta matriz de constantes, seleccione tres celdas en una fila; después, escriba la formula <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">={1;2;3}</span> usando las llaves y los puntos y comas; posteriormente, presione <span id="swlnsystextscalc0104060107xml_4" class="switchinline"><span hidden="true" id="MACtextscalc0104060107xml_4" class="MAC"><span class="emph">⌘</span></span><span hidden="true" id="defaulttextscalc0104060107xml_4"><span class="emph">Ctrl</span></span></span><span class="emph"> + Mayús + Intro</span>.</p>
+  <p id="par_id8868068" class="code" dir="auto">={1;2;3|4;5;6}</p>
+  <p id="par_id6626483" class="paragraph" dir="auto">Un matriz con dos filas y tres valores en cada fila.</p>
+  <p id="par_id5262916" class="code" dir="auto">={0;1;2|FALSE;TRUE;"dos"}</p>
+  <p id="par_id1623889" class="paragraph" dir="auto">Un matriz con datos mixtos.</p>
+  <p id="par_id7781914" class="code" dir="auto">=SIN({1;2;3})</p>
+  <p id="par_id300912" class="paragraph" dir="auto">Introducida como fórmula matricial, devuelve el resultado de tres cálculos SEN con los argumentos 1, 2 y 3.</p>
+<h3 id="hd_id3148660" dir="auto">Editar fórmulas matriciales</h3>
+<ol itemprop="HowTo" itemscope="true" itemtype="http://schema.org/HowToSection" dir="auto">
+  <li itemprop="itemListElement" itemscope="true" itemtype="http://schema.org/HowToStep" dir="auto">
+    <p id="par_id3149241" class="listitem" dir="auto">Seleccione el intervalo de celdas o la matriz que contiene la fórmula de la matriz. Para seleccionar toda la matriz, sitúe el cursor de la celda dentro del intervalo de la matriz y, a continuación, pulse <span id="swlnsystextscalc0104060107xml_5" class="switchinline"><span hidden="true" id="MACtextscalc0104060107xml_5" class="MAC"><span class="keycode">la orden</span></span><span hidden="true" id="defaulttextscalc0104060107xml_5"><span class="keycode">Ctrl</span></span></span> + <span class="keycode">/</span>, donde <span class="keycode">/</span> es la tecla de división del teclado numérico.</p>
+  </li>
+  <li itemprop="itemListElement" itemscope="true" itemtype="http://schema.org/HowToStep" dir="auto">
+    <p id="par_id3143274" class="listitem" dir="auto">Oprima <span class="emph">F2</span> o coloque el cursor en el cuadro de entrada. Ambas acciones permiten editar la fórmula.</p>
+  </li>
+  <li itemprop="itemListElement" itemscope="true" itemtype="http://schema.org/HowToStep" dir="auto">
+    <p id="par_id3154798" class="listitem" dir="auto">Después de haber hecho los cambios, presione <span id="swlnsystextscalc0104060107xml_6" class="switchinline"><span hidden="true" id="MACtextscalc0104060107xml_6" class="MAC"><span class="emph">⌘</span></span><span hidden="true" id="defaulttextscalc0104060107xml_6"><span class="emph">Ctrl</span></span></span><span class="emph"> + Mayús + Intro</span>.</p>
+  </li>
+</ol>
+  <div class="tip">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/tip.svg" alt="Icono de consejo" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Se pueden formatear las distintas partes de una matriz. Se puede, por ejemplo, cambiar el color del tipo de letra. Seleccione un intervalo de celdas y cambie el atributo que desee.</p></div>
+</div>
+<br>
+
+<h3 id="hd_id541633516074226" dir="auto">Eliminar fórmulas matriciales</h3>
+<ol itemprop="HowTo" itemscope="true" itemtype="http://schema.org/HowToSection" dir="auto">
+    <li itemprop="itemListElement" itemscope="true" itemtype="http://schema.org/HowToStep" dir="auto">
+        <p id="par_id681633516103267" class="listitem" dir="auto">Seleccione el intervalo de celdas o la matriz que contiene la fórmula de la matriz. Para seleccionar toda la matriz, sitúe el cursor de la celda dentro del rango de la matriz y, a continuación, pulse <span id="swlnsystextscalc0104060107xml_7" class="switchinline"><span hidden="true" id="MACtextscalc0104060107xml_7" class="MAC"><span class="keycode">la orden</span></span><span hidden="true" id="defaulttextscalc0104060107xml_7"><span class="keycode">Ctrl</span></span></span> + <span class="keycode">/</span>, donde <span class="keycode">/</span> es la tecla de división del teclado numérico.</p>
+    </li>
+    <li itemprop="itemListElement" itemscope="true" itemtype="http://schema.org/HowToStep" dir="auto">
+        <p id="par_id61633516164519" class="listitem" dir="auto">Presione <span class="keycode">Supr</span> para eliminar el contenido de la matriz, incluida la fórmula matricial, o presione <span class="keycode">Retroceso</span> y aparecerá el diálogo <a target="_top" href="es/text/scalc/01/02150000.html">Eliminar contenido</a>. Seleccione <span class="emph">Fórmula</span> o <span class="emph">Eliminar todo</span> y pulse en <span class="emph">Aceptar</span>.</p>
+    </li>
+</ol>
+
+<h3 id="hd_id3145608" dir="auto">Copiar fórmulas matriciales</h3>
+<ol itemprop="HowTo" itemscope="true" itemtype="http://schema.org/HowToSection" dir="auto">
+  <li itemprop="itemListElement" itemscope="true" itemtype="http://schema.org/HowToStep" dir="auto">
+    <p id="par_id3149585" class="listitem" dir="auto">Seleccione el intervalo de celdas o la matriz que contenga la fórmula matricial.</p>
+  </li>
+  <li itemprop="itemListElement" itemscope="true" itemtype="http://schema.org/HowToStep" dir="auto">
+    <p id="par_id3154619" class="listitem" dir="auto">Oprima <span class="emph">F2</span> o coloque el cursor en el cuadro de entrada.</p>
+  </li>
+  <li itemprop="itemListElement" itemscope="true" itemtype="http://schema.org/HowToStep" dir="auto">
+    <p id="par_id3150994" class="listitem" dir="auto">Copie la fórmula en el cuadro de entrada presionando <span id="swlnsystextscalc0104060107xml_8" class="switchinline"><span hidden="true" id="MACtextscalc0104060107xml_8" class="MAC"><span class="emph">⌘</span></span><span hidden="true" id="defaulttextscalc0104060107xml_8"><span class="emph">Ctrl</span></span></span> + <span class="emph">C</span>.</p>
+  </li>
+  <li itemprop="itemListElement" itemscope="true" itemtype="http://schema.org/HowToStep" dir="auto">
+    <p id="par_id3146787" class="listitem" dir="auto">Seleccione el intervalo de celdas donde desea insertar la fórmula matricial y oprima <span class="emph">F2</span> o sitúe el cursor en el cuadro de entrada.</p>
+  </li>
+  <li itemprop="itemListElement" itemscope="true" itemtype="http://schema.org/HowToStep" dir="auto">
+    <p id="par_id3154419" class="listitem" dir="auto">Pegue la fórmula presionando <span id="swlnsystextscalc0104060107xml_9" class="switchinline"><span hidden="true" id="MACtextscalc0104060107xml_9" class="MAC"><span class="emph">⌘V</span></span><span hidden="true" id="defaulttextscalc0104060107xml_9"><span class="emph">Ctrl + V</span></span></span> en el espacio seleccionado y confirme presionando <span id="swlnsystextscalc0104060107xml_10" class="switchinline"><span hidden="true" id="MACtextscalc0104060107xml_10" class="MAC"><span class="emph">⌘⇧↵</span></span><span hidden="true" id="defaulttextscalc0104060107xml_10"><span class="emph">Ctrl + Mayús + Intro</span></span></span>. El intervalo seleccionado ahora contiene la fórmula matricial.</p>
+  </li>
+</ol>
+<h3 id="hd_id3154834" dir="auto">Ajustar un intervalo matricial</h3>
+  <p id="par_id3148679" class="paragraph" dir="auto">Para editar la matriz de salida, siga este procedimiento:</p>
+<ol itemprop="HowTo" itemscope="true" itemtype="http://schema.org/HowToSection" dir="auto">
+  <li itemprop="itemListElement" itemscope="true" itemtype="http://schema.org/HowToStep" dir="auto">
+    <p id="par_id3151102" class="listitem" dir="auto">Seleccione el intervalo de celdas o la matriz que contenga la fórmula matricial.</p>
+  </li>
+  <li itemprop="itemListElement" itemscope="true" itemtype="http://schema.org/HowToStep" dir="auto">
+    <p id="par_id3147096" class="listitem" dir="auto">Bajo la selección, a la derecha, verá un pequeño icono que permite ampliar o reducir el intervalo utilizando el ratón.</p>
+  </li>
+</ol>
+  <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Cuando el usuario ajusta el intervalo de la matriz, la fórmula no se ajusta automáticamente. Solo se modifica el intervalo en el que aparece el resultado.</p></div>
+</div>
+<br>
+  <p id="par_id3146080" class="paragraph" dir="auto">Manteniendo presionada la tecla <span id="swlnsystextscalc0104060107xml_11" class="switchinline"><span hidden="true" id="MACtextscalc0104060107xml_11" class="MAC"><span class="emph">⌘</span></span><span hidden="true" id="defaulttextscalc0104060107xml_11"><span class="emph">Ctrl</span></span></span>, puede crear una copia de la formula matricial en el intervalo dado.</p>
+<h3 id="par_idN10D47" dir="auto">Cálculos de matriz condicional</h3>
+  <p id="par_idN10D4B" class="paragraph" dir="auto">Un cálculo de matriz condicional es una fórmula matricial que incluye una función SI() o ELEGIR(). El argumento de condición de la fórmula es una referencia de área o un resultado de matriz.</p>
+  <p id="par_idN10D4E" class="paragraph" dir="auto">En el ejemplo siguiente, la prueba &gt;0 de la fórmula {=SI(A1:A3&gt;0;"sí";"no")} se aplica a cada celda del área A1:A3 y el resultado se copia en la celda correspondiente.</p>
+<table border="1" class="" cellpadding="0" cellspacing="0">
+  <tr>
+    <td rowspan="" colspan="" dir="auto">
+    </td>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_idN10D65" class="tableheadintable" dir="auto">A</p>
+    </th>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+      <p id="par_idN10D6B" class="tableheadintable" dir="auto">B (fórmula)</p>
+    </th>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+      <p id="par_idN10B75" class="tableheadintable" dir="auto">B (resultado)</p>
+    </th>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_idN10D79" class="tableheadintable" dir="auto">1</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_idN10D80" class="paragraphintable" dir="auto">1</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_idN10D86" class="paragraphintable" dir="auto">{=SI(A1:A3&gt;0;"sí";"no")}</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_idN10D8C" class="tablecontentintable" dir="auto">sí</p>
+    </td>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_idN10D94" class="tableheadintable" dir="auto">2</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_idN10D9B" class="paragraphintable" dir="auto">0</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_idN10DA1" class="paragraphintable" dir="auto">{=SI(A1:A3&gt;0;"sí";"no")}</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_idN10DA7" class="tablecontentintable" dir="auto">no</p>
+    </td>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_idN10DAF" class="tableheadintable" dir="auto">3</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_idN10DB6" class="paragraphintable" dir="auto">1</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_idN10DBC" class="paragraphintable" dir="auto">{=SI(A1:A3&gt;0;"sí";"no")}</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_idN10DC2" class="tablecontentintable" dir="auto">sí</p>
+    </td>
+  </tr>
+</table>
+<br>
+  <p id="par_idN10DD0" class="paragraph" dir="auto">Las funciones siguientes permiten la gestión de matrices forzada: COEF.DE.CORREL, COVAR, PRONOSTICO, PRUEBA.F, INTERSECCION.EJE, MDETERM, MINVERSA, MMULT, MODA, PEARSON, PROBABILIDAD, COEFICIENTE.R2, PENDIENTE, ERROR.TIPICO.XY, SUMA.PRODUCTO, SUMAX2MENOSY2, SUMAX2MASY2, SUMAXMENOSY2 y PRUEBA.T. Si usa referencias de áreas como argumentos al utilizar una de estas funciones, las funciones actúan como funciones matriciales. En la tabla siguiente se muestra un ejemplo de gestión de matrices forzada:</p>
+<table border="1" class="" cellpadding="0" cellspacing="0">
+  <tr>
+    <td rowspan="" colspan="" dir="auto">
+    </td>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_idN10DE2" class="tableheadintable" dir="auto">A</p>
+    </th>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+      <p id="par_idN10DE8" class="tableheadintable" dir="auto">B (fórmula)</p>
+    </th>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+      <p id="par_idN10DEE" class="tableheadintable" dir="auto">B (resultado)</p>
+    </th>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+      <p id="par_idN10DF4" class="tableheadintable" dir="auto">C (fórmula matricial forzada)</p>
+    </th>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+      <p id="par_idN10DFA" class="tableheadintable" dir="auto">C (resultado)</p>
+    </th>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_idN10E02" class="tableheadintable" dir="auto">1</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_idN10E09" class="tablecontentintable" dir="auto">1</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_idN10E0F" class="tablecontentintable" dir="auto">=A1:A2+1</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_idN10E17" class="tablecontentintable" dir="auto">2</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_idN10E1D" class="tablecontentintable" dir="auto">=SUMA.PRODUCTO(A1:A2+1)</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_idN10E25" class="tablecontentintable" dir="auto">5</p>
+    </td>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_idN10E2D" class="tableheadintable" dir="auto">2</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_idN10E34" class="tablecontentintable" dir="auto">2</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_idN10E3A" class="tablecontentintable" dir="auto">=A1:A2+1</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_idN10E42" class="tablecontentintable" dir="auto">3</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_idN10E48" class="tablecontentintable" dir="auto">=SUMA.PRODUCTO(A1:A2+1)</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_idN10E50" class="tablecontentintable" dir="auto">5</p>
+    </td>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_idN10E58" class="tableheadintable" dir="auto">3</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_idN10E63" class="tablecontentintable" dir="auto">=A1:A2+1</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_idN10E6A" class="tablecontentintable" dir="auto">#¡VALOR!</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_idN10E70" class="tablecontentintable" dir="auto">=SUMA.PRODUCTO(A1:A2+1)</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_idN10E78" class="tablecontentintable" dir="auto">5</p>
+    </td>
+  </tr>
+</table>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a id="Section1"></a>
+<a id="bm_id3166317"></a><meta itemprop="keywords" content="Función CRECIMIENTO">
+<meta itemprop="keywords" content="tendencia exponencial en matrices">
+<a id="bm_id3166329"></a>
+<h2 id="hd_id3166317" dir="auto">CRECIMIENTO</h2>
+  <p id="par_id3166346" class="paragraph" dir="auto"><span class="avis">Calcula los puntos de una tendencia exponencial en una matriz.</span></p>
+  <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+  <p id="par_id3166377" class="code" dir="auto">CRECIMIENTO(DatosY [; [ DatosX ] [; [ NuevosDatosX ] [; TipoDeFunction] ] ])</p>
+  <p id="par_id3166392" class="paragraph" dir="auto"><span class="emph">DatosY</span> representa la matriz de datos Y.</p>
+  <p id="par_id3166411" class="paragraph" dir="auto"><span class="emph">DatosX</span> (opcional) representa la matriz de datos X.</p>
+  <p id="par_id3173797" class="paragraph" dir="auto"><span class="emph">NuevosDatosX</span> (opcional) representa la matriz de datosX, en los cuales se recalculan.</p>
+  <p id="par_id3173817" class="paragraph" dir="auto"><span class="emph">TipoDeFunción</span> (opcional). Si TipoDeFunción = 0, se calcularán las funciones de la forma y = m^x . De lo contrario, se calcularán las funciones y = b*m^x.</p>
+  <p id="par_idN11DFD" class="paragraph" dir="auto">En las funciones de LibreOffice Calc, los parámetros marcados como «opcionales» pueden omitirse siempre y cuando no haya ningún parámetro inmediatamente después. Por ejemplo, en una función de cuatro parámetros cuyos dos últimos están marcados como «opcionales», puede omitirse el parámetro 4 o los parámetros 3 y 4; sin embargo, no se puede omitir solamente el parámetro 3.</p>
+  <p id="par_idN12113" class="paragraph" dir="auto">Encontrará más información al principio de la página.</p>
+  <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+  <p id="par_id3173852" class="paragraph" dir="auto">Esta función devuelve una matriz y se manipula de la misma manera que otras funciones matriciales. Seleccione un intervalo donde quiera que aparezca la respuesta y seleccione la función. Seleccione <span class="emph">DatosY</span>. Introduzca cualquier otro parámetro, active <span class="emph">Matriz</span> y pulse en <span class="emph">Aceptar</span>.</p>
+<a id="Section8"></a>
+<a id="bm_id3109846"></a><meta itemprop="keywords" content="función ESTIMACION.LINEAL">
+<a id="bm_id3144716"></a>
+<h2 id="hd_id3109846" dir="auto">ESTIMACION.LINEAL</h2>
+  <p id="par_id3144733" class="paragraph" dir="auto"><span class="avis">Devuelve una tabla de estadísticas para una línea recta que mejor se ajusta a un conjunto de datos.</span></p>
+  <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+  <p id="par_id3152839" class="code" dir="auto">LINEST(Datos_Y [; Datos_X [; tipo_lineal [; estadísticas]]])</p>
+  <p id="par_id3152853" class="paragraph" dir="auto"><span class="emph">Datos_Y</span> es un intervalo que comprende una sola fila o columna y que especifica las coordenadas de Y en un conjunto de puntos de datos.</p>
+  <p id="par_id3154428" class="paragraph" dir="auto"><span class="emph">Datos_X</span> corresponde a un rango de una fila o columna que especifica las coordenadas X. Si se omite <span class="emph">Datos_X</span>, los valores predeterminados son <span class="literal">1, 2, 3, ..., n</span>. Si existe mas de un grupo de variables <span class="emph">Datos_X</span> puede ser un rango correspondiente a multiples filas o columnas.</p>
+  <p id="par_id0811200804502119" class="paragraph" dir="auto">ESTIMACION.LINEAL encuentra la recta <span class="literal">y = a + bx</span> que mejor se ajusta a los datos mediante una regresión lineal (el método «mínimos cuadrados»). Con más de un grupo de variables la recta asume la forma <span class="literal">y = a + b1x1 + b2x2 … + bnxn</span>.</p>
+  <p id="par_id3154448" class="paragraph" dir="auto">Si el parámetro <span class="emph">tipo_lineal</span> es FALSO, la recta encontrada es forzada a pasar por el origen, dado que la constante «a» será cero (y = bx). Si se omite, <span class="emph">tipo_lineal</span> se predetermina a VERDADERO (la recta no necesariamente pasará por el origen).</p>
+  <p id="par_id3154142" class="paragraph" dir="auto">Si se omite <span class="emph">estadísticas</span> o es FALSO, solamente se devuelve la fila superior de la tabla de estadísticas. Si este parámetro es VERDADERO, se devuelve la tabla entera.</p>
+  <p id="par_id0811200804502261" class="paragraph" dir="auto">ESTIMACION.LINEAL devuelve una tabla (matriz) de estadísticas como la siguiente y debe introducirse como una fórmula matricial (por ejemplo, usando <span id="swlnsystextscalc0104060107xml_15" class="switchinline"><span hidden="true" id="MACtextscalc0104060107xml_15" class="MAC"><span class="emph">⌘</span></span><span hidden="true" id="defaulttextscalc0104060107xml_15"><span class="emph">Ctrl</span></span></span><span class="emph"> + Mayús + Intro</span> en vez de solo <span class="emph">Intro</span>)</p>
+  <p id="par_idN11416" class="paragraph" dir="auto">En las funciones de LibreOffice Calc, los parámetros marcados como «opcionales» pueden omitirse siempre y cuando no haya ningún parámetro inmediatamente después. Por ejemplo, en una función de cuatro parámetros cuyos dos últimos están marcados como «opcionales», puede omitirse el parámetro 4 o los parámetros 3 y 4; sin embargo, no se puede omitir solamente el parámetro 3.</p>
+  <p id="par_idN116C6" class="paragraph" dir="auto">Encontrará más información al principio de la página.</p>
+  <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+  <p id="par_id3154176" class="paragraph" dir="auto">Esta función devuelve una matriz y se maneja de la misma manera que otras funciones matriciales. Seleccione un intervalo donde quiera que aparezca la respuesta y seleccione la función. Seleccione <span class="emph">datos_Y</span>. Si lo desea, añada otros parámetros. Active la casilla <span class="emph">Matriz</span> y pulse en <span class="emph">Aceptar</span>.</p>
+  <p id="par_id3155468" class="paragraph" dir="auto">Los resultados devueltos por el sistema (si <span class="emph">Estadística</span> = 0), mostraran, al menos, la pendiente de la línea de regresión y su intersección con el eje Y. Si <span class="emph">Estadística</span> no es igual a 0, se mostrarán otros resultados.</p>
+<h3 id="hd_id3155491" dir="auto">Otros resultados de ESTIMACION.LINEAL:</h3>
+  <p id="par_id3159291" class="paragraph" dir="auto">Examine los ejemplos siguientes:</p>
+<table border="1" class="" cellpadding="0" cellspacing="0">
+  <tr>
+    <td rowspan="" colspan="" dir="auto">
+    </td>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_id3157922" class="tableheadintable" dir="auto">A</p>
+    </th>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_id3157945" class="tableheadintable" dir="auto">B</p>
+    </th>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_id3152486" class="tableheadintable" dir="auto">C</p>
+    </th>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_id3152509" class="tableheadintable" dir="auto">D</p>
+    </th>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_id3152532" class="tableheadintable" dir="auto">E</p>
+    </th>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_id3153431" class="tableheadintable" dir="auto">F</p>
+    </th>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_id3153454" class="tableheadintable" dir="auto">G</p>
+    </th>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_id3154995" class="tableheadintable" dir="auto">1</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_id3155021" class="paragraphintable" dir="auto"><span class="input">x1</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_id3155044" class="paragraphintable" dir="auto"><span class="input">x2</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_id3163734" class="paragraphintable" dir="auto"><span class="input">y</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_id3163766" class="paragraphintable" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">Valor de ESTIMACION.LINEAL</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+    </td>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_id3145686" class="tableheadintable" dir="auto">2</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3145713" class="paragraphintable" dir="auto"><span class="input">4</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3145736" class="paragraphintable" dir="auto"><span class="input">7</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3159427" class="paragraphintable" dir="auto"><span class="input">100</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_id3159460" class="paragraphintable" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">4,17</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_id3159483" class="paragraphintable" dir="auto">-<span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">3,48</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_id3152381" class="paragraphintable" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">82,33</span></p>
+    </td>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_id3152408" class="tableheadintable" dir="auto">3</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3152435" class="paragraphintable" dir="auto"><span class="input">5</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3152458" class="paragraphintable" dir="auto"><span class="input">9</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3155652" class="paragraphintable" dir="auto"><span class="input">105</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_id3155684" class="paragraphintable" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">5,46</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_id3155707" class="paragraphintable" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">10,96</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_id3155730" class="paragraphintable" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">9,35</span></p>
+    </td>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_id3159506" class="tableheadintable" dir="auto">4</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3159533" class="paragraphintable" dir="auto"><span class="input">6</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3159556" class="paragraphintable" dir="auto"><span class="input">11</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3159579" class="paragraphintable" dir="auto"><span class="input">104</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_id3159611" class="paragraphintable" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">0,87</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_id3152606" class="paragraphintable" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">5,06</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_id3152629" class="paragraphintable" dir="auto"><span class="input">#ND</span></p>
+    </td>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_id3152655" class="tableheadintable" dir="auto">5</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3152682" class="paragraphintable" dir="auto"><span class="input">7</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3152705" class="paragraphintable" dir="auto"><span class="input">12</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3152728" class="paragraphintable" dir="auto"><span class="input">108</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_id3144352" class="paragraphintable" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">13,21</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3144375" class="paragraphintable" dir="auto"><span class="input">4</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_id3144398" class="paragraphintable" dir="auto"><span class="input">#ND</span></p>
+    </td>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_id3144425" class="tableheadintable" dir="auto">6</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3144452" class="paragraphintable" dir="auto"><span class="input">8</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3144475" class="paragraphintable" dir="auto"><span class="input">15</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3144498" class="paragraphintable" dir="auto"><span class="input">111</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_id3158233" class="paragraphintable" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">675,45</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_id3158256" class="paragraphintable" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">102,26</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_id3158279" class="paragraphintable" dir="auto"><span class="input">#ND</span></p>
+    </td>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_id3158306" class="tableheadintable" dir="auto">7</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3158333" class="paragraphintable" dir="auto"><span class="input">9</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3158356" class="paragraphintable" dir="auto"><span class="input">17</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3158379" class="paragraphintable" dir="auto"><span class="input">120</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+    </td>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_id3144560" class="tableheadintable" dir="auto">8</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3144586" class="paragraphintable" dir="auto"><span class="input">10</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3144609" class="paragraphintable" dir="auto"><span class="input">19</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3144632" class="paragraphintable" dir="auto"><span class="input">133</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+    </td>
+  </tr>
+</table>
+<br>
+  <p id="par_id3144687" class="paragraph" dir="auto">La columna A contiene diversos valores de X1, la columna B diversos valores de X2 y la columna C, los valores Y. Estos valores ya están en la hoja de cálculo. Ha configurado el intervalo E2:G6 en la hoja de cálculo y ha abierto el <span class="emph">Asistente para funciones</span>. Para que la función ESTIMACION.LINEAL funcione, deberá seleccionar la casilla de verificación <span class="emph">Matriz</span> en el <span class="emph">Asistente para funciones</span>. A continuación seleccione los siguientes valores en la hoja de cálculo (o escríbalos con el teclado):</p>
+  <p id="par_id3158020" class="paragraph" dir="auto"><span class="emph">Datos_Y</span> están en C2:C8</p>
+  <p id="par_id3158039" class="paragraph" dir="auto"><span class="emph">Datos_X</span> están en A2:B8</p>
+  <p id="par_id3158058" class="paragraph" dir="auto"><span class="emph">tipo_lineal</span> y <span class="emph">estadística</span> están fijadas a 1.</p>
+  <p id="par_id3158084" class="paragraph" dir="auto">Cuando pulse en <span class="emph">Aceptar</span>, LibreOffice Calc rellenará el ejemplo anterior con los valores de ESTIMACION.LINEAL, como se muestra en el ejemplo.</p>
+  <p id="par_id3158106" class="paragraph" dir="auto">La fórmula en la barra de<span class="emph">Fórmulas</span> corresponde a cada celda de la matriz de ESTIMACIÓN.LINEAL <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">{=ESTIMACIÓN.LINEAL(C2:C8;A2:B8;1;1)}</span></p>
+  <p id="par_id3158128" class="paragraph" dir="auto"><span class="emph">Los valores calculados por ESTIMACION.LINEAL se representan así:</span></p>
+<a id="bm_id3158146"></a><meta itemprop="keywords" content="pendientes, véase también líneas de regresión">
+<meta itemprop="keywords" content="líneas de regresión,función ESTIMACION.LINEAL">
+
+  <p id="par_id3158146" class="paragraph" dir="auto">E2 Y F2: La Pendiente m de la línea de regresión y=b+m*x para los valores x1 y x2. Los valores se dan en orden inverso; es decir, la pendiente de x2 en E2 y la pendiente de x1 en F2.</p>
+  <p id="par_id3158184" class="paragraph" dir="auto">G2: Intersección de b con el eje y.</p>
+<a id="bm_id3158204"></a><meta itemprop="keywords" content="errores estándares, funciones matriciales">
+
+  <p id="par_id3158204" class="paragraph" dir="auto">E3 y F3: el error estándar del valor de la pendiente.</p>
+  <p id="par_id3145845" class="paragraph" dir="auto">G3: El error estándar de la intersección</p>
+<a id="bm_id3145859"></a><meta itemprop="keywords" content="Cálculos de COEFICIENTE.R2">
+  <p id="par_id3145859" class="paragraph" dir="auto">E4: COEFICIENTE.R2</p>
+  <p id="par_id3145880" class="paragraph" dir="auto">F4: El error estándar de la regresión calculada para el valor Y.</p>
+  <p id="par_id3145894" class="paragraph" dir="auto">E5: El valor F del análisis de varianza.</p>
+  <p id="par_id3145915" class="paragraph" dir="auto">F5: los grados de libertad del análisis de varianza.</p>
+  <p id="par_id3145937" class="paragraph" dir="auto">E6: La suma de la desviación cuadrada de los valores Y estimados de su media lineal.</p>
+  <p id="par_id3145952" class="paragraph" dir="auto">F6: La suma de la desviación cuadrada de los valores Y estimados de los valores Y especificados.</p>
+  <p id="par_idN11B04" class="paragraph" dir="auto">Encontrará más información al principio de la página.</p>
+<a id="Section7"></a>
+<a id="bm_id1596728"></a><meta itemprop="keywords" content="función ESTIMACION.LOGARITMICA">
+<a id="bm_id3146020"></a>
+<h2 id="hd_id3146009" dir="auto">ESTIMACION.LOGARITMICA</h2>
+  <p id="par_id3146037" class="paragraph" dir="auto"><span class="avis">Esta función calcula el ajuste de los datos introducidos como curva de regresión exponencial (y=b*m^x).</span></p>
+  <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+  <p id="par_id3163123" class="code" dir="auto">ESTIMACION.LOGARITMICA(DatosY [; DatosX [; TipodeFunction [; Estacística]]])</p>
+  <p id="par_id3163137" class="paragraph" dir="auto"><span class="emph">DatosY</span> representa la matriz de datos Y.</p>
+  <p id="par_id3163155" class="paragraph" dir="auto"><span class="emph">DatosX</span> (opcional) representa la matriz de datos X.</p>
+  <p id="par_id3163174" class="paragraph" dir="auto"><span class="emph">TipodeFunción</span> (opcional). Si Tipo_de_Función = 0, se calcularán las funciones de la forma y = m^x . De lo contrario, se calcularán las funciones y = b*m^x.</p>
+  <p id="par_id3163196" class="paragraph" dir="auto"><span class="emph">Estadísticas</span> (opcional). Si Estadísticas=0, solo se calcula el coeficiente de regresión.</p>
+  <p id="par_idN118F7" class="paragraph" dir="auto">En las funciones de LibreOffice Calc, los parámetros marcados como «opcionales» pueden omitirse siempre y cuando no haya ningún parámetro inmediatamente después. Por ejemplo, en una función de cuatro parámetros cuyos dos últimos están marcados como «opcionales», puede omitirse el parámetro 4 o los parámetros 3 y 4; sin embargo, no se puede omitir solamente el parámetro 3.</p>
+  <p id="par_idN11BC3" class="paragraph" dir="auto">Encontrará más información al principio de la página.</p>
+  <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+  <p id="par_id3163230" class="paragraph" dir="auto">Consulte ESTIMACION.LINEAL. Con todo, no se devolverá ninguna suma cuadrada.</p>
+<a id="Section13"></a>
+<a id="bm_id3159084"></a><meta itemprop="keywords" content="función FRECUENCIA">
+<a id="bm_id3153883"></a>
+<h2 id="hd_id3159084" dir="auto">FRECUENCIA</h2>
+  <p id="par_id3145777" class="paragraph" dir="auto"><span class="avis">Indica la distribución de frecuencias en una matriz de una columna.</span> La función cuenta la cantidad de valores de la matriz <span class="emph">Datos</span> que se encuentran entre los valores dados por la matriz <span class="emph">Clases</span>.</p>
+  <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+  <p id="par_id3155498" class="code" dir="auto">FRECUENCIA(Datos; Clases)</p>
+  <p id="par_id3154352" class="paragraph" dir="auto"><span class="emph">Datos</span> representa la referencia de los valores que se debe contar.</p>
+  <p id="par_id3148402" class="paragraph" dir="auto"><span class="emph">Clases</span> representa la matriz que contiene los valores de límite.</p>
+  <div class="embedded">
+<a id="datenumbersequencenote"></a>
+        <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de <a target="_top" href="es/text/scalc/01/03080000.html">resalte de valores</a>.</p></div>
+</div>
+<br>
+    </div>
+  <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Al principio de esta página se incluye información general sobre las funciones matriciales.</p></div>
+</div>
+<br>
+  <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+  <p id="par_id3155904" class="paragraph" dir="auto">En la tabla siguiente, la columna A muestra valores de medida sin ordenar. La columna B contiene el límite superior que introdujo para las clases cuyos datos quiere dividir en la columna A. Según el límite que haya especificado en B1, la función FRECUENCIA devuelve el número de valores medidos menores que o iguales a 5. Como el límite de B2 es 10, la función FRECUENCIA devuelve el segundo resultado como el número de valores medidos mayores que 5 y menores que o iguales a 10. El texto que introdujo en B6, «&gt;25», se utiliza solo como una referencia.</p>
+<table border="1" class="" cellpadding="0" cellspacing="0">
+  <tr>
+    <td rowspan="" colspan="" dir="auto">
+    </td>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_id3155869" class="tableheadintable" dir="auto">A</p>
+    </th>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_id3149328" class="tableheadintable" dir="auto">B</p>
+    </th>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_id3152467" class="tableheadintable" dir="auto">C</p>
+    </th>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_id3154528" class="tableheadintable" dir="auto">1</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3149744" class="paragraphintable" dir="auto">12</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3147309" class="paragraphintable" dir="auto">5</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3154199" class="paragraphintable" dir="auto">1</p>
+    </td>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_id3159218" class="tableheadintable" dir="auto">2</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3153263" class="paragraphintable" dir="auto">8</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3156201" class="paragraphintable" dir="auto">10</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3147552" class="paragraphintable" dir="auto">3</p>
+    </td>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_id3149174" class="tableheadintable" dir="auto">3</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3151201" class="paragraphintable" dir="auto">24</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3150245" class="paragraphintable" dir="auto">15</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3159194" class="paragraphintable" dir="auto">2</p>
+    </td>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_id3146925" class="tableheadintable" dir="auto">4</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3154128" class="paragraphintable" dir="auto">11</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3151067" class="paragraphintable" dir="auto">20</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3156033" class="paragraphintable" dir="auto">3</p>
+    </td>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_id3149298" class="tableheadintable" dir="auto">5</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3151382" class="paragraphintable" dir="auto">5</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3155141" class="paragraphintable" dir="auto">25</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3145213" class="paragraphintable" dir="auto">1</p>
+    </td>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_id3145268" class="tableheadintable" dir="auto">6</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3163724" class="paragraphintable" dir="auto">20</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3147132" class="paragraphintable" dir="auto">&gt;25</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3148903" class="paragraphintable" dir="auto">1</p>
+    </td>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_id3151007" class="tableheadintable" dir="auto">7</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3153294" class="paragraphintable" dir="auto">16</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+    </td>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_id3147284" class="tableheadintable" dir="auto">8</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3154914" class="paragraphintable" dir="auto">9</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+    </td>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_id3154218" class="tableheadintable" dir="auto">9</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3147226" class="paragraphintable" dir="auto">7</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+    </td>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_id3149045" class="tableheadintable" dir="auto">10</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3155799" class="paragraphintable" dir="auto">16</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+    </td>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_id3155076" class="tableheadintable" dir="auto">11</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_id3150217" class="paragraphintable" dir="auto">33</p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+    </td>
+  </tr>
+</table>
+<br>
+  <p id="par_id611777932690795" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">{=FRECUENCIA(A1:A11;B1:B6)}</span></p>
+  <p id="par_id3150312" class="paragraph" dir="auto">Seleccione un intervalo de una sola columna donde introducir la frecuencia según los límites de la clase. Debe seleccionar un campo más que el campo superior de la clase. En este ejemplo, seleccione el intervalo C1:C6. Active la función FRECUENCIA mediante el <span class="emph">Asistente para funciones</span>. Seleccione el intervalo <span class="emph">Datos</span> en (A1:A11) y, a continuación, el intervalo <span class="emph">Clases</span> en el que haya introducido los límites de la clase (B1:B6). Active la casilla <span class="emph">Matriz</span> y pulse en <span class="emph">Aceptar</span>. Aparecerá el conteo de la frecuencia en el intervalo C1:C6.</p>
+  <p id="par_idN11269" class="paragraph" dir="auto">Encontrará más información al principio de la página.</p>
+<a id="Section12"></a>
+<a id="bm_id3151030"></a><meta itemprop="keywords" content="función MDETERM">
+<meta itemprop="keywords" content="determinantes">
+<a id="bm_id3154057"></a>
+<h2 id="hd_id3151030" dir="auto">MDETERM</h2>
+  <p id="par_id3154073" class="paragraph" dir="auto"><span class="avis">Devuelve el determinante de una matriz.</span> Esta función devuelve un valor en la celda actual; no es necesario definir un área de resultados.</p>
+  <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+  <p id="par_id3156380" class="code" dir="auto">MDETERM(Matriz)</p>
+  <p id="par_id3150290" class="paragraph" dir="auto"><span class="emph">Matriz</span> representa una matriz cuadrada cuyo determinante se debe calcular.</p>
+  <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Al principio de esta página se incluye información general sobre el uso de las funciones matriciales.</p></div>
+</div>
+<br>
+  <p id="par_idN11333" class="paragraph" dir="auto">Encontrará más información al principio de la página.</p>
+<a id="Section11"></a>
+<a id="bm_id3151348"></a><meta itemprop="keywords" content="función MINVERSA">
+<meta itemprop="keywords" content="matrices inversas">
+<a id="bm_id3151360"></a>
+<h2 id="hd_id3151348" dir="auto">MINVERSA</h2>
+  <p id="par_id3145569" class="paragraph" dir="auto"><span class="avis">Devuelve la matriz inversa.</span></p>
+  <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+  <p id="par_id3156085" class="code" dir="auto">MINVERSA(Matriz)</p>
+  <p id="par_id3157849" class="paragraph" dir="auto"><span class="emph">Matriz</span> representa la matriz cuadrada que se debe invertir.</p>
+  <p id="par_idN113EE" class="paragraph" dir="auto">Encontrará más información al principio de la página.</p>
+  <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+  <p id="par_id3149638" class="paragraph" dir="auto">Seleccione un área cuadrada y a continuación MINVERSA. Seleccione la matriz de salida y el campo <span class="emph">Matriz</span>; a continuación, pulse en <span class="emph">Aceptar</span>.</p>
+<a id="Section10"></a>
+<a id="bm_id3148546"></a><meta itemprop="keywords" content="MMULT">
+<a id="bm_id3148501"></a>
+<h2 id="hd_id3148546" dir="auto">MMULT</h2>
+  <p id="par_id3148518" class="paragraph" dir="auto"><span class="avis">Calcula la matriz producto de dos matrices.</span> El número de columnas de la matriz 1 debe coincidir con el número de filas de la matriz 2. La matriz cuadrada tiene el mismo número de filas y de columnas.</p>
+  <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+  <p id="par_id3150798" class="code" dir="auto">MMULT(Matriz 1; Matriz 2)</p>
+  <p id="par_id3150812" class="paragraph" dir="auto"><span class="emph">Matriz 1</span> representa la primera matriz utilizada en el producto matricial.</p>
+  <p id="par_id3152553" class="paragraph" dir="auto"><span class="emph">Matriz 2</span> representa la segunda matriz con el mismo número de filas.</p>
+  <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Encontrará más información al principio de la página.</p></div>
+</div>
+<br>
+  <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+  <p id="par_id3146826" class="paragraph" dir="auto">Seleccione un intervalo cuadrado. Elija la función MMULT. Seleccione <span class="emph">Matriz 1</span> y, a continuación, seleccione <span class="emph">Matriz 2</span>. Utilizando el <span class="emph">Asistente para funciones</span>, marque el cuadro <span class="emph">Matriz</span>. Pulse en <span class="emph">Aceptar</span>. La matriz de salida aparecerá en el primer intervalo seleccionado.</p>
+<a id="Section14"></a>
+<a id="bm_id3158446"></a><meta itemprop="keywords" content="MUNITARIA">
+<a id="bm_id3151317"></a>
+<h2 id="hd_id3158446" dir="auto">MUNITARIA</h2>
+  <p id="par_id3154121" class="paragraph" dir="auto"><span class="avis">Devuelve una matriz cuadrada unitaria de un tamaño determinado.</span> La matriz unitaria es una matriz cuadrada en la que los elementos de la diagonal son iguales a 1 y el resto de los elementos iguales a 0.</p>
+  <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+  <p id="par_id3156271" class="code" dir="auto">MUNITARIA(Dimensión)</p>
+  <p id="par_id3159390" class="paragraph" dir="auto"><span class="emph">Dimensión</span> hace referencia al tamaño de la matriz unitaria.</p>
+  <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Al principio de esta página se incluye información general sobre las funciones matriciales.</p></div>
+</div>
+<br>
+  <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+  <p id="par_id3150949" class="paragraph" dir="auto">Seleccione un área cuadrada de la hoja de cálculo, por ejemplo, de A1 a E5.</p>
+  <p id="par_id3151260" class="paragraph" dir="auto">Sin deseleccionar el intervalo, seleccione la función MUNITARIA. Active la casilla <span class="emph">Matriz</span>. Digite las dimensiones que deba tener la unidad matricial, en este caso <span class="input">5</span>, y pulse en <span class="emph">Aceptar</span>.</p>
+  <p id="par_id3150403" class="paragraph" dir="auto">También puede introducir la formula <span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=MUNITARIA(5)</span> en la última celda del intervalo seleccionado (E5) y presionar <span id="swlnsystextscalc0104060107xml_12" class="switchinline"><span hidden="true" id="MACtextscalc0104060107xml_12" class="MAC"><span class="keycode">⇧⌘↵</span></span><span hidden="true" id="defaulttextscalc0104060107xml_12"><span class="keycode">Mayús + Ctrl + Intro</span></span></span>.</p>
+  <p id="par_id3156143" class="paragraph" dir="auto">Se insertará una matriz unitaria en el área A1:E5.</p>
+  <p id="par_idN10FA7" class="paragraph" dir="auto">Encontrará más información al principio de la página.</p>
+<a id="Section6"></a>
+<a id="bm_id3163286"></a><meta itemprop="keywords" content="SUMA.PRODUCTO">
+<meta itemprop="keywords" content="productos escalares">
+<meta itemprop="keywords" content="productos de punto">
+<meta itemprop="keywords" content="productos internos">
+<a id="bm_id3163297"></a>
+<h2 id="hd_id3163286" dir="auto">SUMA.PRODUCTO</h2>
+  <p id="par_id3163314" class="paragraph" dir="auto"><span class="avis">Multiplica los elementos correspondientes en las matrices especificadas, y calcula la suma de dichos productos.</span></p>
+  <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+  <p id="par_id3163347" class="code" dir="auto">SUMA.PRODUCTO(Matriz 1[; Matriz 2;][...;[Matriz 255]])</p>
+    <p id="par_id3163362" class="paragraph" dir="auto"><span class="emph">Matriz 1[; Matriz 2;][...;[Matriz 255]]</span> representan matrices cuyos elementos correspondientes se van a multiplicar.</p>
+    <p id="par_idN11B19" class="paragraph" dir="auto">Al menos una matriz debe ser parte de la lista de argumentos. Si solo se proporciona una matriz, se suman todos los elementos de la matriz. Si se proporciona más de una matriz, todas deben tener el mismo tamaño.</p>
+  <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+<table border="1" class="" cellpadding="0" cellspacing="0">
+  <tr>
+    <td rowspan="" colspan="" dir="auto">
+    </td>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_idN11B2F" class="tableheadintable" dir="auto">A</p>
+    </th>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_idN11B36" class="tableheadintable" dir="auto">B</p>
+    </th>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_idN11B3B" class="tableheadintable" dir="auto">C</p>
+    </th>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_idN11B41" class="tableheadintable" dir="auto">D</p>
+    </th>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_idN11B48" class="tableheadintable" dir="auto">1</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_idN11B4E" class="tablecontentintable" dir="auto"><span class="input">2</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_idN11B54" class="tablecontentintable" dir="auto"><span class="input">3</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_idN11B5A" class="tablecontentintable" dir="auto"><span class="input">4</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_idN11B60" class="tablecontentintable" dir="auto"><span class="input">5</span></p>
+    </td>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_idN11B67" class="tableheadintable" dir="auto">2</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_idN11B6D" class="tablecontentintable" dir="auto"><span class="input">6</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_idN11B73" class="tablecontentintable" dir="auto"><span class="input">7</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_idN11B79" class="tablecontentintable" dir="auto"><span class="input">8</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_idN11B7F" class="tablecontentintable" dir="auto"><span class="input">9</span></p>
+    </td>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+        <p id="par_idN11B86" class="tableheadintable" dir="auto">3</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_idN11B8C" class="tablecontentintable" dir="auto"><span class="input">10</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_idN11B92" class="tablecontentintable" dir="auto"><span class="input">11</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_idN11B98" class="tablecontentintable" dir="auto"><span class="input">12</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+        <p id="par_idN11B9E" class="tablecontentintable" dir="auto"><span class="input">13</span></p>
+    </td>
+  </tr>
+</table>
+<br>
+  <p id="par_idN11BA1" class="paragraph" dir="auto"><span class="input" data-tooltip="Pulse en el texto para copiarlo en el portapapeles">=SUMA.PRODUCTO(A1:B3;C1:D3)</span> devuelve 397.</p>
+  <p id="par_idN11BA4" class="paragraph" dir="auto">Cálculo: A1*C1 + B1*D1 + A2*C2 + B2*D2 + A3*C3 + B3*D3</p>
+  <p id="par_idN11BA7" class="paragraph" dir="auto">Puede utilizar la función SUMPRODUCT para calcular el producto escalar de dos vectores.</p>
+  <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">SUMA.PRODUCTO devuelve un único número; no es necesario introducir la función como una función matricial.</p></div>
+</div>
+<br>
+  <p id="par_idN11C91" class="paragraph" dir="auto">Encontrará más información al principio de la página.</p>
+<a id="Section4"></a>
+<a id="bm_id3145026"></a><meta itemprop="keywords" content="SUMAX2MASY2">
+<a id="bm_id3145038"></a>
+<h2 id="hd_id3145026" dir="auto">SUMAX2MASY2</h2>
+  <p id="par_id3145055" class="paragraph" dir="auto"><span class="avis">Calcula la suma de los cuadrados de los valores correspondientes en dos matrices.</span></p>
+  <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+  <p id="par_id3163404" class="code" dir="auto">SUMAX2MASY2(MatrizX; MatrizY)</p>
+  <p id="par_id3163417" class="paragraph" dir="auto"><span class="emph">MatrizX</span> representa la primera matriz cuyos elementos deben sumarse y elevarse al cuadrado.</p>
+  <p id="par_id3163437" class="paragraph" dir="auto"><span class="emph">MatrizY</span> representa la segunda matriz, cuyos elementos deben sumarse y elevarse al cuadrado.</p>
+  <p id="par_idN11E45" class="paragraph" dir="auto">Encontrará más información al principio de la página.</p>
+<a id="Section5"></a>
+<a id="bm_id3144842"></a><meta itemprop="keywords" content="SUMAX2MENOSY2">
+<a id="bm_id3144854"></a>
+<h2 id="hd_id3144842" dir="auto">SUMAX2MENOSY2</h2>
+  <p id="par_id3144871" class="paragraph" dir="auto"><span class="avis">Calcula la suma de la diferencia de los cuadrados de los valores correspondientes en dos matrices.</span></p>
+  <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+  <p id="par_id3144903" class="code" dir="auto">SUMX2MENOSY2(MatrizX; MatrizY)</p>
+  <p id="par_id3144916" class="paragraph" dir="auto"><span class="emph">MatrizX</span> representa la primera matriz cuyos elementos deben sumarse y elevarse al cuadrado.</p>
+  <p id="par_id3144936" class="paragraph" dir="auto"><span class="emph">MatrizY</span> representa la segunda matriz cuyos elementos deben restarse y elevarse al cuadrado.</p>
+  <p id="par_idN11D6B" class="paragraph" dir="auto">Encontrará más información al principio de la página.</p>
+<a id="Section3"></a>
+<a id="bm_id3163527"></a><meta itemprop="keywords" content="función SUMAXMENOSY2">
+<a id="bm_id3163539"></a>
+<h2 id="hd_id3163527" dir="auto">SUMAXMENOSY2</h2>
+  <p id="par_id3163556" class="paragraph" dir="auto"><span class="avis">Suma los cuadrados de la varianza entre los valores correspondientes en dos matrices.</span></p>
+  <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+  <p id="par_id3163588" class="code" dir="auto">SUMAXMENOSY2(MatrizX; MatrizY)</p>
+  <p id="par_id3163601" class="paragraph" dir="auto"><span class="emph">MatrizX</span> representa la primera matriz cuyos elementos deben restarse y elevarse al cuadrado.</p>
+  <p id="par_id3163621" class="paragraph" dir="auto"><span class="emph">MatrizY</span> representa la segunda matriz cuyos elementos deben restarse y elevarse al cuadrado.</p>
+  <p id="par_idN11F1F" class="paragraph" dir="auto">Encontrará más información al principio de la página.</p>
+<a id="Section2"></a>
+<a id="bm_id3166062"></a><meta itemprop="keywords" content="TENDENCIA">
+<a id="bm_id3166074"></a>
+<h2 id="hd_id3166062" dir="auto">TENDENCIA</h2>
+  <p id="par_id3166091" class="paragraph" dir="auto"><span class="avis">Devuelve valores siguiendo una tendencia lineal.</span></p>
+  <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+  <p id="par_id3166122" class="code" dir="auto">TENDENCIA(DatosY [; DatosX [; NuevosDatosX [; TipoLinear]]])</p>
+  <p id="par_id3166137" class="paragraph" dir="auto"><span class="emph">DatosY</span> representa la matriz de datos Y.</p>
+  <p id="par_id3166156" class="paragraph" dir="auto"><span class="emph">DatosX</span> (opcional) representa la matriz de datos X.</p>
+  <p id="par_id3166176" class="paragraph" dir="auto"><span class="emph">NuevosDatosX</span> (opcional) representa las matriz de los datos X, los cuales son usados para recalcular los valores.</p>
+  <p id="par_id3166196" class="paragraph" dir="auto"><span class="emph">TipoLinear</span>(Optional). Si TipoLinear= 0, las lineas serán calculadas a través del punto cero. De lo contrario, se calcularán también las lineas alternas. El valor predeterminado es TipoLinear &lt;&gt; 0.</p>
+  <p id="par_idN11D2F" class="paragraph" dir="auto">En las funciones de LibreOffice Calc, los parámetros marcados como «opcionales» pueden omitirse siempre y cuando no haya ningún parámetro inmediatamente después. Por ejemplo, en una función de cuatro parámetros cuyos dos últimos están marcados como «opcionales», puede omitirse el parámetro 4 o los parámetros 3 y 4; sin embargo, no se puede omitir solamente el parámetro 3.</p>
+  <p id="par_idN12019" class="paragraph" dir="auto">Encontrará más información al principio de la página.</p>
+  <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+  <p id="par_id3166245" class="paragraph" dir="auto">Seleccione un intervalo de la hoja de cálculo donde mostrar los datos de tendencia. Seleccione la función. Escriba los datos de salida o selecciónelos con el ratón. Seleccione el campo <span class="emph">Matriz</span> y pulse en <span class="emph">Aceptar</span>. Se muestran los datos de tendencia calculados a partir de los datos de salida.</p>
+<a id="Section9"></a>
+<a id="bm_id3154970"></a><meta itemprop="keywords" content="TRANSPONER">
+<a id="bm_id3154982"></a>
+<h2 id="hd_id3154970" dir="auto">TRANSPONER</h2>
+  <p id="par_id3155276" class="paragraph" dir="auto"><span class="avis">Transpone las filas y las columnas de una matriz.</span></p>
+  <div class="embedded">
+<a id="sectionsyntax"></a>
+        <h4 id="hd_id3152015" dir="auto">Sintaxis</h4>
+    </div>
+  <p id="par_id3153843" class="code" dir="auto">TRANSPONER(Matriz)</p>
+  <p id="par_id3153857" class="paragraph" dir="auto"><span class="emph">Matriz</span> representa la matriz de la hoja de cálculo que se debe transponer.</p>
+  <div class="note">
+<div class="noteicon" dir="auto"><img src="media/icon-themes/res/helpimg/note.svg" alt="Icono de nota" style="width:40px;height:40px;"></div>
+<div class="notetext"><p dir="auto">Al principio de esta página se incluye información general sobre el uso de las funciones matriciales.</p></div>
+</div>
+<br>
+  <div class="embedded">
+<a id="sectionexample"></a>
+        <h4 id="hd_id281171" dir="auto">Ejemplo</h4>
+    </div>
+  <p id="par_id3159366" class="paragraph" dir="auto">Seleccione el área de la hoja de calculo en la que debe aparecer la matriz transpuesta. Si la matriz original tiene n filas y m columnas, el área seleccionada deberá tener como mínimo m filas y n columnas. Escriba la fórmula directamente, seleccione la matriz original y pulse <span id="swlnsystextscalc0104060107xml_13" class="switchinline"><span hidden="true" id="MACtextscalc0104060107xml_13" class="MAC"><span class="emph">Shift+Command+Intro</span></span><span hidden="true" id="defaulttextscalc0104060107xml_13"><span class="emph">Shift+Control+Intro</span></span></span>. O, si utiliza el <span class="emph">Asistente para funciones</span>, marque la casilla de verificación <span class="emph">Matriz</span>. La matriz transpuesta aparece en el área de destino seleccionada y queda automáticamente protegida contra cambios.</p>
+<table border="1" class="" cellpadding="0" cellspacing="0">
+  <tr>
+    <td rowspan="" colspan="" dir="auto">
+    </td>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+      <p id="par_idN11B3G" class="tableheadintable" dir="auto">A</p>
+    </th>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+      <p id="par_idN11B46" class="tableheadintable" dir="auto">B</p>
+    </th>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+      <p id="par_idN11B6C" class="tableheadintable" dir="auto">C</p>
+    </th>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+      <p id="par_idN11B52" class="tableheadintable" dir="auto">D</p>
+    </th>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+      <p id="par_idN11B69" class="tableheadintable" dir="auto">1</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_idN11B8F" class="tableicontentintable" dir="auto"><span class="input">2</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_idN11B35" class="tablecontentintable" dir="auto"><span class="input">3</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_idN11B1B" class="tablecontentintable" dir="auto"><span class="input">4</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_idN11B21" class="tablecontentintable" dir="auto"><span class="input">5</span></p>
+    </td>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+      <p id="par_idN11B38" class="tableheadintable" dir="auto">2</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_idN11B6F" class="tablecontentintable" dir="auto"><span class="input">6</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_idN11B75" class="tablecontentintable" dir="auto"><span class="input">7</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_idN11B81" class="tablecontentintable" dir="auto"><span class="input">8</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_idN11B7H" class="tablecontentintable" dir="auto"><span class="input">9</span></p>
+    </td>
+  </tr>
+</table>
+<br>
+  <p id="par_id3168518" class="paragraph" dir="auto">La tabla anterior posee dos filas y cuatro columnas. Para transponerla, debe seleccionar cuatro filas y dos columnas. Suponiendo que quiere transponer la tabla anterior en el intervalo A7:B10 (cuatro filas y dos columnas), debe seleccionar todo el intervalo y, a continuación, escribir lo siguiente:</p>
+  <p id="par_id3166145" class="code" dir="auto">TRANSPONER(A1:D2)</p>
+  <p id="par_id3178518" class="paragraph" dir="auto">Entonces <span class="emph">asegúrese de introducirla como fórmula matricial presionado</span><span id="swlnsystextscalc0104060107xml_14" class="switchinline"><span hidden="true" id="MACtextscalc0104060107xml_14" class="MAC"><span class="emph">Shift + Command + Intro</span></span><span hidden="true" id="defaulttextscalc0104060107xml_14"><span class="emph">Shift + Ctrl + Intro</span></span></span>. El resultado será el siguiente:</p>
+<table border="1" class="" cellpadding="0" cellspacing="0">
+  <tr>
+    <td rowspan="" colspan="" dir="auto">
+    </td>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+      <p id="par_idN21B2H" class="tableheadintable" dir="auto">A</p>
+    </th>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+      <p id="par_idN21B38" class="tableheadintable" dir="auto">B</p>
+    </th>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+      <p id="par_idN21B50" class="tableheadintable" dir="auto">7</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_idN21B4G" class="tablecontentintable" dir="auto"><span class="input">2</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_idN21B57" class="tablecontentintable" dir="auto"><span class="input">6</span></p>
+    </td>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+      <p id="par_idN21B70" class="tableheadintable" dir="auto">8</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_idN21B6F" class="tablecontentintable" dir="auto"><span class="input">3</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_idN21B77" class="tablecontentintable" dir="auto"><span class="input">7</span></p>
+    </td>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+      <p id="par_idN21B71" class="tableheadintable" dir="auto">9</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_idN31B6F" class="tablecontentintable" dir="auto"><span class="input">4</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_idN31B77" class="tablecontentintable" dir="auto"><span class="input">8</span></p>
+    </td>
+  </tr>
+  <tr>
+    <th rowspan="" colspan="" class="tableheadcell" dir="auto">
+      <p id="par_idN51B70" class="tableheadintable" dir="auto">10</p>
+    </th>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_idN51B6F" class="tablecontentintable" dir="auto"><span class="input">5</span></p>
+    </td>
+    <td rowspan="" colspan="" dir="auto">
+      <p id="par_idN61B77" class="tablecontentintable" dir="auto"><span class="input">9</span></p>
+    </td>
+  </tr>
+</table>
+<br>
+
+<a id="relatedtopics"></a><div class="relatedtopics">
+<p class="related" itemprop="mentions" dir="auto"><a id="related"></a><span class="emph">Temas relacionados</span></p>
+<div class="relatedbody" itemprop="mentions">
+  <div class="embedded"><p class="embedded" dir="auto"><a target="_top" href="es/text/scalc/01/04060100.html">Funciones por categoría</a></p></div>
+</div>
+</div>
+</div>
+<div id="DonationFrame"><a href="https://www.libreoffice.org/donate/?pk_campaign=help" target="_blank"><div class="icontable donation">
+<div class="iconcell"><img class="iconimage" src="media/helpimg/donate.png" alt="¡Necesitamos su ayuda!" style="width:40px;height:40px;"></div>
+<div class="iconcell"><p dir="auto">¡Necesitamos su ayuda!</p></div>
+</div></a></div>
+<footer><h2 style="text-align: center;"><a href="https://books.libreoffice.org" target="_blank">Guías de LibreOffice</a></h2>
+<div class="noteicon" dir="auto" style="display:flex;justify-content:center;flex-wrap:wrap;row-gap:15px;">
+<img src="media/navigation/libo-writer.svg" alt="Writer Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-calc.svg" alt="Calc Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-impress.svg" alt="Impress Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-draw.svg" alt="Draw Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-base.svg" alt="Base Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-math.svg" alt="Math Icon" style="width:60px;height:60px;"><img src="media/navigation/libo-symbol-black.svg" alt="Getting Started Icon" style="width:60px;height:60px;">
+</div>
+<p itemscope="true" itemtype="http://schema.org/Organization" dir="auto"><meta itemprop="name" content="The Document Foundation"><meta itemprop="legalName" content="The Document Foundation"><meta itemprop="alternateName" content="TDF"><meta itemprop="publishingPrinciples" content="https://www.libreoffice.org/imprint"><a href="https://www.libreoffice.org/imprint" target="_blank">Impressum (Legal Info)</a> | <a href="https://www.libreoffice.org/privacy" target="_blank">Privacy Policy</a> | <a href="https://www.documentfoundation.org/statutes.pdf" target="_blank">Statutes (non-binding English translation)</a> - <a href="https://www.documentfoundation.org/satzung.pdf" target="_blank">Satzung (binding German version)</a> | Copyright information: Unless otherwise specified, all text and images on this website are licensed under the <a href="https://www.libreoffice.org/download/license/" target="_blank">Mozilla Public License v2.0</a>. “LibreOffice” and “The Document Foundation” are registered trademarks of their corresponding registered owners or are in actual use as trademarks in one or more countries. Their respective logos and icons are also subject to international copyright laws. Use thereof is explained in our <a href="https://wiki.documentfoundation.org/TradeMark_Policy" target="_blank">trademark policy</a>. LibreOffice was based on OpenOffice.org.</p>
+<div id="DEBUG" class="debug">
+<h3 class="bug">Help content debug info:</h3>
+<p dir="auto">This page is: <a href="https://opengrok.libreoffice.org/xref/help/source/text/scalc/01/04060107.xhp" target="_blank">/text/scalc/01/04060107.xhp</a></p>
+<p dir="auto">Title is: Funciones matriciales</p>
+<p id="bm_module" dir="auto"></p>
+<p id="bm_system" dir="auto"></p>
+<p id="bm_HID" dir="auto"></p>
+</div></footer>
+</body>
+</html>

@@ -1,0 +1,111 @@
+FAQs - General FAQ - Migrating from cloud to self-hosted | n8n Help Center
+Skip to content
+⌘
+K
+Inbox
+Ask a human
+Home
+/
+FAQs
+/
+General FAQ
+Migrating from cloud to self-hosted
+Updated
+19 Oct 2026
+by
+TJ
+In this article
+Export workflows from n8n Cloud
+Credentials and other data
+Import workflows into your self-hosted instance
+Before switching over
+Other transfer options
+In this article group
+Can I have API access while I'm on a trial?
+Troubleshooting Common Login Issues
+I'm interested in the Enterprise Plan, how can I talk to a sales representative
+I'm looking to become an n8n Ambassador
+Contact the n8n Events Team' or 'Events Sponsorship and Participation Enquiries
+Which license do I need for my use case?
+I submitted a node
+Accessing the n8n Assistant
+Request for SOC-2 report
+How to delete a workflow
+I'm interested in a product demo. How can I schedule this?
+How to Retrieve Your n8n Level 1 or Level 2 Course Results
+Becoming an n8n template creator and getting help
+Understanding Workflow Publishing and Unpublishing n8n 2.0
+Work Experience and Internship Requests at n8n
+I have a marketing collaboration, sponsorship, or press inquiry
+How do n8n Academy and Community Forum accounts relate?
+Can I add or reset my Gateway credits?
+Do you have an Affiliate program?
+I want to partner or collaborate with n8n
+My n8n Community account was silenced. What should I do?
+You can move your workflows from n8n Cloud to a self-hosted instance by exporting and importing them.
+A workflow export is not a complete instance migration:
+you’ll also need to recreate credentials and configure your self-hosted environment.
+Export workflows from n8n Cloud
+For a bulk download, the n8n Cloud instance owner can download workflows from a backup through the n8n Cloud console (Admin Panel in earlier versions):
+Open the n8n Cloud console.
+Select
+Export
+in the sidebar.
+On the
+Data export
+page, select a backup.
+Select
+Download workflows.
+See
+Download workflows from n8n Cloud
+.
+Check for recent changes:
+The download contains workflows from the selected backup and may not include your latest edits. To export an individual workflow directly from the editor, open its three-dot menu and select
+Download
+.
+See
+Export and import workflows
+.
+Credentials and other data
+Workflow exports do not transfer your credential secrets.
+Recreate the required credentials in your self-hosted instance, then select them in the imported workflow’s nodes. OAuth-based connections may need to be authorized again.
+Workflow JSON can still contain credential names and IDs, and some nodes may contain sensitive values such as authentication headers. Review exported files before sharing them.
+You’ll also need to configure any other dependencies your workflows use, such as environment settings, variables, community nodes, and external services. Don’t assume workflow exports include execution history or all instance data.
+Import workflows into your self-hosted instance
+Create or open a workflow in your self-hosted instance.
+Open the
+three-dot menu
+in the upper-right corner of the workflow editor.
+Select
+Import from File
+.
+Choose the exported workflow JSON file.
+Recreate and assign the required credentials, then check the workflow’s settings and dependencies.
+Repeat these steps for each workflow you want to transfer.
+See
+Export and import workflows
+.
+Before switching over
+Test each imported workflow before publishing it.
+Check references to sub-workflows and error workflows.
+Update external services that use your Cloud webhook URLs to use the self-hosted URLs.
+Verify schedules, timezones, and required integrations.
+Coordinate the cutover so Cloud and self-hosted workflows don’t process the same events twice.
+Once testing is complete,
+publish the workflows that require automatic production triggers
+. See
+Save and publish workflows
+.
+Other transfer options
+For larger transfers, the documentation also describes CLI and API-based options, including
+n8n packages
+, which are currently in Preview. These can help move workflows and their related structure, but shouldn’t be treated as a complete Cloud instance migration.
+See
+Export and import workflows
+for available methods.
+Previous
+Troubleshooting Common Login Issues
+Next
+I'm interested in the Enterprise Plan, how can I talk to a sales representative
+Powered by
+Plain

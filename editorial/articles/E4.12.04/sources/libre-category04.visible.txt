@@ -1,0 +1,504 @@
+Funciones de información
+Ayuda de LibreOffice 26.8
+Módulo
+Idioma
+Contenido
+Active JavaScript en el navegador para mostrar las páginas de ayuda de LibreOffice.
+Funciones de información
+Esta categoría contiene las funciones de
+información
+.
+Para acceder a esta orden…
+Insertar ▸ Función ▸
+categoría
+Información
+Los datos de la tabla siguiente se utilizan en diversos ejemplos dentro de las descripciones de las funciones:
+C
+D
+2
+Valor X
+Valor Y
+3
+-5
+-3
+4
+-2
+0
+5
+-1
+1
+6
+0
+3
+7
+2
+4
+8
+4
+6
+9
+6
+8
+ACTUAL
+Esta función devuelve el resultado más reciente de la evaluación de la fórmula de la cual es parte (o, dicho de otro modo, el resultado hasta donde se realizó esa evaluación). Su uso principal, en conjunto con la función ESTILO(), es el de aplicar estilos seleccionados a una celda según el contenido de esta.
+Sintaxis
+ACTUAL()
+Ejemplo
+=1+2+ACTUAL()
+El ejemplo devuelve 6. La formula está calculado de izquierda a derecha así: 1 + 2 igual a 3, dando el resultado hasta la fecha cuando ACTUAL() se encuentro; ACTUAL(), por lo tanto, devuelve 3, lo cual está agregado a la original 3 para sumar a 6. original 3 to give 6.
+=A2+B2+ESTILO(SI(ACTUAL()>10;"Rojo";"Predeterminado"))
+El ejemplo devuelve A2 + B2 (ESTILO devuelve 0 aquí). Si esta suma es mayor que 10, el estilo Rojo es aplicado a la celda. Ver la función de
+ESTILO
+para más explicación.
+="choo"&ACTUAL()
+El ejemplo devuelve choochoo.
+Información técnica
+This function is
+NOT
+part of the
+Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format
+standard. The name space is
+ORG.OPENOFFICE.CURRENT
+CELDA
+Devuelve información acerca de la dirección, el formato y el contenido de una celda.
+Sintaxis
+CELDA("TipoInformación" [; Referencia])
+Tipo de información
+es la cadena de caracteres que especifica el tipo de información. La cadena de caracteres esta siempre en Inglés. Mayúscula o minúscula es opcional.
+Tipo de información
+Significado
+COL
+Devuelve el número de la columna referenciada.
+=CELDA("COL";D2)
+devuelve 4.
+ROW
+Devuelve el número de la fila referenciada.
+=CELDA("FILA";D2)
+devuelve 2.
+SHEET
+Devuelve el número de la hoja referenciada.
+=CELDA("SHEET";Hoja3.D2)
+devuelve 3.
+ADDRESS
+Devuelve la dirección absoluta de la celda referenciada.
+=CELL("ADDRESS";D2)
+devuelve $D$2.
+=CELDA("ADDRESS";Hoja3.D2)
+devuelve $Hoja3.$D$2.
+=CELDA("DIRECCION";'X:\dr\prueba.ods'#$Hoja1.D2)
+devuelve 'file:///X:/dr/prueba.ods'#$Hoja1.$D$2.
+FILENAME
+Devuelve el nombre de archivo y de hoja de la celda referenciada.
+=CELDA("NOMBREDEARCHIVO";D2)
+devuelve 'file:///X:/dr/own.ods'#$Hoja1, si la fórmula del documento X:\dr\own.ods se ubica en la Hoja1.
+=CELDA("NOMBREDEARCHIVO";'X:\dr\prueba.ods'#$Hoja1.D2)
+devuelve 'file:///X:/dr/prueba.ods'#$Hoja1.
+COORD
+Devuelve la dirección completa de celda en notación Lotus™.
+=CELDA("COORD"; D2)
+devuelve $A:$D$2.
+=CELDA("COORD"; Hoja3.D2)
+devuelve $C:$D$2.
+CONTENTS
+Devuelve el contenido de la celda referenciada, sin formato.
+TYPE
+Devuelve el tipo del contenido de la celda.
+b = blank. Celda vacía
+l = label. Texto, resultado de una fórmula como texto
+v = value. Valor, Resultado de una fórmula como número
+WIDTH
+Devuelve la anchura de la columna referenciada. La unidad de medida es la cantidad de ceros (0) que caben en la columna al usar el tipo de letra y tamaño predeterminados.
+PREFIX
+Devuelve la alineación de la celda referenciada.
+' = izquierda o justificada a la izquierda
+" = derecha
+^ = centrada
+\ = repitiendo (por ahora inactiva)
+PROTECT
+Devuelve el estado de la protección de la celda.
+1 = La celda está protegida
+0 = La celda no está protegida
+FORMAT
+Devuelve una cadena de caracteres que indica el formato numérico.
+, = Número con separador de miles
+F = Número sin separador de miles
+C = Formato monetario
+S = Representación exponencial, p.ej. 1.234+E56
+P = Porcentaje
+En los formatos indicados, el número de decimales después de la coma se indica en forma de número. Ejemplo: el formato numérico #.##0,0 devuelve ,1, y el formato numérico 00,000% devuelve P3
+D1 = D-MMM-YY, D-MM-YY y formatos parecidos
+D2 = DD-MM
+D3 = MM-YY
+D4 = DD-MM-YYYY HH:MM:SS
+D5 = MM-DD
+D6 = HH:MM:SS AM/PM
+D7 = HH:MM AM/PM
+D8 = HH:MM:SS
+D9 = HH:MM
+G = Todos los demás formatos
+− (menos) al final = Los números negativos se formatearán en color
+() (paréntesis) al final = Aparece un paréntesis de apertura en el código de formato.
+COLOR
+Devuelve 1 si los valores negativos aparecen formateados en color; de lo contrario, 0.
+PARENTHESES
+Devuelve 1 si el código de formato contiene un paréntesis de apertura "("; de lo contrario, 0.
+Referencia
+(lista de opciones) es la posición de la celda que se desea analizar. Si
+Referencia
+es un intervalo, la celda se desplazará a la esquina superior izquierda del intervalo. Si falta
+Referencia
+, LibreOffice Calc usa la posición de la celda en la que se encuentre la fórmula. Microsoft Excel usa la referencia de la celda en la que figura el cursor.
+ES.IMPAR_ADD
+Devuelve VERDADERO (1) si el número no es divisible por 2.
+Las funciones cuyos nombres acaban en _ADD o _EXCEL2003 devuelven los mismos resultados que las funciones correspondientes de Microsoft Excel 2003 sin el sufijo. Utilice las funciones sin sufijo para obtener resultados basados en estándares internacionales.
+Sintaxis
+ES.IMPAR_ADD(Número)
+Número
+es el valor que se pondrá a prueba.
+Ejemplo
+=ESIMPAR_ADD(5)
+devuelve 1.
+ESBLANCO
+Devuelve VERDADERO si la referencia es una celda vacía.
+Esta función se usa para determinar si una celda está vacía. Una celda con una fórmula en su interior no se considera vacía.
+Si se produce un error, la función devuelve un valor lógico o numérico.
+Sintaxis
+ESBLANCO(Valor)
+valor
+es el contenido que se debe verificar.
+Ejemplo
+=ESBLANCO(D2)
+devuelve FALSO como resultado.
+ESERR
+Comprueba si hay condiciones de error, salvo el valor de error #N/D, y devuelve VERDADERO o FALSO.
+Si se produce un error, la función devuelve un valor lógico o numérico.
+Sintaxis
+ESERR(Valor)
+Valor
+consiste en cualquier valor o expresión que se comprueba para ver si existe un valor de error distinto de #N/D.
+Ejemplo
+=ESERR(C8)
+, donde la celda C8 contiene
+=1/0
+, devuelve VERDADERO porque «1/0» es un error.
+=ISERR(C9)
+donde celda C9 contiene
+=NA()
+devuelve FALSO, porque ESERR() ignora el error #N/D.
+ESERROR
+Comprueba condiciones de error, incluido el valor de error #N/D, y devuelve VERDADERO o FALSO.
+Si se produce un error, la función devuelve un valor lógico o numérico.
+Sintaxis
+ESERROR(Valor)
+Valor
+es o se refiere al valor que debe comprobarse. ESERROR() devuelve VERDADERO si hay un error y FALSO si no lo hay.
+Ejemplo
+=ESERROR(C8)
+donde la celda C8 contiene
+=1/0
+devuelve VERDADERO porque 1/0 es un error.
+=ESERROR(C9)
+donde celda C9 contiene
+=NA()
+devuelve VERDADERO.
+ESFORMULA
+Devuelve VERDADERO si una celda tiene fórmula.
+Si se produce un error, la función devuelve un valor lógico o numérico.
+Sintaxis
+ESFORMULA(Referencia)
+Referencia
+indica la referencia a una celda en la que se realizará una comprobación para determinar si contiene una fórmula.
+Ejemplo
+=ESFORMULA(C4)
+devuelve FALSO si la celda C4 contiene el número
+5
+.
+ESIMPAR
+Devuelve VERDADERO si el valor es impar, o bien, FALSO si es par.
+Sintaxis
+ESIMPAR(Valor)
+Valor
+es el valor que se debe verificar.
+En el caso de los argumentos de tipo entero, los valores que no sean enteros se truncan al entero.
+Ejemplo
+=ESIMPAR(33)
+devuelve VERDADERO.
+=ESIMPAR(48)
+devuelve FALSO.
+=ESIMPAR(3.999)
+devuelve VERDADERO.
+=ESIMPAR(-3.1)
+devuelve VERDADERO.
+ESLOGICO
+Comprueba un valor lógico (VERDADERO o FALSO).
+Si un error ocurre, la función devuelve FALSO.
+Sintaxis
+ESLOGICO(Valor)
+Devuelve VERDADERO si
+Valor
+es un valor lógico (VERDADERO o FALSO); de lo contrario, devuelve FALSO.
+Ejemplo
+=ESLOGICO(99)
+devuelve FALSO, ya que 99 es un número, no un valor lógico.
+=ESLOGICO(ESNOD(D4))
+devuelve VERDADERO cualquiera sea el contenido de la celda D4, ya  que ESNOD() devuelve un valor lógico.
+ESNOD
+Devuelve VERDADERO si una celda contiene el valor de error #N/D (valor no disponible).
+Si un error ocurre, la función devuelve FALSO.
+Sintaxis
+ESNOD(Valor)
+Valor
+es el valor o una expresión que debe comprobarse.
+Ejemplo
+=ESNOD(D3)
+devuelve FALSO como resultado.
+ESNOTEXTO
+Verifica si el contenido de la celda es de texto o numérico, y devuelve FALSO si se trata de texto.
+La función devuelve VERDADERO, si ocurre un error.
+Sintaxis
+ESNOTEXTO(Valor)
+Valor
+es un valor o una expresión cualquiera en que se comprueba si es texto o numérico o si se trata de un valor booleano.
+Ejemplo
+=ESNOTEXTO(D2)
+devuelve FALSO si el contenido de la celda D2 contiene el texto
+abcdef
+.
+=ESNOTEXTO(D9)
+devuelve VERDADERO si la celda D9 contiene el número
+8
+.
+ESNUMERO
+Devuelve VERDADERO si el valor hace referencia a un número.
+Si se produce un error, la función devuelve un valor lógico o numérico.
+Sintaxis
+ESNUMERO(Valor)
+Valor
+es cualquier expresión que se deba verificar para determinar si es numérica o de texto.
+Ejemplo
+=ESNUMERO(C3)
+devuelve VERDADERO si la celda C3 contiene el número
+4
+.
+=ESNUMERO(C2)
+devuelve FALSO si la celda C2 contiene el texto
+abcdef
+.
+ESPAR
+Devuelve VERDADERO si el valor es un entero par o FALSO si es impar.
+Sintaxis
+ESPAR(Valor)
+Valor
+es el valor que se debe verificar.
+En el caso de los argumentos de tipo entero, los valores que no sean enteros se truncan al entero.
+Ejemplo
+=ESPAR(48)
+devuelve VERDADERO.
+=ESPAR(33)
+devuelve FALSO.
+=ESPAR(0)
+devuelve VERDADERO.
+=ESPAR(-2.1)
+devuelve VERDADERO.
+=ESPAR(3,999)
+devuelve FALSO.
+ESPAR_ADD
+Prueba para numeros impares. Devuelve 1 si el número dividido entre 2 devuelve un número entero.
+Las funciones cuyos nombres acaban en _ADD o _EXCEL2003 devuelven los mismos resultados que las funciones correspondientes de Microsoft Excel 2003 sin el sufijo. Utilice las funciones sin sufijo para obtener resultados basados en estándares internacionales.
+Sintaxis
+ES.IMPAR_ADD(número)
+Número
+es el valor que se pondrá a prueba.
+Ejemplo
+=ES.IMPAR_ADD(5)
+devuelve 0.
+=ESIMPAR_ADD(A1)
+resulta en 1 si la celda A1 contiene el número
+2
+.
+ESREF
+Comprueba si el argumento es una referencia.
+Devuelve VERDADERO si el argumento es una referencia, en caso contrario, FALSO. Cuando recibe una referencia, esta función no examina el valor referenciado.
+Si se produce un error, la función devuelve un valor lógico o numérico.
+Sintaxis
+ESREF(Valor)
+Valor
+es el valor que se debe verificar para determinar si es una referencia.
+Ejemplo
+=ESREF(C5)
+devuelve el resultado VERDADERO porque C5 es una referencia válida.
+=ESREF("abcdef")
+siempre devuelve FALSO por que un texto nunca puede ser una referencia.
+=ESREF(4)
+devuelve FALSO.
+=ESREF(INDIRECTO("A6"))
+devuelve VERDADERO, por que INDIRECTO es una función que devuelve una referencia.
+=ESREF(DIRECCION(1; 1; 2;"Hoja2"))
+devuelve FALSO porque DIRECCION es una función que devuelve texto, aunque se asemeje a una referencia.
+ESTEXTO
+Devuelve VERDADERO si el contenido de la celda hace referencia a texto.
+Si un error ocurre, la función devuelve FALSO.
+Sintaxis
+ESTEXTO(Valor)
+Valor
+es el valor, número o valor booleano o de error que se va a someter a prueba.
+Ejemplo
+=ESTEXTO(D9)
+devuelve VERDADERO si la celda D9 contiene el texto
+abcdef
+.
+=ESTEXTO(C3)
+devuelve FALSO si la celda C3 contiene el número
+3
+.
+FORMULA
+Muestra la fórmula de una celda de fórmula como cadena de texto.
+Esta función siempre se vuelve a calcular cada vez que se produce un cálculo nuevo.
+Sintaxis
+FORMULA(Referencia)
+Referencia
+es una referencia a una celda que contiene una formula.
+Una referencia no válida o una referencia a una celda sin fórmula genera el valor de error #N/D.
+Ejemplo
+Si la celda A8 contiene la formula
+=SUMA(1;2;3)
+entonces
+=FORMULA(A8)
+devuelve el texto =SUMA(1;2;3).
+INFO
+Devuelve información específica sobre el entorno de trabajo actual. La función recibe un argumento de texto único y devuelve datos según dicho parámetro.
+Esta función siempre se vuelve a calcular cada vez que se produce un cálculo nuevo.
+Sintaxis
+INFO("Tipo")
+La tabla siguiente contiene los valores del parámetro de texto
+Tipo
+aceptados por la fórmula INFO y lo que estos producen.
+Valor de «Tipo»
+Valor devuelto
+"osversion"
+La versión del sistema operativo. En sistemas Windows, siempre devuelve
+Windows (32-bit) NT 5.01
+, por razones de compatibilidad.
+"system"
+El tipo de sistema operativo:
+«ANDROID» para el sistema operativo móvil de Google
+«DRAGONFLY» para el sistema operativo DragonFly, derivado de FreeBSD
+«EMSCRIPTEN» para el sistema WebAssembly para navegadores
+«FREEBSD», «OPENBSD» o «NETBSD» para sistemas operativos basados en Berkeley Software Distribution (BSD)
+«HAIKU» para el sistema operativo compatible con BeOS
+«iOS» para el sistema operativo móvil de Apple
+«LINUX» para sistemas operativos basados en GNU/Linux
+«MACOSX» para macOS de Apple
+«SOLARIS» para el sistema operativo Oracle Solaris
+«WNT» para Microsoft Windows
+"release"
+El identificador de montaje, el mismo que se puede consultar en
+Ayuda ▸ Acerca de LibreOffice ▸ Montaje
+. Por ejemplo,
+1f77d10d6938fd34972958f64b2bcfa54f8b1ba5
+"numfile"
+Siempre 1, por cuestiones de compatibilidad
+"recalc"
+Modo de recálculo de la fórmula actual, «Automático» o «Manual» (traducido en el idioma de interfaz de LibreOffice)
+Aunque otras aplicaciones de gestión de hojas de cálculo podrían aceptar valores en varios idiomas en el parámetro
+Tipo
+, LibreOffice Calc solo acepta los valores en inglés especificados en la tabla anterior.
+Ejemplo
+=INFO("release")
+devuelve el número de versión de LibreOffice en uso.
+=INFO(D5)
+, donde la celda
+D5
+contiene la cadena de texto
+system
+, devuelve el tipo de sistema operativo.
+N
+Devuelve el valor numérico del parámetro dado. Devuelve 0 si el parámetro es texto o FALSO.
+Si ocurre un error, la función devuelve el valor del error.
+Sintaxis
+N(Valor)
+Valor
+es el parámetro a convertir en un número. N() devuelve el valor numérico si es posible. Devuelve los valores lógicos VERDADERO y FALSO como 1 y 0 respectivamente. Devuelve texto como 0.
+Ejemplo
+=N(123)
+devuelve 123
+=N(VERDADERO())
+devuelve 1
+=N(FALSO())
+devuelve 0
+=N("abc")
+devuelve 0
+=N(1/0) devuelve #¡DIV/0!
+NOD
+Devuelve el valor de error #N/D.
+Sintaxis
+NOD()
+Ejemplo
+=NOD()
+convierte el contenido de la celda en #N/D.
+SI.ERROR
+Devuelve el valor si la celda no contiene un valor de error, o el valor alternativo si lo contiene.
+Esta función está disponible a partir de la versión 4.0 de LibreOffice.
+Sintaxis
+SI.ERROR(Valor; Valor_alternativo)
+Valor
+es el valor o expresión que se devolverá si no es equivalente o si produce un error.
+Valor_alternativo
+es el valor o expresión que se devolverá si la expresión o valor de
+Valor
+no es equivalente o si produce un error.
+Ejemplo
+=SI.ERROR(C8;C9)
+, donde la celda C8 contiene
+=1/0
+, devolverá el valor de C9 porque «1/0» es un error.
+=SI.ERROR(C8;C9)
+donde la celda C8 contiene
+13
+devolverá 13 —el valor de C8—, que no es un error.
+SI.ND
+Devuelve el valor si la celda no contiene el error #N/D (valor no disponible), o si es el caso, el valor alternativo.
+Esta función está disponible a partir de la versión 4.0 de LibreOffice.
+Sintaxis
+SI.ND(Valor; Valor_alternativo)
+Valor
+es el valor o expresión que se devolverá si no es equivalente o si produce un error «#N/D».
+Valor_alternativo
+es el valor o expresión que se devolverá si la expresión o valor de
+Valor
+no es equivalente o si produce un error «#N/D».
+Ejemplo
+=SI.ND(D3;D4)
+devuelve el valor de D3 si D3 no resulta en un error #N/D; de lo contrario, devuelve el valor de D4.
+TIPO
+Devuelve el tipo de valor, donde 1 = número, 2 = texto, 4 = valor booleano, 8 = fórmula, 16 = valor de error, y 64 = matriz.
+Si se produce un error, la función devuelve un valor lógico o numérico.
+Sintaxis
+TIPO(Valor)
+Valor
+es un valor específico cuyo tipo de datos se debe determinar.
+Ejemplo (véase arriba la tabla con ejemplos)
+=TIPO(C2)
+devuelve 2 como un resultado.
+=TIPO(D9)
+devuelve 1 como resultado.
+Temas relacionados
+Funciones por categoría
+¡Necesitamos su ayuda!
+Guías de LibreOffice
+Impressum (Legal Info)
+|
+Privacy Policy
+|
+Statutes (non-binding English translation)
+-
+Satzung (binding German version)
+| Copyright information: Unless otherwise specified, all text and images on this website are licensed under the
+Mozilla Public License v2.0
+. “LibreOffice” and “The Document Foundation” are registered trademarks of their corresponding registered owners or are in actual use as trademarks in one or more countries. Their respective logos and icons are also subject to international copyright laws. Use thereof is explained in our
+trademark policy
+. LibreOffice was based on OpenOffice.org.
+Help content debug info:
+This page is:
+/text/scalc/01/04060104.xhp
+Title is: Funciones de información

@@ -1,0 +1,444 @@
+Funciones estadísticas, segunda parte
+Ayuda de LibreOffice 26.8
+Módulo
+Idioma
+Contenido
+Active JavaScript en el navegador para mostrar las páginas de ayuda de LibreOffice.
+Funciones estadísticas, segunda parte
+DIST.F
+Calcula los valores del lateral izquierdo de la distribución F.
+Sintaxis
+DIST.F(Número; Grados de libertad 1; Grados de libertad 2 [; Acumulativo])
+Número
+es el valor para el cual se calculará la distribución F.
+GradosdeLibertad1
+son los grados de libertad en el numerador de la distribución F.
+GradosdeLibertad2
+son los grados de libertad en el denominador de la distribución F.
+Acumulado
+= 0 o Falso calcula la función de densidad
+Acumulado
+= 1 o Verdadero calcula la distribución.
+Ejemplo
+=DIST.F(0,8;8;12;0)
+da 0.7095282499.
+=DIST.F(0,8;8;12;1)
+da 0.3856603563.
+Información técnica
+Esta función está disponible a partir de la versión 4.2 de LibreOffice.
+This function is
+NOT
+part of the
+Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format
+standard. The name space is
+COM.MICROSOFT.F.DIST
+DISTR.F
+Calcula el valor de la función de distribución F.
+Sintaxis
+DISTR.F(Número; GradosdeLibertad1; GradosdeLibertad2)
+Número
+es el valor para el cual se debe calcular la distribución F.
+GradosdeLibertad1
+son los grados de libertad en el numerador de la distribución F.
+GradosdeLibertad2
+son los grados de libertad en el denominador de la distribución F.
+En el caso de los argumentos de tipo entero, los valores que no sean enteros se truncan al entero.
+Ejemplo
+=DISTR.F(0,8;8;12)
+da 0,61.
+DISTR.F.CD
+Calcula los valores del caudal derecho de la distribución F.
+Sintaxis
+DISTR.F.CD(Número; GradosdeLibertad1; GradosdeLibertad2)
+Número
+es el valor para el cual se calculará la distribución F.
+GradosdeLibertad1
+son los grados de libertad en el numerador de la distribución F.
+GradosdeLibertad2
+son los grados de libertad en el denominador de la distribución F.
+Ejemplo
+=DISTR.F.CD(0,8;8;12)
+da  0.6143396437.
+Información técnica
+Esta función está disponible a partir de la versión 4.2 de LibreOffice.
+This function is
+NOT
+part of the
+Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format
+standard. The name space is
+COM.MICROSOFT.F.DIST.RT
+DISTR.F.INV
+Devuelve el inverso de la distribución de probabilidad F.
+La distribución F se utiliza en pruebas F para establecer la relación entre dos grupos de datos distintos.
+Sintaxis
+DISTR.F.INV(Número; GradosdeLibertad1; GradosdeLibertad2)
+Número
+es el valor del intervalo de probabilidad para el cual se debe calcular la distribución F inversa.
+GradosdeLibertad1
+es el número de grados de libertad en el numerador de la distribución F.
+GradosdeLibertad2
+es el número de grados de libertad en el denominador de la distribución F.
+En el caso de los argumentos de tipo entero, los valores que no sean enteros se truncan al entero.
+Ejemplo
+=DISTR.F.INV(0,5;5;10)
+da 0,93.
+DISTR.GAMMA
+Devuelve el valor de una distribución gamma.
+La función inversa es DISTR.GAMMA.INV.
+Sintaxis
+DISTR.GAMMA(Número; Alfa; Beta [; C])
+Número
+es el valor para el cual se debe calcular la distribución Gamma.
+Alfa
+es el parámetro Alfa de la distribución Gamma.
+Beta
+es el parámetro Beta de la distribución Gamma.
+C
+(opcional) = 0 o Falso calcula la función de densidad.
+C
+= 1 o Verdadero calcula la distribución.
+Ejemplo
+=DISTR.GAMMA(2;1;1;1)
+da 0,86.
+DISTR.GAMMA
+Devuelve el valor de una distribución gamma.
+La función inversa es DISTR.GAMMA.INV o INV.GAMMA
+Esta función es parecida a DISTR.GAMMA y se adoptó por razones de interoperatividad con otros paquetes de oficina.
+Sintaxis
+DISTR.GAMMA.N(Número; Alfa; Beta; Acumulada)
+Número
+es el valor para el cual se debe calcular la distribución Gamma.
+Alfa
+es el parámetro Alfa de la distribución Gamma.
+Beta
+es el parámetro Beta de la distribución Gamma.
+Acumulada
+= 0 o Falso calcula la función de densidad de probabilidad.
+Acumulada
+=1, Verdadero u otros valores calcula la función de distribución acumulada.
+Ejemplo
+=DISTR.GAMMA(2;1;1;1)
+da 0,86.
+Información técnica
+Esta función está disponible a partir de la versión 4.3 de LibreOffice
+This function is
+NOT
+part of the
+Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format
+standard. The name space is
+COM.MICROSOFT.GAMMA.DIST
+DISTR.GAMMA.INV
+Devuelve el inverso de la distribución gamma acumulativa DISTR.GAMMA.
+Esta función permite buscar variables con distribución diferente.
+Sintaxis
+DISTR.GAMMA.INV(probabilidad; alfa; beta)
+Número
+es el valor del intervalo de probabilidad para el cual se debe calcular la distribución Gamma inversa.
+Alfa
+es el parámetro Alfa de la distribución Gamma.
+Beta
+es el parámetro Beta de la distribución Gamma.
+Ejemplo
+=DISTR.GAMMA.INV(0,8;1;1)
+da 1,61.
+DISTR.HIPERGEOM
+Devuelve la distribución hipergeométrica.
+Sintaxis
+DISTR.HIPERGEOM(X; Ejemplo N; ; Éxitos; Población N [; Acumulativa])
+X
+es el número de resultados obtenidos en la muestra aleatoria.
+EjemploN
+es el tamaño del ejemplo aleatorio.
+Éxitos
+es el número de posibles resultados en la población total.
+PoblaciónN
+es el tamaño de la población total.
+Acumulativo
+(opcional) especifica si se debe calcular la función de mayor probabilidad (FALSO o 0) o la función de distribución acumulada (cualquier otro valor). La función de mayor probabilidad es la predeterminada si no se especifica ningún valor para este parámetro.
+Ejemplo
+=DISTR.HIPERGEOM(2;2;90;100)
+da 0,81. Si 90 de cada 100 piezas de tostadas con mantequilla que caen de una mesa caen sobre el suelo con el lado untado primero, entonces si se caen 2 tostadas con mantequilla de la mesa, la probabilidad de que ambas caigan con el lado untado primero es del 81 %.
+DISTR.HIPERGEOM
+Devuelve la distribución hipergeométrica.
+Sintaxis
+DISTR.HIPERGEOM(X; EjemploN; Éxitos; PoblaciónN, Acumulado)
+X
+es el número de resultados obtenidos en la muestra aleatoria.
+EjemploN
+es el tamaño del ejemplo aleatorio.
+Éxitos
+es el número de resultados posibles en la población total.
+PoblaciónN
+es el tamaño de la población total.
+Acumulado
+: 0 o Falso calcula la función de densidad de probabilidad. Otros valores o Verdadero calcula la función de distribución acumulada.
+Ejemplo
+=DISTR.HIPERGEOM.N(2;2;90;100;0)
+da 0,8090909091. Si 90 de cada 100 piezas de tostadas con mantequilla que caen de una mesa caen sobre el suelo con el lado untado primero, entonces si se caen 2 tostadas con mantequilla de la mesa, la probabilidad de que ambas caigan con el lado untado primero es del 81 %.
+=DISTR.HIPERGEOM.N(2;2;90;100;1)
+da 1.
+Información técnica
+Esta función está disponible a partir de la versión 4.2 de LibreOffice.
+This function is
+NOT
+part of the
+Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format
+standard. The name space is
+COM.MICROSOFT.HYPGEOM.DIST
+F.INV
+Devuelve el inverso de la distribución acumulativa F.
+La distribución F se utiliza en pruebas F para establecer la relación entre dos grupos de datos distintos.
+Sintaxis
+F.INV(Número; GradosdeLibertad1; GradosdeLibertad2)
+Número
+es el valor de probabilidad para el cual se calculará la distribución F inversa.
+GradosdeLibertad1
+es el número de grados de libertad en el numerador de la distribución F.
+GradosdeLibertad2
+es el número de grados de libertad en el denominador de la distribución F.
+Ejemplo
+=F.INV(0,5;5;10)
+da 0.9319331609.
+Información técnica
+Esta función está disponible a partir de la versión 4.2 de LibreOffice.
+This function is
+NOT
+part of the
+Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format
+standard. The name space is
+COM.MICROSOFT.F.INV
+FISHER
+Devuelve la función inversa de la transformación de Fisher para x y crea una función que se distribuye de forma casi normal.
+Sintaxis
+FISHER(número)
+Número
+es el valor que se transformará.
+Ejemplo
+=FISHER(0,5)
+da 0,55.
+GAMMA
+Devuelve el valor de la función Gamma.
+DISTR.GAMMA.INV no es el inverso de GAMMA, sino de DISTR.GAMMA.
+Sintaxis
+GAMMA(Número)
+Número
+es el número para el que debe calcularse la función Gamma.
+GAMMA.LN
+Devuelve el logaritmo natural de la función gamma: G(x).
+Sintaxis
+GAMMA.LN(X)
+Número
+es el valor para el que debe calcularse el logaritmo natural de la función Gamma.
+Ejemplo
+=GAMMA.LN(2)
+da 0.
+GAMMA.LN.EXACTO
+Devuelve el logaritmo natural de la función gamma: G(x).
+Sintaxis
+GAMMA.LN.EXACTO(Número)
+Número
+es el valor para el que debe calcularse el logaritmo natural de la función gamma.
+Ejemplo
+=GAMMA.LN.EXACTO(2)
+da 0.
+Información técnica
+Esta función está disponible a partir de la versión 4.3 de LibreOffice
+This function is
+NOT
+part of the
+Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format
+standard. The name space is
+COM.MICROSOFT.GAMMALN.PRECISE
+GAUSS
+Calcula la distribución normal predeterminada acumulativa.
+Es GAUSS(x)=NORMSDIST(x)-0.5
+Sintaxis
+GAUSS(Número)
+Número
+es el valor para el que se calculará el valor de la distribución normal estándar.
+Ejemplo
+=GAUSS(0,19)
+= 0,08
+=GAUSS(0,0375)
+= 0,01
+INV.F.CD
+Calcula la cola derecha inversa de la distribución F.
+Sintaxis
+INV.F.CD(Número; GradosDeLibertad1; GradosDeLibertad2)
+Número
+es el valor de la probabilidad para el cual se debe calcular la distribución F inversa.
+GradosdeLibertad1
+es el número de grados de libertad en el numerador de la distribución F.
+GradosdeLibertad2
+es el número de grados de libertad en el denominador de la distribución F.
+Ejemplo
+=INV.F.CD(0,5;5;10)
+da 0.9319331609.
+Información técnica
+Esta función está disponible a partir de la versión 4.2 de LibreOffice.
+This function is
+NOT
+part of the
+Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format
+standard. The name space is
+COM.MICROSOFT.F.INV.RT
+INV.GAMMA
+Devuelve el inverso de la distribución gamma acumulativa DISTR.GAMMA.
+Esta función permite buscar variables con distribución diferente.
+Esta función es idéntica a DISTR.GAMMA.INV y se ha introducido por razones de interoperatividad con otros paquetes de oficina.
+Sintaxis
+DISTR.GAMMA.INV(Número; Alfa; Beta)
+Número
+es el valor del intervalo de probabilidad para el cual se debe calcular la distribución Gamma inversa.
+Alfa
+es el parámetro Alfa de la distribución Gamma.
+Beta
+es el parámetro Beta de la distribución Gamma.
+Ejemplo
+=DISTR.GAMMA.INV(0,8;1;1)
+da 1,61.
+Información técnica
+Esta función está disponible a partir de la versión 4.3 de LibreOffice
+This function is
+NOT
+part of the
+Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format
+standard. The name space is
+COM.MICROSOFT.GAMMA.INV
+MEDIA.ACOTADA
+Calcula el promedio de un grupo de datos sin tener en cuenta el porcentaje alfa de los datos en los márgenes.
+Sintaxis
+MEDIA.ACOTADA(datos; alfa)
+Datos
+es la matriz de datos en la muestra.
+Alfa
+es el porcentaje de datos marginales que no se tendrán en cuenta.
+Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de
+resalte de valores
+.
+Ejemplo
+=MEDIA.ACOTADA(A1:A50; 0,1)
+calcula el promedio de los números en A1:A50, sin tener en cuenta el 5 por ciento de valores más bajos y el 5 por ciento de valores más altos. Los porcentajes se aplican a la cantidad del promedio no recortado, no a la cantidad de los sumandos.
+MEDIA.ARMO
+Calcula la media armonizada de un grupo de datos.
+Sintaxis
+MEDIA.ARMO(Argument 1 [; Argument 2 [; …  [; Argument 255]]])
+Argument 1; Argument 2; … ; Argument 255
+are numbers, text, references to cells or to cell ranges of numbers or text.
+Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de
+resalte de valores
+.
+Ejemplo
+=MEDIA.ARMO(23;46;69)
+= 37,64. La media armónica de este ejemplo aleatorio es, por tanto, 37,64.
+MEDIA.GEOM
+Devuelve la media geométrica de una muestra.
+Sintaxis
+MEDIA.GEOM(Argument 1 [; Argument 2 [; …  [; Argument 255]]])
+Argument 1; Argument 2; … ; Argument 255
+are numbers, text, references to cells or to cell ranges of numbers or text.
+Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de
+resalte de valores
+.
+Ejemplo
+=MEDIA.GEOM(23;46;69)
+= 41,79. El valor de la media geométrica de este ejemplo aleatorio es, por tanto, 41,79.
+PRUEBA.F
+Devuelve el resultado de una prueba F.
+Sintaxis
+PRUEBA.F(Datos1; Datos2)
+Datos1
+es la primera matriz de registros.
+Datos2
+es la segunda matriz de registros.
+Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de
+resalte de valores
+.
+Ejemplo
+=PRUEBA.F(A1:A30;B1:B12)
+calcula si los dos conjuntos de datos son distintos en su varianza y devuelve la probabilidad de que ambos conjuntos procedan de la misma población total.
+PRUEBA.F.N
+Devuelve el resultado de una prueba F.
+Sintaxis
+PRUEBA.F.N(Datos1; Datos2)
+Datos1
+es la primera matriz de registros.
+Datos2
+es la segunda matriz de registros.
+Ejemplo
+=PRUEBA.F.N(A1:A30;B1:B12)
+calcula si los dos conjuntos de datos son distintos en su varianza y devuelve la probabilidad de que ambos conjuntos procedan de la misma población total.
+Información técnica
+Esta función está disponible a partir de la versión 4.2 de LibreOffice.
+This function is
+NOT
+part of the
+Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format
+standard. The name space is
+COM.MICROSOFT.F.TEST
+PRUEBA.FISHER.INV
+Devuelve la función inversa de la transformación de Fisher para X y da como resultado una función que se distribuye de forma casi normal.
+Sintaxis
+PRUEBA.FISHER.INV(número)
+Número
+es el valor que va a recibir una transformación inversa.
+Ejemplo
+=PRUEBA.FISHER.INV(0,5)
+da 0,46.
+PRUEBA.Z
+Calcula la probabilidad de observar un estadístico z mayor que el calculado basado en una muestra.
+Sintaxis
+PRUEBA.Z(Datos; mu [; Sigma])
+Datos
+es la muestra dada, extraída de una población distribuida normalmente.
+mu
+es la media conocida de la población.
+Sigma
+(opcional) es la desviación típica conocida de la población. Si se omite, se utiliza la desviación típica de la muestra indicada.
+Véase también el
+Página de la Wiki
+.
+Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de
+resalte de valores
+.
+PRUEBA.Z.N
+Calcula la probabilidad de observar una estadística z mayor que la calculada a partir de una muestra.
+Sintaxis
+PRUEBA.Z(Datos; mu [; Sigma])
+Datos
+es la muestra dada, extraída de una población distribuida normalmente.
+mu
+es la media conocida de la población.
+Sigma
+(opcional) es la desviación típica conocida de la población. Si se omite, se utiliza la desviación típica de la muestra indicada.
+Ejemplo
+=PRUEBA.Z.N(A2:A20;9;2)
+devuelve el resultado de una prueba z de la muestra A2:A20 obtenida de una población con una media conocida de 9 y una desviación estándar de 2.
+Información técnica
+Esta función está disponible a partir de la versión 4.3 de LibreOffice
+This function is
+NOT
+part of the
+Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format
+standard. The name space is
+COM.MICROSOFT.Z.TEST
+Temas relacionados
+Funciones por categoría
+¡Necesitamos su ayuda!
+Guías de LibreOffice
+Impressum (Legal Info)
+|
+Privacy Policy
+|
+Statutes (non-binding English translation)
+-
+Satzung (binding German version)
+| Copyright information: Unless otherwise specified, all text and images on this website are licensed under the
+Mozilla Public License v2.0
+. “LibreOffice” and “The Document Foundation” are registered trademarks of their corresponding registered owners or are in actual use as trademarks in one or more countries. Their respective logos and icons are also subject to international copyright laws. Use thereof is explained in our
+trademark policy
+. LibreOffice was based on OpenOffice.org.
+Help content debug info:
+This page is:
+/text/scalc/01/04060182.xhp
+Title is: Funciones estadísticas, segunda parte

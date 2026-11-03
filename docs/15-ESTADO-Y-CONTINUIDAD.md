@@ -1,14 +1,14 @@
-# Estado de MEE y continuidad ·31/10/2026 ·Europe/Madrid
+# Estado de MEE y continuidad ·03/11/2026 ·Europe/Madrid
 
 ## Estado actual
 
-**646/840 terminadas, 1938 imágenes originales públicas, 0 en curso o borradores WordPress y 194 pendientes**. Adaptabilidad Técnica3/15; 41 tandas completas.
+**649/840 terminadas, 1947 imágenes originales públicas, 0 en curso o borradores WordPress y 191 pendientes**. Adaptabilidad Técnica6/15; 41 tandas completas.
 
 Fuente activa `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Inicio586; 60 nuevas entradas y180originales públicos.
+Inicio586; 63 nuevas entradas y189originales públicos.
 
 | Global | ID | URL | Imágenes |
 |---|---|---|---|
@@ -72,6 +72,9 @@ Inicio586; 60 nuevas entradas y180originales públicos.
 |646|E4.12.01|https://moevec.org/blog/adaptabilidad-tecnica-que-es/|3/3|
 |647|E4.12.02|https://moevec.org/blog/difusion-de-tecnologias/|3/3|
 |648|E4.12.03|https://moevec.org/blog/alfabetizacion-digital-basica/|3/3|
+|650|E4.12.05|https://moevec.org/blog/ia-para-pequenos-negocios/|3/3|
+|651|E4.12.06|https://moevec.org/blog/herramientas-sin-codigo/|3/3|
+|652|E4.12.07|https://moevec.org/blog/aprender-a-programar/|3/3|
 
 ## Revisión del último bloque
 
@@ -79,13 +82,13 @@ Fuentes y alcances por artículo en research-notes.md y source-review.json. Caso
 
 ## Continuación exacta
 
-Continuar **649–651 / E4.12.04–E4.12.06**, Trabajo → Adaptabilidad Técnica. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **652–654**. **501/E4.2.06 y512/E4.3.02** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Continuar **653–655 / E4.12.08–E4.12.10**, Trabajo → Adaptabilidad Técnica. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **656–658**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
 
 ## Copias y capacidad
 
-VPS `/data/mee-backups/produccion-840-incremento-646-648-20261031`: SQL vigente `wordpress.sql` 25277081B, 66medios nuevos. Cadena204más base, huecos501/512. Hashes y miembros comprobados; sin nueva prueba de arranque de restauración. ZIP local incremental y prueba de entrega externos, con toda la cadena anterior conservada.
+VPS `/data/mee-backups/produccion-840-incremento-650-652-20261103`: SQL vigente `wordpress.sql` 25378968B, 66medios nuevos. Cadena205más base, huecos501/512/649. Hashes y miembros comprobados; sin nueva prueba de arranque de restauración. ZIP local incremental y prueba de entrega externos, con toda la cadena anterior conservada.
 
-Capacidad local recuperada. Comprobar espacio antes de cada generación y copia; capacidad recuperada comprobada en esta ejecución; registro de entrega anterior y referencia de Git recuperados. Umbral operativo200MiB antes de generar, y copias proporcionales con margen calculado; conservar todas las copias y originales. Automatización del mismo chat cada tres minutos, según petición del fundador.
+Comprobar espacio antes de cada generación y copia; capacidad medida y prueba de entrega previa conservada. Umbral operativo200MiB antes de generar, y copias proporcionales con margen calculado; conservar todas las copias y originales. Automatización del mismo chat cada tres minutos, según petición del fundador.
 
 ## Página de apoyo, donaciones y publicidad · 29/10/2026
 

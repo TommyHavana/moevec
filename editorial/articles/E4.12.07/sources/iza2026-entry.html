@@ -1,0 +1,1626 @@
+<!DOCTYPE html>
+<html class="h-full " lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow, noodp">
+
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="iza">
+    <meta name="apple-mobile-web-app-title" content="iza">
+    <meta name="msapplication-starturl" content="/">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Cabin:wght@400;500;600;700&display=swap">
+
+    <title>
+                    Generative AI and the Redefinition of Entry-Level Software Work |
+        
+        IZA - Institute of Labor Economics
+    </title>
+
+            <meta name="description" content="Generative AI may change how firms define occupations. We study this process in software development, where large language models overlap with tasks c...">
+    
+                                        <meta property="og:title" content="Generative AI and the Redefinition of Entry-Level Software Work">
+                                                <meta property="og:type" content="article">
+                                                <meta property="og:image" content="none">
+                                                <meta property="og:description" content="Generative AI may change how firms define occupations. We study this process in software development, where large language models overlap with tasks c...">
+                                                <meta property="og:url" content="https://www.iza.org/publications/dp/18723/generative-ai-and-the-redefinition-of-entry-level-software-work">
+                        
+    
+    <link href="https://www.iza.org/vendor/iza/css/tw.css" rel="stylesheet">
+
+    
+    
+    </head>
+
+<body class="min-h-screen flex flex-col bg-white text-gray-900 font-cabin ">
+
+<script>
+    window.__navItems = [{"id":1,"parent_id":null,"visible":true,"order":1,"icon":null,"label_de":[{"id":1,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":1,"language":"de","purpose":"label","text":"\u00dcber uns"}],"label_en":[{"id":2,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":1,"language":"en","purpose":"label","text":"About us"}],"target_de":[{"id":3,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":1,"language":"de","purpose":"target","text":"\/ueber-uns"}],"target_en":[{"id":4,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":1,"language":"en","purpose":"target","text":"\/about-us"}],"children":[{"id":6,"parent_id":1,"visible":true,"order":1,"icon":"fas fa-home","label_de":[{"id":21,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":6,"language":"de","purpose":"label","text":"\u00dcberblick"}],"label_en":[{"id":22,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":6,"language":"en","purpose":"label","text":"Overview"}],"target_de":[{"id":23,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":6,"language":"de","purpose":"target","text":"\/ueber-uns"}],"target_en":[{"id":24,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":6,"language":"en","purpose":"target","text":"\/about-us"}],"children":[]},{"id":9,"parent_id":1,"visible":true,"order":2,"icon":null,"label_de":[{"id":33,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":9,"language":"de","purpose":"label","text":"Management-Team"}],"label_en":[{"id":34,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":9,"language":"en","purpose":"label","text":"Management team"}],"target_de":[{"id":35,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":9,"language":"de","purpose":"target","text":"\/ueber-uns\/management-team"}],"target_en":[{"id":36,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":9,"language":"en","purpose":"target","text":"\/about-us\/management-team"}],"children":[]},{"id":41,"parent_id":1,"visible":true,"order":3,"icon":null,"label_de":[{"id":161,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":41,"language":"de","purpose":"label","text":"Auszeichnungen"}],"label_en":[{"id":162,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":41,"language":"en","purpose":"label","text":"Awards"}],"target_de":[{"id":163,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":41,"language":"de","purpose":"target","text":"\/ueber-uns\/auszeichnungen"}],"target_en":[{"id":164,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":41,"language":"en","purpose":"target","text":"\/about-us\/awards"}],"children":[]},{"id":10,"parent_id":1,"visible":true,"order":4,"icon":null,"label_de":[{"id":37,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":10,"language":"de","purpose":"label","text":"Historie"}],"label_en":[{"id":38,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":10,"language":"en","purpose":"label","text":"History"}],"target_de":[{"id":39,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":10,"language":"de","purpose":"target","text":"\/ueber-uns\/historie"}],"target_en":[{"id":40,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":10,"language":"en","purpose":"target","text":"\/about-us\/history"}],"children":[]}]},{"id":42,"parent_id":null,"visible":true,"order":2,"icon":null,"label_de":[{"id":165,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":42,"language":"de","purpose":"label","text":"Netzwerk"}],"label_en":[{"id":166,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":42,"language":"en","purpose":"label","text":"Network"}],"target_de":[{"id":167,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":42,"language":"de","purpose":"target","text":"\/netzwerk"}],"target_en":[{"id":168,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":42,"language":"en","purpose":"target","text":"\/network"}],"children":[{"id":45,"parent_id":42,"visible":true,"order":1,"icon":"far fa-chart-network","label_de":[{"id":177,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":45,"language":"de","purpose":"label","text":"\u00dcberblick"}],"label_en":[{"id":178,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":45,"language":"en","purpose":"label","text":"Overview"}],"target_de":[{"id":179,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":45,"language":"de","purpose":"target","text":"\/netzwerk"}],"target_en":[{"id":180,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":45,"language":"en","purpose":"target","text":"\/network"}],"children":[]},{"id":46,"parent_id":42,"visible":true,"order":2,"icon":null,"label_de":[{"id":181,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":46,"language":"de","purpose":"label","text":"Research Fellows"}],"label_en":[{"id":182,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":46,"language":"en","purpose":"label","text":"Research Fellows"}],"target_de":[{"id":183,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":46,"language":"de","purpose":"target","text":"\/network\/search?type=fellows\u0026page=1\u0026view=card#people"}],"target_en":[{"id":184,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":46,"language":"en","purpose":"target","text":"\/network\/search?type=fellows\u0026page=1\u0026view=card#people"}],"children":[]},{"id":47,"parent_id":42,"visible":true,"order":3,"icon":null,"label_de":[{"id":185,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":47,"language":"de","purpose":"label","text":"Research Affiliates"}],"label_en":[{"id":186,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":47,"language":"en","purpose":"label","text":"Research Affiliates"}],"target_de":[{"id":187,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":47,"language":"de","purpose":"target","text":"\/network\/search?page=1\u0026type=affiliates\u0026view=card#people"}],"target_en":[{"id":188,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":47,"language":"en","purpose":"target","text":"\/network\/search?page=1\u0026type=affiliates\u0026view=card#people"}],"children":[]},{"id":50,"parent_id":42,"visible":true,"order":4,"icon":null,"label_de":[{"id":197,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":50,"language":"de","purpose":"label","text":"Network Advisory Panel"}],"label_en":[{"id":198,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":50,"language":"en","purpose":"label","text":"Network Advisory Panel"}],"target_de":[{"id":199,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":50,"language":"de","purpose":"target","text":"\/network\/network-advisory-panel"}],"target_en":[{"id":200,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":50,"language":"en","purpose":"target","text":"\/network\/network-advisory-panel"}],"children":[]}]},{"id":3,"parent_id":null,"visible":true,"order":3,"icon":null,"label_de":[{"id":9,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":3,"language":"de","purpose":"label","text":"Publikationen"}],"label_en":[{"id":10,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":3,"language":"en","purpose":"label","text":"Publications"}],"target_de":[{"id":11,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":3,"language":"de","purpose":"target","text":"\/publikationen"}],"target_en":[{"id":12,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":3,"language":"en","purpose":"target","text":"\/publications"}],"children":[{"id":13,"parent_id":3,"visible":true,"order":1,"icon":"far fa-book-open","label_de":[{"id":49,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":13,"language":"de","purpose":"label","text":"\u00dcberblick"}],"label_en":[{"id":50,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":13,"language":"en","purpose":"label","text":"Overview"}],"target_de":[{"id":51,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":13,"language":"de","purpose":"target","text":"\/publikationen"}],"target_en":[{"id":52,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":13,"language":"en","purpose":"target","text":"\/publications"}],"children":[]},{"id":21,"parent_id":3,"visible":true,"order":2,"icon":null,"label_de":[{"id":81,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":21,"language":"de","purpose":"label","text":"Discussion Papers"}],"label_en":[{"id":82,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":21,"language":"en","purpose":"label","text":"Discussion Papers"}],"target_de":[{"id":83,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":21,"language":"de","purpose":"target","text":"\/publications\/dp"}],"target_en":[{"id":84,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":21,"language":"en","purpose":"target","text":"\/publications\/dp"}],"children":[]},{"id":28,"parent_id":3,"visible":true,"order":3,"icon":null,"label_de":[{"id":109,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":28,"language":"de","purpose":"label","text":"World of Labour"}],"label_en":[{"id":110,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":28,"language":"en","purpose":"label","text":"World of Labour"}],"target_de":[{"id":111,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":28,"language":"de","purpose":"target","text":"https:\/\/wol.iza.org\/"}],"target_en":[{"id":112,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":28,"language":"en","purpose":"target","text":"https:\/\/wol.iza.org\/"}],"children":[]}]},{"id":4,"parent_id":null,"visible":true,"order":4,"icon":null,"label_de":[{"id":13,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":4,"language":"de","purpose":"label","text":"Events"}],"label_en":[{"id":14,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":4,"language":"en","purpose":"label","text":"Events"}],"target_de":[{"id":15,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":4,"language":"de","purpose":"target","text":"\/events"}],"target_en":[{"id":16,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":4,"language":"en","purpose":"target","text":"\/events"}],"children":[{"id":14,"parent_id":4,"visible":true,"order":1,"icon":"far fa-calendar-alt","label_de":[{"id":53,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":14,"language":"de","purpose":"label","text":"\u00dcberblick"}],"label_en":[{"id":54,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":14,"language":"en","purpose":"label","text":"Overview"}],"target_de":[{"id":55,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":14,"language":"de","purpose":"target","text":"\/events"}],"target_en":[{"id":56,"locatable_type":"Iza\\Cms\\Models\\NavigationItem","locatable_id":14,"language":"en","purpose":"target","text":"\/events"}],"children":[]}]}];
+    window.__navLocale = "de";
+</script>
+<nav
+        x-data="{
+          items: window.__navItems || [],
+          loc: window.__navLocale || 'en',
+          mobileNav: { open: false, level: 1, activeIndex: null },
+
+          openSecondLevel(i){ this.mobileNav.level = 2; this.mobileNav.activeIndex = i; },
+          goBack(){ this.mobileNav.level = 1; this.mobileNav.activeIndex = null; },
+
+          activeItem(){
+            const key = this.mobileNav.activeIndex;
+            if (key === null || key === undefined) return null;
+
+            if (Array.isArray(this.items)) {
+              return this.items[key] ?? null;
+            }
+
+            const direct = this.items[key];
+            if (direct) return direct;
+
+            const vals = Object.values(this.items);
+            return vals[key] ?? null;
+          },
+
+          activeLabel(){
+            const item = this.activeItem();
+            if (!item) return '';
+            return (item['label_'+this.loc]?.[0]?.text) ?? '';
+          },
+
+          activeChildren(){
+            const item = this.activeItem();
+            if (!item) return [];
+
+            const kids = item.children ?? [];
+            return Array.isArray(kids) ? kids : Object.values(kids);
+          }
+        }"
+        class="fixed top-0 inset-x-0 z-50 border-b border-gray-200"
+>
+    <div class="w-full bg-black h-10 hidden md:flex justify-center text-white text-[12px] font-inter">
+        <div class="w-full max-w-[1600px] px-5 lg:px-20 flex items-center justify-end gap-5">
+
+            <a href="https://liser.lu" target="_blank" class="font-semibold hover:text-gray-300">
+                LISER
+            </a>
+
+            <a href="https://liser.lu/policy-lab" target="_blank" class="font-semibold hover:text-gray-300">
+                Policy Lab
+            </a>
+
+            <a href="https://wol.iza.org" target="_blank" class="font-semibold hover:text-gray-300">
+                World of Labour
+            </a>
+
+            <div class="h-5 w-px bg-white"></div>
+
+            <a href="https://lounge.iza.org" target="_blank" class="font-semibold hover:text-gray-300">
+                Login
+            </a>
+
+            <div class="h-5 w-px bg-white"></div>
+
+            <div class="flex items-center gap-2 font-semibold">
+                                    <a href="https://www.iza.org/cms/language/de/publications/dp/18723"
+                       class="text-gray-400">
+                        DE
+                    </a>
+                                    <a href="https://www.iza.org/cms/language/en/publications/dp/18723"
+                       class="text-white hover:text-gray-300">
+                        EN
+                    </a>
+                            </div>
+
+        </div>
+    </div>
+    <div class="w-full bg-white flex justify-center">
+        <div class="w-full max-w-[1600px] px-5 lg:px-20 h-20 flex items-center justify-between gap-6">
+            <a href="https://www.iza.org" class="flex items-center">
+                <img
+                        src="https://www.iza.org/vendor/iza/img/IZA NETWORK-LOGO-COLOR-RGB 1.svg"
+                        alt="IZA Network"
+                        class="h-16 w-auto"
+                >
+            </a>
+            <div
+                    class="hidden md:flex items-center justify-end gap-4 flex-1 font-cabin"
+                    x-data="{ searchOpen: false }"
+                    @keydown.escape.window="searchOpen = false"
+            >
+                
+                <div x-show="!searchOpen" class="flex items-center justify-end gap-4 flex-1">
+                                            
+                        <div class="relative group/nav">
+                            <a
+                                    href="/ueber-uns"
+                                                                        class="relative h-20 flex items-center px-5 gap-[15px]
+                           text-[16px] text-black tracking-[0.03em] font-semibold
+                           group-hover/nav:bg-[#00091e] group-hover/nav:text-white
+                           transition-colors duration-150"
+                            >
+                                <span>Über uns</span>
+
+                                                                    <span class="inline-flex items-center justify-center h-5 w-5">
+                            <span class="rotate-wrapper transition-transform duration-300 group-hover/nav:rotate-180">
+                                <svg class="h-full w-full scale-150 translate-y-[2px]"
+                                     width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6 8L12 14L18 8" stroke="currentColor" stroke-width="1.5"
+                                          stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </span>
+                        </span>
+                                                            </a>
+
+                                                            <div
+                                        class="absolute left-0 top-full bg-[#00091e] text-white font-cabin text-[16px]
+                               opacity-0 pointer-events-none
+                               group-hover/nav:opacity-100 group-hover/nav:pointer-events-auto
+                               transition-opacity duration-200
+                               w-[400px] px-10 py-10
+                               flex flex-col items-start gap-5"
+                                >
+                                                                            
+                                        <a
+                                                href="/ueber-uns"
+                                                class="group/item flex items-center h-[34px] gap-[15px] text-white transition-all"
+                                        >
+                                <span class="tracking-[0.03em] font-semibold group-hover/item:opacity-80">
+                                    Überblick
+                                </span>
+
+                                            <div class="relative h-[34px] w-[34px] flex items-center justify-center">
+                                                <div class="absolute inset-0 rounded-full bg-red-600 scale-0 group-hover/item:scale-100"></div>
+                                                <img
+                                                        src="https://www.iza.org/vendor/iza/img/arrow-button.svg"
+                                                        alt=""
+                                                        class="absolute inset-0 m-auto h-full w-full object-contain
+                                               transition-transform duration-300 group-hover/item:-rotate-45"
+                                                >
+                                            </div>
+                                        </a>
+                                                                            
+                                        <a
+                                                href="/ueber-uns/management-team"
+                                                class="group/item flex items-center h-[34px] gap-[15px] text-white transition-all"
+                                        >
+                                <span class="tracking-[0.03em] font-semibold group-hover/item:opacity-80">
+                                    Management-Team
+                                </span>
+
+                                            <div class="relative h-[34px] w-[34px] flex items-center justify-center">
+                                                <div class="absolute inset-0 rounded-full bg-red-600 scale-0 group-hover/item:scale-100"></div>
+                                                <img
+                                                        src="https://www.iza.org/vendor/iza/img/arrow-button.svg"
+                                                        alt=""
+                                                        class="absolute inset-0 m-auto h-full w-full object-contain
+                                               transition-transform duration-300 group-hover/item:-rotate-45"
+                                                >
+                                            </div>
+                                        </a>
+                                                                            
+                                        <a
+                                                href="/ueber-uns/auszeichnungen"
+                                                class="group/item flex items-center h-[34px] gap-[15px] text-white transition-all"
+                                        >
+                                <span class="tracking-[0.03em] font-semibold group-hover/item:opacity-80">
+                                    Auszeichnungen
+                                </span>
+
+                                            <div class="relative h-[34px] w-[34px] flex items-center justify-center">
+                                                <div class="absolute inset-0 rounded-full bg-red-600 scale-0 group-hover/item:scale-100"></div>
+                                                <img
+                                                        src="https://www.iza.org/vendor/iza/img/arrow-button.svg"
+                                                        alt=""
+                                                        class="absolute inset-0 m-auto h-full w-full object-contain
+                                               transition-transform duration-300 group-hover/item:-rotate-45"
+                                                >
+                                            </div>
+                                        </a>
+                                                                            
+                                        <a
+                                                href="/ueber-uns/historie"
+                                                class="group/item flex items-center h-[34px] gap-[15px] text-white transition-all"
+                                        >
+                                <span class="tracking-[0.03em] font-semibold group-hover/item:opacity-80">
+                                    Historie
+                                </span>
+
+                                            <div class="relative h-[34px] w-[34px] flex items-center justify-center">
+                                                <div class="absolute inset-0 rounded-full bg-red-600 scale-0 group-hover/item:scale-100"></div>
+                                                <img
+                                                        src="https://www.iza.org/vendor/iza/img/arrow-button.svg"
+                                                        alt=""
+                                                        class="absolute inset-0 m-auto h-full w-full object-contain
+                                               transition-transform duration-300 group-hover/item:-rotate-45"
+                                                >
+                                            </div>
+                                        </a>
+                                                                    </div>
+                                                    </div>
+                                            
+                        <div class="relative group/nav">
+                            <a
+                                    href="/netzwerk"
+                                                                        class="relative h-20 flex items-center px-5 gap-[15px]
+                           text-[16px] text-black tracking-[0.03em] font-semibold
+                           group-hover/nav:bg-[#00091e] group-hover/nav:text-white
+                           transition-colors duration-150"
+                            >
+                                <span>Netzwerk</span>
+
+                                                                    <span class="inline-flex items-center justify-center h-5 w-5">
+                            <span class="rotate-wrapper transition-transform duration-300 group-hover/nav:rotate-180">
+                                <svg class="h-full w-full scale-150 translate-y-[2px]"
+                                     width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6 8L12 14L18 8" stroke="currentColor" stroke-width="1.5"
+                                          stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </span>
+                        </span>
+                                                            </a>
+
+                                                            <div
+                                        class="absolute left-0 top-full bg-[#00091e] text-white font-cabin text-[16px]
+                               opacity-0 pointer-events-none
+                               group-hover/nav:opacity-100 group-hover/nav:pointer-events-auto
+                               transition-opacity duration-200
+                               w-[400px] px-10 py-10
+                               flex flex-col items-start gap-5"
+                                >
+                                                                            
+                                        <a
+                                                href="/netzwerk"
+                                                class="group/item flex items-center h-[34px] gap-[15px] text-white transition-all"
+                                        >
+                                <span class="tracking-[0.03em] font-semibold group-hover/item:opacity-80">
+                                    Überblick
+                                </span>
+
+                                            <div class="relative h-[34px] w-[34px] flex items-center justify-center">
+                                                <div class="absolute inset-0 rounded-full bg-red-600 scale-0 group-hover/item:scale-100"></div>
+                                                <img
+                                                        src="https://www.iza.org/vendor/iza/img/arrow-button.svg"
+                                                        alt=""
+                                                        class="absolute inset-0 m-auto h-full w-full object-contain
+                                               transition-transform duration-300 group-hover/item:-rotate-45"
+                                                >
+                                            </div>
+                                        </a>
+                                                                            
+                                        <a
+                                                href="/network/search?type=fellows&amp;page=1&amp;view=card#people"
+                                                class="group/item flex items-center h-[34px] gap-[15px] text-white transition-all"
+                                        >
+                                <span class="tracking-[0.03em] font-semibold group-hover/item:opacity-80">
+                                    Research Fellows
+                                </span>
+
+                                            <div class="relative h-[34px] w-[34px] flex items-center justify-center">
+                                                <div class="absolute inset-0 rounded-full bg-red-600 scale-0 group-hover/item:scale-100"></div>
+                                                <img
+                                                        src="https://www.iza.org/vendor/iza/img/arrow-button.svg"
+                                                        alt=""
+                                                        class="absolute inset-0 m-auto h-full w-full object-contain
+                                               transition-transform duration-300 group-hover/item:-rotate-45"
+                                                >
+                                            </div>
+                                        </a>
+                                                                            
+                                        <a
+                                                href="/network/search?page=1&amp;type=affiliates&amp;view=card#people"
+                                                class="group/item flex items-center h-[34px] gap-[15px] text-white transition-all"
+                                        >
+                                <span class="tracking-[0.03em] font-semibold group-hover/item:opacity-80">
+                                    Research Affiliates
+                                </span>
+
+                                            <div class="relative h-[34px] w-[34px] flex items-center justify-center">
+                                                <div class="absolute inset-0 rounded-full bg-red-600 scale-0 group-hover/item:scale-100"></div>
+                                                <img
+                                                        src="https://www.iza.org/vendor/iza/img/arrow-button.svg"
+                                                        alt=""
+                                                        class="absolute inset-0 m-auto h-full w-full object-contain
+                                               transition-transform duration-300 group-hover/item:-rotate-45"
+                                                >
+                                            </div>
+                                        </a>
+                                                                            
+                                        <a
+                                                href="/network/network-advisory-panel"
+                                                class="group/item flex items-center h-[34px] gap-[15px] text-white transition-all"
+                                        >
+                                <span class="tracking-[0.03em] font-semibold group-hover/item:opacity-80">
+                                    Network Advisory Panel
+                                </span>
+
+                                            <div class="relative h-[34px] w-[34px] flex items-center justify-center">
+                                                <div class="absolute inset-0 rounded-full bg-red-600 scale-0 group-hover/item:scale-100"></div>
+                                                <img
+                                                        src="https://www.iza.org/vendor/iza/img/arrow-button.svg"
+                                                        alt=""
+                                                        class="absolute inset-0 m-auto h-full w-full object-contain
+                                               transition-transform duration-300 group-hover/item:-rotate-45"
+                                                >
+                                            </div>
+                                        </a>
+                                                                    </div>
+                                                    </div>
+                                            
+                        <div class="relative group/nav">
+                            <a
+                                    href="/publikationen"
+                                                                        class="relative h-20 flex items-center px-5 gap-[15px]
+                           text-[16px] text-black tracking-[0.03em] font-semibold
+                           group-hover/nav:bg-[#00091e] group-hover/nav:text-white
+                           transition-colors duration-150"
+                            >
+                                <span>Publikationen</span>
+
+                                                                    <span class="inline-flex items-center justify-center h-5 w-5">
+                            <span class="rotate-wrapper transition-transform duration-300 group-hover/nav:rotate-180">
+                                <svg class="h-full w-full scale-150 translate-y-[2px]"
+                                     width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6 8L12 14L18 8" stroke="currentColor" stroke-width="1.5"
+                                          stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </span>
+                        </span>
+                                                            </a>
+
+                                                            <div
+                                        class="absolute left-0 top-full bg-[#00091e] text-white font-cabin text-[16px]
+                               opacity-0 pointer-events-none
+                               group-hover/nav:opacity-100 group-hover/nav:pointer-events-auto
+                               transition-opacity duration-200
+                               w-[400px] px-10 py-10
+                               flex flex-col items-start gap-5"
+                                >
+                                                                            
+                                        <a
+                                                href="/publikationen"
+                                                class="group/item flex items-center h-[34px] gap-[15px] text-white transition-all"
+                                        >
+                                <span class="tracking-[0.03em] font-semibold group-hover/item:opacity-80">
+                                    Überblick
+                                </span>
+
+                                            <div class="relative h-[34px] w-[34px] flex items-center justify-center">
+                                                <div class="absolute inset-0 rounded-full bg-red-600 scale-0 group-hover/item:scale-100"></div>
+                                                <img
+                                                        src="https://www.iza.org/vendor/iza/img/arrow-button.svg"
+                                                        alt=""
+                                                        class="absolute inset-0 m-auto h-full w-full object-contain
+                                               transition-transform duration-300 group-hover/item:-rotate-45"
+                                                >
+                                            </div>
+                                        </a>
+                                                                            
+                                        <a
+                                                href="/publications/dp"
+                                                class="group/item flex items-center h-[34px] gap-[15px] text-white transition-all"
+                                        >
+                                <span class="tracking-[0.03em] font-semibold group-hover/item:opacity-80">
+                                    Discussion Papers
+                                </span>
+
+                                            <div class="relative h-[34px] w-[34px] flex items-center justify-center">
+                                                <div class="absolute inset-0 rounded-full bg-red-600 scale-0 group-hover/item:scale-100"></div>
+                                                <img
+                                                        src="https://www.iza.org/vendor/iza/img/arrow-button.svg"
+                                                        alt=""
+                                                        class="absolute inset-0 m-auto h-full w-full object-contain
+                                               transition-transform duration-300 group-hover/item:-rotate-45"
+                                                >
+                                            </div>
+                                        </a>
+                                                                            
+                                        <a
+                                                href="https://wol.iza.org/"
+                                                class="group/item flex items-center h-[34px] gap-[15px] text-white transition-all"
+                                        >
+                                <span class="tracking-[0.03em] font-semibold group-hover/item:opacity-80">
+                                    World of Labour
+                                </span>
+
+                                            <div class="relative h-[34px] w-[34px] flex items-center justify-center">
+                                                <div class="absolute inset-0 rounded-full bg-red-600 scale-0 group-hover/item:scale-100"></div>
+                                                <img
+                                                        src="https://www.iza.org/vendor/iza/img/arrow-button.svg"
+                                                        alt=""
+                                                        class="absolute inset-0 m-auto h-full w-full object-contain
+                                               transition-transform duration-300 group-hover/item:-rotate-45"
+                                                >
+                                            </div>
+                                        </a>
+                                                                    </div>
+                                                    </div>
+                                            
+                        <div class="relative group/nav">
+                            <a
+                                    href="/events"
+                                                                        class="relative h-20 flex items-center px-5 gap-[15px]
+                           text-[16px] text-black tracking-[0.03em] font-semibold
+                           group-hover/nav:bg-[#00091e] group-hover/nav:text-white
+                           transition-colors duration-150"
+                            >
+                                <span>Events</span>
+
+                                                                    <span class="inline-flex items-center justify-center h-5 w-5">
+                            <span class="rotate-wrapper transition-transform duration-300 group-hover/nav:rotate-180">
+                                <svg class="h-full w-full scale-150 translate-y-[2px]"
+                                     width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6 8L12 14L18 8" stroke="currentColor" stroke-width="1.5"
+                                          stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </span>
+                        </span>
+                                                            </a>
+
+                                                            <div
+                                        class="absolute left-0 top-full bg-[#00091e] text-white font-cabin text-[16px]
+                               opacity-0 pointer-events-none
+                               group-hover/nav:opacity-100 group-hover/nav:pointer-events-auto
+                               transition-opacity duration-200
+                               w-[400px] px-10 py-10
+                               flex flex-col items-start gap-5"
+                                >
+                                                                            
+                                        <a
+                                                href="/events"
+                                                class="group/item flex items-center h-[34px] gap-[15px] text-white transition-all"
+                                        >
+                                <span class="tracking-[0.03em] font-semibold group-hover/item:opacity-80">
+                                    Überblick
+                                </span>
+
+                                            <div class="relative h-[34px] w-[34px] flex items-center justify-center">
+                                                <div class="absolute inset-0 rounded-full bg-red-600 scale-0 group-hover/item:scale-100"></div>
+                                                <img
+                                                        src="https://www.iza.org/vendor/iza/img/arrow-button.svg"
+                                                        alt=""
+                                                        class="absolute inset-0 m-auto h-full w-full object-contain
+                                               transition-transform duration-300 group-hover/item:-rotate-45"
+                                                >
+                                            </div>
+                                        </a>
+                                                                    </div>
+                                                    </div>
+                    
+                    
+                    <button
+                            type="button"
+                            class="w-10 h-10 flex items-center justify-center"
+                            @click="searchOpen = true; $nextTick(() => $refs.searchInput?.focus())"
+                            aria-label="Search"
+                    >
+                        <img
+                                src="https://www.iza.org/vendor/iza/img/magnifying-glass-icon.svg"
+                                alt="Search"
+                                class="w-6 h-6 object-contain"
+                        >
+                    </button>
+                </div>
+                
+                <div
+                        x-show="searchOpen"
+                        x-transition.opacity.duration.150ms
+                        class="flex items-center justify-end flex-1"
+                >
+                    <form action="/search" method="GET" class="flex items-center justify-end gap-[50px] pt-1 flex-1">
+
+                        
+                        <div class="flex items-center justify-between w-1/2 border-b border-[#e8e9eb] py-[10px] pr-[10px]">
+                            <input
+                                    x-ref="searchInput"
+                                    type="text"
+                                    name="q"
+                                    placeholder="YOUR SEARCH TERM..."
+                                    class="flex-1 bg-transparent outline-none text-[14px] tracking-[0.03em] font-semibold text-[#00091e] placeholder:text-[#00091e]/60"
+                            />
+
+                            <button type="submit" class="ml-3 flex items-center justify-center"
+                                    aria-label="Submit search">
+                                <img
+                                        src="https://www.iza.org/vendor/iza/img/magnifying-glass-icon.svg"
+                                        alt=""
+                                        class="w-5 h-5 object-contain"
+                                >
+                            </button>
+                        </div>
+
+                        
+                        <button
+                                type="button"
+                                @click="searchOpen = false"
+                                class="w-10 h-10 flex items-center justify-center"
+                                aria-label="Close search"
+                        >
+                            <img
+                                    src="https://www.iza.org/vendor/iza/img/close.svg"
+                                    alt="Close"
+                                    class="w-5 h-5 object-contain"
+                            >
+                        </button>
+
+                    </form>
+                </div>
+
+
+            </div>
+
+            <div class="flex md:hidden items-center gap-2">
+                <button
+                        type="button"
+                        class="w-12 h-12 flex items-center justify-center"
+                        aria-label="Open menu"
+                        @click="mobileNav.open = true; mobileNav.level = 1; mobileNav.activeIndex = null"
+                >
+                    <img
+                            src="https://www.iza.org/vendor/iza/img/hamburger-menu-m.svg"
+                            alt="Menu"
+                            class="w-7 h-7 object-contain"
+                    >
+                </button>
+            </div>
+        </div>
+    </div>
+    <div
+            x-cloak
+            x-show="mobileNav.open"
+            x-transition.opacity
+            class="fixed inset-0 z-[60] bg-black/40 md:hidden"
+            @click="mobileNav.open = false"
+    ></div>
+
+    <div
+            x-cloak
+            x-show="mobileNav.open"
+            x-transition:enter="transition ease-out duration-200"
+            x-transition:enter-start="translate-x-full"
+            x-transition:enter-end="translate-x-0"
+            x-transition:leave="transition ease-in duration-200"
+            x-transition:leave-start="translate-x-0"
+            x-transition:leave-end="translate-x-full"
+            class="fixed top-0 right-0 z-[70] h-screen w-full max-w-[430px] bg-white text-black md:hidden"
+            @click.stop
+    >
+        <div class="h-full flex flex-col">
+            <div class="h-[68px] flex items-center font-inter text-[12px]">
+                <div class="flex-1 h-[68px] flex items-center gap-5 pl-5">
+                                            <a
+                                href="https://www.iza.org/cms/language/de/publications/dp/18723"
+                                class="text-[#808080] font-semibold leading-[14px]"
+                        >
+                            DE
+                        </a>
+                                            <a
+                                href="https://www.iza.org/cms/language/en/publications/dp/18723"
+                                class="text-black hover:text-black/70 font-semibold leading-[14px]"
+                        >
+                            EN
+                        </a>
+                                    </div>
+                <div class="h-[68px] w-[68px] flex items-center justify-end px-5">
+                    <button
+                            type="button"
+                            class="w-5 h-5 flex items-center justify-center"
+                            aria-label="Close menu"
+                            @click="mobileNav.open = false"
+                    >
+                        <img
+                                src="https://www.iza.org/vendor/iza/img/close.svg"
+                                alt="Close"
+                                class="w-5 h-5 object-contain"
+                        >
+                    </button>
+                </div>
+
+            </div>
+            <div
+                    class="flex-1 overflow-y-auto"
+                    x-show="mobileNav.level === 1"
+                    x-transition.opacity
+            >
+                <div class="px-5 py-4">
+                    <form action="/search" method="GET" class="w-full">
+                        <div class="flex items-center gap-3 border-b border-[#e8e9eb] pb-2">
+                            <input
+                                    type="search"
+                                    name="q"
+                                    inputmode="search"
+                                    autocomplete="off"
+                                    placeholder="YOUR SEARCH TERM..."
+                                    class="flex-1 bg-transparent outline-none text-[14px] tracking-[0.03em] font-semibold text-[#00091e] placeholder:text-[#00091e]/60"
+                            />
+
+                            <button
+                                    type="submit"
+                                    class="w-10 h-10 -mr-2 flex items-center justify-center"
+                                    aria-label="Submit search"
+                            >
+                                <img
+                                        src="https://www.iza.org/vendor/iza/img/magnifying-glass-icon.svg"
+                                        alt=""
+                                        class="w-5 h-5 object-contain"
+                                >
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="p-5">
+                    <div class="flex flex-col gap-[41px] text-[16px] font-cabin">
+                                                    
+                                                            <button
+                                        type="button"
+                                        class="w-full h-[19px] flex items-center justify-between gap-5 text-left"
+                                        @click="openSecondLevel(0)"
+                                >
+                                    <span class="tracking-[0.03em] font-semibold">Über uns</span>
+                                    <svg class="w-[5px] h-2" viewBox="0 0 5 8" fill="none" aria-hidden="true">
+                                        <path d="M1 1L4 4L1 7" stroke="#000" stroke-width="1.5" stroke-linecap="round"
+                                              stroke-linejoin="round"/>
+                                    </svg>
+                                </button>
+                                                                                
+                                                            <button
+                                        type="button"
+                                        class="w-full h-[19px] flex items-center justify-between gap-5 text-left"
+                                        @click="openSecondLevel(1)"
+                                >
+                                    <span class="tracking-[0.03em] font-semibold">Netzwerk</span>
+                                    <svg class="w-[5px] h-2" viewBox="0 0 5 8" fill="none" aria-hidden="true">
+                                        <path d="M1 1L4 4L1 7" stroke="#000" stroke-width="1.5" stroke-linecap="round"
+                                              stroke-linejoin="round"/>
+                                    </svg>
+                                </button>
+                                                                                
+                                                            <button
+                                        type="button"
+                                        class="w-full h-[19px] flex items-center justify-between gap-5 text-left"
+                                        @click="openSecondLevel(2)"
+                                >
+                                    <span class="tracking-[0.03em] font-semibold">Publikationen</span>
+                                    <svg class="w-[5px] h-2" viewBox="0 0 5 8" fill="none" aria-hidden="true">
+                                        <path d="M1 1L4 4L1 7" stroke="#000" stroke-width="1.5" stroke-linecap="round"
+                                              stroke-linejoin="round"/>
+                                    </svg>
+                                </button>
+                                                                                
+                                                            <button
+                                        type="button"
+                                        class="w-full h-[19px] flex items-center justify-between gap-5 text-left"
+                                        @click="openSecondLevel(3)"
+                                >
+                                    <span class="tracking-[0.03em] font-semibold">Events</span>
+                                    <svg class="w-[5px] h-2" viewBox="0 0 5 8" fill="none" aria-hidden="true">
+                                        <path d="M1 1L4 4L1 7" stroke="#000" stroke-width="1.5" stroke-linecap="round"
+                                              stroke-linejoin="round"/>
+                                    </svg>
+                                </button>
+                                                    
+                        <div class="flex flex-col gap-[41px] font-inter text-[12px] leading-[14px]">
+                            <a href="https://liser.lu" target="_blank" class="text-black">LISER</a>
+                            <a href="https://liser.lu/policy-lab" target="_blank" class="text-black">Policy Lab</a>
+                            <a href="https://wol.iza.org" target="_blank" class="text-black">World of Labour</a>
+                            <a href="https://lounge.iza.org" target="_blank" class="text-black">Login</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                    class="flex-1 overflow-y-auto"
+                    x-show="mobileNav.level === 2"
+                    x-transition.opacity
+            >
+                <div class="bg-[#FAFAFB] border-b border-[#E8E9EB] flex items-center gap-[15px] px-[10px] pr-[15px]">
+                    <div class="h-[81px] w-9 flex items-center">
+                        <button type="button" class="w-[34px] h-[34px]" @click="goBack()" aria-label="Go back">
+                            <svg width="34" height="34" viewBox="0 0 34 34" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg" class="w-[34px] h-[34px] object-contain rotate-180">
+                                <path d="M10.0996 16.6484C9.6854 16.6484 9.34961 16.9842 9.34961 17.3984C9.34961 17.8127 9.6854 18.1484 10.0996 18.1484V17.3984V16.6484ZM23.6299 17.9288C23.9228 17.6359 23.9228 17.161 23.6299 16.8681L18.857 12.0951C18.5641 11.8022 18.0892 11.8022 17.7963 12.0951C17.5034 12.388 17.5034 12.8629 17.7963 13.1558L22.0389 17.3984L17.7963 21.6411C17.5034 21.934 17.5034 22.4088 17.7963 22.7017C18.0892 22.9946 18.5641 22.9946 18.857 22.7017L23.6299 17.9288ZM10.0996 17.3984V18.1484H16.5996V17.3984V16.6484H10.0996V17.3984ZM16.5996 17.3984V18.1484H23.0996V17.3984V16.6484H16.5996V17.3984Z"
+                                      fill="black"/>
+                            </svg>
+                        </button>
+                    </div>
+
+                    <div class="h-[81px] flex-1 flex flex-col justify-center gap-[9px]">
+                        <div class="font-cabin text-[16px] font-semibold tracking-[0.03em]"
+                             x-text="activeLabel()"></div>
+                        <div class="font-inter text-[12px] leading-[14px] font-semibold text-[#787878]">Go back</div>
+                    </div>
+                </div>
+                <div class="p-5">
+                    <div class="flex flex-col gap-[41px] text-[16px] font-cabin">
+                        <template x-for="child in activeChildren()"
+                                  :key="(child.id ?? child.pk ?? child.slug ?? JSON.stringify(child))">
+                            <a
+                                    :href="(() => {
+                                const loc = 'de';
+                                return (child['target_'+loc]?.[0]?.text) ?? '#';
+                            })()"
+                                    class="h-[19px] flex items-center"
+                                    @click="mobileNav.open = false"
+                            >
+                            <span
+                                    class="tracking-[0.03em] font-semibold"
+                                    x-text="(() => {
+                                    const loc = 'de';
+                                    return (child['label_'+loc]?.[0]?.text) ?? '';
+                                })()"
+                            ></span>
+                            </a>
+                        </template>
+                    </div>
+                </div>
+            </div>
+
+            <div class="h-2"></div>
+        </div>
+    </div>
+</nav>
+
+<div
+        x-data="cookieConsent()"
+        x-init="init()"
+        x-show="visible"
+        x-cloak
+        class="fixed inset-0 z-[9000] flex items-center justify-center bg-black/80"
+>
+    <div class="bg-white max-w-lg w-full mx-4 rounded-lg shadow-xl p-6">
+
+        <div class="text-gray-900 text-base mb-6">
+            We use cookies to provide you with the best possible website experience. This includes cookies that are necessary for the operation of the site, as well as cookies used for anonymous statistics, comfort settings, or displaying personalized content. You can decide which categories you want to allow. Please note that depending on your settings, some features of the website may not be available.        </div>
+
+        <div class="space-y-3">
+            <button
+                    @click="showSettings = true"
+                    class="w-full bg-gray-800 text-white py-2 rounded hover:bg-gray-700"
+            >
+                Configure consent            </button>
+
+            <button
+                    @click="acceptNecessary"
+                    class="w-full bg-gray-900 text-white py-2 rounded hover:bg-black"
+            >
+                Accept all            </button>
+        </div>
+
+        <!-- SETTINGS MODAL -->
+        <div
+                x-show="showSettings"
+                x-transition
+                class="fixed inset-0 flex items-center justify-center bg-black/70 z-[9100]"
+        >
+            <div class="bg-white max-w-md w-full rounded-lg shadow-xl p-6">
+
+                <h2 class="text-lg font-semibold mb-4 text-center">
+                    Cookie settings
+                </h2>
+
+                <div class="space-y-4 text-sm text-gray-700">
+
+                    <!-- Necessary -->
+                    <div>
+                        <label class="flex items-center gap-2 font-medium">
+                            <input type="checkbox" checked disabled class="rounded">
+                            Necessary
+                        </label>
+
+                        <p class="mt-2">
+                            These necessary cookies are required to enable the core functionality of the website. Opting out of these cookies is not possible.                        </p>
+
+                        <details class="mt-2 text-sm">
+                            <summary class="cursor-pointer">cb-enable</summary>
+                            <div class="mt-1 text-gray-600">
+                                This cookie stores the user's cookie consent status for the current domain. Expiry: 1 year.                            </div>
+                        </details>
+
+                        <details class="mt-2 text-sm">
+                            <summary class="cursor-pointer">laravel_session</summary>
+                            <div class="mt-1 text-gray-600">
+                                Stores the session ID to recognize the user when the page reloads and to restore their login session. Expiry: 2 hours.                            </div>
+                        </details>
+
+                        <details class="mt-2 text-sm">
+                            <summary class="cursor-pointer">XSRF-TOKEN</summary>
+                            <div class="mt-1 text-gray-600">
+                                Provides CSRF protection for forms. Expiry: 2 hours.                            </div>
+                        </details>
+                    </div>
+
+                </div>
+
+                <div class="flex justify-between items-center mt-6">
+
+                    <a href="./privacy-policy" class="text-sm text-gray-600 hover:underline">
+                        Privacy Policy
+                    </a>
+
+                    <button
+                            @click="acceptNecessary"
+                            class="bg-gray-900 text-white px-4 py-2 rounded hover:bg-black"
+                    >
+                        Accept
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script>
+    function cookieConsent() {
+        return {
+
+            visible: false,
+            showSettings: false,
+
+            init() {
+                const cookieState = Cookies.get('cb-enabled')
+
+                if (cookieState !== 'accepted') {
+                    this.visible = true
+                    document.body.classList.add('cookieSticky')
+                } else {
+                    this.visible = false
+                }
+            },
+
+            acceptNecessary() {
+
+                Cookies.set('cb-enabled', 'accepted', {expires: 365})
+
+                this.visible = false
+                this.showSettings = false
+
+                document.body.classList.remove('cookieSticky')
+            }
+
+        }
+    }
+</script>
+<main class="flex-1">
+        <div class="pt-[80px] md:pt-[120px]">
+        <nav class="w-full bg-white border-t border-b border-[#E8E9EB]">
+        <div class="w-full max-w-[1600px] mx-auto py-2 px-5 lg:px-20">
+            <ol class="flex flex-wrap items-center gap-[10px] font-inter text-[10px] leading-[14px] font-semibold text-[#787878]">
+                                    
+                    <li class="flex items-center gap-[10px]">
+                                                    <a href="https://www.iza.org/de" class="hover:text-[#00091e] transition-colors">
+                                Startseite
+                            </a>
+
+                            <img
+                                    src="https://www.iza.org/vendor/iza/img/chevron-small.svg"
+                                    alt=""
+                                    class="w-[5px] h-[8px] object-contain"
+                            >
+                                            </li>
+                                    
+                    <li class="flex items-center gap-[10px]">
+                                                    <a href="https://www.iza.org/de/publications" class="hover:text-[#00091e] transition-colors">
+                                Publikationen
+                            </a>
+
+                            <img
+                                    src="https://www.iza.org/vendor/iza/img/chevron-small.svg"
+                                    alt=""
+                                    class="w-[5px] h-[8px] object-contain"
+                            >
+                                            </li>
+                                    
+                    <li class="flex items-center gap-[10px]">
+                                                    <a href="https://www.iza.org/de/publications/dp" class="hover:text-[#00091e] transition-colors">
+                                IZA Discussion Papers
+                            </a>
+
+                            <img
+                                    src="https://www.iza.org/vendor/iza/img/chevron-small.svg"
+                                    alt=""
+                                    class="w-[5px] h-[8px] object-contain"
+                            >
+                                            </li>
+                                    
+                    <li class="flex items-center gap-[10px]">
+                                                    <span class="text-[#00091e]">
+                                Generative AI and the Redefinition of Entry-Level Software Work
+                            </span>
+                                            </li>
+                            </ol>
+        </div>
+    </nav>
+                    <section class="w-full bg-white">
+    <div class="w-full max-w-[1600px] mx-auto px-5 md:px-[80px] py-[25px] md:py-[50px]">
+        <div class="w-full flex flex-col md:flex-row gap-[40px]">
+
+            
+            <div class="flex-1">
+                <div class="w-full flex flex-col gap-[15px]">
+
+                    
+                    <div class="w-full border-b border-[#F5F5F5] pb-[5px] flex items-center justify-between flex-wrap gap-[10px] font-cabin text-[14px]">
+                        <div class="relative h-[24px] w-[316px] max-w-full">
+                            
+                                                            <div class="absolute left-0 top-0 bg-[#F5F5F5] px-[10px] py-[5px]">
+                                    <div class="tracking-[0.05em] leading-[14px] font-semibold text-[#00091e]">
+                                        IZA Discussion Paper No. 18723
+                                    </div>
+                                </div>
+                            
+                            
+                                                    </div>
+
+                        
+                                                    <div class="flex items-center justify-center px-[10px] text-right font-inter text-[12px] text-[#7f7f7f]">
+                                <div class="tracking-[0.05em] leading-[13px]">
+                                    June 2026
+                                </div>
+                            </div>
+                                            </div>
+
+                    
+                                            <div class="w-full flex items-center font-cabin text-[28px] leading-[38px] font-semibold tracking-[0.03em] text-[#00091e]">
+                            Generative AI and the Redefinition of Entry-Level Software Work
+                        </div>
+                    
+                    
+                                            <div class="w-full text-[#000] font-inter text-[14px] tracking-[0.05em] leading-[18px] [&_a:hover]:underline">
+                            Samuel Westby, <a href="https://www.iza.org/de/person/28319/alicia-sasser-modestino">Alicia Sasser Modestino</a>, Peiran Cheng
+                        </div>
+                    
+                    
+                    
+                    
+                                            <div class="pt-[20px] font-inter text-[16px] leading-[28px] text-[#020617]">
+                            <div
+    class="element-copyexpandable cms-richtext "
+>
+
+    
+    
+                        <p>Generative AI may change how firms define occupations. We study this process in software development, where large language models overlap with tasks commonly assigned to junior workers. Using the near-universe U.S. online vacancy data from Lightcast, we examine how the public release of ChatGPT changed entry-level software hiring standards. Event-study and difference-in-differences estimates show a 14–15 percent relative decline in junior versus senior software developer vacancies, larger than in related technical occupations and absent in mechanical engineering. A shift-share decomposition shows that rising experience requirements were driven primarily by employers asking for more experience within the same job titles, not by asking for a different composition of titles. Remaining junior vacancies shifted toward problem solving, communication, and attention to detail, not AI-specific skills. The results show how generative AI redefines entry-level work by raising the bar for what counts as a qualified junior hire.</p>
+            </div>
+                        </div>
+                                    </div>
+            </div>
+
+            
+            <aside class="w-full md:w-[231px] shrink-0 md:pt-[40px] flex flex-col gap-[20px] font-inter text-[16px] text-[#00091e]">
+
+                
+                
+                
+                <div class="flex flex-wrap gap-x-[10px] gap-y-[6px] text-center text-[12px]">
+                    
+                                            <a href="https://docs.iza.org/dp18723.pdf"
+                           target="_blank"
+                           class="flex items-center">
+                            <span class="h-[32px] w-[32px] bg-[#F5F5F5] flex items-center justify-center">
+                                <img src="https://www.iza.org/vendor/iza/img/download.svg" class="h-[16px] w-[16px]" alt="">
+                            </span>
+                            <span class="h-[32px] border border-[#F5F5F5] bg-white flex items-center px-[10px]">
+                                <span class="uppercase font-semibold tracking-[0.05em]">Download</span>
+                            </span>
+                        </a>
+                    
+                    
+                    <button type="button"
+                            data-open-modal="citationModal"
+                            class="flex items-center">
+                        <span class="h-[32px] w-[32px] bg-[#F5F5F5] flex items-center justify-center">
+                            <img src="https://www.iza.org/vendor/iza/img/cite.svg" class="h-[16px] w-[16px]" alt="">
+                        </span>
+                        <span class="h-[32px] border border-[#F5F5F5] bg-white flex items-center px-[10px]">
+                            <span class="uppercase font-semibold tracking-[0.05em]">Cite</span>
+                        </span>
+                    </button>
+
+                    
+                    <button type="button"
+                            onclick="window.print()"
+                            class="flex items-center">
+                        <span class="h-[32px] w-[32px] bg-[#F5F5F5] flex items-center justify-center">
+                            <img src="https://www.iza.org/vendor/iza/img/print.svg" class="h-[16px] w-[16px]" alt="">
+                        </span>
+                        <span class="h-[32px] border border-[#F5F5F5] bg-white flex items-center px-[10px]">
+                            <span class="uppercase font-semibold tracking-[0.05em]">Print</span>
+                        </span>
+                    </button>
+
+                    
+                    
+                    
+                                    </div>
+
+                
+                                    <div class="flex flex-col gap-[10px]">
+                        <div class="font-semibold leading-[28px]">Share</div>
+
+                        
+                        <div class="flex flex-wrap gap-[30px]">
+                            <div class="flex items-center gap-6">
+                                <a target="_blank"
+                                   href="https://www.iza.org/publications/share/QWjjHov3?p=linkedin"
+                                   class="h-[18px] w-[18px] hover:opacity-80">
+                                    <svg class="h-full w-full" viewBox="0 0 18 18" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M17.7826 8.91183C17.7826 13.8338 13.8018 17.8237 8.89108 17.8237C3.98078 17.8232 0 13.8333 0 8.91183C0 3.98987 3.98078 0 8.89153 0C13.8023 0 17.7826 3.98987 17.7826 8.91183Z" fill="#121214"/>
+<path d="M5.99484 6.88944C6.62734 6.88944 7.14007 6.37553 7.14007 5.74159C7.14007 5.10766 6.62734 4.59375 5.99484 4.59375C5.36235 4.59375 4.84961 5.10766 4.84961 5.74159C4.84961 6.37553 5.36235 6.88944 5.99484 6.88944Z" fill="white"/>
+<path d="M6.86244 7.64844H5.12571C5.07853 7.64844 5.04028 7.68679 5.04028 7.73411V13.3015C5.04028 13.3489 5.07853 13.3872 5.12571 13.3872H6.86244C6.90962 13.3872 6.94786 13.3489 6.94786 13.3015V7.73411C6.94786 7.68679 6.90962 7.64844 6.86244 7.64844Z" fill="white"/>
+<path d="M13.4386 9.75663V13.0086C13.4386 13.219 13.2667 13.3912 13.0568 13.3912H11.9116C11.7017 13.3912 11.5299 13.219 11.5299 13.0086V10.3303C11.5299 9.80238 11.1025 9.37401 10.5757 9.37401C10.049 9.37401 9.6216 9.80238 9.6216 10.3303V13.0086C9.6216 13.219 9.44976 13.3912 9.23986 13.3912H8.09463C7.88474 13.3912 7.71289 13.219 7.71289 13.0086V8.03464C7.71289 7.82427 7.88474 7.65202 8.09463 7.65202H9.23986C9.44976 7.65202 9.6216 7.82427 9.6216 8.03464V8.27954C10.0033 7.78389 10.6353 7.46094 11.3392 7.46094C12.3927 7.46094 13.4386 8.22617 13.4386 9.75663Z" fill="white"/>
+</svg>
+
+    </svg>
+                                </a>
+
+                                <a target="_blank"
+                                   href="https://www.iza.org/publications/share/QWjjHov3?p=facebook"
+                                   class="h-[18px] w-[18px] hover:opacity-80">
+                                    <svg class="h-full w-full" viewBox="0 0 18 18" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M17.7826 8.91183C17.7826 13.8338 13.8018 17.8237 8.89108 17.8237C3.98078 17.8232 0 13.8333 0 8.91183C0 3.98987 3.98078 0 8.89153 0C13.8023 0 17.7831 3.98987 17.7831 8.91183H17.7826Z" fill="#121214"/>
+<path d="M11.5259 8.22559L11.3777 9.41785C11.3527 9.617 11.1844 9.76682 10.9848 9.76682H9.05817V14.7516C8.85499 14.77 8.64913 14.7794 8.44103 14.7794C7.97559 14.7794 7.52135 14.7327 7.08232 14.6439V9.76682H5.60055C5.4645 9.76682 5.35352 9.65513 5.35352 9.51832V8.02644C5.35352 7.88963 5.4645 7.77794 5.60055 7.77794H7.08232V5.54056C7.08232 4.16755 8.18817 3.05469 9.55269 3.05469H11.2815C11.4175 3.05469 11.5285 3.16638 11.5285 3.30319V4.79507C11.5285 4.93188 11.4175 5.04357 11.2815 5.04357H10.0463C9.50078 5.04357 9.05862 5.48853 9.05862 6.03801V7.77839H11.1334C11.3715 7.77839 11.5549 7.98786 11.5259 8.22559Z" fill="white"/>
+</svg>
+
+    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                                                    
+                                            <div class="flex flex-col gap-[10px]">
+                            <div class="font-inter text-[16px] leading-[28px] font-semibold text-[#00091e]">
+                                Keywords
+                            </div>
+
+                            
+                            <div class="flex flex-wrap gap-[10px] font-cabin text-[14px] text-[#00091e]">
+                                                                    
+                                                                            <span class="bg-[#F5F5F5] px-[10px] py-[5px] tracking-[0.05em] leading-[14px] font-semibold">
+                            generative AI
+                        </span>
+                                                                                                        
+                                                                            <span class="bg-[#F5F5F5] px-[10px] py-[5px] tracking-[0.05em] leading-[14px] font-semibold">
+                            economics of information systems
+                        </span>
+                                                                                                        
+                                                                            <span class="bg-[#F5F5F5] px-[10px] py-[5px] tracking-[0.05em] leading-[14px] font-semibold">
+                            labor demand
+                        </span>
+                                                                                                        
+                                                                            <span class="bg-[#F5F5F5] px-[10px] py-[5px] tracking-[0.05em] leading-[14px] font-semibold">
+                            job vacancies
+                        </span>
+                                                                                                        
+                                                                            <span class="bg-[#F5F5F5] px-[10px] py-[5px] tracking-[0.05em] leading-[14px] font-semibold">
+                            hiring standards
+                        </span>
+                                                                                                        
+                                                                            <span class="bg-[#F5F5F5] px-[10px] py-[5px] tracking-[0.05em] leading-[14px] font-semibold">
+                            entry-level work
+                        </span>
+                                                                                                </div>
+                        </div>
+                                                        
+                                            <div class="flex flex-col gap-[10px]">
+                            <div class="font-inter text-[16px] leading-[28px] font-semibold text-[#00091e]">
+                                JEL Codes
+                            </div>
+
+                            
+                            <div class="flex flex-wrap gap-[10px] font-cabin text-[14px] text-[#00091e]">
+                                                                    
+                                                                            <span class="bg-[#F5F5F5] px-[10px] py-[5px] tracking-[0.05em] leading-[14px] font-semibold">
+                            J23
+                        </span>
+                                                                                                        
+                                                                            <span class="bg-[#F5F5F5] px-[10px] py-[5px] tracking-[0.05em] leading-[14px] font-semibold">
+                            O33
+                        </span>
+                                                                                                        
+                                                                            <span class="bg-[#F5F5F5] px-[10px] py-[5px] tracking-[0.05em] leading-[14px] font-semibold">
+                            J24
+                        </span>
+                                                                                                        
+                                                                            <span class="bg-[#F5F5F5] px-[10px] py-[5px] tracking-[0.05em] leading-[14px] font-semibold">
+                            D83
+                        </span>
+                                                                                                        
+                                                                            <span class="bg-[#F5F5F5] px-[10px] py-[5px] tracking-[0.05em] leading-[14px] font-semibold">
+                            M51
+                        </span>
+                                                                                                        
+                                                                            <span class="bg-[#F5F5F5] px-[10px] py-[5px] tracking-[0.05em] leading-[14px] font-semibold">
+                            L86
+                        </span>
+                                                                                                </div>
+                        </div>
+                                                </aside>
+        </div>
+    </div>
+</section>
+
+
+<div id="citationModal" data-modal class="hidden fixed inset-0 z-[60]">
+    <div data-modal-overlay="citationModal" class="absolute inset-0 bg-black/50"></div>
+
+    <div class="relative mx-auto my-[8vh] w-[95%] max-w-[900px] bg-white">
+        <div class="flex items-center justify-between px-5 py-4 border-b border-[#E8E9EB]">
+            <div class="font-cabin text-[18px] font-semibold tracking-[0.03em] text-[#00091e]">
+                Cite this article
+            </div>
+            <button type="button" data-close-modal="citationModal" class="text-[#00091e] text-[22px] leading-none">
+                &times;
+            </button>
+        </div>
+
+        <div class="p-5">
+            <div class="space-y-4 text-[14px] font-inter text-[#00091e]">
+                <div class="flex gap-4 py-2">
+                    <div class="w-[80px] font-semibold">APA</div>
+                    <div class="flex-1 text-[#7f7f7f]">Westby, S., Modestino, A. S., &amp; Cheng, P. (2026). Generative AI and the Redefinition of Entry-Level Software Work. IZA Discussion Paper, 18723.</div>
+                </div>
+
+                <div class="flex gap-4 py-2 border-t border-[#E8E9EB]">
+                    <div class="w-[80px] font-semibold">Chicago</div>
+                    <div class="flex-1 text-[#7f7f7f]">Samuel Westby, Alicia Sasser Modestino, and Peiran Cheng. &quot;Generative AI and the Redefinition of Entry-Level Software Work.&quot; IZA Discussion Paper, No. 18723 (2026).</div>
+                </div>
+
+                <div class="flex gap-4 py-2 border-t border-[#E8E9EB]">
+                    <div class="w-[80px] font-semibold">Harvard</div>
+                    <div class="flex-1 text-[#7f7f7f]">Westby, S., Modestino, A. S., and Cheng, P., 2026. Generative AI and the Redefinition of Entry-Level Software Work. IZA Discussion Paper, 18723.</div>
+                </div>
+            </div>
+
+                            <div class="mt-6 flex flex-wrap gap-3 justify-center">
+                                            <a href="https://www.iza.org/publications/dp18723/1/citations/bibtex" target="_blank"
+                           class="h-[32px] border border-[#F5F5F5] px-4 flex items-center text-[12px] uppercase font-semibold tracking-[0.05em]">
+                            BibTeX
+                        </a>
+                                                                <a href="https://www.iza.org/publications/dp18723/1/citations/endnote" target="_blank"
+                           class="h-[32px] border border-[#F5F5F5] px-4 flex items-center text-[12px] uppercase font-semibold tracking-[0.05em]">
+                            EndNote
+                        </a>
+                                                                <a href="https://www.iza.org/publications/dp18723/1/citations/ris" target="_blank"
+                           class="h-[32px] border border-[#F5F5F5] px-4 flex items-center text-[12px] uppercase font-semibold tracking-[0.05em]">
+                            RIS
+                        </a>
+                                    </div>
+                    </div>
+    </div>
+</div>
+
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        // open modal
+        document.querySelectorAll('[data-open-modal]').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const id = btn.getAttribute('data-open-modal');
+                const el = document.getElementById(id);
+                if (el) el.classList.remove('hidden');
+            });
+        });
+
+        // close modal (overlay + close buttons)
+        document.querySelectorAll('[data-close-modal]').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const id = btn.getAttribute('data-close-modal');
+                const el = document.getElementById(id);
+                if (el) el.classList.add('hidden');
+            });
+        });
+
+        document.querySelectorAll('[data-modal-overlay]').forEach(overlay => {
+            overlay.addEventListener('click', (e) => {
+                if (e.target !== overlay) return;
+                const id = overlay.getAttribute('data-modal-overlay');
+                const el = document.getElementById(id);
+                if (el) el.classList.add('hidden');
+            });
+        });
+
+        // History: show more/less
+        document.querySelectorAll('[data-toggle-comment]').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const key = link.getAttribute('data-toggle-comment');
+                const shortEl = document.querySelector(`[data-comment-short="${key}"]`);
+                const fullEl = document.querySelector(`[data-comment-full="${key}"]`);
+                if (!shortEl || !fullEl) return;
+
+                const shortVisible = !shortEl.classList.contains('hidden');
+                shortEl.classList.toggle('hidden', shortVisible);
+                fullEl.classList.toggle('hidden', !shortVisible);
+                link.textContent = shortVisible ? 'show less' : 'show more';
+            });
+        });
+
+        // ESC closes
+        document.addEventListener('keydown', (e) => {
+            if (e.key !== 'Escape') return;
+            document.querySelectorAll('[data-modal]').forEach(m => m.classList.add('hidden'));
+        });
+    });
+</script>
+            </div>
+    <div class="footer-spacer"></div>
+</main>
+
+<div class="w-full bg-[#f5f5f5] text-black font-cabin">
+
+    <div class="max-w-[1440px] mx-auto px-5 py-10 lg:py-16">
+
+        
+        <div class="block lg:hidden mb-10">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+
+                                    <div class="flex flex-col gap-2">
+
+                        <div class="text-[16px] font-semibold tracking-[0.03em]">
+                            Kommunikation
+                        </div>
+
+                        <div class="text-[14px] tracking-[0.03em]">
+                            Mark Fallak
+                        </div>
+
+                        <a href="mailto:mark.fallak@liser.lu"
+                           class="text-[14px] underline tracking-[0.03em]">
+                            mark.fallak@liser.lu
+                        </a>
+
+                                                    <div class="text-[14px] tracking-[0.03em]">
+                                +352 585-855-526
+                            </div>
+                                            </div>
+                                    <div class="flex flex-col gap-2">
+
+                        <div class="text-[16px] font-semibold tracking-[0.03em]">
+                            World of Labour
+                        </div>
+
+                        <div class="text-[14px] tracking-[0.03em]">
+                            Olga Nottmeyer
+                        </div>
+
+                        <a href="mailto:olga.nottmeyer-ext@liser.lu"
+                           class="text-[14px] underline tracking-[0.03em]">
+                            olga.nottmeyer-ext@liser.lu
+                        </a>
+
+                                                    <div class="text-[14px] tracking-[0.03em]">
+                                +352 585-855-501
+                            </div>
+                                            </div>
+                                    <div class="flex flex-col gap-2">
+
+                        <div class="text-[16px] font-semibold tracking-[0.03em]">
+                            Netzwerkkoordination
+                        </div>
+
+                        <div class="text-[14px] tracking-[0.03em]">
+                            Christina Gathmann
+                        </div>
+
+                        <a href="mailto:christina.gathmann@liser.lu"
+                           class="text-[14px] underline tracking-[0.03em]">
+                            christina.gathmann@liser.lu
+                        </a>
+
+                                            </div>
+                
+            </div>
+        </div>
+
+        <div class="w-full lg:hidden h-px bg-[#e4e4e6] mt-6 mb-6"></div>
+
+        
+        <div class="block lg:hidden mb-6">
+            <div class="flex items-center justify-center  gap-6">
+                <a target="_blank" href="https://www.linkedin.com/company/iza/"
+                   class="h-[18px] w-[18px] flex items-center justify-center hover:opacity-80 transition">
+                    <svg class="h-full w-full" viewBox="0 0 18 18" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M17.7826 8.91183C17.7826 13.8338 13.8018 17.8237 8.89108 17.8237C3.98078 17.8232 0 13.8333 0 8.91183C0 3.98987 3.98078 0 8.89153 0C13.8023 0 17.7826 3.98987 17.7826 8.91183Z" fill="#121214"/>
+<path d="M5.99484 6.88944C6.62734 6.88944 7.14007 6.37553 7.14007 5.74159C7.14007 5.10766 6.62734 4.59375 5.99484 4.59375C5.36235 4.59375 4.84961 5.10766 4.84961 5.74159C4.84961 6.37553 5.36235 6.88944 5.99484 6.88944Z" fill="white"/>
+<path d="M6.86244 7.64844H5.12571C5.07853 7.64844 5.04028 7.68679 5.04028 7.73411V13.3015C5.04028 13.3489 5.07853 13.3872 5.12571 13.3872H6.86244C6.90962 13.3872 6.94786 13.3489 6.94786 13.3015V7.73411C6.94786 7.68679 6.90962 7.64844 6.86244 7.64844Z" fill="white"/>
+<path d="M13.4386 9.75663V13.0086C13.4386 13.219 13.2667 13.3912 13.0568 13.3912H11.9116C11.7017 13.3912 11.5299 13.219 11.5299 13.0086V10.3303C11.5299 9.80238 11.1025 9.37401 10.5757 9.37401C10.049 9.37401 9.6216 9.80238 9.6216 10.3303V13.0086C9.6216 13.219 9.44976 13.3912 9.23986 13.3912H8.09463C7.88474 13.3912 7.71289 13.219 7.71289 13.0086V8.03464C7.71289 7.82427 7.88474 7.65202 8.09463 7.65202H9.23986C9.44976 7.65202 9.6216 7.82427 9.6216 8.03464V8.27954C10.0033 7.78389 10.6353 7.46094 11.3392 7.46094C12.3927 7.46094 13.4386 8.22617 13.4386 9.75663Z" fill="white"/>
+</svg>
+
+    </svg>
+                </a>
+
+                <a target="_blank" href="https://www.facebook.com/IZABonn"
+                   class="h-[18px] w-[18px] flex items-center justify-center hover:opacity-80 transition">
+                    <svg class="h-full w-full" viewBox="0 0 18 18" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M17.7826 8.91183C17.7826 13.8338 13.8018 17.8237 8.89108 17.8237C3.98078 17.8232 0 13.8333 0 8.91183C0 3.98987 3.98078 0 8.89153 0C13.8023 0 17.7831 3.98987 17.7831 8.91183H17.7826Z" fill="#121214"/>
+<path d="M11.5259 8.22559L11.3777 9.41785C11.3527 9.617 11.1844 9.76682 10.9848 9.76682H9.05817V14.7516C8.85499 14.77 8.64913 14.7794 8.44103 14.7794C7.97559 14.7794 7.52135 14.7327 7.08232 14.6439V9.76682H5.60055C5.4645 9.76682 5.35352 9.65513 5.35352 9.51832V8.02644C5.35352 7.88963 5.4645 7.77794 5.60055 7.77794H7.08232V5.54056C7.08232 4.16755 8.18817 3.05469 9.55269 3.05469H11.2815C11.4175 3.05469 11.5285 3.16638 11.5285 3.30319V4.79507C11.5285 4.93188 11.4175 5.04357 11.2815 5.04357H10.0463C9.50078 5.04357 9.05862 5.48853 9.05862 6.03801V7.77839H11.1334C11.3715 7.77839 11.5549 7.98786 11.5259 8.22559Z" fill="white"/>
+</svg>
+
+    </svg>
+                </a>
+            </div>
+        </div>
+
+        <div class="w-full lg:hidden h-px bg-[#e4e4e6] mb-6"></div>
+
+        
+        <div class="block lg:hidden space-y-6">
+
+            <img src="https://www.iza.org/vendor/iza/img/IZA NETWORK-LOGO-COLOR-RGB 1.svg"
+                 class="h-[47px] w-auto">
+
+            <p class="text-[13px] leading-[19px] tracking-[0.03em]">
+                Das IZA@LISER-Netzwerk ist eine weltweite Gemeinschaft für exzellente Forschung in der Arbeitsmarktökonomie und angrenzenden Fachgebieten. Nach dem Wechsel von Bonn wird das Netzwerk nun am Luxembourg Institute of Socio-Economic Research (LISER) koordiniert.
+            </p>
+
+                            <a href="/de/about-us" class="flex items-center gap-3 group cursor-pointer">
+                    <b class="tracking-[0.03em]">Über das IZA@LISER Network</b>
+                    <div class="relative h-[34px] w-[34px]">
+                        <img src="https://www.iza.org/vendor/iza/img/arrow-button-black.svg"
+                             class="absolute inset-0 m-auto h-full w-full object-contain">
+                    </div>
+                </a>
+            
+
+            <div>
+                <b class="tracking-[0.03em] block mb-2">Contact</b>
+
+                <div class="flex flex-col md:flex-row gap-8">
+                    <div class="flex-1">
+                        <span class="text-[11px] font-bold uppercase tracking-wider text-black">IZA@LISER NETWORK (Current Site Operator):</span>
+                        <p class="mt-1 text-[13px] leading-[19px] tracking-[0.03em] font-inter">
+                            Luxembourg Institute of Socio-Economic Research (LISER) <br>
+                            11, Porte des Sciences<br>Maison des Sciences Humaines<br>
+                            L-4366 Esch-sur-Alzette / Belval, Luxembourg
+                        </p>
+                    </div>
+                    <div class="flex-1">
+                        <span class="text-[11px] font-bold uppercase tracking-wider text-black">IZA Institute (In Liquidation):</span>
+                        <p class="mt-1 text-[13px] leading-[19px] tracking-[0.03em] font-inter">
+                            Forschungsinstitut zur Zukunft der Arbeit GmbH i. L.<br>
+                            Schaumburg-Lippe-Str. 5-9, 53113 Bonn. Germany<br>
+                            Phone: +49 228 3894-0 | Fax: +49 228 3894-510<br>
+                            E-Mail: info@iza.org | Web: www.iza.org<br>
+                            Represented by: Martin T. Clemens (Liquidator)<br>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        
+        <div class="hidden lg:flex w-full">
+
+            
+            <div class="w-[60%] pr-20 border-r border-[#e4e4e6] flex flex-col gap-6">
+
+                <div class="flex items-center">
+                    <img src="https://www.iza.org/vendor/iza/img/IZA NETWORK-LOGO-COLOR-RGB 1.svg"
+                         class="h-[47px] w-auto">
+                </div>
+
+                <p class="text-[13px] leading-[19px] tracking-[0.03em]">
+                    Das IZA@LISER-Netzwerk ist eine weltweite Gemeinschaft für exzellente Forschung in der Arbeitsmarktökonomie und angrenzenden Fachgebieten. Nach dem Wechsel von Bonn wird das Netzwerk nun am Luxembourg Institute of Socio-Economic Research (LISER) koordiniert.
+                </p>
+
+
+                                    <a href="/de/about-us" class="flex items-center gap-3 group cursor-pointer">
+                        <b class="tracking-[0.03em]">Über das IZA@LISER Network</b>
+                        <div class="relative h-[34px] w-[34px]">
+                            <img src="https://www.iza.org/vendor/iza/img/arrow-button-black.svg"
+                                 class="absolute inset-0 m-auto h-full w-full object-contain">
+                        </div>
+                    </a>
+                
+
+                <div class="mt-4">
+                    <b class="tracking-[0.03em] block mb-2">Contact</b>
+
+                    <div class="flex gap-8">
+
+                        <div class="flex-1">
+                            <span class="text-[11px] font-bold uppercase tracking-wider text-black">IZA@LISER NETWORK (Current Site Operator):</span>
+                            <p class="mt-1 text-[13px] leading-[19px] tracking-[0.03em] font-inter">
+                                Luxembourg Institute of Socio-Economic Research (LISER) <br>
+                                11, Porte des Sciences<br>Maison des Sciences Humaines<br>
+                                L-4366 Esch-sur-Alzette / Belval, Luxembourg
+                            </p>
+                        </div>
+
+                        <div class="flex-1">
+                            <span class="text-[11px] font-bold uppercase tracking-wider text-black">IZA Institute (In Liquidation):</span>
+                            <p class="mt-1 text-[13px] leading-[19px] tracking-[0.03em] font-inter">
+                                Forschungsinstitut zur Zukunft der Arbeit GmbH i. L.<br>
+                                Schaumburg-Lippe-Str. 5-9, 53113 Bonn. Germany<br>
+                                Phone: +49 228 3894-0 | Fax: +49 228 3894-510<br>
+                                E-Mail: info@iza.org | Web: www.iza.org<br>
+                                Represented by: Martin T. Clemens (Liquidator)<br>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+            
+            <div class="flex-1 pl-14 flex flex-col justify-between">
+
+                
+                <div class="grid grid-cols-2 gap-10 py-10 border-b border-[#e4e4e6]">
+                                            <div class="flex flex-col gap-2">
+                            <div class="text-[16px] font-semibold tracking-[0.03em]">
+                                Kommunikation
+                            </div>
+
+                            <div class="text-[14px] tracking-[0.03em]">
+                                Mark Fallak
+                            </div>
+
+                            <a href="mailto:mark.fallak@liser.lu"
+                               class="underline text-[14px] tracking-[0.03em]">
+                                mark.fallak@liser.lu
+                            </a>
+
+                                                            <div class="text-[14px] tracking-[0.03em]">
+                                    +352 585-855-526
+                                </div>
+                                                    </div>
+                                            <div class="flex flex-col gap-2">
+                            <div class="text-[16px] font-semibold tracking-[0.03em]">
+                                World of Labour
+                            </div>
+
+                            <div class="text-[14px] tracking-[0.03em]">
+                                Olga Nottmeyer
+                            </div>
+
+                            <a href="mailto:olga.nottmeyer-ext@liser.lu"
+                               class="underline text-[14px] tracking-[0.03em]">
+                                olga.nottmeyer-ext@liser.lu
+                            </a>
+
+                                                            <div class="text-[14px] tracking-[0.03em]">
+                                    +352 585-855-501
+                                </div>
+                                                    </div>
+                                            <div class="flex flex-col gap-2">
+                            <div class="text-[16px] font-semibold tracking-[0.03em]">
+                                Netzwerkkoordination
+                            </div>
+
+                            <div class="text-[14px] tracking-[0.03em]">
+                                Christina Gathmann
+                            </div>
+
+                            <a href="mailto:christina.gathmann@liser.lu"
+                               class="underline text-[14px] tracking-[0.03em]">
+                                christina.gathmann@liser.lu
+                            </a>
+
+                                                    </div>
+                                    </div>
+
+                
+                <div class="h-[81px] flex items-center justify-end pr-10">
+                    <div class="flex items-center gap-6">
+
+                        <a target="_blank" href="https://www.linkedin.com/company/iza/"
+                           class="h-[18px] w-[18px] hover:opacity-80">
+                            <svg class="h-full w-full" viewBox="0 0 18 18" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M17.7826 8.91183C17.7826 13.8338 13.8018 17.8237 8.89108 17.8237C3.98078 17.8232 0 13.8333 0 8.91183C0 3.98987 3.98078 0 8.89153 0C13.8023 0 17.7826 3.98987 17.7826 8.91183Z" fill="#121214"/>
+<path d="M5.99484 6.88944C6.62734 6.88944 7.14007 6.37553 7.14007 5.74159C7.14007 5.10766 6.62734 4.59375 5.99484 4.59375C5.36235 4.59375 4.84961 5.10766 4.84961 5.74159C4.84961 6.37553 5.36235 6.88944 5.99484 6.88944Z" fill="white"/>
+<path d="M6.86244 7.64844H5.12571C5.07853 7.64844 5.04028 7.68679 5.04028 7.73411V13.3015C5.04028 13.3489 5.07853 13.3872 5.12571 13.3872H6.86244C6.90962 13.3872 6.94786 13.3489 6.94786 13.3015V7.73411C6.94786 7.68679 6.90962 7.64844 6.86244 7.64844Z" fill="white"/>
+<path d="M13.4386 9.75663V13.0086C13.4386 13.219 13.2667 13.3912 13.0568 13.3912H11.9116C11.7017 13.3912 11.5299 13.219 11.5299 13.0086V10.3303C11.5299 9.80238 11.1025 9.37401 10.5757 9.37401C10.049 9.37401 9.6216 9.80238 9.6216 10.3303V13.0086C9.6216 13.219 9.44976 13.3912 9.23986 13.3912H8.09463C7.88474 13.3912 7.71289 13.219 7.71289 13.0086V8.03464C7.71289 7.82427 7.88474 7.65202 8.09463 7.65202H9.23986C9.44976 7.65202 9.6216 7.82427 9.6216 8.03464V8.27954C10.0033 7.78389 10.6353 7.46094 11.3392 7.46094C12.3927 7.46094 13.4386 8.22617 13.4386 9.75663Z" fill="white"/>
+</svg>
+
+    </svg>
+                        </a>
+
+                        <a target="_blank" href="https://www.facebook.com/IZABonn"
+                           class="h-[18px] w-[18px] hover:opacity-80">
+                            <svg class="h-full w-full" viewBox="0 0 18 18" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M17.7826 8.91183C17.7826 13.8338 13.8018 17.8237 8.89108 17.8237C3.98078 17.8232 0 13.8333 0 8.91183C0 3.98987 3.98078 0 8.89153 0C13.8023 0 17.7831 3.98987 17.7831 8.91183H17.7826Z" fill="#121214"/>
+<path d="M11.5259 8.22559L11.3777 9.41785C11.3527 9.617 11.1844 9.76682 10.9848 9.76682H9.05817V14.7516C8.85499 14.77 8.64913 14.7794 8.44103 14.7794C7.97559 14.7794 7.52135 14.7327 7.08232 14.6439V9.76682H5.60055C5.4645 9.76682 5.35352 9.65513 5.35352 9.51832V8.02644C5.35352 7.88963 5.4645 7.77794 5.60055 7.77794H7.08232V5.54056C7.08232 4.16755 8.18817 3.05469 9.55269 3.05469H11.2815C11.4175 3.05469 11.5285 3.16638 11.5285 3.30319V4.79507C11.5285 4.93188 11.4175 5.04357 11.2815 5.04357H10.0463C9.50078 5.04357 9.05862 5.48853 9.05862 6.03801V7.77839H11.1334C11.3715 7.77839 11.5549 7.98786 11.5259 8.22559Z" fill="white"/>
+</svg>
+
+    </svg>
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    
+    <div class="w-full bg-[#020617] text-white py-4">
+        <div class="max-w-[1440px] mx-auto px-5 flex flex-col items-center justify-center gap-3 sm:flex-row sm:gap-8 text-[13px] tracking-[0.03em] text-center">
+                                                <a href="/privacy-policy" class="hover:underline">
+                        IZA@LISER-Datenschutzerklärung
+                    </a>
+                                                                <a href="https://www.iza.org/terms-and-conditions-of-use" class="hover:underline">
+                        Nutzungsbedingungen
+                    </a>
+                                                                <a href="/legal-notice" class="hover:underline">
+                        Rechtlicher Hinweis
+                    </a>
+                                    </div>
+    </div>
+</div>
+
+
+<script>
+    (function () {
+        try {
+            var params = new URLSearchParams(window.location.search);
+            if (!params.has('_cms_iframe')) return;
+            if (window.top === window.self) return;
+
+            function findLink(el) {
+                while (el && el !== document.documentElement) {
+                    if (el.tagName && el.tagName.toLowerCase() === 'a' && el.getAttribute('href')) return el;
+                    el = el.parentElement;
+                }
+                return null;
+            }
+
+            document.addEventListener('click', function (e) {
+                var a = findLink(e.target);
+                if (!a) return;
+
+                var href = a.getAttribute('href');
+                if (!href || href.startsWith('#') || href.startsWith('mailto:') || href.startsWith('tel:')) return;
+
+                // Only handle same-origin navigations.
+                var url;
+                try { url = new URL(href, window.location.href); } catch (_e) { return; }
+                if (url.origin !== window.location.origin) return;
+
+                // Keep iframe mode enabled when navigating.
+                url.searchParams.set('_cms_iframe', '1');
+
+                e.preventDefault();
+                e.stopPropagation();
+
+                var next = url.toString();
+                window.parent.postMessage({ type: 'cms:navigate', href: next }, '*');
+                window.location.href = next;
+            }, true);
+        } catch (_e) {
+            // noop
+        }
+    })();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@3/dist/js.cookie.min.js"></script>
+<script defer src="https://unpkg.com/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
+<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</body>
+</html>

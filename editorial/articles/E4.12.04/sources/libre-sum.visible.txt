@@ -1,0 +1,56 @@
+Función SUMA
+Ayuda de LibreOffice 26.8
+Módulo
+Idioma
+Contenido
+Active JavaScript en el navegador para mostrar las páginas de ayuda de LibreOffice.
+SUMA
+Suma un conjunto de números.
+Sintaxis
+SUMA(Número 1 [; Número 2 [; ... [; Número 255]].)
+Number 1; Number 2; … ; Number 255
+are numbers, references to cells or to cell ranges of numbers.
+Esta función ignora cualquier texto o celda vacía dentro de un intervalo de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los intervalos de datos. Para resaltar el contenido del texto en un intervalo de datos, utilice la funcionalidad de
+resalte de valores
+.
+Ejemplos
+=SUMA(2;3;4)
+devuelve 9.
+=SUMA(A1;A3;B5)
+calcula la suma de las tres celdas.
+=SUMA(A1:E10)
+calcula la suma de todas las celdas en el intervalo de celdas A1-E10.
+A formula such as
+=SUM((A1:A40>=C1)*(A1:A40<C2)*B1:B40)
+may be entered as an
+array formula
+by pressing the Shift
++Command
++Ctrl
++Enter keys instead of simply pressing the Enter key to finish entering the formula. The formula will then be shown in the Formula bar enclosed in braces and operates by multiplying corresponding elements of the arrays together and returning their sum.
+Información técnica
+Esta función forma parte del estándar Open Document Format for Office Applications (OpenDocument), versión 1.2 (ISO/IEC 26300:2-2015).
+Temas relacionados
+SUM wiki page
+.
+SUMAR.SI
+,
+SUMAR.SI.CONJUNTO
+¡Necesitamos su ayuda!
+Guías de LibreOffice
+Impressum (Legal Info)
+|
+Privacy Policy
+|
+Statutes (non-binding English translation)
+-
+Satzung (binding German version)
+| Copyright information: Unless otherwise specified, all text and images on this website are licensed under the
+Mozilla Public License v2.0
+. “LibreOffice” and “The Document Foundation” are registered trademarks of their corresponding registered owners or are in actual use as trademarks in one or more countries. Their respective logos and icons are also subject to international copyright laws. Use thereof is explained in our
+trademark policy
+. LibreOffice was based on OpenOffice.org.
+Help content debug info:
+This page is:
+/text/scalc/01/func_sum.xhp
+Title is: Función SUMA
