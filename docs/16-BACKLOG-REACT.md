@@ -1,8 +1,8 @@
 # Backlog de MEE
 
-Último estado: **670/840 terminadas, 2010 imágenes originales públicas, 0 en curso o borradores WordPress y 170 pendientes**. Especialización Estratégica Escalonada 13/15; 41 tandas completas.
+Último estado: **673/840 terminadas, 2019 imágenes originales públicas, 0 en curso o borradores WordPress y 167 pendientes**. Especialización Estratégica Escalonada 15/15; Diversificación Comercial Inteligente 1/15; 42 tandas completas.
 
-Continuar **674–676 / E6.3.14–E6.4.01**, economia-compartida → Especialización Estratégica Escalonada; economia-compartida → Diversificación Comercial Inteligente. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **677–679**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Continuar **677–679 / E6.4.02–E6.4.04**, economia-compartida → Diversificación Comercial Inteligente. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **680–682**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
 
 Historial anterior: producción comprobada tras el bloque 4–6: 6/840 terminadas. En elaboración local: 7–9 con nueve imágenes propias; todavía no cuentan como publicadas. Consultar siempre WordPress y el registro 24 para el estado más reciente.
 

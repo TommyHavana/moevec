@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-03T16:42:15+00:00.
+Comprobado en WordPress: 2026-11-03T17:05:23+00:00.
 
-**670/840 terminadas · 0 en curso · 170 pendientes.**
+**673/840 terminadas · 0 en curso · 167 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -685,9 +685,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 671 | 45/56 · 11/15 | E6.3.11 | Tu ruta de especialización en cinco escalones | terminada | 3/3 | [Leer](https://moevec.org/blog/ruta-especializacion-cinco-escalones/) |
 | 672 | 45/56 · 12/15 | E6.3.12 | Caso ilustrativo: la startup que se especializó antes de crecer | terminada | 3/3 | [Leer](https://moevec.org/blog/caso-startup-especializacion/) |
 | 673 | 45/56 · 13/15 | E6.3.13 | Especialización en Cuba: oficios con demanda y nichos posibles | terminada | 3/3 | [Leer](https://moevec.org/blog/especializacion-cuba-nichos/) |
-| 674 | 45/56 · 14/15 | E6.3.14 | Subcontratar lo que no es tu especialidad | pendiente | 0/3 | — |
-| 675 | 45/56 · 15/15 | E6.3.15 | Especialización compartida: alianzas entre especialistas | pendiente | 0/3 | — |
-| 676 | 46/56 · 1/15 | E6.4.01 | No pongas todos los huevos en la misma cesta: Markowitz | pendiente | 0/3 | — |
+| 674 | 45/56 · 14/15 | E6.3.14 | Subcontratar lo que no es tu especialidad | terminada | 3/3 | [Leer](https://moevec.org/blog/subcontratar-lo-que-no-es-tu-especialidad/) |
+| 675 | 45/56 · 15/15 | E6.3.15 | Especialización compartida: alianzas entre especialistas | terminada | 3/3 | [Leer](https://moevec.org/blog/alianzas-entre-especialistas/) |
+| 676 | 46/56 · 1/15 | E6.4.01 | No pongas todos los huevos en la misma cesta: Markowitz | terminada | 3/3 | [Leer](https://moevec.org/blog/markowitz-diversificacion/) |
 | 677 | 46/56 · 2/15 | E6.4.02 | El riesgo del cliente único | pendiente | 0/3 | — |
 | 678 | 46/56 · 3/15 | E6.4.03 | Países de un solo producto: la lección de Venezuela | pendiente | 0/3 | — |
 | 679 | 46/56 · 4/15 | E6.4.04 | Diversificar no es dispersarse | pendiente | 0/3 | — |
