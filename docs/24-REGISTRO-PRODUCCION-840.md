@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-03T22:22:39+00:00.
+Comprobado en WordPress: 2026-11-03T22:39:28+00:00.
 
-**715/840 terminadas · 0 en curso · 125 pendientes.**
+**718/840 terminadas · 0 en curso · 122 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -731,9 +731,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 717 | 48/56 · 12/15 | E6.6.12 | Plantilla de acuerdo para un grupo de ahorro | terminada | 3/3 | [Leer](https://moevec.org/blog/plantilla-acuerdo-grupo-ahorro/) |
 | 718 | 48/56 · 13/15 | E6.6.13 | Invertir en Cuba desde fuera: qué permite la ley | terminada | 3/3 | [Leer](https://moevec.org/blog/invertir-en-cuba-desde-fuera/) |
 | 719 | 48/56 · 14/15 | E6.6.14 | Cómo evaluar un proyecto antes de poner dinero | terminada | 3/3 | [Leer](https://moevec.org/blog/evaluar-proyecto-antes-de-invertir/) |
-| 720 | 48/56 · 15/15 | E6.6.15 | Principios MEE para la inversión comunitaria | pendiente | 0/3 | — |
-| 721 | 49/56 · 1/15 | E6.7.01 | Lo pequeño es posible: la tesis de Bastos sobre el tamaño | pendiente | 0/3 | — |
-| 722 | 49/56 · 2/15 | E6.7.02 | El conocimiento disperso: por qué centralizar falla | pendiente | 0/3 | — |
+| 720 | 48/56 · 15/15 | E6.6.15 | Principios MEE para la inversión comunitaria | terminada | 3/3 | [Leer](https://moevec.org/blog/principios-mee-inversion-comunitaria/) |
+| 721 | 49/56 · 1/15 | E6.7.01 | Lo pequeño es posible: la tesis de Bastos sobre el tamaño | terminada | 3/3 | [Leer](https://moevec.org/blog/lo-pequeno-es-posible-bastos/) |
+| 722 | 49/56 · 2/15 | E6.7.02 | El conocimiento disperso: por qué centralizar falla | terminada | 3/3 | [Leer](https://moevec.org/blog/conocimiento-disperso-centralizar-falla/) |
 | 723 | 49/56 · 3/15 | E6.7.03 | El número de Dunbar y el tamaño de los equipos | pendiente | 0/3 | — |
 | 724 | 49/56 · 4/15 | E6.7.04 | Las crisis del crecimiento: el modelo de Greiner | pendiente | 0/3 | — |
 | 725 | 49/56 · 5/15 | E6.7.05 | Escalar no es solo crecer: rendimientos y complejidad | pendiente | 0/3 | — |
