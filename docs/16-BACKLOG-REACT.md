@@ -1,8 +1,8 @@
 # Backlog de MEE
 
-Último estado: **679/840 terminadas, 2037 imágenes originales públicas, 0 en curso o borradores WordPress y 161 pendientes**. Diversificación Comercial Inteligente 7/15; 42 tandas completas.
+Último estado: **682/840 terminadas, 2046 imágenes originales públicas, 0 en curso o borradores WordPress y 158 pendientes**. Diversificación Comercial Inteligente 10/15; 42 tandas completas.
 
-Continuar **683–685 / E6.4.08–E6.4.10**, economia-compartida → Diversificación Comercial Inteligente. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **686–688**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Continuar **686–688 / E6.4.11–E6.4.13**, economia-compartida → Diversificación Comercial Inteligente. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **689–691**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
 
 Historial anterior: producción comprobada tras el bloque 4–6: 6/840 terminadas. En elaboración local: 7–9 con nueve imágenes propias; todavía no cuentan como publicadas. Consultar siempre WordPress y el registro 24 para el estado más reciente.
 

@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-03T17:42:35+00:00.
+Comprobado en WordPress: 2026-11-03T18:05:24+00:00.
 
-**679/840 terminadas · 0 en curso · 161 pendientes.**
+**682/840 terminadas · 0 en curso · 158 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -694,9 +694,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 680 | 46/56 · 5/15 | E6.4.05 | Las cinco dimensiones de la diversificación comercial | terminada | 3/3 | [Leer](https://moevec.org/blog/cinco-dimensiones-diversificacion/) |
 | 681 | 46/56 · 6/15 | E6.4.06 | Diversificar proveedores: lecciones de la crisis de 2020–2022 | terminada | 3/3 | [Leer](https://moevec.org/blog/diversificar-proveedores-crisis/) |
 | 682 | 46/56 · 7/15 | E6.4.07 | Vender en varios canales: tienda, web, mercados y redes | terminada | 3/3 | [Leer](https://moevec.org/blog/vender-en-varios-canales/) |
-| 683 | 46/56 · 8/15 | E6.4.08 | Exportar siendo pequeño: primeros pasos | pendiente | 0/3 | — |
-| 684 | 46/56 · 9/15 | E6.4.09 | Ingresos recurrentes: suscripciones, mantenimiento y membresías | pendiente | 0/3 | — |
-| 685 | 46/56 · 10/15 | E6.4.10 | Estacionalidad: cómo diversificar para los meses flojos | pendiente | 0/3 | — |
+| 683 | 46/56 · 8/15 | E6.4.08 | Exportar siendo pequeño: primeros pasos | terminada | 3/3 | [Leer](https://moevec.org/blog/exportar-siendo-pequeno/) |
+| 684 | 46/56 · 9/15 | E6.4.09 | Ingresos recurrentes: suscripciones, mantenimiento y membresías | terminada | 3/3 | [Leer](https://moevec.org/blog/ingresos-recurrentes/) |
+| 685 | 46/56 · 10/15 | E6.4.10 | Estacionalidad: cómo diversificar para los meses flojos | terminada | 3/3 | [Leer](https://moevec.org/blog/estacionalidad-meses-flojos/) |
 | 686 | 46/56 · 11/15 | E6.4.11 | Caso ilustrativo: la panadería que diversificó sin perder su esencia | pendiente | 0/3 | — |
 | 687 | 46/56 · 12/15 | E6.4.12 | Diversificar ingresos personales: más de una fuente | pendiente | 0/3 | — |
 | 688 | 46/56 · 13/15 | E6.4.13 | Diversificación para mipymes cubanas: mercados y divisas | pendiente | 0/3 | — |
