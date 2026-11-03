@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-03T18:24:05+00:00.
+Comprobado en WordPress: 2026-11-03T18:44:39+00:00.
 
-**685/840 terminadas · 0 en curso · 155 pendientes.**
+**688/840 terminadas · 0 en curso · 152 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -700,9 +700,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 686 | 46/56 · 11/15 | E6.4.11 | Caso ilustrativo: la panadería que diversificó sin perder su esencia | terminada | 3/3 | [Leer](https://moevec.org/blog/caso-panaderia-diversificacion/) |
 | 687 | 46/56 · 12/15 | E6.4.12 | Diversificar ingresos personales: más de una fuente | terminada | 3/3 | [Leer](https://moevec.org/blog/diversificar-ingresos-personales/) |
 | 688 | 46/56 · 13/15 | E6.4.13 | Diversificación para mipymes cubanas: mercados y divisas | terminada | 3/3 | [Leer](https://moevec.org/blog/diversificacion-mipymes-cubanas/) |
-| 689 | 46/56 · 14/15 | E6.4.14 | Autodiagnóstico de concentración: una hoja de cálculo sencilla | pendiente | 0/3 | — |
-| 690 | 46/56 · 15/15 | E6.4.15 | Plan de diversificación a doce meses | pendiente | 0/3 | — |
-| 691 | 47/56 · 1/15 | E6.5.01 | Microemprendedores: quiénes son y cuántos hay | pendiente | 0/3 | — |
+| 689 | 46/56 · 14/15 | E6.4.14 | Autodiagnóstico de concentración: una hoja de cálculo sencilla | terminada | 3/3 | [Leer](https://moevec.org/blog/autodiagnostico-concentracion/) |
+| 690 | 46/56 · 15/15 | E6.4.15 | Plan de diversificación a doce meses | terminada | 3/3 | [Leer](https://moevec.org/blog/plan-diversificacion-doce-meses/) |
+| 691 | 47/56 · 1/15 | E6.5.01 | Microemprendedores: quiénes son y cuántos hay | terminada | 3/3 | [Leer](https://moevec.org/blog/microemprendedores-quienes-son/) |
 | 692 | 47/56 · 2/15 | E6.5.02 | Capital muerto y microemprendedores: qué ha demostrado la evidencia | pendiente | 0/3 | — |
 | 693 | 47/56 · 3/15 | E6.5.03 | Informalidad: refugio, trampa y síntoma | pendiente | 0/3 | — |
 | 694 | 47/56 · 4/15 | E6.5.04 | Microcrédito: lo que prometió y lo que demostró | pendiente | 0/3 | — |

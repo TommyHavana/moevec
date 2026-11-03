@@ -1,0 +1,11 @@
+# Revisión editorial · E6.4.15
+
+- ID, título, slug, área/tema y etiquetas del plan conservados.
+- Texto principal 1152 palabras, apertura de 40–60, dos ejemplos hipotéticos, tres FAQ de 40–70, argumento contrario atribuido a autor real, lectura de MEE y práctica.
+- Fuentes y alcance parcial documentados; sin umbrales de fusiones como seguridad empresarial, calendario anual validado universalmente o cifras de mipymes atribuidas solo a microempresas. Fechas, unidades y ámbitos estadísticos conservados, ejemplos hipotéticos. Variantes SEO del título/slug fijo identificadas.
+- Tres originales generados con herramienta integrada, inspeccionados, tamaños, alt y hash comprobados.
+- Pendiente publicación y verificación pública.
+
+## Publicación comprobada
+
+HTTP200, H1, canonical, indexabilidad, Article, tres originales con alt y hash, imágenes renderizadas, índice, BreadcrumbList, sitemap y enlaces existentes verificados. Una publicación y tres adjuntos porID, categorías y etiquetas delplan; taxonomía122/7. No acredita indexación efectiva ni una restauración completa.
