@@ -1825,3 +1825,13 @@ Fuentes y alcances por artículo en research-notes.md y source-review.json. Caso
 
 Continuar **662–664 / E6.3.02–E6.3.04**, economia-compartida → Especialización Estratégica Escalonada. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **665–667**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
 Automatización cada tres minutos ya configurada. No se han borrado copias ni originales.
+
+
+## Continuación editorial662-664 ·03/11/2026
+
+**661/840 terminadas, 1983 imágenes originales públicas, 0 en curso o borradores WordPress y 179 pendientes**. Especialización Estratégica Escalonada 4/15; 41 tandas completas.
+
+Fuentes y alcances por artículo en research-notes.md y source-review.json. Casos y ejemplos identificados, fuentes primarias y límites contrastados antes de publicar. Advertencia SEO: salida WordPress con dos meta descripciones idénticas; textos y títulos correctos. Incidencia de plantilla registrada, fuera de esta producción.
+
+Continuar **665–667 / E6.3.05–E6.3.07**, economia-compartida → Especialización Estratégica Escalonada. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **668–670**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Automatización cada tres minutos ya configurada. No se han borrado copias ni originales.

@@ -1,8 +1,8 @@
 # Backlog de MEE
 
-Último estado: **658/840 terminadas, 1974 imágenes originales públicas, 0 en curso o borradores WordPress y 182 pendientes**. Adaptabilidad Técnica 14/15; Especialización Estratégica Escalonada 1/15; 41 tandas completas.
+Último estado: **661/840 terminadas, 1983 imágenes originales públicas, 0 en curso o borradores WordPress y 179 pendientes**. Especialización Estratégica Escalonada 4/15; 41 tandas completas.
 
-Continuar **662–664 / E6.3.02–E6.3.04**, economia-compartida → Especialización Estratégica Escalonada. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **665–667**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Continuar **665–667 / E6.3.05–E6.3.07**, economia-compartida → Especialización Estratégica Escalonada. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **668–670**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
 
 Historial anterior: producción comprobada tras el bloque 4–6: 6/840 terminadas. En elaboración local: 7–9 con nueve imágenes propias; todavía no cuentan como publicadas. Consultar siempre WordPress y el registro 24 para el estado más reciente.
 

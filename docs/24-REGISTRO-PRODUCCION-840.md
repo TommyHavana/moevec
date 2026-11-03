@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-03T15:02:40+00:00.
+Comprobado en WordPress: 2026-11-03T15:27:56+00:00.
 
-**658/840 terminadas · 0 en curso · 182 pendientes.**
+**661/840 terminadas · 0 en curso · 179 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -673,9 +673,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 659 | 44/56 · 14/15 | E4.12.14 | Aprender una herramienta nueva en una semana: método | terminada | 3/3 | [Leer](https://moevec.org/blog/aprender-herramienta-en-una-semana/) |
 | 660 | 44/56 · 15/15 | E4.12.15 | Radar tecnológico de MEE: qué vigilar los próximos años | terminada | 3/3 | [Leer](https://moevec.org/blog/radar-tecnologico-mee/) |
 | 661 | 45/56 · 1/15 | E6.3.01 | La fábrica de alfileres: por qué especializarse multiplica la producción | terminada | 3/3 | [Leer](https://moevec.org/blog/fabrica-de-alfileres/) |
-| 662 | 45/56 · 2/15 | E6.3.02 | Ventaja comparativa aplicada a tu negocio y a tu red | pendiente | 0/3 | — |
-| 663 | 45/56 · 3/15 | E6.3.03 | El espacio de productos: cómo crecen las capacidades | pendiente | 0/3 | — |
-| 664 | 45/56 · 4/15 | E6.3.04 | Etapas de diversificación: primero amplía, luego afina | pendiente | 0/3 | — |
+| 662 | 45/56 · 2/15 | E6.3.02 | Ventaja comparativa aplicada a tu negocio y a tu red | terminada | 3/3 | [Leer](https://moevec.org/blog/ventaja-comparativa-negocio-y-red/) |
+| 663 | 45/56 · 3/15 | E6.3.03 | El espacio de productos: cómo crecen las capacidades | terminada | 3/3 | [Leer](https://moevec.org/blog/espacio-de-productos/) |
+| 664 | 45/56 · 4/15 | E6.3.04 | Etapas de diversificación: primero amplía, luego afina | terminada | 3/3 | [Leer](https://moevec.org/blog/etapas-de-diversificacion/) |
 | 665 | 45/56 · 5/15 | E6.3.05 | Capital humano: invertir en lo que sabes hacer | pendiente | 0/3 | — |
 | 666 | 45/56 · 6/15 | E6.3.06 | Nicho primero: por qué empezar pequeño y concreto | pendiente | 0/3 | — |
 | 667 | 45/56 · 7/15 | E6.3.07 | El salto a la capacidad vecina: cuándo y cómo ampliar | pendiente | 0/3 | — |
