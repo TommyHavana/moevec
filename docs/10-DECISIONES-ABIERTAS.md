@@ -1875,3 +1875,13 @@ Fuentes y alcances por artículo en research-notes.md y source-review.json. Caso
 
 Continuar **677–679 / E6.4.02–E6.4.04**, economia-compartida → Diversificación Comercial Inteligente. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **680–682**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
 Automatización cada tres minutos ya configurada. No se han borrado copias ni originales.
+
+
+## Continuación editorial677-679 ·03/11/2026
+
+**676/840 terminadas, 2028 imágenes originales públicas, 0 en curso o borradores WordPress y 164 pendientes**. Diversificación Comercial Inteligente 4/15; 42 tandas completas.
+
+Fuentes y alcances por artículo en research-notes.md y source-review.json. Casos y ejemplos identificados, fuentes primarias y límites contrastados antes de publicar. Advertencia SEO: salida WordPress con dos meta descripciones idénticas; textos y títulos correctos. Incidencia de plantilla registrada, fuera de esta producción.
+
+Continuar **680–682 / E6.4.05–E6.4.07**, economia-compartida → Diversificación Comercial Inteligente. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **683–685**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Automatización cada tres minutos ya configurada. No se han borrado copias ni originales.

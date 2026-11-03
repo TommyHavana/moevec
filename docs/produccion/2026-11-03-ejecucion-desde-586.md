@@ -1,8 +1,8 @@
 # Ejecución desde586 ·03/11/2026
 
-**673/840 terminadas, 2019 imágenes originales públicas, 0 en curso o borradores WordPress y 167 pendientes**. Especialización Estratégica Escalonada 15/15; Diversificación Comercial Inteligente 1/15; 42 tandas completas.
+**676/840 terminadas, 2028 imágenes originales públicas, 0 en curso o borradores WordPress y 164 pendientes**. Diversificación Comercial Inteligente 4/15; 42 tandas completas.
 
-87 nuevas entradas y261originales públicos.
+90 nuevas entradas y270originales públicos.
 
 | Global | ID | URL | Imágenes |
 |---|---|---|---|
@@ -93,5 +93,8 @@
 |674|E6.3.14|https://moevec.org/blog/subcontratar-lo-que-no-es-tu-especialidad/|3/3|
 |675|E6.3.15|https://moevec.org/blog/alianzas-entre-especialistas/|3/3|
 |676|E6.4.01|https://moevec.org/blog/markowitz-diversificacion/|3/3|
+|677|E6.4.02|https://moevec.org/blog/riesgo-cliente-unico/|3/3|
+|678|E6.4.03|https://moevec.org/blog/paises-un-solo-producto-venezuela/|3/3|
+|679|E6.4.04|https://moevec.org/blog/diversificar-no-es-dispersarse/|3/3|
 
-Continuar **677–679 / E6.4.02–E6.4.04**, economia-compartida → Diversificación Comercial Inteligente. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **680–682**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Continuar **680–682 / E6.4.05–E6.4.07**, economia-compartida → Diversificación Comercial Inteligente. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **683–685**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.

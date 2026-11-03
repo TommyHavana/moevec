@@ -2,13 +2,13 @@
 
 ## Estado actual
 
-**673/840 terminadas, 2019 imágenes originales públicas, 0 en curso o borradores WordPress y 167 pendientes**. Especialización Estratégica Escalonada 15/15; Diversificación Comercial Inteligente 1/15; 42 tandas completas.
+**676/840 terminadas, 2028 imágenes originales públicas, 0 en curso o borradores WordPress y 164 pendientes**. Diversificación Comercial Inteligente 4/15; 42 tandas completas.
 
 Fuente activa `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Inicio586; 87 nuevas entradas y261originales públicos.
+Inicio586; 90 nuevas entradas y270originales públicos.
 
 | Global | ID | URL | Imágenes |
 |---|---|---|---|
@@ -99,6 +99,9 @@ Inicio586; 87 nuevas entradas y261originales públicos.
 |674|E6.3.14|https://moevec.org/blog/subcontratar-lo-que-no-es-tu-especialidad/|3/3|
 |675|E6.3.15|https://moevec.org/blog/alianzas-entre-especialistas/|3/3|
 |676|E6.4.01|https://moevec.org/blog/markowitz-diversificacion/|3/3|
+|677|E6.4.02|https://moevec.org/blog/riesgo-cliente-unico/|3/3|
+|678|E6.4.03|https://moevec.org/blog/paises-un-solo-producto-venezuela/|3/3|
+|679|E6.4.04|https://moevec.org/blog/diversificar-no-es-dispersarse/|3/3|
 
 ## Revisión del último bloque
 
@@ -106,11 +109,11 @@ Fuentes y alcances por artículo en research-notes.md y source-review.json. Caso
 
 ## Continuación exacta
 
-Continuar **677–679 / E6.4.02–E6.4.04**, economia-compartida → Diversificación Comercial Inteligente. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **680–682**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Continuar **680–682 / E6.4.05–E6.4.07**, economia-compartida → Diversificación Comercial Inteligente. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **683–685**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
 
 ## Copias y capacidad
 
-VPS `/data/mee-backups/produccion-840-incremento-674-676-20261103`: SQL vigente `wordpress.sql` 26185441B, 66medios nuevos. Cadena213más base, huecos501/512/649. Hashes y miembros comprobados; sin nueva prueba de arranque de restauración. ZIP local incremental y prueba de entrega externos, con toda la cadena anterior conservada.
+VPS `/data/mee-backups/produccion-840-incremento-677-679-20261103`: SQL vigente `wordpress.sql` 26283407B, 66medios nuevos. Cadena214más base, huecos501/512/649. Hashes y miembros comprobados; sin nueva prueba de arranque de restauración. ZIP local incremental y prueba de entrega externos, con toda la cadena anterior conservada.
 
 Comprobar espacio antes de cada generación y copia; capacidad medida y prueba de entrega previa conservada. Umbral operativo200MiB antes de generar, y copias proporcionales con margen calculado; conservar todas las copias y originales. Automatización del mismo chat cada tres minutos, según petición del fundador.
 

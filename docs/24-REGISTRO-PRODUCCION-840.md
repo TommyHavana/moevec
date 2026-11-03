@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-03T17:05:23+00:00.
+Comprobado en WordPress: 2026-11-03T17:26:12+00:00.
 
-**673/840 terminadas · 0 en curso · 167 pendientes.**
+**676/840 terminadas · 0 en curso · 164 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -688,9 +688,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 674 | 45/56 · 14/15 | E6.3.14 | Subcontratar lo que no es tu especialidad | terminada | 3/3 | [Leer](https://moevec.org/blog/subcontratar-lo-que-no-es-tu-especialidad/) |
 | 675 | 45/56 · 15/15 | E6.3.15 | Especialización compartida: alianzas entre especialistas | terminada | 3/3 | [Leer](https://moevec.org/blog/alianzas-entre-especialistas/) |
 | 676 | 46/56 · 1/15 | E6.4.01 | No pongas todos los huevos en la misma cesta: Markowitz | terminada | 3/3 | [Leer](https://moevec.org/blog/markowitz-diversificacion/) |
-| 677 | 46/56 · 2/15 | E6.4.02 | El riesgo del cliente único | pendiente | 0/3 | — |
-| 678 | 46/56 · 3/15 | E6.4.03 | Países de un solo producto: la lección de Venezuela | pendiente | 0/3 | — |
-| 679 | 46/56 · 4/15 | E6.4.04 | Diversificar no es dispersarse | pendiente | 0/3 | — |
+| 677 | 46/56 · 2/15 | E6.4.02 | El riesgo del cliente único | terminada | 3/3 | [Leer](https://moevec.org/blog/riesgo-cliente-unico/) |
+| 678 | 46/56 · 3/15 | E6.4.03 | Países de un solo producto: la lección de Venezuela | terminada | 3/3 | [Leer](https://moevec.org/blog/paises-un-solo-producto-venezuela/) |
+| 679 | 46/56 · 4/15 | E6.4.04 | Diversificar no es dispersarse | terminada | 3/3 | [Leer](https://moevec.org/blog/diversificar-no-es-dispersarse/) |
 | 680 | 46/56 · 5/15 | E6.4.05 | Las cinco dimensiones de la diversificación comercial | pendiente | 0/3 | — |
 | 681 | 46/56 · 6/15 | E6.4.06 | Diversificar proveedores: lecciones de la crisis de 2020–2022 | pendiente | 0/3 | — |
 | 682 | 46/56 · 7/15 | E6.4.07 | Vender en varios canales: tienda, web, mercados y redes | pendiente | 0/3 | — |
