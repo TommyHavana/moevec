@@ -1,8 +1,8 @@
 # Ejecución desde586 ·03/11/2026
 
-**676/840 terminadas, 2028 imágenes originales públicas, 0 en curso o borradores WordPress y 164 pendientes**. Diversificación Comercial Inteligente 4/15; 42 tandas completas.
+**679/840 terminadas, 2037 imágenes originales públicas, 0 en curso o borradores WordPress y 161 pendientes**. Diversificación Comercial Inteligente 7/15; 42 tandas completas.
 
-90 nuevas entradas y270originales públicos.
+93 nuevas entradas y279originales públicos.
 
 | Global | ID | URL | Imágenes |
 |---|---|---|---|
@@ -96,5 +96,8 @@
 |677|E6.4.02|https://moevec.org/blog/riesgo-cliente-unico/|3/3|
 |678|E6.4.03|https://moevec.org/blog/paises-un-solo-producto-venezuela/|3/3|
 |679|E6.4.04|https://moevec.org/blog/diversificar-no-es-dispersarse/|3/3|
+|680|E6.4.05|https://moevec.org/blog/cinco-dimensiones-diversificacion/|3/3|
+|681|E6.4.06|https://moevec.org/blog/diversificar-proveedores-crisis/|3/3|
+|682|E6.4.07|https://moevec.org/blog/vender-en-varios-canales/|3/3|
 
-Continuar **680–682 / E6.4.05–E6.4.07**, economia-compartida → Diversificación Comercial Inteligente. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **683–685**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.
+Continuar **683–685 / E6.4.08–E6.4.10**, economia-compartida → Diversificación Comercial Inteligente. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **686–688**. **501/E4.2.06,512/E4.3.02 y649/E4.12.04** siguen retenidas por título, con textos y tres imágenes, sin publicar; preguntas anteriores pendientes, sin repetirlas ni interpretar silencio como aprobación.

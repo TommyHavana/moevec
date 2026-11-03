@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-03T17:26:12+00:00.
+Comprobado en WordPress: 2026-11-03T17:42:35+00:00.
 
-**676/840 terminadas · 0 en curso · 164 pendientes.**
+**679/840 terminadas · 0 en curso · 161 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -691,9 +691,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 677 | 46/56 · 2/15 | E6.4.02 | El riesgo del cliente único | terminada | 3/3 | [Leer](https://moevec.org/blog/riesgo-cliente-unico/) |
 | 678 | 46/56 · 3/15 | E6.4.03 | Países de un solo producto: la lección de Venezuela | terminada | 3/3 | [Leer](https://moevec.org/blog/paises-un-solo-producto-venezuela/) |
 | 679 | 46/56 · 4/15 | E6.4.04 | Diversificar no es dispersarse | terminada | 3/3 | [Leer](https://moevec.org/blog/diversificar-no-es-dispersarse/) |
-| 680 | 46/56 · 5/15 | E6.4.05 | Las cinco dimensiones de la diversificación comercial | pendiente | 0/3 | — |
-| 681 | 46/56 · 6/15 | E6.4.06 | Diversificar proveedores: lecciones de la crisis de 2020–2022 | pendiente | 0/3 | — |
-| 682 | 46/56 · 7/15 | E6.4.07 | Vender en varios canales: tienda, web, mercados y redes | pendiente | 0/3 | — |
+| 680 | 46/56 · 5/15 | E6.4.05 | Las cinco dimensiones de la diversificación comercial | terminada | 3/3 | [Leer](https://moevec.org/blog/cinco-dimensiones-diversificacion/) |
+| 681 | 46/56 · 6/15 | E6.4.06 | Diversificar proveedores: lecciones de la crisis de 2020–2022 | terminada | 3/3 | [Leer](https://moevec.org/blog/diversificar-proveedores-crisis/) |
+| 682 | 46/56 · 7/15 | E6.4.07 | Vender en varios canales: tienda, web, mercados y redes | terminada | 3/3 | [Leer](https://moevec.org/blog/vender-en-varios-canales/) |
 | 683 | 46/56 · 8/15 | E6.4.08 | Exportar siendo pequeño: primeros pasos | pendiente | 0/3 | — |
 | 684 | 46/56 · 9/15 | E6.4.09 | Ingresos recurrentes: suscripciones, mantenimiento y membresías | pendiente | 0/3 | — |
 | 685 | 46/56 · 10/15 | E6.4.10 | Estacionalidad: cómo diversificar para los meses flojos | pendiente | 0/3 | — |
