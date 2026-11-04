@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-04T23:10:40+00:00.
+Comprobado en WordPress: 2026-11-04T23:43:20+00:00.
 
-**799/840 terminadas · 0 en curso · 41 pendientes.**
+**802/840 terminadas · 0 en curso · 38 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -816,9 +816,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 802 | 54/56 · 7/15 | E2.5.07 | Agradecimiento en los negocios: clientes, proveedores y empleados | terminada | 3/3 | [Leer](https://moevec.org/blog/agradecimiento-en-los-negocios/) |
 | 803 | 54/56 · 8/15 | E2.5.08 | Gratitud hacia quienes se fueron: emigrantes que sostienen a sus familias | terminada | 3/3 | [Leer](https://moevec.org/blog/gratitud-a-los-emigrantes/) |
 | 804 | 54/56 · 9/15 | E2.5.09 | Gratitud y salud mental: lo que se sabe y lo que no | terminada | 3/3 | [Leer](https://moevec.org/blog/gratitud-y-salud-mental/) |
-| 805 | 54/56 · 10/15 | E2.5.10 | Filantropía y gratitud: devolver a la comunidad | pendiente | 0/3 | — |
-| 806 | 54/56 · 11/15 | E2.5.11 | El diario de gratitud del emprendedor: práctica de 30 días | pendiente | 0/3 | — |
-| 807 | 54/56 · 12/15 | E2.5.12 | Enseñar gratitud a los niños sin culparlos | pendiente | 0/3 | — |
+| 805 | 54/56 · 10/15 | E2.5.10 | Filantropía y gratitud: devolver a la comunidad | terminada | 3/3 | [Leer](https://moevec.org/blog/filantropia-y-gratitud/) |
+| 806 | 54/56 · 11/15 | E2.5.11 | El diario de gratitud del emprendedor: práctica de 30 días | terminada | 3/3 | [Leer](https://moevec.org/blog/diario-gratitud-emprendedor/) |
+| 807 | 54/56 · 12/15 | E2.5.12 | Enseñar gratitud a los niños sin culparlos | terminada | 3/3 | [Leer](https://moevec.org/blog/ensenar-gratitud-ninos/) |
 | 808 | 54/56 · 13/15 | E2.5.13 | Agradecer a los maestros: la profesión que construye capital humano | pendiente | 0/3 | — |
 | 809 | 54/56 · 14/15 | E2.5.14 | Gratitud y crítica: agradecer sin renunciar a exigir | pendiente | 0/3 | — |
 | 810 | 54/56 · 15/15 | E2.5.15 | Muro de gratitud de MEE: cómo reconocer a quien aporta en la comunidad | pendiente | 0/3 | — |
