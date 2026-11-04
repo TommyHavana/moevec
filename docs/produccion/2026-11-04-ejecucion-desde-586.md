@@ -1,8 +1,8 @@
 # Ejecución desde586 ·04/11/2026
 
-**769/840 terminadas, 2307 imágenes originales públicas, 0 en curso o borradores WordPress y 71 pendientes**. Responsabilidad Generacional 8/15; 47 tandas completas.
+**772/840 terminadas, 2316 imágenes originales públicas, 0 en curso o borradores WordPress y 68 pendientes**. Responsabilidad Generacional 11/15; 47 tandas completas.
 
-183 nuevas entradas y549originales públicos.
+186 nuevas entradas y558originales públicos.
 
 | Global | ID | URL | Imágenes |
 |---|---|---|---|
@@ -189,5 +189,8 @@
 |772|E2.3.07|https://moevec.org/blog/pensiones-espana-sostenibilidad/|3/3|
 |773|E2.3.08|https://moevec.org/blog/chile-afp-capitalizacion/|3/3|
 |774|E2.3.09|https://moevec.org/blog/argentina-2008-afjp/|3/3|
+|775|E2.3.10|https://moevec.org/blog/jubilarse-en-cuba/|3/3|
+|776|E2.3.11|https://moevec.org/blog/hablar-de-dinero-con-padres-mayores/|3/3|
+|777|E2.3.12|https://moevec.org/blog/tres-generaciones-casa-compartida/|3/3|
 
-Continuar **775–777 / E2.3.10–E2.3.12**, tribu → Responsabilidad Generacional. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **778–780**. **501/E4.2.06,512/E4.3.02,649/E4.12.04,707/E6.6.02 y769/E2.3.04** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.
+Continuar **778–780 / E2.3.13–E2.3.15**, tribu → Responsabilidad Generacional. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **781–783**. **501/E4.2.06,512/E4.3.02,649/E4.12.04,707/E6.6.02 y769/E2.3.04** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.

@@ -1,3 +1,19 @@
-# Preparación · E2.3.10
+# Investigación · E2.3.10
 
-Brief y prompts conservados; investigación en curso, sin publicación.
+Ministerio de Trabajo y Seguridad Social de Cuba · Resolución14/2025 · Gaceta71,06/08/2025
+https://www.directoriocubano.com/wp-content/uploads/dc-gaceta/archive/pdf/2025/08/ordinaria/071/gaceta.pdf
+Reproducción del documento primario oficial en hospedaje de Directorio Cubano, no se usa su resumen periodístico. PDF2p199053B SHAe67be434f7eed9844471e7dfc9389ca5b08a7d501ed3879e83c9d9186593d9a7; ambas páginas leídas,render2visto. Originalportal noaccesible, sin comparaciónhashcontraoriginal afirmada. Tramos edad/invalidez:<=2472incremento1528,2473–3999hasta4000,muertescuotaparte,unificada/varias. Aplicación1sept2025pagosagosto; preámbulo objetivoLey105protecciónadecuada/nopensiónuniformetodos. EjemploMEE2000+1528=3528/3000a4000 no beneficiariosreales. Mínima3056noafirmada porque cuantíaprevia mínima no primaria verificada; media2192no usada.
+
+ONEI · Comunicación institucional IPC septiembre2026 ·14/10/2026
+https://t.me/s/CubaONEI/1556
+HTML200132889B SHAd118e1abe73a64cb01b58afcdd7fd6d911bec6b02d7ab1d01d70400e8c6365ff. Cuerpo del mensaje1556 aisladoyleído,ademásbefore1559archivado;fecha14oct2026. Septiembre mensual3.37/acum24.85/interanual28.44; noigualdesde2021 ni IPCigualdólarinformal. PDFadjunto1557local no descargado,no seriehistórica completa. 73.39impactoalimentosNOvariaciónpreciotodosalimentos(no usado). Ejemplohipo100a125incremento25/poder100/125=.8pérdida20%,noIPCobservadodel hogar.
+
+CIDH · Derechos laborales del personal sanitario en misiones médicas provenientes de Cuba ·31/12/2025
+https://www.oas.org/es/cidh/informes/pdfs/2026/informe_misiones_medicas_cuba.pdf
+PDF199pconsultadoweb, metadatosPDF2–3ypárrafo72PDF41(índice40). Fechaaprobación31dic2025,no2026inferidadelpath. Local403registrado, no archivo completo preservado. Valoración institucional deterioropoderadquisitivopensiones/remesasqueseapoyaenotrasorganizaciones; no encuesta primaria propiaCIDH. No porcentajespobreza/percentremesas ni199píntegrosleídos.
+
+Excluido:
+- Sin mínima universal4000,pensiónmedia2024=2192o media2026sin fuenteprimaria leída.
+- Sin tipo decambiovigente,99%pobreza o inflacióninformal detresdígitosafirmadas.
+- Sin todoslosjubiladostienenremesasni caída43%remesasde cifrascontradictorias.
+- Sin serieacumulada2021–2026reconstruida,cuantíaactualindividual,resolución2025comoestatutoexhaustivo2026o coberturaigualpensiónuniversalautomática.

@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-04T06:09:02+00:00.
+Comprobado en WordPress: 2026-11-04T06:28:37+00:00.
 
-**769/840 terminadas · 0 en curso · 71 pendientes.**
+**772/840 terminadas · 0 en curso · 68 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -786,9 +786,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 772 | 52/56 · 7/15 | E2.3.07 | El sistema de pensiones español: sostenibilidad en debate | terminada | 3/3 | [Leer](https://moevec.org/blog/pensiones-espana-sostenibilidad/) |
 | 773 | 52/56 · 8/15 | E2.3.08 | Chile y las AFP: 40 años de capitalización individual en debate | terminada | 3/3 | [Leer](https://moevec.org/blog/chile-afp-capitalizacion/) |
 | 774 | 52/56 · 9/15 | E2.3.09 | Argentina 2008: cuando el Estado se quedó con los ahorros de las AFJP | terminada | 3/3 | [Leer](https://moevec.org/blog/argentina-2008-afjp/) |
-| 775 | 52/56 · 10/15 | E2.3.10 | Jubilarse en Cuba: pensiones, inflación y dependencia de remesas | pendiente | 0/3 | — |
-| 776 | 52/56 · 11/15 | E2.3.11 | Cómo hablar de dinero con tus padres mayores | pendiente | 0/3 | — |
-| 777 | 52/56 · 12/15 | E2.3.12 | Tres generaciones bajo un mismo techo: economía de la casa compartida | pendiente | 0/3 | — |
+| 775 | 52/56 · 10/15 | E2.3.10 | Jubilarse en Cuba: pensiones, inflación y dependencia de remesas | terminada | 3/3 | [Leer](https://moevec.org/blog/jubilarse-en-cuba/) |
+| 776 | 52/56 · 11/15 | E2.3.11 | Cómo hablar de dinero con tus padres mayores | terminada | 3/3 | [Leer](https://moevec.org/blog/hablar-de-dinero-con-padres-mayores/) |
+| 777 | 52/56 · 12/15 | E2.3.12 | Tres generaciones bajo un mismo techo: economía de la casa compartida | terminada | 3/3 | [Leer](https://moevec.org/blog/tres-generaciones-casa-compartida/) |
 | 778 | 52/56 · 13/15 | E2.3.13 | Cuidar el planeta sin hipotecar el futuro económico | pendiente | 0/3 | — |
 | 779 | 52/56 · 14/15 | E2.3.14 | Fondos soberanos: el ahorro colectivo de Noruega | pendiente | 0/3 | — |
 | 780 | 52/56 · 15/15 | E2.3.15 | Una carta a tus nietos: ejercicio de planificación de vida | pendiente | 0/3 | — |
