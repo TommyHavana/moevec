@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-04T02:27:14+00:00.
+Comprobado en WordPress: 2026-11-04T02:44:02+00:00.
 
-**739/840 terminadas · 0 en curso · 101 pendientes.**
+**742/840 terminadas · 0 en curso · 98 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -755,9 +755,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 741 | 50/56 · 6/15 | E2.1.06 | El negocio familiar: ventajas, riesgos y cómo profesionalizarlo | terminada | 3/3 | [Leer](https://moevec.org/blog/negocio-familiar-profesionalizar/) |
 | 742 | 50/56 · 7/15 | E2.1.07 | Remesas como sacrificio transnacional: lo que mueve a millones de familias | terminada | 3/3 | [Leer](https://moevec.org/blog/remesas-sacrificio-transnacional/) |
 | 743 | 50/56 · 8/15 | E2.1.08 | Cuidar a los mayores: costes, opciones y cómo repartir la carga | terminada | 3/3 | [Leer](https://moevec.org/blog/cuidar-a-los-mayores/) |
-| 744 | 50/56 · 9/15 | E2.1.09 | Hermanos mayores que pagan la universidad de los menores | pendiente | 0/3 | — |
-| 745 | 50/56 · 10/15 | E2.1.10 | Sacrificio sin coacción: la diferencia entre familia y colectivismo forzoso | pendiente | 0/3 | — |
-| 746 | 50/56 · 11/15 | E2.1.11 | Familias cubanas divididas: la economía de la separación | pendiente | 0/3 | — |
+| 744 | 50/56 · 9/15 | E2.1.09 | Hermanos mayores que pagan la universidad de los menores | terminada | 3/3 | [Leer](https://moevec.org/blog/hermanos-mayores-pagan-estudios/) |
+| 745 | 50/56 · 10/15 | E2.1.10 | Sacrificio sin coacción: la diferencia entre familia y colectivismo forzoso | terminada | 3/3 | [Leer](https://moevec.org/blog/sacrificio-sin-coaccion/) |
+| 746 | 50/56 · 11/15 | E2.1.11 | Familias cubanas divididas: la economía de la separación | terminada | 3/3 | [Leer](https://moevec.org/blog/familias-cubanas-divididas/) |
 | 747 | 50/56 · 12/15 | E2.1.12 | Cómo hacer un acuerdo familiar de inversión | pendiente | 0/3 | — |
 | 748 | 50/56 · 13/15 | E2.1.13 | La generación sándwich: cuidar hijos y padres a la vez | pendiente | 0/3 | — |
 | 749 | 50/56 · 14/15 | E2.1.14 | Hipotecar la casa familiar para un negocio: análisis de riesgos | pendiente | 0/3 | — |
