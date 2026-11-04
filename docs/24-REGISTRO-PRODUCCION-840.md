@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-04T07:59:52+00:00.
+Comprobado en WordPress: 2026-11-04T08:20:44+00:00.
 
-**784/840 terminadas · 0 en curso · 56 pendientes.**
+**787/840 terminadas · 0 en curso · 53 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -801,9 +801,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 787 | 53/56 · 7/15 | E2.4.07 | Valores frente a consumismo: lo que Bastos quiere decir con frugalidad | terminada | 3/3 | [Leer](https://moevec.org/blog/valores-frente-a-consumismo-frugalidad/) |
 | 788 | 53/56 · 8/15 | E2.4.08 | Familia elegida: transmitir valores fuera de la sangre | terminada | 3/3 | [Leer](https://moevec.org/blog/familia-elegida-valores/) |
 | 789 | 53/56 · 9/15 | E2.4.09 | Lo que se aprende en la mesa: rituales familiares y capital social | terminada | 3/3 | [Leer](https://moevec.org/blog/rituales-familiares-capital-social/) |
-| 790 | 53/56 · 10/15 | E2.4.10 | Valores en sociedades bajo control ideológico: qué se transmite en casa | pendiente | 0/3 | — |
-| 791 | 53/56 · 11/15 | E2.4.11 | Diez valores que MEE propone transmitir (y por qué) | pendiente | 0/3 | — |
-| 792 | 53/56 · 12/15 | E2.4.12 | Contar historias familiares de esfuerzo: memoria como herencia | pendiente | 0/3 | — |
+| 790 | 53/56 · 10/15 | E2.4.10 | Valores en sociedades bajo control ideológico: qué se transmite en casa | terminada | 3/3 | [Leer](https://moevec.org/blog/valores-bajo-control-ideologico/) |
+| 791 | 53/56 · 11/15 | E2.4.11 | Diez valores que MEE propone transmitir (y por qué) | terminada | 3/3 | [Leer](https://moevec.org/blog/diez-valores-mee/) |
+| 792 | 53/56 · 12/15 | E2.4.12 | Contar historias familiares de esfuerzo: memoria como herencia | terminada | 3/3 | [Leer](https://moevec.org/blog/historias-familiares-de-esfuerzo/) |
 | 793 | 53/56 · 13/15 | E2.4.13 | Educación financiera en casa: un plan por edades | pendiente | 0/3 | — |
 | 794 | 53/56 · 14/15 | E2.4.14 | Cuando tus hijos piensan distinto: respeto y diálogo | pendiente | 0/3 | — |
 | 795 | 53/56 · 15/15 | E2.4.15 | Valores de los emigrantes: lo que se lleva en la maleta | pendiente | 0/3 | — |

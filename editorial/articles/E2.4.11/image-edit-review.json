@@ -1,0 +1,21 @@
+{
+  "role": "interior-1",
+  "tool": "image_gen",
+  "initial_native": "exec-41a84bb0-d9f3-4b7c-9c70-d6fa20d546d5.png",
+  "initial_disposition": "Rechazado: once superficies incluyendo desembarco superior.",
+  "edits": [
+    {
+      "native": "exec-d14743c3-a4b3-477d-be3c-7b7fdb2d0d5a.png",
+      "prompt": "Edit this existing MEE paper illustration. Preserve blue background, ivory tactile staircase, red sphere at foot, landscape lighting and no writing. The staircase currently shows eleven tread surfaces when the top landing is counted. Remove one middle step and close the gap so the finished staircase has exactly TEN horizontal ivory tread surfaces in total, including the top landing: ten rises and ten flat visible treads, not eleven. Keep every tread fully visible and easily countable. No text, numbers, symbols, other objects or labels.",
+      "accepted": false,
+      "note": "Seguía mostrando once superficies."
+    },
+    {
+      "native": "exec-82b6c18a-9919-4dcf-8dbf-907c430c8814.png",
+      "prompt": "Precise object edit: DELETE the very lowest ivory step, the small protruding slab nearest the red ball at bottom left. That lowest protruding step must disappear completely, replaced by empty blue ground. Leave ALL of the remaining ten higher horizontal tread surfaces as they are. Do not add or redraw any steps. The red ball stays on the blue ground. Preserve color, texture and lighting. No text or labels.",
+      "accepted": true,
+      "note": "Diez superficies vistas y contadas. Es una metáfora de papel, no un diseño constructivo."
+    }
+  ],
+  "originals_preserved": true
+}
