@@ -2,13 +2,13 @@
 
 ## Estado actual
 
-**748/840 terminadas, 2244 imágenes originales públicas, 0 en curso o borradores WordPress y 92 pendientes**. Sacrificio Tribal 15/15; Herencia 2/15; 46 tandas completas.
+**751/840 terminadas, 2253 imágenes originales públicas, 0 en curso o borradores WordPress y 89 pendientes**. Herencia 5/15; 46 tandas completas.
 
 Fuente activa `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Inicio586; 162 nuevas entradas y486originales públicos.
+Inicio586; 165 nuevas entradas y495originales públicos.
 
 | Global | ID | URL | Imágenes |
 |---|---|---|---|
@@ -174,6 +174,9 @@ Inicio586; 162 nuevas entradas y486originales públicos.
 |750|E2.1.15|https://moevec.org/blog/historias-familias-salieron-adelante/|3/3|
 |751|E2.2.01|https://moevec.org/blog/herencia-legitima/|3/3|
 |752|E2.2.02|https://moevec.org/blog/herencia-inmaterial/|3/3|
+|753|E2.2.03|https://moevec.org/blog/testamento-por-que-hacerlo/|3/3|
+|754|E2.2.04|https://moevec.org/blog/impuesto-sucesiones-mundo/|3/3|
+|755|E2.2.05|https://moevec.org/blog/herencia-y-desigualdad-datos/|3/3|
 
 ## Revisión del último bloque
 
@@ -181,11 +184,11 @@ Fuentes y alcances por artículo en research-notes.md y source-review.json. Caso
 
 ## Continuación exacta
 
-Continuar **753–755 / E2.2.03–E2.2.05**, tribu → Herencia. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **756–758**. **501/E4.2.06,512/E4.3.02,649/E4.12.04 y707/E6.6.02** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.
+Continuar **756–758 / E2.2.06–E2.2.08**, tribu → Herencia. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **759–761**. **501/E4.2.06,512/E4.3.02,649/E4.12.04 y707/E6.6.02** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.
 
 ## Copias y capacidad
 
-VPS `/data/mee-backups/produccion-840-incremento-750-752-20261104`: SQL vigente `wordpress.sql` 28792804B, 66medios nuevos. Cadena238más base, huecos501/512/649/707. Hashes y miembros comprobados; sin nueva prueba de arranque de restauración. ZIP local incremental y prueba de entrega externos, con toda la cadena anterior conservada.
+VPS `/data/mee-backups/produccion-840-incremento-753-755-20261104`: SQL vigente `wordpress.sql` 28905777B, 66medios nuevos. Cadena239más base, huecos501/512/649/707. Hashes y miembros comprobados; sin nueva prueba de arranque de restauración. ZIP local incremental y prueba de entrega externos, con toda la cadena anterior conservada.
 
 Comprobar espacio antes de cada generación y copia; capacidad medida y prueba de entrega previa conservada. Umbral operativo200MiB antes de generar, y copias proporcionales con margen calculado; conservar todas las copias y originales. Automatización del mismo chat cada tres minutos, según petición del fundador.
 

@@ -1,8 +1,8 @@
 # Ejecución desde586 ·04/11/2026
 
-**748/840 terminadas, 2244 imágenes originales públicas, 0 en curso o borradores WordPress y 92 pendientes**. Sacrificio Tribal 15/15; Herencia 2/15; 46 tandas completas.
+**751/840 terminadas, 2253 imágenes originales públicas, 0 en curso o borradores WordPress y 89 pendientes**. Herencia 5/15; 46 tandas completas.
 
-162 nuevas entradas y486originales públicos.
+165 nuevas entradas y495originales públicos.
 
 | Global | ID | URL | Imágenes |
 |---|---|---|---|
@@ -168,5 +168,8 @@
 |750|E2.1.15|https://moevec.org/blog/historias-familias-salieron-adelante/|3/3|
 |751|E2.2.01|https://moevec.org/blog/herencia-legitima/|3/3|
 |752|E2.2.02|https://moevec.org/blog/herencia-inmaterial/|3/3|
+|753|E2.2.03|https://moevec.org/blog/testamento-por-que-hacerlo/|3/3|
+|754|E2.2.04|https://moevec.org/blog/impuesto-sucesiones-mundo/|3/3|
+|755|E2.2.05|https://moevec.org/blog/herencia-y-desigualdad-datos/|3/3|
 
-Continuar **753–755 / E2.2.03–E2.2.05**, tribu → Herencia. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **756–758**. **501/E4.2.06,512/E4.3.02,649/E4.12.04 y707/E6.6.02** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.
+Continuar **756–758 / E2.2.06–E2.2.08**, tribu → Herencia. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **759–761**. **501/E4.2.06,512/E4.3.02,649/E4.12.04 y707/E6.6.02** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.

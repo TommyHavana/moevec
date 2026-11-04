@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-04T03:38:15+00:00.
+Comprobado en WordPress: 2026-11-04T04:04:39+00:00.
 
-**748/840 terminadas · 0 en curso · 92 pendientes.**
+**751/840 terminadas · 0 en curso · 89 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -764,9 +764,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 750 | 50/56 · 15/15 | E2.1.15 | Historias de familias que salieron adelante: cómo contarlas sin inventar | terminada | 3/3 | [Leer](https://moevec.org/blog/historias-familias-salieron-adelante/) |
 | 751 | 51/56 · 1/15 | E2.2.01 | Herencia: por qué transmitir lo que se ha ahorrado es legítimo | terminada | 3/3 | [Leer](https://moevec.org/blog/herencia-legitima/) |
 | 752 | 51/56 · 2/15 | E2.2.02 | Herencia inmaterial: valores, oficios, contactos y reputación | terminada | 3/3 | [Leer](https://moevec.org/blog/herencia-inmaterial/) |
-| 753 | 51/56 · 3/15 | E2.2.03 | Testamento: por qué hacerlo y qué debe incluir | pendiente | 0/3 | — |
-| 754 | 51/56 · 4/15 | E2.2.04 | El impuesto de sucesiones en el mundo: quién lo cobra y quién lo abolió | pendiente | 0/3 | — |
-| 755 | 51/56 · 5/15 | E2.2.05 | Herencia y desigualdad: lo que dicen los datos de verdad | pendiente | 0/3 | — |
+| 753 | 51/56 · 3/15 | E2.2.03 | Testamento: por qué hacerlo y qué debe incluir | terminada | 3/3 | [Leer](https://moevec.org/blog/testamento-por-que-hacerlo/) |
+| 754 | 51/56 · 4/15 | E2.2.04 | El impuesto de sucesiones en el mundo: quién lo cobra y quién lo abolió | terminada | 3/3 | [Leer](https://moevec.org/blog/impuesto-sucesiones-mundo/) |
+| 755 | 51/56 · 5/15 | E2.2.05 | Herencia y desigualdad: lo que dicen los datos de verdad | terminada | 3/3 | [Leer](https://moevec.org/blog/herencia-y-desigualdad-datos/) |
 | 756 | 51/56 · 6/15 | E2.2.06 | Sucesión en el negocio familiar: cómo evitar que muera con el fundador | pendiente | 0/3 | — |
 | 757 | 51/56 · 7/15 | E2.2.07 | Heredar en Cuba: vivienda, vehículos y trámites | pendiente | 0/3 | — |
 | 758 | 51/56 · 8/15 | E2.2.08 | El impuesto de sucesiones en España: diecisiete sistemas distintos | pendiente | 0/3 | — |
