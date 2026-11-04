@@ -1,3 +1,10 @@
-# Preparación · E2.3.15
+# Investigación · E2.3.15
 
-Brief y prompts conservados; investigación en curso, sin publicación.
+Hershfield y coautores · Increasing Saving Behavior Through Age-Progressed Renderings of the Future Self ·JMR2011
+https://pmc.ncbi.nlm.nih.gov/articles/PMC3949005/
+HTML200247908B SHA4bb75a451da2ef5041c82ecc3c0e2d264c584999030d71aba27302cff7ac961c. ManuscritoautorPMC2014/publicaciónfinalJMRnov2011vol48S23–S37DOI10.1509/jmkr.48.SPL.S23. Leídosabstract/estudio1tarea1000hipotéticos/contextoestudiosyGeneralDiscussion/Limitations(ejercicioshipotéticos,duración,edades/generalización). Sin manuscritoíntegro leído. Cuatroestudiosrendicionesenvejecidas,decisionesduranteopocodespués/efectolargoplazodesconocido;cartasalyofuturopropuestapara investigación,noexperimento cartasnietosvalidado. No estudioahorrorealobservadodecadas,herenciasgarantizadas,númerosdelabcomoresultadoactual. Guion/ejemplospropiosMEEconconsentimiento,inclusiónfamiliaelegida,norecomendaciónclínica/jurídicafinancieraindividual.
+
+Excluido:
+- Sin cartasnietosvalidadoigualVRo menorimpacienciagarantizaahorrovitalicio,porcentajesdeestudiocomouniversal2026.
+- Sin herenciaprometida,necesidaddescendenciabiológica,experienciafundadoresreal,imagendeespejopredicciónbiométricao cláusulalistapara firmar.
+- DoscasoshipotéticosMartaoficio/Diegodocumentos;no testimoniosreales oresultadoscontadoscomoproducción.

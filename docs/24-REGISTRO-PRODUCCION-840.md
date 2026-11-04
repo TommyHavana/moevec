@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-04T06:28:37+00:00.
+Comprobado en WordPress: 2026-11-04T06:51:16+00:00.
 
-**772/840 terminadas · 0 en curso · 68 pendientes.**
+**775/840 terminadas · 0 en curso · 65 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -789,9 +789,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 775 | 52/56 · 10/15 | E2.3.10 | Jubilarse en Cuba: pensiones, inflación y dependencia de remesas | terminada | 3/3 | [Leer](https://moevec.org/blog/jubilarse-en-cuba/) |
 | 776 | 52/56 · 11/15 | E2.3.11 | Cómo hablar de dinero con tus padres mayores | terminada | 3/3 | [Leer](https://moevec.org/blog/hablar-de-dinero-con-padres-mayores/) |
 | 777 | 52/56 · 12/15 | E2.3.12 | Tres generaciones bajo un mismo techo: economía de la casa compartida | terminada | 3/3 | [Leer](https://moevec.org/blog/tres-generaciones-casa-compartida/) |
-| 778 | 52/56 · 13/15 | E2.3.13 | Cuidar el planeta sin hipotecar el futuro económico | pendiente | 0/3 | — |
-| 779 | 52/56 · 14/15 | E2.3.14 | Fondos soberanos: el ahorro colectivo de Noruega | pendiente | 0/3 | — |
-| 780 | 52/56 · 15/15 | E2.3.15 | Una carta a tus nietos: ejercicio de planificación de vida | pendiente | 0/3 | — |
+| 778 | 52/56 · 13/15 | E2.3.13 | Cuidar el planeta sin hipotecar el futuro económico | terminada | 3/3 | [Leer](https://moevec.org/blog/planeta-y-futuro-economico/) |
+| 779 | 52/56 · 14/15 | E2.3.14 | Fondos soberanos: el ahorro colectivo de Noruega | terminada | 3/3 | [Leer](https://moevec.org/blog/fondo-soberano-noruega/) |
+| 780 | 52/56 · 15/15 | E2.3.15 | Una carta a tus nietos: ejercicio de planificación de vida | terminada | 3/3 | [Leer](https://moevec.org/blog/carta-a-tus-nietos/) |
 | 781 | 53/56 · 1/15 | E2.4.01 | Transmitir valores sin adoctrinar | pendiente | 0/3 | — |
 | 782 | 53/56 · 2/15 | E2.4.02 | La ética del trabajo: de dónde viene y por qué importa | pendiente | 0/3 | — |
 | 783 | 53/56 · 3/15 | E2.4.03 | Los valores burgueses según McCloskey: lo que hizo ricos a los países | pendiente | 0/3 | — |
