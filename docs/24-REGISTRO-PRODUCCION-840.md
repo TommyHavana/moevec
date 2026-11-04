@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-04T05:03:17+00:00.
+Comprobado en WordPress: 2026-11-04T05:24:40+00:00.
 
-**760/840 terminadas · 0 en curso · 80 pendientes.**
+**763/840 terminadas · 0 en curso · 77 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -776,9 +776,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 762 | 51/56 · 12/15 | E2.2.12 | Lo que se hereda sin testamento: hábitos de ahorro de padres a hijos | terminada | 3/3 | [Leer](https://moevec.org/blog/habitos-ahorro-heredados/) |
 | 763 | 51/56 · 13/15 | E2.2.13 | Herencia y emigración: bienes en un país, herederos en otro | terminada | 3/3 | [Leer](https://moevec.org/blog/herencia-y-emigracion/) |
 | 764 | 51/56 · 14/15 | E2.2.14 | Fundaciones y legados: dejar algo a la comunidad | terminada | 3/3 | [Leer](https://moevec.org/blog/fundaciones-y-legados/) |
-| 765 | 51/56 · 15/15 | E2.2.15 | Construir un patrimonio familiar desde cero: plan a 20 años | pendiente | 0/3 | — |
-| 766 | 52/56 · 1/15 | E2.3.01 | Responsabilidad generacional: pensar en quien todavía no vota | pendiente | 0/3 | — |
-| 767 | 52/56 · 2/15 | E2.3.02 | Pensiones de reparto y de capitalización: cómo funciona cada una | pendiente | 0/3 | — |
+| 765 | 51/56 · 15/15 | E2.2.15 | Construir un patrimonio familiar desde cero: plan a 20 años | terminada | 3/3 | [Leer](https://moevec.org/blog/patrimonio-familiar-desde-cero/) |
+| 766 | 52/56 · 1/15 | E2.3.01 | Responsabilidad generacional: pensar en quien todavía no vota | terminada | 3/3 | [Leer](https://moevec.org/blog/responsabilidad-generacional-que-es/) |
+| 767 | 52/56 · 2/15 | E2.3.02 | Pensiones de reparto y de capitalización: cómo funciona cada una | terminada | 3/3 | [Leer](https://moevec.org/blog/pensiones-reparto-capitalizacion/) |
 | 768 | 52/56 · 3/15 | E2.3.03 | Pirámide de población: por qué el envejecimiento cambia las cuentas | pendiente | 0/3 | — |
 | 769 | 52/56 · 4/15 | E2.3.04 | Ahorro para la jubilación: empezar pronto vale más que ganar mucho | pendiente | 0/3 | — |
 | 770 | 52/56 · 5/15 | E2.3.05 | Lo que una generación debe a la anterior y a la siguiente | pendiente | 0/3 | — |

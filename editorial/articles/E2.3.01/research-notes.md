@@ -1,3 +1,19 @@
-# Preparación · E2.3.01
+# Investigación · E2.3.01
 
-Brief y prompts conservados; investigación en curso, sin publicación.
+Edmund Burke · Reflections on the Revolution in France ·1790 · edición Liberty Fund
+https://oll-resources.s3.us-east-2.amazonaws.com/oll3/store/titles/656/Burke_0005-02_EBk_v6.0.pdf
+PDF321p1659248B SHA34be6915eb5fa5d0354c977ee5f8169c29257fcb3436e85c149fc1a83c368862. PasajePDF120 íntegro leído y render visto, sociedadasociaciónvivos/muertos/futuros,marcoconservadormoralreligioso,cautelaante cambios. PDF43prefacioNOatribuidocomoBurke. No321penteras leídas, no fiscalidad contemporánea o toda doctrina adoptadaMEE.
+
+Auerbach, Gokhale y Kotlikoff · Generational Accounts: A Meaningful Alternative to Deficit Accounting ·1991
+https://www.nber.org/system/files/working_papers/w3589/w3589.pdf
+NBERWP3589enero1991,PDF71p515913B SHA6e31f3e0f0f1a29c13f7557f55fb56eaafa0d113c2df2aa319a0e1296aed5234. Leídos cubierta y resumenPDF1–2:valor presente pagosnetosproyectados,alternativadéficit,hipótesiscrecimiento/tipos. No17–24%de1989enartículo,libroKotlikoff1992noleído ni paper71píntegro. Landing403 no confundido conPDF200válido.
+
+Abiad, Furceri y Topalova · Now Is a Good Time to Invest in Infrastructure · FMI ·2014
+https://www.imf.org/en/blogs/articles/2014/09/30/now-is-a-good-time-to-invest-in-infrastructure
+Texto principal leído porwebprimaria,publicado30/09/2014. Recuperaciónlocal403archivada,notawebseparada. Argumento inversiones productivaspuedenaportarcapacidadfutura,condicioneseficiencia/ejecución/contexto. Sin trasladar tiposbajosde2014a2026,multiplicadores o todaobraautofinanciada. FMI2025PDF403/ashx404nolecturafingida.
+
+Excluido:
+- Sin Burke como fórmula de deuda, religión eliminada del contexto o prefacio editorial atribuidoalautor.
+- Sin cuentas generacionales como pronóstico cierto, consenso político único o cifras1991comoactuales.
+- Sin toda deuda perjudicial, toda inversión productiva o enriquecimiento futuro garantizado.
+- Ejemplosmunicipio/asociaciónhipotéticos,ningúnresultadoempíricoactualinventado.

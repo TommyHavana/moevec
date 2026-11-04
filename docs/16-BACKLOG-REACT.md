@@ -1,8 +1,8 @@
 # Backlog de MEE
 
-Último estado: **760/840 terminadas, 2280 imágenes originales públicas, 0 en curso o borradores WordPress y 80 pendientes**. Herencia 14/15; 46 tandas completas.
+Último estado: **763/840 terminadas, 2289 imágenes originales públicas, 0 en curso o borradores WordPress y 77 pendientes**. Herencia 15/15; Responsabilidad Generacional 2/15; 47 tandas completas.
 
-Continuar **765–767 / E2.2.15–E2.3.02**, tribu → Herencia; tribu → Responsabilidad Generacional. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **768–770**. **501/E4.2.06,512/E4.3.02,649/E4.12.04 y707/E6.6.02** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.
+Continuar **768–770 / E2.3.03–E2.3.05**, tribu → Responsabilidad Generacional. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **771–773**. **501/E4.2.06,512/E4.3.02,649/E4.12.04 y707/E6.6.02** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.
 
 Historial anterior: producción comprobada tras el bloque 4–6: 6/840 terminadas. En elaboración local: 7–9 con nueve imágenes propias; todavía no cuentan como publicadas. Consultar siempre WordPress y el registro 24 para el estado más reciente.
 
