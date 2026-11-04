@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-04T04:30:18+00:00.
+Comprobado en WordPress: 2026-11-04T04:44:36+00:00.
 
-**754/840 terminadas · 0 en curso · 86 pendientes.**
+**757/840 terminadas · 0 en curso · 83 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -770,9 +770,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 756 | 51/56 · 6/15 | E2.2.06 | Sucesión en el negocio familiar: cómo evitar que muera con el fundador | terminada | 3/3 | [Leer](https://moevec.org/blog/sucesion-negocio-familiar/) |
 | 757 | 51/56 · 7/15 | E2.2.07 | Heredar en Cuba: vivienda, vehículos y trámites | terminada | 3/3 | [Leer](https://moevec.org/blog/heredar-en-cuba-tramites/) |
 | 758 | 51/56 · 8/15 | E2.2.08 | El impuesto de sucesiones en España: diecisiete sistemas distintos | terminada | 3/3 | [Leer](https://moevec.org/blog/impuesto-sucesiones-espana-comunidades/) |
-| 759 | 51/56 · 9/15 | E2.2.09 | Renunciar a una herencia: cuándo conviene | pendiente | 0/3 | — |
-| 760 | 51/56 · 10/15 | E2.2.10 | Herencias y conflictos familiares: cómo prevenirlos | pendiente | 0/3 | — |
-| 761 | 51/56 · 11/15 | E2.2.11 | Planificar tu herencia aunque seas joven | pendiente | 0/3 | — |
+| 759 | 51/56 · 9/15 | E2.2.09 | Renunciar a una herencia: cuándo conviene | terminada | 3/3 | [Leer](https://moevec.org/blog/renunciar-a-una-herencia/) |
+| 760 | 51/56 · 10/15 | E2.2.10 | Herencias y conflictos familiares: cómo prevenirlos | terminada | 3/3 | [Leer](https://moevec.org/blog/herencias-conflictos-familiares/) |
+| 761 | 51/56 · 11/15 | E2.2.11 | Planificar tu herencia aunque seas joven | terminada | 3/3 | [Leer](https://moevec.org/blog/planificar-herencia-joven/) |
 | 762 | 51/56 · 12/15 | E2.2.12 | Lo que se hereda sin testamento: hábitos de ahorro de padres a hijos | pendiente | 0/3 | — |
 | 763 | 51/56 · 13/15 | E2.2.13 | Herencia y emigración: bienes en un país, herederos en otro | pendiente | 0/3 | — |
 | 764 | 51/56 · 14/15 | E2.2.14 | Fundaciones y legados: dejar algo a la comunidad | pendiente | 0/3 | — |
