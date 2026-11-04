@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-04T00:30:33+00:00.
+Comprobado en WordPress: 2026-11-04T00:48:27+00:00.
 
-**730/840 terminadas · 0 en curso · 110 pendientes.**
+**733/840 terminadas · 0 en curso · 107 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -746,9 +746,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 732 | 49/56 · 12/15 | E6.7.12 | Delegar sin perder el control: guía para dueños de pequeños negocios | terminada | 3/3 | [Leer](https://moevec.org/blog/delegar-sin-perder-control/) |
 | 733 | 49/56 · 13/15 | E6.7.13 | Redes de negocios autónomos: crecer juntos sin fusionarse | terminada | 3/3 | [Leer](https://moevec.org/blog/redes-negocios-autonomos/) |
 | 734 | 49/56 · 14/15 | E6.7.14 | Escalar en Cuba con los límites de tamaño de las mipymes | terminada | 3/3 | [Leer](https://moevec.org/blog/escalar-cuba-limites-mipymes/) |
-| 735 | 49/56 · 15/15 | E6.7.15 | Diseña tu organización para crecer con autonomía | pendiente | 0/3 | — |
-| 736 | 50/56 · 1/15 | E2.1.01 | Sacrificio tribal: cuando el esfuerzo de uno se convierte en el avance de todos | pendiente | 0/3 | — |
-| 737 | 50/56 · 2/15 | E2.1.02 | La familia como primera empresa: economía doméstica explicada | pendiente | 0/3 | — |
+| 735 | 49/56 · 15/15 | E6.7.15 | Diseña tu organización para crecer con autonomía | terminada | 3/3 | [Leer](https://moevec.org/blog/disena-organizacion-autonomia/) |
+| 736 | 50/56 · 1/15 | E2.1.01 | Sacrificio tribal: cuando el esfuerzo de uno se convierte en el avance de todos | terminada | 3/3 | [Leer](https://moevec.org/blog/sacrificio-tribal-que-es/) |
+| 737 | 50/56 · 2/15 | E2.1.02 | La familia como primera empresa: economía doméstica explicada | terminada | 3/3 | [Leer](https://moevec.org/blog/familia-como-primera-empresa/) |
 | 738 | 50/56 · 3/15 | E2.1.03 | Gratificación diferida en familia: ahorrar hoy para que otro estudie mañana | pendiente | 0/3 | — |
 | 739 | 50/56 · 4/15 | E2.1.04 | Los límites del sacrificio: cuándo decir basta | pendiente | 0/3 | — |
 | 740 | 50/56 · 5/15 | E2.1.05 | Sacrificio y propósito: por qué el esfuerzo con sentido no se vive igual | pendiente | 0/3 | — |

@@ -2,13 +2,13 @@
 
 ## Estado actual
 
-**730/840 terminadas, 2190 imágenes originales públicas, 0 en curso o borradores WordPress y 110 pendientes**. Escalabilidad con Autonomía 14/15; 44 tandas completas.
+**733/840 terminadas, 2199 imágenes originales públicas, 0 en curso o borradores WordPress y 107 pendientes**. Escalabilidad con Autonomía 15/15; Sacrificio Tribal 2/15; 45 tandas completas.
 
 Fuente activa `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Inicio586; 144 nuevas entradas y432originales públicos.
+Inicio586; 147 nuevas entradas y441originales públicos.
 
 | Global | ID | URL | Imágenes |
 |---|---|---|---|
@@ -156,6 +156,9 @@ Inicio586; 144 nuevas entradas y432originales públicos.
 |732|E6.7.12|https://moevec.org/blog/delegar-sin-perder-control/|3/3|
 |733|E6.7.13|https://moevec.org/blog/redes-negocios-autonomos/|3/3|
 |734|E6.7.14|https://moevec.org/blog/escalar-cuba-limites-mipymes/|3/3|
+|735|E6.7.15|https://moevec.org/blog/disena-organizacion-autonomia/|3/3|
+|736|E2.1.01|https://moevec.org/blog/sacrificio-tribal-que-es/|3/3|
+|737|E2.1.02|https://moevec.org/blog/familia-como-primera-empresa/|3/3|
 
 ## Revisión del último bloque
 
@@ -163,11 +166,11 @@ Fuentes y alcances por artículo en research-notes.md y source-review.json. Caso
 
 ## Continuación exacta
 
-Continuar **735–737 / E6.7.15–E2.1.02**, economia-compartida → Escalabilidad con Autonomía; tribu → Sacrificio Tribal. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **738–740**. **501/E4.2.06,512/E4.3.02,649/E4.12.04 y707/E6.6.02** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.
+Continuar **738–740 / E2.1.03–E2.1.05**, tribu → Sacrificio Tribal. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **741–743**. **501/E4.2.06,512/E4.3.02,649/E4.12.04 y707/E6.6.02** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.
 
 ## Copias y capacidad
 
-VPS `/data/mee-backups/produccion-840-incremento-732-734-20261104`: SQL vigente `wordpress.sql` 28144364B, 66medios nuevos. Cadena232más base, huecos501/512/649/707. Hashes y miembros comprobados; sin nueva prueba de arranque de restauración. ZIP local incremental y prueba de entrega externos, con toda la cadena anterior conservada.
+VPS `/data/mee-backups/produccion-840-incremento-735-737-20261104`: SQL vigente `wordpress.sql` 28240955B, 66medios nuevos. Cadena233más base, huecos501/512/649/707. Hashes y miembros comprobados; sin nueva prueba de arranque de restauración. ZIP local incremental y prueba de entrega externos, con toda la cadena anterior conservada.
 
 Comprobar espacio antes de cada generación y copia; capacidad medida y prueba de entrega previa conservada. Umbral operativo200MiB antes de generar, y copias proporcionales con margen calculado; conservar todas las copias y originales. Automatización del mismo chat cada tres minutos, según petición del fundador.
 
