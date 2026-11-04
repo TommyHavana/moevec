@@ -1,8 +1,8 @@
 # Backlog de MEE
 
-Último estado: **778/840 terminadas, 2334 imágenes originales públicas, 0 en curso o borradores WordPress y 62 pendientes**. Transmisión de Valores 3/15; 47 tandas completas.
+Último estado: **781/840 terminadas, 2343 imágenes originales públicas, 0 en curso o borradores WordPress y 59 pendientes**. Transmisión de Valores 6/15; 47 tandas completas.
 
-Continuar **784–786 / E2.4.04–E2.4.06**, tribu → Transmisión de Valores. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **787–789**. **501/E4.2.06,512/E4.3.02,649/E4.12.04,707/E6.6.02 y769/E2.3.04** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.
+Continuar **787–789 / E2.4.07–E2.4.09**, tribu → Transmisión de Valores. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **790–792**. **501/E4.2.06,512/E4.3.02,649/E4.12.04,707/E6.6.02 y769/E2.3.04** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.
 
 Historial anterior: producción comprobada tras el bloque 4–6: 6/840 terminadas. En elaboración local: 7–9 con nueve imágenes propias; todavía no cuentan como publicadas. Consultar siempre WordPress y el registro 24 para el estado más reciente.
 

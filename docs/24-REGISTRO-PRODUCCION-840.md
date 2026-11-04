@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-04T07:08:30+00:00.
+Comprobado en WordPress: 2026-11-04T07:29:42+00:00.
 
-**778/840 terminadas · 0 en curso · 62 pendientes.**
+**781/840 terminadas · 0 en curso · 59 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -795,9 +795,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 781 | 53/56 · 1/15 | E2.4.01 | Transmitir valores sin adoctrinar | terminada | 3/3 | [Leer](https://moevec.org/blog/transmitir-valores-sin-adoctrinar/) |
 | 782 | 53/56 · 2/15 | E2.4.02 | La ética del trabajo: de dónde viene y por qué importa | terminada | 3/3 | [Leer](https://moevec.org/blog/etica-del-trabajo-origen/) |
 | 783 | 53/56 · 3/15 | E2.4.03 | Los valores burgueses según McCloskey: lo que hizo ricos a los países | terminada | 3/3 | [Leer](https://moevec.org/blog/valores-burgueses-mccloskey/) |
-| 784 | 53/56 · 4/15 | E2.4.04 | Confianza: el valor que hace funcionar las economías | pendiente | 0/3 | — |
-| 785 | 53/56 · 5/15 | E2.4.05 | Cumplir la palabra: un valor que se aprende en casa | pendiente | 0/3 | — |
-| 786 | 53/56 · 6/15 | E2.4.06 | Cultura del ahorro: cómo pasarla a la siguiente generación | pendiente | 0/3 | — |
+| 784 | 53/56 · 4/15 | E2.4.04 | Confianza: el valor que hace funcionar las economías | terminada | 3/3 | [Leer](https://moevec.org/blog/confianza-valor-economico/) |
+| 785 | 53/56 · 5/15 | E2.4.05 | Cumplir la palabra: un valor que se aprende en casa | terminada | 3/3 | [Leer](https://moevec.org/blog/cumplir-la-palabra/) |
+| 786 | 53/56 · 6/15 | E2.4.06 | Cultura del ahorro: cómo pasarla a la siguiente generación | terminada | 3/3 | [Leer](https://moevec.org/blog/cultura-del-ahorro-generacional/) |
 | 787 | 53/56 · 7/15 | E2.4.07 | Valores frente a consumismo: lo que Bastos quiere decir con frugalidad | pendiente | 0/3 | — |
 | 788 | 53/56 · 8/15 | E2.4.08 | Familia elegida: transmitir valores fuera de la sangre | pendiente | 0/3 | — |
 | 789 | 53/56 · 9/15 | E2.4.09 | Lo que se aprende en la mesa: rituales familiares y capital social | pendiente | 0/3 | — |
