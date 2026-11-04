@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-03T23:47:40+00:00.
+Comprobado en WordPress: 2026-11-04T00:06:53+00:00.
 
-**724/840 terminadas · 0 en curso · 116 pendientes.**
+**727/840 terminadas · 0 en curso · 113 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -740,9 +740,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 726 | 49/56 · 6/15 | E6.7.06 | Autogestión en la práctica: Morning Star | terminada | 3/3 | [Leer](https://moevec.org/blog/autogestion-morning-star/) |
 | 727 | 49/56 · 7/15 | E6.7.07 | Semco: democracia empresarial en Brasil | terminada | 3/3 | [Leer](https://moevec.org/blog/semco-brasil/) |
 | 728 | 49/56 · 8/15 | E6.7.08 | Haier y las microempresas internas | terminada | 3/3 | [Leer](https://moevec.org/blog/haier-microempresas-internas/) |
-| 729 | 49/56 · 9/15 | E6.7.09 | Holocracia: qué prometía y qué pasó en Zappos | pendiente | 0/3 | — |
-| 730 | 49/56 · 10/15 | E6.7.10 | Franquicias y licencias: crecer con dueños locales | pendiente | 0/3 | — |
-| 731 | 49/56 · 11/15 | E6.7.11 | Caso ilustrativo: la startup que creció por equipos autónomos | pendiente | 0/3 | — |
+| 729 | 49/56 · 9/15 | E6.7.09 | Holocracia: qué prometía y qué pasó en Zappos | terminada | 3/3 | [Leer](https://moevec.org/blog/holocracia-zappos/) |
+| 730 | 49/56 · 10/15 | E6.7.10 | Franquicias y licencias: crecer con dueños locales | terminada | 3/3 | [Leer](https://moevec.org/blog/franquicias-y-licencias/) |
+| 731 | 49/56 · 11/15 | E6.7.11 | Caso ilustrativo: la startup que creció por equipos autónomos | terminada | 3/3 | [Leer](https://moevec.org/blog/caso-startup-equipos-autonomos/) |
 | 732 | 49/56 · 12/15 | E6.7.12 | Delegar sin perder el control: guía para dueños de pequeños negocios | pendiente | 0/3 | — |
 | 733 | 49/56 · 13/15 | E6.7.13 | Redes de negocios autónomos: crecer juntos sin fusionarse | pendiente | 0/3 | — |
 | 734 | 49/56 · 14/15 | E6.7.14 | Escalar en Cuba con los límites de tamaño de las mipymes | pendiente | 0/3 | — |

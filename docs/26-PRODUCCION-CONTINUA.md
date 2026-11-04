@@ -43,4 +43,4 @@ Informar siempre: números globales e ID de las entradas realizadas, URL, imáge
 
 ## Continuación exacta ·04/11/2026
 
-WordPress: **724/840 terminadas,2172 imágenes originales públicas,0 borradores y116 pendientes**. Bloque726–728 publicado y verificado. Retomar729–731 /E6.7.09–E6.7.11 según sus expedientes. Portada729 generada y pendiente de conversión, nativo conservado y registrado. Títulos501/512/649/707 retenidos sin publicar. Automatización activa cada tres minutos en el mismo chat, sin duplicar procesos.
+WordPress: **727/840 terminadas,2181 imágenes originales públicas,0 borradores y113 pendientes**. Bloque729–731 publicado y verificado tras reconciliar una respuesta PHP vacía; sin duplicados. Retomar732–734 /E6.7.12–E6.7.14 según sus expedientes. Portada732 generada y pendiente de conversión, nativo conservado. La investigación de734 localizó reforma2026 del Decreto-Ley88; PDF oficial GOC2026O71 descargado, lectura aún pendiente. Títulos501/512/649/707 retenidos. Automatización activa cada tres minutos en este mismo chat.

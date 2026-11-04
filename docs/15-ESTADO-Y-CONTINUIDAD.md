@@ -2,13 +2,13 @@
 
 ## Estado actual
 
-**724/840 terminadas, 2172 imágenes originales públicas, 0 en curso o borradores WordPress y 116 pendientes**. Escalabilidad con Autonomía 8/15; 44 tandas completas.
+**727/840 terminadas, 2181 imágenes originales públicas, 0 en curso o borradores WordPress y 113 pendientes**. Escalabilidad con Autonomía 11/15; 44 tandas completas.
 
 Fuente activa `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
 ## Trabajo de esta ejecución
 
-Inicio586; 138 nuevas entradas y414originales públicos.
+Inicio586; 141 nuevas entradas y423originales públicos.
 
 | Global | ID | URL | Imágenes |
 |---|---|---|---|
@@ -150,6 +150,9 @@ Inicio586; 138 nuevas entradas y414originales públicos.
 |726|E6.7.06|https://moevec.org/blog/autogestion-morning-star/|3/3|
 |727|E6.7.07|https://moevec.org/blog/semco-brasil/|3/3|
 |728|E6.7.08|https://moevec.org/blog/haier-microempresas-internas/|3/3|
+|729|E6.7.09|https://moevec.org/blog/holocracia-zappos/|3/3|
+|730|E6.7.10|https://moevec.org/blog/franquicias-y-licencias/|3/3|
+|731|E6.7.11|https://moevec.org/blog/caso-startup-equipos-autonomos/|3/3|
 
 ## Revisión del último bloque
 
@@ -157,11 +160,11 @@ Fuentes y alcances por artículo en research-notes.md y source-review.json. Caso
 
 ## Continuación exacta
 
-Continuar **729–731 / E6.7.09–E6.7.11**, economia-compartida → Escalabilidad con Autonomía. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **732–734**. **501/E4.2.06,512/E4.3.02,649/E4.12.04 y707/E6.6.02** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.
+Continuar **732–734 / E6.7.12–E6.7.14**, economia-compartida → Escalabilidad con Autonomía. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **735–737**. **501/E4.2.06,512/E4.3.02,649/E4.12.04 y707/E6.6.02** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.
 
 ## Copias y capacidad
 
-VPS `/data/mee-backups/produccion-840-incremento-726-728-20261104`: SQL vigente `wordpress.sql` 27947559B, 66medios nuevos. Cadena230más base, huecos501/512/649/707. Hashes y miembros comprobados; sin nueva prueba de arranque de restauración. ZIP local incremental y prueba de entrega externos, con toda la cadena anterior conservada.
+VPS `/data/mee-backups/produccion-840-incremento-729-731-20261104`: SQL vigente `wordpress.sql` 28045457B, 66medios nuevos. Cadena231más base, huecos501/512/649/707. Hashes y miembros comprobados; sin nueva prueba de arranque de restauración. ZIP local incremental y prueba de entrega externos, con toda la cadena anterior conservada.
 
 Comprobar espacio antes de cada generación y copia; capacidad medida y prueba de entrega previa conservada. Umbral operativo200MiB antes de generar, y copias proporcionales con margen calculado; conservar todas las copias y originales. Automatización del mismo chat cada tres minutos, según petición del fundador.
 

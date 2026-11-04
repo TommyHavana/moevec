@@ -1,8 +1,8 @@
 # Ejecución desde586 ·04/11/2026
 
-**724/840 terminadas, 2172 imágenes originales públicas, 0 en curso o borradores WordPress y 116 pendientes**. Escalabilidad con Autonomía 8/15; 44 tandas completas.
+**727/840 terminadas, 2181 imágenes originales públicas, 0 en curso o borradores WordPress y 113 pendientes**. Escalabilidad con Autonomía 11/15; 44 tandas completas.
 
-138 nuevas entradas y414originales públicos.
+141 nuevas entradas y423originales públicos.
 
 | Global | ID | URL | Imágenes |
 |---|---|---|---|
@@ -144,5 +144,8 @@
 |726|E6.7.06|https://moevec.org/blog/autogestion-morning-star/|3/3|
 |727|E6.7.07|https://moevec.org/blog/semco-brasil/|3/3|
 |728|E6.7.08|https://moevec.org/blog/haier-microempresas-internas/|3/3|
+|729|E6.7.09|https://moevec.org/blog/holocracia-zappos/|3/3|
+|730|E6.7.10|https://moevec.org/blog/franquicias-y-licencias/|3/3|
+|731|E6.7.11|https://moevec.org/blog/caso-startup-equipos-autonomos/|3/3|
 
-Continuar **729–731 / E6.7.09–E6.7.11**, economia-compartida → Escalabilidad con Autonomía. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **732–734**. **501/E4.2.06,512/E4.3.02,649/E4.12.04 y707/E6.6.02** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.
+Continuar **732–734 / E6.7.12–E6.7.14**, economia-compartida → Escalabilidad con Autonomía. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **735–737**. **501/E4.2.06,512/E4.3.02,649/E4.12.04 y707/E6.6.02** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.
