@@ -2151,3 +2151,13 @@ Automatización cada tres minutos ya configurada. No se han borrado copias ni or
 ### Diferenciación editorial754
 
 La consulta previa detectó foco coincidente con125/E7.2.05/post1150. Se conservó ID, título yslug de754 y sus tres originales; el cuerpo se revisó para consulta familiar, ficha de preguntas y datos2024, enlazando el análisis político125. Nueva palabra clave sucesiones en el mundo, comprobada sin coincidencias antes de publicar. Revisiones anteriores sin publicar preservadas enE2.2.04/revisions/. No se modificó125.
+
+
+## Continuación editorial756-758 ·04/11/2026
+
+**754/840 terminadas, 2262 imágenes originales públicas, 0 en curso o borradores WordPress y 86 pendientes**. Herencia 8/15; 46 tandas completas.
+
+Fuentes y alcances por artículo en research-notes.md y source-review.json. Casos y ejemplos identificados, fuentes primarias y límites contrastados antes de publicar. Advertencia SEO: salida WordPress con dos meta descripciones idénticas; textos y títulos correctos. Incidencia de plantilla registrada, fuera de esta producción.
+
+Continuar **759–761 / E2.2.09–E2.2.11**, tribu → Herencia. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **762–764**. **501/E4.2.06,512/E4.3.02,649/E4.12.04 y707/E6.6.02** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.
+Automatización cada tres minutos ya configurada. No se han borrado copias ni originales.
