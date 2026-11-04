@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-04T00:48:27+00:00.
+Comprobado en WordPress: 2026-11-04T01:59:42+00:00.
 
-**733/840 terminadas · 0 en curso · 107 pendientes.**
+**736/840 terminadas · 0 en curso · 104 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -749,9 +749,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 735 | 49/56 · 15/15 | E6.7.15 | Diseña tu organización para crecer con autonomía | terminada | 3/3 | [Leer](https://moevec.org/blog/disena-organizacion-autonomia/) |
 | 736 | 50/56 · 1/15 | E2.1.01 | Sacrificio tribal: cuando el esfuerzo de uno se convierte en el avance de todos | terminada | 3/3 | [Leer](https://moevec.org/blog/sacrificio-tribal-que-es/) |
 | 737 | 50/56 · 2/15 | E2.1.02 | La familia como primera empresa: economía doméstica explicada | terminada | 3/3 | [Leer](https://moevec.org/blog/familia-como-primera-empresa/) |
-| 738 | 50/56 · 3/15 | E2.1.03 | Gratificación diferida en familia: ahorrar hoy para que otro estudie mañana | pendiente | 0/3 | — |
-| 739 | 50/56 · 4/15 | E2.1.04 | Los límites del sacrificio: cuándo decir basta | pendiente | 0/3 | — |
-| 740 | 50/56 · 5/15 | E2.1.05 | Sacrificio y propósito: por qué el esfuerzo con sentido no se vive igual | pendiente | 0/3 | — |
+| 738 | 50/56 · 3/15 | E2.1.03 | Gratificación diferida en familia: ahorrar hoy para que otro estudie mañana | terminada | 3/3 | [Leer](https://moevec.org/blog/gratificacion-diferida-familia/) |
+| 739 | 50/56 · 4/15 | E2.1.04 | Los límites del sacrificio: cuándo decir basta | terminada | 3/3 | [Leer](https://moevec.org/blog/limites-del-sacrificio/) |
+| 740 | 50/56 · 5/15 | E2.1.05 | Sacrificio y propósito: por qué el esfuerzo con sentido no se vive igual | terminada | 3/3 | [Leer](https://moevec.org/blog/sacrificio-y-proposito/) |
 | 741 | 50/56 · 6/15 | E2.1.06 | El negocio familiar: ventajas, riesgos y cómo profesionalizarlo | pendiente | 0/3 | — |
 | 742 | 50/56 · 7/15 | E2.1.07 | Remesas como sacrificio transnacional: lo que mueve a millones de familias | pendiente | 0/3 | — |
 | 743 | 50/56 · 8/15 | E2.1.08 | Cuidar a los mayores: costes, opciones y cómo repartir la carga | pendiente | 0/3 | — |
