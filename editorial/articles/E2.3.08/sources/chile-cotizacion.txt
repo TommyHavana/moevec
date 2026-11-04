@@ -1,0 +1,827 @@
+@import "boxes-4720_style.css?ts=1701097973";
+			.portada #main {
+  background-image: none;
+  background-color: #f1f1f1;
+}
+
+.ntg5-btn-primary {
+    --ntg5-btn-hover-bg: #006080 !important;
+    --ntg5-btn-hover-border-color: #006080 !important;
+    --ntg5-btn-active-bg: #006080 !important;
+    --ntg5-btn-active-border-color: #006080 !important;
+}
+Cotización de cargo del empleador  - SP. Superintendencia de Pensiones - Gobierno de Chile
+/*@import "//www.spensiones.cl/css/a-sp_base.css";*/
+/*Cambios portada julio 2024*/
+@media (min-width: 768px) {
+  #po_novedades_banners_top .banner1 {
+    text-align: right;
+  }
+  #po_novedades_banners_top .banner2 {
+    text-align: left;
+  }
+  #po_novedades_banners_top .banner1 img,
+  #po_novedades_banners_top .banner2 img {
+    display: inline-block;
+  }
+}
+@media (max-width: 480px) {
+  #po_novedades_banners_top .banner1,
+  #po_novedades_banners_top .banner2,
+  #po_novedades_banners .col-xs-6,
+  #po_banners_superiores .col-xs-6 {
+    float: none !important;
+    width: 90% !important;
+    max-width: none !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* */
+.portada #accesos_directos_estadisticas .row {
+  margin-bottom: 15px;
+}
+
+.img-responsive img {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+/*Configuración de nuevos iconos para trámites f0c5*/
+.articulo-beneficio>.demora:before,
+.articulo-beneficio>.documentos:before {
+  font-family: 'FontAwesome';
+
+  color: #999999;
+  font-size: 2em;
+  position: absolute;
+  left: 5px;
+  top: 10px;
+}
+.articulo-beneficio>.demora:before {
+  content: "\f017";
+}
+.articulo-beneficio>.documentos:before {
+  content: "\f0c5";
+}
+
+/* fin config iconos --*/
+.acceso-superior-destacado.celeste {
+  background-color: #0099CC;
+  /*background-color: #52bdb3;*/
+}
+.ntg-agrandar-texto {
+  font-size: 110%;
+}
+
+.acceso-proteccion-empleo a {
+  background-color: #fd8150;
+  font-style: normal;
+  border-color: #fff;
+  border-width: 2px;
+}
+.acceso-proteccion-empleo a:hover,
+.acceso-proteccion-empleo a:focus {
+  background-color: #e45e29;
+  border-color: #fff;
+}
+.acceso-proteccion-empleo.celeste a {
+  background-color: #0099CC;
+}
+.acceso-proteccion-empleo.celeste a:hover,
+.acceso-proteccion-empleo.celeste a:focus {
+  background-color: #0185b1;
+}
+.acceso-proteccion-empleo a .fas {
+  color: #fff;
+  margin-right: 10px;
+}
+.acceso-proteccion-empleo a strong {
+  color: #FFF;
+  font-size: 1.5em;
+  line-height: 1;
+  font-weight: 600;
+}
+.po-novedades .banners-destacados div {
+  width: 1%;
+}
+
+.btn-default:hover>.fa {
+  color: #fff !important;
+}
+
+#main .nav-pills,
+#main .nav-tabs {
+  position: relative;
+  box-sizing: content-box;
+}
+
+#btn_busqueda_avanzada_compendio:hover .fa {
+  color: #FFF;
+}
+
+#btn_busqueda_avanzada_compendio {
+  min-width: 43px;
+}
+
+li.paginador-primero a:after,
+li.paginador-ultimo a:before {
+  content: "...";
+}
+
+li.paginador-primero a:after {
+  padding-left: 0.5em;
+}
+
+li.paginador-ultimo a:before {
+  padding-right: 0.5em;
+}
+
+.botones-texto .btn {
+  max-width: 45px;
+  min-width: 45px;
+}
+
+#compendio_acceso_materias ul {
+  display: none;
+}
+
+/*editado por Gabo para quitar un margen superior negativo*/
+.portada-documento-publicacion {
+  margin-top: 0px;
+}
+
+/*Estilos para banners de contacto en portada*/
+#po_banners_atencion .media-body {
+  vertical-align: middle;
+  padding: 0.5em 1.5em;
+}
+
+#po_banners_atencion .banner_atencion {
+  background: #fff;
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#po_banners_atencion a {
+  color: #0099CC;
+}
+
+#po_banners_atencion a:hover {
+  color: #003366;
+  text-decoration: none;
+}
+
+#po_banners_atencion a:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  pointer-events: auto;
+  content: "";
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#po_banners_atencion .font-light {
+  font-weight: 400;
+}
+
+/* colapsable Atención presencial y oficinas regionales */
+
+.ntg-colapsable-contactenos::after {
+  font-family: 'FontAwesome';
+  position: absolute;
+  right: 9px;
+  top: 9px;
+  display: block;
+  float: none;
+  font-size: 1.3em;
+}
+
+.ntg-colapsable-contactenos {
+  color: #003366 !important;
+  position: relative;
+  padding: 15px;
+  padding-right: 15px;
+  padding-right: 36px;
+  display: block;
+  color: #666666;
+  border-left: 5px solid #0099CC;
+  background-color: #fff;
+  font-size: 21px;
+  font-weight: normal;
+  box-sizing: border-box;
+  font-family: inherit;
+  line-height: 1.1;
+  margin-top: -15px;
+  text-align: start;
+  width: 100%;
+}
+
+.ntg-colapsable-contactenos:hover {
+  text-decoration: underline;
+}
+
+.ntg-colapsable-contactenos[aria-expanded="false"]:after {
+  content: "\f055";
+  color: #0099CC;
+}
+
+.ntg-colapsable-contactenos[aria-expanded="true"]:after {
+  content: "\f056";
+  color: #999999;
+}
+
+/******** Acceso Atencion Ciudadana *********/
+
+#header_atencion {
+  padding-top: 85px;
+  background: RGB(76, 194, 241, 0.25);
+}
+
+#header_atencion .titulo-header {
+  font-weight: bold;
+  color: #1D3661;
+  text-align: center;
+}
+
+@media (min-width: 511px) {
+  #header_atencion .titulo-header {
+    font-size: 60px;
+  }
+}
+
+#header_atencion .subtitulo-header {
+  margin-bottom: 20px;
+  color: #1D3661;
+  text-align: center;
+  font-size: 26px;
+}
+
+@media (min-width: 991px) {
+  .fondo-header img {
+    width: auto;
+    /*max-height: 300px;*/
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container-xxl,
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 1500px !important;
+  }
+}
+
+.ntg5-btn-primary {
+  --ntg5-btn-color: #fff;
+  --ntg5-btn-bg: #1D3661;
+  --ntg5-btn-border-color: #1D3661;
+  --ntg5-btn-hover-color: #fff;
+  --ntg5-btn-hover-bg: #0099CC;
+  --ntg5-btn-hover-border-color: #0099CC;
+  --ntg5-btn-focus-shadow-rgb: 49, 132, 253;
+  --ntg5-btn-active-color: #fff;
+  --ntg5-btn-active-bg: #0099CC;
+  --ntg5-btn-active-border-color: #0099CC;
+  --ntg5-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --ntg5-btn-disabled-color: #fff;
+  --ntg5-btn-disabled-bg: #1D3661;
+  --ntg5-btn-disabled-border-color: #1D3661;
+}
+
+.portada #main {
+  padding-top: 30px !important;
+}
+
+@media (min-width: 992px) and (max-width: 1125px) {
+  #header_atencion .fondo-header img {
+    margin-left: -80px !important;
+  }
+}
+
+@media (max-width: 510px) {
+  #header_atencion .subtitulo-header {
+    font-size: 16px;
+  }
+  #header_atencion .ntg5-btn-primary {
+    width: 100%;
+  }
+}
+
+/*formulario FEEDBACK*/
+
+#formulario_i__AC_tr_feedback_copia_1.formulario h2 {
+  font-weight: 700 !important;
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: #1D3661;
+}
+
+#feedback label {
+  font-weight: 600;
+  font-size: large;
+}
+
+#feedback input {
+  border-radius: 5px;
+  border: 2px solid #61BCD8;
+  margin-bottom: 15px;
+}
+
+#feedback #opciones_div_553 li input {
+  border-radius: 5px;
+  border: 2px solid #61BCD8;
+  margin-right: 10px;
+}
+
+#feedback #comentario_div_553 {
+  display: flex;
+  flex-direction: column;
+}
+#feedback #comentario_div_553 label {
+  font-weight: 600;
+  font-size: large;
+}
+
+#feedback #comentario_div_553 #comentario_533.form-control {
+  border-radius: 5px;
+  border: 2px solid #61BCD8;
+  margin-bottom: 15px;
+}
+
+#feedback #enviar_div_553 input {
+  background-color: #61BCD8 !important;
+  color: #000 !important;
+}
+
+#comentario_533.form-control {
+  border-radius: 5px;
+  border: 2px solid #61BCD8;
+  margin-bottom: 15px;
+}
+
+.compartir .dropdown-menu .social-tools .bi-twitter-x::before {
+	font-size: 1.7em;
+	text-align: center;
+	margin-top: 0.5rem;
+}
+
+.compartir .dropdown-menu .social-tools .bi-twitter-x:hover {
+	color:#3fa9f5;
+}
+
+#article_i__SP_po_banners_obligatorios_1 a {
+  color: #000911 !important;
+  text-decoration: none;
+}
+
+.ntg-titulo-caja {
+  color: #005f7d;
+}
+
+.navbar-default .navbar-brand {
+  color: #006080;
+}
+/****************** ajuste accesibilidad 02-01-2025*************************/
+.botones-texto .btn.disabled {
+    opacity: 1;
+}
+
+#main .nav-pills>li.active>a {
+    background-color: #006080;
+}
+
+.lista-colapsable>.list-group>.list-group-item.active,
+.ntg-lista-colapsable>.list-group>.list-group-item.active,
+.lista-colapsable-simple>.list-group>.list-group-item.active,
+.ntg-lista-colapsable-simple>.list-group>.list-group-item.active {
+    background-color: #006080;
+    border-color: #fff;
+}
+
+.btn-default:hover {
+    background-color: #006080;
+    color: #fff;
+}
+
+.ntg5-btn-primary {
+    --ntg5-btn-hover-bg: #006080 !important;
+    --ntg5-btn-hover-border-color: #006080 !important;
+    --ntg5-btn-active-bg: #006080 !important;
+    --ntg5-btn-active-border-color: #006080 !important;
+}
+
+
+@media(min-width: 992px) and (max-width: 1068px) {
+  #header .menu-principal .navbar-right > li > a {
+    font-size: 75%;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+@media(min-width: 1069px) and (max-width: 1332px) {
+  #header .menu-principal .navbar-right > li > a {
+    font-size: 80%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (min-width: 1310px) and (max-width: 1569px) {
+ #header .navbar-brand {
+    width: 108px !important;
+  }
+ }
+}
+
+#pa_presentacion_jurisprudencia .format-pdf a,
+#pa_presentacion_jurisprudencia .format-doc a,
+#pa_presentacion_jurisprudencia .format-docx a,
+#pa_presentacion_jurisprudencia .format-xls a,
+#pa_presentacion_jurisprudencia .format-xlsx a,
+#pa_presentacion_jurisprudencia .format-ppt a,
+#pa_presentacion_jurisprudencia .format-pptx a,
+#pa_presentacion_jurisprudencia .format-pps a,
+#pa_presentacion_jurisprudencia .format-html a{
+    display: inline-block !important;
+}
+
+#pa_presentacion_jurisprudencia .format-pdf a{
+    display: inline-block;
+}
+
+#pa_presentacion_jurisprudencia .format-pdf a:before,
+#pa_presentacion_jurisprudencia .format-doc a:before,
+#pa_presentacion_jurisprudencia .format-docx a:before,
+#pa_presentacion_jurisprudencia .format-xls a:before,
+#pa_presentacion_jurisprudencia .format-xlsx a:before,
+#pa_presentacion_jurisprudencia .format-ppt a:before,
+#pa_presentacion_jurisprudencia .format-pptx a:before,
+#pa_presentacion_jurisprudencia .format-pps a:before,
+#pa_presentacion_jurisprudencia .format-html a:before {
+    font-size: 38px;
+}
+<!--
+
+var __cid = '31';
+var __iid = '594';
+var __pnid = '639';
+var __pvid = '10906';
+
+-->
+@import "boxes-4952_css_code.css?ts=1776275265";
+Toggle navigation
+Superintendencia de Pensiones - Gobierno de Chile
+Quiénes Somos
+Atención Ciudadana
+Fiscalización y Regulación
+Estadísticas e Informes
+Educación Previsional y Presentaciones
+Desplegar Buscador
+buscar
+Contacto
+SP. Superintendencia de Pensiones - Gobierno de Chile
+Inicio
+/
+Educación Previsional y Presentaciones
+/
+Sistema de Pensiones
+/
+Sistema de AFP
+/
+Cotización previsional obligatoria
+/
+Cotización de cargo del empleador
+icono compartir
+Compartir
+Cotización de cargo del empleador
+Para la construcción y financiamiento del nuevo Seguro Social Previsional (SSP), la Ley de Reforma Previsional estableció una cotización adicional de cargo del empleador del 7% de la remuneración de la o el trabajador. Esta nueva cotización se suma al actual aporte de 1,5% que hace el empleador para financiar el Seguro de Invalidez y Sobrevivencia (SIS).
+seguro, invalidez, sobrevivencia
+Dado lo anterior, cuando la nueva cotización esté totalmente en régimen el empleador tendrá a su cargo una cotización total de 8,5% del salario de la o el trabajador.
+La Ley N° 21.735 de Reforma Previsional estableción que la cotización de cargo del empleador se distribuirá de la siguiente manera:
+Un 6% de destinará a la cuenta de capitalización individual que las personas afiliadas al sistema tienen en una AFP y se sumará a la actual cotización individual obligatoria de 10% de la remuneración que es de cargo de la o el trabajador.
+A su vez, de ese 6%, en principio, un 4,5% irá como aporte directo a la cuenta de capitalización individual de cada persona y el restante 1,5% se destinará a la nueva Cotización con Rentabilidad Protegida, la que tiene un carácter transitorio, por un periodo de 30 años, y cuyos recursos serán reintegrados a la pensión de la persona, con reajustes e intereses, a partir del cumplimiento de la edad legal de pensión (60 años las mujeres y 65 años los hombres), o de la fecha en que se pensiones si es anterior al cumplimiento de la edad legal.
+El 2,5% restante ingresará y se registrará en el Fondo Autónomo de Protección Previsional (FAPP), entidad que se encargará de gestionar e invertir esos recursos para financiar los beneficios que entregará el Seguro Social Previsional (SSP). Aquí también se incluye la tasa para el financiamiento del SIS.
+Gradualidad del aporte
+La Ley N° 21.735 contempla una implementación gradual y progresiva en el tiempo para la nueva cotización de cargo del empleador. Así, entre el 1 de agosto de 2025 y julio de 2026 el aporte del empleador fue de 1% de la remuneración de la o el trabajador, distribuyéndose en un 0,1% para la cuenta de capitalización individual de cotizaciones obligatorias, que es la que administra la AFP, y el 0,9% restante para el FAPP.
+A partir del 1 de agosto de 2026 y hasta julio de 2027 la cotización de cargo del empleador será de 3,5%: un 0,1% irá a la cuenta de capitalización individual obligatoria en la AFP y el resto al FAPP. En este caso, la distribución será la siguiente: un 2,5% se usará para financiar el Seguro de Invalidez y Sobrevivencia (SIS) y la Compensación por Diferencias de Expectativa de Vida (CEV), mientras que el restante 0,9% se destinará a la nueva Cotización con Rentabilidad Protegida y, por esa vía, financiará la entrega (o pago) del Beneficio por Años Cotizados (BAC) para las actuales y futuras personas pensionadas.
+Según establece la reforma, la cotización obligatoria del empleador tendrá una implementación gradual, comenzando con una tasa inicial de 1% que aumentará cada año, por un periodo de nueve años. Esa transitoriedad, en todo caso, puede llegar a 11 años. El calendario de incremento de las nuevas cotizaciones de cargo del empleador es el siguiente:
+Importante:
+la reforma previsional estableció que la nueva cotización de 7% se sumará al actual aporte que hace el empleador para financiar el seguro de invalidez y sobrevivencia (SIS).
+Con eso, el empleador finalmente tendrá a su cargo una cotización total de 8,5% del salario de la o el trabajador, que se distribuirá en un 2,5% para el Seguro Social Previsional (SSP), que incluye la tasa para el financiamiento del SIS, que hoy ya es de su cargo, y un 6% para las cuentas individuales de las personas trabajadoras en la AFP respectiva.
+seguro, invalidez, sobrevivencia
+Leer más
+Ocultar texto
+Preguntas frecuentes
+¿Cómo se distribuye la cotización de 3,5% de cargo del empleador?
+A partir de las remuneraciones de agosto de 2026, las y los empleadores deben declarar y pagar una cotización equivalente al 3,5 % de la remuneración imponible de cada trabajadora o trabajador afiliado al sistema de pensiones.
+Este aporte se distribuye de la siguiente forma:
+0,1% se deposita en la cuenta de capitalización individual que tiene la trabajadora o trabajador en una administradora de fondos de pensiones (AFP).
+0,9% se destina a la Cotización con Rentabilidad Protegida (CRP), mecanismo de reconocimiento y resguardo de las cotizaciones en el Seguro Social Previsional (SSP) que son de cargo de los empleadores, en favor de sus trabajadoras y trabajadores.
+2,5% para el Seguro Social Previsional (SSP), con el objetivo de financiar la Compensación por Diferencias de Expectativa (CEV) de Vida para las mujeres y el Seguro de Invalidez y Sobrevivencia (SIS).
+Importante:
+desde agosto de 2026 la cotización para el SIS es recaudada por el Instituto de Previsión Social (IPS) y transferida al Fondo Autónomo de Protección Previsional (FAPP), entidad encargada de financiar los beneficios del Seguro Social Previsional (SSP).
+¿Cómo y dónde se declaran y pagan esas cotizaciones?
+La declaración y el pago de la cotización del empleador se realiza a través de Previred, utilizando los mismos plazos y mecanismos establecidos para las demás cotizaciones previsionales.
+De acuerdo con lo establecido en la Reforma Previsional, el Instituto de Previsión Social (IPS) el encargado de recaudar esas cotizaciones y transferir los recursos al Fondo Autónomo de Protección Previsional (FAPP).
+Los pagos se pueden realizar de la siguiente manera:
+a) Ingreso manual:
+si se realiza la declaración y pago directamente en la plataforma de Previred, antes de generar la planilla, se recomienda verificar:
+La información de AFP de cada trabajador.
+La remuneración imponible.
+El tipo de trabajador.
+El tipo de jornada.
+Los movimientos de personal.
+La existencia de licencias médicas.
+Los topes imponibles vigentes para el período correspondiente.
+b) Ingreso mediante nómina electrónica:
+los empleadores que utilizan sistemas de remuneraciones podrán cargar un archivo electrónico en Previred, seleccionando el tipo de nómina que corresponda, por ejemplo, remuneraciones, gratificaciones o pagos retroactivos.
+Antes de cargar las nóminas, es importante que el empleador compruebe que el software se encuentre actualizado según el formato de 105 campos establecido por Previred. Entre los principales datos que se deben revisar destacan:
+Campo 27:
+renta imponible para AFP y Seguro Social Previsional.
+Campo 29:
+cotización del SIS. Este monto debe seguir informándose en el archivo, aunque se visualice posteriormente en la planilla del Seguro Social.
+Campo 92:
+renta imponible del mes anterior a la licencia médica (RIMA).
+Campo 93:
+tipo de jornada.
+Campo 94:
+cotización destinada a la Compensación por Expectativa de Vida.
+Campo 95:
+Cotización con Rentabilidad Protegida.
+Importante:
+Después de cargar el archivo, el empleador deberá revisar la cuadratura de la nómina y verificar que los montos informados para el Seguro Social Previsional, la Cotización con Rentabilidad Protegida y el SIS coincidan con sus registros de remuneraciones.
+¿Cuáles son los plazos de declaración y pago de la cotización de cargo del empleador?
+El empleador debe pagar las cotizaciones del Seguro Social Previsional (SSP) hasta el día 10 del mes siguiente al que pagó la remuneración de la trabajadora o el trabajador. Si el día 10 es sábado, domingo o festivo, el plazo se extiende hasta el siguiente día hábil.
+Si el pago se realiza por internet, el plazo se amplía hasta el día 13 del mes, aunque sea sábado, domingo o festivo. Si el día 13 es hábil, el empleador debe realizar la transferencia electrónica antes de las 13:45 horas, dentro del horario bancario.
+Si el empleador no declara las cotizaciones dentro del plazo, tendrá hasta el último día hábil del mes subsiguiente para acreditar el término o suspensión de la relación laboral con la trabajadora o el trabajador. Una vez cumplido ese plazo y agotadas las gestiones aclaratorias, se presumirá que las cotizaciones están declaradas y no pagadas para todos los efectos de la cobranza prejudicial y judicial.
+Las cotizaciones correspondientes a las remuneraciones de agosto de 2026 deberán declararse y pagarse durante el siguiente mes de septiembre. Para esto, es importante tener presente lo siguiente:
+El pago mediante cupón puede realizarse hasta el día 10. Si el décimo día es sábado, domingo o festivo, el pago se puede realizar el siguiente día hábil.
+Cuando el pago se realiza electrónicamente, el plazo se extiende hasta las 13:45 horas el día 13. En el caso de la remuneración de agosto de 2026, el plazo será hasta el 13 de septiembre de 2026.
+Una Declaración y No Pago (DNP) se puede realizar hasta el día 10 de septiembre.
+Importante:
+ntes de finalizar el proceso, es importante comprobar que la nómina se encuentre correctamente cuadrada, que no existan observaciones pendientes y que el pago figure como realizado.
+¿Es importante informar los movimientos de personal?
+Sí, es muy relevante informar correctamente los movimientos de personal, por cuanto estos permiten explicar situaciones en las que corresponde pagar cotizaciones solo por una parte del mes o, por el contrario, no corresponde realizar determinados pagos.
+Por esta razón, se deben informar correctamente situaciones como:
+Retiro o término de la relación laboral.
+Permiso sin goce de remuneraciones.
+Ausentismo.
+Licencia médica.
+Ingreso de una nueva trabajadora o trabajador.
+Importante:
+en el caso de los permisos sin goce de remuneraciones o de los períodos de ausentismo, la Cotización con Rentabilidad Protegida se calcula únicamente por los días efectivamente trabajados.
+¿La cotización de cargo del empleador aplica para trabajadoras y trabajadores de casa particular?
+Sí, la cotización de cargo del empleador también es una obligación para quienes son empleadores de trabajadoras y trabajadores de casa particular afiliados al sistema de capitalización individual obligatoria.
+En este caso, la declaración y el pago de la cotización del empleador también se realiza a través de Previred.
+Importante:
+antes de generar la planilla, se deberán actualizar los datos cuando existan cambios en la remuneración, licencias médicas, permisos, ausencias u otros movimientos del período.
+¿Qué ocurre cuando existe una licencia médica?
+Cuando una trabajadora o trabajador tiene licencia médica en un mes, el empleador debe informar tanto los días trabajados como el período cubierto por el subsidio.
+En esos casos, el empleador debe tener presente lo siguiente:
+La cotización de 0,1% que se deposita en la cuenta de capitalización individual en la administradora de fondos de pensiones (AFP) y la Cotización con Rentabilidad Protegida se calculan sobre la remuneración correspondiente a los días trabajados.
+Para calcular las cotizaciones del Seguro Social Previsional asociadas a los días de licencia, se debe informar la Renta Imponible del Mes Anterior a la Licencia (RIMA).
+Durante el período de licencia de la trabajadora o el trabajador, el empleador debe continuar pagando las cotizaciones que correspondan al Seguro de Invalidez y Sobrevivencia (SIS) y al Seguro Social Previsional para la Compensación por Diferencias de Expectativa de Vida (CEV).
+Si la licencia médica comprende el mes completo, la cotización destinada a la cuenta de capitalización individual y la Cotización con Rentabilidad Protegida serán de cargo de la entidad pagadora del subsidio.
+Pagos retroactivos
+Cuando una nómina retroactiva comprende remuneraciones de distintos meses, las cotizaciones deben calcularse utilizando las tasas y disposiciones vigentes en cada uno de esos períodos.
+Por ejemplo, si el pago incorpora remuneraciones anteriores a agosto de 2026, no corresponde aplicar automáticamente las nuevas tasas a todos los meses incluidos en la nómina. El sistema de remuneraciones deberá distinguir cada período y aplicar el porcentaje que corresponda.
+Trámites y servicios
+Beneficios
+Estadísticas
+Sistema de Pensiones
+Sistema de AFP
+Afiliación
+Nuevas afiliadas y nuevos afiliados
+Traspaso a otra AFP
+Desafiliación
+Cotización previsional obligatoria
+Cotización de cargo del empleador
+Cotización adicional por trabajo pesado
+Seguro de Invalidez y Sobrevivencia (SIS)
+Trabajadoras y trabajadores independientes
+Ley de Técnico Extranjero
+Fondos de pensiones
+Pensiones
+Pensión de vejez
+Pensión de sobrevivencia
+Pensión de invalidez
+Modalidades de pensión
+Asesoría previsional
+Antiguo sistema de pensiones
+Pensiones mínimas y especiales
+Sistema de Pensiones Solidarias
+Pensión Básica Solidaria de Invalidez (PBSI)
+Aporte Previsional Solidario de Invalidez (APSI)
+Ahorro voluntario con fines previsionales
+Ahorro Previsional Voluntario (APV)
+Cuenta de Ahorro Voluntario o Cuenta 2
+Convenios Internacionales de Seguridad Social
+Seguro de Cesantía
+Afiliadas y afiliados al seguro de cesantía
+Cotizantes
+Beneficios
+Fondos de cesantía
+Cuenta Individual de Cesantía
+Fondo de Cesantía Solidario
+Gobierno de Chile
+Superintendencia de Pensiones
+Avda. Libertador Bdo. O'Higgins 1449, piso 1, local 8,
+Santiago-Chile.
+Atención de público en las 16 regiones del país,
+de lunes a viernes, entre las 09:00 y 13:30 horas.
+Centro de llamadas
+600-006-1013
+Desde celulares o el extranjero
+562 27074260
+Oficinas
+Prensa
+English overview
+Síganos en X
+Usuarios Banco Central
+Transferencia electrónica de archivos
+Política de Privacidad
+Visualizadores
+Mapa del Sitio Web
+Subir
+//<![CDATA[
+
+// Botón para Ir Arriba
+jQuery(document).ready(function() {
+  jQuery("#top").hide();
+  jQuery(window).scroll(function () {
+     if (jQuery(this).scrollTop() > 200) {
+         jQuery('#top').fadeIn();
+     } else {
+         jQuery('#top').fadeOut();
+     }
+  });
+  jQuery('#top a').click(function () {
+    jQuery('body,html').animate({
+       scrollTop: 0
+    }, 800);
+    return false;
+  });
+});
+
+
+//]]>
+<!--
+					//js addclass
+$(function() {
+  $("#compendio_acceso_materias select").addClass("form-control");
+  // $("#recuadrosxAno ul.indice >li").removeClass("active").not(":contains(Anteriores)").each(function (){ 
+  //    $(this).detach().prependTo("#recuadrosxAno ul.indice");
+  //  }).last().addClass("active");
+  $("#recuadrosxAno  .tab-content>.tab-pane.active").removeClass("active");
+  $($("#recuadrosxAno ul.indice >li.active a").attr("href")).addClass("active");
+  $("#contactenos_oficinas").addClass("collapse");
+  $("#contactenos_oficinas").removeClass("in");
+  $(".info-agendamiento p a").addClass("ntg5-btn ntg5-btn-primary ntg5-rounded-pill ntg5-fs-5");
+  // Script que crear el botón de colapsar y le coloca el id al div "collapse" #canales_videollamada
+  $("#canales_videollamada .recuadro .collapse").attr('id', 'collapseMasinfo');
+  $("#canales_videollamada #collapseMasinfo").after('<a class="btn btn-link btn-block" role="button" data-toggle="collapse" href="#collapseMasinfo" aria-expanded="false" aria-controls="collapseMasinfo">Más información</a>');
+  //
+  // Botones Info Home AC
+	$("#acceso_publico_general a").addClass("ntg5-btn ntg5-btn-outline-info ntg5-rounded-pill ntg5-fs-3 ntg5-p-3");
+});
+					-->
+<!--
+					$(function(){
+
+  
+$("#main .nav-pills, #main .nav-tabs").tabdrop();
+  
+});
+					-->
+<!--
+					$(document).ready(function(){
+	$('#contacto_oficina > ul > li, #contacto_otras > ul > li').each(function(){
+		var mapaPlaceHolder= $('ul.googlemaps', this);
+		$(this).children('a')
+		.click(function(ev){
+			var on = $(mapaPlaceHolder).data('mapa_state');
+			// cambio el boton
+			$(this).text("- ocultar Mapa");
+			// esconde todos los mapas que ya han sido desplegados
+			$('#contacto_oficina > ul > li > ul.googlemaps, #contacto_otras > ul > li > ul.googlemaps')
+			.each(function(){
+				if ('undefined' != $(this).data('mapa_state') &&  $(this).data('mapa_state')){
+					$(this).hide();
+					$(this).data('mapa_state',false);
+					$($(this).data('boton')).text("+ ver Mapa");
+				}
+			});
+			if ('undefined' == typeof (on)){
+				// si es la primera vez en desplegarlo, reemplaza el link que tiene la url base
+				// con el iframe y el link agrandar Mapa
+				$(mapaPlaceHolder).show();
+				$('a',mapaPlaceHolder).each(function(){
+					var url_map = $(this).attr('href');
+					$(this).replaceWith('<'+'iframe width="465" scrolling="no" height="350" frameborder="0" marginheight="0" marginwidth="0" src="'+url_map+'&amp;output=embed&amp;source=s_q"><'+'/iframe><'+'br /><'+'small><a href="'+url_map+'&amp;source=embed">'+'Ver mapa más grande<'+'/a><'+'/small>');
+				});
+				$(mapaPlaceHolder).data('boton',this);
+				$(this).text("- ocultar Mapa");
+			}else if(!on){
+				// Si esta escondido lo revelo
+				$(mapaPlaceHolder).show();
+			}
+			$(mapaPlaceHolder).data('mapa_state',true);
+		});
+	});
+});
+					-->
+<!--
+$(document).ready(function(){$('a.facebook,a.twitter,a.google').click(function(){window.open(this.href,'_blank','resizable=1,menubar=1,location=1,status=1,scrollbars=1,toolbar=1,width=800,height=600');return false});});
+-->
+<!--
+					/* Agrega código JS aquí */
+$(document).ready(function(){
+   $('.link_youtube a, a.link_youtube').ntg_link_video();
+ 
+ });
+/*
+$(function(){
+  $(".link_video").ntg_link_video({
+    "width":"auto",
+    "height":"auto",
+    "youtubeTemplate":'<'+'iframe class="" '+
+    'width="{{width}}" height="{{height}}" '+
+    	'src="{{protocol}}://www.youtube.com/embed/{{videoid}}" '+
+		' frameborder="0" allowfullscreen>No iframes<'+'/iframe>',
+    "facebookTemplate":
+    // '<'+'div style="margin:auto; background-color:black;">'+
+    '<'+'iframe class="" '+
+    	'width="{{width}}" height="{{height}}"'+
+    	'src="https://www.facebook.com/plugins/video.php?href={{url}}&show_text=0"'+
+    	'style="border:none;overflow:hidden" scrolling="no" frameborder="0" '+
+    	'allowTransparency="true" allowFullScreen="true">No iframes<'+''+'/iframe>',
+    	//'<'+'/div>',
+    "vimeoTemplate":	'<'+'iframe src="{{protocol}}://player.vimeo.com/video/{{videoid}}" '+
+    'width="{{width}}" height="{{height}}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>No iframes<'+'/iframe>'
+  });
+});*/
+					-->
+<!--
+					// inicializa igualar alturas
+$(function(){
+	$(document).ntg_responsive({
+		"callbacks":[
+		{
+			limite: 993,
+			change: function (){
+				$('.ntg-igualar-altura').ntg_igualar_altura({
+					"mode":"equals",
+					"styleHeight":"height",
+					"equalsClass":"media"
+				});
+				$('#main > .container').ntg_igualar_altura({
+					"mode":"equals",
+					"styleHeight":"height",
+					"equalsClass":"igualar-h"
+				});
+			}
+		},
+		{
+			limite: 0,
+			change: function (){
+				$('.ntg-igualar-altura').ntg_igualar_altura("destroy");
+				$('#main > .container').ntg_igualar_altura("destroy");
+			}
+		}
+		]}
+	);
+});
+					-->
+<!--
+					/* Agrega código JS aquí */
+$(function(){
+  $('.ntg-aumentar-font,.page-header,.list-group-item > a,.abstract,.titulo,.ntg-titulo-caja,.descripcion,.panel-title').ntg_fontresizer({step:0.2});
+ });
+					-->
++A
+Agrandar texto
+-A
+Achicar texto
+<!--
+					$(function(){
+  $(".articulo .table").each(function(){
+    $(this).wrapAll("<"+"div class='table-responsive'><"+"/div>");
+  });
+  $(".tab-content .table").each(function(){
+    $(this).wrapAll("<"+"div class='table-responsive'><"+"/div>");
+  });
+});
+					-->

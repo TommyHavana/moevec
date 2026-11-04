@@ -1,0 +1,406 @@
+Oficina Nacional de Estadística e Información de Cuba🇨🇺 – Telegram
+window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches&&document.documentElement&&document.documentElement.classList&&document.documentElement.classList.add('theme_dark');
+TBaseUrl='/';
+.user-color-12 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #3391d4 0px, #3391d4 5px, #7dd3f0 5px, #7dd3f0 10px);
+          --user-accent-color: #3391d4;
+          --user-background: #3391d41f;
+        }        .user-color-10 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #27a910 0px, #27a910 5px, #a7dc57 5px, #a7dc57 10px);
+          --user-accent-color: #27a910;
+          --user-background: #27a9101f;
+        }        .user-color-8 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #e0802b 0px, #e0802b 5px, #fac534 5px, #fac534 10px);
+          --user-accent-color: #e0802b;
+          --user-background: #e0802b1f;
+        }        .user-color-7 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #e15052 0px, #e15052 5px, #f9ae63 5px, #f9ae63 10px);
+          --user-accent-color: #e15052;
+          --user-background: #e150521f;
+        }        .user-color-9 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #a05ff3 0px, #a05ff3 5px, #f48fff 5px, #f48fff 10px);
+          --user-accent-color: #a05ff3;
+          --user-background: #a05ff31f;
+        }        .user-color-11 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #27acce 0px, #27acce 5px, #82e8d6 5px, #82e8d6 10px);
+          --user-accent-color: #27acce;
+          --user-background: #27acce1f;
+        }        .user-color-13 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #dd4371 0px, #dd4371 5px, #ffbe9f 5px, #ffbe9f 10px);
+          --user-accent-color: #dd4371;
+          --user-background: #dd43711f;
+        }        .user-color-14 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #247bed 0px, #247bed 5px, #f04856 5px, #f04856 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #247bed;
+          --user-background: #247bed1f;
+        }        .user-color-15 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #d67722 0px, #d67722 5px, #1ea011 5px, #1ea011 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #d67722;
+          --user-background: #d677221f;
+        }        .user-color-16 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #179e42 0px, #179e42 5px, #e84a3f 5px, #e84a3f 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #179e42;
+          --user-background: #179e421f;
+        }        .user-color-17 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #2894af 0px, #2894af 5px, #6fc456 5px, #6fc456 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #2894af;
+          --user-background: #2894af1f;
+        }        .user-color-18 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #0c9ab3 0px, #0c9ab3 5px, #ffad95 5px, #ffad95 10px, #ffe6b5 10px, #ffe6b5 15px);
+          --user-accent-color: #0c9ab3;
+          --user-background: #0c9ab31f;
+        }        .user-color-19 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #7757d6 0px, #7757d6 5px, #f79610 5px, #f79610 10px, #ffde8e 10px, #ffde8e 15px);
+          --user-accent-color: #7757d6;
+          --user-background: #7757d61f;
+        }        .user-color-20 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #1585cf 0px, #1585cf 5px, #f2ab1d 5px, #f2ab1d 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #1585cf;
+          --user-background: #1585cf1f;
+        }        body.dark .user-color-12, html.theme_dark .user-color-12 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #52bfff 0px, #52bfff 5px, #0b5494 5px, #0b5494 10px);
+          --user-accent-color: #52bfff;
+          --user-background: #52bfff1f;
+        }        body.dark .user-color-10, html.theme_dark .user-color-10 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #a7eb6e 0px, #a7eb6e 5px, #167e2d 5px, #167e2d 10px);
+          --user-accent-color: #a7eb6e;
+          --user-background: #a7eb6e1f;
+        }        body.dark .user-color-8, html.theme_dark .user-color-8 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #ecb04e 0px, #ecb04e 5px, #c35714 5px, #c35714 10px);
+          --user-accent-color: #ecb04e;
+          --user-background: #ecb04e1f;
+        }        body.dark .user-color-7, html.theme_dark .user-color-7 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #ff9380 0px, #ff9380 5px, #992f37 5px, #992f37 10px);
+          --user-accent-color: #ff9380;
+          --user-background: #ff93801f;
+        }        body.dark .user-color-9, html.theme_dark .user-color-9 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #c697ff 0px, #c697ff 5px, #5e31c8 5px, #5e31c8 10px);
+          --user-accent-color: #c697ff;
+          --user-background: #c697ff1f;
+        }        body.dark .user-color-11, html.theme_dark .user-color-11 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #40d8d0 0px, #40d8d0 5px, #045c7f 5px, #045c7f 10px);
+          --user-accent-color: #40d8d0;
+          --user-background: #40d8d01f;
+        }        body.dark .user-color-13, html.theme_dark .user-color-13 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #ff86a6 0px, #ff86a6 5px, #8e366e 5px, #8e366e 10px);
+          --user-accent-color: #ff86a6;
+          --user-background: #ff86a61f;
+        }        body.dark .user-color-14, html.theme_dark .user-color-14 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #3fa2fe 0px, #3fa2fe 5px, #e5424f 5px, #e5424f 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #3fa2fe;
+          --user-background: #3fa2fe1f;
+        }        body.dark .user-color-15, html.theme_dark .user-color-15 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #ff905e 0px, #ff905e 5px, #32a527 5px, #32a527 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #ff905e;
+          --user-background: #ff905e1f;
+        }        body.dark .user-color-16, html.theme_dark .user-color-16 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #66d364 0px, #66d364 5px, #d5444f 5px, #d5444f 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #66d364;
+          --user-background: #66d3641f;
+        }        body.dark .user-color-17, html.theme_dark .user-color-17 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #22bce2 0px, #22bce2 5px, #3da240 5px, #3da240 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #22bce2;
+          --user-background: #22bce21f;
+        }        body.dark .user-color-18, html.theme_dark .user-color-18 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #22bce2 0px, #22bce2 5px, #ff9778 5px, #ff9778 10px, #ffda6b 10px, #ffda6b 15px);
+          --user-accent-color: #22bce2;
+          --user-background: #22bce21f;
+        }        body.dark .user-color-19, html.theme_dark .user-color-19 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #9791ff 0px, #9791ff 5px, #f2731d 5px, #f2731d 10px, #ffdb59 10px, #ffdb59 15px);
+          --user-accent-color: #9791ff;
+          --user-background: #9791ff1f;
+        }        body.dark .user-color-20, html.theme_dark .user-color-20 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #3da6eb 0px, #3da6eb 5px, #eea51d 5px, #eea51d 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #3da6eb;
+          --user-background: #3da6eb1f;
+        }.user-color-6, .user-color-4, .user-color-2, .user-color-0, .user-color-1, .user-color-3, .user-color-5,   .user-color-default {
+    --user-accent-color: var(--accent-color);
+    --user-accent-background: var(--accent-background);
+    --user-line-gradient: linear-gradient(45deg, var(--accent-color), var(--accent-color));
+  }
+Oficina Nacional de Estadística e Información de Cuba
+🇨🇺
+@CubaONEI
+974
+subscribers
+727
+photos
+28
+videos
+222
+files
+402
+links
+Canal de la Oficina Nacional de Estadística e Información de Cuba
+🇨🇺
+, entidad nacional encargada de dirigir y controlar la política estatal en materia de estadística oficial y la dirección metodológica del Sistema de Información del Gobierno.
+Download Telegram
+About
+Blog
+Apps
+Platform
+Join
+Oficina Nacional de Estadística e Información de Cuba
+🇨🇺
+974 subscribers
+Oficina Nacional de Estadística e Información de Cuba
+🇨🇺
+311
+views
+14:57
+Oficina Nacional de Estadística e Información de Cuba
+🇨🇺
+Oficina Nacional de Estadística e Información de Cuba
+🇨🇺
+Photo
+#DíaNaranja
+|
+📊
+En 2025, los casos de mujeres de 15 años y más que han sido víctimas de violencia sexual (tipificado como delito) juzgados en procesos judiciales en los tribunales fueron 173 casos, lo que equivale a una tasa de 4,19 por cada 100 000 mujeres, de ellos: 90 corresponden al delito de agresión sexual y 83 a otros tipos de violencia sexual.
+📌
+Las provincias con mayor cantidad de casos de violencia sexual fueron: La Habana (30), Pinar del Río (29), Camagüey (20), Las Tunas y Holguín (15 cada una).
+👉
+Según la zona de residencia, es la parte urbana donde se procesaron mayor cantidad de casos de violencia sexual (120), mientras que se juzgaron 53 casos en la zona rural.
+👉
+Por edades, 73 de las víctimas tenían entre 20 y 44 años, y 49 eran adolescentes de 15 a 17 años.
+👉
+Por color de la piel, son las mujeres blancas las más afectadas.
+👉
+Dos mujeres con discapacidad sufrieron violencia sexual.
+❤️‍🩹
+Estos datos, más que poner números al fenómeno, llevan consigo la historia de mujeres y niñas abusadas.
+🧡
+Este día naranja es una nueva oportunidad para recordar que la violencia sigue presente en nuestra sociedad, y que debemos combatirla desde todas las trincheras.
+🖇
+Para conocer más datos con enfoque de género, visita nuestro Observatorio de Cuba sobre Igualdad de Género:
+https://www.genero.onei.gob.cu/
+Observatorio de Cuba sobre Igualdad de Género
+Observatorio de Cuba sobre Igualdad de Género, sistema web para visualizar estadísticas e indicadores de interés público.
+377
+views
+14:57
+Oficina Nacional de Estadística e Información de Cuba
+🇨🇺
+#AEC2025
+|
+📢
+¡Ya tenemos disponibles nuevos capítulos del Anuario Estadístico de Cuba, 2025!
+🤔
+¿Quieres saber cómo se comportaron la organización institucional, la industria manufacturera, el transporte y la seguridad, así como la construcción y las inversiones? Pues entonces no puedes perderte estos capítulos AEC 2025.
+🖇
+Consúltalos aquí,  en nuestro canal de Telegram y descubre todos los detalles
+365
+views
+15:44
+Oficina Nacional de Estadística e Información de Cuba
+🇨🇺
+04-organizacion-institucional_aec2025_0.pdf
+1.1 MB
+357
+views
+15:46
+Oficina Nacional de Estadística e Información de Cuba
+🇨🇺
+11-industria-manufacturera_aec2025.pdf
+1.1 MB
+356
+views
+15:46
+Oficina Nacional de Estadística e Información de Cuba
+🇨🇺
+12-construccion-e-inversiones_aec2025.pdf
+421 KB
+357
+views
+15:47
+Oficina Nacional de Estadística e Información de Cuba
+🇨🇺
+‼️
+🔎
+Para encontrar los capítulos del Anuario Estadístico de Cuba ya publicados en el canal, puedes colocar
+#AEC2025
+en el buscador
+‼️
+.
+👍
+2
+366
+views
+15:50
+Oficina Nacional de Estadística e Información de Cuba
+🇨🇺
+Oficina Nacional de Estadística e Información de Cuba
+🇨🇺
+pinned «
+‼️
+🔎
+Para encontrar los capítulos del Anuario Estadístico de Cuba ya publicados en el canal, puedes colocar #AEC2025 en el buscador
+‼️
+.
+»
+03:31
+Oficina Nacional de Estadística e Información de Cuba
+🇨🇺
+#ONEI
+|
+🤔
+¿Estuviste al pendiente de nuestras publicaciones este mes? Si no fue así, hoy te traemos un resumen de todo lo que publicamos en septiembre.
+📌
+Pusimos a tu disposición publicaciones mensuales habituales como nuestro boletín de economía, IPC, el DUINE y el arribo de viajeros/visitantes internacionales.
+👉
+Además, publicamos 5 capítulos del Anuario del Anuario Estadístico de Cuba, 2025.
+🤔
+¿Ya las consultaste? Te invitamos a hacerlo para que no te pierdas ningún detalle.
+http://onei.gob.cu/
+280
+views
+18:15
+Oficina Nacional de Estadística e Información de Cuba
+🇨🇺
+229
+views
+15:13
+Oficina Nacional de Estadística e Información de Cuba
+🇨🇺
+Oficina Nacional de Estadística e Información de Cuba
+🇨🇺
+Photo
+#Demografía
+|
+👵🏽
+Este 1ro de octubre conmemoramos el Día Mundial de las Personas Mayores.
+🤝
+Ante el alto grado de envejecimiento de la población cubana, esta fecha nos invita a reconocer su aporte a la sociedad, fomentar un envejecimiento saludable y garantizar el respeto a sus derechos y bienestar.
+👉
+Te invitamos a descubrir las cifras más recientes de nuestro país.
+📊
+Al cierre de 2025, eran 2 519 823 las personas de 60 años y más en Cuba, lo que representa el 26,7 %. De ellas, 1 159 220 eran hombres (834 792 de zonas urbanas y 324 428 de zonas rurales) y 1 360 603 eran mujeres (1 078 583 de zonas urbanas y 282 020 de zonas rurales).
+📈
+La provincia con mayor grado de envejecimiento es Villa Clara con una edad mediana de 48,1 años y un 30,2 % de su población con 60 años y más, seguida por La Habana con un grado de envejecimiento del 29,1 %, seguida por Cienfuegos (27,7 %), Sancti Spíritus (27,6 %) y Camagüey (27,6 %).
+📉
+La provincia menos envejecida es Guantánamo con una edad mediana de 40,8 años y el 23,3 % de su población con 60 años y más, antecedida por Santiago de Cuba (24,2 %), Artemisa (24,2 %), Granma (24,8 %) y Ciego de Ávila (25 %).
+📊
+A nivel municipal, Plaza de la Revolución continúa siendo el municipio más envejecido del país con 38,2 % de su población de 60 años y más y Yateras el menos envejecido con el 17,9 %.
+💙
+De manera muy especial, reconocemos a las personas mayores que forman parte de la familia de la ONEI. Aquellos trabajadores que durante años han dedicado su vida, experiencia y compromiso al desarrollo de la producción estadística oficial del país, tanto en el Órgano Central como en nuestras estructuras territoriales a nivel provincial y municipal.
+🙌
+Las personas mayores son un pilar fundamental en las familias, las comunidades y son fuerza indispensable para el país. Conmemorar este día nos convida a seguir aportando estadísticas que permitan construir una sociedad donde envejecer sea sinónimo de participación, respeto y bienestar.
+❤
+1
+250
+views
+15:13
+Oficina Nacional de Estadística e Información de Cuba
+🇨🇺
+204
+views
+14:29
+Oficina Nacional de Estadística e Información de Cuba
+🇨🇺
+Oficina Nacional de Estadística e Información de Cuba
+🇨🇺
+Photo
+#Economía
+│
+🤔
+¿Sabes cuántas entidades conforman el entramado institucional de Cuba?
+📊
+Hasta junio de 2026 se registraron 20 394 entidades.
+📊
+Por formas de organización, la más numerosa eran las mipymes privadas, con 9 967 (48,9 %), seguidas por las cooperativas, con 4 966 (24,4 %), las unidades presupuestadas, con 2 626 (12,9 %), y las empresas estatales, con 2 082 (10,2 %). Completan el total las sociedades mercantiles (300), las mipymes estatales (234) y las empresas filiales (219).
+📈
+En 2019 había 9 542 entidades registradas; en 2021, 10 008; y en 2025, 20 349. Entre 2021 y junio de 2026, las mipymes privadas pasaron de 262 a 9 967, mientras que las cooperativas bajaron de 5 290 en 2019 a 4 966 en junio de este año.
+📌
+Por territorios, La Habana concentra 6 166 entidades (30,2 % del total), seguida por Holguín (1 452), Granma y Santiago de Cuba (1 425 cada una). Isla de la Juventud registra 186.
+👉
+El total no incluye organizaciones políticas y de masas, instituciones sin fines de lucro, empresas mixtas, empresas de capital totalmente extranjero, sucursales en Cuba de empresas extranjeras, la Cámara de Comercio ni los Bufetes Colectivos.
+💬
+¿Quieres conocer más a detalle la organización institucional de nuestro país? Consulta "Organización Institucional. Principales Entidades, junio, 2026".
+278
+views
+14:29
+Oficina Nacional de Estadística e Información de Cuba
+🇨🇺
+organizacion-institucional-junio-2026.pdf
+1.3 MB
+282
+views
+14:30
+Oficina Nacional de Estadística e Información de Cuba
+🇨🇺
+👍
+1
+204
+views
+18:56
+Oficina Nacional de Estadística e Información de Cuba
+🇨🇺
+Oficina Nacional de Estadística e Información de Cuba
+🇨🇺
+Photo
+#Educación
+|
+👨‍🏫
+El día mundial de los docentes nos convoca a conmemorar la labor de quienes, desde cada aula, siembran en futuro y construyen conocimiento en Cuba.
+🙌
+Para celebrar este 5 de octubre queremos compartir algunos datos sobre la educación en nuestro país al cierre del curso 2024-2025.
+🇨🇺
+Cuba contaba con un total de 272 619 docentes, 222 107 de ellos se encontraban directamente frente al aula.
+📊
+De los maestros primarios, el 77,7 % eran universitarios y en preuniversitario esta cifra ascendió a 88,2 %.
+📌
+En todo el territorio nacional se contaba con 10 939 centros de enseñanza, que incluyen:
+- 1 332 círculos infantiles.
+- 6 924 escuelas primarias.
+- 1 005 secundarias básicas.
+- 312 preuniversitarios.
+📊
+Durante este último curso, 343 938 estudiantes se graduaron de los distintos niveles de enseñanza, listos para aportar al desarrollo de nuestra sociedad.
+🤝
+Detrás de cada graduado hay un maestro guiando el proceso. A todos los docentes cubanos que con paciencia, ciencia y humanismo educan a las nuevas generaciones: gracias por su entrega infinita.
+🤔
+¿Recuerdas a ese maestro que marcó tu vida? Menciónalo en los comentarios y felicítalo por su día.
+233
+views
+18:57
+Oficina Nacional de Estadística e Información de Cuba
+🇨🇺
+182
+views
+16:13
+Oficina Nacional de Estadística e Información de Cuba
+🇨🇺
+Oficina Nacional de Estadística e Información de Cuba
+🇨🇺
+Photo
+#DeCerca
+|
+🤔
+¿Cuánto conoces Cuba?
+👉
+Hoy nos vamos hacia Camagüey, conocida como la Ciudad de los tinajones.
+📌
+Territorio
+Camagüey cuenta con 15 386,16 km², la mayor provincia de nuestro país en cuanto a extensión. Está integrada por 13 municipios: Carlos Manuel de Céspedes, Esmeralda, Sierra de Cubitas, Minas, Nuevitas, Guáimaro, Sibanicú, Camagüey, Florida, Vertientes, Jimaguayú, Najasa y Santa Cruz del Sur.
+👥️
+️ Población
+Al cierre de 2025, Camagüey contaba con 631 358 habitantes, registró 4 355 nacimientos, 9 390 defunciones y un saldo migratorio total de -16 810. Posee una tasa media anual de crecimiento de -33,4 por cada mil habitantes, una tasa bruta de natalidad de 6,8 por cada mil habitantes, una tasa bruta de mortalidad de 14,6 por cada mil habitantes y una tasa de crecimiento natural de -7,8 por cada mil habitantes.
+💰
+Economía
+Las ventas de bienes y servicios minoristas del sistema empresarial del territorio alcanzaron los 11 914 550,6 pesos en el período enero-julio de 2026. El salario medio mensual provincial fue de 6 690 pesos para julio de 2026.
+🌱
+Naturaleza
+Camagüey resguarda 15 áreas protegidas, con un total de 5 692,9 km2, entre ellas, 1 parque nacional, 2 reservas ecológicas, 7 refugios de vida silvestre, 1 elemento natural destacado y 4 áreas protegidas de recursos manejados.
+💬
+Si eres camagüeyano/a dinos qué es lo que más te gusta de tu provincia. Estaremos encantados de leerte.
+❤
+1
+226
+views
+16:14
+Oficina Nacional de Estadística e Información de Cuba
+🇨🇺
+223
+views
+16:24
+TWeb.init({scrollToPost:'CubaONEI/1533'});
