@@ -1,0 +1,377 @@
+ 
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+	<title>WVS Database</title>
+	<META CONTENT="WVS Data ArchiveJDS,Survey, JDSurvey, online data analysis, encuestas,WVS Database,World Values Survey Data-Archive" NAME="keywords">
+	<META CONTENT="World Values Survey Data-Archive Online Survey analysis website" NAME="description">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, maximum-scale=10, minimum-scale=0.1, user-scalable=yes">
+
+<script src="js/dtree/jquery/jquery.min.js"></script>
+
+	<script language="JavaScript" src="js/jds.js"></script>
+  <script type="text/javascript" src="js/fusioncharts.js"></script>
+  <script type="text/javascript" src="js/fusioncharts.maps.js"></script>
+	<link href="css/reset.css" rel="stylesheet" type="text/css">
+	<link href="css/aj.css?version=2021-02-20" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" type="text/css" href="js/grid/skins/dhtmlxgrid_dhx_web.css">
+<script src="js/grid/dhtmlxcommon.js"></script>
+<script src="js/grid/dhtmlxgrid.js"></script>
+<script src="js/grid/dhtmlxgridcell.js"></script>
+<script src="js/grid/ext/dhtmlxgrid_start.js"></script>
+<script src="js/grid/ext/dhtmlxgrid_form.js"></script>
+<script  src="js/grid/ext/dhtmlxgrid_splt.js"></script>
+<script src="js/grid/ext/dhtmlxgrid_nxml.js"></script>
+<script  src="js/grid/ext/dhtmlxgrid_filter.js"></script>
+<script src="js/grid/ext/dhtmlxgrid_drag.js"></script>
+<script src="js/grid/ext/dhtmlxgrid_keymap_access.js"></script>
+
+
+	<link rel="STYLESHEET" type="text/css" href="js/grid/dhtmlxtabbar.css">
+	<script  src="js/tabbar/dhtmlxtabbar.js"></script>
+
+<script>
+dhtmlx.skin = "dhx_web";
+</script>
+</head> 
+<body>
+<form name=Datos method=Post action="">
+	<input type=hidden name=ulthost value="WVS">
+	<input type=hidden name=CMSID>
+<script language="JavaScript">
+	var datos=document.Datos;
+	var dialogBox=false;
+	var dialogDiv="";
+	function Home() {
+		datos.action="AJOnline.jsp";
+	}
+</script>
+
+<div id=PAGE class="AJPage">
+ 	
+
+	<div class=clear>&nbsp;</div>
+	<div style="float:right;">
+		
+			<table name=gridsmpl ID=gridsmpl imgpath="js/grid/imgs/" border="1" gridWidth="220px" multiline="true">
+				<tr>
+					<th align="left" type="ro" width="180">Select a country:</th>
+				</tr>
+				<tr id="0" >
+					<td style="color:navy;font-weight:bold;">Integrated documentation</td>
+				</tr>
+				
+						<tr id="3284" >
+							<td>Andorra 2018</td>
+						</tr>
+						<tr id="3286" >
+							<td>Argentina 2017</td>
+						</tr>
+						<tr id="3747" >
+							<td>Armenia 2021</td>
+						</tr>
+						<tr id="3365" >
+							<td>Australia 2018</td>
+						</tr>
+						<tr id="3367" >
+							<td>Bangladesh 2018</td>
+						</tr>
+						<tr id="3202" >
+							<td>Bolivia 2017</td>
+						</tr>
+						<tr id="3366" >
+							<td>Brazil 2018</td>
+						</tr>
+						<tr id="3474" >
+							<td>Canada 2020</td>
+						</tr>
+						<tr id="3364" >
+							<td>Colombia 2018</td>
+						</tr>
+						<tr id="3405" >
+							<td>Cyprus 2019</td>
+						</tr>
+						<tr id="3843" >
+							<td>Czechia 2022</td>
+						</tr>
+						<tr id="3305" >
+							<td>Chile 2018</td>
+						</tr>
+						<tr id="3267" >
+							<td>China 2018</td>
+						</tr>
+						<tr id="3266" >
+							<td>Ecuador 2018</td>
+						</tr>
+						<tr id="3322" >
+							<td>Egypt 2018</td>
+						</tr>
+						<tr id="3463" >
+							<td>Ethiopia 2020</td>
+						</tr>
+						<tr id="3310" >
+							<td>Germany 2018</td>
+						</tr>
+						<tr id="3232" >
+							<td>Greece 2017</td>
+						</tr>
+						<tr id="3407" >
+							<td>Guatemala 2019</td>
+						</tr>
+						<tr id="3285" >
+							<td>Hong Kong SAR 2018</td>
+						</tr>
+						<tr id="4111" >
+							<td>India 2023</td>
+						</tr>
+						<tr id="3301" >
+							<td>Indonesia 2018</td>
+						</tr>
+						<tr id="3466" >
+							<td>Iran 2020</td>
+						</tr>
+						<tr id="3323" >
+							<td>Iraq 2018</td>
+						</tr>
+						<tr id="3418" >
+							<td>Japan 2019</td>
+						</tr>
+						<tr id="3307" >
+							<td>Jordan 2018</td>
+						</tr>
+						<tr id="3309" >
+							<td>Kazakhstan 2018</td>
+						</tr>
+						<tr id="3749" >
+							<td>Kenya 2021</td>
+						</tr>
+						<tr id="3455" >
+							<td>Kyrgyzstan 2020</td>
+						</tr>
+						<tr id="3308" >
+							<td>Lebanon 2018</td>
+						</tr>
+						<tr id="3776" >
+							<td>Libya 2022</td>
+						</tr>
+						<tr id="3447" >
+							<td>Macau SAR 2019</td>
+						</tr>
+						<tr id="3280" >
+							<td>Malaysia 2018</td>
+						</tr>
+						<tr id="3746" >
+							<td>Maldives 2021</td>
+						</tr>
+						<tr id="3203" >
+							<td>Mexico 2018</td>
+						</tr>
+						<tr id="3446" >
+							<td>Mongolia 2021</td>
+						</tr>
+						<tr id="3445" >
+							<td>Morocco 2021</td>
+						</tr>
+						<tr id="3462" >
+							<td>Myanmar 2020</td>
+						</tr>
+						<tr id="3840" >
+							<td>Netherlands 2022</td>
+						</tr>
+						<tr id="3406" >
+							<td>New Zealand 2020</td>
+						</tr>
+						<tr id="3456" >
+							<td>Nicaragua 2020</td>
+						</tr>
+						<tr id="3271" >
+							<td>Nigeria 2018</td>
+						</tr>
+						<tr id="3350" >
+							<td>Pakistan 2018</td>
+						</tr>
+						<tr id="3300" >
+							<td>Peru 2018</td>
+						</tr>
+						<tr id="3457" >
+							<td>Philippines 2019</td>
+						</tr>
+						<tr id="3403" >
+							<td>Puerto Rico 2018</td>
+						</tr>
+						<tr id="3243" >
+							<td>Romania 2018</td>
+						</tr>
+						<tr id="3264" >
+							<td>Russia 2017</td>
+						</tr>
+						<tr id="3216" >
+							<td>Serbia 2017</td>
+						</tr>
+						<tr id="3452" >
+							<td>Singapore 2020</td>
+						</tr>
+						<tr id="3839" >
+							<td>Slovakia 2022</td>
+						</tr>
+						<tr id="3265" >
+							<td>South Korea 2018</td>
+						</tr>
+						<tr id="3401" >
+							<td>Taiwan ROC 2019</td>
+						</tr>
+						<tr id="3458" >
+							<td>Tajikistan 2020</td>
+						</tr>
+						<tr id="3223" >
+							<td>Thailand 2018</td>
+						</tr>
+						<tr id="3417" >
+							<td>Tunisia 2019</td>
+						</tr>
+						<tr id="3460" >
+							<td>Turkey 2018</td>
+						</tr>
+						<tr id="3473" >
+							<td>Ukraine 2020</td>
+						</tr>
+						<tr id="3875" >
+							<td>United Kingdom - Great Britain 2022</td>
+						</tr>
+						<tr id="3906" >
+							<td>United Kingdom- Northern Ireland 2022</td>
+						</tr>
+						<tr id="3845" >
+							<td>Uruguay 2022</td>
+						</tr>
+						<tr id="3745" >
+							<td>USA 2017</td>
+						</tr>
+						<tr id="3453" >
+							<td>Uzbekistan 2022</td>
+						</tr>
+						<tr id="3725" >
+							<td>Venezuela 2021</td>
+						</tr>
+						<tr id="3459" >
+							<td>Vietnam 2020</td>
+						</tr>
+						<tr id="3465" >
+							<td>Zimbabwe 2020</td>
+						</tr>
+			</table>
+		
+	</div>
+	<div id=marcoDoc style="float:left;margin-right:15px;display:inline;">
+		<iframe id="frameDoc" name="frameDoc" style="width:450px;border:1px solid #B4BBC8;" frameborder="0" scrolling="no"></iframe>
+	</div>
+<input type=hidden name=CndWAVE value="7">
+<input type=hidden name=SAID>
+<input type=hidden name=INID>
+<script language=Javascript>
+	var gridsmpl = null;
+
+	function IniciaGridSmpl() {
+		
+			var miHeight=parent.parent.areaHeight()-340;
+			if (miHeight<400) miHeight=400;
+			gridsmpl = dhtmlXGridFromTable("gridsmpl");
+			gridsmpl.enableTooltips("false");
+		  	gridsmpl.enableResizing("false");
+		  	gridsmpl.attachEvent("onRowSelect",function(rowId,cellIndex){
+		     	SmplShow(rowId);
+		  	});  	
+			gridsmpl.attachHeader("#text_filter");
+			gridsmpl.enableAutoHeight(true,miHeight,true);
+			gridsmpl.setSizes();
+		
+		SmplShow("0");
+	}
+ 	function autoResize() {
+  	try   {
+			IniciaGridSmpl();
+  		var miHeight=document.body.scrollHeight;
+  		if (miHeight<600) miHeight=600;
+			parent.postMessage("jdsLoaded"+miHeight, "*");
+		} catch (mensaje) {
+			alert(mensaje);
+		} 
+	}
+	setTimeout(function(){autoResize()},30);
+
+	function autoResizeFrame(newHeight){
+		try {
+			if (newHeight<420) newHeight=420;
+			objeto("frameDoc").style.height= (newHeight) + "px";
+  		var miHeight=document.body.scrollHeight;
+  		if (miHeight<600) miHeight=600;
+			parent.postMessage("jdsLoaded"+miHeight, "*");
+		} catch(message) {
+			alert("ERROR"+message);
+		}
+	}
+	function SetPart(paid) {
+		parent.SetParticipant(paid);
+	}
+	function SmplShow(said) {
+		datos.SAID.value=said;
+		datos.action="AJDocumentationSmpl.jsp";
+		datos.target="frameDoc";
+		datos.submit();
+		datos.action="";
+		datos.target="";
+	}
+</script> 
+<div class=AJClear style="margin-top:20px;">&nbsp;</div>
+			</div> <!-- Fondo -->
+	</div><!-- Page -->
+<input type=hidden name=AJArchive value="WVS Data Archive">
+<input type=hidden name=EdFunction>
+<input type=hidden name=DOP value="">
+<input type=hidden name=XU value="">
+<input type=hidden name=PUB>
+<script language=JavaScript>
+	function  SetPubDoc(id) {
+		datos.PUB.value=id;
+		datos.action="WVSPublicationsDocuments.jsp";
+		datos.target="_top";
+		datos.submit();
+	}
+	function  SetPubBook(id) {
+		datos.PUB.value=id;
+		datos.action="WVSPublicationsBooks.jsp";
+		datos.target="_top";
+		datos.submit();
+	}
+	function  SetPubPaper(id) {
+		datos.PUB.value=id;
+		datos.action="WVSPublicationsPapers.jsp";
+		datos.target="_top";
+		datos.submit();
+	}
+	function  SetPubPres(id) {
+		datos.PUB.value=id;
+		datos.action="WVSPublicationsPresentations.jsp";
+		datos.target="_top";
+		datos.submit();
+	}
+</script>
+
+
+<script>
+		
+				var geodatos=encodeURIComponent("87.220.1.210\tx\tx\tx\tx\tx\tx\tx");
+				$.get("jdsStatJD.jsp?ID="+geodatos+
+					"&url=http%3A%2F%2F192.168.33.22%3A8380%2FAJDocumentation.jsp&referer=null&cms=Documentation",
+					function (resp2) {
+				});
+
+			
+</script>
+	
+	</form>
+</body>
+</html>
+ 

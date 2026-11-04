@@ -1,3 +1,19 @@
-# Preparación · E2.4.03
+# Investigación · E2.4.03
 
-Brief y prompts conservados; investigación en curso, sin publicación.
+Deirdre McCloskey · Rich and Free, Thanks to the Bourgeoisie · prefacio2017
+https://deirdremccloskey.org/docs/pdf/McCloskey_PrefaceToPolishEditionBourgeoisDignity.pdf
+Prefacio3p75735B SHAdf4d759e7337b4b6a381bea36d47f81da66916f7927beeea773b864b68953149. Webtexto1–3leído;renderPDF2visto/leído. Oct2017prefacioediciónpolacaBourgeoisDignity,NOF017BourgeoisEquality2016íntegro leído ni trilogía completa. Se usa síntesisautoralprimariadignidad/libertadinnovar/capitalnecesarionosuficiente;nohoyingresosPolonia3/100dólarestomadoscomobasedatos2026 niroboúnicaexplicación. Noficciónvisualmercadocomoescenahistórica.
+
+Daron Acemoglu · Institutions, Technology and Prosperity · conferenciaNobel08/12/2024
+https://www.nobelprize.org/uploads/2025/01/acemoglu-lecture.pdf
+PDF24p735426B SHAb608f80f8a985816965726bd79019e921f8d2eaa60a9b1cdd8adc54a9c5438e0. Textoextraído mostrado;revisiónfocalPDF3–7instituciones/endogeneidad/causalidad,15–17bloqueoinnovación/rentasy poder,24normasculturainstitucionescodeterminadas. No datosmapa2019–23comohoy2026 ni métodoIVdemostraciónsinrestricciones. NoF018WhyNationsFail2012íntegroleído;fuenteprimariaconferenciaautorcomplementaria. No rival únicamenteleyesnuncaculturatecnología.
+
+Kenneth Pomeranz · The Great Divergence · PrincetonUniversityPress,original2000
+https://press.princeton.edu/books/paperback/9780691217185/the-great-divergence
+FichaedPrincetonClassics2021;descripcióneditorial leídaweb,local403registrado. AutorhistoriaChinaEuropa/coal/NewWorldtrade. Metadatosoriginal2000 y resumen ampliadoPrinceton enJSTOR https://www.jstor.org/stable/j.ctt7sv80 leídos,primerospárrafoscap5/6 ydescripción. No404p2021ni382p2000íntegros. No cifras1750comomedicionesactualeso todascoloniasjustificadas;contrapartecondicionesmateriales/ecológicas/colonialessegúnautor,nocausaúnicaprobadayotrosfactoresinexistentes.
+
+Excluido:
+- Sin McCloskeyteoríaconsensuadaúnica,todoriquebueno,todopaísquepobrecarecedevaloreso cifrasPIB2026sinserie.
+- Sin Acemogluinstitucionesignoranculturaogeografíainútil,correlacióncausalporsísola.
+- Sin Pomeranzsolo carbónsinosmecanismoscoloniales,comparacioneshomogéneasdecontinentesenteros.
+- DoscasoshipotéticosPaula/aprendiz;metáforadecurvasinescalaniestatísticaempírica.

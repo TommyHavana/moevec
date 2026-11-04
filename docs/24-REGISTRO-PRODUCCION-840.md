@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-04T06:51:16+00:00.
+Comprobado en WordPress: 2026-11-04T07:08:30+00:00.
 
-**775/840 terminadas · 0 en curso · 65 pendientes.**
+**778/840 terminadas · 0 en curso · 62 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -792,9 +792,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 778 | 52/56 · 13/15 | E2.3.13 | Cuidar el planeta sin hipotecar el futuro económico | terminada | 3/3 | [Leer](https://moevec.org/blog/planeta-y-futuro-economico/) |
 | 779 | 52/56 · 14/15 | E2.3.14 | Fondos soberanos: el ahorro colectivo de Noruega | terminada | 3/3 | [Leer](https://moevec.org/blog/fondo-soberano-noruega/) |
 | 780 | 52/56 · 15/15 | E2.3.15 | Una carta a tus nietos: ejercicio de planificación de vida | terminada | 3/3 | [Leer](https://moevec.org/blog/carta-a-tus-nietos/) |
-| 781 | 53/56 · 1/15 | E2.4.01 | Transmitir valores sin adoctrinar | pendiente | 0/3 | — |
-| 782 | 53/56 · 2/15 | E2.4.02 | La ética del trabajo: de dónde viene y por qué importa | pendiente | 0/3 | — |
-| 783 | 53/56 · 3/15 | E2.4.03 | Los valores burgueses según McCloskey: lo que hizo ricos a los países | pendiente | 0/3 | — |
+| 781 | 53/56 · 1/15 | E2.4.01 | Transmitir valores sin adoctrinar | terminada | 3/3 | [Leer](https://moevec.org/blog/transmitir-valores-sin-adoctrinar/) |
+| 782 | 53/56 · 2/15 | E2.4.02 | La ética del trabajo: de dónde viene y por qué importa | terminada | 3/3 | [Leer](https://moevec.org/blog/etica-del-trabajo-origen/) |
+| 783 | 53/56 · 3/15 | E2.4.03 | Los valores burgueses según McCloskey: lo que hizo ricos a los países | terminada | 3/3 | [Leer](https://moevec.org/blog/valores-burgueses-mccloskey/) |
 | 784 | 53/56 · 4/15 | E2.4.04 | Confianza: el valor que hace funcionar las economías | pendiente | 0/3 | — |
 | 785 | 53/56 · 5/15 | E2.4.05 | Cumplir la palabra: un valor que se aprende en casa | pendiente | 0/3 | — |
 | 786 | 53/56 · 6/15 | E2.4.06 | Cultura del ahorro: cómo pasarla a la siguiente generación | pendiente | 0/3 | — |

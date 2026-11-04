@@ -1,0 +1,174 @@
+ 
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+	<title>WVS Database</title>
+	<META CONTENT="WVS Data ArchiveJDS,Survey, JDSurvey, online data analysis, encuestas,WVS Database,World Values Survey Data-Archive" NAME="keywords">
+	<META CONTENT="World Values Survey Data-Archive Online Survey analysis website" NAME="description">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, maximum-scale=10, minimum-scale=0.1, user-scalable=yes">
+
+<script src="js/dtree/jquery/jquery.min.js"></script>
+
+	<script language="JavaScript" src="js/jds.js"></script>
+  <script type="text/javascript" src="js/fusioncharts.js"></script>
+  <script type="text/javascript" src="js/fusioncharts.maps.js"></script>
+	<link href="css/reset.css" rel="stylesheet" type="text/css">
+	<link href="css/aj.css?version=2021-02-20" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" type="text/css" href="js/grid/skins/dhtmlxgrid_dhx_web.css">
+<script src="js/grid/dhtmlxcommon.js"></script>
+<script src="js/grid/dhtmlxgrid.js"></script>
+<script src="js/grid/dhtmlxgridcell.js"></script>
+<script src="js/grid/ext/dhtmlxgrid_start.js"></script>
+<script src="js/grid/ext/dhtmlxgrid_form.js"></script>
+<script  src="js/grid/ext/dhtmlxgrid_splt.js"></script>
+<script src="js/grid/ext/dhtmlxgrid_nxml.js"></script>
+<script  src="js/grid/ext/dhtmlxgrid_filter.js"></script>
+<script src="js/grid/ext/dhtmlxgrid_drag.js"></script>
+<script src="js/grid/ext/dhtmlxgrid_keymap_access.js"></script>
+
+
+	<link rel="STYLESHEET" type="text/css" href="js/grid/dhtmlxtabbar.css">
+	<script  src="js/tabbar/dhtmlxtabbar.js"></script>
+
+<script>
+dhtmlx.skin = "dhx_web";
+</script>
+</head> 
+<body>
+<form name=Datos method=Post action="">
+	<input type=hidden name=ulthost value="WVS">
+	<input type=hidden name=CMSID>
+<script language="JavaScript">
+	var datos=document.Datos;
+	var dialogBox=false;
+	var dialogDiv="";
+	function Home() {
+		datos.action="AJOnline.jsp";
+	}
+</script>
+
+<div id=PAGE class="AJPage">
+ 	
+
+	<div id=FICHA class="SMPSeccion">
+					
+		<div class="SMPApartado">
+			Mexico 2018
+		</div>
+		<div style="text-align:center"><b></b></div>
+					
+		<div class=clear>&nbsp;</div>
+		
+		
+			<div class=SMPApartado2>Questionnaire</div>
+<div class=clear>&nbsp;</div><div class=SMPTexto>
+<a class=pdf_lnk onclick="javascript:DocDownload('6635')">WVS7 Questionnaire Mexico 2018 Spanish.pdf</a>
+<div class=clear></div><div class=clear>&nbsp;</div><div class=clear>&nbsp;</div></div>
+
+			<div class=SMPApartado2>Sampling & Methodology</div>
+<div class=clear>&nbsp;</div><div class=SMPTexto>
+<a class=pdf_lnk onclick="javascript:DocDownload('8602')">WVS7 Methodology Report Mexico 2018.pdf</a>
+<div class=clear></div><div class=clear>&nbsp;</div><a class=pdf_lnk onclick="javascript:DocDownload('10701')">WVS7 Sample Design Mexico 2018.pdf</a>
+<div class=clear></div><div class=clear>&nbsp;</div><a class=pdf_lnk onclick="javascript:DocDownload('10700')">WVS7 Information about the team Mexico 2018.pdf</a>
+<div class=clear></div><div class=clear>&nbsp;</div><div class=clear>&nbsp;</div></div>
+
+			<div class=SMPApartado2>Codebook & Results</div>
+<div class=clear>&nbsp;</div><div class=SMPTexto>
+<a class=pdf_lnk onclick="javascript:DocDownload('11928')">World Values Survey Wave 7 (2017-2020) Mexico v3.0</a>
+<div class=clear></div><div class=clear>&nbsp;</div><div class=clear>&nbsp;</div></div>
+
+			<div class=SMPApartado2>Data Files</div>
+<div class=clear>&nbsp;</div><div class=SMPTexto>
+<a class=zip_lnk onclick="javascript:DocDownload('13146')">WVS Wave 7 Mexico Csv v5.1</a>
+<div class=clear></div><div class=clear>&nbsp;</div><a class=zip_lnk onclick="javascript:DocDownload('13316')">WVS Wave 7 Mexico CsvText v5.1</a>
+<div class=clear></div><div class=clear>&nbsp;</div><a class=xls_lnk onclick="javascript:DocDownload('13203')">WVS Wave 7 Mexico Excel v5.1</a>
+<div class=clear></div><div class=clear>&nbsp;</div><a class=xls_lnk onclick="javascript:DocDownload('13259')">WVS Wave 7 Mexico ExcelTxt v5.0</a>
+<div class=clear></div><div class=clear>&nbsp;</div><a class=zip_lnk onclick="javascript:DocDownload('13032')">WVS Wave 7 Mexico Spss v5.1</a>
+<div class=clear></div><div class=clear>&nbsp;</div><a class=zip_lnk onclick="javascript:DocDownload('13084')">WVS Wave 7 Mexico Stata v5.1</a>
+<div class=clear></div><div class=clear>&nbsp;</div><div class=clear>&nbsp;</div></div>
+
+		
+	</div>
+<input type=hidden name=CndWAVE value="7">
+<input type=hidden name=SAID value="3203">
+<input type=hidden name=DOID>
+<script language=JavaScript>
+	function DocDownload(doid) {
+		datos.DOID.value=doid;
+		datos.action="AJDownload.jsp";
+		datos.submit();
+		datos.action="";
+	}
+	function DocDownloadLicense(doid) {
+		datos.DOID.value=doid;
+		datos.action="AJDownloadLicense.jsp";
+		datos.submit();
+		datos.action="";
+	}
+	
+	function autoResize() {
+  	try   {
+  		document.body.style.backgroundColor ="#f9f9f9";
+  		objeto("PAGE").style.backgroundColor ="#f9f9f9";
+			parent.autoResizeFrame(objeto("FICHA").scrollHeight+10);
+		} catch (mensaje) {
+			alert(mensaje);
+		} 
+	}
+	setTimeout(function(){autoResize()},30);
+</script> 
+
+ 
+<div class=AJClear style="margin-top:20px;">&nbsp;</div>
+			</div> <!-- Fondo -->
+	</div><!-- Page -->
+<input type=hidden name=AJArchive value="WVS Data Archive">
+<input type=hidden name=EdFunction>
+<input type=hidden name=DOP value="">
+<input type=hidden name=XU value="">
+<input type=hidden name=PUB>
+<script language=JavaScript>
+	function  SetPubDoc(id) {
+		datos.PUB.value=id;
+		datos.action="WVSPublicationsDocuments.jsp";
+		datos.target="_top";
+		datos.submit();
+	}
+	function  SetPubBook(id) {
+		datos.PUB.value=id;
+		datos.action="WVSPublicationsBooks.jsp";
+		datos.target="_top";
+		datos.submit();
+	}
+	function  SetPubPaper(id) {
+		datos.PUB.value=id;
+		datos.action="WVSPublicationsPapers.jsp";
+		datos.target="_top";
+		datos.submit();
+	}
+	function  SetPubPres(id) {
+		datos.PUB.value=id;
+		datos.action="WVSPublicationsPresentations.jsp";
+		datos.target="_top";
+		datos.submit();
+	}
+</script>
+
+
+<script>
+		
+				var geodatos=encodeURIComponent("87.220.1.210\tx\tx\tx\tx\tx\tx\tx");
+				$.get("jdsStatJD.jsp?ID="+geodatos+
+					"&url=http%3A%2F%2F192.168.33.22%3A8380%2FAJDocumentationSmpl.jsp&referer=null&cms=DocumentationSmpl",
+					function (resp2) {
+				});
+
+			
+</script>
+	
+	</form>
+</body>
+</html>
+ 

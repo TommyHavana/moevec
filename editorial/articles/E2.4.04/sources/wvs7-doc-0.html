@@ -1,0 +1,211 @@
+ 
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+	<title>WVS Database</title>
+	<META CONTENT="WVS Data ArchiveJDS,Survey, JDSurvey, online data analysis, encuestas,WVS Database,World Values Survey Data-Archive" NAME="keywords">
+	<META CONTENT="World Values Survey Data-Archive Online Survey analysis website" NAME="description">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, maximum-scale=10, minimum-scale=0.1, user-scalable=yes">
+
+<script src="js/dtree/jquery/jquery.min.js"></script>
+
+	<script language="JavaScript" src="js/jds.js"></script>
+  <script type="text/javascript" src="js/fusioncharts.js"></script>
+  <script type="text/javascript" src="js/fusioncharts.maps.js"></script>
+	<link href="css/reset.css" rel="stylesheet" type="text/css">
+	<link href="css/aj.css?version=2021-02-20" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" type="text/css" href="js/grid/skins/dhtmlxgrid_dhx_web.css">
+<script src="js/grid/dhtmlxcommon.js"></script>
+<script src="js/grid/dhtmlxgrid.js"></script>
+<script src="js/grid/dhtmlxgridcell.js"></script>
+<script src="js/grid/ext/dhtmlxgrid_start.js"></script>
+<script src="js/grid/ext/dhtmlxgrid_form.js"></script>
+<script  src="js/grid/ext/dhtmlxgrid_splt.js"></script>
+<script src="js/grid/ext/dhtmlxgrid_nxml.js"></script>
+<script  src="js/grid/ext/dhtmlxgrid_filter.js"></script>
+<script src="js/grid/ext/dhtmlxgrid_drag.js"></script>
+<script src="js/grid/ext/dhtmlxgrid_keymap_access.js"></script>
+
+
+	<link rel="STYLESHEET" type="text/css" href="js/grid/dhtmlxtabbar.css">
+	<script  src="js/tabbar/dhtmlxtabbar.js"></script>
+
+<script>
+dhtmlx.skin = "dhx_web";
+</script>
+</head> 
+<body>
+<form name=Datos method=Post action="">
+	<input type=hidden name=ulthost value="WVS">
+	<input type=hidden name=CMSID>
+<script language="JavaScript">
+	var datos=document.Datos;
+	var dialogBox=false;
+	var dialogDiv="";
+	function Home() {
+		datos.action="AJOnline.jsp";
+	}
+</script>
+
+<div id=PAGE class="AJPage">
+ 	
+
+	<div id=FICHA class="SMPSeccion">
+					
+		<div class=clear>&nbsp;</div>
+		
+		
+					<div class="SMPApartado">
+						World Values Survey Wave 7 (2017-2022)
+					</div>
+					<div style="text-align:justify;width:95%;">
+						<p>Files below constitute the final (6.0) version of the World Values Survey (WVS) wave 7 data release comprising data for 66 countries/territories. Majority of surveys were completed in 2018-2020 with only about a dozen of countries conducting their fieldwork since the pandemic outbreak in 2021-2022. The last included survey comes from India and was completed in July 2023.</p><p>As per the WVS rules, every country is surveyed once per wave. All countries employed random probability representative samples of the adult population. Vast majority of surveys were conducted using face-to-face interview (PAPI/CAPI) as the data collection mode.</p><p>Data can be downloaded in formats for SPSS, Stata, SAS, R and csv. The data can be used freely for non-commercial purposes such as research, publication, teaching. Data redistribution is prohibited: publication of the original WVS datasets at other online platforms is against the WVSA Constitution.</p><p>When using the WVS data in any publication, please, make sure to include a relevant citation into the reference list:</p><p><ul><li>Haerpfer, C., Inglehart, R., Moreno, A., Welzel, C., Kizilova, K., Diez-Medrano J., M. Lagos, P. Norris, E. Ponarin & B. Puranen (eds.). 2022. World Values Survey: Round Seven – Country-Pooled Datafile Version 6.0. Madrid, Spain & Vienna, Austria: JD Systems Institute & WVSA Secretariat. <a  href='https://doi.org/10.14281/18241.24'>doi:10.14281/18241.24</a></p><p>For publications in social media, please, cite @WVS_Survey, #WVS, #WorldValuesSurvey.</p><p>In case of repeated problems with the data download, try using an alternative Internet browser. In case of any questions or problems with the data (or in case of suspected errors with scales or variables), please, get in contact with the WVSA Secretariat: <a href='mail-to:wvsa.secretariat@gmail.com'>wvsa.secretariat@gmail.com</a>. </p>
+					</div>
+								
+					<div class=SMPApartado2>Questionnaire</div>
+<div class=clear>&nbsp;</div><div class=SMPTexto>
+<a class=pdf_lnk onclick="javascript:DocDownload('10738')">WVS-7 Master Questionnaire 2017-2020 English.pdf</a>
+<div class=clear></div><div class=clear>&nbsp;</div><div class=clear>&nbsp;</div></div>
+
+					<div class=SMPApartado2>Documentation</div>
+<div class=clear>&nbsp;</div><div class=SMPTexto>
+<a class=pdf_lnk onclick="javascript:DocDownload('10762')">List of countries WVS7 2017-2022 V6.0.pdf</a>
+<div class=clear></div><div class=clear>&nbsp;</div><a class=pdf_lnk onclick="javascript:DocDownload('11045')">Versions history 6.0.2.pdf</a>
+<div class=clear></div><div class=clear>&nbsp;</div><a class=pdf_lnk onclick="javascript:DocDownload('10763')">WVS  Results By Country 2017-2022 v6.0.0.pdf</a>
+<div class=clear></div><div class=clear>&nbsp;</div><a class=pdf_lnk onclick="javascript:DocDownload('11055')">WVS7 Codebook Variables report V6.0.pdf</a>
+<div class=clear></div><div class=clear>&nbsp;</div><a class=pdf_lnk onclick="javascript:DocDownload('10761')">WVSA Citation format 2024.pdf</a>
+<div class=clear></div><div class=clear>&nbsp;</div><div class=clear>&nbsp;</div></div>
+
+					
+					<div class=SMPApartado2>Statistical Data Files</div>
+<div class=clear>&nbsp;</div><div class=SMPTexto>
+<a class=zip_lnk onclick="javascript:DocDownloadLicense('11356')">WVS Cross-National Wave 7 csv v6 0.zip</a>
+<div class=clear></div><div class=clear>&nbsp;</div><a class=zip_lnk onclick="javascript:DocDownloadLicense('10736')">WVS Cross-National Wave 7 R v6 0.zip (rdata)</a>
+<div class=clear></div><div class=clear>&nbsp;</div><a class=zip_lnk onclick="javascript:DocDownloadLicense('11421')">WVS Cross-National Wave 7 R v6 0.zip (rds)</a>
+<div class=clear></div><div class=clear>&nbsp;</div><a class=zip_lnk onclick="javascript:DocDownloadLicense('10735')">WVS Cross-National Wave 7 sas v6 0.zip</a>
+<div class=clear></div><div class=clear>&nbsp;</div><a class=zip_lnk onclick="javascript:DocDownloadLicense('10733')">WVS Cross-National Wave 7 spss v6 0.zip</a>
+<div class=clear></div><div class=clear>&nbsp;</div><a class=zip_lnk onclick="javascript:DocDownloadLicense('10734')">WVS Cross-National Wave 7 stata v6 0.zip</a>
+<div class=clear></div><div class=clear>&nbsp;</div><div class=clear>&nbsp;</div></div>
+
+					
+					
+					
+					<div class="SMPApartado">
+						World Values Survey Wave 7 (2017-2022) - Inverted scales
+					</div>
+					<div style="text-align:justify;width:95%;">
+						<p>Files below constitute the final (6.0) version of the World Values Survey (WVS) wave 7 data release comprising data for 66 countries/territories. Majority of surveys were completed in 2018-2020 with only about a dozen of countries conducting their fieldwork since the pandemic outbreak in 2021-2022. The last included survey comes from India and was completed in July 2023.</p><p>As per the WVS rules, every country is surveyed once per wave. All countries employed random probability representative samples of the adult population. Vast majority of surveys were conducted using face-to-face interview (PAPI/CAPI) as the data collection mode.</p><p>The main distinction is the inverted positive direction of scales established for all variables in this version of the data-file. For more information on the scale directions and the inversion procedures, please, see the <strong>Explanatory note on scales recoding</strong> included into the 'Documentation' section.</p> <p>Data can be downloaded in formats for SPSS, Stata, SAS, R and csv. The data can be used freely for non-commercial purposes such as research, publication, teaching. Data redistribution is prohibited: publication of the original WVS datasets at other online platforms is against the WVSA Constitution.</p><p>When using the WVS data in any publication, please, make sure to include a relevant citation into the reference list:</p><p><ul><li>Haerpfer, C., Inglehart, R., Moreno, A., Welzel, C., Kizilova, K., Diez-Medrano J., M. Lagos, P. Norris, E. Ponarin & B. Puranen (eds.). 2022. World Values Survey: Round Seven - Country-Pooled Datafile Version 5.0. Madrid, Spain & Vienna, Austria: JD Systems Institute & WVSA Secretariat. <a  href='https://doi.org/10.14281/18241.24'>doi:10.14281/18241.24</a></p><p>For publications in social media, please, cite: @WVS_Survey, #WVS, #WorldValuesSurvey.</p><p>In case of repeated problems with the data download, try using an alternative Internet browser. In case of any questions or problems with the data (or in case of suspected errors with scales or variables), please, get in contact with the WVSA Secretariat: <a href='mail-to:wvsa.secretariat@gmail.com'>wvsa.secretariat@gmail.com</a>. </p></p>
+					</div>
+								
+					<div class=SMPApartado2>Questionnaire</div>
+<div class=clear>&nbsp;</div><div class=SMPTexto>
+<a class=pdf_lnk onclick="javascript:DocDownload('11012')">WVS-7 Master Questionnaire 2017-2020 English.pdf</a>
+<div class=clear></div><div class=clear>&nbsp;</div><div class=clear>&nbsp;</div></div>
+
+					<div class=SMPApartado2>Documentation</div>
+<div class=clear>&nbsp;</div><div class=SMPTexto>
+<a class=pdf_lnk onclick="javascript:DocDownload('10770')">List of countries WVS7 2017-2022 V6.0.pdf</a>
+<div class=clear></div><div class=clear>&nbsp;</div><a class=pdf_lnk onclick="javascript:DocDownload('11047')">Versions  history 6.0.2.pdf</a>
+<div class=clear></div><div class=clear>&nbsp;</div><a class=pdf_lnk onclick="javascript:DocDownload('10768')">WVS   Explanatory note on scales recoding.pdf</a>
+<div class=clear></div><div class=clear>&nbsp;</div><a class=pdf_lnk onclick="javascript:DocDownload('10769')">WVS  Citation format 2024.pdf</a>
+<div class=clear></div><div class=clear>&nbsp;</div><div class=clear>&nbsp;</div></div>
+
+					
+					<div class=SMPApartado2>Statistical Data Files</div>
+<div class=clear>&nbsp;</div><div class=SMPTexto>
+<a class=zip_lnk onclick="javascript:DocDownloadLicense('11357')">WVS Cross-National Inverted Wave 7 csv v6 0.zip</a>
+<div class=clear></div><div class=clear>&nbsp;</div><a class=zip_lnk onclick="javascript:DocDownloadLicense('11001')">WVS Cross-National Inverted Wave 7 Rdata v6 0.zip</a>
+<div class=clear></div><div class=clear>&nbsp;</div><a class=zip_lnk onclick="javascript:DocDownloadLicense('11886')">WVS Cross-National Inverted Wave 7 Rds v6 0.zip</a>
+<div class=clear></div><div class=clear>&nbsp;</div><a class=zip_lnk onclick="javascript:DocDownloadLicense('11002')">WVS Cross-National Inverted Wave 7 sas v6 0.zip</a>
+<div class=clear></div><div class=clear>&nbsp;</div><a class=zip_lnk onclick="javascript:DocDownloadLicense('10999')">WVS Cross-National Inverted Wave 7 sav v6 0.zip</a>
+<div class=clear></div><div class=clear>&nbsp;</div><a class=zip_lnk onclick="javascript:DocDownloadLicense('11000')">WVS Cross-National Inverted Wave 7 stata v6 0.zip</a>
+<div class=clear></div><div class=clear>&nbsp;</div><div class=clear>&nbsp;</div></div>
+
+					
+					
+					
+		
+	</div>
+<input type=hidden name=CndWAVE value="7">
+<input type=hidden name=SAID value="0">
+<input type=hidden name=DOID>
+<script language=JavaScript>
+	function DocDownload(doid) {
+		datos.DOID.value=doid;
+		datos.action="AJDownload.jsp";
+		datos.submit();
+		datos.action="";
+	}
+	function DocDownloadLicense(doid) {
+		datos.DOID.value=doid;
+		datos.action="AJDownloadLicense.jsp";
+		datos.submit();
+		datos.action="";
+	}
+	
+	function autoResize() {
+  	try   {
+  		document.body.style.backgroundColor ="#f9f9f9";
+  		objeto("PAGE").style.backgroundColor ="#f9f9f9";
+			parent.autoResizeFrame(objeto("FICHA").scrollHeight+10);
+		} catch (mensaje) {
+			alert(mensaje);
+		} 
+	}
+	setTimeout(function(){autoResize()},30);
+</script> 
+
+ 
+<div class=AJClear style="margin-top:20px;">&nbsp;</div>
+			</div> <!-- Fondo -->
+	</div><!-- Page -->
+<input type=hidden name=AJArchive value="WVS Data Archive">
+<input type=hidden name=EdFunction>
+<input type=hidden name=DOP value="">
+<input type=hidden name=XU value="">
+<input type=hidden name=PUB>
+<script language=JavaScript>
+	function  SetPubDoc(id) {
+		datos.PUB.value=id;
+		datos.action="WVSPublicationsDocuments.jsp";
+		datos.target="_top";
+		datos.submit();
+	}
+	function  SetPubBook(id) {
+		datos.PUB.value=id;
+		datos.action="WVSPublicationsBooks.jsp";
+		datos.target="_top";
+		datos.submit();
+	}
+	function  SetPubPaper(id) {
+		datos.PUB.value=id;
+		datos.action="WVSPublicationsPapers.jsp";
+		datos.target="_top";
+		datos.submit();
+	}
+	function  SetPubPres(id) {
+		datos.PUB.value=id;
+		datos.action="WVSPublicationsPresentations.jsp";
+		datos.target="_top";
+		datos.submit();
+	}
+</script>
+
+
+<script>
+		
+				var geodatos=encodeURIComponent("87.220.1.210\tx\tx\tx\tx\tx\tx\tx");
+				$.get("jdsStatJD.jsp?ID="+geodatos+
+					"&url=http%3A%2F%2F192.168.33.22%3A8380%2FAJDocumentationSmpl.jsp&referer=null&cms=DocumentationSmpl",
+					function (resp2) {
+				});
+
+			
+</script>
+	
+	</form>
+</body>
+</html>
+ 
