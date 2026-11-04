@@ -14,13 +14,13 @@
   ],
   "area": "tribu",
   "topic": "sacrificio-tribal",
-  "phase": "research_preparation_images_pending",
+  "phase": "text_reviewed_images_pending",
   "next_after_block": [
     741,
     742,
     743
   ],
-  "updated_at": "2026-11-04T00:49:12.200152+00:00",
+  "updated_at": "2026-11-04T01:05:36.517412+00:00",
   "last_completed_block": [
     735,
     736,
@@ -76,7 +76,7 @@
     "published_media_coverage_complete": true,
     "restore_test": false
   },
-  "last_local_backup": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Editorial_735-737_2026-11-04_incremental.zip",
+  "last_local_backup": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Editorial_738-740_preparacion_2026-11-04_incremental.zip",
   "completed_this_run": [
     589,
     590,
@@ -273,35 +273,41 @@
     {
       "number": 738,
       "id": "E2.1.03",
-      "images": 0,
+      "images": 3,
       "article_complete": false,
-      "sources_verified": false,
+      "sources_verified": true,
       "published": false,
-      "phase": "research_preparation_images_pending"
+      "phase": "text_reviewed_images_ready",
+      "images_visually_checked": true,
+      "body_draft_complete": true
     },
     {
       "number": 739,
       "id": "E2.1.04",
-      "images": 0,
+      "images": 3,
       "article_complete": false,
-      "sources_verified": false,
+      "sources_verified": true,
       "published": false,
-      "phase": "research_preparation_images_pending"
+      "phase": "text_reviewed_images_ready",
+      "images_visually_checked": true,
+      "body_draft_complete": true
     },
     {
       "number": 740,
       "id": "E2.1.05",
-      "images": 0,
+      "images": 1,
       "article_complete": false,
-      "sources_verified": false,
+      "sources_verified": true,
       "published": false,
-      "phase": "research_preparation_images_pending"
+      "phase": "research_and_images_in_progress",
+      "body_draft_complete": true,
+      "images_visually_checked": false
     }
   ],
-  "local_backup_kind": "incremental",
+  "local_backup_kind": "incremental_preparation",
   "local_backup_base": {
-    "path": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Editorial_732-734_2026-11-04_incremental.zip",
-    "sha256": "519086a99fec1c6f5acfe22e67b9b0a88f5f1ebc33253231e75b12aa6c5dcaa3"
+    "path": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Editorial_735-737_2026-11-04_incremental.zip",
+    "sha256": "90c0c4dab791f969472ae7ae53c2bc1244ab7f5b811f1d0622cb564c907ae638"
   },
   "storage_check": {
     "free_bytes": 4473786368,
@@ -497,10 +503,10 @@
       512
     ]
   },
-  "last_delivery_proof": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/produccion-735-737-entrega-20261104.json",
+  "last_delivery_proof": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/produccion-738-740-preparacion-entrega-20261104.json",
   "storage_block": {
-    "checked_at": "2026-11-04T00:49:12.200152+00:00",
-    "free_bytes": 1348186112,
+    "checked_at": "2026-11-04T01:04:37.122054+00:00",
+    "free_bytes": 199483392,
     "observed_error": "zsh: can't create temp file for here document: no space left on device",
     "phase": "resolved_capacity_available",
     "resume_when_free_bytes_at_least": 209715200,
@@ -510,15 +516,15 @@
       739,
       740
     ],
-    "next_images_ready": 0,
-    "texts_ready": 0,
-    "sources_verified": false,
+    "next_images_ready": 7,
+    "texts_ready": 3,
+    "sources_verified": true,
     "originals_and_backups_preserved": true,
     "note": "Trabajo conservado. Umbral de generación200MiB con comprobación antes de cada llamada; copias proporcionales sin borrar originales.",
     "resolved_at": "2026-11-03T23:01:26.498856+00:00",
-    "local_webps_ready": 0,
+    "local_webps_ready": 7,
     "native_images_preserved_remote": 1,
-    "body_drafts_ready": 0
+    "body_drafts_ready": 3
   },
   "heartbeat_interval_minutes": 3,
   "title_reviews_pending": [
@@ -528,10 +534,29 @@
     707
   ],
   "resume_point": {
-    "number": 738,
-    "id": "E2.1.03",
-    "next_action": "research_and_generate_missing_images",
-    "accepted_images": 0,
-    "article_complete": false
+    "number": 740,
+    "id": "E2.1.05",
+    "next_action": "generate_interior_1_then_interior_2_for_E2.1.05_when_capacity_allows",
+    "accepted_images": 1,
+    "body_draft_complete": true,
+    "sources_verified": true,
+    "metadata_file": "editorial/production-tools/2026-11-04/metadata738740.json"
+  },
+  "last_partial_remote_checkpoint": {
+    "directory": "/data/mee-backups/produccion-840-progreso-738-740-20261104T010438Z",
+    "file": "/data/mee-backups/produccion-840-progreso-738-740-20261104T010438Z/progress.zip",
+    "bytes": 16311070,
+    "sha256": "bfc7b3c0837135650a2b4e3b037960572f1e2bd2befba0a8bc2e9f756989d802",
+    "files": 66,
+    "native_images": 6,
+    "verified": true,
+    "local_free_bytes": 221896704,
+    "private_copy_pending_for_partial": true
+  },
+  "partial_private_checkpoint": {
+    "proof": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/produccion-738-740-preparacion-entrega-20261104.json",
+    "images": 7,
+    "bodies": 3,
+    "published": false
   }
 }
