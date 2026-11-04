@@ -1,8 +1,8 @@
 # Ejecución desde586 ·04/11/2026
 
-**742/840 terminadas, 2226 imágenes originales públicas, 0 en curso o borradores WordPress y 98 pendientes**. Sacrificio Tribal 11/15; 45 tandas completas.
+**745/840 terminadas, 2235 imágenes originales públicas, 0 en curso o borradores WordPress y 95 pendientes**. Sacrificio Tribal 14/15; 45 tandas completas.
 
-156 nuevas entradas y468originales públicos.
+159 nuevas entradas y477originales públicos.
 
 | Global | ID | URL | Imágenes |
 |---|---|---|---|
@@ -162,5 +162,8 @@
 |744|E2.1.09|https://moevec.org/blog/hermanos-mayores-pagan-estudios/|3/3|
 |745|E2.1.10|https://moevec.org/blog/sacrificio-sin-coaccion/|3/3|
 |746|E2.1.11|https://moevec.org/blog/familias-cubanas-divididas/|3/3|
+|747|E2.1.12|https://moevec.org/blog/acuerdo-familiar-de-inversion/|3/3|
+|748|E2.1.13|https://moevec.org/blog/generacion-sandwich/|3/3|
+|749|E2.1.14|https://moevec.org/blog/hipotecar-casa-familiar-negocio/|3/3|
 
-Continuar **747–749 / E2.1.12–E2.1.14**, tribu → Sacrificio Tribal. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **750–752**. **501/E4.2.06,512/E4.3.02,649/E4.12.04 y707/E6.6.02** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.
+Continuar **750–752 / E2.1.15–E2.2.02**, tribu → Sacrificio Tribal; tribu → Herencia. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **753–755**. **501/E4.2.06,512/E4.3.02,649/E4.12.04 y707/E6.6.02** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.

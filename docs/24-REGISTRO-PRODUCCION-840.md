@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-04T02:44:02+00:00.
+Comprobado en WordPress: 2026-11-04T03:10:11+00:00.
 
-**742/840 terminadas · 0 en curso · 98 pendientes.**
+**745/840 terminadas · 0 en curso · 95 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -758,9 +758,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 744 | 50/56 · 9/15 | E2.1.09 | Hermanos mayores que pagan la universidad de los menores | terminada | 3/3 | [Leer](https://moevec.org/blog/hermanos-mayores-pagan-estudios/) |
 | 745 | 50/56 · 10/15 | E2.1.10 | Sacrificio sin coacción: la diferencia entre familia y colectivismo forzoso | terminada | 3/3 | [Leer](https://moevec.org/blog/sacrificio-sin-coaccion/) |
 | 746 | 50/56 · 11/15 | E2.1.11 | Familias cubanas divididas: la economía de la separación | terminada | 3/3 | [Leer](https://moevec.org/blog/familias-cubanas-divididas/) |
-| 747 | 50/56 · 12/15 | E2.1.12 | Cómo hacer un acuerdo familiar de inversión | pendiente | 0/3 | — |
-| 748 | 50/56 · 13/15 | E2.1.13 | La generación sándwich: cuidar hijos y padres a la vez | pendiente | 0/3 | — |
-| 749 | 50/56 · 14/15 | E2.1.14 | Hipotecar la casa familiar para un negocio: análisis de riesgos | pendiente | 0/3 | — |
+| 747 | 50/56 · 12/15 | E2.1.12 | Cómo hacer un acuerdo familiar de inversión | terminada | 3/3 | [Leer](https://moevec.org/blog/acuerdo-familiar-de-inversion/) |
+| 748 | 50/56 · 13/15 | E2.1.13 | La generación sándwich: cuidar hijos y padres a la vez | terminada | 3/3 | [Leer](https://moevec.org/blog/generacion-sandwich/) |
+| 749 | 50/56 · 14/15 | E2.1.14 | Hipotecar la casa familiar para un negocio: análisis de riesgos | terminada | 3/3 | [Leer](https://moevec.org/blog/hipotecar-casa-familiar-negocio/) |
 | 750 | 50/56 · 15/15 | E2.1.15 | Historias de familias que salieron adelante: cómo contarlas sin inventar | pendiente | 0/3 | — |
 | 751 | 51/56 · 1/15 | E2.2.01 | Herencia: por qué transmitir lo que se ha ahorrado es legítimo | pendiente | 0/3 | — |
 | 752 | 51/56 · 2/15 | E2.2.02 | Herencia inmaterial: valores, oficios, contactos y reputación | pendiente | 0/3 | — |
