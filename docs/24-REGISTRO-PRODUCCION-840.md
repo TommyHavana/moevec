@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-04T22:54:24+00:00.
+Comprobado en WordPress: 2026-11-04T23:10:40+00:00.
 
-**796/840 terminadas · 0 en curso · 44 pendientes.**
+**799/840 terminadas · 0 en curso · 41 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -813,9 +813,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 799 | 54/56 · 4/15 | E2.5.04 | Cómo agradecer bien: reconocimiento concreto | terminada | 3/3 | [Leer](https://moevec.org/blog/como-agradecer-bien/) |
 | 800 | 54/56 · 5/15 | E2.5.05 | Gratitud y ambición: ¿se puede estar agradecido y querer más? | terminada | 3/3 | [Leer](https://moevec.org/blog/gratitud-y-ambicion/) |
 | 801 | 54/56 · 6/15 | E2.5.06 | Gratitud forzada: cuando el poder exige agradecimiento | terminada | 3/3 | [Leer](https://moevec.org/blog/gratitud-forzada-poder/) |
-| 802 | 54/56 · 7/15 | E2.5.07 | Agradecimiento en los negocios: clientes, proveedores y empleados | pendiente | 0/3 | — |
-| 803 | 54/56 · 8/15 | E2.5.08 | Gratitud hacia quienes se fueron: emigrantes que sostienen a sus familias | pendiente | 0/3 | — |
-| 804 | 54/56 · 9/15 | E2.5.09 | Gratitud y salud mental: lo que se sabe y lo que no | pendiente | 0/3 | — |
+| 802 | 54/56 · 7/15 | E2.5.07 | Agradecimiento en los negocios: clientes, proveedores y empleados | terminada | 3/3 | [Leer](https://moevec.org/blog/agradecimiento-en-los-negocios/) |
+| 803 | 54/56 · 8/15 | E2.5.08 | Gratitud hacia quienes se fueron: emigrantes que sostienen a sus familias | terminada | 3/3 | [Leer](https://moevec.org/blog/gratitud-a-los-emigrantes/) |
+| 804 | 54/56 · 9/15 | E2.5.09 | Gratitud y salud mental: lo que se sabe y lo que no | terminada | 3/3 | [Leer](https://moevec.org/blog/gratitud-y-salud-mental/) |
 | 805 | 54/56 · 10/15 | E2.5.10 | Filantropía y gratitud: devolver a la comunidad | pendiente | 0/3 | — |
 | 806 | 54/56 · 11/15 | E2.5.11 | El diario de gratitud del emprendedor: práctica de 30 días | pendiente | 0/3 | — |
 | 807 | 54/56 · 12/15 | E2.5.12 | Enseñar gratitud a los niños sin culparlos | pendiente | 0/3 | — |
