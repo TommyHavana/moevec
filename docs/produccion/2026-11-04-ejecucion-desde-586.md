@@ -1,8 +1,8 @@
 # Ejecución desde586 ·04/11/2026
 
-**787/840 terminadas, 2361 imágenes originales públicas, 0 en curso o borradores WordPress y 53 pendientes**. Transmisión de Valores 12/15; 47 tandas completas.
+**790/840 terminadas, 2370 imágenes originales públicas, 0 en curso o borradores WordPress y 50 pendientes**. Transmisión de Valores 15/15; 48 tandas completas.
 
-201 nuevas entradas y603originales públicos.
+204 nuevas entradas y612originales públicos.
 
 | Global | ID | URL | Imágenes |
 |---|---|---|---|
@@ -207,5 +207,8 @@
 |790|E2.4.10|https://moevec.org/blog/valores-bajo-control-ideologico/|3/3|
 |791|E2.4.11|https://moevec.org/blog/diez-valores-mee/|3/3|
 |792|E2.4.12|https://moevec.org/blog/historias-familiares-de-esfuerzo/|3/3|
+|793|E2.4.13|https://moevec.org/blog/educacion-financiera-casa-por-edades/|3/3|
+|794|E2.4.14|https://moevec.org/blog/hijos-piensan-distinto/|3/3|
+|795|E2.4.15|https://moevec.org/blog/valores-de-los-emigrantes/|3/3|
 
-Continuar **793–795 / E2.4.13–E2.4.15**, tribu → Transmisión de Valores. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **796–798**. **501/E4.2.06,512/E4.3.02,649/E4.12.04,707/E6.6.02 y769/E2.3.04** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.
+Continuar **796–798 / E2.5.01–E2.5.03**, tribu → Agradecimiento. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **799–801**. **501/E4.2.06,512/E4.3.02,649/E4.12.04,707/E6.6.02 y769/E2.3.04** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.

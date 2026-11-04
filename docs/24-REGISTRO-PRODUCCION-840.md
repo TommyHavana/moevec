@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-04T08:20:44+00:00.
+Comprobado en WordPress: 2026-11-04T08:41:27+00:00.
 
-**787/840 terminadas · 0 en curso · 53 pendientes.**
+**790/840 terminadas · 0 en curso · 50 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -804,9 +804,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 790 | 53/56 · 10/15 | E2.4.10 | Valores en sociedades bajo control ideológico: qué se transmite en casa | terminada | 3/3 | [Leer](https://moevec.org/blog/valores-bajo-control-ideologico/) |
 | 791 | 53/56 · 11/15 | E2.4.11 | Diez valores que MEE propone transmitir (y por qué) | terminada | 3/3 | [Leer](https://moevec.org/blog/diez-valores-mee/) |
 | 792 | 53/56 · 12/15 | E2.4.12 | Contar historias familiares de esfuerzo: memoria como herencia | terminada | 3/3 | [Leer](https://moevec.org/blog/historias-familiares-de-esfuerzo/) |
-| 793 | 53/56 · 13/15 | E2.4.13 | Educación financiera en casa: un plan por edades | pendiente | 0/3 | — |
-| 794 | 53/56 · 14/15 | E2.4.14 | Cuando tus hijos piensan distinto: respeto y diálogo | pendiente | 0/3 | — |
-| 795 | 53/56 · 15/15 | E2.4.15 | Valores de los emigrantes: lo que se lleva en la maleta | pendiente | 0/3 | — |
+| 793 | 53/56 · 13/15 | E2.4.13 | Educación financiera en casa: un plan por edades | terminada | 3/3 | [Leer](https://moevec.org/blog/educacion-financiera-casa-por-edades/) |
+| 794 | 53/56 · 14/15 | E2.4.14 | Cuando tus hijos piensan distinto: respeto y diálogo | terminada | 3/3 | [Leer](https://moevec.org/blog/hijos-piensan-distinto/) |
+| 795 | 53/56 · 15/15 | E2.4.15 | Valores de los emigrantes: lo que se lleva en la maleta | terminada | 3/3 | [Leer](https://moevec.org/blog/valores-de-los-emigrantes/) |
 | 796 | 54/56 · 1/15 | E2.5.01 | Agradecer no es deber: el valor de la reciprocidad libre | pendiente | 0/3 | — |
 | 797 | 54/56 · 2/15 | E2.5.02 | Lo que dice la ciencia sobre la gratitud | pendiente | 0/3 | — |
 | 798 | 54/56 · 3/15 | E2.5.03 | Gratitud hacia el sistema que funciona: lo que damos por hecho | pendiente | 0/3 | — |
