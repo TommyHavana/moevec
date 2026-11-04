@@ -1,8 +1,8 @@
 # Backlog de MEE
 
-Último estado: **736/840 terminadas, 2208 imágenes originales públicas, 0 en curso o borradores WordPress y 104 pendientes**. Sacrificio Tribal 5/15; 45 tandas completas.
+Último estado: **739/840 terminadas, 2217 imágenes originales públicas, 0 en curso o borradores WordPress y 101 pendientes**. Sacrificio Tribal 8/15; 45 tandas completas.
 
-Continuar **741–743 / E2.1.06–E2.1.08**, tribu → Sacrificio Tribal. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **744–746**. **501/E4.2.06,512/E4.3.02,649/E4.12.04 y707/E6.6.02** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.
+Continuar **744–746 / E2.1.09–E2.1.11**, tribu → Sacrificio Tribal. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **747–749**. **501/E4.2.06,512/E4.3.02,649/E4.12.04 y707/E6.6.02** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.
 
 Historial anterior: producción comprobada tras el bloque 4–6: 6/840 terminadas. En elaboración local: 7–9 con nueve imágenes propias; todavía no cuentan como publicadas. Consultar siempre WordPress y el registro 24 para el estado más reciente.
 

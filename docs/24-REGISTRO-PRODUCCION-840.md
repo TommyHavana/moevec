@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-04T01:59:42+00:00.
+Comprobado en WordPress: 2026-11-04T02:27:14+00:00.
 
-**736/840 terminadas · 0 en curso · 104 pendientes.**
+**739/840 terminadas · 0 en curso · 101 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -752,9 +752,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 738 | 50/56 · 3/15 | E2.1.03 | Gratificación diferida en familia: ahorrar hoy para que otro estudie mañana | terminada | 3/3 | [Leer](https://moevec.org/blog/gratificacion-diferida-familia/) |
 | 739 | 50/56 · 4/15 | E2.1.04 | Los límites del sacrificio: cuándo decir basta | terminada | 3/3 | [Leer](https://moevec.org/blog/limites-del-sacrificio/) |
 | 740 | 50/56 · 5/15 | E2.1.05 | Sacrificio y propósito: por qué el esfuerzo con sentido no se vive igual | terminada | 3/3 | [Leer](https://moevec.org/blog/sacrificio-y-proposito/) |
-| 741 | 50/56 · 6/15 | E2.1.06 | El negocio familiar: ventajas, riesgos y cómo profesionalizarlo | pendiente | 0/3 | — |
-| 742 | 50/56 · 7/15 | E2.1.07 | Remesas como sacrificio transnacional: lo que mueve a millones de familias | pendiente | 0/3 | — |
-| 743 | 50/56 · 8/15 | E2.1.08 | Cuidar a los mayores: costes, opciones y cómo repartir la carga | pendiente | 0/3 | — |
+| 741 | 50/56 · 6/15 | E2.1.06 | El negocio familiar: ventajas, riesgos y cómo profesionalizarlo | terminada | 3/3 | [Leer](https://moevec.org/blog/negocio-familiar-profesionalizar/) |
+| 742 | 50/56 · 7/15 | E2.1.07 | Remesas como sacrificio transnacional: lo que mueve a millones de familias | terminada | 3/3 | [Leer](https://moevec.org/blog/remesas-sacrificio-transnacional/) |
+| 743 | 50/56 · 8/15 | E2.1.08 | Cuidar a los mayores: costes, opciones y cómo repartir la carga | terminada | 3/3 | [Leer](https://moevec.org/blog/cuidar-a-los-mayores/) |
 | 744 | 50/56 · 9/15 | E2.1.09 | Hermanos mayores que pagan la universidad de los menores | pendiente | 0/3 | — |
 | 745 | 50/56 · 10/15 | E2.1.10 | Sacrificio sin coacción: la diferencia entre familia y colectivismo forzoso | pendiente | 0/3 | — |
 | 746 | 50/56 · 11/15 | E2.1.11 | Familias cubanas divididas: la economía de la separación | pendiente | 0/3 | — |
