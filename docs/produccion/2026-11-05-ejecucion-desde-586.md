@@ -1,8 +1,8 @@
 # Ejecución desde586 ·05/11/2026
 
-**802/840 terminadas, 2406 imágenes originales públicas, 0 en curso o borradores WordPress y 38 pendientes**. Agradecimiento 12/15; 48 tandas completas.
+**805/840 terminadas, 2415 imágenes originales públicas, 0 en curso o borradores WordPress y 35 pendientes**. Agradecimiento 15/15; 49 tandas completas.
 
-216 nuevas entradas y648originales públicos.
+219 nuevas entradas y657originales públicos.
 
 | Global | ID | URL | Imágenes |
 |---|---|---|---|
@@ -222,5 +222,8 @@
 |805|E2.5.10|https://moevec.org/blog/filantropia-y-gratitud/|3/3|
 |806|E2.5.11|https://moevec.org/blog/diario-gratitud-emprendedor/|3/3|
 |807|E2.5.12|https://moevec.org/blog/ensenar-gratitud-ninos/|3/3|
+|808|E2.5.13|https://moevec.org/blog/agradecer-a-los-maestros/|3/3|
+|809|E2.5.14|https://moevec.org/blog/gratitud-y-critica/|3/3|
+|810|E2.5.15|https://moevec.org/blog/muro-de-gratitud-mee/|3/3|
 
-Continuar **808–810 / E2.5.13–E2.5.15**, tribu → Agradecimiento. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **811–813**. **501/E4.2.06,512/E4.3.02,649/E4.12.04,707/E6.6.02 y769/E2.3.04** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.
+Continuar **811–813 / E2.6.01–E2.6.03**, tribu → Lealtad Tribal. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **814–816**. **501/E4.2.06,512/E4.3.02,649/E4.12.04,707/E6.6.02 y769/E2.3.04** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.

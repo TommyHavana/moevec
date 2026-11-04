@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-04T23:43:20+00:00.
+Comprobado en WordPress: 2026-11-04T23:57:53+00:00.
 
-**802/840 terminadas · 0 en curso · 38 pendientes.**
+**805/840 terminadas · 0 en curso · 35 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -819,9 +819,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 805 | 54/56 · 10/15 | E2.5.10 | Filantropía y gratitud: devolver a la comunidad | terminada | 3/3 | [Leer](https://moevec.org/blog/filantropia-y-gratitud/) |
 | 806 | 54/56 · 11/15 | E2.5.11 | El diario de gratitud del emprendedor: práctica de 30 días | terminada | 3/3 | [Leer](https://moevec.org/blog/diario-gratitud-emprendedor/) |
 | 807 | 54/56 · 12/15 | E2.5.12 | Enseñar gratitud a los niños sin culparlos | terminada | 3/3 | [Leer](https://moevec.org/blog/ensenar-gratitud-ninos/) |
-| 808 | 54/56 · 13/15 | E2.5.13 | Agradecer a los maestros: la profesión que construye capital humano | pendiente | 0/3 | — |
-| 809 | 54/56 · 14/15 | E2.5.14 | Gratitud y crítica: agradecer sin renunciar a exigir | pendiente | 0/3 | — |
-| 810 | 54/56 · 15/15 | E2.5.15 | Muro de gratitud de MEE: cómo reconocer a quien aporta en la comunidad | pendiente | 0/3 | — |
+| 808 | 54/56 · 13/15 | E2.5.13 | Agradecer a los maestros: la profesión que construye capital humano | terminada | 3/3 | [Leer](https://moevec.org/blog/agradecer-a-los-maestros/) |
+| 809 | 54/56 · 14/15 | E2.5.14 | Gratitud y crítica: agradecer sin renunciar a exigir | terminada | 3/3 | [Leer](https://moevec.org/blog/gratitud-y-critica/) |
+| 810 | 54/56 · 15/15 | E2.5.15 | Muro de gratitud de MEE: cómo reconocer a quien aporta en la comunidad | terminada | 3/3 | [Leer](https://moevec.org/blog/muro-de-gratitud-mee/) |
 | 811 | 55/56 · 1/15 | E2.6.01 | Lealtad con salida: por qué una tribu sana deja ir | pendiente | 0/3 | — |
 | 812 | 55/56 · 2/15 | E2.6.02 | Familismo amoral: cuando la lealtad al grupo daña a todos | pendiente | 0/3 | — |
 | 813 | 55/56 · 3/15 | E2.6.03 | Lealtad y confianza: el capital que se pierde en un día | pendiente | 0/3 | — |
