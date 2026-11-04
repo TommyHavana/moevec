@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-04T08:41:27+00:00.
+Comprobado en WordPress: 2026-11-04T09:12:36+00:00.
 
-**790/840 terminadas · 0 en curso · 50 pendientes.**
+**793/840 terminadas · 0 en curso · 47 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -807,9 +807,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 793 | 53/56 · 13/15 | E2.4.13 | Educación financiera en casa: un plan por edades | terminada | 3/3 | [Leer](https://moevec.org/blog/educacion-financiera-casa-por-edades/) |
 | 794 | 53/56 · 14/15 | E2.4.14 | Cuando tus hijos piensan distinto: respeto y diálogo | terminada | 3/3 | [Leer](https://moevec.org/blog/hijos-piensan-distinto/) |
 | 795 | 53/56 · 15/15 | E2.4.15 | Valores de los emigrantes: lo que se lleva en la maleta | terminada | 3/3 | [Leer](https://moevec.org/blog/valores-de-los-emigrantes/) |
-| 796 | 54/56 · 1/15 | E2.5.01 | Agradecer no es deber: el valor de la reciprocidad libre | pendiente | 0/3 | — |
-| 797 | 54/56 · 2/15 | E2.5.02 | Lo que dice la ciencia sobre la gratitud | pendiente | 0/3 | — |
-| 798 | 54/56 · 3/15 | E2.5.03 | Gratitud hacia el sistema que funciona: lo que damos por hecho | pendiente | 0/3 | — |
+| 796 | 54/56 · 1/15 | E2.5.01 | Agradecer no es deber: el valor de la reciprocidad libre | terminada | 3/3 | [Leer](https://moevec.org/blog/agradecer-reciprocidad-libre/) |
+| 797 | 54/56 · 2/15 | E2.5.02 | Lo que dice la ciencia sobre la gratitud | terminada | 3/3 | [Leer](https://moevec.org/blog/ciencia-de-la-gratitud/) |
+| 798 | 54/56 · 3/15 | E2.5.03 | Gratitud hacia el sistema que funciona: lo que damos por hecho | terminada | 3/3 | [Leer](https://moevec.org/blog/gratitud-lo-que-damos-por-hecho/) |
 | 799 | 54/56 · 4/15 | E2.5.04 | Cómo agradecer bien: reconocimiento concreto | pendiente | 0/3 | — |
 | 800 | 54/56 · 5/15 | E2.5.05 | Gratitud y ambición: ¿se puede estar agradecido y querer más? | pendiente | 0/3 | — |
 | 801 | 54/56 · 6/15 | E2.5.06 | Gratitud forzada: cuando el poder exige agradecimiento | pendiente | 0/3 | — |

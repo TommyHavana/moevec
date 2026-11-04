@@ -3,34 +3,34 @@
   "mode": "continuous_blocks_of_three",
   "completed_at_start": 586,
   "current_block": [
-    796,
-    797,
-    798
-  ],
-  "current_ids": [
-    "E2.5.01",
-    "E2.5.02",
-    "E2.5.03"
-  ],
-  "area": "tribu",
-  "topic": "agradecimiento",
-  "phase": "research_preparation_images_pending",
-  "next_after_block": [
     799,
     800,
     801
   ],
-  "updated_at": "2026-11-04T08:44:19.550657+00:00",
-  "last_completed_block": [
-    793,
-    794,
-    795
+  "current_ids": [
+    "E2.5.04",
+    "E2.5.05",
+    "E2.5.06"
   ],
-  "notes": "**790/840 terminadas, 2370 imágenes originales públicas, 0 en curso o borradores WordPress y 50 pendientes**. Transmisión de Valores 15/15; 48 tandas completas. Continuar **796–798 / E2.5.01–E2.5.03**, tribu → Agradecimiento. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **799–801**. **501/E4.2.06,512/E4.3.02,649/E4.12.04,707/E6.6.02 y769/E2.3.04** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.",
+  "area": "tribu",
+  "topic": "agradecimiento",
+  "phase": "insufficient_local_storage",
+  "next_after_block": [
+    802,
+    803,
+    804
+  ],
+  "updated_at": "2026-11-04T09:22:00.631590+00:00",
+  "last_completed_block": [
+    796,
+    797,
+    798
+  ],
+  "notes": "**793/840 terminadas, 2379 imágenes originales públicas, 0 en curso o borradores WordPress y 47 pendientes**. Agradecimiento 3/15; 48 tandas completas. Continuar **799–801 / E2.5.04–E2.5.06**, tribu → Agradecimiento. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **802–804**. **501/E4.2.06,512/E4.3.02,649/E4.12.04,707/E6.6.02 y769/E2.3.04** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.",
   "last_backup": {
-    "directory": "/data/mee-backups/produccion-840-incremento-793-795-20261104",
-    "completed_articles": 790,
-    "max_published_number": 795,
+    "directory": "/data/mee-backups/produccion-840-incremento-796-798-20261104",
+    "completed_articles": 793,
+    "max_published_number": 798,
     "published_ranges": [
       [
         1,
@@ -54,7 +54,7 @@
       ],
       [
         770,
-        795
+        798
       ]
     ],
     "unpublished_gaps": [
@@ -64,24 +64,24 @@
       707,
       769
     ],
-    "sql_bytes": 30225859,
+    "sql_bytes": 30322806,
     "upload_files": 66,
-    "uploads_bytes": 3340695,
+    "uploads_bytes": 2811269,
     "archives": [
       {
-        "file": "uploads-793-795.tar.gz",
+        "file": "uploads-796-798.tar.gz",
         "files": 66,
-        "bytes": 3340695
+        "bytes": 2811269
       }
     ],
     "checksums_verified": true,
     "archive_verified": true,
-    "overlays": 252,
+    "overlays": 253,
     "chain_contiguous": false,
     "published_media_coverage_complete": true,
     "restore_test": false
   },
-  "last_local_backup": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Editorial_793-795_2026-11-04_incremental.zip",
+  "last_local_backup": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Editorial_796-798_2026-11-04_incremental.zip",
   "completed_this_run": [
     589,
     590,
@@ -286,7 +286,10 @@
     792,
     793,
     794,
-    795
+    795,
+    796,
+    797,
+    798
   ],
   "run_started_with_completed": 586,
   "local_preparations": [
@@ -342,37 +345,40 @@
       "phase": "title_review_pending"
     },
     {
-      "number": 796,
-      "id": "E2.5.01",
+      "number": 799,
+      "id": "E2.5.04",
       "images": 0,
       "article_complete": false,
-      "sources_verified": false,
+      "sources_verified": true,
       "published": false,
-      "phase": "research_preparation_images_pending"
+      "phase": "body_draft_ready_images_pending",
+      "body_draft_ready": true
     },
     {
-      "number": 797,
-      "id": "E2.5.02",
+      "number": 800,
+      "id": "E2.5.05",
       "images": 0,
       "article_complete": false,
-      "sources_verified": false,
+      "sources_verified": true,
       "published": false,
-      "phase": "research_preparation_images_pending"
+      "phase": "body_draft_ready_images_pending",
+      "body_draft_ready": true
     },
     {
-      "number": 798,
-      "id": "E2.5.03",
+      "number": 801,
+      "id": "E2.5.06",
       "images": 0,
       "article_complete": false,
       "sources_verified": false,
       "published": false,
-      "phase": "research_preparation_images_pending"
+      "phase": "primary_context_reviewed_central_claim_pending",
+      "body_draft_ready": false
     }
   ],
   "local_backup_kind": "incremental",
   "local_backup_base": {
-    "path": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Editorial_790-792_2026-11-04_incremental.zip",
-    "sha256": "1f52f6bae7a5054a216d2f122641cde8408404f34aef06bbc08cd45cfad42595"
+    "path": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Editorial_793-795_2026-11-04_incremental.zip",
+    "sha256": "ad521c0e2c1df4d47fa64efc04d861744cd62abb07b100a572a28c3d3cefece2"
   },
   "storage_check": {
     "free_bytes": 4473786368,
@@ -609,7 +615,10 @@
     792,
     793,
     794,
-    795
+    795,
+    796,
+    797,
+    798
   ],
   "last_partial_block": {
     "numbers": [
@@ -625,28 +634,29 @@
       512
     ]
   },
-  "last_delivery_proof": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/produccion-793-795-entrega-20261104.json",
+  "last_delivery_proof": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/produccion-796-798-entrega-20261104.json",
   "storage_block": {
-    "checked_at": "2026-11-04T08:44:19.550657+00:00",
-    "free_bytes": 360398848,
+    "checked_at": "2026-11-04T09:22:00.631590+00:00",
+    "free_bytes": 194281472,
     "observed_error": "zsh: can't create temp file for here document: no space left on device",
-    "phase": "resolved_capacity_available",
+    "phase": "insufficient_local_storage",
     "resume_when_free_bytes_at_least": 209715200,
-    "completed": 790,
+    "completed": 793,
     "next_block": [
-      796,
-      797,
-      798
+      799,
+      800,
+      801
     ],
     "next_images_ready": 0,
     "texts_ready": 0,
     "sources_verified": false,
     "originals_and_backups_preserved": true,
-    "note": "Trabajo conservado. Umbral de generación200MiB con comprobación antes de cada llamada; copias proporcionales sin borrar originales.",
+    "note": "Conservar fuentes, borradores, prompts, nativos y toda cadena de copias. No generar bajo el umbral y no borrar originales.",
     "resolved_at": "2026-11-03T23:01:26.498856+00:00",
     "local_webps_ready": 0,
     "native_images_preserved_remote": 1,
-    "body_drafts_ready": 0
+    "body_drafts_ready": 2,
+    "current_reason": "Espacio inferior al umbral operativo de200MiB antes de generar; sin error de cuota imagegen para799–801. Dos borradores revisados, montaje y revisión final pendientes."
   },
   "heartbeat_interval_minutes": 3,
   "title_reviews_pending": [
@@ -657,11 +667,13 @@
     769
   ],
   "resume_point": {
-    "number": 796,
-    "id": "E2.5.01",
-    "next_action": "research_and_generate_missing_images",
+    "number": 799,
+    "id": "E2.5.04",
+    "next_action": "generate_featured_if_free_bytes_at_least_209715200_then_convert_and_review",
     "accepted_images": 0,
-    "article_complete": false
+    "article_complete": false,
+    "body_draft_ready": true,
+    "sources_verified": true
   },
   "last_partial_remote_checkpoint": {
     "directory": "/data/mee-backups/produccion-840-progreso-738-740-20261104T011116Z",
