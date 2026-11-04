@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-04T05:45:04+00:00.
+Comprobado en WordPress: 2026-11-04T06:09:02+00:00.
 
-**766/840 terminadas · 0 en curso · 74 pendientes.**
+**769/840 terminadas · 0 en curso · 71 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -783,9 +783,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 769 | 52/56 · 4/15 | E2.3.04 | Ahorro para la jubilación: empezar pronto vale más que ganar mucho | pendiente | 0/3 | — |
 | 770 | 52/56 · 5/15 | E2.3.05 | Lo que una generación debe a la anterior y a la siguiente | terminada | 3/3 | [Leer](https://moevec.org/blog/deberes-entre-generaciones/) |
 | 771 | 52/56 · 6/15 | E2.3.06 | Deuda pública por habitante: cuánto le toca a cada recién nacido | terminada | 3/3 | [Leer](https://moevec.org/blog/deuda-publica-por-habitante/) |
-| 772 | 52/56 · 7/15 | E2.3.07 | El sistema de pensiones español: sostenibilidad en debate | pendiente | 0/3 | — |
-| 773 | 52/56 · 8/15 | E2.3.08 | Chile y las AFP: 40 años de capitalización individual en debate | pendiente | 0/3 | — |
-| 774 | 52/56 · 9/15 | E2.3.09 | Argentina 2008: cuando el Estado se quedó con los ahorros de las AFJP | pendiente | 0/3 | — |
+| 772 | 52/56 · 7/15 | E2.3.07 | El sistema de pensiones español: sostenibilidad en debate | terminada | 3/3 | [Leer](https://moevec.org/blog/pensiones-espana-sostenibilidad/) |
+| 773 | 52/56 · 8/15 | E2.3.08 | Chile y las AFP: 40 años de capitalización individual en debate | terminada | 3/3 | [Leer](https://moevec.org/blog/chile-afp-capitalizacion/) |
+| 774 | 52/56 · 9/15 | E2.3.09 | Argentina 2008: cuando el Estado se quedó con los ahorros de las AFJP | terminada | 3/3 | [Leer](https://moevec.org/blog/argentina-2008-afjp/) |
 | 775 | 52/56 · 10/15 | E2.3.10 | Jubilarse en Cuba: pensiones, inflación y dependencia de remesas | pendiente | 0/3 | — |
 | 776 | 52/56 · 11/15 | E2.3.11 | Cómo hablar de dinero con tus padres mayores | pendiente | 0/3 | — |
 | 777 | 52/56 · 12/15 | E2.3.12 | Tres generaciones bajo un mismo techo: economía de la casa compartida | pendiente | 0/3 | — |

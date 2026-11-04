@@ -1,3 +1,23 @@
-# Preparación · E2.3.07
+# Investigación · E2.3.07
 
-Brief y prompts conservados; investigación en curso, sin publicación.
+Comisión Europea · Ageing Report2024 · ficha de España
+https://economy-finance.ec.europa.eu/document/download/392994f2-c025-4066-bea8-f65cf4bcd411_en?filename=2024-ageing-report-country-fiche-Spain.pdf
+PDF64p 1305914B SHA073dca6b182b575cb78abe236e77db5014e78319cd0a0563e7ddaa161a307e3d. Lectura seleccionada PDF26,27,35 (impresas27,28,36), tabla10 render26 visto; revisión anterior21participación. No índice como evidencia ni64p íntegramente leídas. Tabla10 bruto PUBLICO2022=13.1/2050=17.3%PIB, no totalpúblicoprivado13.4/17.6, netopúblico no netoAIReFdeingresos. Sensibilidades y financiación estatal PDF35. Ficha diciembre2023 publicada18abr2024;2027siguienteinforme completo previsto AIReF2026, no informeEspaña2026inventado.
+
+Seguridad Social · Régimen General · tipos de cotización2026
+https://www.seg-social.es/wps/portal/wss/internet/Trabajadores/CotizacionRecaudacionTrabajadores/10721/10957/583?changeLanguage=es
+HTML20080264B SHAd1c1ddbeec628888dc65e14415725ec0fc4ca80c47ae69b46c61f45ac7d88282. Tabla2026 webprimaria leída:MEI0.90 total .75empresa/.15trabajador sobrebaseCC. EjemploMEE2000x.009=18/15/3. No aplica automáticamenteaautónomos/otrosregímenes, no nóminacompleta,edadesjubilaciónnoconsultadasniRDLPDFnombre2016citado.
+
+AIReF · Estudio sobre la regla de gasto de pensiones ·29/05/2026
+https://www.airef.es/es/estudios/estudio-sobre-la-regla-de-gasto-de-pensiones/
+HTML200332194B SHA6c7557c7be87ef29bb87e4d8d9020381800e35aef9c75c0d53a64b89b24ab172; cuerpo principal leído. Cumplimiento formal no garantía sostenibilidadintegral, actualización ingresos ymacro. Aperturaweb502noanuladescarga local200.
+
+AIReF · Resumen ejecutivo de la evaluación ·29/05/2026
+https://www.airef.es/wp-content/uploads/2026/05/Pensiones/AIReF.-Resumen-ejecutivo.-Estudio-de-evaluacion-de-la-regla-de-gasto-de-pensiones.pdf
+PDF7p280331B SHA70f955b3656961b99dacee188cf8fa8a5bf1f34bfd9a36e09acf35dab6c3f2e2. Texto ejecutivoPDF3–7leído,metadatos2;renders3/6vistos. GastoBRUTOmedio2022–2050=14.6/efectoingresos1.6/netoregl13.0/limite13.3, not17.3en2050comparadoigualvariable. Deuda123%PIB2050escenariopolíticasconstantesSINactuaciónreglasfiscales/excluyeclima-defensa,noactualniatribuidatodapensiones. TransferenciasyparcialidadreglaPDF6. Estudio94p descargadoperoNOlecturaíntegraclaimada.
+
+Excluido:
+- Sin garantizar pensión individual,fechaquiebra,importe futuro o suficiencia del ahorro privado.
+- No bruto2050igualmedia2022–2050ni netoimpuestosigualnetomedidasingreso.
+- No123%PIBdeudaactual,solo causada porpensiones opredicciónincondicional.
+- Sin MEItodareglaautónomos ni propuestatributariaindividual.
