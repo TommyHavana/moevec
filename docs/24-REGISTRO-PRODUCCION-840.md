@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-04T03:10:11+00:00.
+Comprobado en WordPress: 2026-11-04T03:38:15+00:00.
 
-**745/840 terminadas · 0 en curso · 95 pendientes.**
+**748/840 terminadas · 0 en curso · 92 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -761,9 +761,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 747 | 50/56 · 12/15 | E2.1.12 | Cómo hacer un acuerdo familiar de inversión | terminada | 3/3 | [Leer](https://moevec.org/blog/acuerdo-familiar-de-inversion/) |
 | 748 | 50/56 · 13/15 | E2.1.13 | La generación sándwich: cuidar hijos y padres a la vez | terminada | 3/3 | [Leer](https://moevec.org/blog/generacion-sandwich/) |
 | 749 | 50/56 · 14/15 | E2.1.14 | Hipotecar la casa familiar para un negocio: análisis de riesgos | terminada | 3/3 | [Leer](https://moevec.org/blog/hipotecar-casa-familiar-negocio/) |
-| 750 | 50/56 · 15/15 | E2.1.15 | Historias de familias que salieron adelante: cómo contarlas sin inventar | pendiente | 0/3 | — |
-| 751 | 51/56 · 1/15 | E2.2.01 | Herencia: por qué transmitir lo que se ha ahorrado es legítimo | pendiente | 0/3 | — |
-| 752 | 51/56 · 2/15 | E2.2.02 | Herencia inmaterial: valores, oficios, contactos y reputación | pendiente | 0/3 | — |
+| 750 | 50/56 · 15/15 | E2.1.15 | Historias de familias que salieron adelante: cómo contarlas sin inventar | terminada | 3/3 | [Leer](https://moevec.org/blog/historias-familias-salieron-adelante/) |
+| 751 | 51/56 · 1/15 | E2.2.01 | Herencia: por qué transmitir lo que se ha ahorrado es legítimo | terminada | 3/3 | [Leer](https://moevec.org/blog/herencia-legitima/) |
+| 752 | 51/56 · 2/15 | E2.2.02 | Herencia inmaterial: valores, oficios, contactos y reputación | terminada | 3/3 | [Leer](https://moevec.org/blog/herencia-inmaterial/) |
 | 753 | 51/56 · 3/15 | E2.2.03 | Testamento: por qué hacerlo y qué debe incluir | pendiente | 0/3 | — |
 | 754 | 51/56 · 4/15 | E2.2.04 | El impuesto de sucesiones en el mundo: quién lo cobra y quién lo abolió | pendiente | 0/3 | — |
 | 755 | 51/56 · 5/15 | E2.2.05 | Herencia y desigualdad: lo que dicen los datos de verdad | pendiente | 0/3 | — |
