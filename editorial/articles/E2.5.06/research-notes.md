@@ -1,4 +1,8 @@
-# Investigación en curso · E2.5.06
+# Investigación · E2.5.06
+
+Frédéric Bastiat · Lo que se ve y lo que no se ve ·1850 ·capítuloIII sobre impuestos
+https://en.wikisource.org/wiki/That_Which_Is_Seen,_and_That_Which_Is_Not_Seen
+CapítuloIII completo leído en copia primaria preservadaBastiat.org yWikisource177–204porweb04nov22h. WikisourceHTML257796B SHA4b702de78f2cbfa1367c32f67508fcc903ed210b792424296768c8417b8c0175 válido; copiaBastiat.org8a7933a9b0086f07ed14f1547d036058a56bb99c1c6a22035a0f20f68e54457b. AperturaactualBastiat.orgbuclede redirección, no descarga nueva. FFFextractotres párrafos visto adicional, no capítulo íntegro ni libro. Reconoce funcionarios útiles ycostesalternativos, no todogasto inútil o diagnósticoCuba2026.
 
 Granma · presentación presupuestaria29jul2026
 https://www.granma.cu/cuba/2026-07-29/presentan-marcha-del-presupuesto-de-2026-y-liquidacion-del-correspondiente-al-2025-29-07-2026-19-07-41
@@ -16,4 +20,9 @@ Freedom House · Freedom in the World2026 · Cuba
 https://freedomhouse.org/country/cuba/freedom-world/2026
 Leídos Overview,KeyDevelopmentsin2025, avisodeediciónabreviada ypreguntasD3/D4. NoFree9/100sicualificarloscomoindicadoresnormativosdelautor no nuevoprocedimientolegal. Contextogeneralrestriccióndisenso, no prueba causalgratitud->represión o motivoscadaadhesión. NoinferirredesdeFreedomNetniunidaddeencuestas.
 
-Pendiente central: las fuentes localizadas muestran lenguaje de gratitud/deuda y contexto de restricciones; no prueban que toda gratitud sea forzada ni una deuda legal general por salud/educación. Seleccionar y delimitar el caso primario o retirar esa generalización antes de redactar. F039 Bastiat pendiente de lectura para esta pieza. Fuentes aún sin revisión final;0/3 imágenes y ningún texto. No publicado.
+Excluido:
+- Eliminada generalización de deuda legal por educación ysalud, gratitudobligadade todos o causasindividualesinferidas.
+- Fuentesdelimitadasantesredactar:2015deudaconChávez/opinión2025noley; coacciónhipotéticacomocondición,nosanciónprobada.
+- Sin cifraspresupuestarias, Ley181/2026sindocumentolegalcontrastado ni eficienciaauditorada.
+- Sin cifras oacusaciones aGAESA/personasdeFH, ni invitacionesaconfrontación.
+- Alicia/Tomássonhipotéticos, sin casos otestimoniosrealesinventados.

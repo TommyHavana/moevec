@@ -3,34 +3,34 @@
   "mode": "continuous_blocks_of_three",
   "completed_at_start": 586,
   "current_block": [
-    799,
-    800,
-    801
-  ],
-  "current_ids": [
-    "E2.5.04",
-    "E2.5.05",
-    "E2.5.06"
-  ],
-  "area": "tribu",
-  "topic": "agradecimiento",
-  "phase": "insufficient_local_storage",
-  "next_after_block": [
     802,
     803,
     804
   ],
-  "updated_at": "2026-11-04T09:22:00.631590+00:00",
-  "last_completed_block": [
-    796,
-    797,
-    798
+  "current_ids": [
+    "E2.5.07",
+    "E2.5.08",
+    "E2.5.09"
   ],
-  "notes": "**793/840 terminadas, 2379 imágenes originales públicas, 0 en curso o borradores WordPress y 47 pendientes**. Agradecimiento 3/15; 48 tandas completas. Continuar **799–801 / E2.5.04–E2.5.06**, tribu → Agradecimiento. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **802–804**. **501/E4.2.06,512/E4.3.02,649/E4.12.04,707/E6.6.02 y769/E2.3.04** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.",
+  "area": "tribu",
+  "topic": "agradecimiento",
+  "phase": "research_preparation_images_pending",
+  "next_after_block": [
+    805,
+    806,
+    807
+  ],
+  "updated_at": "2026-11-04T22:55:56.251283+00:00",
+  "last_completed_block": [
+    799,
+    800,
+    801
+  ],
+  "notes": "**796/840 terminadas, 2388 imágenes originales públicas, 0 en curso o borradores WordPress y 44 pendientes**. Agradecimiento 6/15; 48 tandas completas. Continuar **802–804 / E2.5.07–E2.5.09**, tribu → Agradecimiento. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **805–807**. **501/E4.2.06,512/E4.3.02,649/E4.12.04,707/E6.6.02 y769/E2.3.04** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.",
   "last_backup": {
-    "directory": "/data/mee-backups/produccion-840-incremento-796-798-20261104",
-    "completed_articles": 793,
-    "max_published_number": 798,
+    "directory": "/data/mee-backups/produccion-840-incremento-799-801-20261104",
+    "completed_articles": 796,
+    "max_published_number": 801,
     "published_ranges": [
       [
         1,
@@ -54,7 +54,7 @@
       ],
       [
         770,
-        798
+        801
       ]
     ],
     "unpublished_gaps": [
@@ -64,24 +64,24 @@
       707,
       769
     ],
-    "sql_bytes": 30322806,
+    "sql_bytes": 30419635,
     "upload_files": 66,
-    "uploads_bytes": 2811269,
+    "uploads_bytes": 3845772,
     "archives": [
       {
-        "file": "uploads-796-798.tar.gz",
+        "file": "uploads-799-801.tar.gz",
         "files": 66,
-        "bytes": 2811269
+        "bytes": 3845772
       }
     ],
     "checksums_verified": true,
     "archive_verified": true,
-    "overlays": 253,
+    "overlays": 254,
     "chain_contiguous": false,
     "published_media_coverage_complete": true,
     "restore_test": false
   },
-  "last_local_backup": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Editorial_796-798_2026-11-04_incremental.zip",
+  "last_local_backup": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Editorial_799-801_2026-11-04_incremental.zip",
   "completed_this_run": [
     589,
     590,
@@ -289,7 +289,10 @@
     795,
     796,
     797,
-    798
+    798,
+    799,
+    800,
+    801
   ],
   "run_started_with_completed": 586,
   "local_preparations": [
@@ -345,40 +348,37 @@
       "phase": "title_review_pending"
     },
     {
-      "number": 799,
-      "id": "E2.5.04",
-      "images": 0,
-      "article_complete": false,
-      "sources_verified": true,
-      "published": false,
-      "phase": "body_draft_ready_images_pending",
-      "body_draft_ready": true
-    },
-    {
-      "number": 800,
-      "id": "E2.5.05",
-      "images": 0,
-      "article_complete": false,
-      "sources_verified": true,
-      "published": false,
-      "phase": "body_draft_ready_images_pending",
-      "body_draft_ready": true
-    },
-    {
-      "number": 801,
-      "id": "E2.5.06",
+      "number": 802,
+      "id": "E2.5.07",
       "images": 0,
       "article_complete": false,
       "sources_verified": false,
       "published": false,
-      "phase": "primary_context_reviewed_central_claim_pending",
-      "body_draft_ready": false
+      "phase": "research_preparation_images_pending"
+    },
+    {
+      "number": 803,
+      "id": "E2.5.08",
+      "images": 0,
+      "article_complete": false,
+      "sources_verified": false,
+      "published": false,
+      "phase": "research_preparation_images_pending"
+    },
+    {
+      "number": 804,
+      "id": "E2.5.09",
+      "images": 0,
+      "article_complete": false,
+      "sources_verified": false,
+      "published": false,
+      "phase": "research_preparation_images_pending"
     }
   ],
   "local_backup_kind": "incremental",
   "local_backup_base": {
-    "path": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Editorial_793-795_2026-11-04_incremental.zip",
-    "sha256": "ad521c0e2c1df4d47fa64efc04d861744cd62abb07b100a572a28c3d3cefece2"
+    "path": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Editorial_796-798_2026-11-04_incremental.zip",
+    "sha256": "6d72bba0605cbbc3ef3fb29a6eefb6e21f5ec5972e88419b126b3cd69b1e5274"
   },
   "storage_check": {
     "free_bytes": 4473786368,
@@ -618,7 +618,10 @@
     795,
     796,
     797,
-    798
+    798,
+    799,
+    800,
+    801
   ],
   "last_partial_block": {
     "numbers": [
@@ -634,29 +637,29 @@
       512
     ]
   },
-  "last_delivery_proof": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/produccion-796-798-entrega-20261104.json",
+  "last_delivery_proof": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/produccion-799-801-entrega-20261104.json",
   "storage_block": {
-    "checked_at": "2026-11-04T09:22:00.631590+00:00",
-    "free_bytes": 194281472,
+    "checked_at": "2026-11-04T22:55:56.251283+00:00",
+    "free_bytes": 4207902720,
     "observed_error": "zsh: can't create temp file for here document: no space left on device",
-    "phase": "insufficient_local_storage",
+    "phase": "resolved_capacity_available",
     "resume_when_free_bytes_at_least": 209715200,
-    "completed": 793,
+    "completed": 796,
     "next_block": [
-      799,
-      800,
-      801
+      802,
+      803,
+      804
     ],
     "next_images_ready": 0,
     "texts_ready": 0,
     "sources_verified": false,
     "originals_and_backups_preserved": true,
-    "note": "Conservar fuentes, borradores, prompts, nativos y toda cadena de copias. No generar bajo el umbral y no borrar originales.",
-    "resolved_at": "2026-11-03T23:01:26.498856+00:00",
+    "note": "Trabajo conservado. Umbral de generación200MiB con comprobación antes de cada llamada; copias proporcionales sin borrar originales.",
+    "resolved_at": "2026-11-04T22:43:56.416861+00:00",
     "local_webps_ready": 0,
     "native_images_preserved_remote": 1,
-    "body_drafts_ready": 2,
-    "current_reason": "Espacio inferior al umbral operativo de200MiB antes de generar; sin error de cuota imagegen para799–801. Dos borradores revisados, montaje y revisión final pendientes."
+    "body_drafts_ready": 0,
+    "current_reason": "Capacidad recuperada; comprobar200MiB antes de cada generación. Se reanudan expedientes799–801 sin reiniciar."
   },
   "heartbeat_interval_minutes": 3,
   "title_reviews_pending": [
@@ -667,13 +670,11 @@
     769
   ],
   "resume_point": {
-    "number": 799,
-    "id": "E2.5.04",
-    "next_action": "generate_featured_if_free_bytes_at_least_209715200_then_convert_and_review",
+    "number": 802,
+    "id": "E2.5.07",
+    "next_action": "research_and_generate_missing_images",
     "accepted_images": 0,
-    "article_complete": false,
-    "body_draft_ready": true,
-    "sources_verified": true
+    "article_complete": false
   },
   "last_partial_remote_checkpoint": {
     "directory": "/data/mee-backups/produccion-840-progreso-738-740-20261104T011116Z",

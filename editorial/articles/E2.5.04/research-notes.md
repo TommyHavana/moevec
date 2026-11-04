@@ -8,5 +8,3 @@ Excluido:
 - Sin gratitud específica demostrada superior en todas las conversaciones; criterio práctico MEE.
 - Sin seis meses de mejoría por carta o visita, efectos garantizados, tratamiento ni obligación emocional.
 - Lucía y Samuel son ejemplos hipotéticos; no testimonios o resultados laborales medidos.
-
-Borrador principal revisado en body-draft.html; imágenes0/3, montaje y revisión final pendientes. No publicado.

@@ -2296,3 +2296,13 @@ Automatización cada tres minutos ya configurada. No se han borrado copias ni or
 ## Punto exacto de capacidad ·04/11/2026
 
 793/840 terminadas y2379originales públicos. Bloque796–798 publicado y verificado. Siguiente799–801:0/9imágenes; borradores799/800 de1007/1081palabras revisados, todavía sin montaje final;801sintexto, fuente central por delimitar. Espacio194281472B medido a2026-11-04T09:22:00.631590+00:00, inferior al umbral200MiB(209715200B) previo a imagegen. No fallo de cuota de imágenes. Conservar todo y reanudar portada799 al recuperar capacidad. Seguimiento mismo chat cada3min; no duplicar procesos ni pedir permiso para continuar.
+
+
+## Continuación editorial799-801 ·04/11/2026
+
+**796/840 terminadas, 2388 imágenes originales públicas, 0 en curso o borradores WordPress y 44 pendientes**. Agradecimiento 6/15; 48 tandas completas.
+
+Fuentes y alcances por artículo en research-notes.md y source-review.json. Casos y ejemplos identificados, fuentes primarias y límites contrastados antes de publicar. Advertencia SEO: salida WordPress con dos meta descripciones idénticas; textos y títulos correctos. Incidencia de plantilla registrada, fuera de esta producción.
+
+Continuar **802–804 / E2.5.07–E2.5.09**, tribu → Agradecimiento. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **805–807**. **501/E4.2.06,512/E4.3.02,649/E4.12.04,707/E6.6.02 y769/E2.3.04** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.
+Automatización cada tres minutos ya configurada. No se han borrado copias ni originales.

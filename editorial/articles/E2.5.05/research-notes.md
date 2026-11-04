@@ -13,5 +13,3 @@ Excluido:
 - Sin empresario real o testimonio inventado; Amalia y Julián ejemplos hipotéticos.
 - F050 Frankl identificado correctamente; no Tal Ben-Shahar.
 - Sin gratitud que cause más ingresos, éxito empresarial o aceptación obligatoria de condiciones.
-
-Borrador principal revisado en body-draft.html; imágenes0/3, montaje y revisión final pendientes. No publicado.
