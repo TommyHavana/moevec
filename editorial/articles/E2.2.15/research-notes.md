@@ -1,0 +1,3 @@
+# Preparación · E2.2.15
+
+Brief y prompts conservados; investigación en curso, sin publicación.

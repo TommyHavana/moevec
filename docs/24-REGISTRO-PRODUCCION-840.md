@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-04T04:44:36+00:00.
+Comprobado en WordPress: 2026-11-04T05:03:17+00:00.
 
-**757/840 terminadas · 0 en curso · 83 pendientes.**
+**760/840 terminadas · 0 en curso · 80 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -773,9 +773,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 759 | 51/56 · 9/15 | E2.2.09 | Renunciar a una herencia: cuándo conviene | terminada | 3/3 | [Leer](https://moevec.org/blog/renunciar-a-una-herencia/) |
 | 760 | 51/56 · 10/15 | E2.2.10 | Herencias y conflictos familiares: cómo prevenirlos | terminada | 3/3 | [Leer](https://moevec.org/blog/herencias-conflictos-familiares/) |
 | 761 | 51/56 · 11/15 | E2.2.11 | Planificar tu herencia aunque seas joven | terminada | 3/3 | [Leer](https://moevec.org/blog/planificar-herencia-joven/) |
-| 762 | 51/56 · 12/15 | E2.2.12 | Lo que se hereda sin testamento: hábitos de ahorro de padres a hijos | pendiente | 0/3 | — |
-| 763 | 51/56 · 13/15 | E2.2.13 | Herencia y emigración: bienes en un país, herederos en otro | pendiente | 0/3 | — |
-| 764 | 51/56 · 14/15 | E2.2.14 | Fundaciones y legados: dejar algo a la comunidad | pendiente | 0/3 | — |
+| 762 | 51/56 · 12/15 | E2.2.12 | Lo que se hereda sin testamento: hábitos de ahorro de padres a hijos | terminada | 3/3 | [Leer](https://moevec.org/blog/habitos-ahorro-heredados/) |
+| 763 | 51/56 · 13/15 | E2.2.13 | Herencia y emigración: bienes en un país, herederos en otro | terminada | 3/3 | [Leer](https://moevec.org/blog/herencia-y-emigracion/) |
+| 764 | 51/56 · 14/15 | E2.2.14 | Fundaciones y legados: dejar algo a la comunidad | terminada | 3/3 | [Leer](https://moevec.org/blog/fundaciones-y-legados/) |
 | 765 | 51/56 · 15/15 | E2.2.15 | Construir un patrimonio familiar desde cero: plan a 20 años | pendiente | 0/3 | — |
 | 766 | 52/56 · 1/15 | E2.3.01 | Responsabilidad generacional: pensar en quien todavía no vota | pendiente | 0/3 | — |
 | 767 | 52/56 · 2/15 | E2.3.02 | Pensiones de reparto y de capitalización: cómo funciona cada una | pendiente | 0/3 | — |

@@ -1,8 +1,8 @@
 # Ejecución desde586 ·04/11/2026
 
-**757/840 terminadas, 2271 imágenes originales públicas, 0 en curso o borradores WordPress y 83 pendientes**. Herencia 11/15; 46 tandas completas.
+**760/840 terminadas, 2280 imágenes originales públicas, 0 en curso o borradores WordPress y 80 pendientes**. Herencia 14/15; 46 tandas completas.
 
-171 nuevas entradas y513originales públicos.
+174 nuevas entradas y522originales públicos.
 
 | Global | ID | URL | Imágenes |
 |---|---|---|---|
@@ -177,5 +177,8 @@
 |759|E2.2.09|https://moevec.org/blog/renunciar-a-una-herencia/|3/3|
 |760|E2.2.10|https://moevec.org/blog/herencias-conflictos-familiares/|3/3|
 |761|E2.2.11|https://moevec.org/blog/planificar-herencia-joven/|3/3|
+|762|E2.2.12|https://moevec.org/blog/habitos-ahorro-heredados/|3/3|
+|763|E2.2.13|https://moevec.org/blog/herencia-y-emigracion/|3/3|
+|764|E2.2.14|https://moevec.org/blog/fundaciones-y-legados/|3/3|
 
-Continuar **762–764 / E2.2.12–E2.2.14**, tribu → Herencia. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **765–767**. **501/E4.2.06,512/E4.3.02,649/E4.12.04 y707/E6.6.02** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.
+Continuar **765–767 / E2.2.15–E2.3.02**, tribu → Herencia; tribu → Responsabilidad Generacional. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **768–770**. **501/E4.2.06,512/E4.3.02,649/E4.12.04 y707/E6.6.02** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.
