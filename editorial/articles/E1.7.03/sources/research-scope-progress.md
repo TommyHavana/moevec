@@ -1,0 +1,5 @@
+# Lecturas parciales ·05/11/2026
+
+FranklManSearchMeaningBeacon2006copiaICCPP: PDF148p781304B, SHA c7ea5a6131b8b02b0faff6c9ad49602a06b919ac8925b80592feac864283c2a7. LeídosPDF98–102,EssenceExistence, tresvías, yMeaningSuffering;PDF102vistovisualmente. No libroíntegro. No citarhistoriasclínicascomopruebacausal, estadísticadecampos1/28, eficaciauniversal oprotocolo. F050original1946, lecturaedicióninglesa2006específica;parte1tradIlseLasch.
+
+VFIbiografíaalemanalectura1930s/1942/1944/1945web, pensamientopreviocampos, deportación1942yretorno1945. No atribuirsupervivenciaactitudnículpavíctimas. VFIlogotherapyBatthyányFreedomWill/WillMeaningleídos, libertadposibilidadeslimitadas, no imponer significadopropio. Presentacióndeenfoquenovalidaciónmetaanalíticadeeficacia. NIMHabril2026archivadocompartido826,aviso yconsulta, sintratamientoprescrito.

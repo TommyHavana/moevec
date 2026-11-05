@@ -1,0 +1,5 @@
+# Lecturas parciales ·05/11/2026
+
+Gallup28/04/2026HTML168144B, noticia140–176leída;PDF18p493444B,metodologíaPDF1leída yvistavisualmente. Entrevistastelefónicas1–15abril2026muestraaleatoria1001adultos18+,50estadosEEUU+DC, ponderada, margen4pp95%. Q10abiertaprincipalproblemafamilia31%costevidainflación, no prevalenciaestrésclínico, no LatAm/España/poblaciónhispanamundial. No mezclarotrosestudiosGallupPanel conestos1001.
+
+NHSEveryMindMatters Moneyworries: HTML78358B, seccionesrelaciónrecíproca,señalesapoyoautocuidadoleídasweb. No guíaescaladiagnóstica, tratamientoespecífico ni serviciosgratuitostodospaíses. MoneyHelper guía Helpstrugglingdebt leídaweb21–42/47–78/102–121/125–127; ReinoUnido, asesoríagratuitaconfidencial, alertaanteimpagoriesgos,ordenarlistano resuelvedéficit. Local403archivado,noHTMLfingido. No trasladarnormasbritánicas/condonaciónprioridadeslegalesaotrospaísesni3mesesfondouniversal. NIMHabril2026compartido826paraapoyo/consulta, no diagnósticos.

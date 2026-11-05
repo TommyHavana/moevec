@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-05T01:50:25+00:00.
+Comprobado en WordPress: 2026-11-05T02:15:36+00:00.
 
-**820/840 terminadas · 0 en curso · 20 pendientes.**
+**823/840 terminadas · 0 en curso · 17 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -838,9 +838,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 824 | 55/56 · 14/15 | E2.6.14 | Cómo salir de un grupo sin quemar puentes | terminada | 3/3 | [Leer](https://moevec.org/blog/salir-de-un-grupo-sin-quemar-puentes/) |
 | 825 | 55/56 · 15/15 | E2.6.15 | Construir una tribu de emprendedores: guía práctica | terminada | 3/3 | [Leer](https://moevec.org/blog/construir-tribu-de-emprendedores/) |
 | 826 | 56/56 · 1/15 | E1.7.01 | Salud mental y entorno: por qué no todo depende de ti (ni todo del sistema) | terminada | 3/3 | [Leer](https://moevec.org/blog/salud-mental-y-entorno/) |
-| 827 | 56/56 · 2/15 | E1.7.02 | Escasez y mente: cómo la falta de dinero reduce la capacidad de decidir | pendiente | 0/3 | — |
-| 828 | 56/56 · 3/15 | E1.7.03 | Sentido y resiliencia: lo que enseña Viktor Frankl | pendiente | 0/3 | — |
-| 829 | 56/56 · 4/15 | E1.7.04 | Estrés financiero: señales, efectos y primeros pasos | pendiente | 0/3 | — |
+| 827 | 56/56 · 2/15 | E1.7.02 | Escasez y mente: cómo la falta de dinero reduce la capacidad de decidir | terminada | 3/3 | [Leer](https://moevec.org/blog/escasez-y-mente/) |
+| 828 | 56/56 · 3/15 | E1.7.03 | Sentido y resiliencia: lo que enseña Viktor Frankl | terminada | 3/3 | [Leer](https://moevec.org/blog/sentido-y-resiliencia-frankl/) |
+| 829 | 56/56 · 4/15 | E1.7.04 | Estrés financiero: señales, efectos y primeros pasos | terminada | 3/3 | [Leer](https://moevec.org/blog/estres-financiero/) |
 | 830 | 56/56 · 5/15 | E1.7.05 | Soledad y comunidad: el vínculo como protección | pendiente | 0/3 | — |
 | 831 | 56/56 · 6/15 | E1.7.06 | Trabajo y bienestar: lo que muestran los datos de compromiso laboral | pendiente | 0/3 | — |
 | 832 | 56/56 · 7/15 | E1.7.07 | Pantallas, jóvenes y ansiedad: un debate con datos de ambos lados | pendiente | 0/3 | — |
