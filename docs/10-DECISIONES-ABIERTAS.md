@@ -2336,3 +2336,13 @@ Fuentes y alcances por artículo en research-notes.md y source-review.json. Caso
 
 Continuar **811–813 / E2.6.01–E2.6.03**, tribu → Lealtad Tribal. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **814–816**. **501/E4.2.06,512/E4.3.02,649/E4.12.04,707/E6.6.02 y769/E2.3.04** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.
 Automatización cada tres minutos ya configurada. No se han borrado copias ni originales.
+
+
+## Continuación editorial811-813 ·05/11/2026
+
+**808/840 terminadas, 2424 imágenes originales públicas, 0 en curso o borradores WordPress y 32 pendientes**. Lealtad Tribal 3/15; 49 tandas completas.
+
+Fuentes y alcances por artículo en research-notes.md y source-review.json. Casos y ejemplos identificados, fuentes primarias y límites contrastados antes de publicar. Advertencia SEO: salida WordPress con dos meta descripciones idénticas; textos y títulos correctos. Incidencia de plantilla registrada, fuera de esta producción.
+
+Continuar **814–816 / E2.6.04–E2.6.06**, tribu → Lealtad Tribal. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **817–819**. **501/E4.2.06,512/E4.3.02,649/E4.12.04,707/E6.6.02 y769/E2.3.04** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.
+Automatización cada tres minutos ya configurada. No se han borrado copias ni originales.

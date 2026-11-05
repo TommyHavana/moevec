@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-04T23:57:53+00:00.
+Comprobado en WordPress: 2026-11-05T00:15:52+00:00.
 
-**805/840 terminadas · 0 en curso · 35 pendientes.**
+**808/840 terminadas · 0 en curso · 32 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -822,9 +822,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 808 | 54/56 · 13/15 | E2.5.13 | Agradecer a los maestros: la profesión que construye capital humano | terminada | 3/3 | [Leer](https://moevec.org/blog/agradecer-a-los-maestros/) |
 | 809 | 54/56 · 14/15 | E2.5.14 | Gratitud y crítica: agradecer sin renunciar a exigir | terminada | 3/3 | [Leer](https://moevec.org/blog/gratitud-y-critica/) |
 | 810 | 54/56 · 15/15 | E2.5.15 | Muro de gratitud de MEE: cómo reconocer a quien aporta en la comunidad | terminada | 3/3 | [Leer](https://moevec.org/blog/muro-de-gratitud-mee/) |
-| 811 | 55/56 · 1/15 | E2.6.01 | Lealtad con salida: por qué una tribu sana deja ir | pendiente | 0/3 | — |
-| 812 | 55/56 · 2/15 | E2.6.02 | Familismo amoral: cuando la lealtad al grupo daña a todos | pendiente | 0/3 | — |
-| 813 | 55/56 · 3/15 | E2.6.03 | Lealtad y confianza: el capital que se pierde en un día | pendiente | 0/3 | — |
+| 811 | 55/56 · 1/15 | E2.6.01 | Lealtad con salida: por qué una tribu sana deja ir | terminada | 3/3 | [Leer](https://moevec.org/blog/lealtad-con-salida/) |
+| 812 | 55/56 · 2/15 | E2.6.02 | Familismo amoral: cuando la lealtad al grupo daña a todos | terminada | 3/3 | [Leer](https://moevec.org/blog/familismo-amoral-banfield/) |
+| 813 | 55/56 · 3/15 | E2.6.03 | Lealtad y confianza: el capital que se pierde en un día | terminada | 3/3 | [Leer](https://moevec.org/blog/lealtad-y-confianza/) |
 | 814 | 55/56 · 4/15 | E2.6.04 | Lealtad no es encubrimiento: la ética por encima del grupo | pendiente | 0/3 | — |
 | 815 | 55/56 · 5/15 | E2.6.05 | Lealtad a las ideas: cuándo cambiar de opinión no es traición | pendiente | 0/3 | — |
 | 816 | 55/56 · 6/15 | E2.6.06 | Lealtad del cliente: por qué la competencia es la mejor fidelización | pendiente | 0/3 | — |
