@@ -1,0 +1,11 @@
+import {readingPaths} from '../../lib/reading-paths';
+import {Breadcrumbs,JsonLd,origin,pageMeta} from '../../lib/seo';
+
+export const metadata=pageMeta('Empieza aquí: tres rutas para leer MEE','Elige una ruta de seis lecturas para organizar tus finanzas, mejorar tus capacidades laborales o entender la economía. Avanza a tu ritmo.','/empieza-aqui/');
+export default function StartPage(){return <main id="contenido" className="reading-hub">
+ <Breadcrumbs items={[{name:'Inicio',path:'/'},{name:'Empieza aquí',path:'/empieza-aqui/'}]}/>
+ <header className="reading-intro"><h1>Empieza por<br/>lo que te importa<span className="title-dot">.</span></h1><div><p>Elige una pregunta. Sigue seis lecturas en orden y lleva una idea a tu vida cotidiana.</p><p>Las rutas reúnen artículos del editorial MEE. Puedes seguirlas completas o volver al paso que necesites.</p></div></header>
+ <section className="reading-routes" aria-label="Elige tu ruta">{readingPaths.map((path,i)=><article className={`reading-route reading-route-${i}`} key={path.slug}><div className="reading-route-mark" aria-hidden="true">{i===0?'€':i===1?'+':'?'}</div><div><p className="reading-duration">6 lecturas · unos {path.minutes} minutos en total</p><h2><a href={`/empieza-aqui/${path.slug}/`}>{path.title}</a></h2><p>{path.intro}</p><a className="pill-link" href={`/empieza-aqui/${path.slug}/`}>Explorar esta ruta <span aria-hidden="true">↗</span></a></div></article>)}</section>
+ <section className="reading-other"><h2>También puedes elegir tu propio recorrido.</h2><p>Busca una idea en el blog o entra en una de las siete áreas para explorar sus temas.</p><div><a className="text-link" href="/blog/">Buscar en el editorial</a><a className="text-link" href="/#areas">Explorar las áreas</a><a className="text-link" href="/seguir-mee/">Seguir leyendo MEE</a></div></section>
+ <JsonLd data={{'@context':'https://schema.org','@type':'CollectionPage','@id':origin+'/empieza-aqui/#webpage',url:origin+'/empieza-aqui/',name:'Empieza aquí: rutas de lectura MEE',isPartOf:{'@id':origin+'/#website'},mainEntity:{'@type':'ItemList',itemListElement:readingPaths.map((p,i)=>({'@type':'ListItem',position:i+1,name:p.title,url:origin+'/empieza-aqui/'+p.slug+'/'}))}}}/>
+ </main>;}

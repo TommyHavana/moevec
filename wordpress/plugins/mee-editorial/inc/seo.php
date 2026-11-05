@@ -1,5 +1,6 @@
 <?php
 defined('ABSPATH') || exit;
+function mee_has_rank_math(){return defined('RANK_MATH_VERSION')&&function_exists('rank_math')&&(bool)rank_math()->frontend;}
 function mee_breadcrumb_items(){
  $items=[['name'=>'Inicio','url'=>'https://moevec.org/'],['name'=>'Blog','url'=>home_url('/')]];
  $term=null;
@@ -26,7 +27,7 @@ function mee_seo_data(){
  return ['title'=>wp_get_document_title(),'description'=>mb_substr($description,0,180),'image'=>$image,'url'=>$url];
 }
 add_action('wp_head',function(){
- if(is_404())return;$d=mee_seo_data();
+ if(is_404()||mee_has_rank_math())return;$d=mee_seo_data();
  // Core emits the canonical on singular posts.
  if(!is_singular())echo '<link rel="canonical" href="'.esc_url($d['url']).'">';
  echo '<meta name="description" content="'.esc_attr($d['description']).'"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:locale" content="es_ES"><meta property="og:site_name" content="MEE"><meta property="og:type" content="'.(is_single()?'article':'website').'">';

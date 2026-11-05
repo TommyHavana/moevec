@@ -1,5 +1,6 @@
 <?php
 defined('ABSPATH') || exit;
+add_action('after_setup_theme',function(){remove_action('wp_head','hello_elementor_add_description_meta_tag');},99);
 add_action('wp_enqueue_scripts',function(){
  $version=(string)filemtime(get_stylesheet_directory().'/style.css');
  wp_enqueue_style('mee-editorial',get_stylesheet_uri(),[],$version);

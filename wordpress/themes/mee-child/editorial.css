@@ -6,3 +6,14 @@
 
 .mee-article-toc{max-height:calc(100svh - 80px);overflow-y:auto;padding-right:8px}.mee-byline{font-size:.85rem;font-weight:650}.entry-content h3{font-size:clamp(1.15rem,1.7vw,1.5rem);line-height:1.35;letter-spacing:-.02em;margin:1.8em 0 .65em}.entry-content img{height:auto}.mee-source-note{font-size:.8rem;line-height:1.7;color:var(--muted)}
 @media(max-width:640px){.mee-article-toc{max-height:none;overflow:visible}.mee-article h1{font-size:clamp(2rem,9vw,3rem);overflow-wrap:normal}}
+/* Discovery controls and reading paths share the visual language of Next.js. */
+.mee-editorial-tools .mee-discovery-form{max-width:650px;width:100%}
+.mee-editorial-tools .mee-discovery-selects{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:18px}
+.mee-discovery-selects label{display:flex;flex-direction:column;gap:8px;font-size:.85rem}
+.mee-discovery-selects select{width:100%;min-height:44px;background:#fff;color:var(--ink);border:1px solid #94979d;border-radius:3px;padding:10px;font:inherit}
+.mee-discovery-selects select:focus-visible{outline:3px solid var(--red);outline-offset:2px}
+.mee-filter-reset{display:inline-block;margin-top:15px;font-size:.85rem;text-underline-offset:4px}
+.mee-path-continuation{padding:30px clamp(20px,4vw,55px);margin:55px auto;background:var(--blue);color:#fff;max-width:1000px}
+.mee-path-continuation h2{font:900 clamp(1.5rem,3vw,2.7rem)/1.2 'MEE Archivo',sans-serif}
+.mee-path-continuation a{color:#fff;text-underline-offset:4px}.mee-path-continuation p{line-height:1.8}
+@media(max-width:640px){.mee-editorial-tools .mee-discovery-selects{grid-template-columns:1fr}}

@@ -2460,3 +2460,8 @@ El fundador aprobó las seis alternativas preparadas: «usa todas las alternativ
 **840/840 terminadas, 2520 imágenes originales públicas, 0 en curso y 0 pendientes.** Las seis alternativas fueron aprobadas explícitamente por el fundador, publicadas y verificadas. Se conservan todos los identificadores y slugs; el plan editorial queda cerrado y la automatización eliminada.
 
 Títulos definitivos y comprobaciones en `docs/produccion/2026-11-05-cierre-840.md`. Los seis originales de título permanecen documentados en la aprobación y en los briefs; ID y slugs se conservan. No hay próximo bloque ni seguimiento de producción activo.
+
+
+## Rutas y Rank Math ·05/11/2026
+
+Encargo autorizado sin nuevas confirmaciones: paquete «Empieza aquí» publicado con tres rutas y 18 lecturas, marcas locales, filtros de tema/nivel, relacionados, continuidad y RSS. Rank Math 1.0.281 instalado y activo; 840 entradas y 2520 imágenes con metadatos migrados; 122 categorías conservadas. Se corrige la descripción duplicada de Hello Elementor y se coordinan schema y sitemaps con Next.js. Puntuación real tras revisión: media78,10, mínimo67, máximo87, 461 verdes y0 por debajo de50. Search Console, tracking y analytics los configurará el fundador. El padre de plugins permanece protegido después del rechazo automático a ampliar sus permisos; la instalación se realizó solo por despliegue. Ver `28-RUTAS-Y-SEO-RANK-MATH.md` para evidencia y el punto de verificación/despliegue final. La producción840 ya está cerrada y su automatización retirada.

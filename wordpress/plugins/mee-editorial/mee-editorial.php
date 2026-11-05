@@ -43,7 +43,7 @@ add_action('acf/init', function () {
     ]);
 });
 
-foreach (["contact", "security", "seo", "network", "production"] as $module) require_once __DIR__ . "/inc/" . $module . ".php";
+foreach (["contact", "security", "seo", "network", "production", "discovery", "rank-math"] as $module) require_once __DIR__ . "/inc/" . $module . ".php";
 
 add_action('add_meta_boxes_post', function() {
     add_meta_box('mee-editorial-state', 'Producción editorial MEE', function($post) {

@@ -57,5 +57,5 @@ add_action('template_redirect', function() {
     }
 }, 5);
 
-add_filter('pre_get_document_title', function($title) { if (is_single()) { $seo=get_post_meta(get_the_ID(), '_mee_seo_title', true); if ($seo) return $seo; } return $title; });
+add_filter('pre_get_document_title', function($title) { if (is_single()&&!mee_has_rank_math()) { $seo=get_post_meta(get_the_ID(), '_mee_seo_title', true); if ($seo) return $seo; } return $title; });
 add_filter('wp_robots', function($robots) { if (is_singular() && get_post_status()==='private') { $robots['noindex']=true; $robots['nofollow']=true; } if (is_tag(['fundamentos','desarrollo','aplicacion']) || is_date()) $robots['noindex']=true; return $robots; });
