@@ -1,0 +1,2036 @@
+
+
+
+<!DOCTYPE html>
+<html id="html" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/global/icons/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/global/icons/favicon.ico" type="image/vnd.microsoft.icon">
+    <link rel="apple-touch-icon-precomposed" href="/global/icons/apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="/global/icons/apple-touch-icon-72x72-precomposed.png" sizes="72x72">
+    <link rel="apple-touch-icon-precomposed" href="/global/icons/apple-touch-icon-76x76-precomposed.png" sizes="76x76">
+    <link rel="apple-touch-icon-precomposed" href="/global/icons/apple-touch-icon-114x114-precomposed.png" sizes="114x114">
+    <link rel="apple-touch-icon-precomposed" href="/global/icons/apple-touch-icon-120x120-precomposed.png" sizes="120x120">
+    <link rel="apple-touch-icon-precomposed" href="/global/icons/apple-touch-icon-144x144-precomposed.png" sizes="144x144">
+    <link rel="apple-touch-icon-precomposed" href="/global/icons/apple-touch-icon-152x152-precomposed.png" sizes="152x152">
+    <link rel="apple-touch-icon-precomposed" href="/global/icons/apple-touch-icon-180x180-precomposed.png" sizes="180x180">
+    <link rel="icon" href="/global/icons/touch-icon-192x192.png" sizes="192x192">
+    
+
+
+
+    <script>
+        function getCookie(cName) {
+            let name = cName + "=";
+            let decodedCookie = decodeURIComponent(document.cookie);
+            let ca = decodedCookie.split(';');
+            for (const element of ca) {
+                let c = element.trim();
+                if (c.indexOf(name) === 0) {
+                    return c.substring(name.length);
+                }
+            }
+            return "";
+        }
+
+        const regionCookieName = "STYXKEY-region";
+        const regionCookie = getCookie(regionCookieName) || "nam";
+
+        const registerCookieName = "register-account-session";
+        if (document.referrer === '' || document.referrer.indexOf(window.location.host) === -1) {
+            document.cookie = registerCookieName + '=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+        }
+        const registerSession = getCookie(registerCookieName);
+        let loggedinStatus = 'guest';
+        const profileId = '';
+        const role = '';
+
+        if (registerSession) {
+            loggedinStatus = 'new-profile';
+        }
+
+        window.dataLayer = window.dataLayer || [];
+        let userProfile = {
+            id: profileId,
+            role: role
+        };
+        window.dataLayer.push({
+            site: {
+                region: regionCookie,
+                currency: 'USD',
+                pillar: 'UKTP',
+                page_type: 'Book'
+            },
+            user: {
+                status: loggedinStatus,
+                profile: userProfile
+            }
+        });
+    </script>
+
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://analytics.sagepub.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5R9QN8');</script><script charset="UTF-8" data-domain-script="01903b90-3e97-7898-87a2-6ece9db5ebc6" src="https://cdn-ukwest.onetrust.com/scripttemplates/otSDKStub.js" type="text/javascript"></script><script type="text/javascript">
+function OptanonWrapper() {
+    const event = new Event('onetrustloaded');
+    document.dispatchEvent(event);
+    window.OneTrustLoaded = true;
+ }
+</script><script>
+    !function(t,e){var o,n,p,r;e.__SV||(window.posthog && window.posthog.__loaded)||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="Mi Ri init Vi Gi Rr Wi Ji Bi capture calculateEventProperties tn register register_once register_for_session unregister unregister_for_session an getFeatureFlag getFeatureFlagPayload getFeatureFlagResult isFeatureEnabled reloadFeatureFlags updateFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSurveysLoaded onSessionId getSurveys getActiveMatchingSurveys renderSurvey displaySurvey cancelPendingSurvey canRenderSurvey canRenderSurveyAsync un identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset setIdentity clearIdentity get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException addExceptionStep captureLog startExceptionAutocapture stopExceptionAutocapture loadToolbar get_property getSessionProperty nn Xi createPersonProfile setInternalOrTestUser sn Hi cn opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing get_explicit_consent_status is_capturing clear_opt_in_out_capturing Ki debug Lr rn getPageViewId captureTraceFeedback captureTraceMetric Di".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+    posthog.init('phc_lRjLLAqY28nfIBUvd29OG31zhVGnTB70hKWzE6uAtDS', {
+        api_host: 'https://eu.i.posthog.com',
+        defaults: '2026-01-30',
+        person_profiles: 'identified_only', // or 'always' to create profiles for anonymous users as well
+    })
+</script><script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+
+  "@id": "https://www.sagepub.com/#organization",
+
+  "name": "Sage Publishing",
+  "alternateName": [
+    "SAGE Publications",
+    "SAGE",
+    "sagepub",
+    "SAGE Publications Inc",
+    "SAGE Publications Ltd"
+  ],
+
+  "url": "https://www.sagepub.com",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://www.sagepub.com/images/default-source/corporate-comms/sage-logo.png",
+    "width": 243,
+    "height": 123
+  },
+
+  "description": "Sage Publishing is an independent academic publisher founded in 1965, publishing more than 1,000 peer-reviewed journals and over 800 books per year across the social sciences, humanities, science, technology, and medicine.",
+
+  "foundingDate": "1965",
+  "foundingLocation": {
+    "@type": "Place",
+    "name": "New York City, New York, USA"
+  },
+
+  "founder": {
+    "@type": "Person",
+    "name": "Sara Miller McCune",
+    "sameAs": "https://en.wikipedia.org/wiki/Sara_Miller_McCune"
+  },
+
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "2455 Teller Road",
+    "addressLocality": "Thousand Oaks",
+    "addressRegion": "CA",
+    "postalCode": "91320",
+    "addressCountry": "US"
+  },
+
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "url": "https://www.sagepub.com/contact-and-support/contact-us",
+      "areaServed": "Worldwide"
+    },
+   {
+      "@type": "ContactPoint",
+      "contactType": "sales",
+      "url": "https://www.sagepub.com/contact-and-support/contact-us/librarian-reps",
+      "areaServed": "Worldwide"
+    }
+  ],
+
+  "areaServed": "Worldwide",
+
+  "sameAs": [
+    "https://en.wikipedia.org/wiki/Sage_Publishing",
+    "https://www.wikidata.org/wiki/Q251266",
+    "https://ror.org/05534qc24",
+    "https://isni.org/isni/0000000405025717",
+    "https://sherpa.ac.uk/romeo/pub/65/",
+    "https://www.linkedin.com/company/sage-publishing",
+    "https://www.facebook.com/SagePublications/",
+    "https://www.youtube.com/@SagePublications"
+  ],
+
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "name": "Wikidata QID",
+      "propertyID": "https://www.wikidata.org/wiki/Property:P6366",
+      "value": "Q251266"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "ROR ID",
+      "propertyID": "https://ror.org",
+      "value": "05534qc24"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "ISNI",
+      "propertyID": "https://isni.org",
+      "value": "0000000405025717"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Ringgold ID",
+      "propertyID": "https://www.ringgold.com",
+      "value": "10287"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "RoMEO Publisher ID",
+      "propertyID": "https://v2.sherpa.ac.uk/romeo/",
+      "value": "65"
+    }
+  ],
+
+  "hasOfferCatalog": [
+    {
+      "@type": "OfferCatalog",
+      "name": "Journals",
+      "description": "Over 1,000 peer-reviewed academic journals across social sciences, humanities, science, technology, and medicine.",
+      "url": "https://www.sagepub.com/journals"
+    },
+    {
+      "@type": "OfferCatalog",
+      "name": "Books",
+      "description": "Academic books, textbooks, and reference works across key disciplines.",
+      "url": "https://www.sagepub.com/explore-our-content/books"
+    }
+  ],
+
+  "subOrganization": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.corwin.com/#organization",
+      "name": "Corwin",
+      "url": "https://www.corwin.com",
+      "description": "Professional learning and resources for K-12 educators.",
+      "sameAs": "https://en.wikipedia.org/wiki/Corwin_Press"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.cqpress.com/#organization",
+      "name": "CQ Press",
+      "url": "https://www.cqpress.com",
+      "description": "Publisher of political science, government, and public policy resources.",
+      "sameAs": "https://en.wikipedia.org/wiki/CQ_Press"
+    },
+    {
+      "@type": "Organization",
+      "name": "Learning Matters",
+      "url": "https://uk.sagepub.com/en-gb/eur/learning-matters",
+      "description": "Publisher of resources for teacher education and professional development."
+    },
+    {
+      "@type": "Organization",
+      "name": "Adam Matthew Digital",
+      "url": "https://www.amdigital.co.uk",
+      "description": "Provider of primary source digital collections for academic libraries.",
+      "sameAs": "https://en.wikipedia.org/wiki/Adam_Matthew_Digital"
+    }
+  ],
+
+  "knowsAbout": [
+    "Social Sciences",
+    "Humanities",
+    "Academic Publishing",
+    "Open Access Publishing",
+    "Peer Review",
+    "Institutional Library Licensing",
+    "COUNTER Usage Reporting",
+    "Qualitative Research Methods",
+    "Political Science",
+    "Education",
+    "Psychology",
+    "Sociology",
+    "Public Health",
+    "Business and Management"
+  ],
+
+  "publishingPrinciples": "https://www.sagepub.com/journals/publication-ethics-policies"
+}
+</script><title>Psychological Contracts in Organizations</title><meta property="og:title" content="Psychological Contracts in Organizations"><meta property="og:description" content="Recipient of the George Terry Book Award sponsored by the Academy of Management
+&quot;The incredible number of specific illustrations embedded in this text is a great asset. The book will be a good rea..."><meta property="og:site" content="Default"><meta name="description" content="Recipient of the George Terry Book Award sponsored by the Academy of Management
+&quot;The incredible number of specific illustrations embedded in this ..."><link rel="canonical" href="https://www.sagepub.com/shop/buy-a-book/psychological-contracts-in-organizations-1-5077" />
+    
+    
+        <link rel="stylesheet" href="/global/styles/main.min.css?v=LytyQaFPH9mSUYOmf_Ym4jpOSD1nrqg12AxVTMckkxI" type="text/css">
+    
+
+    
+
+<meta property="application-name" content="sfSageApp" data-service-path="api/default" />
+
+    <script src="https://js.monitor.azure.com/scripts/b/ai.3.3.9.min.js" integrity="sha384-n1wI34E/d8F9BP0CWEuELGGM1aEU8LiE5rXUaZUnyZdCT6t4LtC3c7M6dbdNr0hO" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        var appInsights = new Microsoft.ApplicationInsights.ApplicationInsights({
+            config: {
+                connectionString: "InstrumentationKey=df7b65f5-80a8-4d15-b19e-e9606927fd15;IngestionEndpoint=https://westus-0.in.applicationinsights.azure.com/;LiveEndpoint=https://westus.livediagnostics.monitor.azure.com/;ApplicationId=c0e84ab3-5f05-4b42-a4d1-09ac5db5bf76"
+            }
+        });
+        appInsights.addTelemetryInitializer(function (envelope) {
+            envelope.tags = envelope.tags || {};
+            envelope.tags["ai.cloud.role"] = "Renderer";
+        });
+        appInsights.loadAppInsights();
+        appInsights.trackPageView();
+    </script>
+
+</head>
+
+<body><noscript><iframe src="https://analytics.sagepub.com/ns.html?id=GTM-5R9QN8" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script id="-708366566" src="https://www.google.com/books/jsapi.js?package_name=Global" type="text/javascript"></script><script id="-1612137357" src="/sfrenderer/scripts/DarkModeToggle/default.min.js?assembly_name=CoreWeb.Sitefinity.Widgets&amp;package_name=Global&amp;version=1438736795" type="text/javascript"></script>
+    <div id="header">
+
+<div class="" >
+</div>
+
+
+
+    
+
+
+
+<header>
+    <button type="button" class="btn btn-sm btn-skip visually-hidden-focusable" id="skipToMain">Skip to main content</button>
+    <div class="header_upper">
+        <div class="container">
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                         viewBox="0 0 32 32"
+                         fill="none">
+                        <path fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M2.66663 2.66667H29.3333V5.33334H2.66663V2.66667ZM2.66663 14.6667H24V17.3333H2.66663V14.6667ZM18.6666 26.6667H2.66663V29.3333H18.6666V26.6667Z"
+                              fill="white"></path>
+                    </svg>
+                </span>
+            </button>
+            <div class="logo">
+<div id="02380440-630b-4a17-9fd0-c96664712740">
+    
+</div></div>
+            <div class="header_content">
+                <div>
+<div id="484a2344-2c17-497a-8abb-b2375868aa2e">
+    
+</div></div>
+                <div class="header_buttons">
+<div id="b2d7a9a7-69ec-4ca9-a288-9154698d574d">
+    
+</div>
+<div id="c15f2b81-bf98-4258-9634-9dfdd09fae09">
+    
+</div>
+<div id="0ead6e8a-fc81-4bda-8022-c2bd7047f7b0">
+    
+</div>
+
+
+
+<script type="text/template" id="glb-icfr-cart-item-template">
+    <div class="pt-3 pb-2">
+        <div class="d-flex">
+            <input type="hidden" class="cart-status-item" data-sf-role="sf-status-icfr-cart-datalayer-item"
+                   data-cart-type="ICFR"
+                   data-type="{type}"
+                   data-title="{name}"
+                   data-itemid="{productCode}"
+                   data-code-number="{codeNumber}"
+                   data-variant="{variant}"
+                   data-disciplines="" />
+            <img height="125" src="{image}" alt="" data-fallback="/global/styles/images/placeholder-cover.svg">
+            <div class="ps-3 pe-2 text-start w-100 text-m">
+                <a class="d-block text-body text-decoration-none" href="{url}">
+                    <span class="fw-semibold text-decoration-underline">{name}</span>
+                    <span class="d-block fst-italic">{statusedition}</span>
+                </a>
+                <div class="d-flex justify-content-between mt-1">
+                    <span>{variant}</span>
+                    <span class="fw-semibold fst-italic">For inspection only</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+<script type="text/template" id="glb-icfr-cart-status-added-item-alert-template">
+    <div data-sf-role="sf-icfr-cart-added-item-wrapper"
+         class="alert alert-success alert-dismissible border-0 rounded-0 text-start bg-success-bg shadow-1 d-none d-md-flex"
+         role="alert">
+        <i class="bi bi-check-circle-fill bg-success-main pe-2 d-inline-block align-middle"></i>
+        <span class="fw-semibold text-body d-inline-block align-middle">Item added to cart</span>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close alert"></button>
+    </div>
+</script>
+<script type="text/template" id="glb-icfr-cart-status-added-item-alert-mobile-template">
+    <div data-sf-role="sf-icfr-cart-added-item-mobile-wrapper"
+         class="alert alert-success alert-dismissible border-0 rounded-0 bg-success-bg shadow-1 w-100 mb-0 position-fixed start-0 top-0 d-flex d-md-none"
+         role="alert">
+        <i class="bi bi-check-circle-fill bg-success-main pe-2 d-inline-block align-middle"></i>
+        <span class="fw-semibold d-inline-block align-middle">Item added to cart</span>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close alert"></button>
+    </div>
+</script>
+
+    <input type="hidden" data-sf-role="sf-icfr-cart-path" value="/restapi/icfrcart" />
+    <input type="hidden" data-sf-role="sf-icfr-add-product-path" value="/restapi/additemtoicfrcart" />
+    <input type="hidden" data-sf-role="sf-icfr-remove-product-path" value="/restapi/removeitemfromicfrcart" />
+    <input type="hidden" data-sf-role="sf-icfr-checkout-path" value="/restapi/geticfrcheckouturl" />
+    <input type="hidden" data-sf-role="sf-icfr-ineligible-path" value="/inspection-copies/login/ineligible" />
+    <input type="hidden" data-sf-role="sf-icfr-restricted-path" value="/inspection-copies/login/unavailable" />
+    <input type="hidden" data-sf-role="sf-icfr-cart-page-url" value="/ic-cart" />
+    
+    
+        
+        
+    
+</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header_lower">
+        <nav class="headernav navbar navbar-expand-xl" aria-label="Main">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="navbar-mobile-heading bg-primary d-xl-none">
+                    <div class="container d-flex justify-content-between align-items-center">
+                        <div class="h-m">Menu</div>
+                        <button class="btn close"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent"
+                                aria-controls="navbarSupportedContent"
+                                aria-expanded="false"
+                                aria-label="Toggle navigation">
+                            <svg width="24"
+                                 height="24"
+                                 viewBox="0 0 24 24"
+                                 fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                      clip-rule="evenodd"
+                                      d="M12.0001 13.4143L20.293 21.7072L21.7072 20.293L13.4143 12.0001L21.7072 3.70718L20.293 2.29297L12.0001 10.5859L3.70718 2.29297L2.29297 3.70718L10.5859 12.0001L2.29297 20.293L3.70718 21.7072L12.0001 13.4143Z"
+                                      fill="#D9EEFF"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div>
+<div id="529834ce-608b-45d9-9d60-47124edce67a">
+    
+</div></div>
+                    <div class="header_search d-none d-xl-block">
+<div id="84009a5f-5018-4165-9a85-4206f4278e9d">
+    
+</div></div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header></div>
+    <main id="main">
+
+
+    <script type="text/template" id="glb-book-detail-alert-template">
+        <div class="alert alert-{style} border-0 rounded-0 shadow-1 my-2" role="alert">
+        <div class="d-flex text-m">
+        <i class="bi {icon} me-3"></i>
+        <div>{error}</div>
+        <button type="button" class="btn-close ms-auto" data-bs-dismiss="alert" aria-label="Close message: {error}"></button>
+        </div>
+        </div>
+    </script>
+    <script type="text/template" id="glb-book-button-spinner-template">
+        <div class="mx-1 spinner-border" role="status" style="width: 15px;height: 15px;">
+        <span class="visually-hidden">Loading...</span>
+        </div>
+    </script>
+    <script type="application/ld&#x2B;json">
+        {
+  "disambiguatingDescription": "Understanding Written and Unwritten Agreements",
+  "bookEdition": "",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Denise M. Rousseau",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Carnegie Mellon University, USA"
+        }
+      ]
+    }
+  ],
+  "datePublished": "1995-05-18",
+  "numberOfPages": 264,
+  "@context": "https://schema.org",
+  "@type": "Book",
+  "@id": "https://www.sagepub.com/shop/buy-a-book/psychological-contracts-in-organizations-1-5077",
+  "url": "https://www.sagepub.com/shop/buy-a-book/psychological-contracts-in-organizations-1-5077",
+  "name": "Psychological Contracts in Organizations",
+  "image": "https://cmn-cdn-001.sagepub.com/books/titles/5077/cov_sb1_141.gif",
+  "description": "Recipient of the George Terry Book Award sponsored by the Academy of Management  \\\"The incredible number of specific illustrations embedded in this text is a great asset. The book will be a good read for a potentially wide academic audience of professors and students (especially in psychology and business schools), anybody interested in contracts in the nonlegal sense, and for 'thinking managers' and practitioners. Psychological Contracts in Organizations will become a standard reference in the organizational sciences by 1997.\\\"  --Richard Guzzo,  University of Maryland, College Park  This unique book examines the organizational, social, and psychological meaning of contracts, written and unwritten, in organizations. The author addresses a multitude of important topics, including contract making, interpretation of contracts, contracts that are emerging due to the turmoil and economic forces in the 1990s, contract violations, and strategies for changing contracts. In addition, this volume includes a thought-provoking discussion of how contracts are linked to an organization's strategy and its human resource practices. This outstanding volume concludes with an assessment of societal trends that point to large-scale changes in future employment contracts.  Psychological Contracts in Organizations will capture the interest of advanced undergraduate and graduate students, scholars, managers, and researchers in the areas of organizational behavior, management, organizational psychology, human relations, industrial relations, law, and socioeconomics.",
+  "text": "Introduction, Contracting, A Modern Dilemma, Contract Making, The Contract Makers, Contemporary Contracts, Violating the Contract, Changing the Contract, Business Strategy and Contracts, Trends in the New Social Contract",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Sage US"
+  },
+  "workExample": [
+    {
+      "@type": "Book",
+      "@id": "https://www.sagepub.com/shop/buy-a-book/psychological-contracts-in-organizations-1-5077",
+      "isbn": "9781506320380",
+      "issn": null,
+      "bookFormat": "https://schema.org/EBook",
+      "name": null,
+      "inLanguage": null,
+      "bookEdition": null,
+      "offers": [
+        {
+          "@type": "Offer",
+          "price": "90",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "priceValidUntil": null,
+          "url": null,
+          "name": "180 Day Ebook"
+        },
+        {
+          "@type": "Offer",
+          "price": "130",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "priceValidUntil": null,
+          "url": null,
+          "name": "Lifetime"
+        }
+      ]
+    },
+    {
+      "@type": "Book",
+      "@id": "https://www.sagepub.com/shop/buy-a-book/psychological-contracts-in-organizations-1-5077",
+      "isbn": "9780803971059",
+      "issn": null,
+      "bookFormat": "https://schema.org/Paperback",
+      "name": null,
+      "inLanguage": null,
+      "bookEdition": null,
+      "offers": [
+        {
+          "@type": "Offer",
+          "price": "235",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "priceValidUntil": null,
+          "url": null,
+          "name": "Paperback"
+        }
+      ]
+    }
+  ]
+}
+    </script>
+    <div class="" data-sf-role="sage-book" data-initialized="false" id="books-detail"  class="container">
+        <input type="hidden" name="UniqueId" data-sf-role="hawksearch-unique-id" value="12f8dc2e-0450-4e3d-8fd0-e594b827b446en" />
+        <input type="hidden" name="ProductGuid" data-sf-role="product-guid" value="12f8dc2e-0450-4e3d-8fd0-e594b827b446" />
+        <input type="hidden" name="ProductId" data-sf-role="product-id" value="5077" />
+        <input type="hidden" name="ProductName" data-sf-role="product-name" value="Psychological Contracts in Organizations" />
+        <input type="hidden" name="ProductBrand" data-sf-role="product-brand" value="Book" />
+        <input type="hidden" name="ProductDiscipline" data-sf-role="product-discipline" value="Business &amp; Management" />
+        <input type="hidden" name="ProductPrice" data-sf-role="product-price" value="235" />
+        <input type="hidden" name="BookSectionMaxDigitalItemErrorMessage" value="This eBook is already in your cart. Only one digital version of this title can be added." />
+        <input type="hidden" name="BookSectionMaxPrintedItemsErrorMessage" value="You&#x2019;ve reached the maximum quantity allowed for this item." />
+        <input type="hidden" name="BookSectionAddToCartDefaultErrorMessage" value="Unable to add item to cart." />
+
+        <div class="bg-none my-5">
+            <div class="container">
+                <div class="book d-flex flex-column d-md-block">
+                    <div class="float-md-end order-2 mt-4 offset-md-1 col-md-8 mt-4">
+                        <div class="mb-3">
+                            <div class="d-flex justify-content-between align-items-center mb-1">
+                                    <h1 class="h-xl fw-semibold mb-1 pe-5">Psychological Contracts in Organizations</h1>
+                            </div>
+                                <div class="h-m text-body mb-1">Understanding Written and Unwritten Agreements</div>
+            <div class="text-m mb-1">
+                <a class="fw-semibold text-primary" href="https://www.sagepub.com/explore-our-content/authors/denise-rousseau-517633"
+                       aria-label="Denise M. Rousseau - View Contributor Bio">
+                    Denise M. Rousseau
+                </a>
+                    <span> - Carnegie Mellon University, USA</span>
+            </div>
+                                <div class="text-m mb-3">
+                                    <button class="btn btn-collapse" type="button" data-bs-toggle="collapse" data-bs-target="#otherTitles" aria-expanded="false" aria-controls="otherTitles">
+                                        <i class="bi bi-plus-lg bi-sm"></i>  Related books:
+                                    </button>
+                                    <div class="collapse" id="otherTitles">
+                                        <div class="pt-2">
+                                                <a href="/shop/buy-a-book?disciplines=Business%20%26%20Management--600">Business &amp; Management</a>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+
+                    <div class="float-md-start order-1 col-md-3">
+                        <div class="book-cover">
+                                <div class="d-flex justify-content-end mb-1">
+                                    <button type="button"
+                                            class="border-0 p-0 bg-transparent text-decoration-underline h-xs d-none"
+                                            data-bs-toggle="modal"
+                                            data-bs-target="#look-inside-modal"
+                                            data-look-inside-trigger
+                                            data-look-inside-requires-preview="true"
+                                            aria-label="Look Inside: Psychological Contracts in Organizations">
+                                        Look Inside
+                                        <img class="d-none d-lg-inline-block" src="/global/styles/images/lookinside.svg" alt="">
+                                    </button>
+                                </div>
+                                <div class="modal fade" id="look-inside-modal" tabindex="-1"
+                                     aria-labelledby="look-inside-modal-label" aria-hidden="true">
+                                    <div class="modal-dialog modal-xl">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h2 class="h-s modal-title" id="look-inside-modal-label">
+                                                    Psychological Contracts in Organizations
+                                                </h2>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="ratio ratio-1x1">
+                                                        <div data-google-preview-isbns="1452264716,9781452264714,1506320384,9781506320380,0803971052,9780803971059"
+                                                             data-google-preview-sample-url=""
+                                                             data-google-preview-title="Psychological Contracts in Organizations"
+                                                             data-google-preview-failed-message="The preview failed to load. Please refresh the page and try again."></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+            <div class="position-relative w-100" data-cover-wrapper>
+                    <img class="img-fluid w-100 rounded-3 shadow-5 mb-2_5" loading="eager"
+                         src="https://cmn-cdn-001.sagepub.com/books/titles/5077/cov_sb1_141.gif" alt="Psychological Contracts in Organizations"
+                         data-fallback-card="1"
+                         height="372" width="288">
+                <div class="d-none" data-cover-fallback>
+                    <div class="search-placeholder bg-product-books">
+                        <span class="search-placeholder__inner">
+                            <img src="/global/styles/images/placeholders/book.svg" alt="">
+                        </span>
+                    </div>
+                </div>
+            </div>
+                        </div>
+
+                        <div class="text-s mb-2_5">
+            <span>May 1995</span>
+            <span>|</span>
+            <span>264 pages</span>
+            <span>|</span>
+            <span>Sage US</span>
+                        </div>
+
+                        <div class="d-flex justify-content-between align-items-center mb-md-4">
+                            <a class="text-s"
+                                   href="#"
+                                   data-bs-toggle="modal"
+                                   data-bs-target="#download-flyer-modal"
+                                   aria-label="Create Flyer for: Psychological Contracts in Organizations">
+                                <i class="bi bi-download text-primary me-2 bi-sm align-middle"></i>
+                                Create Flyer
+                            </a>
+                            <div class="modal fade" id="download-flyer-modal" tabindex="-1" aria-labelledby="download-flyer-modal-label" style="display: none;" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h2 class="h-s modal-title" id="download-flyer-modal-label">Create a flyer for "Psychological Contracts in Organizations"</h2>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Please select the features you would like to be included in your flyer. This will be available to view and save when you click the &#x27;create flyer&#x27; link</p>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="ckFlyerVar" checked="">
+                                                    <label class="form-check-label" for="ckFlyerVar">Products</label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="ckFlyerTOC" checked="">
+                                                    <label class="form-check-label" for="ckFlyerTOC">Table of contents</label>
+                                                </div>
+                                            <br>
+                                            <button id="btn-open-flyer-view"
+                                                    type="button"
+                                                    class="btn btn-primary"
+                                                    data-bs-dismiss="modal"
+                                                    aria-label="Create Flyer for: Psychological Contracts in Organizations">
+                                                Create Flyer
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-md-none">
+        
+
+
+
+    <div class="share"
+         data-sf-role="social-share-component"
+         data-share-title="Psychological Contracts in Organizations"
+         data-share-url=""
+         data-share-text="Check out this book!"
+         data-share-twitter="Sage_Publishing"
+         data-share-linkedin="sage-publishing">
+
+
+            <div class="dropdown">
+                <button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="bi bi-share"></i><span class="visually-hidden">Share</span>
+                </button>
+                <div class="dropdown-menu dropdown-menu-end">
+                    <div class="h-xs text-primary">Share options</div>
+                    <div class="dropdown-menu-inner">
+                            <button type="button"
+                                    aria-label="Share on X"
+                                    class="dropdown-item"
+                                    data-share-event="twitter"
+                                    data-sf-role="sf-engagement-toggle"
+                                    data-sf-counter-name="SHARE">
+                                <i class="bi bi-twitter-x"></i>
+                            </button>
+                            <button type="button"
+                                    aria-label="Share on Facebook"
+                                    class="dropdown-item"
+                                    data-share-event="facebook"
+                                    data-sf-role="sf-engagement-toggle"
+                                    data-sf-counter-name="SHARE">
+                                <i class="bi bi-facebook"></i>
+                            </button>
+                            <button type="button"
+                                    aria-label="Share on LinkedIn"
+                                    class="dropdown-item"
+                                    data-share-event="linkedin"
+                                    data-sf-role="sf-engagement-toggle"
+                                    data-sf-counter-name="SHARE">
+                                <i class="bi bi-linkedin"></i>
+                            </button>
+                            <button type="button"
+                                    aria-label="Copy hyperlink"
+                                    class="dropdown-item"
+                                    data-share-event="copy"
+                                    data-sf-role="sf-engagement-toggle"
+                                    data-sf-counter-name="SHARE">
+                                <i class="bi bi-link-45deg"></i>
+                            </button>
+                            <button type="button"
+                                    aria-label="Share via Email"
+                                    class="dropdown-item"
+                                    data-share-event="email"
+                                    data-sf-role="sf-engagement-toggle"
+                                    data-sf-counter-name="SHARE">
+                                <i class="bi bi-envelope"></i>
+                            </button>
+                            <button type="button"
+                                    aria-label="Share via Line"
+                                    class="dropdown-item"
+                                    data-share-event="line"
+                                    data-sf-role="sf-engagement-toggle"
+                                    data-sf-counter-name="SHARE">
+                                <i class="bi bi-line"></i>
+                            </button>
+                            <button type="button"
+                                    aria-label="Share via Mastodon"
+                                    class="dropdown-item"
+                                    data-share-event="mastodon"
+                                    data-sf-role="sf-engagement-toggle"
+                                    data-sf-counter-name="SHARE">
+                                <i class="bi bi-mastodon"></i>
+                            </button>
+                            <button type="button"
+                                    aria-label="Share via Pinterest"
+                                    class="dropdown-item"
+                                    data-share-event="pinterest"
+                                    data-sf-role="sf-engagement-toggle"
+                                    data-sf-counter-name="SHARE">
+                                <i class="bi bi-pinterest"></i>
+                            </button>
+                            <button type="button"
+                                    aria-label="Share via Telegram"
+                                    class="dropdown-item"
+                                    data-share-event="telegram"
+                                    data-sf-role="sf-engagement-toggle"
+                                    data-sf-counter-name="SHARE">
+                                <i class="bi bi-telegram"></i>
+                            </button>
+                            <button type="button"
+                                    aria-label="Share via Threads"
+                                    class="dropdown-item"
+                                    data-share-event="threads"
+                                    data-sf-role="sf-engagement-toggle"
+                                    data-sf-counter-name="SHARE">
+                                <i class="bi bi-threads"></i>
+                            </button>
+                            <button type="button"
+                                    aria-label="Share via WhatsApp"
+                                    class="dropdown-item"
+                                    data-share-event="whatsapp"
+                                    data-sf-role="sf-engagement-toggle"
+                                    data-sf-counter-name="SHARE">
+                                <i class="bi bi-whatsapp"></i>
+                            </button>
+                            <button type="button"
+                                    aria-label="Share via Bluesky"
+                                    class="dropdown-item"
+                                    data-share-event="bluesky"
+                                    data-sf-role="sf-engagement-toggle"
+                                    data-sf-counter-name="SHARE">
+                                <i class="bi bi-bluesky"></i>
+                            </button>
+                    </div>
+                </div>
+                    <span class="text-primary d-block text-center">Share</span>
+            </div>
+    </div>
+
+
+
+
+    
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="float-md-end order-3 offset-md-1 col-md-8">
+                                <div>
+                                    <ul class="nav nav-tabs" role="tablist" aria-label="Purchase options">
+                                        <li role="presentation" class="nav-item">
+                                            <button type="button" role="tab" id="tab-0" class="nav-link active" aria-selected="true" data-bs-toggle="tab"
+                                                    data-bs-target="#tab-panel-0" aria-controls="tab-panel-0">Buy now</button>
+                                        </li>
+                                    </ul>
+                                    <div data-sf-role="sf-book-detail-alert-wrapper" data-wrapper-sf-role="sage-book" aria-live="assertive"></div>
+                                    <div class="tab-content" id="tab-content">
+                                        <div class="pt-4 tab-pane tab-blogs active show" id="tab-panel-0" role="tabpanel" aria-labelledby="tab-0">
+                                            <div>
+                                                <p class="text-s fw-semibold mb-1">Purchase</p>
+
+                                                <div class="row">
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                        <div class="fw-semibold mb-1 text-m">
+                            <span data-sf-role="book-detail-variant-subformat" data-target-item-id="variant-digital-item">
+                                eBook
+                            </span>
+                        </div>
+                    <div class="flex-grow-1">
+                        <div class="text-s mb-2_5">
+                            ISBN:
+                            <span data-sf-role="book-detail-variant-isbn" data-target-item-id="variant-digital-item">
+                                9781506320380
+                            </span>
+                        </div>
+                        <div class="text-s mb-2">
+                            <div data-sf-role="book-detail-variant-publication-date-estimated" class="fw-semibold mb-1 text-m d-block" data-target-item-id="variant-digital-item">
+                                Available from
+                                January 0001
+                            </div>
+                        </div>
+                    </div>
+                        <select class="form-select  mb-3"
+                                data-sf-role="book-detail-variant-dropdown"
+                                data-item-id="variant-digital-item"
+                                aria-label="Select product" >
+                                <option data-variant-product-type="eBook" data-variant-subformat="ePub2" data-variant-isbn="9781506320380" data-variant-price="90.00" data-variant-list-price="90.00" data-variant-code="3000121760.EBL180" data-variant-action-detail="180 Day Ebook, $90.00, Psychological Contracts in Organizations" data-variant-partner-url="" data-gtm-ebook-duration="180 Days" data-days="180" data-button-for="digital" data-variant-publication-date-estimated="1/1/0001 12:00:00 AM" data-variant-publication-date-estimated-label="Available from January 01, 0001">
+                                    180 Day Ebook - $90.00
+                                </option>
+                                <option data-variant-product-type="eBook" data-variant-subformat="ePub2" data-variant-isbn="9781506320380" data-variant-price="130.00" data-variant-list-price="130.00" data-variant-code="7000036913" data-variant-action-detail="eBook Lifetime, $130.00, Psychological Contracts in Organizations" data-variant-partner-url="" data-gtm-ebook-duration="Lifetime" data-days="" data-button-for="digital" data-variant-publication-date-estimated="1/1/0001 12:00:00 AM" data-variant-publication-date-estimated-label="Available from January 01, 0001">
+                                    Lifetime - $130.00
+                                </option>
+                        </select>
+                    <div data-sf-role="book-detail-variant-info-wrapper" data-target-item-id="variant-digital-item"></div>
+                        <button class="btn btn-outline-primary"
+                                aria-label="Add To Cart, 180 Day Ebook, $90.00, Psychological Contracts in Organizations"
+                                data-sf-role="book-detail-variant-selection-button"
+                                data-book-id="5077"
+                                data-item-id="variant-digital-item"
+                                data-item-type="digital"
+                                data-button-for="digital"
+                                data-buy-now-label="Add To Cart"
+                                data-pre-order-label="Preorder">
+                            Add To Cart
+                        </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                        <div class="fw-semibold mb-1 text-m">
+                            <span data-sf-role="book-detail-variant-subformat" data-target-item-id="variant-print-item">
+                                Paperback
+                            </span>
+                        </div>
+                    <div class="flex-grow-1">
+                        <div class="text-s mb-2_5">
+                            ISBN:
+                            <span data-sf-role="book-detail-variant-isbn" data-target-item-id="variant-print-item">
+                                9780803971059
+                            </span>
+                        </div>
+                        <div class="text-s mb-2">
+                            <div data-sf-role="book-detail-variant-publication-date-estimated" class="fw-semibold mb-1 text-m d-block" data-target-item-id="variant-print-item">
+                                Available from
+                                January 0001
+                            </div>
+                        </div>
+                    </div>
+                        <select class="form-select readonly mb-3"
+                                data-sf-role="book-detail-variant-dropdown"
+                                data-item-id="variant-print-item"
+                                aria-label="Select product" disabled>
+                                <option data-variant-product-type="Paperback" data-variant-subformat="Paperback" data-variant-isbn="9780803971059" data-variant-price="235.00" data-variant-list-price="235.00" data-variant-code="1000043827" data-variant-action-detail="Paperback, $235.00, Psychological Contracts in Organizations" data-variant-partner-url="" data-gtm-ebook-duration="" data-days="" data-button-for="print" data-variant-publication-date-estimated="1/1/0001 12:00:00 AM" data-variant-publication-date-estimated-label="Available from January 01, 0001">
+                                    Paperback - $235.00
+                                </option>
+                        </select>
+                    <div data-sf-role="book-detail-variant-info-wrapper" data-target-item-id="variant-print-item"></div>
+                        <button class="btn btn-outline-primary"
+                                aria-label="Add To Cart, Paperback, $235.00, Psychological Contracts in Organizations"
+                                data-sf-role="book-detail-variant-selection-button"
+                                data-book-id="5077"
+                                data-item-id="variant-print-item"
+                                data-item-type="print"
+                                data-button-for="print"
+                                data-buy-now-label="Add To Cart"
+                                data-pre-order-label="Preorder">
+                            Add To Cart
+                        </button>
+                </div>
+            </div>
+        </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                    </div>
+                    <div class="d-none d-md-block position-absolute top-0 end-0 mt-4">
+        
+
+
+
+    <div class="share"
+         data-sf-role="social-share-component"
+         data-share-title="Psychological Contracts in Organizations"
+         data-share-url=""
+         data-share-text="Check out this book!"
+         data-share-twitter="Sage_Publishing"
+         data-share-linkedin="sage-publishing">
+
+
+            <div class="dropdown">
+                <button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="bi bi-share"></i><span class="visually-hidden">Share</span>
+                </button>
+                <div class="dropdown-menu dropdown-menu-end">
+                    <div class="h-xs text-primary">Share options</div>
+                    <div class="dropdown-menu-inner">
+                            <button type="button"
+                                    aria-label="Share on X"
+                                    class="dropdown-item"
+                                    data-share-event="twitter"
+                                    data-sf-role="sf-engagement-toggle"
+                                    data-sf-counter-name="SHARE">
+                                <i class="bi bi-twitter-x"></i>
+                            </button>
+                            <button type="button"
+                                    aria-label="Share on Facebook"
+                                    class="dropdown-item"
+                                    data-share-event="facebook"
+                                    data-sf-role="sf-engagement-toggle"
+                                    data-sf-counter-name="SHARE">
+                                <i class="bi bi-facebook"></i>
+                            </button>
+                            <button type="button"
+                                    aria-label="Share on LinkedIn"
+                                    class="dropdown-item"
+                                    data-share-event="linkedin"
+                                    data-sf-role="sf-engagement-toggle"
+                                    data-sf-counter-name="SHARE">
+                                <i class="bi bi-linkedin"></i>
+                            </button>
+                            <button type="button"
+                                    aria-label="Copy hyperlink"
+                                    class="dropdown-item"
+                                    data-share-event="copy"
+                                    data-sf-role="sf-engagement-toggle"
+                                    data-sf-counter-name="SHARE">
+                                <i class="bi bi-link-45deg"></i>
+                            </button>
+                            <button type="button"
+                                    aria-label="Share via Email"
+                                    class="dropdown-item"
+                                    data-share-event="email"
+                                    data-sf-role="sf-engagement-toggle"
+                                    data-sf-counter-name="SHARE">
+                                <i class="bi bi-envelope"></i>
+                            </button>
+                            <button type="button"
+                                    aria-label="Share via Line"
+                                    class="dropdown-item"
+                                    data-share-event="line"
+                                    data-sf-role="sf-engagement-toggle"
+                                    data-sf-counter-name="SHARE">
+                                <i class="bi bi-line"></i>
+                            </button>
+                            <button type="button"
+                                    aria-label="Share via Mastodon"
+                                    class="dropdown-item"
+                                    data-share-event="mastodon"
+                                    data-sf-role="sf-engagement-toggle"
+                                    data-sf-counter-name="SHARE">
+                                <i class="bi bi-mastodon"></i>
+                            </button>
+                            <button type="button"
+                                    aria-label="Share via Pinterest"
+                                    class="dropdown-item"
+                                    data-share-event="pinterest"
+                                    data-sf-role="sf-engagement-toggle"
+                                    data-sf-counter-name="SHARE">
+                                <i class="bi bi-pinterest"></i>
+                            </button>
+                            <button type="button"
+                                    aria-label="Share via Telegram"
+                                    class="dropdown-item"
+                                    data-share-event="telegram"
+                                    data-sf-role="sf-engagement-toggle"
+                                    data-sf-counter-name="SHARE">
+                                <i class="bi bi-telegram"></i>
+                            </button>
+                            <button type="button"
+                                    aria-label="Share via Threads"
+                                    class="dropdown-item"
+                                    data-share-event="threads"
+                                    data-sf-role="sf-engagement-toggle"
+                                    data-sf-counter-name="SHARE">
+                                <i class="bi bi-threads"></i>
+                            </button>
+                            <button type="button"
+                                    aria-label="Share via WhatsApp"
+                                    class="dropdown-item"
+                                    data-share-event="whatsapp"
+                                    data-sf-role="sf-engagement-toggle"
+                                    data-sf-counter-name="SHARE">
+                                <i class="bi bi-whatsapp"></i>
+                            </button>
+                            <button type="button"
+                                    aria-label="Share via Bluesky"
+                                    class="dropdown-item"
+                                    data-share-event="bluesky"
+                                    data-sf-role="sf-engagement-toggle"
+                                    data-sf-counter-name="SHARE">
+                                <i class="bi bi-bluesky"></i>
+                            </button>
+                    </div>
+                </div>
+                    <span class="text-primary d-block text-center">Share</span>
+            </div>
+    </div>
+
+
+
+
+    
+
+                    </div>
+                </div>
+                <div>
+                    <ul class="nav nav-tabs d-none d-md-flex" role="tablist" aria-label="Order options">
+                            <li role="presentation" class="nav-item">
+                                <a role="tab" id="product-main-section-description-tab" class="nav-link active" aria-selected="true"
+                                       data-bs-toggle="tab" href="#product-main-section-description-panel" aria-controls="product-main-section-description-panel" >
+                                    <h2>Description</h2>
+                                </a>
+                            </li>
+                            <li role="presentation" class="nav-item">
+                                <a role="tab" id="product-main-section-toc-tab" class="nav-link " aria-selected="false"
+                                       data-bs-toggle="tab" href="#product-main-section-toc-panel" aria-controls="product-main-section-toc-panel" tabindex=&quot;-1&quot;>
+                                    <h2>Contents</h2>
+                                </a>
+                            </li>
+                    </ul>
+                    <div class="tab-content d-none d-md-block" id="tab-product-content">
+                            <div class="pt-4 tab-pane active show" id="product-main-section-description-panel" role="tabpanel" aria-labelledby="product-main-section-description-tab">
+                                <div>
+                <div class="book-description">
+                    Recipient of the George Terry Book Award sponsored by the Academy of Management
+"The incredible number of specific illustrations embedded in this text is a great asset. The book will be a good read for a potentially wide academic audience of professors and students (especially in psychology and business schools), anybody interested in contracts in the nonlegal sense, and for 'thinking managers' and practitioners. Psychological Contracts in Organizations will become a standard reference in the organizational sciences by 1997."
+--Richard Guzzo,
+University of Maryland, College Park
+This unique book examines the organizational, social, and psychological meaning of contracts, written and unwritten, in organizations. The author addresses a multitude of important topics, including contract making, interpretation of contracts, contracts that are emerging due to the turmoil and economic forces in the 1990s, contract violations, and strategies for changing contracts. In addition, this volume includes a thought-provoking discussion of how contracts are linked to an organization's strategy and its human resource practices. This outstanding volume concludes with an assessment of societal trends that point to large-scale changes in future employment contracts.
+Psychological Contracts in Organizations will capture the interest of advanced undergraduate and graduate students, scholars, managers, and researchers in the areas of organizational behavior, management, organizational psychology, human relations, industrial relations, law, and socioeconomics.
+                </div>
+                                </div>
+                            </div>
+                            <div class="pt-4 tab-pane " id="product-main-section-toc-panel" role="tabpanel" aria-labelledby="product-main-section-toc-tab">
+                                <div>
+
+
+
+<div class="accordion accordion-contents m-0" id="desktop-book-part-accordion">
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <div class="d-md-none">
+                    <h3 data-part-sequence="1">Introduction</h3>
+                </div>
+
+                    <div class="py-2 fw-semibold d-none d-md-flex">
+                        <h3 data-part-sequence="1">Introduction</h3>
+                    </div>
+            </div>
+
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <div class="d-md-none">
+                    <h3 data-part-sequence="2">Contracting</h3>
+                </div>
+
+                    <button class="accordion-button collapsed fw-semibold d-none d-md-flex"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#desktop-book-part-accordion-1"
+                            aria-expanded="false"
+                            aria-controls="desktop-book-part-accordion-1">
+                        <h3 data-part-sequence="2">Contracting</h3>
+                    </button>
+            </div>
+
+                <div id="desktop-book-part-accordion-1"
+                     class="accordion-collapse collapse"
+                     data-bs-parent="#desktop-book-part-accordion">
+                    <div class="accordion-body pt-0 ps-4 pb-3 text-body">
+                        <ul><li data-part-sequence="3">A Modern Dilemma</li></ul>
+                    </div>
+                </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <div class="d-md-none">
+                    <h3 data-part-sequence="4">Contract Making</h3>
+                </div>
+
+                    <div class="py-2 fw-semibold d-none d-md-flex">
+                        <h3 data-part-sequence="4">Contract Making</h3>
+                    </div>
+            </div>
+
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <div class="d-md-none">
+                    <h3 data-part-sequence="5">The Contract Makers</h3>
+                </div>
+
+                    <div class="py-2 fw-semibold d-none d-md-flex">
+                        <h3 data-part-sequence="5">The Contract Makers</h3>
+                    </div>
+            </div>
+
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <div class="d-md-none">
+                    <h3 data-part-sequence="6">Contemporary Contracts</h3>
+                </div>
+
+                    <div class="py-2 fw-semibold d-none d-md-flex">
+                        <h3 data-part-sequence="6">Contemporary Contracts</h3>
+                    </div>
+            </div>
+
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <div class="d-md-none">
+                    <h3 data-part-sequence="7">Violating the Contract</h3>
+                </div>
+
+                    <div class="py-2 fw-semibold d-none d-md-flex">
+                        <h3 data-part-sequence="7">Violating the Contract</h3>
+                    </div>
+            </div>
+
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <div class="d-md-none">
+                    <h3 data-part-sequence="8">Changing the Contract</h3>
+                </div>
+
+                    <div class="py-2 fw-semibold d-none d-md-flex">
+                        <h3 data-part-sequence="8">Changing the Contract</h3>
+                    </div>
+            </div>
+
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <div class="d-md-none">
+                    <h3 data-part-sequence="9">Business Strategy and Contracts</h3>
+                </div>
+
+                    <div class="py-2 fw-semibold d-none d-md-flex">
+                        <h3 data-part-sequence="9">Business Strategy and Contracts</h3>
+                    </div>
+            </div>
+
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <div class="d-md-none">
+                    <h3 data-part-sequence="10">Trends in the New Social Contract</h3>
+                </div>
+
+                    <div class="py-2 fw-semibold d-none d-md-flex">
+                        <h3 data-part-sequence="10">Trends in the New Social Contract</h3>
+                    </div>
+            </div>
+
+        </div>
+</div>                                </div>
+                            </div>
+                    </div>
+                    <div class="accordion d-block d-md-none" id="accordion-section">
+                            <div class="accordion-item">
+                                <div class="accordion-header">
+                                    <button class="accordion-button fw-semibold collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#accordion-section-item-description" aria-expanded="false" aria-controls="accordion-section-item-description">
+                                        <h3>Description</h3>
+                                    </button>
+                                </div>
+                                <div id="accordion-section-item-description" class="accordion-collapse collapse" data-bs-parent="#accordion-section">
+                                    <div class="accordion-body pt-0 ps-4 pb-3 text-body">
+                <div class="book-description">
+                    Recipient of the George Terry Book Award sponsored by the Academy of Management
+"The incredible number of specific illustrations embedded in this text is a great asset. The book will be a good read for a potentially wide academic audience of professors and students (especially in psychology and business schools), anybody interested in contracts in the nonlegal sense, and for 'thinking managers' and practitioners. Psychological Contracts in Organizations will become a standard reference in the organizational sciences by 1997."
+--Richard Guzzo,
+University of Maryland, College Park
+This unique book examines the organizational, social, and psychological meaning of contracts, written and unwritten, in organizations. The author addresses a multitude of important topics, including contract making, interpretation of contracts, contracts that are emerging due to the turmoil and economic forces in the 1990s, contract violations, and strategies for changing contracts. In addition, this volume includes a thought-provoking discussion of how contracts are linked to an organization's strategy and its human resource practices. This outstanding volume concludes with an assessment of societal trends that point to large-scale changes in future employment contracts.
+Psychological Contracts in Organizations will capture the interest of advanced undergraduate and graduate students, scholars, managers, and researchers in the areas of organizational behavior, management, organizational psychology, human relations, industrial relations, law, and socioeconomics.
+                </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <div class="accordion-header">
+                                    <button class="accordion-button fw-semibold collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#accordion-section-item-toc" aria-expanded="false" aria-controls="accordion-section-item-toc">
+                                        <h3>Contents</h3>
+                                    </button>
+                                </div>
+                                <div id="accordion-section-item-toc" class="accordion-collapse collapse" data-bs-parent="#accordion-section">
+                                    <div class="accordion-body pt-0 ps-4 pb-3 text-body">
+
+
+
+<div class="accordion accordion-contents m-0" id="mobile-book-part-accordion">
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <div class="d-md-none">
+                    <h3 data-part-sequence="1">Introduction</h3>
+                </div>
+
+                    <div class="py-2 fw-semibold d-none d-md-flex">
+                        <h3 data-part-sequence="1">Introduction</h3>
+                    </div>
+            </div>
+
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <div class="d-md-none">
+                    <h3 data-part-sequence="2">Contracting</h3>
+                </div>
+
+                    <button class="accordion-button collapsed fw-semibold d-none d-md-flex"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#mobile-book-part-accordion-1"
+                            aria-expanded="false"
+                            aria-controls="mobile-book-part-accordion-1">
+                        <h3 data-part-sequence="2">Contracting</h3>
+                    </button>
+            </div>
+
+                <div id="mobile-book-part-accordion-1"
+                     class="accordion-collapse collapse"
+                     data-bs-parent="#mobile-book-part-accordion">
+                    <div class="accordion-body pt-0 ps-4 pb-3 text-body">
+                        <ul><li data-part-sequence="3">A Modern Dilemma</li></ul>
+                    </div>
+                </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <div class="d-md-none">
+                    <h3 data-part-sequence="4">Contract Making</h3>
+                </div>
+
+                    <div class="py-2 fw-semibold d-none d-md-flex">
+                        <h3 data-part-sequence="4">Contract Making</h3>
+                    </div>
+            </div>
+
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <div class="d-md-none">
+                    <h3 data-part-sequence="5">The Contract Makers</h3>
+                </div>
+
+                    <div class="py-2 fw-semibold d-none d-md-flex">
+                        <h3 data-part-sequence="5">The Contract Makers</h3>
+                    </div>
+            </div>
+
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <div class="d-md-none">
+                    <h3 data-part-sequence="6">Contemporary Contracts</h3>
+                </div>
+
+                    <div class="py-2 fw-semibold d-none d-md-flex">
+                        <h3 data-part-sequence="6">Contemporary Contracts</h3>
+                    </div>
+            </div>
+
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <div class="d-md-none">
+                    <h3 data-part-sequence="7">Violating the Contract</h3>
+                </div>
+
+                    <div class="py-2 fw-semibold d-none d-md-flex">
+                        <h3 data-part-sequence="7">Violating the Contract</h3>
+                    </div>
+            </div>
+
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <div class="d-md-none">
+                    <h3 data-part-sequence="8">Changing the Contract</h3>
+                </div>
+
+                    <div class="py-2 fw-semibold d-none d-md-flex">
+                        <h3 data-part-sequence="8">Changing the Contract</h3>
+                    </div>
+            </div>
+
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <div class="d-md-none">
+                    <h3 data-part-sequence="9">Business Strategy and Contracts</h3>
+                </div>
+
+                    <div class="py-2 fw-semibold d-none d-md-flex">
+                        <h3 data-part-sequence="9">Business Strategy and Contracts</h3>
+                    </div>
+            </div>
+
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <div class="d-md-none">
+                    <h3 data-part-sequence="10">Trends in the New Social Contract</h3>
+                </div>
+
+                    <div class="py-2 fw-semibold d-none d-md-flex">
+                        <h3 data-part-sequence="10">Trends in the New Social Contract</h3>
+                    </div>
+            </div>
+
+        </div>
+</div>                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+    <div id="flyer-view" class="d-none">
+        <div class="bg-none my-5">
+            <div class="container">
+                <div>
+                    <div>
+                        <div class="d-flex justify-content-between align-items-start mb-4">
+                            <img class="rounded-3 shadow-5" src="https://cmn-cdn-001.sagepub.com/books/titles/5077/cov_sb1_141.gif" alt="" data-fallback="https://cmn-cdn-001.sagepub.com/books/titles/5077/cov_sb1_141.gif" data-placeholder="/global/styles/images/placeholders/book.svg" data-placeholder-shadow="false" style="max-width:18rem">
+
+                            <img src="/global/styles/images/logo-blue.svg" alt="SAGE Publishing Logo" style="height: 50px;">
+                        </div>
+                        <h1>Psychological Contracts in Organizations</h1>
+                            <h2>Understanding Written and Unwritten Agreements</h2>
+                        <div class="mb-3">
+                                <a href="https://www.sagepub.com/explore-our-content/authors/denise-rousseau-517633">Denise M. Rousseau</a>
+                        </div>
+                        <div class="d-flex justify-content-end d-print-none">
+                            <a id="btn-close-flyer-view"
+                               class="btn btn-outline-dark btn-small mx-2"
+                               href="#">Cancel</a>
+                            <a id="btn-print-flyer-view" class="btn btn-primary btn-small" href="#">Print</a>
+                        </div>
+                        <hr>
+                    </div>
+                    <div>
+                        <p>
+            <span>May 1995</span>
+            <span>|</span>
+            <span>264 pages</span>
+            <span>|</span>
+            <span>Sage US</span>
+                        </p>
+                    </div>
+                    <div data-sf-role="product-variants" class="d-none">
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Format</th>
+                                        <th>Published Date</th>
+                                        <th>ISBN</th>
+                                        <th>Price</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                        <tr>
+                                            <td>Paperback</td>
+                                            <td>28/02/2026</td>
+                                            <td>9780803971059</td>
+                                                <td>$235.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>180 Day Ebook</td>
+                                            <td>28/02/2026</td>
+                                            <td>9781506320380</td>
+                                                <td>$90.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Lifetime</td>
+                                            <td>28/02/2026</td>
+                                            <td>9781506320380</td>
+                                                <td>$130.00</td>
+                                        </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <br>
+                    </div>
+
+                    <div data-sf-role="product-description">
+                        <div class="book-description">Recipient of the George Terry Book Award sponsored by the Academy of Management
+"The incredible number of specific illustrations embedded in this text is a great asset. The book will be a good read for a potentially wide academic audience of professors and students (especially in psychology and business schools), anybody interested in contracts in the nonlegal sense, and for 'thinking managers' and practitioners. Psychological Contracts in Organizations will become a standard reference in the organizational sciences by 1997."
+--Richard Guzzo,
+University of Maryland, College Park
+This unique book examines the organizational, social, and psychological meaning of contracts, written and unwritten, in organizations. The author addresses a multitude of important topics, including contract making, interpretation of contracts, contracts that are emerging due to the turmoil and economic forces in the 1990s, contract violations, and strategies for changing contracts. In addition, this volume includes a thought-provoking discussion of how contracts are linked to an organization's strategy and its human resource practices. This outstanding volume concludes with an assessment of societal trends that point to large-scale changes in future employment contracts.
+Psychological Contracts in Organizations will capture the interest of advanced undergraduate and graduate students, scholars, managers, and researchers in the areas of organizational behavior, management, organizational psychology, human relations, industrial relations, law, and socioeconomics.</div>
+                        <br>
+                    </div>
+
+                    <div data-sf-role="product-toc" class="d-none mb-3">
+                        <h3>Table Of Contents:</h3>
+                        <ul class="ul-cols-2">
+                                <li class="text-md">Introduction</li>
+                                <li class="text-md">Contracting</li>
+                                <li class="text-md">A Modern Dilemma</li>
+                                <li class="text-md">Contract Making</li>
+                                <li class="text-md">The Contract Makers</li>
+                                <li class="text-md">Contemporary Contracts</li>
+                                <li class="text-md">Violating the Contract</li>
+                                <li class="text-md">Changing the Contract</li>
+                                <li class="text-md">Business Strategy and Contracts</li>
+                                <li class="text-md">Trends in the New Social Contract</li>
+                        </ul>
+                    </div>
+                    <br />
+                    <div data-sf-role="product-review" class="d-none">
+                        <h3>Recent Product Reviews:</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+        
+        
+        
+        
+        
+        
+    
+
+<section class="container py-5">
+<script type="text/template" id="hawksearch-recommendation-90447dad-954d-4052-a49a-20a44d48efda-bullet-template">
+    <button class="glide__bullet" data-glide-dir="={dir}"
+            tabindex="-1">
+        <span class="visually-hidden">Slide {slideNo}</span>
+    </button>
+</script>
+<script type="text/template" id="hawksearch-recommendation-90447dad-954d-4052-a49a-20a44d48efda-item-template">
+    <li class="glide__slide">
+        <div class="">
+            <a href="{link}" aria-label="{title}"
+               class="d-flex flex-column justify-content-center align-items-start text-decoration-none">
+                <img class="shadow-4 rounded-3 mb-4 w-100 object-fit-cover"
+                     src="{imageUrl}"
+                     data-fallback="/global/styles/images/placeholder-cover.svg"
+                     alt="">
+                <div class="h-xs text-body">{title}</div>
+                {subtitleHtml}                
+                {editionHtml}                
+                {authorHtml}                
+            </a>
+        </div>
+    </li>
+</script>
+
+<div data-sf-role="hawksearch-recommendation"
+     data-requires-page-context="True"
+     data-client-guid="9a8046cf46de4477883b681aa0f6d630"
+     data-widget-guid="90447dad-954d-4052-a49a-20a44d48efda"
+     class="d-print-none" >
+        <h2 class="text-center fw-semibold d-none">Recommendations</h2>
+    <div class="glide glide-products d-none"
+         data-focus-at="0"
+         data-gap="8"
+         id="hw-carousel-90447dad-954d-4052-a49a-20a44d48efda"
+         data-items-per-view-xl="4"
+         data-items-per-view-lg="4"
+         data-items-per-view-md="2"
+         data-items-per-view-sm="1"
+         data-animation-duration="400">
+        <div class="glide__controls mb-3" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="&lt;" tabindex="-1">
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <div class="glide__bullets" data-glide-el="controls[nav]" data-sf-role="hawksearch-recommendation-90447dad-954d-4052-a49a-20a44d48efda-bullet-wrapper"></div>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir="&gt;" tabindex="-1">
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides" data-sf-role="hawksearch-recommendation-90447dad-954d-4052-a49a-20a44d48efda-items-wrapper"></ul>
+        </div>
+        <div class="visually-hidden glide__srtext" aria-live="polite"></div>
+    </div>
+</div>
+
+
+
+    
+</section>
+<section>
+
+</section></main>
+    <div id="footer">
+
+<div id="link-2b91"></div>
+<div class="d-flex align-items-center text-start btn-floating-wrapper position-fixed bottom-0 end-0 m-3 m-xl-4 z-3" 
+     style="visibility:hidden">
+    <a href="#"
+       class="btn btn-md btn-top-circle rounded-circle p-0 d-flex justify-content-center align-items-center"       
+       data-target="body"
+       data-sf-role="scroll-progress-indicator"
+       data-scroll-anchor-id="link-2b91"
+       data-smooth-scroll
+       aria-label="Back To Top"
+       style="background: conic-gradient(var(--btn-top-circle-progress) 0deg, #BFC5E2 0deg);">
+        <i class="bi bi-chevron-up"></i>
+    </a>
+</div>
+
+
+
+    
+
+
+
+<footer class="d-print-none">
+    <div class="container">
+        <div class="footer_upper">
+            <div>
+
+
+<div data-sf-role="sf-change-location">
+    <input id="active-05f895c8-c4f7-4e41-a640-f6784c57cfda" type="hidden" value="Active" data-sf-localizer="active" />
+    <div class="location">
+        <div class="location_current">You are in: &nbsp;<span data-sf-role="data-sf-selected-region" class="fw-bold" style="display:inline-block;min-width:100px;"></span></div>
+
+            <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Change location:
+                </button>
+                <ul class="dropdown-menu">
+                        <li>
+                            <button class="dropdown-item "
+                                    type="button"
+                                    data-sf-role="sf-region-option"
+                                    data-sf-action="sf-set-location"
+                                    data-region-code="eur"
+                                    data-region-name="UK &amp; Europe"
+                                    data-country-code-collection="AX,AL,AD,AT,BY,BE,BA,BV,BG,HR,CY,CZ,DK,EE,FO,FI,FR,GE,DE,GI,GR,GL,GG,VA,HU,IS,IE,IM,IT,JE,LV,LI,LT,LU,MT,MD,MC,ME,NL,MK,NO,PL,PT,RO,RU,SM,RS,SK,SI,ES,SJ,SE,CH,TR,UA,GB"
+                                    >
+                                UK &amp; Europe
+                            </button>
+                        </li>
+                        <li>
+                            <button class="dropdown-item "
+                                    type="button"
+                                    data-sf-role="sf-region-option"
+                                    data-sf-action="sf-set-location"
+                                    data-region-code="nam"
+                                    data-region-name="North America"
+                                    data-country-code-collection="AS,CA,GU,MX,MP,PM,US,UM"
+                                    >
+                                North America
+                            </button>
+                        </li>
+                        <li>
+                            <button class="dropdown-item "
+                                    type="button"
+                                    data-sf-role="sf-region-option"
+                                    data-sf-action="sf-set-location"
+                                    data-region-code="afr"
+                                    data-region-name="Africa"
+                                    data-country-code-collection="DZ,AO,BJ,BW,BF,BI,CM,CV,CF,TD,KM,CD,CG,CI,DJ,EG,GQ,ER,SZ,ET,TF,GA,GM,GH,GN,GW,KE,LS,LR,LY,MG,MW,ML,MR,MU,YT,MA,MZ,NA,NE,NG,RE,RW,SH,ST,SN,SC,SL,SO,ZA,SS,SD,TZ,TG,TN,UG,EH,ZM,ZW"
+                                    >
+                                Africa
+                            </button>
+                        </li>
+                        <li>
+                            <button class="dropdown-item "
+                                    type="button"
+                                    data-sf-role="sf-region-option"
+                                    data-sf-action="sf-set-location"
+                                    data-region-code="asi"
+                                    data-region-name="Asia"
+                                    data-country-code-collection="AM,AZ,IO,BN,KH,CX,CC,PF,ID,JP,KZ,KP,KR,KG,LA,MO,MY,MN,MM,NR,PH,SG,TJ,TH,TL,TM,TV,UZ,VU,VN,WF"
+                                    >
+                                Asia
+                            </button>
+                        </li>
+                        <li>
+                            <button class="dropdown-item "
+                                    type="button"
+                                    data-sf-role="sf-region-option"
+                                    data-sf-action="sf-set-location"
+                                    data-region-code="anz"
+                                    data-region-name="Australia &amp; New Zealand"
+                                    data-country-code-collection="AU,CK,NZ"
+                                    >
+                                Australia &amp; New Zealand
+                            </button>
+                        </li>
+                        <li>
+                            <button class="dropdown-item "
+                                    type="button"
+                                    data-sf-role="sf-region-option"
+                                    data-sf-action="sf-set-location"
+                                    data-region-code="chi"
+                                    data-region-name="China"
+                                    data-country-code-collection="CN"
+                                    >
+                                China
+                            </button>
+                        </li>
+                        <li>
+                            <button class="dropdown-item "
+                                    type="button"
+                                    data-sf-role="sf-region-option"
+                                    data-sf-action="sf-set-location"
+                                    data-region-code="hkg"
+                                    data-region-name="Hong Kong SAR, China"
+                                    data-country-code-collection="HK"
+                                    >
+                                Hong Kong SAR, China
+                            </button>
+                        </li>
+                        <li>
+                            <button class="dropdown-item "
+                                    type="button"
+                                    data-sf-role="sf-region-option"
+                                    data-sf-action="sf-set-location"
+                                    data-region-code="ind"
+                                    data-region-name="India"
+                                    data-country-code-collection="IN"
+                                    >
+                                India
+                            </button>
+                        </li>
+                        <li>
+                            <button class="dropdown-item "
+                                    type="button"
+                                    data-sf-role="sf-region-option"
+                                    data-sf-action="sf-set-location"
+                                    data-region-code="mst"
+                                    data-region-name="Middle East"
+                                    data-country-code-collection="BH,IR,IQ,IL,JO,KW,LB,OM,PS,QA,SA,SY,AE,YE"
+                                    >
+                                Middle East
+                            </button>
+                        </li>
+                        <li>
+                            <button class="dropdown-item "
+                                    type="button"
+                                    data-sf-role="sf-region-option"
+                                    data-sf-action="sf-set-location"
+                                    data-region-code="oce"
+                                    data-region-name="Oceania"
+                                    data-country-code-collection="FJ,HM,KI,MH,FM,NC,NU,NF,PW,PG,PN,WS,SB,TK,TO"
+                                    >
+                                Oceania
+                            </button>
+                        </li>
+                        <li>
+                            <button class="dropdown-item "
+                                    type="button"
+                                    data-sf-role="sf-region-option"
+                                    data-sf-action="sf-set-location"
+                                    data-region-code="sam"
+                                    data-region-name="South America"
+                                    data-country-code-collection="AI,AQ,AG,AR,AW,BS,BB,BZ,BM,BO,BQ,BR,KY,CL,CO,CR,CU,CW,DM,DO,EC,SV,FK,GF,GD,GP,GT,GY,HT,HN,JM,MQ,MS,NI,PA,PY,PE,PR,BL,KN,LC,MF,VC,SX,GS,SR,TT,TC,UY,VE,VG,VI"
+                                    >
+                                South America
+                            </button>
+                        </li>
+                        <li>
+                            <button class="dropdown-item "
+                                    type="button"
+                                    data-sf-role="sf-region-option"
+                                    data-sf-action="sf-set-location"
+                                    data-region-code="sas"
+                                    data-region-name="South Asia"
+                                    data-country-code-collection="AF,BD,BT,MV,NP,PK,LK"
+                                    >
+                                South Asia
+                            </button>
+                        </li>
+                        <li>
+                            <button class="dropdown-item "
+                                    type="button"
+                                    data-sf-role="sf-region-option"
+                                    data-sf-action="sf-set-location"
+                                    data-region-code="tai"
+                                    data-region-name="Taiwan, Province of China"
+                                    data-country-code-collection="TW"
+                                    >
+                                Taiwan, Province of China
+                            </button>
+                        </li>
+                </ul>
+            </div>
+    </div>
+</div>
+
+    <div class="modal" id="location-modal" tabindex="-1" aria-labelledby="location-modal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title h-xl">Choose your location</h2>
+                </div>
+                <div class="modal-body">
+                    <p class="h-xs text-body text-center">Please select your region so that we can show you content and products available in your location</p>
+
+                    <div class="dropdown w-100">
+                        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            - Select region -
+                        </button>
+                        <ul class="dropdown-menu">
+                                <li>
+                                    <button class="dropdown-item "
+                                            type="button"
+                                            data-region-code="eur"
+                                            data-sf-action="sf-set-location"
+                                            >
+                                        UK &amp; Europe
+                                    </button>
+                                </li>
+                                <li>
+                                    <button class="dropdown-item "
+                                            type="button"
+                                            data-region-code="nam"
+                                            data-sf-action="sf-set-location"
+                                            >
+                                        North America
+                                    </button>
+                                </li>
+                                <li>
+                                    <button class="dropdown-item "
+                                            type="button"
+                                            data-region-code="afr"
+                                            data-sf-action="sf-set-location"
+                                            >
+                                        Africa
+                                    </button>
+                                </li>
+                                <li>
+                                    <button class="dropdown-item "
+                                            type="button"
+                                            data-region-code="asi"
+                                            data-sf-action="sf-set-location"
+                                            >
+                                        Asia
+                                    </button>
+                                </li>
+                                <li>
+                                    <button class="dropdown-item "
+                                            type="button"
+                                            data-region-code="anz"
+                                            data-sf-action="sf-set-location"
+                                            >
+                                        Australia &amp; New Zealand
+                                    </button>
+                                </li>
+                                <li>
+                                    <button class="dropdown-item "
+                                            type="button"
+                                            data-region-code="chi"
+                                            data-sf-action="sf-set-location"
+                                            >
+                                        China
+                                    </button>
+                                </li>
+                                <li>
+                                    <button class="dropdown-item "
+                                            type="button"
+                                            data-region-code="hkg"
+                                            data-sf-action="sf-set-location"
+                                            >
+                                        Hong Kong SAR, China
+                                    </button>
+                                </li>
+                                <li>
+                                    <button class="dropdown-item "
+                                            type="button"
+                                            data-region-code="ind"
+                                            data-sf-action="sf-set-location"
+                                            >
+                                        India
+                                    </button>
+                                </li>
+                                <li>
+                                    <button class="dropdown-item "
+                                            type="button"
+                                            data-region-code="mst"
+                                            data-sf-action="sf-set-location"
+                                            >
+                                        Middle East
+                                    </button>
+                                </li>
+                                <li>
+                                    <button class="dropdown-item "
+                                            type="button"
+                                            data-region-code="oce"
+                                            data-sf-action="sf-set-location"
+                                            >
+                                        Oceania
+                                    </button>
+                                </li>
+                                <li>
+                                    <button class="dropdown-item "
+                                            type="button"
+                                            data-region-code="sam"
+                                            data-sf-action="sf-set-location"
+                                            >
+                                        South America
+                                    </button>
+                                </li>
+                                <li>
+                                    <button class="dropdown-item "
+                                            type="button"
+                                            data-region-code="sas"
+                                            data-sf-action="sf-set-location"
+                                            >
+                                        South Asia
+                                    </button>
+                                </li>
+                                <li>
+                                    <button class="dropdown-item "
+                                            type="button"
+                                            data-region-code="tai"
+                                            data-sf-action="sf-set-location"
+                                            >
+                                        Taiwan, Province of China
+                                    </button>
+                                </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    
+    
+</div>
+            <div>
+<div id="77baabea-00d6-4d02-ba4c-1b0586dd0857">
+    
+</div></div>
+        </div>
+        <div class="footer_main">
+
+
+
+
+<nav class="navbar navbar-expand-xl footernav" aria-label="Footer">
+    <div class="navbar-collapse">
+        <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle d-xl-none "
+                   href="/help-and-support"
+                   target="_self"
+                   role="button"
+                   data-bs-toggle="dropdown"
+                   aria-expanded="false">
+                    Help and support
+                </a>
+                <h2 class="nav-link dropdown-toggle d-none d-xl-block m-0">Help and support</h2>
+                <ul class="dropdown-menu">
+            <li><a class="dropdown-item " href="/advertise" target="_blank">Advertise with us</a></li>
+            <li><a class="dropdown-item " href="/rights-and-permissions" target="_self">Rights &amp; permissions</a></li>
+            <li><a class="dropdown-item " href="/help-and-support/careers" target="_self">Careers with Sage</a></li>
+            <li><a class="dropdown-item " href="/help-faqs" target="_self">Help &amp; FAQs</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle d-xl-none "
+                   href="/about-us"
+                   target="_self"
+                   role="button"
+                   data-bs-toggle="dropdown"
+                   aria-expanded="false">
+                    About us
+                </a>
+                <h2 class="nav-link dropdown-toggle d-none d-xl-block m-0">About us</h2>
+                <ul class="dropdown-menu">
+            <li><a class="dropdown-item " href="/about" target="_self">About Sage</a></li>
+            <li><a class="dropdown-item " href="/about-us/our-impact" target="_self">Our impact</a></li>
+            <li><a class="dropdown-item " href="/our-initiatives" target="_self">Our initiatives</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle d-xl-none "
+                   href="/useful-tools"
+                   target="_self"
+                   role="button"
+                   data-bs-toggle="dropdown"
+                   aria-expanded="false">
+                    Useful tools
+                </a>
+                <h2 class="nav-link dropdown-toggle d-none d-xl-block m-0">Useful tools</h2>
+                <ul class="dropdown-menu">
+            <li><a class="dropdown-item " href="/useful-tools/sage-track" target="_blank">Sage Track</a></li>
+            <li><a class="dropdown-item " href="/useful-tools/sage-author-service" target="_blank">Sage Author Services</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle d-xl-none "
+                   href="/our-other-websites"
+                   target="_self"
+                   role="button"
+                   data-bs-toggle="dropdown"
+                   aria-expanded="false">
+                    Our other websites
+                </a>
+                <h2 class="nav-link dropdown-toggle d-none d-xl-block m-0">Our other websites</h2>
+                <ul class="dropdown-menu">
+            <li><a class="dropdown-item " href="/our-other-websites/college-publishing" target="_blank">College Publishing</a></li>
+            <li><a class="dropdown-item " href="/our-other-websites/corwin" target="_blank">Corwin</a></li>
+            <li><a class="dropdown-item " href="/our-other-websites/social-science-space" target="_blank">Social Science Space</a></li>
+            <li><a class="dropdown-item " href="/our-other-websites/methodspace" target="_blank">Sage Research Methods Community</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+    
+
+
+<div id="dark-mode-toggle-wrapper" class="gbl-dark-mode-toggle d-flex align-items-center">
+    <span>Dark Mode</span>
+    <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" id="dark-mode-toggle" aria-checked="false">
+        <label class="form-check-label" for="dark-mode-toggle">
+            <span data-sf-role="sf-dark-mode-off-indicator"><span class="visually-hidden">Dark Mode</span>OFF</span>
+            <span data-sf-role="sf-dark-mode-on-indicator" class="d-none"><span class="visually-hidden">Dark Mode</span>ON</span>
+        </label>
+    </div>
+</div></div>
+        <div class="footer_lower">
+<div id="843afc37-7f77-4325-8d7c-a46df78cb663">
+    
+</div>
+
+<div  class="d-flex align-items-center text-start">
+            <a href="#" data-target="body" class="btn btn-primary btn-sm btn-top" data-smooth-scroll >
+                Back to top
+            </a>
+</div>
+
+
+
+
+
+    
+
+</div>
+    </div>
+</footer></div>
+    <script src="/global/js/coreweb-design.js?v=eHb66irk3uOB-fVBZuJzx0vX5Bq9sNPtqS19C_EOuYI"></script>
+    <script src="/global/js/main.min.js?v=x4XFEhZWO4X2t1VsVyCivjS8ZBE8toTjlUab7172j9Q"></script>
+
+    
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
+<div id="sage-fetch-loader" class="loader-lg">
+    <div class="loader-inner"></div>
+</div>
+<div aria-live="assertive" aria-atomic="true" class="visually-hidden" id="global-bs-modal-announcer"></div>
+<div aria-live="assertive" aria-atomic="true" class="visually-hidden" id="global-sr-announcer"></div>
+<script id="PersonalizationTracker" type="application/json">{"IsPagePersonalizationTarget":false,"IsUrlPersonalizationTarget":false,"PageId":"16c3e21a-8452-4281-8d4d-c19c06d1fc82"}</script><script src="/WebResource.axd?d=NjxTqR2bqTw1rewxxlkHPj11z54WYQDTslIsMCe95Z_VLnRfBanMVhetl4clzaW3GIxskyG9nR51oP7TRR1zixdUnCnwb4-efXQQ6pw1lV3xXfowJrG0wiBo7hKO3sefQnR5E6jZgqK398iS0FdmP-rYRzutU4RcRVOHFFb50UptVAlWpzoDJ_9FdutxMrHMfq-vIn4_0BZEkKS82dCDH-ucLILDd1zO59sBjeswa0o1&amp;t=639261748540000000" type="text/javascript"></script><script id="sf-insight-settings" type="application/json">{"apiServerUrl":"https://api.insight.sitefinity.com","apiKey":"5110a03a-a919-9c5f-581d-22586f83b5fd","applicationName":"Website","trackingCookieDomain":".sagepub.com","keepDecTrackingCookieOnTrackingConsentRejection":false,"slidingExpirationForTrackingCookie":false,"maxAgeForTrackingCookieInDays":365,"trackYouTubeVideos":true,"crossDomainTrackingEntries":["checkout-usd.sagepub.com","www.sagepub.com"],"strategy":"Persist|False","docsHrefTestExpressions":[".*\\/docs\\/.+\\.{1}.+((\\?|\\\u0026)sfvrsn=.+){1}$",".+((\\?|\\\u0026)sf_dm_key=.+){1}$"],"sessionLengthInMinutes":30,"trackVimeoVideos":true,"useSecureCookies":true}</script><script id="sf-insight-metadata" type="application/json">{"contentMetadata":"{\"Id\":\"12f8dc2e-0450-4e3d-8fd0-e594b827b446\",\"ContentType\":\"Book\",\"SfClrType\":\"Telerik.Sitefinity.DynamicTypes.Model.Global.Book\",\"Title\":\"5077\",\"CanonicalTitle\":\"5077\",\"CanonicalUrl\":\"https://www.sagepub.com/shop/buy-a-book/psychological-contracts-in-organizations-1-5077\",\"DefaultLanguage\":\"en\",\"CreatedOn\":\"2026-03-20T16:52:57Z\",\"ModifiedOn\":\"2026-11-04T04:24:11.71Z\",\"SiteId\":\"21692f7c-500c-43a3-b8b8-efa4efeaf6ff\",\"SiteName\":\"Default\",\"ModuleName\":\"Global\",\"Hierarchies\":[{\"Id\":\"84c7f9c9-a023-415f-a460-06df2e5de5da\",\"Title\":\"120 Day Ebook\",\"Parent\":{\"Id\":\"ef9f433c-518d-4781-8fd9-c1fd1b4de62e\",\"Title\":\"Price Types\"}},{\"Id\":\"f2063af9-9667-4bee-8225-97eff749ffef\",\"Title\":\"180 Day Ebook\",\"Parent\":{\"Id\":\"ef9f433c-518d-4781-8fd9-c1fd1b4de62e\",\"Title\":\"Price Types\"}},{\"Id\":\"fa701fcd-efce-4734-9229-aa3ca4e5ef6b\",\"Title\":\"90 Day Ebook\",\"Parent\":{\"Id\":\"ef9f433c-518d-4781-8fd9-c1fd1b4de62e\",\"Title\":\"Price Types\"}},{\"Id\":\"af2fbba4-22aa-4580-9fc8-cbea00aa499c\",\"Title\":\"Business \u0026 Management\",\"Parent\":{\"Id\":\"3ff43608-5d82-4b3f-9872-08dc54ffac58\",\"Title\":\"Disciplines\"}},{\"Id\":\"ff4d7304-6f8b-412d-8269-8a101a12040c\",\"Title\":\"Business \u0026 Management (General)\",\"Parent\":{\"Id\":\"041c6499-e005-4529-be01-a0e5a6463216\",\"Title\":\"UK Disciplines\"}},{\"Id\":\"3af820e9-f353-44e4-a4df-85f6503e4147\",\"Title\":\"India Non Rupee Currency\",\"Parent\":{\"Id\":\"ef9f433c-518d-4781-8fd9-c1fd1b4de62e\",\"Title\":\"Price Types\"}},{\"Id\":\"620150eb-c1dc-43d7-9dd0-a24a6ec3302b\",\"Title\":\"India Non Rupee Currency\",\"Parent\":{\"Id\":\"ef9f433c-518d-4781-8fd9-c1fd1b4de62e\",\"Title\":\"Price Types\"}},{\"Id\":\"5320cfe5-8b81-4dca-967c-f17a5354eca7\",\"Title\":\"India Non Rupee Currency\",\"Parent\":{\"Id\":\"ef9f433c-518d-4781-8fd9-c1fd1b4de62e\",\"Title\":\"Price Types\"}},{\"Id\":\"89034219-6019-44bd-8e0a-a6440d64e656\",\"Title\":\"Lease 12 Months\",\"Parent\":{\"Id\":\"ef9f433c-518d-4781-8fd9-c1fd1b4de62e\",\"Title\":\"Price Types\"}},{\"Id\":\"52e67344-bc85-4f60-9ee2-5cf160e283a6\",\"Title\":\"Library\",\"Parent\":{\"Id\":\"ef9f433c-518d-4781-8fd9-c1fd1b4de62e\",\"Title\":\"Price Types\"}},{\"Id\":\"61afd2f2-fbed-48d3-b517-820dc4518a37\",\"Title\":\"List\",\"Parent\":{\"Id\":\"ef9f433c-518d-4781-8fd9-c1fd1b4de62e\",\"Title\":\"Price Types\"}},{\"Id\":\"44a24448-0c37-4a18-81e5-895bae06592e\",\"Title\":\"List\",\"Parent\":{\"Id\":\"ef9f433c-518d-4781-8fd9-c1fd1b4de62e\",\"Title\":\"Price Types\"}},{\"Id\":\"2bbe7769-efce-4f50-8cab-9b58037bcc73\",\"Title\":\"List\",\"Parent\":{\"Id\":\"ef9f433c-518d-4781-8fd9-c1fd1b4de62e\",\"Title\":\"Price Types\"}},{\"Id\":\"0d38497d-7ce2-49a4-99a6-aa0d800a035b\",\"Title\":\"List\",\"Parent\":{\"Id\":\"ef9f433c-518d-4781-8fd9-c1fd1b4de62e\",\"Title\":\"Price Types\"}},{\"Id\":\"c6fb3f7f-33d7-4c65-83e1-daebaa5db944\",\"Title\":\"List\",\"Parent\":{\"Id\":\"ef9f433c-518d-4781-8fd9-c1fd1b4de62e\",\"Title\":\"Price Types\"}},{\"Id\":\"89794115-3c91-44ff-a00c-f6be3bdb01ec\",\"Title\":\"List\",\"Parent\":{\"Id\":\"ef9f433c-518d-4781-8fd9-c1fd1b4de62e\",\"Title\":\"Price Types\"}},{\"Id\":\"54b0179c-c250-4a63-a00c-3b9d7e44f008\",\"Title\":\"Online Course\",\"Parent\":{\"Id\":\"e6b6eb26-7e75-4747-96b7-9b3293f3dc19\",\"Title\":\"Formats\"}},{\"Id\":\"8a8851ec-dc59-47a8-93fa-543997aad368\",\"Title\":\"Paperback\",\"Parent\":{\"Id\":\"065eaaa1-9103-4eea-b9af-514845065a2f\",\"Title\":\"Paperback\",\"Parent\":{\"Id\":\"e6b6eb26-7e75-4747-96b7-9b3293f3dc19\",\"Title\":\"Formats\"}}},{\"Id\":\"7fd63699-3fab-4338-aca0-826f4077ed09\",\"Title\":\"Print\",\"Parent\":{\"Id\":\"a8c5a25d-3428-41e8-8e3d-908d166dc4ff\",\"Title\":\"Product Formats\"}},{\"Id\":\"b7deb32f-d3c2-411a-a83c-09a46070f55d\",\"Title\":\"Professional\",\"Parent\":{\"Id\":\"0b6cbd9f-e9bb-4866-b35c-d8e646361a6f\",\"Title\":\"Classifications\"}},{\"Id\":\"43a9d465-e0f4-466f-9a42-077b78b82a91\",\"Title\":\"Professional book\",\"Parent\":{\"Id\":\"dae0057d-bb3e-446f-b627-7707dfd2c565\",\"Title\":\"Publication Types\"}},{\"Id\":\"956ef452-a4d0-4d69-aa5e-bfa7de8ddb33\",\"Title\":\"Professional Book\",\"Parent\":{\"Id\":\"231051ec-6942-4d88-b34a-838735482f02\",\"Title\":\"Book Categories\"}},{\"Id\":\"ffbe0f42-5da1-45f0-9476-1c21cff6aa0a\",\"Title\":\"Published\",\"Parent\":{\"Id\":\"7e727cbd-f022-40f3-aae8-a3872711f959\",\"Title\":\"Publication Status\"}},{\"Id\":\"73b5b3ab-fc88-4e12-a2c2-ea939651ee48\",\"Title\":\"Saddle Stitch\",\"Parent\":{\"Id\":\"e6b6eb26-7e75-4747-96b7-9b3293f3dc19\",\"Title\":\"Formats\"}},{\"Id\":\"5086d45f-0b2b-43da-a8db-adec88759347\",\"Title\":\"SK Book\",\"Parent\":{\"Id\":\"a750e007-1422-44a6-a933-2e5c257ba5d8\",\"Title\":\"XML TEI\",\"Parent\":{\"Id\":\"e6b6eb26-7e75-4747-96b7-9b3293f3dc19\",\"Title\":\"Formats\"}}},{\"Id\":\"beef4a32-f8fc-4291-9b7b-5131d11e22c5\",\"Title\":\"Thumbdrive\",\"Parent\":{\"Id\":\"e6b6eb26-7e75-4747-96b7-9b3293f3dc19\",\"Title\":\"Formats\"}}],\"PageHierarchies\":[{\"Id\":\"761c11da-e96f-4c91-8366-263f44e11ff0\",\"Title\":\"Book\",\"Parent\":{\"Id\":\"8403411a-49b5-42a7-a5ad-201f684a3e33\",\"Title\":\"Sage Page Type\"}},{\"Id\":\"92b9dc96-45b8-402f-ae4a-f826a97930ff\",\"Title\":\"UKTP\",\"Parent\":{\"Id\":\"1ddf5ecc-37f8-47c2-8fb4-02cd0fff6205\",\"Title\":\"Sage Business Area\"}}],\"SFDataProviderName\":\"OpenAccessProvider\",\"PageId\":\"16c3e21a-8452-4281-8d4d-c19c06d1fc82\",\"PageTitle\":\"Buy a book\",\"PageCanonicalTitle\":\"Buy a book\",\"PageCanonicalUrl\":\"https://www.sagepub.com/shop/buy-a-book\"}","videosMetadata":"[]"}</script><script src="/WebResource.axd?d=HtQyXelCu6mzSPcVcvK_Bl3WywIB65351hXFDBfmOR8kk90ePBZJW73D0vEBjH2zPW1qnl8_gIawSb27H8b9HOM5q5X60nn8pmG_eeWNHPqWjpO7UYiLuq3ywEb1DmK47QUrnqeW-HA36UgWp3Q2Oyyq5mJilMHGzy6K1PFxxvQBQ6nF9UVJqqw4_UFvBiHTInztiGzk7YH8W-z2K1NA6iOVp463BvonWfvSAOG2Iik1&amp;t=639261747800000000" type="text/javascript"></script><script async="async" crossorigin="" src="https://cdn.insight.sitefinity.com/sdk/sitefinity-insight-client.min.3.1.44.js" type="text/javascript"></script><script id="lazyArgs" type="application/json">{"SfUrl":"/api/default/","PageId":"16c3e21a-8452-4281-8d4d-c19c06d1fc82","SiteId":"21692f7c-500c-43a3-b8b8-efa4efeaf6ff","Culture":"en","ResourcePackageName":"Global"}</script><script src="/sfrenderer/scripts/lazy-components.min.js"></script><script id="-1392481777" src="/sfrenderer/scripts/bootstrap.bundle.min.js?package_name=Global&amp;version=-1135580629" type="text/javascript"></script><script id="1508530258" src="/sfrenderer/scripts/Shared/dataLayers.min.js?assembly_name=CoreWeb.Sitefinity.Widgets&amp;package_name=Global&amp;version=1438736795" type="text/javascript"></script><script id="1040957494" src="/sfrenderer/scripts/IcfrCartStatus/global.min.js?assembly_name=CoreWeb.Sitefinity.Widgets&amp;package_name=Global&amp;version=1438736795" type="text/javascript"></script><script id="-116807171" src="/sfrenderer/scripts/SocialShare/social-share.min.js?assembly_name=CoreWeb.Sitefinity.Widgets&amp;package_name=Global&amp;version=1438736795" type="text/javascript"></script><script id="1996969848" src="/sfrenderer/scripts/Shared/hawksearchEvents.min.js?assembly_name=CoreWeb.Sitefinity.Widgets&amp;package_name=Global&amp;version=1438736795" type="text/javascript"></script><script id="346266766" src="/sfrenderer/scripts/LoginForm/login-shared-tools.min.js?assembly_name=CoreWeb.Sitefinity.Widgets&amp;package_name=Global&amp;version=1438736795" type="text/javascript"></script><script id="-753777763" src="/sfrenderer/scripts/Shared/addToCart.min.js?assembly_name=CoreWeb.Sitefinity.Widgets&amp;package_name=Global&amp;version=1438736795" type="text/javascript"></script><script id="785554146" src="/sfrenderer/scripts/Books/detail.min.js?assembly_name=CoreWeb.Sitefinity.Widgets&amp;package_name=Global&amp;version=1438736795" type="text/javascript"></script><script id="719322541" src="/sfrenderer/scripts/HawkSearch/hawksearch-recommendation.js?assembly_name=CoreWeb.Sitefinity.Widgets&amp;package_name=Global&amp;version=1438736795" type="text/javascript"></script><script id="981148104" src="/sfrenderer/scripts/LinkToAnchor/link-to-anchor.min.js?assembly_name=CoreWeb.Sitefinity.Widgets&amp;package_name=Global&amp;version=1438736795" type="text/javascript"></script><script id="-1451372849" src="/sfrenderer/scripts/LocationSelector/location.min.js?assembly_name=CoreWeb.Sitefinity.Widgets&amp;package_name=Global&amp;version=1438736795" type="text/javascript"></script><script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a557cae89c0168ec',t:'MTc5MzgzOTA3NA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a557cae89c0168ec',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

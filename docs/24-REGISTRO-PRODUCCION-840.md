@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-05T00:35:17+00:00.
+Comprobado en WordPress: 2026-11-05T00:56:20+00:00.
 
-**811/840 terminadas · 0 en curso · 29 pendientes.**
+**814/840 terminadas · 0 en curso · 26 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -828,10 +828,10 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 814 | 55/56 · 4/15 | E2.6.04 | Lealtad no es encubrimiento: la ética por encima del grupo | terminada | 3/3 | [Leer](https://moevec.org/blog/lealtad-no-es-encubrimiento/) |
 | 815 | 55/56 · 5/15 | E2.6.05 | Lealtad a las ideas: cuándo cambiar de opinión no es traición | terminada | 3/3 | [Leer](https://moevec.org/blog/lealtad-a-las-ideas/) |
 | 816 | 55/56 · 6/15 | E2.6.06 | Lealtad del cliente: por qué la competencia es la mejor fidelización | terminada | 3/3 | [Leer](https://moevec.org/blog/lealtad-del-cliente-competencia/) |
-| 817 | 55/56 · 7/15 | E2.6.07 | Lealtad laboral: ¿qué se deben empresa y trabajador? | pendiente | 0/3 | — |
+| 817 | 55/56 · 7/15 | E2.6.07 | Lealtad laboral: ¿qué se deben empresa y trabajador? | terminada | 3/3 | [Leer](https://moevec.org/blog/lealtad-laboral/) |
 | 818 | 55/56 · 8/15 | E2.6.08 | Clientelismo: la lealtad comprada que empobrece | pendiente | 0/3 | — |
-| 819 | 55/56 · 9/15 | E2.6.09 | La lealtad en la tradición hispánica: honor, palabra y compadrazgo | pendiente | 0/3 | — |
-| 820 | 55/56 · 10/15 | E2.6.10 | Grupos que exigen obediencia: señales de alerta | pendiente | 0/3 | — |
+| 819 | 55/56 · 9/15 | E2.6.09 | La lealtad en la tradición hispánica: honor, palabra y compadrazgo | terminada | 3/3 | [Leer](https://moevec.org/blog/lealtad-tradicion-hispanica/) |
+| 820 | 55/56 · 10/15 | E2.6.10 | Grupos que exigen obediencia: señales de alerta | terminada | 3/3 | [Leer](https://moevec.org/blog/grupos-que-exigen-obediencia/) |
 | 821 | 55/56 · 11/15 | E2.6.11 | Socios leales: cómo escribir lealtad en un pacto de socios | pendiente | 0/3 | — |
 | 822 | 55/56 · 12/15 | E2.6.12 | Comunidades de la diáspora: lealtad a distancia | pendiente | 0/3 | — |
 | 823 | 55/56 · 13/15 | E2.6.13 | Nepotismo o confianza: contratar a familiares en tu negocio | pendiente | 0/3 | — |

@@ -1,0 +1,7 @@
+# -*- coding: utf-8 -*-
+import subprocess,json,sys,re
+from pathlib import Path
+r=Path('/Users/nerea/Documents/Proyectos/MEE/mee-web');start,end=map(int,sys.argv[1:3]);plan=json.load(open(r/'wordpress/plugins/mee-editorial/data/production-plan.json'));ids=[x['id']for x in plan if start<=x['number']<=end and x['number']!=818];c=Path('/tmp/mee-wp-container.txt').read_text().strip();assert re.fullmatch('[0-9a-f]+',c);d=r/'inventario/auditoria-2026-10-28'
+p=subprocess.run(['ssh','-o','BatchMode=yes','calicata-root',f'docker exec --user 33:33 {c} php /tmp/mee-verify-organization.php '+' '.join(ids)],capture_output=True,text=True,check=True);a=json.loads(p.stdout);assert len(a)==len(ids)and all(x['ok']for x in a);(d/f'editorial-{start}-{end}-organization.json').write_text(json.dumps(a,ensure_ascii=False,indent=2)+'\n')
+php="<?php require '/var/www/html/wp-load.php'; $t=get_terms(['taxonomy'=>'category','hide_empty'=>false]);$o=['count'=>count($t),'roots'=>count(array_filter($t,fn($x)=>$x->parent==0)),'forbidden'=>array_values(array_filter(array_map(fn($x)=>$x->slug,$t),fn($x)=>in_array($x,['uncategorized','editorial'])))];echo json_encode($o);"
+q=subprocess.run(['ssh','-o','BatchMode=yes','calicata-root',f'docker exec -i --user 33:33 {c} php'],input=php,capture_output=True,text=True,check=True);b=json.loads(q.stdout);assert b['count']==122 and b['roots']==7 and not b['forbidden'];(d/f'editorial-{start}-{end}-taxonomy.json').write_text(json.dumps(b,ensure_ascii=False,indent=2)+'\n');print(json.dumps(dict(organization=a,taxonomy=b),ensure_ascii=False))
