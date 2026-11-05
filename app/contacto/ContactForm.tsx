@@ -13,6 +13,7 @@ export default function ContactForm(){
   const topic=new URLSearchParams(window.location.search).get('tema');
   if(topic==='donacion')setSubject('Donar a MEE');
   if(topic==='publicidad')setSubject('Publicidad en MEE');
+  if(['editorial','Propuesta editorial','Consulta editorial','correccion'].includes(topic||''))setSubject('Consulta editorial');
  },[]);
  async function submit(event:FormEvent<HTMLFormElement>){
   event.preventDefault();if(busy)return;

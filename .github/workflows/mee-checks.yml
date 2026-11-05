@@ -1,0 +1,52 @@
+name: MEE release checks
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 7 * * *'
+  push:
+    branches: [main]
+    paths: ['app/**', 'lib/**', 'public/**', 'content/**', 'wordpress/themes/mee-child/**', 'wordpress/plugins/mee-editorial/**', 'scripts/**', 'package*.json', '.github/workflows/mee-checks.yml']
+  pull_request:
+    paths: ['app/**', 'lib/**', 'public/**', 'content/**', 'wordpress/**', 'scripts/**', 'package*.json']
+permissions:
+  contents: read
+concurrency:
+  group: mee-checks-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  release:
+    if: github.event_name != 'schedule'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            app
+            lib
+            public
+            content
+            wordpress/themes/mee-child
+            wordpress/plugins/mee-editorial
+            scripts
+            docs
+            fuentes
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+      - run: npm run verify
+      - run: find wordpress/themes/mee-child wordpress/plugins/mee-editorial -name '*.php' -print0 | xargs -0 -n1 php -l
+
+  live:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            scripts
+            wordpress/plugins/mee-editorial/data
+      - run: python3 scripts/verify-release.py --live

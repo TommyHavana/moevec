@@ -12,3 +12,5 @@ COPY deploy/wordpress-entrypoint.sh /usr/local/bin/mee-wordpress-entrypoint
 RUN chmod +x /usr/local/bin/mee-wordpress-entrypoint
 ENTRYPOINT ["mee-wordpress-entrypoint"]
 CMD ["apache2-foreground"]
+
+COPY scripts/healthcheck-wordpress.php /opt/mee/healthcheck-wordpress.php

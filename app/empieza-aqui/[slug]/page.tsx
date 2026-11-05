@@ -4,7 +4,7 @@ import {Breadcrumbs,JsonLd,origin,pageMeta} from '../../../lib/seo';
 import ReadingChecklist from '../ReadingChecklist';
 type Props={params:Promise<{slug:string}>};
 export function generateStaticParams(){return readingPaths.map(p=>({slug:p.slug}));}
-export async function generateMetadata({params}:Props){const {slug}=await params;const path=readingPaths.find(p=>p.slug===slug);return path?pageMeta(path.title+' · Ruta de lectura MEE',path.intro,`/empieza-aqui/${slug}/`):{};}
+export async function generateMetadata({params}:Props){const {slug}=await params;const path=readingPaths.find(p=>p.slug===slug);return path?pageMeta(path.title+' · Ruta de lectura MEE',path.intro,`/empieza-aqui/${slug}/`,`/brand/rutas/${slug}.webp`):{};}
 export default async function ReadingPathPage({params}:Props){const {slug}=await params;const path=readingPaths.find(p=>p.slug===slug);if(!path)notFound();return <main id="contenido" className="reading-path">
  <Breadcrumbs items={[{name:'Inicio',path:'/'},{name:'Empieza aquí',path:'/empieza-aqui/'},{name:path.title,path:`/empieza-aqui/${slug}/`}]}/>
  <header className="reading-intro"><h1>{path.title}<span className="title-dot">.</span></h1><div><p>{path.intro}</p><p className="reading-duration">6 lecturas · unos {path.minutes} minutos en total</p></div></header>

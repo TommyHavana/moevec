@@ -51,3 +51,5 @@ function mee_reading_continuation($post_id) {
         }
     }
 }
+
+require_once __DIR__.'/editorial-quality.php';

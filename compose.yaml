@@ -14,6 +14,12 @@ services:
     depends_on:
       wordpress-init:
         condition: service_completed_successfully
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q -O /dev/null http://127.0.0.1/ && wget -q -O /dev/null http://127.0.0.1/empieza-aqui/"]
+      interval: 60s
+      timeout: 10s
+      start_period: 60s
+      retries: 3
     restart: unless-stopped
 
   wordpress:
@@ -34,6 +40,12 @@ services:
     volumes:
       - wordpress-files:/var/www/html
       - secret-files:/run/mee-secrets:ro
+    healthcheck:
+      test: ["CMD", "php", "/opt/mee/healthcheck-wordpress.php"]
+      interval: 60s
+      timeout: 15s
+      start_period: 90s
+      retries: 3
     depends_on:
       database:
         condition: service_healthy

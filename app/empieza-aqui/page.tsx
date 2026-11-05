@@ -1,7 +1,7 @@
 import {readingPaths} from '../../lib/reading-paths';
 import {Breadcrumbs,JsonLd,origin,pageMeta} from '../../lib/seo';
 
-export const metadata=pageMeta('Empieza aquí: tres rutas para leer MEE','Elige una ruta de seis lecturas para organizar tus finanzas, mejorar tus capacidades laborales o entender la economía. Avanza a tu ritmo.','/empieza-aqui/');
+export const metadata=pageMeta('Empieza aquí: tres rutas para leer MEE','Elige una ruta de seis lecturas para organizar tus finanzas, mejorar tus capacidades laborales o entender la economía. Avanza a tu ritmo.','/empieza-aqui/','/brand/rutas/empieza-aqui.webp');
 export default function StartPage(){return <main id="contenido" className="reading-hub">
  <Breadcrumbs items={[{name:'Inicio',path:'/'},{name:'Empieza aquí',path:'/empieza-aqui/'}]}/>
  <header className="reading-intro"><h1>Empieza por<br/>lo que te importa<span className="title-dot">.</span></h1><div><p>Elige una pregunta. Sigue seis lecturas en orden y lleva una idea a tu vida cotidiana.</p><p>Las rutas reúnen artículos del editorial MEE. Puedes seguirlas completas o volver al paso que necesites.</p></div></header>

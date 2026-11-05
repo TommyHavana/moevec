@@ -144,3 +144,9 @@ body{font-family:"MEE Manrope",Arial,Helvetica,sans-serif}
 .mee-path-continuation h2{font:900 clamp(1.5rem,3vw,2.7rem)/1.2 'MEE Archivo',sans-serif}
 .mee-path-continuation a{color:#fff;text-underline-offset:4px}.mee-path-continuation p{line-height:1.8}
 @media(max-width:640px){.mee-editorial-tools .mee-discovery-selects{grid-template-columns:1fr}}
+
+/* Audit improvements: dates, contextual exits and compact discovery. */
+.mee-editorial-dates{display:flex;flex-wrap:wrap;gap:10px 24px;line-height:1.7;font-size:.8rem;color:var(--muted)}.mee-editorial-dates a{color:var(--blue);text-underline-offset:4px}
+.mee-category-context,.mee-context-grid{padding:30px clamp(20px,5vw,80px)}.mee-category-context p{max-width:70ch;line-height:1.7}.mee-context-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:30px}.mee-context-grid article{border-top:1px solid var(--rule);padding-top:20px}.mee-context-grid h2{font-size:1.5rem;line-height:1.3}.mee-context-grid p{line-height:1.7}
+.mee-filter-details{margin-top:16px}.mee-filter-details summary{cursor:pointer;font-weight:700;font-size:.85rem;min-height:32px}.mee-entry-routes{display:flex;flex-wrap:wrap;gap:8px 24px;margin-top:20px}.mee-entry-routes a{font-size:.9rem;text-underline-offset:4px;padding-block:8px}
+@media(max-width:640px){.mee-editorial-hero{padding-block:28px}.mee-editorial-hero h1{margin:16px 0}.mee-editorial-tools{padding-block:22px;gap:14px}.mee-lab-note{display:none}.mee-context-grid{grid-template-columns:1fr}.mee-entry-routes{gap:0 18px}.mee-editorial-dates{display:grid;gap:5px}}
