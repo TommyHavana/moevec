@@ -1,0 +1,2415 @@
+PAGE 1
+ 
+1 
+ 
+2 
+ 
+3 
+ 
+4 
+ 
+5 
+ 
+6 
+ 
+ 
+7 
+ 
+8 
+The association between adolescent well-being and digital technology use  
+9 
+ 
+10 
+Amy Orben* 
+11 
+Department of Experimental Psychology, University of Oxford 
+12 
+ 
+13 
+Andrew K. Przybylski 
+14 
+Oxford Internet Institute, University of Oxford 
+15 
+Department of Experimental Psychology, University of Oxford 
+16 
+ 
+17 
+ 
+18 
+ 
+19 
+          Correspondence concerning this article should be addressed to Amy Orben, 
+20 
+Department of Experimental Psychology, University of Oxford, New Radcliffe House, 
+21 
+Oxford OX2 6GH. 
+22 
+Email: amy.orben@psy.ox.ac.uk  
+23 
+Orcid ID: orcid.org/0000-0002-2937-4183 
+ 
+24 
+
+
+PAGE 2
+ADOLESCENT WELL-BEING AND DIGITAL TECHNOLOGY 
+1
+Abstract 
+1 
+The widespread use of digital technologies by young people has spurred speculation that their 
+2 
+regular use negatively impacts psychological well-being. Current empirical evidence 
+3 
+supporting this idea is largely based on secondary analyses of large-scale social datasets. 
+4 
+Though these datasets provide a valuable resource for highly powered investigations, their 
+5 
+many variables and observations are often explored with an analytic flexibility that marks small 
+6 
+effects as statistically significant, thereby leading to potential false positives and conflicting 
+7 
+results. Here we address these methodological challenges by applying Specification Curve 
+8 
+Analysis across three large-scale social datasets (ntot = 355,358) to rigorously examine 
+9 
+correlational evidence for digital technology affecting adolescents. The association we find 
+10 
+between digital technology use and adolescent well-being is negative but small, explaining at 
+11 
+most 0.4% of the variation in well-being. Taking the broader context of the data into account 
+12 
+suggests that these effects are too small to warrant policy change.  
+13 
+ 
+ 
+14 
+
+
+PAGE 3
+ADOLESCENT WELL-BEING AND DIGITAL TECHNOLOGY 
+2
+Re-Evaluating the Relation between Digital Technology Use and Adolescent Well-Being 
+1 
+ 
+2 
+The idea that digital devices and the Internet have an enduring influence on how 
+3 
+humans develop, socialize, and thrive is a compelling one1. As the time young people spend 
+4 
+online has doubled in the past decade2, the debate about whether this shift negatively impacts 
+5 
+children and adolescents is becoming increasingly heated3. A number of professional and 
+6 
+governmental organizations have therefore called for more research into digital screen time4,5, 
+7 
+which has led to household panel surveys6,7 and large-scale social datasets adding measures 
+8 
+of digital technology use to those already assessing psychological well-being8. Unfortunately, 
+9 
+findings derived from the cross-sectional analysis of these datasets are conflicting; in some 
+10 
+cases negative associations between digital technology use and well-being are found9,10, often 
+11 
+receiving much attention even when correlations are small. Yet other results are mixed11 or 
+12 
+contest previously found negative effects when re-analysing identical data12. A high-quality 
+13 
+pre-registered analysis of UK adolescents found that moderate digital engagement does not 
+14 
+correlate with well-being, but very high levels of usage possibly has small negative 
+15 
+associations13,14.  
+16 
+There are at least three reasons why the inferences behavioural scientists draw from 
+17 
+large-scale datasets might produce divergent findings. First, these datasets are mostly 
+18 
+collected in collaboration with multidisciplinary research councils and are characterized by a 
+19 
+battery of items meant to be completed by postal survey, face-to-face or telephone interview6–
+20 
+8. Though research councils engage in public consultations15, the pre-tested or validated 
+21 
+scales common in clinical, social or personality psychology are often abbreviated or altered to 
+22 
+reduce participant burden 16,17. Scientists wishing to make inferences about digital 
+23 
+technology’s effects using these data need to make numerous decisions about how to analyse, 
+24 
+combine and interpret the measures. Taking advantage of these valuable datasets is therefore 
+25 
+
+
+PAGE 4
+ADOLESCENT WELL-BEING AND DIGITAL TECHNOLOGY 
+3
+fraught with many subjective analytical decisions, which can lead to high numbers of 
+1 
+researcher degrees of freedom18. With nearly all decisions taken after the data are known, 
+2 
+they are not apparent to those reading the published paper highlighting only the final 
+3 
+analytical pathway19,20.  
+4 
+The second possible explanation for conflicting patterns of effects found in large-
+5 
+scale datasets is rooted in the scale of the data analysed. Compared to the laboratory- and 
+6 
+community-based samples typical of behavioural research (mostly < 1,000)21, large-scale 
+7 
+social datasets feature high numbers of participant observations (ranging from 5,000 to 
+8 
+5,000,000)6–8. This means very small covariations (e.g. r’s < .01) between self-report items 
+9 
+will result in compelling evidence for rejecting the null hypothesis at alpha levels typically 
+10 
+interpreted as statistically significant by behavioural scientists (i.e. p’s < .05). Thirdly, it is 
+11 
+important to note that most datasets are cross-sectional and therefore only provide 
+12 
+correlational evidence, making it difficult to pinpoint causes and effects. Thus, large-scale 
+13 
+datasets are simultaneously attractive and problematic for researchers, peer reviewers and the 
+14 
+public. They are a resource for testing behavioural theories at scale but are, at the same time, 
+15 
+inherently susceptive to false positives and significant-but-minute effects using the alpha 
+16 
+levels traditionally employed in behavioural science.  
+17 
+Given that digital technology’s impact on child well-being is a topic of widespread 
+18 
+scientific debate among those studying human behaviour22 and has real-world implications23, 
+19 
+it is important for researchers to make the most of existing large-scale dataset investments. 
+20 
+This makes it necessary to employ transparent and robust analytic practices, which recognize 
+21 
+that the measures of digital technology use and well-being in large-scale datasets may not be 
+22 
+well-matched to specific research questions. Further, behavioural scientists must be 
+23 
+transparent about how the hundreds of variables and many thousands of observations can 
+24 
+quickly branch out into ‘gardens of forking paths’19 with millions, and in some cases billions 
+25 
+
+
+PAGE 5
+ADOLESCENT WELL-BEING AND DIGITAL TECHNOLOGY 
+4
+of analysis options. This risk is compounded by a reliance on statistical significance, i.e. 
+1 
+using p < .05, to demarcate “true” effects. Unfortunately the large number of participants in 
+2 
+these designs means small effects are easily publishable and, if positive, garner outsized press 
+3 
+and policy attention12. 
+4 
+Given that large-scale secondary datasets are increasingly available freely online, it is 
+5 
+not possible to convincingly document a scientist’s ignorance of the data before analysis24–26, 
+6 
+making hypothesis preregistration untenable as a general solution to the problem of 
+7 
+subjective analytical decisions. Specification Curve Analysis (SCA)27 provides a promising 
+8 
+alternative. Briefly, SCA is a tool for mapping the sum of theory-driven analytic decisions 
+9 
+that could have been justifiably taken when analysing quantitative data. Researchers 
+10 
+demarcate every possible analytical pathway and then calculate the results of each one. 
+11 
+Instead of reporting a handful of analyses in their paper, they report all results of all 
+12 
+theoretically defensible analyses (for previous examples see 27,28 and the Supplementary 
+13 
+Methods) 
+14 
+Given the substantial disagreements within the literature, the extent to which 
+15 
+children’s screen-time may actually be impacting their psychological well-being remains 
+16 
+unclear. The present research addresses this gap in our understanding by relying on large-
+17 
+scale data paired with a conservative analytic approach to provide a more definitive and 
+18 
+clearly contextualized test of the association between screen use and well-being.  
+19 
+To this end, three large-scale exemplar datasets (Monitoring the Future, Youth Risk 
+20 
+and Behaviour Survey and Millennium Cohort Study) from the US and the UK were selected 
+21 
+to highlight the particular strengths and weaknesses of drawing general inferences from large-
+22 
+scale social data and how they can be reconceptualised by SCA 6–8. Further, we tackle the 
+23 
+problem of significant-but-minimal effects in large-scale social data by using the abundance 
+24 
+
+
+PAGE 6
+ADOLESCENT WELL-BEING AND DIGITAL TECHNOLOGY 
+5
+of questions in each dataset to compute comparison specifications; we directly compare the 
+1 
+effects of digital technology to the effects of other activities on psychological well-being (e.g. 
+2 
+sleep, eating breakfast, illicit drug use), using extant literatures and psychological theory as a 
+3 
+guide. This allows us to simultaneously examine the impact of adolescent technology use 
+4 
+against real-world benchmarks while modelling and accounting for analytic flexibility. 
+5 
+Results 
+6 
+Identifying specifications 
+7 
+We identified the main analytical decisions that needed to be taken when regressing 
+8 
+digital technology use on adolescents’ psychological well-being in each dataset (see Table 1). 
+9 
+372 justifiable specifications for YRBS, 40,966 plausible specifications for MTF, and a total 
+10 
+of 603,979,752 defensible specifications for MCS were identified. Although more than 600 
+11 
+million specifications might seem high, this number is best understood in relation to the total 
+12 
+possible iterations of dependent (6 analysis options) and independent variables (224 + 225 - 2 
+13 
+analysis options) and whether covariates are included or not (2 analysis options). The number 
+14 
+rises even higher to 2.5 trillion specifications for MCS if any combination of covariates (212 
+15 
+analysis options) is included. Given this, and to reduce computational time, we selected 
+16 
+20,004 specifications for MCS. To do so, we included specifications of all used measures by 
+17 
+themselves, and any combinations of measures found in the previous literature and then 
+18 
+supplemented them with other randomly selected combinations. More information about 
+19 
+selection can be found in the supplementary materials (see Supplementary Table 1). 
+20 
+ Implementing Specifications.  
+21 
+After noting down all specifications, the result of every possible combination of these 
+22 
+specifications was computed for each dataset. The standardised β coefficient for technology 
+23 
+uses’ association with well-being was then plotted for each specification. The number of 
+24 
+
+
+PAGE 7
+ADOLESCENT WELL-BEING AND DIGITAL TECHNOLOGY 
+6
+participants analysed for each specification can be found in Supplementary Figure 1-3, the 
+1 
+median standardised β, n, partial 𝜂2 and standard error can be found in Table 2. For YRBS, 
+2 
+the median association of technology use with adolescent well-being was β = - .035 (median 
+3 
+partial 𝜂2 = .001, median n = 62,297, median standard error = .004, see Figure 1). From the 
+4 
+figure one can discern the analytical choices that influence the size of this effect. When using 
+5 
+electronic device use as the independent variable in the model, the effects were more negative 
+6 
+(median β = - .071, median partial 𝜂2 = .005, median n = 62,368, median standard error = 
+7 
+.004), while when including TV use in the model the effects were less negative and 
+8 
+sometimes become non-significant (median β = - .012, median partial 𝜂2 < .001, median n = 
+9 
+62,352, median standard error = .004). Even though YRBS does not have high quality control 
+10 
+variables, including them yielded a smaller effect size for the relations of interest (controls: 
+11 
+median β = - .034, median partial 𝜂2 = .001, median n = 61,525, median standard error = .004; 
+12 
+no controls: median β = - .035, median partial 𝜂2 = .001, median n = 62,638, median standard 
+13 
+error = .004). 
+14 
+For the MTF data, a median standardised β of -.005 was observed (median partial 𝜂2 < 
+15 
+.001, median n = 78,267, median standard error = .003), a value which fell into the non-
+16 
+significant range of the justifiable specifications (see Figure 2). This result was surprising, as 
+17 
+MTF had the highest number of observations, making it difficult for even small associations 
+18 
+to be flagged as non-significant using traditional alpha thresholds (i.e., p < .05). In Figure 2, 
+19 
+and our bootstrapping test, we do not include the few specifications of the participants that 
+20 
+only filled in one well-being measure (to see the SCA of all participants, see Supplementary 
+21 
+Figure 4). From the graph it is again possible to discern that even controls of lower standard 
+22 
+made the association either less negative or even positive (no controls: median β = -.013, 
+23 
+median partial 𝜂2 < .001, median n = 117,560, median standard error = .003; controls: median 
+24 
+β = .001, median partial 𝜂2 < .001, median n = 72,525, median standard error = .003). TV 
+25 
+
+
+PAGE 8
+ADOLESCENT WELL-BEING AND DIGITAL TECHNOLOGY 
+7
+viewing on the weekend had a median positive association with well-being of β = .008 
+1 
+(median partial 𝜂2 = .001, median n = 115,738, median standard error = .003), while social 
+2 
+media use had a median negative association with well-being of β = -.031 (median partial 𝜂2 
+3 
+= .001, median n = 102,963, median standard error = .003), though the effect was small 
+4 
+suggesting that technology use operationalised in these terms accounts for less than 0.1% of 
+5 
+the observed variability in well-being. Using the internet for news and TV viewing on a 
+6 
+weekday showed mainly very small median associations, β = -.002 (median partial 𝜂2 < .001, 
+7 
+median n = 115,580, median standard error = .003) and β = .002 (median partial 𝜂2 < .001, 
+8 
+median n = 115,783, median standard error = .003) respectively. As previous studies have 
+9 
+addressed the association between technology use and well-being using the same dataset10, 
+10 
+we include a figure showing how these study’s specifications influence their reported results 
+11 
+in the supplementary materials (see Supplementary Figure 5).  
+12 
+Lastly, results from MCS, the highest quality dataset we examined, were interesting 
+13 
+because the literature provided us with control variables based on extant theory11 and 
+14 
+convergent data from adolescent and caregiver reports. In these data we found a median β of 
+15 
+technology use’s association with wellbeing of β = -.032 (median partial 𝜂2 = .004, median n 
+16 
+= 7,968, median standard error = .010, see Figure 3). Across the board, if using well-being 
+17 
+measures completed by the caregivers, the median association was less negative or more 
+18 
+positive (median β < .001, median partial 𝜂2 = .003, median n = 7,893, median standard error 
+19 
+= .010), while the opposite was in evidence when considering well-being measures 
+20 
+completed by the cohort member (median β = -.046, median partial 𝜂2 = .008, median n = 
+21 
+8,857, median standard error =. 010). This pattern of shared covariation speaks to the idea 
+22 
+that correlations between technology use and well-being might be rooted in common method 
+23 
+variance, as one single informant fills out well-being and technology measures and the 
+24 
+association might be driven by other common factors.  
+25 
+
+
+PAGE 9
+ADOLESCENT WELL-BEING AND DIGITAL TECHNOLOGY 
+8
+To further address the importance of control variables, we plot separate specification 
+1 
+curves for MCS analyses with and without controls (see Figure 4). The association for the 
+2 
+uncorrected models had a median β of -.068  (median partial 𝜂2 = .005, median n = 11,018, 
+3 
+median standard error = .010). In contrast, the corrected models only found a median β of 
+4 
+technology use regressed on wellbeing of -.005 (median partial 𝜂2 = .001, median n = 6,566, 
+5 
+median standard error = .011). Additional SCAs using only pre-specified questionnaires are 
+6 
+presented in Supplementary Figure 6, further visualisations about how adding controls and 
+7 
+parent-report affects the reported associations are presented in Supplementary Figures 7 and 
+8 
+8. 
+9 
+Statistical Inferences.  
+10 
+The SCAs showed that there is a small negative association between technology use 
+11 
+and well-being, but it is not possible to make many analytical statistical inferences because 
+12 
+the specifications are not part of the same model and not independent. A bootstrapping 
+13 
+technique was therefore used to run 500 SCA tests on resampled data, where it is known that 
+14 
+the null hypothesis is true. Results presented in Supplementary Table 2 indicate that the 
+15 
+effects found were highly significant for all three datasets, and all three measures of 
+16 
+significance included in our bootstrapped tests. For the three datasets, there was no SCA 
+17 
+analysing bootstrapped samples which resulted in a larger median effect size than the median 
+18 
+effect size of the original SCA (p = 0.00, original effect sizes = YRBS median β = - .035, 
+19 
+MTF median β = -.005, MCS median β = -.032). Furthermore, there was no bootstrapped 
+20 
+SCA with more total or statistically significant specifications of the dominant sign than the 
+21 
+original SCA (share of specifications with dominant sign p = 0.00; original number: YRBS = 
+22 
+356, MTF = 24,164, MCS = 12,481; share of statistically significant specifications with 
+23 
+dominant sign p = 0.00; original number: YRBS = 323, MTF = 19,649, MCS = 10,857).  This 
+24 
+
+
+PAGE 10
+ADOLESCENT WELL-BEING AND DIGITAL TECHNOLOGY 
+9
+result provides evidence that digital technology use and adolescent well-being could be 
+1 
+negatively related at above chance levels in our data.   
+2 
+Comparison Specifications 
+3 
+To put the results of the SCAs into perspective with respect to the broader context of 
+4 
+human behaviour as measured in these datasets, we compare specification curves for the 
+5 
+mean of the technology use variables in each dataset to other associations that have been 
+6 
+shown to relate, or are hypothesised not to relate, to adolescent mental health: binge drinking, 
+7 
+smoking marijuana, being bullied, getting into fights, smoking cigarettes, being arrested, 
+8 
+perceived weight, eating potatoes, having asthma, drinking milk, going to the movies, 
+9 
+religion, listening to music, doing homework, cycling, height, wearing glasses, handedness, 
+10 
+eating fruit, eating vegetables, getting enough sleep and eating breakfast. For results see 
+11 
+Table 3, Figure 5 and Supplementary Figures 9-11.   
+12 
+For YRBS the association of mean technology use with well-being (median β = -.049, 
+13 
+median n = 62,166, partial 𝜂2 = .002, median standard error = .004) was exceeded by well-
+14 
+being’s association with being bullied (median β = -.212, median n = 50,066, partial 𝜂2 = 
+15 
+.044, median standard error = .004), getting into fights (median β = -.179, median n = 62,106, 
+16 
+partial 𝜂2 = .031, median standard error = .004), binge drinking (median β = -.144, median n 
+17 
+= 62,010, partial 𝜂2 = .021, median standard error = .004), smoking marijuana (median β = -
+18 
+.132, median n = 62,361, partial 𝜂2 = .018, median standard error = .004), having asthma 
+19 
+(median β = -.066, median n = 60,863, partial 𝜂2 = .004, median standard error = .004) and 
+20 
+perceived weight (median β = -.050, median n = 62,752, partial 𝜂2 = .002, median standard 
+21 
+error =.004). There is a smaller negative association for eating potatoes (median β = -.042, 
+22 
+median n = 61,912, partial 𝜂2 = .002, median standard error = .004), eating vegetables 
+23 
+(median β = -.013, median n = 62,034, partial 𝜂2 < .001, median standard error = .004) and 
+24 
+
+
+PAGE 11
+ADOLESCENT WELL-BEING AND DIGITAL TECHNOLOGY 
+10 
+eating fruit (median β = -.005, median n = 62,436, partial 𝜂2 < .001, median standard error = 
+1 
+.004). There is a smaller positive association for drinking milk (median β = .014, median n = 
+2 
+60,021, partial 𝜂2 < .001, median standard error = .004). Lastly, there is a larger positive 
+3 
+association for eating breakfast (median β = .116, median n = 34,010, partial 𝜂2 = .013, 
+4 
+median standard error = .006) and getting enough sleep (median β = .150, median n = 56,552, 
+5 
+partial 𝜂2 = .022, median standard error = .004).  
+6 
+For the MTF we compare the association of mean technology use (median β = -.006, 
+7 
+median n = 102,186, partial 𝜂2 < .001, median standard error = .003) to the variables we 
+8 
+hypothesised a priori to have no association: going to the movies (median β = .064, median n 
+9 
+= 115,943, partial 𝜂2 = .005, median standard error = .003), time spent on homework (median 
+10 
+β = .020, median n = 115,225, partial 𝜂2 = .001, median standard error = .003), attending 
+11 
+religious services (median β = .091, median n = 89,453, partial 𝜂2 = .010, median standard 
+12 
+error = .003) and listening to music (median β = -.182, median n = 49,514, partial 𝜂2 = .035, 
+13 
+median standard error = .005) all had larger effects. We also examined those we hypothesised 
+14 
+to have a more positive association: eating breakfast (median β = .170, median n = 62,330, 
+15 
+partial 𝜂2 = .034, median standard error = .004), eating fruit (median β = .053, median n = 
+16 
+115,334, partial 𝜂2 = .003, median standard error = .003), sleep (median β = .246, median n = 
+17 
+61,903, partial 𝜂2 = .070, median standard error = .004), and eating vegetables (median β = 
+18 
+.115, median n = 62,072, partial 𝜂2 = .014, median standard error = .004). Lastly we looked at 
+19 
+those variables that we hypothesised to have a more negative association: binge drinking 
+20 
+(median β = -.045, median n = 107,994, partial 𝜂2 = .002, median standard error = .003), 
+21 
+fighting (median β = -.087, median n = 62,683, partial 𝜂2 = .008, median standard error = 
+22 
+.004), smoking marijuana (median β = -.056, median n = 113,611, partial 𝜂2 = .003, median 
+23 
+standard error = .003) and smoking cigarettes (median β = -.103, median n = 113,424, partial 
+24 
+𝜂2 = .012, median standard error = .003). 
+25 
+
+
+PAGE 12
+ADOLESCENT WELL-BEING AND DIGITAL TECHNOLOGY 
+11 
+For MCS, mean technology use (median β = -.042, median n = 7,964, partial 𝜂2 = 
+1 
+.002, median standard error = .010) was compared to amount of sleep (median β = .070, 
+2 
+median n =  7,954, partial 𝜂2 = .005, median standard error = .010), eating fruit (median β = 
+3 
+.056, median n =  7,960, partial 𝜂2 = .004, median standard error = .010), eating breakfast 
+4 
+(median β = .140, median n =  7,964, partial 𝜂2 = .025, median standard error = .010) and 
+5 
+eating vegetables (median β = .064, median n =  7,949, partial 𝜂2 = .005, median standard 
+6 
+error = .010) that have a priori hypothesised positive associations; being arrested (median β = 
+7 
+-.041, median n =  7,908, partial 𝜂2 = .002, median standard error = .011), being bullied 
+8 
+(median β = -.208, median n =  7,898, partial 𝜂2 = .048, median standard error = .010), binge 
+9 
+drinking (median β = -.043, median n = 3,656, partial 𝜂2 = .002, median standard error = 
+10 
+.015) and smoking marijuana (median β = -.048, median n =  7,903, partial 𝜂2 = .003, median 
+11 
+standard error = .010) that have a priori hypothesised negative associations; wearing glasses 
+12 
+(median β = -.061, median n =  7,963, partial 𝜂2 = .005, median standard error = .010), being 
+13 
+left-handed (median β = -.004, median n =  7,972, partial 𝜂2 < 0.001, median standard error = 
+14 
+.010), bicycle use (median β = .080, median n =  7,974, partial 𝜂2 = .007, median standard 
+15 
+error = .010) and height (median β = .065, median n =  7,910, partial 𝜂2 = .005, median 
+16 
+standard error = .010) that have no a priori hypothesised associations (Figure 5). 
+17 
+ 
+18 
+Discussion 
+19 
+The possibility that adolescents’ digital technology use has a negative impact on 
+20 
+psychological well-being is an important question worthy of rigorous empirical testing. While 
+21 
+previous research in this area has equated findings derived from large-scale social data with 
+22 
+empirical robustness, the present research highlights deep-seated problems associated with 
+23 
+drawing strong inferences from such analyses. To provide a robust and transparent 
+24 
+
+
+PAGE 13
+ADOLESCENT WELL-BEING AND DIGITAL TECHNOLOGY 
+12 
+investigation of the effect of digital technology use on adolescent well-being, we 
+1 
+implemented Specification Curve Analysis (SCA) with comparison specifications using three 
+2 
+large-scale datasets from the US and UK.  
+3 
+While we find that digital technology use has a small negative association with 
+4 
+adolescent well-being, this finding is best understood in terms of other human behaviours 
+5 
+captured in these large-scale social datasets. When viewed in the broader context of the data, 
+6 
+it becomes clear that the outsized weight given to digital screen time in scientific and public 
+7 
+discourse might not be merited on the basis of the available evidence. For example, in all 
+8 
+three datasets the effects of both smoking marijuana and bullying have much larger negative 
+9 
+associations with adolescent well-being (2.7x and 4.3x respectively for YRBS) than 
+10 
+technology use does. Positive antecedents of well-being are equally illustrative; simple 
+11 
+actions like getting enough sleep and regularly eating breakfast have much more positive 
+12 
+associations with well-being than the average impact of technology use (ranging from 1.7x to 
+13 
+44.2x more positive in all datasets). Neutral factors provide perhaps the most useful context 
+14 
+to judge technology engagement effects: the association of well-being with regularly eating 
+15 
+potatoes was nearly as negative as the association with technology use (0.9x, YRBS) and 
+16 
+wearing glasses was more negatively associated with well-being (1.5x, MCS). 
+17 
+With this in mind, the evidence simultaneously suggests technology effects might be 
+18 
+statistically significant but so minimal that they hold little practical value. The nuanced 
+19 
+picture these results provide are in line with previous psychological and epidemiological 
+20 
+research suggesting the associations between digital screen time and child outcomes are not 
+21 
+as simple as many might think11,13. This work therefore puts previous work that used the 
+22 
+YRBS and MTF to highlight technology use as a potential culprit for decreasing adolescent 
+23 
+well-being10 into perspective, showing the range of possible analytical results and comparison 
+24 
+specifications. The finding that the association between technology use and digital 
+25 
+
+
+PAGE 14
+ADOLESCENT WELL-BEING AND DIGITAL TECHNOLOGY 
+13 
+engagement is much smaller than previously put forth has extensive implications for 
+1 
+stakeholders and policy-makers considering monetary investments into decreasing 
+2 
+technology use in order to increase adolescent well-being 29.  
+3 
+Importantly, the small negative associations diminish even further when proper and 
+4 
+pre-specified control variables, or caretaker responses about adolescent well-being, are 
+5 
+included in the analyses. This finding underlines the importance of considering high-quality 
+6 
+control variables, a priori specification of effect sizes of interest, and a critical evaluation of 
+7 
+the role that common method variance may play when mapping the effect of digital 
+8 
+technology use on adolescent well-being30. It is not enough to rely on statistical power to 
+9 
+improve scientific endeavour, large-scale social data analysis harbours its own challenges for 
+10 
+statistical inference and scientific progress.  
+11 
+This investigation therefore highlights two intrinsic problems confronting behavioural 
+12 
+scientists using large-scale social data. First, large numbers of ill-defined variables 
+13 
+necessitate researcher flexibility, potentially exacerbating the garden of forking paths 
+14 
+problem: for some datasets analysed there were more than a trillion different ways to 
+15 
+operationalize a simple regression19. Second, high numbers of observations render minutely 
+16 
+small associations significant through the default NHST lens31. With these challenges in 
+17 
+mind, our approach, grounded in SCA and including comparison specifications presents a 
+18 
+promising solution, so that behavioural scientists can build accurate and practically actionable 
+19 
+representations of effects found in large-scale datasets. Overall, the findings place popular 
+20 
+worries about the putative links between technology use and mental health indicators into 
+21 
+context. They underscore the need for open and impartial reporting of small correlations 
+22 
+derived from large-scale social data. 
+23 
+
+
+PAGE 15
+ADOLESCENT WELL-BEING AND DIGITAL TECHNOLOGY 
+14 
+Our analyses, however, do not provide a definite answer to whether digital technology 
+1 
+impacts adolescent well-being. Firstly, it is important to note that using most large-scale 
+2 
+datasets one can only examine cross-sectional correlations links, and it is therefore unclear 
+3 
+what is driving effects where present. We know very little about whether more technology 
+4 
+use might cause lower well-being, whether lower well-being might cause more technology 
+5 
+use or whether a third confounding factor underlies both. As we are examining something 
+6 
+inherently complex, the likelihood of unaccounted factors affecting both technology use and 
+7 
+wellbeing is high. It is therefore possible that the associations we document, and those that 
+8 
+previous authors have documented, are spurious.  
+9 
+For the sake of simplicity and comparison, simple linear regressions were used in this 
+10 
+study, overlooking the fact that the relationship of interest is probably more complex, non-
+11 
+linear, or hierarchical13. Many measures used were also of low quality, non-normal, 
+12 
+heterogenous, or outdated, limiting the generalisability of the study’s inferences. As self-
+13 
+report digital technology measures are known to be noisy32, this could have also led to the 
+14 
+effects of technology on well-being being diminished due to low-quality measurement. 
+15 
+Lastly, we used NHST to interpret significance, which is problematic when using such 
+16 
+extensive data. To improve, partnerships between research councils and behavioural scientists 
+17 
+to better measurement, and pre-registering of analyses plans, will be crucial.  
+18 
+Whether they are collected as part of multi-lab projects or research council funded 
+19 
+cohort studies, large-scale social datasets are an increasingly important part of the research 
+20 
+infrastructure in the behavioural sciences. On balance, we are optimistic these investments 
+21 
+provide an invaluable tool for studying technology effects in young people. To realise this 
+22 
+promise, we firmly believe researchers must ground their work and debate in open and robust 
+23 
+practices. In the quest for high power, we caution scientists studying technology effects to 
+24 
+understand the intrinsic limitations of large-scale data and to implemented approaches that 
+25 
+
+
+PAGE 16
+ADOLESCENT WELL-BEING AND DIGITAL TECHNOLOGY 
+15 
+guard against researcher degrees of freedom. While preregistration might be implausible for 
+1 
+analyses of open large-scale social data, methodologies like Specification Curve Analyses 
+2 
+provide solutions that don’t only support robust statistical inferences, but also provide a 
+3 
+comprehensive way to report the effects found for academia, policy and the public.  
+4 
+ 
+5 
+Methods 
+6 
+Datasets and Participants 
+7 
+This paper’s analysis pipeline spans three nationally-representative datasets from the 
+8 
+US and the UK 6–8, encompassing a total of 355,358, predominately 12 to 18-year-old, 
+9 
+adolescents surveyed between the years of 2007 and 2016. These datasets were selected 
+10 
+because they feature measures of adolescents’ psychological well-being, digital technology 
+11 
+use, and have been the focus of secondary data analysis to study digital technology 
+12 
+effects10,11,33. 
+13 
+Two of these datasets are based on samples collected in the United States. The first, 
+14 
+the Youth Risk and Behaviour Survey (YRBS)7 launched in 1990, is a biennial survey of 
+15 
+adolescents that reflects a nationally-representative sample of students attending secondary 
+16 
+schools in the U.S. (years 9-12). The resulting sample from the YRBS was collected from 
+17 
+2007 to 2015 and included 37,402 girls and 37,412 boys, ranging in age from “12 years or 
+18 
+younger” to “18 years or older” (median = 16, sd = 1.24). The second U.S. dataset, 
+19 
+Monitoring the Future (MTF)6, launched in 1975 and is an annual nationally-representative 
+20 
+survey of approximately 50,000 American adolescents in grades 8, 10 and 12. While the 
+21 
+survey includes adolescents in grade 12, many of the key items of interest cannot be 
+22 
+correlated in their survey, and therefore their data was not included in our analysis. The 
+23 
+resulting sample from the MTF was collected from 2008 to 2016, and included 136,190 girls 
+24 
+
+
+PAGE 17
+ADOLESCENT WELL-BEING AND DIGITAL TECHNOLOGY 
+16 
+and 132,482 boys, though the exact age of individual respondents was removed from the 
+1 
+dataset by study coordinators during anonymization.  
+2 
+The U.K. dataset under analysis was the Millennium Cohort Study (MCS)8,  a 
+3 
+prospective study collected in the U.K.; it follows a specific cohort of children born between 
+4 
+September 2000 and January 2001. We see this data as particularly high in quality due to its 
+5 
+inclusion of pre-tested measures and extensive documentation, highlighting good data 
+6 
+collection and project management practices. The data has an over-representation of minority 
+7 
+groups and disadvantaged areas due to clustered stratified sampling. Data in this sample is 
+8 
+provided by caregivers as well as adolescent participants. In our analysis, we only include 
+9 
+data from the primary caregivers and adolescent respondents. The sample under analysis 
+10 
+from the MCS was comprised of 5,926 girls and 5,946 boys who ranged in age from 13 to 15 
+11 
+(m = 13.77, sd = .45) and 10,605 primary caregivers. 
+12 
+While the omnibus sample of adolescents is 355,358 teenagers in total, it is important 
+13 
+to note that the sample sizes of the analyses are often smaller, in some cases by an order of 
+14 
+magnitude or more. This is due to missing values, but also because in questionnaires like 
+15 
+MTF teenagers only answered a subset of questions. More information about what questions 
+16 
+were asked together in MTF can be found in Supplementary Table 3.  
+17 
+Ethical Review 
+18 
+Ethical review and approval for data collection for YRBS was conducted and granted 
+19 
+by the CDC Institutional Review Board. The University of Michigan Institutional Review 
+20 
+Board oversees MTF. Ethical review and approval for the MCS is monitored by the U.K. 
+21 
+National Health Service (NHS) London, Northern, Yorkshire and South-West Research 
+22 
+Ethics Committees.   
+23 
+Measures  
+24 
+
+
+PAGE 18
+ADOLESCENT WELL-BEING AND DIGITAL TECHNOLOGY 
+17 
+ 
+This study focuses on measures of both digital technology use and psychological 
+1 
+well-being. Prior to performing the analysis, all three datasets were reviewed, noting the 
+2 
+variables of theoretical interest in each with respect to human behaviour and effects of 
+3 
+technology engagement. Some questions have been modified with successive waves of data 
+4 
+collection. In most cases these changes are relatively minor and are noted in the 
+5 
+supplementary materials (Supplementary Table 4). In our ongoing analyses we use the 
+6 
+questionnaires in many different constellations and therefore refrain from including reliability 
+7 
+measurements. Further details regarding all measures can be found in the Supplementary 
+8 
+Note. 
+9 
+Criterion Variables: adolescent well-being. All datasets contained a wide range of 
+10 
+different questions that concern the adolescents’ psychological well-being and functioning. 
+11 
+We reversed select measures so that they are all in the same direction, with higher scores 
+12 
+indicating higher well-being.  
+13 
+Adolescents were asked five items related to mental health and suicidal ideation in the 
+14 
+YRBS. Three were on a yes-no scale and two were on a frequency scale. In MTF, 
+15 
+participants were asked one of two subsets of self-report questions. The first tranche of 
+16 
+participants was asked thirteen questions about their mental health: twelve measures uniquely 
+17 
+asked to this subset, and one measure completed by all participants in the survey. The twelve 
+18 
+items asked only to this subset included a four-item depressive symptoms scale which studies 
+19 
+state to be “similar to those on the Center for Epidemiologic Studies Depression Scale (CES-
+20 
+D)34 and a self-esteem scale created by Rosenberg35, both use a disagree-agree Likert scale. 
+21 
+Survey administrators also included two additional negatively worded self-esteem measures 
+22 
+and a one-item measure asking how happy the participants feel.  
+23 
+
+
+PAGE 19
+ADOLESCENT WELL-BEING AND DIGITAL TECHNOLOGY 
+18 
+There are two kinds of psychological well-being indicators included in the MCS: (1) 
+1 
+those filled out by the cohort members, and (2) those completed by their primary caretakers. 
+2 
+The cohort members completed six seven-point agree-disagree measures reflecting their 
+3 
+subjective sense of well-being and twelve three-point questions tapping into subjective 
+4 
+affective states and general mood.36 Primary caregivers completed the Strengths and 
+5 
+Difficulties Questionnaire (SDQ)37, a well-validated measure of psychosocial functioning, for 
+6 
+each adolescent cohort member they took care of (Supplementary Table 5). The SDQ has 
+7 
+been used extensively in school, home, and clinical settings with adolescents from a wide 
+8 
+range of social, ethnic, and national backgrounds38. It includes 25 questions, five each about 
+9 
+prosocial behaviour, hyperactivity or inattention, emotional symptoms, conduct problems and 
+10 
+peer relationship problems.  
+11 
+Explanatory variables: adolescent technology use. The YRBS dataset included two 
+12 
+seven-point technology use questions. One was about the frequency of electronic device use, 
+13 
+the other questioned amount of TV watched on a typical weekday. The MTF asked a variety 
+14 
+of technology use measurements. As the questionnaire was split into six parts (with each 
+15 
+participant only filling in one part), some questions were filled out by one subset of 
+16 
+adolescents, while other questions were filled out by another. One subset answered questions 
+17 
+about frequency of social media use and getting information about news from the internet 
+18 
+(five-point scale) and two seven-point questions about frequency of watching TV on the 
+19 
+weekend and weekday. Another group of MTF participants were asked seven hourly 
+20 
+measures of technology use on a nine-point scale. The questions asked about using the 
+21 
+internet, playing electronic games, texting on a cell phone, calling on a cell phone, using 
+22 
+social media, video chatting and using computers for school. There are, therefore, a total of 
+23 
+eleven technology use measures that can be used when analysing the MTF dataset.   
+24 
+
+
+PAGE 20
+ADOLESCENT WELL-BEING AND DIGITAL TECHNOLOGY 
+19 
+In the MCS, the participants were asked five questions concerning technology use. 
+1 
+There were four eight-point items tapping hours per weekday spent watching TV, playing 
+2 
+electronic games, spent using the internet at home and using social networking sites. There 
+3 
+was also one yes-no measure about whether participants own a computer.  
+4 
+Covariate and confounding variables. Mirroring previous studies analysing data 
+5 
+from the MCS11, we included sociodemographic factors and maternal characteristics as 
+6 
+covariates in our analyses. Those include mother’s ethnicity, education, employment and 
+7 
+psychological distress (using the K6 Kessler Scale) which have previously been found to 
+8 
+influence child well-being in studies analysing large-scale data39,32, including analyses of the 
+9 
+MCS41. We also included equivalised household income, whether the biological father is 
+10 
+present and number of adolescent’s siblings in household, as these household factors have 
+11 
+also been found to affect adolescent well-being42. Furthermore, we include parental 
+12 
+behavioural factors such as closeness to parents and the amount of time the primary caretaker 
+13 
+spends with the adolescent43,44. Addressing previous reports of their influence on child well-
+14 
+being, we additionally use parent reports of any adolescent’s long-term illness, and the 
+15 
+adolescent’s own negative attitudes towards school as covariates45,46. Finally, we included the 
+16 
+primary caretaker’s word activity score as a measure of current cognitive ability, to control 
+17 
+for other environmental factors that could influence child well-being11.  
+18 
+For YRBS and MTF we included all variables part of the respective questionnaires 
+19 
+that conceptually mirrored those covariates utilized in the MCS. For YRBS we included the 
+20 
+adolescent’s race. For MTF we included ethnicity, number of siblings, mother’s education 
+21 
+level, whether the mother has a job, the adolescent’s enjoyment of school, predicted school 
+22 
+grade and whether they feel like they can talk with their parents about problems.  
+23 
+Analytic Approach: Specification Curve Analysis 
+24 
+
+
+PAGE 21
+ADOLESCENT WELL-BEING AND DIGITAL TECHNOLOGY 
+20 
+The study implements a Specification Curve Analysis examining the correlation 
+1 
+between our explanatory (digital technology engagement) and criterion variables 
+2 
+(psychological well-being) using the three-step SCA approach outlined by Simonsohn and 
+3 
+colleagues27 and applied in a recent paper by Rohrer and colleagues28. We add a fourth step 
+4 
+in order to aid interpretability of our results in the context of large-scale social data. Details 
+5 
+of the SCA method and the corresponding visualisations can be found in the Supplementary 
+6 
+Methods.  All the necessary code to reproduce these analyses can be found in the 
+7 
+Supplementary Software, for details see the Code Availability Statement at the end of the 
+8 
+paper. 
+9 
+Identifying Specifications. The first step taken was to identify all the possible 
+10 
+analysis pathways that could be used to relate technology use and adolescent well-being. Due 
+11 
+to the complexity of the original data we decided to use simple linear regression modelling to 
+12 
+draw inferences about technology associations, which left three key analytical decisions: (1) 
+13 
+How to measure well-being, (2) How to measure technology use, and (3) How to include 
+14 
+covariates (for details about these decisions, and others, see Table 1). 
+15 
+There are a wide variety of questions and questionnaires relating to well-being in each 
+16 
+dataset. Many of these items, even if partitioned questionnaires reflecting a specific construct, 
+17 
+have been selectively reported over the years. It is noteworthy that researchers have not been 
+18 
+consistent and have instead engaged in picking and choosing within and between 
+19 
+questionnaires (see Supplementary Table 6). These analytic decisions have produced many 
+20 
+different possibilities for combining and analysing these measures, making the pre-specified 
+21 
+constructs more of an accessory for publication than a guide for analyses. Any combination 
+22 
+of the mental health indicators is therefore included in the SCA: The measures by themselves, 
+23 
+the mean of the measures in pairs of two, the mean of the measures in threes etc. up to the 
+24 
+mean of all measures.  
+25 
+
+
+PAGE 22
+ADOLESCENT WELL-BEING AND DIGITAL TECHNOLOGY 
+21 
+For MCS, we included a decision of whether to use well-being questions answered by 
+1 
+cohort members or those answered by their caregivers, we do not combine the two. For 
+2 
+YRBS we also included an additional analytical decision of whether to take the mean of the 
+3 
+five dichotomous well-being measures, or whether to code each participant as “1” who 
+4 
+answered yes to one or more of the questions, as this has been done in previous analyses of 
+5 
+the data10. The supplementary materials additionally present SCAs which include only pre-
+6 
+specified well-being questionnaires for MCS (Supplementary Figure 6), however these do not 
+7 
+allow comparisons of our SCAs to results of previous work that has selectively combined 
+8 
+questions from various datasets10. The next analytical decision is what technology use 
+9 
+variables to include, where we include all questions concerning technology use in the 
+10 
+questionnaires, and their mean, as done by previous studies10. The last analytic decision taken 
+11 
+is whether or not to include covariates in the models. Because of the sheer size of these 
+12 
+datasets there is a combinatorial explosion of different covariate combinations that could be 
+13 
+used in each regression. We therefore analysed regressions either without covariates or with a 
+14 
+pre-specified set of covariates based on a literature review concerning child well-being and 
+15 
+digital technology use11. 
+16 
+When examining the distributions of the data, many of the variables are highly 
+17 
+skewed (e.g. the 5-item technology use measures in MTF) or questionably linear (e.g. 3-item 
+18 
+happiness measure in MTF). We opted to treat these variables as continuous so that our 
+19 
+analyses and results would be directly comparable with those of previous studies10,33.  Data 
+20 
+distribution was assumed to be normal throughout the analysis but is not formally tested for 
+21 
+each specification. 
+22 
+Implementing Specifications. Next, for each specification defined we ran the 
+23 
+appropriate regression, and noted the standardised β of technology uses’ correlation with 
+24 
+psychological well-being, the corresponding two-sided p value and the partial 𝜂2 calculated 
+25 
+
+
+PAGE 23
+ADOLESCENT WELL-BEING AND DIGITAL TECHNOLOGY 
+22 
+using the R heplots package. Listwise deletion for missing data was used as this is more 
+1 
+efficient in terms of computational time. This assumes that data is missing completely at 
+2 
+random, which could easily not be the case. For example, a child’s health, academic 
+3 
+performance or socioeconomic background could change its probability of completing the 
+4 
+questionnaire fully, and is likely to bias estimates. It is therefore important to note that this is 
+5 
+a potential source of bias, possibly changing the nature or strength of associations found.  
+6 
+To make the results easily interpretable, the specifications were ranked and plotted in 
+7 
+terms of ascending standardised β. The median standardised β of all the possible 
+8 
+specifications provides a general overview of the effect size. Below that plot, we also 
+9 
+indicated which set of analytical decisions led to what standardised β. This allows us to 
+10 
+visualise what analytical decisions influence the results of the SCA (more details of these 
+11 
+plots can be found in the Supplementary Methods).  
+12 
+Statistical Inferences. It is then possible to test whether, when considering all the 
+13 
+possible specifications, the results found are inconsistent with results when the null 
+14 
+hypothesis is true (i.e. that technology use and adolescent well-being are unrelated). To do so, 
+15 
+a bootstrapping technique put forth by Simonsohn et al.27 was implemented, creating data 
+16 
+where the null hypothesis is true by forcing the null on the data. To create this data, the beta-
+17 
+coefficient of the variable of interest from the full regression model multiplied by the x-
+18 
+variable (technology use) was subtracted from the y-variable (well-being). This created a new 
+19 
+set of data points that were then used as the new y-variable, creating datasets where the null 
+20 
+hypothesis was known to be true. Participants were then drawn at random – with replacement 
+21 
+– from this null dataset, creating bootstrapped null samples on which a new SCA model is 
+22 
+run. This was done 500 times. Once we obtained 500 bootstrapped SCAs, where we knew the 
+23 
+null hypothesis was true, we examined whether the median effect size in the original SCA 
+24 
+was significantly different to the median effect size in the bootstrapped SCAs. To do so, we 
+25 
+
+
+PAGE 24
+ADOLESCENT WELL-BEING AND DIGITAL TECHNOLOGY 
+23 
+divided the number of bootstrapped datasets that have larger median effect sizes than the 
+1 
+original SCA by the total number of bootstraps to find the p value of this test. We repeat this 
+2 
+test focusing also on the share of results with the dominant sign, and also the share of 
+3 
+statistically significant results with the dominant sign23.  
+4 
+Comparison Specifications. Lastly, these analyses were supplemented with a 
+5 
+comparison specifications section, putting into context the effects found in the SCA. To do 
+6 
+so, we performed a literature review to choose four variables in each dataset that should be 
+7 
+positively correlated with psychological well-being, four variables that should be negatively 
+8 
+correlated with psychological well-being and four that should have no or little association 
+9 
+with psychological well-being. A SCA was run for each of the variables and the mean of the 
+10 
+technology use variables present in the dataset, graphing their specification curves. These 
+11 
+methods provide a way for researchers to transparently, openly and robustly analyse large-
+12 
+scale governmental datasets to produce research that accurately depicts associations found in 
+13 
+the data for both the academy and the public.  
+14 
+Code Availability Statement 
+15 
+ 
+The code used to analyse the relevant data is provided as Supplementary Software; 
+16 
+Intermediate analysis files and a live version of the analysis code can be found on the Open 
+17 
+Science Framework (https://osf.io/e84xu/). 
+18 
+Data Availability Statement 
+19 
+The data that support the findings of this study are available from the Centre for 
+20 
+Disease Control and Prevention (YRBS), Monitoring the Future (MTF) and the UK data 
+21 
+service (MCS) but restrictions apply to the availability of these data, which were used under 
+22 
+license for the current study, and so are not publicly available. Data are however available 
+23 
+
+
+PAGE 25
+ADOLESCENT WELL-BEING AND DIGITAL TECHNOLOGY 
+24 
+from the relevant third-party repository after agreement to their terms of usage. Information 
+1 
+about data collection and questionnaires can be found on the OSF (https://osf.io/7xha2/). 
+2 
+ 
+ 
+3 
+
+
+PAGE 26
+ADOLESCENT WELL-BEING AND DIGITAL TECHNOLOGY 
+25 
+References 
+1 
+1. 
+Bell, V., Bishop, D. V. M. & Przybylski, A. K. The debate over digital technology and 
+2 
+young people. BMJ 351, h3064 (2015). 
+3 
+2. 
+Ofcom. Children and Parents: Media Use and Attitudes Report 2017. (2017). 
+4 
+3. 
+Steers, M.-L. N. ‘It’s complicated’: Facebook’s relationship with the need to belong 
+5 
+and depression. Curr. Opin. Psychol. 9, 22–26 (2016). 
+6 
+4. 
+UK Commons Select Committee. Impact of social media and screen-use on young 
+7 
+people’s health inquiry launched. Journal of the Association for Consumer Research 
+8 
+(2017). doi:10.1086/691462 
+9 
+5. 
+British Youth Council. A Body Confident Future. (2017). 
+10 
+6. 
+Johnston, L. D., Bachman, J. G., O’Malley, P. M., Schulenberg, J. E. & Miech, R. A. 
+11 
+Monitoring the Future: A Continuing Study of American Youth (8th- and 10th-Grade 
+12 
+Surveys). (2016). doi:10.3886/ICPSR36799.v1 
+13 
+7. 
+Kann, L. et al. Youth Risk Behavior Surveillance - United States, 2015. MMWR. 
+14 
+Surveill. Summ. 65, 1–174 (2016). 
+15 
+8. 
+University of London, Institute for Education, C. for L. S. Millennium Cohort Study: 
+16 
+Sixth Survey, 2015. SN: 8156 (2017). doi:http://doi.org/10.5255/UKDA-SN-8156-2 
+17 
+9. 
+Etchells, P. J., Gage, S. H., Rutherford, A. D. & Munafò, M. R. Prospective 
+18 
+Investigation of Video Game Use in Children and Subsequent Conduct Disorder and 
+19 
+Depression Using Data from the Avon Longitudinal Study of Parents and Children. 
+20 
+PLoS One 11, e0147732 (2016). 
+21 
+10. 
+Twenge, J. M., Joiner, T. E., Rogers, M. L. & Martin, G. N. Increases in Depressive 
+22 
+Symptoms, Suicide-Related Outcomes, and Suicide Rates Among U.S. Adolescents 
+23 
+After 2010 and Links to Increased New Media Screen Time. Clin. Psychol. Sci. 6, 3–
+24 
+17 (2017). 
+25 
+11. 
+Parkes, A., Sweeting, H., Wight, D. & Henderson, M. Do television and electronic 
+26 
+games predict children’s psychosocial adjustment? Longitudinal research using the UK 
+27 
+Millennium Cohort Study. Arch. Dis. Child. 98, 341–348 (2013). 
+28 
+12. 
+Ferguson, C. J. The problem of false positives and false negatives in violent video 
+29 
+game experiments. Int. J. Law Psychiatry 56, 35–43 (2018). 
+30 
+13. 
+Przybylski, A. K. & Weinstein, N. A Large-Scale Test of the Goldilocks Hypothesis. 
+31 
+Psychol. Sci. 28, 204–215 (2017). 
+32 
+14. 
+Ferguson, C. J. Everything in Moderation: Moderate Use of Screens Unassociated with 
+33 
+Child Behavior Problems. Psychiatr. Q. 88, 797–805 (2017). 
+34 
+15. 
+National Health Service. What About Youth study - NHS Digital. (2017). Available at: 
+35 
+https://digital.nhs.uk/data-and-information/areas-of-interest/public-health/what-about-
+36 
+youth-study. (Accessed: 5th November 2018) 
+37 
+16. 
+U.S. Department of Health and Human Services, Health Resources and Services 
+38 
+Administration, M. and C. H. B. Child Health USA 2014. (2014). 
+39 
+17. 
+Livingstone, S., Haddon, L., Görzig, A. & Ólafsson, K. Technical Report and User 
+40 
+
+
+PAGE 27
+ADOLESCENT WELL-BEING AND DIGITAL TECHNOLOGY 
+26 
+Guide: The 2010 EU Kids Online Survey. (2011). 
+1 
+18. 
+Silberzahn, R. et al. Many Analysts, One Data Set: Making Transparent How 
+2 
+Variations in Analytic Choices Affect Results. Adv. Methods Pract. Psychol. Sci. 
+3 
+251524591774764 (2018). doi:10.1177/2515245917747646 
+4 
+19. 
+Gelman, A. & Loken, E. The garden of forking paths: Why multiple comparisons can 
+5 
+be a problem, even when there is no “fishing expedition” or “p-hacking” and the 
+6 
+research hypothesis was posited ahead of time. Psychol. Bull. 140, 1272–1280 (2014). 
+7 
+20. 
+Simmons, J. P., Nelson, L. D. & Simonsohn, U. False-positive psychology: 
+8 
+Undisclosed flexibility in data collection and analysis allows presenting anything as 
+9 
+significant. Psychol. Sci. 22, 1359–1366 (2011). 
+10 
+21. 
+Marszalek, J. M., Barber, C., Kohlhart, J. & Cooper, B. H. Sample Size in 
+11 
+Psychological Research over the Past 30 Years. Percept. Mot. Skills 112, 331–348 
+12 
+(2011). 
+13 
+22. 
+Bell, V., Bishop, D. V. M. & Przybylski, A. K. The debate over digital technology and 
+14 
+young people. BMJ 351, h3064 (2015). 
+15 
+23. 
+UK Commons Select Committee. Impact of social media and screen-use on young 
+16 
+people’s health inquiry launched. Journal of the Association for Consumer Research 
+17 
+(2017). doi:10.1086/691462 
+18 
+24. 
+Chambers, C. D. Registered Reports: A new publishing initiative at Cortex. Cortex 49, 
+19 
+609–610 (2013). 
+20 
+25. 
+Munafò, M. R. et al. A manifesto for reproducible science. Nat. Hum. Behav. 1, 0021 
+21 
+(2017). 
+22 
+26. 
+van ’t Veer, A. E. Pre-registration in social psychology—A discussion and suggested 
+23 
+template. J. Exp. Soc. Psychol. 67, 2–12 (2016). 
+24 
+27. 
+Simonsohn, U., Simmons, J. P. & Nelson, L. D. Specification Curve: Descriptive and 
+25 
+inferential statistics on all reasonable specifications. SSRN Electron. J. 1–18 (2015). 
+26 
+doi:10.2139/ssrn.2694998 
+27 
+28. 
+Rohrer, J. M., Egloff, B. & Schmukle, S. C. Probing Birth-Order Effects on Narrow 
+28 
+Traits Using Specification-Curve Analysis. Psychol. Sci. 28, 1821–1832 (2017). 
+29 
+29. 
+Department of Health and Social Care. Matt Hancock warns of dangers of social media 
+30 
+on children’s mental health. gov.uk (2018). Available at: 
+31 
+https://www.gov.uk/government/news/matt-hancock-warns-of-dangers-of-social-
+32 
+media-on-childrens-mental-health. (Accessed: 8th November 2018) 
+33 
+30. 
+Ferguson, C. J. An effect size primer: A guide for clinicians and researchers. Prof. 
+34 
+Psychol. Res. Pract. 40, 532–538 (2009). 
+35 
+31. 
+Lakens, D. & Evers, E. R. K. Sailing From the Seas of Chaos Into the Corridor of 
+36 
+Stability: Practical Recommendations to Increase the Informational Value of Studies. 
+37 
+Perspect. Psychol. Sci. 9, 278–292 (2014). 
+38 
+32. 
+Scharkow, M. The Accuracy of Self-Reported Internet Use—A Validation Study 
+39 
+Using Client Log Data. Commun. Methods Meas. 10, 13–27 (2016). 
+40 
+33. 
+Twenge, J. M., Martin, G. N. & Campbell, W. K. Decreases in Psychological Well-
+41 
+
+
+PAGE 28
+ADOLESCENT WELL-BEING AND DIGITAL TECHNOLOGY 
+27 
+Being Among American Adolescents After 2012 and Links to Screen Time During the 
+1 
+Rise of Smartphone Technology. Emotion (2018). doi:10.1037/emo0000403 
+2 
+34. 
+Maslowsky, J., Schulenberg, J. & Zucker, R. Influence of Conduct Problems and 
+3 
+Depressive Symptomatology on Adolescent Substance Use: Developmentally 
+4 
+Proximal Versus Distal Effects. Dev. Psychol. 40, 1179–1189 (2014). 
+5 
+35. 
+Robins, R. W., Hendin, H. M. & Trzesniewski, K. H. Measuring Global Self-Esteem: 
+6 
+Construct Validation of a Single-Item Measure and the Rosenburg Self-Esteem Scale. 
+7 
+Personal. Soc. Psychol. Bull. 27, 151–161 (2001). 
+8 
+36. 
+Angold, A., Costello, E. J., Messer, S. C. & Pickles, A. Development of a short 
+9 
+questionnaire for use in epidemiological studies of depression in children and 
+10 
+adolescents. Int. J. Methods Psychiatr. Res. 5, 237–249 (1995). 
+11 
+37. 
+Goodman, R., Ford, T., Simmons, H., Gatward, R. & Meltzer, H. Using the Strengths 
+12 
+and Difficulties Questionnaire (SDQ) to screen for child psychiatric disorders in a 
+13 
+community sample. Br. J. Psychiatry 177, 534–9 (2000). 
+14 
+38. 
+Goodman, R. Psychometric Properties of the Strengths and Difficulties Questionnaire. 
+15 
+J. Am. Acad. Child Adolesc. Psychiatry 40, 1337–1345 (2001). 
+16 
+39. 
+Desai, S., Chase-Lansdale, P. L. & Michael, R. T. Mother or Market? Effects of 
+17 
+Maternal Employment on the Intellectual Ability of 4-Year-Old Children. 
+18 
+Demography 26, 545 (1989). 
+19 
+40. 
+Kiernan, K. E. & Mensah, F. K. Poverty, Maternal Depression, Family Status and 
+20 
+Children’s Cognitive and Behavioural Development in Early Childhood: A 
+21 
+Longitudinal Study. J. Soc. Policy 38, 569 (2009). 
+22 
+41. 
+Mensah, F. K., Kiernan, K. E. & Kiernan, K. Maternal general health and children’s 
+23 
+cognitive development and behaviour in the early years: findings from the Millennium 
+24 
+Cohort Studyc ch_1150 44..54. (2010). doi:10.1111/j.1365-2214.2010.01150.x 
+25 
+42. 
+Kiernan, K. E. & Mensah, F. K. Poverty, Maternal Depression, Family Status and 
+26 
+Children’s Cognitive and Behavioural Development in Early Childhood: A 
+27 
+Longitudinal Study. J. Soc. Policy 38, 569 (2009). 
+28 
+43. 
+Thomson, E., Hanson, T. L. & McLanahan, S. S. Family Structure and Child Well-
+29 
+Being: Economic Resources vs. Parental Behaviors*. Social Forces 73, (McLanahan 
+30 
+& Booth, 1991). 
+31 
+44. 
+The Children’s Society & Barnardo’s. Factors affecting children’s mental health over 
+32 
+time. (2018). 
+33 
+45. 
+Cadman, D., Boyle, M., Szatmari, P. & Offord, D. R. Chronic Illness, Disability, and 
+34 
+Mental and Social Well-Being: Findings of the Ontario Child Health Study. Pediatrics 
+35 
+79, (1987). 
+36 
+46. 
+The Children’s Society & Barnardo’s. Factors affecting children’s mental health over 
+37 
+time. (2018). 
+38 
+ 
+39 
+ 
+ 
+40 
+
+
+PAGE 29
+ADOLESCENT WELL-BEING AND DIGITAL TECHNOLOGY 
+28 
+Author Contributions 
+1 
+AO conceptualised the study with regular guidance from AKP. AO completed the statistical 
+2 
+analyses and drafted the manuscript; AKP gave integral feedback in the process.  
+3 
+ 
+4 
+Acknowledgements 
+5 
+The National Institute on Drug Abuse provided funding for MTF conducted at the Survey 
+6 
+Research Centre in the Institute for Social Research, University of Michigan; YRBS was 
+7 
+collected by the Centres for Disease Control and Prevention; The Centre for Longitudinal 
+8 
+Studies, UCL Institute of Education collected MCS and the UK Data Archive/UK Data 
+9 
+Service provided the data; They bear no responsibility for its aggregation, analysis, or 
+10 
+interpretation.  
+11 
+AO was supported by a EU Horizon 2020 IBSEN Grant; AKP was supported by an 
+12 
+Understanding Society Fellowship funded by the Economic and Social Research Council. 
+13 
+AO’s and AKP’s funders had no role in study design, data collection and analysis, decision to 
+14 
+publish or preparation of the manuscript. 
+15 
+Thank you to U. Simonsohn, N. K. Reimer and N. Weinstein for their valuable input and J. 
+16 
+M. Rohrer, U. Simonsohn, J. P. Simmons and L. D. Nelson for code provision. We also 
+17 
+acknowledge the use of the University of Oxford Advanced Research Computing (ARC) 
+18 
+facility in carrying out this research: http://dx.doi.org/10.5281/zenodo.22558. 
+19 
+ 
+20 
+Competing Interest Statement 
+21 
+AO has no competing interests. AKP has no competing financial interests; In the last five 
+22 
+years AKP has served in an unpaid advisory capacity to the Organisation for Economic Co-
+23 
+operation and Development, Facebook Inc., Google Inc., and the ParentZone. 
+ 
+24 
+
+
+PAGE 30
+ADOLESCENT WELL-BEING AND DIGITAL TECHNOLOGY 
+29 
+Figure 1: Results of Specification Curve Analysis of the Youth Behaviour and Risk Survey 
+1 
+Specification Curve Analysis showing the range of possible results for a simple cross-
+2 
+sectional regression of digital technology use on adolescent well-being. Each point on the x-
+3 
+axis represents a different combination of analytical decisions, which are displayed in the 
+4 
+‘dashboard’ at the bottom of the graph. The resulting standardised regression coefficient is 
+5 
+shown at the top of the graph; the error bars visualise the standard error. Red represents non-
+6 
+significant outcomes, while black represents significant outcomes. To ease interpretation, the 
+7 
+dotted line indicates the median standardised regression coefficient found in the Specification 
+8 
+Curve Analysis: β = -.035 (median partial 𝜂2 = .001, median n = 62,297, median standard 
+9 
+error = .004) 
+10 
+ 
+11 
+Figure 2: Results of Specification Curve Analysis of the Monitoring the Future study  
+12 
+Specification Curve Analysis showing the range of possible results for a simple cross-
+13 
+sectional regression of digital technology use on adolescent well-being. Each point on the X-
+14 
+axis represents a different combination of analytical decisions, which are displayed in the 
+15 
+‘dashboard’ at the bottom of the graph. The resulting standardised regression coefficient is 
+16 
+shown at the top of the graph; the error bars visualise the standard error.  Red represents non-
+17 
+significant outcomes, while black represents significant outcomes. To ease interpretation, the 
+18 
+dotted line indicates the median standardised regression coefficient found in the Specification 
+19 
+Curve Analysis: β = -.005 (partial 𝜂2 < .001, median n = 78,267, median standard error = 
+20 
+.003)  
+21 
+ 
+22 
+Figure 3: Results of Specification Curve Analysis of the Millennium Cohort Study  
+23 
+Specification Curve Analysis showing the range of possible results for a simple cross-
+24 
+sectional regression of digital technology use on adolescent well-being. Each point on the X-
+25 
+axis represents a different combination of analytical decisions, which are displayed in the 
+26 
+‘dashboard’ at the bottom of the graph. The resulting standardised regression coefficient is 
+27 
+shown at the top of the graph; the error bars visualise the standard error. Red represents non-
+28 
+significant outcomes, while black represents significant outcomes. To ease interpretation, the 
+29 
+dotted line indicates the median standardised regression coefficient found in the Specification 
+30 
+Curve Analysis: β = -.032 (partial 𝜂2 = .004, median n = 7,968, median standard error = .010) 
+31 
+ 
+32 
+Figure 4: Results of Specification Curve Analysis of the Millennium Cohort Study split by 
+33 
+whether controls are included in the analysis or not 
+34 
+Specification Curve Analysis showing the range of possible results for a simple cross-
+35 
+sectional regression of digital technology use on adolescent well-being. Each specification 
+36 
+number indicates a different combination of analytical decisions. The plot then shows the 
+37 
+outcome of the corresponding analysis (standardised regression coefficient) either including 
+38 
+control variables (teal, median standardised β = -0.005, partial 𝜂2 = .001, median n = 6,566, 
+39 
+median standard error = .011) or not including control variables (purple, median standardised 
+40 
+β = -0.068, partial 𝜂2 = .005, median n = 11,018, median standard error = .010). The bolded 
+41 
+
+
+PAGE 31
+ADOLESCENT WELL-BEING AND DIGITAL TECHNOLOGY 
+30 
+parts of the line indicate analyses that did not reach significance (p < 0.05). The median 
+1 
+standardised regression coefficients for analyses including or not including control variables 
+2 
+are shown using the dashed lines and the error bars visualise the standard error.  
+3 
+ 
+4 
+Figure 5: Comparison Specifications of the Millennium Cohort Study  
+5 
+Visualisation of the Comparison Specifications hypothesised to have little or no influence on 
+6 
+well-being: bicycle use, height, handedness and wearing glasses. This graph shows 
+7 
+Specification Curve Analyses for both the variable of interest (mean technology use) and the 
+8 
+comparison variables; It highlights the range of possible results of a simple cross-sectional 
+9 
+regression of the variables of interest on adolescent well-being.  
+10 
+Wearing glasses has the most negative association with adolescent well-being (black, median 
+11 
+β = -.061, median n =  7,963, partial 𝜂2 = .005, median standard error = .010), more negative 
+12 
+than the association of technology use with well-being (purple, median β = -.042, median n = 
+13 
+7,964, partial 𝜂2 = .002, median standard error = .010). Handedness (red/purple, median β = -
+14 
+.004, median n =  7,972, partial 𝜂2 < 0.001, median standard error = .010), height of the 
+15 
+adolescent (red, median β = .065, median n =  7,910, partial 𝜂2 = .005, median standard error 
+16 
+= .010) and whether the adolescent often rides a bicycle (yellow, median β = .080, median n 
+17 
+=  7,974, partial 𝜂2 = .007, median standard error = .010) have more positive associations 
+18 
+with adolescent well-being than technology use does.  
+19 
+Panel A shows how different analytical decisions (Specifications, shown on the x-axis) lead 
+20 
+to different statistical outcomes (Standardised Regression Coefficient, shown on the y-axis). 
+21 
+Each line represents a different variable of interest, the error bars represent the standard error. 
+22 
+Panel B visualises the resulting Median Standardised Regression Coefficients for those 
+23 
+Specification Curve Analyses linking the variables of interest with adolescent well-being. 
+24 
+ 
+ 
+25 
+
+
+PAGE 32
+ADOLESCENT WELL-BEING AND DIGITAL TECHNOLOGY 
+31 
+Table 1: Possible specifications (analytical decisions) to test a simple linear regression 
+1 
+between technology use and adolescent well-being in the Youth Risk and Behaviour Survey 
+2 
+(YRBS), Monitoring the Future (MTF) and Millennium Cohort Study (MCS) datasets. 
+3 
+Decision 
+YRBS 
+MTF 
+MCS 
+Operationalising 
+adolescent well-being 
+Mean of any possible 
+combination of five 
+items to do with 
+mental health and 
+suicidal ideation 
+Mean of any possible 
+combination of 13 
+items to do with 
+depression, happiness 
+and self-esteem 
+Mean of any possible 
+combination of 24 
+questions about well-
+being, self-esteem and 
+feelings (cohort 
+members) or mean of 
+any possible 
+combination of 25 
+questions from the 
+strength and 
+difficulties 
+questionnaire 
+(caregivers) 
+ 
+Operationalising 
+technology use 
+2 questions about 
+electronic device use 
+and TV use, or the 
+mean of these 
+questions 
+11 technology use 
+measures about the 
+internet, electronic 
+games, mobile phone 
+use, social media use 
+and computer use, or 
+the mean of these 
+questions 
+ 
+5 questions concerning 
+TV use, electronic 
+games, social media 
+use, owning a 
+computer and using 
+internet at home, or 
+the mean of these 
+questions 
+Which covariates to 
+include 
+Either include 
+covariates or not 
+Either include 
+covariates or not 
+Either include 
+covariates or not 
+ 
+Other specifications  
+Either take mean of 
+dichotomous well-
+being measures, or 
+code all cohort 
+members who 
+answered yes to one or 
+more as 1 and all 
+others as 0 
+ 
+ 
+Use well-being 
+measures filled out by 
+cohort members or 
+those filled out by 
+their caregivers  
+ 
+4 
+ 
+ 
+5 
+
+
+PAGE 33
+ADOLESCENT WELL-BEING AND DIGITAL TECHNOLOGY 
+32 
+Table 2: Results of Specification Curve Analysis for the Youth Risk and Behaviour Survey 
+1 
+(YRBS, United States), Monitoring the Future Survey (MTF, United States) and Millennium 
+2 
+Cohort Study (MCS, United Kingdom), both overall and for different technology use 
+3 
+variables, parent/adolescent self-report or with/without control variables.  
+4 
+Dataset 
+Median β of 
+Specification 
+Curve 
+Analysis 
+Median partial 
+𝜂2 of 
+Specification 
+Curve Analysis 
+Median n  Median 
+Standard 
+Error 
+YRBS 
+Complete Specification Curve Analysis 
+ 
+Electronic Device Use Only 
+TV Use Only 
+ 
+With Control Variables Only 
+Without Control Variables Only 
+ 
+-.035 
+ 
+-.071 
+-.012 
+ 
+-.034 
+-.035 
+ 
+ 
+.001 
+ 
+.005 
+< .001 
+ 
+.001 
+.001 
+ 
+ 
+62,297 
+ 
+62,368 
+62,352 
+ 
+61,525 
+62,638 
+ 
+.004 
+ 
+.004 
+.004 
+ 
+.004 
+.004 
+MTF 
+Complete Specification Curve Analysis 
+ 
+Social Media Use Only 
+TV Viewing On Weekend Only 
+Using Internet for News Only 
+TV Viewing on Weekday Only 
+ 
+With Control Variables Only 
+Without Control Variables Only 
+ 
+-.005 
+ 
+-.031 
+.008 
+-.002 
+.002 
+ 
+.001 
+-.013 
+ 
+ 
+< .001 
+ 
+.001 
+.001 
+< .001 
+< .001 
+ 
+< .001 
+< .001 
+ 
+ 
+78,267 
+ 
+102,963 
+115,738 
+115,580 
+115,783 
+ 
+72,525 
+117,560 
+ 
+ 
+.003 
+ 
+.003 
+.003 
+.003 
+.003 
+ 
+.003 
+.003 
+MCS 
+Complete Specification Curve Analysis 
+ 
+Own a Computer Only 
+Weekday Electronic Games Only 
+Hours of Social Media Use Only 
+TV Viewing on Weekday Only 
+Use of Internet of Home Only 
+ 
+Parent-Report Well-Being Only 
+Adolescent-Report Well-Being Only 
+ 
+With Control Variables Only 
+Without Control Variables Only 
+ 
+-.032 
+ 
+-.003 
+.013 
+-.056 
+-.043 
+-.070 
+ 
+<.001 
+-.046 
+ 
+-.005 
+-.068 
+ 
+.004 
+ 
+.011 
+< .001 
+.009 
+.003 
+.006 
+ 
+.003 
+.008 
+ 
+.001 
+.005 
+ 
+7,968 
+ 
+7,973 
+7,977 
+7,972 
+7,971 
+7,975 
+ 
+7,893 
+8,857 
+ 
+6,566 
+11,018 
+ 
+.010 
+ 
+.010 
+.010 
+.010 
+.010 
+.010 
+ 
+.010 
+.010 
+ 
+.011 
+.010 
+ 
+5 
+ 
+ 
+6 
+
+
+PAGE 34
+ADOLESCENT WELL-BEING AND DIGITAL TECHNOLOGY 
+33 
+Table 3: Comparison Specification results: The table shows the size of the effect of 
+2 
+comparison variables on adolescent-wellbeing when compared to the size of the effect of 
+3 
+technology use (measured using the mean of technology use questions) on adolescent well-
+4 
+being. The values indicate how many times larger the effects of the comparison variables are 
+5 
+in comparison to technology use when examining the Youth Risk and Behaviour Survey 
+6 
+(YRBS), Monitoring the Future (MTF) and Millennium Cohort Study (MCS) datasets.  
+7 
+* Denotes when the effect of the comparison variable on well-being is positive, and therefore 
+8 
+in the opposite direction to the effect of technology use. 
+9 
+Comparison Specifications 
+YRBS 
+ 
+MTF 
+ 
+MCS 
+ 
+Negative  
+Binge drinking 
+2.95x 
+8.10x 
+1.02x 
+Factors 
+Marijuana 
+2.70x 
+10.09x 
+1.14x 
+ 
+Bullying 
+4.33x 
+-- 
+4.92x 
+ 
+Getting into fights 
+3.65x 
+15.58x 
+-- 
+ 
+Cigarettes 
+-- 
+18.47x 
+-- 
+ 
+Being arrested 
+-- 
+-- 
+0.96x 
+ 
+Neutral  
+Perceived weight 
+1.02x 
+-- 
+-- 
+Factors 
+Potatoes 
+0.86x 
+-- 
+-- 
+ 
+Asthma 
+1.34x 
+-- 
+-- 
+ 
+Milk 
+0.28x* 
+-- 
+-- 
+ 
+Going to Movies 
+-- 
+11.51x* 
+-- 
+ 
+Religion 
+-- 
+16.29x* 
+-- 
+ 
+Music 
+-- 
+32.68x 
+-- 
+ 
+Homework 
+-- 
+3.57x* 
+-- 
+ 
+Cycling 
+-- 
+-- 
+1.88x* 
+ 
+Height 
+-- 
+-- 
+1.53x* 
+ 
+Glasses 
+-- 
+-- 
+1.45x 
+ 
+Handedness 
+-- 
+-- 
+0.10x 
+ 
+Positive  
+Fruit 
+0.11x 
+9.49x* 
+1.32x* 
+Factors 
+Vegetables 
+0.27x 
+20.63x* 
+1.52x* 
+ 
+Sleep 
+3.06x* 
+44.23x* 
+1.65x* 
+ 
+Breakfast 
+2.37x* 
+30.55x* 
+3.32x* 
+Note. For the YRBS the average effect linking technology to well-being was: β = -.049. For 
+10 
+the MTF the average effect linking technology to well-being was: β = -.006. For the MCS the 
+11 
+average effect linking technology to well-being was: β = -.042. Please note that these 
+12 
+numbers can be different from those found in Table 2 as the mean of technology use 
+13 
+measures was used in these analyses.  
+14 
+ 
+15 
+
+
+PAGE 35
+G
+GG
+GGGGGGGGGGGGGG
+GGGGG
+GG
+GGG
+GGGGGGGG
+GGG
+GG
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+GGGGGGGGGGG
+GGGGGGGGGGGGG
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+GGGGGGGGG
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+GGG
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+GG
+GGGGGGGGGG
+GG
+G
+GGGGGGGGGGGGG
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+GGGG
+GGGGGGG
+GGG
+GGGGGGGGGGGGGGGGGGGGGGGGGGG
+GGGGGGGGGGGG
+GGG
+−0.100
+−0.075
+−0.050
+−0.025
+0.000
+Regression Coefficient
+Adolescent Well−Being
+0
+100
+200
+300
+Electronic Device Use
+Technology Mean
+TV Use
+Think Suicide
+Loneliness
+Plan Suicide
+Commit Suicide
+Doctor Suicide
+Mean
+1 or more
+No Controls
+Controls
+Specification Number
+Variables
+
+
+PAGE 36
+G
+G
+GGGG
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+GG
+G
+−0.075
+−0.050
+−0.025
+0.000
+0.025
+0.050
+Regression Coefficient
+Adolescent Well−Being
+0
+10000
+20000
+30000
+40000
+Social Media Use
+Technology Mean
+Internet for News
+TV Weekend
+TV Weekday
+Life is meaningless
+Can't do anything right
+Not much to be proud of
+Life not useful
+Future is hopeless
+Unhappiness
+Do well as most others −
+Satisfied with myself −
+Person of worth −
+Positive attitude towards self −
+Good to be alive −
+Enjoy life −
+No Controls
+Controls
+Specification Number
+Variables
+
+
+PAGE 37
+GG
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+G
+GGGG
+GG
+G
+−0.2
+−0.1
+0.0
+0.1
+0.2
+Regression Coefficient
+Adolescent Well−Being
+0
+5000
+10000
+15000
+20000
+Use Internet at Home
+Mean Technology
+Weekday TV
+Hours of Social Media Use
+Weekday Electronic Games
+Own Computer
+Moods and Feelings Scale
+Rosenberg Self−Esteem
+Well−Being
+SDQ Hyperactivity
+SDQ Prosocial
+SDQ Emotional Symptoms
+SDQ Peer Problems
+SDQ Conduct Problems
+Cohort Member
+Parent
+No Controls
+Controls
+Specification Number
+Variables
+
+
+PAGE 38
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+No Controls = −0.068
+Controls = −0.005
+−0.2
+−0.1
+0.0
+0.1
+0.2
+0
+2500
+5000
+7500
+10000
+Specification Number
+Regression Coefficient
+Adolescent Well−Being
+
+
+PAGE 39
+0
+1000
+2000
+3000
+−0.20
+−0.10
+0.00
+0.10
+0.20
+Specification
+Standardised Regression Coefficient
+Bicycle
+Height
+Handedness
+Technology
+Glasses
+A
+Glasses
+Technology Use
+Handedness
+Height
+Bicycle Use
+−0.04
+0.00
+0.04
+0.08
+Median Standardised Regression Coefficient
+Adolescent Variable
+B

@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-05T02:15:36+00:00.
+Comprobado en WordPress: 2026-11-05T02:36:38+00:00.
 
-**823/840 terminadas · 0 en curso · 17 pendientes.**
+**826/840 terminadas · 0 en curso · 14 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -841,9 +841,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 827 | 56/56 · 2/15 | E1.7.02 | Escasez y mente: cómo la falta de dinero reduce la capacidad de decidir | terminada | 3/3 | [Leer](https://moevec.org/blog/escasez-y-mente/) |
 | 828 | 56/56 · 3/15 | E1.7.03 | Sentido y resiliencia: lo que enseña Viktor Frankl | terminada | 3/3 | [Leer](https://moevec.org/blog/sentido-y-resiliencia-frankl/) |
 | 829 | 56/56 · 4/15 | E1.7.04 | Estrés financiero: señales, efectos y primeros pasos | terminada | 3/3 | [Leer](https://moevec.org/blog/estres-financiero/) |
-| 830 | 56/56 · 5/15 | E1.7.05 | Soledad y comunidad: el vínculo como protección | pendiente | 0/3 | — |
-| 831 | 56/56 · 6/15 | E1.7.06 | Trabajo y bienestar: lo que muestran los datos de compromiso laboral | pendiente | 0/3 | — |
-| 832 | 56/56 · 7/15 | E1.7.07 | Pantallas, jóvenes y ansiedad: un debate con datos de ambos lados | pendiente | 0/3 | — |
+| 830 | 56/56 · 5/15 | E1.7.05 | Soledad y comunidad: el vínculo como protección | terminada | 3/3 | [Leer](https://moevec.org/blog/soledad-y-comunidad/) |
+| 831 | 56/56 · 6/15 | E1.7.06 | Trabajo y bienestar: lo que muestran los datos de compromiso laboral | terminada | 3/3 | [Leer](https://moevec.org/blog/trabajo-y-bienestar-compromiso/) |
+| 832 | 56/56 · 7/15 | E1.7.07 | Pantallas, jóvenes y ansiedad: un debate con datos de ambos lados | terminada | 3/3 | [Leer](https://moevec.org/blog/pantallas-jovenes-ansiedad-debate/) |
 | 833 | 56/56 · 8/15 | E1.7.08 | Vivir con incertidumbre: el coste psicológico de las reglas que cambian | pendiente | 0/3 | — |
 | 834 | 56/56 · 9/15 | E1.7.09 | Sistemas de salud mental: modelos públicos, privados y mixtos | pendiente | 0/3 | — |
 | 835 | 56/56 · 10/15 | E1.7.10 | Hábitos con evidencia: sueño, ejercicio y relaciones | pendiente | 0/3 | — |

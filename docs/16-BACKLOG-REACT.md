@@ -1,8 +1,8 @@
 # Backlog de MEE
 
-Último estado: **823/840 terminadas, 2469 imágenes originales públicas, 0 en curso o borradores WordPress y 17 pendientes**. Salud Mental 4/15; 49 tandas completas.
+Último estado: **826/840 terminadas, 2478 imágenes originales públicas, 0 en curso o borradores WordPress y 14 pendientes**. Salud Mental 7/15; 49 tandas completas.
 
-Continuar **830–832 / E1.7.05–E1.7.07**, educacion-y-valores → Salud Mental. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **833–835**. **501/E4.2.06,512/E4.3.02,649/E4.12.04,707/E6.6.02 769/E2.3.04 y818/E2.6.08** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.
+Continuar **833–835 / E1.7.08–E1.7.10**, educacion-y-valores → Salud Mental. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **836–838**. **501/E4.2.06,512/E4.3.02,649/E4.12.04,707/E6.6.02 769/E2.3.04 y818/E2.6.08** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.
 
 Historial anterior: producción comprobada tras el bloque 4–6: 6/840 terminadas. En elaboración local: 7–9 con nueve imágenes propias; todavía no cuentan como publicadas. Consultar siempre WordPress y el registro 24 para el estado más reciente.
 
