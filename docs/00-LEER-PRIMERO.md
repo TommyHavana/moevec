@@ -1,5 +1,7 @@
 # MEE · punto de entrada para Codex
 
+> Estado vigente · 05/11/2026: producción de 840 entradas y paquete rutas/Rank Math cerrados; auditoría integral actual en `29-AUDITORIA-INTEGRAL-Y-REDES.md`. Los apartados de decisiones antiguas son historia, no órdenes para reconstruir, reiniciar producción o aplazar Git/WordPress. El siguiente trabajo parte del plan priorizado y del encargo concreto del fundador.
+
 ## Qué se ha recibido
 
 `fuentes/claude/` contiene **íntegra** la entrega `mee-proyecto.zip` facilitada por el fundador: proyecto, taxonomía, debate, ejemplos económicos, naming, material de logo y arquitectura anterior. Su `AGENTS.md` original también tiene una copia llamada `AGENTS-ARCHIVO.md` para dejar claro que es histórico. **No editar esa carpeta ni seguir sus instrucciones antiguas de prioridad y WordPress:** prevalecen el `AGENTS.md` de la raíz y las decisiones actuales del fundador.

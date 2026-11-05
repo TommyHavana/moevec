@@ -6,7 +6,7 @@ Responde en español. Lee este archivo, `docs/00-LEER-PRIMERO.md`, `docs/15-ESTA
 
 ## Proyecto y fase
 
-MEE significa Movimiento de Evolución Económica. Raíz local activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`. Se continúa el Next.js/React/TypeScript existente. No reconstruirlo desde cero. El fundador autorizó el 28/10/2026 desplegar React y crear WordPress editorial en `moevec.org/blog/`, así como un repositorio privado de código para Coolify. WooCommerce sigue para una fase posterior. GitHub Actions no está disponible durante tres días; Coolify puede desplegar desde Git sin Actions. El estado actual y las autorizaciones están en `docs/15-ESTADO-Y-CONTINUIDAD.md`.
+MEE significa Movimiento de Evolución Económica. Raíz local activa: `/Users/nerea/Documents/Proyectos/MEE/mee-web`. Se continúa el Next.js/React/TypeScript existente. No reconstruirlo desde cero. El fundador autorizó el 28/10/2026 desplegar React y crear WordPress editorial en `moevec.org/blog/`, así como un repositorio privado de código para Coolify. WooCommerce sigue para una fase posterior. La indisponibilidad de GitHub Actions anotada el 28/10 fue temporal; comprobar su estado antes de planificar CI. Coolify puede desplegar desde Git sin Actions. El estado actual y las autorizaciones están en `docs/15-ESTADO-Y-CONTINUIDAD.md`.
 
 ## Requisitos del fundador
 
@@ -15,7 +15,7 @@ MEE significa Movimiento de Evolución Económica. Raíz local activa: `/Users/n
 - Referencia: `https://turnerduckworth.com/` para escala, ritmo y composición. Crear recursos, textos y código propios.
 - Paleta viva azul/rojo, diseño moderno, alta calidad editorial y ambición de nivel Awwwards; no prometer premios ni confundir intensidad de animación con calidad.
 - Tienda futura de arte digital; falta decidir si también habrá impresión física. Mantener ambas necesidades diferenciadas.
-- El fundador encargó expresamente y autorizó ejecutar la auditoría integral el 28/10/2026. La entrega actual está en `docs/22-AUDITORIA-UIUX-WPO-SEO-GEO.md`. Las puntuaciones publicadas son mediciones de laboratorio identificadas, no certificaciones globales ni datos de campo.
+- El fundador encargó expresamente y autorizó ejecutar la auditoría integral el 28/10/2026. La auditoría de aquella fecha está en `docs/22-AUDITORIA-UIUX-WPO-SEO-GEO.md`; la auditoría integral vigente del 05/11/2026 está en `docs/29-AUDITORIA-INTEGRAL-Y-REDES.md`. Las puntuaciones publicadas son mediciones de laboratorio identificadas, no certificaciones globales ni datos de campo.
 
 ## Fuentes y precisión
 
@@ -31,7 +31,7 @@ El plan editorial completo está en `../MEE_Plan_Editorial_840_entradas.md`, con
 
 La agrupación se hace directamente en WordPress con las categorías y subcategorías del manifiesto. «Blog» es el contenedor general; «Editorial» no es una categoría. Deben existir exactamente los 122 nodos previstos, incluidas las siete áreas principales. La categoría técnica vacía Uncategorized se retiró por la corrección expresa del fundador. La navegación y el BreadcrumbList muestran Blog, área y subcategoría; el publicador resuelve siempre la asignación explícita por slug del plan.
 
-El fundador autorizó la producción continua por bloques de tres, sin pedir confirmación entre bloques. Sigue `docs/26-PRODUCCION-CONTINUA.md`, reanuda con WordPress y `editorial/production-state.json`, y mantén cada artículo en su categoría y subcategoría. El seguimiento automático de este hilo ya está creado; no crear otra automatización duplicada.
+La producción continua autorizada terminó el 05/11/2026: 840/840 completas y automatización retirada. No reactivar la producción ni crear otro seguimiento por instrucciones históricas. El paquete de rutas y Rank Math también está terminado. La auditoría actual y su plan de mejoras están en `docs/29-AUDITORIA-INTEGRAL-Y-REDES.md`; las correcciones de producto allí propuestas no se consideran ejecutadas.
 
 Contenido legible en HTML; movimiento progresivo, variante con movimiento reducido, teclado y móvil. Activar los recursos al acercarse al viewport y detener animación fuera de él. No depender del hover para funciones esenciales ni descargar todos los vídeos al abrir la portada. Los perfiles de movimiento y presupuestos son propuestas: medir antes de declararlos cumplidos.
 
