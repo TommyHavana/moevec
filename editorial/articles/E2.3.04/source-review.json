@@ -1,0 +1,106 @@
+{
+  "id": "E2.3.04",
+  "checked_on": "2026-11-05",
+  "sources_verified": false,
+  "title_checked": false,
+  "body_sources_verified": true,
+  "body_editorial_checked": true,
+  "images_visually_checked": true,
+  "original_images": true,
+  "text_checks": {
+    "main_words": 1076,
+    "opening_words": 54,
+    "faq_words": [
+      48,
+      49,
+      48
+    ],
+    "hypothetical_examples": 2
+  },
+  "sources": [
+    {
+      "name": "CFPB · How does compound interest work? · revisión19/10/2023",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/how-does-compound-interest-work-en-1683/",
+      "scope": "Página primaria leída en web: definición de interés compuesto. Recuperación local403 registrada; no HTML fingido. No se usa el5% de su ejemplo como previsión.",
+      "public_scope": "Definición educativa del interés compuesto. Los escenarios numéricos de este artículo son cálculos propios de MEE."
+    },
+    {
+      "name": "SEC, Investor.gov · Compound Interest Calculator · consulta05/11/2026",
+      "url": "https://www.investor.gov/financial-tools-calculators/calculators/compound-interest-calculator",
+      "scope": "Página y variables de calculadora leídas, HTML48371B SHA256 9e83a7b03a600e6aeef66b5cd472690f459810a09fe767dc69dae9b882e8e8f6. No simulación ejecutada en web; cálculo MEE independiente por fórmula anual al final de periodo, resultados guardados.",
+      "public_scope": "Variables de una calculadora educativa. No rentabilidad esperada, producto recomendado o resultado individual."
+    },
+    {
+      "name": "SEC, Investor.gov · What is Risk? · consulta05/11/2026",
+      "url": "https://www.investor.gov/introduction-investing/investing-basics/what-risk",
+      "scope": "Apartados generales, inflación y liquidez leídos. HTML62399B SHA256 e777fe2012dde08ffa10808d5d538c5cbe653c99f2a5a8ed1da607825d9b268f. Sin trasladar garantías o topes de EEUU a otros países.",
+      "public_scope": "Orientación general sobre pérdidas, inflación y disponibilidad. No condiciones jurídicas de un producto local."
+    },
+    {
+      "name": "OCDE · Pensions at a Glance2025 ·27/11/2025",
+      "url": "https://www.oecd.org/en/publications/pensions-at-a-glance-2025_e40274c1-en.html",
+      "scope": "Resumen primario web leído, cobertura OCDE/G20 y diseño/indicadores. Sin PDF248p íntegro, estadísticas ni edades o ventajas fiscales nacionales trasladadas. Local403 registrado. F114 del brief; F065 libro no leído y no usado para afirmar resultados.",
+      "public_scope": "Presentación del informe2025 y su cobertura. Sin una lectura íntegra o una recomendación de producto o sistema para una persona."
+    },
+    {
+      "name": "OIT · Frequently asked questions, Convention102 ·06/08/2024",
+      "url": "https://www.ilo.org/frequently-asked-questions-social-security-minimum-standards-convention",
+      "scope": "Página primaria leída, especialmente marco R202 y protección de mayores. HTML88853B SHA256 db0476c54746b1041c2144002b635e6797b87adbb6ee4c2e9b02f3bbe4cdd916. No confundir recomendación con prestación universal ya exigible ni revisión completa de legislación nacional.",
+      "public_scope": "Argumento sobre pisos de protección y seguridad básica de ingresos en la vejez, de definición nacional. No determina derechos individuales."
+    }
+  ],
+  "omitted_claims": [
+    "Título original compara de forma absoluta plazo e ingresos: no acreditado; propuesta ya consultada sin nueva pregunta.",
+    "Sin rentabilidad garantizada, impuestos o productos locales, cifras de pensión, recomendaciones de aportación individual o libroF065 fingido.",
+    "Simulación MEE al3% nominal constante: aportación al final de año, capital inicial0, sin gastos/impuestos/inflación; resultados75401/53741/107481, redondeo a unidad. Dos casos hipotéticos."
+  ],
+  "publication_blocked": "Título original sin respaldo suficiente; consulta previa sin respuesta.",
+  "image_review": "Seis nativos y mosaico769818 vistos.769 árboles distintos/reloj/hucha;818 manos con bolsa y papel en blanco/urna con cuerda/tarjeta ficticia. Sin datos, programas, comicios o personas reales. Originales nativos conservados según registros.",
+  "archived_files": [
+    {
+      "file": "sources/cfpb-compound.html.retrieval.json",
+      "bytes": 207,
+      "sha256": "373fdb9cdc0824326686d6584fb076a329aa9b5afa15ddc080b71649fe99a34e"
+    },
+    {
+      "file": "sources/ilo102-faq2024.html",
+      "bytes": 88853,
+      "sha256": "db0476c54746b1041c2144002b635e6797b87adbb6ee4c2e9b02f3bbe4cdd916"
+    },
+    {
+      "file": "sources/ilo102-faq2024.html.retrieval.json",
+      "bytes": 291,
+      "sha256": "e3b8a7a2b93d3029ea4aee7bedfa4d004dbb3854f19fddf50f6c35a8f510304f"
+    },
+    {
+      "file": "sources/mee-compound-calculation.json",
+      "bytes": 286,
+      "sha256": "5a50fb1577986883d0584173eb6c55d22494c7b25ec7649fe810164e8c26f49e"
+    },
+    {
+      "file": "sources/oecd-pensions2025.html.retrieval.json",
+      "bytes": 205,
+      "sha256": "8e7803f7dd8b72fee1083d7d6461f6e625eb7314262dac5a81a584a34b99c613"
+    },
+    {
+      "file": "sources/sec-compound-calculator.html",
+      "bytes": 48371,
+      "sha256": "9e83a7b03a600e6aeef66b5cd472690f459810a09fe767dc69dae9b882e8e8f6"
+    },
+    {
+      "file": "sources/sec-compound-calculator.html.retrieval.json",
+      "bytes": 293,
+      "sha256": "a2bd559d41739ae8b83b999e38640b0d52fddead31f0b205ff372a35f875207a"
+    },
+    {
+      "file": "sources/sec-risk.html",
+      "bytes": 62399,
+      "sha256": "e777fe2012dde08ffa10808d5d538c5cbe653c99f2a5a8ed1da607825d9b268f"
+    },
+    {
+      "file": "sources/sec-risk.html.retrieval.json",
+      "bytes": 274,
+      "sha256": "db7a6d51c9a952de0643bae04e7bcd021860caae2d9b8c49e394b56ccff4a169"
+    }
+  ]
+}

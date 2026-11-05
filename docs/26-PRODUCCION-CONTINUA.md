@@ -58,3 +58,17 @@ Continuar **839–840/E1.7.14–15**, SaludMental14–15/15,últimasdos delorden
 Automatización verificada05nov2026medianteappview ylectura soloconfiguraciónexistente:ACTIVE,heartbeat,mismochat,FREQMINUTELY INTERVAL3. No nueva automatización ni ediciónmanual. Se mantienelaejecuciónactivaentreavisos.
 
 Seis títulos501/512/649/707/769/818 siguenretenidos; preguntasyaenviadassinrespuesta,no repetirniinterpretarsilenciocomoaprobación. No840/840nimensajecierrehastacompletar/verificarlas840.
+
+
+## Punto de continuidad ·05/11/2026 ·839–840
+
+**834/840 terminadas, 2502 imágenes originales públicas, 0 en curso o borradores WordPress y 6 pendientes**. Salud mental15/15. El número global840 está publicado; el plan completo sigue abierto por seis huecos anteriores.
+
+Próximo bloque por número global: **501/E4.2.06,512/E4.3.02 y649/E4.12.04**, después707/E6.6.02,769/E2.3.04 y818/E2.6.08. Las seis entradas están retenidas por afirmaciones de sus títulos originales sin respaldo suficiente; no se cambian títulos ni se publican sin resolver esa incompatibilidad. Las consultas específicas ya se enviaron una vez; no repetirlas ni tomar el silencio como aprobación. Conservar los textos y originales existentes y completar el trabajo independiente que falte. Mantener la automatización del mismo chat cada tres minutos; no declarar840/840 ni eliminarla todavía.
+
+
+## Preparación independiente de las seis pendientes ·05/11/2026
+
+WordPress:834/840 terminadas,2502 originales públicos,0 borradores o en curso y6 pendientes. Las seis pendientes tienen cuerpo preparado y3/3originales locales (18 en total); no cuentan como terminadas. Sus títulos originales siguen intactos, con propuestas alternativas sin aplicar. Falta resolver las consultas de título ya enviadas y realizar revisión final de metadatos/publicación/verificación.
+
+Detalle: `docs/produccion/2026-11-05-seis-titulos-pendientes.md`. El seguimiento permanece activo; no se ha alcanzado840/840.

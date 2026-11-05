@@ -1,8 +1,8 @@
 # Backlog de MEE
 
-Último estado: **832/840 terminadas, 2496 imágenes originales públicas, 0 en curso o borradores WordPress y 8 pendientes**. Salud Mental 13/15; 49 tandas completas.
+Último estado: **834/840 terminadas, 2502 imágenes originales públicas, 0 en curso o borradores WordPress y 6 pendientes**. Salud mental15/15. El número global840 está publicado; el plan completo sigue abierto por seis huecos anteriores.
 
-Continuar **839–840 / E1.7.14–E1.7.15**, educacion-y-valores → Salud Mental. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, revisar las seis entradas retenidas por título. **501/E4.2.06,512/E4.3.02,649/E4.12.04,707/E6.6.02 769/E2.3.04 y818/E2.6.08** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.
+Próximo bloque por número global: **501/E4.2.06,512/E4.3.02 y649/E4.12.04**, después707/E6.6.02,769/E2.3.04 y818/E2.6.08. Las seis entradas están retenidas por afirmaciones de sus títulos originales sin respaldo suficiente; no se cambian títulos ni se publican sin resolver esa incompatibilidad. Las consultas específicas ya se enviaron una vez; no repetirlas ni tomar el silencio como aprobación. Conservar los textos y originales existentes y completar el trabajo independiente que falte. Mantener la automatización del mismo chat cada tres minutos; no declarar840/840 ni eliminarla todavía.
 
 Historial anterior: producción comprobada tras el bloque 4–6: 6/840 terminadas. En elaboración local: 7–9 con nueve imágenes propias; todavía no cuentan como publicadas. Consultar siempre WordPress y el registro 24 para el estado más reciente.
 
@@ -45,3 +45,10 @@ Dos meta name=description idénticas en salida WordPress; títuloSEO y texto de 
 ## Punto exacto de capacidad ·04/11/2026
 
 793/840 terminadas y2379originales públicos. Bloque796–798 publicado y verificado. Siguiente799–801:0/9imágenes; borradores799/800 de1007/1081palabras revisados, todavía sin montaje final;801sintexto, fuente central por delimitar. Espacio194281472B medido a2026-11-04T09:22:00.631590+00:00, inferior al umbral200MiB(209715200B) previo a imagegen. No fallo de cuota de imágenes. Conservar todo y reanudar portada799 al recuperar capacidad. Seguimiento mismo chat cada3min; no duplicar procesos ni pedir permiso para continuar.
+
+
+## Preparación independiente de las seis pendientes ·05/11/2026
+
+WordPress:834/840 terminadas,2502 originales públicos,0 borradores o en curso y6 pendientes. Las seis pendientes tienen cuerpo preparado y3/3originales locales (18 en total); no cuentan como terminadas. Sus títulos originales siguen intactos, con propuestas alternativas sin aplicar. Falta resolver las consultas de título ya enviadas y realizar revisión final de metadatos/publicación/verificación.
+
+Detalle: `docs/produccion/2026-11-05-seis-titulos-pendientes.md`. El seguimiento permanece activo; no se ha alcanzado840/840.

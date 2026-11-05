@@ -2432,3 +2432,19 @@ Fuentes y alcances por artículo en research-notes.md y source-review.json. Caso
 
 Continuar **839–840 / E1.7.14–E1.7.15**, educacion-y-valores → Salud Mental. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, revisar las seis entradas retenidas por título. **501/E4.2.06,512/E4.3.02,649/E4.12.04,707/E6.6.02 769/E2.3.04 y818/E2.6.08** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.
 Automatización cada tres minutos ya configurada. No se han borrado copias ni originales.
+
+
+## Continuación editorial839–840 ·05/11/2026
+
+**834/840 terminadas, 2502 imágenes originales públicas, 0 en curso o borradores WordPress y 6 pendientes**. Salud mental15/15. El número global840 está publicado; el plan completo sigue abierto por seis huecos anteriores.
+
+Textos principales de1070 y1131 palabras; aperturas55/52, dos ejemplos hipotéticos y tresFAQ por entrada.839: OMS2022 recomendación organizativa condicional con evidencia de certeza muy baja, sin recomendación de cribado laboral; UNESCO mediante presentación, sin informe íntegro.840: OMSes2012 secciones delimitadas, NIMH general,024 verificado para España con enlaces conservados; aviso destacado, límites, urgencias y ausencia de promesas clínicas. Seis nativos y mosaico vistos. Detalles en source-review.json de cada expediente. Incidencia de plantilla ya registrada: dos meta descripciones idénticas; no se modifica el tema en esta producción.
+
+Próximo bloque por número global: **501/E4.2.06,512/E4.3.02 y649/E4.12.04**, después707/E6.6.02,769/E2.3.04 y818/E2.6.08. Las seis entradas están retenidas por afirmaciones de sus títulos originales sin respaldo suficiente; no se cambian títulos ni se publican sin resolver esa incompatibilidad. Las consultas específicas ya se enviaron una vez; no repetirlas ni tomar el silencio como aprobación. Conservar los textos y originales existentes y completar el trabajo independiente que falte. Mantener la automatización del mismo chat cada tres minutos; no declarar840/840 ni eliminarla todavía.
+
+
+## Preparación independiente de las seis pendientes ·05/11/2026
+
+WordPress:834/840 terminadas,2502 originales públicos,0 borradores o en curso y6 pendientes. Las seis pendientes tienen cuerpo preparado y3/3originales locales (18 en total); no cuentan como terminadas. Sus títulos originales siguen intactos, con propuestas alternativas sin aplicar. Falta resolver las consultas de título ya enviadas y realizar revisión final de metadatos/publicación/verificación.
+
+Detalle: `docs/produccion/2026-11-05-seis-titulos-pendientes.md`. El seguimiento permanece activo; no se ha alcanzado840/840.

@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-05T03:14:46+00:00.
+Comprobado en WordPress: 2026-11-05T03:31:13+00:00.
 
-**832/840 terminadas · 0 en curso · 8 pendientes.**
+**834/840 terminadas · 0 en curso · 6 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -850,5 +850,5 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 836 | 56/56 · 11/15 | E1.7.11 | Salud mental en Cuba: escasez, emigración y familias separadas | terminada | 3/3 | [Leer](https://moevec.org/blog/salud-mental-cuba/) |
 | 837 | 56/56 · 12/15 | E1.7.12 | Duelo migratorio: lo que se pierde al emigrar y cómo afrontarlo | terminada | 3/3 | [Leer](https://moevec.org/blog/duelo-migratorio/) |
 | 838 | 56/56 · 13/15 | E1.7.13 | Emprender sin quemarse: la salud mental del emprendedor | terminada | 3/3 | [Leer](https://moevec.org/blog/emprender-sin-quemarse/) |
-| 839 | 56/56 · 14/15 | E1.7.14 | Responsabilidad institucional: qué deben hacer empresas y escuelas | pendiente | 0/3 | — |
-| 840 | 56/56 · 15/15 | E1.7.15 | Primeros auxilios psicológicos: cómo acompañar a alguien en crisis | pendiente | 0/3 | — |
+| 839 | 56/56 · 14/15 | E1.7.14 | Responsabilidad institucional: qué deben hacer empresas y escuelas | terminada | 3/3 | [Leer](https://moevec.org/blog/responsabilidad-institucional-salud-mental/) |
+| 840 | 56/56 · 15/15 | E1.7.15 | Primeros auxilios psicológicos: cómo acompañar a alguien en crisis | terminada | 3/3 | [Leer](https://moevec.org/blog/primeros-auxilios-psicologicos/) |
