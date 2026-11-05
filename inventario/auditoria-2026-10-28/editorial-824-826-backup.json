@@ -1,0 +1,71 @@
+{
+  "directory": "/data/mee-backups/produccion-840-incremento-826-826-20261105",
+  "completed_articles": 820,
+  "max_published_number": 826,
+  "published_ranges": [
+    [
+      1,
+      500
+    ],
+    [
+      502,
+      511
+    ],
+    [
+      513,
+      648
+    ],
+    [
+      650,
+      706
+    ],
+    [
+      708,
+      768
+    ],
+    [
+      770,
+      817
+    ],
+    [
+      819,
+      826
+    ]
+  ],
+  "unpublished_gaps": [
+    501,
+    512,
+    649,
+    707,
+    769,
+    818
+  ],
+  "sql_bytes": 31189471,
+  "upload_files": 66,
+  "uploads_bytes": 2978536,
+  "archives": [
+    {
+      "file": "uploads-824-825.tar.gz",
+      "files": 44,
+      "bytes": 1850285,
+      "directory": "/data/mee-backups/produccion-840-incremento-824-825-20261105"
+    },
+    {
+      "file": "uploads-826-826.tar.gz",
+      "files": 22,
+      "bytes": 1128251,
+      "directory": "/data/mee-backups/produccion-840-incremento-826-826-20261105"
+    }
+  ],
+  "checksums_verified": true,
+  "archive_verified": true,
+  "overlays": 263,
+  "chain_contiguous": false,
+  "published_media_coverage_complete": true,
+  "restore_test": false,
+  "media_overlay_directories": [
+    "/data/mee-backups/produccion-840-incremento-824-825-20261105",
+    "/data/mee-backups/produccion-840-incremento-826-826-20261105"
+  ],
+  "note": "Bloque publicado en dos etapas; SQL final de826 y dos overlays44+22. No un único archivo combinado de medios."
+}

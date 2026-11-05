@@ -1,8 +1,8 @@
 # Backlog de MEE
 
-Último estado: **817/840 terminadas, 2451 imágenes originales públicas, 0 en curso o borradores WordPress y 23 pendientes**. Lealtad Tribal 12/15; 49 tandas completas.
+Último estado: **820/840 terminadas, 2460 imágenes originales públicas, 0 en curso o borradores WordPress y 20 pendientes**. Lealtad Tribal 14/15; Salud Mental 1/15; 49 tandas completas.
 
-Continuar **824–826 / E2.6.14–E1.7.01**, tribu → Lealtad Tribal; educacion-y-valores → Salud Mental. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **827–829**. **501/E4.2.06,512/E4.3.02,649/E4.12.04,707/E6.6.02 769/E2.3.04 y818/E2.6.08** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.
+Continuar **827–829 / E1.7.02–E1.7.04**, educacion-y-valores → Salud Mental. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **830–832**. **501/E4.2.06,512/E4.3.02,649/E4.12.04,707/E6.6.02 769/E2.3.04 y818/E2.6.08** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.
 
 Historial anterior: producción comprobada tras el bloque 4–6: 6/840 terminadas. En elaboración local: 7–9 con nueve imágenes propias; todavía no cuentan como publicadas. Consultar siempre WordPress y el registro 24 para el estado más reciente.
 

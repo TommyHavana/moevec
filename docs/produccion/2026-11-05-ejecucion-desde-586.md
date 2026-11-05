@@ -1,8 +1,8 @@
 # Ejecución desde586 ·05/11/2026
 
-**817/840 terminadas, 2451 imágenes originales públicas, 0 en curso o borradores WordPress y 23 pendientes**. Lealtad Tribal 12/15; 49 tandas completas.
+**820/840 terminadas, 2460 imágenes originales públicas, 0 en curso o borradores WordPress y 20 pendientes**. Lealtad Tribal 14/15; Salud Mental 1/15; 49 tandas completas.
 
-231 nuevas entradas y693originales públicos.
+234 nuevas entradas y702originales públicos.
 
 | Global | ID | URL | Imágenes |
 |---|---|---|---|
@@ -237,5 +237,8 @@
 |821|E2.6.11|https://moevec.org/blog/pacto-de-socios-lealtad/|3/3|
 |822|E2.6.12|https://moevec.org/blog/comunidades-de-la-diaspora/|3/3|
 |823|E2.6.13|https://moevec.org/blog/contratar-familiares-negocio/|3/3|
+|824|E2.6.14|https://moevec.org/blog/salir-de-un-grupo-sin-quemar-puentes/|3/3|
+|825|E2.6.15|https://moevec.org/blog/construir-tribu-de-emprendedores/|3/3|
+|826|E1.7.01|https://moevec.org/blog/salud-mental-y-entorno/|3/3|
 
-Continuar **824–826 / E2.6.14–E1.7.01**, tribu → Lealtad Tribal; educacion-y-valores → Salud Mental. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **827–829**. **501/E4.2.06,512/E4.3.02,649/E4.12.04,707/E6.6.02 769/E2.3.04 y818/E2.6.08** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.
+Continuar **827–829 / E1.7.02–E1.7.04**, educacion-y-valores → Salud Mental. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **830–832**. **501/E4.2.06,512/E4.3.02,649/E4.12.04,707/E6.6.02 769/E2.3.04 y818/E2.6.08** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.

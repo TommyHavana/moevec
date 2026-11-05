@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-05T01:18:57+00:00.
+Comprobado en WordPress: 2026-11-05T01:50:25+00:00.
 
-**817/840 terminadas · 0 en curso · 23 pendientes.**
+**820/840 terminadas · 0 en curso · 20 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -835,9 +835,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 821 | 55/56 · 11/15 | E2.6.11 | Socios leales: cómo escribir lealtad en un pacto de socios | terminada | 3/3 | [Leer](https://moevec.org/blog/pacto-de-socios-lealtad/) |
 | 822 | 55/56 · 12/15 | E2.6.12 | Comunidades de la diáspora: lealtad a distancia | terminada | 3/3 | [Leer](https://moevec.org/blog/comunidades-de-la-diaspora/) |
 | 823 | 55/56 · 13/15 | E2.6.13 | Nepotismo o confianza: contratar a familiares en tu negocio | terminada | 3/3 | [Leer](https://moevec.org/blog/contratar-familiares-negocio/) |
-| 824 | 55/56 · 14/15 | E2.6.14 | Cómo salir de un grupo sin quemar puentes | pendiente | 0/3 | — |
-| 825 | 55/56 · 15/15 | E2.6.15 | Construir una tribu de emprendedores: guía práctica | pendiente | 0/3 | — |
-| 826 | 56/56 · 1/15 | E1.7.01 | Salud mental y entorno: por qué no todo depende de ti (ni todo del sistema) | pendiente | 0/3 | — |
+| 824 | 55/56 · 14/15 | E2.6.14 | Cómo salir de un grupo sin quemar puentes | terminada | 3/3 | [Leer](https://moevec.org/blog/salir-de-un-grupo-sin-quemar-puentes/) |
+| 825 | 55/56 · 15/15 | E2.6.15 | Construir una tribu de emprendedores: guía práctica | terminada | 3/3 | [Leer](https://moevec.org/blog/construir-tribu-de-emprendedores/) |
+| 826 | 56/56 · 1/15 | E1.7.01 | Salud mental y entorno: por qué no todo depende de ti (ni todo del sistema) | terminada | 3/3 | [Leer](https://moevec.org/blog/salud-mental-y-entorno/) |
 | 827 | 56/56 · 2/15 | E1.7.02 | Escasez y mente: cómo la falta de dinero reduce la capacidad de decidir | pendiente | 0/3 | — |
 | 828 | 56/56 · 3/15 | E1.7.03 | Sentido y resiliencia: lo que enseña Viktor Frankl | pendiente | 0/3 | — |
 | 829 | 56/56 · 4/15 | E1.7.04 | Estrés financiero: señales, efectos y primeros pasos | pendiente | 0/3 | — |
