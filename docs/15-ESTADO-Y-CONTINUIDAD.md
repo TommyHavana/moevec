@@ -475,3 +475,5 @@ El fundador autorizó «Ejecuta todo lo que puedas». Producto desplegado desde 
 Preparados calendario de 840 revisiones, cuatro tarjetas sociales, avatar, doce ideas y tres carruseles completos. Enlaces entrantes desde cuerpos: 328 carencias iniciales, 311 tras la selección aplicada; no equivale a páginas huérfanas y las propuestas restantes no se cuentan como publicadas. El ensayo de recuperación aislado se documenta con su resultado definitivo en el documento 30 y su evidencia. Pendientes: datos legales, acceso a cuentas (Mac bloqueado durante la comprobación), conexiones de medición a cargo del fundador y destino externo cifrado. Tienda/red/boletín requieren operación propia. No reiniciar producción ni crear otra automatización.
 
 Detalle y siguiente punto: `30-EJECUCION-MEJORAS.md`. Operación: `31-OPERACION-Y-MEDICION.md`. Datos pendientes: `32-DATOS-PENDIENTES-DEL-TITULAR.md`.
+
+Control automático final confirmado: ejecución manual `42075768164`, ambos trabajos correctos (compilación/PHP y web pública); ensayo aislado de recuperación correcto con 18 tablas y 840 entradas. Fuente de cierre: documento 30.
