@@ -1,0 +1,48 @@
+{
+  "checked_at": "2026-11-05T17:28:37.357468+00:00",
+  "isolated_restore": true,
+  "same_vps": true,
+  "external_backup": false,
+  "public_ports": false,
+  "external_network": false,
+  "baseline": {
+    "completed": 840,
+    "prefix": "wp_",
+    "tables": 18
+  },
+  "restored": {
+    "completed": 840,
+    "prefix": "wp_",
+    "tables": 18
+  },
+  "http": [
+    {
+      "path": "/blog/",
+      "bytes": 47908,
+      "h1": 1
+    },
+    {
+      "path": "/blog/que-es-el-capitalismo/",
+      "bytes": 47684,
+      "h1": 1
+    },
+    {
+      "path": "/blog/hojas-de-calculo-herramienta-rentable/",
+      "bytes": 45292,
+      "h1": 1
+    }
+  ],
+  "snapshots": [
+    {
+      "file": "database.sql.gz",
+      "bytes": 6454537,
+      "sha256": "1d8f0ba660d3535fbd8e20ae7e67d43f9c79dab6a129ee3e25ee06b878ee72aa"
+    },
+    {
+      "file": "wordpress-files.tar.gz",
+      "bytes": 900928420,
+      "sha256": "c386b13191a8a807e22242156469ebc9f548c588a6746888cceda47bb20261a7"
+    }
+  ],
+  "sensitive_data_downloaded": false
+}

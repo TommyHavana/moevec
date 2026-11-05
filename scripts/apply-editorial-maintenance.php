@@ -17,9 +17,13 @@ foreach($batch['entries']as$entry){
 if($apply){
  $backup=dirname($argv[1]).'/before-maintenance.json';if(file_exists($backup))throw new RuntimeException('Backup already exists; inspect checkpoint');
  if(file_put_contents($backup,json_encode($prepared,JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES))===false)throw new RuntimeException('Backup failed');chmod($backup,0600);
+ $wpdb->query('START TRANSACTION');
+ try {
  foreach($prepared as$row){$result=wp_update_post(['ID'=>$row['post_id'],'post_content'=>wp_slash($row['after'])],true);if(is_wp_error($result))throw new RuntimeException($result->get_error_message());
   $post=get_post($row['post_id']);if($post->post_content!==$row['after']||$post->post_title!==$row['title']||$post->post_name!==$row['slug']||get_post_meta($post->ID,'_mee_editorial_images',true)!==$row['image_ids'])throw new RuntimeException('Verification failed '.$row['id']);
   add_post_meta($post->ID,'_mee_presentation_log',['date'=>gmdate('c'),'reason'=>$batch['reason'],'before_sha256'=>hash('sha256',$row['before']),'after_sha256'=>hash('sha256',$row['after'])]);
  }
+ $wpdb->query('COMMIT');
+ }catch(Throwable $error){$wpdb->query('ROLLBACK');foreach($prepared as$row)clean_post_cache($row['post_id']);throw $error;}
 }
 echo json_encode(['applied'=>$apply,'count'=>count($prepared),'entries'=>array_map(fn($row)=>['id'=>$row['id'],'post_id'=>$row['post_id'],'url'=>get_permalink($row['post_id']),'after_sha256'=>hash('sha256',$row['after'])],$prepared)],JSON_PRETTY_PRINT|JSON_UNESCAPED_SLASHES);

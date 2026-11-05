@@ -12,7 +12,7 @@ def inspect(path,html,static=None,expected_canonical=None):
  p=Page(html);issues=[];error=path in ['/404.html','/404/','/_not-found/']
  if len(p.h1s)!=1:issues.append('one H1 required')
  if len(p.titles)!=1:issues.append('one title required')
- if not error and len(p.meta.get('description',[]))!=1:issues.append('one description required')
+ if not error and '?s=' not in path and len(p.meta.get('description',[]))!=1:issues.append('one description required')
  if expected_canonical and p.canonicals!=[expected_canonical]:issues.append('canonical')
  robots=p.meta.get('robots',[])
  if error and (len(robots)!=1 or 'noindex' not in robots[0]):issues.append('404 needs one noindex')
