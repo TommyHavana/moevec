@@ -1,0 +1,2867 @@
+PAGE 1
+Review article
+Uncertainty and stress: Why it causes diseases and how it is mastered
+by the brain
+Achim Petersa,*, Bruce S. McEwenb, Karl Fristonc
+a Medical Clinic 1, Endocrinology & Diabetes, University of Luebeck, Luebeck, Germany
+b Harold and Margaret Milliken Hatch Laboratory of Neuroendocrinology, The Rockefeller University, New York, NY, USA
+c The Wellcome Trust Centre for Neuroimaging, University College London, London, UK
+A R T I C L E 
+I N F O
+Article history:
+Received 13 March 2017
+Received in revised form 22 May 2017
+Accepted 24 May 2017
+Available online xxx
+Keywords:
+Allostatic load
+Atherosclerosis
+Attention
+Bayesian Brain
+Brain energy metabolism
+Learning
+mortality
+Selﬁsh Brain
+Stress deﬁnition
+Stress habituation
+Uncertainty
+Variational free energy
+A B S T R A C T
+The term ‘stress’ – coined in 1936 – has many deﬁnitions, but until now has lacked a theoretical
+foundation. Here we present an information-theoretic approach – based on the ‘free energy principle’ –
+deﬁning the essence of stress; namely, uncertainty. We address three questions: What is uncertainty?
+What does it do to us? What are our resources to master it? Mathematically speaking, uncertainty is
+entropy or ‘expected surprise’. The ‘free energy principle’ rests upon the fact that self-organizing
+biological agents resist a tendency to disorder and must therefore minimize the entropy of their sensory
+states. Applied to our everyday life, this means that we feel uncertain, when we anticipate that outcomes
+will turn out to be something other than expected – and that we are unable to avoid surprise. As all
+cognitive systems strive to reduce their uncertainty about future outcomes, they face a critical constraint:
+Reducing uncertainty requires cerebral energy. The characteristic of the vertebrate brain to prioritize its
+own high energy is captured by the notion of the ‘selﬁsh brain’. Accordingly, in times of uncertainty, the
+selﬁsh brain demands extra energy from the body. If, despite all this, the brain cannot reduce uncertainty,
+a persistent cerebral energy crisis may develop, burdening the individual by ‘allostatic load’ that
+contributes to systemic and brain malfunction (impaired memory, atherogenesis, diabetes and
+subsequent cardio- and cerebrovascular events). Based on the basic tenet that stress originates from
+uncertainty, we discuss the strategies our brain uses to avoid surprise and thereby resolve uncertainty.
+© 2017 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND
+license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+Contents
+1. 
+Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+1.1. 
+What is uncertainty? 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+1.2. 
+What are our resources to master uncertainty? . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+1.3. 
+What happens when uncertainty cannot be resolved? 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+2. 
+The Bayesian brain . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+2.1. 
+Perceptual inference . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+2.1.1. 
+Two modalities of Bayesian updating 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+2.1.2. 
+Precision and attention 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+2.1.3. 
+The anatomical correlates of hierarchical predictive coding 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+2.2. 
+Active inference 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+2.2.1. 
+Goal-directed-decision making 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+2.2.2. 
+The degree of uncertainty about what to do next 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+Abbreviations: ACC, anterior cingulate cortex; GABA, g-aminobutyric acid; GLUT1, glucose transporter 1; GLUT4, glucose transporter 4; GR, glucocorticoid receptors; HPA,
+hypothalamus pituitary adrenal axis; KL, Kullback Leibler divergence; L1, layer 1; LC, locus coeruleus; LTP, long-term potentiation; LTD, long-term depression; MR,
+mineralocorticoid receptors; NE, norepinephrine; pre-SMA, pre-supplementary motor area; OFC, orbitofrontal cortex; PFC, prefrontal cortex; SNS, sympathetic nervous
+system; TrkB, tropomyosin receptor kinase B; vmPFC, ventromedial prefrontal cortex.
+* Corresponding author.
+E-mail addresses: achim.peters@uksh.de (A. Peters), mcewen@mail.rockefeller.edu (B.S. McEwen), k.friston@ucl.ac.uk (K. Friston).
+http://dx.doi.org/10.1016/j.pneurobio.2017.05.004
+0301-0082/© 2017 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+Progress in Neurobiology xxx (2017) xxx–xxx
+G Model
+PRONEU 1500 No. of Pages 25
+Please cite this article in press as: A. Peters, et al., Uncertainty and stress: Why it causes diseases and how it is mastered by the brain, Prog.
+Neurobiol. (2017), http://dx.doi.org/10.1016/j.pneurobio.2017.05.004
+Contents lists available at ScienceDirect
+Progress in Neurobiology
+journal homepage: www.elsevier.com/locate/pneurobio
+
+PAGE 2
+3. 
+Mastering uncertainty . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+3.1. 
+Attention – the procurement of more precise sensory information for Bayesian updating . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+3.1.1. 
+Noradrenergic regulation of presynaptic glutamate release . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+3.1.2. 
+Energetic constrains on information transmission . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+3.1.3. 
+Prediction errors are encoded with higher precision during stress . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+3.1.4. 
+NE increases the precision with which prediction errors induce Bayesian updating . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+3.1.5. 
+The ‘selﬁsh brain’ provides the energy for increasing precision 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+3.2. 
+Learning – updating during and after stress . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+3.2.1. 
+Glucocorticoids gate the time window for cortical plasticity 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+3.2.2. 
+Stress and surprisal 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+3.2.3. 
+Functional plasticity at the apical tuft . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+3.2.4. 
+Glucocorticoids gate learning of prediction-error precision . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+3.2.5. 
+Glucocorticoids gate learning of the generative model 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+3.2.6. 
+Structural plasticity at the apical tuft . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+3.3. 
+Habituation – updating of goal states . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+3.3.1. 
+Habituation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+3.3.2. 
+Habituators can tolerate stress 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+4. 
+Allostatic load 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+4.1. 
+The plasticity and vulnerability of the brain . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+4.2. 
+Non-habituators are fully exposed to toxic stress . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+4.3. 
+Comparison of mortality among habituators and non-habituators . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+5. 
+Updating the ‘stress deﬁnition’ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+6. 
+Conclusions 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+References 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+1. Introduction
+Individuals, who feel threatened by changes in the external
+environment or their internal body milieu, may ﬁnd themselves
+confronted with the question
+‘What strategy should I select to safeguard my future physical,
+mental and social wellbeing? (Question 1)
+“Stress” arises in those people who are uncertain about the
+answer. 
+Thus, stressed individuals lack control. By placing
+emphasis on the notion of ‘uncertainty’, we have recently proposed
+this novel deﬁnition of the term ‘stress’ (Peters and McEwen,
+2015).
+How does our brain make predictions about the world when it
+only has access to small fragments of it? Apparently, the brain
+makes use of sophisticated statistical methods. By operating with
+probabilities, the brain is able to make predictions of future
+outcomes even under conditions of uncertainty. How exactly these
+procedures are executed is one of the most fascinating questions in
+neuroscience (Friston, 2010).
+1.1. What is uncertainty?
+We begin with a brief summary of how mathematicians deal
+with the problem of uncertainty. In the 1740’s, the Reverend
+Thomas Bayes had an ingenious idea, which led him to the simple
+mathematical rule that carries his name – but then puzzlingly he
+gave it up. Seventy years later, Pierre-Simon Laplace rediscovered it
+independently and gave it its modern mathematical form. Bayes’
+rule says: ‘By updating our initial beliefs with new evidence we
+obtain a novel and improved belief’. Bayes’ theorem is particularly
+interesting, because it allows inferring from an effect to its probable
+cause. Such causal inference works better as more observational
+evidence comes available. Current brain research makes use of the
+very same principle in the so-called Bayesian Brain concept,
+according to which the brain uses effects – that is, the sensory data
+(or input), which is all the brain has access to – to ﬁgure out their
+probable causes. Obviously, this is a fairly brief summary of the
+application of the Bayesian vernacular to the brain. Underlying it is
+a more substantial view based on the rather uncontroversial idea
+that the brain engages with information processing, and that
+information theory is cast in terms of the probability theory from
+which Bayes' rule is derived. In 1948, the mathematician, electrical
+engineer, and cryptographer Claude Shannon founded information
+theory in his seminal work (Shannon, 1948). It was he who stated
+that ‘information’ is ‘reduction of uncertainty’.
+The Bayesian Brain is essentially a theoretical construct that can
+be traced back to the students of Plato through to the philosophy of
+Kant. It inherits much from the writings of people like Helmholtz in
+the 19th century and people like Richard Gregory in the 20th
+century. Geoffrey Hinton and colleagues formalized these ideas in
+the 1980s. One of us has imported these ideas into the biological
+sciences in the form of a ‘free energy principle’ (Friston et al.,
+2006). According to that concept, all cognitive or biological
+systems are driven to minimize an information-theoretic quantity
+known as ‘free energy’. More precisely, this quantity is ‘variational
+free energy’ and differs from ‘thermodynamic free energy’, though
+the two are mathematically equivalent. Free energy, deﬁned in the
+current article as the information-theoretic quantity, bounds
+surprise, and is conceived as the difference between an organism’s
+predictions about its sensory inputs (embodied in its internal
+model of the world) and the sensations it actually encounters.
+To put it concisely, reducing ‘free energy’ inevitably reduces
+‘surprise’ – as measured by a violation of predictions. In exactly the
+same vein, reducing ‘expected free energy’ inevitably reduces
+‘expected surprise’ – known as entropy or uncertainty. Thus, in the
+long-term, we are all compelled to avoid surprises and resolve
+uncertainty. Intriguingly, we found ‘variational free energy’ (in
+bits) and ‘thermodynamic energy’ (in Joules) closely coupled, a
+ﬁnding that emerged ﬁrst when analyzing their interrelation
+mathematically (Sengupta et al., 2013, 2016), and second when
+studying experimentally how the brain responds to stress (Harris
+et al., 2012; Hitze et al., 2010).
+1.2. What are our resources to master uncertainty?
+Let us take a quick look at how neuroscientists regard our
+resources to master uncertainty. In the middle of the 20th century,
+Hans Selye identiﬁed a set of reactions, which he termed the
+‘general adaptation syndrome’ (Selye, 1956). This uniform pattern
+of responses that he described included the enlargement of the
+adrenal cortex, atrophy of the thymus, and gastro-intestinal ulcers.
+2 
+A. Peters et al. / Progress in Neurobiology xxx (2017) xxx–xxx
+G Model
+PRONEU 1500 No. of Pages 25
+Please cite this article in press as: A. Peters, et al., Uncertainty and stress: Why it causes diseases and how it is mastered by the brain, Prog.
+Neurobiol. (2017), http://dx.doi.org/10.1016/j.pneurobio.2017.05.004
+
+PAGE 3
+Selye focused on physical, chemical, and microbiological noxae
+that caused changes in the external environment and in the
+internal body milieu: the lack of oxygen, nutrition or water; heat or
+cold; toxins; microorganisms, etcetera. John W. Mason, however,
+has 
+criticized 
+that 
+Selye 
+had 
+underestimated 
+the 
+role 
+of
+psychosocial inﬂuences (Mason, 1959). He emphasized that
+novelty, unpredictability, and uncontrollability of a condition
+and expectation of adverse sequels are key triggers of a stress
+reaction (Mason,1968). Over the past forty years, many researchers
+have deﬁned stressful situations – from a bio-psychological
+perspective – as characterized by ‘no information, no control,
+uncertainty with a sense of threat’ (Koolhaas et al., 2011; Lyons and
+Levine, 1994; Monat et al., 1972). More recently, experiments have
+conﬁrmed that humans are capable of computing environmental
+uncertainty, and that their beliefs about uncertainty mediate the
+strength of their stress responses (de Berker et al., 2016). Moreover,
+the better people tune their beliefs about uncertainty, the better
+they were able to predict future outcomes – suggesting that the
+stress response has an adaptive function (de Berker et al., 2016).
+According to these ‘Masonian’ notions, family conﬂicts at home,
+mobbing at work, or highly disordered neighborhoods also
+indicate an inhospitable environment. In any case, as suggested
+above, the uncertainty about how to deal with such changes in the
+internal body milieu or the external environment causes ‘stress’.
+The approach to stress proposed here entails a well-deﬁned
+question (i.e., Question 1), where we have in mind a set of answers
+without necessarily knowing which is correct. This means that we
+can treat Mason's aspects of stress – novelty, unpredictability and
+uncontrollability – more precisely and formally by using Shannon's
+uncertainty (entropy). A second aspect of this novel stress
+deﬁnition is that a ‘sense of threat’ is required. A third feature is
+the inclusion of optional behavioral responses.
+To resolve uncertainty, three processes play a crucial role:
+attention, learning and habituation. When persons feel uncertain
+and threatened, because of a changing internal or external
+environment, their brains enter a hypervigilant status to decrease
+uncertainty (about strategy selection) as fast as possible. To garner
+the required information, extra cerebral energy is needed. From the
+physical point of view, the following applies: Obtaining any
+information costs energy, erasing information produces energy
+(Berut et al., 2012; Brillouin, 1953; Toyabe et al., 2014; Tribus and
+McIrvine, 1972). With respect to the brain, this means: Reducing
+uncertainty and providing the brain with the necessary energy
+entails neuroendocrine and neuroenergetic responses that consti-
+tute the stress response (Fig. 1). The Selﬁsh Brain theory – founded
+by one of us in 1998 – describes this characteristic of the vertebrate
+brain to cover its own, relatively high, energy requirements with
+the highest priority when controlling energy ﬂuxes within the
+organism (Peters et al., 2004). In this respect, the brain behaves
+‘selﬁshly’ – as has been conﬁrmed experimentally (Hitze et al.,
+2010; Kubera et al., 2012b; Oltmanns et al., 2008; Peters et al.,
+2011). Such a prioritization of brain energy metabolism is an
+inherent feature in vertebrates – a feature that is evident on short
+and long time-scales for preserving cerebral function, energy and
+mass during stress or food deprivation (Gong et al., 1998; Kind
+et al., 2005; Miller et al., 2002; Muhlau et al., 2007).
+The key mechanisms of the acute stress response – that have
+been disclosed so far – are as follows: The anterior cingulate cortex
+(ACC) assesses the degree of uncertainty about whether future
+outcomes are uncertain (Fig. 2) (Behrens et al., 2007; Feinstein
+et al., 2006; Karlsson et al., 2012; Liljeholm et al., 2013; Paulus et al.,
+2002; Sarinopoulos et al., 2010). The amygdala (by exchanging
+information with the orbitofrontal cortex) may play a key role in
+responding to threats to wellbeing (Schulkin et al., 1994). People
+who are not certain about their future wellbeing exhibit correlated
+activity in the ACC and amygdala (Sarinopoulos et al., 2010). The
+descending pathways from the ACC are numerous and include the
+amygdala, as well as midbrain (e.g., periaqueductal grey) and
+brainstem nuclei, which contribute to multiple elements of the
+‘stress’ response (Barrett and Simmons, 2015). The ACC-amygdala
+complex can stimulate two important descending projections:
+ﬁrst, the pathway to the locus coeruleus (LC); this activation causes
+a hypervigilant state (Hermans et al., 2011; Reyes et al., 2011;
+Valentino and Van Bockstaele, 2008), which has been linked to an
+augmented brain energy consumption (Hitze et al., 2010; Kubera
+et al., 2012b); second, the pathway to the ventromedial hypothal-
+amus and the paraventricular nucleus, thereby stimulating the
+sympathetic nervous system (SNS) and the hypothalamus pituitary
+adrenal (HPA) axis, which in turn provide the additional energy
+required for the brain (Fig. 3) (Hitze et al., 2010; Kubera et al.,
+2012b; Peters et al., 2004).
+Fig. 1. Repeated stress responses in times of uncertainty. Stress responses are
+elicited, when the environment changes and the individual becomes uncertain
+about which strategy to select in order to safeguard his/her future wellbeing. In this
+situation, the brain computes the probabilities for each available strategy (S1, S2, S3)
+that it will safeguard future wellbeing (upper insert). If all available strategies
+display equal 
+probabilities, 
+then 
+uncertainty 
+(entropy) 
+is 
+maximal. 
+Novel
+information is needed to resolve uncertainty. To get novel information energy is
+required. Thus, the stress responses contain a key component, namely, the
+procurement of additional energy for the brain. With the help of the extra cerebral
+energy, information processing is enhanced. If uncertainty is resolved, the
+individual may certainly select a suitable strategy from a repertoire (T1, T2, T3)
+(lower insert). In this case, the certainty has been regained, and stress reactions
+have subsided (*). Non-habituators are people who show full neuroenergetic,
+neuroendocrine, emotional and cardiovascular responses when repeatedly exposed
+to an inhospitable environment. Chronically activated stress responses also exert
+adverse effects that lead to damage of the body and the brain-referred to as
+allostatic load (**).
+A. Peters et al. / Progress in Neurobiology xxx (2017) xxx–xxx 
+3
+G Model
+PRONEU 1500 No. of Pages 25
+Please cite this article in press as: A. Peters, et al., Uncertainty and stress: Why it causes diseases and how it is mastered by the brain, Prog.
+Neurobiol. (2017), http://dx.doi.org/10.1016/j.pneurobio.2017.05.004
+
+PAGE 4
+Activated by the ﬁrst path, the LC in the brain stem feeds back to
+the cerebral hemispheres, where norepinephrine (NE) acts at
+cortical synapses (Aston-Jones and Cohen, 2005; Berridge and
+Waterhouse, 2003). In this way, norepinephrine increases attention
+and enhances information transmission at neuronal synapses.
+Crucially, enhanced information transmission at synapses is itself
+particularly expensive in terms of energy (Harris et al., 2012).
+Activated by the second path, the HPA-axis releases cortisol into
+the general circulation. Cortisol passes the blood-brain-barrier
+easily 
+and 
+binds 
+to 
+mineralocorticoid 
+receptors 
+(MR) 
+and
+glucocorticoid receptors (GR) located in and on neurons of the
+hippocampus, the amygdala, and the cerebral cortex (Arriza et al.,
+1988; McEwen et al., 1968; Patel et al., 2000; Sanchez et al., 2000).
+Here, cortisol regulates synaptic plasticity (long-term potentiation
+and long-term depression) and in this way gates learning (Maggio
+and Segal, 2007, 2009; Pavlides et al., 1995). Learning after stress
+can be interpreted as updating ﬂawed beliefs about the world,
+thereby furnishing better predictions of future outcomes (Fig. 3).
+Some people – but not all – adapt to chronic stress by
+habituating. Stress habituation can be regarded as a form of
+adaptation when living under uncertainty. We deﬁne ‘habituators’
+as those who display attenuated autonomic, endocrine and
+metabolic reactions, when being repeatedly exposed to the same
+hostile environment. As we shall see later on, stress habituation
+reduces the uncertainty about what strategy to select.
+1.3. What happens when uncertainty cannot be resolved?
+Next, we look at how neuroscientists and physicians are
+concerned with the health effects that arise from the failure to
+resolve uncertainty. When the acute stress responses turn out to be
+insufﬁcient for resolving uncertainty, the critical situation may
+become chronic, and the organism is burdened by ‘allostatic load’.
+According to the concept of ‘allostatic load’ – developed by one of us
+(McEwen and Stellar, 1993) – the neuroendocrine, cardiovascular,
+neuroenergetic, and emotional responses become persistently
+Fig. 2. Generating a stress response. The brain receives sensory and viscerosensory data about the hidden states of the world and the body. In turn, the brain acts on the
+world and the body through its behavioral responses and stress responses. Both perception and action aim at minimizing prediction errors (free energy). Beliefs about the
+current states of the world/body, about the attainable states, and about the goal states are proposed to be represented in the lateral PFC, the pre-SMA and the vmPFC/OFC,
+respectively. The anterior cingulate cortex (ACC) compares attainable states with goal states. From that comparison, the risks for alternative strategies can be assessed. Based
+on the risk assessment the ACC may select the best strategy for safeguarding future wellbeing: If strategy selection is certain, the pre-SMA and the primary motor cortex
+initiate the respective behavioral response. If action selection is uncertain and threatening, the amygdala initiates a stress response.
+4 
+A. Peters et al. / Progress in Neurobiology xxx (2017) xxx–xxx
+G Model
+PRONEU 1500 No. of Pages 25
+Please cite this article in press as: A. Peters, et al., Uncertainty and stress: Why it causes diseases and how it is mastered by the brain, Prog.
+Neurobiol. (2017), http://dx.doi.org/10.1016/j.pneurobio.2017.05.004
+
+PAGE 5
+activated so that blood ﬂow turbulences in the coronary and
+cerebral arteries, high blood pressure, atherogenesis, cognitive
+dysfunction and depressed mood accelerate disease progression.
+All of these long-lasting effects of persistently activated stress
+reactions are called ‘allostatic load’ (McEwen, 1998). When serious
+damage manifests, the effects are referred to as ‘allostatic overload’
+(McEwen and Wingﬁeld, 2003). Uncertainty can lead to a vicious
+cycle of altered brain architecture and systemic pathophysiology,
+which further damages the capability of the subject to cope with
+uncertainty. People living in a volatile and insecure environment
+(e.g., an insecure job, unhappy relationship, poverty, etc) have a
+high risk of depression, cognitive impairment, myocardial infarc-
+tion, and stroke (McEwen, 1998; Peters and McEwen, 2015).
+In the current paper, the mathematical, neurobiological and
+medical aspects of uncertainty are combined. On this background,
+stress is regarded as a form of uncertainty: We often make false
+predictions about the world, and our prediction errors are
+therefore large. When stressed, we ﬁnd ourselves unable to avoid
+prediction errors or resolve uncertainty. In short, brains in distress
+do not work at their minimum of ‘free energy’. Again and again
+there are surprises. Although relating the Bayesian Brain concept to
+‘stress’ appears plausible, the underlying neuroendocrine mecha-
+nisms of such a link have yet to be established. The aim of the
+current paper is to disclose those neuroendocrine mechanisms
+that could fulﬁll Bayesian functions in regulating attention,
+learning, and habituation. In brief, we will consider the resources
+the Bayesian brain has at its disposal to master uncertainty – but
+also what happens when uncertainty cannot be resolved.
+2. The Bayesian brain
+The Bayesian brain casts neuronal processing as the process of
+inferring the causes of sensations (e.g., this pattern of visual input
+is caused by someone smiling at me). This inference conforms to
+Bayes rule, which says that (sensory) evidence is used to update
+‘prior beliefs’ into more informed, evidence-based ‘posterior
+beliefs’. Accordingly, the Bayesian Brain iteratively updates its
+prior beliefs based on emerging evidence. All past experiences over
+the life course have ultimately formed the current prior beliefs,
+which form the basis for how the Bayesian Brain makes predictions
+or decisions. Thus, early life adversity and failed attachment to
+parental, but also any strong positive or negative experience in
+school, work and personal life inﬂuence the way the Bayesian Brain
+selects its strategy for securing the future wellbeing.
+To understand the Bayesian Brain, two key processes have to be
+considered in relation to each other: perceptual and active
+inference. We begin with the ﬁrst process, which focuses on
+how we perceive. This perceptual aspect of the Bayesian Brain is
+often referred to as ‘predictive coding’.
+2.1. Perceptual inference
+Our senses are bombarded with information about objects in
+the world. On the basis of that sensory input, we perceive what is
+out there. The problem that will concern us is how the brain
+accomplishes this feat of perception – turning sensations into
+percepts.
+Fig. 3. Three stress responses for reducing uncertainty. During uncertainty about what to do next, the ACC-amygdala complex activates three subsystems that feed back to
+the brain: the LC, SNS and HPA-axis. First, LC-drive leads to cortical NE release, which enhances cortical information transmission. Second, the SNS allocates the required extra
+energy to the brain that is necessary to support enhanced and more precise neuronal message passing. Third, the HPA-axis releases glucocorticoids, which suspend cortical
+plasticity.
+A. Peters et al. / Progress in Neurobiology xxx (2017) xxx–xxx 
+5
+G Model
+PRONEU 1500 No. of Pages 25
+Please cite this article in press as: A. Peters, et al., Uncertainty and stress: Why it causes diseases and how it is mastered by the brain, Prog.
+Neurobiol. (2017), http://dx.doi.org/10.1016/j.pneurobio.2017.05.004
+
+PAGE 6
+A basic and useful formulation of the problem of perceptual
+inference is in terms of cause and effect. States of affairs in the
+world have effects on the brain – objects and processes in the world
+are the causes of the sensory input. The problem of perception is
+the problem of using the effects – that is the sensory data that the
+brain has access to – to ﬁgure out the causes. This represents a
+problem of causal inference for the brain, analogous in many
+respects to our everyday reasoning about cause and effect, and to
+scientiﬁc methods of causal inference (Hohwy, 2013). The problem
+of perception is a problem because it is not easy to reason from
+only the known effects back to their hidden causes. This is because
+the same effect can arise from many different causes. In other
+words, in many situations we face an ill posed problem that can
+only be solved using prior expectations. Inferring the causes of
+sensations – and making that inference easier by resolving
+uncertainty – is essential for navigating our world and, on some
+views, a necessary prequel for action.
+2.1.1. Two modalities of Bayesian updating
+We will illustrate Bayesian inference using the example of a
+medical doctor, who infers the diagnosis (cause) of the uncon-
+sciousness (effect) seen in a young patient (Box 1): the doctor has
+to choose between three possible diagnoses. Although a current
+textbook of medicine could extend the list of possible diagnoses, it
+is typical for humans to consider a limited number of options
+(Ortega and Braun, 2015). The examples used in Box 1 and Box 2
+describe two distinct formulations of Bayesian inference in easily
+understandable terms. The ﬁrst is exact Bayesian inference (Box 1),
+using the explicit formula of the Bayes theorem, in which a prior
+belief is directly updated into a posterior belief. The second is
+approximate Bayesian inference (Box 2), which is typically used in
+‘predictive coding’ and has been extensively studied in the ﬁeld of
+machine learning. The latter approach describes how a ‘generative
+model’ is used to infer from an effect to its probable cause. The
+generative model consists of a ‘prior’ belief and the ‘likelihood’ (for
+details see Box 2). With the help of the generative model one can
+predict an effect given the cause that one considers as most likely.
+In other words, one can generate an effect from a cause.
+Accordingly, generative models in the brain are capable of
+predicting sensory data. The predicted effect is then compared
+to the observed effect, and the difference between the two
+constitutes the so called ‘prediction error’. The prediction error is
+used in turn to update the prior belief to transform it into an
+approximate posterior belief. Unlike the mathematical procedure
+in exact Bayesian updating, the procedure used in predictive
+coding prescribes a particular process that gets the same results.
+Furthermore, both forms of Bayesian inference can be cast as a
+process that minimizes variational free energy, where free energy
+is, effectively, the overall amount of prediction error. It has been
+shown that both perceptual inference and learning can be
+described as a minimization of free energy or the suppression of
+prediction errors (Friston, 2005; Rao and Ballard, 1999). The
+concept of free energy originates from statistical mechanics; it is
+often used to convert difﬁcult integration problems – inherent in
+the direct application of Bayes rules – into an easier optimization
+problem (e.g., the minimization of prediction error). ‘Free energy’
+can be regarded as the information a person is lacking, and which
+he/she could use to make his/her internal model as close as
+possible to reality. Thus, free energy minimization corresponds to
+prediction error minimization in predictive coding. By minimizing
+Box 1. Exact Bayesian approach to medical diagnosis
+Here, we give an example of how a clinician could use the Bayesian approach to estimate the probability of an underlying disease.
+In this ﬁrst example, the doctor is mathematically talented and makes use the explicit formula of Bayes (Eq. (1)). As an emergency
+physician, she has been called because an occasional passer-by found a 17-year-old comatose patient at the roadside. When seeing
+the young patient lying unconscious (what the doctor sees is an effect), she is uncertain about the probable cause, i.e. the
+underlying disease. Three possible diagnoses come to her mind: intoxication (e.g. alcohol or drugs), neuroglycopenic coma (i.e.
+brain energy deﬁciency) or cerebral bleeding. Based on her previous experience she assigns so-called ‘prior probabilities’ to each
+of her three potential diagnoses (see table). By the way, the brief version of the term ‘prior probability’ is ‘prior’. Note, that these
+three prior probabilities add up to 1.0. First of all, the doctor leaves other possible diagnoses out of consideration. At this time point,
+‘intoxication’ is her favorite diagnosis, because it has highest prior probability P(X) = 0.5. However, she still remains uncertain. The
+physical examination is followed by a blood glucose check, which indicates 25 mg/dl (normal 70–110 mg/dl). The measurement can
+also be regarded as an effect (Y) of the underlying disease (X). After the blood glucose value is obtained, the doctor considers ‘how
+likely it is that the disease (cause) ﬁts the blood glucose measurement (effect)’. This is the ‘likelihood’ P(Y|X): the probability that the
+cause described in the diagnosis would actually cause that particular effect. If ‘neuroglycopenic coma’ is the underlying cause in
+that patient, then the probability is high that a life-threatening blood glucose measurement of 25 mg/dl is obtained. The likelihood
+for the diagnosis ‘neuroglycopenic coma’ is 0.9. The other two diagnoses display a particularly small likelihood (0.1 in both cases).
+In Bayesian belief updating, the ‘prior probability’ is multiplied by the ‘likelihood’, and the result is proportional to the so-called
+‘posterior probability’ P(X|Y).
+Bayesian belief updating : PðXjY Þ ¼ PðXÞ PðY jXÞ
+P Y
+ð 
+Þ
+ 
+
+ð1Þ
+We call the factor in brackets ‘update factor’, since the prior multiplied with this update factor equals the posterior. Bayes’ inference
+leads to a new favorite diagnosis, which is ‘neuroglycopenic coma’ with a posterior probability P(X|Y) = 0.857. The other two
+diagnoses become less likely. Of note, the posterior probabilities for all diagnoses again add up to 1.0 (see table). After all, the
+posterior becomes the new prior, which can be used in the next diagnostic step that involves further diagnostic evidence.
+17-year old patient in coma
+Cause 
+Effect 
+Prior 
+Likelihood 
+Posterior
+X 
+Y 
+P(X) 
+P(Y|X) 
+P(X|Y)
+Intoxication 
+Blood glucose measurement shows 25 mg/dl 
+0.5 
+0.1 
+0.119
+Neuroglycopenic coma 
+0.4 
+0.9 
+0.857
+Cerebral Bleeding 
+0.1 
+0.1 
+0.024
+6 
+A. Peters et al. / Progress in Neurobiology xxx (2017) xxx–xxx
+G Model
+PRONEU 1500 No. of Pages 25
+Please cite this article in press as: A. Peters, et al., Uncertainty and stress: Why it causes diseases and how it is mastered by the brain, Prog.
+Neurobiol. (2017), http://dx.doi.org/10.1016/j.pneurobio.2017.05.004
+
+PAGE 7
+prediction error, the internal model is improved step-by-step
+updating posterior beliefs, given the prior beliefs and the
+likelihood of sensory observations.
+In conclusion, Bayesian inference, as used in perception, reduces
+our uncertainty about the states of affairs in the world that have
+caused our sensations.
+2.1.2. Precision and attention
+A key concept – that we will develop later – is the notion of
+‘precision’ in predictive coding. In brief, the predictive coding
+formulation of the Bayesian Brain says that prediction errors
+represent the newsworthy information that has yet to be
+explained. Clearly, the brain also has to select the ‘news’ channels
+it should attend to. This process of selection corresponds to
+increasing the volume or ‘gain’ of precise or reliable prediction
+errors. ‘Gain modulation’ is a phenomenon commonly observed in
+neuroscience that alters the amplitude of a neuronal response, but
+not its selectivity. Computationally, the increase in the gain of
+neurons encoding prediction errors ensures that precise informa-
+tion is used to revise internal models. Psychologically, it provides a
+nice metaphor for attentional selection. Finally, from a physiologi-
+cal perspective it places neuromodulation and cortical gain control
+in a key position to inﬂuence perceptual synthesis. This follows
+from the fact that increasing the inﬂuence of prediction errors rests
+on increasing the responsivity of the neuronal populations, which
+report them.
+Put simply, the higher the precision of prediction errors, the greater
+their inﬂuence on belief updating. During stress, neuromodulation
+ampliﬁes the precision of sensory prediction errors, endowing sensory
+information with greater weight, in relation to prior expectations.
+2.1.3. The anatomical correlates of hierarchical predictive coding
+The brain’s architecture is hierarchically organized (Felleman
+and Van, 1991). This organization has been intensively investigated
+in the visual system: the lower cortical areas are located closer to
+primary sensory input, while the higher areas play an associational
+role. The hierarchical architecture enables the brain to learn its
+own priors as well as the intrinsic causal structure of the world that
+creates the sensory input. In hierarchical Bayesian inference (or
+predictive coding) the priors at intermediate levels now become
+‘empirical priors’. This follows because they become accountable
+to empirical (sensory) data and can therefore be optimized to
+minimize prediction errors at each hierarchal level.
+Neuroanatomically, the notion of a hierarchy is based on the
+distinction between bottom-up and top-down connections (Salin
+and Bullier, 1995). The notion of top-down connections provided a
+better explanation of experimental data than the idea that only
+bottom-up connections are necessary (Garrido et al., 2007). Top-
+down connections arise largely from layer-5-pyramidal cells and
+target layer-2-pyramidal cells of lower cortical areas (Fig. 4).
+Conversely, bottom-up connections arise largely in layer-2-
+pyramidal cells and project to the spiny layer-4-neurons of a
+higher cortical area.
+Fig. 4 illustrates our simpliﬁed model of the hierarchical
+organization of the brain. In agreement with neuroanatomical
+studies (Feldmeyer et al., 2005; Harris and Shepherd, 2015; Lubke
+et al., 2000; Ramaswamy and Markram, 2015; Thomson and Lamy,
+2007) and neurocomputational analyses (Bastos et al., 2012;
+Haeusler and Maass, 2007; Shipp, 2016; Shipp et al., 2013), we
+propose the following assignment of empirical prior beliefs, the
+likelihood, the sensory data, and the prediction errors to their
+anatomical substrates. Accordingly, empirical prior beliefs are
+located in layer 3 of the cortex, and the likelihoods or predictions
+are represented in layer 5. The empirical prior expectation encodes
+the most likely cause of sensory inputs. The combination of
+empirical prior and likelihood furnishes a prediction that is
+conveyed to layer-2-pyramidal cells at the level below. Here, the
+prediction is compared to the sensory data, and in this way, a
+prediction error is calculated. In return, this prediction error is
+conveyed upwards, through layer-4-stellate cells to layer-3-
+pyramidal cells, where it can update the empirical priors. This
+brief description has been simpliﬁed for clarity; for a more detailed
+account, see legend of Fig. 4. The computational architecture
+depicted in Fig. 4 enables continuous updating of prior beliefs in a
+hierarchical fashion, in response to ﬂuctuating sensory input at the
+lowest level.
+In perceptual inference, the brain makes use of an internal
+hierarchical model where top-down predictions are continuously
+Box 2. Approximate Bayesian approach to medical diagnosis
+‘Perceptual inference’ – as it is believed to be implemented in the brain – differs from a methodological point of view from the
+explicit (‘exact’) Bayesian updating described in Box 1. To illustrate the way ‘perceptual inference’ works, we give a second
+example: A different doctor is also confronted with a comatose 17-year old patient. In contrast to the doctor in the ﬁrst example
+(Box 1), he does not use the explicit Bayes formula, but in his case the process of Bayesian inference is rather based on
+subconscious intuition. In fact, ‘perceptual inference’ works in such an unconscious way. The second doctor also has his favorite
+diagnosis, which is ‘intoxication’, i.e., the diagnosis with the highest prior probability. The prior probabilities are again as shown in
+the table (Box 1). Before the blood glucose measurement is obtained, the doctor would use his favorite diagnosis together with the
+likelihood P(Y|X) to predict, which blood glucose measurement is most likely to be observed (given his favorite diagnosis is true).
+This means, generally speaking, that the ‘prior distribution over the causes’ together with the ‘likelihood of the effect given the
+causes’ is used for predicting observable data values. In probability theory and statistics, such a model used for predicting
+observable data values is referred to as a ‘generative model’. In case the favorite diagnosis ‘intoxication’ is true, the doctor would
+predict a blood glucose value of Y = 90 mg/dl. When the doctor sees the actually obtained blood glucose value of Y* = 25 mg/dl, it is
+different from what he had expected. He is surprised. The difference between the predicted 90 mg/dl (Y) and the actually observed
+25 mg/dl (Y*) is called ‘prediction error’. Thereon, the doctor uses the prediction error to estimate a new posterior probability. The
+technical problem is that the precise calculation of the new posterior cannot be performed easily. Instead, he may use an
+approximation of the true posterior Q(X), which can still be very useful. Put simply, he successively adjusts his values of Q(X) to
+minimize (blood glucose and prior) prediction errors. In perceptual inference, the ‘approximate true posterior’ lies close to 0.857 for
+the diagnosis of a ‘neuroglycopenic coma’, indicating that this is now the best choice. It should be mentioned that the process of
+‘predictive coding’ is a little more complex than illustrated here, since it deals with continuous states while the example with the
+doctor deals with discrete states. Although different in mathematical terms, ‘exact Bayesian inference’ and ‘approximate Bayesian
+inference’ (used in predictive coding) follow the same line of thought: inferring from the effect to its probable cause. The key utility
+of predictive coding is that it prescribes a process theory for doing Bayesian inference (by suppressing prediction errors or
+variational free energy) that could be implemented in the brain.
+A. Peters et al. / Progress in Neurobiology xxx (2017) xxx–xxx 
+7
+G Model
+PRONEU 1500 No. of Pages 25
+Please cite this article in press as: A. Peters, et al., Uncertainty and stress: Why it causes diseases and how it is mastered by the brain, Prog.
+Neurobiol. (2017), http://dx.doi.org/10.1016/j.pneurobio.2017.05.004
+
+PAGE 8
+updated by bottom-up prediction errors (Friston et al., 2006). The
+reciprocal top-down/bottom-up-message passing in this hierarchy
+seems able to accommodate the context sensitive and invariant
+aspects of perception, while at the same time explaining many
+neuroanatomical and neurophysiological facts about cortical
+hierarchies (Hohwy, 2013).
+In summary, perceptual inference reduces our uncertainty about
+what caused our sensory observations. Next, we consider the
+important fact that we can choose which sensations to sample.
+2.2. Active inference
+The second process that is important for understanding the
+Bayesian Brain is ‘active inference’. ‘Perceptual inference’ and
+‘active inference’ represent the two ways in which we can
+minimize prediction errors. In perceptual inference, individuals
+strive to update their internal model of the world, while in active
+inference individuals change their environment (or their sampling
+of the environment) with the aim of better informing their beliefs
+about the world (Adams et al., 2013; Friston et al., 2006). Put
+simply, one can either change empirical prior beliefs (through
+perception) to make predictions more like sensations or one can
+change sensations (through action) to make them more like
+predictions. 
+The 
+second 
+is 
+‘active 
+inference’. 
+Experimental
+evidence supports the notion that the principles of active inference
+underlie the functioning of the visual and auditory systems
+(Chennu et al., 2013; Kok and de Lange, 2014). In the here and now,
+minimizing certain forms of prediction errors (e.g., proprioceptive
+prediction errors) through action can be very simple. For example,
+motor reﬂexes can be described as quenching proprioceptive
+prediction errors (Adams et al., 2013). Another example concerns
+the allostatic (predictive) regulation of the internal body milieu
+(Sterling, 2012), where viscerosensory prediction errors are
+reduced (Barrett and Simmons, 2015).
+There appears to be a dialectic regarding action and uncertainty.
+Both exploratory behavior and avoidance behavior show biphasic
+effects on uncertainty. Exploratory behavior is costly because it
+involves a variety of risks, leading to ‘short-term uncertainty' (e.g.,
+Fig. 4. Simpliﬁed model of the hierarchical organization of the brain. Here, posterior or empirical prior beliefs P(X), likelihoods P(Y|X), sensory data (Y*), and prediction
+errors are associated with anatomical structures. Superﬁcial L3-pyramidal cells encode the sufﬁcient statistics (i.e., the mean) of the empirical prior probability distribution;
+deep L5-pyranidal cells encode the sufﬁcient statistics of the likelihood probability distribution. The updating of the empirical prior involves two processes: First, the
+empirical prior (L3) and the likelihood (L5) generate a top-down prediction. This prediction is compared to the sensory data (Y*), thereby generating a ﬁrst prediction error in
+L2-pyramidal cell of the lower level (Y*-Y). This lower-level prediction error is conveyed further upwards via L4-stellate cells to L3-pyramidal cells. It contributes to the update
+of the empirical prior. Second, a current-level-prediction error is calculated in layer-2-pyramidal cells. This second prediction error results from the comparison between the
+higher-level predictions and the current-level-empirical prior. The relative inﬂuence of the ﬁrst and second prediction error on empirical priors is determined by their
+precision or reliability. Technically speaking, the precision of a prediction error corresponds to its inverse variability. Physiologically, precision is thought to be encoded by the
+responsiveness or gain of cells encoding prediction error while, psychologically, it can be associated with attentional gain that selects precise sources of prediction error;
+namely, reliable information that is yet to be explained. The ultimate aim of the belief propagation or neuronal message passing it implied by this circuitry is to minimize
+(precision weighted) prediction error or free energy, and thereby optimizing the generative model. For simplicity, we have only shown the lowest sensory level and the ﬁrst
+level of the hierarchy. A similar architecture can be imagined for subsequent levels, where the data become empirical priors at the lower level.
+8 
+A. Peters et al. / Progress in Neurobiology xxx (2017) xxx–xxx
+G Model
+PRONEU 1500 No. of Pages 25
+Please cite this article in press as: A. Peters, et al., Uncertainty and stress: Why it causes diseases and how it is mastered by the brain, Prog.
+Neurobiol. (2017), http://dx.doi.org/10.1016/j.pneurobio.2017.05.004
+
+PAGE 9
+the voyages of Christopher Columbus); but the possible (episte-
+mic) beneﬁt of exploratory behavior is the reduction of ‘long-term
+uncertainty’ (ﬁlling in the white areas on the maps). In contrast,
+avoidance behavior can reduce ‘short-term uncertainty’ (retreat
+may indeed have a relaxing, uncertainty reducing effect); but
+people who have suspended appropriate belief-updating during an
+avoidance episode might be very surprised by a world that has
+changed profoundly in the meantime. As avoidance behavior
+impairs epistemic foraging, it can promote adherence to outdated
+beliefs, thereby causing ‘long-term uncertainty’. In short, there is
+an optimum balance between approach and avoidance behavior
+that rests upon environmental volatility and, more importantly,
+the ability of an agent to estimate volatility and use it to minimize
+long-term uncertainty (Friston, 2009). By analogy, the exploration
+for energy faces the same dialectic: Although foraging behavior
+itself is an energy-consuming process, it serves to access energy
+resources (Peters et al., 2007b).
+The same notion of minimizing expected prediction errors in
+the future (i.e., uncertainty) underlies extension of active inference
+into the domain of goal-directed-decision making and planning
+(Friston et al., 2015). The implicit action selection is the endpoint of
+active inference and has particular relevance to our treatment of
+stress. We now take a closer look at how the brain infers the best
+strategy.
+2.2.1. Goal-directed-decision making
+Recently, goal-directed-decision making has been considered in
+terms of active inference (Friston et al., 2013, 2014). In other words,
+the problem of selecting behavioral strategies can be treated as an
+inference problem. For such a decision-making process three kinds
+of probability distributions are relevant: Probability distributions
+over the
+ current states of the world/body,
+ states that can be reached, i.e., attainable states,
+ states that the agent believes he/she should occupy, i.e., goal
+states.
+Strategy selection occurs under the prior belief that it will
+minimize the difference between the probability distribution over
+‘attainable states’ (given beliefs about the current state) and the
+probability distribution over ‘goal states’. Or, put another way,
+choices are based upon beliefs about alternative strategies, where
+the most likely strategy minimizes the difference between
+attainable and desired outcomes (repertoire versus goal) (Friston
+et al., 2013, 2014).
+The beliefs about the ‘current states of the world’ are
+continuously updated during perceptual inference. The lateral
+prefrontal cortex (PFC) is a key brain region where current
+environmental states are thought to be encoded (Panagiotaro-
+poulos et al., 2012). Thus, this brain region represents updated
+empirical priors or posterior beliefs about the ‘current states of the
+world’. The lateral PFC occupies a high hierarchical position in the
+brain. It sends predictions to the sensory cortex, which is located at
+a lower level, and in turn the lateral PFC receives prediction errors
+from the sensory cortex. The viscerosensory cortex evaluates
+interoceptive signals (e.g. pain, cutaneous light ‘sensual’ touch and
+thermal sensations) that result from changes in the internal body
+milieu (viscera, muscles and skin) (Barrett and Simmons, 2015;
+Chanes and Barrett, 2016).
+The beliefs about the ‘states that can be reached’ may be
+represented in the pre-supplementary motor area (pre-SMA)
+(Fig. 2) (Nguyen et al., 2014; Rushworth et al., 2004). On this view,
+the pre-SMA comprises a generative model that predicts outcomes
+that can be reached by the use of alternative strategies (strategy1,
+strategy2, . . . , strategyn) taken from a given repertoire (Friston
+et al., 2013). Past experiences – such as early life adversity and
+failed attachment to parental – have a strong impact on what
+future events are foreseen when considering the respective
+strategy. In a long-lasting iterative process, the amygdala- and
+hippocampus-dependent emotional and declarative memories
+shape the generative model, which allows the prediction of the
+attainable states. In this regard, no person or animal is free from
+such biographical biases towards the prediction of new events.
+Technically speaking, the beliefs about the ‘states that can be
+reached’ are represented by a probability distribution over – or
+expectations about – (counterfactual) states (Fig. 6A; blue).
+The ‘states that agents believe they should occupy’ are
+represented in regions like the ventromedial prefrontal cortex
+prefrontal cortex (vmPFC) and the orbitofrontal cortex (OFC)
+(Barron et al., 2015; Bechara et al., 2000; Gottfried et al., 2003;
+O'Doherty et al., 2003; Roesch and Olson, 2004). These regions
+occupy the highest hierarchical position in the Bayesian Brain.
+They play a key role in deﬁning the expected value (i.e. free energy)
+of future states. These goal or prior preferences provide a point of
+reference for goal directed behavior but can also be updated. The
+beliefs about the goal states are also represented as a probability
+distribution over states of the world (Fig. 6A; red).
+The ACC is a central region that is in a position to integrate
+beliefs about attainable states and goal states (Lee et al., 2007;
+Nguyen et al., 2014). From a theoretical perspective, the difference
+between attainable states and goal states can be formalized by the
+so-called ‘Kullback Leibler (KL) divergence’ (Kullback and Leibler,
+1951). In information theory, the KL divergence measures the
+difference between two probability distributions. Although it is
+often intuited as a way of measuring the distance between
+probability distributions, the KL divergence is not a true metric. It is
+often used as a measure of the information gained when one
+revises one’s beliefs from a prior to a posterior probability
+distribution. In the case of the ACC, the KL divergence can be
+considered as a measure of how much the attainable states differ
+from the goal states (Fig. 6A and B). In engineering and optimal
+control theory, the process of minimizing the divergence between
+predicted and preferred states is called KL control. In economics,
+the KL divergence is known as risk; leading to a formal description
+of risk sensitive behavior.
+In summary, an important aspect of resolving uncertainty is the
+selection of actions or strategies that reduce expected surprise, in
+relation to prior preferences or goals.
+2.2.2. The degree of uncertainty about what to do next
+The principle of how the brain resolves uncertainty about which
+action or strategy to select is also found in the most basic forms of
+life. In the chemotaxis, for example, a bacterium changes its
+strategy (i.e., the direction of swimming) until it reaches a
+nutrient-rich environment (goal state). This itinerant strategy is
+based on the prior expectation that the agent will only change its
+direction of movement if it is facing unexpected states (Friston,
+2011). Likewise, the (ideal) Bayesian Brain entertains alternative
+strategies when it cannot reach goal states. Figuratively speaking,
+the nutrient-deprived bacterium shows the same restless behavior
+– which is an indication of ‘uncertainty’ where it should go – as
+many stressed humans who are uncertain about what to do next.
+Among the various brain regions, the ACC is in a prime position
+to integrate information from the pre-SMA and the vmPFC/OFC and
+evaluate the relative risk (KL divergence) (Fig. 2). Action selection
+is based upon these divergence measures, where the most likely
+strategy minimizes the KL divergence or relative risk (Fig. 6C). In
+this way, the ACC plays a central role in selecting a strategy.
+If an individual feels certain about the answer to question 1
+(‘What strategy should be selected to safeguard future wellbe-
+ing?’), strategies are available for achieving the desired goals (i.e.,
+A. Peters et al. / Progress in Neurobiology xxx (2017) xxx–xxx 
+9
+G Model
+PRONEU 1500 No. of Pages 25
+Please cite this article in press as: A. Peters, et al., Uncertainty and stress: Why it causes diseases and how it is mastered by the brain, Prog.
+Neurobiol. (2017), http://dx.doi.org/10.1016/j.pneurobio.2017.05.004
+
+PAGE 10
+strategies with small KL divergences), and the strategy that
+produces best approximates the desired outcome (smallest KL
+divergence) can be selected and conveyed from the pre-SMA to the
+primary motor cortex. In turn, the primary motor cortex generates
+proprioceptive ‘predictions’, which are fulﬁlled by transforming
+peripheral proprioceptive ‘prediction errors’ into movement
+(Adams et al., 2013; Shipp et al., 2013). In this way, the selected
+behavior is instantiated (Fig. 2). The certainty about what to do
+next manifests itself through a strong sense of control.
+Clearly, it is possible that none of the strategies in the game will
+achieve the desired goal with a sufﬁciently high probability (i.e., no
+strategies in play are likely to reach the desired goal). We suggest
+that in such a risky and uncertain state of affairs, the ACC initiates
+an emergency program comprising a set of coordinated stress
+responses (Fig. 2). Accordingly, the ACC issues visceromotor
+‘predictions’ to the brainstem and spinal cord via connections
+that cascade through the amygdala. Such visceromotor ‘predic-
+tions’ are fulﬁlled by converting visceromotor ‘prediction errors’
+into neuromodulatory, autonomic and hormonal action (Barrett
+and Simmons, 2015). In this way, the allostatic network is
+activated. The ‘visceromotor regions’ controlling the allostatic
+processes (the amygdala, ventral striatum, insula, orbitofrontal
+cortex, anterior cingulate cortex, medial prefrontal cortex) are
+commonly regarded as the ‘circuits for emotions’ (Barrett, 2017).
+With such an emergency activation of the ACC-amygdala complex,
+the individual experiences feelings of threat, uncertainty and lack
+of control. As has been shown experimentally, persons who display
+the largest stress responses exhibit lowest levels of self-esteem
+and locus of control, i.e. self-concept of own competence
+(Kirschbaum et al., 1995; Pruessner et al., 2005, 1999). In extreme
+cases, however, when it appears precluded that any of the available
+strategies can achieve the goal state (i.e., every strategy exhibits an
+extremely large KL divergence), the individual may despair and
+abandon his/her goal.
+In the following, we will focus on the risky state of affairs – in
+which the individual experiences feelings of threat, uncertainty,
+and loss of control. The associated risk is twofold: ﬁrst, there is the
+risk of surprising outcomes (e.g., physical injury, loss of social
+position, ﬁnancial loss, separation from life partner, etc.). Secondly,
+there is a risk that the lack control associated with ‘toxic stress’ and
+allostatic overload might progress to disease. Once exposed to
+threatening changes in the external or internal environment, the
+individual is confronted with three possible outcomes: The ﬁrst
+outcome indicates ‘good stress’; it represents a satisfying result;
+certainty could be regained and the individual experiences a sense
+of mastery and good self-esteem; wellbeing is restored completely
+(Fig. 1; asterisk) (McEwen and Gianaros, 2010). The second
+outcome speciﬁes ‘tolerable stress’; in this case, the individual
+could not undo the changes in the inhospitable environment;
+however, uncertainty could be reduced through buffering mecha-
+nisms such as habituation. These people show only low stress
+responses and intermediate levels of self-esteem and locus of
+control (Kirschbaum et al., 1995; Pruessner et al., 2005, 1999). This
+second outcome is discussed later on in the chapter ‘Habituation –
+updating of goal states’. The third outcome characterizes ‘toxic
+stress’; in this case, the buffering mechanisms failed, and the
+individuals remain trapped in the inhospitable environment; their
+stress responses are maximal whereas their levels of self-esteem
+and locus of control are minimal (Kirschbaum et al., 1995;
+Pruessner et al., 2005, 1999); these persons are at high risk for
+physical and mental morbidity and mortality (Fig. 1; two asterisks)
+(McEwen, 2012).
+In conclusion, if we feel conﬁdent that we can reach our goal states
+(i.e., one course of action has a particularly low risk), the ACC informs
+the motor system about the best action. However, if we feel uncertain
+about what to do next (all strategies are equally risky) then the ACC
+initiates an emergency program to ensure inferences about the state of
+the world are properly informed.
+To prevent all these short- and long-term risks associated with
+uncertainty, the brain starts its emergency program as soon as a
+person gets into such a precarious situation. Pivotal to this
+formulation is the activation of the amygdalae. These brain regions
+– located within the temporal lobes – organize the stress responses
+that are ultimately aimed at resolving the risk and uncertainty
+portended by the ACC. The reduction of uncertainty in such states
+of emergency involves the beneﬁcial actions of the stress
+hormones. Both cortisol and catecholamines are important in
+determining memory of signiﬁcant things to avoid danger in the
+future. Stress hormones are necessary to update our beliefs about
+the world (and our plans), which are no longer ﬁt for purpose.
+3. Mastering uncertainty
+As mentioned, the brain uses of three processes to master
+uncertainty: attention, learning, and habituation. Crucially, this
+repertoire of uncertainty resolving processes is closely intertwined
+with cerebral and systemic energy metabolism.
+3.1. Attention – the procurement of more precise sensory information
+for Bayesian updating
+The ﬁrst and immediate response to a stressful challenge is
+arousal. Arousal includes an increase of attention and vigilance. In
+an uncertain situation, the brain switches from the normal vigilant
+state during wakefulness into a hypervigilant state. Here, we
+review evidence that speaks to how the neuroendocrine mecha-
+nisms that lead to hypervigilance procure more precise sensory
+information. As mentioned above, information is required to
+reduce uncertainty (Shannon, 1948). To get the more precise
+information, extra cerebral energy is needed. The relation between
+information and thermodynamic cost follows from the fact that
+energy is required to change the information encoded in any
+system. From a neuronal perspective, the increase in the gain of
+neurons encoding prediction errors is metabolically costly. From
+the point of view of predictive coding, an increase in precision or
+attentional gain necessarily entails an increase in neuronal energy
+supply.
+During 
+a 
+psychosocial 
+challenge 
+(e.g., 
+oral 
+examination,
+dispute), the amygdala and the bed nucleus of the stria terminalis
+provide input to the LC, the SNS and the HPA axis (Fig. 3) (Swanson,
+2000). As a result, corticotrophin-releasing factor is released from
+nerve terminals targeting LC neurons, thereby regulating their
+ﬁring 
+patterns (Valentino and 
+Van Bockstaele, 
+2008). This
+neuropeptide leads to an increase in tonic and a decrease in
+phasic discharge of LC neurons. Phasic discharge involves only a
+limited number of LC neurons and characterizes the mode of
+‘focused attention’. In this mode, LC projections to cortical areas
+lead to enhancement of only the few parts of the cortex involved in
+a speciﬁc task (Aston-Jones and Cohen, 2005; Berridge and
+Waterhouse, 2003). In contrast, tonic discharges of locus coeruleus
+neurons involve large number of these neurons. This mode leads to
+widespread activation of cortical areas (Aston-Jones and Cohen,
+2005; Berridge and Waterhouse, 2003). The tonic mode is activated
+during acute stress and facilitates the interaction of many cortical
+areas (i.e., by increasing the inﬂuence of ascending prediction
+errors), which – in concert – aim at revising beliefs in order to
+reduce uncertainty.
+In the following, we will look at how attention optimizes the
+processing of precise sensory information. Speciﬁcally, we consider
+how norepinephrine increases cortical synaptic information trans-
+mission, how particular information ﬂows are augmented, what
+energy costs arise, and how the extra energy required is provided.
+10 
+A. Peters et al. / Progress in Neurobiology xxx (2017) xxx–xxx
+G Model
+PRONEU 1500 No. of Pages 25
+Please cite this article in press as: A. Peters, et al., Uncertainty and stress: Why it causes diseases and how it is mastered by the brain, Prog.
+Neurobiol. (2017), http://dx.doi.org/10.1016/j.pneurobio.2017.05.004
+
+PAGE 11
+3.1.1. Noradrenergic regulation of presynaptic glutamate release
+LC projections target cortical synapses, where they release
+norepinephrine in a paracrine manner (Fig. 3) (Berridge and
+Waterhouse, 2003). Here, norepinephrine modulates the release
+probability of glutamate and GABA from presynaptic nerve
+terminals. We focus on the modulation of inputs arriving at the
+basal dendrites of layer-2-error-units-pyramidal cells (Fig. 5). Mara
+Mather and coworkers have described a positive feedback loop and
+have coined the term ‘hot spot’, describing the coincidence of a
+‘high-frequency-arriving-spike 
+train’ 
+with 
+a 
+‘high 
+LC-drive’
+(Mather et al., 2015). Upon such a coincidence, a ‘hot spot’ can
+be observed where glutamate release probability is enhanced (for
+details see Box 3).
+The concept of NE hot spots (Mather et al., 2015) nicely explains
+two experimental observations: First, increasing the frequency of
+LC stimulation either leads to facilitation or suppression of sensory
+evoked neuronal responses (Devilbiss and Waterhouse, 2004). For,
+according to Mather’s concept, a NE hot spot facilitates synaptic
+transmission of a high-frequency-spike train, while it suppresses
+synaptic transmission of a low-frequency-spike train. Second, high
+LC activation increases the likelihood that an action potential
+results in the release of glutamate, while low LC activation
+decreases that likelihood (Chiu et al., 2011; Kobayashi et al., 2009).
+These neuromodulatory hotspots appear to offer the perfect
+mechanism for the gain control implicit in predictive coding
+accounts of perceptual inference. In other words, selecting certain
+streams of ascending prediction errors (arising in hotspots) affords
+precision and inﬂuence to those prediction errors – so that they
+exert a greater effect higher in the cortical hierarchy. In this way,
+NE-mediated presynaptic gain control is in a prime position to
+selectively procure unexplained or newsworthy sensory informa-
+tion that is necessary to revise empirical prior beliefs about the
+world.
+In summary, stress ignites multiple NE hotspots, thereby selectively
+enhancing the transmission of precise sensory information.
+3.1.2. Energetic constrains on information transmission
+Neural information transfer incurs an exceptional amount of
+energy (Harris et al., 2012). The brain uses 20% of the total energy
+that is available in the human organism, although its mass
+contributes only 2% to the total body mass (Peters et al., 2004).
+Thus, the brain occupies a privileged metabolic position. Its
+primary fuel is glucose. It takes up more than 60% of the circulating
+glucose at rest (Reinmuth et al., 1965). Remarkably, an experimen-
+tal mental or psychosocial challenge increases whole-brain-
+glucose uptake by more than 10% (Hitze et al., 2010; Madsen
+et al., 1995). So-called ‘brain pull mechanisms’ – a term which
+originates from logistics – allow such a rapid systemic (re-)
+allocation of energy resources within the human organism (Peters
+and Langemann, 2009). Even on the cell-to-cell level, it has been
+Fig. 5. LC activity enhances synaptic information transmission at multiple release sites. Upon high LC activity, hotspots are ignited both at glutamatergic and GABAergic
+synapses. In the case of multiple release sites from one axon onto a postsynaptic cell, the energetically optimal release probability of neurotransmitters is 25%–50%. By igniting
+hotspots at multiple release sites, NE increases the share of action potentials that release neurotransmitter vesicles (glutamate or GABA). Hotspots decrease energy efﬁciency
+of synaptic transmission, and increase total synaptic energy consumption. By expending extra energy, hotspots allow for a selection or boosting of speciﬁc prediction errors;
+thereby endowing them with greater precision.
+A. Peters et al. / Progress in Neurobiology xxx (2017) xxx–xxx 
+11
+G Model
+PRONEU 1500 No. of Pages 25
+Please cite this article in press as: A. Peters, et al., Uncertainty and stress: Why it causes diseases and how it is mastered by the brain, Prog.
+Neurobiol. (2017), http://dx.doi.org/10.1016/j.pneurobio.2017.05.004
+
+PAGE 12
+demonstrated that neurons take up energy ‘on demand’ (Magis-
+tretti et al., 1999; Pellerin and Magistretti, 1994). This demand
+process is caused by other ‘brain pull mechanisms’, which allow a
+rapid local (re)allocation of energy resources within the brain itself
+(Peters and Langemann, 2009). Most brain energy is spent on
+synaptic transmission (Harris et al., 2012).
+Not every action potential arriving at the synapse leads to the
+release of a glutamate vesicle. Levy and Baxter used an informa-
+tion-theoretical approach to show that the brain optimizes the
+quotient of ‘information transmitted to energy expended’, rather
+than optimizing its ‘coding capacity’ (Levy and Baxter, 1996). In
+other words, the brain is, in principle, able to transmit information
+at a much higher rate than it actually does, because operating at a
+lower transmission capacity is more economical; i.e. energy
+efﬁcient (for details see Box 4).
+Under non-stress conditions, LC-activation is low and the brain
+operates in an economic energy-efﬁcient mode, abstaining from
+the [mis]use of its potentially higher information processing
+capacity. Under stress conditions, however, LC-activation is high
+and the brain operates in an energetically expensive mode,
+exploiting its full information processing capacity, while forsaking
+optimal energy efﬁciency.
+In short, the use of the energetically expensive mode is restricted to
+times of stress and uncertainty.
+3.1.3. Prediction errors are encoded with higher precision during stress
+Now the question arises, for which task is extra energy actually
+needed. On the predictive coding view, uncertainty or loss of
+conﬁdence about the top-down predictions calls for an increase in
+the precision of sensory prediction errors – that induce Bayesian
+belief updating. Prediction error units assess how much bottom-up
+information about 
+sensory evidence differs from top-down
+information on expectations (Fig. 5). But what neurobiological
+mechanisms help layer-2-error-unit-pyramidal cells to evaluate a
+mismatch between descending predictions and the expected state
+of affairs at the current level?
+Fig. 6. Selecting the best strategy. Panel A. During stress, the ACC monitors the
+divergence between the probability distribution over ‘attainable states’ and ‘goal
+states’ for plausible strategies that constitute a repertoire. Such divergences are
+called Kullback-Leibler divergence (DKL). The greater the divergences or relative
+risk, the greater the uncertainty about which strategy to select – and the stronger is
+the activation of amygdala. Panel B. Each strategy displays a different relative risk
+(DKL). Panel C. Based upon the risk distribution, the ACC assesses for each strategyi
+(i = 1,2, . . . ,n) the probability that it will ensure wellbeing. In the example depicted
+here, none of these probabilities is high. Thus, the individual remains uncertain
+about the answer to question 1. Because of the high degree of uncertainty or
+entropy, a stress response is initiated.
+Box 3. Norepinephrine ignites local ‘hot spots’ of neuronal excitation
+If a high LC activity leads to NE-release at a glutamatergic synapse, NE binds to adrenergic receptors located on the presynaptic
+glutamatergic neuron: it binds to the high-afﬁne a2-adrenoreceptors and the low-afﬁne a1- and b-adrenoreceptors (Fig. 5)(Ramos
+and Arnsten, 2007). At the presynaptic site of cortical neurons, high-afﬁnity and low-afﬁnity adrenoreceptors have been shown to
+exert opposing actions. While low-afﬁne a1- and b-adrenoreceptors increase the glutamate release probability (Ferrero et al., 2013;
+Kobayashi et al., 2009), high-afﬁne a2-adrenoreceptors receptors decrease it (Chiu et al., 2011). Furthermore, at low NE
+concentrations the actions of high-afﬁne a2-adrenoreceptors prevail, while at high NE concentrations the actions of low-afﬁne a1-
+and b-adrenoreceptors prevail (Nai et al., 2009, 2010). These ﬁndings are in line with the biphasic NE-dose-response curves on
+patch clamp recordings (Linster et al., 2011).
+Once glutamate has been released from the presynaptic site into the synaptic cleft, it binds on the one hand to postsynaptic AMPA
+and NMDA receptors and on the other hand – as glutamate spillover – to NMDA-receptors located on the norepinephrine release
+sites. In this way, we ﬁnd a modulatory loop with NE regulating glutamate release probability, and glutamate spillover regulating
+NE release (Mather et al., 2015). This modulatory loop acts in a positive feedback manner, and has been termed ‘hot spot’ (Mather
+et al., 2015).
+Thus, high LC-drive leads to high concentrations of NE at the presynaptic site, which lead to an increase of glutamate release
+probability. If coincidently there is a high-frequency-spike train arriving at the presynaptic site, a particularly high amount of
+glutamate is released into the synaptic cleft. A high glutamate spillover in turn ampliﬁes further NE release, resulting in maximal
+glutamate release probabilities. In contrast, in case of a low LC-drive and spontaneous glutamate release, the low concentrations of
+the glutamate spillover are insufﬁcient to promote further release of NE – the glutamate release probability is even more reduced.
+High LC activity also ignites hotspots at GABAergic release sites. NE enhances GABA-release probabilities by low-afﬁne a1-
+adrenoreceptors, whereas NE suppresses GABA-release probabilities by high-afﬁne a2-adrenoreceptors (Hirono and Obata, 2006;
+Salgado et al., 2012). In summary, from among the action potentials arriving at the synapse, only a few actually elicit the release of
+the neurotransmitter vesicles (glutamate or GABA). Only in the case of high LC activity do hotspots occur, where most of the
+incoming action potentials of a high-frequency train actually produce a neurotransmitter release (glutamate or GABA).
+Noteworthy, NE also affects postsynaptic excitability of cortical neurons (by suppressing excitatory and inhibitory postsynaptic
+potentials) (Kobayashi et al., 2009; Salgado et al., 2011), but the facilitatory NE effects on presynaptic neurotransmitter release
+(glutamate and GABA) have been shown to override the less effective NE-effects on postsynaptic excitability (Salgado et al., 2011).
+In summary, NE ignites hotspots at neurotransmitter release sites, thus increasing the transmitted information (bits per second).
+12 
+A. Peters et al. / Progress in Neurobiology xxx (2017) xxx–xxx
+G Model
+PRONEU 1500 No. of Pages 25
+Please cite this article in press as: A. Peters, et al., Uncertainty and stress: Why it causes diseases and how it is mastered by the brain, Prog.
+Neurobiol. (2017), http://dx.doi.org/10.1016/j.pneurobio.2017.05.004
+
+PAGE 13
+It has long been recognized that cortical neurons collectively
+exhibit synchronous activity patterns (Salinas and Sejnowski,
+2001). Correlated (i.e., coherent) ﬂuctuations play a crucial role in
+many cortical processes. If one neuron ﬁres, and the other one is
+more (or less) likely to ﬁre, we call their activity ‘temporarily
+correlated’. Many neurons are able to sense temporarily correlated
+input patterns. A neuron can detect coincident ﬁring patterns, if
+spikes from two inputs arrive within a short time interval. But
+neurons can also can sum up their inputs to elicit an action
+potential (Konig et al., 1996; Shadlen and Newsome, 1994). A
+neuron is called ‘balanced’, if both excitatory and inhibitory inputs
+are strong and cancel each other out. In this way, the mean input
+current approximates zero, and the average steady-state voltage is
+insufﬁcient to generate an action potential. Yet, such a balanced
+neuron might still generate an action potential, since stochastic
+voltage ﬂuctuations always occur that are large enough to cross the
+necessary threshold. Balanced neurons are more sensitive to
+coherent (i.e. correlated) presynaptic input than unbalanced
+neurons (Salinas and Sejnowski, 2001).
+A few years ago, it was shown that if the input from an excitatory
+neuron A and the input from an inhibitory neuron B are correlated,
+then the ﬂuctuations of the postsynaptic neuron decrease (Salinas
+and Sejnowski, 2001). Let us assume that L2-error-unit-pyramidal
+cells receive inhibitory input (conveying predictions from the level
+above) and excitatory input (encoding the empirical priors from
+the current level). If predictions from the level above and priors
+from the current level are highly correlated, then ﬂuctuations of
+L2-error units will be attenuated. Conversely, if there is a
+mismatch, then synaptic ﬂuctuations will ensue, and the L2-error
+unit will start ﬁring. In this way, the L2-error units are capable of
+encoding and conveying prediction errors.
+The mechanisms described here for the detection of non-
+correlated inputs can explain how superﬁcial pyramidal cells
+extract newsworthy prediction errors for broadcasting deeper into
+the brains hierarchy. However, the precision of these prediction
+errors depends upon how L2-error units respond to their opposing
+presynaptic inputs (Brown and Friston, 2012). It is here that NE
+(and other neuromodulators) comes into play in a very special way.
+3.1.4. NE increases the precision with which prediction errors induce
+Bayesian updating
+If the brain is in the business of inferring what its body should
+do next, it has to encode – at some level – probability distributions
+(Richmond and Wiener, 2007). Several probabilistic neuronal
+codes are mathematically possible, but most of the available
+evidence points to predictive coding, in which the activity of single
+units or populations encodes the mean of a Gaussian probability
+distribution (Friston, 2009). When assuming that neurons encode a
+Gaussian posterior distribution (the so-called ‘Laplace approxima-
+tion’), their ﬁring rate is taken to represent the posterior mean or
+expectation. However, if neuronal ﬁring encodes a mean what
+encodes the standard deviation; i.e. uncertainty? The premise of
+predictive coding is that precision is encoded by the response
+amplitude or gain of the neurons encoding prediction errors. The
+key point here is that the noradrenergic modulation affects
+presynaptic gain control – and therefore contributes encoding of
+precision: NE increases the probability of presynaptic neurotrans-
+mitter release onto L2-neurons, and in so doing renders the
+postsynaptic L2-neuron more responsive to non-correlated inputs.
+Thus, NE increases the number of action potentials that the L2-
+error unit generates when it receives non-correlated input signals.
+Such an increase in the number of action potentials of the L2 error
+unit forwards more weight to the ascending prediction error; i.e.,
+to the bottom-up sensory information ﬂow.
+In summary, NE enhances information transmission at the
+synapses, and in so doing enables the L2-error-unit-pyramidal
+populations to endow prediction errors with higher precision. In this
+way, NE acting on the sensory cortex – that occurs in situations of
+uncertainty – adds value and weight to the bottom-up-information
+ﬂow. Therefore, during stress, the sensory evidence becomes more
+inﬂuential than (relatively imprecise) prior expectations. Such
+selective increases in precision are key for updating beliefs about
+the world that engender uncertainty and stress.
+3.1.5. The ‘selﬁsh brain’ provides the energy for increasing precision
+Where does the extra brain energy needed during uncertainty
+and stress come from? In many people – but not in habituators (see
+below) – the brain demands supplementary cerebral energy from
+the body stores (Peters and McEwen, 2015). The ACC-amygdala
+complex not only stimulates LC neurons, but in parallel stimulates
+the SNS and the HPA-axis (Fig. 3). SNS and HPA-axis activations
+immediately suppress insulin secretion from the pancreatic b-cells
+(Ahren, 2000; Chan et al., 2007; Frühwald-Schultes et al., 2000;
+Tong et al., 2007). Consequently, insulin-dependent GLUT4-
+mediated 
+glucose 
+uptake 
+in 
+muscle 
+and 
+fat 
+is 
+prevented,
+rebalancing energy consumption in favor of the insulin-indepen-
+dent GLUT1-mediated glucose uptake at the blood-brain barrier
+(Hasselbalch et al., 1999). In this way, the brain foreshadows its
+own increased cerebral energy need induced by stress.
+In 
+conclusion: 
+During 
+arousal, 
+noradrenergic 
+regulation 
+of
+presynaptic neurotransmitter release probabilities leads to precise,
+high gain transmission of sensory evidence required to update deep,
+hierarchical beliefs about changes in the external and internal milieu.
+At the same time, the selﬁsh brain supplies itself with the extra energy
+required for precision-engineered belief updating.
+Box 4. Energetic costs limit presynaptic release probabilities
+In neurons with a maximal ﬁring rate of 400 Hz, transmission capacity is maximal, if they ﬁre at half of their maximum rate; i.e.
+200 Hz. Yet in practice, the mean ﬁring rates of neurons in vivo is much lower – around 4 Hz (Harris et al., 2012). Against this
+background, it seems plausible that such a low basal glutamate release probability could be enhanced on demand. An action
+potential is much more likely to result in the release of glutamate, if locus coeruleus output is high. According to the calculations of
+Levy and Baxter, such a high glutamate release probability – that is induced by high LC activation – is energetically much more
+expensive than synaptic transmission occurring with low LC activation, which constitutes the economically optimal mode (Levy
+and Baxter, 1996).
+With respect to energetic constrains, the number of release sites from an axon onto a postsynaptic cell is also important. This
+number is larger than 6 for cortical pyramidal to interneuron synapses, larger than 4 for pyramidal cell to pyramidal cell synapses in
+cortex, and 6 for excitatory synapses onto pyramidal cells in hippocampal area CA1 (Deuchars and Thomson, 1995; Larkman et al.,
+1997; Markram et al., 1997). Julia Harris and David Attwell showed that in case of multiple release sites – from one axon onto a
+postsynaptic cell – the optimal release probability is 25%–50%; optimal with respect to the quotient of information transmitted to
+energy expended (in bits per joule) (Harris et al., 2012).
+A. Peters et al. / Progress in Neurobiology xxx (2017) xxx–xxx 
+13
+G Model
+PRONEU 1500 No. of Pages 25
+Please cite this article in press as: A. Peters, et al., Uncertainty and stress: Why it causes diseases and how it is mastered by the brain, Prog.
+Neurobiol. (2017), http://dx.doi.org/10.1016/j.pneurobio.2017.05.004
+
+PAGE 14
+3.2. Learning – updating during and after stress
+The second key process for mastering uncertainty is learning.
+Glucocorticoids control functional and structural plasticity in
+many brain regions (Fig. 3).
+3.2.1. Glucocorticoids gate the time window for cortical plasticity
+In the case of uncertainty about what to do next (i.e., large
+divergences between the beliefs about ‘attainable states’ and ‘goal
+states’ under all available strategies), the ACC-amygdala complex
+stimulates the HPA-axis and – in so doing – increases the
+concentration 
+of 
+glucocorticoids 
+in 
+both 
+blood 
+and 
+brain
+(Fig. 7A). In the hippocampus, amygdala, and cerebral cortex,
+glucocorticoids bind to MR and GR receptors that are located both
+within neurons (cytosol, nucleus) and on neuronal surfaces
+(membranes) (Arriza et al., 1988; Patel et al., 2000; Sanchez
+et al., 2000).
+Here, we focus on intracellular MRs and GRs. These two
+intracellular receptors differ in their afﬁnity for cortisol: MR binds
+cortisol with high afﬁnity, GR with low afﬁnity (Arriza et al., 1988).
+Once cortisol has activated these receptors in the cytosol, MR and
+GR enter the cell nucleus where they exert differential effects on
+gene expression (de Kloet et al.,1998). Fig. 7B shows the MR and GR
+binding characteristics of glucocorticoids in a pyramidal cell. With
+respect to synaptic plasticity; i.e., long-term potentiation (LTP) and
+long-term depression (LTD), MR and GR have been shown to act in
+an opposing manner on gene expression (Diamond et al., 1992;
+Pavlides et al., 1994, 1996). Here, we focus on how declarative
+memories are formed under stress, which is distinct from the way
+emotional memories are conserved (Maggio and Segal, 2012;
+Quirarte et al., 1997; Zhou et al., 2010).
+At low cortisol concentrations, the facilitatory effect of MRs on
+plasticity prevails, while at high cortisol concentrations, the
+inhibitory effect of GRs prevails. Due to the opposing actions of MR
+and GR, the difference in effects on gene expression becomes
+paramount (Datson et al., 2001). The MR-GR difference depends on
+the glucocorticoid concentration and shows a ‘bell-shaped’ (or
+‘inverted U-shaped’) dependency (Fig. 7C) (de Kloet et al., 1998;
+Joels, 2006). A bell-shaped dependence on glucocorticoids is
+evident, for example, for the probability occurrence of LTP (Fig. 7C)
+(Diamond et al., 1992; Joels, 2006; Pavlides et al., 1994, 1996).
+Consolidation of declarative memories is most likely when
+glucocorticoid concentrations are low in the normal range (where
+the bell-shaped curve has its peak). In contrast, consolidation is
+unlikely when glucocorticoids are absent (left-hand side of the
+bell-shaped curve) (Wagner et al., 2005) or when glucocorticoid
+concentrations are high (right-hand side of the bell-shaped curve)
+(Plihal et al., 1999). Likewise, retrieval of memories also shows a
+bell-shaped dependency on glucocorticoids, i.e. retrieval is optimal
+at low (normal range) glucocorticoid concentrations, but impaired
+at very low and very high glucocorticoid concentrations (Rimmele
+et al., 2013).
+For an inclusive understanding of the role of glucocorticoids in
+updating the ‘internal model of the world’, we have to consider
+learning in the context of predictive coding. Previously, we have
+talked about inferring states of the world in terms of neuronal
+activity and how this depends on the precision of prediction errors
+encoded by activity dependent changes synaptic efﬁcacy mediated,
+in this setting, by NE. However, this inference depends upon having
+a good model of the world encoded in the hierarchical connections
+that convey descending predictions. This model is learned over
+long timescales through experience dependent plasticity; such as
+LTP and LTD. On this view, the MR-GR difference is therefore in a
+prime position to control the rate of learning – in the same way that
+NE controls the rate of inference and evidence accumulation by
+boosting the precision of prediction errors. This learning rate has
+itself to be optimized to produce the best generative models.
+Clearly, if we experience the world as uncertain or ambiguous, we
+want to suspend learning. Conversely, if we experience it as
+predictable and lucid, we want to consolidate what we have
+learned. Given that LTP is selectively enabled over a carefully
+controlled window of MR-GR difference (Fig. 7), glucocorticoids
+open and close the time windows for ‘learning’ (Joels, 2006;
+McEwen, 2015). They are therefore in a key strategic position to
+selectively consolidate when and what we learn.
+In conclusion: High glucocorticoid concentrations create a ‘phase
+of change’, revising the current model of the world (including its
+strategies). Low glucocorticoid concentrations create a ‘phase of
+conservation’, stabilizing the current model of the world.
+As mentioned, LTP shows a bell-shaped dependency on
+glucocorticoids. The crucial insight now lies in the fact that TrkB
+signaling is required for the production of proteins that maintain
+LTP (Langemann et al., 2008; Minichiello et al., 1999; Zhang and
+Poo, 2002), and that TrkB receptor production rate displays a bell-
+shaped-dose-response dependency on glucocorticoids (Schaaf
+et al., 1997; Shi and Mocchetti, 2000). Consequently, TrkB
+constitutes a link that mediates the bell-shaped-dose-response
+Fig. 7. Glucocorticoids enable or preclude cortical plasticity. Panel A. In case the
+ACC fails to select among plausible strategies, uncertainty arises about which
+strategy to pursue, leading to amygdala activation, which results in the increase of
+glucocorticoid concentrations in blood and brain. Panel B. Glucocorticoids bind with
+high afﬁnity to intracellular MR and with a low afﬁnity to intracellular GR.
+Intracellular MR and GR exert opposing actions on the expressions of a subset of
+genes involved in long-term plasticity, e.g. the gene encoding the TrkB receptor
+(Schaaf et al., 1997). Thus, the combined effect of MR and GR on gene expression
+corresponds to the difference between the MR-dose-response curve and the GR-
+dose-response curve. Panel C. The combined effect of MR and GR is represented by a
+‘bell-shaped’ curve. For instance, the production rate of TrkB receptors follows such
+a bell-shaped function. Since protein production is necessary for maintaining long-
+term plasticity, the dependency of LTP-probability on glucocorticoid concentrations
+also shows a bell-shaped form. Of note, the bell-shaped curve depicted here can be
+interpreted as a probability over consolidation of experience dependent plasticity.
+The mode m indicates the glucocorticoid concentration, where probability of LTP
+has its peak.
+14 
+A. Peters et al. / Progress in Neurobiology xxx (2017) xxx–xxx
+G Model
+PRONEU 1500 No. of Pages 25
+Please cite this article in press as: A. Peters, et al., Uncertainty and stress: Why it causes diseases and how it is mastered by the brain, Prog.
+Neurobiol. (2017), http://dx.doi.org/10.1016/j.pneurobio.2017.05.004
+
+PAGE 15
+dependency of LTP probability on glucocorticoids – and deter-
+mines when changes to our internal models should or can be
+consolidated.
+Many other biological functions also show a bell-shaped
+dependency on glucocorticoids (de Kloet et al., 1998). In the
+current 
+paper, 
+we 
+regard 
+this 
+bell-shaped 
+dependency 
+on
+glucocorticoids as embodying a reference point for the optimal
+level of experience-dependent plasticity. As uncertainty or stress
+is, by deﬁnition, a sign that our generative models are not ﬁt for
+purpose (i.e., have a high free energy), we should not endorse
+anything learned under these models by consolidating associative
+plasticity. This is consistent with a suspension of (maintenance of)
+LTP during high glucocorticoid and stress levels. Turning this
+argument on its head, the minimum free energy state must be
+associated with low glucocorticoid levels that permit learning.
+These optimal levels therefore reﬂect a reference signal or setpoint
+to 
+which 
+our 
+bodies 
+(and 
+brains) 
+must 
+aspire. 
+In 
+short,
+glucocorticoid 
+levels 
+can 
+be 
+interpreted 
+as 
+a 
+correlate 
+of
+uncertainty over the timescales of experience-dependent plastici-
+ty.
+Heuristically, this means that we strive to achieve states that go
+along with low (i.e., normal) glucocorticoid concentrations (i.e., the
+reference level m in Fig. 7C). A special and interesting case presents
+itself, where the glucocorticoid-dependent biological function is
+the ‘glucocorticoid release into the blood circulation’. In this case,
+the glucocorticoid concentration itself depends on the glucocorti-
+coid-dependent bell-shaped relationship. Thus, a setpoint is
+generated that depends primarily on the functioning of the MR
+in coordination with GR (de Kloet et al., 1998; Peters et al., 2007a).
+As a result, the HPA-axis always strives to retain a low blood
+concentration of cortisol. Therefore, those states with low (normal)
+glucocorticoid concentration are the most probable states that we
+ﬁnd ourselves in. It works like this: Decreased glucocorticoid
+concentrations stimulate the HPA-axis, while increased glucocor-
+ticoid concentrations (circadian or stress-induced) inhibit it
+(Akana et al., 1988; Fehm et al., 1977; Jacobson et al., 1988; Peters
+Fig. 8. Learning the prediction error precision. Panel A. The apical tuft of an L2-pyramidal neuron is involved in precision control. The apical tuft receives excitatory and
+inhibitory input from layer 1 that modulates the postsynaptic gain of the pyramidal neuron. Excitatory modulation input increases the postsynaptic gain, while inhibitory
+modulation input decreases it. Panel B. The output of the L2-neuron, which is the precision weighted prediction error, depends on the difference between excitatory and
+inhibitory inputs. Modulatory input onto the apical tuft increases or decreases the slope of the input-output function; therefore, controlling the gain of postsynaptic responses
+encoding prediction error. LTP occurring at glutamatergic input synapses of the apical tuft ﬁxes an increased slope of the input-output function. In this case, the prediction
+error is encoded with a high precision, i.e. it gets more weight as compared to the corresponding higher-level prediction error. LTP occurring at GABAergic input synapses of
+the apical tuft ﬁxes a decreased slope of the input output function. In this case, the prediction error is endowed with low precision, i.e., is weighted lower.
+A. Peters et al. / Progress in Neurobiology xxx (2017) xxx–xxx 
+15
+G Model
+PRONEU 1500 No. of Pages 25
+Please cite this article in press as: A. Peters, et al., Uncertainty and stress: Why it causes diseases and how it is mastered by the brain, Prog.
+Neurobiol. (2017), http://dx.doi.org/10.1016/j.pneurobio.2017.05.004
+
+PAGE 16
+et al., 2007a). In this way, an equilibrium cortisol concentration is
+reached (typically during deep sleep) that represents the mode of
+the reference distribution shown in Fig. 7C. In contrast, states with
+high glucocorticoid concentrations are to be avoided (e.g., when
+learning to drive a car).
+In addition to the self-stabilizing MR/GR feedback, the HPA-axis
+receives input from the cerebral cortex. A substantial input derives
+from the ACC, which is in a position to convey messages about
+rising uncertainty (i.e., expected free energy), and in so doing
+stimulates the HPA-axis. Under the assumption that our choices
+are informed by biological and prosocial goals (e.g., satiety,
+afﬁliative touch, pleasant temperature, etc.), then glucocorticoid
+concentrations will remain low if these goal states are attainable.
+Conversely, if these goals are deemed unattainable, then the
+glucocorticoid concentrations rise. In short, glucocorticoid con-
+centration is a direct reﬂection of whether the world is unfolding
+according to expectations or not.
+In conclusion, the probability that a synapse undergoes LTP shows
+a bell-shaped dependency on the glucocorticoid concentration. There
+is an optimal glucocorticoid concentration that favors LTP. This
+optimum reﬂects the absence of prediction errors, or in other words,
+the free energy minimum.
+3.2.2. Stress and surprisal
+In information theory, the term ‘surprisal’ – coined by Myron
+Tribus – is used to describe the deviation from one’s expectations
+(Tribus,1961). For a given probability distribution over outcomes Y,
+surprisal is deﬁned as the negative logarithm of P(Y): i.e., log(P
+(Y)). Thus, surprisal represents the improbability or ‘surprise’ of
+observing an outcome; for example, reaching into your pocket for
+your phone and ﬁnding it is not there. Crucially, the ‘expected
+surprisal’ is ‘entropy’. Entropy is the mathematical measure of
+uncertainty, which is approximated by expected free energy. This
+means that glucocorticoid levels may not only underwrite the
+Fig. 9. Learning the generative model. Panel A. Triple pathways control the updating of the generative model. The prior-L3 neuron sends three pathways to the likelihood-L5
+neuron: the driving-input path, the excitatory-modulation-input path, and the inhibitory-modulation-input path (which includes an inhibitory interneuron). As long as
+glucocorticoid concentrations are high (during stress), LTP at glutamatergic and GABAergic synapses is prevented. LTP occurs at the L5 neuron’s tuft only if glucocorticoid
+concentrations fall (after stress) and can ensue either in the excitatory or in the inhibitory path. Panel B. The generative model consists of the prior and the likelihood. The
+slope of the input-output function of the layer-5 neuron represents functional gain between expectation and prediction. Excitatory modulatory input increases the
+postsynaptic gain, while inhibitory modulatory input decreases it. Once the generative model is updated it can be conserved through LTP. In contrast, LTD would reset the
+slope of the input-output function into a neutral ‘default slope’.
+16 
+A. Peters et al. / Progress in Neurobiology xxx (2017) xxx–xxx
+G Model
+PRONEU 1500 No. of Pages 25
+Please cite this article in press as: A. Peters, et al., Uncertainty and stress: Why it causes diseases and how it is mastered by the brain, Prog.
+Neurobiol. (2017), http://dx.doi.org/10.1016/j.pneurobio.2017.05.004
+
+PAGE 17
+expected metabolic free energy associated with stressful (e.g.,
+ﬂight 
+or 
+ﬁght) 
+responses, 
+it 
+may 
+also 
+reﬂect 
+changes 
+in
+informational or variational free energy. The above analysis also
+suggests that levels of high free energy preclude a consolidation of
+experience dependent plasticity – until the world becomes more
+predictable and glucocorticoid levels return to their equilibrium
+levels.
+In uncertain and threatening situations, descending predictions
+of stress-related responses are broadcast by the ACC to the anterior
+insular and onto autonomic centers to elicit autonomic reﬂexes
+(Barrett and Simmons, 2015; Behrens et al., 2007; Feinstein et al.,
+2006; Karlsson et al., 2012; Liljeholm et al., 2013; Paulus et al.,
+2002; Sarinopoulos et al., 2010). The ACC-amygdala complex
+activates the HPA-axis, cortisol concentrations increase, cortisol
+binds primarily to cerebral GRs. Only if the glucocorticoid
+concentrations return to low concentrations, which bind primarily
+to cerebral MRs, will long-term plasticity in cortical neurons (e.g.
+layer-5-pyramidal cells) be induced and maintained. Thus, learning
+of our internal model of the world can only occur at a low
+glucocorticoid concentration, when our models are ﬁt for purpose
+– according to our ACC.
+In conclusion, if the internal model of the world makes false
+predictions, high glucocorticoid values indicate a high free energy (i.e.,
+uncertainty); the model is changed and functional plasticity is
+precluded. Once the updated model succeeds in making correct
+predictions, low glucocorticoid values indicate a low free energy (i.e.,
+predictability); the model is consolidated and functional plasticity re-
+emerges.
+3.2.3. Functional plasticity at the apical tuft
+In the preceding treatment, we distinguished between infer-
+ence and learning; where the former entails optimizing expect-
+ations about states of the world through synaptic activity and the
+latter entails optimizing expectations about parameters of the
+model through synaptic plasticity. In the following, we will focus on
+the speciﬁc mechanisms that the glucocorticoids use to optimize
+long-term synaptic efﬁcacy.
+Glucocorticoids act, among other things, on synapses that are
+located in the apical tuft of pyramidal cells. A layer-1-input axon
+excites either the dendrites of apical tuft or inhibits them using
+axonal collaterals with an interposed GABA interneuron (Figs. 8 A
+and 9 A ) (Jiang et al., 2013). Glucocorticoids control the
+maintenance of LTP or LTD at these glutamatergic and GABAergic
+synapses. The excitatory and inhibitory inputs arriving at the apical
+tuft play an important role in regulating the postsynaptic gain of
+the pyramidal neurons. Thus, glucocorticoids are in an ideal
+position to modulate the synaptic gain of pyramidal neurons in the
+long term.
+By controlling the postsynaptic gain of pyramidal neurons, the
+glucocorticoids may play a key role in learning the ‘precision of
+prediction errors’ (encoded by L2 neurons) and the ‘generative
+model’ (encoded by L5 neurons) (Figs. 8 A and 9 A). Dendritic gain
+modulation at the apical tuft has been shown to increase the gain
+of layer-5-pyramidal neurons (Larkum et al., 2004, 1999). The
+combination of input to basal dendrites or soma with distal input
+into the apical tuft increases the slope of the input-output function
+of the neuron. This increase in gain is due to the fact that the back-
+propagating Na+ action potentials interact with the weak distal
+synaptic input; such an interaction generates forward propagated
+Ca++ action potentials that in turn elicit a burst of multiple action
+potentials originating from the axonal spike initiation zone
+(Larkum, 2013; Larkum et al., 2004). Excitatory input to the apical
+tuft increases the postsynaptic gain of the pyramidal neuron, while
+inhibitory input to the apical tuft reduces it (Figs. 8 B and 9 B).
+Whether LTP or LTD occurs at a synapse depends on two factors:
+ﬁrst, correlated activity between the pre- and postsynaptic neuron
+and the glucocorticoid concentrations. LTP is consolidated if there
+is highly correlated activity between the pre- and postsynaptic
+neuron and the glucocorticoid concentrations remain in the low
+(normal) range (Maggio and Segal, 2007, 2009). In all other cases,
+LTP is attenuated or even LTD occurs (Maggio and Segal, 2007,
+2009).
+The consolidation of a generative model through LTP or LTD
+occurring at the apical tuft of pyramidal neurons is selectively enabled
+when the world is learnable; i.e. when expected surprise, uncertainty
+and glucocorticoid levels are low. In what follows, we consider this
+learning in more detail.
+3.2.4. Glucocorticoids gate learning of prediction-error precision
+Why would the brain learn the precision of prediction errors? It
+is often difﬁcult to decide whether one should rely on sensory
+input or prior expectations. At dusk, for example, it is better to rely
+on prior expectations than on sensory input (the latter provides
+imprecise information due to the low levels of illumination).
+However, in bright daylight, it may be better to trust reliable and
+precise sensory input than prior expectations. Thus, the precision
+of prediction errors encoded at lower and higher levels of the
+cortical hierarchy allow the optimal weighting of the bottom-up
+and top-down information ﬂow. Depending on what is more
+precise, either the sensory input or the prior expectation is
+afforded greater weight. The key point here is that precision can be
+learned on the basis of past experiences that enable the brain to
+predict when sensory input will be precise or imprecise.
+As mentioned above, NE increases the probability of presynap-
+tic neurotransmitter release at basal dendrites, making the L2
+neuron more sensitive to non-correlated presynaptic inputs. In this
+way, NE effectively increases the precision of the reported
+prediction error, which manifests itself as increased attention. In
+contrast, glucocorticoids alter the efﬁcacy of synapses located on
+the apical tuft of pyramidal neurons, resulting in long-term
+changes in the way that prediction error is evaluated – and the way
+that it is weighted according its precision. LTP at glutamatergic
+synapses of layer-1 inputs increases the precision of the prediction
+error (Fig. 8B). LTP at GABAergic synapses of layer-1 inputs
+decreases the prediction-error precision. However, if LTD is
+involved in glutamatergic or GABAergic synapses on the apical
+tuft, such a long-term depression returns the input-output
+function to a default mode with a ‘neutral default slope’
+(Fig. 8B). Therefore, high glucocorticoid concentrations may lead
+to ‘unlearning’ of the precision of prediction errors, while low
+concentrations of glucocorticoids may facilitate the learning of
+precision weighting (Liston et al., 2013; Liston and Gan, 2011). This
+may sound complicated; however, the brain has to (i) optimize the
+precision of ascending prediction errors (e.g., through creating NE
+hotspots), it has to (ii) learn the right predictions (e.g., through
+synaptic plasticity that is selectively consolidated during low
+(normal) levels of glucocorticoid) and, ﬁnally, it has to (iii) learn
+how to optimize the precision of prediction errors (e.g., through
+the interaction between NE and glucocorticoid levels described
+above).
+In conclusion, glucocorticoids govern how the brain learns the
+precision of prediction errors. Such a learning process allows us to
+discriminate between trustworthy and imprecise sources of informa-
+tion.
+3.2.5. Glucocorticoids gate learning of the generative model
+We can also optimize and learn the way we translate an
+expectation into a prediction. As noted above an empirical prior is
+encoded by an expectation (i.e., the ﬁring rates in layer-3-pyramidal
+cells), and the likelihood by a prediction (represented in layer-5-
+pyramidal cells). The L3-‘empirical prior’ neuron provides the
+input to the L5-‘likelihood’ neuron, which in turn responds with
+A. Peters et al. / Progress in Neurobiology xxx (2017) xxx–xxx 
+17
+G Model
+PRONEU 1500 No. of Pages 25
+Please cite this article in press as: A. Peters, et al., Uncertainty and stress: Why it causes diseases and how it is mastered by the brain, Prog.
+Neurobiol. (2017), http://dx.doi.org/10.1016/j.pneurobio.2017.05.004
+
+PAGE 18
+the prediction. It has been shown experimentally that three input
+paths can inﬂuence the output of the pyramidal cell: driving input,
+excitatory modulation input and inhibitory modulation input
+(Mehaffey et al., 2005; Silver, 2010). The driving input targets the
+basal dendrites or the soma of the pyramidal cell. The excitatory
+modulation input targets the apical tuft of the pyramidal cells that
+is located in layer 1. The inhibitory modulation input – which
+consists of an interposed GABAergic elongated neuroglia form cell
+(Jiang et al., 2013) – also targets the apical tuft. These modulation
+input pathways allow modifying the slope of the input-output
+function or postsynaptic gain of the pyramidal cell (Mehaffey et al.,
+2005; Silver, 2010).
+Here, we apply this triple input concept to the connections
+between L3 empirical prior neurons and L5 prediction neurons
+(Fig. 9) (Jiang et al., 2013; Thomson and Lamy, 2007). The excitatory
+and inhibitory modulation paths increase or decrease the slope of
+the L5-input-output function. Low (normal) glucocorticoid con-
+centrations facilitate LTP at glutamatergic and GABAergic synapses
+on the apical tuft, thereby ﬁxing an increased or decreased slope of
+the input-output function (Fig. 9B). An increase in the slope means
+that a given expectation (encoded by the L3-driving input) results
+in a larger value of the prediction (encoded by the L5-output rate).
+Thus, 
+the 
+functional 
+relationship 
+between 
+expectation 
+and
+prediction can be learned. In contrast, LTD, which occurs at high
+glucocorticoid concentrations, resets the slope of the input-output
+function to a default mode. Such a long-term depression may
+correspond to an ‘unlearning’ of the functional relationship
+between expectation and prediction (Bennett et al., 1964).
+In summary, glucocorticoids also govern expectations generating
+predictions. A beneﬁcial effect of glucocorticoids is that they enable us
+to learn how to make optimal predictions in a particular situation.
+3.2.6. Structural plasticity at the apical tuft
+In pyramid cells, the glucocorticoids also inﬂuence how the
+structure of the dendritic tree is shaped. Brain circuitry can be
+remodeled by experience (Bennett et al., 1964), and stressful
+experiences have functionally relevant effects on synapse number,
+dendritic spine formation, and dendritic arbor shaping in many
+brain regions, including the hippocampus, amygdala, and the PFC
+(Liston et al., 2013; McEwen and Gianaros, 2011). Plasticity and
+remodeling are processes that consume a considerable amount of
+energy (Placais and Preat, 2013).
+In dendritic spine remodeling, learning leads to the induction of
+spine formation, and successively, a portion of novel spines is
+stabilized and a portion of existing spines is pruned (Hubener and
+Bonhoeffer, 2010; Yang et al., 2009). Spine stabilization shows a
+bell-shaped dependency on glucocorticoids. High glucocorticoid
+concentrations have been shown to favor postsynaptic dendritic
+spine formation (GRs exert trophic effects via TrkB signaling)
+(Ikeda et al., 2015; Jeanneteau et al., 2008), whereas low
+glucocorticoid concentrations are required for the stabilization
+of freshly formed spines, the latter process being essential for
+memory consolidation (Liston et al., 2013).
+Dendritic arbor shaping also depends on stress exposure. In the
+PFC of young animals, chronic stress leads to shrinkage of the distal
+apical dendrites; after cessation of chronic stress, dendritic trees
+regrow (McEwen and Morrison, 2013). When animals recovered
+from stress, distal dendrites were not fully rebuilt, but proximal
+dendrites showed hyperextension and spine growth, and deﬁcits in
+synaptic plasticity were complete restored (Goldwater et al.,
+2009). Such recovery after stress cessation is blunted by middle age
+and disappears in aged animals (McEwen and Morrison, 2013).
+Long-term glucocorticoid treatment mimics the effects of chronic
+stress; it leads to retraction of apical dendrites in the PFC
+(Cerqueira et al., 2005). If uncertainty and stress persist, diverse
+processes 
+like 
+LTD, 
+suspended 
+spine 
+stabilization, 
+and 
+the
+shrinkage of the apical dendrites prevent dendritic gain modula-
+tion (Liston and Gan, 2011; McEwen and Gianaros, 2011). In this
+way, the speciﬁcation of both the generative model and the
+precision of prediction errors are suspended. Thus, chronic stress
+results in functional and structural alterations, which can be
+regarded as the deconstruction of the ‘internal representation of
+the world’ – that was no longer appropriate. Such a deconstruction
+seems to be a prerequisite for rebuilding a new model of a world
+that is more ﬁt for purpose.
+In summary, both functional and structural plasticity of pyramidal
+neurons show a bell-shaped dependency on glucocorticoids. Thus, the
+high concentrations of glucocorticoids during stress and uncertainty
+allow the synaptic efﬁcacy of apical tuft inputs to change over time.
+Moreover, stress and uncertainty lead to the shrinkage of the distal
+apical dendrites. In this way, both the generative model and the
+synaptic mechanisms of precision or gain control are disassembled.
+When stress is resolved and the situation is eased, the glucocorticoid
+concentrations fall: Then the (synaptic efﬁcacy) parameters that learn
+the precision of prediction errors and the generative model are
+consolidated – enabling the learning of an internal model when, and
+only when, they are capable of resolving uncertainty and stress.
+3.3. Habituation – updating of goal states
+3.3.1. Habituation
+The third process for coping with uncertainty is stress
+habituation. How individuals react during stressful episodes
+may change during the life course. When exposed to threatening
+changes in the external environment or the body milieu, people
+show two distinct genetically predisposed response patterns
+(Kirschbaum et al., 1995). Non-habituators maintain their high
+stress responses when the stressful episodes recur. In contrast,
+habituators show attenuation of their autonomic and endocrine
+responses over time. Stress habituation can be viewed as a special
+form of learning, in which not only the glucocorticoids, but also the
+endocannabinoids play a central role (Hill et al., 2010; Patel and
+Hillard, 
+2008). 
+Crucially, 
+habituation 
+enables 
+us 
+to 
+better
+discriminate between conditions that should be avoided and
+conditions that could be tolerated. Habituation not only occurs in
+the stress system but also in many other biological processes at the
+cellular and systemic level. With respect to habituation, the
+question arises whether the typical repetition-induced attenuation
+is caused by inhibitory mechanisms or by more sophisticated
+(central) processes like ‘predictive coding’. In fact, there is
+experimental evidence supporting the view that habituation has
+all 
+the 
+hallmarks 
+of 
+predictive 
+coding 
+(Ramaswami, 
+2014;
+Wacongne et al., 2012).
+3.3.2. Habituators can tolerate stress
+Problems occur, if we cannot appropriately update of our beliefs
+about current states and attainable states of the world. As a ﬁnal
+resort, we can alleviate uncertainty by updating the beliefs about
+our goal states. This option can be regarded as a last option, because
+it entails revising our primary preferences or goals (that are usually
+held with high conﬁdence or precision).
+If habituators revise their prior preferences by broadening the
+probability distribution over goal states (i.e., attenuating their
+precision), KL divergences will decrease. As the goal state
+probability distribution is broadened, beliefs about the attainable
+states and the goal states start to overlap more. As can be seen from
+Fig. 10, a less precise prior preference enables a greater overlap
+between the beliefs about ‘attainable states’ and ‘goal states’
+(compare Fig. 10A and B). Thus, habituation reduces the relative
+risk (KL divergence) of one or more strategies (Fig. 10C). These
+changes in relative risk also ensure that one or more strategy can
+secure future wellbeing; thereby reducing uncertainty about
+18 
+A. Peters et al. / Progress in Neurobiology xxx (2017) xxx–xxx
+G Model
+PRONEU 1500 No. of Pages 25
+Please cite this article in press as: A. Peters, et al., Uncertainty and stress: Why it causes diseases and how it is mastered by the brain, Prog.
+Neurobiol. (2017), http://dx.doi.org/10.1016/j.pneurobio.2017.05.004
+
+PAGE 19
+future outcomes (Fig. 10D). Through these adaptive changes in the
+probability distribution over strategies, the habituated individual
+becomes more conﬁdent about which strategy to select (Fig. 11).
+Because a broadening of the beliefs about goal states reduces
+uncertainty 
+in many situations, habituators exhibit 
+smaller
+glucocorticoid and cardiovascular responses than non-habituators.
+Accordingly, the glucocorticoid and cardiovascular responses are
+lower in habituators as compared to non-habituators (Fig.11; three
+asterisk) (Kirschbaum et al., 1995). In parallel, stress habituation
+improves the levels of self-esteem and locus of control; i.e. the self-
+concept of own competence (Pruessner et al., 2005, 1999). In the
+context of habituators there is another tangible long-term beneﬁt;
+namely, escape from the tyranny of allostatic load.
+In short, allostatic load can be averted – at a subpersonal level – by
+reducing the precision of one's prior preferences; heuristically,
+adopting more realistic expectations about what can be achieved.
+4. Allostatic load
+4.1. The plasticity and vulnerability of the brain
+Uncertainty about our responses to situations can be resolved
+by updating our beliefs about current states, attainable states, and
+goal states. A major problem arises if Bayesian belief updating fails
+to resolve uncertainty, leading to surprising or aversive outcomes.
+A successful update would require a reorganization of the brain
+architecture and neuronal circuits that includes synaptic plasticity
+(LTP) and structural plasticity (spine remodeling; rebuilding of the
+dendritic trees) (McEwen et al., 2016). However, when updates
+cannot avoid surprise, learning processes on different levels are
+suspended. Evidence accumulated that learning is suspended
+when glucocorticoids are persistently secreted during chronic
+stress (Bangasser and Shors, 2007; De Quervain et al., 1998; Lupien
+et al., 1998). With high glucocorticoid concentrations, postsynaptic
+dendritic spines are lost and dendritic branches shrink in various
+parts of the cortex and the hippocampus (Dias-Ferreira et al., 2009;
+Liston and Gan, 2011; Liston et al., 2006; Radley et al., 2006;
+Watanabe et al., 1992; Wellman, 2001). Fluctuating concentrations
+of glucocorticoids support a ﬁne-tuned interplay between spine
+formation, pruning and maintenance, whereas states of prolonged
+glucocorticoid exposure interrupt this interplay (Liston et al.,
+2013).
+Thus, inappropriate updates of our internal model lead to high
+glucocorticoid concentrations, and high glucocorticoid concen-
+trations in turn prevent the conservation of such inappropriate
+updates. Likewise, inappropriate updates can lead to disturbed
+sleep or bad dreams (Antonijevic, 2008; Rodenbeck and Hajak,
+2001). While sleep normally serves to optimize and conserve our
+generative models (Hobson and Friston, 2012), poor sleep is likely
+to preclude the revision of inappropriate models (Wagner and
+Born, 2008). Similarly, if someone is on therapeutic or recreational
+drugs that interfere with the cerebral mechanisms for mastering
+Fig. 10. Habituation as ‘updating of goal states’. Panel A. In non-habituators the
+goal states are ﬁxed and remain unchanged. Panel B. In habituators the precision of
+goal states is relaxed. Even though, for a given strategy, the habituators’ beliefs
+about attainable states and the beliefs about goal states do not completely overlap,
+they still exhibit more overlap than non-habituators. Panel C. The KL divergences for
+each strategy are is smaller in habituators than in non-habituators. Thus,
+habituation decreases the risk. Panel D. Because a broadening of the beliefs about
+‘goal states’ reduces KL divergences, it changes the probability of each strategy that
+it may secure wellbeing. These changes in the probability distribution over
+strategies mean that habituators become more conﬁdent about what strategy to
+select. This explains why habituators exhibit smaller glucocorticoid responses than
+non-habituators.
+Fig. 11. Stress habituation. We deﬁne habituators as those who show repetition-
+induced-response attenuation (neuroenergetic, neuroendocrine, emotional and
+cardiovascular), when being chronically exposed to an inhospitable environment.
+When habituators are repeatedly exposed to the same homotypic stressor, they can
+reduce their uncertainty about which strategy they should select by redeﬁning their
+goal states (***).
+A. Peters et al. / Progress in Neurobiology xxx (2017) xxx–xxx 
+19
+G Model
+PRONEU 1500 No. of Pages 25
+Please cite this article in press as: A. Peters, et al., Uncertainty and stress: Why it causes diseases and how it is mastered by the brain, Prog.
+Neurobiol. (2017), http://dx.doi.org/10.1016/j.pneurobio.2017.05.004
+
+PAGE 20
+uncertainty, a temporary well-being may be achieved by relieving
+the allostatic network, but a successful Bayesian updating of his/
+her internal model is suspended.
+As mentioned above, high glucocorticoid concentrations create
+a ‘phase of change’ revising the current model of the world
+(including its strategies). If no appropriate update can be found, the
+ACC continues to report high uncertainty (or entropy) about which
+strategy to select. We suggest that the ACC-amygdala complex then
+sustains a hypervigilant state and hyperactivity of the allostatic
+network; in particular, the key components SNS and the HPA axis –
+the latter maintaining high glucocorticoid concentrations. The
+recurrent or persistent activation of the allostatic network then
+leads to damaging adverse effects that lead to systemic and brain
+pathology. This is allostatic load (McEwen and Stellar, 1993).
+The healthy brain is resilient in the face of stressors and
+epigenetic cellular and molecular mechanisms produce continu-
+ous changes in gene expression. Thus, one cannot ‘roll back the
+clock’ after stress is over, so that we must speak of ‘resilience’ and
+‘recovery’ rather than ‘reversal’ even though the alterations in
+neuronal structure and function may appear to have been
+‘reversed’; yet they are not the same as before (McEwen et al.,
+2015a,b; McEwen and Morrison, 2013). Acute and chronic stress
+interferes with cognition, decision making, anxiety and mood, and
+in so doing affects systemic physiology through neuroendocrine,
+autonomic, immune and metabolic mediators and multi-morbidi-
+ty of disorders frequently occurs (McEwen, 2007; McEwen et al.,
+2015b; Rasgon and McEwen, 2016). In the short run, increased
+vigilance or anxiety in a hostile environment may be adaptive;
+however, when the danger passes and the behavioral state and the
+changes in neural circuitry become chronic, which get ‘stuck’, such
+maladaptation may require an external intervention to get it
+‘unstuck’, as is the case for chronic anxiety or depressive disorders
+(McEwen, 2007; McEwen et al., 2015b).
+Structural and functional allostatic plasticity is particularly
+evident in the hippocampus, a key structure for episodic and
+spatial memory and mood regulation (McEwen, 2007; McEwen
+et al., 2015a). The hippocampus was the ﬁrst brain structure
+outside of the hypothalamus found to possess stress and sex
+hormone receptors and it provided a gateway into the hormone
+sensitivity of the rest of the brain (McEwen et al., 2015b).
+The amygdala involved in fear, anxiety and aggression and the
+prefrontal cortex, important for working memory and executive
+function, both show functional and structural allostatic plasticity.
+In the amygdala, overlapping waves of excessively high concen-
+trations of glucocorticoids and norepinephrine cause an extended
+window of excitability (Karst and Joels, 2016). Such a prolonged
+window of excitability is thought to contribute to the development
+of pathological conditions; e.g., posttraumatic stress disorder
+(Karst and Joels, 2016). Basolateral amygdala neurons expand
+dendrites from chronic stress (Chattarji et al., 2015) while, as noted
+earlier, medial PFC neurons, as well as hippocampal neurons, show
+dendritic shrinkage from the same stress (McEwen and Morrison,
+2013).
+4.2. Non-habituators are fully exposed to toxic stress
+Because of continued uncertainty, the brain is constantly
+demanding for extra energy. Such an energy crisis with lack of
+habituation leads to allostatic load contributing to systemic and
+brain pathology. This energy crisis has two consequences: ﬁrst,
+SNS/HPA-axis hyperactivity and second, metabolic alterations and
+stress-related health damaging behaviors (tobacco smoking,
+drinking alcohol, sleep deprivation). SNS/HPA-axis hyperactivity
+increases the risk of arterial blood ﬂow turbulences, leading to
+atherosclerosis, thereby causing systemic and brain pathology
+(Peters and McEwen, 2015). Metabolic alterations and poor health
+behaviors lead to inefﬁcient mitochondrial metabolism, resulting
+in reactive oxygen species (ROS) and inﬂammation and worsen
+systemic 
+and 
+brain 
+pathology 
+(Picard 
+et 
+al., 
+2014). 
+These
+pathologies include memory impairment, depression, myocardial
+infarction, stroke, visceral fat accumulation, type 2 diabetes,
+muscle loss, osteoporosis, disturbed growth and reproduction
+(McEwen, 1998).
+On the one hand, a long-lasting energy crisis of the brain
+damages the vascular system. To safeguard its high-energy
+demand, the brain (via the amygdalae) sends a sympathetic
+message to the heart, thereby increasing heart rate, and in so doing
+increases cardiac output in order to procure extra energy for itself.
+As stress-induced tachycardia increases ﬂow velocity in the arterial
+vascular system, high ﬂow speed in turn increases the risk of
+arterial turbulences (Falsetti et al., 1983) – particularly at
+branching sites of the blood vessel system (Malek et al., 1999).
+‘Adaptive vascular remodeling’ describes processes in the vascula-
+ture that ameliorate such turbulences (Chatzizisis et al., 2007).
+However, if the capacity of ‘adaptive vascular remodeling’ is
+overwhelmed, turbulences are likely to persist. In this case, there is
+an increased risk that turbulences occur at predilection sites,
+thereby leading to atherosclerosis (Stone et al., 2012). Atheroscle-
+rosis in turn often causes myocardial infarction or stroke  and
+thus leads to an increased cardiovascular mortality. Just recently, a
+team of cardiologists, psychiatrists and psychologists showed that
+resting amygdala activity independently and robustly predicted
+cardiovascular disease events (Tawakol et al., 2017).
+On the other hand, a long-lasting energy crisis of the brain may
+damage the mitochondria, and in this way toxic products may
+accumulate, which can lead to systemic inﬂammation and
+accelerated cellular ageing (Du et al., 2009; Picard et al., 2014).
+Mitochondrial allostatic load can be brought about by elevated
+glucocorticoid levels, even though low (i.e., normal) levels cause
+translocation of glucocorticoid receptors into mitochondria to
+promote Ca++ sequestration and maintain low levels of free
+radicals (Du et al., 2009).
+4.3. Comparison of mortality among habituators and non-habituators
+Randomized controlled trials have shown that psychosocial
+stress is a factor that causes cardiovascular mortality, and that
+decreasing allostatic load through stress-relief programs reduces
+cortisol responses and cardiovascular mortality (Gaab et al., 2003;
+Gulliksson et al., 2011; Hammerfald et al., 2006; Orth-Gomer et al.,
+2009; Storch et al., 2007). The special feature of these stress-relief
+programs is that participants can learn, among other things, to
+update their outdated models of the world in a cognitive manner,
+while the Bayesian Brain often updates its beliefs at a subpersonal
+level. There are also observational studies supporting the notion
+that people who respond strongly to stressful challenges display a
+high risk of atherosclerosis and cardiovascular mortality (Carroll
+et al., 2012; Everson et al., 1997; Hamer et al., 2010; Lynch et al.,
+1998; Seldenrijk et al., 2012). Conversely, people who respond
+weakly to stressful challenges exhibit a lower cardiovascular
+mortality, even if they stay in an inhospitable environment. In this
+way, habituators can alleviate their allostatic load when repeatedly
+exposed to the same stressor. As a consequence of an alleviated
+allostatic load, habituators can tolerate an inhospitable environ-
+ment and are sheltered against cerebro- and cardiovascular events
+(Carroll et al., 2012; Everson et al., 1997; Hamer et al., 2010; Lynch
+et al., 1998; Seldenrijk et al., 2012). Such a tolerance leads to side
+effects on the systemic energy metabolism of the individual, which
+we will report elsewhere. Non-habituators, however, are fully
+exposed to toxic stress and thus are at increased risk of
+cardiovascular death.
+20 
+A. Peters et al. / Progress in Neurobiology xxx (2017) xxx–xxx
+G Model
+PRONEU 1500 No. of Pages 25
+Please cite this article in press as: A. Peters, et al., Uncertainty and stress: Why it causes diseases and how it is mastered by the brain, Prog.
+Neurobiol. (2017), http://dx.doi.org/10.1016/j.pneurobio.2017.05.004
+
+PAGE 21
+In summary, habituators can update their ‘goal states’; as a
+consequence, they show attenuated responses when recurrently
+challenged, and in this way – although they continue to live in the
+inhospitable environment – they show a barely limited life expectancy.
+In contrast, non-habituators display a drastically shortened life
+expectancy; but they are the individuals who would beneﬁt most from
+stress-relief programs that include cognitive restructuring, social skills
+development, and mindfulness (Gulliksson et al., 2011; Orth-Gomer
+et al., 2009).
+5. Updating the ‘stress deﬁnition’
+As suggested in the current paper, stress occurs, if we are
+surprised by our sensations and we are uncertain about what to do
+to safeguard our physical, mental or social wellbeing. Surprises can
+be manifold and can concern our internal body milieu (lack of
+energy, lack of oxygen, loss of blood, infection, toxins, trauma,
+myocardial infarction, etc.) or our external environment (social
+conﬂicts, overload/underload, disordered neighborhood, mobbing,
+discrimination, social defeat, etc.). Activation of the SNS or the HPA
+axis is typical in all these situations, but is not considered here to
+be a sufﬁcient criterion for ‘stress’.
+Two examples illustrate the principle how we react upon
+changes in the internal and external environment: fasting and
+marital dispute. Fasting – as referred to as the metabolic state
+achieved after complete digestion and absorption of a meal – goes
+along with the activation of the SNS and HPA-axis. Such SNS- and
+HPA-axis activations serve to adequately supply the brain with
+energy (glucose, ketones, or lactate) (Kubera et al., 2012a, 2014).
+Since the brain-energy concentrations are tightly regulated
+(Oltmanns et al., 2008), such increases in SNS and HPA-axis
+activity are common in everyday life (Peters and Langemann,
+2009). The Selﬁsh Brain procures itself with energy (Peters et al.,
+2007b). After a few hours of fasting, we feel hunger and perceive
+SNS-induced interoceptive signals like nervousness, weakness,
+tremor, tachycardia, dizziness, and sweating. The (Selﬁsh) Bayesian
+Brain uses perceptual inference to infer the cause (lack of
+thermodynamic energy) from the effect (the interoceptive signals).
+Then it uses active inference (food seeking behavior) to minimize
+variational free energy; i.e., to eliminate the prediction errors
+(hunger, autonomic symptoms). If we are certain that food would
+be available soon, the appropriate action is selected and ‘no stress’
+occurs. However, if we are uncertain about whether we might get
+food at all, stress occurs – as is the case in ‘food insecurity’
+(Bhattacharya et al., 2004). In such a case, uncertainty (entropy)
+monitored by the ACC stimulates the amygdala, and in so doing
+increases LC, SNS and HPA-axis activity; in this way, stress
+facilitates the search for a novel strategy (Figs. 2 and 3).
+In a marital dispute, surprising external sensations may
+immediately evoke a state of uncertainty, in which one does not
+know how to resolve the situation. This is also ‘stress’. The
+uncertainty monitored by the ACC stimulates the amygdala, and
+consequently the LC, SNS and HPA-axis; also in this case, stress
+facilitates a shift in strategy (Figs. 2 and 3). The Selﬁsh Bayesian
+Brain procures itself with extra thermodynamic energy (enhanced
+glucose allocation to the brain) in order to minimize variational
+free energy (prediction errors) by searching for a novel strategy.
+In light of the foregoing, we deﬁne ‘stress’ as the individual state of
+uncertainty about what needs to be done to safeguard physical,
+mental or social well-being.
+6. Conclusions
+We have introduced an information-theoretic account of stress
+and allostatic load based upon recent developments in theoretical
+neurobiology. In particular, we have established the link between
+the Bayesian Brain and the Selﬁsh Brain in terms of minimizing
+variational 
+and 
+metabolic 
+free 
+energy 
+respectively. 
+When
+unpacked, the theoretical considerations provide a remarkable
+level of explanatory detail; particularly in relation to the role of
+norepinephrine in nuancing perceptual inference (and action)
+through its effects on presynaptic gain control – and implicit
+effects on the ability of sensory evidence to revise beliefs about
+hidden causes in the world or the body. Having established the
+close relationship between the roles of synaptic activity and
+efﬁcacy (i.e., precision) in optimizing perceptual inference in
+situations of uncertainty, we then went on to look at the permissive
+role of glucocorticoids in learning. This analysis suggests that there
+is an optimum glucocorticoid level that enables the consolidation
+of activity-dependent plasticity (where the ‘bell-shaped’ glucocor-
+ticoid-dependency curve has its peak) (Joels, 2006) that mediates
+experience-dependent learning – when and only when, our
+generative models are sufﬁcient to resolve uncertainty, stress
+and elevated glucocorticoid levels.
+Finally, we considered long-term processes that could minimize
+variational free energy and stress by looking at the ultimate cause;
+namely, the discrepancy between states that we can attain by
+acting on the world and the states we a priori expect to occupy (i.e.,
+interoceptive, proprioceptive, emotional and prosocial goals). Our
+key observation is that exposure to chronic stress – and the
+allostatic load that this entails – can be remediated by revising our
+highest-level prior beliefs; namely, prior expectations about the
+states 
+we 
+aspire 
+to. 
+This 
+provides 
+a 
+nice 
+metaphor 
+that
+distinguishes between habituators and non-habituators in re-
+sponse to chronic stress.
+Functional and structural remodeling of the neural architecture
+often makes it possible to avoid or master states of uncertainty,
+anxiety, and hypervigilance. ‘Good Stress’ denotes an episode of
+uncertainty in which the beneﬁcial effects of stress responses
+support a successful Bayesian updating and learning of the internal
+model of the world. As a result, uncertainty is resolved. ‘Tolerable
+stress’ characterizes a situation in which habituation leads to a
+partial reduction in uncertainty; this reduction is achieved by the
+adjustment of the primary goals. In this case, the damaging effects
+Box 5. Open Questions
+There are still gaps in our knowledge of the neurobiological underpinnings of the Bayesian Brain concept. Future research may
+address the following open questions:
+ What is the functional role of fast-acting membrane MR and GR in the Bayesian Brain concept?
+ How does the Bayesian Brain control the encoding and retrieval of emotional memories?
+ What happens in the Bayesian Brain when posttraumatic stress disorder develops?
+ How do alterations/adaptations of the Bayesian Brain affect systemic energy metabolism, i.e. promote the development of
+anorexia or obesity?
+A. Peters et al. / Progress in Neurobiology xxx (2017) xxx–xxx 
+21
+G Model
+PRONEU 1500 No. of Pages 25
+Please cite this article in press as: A. Peters, et al., Uncertainty and stress: Why it causes diseases and how it is mastered by the brain, Prog.
+Neurobiol. (2017), http://dx.doi.org/10.1016/j.pneurobio.2017.05.004
+
+PAGE 22
+of persistent stress reactions can be kept at bay. Of note, individuals
+cannot always resolve uncertainty by reconstructing their internal
+model of the world. The inhospitable environment may also limit
+such a resolution, e.g. when the individuals live in poverty, in war-
+afﬂicted areas, are long-term unemployed or victims of discrimi-
+nation (Kubera et al., 2016; Ludwig et al., 2012; Puhl and Heuer,
+2009). If the resolution of uncertainty is achieved too late or is not
+possible at all, the adverse effects of the futile and brain-energy-
+consuming efforts for the resolution come to the fore, and the
+ongoing brain-energy crisis leads to allostatic load that contributes
+to systemic and brain pathology. ‘Toxic stress’ refers to such a
+chronic condition in which the damaging effects of the stress
+responses prevail and the uncertainty can neither be resolved by a
+successful Bayesian update nor reduced by habituation. If, in such a
+situation, the brain ‘gets stuck’ and does not recover, external
+intervention is required.
+The potential utility of formulating stress and allostatic load in
+terms of a Selﬁsh Bayesian Brain is that one might use the
+principles afforded by theoretical neurobiology to organize
+existing and future empirical results (Box 5; ‘Open questions’).
+Furthermore, the interrelationships brain function and physiology
+are laid bare in the sense that everything appears to be the game of
+reducing uncertainty, variational free energy, surprise, or more
+simply stress. Conceptual principles of this sort may be useful, not
+just from a scientiﬁc perspective, but as organizing frameworks for
+cognitive behavioral therapy in stress disorders.
+References
+Adams, R.A., Shipp, S., Friston, K.J., 2013. Predictions not commands: active
+inference in the motor system. Brain Struct. Funct. 218, 611–643.
+Ahren, B., 2000. Autonomic regulation of islet hormone secretion-implications for
+health and disease. Diabetologia 43, 393–410.
+Akana, S.F., Jacobson, L., Cascio, C.S., Shinsako, J., Dallman, M.F., 1988. Constant
+corticosterone replacement normalizes basal adrenocorticotropin (ACTH) but
+permits sustained ACTH hypersecretion after stress in adrenalectomized rats.
+Endocrinology 122, 1337–1342.
+Antonijevic, I., 2008. HPA axis and sleep: identifying subtypes of major depression.
+Stress 11, 15–27.
+Arriza, J.L., Simerly, R.B., Swanson, L.W., Evans, R.M., 1988. The neuronal
+mineralocorticoid receptor as a mediator of glucocorticoid response. Neuron 1,
+887–900.
+Aston-Jones, G., Cohen, J.D., 2005. An integrative theory of locus coeruleus-
+norepinephrine function: adaptive gain and optimal performance. Annu. Rev.
+Neurosci. 28, 403–450.
+Bangasser, D.A., Shors, T.J., 2007. The hippocampus is necessary for enhancements
+and impairments of learning following stress. Nat. Neurosci. 10, 1401–1403.
+Barrett, L.F., Simmons, W.K., 2015. Interoceptive predictions in the brain. Nat. Rev.
+Neurosci. 16, 419–429.
+Barrett, L.F., 2017. The theory of constructed emotion: an active inference account of
+interoception and categorization. Soc. Cogn. Affect. Neurosci. 12, 1–23.
+Barron, H.C., Garvert, M.M., Behrens, T.E., 2015. Reassessing VMPFC: full of
+conﬁdence? Nat. Neurosci. 18, 1064–1066.
+Bastos, A.M., Usrey, W.M., Adams, R.A., Mangun, G.R., Fries, P., Friston, K.J., 2012.
+Canonical microcircuits for predictive coding. Neuron 76, 695–711.
+Bechara, A., Tranel, D., Damasio, H., 2000. Characterization of the decision-making
+deﬁcit of patients with ventromedial prefrontal cortex lesions. Brain 123 (Pt 11),
+2189–2202.
+Behrens, T.E., Woolrich, M.W., Walton, M.E., Rushworth, M.F., 2007. Learning the
+value of information in an uncertain world. Nat. Neurosci. 10, 1214–1221.
+Bennett, E.L., Diamond, M.C., Krech, D., Rosenzweig, M.R., 1964. Chemical and
+anatomical plasticity brain. Science 146, 610–619.
+Berridge, C.W., Waterhouse, B.D., 2003. The locus coeruleus-noradrenergic system:
+modulation of behavioral state and state-dependent cognitive processes. Brain
+Res. Brain Res. Rev. 42, 33–84.
+Berut, A., Arakelyan, A., Petrosyan, A., Ciliberto, S., Dillenschneider, R., Lutz, E., 2012.
+Experimental veriﬁcation of Landauer's principle linking information and
+thermodynamics. Nature 483, 187–189.
+Bhattacharya, J., Currie, J., Haider, S., 2004. Poverty, food insecurity, and nutritional
+outcomes in children and adults. J. Health Econ. 23, 839–862.
+Brillouin, L., 1953. The negentropy principle of information. J. Appl. Phys. 24, 1152–
+1163.
+Brown, H.R., Friston, K.J., 2012. Dynamic causal modelling of precision and synaptic
+gain in visual perception—an EEG study. Neuroimage 63, 223–231.
+Carroll, D., Ginty, A.T., Der, G., Hunt, K., Benzeval, M., Phillips, A.C., 2012. Increased
+blood pressure reactions to acute mental stress are associated with 16-year
+cardiovascular disease mortality. Psychophysiology 49, 1444–1448.
+Cerqueira, J.J., Pego, J.M., Taipa, R., Bessa, J.M., Almeida, O.F., Sousa, N., 2005.
+Morphological correlates of corticosteroid-induced changes in prefrontal
+cortex-dependent behaviors. J. Neurosci. 25, 7792–7800.
+Chan, O., Lawson, M., Zhu, W., Beverly, J.L., Sherwin, R.S., 2007. ATP-sensitive K(+)
+channels regulate the release of GABA in the ventromedial hypothalamus
+during hypoglycemia. Diabetes 56, 1120–1126.
+Chanes, L., Barrett, L.F., 2016. Redeﬁning the role of limbic areas in cortical
+processing. Trends Cogn. Sci. 20, 96–106.
+Chattarji, S., Tomar, A., Suvrathan, A., Ghosh, S., Rahman, M.M., 2015. Neighborhood
+matters: divergent patterns of stress-induced plasticity across the brain. Nat.
+Neurosci. 18, 1364–1375.
+Chatzizisis, Y.S., Coskun, A.U., Jonas, M., Edelman, E.R., Feldman, C.L., Stone, P.H.,
+2007. Role of endothelial shear stress in the natural history of coronary
+atherosclerosis and vascular remodeling: molecular cellular, and vascular
+behavior. J. Am. Coll. Cardiol. 49, 2379–2393.
+Chennu, S., Noreika, V., Gueorguiev, D., Blenkmann, A., Kochen, S., Ibanez, A., Owen,
+A.M., Bekinschtein, T.A., 2013. Expectation and attention in hierarchical
+auditory prediction. J. Neurosci. 33, 11194–11205.
+Chiu, K.M., Lin, T.Y., Lu, C.W., Wang, S.J., 2011. Inhibitory effect of glutamate release
+from rat cerebrocortical nerve terminals by alpha2 adrenoceptor agonist
+dexmedetomidine. Eur. J. Pharmacol. 670, 137–147.
+Datson, N.A., van der, P.J., de Kloet, E.R., Vreugdenhil, E., 2001. Identiﬁcation of
+corticosteroid-responsive genes in rat hippocampus using serial analysis of
+gene expression. Eur. J. Neurosci. 14, 675–689.
+de Berker, A.O., Rutledge, R.B., Mathys, C., Marshall, L., Cross, G.F., Dolan, R.J.,
+Bestmann, S., 2016. Computations of uncertainty mediate acute stress
+responses in humans. Nat. Commun. 7, 10996.
+de Kloet, E.R., Vreugdenhil, E., Oitzl, M.S., Joels, M., 1998. Brain corticosteroid
+receptor balance in health and disease. Endocr. Rev. 19, 269–301.
+De Quervain, D.J., Roozendaal, B., McGaugh, J.L., 1998. Stress and glucocorticoids
+impair retrieval of long-term spatial memory. Nature 394, 787–790.
+Deuchars, J., Thomson, A.M., 1995. Innervation of burst ﬁring spiny interneurons by
+pyramidal cells in deep layers of rat somatomotor cortex: paired intracellular
+recordings with biocytin ﬁlling. Neuroscience 69, 739–755.
+Devilbiss, D.M., Waterhouse, B.D., 2004. The effects of tonic locus ceruleus output on
+sensory-evoked responses of ventral posterior medial thalamic and barrel ﬁeld
+cortical neurons in the awake rat. J. Neurosci. 24, 10773–10785.
+Diamond, D.M., Bennett, M.C., Fleshner, M., Rose, G.M., 1992. Inverted-U
+relationship between the level of peripheral corticosterone and the magnitude
+of hippocampal primed burst potentiation. Hippocampus 2, 421–430.
+Dias-Ferreira, E., Sousa, J.C., Melo, I., Morgado, P., Mesquita, A.R., Cerqueira, J.J., Costa,
+R.M., Sousa, N., 2009. Chronic stress causes frontostriatal reorganization and
+affects decision-making. Science 325, 621–625.
+Du, J., Wang, Y., Hunter, R., Wei, Y., Blumenthal, R., Falke, C., Khairova, R., Zhou, R.,
+Yuan, P., Machado-Vieira, R., McEwen, B.S., Manji, H.K., 2009. Dynamic
+regulation of mitochondrial function by glucocorticoids. Proc. Natl. Acad. Sci. U.
+S. A. 106, 3543–3548.
+Everson, S.A., Lynch, J.W., Chesney, M.A., Kaplan, G.A., Goldberg, D.E., Shade, S.B.,
+Cohen, R.D., Salonen, R., Salonen, J.T., 1997. Interaction of workplace demands
+and cardiovascular reactivity in progression of carotid atherosclerosis:
+population based study. BMJ 314, 553–558.
+Falsetti, H.L., Carroll, R.J., Swope, R.D., Chen, C.J., 1983. Turbulent blood ﬂow in the
+ascending aorta of dogs. Cardiovasc. Res. 17, 427–436.
+Fehm, H.L., Voigt, K.H., Lang, R.E., Beinert, K.E., Kummer, G.W., Pfeiffer, E.F., 1977.
+Paradoxical ACTH response to glucocorticoids in Cushing's disease. N. Engl. J.
+Med. 297, 904–907.
+Feinstein, J.S., Stein, M.B., Paulus, M.P., 2006. Anterior insula reactivity during
+certain decisions is associated with neuroticism. Soc. Cogn. Affect. Neurosci. 1,
+136–142.
+Feldmeyer, D., Roth, A., Sakmann, B., 2005. Monosynaptic connections between
+pairs of spiny stellate cells in layer 4 and pyramidal cells in layer 5A indicate that
+lemniscal and paralemniscal afferent pathways converge in the infragranular
+somatosensory cortex. J. Neurosci. 25, 3423–3431.
+Felleman, D.J., Van, E.D.C., 1991. Distributed hierarchical processing in the primate
+cerebral cortex. Cereb. Cortex 1, 1–47.
+Ferrero, J.J., Alvarez, A.M., Ramirez-Franco, J., Godino, M.C., Bartolome-Martin, D.,
+Aguado, C., Torres, M., Lujan, R., Ciruela, F., Sanchez-Prieto, J., 2013. beta-
+Adrenergic receptors activate exchange protein directly activated by cAMP
+(Epac) translocate Munc13-1, and enhance the Rab3A-RIM1alpha interaction to
+potentiate glutamate release at cerebrocortical nerve terminals. J. Biol. Chem.
+288, 31370–31385.
+Frühwald-Schultes, B., Kern, W., Born, J., Fehm, H.L., Peters, A., 2000. Comparison of
+the inhibitory effect of insulin and hypoglycemia on insulin secretion in
+humans. Metabolism 49, 950–953.
+Friston, K., Kilner, J., Harrison, L., 2006. A free energy principle for the brain. J.
+Physiol. Paris 100, 70–87.
+Friston, K., Schwartenbeck, P., Fitzgerald, T., Moutoussis, M., Behrens, T., Dolan, R.J.,
+2013. The anatomy of choice: active inference and agency. Front. Hum. Neurosci.
+7, 598.
+Friston, K., Schwartenbeck, P., Fitzgerald, T., Moutoussis, M., Behrens, T., Dolan, R.J.,
+2014. The anatomy of choice: dopamine and decision-making. Philos. Trans. R.
+Soc. Lond. B Biol. Sci. 369.
+Friston, K., Rigoli, F., Ognibene, D., Mathys, C., Fitzgerald, T., Pezzulo, G., 2015. Active
+inference and epistemic value. Cogn. Neurosci. 6, 187–214.
+Friston, K., 2005. A theory of cortical responses. Philos. Trans. R. Soc. Lond. B Biol. Sci.
+360, 815–836.
+22 
+A. Peters et al. / Progress in Neurobiology xxx (2017) xxx–xxx
+G Model
+PRONEU 1500 No. of Pages 25
+Please cite this article in press as: A. Peters, et al., Uncertainty and stress: Why it causes diseases and how it is mastered by the brain, Prog.
+Neurobiol. (2017), http://dx.doi.org/10.1016/j.pneurobio.2017.05.004
+
+PAGE 23
+Friston, K., 2009. The free-energy principle: a rough guide to the brain? Trends Cogn.
+Sci. 13, 293–301.
+Friston, K., 2010. The free-energy principle: a uniﬁed brain theory? Nat. Rev.
+Neurosci. 11, 127–138.
+Friston, K., 2011. Embodied Inference: or I think therefore I am, if I am what I think.
+In: Tschacher, W., Bergomi, C. (Eds.), The Implications of Embodiment
+(Cognition and Communication). Imprint Academic Exeter.
+Gaab, J., Blattler, N., Menzi, T., Pabst, B., Stoyer, S., Ehlert, U., 2003. Randomized
+controlled evaluation of the effects of cognitive-behavioral stress management
+on cortisol responses to acute stress in healthy subjects.
+Psychoneuroendocrinology 28, 767–779.
+Garrido, M.I., Kilner, J.M., Kiebel, S.J., Friston, K.J., 2007. Evoked brain responses are
+generated by feedback loops. Proc. Natl. Acad. Sci. U. S. A. 104, 20961–20966.
+Goldwater, D.S., Pavlides, C., Hunter, R.G., Bloss, E.B., Hof, P.R., McEwen, B.S.,
+Morrison, J.H., 2009. Structural and functional alterations to rat medial
+prefrontal cortex following chronic restraint stress and recovery. Neuroscience
+164, 798–808.
+Gong, Q.Y., Roberts, N., Garden, A.S., Whitehouse, G.H., 1998. Fetal and fetal brain
+volume estimation in the third trimester of human pregnancy using gradient
+echo MR imaging. Magn. Reson. Imaging 16, 235–240.
+Gottfried, J.A., O'Doherty, J., Dolan, R.J., 2003. Encoding predictive reward value in
+human amygdala and orbitofrontal cortex. Science 301, 1104–1107.
+Gulliksson, M., Burell, G., Vessby, B., Lundin, L., Toss, H., Svardsudd, K., 2011.
+Randomized controlled trial of cognitive behavioral therapy vs standard
+treatment to prevent recurrent cardiovascular events in patients with coronary
+heart disease: Secondary Prevention in Uppsala Primary Health Care project
+(SUPRIM). Arch. Intern. Med. 171, 134–140.
+Haeusler, S., Maass, W., 2007. A statistical analysis of information-processing
+properties of lamina-speciﬁc cortical microcircuit models. Cereb. Cortex 17,
+149–162.
+Hamer, M., O'Donnell, K., Lahiri, A., Steptoe, A., 2010. Salivary cortisol responses to
+mental stress are associated with coronary artery calciﬁcation in healthy men
+and women. Eur. Heart J. 31, 424–429.
+Hammerfald, K., Eberle, C., Grau, M., Kinsperger, A., Zimmermann, A., Ehlert, U.,
+Gaab, J., 2006. Persistent effects of cognitive-behavioral stress management on
+cortisol responses to acute stress in healthy subjects-a randomized controlled
+trial. Psychoneuroendocrinology 31, 333–339.
+Harris, K.D., Shepherd, G.M., 2015. The neocortical circuit: themes and variations.
+Nat. Neurosci. 18, 170–181.
+Harris, J.J., Jolivet, R., Attwell, D., 2012. Synaptic energy use and supply. Neuron 75,
+762–777.
+Hasselbalch, S.G., Knudsen, G.M., Videbaek, C., Pinborg, L.H., Schmidt, J.F., Holm, S.,
+Paulson, O.B., 1999. No effect of insulin on glucose blood-brain barrier transport
+and cerebral metabolism in humans. Diabetes 48, 1915–1921.
+Hermans, E.J., van Marle, H.J., Ossewaarde, L., Henckens, M.J., Qin, S., van Kesteren,
+M.T., Schoots, V.C., Cousijn, H., Rijpkema, M., Oostenveld, R., Fernandez, G., 2011.
+Stress-related noradrenergic activity prompts large-scale neural network
+reconﬁguration. Science 334, 1151–1153.
+Hill, M.N., McLaughlin, R.J., Bingham, B., Shrestha, L., Lee, T.T., Gray, J.M., Hillard, C.J.,
+Gorzalka, B.B., Viau, V., 2010. Endogenous cannabinoid signaling is essential for
+stress adaptation. Proc. Natl. Acad. Sci. U. S. A. 107, 9406–9411.
+Hirono, M., Obata, K., 2006. Alpha-adrenoceptive dual modulation of inhibitory
+GABAergic inputs to Purkinje cells in the mouse cerebellum. J. Neurophysiol. 95,
+700–708.
+Hitze, B., Hubold, C., van Dyken, R., Schlichting, K., Lehnert, H., Entringer, S., Peters,
+A., 2010. How the selﬁsh brain organizes its ‘Supply and demand’. Front.
+Neuroenergetics 2 doi:http://dx.doi.org/10.3389/fnene.2010.00007.
+Hobson, J.A., Friston, K.J., 2012. Waking and dreaming consciousness:
+neurobiological and functional considerations. Prog. Neurobiol. 98, 82–98.
+Hohwy, J., 2013. The Predictive Brain. Oxford University Press, Oxford.
+Hubener, M., Bonhoeffer, T., 2010. Searching for engrams. Neuron 67, 363–371.
+Ikeda, M., Hojo, Y., Komatsuzaki, Y., Okamoto, M., Kato, A., Takeda, T., Kawato, S.,
+2015. Hippocampal spine changes across the sleep-wake cycle: corticosterone
+and kinases. J. Endocrinol. 226, M13–27.
+Jacobson, L., Akana, S.F., Cascio, C.S., Shinsako, J., Dallman, M.F., 1988. Circadian
+variations in plasma corticosterone permit normal termination of
+adrenocorticotropin responses to stress. Endocrinology 122, 1343–1348.
+Jeanneteau, F., Garabedian, M.J., Chao, M.V., 2008. Activation of Trk neurotrophin
+receptors by glucocorticoids provides a neuroprotective effect. Proc. Natl. Acad.
+Sci. U. S. A. 105, 4862–4867.
+Jiang, X., Wang, G., Lee, A.J., Stornetta, R.L., Zhu, J.J., 2013. The organization of two
+new cortical interneuronal circuits. Nat. Neurosci. 16, 210–218.
+Joels, M., 2006. Corticosteroid effects in the brain: u-shape it. Trends Pharmacol. Sci.
+27, 244–250.
+Karlsson, M.P., Tervo, D.G., Karpova, A.Y., 2012. Network resets in medial prefrontal
+cortex mark the onset of behavioral uncertainty. Science 338, 135–139.
+Karst, H., Joels, M., 2016. Severe stress hormone conditions cause an extended
+window of excitability in the mouse basolateral amygdala. Neuropharmacology
+110, 175–180.
+Kind, K.L., Roberts, C.T., Sohlstrom, A.I., Katsman, A., Clifton, P.M., Robinson, J.S.,
+Owens, J.A., 2005. Chronic maternal feed restriction impairs growth but
+increases adiposity of the fetal guinea pig. Am. J. Physiol. Regul. Integr. Comp.
+Physiol. 288, R119–R126.
+Kirschbaum, C., Pruessner, J.C., Stone, A.A., Federenko, I., Gaab, J., Lintz, D.,
+Schommer, N., Hellhammer, D.H., 1995. Persistent high cortisol responses to
+repeated psychological stress in a subpopulation of healthy men. Psychosom.
+Med. 57, 468–474.
+Kobayashi, M., Kojima, M., Koyanagi, Y., Adachi, K., Imamura, K., Koshikawa, N.,
+2009. Presynaptic and postsynaptic modulation of glutamatergic synaptic
+transmission by activation of alpha(1)- and beta-adrenoceptors in layer V
+pyramidal neurons of rat cerebral cortex. Synapse 63, 269–281.
+Kok, P., de Lange, F.P., 2014. Shape perception simultaneously up- and
+downregulates neural activity in the primary visual cortex. Curr. Biol. 24, 1531–
+1535.
+Konig, P., Engel, A.K., Singer, W., 1996. Integrator or coincidence detector?: The role
+of the cortical neuron revisited. Trends Neurosci. 19, 130–137.
+Koolhaas, J.M., Bartolomucci, A., Buwalda, B., de Boer, S.F., Flugge, G., Korte, S.M.,
+Meerlo, P., Murison, R., Olivier, B., Palanza, P., Richter-Levin, G., Sgoifo, A.,
+Steimer, T., Stiedl, O., van Dijk, G., Wohr, M., Fuchs, E., 2011. Stress revisited: a
+critical evaluation of the stress concept. Neurosci. Biobehav. Rev. 35, 1291–1301.
+Kubera, B., Hubold, C., Otte, S., Lindenberg, A.S., Zeiss, I., Krause, R., Steinkamp, M.,
+Klement, J., Entringer, S., Pellerin, L., Peters, A., 2012a. Rise in plasma lactate
+concentrations with psychosocial stress: a possible sign of cerebral energy
+demand. Obes. Facts 5, 384–392.
+Kubera, B., Hubold, C., Zug, S., Wischnath, H., Wilhelm, I., Hallschmid, M., Entringer,
+S., Langemann, D., Peters, A., 2012b. The brain's supply and demand in obesity.
+Front. Neuroenergetics 4, 4. doi:http://dx.doi.org/10.3389/fnene.2012.00004.
+Kubera, B., Hubold, C., Wischnath, H., Zug, S., Peters, A., 2014. Rise of ketone bodies
+with psychosocial stress in normal weight men. Psychoneuroendocrinology 45,
+43–48.
+Kubera, B., Klement, J., Wagner, C., Radel, C., Eggeling, J., Fullbrunn, S., Kaczmarek, M.
+C., Levinsky, R., Peters, A., 2016. Differences in fairness and trust between lean
+and corpulent men. Int. J. Obes. (Lond.) 40, 1802–1808.
+Kullback, S., Leibler, R.A., 1951. On information and sufﬁciency. Ann. Math. Stat. 22,
+79.
+Langemann, D., Pellerin, L., Peters, A., 2008. Making sense of AMPA receptor
+trafﬁcking by modeling molecular mechanisms of synaptic plasticity. Brain Res.
+1207, 60–72.
+Larkman, A.U., Jack, J.J., Stratford, K.J., 1997. Quantal analysis of excitatory synapses
+in rat hippocampal CA1 in vitro during low-frequency depression. J. Physiol. 505
+(Pt 2), 457–471.
+Larkum, M.E., Zhu, J.J., Sakmann, B., 1999. A new cellular mechanism for coupling
+inputs arriving at different cortical layers. Nature 398, 338–341.
+Larkum, M.E., Senn, W., Luscher, H.R., 2004. Top-down dendritic input increases the
+gain of layer 5 pyramidal neurons. Cereb. Cortex 14, 1059–1070.
+Larkum, M., 2013. A cellular mechanism for cortical associations: an organizing
+principle for the cerebral cortex. Trends Neurosci. 36, 141–151.
+Lee, D., Rushworth, M.F., Walton, M.E., Watanabe, M., Sakagami, M., 2007. Functional
+specialization of the primate frontal cortex during decision making. J. Neurosci.
+27, 8170–8173.
+Levy, W.B., Baxter, R.A., 1996. Energy efﬁcient neural codes. Neural Comput. 8, 531–
+543.
+Liljeholm, M., Wang, S., Zhang, J., O'Doherty, J.P., 2013. Neural correlates of the
+divergence of instrumental probability distributions. J. Neurosci. 33, 12519–
+12527.
+Linster, C., Nai, Q., Ennis, M., 2011. Nonlinear effects of noradrenergic modulation of
+olfactory bulb function in adult rodents. J. Neurophysiol. 105, 1432–1443.
+Liston, C., Gan, W.B., 2011. Glucocorticoids are critical regulators of dendritic spine
+development and plasticity in vivo. Proc. Natl. Acad. Sci. U. S. A. 108, 16074–
+16079.
+Liston, C., Miller, M.M., Goldwater, D.S., Radley, J.J., Rocher, A.B., Hof, P.R., Morrison, J.
+H., McEwen, B.S., 2006. Stress-induced alterations in prefrontal cortical
+dendritic morphology predict selective impairments in perceptual attentional
+set-shifting. J. Neurosci. 26, 7870–7874.
+Liston, C., Cichon, J.M., Jeanneteau, F., Jia, Z., Chao, M.V., Gan, W.B., 2013. Circadian
+glucocorticoid oscillations promote learning-dependent synapse formation and
+maintenance. Nat. Neurosci. 16, 698–705.
+Lubke, J., Egger, V., Sakmann, B., Feldmeyer, D., 2000. Columnar organization of
+dendrites and axons of single and synaptically coupled excitatory spiny neurons
+in layer 4 of the rat barrel cortex. J. Neurosci. 20, 5300–5311.
+Ludwig, J., Duncan, G.J., Gennetian, L.A., Katz, L.F., Kessler, R.C., Kling, J.R.,
+Sanbonmatsu, L., 2012. Neighborhood effects on the long-term well-being of
+low-income adults. Science 337, 1505–1510.
+Lupien, S.J., de Leon, M., de Santi, S., Convit, A., Tarshish, C., Nair, N.P., Thakur, M.,
+McEwen, B.S., Hauger, R.L., Meaney, M.J., 1998. Cortisol levels during human
+aging predict hippocampal atrophy and memory deﬁcits. Nat. Neurosci. 1, 69–
+73.
+Lynch, J.W., Everson, S.A., Kaplan, G.A., Salonen, R., Salonen, J.T., 1998. Does low
+socioeconomic status potentiate the effects of heightened cardiovascular
+responses to stress on the progression of carotid atherosclerosis? Am. J. Public
+Health 88, 389–394.
+Lyons, D.M., Levine, S., 1994. Socioregulatory effects on squirrel monkey pituitary-
+adrenal activity: a longitudinal analysis of cortisol and ACTH.
+Psychoneuroendocrinology 19, 283–291.
+Madsen, P.L., Hasselbalch, S.G., Hagemann, L.P., Olsen, K.S., Bulow, J., Holm, S.,
+Wildschiodtz, G., Paulson, O.B., Lassen, N.A., 1995. Persistent resetting of the
+cerebral oxygen/glucose uptake ratio by brain activation: evidence obtained
+with the Kety-Schmidt technique. J. Cereb. Blood Flow Metab. 15, 485–491.
+Maggio, N., Segal, M., 2007. Striking variations in corticosteroid modulation of long-
+term potentiation along the septotemporal axis of the hippocampus. J. Neurosci.
+27, 5757–5765.
+A. Peters et al. / Progress in Neurobiology xxx (2017) xxx–xxx 
+23
+G Model
+PRONEU 1500 No. of Pages 25
+Please cite this article in press as: A. Peters, et al., Uncertainty and stress: Why it causes diseases and how it is mastered by the brain, Prog.
+Neurobiol. (2017), http://dx.doi.org/10.1016/j.pneurobio.2017.05.004
+
+PAGE 24
+Maggio, N., Segal, M., 2009. Differential modulation of long-term depression by
+acute stress in the rat dorsal and ventral hippocampus. J. Neurosci. 29, 8633–
+8638.
+Maggio, N., Segal, M., 2012. Steroid modulation of hippocampal plasticity: switching
+between cognitive and emotional memories. Front. Cell. Neurosci. 6, 12.
+Magistretti, P.J., Pellerin, L., Rothman, D.L., Shulman, R.G., 1999. Energy on demand.
+Science 283, 496–497.
+Malek, A.M., Alper, S.L., Izumo, S., 1999. Hemodynamic shear stress and its role in
+atherosclerosis. JAMA 282, 2035–2042.
+Markram, H., Lubke, J., Frotscher, M., Roth, A., Sakmann, B., 1997. Physiology and
+anatomy of synaptic connections between thick tufted pyramidal neurones in
+the developing rat neocortex. J. Physiol. 500 (Pt 2), 409–440.
+Mason, J.W., 1959. Hormones and metabolism: psychological inﬂuences on the
+pituitary-adrenal cortical. In: Pincus, C. (Ed.), Recent Progress In Hormone
+Research: Proceedings of the Laurentian Hormone Conference 1958. Academic
+Press, New York and London.
+Mason, J.W., 1968. A review of psychoendocrine research on the pituitary-adrenal
+cortical system. Psychosom. Med. 30 (Suppl), 576–607.
+Mather, M., Clewett, D., Sakaki, M., Harley, C.W., 2015. Norepinephrine ignites local
+hot spots of neuronal excitation: how arousal ampliﬁes selectivity in perception
+and memory. Behav. Brain Sci. 1–100.
+McEwen, B.S., Gianaros, P.J., 2010. Central role of the brain in stress and adaptation:
+links to socioeconomic status, health, and disease. Ann. N. Y. Acad. Sci. 1186,
+190–222.
+McEwen, B.S., Gianaros, P.J., 2011. Stress- and allostasis-induced brain plasticity.
+Annu. Rev. Med. 62, 431–445.
+McEwen, B.S., Morrison, J.H., 2013. The brain on stress: vulnerability and plasticity
+of the prefrontal cortex over the life course. Neuron 79, 16–29.
+McEwen, B.S., Stellar, E., 1993. Stress and the individual: mechanisms leading to
+disease. Arch. Intern. Med. 153, 2093–2101.
+McEwen, B.S., Wingﬁeld, J.C., 2003. The concept of allostasis in biology and
+biomedicine. Horm. Behav. 43, 2–15.
+McEwen, B.S., Weiss, J.M., Schwartz, L.S., 1968. Selective retention of corticosterone
+by limbic structures in rat brain. Nature 220, 911–912.
+McEwen, B.S., Bowles, N.P., Gray, J.D., Hill, M.N., Hunter, R.G., Karatsoreos, I.N., Nasca,
+C., 2015a. Mechanisms of stress in the brain. Nat. Neurosci. 18, 1353–1363.
+McEwen, B.S., Gray, J.D., Nasca, C., 2015b. 60 YEARS OF NEUROENDOCRINOLOGY:
+Redeﬁning neuroendocrinology: stress: sex and cognitive and emotional
+regulation. J. Endocrinol. 226, T67–83.
+McEwen, B.S., Nasca, C., Gray, J.D., 2016. Stress effects on neuronal structure:
+hippocampus amygdala, and prefrontal cortex. Neuropsychopharmacology 41,
+3–23.
+McEwen, B.S., 1998. Protective and damaging effects of stress mediators. N. Engl. J.
+Med. 338, 171–179.
+McEwen, B.S., 2007. Physiology and neurobiology of stress and adaptation: central
+role of the brain. Physiol. Rev. 87, 873–904.
+McEwen, B.S., 2012. Brain on stress: how the social environment gets under the skin.
+Proc. Natl. Acad. Sci. U. S. A. 109 (Suppl. 2), 17180–17185.
+McEwen, B.S., 2015. Preserving neuroplasticity: role of glucocorticoids and
+neurotrophins via phosphorylation. Proc. Natl. Acad. Sci. U. S. A. 112, 15544–
+15545.
+Mehaffey, W.H., Doiron, B., Maler, L., Turner, R.W., 2005. Deterministic
+multiplicative gain control with active dendrites. J. Neurosci. 25, 9968–9977.
+Miller, S.L., Green, L.R., Peebles, D.M., Hanson, M.A., Blanco, C.E., 2002. Effects of
+chronic hypoxia and protein malnutrition on growth in the developing chick.
+Am. J. Obstet. Gynecol. 186, 261–267.
+Minichiello, L., Korte, M., Wolfer, D., Kuhn, R., Unsicker, K., Cestari, V., Rossi-Arnaud,
+C., Lipp, H.P., Bonhoeffer, T., Klein, R., 1999. Essential role for TrkB receptors in
+hippocampus-mediated learning. Neuron 24, 401–414.
+Monat, A., Averill, J.R., Lazarus, R.S., 1972. Anticipatory stress and coping reactions
+under various conditions of uncertainty. J. Pers. Soc. Psychol. 24, 237–253.
+Muhlau, M., Gaser, C., Ilg, R., Conrad, B., Leibl, C., Cebulla, M.H., Backmund, H.,
+Gerlinghoff, M., Lommer, P., Schnebel, A., Wohlschlager, A.M., Zimmer, C.,
+Nunnemann, S., 2007. Gray matter decrease of the anterior cingulate cortex in
+anorexia nervosa. Am. J. Psychiatry 164, 1850–1857.
+Nai, Q., Dong, H.W., Hayar, A., Linster, C., Ennis, M., 2009. Noradrenergic regulation of
+GABAergic inhibition of main olfactory bulb mitral cells varies as a function of
+concentration and receptor subtype. J. Neurophysiol. 101, 2472–2484.
+Nai, Q., Dong, H.W., Linster, C., Ennis, M., 2010. Activation of alpha1 and alpha2
+noradrenergic receptors exert opposing effects on excitability of main olfactory
+bulb granule cells. Neuroscience 169, 882–892.
+Nguyen, V.T., Breakspear, M., Cunnington, R., 2014. Reciprocal interactions of the
+SMA and cingulate cortex sustain premovement activity for voluntary actions. J.
+Neurosci. 34, 16397–16407.
+O'Doherty, J., Critchley, H., Deichmann, R., Dolan, R.J., 2003. Dissociating valence of
+outcome from behavioral control in human orbital and ventral prefrontal
+cortices. J. Neurosci. 23, 7931–7939.
+Oltmanns, K.M., Melchert, U.H., Scholand-Engler, H.G., Howitz, M.C., Schultes, B.,
+Schweiger, U., Hohagen, F., Born, J., Peters, A., Pellerin, L., 2008. Differential
+energetic response of brain vs. skeletal muscle upon glycemic variations in
+healthy humans. Am. J. Physiol. Regul. Integr. Comp. Physiol. 294, R12–R16.
+Ortega, P.A., Braun, D.A., 2015. What is epistemic value in free energy models of
+learning and acting? A bounded rationality perspective. Cogn. Neurosci. 6, 215–
+216.
+Orth-Gomer, K., Schneiderman, N., Wang, H.X., Walldin, C., Blom, M., Jernberg, T.,
+2009. Stress reduction prolongs life in women with coronary disease: the
+Stockholm Women's Intervention Trial for Coronary Heart Disease (SWITCHD).
+Circ. Cardiovasc. Qual. Outcomes 2, 25–32.
+Panagiotaropoulos, T.I., Deco, G., Kapoor, V., Logothetis, N.K., 2012. Neuronal
+discharges and gamma oscillations explicitly reﬂect visual consciousness in the
+lateral prefrontal cortex. Neuron 74, 924–935.
+Patel, S., Hillard, C.J., 2008. Adaptations in endocannabinoid signaling in response to
+repeated homotypic stress: a novel mechanism for stress habituation. Eur. J.
+Neurosci. 27, 2821–2829.
+Patel, P.D., Lopez, J.F., Lyons, D.M., Burke, S., Wallace, M., Schatzberg, A.F., 2000.
+Glucocorticoid and mineralocorticoid receptor mRNA expression in squirrel
+monkey brain. J. Psychiatr. Res. 34, 383–392.
+Paulus, M.P., Hozack, N., Frank, L., Brown, G.G., 2002. Error rate and outcome
+predictability affect neural activation in prefrontal cortex and anterior cingulate
+during decision-making. Neuroimage 15, 836–846.
+Pavlides, C., Kimura, A., Magarinos, A.M., McEwen, B.S., 1994. Type I adrenal steroid
+receptors prolong hippocampal long-term potentiation. Neuroreport 5, 2673–
+2677.
+Pavlides, C., Kimura, A., Magarinos, A.M., McEwen, B.S., 1995. Hippocampal
+homosynaptic long-term depression/depotentiation induced by adrenal
+steroids. Neuroscience 68, 379–385.
+Pavlides, C., Ogawa, S., Kimura, A., McEwen, B.S., 1996. Role of adrenal steroid
+mineralocorticoid and glucocorticoid receptors in long-term potentiation in the
+CA1 ﬁeld of hippocampal slices. Brain Res. 738, 229–235.
+Pellerin, L., Magistretti, P.J., 1994. Glutamate uptake into astrocytes stimulates
+aerobic glycolysis: a mechanism coupling neuronal activity to glucose
+utilization. Proc. Natl. Acad. Sci. U. S. A. 91, 10625–10629.
+Peters, A., Langemann, D., 2009. Build-ups in the supply chain of the brain: on the
+neuroenergetic cause of obesity and type 2 diabetes mellitus. Front.
+Neuroenergetics 1, 2. doi:http://dx.doi.org/10.3389/neuro.3314.3002.2009.
+Peters, A., McEwen, B.S., 2015. Stress habituation: body shape and cardiovascular
+mortality. Neurosci. Biobehav. Rev. 56, 139–150.
+Peters, A., Schweiger, U., Pellerin, L., Hubold, C., Oltmanns, K.M., Conrad, M.,
+Schultes, B., Born, J., Fehm, H.L., 2004. The selﬁsh brain: competition for energy
+resources. Neurosci. Biobehav. Rev. 28, 143–180.
+Peters, A., Conrad, M., Hubold, C., Schweiger, U., Fischer, B., Fehm, H.L., 2007a. The
+principle of homeostasis in the hypothalamus-pituitary-adrenal system: new
+insight from positive feedback. Am. J. Physiol. Regul. Integr. Comp. Physiol. 293,
+83–98.
+Peters, A., Pellerin, L., Dallman, M.F., Oltmanns, K.M., Schweiger, U., Born, J., Fehm, H.
+L., 2007b. Causes of obesity: looking beyond the hypothalamus. Prog. Neurobiol.
+81, 61–88.
+Peters, A., Bosy-Westphal, A., Kubera, B., Langemann, D., Goele, K., Later, W., Heller,
+M., Hubold, C., Müller, M.J., 2011. Why doesn't the brain lose weight, when obese
+people diet? Obes. Facts doi:http://dx.doi.org/10.1159/000327676.
+Picard, M., Juster, R.P., McEwen, B.S., 2014. Mitochondrial allostatic load puts the
+‘gluc' back in glucocorticoids. Nat. Rev. Endocrinol. 10, 303–310.
+Placais, P.Y., Preat, T., 2013. To favor survival under food shortage: the brain disables
+costly memory. Science 339, 440–442.
+Plihal, W., Pietrowsky, R., Born, J., 1999. Dexamethasone blocks sleep induced
+improvement of declarative memory. Psychoneuroendocrinology 24, 313–331.
+Pruessner, J.C., Hellhammer, D.H., Kirschbaum, 1999. Low self-esteem, induced
+failure and the adrenocortical stress response. Personal. Indiv. Diff. 27, 477–489.
+Pruessner, J.C., Baldwin, M.W., Dedovic, K., Renwick, R., Mahani, N.K., Lord, C.,
+Meaney, M., Lupien, S., 2005. Self-esteem locus of control, hippocampal
+volume, and cortisol regulation in young and old adulthood. Neuroimage 28,
+815–826.
+Puhl, R.M., Heuer, C.A., 2009. The stigma of obesity: a review and update. Obesity
+(Silver Spring) 17, 941–964.
+Quirarte, G.L., Roozendaal, B., McGaugh, J.L., 1997. Glucocorticoid enhancement of
+memory storage involves noradrenergic activation in the basolateral amygdala.
+Proc. Natl. Acad. Sci. U. S. A. 94, 14048–14053.
+Radley, J.J., Rocher, A.B., Miller, M., Janssen, W.G., Liston, C., Hof, P.R., McEwen, B.S.,
+Morrison, J.H., 2006. Repeated stress induces dendritic spine loss in the rat
+medial prefrontal cortex. Cereb. Cortex 16, 313–320.
+Ramaswami, M., 2014. Network plasticity in adaptive ﬁltering and behavioral
+habituation. Neuron 82, 1216–1229.
+Ramaswamy, S., Markram, H., 2015. Anatomy and physiology of the thick-tufted
+layer 5 pyramidal neuron. Front. Cell. Neurosci. 9, 233.
+Ramos, B.P., Arnsten, A.F., 2007. Adrenergic pharmacology and cognition: focus on
+the prefrontal cortex. Pharmacol. Ther. 113, 523–536.
+Rao, R.P., Ballard, D.H., 1999. Predictive coding in the visual cortex: a functional
+interpretation of some extra-classical receptive-ﬁeld effects. Nat. Neurosci. 2,
+79–87.
+Rasgon, N.L., McEwen, B.S., 2016. Insulin resistance-a missing link no more. Mol.
+Psychiatry .
+Reinmuth, O.M., Scheinberg, P., Bourne, B., 1965. Total cerebral blood ﬂow and
+metabolism. Arch. Neurol. 12, 49–66.
+Reyes, B.A., Carvalho, A.F., Vakharia, K., Van Bockstaele, E.J., 2011. Amygdalar
+peptidergic circuits regulating noradrenergic locus coeruleus neurons: linking
+limbic and arousal centers. Exp. Neurol. 230, 96–105.
+Richmond, B.J., Wiener, M.C., 2007. Combining order statistics with Bayes theorem
+for millisecond-by-millisecond decoding of spike trains. In: Doya, K., Ishii, S.,
+Pouget, A., Rao, R.P.N. (Eds.), Bayesian Brain—Probabilistic Approaches to Neural
+Coding. The MIT Press, Cambridge, Massachusetts.
+24 
+A. Peters et al. / Progress in Neurobiology xxx (2017) xxx–xxx
+G Model
+PRONEU 1500 No. of Pages 25
+Please cite this article in press as: A. Peters, et al., Uncertainty and stress: Why it causes diseases and how it is mastered by the brain, Prog.
+Neurobiol. (2017), http://dx.doi.org/10.1016/j.pneurobio.2017.05.004
+
+PAGE 25
+Rimmele, U., Besedovsky, L., Lange, T., Born, J., 2013. Blocking mineralocorticoid
+receptors impairs: blocking glucocorticoid receptors enhances memory
+retrieval in humans. Neuropsychopharmacology 38, 884–894.
+Rodenbeck, A., Hajak, G., 2001. Neuroendocrine dysregulation in primary insomnia.
+Rev. Neurol. (Paris) 157, S57–61.
+Roesch, M.R., Olson, C.R., 2004. Neuronal activity related to reward value and
+motivation in primate frontal cortex. Science 304, 307–310.
+Rushworth, M.F., Walton, M.E., Kennerley, S.W., Bannerman, D.M., 2004. Action sets
+and decisions in the medial frontal cortex. Trends Cogn. Sci. 8, 410–417.
+Salgado, H., Garcia-Oscos, F., Patel, A., Martinolich, L., Nichols, J.A., Dinh, L.,
+Roychowdhury, S., Tseng, K.Y., Atzori, M., 2011. Layer-speciﬁc noradrenergic
+modulation of inhibition in cortical layer II/III. Cereb. Cortex 21, 212–221.
+Salgado, H., Garcia-Oscos, F., Martinolich, L., Hall, S., Restom, R., Tseng, K.Y., Atzori,
+M., 2012. Pre- and postsynaptic effects of norepinephrine on gamma-
+aminobutyric acid-mediated synaptic transmission in layer 2/3 of the rat
+auditory cortex. Synapse 66, 20–28.
+Salin, P.A., Bullier, J., 1995. Corticocortical connections in the visual system:
+structure and function. Physiol. Rev. 75, 107–154.
+Salinas, E., Sejnowski, T.J., 2001. Correlated neuronal activity and the ﬂow of neural
+information. Nat. Rev. Neurosci. 2, 539–550.
+Sanchez, M.M., Young, L.J., Plotsky, P.M., Insel, T.R., 2000. Distribution of
+corticosteroid receptors in the rhesus brain: relative absence of glucocorticoid
+receptors in the hippocampal formation. J. Neurosci. 20, 4657–4668.
+Sarinopoulos, I., Grupe, D.W., Mackiewicz, K.L., Herrington, J.D., Lor, M., Steege, E.E.,
+Nitschke, J.B., 2010. Uncertainty during anticipation modulates neural
+responses to aversion in human insula and amygdala. Cereb. Cortex 20, 929–
+940.
+Schaaf, M.J., Hoetelmans, R.W., de Kloet, E.R., Vreugdenhil, E., 1997. Corticosterone
+regulates expression of BDNF and trkB but not NT-3 and trkC mRNA in the rat
+hippocampus. J. Neurosci. Res. 48, 334–341.
+Schulkin, J., McEwen, B.S., Gold, P.W., 1994. Allostasis amygdala, and anticipatory
+angst. Neurosci. Biobehav. Rev. 18, 385–396.
+Seldenrijk, A., Hamer, M., Lahiri, A., Penninx, B.W., Steptoe, A., 2012. Psychological
+distress: cortisol stress response and subclinical coronary calciﬁcation.
+Psychoneuroendocrinology 37, 48–55.
+Selye, H., 1956. What is stress? Metabolism 5, 525–530.
+Sengupta, B., Stemmler, M.B., Friston, K.J., 2013. Information and efﬁciency in the
+nervous system-a synthesis. PLoS Comput. Biol. 9, e1003157.
+Sengupta, B., Tozzi, A., Cooray, G.K., Douglas, P.K., Friston, K.J., 2016. Towards a
+neuronal gauge theory. PLoS Biol. 14, e1002400.
+Shadlen, M.N., Newsome, W.T., 1994. Noise: neural codes and cortical organization.
+Curr. Opin. Neurobiol. 4, 569–579.
+Shannon, C.E., 1948. A mathematical theory of communication. Bell Syst. Tech. J. 27
+379/623-423/656.
+Shi, B., Mocchetti, I., 2000. Dexamethasone induces TrkA and p75NTR
+immunoreactivity in the cerebral cortex and hippocampus. Exp. Neurol. 162,
+257–267.
+Shipp, S., Adams, R.A., Friston, K.J., 2013. Reﬂections on agranular architecture:
+predictive coding in the motor cortex. Trends Neurosci. 36, 706–716.
+Shipp, S., 2016. Neural elements for predictive coding. Front. Psychol. 7, 1792.
+Silver, R.A., 2010. Neuronal arithmetic. Nat. Rev. Neurosci. 11, 474–489.
+Sterling, P., 2012. Allostasis: a model of predictive regulation. In: McEwen, B., Peters,
+A. (Eds.), Allostasis and Allostatic Load/Special Issue. Physiology and Behavior,
+pp. 5–15.
+Stone, P.H., Saito, S., Takahashi, S., Makita, Y., Nakamura, S., Kawasaki, T., Takahashi,
+A., Katsuki, T., Nakamura, S., Namiki, A., Hirohata, A., Matsumura, T., Yamazaki,
+S., Yokoi, H., Tanaka, S., Otsuji, S., Yoshimachi, F., Honye, J., Harwood, D., Reitman,
+M., Coskun, A.U., Papafaklis, M.I., Feldman, C.L., 2012. Prediction of progression
+of coronary artery disease and clinical outcomes using vascular proﬁling of
+endothelial shear stress and arterial plaque characteristics: the PREDICTION
+Study. Circulation 126, 172–181.
+Storch, M., Gaab, J., Kuttel, Y., Stussi, A.C., Fend, H., 2007. Psychoneuroendocrine
+effects of resource-activating stress management training. Health Psychol. 26,
+456–463.
+Swanson, L.W., 2000. Cerebral hemisphere regulation of motivated behavior. Brain
+Res. 886, 113–164.
+Tawakol, A., Ishai, A., Takx, R.A., Figueroa, A.L., Ali, A., Kaiser, Y., Truong, Q.A.,
+Solomon, C.J., Calcagno, C., Mani, V., Tang, C.Y., Mulder, W.J., Murrough, J.W.,
+Hoffmann, U., Nahrendorf, M., Shin, L.M., Fayad, Z.A., Pitman, R.K., 2017. Relation
+between resting amygdalar activity and cardiovascular events: a longitudinal
+and cohort study. Lancet .
+Thomson, A.M., Lamy, C., 2007. Functional maps of neocortical local circuitry. Front.
+Neurosci. 1, 19–42.
+Tong, Q., Ye, C., McCrimmon, R.J., Dhillon, H., Choi, B., Kramer, M.D., Yu, J., Yang, Z.,
+Christiansen, L.M., Lee, C.E., Choi, C.S., Zigman, J.M., Shulman, G.I., Sherwin, R.S.,
+Elmquist, J.K., Lowell, B.B., 2007. Synaptic glutamate release by ventromedial
+hypothalamic neurons is part of the neurocircuitry that prevents hypoglycemia.
+Cell Metab. 5, 383–393.
+Toyabe, S., Sagawa, T., Ueda, M., Muneyuki, E., Sano, M., 2014. Experimental
+demonstration of information-to-energy conversation and validation of the
+generalized Jarzynski equalita. Nat. Phys. 6, 988–992.
+Tribus, M., McIrvine, E.C., 1972. Energy and information. Sci. Am. 225, 179–186.
+Tribus, M., 1961. Thermodynamics and Thermostatics: An Introduction to Energy,
+Information and States of Matter, with Engineering Applications. Van Nostrand
+Company Inc, New York.
+Valentino, R.J., Van Bockstaele, E.J., 2008. Convergent regulation of locus coeruleus
+activity as an adaptive response to stress. Eur. J. Pharmacol. 583, 194–203.
+Wacongne, C., Changeux, J.P., Dehaene, S., 2012. A neuronal model of predictive
+coding accounting for the mismatch negativity. J. Neurosci. 32, 3665–3678.
+Wagner, U., Born, J., 2008. Memory consolidation during sleep: interactive effects of
+sleep stages and HPA regulation. Stress 11, 28–41.
+Wagner, U., Degirmenci, M., Drosopoulos, S., Perras, B., Born, J., 2005. Effects of
+cortisol suppression on sleep-associated consolidation of neutral and emotional
+memory. Biol. Psychiatry 58, 885–893.
+Watanabe, Y., Gould, E., McEwen, B.S., 1992. Stress induces atrophy of apical
+dendrites of hippocampal CA3 pyramidal neurons. Brain Res. 588, 341–345.
+Wellman, C.L., 2001. Dendritic reorganization in pyramidal neurons in medial
+prefrontal cortex after chronic corticosterone administration. J. Neurobiol. 49,
+245–253.
+Yang, G., Pan, F., Gan, W.B., 2009. Stably maintained dendritic spines are associated
+with lifelong memories. Nature 462, 920–924.
+Zhang, X., Poo, M.M., 2002. Localized synaptic potentiation by BDNF requires local
+protein synthesis in the developing axon. Neuron 36, 675–688.
+Zhou, M., Bakker, E.H., Velzing, E.H., Berger, S., Oitzl, M., Joels, M., Krugers, H.J., 2010.
+Both mineralocorticoid and glucocorticoid receptors regulate emotional
+memory in mice. Neurobiol. Learn. Mem. 94, 530–537.
+A. Peters et al. / Progress in Neurobiology xxx (2017) xxx–xxx 
+25
+G Model
+PRONEU 1500 No. of Pages 25
+Please cite this article in press as: A. Peters, et al., Uncertainty and stress: Why it causes diseases and how it is mastered by the brain, Prog.
+Neurobiol. (2017), http://dx.doi.org/10.1016/j.pneurobio.2017.05.004

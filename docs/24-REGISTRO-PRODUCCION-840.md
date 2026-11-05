@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-05T02:36:38+00:00.
+Comprobado en WordPress: 2026-11-05T02:54:19+00:00.
 
-**826/840 terminadas · 0 en curso · 14 pendientes.**
+**829/840 terminadas · 0 en curso · 11 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -844,9 +844,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 830 | 56/56 · 5/15 | E1.7.05 | Soledad y comunidad: el vínculo como protección | terminada | 3/3 | [Leer](https://moevec.org/blog/soledad-y-comunidad/) |
 | 831 | 56/56 · 6/15 | E1.7.06 | Trabajo y bienestar: lo que muestran los datos de compromiso laboral | terminada | 3/3 | [Leer](https://moevec.org/blog/trabajo-y-bienestar-compromiso/) |
 | 832 | 56/56 · 7/15 | E1.7.07 | Pantallas, jóvenes y ansiedad: un debate con datos de ambos lados | terminada | 3/3 | [Leer](https://moevec.org/blog/pantallas-jovenes-ansiedad-debate/) |
-| 833 | 56/56 · 8/15 | E1.7.08 | Vivir con incertidumbre: el coste psicológico de las reglas que cambian | pendiente | 0/3 | — |
-| 834 | 56/56 · 9/15 | E1.7.09 | Sistemas de salud mental: modelos públicos, privados y mixtos | pendiente | 0/3 | — |
-| 835 | 56/56 · 10/15 | E1.7.10 | Hábitos con evidencia: sueño, ejercicio y relaciones | pendiente | 0/3 | — |
+| 833 | 56/56 · 8/15 | E1.7.08 | Vivir con incertidumbre: el coste psicológico de las reglas que cambian | terminada | 3/3 | [Leer](https://moevec.org/blog/incertidumbre-reglas-que-cambian/) |
+| 834 | 56/56 · 9/15 | E1.7.09 | Sistemas de salud mental: modelos públicos, privados y mixtos | terminada | 3/3 | [Leer](https://moevec.org/blog/sistemas-de-salud-mental-modelos/) |
+| 835 | 56/56 · 10/15 | E1.7.10 | Hábitos con evidencia: sueño, ejercicio y relaciones | terminada | 3/3 | [Leer](https://moevec.org/blog/habitos-con-evidencia-salud-mental/) |
 | 836 | 56/56 · 11/15 | E1.7.11 | Salud mental en Cuba: escasez, emigración y familias separadas | pendiente | 0/3 | — |
 | 837 | 56/56 · 12/15 | E1.7.12 | Duelo migratorio: lo que se pierde al emigrar y cómo afrontarlo | pendiente | 0/3 | — |
 | 838 | 56/56 · 13/15 | E1.7.13 | Emprender sin quemarse: la salud mental del emprendedor | pendiente | 0/3 | — |
