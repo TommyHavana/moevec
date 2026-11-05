@@ -1,8 +1,8 @@
 # Ejecución desde586 ·05/11/2026
 
-**808/840 terminadas, 2424 imágenes originales públicas, 0 en curso o borradores WordPress y 32 pendientes**. Lealtad Tribal 3/15; 49 tandas completas.
+**811/840 terminadas, 2433 imágenes originales públicas, 0 en curso o borradores WordPress y 29 pendientes**. Lealtad Tribal 6/15; 49 tandas completas.
 
-222 nuevas entradas y666originales públicos.
+225 nuevas entradas y675originales públicos.
 
 | Global | ID | URL | Imágenes |
 |---|---|---|---|
@@ -228,5 +228,8 @@
 |811|E2.6.01|https://moevec.org/blog/lealtad-con-salida/|3/3|
 |812|E2.6.02|https://moevec.org/blog/familismo-amoral-banfield/|3/3|
 |813|E2.6.03|https://moevec.org/blog/lealtad-y-confianza/|3/3|
+|814|E2.6.04|https://moevec.org/blog/lealtad-no-es-encubrimiento/|3/3|
+|815|E2.6.05|https://moevec.org/blog/lealtad-a-las-ideas/|3/3|
+|816|E2.6.06|https://moevec.org/blog/lealtad-del-cliente-competencia/|3/3|
 
-Continuar **814–816 / E2.6.04–E2.6.06**, tribu → Lealtad Tribal. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **817–819**. **501/E4.2.06,512/E4.3.02,649/E4.12.04,707/E6.6.02 y769/E2.3.04** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.
+Continuar **817–819 / E2.6.07–E2.6.09**, tribu → Lealtad Tribal. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **820–822**. **501/E4.2.06,512/E4.3.02,649/E4.12.04,707/E6.6.02 y769/E2.3.04** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.

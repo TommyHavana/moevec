@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-05T00:15:52+00:00.
+Comprobado en WordPress: 2026-11-05T00:35:17+00:00.
 
-**808/840 terminadas · 0 en curso · 32 pendientes.**
+**811/840 terminadas · 0 en curso · 29 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -825,9 +825,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 811 | 55/56 · 1/15 | E2.6.01 | Lealtad con salida: por qué una tribu sana deja ir | terminada | 3/3 | [Leer](https://moevec.org/blog/lealtad-con-salida/) |
 | 812 | 55/56 · 2/15 | E2.6.02 | Familismo amoral: cuando la lealtad al grupo daña a todos | terminada | 3/3 | [Leer](https://moevec.org/blog/familismo-amoral-banfield/) |
 | 813 | 55/56 · 3/15 | E2.6.03 | Lealtad y confianza: el capital que se pierde en un día | terminada | 3/3 | [Leer](https://moevec.org/blog/lealtad-y-confianza/) |
-| 814 | 55/56 · 4/15 | E2.6.04 | Lealtad no es encubrimiento: la ética por encima del grupo | pendiente | 0/3 | — |
-| 815 | 55/56 · 5/15 | E2.6.05 | Lealtad a las ideas: cuándo cambiar de opinión no es traición | pendiente | 0/3 | — |
-| 816 | 55/56 · 6/15 | E2.6.06 | Lealtad del cliente: por qué la competencia es la mejor fidelización | pendiente | 0/3 | — |
+| 814 | 55/56 · 4/15 | E2.6.04 | Lealtad no es encubrimiento: la ética por encima del grupo | terminada | 3/3 | [Leer](https://moevec.org/blog/lealtad-no-es-encubrimiento/) |
+| 815 | 55/56 · 5/15 | E2.6.05 | Lealtad a las ideas: cuándo cambiar de opinión no es traición | terminada | 3/3 | [Leer](https://moevec.org/blog/lealtad-a-las-ideas/) |
+| 816 | 55/56 · 6/15 | E2.6.06 | Lealtad del cliente: por qué la competencia es la mejor fidelización | terminada | 3/3 | [Leer](https://moevec.org/blog/lealtad-del-cliente-competencia/) |
 | 817 | 55/56 · 7/15 | E2.6.07 | Lealtad laboral: ¿qué se deben empresa y trabajador? | pendiente | 0/3 | — |
 | 818 | 55/56 · 8/15 | E2.6.08 | Clientelismo: la lealtad comprada que empobrece | pendiente | 0/3 | — |
 | 819 | 55/56 · 9/15 | E2.6.09 | La lealtad en la tradición hispánica: honor, palabra y compadrazgo | pendiente | 0/3 | — |
