@@ -2,91 +2,54 @@
   "automation_id": "producci-n-editorial-mee-840",
   "mode": "continuous_blocks_of_three",
   "completed_at_start": 586,
-  "current_block": [
-    501,
-    512,
-    649
-  ],
-  "current_ids": [
-    "E4.2.06",
-    "E4.3.02",
-    "E4.12.04"
-  ],
+  "current_block": [],
+  "current_ids": [],
   "area": "trabajo",
   "topic": "inversion-personal",
-  "phase": "awaiting_title_review",
-  "next_after_block": [
+  "phase": "complete",
+  "next_after_block": [],
+  "updated_at": "2026-11-05T10:31:45.535687+00:00",
+  "last_completed_block": [
     707,
     769,
     818
   ],
-  "updated_at": "2026-11-05T03:43:13.445677+00:00",
-  "last_completed_block": [
-    839,
-    840
-  ],
-  "notes": "WordPress:834/840 terminadas,2502 originales públicos,0 borradores o en curso y6 pendientes. Las seis pendientes tienen cuerpo preparado y3/3originales locales (18 en total); no cuentan como terminadas. Sus títulos originales siguen intactos, con propuestas alternativas sin aplicar. Falta resolver las consultas de título ya enviadas y realizar revisión final de metadatos/publicación/verificación.",
+  "notes": "**840/840 terminadas, 2520 imágenes originales públicas, 0 en curso y 0 pendientes.** Las seis alternativas fueron aprobadas explícitamente por el fundador, publicadas y verificadas. Se conservan todos los identificadores y slugs; el plan editorial queda cerrado y la automatización eliminada.",
   "last_backup": {
-    "directory": "/data/mee-backups/produccion-840-incremento-839-840-20261105",
-    "completed_articles": 834,
+    "checked_at": "2026-11-05T10:29:26.147921+00:00",
+    "directory": "/data/mee-backups/produccion-840-cierre-seis-aprobadas-20261105",
+    "completed_articles": 840,
     "max_published_number": 840,
     "published_ranges": [
       [
         1,
-        500
-      ],
-      [
-        502,
-        511
-      ],
-      [
-        513,
-        648
-      ],
-      [
-        650,
-        706
-      ],
-      [
-        708,
-        768
-      ],
-      [
-        770,
-        817
-      ],
-      [
-        819,
         840
       ]
     ],
-    "unpublished_gaps": [
-      501,
-      512,
-      649,
-      707,
-      769,
-      818
-    ],
-    "sql_bytes": 31689136,
-    "upload_files": 44,
-    "uploads_bytes": 2282099,
+    "unpublished_gaps": [],
+    "sql_bytes": 31844089,
+    "upload_files": 132,
+    "original_images": 18,
+    "uploads_bytes": 4694671,
     "archives": [
       {
-        "file": "uploads-839-840.tar.gz",
-        "files": 44,
-        "bytes": 2282099
+        "file": "uploads-approved-six.tar.gz",
+        "files": 132,
+        "bytes": 4694671
       }
     ],
     "checksums_verified": true,
     "archive_verified": true,
-    "overlays": 268,
-    "chain_contiguous": false,
+    "overlays": 269,
+    "chain_contiguous": true,
     "published_media_coverage_complete": true,
+    "previous_directory": "/data/mee-backups/produccion-840-incremento-839-840-20261105",
     "restore_test": false
   },
-  "last_local_backup": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Editorial_839-840_2026-11-05_incremental.zip",
+  "last_local_backup": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Editorial_Cierre_840_2026-11-05_incremental.zip",
   "completed_this_run": [
+    501,
+    512,
     589,
     590,
     591,
@@ -147,6 +110,7 @@
     646,
     647,
     648,
+    649,
     650,
     651,
     652,
@@ -204,6 +168,7 @@
     704,
     705,
     706,
+    707,
     708,
     709,
     710,
@@ -265,6 +230,7 @@
     766,
     767,
     768,
+    769,
     770,
     771,
     772,
@@ -313,6 +279,7 @@
     815,
     816,
     817,
+    818,
     819,
     820,
     821,
@@ -343,127 +310,104 @@
       "id": "E4.2.06",
       "images": 3,
       "body_complete": true,
-      "published": false,
-      "phase": "title_review_pending",
-      "sources_verified": false,
-      "title_checked": false,
+      "published": true,
+      "phase": "published_verified",
+      "sources_verified": true,
+      "title_checked": true,
       "body_sources_verified": true,
-      "article_complete": false
+      "article_complete": true,
+      "title_approved": true,
+      "public_verification": true
     },
     {
       "number": 512,
       "id": "E4.3.02",
       "images": 3,
       "body_complete": true,
-      "published": false,
-      "phase": "title_review_pending",
-      "sources_verified": false,
-      "title_checked": false,
+      "published": true,
+      "phase": "published_verified",
+      "sources_verified": true,
+      "title_checked": true,
       "body_sources_verified": true,
-      "article_complete": false
+      "article_complete": true,
+      "title_approved": true,
+      "public_verification": true
     },
     {
       "number": 649,
       "id": "E4.12.04",
       "images": 3,
       "body_complete": true,
-      "article_complete": false,
-      "published": false,
-      "phase": "title_review_pending",
-      "sources_verified": false,
-      "title_checked": false,
-      "body_sources_verified": true
+      "article_complete": true,
+      "published": true,
+      "phase": "published_verified",
+      "sources_verified": true,
+      "title_checked": true,
+      "body_sources_verified": true,
+      "title_approved": true,
+      "public_verification": true
     },
     {
       "number": 707,
       "id": "E6.6.02",
       "images": 3,
       "body_complete": true,
-      "article_complete": false,
-      "published": false,
-      "phase": "title_review_pending",
-      "sources_verified": false,
-      "title_checked": false,
-      "body_sources_verified": true
+      "article_complete": true,
+      "published": true,
+      "phase": "published_verified",
+      "sources_verified": true,
+      "title_checked": true,
+      "body_sources_verified": true,
+      "title_approved": true,
+      "public_verification": true
     },
     {
       "number": 769,
       "id": "E2.3.04",
       "images": 3,
-      "article_complete": false,
-      "sources_verified": false,
-      "published": false,
-      "phase": "title_review_pending",
+      "article_complete": true,
+      "sources_verified": true,
+      "published": true,
+      "phase": "published_verified",
       "images_visually_checked": true,
       "body_complete": true,
       "body_sources_verified": true,
-      "title_checked": false
+      "title_checked": true,
+      "title_approved": true,
+      "public_verification": true
     },
     {
       "number": 818,
       "id": "E2.6.08",
       "images": 3,
-      "article_complete": false,
-      "sources_verified": false,
-      "published": false,
-      "phase": "title_review_pending",
+      "article_complete": true,
+      "sources_verified": true,
+      "published": true,
+      "phase": "published_verified",
       "images_visually_checked": true,
       "body_complete": true,
       "body_sources_verified": true,
-      "title_checked": false
+      "title_checked": true,
+      "title_approved": true,
+      "public_verification": true
     }
   ],
   "local_backup_kind": "incremental",
   "local_backup_base": {
-    "path": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Editorial_836-838_2026-11-05_incremental.zip",
-    "sha256": "be64e08b821e6525ca14e19bb4d55bceaba94036213f1309cb349f2f8590c107"
+    "path": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Editorial_839-840_2026-11-05_incremental.zip",
+    "sha256": "370a6af7583fa754d322e1d67d0b8e84cafb8f8ca59549208dcb30008db2d720"
   },
   "storage_check": {
-    "free_bytes": 4473786368,
+    "free_bytes": 343883776,
     "originals_and_backups_preserved": true,
     "delivery_proof_recovered": true,
-    "git_tracking_recovered": true
+    "git_tracking_recovered": true,
+    "checked_at": "2026-11-05T10:31:45.535687+00:00"
   },
-  "last_run_closed_at_madrid": "2026-10-31",
-  "title_review_pending": [
-    {
-      "number": 501,
-      "id": "E4.2.06",
-      "original_title": "Aprender idiomas: la inversión con mayor retorno para el talento hispano",
-      "proposed_title": "Aprender idiomas: cómo evaluar su retorno para el talento hispano",
-      "reason": "Ranking de mayor retorno universal no respaldado por fuentes consultadas.",
-      "user_question_pending": true,
-      "body_complete": true,
-      "images": 3,
-      "published": false
-    },
-    {
-      "number": 512,
-      "id": "E4.3.02",
-      "original_title": "Aversión a la pérdida: por qué el miedo pesa el doble",
-      "proposed_title": "Aversión a la pérdida: qué dice la evidencia y cómo decidir",
-      "reason": "El coeficiente agregado1,955 enBrown2024 no mide un miedo individual universal; Walasek2024 estima1,31 con otro método yYechiam2025 cuestiona robustez por diseño. El título fijo «pesa el doble» no queda respaldado con ese alcance.",
-      "user_question_pending": true,
-      "body_complete": true,
-      "images": 3,
-      "published": false
-    },
-    {
-      "id": "E2.6.08",
-      "number": 818,
-      "original_title": "Clientelismo: la lealtad comprada que empobrece",
-      "proposed_title": "Clientelismo: favores políticos, dependencia y desarrollo",
-      "slug": "clientelismo-lealtad-comprada",
-      "phase": "title_review_pending",
-      "checked_at": "2026-11-05T00:38:57.881660+00:00",
-      "reason": "Stokes2021resumenprimario plantea mecanismo teórico pobreza pero documenta coincidencia histórica con crecimiento; no acredita empobrecimiento universal como título fijo.",
-      "source": "https://www.wider.unu.edu/publication/clientelism-and-development-there-poverty-trap",
-      "source_scope": "Resumen primario leído web; PDF403, no fingir lectura completa.",
-      "user_question_pending": true,
-      "published": false
-    }
-  ],
+  "last_run_closed_at_madrid": "2026-11-05T11:31:45.628270+01:00",
   "last_published_numbers": [
+    501,
+    512,
     589,
     590,
     591,
@@ -524,6 +468,7 @@
     646,
     647,
     648,
+    649,
     650,
     651,
     652,
@@ -581,6 +526,7 @@
     704,
     705,
     706,
+    707,
     708,
     709,
     710,
@@ -642,6 +588,7 @@
     766,
     767,
     768,
+    769,
     770,
     771,
     772,
@@ -690,6 +637,7 @@
     815,
     816,
     817,
+    818,
     819,
     820,
     821,
@@ -726,12 +674,12 @@
     ],
     "pending": []
   },
-  "last_delivery_proof": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/produccion-839-840-entrega-20261105.json",
+  "last_delivery_proof": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/produccion-cierre-840-entrega-20261105.json",
   "storage_block": {
     "checked_at": "2026-11-05T03:43:13.445677+00:00",
     "free_bytes": 429285376,
     "observed_error": "OSError: [Errno 28] No space left on device al crear mee-close824825-partial.py",
-    "phase": "resolved_capacity_available",
+    "phase": "resolved_plan_complete",
     "resume_when_free_bytes_at_least": 209715200,
     "completed": 834,
     "next_block": [
@@ -748,27 +696,14 @@
     "local_webps_ready": 18,
     "native_images_preserved_remote": 1,
     "body_drafts_ready": 6,
-    "current_reason": "Trabajo independiente de las seis pendientes preparado. Bloqueo de título: no publicar ni generar más recursos; no repetir consultas. Los0en curso son el estado WordPress."
+    "current_reason": "Plan840/840 verificado, sin siguiente bloque."
   },
   "heartbeat_interval_minutes": 3,
-  "title_reviews_pending": [
-    501,
-    512,
-    649,
-    707,
-    769,
-    818
-  ],
+  "title_reviews_pending": [],
   "resume_point": {
-    "number": 501,
-    "id": "E4.2.06",
-    "next_action": "await_existing_title_review_resolution_then_final_metadata_and_publish",
-    "accepted_images": 3,
-    "article_complete": false,
-    "sources_verified": false,
-    "title_checked": false,
-    "body_complete": true,
-    "body_sources_verified": true
+    "next_action": "none_plan_complete",
+    "completed": 840,
+    "pending": 0
   },
   "last_partial_remote_checkpoint": {
     "directory": "/data/mee-backups/produccion-840-progreso-824-826-20261105T014105Z",
@@ -794,5 +729,164 @@
   },
   "held_body_preparations_complete": true,
   "held_local_images": 18,
-  "title_review_checkpoint": "editorial/title-review-checkpoint-2026-11-05.json"
+  "title_review_checkpoint": "editorial/title-review-checkpoint-2026-11-05.json",
+  "title_approval_file": "editorial/title-alternatives-approved-2026-11-05.json",
+  "last_published_id": "E2.6.08",
+  "approved_title_publications": {
+    "E4.2.06": {
+      "created": true,
+      "number": 501,
+      "id": "E4.2.06",
+      "post_id": 4731,
+      "url": "https://moevec.org/blog/aprender-idiomas-retorno/",
+      "words": 1435,
+      "image_ids": {
+        "featured": 4732,
+        "interior-1": 4733,
+        "interior-2": 4734
+      },
+      "done": 835,
+      "remaining": 5
+    },
+    "E4.3.02": {
+      "created": true,
+      "number": 512,
+      "id": "E4.3.02",
+      "post_id": 4736,
+      "url": "https://moevec.org/blog/aversion-a-la-perdida/",
+      "words": 1517,
+      "image_ids": {
+        "featured": 4737,
+        "interior-1": 4738,
+        "interior-2": 4739
+      },
+      "done": 836,
+      "remaining": 4
+    },
+    "E4.12.04": {
+      "created": true,
+      "number": 649,
+      "id": "E4.12.04",
+      "post_id": 4741,
+      "url": "https://moevec.org/blog/hojas-de-calculo-herramienta-rentable/",
+      "words": 1260,
+      "image_ids": {
+        "featured": 4742,
+        "interior-1": 4743,
+        "interior-2": 4744
+      },
+      "done": 837,
+      "remaining": 3
+    },
+    "E6.6.02": {
+      "created": true,
+      "number": 707,
+      "id": "E6.6.02",
+      "post_id": 4746,
+      "url": "https://moevec.org/blog/grupos-ahorro-rotativo/",
+      "words": 1407,
+      "image_ids": {
+        "featured": 4747,
+        "interior-1": 4748,
+        "interior-2": 4749
+      },
+      "done": 838,
+      "remaining": 2
+    },
+    "E2.3.04": {
+      "created": true,
+      "number": 769,
+      "id": "E2.3.04",
+      "post_id": 4751,
+      "url": "https://moevec.org/blog/ahorro-jubilacion-empezar-pronto/",
+      "words": 1276,
+      "image_ids": {
+        "featured": 4752,
+        "interior-1": 4753,
+        "interior-2": 4754
+      },
+      "done": 839,
+      "remaining": 1
+    },
+    "E2.6.08": {
+      "created": true,
+      "number": 818,
+      "id": "E2.6.08",
+      "post_id": 4756,
+      "url": "https://moevec.org/blog/clientelismo-lealtad-comprada/",
+      "words": 1213,
+      "image_ids": {
+        "featured": 4757,
+        "interior-1": 4758,
+        "interior-2": 4759
+      },
+      "done": 840,
+      "remaining": 0
+    }
+  },
+  "completed_at": "2026-11-05T10:31:45.535687+00:00",
+  "counts": {
+    "terminada": 840,
+    "en curso": 0,
+    "pendiente": 0
+  },
+  "public_original_images": 2520,
+  "automation_active": false,
+  "approved_title_completed_numbers": [
+    501,
+    512,
+    649,
+    707,
+    769,
+    818
+  ],
+  "delivery_status": "archived_and_versioned",
+  "resolved_title_reviews": [
+    {
+      "number": 501,
+      "id": "E4.2.06",
+      "original_title": "Aprender idiomas: la inversión con mayor retorno para el talento hispano",
+      "proposed_title": "Aprender idiomas: cómo evaluar su retorno para el talento hispano",
+      "reason": "Ranking de mayor retorno universal no respaldado por fuentes consultadas.",
+      "user_question_pending": false,
+      "body_complete": true,
+      "images": 3,
+      "published": false,
+      "resolved": true,
+      "resolution": "Alternativa aprobada explícitamente",
+      "approval_file": "title-alternatives-approved-2026-11-05.json"
+    },
+    {
+      "number": 512,
+      "id": "E4.3.02",
+      "original_title": "Aversión a la pérdida: por qué el miedo pesa el doble",
+      "proposed_title": "Aversión a la pérdida: qué dice la evidencia y cómo decidir",
+      "reason": "El coeficiente agregado1,955 enBrown2024 no mide un miedo individual universal; Walasek2024 estima1,31 con otro método yYechiam2025 cuestiona robustez por diseño. El título fijo «pesa el doble» no queda respaldado con ese alcance.",
+      "user_question_pending": false,
+      "body_complete": true,
+      "images": 3,
+      "published": false,
+      "resolved": true,
+      "resolution": "Alternativa aprobada explícitamente",
+      "approval_file": "title-alternatives-approved-2026-11-05.json"
+    },
+    {
+      "id": "E2.6.08",
+      "number": 818,
+      "original_title": "Clientelismo: la lealtad comprada que empobrece",
+      "proposed_title": "Clientelismo: favores políticos, dependencia y desarrollo",
+      "slug": "clientelismo-lealtad-comprada",
+      "phase": "title_review_pending",
+      "checked_at": "2026-11-05T00:38:57.881660+00:00",
+      "reason": "Stokes2021resumenprimario plantea mecanismo teórico pobreza pero documenta coincidencia histórica con crecimiento; no acredita empobrecimiento universal como título fijo.",
+      "source": "https://www.wider.unu.edu/publication/clientelism-and-development-there-poverty-trap",
+      "source_scope": "Resumen primario leído web; PDF403, no fingir lectura completa.",
+      "user_question_pending": false,
+      "published": false,
+      "resolved": true,
+      "resolution": "Alternativa aprobada explícitamente",
+      "approval_file": "title-alternatives-approved-2026-11-05.json"
+    }
+  ],
+  "final_archive_expected": "/Users/nerea/Documents/Proyectos/MEE/mee-backups/MEE_Editorial_Cierre_840_2026-11-05_incremental.zip"
 }

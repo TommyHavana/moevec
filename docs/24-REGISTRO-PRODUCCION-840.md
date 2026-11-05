@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-05T09:41:18+00:00.
+Comprobado en WordPress: 2026-11-05T10:27:58+00:00.
 
-**834/840 terminadas · 0 en curso · 6 pendientes.**
+**840/840 terminadas · 0 en curso · 0 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -512,7 +512,7 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 498 | 34/56 · 3/15 | E4.2.03 | Práctica deliberada: cómo se construye la excelencia | terminada | 3/3 | [Leer](https://moevec.org/blog/practica-deliberada/) |
 | 499 | 34/56 · 4/15 | E4.2.04 | Invertir en salud: el activo del que dependen todos los demás | terminada | 3/3 | [Leer](https://moevec.org/blog/invertir-en-salud/) |
 | 500 | 34/56 · 5/15 | E4.2.05 | Red de contactos: el valor de los lazos débiles | terminada | 3/3 | [Leer](https://moevec.org/blog/red-de-contactos-lazos-debiles/) |
-| 501 | 34/56 · 6/15 | E4.2.06 | Aprender idiomas: la inversión con mayor retorno para el talento hispano | pendiente | 0/3 | — |
+| 501 | 34/56 · 6/15 | E4.2.06 | Aprender idiomas: cómo evaluar su retorno para el talento hispano | terminada | 3/3 | [Leer](https://moevec.org/blog/aprender-idiomas-retorno/) |
 | 502 | 34/56 · 7/15 | E4.2.07 | Universidad: ¿sigue compensando? Lo que dicen los datos | terminada | 3/3 | [Leer](https://moevec.org/blog/universidad-sigue-compensando/) |
 | 503 | 34/56 · 8/15 | E4.2.08 | Certificaciones y microcredenciales: atajos reales o humo | terminada | 3/3 | [Leer](https://moevec.org/blog/certificaciones-microcredenciales/) |
 | 504 | 34/56 · 9/15 | E4.2.09 | Invertir en tu marca personal sin postureo | terminada | 3/3 | [Leer](https://moevec.org/blog/marca-personal-sin-postureo/) |
@@ -523,7 +523,7 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 509 | 34/56 · 14/15 | E4.2.14 | Cómo elegir un curso sin caer en estafas formativas | terminada | 3/3 | [Leer](https://moevec.org/blog/elegir-curso-sin-estafas/) |
 | 510 | 34/56 · 15/15 | E4.2.15 | Tu plan anual de inversión personal | terminada | 3/3 | [Leer](https://moevec.org/blog/plan-anual-inversion-personal/) |
 | 511 | 35/56 · 1/15 | E4.3.01 | Riesgo e incertidumbre: no son lo mismo | terminada | 3/3 | [Leer](https://moevec.org/blog/riesgo-e-incertidumbre/) |
-| 512 | 35/56 · 2/15 | E4.3.02 | Aversión a la pérdida: por qué el miedo pesa el doble | pendiente | 0/3 | — |
+| 512 | 35/56 · 2/15 | E4.3.02 | Aversión a la pérdida: qué dice la evidencia y cómo decidir | terminada | 3/3 | [Leer](https://moevec.org/blog/aversion-a-la-perdida/) |
 | 513 | 35/56 · 3/15 | E4.3.03 | Diversificación: no pongas todos los huevos en la misma cesta | terminada | 3/3 | [Leer](https://moevec.org/blog/diversificacion-personal/) |
 | 514 | 35/56 · 4/15 | E4.3.04 | El riesgo de no arriesgar: el coste oculto de la inmovilidad | terminada | 3/3 | [Leer](https://moevec.org/blog/riesgo-de-no-arriesgar/) |
 | 515 | 35/56 · 5/15 | E4.3.05 | Tamaño de la apuesta: la regla que evita la ruina | terminada | 3/3 | [Leer](https://moevec.org/blog/tamano-de-la-apuesta/) |
@@ -660,7 +660,7 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 646 | 44/56 · 1/15 | E4.12.01 | Adaptabilidad técnica: aprender herramientas, no solo usarlas | terminada | 3/3 | [Leer](https://moevec.org/blog/adaptabilidad-tecnica-que-es/) |
 | 647 | 44/56 · 2/15 | E4.12.02 | Cómo se difunden las tecnologías y por qué llegan tarde a algunos países | terminada | 3/3 | [Leer](https://moevec.org/blog/difusion-de-tecnologias/) |
 | 648 | 44/56 · 3/15 | E4.12.03 | Alfabetización digital básica: lo mínimo para trabajar hoy | terminada | 3/3 | [Leer](https://moevec.org/blog/alfabetizacion-digital-basica/) |
-| 649 | 44/56 · 4/15 | E4.12.04 | Hojas de cálculo: la herramienta más rentable que puedes aprender | pendiente | 0/3 | — |
+| 649 | 44/56 · 4/15 | E4.12.04 | Hojas de cálculo: usos prácticos para tu negocio | terminada | 3/3 | [Leer](https://moevec.org/blog/hojas-de-calculo-herramienta-rentable/) |
 | 650 | 44/56 · 5/15 | E4.12.05 | Inteligencia artificial para pequeños negocios: usos prácticos | terminada | 3/3 | [Leer](https://moevec.org/blog/ia-para-pequenos-negocios/) |
 | 651 | 44/56 · 6/15 | E4.12.06 | Programar sin ser programador: herramientas sin código | terminada | 3/3 | [Leer](https://moevec.org/blog/herramientas-sin-codigo/) |
 | 652 | 44/56 · 7/15 | E4.12.07 | Aprender a programar: ¿merece la pena en 2026? | terminada | 3/3 | [Leer](https://moevec.org/blog/aprender-a-programar/) |
@@ -718,7 +718,7 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 704 | 47/56 · 14/15 | E6.5.14 | Del puesto ambulante al local: crecer por etapas | terminada | 3/3 | [Leer](https://moevec.org/blog/del-puesto-ambulante-al-local/) |
 | 705 | 47/56 · 15/15 | E6.5.15 | Programa de acompañamiento MEE para microemprendedores: propuesta | terminada | 3/3 | [Leer](https://moevec.org/blog/programa-acompanamiento-mee/) |
 | 706 | 48/56 · 1/15 | E6.6.01 | Qué es la inversión distribuida | terminada | 3/3 | [Leer](https://moevec.org/blog/que-es-inversion-distribuida/) |
-| 707 | 48/56 · 2/15 | E6.6.02 | Grupos de ahorro rotativo: la inversión comunitaria más antigua | pendiente | 0/3 | — |
+| 707 | 48/56 · 2/15 | E6.6.02 | Grupos de ahorro rotativo: cómo funcionan y qué riesgos tienen | terminada | 3/3 | [Leer](https://moevec.org/blog/grupos-ahorro-rotativo/) |
 | 708 | 48/56 · 3/15 | E6.6.03 | Financiación participativa: tipos y regulación | terminada | 3/3 | [Leer](https://moevec.org/blog/financiacion-participativa-tipos/) |
 | 709 | 48/56 · 4/15 | E6.6.04 | Contratos claros: por qué la confianza necesita papel | terminada | 3/3 | [Leer](https://moevec.org/blog/contratos-claros-confianza/) |
 | 710 | 48/56 · 5/15 | E6.6.05 | Cómo detectar una pirámide o esquema Ponzi | terminada | 3/3 | [Leer](https://moevec.org/blog/detectar-piramide-ponzi/) |
@@ -780,7 +780,7 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 766 | 52/56 · 1/15 | E2.3.01 | Responsabilidad generacional: pensar en quien todavía no vota | terminada | 3/3 | [Leer](https://moevec.org/blog/responsabilidad-generacional-que-es/) |
 | 767 | 52/56 · 2/15 | E2.3.02 | Pensiones de reparto y de capitalización: cómo funciona cada una | terminada | 3/3 | [Leer](https://moevec.org/blog/pensiones-reparto-capitalizacion/) |
 | 768 | 52/56 · 3/15 | E2.3.03 | Pirámide de población: por qué el envejecimiento cambia las cuentas | terminada | 3/3 | [Leer](https://moevec.org/blog/piramide-de-poblacion-envejecimiento/) |
-| 769 | 52/56 · 4/15 | E2.3.04 | Ahorro para la jubilación: empezar pronto vale más que ganar mucho | pendiente | 0/3 | — |
+| 769 | 52/56 · 4/15 | E2.3.04 | Ahorro para la jubilación: qué aporta empezar pronto | terminada | 3/3 | [Leer](https://moevec.org/blog/ahorro-jubilacion-empezar-pronto/) |
 | 770 | 52/56 · 5/15 | E2.3.05 | Lo que una generación debe a la anterior y a la siguiente | terminada | 3/3 | [Leer](https://moevec.org/blog/deberes-entre-generaciones/) |
 | 771 | 52/56 · 6/15 | E2.3.06 | Deuda pública por habitante: cuánto le toca a cada recién nacido | terminada | 3/3 | [Leer](https://moevec.org/blog/deuda-publica-por-habitante/) |
 | 772 | 52/56 · 7/15 | E2.3.07 | El sistema de pensiones español: sostenibilidad en debate | terminada | 3/3 | [Leer](https://moevec.org/blog/pensiones-espana-sostenibilidad/) |
@@ -829,7 +829,7 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 815 | 55/56 · 5/15 | E2.6.05 | Lealtad a las ideas: cuándo cambiar de opinión no es traición | terminada | 3/3 | [Leer](https://moevec.org/blog/lealtad-a-las-ideas/) |
 | 816 | 55/56 · 6/15 | E2.6.06 | Lealtad del cliente: por qué la competencia es la mejor fidelización | terminada | 3/3 | [Leer](https://moevec.org/blog/lealtad-del-cliente-competencia/) |
 | 817 | 55/56 · 7/15 | E2.6.07 | Lealtad laboral: ¿qué se deben empresa y trabajador? | terminada | 3/3 | [Leer](https://moevec.org/blog/lealtad-laboral/) |
-| 818 | 55/56 · 8/15 | E2.6.08 | Clientelismo: la lealtad comprada que empobrece | pendiente | 0/3 | — |
+| 818 | 55/56 · 8/15 | E2.6.08 | Clientelismo: favores políticos, dependencia y desarrollo | terminada | 3/3 | [Leer](https://moevec.org/blog/clientelismo-lealtad-comprada/) |
 | 819 | 55/56 · 9/15 | E2.6.09 | La lealtad en la tradición hispánica: honor, palabra y compadrazgo | terminada | 3/3 | [Leer](https://moevec.org/blog/lealtad-tradicion-hispanica/) |
 | 820 | 55/56 · 10/15 | E2.6.10 | Grupos que exigen obediencia: señales de alerta | terminada | 3/3 | [Leer](https://moevec.org/blog/grupos-que-exigen-obediencia/) |
 | 821 | 55/56 · 11/15 | E2.6.11 | Socios leales: cómo escribir lealtad en un pacto de socios | terminada | 3/3 | [Leer](https://moevec.org/blog/pacto-de-socios-lealtad/) |

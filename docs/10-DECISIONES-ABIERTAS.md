@@ -2448,3 +2448,15 @@ Próximo bloque por número global: **501/E4.2.06,512/E4.3.02 y649/E4.12.04**, d
 WordPress:834/840 terminadas,2502 originales públicos,0 borradores o en curso y6 pendientes. Las seis pendientes tienen cuerpo preparado y3/3originales locales (18 en total); no cuentan como terminadas. Sus títulos originales siguen intactos, con propuestas alternativas sin aplicar. Falta resolver las consultas de título ya enviadas y realizar revisión final de metadatos/publicación/verificación.
 
 Detalle: `docs/produccion/2026-11-05-seis-titulos-pendientes.md`. El seguimiento permanece activo; no se ha alcanzado840/840.
+
+
+## Resolución explícita de títulos · 05/11/2026
+
+El fundador aprobó las seis alternativas preparadas: «usa todas las alternativas que preparaste creo que es lo mejor». Queda resuelta la consulta de títulos de 501, 512, 649, 707, 769 y 818. Se conservan ID y slugs. Procede revisión final y publicación por ese orden, reutilizando los 18 originales existentes. Evidencia: `editorial/title-alternatives-approved-2026-11-05.json`. Esta resolución prevalece sobre las notas anteriores de espera; no volver a pedir aprobación.
+
+
+## Cierre editorial ·05/11/2026
+
+**840/840 terminadas, 2520 imágenes originales públicas, 0 en curso y 0 pendientes.** Las seis alternativas fueron aprobadas explícitamente por el fundador, publicadas y verificadas. Se conservan todos los identificadores y slugs; el plan editorial queda cerrado y la automatización eliminada.
+
+Títulos definitivos y comprobaciones en `docs/produccion/2026-11-05-cierre-840.md`. Los seis originales de título permanecen documentados en la aprobación y en los briefs; ID y slugs se conservan. No hay próximo bloque ni seguimiento de producción activo.

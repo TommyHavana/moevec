@@ -1,5 +1,7 @@
-# Revisión del cuerpo · E2.6.08
+# Revisión final · E2.6.08 · 05/11/2026
 
-{"main_words": 1074, "opening_words": 58, "faq_words": [52, 49, 52], "hypothetical_examples": 2}
-
-Fuentes del cuerpo contrastadas, tres originales con alt/dimensiones/pesos/hash, nativos y mosaico vistos. Tres enlaces internos200. Título original pendiente; ninguna publicación ni medio creado en WordPress. No se cambia ID, slug o título, ni se crea article.json publicable.
+- Alternativa de título aprobada explícitamente; ID y slug conservados.
+- Cuerpo 1078 palabras; apertura 59; tres FAQ [52, 49, 52]. Dos ejemplos hipotéticos.
+- Argumento contrario, lectura MEE, práctica y fuentes con alcance revisados. HTML de encabezados y posiciones de imagen comprobados.
+- Tres originales WebP con tamaño, peso, alt y hashes distintos; mosaico final inspeccionado.
+- Publicación y comprobación pública completas: https://moevec.org/blog/clientelismo-lealtad-comprada/; imágenes3/3 y organización conforme al plan.

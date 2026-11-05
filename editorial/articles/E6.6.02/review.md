@@ -1,5 +1,7 @@
-# Revisión en curso · E6.6.02
+# Revisión final · E6.6.02 · 05/11/2026
 
-Texto principal1134palabras, apertura54, FAQ55/57/57 y dos hipótesis. Tres originales nativosinspeccionadosyWebPdimensiones/peso; mosaico WebP inspeccionado; falta revisión final del título y metadatos.
-
-El cuerpo no afirma prioridad histórica global ni ausencia universal de intereses o protección jurídica. Consulta del título enviada una vez; archivo title-review.json. Título original conservado, no publicar. Fuentes y alcance parcial en source-review-draft.json.
+- Alternativa de título aprobada explícitamente; ID y slug conservados.
+- Cuerpo 1211 palabras; apertura 54; tres FAQ [55, 57, 57]. Dos ejemplos hipotéticos.
+- Argumento contrario, lectura MEE, práctica y fuentes con alcance revisados. HTML de encabezados y posiciones de imagen comprobados.
+- Tres originales WebP con tamaño, peso, alt y hashes distintos; mosaico final inspeccionado.
+- Publicación y comprobación pública completas: https://moevec.org/blog/grupos-ahorro-rotativo/; imágenes3/3 y organización conforme al plan.

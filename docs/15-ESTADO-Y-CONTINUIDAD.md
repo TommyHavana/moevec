@@ -2,7 +2,7 @@
 
 ## Estado actual
 
-**834/840 terminadas, 2502 imágenes originales públicas, 0 en curso o borradores WordPress y 6 pendientes**. Salud mental15/15. El número global840 está publicado; el plan completo sigue abierto por seis huecos anteriores.
+**840/840 terminadas, 2520 imágenes originales públicas, 0 en curso y 0 pendientes.** Las seis alternativas fueron aprobadas explícitamente por el fundador, publicadas y verificadas. Se conservan todos los identificadores y slugs; el plan editorial queda cerrado y la automatización eliminada.
 
 Fuente activa `/Users/nerea/Documents/Proyectos/MEE/mee-web`.
 
@@ -426,3 +426,24 @@ Detalle: `docs/produccion/2026-11-05-seis-titulos-pendientes.md`. El seguimiento
 ## Incidencia de espacio resuelta ·05/11/2026 ·09:41 UTC
 
 La exportación local falló con ENOSPC. Se retiraron 568 archivos de metadatos de registro pnpm en caché, anteriores a siete días (343.020.740 bytes), conservando artículos, originales y respaldos. La sincronización se completó a 2026-11-05T09:41:18+00:00: 834/840 terminadas, 0 en curso y 6 pendientes de resolución de título. Espacio medido después de la sincronización: 1.742.659.584 bytes, variable según el uso del sistema. No se publicó contenido ni se modificaron títulos. Mantener el seguimiento activo y comprobar espacio antes de escribir. Evidencia: `editorial/capacity-incident-2026-11-05T0938.json`.
+
+
+## Resolución explícita de títulos · 05/11/2026
+
+El fundador aprobó las seis alternativas preparadas: «usa todas las alternativas que preparaste creo que es lo mejor». Queda resuelta la consulta de títulos de 501, 512, 649, 707, 769 y 818. Se conservan ID y slugs. Procede revisión final y publicación por ese orden, reutilizando los 18 originales existentes. Evidencia: `editorial/title-alternatives-approved-2026-11-05.json`. Esta resolución prevalece sobre las notas anteriores de espera; no volver a pedir aprobación.
+
+
+## Cierre verificado ·05/11/2026
+
+**840/840 terminadas, 2520 imágenes originales públicas, 0 en curso y 0 pendientes.** Las seis alternativas fueron aprobadas explícitamente por el fundador, publicadas y verificadas. Se conservan todos los identificadores y slugs; el plan editorial queda cerrado y la automatización eliminada.
+
+| Global | ID | Título aprobado | URL | Imágenes |
+|---|---|---|---|---|
+| 501 | E4.2.06 | Aprender idiomas: cómo evaluar su retorno para el talento hispano | https://moevec.org/blog/aprender-idiomas-retorno/ | 3/3 |
+| 512 | E4.3.02 | Aversión a la pérdida: qué dice la evidencia y cómo decidir | https://moevec.org/blog/aversion-a-la-perdida/ | 3/3 |
+| 649 | E4.12.04 | Hojas de cálculo: usos prácticos para tu negocio | https://moevec.org/blog/hojas-de-calculo-herramienta-rentable/ | 3/3 |
+| 707 | E6.6.02 | Grupos de ahorro rotativo: cómo funcionan y qué riesgos tienen | https://moevec.org/blog/grupos-ahorro-rotativo/ | 3/3 |
+| 769 | E2.3.04 | Ahorro para la jubilación: qué aporta empezar pronto | https://moevec.org/blog/ahorro-jubilacion-empezar-pronto/ | 3/3 |
+| 818 | E2.6.08 | Clientelismo: favores políticos, dependencia y desarrollo | https://moevec.org/blog/clientelismo-lealtad-comprada/ | 3/3 |
+
+Detalle y límites: `docs/produccion/2026-11-05-cierre-840.md`. La documentación anterior conserva el historial de producción; las esperas de título quedan resueltas.

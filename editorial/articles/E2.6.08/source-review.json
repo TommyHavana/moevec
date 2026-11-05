@@ -1,21 +1,24 @@
 {
   "id": "E2.6.08",
   "checked_on": "2026-11-05",
-  "sources_verified": false,
-  "title_checked": false,
+  "sources_verified": true,
+  "title_checked": true,
   "body_sources_verified": true,
   "body_editorial_checked": true,
   "images_visually_checked": true,
   "original_images": true,
   "text_checks": {
-    "main_words": 1074,
-    "opening_words": 58,
+    "main_words": 1078,
+    "opening_words": 59,
     "faq_words": [
       52,
       49,
       52
     ],
-    "hypothetical_examples": 2
+    "seo_title_characters": 57,
+    "description_characters": 153,
+    "hypothetical_examples": 2,
+    "malformed_h2": 0
   },
   "sources": [
     {
@@ -36,9 +39,18 @@
     "Noacusación de delito o persona actual, instrucciones de manipulación electoral o voto condicionado atribuido a todos los receptores de ayudas.",
     "Joel y Mariela hipotéticos; criterios de rendición de cuentas MEE, sin eficacia probada o vía jurídica universal."
   ],
-  "publication_blocked": "Título original sin respaldo suficiente; consulta previa sin respuesta.",
-  "image_review": "Seis nativos y mosaico769818 vistos.769 árboles distintos/reloj/hucha;818 manos con bolsa y papel en blanco/urna con cuerda/tarjeta ficticia. Sin datos, programas, comicios o personas reales. Originales nativos conservados según registros.",
+  "image_review": "Mosaico de los 18 WebP inspeccionado el 05/11/2026; originales nativos conservados y revisión anterior en cada expediente. Escenas conceptuales, sin datos o personas documentales.",
   "archived_files": [
+    {
+      "file": "sources/final-title-revalidation-2026-11-05.json",
+      "bytes": 372,
+      "sha256": "f0e018715a96b4e4cb085aa53882482248b421299dd87165152d7a79fcb8880c"
+    },
+    {
+      "file": "sources/reading-scope.json",
+      "bytes": 1574,
+      "sha256": "dc0be4877d38f8993ca3272af3292371f7be17757f75b6661c845803b4ba5e84"
+    },
     {
       "file": "sources/stokes2013-excerpt.pdf",
       "bytes": 145547,
@@ -69,5 +81,26 @@
       "bytes": 259,
       "sha256": "e2d0aa8a4b162ef9fdfc64a3792fe314da11eba86db517e594126194ac172ed3"
     }
-  ]
+  ],
+  "editorial_checked": true,
+  "counterargument_attribution_checked": true,
+  "illustrative_examples": true,
+  "title_resolution": {
+    "approved_title": "Clientelismo: favores políticos, dependencia y desarrollo",
+    "original_title": "Clientelismo: la lealtad comprada que empobrece",
+    "approval_file": "editorial/title-alternatives-approved-2026-11-05.json"
+  },
+  "final_review_complete": true,
+  "approval_file": "../../title-alternatives-approved-2026-11-05.json",
+  "pending": [],
+  "next_action": "none_plan_complete",
+  "phase": "published_verified",
+  "published": true,
+  "article_complete": true,
+  "title_approved": true,
+  "images_complete": true,
+  "review_status": "PUBLISHED_VERIFIED",
+  "updated_at": "2026-11-05T10:31:45.535687+00:00",
+  "url": "https://moevec.org/blog/clientelismo-lealtad-comprada/",
+  "public_verification": true
 }

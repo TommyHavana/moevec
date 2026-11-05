@@ -1,21 +1,24 @@
 {
   "id": "E2.3.04",
   "checked_on": "2026-11-05",
-  "sources_verified": false,
-  "title_checked": false,
+  "sources_verified": true,
+  "title_checked": true,
   "body_sources_verified": true,
   "body_editorial_checked": true,
   "images_visually_checked": true,
   "original_images": true,
   "text_checks": {
-    "main_words": 1076,
+    "main_words": 1081,
     "opening_words": 54,
     "faq_words": [
       48,
       49,
       48
     ],
-    "hypothetical_examples": 2
+    "seo_title_characters": 54,
+    "description_characters": 153,
+    "hypothetical_examples": 2,
+    "malformed_h2": 0
   },
   "sources": [
     {
@@ -54,13 +57,17 @@
     "Sin rentabilidad garantizada, impuestos o productos locales, cifras de pensión, recomendaciones de aportación individual o libroF065 fingido.",
     "Simulación MEE al3% nominal constante: aportación al final de año, capital inicial0, sin gastos/impuestos/inflación; resultados75401/53741/107481, redondeo a unidad. Dos casos hipotéticos."
   ],
-  "publication_blocked": "Título original sin respaldo suficiente; consulta previa sin respuesta.",
-  "image_review": "Seis nativos y mosaico769818 vistos.769 árboles distintos/reloj/hucha;818 manos con bolsa y papel en blanco/urna con cuerda/tarjeta ficticia. Sin datos, programas, comicios o personas reales. Originales nativos conservados según registros.",
+  "image_review": "Mosaico de los 18 WebP inspeccionado el 05/11/2026; originales nativos conservados y revisión anterior en cada expediente. Escenas conceptuales, sin datos o personas documentales.",
   "archived_files": [
     {
       "file": "sources/cfpb-compound.html.retrieval.json",
       "bytes": 207,
       "sha256": "373fdb9cdc0824326686d6584fb076a329aa9b5afa15ddc080b71649fe99a34e"
+    },
+    {
+      "file": "sources/final-title-revalidation-2026-11-05.json",
+      "bytes": 933,
+      "sha256": "4e68ce91102bc1ae318ebf46fc1946ed62d55cb02fd5368859ea8679b1ad5b17"
     },
     {
       "file": "sources/ilo102-faq2024.html",
@@ -83,6 +90,11 @@
       "sha256": "8e7803f7dd8b72fee1083d7d6461f6e625eb7314262dac5a81a584a34b99c613"
     },
     {
+      "file": "sources/reading-scope.json",
+      "bytes": 3042,
+      "sha256": "f2353b57c26019a061ca20cb34d3aa0ca5291dcc3eeef1e69024576be2adb501"
+    },
+    {
       "file": "sources/sec-compound-calculator.html",
       "bytes": 48371,
       "sha256": "9e83a7b03a600e6aeef66b5cd472690f459810a09fe767dc69dae9b882e8e8f6"
@@ -102,5 +114,26 @@
       "bytes": 274,
       "sha256": "db7a6d51c9a952de0643bae04e7bcd021860caae2d9b8c49e394b56ccff4a169"
     }
-  ]
+  ],
+  "editorial_checked": true,
+  "counterargument_attribution_checked": true,
+  "illustrative_examples": true,
+  "title_resolution": {
+    "approved_title": "Ahorro para la jubilación: qué aporta empezar pronto",
+    "original_title": "Ahorro para la jubilación: empezar pronto vale más que ganar mucho",
+    "approval_file": "editorial/title-alternatives-approved-2026-11-05.json"
+  },
+  "final_review_complete": true,
+  "approval_file": "../../title-alternatives-approved-2026-11-05.json",
+  "pending": [],
+  "next_action": "none_plan_complete",
+  "phase": "published_verified",
+  "published": true,
+  "article_complete": true,
+  "title_approved": true,
+  "images_complete": true,
+  "review_status": "PUBLISHED_VERIFIED",
+  "updated_at": "2026-11-05T10:31:45.535687+00:00",
+  "url": "https://moevec.org/blog/ahorro-jubilacion-empezar-pronto/",
+  "public_verification": true
 }

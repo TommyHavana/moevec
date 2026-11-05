@@ -1,30 +1,36 @@
 {
-  "checked_on": "2026-10-31",
+  "checked_on": "2026-11-05",
   "sources": [
     {
       "name": "Daniel Kahneman y Amos Tversky, Prospect Theory: An Analysis of Decision under Risk, 1979, copia MIT",
       "url": "https://web.mit.edu/curhan/www/docs/Articles/15341_Readings/Behavioral_Decision_Theory/Kahneman_Tversky_1979_Prospect_theory.pdf",
-      "scope": "Resumen y método inicial, páginas 263–264. Modelo descriptivo y elecciones hipotéticas; sin prueba de una intensidad emocional universal."
+      "scope": "Resumen y método inicial, páginas 263–264. Modelo descriptivo y elecciones hipotéticas; sin prueba de una intensidad emocional universal.",
+      "public_scope": "Resumen y método inicial, páginas 263–264. Modelo descriptivo y elecciones hipotéticas; sin prueba de una intensidad emocional universal."
     },
     {
       "name": "Brown, Imai, Vieider y Camerer, Meta-analysis of Empirical Estimates of Loss Aversion, JEL, 2024",
       "url": "https://www.aeaweb.org/articles?id=10.1257/jel.20221698",
-      "scope": "Resumen oficial: 607 estimaciones de 150 artículos, media 1,955. Parámetro agregado, sin medida individual del miedo."
+      "scope": "Resumen oficial: 607 estimaciones de 150 artículos, media 1,955. Parámetro agregado, sin medida individual del miedo.",
+      "public_scope": "Resumen oficial: 607 estimaciones de 150 artículos, media 1,955. Parámetro agregado, sin medida individual del miedo."
     },
     {
       "name": "Walasek, Mullett y Stewart, A meta-analysis of loss aversion in risky contexts, 2024",
       "url": "https://doi.org/10.1016/j.joep.2024.102740",
-      "scope": "Resumen primario: estimación 1,31 en elecciones arriesgadas. Método y cobertura distintos; no comparación como medidas idénticas."
+      "scope": "Resumen primario: estimación 1,31 en elecciones arriesgadas. Método y cobertura distintos; no comparación como medidas idénticas. Revalidado el resumen de la copia institucional de Warwick el 05/11/2026; no lectura íntegra del PDF.",
+      "public_scope": "Resumen primario: estimación 1,31 en elecciones arriesgadas. Método y cobertura distintos; no comparación como medidas idénticas.",
+      "author_copy_url": "https://wrap.warwick.ac.uk/id/eprint/185745/13/1-s2.0-S0167487024000485-main.pdf"
     },
     {
       "name": "David Gal y Derek D. Rucker, The Loss of Loss Aversion: Will It Loom Larger Than Its Gain?, 2018, copia Columbia",
       "url": "https://statmodeling.stat.columbia.edu/wp-content/uploads/2018/06/Loss-of-Loss-Aversion.pdf",
-      "scope": "Resumen y discusión inicial sobre generalidad y contexto. La crítica se atribuye a los autores, sin presentarla como inexistencia de toda asimetría."
+      "scope": "Resumen y discusión inicial sobre generalidad y contexto. La crítica se atribuye a los autores, sin presentarla como inexistencia de toda asimetría.",
+      "public_scope": "Resumen y discusión inicial sobre generalidad y contexto. La crítica se atribuye a los autores, sin presentarla como inexistencia de toda asimetría."
     },
     {
       "name": "Yechiam y Zeif, Loss aversion is not robust: A re-meta-analysis, 2025",
       "url": "https://doi.org/10.1016/j.joep.2025.102801",
-      "scope": "Resumen primario y límites por diseño. Revisión en debate; no diagnóstico personal ni conclusión universal."
+      "scope": "Resumen primario y límites por diseño. Revisión en debate; no diagnóstico personal ni conclusión universal.",
+      "public_scope": "Resumen primario y límites por diseño. Revisión en debate; no diagnóstico personal ni conclusión universal."
     }
   ],
   "archived_files": [
@@ -37,6 +43,11 @@
       "file": "sources/brown2024-abstract.html.access.json",
       "bytes": 204,
       "sha256": "1ad5d230fe4b7a07f093e94bba067dffb56c8d61f0fc12fd79c55a8b5bbfde6e"
+    },
+    {
+      "file": "sources/final-title-revalidation-2026-11-05.json",
+      "bytes": 1001,
+      "sha256": "4e28efa0a03137f49425a78e2b55437a0632b42b8702bc759c68ee6d0afb6a2b"
     },
     {
       "file": "sources/gal-rucker2018.pdf",
@@ -92,23 +103,49 @@
     "Pauta MEE con eficacia psicológica demostrada"
   ],
   "text_checks": {
-    "main_words": 1317,
+    "main_words": 1261,
     "opening_words": 56,
     "faq_words": [
       50,
       53,
       51
     ],
-    "seo_title_characters": 55,
+    "seo_title_characters": 58,
     "description_characters": 153,
-    "two_hypothetical_examples": true,
-    "keyword_h2": true
+    "hypothetical_examples": 2,
+    "malformed_h2": 0
   },
   "scope": "Lecturas parciales identificadas. Accesos locales403/404 documentados; lectura primaria en navegador separada. Descarga no equivale a lectura completa.",
-  "image_review": "Nueve originales generados en esta ejecución, vistos individualmente y en mosaico511–513; formatos, tamaños, recortes y alts comprobados. Escenas conceptuales de incertidumbre, percepción de pérdidas y dependencias; no ilustraciones científicas cuantitativas, no datos ni personas documentales.",
+  "image_review": "Mosaico de los 18 WebP inspeccionado el 05/11/2026; originales nativos conservados y revisión anterior en cada expediente. Escenas conceptuales, sin datos o personas documentales.",
   "title_review": {
     "status": "pending",
     "proposed_title": "Aversión a la pérdida: qué dice la evidencia y cómo decidir",
     "reason": "El coeficiente agregado1,955 enBrown2024 no mide un miedo individual universal; Walasek2024 estima1,31 con otro método yYechiam2025 cuestiona robustez por diseño. El título fijo «pesa el doble» no queda respaldado con ese alcance."
-  }
+  },
+  "sources_verified": true,
+  "editorial_checked": true,
+  "title_checked": true,
+  "body_sources_verified": true,
+  "counterargument_attribution_checked": true,
+  "original_images": true,
+  "images_visually_checked": true,
+  "illustrative_examples": true,
+  "title_resolution": {
+    "approved_title": "Aversión a la pérdida: qué dice la evidencia y cómo decidir",
+    "original_title": "Aversión a la pérdida: por qué el miedo pesa el doble",
+    "approval_file": "editorial/title-alternatives-approved-2026-11-05.json"
+  },
+  "final_review_complete": true,
+  "approval_file": "../../title-alternatives-approved-2026-11-05.json",
+  "pending": [],
+  "next_action": "none_plan_complete",
+  "phase": "published_verified",
+  "published": true,
+  "article_complete": true,
+  "title_approved": true,
+  "images_complete": true,
+  "review_status": "PUBLISHED_VERIFIED",
+  "updated_at": "2026-11-05T10:31:45.535687+00:00",
+  "url": "https://moevec.org/blog/aversion-a-la-perdida/",
+  "public_verification": true
 }

@@ -179,3 +179,10 @@ El fundador autorizó avanzar continuamente en bloques de tres hasta completar l
 ## Jerarquia del blog confirmada por el fundador
 
 Blog es el contenedor general, no una categoria adicional. El inventario coincide con los 122 nodos y siete areas previstos. Se corrigieron las rutas visuales y schema para incluir area y subcategoria, y se elimino la categoria tecnica vacia Uncategorized. Detalle y evidencia en docs/produccion/2026-10-28-jerarquia-blog.md. El publicador asigna siempre por el manifiesto; la produccion continua.
+
+
+## Cierre editorial ·05/11/2026
+
+**840/840 terminadas, 2520 imágenes originales públicas, 0 en curso y 0 pendientes.** Las seis alternativas fueron aprobadas explícitamente por el fundador, publicadas y verificadas. Se conservan todos los identificadores y slugs; el plan editorial queda cerrado y la automatización eliminada.
+
+Títulos definitivos y comprobaciones en `docs/produccion/2026-11-05-cierre-840.md`. Los seis originales de título permanecen documentados en la aprobación y en los briefs; ID y slugs se conservan. No hay próximo bloque ni seguimiento de producción activo.

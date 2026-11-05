@@ -1,11 +1,7 @@
-# Revisión editorial · E4.12.04
+# Revisión final · E4.12.04 · 05/11/2026
 
-- ID, título, slug, área/tema y etiquetas del plan conservados.
-- Texto principal 1084 palabras, apertura de 40–60, dos ejemplos hipotéticos, tres FAQ de 40–70, argumento contrario atribuido a autor real, lectura de MEE y práctica.
-- Fuentes y alcance parcial documentados; sin retorno universal, productividad de cualquier negocio o portabilidad automática afirmados. Variantes SEO del título/slug fijo identificadas.
-- Tres originales generados con herramienta integrada, inspeccionados, tamaños, alt y hash comprobados.
-- Pendiente publicación y verificación pública.
-
-## Retención por título
-
-No publicable: el título fijo afirma rentabilidad máxima sin comparación verificada. Texto y fuentes del cuerpo preparados; tres imágenes completas. Propuesta de título: «Hojas de cálculo: usos prácticos para tu negocio». No se modifica el manifiesto ni se cuenta como terminada.
+- Alternativa de título aprobada explícitamente; ID y slug conservados.
+- Cuerpo 1090 palabras; apertura 55; tres FAQ [55, 53, 53]. Dos ejemplos hipotéticos.
+- Argumento contrario, lectura MEE, práctica y fuentes con alcance revisados. HTML de encabezados y posiciones de imagen comprobados.
+- Tres originales WebP con tamaño, peso, alt y hashes distintos; mosaico final inspeccionado.
+- Publicación y comprobación pública completas: https://moevec.org/blog/hojas-de-calculo-herramienta-rentable/; imágenes3/3 y organización conforme al plan.

@@ -1,5 +1,7 @@
-# Revisión del cuerpo · E2.3.04
+# Revisión final · E2.3.04 · 05/11/2026
 
-{"main_words": 1076, "opening_words": 54, "faq_words": [48, 49, 48], "hypothetical_examples": 2}
-
-Fuentes del cuerpo contrastadas, tres originales con alt/dimensiones/pesos/hash, nativos y mosaico vistos. Tres enlaces internos200. Título original pendiente; ninguna publicación ni medio creado en WordPress. No se cambia ID, slug o título, ni se crea article.json publicable.
+- Alternativa de título aprobada explícitamente; ID y slug conservados.
+- Cuerpo 1081 palabras; apertura 54; tres FAQ [48, 49, 48]. Dos ejemplos hipotéticos.
+- Argumento contrario, lectura MEE, práctica y fuentes con alcance revisados. HTML de encabezados y posiciones de imagen comprobados.
+- Tres originales WebP con tamaño, peso, alt y hashes distintos; mosaico final inspeccionado.
+- Publicación y comprobación pública completas: https://moevec.org/blog/ahorro-jubilacion-empezar-pronto/; imágenes3/3 y organización conforme al plan.
