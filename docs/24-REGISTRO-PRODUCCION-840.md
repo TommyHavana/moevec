@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-05T00:56:20+00:00.
+Comprobado en WordPress: 2026-11-05T01:18:57+00:00.
 
-**814/840 terminadas · 0 en curso · 26 pendientes.**
+**817/840 terminadas · 0 en curso · 23 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -832,9 +832,9 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 818 | 55/56 · 8/15 | E2.6.08 | Clientelismo: la lealtad comprada que empobrece | pendiente | 0/3 | — |
 | 819 | 55/56 · 9/15 | E2.6.09 | La lealtad en la tradición hispánica: honor, palabra y compadrazgo | terminada | 3/3 | [Leer](https://moevec.org/blog/lealtad-tradicion-hispanica/) |
 | 820 | 55/56 · 10/15 | E2.6.10 | Grupos que exigen obediencia: señales de alerta | terminada | 3/3 | [Leer](https://moevec.org/blog/grupos-que-exigen-obediencia/) |
-| 821 | 55/56 · 11/15 | E2.6.11 | Socios leales: cómo escribir lealtad en un pacto de socios | pendiente | 0/3 | — |
-| 822 | 55/56 · 12/15 | E2.6.12 | Comunidades de la diáspora: lealtad a distancia | pendiente | 0/3 | — |
-| 823 | 55/56 · 13/15 | E2.6.13 | Nepotismo o confianza: contratar a familiares en tu negocio | pendiente | 0/3 | — |
+| 821 | 55/56 · 11/15 | E2.6.11 | Socios leales: cómo escribir lealtad en un pacto de socios | terminada | 3/3 | [Leer](https://moevec.org/blog/pacto-de-socios-lealtad/) |
+| 822 | 55/56 · 12/15 | E2.6.12 | Comunidades de la diáspora: lealtad a distancia | terminada | 3/3 | [Leer](https://moevec.org/blog/comunidades-de-la-diaspora/) |
+| 823 | 55/56 · 13/15 | E2.6.13 | Nepotismo o confianza: contratar a familiares en tu negocio | terminada | 3/3 | [Leer](https://moevec.org/blog/contratar-familiares-negocio/) |
 | 824 | 55/56 · 14/15 | E2.6.14 | Cómo salir de un grupo sin quemar puentes | pendiente | 0/3 | — |
 | 825 | 55/56 · 15/15 | E2.6.15 | Construir una tribu de emprendedores: guía práctica | pendiente | 0/3 | — |
 | 826 | 56/56 · 1/15 | E1.7.01 | Salud mental y entorno: por qué no todo depende de ti (ni todo del sistema) | pendiente | 0/3 | — |
