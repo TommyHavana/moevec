@@ -1,0 +1,34 @@
+{
+  "deployment_uuid": "mtwkdp9b1exqpphniveo4z7c",
+  "commit": "e104c62c8b92fdaf13fc6a3a806538ee4094f14f",
+  "status": "finished",
+  "containers": [
+    {
+      "id": "78470416b307",
+      "name": "/web-h7kfs9qe620lg5mqip36npt4-20261105T124932",
+      "image": "h7kfs9qe620lg5mqip36npt4_web:e104c62c8b92fdaf13fc6a3a806538ee4094f14f",
+      "image_id": "sha256:ddcaf5e7e4f2375e025325b91517539e68022a8910dc9ba9b44471f86882c494",
+      "status": "running",
+      "started_at": "2026-11-05T12:53:57.746819356Z",
+      "service": "web"
+    },
+    {
+      "id": "ee580eacc175",
+      "name": "/wordpress-h7kfs9qe620lg5mqip36npt4-20261105T124932",
+      "image": "h7kfs9qe620lg5mqip36npt4_wordpress:e104c62c8b92fdaf13fc6a3a806538ee4094f14f",
+      "image_id": "sha256:bb5070c719f4b3980d7e5468c3414fb2cf6b81ef26891811b00f639ff80831ae",
+      "status": "running",
+      "started_at": "2026-11-05T12:53:47.36400421Z",
+      "service": "wordpress"
+    },
+    {
+      "id": "347bccb70020",
+      "name": "/database-h7kfs9qe620lg5mqip36npt4-20261105T124932",
+      "image": "mariadb:11.4",
+      "image_id": "sha256:d1891ede5a559f1086f55053bb8cc1569b0298338c4d72d71725a7f74f6ba620",
+      "status": "running",
+      "started_at": "2026-11-05T12:53:36.019592913Z",
+      "service": "database"
+    }
+  ]
+}

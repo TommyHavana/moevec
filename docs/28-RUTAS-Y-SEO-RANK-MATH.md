@@ -12,7 +12,7 @@ El fundador autorizó ejecutar sin nuevas confirmaciones el paquete «Empieza aq
 - Enlace desde portada y navegación de React y WordPress. Los 18 artículos enlazan al siguiente paso y a su ruta.
 - Descubrimiento por tema y nivel, tiempo estimado de lectura y relacionados por tema y nivel.
 - `/seguir-mee/`: RSS general y por las siete áreas, regreso a las rutas y contacto editorial. No se crea un servicio de boletines ni se prometen correos automáticos.
-- Vista móvil de 390 px comprobada sin desbordamiento en la ruta; escritorio inspeccionado y capturas en `inventario/rutas-seo-2026-11-05/`.
+- Vista móvil de 390 px comprobada sin desbordamiento en la ruta y en los filtros del blog; escritorio inspeccionado y capturas en `inventario/rutas-seo-2026-11-05/`.
 
 ## Instalación y causa del error
 
@@ -41,9 +41,9 @@ Se ejecutó «Status & Tools → Database Tools → Update SEO Scores» en la se
 | Medida | Primera medición | Después de la revisión |
 |---|---:|---:|
 | Entradas con puntuación | 840 | 840 |
-| Media | 73,91 | 78,10 |
-| Mínimo / máximo | 25 / 86 | 67 / 87 |
-| Verde (80 o más) | 33 | 461 |
+| Media | 73,91 | 78,27 |
+| Mínimo / máximo | 25 / 86 | 67 / 88 |
+| Verde (80 o más) | 33 | 513 |
 | Por debajo de 50 | 47 | 0 |
 
 La puntuación evalúa criterios del plugin; no garantiza indexación ni posiciones. No se alargaron artículos ni se añadieron números, promesas o repeticiones para forzar un 100.
@@ -52,10 +52,13 @@ La puntuación evalúa criterios del plugin; no garantiza indexación ni posicio
 
 - `npm run build`: correcto, TypeScript y exportación estática incluidos; 18 páginas en el sitemap principal.
 - Auditoría de base de datos: 840 entradas, 2520 imágenes, 122 categorías, 0 borradores, metadatos y asignaciones sin errores.
-- Primer recorrido HTTP de las 840 entradas: todas responden 200, H1, título SEO, descripción única, canonical, robots y Article correctos. La comprobación inicial confundía derivados interiores de 1024 px con originales y la portada del blog con un artículo extra; se corrigió el verificador. Revisión definitiva tras despliegue pendiente.
-- Copia previa proporcional local `mee-backups/MEE_Pre_Rutas_SEO_2026-11-05_123935.zip`, CRC comprobado; cadena editorial anterior preservada. SQL y código previos en `/data/mee-backups/rutas-seo-20261105/`.
-- Despliegue incremental publicado; versión final en repositorio privado y reconstrucción de Coolify pendientes de verificar. No afirmar todavía que los contenedores se han recreado con la nueva fuente.
+- Auditoría HTTP definitiva posterior al despliegue, 2026-11-05T12:57:23.085744+00:00: **840/840 entradas correctas**, H1 preservado, un título SEO, una descripción, un canonical, robots indexable y un Article con los tres originales. Las 2520 imágenes renderizadas responden HTTP200 y son WebP, con alt correcto. Se admiten los derivados interiores de 1024px que WordPress ya servía; no se han sustituido originales.
+- Sitemap de Rank Math: 840 URLs únicas de artículos, 2520 referencias de imagen y portada del blog; sin artículos ausentes ni ajenos. El sitemap principal contiene18 páginas, todas HTTP200, con H1, descripción única y canonical correcto. El antiguo sitemap redirige al nuevo índice.
+- Las18 continuaciones y los8 RSS están comprobados; filtros por tema/nivel y búsqueda vacía funcionan, con noindex. Las notas78,10/461verdes comunicadas durante el proceso fueron lecturas intermedias; el corte final de base de datos registra78,27/513.
+- Copia previa proporcional local `mee-backups/MEE_Pre_Rutas_SEO_2026-11-05_123935.zip`, CRC comprobado; cadena editorial anterior preservada. SQL y código previos en `/data/mee-backups/rutas-seo-20261105/`. Copia consistente posterior de metadatos `after-seo-metadata.sql.gz`, integridad gzip comprobada, SHA256 `af5f9cff8d4d1d580511c04e538f5728ae651638aa7ca367d3fa3507bdc53d04`. Su descarga local fue rechazada por revisión automática al incluir potencialmente datos sensibles y credenciales; se conserva en el VPS con permisos privados. La evidencia SEO y el código sí se conservan localmente.
+- **Despliegue definitivo terminado** en Coolify: `mtwkdp9b1exqpphniveo4z7c`, producto `e104c62c8b92fdaf13fc6a3a806538ee4094f14f`. Contenedores nuevos web`78470416b307`, WordPress`ee580eacc175`, MariaDB`347bccb70020`; imágenes web/WordPress etiquetadas con ese commit y base de datos saludable. Nueve archivos de plugin/tema coinciden por SHA256 con la fuente. WordPress7.1.4 y PHP8.3.36 conservados; Rank Math1.0.281 activo; tracking de uso del plugin desactivado.
+- Copia local de fuente proporcional `MEE_Rutas_RankMath_Source_e104c62c_2026-11-05.tar.gz`: 4.963.592bytes, 2442rutas, lectura tar comprobada, SHA256`c3b8502fc9569c0f8f141250acd3aa73cf123c01155bf2fad40435b06abcb6f2`. También guardada en el VPS. Los archivos editoriales originales y su cadena de copias anteriores se conservan.
 
 ## Continuidad exacta
 
-La producción editorial permanece cerrada: **840/840, 0 en curso, 0 pendientes**, sin reactivar la automatización antigua. Terminar la verificación HTTP de derivados y mapas, versionar y desplegar desde el repositorio privado, confirmar la nueva imagen y guardar copia final. El fundador hará las conexiones de Search Console y analítica.
+La producción editorial permanece cerrada: **840/840, 0 en curso, 0 pendientes**, sin reactivar la automatización antigua. Este paquete también está terminado y verificado. No hay trabajos de publicación, imágenes o despliegue pendientes de esta entrega. El fundador hará las conexiones de Search Console y analítica; los mapas de sitio ya están disponibles. Para trabajos futuros, partir de la fuente privada actual y de `editorial/seo-upgrade-state.json`; no repetir la migración ni crear otra automatización por este cierre.

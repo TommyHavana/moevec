@@ -1,0 +1,200 @@
+{
+  "reading_steps": [
+    {
+      "id": "E1.2.06",
+      "route_return": true,
+      "next_step": true,
+      "continuation": true
+    },
+    {
+      "id": "E4.3.14",
+      "route_return": true,
+      "next_step": true,
+      "continuation": true
+    },
+    {
+      "id": "E4.9.03",
+      "route_return": true,
+      "next_step": true,
+      "continuation": true
+    },
+    {
+      "id": "E5.8.03",
+      "route_return": true,
+      "next_step": true,
+      "continuation": true
+    },
+    {
+      "id": "E5.8.07",
+      "route_return": true,
+      "next_step": true,
+      "continuation": true
+    },
+    {
+      "id": "E2.3.04",
+      "route_return": true,
+      "next_step": true,
+      "continuation": true
+    },
+    {
+      "id": "E1.6.05",
+      "route_return": true,
+      "next_step": true,
+      "continuation": true
+    },
+    {
+      "id": "E4.2.03",
+      "route_return": true,
+      "next_step": true,
+      "continuation": true
+    },
+    {
+      "id": "E4.2.06",
+      "route_return": true,
+      "next_step": true,
+      "continuation": true
+    },
+    {
+      "id": "E4.2.14",
+      "route_return": true,
+      "next_step": true,
+      "continuation": true
+    },
+    {
+      "id": "E4.8.12",
+      "route_return": true,
+      "next_step": true,
+      "continuation": true
+    },
+    {
+      "id": "E4.2.15",
+      "route_return": true,
+      "next_step": true,
+      "continuation": true
+    },
+    {
+      "id": "E5.1.01",
+      "route_return": true,
+      "next_step": true,
+      "continuation": true
+    },
+    {
+      "id": "E1.5.01",
+      "route_return": true,
+      "next_step": true,
+      "continuation": true
+    },
+    {
+      "id": "E5.1.03",
+      "route_return": true,
+      "next_step": true,
+      "continuation": true
+    },
+    {
+      "id": "E5.1.04",
+      "route_return": true,
+      "next_step": true,
+      "continuation": true
+    },
+    {
+      "id": "E5.1.08",
+      "route_return": true,
+      "next_step": true,
+      "continuation": true
+    },
+    {
+      "id": "E7.2.15",
+      "route_return": true,
+      "next_step": true,
+      "continuation": true
+    }
+  ],
+  "feeds": [
+    {
+      "url": "https://moevec.org/blog/feed/",
+      "status": 200,
+      "items": 10
+    },
+    {
+      "url": "https://moevec.org/blog/category/educacion-y-valores/feed/",
+      "status": 200,
+      "items": 10
+    },
+    {
+      "url": "https://moevec.org/blog/category/tribu/feed/",
+      "status": 200,
+      "items": 10
+    },
+    {
+      "url": "https://moevec.org/blog/category/comunidad/feed/",
+      "status": 200,
+      "items": 10
+    },
+    {
+      "url": "https://moevec.org/blog/category/trabajo/feed/",
+      "status": 200,
+      "items": 10
+    },
+    {
+      "url": "https://moevec.org/blog/category/capitalismo-consciente/feed/",
+      "status": 200,
+      "items": 10
+    },
+    {
+      "url": "https://moevec.org/blog/category/economia-compartida/feed/",
+      "status": 200,
+      "items": 10
+    },
+    {
+      "url": "https://moevec.org/blog/category/politica-y-economia/feed/",
+      "status": 200,
+      "items": 10
+    }
+  ],
+  "filters": [
+    {
+      "url": "https://moevec.org/blog/?mee_level=fundamentos",
+      "status": 200,
+      "robots": [
+        "follow, noindex, max-image-preview:large"
+      ],
+      "canonical": [],
+      "empty_state": false,
+      "cards": 12
+    },
+    {
+      "url": "https://moevec.org/blog/?s=capitalismo&mee_level=fundamentos",
+      "status": 200,
+      "robots": [
+        "follow, noindex, max-image-preview:large"
+      ],
+      "canonical": [],
+      "empty_state": false,
+      "cards": 12
+    },
+    {
+      "url": "https://moevec.org/blog/?category_name=definicion-esencial&mee_level=fundamentos",
+      "status": 200,
+      "robots": [
+        "follow, noindex, max-image-preview:large"
+      ],
+      "canonical": [],
+      "empty_state": false,
+      "cards": 5
+    },
+    {
+      "url": "https://moevec.org/blog/?s=mee-no-existe-este-tema-20261105",
+      "status": 200,
+      "robots": [
+        "follow, noindex, max-image-preview:large"
+      ],
+      "canonical": [],
+      "empty_state": true,
+      "cards": 0
+    }
+  ],
+  "legacy_sitemap": {
+    "status": 200,
+    "final_url": "https://moevec.org/blog/sitemap_index.xml"
+  }
+}

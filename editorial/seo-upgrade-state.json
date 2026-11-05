@@ -1,5 +1,5 @@
 {
-  "phase": "final-verification-and-durable-deployment",
+  "phase": "complete",
   "paths_published": true,
   "reading_paths": 3,
   "reading_steps": 18,
@@ -7,10 +7,11 @@
   "images": 2520,
   "rank_math": "1.0.281 active",
   "score": {
-    "mean": 78.09761904761905,
+    "count": 840,
     "min": 67,
-    "max": 87,
-    "green": 461,
+    "max": 88,
+    "mean": 78.26904761904763,
+    "green": 513,
     "below_50": 0
   },
   "database_errors": [],
@@ -18,10 +19,58 @@
   "analytics": "reserved_for_owner",
   "search_console": "reserved_for_owner",
   "parent_permission_change": "auto_review_rejected_no_change_applied",
-  "next": [
-    "Commit and push private source",
-    "Deploy exact commit through Coolify",
-    "Run corrected final HTTP/derivative audit",
-    "Save final evidence and backups"
-  ]
+  "next": [],
+  "deployment": {
+    "deployment_uuid": "mtwkdp9b1exqpphniveo4z7c",
+    "commit": "e104c62c8b92fdaf13fc6a3a806538ee4094f14f",
+    "status": "finished",
+    "containers": [
+      {
+        "id": "78470416b307",
+        "name": "/web-h7kfs9qe620lg5mqip36npt4-20261105T124932",
+        "image": "h7kfs9qe620lg5mqip36npt4_web:e104c62c8b92fdaf13fc6a3a806538ee4094f14f",
+        "image_id": "sha256:ddcaf5e7e4f2375e025325b91517539e68022a8910dc9ba9b44471f86882c494",
+        "status": "running",
+        "started_at": "2026-11-05T12:53:57.746819356Z",
+        "service": "web"
+      },
+      {
+        "id": "ee580eacc175",
+        "name": "/wordpress-h7kfs9qe620lg5mqip36npt4-20261105T124932",
+        "image": "h7kfs9qe620lg5mqip36npt4_wordpress:e104c62c8b92fdaf13fc6a3a806538ee4094f14f",
+        "image_id": "sha256:bb5070c719f4b3980d7e5468c3414fb2cf6b81ef26891811b00f639ff80831ae",
+        "status": "running",
+        "started_at": "2026-11-05T12:53:47.36400421Z",
+        "service": "wordpress"
+      },
+      {
+        "id": "347bccb70020",
+        "name": "/database-h7kfs9qe620lg5mqip36npt4-20261105T124932",
+        "image": "mariadb:11.4",
+        "image_id": "sha256:d1891ede5a559f1086f55053bb8cc1569b0298338c4d72d71725a7f74f6ba620",
+        "status": "running",
+        "started_at": "2026-11-05T12:53:36.019592913Z",
+        "service": "database"
+      }
+    ]
+  },
+  "backups": {
+    "source_local": "../mee-backups/MEE_Rutas_RankMath_Source_e104c62c_2026-11-05.tar.gz",
+    "sql_server": "/data/mee-backups/rutas-seo-20261105/after-seo-metadata.sql.gz",
+    "sql_local_download": "auto_review_rejected_not_downloaded",
+    "sql_sha256": "af5f9cff8d4d1d580511c04e538f5728ae651638aa7ca367d3fa3507bdc53d04"
+  },
+  "verification": {
+    "checked_at": "2026-11-05T12:57:23.085744+00:00",
+    "articles_ok": 840,
+    "images_http_ok": 2520,
+    "main_pages_ok": 18,
+    "sitemap_articles": 840,
+    "sitemap_images": 2520,
+    "reading_steps": 18,
+    "rss_feeds": 8,
+    "source_files_matching": 9,
+    "original_hashes_unchanged": 2520,
+    "tracking_enabled": false
+  }
 }

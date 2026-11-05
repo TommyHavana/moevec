@@ -69,5 +69,7 @@ if __name__ == '__main__':
         write(article_path, article)
     write(path, rows)
     write(payload_path, payload)
-    write(ROOT / 'editorial/seo-keyword-image-refinements.json', changes)
+    review_path = ROOT / 'editorial/seo-keyword-image-refinements.json'
+    if changes or not review_path.exists():
+        write(review_path, changes)
     print(json.dumps({'articles_reviewed': len(rows), 'descriptions_refined': len(DESCRIPTIONS), 'cover_alts_refined': len(changes), 'article_titles_slugs_files': 'preserved'}, ensure_ascii=False))
