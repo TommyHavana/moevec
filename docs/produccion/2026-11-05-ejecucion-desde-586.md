@@ -1,8 +1,8 @@
 # Ejecución desde586 ·05/11/2026
 
-**829/840 terminadas, 2487 imágenes originales públicas, 0 en curso o borradores WordPress y 11 pendientes**. Salud Mental 10/15; 49 tandas completas.
+**832/840 terminadas, 2496 imágenes originales públicas, 0 en curso o borradores WordPress y 8 pendientes**. Salud Mental 13/15; 49 tandas completas.
 
-243 nuevas entradas y729originales públicos.
+246 nuevas entradas y738originales públicos.
 
 | Global | ID | URL | Imágenes |
 |---|---|---|---|
@@ -249,5 +249,8 @@
 |833|E1.7.08|https://moevec.org/blog/incertidumbre-reglas-que-cambian/|3/3|
 |834|E1.7.09|https://moevec.org/blog/sistemas-de-salud-mental-modelos/|3/3|
 |835|E1.7.10|https://moevec.org/blog/habitos-con-evidencia-salud-mental/|3/3|
+|836|E1.7.11|https://moevec.org/blog/salud-mental-cuba/|3/3|
+|837|E1.7.12|https://moevec.org/blog/duelo-migratorio/|3/3|
+|838|E1.7.13|https://moevec.org/blog/emprender-sin-quemarse/|3/3|
 
-Continuar **836–838 / E1.7.11–E1.7.13**, educacion-y-valores → Salud Mental. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, **839–841**. **501/E4.2.06,512/E4.3.02,649/E4.12.04,707/E6.6.02 769/E2.3.04 y818/E2.6.08** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.
+Continuar **839–840 / E1.7.14–E1.7.15**, educacion-y-valores → Salud Mental. Briefs y prompts conservados; consultar cada expediente para reanudar imágenes y textos. Después, revisar las seis entradas retenidas por título. **501/E4.2.06,512/E4.3.02,649/E4.12.04,707/E6.6.02 769/E2.3.04 y818/E2.6.08** siguen en revisión de título y sin publicar; consultar el estado exacto de cada expediente. Las preguntas ya están enviadas; no repetirlas ni interpretar silencio como aprobación.

@@ -1,3 +1,22 @@
-# Preparación · E1.7.13
+# Investigación · E1.7.13
 
-Brief y prompts conservados; investigación en curso, sin publicación.
+Freeman, Staudenmaier, Zisser y Andresen · The prevalence and co-occurrence of psychiatric conditions among entrepreneurs and their families ·2019
+https://link.springer.com/article/10.1007/s11187-018-0059-8
+freeman2019.pdf: 1842744B SHA259c406ade17eed16dbaccde08b212d09fba72979fbd2dd528a6002fa2d69dc8. PDF20p,abstract1/métodos8/imp330 ylímites13/imp335leídos,13visual. Online11may2018vol53(2019)323–342.242emprendedores93comparación,autoinforme,muestraconveniencia,selección,grupomásjoven,instrumentonovalidadoenpoblación; resultadospreliminares.No72%todosfundadores/no49%prevalenciaglobal/no causartrastornosporoficio. No20píntegro/reanálisis.
+
+Brieger, Kruse y Potter · The job quality of self-employment in Europe · OCDE ·18/07/2025
+https://www.oecd.org/en/publications/the-job-quality-of-self-employment-in-europe_646e6778-en.html
+Resumenprimarioweb3761–3764leído;PDF73pno descargado/noleído. DatosautoinformadosUE1995–2021autónomosventajasautonomíaypresióntiempoheterogéneos. Local403registrado/noHTMLfingido. Noautorafirmaquemarsenecesarioéxito ni ensayoterapia. ArgumentoculturalrazonableformuladoporMEE concontrasteempírico,no citaopiniónfalsa.
+
+OMS · Mental health at work · actualización15/09/2026
+https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
+who-work2026.html: 112899B SHAc5e4c2b35c82c25b1b4a4444fcf641ab69080be8e0374a72fa9627c28d05e767. Copia831,riesgos103–126carga/control/acoso/inseguridad, alcancegenerallaboral,noprevalenciapropiaautónomos.
+
+NIMH · Caring for Your Mental Health · revisión abril de2026
+https://www.nimh.nih.gov/health/topics/caring-for-your-mental-health
+Guía primaria general leída y archivada en826, copia compartida HTML64536B SHA982c8a8ae1d32ba88d190721b9c25d0518b113f430be50bf0287165abc152d10. Overview, autocuidado ycuándo/dóndebuscarayuda; no atención individual, ensayoclínico, diagnóstico, fármacos o disponibilidad de servicios fueraEEUU.
+
+Excluido:
+- No diagnósticouniversalemprendedor/72%fundadoresenfermos/causartrastornosporabrirnegocio o porcentajesglobales.
+- No fracasarporproblemasclínicos,éxitoexigeagotamiento,instrumentovalidadoconpoblaciónoigualrepresentatividadentodospaíses.
+- Elena/Martínhipotéticos; acuerdosorganizaciónno cura, promesaproductividad o autorizaciónincumplircontratos.

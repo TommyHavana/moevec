@@ -1,8 +1,8 @@
 # MEE · Registro numerado de las 840 entradas
 
-Comprobado en WordPress: 2026-11-05T02:54:19+00:00.
+Comprobado en WordPress: 2026-11-05T03:14:46+00:00.
 
-**829/840 terminadas · 0 en curso · 11 pendientes.**
+**832/840 terminadas · 0 en curso · 8 pendientes.**
 
 Maquetas publicadas: **0**.
 
@@ -847,8 +847,8 @@ Una entrada terminada debe estar publicada, revisada y tener al menos 600 palabr
 | 833 | 56/56 · 8/15 | E1.7.08 | Vivir con incertidumbre: el coste psicológico de las reglas que cambian | terminada | 3/3 | [Leer](https://moevec.org/blog/incertidumbre-reglas-que-cambian/) |
 | 834 | 56/56 · 9/15 | E1.7.09 | Sistemas de salud mental: modelos públicos, privados y mixtos | terminada | 3/3 | [Leer](https://moevec.org/blog/sistemas-de-salud-mental-modelos/) |
 | 835 | 56/56 · 10/15 | E1.7.10 | Hábitos con evidencia: sueño, ejercicio y relaciones | terminada | 3/3 | [Leer](https://moevec.org/blog/habitos-con-evidencia-salud-mental/) |
-| 836 | 56/56 · 11/15 | E1.7.11 | Salud mental en Cuba: escasez, emigración y familias separadas | pendiente | 0/3 | — |
-| 837 | 56/56 · 12/15 | E1.7.12 | Duelo migratorio: lo que se pierde al emigrar y cómo afrontarlo | pendiente | 0/3 | — |
-| 838 | 56/56 · 13/15 | E1.7.13 | Emprender sin quemarse: la salud mental del emprendedor | pendiente | 0/3 | — |
+| 836 | 56/56 · 11/15 | E1.7.11 | Salud mental en Cuba: escasez, emigración y familias separadas | terminada | 3/3 | [Leer](https://moevec.org/blog/salud-mental-cuba/) |
+| 837 | 56/56 · 12/15 | E1.7.12 | Duelo migratorio: lo que se pierde al emigrar y cómo afrontarlo | terminada | 3/3 | [Leer](https://moevec.org/blog/duelo-migratorio/) |
+| 838 | 56/56 · 13/15 | E1.7.13 | Emprender sin quemarse: la salud mental del emprendedor | terminada | 3/3 | [Leer](https://moevec.org/blog/emprender-sin-quemarse/) |
 | 839 | 56/56 · 14/15 | E1.7.14 | Responsabilidad institucional: qué deben hacer empresas y escuelas | pendiente | 0/3 | — |
 | 840 | 56/56 · 15/15 | E1.7.15 | Primeros auxilios psicológicos: cómo acompañar a alguien en crisis | pendiente | 0/3 | — |
