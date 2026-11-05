@@ -421,3 +421,8 @@ El fundador pidió que, al terminar cada bloque de tres, se comience el siguient
 WordPress:834/840 terminadas,2502 originales públicos,0 borradores o en curso y6 pendientes. Las seis pendientes tienen cuerpo preparado y3/3originales locales (18 en total); no cuentan como terminadas. Sus títulos originales siguen intactos, con propuestas alternativas sin aplicar. Falta resolver las consultas de título ya enviadas y realizar revisión final de metadatos/publicación/verificación.
 
 Detalle: `docs/produccion/2026-11-05-seis-titulos-pendientes.md`. El seguimiento permanece activo; no se ha alcanzado840/840.
+
+
+## Incidencia de espacio resuelta ·05/11/2026 ·09:41 UTC
+
+La exportación local falló con ENOSPC. Se retiraron 568 archivos de metadatos de registro pnpm en caché, anteriores a siete días (343.020.740 bytes), conservando artículos, originales y respaldos. La sincronización se completó a 2026-11-05T09:41:18+00:00: 834/840 terminadas, 0 en curso y 6 pendientes de resolución de título. Espacio medido después de la sincronización: 1.742.659.584 bytes, variable según el uso del sistema. No se publicó contenido ni se modificaron títulos. Mantener el seguimiento activo y comprobar espacio antes de escribir. Evidencia: `editorial/capacity-incident-2026-11-05T0938.json`.
