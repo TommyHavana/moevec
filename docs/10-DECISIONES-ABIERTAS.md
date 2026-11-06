@@ -2488,3 +2488,8 @@ El fundador autorizó «Ejecuta todo lo que puedas». Producto desplegado desde 
 Preparados calendario de 840 revisiones, cuatro tarjetas sociales, avatar, doce ideas y tres carruseles completos. Enlaces entrantes desde cuerpos: 328 carencias iniciales, 311 tras la selección aplicada; no equivale a páginas huérfanas y las propuestas restantes no se cuentan como publicadas. El ensayo de recuperación aislado se documenta con su resultado definitivo en el documento 30 y su evidencia. Pendientes: datos legales, acceso a cuentas (Mac bloqueado durante la comprobación), conexiones de medición a cargo del fundador y destino externo cifrado. Tienda/red/boletín requieren operación propia. No reiniciar producción ni crear otra automatización.
 
 Detalle y siguiente punto: `30-EJECUCION-MEJORAS.md`. Operación: `31-OPERACION-Y-MEDICION.md`. Datos pendientes: `32-DATOS-PENDIENTES-DEL-TITULAR.md`.
+
+
+## Gestión de temas y plugins desde WordPress · 06/11/2026
+
+Hello Elementor restaurado y actualizado a 3.5.2 desde el panel; `mee-child` activo, cinco temas sin errores. El titular autorizó expresamente escritura sobre los árboles de temas y plugins después del rechazo automático inicial. Se aplicó propietario www-data con padres 0755, conservando configuración/credenciales protegidas. Instalación y sustitución de un plugin temporal vacío correctas, sin activarlo; retirado al terminar. Blog HTTP 200. Corrección de arranque preparada para conservar las actualizaciones externas en futuros despliegues; publicación pendiente de comprobación final. Detalle: `33-ADMINISTRACION-WORDPRESS.md`; evidencia en `inventario/admin-wordpress-2026-11-06/`.
