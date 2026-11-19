@@ -1,10 +1,10 @@
 # MEE · Movimiento de Evolución Económica
 
-Proyecto oficial local para Codex, con React/Next.js y el kit de marca en **una sola carpeta**. **Ahora se termina React; WordPress vendrá después.** Sin Git, sin GitHub Actions y sin despliegue. La fuente completa que aportó el fundador desde Claude se conserva en `fuentes/claude/`.
+Proyecto oficial local con React/Next.js y el kit de marca en **una sola carpeta**. **Ahora se termina React; WordPress vendrá después.** Sin Git, sin GitHub Actions y sin despliegue. La fuente completa que aportó el fundador desde Claude se conserva en `fuentes/claude/`.
 
 ## Empezar en el ordenador
 
-1. Abre **esta carpeta `mee-web`** como proyecto en Codex; no abras la carpeta `fuentes/claude` como proyecto principal.
+1. Abre **esta carpeta `mee-web`** como proyecto; no abras la carpeta `fuentes/claude` como proyecto principal.
 2. Lee [la guía de inicio oficial](docs/12-INICIO-OFICIAL-CODEX.md), `AGENTS.md` y `docs/00-LEER-PRIMERO.md`. Si vas a trabajar el contenido, lee `docs/03-EDITORIAL-CATEGORIAS.md` y la fuente `fuentes/claude/docs/02-taxonomia.md`.
 3. En la terminal de `mee-web`, ejecuta `npm ci`; `npm run build` sincroniza el contenido automáticamente.
 4. Ejecuta `npm run dev` y abre `http://localhost:3000`.
