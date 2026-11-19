@@ -1,8 +1,8 @@
-# Inicio oficial del proyecto MEE en Codex
+# Inicio oficial del proyecto MEE
 
 ## Carpeta que debes abrir
 
-Abre **`~/Documents/Proyectos/mee/mee-web/`** como carpeta local del proyecto en Codex. Es la raíz autocontenida: código React/Next.js, documentación, contenido generado, fuente original, imágenes y `brand-kit/`. No abras `fuentes/claude/` como proyecto independiente ni necesitas crear un repositorio Git.
+Abre **`~/Documents/Proyectos/mee/mee-web/`** como carpeta local del proyecto. Es la raíz autocontenida: código React/Next.js, documentación, contenido generado, fuente original, imágenes y `brand-kit/`. No abras `fuentes/claude/` como proyecto independiente ni necesitas crear un repositorio Git.
 
 Si partes de `MEE_Proyecto_Codex_Oficial.zip`, extráelo en una ubicación estable de tu ordenador y abre la carpeta `mee-web/` que contiene `package.json` y `AGENTS.md`. Si ya trabajas en la carpeta local `mee-web/`, sigue ahí; el ZIP sirve como copia transportable.
 
@@ -31,7 +31,7 @@ Sin Git, crea un respaldo antes de cada cambio grande y al cerrar cada sesión c
 
 | Ruta | Función |
 | --- | --- |
-| `AGENTS.md` | Reglas vigentes para Codex; leer primero. |
+| `AGENTS.md` | Reglas vigentes para; leer primero. |
 | `docs/00-LEER-PRIMERO.md` | Fuentes, decisiones y orden de lectura. |
 | `prompts/INICIO-CODEX.md` | Encargo ejecutable para la primera sesión oficial. |
 | `app/`, `lib/`, `content/`, `scripts/` | React/Next, navegación, datos y sincronización editorial. |
